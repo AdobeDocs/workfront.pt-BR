@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -208,7 +208,7 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
    Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
 1. Clique dentro da linha de um registro para começar a editar informações sobre o registro em linha.
 
-   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+   ![Editar campo de parágrafo de registro com exibição de tabela de formatação](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
    >[!TIP]
    >
@@ -226,7 +226,7 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
    * Adicionar uma lista com marcadores
    * Adicionar uma lista numerada
 
-   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+   ![Barra de ferramentas de rich text no campo de parágrafo](assets/rich-text-toolbar-on-paragraph-field.png)
 
 1. (Opcional) Clique duas vezes em um campo de registro conectado para adicionar registros ou objetos conectados a outro registro. Para obter mais informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 1. Pressione **Enter** no teclado ou clique fora de uma linha para salvar as alterações. As alterações são salvas automaticamente. Um indicador **Salvo** é exibido brevemente no canto superior direito da exibição de tabela para mostrar que as alterações foram salvas.
@@ -240,7 +240,7 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
    * Copie as informações de uma célula, selecione várias células e cole as mesmas informações em várias células. Você pode selecionar várias células e colar as mesmas informações em várias células de linhas e colunas adjacentes.
    * Selecione o canto inferior direito de uma célula existente que contenha as informações que você deseja copiar e, em seguida, arraste e solte-a nas células adjacentes onde deseja colar as mesmas informações. Todas as células devem conter o mesmo tipo de informação.
 
-     ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
+     ![Canto inferior direito arrastável para copiar e colar na exibição de tabela](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
    <div class="preview">
 
@@ -293,11 +293,11 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
 
    Ou
 
-   Na exibição de tabela, clique no ícone ![](assets/open-details-icon-in-table-name-field.png) de **Abrir detalhes** na primeira coluna. A visualização do registro é aberta na exibição.
+   Na exibição de tabela, clique no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome de tabela](assets/open-details-icon-in-table-name-field.png) na primeira coluna. A visualização do registro é aberta na exibição.
 
    <div class="preview">
 
-   ![](assets/details-box.png)
+   ![Caixa Detalhes](assets/details-box.png)
 
    </div>
 
@@ -316,11 +316,11 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
 
 1. (Opcional) Clique em **Adicionar capa** para adicionar uma imagem de capa ao registro. Para obter mais informações, consulte [Adicionar uma imagem de capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Opcional) Passe o mouse sobre o ícone de miniatura, em seguida, clique em **Mais** ![](assets/more-menu.png) > **Editar miniatura** para adicionar uma imagem em miniatura. Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Opcional) Passe o mouse sobre o ícone de miniatura, em seguida, clique em **Mais** ![Mais menu](assets/more-menu.png) > **Editar miniatura** para adicionar uma imagem em miniatura. Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    O Workfront salva suas alterações automaticamente.
 
-1. <span class="preview"> (Opcional) Clique no **indicador em tempo real** ![](assets/real-time-indicator-icon.png) no canto superior direito da caixa de visualização do registro e habilite a configuração **Mostrar colaboradores** para realçar os campos que estão sendo editados por outros em tempo real.
+1. <span class="preview"> (Opcional) Clique no **indicador em tempo real** ![ícone de indicador em tempo real](assets/real-time-indicator-icon.png) no canto superior direito da caixa de visualização do registro e habilite a configuração **Mostrar colaboradores** para realçar os campos que estão sendo editados por outros em tempo real.
 
    Os nomes e avatares de todos os usuários que acessam o registro ao mesmo tempo são exibidos nessa área.
 
@@ -328,13 +328,13 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Caixa de visualização de registro expandida do indicador em tempo real](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. (Opcional) Clique no menu ![](assets/export-icon-in-record-details-page.png) **Exportar** para exportar os detalhes do registro. Para obter informações, consulte [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Opcional) Clique no menu **Exportar** ![ícone Exportar na página de detalhes do registro](assets/export-icon-in-record-details-page.png) para exportar os detalhes do registro. Para obter informações, consulte [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md).
 
-1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia. Continue editando o registro conforme descrito na seção [Editar um registro da página do registro](#edit-a-record-from-the-records-page) deste artigo.
+1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia. Continue editando o registro conforme descrito na seção [Editar um registro da página do registro](#edit-a-record-from-the-records-page) deste artigo.
 
 ### Editar um registro da página do registro
 
@@ -350,15 +350,15 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
 
 1. Siga um destes procedimentos:
 
-   * Em qualquer exibição, acesse a visualização do registro, conforme descrito na seção [Editar um registro da visualização do registro em uma exibição](#edit-a-record-from-the-records-preview-in-a-view) deste artigo, em seguida, clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> de **Abrir em nova guia** no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
+   * Em qualquer exibição, acesse a visualização do registro, conforme descrito na seção [Editar um registro da visualização do registro em uma exibição](#edit-a-record-from-the-records-preview-in-a-view) deste artigo, em seguida, clique no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
-   * Na exibição **Tabela**, passe o mouse sobre o nome de um registro, em seguida, clique no menu **Mais** ![](assets/more-menu.png) e, em seguida, clique em **Exibir**
+   * Na exibição **Tabela**, passe o mouse sobre o nome de um registro e clique no menu **Mais** ![Mais menu](assets/more-menu.png) e, em seguida, clique em **Exibir**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Menu contextual da linha de registro](assets/contextual-menu-for-record-row.png)
 
      A página de registro é aberta.
 
-     ![](assets/details-page.png)
+     ![Página de detalhes](assets/details-page.png)
 
 1. (Opcional) Clique no menu **Mais** à direita do título do registro e clique em **Renomear**. Isso atualiza o campo que é exibido como o título do registro.
 
@@ -378,17 +378,17 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
 
    Ou
 
-   Passe o mouse sobre a imagem de capa existente, em seguida, clique no menu **Mais** ![](assets/more-menu.png) > **Carregar** para adicionar uma nova imagem de capa para o registro.
+   Passe o mouse sobre a imagem de capa existente, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) > **Carregar** para adicionar uma nova imagem de capa para o registro.
 
    Para obter mais informações, consulte [Adicionar uma imagem de capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Opcional) Passe o mouse sobre uma miniatura existente ou sobre o **ícone de miniatura** ![](assets/record-thumbnail-icon-on-details-page.png) e clique no menu **Mais** ![](assets/more-menu.png) > **Editar miniatura** para adicionar uma miniatura para o registro.
+1. (Opcional) Passe o mouse sobre uma miniatura existente ou sobre o **ícone de miniatura** ![Ícone de miniatura do registro na página de detalhes](assets/record-thumbnail-icon-on-details-page.png) e clique no **Mais** menu ![Mais](assets/more-menu.png) > **Editar miniatura** para adicionar uma miniatura para o registro.
 
    Para obter mais informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    O Workfront salva suas alterações automaticamente.
 
-1. <span class="preview"> (Opcional) Clique no **indicador em tempo real** ![](assets/real-time-indicator-icon.png) no canto superior direito da página do registro e habilite a configuração **Mostrar colaboradores** para realçar os campos que estão sendo editados por outros em tempo real.
+1. <span class="preview"> (Opcional) Clique no **indicador em tempo real** ![ícone de indicador em tempo real](assets/real-time-indicator-icon.png) no canto superior direito da página do registro e habilite a configuração **Mostrar colaboradores** para realçar os campos que estão sendo editados por outros em tempo real.
 
    Os nomes e avatares de todos os usuários que acessam o registro ao mesmo tempo são exibidos nessa área.
 
@@ -396,11 +396,11 @@ Para obter mais informações, consulte [Gerenciar exibições de registros](/he
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Caixa de visualização de registro expandida do indicador em tempo real](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. (Opcional) Clique no menu ![](assets/export-icon-in-record-details-page.png) **Exportar** para exportar os detalhes do registro. Para obter informações, consulte [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Opcional) Clique no menu **Exportar** ![ícone Exportar na página de detalhes do registro](assets/export-icon-in-record-details-page.png) para exportar os detalhes do registro. Para obter informações, consulte [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md).
 
 
 ## Editar um registro de um objeto do Workfront na seção Planejamento

@@ -6,9 +6,9 @@ description: Se um projeto estiver associado a um grupo, você poderá aplicar t
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Quando você atualiza o Grupo de um projeto, as opções disponíveis para o Sta
    >Se você selecionar um grupo diferente no menu suspenso **Grupo**, os status personalizados no menu **Status** serão alterados automaticamente para se correlacionarem com o novo grupo.
    >
    >
-   >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![Lista suspensa de status expandida com status personalizados para o projeto](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
    >
 
 1. Selecione o status do projeto. Os status personalizados criados e aplicados a esse grupo são exibidos na lista.

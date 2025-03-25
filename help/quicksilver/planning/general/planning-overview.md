@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1878'
 ht-degree: 2%
 
 ---
@@ -184,7 +184,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
 * **Workspace**: uma coleção de tipos de registro que define o ciclo de vida operacional de uma determinada organização. Um espaço de trabalho é o quadro de trabalho de uma unidade organizacional.
 
-  ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+  ![Espaço de trabalho de marketing com taxonomias de tipo de registro abrindo página](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Para obter mais informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -202,7 +202,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
 * **Registro**: uma instância de um tipo de registro.
 
-  ![](assets/records-highlighted-in-campaign-record-type-list.png)
+  ![Registros destacados na lista de tipos de registro de campanha](assets/records-highlighted-in-campaign-record-type-list.png)
 
   Depois de adicionar um tipo de registro a um espaço de trabalho, você pode começar a adicionar registros desse tipo na página do tipo de registro.
 
@@ -212,7 +212,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
 * **Modelo do Workspace**: você pode criar um espaço de trabalho usando modelos predefinidos. Você pode usar os tipos de registro e campos predefinidos incluídos em um modelo ou pode adicionar os seus próprios.
 
-  ![](assets/workspaces-page-with-templates-thumbnails.png)
+  ![Página de espaços de trabalho com miniaturas de modelos](assets/workspaces-page-with-templates-thumbnails.png)
 
   O Adobe Workfront Planning contém os seguintes modelos:
 
@@ -226,7 +226,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
 * **Campos**: os campos são atributos que podem ser adicionados aos tipos de registro. Os campos contêm informações sobre o tipo de registro. <!--check the shot below, "Connection" needs to be in lowercase-->
 
-  ![](assets/drop-down-list-of-record-fields.png)
+  ![Lista suspensa de campos de registro](assets/drop-down-list-of-record-fields.png)
 
   Considerações sobre campos de registro:
 
@@ -274,7 +274,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
      Você deve ter uma licença do Adobe Experience Manager para vincular tipos de registro a objetos do Experience Manager.
 
-     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+     ![Nova guia de conexão com opções do Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   Depois de estabelecer uma conexão entre os tipos de registro, você pode conectar registros individuais ou objetos desses tipos uns aos outros. A conexão entre os registros é exibida como um campo de registro conectado ou uma conexão.
@@ -283,7 +283,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
   Por exemplo, se você conectar um tipo de registro de Campanha a um tipo de objeto Projeto do Workfront, será possível exibir o campo Orçamento dos projetos conectados nos registros da campanha.
 
-  ![](assets/add-lookup-fields-modal.png)
+  ![Adicionar caixa de campos de pesquisa](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
@@ -303,7 +303,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
 * **Exibições**: os registros são exibidos na respectiva página de tipo de registro em diferentes tipos de exibições.
 
-  ![](assets/view-types-drop-down-from-record-type-list.png)
+  ![Exibir lista suspensa de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
 
   As exibições contêm configurações personalizadas de um tipo de exibição específico, como a lista de campos (colunas), uma lista de registros (linhas), sua ordem (classificação), um filtro aplicado ou aplicável e um agrupamento.
 
@@ -311,14 +311,14 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
    * **Modo de exibição de tabela**: mostra registros e seus campos, incluindo campos conectados e de pesquisa, em formato de tabela. As linhas da tabela são os registros individuais e as colunas são os campos de registro. A exibição em tabela é a exibição padrão.
 
-     ![](assets/table-view-example.png)
+     ![Exemplo de exibição de tabela](assets/table-view-example.png)
 
    * **Modo de exibição de Linha do Tempo**: mostra registros que têm pelo menos dois campos do tipo Data em uma linha do tempo cronológica. Você pode exibir até 5 tipos de registros conectados e seus registros na exibição de linha do tempo.
 
-     ![](assets/grouping-applied-in-timeline-view.png)
+     ![Agrupamento aplicado na exibição de linha do tempo](assets/grouping-applied-in-timeline-view.png)
 
    * **Modo de exibição de calendário**: mostra registros que têm pelo menos dois campos do tipo Data em um formato de calendário.
-     ![](assets/calendar-view-example.png)
+     ![Exemplo de exibição de calendário](assets/calendar-view-example.png)
 
 
 Para obter mais informações, consulte [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
@@ -333,11 +333,11 @@ Para localizar o Workfront Planning:
 
 {{step1-click-main-menu}}
 
-1. Clique em **Planning** ![](assets/planning-icon.png).
+1. Clique em **Planning** ![Ícone Planning](assets/planning-icon.png).
 
    A página principal do Workfront Planning é aberta.
 
-   ![](assets/planning-landing-page-admin.png)
+   ![Administrador da página de aterrissagem do Planning](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >

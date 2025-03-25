@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '625'
 ht-degree: 1%
 
 ---
@@ -53,13 +53,13 @@ Não é possível alterar o status de um projeto para concluído se você tiver 
 
 Se o modo de conclusão do projeto estiver definido como Automático, quando todas as tarefas e problemas forem concluídas, o status do projeto automaticamente se tornará Concluído e você não poderá modificá-lo para nenhum outro status. O Modo de conclusão do projeto deve ser definido como Manual para poder transformar um projeto completo em Atual. Para obter informações, consulte [O status do projeto não será alterado de Concluído para Atual](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
-## Por que não posso adicionar um projeto a um Portfolio, embora tenha as permissões corretas para fazer isso?
+## Por que não posso adicionar um projeto a uma Portfolio, embora tenha as permissões corretas para fazer isso?
 
-Embora eu tenha as permissões corretas, o botão Adicionar projetos está ausente na guia Projetos do Portfolio.
+Embora eu tenha as permissões corretas, o botão Adicionar projetos não aparece na guia Projetos do Portfolio.
 
 ### Responder
 
-Isso é causado pelo Status de Portfolio estar Inativo. Para alterar o status do Portfolio:
+Isso é causado pelo Status de Portfolio estar Inativo. Para alterar o status da Portfolio:
 
 1. Clique em **Detalhes do Portfolio > Visão geral**.
 1. Alterar o **Status** para **Ativo.**
@@ -99,6 +99,6 @@ A seguir estão os Status de Orçamento:
 
 O administrador do Adobe Workfront restringiu você a visualizar somente Empresas, Grupos e equipes aos quais você pertence em seu Nível de acesso do. A equipe que você está procurando não é uma das equipes às quais você pertence.
 
-![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+![Exibir apenas equipes, grupos e empresas às quais pertencem](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
 Para obter informações sobre como permitir que um usuário visualize todas as equipes no sistema, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).

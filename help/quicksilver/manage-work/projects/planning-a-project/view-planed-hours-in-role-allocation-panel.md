@@ -6,9 +6,9 @@ description: Você pode visualizar a alocação de funções para todas as funç
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -107,11 +107,11 @@ Você deve ter o seguinte:
    * **Tarefas**
    * **Balanceador de carga de trabalho**
 
-1. Clique no ícone ![](assets/show-role-allocation-icon.png) **Mostrar alocação de função**.
+1. Clique no ícone **Mostrar alocação de função** ![Mostrar ícone de alocação de função](assets/show-role-allocation-icon.png).
 
    O painel Alocação de função é exibido.
 
-   ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![Painel de alocação de funções somente com horas planejadas](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Revise as seguintes informações no painel **Alocação de função**:
 

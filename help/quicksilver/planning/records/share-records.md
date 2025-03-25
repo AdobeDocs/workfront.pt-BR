@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '517'
 ht-degree: 1%
 
 ---
@@ -196,9 +196,9 @@ O espaço de trabalho que você acessou por último é aberto.
 
    Ou
 
-   Passe o mouse sobre o nome de um registro, clique no menu **Mais** ![](assets/more-menu.png) e clique em **Copiar link**.
+   Passe o mouse sobre o nome de um registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) e clique em **Copiar link**.
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![Menu contextual da linha de registro](assets/contextual-menu-for-record-row.png)
 
    O link é copiado para a área de transferência.
 

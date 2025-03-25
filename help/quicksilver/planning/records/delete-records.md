@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -124,18 +124,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Siga um destes procedimentos:
 
    * Em uma exibição de Tabela, clique no nome de um registro.
-   * Na exibição de Tabela, passe o mouse sobre o nome de um registro, em seguida, clique no menu **Mais** ![](assets/more-menu.png) e, em seguida, clique em **Exibir**
+   * Na exibição de Tabela, passe o mouse sobre o nome de um registro e clique no menu **Mais** ![Mais menu](assets/more-menu.png) e clique em **Exibir**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Menu contextual da linha de registro](assets/contextual-menu-for-record-row.png)
    * Em uma exibição de Linha do tempo, clique em uma barra de registro.
 
    A página de registro é aberta.
 
-1. Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do registro e clique novamente em **Excluir** e **Excluir** para confirmar.
+1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do registro e clique em **Excluir** e depois em **Excluir** novamente para confirmar.
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   ![Mais opções de menu da página de detalhes do registro](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 O registro é excluído.
-1. (Opcional e condicional) Se você excluir o registro no ambiente de Visualização, vá para a exibição de tabela da página de registro e clique no ícone **Desfazer** ![](assets/undo-icon.png) no canto superior direito da exibição e, em seguida, clique em **Excluído recentemente** para recuperar os registros excluídos.
+1. (Opcional e condicional) Se você excluir o registro no ambiente de Visualização, vá para a exibição de tabela da página de registro e clique no ícone **Desfazer** ![Ícone Desfazer](assets/undo-icon.png) no canto superior direito da exibição e clique em **Excluído recentemente** para recuperar os registros excluídos.
 
 Para obter informações sobre como recuperar registros excluídos, consulte [Recuperar registros excluídos](/help/quicksilver/planning/records/restore-deleted-records.md).
 
@@ -156,17 +156,17 @@ Para obter informações sobre como recuperar registros excluídos, consulte [Re
 1. Siga um destes procedimentos:
 
    * Clique com o botão direito do mouse em uma linha de registro e clique em **Excluir**.
-   * Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do registro e em **Excluir**.
+   * Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do registro e clique em **Excluir**.
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Menu contextual da linha de registro](assets/contextual-menu-for-record-row.png)
 
-   * Clique no ícone ![](assets/open-details-icon-in-table-name-field.png) de **Abrir detalhes** para abrir a caixa com as informações detalhadas do registro e clique em **Mais** ![](assets/more-menu.png) à direita do nome do registro e em **Excluir**.
+   * Clique no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome de tabela](assets/open-details-icon-in-table-name-field.png) para abrir a caixa com as informações detalhadas do registro e clique no menu **Mais** ![Mais](assets/more-menu.png) à direita do nome do registro e **Excluir**.
 
    O registro é excluído.
 
 1. (Opcional) Siga um destes procedimentos para desfazer ou refazer a exclusão de um registro:
 
-   * Clique no ícone **Desfazer** ![](assets/undo-icon.png) e em **Excluído recentemente** para recuperar os registros excluídos. Para obter informações sobre como recuperar registros excluídos, consulte [Recuperar registros excluídos](/help/quicksilver/planning/records/restore-deleted-records.md).
+   * Clique no ícone **Desfazer** ![Ícone Desfazer](assets/undo-icon.png) e **Excluído recentemente** para recuperar os registros excluídos. Para obter informações sobre como recuperar registros excluídos, consulte [Recuperar registros excluídos](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Use os atalhos de teclado a seguir para desfazer ou refazer a exclusão de um registro:
 
       * CTRL + Z (⌘ + Z para Mac) para desfazer a exclusão de um registro

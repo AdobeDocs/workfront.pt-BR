@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '661'
 ht-degree: 3%
 
 ---
@@ -114,14 +114,14 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 1. Em qualquer exibição, clique no nome de um registro.
 
    A página do registro é aberta. A área Comentários é aberta por padrão no painel direito.
-1. Clique no ícone ![](assets/show-history-icon.png) **Mostrar Histórico**. Todas as alterações feitas nos campos do registro são exibidas no painel direito, começando pela mais recente.
-1. (Opcional) Clique no ícone ![](assets/hide-history-icon.png) de **Ocultar Histórico** para fechar o painel direito.
+1. Clique no ícone **Mostrar Histórico** ![Ícone Mostrar histórico](assets/show-history-icon.png). Todas as alterações feitas nos campos do registro são exibidas no painel direito, começando pela mais recente.
+1. (Opcional) Clique no ícone **Ocultar Histórico** ![Ocultar ícone de histórico](assets/hide-history-icon.png) para fechar o painel direito.
 
 ## Considerações sobre a seção Histórico
 
 Você pode revisar as alterações feitas nos campos de registro na seção History do painel direito da página de um registro.
 
-![](assets/history-area-in-comments.png)
+![Área de Histórico em Comentários](assets/history-area-in-comments.png)
 
 * O Workfront Planning registra as seguintes informações na seção Histórico:
 

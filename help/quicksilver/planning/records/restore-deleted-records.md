@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -109,11 +109,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Restaurar registros excluídos
 
 1. Vá para a página de tipo de registro na qual você excluiu registros.
-1. Clique no ícone **Desfazer** ![](assets/undo-icon.png) no canto superior direito de qualquer exibição de página de tipo de registro e clique em **Excluído recentemente**.
+1. Clique no ícone **Desfazer** ![Ícone Desfazer](assets/undo-icon.png) no canto superior direito de qualquer exibição de página de tipo de registro e clique em **Excluído recentemente**.
 
    A caixa **Excluído recentemente** é exibida.
 
-   ![](assets/recently-deleted-box.png)
+   ![Caixa excluída recentemente](assets/recently-deleted-box.png)
 
 1. Selecione os registros que deseja excluir e clique em **Restaurar** > **Restaurar**. Você pode selecionar mais de um registro.
 

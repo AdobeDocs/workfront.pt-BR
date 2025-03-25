@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1459'
 ht-degree: 1%
 
 ---
@@ -204,7 +204,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Recurso | Exibição em tabela | Visualização da linha do tempo | Exibição de calendário |
+| Recurso | Exibição em tabela | Exibição da linha do tempo | Exibição de calendário |
 |-----------------------------------------------------------------------|------------|---------------|--------------|
 | Exibir registros em uma lista ou tabela | ✓ |              | |
 | Exibir todos os campos como colunas na tabela, por padrão | ✓ |              |    |
@@ -252,7 +252,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
    Uma nova guia é criada com a exibição selecionada.
 
-   Dependendo da largura da tela, modos de exibição adicionais podem ser exibidos no menu **Mais** ![](assets/more-menu.png).
+   Dependendo da largura da tela, modos de exibição adicionais podem ser exibidos no menu **Mais** ![Mais menu](assets/more-menu.png).
 
 
 >[!TIP]
@@ -264,7 +264,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 >Caso contrário, as opções Linha do tempo e Calendário estarão esmaecidas.
 >
 
-![](assets/view-types-drop-down-from-record-type-list.png)
+![Exibir lista suspensa de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Condicional) Clique em **Avançar** ao criar uma exibição de linha do tempo ou calendário.
 
@@ -285,10 +285,10 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 1. Clique em **Criar**.
 
    A visualização é exibida como uma nova guia. As exibições são exibidas na ordem cronológica de quando foram criadas ou compartilhadas com você.
-1. (Opcional) Clique no menu **Mais** ![](assets/more-caret-down-icon-views.png) ao lado da última exibição para exibir todas as exibições do tipo de registro selecionado.
+1. (Opcional) Clique no menu **Mais** ![Mais exibições de ícones de seta para baixo](assets/more-caret-down-icon-views.png) ao lado da última exibição para exibir todas as exibições do tipo de registro selecionado.
 
    Exibições adicionais são exibidas no menu **Mais** após a última guia de exibição. O número ao lado do menu **Mais** mostra o número de exibições adicionais.
-1. (Opcional) Para renomear uma exibição depois de sua criação, clique no menu suspenso exibição e no menu **Mais** ![](assets/more-menu.png) > **Renomear** para atualizar o nome da exibição
+1. (Opcional) Para renomear uma exibição depois de sua criação, clique no menu suspenso exibição e no menu **Mais** ![Mais menu](assets/more-menu.png) > **Renomear** para atualizar o nome da exibição
 
    Ou
 
@@ -315,7 +315,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-1. Passe o mouse sobre um dos nomes de exibição na guia de exibição, em seguida, clique em **Mais** ![](assets/more-menu.png) à esquerda do nome da exibição e em **Excluir**.
+1. Passe o mouse sobre um dos nomes de exibição na guia de exibição e clique em **Mais** ![Mais menu](assets/more-menu.png) à esquerda do nome de exibição e clique em **Excluir**.
 Primeiro, talvez seja necessário clicar em **Mais** à esquerda da última guia para localizar o modo de exibição que você deseja excluir.
 
 1. Clique em **Excluir** para confirmar. <!--ensure there is not another saving step here?!-->
@@ -345,9 +345,9 @@ As permissões de compartilhamento da exibição original não são transferidas
    A página de tipo de registro é aberta.
 Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-1. Passe o mouse sobre a guia da exibição que você deseja duplicar, clique no menu **Mais** ![](assets/more-menu.png) à direita do nome da exibição e clique em **Duplicar**.
+1. Passe o mouse sobre a guia da exibição que você deseja duplicar e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da exibição e clique em **Duplicar**.
 
-   ![](assets/view-more-menu-with-duplicate-option.png)
+   ![Exibir mais menus com opção de duplicação](assets/view-more-menu-with-duplicate-option.png)
 
 
    A exibição está duplicada e o nome da nova exibição segue o seguinte padrão: `Original view's name (Copy)`. A nova guia de exibição é exibida no final de todas as guias de exibição.
@@ -362,13 +362,13 @@ Ao exibir a visualização de tabela, você também pode visualizar qual campo o
 1. (Condicional) Se houver outros usuários editando os registros do tipo selecionado ao mesmo tempo, seus avatares serão exibidos no canto superior direito da exibição.
 1. Clique no menu suspenso ao lado dos avatares e selecione a opção **Mostrar colaboradores**. O botão de alternância é selecionado por padrão.
 
-   ![](assets/show-collaborators-toggle-selected.png)
+   ![Exibir alternância de colaboradores selecionada](assets/show-collaborators-toggle-selected.png)
 
 1. (Condicional) Abra uma exibição de tabela e o campo que outra pessoa está editando ativamente será destacado na cor correspondente ao contorno do avatar na exibição de tabela.
 
    Se a cor de destaque do avatar for cinza, o usuário parou de editar ativamente o registro há mais de 30 segundos.
 
-   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+   ![Conexão de avatar e campo da tabela de indicadores em tempo real](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >

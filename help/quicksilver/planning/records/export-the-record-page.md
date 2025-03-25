@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -118,11 +118,11 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 
    A caixa de visualização do registro é aberta.
 
-1. (Opcional) Clique no ícone ![](assets/open-details-in-a-new-tab-icon.png) de **Abrir em nova guia** para abrir a página do registro.
+1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) para abrir a página do registro.
 
 1. Escolha a guia **Detalhes**. A guia Detalhes deve ser aberta por padrão.
 
-1. Clique no menu **Exportar** ![](assets/export-icon-in-record-details-page.png) na visualização ou na página do registro e clique em uma das seguintes opções:
+1. Clique no menu **Exportar** ![ícone Exportar na página de detalhes do registro](assets/export-icon-in-record-details-page.png), na visualização ou na página do registro, e clique em uma das seguintes opções:
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -131,7 +131,7 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 
    O nome do arquivo exportado é o campo Primary do registro.
 
-   ![](assets/exported-word-file.png)
+   ![Arquivo Word exportado](assets/exported-word-file.png)
 
    >[!NOTE]
    >

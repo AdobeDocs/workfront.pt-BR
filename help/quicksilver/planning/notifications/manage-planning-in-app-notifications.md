@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
@@ -160,9 +160,9 @@ OLD:
 
 ## Gerenciar notificações no aplicativo quando alguém adicionar uma tag a você em um comentário
 
-1. (Condicional) Depois que alguém marcar você em um comentário em um registro, vá para o ícone **Notificações** no aplicativo ![](assets/experience-cloud-notifications-icon.png) no Adobe Experience Cloud.
+1. (Condicional) Depois que alguém marcar você em um comentário em um registro, vá para o ícone **Notificações** no aplicativo ![ícone Notificações da Experience Cloud](assets/experience-cloud-notifications-icon.png) na Adobe Experience Cloud.
 
-   ![](assets/in-app-notification-example.png)
+   ![Exemplo de notificação no aplicativo](assets/in-app-notification-example.png)
 
 1. Clique na notificação.
 

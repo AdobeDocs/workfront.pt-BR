@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ Para alterar o compartilhamento de um formulário de solicitação:
 
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
 
-1. Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Atualizar formulário de solicitação**.
+1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Atualizar formulário de solicitação**.
 1. Clique em **Compartilhar** no canto superior direito da tela e atualize as opções de compartilhamento. Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 1. (Opcional) Clique em **Copiar link**, se você alterou o compartilhamento do formulário de solicitação e deseja compartilhá-lo com o novo grupo de pessoas com um novo link.
 
@@ -142,10 +142,10 @@ Quando um formulário de solicitação se torna irrelevante e você não deseja 
 
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
 
-1. Clique no menu **Mais** ![](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Atualizar formulário de solicitação**.
+1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Atualizar formulário de solicitação**.
 1. Clique em **Cancelar publicação** no canto superior direito.
 
-   ![](assets/unpublish-button-highlighted.png)
+   ![Botão Cancelar publicação realçado](assets/unpublish-button-highlighted.png)
 
    Uma confirmação é exibida na parte inferior da tela notificando que a publicação do formulário foi cancelada.
 

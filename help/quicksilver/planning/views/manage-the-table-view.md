@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2876'
+source-wordcount: '2932'
 ht-degree: 2%
 
 ---
@@ -171,7 +171,7 @@ Para gerenciar uma exibição de tabela:
 
 1. Crie uma exibição de tabela, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![](assets/table-view-example.png)
+   ![Exemplo de exibição de tabela](assets/table-view-example.png)
 
 1. (Opcional) Clique em **Altura da linha** e selecione uma das seguintes opções para modificar a altura das linhas da tabela:
    * Pequena
@@ -209,7 +209,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    * Clique em **Campos** na barra de ferramentas da tabela, arraste e solte os campos na ordem desejada e clique fora da caixa **Visibilidade e ordem dos campos** para fechá-la.
 
-     ![](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![Barra de ferramentas de exibição de tabela de configuração de campos expandida](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
@@ -224,7 +224,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
 1. (Opcional) Passe o mouse sobre um nome de campo no cabeçalho da coluna de qualquer campo que não seja exibido na primeira coluna da tabela, clique na seta para baixo à direita do nome do campo e clique em **Definir como campo principal**.
 
-   ![](assets/set-as-primary-field-option-table-view.png)
+   ![Definir como opção de campo primário na exibição de tabela](assets/set-as-primary-field-option-table-view.png)
 
 1. Clique em **Definir campo** para confirmar.
 
@@ -253,9 +253,9 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
-   1. Clique no ícone ![](assets/search-icon.png) da **Pesquisa** e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado.
+   1. Clique no ícone **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado.
 
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+      ![Caixa de pesquisa com estrutura azul de resultados na exibição de tabela](assets/search-box-with-results-blue-outline-table-view.png)
 
       Você pode usar qualquer palavra ou caractere especial visível na tela.
 
@@ -284,7 +284,7 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
 
    Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Opcional) Selecione um ou vários registros em uma linha, em seguida, arraste e solte o ícone ![](assets/handle-icon.png) da **alça** à esquerda do registro para reordenar as linhas.
+1. (Opcional) Selecione um ou vários registros em uma linha, em seguida, arraste e solte o ícone **alça** ![alça de ícone](assets/handle-icon.png) à esquerda do registro para reordenar as linhas.
 
    >[!NOTE]
    >
@@ -394,7 +394,7 @@ Para adicionar um filtro a uma exibição de tabela:
 
    * Selecione um valor para o campo selecionado.
 
-   ![](assets/filter-ui-table-view.png)
+   ![Exibição da tabela da interface do usuário do filtro](assets/filter-ui-table-view.png)
 
    Não há limite para quantas condições de filtragem você pode adicionar.
 
@@ -408,7 +408,7 @@ Para adicionar um filtro a uma exibição de tabela:
 
    1. (Opcional) Adicione operadores **AND** ou **OR** adicionais entre vários agrupamentos de condição.
 
-      ![](assets/multi-tiered-filters-in-views.png)
+      ![Filtros de várias camadas em exibições](assets/multi-tiered-filters-in-views.png)
 
    </div>
 
@@ -446,7 +446,7 @@ Para adicionar um agrupamento:
 1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. Clique em **Agrupamento** no canto superior direito da exibição de tabela.
 
-   ![](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![Exibição de tabela de interface de agrupamento com campos vinculados](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Clique em um dos campos sugeridos ou clique em **Escolher um campo diferente**, procure um campo diferente e clique nele quando ele for exibido na lista.
 
@@ -456,7 +456,7 @@ Para adicionar um agrupamento:
 
    O número de campos selecionados para o agrupamento é exibido ao lado do ícone Grouping.
 
-   ![](assets/grouping-applied-in-table-view.png)
+   ![Agrupamento aplicado na exibição de tabela](assets/grouping-applied-in-table-view.png)
 
 1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
@@ -499,7 +499,7 @@ Considere o seguinte ao classificar registros na exibição de tabela:
 Para classificar <!--ungrouped (add this when sorting for groupings will be available--> registros, faça o seguinte:
 
 1. Crie uma exibição de tabela, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. Clique no ícone ![](assets/sort-icon.png) de **Classificação** no canto superior direito da tabela
+1. Clique no ícone **Classificar** ![Ícone Classificar](assets/sort-icon.png) no canto superior direito da tabela
 
    Ou
 
@@ -523,7 +523,7 @@ Para classificar <!--ungrouped (add this when sorting for groupings will be avai
 
 1. Clique fora da caixa **Classificar registros por** para fechá-la.
 
-   ![](assets/sorting-in-table-view.png)
+   ![Classificando na exibição de tabela](assets/sorting-in-table-view.png)
 
    As informações exibidas na tabela são classificadas de acordo com os critérios selecionados.
 

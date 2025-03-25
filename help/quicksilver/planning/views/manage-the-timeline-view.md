@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2692'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ Para gerenciar uma exibição de linha do tempo:
 1. Vá para a página do tipo de registro para a qual deseja exibir a linha do tempo.
 1. Crie uma exibição de linha do tempo, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![](assets/timeline-view-example.png)
+   ![Exemplo de exibição da linha do tempo](assets/timeline-view-example.png)
 
    Os registros associados ao tipo de registro selecionado são exibidos como barras em uma linha do tempo e são classificados em ordem cronológica de sua Data inicial, por padrão.
 
@@ -205,9 +205,9 @@ Para gerenciar uma exibição de linha do tempo:
 
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
-   1. Clique no ícone ![](assets/search-icon.png) da **Pesquisa** e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o registro com a correspondência correta é realçado.
+   1. Clique no ícone **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o registro com a correspondência correta é realçado.
 
-      ![](assets/search-box-and-results-timeline-view.png)
+      ![Caixa de pesquisa e exibição da linha do tempo dos resultados](assets/search-box-and-results-timeline-view.png)
 
       Você pode usar qualquer palavra ou caractere especial visível na tela.
 
@@ -281,7 +281,7 @@ Para adicionar um agrupamento na exibição de linha do tempo:
 1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. Clique em **Agrupamento** no canto superior direito do modo de exibição de linha do tempo.
 
-   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   ![Modo de exibição de linha do tempo da interface de agrupamento com campos vinculados](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Clique em um dos campos sugeridos ou clique em **Escolher um campo diferente**, procure um campo diferente e clique nele quando ele for exibido na lista.
 
@@ -295,7 +295,7 @@ Para adicionar um agrupamento na exibição de linha do tempo:
 
    <!-- update screen shot with view redesign-->
 
-   ![](assets/grouping-applied-in-timeline-view.png)
+   ![O agrupamento se aplica à exibição de linha do tempo](assets/grouping-applied-in-timeline-view.png)
 
 1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
@@ -347,11 +347,11 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    Uma visualização da aparência das barras na linha do tempo é exibida à direita.
 
-   ![](assets/record-details-panel-timeline-settings-with-preview.png)
+   ![Gravar configurações de linha do tempo do painel de detalhes com visualização](assets/record-details-panel-timeline-settings-with-preview.png)
 
 1. Clique em **Cor** no painel esquerdo para personalizar as cores dos registros e agrupamentos na linha do tempo.
 
-   ![](assets/color-tab-timeline-view.png)
+   ![exibição da linha do tempo da guia Cor](assets/color-tab-timeline-view.png)
 
 1. (Condicional e opcional) Se você adicionou um agrupamento à exibição de linha do tempo, selecione uma das seguintes opções para definir uma cor para o agrupamento na seção **Definir cor de agrupamento**:
 
@@ -382,7 +382,7 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
 1. (Condicional) Se você selecionou **Valores de campo** para as cores do registro, selecione um campo no menu suspenso **Corresponder a cor do registro a**.
 
-   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+   ![Menu suspenso do seletor de campos na exibição de linha do tempo](assets/field-selector-drop-down-menu-timeline-view.png)
 
    Somente campos com opções codificadas por cores são exibidos no menu suspenso.
 
@@ -424,7 +424,7 @@ Você pode exibir registros conectados na visualização da linha do tempo de um
 1. (Condicional) Se você estiver vendo a exibição da linha do tempo no modo Padrão, clique em **Detalhamento**.
 1. Expanda a caixa **Selecionar um tipo de registro vinculado** e selecione um tipo de registro conectado. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   ![](assets/breakdown-picker-and-button-on-timeline.png)
+   ![Seletor de detalhamento e botão na exibição de linha do tempo](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
@@ -439,7 +439,7 @@ Você pode exibir registros conectados na visualização da linha do tempo de um
    Uma seta apontando para a direita é exibida na barra do registro selecionado na linha do tempo, caso eles estejam conectados a outros registros.
 1. Clique na seta à direita para expandir um tipo de registro e exibir suas conexões.
 
-   ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+   ![Campanhas detalhadas por programas na exibição de linha do tempo](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
 1. (Opcional) Repita as etapas acima para adicionar mais registros conectados.
 
