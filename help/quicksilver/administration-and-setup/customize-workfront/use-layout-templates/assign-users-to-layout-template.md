@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Como administrador do Adobe Workfront, você pode atribuir um modelo de layout criado a qualquer usuário, função de trabalho, equipe ou grupo que precise usá-lo.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td><p>Novo: Padrão</p>
   <p> Atual: Plano</p>
    </td> 
@@ -57,7 +57,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
  </tbody> 
 </table>
 
-*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -110,8 +110,8 @@ No entanto, somente um modelo de layout fica visível para o usuário em um dete
 
 ## Grande número de usuários atribuídos a um modelo de layout
 
-Se você editar um modelo de layout atribuído a mais de 2000 usuários e fizer alterações nele, somente os primeiros 2000 usuários serão retidos no modelo de layout e verão as alterações feitas. O modelo de layout é removido de todos os outros.
-
+<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+-->
 Se você tiver mais de 2000 usuários para atribuir a um modelo de layout, recomendamos executar um dos seguintes procedimentos:
 
 * Organize os usuários em grupos ou equipes e atribua o modelo de layout a esses grupos ou equipes. Para obter mais informações, consulte [Criar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) e [Criar e gerenciar equipes](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).

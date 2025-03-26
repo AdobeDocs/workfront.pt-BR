@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '2754'
+source-wordcount: '2776'
 ht-degree: 6%
 
 ---
@@ -361,6 +361,10 @@ Cada linha da planilha corresponde a um objeto exclusivo.
    * Se precisar adicionar vários valores de dados no campo personalizado (como botões de opção, caixas de seleção ou listas), use o delimitador de dados personalizado da barra vertical &quot;|&quot; listado na guia Preferências para separar os valores.
 
      **Exemplo:** Digite A|D na coluna DE:Departamentos para preencher os departamentos A e D no formulário personalizado.
+
+     >[!NOTE]
+     >
+     >Use o delimitador &quot;|&quot; somente para separar valores de campos personalizados. Você não pode usá-la em nenhuma outra coluna da planilha, incluindo **setCategoryID**.
 
 ### Incluir datas  {#include-dates}
 
