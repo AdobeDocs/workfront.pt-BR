@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 8d8282e095c902c0e6b2f51585ac0d4ac9b1e177
+source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
 workflow-type: tm+mt
-source-wordcount: '13099'
+source-wordcount: '13107'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 2%
          * [Visão geral da versão do segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [Aprimoramentos do administrador do segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
          * [Aprimoramentos no gerenciamento de documentos do segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md)
+         * [Aprimoramentos no segundo trimestre de 2025 para dispositivos móveis](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md)
          * [Aprimoramentos do projeto do segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md)
+         * [Aprimoramentos nos relatórios do segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md)
          * [Outras melhorias durante o período da versão do segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
          * [Atualizações da aparência durante o período do segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
       * Versão do primeiro trimestre de 2025 {#release-25-q1}

@@ -6,7 +6,8 @@ description: O Adobe Workfront lançou a API versão 19 em 6 de abril de 2022. A
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
+exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
+source-git-commit: 1c1f9f46ea25ffa7d01c1a762b0478a5edb3339e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -437,7 +438,7 @@ Um objeto Função (função de trabalho) representa uma capacidade funcional ou
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Um objeto ScoreCardQuestion representa uma pergunta que foi adicionada a um Scorecard. Essas perguntas geralmente são determinadas pelo gerente de Portfolio, e suas respostas permitem que o gerente entenda como um projeto se alinha com as metas do portfólio.
+Um objeto ScoreCardQuestion representa uma pergunta que foi adicionada a um Scorecard. Essas perguntas geralmente são determinadas pelo gerente da Portfolio e suas respostas permitem que o gerente entenda como um projeto se alinha às metas do portfólio.
 
 <table>
   <tbody>
@@ -522,5 +523,3 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
       </td>
   </tbody>
 </table>
-
-
