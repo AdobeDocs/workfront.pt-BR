@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 3%
+source-wordcount: '658'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 3%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 O Adobe Workfront tem vários tipos de risco padrão que você pode associar a projetos na fase de planejamento para identificar possíveis obstáculos antes da aprovação de qualquer trabalho.
 
@@ -93,7 +93,9 @@ Você pode fazer o seguinte para aprimorar o número de tipos de risco na instâ
 1. Selecione o tipo de risco que deseja editar.
 1. Clique no ícone **[!UICONTROL Editar]** ![Ícone Editar](assets/edit-icon.png).
 
-   A caixa [!UICONTROL **Editar Tipo de Risco**] é aberta. <!--add screen shot-->
+   <span class="preview">A caixa [!UICONTROL **Editar Tipo de Risco**] é aberta.</span>
+
+   ![Editar caixa de tipo de risco](assets/edit-risk-type-box.png)
 
    >[!TIP]
    >
@@ -126,11 +128,18 @@ Você pode criar tipos de risco, além dos tipos padrão.
 {{step-1-to-setup}}
 
 1. Clique em **[!UICONTROL Tipos de Riscos]**.
+
 1. Clique em **[!UICONTROL Novo tipo de risco]** para abrir a caixa [!UICONTROL **Novo tipo de risco**]
 
    Ou
 
-   Clique em [!UICONTROL **Adicionar mais tipos de risco**] no canto inferior esquerdo da lista de tipos de risco para adicionar tipos de risco em linha. <!--add screen shot-->
+   Clique em [!UICONTROL **Adicionar mais tipos de risco**] no canto inferior esquerdo da lista de tipos de risco para adicionar tipos de risco em linha.
+
+   <span class="preview">A caixa **Novo Tipo de Risco** é aberta. <span>
+
+   ![Caixa Novo tipo de risco](assets/new-risk-type-box.png)
+
+
 1. Adicione um **[!UICONTROL Nome]** (obrigatório) e uma **[!UICONTROL Descrição]** (opcional) para o tipo de risco.
 
    Há um limite de 50 caracteres para os campos **[!UICONTROL Nome]** e **[!UICONTROL Descrição]**.

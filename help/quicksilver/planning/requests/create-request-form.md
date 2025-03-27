@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2184'
 ht-degree: 1%
 
 ---
@@ -178,9 +178,11 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
    * **Seção padrão**: esta é a quebra de seção padrão que o Workfront aplica ao formulário de solicitação. Todos os campos de registro são exibidos na área **Seção padrão**.
    * Campo **Assunto**: o campo que identificará a solicitação no Workfront. A configuração e o valor do campo Subject não são editáveis.
 
-     >[!TIP]
+     >[!NOTE]
      >
-     >O campo **Assunto** exige um valor quando está visível no formulário de solicitação. No entanto, você pode remover o campo **Assunto**, se necessário, e os solicitantes não o verão no formulário quando enviarem a solicitação.
+     >* O campo **Assunto** exige um valor quando está visível no formulário de solicitação. No entanto, você pode remover o campo **Assunto**, se necessário, e os solicitantes não o verão no formulário quando enviarem a solicitação.
+     >* Quando o campo Assunto está ausente em um formulário de solicitação, mas há um campo Nome para o nome do registro futuro, o nome da solicitação é automaticamente atribuído ao mesmo nome do registro criado.
+     >* Quando os campos Assunto e Nome estiverem ausentes no formulário de solicitação, a solicitação será nomeada usando o seguinte padrão: `< Record name > request form < Entry date of the request >`; o registro é nomeado como **Sem título**.
 
    * Todos os campos associados ao tipo de registro.
 

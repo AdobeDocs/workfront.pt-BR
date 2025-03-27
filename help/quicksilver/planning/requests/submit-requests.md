@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,10 @@ Depois que um gerenciador de espaço de trabalho cria um formulário de solicita
 
 Você pode submeter uma solicitação do Workfront Planning nas seguintes áreas:
 
-* Na área Solicitações do Workfront ou em um link direto para o formulário de solicitação. Este artigo descreve como enviar uma solicitação para adicionar novos registros a um tipo de registro da área Solicitações do Workfront ou de um link compartilhado.
+* Na área Solicitações do Workfront.
+* De um link direto para o formulário de solicitação que foi compartilhado.
+
+  Este artigo descreve como enviar uma solicitação para adicionar novos registros a um tipo de registro da área Solicitações do Workfront ou de um link compartilhado.
 * <span class="preview">Na página de tipo de registro, ao adicionar ou solicitar um novo registro. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).</span>
 
 Usuários do Workfront e usuários externos podem enviar solicitações para tipos de registro do Planning e criar registros. <!--double check on the external users-->
@@ -212,6 +215,8 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
      >
      >As notificações por email e no aplicativo ficam visíveis somente quando a instância da Workfront da sua organização é integrada à Adobe Unified Experience.
 
+   1. (Opcional) Clique em **Exibir sua solicitação** na mensagem de confirmação para abrir a solicitação ou clique no ícone **X** para fechar a confirmação.
+
 1. (Opcional) Clique na guia **Planning** na área Solicitações para exibir sua solicitação e, em seguida, clique no nome da solicitação.
 
    A página de detalhes da solicitação é aberta.
@@ -269,7 +274,13 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
      >
      >As notificações por email e no aplicativo ficam visíveis somente quando a instância da Workfront da sua organização é integrada à Adobe Unified Experience.
 
-1. (Opcional) Clique na guia **Planning** na área Solicitações para exibir sua solicitação e, em seguida, clique no nome da solicitação.
+1. <span class="preview">(opcional) Clique em **Exibir sua solicitação** para abrir a solicitação no Workfront.</span>
+
+   Ou
+
+   <span class="preview">Clique em [Enviar outra solicitação](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) para abrir o formulário de solicitação e adicionar uma nova solicitação. </span>
+
+1. (Opcional) Clique em **Menu principal** > **Solicitações** > na guia **Planejamento** para exibir sua solicitação e, em seguida, clique no nome dela.
 
    A página de detalhes da solicitação é aberta.
 

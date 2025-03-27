@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Editar configurações de campo
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -121,11 +121,10 @@ Você deve considerar o seguinte antes de fazer alterações na configuração d
   >
   >Não há notificação para outros usuários informando que a configuração do campo foi alterada.
 
-* Não é possível editar campos de pesquisa existentes a partir de registros conectados.
+* No ambiente de Produção, não é possível editar campos de pesquisa existentes.
+  <span class="preview">No ambiente de Visualização, você pode editar campos de pesquisa existentes a partir de registros conectados.</span>
 
-<!--replace he last bullet with thsi: 
-
-* <span class="preview">You can edit existing lookup fields from connected records.</span>-->
+<!--at production - April 10, 2025 - remove the last bullet altogether-->
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
@@ -164,7 +163,21 @@ Você deve considerar o seguinte antes de fazer alterações na configuração d
 
    As informações do campo são atualizadas para todos com acesso para exibir o espaço de trabalho.
 
-1. (Condicional) Para campos de registro vinculados, clique em **Editar campos de pesquisa** e adicione ou remova qualquer um dos campos do tipo de registro vinculado.
+1. (Condicional) Para campos de registro conectados, clique em **Editar campos de pesquisa** e adicione ou remova qualquer um dos campos de pesquisa do tipo de registro conectado.
 
    Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
+   >[!TIP]
+   >
+   >Você pode adicionar ou remover campos de pesquisa de registros conectados, mas não pode editar as configurações de campos de pesquisa.
+
+
+<!-- replace the TIP above with the one below at Preview, and remove this tip altogether after April 10 Prod release:-->
+
+<!--
+   >[!TIP]
+   >
+   >* In the Production environment, you can add or remove lookup fields from connected records, but you cannot edit the settings of lookup fields.
+   >* <span class="preview">In the Preview environment, you can edit the settings of lookup fields.</span>
+
+-->
