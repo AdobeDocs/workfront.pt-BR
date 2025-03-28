@@ -7,7 +7,7 @@ description: Se você for um administrador no servidor AD, poderá instalar e co
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Se você for um administrador no servidor AD, poderá instalar e configurar o AD
 
 ## Instalando e Configurando o AD FS
 
-1. Baixe o [AD FS 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=10909) no computador.
+1. Baixe o Microsoft AD FS 2.0 no computador.
 1. Abra o arquivo AdfsSetup.exe baixado para iniciar o Assistente de Instalação do ADFS (Ative Diretory Federation Services).
 1. Na tela Função do Servidor, selecione uma das opções (você precisa, no mínimo, de um Servidor de Federação).
 1. Se você não quiser expor o IIS em seu servidor AD para a Internet (portas 80 e 443 para HTTP e HTTPS), primeiro poderá configurar um Servidor de Federação por trás do firewall e, em seguida, criar um segundo Proxy de Servidor de Federação que passe as solicitações pelo firewall para o Servidor de Federação.
