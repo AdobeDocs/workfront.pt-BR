@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 4%
@@ -16,6 +16,8 @@ ht-degree: 4%
 ---
 
 # Criar tipos de despesas personalizados
+
+{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -55,9 +57,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 +++
 
-## Tipos de Despesas Padrão
+## Tipos de despesas padrão
 
-Os Tipos de Despesas que estão em [!DNL Workfront] por padrão não podem ser excluídos ou editados incluem o seguinte:
+Os tipos de despesas padrão em [!DNL Workfront] que não podem ser excluídos ou editados incluem:
 
 * [!UICONTROL Advertising]
 * [!UICONTROL Consultoria]
@@ -71,8 +73,8 @@ Os Tipos de Despesas que estão em [!DNL Workfront] por padrão não podem ser e
 {{step-1-to-setup}}
 
 1. Clique em **[!UICONTROL Tipos de Despesas]**.
-1. Clique em **[!UICONTROL Novo Tipo de Despesa]**.
-1. Na caixa **[!UICONTROL Novo Tipo de Despesa]** que é exibida, especifique as seguintes informações:
+1. Clique em **[!UICONTROL Novo tipo de despesa]**.
+1. Na caixa de diálogo **[!UICONTROL Novo Tipo de Despesa]**, especifique as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -106,10 +108,11 @@ Os Tipos de Despesas que estão em [!DNL Workfront] por padrão não podem ser e
     </tbody> 
    </table>
 
-1. Clique em **[!UICONTROL Criar Tipo de Despesa]**.\
+1. Clique em **Criar Tipo de Despesa** <span class="preview">ou **[!UICONTROL Salvar]**.</span>
+
    O tipo de despesa agora está disponível para que os usuários o associem às suas despesas em projetos e tarefas.
 
-## Modificar Tipos de Despesas personalizados
+## Modificar tipos de despesas personalizadas
 
 {{step-1-to-setup}}
 
@@ -118,7 +121,8 @@ Os Tipos de Despesas que estão em [!DNL Workfront] por padrão não podem ser e
 
    A caixa de diálogo **[!UICONTROL Editar Tipo de Despesa]** é exibida.
 
-1. Faça as alterações desejadas e clique em **[!UICONTROL Salvar alterações]**.\
+1. Faça as alterações desejadas e clique em **Salvar alterações** <span class="preview">ou **[!UICONTROL Salvar]**.</span>
+
    O tipo de despesa agora está disponível para que os usuários o associem às suas despesas em projetos e tarefas.
 
 Para obter mais informações sobre como usar as despesas e como elas podem afetar o custo de um projeto, consulte o artigo [Gerenciar despesas do projeto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
