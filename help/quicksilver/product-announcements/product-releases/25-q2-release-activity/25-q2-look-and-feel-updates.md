@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
+source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,16 @@ Esta página descreve pequenas atualizações na aparência de várias áreas do
 
 Para obter uma lista de todas as alterações disponíveis com a versão do Segundo trimestre de 2025, consulte [Visão geral da versão do Segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
-<!--
-
-## Updated experience in the Access Levels area in Setup
+## Experiência atualizada na área Níveis de acesso em Configuração
 
 >[!NOTE]
 >
->Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+>Versão de pré-visualização: 27 de março de 2025; Versão de produção para todos os clientes: com a versão 25.4 (10 de abril de 2025)
 
-To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+Para aprimorar o desempenho, fizemos algumas atualizações visuais na área Níveis de acesso em Configuração.
 
-A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+Uma pequena alteração de funcionalidade foi aplicada à lista de Níveis de acesso. Para copiar, editar ou deletar um nível de acesso, selecione o nível e clique no ícone apropriado.
 
--->
 
 ## Atualizações da aparência das caixas de diálogo Tipos de despesas
 
