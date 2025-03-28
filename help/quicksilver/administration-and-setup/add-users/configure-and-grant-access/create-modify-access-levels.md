@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
+source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1521'
 ht-degree: 6%
 
 ---
@@ -66,11 +66,21 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 {{step-1-to-setup}}
 
 1. Clique em **Níveis de acesso** no painel esquerdo.
-1. Selecione o nível de acesso que você deseja copiar e personalizar e clique em **Copiar**.
+1. 
+   * No ambiente de produção:
+Selecione o nível de acesso que você deseja copiar e personalizar e clique em **Copiar**.
 
-   Ou
+     Ou
 
-   Se você estiver editando um nível de acesso existente (copiado anteriormente), clique em seu nome.
+     Se você estiver editando um nível de acesso existente (copiado anteriormente), clique em seu nome.
+
+   * <span class="preview">No ambiente de visualização:</span>
+
+     <span class="preview">Selecione o nível de acesso que você deseja copiar e personalizar e clique no ícone **Copiar** ![Copiar ícone](assets/copy-icon.png). </span>
+
+     <span class="preview">Ou </span>
+
+     <span class="preview">Se você estiver editando um nível de acesso existente, selecione o nível de acesso clicando na caixa à esquerda desse nível de acesso e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png). </span>
 
 1. Na caixa exibida, siga um destes procedimentos para começar a configurar o nível de acesso personalizado:
 
