@@ -6,10 +6,10 @@ description: 'Notificações: Metas'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 4%
+source-wordcount: '436'
+ht-degree: 2%
 
 ---
 
@@ -97,15 +97,19 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
    <td> <p>O nome da pessoa que deixou o comentário</p> <p>O período da meta </p> <p>O nome da meta</p> <p>O texto do comentário</p> <p>O botão <strong>[!UICONTROL Abrir no aplicativo Web]</strong> que abre o painel [!UICONTROL Goal Details]</p> <p>O botão <strong>[!UICONTROL Alterar Configurações de Notificações]</strong>, que permite gerenciar suas notificações.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Alguém curtiu meu comentário sobre uma meta</strong></td> 
-   <td> <p>O nome da pessoa que curtiu o comentário</p> <p>O período da meta </p> <p>O nome da meta</p> <p>O texto do comentário </p> <p>O botão <strong>[!UICONTROL Abrir no aplicativo Web]</strong> que abre o painel [!UICONTROL Goal Details]</p> <p>O botão <strong>[!UICONTROL Alterar Configurações de Notificações]</strong>, que permite gerenciar suas notificações.</p> </td> 
+  </tbody> 
+</table>
+
+<!--these were removed at some point: 
+
+   <td><strong>Someone liked my comment on a Goal</strong></td> 
+   <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Alguém curtiu uma atualização do meu objetivo</strong></td> 
-   <td> <p>Você recebe um email quando alguém gosta de um comentário feito em uma meta ou quando você atualiza o progresso de seus resultados ou atividades na meta. </p> <p>O nome da pessoa que curtiu a atualização</p> <p>O período da meta </p> <p>O nome da meta</p> <p>O botão <strong>[!UICONTROL Abrir no aplicativo Web]</strong> que abre o painel [!UICONTROL Goal Details]</p> <p>O botão <strong>[!UICONTROL Alterar Configurações de Notificações]</strong>, que permite gerenciar suas notificações.</p> </td> 
+   <td><strong>Someone liked an update on my Goal</strong></td> 
+   <td> <p>You receive an email when someone likes a comment you made on a goal or when you update the progress of your results or activities on the goal. </p> <p>The name of the person who liked the update</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
- </tbody> 
-</table>
+ -->
 
 <!--
 NOTE FOR NAME OF GOAL IN LAST TABLE CELL: check this. Is this true? Didn't triggger when this was written; add anything else? Maybe the type of the update is mentioned?!

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2208'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,14 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 >
 >Visualização: 27 de março de 2025; Produção para todos os clientes: 10 de abril de 2025
 
-Agora, você pode abrir uma nova solicitação imediatamente após enviá-la das seguintes áreas:
+Melhoramos a maneira como você acessa uma solicitação enviada no Workfront Planning.
+Adicionamos o link &quot;Exibir sua solicitação&quot;, que pode ser usado para navegar até a página de detalhes da solicitação recém-enviada.
 
-* o formulário de solicitação após acessá-lo a partir de um link compartilhado
-* a página de tipo de registro dos botões Novo registro ou Solicitar registro
-* a área Solicitações no menu Principal
+O novo link estará disponível depois que você enviar uma solicitação das seguintes áreas:
+
+* De um link compartilhado
+* No botão Novo registro ou Solicitar registro na página de tipo de registro
+* Na área Solicitações, depois de ativar a nova experiência para enviar solicitações.
 
 Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 

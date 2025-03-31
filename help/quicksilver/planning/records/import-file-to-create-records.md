@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -78,7 +78,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
    <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p> 
-   <p>Edite o acesso no Workfront para os tipos de objeto que deseja criar (projetos, programas e portfólios) à medida que os registros são conectados a eles. </p>  
+   <p>Edite o acesso no Workfront para os tipos de objeto que deseja criar (projetos, programas e portfólios) à medida que os conecta a partir de novos registros  </p>  
 </td> 
   </tr> 
 <tr> 

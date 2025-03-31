@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2419'
 ht-degree: 0%
 
 ---
@@ -206,7 +206,7 @@ Usuários com permissões para Contribute e Gerenciar no espaço de trabalho <!-
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
 Todos os registros do tipo selecionado são exibidos na visualização.
 
-1. Em qualquer modo de exibição, clique nos itens a seguir no canto superior direito da tela, dependendo das permissões do espaço de trabalho <!--<span class="preview">and record type</span>-->:
+1. (Condicional) Em qualquer exibição, clique no seguinte no canto superior direito da tela, dependendo das permissões do espaço de trabalho <!--<span class="preview">and record type</span>-->:
 
    * Clique em **Novo registro**, se você tiver permissões do Contribute ou superiores no espaço de trabalho <!--<span class="preview">and record type</span>-->
 
