@@ -6,9 +6,9 @@ description: Você pode usar relatórios no Adobe Workfront para revisar ou edit
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: da574efdede5aee34518f251cabdfe96983a69eb
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -88,10 +88,15 @@ Você pode usar pastas para organizar os relatórios criados. Não é possível 
    Ou\
    Clique em qualquer pasta aninhada na pasta **Meus Relatórios**.
 
-1. Arraste um relatório da lista de relatórios para a pasta em que deseja que ele resida e solte-o quando chegar à pasta.
+1. Selecione o relatório e clique no ícone de pasta ![Ícone de pasta](assets/folder-icon.png) na parte superior da lista.
+
+1. Escolha a pasta à qual deseja adicionar o relatório.
+
+   ![Escolha uma pasta para onde mover o relatório](assets/choose-folder.png)
 
    >[!NOTE]
    >
    >Você só pode mover relatórios da pasta **Meus Relatórios** para outras pastas aninhadas em **Meus Relatórios**. Você não pode mover relatórios de ou para a pasta **Compartilhado comigo** ou **Todos os relatórios** para ou de outras pastas.
 
-   ![Arraste o relatório para a pasta](assets/nwe-drag-report-to-folder-350x292.png)
+
+
