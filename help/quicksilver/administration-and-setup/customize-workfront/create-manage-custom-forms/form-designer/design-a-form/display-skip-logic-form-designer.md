@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 9f2ada5f9954878efc195661173fe88a0fe1d3bd
+source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1744'
 ht-degree: 0%
 
 ---
@@ -250,7 +250,7 @@ A lógica de validação é criada usando fórmulas e você pode tornar a lógic
 
 Se o campo com a lógica aplicada atender às condições de validação definidas quando um usuário preencher o formulário personalizado, o campo será realçado e a mensagem de erro será exibida.
 
-Você pode aplicar lógica de validação aos seguintes tipos de campo: lista suspensa, botão de opção, caixa de seleção, digitação antecipada, texto de linha única, texto de parágrafo, campo de data, texto com formatação e campos calculados.
+Você pode aplicar lógica de validação aos seguintes tipos de campo: texto de linha única, parágrafo, lista suspensa de seleção única, lista suspensa de seleção múltipla, pesquisa externa, botões de opção, grupo de caixas de seleção e digitação antecipada.
 
 ### Exemplos
 
