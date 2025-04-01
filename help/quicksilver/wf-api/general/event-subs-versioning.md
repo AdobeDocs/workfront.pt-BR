@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: cdd7c0ef619e4cb75be82ba936f07bc3ce6dc745
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -250,3 +250,10 @@ As seguintes alterações foram feitas para assinaturas de evento Versão 2:
    <td>Nenhum. Se você tiver um filtro no campo afetado, você receberá um evento <code>UPDATE</code> somente se esse campo tiver sido realmente alterado, não se qualquer outro valor de parâmetro tiver sido alterado.
  </tbody> 
 </table>
+
+
+## Atualizar a versão de assinatura de evento em um cenário do Workfront Fusion
+
+O Workfront Fusion usa assinaturas de eventos para observar alterações no Workfront a fim de acionar cenários. Você pode atualizar a versão de assinatura de evento que o Fusion usa diretamente em um cenário, usando o módulo Workfront > Atualizar versão de payload de eventos.
+
+Para obter instruções sobre como usar este módulo, consulte [Módulos do Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) na documentação do Workfront Fusion.
