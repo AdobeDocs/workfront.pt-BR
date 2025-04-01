@@ -1,38 +1,39 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Visão geral do progresso e da condição da meta no Adobe Workfront Goals
+title: Visão geral do Progresso da meta e da Condição nas Metas do Adobe Workfront
 description: O progresso da meta é orientado por indicadores de progresso como atividades, resultados ou metas secundárias. A condição da meta é determinada pelo progresso da meta no momento atual.
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 1%
+source-wordcount: '817'
+ht-degree: 0%
 
 ---
 
 # Visão geral do progresso e da condição da meta no Adobe Workfront Goals
 
-Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
+<!--Audited for P&P only: 4/2025-->
 
-* Para o novo plano e estrutura de licença:
-
-   * Um plano do Ultimate
-
-     Ou
-
-     Uma licença adicional para o Adobe Workfront Goals para os planos Prime ou Select Adobe Workfront.
-
-* Para o plano e a estrutura de licença atuais:
-
-   * A Pro ou superior
-   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
-
-Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
-
-Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>[!IMPORTANT]
+>
+>Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
+>
+>
+>* Para o novo plano e estrutura de licença:
+>
+>   * Um plano do Ultimate
+>    
+>* Para o plano e a estrutura de licença atuais:
+>
+>   * A Pro ou superior
+>   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
+>
+> Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
+>
+>Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 O Adobe Workfront calcula o progresso da meta automaticamente, com base no progresso de seus indicadores de progresso.
 

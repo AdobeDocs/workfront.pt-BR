@@ -6,18 +6,22 @@ description: Seja você um CEO, um gerente ou um colaborador individual, é poss
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '705'
 ht-degree: 5%
 
 ---
 
 # Criar metas no Adobe Workfront Goals
 
+<!--Audited for P&P only: 4/2025-->
+
 Seja você um CEO, um gerente ou um colaborador individual, é possível criar metas no Adobe Workfront Goals para alinhar seu trabalho às suas metas e às metas que descrevem a estratégia de sua organização.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -27,7 +31,7 @@ Você deve ter o seguinte:
 <col>
 </col>
 <tbody>
-<tr> 
+ <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
    <td> 
    <p>Para o novo plano e estrutura de licença:
@@ -36,9 +40,10 @@ Você deve ter o seguinte:
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
   <li>Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
-  <tr>
+ <tr>
+ <tr>
  <td role="rowheader">Licença da Adobe Workfront*</td>
  <td>
  <p>Nova licença: Contributor ou superior</p>
@@ -48,25 +53,23 @@ Você deve ter o seguinte:
  <tr>
  <td role="rowheader">Produto*</td>
  <td>
- <p> Novo requisito de produto, um dos seguintes: </p>
-<ul>
-<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
-<li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
+  <p> Novo requisito de produto: Workfront</p>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
+  <p>Requisito atual do produto: além de uma licença do Workfront, você deve comprar uma licença do Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
-<tr>
-<td role="rowheader">Nível de acesso</td>
-<td> <p>Editar acesso às Metas</p> </td>
-</tr>
-<tr data-mc-conditions="">
-<td role="rowheader">Permissões de objeto</td>
-<td>
-<p>Exibir permissões ou mais altas para a meta para exibi-la</p>
-<p>Gerenciar permissões para a meta para editá-la</p>
-<p>Para obter informações sobre como compartilhar metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartilhar uma meta no Workfront Goals</a>. </p>
-</td>
-</tr>
+ <tr>
+ <td role="rowheader">Nível de acesso</td>
+ <td> <p>Editar acesso às Metas</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Permissões de objeto</td>
+ <td>
+  <div>
+  <p>Exibir permissões ou mais altas para a meta para exibi-la</p>
+  <p>Gerenciar permissões para a meta para editá-la</p>
+  <p>Para obter informações sobre como compartilhar metas, consulte <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Compartilhar uma meta no Workfront Goals</a>. </p>
+  </div> </td>
+ </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
    <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclui a área Metas no Menu principal. </p>  
@@ -76,6 +79,8 @@ Você deve ter o seguinte:
 </table>
 
 *Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Diretrizes para a criação de metas
 

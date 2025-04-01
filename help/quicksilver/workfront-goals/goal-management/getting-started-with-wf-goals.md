@@ -2,10 +2,9 @@
 title: Introdução às Metas do Adobe Workfront
 description: O Workfront Goals ajuda você a definir, comunicar e alcançar resultados estratégicos, conectando a estratégia à execução e entrega do trabalho.
 author: Alina
-draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 1%
@@ -14,13 +13,15 @@ ht-degree: 1%
 
 # Introdução às Metas do Adobe Workfront
 
+<!--Audited for P&P only: 4/2025-->
+
 >[!IMPORTANT]
 >
 >Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
 >
 >* Para o novo plano e estrutura de licença:
 >
->   * O plano Ultimate Workfront
+>   * O plano do Ultimate Workfront
 >    
 >* Para o plano e a estrutura de licença atuais:
 >

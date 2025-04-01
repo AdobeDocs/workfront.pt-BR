@@ -1,24 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Atualizar metas no painel Detalhes da meta no Adobe Workfront Goals
+title: Atualizar Metas na Seção Detalhes da Meta no Adobe Workfront Goals
 description: Você pode atualizar informações de metas individuais acessando o painel Detalhes da Meta.
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
 
 # Atualizar metas na seção Detalhes da meta no Adobe Workfront Goals
 
-<!--drafted for the goal redesign:
-- change the title for Production to Update goals in the Goal details section in Adobe Workfront Goals. 
-- update the description in the metadata above
--->
+<!--Audited for P&P only: 4/2025-->
 
 Você pode atualizar informações de metas individuais acessando o painel Detalhes da Meta.
 
@@ -26,8 +23,9 @@ Você pode atualizar informações de metas individuais acessando o painel Detal
 >
 >Não é possível atualizar metas com status Fechado.
 
-
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -58,12 +56,9 @@ Você deve ter o seguinte:
  <tr>
  <td role="rowheader">Produto*</td>
  <td>
- <p> Novo requisito de produto, um dos seguintes: </p>
-<ul>
-<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
-<li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
- <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
+  <p> Novo requisito de produto: Workfront</p>
+  Ou
+  <p>Requisito atual do produto: além de uma licença do Workfront, você deve comprar uma licença do Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso*</td>
@@ -87,6 +82,8 @@ Você deve ter o seguinte:
 </table>
 
 *Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Atualizar metas na seção Detalhes da meta
 

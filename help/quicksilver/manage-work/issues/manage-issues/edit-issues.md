@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2556'
 ht-degree: 2%
 
 ---
@@ -243,15 +243,15 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
       <td role="rowheader">Resolvido por</td> 
       <td> <p>Isso mostra se o problema foi resolvido por outro objeto. Você pode selecionar se esse problema é resolvido por uma tarefa, um projeto ou outro problema no menu suspenso e, em seguida, começar a digitar o nome da tarefa, do projeto ou do problema que resolverá o problema. Selecione-o quando ele aparecer na lista.</p>
 
-   <b>OBSERVAÇÃO</b>
+   <b>NOTAS</b>
 
-   Quando você seleciona um objeto para resolver um problema, o status do problema é vinculado ao status do objeto de resolução e não pode ser alterado no problema. Para obter mais informações sobre a resolução de objetos, consulte <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Visão Geral de Objetos Resolventes e Resolvíveis </a>.
+   <ul><li>Quando você seleciona um objeto para resolver um problema, o status do problema é vinculado ao status do objeto de resolução e não pode ser alterado no problema. Para obter mais informações sobre a resolução de objetos, consulte <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Visão Geral de Objetos Resolventes e Resolvíveis </a>.</li>
 
-   <b>DICA</b>
+   <li>Quando você conecta um problema a ser resolvido por outra tarefa, problema ou projeto, nenhuma informação do problema é transferida para o objeto de resolução (a tarefa, o problema ou o projeto listado no campo Resolvido por). </li>
 
-   Quando o administrador do sistema ou do grupo adiciona o campo &quot;Resolvido por&quot; ao cabeçalho personalizado de um problema, o campo é alterado para &quot;Resolvendo problema&quot;, &quot;Resolvendo tarefa&quot; ou &quot;Resolvendo projeto&quot; quando há um objeto de resolução associado ao problema.
+   <li>Quando o administrador do sistema ou do grupo adiciona o campo "Resolvido por" ao cabeçalho personalizado de um problema, o campo é alterado para "Resolvendo problema", "Resolvendo tarefa" ou "Resolvendo projeto" quando há um objeto de resolução associado ao problema.
 
-   Não é possível editar esse campo quando ele é exibido no cabeçalho do problema. Para obter mais informações sobre como personalizar cabeçalhos de problemas, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Personalizar cabeçalhos de objetos usando um modelo de layout </a>
+   Não é possível editar esse campo quando ele é exibido no cabeçalho do problema. Para obter mais informações sobre como personalizar cabeçalhos de problemas, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Personalizar cabeçalhos de objetos usando um modelo de layout </a></li></ul>
    </td> 
      </tr>
 

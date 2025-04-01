@@ -1,23 +1,27 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Copiar metas nas Metas do Adobe Workfront
+title: Copiar Metas nas Metas do Adobe Workfront
 description: Você pode copiar metas nas Metas do Adobe Workfront para criar uma meta. Algumas das informações da meta original são transferidas para a nova meta.
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '788'
 ht-degree: 4%
 
 ---
 
 # Copiar metas nas Metas do Adobe Workfront
 
+<!--Audited for P&P only: 4/2025-->
+
 Você pode copiar metas nas Metas do Adobe Workfront para criar uma meta. Algumas das informações da meta original são transferidas para a nova meta.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte:
 
@@ -36,7 +40,7 @@ Você deve ter o seguinte:
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
   <li>Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <tr>
@@ -49,12 +53,9 @@ Você deve ter o seguinte:
  <tr>
  <td role="rowheader">Produto*</td>
  <td>
- <p> Novo requisito de produto, um dos seguintes: </p>
-<ul>
-<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
-<li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
+  <p> Novo requisito de produto: Workfront</p>
  <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
+  <p>Requisito atual do produto: além de uma licença do Workfront, você deve comprar uma licença do Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso</td>
@@ -78,6 +79,8 @@ Você deve ter o seguinte:
 </table>
 
 *Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações para copiar metas
 

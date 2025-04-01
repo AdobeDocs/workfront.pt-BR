@@ -7,9 +7,9 @@ description: Você deve adicionar resultados, atividades ou metas alinhadas a um
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >* Para o novo plano e estrutura de licença:
 >
->   * O plano Ultimate Workfront
+>   * O plano do Ultimate Workfront
 >    
 >* Para o plano e a estrutura de licença atuais:
 >
@@ -49,7 +49,7 @@ Depois que pelo menos um desses itens for adicionado, você poderá ativar a met
 >
 > Uma meta não pode ter mais de 1000 atividades, resultados, projetos ou metas alinhadas.</span>
 
-Este artigo fornece uma visão geral das atividades e dos resultados. Para obter informações sobre como alinhar metas, consulte [Alinhamento de meta em Metas do Adobe Workfront](../../workfront-goals/goal-alignment/goal-alignment.md). Para obter informações sobre como conectar projetos a metas, consulte [Adicionar projetos a metas no Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
+Este artigo fornece uma visão geral das atividades e dos resultados. Para obter informações sobre como alinhar metas, consulte [Alinhamento de metas em Metas do Adobe Workfront: índice do artigo](../../workfront-goals/goal-alignment/goal-alignment.md). Para obter informações sobre como conectar projetos a metas, consulte [Adicionar projetos a metas no Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Visão geral dos resultados
 
