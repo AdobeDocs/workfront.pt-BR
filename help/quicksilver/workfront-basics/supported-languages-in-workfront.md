@@ -6,16 +6,18 @@ description: Você pode alterar o idioma em que exibe o Adobe Workfront e emails
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1159'
 ht-degree: 1%
 
 ---
 
 # Idiomas compatíveis com o Adobe Workfront
 
-Você pode alterar o idioma em que exibe o Adobe Workfront e os emails provenientes do Workfront, ajustando as preferências de idioma no navegador (se não estiver no IMS) ou nas preferências de idioma do perfil do Adobe Experience Cloud (se estiver no IMS) e na localidade de email padrão no Workfront.
+É possível alterar o idioma em que você exibe o Adobe Workfront e os emails provenientes do Workfront, ajustando as preferências de idioma no navegador (se a organização não tiver sido migrada para o Adobe Admin Console) ou as preferências de idioma do perfil do Adobe Experience Cloud (se estiver no Adobe Admin Console) e a localidade de email padrão no Workfront.
+
+Para alterar o idioma no qual você exibe o Workfront, consulte [Alterar o idioma](#change-the-language) neste artigo.
 
 A terminologia do Workfront é atualizada para os idiomas compatíveis com cada atualização do Workfront.
 
@@ -32,7 +34,7 @@ O Workfront é compatível com os seguintes idiomas:
 * Chinês - Simplificado (zh-CN)
 * Chinês - Tradicional (zh-TW)
 
-O idioma usado para exibir o Workfront no navegador é controlado pelas configurações de idioma do navegador, se a organização não estiver no IMS, ou pelo idioma do perfil da Adobe Experience Cloud, se a organização não estiver no IMS. Em ambos os casos, selecione um idioma que esteja listado na lista de idiomas suportados.
+O idioma usado para exibir o Workfront no navegador é controlado pelas configurações de idioma do navegador, se a organização não estiver na Adobe Admin Console, ou pelo idioma do perfil do Adobe Experience Cloud, se a organização estiver na Adobe Admin Console. Em ambos os casos, selecione um idioma que esteja listado na lista de idiomas suportados.
 
 Para exibir emails de saída em qualquer um dos idiomas compatíveis, modifique as configurações Local de email do usuário ou Informações do cliente no Workfront.\
 Você deve ser um administrador do Workfront para modificar as configurações de Informações do cliente.\
@@ -97,11 +99,18 @@ Para obter mais informações sobre o Workfront Fusion, consulte [Visão geral d
 
 Você pode alterar o idioma em que exibe o Workfront e o idioma dos emails de saída modificando as seguintes configurações:
 
-* O idioma no navegador (para usuários que não estão no IMS)
-* O idioma principal e secundário do seu perfil do AEM (para usuários no IMS)
+* O idioma no navegador (para usuários que não estão na Adobe Admin Console)
+* Os idiomas primário e secundário do seu perfil do AEM (para usuários no Admin Console do Adobe)
 * As configurações de Local de email do usuário e Informações do cliente em sua conta da Workfront.
 
 Para ver todas as traduções disponíveis para o idioma escolhido, a localidade do Workfront e a localidade do navegador devem ser definidas para o mesmo idioma.
+
+Para determinar se sua organização foi migrada para o Adobe Admin Console, examine o URL usado para exibir o Workfront.
+
+| URL | Experiência do Adobe |
+|---|---|
+| (NomeEmpresa).my.workfront.com | Não migrado para o Adobe Admin Console |
+| experience.adobe.com | Migrado para o Adobe Admin Console |
 
 * [Alterar o idioma do navegador](#change-the-browser-language)
 * [Alterar o idioma do Adobe Experience Cloud](#change-the-adobe-experience-cloud-language)
@@ -109,7 +118,7 @@ Para ver todas as traduções disponíveis para o idioma escolhido, a localidade
 
 ### Alterar o idioma do navegador {#change-the-browser-language}
 
-Se sua organização não estiver no IMS, ao alterar o idioma do navegador, a interface da Workfront será exibida nesse idioma.\
+Se sua organização não tiver sido migrada para a Adobe Admin Console, quando você alterar o idioma do navegador, a interface da Workfront será exibida nesse idioma.\
 Para obter mais informações sobre os idiomas suportados pelo Workfront, consulte [Idiomas suportados no Adobe Workfront](#supported-languages).
 
 O idioma do navegador deve ser alterado de acordo com cada usuário.
@@ -118,7 +127,7 @@ Consulte o menu &quot;Ajuda&quot; do seu navegador para obter informações espe
 
 ### Alterar o idioma do Adobe Experience Cloud
 
-Se sua organização estiver no IMS, o idioma do perfil do Adobe Experience Cloud determinará o idioma que é exibido no Workfront.
+Se sua organização tiver sido migrada para o Adobe Admin Console, o idioma do perfil do Adobe Experience Cloud determinará o idioma exibido no Workfront.
 
 1. Clique na imagem do perfil na extremidade direita da barra de ferramentas do Adobe Experience Cloud e em **Preferências**. A barra de ferramentas do Adobe Experience Cloud está diretamente acima da barra de ferramentas principal do Workfront.
 
