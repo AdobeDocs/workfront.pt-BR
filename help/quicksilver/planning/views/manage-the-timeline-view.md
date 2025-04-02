@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2684'
 ht-degree: 0%
 
 ---
@@ -394,7 +394,7 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    Os registros são exibidos na exibição de linha do tempo com as especificações selecionadas.
 
-### Use o recurso Detalhamento para exibir registros conectados na exibição de linha do tempo
+### Analisar registros conectados na exibição de linha do tempo
 
 Você pode exibir registros conectados na visualização da linha do tempo de um registro usando o recurso Detalhamento. Detalhar os registros por suas conexões permite visualizar as linhas do tempo de outros registros conectados e entender como elas podem afetar o desempenho e os prazos de conclusão de seus registros.
 
@@ -418,7 +418,7 @@ Você pode exibir registros conectados na visualização da linha do tempo de um
 * As datas de Início e Término dos tipos de registro que você deseja exibir na exibição de linha do tempo devem estar em ordem cronológica. Por exemplo, se um registro tiver uma data de início de 31 de janeiro e uma data de término de 1º de janeiro, ele não será exibido na exibição de linha do tempo. Para obter mais informações, consulte a seção [Gerenciar uma exibição de linha do tempo](#manage-a-timeline-view) neste artigo.
 * Há um limite de 5 tipos de registro que você pode incluir no detalhamento de um registro.
 
-#### Analisar registros conectados na exibição de linha do tempo
+#### Analisar registros conectados
 
 1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. (Condicional) Se você estiver vendo a exibição da linha do tempo no modo Padrão, clique em **Detalhamento**.

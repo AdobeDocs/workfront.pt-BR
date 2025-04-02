@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Editar Tarefas
-description: É possível editar informações sobre tarefas que você criou, ou que você tenha permissões do Contribute ou de Gerenciar para. Este artigo descreve como pesquisar, localizar e editar uma tarefa, se você tiver permissões para isso.
+description: É possível editar informações sobre tarefas que você criou ou para as quais você tem permissões do Contribute ou do Manage. Este artigo descreve como pesquisar, localizar e editar uma tarefa, se você tiver permissões para isso.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '3681'
-ht-degree: 3%
+source-wordcount: '3706'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 -->
 
 
-É possível editar informações sobre tarefas que você criou, ou que você tenha permissões do Contribute ou de Gerenciar para.
+É possível editar informações sobre tarefas que você criou ou para as quais você tem permissões do Contribute ou do Manage.
 
 ## Requisitos de acesso
 
@@ -54,7 +54,7 @@ ht-degree: 3%
    <td role="rowheader">Permissões de objeto</td> 
    <td> 
     <ul> 
-     <li> <p>Permissões do Contribute para uma tarefa para editar as seguintes informações na área Detalhes da tarefa: </p>
+     <li> <p>Contribua com permissões para uma tarefa para editar as seguintes informações na área Detalhes da tarefa: </p>
      <ul>
      <li>Descrição</li>
      <li>Status</li>
@@ -63,7 +63,7 @@ ht-degree: 3%
      <li> <p>Gerenciar permissões de uma tarefa para editar todas as informações na área Detalhes e na caixa Editar Tarefa</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Permissões do Contribute ou superiores para o projeto</p> </li> 
+     <li> <p>Contribute ou tem permissões mais altas para o projeto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ Considere o seguinte ao editar tarefas:
 * Atualizar tarefas aciona notificações para projetos com status Atual. Para evitar confusão para usuários atribuídos às tarefas, limite a edição de tarefas o máximo possível quando o projeto estiver no status Atual.
 * Não é possível editar tarefas que estejam em um Processo de Aprovação. Você só pode registrar horas ou atualizar o Status de uma tarefa em um processo de aprovação.
 
-  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![Editar tarefa com processo de aprovação](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * Você pode editar e adicionar documentos a tarefas em um projeto com status Concluído, Inativo ou Pendente de Aprovação somente quando o administrador do Workfront ou um administrador de grupo ativou essa funcionalidade na área Preferências do projeto. Para obter informações sobre como definir preferências de projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -145,7 +145,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
       * [Gerenciar finanças da tarefa na seção Detalhes da tarefa](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Opcional) Se não houver formulários personalizados anexados à tarefa, comece digitando o nome de um formulário no campo **Adicionar formulário personalizado**, selecione-o quando ele for exibido na lista e clique em **Salvar alterações**.
-   1. (Opcional) Clique no ícone **Exportar** ![](assets/export.png) para exportar as informações de Visão geral e formulários personalizados para um arquivo PDF e, em seguida, clique em **Exportar**. Selecione entre as seguintes opções:
+   1. (Opcional) Clique no ícone **Exportar** ![](assets/export.png) para exportar as informações de Visão geral e formulários personalizados para um arquivo do PDF e clique em **Exportar**. Selecione entre as seguintes opções:
 
       * Selecionar tudo (é exibido somente quando há pelo menos um formulário personalizado anexado)
       * Visão geral
@@ -223,8 +223,11 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
       <td role="rowheader">Status</td> 
       <td> <p>Selecione o status da tarefa que indica em qual estágio de desenvolvimento a tarefa está.</p> <p><b>DICA</b>
 
-   Você pode atualizar o Status da tarefa no cabeçalho da tarefa. </p> </td>
-   </tr> 
+   Você pode atualizar o Status da tarefa no cabeçalho da tarefa. </p>
+
+   <p>O administrador do Workfront ou do grupo pode personalizar os nomes dos status das tarefas. Para obter informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md">Criar ou editar um status</a>. 
+      </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Prioridade</td> 
       <td> <p>Este é um sinalizador visual para você que permite priorizar suas tarefas. </p> <p>Selecione entre as seguintes opções: </p> 

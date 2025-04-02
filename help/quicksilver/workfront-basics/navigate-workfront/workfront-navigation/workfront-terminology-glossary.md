@@ -6,9 +6,9 @@ description: O  [!DNL Adobe Workfront] glossário lista termos comumente usados 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '20935'
+source-wordcount: '20999'
 ht-degree: 0%
 
 ---
@@ -299,8 +299,18 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is&nbsp;added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
      --> 
     </ul> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Detalhamento]</td> 
+   <td> <p>No Workfront Planning, é possível exibir registros conectados na exibição de linha do tempo de um registro usando o recurso Detalhamento. </p>
+   <p>Detalhar os registros por suas conexões permite visualizar as linhas do tempo de outros registros conectados e entender como elas podem afetar o desempenho e os prazos de conclusão de seus registros. </p>
+   <p>Os registros conectados são exibidos aninhados em seus respectivos registros. </p>
+   <p>Para obter informações, consulte <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Gerenciar a exibição da linha do tempo</a>. </p>
+   </td> 
+    </tr>
+
+<tr> 
    <td>[!UICONTROL Data de Término Orçada]</td> 
    <td> <p>Este campo está obsoleto. Qualquer informação que este campo possa exibir está relacionada a um recurso que [!DNL Workfront] removeu. Este campo não pode ser atualizado. </p>
    <p> Este campo ainda está visível em relatórios e listas do [!UICONTROL project].</p>  </td> 
@@ -721,7 +731,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
      <li>[!UICONTROL Problemas]</li> 
      <li>[!UICONTROL Documentos]</li> 
      <li>[!UICONTROL Despesas]</li> 
-     <li>[!UICONTROL Portfolio]</li> 
+     <li>[!UICONTROL Portfólio]</li> 
      <li>[!UICONTROL Programas]</li> 
      <li>[!UICONTROL Iterações]</li> 
     </ul> </td> 
@@ -1116,7 +1126,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Data da Última Publicação da Iniciativa]</td> 
-   <td> <p>Um campo em um relatório de [!UICONTROL Initiative], [!UICONTROL Initiative Job Role] e [!UICONTROL Project] que exibe a data em que uma iniciativa de plano foi publicada pela última vez em um projeto. É possível publicar iniciativas para criar projetos ou atualizar projetos vinculados às iniciativas.</p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral</a> de [!DNL Scenario Planner]. </p> <p><span>Para obter informações sobre como publicar iniciativas, consulte</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">Cenários do Publish para criar e atualizar projetos no [!DNL Workfront Scenario Planner]</a>. Este campo não está visível na instância [!DNL Workfront], a menos que a empresa tenha comprado uma licença [!DNL Workfront Scenario Planner].</p> </td> 
+   <td> <p>Um campo em um relatório de [!UICONTROL Initiative], [!UICONTROL Initiative Job Role] e [!UICONTROL Project] que exibe a data em que uma iniciativa de plano foi publicada pela última vez em um projeto. É possível publicar iniciativas para criar projetos ou atualizar projetos vinculados às iniciativas.</p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral</a> de [!DNL Scenario Planner]. </p> <p><span>Para obter informações sobre como publicar iniciativas, consulte</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">Publicar cenários para criar e atualizar projetos no [!DNL Workfront Scenario Planner]</a>. Este campo não está visível na instância [!DNL Workfront], a menos que a empresa tenha comprado uma licença [!DNL Workfront Scenario Planner].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pesquisa em Linha]</td> 
@@ -1395,7 +1405,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
    <td>[!UICONTROL Objeto]</td> 
    <td> <p>As informações exibidas em [!DNL Adobe Workfront] são representadas por objetos armazenados no banco de dados [!DNL Workfront]. Os objetos são o que direciona as informações no Workfront. Alguns exemplos de objetos são:</p> 
     <ul> 
-     <li>[!UICONTROL Portfolio]</li> 
+     <li>[!UICONTROL Portfólio]</li> 
      <li>[!UICONTROL Programas]</li> 
      <li>[!UICONTROL Projetos]</li> 
      <li>[!UICONTROL Tarefas]</li> 
@@ -1539,7 +1549,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
      <li>[!UICONTROL Projetos]</li> 
      <li>[!UICONTROL Tarefas]</li> 
      <li>[!UICONTROL Problemas]</li> 
-     <li>[!UICONTROL Portfolio]</li> 
+     <li>[!UICONTROL Portfólio]</li> 
      <li>[!UICONTROL Programas]</li> 
      <li>[!UICONTROL Relatórios]</li> 
      <li>[!UICONTROL Painéis]</li> 
@@ -1663,19 +1673,19 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Portfolio]</td> 
-   <td> <p>Uma coleção de projetos com características unificadoras. Esses projetos geralmente competem pelos mesmos recursos, orçamento ou período. Você pode dividir os Portfolio em Programas e associar os projetos aos Programas antes que sejam adicionados a um Portfolio.</p> <p>Para obter mais informações sobre portfólios, consulte Visão geral do <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Portfolio em [!DNL Adobe Workfront]</a>.</p> 
+   <td> <p>Uma coleção de projetos com características unificadoras. Esses projetos geralmente competem pelos mesmos recursos, orçamento ou período. Você pode dividir Portfólios em Programas e associar os projetos aos Programas antes que eles sejam adicionados a uma Portfolio.</p> <p>Para obter mais informações sobre portfólios, consulte <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Visão geral do Portfolio em [!DNL Adobe Workfront]</a>.</p> 
    </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
-   <td>[!UICONTROL Gerenciamento de Portfolio]</td> 
+   <td>[!UICONTROL Gerenciamento Portfolio]</td> 
    <td>Uma área de prática focada no gerenciamento de uma coleção ou de programas e esforços de projeto relacionados.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
-   <td>[!UICONTROL Otimizador de Portfolio]</td> 
+   <td>[!UICONTROL Portfolio Otimizer]</td> 
    <td>Uma ferramenta [!DNL Workfront] para auxiliar na avaliação e priorização de projetos em um portfólio.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
-   <td>[!UICONTROL Proprietário de Portfolio]</td> 
+   <td>[!UICONTROL Proprietário do Portfolio]</td> 
    <td>A parte interessada responsável pela definição de prioridades e pelo orçamento de um portfólio.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -2095,8 +2105,8 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
    <td>A ação de permitir que outros usuários exibam ou editem um item específico em [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Data Slack]</td> 
-   <td>Em uma exibição de tarefa ou relatório, a [!UICONTROL Data da Slack] exibe a data exata em que uma tarefa poderia definitivamente afetar a [!UICONTROL Data de conclusão] do projeto. Para obter informações sobre a [!UICONTROL Data da Slack] de uma tarefa, consulte <a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">Visão geral da Data da Slack da Tarefa</a>.</td> 
+   <td>[!UICONTROL Data do Slack]</td> 
+   <td>Em uma exibição de tarefa ou relatório, a [!UICONTROL Data de Slack] exibe a data exata em que uma tarefa poderia definitivamente afetar a [!UICONTROL Data de conclusão] do projeto. Para obter informações sobre a [!UICONTROL Data Slack] de uma tarefa, consulte <a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">Visão geral da Data Slack da Tarefa</a>.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Atribuições Inteligentes]</td> 
