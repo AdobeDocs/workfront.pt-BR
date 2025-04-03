@@ -6,9 +6,9 @@ description: O Adobe Workfront pode gerar um URL exclusivo para a Visualização
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 +++
 
-
 Considere o seguinte ao gerar o URL exclusivo para a Exibição de Usuário do Planejador de Recursos:
 
 * Você pode obter um URL exclusivo somente para a Exibição de usuário. A opção para gerar o URL não existe nas Visualizações do projeto ou da função.
@@ -80,18 +79,18 @@ Para obter um URL único na visualização Usuário do Planejador de recursos e 
    * Trimestre
 
 1. (Opcional) Selecione se você deseja exibir as informações por **FTE** ou **Horas**.\
-   ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
+   ![Selecionar FTE ou Horas](assets/rp-hours-or-fte-in-user-view.png)
 
 1. (Opcional) Aplique filtros ao Planejador de recursos.\
    Para obter informações sobre como aplicar filtros, consulte [Informações de filtro no Planejador de Recursos](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 1. Clique no ícone de **hiperlink**.\
-   ![RP_Storm_generate_URL_with_copy_URL_link.png](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+   ![Ícone de hiperlink e URL](assets/rp-generate-url-from-link-icon.png)
 
 1. Clique em **Copiar URL**.\
    Isto copia o URL exclusivo do Planejador de recursos na Visão do usuário para a área de transferência.
 
-1. (Opcional) Siga um destes procedimentos:  
+1. (Opcional) Siga um destes procedimentos:
 
    * Cole o URL em outro aplicativo para enviá-lo a outro usuário.\
      O usuário deve estar conectado ao Workfront para visualizar o Planejador de recursos na visualização Usuário.
@@ -114,4 +113,4 @@ Para obter um URL único na visualização Usuário do Planejador de recursos e 
    Para obter informações sobre como adicionar painéis a um modelo de layout, consulte [Criar e gerenciar modelos de layout](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).\
    Para obter informações sobre como compartilhar painéis, consulte [Compartilhar um painel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).\
    Ao visualizar o URL compartilhado, os usuários podem ver as informações com as configurações originalmente aplicadas ao Planejador de recursos. Eles devem estar conectados ao Workfront para exibir o URL compartilhado.\
-   ![user_view_dashoard_from_unique_url.png](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![Painel de exemplo com o Planejador de recursos exibido](assets/user-view-dashoard-from-unique-url-350x85.png)
