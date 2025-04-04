@@ -6,9 +6,9 @@ description: A ferramenta de revisão do Adobe Workfront é uma extensão de nav
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 91f2dd12a91889c2cd1c2c01c93402e161684665
+source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,37 @@ A ferramenta de revisão do Adobe Workfront é uma extensão de navegador basead
 Recomendamos o uso do Visualizador de provas de desktop se o conteúdo que você precisa revisar estiver em um site que
 
 * Requer autenticação SSO
-* Impede a abertura do site em iFrames, como Figma
+* Impede a abertura do site em iFrames, como o Figma
 
 
+## Instalar a extensão
 
-## Tornar a ferramenta de revisão do Adobe Workfront o visualizador padrão para provas de URL e ZIP
+### Pré-requisitos
+
+* Remova a extensão do Web Viewer herdado para usar a ferramenta Adobe Workfront Review.
+
+### Instalar a extensão
+
+<!--This extension is required to review conent in GS and Ex.
+
+You must install the extension to reiew content in GenS and Express.
+
+To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
+
+Revisores e aprovadores devem instalar a ferramenta de revisão do Adobe Workfront. em um dos seguintes navegadores:
+
+* [Extensão do Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+
+* [Extensão do Chrome](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+
+* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+
+Para que as provas interativas sejam abertas automaticamente na ferramenta de revisão do Adobe Workfront, um administrador do Workfront deve atualizar as configurações de Prova no Workfront, conforme descrito nas seções abaixo.
+
+## Atualizar padrões de prova do Workfront
+
+### Tornar a ferramenta de revisão do Adobe Workfront o visualizador padrão para provas de URL e ZIP
 
 Para usar a ferramenta de revisão da Web para provas de URL e ZIP, um administrador do Workfront deve ajustar a configuração padrão para provas interativas.
 
@@ -43,9 +69,9 @@ Para usar a ferramenta de revisão da Web para provas de URL e ZIP, um administr
 
 >[!NOTE]
 >
->Essa alteração se aplica a todas as provas interativas nos ambientes de Pré-visualização e Produção. Recomendamos testar a nova experiência no ambiente de Pré-visualização antes de habilitá-la na Produção. Você pode voltar facilmente para o Visualizador de Desktop alterando a configuração da conta de volta para **Habilitado para todas as provas interativas**.
+>Essa alteração se aplica a todas as provas interativas na instância do Workfront. Recomendamos testar a nova experiência no ambiente de Pré-visualização antes de habilitá-la na Produção. Você pode voltar facilmente para o Visualizador de Área de Trabalho alterando a configuração da conta **Visualizador de Revisão de Desktop para Prova Interativa** de volta para **Habilitado para todas as provas interativas**.
 
-## Tornar a ferramenta de revisão do Adobe Workfront o visualizador padrão somente para provas de ZIP
+### Tornar a ferramenta de revisão do Adobe Workfront o visualizador padrão somente para provas de ZIP
 
 Para usar a ferramenta de revisão da Web somente para provas ZIP, um administrador do Workfront deve ajustar a configuração padrão para provas interativas.
 
@@ -57,20 +83,7 @@ Para usar a ferramenta de revisão da Web somente para provas ZIP, um administra
 
 >[!NOTE]
 >
->Essa alteração se aplica a todas as provas interativas nos ambientes de Pré-visualização e Produção. Recomendamos testar a nova experiência no ambiente de Pré-visualização antes de habilitá-la na Produção. Você pode voltar facilmente para o Visualizador de Desktop alterando a configuração da conta de volta para **Habilitado para todas as provas interativas**.
+>Essa alteração se aplica a todas as provas de ZIP na instância do Workfront. Recomendamos testar a nova experiência no ambiente de Pré-visualização antes de habilitá-la na Produção. Você pode voltar facilmente para o Visualizador de Área de Trabalho alterando a configuração da conta **Visualizador de Revisão de Desktop para Prova Interativa** de volta para **Habilitado para todas as provas interativas**.
 
-## Instalar a extensão
 
-Revisores e aprovadores devem instalar a ferramenta de revisão do Adobe Workfront. em um dos seguintes navegadores:
 
-* [Extensão do Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
-
-* [Extensão do Chrome](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
-
-* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
-
-Depois de instalar a extensão, as provas interativas são abertas automaticamente na ferramenta de revisão do Adobe Workfront.
-
->[!IMPORTANT]
->
->Remova a extensão do Web Viewer herdado para usar a ferramenta Adobe Workfront Review.

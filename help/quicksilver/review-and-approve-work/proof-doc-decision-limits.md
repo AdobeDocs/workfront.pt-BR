@@ -6,16 +6,22 @@ description: As decisões de prova e documento são limitadas a todas as licenç
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '259'
+ht-degree: 5%
 
 ---
 
 # Visão geral de documentos e decisões de prova limitados para usuários não pagos
 
-As decisões de prova e documento são limitadas para todas as licenças não pagas do Workfront nos novos planos. Para obter mais informações, consulte [Visão geral das novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+As decisões de prova e documento são limitadas para todas as licenças não pagas do Workfront nos novos planos. Quando estiver atribuído como aprovador para um documento ou prova, você deverá tomar a decisão de avançar o processo de revisão e aprovação.
+
+As seguintes opções de decisão contam para o limite mensal:
+
+* Aprovar
+* Aprovar com alterações
+* Precisa do trabalho
 
 Limites redefinidos por usuário a cada mês. Os limites de decisão para cada licença diferem dependendo do plano em que você está:
 
@@ -61,6 +67,8 @@ Limites redefinidos por usuário a cada mês. Os limites de decisão para cada l
    </td>
   </tr>
 </table>
+
+Para obter mais informações, consulte [Visão geral das novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 ## Usuários externos
 
