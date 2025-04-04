@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -298,9 +298,11 @@ A seguinte funcionalidade será removida do Workfront em breve:
 
 #### Estamos removendo a visualização Agile herdada em um projeto
 
-A visualização Agile herdada em um projeto será removida do Workfront com a versão 25.3 em 13 de março de 2025. Você ainda poderá exibir suas tarefas em uma visualização Agile em um projeto clicando no ícone Quadros.
+A visualização Agile herdada em um projeto será removida do Workfront com a versão 25.3 em 13 de março de 2025. Você ainda poderá exibir suas tarefas em uma visualização Agile em um projeto clicando no ícone Quadros. As ferramentas ágeis herdadas ainda estão disponíveis na área Equipes.
 
-Para obter mais informações sobre como usar o modo de exibição Agile, consulte [Gerenciar um projeto no Modo de Exibição Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+A imagem abaixo mostra a opção ágil herdada que será removida:
+![link de exibição ágil herdado](assets/project-agile-board-view.png)
+
 
 #### Substituição aprimorada do Analytics
 
