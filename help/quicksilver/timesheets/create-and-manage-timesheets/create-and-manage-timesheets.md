@@ -1,13 +1,13 @@
 ---
 product-area: timesheets
 navigation-topic: configure-timesheet-preferences
-title: "Criar e gerenciar folhas de horas: índice do artigo"
+title: 'Criar e gerenciar folhas de horas: índice do artigo'
 description: Você pode criar folhas de horas no Adobe Workfront e acompanhar o tempo que gasta na conclusão do trabalho. Saiba mais sobre como criar, editar e gerenciar folhas de horas nos artigos a seguir.
 author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 ---
 
 # Criar e gerenciar folhas de horas: índice do artigo
+
+<!-- Audited: 4/2025 -->
 
 Esta seção contém os seguintes artigos:
 

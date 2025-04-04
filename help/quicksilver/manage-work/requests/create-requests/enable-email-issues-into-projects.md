@@ -3,17 +3,19 @@ product-area: requests
 navigation-topic: create-requests
 title: Permitir que os usuários enviem por email um problema para um projeto da fila de solicitações
 description: Você pode configurar um projeto para permitir que os usuários adicionem problemas ao projeto por email.
-author: LIsa
+author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
 
 # Permitir que os usuários enviem um problema por email para um projeto da Fila de solicitações
+
+<!-- Audited: 4/2025 -->
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
@@ -55,9 +57,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Pré-requisitos
 
-Os seguintes pré-requisitos são necessários para configurar um projeto e permitir que os usuários adicionem problemas ao projeto por email.
-
-Essas condições devem ser atendidas antes de habilitar esse recurso:
+As seguintes condições são necessárias para configurar um projeto e permitir que os usuários adicionem problemas ao projeto por email:
 
 * Os usuários que estão enviando problemas por email para esta conta devem ser usuários ativos com uma licença do Workfront.
 * Os usuários que estão enviando problemas para esta conta devem ter permissões para Adicionar problema no projeto.
@@ -79,7 +79,7 @@ Essas condições devem ser atendidas antes de habilitar esse recurso:
 
 1. Vá para o projeto que você deseja habilitar para receber problemas por email.
 1. Clique em **Detalhes da fila** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais** primeiro.
-1. Na área **Tipo de fila**, selecione **Publish como Fila de solicitação de ajuda**.
+1. Na área **Tipo de Fila**, selecione **Publicar como Fila de Solicitação de Ajuda**.
 
 1. Role para baixo até a área **Configurações da fila de emails** e selecione **Habilitar entrada de solicitação por email**.
 
