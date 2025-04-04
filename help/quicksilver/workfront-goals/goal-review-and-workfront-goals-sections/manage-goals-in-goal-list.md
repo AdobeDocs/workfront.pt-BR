@@ -6,14 +6,16 @@ description: Depois que você ou outros usuários criam metas, é possível revi
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '796'
 ht-degree: 2%
 
 ---
 
 # Gerenciar metas na Lista de metas do Adobe Workfront
+
+<!--Audited for P&P only: 4/2025-->
 
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
@@ -21,7 +23,9 @@ Depois que você ou outros usuários criam metas, é possível revisar o progres
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as ações descritas neste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte:
 
 <table style="table-layout:auto">
 <col>
@@ -38,7 +42,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
 <p>Para o plano e a estrutura de licença atuais: 
 <ul><li> A Pro ou superior </li>
   <li>Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.</li></ul></p>
-   </td> 
+   </td>
   </tr>
  <tr>
  <td role="rowheader">Licença da Adobe Workfront*</td>
@@ -50,12 +54,9 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
  <tr>
  <td role="rowheader">Produto*</td>
  <td>
- <p> Novo requisito de produto, um dos seguintes: </p>
-<ul>
-<li>Um plano Select ou Prime Adobe Workfront e uma licença adicional do Adobe Workfront Goals.</li>
-<li>Um plano do Ultimate Workfront que inclui o Workfront Goals por padrão. </li></ul>
- <p>Ou</p>
- <p>Requisito atual do produto: um plano do Workfront e uma licença adicional para o Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
+    <p> Novo requisito de produto: Workfront</p>
+    Ou
+    <p>Requisito atual do produto: além de uma licença do Workfront, você deve comprar uma licença do Adobe Workfront Goals. </p> <p>Para obter informações, consulte <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisitos para usar as Metas do Workfront</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Nível de acesso</td>
@@ -79,6 +80,8 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
 </table>
 
 *Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Gerenciar metas na Lista de metas
 

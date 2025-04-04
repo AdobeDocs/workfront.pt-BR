@@ -2,19 +2,21 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Revisão de metas e as seções de Metas do Adobe Workfront
+title: 'Seções Análise de metas e as metas do Adobe Workfront: índice de artigos'
 description: Saiba mais sobre como revisar metas e entenda as seções em que é possível gerenciar metas no Adobe Workfront nos artigos a seguir.
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
-# Revisão de metas e as seções de Metas do Adobe Workfront
+# Seções Análise de meta e Metas do Adobe Workfront: índice do artigo
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -22,7 +24,7 @@ ht-degree: 0%
 >
 >* Para o novo plano e estrutura de licença:
 >
->   * O plano Ultimate Workfront
+>   * O plano do Ultimate Workfront
 >    
 >* Para o plano e a estrutura de licença atuais:
 >

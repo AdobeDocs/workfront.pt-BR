@@ -2,12 +2,12 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Visão geral das seções de Metas do Adobe Workfront
+title: Seções Visão Geral das Metas do Adobe Workfront
 description: Você pode acessar listas de metas ou metas individuais e gerenciá-las de várias seções das Metas do Adobe Workfront. A seção usada depende do propósito que você deseja atingir ao trabalhar com metas.
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 ---
 
 # Visão geral das seções de Metas do Adobe Workfront
+
+<!--Audited for P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >
