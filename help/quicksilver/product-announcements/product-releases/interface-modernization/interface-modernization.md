@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
+source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
@@ -211,6 +211,18 @@ Para exibir esta alteração, vá para Equipes > escolha uma equipe > Lista de p
 ## Documentos
 
 +++Expandir para exibir atualizações da interface de Documentos
+
+### Atualizações de interface para a página de compartilhamento de documentos externos
+
+**Versão de visualização: 3 de abril de 2025; Versão de produção: iniciando a semana de 10 de abril de 2025**
+
+Atualizamos a página que os usuários externos veem quando um documento é compartilhado com eles. Nessa página, os usuários externos podem
+
+* Baixar o documento
+* Tomar uma decisão de aprovação
+* Abrir o visualizador de provas
+
+Essa atualização inclui um design mais moderno consistente com outras áreas do Workfront.
 
 ### Atualização de interface para a área Aprovações em um documento
 
