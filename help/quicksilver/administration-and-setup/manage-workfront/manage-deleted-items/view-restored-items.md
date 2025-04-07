@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1d18b58d1ac47159f301589315883f28dfa58694
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -66,8 +66,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Por padrão, os itens são classificados pela Data de restauração.
 
-1. Clique na guia **Projetos**, **Tarefas**, **Problemas** ou **Documentos**, dependendo do tipo de item que foi restaurado.
+1. Clique na guia **Projetos**, **Tarefas**, **Problemas**, **Documentos** ou **Modelos**, dependendo do tipo de item que foi restaurado.
 
 1. Clique no nome vinculado do item que deseja exibir.
 
-   O projeto, tarefa, problema ou documento é exibido.
+   O projeto, tarefa, problema, documento ou modelo é exibido.
