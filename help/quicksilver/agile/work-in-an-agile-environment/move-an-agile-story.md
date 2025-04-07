@@ -6,9 +6,9 @@ description: É possível mover uma história ágil para uma iteração diferent
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 164e98e8cc6995387be1e830787cb258f127bd70
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -55,38 +55,35 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Vá para a iteração ou quadro Kanban que contém a matéria que você deseja mover para o backlog.
 1. Clique no cabeçalho de iteração na parte superior da página.
 1. Na guia **[!UICONTROL Histórias]**, selecione as histórias que deseja mover.
-1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Mover para]**.
-
-   A caixa de diálogo **[!UICONTROL Mover História]** é exibida.
+1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Mover para]**. A caixa de diálogo **[!UICONTROL Mover para]** é exibida.
 
    ![Caixa de diálogo Mover História](assets/iteration-story-move.png)
 
-1. Selecione a Lista de Pendências do **team_name**.
-No exemplo acima, o nome da equipe é **Marketing**.
+1. Selecione a Lista de Pendências do **team_name**. No exemplo acima, o nome da equipe é **Marketing**.
 
-1. Clique em **[!UICONTROL Mover história]**.
+1. Clique em **[!UICONTROL Mover]**.
 
 ## Mover uma história para uma iteração diferente
 
-Você pode mover uma história para uma iteração diferente para sua equipe do Scrum.
+Você pode mover uma história para uma iteração diferente para sua equipe do Scrum se for um Administrador do sistema ou um membro da equipe à qual a iteração está associada.
 
 >[!NOTE]
 >
->A opção **[!UICONTROL Mover para]** não está disponível para matérias pai em uma iteração. Só é possível mover subtarefas para outra iteração.
+> A opção **[!UICONTROL Mover para]** não está disponível para matérias pai em uma iteração. Só é possível mover subtarefas para outra iteração.
+
 
 1. Vá para a iteração que contém a história que você deseja mover.
 1. Clique no cabeçalho de iteração na parte superior da página.
 1. Na guia **[!UICONTROL Histórias]**, selecione as histórias que deseja mover.
-1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Mover para]**.
-
-   A caixa de diálogo **[!UICONTROL Mover História]** é exibida.
+1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Mover para]**. A caixa de diálogo **[!UICONTROL Mover para]** é exibida.
 
    ![Caixa de diálogo Mover História](assets/iteration-story-move.png)
 
-1. Selecione **[!UICONTROL Outra iteração]** e, no menu suspenso, selecione a iteração para onde deseja mover a história.
+1. Selecione **[!UICONTROL Outra Iteração]**.
+1. No menu suspenso exibido, selecione a iteração para a qual deseja mover a matéria.
 
    >[!NOTE]
    >
    >O item de trabalho [!UICONTROL Data de Início Planejada] e [!UICONTROL Data de Conclusão Planejada] são afetados por uma configuração na página [!UICONTROL Editar Equipe]. Para obter informações, consulte a seção [[!UICONTROL Configurar] como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) no artigo [Configurar Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-1. Clique em **[!UICONTROL Mover história]**.
+1. Clique em **[!UICONTROL Mover]**.
