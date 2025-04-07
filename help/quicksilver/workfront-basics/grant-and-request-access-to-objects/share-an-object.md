@@ -6,9 +6,9 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Para obter informações sobre o compartilhamento de permissões em objetos, con
 Este artigo descreve como compartilhar os seguintes objetos:
 
 * Projetos, tarefas, problemas
-* Portfolio, programas
+* Portfólios, programas
 * Documentos
 
 Para obter informações sobre como compartilhar todos os outros objetos no Workfront, consulte também os seguintes artigos:
@@ -110,7 +110,7 @@ Você deve ter o seguinte para compartilhar objetos:
 
    ![](assets/new-share-button.png)
 
-1. Na caixa **Conceder &lt; object name > acesso a**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o objeto e, em seguida, clique no nome quando ele aparecer na lista suspensa.
+1. Na caixa **Conceder acesso a**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o objeto e, em seguida, clique no nome quando ele aparecer na lista suspensa.
 
    ![](assets/new-share-button-add-people.png){width="350"}
 
@@ -134,7 +134,7 @@ Você deve ter o seguinte para compartilhar objetos:
    As seguintes opções estão disponíveis:
 
    * **Exibir:** usuários podem revisar e compartilhar o item.
-   * **Contribute**: os usuários podem fazer atualizações, registrar informações, fazer pequenas edições e compartilhar, além de todas as permissões de Exibição.
+   * **Contribute**: os usuários podem fazer atualizações, registrar informações, fazer pequenas edições e compartilhar, além de todas as permissões de exibição.
    * **Gerenciar:** usuários têm acesso total ao objeto sem direitos administrativos (que são concedidos no nível de acesso). Além disso, eles também têm todas as permissões de Exibição e Contribute.
 
      >[!NOTE]
@@ -169,13 +169,7 @@ Você deve ter o seguinte para compartilhar objetos:
 
    Você pode especificar permissões nos projetos que serão criados a partir de um modelo quando você compartilhar o modelo. Para obter mais informações, consulte [Compartilhar modelos de projeto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-1. (Condicional) Para compartilhar o objeto com usuários externos, clique em **Copiar link** e distribua o link para usuários externos.
-
-   Qualquer usuário com o link pode visualizar o objeto.
-
-   >[!CAUTION]
-   >
-   >Recomendamos que você tenha cuidado ao compartilhar com usuários externos um objeto que contém informações confidenciais. Isso permite que eles visualizem informações sem ser um usuário da Workfront ou parte da organização.
+1. (Condicional) Para compartilhar rapidamente o objeto com usuários que têm acesso, clique em **Copiar link**.
 
 1. Clique em **Salvar**.
 
@@ -288,7 +282,7 @@ Você deve ter o seguinte para compartilhar objetos:
    As seguintes opções estão disponíveis:
 
    * **Exibir:** usuários podem revisar e compartilhar o item.
-   * **Contribute**: os usuários podem fazer atualizações, registrar informações, fazer pequenas edições e compartilhar, além de todas as permissões de Exibição.
+   * **Contribute**: os usuários podem fazer atualizações, registrar informações, fazer pequenas edições e compartilhar, além de todas as permissões de exibição.
 
      >[!TIP]
      >
