@@ -8,28 +8,26 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
+source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '405'
 ht-degree: 4%
 
 ---
 
 # Criar tipos de despesas personalizados
 
-{{highlighted-preview}}
-
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
 Como administrador do [!DNL Adobe Workfront], você pode criar tipos de despesas personalizados para definir e acompanhar as despesas associadas às suas tarefas e projetos. Despesas são custos não mão de obra que podem ser associados a tarefas ou projetos.
 
-É possível editar ou excluir qualquer tipo de despesa criada. Não é possível excluir ou editar os tipos de despesas [!DNL Workfront] predefinidos.
+Você pode editar ou excluir todos os tipos de despesas que você criar. Não é possível excluir ou editar os tipos incorporados de [!DNL Workfront] despesas.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualização requisitos de acesso do funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,20 +46,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td>[!UICONTROL Administrador do Sistema]</td>
+   <td>[! Administrador de sistema UICONTROL]</td>
   </tr>
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Os requisitos de acesso na documentação](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) da Workfront.
 
 +++
 
 ## Tipos de despesas padrão
 
-Os tipos de despesas padrão em [!DNL Workfront] que não podem ser excluídos ou editados incluem:
+Os tipos [!DNL Workfront] de despesas padrão que não podem ser excluídas ou editadas incluem:
 
-* [!UICONTROL Advertising]
+* [!UICONTROL Publicidade]
 * [!UICONTROL Consultoria]
 * [!UICONTROL Entretenimento]
 * [!UICONTROL Geral]
@@ -72,20 +70,20 @@ Os tipos de despesas padrão em [!DNL Workfront] que não podem ser excluídos o
 
 {{step-1-to-setup}}
 
-1. Clique em **[!UICONTROL Tipos de Despesas]**.
-1. Clique em **[!UICONTROL Novo tipo de despesa]**.
-1. Na caixa de diálogo **[!UICONTROL Novo Tipo de Despesa]**, especifique as seguintes informações:
+1. Clique **[!UICONTROL em Tipos]** de despesas.
+1. Clique **[!UICONTROL Novo tipo]** de despesa.
+1. **[!UICONTROL Na caixa de diálogo Tipo]** de despesas da Novo, especifique as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nome]</td> 
+      <td role="rowheader">[! Nome UICONTROL]</td> 
       <td>Especifique um nome para a despesa.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Descrição]</td> 
+      <td role="rowheader">[! Descrição UICONTROL]</td> 
       <td>Especifique uma descrição para a despesa.</td> 
      </tr> 
      <tr> 
@@ -98,7 +96,7 @@ Os tipos de despesas padrão em [!DNL Workfront] que não podem ser excluídos o
         <li>Dólar</li> 
         <li>Dólar</li> 
         <li>Dia</li> 
-        <li>Outro - A seleção dessa opção solicita que você nomeie sua unidade de medida e defina a unidade de medida como algo familiar à sua organização.</li> 
+        <li>Outro - Selecionar essa opção solicita que você nomeie sua unidade de medida e defina a unidade de medida como algo familiar para sua organização.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -108,7 +106,7 @@ Os tipos de despesas padrão em [!DNL Workfront] que não podem ser excluídos o
     </tbody> 
    </table>
 
-1. Clique em **Criar Tipo de Despesa** <span class="preview">ou **[!UICONTROL Salvar]**.</span>
+1. Clique em **[!UICONTROL Salvar]**.
 
    O tipo de despesa agora está disponível para que os usuários o associem às suas despesas em projetos e tarefas.
 
@@ -121,8 +119,8 @@ Os tipos de despesas padrão em [!DNL Workfront] que não podem ser excluídos o
 
    A caixa de diálogo **[!UICONTROL Editar Tipo de Despesa]** é exibida.
 
-1. Faça as alterações desejadas e clique em **Salvar alterações** <span class="preview">ou **[!UICONTROL Salvar]**.</span>
+1. Faça as alterações desejadas e clique **[!UICONTROL Salvar]**.
 
-   O tipo de despesa agora está disponível para que os usuários o associem às suas despesas em projetos e tarefas.
+   O tipo de despesa agora está disponível para os usuários associá-lo às suas despesas em projetos e tarefas.
 
-Para obter mais informações sobre como usar as despesas e como elas podem afetar o custo de um projeto, consulte o artigo [Gerenciar despesas do projeto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+Para obter mais informações sobre como usar despesas e como elas podem afetar o custo de um projeto, consulte o artigo [Gerenciar despesas](../../../manage-work/projects/project-finances/manage-project-expenses.md) do projeto.

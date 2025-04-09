@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
+source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1680'
 ht-degree: 0%
 
 ---
 
 # Adicionar regras de lógica a formulários e campos personalizados
-
-{{highlighted-preview}}
 
 As regras lógicas permitem personalizar ainda mais os campos no formulário.
 
@@ -115,13 +113,7 @@ A lógica de exibição define quais campos personalizados aparecem no formulár
 1. Selecione a guia **Exibição** no construtor de lógica.
 1. Clique em **Adicionar Regra de Exibição**.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
-
    ![Exibir construtor de lógica](assets/simple-display-logic1-val-only-in-menu.png)
-
-   Imagem de amostra no ambiente de produção:
-
-   ![Exibir construtor de lógica](assets/custom-form-logic-builder-display-blank.png)
 
 1. Siga as etapas abaixo para criar a instrução lógica no construtor.
 
@@ -130,17 +122,11 @@ A lógica de exibição define quais campos personalizados aparecem no formulár
    1. A terceira opção é **Selecionado** ou **Não Selecionado**. Escolher **Selecionado** significa que, quando o valor for selecionado, o campo de destino será exibido. Escolher **Não selecionado** significa que quando qualquer outro valor é selecionado no campo de definição, o campo de destino é exibido.
    1. Para adicionar uma regra **And** à instrução lógica, clique em **Adicionar Regra** diretamente abaixo da regra que você acabou de criar. Siga os mesmos prompts para criar a regra. Todas as regras And devem ser atendidas para que o campo de público alvo seja exibido.
 
-      <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
-
       ![Exibir construtor de lógica](assets/simple-display-logic2.png)
-
-      Imagem de amostra no ambiente de produção:
-
-      ![Exibir construtor de lógica](assets/custom-form-logic-builder-display1.png)
 
    1. Para adicionar uma regra **Or** à instrução lógica, clique em **Adicionar regra** próximo à parte inferior do construtor de lógica. Em seguida, clique em **Adicionar regra** dentro da área Ou e siga os mesmos prompts para criar a regra. Quando uma regra Ou é atendida, o campo de destino é exibido.
 
-1. Clique em **Salvar** <span class="preview">ou **Aplicar**</span> quando terminar de criar a instrução lógica.
+1. Clique em **Aplicar** quando terminar de criar a instrução lógica.
 
    Os ícones de lógica de exibição são adicionados ao campo de destino e ao campo de definição no designer do formulário.
 
@@ -212,14 +198,7 @@ A lógica de salto define campos de formulário personalizados que são ignorado
 1. Selecione a guia **Ignorar** no construtor de lógica.
 1. Clique em **Adicionar Regra de salto**.
 
-
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
-
    ![Ignorar construtor de lógica](assets/skip-logic1-val-only-in-menu.png)
-
-   Imagem de amostra no ambiente de produção:
-
-   ![Ignorar construtor de lógica](assets/custom-form-logic-builder-skip-blank.png)
 
 1. Siga as etapas abaixo para criar a instrução lógica no construtor.
 
@@ -228,21 +207,13 @@ A lógica de salto define campos de formulário personalizados que são ignorado
    1. A segunda opção é **Selecionada** ou **Não Selecionada**. Escolher **Selecionado** significa que quando o valor é selecionado, o campo de destino é exibido e os campos intermediários são ignorados. Escolher **Não selecionado** significa que quando qualquer outro valor é selecionado no campo de definição, o campo de destino é exibido e os campos intermediários são ignorados.
    1. A terceira opção é o campo de destino ou para onde pular. Selecione um nome de campo ou **Fim do formulário**. Talvez seja necessário clicar na palavra &quot;vazio&quot; primeiro antes de selecionar uma opção.
 
-      <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
-
       ![Ignorar construtor de lógica](assets/skip-logic2.png)
-
-      Imagem de amostra no ambiente de produção:
-
-      ![Ignorar construtor de lógica](assets/custom-form-logic-builder-skip1.png)
 
    1. Para adicionar uma regra **Or** à instrução lógica, clique em **Adicionar regra** próximo à parte inferior do construtor de lógica. Em seguida, selecione as opções seguindo os mesmos prompts para criar a regra. Quando uma regra **Or** é atendida, o campo de destino é exibido.
 
-1. Clique em **Salvar** <span class="preview">ou **Aplicar**</span> quando terminar de criar a instrução lógica.
+1. Clique em **Aplicar** quando terminar de criar a instrução lógica.
 
    Os ícones de lógica de salto são adicionados ao campo de destino e ao campo de definição no designer do formulário.
-
-<div class="preview">
 
 ## Adicionar lógica de validação a um formulário personalizado
 
@@ -286,8 +257,6 @@ Um exemplo adicional para validação com base em outros campos é um campo para
 1. Clique em **Aplicar**.
 
    A lógica é aplicada ao campo no designer do formulário.
-
-</div>
 
 <!--
 <div class="preview">
