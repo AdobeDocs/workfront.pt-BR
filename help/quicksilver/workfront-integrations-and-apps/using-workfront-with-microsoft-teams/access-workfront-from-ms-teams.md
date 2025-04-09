@@ -6,9 +6,9 @@ description: Você pode acessar [!DNL Adobe Workfront] de [!DNL Microsoft Teams]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '485'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Atualmente, o Adobe Workfront para integração do Microsoft Teams é compatível apenas com a experiência clássica do Microsoft Teams.
+>A partir de 1º de julho de 2025, a Microsoft removerá o suporte para o aplicativo de desktop Classic Teams. Como resultado, a integração do Workfront com o Microsoft Teams não será suportada depois que o aplicativo de desktop Classic Teams não estiver mais disponível.
 
 Você pode acessar [!DNL Adobe Workfront] de [!DNL Microsoft Teams] e executar várias ações em [!DNL Workfront] digitando comandos no canal de bot [!DNL Workfront] ou em qualquer outro canal de equipe.
 

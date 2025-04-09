@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -97,13 +97,13 @@ O [!DNL Workfront] fornece as seguintes integrações internas sem custo adicion
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Baixar/instalar de <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <li><p>Baixe/instale a partir de <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
      <p>Para obter informações e instruções, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Instalar o plug-in [!DNL Adobe Workfront] para [!DNL Creative Cloud] aplicativos</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>ADOBE EXPERIENCE MANAGER ASSETS e ASSETS ESSENTIALS </p>  </p> </td> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets e Assets Essentials </p>  </p> </td> 
    <td> 
     <ul> 
      <li>Criar automaticamente pastas vinculadas entre o Workfront e o Adobe Experience Manager 
@@ -112,7 +112,7 @@ O [!DNL Workfront] fornece as seguintes integrações internas sem custo adicion
       <li>Conecte sem problemas vários repositórios Experience Manager Assets a um ambiente Workfront ou vários ambientes Workfront a um repositório Experience Manager Assets em IDs de organização</li></ul>
      <p>Para obter informações e instruções, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Visão geral das integrações do Adobe Experience Manager Assets</a></p> 
      </td>
-   <td><ul><li>A Workfront deve estar em um Admin Console com uma ID de organização atribuída.</li><li>O Workfront e o Experience Manager Assets ou Assets Essentials devem ser atribuídos como um produto ao usuário que está configurando a integração.</li></ul></td>   <td> </td> 
+   <td><ul><li>A Workfront deve estar em uma Admin Console com uma ID de organização atribuída.</li><li>O Workfront e o Experience Manager Assets ou Assets Essentials devem ser atribuídos como um produto ao usuário que configura a integração.</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -229,7 +229,7 @@ O [!DNL Workfront] fornece as seguintes integrações internas sem custo adicion
      <li>Procurar [!DNL Workfront] projetos, tarefas e problemas </li> 
      <li>Criar [!DNL Workfront] tarefas pessoais </li> 
      <li>Enviar [!DNL Workfront] solicitações </li> 
-    </ul> <p>Para obter mais informações, consulte <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: índice do artigo</a>.</p> </td> 
+    </ul> <p>Para obter mais informações, consulte <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: índice do artigo</a>.</p><p><b>OBSERVAÇÃO</b>: a partir de 1º de julho de 2025, a Microsoft removerá o suporte para o aplicativo de desktop Classic Teams. Como resultado, a integração do Workfront com o Microsoft Teams não será suportada assim que o aplicativo de desktop Classic Teams não estiver mais disponível. </p></td> 
    <td> 
     <ul> 
      <li>Cada equipe em sua organização deve instalar a integração se mais de uma equipe quiser usá-la</li> 
@@ -276,7 +276,7 @@ O [!DNL Workfront] fornece as seguintes integrações internas sem custo adicion
     </ul> <p>Para obter mais informações, consulte <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Slack] o administrador precisa permitir que todos os usuários do Slack instalem [!DNL Workfront for Slack]</li> 
+     <li>[!DNL Slack] o administrador deve permitir que todos os usuários do Slack façam a instalação [!DNL Workfront for Slack]</li> 
      <li>[!DNL Slack] usuários devem ter uma licença [!DNL Workfront] </li> 
     </ul> </td> 
    <td> 

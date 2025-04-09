@@ -7,9 +7,9 @@ description: Você pode integrar o [!DNL Adobe Workfront] com aplicativos de ter
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '539'
 ht-degree: 3%
 
 ---
@@ -43,11 +43,11 @@ As seguintes integrações integradas estão disponíveis atualmente no Workfron
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Baixar/instalar de <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <li><p>Baixe/instale a partir de <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
      <p>Para obter informações e instruções, consulte <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Instalar o plug-in [!DNL Adobe Workfront] para [!DNL Creative Cloud] aplicativos</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>ADOBE EXPERIENCE MANAGER ASSETS e ASSETS ESSENTIALS </p>  </p> </td> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets e Assets Essentials </p>  </p> </td> 
    <td> 
     <ul> 
      <li>Criar automaticamente pastas vinculadas entre o Workfront e o Adobe Experience Manager 
@@ -120,7 +120,7 @@ As seguintes integrações integradas estão disponíveis atualmente no Workfron
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
+   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>OBSERVAÇÃO</b>: a partir de 1º de julho de 2025, a Microsoft removerá o suporte para o aplicativo de desktop Classic Teams. Como resultado, a integração do Workfront com o Microsoft Teams não será suportada assim que o aplicativo de desktop Classic Teams não estiver mais disponível. </p> </td> 
    <td> 
     <ul> 
      <li>Receber notificações de [!DNL Workfront] em [!DNL Microsoft Teams] </li> 

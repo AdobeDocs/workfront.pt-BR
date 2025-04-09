@@ -6,9 +6,9 @@ description: Você pode pesquisar [!DNL Workfront] itens em qualquer [!DNL Adobe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Atualmente, o Adobe Workfront para integração do Microsoft Teams é compatível apenas com a experiência clássica do Microsoft Teams.
+>A partir de 1º de julho de 2025, a Microsoft removerá o suporte para o aplicativo de desktop Classic Teams. Como resultado, a integração do Workfront com o Microsoft Teams não será suportada depois que o aplicativo de desktop Classic Teams não estiver mais disponível.
 
 Você pode pesquisar [!DNL Workfront] itens em qualquer canal [!DNL Adobe Workfront] no [!DNL Microsoft Teams] e compartilhar esses itens com membros de suas equipes.
 
@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 Você pode pesquisar e compartilhar [!DNL Workfront] itens em [!DNL Microsoft Teams] se as seguintes condições forem atendidas:
 
 * Um proprietário de equipe instalou e configurou o [!DNL Workfront for Microsoft Teams] para sua equipe.
-* Você está conectado a [!DNL Workfront] em [!UICONTROL Microsoft Teams].
+* Você está conectado ao [!DNL Workfront] no [!UICONTROL Microsoft Teams].
 
 Para obter informações sobre como instalar o [!UICONTROL Workfront para Microsoft Teams] e fazer logon no [!UICONTROL Workfront] a partir do [!DNL Microsoft Teams], consulte [Instalar o Adobe Workfront para Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
