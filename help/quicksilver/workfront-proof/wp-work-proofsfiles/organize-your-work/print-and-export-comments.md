@@ -7,9 +7,9 @@ description: O resumo de Comentários pode ser acessado no Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
+source-git-commit: e72fe6861b26caa2f9e3ff64e36b871528619f5a
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,8 @@ Para baixar o resumo [!DNL Excel] na página de detalhes da Prova:
 
 1. Clique no botão **Mais** e selecione **Exportar para o Excel**.
 
-   ![Opção Exportar para o Excel](assets/Export-to-excel-option.png)
+   <!--
+   ![Export to Excel option](assets/export-to-excel-option.png) -->
 
 ## Exportar para o PDF
 
