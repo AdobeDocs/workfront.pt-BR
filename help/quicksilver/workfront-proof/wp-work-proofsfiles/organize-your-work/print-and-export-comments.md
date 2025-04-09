@@ -7,9 +7,9 @@ description: O resumo de Comentários pode ser acessado no Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -34,15 +34,19 @@ Você pode imprimir o resumo de Comentários da prova, incluindo as miniaturas o
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
+Para acessar o Visualizador de provas, clique no botão **Ir para prova** da página Detalhes da prova.
+
 ### A página de detalhes da prova {#the-proof-details-page}
 
-Você pode imprimir o resumo do Comentário da prova clicando no ícone **[!UICONTROL Imprimir]** na página Detalhes da prova.
+Você pode imprimir o resumo do comentário da prova clicando no ícone **[!UICONTROL Imprimir]** na página Detalhes da prova.
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
+Para acessar a página Detalhes da prova de uma prova específica, clique no nome da prova na exibição em lista.
+
 ### O Menu de Ações [!DNL Proof] {#the-proof-actions-menu}
 
-Você pode imprimir o resumo do Comentário da prova clicando no ícone **[!UICONTROL Imprimir]** no menu [!UICONTROL Ações de prova].
+Você pode imprimir o resumo do comentário da prova clicando no ícone **[!UICONTROL Imprimir]** no menu [!UICONTROL Ações de prova].
 
 Para acessar a página [!UICONTROL Resumo dos comentários] a partir de uma exibição de lista:
 
@@ -51,7 +55,7 @@ Para acessar a página [!UICONTROL Resumo dos comentários] a partir de uma exib
 
    ![List_view.png](assets/list-view-350x155.png)
 
-   Na página de resumo de comentários, você tem as seguintes opções de impressão para escolher:
+   Na página de resumo de Comentários, selecione uma das seguintes opções de impressão:
 
    * Visualização em miniatura (1)
    * Exibição de página inteira (2)
@@ -63,7 +67,7 @@ Para acessar a página [!UICONTROL Resumo dos comentários] a partir de uma exib
 
 ### Exibição de miniatura
 
-A exibição de Miniatura mostra cada comentário em ordem, junto com o thread completo para cada comentário. Também é possível classificar comentários e ver a miniatura de cada comentário com marcações adicionadas.
+A exibição de Miniatura mostra cada comentário em ordem com o thread completo para cada comentário. Também é possível classificar comentários e ver a miniatura de cada comentário com marcações adicionadas.
 
 Para imprimir o modo de exibição de miniatura, clique no ícone **[!UICONTROL Impressora]** no canto superior direito da página e selecione uma das seguintes opções:
 
@@ -74,7 +78,7 @@ Para imprimir o modo de exibição de miniatura, clique no ícone **[!UICONTROL 
 
 ### Exibição de página inteira
 
-A exibição de página inteira mostra cada página em ordem, juntamente com os comentários nessa página e um marcador indicando onde a marcação para o comentário está localizada na página.
+A exibição de página inteira mostra cada página em ordem com os comentários nessa página e um marcador indicando onde o comentário está localizado.
 
 Para imprimir a exibição de página inteira, clique no ícone **[!UICONTROL Impressora]** no canto superior direito da página.
 
@@ -82,30 +86,28 @@ Para imprimir a exibição de página inteira, clique no ícone **[!UICONTROL Im
 
 ## Exportando um Resumo [!DNL Excel]
 
-Para baixar o resumo de [!DNL Excel]:
+Para exportar o resumo [!DNL Excel] do menu de ações de Prova:
 
-1. Abra o menu de ações da prova à direita da prova e clique em **[!UICONTROL [!DNL Excel]resumo]**. (1)\
-   ![Excel_summary.png](assets/excel-summary-350x450.png)
+1. Clique no ícone **Ações** à direita da prova e selecione **[!UICONTROL [!DNL Excel]resumo]**.
+   ![Exportar resumo do Excel](assets/excel-summary-option.png)
 
 Para baixar o resumo [!DNL Excel] na página de detalhes da Prova:
 
-1. Clique no ícone Exportar para **[!DNL Excel]**. (2)
+1. Clique no botão **Mais** e selecione **Exportar para o Excel**.
 
-   ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+   ![Opção Exportar para o Excel](assets/Export-to-excel-option.png)
 
 ## Exportar para o PDF
 
-Para exportar uma prova para o PDF, juntamente com todas as marcações e comentários, siga estas etapas:
-
-1. Vá para **[!UICONTROL Exibições]** no lado esquerdo da tela.
-1. Clique no ícone **[!UICONTROL Mais]** incorporado com uma prova e em **[!UICONTROL Imprimir comentários]**.
-
-1. Clique no ícone Exportar para o PDF no canto superior direito da página.
-
-   Quando o PDF estiver pronto, você receberá um email com um link de download.
-
-Todos os comentários serão exibidos no leitor de PDF. Se um comentário tiver várias marcações associadas a ele, ele será exibido várias vezes na lista de comentários (uma vez para cada marcação).
+Quando exportar para um arquivo PDF, todos os comentários aparecerão no leitor do PDF. Se um comentário tiver várias marcações associadas a ele, ele será exibido várias vezes na lista de comentários (uma vez para cada marcação).
 
 >[!IMPORTANT]
 >
->A função Exportar para PDF está disponível apenas para arquivos estáticos.
+>A função Exportar para o PDF está disponível somente para arquivos estáticos.
+
+Para exportar uma prova com suas marcações e comentários para o PDF:
+
+1. No lado esquerdo da tela, clique em **[!UICONTROL Exibições]**.
+1. Clique no botão **[!UICONTROL Mais]** alinhado com a prova específica e selecione **[!UICONTROL Imprimir comentários]**.
+
+1. No canto superior direito da página, clique no botão **Exportar para o PDF**. O PDF começa a baixar e será enviado por email para você assim que for concluído.
