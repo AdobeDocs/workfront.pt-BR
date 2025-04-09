@@ -6,7 +6,7 @@ description: Visão geral dos sistemas disponíveis para revisão e aprovação 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Atualmente, existem 3 sistemas diferentes disponíveis no Workfront para revisã
 
 ## Aprovações de documentos herdados
 
-As aprovações de documentos herdados serão removidas do Workfront em 2025. O sistema de aprovações unificado foi projetado para substituir aprovações de documentos herdados.
+As aprovações de documentos herdados serão removidas do Workfront em 2025. O sistema de Aprovações unificadas foi projetado para substituir aprovações de documentos herdados.
 
 Principais recursos disponíveis para aprovações de documentos herdados:
 
@@ -40,9 +40,9 @@ Para obter mais informações, consulte [Aprovações de documentos herdados](/h
 
 Aprovações unificadas é um redesign do sistema de aprovações herdado. Atualmente disponível em versão limitada, foi projetada para ser uma solução prática e eficaz para empresas que exigem envolvimento abrangente das partes interessadas e aprovações de documentos com versões específicas.
 
-Para obter informações mais detalhadas sobre aprovações unificadas, consulte [Visão geral das aprovações unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Para obter informações mais detalhadas sobre Aprovações unificadas, consulte [Visão geral de Aprovações unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-Principais recursos disponíveis para aprovações unificadas:
+Principais recursos disponíveis para Aprovações unificadas:
 
 * Adicionar usuários e equipes como aprovadores e revisores
 
@@ -55,7 +55,7 @@ Para obter mais informações sobre como usar o visualizador de provas, consulte
 
 * Exibir vários indicadores-chave de desempenho para suas aprovações nos widgets da Página inicial do Workfront
 
-* Use os Painéis do Canvas, atualmente na versão beta, para exibir detalhes de relatórios sobre aprovações unificadas
+* Use os Painéis do Canvas, atualmente na versão beta, para exibir detalhes de relatórios sobre Aprovações unificadas
 Para obter mais informações sobre relatórios, consulte [Criar um painel de relatório para revisão e aprovações](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
 * Tome decisões no visualizador de revisões [!BADGE Em breve]{type=Informative}

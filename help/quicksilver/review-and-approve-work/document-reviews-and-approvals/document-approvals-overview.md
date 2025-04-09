@@ -1,12 +1,12 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Visão geral das aprovações de documento unificado
-description: Você pode adicionar outros aprovadores ou revisores a um documento que já tem aprovações pendentes.
+title: Visão geral das aprovações de documento unificadas
+description: Você pode adicionar aprovadores ou revisores adicionais a um documento que já tem aprovações pendentes.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->O conteúdo deste artigo se refere à funcionalidade atualizada de aprovação de documentos, disponível somente para contas específicas. Para obter informações sobre processos de aprovação padrão, consulte os artigos listados em [Aprovações de trabalho](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>O conteúdo deste artigo refere-se à aprovação documento atualizada funcionalidade que esteja disponível apenas para contas específicas. Para obter informações sobre processos de aprovação padrão, consulte os artigos listados nas [aprovações de trabalho](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 Aprovações unificadas é um redesign abrangente do processo de aprovações existente que está atualmente em desenvolvimento para o Adobe Workfront. Atualmente disponível em versão limitada, foi projetada para ser uma solução prática e eficaz para empresas que exigem envolvimento abrangente das partes interessadas e aprovações de documentos com versões específicas. Seu design elaborado e novos recursos funcionais facilitam a colaboração, a clareza de funções e o controle de versões no processo de aprovação, aumentando a eficiência e a responsabilidade.
 
@@ -27,9 +27,9 @@ Aprovações unificadas é um redesign abrangente do processo de aprovações ex
 
 * Os botões de decisão de aprovação de documento não estão disponíveis no visualizador de provas. As decisões podem ser tomadas no Resumo do documento, nos widgets da Página inicial do Workfront ou na página Detalhes do documento.
 * Os participantes da aprovação de documentos são exibidos no Resumo do documento, não na guia do fluxo de trabalho da prova.
-* Aprovações unificadas não são compatíveis com a ferramenta de relatórios atual.
+* As aprovações unificadas não são suportadas no ferramenta de relatórios atual.
 
-  Você pode ingressar no novo beta Painéis da Tela para [Criar um painel de relatório para revisão e aprovações](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), ou pode usar o widget Todas as aprovações, disponível nos novos Painéis da Tela e Página inicial, e fornecer os seguintes detalhes sobre aprovações unificadas:
+  Você pode associar-se aos novos Painéis do Canvas beta para [Criar um painel de relatório para revisão e aprovações](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) ou pode usar o widget Todas as aprovações disponível nos novos Painéis de página inicial e de tela fornece os seguintes detalhes sobre aprovações unificadas:
 
    * Aprovações por decisão
    * Tempo médio de aprovação
@@ -38,15 +38,15 @@ Aprovações unificadas é um redesign abrangente do processo de aprovações ex
 
 **Diferenças das aprovações de documentos herdados**
 
-Com aprovações unificadas, você pode
+Com as aprovações unificadas, você pode
 
 * Adicionar revisores além dos aprovadores
 * Designar uma equipe inteira do Workfront como revisores ou aprovadores
 * Definir um prazo para a revisão ou aprovação
-* Criar e reutilizar modelos de aprovação
+* modelos de aprovação Criar e reutilização
 * Utilizar novas versões para
-* Exibir vários indicadores-chave de desempenho para suas aprovações nos widgets da Página inicial do Workfront
-* Usar painéis do Canvas para exibir detalhes de relatórios sobre aprovações unificadas
+* Exibir vários indicadores-chave de desempenho para suas aprovações em widgets do Workfront Home
+* Use painéis de tela para visualização detalhes relatórios sobre aprovações unificadas
 
 ## Uso de aprovações unificadas
 
@@ -59,21 +59,21 @@ Para usuários que desejam revisar ou aprovar documentos para os quais receberam
 >[!VIDEO](https://video.tv.adobe.com/v/3420544/)
 
 * **Participação inclusiva das partes interessadas**\
-    As aprovações unificadas permitem a inclusão de colaboradores individuais e equipes inteiras no processo de aprovação. Facilitar essa participação mais ampla garante um envolvimento abrangente das partes interessadas e promove um ambiente de tomada de decisões mais informado e colaborativo.
+    As Aprovações unificadas permitem a inclusão de colaboradores individuais e equipes inteiras no processo de aprovação. Facilitar essa participação mais ampla garante um envolvimento abrangente das partes interessadas e promove um ambiente de tomada de decisões mais informado e colaborativo.
 
 * **Funções diferenciadas de revisão e aprovação**\
-     As aprovações unificadas foram projetadas para reconhecer e respeitar as diferentes funções no processo de aprovação. Ao fornecer a capacidade de identificar e designar revisores — usuários notificados para fornecer feedback, mas que não têm autoridade para tomar decisões — a qualidade do feedback é aprimorada, mantendo a clareza da autoridade de aprovação final.
+     As aprovações unificadas foram projetadas para reconhecer e respeitar as diferentes funções no processo de aprovação. Ao fornecer a capacidade de identificar e designar revisores — usuários que são notificados a fornecer feedback, mas não têm autoridade para tomar decisões — a qualidade do feedback é aprimorada, mantendo clareza da autoridade de aprovação final.
 
-* **Aprovações específicas da versão**\
-    A natureza iterativa do desenvolvimento de documentos geralmente leva a várias versões do mesmo documento. As aprovações unificadas acomodam essa realidade, fornecendo cadeias de aprovação exclusivas para cada versão de um documento. Isso permite que os usuários façam upload de uma nova versão e adicionem novos aprovadores ou revisores, conforme necessário, garantindo que o feedback e a aprovação sejam específicos à versão do documento e eliminando possíveis confusões.
+* **aprovações específicas Versão**\
+    A natureza iterativa do desenvolvimento documento muitas vezes leva a várias versões do mesmo documento. As aprovações unificadas acomodam essa realidade fornecendo cadeias de aprovação exclusivas para cada versão de um documento. Isso permite que os usuários upload uma nova versão e adicionem novos aprovadores ou revisores, conforme necessário, garantindo que o feedback e a aprovação sejam específicos para a versão documento e eliminando uma possível confusão.
 
 * **Trilhas de auditoria**\
-    Com aprovações unificadas, uma trilha de auditoria de todas as atividades de aprovação é mantida no fluxo de atividades, fornecendo um recurso valioso para referência e conformidade futuras.
+    Com as aprovações unificadas, uma trilha de auditoria de todas as atividades de aprovação é mantida no fluxo de atividades, fornecendo um recurso valioso para referência e conformidade futuras.
 
 ## Plano de lançamento
 
-Estamos disponibilizando aprovações unificadas para usuários ao longo de várias versões. Além de adicionar novos recursos, também expandiremos o número de contas para as quais as aprovações unificadas estão disponíveis em cada versão.
+Estamos disponibilizando Aprovações unificadas para usuários ao longo de várias versões. Além de adicionar novos recursos, também expandiremos o número de contas para as quais as Aprovações unificadas estão disponíveis em cada versão.
 
-Se você quiser que as aprovações unificadas sejam habilitadas em seu ambiente de produção, entre em contato com o Gerente de sucesso do cliente ou o Gerente de conta estratégico.
+Se você quiser que as Aprovações unificadas estejam habilitadas em seu ambiente de produção, entre em contato com o Gerente de sucesso do cliente ou o Gerente de conta estratégica.
 
 
