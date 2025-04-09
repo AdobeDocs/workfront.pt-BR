@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: d50ff253b0557c282496deae2a488cff4ab71775
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1720'
 ht-degree: 5%
 
 ---
@@ -39,11 +39,11 @@ Dependendo do nível de acesso, até três permissões estão disponíveis para 
 <table style="table-layout:auto">
     <tr>
         <td>Editar</td>
-        <td>Os usuários podem criar, editar, excluir e compartilhar o objeto do Workfront</td>
+        <td>Os usuários podem criar, editar, excluir e compartilhar o objeto Workfront</td>
     </tr>
     <tr>
         <td>Exibir</td>
-        <td>Os usuários podem revisar e compartilhar o objeto do Workfront</td>
+        <td>Os usuários podem revisar e compartilhar o objeto workfront</td>
     </tr>
     <tr>
         <td>Sem acesso</td>
@@ -89,22 +89,22 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 
 | Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
-| Projetos |   |   | ✓ µ |
-| Tarefas |   |   | ✓ µ |
-| Problemas |   |   | ✓ µ |
-| Portfólios |   |   | ✓ µ |
-| Programas |   |   | ✓ µ |
-| Relatórios (incluindo painéis e relatórios de calendário) |   |   | ✓ µ |
-| Filtros, visualizações e agrupamentos |   |   | ✓ µ |
-| Documentos |   |   | ✓ µ |
-| Usuários |   |   | ✓ µ |
-| Modelos |   |   | ✓ µ |
-| Dados financeiros |   |   | ✓ µ |
-| Gerenciamento de recursos |   |   | ✓ µ |
+| Projetos |   |   | ✓ |
+| Tarefas |   |   | ✓ |
+| Problemas |   |   | ✓ |
+| Portfólios |   |   | ✓ |
+| Programas |   |   | ✓ |
+| Relatórios (incluindo painéis e relatórios de calendário) |   |   | ✓ |
+| Filtros, visualizações e agrupamentos |   |   | ✓ |
+| Documentos |   |   | ✓ |
+| Usuários |   |   | ✓ |
+| Modelos |   |   | ✓ |
+| Dados financeiros |   |   | ✓ |
+| Gerenciamento de recursos |   |   | ✓ |
 | Planejador de cenários |   |   | ✓ (A configuração padrão é Sem acesso.) |
-| Quadros |   |   | ✓ µ |
-| Início |   |   | ✓ µ |
-| Metas |   |   | ✓ µ |
+| Quadros |   |   | ✓ |
+| Início |   |   | ✓ |
+| Metas |   |   | ✓ |
 
 {style="table-layout:auto"}
 
@@ -130,7 +130,7 @@ Usuários com nível de acesso Light:
 
 #### **Detalhes de acesso**
 
-Estas são as configurações de acesso mais altas disponíveis para objetos no nível de acesso Light:
+Estas são as configurações de acesso mais altas disponíveis para objetos no nível de acesso à Luz:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -139,7 +139,7 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo de objeto do Workfront</th> 
+   <th>Tipo de objeto da workfront</th> 
    <th>Sem acesso</th> 
    <th>Exibir acesso</th> 
    <th>Editar acesso</th> 
@@ -149,20 +149,20 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
   <tr> 
    <td>Projetos</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tarefas</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Problemas</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Portfólios</td> 
@@ -179,49 +179,49 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
   <tr> 
    <td>Relatórios (incluindo painéis e relatórios de calendário)</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Filtros, visualizações e agrupamentos</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Documentos</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Usuários</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
     <tr> 
    <td>Equipes</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr>
   <tr> 
    <td>Modelos</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Dados financeiros</td> 
    <td></td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Gerenciamento de recursos</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -234,18 +234,18 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
    <td>Quadros </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
      <tr> 
    <td>Início </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr>   
    <td>Metas </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
  </tbody> 
 </table>
 
@@ -277,44 +277,44 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 
 | Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
-| Projeto |   | ✓ µ |   |
-| Tarefa |   | ✓ µ |   |
-| Problema |   |   | ✓ µ |
-| Portfólios |   | ✓ µ |   |
-| Programas |   | ✓ µ |   |
-| Relatórios (incluindo painéis e relatórios de calendário) |   | ✓ (Somente a guia Detalhes ) |   |
-| Filtros, visualizações e agrupamentos |   |   | ✓ µ |
-| Documento |   |   | ✓ µ |
-| Usuário |   | ✓ µ |   |
-| Equipes |   | ✓ µ |   |
-| Modelo | ✓ µ |   |   |
-| Dados financeiros | ✓ µ |   |   |
-| Gerenciamento de recursos | ✓ µ |   |   |
-| Planejador de cenários | ✓ µ |   |   |
+| Projeto |   | ✓ |   |
+| Tarefa |   | ✓ |   |
+| Problema |   |   | ✓ |
+| Portfólios |   | ✓ |   |
+| Programas |   | ✓ |   |
+| Relatórios (incluindo painéis e relatórios de calendário) |   | ✓ (Somente a guia Detalhes) |   |
+| Filtros, visualizações e agrupamentos |   |   | ✓ |
+| Documento |   |   | ✓ |
+| Usuário |   | ✓ |   |
+| Equipes |   | ✓ |   |
+| Modelo | ✓ |   |   |
+| Dados financeiros | ✓ |   |   |
+| Gerenciamento de recursos | ✓ |   |   |
+| Planejador de cenários | ✓ |   |   |
 | Quadros |   |   | ✓ (Cartões simples) |
 | Início |   | ✓ (Minhas atualizações) |   |
-| Metas |   |   | ✓ µ |
+| Metas |   |   | ✓ |
 
 {style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
->A partir da versão 24.7, os Colaboradores terão acesso de Visualização a Programas e Portfolio por padrão.
+>A partir da versão 24.7, os Colaboradores terão acesso de Visualização a Programas e Portfólios por padrão.
 >
 > 
->Os colaboradores integrados antes da versão 24.7 continuarão a ter acesso a Programas e Portfolio por padrão. Se necessário, é possível atualizar o acesso para visualizá-los manualmente.
+>Os colaboradores integrados antes da versão 24.7 continuarão a ter acesso a Programas e Portfólios por padrão. Se necessário, é possível atualizar o acesso para visualizá-los manualmente.
 
 ### Nível de acesso de Usuário Externo
 
 Este nível de acesso não está anexado a uma licença paga do Workfront. É o nível de acesso mais restritivo, projetado principalmente para colaboradores como consultores externos que não fazem logon no Workfront, mas precisam revisar, baixar ou exibir documentos ocasionalmente.
-
-Os usuários do Workfront podem atribuir tarefas a usuários externos, mesmo que esses usuários não possam fazer logon no sistema. Mas nós desaconselhamos isso porque esse trabalho ficaria por resolver no sistema.
 
 Usuários com nível de acesso de Usuário Externo:
 
 * Pode exibir somente documentos e relatórios de calendário compartilhados com eles
 * Exibir os usuários que compartilham documentos e relatórios de calendário com eles
 * Aprovar os documentos compartilhados com eles
+
+Usuários externos não podem ser atribuídos a itens de trabalho.
 
 Não é possível modificar esse nível de acesso.
 
@@ -328,23 +328,23 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 
 | Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
-| Projeto | ✓ µ |   |   |
-| Tarefa | ✓ µ |   |   |
-| Problema | ✓ µ |   |   |
-| Portfólios | ✓ µ |   |   |
-| Programas | ✓ µ |   |   |
+| Projeto | ✓ |   |   |
+| Tarefa | ✓ |   |   |
+| Problema | ✓ |   |   |
+| Portfólios | ✓ |   |   |
+| Programas | ✓ |   |   |
 | Relatórios (incluindo painéis e relatórios de calendário) |   | ✓ (Somente para relatórios de calendário; sem capacidade de compartilhar relatórios) |   |
-| Filtros, visualizações e agrupamentos | ✓ µ |   |   |
+| Filtros, visualizações e agrupamentos | ✓ |   |   |
 | Documento |   | ✓ (Sem capacidade de compartilhar documentos) |   |
-| Usuário |   | ✓ µ |   |
-| Equipes | ✓ µ |   |   |
-| Modelo | ✓ µ |   |   |
-| Dados financeiros | ✓ µ |   |   |
-| Gerenciamento de recursos | ✓ µ |   |   |
-| Planejador de cenários | ✓ µ |   |   |
-| Quadros | ✓ µ |   |   |
-| Início | ✓ µ |   |   |
-| Metas | ✓ µ |   |   |
+| Usuário |   | ✓ |   |
+| Equipes | ✓ |   |   |
+| Modelo | ✓ |   |   |
+| Dados financeiros | ✓ |   |   |
+| Gerenciamento de recursos | ✓ |   |   |
+| Planejador de cenários | ✓ |   |   |
+| Quadros | ✓ |   |   |
+| Início | ✓ |   |   |
+| Metas | ✓ |   |   |
 
 
 ## Como os níveis de acesso e as permissões funcionam juntos
@@ -367,19 +367,19 @@ A tabela a seguir compara o acesso geral de um usuário a objetos (definido pelo
  <tbody> 
   <tr> 
    <td>Concedido por um administrador do Workfront no nível de acesso de um usuário</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Concedido por um usuário que compartilha um objeto no nível do objeto</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Herdado de um objeto compartilhado de classificação mais alta 
    </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
@@ -406,13 +406,13 @@ Um usuário pode conceder ao recipient qualquer uma das seguintes permissões pa
    * Com um endereço de email (disponível somente para documentos e calendários)
 
 * **Contribute**: (não disponível para todos os objetos)
-* **Gerenciar**: quando alguém compartilha um objeto, os direitos do destinatário ao objeto são determinados por uma combinação do nível de acesso do destinatário e das permissões do objeto que foram concedidas pelo compartilhador. O grau mais baixo de acesso disponível nessa combinação é o que determina o que o recipient pode fazer com o objeto.
+* **Gerenciar**: Quando alguém compartilha um objeto, os direitos do recipient ao objeto são determinados por uma combinação do nível de acesso do recipient e as permissões ao objeto que foram concedidas pelo compartilhador. O menor grau de acesso disponível nessa combinação é o que determina o que os recipient podem fazer com o objeto.
 
-### Exemplos de cenários
+### Cenários de exemplo
 
 #### **Cenário 1**
 
-Se o nível de acesso do recipient não permitir a edição do projeto, essa pessoa não poderá editar ou excluir um projeto, mesmo que o compartilhador tenha concedido permissões para gerenciá-lo.
+Se o nível de acesso do recipient não permitir a edição de projetos, essa pessoa não pode editar ou excluir um projeto mesmo que o compartilhador tenha concedido permissões para gerenciar-lo.
 
 Ou, se o nível de acesso do recipient permitir a edição do projeto, mas o compartilhador conceder permissões somente de visualização para um projeto, o usuário não poderá editar nem excluir o projeto.
 
