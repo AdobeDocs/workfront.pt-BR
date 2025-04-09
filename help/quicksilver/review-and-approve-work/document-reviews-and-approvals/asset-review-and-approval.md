@@ -6,9 +6,9 @@ description: Visão geral dos sistemas disponíveis para revisão e aprovação 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ Atualmente, existem 3 sistemas diferentes disponíveis no Workfront para revisã
 
 * [Aprovações de documentos herdados](#legacy-document-approvals)
 
-* [Novas aprovações de documentos](#new-document-approvals)
+* [Aprovações unificadas](#new-document-approvals)
 
 * [Aprovações de provas](#proof-approvals)
 
 ## Aprovações de documentos herdados
 
-As aprovações de documentos herdados serão removidas do Workfront em 2025. O novo sistema de aprovações de documentos foi projetado para substituir aprovações de documentos herdados.
+As aprovações de documentos herdados serão removidas do Workfront em 2025. O sistema de aprovações unificado foi projetado para substituir aprovações de documentos herdados.
 
 Principais recursos disponíveis para aprovações de documentos herdados:
 
@@ -36,13 +36,13 @@ Principais recursos disponíveis para aprovações de documentos herdados:
 
 Para obter mais informações, consulte [Aprovações de documentos herdados](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
-## Novas aprovações de documentos
+## Aprovações unificadas
 
-As novas aprovações de documentos são um redesign do sistema de aprovações herdado. Atualmente disponível em versão limitada, foi projetada para ser uma solução prática e eficaz para empresas que exigem envolvimento abrangente das partes interessadas e aprovações de documentos com versões específicas.
+Aprovações unificadas é um redesign do sistema de aprovações herdado. Atualmente disponível em versão limitada, foi projetada para ser uma solução prática e eficaz para empresas que exigem envolvimento abrangente das partes interessadas e aprovações de documentos com versões específicas.
 
-Para obter informações mais detalhadas sobre novas aprovações de documentos, consulte [Visão geral das novas aprovações de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Para obter informações mais detalhadas sobre aprovações unificadas, consulte [Visão geral das aprovações unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-Principais recursos disponíveis para novas aprovações de documentos:
+Principais recursos disponíveis para aprovações unificadas:
 
 * Adicionar usuários e equipes como aprovadores e revisores
 
@@ -51,11 +51,11 @@ Principais recursos disponíveis para novas aprovações de documentos:
 * Criar e usar modelos
 
 * Revisar e comentar no visualizador de provas
-Para obter mais informações sobre como usar o visualizador de provas, consulte [Usar novas aprovações de documentos e provas juntas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+Para obter mais informações sobre como usar o visualizador de provas, consulte [Usar aprovações unificadas e provas juntas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * Exibir vários indicadores-chave de desempenho para suas aprovações nos widgets da Página inicial do Workfront
 
-* Use os Painéis do Canvas, atualmente na versão beta, para exibir detalhes de relatórios sobre novas aprovações de documentos
+* Use os Painéis do Canvas, atualmente na versão beta, para exibir detalhes de relatórios sobre aprovações unificadas
 Para obter mais informações sobre relatórios, consulte [Criar um painel de relatório para revisão e aprovações](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
 * Tome decisões no visualizador de revisões [!BADGE Em breve]{type=Informative}

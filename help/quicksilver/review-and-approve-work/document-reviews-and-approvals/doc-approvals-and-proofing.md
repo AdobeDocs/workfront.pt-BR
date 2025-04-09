@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Usar novas aprovações e revisões de documentos juntas
-description: Você pode usar novas aprovações de documentos com revisões.
+title: Usar aprovações e provas unificadas juntas
+description: Você pode usar aprovações unificadas com provas.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
-# Usar novas aprovações e revisões de documentos juntas
+# Use aprovações unificadas e provas em conjunto
 
-As novas aprovações de documentos no Workfront apresentam um novo conjunto de recursos para ajudar você a revisar e aprovar documentos. Você pode usar o novo fluxo de trabalho de aprovações de documentos com o visualizador de provas existente para adicionar comentários e marcação a documentos em revisão.
+As aprovações unificadas na Workfront apresentam um novo conjunto de recursos para ajudá-lo a revisar e aprovar documentos. Você pode usar uma fluxo de Trabalho de aprovações unificadas com as visualizador de prova existentes para adicionar comentários e marcação para documentos em revisão.
 
-Existem algumas diferenças principais no fluxo de trabalho ao usar as novas aprovações e provas de documentos juntas:
+Existem algumas diferenças principais no fluxo de trabalho ao usar aprovações unificadas e provas juntas:
 
 * Os botões de decisão não aparecem no visualizador de provas
 
@@ -40,9 +40,9 @@ Arraste e solte o documento na lista de documentos.
 
 Os usuários atribuídos como participantes podem usar o visualizador de provas para adicionar comentários e marcações no documento. Prossiga para a próxima seção para saber como adicionar participantes de revisão.
 
-## Abrir o Resumo do documento e atribuir os participantes
+## Abra o Resumo da documento e atribua participantes
 
-Você tem a opção de atribuir revisores, aprovadores ou uma combinação de ambos:
+Você tem a opção de atribuir revisores, aprovadores ou uma mistura de ambos:
 
 * **Os revisores** podem adicionar comentários e marcar ativos. Depois de concluído, eles podem marcar sua revisão como concluída. Não é necessário marcar a revisão como concluída para que o documento avance no processo de aprovação.
 * **Aprovadores** podem adicionar comentários e marcar ativos. Eles devem tomar a decisão de mover o processo de aprovação para frente.
@@ -52,9 +52,9 @@ Para atribuir participantes:
 1. Selecione o documento que você carregou e abra o documento Resumo.
    ![Abrir resumo do documento](assets/open-doc-summary.png)
 
-1. Role para baixo até a seção Aprovações e clique em **Adicionar**.
+1. Role para baixo até a seção Aprovações e clique **em Adicionar**.
 
-1. (Opcional) Escolha um modelo de aprovação existente. Os usuários com uma licença Standard podem criar Modelos de aprovação reutilizáveis na área Configuração. Para obter mais informações, consulte [Criar um Modelo de Aprovação para ativos e documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+1. (Opcional) Escolha um modelo de aprovação existente. Usuários com uma licença Padrão podem criar Modelos de aprovação reutilizáveis na área Configuração. Para obter mais informações, consulte [Criar um Modelo de Aprovação para ativos e documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
 
@@ -72,9 +72,9 @@ Se precisar de outra rodada de revisão e aprovação, crie uma nova versão de 
 
 Para adicionar uma nova versão:
 
-1. Arraste e solte o novo arquivo sobre o documento anterior no Workfront. Isso cria uma nova versão automaticamente.
+1. Arraste e solte o novo arquivo sobre o documento anterior no Workfront. Isso cria automaticamente uma nova versão.
 
-1. Depois que o documento terminar de ser carregado, selecione-o e clique em **Criar prova** > **Prova simples**.
+1. Quando o documento terminar de fazer upload, selecione a documento e clique **Criar prova >** **Simple prova**.
 
 1. Selecione o documento novamente e abra o Resumo do documento.
    ![Abrir resumo do documento](assets/open-doc-summary.png)
@@ -83,11 +83,11 @@ Para adicionar uma nova versão:
 
 1. (Opcional) Escolha um modelo de aprovação existente. Os usuários com uma licença Standard podem criar Modelos de aprovação reutilizáveis na área Configuração. Para obter mais informações, consulte [Criar um Modelo de Aprovação para ativos e documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
-1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
+1. (Opcional) Defina um prazo para a aprovação. Usuários e equipes são notificados por e-mail 72 horas, e 24 horas antes do prazo especificado.
 
-1. Para adicionar um aprovador, clique no botão Aprovador e comece a digitar um nome de usuário ou de equipe,<span class="preview">, ou escolha um aprovador da versão anterior.</span>
+1. Para adicionar um aprovador, clique no Aprovador botão e comece a digitar em um nome<span class="preview"> de usuário ou equipe ou escolha um aprovador na versão anterior.</span>
 
-1. Para adicionar um revisor, clique no botão Revisor e comece a digitar um nome de usuário ou de equipe, <span class="preview">ou escolha um revisor da versão anterior. </span>
+1. Para adicionar um revisor, clique no Revisor botão e comece a digitar em um nome <span class="preview">de usuário ou equipe ou escolha um revisor na versão anterior. </span>
 
    ![Adicionar aprovadores](assets/add-approvers.png)
 
@@ -104,13 +104,13 @@ Se qualquer aprovador escolher &quot;precisa de trabalho&quot;, o status do docu
 
 >[!IMPORTANT]
 >
->Os botões de decisão do documento não aparecem no visualizador de provas. Você deve navegar de volta para a página Resumo do documento ou Detalhes do documento para tomar sua decisão ou marcar sua revisão como concluída.
+>Os botões de decisão do documento não aparecem na visualizador de prova. Você deve navegar de volta ao Resumo de documento ou aos Detalhes do documento página para tomar sua decisão ou marcar sua revisão como concluída.
 
-Para revisar e aprovar um documento:
+Para revisar e aprovar uma documento:
 
-1. Vá para a notificação por email de revisão e clique em **Ir para revisão**.
+1. Vá para o notificação de email de revisão e clique **em Ir para revisão**.
 
-1. Depois de entrar no Workfront, clique em **Ir para prova**.
+1. Depois de estar na Workfront, clique **em Ir para prova**.
 
 1. Revise o conteúdo e adicione comentários ou marcações. Para obter mais informações sobre como usar o visualizador de provas, consulte [Revisar provas no Adobe Workfront: índice do artigo](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
@@ -120,8 +120,8 @@ Para revisar e aprovar um documento:
 
 1. Escolha uma das seguintes decisões:
 
-   * **Aprovar**: o documento não precisa de alterações e está pronto para uso.
-   * **Aprovar com alterações**: o documento precisa de alterações e está pronto para uso quando elas forem feitas. Aprovação adicional não é necessária.
+   * **Aprovar**: a documento não precisa de alterações e está pronta para uso.
+   * **Aprovar com alterações**: o documento precisa de alterações e estará pronto para uso depois que for feito. Não é necessária aprovação adicional.
    * **Precisa do trabalho**: o documento precisa de alterações e não está pronto para uso. Depois que as alterações especificadas forem feitas, o documento deverá ser carregado como uma nova versão e passar por outra rodada de aprovações. Para obter mais informações sobre como carregar uma nova versão, consulte [Criar uma nova versão conforme necessário](#create-a-new-version-as-needed) neste artigo.
 
 Depois de tomar uma decisão, o proprietário do documento é notificado por email.
