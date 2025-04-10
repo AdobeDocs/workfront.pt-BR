@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 75ff6f954c1a53a36d64c4f428097fe9a0c4b053
+source-git-commit: a980fe7f2c632f9badcbbaf3abf2e6c2824e448f
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -88,20 +88,20 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
-    <tr>
+<!--    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Novos botões de decisão de aprovação de documento disponíveis no visualizador de provas</a></p>
-            <p>Os novos botões de decisão de aprovação de documento agora aparecem no visualizador de provas. Agora, ao criar uma prova simples e adicionar aprovadores e revisores a partir do Resumo do documento, eles podem tomar a decisão diretamente no visualizador de provas.</p>
+            New document approval decision buttons available in proofing viewer</a></p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
         </td>
         <td>
-            <p><b>Disponível nas seguintes datas:</b></p>
+            <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Versão de pré-visualização: 9 de abril de 2025</li>
-                <li>Versão de produção para um conjunto limitado de clientes: com a versão 25.4 (abril de 2025)</li>
+                <li>Preview release: April 9, 2025</li>
+                <li>Production release for a limited set of customers: With the 25.4 release (April 2025)</li>
             </ul>
         </td>
-    </tr>                        
+    </tr>   -->                     
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
