@@ -7,7 +7,7 @@ description: O Workfront Proof permite criar provas a partir de documentos ou si
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
-source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
+source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
 workflow-type: tm+mt
 source-wordcount: '1889'
 ht-degree: 2%
@@ -52,9 +52,9 @@ O [!DNL Workfront Proof] permite que você crie provas a partir de documentos ou
 
    1. No campo **[!UICONTROL Nome da prova]**, especifique um novo nome e clique em **[!UICONTROL Concluído]**.
 
-   1. (Opcional) Para excluir qualquer arquivo do upload, passe o mouse sobre a documento que deseja excluir na documento lista e clique no ícone Excluir ****.
+   1. (Opcional) Para impedir que quaisquer arquivos sejam carregados, passe o mouse sobre o documento que deseja excluir na lista de documentos e clique no ícone **[!UICONTROL Excluir]**.
 
-      ![prova_delete.png](assets/proof-delete-350x53.png)
+      ![prova_exclusão.png](assets/proof-delete-350x53.png)
 
    1. (Opcional) Habilite a opção **[!UICONTROL Combinar todos os arquivos compatíveis em uma única prova]**.
 
@@ -64,13 +64,13 @@ O [!DNL Workfront Proof] permite que você crie provas a partir de documentos ou
       >
       >Arquivos interativos, incluindo vídeos e sites interativos, não podem ser combinados em uma única prova.
 
-      **Quando essa opção é desativada:** todas as documentos e sites são gerados como provas individuais e você pode upload até 20 arquivos em um determinado momento.
+      **Quando esta opção está desabilitada:** todos os documentos e sites são gerados como provas individuais e você pode carregar até 20 arquivos em um determinado momento.
 
       Para combinar todos os arquivos e sites carregados em uma única prova:
 
-      1. Ative a opção **[!UICONTROL Combinar todos os arquivos compatíveis em uma única opção de prova]** .
-      1. No campo Nome ]**da**[!UICONTROL  prova, insira um novo nome para o prova combinado.
-      1. **[!UICONTROL Na área Adicionar arquivos]**, reordene os arquivos incluídos arrastando um arquivo para a solicitar desejada. A solicitar dos arquivos é a página solicitar do prova combinado. Para obter mais informações sobre como criar provas combinadas, consulte [Criar um prova multi-página](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
+      1. Habilite a opção **[!UICONTROL Combinar todos os arquivos compatíveis em uma única prova]**.
+      1. No campo **[!UICONTROL Nome da prova]**, digite um novo nome para a prova combinada.
+      1. Na área **[!UICONTROL Adicionar arquivos]**, reordene os arquivos incluídos arrastando um arquivo para a ordem desejada. A ordem dos arquivos é a ordem de página da prova combinada. Para obter mais informações sobre como criar provas combinadas, consulte [Criar uma prova de várias páginas](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
 
 1. (Opcional) Se quiser usar um fluxo de trabalho automatizado que inclua vários estágios, selecione uma das seguintes opções na seção **[!UICONTROL Fluxo de trabalho]**:
 
@@ -157,7 +157,7 @@ Você pode gerar uma prova estática usando o URL de um site.
    * Clique no botão **[!UICONTROL Nova prova]** no canto superior esquerdo de qualquer página.
    * Enviar via Dropzone (recurso Enterprise).
 
-1. **Na Novo prova** página, insira a URL do site a partir da qual você deseja criar uma prova na **[!UICONTROL área Adicionar arquivos]** e pressione **[!UICONTROL Enter]** ou **[!UICONTROL Return]** no teclado.
+1. Na página **Nova prova**, digite a URL do site do qual deseja criar uma prova na área **[!UICONTROL Adicionar Arquivos]** e pressione **[!UICONTROL Enter]** ou **[!UICONTROL Return]** no teclado.
 
 1. (Opcional) Repita esse processo para adicionar vários sites à prova.
 
@@ -165,18 +165,18 @@ Você pode gerar uma prova estática usando o URL de um site.
 
 1. Na área **[!UICONTROL Adicionar arquivos]**, clique no ícone **Editar** à direita da URL para abrir os detalhes de prova do site.
 
-   ![prova_upload_website_modify.png](assets/proof-upload-website-modify-350x185.png)
+   ![proof_upload_website_modify.png](assets/proof-upload-website-modify-350x185.png)
 
-1. Insira um nome ]**de**[!UICONTROL  prova. Por padrão, o nome da prova é o mesmo que o URL do site.
+1. Insira um **[!UICONTROL Nome da prova]**. Por padrão, o nome da prova é igual ao URL do site.
 
-1. Selecione qualquer uma das seguintes **[!UICONTROL opções de Manipulação de conteúdo do]** site:
+1. Selecione qualquer uma das opções **[!UICONTROL Tratar conteúdo do site]** a seguir:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">captura de tela de Capture</td> 
+      <td role="rowheader">Capturar captura de tela</td> 
       <td>Cria uma prova de uma imagem estática da página frontal do URL.</td> 
      </tr> 
      <tr> 
@@ -189,14 +189,14 @@ Você pode gerar uma prova estática usando o URL de um site.
      </tr> 
      <tr> 
       <td role="rowheader">Procurar subpáginas</td> 
-      <td>(Esta opção não está disponível para provas interativas.) Selecione essa opção para navegar pelas páginas do site. Você pode expandir o site em até 2 níveis a partir das página principais. Passe o mouse sobre uma página para visualização a URL do página e selecione apenas as páginas que deseja prova. Cada página que você selecionar é criada como uma prova individual por padrão. Como alternativa, você pode ativar o <strong>Combine todos os arquivos compatíveis em uma única opção de prova</strong> .</td> 
+      <td>(Essa opção não está disponível para provas interativas.) Selecione esta opção para navegar pelas páginas do site. Você pode expandir o site até dois níveis a partir da página principal. Passe o mouse sobre uma página para visualizar o URL da página e selecione apenas as páginas que deseja revisar. Cada página selecionada é criada como uma prova individual por padrão. Como alternativa, você pode habilitar a opção <strong>Combinar todos os arquivos compatíveis em uma única prova</strong>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Opcional) Configure quaisquer opções de prova avançadas, como compartilhar a prova, adicionar um fluxo de trabalho automatizado ou configurar configurações de acesso e assinatura. Para obter mais detalhes sobre essas opções, consulte os seguintes artigos:
+1. (Opcional) Configure as opções de prova avançada, como compartilhar a prova, adicionar um Fluxo de trabalho automatizado ou definir as configurações de acesso e subscrição. Para obter mais detalhes sobre essas opções, consulte os seguintes artigos:
 
-   * [Compartilhe um prova no [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
+   * [Compartilhar uma prova no  [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
    * [Configurar uma prova com um Fluxo de Trabalho Automatizado no  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
    * [Definir configurações de acesso e subscrição para uma prova](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 

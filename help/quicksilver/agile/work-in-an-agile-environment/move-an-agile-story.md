@@ -6,7 +6,7 @@ description: É possível mover uma história ágil para uma iteração diferent
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 164e98e8cc6995387be1e830787cb258f127bd70
+source-git-commit: 68aafe63ff8b60a542ed9dd0900b3742c26a1e4f
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Mover uma história para uma iteração diferente
 
-Você pode mover uma história para uma iteração diferente para sua equipe do Scrum se for um Administrador do sistema ou um membro da equipe à qual a iteração está associada.
+Você pode mover uma história para uma iteração diferente para sua equipe do Scrum se for um administrador do sistema ou um membro da equipe à qual a iteração está associada.
 
 >[!NOTE]
 >

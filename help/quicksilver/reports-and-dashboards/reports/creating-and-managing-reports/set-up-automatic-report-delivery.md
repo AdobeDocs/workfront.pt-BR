@@ -3,19 +3,19 @@ product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Programar uma entrega automática de relatório
 description: Programar uma entrega automática de relatório
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1268'
 ht-degree: 2%
 
 ---
 
 # Programar uma entrega automática de relatório
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: If this stays, fix links which now go to the reference article)</p>
@@ -36,24 +36,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
       <td> 
-      <p>Novo:</p>
-         <ul>
-         <li><p>Padrão</p></li>
-         </ul>
-      <p>Atual:</p>
-         <ul>
-         <li><p>Plano</p></li>
-         </ul>
-   </td>
+      <p>Novo: Padrão</p>
+      <p>Ou</p>
+
+<p>Atual: Plano</p>
+
+</td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +60,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,24 +70,24 @@ Antes de começar, você deve criar um relatório. Para saber mais sobre como cr
 
 ## Programar uma entrega de relatório
 
-Para agendar um relatório para entrega automática ou editar ou excluir uma entrega de relatório existente:&#x200B;
 
-1. Vá para um relatório que você deseja agendar a entrega.
+Para agendar um relatório para entrega automática:&#x200B;
 
-   >[!NOTE]
-   >
-   >Os deliveries do relatório não contêm prompts. Se quiser limitar os dados em um delivery de relatório, recomendamos aplicar filtros ao relatório que deseja enviar.
+{{step1-to-reports}}
 
-1. Clique em **Ações de Relatório** e em **Enviar Relatório**.
+>[!NOTE]
+>
+>Os deliveries do relatório não contêm prompts. Se quiser limitar os dados em um delivery de relatório, recomendamos aplicar filtros ao relatório que deseja enviar.
 
-   A caixa de diálogo **Enviar Relatório** é exibida.
+1. Na página **Relatórios**, selecione um relatório.
+1. Na parte superior da tela, clique em **Ações de Relatório** e em **Enviar Relatório** no menu suspenso exibido. A caixa de diálogo **Enviar Relatório** é exibida.
 
    >[!TIP]
    >
    >Para enviar um relatório manualmente a qualquer momento, vá para o relatório e clique em **Ações de Relatório** > **Enviar Relatório** > **Enviar Agora**.
 
 1. Selecione a guia **Entregas repetitivas**.
-1. (Condicional) Para modificar uma entrega de relatório repetitivo existente, selecione a entrega de relatório na seção **Entregas repetitivas**.
+1. (Condicional) Para modificar uma entrega de relatório repetitivo existente, selecione a entrega de relatório na seção **Entregas repetitivas** no lado direito da caixa de diálogo.
 1. Especifique as seguintes informações:
 
    <table style="table-layout:auto"> 
@@ -99,30 +96,30 @@ Para agendar um relatório para entrega automática ou editar ou excluir uma ent
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Enviar para</p> </td> 
-      <td> <p>Comece digitando o nome do usuário, grupo, equipe ou função para o qual deseja enviar o relatório e clique no nome quando ele aparecer na lista suspensa.</p> <p>Ou</p> <p>Especifique o endereço de email de uma pessoa externa ao sistema Workfront que deseja que tenha acesso ao relatório.</p> <p>Repita esse processo para enviar o relatório para vários usuários, grupos, equipes ou funções.</p> <p>Nota:  <p>Considere o seguinte ao adicionar recipients do delivery de relatório:</p> 
+      <td> <p>Comece digitando o nome do usuário, grupo, equipe ou função para o qual deseja enviar o relatório e clique no nome quando ele aparecer na lista suspensa.</p> <p>Ou</p> <p>Insira o endereço de email de uma pessoa externa ao sistema Workfront que deseja que tenha acesso ao relatório.</p> <p>Repita esse processo para enviar o relatório para vários usuários, grupos, equipes ou funções.</p> <p>Nota:  <p>Considere o seguinte ao adicionar recipients do delivery de relatório:</p> 
         <ul> 
          <li>Se sua organização restringir notificações do Workfront a domínios de email específicos, você só poderá enviar relatórios para os endereços de email listados na inclui na lista de permissões de email.<p>Para obter informações sobre como um administrador do Workfront incluir na lista de permissões incluir na lista de permissões atualiza o arquivo de email, consulte a seção <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configurar sua pesquisa de email</a>.</p></li> 
          <li> <p>Adicionar um grande número de usuários como recipients pode causar falha no delivery. Se você tiver falhas de delivery, poderá agendar vários deliveries de relatório com grupos menores de usuários.</p> </li> 
-        </ul> </p> </td> 
+        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Assunto do email</p> </td> 
-      <td> <p>Especifique um assunto para a notificação por email.</p> <p>Por padrão, o assunto do email é:</p> <p><em>Relatório do Workfront: [Nome do relatório] [Data]</em> </p> </td> 
+      <td> <p>Insira um assunto para a notificação por email.</p> <p>Por padrão, o assunto do email é:</p> <p><em>Relatório do Workfront: [Nome do relatório] [Data]</em> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Mensagem de email</p> </td> 
-      <td> <p>Especifique uma mensagem para incluir no email.</p> <p>Por padrão, a mensagem de email é:</p> <p><em>Anexo é o relatório [Nome do relatório] [frequência] gerado pelo Workfront em [Data].</em> </p> <p>Observação: para relatórios entregues como um arquivo do Excel somente, a seguinte mensagem também é adicionada ao email: "Esteja ciente de que, com os tipos de arquivo do MS Excel (XLS), há um limite (65.530) no número de hiperlinks que esses tipos de arquivo suportam. Se esses limites forem excedidos, o arquivo não será aberto e é recomendável reenviar sem os hiperlinks. Retorne ao agendador de relatórios para remover os hiperlinks e reenviar o relatório." A frase "volte para o agendador de relatórios" é um link para o relatório.</p> </td> 
+      <td> <p>Insira uma mensagem a ser incluída no email.</p> <p>Por padrão, a mensagem de email é:</p> <p><em>Anexo é o relatório [Nome do relatório] [frequência] gerado pelo Workfront em [Data].</em> </p> <p>Observação: para relatórios entregues como um arquivo do Excel somente, a seguinte mensagem também é adicionada ao email: "Esteja ciente de que, com os tipos de arquivo do MS Excel (XLS), há um limite (65.530) no número de hiperlinks que esses tipos de arquivo suportam. Se esses limites forem excedidos, o arquivo não será aberto e é recomendável reenviar sem os hiperlinks. Retorne ao agendador de relatórios para remover os hiperlinks e reenviar o relatório." A frase "volte para o agendador de relatórios" é um link para o relatório.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Enviar este relatório com direitos de acesso de</p> </td> 
-      <td> <p>Comece digitando o nome de um usuário que tem acesso ao relatório e clique no nome quando ele aparecer na lista suspensa. Os usuários que receberem o relatório receberão o mesmo nível de acesso que o usuário especificado aqui.<br> Para obter mais informações, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Executar e entregar um relatório com direitos de acesso de outro usuário</a>.</p> <p>Observação: este campo não aceita curingas. Por exemplo, o uso do curinga $$User.ID não executa o relatório com os direitos de acesso do usuário que está recebendo o relatório.</p> </td> 
+      <td> <p>Comece digitando o nome de um usuário que tem acesso ao relatório e clique no nome quando ele aparecer na lista suspensa. Os usuários que receberem o relatório receberão o mesmo nível de acesso que o usuário especificado aqui.<br> Para obter mais informações, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Executar e entregar um relatório com direitos de acesso de outro usuário</a>.</p> <p>Observação: este campo não aceita curingas. Por exemplo, o uso do curinga <em>$$User.ID</em> não executa o relatório com os direitos de acesso do usuário que está recebendo o relatório.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Formato</p> </td> 
       <td> <p>Selecione o formato desejado para o relatório entregue:</p> 
        <ul> 
         <li> <p>HTML</p> </li> 
-        <li> <p>PDF</p> <p>Se você selecionar esta opção, poderá formatar a saída usando as opções adicionais de <strong>Tamanho do Papel</strong> e <strong>Orientação</strong> exibidas.</p> </li> 
+        <li> <p>PDF</p> <p>Se você selecionar PDF, poderá formatar a saída usando as opções adicionais de <strong>Tamanho do Papel</strong> e <strong>Orientação</strong> exibidas.</p> </li> 
         <li> <p>MS Excel (.xlsx)</p> </li> 
         <li> <p>TSV</p> </li> 
        </ul> </td> 
@@ -170,9 +167,7 @@ Para agendar um relatório para entrega automática ou editar ou excluir uma ent
     </tbody> 
    </table>
 
-1. Clique em **Salvar** para salvar a entrega do relatório.
-
-   O relatório é exibido na seção **Entregas repetitivas** (na caixa de diálogo **Enviar relatório**) e será enviado no horário agendado.
+1. Clique em **Salvar** para salvar a entrega do relatório. O relatório é exibido na seção **Entregas Repetitivas** da caixa de diálogo **Enviar Relatório** e será enviado no horário agendado.
 
    Para obter informações sobre limitações de tamanho que podem afetar a entrega de seus relatórios, consulte as seções [Limites de entrega de relatórios](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) e [Limites de exportação](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
 
@@ -182,10 +177,21 @@ Para agendar um relatório para entrega automática ou editar ou excluir uma ent
 >
 >Se você estiver usando uma entrega de relatório agendada para analisar dados do Workfront por meio de uma ferramenta de BI, recomendamos usar o Workfront Data Connect. Para obter mais informações, consulte [visão geral do Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-1. (Opcional) Para excluir um delivery agendado:
+## Excluir uma entrega de relatório agendada
 
-   1. No painel **Entregas repetitivas**, clique na entrega agendada e em **Excluir**.
-   1. Clique em **Excluir** para confirmar.
+Para excluir um delivery de relatório agendado:&#x200B;
+
+{{step1-to-reports}}
+
+1. Na página **Relatórios**, selecione um relatório.
+
+1. Na parte superior da tela, clique em **Ações de Relatório** e em **Enviar Relatório** no menu suspenso exibido. A caixa de diálogo **Enviar Relatório** é exibida.
+
+1. Selecione a guia **Entregas repetitivas**.
+1. Na seção **Entregas Repetidas**, no lado direito da caixa de diálogo, clique no delivery agendado que deseja excluir.
+1. Na seção de detalhes **Entregas repetitivas**, clique em **Excluir**.
+
+1. Clique em **Excluir** para confirmar.
 
 <!--## Video walk-through
 

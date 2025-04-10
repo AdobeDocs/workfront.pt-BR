@@ -3,17 +3,19 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Adicionar tarefas ou problemas existentes ao Quadro Kanban
 description: Você pode adicionar qualquer tarefa ou problema a um Quadro Kanban se tiver acesso de gerenciamento ao projeto.
-author: Lisa
+author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # Adicionar tarefas ou problemas existentes ao quadro [!UICONTROL Kanban]
+
+<!-- Audited: 4/2025 -->
 
 Você pode adicionar qualquer tarefa ou problema a um quadro [!UICONTROL Kanban] se tiver acesso de gerenciamento ao projeto. Lembre-se do seguinte ao mover uma tarefa ou problema para um quadro [!UICONTROL Kanban]:
 
@@ -49,23 +51,51 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 +++
 
-## Adicionar tarefas ou problemas existentes ao quadro Kanban
+## Adicionar tarefas ou problemas existentes de um projeto
 
-Para adicionar uma tarefa ou problema a um quadro [!UICONTROL Kanban]:
+Para adicionar uma tarefa ou problema a um quadro [!UICONTROL Kanban] de um projeto:
 
-{{step1-click-main-menu}}
+{{step1-to-projects}}
 
-1. Escolha um dos seguintes: **[!UICONTROL Projetos]**, **[!UICONTROL Relatórios]** ou **[!UICONTROL Painéis]**.
-
-1. Vá para o projeto, relatório ou painel que contém a tarefa ou problema que deseja adicionar ao quadro Kanban.
-1. Selecione uma ou mais tarefas ou problemas.
-1. Clique em **[!UICONTROL Mais]** > **[!UICONTROL Adicionar a]** > **[!UICONTROL Quadro Kanban]**.
-1. Na caixa de diálogo [!UICONTROL Adicionar histórias], digite o nome da equipe Kanban.
+1. Selecione o projeto que contém a tarefa ou problema que deseja adicionar ao quadro Kanban.
+1. Clique na guia **Tarefas** ou **Problemas** e selecione um ou mais itens de trabalho a serem adicionados.
+1. Clique no ícone **[!UICONTROL Mais]** ![Mais ícone](assets/more-icon.png) e selecione **Adicionar ao Quadro Kanban**. A caixa de diálogo [!UICONTROL **Adicionar a**] é aberta.
+1. No campo **Quadro Kanban**, digite o nome da equipe Kanban e selecione-a no menu suspenso.
 
    >[!NOTE]
    >
-   >Se você adicionar várias equipes, a tarefa ou problema poderá ser exibido somente no quadro [!DNL kanban] de uma equipe. Este é o painel que você escolheu anteriormente.
+   >Se várias equipes forem atribuídas à tarefa ou problema, o item de trabalho só poderá ser exibido no quadro [!DNL kanban] de uma equipe.
+1. Clique em **Adicionar**.
 
-1. Se você estiver adicionando tarefas, clique em **[!UICONTROL Adicionar histórias]**.
-Ou
-Se você estiver adicionando problemas, clique em **[!UICONTROL Adicionar Problemas]**.
+## Adicionar tarefas ou problemas existentes de um relatório
+
+Para adicionar uma tarefa ou problema a um quadro [!UICONTROL Kanban] a partir de um relatório:
+
+{{step1-to-reports}}
+
+1. Selecione o relatório de tarefas ou problemas que contém o item de trabalho que você deseja adicionar ao quadro Kanban.
+1. Selecione um ou mais itens de trabalho para adicionar.
+1. Clique no ícone **[!UICONTROL Mais]** ![Mais ícone](assets/more-icon.png) e selecione **Adicionar ao Quadro Kanban**. A caixa de diálogo [!UICONTROL **Adicionar a**] é aberta.
+1. No campo **Quadro Kanban**, digite o nome da equipe Kanban e selecione-a no menu suspenso.
+
+   >[!NOTE]
+   >
+   >Se várias equipes forem atribuídas à tarefa ou problema, o item de trabalho só poderá ser exibido no quadro [!DNL kanban] de uma equipe.
+1. Clique em **Adicionar**.
+
+
+## Adicionar tarefas ou problemas existentes a partir de um painel
+
+Para adicionar uma tarefa ou problema a um quadro [!UICONTROL Kanban] a partir de um painel:
+
+{{step1-to-dashboards}}
+
+1. Selecione o painel que contém o item de trabalho que você deseja adicionar ao quadro Kanban.
+1. Selecione um ou mais itens de trabalho para adicionar.
+1. Clique no ícone **[!UICONTROL Mais]** ![Mais ícone](assets/more-icon.png) e selecione **Adicionar ao Quadro Kanban**. A caixa de diálogo [!UICONTROL **Adicionar a**] é aberta.
+1. No campo **Quadro Kanban**, digite o nome da equipe Kanban e selecione-a no menu suspenso.
+
+   >[!NOTE]
+   >
+   >Se várias equipes forem atribuídas à tarefa ou problema, o item de trabalho só poderá ser exibido no quadro [!DNL kanban] de uma equipe.
+1. Clique em **Adicionar**.

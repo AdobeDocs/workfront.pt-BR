@@ -1,23 +1,23 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Filtrar relatórios por períodos de tempo
-description: Você pode filtrar um relatório pelo intervalo de tempo de uma data que existe em um objeto. Por exemplo, você pode filtrar um relatório de horas para um intervalo de tempo específico de quando as horas foram inseridas.
-author: Nolan
+title: Filtrar relatórios por períodos
+description: Você pode filtrar um relatório pelo período de uma data que existe em um objeto. Por exemplo, você pode filtrar um relatório de horas para um período específico de quando as horas foram inseridas.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '965'
 ht-degree: 5%
 
 ---
 
-# Filtrar relatórios por períodos de tempo
+# Filtrar relatórios por períodos
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
-Você pode filtrar um relatório pelo intervalo de tempo de uma data que existe em um objeto. Por exemplo, você pode filtrar um relatório de horas para um intervalo de tempo específico de quando as horas foram inseridas.
+Você pode filtrar um relatório pelo período de uma data que existe em um objeto. Por exemplo, você pode filtrar um relatório de horas para um período específico de quando as horas foram inseridas.
 
 ## Requisitos de acesso
 
@@ -30,25 +30,20 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
       <td> 
-      <p>Novo:</p>
-         <ul>
-         <li><p>Padrão</p></li>
-         </ul>
-      <p>Atual:</p>
-         <ul>
-         <li><p>Plano</p></li>
-         </ul>
+      <p>Novo: Padrão</p>
+       <p> Ou</p>
+      <p>Atual: Plano</p>
    </td>
 
 </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p></td> 
   </tr> 
   <tr> 
@@ -58,28 +53,30 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Pré-requisitos
 
-O relatório deve ser criado antes de você filtrar seus resultados.
+O relatório deve ser criado antes que você possa filtrar seus resultados.
 
 Para obter mais informações sobre como criar relatórios, consulte [Criar um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Filtrar um relatório pelo período de uma data {#filter-a-report-by-the-time-frame-of-a-date}
+## Filtrar um relatório pelo período de uma data {#filter-a-report-by-the-timeframe-of-a-date}
 
-1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) e em **Relatórios**.
+{{step1-to-reports}}
 
-1. Clique em **Novo relatório** e selecione o tipo de relatório desejado.\
-   Por exemplo, selecione **Relatório de Horas**.
+1. No canto superior esquerdo, clique em **Novo relatório** e selecione o tipo de relatório que deseja criar.
 
-1. Selecione a guia **Filtros**.
-1. Clique em **Adicionar uma Regra de Filtro** e selecione **Data de Entrada da Hora**.\
+1. Na página **Novo Relatório**, selecione a guia **Filtros**.
+
+1. Clique em **Adicionar uma Regra de Filtro** e em **Selecionar um campo**.
+
+1. Na caixa de diálogo **Selecionar um campo**, selecione **Hora** e depois **Data de Entrada**.
    ![Filtrar relatório de horas por período](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
-1. No menu suspenso a seguir, selecione uma das seguintes opções:
+1. Na lista suspensa exibida, selecione uma das seguintes opções:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -88,54 +85,58 @@ Para obter mais informações sobre como criar relatórios, consulte [Criar um r
      <tr> 
       <td role="rowheader">Igual</td> 
       <td>Após selecionar esse modificador, especifique a data em que as horas foram inseridas.</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Não Igual</td> 
-      <td>Após selecionar esse modificador, especifique a data em que as horas foram informadas, para excluir essa data do seu relatório. O relatório mostra horas registradas em todas as datas, esperadas para a data especificada.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Null</td> 
-      <td>Selecione este modificador para exibir apenas as horas em que a Data de Entrada está ausente.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Not Null</td> 
-      <td>Selecione esse modificador para exibir apenas as horas em que a Data de Entrada tem um valor.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Entre</td> 
-      <td>Após selecionar esse modificador, especifique um intervalo de datas em que as horas foram inseridas. O relatório mostra as horas informadas entre as datas especificadas.</td> 
-     </tr> 
-     <tr> 
+      <td>Após selecionar esse modificador, especifique a data em que as horas foram informadas para excluir essa data do seu relatório. O relatório mostra horas registradas em todas as datas, esperadas para a data especificada.</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Menor que</td> 
       <td>Após selecionar esse modificador, especifique uma data antes da qual as horas foram informadas. O relatório mostra as horas informadas antes da data especificada, sem incluir a data especificada.</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Menor Que ou Igual</td> 
       <td>Após selecionar esse modificador, especifique uma data antes da qual as horas foram informadas. O relatório mostra as horas informadas antes da data especificada, incluindo a data especificada.</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Maior que</td> 
-      <td>Após selecionar esse modificador, especifique uma data após a qual as horas foram informadas. O relatório mostra as horas informadas após a data especificada, sem incluir a data especificada.</td> 
-     </tr> 
-     <tr> 
+      <td>Após selecionar esse modificador, especifique uma data após a qual as horas foram informadas. O relatório mostra horas informadas após a data especificada, sem incluir a data especificada.</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Maior Que ou Igual</td> 
-      <td> <p>Após selecionar esse modificador, especifique uma data após a qual as horas foram informadas. O relatório mostra horas informadas após a data especificada, incluindo a data especificada.</p> <p>Selecione qualquer um dos modificadores de período predefinidos, conforme descrito em <a href="#built-in-time-frame-modifiers" class="MCXref xref">Modificadores de período predefinidos</a>.</p> </td> 
-     </tr> 
-    </tbody> 
+      <td> Após selecionar esse modificador, especifique uma data após a qual as horas foram informadas. O relatório mostra horas informadas após a data especificada, incluindo a data especificada. </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Entre</td> 
+      <td>Após selecionar esse modificador, especifique um intervalo de datas em que as horas foram inseridas. O relatório mostra as horas informadas entre as datas especificadas.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Null</td> 
+      <td>Selecione este modificador para exibir apenas as horas em que a Data de Entrada está ausente.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Not Null</td> 
+      <td>Selecione esse modificador para exibir apenas as horas em que a Data de Entrada tem um valor.</td> 
+     </tr>
+
+   </tbody> 
    </table>
 
-1. Esses modificadores estão disponíveis para qualquer campo de data em um filtro ou um prompt em qualquer relatório.
 1. Clique em **Salvar + Fechar**.
 
-## Modificadores de intervalo de tempo incorporados {#built-in-time-frame-modifiers}
+## Modificadores de período predefinidos {#built-in-timeframe-modifiers}
 
-O Adobe Workfront tem modificadores de intervalo de tempo incorporados que podem ser usados sem definir uma data específica.
+O Adobe Workfront tem modificadores de período incorporados que podem ser usados sem definir uma data específica. Esses modificadores estão disponíveis para qualquer campo de data em um filtro ou um prompt em qualquer relatório.
 
-Esses modificadores estão disponíveis para qualquer campo de data em um filtro ou um prompt em qualquer relatório.
-
-Para obter mais informações sobre como filtrar um relatório por um período associado a uma data, consulte a seção [Filtrar um relatório por período](#filter-a-report-by-the-time-frame-of-a-date).
-
-Por exemplo, se você estiver criando um relatório de horas e quiser exibir as horas informadas em um intervalo de tempo específico, poderá escolher entre as seguintes opções de filtro de intervalo de tempo interno:
+Por exemplo, se você estiver criando um relatório de horas e quiser exibir as horas informadas em um período específico, poderá escolher entre as seguintes opções de filtro de período:
 
 <table style="table-layout:auto"> 
  <col> 
