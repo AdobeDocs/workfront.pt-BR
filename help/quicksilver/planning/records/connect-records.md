@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '3327'
+source-wordcount: '3267'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Conectar registros
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -157,7 +157,7 @@ Você pode conectar registros do Workfront Planning nas seguintes áreas de um r
 * Os campos de registro conectados na exibição de tabela.
 * A caixa ou página de visualização do registro nos campos de registro conectados na guia Detalhes.
 * A caixa de visualização do registro ou a página na guia Conexões.
-* <span class="preview">A página do registro na guia Exibição de conexão.</span> <!--this needs title edit when they rename the "Connection view" page type-->
+* A página do registro na guia Exibição de conexão. <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### Conectar registros do Workfront Planning a partir da exibição de tabela ou da área Detalhes de um registro
 
@@ -184,7 +184,7 @@ Você pode conectar registros do Workfront Planning nas seguintes áreas de um r
    >
 
 1. (Condicional) Se você selecionou Um para muitos ou Um para um para o tipo de conexão ao conectar os tipos de registro e tentar conectar um registro ou um objeto que já está conectado em outro lugar, você receberá um aviso de que a conexão novamente o removerá da conexão original. Clique em **Conectar** para permitir a remoção e conectar o registro, ou em **Cancelar** para voltar ao campo e selecionar outro registro.
-1. (Opcional) Se você não encontrar um objeto para conexão e quiser adicioná-lo, <span class="preview">clique em **+ Adicionar**</span>
+1. (Opcional) Se você não encontrar um objeto para conexão e quiser adicioná-lo, clique em **+ Adicionar**
 
    Ou
 
@@ -270,7 +270,7 @@ Depois de criar uma conexão entre um tipo de registro e um tipo de objeto do Wo
    >
    >Você pode abrir a página de um registro na exibição, clicar duas vezes no campo de registro vinculado ou clicar em **Conectar** no campo para adicionar objetos do tipo de objeto conectado.
 
-1. (Opcional) Se você não encontrar um objeto para conexão e quiser adicioná-lo, <span class="preview">clique em **+ Adicionar**</span>
+1. (Opcional) Se você não encontrar um objeto para conexão e quiser adicioná-lo, clique em **+ Adicionar**
 
    Ou
 
@@ -440,7 +440,7 @@ Para conectar registros com ativos do Experience Manager:
 1. (Opcional) Clique na seta para baixo à esquerda de uma seção para recolhê-la.
 
 1. (Condicional) Clique em **Conectar** para adicionar mais registros ou objetos do mesmo tipo.
-1. (Opcional) Se você não puder encontrar um registro ou um objeto para se conectar e quiser adicioná-lo, <span class="preview">clique em **+ Adicionar**</span>
+1. (Opcional) Se você não puder encontrar um registro ou um objeto para se conectar e quiser adicioná-lo, clique em **+ Adicionar**
 
    Ou
 
@@ -454,8 +454,6 @@ Os registros e objetos são adicionados imediatamente.
    ![Ícone Desconectar registro com dica de ferramenta na guia Conexões](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    O registro é imediatamente desconectado de todas as áreas do Workfront Planning ou de outros aplicativos onde pode ser exibido como conectado. Todos os valores de campo de pesquisa também são removidos.
-
-<div class="preview">
 
 ### Conectar registros da guia Exibição de conexão na página de detalhes de um registro
 
@@ -474,8 +472,6 @@ Os registros e objetos são adicionados imediatamente.
 
    ![Botão Conectar realçado na guia de detalhes do registro conectado](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 1. (Opcional) Se não conseguir encontrar um registro conectado, clique em **+ Adicionar** para criá-lo e conectá-lo.
-
-</div>
 
 ## Conectar registros de objetos do Workfront
 

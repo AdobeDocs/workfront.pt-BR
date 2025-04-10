@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1816'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ Você pode submeter uma solicitação do Workfront Planning nas seguintes áreas
 * De um link direto para o formulário de solicitação que foi compartilhado.
 
   Este artigo descreve como enviar uma solicitação para adicionar novos registros a um tipo de registro da área Solicitações do Workfront ou de um link compartilhado.
-* <span class="preview">Na página de tipo de registro, ao adicionar ou solicitar um novo registro. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).</span>
+* Na página tipo de registro, ao adicionar ou solicitar um novo registro. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
 
 Usuários do Workfront e usuários externos podem enviar solicitações para tipos de registro do Planning e criar registros. <!--double check on the external users-->
 
@@ -128,7 +128,7 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
    * Internamente, o formulário deve ser compartilhado com usuários que têm permissões de Exibição ou superiores para o espaço de trabalho.
 
-     Os usuários do Workfront podem acessar o formulário a partir de um link <span class="preview">ou localizar o formulário de solicitação na área Solicitações do Workfront.</span>
+     Os usuários do Workfront podem acessar o formulário por meio de um link ou localizá-lo na área Solicitações do Workfront.
 
    * Se você não tiver uma conta do Workfront, um link para o formulário foi compartilhado com pessoas externas.
 
@@ -150,8 +150,6 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
-
-<div class="preview">
 
 ## Enviar uma solicitação ao Workfront Planning na área Solicitações do Workfront
 
@@ -239,8 +237,6 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
 
    A página de tipo de registro é aberta no Workfront Planning.
 
-</div>
-
 ## Enviar uma solicitação ao Workfront Planning a partir de um link compartilhado para um formulário de solicitação
 
 1. Acesse o link compartilhado com você a partir de um tipo de registro do Workfront Planning.
@@ -276,11 +272,11 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
      >
      >As notificações por email e no aplicativo ficam visíveis somente quando a instância da Workfront da sua organização é integrada à Adobe Unified Experience.
 
-1. <span class="preview">(opcional) Clique em **Exibir sua solicitação** para abrir a solicitação no Workfront.</span>
+1. (Opcional) Clique em **Exibir sua solicitação** para abrir a solicitação no Workfront.
 
-   Ou
+   <!--Or-->
 
-   <span class="preview">Clique em [Enviar outra solicitação](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) para abrir o formulário de solicitação e adicionar uma nova solicitação. </span>
+   <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
 1. (Opcional) Clique em **Menu principal** > **Solicitações** > na guia **Planejamento** para exibir sua solicitação e, em seguida, clique no nome dela.
 

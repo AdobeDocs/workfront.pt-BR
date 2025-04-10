@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2046'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -126,7 +126,7 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
       * Criado por e Modificado pela última vez por
       * Data de criação e data da última modificação
-      * Fórmula. <span class="preview">Campos de fórmula com suporte no ambiente de Visualização.</span>
+      * Fórmula. <!--Formula fields are supported in the Preview environment.-->
       * Campos de pesquisa de objetos do Workfront
       * Campos de pesquisa de registros conectados do Workfront Planning
 
@@ -136,8 +136,6 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
      No entanto, o formato do campo é preservado e os valores do campo serão exibidos como moeda, números e percentuais após o envio da solicitação, no tipo de registro e na página de detalhes da solicitação.
 
-<div class="preview">
-
 * A seguir, descrevemos como alguns valores de campo são exibidos nos formulários de solicitação e nas páginas de detalhes da solicitação:
 
    * A formatação especial dos campos Moeda, Número e Porcentagem não é preservada. Por exemplo, a precisão decimal não é preservada para os valores desses campos nessas áreas.
@@ -145,8 +143,6 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
    * Os campos de fórmula que não se referem a outros campos ou cálculos não exibem valores. Por exemplo, um campo com uma fórmula `STRING` exibe um valor &quot;N/A&quot;.
    * Os campos de fórmula que se referem aos campos Moeda exibem os valores sem contabilizar taxas de câmbio.
    * Os valores dos campos de parágrafo exibem um valor &quot;N/A&quot; no formulário de solicitação e exibem tags html em vez do texto formatado na página de detalhes da solicitação.
-
-</div>
 
 ## Criar um formulário de solicitação para um tipo de registro
 
@@ -160,8 +156,8 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
 
-1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Criar formulário de solicitação** <span class="preview">ou **Gerenciar formulários de solicitação**, se você já tiver um formulário e quiser criar outros</span>.
-1. <span class="preview">(Condicional) Se quiser adicionar outro formulário, clique em **Novo formulário de solicitação**</span>.
+1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Criar formulário de solicitação** ou **Gerenciar formulários de solicitação**, se você já tiver um formulário e quiser criar outros.
+1. (Condicional) Se quiser adicionar outro formulário, clique em **Novo formulário de solicitação**.
 1. Atualize o nome do formulário de solicitação. Por padrão, o nome do formulário é **Formulário sem título**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Opcional) Adicione uma **Descrição** para o formulário de solicitação.
 
@@ -274,10 +270,10 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
    >[!TIP]
    >
-   ><span class="preview">Depois que a data de compartilhamento expirar, o formulário de solicitação não estará mais disponível na área Solicitações do Workfront e os links compartilhados com outros usuários não estarão mais acessíveis.</span>
+   >Depois que a data de compartilhamento expirar, o formulário de solicitação não estará mais disponível na área Solicitações do Workfront e os links compartilhados com outros usuários não estarão mais acessíveis.
 
 
-1. <span class="preview">(Opcional)</span> Clique em **Salvar e copiar link** para salvar os detalhes de compartilhamento do formulário. Se o formulário foi salvo anteriormente, clique em **Copiar link**.
+1. (Opcional) Clique em **Salvar e copiar link** para salvar os detalhes de compartilhamento do formulário. Se o formulário foi salvo anteriormente, clique em **Copiar link**.
 
    As opções de compartilhamento de formulário são salvas e o link é copiado para a área de transferência. Agora você pode compartilhá-lo com outras pessoas.
 
@@ -287,36 +283,34 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
 1. Clique na seta à esquerda do nome do formulário no cabeçalho para fechar o formulário.
 
-   <span class="preview">A exibição de tabela **Formulários de solicitação** é aberta e o formulário é adicionado a ela.</span>
+   A exibição de tabela **Formulários de solicitação** é aberta e o formulário é adicionado a ela.
 
-1. <span class="preview">(Opcional) Passe o mouse sobre o nome de um formulário de solicitação na exibição de tabela, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do formulário e clique em um dos seguintes:</span>
+1. (Opcional) Passe o mouse sobre o nome de um formulário de solicitação na exibição de tabela, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do formulário e clique em um dos seguintes:
 
-   * <span class="preview">**Editar formulário**: clique para editar mais informações sobre o formulário. </span>
-   * <span class="preview"> **Cancelar publicação**: clique para desfazer a publicação do formulário que o remove da área Solicitações no Workfront. </span>
-   * <span class="preview">**Compartilhar**: clique aqui para modificar quem tem acesso ao formulário. </span>
-   * <span class="preview">**Copiar link**: clique para copiar rapidamente o link do formulário de solicitação sem abrir o formulário. </span>
-   * <span class="preview">**Excluir**: clique aqui para excluir o formulário. Todas as solicitações e registros adicionados usando o formulário não são excluídos. O formulário não pode ser recuperado. </span>
+   * **Editar formulário**: clique para editar mais informações sobre o formulário.
+   * **Cancelar publicação**: clique para desfazer a publicação do formulário que o remove da área Solicitações no Workfront.
+   * **Compartilhar**: clique aqui para modificar quem tem acesso ao formulário.
+   * **Copiar link**: clique para copiar rapidamente o link do formulário de solicitação sem abrir o formulário.
+   * **Excluir**: clique aqui para excluir o formulário. Todas as solicitações e registros adicionados usando o formulário não são excluídos. O formulário não pode ser recuperado.
 
    ![Mais menus no formulário de solicitação da lista de formulários de solicitação](assets/more-menu-on-request-form-from-request-forms-list.png)
 
 
-1. <span class= "preview">Clique na seta apontando para a esquerda de **Formulários de solicitação** no cabeçalho para fechar a tabela de formulários de solicitação.   </span>
+1. Clique na seta à esquerda de **Formulários de solicitação** no cabeçalho para fechar a tabela de formulários de solicitação.
 
-   <span class= "preview">A página de tipo de registro é aberta. </span>
-1. (Opcional e condicional) Para editar um formulário existente, siga um destes procedimentos, dependendo do ambiente que você está usando:
+   A página de tipo de registro é aberta.
+1. (Opcional e condicional) Para editar um formulário existente:
 
-   * No ambiente de produção:
+   1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho e clique em **Gerenciar formulários de solicitação**. </span>
 
-      1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho e siga um destes procedimentos:
+      Isso abre a exibição de tabela Formulários de solicitação.
 
-      1. Clique em **Atualizar formulário de solicitação** para fazer alterações no formulário de solicitação.
-      1. Clique em **Copiar link para solicitar o formulário** para compartilhar o link para o formulário com outras pessoas.
+   1. Clique em um formulário de solicitação para abri-lo e editá-lo.
+   1. (Opcional) Vá para a área **Solicitações** no Workfront e localize o formulário compartilhado para enviar uma solicitação. Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
-   * <span class="preview">No ambiente de Visualização:
-
-      1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho e clique em **Gerenciar formulários de solicitação**. </span>
-
-         <span class="preview">Isso abre a exibição de tabela dos formulários de Solicitação. </span>
-
-      1. <span class="preview">Clique em um formulário de solicitação para abri-lo e editá-lo.</span>
-      1. <span class= "preview">(Opcional) Vá para a área **Solicitações** no Workfront e localize o formulário compartilhado para enviar uma solicitação. Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).</span>
+<!--   * From the Production environment:
+   
+      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
+   
+      1. Click **Update request form** to make any changes to the request form.
+      1. Click **Copy link to request form**  to share the link to the form with others.-->

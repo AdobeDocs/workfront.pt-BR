@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '2932'
-ht-degree: 2%
+source-wordcount: '2872'
+ht-degree: 3%
 
 ---
 
 # Gerenciar a exibição de tabela
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -404,13 +404,9 @@ Para adicionar um filtro a uma exibição de tabela:
    * **AND**: todas as condições especificadas devem ser atendidas.
    * **OU**: qualquer uma das condições especificadas deve ser atendida. Esta é a opção padrão.
 
-   <div class="preview">
-
    1. (Opcional) Adicione operadores **AND** ou **OR** adicionais entre vários agrupamentos de condição.
 
       ![Filtros de várias camadas em exibições](assets/multi-tiered-filters-in-views.png)
-
-   </div>
 
    A lista de registros é filtrada automaticamente.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -545,3 +541,4 @@ Os avatares de outros usuários que estão editando informações de registro ao
 Ao exibir a visualização de tabela, você também pode visualizar qual campo outro usuário está editando no momento em que você está visualizando o registro.
 
 Para obter mais informações, consulte a seção &quot;Habilitar o indicador de presença em tempo real&quot; no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
+

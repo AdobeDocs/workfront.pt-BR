@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '815'
 ht-degree: 3%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 3%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Como administrador do Adobe Workfront, você pode criar caminhos de etapas que podem ser aplicados a qualquer projeto no sistema. As alterações feitas nos caminhos de marcos nessa área afetam todo o sistema do Workfront.
 
@@ -123,20 +123,18 @@ Para obter mais informações sobre como associar um caminho de etapas a um proj
    Para obter mais informações sobre como associar caminhos de etapas a projetos e etapas a tarefas, consulte [Associar etapas a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 
-1. <span class="preview">(Opcional) Clique no ícone **Exportar** ![Ícone Exportar](assets/export-icon.png) e selecione um dos seguintes formatos para exportar a lista de caminhos de etapas para um arquivo: </span>
+1. (Opcional) Clique no ícone **Exportar** ![Ícone Exportar](assets/export-icon.png) e selecione um dos seguintes formatos para exportar a lista de caminhos de etapas para um arquivo:
 
    * PDF
    * Excel
    * Excel (xlsx)
    * Delimitado por tabulação
 
-1. <span class="preview">(Opcional) Selecione uma etapa na lista de etapas e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) para editar as informações da etapa. </span>
-1. <span class="preview">(Opcional) Selecione uma etapa na lista de etapas e clique no ícone **Excluir** ![Excluir ícone](assets/delete-icon.png) para excluí-la. </span>
-1. <span class="preview">Clique em **Sim, exclua-o**. </span>
-   <span class="preview">A etapa foi excluída e não pode ser recuperada. Todas as informações do projeto associadas à etapa e todas as informações de tarefas associadas aos caminhos de etapas também são excluídas. </span>
+1. (Opcional) Selecione uma etapa na lista de etapas e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) para editar as informações da etapa.
+1. (Opcional) Selecione uma etapa na lista de etapas e clique no ícone **Excluir** ![Ícone Excluir](assets/delete-icon.png) para excluí-la.
+1. Clique em **Sim, exclua**.
+A etapa é excluída e não pode ser recuperada. Todas as informações do projeto associadas à etapa e todas as informações de tarefas associadas aos caminhos de etapas também são excluídas.
 
-
-<div class="preview">
 
 ## Exibir detalhes do caminho de etapas em um relatório
 
@@ -163,8 +161,6 @@ Para obter informações sobre como associar caminhos de etapas a projetos, cons
 
    Os detalhes do caminho de etapas são exibidos.
 
-   <div class="preview">
-
    ![Detalhes do caminho de etapas do relatório de projeto](assets/milestone-details-from-project-report.png)
 
    A página de detalhes do caminho de etapas exibe as seguintes informações:
@@ -175,6 +171,5 @@ Para obter informações sobre como associar caminhos de etapas a projetos, cons
 
 1. (Opcional) Clique em **Voltar** para voltar ao relatório do projeto.
 
-</div>
 
 

@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # Visão geral dos registros conectados
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 {{planning-important-intro}}
 
@@ -54,11 +54,11 @@ Para obter informações sobre como conectar registros uns aos outros ou a outro
    * Os campos de registro conectados na exibição de tabela de um tipo de registro no Planning.
    * A visualização ou página do registro nos campos de registro conectados na guia Detalhes.
    * A visualização ou página do registro na guia Conexões.
-   * <span class="preview">A página do registro em uma guia de exibição de Conexão de um registro conectado.</span>
+   * A página do registro em uma guia Exibição de conexão de um registro conectado.
 
 * Você pode conectar objetos do Workfront a registros do Workfront Planning nas seguintes áreas do Workfront:
 
    * A seção Planejamento de um objeto do Workfront.
-   * <span class="preview">Um campo de conexão do Planning em um formulário personalizado de objeto do Workfront. </span>
+   * Um campo de conexão do Planning no formulário personalizado de um objeto do Workfront.
 
-  Para obter informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+  Para obter informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

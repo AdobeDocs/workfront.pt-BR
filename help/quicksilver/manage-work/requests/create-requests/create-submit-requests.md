@@ -6,9 +6,9 @@ description: O trabalho planejado é representado na Adobe Workfront por projeto
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2740'
+source-wordcount: '2680'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 1%
 </div>
 -->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 O trabalho planejado é representado na Adobe Workfront por projetos e tarefas. No entanto, você pode trabalhar em um ambiente em que o trabalho não planejado, na forma de solicitações, pode entrar a qualquer momento. O Workfront fornece um fluxo de trabalho para acomodar esse tipo de ambiente por meio do uso de Filas de solicitações.
 
@@ -44,7 +44,7 @@ Você pode criar uma solicitação do Workfront Planning do zero para criar regi
 
 * De um link para um formulário de solicitação do Workfront Planning.
 
-* <span class="preview">De um formulário de solicitação do Workfront Planning na área Solicitações do Workfront. </span>
+* Em um formulário de solicitação do Workfront Planning na área Solicitações do Workfront.
 
   Sua organização deve comprar um pacote do Workfront Planning. Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
@@ -124,12 +124,12 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
 {{step1-to-requests}}
 
-1. <span class="preview"> (Opcional e condicional) Selecione a configuração **Alternar para a nova experiência** no canto superior direito da tela, se os seguintes itens se aplicarem à sua organização e instância do Workfront: </span>
+1. (Opcional e condicional) Selecione a configuração **Alternar para nova experiência** no canto superior direito da tela se os seguintes itens se aplicarem à sua organização e instância do Workfront:
 
-   * <span class="preview">Sua organização adquiriu um pacote do Workfront</span>
-   * <span class="preview">Sua organização foi integrada à Adobe Unified Experience.
-   * <span class="preview">Seu administrador concedeu a você acesso ao Workfront Planning</span>
-   * <span class="preview">Você tem pelo menos permissões de exibição para um espaço de trabalho do Workfront Planning</span>
+   * Sua organização adquiriu um pacote do Workfront
+   * Sua organização foi integrada à Adobe Unified Experience.
+   * Seu administrador concedeu acesso ao Workfront Planning
+   * Você tem pelo menos permissões de exibição para um espaço de trabalho do Workfront Planning
 
    Para obter mais informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md)
 
@@ -142,15 +142,15 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
    A caixa **Nova solicitação** é aberta.
 
-1. <span class="preview">(Condicional) Se você alternou para a nova experiência que inclui o Workfront Planning, a caixa **Nova solicitação** exibirá o seguinte:</span>
+1. (Condicional) Se você alternou para a nova experiência que inclui o Workfront Planning, a caixa **Nova solicitação** exibirá o seguinte:</span>
 
-   * <span class="preview">As seis filas de solicitações do Workfront e os formulários de solicitação do Planning acessados mais recentemente são exibidos na seção Recente. </span>
-   * <span class="preview">50 outras filas de solicitações do Workfront e formulários de solicitação do Planning são exibidas em ordem alfabética na seção **Todos os formulários de solicitação**. Você pode procurar uma fila de solicitações que não é exibida por padrão. </span>
+   * As 6 filas de solicitações do Workfront acessadas mais recentemente e os formulários de solicitação do Planning são exibidos na seção Recente.
+   * 50 outras filas de solicitações do Workfront e formulários de solicitação do Planning são exibidos em ordem alfabética na seção **Todos os formulários de solicitação**. Você pode procurar uma fila de solicitações que não é exibida por padrão.
 
    ![Nova caixa de solicitação com fluxo de trabalho unificado para solicitações de planejamento](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
-   <span class="preview">Clique em um dos cartões da fila de solicitações da Workfront ou procure um e clique nele quando ele for exibido na lista. </span>
-1. (Condicional) <span class="preview">Se você alternou para a nova experiência que inclui o Workfront Planning, selecione os grupos de tópicos e os tópicos da fila e continue atualizando o formulário</span>
+   Clique em um dos cartões da fila de solicitações do Workfront ou procure por um e, em seguida, clique nele quando ele for exibido na lista.
+1. (Condicional) Se você alternou para a nova experiência que inclui o Workfront Planning, selecione os grupos de tópicos e os tópicos da fila e continue atualizando o formulário.
 
    Caso contrário, clique dentro do campo **Tipo de solicitação** e siga um destes procedimentos:
 
@@ -333,7 +333,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
    Ao enviar a solicitação, o rascunho é excluído automaticamente e não pode ser restaurado.
 
-   As solicitações enviadas estão listadas na seção **Enviadas** da área Solicitações. <span class="preview">Se você estiver usando a nova experiência que inclui o Workfront Planning, as solicitações enviadas pelo Workfront serão exibidas na guia **Workfront** da área Solicitações. </span>
+   As solicitações enviadas estão listadas na seção **Enviadas** da área Solicitações. Se você estiver usando a nova experiência que inclui o Workfront Planning, as solicitações enviadas pelo Workfront serão exibidas na guia **Workfront** da área Solicitações.
 
    Para obter informações sobre como endereçar solicitações recebidas, consulte o artigo [Gerenciar solicitações de trabalho e de equipe](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 

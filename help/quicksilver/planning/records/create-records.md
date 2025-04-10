@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4b5248f667648543263073022ae10336fb022f97
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2359'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Criar registros
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +28,13 @@ No Adobe Workfront Planning, um registro é uma instância de um tipo de registr
 Você pode criar registros seguindo um destes procedimentos:
 
 * [Criar registros adicionando-os em linha a partir da exibição de tabela do tipo de registro](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-* <span class="preview">[Criar registros usando o botão Novo registro ou Solicitar registro de qualquer exibição de tipo de registro](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
+* [Criar registros usando o botão Novo registro ou Solicitar registro de qualquer exibição de tipo de registro](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [Copiar e colar uma lista de registros de uma lista externa](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicar registros de uma exibição de tabela](#create-records-by-duplicating-them)
 * [Criar registros ao conectá-los a partir de outros registros](#create-records-as-you-connect-them)
 * [Criar registros enviando um formulário de solicitação para um tipo de registro](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[Criar registros importando informações de um arquivo CSV ou do Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
-* <span class="preview">[Criar registros usando automações](#create-records-by-using-automations)</span>
+* [Criar registros importando informações de um arquivo CSV ou do Excel](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Criar registros usando automações](#create-records-by-using-automations)
 
 Para obter informações sobre o gerenciamento de registros nas exibições de tabela ou linha do tempo, consulte os seguintes artigos:
 
@@ -99,7 +99,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td> <p>Permissões do Contribute ou superior para o espaço de trabalho <!--<span class="preview">and record type</span>--> onde você deseja adicionar registros. </p>
-   <p><span class="preview">Exiba ou aumente as permissões do espaço de trabalho <!--<span class="preview">and record type</span>--> para criar registros usando o botão Solicitar registro na página de registro</span></p>
+   <p>Exiba ou aumente as permissões do espaço de trabalho <!--<span class="preview">and record type</span>--> para criar registros usando o botão Solicitar registro na página de registro</p>
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
    <p>Gerencie permissões para objetos do Workfront (portfólios) para adicionar objetos secundários (projetos).</p>
    </td> 
@@ -182,8 +182,6 @@ Os registros do tipo selecionado são exibidos na visualização.
    * CTRL + Z (⌘ + Z para Mac) para desfazer uma alteração
    * CTRL + Shift + Z (⌘ + Shift + Z para Mac) para refazer uma alteração
 
-<div class="preview">
-
 ## Criar registros usando o botão Novo registro ou Solicitar registro de qualquer exibição de tipo de registro
 
 Usuários com permissões de Exibição para o espaço de trabalho <!--<span class="preview">and record type</span>--> podem criar registros somente usando o botão Solicitar registro na página de tipo de registro.
@@ -247,8 +245,6 @@ O formulário de solicitação do tipo de registro é aberto.
    * Um novo registro é adicionado ao tipo de registro, a menos que você opte por adicioná-lo usando um formulário de solicitação com um processo de aprovação. A aprovação deve ser concedida por todos os aprovadores antes que o registro seja criado.
    * Vários registros são adicionados ao tipo de registro se você tiver adicionado registros usando uma planilha CSV ou do Excel.
    * Uma nova solicitação será adicionada na guia Planejamento da área Solicitações do Workfront, se você tiver adicionado a solicitação enviando um formulário de solicitação.
-
-</div>
 
 <!-- this is not possible anymore: 
 
@@ -339,7 +335,7 @@ Para criar registros ao conectá-los a partir de outros registros:
 
      Para obter informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-1. (Condicional) Se você não encontrar um registro ao tentar conectá-lo, <span class="preview">clique em **+ Adicionar**</span>
+1. (Condicional) Se você não encontrar um registro ao tentar conectá-lo, clique em **+ Adicionar**
 
    Ou
 Comece a digitar um nome e clique em **+ Adicionar**. O botão **+ Adicionar** é seguido pelo nome do tipo de registro ao qual você está se conectando. Por exemplo, &quot;Adicionar marcas&quot; ao adicionar uma marca a uma campanha existente. O nome digitado também segue o botão Adicionar.
@@ -376,17 +372,11 @@ Para obter informações, consulte [Enviar solicitações do Adobe Workfront Pla
 
 Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
-<div class="preview">
-
 ## Criar registros importando registros de um arquivo CSV ou do Excel
 
 É possível importar registros de tipos de registros existentes ao importar informações de um arquivo CSV ou do Excel.
 
 Para obter informações, consulte [Criar registros importando informações de um arquivo CSV ou do Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
-
-</div>
-
-<div class="preview">
 
 ## Criar registros usando automações
 
@@ -396,6 +386,5 @@ Você pode configurar e ativar a automação na página do registro no Workfront
 
 Para obter informações, consulte [Criar objetos usando as automações de registro do Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
-</div>
 
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2138'
 ht-degree: 2%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 2%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Você pode configurar automações no Adobe Workfront Planning que, quando ativadas, criam objetos no Workfront ou registros no Workfront Planning quando acionadas a partir de um registro do Planning. Os objetos ou registros criados são conectados automaticamente aos registros dos quais você está acionando a automação.
 
@@ -37,7 +37,7 @@ Para obter mais informações sobre registros conectados, consulte [Visão geral
 
 Você pode criar o seguinte usando automações no Workfront Planning:
 
-* Um <span class="preview">ou vários</span> projetos
+* Um ou vários projetos
 * Um grupo
 * Um programa
 * Um portfólio
@@ -123,15 +123,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 * O nome do objeto ou registro criado por uma automação é igual ao nome do registro a partir do qual você o cria, ao criar um único objeto.
 
-<div class="preview">
-
 * Ao criar vários projetos, eles são nomeados automaticamente de acordo com o seguinte padrão:
 
   `[ Name of the record ] Name of the field choice`
 
   Para obter mais informações, consulte a seção [Usar uma automação do Workfront Planning para criar um objeto ou um registro](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) neste artigo.
-
-</div>
 
 * Novos objetos ou registros não substituem os existentes no mesmo campo. Acionar a mesma automação várias vezes para o mesmo registro adiciona os novos objetos ou registros no mesmo campo conectado do registro original, além dos criados antes.
 
@@ -166,8 +162,8 @@ A página de detalhes da automação é aberta.
    * **Ações**: selecione a ação que você deseja que o Workfront execute ao acionar a automação. Este campo é obrigatório.
 Selecione uma das seguintes ações:
 
-      * <span class="preview">Criar vários projetos</span>
-      * <span class="preview">Criar um único projeto</span>
+      * Criar vários projetos
+      * Criar um único projeto
       * Criar um projeto
       * Criar registro
       * Criar programa
@@ -180,11 +176,9 @@ Selecione uma das seguintes ações:
 
 1. (Condicional) Dependendo da ação selecionada, atualize os seguintes campos:
 
-   * **Criar <span class="preview">um único</span> projeto**: <!--replace to the left: Create a single project-->
+   * **Criar um único projeto**: <!--replace to the left: Create a single project-->
       * **Campo conectado onde o projeto é criado**: este é o campo conectado onde o novo projeto será exibido. Este campo é obrigatório.
       * **Modelo de projeto**: selecione um modelo de projeto que a Workfront usará para criar o projeto.
-
-   <div class="preview">
 
    * Criar vários projetos:
       * **Campo conectado onde o projeto é criado**: este é o campo conectado onde o novo projeto será exibido. Este campo é obrigatório.
@@ -197,8 +191,6 @@ Selecione uma das seguintes ações:
 
       * **Usar o mesmo modelo**: selecione esta opção para usar o mesmo modelo para cada novo projeto. Se a opção estiver desmarcada, selecione um **Modelo de projeto** para cada escolha de campo.
       * **Modelo de projeto**: se você selecionou a opção **Usar o mesmo modelo**, selecione um modelo de projeto que a Workfront usará para criar os projetos.
-
-   </div>
 
    * **Criar portfólio**:
       * **Campo conectado onde o portfólio é criado**: este é o campo conectado onde o novo portfólio será exibido. Este campo é obrigatório.
@@ -311,15 +303,11 @@ Na área **Mapear campos**, atualize as seguintes informações:
 
    * O novo objeto é exibido no campo conectado indicado na configuração do botão de automação. Talvez seja necessário atualizar a página antes de visualizar o novo objeto. O novo objeto tem o mesmo nome do registro original.
 
-   <div class="preview">
-
    * Se vários projetos foram criados com base nas opções de campos de seleção múltipla ou única, os projetos são nomeados automaticamente de acordo com o seguinte padrão:
 
      `[ Name of the record ] Name of the field choice`
 
      Por exemplo, se uma campanha chamada `Summer breeze` gerou um projeto a partir de uma escolha de campo de `EMEA`, o projeto é nomeado como `[ Summer breeze ] EMEA`.
-
-   </div>
 
    * O registro do qual você está acionando a automação é adicionado ao campo conectado do novo registro.
 
