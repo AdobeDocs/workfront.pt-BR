@@ -6,7 +6,7 @@ description: O administrador do Adobe Workfront pode conceder acesso para exibir
 author: Alina
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 2%
@@ -33,9 +33,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
    * Exibir
    * Gerenciar
-   * Contribuir\
-     ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
-
+   * Contribuir
 * Quando você compartilha uma tarefa, os usuários herdam as mesmas permissões em todos os objetos filhos associados à tarefa, por padrão. Por exemplo, elas herdam as mesmas permissões nas tarefas filhas, problemas e documentos anexados à tarefa.\
   Para obter mais informações sobre a hierarquia de objetos no Workfront, consulte  [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
@@ -65,7 +63,7 @@ Você pode compartilhar uma tarefa das seguintes maneiras:
 
 ## Permissões de tarefa
 
-A tabela a seguir mostra quais permissões você pode conceder aos usuários ao permitir que eles exibam, Contribute ou gerenciem uma tarefa:
+A tabela a seguir mostra quais permissões você pode conceder aos usuários ao permitir que eles exibam, contribuam ou gerenciem uma tarefa:
 
 <table border="2" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -83,153 +81,153 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
  <tbody> 
   <tr> 
    <td scope="row">Adicionar tarefa(s)</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Adicionar predecessores</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Adicionar problema(s)</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">Excluir Tarefa</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row"> <p>Edição de tarefa geral<br></p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Alterar Status da Tarefa</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Editar Restrição de Tarefa</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Exibir Tarefa</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">Adicionar documento(s)</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">Copiar tarefa*</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">Mover Tarefa*</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Registre as horas</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Modificar Datas Planejadas</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Aceitar atribuição</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Faça uma atribuição</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Anexar Formulário Personalizado</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Editar campos personalizados</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Criar um processo de aprovação</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Aprovar Uma Tarefa</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">Editar finanças*</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Adicionar/Editar Despesas</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">Exibir finanças</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">Atualizações/Comentários</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">Compartilhar</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td scope="row">Compartilhe com todo o sistema</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

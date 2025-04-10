@@ -7,7 +7,7 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -54,12 +54,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 * Você pode conceder as seguintes permissões a relatórios, painéis e calendários:
 
    * Exibir
-
-     ![](assets/screen-shot-2014-01-22-at-10.19.55-am.png)
-
    * Gerenciar
-
-     ![](assets/screen-shot-2014-01-22-at-10.20.13-am.png)
 
 * Quando você compartilha um painel, os usuários têm permissões de Exibição por padrão para todos os relatórios, calendários e páginas externas no painel.
 * Os usuários com uma Solicitação de licença não podem exibir um relatório geral do sistema. Um relatório deve ser compartilhado com os Solicitantes individualmente se eles precisarem visualizá-lo.

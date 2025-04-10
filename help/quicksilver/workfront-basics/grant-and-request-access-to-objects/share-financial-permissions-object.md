@@ -6,16 +6,14 @@ description: O administrador do Adobe Workfront pode conceder acesso para exibir
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '565'
 ht-degree: 1%
 
 ---
 
 # Compartilhar permissões financeiras em um objeto
-
-{{highlighted-preview}}
 
 O administrador do Adobe Workfront pode conceder acesso para exibir ou editar dados financeiros ao atribuir seu nível de acesso. Para obter mais informações, consulte [Conceder acesso a dados financeiros](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -54,6 +52,8 @@ Para obter informações sobre o que os usuários em cada nível de acesso podem
  </tbody> 
 </table>
 -->
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 Você deve ter o seguinte para compartilhar informações de dados financeiros sobre objetos:
 
 <table style="table-layout:auto"> 
@@ -81,11 +81,13 @@ Você deve ter o seguinte para compartilhar informações de dados financeiros s
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
++++
+
 ## Compartilhar um objeto e conceder permissões financeiras
 
 Considere o seguinte ao conceder permissões financeiras a objetos:
 
-* Você pode conceder permissões financeiras a projetos, tarefas, problemas, <span class="preview">e cartões de taxa</span>.
+* Você pode conceder permissões financeiras a projetos, tarefas e problemas.
 * As permissões podem ser herdadas: se você tiver permissões do View Finance para um projeto, herdará automaticamente permissões do View Finance para as tarefas e problemas no projeto.
 
 Para conceder permissões financeiras a um objeto:
@@ -102,10 +104,8 @@ Para conceder permissões financeiras a um objeto:
 1. Se um menu suspenso for exibido à direita do nome selecionado, clique em uma das seguintes opções que estão disponíveis:
 
    * **Exibir**
-   * **Contribute a ele**
+   * **Contribuir com ele**
    * **Gerenciar**
-
-     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. No mesmo menu suspenso, clique em **Configurações avançadas** e siga um destes procedimentos:
 
@@ -116,7 +116,7 @@ Para conceder permissões financeiras a um objeto:
 
 ## Permissão financeira para todos os níveis de compartilhamento
 
-A tabela a seguir exibe quais permissões financeiras os usuários obtêm ao conceder a eles permissões de Exibição, Contribute ou Gerenciar em objetos: 
+A tabela a seguir mostra quais permissões financeiras os usuários obtêm ao conceder a eles permissões de Exibição, Contribute ou Gerenciar em objetos: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -134,57 +134,45 @@ A tabela a seguir exibe quais permissões financeiras os usuários obtêm ao con
  <tbody> 
   <tr> 
    <td>Gerenciar registros de cobrança</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Gerenciar/visualizar taxas de custo e cobrança de função</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Gerenciar/visualizar taxas de custo e cobrança de usuário</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Exibir finanças</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td> ✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
   </tr> 
-  <tr> 
-   <td><span class="preview">Gerenciar cartões de taxa</span></td> 
-   <td>✓ µ</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td><span class="preview">Exibir cartões de taxa</span></td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td> ✓ µ</td> 
-  </tr>
   <tr> 
    <td>Exibir informações por Custo nas ferramentas de Planejamento de Recursos</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Recursos de orçamento nas ferramentas de planejamento de recursos*</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Exibir recursos nas ferramentas de Planejamento de recursos*</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td> <p>✓ µ</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
   </tr> 
  </tbody> 
 </table>

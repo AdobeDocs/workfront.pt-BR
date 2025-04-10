@@ -6,7 +6,7 @@ description: Como administrador do Adobe Workfront, você pode conceder aos usu�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 2%
@@ -40,12 +40,7 @@ As permissões são específicas a um item no Workfront e definem quais ações 
      Você pode conceder as seguintes permissões a um modelo:
 
       * Exibir
-
-        ![](assets/view-on-template-262x221.png)
-
       * Gerenciar
-
-        ![](assets/manage-on-template-225x280.png)
 
    * Os projetos futuros que são criados usando o modelo. Você pode conceder aos projetos criados a partir de um modelo os mesmos níveis de permissões que você daria a um projeto individual. 
 
@@ -124,38 +119,38 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
  <tbody> 
   <tr> 
    <td>Copiar</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Excluir</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Editar detalhes do modelo</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Exibir Modelo</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Compartilhar</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Compartilhe com todo o sistema</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Adicionar documentos</p> <p>Dica: às vezes, as pessoas adicionam documentos a um modelo de projeto pensando que estão adicionando a um projeto. Você pode evitar isso para os seus destinatários desativando essa configuração.</p> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

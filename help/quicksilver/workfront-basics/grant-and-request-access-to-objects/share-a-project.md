@@ -6,9 +6,9 @@ description: O administrador do Adobe Workfront pode conceder acesso para visual
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '990'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
 * Por padrão, o criador de um projeto tem permissões para gerenciar o projeto e também é designado como o Proprietário do projeto. Se o projeto for atribuído a outro proprietário, esse usuário também terá permissões para gerenciar o projeto. Quando o criador (ou proprietário) do projeto compartilha o projeto com outros usuários, ele concede determinadas permissões a esses usuários para controlar o que eles podem fazer enquanto trabalham no projeto.
 
-  No entanto, se o proprietário de um projeto não tiver uma licença do Planejador, ele não terá acesso total para gerenciar o projeto. Somente um usuário com uma licença de Plano pode ter permissões para gerenciar um projeto. Para obter mais informações, consulte [Como os níveis de acesso e as permissões funcionam juntos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  No entanto, se o proprietário de um projeto não tiver uma licença Plan ou Standard, ele não terá acesso total para gerenciar o projeto. Somente um usuário com uma licença do Plan ou Standard pode ter permissões para gerenciar um projeto. Para obter mais informações, consulte [Como os níveis de acesso e as permissões funcionam juntos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * Você pode compartilhar projetos individualmente ou vários deles de cada vez. O compartilhamento de projetos é idêntico ao compartilhamento de outros objetos. Para obter mais informações sobre como compartilhar itens no Workfront, consulte [Compartilhar um objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Você pode conceder as seguintes permissões a um projeto:
@@ -37,8 +37,6 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
    * Exibir
    * Gerenciar
    * Contribuir
-
-     ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
 * Quando você compartilha um projeto, todas as tarefas, problemas e documentos herdam as mesmas permissões, a menos que especificado de outra forma.
 
@@ -104,8 +102,8 @@ Você pode compartilhar um projeto das seguintes maneiras:
 
 ## Limitações para diferentes tipos de licença
 
-* Os usuários com uma licença Light e inferior (ou licença de Trabalho e inferior para o modelo de licença antigo) não têm permissões para gerenciar projetos. Para esses usuários, a maior permissão de compartilhamento é o Contribute.
-* Os usuários com uma licença de Colaborador (ou uma licença de Solicitação para o modelo de licença antigo) podem exibir informações do projeto, mas têm acesso limitado ao projeto.
+* Os usuários com uma licença de Trabalhador não têm permissões para gerenciar projetos. Para os funcionários, a maior permissão de compartilhamento é o Contribute.
+* Os usuários com uma Solicitação de licença podem visualizar informações do projeto, mas têm acesso limitado ao projeto.
 * Uma exceção à alteração do status de um projeto ocorre quando um usuário com permissões de Exibição ou Contribute também é incluído em um processo de aprovação. Eles podem aprovar o projeto, o que altera o status do projeto, mas o status é o status predefinido para aprovação ou rejeição.
 * Para poder copiar um projeto, um usuário também deve ter acesso para criar projetos em seu Nível de acesso.
 

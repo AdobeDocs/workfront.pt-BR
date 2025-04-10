@@ -6,9 +6,9 @@ description: O administrador do Adobe Workfront pode conceder acesso para visual
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 871117ddb06af6d37448c683a259ccc7e708930c
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ Para obter informações sobre a hierarquia de objetos no Workfront, consulte [E
 </table>
 -->
 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 Você deve ter o seguinte:
 
 <table style="table-layout:auto"> 
@@ -81,6 +83,8 @@ Você deve ter o seguinte:
 </table>
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+
++++
 
 ## Exibir permissões herdadas de um objeto
 

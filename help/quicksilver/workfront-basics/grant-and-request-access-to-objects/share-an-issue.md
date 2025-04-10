@@ -6,9 +6,9 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Alina
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '692'
 ht-degree: 2%
 
 ---
@@ -34,15 +34,8 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 * Você pode conceder as seguintes permissões a um problema: 
 
    * Exibir
-
-     ![exibir_no_problema.png](assets/view-on-issue-221x216.png)
-
+   * Contribuir
    * Gerenciar
-
-     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
-
-   * Contribuir\
-     ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
 
 * Quando você compartilha um problema, todos os documentos anexados ao problema herdam as mesmas permissões.
 
@@ -134,7 +127,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
 ## Permissões de problema
 
-A tabela a seguir mostra quais permissões você pode conceder aos usuários ao permitir que eles visualizem, Contribute ou gerenciem um problema:
+A tabela a seguir mostra quais permissões você pode conceder aos usuários ao permitir que eles vejam, contribuam ou gerenciem um problema:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -150,105 +143,105 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
   </tr> 
   <tr> 
    <td> <p>Adicionar problemas</p> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Excluir </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Anexar Formulário Personalizado</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Editar campos personalizados</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Aprovar problema</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Adicionar Um Processo De Aprovação</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Adicionar documentos</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Copiar Problema*</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Mover Problema</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Registre as horas</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Converter em Projeto*</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Aceitar atribuição</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Atualizações/comentários</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Modificar Datas Planejadas</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Faça Atribuições</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Compartilhar</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Compartilhe com todo o sistema</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

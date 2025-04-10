@@ -7,7 +7,7 @@ description: O administrador do Adobe Workfront pode conceder acesso para visual
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 851e946fd4e9b0da725185227f9ed24334eafb86
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -15,6 +15,7 @@ ht-degree: 0%
 ---
 
 # Compartilhar um programa
+
 
 O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar programas ao atribuir seu nível de acesso. Você deve ter uma licença de Plano para ter acesso para editar um programa. Para obter mais informações, consulte [Conceder acesso aos programas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
 
@@ -36,9 +37,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
   Para obter mais informações sobre como compartilhar itens no Workfront, consulte [Compartilhar um objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-* Você só pode conceder permissões de Exibir ou Gerenciar em programas.
-
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
+* Você só pode conceder permissões de Exibir ou Gerenciar em programas:
 
 * Quando você compartilha um programa, os usuários herdam as mesmas permissões para todos os objetos secundários associados ao programa, por padrão.
 
@@ -52,17 +51,19 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
 
 | **Ações** | **Gerenciar** | **Exibir** |
 |---|---|---|
-| Editar detalhes do programa | ✓ µ |   |
-| Exibir um programa | ✓ µ | ✓ µ |
-| Excluir um programa | ✓ µ |   |
-| Anexar um formulário personalizado | ✓ µ |   |
-| Editar um campo personalizado | ✓ µ |   |
-| Adicionar ou remover um projeto&#42; | ✓ µ |   |
-| Aprovar um projeto | ✓ µ |   |
-| Adicionar uma pasta de documentos&#42; | ✓ µ | ✓ µ |
-| Adicionar um documento | ✓ µ | ✓ µ |
-| Adicionar atualizações/comentários | ✓ µ | ✓ µ |
-| Compartilhar | ✓ µ | ✓ µ |
-| Compartilhar em todo o sistema |   | ✓ µ |
+| Editar detalhes do programa | ✓ |   |
+| Exibir um programa | ✓ | ✓ |
+| Excluir um programa | ✓ |   |
+| Anexar um formulário personalizado | ✓ |   |
+| Editar um campo personalizado | ✓ |   |
+| Adicionar ou remover um projeto&#42; | ✓ |   |
+| Aprovar um projeto | ✓ |   |
+| Adicionar uma pasta de documentos&#42; | ✓ | ✓ |
+| Adicionar um documento | ✓ | ✓ |
+| Adicionar atualizações/comentários | ✓ | ✓ |
+| Compartilhar | ✓ | ✓ |
+| Compartilhar em todo o sistema |   | ✓ |
 
-*Essas permissões são controladas pelo nível de acesso e por permissões em outros objetos, como projetos. 
+*Essas permissões são controladas pelo nível de acesso e por permissões em outros objetos, como projetos.
+
+

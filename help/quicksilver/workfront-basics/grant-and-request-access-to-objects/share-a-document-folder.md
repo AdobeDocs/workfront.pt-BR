@@ -6,9 +6,9 @@ description: Você pode compartilhar uma pasta e seu conteúdo na área Document
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 842c61cf6dfee0c79b1c95ff84888083c9f5b5a4
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,7 @@ Você pode compartilhar uma pasta e seu conteúdo na área Documentos.
  </tbody> 
 </table>
 -->
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -88,6 +89,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+
++++
 
 ## Compartilhar uma pasta
 
@@ -160,8 +163,8 @@ Para obter informações sobre como executar um relatório, consulte a seção [
 Quando você compartilha um objeto que tem uma pasta de documentos, os recipients também obtêm acesso à pasta:
 
 * Se você conceder aos seus recipients o acesso de Visualização ao objeto principal, eles terão acesso de Visualização à pasta.
-* Se você conceder aos recipients acesso de Contribute ou Gerenciar ao objeto principal, eles terão acesso de Gerenciar à pasta.
-* Se você conceder um tipo de acesso (Exibir, Contribute ou Gerenciar) ao objeto principal e outro tipo à pasta, os recipients terão o maior desses dois tipos de acesso aos documentos dentro da pasta
+* Se você conceder aos seus destinatários acesso ao Contribute ou ao Manage para o objeto principal, eles terão acesso ao Manage para a pasta.
+* Se você conceder um tipo de acesso (Exibir, Contribute ou Gerenciar) ao objeto pai e outro tipo à pasta, os destinatários terão o maior desses dois tipos de acesso aos documentos da pasta
 
   Por exemplo, se você compartilhar o objeto pai com acesso de Visualização e a pasta com acesso de Gerenciar, os destinatários terão acesso de Gerenciar aos documentos na pasta.
 

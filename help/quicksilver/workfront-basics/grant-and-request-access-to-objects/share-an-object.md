@@ -6,9 +6,9 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
+source-git-commit: 8b524f7cd7e1bfedbaa1e993cbf4b3b805344b7c
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1909'
 ht-degree: 0%
 
 ---
@@ -193,9 +193,7 @@ Você deve ter o seguinte para compartilhar objetos:
 
    ![](assets/share-a-document-350x160.png)
 
-1. No campo **Conceder a &lt; Nome do Objeto > acesso a**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o objeto e, em seguida, clique no nome quando ele aparecer na lista suspensa.
-
-   ![](assets/portfolio-access-box.png)
+1. No campo **Conceda acesso ao [Nome do Objeto] a**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o objeto e clique no nome quando ele aparecer na lista suspensa.
 
    >[!TIP]
    >
@@ -205,7 +203,7 @@ Você deve ter o seguinte para compartilhar objetos:
 
 1. (Opcional) Repita a etapa 3 para cada usuário, equipe, função ou grupo ao qual deseja conceder acesso ao objeto.
 
-1. Especifique as permissões para cada usuário, equipe, função, grupo ou empresa adicionada na Etapa 3 clicando no menu suspenso e selecionando o nível de permissão que deseja conceder.
+1. Especifique as permissões para cada usuário, equipe, função, grupo ou empresa adicionada na Etapa 3.
 
    Para remover permissões de um objeto, consulte [Remover permissões de objetos](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
@@ -218,24 +216,24 @@ Você deve ter o seguinte para compartilhar objetos:
      >
      >O administrador do Workfront ou o criador do objeto tem a capacidade de remover permissões dessas entidades.
 
-     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
+1. (Opcional) Clique no ícone de opções avançadas ao lado do nível de permissão que você concedeu para configurar permissões específicas no objeto.
 
-1. (Opcional) Clique em **Configurações Avançadas** para configurar permissões específicas no objeto.
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    As permissões Exibir e Gerenciar têm opções avançadas diferentes, dependendo do objeto selecionado.\
    Para obter mais informações sobre os níveis de permissões, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. (Opcional) Para disponibilizar este objeto para todos os usuários no sistema, clique no ícone **Engrenagem** ![](assets/gear-icon-settings-with-dn-arrow.jpg) e, no menu suspenso, clique em **Tornar isto visível para todo o sistema**.
+1. (Opcional) Para disponibilizar este objeto para todos os usuários no sistema, clique em **Quem tem acesso** no menu suspenso e selecione **Todos no sistema podem visualizar**.
 
    Todos os usuários podem ver o objeto com base nas permissões definidas.
 
-1. (Opcional) Para tornar o objeto público, clique em **Tornar público para usuários externos**.
+1. (Opcional) Para tornar o objeto público, clique na moeda de engrenagem e habilite **Tornar público para usuários externos**.
 
    >[!TIP]
    >
    >Esta opção não está disponível para todos os objetos.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
 
 1. (Condicional) Se você tornou o objeto público para usuários externos, clique em **copiar link** e distribua o link para usuários externos.
 
@@ -261,7 +259,6 @@ Você deve ter o seguinte para compartilhar objetos:
 
 1. No acesso **Editar &lt; Nome do Objeto > para**, comece digitando o nome do usuário, equipe, função, grupo ou empresa com quem deseja compartilhar os objetos e, em seguida, clique no nome quando ele aparecer na lista suspensa.
 
-   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -273,11 +270,10 @@ Você deve ter o seguinte para compartilhar objetos:
 
 1. (Opcional) Repita a etapa 3 para cada usuário, equipe, função ou grupo ao qual deseja conceder acesso ao(s) objeto(s).
 
-1. Especifique as permissões para cada usuário, equipe, função, grupo ou empresa adicionada na Etapa 3 clicando no menu suspenso à direita do nome e selecionando o nível de permissão que deseja conceder.
+1. Especifique as permissões para cada usuário, equipe, função, grupo ou empresa que você adicionou na etapa.
 
    Para remover permissões de um objeto, consulte [Remover permissões de objetos](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
-   ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
    As seguintes opções estão disponíveis:
 
@@ -299,12 +295,12 @@ Você deve ter o seguinte para compartilhar objetos:
      >
      >O administrador do Workfront ou o criador do objeto tem a capacidade de remover permissões dessas entidades.
 
-1. (Opcional) Clique em **Configurações Avançadas** para configurar permissões específicas no objeto.
+1. (Opcional) Clique no ícone de opções avançadas ao lado do nível de permissão que você concedeu para configurar permissões específicas no objeto.
+
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    Exibir, Gerenciar e Contribute têm opções avançadas diferentes, dependendo do objeto selecionado.\
    Para obter mais informações sobre os níveis de permissões, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (Opcional) Para disponibilizar este objeto para todos os usuários no sistema, clique no ícone **Engrenagem** ![](assets/gear-icon-settings-with-dn-arrow.jpg) e, no menu suspenso, clique em **Tornar isto visível para todo o sistema**.
 
