@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
+source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 0%
+source-wordcount: '1308'
+ht-degree: 2%
 
 ---
 
@@ -124,7 +124,29 @@ IF(
 
    ![Selecione um objeto](assets/object-for-business-rule3.png)
 
-1. Digite o **Nome** da regra de negócios.
+   Você pode aplicar regras de negócios aos seguintes objetos:
+
+   * Projeto
+   * Tarefa
+   * Problema / Solicitação
+   * Portfólio
+   * Documento
+   * Programa
+   * Despesa
+   * Usuário
+   * Empresa
+   * Iteração
+   * Registro de Cobrança
+   * Grupo
+   * Risco
+   * Atribuição
+   * Função no trabalho
+   * Conjunto de Recursos
+   * Folga
+   * Hora
+   * Modelo
+
+1. Digite o **Nome** da regra de negócios na caixa de diálogo do construtor de regras.
 1. No campo **Está ativo**, selecione se a regra deve estar ativa ao salvá-lo.
 
    Se você selecionar **Não**, a regra será salva como inativa e você poderá ativá-la mais tarde.
