@@ -6,9 +6,9 @@ description: Você pode personalizar o tipo de informação exibida na tela usan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
+source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1721'
 ht-degree: 1%
 
 ---
@@ -89,8 +89,7 @@ A caixa de diálogo **Personalizar exibição** é exibida.
    * Adicione uma coluna clicando em **Adicionar coluna**, comece digitando o nome da coluna que deseja adicionar e clique nela quando ela aparecer na lista suspensa.
    * Ajuste a ordem em que as colunas aparecem arrastando o título da coluna para um novo local.
 
-   * Na área **Configurações de Coluna**, clique em **Resumir esta coluna por** e escolha como deseja que os dados sejam exibidos na coluna:
-
+   * Na área **Configurações de Coluna**, clique em **Resumir esta coluna por** e escolha como deseja que os dados sejam exibidos na coluna. Essa opção está disponível para os seguintes tipos de coluna:
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -108,7 +107,7 @@ A caixa de diálogo **Personalizar exibição** é exibida.
            <li>Contagem</li>
          <li>Soma</li>
            <li>Média</li>
-         <li>Maximym</li>
+         <li>Máximo</li>
            <li>Mínimo</li>
          </ul></td> 
           </tr> 
@@ -124,9 +123,9 @@ A caixa de diálogo **Personalizar exibição** é exibida.
      >
      >As exceções a seguir se aplicam a objetos pai (por exemplo, tarefas pai) quando você está resumindo valores para os seguintes campos em agrupamentos:
      >   
-     > * Todos os campos de número e moeda, exceto Horas Reais (por exemplo, Custo de Trabalho Planejado/Efetivo, Custo de Despesas Planejado/Efetivo, Custo Planejado/Efetivo, Horas Planejadas) agregam apenas os valores das tarefas filhas e tarefas independentes. Eles não agregam os valores das tarefas pai ou pai dos pais.
-     > * As Horas Reais agregam os valores das tarefas pai principal e independente; elas não agregam os números para as tarefas pai ou filho.
-     > * Os campos de dados personalizados para valores de número e moeda agregam todas as tarefas: pais, filhos, pais dos pais e tarefas independentes.
+     > * Todos os campos de número e moeda, exceto Horas Reais (por exemplo, Custo de Trabalho Planejado/Efetivo, Custo de Despesas Planejado/Efetivo, Custo Planejado/Efetivo, Horas Planejadas) resumem os valores apenas para tarefas filhas e tarefas independentes. Eles não resumem os valores das tarefas pai ou pais dos pais.
+     > * As Horas Reais resumem os valores das tarefas principais principal e independente; elas não resumem os números das tarefas principais ou secundárias.
+     > * Os campos de dados personalizados para valores de número e moeda resumem todas as tarefas: pais, filhos, pais dos pais e tarefas independentes.
      >
      >Para obter mais informações sobre como usar agrupamentos em um relatório, consulte o artigo [Visão geral sobre agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
