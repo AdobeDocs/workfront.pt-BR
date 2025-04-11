@@ -12,7 +12,7 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 source-git-commit: bb6240523f327080f19ac5a3546f6ed37356f34c
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -23,6 +23,6 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="Tipo de arquivo incompatível"
->abstract="Esse revisor de IA não é compatível com o tipo de arquivo selecionado. Faça upload de um tipo de arquivo compatível ou remova o revisor da IA para enviar a solicitação."
+>abstract="Este revisor com IA não é compatível com o tipo de arquivo selecionado. Faça o upload de um tipo de arquivo compatível ou remova o revisor com IA para enviar a solicitação."
 
 Estes links da interface do usuário
