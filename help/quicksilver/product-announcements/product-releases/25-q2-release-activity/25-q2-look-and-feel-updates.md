@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
+source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,33 @@ ht-degree: 0%
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período do segundo trimestre de 2025.
 
 Para obter uma lista de todas as alterações disponíveis com a versão do Segundo trimestre de 2025, consulte [Visão geral da versão do Segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+## Atualização da aparência para a caixa de diálogo de integração de documentos do Google Drive
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 26 de março de 2025; Versão de produção para todos os clientes: com a versão 25.4 (10 de abril de 2025)
+
+Atualizamos a aparência ao usar a integração de documentos do Google Drive para criar uma nova versão de um documento. Essa atualização faz com que a caixa de diálogo Versão > Do Google Drive fique igual à caixa de diálogo Adicionar novo > Do Google Drive.
+
+Anteriormente, você tinha a opção de escolher Meu Drive ou um Drive Compartilhado se sua conta estivesse associada a um. Agora, a caixa de diálogo vai diretamente para a área Meu Drive da sua Google Drive.
+
++++ Expandir para exibir esta alteração
+
+<table>
+ <thead>
+    <tr>
+        <th>Anterior</th>
+        <th>Novo(a)</th>
+    </tr>
+  </thead>
+ <tr>
+        <td><img src="assets/legacy-add.png" alt="adicionar documento com a integração do Google Drive"></td>
+         <td><img src="assets/new-add.png" alt="adicionar documento com a integração do Google Drive"></td>
+    </tr>
+</table>
+
++++
 
 ## Experiência atualizada na área Níveis de acesso em Configuração
 
