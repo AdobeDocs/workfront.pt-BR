@@ -8,16 +8,14 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
+source-git-commit: 486b672a67c62b86f3306c9375a286895c2fae01
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
 # Editar documentos em massa
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Você pode editar a descrição, adicionar formulários personalizados e editar formulários personalizados em vários documentos de uma só vez.
 
@@ -97,7 +95,6 @@ Para editar documentos em massa:
     </table>
 1. Clique em **Salvar**.
 
-<span class="preview">
 
 ## Editar documentos em massa em um Relatório de documentos
 
@@ -125,5 +122,3 @@ Crie um relatório de documento conforme descrito em [Criar um relatório person
     </tr>
     </table>
 1. Clique em **Salvar**.
-
-</span>

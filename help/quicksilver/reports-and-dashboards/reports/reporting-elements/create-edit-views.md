@@ -6,9 +6,9 @@ description: Você pode personalizar o tipo de informação exibida na tela usan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1713'
 ht-degree: 1%
 
 ---
@@ -89,31 +89,46 @@ A caixa de diálogo **Personalizar exibição** é exibida.
    * Adicione uma coluna clicando em **Adicionar coluna**, comece digitando o nome da coluna que deseja adicionar e clique nela quando ela aparecer na lista suspensa.
    * Ajuste a ordem em que as colunas aparecem arrastando o título da coluna para um novo local.
 
-      * (Opcional) Na área **Configurações de Coluna**, clique na lista suspensa **Resumir esta coluna por** e selecione uma das opções disponíveis para resumir as informações. Quando você escolhe essa opção, as informações em sua coluna são agregadas nos agrupamentos do relatório.\
-        Para campos de data, é possível resumir os valores pelas seguintes opções:
+   * Na área **Configurações de Coluna**, clique em **Resumir esta coluna por** e escolha como deseja que os dados sejam exibidos na coluna:
 
-         * Máximo
-         * Mínimo
+     <table style="table-layout:auto"> 
+         <col> 
+         <col> 
+         <tbody> 
+          <tr> 
+           <td role="rowheader"><strong>Campos de data</strong></td> 
+           <td><ul>
+           <li>Máximo</li>
+         <li>Mínimo</li>
+           </ul></td> 
+          </tr> 
+          <tr>
+           <td role="rowheader"><strong>Campos de moeda</strong></td> 
+           <td><ul>
+           <li>Contagem</li>
+         <li>Soma</li>
+           <li>Média</li>
+         <li>Maximym</li>
+           <li>Mínimo</li>
+         </ul></td> 
+          </tr> 
+         <tr>
+           <td role="rowheader"><strong>Campos de string e booleanos</strong></td> 
+           <td><ul><li>Contagem</li></ul>
+           <p>Observação: geralmente, o Workfront não recomenda o resumo de um campo booleano por contagem, pois o valor sempre será verdadeiro/falso.</p></td> 
+          </tr> 
+         </tbody> 
+        </table>
 
-        Para campos de número e moeda, é possível resumir os valores pelas seguintes opções:
-
-         * Contagem
-         * Soma
-         * Média
-         * Máximo
-         * Mínimo
-
-        >[!NOTE]
-        >
-        >As exceções a seguir se aplicam a objetos pai (por exemplo, tarefas pai) quando você está agregando valores para os seguintes campos em agrupamentos:
-        >   
-        >   * Todos os campos de número e moeda, exceto Horas Reais (por exemplo, Custo de Trabalho Planejado/Efetivo, Custo de Despesas Planejado/Efetivo, Custo Planejado/Efetivo, Horas Planejadas) agregam apenas os valores das tarefas filhas e tarefas independentes. Eles não agregam os valores das tarefas pai ou pai dos pais.
-        >   * As Horas Reais agregam os valores das tarefas pai principal e independente; elas não agregam os números para as tarefas pai ou filho.
-        >   * Os campos de dados personalizados para valores de número e moeda agregam todas as tarefas: pais, filhos, pais dos pais e tarefas independentes.
-        >   
-        >
-
-        Para obter mais informações sobre como usar agrupamentos em um relatório, consulte o artigo [Visão geral sobre agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+     >[!NOTE]
+     >
+     >As exceções a seguir se aplicam a objetos pai (por exemplo, tarefas pai) quando você está resumindo valores para os seguintes campos em agrupamentos:
+     >   
+     > * Todos os campos de número e moeda, exceto Horas Reais (por exemplo, Custo de Trabalho Planejado/Efetivo, Custo de Despesas Planejado/Efetivo, Custo Planejado/Efetivo, Horas Planejadas) agregam apenas os valores das tarefas filhas e tarefas independentes. Eles não agregam os valores das tarefas pai ou pai dos pais.
+     > * As Horas Reais agregam os valores das tarefas pai principal e independente; elas não agregam os números para as tarefas pai ou filho.
+     > * Os campos de dados personalizados para valores de número e moeda agregam todas as tarefas: pais, filhos, pais dos pais e tarefas independentes.
+     >
+     >Para obter mais informações sobre como usar agrupamentos em um relatório, consulte o artigo [Visão geral sobre agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Opcional) Clique em **Opções Avançadas** para especificar as seguintes informações para a coluna:
 
