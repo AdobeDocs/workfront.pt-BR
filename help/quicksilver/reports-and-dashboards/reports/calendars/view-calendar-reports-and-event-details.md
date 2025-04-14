@@ -6,9 +6,9 @@ description: Você pode exibir relatórios de calendário e detalhes de eventos 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
+source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -82,8 +82,6 @@ Você pode escolher entre as seguintes exibições de relatório do calendário:
    * **[!UICONTROL Semana]**: exibe uma semana do calendário
    * **[!UICONTROL Gantt]**: exibe uma exibição contínua do calendário
 
-     ![[!UICONTROL Relatório de calendário de Gantt]](assets/gantt-calendar-report.png)
-
      Você pode ver mais eventos em uma visualização de [!UICONTROL Gantt] rolando para baixo ou para os lados. Um símbolo de carregamento é exibido à medida que os dados são preenchidos para a exibição.
 
    >[!NOTE]
@@ -118,16 +116,5 @@ Você pode tornar os eventos visíveis novamente selecionando o [!UICONTROL proj
 
 Você pode ver os detalhes de um evento em um calendário, para eventos atuais e passados.
 
-1. Vá para o evento cujos detalhes você deseja saber e clique nele.
-Uma página de detalhes do evento é aberta.
-   ![calendar_report_EventDetails.png](assets/calendar-report-eventdetails-350x145.png)
-
-1. (Opcional) Para exibir detalhes adicionais sobre o objeto:
-
-   1. Passe o mouse sobre o nome do projeto, tarefa ou problema.
-
-      Uma página de detalhes é aberta para o objeto.
-      ![detalhes_do_objeto_adicional_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
-
-   1. (Opcional) Para abrir o projeto, tarefa ou problema associado, clique no título do objeto.
-   1. (Opcional) Para fechar todas as páginas de detalhes abertas, clique em qualquer lugar fora das páginas de detalhes do evento.
+1. Vá para o evento cujos detalhes você deseja saber e clique nele. Os detalhes são abertos em um painel no lado direito.
+1. (Opcional) Para abrir o projeto, tarefa ou problema associado, clique no título do objeto.
