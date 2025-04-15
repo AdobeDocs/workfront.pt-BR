@@ -6,7 +6,7 @@ description: Visão geral dos sistemas disponíveis para revisão e aprovação 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 97821d0fa97e8ba18e63b7e4156e06563e148a3d
+source-git-commit: 24668c9fdbb5e23f41831b388d509220d0783057
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
