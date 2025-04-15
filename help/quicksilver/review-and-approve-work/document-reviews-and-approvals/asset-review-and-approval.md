@@ -6,9 +6,9 @@ description: Visão geral dos sistemas disponíveis para revisão e aprovação 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 97821d0fa97e8ba18e63b7e4156e06563e148a3d
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Principais recursos disponíveis para aprovações de documentos herdados:
 * Revisar e comentar no visualizador de provas
 * Tomar decisões no visualizador de revisões
 * Criar relatórios de aprovação com relatórios herdados
+* Acessar solicitações de aprovação no widget Minhas aprovações na área Página inicial
 
 Para obter mais informações, consulte [Aprovações de documentos herdados](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
@@ -62,6 +63,8 @@ Para obter mais informações sobre relatórios, consulte [Criar um painel de re
 
 * Criar aprovações em vários estágios [!BADGE Em breve]{type=Informative}
 
+* Acessar solicitações de revisão e aprovação no widget Minhas aprovações na área Página inicial
+
 
 ## Aprovações de provas
 
@@ -84,6 +87,8 @@ Recursos disponíveis para revisão de texto:
 * Criar aprovações de vários estágios
 
 * Usar workflows básicos ou automatizados
+
+* Acessar solicitações de aprovação no widget Minhas aprovações na área Página inicial
 
 <!--
 ## Upcoming deprecations
