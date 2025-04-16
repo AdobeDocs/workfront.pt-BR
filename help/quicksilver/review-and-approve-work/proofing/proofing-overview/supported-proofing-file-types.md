@@ -7,9 +7,9 @@ description: Você pode compartilhar e revisar vários tipos de arquivos com seu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
+source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ O Workfront tem os seguintes limites:
 * DCS - Sistema de câmera digital Kodak
 * DCM - DICOM
 * DCX - Pincel de pintura
-* DNG - Negativo digital de Adobe
+* DNG - Negativo digital Adobe
 * DOC - Documento do Microsoft Word
 * DOCX - Documento do Microsoft Word 2007
 * DRW - DRaWing
@@ -91,8 +91,8 @@ O Workfront tem os seguintes limites:
 * FLC - Animação Flic
 * FPX - Kodak FlashPix
 * GBR - Gerber GIF - CompuServe
-* GIF - Graphics Interchange Format (GIF animado no novo Workfront Proof Viewer apenas)
-* GIF HDP - Foto do Windows HD
+* GIF - Graphics Interchange Format (GIF animado no novo Workfront Proof Viewer somente)
+* GIF HDP - Windows HD Photo
 * ICO - Ícone do Windows
 * IFF - Formato de Arquivo de Intercâmbio
 * IOCA - Image Object Content Architecture (Arquitetura de conteúdo de objetos de imagem)
@@ -102,7 +102,7 @@ O Workfront tem os seguintes limites:
 * JB2 - JBIG2
 * JPG - Grupo conjunto de especialistas em fotografia (JPEG)
 * JPEG-XR - Foto do Windows Media / Foto HD (HDP)
-* JPEG-LS - JPEG Sem Perdas
+* JPEG-LS - JPEG sem perdas
 * J2K - JPEG 2000
 * JP2 - JPEG 2000 Compactado
 * JPM - JPEG 2000 Parte 6
@@ -208,7 +208,7 @@ O Workfront tem os seguintes limites:
 * AVI
 * Flash (VP6, Sorenson Spark/H.263+, H.264)
 * MOV
-* MP4
+* MP4 - limite de 8.192 x 4.320 pixels
 * MPG
 * VOB (somente VOBs não criptografados)
 * Flash
@@ -248,4 +248,4 @@ Para obter mais informações, consulte [Visão geral das provas de conteúdo in
 
 ## Arquivos InDesign e Quark
 
-Não oferecemos suporte a arquivos InDesign e Quark porque eles não são tipos de arquivos independentes e fazem referência a vários outros arquivos, como imagens e fontes. A saída desses tipos de arquivos varia dependendo das configurações de saída. Recomendamos que os clientes salvem os arquivos InDesign e Quark como um PDF e façam upload do PDF.
+Não oferecemos suporte a InDesign e Quark Files porque eles não são tipos de arquivos independentes e fazem referência a vários outros arquivos, como imagens e fontes. A saída desses tipos de arquivos varia dependendo das configurações de saída. Recomendamos que os clientes salvem os arquivos InDesign e Quark como um PDF e façam upload do PDF.
