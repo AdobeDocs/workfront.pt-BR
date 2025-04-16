@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '2046'
+source-wordcount: '2020'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Você pode criar um formulário de solicitação e associá-lo a um tipo de registro no Adobe Workfront Planning. Em seguida, você pode compartilhar um link com outros usuários internos ou externos.
-
-Os usuários com um link para o formulário podem atualizar os valores de campo nele e adicionar novos registros enviando-o.
+Você pode criar um formulário de solicitação e associá-lo a um tipo de registro no Adobe Workfront Planning. Você pode compartilhar o formulário com outras pessoas e elas podem enviar solicitações para criar registros.
 
 Este artigo descreve como um gerenciador de espaço de trabalho pode criar um formulário de solicitação associado a um tipo de registro.
 
@@ -126,7 +124,7 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
       * Criado por e Modificado pela última vez por
       * Data de criação e data da última modificação
-      * Fórmula. <!--Formula fields are supported in the Preview environment.-->
+      * Fórmula
       * Campos de pesquisa de objetos do Workfront
       * Campos de pesquisa de registros conectados do Workfront Planning
 
@@ -257,12 +255,7 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
    >     * Pessoas
    >
 
-1. (Condicional) Se você selecionou **Qualquer pessoa com o link** na etapa anterior, selecione a **Data de expiração do link** no calendário disponível. <!--take out this tip when we release to production as in multiple forms this is no longer happening-->
-
-   >[!TIP]
-   >
-   >Há uma indicação de que o link é compartilhado publicamente quando isso ocorre.
-   >![Link compartilhado publicamente para formulário no menu de tipo de registro](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+1. (Condicional) Se você selecionou **Qualquer pessoa com o link** na etapa anterior, selecione a **Data de expiração do link** no calendário disponível.
 
    As pessoas receberão um erro depois que o link expirar e você deverá atualizar a data do link e gerar um novo link para compartilhar antes que as pessoas possam acessar o formulário novamente.
 
@@ -299,18 +292,10 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 1. Clique na seta à esquerda de **Formulários de solicitação** no cabeçalho para fechar a tabela de formulários de solicitação.
 
    A página de tipo de registro é aberta.
-1. (Opcional e condicional) Para editar um formulário existente:
+1. (Opcional e condicional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho e siga um destes procedimentos:
 
-   1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho e clique em **Gerenciar formulários de solicitação**. </span>
+   1. Clique em **Atualizar formulário de solicitação** para fazer alterações no formulário de solicitação e, em seguida, clique em um formulário de solicitação para abri-lo e editá-lo.
+   1. Clique em **Copiar link para solicitar o formulário** para compartilhar o link para o formulário com outras pessoas.
 
-      Isso abre a exibição de tabela Formulários de solicitação.
+1. (Opcional) Vá para a área **Solicitações** no Workfront e localize o formulário compartilhado para enviar uma solicitação. Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
-   1. Clique em um formulário de solicitação para abri-lo e editá-lo.
-   1. (Opcional) Vá para a área **Solicitações** no Workfront e localize o formulário compartilhado para enviar uma solicitação. Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
-
-<!--   * From the Production environment:
-   
-      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
-   
-      1. Click **Update request form** to make any changes to the request form.
-      1. Click **Copy link to request form**  to share the link to the form with others.-->

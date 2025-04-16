@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1791'
 ht-degree: 0%
 
 ---
@@ -152,10 +152,6 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
 
 ## Enviar uma solicitação ao Workfront Planning na área Solicitações do Workfront
-
->[!NOTE]
->
->Após os lançamentos mensais para produção, os recursos descritos nesta seção também estarão disponíveis no ambiente de produção para clientes que ativaram lançamentos rápidos.
 
 {{step1-to-requests}}
 

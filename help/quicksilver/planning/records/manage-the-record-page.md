@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -270,9 +270,7 @@ Considere o seguinte ao adicionar uma exibição de Conexão à página de um re
 
 * Não é possível adicionar uma página de exibição de conexão à área de visualização de um registro.
 
-* As páginas de exibição de conexão exibem uma página de registro conectada na exibição de tabela. A exibição de tabela é somente leitura. <!--more views might be added in the future-->
-
-* É possível adicionar uma página de exibição de conexão para cada tipo de registro conectado.  <!--edit this when we can remove fields from this page-->
+* As páginas de exibição de conexão exibem uma página do tipo de registro conectada na exibição de tabela.
 
 * Depois de adicionar uma página Exibição de conexão à página de um registro, a guia Página fica visível na área de visualização do registro. Você deve ir para a página inteira para ver a exibição de tabela do registro conectado. <!--this might have changed? check and take disclaimer out-->
 
@@ -289,7 +287,7 @@ Para adicionar uma página de exibição de conexão:
 A exibição de tabela do tipo de registro selecionado é exibida e os registros conectados são exibidos na exibição de tabela.
 Todos os campos do registro conectado são exibidos na exibição de tabela da guia do registro conectado.
 
-   Ao acessar o Workfront Planning no ambiente de Pré-visualização, os primeiros cinco campos da tabela de registro conectada são exibidos por padrão. Nenhum campo de pesquisa é exibido por padrão.0
+   Os primeiros cinco campos da tabela de registro conectada são exibidos por padrão. Nenhum campo de pesquisa é exibido por padrão.
 
    A exibição de tabela é somente leitura.
 
@@ -309,16 +307,11 @@ Todos os campos do registro conectado são exibidos na exibição de tabela da g
    * Agrupamento
    * Campos, para exibir, ocultar ou reorganizar campos
 
-   <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
-
    Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
 
    >[!NOTE]
    >
-   >   Não é possível executar nenhuma das ações a seguir na exibição de tabela da guia de um registro conectado:
-   >
-   >   * Ocultar ou reorganizar campos. É possível ocultar e reorganizar campos no ambiente de Pré-visualização.
-   >   * Criar, editar ou excluir campos
+   >   Não é possível criar, editar ou excluir campos na exibição de tabela de uma guia de registro conectado.
    >
 
 1. Clique em **Conectar** para adicionar ou remover registros. Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
