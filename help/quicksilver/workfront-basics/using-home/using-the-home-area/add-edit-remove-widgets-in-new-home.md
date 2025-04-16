@@ -6,15 +6,17 @@ description: Você pode escolher entre vários widgets para personalizar o conte
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: be7f2b811bf963d31881879655edd4bc634294c5
+source-git-commit: c1f5e11c6327ef86bd3f89eb383b3bf06bd4981f
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 5%
+source-wordcount: '1103'
+ht-degree: 6%
 
 ---
 
 
 # Adicionar, editar ou remover widgets na Página inicial
+
+<!-- Audited: 4/2025 -->
 
 Você pode escolher entre vários widgets para personalizar o conteúdo que aparece em sua Página inicial. Esses widgets podem ser redimensionados e reorganizados.
 
@@ -35,15 +37,15 @@ Por padrão, a Página inicial é preenchida com widgets específicos de acordo 
     </tr>
     <tr>
         <td>Leve</td>
-        <td>Meu trabalho, esperando minha aprovação</td>
+        <td>Meu trabalho, minhas aprovações</td>
     </tr>
     <tr>
         <td>Colaborador</td>
-        <td>Minhas solicitações, Menções, Aguardando minha aprovação, Quadros</td>
+        <td>Minhas solicitações, Menções, Minhas aprovações, Quadros</td>
     </tr>
     <tr>
         <td>Externo</td>
-        <td>Aguardando minha aprovação</td>
+        <td>Minhas aprovações</td>
     </tr>
 </table>
 
@@ -66,7 +68,7 @@ Por padrão, a Página inicial é preenchida com widgets específicos de acordo 
     </tr>
     <tr>
         <td>Solicitar</td>
-        <td>Meus projetos, aguardando minha aprovação</td>
+        <td>Meus projetos, Minhas aprovações</td>
     </tr>
     <tr>
         <td>Contribuir</td>
@@ -74,7 +76,7 @@ Por padrão, a Página inicial é preenchida com widgets específicos de acordo 
     </tr>
     <tr>
         <td>Externo</td>
-        <td>Aguardando minha aprovação</td>
+        <td>Minhas aprovações</td>
     </tr>
 </table>
 
@@ -86,22 +88,20 @@ Os widgets são a base da Página inicial. Ao adicionar widgets à sua página i
 
 Para adicionar um widget:
 
-1. Navegue até a sua Página inicial, clicando no ícone do Adobe Workfront ![Ícone do Adobe Workfront](assets/home-icon-30x29.png) na parte superior da tela, se a Página Inicial estiver definida como página de aterrissagem, ou clicando no ícone do menu principal ![Ícone do Menu Principal](assets/main-menu-icon.png) e, em seguida, clicando em **Página Inicial**.
+1. Navegue até a página inicial, clicando no ícone do Adobe Workfront ![Ícone do Adobe Workfront](assets/home-icon-30x29.png) na parte superior da tela, se a Página inicial estiver definida como página de aterrissagem, ou clicando no ícone do menu principal ![Ícone do Menu Principal](assets/main-menu-icon.png) e, em seguida, em **Página Inicial**.
 
-1. Clique em **Personalizar** no canto superior direito da tela.
+1. No canto superior direito da tela, clique em **Personalizar**.
 
    ![Botão Personalizar](assets/customize-button.png)
 1. Role até a seção **Widgets** e selecione os widgets que deseja adicionar.
 
 +++ Expandir para ver uma lista detalhada dos widgets disponíveis
 
-       Abaixo estão os 11 widgets disponíveis no momento, bem como um resumo das informações que eles exibem:
-   
    * **Meu trabalho**\
-       Um ótimo local para começar para gerenciar uma variedade de trabalhos, este widget exibe todas as tarefas, problemas e solicitações atribuídas em um único local. Você pode clicar no botão Trabalhar nisso para começar a trabalhar em um item ou no botão Concluído para marcá-los como concluídos. Você também pode atualizar informações (Status, Condição, Percentual concluído) sobre tarefas e problemas, tempo de registro e adicionar atualizações do widget Meu trabalho.
+       Exibe todas as tarefas, problemas e solicitações atribuídas em um único local. Você pode clicar no botão Trabalhar nisso para começar a trabalhar em um item ou no botão Concluído para marcá-los como concluídos. Você também pode atualizar informações (Status, Condição, Percentual concluído) sobre tarefas e problemas, tempo de registro e adicionar atualizações do widget Meu trabalho.
 
    * **Quadros**\
-       Exibe todos os painéis que você criou ou que foi convidado a usar. Você também pode criar um novo quadro com base nos seguintes modelos: Quadro básico, Quadro Kanban, Quadro retrospectivo, Quadro dinâmico
+       Exibe todos os painéis que você criou ou que foi convidado a usar. Você também pode criar um novo quadro com base nos seguintes modelos: Quadro básico, Quadro Kanban, Quadro retrospectivo e Quadro dinâmico.
 
    * **Meus projetos**\
        Exibe os projetos que você possui ou os projetos em que você está em uma lista. Você pode usar filtros, visualizações ou agrupamentos existentes para personalizar a lista ou pode criar um projeto diretamente do widget.
@@ -118,7 +118,7 @@ Para adicionar um widget:
    * **Solicitações da equipe**\
        Exibe todas as solicitações pendentes para as equipes nas quais você está, classificadas por equipe, bem como botões para atribuir diretamente uma solicitação a um usuário ou para trabalhar nela você mesmo.
 
-   * **Aguardando minha aprovação**\
+   * **Minhas aprovações**\
        Exibe todas as suas aprovações atribuídas ou delegadas pendentes, um botão para delegar aprovações e botões para tomar decisões de aprovação diretamente no dispositivo.
 
    * **Todas as aprovações**\
@@ -132,7 +132,7 @@ Para adicionar um widget:
 
      >[!NOTE]
      >
-     >Você deve ter permissão para criar tarefas para criar tarefas no widget de tarefas, e somente as tarefas pessoais inseridas pelo usuário atual aparecerão no widget.
+     >Você deve ter permissão para criar tarefas para criar tarefas no widget de tarefas, e somente as tarefas pessoais inseridas pelo usuário atual serão exibidas.
 
 +++
 
@@ -141,7 +141,7 @@ Para adicionar um widget:
 
 ## Mover ou redimensionar um widget na sua página inicial
 
-1. Navegue até a sua Página inicial, clicando no ícone do Adobe Workfront ![Ícone do Adobe Workfront](assets/home-icon-30x29.png) na parte superior da tela, se a Página Inicial estiver definida como página de aterrissagem, ou clicando no ícone do menu principal ![Ícone do Menu Principal](assets/main-menu-icon.png) e, em seguida, clicando em **Página Inicial**.
+1. Navegue até a página inicial, clicando no ícone do Adobe Workfront ![Ícone do Adobe Workfront](assets/home-icon-30x29.png) na parte superior da tela, se a Página inicial estiver definida como página de aterrissagem, ou clicando no ícone do menu principal ![Ícone do Menu Principal](assets/main-menu-icon.png) e, em seguida, em **Página Inicial**.
 
 1. Localize o widget que você deseja mover ou redimensionar na sua página inicial.
 
@@ -153,19 +153,17 @@ Para adicionar um widget:
 
 1. Navegue até a sua Página inicial, clicando no ícone do Adobe Workfront ![Ícone do Adobe Workfront](assets/home-icon-30x29.png) na parte superior da tela, se a Página Inicial estiver definida como página de aterrissagem, ou clicando no ícone do menu principal ![Ícone do Menu Principal](assets/main-menu-icon.png) e, em seguida, clicando em **Página Inicial**.
 
-1. Localize o widget na sua Página inicial que você deseja remover e clique no ícone mais ![Ícone Mais](assets/more-icon.png), no canto superior direito do widget.
+1. Localize o widget na sua Página inicial que você deseja remover e clique no ícone **Mais** Ícone ![Mais](assets/more-icon.png) no canto superior direito do widget.
 
 1. Clique em **Remover**.
 
 
 ## Alterar a cor do plano de fundo
 
-1. Navegue até a sua Página inicial, clicando no ícone do Adobe Workfront ![Ícone do Adobe Workfront](assets/home-icon-30x29.png) na parte superior da tela, se a Página Inicial estiver definida como página de aterrissagem, ou clicando no ícone do menu principal ![Ícone do Menu Principal](assets/main-menu-icon.png) e, em seguida, clicando em **Página Inicial**.
+1. Navegue até a sua página inicial, clicando no ícone do Adobe Workfront ![Ícone do Adobe Workfront](assets/home-icon-30x29.png) na parte superior da tela, se a Página Inicial estiver definida como página de aterrissagem, ou clicando no ícone do menu principal ![Ícone do Menu Principal](assets/main-menu-icon.png) e depois em **Página Inicial**.
 
-1. Clique em **Personalizar** no canto superior direito da tela.
+1. No canto superior direito da tela, clique em **Personalizar**.
 
    ![Botão Personalizar](assets/customize-button.png)
-
-   O painel Personalizar é aberto.
 
 1. Na seção **Plano de fundo** do painel **Personalizar**, clique na cor que você deseja selecionar para o plano de fundo da Página Inicial. Você também pode clicar em **Nenhum** para remover o plano de fundo.
