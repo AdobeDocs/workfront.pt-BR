@@ -1,13 +1,13 @@
 ---
 title: Atualizações de interface
 description: Esta página lista as atualizações de interface que estamos fazendo no Adobe Workfront para melhorar a experiência do usuário e unificá-la com outros aplicativos da Adobe.
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
+source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -211,6 +211,12 @@ Para exibir esta alteração, vá para Equipes > escolha uma equipe > Lista de p
 ## Documentos
 
 +++Expandir para exibir atualizações da interface de Documentos
+
+### Atualizações de interface ao solicitar um documento
+
+**Versão de visualização: 03 de abril de 2025; Versão de produção: iniciando a semana de 10 de abril de 2025**
+
+Atualizamos a caixa de diálogo usada para solicitar um documento de outro usuário com um design mais moderno que é consistente com outras áreas do Workfront.
 
 ### Atualizações de interface para a página de compartilhamento de documentos externos
 
