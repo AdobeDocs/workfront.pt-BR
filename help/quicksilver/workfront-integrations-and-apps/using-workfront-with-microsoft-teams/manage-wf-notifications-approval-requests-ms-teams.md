@@ -6,18 +6,22 @@ description: Você pode receber notificações de [!DNL Adobe Workfront] sobre i
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1338'
 ht-degree: 0%
 
 ---
 
 # Gerenciar notificações de [!DNL Adobe Workfront] em [!DNL Microsoft Teams]
 
+<!--
+
 >[!NOTE]
 >
->A partir de 1º de julho de 2025, a Microsoft removerá o suporte para o aplicativo de desktop Classic Teams. Como resultado, a integração do Workfront com o Microsoft Teams não será suportada depois que o aplicativo de desktop Classic Teams não estiver mais disponível.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 Você pode receber notificações de [!DNL Adobe Workfront] sobre itens que precisa aprovar, atribuições que recebeu ou comentários e alterações em itens aos quais está associado.
 
