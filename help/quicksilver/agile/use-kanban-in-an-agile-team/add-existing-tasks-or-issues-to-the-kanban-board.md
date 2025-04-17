@@ -6,7 +6,7 @@ description: Você pode adicionar qualquer tarefa ou problema a um Quadro Kanban
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 2ce454f6f6e883090fe69c953d89c2d3eef7ce5b
+source-git-commit: bf79bc8fd3e25ff1bae404700ca27973a8b2307d
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -65,6 +65,7 @@ Para adicionar uma tarefa ou problema a um quadro [!UICONTROL Kanban] de um proj
    >[!NOTE]
    >
    >Se várias equipes forem atribuídas à tarefa ou problema, o item de trabalho só poderá ser exibido no quadro [!DNL kanban] de uma equipe.
+
 1. Clique em **Adicionar**.
 
 
@@ -82,6 +83,7 @@ Para adicionar uma tarefa ou problema a um quadro [!UICONTROL Kanban] a partir d
    >[!NOTE]
    >
    >Se várias equipes forem atribuídas à tarefa ou problema, o item de trabalho só poderá ser exibido no quadro [!DNL kanban] de uma equipe.
+
 1. Clique em **Adicionar**.
 
 
