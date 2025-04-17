@@ -6,22 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '713'
 ht-degree: 3%
 
 ---
 
 # Visão geral da seção Histórico
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
-
-<!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Workfront Planning records" should be there-->
 
 É possível colaborar em registros do Adobe Workfront Planning, adicionando comentários ou respostas no painel direito de um registro. Você também pode exibir outras alterações feitas no registro e registradas pelo sistema nessa área.
 
@@ -86,7 +84,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>   <p>Permissões de exibição ou superiores para um espaço de trabalho <!--<span class="preview">and record type</span>--> </a> </p>  
+   <td>   <p>Exibir ou aumentar permissões para um espaço de trabalho <span class="preview">e tipo de registro</span> </a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> </td> 
   </tr> 
 <tr> 

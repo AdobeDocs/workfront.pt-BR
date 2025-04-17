@@ -1,26 +1,26 @@
 ---
 title: Exportar a página de registro
-description: Você pode exportar a página de visualização ou de detalhes do registro para o Word.
+description: É possível exportar a página de visualização ou de detalhes de um registro do Adobe Workfront Planning para um arquivo do Microsoft Word.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '553'
 ht-degree: 1%
 
 ---
 
 # Exportar os detalhes de um registro
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 
-Para colaborar de forma mais eficiente com outras pessoas que talvez não tenham uma conta do Workfront, é possível exportar os detalhes de um registro para um arquivo e compartilhá-lo com elas.
+Para colaborar de forma mais eficiente com outras pessoas que talvez não tenham uma conta do Workfront, é possível exportar a página de detalhes de um registro para um arquivo do Microsoft Word e compartilhá-la com elas.
 
 ## Requisitos de acesso
 
@@ -78,7 +78,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>   <p>Permissões de exibição ou superiores para um espaço de trabalho <!--<span class="preview">and record type</span>--> </a> </p>  
+   <td>   <p>Exibir ou aumentar permissões para um espaço de trabalho <span class="preview">e tipo de registro</span></a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> </td> 
   </tr> 
 <tr> 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 594504c6a7acc9341471371ca279379042a45457
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2083'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -93,7 +93,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>Permissões de objeto</p></td>
    <td>
    <ul>
-   <li><p>Gerenciar permissões para um espaço de trabalho <!--<span class="preview">and record type</span>--> </p></li>
+   <li><p>Gerenciar permissões para um espaço de trabalho <span class="preview">e tipo de registro</span> </p></li>
     <li><p>Os administradores do sistema podem gerenciar espaços de trabalho que não criaram. </p></li>
     </ul>
    <p>Para obter informações sobre o compartilhamento de permissões para objetos do Workfront Planning, consulte  

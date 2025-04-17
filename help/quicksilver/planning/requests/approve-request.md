@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '969'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!-- do you need to add that only workspace owners can view the Submitted/ Planning tab?? - asking team in slack-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -105,7 +105,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>Permissões de objeto</p></td>
    <td>
    <ul>
-   <li><p>Gerenciar permissões para um espaço de trabalho <!--<span class="preview">and record type</span>--> </p></li>
+   <li><p>Gerenciar permissões para um espaço de trabalho <span class="preview">e tipo de registro</span> </p></li>
     <li><p>Os administradores do sistema podem gerenciar espaços de trabalho que não criaram. </p></li>
     </ul>
    <p>Para obter informações sobre o compartilhamento de permissões para objetos do Workfront Planning, consulte  
@@ -155,7 +155,7 @@ Para aprovar uma solicitação:
    ![Página de solicitação somente leitura no status de revisão](assets/read-only-reqeust-page-in-review-status.png)
 
 1. (Opcional) Clique no ícone **Aprovações** ![Ícone Aprovações](assets/approvals-icon.png) no canto superior direito da solicitação para exibir os aprovadores.
-1. Clique em **Revisar e aprovar** e escolha uma das seguintes opções: <!--did they fix the button and removed the &??-->
+1. Clique em **Revisar e aprovar** e escolha uma das seguintes opções:
 
    * **Aprovar**: aprova a solicitação. Um registro é criado imediatamente para o tipo de registro associado ao formulário de solicitação depois que todos os aprovadores aprovam a solicitação.
    * **Rejeitar**: rejeita a solicitação, mesmo quando você é o único aprovador que a rejeita. Nenhum registro é criado para o tipo de registro associado ao formulário de solicitação.

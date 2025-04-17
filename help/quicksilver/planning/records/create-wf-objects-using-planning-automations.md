@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2202'
 ht-degree: 2%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 2%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Você pode configurar automações no Adobe Workfront Planning que, quando ativadas, criam objetos no Workfront ou registros no Workfront Planning quando acionadas a partir de um registro do Planning. Os objetos ou registros criados são conectados automaticamente aos registros dos quais você está acionando a automação.
 
@@ -102,7 +102,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td> <p>Gerencie permissões no espaço de trabalho para criar automações. </p>
-   <p>Contribute ou tenha permissões mais altas para o espaço de trabalho <!--<span class="preview">and to the record type</span>--> onde deseja criar o objeto usando as automações existentes. </p>  
+   <p>Contribute ou aumente as permissões para o espaço de trabalho <span class="preview">e para o tipo de registro</span> onde você deseja criar o objeto usando as automações existentes. </p>  
    <p>Gerencie permissões para objetos do Workfront (portfólios) para adicionar objetos secundários (programas ou projetos).</p>
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
    </td> 
@@ -131,7 +131,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 * Novos objetos ou registros não substituem os existentes no mesmo campo. Acionar a mesma automação várias vezes para o mesmo registro adiciona os novos objetos ou registros no mesmo campo conectado do registro original, além dos criados antes.
 
-<!--hide this for now; they are trying to remove this militation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
+<!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
 ## Configurar uma automação no Workfront Planning
 

@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 6%
+source-wordcount: '1122'
+ht-degree: 5%
 
 ---
 
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!--remove the Prod and Preview references when we release to Prod-->
 
 # Visão geral das permissões de compartilhamento no Adobe Workfront Planning
 
@@ -69,14 +71,9 @@ Internamente, você pode compartilhar um espaço de trabalho ou uma visualizaç�
 
 * Usuários
 * Grupos
-
-<div class="preview">
-
 * Equipes
 * Empresas
 * Funções de trabalho
-
-</div>
 
 <span class="preview"> Quando você compartilha espaços de trabalho e tipos de registro com outras pessoas, o nível de permissão do tipo de registro é automaticamente herdado para os registros e campos associados a eles. </span>
 
@@ -131,7 +128,7 @@ A seguir estão os níveis de permissões para espaços de trabalho:
 
 ### Permissões de tipo de registro
 
-<!--In the Production environment,--> As permissões de Tipo de Registro são <!--always--> herdadas quando você concede permissões ao espaço de trabalho.
+No ambiente de Produção, as permissões do Tipo de registro são sempre herdadas ao conceder permissões ao espaço de trabalho.
 
 A seguir estão os níveis de permissões para tipos de registro:
 
@@ -143,29 +140,35 @@ A seguir estão os níveis de permissões para tipos de registro:
 | Editar | ✓ |            |       |
 | Exibir | ✓ | ✓ | ✓ |
 
-<!--
-
 <div class="preview">
 
-In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
+No ambiente de Pré-visualização, você pode remover as permissões herdadas do tipo de registro recebidas do espaço de trabalho.
 
-You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
+Você pode conceder aos usuários permissões mais baixas no tipo de registro do que no espaço de trabalho.
 
-The following scenarios exist: 
+No entanto, você não pode fazer o seguinte:
 
-|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+* Conceda permissões mais altas para o tipo de registro do que os usuários têm no espaço de trabalho.
+* Conceda aos gerentes de espaço de trabalho permissões mais baixas em um tipo de registro.
+* Remova as permissões de Exibição ao tipo de registro ou ao espaço de trabalho removendo usuários das permissões de tipo de registro.
+
+Existem os seguintes cenários:
+
+| Permissões do Workspace | Permissões herdadas automáticas para um Tipo de Registro | Possíveis permissões de Tipo de registro quando Permissões herdadas estão desativadas (concedidas manualmente) |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions           | 
-| Contribute |     Contribute |  Contribute, View, Remove permissions        |
-| View   |  View     |      View, Remove permissions        |     
+| Gerenciar | Gerenciar | Gerenciar, remover permissões* |
+| Contribuir | Contribuir | Permissões para Colaborar, Exibir, Remover* |
+| Exibir | Exibir | Exibir, remover permissões* |
+
+>[!NOTE]
+>
+>*Quando você remove permissões de um tipo de registro, os usuários ainda retêm permissões de Exibição para o espaço de trabalho e todos os tipos de registro, a menos que você remova as permissões deles do espaço de trabalho.
 
 </div>
 
--->
-
 ### Registrar permissões
 
-Permissões de registro são herdadas de <!--<span class="preview">the record type</span>, when you grant permissions to -->o espaço de trabalho<!-- and <span class="preview">the record type</span>-->.
+As permissões de registro são herdadas de <span class="preview">o tipo de registro</span>, quando você concede permissões ao espaço de trabalho e <span class="preview">ao tipo de registro</span>.
 
 A seguir estão os níveis de permissões para registros:
 
@@ -179,7 +182,7 @@ A seguir estão os níveis de permissões para registros:
 
 ### Permissões de campo
 
-Permissões de campo são herdadas de <!--<span class="preview">the record type</span>, when you grant permissions to -->o espaço de trabalho <!--and <span class="preview">the record type</span>-->.
+As permissões de campo são herdadas de <span class="preview">o tipo de registro</span>, quando você concede permissões para o espaço de trabalho e <span class="preview">o tipo de registro</span>.
 
 As permissões a seguir se referem aos próprios campos e não aos valores associados a cada campo. Para editar valores de campo, você deve ter permissões para editar registros.
 

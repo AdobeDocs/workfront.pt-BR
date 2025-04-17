@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 2%
+source-wordcount: '894'
+ht-degree: 1%
 
 ---
 
 # Compartilhar espaços de trabalho
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -109,14 +109,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Quando você compartilha um espaço de trabalho, todos os tipos de registro, registros e campos associados aos espaços de trabalho também são compartilhados.
 * Quando você compartilha um espaço de trabalho, as exibições não são compartilhadas. Você deve compartilhar exibições separadamente.
 
-<!--
 <div class="preview">
- 
-* Workspace permissions display as Inherited permissions on record types. 
+
+* As permissões do Workspace são exibidas como permissões herdadas em tipos de registro.
 
 </div>
-
--->
 
 ## Compartilhar permissões em um espaço de trabalho
 

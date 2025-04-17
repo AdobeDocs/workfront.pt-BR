@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Planning: índice do artigo
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -46,7 +50,13 @@ As seções a seguir contêm artigos que descrevem em detalhes os recursos atual
    * Licenças do Workfront e permissões do Planning
    * Permissões de compartilhamento do Planning
    * Compartilhar exibições
-   * Compartilhar espaços de trabalho (tipos de registro, registros e campos)
+   * Compartilhar espaços de trabalho (registros e campos)
+
+  <div class="preview">
+
+   * Compartilhar tipos de registro
+
+  </div>
 
 * [Arquitetura: o índice do artigo](/help/quicksilver/planning/architecture/architecture-information.md) contém as seguintes informações:
 
