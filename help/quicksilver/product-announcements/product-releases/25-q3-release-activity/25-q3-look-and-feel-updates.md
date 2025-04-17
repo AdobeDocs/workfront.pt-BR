@@ -4,9 +4,7 @@ description: Atualizações da aparência durante o período do terceiro trimest
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 131a4443564def1437c9b26d1e29e65fcc78d069
+source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 5%
@@ -62,6 +60,3 @@ Para obter informações, consulte [Criar um relatório personalizado](/help/qui
 Atualizamos a aparência da caixa Excluir empresa quando você exclui uma empresa de um relatório de Empresa. O novo design agora corresponde a outras áreas do Workfront.
 
 Com esta atualização, a aparência da caixa Excluir empresa na página Empresas na área Configuração não foi alterada.
-
-
-
