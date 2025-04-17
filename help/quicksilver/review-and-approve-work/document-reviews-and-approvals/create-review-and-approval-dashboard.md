@@ -6,20 +6,20 @@ description: Você pode revisar métricas de aprovações nos Painéis do Canvas
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 0aeef516c8e3b94edee6fc177766be032241965f
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1991'
 ht-degree: 1%
 
 ---
 
 # Criar um painel de relatório para revisão e aprovações
 
-Você pode criar um painel de relatório na área Painéis de tela para exibir informações de alto nível e detalhadas sobre revisões e aprovações com o Unified Approvals funcionalidade.
+Você pode criar um painel de relatório na área Painéis da tela para exibir informações de alto nível e detalhadas sobre revisões e aprovações com a funcionalidade Aprovações unificadas.
 
 >[!IMPORTANT]
 >
->Essa funcionalidade está disponível somente para clientes que usam o serviço de Aprovações unificadas e estão inscritos no beta Painéis de tela.
+>Essa funcionalidade está disponível somente para clientes que usam o serviço Aprovações unificadas e estão inscritos na versão beta dos Painéis de controle do Canvas.
 
 
 ![exemplo de painel](assets/whole-dashboard.png)
@@ -38,15 +38,15 @@ Você pode criar um painel de relatório na área Painéis de tela para exibir i
 Depois de criar um painel, você pode começar a adicionar KPIs, Gráficos e Tabelas. Consulte as seguintes seções para obter mais informações:
 
 * [Adicionar informações de revisão e aprovação de alto nível com KPIs e Gráficos](#add-high-level-review-and-approval-information-with-kpis-and-charts)
-* [Adicione informações detalhadas de revisão e aprovação com o Tables](#add-detailed-review-and-approval-information-with-tables)
+* [Adicionar informações detalhadas de revisão e aprovação com Tabelas](#add-detailed-review-and-approval-information-with-tables)
 
 ## Adicionar informações de revisão e aprovação de alto nível com KPIs e Gráficos
 
-É possível visualização informações de alto nível sobre aprovações de documento com KPIs e gráficos. Atualmente, as informações de detalhamento não estão disponíveis no beta.
+Você pode exibir informações de alto nível sobre aprovações de documentos com KPIs e gráficos. Informações detalhadas não estão disponíveis atualmente na versão beta.
 
 ### KPIs
 
-![exemplos KPI](assets/kpi-dashboard.png)
+![Exemplos de KPI](assets/kpi-dashboard.png)
 
 #### Aprovações pendentes
 
@@ -79,25 +79,25 @@ Depois de criar um painel, você pode começar a adicionar KPIs, Gráficos e Tab
       ![exemplo de filtro de kpi vencido](assets/overdue-kpi-filter.png)
 1. Clique em **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Status**.
-   1. Altere o operador para **Não contém** e digite _aprovado_ na caixa de texto.
-      ![exemplo de filtro de kpi vencido 2](assets/overdue-kpi-filter-2.png)
+   1. Altere o operador para **Não Contém** e digite _aprovado_ na caixa de texto.
+      ![exemplo de filtro de kpi 2](assets/overdue-kpi-filter-2.png) vencido
 1. Clique em **Concluído** no canto superior direito da tela.
 
 
 #### Aprovações concluídas
 
 1. [Crie um painel](#create-a-dashboard) conforme descrito na seção acima.
-1. Na cartão do **KPI, clique** em Adicionar ****.
-1. Tipo _Concluído_ na **caixa de texto KPI Título** .
-1. Digite _a contagem_ de Status aprovação na **caixa de texto KPI Legenda** . Este texto descreve o que a KPI está sendo exibida.
-1. Na parte superior do página, clique **em Selecionar campo de KPI**.
-1. Role para baixo e localize a pasta **Aprovação de** documento.
+1. No cartão **KPI**, clique em **Adicionar**.
+1. Digite _Concluído_ na caixa de texto **Título de KPI**.
+1. Digite _Contagem de Status de Aprovação_ na caixa de texto **Legenda de KPI**. Esse texto descreve o que o KPI está mostrando.
+1. Na parte superior da página, clique em **Selecionar Campo de KPI**.
+1. Role para baixo e localize a **pasta de Aprovação de Documentos**.
 1. Escolha **Status** e selecione **Count** no menu suspenso.
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Status**.
    1. Altere o operador para **Contém** e digite _aprovado_ na caixa de texto.
-      ![exemplo de filtro kpi concluído](assets/completed-kpi-filter.png)
-1. Clique **em Adicionar condição**:
+      ![exemplo de filtro de kpi concluído](assets/completed-kpi-filter.png)
+1. Clique em **Adicionar condição**:
    1. Clique em **And** para alterá-lo para **Or**.
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Status**.
    1. Altere o operador para **Igual** e digite _revisado_ na caixa de texto.
@@ -110,12 +110,12 @@ Depois de criar um painel, você pode começar a adicionar KPIs, Gráficos e Tab
 1. No cartão **KPI**, clique em **Adicionar**.
 1. Tipo _Abandonado_ na caixa de texto **Título de KPI**.
 1. Digite _Prazo de aprovação em 2 semanas após_ na caixa de texto **Legenda de KPI**. Esse texto descreve o que o KPI está mostrando.
-1. Na parte superior do página, clique **em Selecionar campo de KPI**.
-1. Role para baixo e localize a pasta Estágio de aprovação do **documento**.
+1. Na parte superior da página, clique em **Selecionar Campo de KPI**.
+1. Role para baixo e localize a **pasta Estágio de Aprovação de Documentos**.
 1. Escolha **Prazo** e selecione **Contagem** no menu suspenso.
-1. Clique **Editar Filtrar** > **Adicionar condição**:
-   1. Clique no filtro de condição vazio, clique **em Escolher um campo e** escolha **Status**.
-   1. Altere o operador para **Não contém** e digite _aprovado_ na caixa de texto.
+1. Clique em **Editar Filtro** > **Adicionar condição**:
+   1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Status**.
+   1. Altere o operador para **Não Contém** e digite _aprovado_ na caixa de texto.
       ![exemplo de filtro de kpi abandonado](assets/abandoned-kpi-filter.png)
 1. Clique em **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Prazo**.
@@ -141,7 +141,7 @@ Depois de criar um painel, você pode começar a adicionar KPIs, Gráficos e Tab
 1. Clique em **Atualizar campo** para o **eixo esquerdo (Y)**, escolha a primeira opção **Aprovação de documento** e depois **Status**.
 1. Clique na guia Filtro ![ícone da guia Filtro](assets/filter-tab.png).
 1. Clique em **Editar Filtro** > **Adicionar condição**:
-   1. Clique no filtro de condição vazio, clique **em Escolher um campo** e escolha **Documento Versão Versão**.
+   1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Versão do Documento**.
    1. Altere o operador para **Is Not Null**.
       ![exemplo de filtro](assets/approvals-by-decision-chart-filter.png)
 1. Clique em **Concluído** no canto superior direito da tela.
@@ -150,22 +150,22 @@ Depois de criar um painel, você pode começar a adicionar KPIs, Gráficos e Tab
 #### Gráfico de barras de revisões
 
 1. [Crie um painel](#create-a-dashboard) conforme descrito na seção acima.
-1. Na cartão **gráfico** , clique **em Adicionar**.
+1. No cartão **Gráfico**, clique em **Adicionar**.
 1. Digite _Revisões_ na caixa de texto **Nome**.
 1. Digite _Número de revisões de documentos com decisões incompletas planejadas antes do fim deste mês_ na caixa de texto **Descrição**. Esse texto é exibido como uma dica de ferramenta ao lado do nome do gráfico.
 1. Clique em **Abrir detalhes do gráfico**.
 1. No menu suspenso **Tipo de gráfico**, deixe o **Gráfico de barras** selecionado.
-1. **No menu suspenso Tipo** de barra, deixe **Simple** selecionado.
-1. Clique **em Atualizar o campo** para o **eixo** Inferior (X) e escolha a primeira **pasta Aprovação de** documento, em seguida **, Document Versão** > **Versão**.
-1. Defina o tipo de agregação para **Contagem**.
-1. Clique **no campo** Atualizar para o **eixo** esquerdo (Y) e escolha a primeira **opção de aprovação de** documento, em seguida **, Document Versão** > **Document** > **Name**.
-1. Clique no ícone](assets/filter-tab.png) de guia do filtro Filtrar guia![.
+1. No menu suspenso **Tipo de barra**, deixe **Simples** selecionado.
+1. Clique em **Atualizar campo** para o **eixo inferior (X)** e escolha a primeira pasta **Aprovação de Documento** e depois **Versão do Documento** > **Versão**.
+1. Defina o tipo de Agregação como **Count**.
+1. Clique em **Atualizar campo** para o **eixo esquerdo (Y)**, escolha a primeira opção **Aprovação de Documento** e depois **Versão do Documento** > **Documento** > **Nome**.
+1. Clique na guia Filtro ![ícone da guia Filtro](assets/filter-tab.png).
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um campo** e escolha **Data de decisão dos participantes do estágio de aprovação**.
    1. Altere o operador para **Is Null**.
       ![exemplo de filtro de gráfico de revisões](assets/revision-chart-filter.png)
-1. Clique **Editar Filtrar** > **Adicionar condição**:
-   1. Clique no filtro de condição vazio, clique **em Escolher um campo** e escolha **o prazo** do Estágio de aprovação.
+1. Clique em **Editar Filtro** > **Adicionar condição**:
+   1. Clique no filtro de condição vazio, clique em **Escolher um campo** e escolha **Prazo do estágio de aprovação**.
    1. Altere o operador para **Less Than or Equal**, em seguida, alterne Set relative date On e digite _$$TODAYem_ na caixa de texto.
       ![exemplo de filtro de gráfico de revisões](assets/revision-chart-filter-2.png)
 1. Clique em **Concluído** no canto superior direito da tela.
@@ -180,14 +180,14 @@ Depois de criar um painel, você pode começar a adicionar KPIs, Gráficos e Tab
 1. No cartão **Tabela**, clique em **Adicionar**.
 1. Digite _Aprovações Pendentes_ na caixa de texto **Nome**.
 1. (Opcional) Digite uma descrição na caixa de texto **Descrição**. Esse texto é exibido como uma dica de ferramenta ao lado do nome do gráfico.
-1. Clique **em Abrir configurações** da coluna.
-1. Clique **em Adicionar coluna**, role para baixo e clique na primeira **pasta Aprovações** de documento, em seguida, escolha **Status**.
+1. Clique em **Abrir configurações de coluna**.
+1. Clique em **Adicionar coluna**, role para baixo e clique na primeira pasta **Aprovações de Documentos** e escolha **Status**.
 1. Adicione as seguintes colunas:
 
    <table>
     <tr>
     <td><strong>Nome do projeto</strong></td>
-    <td>Nome do &gt; do projeto Versão &gt; do documento &gt;</td>
+    <td>Versão do documento &gt; Documento &gt; Projeto &gt; Nome</td>
     </tr>
     <tr>
     <td><strong>Nome do documento</strong></td>
@@ -199,19 +199,19 @@ Depois de criar um painel, você pode começar a adicionar KPIs, Gráficos e Tab
     </tr>
     <tr>
     <td><strong>Prazo</strong></td>
-    <td>Documento &gt; Estágio de aprovação &gt; Prazo</td>
+    <td>Aprovação de documento &gt; Estágio de aprovação &gt; Prazo</td>
     </tr>
     <tr>
     <td><strong>Requisitado por</strong></td>
-    <td>Documento &gt; Estágio de aprovação &gt; Participantes do estágio de aprovação* &gt; Solicitante &gt; digite _Name_ na caixa de pesquisa.</td>
+    <td>Aprovação de documento &gt; Estágio de aprovação &gt; Participantes do estágio de aprovação* &gt; Solicitante &gt; digite _Name_ na caixa de pesquisa.</td>
     </tr>
      <tr>
     <td><strong>Data de solicitação</strong></td>
-    <td>Documento &gt; Estágio de aprovação &gt; Participantes do estágio de aprovação* &gt; Criado em</td>
+    <td>Aprovação de documento &gt; Estágio de aprovação &gt; Participantes do estágio de aprovação* &gt; Criado em</td>
     </tr>
      <tr>
     <td><strong>Aprovador</strong></td>
-    <td>Documento &gt; Estágio de aprovação &gt; Participantes do estágio de aprovação* &gt; Usuário participante &gt; digite _Name_ na caixa de pesquisa.</td>
+    <td>Aprovação de documento &gt; Estágio de aprovação &gt; Participantes do estágio de aprovação* &gt; Usuário participante &gt; digite _Name_ na caixa de pesquisa.</td>
     </tr>
     <table>
 
@@ -230,7 +230,7 @@ Depois de criar um painel, você pode começar a adicionar KPIs, Gráficos e Tab
 
 **Filtros opcionais**
 
-Para visualização informações mais específicas, dependendo do seu caso de uso, você pode adicionar condições adicionais de filtro. Talvez você queira recriar a tabela e adicionar novas condições de filtro por caso de uso.
+Para exibir informações mais específicas dependendo do caso de uso, é possível adicionar outras condições de filtro. Talvez você queira recriar a tabela e adicionar novas condições de filtro por caso de uso.
 
 +++ Expandir para exibir opções de filtro adicionais
 
@@ -246,20 +246,20 @@ Para visualização informações mais específicas, dependendo do seu caso de u
 
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Estágio de Aprovação** > **Participantes do Estágio de Aprovação** > **Solicitante** > digite _Nome_ na caixa de pesquisa.
-   1. Altere o operador para **Igual e escolha** Eu (usuário conectado)**para exibir projetos na Workfront nos quais você está marcado como** o projeto proprietário.
+   1. Altere o operador para **Igual** e escolha **Eu (Usuário conectado)** para exibir projetos na Workfront nos quais você está marcado como proprietário do projeto.
       ![exemplo de filtro de tabela de aprovação pendente](assets/pending-approvals-my-project-filter.png)
-1. Clique **Concluído** no canto superior direito da tela.
+1. Clique em **Concluído** no canto superior direito da tela.
 
 +++
 
 ### Lista de aprovações vencidas
 
-1. [Criar um painel](#create-a-dashboard) conforme descrito na seção acima.
-1. Na cartão tabela, clique **em Adicionar**.
+1. [Crie um painel](#create-a-dashboard) conforme descrito na seção acima.
+1. No cartão Tabela, clique em **Adicionar**.
 1. Digite _Aprovações atrasadas_ na caixa de texto **Nome**.
 1. (Opcional) Digite uma descrição na caixa de texto **Descrição**. Esse texto é exibido como uma dica de ferramenta ao lado do nome do gráfico.
-1. Clique **em Abrir configurações** da coluna.
-1. Clique **em Adicionar coluna**, role para baixo e clique na primeira **pasta Aprovações** de documento, em seguida, escolha **Status**.
+1. Clique em **Abrir configurações de coluna**.
+1. Clique em **Adicionar coluna**, role para baixo e clique na primeira pasta **Aprovações de Documentos** e escolha **Status**.
 1. Adicione as seguintes colunas:
 
    <table>
@@ -285,7 +285,7 @@ Para visualização informações mais específicas, dependendo do seu caso de u
     </tr>
      <tr>
     <td><strong>Data de solicitação</strong></td>
-    <td>Document &gt; Do Estágio de aprovação &gt; participantes do estágio de aprovação* &gt; criado em</td>
+    <td>Documento &gt; Estágio de aprovação &gt; Participantes do estágio de aprovação* &gt; Criado em</td>
     </tr>
      <tr>
     <td><strong>Aprovador</strong></td>
@@ -327,7 +327,7 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Estágio de Aprovação** > **Participantes do Estágio de Aprovação** > **Solicitante** > digite _Nome_ na caixa de pesquisa.
    1. Altere o operador para **Igual** e escolha **Eu (Usuário conectado)** para exibir projetos na Workfront nos quais você está marcado como proprietário do projeto.
       ![exemplo de filtro de tabela de aprovação pendente](assets/pending-approvals-my-project-filter.png)
-1. Clique **Concluído** no canto superior direito da tela.
+1. Clique em **Concluído** no canto superior direito da tela.
 
 **Minha equipe**
 
@@ -335,5 +335,5 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Estágio de Aprovação** > **Participantes do Estágio de Aprovação** > **Equipe do Participante** > digite _Nome_ na caixa de pesquisa.
    1. Altere o operador para **Igual** e escolha **Minhas equipes padrão (Usuário conectado)** ou **Minhas outras equipes (Usuário conectado)** para exibir os projetos atribuídos à sua equipe padrão ou a outras equipes nas quais você está.
       ![exemplo de filtro de tabela de aprovação pendente](assets/approvals-ive-submitted-filter.png)
-1. Clique **Concluído** no canto superior direito da tela.
+1. Clique em **Concluído** no canto superior direito da tela.
 +++
