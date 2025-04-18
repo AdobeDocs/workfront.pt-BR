@@ -6,9 +6,9 @@ description: Se você estiver atribuído como aprovador de um documento, há vá
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -124,12 +124,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Selecione a versão do documento que deseja revisar na lista suspensa de versões. A versão mais recente será selecionada por padrão.
 
-   Se a versão selecionada do documento tiver uma aprovação pendente para você, os botões de decisão de aprovação serão exibidos no canto superior direito do painel Resumo do documento; se outras versões do documento tiverem aprovações pendentes para você, o menu suspenso da versão exibirá um ponto vermelho.
-
-   <!--
+   Se a versão selecionada atualmente do documento tiver uma aprovação pendente para você, os botões de decisão de aprovação serão exibidos no canto superior direito do painel Resumo do documento; se outras versões do documento tiverem aprovações pendentes para você, o menu suspenso da versão exibirá um ponto vermelho.
+<!--
    ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
-   -->
-
+ -->
 1. Clique em uma das duas opções de aprovação a seguir no canto superior direito do painel Resumo do documento:
 
    * A lista suspensa **Aprovar** contém duas opções:
@@ -139,3 +137,24 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
       * **Aprovar com alterações** indica que algumas pequenas alterações ainda são necessárias no documento, mas a aprovação é dada com a condição de que essas alterações sejam feitas. Se você selecionar essa opção, será exibida uma janela contendo uma caixa de texto denominada **Próximas etapas**, na qual você pode especificar quais alterações são necessárias para que o documento seja aprovado. Você pode inserir essas informações e clicar em **Adicionar mensagem** ou clicar em **Ignorar** para enviar a decisão de aprovação sem informações adicionais.
 
    * **Precisa do trabalho** indica que a versão do documento não foi aprovada e requer alterações significativas.
+
+
+## Aprovar um documento do visualizador de prova
+
+Para revisar e aprovar um documento:
+
+1. Vá para a notificação por email de revisão e clique em **Ir para revisão**.
+
+1. Depois de entrar no Workfront, clique em **Ir para prova**.
+
+1. Revise o conteúdo e adicione comentários ou marcações. Para obter mais informações sobre como usar o visualizador de provas, consulte [Revisar provas no Adobe Workfront: índice do artigo](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
+1. Escolha uma das seguintes decisões:
+
+   * **Aprovar**: o documento não precisa de alterações e está pronto para uso.
+   * **Aprovar com alterações**: o documento precisa de alterações e está pronto para uso quando elas forem feitas. Aprovação adicional não é necessária.
+   * **Precisa do trabalho**: o documento precisa de alterações e não está pronto para uso. Depois que as alterações especificadas forem feitas, o documento deverá ser carregado como uma nova versão e passar por outra rodada de aprovações. Para obter mais informações sobre como carregar uma nova versão, consulte [Criar uma nova versão conforme necessário](#create-a-new-version-as-needed) neste artigo.
+
+Depois de tomar uma decisão, o proprietário do documento é notificado por email.
+
+

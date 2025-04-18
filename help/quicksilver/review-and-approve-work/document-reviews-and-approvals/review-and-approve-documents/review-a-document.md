@@ -6,9 +6,9 @@ description: Como revisor, você pode visualizar um documento que foi enviado a 
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: da00226448e0969cec57bf9d525686129d53430e
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Add once functionality is added
 
 1. Selecione a versão do documento que deseja revisar na lista suspensa de versões. A versão mais recente será selecionada por padrão.
 
-1. Passe o mouse sobre a visualização do documento na seção **Detalhes** na parte superior do painel Resumo do Documento. Em seguida:
+1. Passe o mouse sobre a visualização do documento na seção **Detalhes** na parte superior do painel Resumo do documento. Em seguida:
 
    Clique em **Visualizar** para abrir uma versão somente leitura do documento em uma nova janela.
 
@@ -96,3 +96,16 @@ Add once functionality is added
 
 1. (Opcional) Você também pode visualizar ou baixar uma versão específica do documento rolando até a seção **Versões** do painel Resumo do Documento e clicando no ícone Mais ![ícone Mais](../assets/more-icon.png) ao lado da versão que você deseja revisar e selecionando **Download** ou **Visualizar**.
 1. Para registrar que você concluiu sua revisão, clique em **Concluir revisão**.
+
+## Revisar um documento do visualizador de prova
+
+Para revisar um documento:
+
+1. Vá para a notificação por email de revisão e clique em **Ir para revisão**.
+
+1. Depois de entrar no Workfront, clique em **Ir para prova**.
+
+1. Revise o conteúdo e adicione comentários ou marcações. Para obter mais informações sobre como usar o visualizador de provas, consulte [Revisar provas no Adobe Workfront: índice do artigo](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
+1. Para registrar que você concluiu sua revisão, clique em **Concluir revisão**.
+

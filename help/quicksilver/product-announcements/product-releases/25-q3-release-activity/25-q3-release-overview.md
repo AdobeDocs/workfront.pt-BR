@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 70dce5fb7848f137a264e28e012234870e8d8eb5
+source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Novos botões de decisão de aprovação de documento disponíveis no visualizador de revisões</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>Os novos botões de decisão de aprovação de documento agora aparecem no visualizador de provas. Agora, ao criar uma prova simples e adicionar aprovadores e revisores a partir do Resumo do documento, eles podem tomar a decisão diretamente no visualizador de provas.</p><p><b>OBSERVAÇÃO</b>Esta funcionalidade não está disponível no momento para usuários na Experiência Unificada do Adobe.</p>
+            <p>Os novos botões de decisão de aprovação de documento agora aparecem no visualizador de provas. Agora, ao criar uma prova simples e adicionar aprovadores e revisores a partir do Resumo do documento, eles podem tomar a decisão diretamente no visualizador de provas.</p>
         </td>
         <td>sexta-feira, 10 de abril de 2025</td>
         <td>sexta-feira, 17 de abril de 2025</td>

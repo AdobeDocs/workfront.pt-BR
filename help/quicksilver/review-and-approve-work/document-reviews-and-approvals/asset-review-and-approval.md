@@ -6,9 +6,9 @@ description: Visão geral dos sistemas disponíveis para revisão e aprovação 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 24668c9fdbb5e23f41831b388d509220d0783057
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Principais recursos disponíveis para aprovações de documentos herdados:
 
 * Adicionar usuários como aprovadores
 * Revisar e comentar no visualizador de provas
-* Tomar decisões no visualizador de revisões
 * Criar relatórios de aprovação com relatórios herdados
 * Acessar solicitações de aprovação no widget Minhas aprovações na área Página inicial
 
@@ -51,15 +50,13 @@ Principais recursos disponíveis para Aprovações unificadas:
 
 * Criar e usar modelos
 
-* Revisar e comentar no visualizador de provas
+* Revisar, comentar e tomar decisões no visualizador de provas
 Para obter mais informações sobre como usar o visualizador de provas, consulte [Usar aprovações unificadas e provas juntas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * Exibir vários indicadores-chave de desempenho para suas aprovações nos widgets da Página inicial do Workfront
 
 * Use os Painéis do Canvas, atualmente na versão beta, para exibir detalhes de relatórios sobre Aprovações unificadas
 Para obter mais informações sobre relatórios, consulte [Criar um painel de relatório para revisão e aprovações](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
-
-* Tome decisões no visualizador de revisões [!BADGE Em breve]{type=Informative}
 
 * Criar aprovações em vários estágios [!BADGE Em breve]{type=Informative}
 

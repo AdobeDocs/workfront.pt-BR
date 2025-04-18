@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
+source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 >[!NOTE]
 >
 >* Versão de pré-visualização: 10 de abril de 2025; Versão de produção para todos os clientes: 17 de abril de 2025
->
->* No momento, essa funcionalidade não está disponível para usuários na Experiência unificada do Adobe.
 
 Os novos botões de decisão de aprovação de documento agora aparecem no visualizador de provas. Agora, ao criar uma prova simples e adicionar aprovadores e revisores a partir do Resumo do documento, eles podem tomar a decisão diretamente no visualizador de provas.
 
