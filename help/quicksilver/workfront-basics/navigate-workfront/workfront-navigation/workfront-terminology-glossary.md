@@ -6,9 +6,9 @@ description: O  [!DNL Adobe Workfront] glossário lista termos comumente usados 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 3a86ce4878304cee749fa298a39f03a46083a7b4
 workflow-type: tm+mt
-source-wordcount: '20999'
+source-wordcount: '21023'
 ht-degree: 0%
 
 ---
@@ -1099,6 +1099,10 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   <tr> 
    <td>[!UICONTROL ID]</td> 
    <td> <p>A ID é um indicador alfanumérico associado a cada objeto em [!DNL Workfront]. Identifica exclusivamente cada objeto no banco de dados [!DNL Workfront]. Você pode visualizar a ID de qualquer objeto em um relatório ou uma lista para cada objeto. </p> <p><b>DICA</b></p>   <p>Você também pode exibir a ID no URL da página do objeto. Por exemplo, ao acessar a página [!UICONTROL Detalhes do projeto], a ID de um projeto pode se parecer com o número descrito na URL a seguir:</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+   <td>[!UICONTROL IMS]</td> 
+   <td>Sistema Identity Management. O Adobe IMS exige que você faça logon no Workfront por meio da Adobe, em vez de usar seu nome de usuário e senha da Workfront.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Metas Individuais]</td> 
