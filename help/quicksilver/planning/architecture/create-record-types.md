@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1098'
 ht-degree: 2%
 
 ---
@@ -146,20 +146,30 @@ Para obter informações sobre quais tipos de registro são incluídos em cada m
 
    Em um espaço de trabalho, expanda a seta apontando para baixo à direita do nome de um espaço de trabalho existente, procure um espaço de trabalho e selecione-o quando ele for exibido na lista.
 1. (Opcional) Clique em **Adicionar seção** para adicionar uma nova seção ao espaço de trabalho.
-1. Clique em **Adicionar tipo de registro** e depois em **Novo**.
+1. Clique em **Adicionar tipo de registro** e depois em **Adicionar manualmente**.
 
    A caixa Adicionar tipo de registro é aberta.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![Adicionar caixa de tipo de registro com opções de aparência](assets/add-record-type-box-with-appearance-options.png)
 
-1. Atualize as seguintes informações:
+1. Atualize as seguintes informações na guia **Aparência**:
 
    * Substitua &quot;Tipo de registro sem título&quot; pelo nome do seu tipo de registro futuro. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Descrição**: adicione mais informações sobre o tipo de registro.
    * Selecione uma cor e uma forma para o ícone associado ao tipo de registro. Faça o seguinte:
       * Selecione uma cor para identificar o novo tipo de registro. Esta é a cor do ícone do tipo de registro. O cinza é selecionado por padrão.
       * Selecione um ícone na lista ou comece a digitar o nome de um ícone para descrever o que ele representa e, em seguida, selecione-o quando ele for exibido. Este é o ícone do tipo de registro. Um ícone de arquivo é selecionado por padrão.
+
+1. (Opcional e condicional) Se você for um administrador do sistema, clique em **Configurações avançadas** e atualize as seguintes informações na seção **Escopo de conectividade**: <!--the info here is duplicated in the Edit record types article-->
+
+   * Habilitar a configuração **Conectar de outro espaço de trabalho**. Quando ativado, o tipo de registro é acessível e pode ser conectado de outros espaços de trabalho.
+   * Escolha a partir de quais espaços de trabalho o tipo de registro pode ser acessado. Escolha entre as seguintes opções:
+
+      * **Em todo o sistema**: os usuários podem se conectar a este tipo de registro de todos os espaços de trabalho onde têm permissões de gerenciamento.
+      * **Espaços de trabalho específicos**: adicione os nomes dos espaços de trabalho nos quais os gerentes de espaço de trabalho podem se conectar a este tipo de registro.
+
+   ![Caixa Criar tipo de registro na guia de configurações avançadas](assets/create-record-type-box-advanced-settings-tab.png)
 
 1. Clique em **Criar**.
 

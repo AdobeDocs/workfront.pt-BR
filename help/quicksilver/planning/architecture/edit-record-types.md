@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 1%
+source-wordcount: '681'
+ht-degree: 2%
 
 ---
 
@@ -177,15 +177,17 @@ Ou
       * Selecione uma cor para identificar o tipo de registro. Esta é a cor do ícone do tipo de registro.
       * Selecione um ícone na lista ou comece a digitar o nome de um ícone para descrever o que ele representa e, em seguida, selecione-o quando ele for exibido. Este é o ícone do tipo de registro. Um ícone de arquivo é selecionado por padrão.
 
-1. (Condicional) Se você for um administrador do sistema, clique na guia **Configurações avançadas** na caixa **Editar tipo de registro**.
+1. (Condicional) Se você for um administrador do sistema, clique na guia **Configurações avançadas** na caixa **Editar tipo de registro**. <!--the info here is duplicated in the Create record types article-->
 
    ![Guia de configurações avançadas da caixa Editar tipo de registro](assets/edit-record-type-box-advanced-settings-tab.png)
 
-1. (Condicional) Como administrador do sistema, atualize as seguintes informações na guia **Configurações avançadas**:
+1. (Condicional) Atualize as seguintes informações na guia **Configurações avançadas**:
 
-   * **Conectar de outros espaços de trabalho**: selecione esta opção para permitir que os usuários se conectem a este tipo de registro de outros espaços de trabalho. Essa opção é desmarcada por padrão.
-   * **Nível do sistema**: selecione esta opção para permitir que os usuários se conectem a este registro de todos os espaços de trabalho do sistema.
-   * **Espaços de trabalho específicos**: selecione esta opção para restringir os espaços de trabalho dos quais os usuários podem se conectar a este tipo de registro, expanda o menu suspenso e selecione os espaços de trabalho dos quais deseja que os usuários se conectem a este tipo de registro. Você pode começar a digitar o nome de um espaço de trabalho e selecioná-lo quando ele for exibido na lista.
+   * Habilitar a configuração **Conectar de outro espaço de trabalho**. Quando ativado, o tipo de registro é acessível e pode ser conectado de outros espaços de trabalho.
+   * Escolha a partir de quais espaços de trabalho o tipo de registro pode ser acessado. Escolha entre as seguintes opções:
+
+      * **Em todo o sistema**: os usuários podem se conectar a este tipo de registro de todos os espaços de trabalho onde têm permissões de gerenciamento.
+      * **Espaços de trabalho específicos**: adicione os nomes dos espaços de trabalho nos quais os gerentes de espaço de trabalho podem se conectar a este tipo de registro.
 
 1. Clique em **Salvar**.
 
