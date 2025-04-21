@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
+source-git-commit: 33d5e67ffe3e28d0d667a82d881f274107d1d04a
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -315,8 +315,6 @@ A integração entre o Workfront e o Experience Manager Assets ou o Assets Essen
 Para obter mais informações, consulte [visão geral das integrações do Adobe Workfront for Experience Manager Assets](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 ## Integrações de parceiros
-
-O [!DNL Workfront] tem muitas integrações de parceiros que enriquecem sua experiência com o [!DNL Workfront].
 
 A Workfront tem muitas integrações de parceiros que enriquecem sua experiência com o Workfront. Exemplos de ofertas de parceiros existentes incluem integrações com Claravine, RWS Group e muito mais.
 
