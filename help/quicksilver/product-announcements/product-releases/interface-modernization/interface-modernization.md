@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
+source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1911'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,19 @@ Esta página lista as atualizações de interface que estamos fazendo no Adobe W
 >Na maioria dos casos, cada atualização é lançada primeiro no ambiente de Pré-visualização e, em seguida, ativada de forma incremental no ambiente de Produção para um subconjunto crescente de clientes, a partir da data de lançamento da Produção listada.
 
 Para todas as outras alterações no Adobe Workfront, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+
+## Navegação e pesquisa do Workfront
+
+### Atualização de interface para pesquisa avançada
+
+**Versão de visualização: 17 de abril; Versão de produção: a ser anunciada**
+
+Atualizamos a área Pesquisa avançada com as seguintes alterações:
+
+* Adição de uma nova guia Pesquisa completa. Nesta guia, você pode pesquisar por tipo, inserido por, data de entrada, categoria e atualizado pela última vez por.
+* O filtro na guia Pesquisa avançada é um pouco diferente. Agora, o filtro não é pré-preenchido. Você deve ativá-lo e criar o filtro do zero. O filtro não permanece se a página for atualizada.
+
+Para obter mais informações, consulte [Pesquisa [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## Administração e configuração
 

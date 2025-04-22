@@ -7,9 +7,9 @@ description: Esta página contém informações sobre a estrutura e o conteúdo 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
+source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8129'
 ht-degree: 7%
 
 ---
@@ -56,8 +56,8 @@ Há vários objetos de data que fornecem informações sobre quando eventos espe
 
 * `DL_LOAD_TIMESTAMP`: essa data é usada para referência interna e reflete quando os dados foram carregados na tabela Histórico Atual, de Eventos ou Diário. Essa data não deve ser usada para análise de dados e deve ser removida durante a fase beta do data lake da Workfront.
 * `CALENDAR_DATE`: esta data está presente apenas na tabela Histórico Diário. Esta tabela fornece um registro de como foram os dados às 11h59 UTC para cada data especificada em `CALENDAR_DATE`.
-* `BEGIN_EFFECTIVE_TIMESTAMP`: essa data está presente nas tabelas de Evento e Histórico diário, e registra exatamente quando um registro foi alterado _para_ o valor que possui na linha atual.
-* `END_EFFECTIVE_TIMESTAMP`: esta data está presente nas tabelas De evento e histórico diário, e registra exatamente quando um registro foi alterado _de_ um valor na linha atual para um valor em uma linha diferente. Para permitir entre consultas em `BEGIN_EFFECTIVE_TIMESTAMP` e `END_EFFECTIVE_TIMESTAMP`, esse valor nunca é nulo, mesmo que não haja um novo valor. Caso um registro ainda seja válido (isto é, o valor não tenha sido alterado), `END_EFFECTIVE_TIMESTAMP` terá um valor 2300-01-01.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: esta data está presente nas tabelas Evento e Histórico Diário e registra exatamente quando um registro mudou _para_ o valor que tem na linha atual.
+* `END_EFFECTIVE_TIMESTAMP`: Essa data está presente nas tabelas Evento e Histórico Diário e registra exatamente quando um registro alterou _de_ o valor na linha atual para um valor em uma linha diferente. Para permitir entre consultas em `BEGIN_EFFECTIVE_TIMESTAMP` e `END_EFFECTIVE_TIMESTAMP`, esse valor nunca é nulo, mesmo que não haja um novo valor. Caso um registro ainda seja válido (isto é, o valor não tenha sido alterado), `END_EFFECTIVE_TIMESTAMP` terá um valor 2300-01-01.
 
 ## Tabela de terminologia
 
@@ -81,16 +81,16 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
             <td>Nível de acesso</td>
             <td>ACSLVL</td>
             <td>Nível de acesso</td>
-            <td><br>ACCESSLEVELS_EVENT de ACCESSLEVELS_CURRENT ACCESSLEVELS_DAILY_HISTORY<br></td>
+            <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
         </tr>
       </tbody>
 </table>
 <table>
     <thead>
         <tr>
-            <th>Chave primária/externa</th>
+            <th>Chave primária/estrangeira</th>
             <th>Tipo</th>
-            <th>Tabela relacionada</th>
+            <th>Tabela Relacionada</th>
             <th>Campo relacionado</th>
         </tr>
     </thead>
@@ -206,10 +206,10 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
 <table>
     <thead>
         <tr>
-            <th>Nome da entidade da workfront</th>
+            <th>Nome da entidade Workfront</th>
             <th>Referências da interface</th>
             <th>Referência da API</th>
-            <th>Rotular da API</th>
+            <th>Rótulo da API</th>
             <th>Visualizações do Data Lake</th>
         </tr>
       </thead>
@@ -1114,7 +1114,7 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">Não é um relacionamento; usado para fins internos de aplicativo</td>
+             <td colspan="2">Não é um relacionamento; usado para fins de aplicação interna</td>
         </tr>
         <tr>
              <td>TASKID</td>
@@ -1394,7 +1394,7 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">Não é um relacionamento; usado para fins internos de aplicativo</td>
+             <td colspan="2">Não é um relacionamento; usado para fins de aplicação interna</td>
         </tr>
     </tbody>
 </table>
@@ -1748,8 +1748,8 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
         <tr>
              <td>OBJID</td>
              <td>FK</td>
-             <td>Variável, com base no OBJCODE</td>
-             <td>A chave principal / ID do objeto identificado no campo OBJCODE</td>
+             <td>Variável, com base em OBJCODE</td>
+             <td>A chave/ID primária do objeto identificado no campo OBJCODE</td>
         </tr>
         <tr>
              <td>OPTASKID</td>
@@ -1890,6 +1890,235 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
              <td>SYSID</td>
              <td>-</td>
              <td colspan="2">Não é um relacionamento; usado para fins de aplicação interna</td>
+        </tr>
+    </tbody>
+</table>
+
+### Aprovação de documento (NOVA)
+
+Disponibilidade limitada para o cliente
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome da entidade Workfront</th>
+            <th>Referências da interface</th>
+            <th>Referência da API</th>
+            <th>Rótulo da API</th>
+            <th>Visualizações do Data Lake</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Aprovação de documento</td>
+            <td>Aprovação</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>APPROVAL_CURRENT<br>APPROVAL_DAILY_HISTORY<br>APPROVAL_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Chave primária/estrangeira</th>
+            <th>Tipo</th>
+            <th>Tabela Relacionada</th>
+            <th>Campo relacionado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVALID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>OBSERVAÇÃO: essa também é a ID do objeto DOCUMENTVERSION ao qual a aprovação está associada.</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>Variável, com base em ASSETTYPE</td>
+             <td>A chave primária/ID do objeto identificado no campo ASSETTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">EAUTHTENANTID</td>
+             <td>-</td>
+             <td colspan="2">Não é um relacionamento; usado para fins de aplicação interna</td>
+        </tr>
+        <tr>
+             <td class="key">PRODUCTID</td>
+             <td>-</td>
+             <td colspan="2">Não é um relacionamento; usado para fins de aplicação interna</td>
+        </tr>
+        <tr>
+             <td class="key">REALCREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Estágio de aprovação de documento (NOVO)
+
+Disponibilidade limitada para o cliente
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome da entidade Workfront</th>
+            <th>Referências da interface</th>
+            <th>Referência da API</th>
+            <th>Rótulo da API</th>
+            <th>Visualizações do Data Lake</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Estágio de aprovação do documento</td>
+            <td>Estágio de aprovação</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>APPROVAL_STAGE_CURRENT<br>APPROVAL_STAGE_DAILY_HISTORY<br>APPROVAL_STAGE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Chave primária/estrangeira</th>
+            <th>Tipo</th>
+            <th>Tabela Relacionada</th>
+            <th>Campo relacionado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVALID</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>APPROVALID</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variável, com base em OBJCODE</td>
+             <td>A chave/ID primária do objeto identificado no campo OBJCODE</td>
+        </tr>
+    </tbody>
+</table>
+
+### Participantes do estágio de aprovação de documento (NOVO)
+
+Disponibilidade limitada para o cliente
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome da entidade Workfront</th>
+            <th>Referências da interface</th>
+            <th>Referência da API</th>
+            <th>Rótulo da API</th>
+            <th>Visualizações do Data Lake</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Participante do estágio de aprovação do documento</td>
+            <td>Decisões de aprovação</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>APPROVAL_STAGE_PARTICIPANT_CURRENT<br>APPROVAL_STAGE_PARTICIPANT_DAILY_HISTORY<br>APPROVAL_STAGE_PARTICIPANT_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Chave primária/estrangeira</th>
+            <th>Tipo</th>
+            <th>Tabela Relacionada</th>
+            <th>Campo relacionado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVALID</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>APPROVALID</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEPARTICIPANTID/td&gt;
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>Variável, com base em ASSETTYPE</td>
+             <td>A chave primária/ID do objeto identificado no campo ASSETTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">DECISIONUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variável, com base em OBJCODE</td>
+             <td>A chave/ID primária do objeto identificado no campo OBJCODE</td>
+        </tr>
+        <tr>
+             <td class="key">PARTICIPANTID</td>
+             <td>FK</td>
+             <td class="relatedtable">Variável, baseada em PARTICIPANTTYPE</td>
+             <td>A chave primária/ID do objeto identificado no campo PARTICIPANTTYPE</td>
+        </tr>
+        <tr>
+             <td class="key">REALREQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">REALUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">REQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">STAGEID</td>
+             <td>FK</td>
+             <td>APPROVAL_STAGE_CURRENT</td>
+             <td>STAGEID</td>
         </tr>
     </tbody>
 </table>
@@ -2322,7 +2551,7 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
 <table>
     <thead>
         <tr>
-            <th>Nome da entidade da workfront</th>
+            <th>Nome da entidade Workfront</th>
             <th>Referências da interface</th>
             <th>Referência da API</th>
             <th>Rótulo da API</th>
@@ -2587,7 +2816,7 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
             <th>Nome da entidade Workfront</th>
             <th>Referências da interface</th>
             <th>Referência da API</th>
-            <th>Rotular da API</th>
+            <th>Rótulo da API</th>
             <th>Visualizações do Data Lake</th>
         </tr>
       </thead>
@@ -2737,7 +2966,7 @@ Auto</td>
             <td>Tipo de hora</td>
             <td>HORA</td>
             <td>Tipo de hora</td>
-            <td><br>HOURTYPES_EVENT de HOURTYPES_DAILY_HISTORY de HOURTYPES_CURRENT<br></td>
+            <td>HOURTYPES_CURRENT<br>HOURTYPES_DAILY_HISTORY<br>HOURTYPES_EVENT</td>
         </tr>
       </tbody>
 </table>
@@ -2794,16 +3023,16 @@ Auto</td>
             <td>Iteração</td>
             <td>ITRN</td>
             <td>Iteração</td>
-            <td><br>ITERATIONS_EVENT ITERATIONS_CURRENT de ITERATIONS_DAILY_HISTORY<br></td>
+            <td>ITERATIONS_CURRENT<br>ITERATIONS_DAILY_HISTORY<br>ITERATIONS_EVENT</td>
         </tr>
       </tbody>
 </table>
 <table>
     <thead>
         <tr>
-            <th>Chave primária/externa</th>
+            <th>Chave primária/estrangeira</th>
             <th>Tipo</th>
-            <th>Tabela relacionada</th>
+            <th>Tabela Relacionada</th>
             <th>Campo relacionado</th>
         </tr>
     </thead>
@@ -3499,7 +3728,7 @@ Auto</td>
              <td>ATTACHWORKUSERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID DE USUÁRIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>AUDITRECORDID</td>
@@ -3944,12 +4173,12 @@ Auto</td>
              <td>SUBMITTEDBYID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID DE USUÁRIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">Não é um relacionamento; usado para fins internos de aplicativo</td>
+             <td colspan="2">Não é um relacionamento; usado para fins de aplicação interna</td>
         </tr>
         <tr>
              <td>TEAMID</td>
@@ -3965,7 +4194,7 @@ Auto</td>
 <table>
     <thead>
         <tr>
-            <th>Nome da entidade da workfront</th>
+            <th>Nome da entidade Workfront</th>
             <th>Referências da interface</th>
             <th>Referência da API</th>
             <th>Rótulo da API</th>
@@ -4508,7 +4737,7 @@ Auto</td>
              <td>OWNERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID DE USUÁRIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>PORTFOLIOID</td>
@@ -4529,7 +4758,7 @@ Auto</td>
 <table>
     <thead>
         <tr>
-            <th>Nome da entidade da workfront</th>
+            <th>Nome da entidade Workfront</th>
             <th>Referências da interface</th>
             <th>Referência da API</th>
             <th>Rótulo da API</th>
@@ -5008,7 +5237,7 @@ Auto</td>
             <th>Nome da entidade Workfront</th>
             <th>Referências da interface</th>
             <th>Referência da API</th>
-            <th>Rotular da API</th>
+            <th>Rótulo da API</th>
             <th>Visualizações do Data Lake</th>
         </tr>
       </thead>
@@ -5137,7 +5366,7 @@ Auto</td>
       </thead>
       <tbody>
         <tr>
-            <td>Contagem de estatística do Exibir relatórios</td>
+            <td>Contagem de Estatísticas de Exibições de Relatórios</td>
             <td>Contagem de Estatísticas de Exibições de Relatórios</td>
             <td>PLSVST</td>
             <td>PortalSectionStatisticInfo</td>
@@ -5150,7 +5379,7 @@ Auto</td>
         <tr>
             <th>Chave primária/estrangeira</th>
             <th>Tipo</th>
-            <th>Tabela relacionada</th>
+            <th>Tabela Relacionada</th>
             <th>Campo relacionado</th>
         </tr>
     </thead>
@@ -5170,17 +5399,17 @@ Auto</td>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">Não é um relacionamento; usado para fins internos de aplicativo</td>
+             <td colspan="2">Não é um relacionamento; usado para fins de aplicação interna</td>
         </tr>
     </tbody>
 </table>
 
-### Horas orçamentárias reportáveis
+### Horas Orçadas Relatáveis
 
 <table>
     <thead>
         <tr>
-            <th>Nome da entidade da workfront</th>
+            <th>Nome da entidade Workfront</th>
             <th>Referências da interface</th>
             <th>Referência da API</th>
             <th>Rótulo da API</th>
@@ -5289,7 +5518,7 @@ Auto</td>
              <td>TASKID</td>
         </tr>
         <tr>
-             <td>ID DE USUÁRIO</td>
+             <td>USERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
              <td>USERID</td>
@@ -5749,7 +5978,7 @@ Auto</td>
              <td>ENTEREDBY ID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
-             <td>ID DE USUÁRIO</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>GROUPID</td>
@@ -6227,7 +6456,7 @@ Auto</td>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">Não é um relacionamento; usado para fins internos de aplicativo</td>
+             <td colspan="2">Não é um relacionamento; usado para fins de aplicação interna</td>
         </tr>
         <tr>
              <td>TEAMID</td>
@@ -7895,16 +8124,16 @@ Disponibilidade limitada para o cliente
             <td>Conjunto de Funções do Usuário</td>
             <td>URSET</td>
             <td>UserRoleSet</td>
-            <td><br>USERROLESET_EVENT de USERROLESET_CURRENT USERROLESET_DAILY_HISTORY<br></td>
+            <td>USERROLESET_CURRENT<br>USERROLESET_DAILY_HISTORY<br>USERROLESET_EVENT</td>
         </tr>
       </tbody>
 </table>
 <table>
     <thead>
         <tr>
-            <th>Chave primária/externa</th>
+            <th>Chave primária/estrangeira</th>
             <th>Tipo</th>
-            <th>Tabela relacionada</th>
+            <th>Tabela Relacionada</th>
             <th>Campo relacionado</th>
         </tr>
     </thead>
