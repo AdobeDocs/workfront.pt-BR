@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 82694183c32938905f1f8542c430d3c453274cb6
+source-git-commit: a5769e57a9fe28b816e7fb4474ec4a67f837f530
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,16 @@ As seguintes alterações foram feitas para assinaturas de evento Versão 2:
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Valores de parâmetro</p> </td> 
-   <td> <p>Para qualquer objeto criado a partir de um modelo que incluísse um formulário personalizado, um evento <code>CREATE</code> era enviado e <code>UPDATE</code> era enviado com os valores de parâmetro (incluindo campos calculados e seus valores).    </p> </td> 
+   <td> <p>Valores de parâmetro calculados</p> </td> 
+   <td> <p>Qualquer objeto criado a partir de um modelo que incluísse um formulário personalizado com valores de parâmetro calculados, um evento <code>CREATE</code> seria enviado e um <code>UPDATE</code> seria enviado com os valores de parâmetro (incluindo campos calculados e seus valores). </p> </td> 
    <td> <p>Quando um objeto é criado a partir de um modelo que inclui um formulário personalizado com valores de parâmetro calculados, somente um evento <code>CREATE</code> será enviado e conterá valores de parâmetro, incluindo campos calculados.</p> </td> 
-   <td> <p>Se você tiver uma assinatura do <tr><ul><ul><code>UPDATE<code> events and are expecting to receive an <code>UPDATE</code> event after an object is created with calculated parameter values, you will no longer receive that <code>UPDATE</code> event. If you wish to see calculated parameter values on object creation, you must create an additional <code>CREATE</code> subscription.</p> </td> 
+   <td> <p>Se você tiver uma assinatura para <code>UPDATE</code> eventos e estiver esperando receber um evento <code>UPDATE</code> depois que um objeto for criado com valores de parâmetro calculados, você não receberá mais esse evento <code>UPDATE</code>. Se quiser ver valores de parâmetros calculados na criação de objetos, você deve criar uma assinatura <code>CREATE</code> adicional.</p> </td> 
   </tr> 
-   
-   <td> <p>Multi-Select type fields</p> </td> 
-   <td> <p>For any type of event that contains a change on a multi-select type field, if the field only contained one value it would be converted to and sent as a string. Otherwise it would be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is converted and sent as <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>Regardless of how many values are in the array, it will be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is sent as <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
-   <td> <p>If you have a subscription with a filter on a multi-select field, and the value as a string, you must create a new subscription with the same filter that has the value as an array. </p> </td> 
+  <tr> 
+   <td> <p>Campos do tipo Seleção múltipla</p> </td> 
+   <td> <p>Para qualquer tipo de evento que contenha uma alteração em um campo de tipo de seleção múltipla, se o campo contivesse apenas um valor, ele seria convertido em e enviado como uma string. Caso contrário, ele será enviado como uma matriz. </p><p>Exemplos:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> é convertido e enviado como <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> é enviado como <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Independentemente de quantos valores existam na matriz, ela será enviada como uma matriz. </p><p>Exemplos:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> é enviado como <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> é enviado como <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Se você tiver uma assinatura com um filtro em um campo de seleção múltipla e o valor como uma cadeia de caracteres, deverá criar uma nova assinatura com o mesmo filtro que tem o valor como uma matriz. </p> </td> 
   </tr> 
  </tbody> 
 </table>
