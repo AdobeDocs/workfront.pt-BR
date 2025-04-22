@@ -6,7 +6,7 @@ description: Você pode compartilhar um calendário com outros usuários e dispo
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 14b78ee4dc441ca84b891b2f021d959fcf357fdd
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 0%
@@ -78,11 +78,15 @@ Para compartilhar um calendário dentro de [!DNL Workfront]:
    * **[!UICONTROL Exibir]:** Os usuários podem revisar e compartilhar o calendário.
 
      ![Compartilhar calendário com Acesso de exibição](assets/calendar-share-view-permissions-350x249.png)
-     <!--![Share calendar with view access](assets/view-calendar.png)-->
+
+     <!--
+      ![Share calendar with view access](assets/view-calendar.png)
+      -->
 
    * **[!UICONTROL Gerenciar]:** os usuários têm acesso total ao calendário, menos os direitos administrativos, que são concedidos no nível de acesso, mais todas as permissões de Exibição.
 
      ![Compartilhar calendário com Acesso de gerenciamento](assets/calendar-share-manage-permissions-350x241.png)
+
      <!--![Share calendar with manage access](assets/manage-calendar.png)-->
 
      >[!NOTE]
