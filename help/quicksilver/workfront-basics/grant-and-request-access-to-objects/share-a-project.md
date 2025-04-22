@@ -6,7 +6,7 @@ description: O administrador do Adobe Workfront pode conceder acesso para visual
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 2%
@@ -159,7 +159,7 @@ Para obter informações sobre a exibição de permissões herdadas em um objeto
    * **Somente pessoas convidadas podem acessá-lo:** Somente usuários convidados para o projeto podem acessá-lo (Padrão).
    * **Todos no sistema podem exibir**: todos os usuários do sistema podem exibir o projeto sem um convite.
 
-1. (Opcional) Para aplicar automaticamente as configurações de acesso do projeto que você selecionou a todos os novos projetos, clique no ícone **Engrenagem** ![Selecione o ícone de engrenagem](assets/gear-icon.png) e marque a caixa de seleção alinhada com **Definir como meu modelo de acesso ao projeto**.
+1. (Opcional) Para aplicar automaticamente as configurações de acesso do projeto que você selecionou a todos os novos projetos, clique no ícone **Engrenagem** ![Selecione o ícone de engrenagem](assets/gear-icon.png) e marque a caixa de seleção integrada com **Definir como meu modelo de acesso ao projeto**.
 
    >[!NOTE]
    >

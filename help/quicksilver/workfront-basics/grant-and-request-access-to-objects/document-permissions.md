@@ -7,9 +7,9 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1247'
 ht-degree: 1%
 
 ---
@@ -123,19 +123,52 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 1. Clique na lista suspensa à direita do nome do usuário e selecione o nível de permissão para este documento:
 
    * **Exibir**: o usuário pode revisar e compartilhar o documento.
-   * **Gerenciar**: o usuário tem acesso total ao programa sem direitos administrativos, que são concedidos no nível de acesso (também inclui todas as permissões de Exibição).
+   * **Gerenciar**: o usuário tem acesso total ao documento sem direitos administrativos, que são concedidos no nível de acesso (também inclui todas as permissões de Exibição).
 
-1. (Opcional) Clique no ícone de opções avançadas ao lado do nível de permissão que você concedeu para configurar permissões específicas no programa.
+1. (Opcional) Clique no ícone de opções avançadas ao lado do nível de permissão que você concedeu para configurar permissões específicas no documento.
 
    ![Opções avançadas de permissão configuradas](assets/advanced-options-icon.png)
 
-1. (Opcional) Para desativar as permissões herdadas para os objetos filho do documento, clique em **Desativar** alinhado com **Permissões herdadas**.
+1. (Opcional) Para desativar as permissões herdadas para os objetos filho do documento, clique em **Desativar** embutido com **Permissões herdadas**.
 
 1. (Condicional) Para copiar o link público que permite compartilhar o documento com usuários externos, clique em **Copiar link público**.
 
    >[!CAUTION]
    >
    >Recomendamos que você tenha cuidado ao compartilhar com usuários externos um documento contendo informações confidenciais. Isso permite que eles visualizem informações sem ser um usuário da Workfront ou parte da organização.
+
+1. Clique em **Salvar**.
+
+## Compartilhar documentos em massa
+
+{{step1-to-documents}}
+
+1. Na guia **Todos os Documentos** da página **Documentos**, mantenha pressionada a tecla **Command** (Mac) ou **Ctrl** (Windows) no teclado e clique em cada documento que deseja compartilhar.
+
+1. Na parte superior da página, clique no **ícone Compartilhar** ![ícone Compartilhar](assets/share-icon.png). O modal de compartilhamento é aberto.
+
+   ![Ícone de compartilhamento](assets/share-documents-in-bulk.png)
+
+1. No campo **Conceder acesso ao documento para**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar os documentos e clique no nome quando ele aparecer na lista suspensa.
+
+   >[!TIP]
+   >
+   >Você só pode compartilhar documentos com usuários, equipes, funções ou empresas ativos.
+
+
+1. (Opcional) Selecione o menu suspenso **Quem tem acesso** e selecione o nível de acesso dos documentos:
+
+   * **Somente pessoas convidadas podem acessá-lo:** Somente usuários convidados para os documentos podem acessá-lo (Padrão).
+   * **Todos no sistema podem exibir**: todos os usuários do sistema podem exibir os documentos sem um convite.
+
+1. Clique na lista suspensa à direita do nome do usuário e selecione o nível de permissão para os documentos:
+
+   * **Exibir**: o usuário pode revisar e compartilhar os documentos.
+   * **Gerenciar**: o usuário tem acesso total aos documentos sem direitos administrativos, que são concedidos no nível de acesso (também inclui todas as permissões de Exibição).
+
+1. (Opcional) Clique no ícone de opções avançadas ao lado do nível de permissão que você concedeu para configurar permissões específicas nos documentos.
+
+   ![Opções avançadas de permissão configuradas](assets/advanced-options-icon.png)
 
 1. Clique em **Salvar**.
 
