@@ -4,12 +4,12 @@ product-area: projects
 keywords: compartilhar,programa,permissões
 navigation-topic: grant-and-request-access-to-objects
 description: O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar programas ao atribuir seu nível de acesso. Você deve ter uma licença de Plano para ter acesso para editar um programa.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 851e946fd4e9b0da725185227f9ed24334eafb86
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,43 @@ O administrador do Adobe Workfront pode conceder acesso para visualizar ou edita
 Além do nível de acesso concedido, você também pode receber permissões para exibir ou gerenciar programas específicos de usuários que podem compartilhá-los com você. Para obter mais informações sobre níveis de acesso e permissões, consulte [Como os níveis de acesso e as permissões funcionam juntos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 As permissões são específicas para cada item no Workfront e definem quais ações os usuários podem realizar nesse item.
+
+
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte para compartilhar objetos:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td> <p>Qualquer </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Novo: Padrão</p> 
+   Ou
+   <p>Atual: trabalho ou superior</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Exibir o acesso ou superior aos objetos que você deseja compartilhar</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td> <p>Exibir permissões ou superiores aos objetos que você deseja compartilhar</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações sobre o compartilhamento de um programa
 
@@ -44,6 +81,76 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
   Para obter mais informações sobre a hierarquia de objetos no Workfront, consulte [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Você pode remover permissões herdadas do programa. Para obter mais informações sobre como remover permissões de objetos, consulte  [Remover permissões de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+
+## Compartilhar um programa
+
+{{step1-to-programs}}
+
+1. Na página **Programas**, selecione o programa que deseja compartilhar. A página do programa é aberta.
+
+1. À direita do nome do programa, clique em **Compartilhar**. A caixa de diálogo **Compartilhar [Nome do Programa]** é aberta.
+
+   ![Botão Compartilhar programa](assets/share-program-button.png)
+
+1. No campo **Conceder acesso ao programa para**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o programa e clique no nome quando ele aparecer na lista suspensa.
+
+   >[!TIP]
+   >
+   >Você só pode compartilhar um programa com usuários, equipes, funções ou empresas ativos.
+
+
+1. (Opcional) Selecione o menu suspenso **Quem tem acesso** e selecione o nível de acesso do programa:
+
+   * **Somente pessoas convidadas podem acessá-lo:** Somente usuários convidados para o programa podem acessá-lo (Padrão).
+   * **Todos no sistema podem exibir**: todos os usuários do sistema podem exibir o programa sem um convite.
+
+
+1. Clique na lista suspensa à direita do nome do usuário e selecione o nível de permissão para este programa:
+
+   * **Exibir**: o usuário pode revisar e compartilhar o programa.
+   * **Gerenciar**: o usuário tem acesso total ao programa sem direitos administrativos, que são concedidos no nível de acesso (também inclui todas as permissões de Exibição).
+
+1. (Opcional) Clique no ícone de opções avançadas ao lado do nível de permissão que você concedeu para configurar permissões específicas no programa.
+
+   ![Opções avançadas de permissão configuradas](assets/advanced-options-icon.png)
+
+1. (Opcional) Para desativar as permissões herdadas para os objetos filho do programa, clique em **Desativar** alinhado com **Permissões herdadas**.
+
+1. (Opcional) Para compartilhar o programa rapidamente usando um link, clique em **Copiar link** e encaminhe-o para o destinatário.
+
+1. Clique em **Salvar**.
+
+## Compartilhar programas em massa
+
+{{step1-to-programs}}
+
+1. Na página **Programas**, selecione a caixa à esquerda de cada programa que você deseja compartilhar e clique no ícone **Compartilhar** ![Ícone Compartilhar](assets/share-icon.png) na parte superior da página. O modal de compartilhamento é aberto.
+
+   ![Programas de compartilhamento em massa](assets/bulk-share-programs.png)
+
+1. No campo **Conceder acesso ao programa para**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar os programas e clique no nome quando ele aparecer na lista suspensa.
+
+   >[!TIP]
+   >
+   >Você só pode compartilhar programas com usuários, equipes, funções ou empresas ativos.
+
+
+1. (Opcional) Selecione o menu suspenso **Quem tem acesso** e selecione o nível de acesso dos programas:
+
+   * **Somente pessoas convidadas podem acessá-las:** Somente usuários convidados para os programas podem acessá-las (Padrão).
+   * **Todos no sistema podem exibir**: todos os usuários do sistema podem exibir os programas sem um convite.
+
+
+1. Clique na lista suspensa à direita do nome do usuário e selecione o nível de permissão para os programas:
+
+   * **Exibir**: o usuário pode revisar e compartilhar os programas.
+   * **Gerenciar**: o usuário tem acesso total aos programas sem direitos administrativos, que são concedidos no nível de acesso (também inclui todas as permissões de Exibição).
+
+1. (Opcional) Clique no ícone de opções avançadas ao lado do nível de permissão que você concedeu para configurar permissões específicas nos programas.
+
+   ![Opções avançadas de permissão configuradas](assets/advanced-options-icon.png)
+
+1. Clique em **Salvar**.
 
 ## Permissões do programa
 

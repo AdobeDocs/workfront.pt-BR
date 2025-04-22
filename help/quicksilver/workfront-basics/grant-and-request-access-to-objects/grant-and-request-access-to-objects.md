@@ -2,20 +2,20 @@
 content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
-title: Conceder e solicitar permissões para objetos
+title: 'Conceder e solicitar permissões para objetos: índice do artigo'
 description: Leia estes artigos para saber como conceder e solicitar permissão para objetos no Workfront.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 0%
+source-wordcount: '176'
+ht-degree: 1%
 
 ---
 
-# Conceder e solicitar permissões para objetos
+# Conceder e solicitar permissões para objetos: índice do artigo
 
 Esta seção contém os seguintes artigos sobre como você pode conceder e solicitar permissão para objetos:
 
@@ -25,7 +25,7 @@ Esta seção contém os seguintes artigos sobre como você pode conceder e solic
 * [Solicitar acesso a objetos](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
 * [Exibir permissões herdadas em objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
 * [Remover permissões de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-* [Compartilhar um projeto no Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+* [Compartilhar um projeto](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
 * [Compartilhar uma tarefa](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
 * [Compartilhar um problema](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 * [Compartilhar um modelo](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)

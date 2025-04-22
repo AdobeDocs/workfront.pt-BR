@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Compartilhar um problema
 description: O administrador do Adobe Workfront concede aos usuários acesso para visualizar ou editar problemas ao atribuir níveis de acesso. Para obter mais informações sobre como conceder acesso a problemas, consulte Conceder acesso a problemas.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '1242'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,43 @@ O administrador do Adobe Workfront concede aos usuários acesso para visualizar 
 Juntamente com o nível de acesso concedido aos usuários, você também pode conceder a eles permissões para Exibir, Contribute ou Gerenciar problemas específicos que você tenha acesso para compartilhar. Para obter mais informações sobre níveis de acesso e permissões, consulte [Como os níveis de acesso e as permissões funcionam juntos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 As permissões são específicas a um item no Workfront e definem quais ações podem ser executadas nesse item.
+
+
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte para compartilhar objetos:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td> <p>Qualquer </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Novo: Padrão</p> 
+   Ou
+   <p>Atual: trabalho ou superior</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Exibir o acesso ou superior aos objetos que você deseja compartilhar</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td> <p>Exibir permissões ou superiores aos objetos que você deseja compartilhar</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações sobre problemas de compartilhamento
 
@@ -45,7 +82,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
 ## Maneiras de compartilhar um problema
 
-* Manualmente, que é semelhante ao compartilhamento de qualquer outro objeto no Workfront. Para obter mais informações sobre como compartilhar objetos no Workfront, consulte [Compartilhar um objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Manualmente, que é semelhante ao compartilhamento de qualquer outro objeto no Workfront.
 * Automaticamente, seguindo um destes procedimentos:
 
    * Especifique as permissões em qualquer um dos objetos principais do problema: projeto, programa ou portfólio. Os problemas herdam as permissões de seus objetos principais. Para obter informações sobre a exibição de permissões herdadas em objetos, consulte [Exibir permissões herdadas em objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
@@ -55,7 +92,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
      >[!TIP]
      >
-     >Se você não especificar as permissões de problema que deseja que os usuários tenham quando são atribuídos aos problemas no projeto, eles receberão as mesmas permissões que têm no projeto, por padrão.
+     >Se você não especificar as permissões de problema que deseja que os usuários tenham quando são atribuídos aos problemas no projeto, eles receberão as mesmas permissões que têm no projeto por padrão.
 
    * Especifique as permissões que os usuários recebem sobre problemas enviados em uma fila de solicitações ao criar uma fila de solicitações. Para obter informações, consulte [Criar uma fila de solicitações](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -124,6 +161,73 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 </ol>
 </div>
 -->
+
+## Compartilhar um problema
+
+1. Navegue até o problema que deseja compartilhar.
+
+1. À direita do nome do problema, clique em **Compartilhar**. A caixa de diálogo **Compartilhar [Nome do Problema]** é aberta.
+
+   ![Botão Compartilhar problema](assets/share-issue-button.png)
+
+1. No campo **Conceder acesso ao problema**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o problema e clique no nome quando ele aparecer na lista suspensa.
+
+   >[!TIP]
+   >
+   >Você só pode compartilhar um problema com usuários, equipes, funções ou empresas ativos.
+
+
+1. (Opcional) Selecione o menu suspenso **Quem tem acesso** e selecione o nível de acesso do problema:
+
+   * **Somente pessoas convidadas podem acessar:** Somente usuários convidados para o problema podem acessá-lo (Padrão).
+   * **Todos no sistema podem exibir**: todos os usuários do sistema podem exibir o problema sem um convite.
+
+1. Clique na lista suspensa à direita do nome do usuário e selecione o nível de permissão para esse problema:
+
+   * **Exibir**: o usuário pode revisar e compartilhar o problema.
+   * **Contribute**: o usuário pode fazer atualizações, registrar informações, fazer pequenas edições e compartilhar o problema (também inclui todas as permissões de exibição).
+   * **Gerenciar**: o usuário tem acesso total ao problema sem direitos administrativos, que são concedidos no nível de acesso (também inclui todas as permissões de Exibição e Contribute).
+
+1. (Opcional) Clique no ícone de opções avançadas ao lado do nível de permissão que você concedeu para configurar permissões específicas sobre o problema.
+
+   ![Opções avançadas de permissão configuradas](assets/advanced-permission-options.png)
+
+1. (Opcional) Para compartilhar o problema rapidamente usando um link, clique em **Copiar link** e encaminhe-o para o destinatário.
+
+1. Clique em **Salvar**.
+
+## Compartilhar problemas em massa
+
+1. Navegue até o projeto que contém os problemas que você deseja compartilhar.
+
+1. Na guia **Problemas** da página do projeto, selecione a caixa à esquerda de cada problema que você deseja compartilhar e clique no ícone **Compartilhar** ícone ![Compartilhar](assets/share-icon.png) na parte superior da página. O modal de compartilhamento é aberto.
+
+   ![Problemas de compartilhamento em massa](assets/bulk-share-issues.png)
+
+1. No campo **Conceder acesso ao problema para**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar os problemas e clique no nome quando ele aparecer na lista suspensa.
+
+   >[!TIP]
+   >
+   >Você só pode compartilhar problemas com usuários, equipes, funções ou empresas ativos.
+
+
+1. (Opcional) Selecione o menu suspenso **Quem tem acesso** e selecione o nível de acesso dos problemas:
+
+   * **Somente pessoas convidadas podem acessar:** Somente usuários convidados para os problemas podem acessá-los (Padrão).
+   * **Todos no sistema podem exibir**: todos os usuários do sistema podem exibir os problemas sem um convite.
+
+
+1. Clique na lista suspensa à direita do nome do usuário e selecione o nível de permissão para os problemas:
+
+   * **Exibir**: o usuário pode revisar e compartilhar os problemas.
+   * **Contribute**: o usuário pode fazer atualizações, registrar informações, fazer pequenas edições e compartilhar os problemas (também inclui todas as permissões de exibição).
+   * **Gerenciar**: o usuário tem acesso total aos problemas sem direitos administrativos, que são concedidos no nível de acesso (também inclui todas as permissões de Exibição e Contribute).
+
+1. (Opcional) Clique no ícone de opções avançadas ao lado do nível de permissão que você concedeu para configurar permissões específicas nos problemas.
+
+   ![Opções avançadas de permissão configuradas](assets/advanced-permission-options.png)
+
+1. Clique em **Salvar**.
 
 ## Permissões de problema
 

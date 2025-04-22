@@ -1,13 +1,13 @@
 ---
 title: Compartilhar um portfólio
 description: Você pode compartilhar um portfólio com outros usuários se tiver permissões para acessá-lo.
-author: Alina
+author: Courtney
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,43 @@ O administrador do Adobe Workfront pode conceder acesso para visualizar ou edita
 Além do nível de acesso concedido, você também pode receber permissões para exibir ou gerenciar portfólios específicos de usuários que podem compartilhá-los com você. Para obter mais informações sobre níveis de acesso e permissões, consulte [Como os níveis de acesso e as permissões funcionam juntos](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 As permissões são específicas a um item no Workfront e definem quais ações os usuários podem realizar nesse item.
+
+
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte para compartilhar objetos:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td> <p>Qualquer </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Novo: Padrão</p> 
+   Ou
+   <p>Atual: trabalho ou superior</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Exibir o acesso ou superior aos objetos que você deseja compartilhar</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td> <p>Exibir permissões ou superiores aos objetos que você deseja compartilhar</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações sobre o compartilhamento de portfólios
 
@@ -33,11 +70,79 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
 * Você só pode conceder permissões de Visualização ou Gerenciamento em Portfólios.
 </span>
-* Quando você compartilha um portfólio, os usuários herdam as mesmas permissões para todos os objetos secundários associados ao portfólio, por padrão.
+* Quando você compartilha um portfólio, os usuários herdam as mesmas permissões para todos os objetos secundários associados ao portfólio por padrão.
 
 Para obter mais informações sobre a hierarquia de objetos no Workfront, consulte [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Você pode remover permissões herdadas do Portfolio. Para obter mais informações sobre como remover permissões de objetos, consulte [Remover permissões de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+
+## Compartilhar um portfólio
+
+{{step1-to-portfolios}}
+
+1. Na página **Portfólios**, selecione o portfólio que deseja compartilhar. A página do portfólio é aberta.
+
+1. À direita do nome do portfólio, clique em **Compartilhar**. A caixa de diálogo **Compartilhar [Nome do Portfolio]** é aberta.
+
+   ![Botão Compartilhar portfólio](assets/share-portfolio-button.png)
+
+1. No campo **Conceder acesso ao portfólio para**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o portfólio e clique no nome quando ele aparecer na lista suspensa.
+
+   >[!TIP]
+   >
+   >Você só pode compartilhar um portfólio com usuários, equipes, funções ou empresas ativos.
+
+
+1. (Opcional) Selecione o menu suspenso **Quem tem acesso** e selecione o nível de acesso do portfólio:
+
+   * **Somente pessoas convidadas podem acessá-lo:** Somente usuários convidados para o portfólio podem acessá-lo (Padrão).
+   * **Todos no sistema podem visualizar**: todos os usuários no sistema podem visualizar o portfólio sem um convite.
+
+1. Clique na lista suspensa à direita do nome do usuário e selecione o nível de permissão para este portfólio:
+
+   * **Exibir**: o usuário pode revisar e compartilhar o portfólio.
+   * **Gerenciar**: o usuário tem acesso total ao portfólio sem direitos administrativos, que são concedidos no nível de acesso (também inclui todas as permissões de exibição).
+
+1. (Opcional) Clique no ícone de opções avançadas ao lado do nível de permissão que você concedeu para configurar permissões específicas no portfólio.
+
+   ![Opções avançadas de permissão configuradas](assets/advanced-options-icon.png)
+
+1. (Opcional) Para compartilhar rapidamente o portfólio usando um link, clique em **Copiar link** e encaminhe-o para o destinatário.
+
+1. Clique em **Salvar**.
+
+## Compartilhar portfólios em massa
+
+{{step1-to-portfolios}}
+
+1. Na página **Portfólios**, marque a caixa à esquerda de cada portfólio que você deseja compartilhar e clique no ícone **Compartilhar** ![Ícone Compartilhar](assets/share-icon.png) na parte superior da página. O modal de compartilhamento é aberto.
+
+   ![Portfólios de compartilhamento em massa](assets/bulk-share-portfolios.png)
+
+1. No campo **Conceder acesso ao portfólio para**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar os portfólios e clique no nome quando ele aparecer na lista suspensa.
+
+   >[!TIP]
+   >
+   >Você só pode compartilhar portfólios com usuários, equipes, funções ou empresas ativas.
+
+
+1. (Opcional) Selecione o menu suspenso **Quem tem acesso** e selecione o nível de acesso dos portfólios:
+
+   * **Somente pessoas convidadas podem acessá-las:** Somente usuários convidados para os portfólios podem acessá-las (Padrão).
+   * **Todos no sistema podem exibir**: todos os usuários do sistema podem exibir os portfólios sem um convite.
+
+
+1. Clique na lista suspensa à direita do nome do usuário e selecione o nível de permissão para os portfólios:
+
+   * **Exibir**: o usuário pode revisar e compartilhar os portfólios.
+   * **Gerenciar**: o usuário tem acesso total aos portfólios sem direitos administrativos, que são concedidos no nível de acesso (também inclui todas as permissões de Exibição).
+
+1. (Opcional) Clique no ícone de opções avançadas ao lado do nível de permissão que você concedeu para configurar permissões específicas nos portfólios.
+
+   ![Opções avançadas de permissão configuradas](assets/advanced-options-icon.png)
+
+1. Clique em **Salvar**.
+
 
 ## Permissões do Portfolio
 
