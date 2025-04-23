@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2863'
 ht-degree: 0%
 
 ---
 
 # Gerenciar a exibição de linha do tempo
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -90,65 +94,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
 
 ## Gerenciar uma exibição de linha do tempo {#manage-a-timeline-view}
 
@@ -326,7 +271,7 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
    >
    >Os registros que não têm valores para as datas de Início ou Término ou que têm uma data de Início posterior à data de Término não são exibidos na exibição de linha do tempo.
 
-1. Clique em **Estilo de barra** no painel esquerdo para indicar quais campos você deseja exibir nas barras de registro.
+1. Clique em **Estilo de barra** no painel esquerdo para indicar quais informações você deseja exibir nas barras de registro.
 
    O campo principal (ou título) do registro, conforme definido na exibição de tabela do registro, é selecionado por padrão. <!--adjust this when the primary field is released??-->
 
@@ -336,18 +281,30 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
    >
    >    Você deve primeiro adicionar miniaturas na exibição de tabela antes de exibi-las na exibição de linha do tempo. Para obter mais informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. Clique em **Adicionar campo** para adicionar até 4 campos às barras de registro.
-1. Clique dentro da caixa **Pesquisar campos** e clique no campo que deseja adicionar.
+1. Clique em **Adicionar campo**, clique dentro da caixa **Pesquisar campos** e clique no campo que deseja adicionar.
 
    >[!TIP]
    >
    >   * Você deve criar os campos antes de adicioná-los às barras de registro.
    > 
    >   * Você deve ter pelo menos um campo selecionado. O **Nome** está selecionado por padrão.
+   >
+   >   * Você pode adicionar até 5 campos.
 
    Uma visualização da aparência das barras na linha do tempo é exibida à direita.
 
    ![Gravar configurações de linha do tempo do painel de detalhes com visualização](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. <span class="preview">(Opcional e condicional) Se você exibir a linha do tempo no modo Padrão, habilite a configuração **Truncar detalhes da barra**. Quando ativado, as informações nas barras de registro são truncadas e são exibidas somente quando você passa o mouse sobre as barras. Essa configuração é desativada por padrão e as informações são totalmente exibidas nas barras. </span>
+
+   ![Truncar configuração habilitada na caixa de configurações da linha do tempo realçada](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+
+   >[!TIP]
+   >
+   >* <span class="preview">A configuração Truncar detalhes da barra não está disponível ao exibir o modo de exibição de linha do tempo no modo Compacto e não está disponível no modo de exibição Calendário.</span>
+   >
+   >* <span class="preview">Se você analisar a exibição da linha do tempo para exibir objetos conectados na linha do tempo, a configuração Truncar detalhes da barra será aplicada somente ao tipo de registro principal. Isso não se aplica às barras de registro conectadas.</span>
+
 
 1. Clique em **Cor** no painel esquerdo para personalizar as cores dos registros e agrupamentos na linha do tempo.
 
