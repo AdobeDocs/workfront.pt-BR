@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
+source-git-commit: 4536b0f15b208d96e7d823504574f879ed3dee2b
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,12 @@ Atualizamos a área Pesquisa avançada com as seguintes alterações:
 * O filtro na guia Pesquisa avançada é um pouco diferente. Agora, o filtro não é pré-preenchido. Você deve ativá-lo e criar o filtro do zero. O filtro não permanece se a página for atualizada.
 
 Para obter mais informações, consulte [Pesquisa [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
+
+### Atualização da interface para conceder acesso de suporte à sua conta da Workfront
+
+**Versão de visualização: 24 de abril; Versão de produção: a ser anunciada**
+
+Atualizamos a página usada para conceder acesso de suporte à sua conta do Workfront com um design mais moderno e consistente com outras áreas do Workfront.
 
 ## Administração e configuração
 
