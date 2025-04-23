@@ -3,10 +3,10 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Fornecer acesso às filas de solicitações
 description: Ao fornecer acesso a uma fila de solicitações, você determina quem na organização pode exibir a fila de solicitações na área Solicitações do Adobe Workfront.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Antes da fila de solicitações estar disponível para usuários na área Solici
    >Somente projetos com o status Atual ficam visíveis na área Solicitações.
 
 1. Clique em **Detalhes da fila** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e em **Detalhes da Fila**.
-1. Selecione **Publish como Fila de solicitação de ajuda** para designar o projeto como uma Fila de solicitação.
+1. Selecione **Publicar como Fila de Solicitação de Ajuda** para designar o projeto como uma Fila de Solicitação.
 1. Selecione entre as seguintes opções:
 
    * **Qualquer um**: qualquer usuário pode visualizar e adicionar solicitações à fila de solicitações.

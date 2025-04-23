@@ -4,13 +4,13 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: Criar e gerenciar filas de solicitações
 description: Você pode criar filas de solicitações no Adobe Workfront para capturar trabalho não planejado em sua organização. Os artigos a seguir descrevem como você pode configurar projetos para funcionarem como filas de solicitações.
-author: Lisa
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%
