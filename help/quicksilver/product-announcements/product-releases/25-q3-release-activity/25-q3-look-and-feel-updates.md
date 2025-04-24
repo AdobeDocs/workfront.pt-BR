@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
+source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '424'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,35 @@ ht-degree: 5%
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período de lançamento do terceiro trimestre de 2025.
 
 Para obter uma lista de todas as alterações disponíveis com a versão do terceiro trimestre de 2025, consulte a [visão geral da versão do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Atualizações de aparência para itens restaurados recentemente
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 23 de abril de 2025; Versão de produção para todos os clientes: 23 de abril de 2025
+
+Atualizamos a aparência dos itens restaurados recentemente na área Configuração para corresponder ao design de outras áreas do Workfront. Nenhuma funcionalidade foi alterada para projetos, tarefas, solicitações, documentos ou modelos restaurados recentemente.
+
+Para visualizar esta alteração, acesse Configuração > Lixeira > Restaurado recentemente.
+
+Para obter informações, consulte [Exibir itens restaurados](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+## Relatórios atualizados com novo estilo
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 23 de abril de 2025; Versão de produção para todos os clientes: 23 de abril de 2025
+
+Atualizamos a aparência de vários relatórios para corresponder ao design de outras áreas do Workfront. Nenhuma funcionalidade foi alterada.
+
+Esta atualização inclui alterações visuais nas listas e barras de ferramentas dos relatórios para os seguintes tipos de objeto:
+
+* Modelo de Tarefa
+* Grupos de Tópicos
+* Scorecards
+* Cronogramas
+
+Para obter informações, consulte [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Atualizações de aparência na área Gerenciamento de recursos em Configuração
 

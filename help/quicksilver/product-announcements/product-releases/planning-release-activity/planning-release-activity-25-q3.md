@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
+source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,18 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nova configuração para truncar nomes de registros longos na exibição de Linha do tempo Padrão
+
+>[!NOTE]
+>
+>* Visualização: 23 de abril de 2025
+>* Versão rápida de produção: 15 de maio de 2025
+>* Produção para todos os clientes: 17 de julho de 2025
+
+Agora é possível habilitar uma configuração na guia Estilo de barra da caixa Configurações de uma exibição de linha do tempo para truncar nomes de registro mais longos, ao exibi-los na exibição Padrão. A configuração é desativada por padrão e pode ser ativada somente ao exibir a exibição de linha do tempo no modo Padrão.
+
+Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Permissões de compartilhamento para tipos de registro
 
