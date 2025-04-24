@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '2034'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 +++
 
 <!--replace the layout template info in the table with this at release: 
-
 
 <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
 <p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
@@ -268,42 +267,75 @@ As seguintes situações ocorrem:
 
    Todas as alterações no layout da visualização do registro ou na página são salvas automaticamente.
 
-## Adicionar uma página de exibição de conexão à página de um registro
+## Adicionar uma guia Exibição de conexão à página de um registro
 
-<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+<!--suggested a new name for this type of page: "Connected records page" - check to see if this changed, and update this everywhere in this section-->
+
+Você pode exibir informações de registros ou objetos conectados adicionando uma guia para um tipo de página Exibição de conexão a um registro. As informações dos registros conectados são exibidas em uma exibição de tabela somente leitura.
+
+&lt;!-substituir a última frase acima por esta na versão:
+
+No ambiente de Produção, as informações dos registros ou objetos conectados são exibidas em uma exibição de tabela somente leitura.
+
+<Span class="preview">No ambiente de Visualização, as informações dos registros conectados podem ser editadas na exibição de tabela. As informações dos objetos conectados de outro aplicativo não são editáveis na exibição de tabela.</span> —>
 
 Considere o seguinte ao adicionar uma exibição de Conexão à página de um registro:
 
-* Você pode adicionar uma página de exibição de conexão à página de um registro.
+* Você pode adicionar uma página de exibição de conexão à página de um registro depois de conectar tipos de registro ou de objeto ao tipo de registro.
 
 * Não é possível adicionar uma página de exibição de conexão à área de visualização de um registro.
 
-* As páginas de exibição de conexão exibem uma página do tipo de registro conectada na exibição de tabela.
+* As páginas de exibição de conexão exibem uma página de tipo de registro conectada ou um tipo de objeto conectado de outro aplicativo em uma exibição de tabela.
 
 * Depois de adicionar uma página Exibição de conexão à página de um registro, a guia Página fica visível na área de visualização do registro. Você deve ir para a página inteira para ver a exibição de tabela do registro conectado. <!--this might have changed? check and take disclaimer out-->
 
 Para adicionar uma página de exibição de conexão:
 
 1. Em uma exibição de página de registro, clique no nome de um registro para abri-lo e no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da página de visualização.
-1. Clique em **Adicionar página** > **Exibição de conexão**.
+1. Clique em **Adicionar página**.
 
    ![Adicionar modal da página de exibição de conexão](assets/add-connection-view-page-modal.png)
 1. Adicione o **Nome da página**, clique em **Modo de exibição de conexão** e em **Criar**.
 
    Uma nova guia é adicionada à página do registro.
-1. Pesquise ou clique no nome de um registro ou tipo de objeto conectado na lista.
-A exibição de tabela do tipo de registro selecionado é exibida e os registros conectados são exibidos na exibição de tabela.
+1. Procure ou clique no nome de um registro ou tipo de objeto conectado na lista.
+A exibição de tabela do tipo de registro selecionado é exibida na nova página e os registros conectados são exibidos na exibição de tabela.
 Todos os campos do registro conectado são exibidos na exibição de tabela da guia do registro conectado.
 
    Os primeiros cinco campos da tabela de registro conectada são exibidos por padrão. Nenhum campo de pesquisa é exibido por padrão.
-
-   A exibição de tabela é somente leitura.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![Exibição da tabela conectada ao público-alvo nos detalhes da campanha](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. (Opcional) Clique duas vezes no nome da guia
+1. (Opcional) Na exibição de tabela dos registros conectados, siga um destes procedimentos:
+
+   * Clique no nome de um registro. A página do registro será aberta em uma nova guia. <!--<span class="preview">In the Preview environment, this opens the record's preview page.</span>-->
+   * Clique em **Conectar** para conectar mais registros e em fora da caixa de conexão para fechá-la. Os novos registros são adicionados automaticamente à tabela.
+     <!--* <span class="preview">Edit any information from the connected records inside the table view. </span>-->
+
+   <!--<div class="preview">
+
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
+      * View 
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Insert record above or below
+      * Delete 
+   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
+      * View
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Delete. Delete is the only option available when you select more than one record. 
+
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+   </div>-->
+
+
+1. (Opcional) Clique duas vezes no nome da guia Exibição de conexão
 
    Ou
 
@@ -323,7 +355,7 @@ Todos os campos do registro conectado são exibidos na exibição de tabela da g
    >
 
 1. Clique em **Conectar** para adicionar ou remover registros. Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
-1. (Opcional) Passe o mouse sobre o nome da guia Exibição de conexão, clique em **Mais** ![Mais menu](assets/more-menu.png) e em **Excluir** para remover para a nova guia Exibição conectada.
+1. (Opcional) Passe o mouse sobre o nome da guia Exibição de conexão, clique em **Mais** ![Mais menu](assets/more-menu.png) e em **Excluir** para remover para a guia.
 
 
 

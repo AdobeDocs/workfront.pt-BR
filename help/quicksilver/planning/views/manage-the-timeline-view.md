@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2860'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+-->
 
 ## Gerenciar uma exibição de linha do tempo {#manage-a-timeline-view}
 
@@ -303,7 +311,7 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
    >
    >* <span class="preview">A configuração Truncar detalhes da barra não está disponível ao exibir o modo de exibição de linha do tempo no modo Compacto e não está disponível no modo de exibição Calendário.</span>
    >
-   >* <span class="preview">Se você analisar a exibição da linha do tempo para exibir objetos conectados na linha do tempo, a configuração Truncar detalhes da barra será aplicada somente ao tipo de registro principal. Isso não se aplica às barras de registro conectadas.</span>
+   >* <span class="preview">Se você analisar a exibição da linha do tempo para exibir objetos conectados, a configuração Truncar detalhes da barra será aplicada somente ao tipo de registro principal. Isso não se aplica às barras de registro conectadas.</span>
 
 
 1. Clique em **Cor** no painel esquerdo para personalizar as cores dos registros e agrupamentos na linha do tempo.
