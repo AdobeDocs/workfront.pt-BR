@@ -6,16 +6,14 @@ description: Você pode modificar um calendário existente adicionando ou exclui
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: c8f4d8e460ed9247ca5d89c9a711ecb1ec5ed1e9
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
 # Editar um relatório de calendário existente
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Você pode modificar um calendário existente adicionando ou excluindo um link para um projeto. Você também pode modificar agrupamentos de calendários associados a um relatório de calendário.
 
@@ -60,45 +58,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 +++
 
-## Editar um relatório de calendário existente na produção
+
+## Editar um relatório de calendário existente
 
 {{step1-to-calendars}}
 
-1. (Opcional) Para alterar o nome do relatório de calendário, clique no campo [!UICONTROL nome do calendário] e faça as alterações desejadas. Recomendamos usar somente caracteres UTF-8 para evitar problemas de compatibilidade.
-
-   ![Alterar nome do relatório](assets/titlechange-250x230.png)
-
-   Se você compartilhou o relatório de calendário com outros usuários ou equipes, o nome de calendário modificado é atualizado automaticamente na exibição de calendário.
-
-1. (Opcional) Para adicionar um projeto ao relatório de calendário:
-
-   1. Clique em **[!UICONTROL Adicionar ao Calendário].**
-   1. No campo **[!UICONTROL Nome do projeto]**, comece digitando o nome de um projeto do qual deseja adicionar eventos de calendário, em seguida, clique no nome quando ele for exibido na lista suspensa.
-
-      ![Selecione o nome do projeto](assets/calendar-project-name.png)
-Itens do projeto e suas tarefas e problemas associados são adicionados ao relatório de calendário.
-
-1. (Opcional) Para adicionar um agrupamento de calendário ou modificar um agrupamento de calendário existente:
-
-   1. Passe o mouse sobre o nome do projeto, clique na seta suspensa ao lado do nome do projeto e clique em **[!UICONTROL Editar]**.
-
-      ![Editar agrupamento de calendário](assets/editcalendergroup-350x126.png)
-
-   1. Escolha como deseja agrupar os itens:
-
-      * [Usar [!UICONTROL Datas planejadas] em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-      * [Usar [!UICONTROL Datas Projetadas] em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
-      * [Usar campos de data personalizados em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-
-
-<div class="preview">
-
-## Editar um relatório de calendário existente em Visualizar
-
-{{step1-to-calendars}}
-
-1. (Opcional) Para alterar o nome do relatório de calendário, clique no menu **Mais** e selecione **Editar**.
-   ![mais menu](assets/new-more-menu-calendar.png)
+1. (Opcional) Para alterar o nome do relatório de calendário, clique em **Renomear**, ao lado do menu suspenso do calendário.
 Se você compartilhou o relatório de calendário com outros usuários ou equipes, o nome de calendário modificado é atualizado automaticamente na exibição de calendário.
 
 1. (Opcional) Para adicionar um projeto ao relatório de calendário:
@@ -110,7 +75,7 @@ Se você compartilhou o relatório de calendário com outros usuários ou equipe
 
 1. (Opcional) Para adicionar um agrupamento de calendário ou modificar um agrupamento de calendário existente:
    1. Clique no menu **Mais** ao lado do nome do projeto e clique em **Editar**.
-      ![editar projeto no calendário](assets/edit-project-in-calendar.png)e
+      ![editar projeto no calendário](assets/edit-project-in-calendar.png)
 
    1. Escolha como deseja agrupar os itens:
 
@@ -118,5 +83,3 @@ Se você compartilhou o relatório de calendário com outros usuários ou equipe
       * [Usar [!UICONTROL Datas Projetadas] em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Usar campos de data personalizados em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 
-
-      </div>

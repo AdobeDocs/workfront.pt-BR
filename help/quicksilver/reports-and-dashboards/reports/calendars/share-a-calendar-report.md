@@ -6,16 +6,15 @@ description: Você pode compartilhar um calendário com outros usuários e dispo
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 14b78ee4dc441ca84b891b2f021d959fcf357fdd
+source-git-commit: 0606dab832753543ceef4b5b505413967176aec4
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # Compartilhar um relatório de calendário
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Você pode compartilhar um calendário com outros usuários e disponibilizá-lo publicamente, permitindo que alguém sem uma licença do [!DNL Adobe Workfront] o visualize.
 
@@ -65,10 +64,8 @@ Os calendários compartilhados com você são exibidos com um asterisco (&#42;) 
 Para compartilhar um calendário dentro de [!DNL Workfront]:
 
 1. Vá para o calendário que deseja compartilhar.
-1. <span class="preview">Em Visualizar, clique no menu **Mais** ao lado do nome do calendário e clique em **Compartilhamento**.
-   ![menu de calendário a mais](assets/more-menu-calendar.png)</span>
-1. Clique em **[!UICONTROL Ações de Calendário]** e em **[!UICONTROL Compartilhamento]**.
-
+1. Clique no menu **Mais** ao lado do nome do calendário e clique em **Compartilhamento**.
+   ![menu de calendário a mais](assets/more-menu-calendar.png)
 1. No campo **[!UICONTROL Conceder acesso ao Calendário]**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa à qual deseja compartilhar o calendário e, em seguida, clique no nome quando ele for exibido na lista suspensa.\
    Para saber mais sobre como configurar permissões, consulte [Visão geral das permissões de compartilhamento em objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -77,17 +74,11 @@ Para compartilhar um calendário dentro de [!DNL Workfront]:
 
    * **[!UICONTROL Exibir]:** Os usuários podem revisar e compartilhar o calendário.
 
-     ![Compartilhar calendário com Acesso de exibição](assets/calendar-share-view-permissions-350x249.png)
-
-     <!--
-      ![Share calendar with view access](assets/view-calendar.png)
-      -->
+     ![Compartilhar calendário com acesso de exibição](assets/view-calendar.png)
 
    * **[!UICONTROL Gerenciar]:** os usuários têm acesso total ao calendário, menos os direitos administrativos, que são concedidos no nível de acesso, mais todas as permissões de Exibição.
 
-     ![Compartilhar calendário com Acesso de gerenciamento](assets/calendar-share-manage-permissions-350x241.png)
-
-     <!--![Share calendar with manage access](assets/manage-calendar.png)-->
+     ![Compartilhar calendário com acesso de gerenciamento](assets/manage-calendar.png)
 
      >[!NOTE]
      >
@@ -108,12 +99,9 @@ Você pode tornar um calendário público e compartilhar um link com pessoas que
 
 1. Vá para o calendário que deseja compartilhar.
 1. Clique em **[!UICONTROL Ações de Calendário]** e em **[!UICONTROL Compartilhamento]**.
-1. <span class="preview">Em Visualizar, clique no menu **Mais** ao lado do nome do calendário.
-   ![menu de calendário a mais](assets/more-menu-calendar.png)</span>
-
-1. Clique no ícone de engrenagem e, em seguida, clique em **[!UICONTROL Tornar isto público para usuários externos]**.
-1. Clique em **[!UICONTROL Copiar link]**.
-1. <span class="preview">Em Visualizar, clique em **Copiar link público**.</span>
+1. Clique no menu **Mais** ao lado do nome do calendário.
+   ![menu de calendário a mais](assets/more-menu-calendar.png)
+Clique em **Copiar link público**.
 1. Clique em **[!UICONTROL Salvar]**.
 
 ## Compartilhar um calendário com um link privado
@@ -121,10 +109,8 @@ Você pode tornar um calendário público e compartilhar um link com pessoas que
 Você pode compartilhar um link privado de calendário com [!DNL Workfront] usuários. Os usuários precisam fazer logon para exibir o calendário quando usam o link.
 
 1. Vá para o calendário que deseja compartilhar.
-1. <span class="preview">Em Visualizar, clique no menu **Mais** ao lado do nome do calendário e clique em **[!UICONTROL Obter Link Compartilhável]**.
-   ![menu de calendário a mais](assets/more-menu-calendar.png)</span>
-1. Clique em **[!UICONTROL Ações de Calendário]** e em **[!UICONTROL Obter Link Compartilhável]**.
-1. Clique em **[!UICONTROL Copiar link]**.
+1. Clique no menu **Mais** ao lado do nome do calendário e clique em **[!UICONTROL Obter link compartilhável]**.
+   ![menu de calendário a mais](assets/more-menu-calendar.png)
 
    >[!NOTE]
    >

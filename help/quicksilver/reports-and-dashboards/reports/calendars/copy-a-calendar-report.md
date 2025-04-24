@@ -6,9 +6,9 @@ description: Se você criou um calendário, é possível copiar o calendário e 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -58,23 +58,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 +++
 
-## Copiar um relatório de calendário na produção
 
-1. Vá para o calendário que deseja copiar.
-1. Na barra de ferramentas **[!UICONTROL Calendário]**, clique em **[!UICONTROL Ações de Calendário]** e selecione **[!UICONTROL Copiar]** na lista suspensa.
-Uma cópia do calendário é aberta.
-
-   ![Copiar o relatório de calendário](assets/copy-calendar-report.png)
-
-   Todos os projetos e agrupamentos do calendário original são exibidos na cópia do calendário. Somente objetos colocados por filtros de calendário são exportados para o calendário recém-copiado. Todos os eventos adicionados manualmente ao calendário original devem ser adicionados manualmente ao calendário copiado.
-
-   Somente você tem acesso ao calendário copiado. Os usuários com acesso ao calendário original não têm acesso ao calendário copiado. Você pode conceder acesso ao calendário recém-criado compartilhando-o com outros usuários. Para saber mais sobre o compartilhamento de calendários, consulte [[!UICONTROL Compartilhar um calendário] relatório](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
-
-1. (Opcional) Renomeie o calendário.
-
-<div class="preview">
-
-## Copiar um relatório de calendário em Visualizar
+## Copiar um relatório de calendário
 
 1. Vá para o calendário que deseja copiar.
 1. Clique no menu **Mais** ao lado do menu suspenso Calendário.
@@ -83,13 +68,10 @@ Uma cópia do calendário é aberta.
 1. Selecione **[!UICONTROL Copiar]** na lista suspensa. O calendário é copiado e você é direcionado à nova cópia.
 
 
->[!NOTE]
->
->Todos os projetos e agrupamentos do calendário original são exibidos na cópia do calendário. Somente objetos colocados por filtros de calendário são exportados para o calendário recém-copiado. Todos os eventos adicionados manualmente ao calendário original devem ser adicionados manualmente ao calendário copiado.
-> 
->
->Somente você tem acesso ao calendário copiado. Os usuários com acesso ao calendário original não têm acesso ao calendário copiado. Você pode conceder acesso ao calendário recém-criado compartilhando-o com outros usuários. Para saber mais sobre o compartilhamento de calendários, consulte [[!UICONTROL Compartilhar um calendário] relatório](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+   >[!NOTE]
+   >
+   >Todos os projetos e agrupamentos do calendário original são exibidos na cópia do calendário. Somente objetos colocados por filtros de calendário são exportados para o calendário recém-copiado. Todos os eventos adicionados manualmente ao calendário original devem ser adicionados manualmente ao calendário copiado.
+   >
+   >Somente você tem acesso ao calendário copiado. Os usuários com acesso ao calendário original não têm acesso ao calendário copiado. Você pode conceder acesso ao calendário recém-criado compartilhando-o com outros usuários. Para saber mais sobre o compartilhamento de calendários, consulte [[!UICONTROL Compartilhar um calendário] relatório](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
-1. (Opcional) Clique no menu **Mais** e em **Editar** para renomear o calendário.
-
-</div>
+1. (Opcional) Para alterar o nome do relatório de calendário, clique em **Renomear**, ao lado do menu suspenso do calendário.

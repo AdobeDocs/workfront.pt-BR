@@ -6,16 +6,14 @@ description: Você pode excluir um calendário que possui ou que outros comparti
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
 
 # Excluir um relatório de calendário
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Você pode excluir um calendário que possui ou que outros compartilharam com você. Depois de excluído, o calendário ficará inacessível para os usuários com os quais você o compartilhou.
 
@@ -58,15 +56,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 +++
 
-## Excluir um relatório de calendário na Produção
 
-1. Vá para o calendário que deseja excluir.
-1. Na barra de ferramentas **[!UICONTROL Calendário]**, clique em **[!UICONTROL Ações de Calendário]** e selecione **[!UICONTROL Excluir]** na lista suspensa.
-1. Clique Em **[!UICONTROL Sim, Exclua-O]**.
-
-<div class="preview">
-
-## Excluir um relatório de calendário na Visualização
+## Excluir um relatório de calendário
 
 1. Vá para o calendário que deseja excluir.
 1. Clique no menu **Mais** ao lado do menu suspenso Calendário.
@@ -74,5 +65,3 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Selecione **[!UICONTROL Excluir]** na lista suspensa.
 1. Clique em **[!UICONTROL Excluir]**.
-
-</div>
