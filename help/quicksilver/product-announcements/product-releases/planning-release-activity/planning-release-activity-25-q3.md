@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
+source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 >* Versão rápida de produção: 15 de maio de 2025
 >* Produção para todos os clientes: 17 de julho de 2025
 
-Agora é possível habilitar uma configuração na guia Estilo de barra da caixa Configurações de uma exibição de linha do tempo para truncar nomes de registro mais longos, ao exibi-los na exibição Padrão. A configuração é desativada por padrão e pode ser ativada somente ao exibir a exibição de linha do tempo no modo Padrão.
+Agora é possível habilitar uma configuração na guia Estilo de barra da caixa Configurações de uma exibição de linha do tempo para truncar nomes de registro mais longos, ao exibi-los na exibição Padrão. A configuração é desativada por padrão e pode ser ativada somente ao exibir a exibição de linha do tempo no modo Padrão. Como essa configuração é desativada, as informações nas barras de registro são exibidas expandidas, por padrão. Antes desse aprimoramento, as informações nas barras de registro eram truncadas por padrão.
 
 Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
