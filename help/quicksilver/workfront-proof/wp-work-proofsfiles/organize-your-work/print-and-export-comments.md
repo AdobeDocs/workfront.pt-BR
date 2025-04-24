@@ -7,9 +7,9 @@ description: O resumo de Comentários pode ser acessado no Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Para imprimir o modo de exibição de miniatura, clique no ícone **[!UICONTROL 
 
 A exibição de página inteira mostra cada página em ordem com os comentários nessa página e um marcador indicando onde o comentário está localizado.
 
-Para imprimir a exibição de página inteira, clique no ícone **[!UICONTROL Impressora]** no canto superior direito da página.
+Para imprimir o modo de página inteira, clique no ícone **[!UICONTROL Impressora]** no canto superior direito da página.
 
 ![PV_full.png](assets/pv-full-350x347.png)
 
@@ -97,8 +97,7 @@ Para baixar o resumo [!DNL Excel] na página de detalhes da Prova:
 
 1. Clique no botão **Mais** e selecione **Exportar para o Excel**.
 
-   <!--
-   ![Export to Excel option](assets/export-to-excel-option.png) -->
+   ![Exportar para o Excel](assets/export-to-excel.png)
 
 ## Exportar para o PDF
 

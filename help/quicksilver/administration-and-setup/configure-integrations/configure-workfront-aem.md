@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Antes de começar, você deve ativar permissões para workfront-service:
 1. No lado direito da tela, selecione **[!UICONTROL Adicionar ACE]** para criar novas entradas.
 1. Na janela &#x200B;**[!UICONTROL Adicionar Nova Entrada]**&#x200B;, marque o ícone da caixa de seleção no campo **[!UICONTROL Caminho]**&#x200B; e escolha a pasta: */conf*
 1. No campo **Privilégios**, digite: *jcr:read*
-1. No canto superior direito, selecione **[!UICONTROL Adicionar]**&#x200B;.
+1. No canto superior direito, selecione **Adicionar**.
 1. (Opcional) Repita as etapas acima para criar mais entradas.
 
 ### Integrar o AEM com o [!DNL Workfront] {#integrate-aem-with-workfront}

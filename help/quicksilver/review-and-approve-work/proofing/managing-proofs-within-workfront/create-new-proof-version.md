@@ -6,29 +6,31 @@ description: Gerenciar feedback em várias versões ou revisões de um trabalho 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1523'
 ht-degree: 0%
 
 ---
 
 # Criar uma nova versão de uma prova
 
-Gerenciar feedback em várias versões ou revisões de um trabalho pode ser um enorme desafio. O Workfront simplifica esse processo permitindo criar e comparar várias versões de uma prova.
+<!-- Audited: 4/2025 -->
+
+Gerenciar feedback em várias versões ou revisões de um trabalho pode ser um desafio. O Adobe Workfront simplifica esse processo permitindo criar e comparar várias versões de uma prova.
 
 Considere as seguintes informações ao criar uma nova versão de uma prova:
 
-* É possível conceder permissão a um usuário para ver uma versão, mas não outra. Por outro lado, se você compartilhar uma versão posterior com um usuário, ele não poderá ver as versões anteriores, a menos que você retorne e conceda explicitamente ao usuário acesso a essas versões anteriores.
-* Para criar uma nova versão de uma prova, você deve ter direitos de Edição na prova.
+* É possível conceder permissão a um usuário para ver uma versão, mas não outra. Por outro lado, se você compartilhar uma versão posterior com um usuário, ele não poderá ver as versões anteriores, a menos que você retorne e conceda a ele acesso a essas versões anteriores.
+* Você deve ter direitos de Edição na prova para criar uma nova versão.
 
-  Consulte [Gerenciar funções de prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) e [Perfis de permissões de prova no Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) para obter mais informações sobre quem tem direitos de edição em uma prova.
+  Para obter mais informações, consulte [Gerenciar funções de prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) e [Perfis de permissões de prova no Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
   Para obter informações sobre o compartilhamento de versões de prova, consulte  [Compartilhar uma prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
 >[!IMPORTANT]
 >
->Se uma prova for criada no Adobe Workfront, quaisquer novas versões criadas para essa prova também deverão ser criadas no Workfront. Não é possível criar uma nova versão de uma prova no Workfront Proof se essa prova tiver sido criada no Workfront.
+>Se uma prova for criada no Adobe Workfront, quaisquer novas versões dessa prova também deverão ser criadas no Workfront. Não é possível criar uma nova versão de uma prova no Workfront Proof se essa prova foi criada no Workfront.
 
 ## Requisitos de acesso
 
@@ -41,60 +43,38 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td> <p>Atual: Pro ou superior</p> <p>ou</p> <p>Herdados: Select ou Premium</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano atual: Trabalho ou Plano</p> <p>Plano herdado: Qualquer um (Você deve ter a prova ativada para o usuário)</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Atual: Padrão</p> 
+   <p>Ou</p>
+   <p>Herdados: Trabalho ou Plano (é necessário ter a prova ativada para o usuário)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de Permissões de Prova </td> 
    <td>Gerente ou superior</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a documentos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Criar uma nova versão de prova no Workfront
 
-Há várias maneiras de fazer upload de uma nova versão de prova no Workfront. As configurações padrão de prova podem ou não ser transferidas da versão anterior, dependendo do método escolhido:
+Há várias maneiras de fazer upload de uma nova versão de prova no Workfront. As configurações de prova padrão podem ou não ser transferidas da versão anterior, dependendo do método selecionado:
 
-* **Gerar provas automaticamente ao carregar documentos**: as configurações de prova padrão não são transferidas. Se essa configuração estiver ativada no perfil do usuário, as configurações de prova padrão não serão transferidas ao arrastar e soltar uma nova versão.
-* **Criar prova > Simples**: as configurações de prova padrão não são transferidas. Se você escolher Simples ao criar uma nova versão de prova, as configurações de prova padrão não serão transferidas da versão anterior.
-* **Adicionar nova > Versão > Prova**: as configurações de prova padrão são transferidas da versão anterior.
-* **Criar prova > Avançado**: as configurações de prova padrão são transferidas da versão anterior.
-
-  <table>
-  <tbody>
-  <tr>
-  <td>Gerar provas automaticamente ao carregar documentos</td>
-  <td>As configurações padrão de prova não são transferidas. Se essa configuração estiver ativada no perfil do usuário, as configurações de prova padrão não serão transferidas ao arrastar e soltar uma nova versão.</td>
-  </tr>
-  <tr>
-  <td>Criar prova &gt; Simples</td>
-  <td>As configurações padrão de prova não são transferidas. Se você escolher Simples ao criar uma nova versão de prova, as configurações de prova padrão não serão transferidas da versão anterior.</td>
-  </tr>
-  <tr>
-  <td>Adicionar nova &gt; Versão &gt; Prova</td>
-  <td>As configurações de prova padrão são transferidas da versão anterior.</td>
-  </tr>
-  <tr>
-  <td>Criar prova &gt; Avançado</td>
-  <td>As configurações de prova padrão são transferidas da versão anterior.</td>
-  </tr>
-  </tbody>
-  </table>
-
-
-
+* **Gerar provas automaticamente ao carregar documentos**: se esta configuração estiver habilitada no perfil do usuário, as configurações de prova padrão não serão transferidas quando você arrastar e soltar uma nova versão.
+* **Criar prova > Simples**: se você selecionar essa opção, as configurações de prova padrão não serão transferidas da versão anterior.
+* **Adicionar nova > Versão > Prova**: se você selecionar essa opção, as configurações de prova padrão serão transferidas da versão anterior.
+* **Criar prova > Avançado**: se você selecionar essa opção, as configurações de prova padrão serão transferidas da versão anterior.
 
 Para criar uma nova versão de uma prova:
 
@@ -105,9 +85,9 @@ Para criar uma nova versão de uma prova:
 
    Selecione a linha na qual a prova está listada, clique em **Adicionar nova** > **Versão** e clique na opção que deseja usar para adicionar a nova versão da prova.
 
-   ![Adicionar nova versão](assets/add-new-version-350x185.png)
+   ![Adicionar nova versão](assets/add-new-proof-version.png)
 
-## Criar uma nova versão de uma prova no visualizador de provas (somente Workfront Proof)
+## Criar uma nova versão de prova no visualizador de provas (somente Workfront Proof)
 
 Se estiver usando o Workfront Proof independente, você poderá criar uma nova versão de uma prova contendo um único arquivo ou captura da Web. 
 
@@ -118,63 +98,66 @@ Se estiver usando o Workfront Proof independente, você poderá criar uma nova v
 Para criar uma nova versão de uma prova no Workfront Proof:
 
 1. Abra a prova.
-1. Clique no menu suspenso **Versão**, no canto superior esquerdo, e clique em **+ Nova versão** na caixa exibida.
+1. No canto superior esquerdo, clique no menu suspenso **Versão** e em **+ Nova versão** na caixa exibida. A nova página de versão de prova é aberta.
 
-   Na página **Nova versão de prova de** exibida, você pode ver todos os revisores da versão anterior, incluindo suas funções e configurações de notificação por email. É possível editar facilmente as funções e notificações dos revisores existentes ou remover os revisores existentes da nova versão nesta página.
+   ![Adicionar nova versão](assets/new-version-button.png)
 
-1. Em **Adicionar arquivos**, carregue um arquivo como uma nova versão da prova arrastando e soltando do computador ou clicando em **procurar** e selecionando o arquivo desejado. Você pode digitar um **Nome da prova** para a versão ou deixar esta caixa em branco para usar o mesmo nome de arquivo com um número de versão adicionado no final.
+1. Na seção **Adicionar arquivos**, faça upload de um arquivo como a nova versão de prova arrastando-o e soltando-o do seu computador ou clicando em **procurar** e selecionando um arquivo.
 
    Ou
 
-   Capture uma página da Web como uma nova versão da prova digitando um URL.
+   Capture uma página da Web como uma nova versão da prova inserindo um URL.
 
    >[!NOTE]
    >
    >Arrastar e soltar está disponível somente em navegadores com suporte total para HTML5. Isso exclui o Internet Explorer 7 a 9 e o Safari.
 
-1. Em **Fluxo de trabalho**, faça qualquer uma das alterações a seguir para especificar os revisores para esta versão da prova.
+1. (Opcional) Selecione o título da prova e insira um novo **Nome da prova** para a versão.
 
-   Os revisores da versão anterior são substituídos pelos revisores adicionados.
+1. Na seção **Fluxo de trabalho**, faça qualquer uma das seguintes alterações para adicionar revisores para esta versão de prova (isso substituirá os revisores da versão anterior):
 
-   * Altere o **Proprietário** da versão para outro usuário em sua conta.\
-     Para obter informações sobre permissões de proprietário, consulte [Perfis de permissões de prova no Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+   * (Opcional) Altere o **Proprietário** da versão para outro usuário em sua conta.
 
-   * Usando o **Digite o nome do contato ou endereço de email para adicionar uma caixa de destinatário**, adicione revisores à versão. Você pode especificar uma **Função de prova** e um tipo de **Alertas de email** para cada destinatário.
+     Para obter informações, consulte [Perfis de permissões de prova no Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-     Para obter informações sobre como adicionar grupos à prova, consulte  [Adicionar grupos a uma prova](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md). Para obter informações sobre funções, consulte [Gerenciar funções de prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+   * (Opcional) Usando a caixa **Digite o nome do contato ou endereço de email para adicionar um destinatário**, adicione revisores à versão. Em seguida, você pode selecionar um tipo de **Função de prova** e **Alertas de email** para cada destinatário.
+
+     Para obter informações, consulte [Adicionar grupos a uma prova](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md) e [Gerenciar funções de prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
      >[!NOTE]
      >
-     >Se o criador ou o proprietário do  a prova tem [O email de prova](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) desabilitado por padrão (em suas configurações pessoais). Eles não receberão nenhum email de prova ou Novos emails de prova mesmo se a caixa Notificar pessoas por email estiver marcada na página Nova prova. Para obter informações sobre notificações por email, consulte [Definir configurações de notificação por email no Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md). Consulte também [O email de prova](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) e [Novo email de prova](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+     >Se o criador ou proprietário da prova tiver o email de prova desativado por padrão em suas configurações pessoais, ele não receberá nenhum email de prova feito ou novo, mesmo se a caixa **Notificar recipients sobre esta prova** estiver marcada na página Nova prova. Para obter informações, consulte [Definir configurações de notificação por email no Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md), [O email de prova](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) e [Novo email de prova](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
-   * Defina um prazo de prova para a versão.
-   * Passe o mouse sobre o nome de um revisor para ver as decisões que ele tomou em uma versão anterior.
+   * (Opcional) Defina um prazo de prova.
 
-1. Em **Notificação por email**, siga um destes procedimentos:
+   * (Opcional e Condicional) Selecione um novo tomador de decisão principal no menu suspenso **Transferir direitos de decisão principais para**.
 
-   * Especifique se deseja notificar os revisores sobre a nova versão.\
-     Sua seleção será registrada na seção Atividade da página de detalhes da Prova. Para obter mais informações, consulte [Gerenciar detalhes da prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * (Opcional) Selecione a caixa **Requer apenas uma decisão para este estágio** para remover a opção para definir um usuário como o novo tomador de decisão principal.
 
-   * Adicione um assunto e uma mensagem personalizados.
+1. Na seção **Notificação por email**, selecione uma das seguintes configurações:
 
-1. Na seção **Organização**, siga um destes procedimentos: 
+   * (Opcional) **Notificar recipients sobre esta prova**: selecione esta opção para notificar os revisores sobre a nova versão. Sua seleção será registrada na seção **Atividade** da página **Detalhes da prova**. Para obter mais informações, consulte [Gerenciar detalhes da prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-   * Aplique uma ou mais tags à prova. Para obter mais informações, consulte [Criar e Gerenciar Marcas no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).\
-     Observe que as tags também são herdadas da versão anterior da prova. Se você adicionar uma nova tag à nova versão, as versões anteriores também serão marcadas.
+   * (Condicional e Opcional) **Adicionar assunto e mensagem personalizados**: selecione essa opção para adicionar uma linha de assunto e uma mensagem personalizadas à notificação por email.
 
-   * Adicionar a versão a uma pasta. Consulte [Gerenciar pastas no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) para obter mais informações. A pasta será copiada da versão anterior da prova. Se você selecionar uma pasta diferente, toda a prova (todas as versões) será movida.
+1. Na seção **Organização**, selecione uma das seguintes configurações:
 
-   * Os administradores de cobrança e administradores podem tornar o campo de pasta obrigatório em toda a conta na guia Configurações. Consulte para obter mais informações.
+   * Aplique uma ou mais tags à prova. Para obter mais informações, consulte [Criar e Gerenciar Marcas no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).
 
-1. Em Configurações de prova, faça qualquer uma das alterações abaixo:
+   * Adicionar a versão a uma pasta. A pasta será copiada da versão anterior da prova. Se você selecionar uma pasta diferente, a prova inteira, que inclui todas as versões, será movida. Para obter mais informações, consulte [Gerenciar pastas no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-   * Exigir logon na prova
-   * Exigir assinaturas eletrônicas na prova (somente plano corporativo)
-   * Bloquear a prova quando todas as decisões forem tomadas
-   * Permitir ou bloquear o download do arquivo original
-   * Compartilhamento público da prova, incluindo configurações de compartilhamento público
-   * Inscrição na prova\
-     As seleções feitas nesta seção serão mostradas na página Detalhes da prova (onde alguns campos podem ser editados). Para obter mais informações, consulte [Gerenciar detalhes da prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * Administradores e administradores de cobrança podem tornar o campo de pasta obrigatório em toda a conta na guia **Configurações**.
+
+1. Na seção **Configurações de prova**, selecione uma das seguintes configurações:
+
+   * Exigir que um usuário faça logon para visualizar a prova.
+   * Exigir assinaturas eletrônicas na prova (somente plano Enterprise).
+   * Bloqueie a prova quando todas as decisões forem tomadas.
+   * Permitir o download do arquivo original.
+   * Permitir compartilhamento público da prova.
+   * Permitir assinatura da prova.
+
+     As seleções feitas nesta seção serão mostradas na página **Detalhes da prova** (onde alguns campos podem ser editados). Para obter mais informações, consulte [Gerenciar detalhes da prova no Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Create a new version of a proof from the proofing viewer</h2>
@@ -234,12 +217,12 @@ Se houver um assunto/mensagem personalizado incluído na versão anterior da pro
   >
   >Isso não é afetado por nenhum assunto/mensagem padrão personalizado salvo em suas configurações pessoais.
 
-Se você tiver um assunto e uma mensagem padrão salvos nas suas configurações pessoais, isso afetará qual mensagem é mostrada por padrão na página Nova versão:
+Se você tiver um assunto e uma mensagem padrão salvos nas suas configurações pessoais, isso determinará qual mensagem é mostrada por padrão na página Nova versão:
 
-* Se você optar por notificar seus revisores por email sobre a versão anterior da prova usando o email padrão (por exemplo, nenhum assunto/mensagem personalizado), o assunto/mensagem padrão (suas configurações pessoais) será exibido na página Nova versão. É possível editar o assunto personalizado e a mensagem ou desmarcar a caixa de email Notificar pessoas por (o que significa que nenhum email será enviado aos revisores para notificá-los de que eles têm uma nova versão para revisar).
-* Se você optar por não notificar seus revisores por email sobre a versão anterior da prova (por exemplo, nenhum email padrão ou personalizado), a página Nova versão não incluirá nenhuma mensagem por padrão. Para notificar seus revisores sobre a nova versão, clique no link Send a Message, que mostrará o assunto/mensagem personalizado padrão (de acordo com suas configurações pessoais). É possível editar o assunto e a mensagem personalizados, se necessário.
+* Se você notificou seus revisores sobre a versão de prova anterior usando o email padrão (por exemplo, nenhum assunto/mensagem personalizados), seu assunto/mensagem personalizado padrão (suas configurações pessoais) será exibido na página Nova versão. É possível editar o assunto personalizado e a mensagem ou desmarcar a caixa de email Notificar pessoas por, o que significa que nenhum email será enviado aos revisores para notificá-los de que eles têm uma nova versão para revisar.
+* Se você não tiver notificado os revisores sobre a versão de prova anterior (por exemplo, nenhum email padrão ou personalizado), a página Nova versão não incluirá uma mensagem por padrão. Para notificar seus revisores sobre a nova versão, clique no link Send a Message, que mostrará o assunto/mensagem personalizado padrão (de acordo com suas configurações pessoais). Em seguida, você pode editar o assunto e a mensagem personalizados, conforme necessário.
 
 Se você não tiver um assunto e uma mensagem padrão salvos nas suas configurações pessoais, os itens a seguir serão exibidos na página Nova versão:
 
-* Se você optar por notificar seus revisores por email para a versão anterior da prova usando o email padrão (por exemplo, sem assunto/mensagem personalizada), a opção Notificar pessoas por email será selecionada por padrão na página Nova versão. Para adicionar uma mensagem personalizada, clique no link.
-* Se você optar por não notificar seus revisores por email sobre a versão anterior da prova (por exemplo, nenhum email padrão ou personalizado), a página Nova versão não incluirá nenhuma mensagem por padrão. Para notificar seus revisores sobre a nova versão, clique no link Send a Message. Você pode adicionar um assunto e uma mensagem personalizados clicando no link Adicionar mensagem personalizada.
+* Se você notificar seus revisores sobre a versão de prova anterior usando o email padrão (por exemplo, sem assunto/mensagem personalizada), a opção Notificar pessoas por email será selecionada por padrão na página Nova versão. Para adicionar uma mensagem personalizada, clique no link.
+* Se você não notificou seus revisores por email sobre a versão de prova anterior (por exemplo, nenhum email padrão ou personalizado), a página Nova versão não incluirá nenhuma mensagem por padrão. Para notificar seus revisores sobre a nova versão, clique no link Send a Message. Você pode adicionar um assunto e uma mensagem personalizados clicando no link Adicionar mensagem personalizada.

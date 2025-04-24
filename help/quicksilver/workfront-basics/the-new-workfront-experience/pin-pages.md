@@ -5,14 +5,16 @@ description: Você pode fixar seu trabalho mais importante [!DNL Adobe Workfront
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
 
 # Fixar páginas para personalizar o espaço de trabalho
+
+<!-- Audited: 4/2025 -->
 
 Você pode fixar seu trabalho mais importante no [!DNL Adobe Workfront] para aumentar a visibilidade, melhorar a organização e agilizar o acesso. As páginas fixadas são sempre acessíveis a partir da parte superior de qualquer página no Workfront.
 
@@ -53,6 +55,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Navegue até a página que deseja fixar. Pode ser qualquer item de trabalho, como um projeto, tarefa, fila de solicitações etc.
 
 1. No canto superior esquerdo da página, clique em **[!UICONTROL Fixar página atual]**. A página fixada agora pode ser acessada na parte superior de qualquer página em [!DNL Workfront].
+
+   ![Fixar página atual](assets/pin-current-page-button.png)
 
 ## Acessar uma página fixada
 

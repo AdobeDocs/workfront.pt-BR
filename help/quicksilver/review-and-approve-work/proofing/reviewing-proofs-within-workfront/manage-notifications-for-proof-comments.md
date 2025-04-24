@@ -6,7 +6,7 @@ description: Ao trabalhar em uma prova, seja um usuário do Adobe Workfront ou u
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # Gerenciar notificações para comentários e decisões de prova
+
+<!-- Audited: 4/2025 -->
 
 Ao trabalhar em uma prova, seja um usuário do Adobe Workfront ou um colaborador externo, você pode especificar quais notificações por email deseja receber sobre comentários e decisões tomadas na prova. Para obter mais informações, consulte [Notificações para obter a visão geral de comentários de prova e decisões](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
