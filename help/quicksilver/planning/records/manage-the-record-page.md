@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 8fcc6c75811080f3ee152849a149542be8ae820c
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -273,11 +273,11 @@ As seguintes situações ocorrem:
 
 Você pode exibir informações de registros ou objetos conectados adicionando uma guia para um tipo de página Exibição de conexão a um registro. As informações dos registros conectados são exibidas em uma exibição de tabela somente leitura.
 
-&lt;!-substituir a última frase acima por esta na versão:
+<!--replace the last sentence above with this at release:
 
-No ambiente de Produção, as informações dos registros ou objetos conectados são exibidas em uma exibição de tabela somente leitura.
+In the Production environment, the information from the connected records or objects displays in a read-only table view. 
 
-<Span class="preview">No ambiente de Visualização, as informações dos registros conectados podem ser editadas na exibição de tabela. As informações dos objetos conectados de outro aplicativo não são editáveis na exibição de tabela.</span> —>
+<Span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span> -->
 
 Considere o seguinte ao adicionar uma exibição de Conexão à página de um registro:
 
