@@ -6,9 +6,9 @@ description: Gerenciar feedback em várias versões ou revisões de um trabalho 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -225,4 +225,4 @@ Se você tiver um assunto e uma mensagem padrão salvos nas suas configurações
 Se você não tiver um assunto e uma mensagem padrão salvos nas suas configurações pessoais, os itens a seguir serão exibidos na página Nova versão:
 
 * Se você notificar seus revisores sobre a versão de prova anterior usando o email padrão (por exemplo, sem assunto/mensagem personalizada), a opção Notificar pessoas por email será selecionada por padrão na página Nova versão. Para adicionar uma mensagem personalizada, clique no link.
-* Se você não notificou seus revisores por email sobre a versão de prova anterior (por exemplo, nenhum email padrão ou personalizado), a página Nova versão não incluirá nenhuma mensagem por padrão. Para notificar seus revisores sobre a nova versão, clique no link Send a Message. Você pode adicionar um assunto e uma mensagem personalizados clicando no link Adicionar mensagem personalizada.
+* Se você não tiver notificado os revisores sobre a versão de prova anterior (por exemplo, nenhum email padrão ou personalizado), a página Nova versão não incluirá nenhuma mensagem por padrão. Para notificar seus revisores sobre a nova versão, clique no link Send a Message. Você pode adicionar um assunto e uma mensagem personalizados clicando no link Adicionar mensagem personalizada.

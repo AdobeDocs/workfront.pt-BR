@@ -7,9 +7,9 @@ description: O Resumo permite interagir com informações importantes diretament
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '443'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,13 @@ ht-degree: 2%
 
 Você pode usar o painel Resumo para acessar e atualizar informações importantes diretamente da lista de documentos.
 
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +39,7 @@ Você deve ter o seguinte:
    <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenças da Adobe Workfront*</td> 
+   <td role="rowheader">Licenças do Adobe Workfront</td> 
    <td> <p>Novo: Colaborador ou superior</p> 
    <p>Atual: solicitação ou superior</p>
    </td> 
@@ -51,43 +55,47 @@ Você deve ter o seguinte:
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Abrir a exibição Resumo
 
-1. Vá para a área **Documentos** e selecione um item na lista.
-1. Clique no **ícone Abrir Resumo** ![ícone Abrir Resumo](assets/qs-summary-in-new-toolbar-small.png).
+{{step1-to-documents}}
 
-   Após abrir o Resumo, ele permanece aberto quando você clica em outros documentos e permanece aberto até que você o feche manualmente.
+1. Na página **Documentos**, selecione um documento na lista.
 
-   ![Detalhes do resumo](assets/summary-details-350x585.png)
+1. No canto superior direito da página, clique no ícone **Abrir resumo** ![Abrir resumo](assets/qs-summary-in-new-toolbar-small.png). O painel lateral **Resumo do documento** é aberto.
+
+   ![Detalhes do resumo](assets/document-summary-panel.png)
+
+   Após abrir o Resumo, ele permanecerá aberto nesta página (mesmo se você clicar em outros documentos) até que você o feche manualmente.
+
 
 ## Detalhes
 
-Use a seção Detalhes para exibir informações de visão geral de alto nível e interagir com formulários personalizados. Clique em **Detalhes** na parte superior da seção para ir para a página Detalhes do documento completa.
+Use a seção Detalhes para exibir informações de visão geral de alto nível e interagir com formulários personalizados. Clique em Detalhes na parte superior da seção para acessar a página Detalhes do documento.
 
 * [Visão geral](#overview)
 * [Formulários personalizados](#custom-forms)
-
-![Detalhes do resumo do documento](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Visão geral {#overview}
 
 Expanda a seção Visão geral para visualizar ou baixar uma miniatura de imagem, abrir uma prova, atualizar a descrição básica, verificar o documento e muito mais.
 
-![Visão geral do resumo do documento](assets/copy-of-doc-summary-with-overview-350x560.png)
+![Visão geral do resumo do documento](assets/details-section.png)
 
 ### Formulários personalizados {#custom-forms}
 
 Use a seção Forms personalizado para adicionar, editar ou exibir quaisquer formulários personalizados associados ao documento. Comece digitando o nome do formulário personalizado para adicioná-lo ao documento. Para obter mais informações, consulte [Adicionar ou editar um formulário personalizado a um documento](../../documents/managing-documents/add-custom-form-documents.md).
 
-![Adicionar um formulário personalizado no resumo do documento](assets/add-custom-form-doc-summary-350x265.png)
+![Adicionar um formulário personalizado no resumo do documento](assets/custom-forms-section.png)
 
 ## Atualizações
 
-Use a seção Atualizações para ler e atualizar alguém feito no documento ou na prova. O resumo mostra os dois primeiros comentários feitos. Para obter mais informações sobre atualizações, consulte [Comentar em uma prova](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+Use a seção Atualizações para exibir e atualizar alguém que fez no documento ou na prova. O resumo mostra os dois primeiros comentários feitos. Para obter mais informações sobre atualizações, consulte [Comentar em uma prova](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-![Atualiza a seção no painel Resumo](assets/summary-updates-section-new-comments.png)
+![Atualiza a seção no painel Resumo](assets/updates-section.png)
 
 ## Aprovações
 
@@ -98,16 +106,16 @@ Aprovações de provas devem ser adicionadas no Fluxo de trabalho de provas. Par
 * [Aprovando trabalho](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Solicitar aprovações de documentos](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![Aprovações de resumo de documentos](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Aprovações de resumo de documentos](assets/approvals-section.png)
 
 ## Versões
 
-Use a seção Versões para exibir o número de versões criadas para um documento específico. Clique no **Mais menu** para
+Use a seção Versões para exibir o número de versões criadas para um documento específico. Clique no ícone **Mais** ![Mais ícone](assets/more-icon.png) para fazer o seguinte:
 
-* Abrir uma prova
-* Baixar uma prova ou documento
-* Visualizar um documento compatível com navegador
-* Ir para Detalhes do documento
-* Excluir uma prova ou documento
+* Abra uma prova.
+* Baixe uma prova ou documento.
+* Visualize um documento compatível com o navegador.
+* Acesse Detalhes do documento.
+* Exclua uma prova ou documento.
 
-![Versões de resumo do documento](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Versões de resumo do documento](assets/versions-section.png)
