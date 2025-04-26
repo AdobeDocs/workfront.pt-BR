@@ -1,19 +1,19 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experience-manager-asset-essentials
-title: Desvincular ou excluir ativos e pastas do Experience Manager Assets ou Assets Essentials
+title: Desvincular ou excluir ativos e pastas do Experience Manager Assets ou do Assets Essentials
 description: Você pode desvincular ou excluir itens vinculados ao Workfront do Adobe Experience Manager Assets.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
 
 ---
 
-# Desvincular ou excluir ativos e pastas do Experience Manager Assets ou Assets Essentials
+# Desvincular ou excluir ativos e pastas do Experience Manager Assets ou do Assets Essentials
 
 Você pode desvincular ou excluir itens vinculados ao Workfront do Adobe Experience Manager Assets.
 
@@ -30,8 +30,8 @@ Quando você exclui um documento ou pasta vinculada no Workfront, ela é desvinc
 
 Ao excluir um documento ou pasta vinculada do aplicativo externo, o documento ou a pasta permanece no sistema Workfront até que você também o exclua do Workfront.
 
-* Para excluir um ativo do Adobe Experience Manager as a Cloud Service, consulte [Excluir ativos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=en#delete-assets) na documentação do Adobe Experience Manager as a Cloud Service.
-* Para excluir um ativo do Adobe Experience Manager Assets Essentials, consulte [Excluir ativos ou pastas](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=en#delete-assets) na documentação do Adobe Experience Manager Assets Essentials.
+* Para excluir um ativo do Adobe Experience Manager as a Cloud Service, consulte [Excluir ativos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) na documentação do Adobe Experience Manager as a Cloud Service.
+* Para excluir um ativo do Adobe Experience Manager Assets Essentials, consulte [Excluir ativos ou pastas](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) na documentação do Adobe Experience Manager Assets Essentials.
 
 
 

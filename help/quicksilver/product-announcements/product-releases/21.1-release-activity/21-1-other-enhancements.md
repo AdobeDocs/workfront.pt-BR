@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Para obter mais informações, consulte [Habilitar usuários a enviar um problem
 
 Para obter mais informações sobre por que estamos fazendo essa alteração, consulte [Novo sistema gerenciado pela Adobe Workfront para substituir o email POP por Filas de solicitações 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Este recurso agora está incluído no [Gerenciamento da fila no novo caminho de aprendizado da experiência de Workfront](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) no Workfront One.
+Este recurso agora está incluído no [Gerenciamento da fila no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Restringir a edição de horas em folhas de horas
 

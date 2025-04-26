@@ -7,7 +7,7 @@ description: É necessário um Plano Select ou Premium para usar esse recurso. P
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c0433621-3988-45f2-9d6b-68ef92b5b7d2
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
-É necessário um Plano Select ou Premium para usar esse recurso. Para obter mais informações sobre os vários planos disponíveis, consulte [[!DNL Workfront] Planos](https://www.workfront.com/plans).
+É necessário um Plano Select ou Premium para usar esse recurso. Para obter mais informações sobre os vários planos disponíveis, consulte [[!DNL Workfront] Planos](https://business.adobe.com/products/workfront/pricing.html).
 
 Você pode criar grupos de usuários que podem ser adicionados como revisores em várias provas. Isso é útil se você enviar conteúdo para os mesmos usuários regularmente.
 

@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 95e75a28-5ac2-4d1d-acc3-dbc0b295b28f
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Para compartilhar mais facilmente o status e o progresso de um projeto, você po
 
 Para obter mais informações, consulte [Visão geral das métricas do projeto](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 3: Gerenciar um caminho de aprendizado do Projeto](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 3: Gerenciar um caminho de aprendizado do Projeto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Atualizar percentual concluído de problema quando o projeto ou tarefa convertido a partir da atualização de problema
 
@@ -41,9 +41,9 @@ Para permitir que você gerencie suas Solicitações enviadas de uma maneira mai
 
 Para obter informações sobre como localizar solicitações enviadas, consulte [Localizar solicitações enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Este recurso agora está incluído nos [Fundamentos do Collaborator para o novo caminho de aprendizado da Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do Collaborator para o novo caminho de aprendizado da Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) no Workfront One.
 
-Este recurso agora está incluído nas [Solicitações no novo caminho de aprendizado da experiência de Workfront](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) no Workfront One.
+Este recurso agora está incluído nas [Solicitações no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) no Workfront One.
 
 ## Campos removidos da página Nova solicitação
 

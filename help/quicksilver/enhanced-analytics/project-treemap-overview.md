@@ -7,7 +7,7 @@ description: A visualização do mapa de árvore do projeto é uma exibição de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 2%
@@ -38,7 +38,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">plano do Adobe Workfront</a></td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">plano do Adobe Workfront</a></td> 
    <td> <p>Business ou superior</p> </td> 
   </tr> 
   <tr> 
@@ -156,7 +156,7 @@ Para saber como obter os melhores dados para esta visualização, consulte [Vis�
    * **Gráfico (PNG)**
    * **Tabela de Dados (XSLX)**
 
-1. Clique em um projeto para abrir as visualizações Burndown e Tarefas em andamento para obter um insight mais profundo sobre como as tarefas e as horas ou dias contribuíram para o tamanho de um projeto.
+1. Clique em um projeto para abrir as visualizações Burndown e Tarefas em andamento para obter uma insight mais profunda de como as tarefas e as horas — ou dias — contribuíram para o tamanho de um projeto.
 
 Para obter mais informações sobre a visualização de Burndown, consulte [Exibir a visualização de Burndown na análise aprimorada](../enhanced-analytics/burndown-overview.md). Para obter mais informações sobre as Tarefas na visualização em andamento, consulte [Exibir as Tarefas na visualização em andamento na análise aprimorada](../enhanced-analytics/tasks-in-flight-overview.md).
 

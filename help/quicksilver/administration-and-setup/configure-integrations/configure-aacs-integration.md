@@ -6,7 +6,7 @@ description: Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experien
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1708'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Antes de começar a mapear campos de metadados, você deve configurar campos de 
 
 Para configurar campos de metadados:
 
-1. Configure um esquema de metadados em [!DNL Experience Manager Assets] conforme explicado em [Configure o mapeamento de metadados de ativos entre Adobe [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+1. Configure um esquema de metadados em [!DNL Experience Manager Assets] conforme explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Configure campos de formulário personalizados no Workfront. [!DNL Workfront] tem muitos campos personalizados internos que você pode usar. No entanto, você também pode criar seus próprios campos personalizados, conforme explicado em [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -146,12 +146,12 @@ Você pode mapear qualquer campo compatível com o Workfront para uma tag no Exp
 >
 >Se você quiser que a tag seja o item mais à esquerda da árvore de tags, ela deverá ser seguida por dois pontos. Neste exemplo, para mapear para a tag de paisagens, o valor do campo no Workfront seria `landscapes:`.
 >
->![Estrutura de pasta no AEM](assets/aem-folder-structure-with-red-boxes.png)
+>![Estrutura de pastas no AEM](assets/aem-folder-structure-with-red-boxes.png)
 
 
 Depois de criar as tags na Experience Manager Assets, elas aparecerão no menu suspenso Tags na seção Metadados. Para vincular um campo a uma marca, selecione `xcm:keywords` na lista suspensa de campos do Experience Manager Assets na área de mapeamento de metadados.
 
-Para obter mais informações sobre tags na Experience Manager Assets, incluindo como criar e gerenciar tags, consulte [Administração de Tags](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+Para obter mais informações sobre tags na Experience Manager Assets, incluindo como criar e gerenciar tags, consulte [Administração de Tags](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Campos de esquema de metadados personalizados do Experience Manager Assets**
 
@@ -251,7 +251,7 @@ Os fluxos de trabalho são ativados e configurados para a Adobe Experience Manag
 Os seguintes fluxos de trabalho estão disponíveis na integração do Adobe Experience Manager:
 
 * [Criar pastas vinculadas do Adobe Experience Manager](#create-adobe-experience-manager-linked-folders)
-* [Ativos do Publish enviados para o Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [Publicar ativos enviados para o Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Criar pastas vinculadas do Adobe Experience Manager
 
@@ -282,7 +282,7 @@ Os seguintes fluxos de trabalho estão disponíveis na integração do Adobe Exp
    1. (Opcional) Para excluir uma pasta, selecione-a e clique no ícone **Excluir Pasta** ![Excluir pasta](assets/delete-folder.png).
 1. (Condicional) Para adicionar outra árvore de pastas, clique em **+ Adicionar árvore de pastas** e siga as etapas da Etapa 5.
 
-1. Clique em **[!UICONTROL Salvar]** ou vá para a seção [Ativos do Publish enviados para o Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) neste artigo.
+1. Clique em **[!UICONTROL Salvar]** ou vá para a seção [Publicar ativos enviados para o Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) neste artigo.
 
 >[!NOTE]
 >
@@ -291,9 +291,9 @@ Os seguintes fluxos de trabalho estão disponíveis na integração do Adobe Exp
 >* Se nenhuma árvore de pastas for fornecida, a pasta raiz se tornará a pasta vinculada.
 
 
-### Ativos do Publish enviados para o Adobe Experience Manager Assets
+### Publicar ativos enviados para o Adobe Experience Manager Assets
 
-1. Ative **[!UICONTROL ativos do Publish automaticamente]**.
+1. Ative **[!UICONTROL Publicar ativos automaticamente]**.
 1. Marque a caixa ao lado do local em que deseja publicar ativos enviados para o Adobe Experience Manager Assets. Você pode ativar uma ou ambas as opções.
 1. (Condicional) Se você ativou a opção Brand Portal, selecione a Brand Portal na qual deseja publicar ativos.
 1. Clique em **[!UICONTROL Salvar]** ou vá para a seção [Configurar pastas vinculadas (Opcional)](#set-up-linked-folders-optional) neste artigo.

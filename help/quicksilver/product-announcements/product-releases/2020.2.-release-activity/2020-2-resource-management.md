@@ -1,13 +1,13 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-2-release-activity
-title: "Aprimoramentos no gerenciamento de recursos 2020.2: o balanceador de carga de trabalho"
+title: 'Melhorias no gerenciamento de recursos 2020.2: o balanceador de carga de trabalho'
 description: Esta página descreve todas as melhorias no Gerenciamento de recursos feitas com a versão 2020.2 para o ambiente de Produção. Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11 de maio de 2020.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00cc1205-5d58-485b-8076-e177f1d931f9
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1741'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Para obter informações sobre a filtragem no Balanceador de carga de trabalho, 
 
 Para ajudá-lo a tomar decisões corretas de atribuição, uma nova configuração agora permite visualizar a diferença de horas entre as horas que um usuário está disponível para trabalhar de acordo com sua programação e as horas que já foram alocadas para o trabalho (as horas restantes). A nova configuração agora está disponível no Balanceador de carga de trabalho.
 
-Para obter informações sobre como visualizar informações no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou se você estiver usando o Adobe Workfront Classic, consulte [Navegar pelo Balanceador de carga de trabalho](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)
+Para obter informações sobre como visualizar informações no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou se você estiver usando o Adobe Workfront Classic, consulte [Navegar pelo Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/home).)
 
 **Disponível nestes ambientes:**
 
@@ -76,7 +76,7 @@ Para ajudá-lo a entender como as tarefas afetarão a carga de trabalho dos usu�
 
 Antes dessa alteração, essa configuração atualizava somente as informações na área Trabalho atribuído do Balanceador.
 
-Para obter informações sobre como navegar no Balanceador de carga de trabalho, consulte [Navegar no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Navegar no Balanceador de carga de trabalho](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)
+Para obter informações sobre como navegar no Balanceador de carga de trabalho, consulte [Navegar no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Navegar no Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/home).)
 
 **Disponível nestes ambientes:**
 
@@ -90,7 +90,7 @@ Para simplificar sua experiência, uma caixa Configurações agora está dispon�
 * Agrupar por Projeto
 * Exiba as Horas alocadas ou as Horas restantes para suas tarefas e projetos.
 
-Para obter informações sobre como visualizar informações no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou se você estiver usando o Adobe Workfront Classic, consulte [Navegar pelo Balanceador de carga de trabalho](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)
+Para obter informações sobre como visualizar informações no Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou se você estiver usando o Adobe Workfront Classic, consulte [Navegar pelo Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/home).)
 
 **Disponível nestes ambientes:**
 
@@ -101,7 +101,7 @@ Para obter informações sobre como visualizar informações no Balanceador de c
 
 Agora você pode compartilhar a carga de trabalho de seus funcionários com os executivos para que eles possam ter contexto sobre suas necessidades de pessoal. Para isso, agora você pode compartilhar o Balanceador de carga de trabalho compartilhando um URL exclusivo para o Balanceador de carga de trabalho com qualquer outra pessoa.
 
-Para obter informações sobre como navegar no Balanceador de carga de trabalho, consulte [Navegar no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Navegar no Balanceador de carga de trabalho](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Para obter informações sobre como navegar no Balanceador de carga de trabalho, consulte [Navegar no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Navegar no Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponível nestes ambientes:**
 
@@ -114,7 +114,7 @@ Para ajudar você a personalizar a duração da linha do tempo do Balanceador de
 
 Antes desse aprimoramento, o Balanceador de carga de trabalho sempre exibia informações que começam com a semana atual.
 
-Para obter informações sobre como navegar no Balanceador de carga de trabalho, consulte [Navegar no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Navegar no Balanceador de carga de trabalho](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Para obter informações sobre como navegar no Balanceador de carga de trabalho, consulte [Navegar no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Navegar no Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponível nestes ambientes:**
 
@@ -129,11 +129,11 @@ Por exemplo, quando você move ou copia uma tarefa com uma restrição Deve Inic
 
 Antes dessa alteração, a Restrição da tarefa sempre muda para O mais rápido possível.
 
-Para obter informações sobre como mover tarefas, consulte [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Movendo Tarefas](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Para obter informações sobre como mover tarefas, consulte [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Movendo Tarefas](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Para obter informações sobre como copiar tarefas, consulte [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Copiar e Duplicar Tarefas](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Para obter informações sobre como copiar tarefas, consulte [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Copiar e Duplicar Tarefas](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Para obter uma visão geral de todas as Restrições de Tarefa, consulte [Visão geral da Restrição de Tarefa](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Visão Geral da Restrição de Tarefa](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Para obter uma visão geral de todas as Restrições de Tarefa, consulte [Visão geral da Restrição de Tarefa](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Visão Geral da Restrição de Tarefa](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponível nestes ambientes:**
 
@@ -161,9 +161,9 @@ Os status personalizados agora podem ser usados em processos de aprovação de u
 * Crie um processo de aprovação de uso único para um objeto (projeto, tarefa ou problema) e baseie-o nos status associados ao grupo que está trabalhando nesse objeto. Isso inclui todos os status personalizados associados ao grupo.
 * Crie um processo de aprovação global e o disponibilize somente para o grupo ou para todos no sistema.
 
-Para usuários com acesso administrativo a processos de aprovação, as informações sobre como configurar processos de aprovação estão disponíveis em [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (ou se você estiver usando o Adobe Workfront Classic, consulte [Criação de Processos de Aprovação](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+Para usuários com acesso administrativo a processos de aprovação, as informações sobre como configurar processos de aprovação estão disponíveis em [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (ou se você estiver usando o Adobe Workfront Classic, consulte [Criação de Processos de Aprovação](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Para usuários, as informações sobre como associar processos de aprovação a itens de trabalho estão disponíveis em [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (ou se você estiver usando o Adobe Workfront Classic, consulte [Associando um Processo de Aprovação Novo ou Existente ao Trabalho](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Para usuários, as informações sobre como associar processos de aprovação a itens de trabalho estão disponíveis em [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (ou se você estiver usando o Adobe Workfront Classic, consulte [Associando um Processo de Aprovação Novo ou Existente ao Trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponível nestes ambientes:**
 

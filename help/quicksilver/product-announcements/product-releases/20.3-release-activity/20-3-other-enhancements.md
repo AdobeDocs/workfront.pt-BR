@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Para ajudá-lo a visualizar e gerenciar melhor seu trabalho diário com calendá
 
 Anteriormente, só era possível gerenciar o calendário com datas projetadas e planejadas quando não havia datas reais disponíveis.
 
-Para obter mais informações, consulte [Usar campos de data personalizados em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (ou se estiver usando o Workfront Classic, consulte [Usar campos de data personalizados em um relatório de calendário](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=en_US)).
+Para obter mais informações, consulte [Usar campos de data personalizados em um relatório de calendário](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (ou se estiver usando o Workfront Classic, consulte [Usar campos de data personalizados em um relatório de calendário](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 ## Alterações no email
 
@@ -82,11 +82,11 @@ Anteriormente, os administradores do sistema podiam adicionar um endereço de em
 
 **Alterações de resposta POP de email de entrada:** Os administradores do sistema não poderão mais configurar um servidor de email POP personalizado para respostas de email de entrada a notificações.
 
-Para obter mais informações, consulte [Alterações de email de resposta POP e falsificação de email](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
+Para obter mais informações, consulte [Alterações de email de resposta POP e falsificação de email](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## O DomainKeys Identified Mail (DKIM) agora é incluído nos emails de saída do Workfront
 
-Uma técnica de autenticação de email (DKIM) será incluída em todos os emails de saída. Esta assinatura DKIM não está visível para o usuário final, mas permite a validação no nível do servidor e reforça nossa estrutura de autenticação existente.
+Uma técnica de autenticação de email (DKIM) será incluída em todos os emails de saída. Essa assinatura do DKIM não é visível para o usuário final, mas permite a validação no nível do servidor e reforça nossa estrutura de autenticação existente.
 
 ## Atualizações da inscrição na nova experiência do Workfront
 

@@ -6,7 +6,7 @@ description: Você pode visualizar informações sobre objetos no  [!DNL Adobe W
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3697'
 ht-degree: 0%
@@ -254,8 +254,8 @@ O cabeçalho do programa exibe as seguintes informações:
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Navegação estrutural com o nome do Portfolio</td> 
-   <td> <p>Você pode acessar o [!UICONTROL Portfolio] a partir do cabeçalho do [!UICONTROL Program]. Clicar no nome do pai abre esse objeto pai.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Visão geral da navegação estrutural</a>.</p> </td> 
+   <td role="rowheader">Navegação estrutural com o nome da Portfolio</td> 
+   <td> <p>Você pode acessar a [!UICONTROL Portfolio] no cabeçalho do [!UICONTROL Program]. Clicar no nome do pai abre esse objeto pai.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Visão geral da navegação estrutural</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ícone de objeto </td> 
@@ -296,7 +296,7 @@ O cabeçalho do programa exibe as seguintes informações:
  </tbody> 
 </table>
 
-## visão geral do cabeçalho de Portfolio {#portfolio-header-overview}
+## Visão geral do cabeçalho do Portfolio {#portfolio-header-overview}
 
 ![](assets/portfolio-header-350x19.png)
 
@@ -326,15 +326,15 @@ O cabeçalho do portfólio inclui as seguintes informações:
   </tr> 
   <tr> 
    <td role="rowheader">Status de ativação</td> 
-   <td> <p>Se o portfólio estiver desativado, o texto "[!UICONTROL PORTFOLIO DESATIVADO]" será exibido acima do nome do portfólio no cabeçalho.</p> </td> 
+   <td> <p>Se o portfólio estiver desativado, o texto "[!UICONTROL PORTFOLIO DEACTIVATED]" será exibido acima do nome do portfólio no cabeçalho.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">A área de ações do portfólio</td> 
    <td> <p>Ao lado do nome do portfólio, a área [!UICONTROL actions] é exibida.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Gerenciador de Portfolio]</td> 
-   <td>Você pode editar o [!UICONTROL Gerenciador de Portfolio] no cabeçalho. É o mesmo que [!UICONTROL Portfolio Owner].</td> 
+   <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
+   <td>Você pode editar o [!UICONTROL Portfolio Manager] no cabeçalho. É o mesmo que [!UICONTROL Proprietário do Portfolio].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL No Prazo]</td> 
@@ -850,8 +850,8 @@ O cabeçalho do plano exibe as seguintes informações:
    <td>Os usuários com acesso para exibir ou gerenciar o plano são exibidos no canto superior direito do cabeçalho. Passar o mouse sobre as imagens de perfil exibe os nomes.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Ir para Publish]</td> 
-   <td>Ao clicar em [!UICONTROL Ir para Publish], você pode criar ou atualizar um projeto vinculado a uma iniciativa no cenário que está visualizando.</td> 
+   <td role="rowheader">[!UICONTROL Ir para Publicação]</td> 
+   <td>Ao clicar em [!UICONTROL Ir para a Publicação], você pode criar ou atualizar um projeto vinculado a uma iniciativa no cenário que está visualizando.</td> 
   </tr> 
  </tbody> 
 </table>

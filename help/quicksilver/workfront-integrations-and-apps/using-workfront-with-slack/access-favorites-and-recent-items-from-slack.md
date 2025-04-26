@@ -2,11 +2,11 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: Acessar seus favoritos e itens recentes do  [!DNL Slack]
-description: Depois de instalar e configurar o  [!DNL Adobe Workfront] para Slack, você poderá ver seus Favoritos e Itens Recentes do Workfront e acessar itens de qualquer lista do Slack.
+description: Depois de instalar e configurar o  [!DNL Adobe Workfront] para Slack, você poderá exibir seus Favoritos e Itens Recentes do Workfront e acessar itens de qualquer lista do Slack.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plano]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plano]</a>*</td> 
    <td> <p>[!UICONTROL Pro] ou superior</p> </td> 
   </tr> 
  </tbody> 
@@ -61,7 +61,7 @@ Antes de poder acessar seus favoritos e itens recentes do [!DNL Slack], você de
 
 ## Acessar sua lista de itens recentes de [!DNL Slack]
 
-1. Faça logon na instância do [!DNL Slack] e no [!DNL Workfront] a partir do Slack.\
+1. Faça logon na sua instância do [!DNL Slack] e no [!DNL Workfront] da Slack.\
    Para obter mais informações sobre como fazer logon no [!DNL Workfront] a partir de [!DNL Slack], consulte a seção &quot;Logon no [!DNL Workfront] a partir de [!DNL Slack]&quot; no [Acesso [!DNL Adobe Workfront] a partir de [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. De qualquer canal, comece digitando o seguinte comando no campo [!UICONTROL mensagem]: `/workfront recent`

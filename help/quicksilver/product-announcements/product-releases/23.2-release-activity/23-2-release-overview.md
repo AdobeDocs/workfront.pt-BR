@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
@@ -25,7 +25,7 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
 
 [Experiências impactantes: da criação de conteúdo ao Personalization](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) em 21 de março de 2023, para aprender novas maneiras de criar, gerenciar e personalizar conteúdo e fornecer experiências impactantes com mais eficiência. Esta sessão será transmitida ao vivo para públicos virtuais.
 
-[O futuro do Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) em 23 de março de 2023, para ver a visão do Workfront e seu lugar no ecossistema de Adobe e dar uma olhada no futuro roteiro. Esta sessão será gravada e disponibilizada posteriormente como conteúdo sob demanda.
+[O futuro do Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) em 23 de março de 2023, para ver a visão do Workfront e seu lugar no ecossistema do Adobe e dar uma olhada no futuro roteiro. Esta sessão será gravada e disponibilizada posteriormente como conteúdo sob demanda.
 
 <span class="preview">Os recursos fora do ciclo (aqueles que foram lançados para produção antes da data de lançamento da versão 23.2) estão destacados em amarelo.</span>
 
@@ -516,8 +516,8 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Novo no Workfront para plug-ins de Creative Cloud</a>
-                        <p>Adicionamos as seguintes alterações ao Workfront para plug-ins do Creative Cloud:
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Novo no Workfront para plug-ins do Creative Cloud</a>
+                        <p>Adicionamos as seguintes alterações aos plug-ins do Workfront para Creative Cloud:
                         <ul>
                         <li>O plug-in agora o notifica quando uma tarefa tem um predecessor</li>
                         <li>O coreano agora é um idioma suportado</li>
@@ -553,10 +553,10 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Novos clientes da rede a serem integrados à Experiência unificada do Adobe</a></p>
-                        <p>A Experiência unificada do Adobe inclui:
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Novos clientes da rede a serem integrados à Adobe Unified Experience</a></p>
+                        <p>A experiência unificada da Adobe inclui:
                         <ul>
-                        <li>Um login único para todos os aplicativos Adobe por meio do Adobe Experience Cloud</li>
+                        <li>Um logon único para todos os aplicativos da Adobe por meio do Adobe Experience Cloud</li>
                         <li>Um "alternador de organização" para alternar entre organizações e ambientes do Workfront</li>
                         <li>Navegação com opções para páginas do Workfront, preferências do Adobe Experience Cloud e seu perfil do Workfront</li>
                         </ul>
@@ -592,8 +592,8 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportar pranchetas como PDF único ou vários arquivos de PDF no Adobe Workfront para XD</span></a>
-                        <p>No plug-in Adobe Workfront for XD, agora é possível exportar as pranchetas como um único arquivo de PDF ou vários arquivos de PDF.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportar pranchetas como um único PDF ou vários arquivos PDF no Adobe Workfront para XD</span></a>
+                        <p>No plug-in Adobe Workfront para XD, agora é possível optar por exportar suas pranchetas como um único arquivo PDF ou vários arquivos PDF.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -653,11 +653,11 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão 23.2, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão 23.2, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutorials do Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=pt-BR).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funcionalidade que será removida em breve do Workfront
 

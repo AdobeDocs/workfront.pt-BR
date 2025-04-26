@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3272'
 ht-degree: 0%
@@ -61,8 +61,8 @@ Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 2
     </ul>  </td>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Migração para a Experiência Unificada do Adobe</a> </p>
-                        <p>Se sua organização tiver sido integrada à Adobe Admin Console, sua instância do Workfront será migrada para a Experiência unificada do Adobe com a versão 22.4.</p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Migração para a Experiência unificada da Adobe</a> </p>
+                        <p>Se sua organização tiver sido integrada à Adobe Admin Console, sua instância do Workfront será migrada para a Adobe Unified Experience com a versão 22.4.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                      <p>
@@ -623,7 +623,7 @@ Observação: essa funcionalidade não está disponível atualmente no Balancead
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Sincronizar metadados de objeto com a integração nativa do Experience Manager Assets</a> </p>
                         <p>Agora, o portfólio, o programa, o projeto, a tarefa, o problema e os campos de documento do Workfront são atualizados automaticamente quando o campo é alterado no Workfront.</p>
-                        <p>Para permitir que os metadados do objeto sejam sincronizados automaticamente, você deve ativar a opção Sincronizar metadados do objeto para suas integrações em Configurar &gt; Integrações de Experience Manager.</p>
+                        <p>Para permitir que os metadados do objeto sejam sincronizados automaticamente, você deve ativar a opção Sincronizar metadados do objeto para suas integrações em Configurar &gt; Integrações do Experience Manager.</p>
                         <p>Anteriormente, somente os campos do projeto eram atualizados automaticamente.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -734,7 +734,7 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Webinário da versão 22.4
 
@@ -742,7 +742,7 @@ O webinário de lançamento do 22.4 será realizado na quinta-feira, 22 de setem
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://one.workfront.com/s/training-release-updates).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funcionalidade removida com a versão 22.4
 

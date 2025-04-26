@@ -6,7 +6,7 @@ description: Sem acesso ou permissões corretos, talvez você não consiga visua
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -50,7 +50,7 @@ A tabela a seguir ilustra a conexão entre o plano Workfront que sua empresa tem
  </tbody> 
 </table>
 
-Para obter informações sobre os planos da Workfront, consulte [Nossos Planos](https://www.workfront.com/plans).
+Para obter informações sobre os planos da Workfront, consulte [Nossos Planos](https://business.adobe.com/products/workfront/pricing.html).
 
 Para obter informações sobre onde localizar o Balanceador de Carga de Trabalho no Workfront, consulte [Localizar o Balanceador de Carga de Trabalho](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
@@ -104,7 +104,7 @@ Você deve ter o seguinte acesso para gerenciar o Balanceador de carga de trabal
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p> Permissões do Contribute ou superiores no projeto cujas atribuições você deseja gerenciar, o que inclui permissões para fazer atribuições. </p> <p>Para obter informações sobre permissões de projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p></td>
+   <td> <p> Permissões do Contribute ou superiores no projeto cujas atribuições você deseja gerenciar, que inclui permissões para fazer atribuições. </p> <p>Para obter informações sobre permissões de projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p></td>
   </tr> 
  </tbody> 
 </table>

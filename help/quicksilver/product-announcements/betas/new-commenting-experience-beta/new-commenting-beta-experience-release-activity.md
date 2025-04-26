@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1870'
 ht-degree: 0%
 
 ---
@@ -317,19 +317,19 @@ Disponível para comentários sobre a experiência do Beta com problemas e para 
 
 A seguinte atualização de manutenção foi lançada para comentários de problemas em beta e para metas do:
 
-Editar imagens anexadas ao editar um comentário. Para obter informações, consulte a seção &quot;Atualização de manutenção em 27 de abril&quot; no artigo <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Atualizações em abril de 2023</a>.
+Editar imagens anexadas ao editar um comentário. Para obter informações, consulte a seção &quot;Atualização de manutenção em 27 de abril&quot; no artigo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates em abril de 2023</a>.
 
 ### 20 de abril de 2023
 
 A seguinte atualização de manutenção foi lançada para comentários de problemas em beta e para metas do:
 
-Mantenha as imagens como rascunho ao sair de uma atualização para metas e problemas na experiência beta de comentários. Para obter informações, consulte a seção &quot;Atualização de manutenção em 20 de abril&quot; no artigo <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Atualizações em abril de 2023</a>.
+Mantenha as imagens como rascunho ao sair de uma atualização para metas e problemas na experiência beta de comentários. Para obter informações, consulte a seção &quot;Atualização de manutenção em 20 de abril&quot; no artigo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates em abril de 2023</a>.
 
 ### 17 de abril de 2023
 
 A seguinte atualização de manutenção foi lançada para comentários de problemas em beta e para metas do:
 
-Mostre novos comentários fora da área de tela visível na seção Atualizações de problemas (nova experiência de Beta de comentário) e Metas. Para obter informações, consulte a seção &quot;Atualização de manutenção em 17 de abril&quot; no artigo <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Atualizações em abril de 2023</a>.
+Mostre novos comentários fora da área de tela visível na seção Atualizações de problemas (nova experiência de Beta de comentário) e Metas. Para obter informações, consulte a seção &quot;Atualização de manutenção em 17 de abril&quot; no artigo &lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates em abril de 2023</a>.
 
 
 ### Semana de 6 de abril de 2023

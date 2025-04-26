@@ -6,7 +6,7 @@ description: Receber [!DNL Adobe Workfront] notificações em [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Você deve ter o seguinte:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plano]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plano]</a>*</td> 
    <td> <p>[!UICONTROL Pro] ou superior</p> </td> 
   </tr> 
  </tbody> 
@@ -93,7 +93,7 @@ Não é possível desabilitar notificações dentro da interface [!DNL Workfront
 
 Para gerenciar suas notificações do [!DNL Workfront] para [!DNL Slack]:
 
-1. Faça logon em [!UICONTROL Slack].
+1. Faça logon no [!UICONTROL Slack].
 1. Faça logon em [!DNL Workfront] a partir de [!DNL Slack].\
    Para obter informações sobre como fazer logon no [!DNL Workfront] a partir de [!DNL Slack], consulte a seção &quot;Fazendo logon no [!DNL Workfront] a partir de [!DNL Slack]&quot; no [Acesso [!DNL Adobe Workfront] a partir de [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
@@ -112,7 +112,7 @@ Para gerenciar suas notificações do [!DNL Workfront] para [!DNL Slack]:
    * (Condicional e opcional) Clique em **[!UICONTROL Aprovar]**, **[!UICONTROL Alterações]** ou **[!UICONTROL Rejeitar]** para aprovar, aprovar com alterações ou rejeitar um documento.
 
      Você também pode passar o mouse sobre a miniatura do documento e clicar no ícone de lupa para exibir uma visualização maior do documento, antes de aprová-lo.\
-      Somente o Slack aprovado [tipos de arquivo](https://api.slack.com/types/file) pode ser visualizado.
+      Somente os [tipos de arquivos](https://api.slack.com/types/file) aprovados do Slack podem ser visualizados.
 
    * (Condicional e opcional) Clique em **[!UICONTROL Conceder]** ou **[!UICONTROL Ignorar]** para conceder ou ignorar a solicitação de mais acesso de outro usuário.\
 

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 150bc838-d6a5-445a-af77-62c4ed74dd1b
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Na Configuração, você configura uma preferência para garantir que cada novo 
 
 Para garantir que novos projetos sempre tenham um status, mesmo que um administrador oculte ou desbloqueie o status configurado para novos projetos, o sistema agora atribui o primeiro status na lista Status a todos os novos projetos até que você configure o novo status para novos projetos novamente.
 
-Para obter informações sobre como definir a preferência para o status de todos os novos projetos, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Definindo Preferências de Projeto](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Para obter informações sobre como definir a preferência para o status de todos os novos projetos, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Definindo Preferências de Projeto](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponível nestes ambientes:**
 
@@ -42,7 +42,7 @@ A experiência de definir as preferências do projeto agora é mais intuitiva e 
 * Se você digitar um número inválido para uma opção como &quot;Horas típicas por dia de trabalho&quot;, uma mensagem de aviso será exibida imediatamente em vez de ser exibida depois que você clicar em Salvar.
 * Os rótulos de opção correspondem ao texto da interface correspondente em outro lugar no Workfront, como a área Detalhes e os relatórios.
 
-Para obter informações sobre a área Preferências do Projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Definindo Preferências do Projeto](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Para obter informações sobre a área Preferências do Projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Definindo Preferências do Projeto](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponível nestes ambientes:**
 
@@ -68,11 +68,11 @@ Por exemplo, quando você move ou copia uma tarefa com uma restrição Deve Inic
 
 Antes dessa alteração, a Restrição da tarefa sempre muda para O mais rápido possível.
 
-Para obter informações sobre como mover tarefas, consulte [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Movendo Tarefas](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Para obter informações sobre como mover tarefas, consulte [Mover tarefas](../../../manage-work/tasks/manage-tasks/move-tasks.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Movendo Tarefas](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Para obter informações sobre como copiar tarefas, consulte [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Copiar e Duplicar Tarefas](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Para obter informações sobre como copiar tarefas, consulte [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Copiar e Duplicar Tarefas](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
-Para obter uma visão geral de todas as Restrições de Tarefa, consulte [Visão geral da Restrição de Tarefa](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Visão Geral da Restrição de Tarefa](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+Para obter uma visão geral de todas as Restrições de Tarefa, consulte [Visão geral da Restrição de Tarefa](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (ou se estiver usando o Adobe Workfront Classic, consulte [Visão Geral da Restrição de Tarefa](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
 
 **Disponível nestes ambientes:**
 

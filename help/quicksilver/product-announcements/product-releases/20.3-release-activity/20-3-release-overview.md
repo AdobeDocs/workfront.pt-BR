@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 0%
@@ -118,7 +118,7 @@ A versão 2020.3 contém os seguintes aprimoramentos para todos os usuários:
 >
 >Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
 >
->* Um [plano Adobe Workfront](https://www.workfront.com/plans) Pro ou superior.
+>* Um [plano Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) Pro ou superior.
 >* Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
 >
 >  Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
@@ -154,7 +154,7 @@ A versão 2020.3 contém os seguintes aprimoramentos para todos os usuários:
 &gt; <col> 
 &gt; <tbody> 
 &gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Plano do Workfront</a>*</p> </td> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Plano do Workfront</a>*</p> </td> 
 &gt;   <td>Business ou superior</td> 
 &gt;  </tr> 
 &gt;  <tr> 
@@ -284,7 +284,7 @@ A versão 2020.3 contém os seguintes aprimoramentos para todos os usuários:
    <td><strong>Disponível nestas datas:</strong> <p>Versão de pré-visualização do Beta: 2 de julho de 2020</p> <p>Versão de produção: com a versão 20.3</p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>A nova experiência do Adobe Workfront </p> <p>Adobe Workfront Classic (disponível para algumas listas, mas não suportado)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#updated" class="MCXref xref">Aparência e comportamento atualizados de vários cabeçalhos globais</a> </p> <p>As áreas globais de Projetos, Portfolio, Programas e Modelos agora têm um cabeçalho atualizado que faz melhor uso do espaço na tela. Essa atualização oferece mais espaço para as informações com as quais você precisa se concentrar. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#updated" class="MCXref xref">Aparência e comportamento atualizados de vários cabeçalhos globais</a> </p> <p>As áreas globais de Projetos, Portfólios, Programas e Modelos agora têm um cabeçalho atualizado que faz melhor uso do espaço na tela. Essa atualização oferece mais espaço para as informações com as quais você precisa se concentrar. </p> </td> 
    <td><strong>Disponível nestas datas:</strong> <p>Versão de pré-visualização do Beta: 19 de junho de 2020</p> <p>Versão de produção: com a versão 20.3</p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>A nova experiência do Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -391,7 +391,7 @@ A versão 2020.3 contém os seguintes aprimoramentos para todos os usuários:
    <td> <p><strong>Disponível nestas datas:</strong> </p> <p>Versão de pré-visualização do Beta: 9 de julho de 2020</p> <p>Versão de produção: a partir da versão 20.3 em uma implantação em fases e disponível para todos os clientes até 1º de setembro de 2020.</p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>A nova experiência do Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#domainke" class="MCXref xref">DomainKeys Identified Mail (DKIM) agora incluído nos emails de saída do Workfront</a> </p> <p>Uma técnica de autenticação de email (DKIM) será incluída em todos os emails de saída. Esta assinatura DKIM não está visível para o usuário final, mas permite a validação no nível do servidor e reforça nossa estrutura de autenticação existente.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#domainke" class="MCXref xref">Email identificado do DomainKeys (DKIM) agora incluído nos emails de saída do Workfront</a> </p> <p>Uma técnica de autenticação de email (DKIM) será incluída em todos os emails de saída. Essa assinatura do DKIM não é visível para o usuário final, mas permite a validação no nível do servidor e reforça nossa estrutura de autenticação existente.</p> </td> 
    <td><strong>Disponível nestas datas:</strong> <p>Versão de visualização do Beta: 29 de julho de 2020</p> <p>Versão de produção: a partir da versão 20.3 em uma implantação em fases e disponível para todos os clientes até 1º de setembro de 2020.</p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>A nova experiência do Adobe Workfront </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -435,7 +435,7 @@ Para obter informações sobre as atualizações de manutenção feitas durante 
 
 A partir de 20 de maio de 2020, o Workfront começou a disponibilizar a funcionalidade no ambiente de Pré-visualização semanalmente. Antes dessa alteração, a funcionalidade normalmente era lançada no ambiente de Pré-visualização a cada duas semanas.
 
-Para obter mais informações, consulte [Perguntas frequentes sobre a alteração na cadência da versão de visualização do Workfront](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
+Para obter mais informações, consulte [Perguntas frequentes sobre a alteração na cadência da versão de visualização do Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home)
 
 ### ➡ Inclui na lista de permissões de domínios adicionais necessários para acessar o Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -450,11 +450,11 @@ Incluir na lista de permissões Para obter mais informações, consulte [Configu
 
 Com o Workfront One, você descobrirá o conteúdo, os recursos e as notícias mais importantes da Workfront — tudo em um único local, com um único logon. Unificamos os sites de Experiência, Comunidade e Treinamento, facilitando encontrar o que você está procurando.
 
-[Saiba mais sobre o Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Saiba mais sobre o Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinário da versão 20.3 {#20-3-release-webinar}
 
-Assista ao Webinário da Versão 20.3 do Produto [aqui](https://one.workfront.com/s/managed-content-event/20-3-product-release-webinar-20Y0z000000bmRJEAY).
+Assista ao Webinário da Versão 20.3 do Produto [aqui](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

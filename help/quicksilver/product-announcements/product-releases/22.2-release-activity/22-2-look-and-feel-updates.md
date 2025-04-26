@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00113f7e-2f69-445d-847e-14fd464241de
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -55,7 +55,7 @@ As barras de ferramentas nas listas e relatórios a seguir agora têm uma aparê
 
 >[!NOTE]
 >
->A barra de ferramentas desses mesmos relatórios nos painéis também foi atualizada na Produção com a [Atualização de manutenção](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) semanal em 3 de março de 2022.
+>A barra de ferramentas desses mesmos relatórios nos painéis também foi atualizada na Produção com a [Atualização de manutenção](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) semanal em 3 de março de 2022.
 
 * Relatórios de projeto
 * Relatórios de tarefa
@@ -63,7 +63,7 @@ As barras de ferramentas nas listas e relatórios a seguir agora têm uma aparê
 * Relatórios de horas
 * Relatórios do usuário
 * Relatórios do programa
-* relatórios de Portfolio
+* Relatórios do Portfolio
 * Relatórios de atribuição
 * Relatórios de notas
 * Relatórios de aprovação de documento

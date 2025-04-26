@@ -7,7 +7,7 @@ description: Na parte superior da tela na área Analítica aprimorada, quatro in
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 
 É necessário um Plano de negócios ou superior para usar este recurso.\
-Para obter mais informações sobre os vários planos disponíveis, consulte [Planos do Adobe Workfront](https://www.workfront.com/plans).
+Para obter mais informações sobre os vários planos disponíveis, consulte [Planos do Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 Na parte superior da tela na área Analítica aprimorada, quatro indicadores-chave de desempenho (KPIs) são exibidos. Essas métricas permitem compreender rapidamente quanto tempo os projetos estão demorando, qual é o tamanho dos projetos e quantos projetos estão sendo concluídos em um intervalo de tempo específico. Esses números não estão limitados ao máximo de 50 projetos exibido para as visualizações nesta página. Em vez disso, esses dados se baseiam em todos os projetos que se aplicam a qualquer filtro definido, e esses números se ajustam se você alterar o intervalo de datas selecionado ou qualquer um dos filtros.
 

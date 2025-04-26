@@ -2,11 +2,11 @@
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-slack
 title: Configurar [!DNL Adobe Workfront] para Slack
-description: Integrar [!DNL Adobe Workfront] com o Slack permite que você acesse e crie [!DNL Workfront] itens de trabalho, aprovações, favoritos e itens recentes do Slack.
+description: Integrar o  [!DNL Adobe Workfront] com o Slack permite que você acesse e crie [!DNL Workfront] itens de trabalho, aprovações, favoritos e itens recentes do Slack.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Você deve ter o seguinte:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plano]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plano]</a>*</td> 
    <td> <p>[!UICONTROL Pro] ou superior</p> </td> 
   </tr> 
  </tbody> 
@@ -72,7 +72,7 @@ Siga as etapas abaixo para executar o processo de instalação e autorizar o [!D
 
 >[!IMPORTANT]
 >
->Quando uma nova versão do [!DNL Workfront] for lançada para o Slack, você deverá autorizar novamente o aplicativo para continuar usando-o.
+>Quando uma nova versão do [!DNL Workfront] for lançada para Slack, você deverá autorizar novamente o aplicativo para continuar usando-o.
 
 1. Localize o complemento [!DNL Adobe Workfront] na [[!DNL Slack] loja](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info).
 

@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Anteriormente, era necessário acessar os detalhes do documento e o fluxo de tra
 
 Para obter mais informações sobre decisões de prova, consulte [A área Documentos](../../../documents/managing-documents/documents-area.md).
 
-Este recurso agora está incluído no [Gerenciar provas e versões no novo caminho de aprendizado da experiência de Workfront](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) no Workfront One.
+Este recurso agora está incluído no [Gerenciar provas e versões no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Novos campos no relatório Aprovação de prova
 
@@ -45,7 +45,7 @@ Para ajudar a exibir informações úteis sobre prova, adicionamos os seguintes 
 
 Esses campos não fazem parte do relatório padrão. Você precisa adicioná-las se quiser visualizá-las.
 
-Este recurso agora está incluído nas [configurações do sistema de prova, Parte 2: caminho de aprendizado Gerenciamento de fluxo de trabalho](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) no Workfront One.
+Este recurso agora está incluído nas [configurações do sistema de prova, Parte 2: caminho de aprendizado Gerenciamento de fluxo de trabalho](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Continuar o fluxo de trabalho de prova existente ao gerar uma nova versão
 

@@ -7,7 +7,7 @@ description: A visualização Tarefas em andamento mostra quantas tarefas (dentr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 4%
@@ -34,7 +34,7 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plano do Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Plano do Adobe Workfront</a>*</td> 
    <td> <p>Business ou superior</p> </td> 
   </tr> 
   <tr> 

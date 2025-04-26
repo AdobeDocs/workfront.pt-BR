@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Você deve ter o seguinte:
 As organizações precisam trabalhar com os gerentes de conta para comprar o AppBuilder. O processo exato para isso não é compreendido porque não precisamos fazer isso para a POC.
 
 Se quiser testar a integração do AppBuilder, solicite uma avaliação gratuita para sua organização IMS aqui:
-[https://developer.adobe.com/app-builder/trial/#](https://developer.adobe.com/app-builder/trial/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
 
 Tenho a impressão de que, embora seja um julgamento gratuito de 30 dias, eles não desativarão o julgamento depois desse período.
 

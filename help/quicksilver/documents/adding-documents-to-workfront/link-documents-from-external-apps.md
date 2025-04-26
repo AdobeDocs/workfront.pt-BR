@@ -6,7 +6,7 @@ description: Você pode vincular documentos e pastas ao Adobe Workfront a partir
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2620'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Você pode vincular documentos e pastas ao Adobe Workfront a partir das seguinte
   </tr> 
   <tr> 
    <td role="rowheader">Prova do Workfront </td> 
-   <td>Você pode disponibilizar no Workfront provas que foram criadas originalmente no Workfront Proof. Para as licenças atuais, é necessário um Plano Pro Workfront ou superior para usar esse recurso. Para as novas licenças, todos os planos incluem esse recurso. Para obter mais informações sobre os vários planos disponíveis, consulte <a href="https://www.workfront.com/plans">Planos do Workfront</a>.</td> 
+   <td>Você pode disponibilizar no Workfront provas que foram criadas originalmente no Workfront Proof. Para as licenças atuais, é necessário um Plano Pro Workfront ou superior para usar esse recurso. Para as novas licenças, todos os planos incluem esse recurso. Para obter mais informações sobre os vários planos disponíveis, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Planos do Workfront</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -51,7 +51,7 @@ Você pode vincular documentos e pastas ao Adobe Workfront a partir das seguinte
   </tr> 
   <tr> 
    <td role="rowheader">Outros provedores de documentos (por meio de integrações de documentos personalizadas)</td> 
-   <td> <p class="workfront_plans">Para as licenças atuais, é necessário um Plano Pro Workfront ou superior para usar esse recurso. Para as novas licenças, todos os planos incluem esse recurso. Para obter mais informações sobre os vários planos disponíveis, consulte <a href="https://www.workfront.com/plans">Planos do Workfront</a>.</p> </td>
+   <td> <p class="workfront_plans">Para as licenças atuais, é necessário um Plano Pro Workfront ou superior para usar esse recurso. Para as novas licenças, todos os planos incluem esse recurso. Para obter mais informações sobre os vários planos disponíveis, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Planos do Workfront</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>

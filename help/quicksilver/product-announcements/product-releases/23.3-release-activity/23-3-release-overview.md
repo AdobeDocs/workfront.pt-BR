@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2799'
 ht-degree: 0%
@@ -421,8 +421,8 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Exibir e gerenciar notificações do Workfront na Workfront para plug-ins de Creative Cloud</a></p> 
-                        <p>Para facilitar o recebimento das notificações necessárias, possibilitamos a exibição e o gerenciamento das notificações do Workfront sem sair da Adobe Creative Cloud. Agora, você pode visualizar as notificações e acessar os itens de trabalho e comentários relacionados a essas notificações diretamente da janela de plug-in do Workfront no aplicativo Creative Cloud.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Exibir e gerenciar notificações do Workfront na Workfront para plug-ins do Creative Cloud</a></p> 
+                        <p>Para facilitar o recebimento das notificações necessárias, possibilitamos a exibição e o gerenciamento das notificações do Workfront sem sair da Adobe Creative Cloud. Agora, você pode visualizar notificações e acessar os itens de trabalho e comentários relacionados a essas notificações diretamente da janela de plug-in do Workfront no aplicativo do Creative Cloud.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -501,7 +501,7 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajuste as configurações do modelo de fluxo de trabalho de prova automatizada usando o Adobe Workfront para Creative Cloud</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Ajuste as configurações do modelo de fluxo de trabalho de prova automática usando o Adobe Workfront para Creative Cloud</a></p>
                         <p>Agora você pode ajustar as configurações existentes do modelo de fluxo de trabalho automatizado diretamente no Creative Cloud.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -768,11 +768,11 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutorials do Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=pt-BR).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funcionalidade que será removida em breve do Workfront
 

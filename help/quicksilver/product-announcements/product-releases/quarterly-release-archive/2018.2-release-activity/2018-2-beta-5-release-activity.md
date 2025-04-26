@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 1%
@@ -155,7 +155,7 @@ Antes dessa melhoria, a coluna vizinha à direita da coluna redimensionada tamb�
 
 Para obter informações sobre como redimensionar as colunas de reordenação em listas, consulte [Modificar largura e ordem da coluna](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Para participar do nosso programa de teste beta para as melhorias da lista atual, consulte [Estudo de novas listas.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) (Login necessário)
+Para participar do nosso programa de teste beta para as melhorias da lista atual, consulte [Estudo de novas listas.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Login necessário)
 
 ## Ícone Suporte para novas listas de projeto {#icon-support-for-the-new-project-lists}
 
@@ -424,7 +424,7 @@ Para obter mais informações, consulte  [Glossário da terminologia do Adobe W
 
 Agora é possível criar uma nova versão de uma prova diretamente no novo visualizador de provas e no Visualizador de provas da área de trabalho ao fazer provas no Workfront Proof.
 
-Anteriormente, essa opção estava disponível somente no Visualizador de Flashes herdados.
+Anteriormente, essa opção estava disponível somente no Flash Viewer herdado.
 
 Para obter mais informações, consulte [Copiando provas no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) no artigo  [Copiando provas no Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 

@@ -8,10 +8,10 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 9ca5574d-7bc5-4d9d-9ed7-4d5fad6f7857
-source-git-commit: 905aaaa5d300bc71058dd6ee2d568c8fc1229570
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -42,7 +42,7 @@ Você também pode ver o número de projetos concluídos no período anterior, b
 
 ![Projetos KPI concluídos](assets/kpi-projects-completed-350x182.png)
 
-### Query
+### Consulta
 
 ```
 WITH completedProjectsInRange as ( 

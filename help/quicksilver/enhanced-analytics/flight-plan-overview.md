@@ -7,7 +7,7 @@ description: A visualização do Plano de voo mostra quantos projetos (dentro do
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 4%
@@ -34,7 +34,7 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Plano do Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Plano do Adobe Workfront</a>*</td> 
    <td> <p>Business ou superior</p> </td> 
   </tr> 
   <tr> 
@@ -149,6 +149,6 @@ Para obter informações sobre como obter os melhores dados para esta visualiza�
 
 1. Para ver mais informações do projeto, clique em um projeto na visualização para abrir as visualizações Burndown e Tarefas em andamento.
 
-   Essas visualizações podem ajudar você a obter um insight mais profundo sobre o que fez o projeto sair do caminho. Elas também facilitam o check-in de um projeto em andamento.\
+   Essas visualizações podem ajudar você a obter uma insight mais profunda sobre o que fez com que o projeto saísse dos eixos. Elas também facilitam o check-in de um projeto em andamento.\
    Para obter mais informações sobre a visualização de Burndown, consulte [Exibir a visualização de Burndown na análise aprimorada](../enhanced-analytics/burndown-overview.md). Para obter mais informações sobre as Tarefas na visualização em andamento, consulte [Exibir as Tarefas na visualização em andamento na análise aprimorada](../enhanced-analytics/tasks-in-flight-overview.md).
 

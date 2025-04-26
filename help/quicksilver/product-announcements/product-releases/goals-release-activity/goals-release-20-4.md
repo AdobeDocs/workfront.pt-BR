@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Continuamos a melhorar a maneira como você usa as Metas do Workfront com base n
 >
 >**Disponibilidade de produção:** com a versão 20.4
 
-Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) no Workfront One.
+Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Controles de acesso para metas do Workfront
 
@@ -61,7 +61,7 @@ Para obter informações sobre como conceder acesso ao Workfront Goals, consulte
 >
 >**Disponibilidade de produção:** com a versão 20.4
 
-Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) no Workfront One.
+Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Melhorias na usabilidade dos objetivos do Workfront
 
@@ -82,4 +82,4 @@ Para obter informações, consulte os seguintes artigos:
 >
 >**Disponibilidade de produção:** com a versão 20.4
 
-Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) no Workfront One.
+Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.

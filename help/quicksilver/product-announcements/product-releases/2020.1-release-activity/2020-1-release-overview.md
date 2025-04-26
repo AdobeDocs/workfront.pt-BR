@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2566'
 ht-degree: 0%
@@ -183,7 +183,7 @@ Algumas funcionalidades foram lançadas antes da versão 2020.1. Para ver o que 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-project-enhancements.md#include" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Incluir e identificar o texto citado em um comentário ou resposta de atualização</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Project-enhancements-1509887664?language=en_US&amp;r=3&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Include and identify quoted text in an update comment or reply</a>
-     --> </p> <p>Ao digitar um comentário, você pode marcar parte dele como citação para diferenciá-lo do seu próprio comentário. Use o botão Cotação de bloco no editor de HTML.</p> </td> 
+     --> </p> <p>Ao digitar um comentário, você pode marcar parte dele como citação para diferenciá-lo do seu próprio comentário. Use o botão Cotação de bloco no editor do HTML.</p> </td> 
    <td> <p>Versão de pré-visualização do Beta: 27 de fevereiro de 2020</p> <p>Versão de produção: 26 de março de 2020</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -286,9 +286,9 @@ Algumas funcionalidades foram lançadas antes da versão 2020.1. Para ver o que 
    <td> <p>Versão de pré-visualização do Beta: 10 de março de 2020</p> <p>Versão de produção: com a versão 2020.1 <span style="color: #ff0000;">(Removida da versão)</span></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">O Otimizador de Portfolio de Flash foi removido</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#the" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">O Flash Portfolio Otimizer foi removido</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Flash Portfolio Optimizer has been removed</a>
-     --> </p> <p>Removemos a capacidade de alternar entre o novo e o herdado (baseado em FlashFlash) Portfolio Otimizer do ambiente Workfront Classic para todos os clientes. O Otimizador de Portfolio herdado é um recurso obsoleto e as novas ferramentas fornecem a mesma funcionalidade hoje em dia.</p> </td> 
+     --> </p> <p>Removemos a capacidade de alternar entre o novo e o herdado (com base no FlashFlash) Portfolio Otimizer do ambiente Workfront Classic para todos os clientes. O Portfolio Otimizer herdado é um recurso obsoleto e as novas ferramentas fornecem a mesma funcionalidade hoje em dia.</p> </td> 
    <td> <p>Versão de pré-visualização do Beta: 27 de fevereiro de 2020</p> <p>Versão de produção: com a versão 2020.1</p> </td> 
   </tr> 
   <tr> 
@@ -343,7 +343,7 @@ Para obter informações sobre as atualizações de manutenção feitas durante 
 * [Webinar do roteiro de produtos do primeiro trimestre](#q1-product-roadmap-webinar)
 * [Várias opções de Logon Único a serem removidas](#various-single-sign-on-options-to-be-removed)
 * [O suporte para TLS 1.0 e 1.1 está terminando](#tls-1-0-and-1-1-support-is-ending)
-* [Remoção do aplicativo do Flash](#flash-application-removal)
+* [Remoção de aplicativo Flash](#flash-application-removal)
 
 ### Adicionar outros domínios ao incluo na lista de permissões necessário para acessar o Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -358,7 +358,7 @@ Incluir na lista de permissões Para obter mais informações, consulte [Configu
 
 Com o Workfront One, você descobrirá o conteúdo, os recursos e as notícias mais importantes da Workfront — tudo em um único local, com um único logon. Unificamos os sites de Experiência, Comunidade e Treinamento, facilitando encontrar o que você está procurando.
 
-[Saiba mais sobre o Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Saiba mais sobre o Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinário da versão 2020.1 {#2020-1-release-webinar}
 
@@ -435,7 +435,7 @@ Para fornecer segurança ideal, o Workfront exige que todas as integrações e o
 
 Para obter mais informações, consulte [TLS 1.2 a ser necessário no Adobe Workfront](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
-### Remoção do aplicativo do Flash {#flash-application-removal}
+### Remoção de aplicativo Flash {#flash-application-removal}
 
 Todas as funcionalidades que dependem da tecnologia Flash foram removidas do Workfront desde a versão 2018.3 e substituídas por uma nova solução.
 

@@ -6,7 +6,7 @@ description: O processo a seguir descreve as práticas recomendadas para mudar d
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4a8d1e2b-9744-4f72-a337-5057448db4fb
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -30,9 +30,9 @@ Para clientes no Adobe Experience Manager Assets as a Cloud Service, o caminho d
 >
 >Um parceiro certificado ou os serviços da Adobe Consulting são necessários para a implementação do conector aprimorado.
 >
-> Para parceiros que desejam se certificar no conector aprimorado, consulte o seguinte artigo: [Série de especialistas sobre conectores aprimorados do Workfront for Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html?lang=en).
+> Para parceiros que desejam se certificar no conector aprimorado, consulte o seguinte artigo: [Série de especialistas em conectores aprimorados do Workfront for Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Para implementar o conector aprimorado, consulte [Configurar Workfront para conector aprimorado Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-connector-configure.html?lang=en).
+Para implementar o conector aprimorado, consulte [Configurar conector aprimorado do Workfront para Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Mover ativos existentes

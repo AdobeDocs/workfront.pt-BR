@@ -1,12 +1,12 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Postar um comentário Slack como atualização
-description: Você pode adicionar um comentário Slack como uma atualização a um projeto, tarefa ou problema específico no Adobe Workfront.
+title: Postar um comentário do Slack como atualização
+description: Você pode adicionar um comentário do Slack como uma atualização de um projeto, tarefa ou problema específico no Adobe Workfront.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Você deve ter o seguinte:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plano]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plano]</a>*</td> 
    <td> <p>[!UICONTROL Pro] ou superior</p> </td> 
   </tr> 
  </tbody> 

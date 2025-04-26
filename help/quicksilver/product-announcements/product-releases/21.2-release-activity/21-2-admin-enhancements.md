@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Na área Logs de auditoria, agora é possível rastrear e solucionar problemas d
 
 Para obter mais informações, consulte [Logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Este recurso agora está incluído no [Fundamentos do administrador para a nova experiência do Workfront, Parte 2: Caminho de Aprendizado da Instalação do Projeto](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) no Workfront One.
+Este recurso agora está incluído no [Fundamentos do administrador para a nova experiência do Workfront, Parte 2: Caminho de Aprendizado da Instalação do Projeto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Para administradores de grupo: controles aprimorados para mover subgrupos e uma barra de ferramentas atualizada
 
@@ -137,7 +137,7 @@ Anteriormente, esses padrões não podiam ser personalizados, portanto, sempre e
 
 Para obter mais informações, consulte [Personalizar Filtros, Exibições e Agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Este recurso agora está incluído no [Fundamentos do administrador no novo caminho de aprendizado da Workfront Experience, Parte 3: Experiência de controle e interface](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) no Workfront One.
+Este recurso agora está incluído no [Fundamentos do administrador no novo caminho de aprendizado da Workfront Experience, Parte 3: Experiência de controle e interface](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Novo para administradores: liste facilmente os relatórios que estão usando um campo personalizado no momento
 

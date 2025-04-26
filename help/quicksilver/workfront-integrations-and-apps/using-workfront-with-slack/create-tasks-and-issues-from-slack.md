@@ -2,11 +2,11 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Criar tarefas e problemas do Slack
-description: Depois de instalar e configurar o  [!DNL Adobe Workfront] para Slack, você pode criar tarefas e problemas no Slack e associá-los a projetos no Workfront.
+description: Depois de instalar e configurar o  [!DNL Adobe Workfront] para Slack, você pode criar tarefas e problemas com o Slack e associá-los a projetos no Workfront.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Você deve ter o seguinte:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plano]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plano]</a>*</td> 
    <td> <p>[!UICONTROL Pro] ou superior</p> </td> 
   </tr> 
  </tbody> 
@@ -46,7 +46,7 @@ Você deve ter o seguinte:
 
 Antes de criar tarefas e problemas a partir de [!DNL Slack], você deve
 
-* Configurar [!DNL Workfront] para o Slack\
+* Configurar o [!DNL Workfront] para o Slack\
    Para obter instruções sobre como configurar o [!DNL Workfront for Slack], consulte [Configurar [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Criar tarefas de [!DNL Slack]

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão 22.2, c
 
 ## A integração do Adobe Workfront com Anaplan já está disponível
 
-Para oferecer mais flexibilidade e insight sobre os aspectos financeiros dos projetos da Workfront, a Workfront agora pode se integrar à sua conta Anaplan. Ao vincular objetos Workfront a objetos Anaplan, você pode atualizar informações entre as duas contas automaticamente, garantindo que as informações em ambas estejam atualizadas e idênticas. Você também pode acionar processos automatizados no Anaplan com base em ações no Workfront (ou vice-versa).
+Para lhe dar mais flexibilidade e insight nos aspectos financeiros dos seus projetos Workfront, Workfront pode agora integrar com a sua conta Anaplan. Ao vincular objetos Workfront a objetos Anaplan, você pode atualizar informações entre as duas contas automaticamente, garantindo que as informações em ambas estejam atualizadas e idênticas. Você também pode acionar processos automatizados no Anaplan com base em ações no Workfront (ou vice-versa).
 
 Por exemplo, você pode criar uma campanha no Anaplan e, em seguida, criar um projeto ou programa do Workfront vinculado à campanha. Quaisquer custos rastreados no Workfront podem ser enviados de volta ao Anaplan para analisar o desempenho da campanha.
 
@@ -41,21 +41,21 @@ Outros fluxos de trabalho que você pode considerar usar a integração Workfron
 
 Para obter mais informações, consulte [Adobe Workfront com Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
 
-## Atualizações aprimoradas de conector do Workfront for Experience Manager
+## Atualizações avançadas de conector do Workfront for Experience Manager
 
 O conector aprimorado do Workfront para Experience Manager agora inclui as seguintes atualizações:
 
 * Agora é possível criar pastas vinculadas entre o Adobe Workfront e o Adobe Experience Manager Assets as a Cloud Service, mesmo se houver várias configurações de pastas vinculadas do projeto.
 * Adição de suporte para paginação de subscrição de evento.
-* Adição de suporte para AEM 6.4.x
+* Adição de suporte para o AEM 6.4.x
 * Adição de suporte para ambientes proxy
 * Várias correções de bugs com base no feedback do parceiro e do cliente
 
-Para obter mais informações, consulte [visão geral do conector aprimorado Workfront for Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
+Para obter mais informações, consulte a [visão geral do conector aprimorado do Workfront for Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
 
 >[!NOTE]
 >
->A implantação e a configuração deste conector exigem um parceiro certificado. Consulte [Instalar o Workfront para o conector aprimorado do Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#) para obter mais informações.
+>A implantação e a configuração deste conector exigem um parceiro certificado. Consulte [Instalar o conector aprimorado do Workfront for Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install) para obter mais informações.
 
 ## As integrações do Adobe Creative Cloud agora usam OAuth2
 

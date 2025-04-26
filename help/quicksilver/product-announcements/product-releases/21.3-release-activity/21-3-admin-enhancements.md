@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Os blueprints fornecem elementos básicos para ajudá-lo a criar um sistema de g
 
 Para obter mais informações, consulte [Visão geral dos blueprints](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Este recurso agora está incluído nos [Modelos de projeto no novo caminho de aprendizado da experiência de Workfront](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) no Workfront One.
+Este recurso agora está incluído nos [Modelos de projeto no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Novo para administradores de grupo: crie e gerencie status para um grupo em qualquer nível
 

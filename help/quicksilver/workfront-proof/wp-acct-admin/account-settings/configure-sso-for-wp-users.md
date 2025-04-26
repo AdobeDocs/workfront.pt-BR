@@ -7,7 +7,7 @@ description: Se você tiver o plano Select ou Premium, poderá fornecer o recurs
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Single Sign-On é um recurso Select e Premium, portanto, o Single Sign-On só po
 Aqui você terá dois métodos (5) de configuração:
 
 1. **Herdado:** SSO com a configuração retirada da sua conta de hub.
-Se um usuário acessar [!DNL Workfront Proof] por meio da **página de logon padrão** ([https://www.proofhq.com/login](https://www.proofhq.com/login)), haverá **dois níveis de autorização**: primeiro, um usuário é solicitado a fazer logon usando os dados de acesso do [!DNL Workfront Proof] (email e senha); em seguida, o usuário é transferido por meio de uma janela SSO para a página de logon SSO.
+Se um usuário acessar [!DNL Workfront Proof] por meio da **página de logon padrão** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)), haverá **dois níveis de autorização**: primeiro, um usuário é solicitado a fazer logon usando os dados de acesso do [!DNL Workfront Proof] (email e senha); em seguida, o usuário é transferido por meio de uma janela SSO para a página de logon SSO.
 Portanto, com o serviço SSO habilitado, recomendamos fazer logon por meio de seu próprio subdomínio/domínio [!DNL Workfront Proof].
 
    >[!NOTE]
@@ -143,7 +143,7 @@ Se a configuração de SSO Manual tiver sido escolhida para uma conta satélite 
 Com o Logon único habilitado, o URL de logon de subdomínio (por exemplo, yourcompany.proofhq.com/login) exibe uma tela de transferência (2) que o direciona diretamente para a página de logon com SSO.
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. Se um usuário acessar [!DNL Workfront Proof] por meio da **página de logon padrão** ([https://www.proofhq.com/login](https://www.proofhq.com/login)), haverá **dois níveis de autorização**. Primeiro, um usuário é solicitado a fazer logon usando os dados de acesso do [!DNL Workfront Proof] (email e senha). Em seguida, o usuário é transferido por meio de uma janela SSO (2) para a página de logon SSO.\
+1. Se um usuário acessar [!DNL Workfront Proof] por meio da **página de logon padrão** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)), haverá **dois níveis de autorização**. Primeiro, um usuário é solicitado a fazer logon usando os dados de acesso do [!DNL Workfront Proof] (email e senha). Em seguida, o usuário é transferido por meio de uma janela SSO (2) para a página de logon SSO.\
    Portanto, com o serviço SSO habilitado, recomendamos fazer logon por meio de seu próprio subdomínio/domínio [!DNL Workfront Proof].
 
 1. Neste momento, quando o Logon único está ativado na sua conta da Workfront Proof, você não poderá fazer logon no aplicativo da iPhone com essas credenciais.

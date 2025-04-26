@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1831'
 ht-degree: 0%
@@ -223,9 +223,9 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront para Experience Manager Assets e melhorias no Assets Essentials</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Melhorias no Workfront para Experience Manager Assets e Assets Essentials</a></p>
                         [!BADGE Na produção ]{type=Informative}
-                        <p>Fizemos as seguintes melhorias nas integrações do Workfront para Experience Manager Assets e Assets Essentials:</p>
+                        <p>Fizemos os seguintes aprimoramentos nas integrações do Workfront para Experience Manager Assets e do Assets Essentials:</p>
                         <ul>
                             <li><p>A integração agora é compatível com o GCP como provedor de serviços na nuvem. O AWS e o Azure eram suportados anteriormente.</p></li>
                             <li><p>O limite de tamanho para arquivos enviados para o Experience Manager por meio da integração aumentou para 30 GB. Anteriormente, o limite era de 5 GB.</p></li>
@@ -423,9 +423,9 @@ O webinário de versão 24.7 ao vivo foi cancelado, mas você ainda pode [assist
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Experiência unificada de Adobe agora disponível para mais organizações da Workfront</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Experiência unificada do Adobe disponível agora para mais organizações da Workfront</a></p>
                         [!BADGE Na produção ]{type=Informative}
-                        <p>Para permitir que as organizações acessem os benefícios da Experiência unificada do Adobe, começamos a disponibilizá-la para os clientes existentes do Workfront. </p>
+                        <p>Para permitir que as organizações acessem os benefícios da Experiência unificada da Adobe, começamos a disponibilizá-la para os clientes existentes da Workfront. </p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -523,8 +523,8 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do terceiro trimestre de 2024, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do terceiro trimestre de 2024, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutorials do Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=pt-BR).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).

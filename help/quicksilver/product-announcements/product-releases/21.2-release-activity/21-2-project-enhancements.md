@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Como parte do redesign das caixas Novo e Editar tarefa, adicionamos a capacidade
 
 Para obter mais informações, consulte [Criar tarefas recorrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 2: planejar um projeto](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) no caminho de aprendizado do Workfront One.
+Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 2: planejar um projeto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no caminho de aprendizado do Workfront One.
 
 ## Novos botões disponíveis no cabeçalho Projetos
 
@@ -39,7 +39,7 @@ Este recurso agora está incluído nos [Fundamentos do planejador para a nova ex
 
 Para permitir que você filtre rapidamente a lista de projetos na página Projetos, há dois novos botões no cabeçalho que permitem aplicar rapidamente o filtro Projetos em que estou ou Projetos que possuo.
 
-Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 1: Criar um caminho de aprendizado do Projeto](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 1: Criar um caminho de aprendizado do Projeto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Mover ou excluir uma história ou problema do quadro Scrum
 
@@ -133,9 +133,9 @@ Os usuários agora podem ver a formatação do texto, como negrito, listas de ma
 
 Anteriormente no Workfront Classic, a formatação de texto era visível somente nas listas Projeto, Tarefa e Hora.
 
-Para obter informações sobre como formatar texto em um campo personalizado, consulte [Criar um formulário personalizado](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+Para obter informações sobre como formatar texto em um campo personalizado, consulte [Criar um formulário personalizado](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
-Para obter informações sobre como exibir informações em listas, consulte [Introdução a listas](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
+Para obter informações sobre como exibir informações em listas, consulte [Introdução a listas](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 ## Nova caixa Editar tarefa
 

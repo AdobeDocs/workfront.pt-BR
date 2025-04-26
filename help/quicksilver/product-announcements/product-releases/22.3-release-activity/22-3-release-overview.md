@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3221'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Visão geral da versão 22.3
 
-Esta página fornece informações sobre a funcionalidade incluída na versão 22.3 do. Todos os recursos listados estão disponíveis na nova experiência do Adobe Workfront. Alguns recursos também estão disponíveis no Adobe Workfront Classic; no entanto, o [Workfront Classic será descontinuado em março de 2022](https://one.workfront.com/s/new-workfront-experience), seguido brevemente pela data de fim da vida útil do Workfront Classic em julho de 2022.
+Esta página fornece informações sobre a funcionalidade incluída na versão 22.3 do. Todos os recursos listados estão disponíveis na nova experiência do Adobe Workfront. Alguns recursos também estão disponíveis no Adobe Workfront Classic; no entanto, o [Workfront Classic será descontinuado em março de 2022](https://experienceleague.adobe.com/en/docs/workfront/using/home), seguido brevemente pela data de fim da vida útil do Workfront Classic em julho de 2022.
 
 Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11 de julho de 2022.
 
@@ -85,7 +85,7 @@ Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Adicionar um arquivo PDF a um formulário personalizado
-</a></p></p> <p>Continuamos a ajudá-lo a tornar os formulários personalizados mais visuais e informativos com os novos widgets de ativos que você pode adicionar, como imagens e vídeos. Agora é possível adicionar um link para um arquivo PDF a um formulário personalizado. Quando o formulário é anexado a um objeto, os usuários que trabalham com o objeto podem visualizar e interagir com o PDF de dentro do formulário.</p>
+</a></p></p> <p>Continuamos a ajudá-lo a tornar os formulários personalizados mais visuais e informativos com os novos widgets de ativos que você pode adicionar, como imagens e vídeos. Agora é possível adicionar um link para um arquivo PDF a um formulário personalizado. Quando o formulário é anexado a um objeto, os usuários que trabalham com o objeto podem visualizar e interagir com a PDF de dentro do formulário.</p>
    </td> 
     <td> <p><b>Disponível nestas datas:</b> </p> 
     <ul> 
@@ -240,7 +240,7 @@ Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11
     </ul> <p><strong>Disponível nestes ambientes:</strong> </p> 
     <ul> 
      <li> <p>A nova experiência do Adobe Workfront </p> </li> 
-     <li> <p>O Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic foi descontinuado em março de 2022</a>, seguido brevemente pela data de fim da vida útil do Workfront Classic em julho de 2022.)</p> </li> 
+     <li> <p>O Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic foi descontinuado em março de 2022</a>, seguido brevemente pela data de fim da vida útil do Workfront Classic em julho de 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -278,7 +278,7 @@ Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11
     </ul> <p><strong>Disponível nestes ambientes:</strong> </p> 
     <ul> 
      <li> <p>A nova experiência do Adobe Workfront </p> </li> 
-     <li> <p>O Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic foi descontinuado em março de 2022</a>, seguido brevemente pela data de fim da vida útil do Workfront Classic em julho de 2022.)</p> </li> 
+     <li> <p>O Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic foi descontinuado em março de 2022</a>, seguido brevemente pela data de fim da vida útil do Workfront Classic em julho de 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -290,7 +290,7 @@ Essas melhorias foram disponibilizadas no ambiente de Produção na semana de 11
     </ul> <p><strong>Disponível nestes ambientes:</strong> </p> 
     <ul> 
      <li> <p>A nova experiência do Adobe Workfront </p> </li> 
-     <li> <p>O Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic será descontinuado em março de 2022</a>, seguido em breve pela data de término da vida útil do Workfront Classic em julho de 2022.)</p> </li> 
+     <li> <p>O Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic será descontinuado em março de 2022</a>, seguido em breve pela data de término da vida útil do Workfront Classic em julho de 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
@@ -376,8 +376,8 @@ As campanhas foram lançadas para Pré-visualização beta com a versão 22.3, e
    <td> <p><strong>Datas e ambientes de lançamento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront para integração com o Experience Manager Assets</a> </p> <p>Temos o prazer de anunciar que a integração do Adobe Workfront Experience Manager Assets está disponível para o Cloud Service.</p>
-   <p>Também introduzimos novas funcionalidades para Cloud Service e Assets Essentials.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront para integração com o Experience Manager Assets</a> </p> <p>Estamos animados em anunciar que a integração do Adobe Workfront Experience Manager Assets agora está disponível para o Cloud Service.</p>
+   <p>Também introduzimos novas funcionalidades no Cloud Service e no Assets Essentials.</p> </td> 
    <td> <p><b>Disponível nestas datas:</b> </p> 
     <ul> 
      <li> <p>Versão de pré-visualização: N/D<br></p> </li> 
@@ -388,7 +388,7 @@ As campanhas foram lançadas para Pré-visualização beta com a versão 22.3, e
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Combinar vários arquivos em uma única prova no plug-in Creative Cloud</a> </p> <p>Agora é possível fazer upload de arquivos externos com o conteúdo criado no plug-in Adobe Workfront for Creative Cloud para criar provas de vários arquivos no Workfront. Os arquivos externos são exibidos como páginas de prova adicionais dentro do Workfront. Com esse aprimoramento, também atualizamos a aparência da experiência de criação de prova.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Combinar vários arquivos em uma única prova no plug-in do Creative Cloud</a> </p> <p>Agora é possível fazer upload de arquivos externos com o conteúdo criado no plug-in Adobe Workfront for Creative Cloud para criar provas de vários arquivos no Workfront. Os arquivos externos são exibidos como páginas de prova adicionais dentro do Workfront. Com esse aprimoramento, também atualizamos a aparência da experiência de criação de prova.</p> </td> 
    <td> <p><b>Disponível nestas datas:</b> </p> 
     <ul> 
      <li> <p>Versão de pré-visualização: N/D<br></p> </li> 
@@ -534,7 +534,7 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ## Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ## Webinário da versão 22.3
 
@@ -565,7 +565,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://one.workfront.com/s/training-release-updates).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funcionalidade não mais compatível
 

@@ -1,12 +1,12 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Perguntas frequentes sobre a experiência unificada do Adobe
+title: Perguntas frequentes sobre a experiência unificada da Adobe
 description: Alguns recursos são diferentes entre o [!DNL Workfront] e o Adobe Experience Cloud, e você pode ter algumas dúvidas à medida que sua instância do [!DNL Workfront] for migrada para a experiência unificada.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 68a5bfe5d85ac530ac14faf2a6a5cccf602e6c8c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 0%
@@ -42,12 +42,12 @@ Esta tabela descreve alguns recursos que diferem entre as duas experiências.
 
 ### Como determinar se estou usando a Experiência unificada do Adobe ou o Adobe Workfront?
 
-Para determinar se sua organização está no Adobe Unified Experience, examine o URL que você usa para acessar o Workfront.
+Para determinar se sua organização está na Experiência unificada da Adobe, examine o URL usado para acessar o Workfront.
 
 | URL | Experiência do Adobe |
 |------------|------------|
 | (NomeEmpresa).my.workfront.com | experiência com o Workfront |
-| experience.adobe.com | Experiência unificada do Adobe |
+| experience.adobe.com | Experiência unificada da Adobe |
 
 ### Como posso obter mais informações sobre o [!DNL Adobe Admin Console]?
 
@@ -61,9 +61,9 @@ Para obter informações sobre o [!DNL Admin Console], leia estes artigos:
 
 Os clientes existentes serão contatados para agendar as migrações. Os colegas de suporte da equipe de migração guiarão os clientes pelo processo, orientarão a configuração do [!DNL Admin Console] e fornecerão links para a documentação necessária para tornar a mudança o mais simples e simples possível.
 
-* [[!DNL Adobe Workfront] Visão geral do suporte](https://experienceleague.adobe.com/docs/customer-one/using/workfront/overview.html)
-* [[!DNL Workfront Admin Console] informações](https://experienceleague.adobe.com/docs/customer-one/using/workfront/landing.html)
-* [[!DNL Adobe Business Platform] e [!DNL Admin Console] Perguntas frequentes](https://experienceleague.adobe.com/docs/customer-one/using/workfront/faq.html)
+* [[!DNL Adobe Workfront] Visão geral do suporte](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] informações](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] e [!DNL Admin Console] Perguntas frequentes](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### Como você está lidando com [!DNL Adobe Admin Console] para empresas que já têm isso habilitado para IDs federadas de forma diferente da configuração do SSO [!DNL Workfront]?
 
@@ -97,7 +97,7 @@ Você sempre poderá usar URLs personalizados. Após clicar em qualquer um desse
 
 Todos os links diretos devem redirecionar para os novos padrões de URL. No entanto, se você tiver distribuído links para pessoas, deverá enviar uma atualização para aproveitar o link direto e evitar atrasos para chegar à página esperada.
 
-### Migraremos para o [!DNL Experience Cloud] globalmente ou podemos selecionar para determinados usuários (nem todos os nossos usuários usam outros produtos Adobe)?
+### Migraremos para o [!DNL Experience Cloud] globalmente ou podemos selecionar para determinados usuários (nem todos os nossos usuários usam outros produtos da Adobe)?
 
 A conta de cliente [!DNL Workfront] inteira será migrada. Isso não pode ser feito em uma base usuário por usuário.
 

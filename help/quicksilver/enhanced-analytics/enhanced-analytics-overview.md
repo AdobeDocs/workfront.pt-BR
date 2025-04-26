@@ -3,11 +3,11 @@ title: Visão geral da análise aprimorada
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: A análise aprimorada é uma ferramenta eficiente no Adobe Workfront com visualizações pré-criadas que permitem examinar os dados do projeto e identificar tendências com planejamento e conclusão. Esse insight sobre os projetos ajuda a gerenciar o trabalho atual e permite que você planeje com mais precisão trabalhos futuros.
+description: A análise aprimorada é uma ferramenta eficiente no Adobe Workfront com visualizações pré-criadas que permitem examinar os dados do projeto e identificar tendências com planejamento e conclusão. Essa insight em seus projetos ajuda você a gerenciar o trabalho atual e permite que você planeje com mais precisão trabalhos futuros.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 >O Analytics aprimorado será removido do Workfront na semana de 26 de maio. O Workfront Data Connect é uma solução nova e alternativa e pode ser usada para replicar qualquer visualização do Enhanced Analytics que você usa atualmente. <br>Consulte o [guia de descontinuação do Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obter mais informações.
 
 
-A análise aprimorada é uma ferramenta eficiente no Adobe Workfront com visualizações pré-criadas que permitem examinar os dados do projeto e identificar tendências com planejamento e conclusão. Esse insight sobre os projetos ajuda a gerenciar o trabalho atual e permite que você planeje com mais precisão trabalhos futuros.
+A análise aprimorada é uma ferramenta eficiente no Adobe Workfront com visualizações pré-criadas que permitem examinar os dados do projeto e identificar tendências com planejamento e conclusão. Essa insight em seus projetos ajuda você a gerenciar o trabalho atual e permite que você planeje com mais precisão trabalhos futuros.
 
 A análise aprimorada pode ajudar a identificar:
 
@@ -34,7 +34,7 @@ A análise aprimorada pode ajudar a identificar:
 
 ![Análises](assets/nwe-full-screen-analytics-350x222.png)
 
-Para ver casos de uso ou saber mais sobre o gerenciamento do trabalho atual e o planejamento de trabalho futuro com a Análise aprimorada, consulte [Caminhos de aprendizado da Análise aprimorada](https://one.workfront.com/s/enhanced-analytics-program).
+Para ver casos de uso ou saber mais sobre o gerenciamento do trabalho atual e o planejamento de trabalho futuro com a Análise aprimorada, consulte [Caminhos de aprendizado da Análise aprimorada](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Pré-requisitos
 
@@ -42,11 +42,11 @@ Para acessar a área Analítica aprimorada, você deve:
 
 * Ter um plano Business ou Enterprise.
 
-  Para obter mais informações, consulte [Planos do Workfront](https://www.workfront.com/plans).
+  Para obter mais informações, consulte [Planos do Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 * Peça ao administrador do Workfront para adicionar Análises aprimoradas ao modelo de layout.
 
-  Para obter mais informações, consulte [Análises aprimoradas: adicionando análises a modelos de layout](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE).
+  Para obter mais informações, consulte [Análises aprimoradas: adicionando análises a modelos de layout](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Para ver informações de projetos e tarefas, você deve:
 
@@ -139,7 +139,7 @@ Se você estiver usando um software de leitura de tela ou um plug-in, o leitor d
 
 ## Visualizações e recursos aprimorados do Analytics
 
-Para saber mais sobre os detalhes de um recurso específico na Análise aprimorada, as ações que você pode concluir para obter mais informações e o que pode aprender com esses dados, consulte os seguintes artigos:
+Para saber mais sobre os detalhes de um recurso específico na Análise aprimorada, as ações que você pode concluir para obter mais insight e o que pode aprender com esses dados, consulte os seguintes artigos:
 
 <table style="table-layout:auto"> 
  <col> 

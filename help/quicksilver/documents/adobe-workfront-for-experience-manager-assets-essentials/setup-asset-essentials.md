@@ -6,7 +6,7 @@ description: Conecte seu trabalho ao seu conteúdo no Experience Manager Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 1%
@@ -53,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr>
    <td>Produto
    </td>
-   <td>Você deve ter o Experience Manager Assets Essentials e ser adicionado ao produto como usuário no Admin Console.
+   <td>Você deve ter o Experience Manager Assets Essentials e ser adicionado ao produto como usuário na Admin Console.
    </td>
   </tr>
   <tr>
@@ -72,8 +72,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. Selecione **Documentos** ![ícone de documentos](assets/document-icon.png) no painel esquerdo e selecione **Integração de Experience Manager**.
-1. Selecione **Adicionar Integração de Experience Manager**.
+1. Selecione **Documentos** ![ícone de documentos](assets/document-icon.png) no painel esquerdo e selecione **Integração com o Experience Manager**.
+1. Selecione **Adicionar Integração com o Experience Manager**.
 1. Especifique o seguinte:
 
    <table>
@@ -86,7 +86,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    <tr>
       <td><strong>URL de Navegação</strong>
       </td>
-      <td>O sistema preenche automaticamente o URL de navegação. Esse URL é usado para vincular a instância Assets Essentials da sua organização no menu principal para acesso rápido.
+      <td>O sistema preenche automaticamente o URL de navegação. Esse URL é usado para vincular à instância do Assets Essentials da sua organização a partir do menu principal para acesso rápido.
       </td>
    </tr>
    <tr>
@@ -94,7 +94,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <strong>Repositório do Experience Manager Assets</strong>
       </td>
       <td>
-      O sistema preenche automaticamente o repositório de Experience Manager associado à ID da organização.
+      O sistema preenche automaticamente o repositório do Experience Manager associado à ID da organização.
       </td>
    </tr>
    </table>
@@ -111,12 +111,12 @@ Mapeie dados de objetos do Workfront para campos de mídia de ativos no Experien
 
 Antes de começar, você deve
 
-* Configure um esquema de metadados no Experience Manager Assets Essentials conforme explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+* Configure um esquema de metadados no Experience Manager Assets Essentials conforme explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 * (Opcional) Configure campos de formulário personalizados no Workfront. O Workfront tem muitos campos personalizados internos que você pode usar. No entanto, você também pode criar seus próprios campos personalizados. Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Campos Workfront e Experience Manager Assets compatíveis
 
-### Palavra-chave AEM
+### Palavra-chave do AEM
 
 Você pode mapear qualquer campo compatível com o Workfront para uma palavra-chave no Experience Manager Assets Essentials.
 

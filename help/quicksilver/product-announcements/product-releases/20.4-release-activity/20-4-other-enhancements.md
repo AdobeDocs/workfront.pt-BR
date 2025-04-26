@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Na nova experiência do Workfront, a opção Alternar para o clássico aparece n
 
 No Workfront Classic, a opção Alternar para a nova experiência é exibida no menu exibido ao clicar na imagem do perfil no canto superior direito da Barra de navegação global.
 
-Este recurso agora está incluído no [Princípios básicos do administrador, Parte 1 do caminho de aprendizado](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) no Workfront One.
+Este recurso agora está incluído no [Princípios básicos do administrador, Parte 1 do caminho de aprendizado](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Criptografia aprimorada para Workfront Proof
 
@@ -62,7 +62,7 @@ Além disso, observe que nosso estilo moderno agora melhora a experiência de co
 
 Para obter informações sobre como configurar notificações por email, consulte [Configurar notificações de eventos para todos no sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Este recurso agora está incluído no [Caminho de Aprendizado de emails e notificações no aplicativo](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) no Workfront One.
+Este recurso agora está incluído no [Caminho de Aprendizado de emails e notificações no aplicativo](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Novos objetos de API que acionam atualizações de assinatura de evento
 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -362,8 +362,8 @@ O webinário de lançamento do 23.1 foi realizado na terça-feira, 10 de janeiro
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Introdução à adição do Illustrator ao plug-in do Adobe Workfront para design e vídeo</a><span style="color: #ff0000;"> Novo na produção!</span></p>
                         <p>Estamos animados em anunciar a expansão de nosso plug-in Adobe Workfront for InDesign para incluir o Adobe Illustrator.</p>
-                        <p>O plug-in atualizado do, Adobe Workfront para design e vídeo, agora é compatível com Illustrator, InDesign, Premiere Pro e After Effects.  </p>
-                        <p>Este plug-in permite que você acesse detalhes do item de trabalho, colabore com colegas de trabalho na área Atualizações e registre o tempo todo sem sair do seu aplicativo Creative Cloud favorito.</p>
+                        <p>O plug-in atualizado do, Adobe Workfront para design e vídeo, agora será compatível com Illustrator, InDesign, Premiere Pro e After Effects.  </p>
+                        <p>Este plug-in permite que você acesse detalhes do item de trabalho, colabore com colegas de trabalho na área Atualizações e registre o tempo todo sem sair do seu aplicativo favorito do Creative Cloud.</p>
                         <p>Os administradores também podem criar um pacote com os plug-ins do Admin Console e implantar para os usuários de maneira gerenciada ou autogerenciada.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
@@ -421,9 +421,9 @@ O webinário de lançamento do 23.1 foi realizado na terça-feira, 10 de janeiro
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Apresentação do Adobe Workfront para design e vídeo</a></p>
-                        <p>Estamos animados em anunciar a expansão de nosso plug-in Adobe Workfront for InDesign para incluir Adobe Premiere Pro e After Effects. O plug-in será renomeado para Adobe Workfront para design e vídeo.</p>
-                        <p>O plug-in atualizado do, Adobe Workfront para design e vídeo, agora oferecerá suporte ao InDesign, Premiere Pro e After Effects — e o Illustrator será lançado em breve.</p>
-                        <p>Este plug-in permite que você acesse detalhes do item de trabalho, colabore com colegas de trabalho na área Atualizações e registre o tempo todo sem sair do seu aplicativo Creative Cloud favorito. </p>
+                        <p>Estamos animados em anunciar a expansão de nosso plug-in Adobe Workfront para InDesign para incluir Adobe Premiere Pro e After Effects. O plug-in será renomeado para Adobe Workfront para design e vídeo.</p>
+                        <p>O plug-in atualizado do, Adobe Workfront para design e vídeo, agora oferecerá suporte ao InDesign, Premiere Pro e After Effects — e a Illustrator será adicionada em breve.</p>
+                        <p>Este plug-in permite que você acesse detalhes do item de trabalho, colabore com colegas de trabalho na área Atualizações e registre o tempo todo sem sair do seu aplicativo favorito do Creative Cloud. </p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -454,9 +454,9 @@ O webinário de lançamento do 23.1 foi realizado na terça-feira, 10 de janeiro
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Como acessar a ajuda da Workfront para clientes no Adobe Unified Experience</a></p>
-                        <p>Se sua organização tiver sido integrada à Adobe Admin Console e ao Adobe Unified Experience for Workfront, a barra de navegação do Workfront não incluirá mais um link para "Ajuda".</p>
-                        <p>Você pode acessar a ajuda do Workfront no Adobe Experience League a partir do Menu principal à esquerda da barra de navegação do Workfront ou pelo ícone de ponto de interrogação na área de navegação superior.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Como acessar a ajuda do Workfront para clientes na Experiência unificada da Adobe</a></p>
+                        <p>Se sua organização tiver sido integrada à Adobe Admin Console e à Adobe Unified Experience for Workfront, a barra de navegação do Workfront não incluirá mais um link para "Ajuda".</p>
+                        <p>Você pode acessar a ajuda do Workfront na Adobe Experience League pelo menu principal à esquerda da barra de navegação do Workfront ou pelo ícone de ponto de interrogação na área de navegação superior.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                      <p>
@@ -466,7 +466,7 @@ O webinário de lançamento do 23.1 foi realizado na terça-feira, 10 de janeiro
                                 <p>Versão de pré-visualização: 27 de outubro de 2022<br /></p>
                             </li>
                             <li>
-                                <p>Versão de produção: 3 de novembro de 2022 <span style="color: #ff0000;"> Esse recurso se aplica somente a clientes que estão integrados à Experiência unificada do Adobe para Workfront.</span></p>
+                                <p>Versão de produção: 3 de novembro de 2022 <span style="color: #ff0000;"> Esse recurso se aplica somente a clientes que estão integrados à Adobe Unified Experience for Workfront.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -524,11 +524,11 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutorials do Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=pt-BR).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funcionalidade que será removida em breve do Workfront
 
@@ -553,9 +553,9 @@ Algumas funcionalidades de controle de lista estão sendo movidas para as áreas
 
 #### **Extensão do Workfront para Illustrator e InDesign**
 
-Estamos substituindo a [extensão do Workfront para o Illustrator e o InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) por plug-ins de Creative Cloud atualizados. A partir do final de 2022, essa extensão não estará mais disponível para instalação no Adobe Exchange.
+Estamos substituindo a [extensão do Workfront para Illustrator e InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) por plug-ins atualizados do Creative Cloud. A partir do final de 2022, essa extensão não estará mais disponível para instalação no Adobe Exchange.
 
-A funcionalidade nesta extensão, juntamente com vários aprimoramentos, está disponível na versão atualizada do Adobe Workfront para plug-ins Creative Cloud:
+A funcionalidade nesta extensão, juntamente com vários aprimoramentos, está disponível na atualização do Adobe Workfront para plug-ins do Creative Cloud:
 * [Adobe Workfront para Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [Adobe Workfront para XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [Adobe Workfront para design e vídeo](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
