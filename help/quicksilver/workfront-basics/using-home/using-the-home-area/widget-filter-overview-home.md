@@ -6,10 +6,10 @@ description: Você pode escolher entre vários widgets para personalizar o conte
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4994f099b11703bbffb396d494fd5622fc006cbf
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 13%
+source-wordcount: '963'
+ht-degree: 12%
 
 ---
 
@@ -238,6 +238,44 @@ Você pode usar os seguintes filtros no widget Meus problemas:
     <td>Exibe todos os problemas que não têm um usuário primário atribuído, mas têm uma função atribuída </td>
   </tr>
 </table>
+
+## Minhas solicitações
+
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Todos</td> 
+      <td>Exibe todas as solicitações submetidas, independentemente do status ou de quem as submeteu.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Abrir</td> 
+      <td> <p>Exibe todas as solicitações enviadas 
+      <ul>
+      <li>Que estão abertos no momento, independentemente de quem os enviou. Somente as solicitações que você tiver pelo menos permissões para exibir serão exibidas aqui se você não as tiver enviado.</li>
+      <li>Sem uma Data de Término Efetivo ou cujo objeto de resolução não tenha uma Data de Término Efetivo são listados na subguia Abrir.</li> 
+      </ul>
+      <p><b>OBSERVAÇÃO</b> 
+      As solicitações que estiverem em qualquer status que não seja igual a Fechado serão consideradas abertas.</p> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Minhas solicitações</td> 
+      <td>Exibe solicitações que você submeteu independentemente do status. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Minhas solicitações abertas</td> 
+      <td> <p>Exibe solicitações 
+      <ul>
+      <li>Que você enviou e ainda estão abertos. </li> 
+      <li>Sem uma Data de Término Efetivo ou cujo objeto de resolução não tenha uma Data de Término Efetivo são listados na subguia Minhas Solicitações Abertas. </li> 
+      </ul>
+      <p><b>OBSERVAÇÃO</b> 
+      As solicitações que não estiverem em um status igual a Fechado serão consideradas abertas.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## Meu trabalho
 
