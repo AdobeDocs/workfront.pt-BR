@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
+source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,14 @@ Para visualizar esta página, acesse Configurar > Email > Notificações > Notif
 **Versão de visualização: 16 de janeiro de 2025; iniciando a semana de 30 de janeiro de 2025**
 
 Atualizamos a caixa de diálogo Adicionar Sharepoint em Configurar > Documentos > Integração do Sharepoint com um design mais moderno que é consistente com outras áreas do Workfront.
+
+Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade foi alterada.
+
+### Atualização de interface para a caixa de diálogo Adicionar integração personalizada
+
+**Versão de visualização: 16 de janeiro de 2025; iniciando a semana de 30 de janeiro de 2025**
+
+We have updated the Add custom integration dialog box in Setup > Documents > Custom Integration with a more modern design that is consistent with other areas of Workfront.
 
 Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade foi alterada.
 

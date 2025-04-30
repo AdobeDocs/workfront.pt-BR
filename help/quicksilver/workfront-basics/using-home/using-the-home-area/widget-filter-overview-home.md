@@ -6,9 +6,9 @@ description: Você pode escolher entre vários widgets para personalizar o conte
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 4994f099b11703bbffb396d494fd5622fc006cbf
+source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '965'
 ht-degree: 12%
 
 ---
@@ -20,6 +20,7 @@ Você pode usar filtros nos seguintes widgets para localizar e organizar o traba
 * [Meus projetos](#my-projects)
 * [Minhas tarefas](#my-tasks)
 * [Meus problemas](#my-issues)
+* [Minhas solicitações](#my-requests)
 * [Meu trabalho](#my-work)
 * [Minhas aprovações](#my-approvals)
 
