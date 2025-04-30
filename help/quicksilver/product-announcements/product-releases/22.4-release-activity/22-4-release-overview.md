@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
 workflow-type: tm+mt
-source-wordcount: '3272'
+source-wordcount: '3231'
 ht-degree: 0%
 
 ---
@@ -661,24 +661,23 @@ Observação: essa funcionalidade não está disponível atualmente no Balancead
                         <p>O Workfront Campaigns permite organizar projetos de diferentes portfólios e programas em um novo container de trabalho.
 As campanhas foram lançadas para Pré-visualização beta com a versão 22.3, em julho de 2022.</p>
 <p>Esse novo contêiner evoluirá em versões futuras para conectar objetos de trabalho que atualmente são gerenciados em silos separados.</p>
-
-    &lt;/td>
-    &lt;td>&lt;p>&lt;b>Disponível nestas datas:&lt;/b>&lt;/p>
-    &lt;ul>
-    &lt;li>
-    &lt;p>Versão de visualização:&amp;#GenStudio for Performance Marketers&amp;-160;Durante todo o período de lançamento da versão 22.4&lt;br />&lt;/p>
-    &lt;/li>
-    &lt;li>
-    &lt;p>Produção versão:&amp;#GenStudio for Performance Marketers&amp;-160;TBD&lt;/p>
-    &lt;/li>
-    &lt;/ul>
-    &lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Descrição expandida da equipe&lt;/a>&lt;/p>
-    &lt;p>Na área Equipes, você pode visualizar a descrição completa da equipe clicando em uma descrição para exibi-la. Qualquer URL na descrição pode ser clicado no pop-up, e você pode clicar no texto da descrição para editá-lo (se você tiver acesso para editar as configurações da equipe).&lt;/p>
-    &lt;p>Anteriormente, rolar pela descrição em uma área estreita era a única maneira de ver todo o conteúdo.&lt;/p>
+                    </td>
+                    <td><p><b>Disponível nas seguintes datas:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versão de pré-visualização: ao longo do período da versão 22.4<br /></p>
+                            </li>
+                            <li>
+                                <p>Versão de produção: a ser definida</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Descrição expandida da equipe</a></p>
+                        <p>Na área Equipes, agora é possível visualizar a descrição completa da equipe clicando na descrição para exibi-la em uma janela pop-up. Qualquer URL na descrição pode ser clicado no pop-up, e você pode clicar no texto da descrição para editá-lo (se você tiver acesso para editar as configurações da equipe).</p>
+                        <p>Anteriormente, percorrer a descrição em uma área estreita era a única maneira de ver todo o conteúdo.</p>
 <p>Esse aprimoramento na descrição se aplica a equipes ágeis e não ágeis.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
