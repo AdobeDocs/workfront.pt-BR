@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
+source-git-commit: bd6a9c2de25aa1088a0348df4ec5154d81d7a385
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 5%
+source-wordcount: '552'
+ht-degree: 3%
 
 ---
 
@@ -17,6 +17,33 @@ ht-degree: 5%
 Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período de lançamento do terceiro trimestre de 2025.
 
 Para obter uma lista de todas as alterações disponíveis com a versão do terceiro trimestre de 2025, consulte a [visão geral da versão do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Atualização de aparência para as opções de menu Mais para comentários
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 17 de abril de 2025; Versão de produção para todos os clientes: 17 de abril de 2025
+
+Atualizamos a aparência das opções disponíveis no menu Mais de um comentário na seção Atualizações para todos os objetos.
+
+Esta atualização inclui as seguintes alterações:
+
+* As ações foram reorganizadas para que funções semelhantes fossem agrupadas.
+* Divisores inseridos para separar claramente cada grupo.
+* Destaque a ação Delete ao exibi-la em vermelho.
+
+Para obter informações, consulte [Trabalho de atualização](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+## Atualizações de aparência e comportamento de um relatório de Caminho de Etapas
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 30 de abril de 2025; Versão de produção para todos os clientes: 30 de abril de 2025
+
+Atualizamos a aparência do relatório de Caminho de etapas para corresponder ao design de outras áreas do Workfront.
+
+Para obter informações, consulte [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Atualizações de aparência para itens restaurados recentemente
 
