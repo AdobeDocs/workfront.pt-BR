@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 711810c00ba8657230dbda558629613be2b35d9b
+source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -103,3 +103,5 @@ Introduzimos as seguintes atualizações:
 * Você pode desativar as permissões herdadas no tipo de registro para torná-lo somente leitura para todas as pessoas no espaço de trabalho. Depois disso, você poderá adicionar pessoas, equipes, grupos, empresas ou funções individuais e conceder a eles permissão do Contribute para o tipo de registro.
 
 Para obter mais informações, consulte [Compartilhar tipos de registros](/help/quicksilver/planning/access/share-record-types.md).
+
+
