@@ -6,7 +6,7 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 0%
@@ -241,11 +241,9 @@ Este artigo descreve como você pode atualizar projetos, tarefas ou problemas. A
 1. Clique em **Atualizações** no painel esquerdo.
 A guia **Comentários** é selecionada por padrão.
 
-1. 
-   <div class="preview">Comece a inserir um comentário na caixa **Novo comentário**.
+1. <span class="preview">Comece a inserir um comentário na caixa **Novo comentário**.</span>
 
-   ![Nova caixa de comentário](assets/comment-box-all-tabs.png)
-   </div>
+   <span class="preview">![Nova caixa de comentário](assets/comment-box-all-tabs.png)</span>
 
    >[!TIP]
    >
@@ -371,10 +369,10 @@ Você pode aprimorar seus comentários usando Rich Text ou adicionando vários i
    >* O Windows 7 suporta apenas emojis em preto-e-branco.
    >* Os emojis aplicados a uma atualização feita por email não são exibidos na atualização quando visualizados na área Atualizações.
 
-1. (Opcional) Para adicionar um URL link a fontes de informações adicionais:
+1. (Opcional) Para adicionar um link de URL a fontes de informações adicionais:
 
-   1. Clique na atualização em que deseja inserir uma link.
-   1. Na barra **de ferramentas Rich Text**, clique no **ícone](assets/link-icon.png) Hiperlink do ícone ![Hiperlink**.
+   1. Clique em na atualização em que deseja inserir um link.
+   1. Na barra de ferramentas **Rich Text**, clique no ícone **Hiperlink** ![Ícone de Hiperlink](assets/link-icon.png).
 
    1. Na caixa **Criar Link**, em **URL**, digite ou cole a URL da origem à qual deseja vincular.
 
@@ -492,9 +490,9 @@ A opção Copiar link copia o comentário ou o link do encadeamento para a área
 
    >[!TIP]
    >
-   >Quando você compartilha a link de uma conversa em um objeto filho de um objeto de classificação superior, a link abre o encadeamento na área de Atualizações do objeto de classificação mais alto.
+   >Quando você compartilha o link de uma conversa em um objeto filho de um objeto de classificação mais alta, o link abre a thread na área Atualizações do objeto de classificação mais alta.
    >
-   >Por exemplo, se você copiar a link de um comentário tarefa da área de Atualizações do projeto, o comentário abre o página do projeto.
+   >Por exemplo, se você copiar o link de um comentário de tarefa da área Atualizações do projeto, o comentário abrirá a página do projeto.
 
 #### Copiar texto do corpo
 

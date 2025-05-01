@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Para obter informações sobre como um gerenciador de espaço de trabalho pode c
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -101,8 +101,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Para acessar a área do Planning no Workfront, você deve receber um modelo de layout que inclua a área do Planning no Menu principal. </p>
-   <p> No entanto, para enviar solicitações ao Workfront Planning, não é necessário acessar a área Planejamento. </p>  
+   <td> <p>Para acessar a área Planejamento no Workfront, você deve ter a seguinte configuração de modelo de layout: </p>
+<ul>
+<li><p>No ambiente de Produção, todos os usuários, inclusive os administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua o Planning.</p></li>
+<li><div class="preview">
+<p> No ambiente de Pré-visualização, os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
+   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
+
+<p> No entanto, para enviar solicitações ao Workfront Planning, não é necessário acessar a área Planejamento. </p>  
 </td>
   </tr>
  </tbody>
@@ -112,20 +118,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
-
--->
 
 ## Pré-requisitos
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modelo de layout</p></td> 
-   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> </td> 
+   <td> <p>No ambiente de Produção, todos os usuários, inclusive os administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua as áreas de Planejamento.</p>
+   <div class="preview">
+<p> No ambiente de Pré-visualização, os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.</p>
+
+<p>Os usuários padrão e os Administradores do Sistema têm o Planning habilitado por padrão.</p></div>
+
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Criar e gerenciar modelos de layout</a>.</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -98,20 +104,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
 
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
-
--->
 
 ## Considerações sobre comentários em um registro
 
@@ -204,7 +197,7 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
       >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
    ![Search box for comments](assets/search-box-for-comments-area.png)
-1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
+1. (Optional) Click **Reply** or start typing a comment in the **Add reply ..** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Comments section while you were adding your comments, click **View** inside the **new comments banner** at the bottom of the screen  to display these comments.
    ![New comments banner on record](assets/new-comments-banner-on-record.png)
 

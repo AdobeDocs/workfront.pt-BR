@@ -1,21 +1,21 @@
 ---
-title: Gerenciar as Exibir de tabela
-description: É possível exibir registros e seus campos em uma visualização de tabela ao acessar o tipo de registro página em Adobe Systems Planejamento da Workfront. Este artigo descreve como você pode criar uma tabela visualização e editar ou excluir uma existente.
+title: Gerenciar a exibição de tabela
+description: Você pode exibir registros e seus campos em uma exibição de tabela, ao acessar a página tipo de registro no Adobe Workfront Planning. Este artigo descreve como criar uma visualização de tabela e editar ou excluir uma existente.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
 source-wordcount: '3205'
 ht-degree: 2%
 
 ---
 
-# Gerencie as visualização de tabela
+# Gerenciar a exibição de tabela
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidade ainda não disponíveis por completo. Ela está disponível somente no Visualização ambiente para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
 <span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -29,7 +29,7 @@ Para obter informações sobre exibições de registros e como gerenciá-las, co
 
 +++ Expanda para visualizar os requisitos de acesso.
 
-Você deve ter o seguinte acesso para executar as etapas neste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -43,19 +43,19 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
    <p> Produtos</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planejamento da Adobe Systems workfront<p></li></ul></td> 
+   <li><p> Planejamento do Adobe Workfront<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Systems plano da Workfront*</p></td> 
+   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
    <td> 
 <p>Qualquer um dos seguintes planos da Workfront:</p> 
 <ul><li>Selecionar</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>O planejamento da workfront não está disponível para planos herdados da Workfront</p> 
+<p>O Workfront Planning não está disponível para planos herdados do Workfront</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Systems pacote de Planejamento da Workfront*</p></td> 
+   <td role="rowheader"><p>Pacote de planejamento do Adobe Workfront*</p></td> 
    <td> 
 <p>Qualquer </p> 
 <p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 
@@ -81,13 +81,13 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>   <p>Gerenciar permissões em um visualização</p>  
-   <p>Exibir permissões a um visualização para alterar temporariamente as configurações do visualização</p> </td> 
+   <td>   <p>Gerenciar permissões para uma exibição</p>  
+   <p>Permissões de exibição para uma exibição para alterar temporariamente as configurações de exibição</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modelo de layout</p></td> 
-   <td> <p>No ambiente de Produção, todos os usuários, incluindo os Administradores do Sistema, devem ser atribuídos a um layout modelo que inclua as áreas de Planejamento.</p>
-<p><span class="preview">No Visualização ambiente, os usuários do Standard e os Administradores do sistema têm a área de Planejamento ativada por padrão.</span></p></td> 
+   <td> <p>No ambiente de Produção, todos os usuários, inclusive os Administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua as áreas de Planejamento.</p>
+<p><span class="preview">No ambiente de Pré-visualização, os usuários do Standard e os Administradores do sistema têm a área Planejamento ativada por padrão.</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -96,19 +96,17 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
 
 +++
 
+## Editar registros usando a exibição de tabela
 
+É possível editar informações de registro somente na exibição de tabela.
 
-## Editar registros usando a tabela visualização
+Para obter mais informações sobre como editar registros na exibição de tabela, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
-É possível editar informações de registro somente no visualização da tabela.
-
-Para obter mais informações sobre como editar registros na tabela visualização, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
-
-## Gerenciar uma visualização de tabela {#manage-a-table-view}
+## Gerenciar uma exibição de tabela {#manage-a-table-view}
 
 <!--insert screen shot of table view-->
 
-Ao criar uma visualização de tabela, todos os registros do tipo selecionado são exibidos em uma tabela. Cada linha é um registro exclusivo e cada coluna é um campo de registro. Todos os campos e registros são exibidos por padrão.
+Ao criar uma exibição de tabela, todos os registros do tipo selecionado são exibidos em uma tabela. Cada linha é um registro exclusivo e cada coluna é um campo de registro. Todos os campos e registros são exibidos por padrão.
 
 Para gerenciar uma exibição de tabela:
 
@@ -135,15 +133,15 @@ Para gerenciar uma exibição de tabela:
 
 ### Adicionar colunas (ou campos) {#add-columns}
 
-Os cabeçalhos de coluna de uma tabela visualização campos de exibição associados aos registros na visualização. Os campos exibidos na tabela visualização também são exibidos na seção Detalhes de um registro.
+Os cabeçalhos de coluna de uma exibição de tabela exibem campos associados aos registros na exibição. Os campos exibidos na visualização de tabela também são exibidos na seção Detalhes de um registro.
 
 Para obter mais informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
-A adição de colunas a uma visualização é idêntica à adição de campos a um tipo de registro.
+Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de registro.
 
-É possível adicionar até 500 campos (ou colunas) em uma tabela visualização.
+É possível adicionar até 500 campos (ou colunas) em uma exibição de tabela.
 
 1. Vá para uma página de tipo de registro e clique em uma guia de exibição de tabela ou clique em **+ Exibição** para adicionar um novo modo de exibição e, em seguida, escolha **Tabela**.
 
@@ -155,28 +153,28 @@ A adição de colunas a uma visualização é idêntica à adição de campos a 
 
    * Segure o cabeçalho da coluna e arraste e solte-o na posição desejada. A coluna movida brevemente será exibida com um plano de fundo azul até que você faça outros ajustes na tabela.
 
-   * Clique **em Campos** na barra de ferramentas da tabela, em seguida, arraste e solte os campos na solicitar desejada, em seguida, clique fora da **visibilidade campos e solicitar** caixa para fechá-la.
+   * Clique em **Campos** na barra de ferramentas da tabela, arraste e solte os campos na ordem desejada e clique fora da caixa **Visibilidade e ordem dos campos** para fechá-la.
 
-     ![Campos que definem a tabela visualização barra de ferramentas expandida](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![Barra de ferramentas de exibição de tabela de configuração de campos expandida](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
      >
-     >* O campo Nome é sempre o primeiro campo da tabela visualização, por padrão. Isso é considerado um campo primário.
+     >* Por padrão, o campo Nome é sempre o primeiro campo na exibição de tabela. Este é considerado um campo primário.
      >
-     >* Não é possível mover o campo Nome para outra posição, a menos que designe outro campo como o campo principal. Para obter mais informações, continue com a Etapa 4. <!--accurate?-->
+     >* Não é possível mover o campo Nome para outra posição, a menos que você designe outro campo como o principal. Para obter mais informações, continue com a Etapa 4. <!--accurate?-->
      >
      >
 
-   * Substituir o campo na primeira coluna com outro campo alterando o campo principal. Para obter mais informações, prossiga para a etapa 4. <!--accurate?-->
+   * Substitua o campo na primeira coluna por outro campo alterando o campo primário. Para obter mais informações, continue para a etapa 4. <!--accurate?-->
 
-1. (Opcional) Passe o mouse sobre um nome de campo no cabeçalho da coluna de qualquer campo que não seja exibido na primeira coluna da tabela, clique na seta para baixo apontando para a direita do nome do campo e, em seguida, clique **em Definir como campo** principal.
+1. (Opcional) Passe o mouse sobre um nome de campo no cabeçalho da coluna de qualquer campo que não seja exibido na primeira coluna da tabela, clique na seta para baixo à direita do nome do campo e clique em **Definir como campo principal**.
 
-   ![Definir como opção de campo principal na tabela visualização](assets/set-as-primary-field-option-table-view.png)
+   ![Definir como opção de campo primário na exibição de tabela](assets/set-as-primary-field-option-table-view.png)
 
-1. Clique **em Definir campo** para confirmar.
+1. Clique em **Definir campo** para confirmar.
 
-   O campo se torna um campo primário, o que significa que ele é exibido como a primeira coluna da tabela visualização. O campo primário anterior se move para a segunda coluna.
+   O campo se torna um campo primário, o que significa que ele é exibido como a primeira coluna da exibição de tabela. O campo principal anterior é movido para a segunda coluna.
 
    Os campos primários se tornam o título e a exibição do registro na área de cabeçalho da página do registro e em todos os locais onde os registros são exibidos. Por exemplo, o título do registro é exibido em campos conectados e em todas as exibições. Para obter mais informações sobre campos primários, consulte [Visão geral do campo primário](/help/quicksilver/planning/fields/primary-field-overview.md).
 
@@ -201,19 +199,19 @@ A adição de colunas a uma visualização é idêntica à adição de campos a 
 
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
-   1. Clique no **ícone ![Search** Search e](assets/search-icon.png) start digitando um palavra-chave associado a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é destacado.
+   1. Clique no ícone **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado.
 
-      ![caixa Search com contorno azul de resultados na tabela visualização](assets/search-box-with-results-blue-outline-table-view.png)
+      ![Caixa de pesquisa com estrutura azul de resultados na exibição de tabela](assets/search-box-with-results-blue-outline-table-view.png)
 
       Você pode usar qualquer palavra ou caractere especial visível na tela.
 
-      Não é possível usar palavras-chave associadas a campos oculto na tabela visualização.
+      Não é possível usar palavras-chave associadas a campos ocultos na exibição de tabela.
 
    1. Pressione **Enter** no teclado para ir para o próximo campo encontrado.
 
    1. (Opcional) Se houver mais de uma correspondência, clique nas setas para cima e para baixo à direita da palavra-chave de pesquisa para localizar todas as correspondências na tabela.
 
-   1. Clique no **ícone x** na caixa de pesquisa para limpar a palavra-chave de pesquisa.
+   1. Clique no ícone **x** na caixa de pesquisa para limpar a palavra-chave de pesquisa.
 
 
 ### Adicionar linhas (ou registros) {#add-rows}
@@ -224,15 +222,15 @@ As linhas de uma exibição de tabela exibem registros individuais do tipo de re
 
 1. Vá para uma página de tipo de registro e clique em uma guia de exibição de tabela ou clique em **+ Exibição** para adicionar um novo modo de exibição e, em seguida, escolha **Tabela**.
 
-1. Início a adição de registros (ou linhas), conforme descrito no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
+1. Comece a adicionar registros (ou linhas), conforme descrito no artigo [Criar registros](/help/quicksilver/planning/records/create-records.md).
 
-   Os registros adicionados na tabela visualização são salvos imediatamente e ficam visíveis para todos os usuários que têm Exibir ou permissões mais altas para o espaço de trabalho.
+   Os registros adicionados na exibição de tabela são salvos imediatamente e ficam visíveis para todos os usuários que têm permissões de Exibição ou superiores para o espaço de trabalho.
 
-1. (Opcional) Adicione uma miniatura a cada registro e clique **em Campos** no canto superior direito da tabela, em seguida, selecione a alternância para o **campo Miniatura** para exibi-lo à esquerda do campo principal. Ele é desmarcado por padrão.
+1. (Opcional) Adicione uma miniatura a cada registro e clique em **Campos** no canto superior direito da tabela e selecione o alternador do campo **Miniatura** para exibi-lo à esquerda do campo principal. Ela é desmarcada por padrão.
 
    Para obter informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Opcional) Selecione um ou vários registros em uma linha e arraste e solte o **ícone ![](assets/handle-icon.png) de identificador de alça** à esquerda do registro para reordenar as linhas.
+1. (Opcional) Selecione um ou vários registros em uma linha, em seguida, arraste e solte o ícone **alça** ![alça de ícone](assets/handle-icon.png) à esquerda do registro para reordenar as linhas.
 
    >[!NOTE]
    >
@@ -260,16 +258,16 @@ Considere o seguinte ao trabalhar com filtros na exibição de tabela:
 
 * Adicionar filtros à exibição de tabela é idêntico a adicionar filtros à exibição de linha do tempo.
 
-* É possível filtrar por campos de registro conectados ou campos de pesquisa.
+* Você pode filtrar por campos de registro conectados ou campos de pesquisa.
 
-* É possível filtrar por campos de pesquisa que exibem vários valores.
+* Você pode filtrar por campos de pesquisa que exibem vários valores.
 
-* É possível referenciar um campo que esteja a até 4 níveis do tipo de registro atual. Por exemplo, se você estiver criando um filtro para um tipo de registro de Atividade, e a Atividade estiver conectada ao tipo de registro do Produto que está conectado ao tipo de registro Campaign que está conectado a um Projeto da Workfront, é possível referenciar o Orçamento do projeto no filtro que você está criando para o tipo de registro de atividade.
+* Você pode fazer referência a um campo que esteja a até 4 níveis de distância do tipo de registro atual. Por exemplo, se você estiver criando um filtro para um tipo de registro de Atividade e a Atividade estiver conectada ao tipo de registro de Produto que está conectado ao tipo de registro de Campanha que está conectado a um Projeto do Workfront, será possível fazer referência ao Orçamento do projeto no filtro que está sendo criado para o tipo de registro de Atividade.
 
-Para adicionar um filtro a uma tabela visualização:
+Para adicionar um filtro a uma exibição de tabela:
 
-1. Criar uma tabela visualização de um tipo de registro página, conforme descrito nas visualizações](/help/quicksilver/planning/views/manage-record-views.md) de registro do artigo[.
-1. Selecione uma visualização de tabela e clique **em Filtros** no canto superior direito da tabela.
+1. Crie uma exibição de tabela para uma página de tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+1. Selecione uma exibição de tabela e clique em **Filtros** no canto superior direito da tabela.
 1. Clique em **Adicionar condição** e adicione as seguintes informações:
 
    * **Selecione um campo** que você deseja filtrar por <!-- the tip below might change-->
@@ -350,16 +348,16 @@ Para adicionar um filtro a uma tabela visualização:
 1. Clique nos seguintes operadores para indicar como as condições de filtro são unidas e devem ser aplicadas:
 
    * **AND**: todas as condições especificadas devem ser atendidas.
-   * **OU**: Qualquer uma das condições especificadas deve ser atendida. Essa é a opção padrão.
+   * **OU**: qualquer uma das condições especificadas deve ser atendida. Esta é a opção padrão.
 
-   1. (Opcional) Adicione operadores AND **ou** OR **adicionais** entre agrupamentos de várias condições.
+   1. (Opcional) Adicione operadores **AND** ou **OR** adicionais entre vários agrupamentos de condição.
 
-      ![filtros multinível em exibições](assets/multi-tiered-filters-in-views.png)
+      ![Filtros de várias camadas em exibições](assets/multi-tiered-filters-in-views.png)
 
    A lista de registros é filtrada automaticamente.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. (Opcional) Clique no **ícone x** para remover uma condição de filtro.
+1. (Opcional) Clique no ícone **x** para remover uma condição de filtro.
 1. (Opcional) Clique em **Filtros** para fechar a caixa de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### Adicionar uma classificação {#sort-information}
@@ -375,15 +373,15 @@ Considere o seguinte ao classificar registros na exibição de tabela:
 
 <!-- if this is available for the timeline view, update both when you update one-->
 
-* A classificação é exclusiva das visualização selecionadas. Duas exibições em tabela do mesmo tipo de registro podem ter critérios de classificação diferentes aplicados a eles. Dois usuários que olham para a mesma tabela visualização ver a mesma classificação aplicada no momento.
+* A classificação é exclusiva da exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter critérios de classificação diferentes aplicados a elas. Dois usuários que observam a mesma exibição de tabela veem a mesma classificação aplicada atualmente.
 
-* Não é possível nomear as classificações que build e aplicar a uma visualização de tabela.
+* Não é possível nomear as classificações criadas e aplicar a uma exibição de tabela.
 
-* A classificação criada é preservada ao navegar.
+* A classificação criada é preservada ao sair.
 
-* É possível classificar por quantos campos forem exibidos na tabela visualização de um tipo de registro.
+* É possível classificar por quantos campos forem exibidos na exibição de tabela de um tipo de registro.
 
-* Não é possível classificar por campos de registro conectados, mas é possível classificar por campos de pesquisa a partir de tipos de registros conectados.
+* Não é possível classificar por campos de registro conectados, mas você pode classificar por campos de pesquisa a partir de tipos de registro conectados.
 
 * Quando você classifica por campos de pesquisa com vários valores (que não foram resumidos por um agregador), o primeiro valor é usado para classificação.
 
@@ -406,15 +404,15 @@ Para classificar <!--ungrouped (add this when sorting for groupings will be avai
 
    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
 
-1. (Opcional) Clique **em Adicionar condição** e repita as etapas acima para classificar por campos adicionais.
+1. (Opcional) Clique em **Adicionar condição** e repita as etapas acima para classificar por campos adicionais.
 
-   O número de campos que estão sendo classificados é exibido à esquerda do ícone Classificar no canto superior direito da barra de ferramentas. É possível escolher apenas os campos que são exibidos nas colunas da tabela visualização.
+   O número de campos que você está classificando é exibido à esquerda do ícone Classificar no canto superior direito da barra de ferramentas. Você pode escolher somente campos que sejam exibidos nas colunas da exibição de tabela.
 
-1. (Opcional) Na caixa **Classificar registros por** caixa, clique no **ícone x** à direita de um campo de classificação para remover a classificação
+1. (Opcional) Na caixa **Classificar registros por**, clique no ícone **x** à direita de um campo de classificação para remover a classificação
 
    Ou
 
-   Clique **em Limpar tudo** para remover todos os campos da classificação.
+   Clique em **Limpar tudo** para remover todos os campos da classificação.
 
 1. Clique fora da caixa **Classificar registros por** para fechá-la.
 
@@ -422,23 +420,23 @@ Para classificar <!--ungrouped (add this when sorting for groupings will be avai
 
    As informações exibidas na tabela são classificadas de acordo com os critérios selecionados.
 
-   Os campos selecionados para a classificação exibem um ícone de classificação seguido por um número que indica o solicitar em que a classificação é aplicada.
+   Os campos selecionados para a classificação exibem um ícone de classificação seguido de um número que indica a ordem em que a classificação é aplicada.
 
 ### Adicionar agrupamentos {#add-groupings}
 
 <!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
 
-É possível grupo registros por informações semelhantes ao aplicar um agrupamento a um visualização.
+Você pode agrupar registros por informações semelhantes ao aplicar um agrupamento a uma exibição.
 
-A adição de agrupamentos na tabela visualização é semelhante a adicionar agrupamentos à visualização de linha do tempo.
+Adicionar agrupamentos na exibição de tabela é semelhante a adicionar agrupamentos à exibição de linha do tempo.
 
 Considere o seguinte:
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
-* Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados no solicitar de agrupamentos selecionados.
-&lt;!--* É possível aplicar até 4 níveis de agrupamento ao usar a API. --verificando este por enquanto- >
-* Os agrupamentos são exclusivos às visualização selecionadas. Duas exibições em tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a eles. Dois usuários olhando para a mesma tabela visualização ver o mesmo agrupamento que é aplicado no momento.
-* Não é possível nomear os agrupamentos que build para um visualização de tabela.
+* Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
+&lt;!—* É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto—>
+* Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
+* Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
 * É possível editar registros listados em um agrupamento.
 * Você pode agrupar por campos de registro conectados ou campos de pesquisa.
@@ -458,13 +456,13 @@ Para adicionar um agrupamento:
 
    O agrupamento é aplicado automaticamente à tabela e os registros são exibidos na linha de separação de agrupamento.
 
-1. (Opcional) Clique **em Adicionar condição** e repita as etapas acima para adicionar até 3 grupos.
+1. (Opcional) Clique em **Adicionar condição** e repita as etapas acima para adicionar até três agrupamentos.
 
-   O número de campos selecionados para o agrupamento é exibido ao lado do ícone Agrupamento.
+   O número de campos selecionados para o agrupamento é exibido ao lado do ícone Grouping.
 
-   ![Agrupamento aplicado em visualização de tabela](assets/grouping-applied-in-table-view.png)
+   ![Agrupamento aplicado na exibição de tabela](assets/grouping-applied-in-table-view.png)
 
-1. (Opcional) Dentro dos registros do **Grupo por** caixa, clique no **ícone x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
+1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
    Ou
 
@@ -487,23 +485,23 @@ To sort grouped records:
 
 ### Adicionar cores da linha
 
-1. (Opcional) Clique **em Cores da linha** para definir condições e escolha configurar cores diferentes para linhas de tabela.
+1. (Opcional) Clique em **Cores da linha** para definir condições e escolher a configuração de cores diferentes para linhas da tabela.
 
-1. Clique **em Adicionar cor**, em seguida **, selecione um campo** cujo valor você deseja determinar a cor de uma linha.
+1. Clique em **Adicionar cor** e **Selecione um campo** cujo valor você deseja determinar a cor de uma linha.
 
-   Por exemplo, para exibir campanhas com o status de Ativo em verde, selecione **Status** e escolha um modificador e um valor para o campo.
+   Por exemplo, para exibir campanhas com um status de Ativo em verde, selecione **Status** e escolha um modificador e um valor para o campo.
 
-   ![Caixa de cores da linha com status Ativo selecionado e escolha de cor padrão](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+   ![Caixa de cores de linha com status Ativo selecionado e opção de cor padrão](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
 
-1. Clique no menu suspenso para o seletor de cores no canto superior esquerdo da condição selecionada, para escolher a cor para a condição e, em seguida, clique fora da caixa de seletor de cores para fechá-la.
+1. Clique no menu suspenso do seletor de cores no canto superior esquerdo da condição selecionada para escolher a cor da condição e clique fora da caixa do seletor de cores para fechá-lo.
 
-   ![Menu de seletor de cores suspenso na caixa de cores Linha realçada](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![Menu suspenso de seletor de cores na caixa Cores da linha realçado](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
 
-1. (Opcional) Clique **em Adicionar condição** para adicionar mais campos e valores ao primeiro conjunto de condições
+1. (Opcional) Clique em **Adicionar condição** para adicionar mais campos e valores ao primeiro conjunto de condições
 
    Ou
 
-   Clique **em Adicionar cor** para adicionar um novo conjunto de condições e identificar uma nova cor.
+   Clique em **Adicionar cor** para adicionar um novo conjunto de condições e identificar uma nova cor.
 
    Por exemplo, você pode exibir campanhas em um status Planning em amarelo definindo um novo conjunto de condições.
 
@@ -525,5 +523,5 @@ Os avatares de outros usuários que estão editando informações de registro ao
 
 Ao exibir a visualização de tabela, você também pode visualizar qual campo outro usuário está editando no momento em que você está visualizando o registro.
 
-Para obter mais informações, consulte a seção &quot;Ativar o indicador de presença em tempo real&quot; no artigo [Gerenciar exibições](/help/quicksilver/planning/views/manage-record-views.md) de registro.
+Para obter mais informações, consulte a seção &quot;Habilitar o indicador de presença em tempo real&quot; no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
