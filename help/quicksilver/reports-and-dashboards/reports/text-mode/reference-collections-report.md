@@ -6,9 +6,9 @@ description: Coleções de referência em um relatório
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2615'
 ht-degree: 0%
 
 ---
@@ -307,6 +307,15 @@ Você pode fazer referência a uma coleção de objetos no filtro de um relatór
 
 Por exemplo, você pode filtrar por informações de tarefas ou problemas em um relatório de projeto usando uma referência aos atributos de tarefas ou problemas no projeto na instrução de filtro.
 
+>[!NOTE]
+>
+>Quando aplicado a campos que contêm vários valores (como uma coleção de notas em um projeto), o filtro determina a inclusão da seguinte maneira:
+>
+>* Se todos os itens em uma coleção contiverem o valor especificado, todo o registro será excluído dos resultados.
+>* Se pelo menos um item na coleção não contiver o valor especificado, o registro permanecerá nos resultados.
+
+
+
 Para adicionar uma referência a uma coleção em um filtro de relatório:
 
 1. Clique no **Menu principal** ![Ícone do Menu principal](assets/main-menu-icon.png) e em **Relatórios**.
@@ -350,7 +359,7 @@ Para adicionar uma referência a uma coleção em um filtro de relatório:
 
    Esse relatório só exibe projetos que tenham pelo menos uma tarefa com a palavra &quot;marketing&quot; no nome.
 
-   ![Marketing somente tarefas no projeto](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![Marketing somente de tarefas no projeto](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Para filtrar o nome de um problema, use o seguinte código:
 

@@ -6,9 +6,9 @@ description: Os modificadores de filtro e condição permitem criar filtros e es
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1593'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,12 @@ Você pode usar os seguintes modificadores de condição em filtros e instruçõ
   <tr valign="top"> 
    <td> <p><strong>Não Contém</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p>Esta é a versão <i>sem diferenciação de maiúsculas e minúsculas</i> de <strong>notcontains</strong>.</p><p>Esse modificador filtra itens cujo valor especificado está faltando.</p> <p>Por exemplo, <code>does not contain inf</code> captura algo sem <code>Inf</code> ou <code>inf</code> no nome.</p> <p>Observação: <span>Se o campo que você está filtrando tiver várias opções, isso filtra os resultados que contêm tanto a opção especificada, quanto a opção especificada e qualquer opção adicional.</span> </p> </td> 
+   <td> <p>Esta é a versão <i>sem diferenciação de maiúsculas e minúsculas</i> de <strong>notcontains</strong>.</p><p>Esse modificador filtra itens cujo valor especificado está faltando.</p> <p>Por exemplo, <code>does not contain inf</code> captura algo sem <code>Inf</code> ou <code>inf</code> no nome.</p> <p>Observação: quando aplicado a campos que contêm vários valores (como uma coleção de notas em um projeto), o filtro determina a exclusão da seguinte maneira:
+<ul>
+    <li>Se todos os itens em uma coleção contiverem o texto especificado, todo o registro será excluído dos resultados.</li>
+    <li>Se pelo menos um item na coleção não contiver o texto especificado, o registro permanecerá nos resultados.</li>
+</ul>
+ </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 
