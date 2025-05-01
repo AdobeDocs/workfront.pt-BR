@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '918'
 ht-degree: 1%
 
 ---
@@ -113,6 +113,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 * Para obter informações gerais sobre o compartilhamento de objetos no Workfront Planning, consulte também [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 * Você pode compartilhar espaços de trabalho com usuários, equipes, funções, grupos ou empresas dentro da organização.
+* Além de equipes, grupos, empresas e funções de trabalho, você pode compartilhar somente com usuários que foram adicionados à Adobe Admin Console.
 * Não é possível compartilhar espaços de trabalho com usuários fora da organização.
 * Quando você compartilha um espaço de trabalho, todos os tipos de registro, registros e campos associados aos espaços de trabalho também são compartilhados.
 * Quando você compartilha um espaço de trabalho, as exibições não são compartilhadas. Você deve compartilhar exibições separadamente.

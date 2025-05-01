@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Para obter informações sobre como conectar registros uns aos outros ou a outro
    * Os campos de registro conectados na exibição de tabela de um tipo de registro no Planning.
    * A visualização ou página do registro nos campos de registro conectados na guia Detalhes.
    * A visualização ou página do registro na guia Conexões.
-   * A página do registro em uma guia Exibição de conexão de um registro conectado.
+   * A página do registro em uma guia <span class="preview">Registros conectados</span> de um registro conectado.
 
 * Você pode conectar objetos do Workfront a registros do Workfront Planning nas seguintes áreas do Workfront:
 

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '816'
 ht-degree: 3%
 
 ---
@@ -136,7 +136,7 @@ Para obter mais informações sobre como associar um caminho de etapas a um proj
 A etapa é excluída e não pode ser recuperada. Todas as informações do projeto associadas à etapa e todas as informações de tarefas associadas aos caminhos de etapas também são excluídas.
 
 
-## Exibir detalhes do caminho de etapas em um relatório
+## View milestone path details in a project report
 
 Você pode visualizar os detalhes de um caminho de etapas em um relatório de projeto.
 

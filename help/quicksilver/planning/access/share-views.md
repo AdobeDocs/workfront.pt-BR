@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1564'
 ht-degree: 1%
 
 ---
@@ -160,6 +160,12 @@ Você pode compartilhar exibições que criou ou exibições para as quais tem p
 1. (Opcional) Na área **Quem tem acesso**, selecione uma das seguintes opções:
 
    * **Somente pessoas convidadas podem acessar**: você deve especificar usuários, grupos, equipe, empresa ou função de trabalho com os quais deseja compartilhar a exibição. Esta é a opção padrão.
+
+     >[!NOTE]
+     >
+     >   Além de equipes, grupos, empresas e funções de trabalho, você pode compartilhar somente com usuários que foram adicionados à Adobe Admin Console.
+
+
    * **Todos no espaço de trabalho podem exibir**: todos os usuários que têm permissões de Exibição ou superiores para espaços de trabalho podem acessar a exibição.
 
 1. No campo **Conceder acesso a este modo de exibição**, comece digitando o nome de um usuário, grupo, equipe, empresa ou função de trabalho e clique nele quando ele for exibido na lista.

@@ -6,9 +6,9 @@ description: Tarefas pessoais são solicitações de trabalho ad hoc que você e
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: a1081b7ce0877b08f9546ab57cfac3f2a580ea76
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,16 @@ ht-degree: 0%
 
 Tarefas pessoais são solicitações de trabalho ad hoc que você envia para um usuário ou envia para ou adiciona para você mesmo.
 
-O Adobe Workfront salva solicitações de trabalho ad hoc e itens de tarefa como tarefas pessoais.
+O Adobe Workfront salva solicitações de trabalho ad hoc e itens de tarefa como tarefas pessoais no projeto pessoal de um usuário que o Wprfront cria automaticamente para cada usuário.
 
-Por padrão, todos os usuários no Workfront têm um projeto pessoal chamado de &quot;Tarefas do &lt; nome completo do usuário>&quot;. Por exemplo, &quot;Tarefas de John Smith&quot;.
+Estas são as características do projeto pessoal de um usuário:
 
-O projeto pessoal de cada usuário não é exibido em pesquisas e está oculto. Todas as tarefas pessoais são armazenadas neste projeto.
-
-Você pode mover tarefas pessoais para um projeto, se necessário.
+* Todos os usuários no Workfront têm um projeto pessoal chamado &quot;Tarefas do &lt; nome completo do usuário>&quot;. Por exemplo, &quot;Tarefas de John Smith&quot;.
+* O projeto pessoal de cada usuário não é exibido em pesquisas e está oculto.
+* Um projeto pessoal não pode ser excluído, mesmo que os usuários tenham sido desativados.
+* O Status de um projeto pessoal é sempre Atual. Projetos pessoais não podem ser concluídos ou cancelados.
+* Todas as tarefas pessoais são armazenadas no projeto pessoal de um usuário.
+* Você pode mover tarefas pessoais para outro projeto, se necessário.
 
 É possível criar tarefas pessoais das seguintes maneiras:
 
