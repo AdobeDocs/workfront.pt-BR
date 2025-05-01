@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
+source-git-commit: ab3e1a354ec897797a455d6e25c7bf292a337a9d
 workflow-type: tm+mt
-source-wordcount: '13178'
+source-wordcount: '13174'
 ht-degree: 2%
 
 ---
@@ -1226,7 +1226,7 @@ ht-degree: 2%
          * [Visão geral da anexação de um modelo a um projeto](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * Definir um Business Case {#define-business-case}
          * [Definir um Business Case: índice do artigo](manage-work/projects/define-a-business-case/define-business-case.md)
-         * [Visão geral das áreas do business case](manage-work/projects/define-a-business-case/areas-of-business-case.md)
+         * [Visão geral das áreas de business case](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [Criar um Business Case para um projeto](manage-work/projects/define-a-business-case/create-business-case.md)
          * [Aprovar um Business Case](manage-work/projects/define-a-business-case/approve-business-case.md)
          * [Visão geral dos campos financeiros do Business Case](manage-work/projects/define-a-business-case/business-case-finances.md)
