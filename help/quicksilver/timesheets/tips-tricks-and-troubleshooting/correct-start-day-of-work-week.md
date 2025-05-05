@@ -2,39 +2,61 @@
 content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
-title: Corrigir o dia de início da semana de trabalho para Planilhas de Horas
-description: O dia de início da semana em minha folha de horas não corresponde ao dia de início da semana configurado em meu perfil de folha de horas.
+title: Corrigir o Dia de Início da Semana de Trabalho para Folhas de Horas
+description: O dia de início da semana em minha folha de horas não corresponde ao meu dia de início semanal esperado.
 author: Alina
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # Corrigir o dia de início da semana de trabalho para Planilhas de Horas
 
+<!--Audited: 5/2025-->
+
 ## Problema
 
-O dia de início da semana em minha folha de horas não corresponde ao dia de início da semana configurado em meu perfil de folha de horas (conforme descrito em [Criar, editar e atribuir perfis de folha de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).)
+O dia de início da semana em minha folha de horas não corresponde ao meu dia de início semanal esperado.
+
+Normalmente, isso ocorre quando você não está atribuído a um Perfil de folha de horas e sua folha de horas foi criada manualmente.
+
 
 ## Solução
 
-O dia de início da semana de uma folha de horas no Adobe Workfront usa as configurações de idioma e localidade no navegador para determinar o dia da semana. Por causa disso, você precisa atualizar as configurações de idioma e localidade do seu navegador.
+O administrador do Workfront deve criar perfis de folha de horas e atribuir todos a um perfil, conforme descrito em [Criar, editar e atribuir perfis de folha de horas](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). O administrador do Workfront pode definir a data de início de uma folha de horas em um dia diferente da data de início semanal esperada. Verifique com eles para descobrir qual é a data de início de um perfil de planilha de horas para sua planilha de horas.
 
-Por exemplo, com o idioma do navegador definido como inglês e o local definido como Estados Unidos, a semana começa no domingo. Como alternativa, o idioma do navegador é definido como inglês e o local é definido como Reino Unido, o dia de início é segunda-feira.
+Se sua folha de horas foi criada manualmente, o dia de início da semana na folha de horas usa as configurações de Local de Email no perfil do usuário, conforme descrito no artigo [Configurar minhas configurações](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
-Essa configuração também afeta o dia de início da semana nos calendários pop-up em todo o sistema.
+Por exemplo, com a Localidade de email definida como Inglês (Estados Unidos), a semana na folha de horas começa no domingo. Como alternativa, com a Localidade de email definida como Inglês (Reino Unido), a semana na folha de horas começa em uma segunda-feira.
 
-A alteração do local não afeta o dia de início da semana na Grade de Recursos (ou na exibição da grade de recursos). A semana sempre começa no domingo.
 
-A seguir estão as instruções para alterar as configurações de idioma e local para vários navegadores compatíveis com o Workfront.
+<!--This is the old content for this article but I found this was not working this way at all, so I changed it to what it is today: 
 
-* **Chrome:** Copie e cole o seguinte link no navegador do Chrome: `chrome://settings/languages` e vá para Idiomas.
-* **Firefox:**&#x200B;copie e cole o seguinte link no navegador Firefox: `about:preferences#content` e vá para Idiomas.
-* **IE 11:** Ferramentas -> Opções da Internet -> Geral -> Idiomas
-* **Safari:** infelizmente, o Safari não permite a alteração de idiomas de navegação na Web sem também alterar todo o idioma do sistema operacional. Provavelmente, é mais fácil simplesmente instalar outro navegador, como o Chrome ou o Firefox.
+## Problem
+
+The start day of the week on my timesheet does not match the start day of the week that is configured on my timesheet profile (as described in [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).).
+
+## Solution
+
+The start day of the week of a timesheet in Adobe Workfront uses the language and locale settings in your browser to determine the day of the week. Because of this, you need to update the language and locale settings for your browser. 
+
+For example, with the browser language set to English and the locale set to United States, the week starts on Sunday. Alternatively, the browser language set to English and the locale set to United Kingdom, the start day is Monday.
+
+This setting also affects the start day of the week in the pop-up calendars across the system.
+
+The locale change does not affect the start day of the week on the Resource Grid (or resource grid view). The week always starts on Sunday.
+
+Following are the directions for changing language and locale settings for various browsers that are supported with Workfront.
+
+* **Chrome:** Copy and paste the following link into your Chrome browser: `chrome://settings/languages` then go to Languages.
+* **Firefox:**Copy and paste the following link into your Firefox browser: `about:preferences#content` then go to Languages.
+* **IE 11:** Tools -> Internet Options -> General -> Languages
+* **Safari:** Unfortunately, Safari does not allow changing web browsing languages without also changing your entire operating system language. It is probably easier to simply install another browser like Chrome or Firefox.
+
+-->
 
 

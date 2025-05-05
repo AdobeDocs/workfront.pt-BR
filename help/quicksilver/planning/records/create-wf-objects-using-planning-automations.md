@@ -1,15 +1,15 @@
 ---
-title: Criar Objetos Workfront Usando Automações de Registro do Adobe Workfront Planning
-description: Você pode configurar automações no Adobe Workfront Planning que, quando ativadas, criam objetos no Workfront ou registros no Workfront Planning. Os objetos e registros criados são conectados automaticamente aos registros existentes do Planning. Este artigo descreve como gerenciar automações, incluindo como editá-las, desativá-las, excluí-las e acioná-las para criar objetos e registros.
+title: Criar Objetos Usando Automações de Registro do Adobe Workfront Planning
+description: Depois de configurar e ativar automações no Adobe Workfront Planning, você pode usá-las para criar objetos no Adobe Workfront ou registros no Adobe Workfront Planning. Este artigo descreve como criar registros ou objetos usando uma automação existente.
 feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
 workflow-type: tm+mt
-source-wordcount: '2218'
-ht-degree: 2%
+source-wordcount: '879'
+ht-degree: 1%
 
 ---
 
@@ -27,22 +27,26 @@ ht-degree: 2%
 
 <span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Você pode configurar automações no Adobe Workfront Planning que, quando ativadas, criam objetos no Workfront ou registros no Workfront Planning quando acionadas a partir de um registro do Planning. Os objetos ou registros criados são conectados automaticamente aos registros dos quais você está acionando a automação.
+Depois de configurar e ativar automações no Adobe Workfront Planning, você pode usá-las para criar objetos no Adobe Workfront ou registros no Adobe Workfront Planning.
 
-Você pode configurar e ativar a automação na página do tipo de registro no Workfront Planning. O objeto conectado criado é colocado no campo conectado do tipo de registro a partir do qual a automação é executada.
+Por exemplo, você pode usar uma automação existente que use uma campanha do Workfront Planning e crie um projeto no Workfront para acompanhar o progresso dessa campanha. O projeto seria conectado à campanha do Workfront Planning no campo Connected Project da campanha.
 
-Por exemplo, você pode criar uma automação que use uma campanha do Workfront Planning e crie um projeto no Workfront para rastrear o progresso dessa campanha. O projeto seria conectado à campanha do Workfront Planning no campo Connected Project da campanha.
+Este artigo descreve como criar registros do Workfront Planning ou objetos do Workfront usando uma automação existente.
+
+Para obter informações sobre como criar automações para um tipo de registro, consulte [Configurar automações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+Depois de criar registros ou objetos Workfront usando automações, eles serão vinculados automaticamente aos registros a partir dos quais você está executando a automação.
 
 Para obter mais informações sobre registros conectados, consulte [Visão geral dos registros conectados](/help/quicksilver/planning/records/connected-records-overview.md).
 
-Você pode criar o seguinte usando automações no Workfront Planning:
+Você pode criar os seguintes itens usando automações no Workfront Planning:
 
+* Um registro do Workfront Planning
 * Um ou vários projetos
 * Um grupo
 * Um programa
 * Um portfólio
 * Um projeto
-* Registro A
 
 ## Requisitos de acesso
 
@@ -101,10 +105,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td> <p>Gerencie permissões no espaço de trabalho para criar automações. </p>
-   <p>Contribute ou aumente as permissões para o espaço de trabalho <span class="preview">e para o tipo de registro</span> onde você deseja criar o objeto usando as automações existentes. </p>  
+   <td> <p>Contribute ou aumente as permissões para o espaço de trabalho <span class="preview">e para o tipo de registro</span> onde você deseja criar objetos usando automações existentes. </p>  
    <p>Gerencie permissões para objetos do Workfront (portfólios) para adicionar objetos secundários (programas ou projetos).</p>
-   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
+   <p>Os administradores do sistema têm permissões de gerenciamento para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
    </td> 
   </tr> 
 <tr> 
@@ -118,7 +121,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Considerações sobre a criação de objetos e registros usando uma automação
 
@@ -134,158 +136,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
-## Configurar uma automação no Workfront Planning
-
-Você deve configurar uma automação para um tipo de registro no Workfront Planning antes de usá-la para criar objetos.
-
-{{step1-to-planning}}
-
-1. Clique em um cartão de tipo de registro e no nome de um registro.
-
-   A página de tipo de registro é aberta.
-1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Gerenciar automações**.
-
-   A lista de automações disponíveis para o tipo de registro selecionado é aberta.
-
-1. Clique em **Nova automação** no canto superior direito da tela. A caixa **Nova automação** é aberta.
-1. Atualize os seguintes campos:
-
-   * Substitua **Automação sem título** pelo texto que você deseja que apareça no botão de automação. Os usuários clicarão nesse botão ao usar a automação para criar um objeto do Workfront ou um registro do Planning.
-   * **Descrição**: adicione uma descrição para identificar a finalidade da automação.
-1. Clique em **Salvar**.
-A página de detalhes da automação é aberta.
-
-1. Na página de detalhes da automação, atualize os seguintes campos na seção **Triggers**:
-
-   * **Acionador**: selecione a ação que acionará a automação. Por exemplo, selecione **Botão, clique**. <!--update this step with a list of all possible triggers; right now only Button click is available-->
-
-1. Atualizar os seguintes campos na seção **Ações**: <!--submitted bugs for these fields - see if they need changing here-->
-   * **Ações**: selecione a ação que você deseja que o Workfront execute ao acionar a automação. Este campo é obrigatório.
-Selecione uma das seguintes ações:
-
-      * Criar vários projetos
-      * Criar um único projeto
-      * Criar um projeto
-      * Criar registro
-      * Criar programa
-      * Criar portfólio
-      * Criar grupo
-
-     >[!TIP]
-     >
-     >Depois de salvar a automação, não é mais possível alterar a ação selecionada nesse campo.
-
-1. (Condicional) Dependendo da ação selecionada, atualize os seguintes campos:
-
-   * **Criar um único projeto**: <!--replace to the left: Create a single project-->
-      * **Campo conectado onde o projeto é criado**: este é o campo conectado onde o novo projeto será exibido. Este campo é obrigatório.
-      * **Modelo de projeto**: selecione um modelo de projeto que a Workfront usará para criar o projeto.
-
-   * Criar vários projetos:
-      * **Campo conectado onde o projeto é criado**: este é o campo conectado onde o novo projeto será exibido. Este campo é obrigatório.
-      * **Campo cujas opções criarão os registros**: escolha um campo de seleção única ou múltipla do tipo de registro selecionado. O Workfront cria um projeto para cada opção de campo atualmente selecionada no registro de onde você aciona a automação.
-
-     >[!TIP]
-     >
-     >Um projeto é criado apenas para as opções atualmente selecionadas no campo de seleção múltipla ou única do registro a partir do qual você está executando a automação, e não para todas as opções possíveis para esse campo.
-     >
-
-      * **Usar o mesmo modelo**: selecione esta opção para usar o mesmo modelo para cada novo projeto. Se a opção estiver desmarcada, selecione um **Modelo de projeto** para cada escolha de campo.
-      * **Modelo de projeto**: se você selecionou a opção **Usar o mesmo modelo**, selecione um modelo de projeto que a Workfront usará para criar os projetos.
-
-   * **Criar portfólio**:
-      * **Campo conectado onde o portfólio é criado**: este é o campo conectado onde o novo portfólio será exibido. Este campo é obrigatório.
-      * **Formulário personalizado para anexar ao novo portfólio**: selecione um formulário personalizado para anexar ao novo portfólio. Você deve criar um formulário personalizado do portfólio antes de selecioná-lo.
-   * **Criar programa**:
-      * **Campo conectado onde o programa é criado**: este é o campo conectado onde o novo programa será exibido. Este campo é obrigatório.
-      * **Portfólio de programas**: selecione um portfólio onde o novo programa será adicionado. Este campo é obrigatório.
-      * **Formulário personalizado para anexar ao novo programa**: selecione um formulário personalizado para anexar ao novo programa. Você deve criar um formulário personalizado de programa antes de selecioná-lo.
-   * **Criar grupo**:
-      * **Campo conectado onde o grupo é criado**: este é o campo conectado onde o novo grupo será exibido. Este campo é obrigatório.
-      * **Formulário personalizado para anexar ao novo grupo**: selecione um formulário personalizado para anexar ao novo programa. Você deve criar um formulário personalizado de programa antes de selecioná-lo.
-   * **Criar registro**:
-      * **Tipo de registro**: selecione o tipo de registro que deseja criar.
-
-        A subseção **Settings** é exibida. Atualize os seguintes campos na subseção **Configurações**:
-
-         * **Campo no tipo de registro conectado onde o registro atual será exibido**: este é o campo conectado no tipo de registro selecionado para a ação onde o registro atual será exibido.
-
-        Por exemplo, se estiver criando uma automação para que as campanhas conectem registros de Produto do, esse será o campo conectado no tipo de registro de Produto em que as campanhas serão exibidas, depois que os produtos forem criados usando a automação.
-
-        Este campo é obrigatório.
-
-        <!--submitted a change in functionality and UI text for this - revise??-->
-Na área **Mapear campos**, atualize as seguintes informações:
-
-         * **Transferir de**: selecione campos do tipo de registro para o qual a automação é criada para mapeá-los para os campos do tipo de registro conectado.
-         * **Transferir para**: selecione campos do registro recém-criado que serão preenchidos com informações do registro a partir do qual você está executando a automação.
-
-        >[!TIP]
-        >
-        >* Os tipos de campo do tipo de registro original devem corresponder aos tipos de campo do tipo de registro recém-criado.
-        >* Se você não escolher nenhum campo, os nomes dos novos registros serão **Registro sem título**.
-
-1. (Opcional e condicional) Se você optou por criar um registro, clique em **Adicionar campos** para mapear campos de pesquisa adicionais de um registro para outro.
-1. (Condicional) Se não houver campos de conexão entre o tipo de registro original e o tipo de registro selecionado no campo **Tipo de registro**, clique em **Adicionar campo conectado**.
-
-   ![Configuração de automação para criar um registro](assets/automation-setup-create-record.png)
-
-   Os dois campos a seguir são criados:
-
-   * Um novo campo de conexão chamado **Registro conectado** é criado para o tipo de registro indicado no campo **Tipo de registro**.
-   * Um novo campo de conexão com o mesmo nome que o indicado no campo **Tipo de registro** é criado para o tipo de registro para o qual você está configurando a automação.
-
-     Por exemplo, se você estiver configurando uma automação para que o Campaigns crie automaticamente outro tipo de registro chamado Marcas e clicar em **Adicionar campo conectado**, os seguintes campos serão criados:
-
-      * O campo de conexão **Registro conectado** foi criado para o tipo de registro **Marcas**.
-      * O campo de conexão **Marcas** é criado para o tipo de registro **Campanhas**.
-
-1. (Opcional) Se não houver campos de conexão entre o tipo de registro original e o objeto do Workfront selecionado na área Ações, clique em **Adicionar campo conectado**.
-
-   ![Configuração de automação para criar vários projetos](assets/automation-setup-create-multiple-projects.png)
-
-   Os itens a seguir são criados:
-
-   * Um novo campo de conexão chamado **Conectado &lt; nome do objeto Workfront >** é criado para o tipo de registro para o qual você criou a automação. Por exemplo, um campo **Projeto conectado** é criado para o tipo de registro para o qual você está criando a automação, quando você opta por criar projetos automaticamente.
-   * Um novo cartão de tipo de registro é adicionado à seção Planejamento de um projeto do Workfront, no Workfront, com o nome do tipo de registro para o qual você está configurando a automação.
-
-1. Clique em **Salvar** no canto superior direito da página de detalhes de automação.
-
-   A automação é exibida na lista de automações e está disponível para uso em registros.
-
-## Gerenciar automações existentes
-
-{{step1-to-planning}}
-
-1. Clique em um cartão de tipo de registro e no nome de um registro.
-
-   A página de tipo de registro é aberta.
-1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Gerenciar automações**.
-
-   A lista de automações disponíveis para o tipo de registro selecionado é aberta.
-
-1. (Opcional) Para editar, desativar ou excluir uma automação, siga um destes procedimentos:
-
-   1. Na lista de automações, passe o mouse sobre o nome de uma automação salva e clique no menu **Mais** ![Mais menu](assets/more-menu.png).
-
-   1. Clique em **Editar** para atualizar as seguintes informações:
-
-      * Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da automação e clique em **Editar** para alterar o nome da automação.
-      * Qualquer campo na automação, exceto o campo **Ações**.
-
-        >[!TIP]
-        >
-        >Não é possível alterar a ação originalmente selecionada para uma automação.
-
-
-   1. Clique em **Desabilitar** para remover a automação da exibição de tabela do registro e impedir que os usuários a utilizem para criar registros ou objetos.
-
-      Os registros que foram criados usando uma automação desativada permanecem conectados ao registro selecionado originalmente.
-
-      Para torná-lo disponível novamente, clique novamente no menu **Mais**, no menu ![Mais](assets/more-menu.png), depois clique em **Ativar**.
-   1. Clique em **Excluir** para excluir a automação. Uma automação excluída não pode ser recuperada.
-
-      Os registros que foram criados usando uma automação excluída permanecem conectados ao registro selecionado originalmente.
 
 ## Usar uma automação do Workfront Planning para criar um objeto ou um registro
 
@@ -294,7 +144,7 @@ Na área **Mapear campos**, atualize as seguintes informações:
 1. Selecione um ou mais registros.
 
    Uma barra azul é exibida na parte inferior da tabela com botões adicionais, incluindo botões de automação.
-1. Clique no botão de automação próximo ao canto inferior direito da tela.
+1. Clique no botão de automação na barra azul.
 
    ![Botão de automação](assets/automation-custom-button.png)
 
