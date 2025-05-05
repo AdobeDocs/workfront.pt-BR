@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 05311b556067289b81e597038dbbfc1fdd19629a
+source-git-commit: 74714ce45c815afc9cff1360fd3542fa15763907
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '603'
 ht-degree: 3%
 
 ---
@@ -157,7 +157,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Notas de versão para outras áreas
 
-* [Atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+* [Atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Atividade da versão do Adobe Workfront Planning do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md).
 
 Não há atualizações para o seguinte neste momento na versão:
@@ -167,17 +167,17 @@ Não há atualizações para o seguinte neste momento na versão:
 * Metas
 
 
-### API versão 19
+### API versão 20
 
-Para a API versão 19, modificamos alguns recursos e endpoints. Algumas das alterações são compatíveis com a nova funcionalidade, enquanto outras facilitam o uso das informações disponíveis por meio da API.
+A API do Workfront versão 20 foi lançada em 4 de maio de 2024. Para a API versão 20, modificamos alguns recursos e endpoints. Algumas das alterações são compatíveis com a nova funcionalidade, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
-Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
+Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 20](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Para obter informações sobre versões de API, consulte [Controle de versão de API e agendamento de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
