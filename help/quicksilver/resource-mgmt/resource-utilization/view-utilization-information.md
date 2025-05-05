@@ -9,7 +9,7 @@ exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '7283'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-utilization"
 >title="Relatório de utilização"
->abstract="O relatório de Utilização permite visualizar o andamento, o custo ou a receita de um projeto, programa ou portfólio em um único relatório. Você também pode comparar a receita com o custo."
+>abstract="O Relatório de utilização permite visualizar o andamento, o custo ou a receita de um projeto, programa ou portfólio em um único relatório. Também é possível comparar a receita com o custo."
 
 <!-- Audited: 01/2024 -->
 
@@ -113,7 +113,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Visão Geral do relatório de Utilização {#overview-of-the-utilization-report}
 
-O relatório de Utilização permite visualizar o andamento, o custo ou a receita de um projeto, programa ou portfólio em um único relatório. Você também pode comparar a receita com o custo.
+O Relatório de utilização permite visualizar o andamento, o custo ou a receita de um projeto, programa ou portfólio em um único relatório. Também é possível comparar a receita com o custo.
 
 Você pode exibir o relatório de Utilização na área Recursos para exibir a utilização em vários projetos, ou pode exibi-la no nível de um projeto para exibir a utilização dos recursos individuais (funções de cargo e usuários) associados a esse projeto.
 
