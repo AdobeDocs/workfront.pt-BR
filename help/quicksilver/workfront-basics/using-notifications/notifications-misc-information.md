@@ -64,7 +64,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>Uma de minhas pessoas foi adicionada a um projeto</strong> </p> <p>Um gerente recebe uma notificação por email quando um de seus usuários é adicionado a um projeto. Essa notificação é enviada independentemente do status do projeto. </p> <p>Os usuários com uma licença de [!UICONTROL Review] não recebem uma notificação.</p> <p>O assunto do email é: <em>Atribuição do Projeto: &lt;Nome do Usuário&gt;[&lt;GUID do Projeto&gt;_ &lt;GUID do Usuário&gt;]</em></p> </td> 
-   <td> <p>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Nome do usuário que adicionou a pessoa ao projeto<br>Nome do usuário que foi adicionado ao projeto<br>Data de Início Planejada do Projeto [!UICONTROL]<br>Data de Conclusão Planejada do Projeto [!UICONTROL]<br>Percentual de Conclusão do Projeto<br>Nomes de Outros no Projeto<br>Status do Projeto<br>Proprietário do Projeto<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br><br><br></p> </td> 
+   <td> <p>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Nome do usuário que adicionou a pessoa ao projeto<br>Nome do usuário que foi adicionado ao projeto<br>Data de Início Planejada do Projeto <br>Data de Conclusão Planejada do Projeto <br>Percentual de Conclusão do Projeto<br>Nomes de Outros no Projeto<br>Status do Projeto<br>Proprietário do Projeto<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br><br><br></p> </td> 
    <td><strong>Instantâneo</strong> </td> 
   </tr> 
   <tr> 

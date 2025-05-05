@@ -28,7 +28,7 @@ Um campo personalizado com formatação rich text é chamado de **Campo com rich
 **Exemplo:** uma solicitação básica do GET para recuperar o valor do campo de formulário personalizado **Campo com rich text**:
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 **Exemplo:** esta solicitação retornará o valor de **Campo com rich text** em JSON armazenado no **parameterValue** **DE:Campo com rich text**
 
@@ -63,7 +63,7 @@ Como cada elemento de bloco também é um objeto JSON, cada bloco é composto pe
 
 ![Mapeamento de rich text](assets/copy-of-rich-text-mapping-2-350x136.png)
 
-Caso vários tipos de formatação tenham sido aplicados a uma única linha, os estilos serão mapeados para elementos adicionais na matriz ** inlineStyleRanges**.
+Caso vários tipos de formatação tenham sido aplicados a uma única linha, os estilos serão mapeados para elementos adicionais na matriz **&#x200B; inlineStyleRanges**.
 
 **Exemplo:** Esta é a aparência de um bloco ao armazenar uma linha de texto que contém a formatação mista: **Negrito e Itálico**
 
@@ -118,4 +118,4 @@ Para salvar os seguintes valores de um campo rich text usando a API do Workfront
 1. Use o método **stringify** no JSON descrito acima para fazer uma solicitação **PUT** e enviar atualizações
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

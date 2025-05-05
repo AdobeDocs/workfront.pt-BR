@@ -107,6 +107,7 @@ O Adobe fornece uma CLI de código aberto que pode ser usada para ajudar a criar
 
 1. Seleção e configuração de modelo
    1. Procure todos os modelos disponíveis e escolha o modelo **@adobe/aem-cf-editor-ui-ext-tpl** para seu projeto.
+
       ![Modelo de pesquisa](assets/search-template.png)
       ![Selecionar modelo](assets/select-template.png)
 
@@ -115,6 +116,7 @@ O Adobe fornece uma CLI de código aberto que pode ser usada para ajudar a criar
    1. Forneça um resumo descritivo da funcionalidade da sua extensão.
    1. Selecione um número de versão inicial para começar.
    1. Confirme a conclusão selecionando **Concluído**.
+
       ![Definir extensão](assets/define-extension.png)
 
 1. Navegue até a pasta do projeto

@@ -86,7 +86,7 @@ Ao definir as informações padrão a serem associadas com tarefas adicionadas a
 * Quando você copia tarefas de um projeto para outro e o projeto de destino tem configurações padrão diferentes para tarefas, as tarefas copiadas preservam as configurações padrão do projeto original, a menos que sejam limpas no processo de cópia.
 * Quando você duplica uma tarefa no mesmo projeto, os formulários personalizados e o processo de aprovação são transferidos para a tarefa duplicada.
 
-  Para obter informações sobre como copiar e duplicar tarefas, consulte [ [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Para obter informações sobre como copiar e duplicar tarefas, consulte [&#128279;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 * Quando você move a tarefa para outro projeto, as configurações padrão da tarefa são salvas nas tarefas do projeto original, independentemente das configurações padrão da tarefa no novo projeto.
 

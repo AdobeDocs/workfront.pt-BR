@@ -85,7 +85,7 @@ Escolha como deseja instalar o modelo.
 
 Você também pode designar a propriedade do modelo antes de instalar o blueprint. Você pode fazer alterações nesses campos após a instalação do template. Para obter mais informações, consulte [Editar modelos de projeto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-![[!UICONTROL Seção ](assets/Blueprints_TemplatePreferences.png) das ] Preferências de modelo
+![[[!UICONTROL Seção &#x200B;]](assets/Blueprints_TemplatePreferences.png) das ] Preferências de modelo
 
 1. Na seção [!UICONTROL Preferências de Modelo], especifique um novo nome de modelo.
 1. Especifique o seguinte:
@@ -157,7 +157,7 @@ Alguns modelos incluem funções de trabalho prescritas. As funções de trabalh
 
 O blueprint pesquisa pelo nome da função para ver se alguma função existente corresponde. A pesquisa diferencia maiúsculas de minúsculas, portanto, os nomes devem ser uma correspondência exata. Se nenhuma função existente for correspondente, você pode fazer com que o blueprint as crie para você.
 
-![[!UICONTROL seção ](assets/Blueprints_RoleMapping.png) de Mapeamento de Funções]
+![[[!UICONTROL seção &#x200B;]](assets/Blueprints_RoleMapping.png) de Mapeamento de Funções]
 
 1. Se existir uma função, você pode escolher uma das seguintes opções:
 

@@ -92,7 +92,7 @@ O compartilhamento de um ou vários relatórios de uma lista é idêntico.
 
    Ou
 
-   Clique no nome de um relatório e em **Ações de Relatório >****Compartilhamento**.
+   Clique no nome de um relatório e em **Ações de Relatório >**&#x200B;**Compartilhamento**.
 
    ![](assets/unshimmed-report-actions-sharing.png)
 

@@ -197,4 +197,4 @@ Se você tiver os direitos de edição necessários, poderá mover provas, arqui
 1. Siga um destes procedimentos:
 
    * Para mover um item, clique nele e segure-o, arrastando-o e soltando-o na pasta onde deseja colocá-lo.
-   * Para mover vários itens ao mesmo tempo, marque as caixas de seleção à esquerda dos itens e clique em **[!UICONTROL Mover para]**acima da lista, selecione a pasta onde deseja colocá-los ou crie uma nova pasta para eles.
+   * Para mover vários itens ao mesmo tempo, marque as caixas de seleção à esquerda dos itens e clique em **[!UICONTROL Mover para]**&#x200B;acima da lista, selecione a pasta onde deseja colocá-los ou crie uma nova pasta para eles.

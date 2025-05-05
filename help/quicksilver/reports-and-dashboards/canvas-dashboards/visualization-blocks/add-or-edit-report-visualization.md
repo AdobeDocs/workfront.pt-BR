@@ -41,15 +41,15 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
 1. No lado direito da tela, em **Adicionar um Bloco**:
 
-   Arraste o ícone **Visualização** **** para a tela diretamente para o local desejado.
+   Arraste o ícone **Visualização** **&#x200B;**&#x200B;para a tela diretamente para o local desejado.
 
    Ou
 
-   Clique duas vezes no ícone **Visualização** **** para adicionar uma visualização à parte superior da tela.
+   Clique duas vezes no ícone **Visualização** **&#x200B;**&#x200B;para adicionar uma visualização à parte superior da tela.
 
    Ou
 
-   Selecione o ícone **Visualizar** **** na parte superior de uma tabela existente na tela.
+   Selecione o ícone **Visualizar** **&#x200B;**&#x200B;na parte superior de uma tabela existente na tela.
 
    >[!TIP]
    >
@@ -61,7 +61,7 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
    >[!NOTE]
    >
-   >Se você selecionar **+ Adicionar nova tabela**, um novo bloco de tabela será criado abaixo do bloco de visualização. É necessário preencher a tabela com dados antes de adicionar uma visualização para ela. Para obter mais informações sobre criação e edição de tabelas, consulte [ [Adicionar ou editar um bloco de tabela na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+   >Se você selecionar **+ Adicionar nova tabela**, um novo bloco de tabela será criado abaixo do bloco de visualização. É necessário preencher a tabela com dados antes de adicionar uma visualização para ela. Para obter mais informações sobre criação e edição de tabelas, consulte [&#128279;](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) [Adicionar ou editar um bloco de tabela na Tela de Relatório](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
 
 1. Selecione o tipo de visualização que deseja adicionar.
 

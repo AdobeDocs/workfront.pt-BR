@@ -55,4 +55,4 @@ Por padrão, os revisores podem baixar o arquivo original a partir do qual a pro
 
 As configurações salvas nas configurações pessoais são aplicadas a todas as provas criadas por você, mas podem ser substituídas ao criar uma nova prova ou ao modificar uma prova, conforme descrito em [Gerenciar detalhes da prova em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-Você pode desabilitar downloads de arquivo modificando suas configurações de prova pessoais, conforme descrito em [Definir Configurações de Prova no[!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+Você pode desabilitar downloads de arquivo modificando suas configurações de prova pessoais, conforme descrito em [Definir Configurações de Prova no[!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).

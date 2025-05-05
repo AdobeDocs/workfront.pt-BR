@@ -46,7 +46,7 @@ Você deve ter o seguinte acesso para executar as etapas neste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td>[! Administrador de sistema UICONTROL]</td>
+   <td>[!UICONTROL Administrador de sistema]</td>
   </tr>
  </tbody> 
 </table>
@@ -79,11 +79,11 @@ Os tipos [!DNL Workfront] de despesas padrão que não podem ser excluídas ou e
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[! Nome UICONTROL]</td> 
+      <td role="rowheader">[!UICONTROL Nome]</td> 
       <td>Especifique um nome para a despesa.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[! Descrição UICONTROL]</td> 
+      <td role="rowheader">[!UICONTROL Descrição]</td> 
       <td>Especifique uma descrição para a despesa.</td> 
      </tr> 
      <tr> 

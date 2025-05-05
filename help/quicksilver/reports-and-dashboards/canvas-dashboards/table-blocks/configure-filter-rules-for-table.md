@@ -154,4 +154,4 @@ Antes de começar, você deve se inscrever na versão beta da Tela de relatório
 
    1. Arraste o campo que deseja adicionar à área **Adicionar um conjunto de regras** abaixo dos outros conjuntos de regras de filtro.
    1. Repita as etapas 4 a 7.
-   1. Na lista suspensa de operadores à esquerda do novo conjunto de regras, selecione **E** ou **OU**. Esses operadores funcionam da mesma forma que os listados na Etapa 7, mas se aplicam a conjuntos de regras inteiros, não a regras individuais em um conjunto.****
+   1. Na lista suspensa de operadores à esquerda do novo conjunto de regras, selecione **E** ou **OU**. Esses operadores funcionam da mesma forma que os listados na Etapa 7, mas se aplicam a conjuntos de regras inteiros, não a regras individuais em um conjunto.**&#x200B;**

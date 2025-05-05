@@ -56,7 +56,7 @@ O email de nova prova contém:
 
 ## O registro de atividades
 
-O envio de um email de [!UICONTROL Nova Prova] para um revisor está registrado na seção [!UICONTROL Atividade] da página [!UICONTROL Detalhes da prova]. Consulte [Gerenciar[!UICONTROL  detalhes da prova] em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) para obter mais informações. Você pode verificar se o email [!UICONTROL Nova prova] foi habilitado no momento da criação de uma prova.
+O envio de um email de [!UICONTROL Nova Prova] para um revisor está registrado na seção [!UICONTROL Atividade] da página [!UICONTROL Detalhes da prova]. Consulte [Gerenciar[!UICONTROL &#x200B; detalhes da prova] em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) para obter mais informações. Você pode verificar se o email [!UICONTROL Nova prova] foi habilitado no momento da criação de uma prova.
 
 ![Novo_email_versão_-_log_atividade.png](assets/new-verison-email---acitivity-log-350x44.png)
 

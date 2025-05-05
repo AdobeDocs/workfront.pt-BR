@@ -188,7 +188,7 @@ Depois de criar seus cenários, você pode compará-los para encontrar o melhor 
 
    Clique no campo de descrição para atualizá-lo e, em seguida, clique em qualquer lugar na tela para salvar suas alterações.
 
-1. (Opcional) Clique no ícone ![Mais ]**do menu**[!UICONTROL  Mais](assets/more-icon.png) para **[!UICONTROL Copiar]** ou **[!UICONTROL Excluir]** o cenário.
+1. (Opcional) Clique no ícone [Mais ]&#x200B;**do menu**![[!UICONTROL &#x200B; Mais]](assets/more-icon.png) para **[!UICONTROL Copiar]** ou **[!UICONTROL Excluir]** o cenário.
 
    ![Copiar ou excluir cenário](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 

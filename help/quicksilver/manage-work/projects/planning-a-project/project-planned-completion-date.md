@@ -140,7 +140,7 @@ Para programar um projeto a partir da Data Inicial:
 
 1. Selecione **Detalhes do projeto** no painel esquerdo.
 
-1. Clique no **ícone Editar Projeto** Editar ícone](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) no canto superior direito e selecione **Visão geral** no menu ![suspenso que aparece.
+1. Clique no **ícone Editar Projeto** Editar ícone![&#128279;](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) no canto superior direito e selecione **Visão geral** no menu suspenso que aparece.
 
 1. Na seção Datas **do** projeto, clique no **campo Modo** de agendamento e selecione **Início data**.
 
@@ -149,7 +149,7 @@ Para programar um projeto a partir da Data Inicial:
 
    À medida que start adicionar tarefas ao seu projeto, a **data** de conclusão planejada do projeto é calculada com base na duração total de todas as tarefas.
 
-   Para obter mais informações sobre a Duração da tarefa, consulte a Visão geral da duração e do tipo](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) de duração da tarefa[.
+   Para obter mais informações sobre a Duração da tarefa, consulte a Visão geral da duração e do tipo[&#128279;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) de duração da tarefa.
 
    A data de conclusão planejada do projeto coincide, neste caso, com a data de conclusão planejada das últimas tarefa no projeto.
 

@@ -154,7 +154,7 @@ Há outros emails que você pode receber de [!DNL Workfront] que não podem ser 
 
 Os emails a seguir são enviados automaticamente por [!DNL Workfront] quando estas condições são atendidas:
 
-* Restaurar um item: Quando o administrador do [!DNL Workfront] restaura um objeto da Lixeira [!UICONTROL 2}, um email é enviado ao administrador do [!DNL Workfront].]
+* Restaurar um item: Quando o administrador do [!DNL Workfront] restaura um objeto da Lixeira [!UICONTROL 2&rbrace;, um email é enviado ao administrador do [!DNL Workfront].]
 * Falha ao restaurar: Quando o administrador do [!DNL Workfront] tenta restaurar um objeto da Lixeira e a restauração falha, um email é enviado ao administrador do [!DNL Workfront].
 
 Os emails a seguir podem ser configurados somente no nível do perfil do usuário. Eles não podem ser ativados ou desativados no nível do sistema:

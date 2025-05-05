@@ -82,7 +82,7 @@ GET /attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
 retorna uma resposta JSON semelhante ao seguinte:
 
 
-<pre>{<br>    "dados": [<br>        {<br>            "percentComplete": 0,<br>            "status": "CUR",<br>            "priority": 2,<br>            "name": "Novo projeto",<br>            "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br></pre>
+<pre>&lbrace;<br>    "dados": [<br>        {<br>            "percentComplete": 0,<br>            "status": "CUR",<br>            "priority": 2,<br>            "name": "Novo projeto",<br>            "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
@@ -226,7 +226,7 @@ GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
 
 retorna uma resposta semelhante à seguinte:
 
-<pre>{<br>    "percentComplete": 0,<br>    "status": "CUR",<br>    "priority": 2,<br>    "name": "Novo projeto",<br>    "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br></pre>
+<pre>&lbrace;<br>    "percentComplete": 0,<br>    "status": "CUR",<br>    "priority": 2,<br>    "name": "Novo projeto",<br>    "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br></pre>
 
 
 Você pode recuperar vários objetos na mesma solicitação especificando o parâmetro de solicitação de id e fornecendo uma lista de IDs separadas por vírgulas, como mostrado no exemplo a seguir:
@@ -318,7 +318,7 @@ Por padrão, a recuperação de um objeto retorna somente o subconjunto de campo
 
 Você pode usar o parâmetro de solicitação de campos para especificar que uma lista separada por vírgulas de campos específicos seja retornada. Por exemplo, a solicitação
 <pre>/attask/api/v15.0/task/search?fields=plannedStartDate,priority</pre>retorna uma resposta semelhante à seguinte:
-<pre>{<br>    "priority": 2,<br>    "name": "primeira tarefa",<br>    "ID": "4c7c08fa0000002ff924e298ee148df4",<br>    "plannedStartDate": "30/08/2010:00:00:000-0600" <br></pre>
+<pre>&lbrace;<br>    "priority": 2,<br>    "name": "primeira tarefa",<br>    "ID": "4c7c08fa0000002ff924e298ee148df4",<br>    "plannedStartDate": "30/08/2010:00:00:000-0600" <br></pre>
 
 >[!NOTE]
 >
@@ -331,7 +331,7 @@ Para obter uma lista de referências de campo possíveis, consulte  [API Explor
 Você pode pesquisar objetos aninhados. Por padrão, objetos aninhados são retornados somente com o nome e a ID. Por exemplo, para obter todos os problemas junto com seus proprietários, use a seguinte solicitação:
 <pre>/attask/api/v15.0/issue/search?fields=proprietário</pre>Se forem necessárias mais informações, é possível solicitar um campo aninhado usando a sintaxe de dois pontos. Por exemplo, a solicitação a seguir pesquisa todos os problemas, juntamente com o nome, a ID, o título e o número de telefone do proprietário
 <pre>/attask/api/v15.0/issue/search?fields=proprietário:título,proprietário:phoneNumber</pre>e retorna o seguinte: 
-<pre>{<br>    "name": "um problema importante",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "proprietário": {<br>        "title": "Especialista em Operações",<br>        "phoneNumber": "555-1234",<br>        "name": "Usuário administrador",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br></pre>
+<pre>&lbrace;<br>    "name": "um problema importante",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "proprietário": {<br>        "title": "Especialista em Operações",<br>        "phoneNumber": "555-1234",<br>        "name": "Usuário administrador",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br></pre>
 
 #### Recuperando coleções aninhadas
 
@@ -350,7 +350,7 @@ Você pode recuperar campos de dados personalizados usando o prefixo &quot;DE:&q
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>que retornaria
 <pre>{<br>    "name": "projeto de dados personalizado",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Você também pode recuperar todos os dados personalizados de um objeto solicitando o campo parameterValues. Por exemplo, 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>retorna dados semelhantes ao seguinte:
-<pre>{<br>    "name": "projeto de dados personalizado",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "tarefa b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br></pre>
+<pre>&lbrace;<br>    "name": "projeto de dados personalizado",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "tarefa b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br></pre>
 
 #### Uso de Consultas Nomeadas
 
@@ -367,8 +367,8 @@ Você pode usar `count` para retornar o número de resultados que correspondem �
 
 Você pode executar uma solicitação de relatório, onde somente a agregação de algum campo é desejada com um ou mais agrupamentos. Como mostrado no exemplo a seguir, a sintaxe do relatório é igual à sintaxe da API do SOAP:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>que retorna o seguinte resultado
-<pre>{<br>    "Primeiro projeto": { <br>        "sum_hours": 15 <br>    }, <br>     "Segundo projeto": { <br>        "sum_hours": 30 <br>    } <br></pre>A adição do parâmetro $$ROLLUP=true inclui um total em cada nível de agrupamento:
-<pre>{<br>    "Primeiro projeto": { <br>        "sum_hours": 15 <br>    }, <br>    "Segundo projeto": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
+<pre>&lbrace;<br>    "Primeiro projeto": { <br>        "sum_hours": 15 <br>    }, <br>     "Segundo projeto": { <br>        "sum_hours": 30 <br>    } <br></pre>A adição do parâmetro $$ROLLUP=true inclui um total em cada nível de agrupamento:
+<pre>&lbrace;<br>    "Primeiro projeto": { <br>        "sum_hours": 15 <br>    }, <br>    "Segundo projeto": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
 
 ### Classificação dos resultados da consulta na API
 
@@ -492,12 +492,12 @@ As atualizações de objetos são sempre feitas por ID usando o URI exclusivo do
 ### Especificação de edições de JSON
 
 Como mostrado no exemplo a seguir, você pode usar o parâmetro de solicitação de atualizações para especificar os campos a serem atualizados usando a sintaxe JSON:
-<pre>PUT /attask/api/v15.0/project/4c7...?atualizações= <br>{<br>     nome: "Novo Nome de Projeto", <br>     status: "CUR", <br>     ... <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?atualizações= <br>&lbrace;<br>     nome: "Novo Nome de Projeto", <br>     status: "CUR", <br>     ... <br></pre>
 
 ### Fazer atualizações aninhadas
 
 Alguns objetos têm coleções de propriedade privada que podem ser atualizadas. Por exemplo, o exemplo a seguir demonstra como substituir as atribuições existentes para uma determinada tarefa:
-<pre>PUT /attask/api/v15.0/task/4c7...?atualizações= <br>{<br>    atribuições: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?atualizações= <br>&lbrace;<br>    atribuições: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
@@ -536,9 +536,9 @@ DELETE remove um objeto. Em todos os casos, o URI pode incluir o parâmetro forc
 
 Uma instrução de atualização em massa atualiza vários objetos ao mesmo tempo em uma única chamada de API. Uma chamada de API de criação em massa é criada de forma semelhante a uma chamada de atualização normal, como mostrado nos exemplos a seguir:
 <pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que resulta em um retorno semelhante ao seguinte:
-<pre>dados: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    nome: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>    plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>    prioridade: 0,<br>    projectsCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    nome: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>    plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>    prioridade: 0,<br>    projectsCompletionDate: "28/08/2014 T16:12:00:000-0400",<br>    status: "CUR"<br>]</pre>Você também pode fazer uma atualização em massa semelhante ao seguinte:
+<pre>dados: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    nome: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>    plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>    prioridade: 0,<br>    projectsCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>&lbrace;<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    nome: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>    plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>    prioridade: 0,<br>    projectsCompletionDate: "28/08/2014 T16:12:00:000-0400",<br>    status: "CUR"<br>]</pre>Você também pode fazer uma atualização em massa semelhante ao seguinte:
 <pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}] apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que resulta em um retorno semelhante ao seguinte:
-<pre>dados: [<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>     plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>     prioridade: 0,<br>     projectsCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    name: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>    plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>    prioridade: 0,<br>    projectsCompletionDate: "28/08/2014 T16:16:00:000-0400",<br>    status: "CUR"<br>]</pre>Se quiser que todas as operações aconteçam na mesma transação, adicione "atomic=true" à chamada da API em lote como um parâmetro de solicitação. Dessa forma, se qualquer uma das operações falhar, todas as operações serão revertidas.
+<pre>dados: [<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>     plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>     prioridade: 0,<br>     projectsCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>&rbrace;,<br>&lbrace;<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    name: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>    plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>    prioridade: 0,<br>    projectsCompletionDate: "28/08/2014 T16:16:00:000-0400",<br>    status: "CUR"<br>]</pre>Se quiser que todas as operações aconteçam na mesma transação, adicione "atomic=true" à chamada da API em lote como um parâmetro de solicitação. Dessa forma, se qualquer uma das operações falhar, todas as operações serão revertidas.
 
 >[!NOTE]
 >

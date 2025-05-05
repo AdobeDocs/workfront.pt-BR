@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: "Mensagem de erro: Parâmetro inválido: Valor de conversão"
-description: "Você recebe a seguinte mensagem de erro ao tentar alterar o formato de um campo personalizado em um formulário personalizado existente: 'Parâmetro inválido: valor de conversão `&lt;...&gt;`'"
+description: "Você recebe a seguinte mensagem de erro ao tentar alterar o formato de um campo personalizado em um formulário personalizado existente: 'Parâmetro inválido: valor de conversão &grave;&lt;...&gt;&grave;'"
 author: Lisa
 feature: System Setup and Administration
 role: Admin

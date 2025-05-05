@@ -78,9 +78,7 @@ Para obter informações sobre como criar um processo de aprovação em nível d
      >     Por exemplo, se você tiver uma aprovação de tarefa associada ao status Em andamento, a tarefa alterará automaticamente seu status para Em andamento quando a aprovação for concedida. Ele não pode alterar automaticamente seu status para Completed ou qualquer outro status que não esteja associado à aprovação.
      >   
      >   
-     >
-
-   * As entidades associadas a um processo de aprovação podem ser usuários, funções de trabalho ou equipes. Os usuários são os principais responsáveis por aceitar ou rejeitar a aprovação. Você pode atribuir aprovações a usuários que desempenham uma determinada função no projeto. Por exemplo, você pode atribuir uma aprovação a um Proprietário do projeto ou Patrocinador. Para obter mais informações, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+     >* As entidades associadas a um processo de aprovação podem ser usuários, funções de trabalho ou equipes. Os usuários são os principais responsáveis por aceitar ou rejeitar a aprovação. Você pode atribuir aprovações a usuários que desempenham uma determinada função no projeto. Por exemplo, você pode atribuir uma aprovação a um Proprietário do projeto ou Patrocinador. Para obter mais informações, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
      Existem os seguintes cenários:
 

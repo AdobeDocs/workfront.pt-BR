@@ -74,7 +74,7 @@ Quando alguém compartilha uma pasta com você, ela aparece na barra lateral da 
 
 1. Clique no link do email de notificação recebido.
 1. Faça logon no [!DNL Workfront Proof].\
-     [!DNL  Workfront Proof] exibe a página Detalhes da pasta. Para obter mais informações, consulte [Gerenciar pastas e seus conteúdos em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+     [!DNL &#x200B; Workfront Proof] exibe a página Detalhes da pasta. Para obter mais informações, consulte [Gerenciar pastas e seus conteúdos em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
 ## Sobre o compartilhamento de subpastas
 

@@ -33,7 +33,7 @@ São necessárias 2 etapas simples:
 
 **Etapa 1**: se você ainda não tiver uma ID de Sessão, obtenha-a usando os métodos doLogin() ou getSessionID(). Use o primeiro para &quot;fazer logon&quot; usando o endereço de email e a senha de um usuário ou o último método se você tiver o endereço de email e o token de autenticação do usuário.
 
-**Etapa 2:**agora é hora de criar sua prova. Use o método createProof() e envie pelo menos os campos obrigatórios (atualmente, há apenas 5 deles). Defina o parâmetro Hash como &quot;web&quot; e o parâmetro SourceName como o URL da página da Web que você deseja capturar.
+**Etapa 2:**&#x200B;agora é hora de criar sua prova. Use o método createProof() e envie pelo menos os campos obrigatórios (atualmente, há apenas 5 deles). Defina o parâmetro Hash como &quot;web&quot; e o parâmetro SourceName como o URL da página da Web que você deseja capturar.
 
 Se agora você fizer logon na sua conta, verá a prova.
 

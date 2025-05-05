@@ -131,7 +131,7 @@ Prioridades exibe os itens de trabalho atribuídos a você. Não é possível ve
     </tbody>
     </table>
 
-+++
+   +++
 
 1. Clique na barra de itens de trabalho no calendário para abrir o resumo lateral. O resumo lateral permite
 

@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
-&#42;&#42;Para obter informações sobre[!DNL  Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
+&#42;&#42;Para obter informações sobre[!DNL &#x200B; Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
 
 ## Evento de acionamento
 
@@ -175,7 +175,7 @@ Conclua as etapas a seguir para implantar este cenário de integração na sua c
    |---|---|
    | [!UICONTROL [!DNL Anaplan] Workspace ID] | A ID de um espaço de trabalho da sua conta [!DNL Anaplan]. |
    | [!UICONTROL [!DNL Anaplan] ID do Modelo] | A ID de um modelo da sua conta [!DNL Anaplan] e do espaço de trabalho selecionado. |
-   | [!UICONTROL [!DNL Anaplan] Nome do módulo ] | O nome do módulo que descreve os atributos de campanha na Lista [!DNL Anaplan] selecionada. |
+   | [!UICONTROL [!DNL Anaplan] Nome do módulo &#x200B;] | O nome do módulo que descreve os atributos de campanha na Lista [!DNL Anaplan] selecionada. |
    | [!UICONTROL Nome da Lista de Campanhas] | O nome da lista da sua conta [!DNL Anaplan] e o espaço de trabalho e modelo selecionados. |
 
    {style="table-layout:auto"}

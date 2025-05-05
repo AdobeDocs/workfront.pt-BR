@@ -90,6 +90,7 @@ A caixa de diálogo **Personalizar exibição** é exibida.
    * Ajuste a ordem em que as colunas aparecem arrastando o título da coluna para um novo local.
 
    * Na área **Configurações de Coluna**, clique em **Resumir esta coluna por** e escolha como deseja que os dados sejam exibidos na coluna. Essa opção está disponível para os seguintes tipos de coluna:
+
      <table style="table-layout:auto"> 
          <col> 
          <col> 

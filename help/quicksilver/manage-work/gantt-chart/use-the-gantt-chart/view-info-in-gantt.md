@@ -49,7 +49,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] 
 
 ## Localize o [!UICONTROL Gráfico de Gantt]
 
-Você pode localizar o Diagrama de Gantt da lista de tarefas e o Diagrama de Gantt da lista de projetos [!UICONTROL de várias áreas dentro do Workfront. ] Para obter mais informações, consulte [Introdução ao [!UICONTROL Gráfico de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
+Você pode localizar o Diagrama de Gantt da lista de tarefas e o Diagrama de Gantt da lista de projetos [!UICONTROL de várias áreas dentro do Workfront. &#x200B;] Para obter mais informações, consulte [Introdução ao [!UICONTROL Gráfico de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
 
 ## Exibir tarefas no [!UICONTROL Caminho Crítico]
 

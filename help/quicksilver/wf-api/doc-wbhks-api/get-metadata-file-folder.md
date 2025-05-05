@@ -109,7 +109,7 @@ GET /metadata?id=[ID de documento ou pasta]
 </table>
 
 **Exemplo:** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>title:"Meu Documento",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251Z",<br>size: "32554699 "<br></pre>
+<pre>&lbrace;<br>title:"Meu Documento",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45.251Z",<br>size: "32554699 "<br></pre>
 
 >[!NOTE]
 >

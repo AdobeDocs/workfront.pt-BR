@@ -59,7 +59,7 @@ Para obter mais informações sobre o cancelamento de inscrição nos emails de 
 
 ## Configure como os marcos são exibidos no Gráfico de Gantt {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***CORREÇÃO **: este recurso não está atualmente no ambiente de Pré-visualização de Sandbox. Seu lançamento está planejado para uma data posterior, durante o mês de junho de 2017.*
+***CORREÇÃO &#x200B;**: este recurso não está atualmente no ambiente de Pré-visualização de Sandbox. Seu lançamento está planejado para uma data posterior, durante o mês de junho de 2017.*
 
 Agora há duas opções para exibir informações de etapas em um gráfico de Gantt. Você pode configurar um ou ambos os indicadores de marcos a seguir:
 

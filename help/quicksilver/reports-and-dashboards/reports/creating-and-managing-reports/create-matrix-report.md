@@ -134,9 +134,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      >   * Os campos de dados personalizados para valores de número e moeda agregam todas as tarefas: pais, filhos, pais dos pais e tarefas independentes. Se você criou o relatório de matriz para exibir Horas Planejadas ou Horas Efetivas na coluna **Valor**, saiba que as informações de horas ou custos de qualquer objeto pai (como tarefas pai) não são exibidas no relatório de matriz. Para exibir horas em objetos pai, você deve exibir a guia **Detalhes**.
      >   
      >   
-     >
+     >**Regras Condicionais:** configure regras de formatação para valores agregados.\
 
-   **Regras Condicionais:** configure regras de formatação para valores agregados.\
    Após adicionar uma regra, é possível definir estilos de campo e texto para a forma como os campos que correspondem a essa regra são exibidos. Clique em **Adicionar regra** depois de concluir a definição da regra e em **Concluído** para salvar a regra.
 
 1. Clique na guia **Filtros** para definir quais informações serão exibidas no relatório.

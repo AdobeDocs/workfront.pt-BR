@@ -141,7 +141,7 @@ Para saber mais sobre isso, continue trabalhando no exemplo de formulário perso
 
    *Associação*
 
-1. Abra a guia **Adicionar um campo**, crie um **Campo de Texto com Formatação **campo chamado *Qual é a meta do site?* e clique em **Aplicar**.
+1. Abra a guia **Adicionar um campo**, crie um **Campo de Texto com Formatação &#x200B;** campo chamado *Qual é a meta do site?* e clique em **Aplicar**.
 
    Nesta organização, um site de documentação de ajuda é criado pela equipe técnica de redação, não pelo departamento de Marketing. Portanto, não são necessárias mais informações de um usuário que seleciona a documentação de Ajuda no segundo campo. Criaremos uma linha de texto (um campo de texto descritivo) dizendo para eles verem a equipe de Redação técnica em vez disso. E usaremos uma regra de lógica de salto que ignora esse usuário para essa linha de texto.
 

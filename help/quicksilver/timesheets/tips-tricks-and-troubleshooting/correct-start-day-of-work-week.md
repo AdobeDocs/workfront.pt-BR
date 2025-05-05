@@ -33,7 +33,7 @@ A alteração do local não afeta o dia de início da semana na Grade de Recurso
 A seguir estão as instruções para alterar as configurações de idioma e local para vários navegadores compatíveis com o Workfront.
 
 * **Chrome:** Copie e cole o seguinte link no navegador do Chrome: `chrome://settings/languages` e vá para Idiomas.
-* **Firefox:**copie e cole o seguinte link no navegador Firefox: `about:preferences#content` e vá para Idiomas.
+* **Firefox:**&#x200B;copie e cole o seguinte link no navegador Firefox: `about:preferences#content` e vá para Idiomas.
 * **IE 11:** Ferramentas -> Opções da Internet -> Geral -> Idiomas
 * **Safari:** infelizmente, o Safari não permite a alteração de idiomas de navegação na Web sem também alterar todo o idioma do sistema operacional. Provavelmente, é mais fácil simplesmente instalar outro navegador, como o Chrome ou o Firefox.
 

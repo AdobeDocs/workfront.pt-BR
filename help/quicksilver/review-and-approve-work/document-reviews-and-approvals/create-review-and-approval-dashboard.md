@@ -60,6 +60,7 @@ Você pode exibir informações de alto nível sobre aprovações de documentos 
 1. Clique em **Editar Filtro** > **Adicionar condição**.
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Status**.
    1. Deixe o operador como **Igual** e digite _revisão pendente_ na caixa de texto.
+
       ![exemplo de filtro de kpi pendente](assets/pending-kpi-filter.png)
 1. Clique em **Concluído** no canto superior direito da tela.
 
@@ -76,10 +77,12 @@ Você pode exibir informações de alto nível sobre aprovações de documentos 
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Prazo**.
    1. Altere o operador para **Less Than**, alterne Data relativa para Em e digite _$$TODAY_ na caixa de texto.
+
       ![exemplo de filtro de kpi vencido](assets/overdue-kpi-filter.png)
 1. Clique em **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Status**.
    1. Altere o operador para **Não Contém** e digite _aprovado_ na caixa de texto.
+
       ![exemplo de filtro de kpi 2](assets/overdue-kpi-filter-2.png) vencido
 1. Clique em **Concluído** no canto superior direito da tela.
 
@@ -96,11 +99,13 @@ Você pode exibir informações de alto nível sobre aprovações de documentos 
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Status**.
    1. Altere o operador para **Contém** e digite _aprovado_ na caixa de texto.
+
       ![exemplo de filtro de kpi concluído](assets/completed-kpi-filter.png)
 1. Clique em **Adicionar condição**:
    1. Clique em **And** para alterá-lo para **Or**.
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Status**.
    1. Altere o operador para **Igual** e digite _revisado_ na caixa de texto.
+
       ![exemplo de filtro de kpi concluído](assets/completed-kpi-filter-2.png)
 1. Clique em **Concluído** no canto superior direito da tela.
 
@@ -116,10 +121,12 @@ Você pode exibir informações de alto nível sobre aprovações de documentos 
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Status**.
    1. Altere o operador para **Não Contém** e digite _aprovado_ na caixa de texto.
+
       ![exemplo de filtro de kpi abandonado](assets/abandoned-kpi-filter.png)
 1. Clique em **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Prazo**.
    1. Altere o operador para **Less Than**, em seguida, alterne Data relativa para Em e digite _$$TODAY-2w_ na caixa de texto.
+
       ![exemplo de filtro de kpi abandonado](assets/abandoned-kpi-filter-2.png)
 1. Clique em **Concluído** no canto superior direito da tela.
 
@@ -143,6 +150,7 @@ Você pode exibir informações de alto nível sobre aprovações de documentos 
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Versão do Documento**.
    1. Altere o operador para **Is Not Null**.
+
       ![exemplo de filtro](assets/approvals-by-decision-chart-filter.png)
 1. Clique em **Concluído** no canto superior direito da tela.
 
@@ -163,10 +171,12 @@ Você pode exibir informações de alto nível sobre aprovações de documentos 
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um campo** e escolha **Data de decisão dos participantes do estágio de aprovação**.
    1. Altere o operador para **Is Null**.
+
       ![exemplo de filtro de gráfico de revisões](assets/revision-chart-filter.png)
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um campo** e escolha **Prazo do estágio de aprovação**.
    1. Altere o operador para **Less Than or Equal**, em seguida, alterne Set relative date On e digite _$$TODAYem_ na caixa de texto.
+
       ![exemplo de filtro de gráfico de revisões](assets/revision-chart-filter-2.png)
 1. Clique em **Concluído** no canto superior direito da tela.
 
@@ -225,6 +235,7 @@ Você pode exibir informações de alto nível sobre aprovações de documentos 
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Status**.
    1. Altere o operador para **Igual** e digite _aprovação pendente_.
+
       ![exemplo de filtro de tabela de aprovação pendente](assets/pending-approval-table-filter.png)
 1. Adicione filtros opcionais conforme descrito abaixo ou clique em **Concluído** no canto superior direito da tela.
 
@@ -239,6 +250,7 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Versão do documento** > **Documento** > **Projeto** > **Proprietário** > digite _Nome_ na caixa de pesquisa.
    1. Altere o operador para **Igual** e escolha **Eu (Usuário conectado)** para exibir projetos na Workfront nos quais você está marcado como proprietário do projeto.
+
       ![exemplo de filtro de tabela de aprovação pendente](assets/pending-approvals-my-project-filter.png)
 1. Clique em **Concluído** no canto superior direito da tela.
 
@@ -247,6 +259,7 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Estágio de Aprovação** > **Participantes do Estágio de Aprovação** > **Solicitante** > digite _Nome_ na caixa de pesquisa.
    1. Altere o operador para **Igual** e escolha **Eu (Usuário conectado)** para exibir projetos na Workfront nos quais você está marcado como proprietário do projeto.
+
       ![exemplo de filtro de tabela de aprovação pendente](assets/pending-approvals-my-project-filter.png)
 1. Clique em **Concluído** no canto superior direito da tela.
 
@@ -303,6 +316,7 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Estágio de Aprovação** > **Prazo final**.
    1. Altere o operador para **Less than**, alterne **Set relative date** On e digite _$$TODAY_.
+
       ![exemplo de filtro de tabela de aprovação vencido](assets/overdue-approval.png)
 1. Adicione filtros opcionais conforme descrito abaixo ou clique em **Concluído** no canto superior direito da tela.
 
@@ -318,6 +332,7 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Versão do documento** > **Documento** > **Projeto** > **Proprietário** > digite _Nome_ na caixa de pesquisa.
    1. Altere o operador para **Igual** e escolha **Eu (Usuário conectado)** para exibir projetos na Workfront nos quais você está marcado como proprietário do projeto.
+
       ![exemplo de filtro de tabela de aprovação pendente](assets/pending-approvals-my-project-filter.png)
 1. Clique em **Concluído** no canto superior direito da tela.
 
@@ -326,6 +341,7 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Estágio de Aprovação** > **Participantes do Estágio de Aprovação** > **Solicitante** > digite _Nome_ na caixa de pesquisa.
    1. Altere o operador para **Igual** e escolha **Eu (Usuário conectado)** para exibir projetos na Workfront nos quais você está marcado como proprietário do projeto.
+
       ![exemplo de filtro de tabela de aprovação pendente](assets/pending-approvals-my-project-filter.png)
 1. Clique em **Concluído** no canto superior direito da tela.
 
@@ -334,6 +350,7 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
 1. Clique em **Editar Filtro** > **Adicionar condição**:
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Estágio de Aprovação** > **Participantes do Estágio de Aprovação** > **Equipe do Participante** > digite _Nome_ na caixa de pesquisa.
    1. Altere o operador para **Igual** e escolha **Minhas equipes padrão (Usuário conectado)** ou **Minhas outras equipes (Usuário conectado)** para exibir os projetos atribuídos à sua equipe padrão ou a outras equipes nas quais você está.
+
       ![exemplo de filtro de tabela de aprovação pendente](assets/approvals-ive-submitted-filter.png)
 1. Clique em **Concluído** no canto superior direito da tela.
 +++
