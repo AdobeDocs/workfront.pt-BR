@@ -30,8 +30,8 @@ Quando você exclui um documento ou pasta vinculada no Workfront, ela é desvinc
 
 Ao excluir um documento ou pasta vinculada do aplicativo externo, o documento ou a pasta permanece no sistema Workfront até que você também o exclua do Workfront.
 
-* Para excluir um ativo do Adobe Experience Manager as a Cloud Service, consulte [Excluir ativos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) na documentação do Adobe Experience Manager as a Cloud Service.
-* Para excluir um ativo do Adobe Experience Manager Assets Essentials, consulte [Excluir ativos ou pastas](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) na documentação do Adobe Experience Manager Assets Essentials.
+* Para excluir um ativo do Adobe Experience Manager as a Cloud Service, consulte [Excluir ativos](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) na documentação do Adobe Experience Manager as a Cloud Service.
+* Para excluir um ativo do Adobe Experience Manager Assets Essentials, consulte [Excluir ativos ou pastas](https://experienceleague.adobe.com/pt-br/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) na documentação do Adobe Experience Manager Assets Essentials.
 
 
 

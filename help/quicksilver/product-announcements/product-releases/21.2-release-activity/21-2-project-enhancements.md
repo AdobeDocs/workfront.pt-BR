@@ -29,7 +29,7 @@ Como parte do redesign das caixas Novo e Editar tarefa, adicionamos a capacidade
 
 Para obter mais informações, consulte [Criar tarefas recorrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 2: planejar um projeto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no caminho de aprendizado do Workfront One.
+Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 2: planejar um projeto](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no caminho de aprendizado do Workfront One.
 
 ## Novos botões disponíveis no cabeçalho Projetos
 
@@ -39,7 +39,7 @@ Este recurso agora está incluído nos [Fundamentos do planejador para a nova ex
 
 Para permitir que você filtre rapidamente a lista de projetos na página Projetos, há dois novos botões no cabeçalho que permitem aplicar rapidamente o filtro Projetos em que estou ou Projetos que possuo.
 
-Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 1: Criar um caminho de aprendizado do Projeto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 1: Criar um caminho de aprendizado do Projeto](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Mover ou excluir uma história ou problema do quadro Scrum
 
@@ -133,9 +133,9 @@ Os usuários agora podem ver a formatação do texto, como negrito, listas de ma
 
 Anteriormente no Workfront Classic, a formatação de texto era visível somente nas listas Projeto, Tarefa e Hora.
 
-Para obter informações sobre como formatar texto em um campo personalizado, consulte [Criar um formulário personalizado](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Para obter informações sobre como formatar texto em um campo personalizado, consulte [Criar um formulário personalizado](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home).
 
-Para obter informações sobre como exibir informações em listas, consulte [Introdução a listas](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Para obter informações sobre como exibir informações em listas, consulte [Introdução a listas](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home).
 
 ## Nova caixa Editar tarefa
 

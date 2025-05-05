@@ -298,7 +298,7 @@ A maioria dos novos recursos chegando ao Workfront Goals versão 20.4. Para obte
 
 ## Aprimoramentos do Workfront Fusion
 
-Os novos recursos do Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 20.4. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+Os novos recursos do Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 20.4. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 ## Aprimoramentos na API
 
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
+Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 12](https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Para obter mais informações sobre versões de API, consulte [Controle de versão de API e agendamento de suporte](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -348,7 +348,7 @@ O webinário da versão do Workfront 20.4 será apresentado na quarta-feira, 28 
 
 A partir de 20 de maio de 2020, o Workfront começou a disponibilizar a funcionalidade no ambiente de Pré-visualização semanalmente. Antes dessa alteração, a funcionalidade normalmente era lançada no ambiente de Pré-visualização a cada duas semanas.
 
-Para obter mais informações, consulte [Perguntas frequentes sobre a alteração na cadência da versão de visualização do Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home)
+Para obter mais informações, consulte [Perguntas frequentes sobre a alteração na cadência da versão de visualização do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home)
 
 ### ➡ Inclui na lista de permissões de domínios adicionais necessários para acessar o Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 

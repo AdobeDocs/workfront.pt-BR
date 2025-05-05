@@ -35,7 +35,7 @@ Depois que os gerentes de projeto planejam o trabalho nos projetos criando taref
 
 Este artigo descreve o objetivo geral do Balanceador de carga de trabalho e algumas práticas recomendadas para como você pode configurar seus projetos e recursos para usá-lo com êxito.
 
-Para examinar os tutoriais em vídeo do Balanceador de carga de trabalho, acesse a página [Tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home). No menu esquerdo, selecione **Gerenciar recursos** > **Balanceador de carga de trabalho** e escolha um tutorial.
+Para examinar os tutoriais em vídeo do Balanceador de carga de trabalho, acesse a página [Tutoriais do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home). No menu esquerdo, selecione **Gerenciar recursos** > **Balanceador de carga de trabalho** e escolha um tutorial.
 
 ## Localize o Balanceador de carga de trabalho
 

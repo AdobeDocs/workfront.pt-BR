@@ -30,9 +30,9 @@ Para clientes no Adobe Experience Manager Assets as a Cloud Service, o caminho d
 >
 >Um parceiro certificado ou os serviços da Adobe Consulting são necessários para a implementação do conector aprimorado.
 >
-> Para parceiros que desejam se certificar no conector aprimorado, consulte o seguinte artigo: [Série de especialistas em conectores aprimorados do Workfront for Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
+> Para parceiros que desejam se certificar no conector aprimorado, consulte o seguinte artigo: [Série de especialistas em conectores aprimorados do Workfront for Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Para implementar o conector aprimorado, consulte [Configurar conector aprimorado do Workfront para Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
+Para implementar o conector aprimorado, consulte [Configurar conector aprimorado do Workfront para Experience Manager](https://experienceleague.adobe.com/pt-br/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Mover ativos existentes

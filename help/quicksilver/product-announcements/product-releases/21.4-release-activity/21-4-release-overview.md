@@ -413,7 +413,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 
 ## Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 21.4. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 21.4. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Aprimoramentos no Planejador de cenários do Workfront
 
@@ -465,7 +465,7 @@ O webinário da versão 21.4 do Workfront foi apresentado em 23 de setembro de 2
 
 ## Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funcionalidade não mais compatível
 

@@ -42,4 +42,4 @@ Esta seção contém os seguintes artigos:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-Para obter treinamento detalhado sobre a Análise aprimorada, consulte [Caminhos de aprendizado da Análise aprimorada](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Para obter treinamento detalhado sobre a Análise aprimorada, consulte [Caminhos de aprendizado da Análise aprimorada](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home).

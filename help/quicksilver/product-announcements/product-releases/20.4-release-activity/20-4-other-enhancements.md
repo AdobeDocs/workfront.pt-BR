@@ -27,7 +27,7 @@ Na nova experiência do Workfront, a opção Alternar para o clássico aparece n
 
 No Workfront Classic, a opção Alternar para a nova experiência é exibida no menu exibido ao clicar na imagem do perfil no canto superior direito da Barra de navegação global.
 
-Este recurso agora está incluído no [Princípios básicos do administrador, Parte 1 do caminho de aprendizado](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído no [Princípios básicos do administrador, Parte 1 do caminho de aprendizado](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Criptografia aprimorada para Workfront Proof
 
@@ -62,7 +62,7 @@ Além disso, observe que nosso estilo moderno agora melhora a experiência de co
 
 Para obter informações sobre como configurar notificações por email, consulte [Configurar notificações de eventos para todos no sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Este recurso agora está incluído no [Caminho de Aprendizado de emails e notificações no aplicativo](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído no [Caminho de Aprendizado de emails e notificações no aplicativo](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Novos objetos de API que acionam atualizações de assinatura de evento
 

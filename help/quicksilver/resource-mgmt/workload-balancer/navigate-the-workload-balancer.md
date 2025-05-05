@@ -21,7 +21,7 @@ Use o Balanceador de carga de trabalho no Adobe Workfront para atribuir trabalho
 
 O Balanceador de carga de trabalho está disponível em várias áreas do Adobe Workfront. Navegar por ele é semelhante em todas as áreas.
 
-Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado, consulte [Localizar o Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado, consulte [Localizar o Balanceador de carga de trabalho](https://experienceleague.adobe.com/pt-br/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Requisitos de acesso
 
@@ -106,8 +106,8 @@ Para obter mais informações sobre como exibir informações no Balanceador de 
 
 Para obter informações sobre como gerenciar recursos usando o Balanceador de carga de trabalho, consulte também os seguintes artigos:
 
-* [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Gerenciar alocações de usuário no Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](https://experienceleague.adobe.com/pt-br/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Gerenciar alocações de usuário no Balanceador de carga de trabalho](https://experienceleague.adobe.com/pt-br/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## Navegar pelo Balanceador de carga de trabalho para vários projetos na área Recursos

@@ -29,10 +29,10 @@ Nesta primeira versão, o processo de aprovação foi simplificado tanto para a 
 * Tomar decisões de aprovação diretamente em Minhas atualizações e na Página inicial
 * Criar aprovações para versões específicas do documento
 
-Para obter mais informações sobre como usar as novas aprovações de documentos, consulte [Visão geral das Novas Aprovações de Documentos](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview).
+Para obter mais informações sobre como usar as novas aprovações de documentos, consulte [Visão geral das Novas Aprovações de Documentos](https://experienceleague.adobe.com/pt-br/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview).
 
 ## Novo botão Compartilhar
 
 A opção Compartilhar foi retirada do menu Mais para projetos, tarefas e problemas, tornando o compartilhamento mais intuitivo. O novo botão Compartilhar agora é exibido ao lado do nome de um objeto, antes do menu Mais. O compartilhamento de documentos, portfólios e programas permanece inalterado.
 
-Para obter mais informações sobre objetos de compartilhamento, consulte [Compartilhar um objeto](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).
+Para obter mais informações sobre objetos de compartilhamento, consulte [Compartilhar um objeto](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).

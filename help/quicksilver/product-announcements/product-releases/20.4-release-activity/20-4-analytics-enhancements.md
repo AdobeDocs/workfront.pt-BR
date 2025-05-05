@@ -29,4 +29,4 @@ Para permitir que você visualize as informações que deseja ver sem precisar a
 
 Anteriormente, a área Analítica aprimorada limitava a quantidade de projetos que podiam ser visualizados a 50.
 
-Este recurso agora está incluído no [Caminho de Aprendizado do Enhanced Analytics, Parte 1](https://experienceleague.adobe.com/en/docs/workfront/using/home) no Workfront One.
+Este recurso agora está incluído no [Caminho de Aprendizado do Enhanced Analytics, Parte 1](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home) no Workfront One.

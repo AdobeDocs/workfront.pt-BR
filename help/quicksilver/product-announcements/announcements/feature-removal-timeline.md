@@ -44,7 +44,7 @@ Vários recursos estão sendo removidos do produto Adobe Workfront. A seguir, um
    <td> <p>Não é mais compatível em 9 de novembro de 2020 (com a versão 20.4)</p> <p>—</p> <p>Removido da plataforma do Workfront após o primeiro semestre de 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront Fusion herdado</p> <p>O Workfront Fusion fornece uma experiência aprimorada do Workfront Fusion herdado.</p> <p>Para obter mais informações sobre o Workfront Fusion, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Workfront Fusion herdado</p> <p>O Workfront Fusion fornece uma experiência aprimorada do Workfront Fusion herdado.</p> <p>Para obter mais informações sobre o Workfront Fusion, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
    <td>Removido da plataforma do Workfront em 31 de março de 2021</td> 
   </tr> 

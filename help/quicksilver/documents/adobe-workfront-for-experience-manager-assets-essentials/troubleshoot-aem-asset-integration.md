@@ -27,5 +27,5 @@ Isso pode ocorrer devido à inclui na lista de permissões no Adobe Cloud Manage
 
 Adicione os endereços IP da Workfront ao arquivo de inclui na lista de permissões do Adobe Cloud Manager.
 
-* Para obter instruções sobre como adicionar endereços IP ao Adobe Cloud Manager, consulte [Introdução ao IP Lista de permissões](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction) na documentação do Adobe Experience Manager.
+* Para obter instruções sobre como adicionar endereços IP ao Adobe Cloud Manager, consulte [Introdução ao IP Lista de permissões](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction) na documentação do Adobe Experience Manager.
 * Para obter uma lista de endereços IP da Workfront a serem adicionados ao arquivo de inclui na lista de permissões, consulte [Configurar firewall](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

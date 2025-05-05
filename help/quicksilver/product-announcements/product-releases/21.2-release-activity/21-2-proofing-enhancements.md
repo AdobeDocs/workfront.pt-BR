@@ -33,7 +33,7 @@ Anteriormente, era necessário acessar os detalhes do documento e o fluxo de tra
 
 Para obter mais informações sobre decisões de prova, consulte [A área Documentos](../../../documents/managing-documents/documents-area.md).
 
-Este recurso agora está incluído no [Gerenciar provas e versões no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído no [Gerenciar provas e versões no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Novos campos no relatório Aprovação de prova
 
@@ -45,7 +45,7 @@ Para ajudar a exibir informações úteis sobre prova, adicionamos os seguintes 
 
 Esses campos não fazem parte do relatório padrão. Você precisa adicioná-las se quiser visualizá-las.
 
-Este recurso agora está incluído nas [configurações do sistema de prova, Parte 2: caminho de aprendizado Gerenciamento de fluxo de trabalho](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído nas [configurações do sistema de prova, Parte 2: caminho de aprendizado Gerenciamento de fluxo de trabalho](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Continuar o fluxo de trabalho de prova existente ao gerar uma nova versão
 

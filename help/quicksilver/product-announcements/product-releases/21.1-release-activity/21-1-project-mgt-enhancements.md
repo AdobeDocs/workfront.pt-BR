@@ -27,7 +27,7 @@ Para compartilhar mais facilmente o status e o progresso de um projeto, você po
 
 Para obter mais informações, consulte [Visão geral das métricas do projeto](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 3: Gerenciar um caminho de aprendizado do Projeto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do planejador para a nova experiência do Workfront, Parte 3: Gerenciar um caminho de aprendizado do Projeto](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Atualizar percentual concluído de problema quando o projeto ou tarefa convertido a partir da atualização de problema
 
@@ -41,9 +41,9 @@ Para permitir que você gerencie suas Solicitações enviadas de uma maneira mai
 
 Para obter informações sobre como localizar solicitações enviadas, consulte [Localizar solicitações enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Este recurso agora está incluído nos [Fundamentos do Collaborator para o novo caminho de aprendizado da Workfront Experience](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do Collaborator para o novo caminho de aprendizado da Workfront Experience](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request) no Workfront One.
 
-Este recurso agora está incluído nas [Solicitações no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) no Workfront One.
+Este recurso agora está incluído nas [Solicitações no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues) no Workfront One.
 
 ## Campos removidos da página Nova solicitação
 

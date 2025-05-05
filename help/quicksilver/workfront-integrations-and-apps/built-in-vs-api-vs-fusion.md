@@ -97,4 +97,4 @@ As vantagens do [!DNL Workfront Fusion] podem incluir:
 >
 >![Exemplo: Adicionando um comentário no Fusion](assets/fusion-example-comment-350x416.png)
 
-Para obter mais informações sobre [!DNL Workfront Fusion], consulte [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
+Para obter mais informações sobre [!DNL Workfront Fusion], consulte [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/home).

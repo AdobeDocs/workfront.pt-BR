@@ -47,7 +47,7 @@ Continuamos a melhorar a maneira como você usa as Metas do Workfront com base n
 >
 >**Disponibilidade de produção:** com a versão 20.4
 
-Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Controles de acesso para metas do Workfront
 
@@ -61,7 +61,7 @@ Para obter informações sobre como conceder acesso ao Workfront Goals, consulte
 >
 >**Disponibilidade de produção:** com a versão 20.4
 
-Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Melhorias na usabilidade dos objetivos do Workfront
 
@@ -82,4 +82,4 @@ Para obter informações, consulte os seguintes artigos:
 >
 >**Disponibilidade de produção:** com a versão 20.4
 
-Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído no [Caminho de Aprendizado de Metas do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.

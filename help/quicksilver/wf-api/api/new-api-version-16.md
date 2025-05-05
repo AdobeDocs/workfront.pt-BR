@@ -514,7 +514,7 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
+            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
          </li>
         </ul>
       </td>
@@ -538,7 +538,7 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
+            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
          </li>
         </ul>
       </td>
@@ -579,7 +579,7 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
+            <p>Essas ações oferecem suporte à capacidade de compartilhar filtros, visualizações e agrupamentos em todo o sistema.</p><p>Para obter mais informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Disponibilizar filtros, modos de exibição ou agrupamentos a todos os usuários</a>.</p>
          </li>
         </ul>
       </td>

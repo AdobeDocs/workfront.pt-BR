@@ -145,7 +145,7 @@ Desativamos temporariamente a exportação de dados do Planejador de recursos ao
 
 Para obter mais informações sobre como exportar os dados do Planejador de recursos para o Excel, consulte a seção &quot;Opção de Exportação&quot; na [Visão geral da navegação do Planejador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Para participar do nosso programa beta atual para o Planejador de recursos, consulte [Beta de desempenho do Planejador de recursos.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+Para participar do nosso programa beta atual para o Planejador de recursos, consulte [Beta de desempenho do Planejador de recursos.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=pt)
 
 ## Configuração do Sistema: Informações da Sessão em Páginas Externas {#system-setting-session-information-in-external-pages}
 

@@ -31,4 +31,4 @@ Certas notificações por email permitem que os usuários respondam por email e 
 
 Não haverá alterações nos emails provenientes diretamente do sistema do Workfront Proof. Você continuará a receber esses emails como recebeu no passado.
 
-Se tiver outras dúvidas ou dúvidas, entre em contato com a [Equipe de suporte da Workfront](https://experienceleague.adobe.com/?support-tab=home#support).
+Se tiver outras dúvidas ou dúvidas, entre em contato com a [Equipe de suporte da Workfront](https://experienceleague.adobe.com/pt-br?support-tab=home#support).

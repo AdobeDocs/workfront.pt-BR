@@ -47,7 +47,7 @@ Para obter mais informações, consulte [Habilitar usuários a enviar um problem
 
 Para obter mais informações sobre por que estamos fazendo essa alteração, consulte [Novo sistema gerenciado pela Adobe Workfront para substituir o email POP por Filas de solicitações 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Este recurso agora está incluído no [Gerenciamento da fila no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído no [Gerenciamento da fila no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Restringir a edição de horas em folhas de horas
 

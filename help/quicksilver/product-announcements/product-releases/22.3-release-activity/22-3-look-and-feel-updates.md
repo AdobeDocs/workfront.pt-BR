@@ -43,6 +43,6 @@ As barras de ferramentas nas listas e relatórios a seguir agora têm uma aparê
 
 >[!NOTE]
 >
->Essa alteração foi atualizada na Produção em 23 de maio de 2022. Consulte a [Atualização de manutenção em 26 de maio de 2022 para obter mais informações](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+>Essa alteração foi atualizada na Produção em 23 de maio de 2022. Consulte a [Atualização de manutenção em 26 de maio de 2022 para obter mais informações](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home).
 
 Atualizamos os separadores de navegação estrutural em todas as áreas em que há navegação estrutural disponível. Agora, os objetos na navegação estrutural são separados por barras verticais (|). Antes dessa atualização, eles eram separados por barras (/).

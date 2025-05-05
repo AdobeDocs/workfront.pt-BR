@@ -55,7 +55,7 @@ As barras de ferramentas nas listas e relatórios a seguir agora têm uma aparê
 
 >[!NOTE]
 >
->A barra de ferramentas desses mesmos relatórios nos painéis também foi atualizada na Produção com a [Atualização de manutenção](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) semanal em 3 de março de 2022.
+>A barra de ferramentas desses mesmos relatórios nos painéis também foi atualizada na Produção com a [Atualização de manutenção](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/releases/current-updates) semanal em 3 de março de 2022.
 
 * Relatórios de projeto
 * Relatórios de tarefa

@@ -34,7 +34,7 @@ A análise aprimorada pode ajudar a identificar:
 
 ![Análises](assets/nwe-full-screen-analytics-350x222.png)
 
-Para ver casos de uso ou saber mais sobre o gerenciamento do trabalho atual e o planejamento de trabalho futuro com a Análise aprimorada, consulte [Caminhos de aprendizado da Análise aprimorada](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
+Para ver casos de uso ou saber mais sobre o gerenciamento do trabalho atual e o planejamento de trabalho futuro com a Análise aprimorada, consulte [Caminhos de aprendizado da Análise aprimorada](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home).
 
 ## Pré-requisitos
 
@@ -46,7 +46,7 @@ Para acessar a área Analítica aprimorada, você deve:
 
 * Peça ao administrador do Workfront para adicionar Análises aprimoradas ao modelo de layout.
 
-  Para obter mais informações, consulte [Análises aprimoradas: adicionando análises a modelos de layout](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+  Para obter mais informações, consulte [Análises aprimoradas: adicionando análises a modelos de layout](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home).
 
 Para ver informações de projetos e tarefas, você deve:
 

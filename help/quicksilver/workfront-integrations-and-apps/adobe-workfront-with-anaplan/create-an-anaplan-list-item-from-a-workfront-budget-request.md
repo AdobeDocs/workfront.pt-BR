@@ -50,7 +50,7 @@ Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
 
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
 
-&#42;&#42;Para obter informações sobre[!DNL &#x200B; Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
+&#42;&#42;Para obter informações sobre[!DNL &#x200B; Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
 
 ## Evento de acionamento
 

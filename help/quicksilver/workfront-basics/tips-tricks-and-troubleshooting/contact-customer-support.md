@@ -52,7 +52,7 @@ Você pode enviar um tíquete de suporte do portal de autoatendimento [!DNL Expe
 >Somente contatos de suporte autorizados (ou usuários autorizados) podem enviar tíquetes de suporte online.
 
 
-1. No site [[!DNL Experience League]](https://experienceleague.adobe.com), clique em **[!UICONTROL Suporte]** na parte superior da página.
+1. No site [[!DNL Experience League]](https://experienceleague.adobe.com/pt-br), clique em **[!UICONTROL Suporte]** na parte superior da página.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -105,7 +105,7 @@ Em caso de dúvidas ou problemas ao enviar uma solicitação, entre em contato c
 1. (Opcional) Para fechar o caso, clique no botão **[!UICONTROL Fechar caso]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=pt)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

@@ -55,9 +55,9 @@ Os status personalizados agora podem ser usados em processos de aprovação de u
 * Crie um processo de aprovação de uso único para um objeto (projeto, tarefa ou problema) e baseie-o nos status associados ao grupo que está trabalhando nesse objeto. Isso inclui todos os status personalizados associados ao grupo.
 * Crie um processo de aprovação global e o disponibilize somente para o grupo ou para todos no sistema.
 
-Para usuários com acesso administrativo a processos de aprovação, as informações sobre como configurar processos de aprovação estão disponíveis em [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (ou se você estiver usando o Adobe Workfront Classic, consulte [Criação de Processos de Aprovação](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Para usuários com acesso administrativo a processos de aprovação, as informações sobre como configurar processos de aprovação estão disponíveis em [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (ou se você estiver usando o Adobe Workfront Classic, consulte [Criação de Processos de Aprovação](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home)).
 
-Para usuários, as informações sobre como associar processos de aprovação a itens de trabalho estão disponíveis em [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (ou se você estiver usando o Adobe Workfront Classic, consulte [Associando um Processo de Aprovação Novo ou Existente ao Trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/home)).
+Para usuários, as informações sobre como associar processos de aprovação a itens de trabalho estão disponíveis em [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (ou se você estiver usando o Adobe Workfront Classic, consulte [Associando um Processo de Aprovação Novo ou Existente ao Trabalho](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home)).
 
 **Disponível nestes ambientes:**
 

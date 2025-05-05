@@ -25,7 +25,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão 2020.1,
 
 Para tornar sua experiência mais consistente ao usar o Workfront no aplicativo móvel e na Web, qualquer personalização da navegação secundária do painel esquerdo nos modelos de layout novos ou existentes é refletida automaticamente no aplicativo móvel.
 
-Para saber mais sobre como personalizar o painel esquerdo, consulte [Personalizar o painel esquerdo usando um Modelo de layout na nova experiência do Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Para saber mais sobre como personalizar o painel esquerdo, consulte [Personalizar o painel esquerdo usando um Modelo de layout na nova experiência do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home).
 
 ## Curtir atualizações no aplicativo móvel
 

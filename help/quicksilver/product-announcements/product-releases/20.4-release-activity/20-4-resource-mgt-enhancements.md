@@ -32,7 +32,7 @@ As seguintes melhorias estão disponíveis com este novo recurso:
 
 Para obter informações sobre Esforço de trabalho, consulte [Visão geral do Esforço de trabalho](../../../manage-work/tasks/task-information/work-effort.md).
 
-Este recurso agora está incluído no [Fundamentos do planejador, Parte 2 do caminho de aprendizado](https://experienceleague.adobe.com/en/docs/workfront/using/home) no Workfront One.
+Este recurso agora está incluído no [Fundamentos do planejador, Parte 2 do caminho de aprendizado](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home) no Workfront One.
 
 ## Cores baseadas no status do projeto para itens de trabalho no Balanceador de carga de trabalho
 

@@ -435,7 +435,7 @@ Para obter informações sobre as atualizações de manutenção feitas durante 
 
 A partir de 20 de maio de 2020, o Workfront começou a disponibilizar a funcionalidade no ambiente de Pré-visualização semanalmente. Antes dessa alteração, a funcionalidade normalmente era lançada no ambiente de Pré-visualização a cada duas semanas.
 
-Para obter mais informações, consulte [Perguntas frequentes sobre a alteração na cadência da versão de visualização do Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home)
+Para obter mais informações, consulte [Perguntas frequentes sobre a alteração na cadência da versão de visualização do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home)
 
 ### ➡ Inclui na lista de permissões de domínios adicionais necessários para acessar o Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -454,7 +454,7 @@ Com o Workfront One, você descobrirá o conteúdo, os recursos e as notícias m
 
 ### Webinário da versão 20.3 {#20-3-release-webinar}
 
-Assista ao Webinário da Versão 20.3 do Produto [aqui](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Assista ao Webinário da Versão 20.3 do Produto [aqui](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

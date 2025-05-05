@@ -138,5 +138,5 @@ Para obter informações sobre o uso de campos em listas e relatórios, consulte
 
 Ao descartar um rascunho salvo, agora você pode clicar em Cancelar na mensagem de confirmação que informa que o rascunho será excluído. Dessa forma, você não perde o rascunho caso mude de ideia sobre descartá-lo.
 
-Esse recurso está disponível somente na nova experiência do Workfront. Para obter informações, consulte [Criar e enviar solicitações do Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home).
+Esse recurso está disponível somente na nova experiência do Workfront. Para obter informações, consulte [Criar e enviar solicitações do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home).
 

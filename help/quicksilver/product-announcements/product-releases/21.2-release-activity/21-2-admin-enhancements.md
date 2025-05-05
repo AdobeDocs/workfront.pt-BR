@@ -36,7 +36,7 @@ Na área Logs de auditoria, agora é possível rastrear e solucionar problemas d
 
 Para obter mais informações, consulte [Logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Este recurso agora está incluído no [Fundamentos do administrador para a nova experiência do Workfront, Parte 2: Caminho de Aprendizado da Instalação do Projeto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído no [Fundamentos do administrador para a nova experiência do Workfront, Parte 2: Caminho de Aprendizado da Instalação do Projeto](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Para administradores de grupo: controles aprimorados para mover subgrupos e uma barra de ferramentas atualizada
 
@@ -137,7 +137,7 @@ Anteriormente, esses padrões não podiam ser personalizados, portanto, sempre e
 
 Para obter mais informações, consulte [Personalizar Filtros, Exibições e Agrupamentos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Este recurso agora está incluído no [Fundamentos do administrador no novo caminho de aprendizado da Workfront Experience, Parte 3: Experiência de controle e interface](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído no [Fundamentos do administrador no novo caminho de aprendizado da Workfront Experience, Parte 3: Experiência de controle e interface](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Novo para administradores: liste facilmente os relatórios que estão usando um campo personalizado no momento
 

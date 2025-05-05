@@ -54,7 +54,7 @@ Para obter instruções sobre como criar administradores de sistema do Workfront
      </ul> </td> 
     <td> 
      <ul> 
-      <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+      <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
   <tr> 
@@ -65,7 +65,7 @@ Para obter instruções sobre como criar administradores de sistema do Workfront
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Para obter instruções sobre como criar administradores de sistema do Workfront
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
-     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -89,7 +89,7 @@ Para obter instruções sobre como criar administradores de sistema do Workfront
     <td> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
-      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
   <tr> 
@@ -100,7 +100,7 @@ Para obter instruções sobre como criar administradores de sistema do Workfront
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Remove users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Remove users" in in <a href="https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -111,7 +111,7 @@ Para obter instruções sobre como criar administradores de sistema do Workfront
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Manage directory users</a>
+     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/br/enterprise/using/manage-directory-users.html">Manage directory users</a>
      </p><p>Note: Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
@@ -123,7 +123,7 @@ Para obter instruções sobre como criar administradores de sistema do Workfront
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Edit user details" in in <a href="https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -134,7 +134,7 @@ Para obter instruções sobre como criar administradores de sistema do Workfront
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -145,7 +145,7 @@ Para obter instruções sobre como criar administradores de sistema do Workfront
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Add users" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+     <li> <p>The section "Add users" in <a href="https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -161,7 +161,7 @@ Para obter instruções sobre como criar administradores de sistema do Workfront
 
 ## Renovar o certificado SAML
 
-Para obter instruções sobre como renovar o certificado SAML no Adobe Admin Console, consulte a seção &quot;A assinatura digital na resposta SAML não foi validada...&quot; em [Federated ID de solução de problemas](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)
+Para obter instruções sobre como renovar o certificado SAML no Adobe Admin Console, consulte a seção &quot;A assinatura digital na resposta SAML não foi validada...&quot; em [Federated ID de solução de problemas](https://helpx.adobe.com/br/enterprise/kb/tshoot-fed-id.html)
 
 <!--
 
@@ -172,7 +172,7 @@ Para obter instruções sobre como renovar o certificado SAML no Adobe Admin Con
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "The digital signature in the SAML response did not validate..." in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Troubleshooting Federated ID</a></p> </li> 
+     <li> <p>The section "The digital signature in the SAML response did not validate..." in <a href="https://helpx.adobe.com/br/enterprise/kb/tshoot-fed-id.html">Troubleshooting Federated ID</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

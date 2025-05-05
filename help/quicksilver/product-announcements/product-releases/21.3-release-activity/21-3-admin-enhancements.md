@@ -27,7 +27,7 @@ Os blueprints fornecem elementos básicos para ajudá-lo a criar um sistema de g
 
 Para obter mais informações, consulte [Visão geral dos blueprints](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Este recurso agora está incluído nos [Modelos de projeto no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído nos [Modelos de projeto no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Novo para administradores de grupo: crie e gerencie status para um grupo em qualquer nível
 

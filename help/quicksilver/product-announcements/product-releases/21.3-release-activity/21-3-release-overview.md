@@ -249,7 +249,7 @@ Novos recursos estão chegando à versão do Workfront Scenario Planner com a ve
 
 ## Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 21.3. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento 21.3. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Aprimoramentos do Workfront Proof
 
