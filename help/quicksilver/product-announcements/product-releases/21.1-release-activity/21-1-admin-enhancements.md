@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6fe1a2c71f53d6b314c2b1402a547f9c934bfbea
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Para obter informações sobre o nível de acesso Plano, consulte [Conceder aces
 
 Para obter informações sobre como copiar um projeto, consulte [Copiar um projeto](../../../manage-work/projects/manage-projects/copy-project.md).
 
-Este recurso agora está incluído nos [Fundamentos do administrador na nova experiência do Workfront, Parte 1: caminho de aprendizado Organização de usuários](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do administrador na nova experiência do Workfront, Parte 1: caminho de aprendizado Organização de usuários](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Em um Formulário personalizado em um objeto, selecione todos os itens em um campo suspenso de várias seleções
 
@@ -63,7 +63,7 @@ Os administradores do Adobe Workfront agora podem dar mais autonomia aos adminis
 
 Para obter mais informações, consulte [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-Este recurso agora está incluído nos [Fundamentos do administrador na nova experiência do Workfront, Parte 2: Caminho de Aprendizado da Instalação do Projeto](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do administrador na nova experiência do Workfront, Parte 2: Caminho de Aprendizado da Instalação do Projeto](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Definir configurações de nível de acesso para portfólios e programas separadamente
 
@@ -75,7 +75,7 @@ Para obter informações sobre como configurar um nível de acesso, consulte [Cr
 
 Para obter informações sobre configurações de acesso que você pode definir para programas e portfólios, consulte [Acesso configurável à funcionalidade para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-Este recurso agora está incluído nos [Fundamentos do administrador na nova experiência do Workfront, Parte 1: caminho de aprendizado Organização de usuários](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do administrador na nova experiência do Workfront, Parte 1: caminho de aprendizado Organização de usuários](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Marcar todas as caixas de seleção em uma série ao editar informações em um Formulário personalizado
 
@@ -108,7 +108,7 @@ Anteriormente, somente um grupo de nível superior poderia ter Administradores d
 
 Para obter mais informações, consulte a seção [Administradores de grupos para subgrupos](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) no artigo [Visão geral dos subgrupos](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-Este recurso agora está incluído nos [Fundamentos do administrador na nova experiência do Workfront, Parte 1: caminho de aprendizado Organização de usuários](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+Este recurso agora está incluído nos [Fundamentos do administrador na nova experiência do Workfront, Parte 1: caminho de aprendizado Organização de usuários](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
 
 ## Configurar notificações de eventos para grupos
 
@@ -125,9 +125,9 @@ Para obter mais informações, consulte os seguintes artigos:
 * [Desbloquear ou bloquear a configuração de notificações de eventos para todos os grupos](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Exibir e configurar notificações de eventos para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-Este recurso agora está incluído nos [Fundamentos do administrador na nova experiência do Workfront, Parte 1: caminho de aprendizado Organização de usuários](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home) no Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
-Este recurso agora está incluído nas [Notificações por email e no aplicativo no novo caminho de aprendizado da experiência de Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) no Workfront One.
+This feature is now included in the [Email and In-App Notifications in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) learning path on Workfront One.-->
 
 ## Trabalhar com projetos de grupo e processos de aprovação na área Grupos
 
