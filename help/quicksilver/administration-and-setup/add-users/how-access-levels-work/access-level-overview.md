@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: d50ff253b0557c282496deae2a488cff4ab71775
+source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1724'
 ht-degree: 5%
 
 ---
@@ -39,11 +39,11 @@ Dependendo do nível de acesso, até três permissões estão disponíveis para 
 <table style="table-layout:auto">
     <tr>
         <td>Editar</td>
-        <td>Os usuários podem criar, editar, excluir e compartilhar o objeto Workfront</td>
+        <td>Os usuários podem criar, editar, excluir e compartilhar o objeto do Workfront</td>
     </tr>
     <tr>
         <td>Exibir</td>
-        <td>Os usuários podem revisar e compartilhar o objeto workfront</td>
+        <td>Os usuários podem revisar e compartilhar o objeto do Workfront</td>
     </tr>
     <tr>
         <td>Sem acesso</td>
@@ -115,7 +115,7 @@ Anexado à licença Light, esse nível de acesso foi projetado para usuários qu
 * Exibir todos os itens e atualizações vinculados ao trabalho
 * Aprovar projetos, tarefas e problemas
 * Exibir painéis e relatórios
-* Rastrear horário e aprovar planilhas de horas
+* Acompanhe o tempo em tarefas e problemas e aprove planilhas de horas
 * Criar e gerenciar problemas
 
 Usuários com nível de acesso Light:
@@ -130,7 +130,7 @@ Usuários com nível de acesso Light:
 
 #### **Detalhes de acesso**
 
-Estas são as configurações de acesso mais altas disponíveis para objetos no nível de acesso à Luz:
+Estas são as configurações de acesso mais altas disponíveis para objetos no nível de acesso Light:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -139,7 +139,7 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo de objeto da workfront</th> 
+   <th>Tipo de objeto do Workfront</th> 
    <th>Sem acesso</th> 
    <th>Exibir acesso</th> 
    <th>Editar acesso</th> 
@@ -406,13 +406,13 @@ Um usuário pode conceder ao recipient qualquer uma das seguintes permissões pa
    * Com um endereço de email (disponível somente para documentos e calendários)
 
 * **Contribute**: (não disponível para todos os objetos)
-* **Gerenciar**: Quando alguém compartilha um objeto, os direitos do recipient ao objeto são determinados por uma combinação do nível de acesso do recipient e as permissões ao objeto que foram concedidas pelo compartilhador. O menor grau de acesso disponível nessa combinação é o que determina o que os recipient podem fazer com o objeto.
+* **Gerenciar**: quando alguém compartilha um objeto, os direitos do destinatário ao objeto são determinados por uma combinação do nível de acesso do destinatário e das permissões do objeto que foram concedidas pelo compartilhador. O grau mais baixo de acesso disponível nessa combinação é o que determina o que o recipient pode fazer com o objeto.
 
-### Cenários de exemplo
+### Exemplos de cenários
 
 #### **Cenário 1**
 
-Se o nível de acesso do recipient não permitir a edição de projetos, essa pessoa não pode editar ou excluir um projeto mesmo que o compartilhador tenha concedido permissões para gerenciar-lo.
+Se o nível de acesso do recipient não permitir a edição do projeto, essa pessoa não poderá editar ou excluir um projeto, mesmo que o compartilhador tenha concedido permissões para gerenciá-lo.
 
 Ou, se o nível de acesso do recipient permitir a edição do projeto, mas o compartilhador conceder permissões somente de visualização para um projeto, o usuário não poderá editar nem excluir o projeto.
 
