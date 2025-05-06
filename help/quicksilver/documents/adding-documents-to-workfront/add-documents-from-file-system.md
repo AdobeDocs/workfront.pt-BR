@@ -6,9 +6,9 @@ description: Você pode adicionar documentos a projetos, tarefas ou problemas em
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ A digitalização de documentos está ativada para sua organização somente med
 
 Se a digitalização de documentos estiver ativada, os arquivos com menos de 25 MB serão examinados quando forem carregados. Arquivos com mais de 25 MB não são verificados.
 
-Se o Workfront detectar um documento corrompido, o Workfront descontinuará o processo de upload e uma mensagem será exibida indicando que o arquivo está corrompido. Você também recebe uma notificação por email quando o Workfront detecta conteúdo potencialmente malicioso e o arquivo está programado para remoção.
+Se o Workfront detectar um documento corrompido, será exibida uma mensagem indicando que o arquivo está corrompido. Você também recebe uma notificação por email quando o Workfront detecta conteúdo potencialmente malicioso e o arquivo está programado para remoção.
 
 Os arquivos corrompidos são removidos em até 24 horas após a detecção, a menos que você os remova manualmente. Se você excluir um arquivo corrompido, o Workfront rastreia essa ação como uma atualização. Se você permitir que o Workfront o remova, nenhuma atualização será gravada.
 
