@@ -7,45 +7,49 @@ description: Determinar o Caminho crítico de um projeto é uma maneira automát
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
 # Visão geral do Caminho crítico do projeto
 
-Determinar o Caminho crítico de um projeto é uma maneira automática de o Adobe Workfront sinalizar uma sequência de tarefas em um projeto que têm o potencial de afetar a linha do tempo do projeto. As tarefas que podem afetar a linha do tempo do projeto são sinalizadas como sendo tarefas de Caminho Crítico.
+<!-- Audited: 5/2025 -->
+
+Determinar o caminho crítico de um projeto é uma maneira automática de o Adobe Workfront sinalizar uma sequência de tarefas em um projeto que têm o potencial de afetar a linha do tempo do projeto. As tarefas que podem afetar a linha do tempo do projeto são sinalizadas como tarefas de Caminho Crítico.
 
 Os seguintes recursos podem afetar o Caminho Crítico de um projeto:
 
 * A Estrutura de detalhamento de trabalho do projeto.
 
-  Para obter mais informações sobre a Estrutura Analítica de Projeto, consulte [Determinar Estrutura Analítica de Projeto em um projeto](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
+  Para obter mais informações, consulte [Determinar a estrutura do detalhamento do trabalho em um projeto](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md).
 
 * O tempo (duração) que cada tarefa levará para ser concluída.
 * As dependências entre as tarefas.
 
   Considere o seguinte:
 
-   * Quando uma tarefa no Caminho Crítico tem uma relação predecessora, suas predecessoras e sucessoras também estarão no Caminho Crítico se as alterações nas datas das predecessoras ou sucessoras afetarem diretamente suas dependentes.
+   * Quando uma tarefa no Caminho Crítico tem uma relação predecessora, seus predecessores e sucessores também estarão no Caminho Crítico se as alterações nas datas dos predecessores ou sucessores afetarem diretamente seus dependentes.
 
      >[!TIP]
      >
-     >Quando a data da sucessora de uma tarefa não afeta diretamente a data de suas tarefas dependentes e não afeta as datas do projeto, a tarefa sucessora não está no Caminho Crítico.
+     >Quando a data sucessora de uma tarefa não afeta diretamente a data de suas tarefas dependentes ou as datas do projeto, a tarefa sucessora não está no Caminho Crítico.
      >
      >
      >![](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
-   * Quando uma subtarefa é identificada como uma tarefa de Caminho Crítico, a tarefa pai também é identificada como uma tarefa de Caminho Crítico, se a Data e a Hora de Início Projetadas da tarefa pai forem iguais às da subtarefa.
+   * Quando uma subtarefa é identificada como uma tarefa de Caminho Crítico, a tarefa pai também é identificada como uma tarefa de Caminho Crítico se a Data Inicial Projetada e a hora da tarefa pai forem iguais às da subtarefa.
 
 Levando esses recursos em consideração, o sistema calcula o Caminho Crítico usando o caminho mais longo entre a tarefa mais antiga e a tarefa que determina o fim do projeto. O Cálculo do Caminho Crítico leva em conta qual é a primeira e a última vez que cada tarefa pode ser iniciada e concluída sem tornar o projeto mais longo. Esse processo determina quais tarefas são &quot;críticas&quot; (e pertencem ao caminho mais longo) e quais têm &quot;flutuação total&quot; (pode ser adiada sem tornar o projeto mais longo).
 
 Qualquer atraso na atividade de uma tarefa no Caminho Crítico afeta diretamente a Data de conclusão projetada do projeto (não há flutuação no caminho crítico).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -54,15 +58,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Trabalhar ou superior</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> 
+   <p>Novo: Padrão<p>
+   <p>Ou</p>
+   <p>Atual: trabalho ou superior</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Acesso maior ou igual a tarefas</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +80,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
++++
 
 ## Visualizar o caminho crítico
 
@@ -85,15 +96,17 @@ Você pode exibir as tarefas que pertencem ao Caminho Crítico nas seguintes ár
 
 Para exibir tarefas no Caminho Crítico no gráfico de Gantt:
 
-1. Vá para um projeto cujo Caminho Crítico você deseja exibir.
-1. Clique em **Tarefas** no painel esquerdo.
-1. Clique no ícone **Gráfico de Gantt** no canto superior direito da lista de tarefas.
+{{step1-to-projects}}
 
-   ![gantt_chart_icon__1_.png](assets/gantt-chart-icon--1-.png)
+1. Na lista de projetos, selecione um projeto.
 
-1. Expanda o menu **Opções** e habilite a opção **Caminho Crítico**.
+1. No painel esquerdo, clique em **Tarefas**. A guia **Tarefas** é aberta.
 
-   As tarefas no Caminho Crítico têm uma linha vermelha acima da linha do tempo no gráfico de Gantt.
+1. No canto superior direito da lista de tarefas, clique no ícone **Gráfico de Gantt**.
+
+   ![gantt_chart_icon__1_.png](assets/gantt-icon.png)
+
+1. No canto superior direito da seção do Gráfico de Gantt, clique no ícone **Opções** ícone ![Opções ícone](assets/options-icon.png) e selecione a opção **Caminho Crítico** na lista suspensa exibida. As tarefas no Caminho Crítico agora têm uma linha vermelha acima da linha do tempo.
 
    ![caminho_crítico_no_gantt__1_.png](assets/crtitical-path-on-gantt--1--350x137.png)
 
@@ -101,23 +114,23 @@ Para exibir tarefas no Caminho Crítico no gráfico de Gantt:
 
 Para exibir quais tarefas estão no caminho crítico em uma lista de tarefas:
 
-1. Vá para um projeto cujo Caminho Crítico você deseja exibir.
-1. Clique em **Tarefas** no painel esquerdo.
-1. No menu suspenso **Exibir**, selecione **Status**.
+{{step1-to-projects}}
 
-   As tarefas que estão no Caminho Crítico têm um sinalizador **Caminho Crítico** na coluna **Sinalizadores** da lista.
+1. Na lista de projetos, selecione um projeto.
 
-   É possível aplicar a mesma visualização a um relatório de tarefa.
+1. No painel esquerdo, clique em **Tarefas**. A guia **Tarefas** é aberta.
 
-   Para obter mais informações sobre como criar relatórios, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Clique no ícone **Exibir** ![Ícone Exibir](assets/view-icon.png) e selecione **Status**. As tarefas que estão no Caminho Crítico exibem um sinalizador **Caminho Crítico** na coluna **Sinalizadores** da lista.
 
    Ou
 
-   No menu suspenso **Filtro**, selecione **Novo Filtro**.
+   Clique no ícone **Filtro** ![Ícone Filtros](assets/filters-icon.png) e selecione **+ Novo Filtro**.
+1. No primeiro campo, digite *É Crítico* e selecione-o quando ele aparecer na seção **Tarefas** da lista.
 
-1. Clique em **Adicionar regra de filtro** e comece a digitar **É crítico** em **Mostrar apenas tarefas em que o campo ...**.
+   ![A tarefa é um filtro crítico](assets/task-is-critical.png)
 
-1. Selecione-o quando ele aparecer na lista.
-1. Clique em **Salvar filtro**.
+1. Verifique se **É verdadeiro** está selecionado no segundo menu suspenso.
 
-   A lista só deve exibir tarefas que estejam no Caminho Crítico.
+   ![É o menu suspenso verdadeiro](assets/critical-path-filter.png)
+
+1. Feche o painel Filtros. A lista de tarefas agora exibe somente tarefas que estão no Caminho Crítico.

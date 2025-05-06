@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: c02c5173626857b279b20ebe2784f8d81b1a1fcc
 workflow-type: tm+mt
-source-wordcount: '13185'
+source-wordcount: '13189'
 ht-degree: 2%
 
 ---
@@ -1276,7 +1276,7 @@ ht-degree: 2%
    * Tarefas {#tasks}
       * [Tarefas: índice do artigo](manage-work/tasks/tasks-overview.md)
       * Informações da tarefa {#task-information}
-         * [Informações da tarefa](manage-work/tasks/task-information/task-information.md)
+         * [Informações da tarefa: índice do artigo](manage-work/tasks/task-information/task-information.md)
          * [Visão geral das tarefas](manage-work/tasks/task-information/tasks-overview.md)
          * [Visualizar Horas Efetivas](manage-work/tasks/task-information/actual-hours.md)
          * [Visão geral do modo de rastreamento de tarefas](manage-work/tasks/task-information/task-tracking-mode.md)
@@ -1439,7 +1439,7 @@ ht-degree: 2%
          * [Otimizar projetos no Portfolio Otimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [Calcular o Risco de Valor Líquido em um portfólio](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
    * Solicitações {#requests}
-      * [Solicitações](manage-work/requests/requests-overview.md)
+      * [Solicitações: índice do artigo](manage-work/requests/requests-overview.md)
       * Criar e gerenciar filas de solicitações {#create-and-manage-request-queues}
          * [Criar e gerenciar filas de solicitações](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
          * [Criar uma fila de solicitações](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)

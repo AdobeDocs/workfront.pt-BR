@@ -2,20 +2,22 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Informações da tarefa
+title: 'Informações da tarefa: índice do artigo'
 description: Tarefas são itens de trabalho que contribuem para a conclusão de um projeto no Adobe Workfront. Saiba mais sobre informações de tarefas nos artigos a seguir.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
-# Informações da tarefa
+# Informações da tarefa: índice do artigo
+
+<!-- Audited: 5/2025 -->
 
 Esta seção contém os seguintes artigos:
 
@@ -30,7 +32,7 @@ Esta seção contém os seguintes artigos:
 * [Visão geral da data de início planejada da tarefa](../../../manage-work/tasks/task-information/task-planned-start-date.md)
 * [Visão geral da Data de Término Planejada da tarefa](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
 * [Visão geral da Data de Transferência da Tarefa](../../../manage-work/tasks/task-information/handoff-task-date.md)
-* [Visão geral da data de Slack da tarefa](../../../manage-work/tasks/task-information/task-slack-date.md)
+* [Visão geral da data do Slack da tarefa](../../../manage-work/tasks/task-information/task-slack-date.md)
 * Visão geral de [&quot;Pode iniciar&quot; para tarefas](../../../manage-work/tasks/task-information/can-start-task-overview.md)
 * [Definir Modo de Acompanhamento para tarefas](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [Atraso no Nivelamento da tarefa de atualização](../../../manage-work/tasks/task-information/task-leveling-delay.md)

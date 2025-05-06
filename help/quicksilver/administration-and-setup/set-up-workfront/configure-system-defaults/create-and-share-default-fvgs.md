@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 1%
@@ -66,7 +66,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    * Clique em **[!UICONTROL Interface]** > **[!UICONTROL Filtros]**.
 
-   * Clique em **[!UICONTROL Interface] >** **[!UICONTROL Exibições]**.
+   * Clique em **[!UICONTROL Interface]** > **[!UICONTROL Exibições]**.
 
    * Clique em **[!UICONTROL Interface]** > **[!UICONTROL Agrupamentos]**.
 

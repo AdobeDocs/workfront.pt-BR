@@ -7,18 +7,22 @@ description: Você pode configurar quais informações serão exibidas no Gráfi
 author: Alina
 feature: Work Management
 exl-id: 465365a2-d94b-47b6-a393-16770fca2714
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
 
 # Configure como as informações são exibidas no [!UICONTROL Gráfico de Gantt]
 
-Você pode configurar quais informações são exibidas no [!UICONTROL Gráfico de Gantt] da Lista de Tarefas e no [!UICONTROL Gráfico de Gantt] da Lista de Projetos.
+<!-- Audited: 5/2025 -->
+
+Você pode configurar quais informações serão exibidas no Gráfico de Gantt da Lista de Tarefas e no Gráfico de Gantt da Lista de Projetos.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 Você deve ter o seguinte para seguir as etapas deste artigo:
 
@@ -27,15 +31,19 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
+   <td role="rowheader"> plano do Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Review] ou superior</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> 
+   <p>Novo: Claro<p>
+   <p>Ou</p>
+   <p>Atual: revisão</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>[!UICONTROL Exibir] ou superior acesso a Projetos e Tarefas</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -45,7 +53,9 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Entender as opções de exibição
 
@@ -57,19 +67,19 @@ A tabela a seguir detalha as opções de exibição do [!UICONTROL Gráfico de G
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Datas Reais]</td> 
+   <td role="rowheader">Datas Efetivas</td> 
    <td> <img src="assets/actual-dates-in-gantt-183x213.png" alt="atual_dates_in_gantt.png" style="width: 183;height: 213;"> </td> 
-   <td> <p>A [!UICONTROL Data de Início Efetivo] e a [!UICONTROL Data de Término Efetivo] são exibidas com um ícone de triângulo. Se a [!UICONTROL Data de Término Efetivo] for nula, somente a [!UICONTROL Data de Início Efetivo] será exibida.</p> <p>Para obter mais informações sobre as datas de início e conclusão, consulte <a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Visão geral da [!UICONTROL Data de Conclusão Efetiva] </a> e <a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Visão geral do projeto [!UICONTROL Data de Início Efetivo] </a>.</p> </td> 
+   <td> <p>A [!UICONTROL Data de Início Efetivo] e a [!UICONTROL Data de Término Efetivo] são exibidas com um ícone de triângulo. Se a [!UICONTROL Data de Término Efetivo] for nula, somente a [!UICONTROL Data de Início Efetivo] será exibida.</p> <p>Para obter mais informações, consulte <a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Visão geral da [!UICONTROL Data de Término Efetivo] </a> e <a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Visão geral do projeto [!UICONTROL Data de Início Efetivo] </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Atribuições]</td> 
    <td> <img src="assets/assignments-in-gantt-312x203.png" alt="atribuições_em_gantt.png" style="width: 312;height: 203;"> </td> 
-   <td> <p>Mostra os atribuídos da tarefa. Passe o mouse sobre o link <strong>[!UICONTROL Detalhes]</strong> próximo ao nome de um destinatário para ver informações mais detalhadas sobre ele, incluindo a porcentagem de sua alocação para a tarefa.</p> <p>Os destinatários não são exibidos no [!UICONTROL Gráfico de Gantt] quando o [!UICONTROL Gráfico de Gantt] é exportado para PDF. Quando o [!UICONTROL Gráfico de Gantt] é exportado para PDF, os atribuídos são exibidos somente na lista de tarefas.</p> </td> 
+   <td> <p>Mostra os atribuídos da tarefa. Passe o mouse sobre o link Detalhes ao lado do nome do destinatário para ver informações mais detalhadas sobre ele, incluindo a porcentagem de sua alocação para a tarefa.</p> <p>Os atribuídos não são exibidos no [!UICONTROL Gráfico de Gantt] quando o [!UICONTROL Gráfico de Gantt] é exportado para o PDF. Quando o [!UICONTROL Gráfico de Gantt] é exportado para o PDF, os atribuídos somente são exibidos na lista de tarefas.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Linha de Base]</td> 
    <td> <img src="assets/baselines-sandbox-gantt.png" alt="baselines_sandbox_gantt.png"> </td> 
-   <td> <p>Um instantâneo de projeto que representa dados importantes sobre o projeto incluído no plano de projeto inicial. As linhas de base podem ser utilizadas durante a vida do projeto. Quando você habilita a exibição de linhas de base no [!UICONTROL Gráfico de Gantt], selecione qual linha de base deseja exibir. Você pode exibir somente uma linha de base no [!UICONTROL Gráfico de Gantt] por vez e ela será exibida na forma de uma barra cinza.</p> <p>Para obter mais informações sobre linhas de base, consulte <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref">Criar linhas de base do projeto</a>.</p> </td> 
+   <td> <p>Um instantâneo de projeto que representa dados importantes sobre o projeto incluído no plano de projeto inicial. As linhas de base podem ser usadas em toda a linha do tempo do projeto. Quando você habilita a exibição de linhas de base no [!UICONTROL Gráfico de Gantt], selecione qual linha de base deseja exibir. Você pode exibir somente uma linha de base no [!UICONTROL Gráfico de Gantt] por vez e ela será exibida na forma de uma barra cinza.</p> <p>Para obter mais informações sobre linhas de base, consulte <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref">Criar linhas de base do projeto</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data de Confirmação]</td> 
@@ -99,33 +109,34 @@ A tabela a seguir detalha as opções de exibição do [!UICONTROL Gráfico de G
   <tr> 
    <td role="rowheader">[!UICONTROL Predecessoras]</td> 
    <td> <img src="assets/predecessor-2-269x200.png" alt="predecessor_2.png" style="width: 269;height: 200;"> </td> 
-   <td> <p>Uma linha de uma tarefa para outra que mostra a relação da predecessora entre as duas tarefas. Para realçar uma linha predecessora individual, passe o mouse sobre ela. Clique para mantê-lo destacado. É possível destacar apenas uma linha predecessora por vez.</p> <p>Um ícone <strong>[!UICONTROL Predecessor]</strong> é exibido ao lado de qualquer tarefa que tenha um relacionamento de predecessor que abranja várias páginas no gráfico de Gantt ou em qualquer tarefa que tenha um predecessor de vários projetos.</p> <p>Clique no ícone <strong>[!UICONTROL Predecessor]</strong> para exibir todas as tarefas predecessoras e sucessoras, bem como detalhes sobre cada tarefa, como nome da tarefa, tipo de relação predecessora e datas-chave.</p> <p>Observação: o [!UICONTROL Gráfico de Gantt] em uma lista de projetos exibe informações sobre predecessores entre projetos. Para obter mais informações sobre como criar relações de predecessoras entre projetos diferentes, consulte <a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">Criar predecessoras entre projetos</a></p> <p>Para obter mais informações sobre predecessores, consulte <a href="../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md" class="MCXref xref">Impor predecessores</a>.</p> </td> 
+   <td> <p>Uma linha de uma tarefa para outra que mostra a relação da predecessora entre as duas tarefas. Para realçar uma linha predecessora individual, passe o mouse sobre ela. Clique para mantê-lo destacado. É possível destacar apenas uma linha predecessora por vez.</p> <p>Um ícone [!UICONTROL Predecessor] é exibido ao lado de qualquer tarefa que tenha um relacionamento de predecessor que abranja várias páginas no gráfico de Gantt ou em qualquer tarefa que tenha um predecessor de vários projetos.</p> <p>Clique no ícone [!UICONTROL Predecessor] para exibir todas as tarefas predecessoras e sucessoras e seus detalhes, como nome da tarefa, tipo de relacionamento predecessor e datas chave.</p> <p>Observação: o [!UICONTROL Gráfico de Gantt] em uma lista de projetos exibe informações sobre predecessores entre projetos. Para obter mais informações sobre como criar relações de predecessoras entre projetos diferentes, consulte <a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">Criar predecessoras entre projetos</a></p> <p>Para obter mais informações sobre predecessores, consulte <a href="../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md" class="MCXref xref">Impor predecessores</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status de Progresso]</td> 
    <td> <p>[!UICONTROL No Prazo] <img src="assets/task-on-time--oct.-2017.png" alt="task_on_time_out_2017.png"></p> <p>[!UICONTROL Atrás]    <img src="assets/task-behind--oct.-2017.png" alt="task_behind_out_out_2017.png"></p> <p>[!UICONTROL Em Risco]    <img src="assets/task-at-risk.png" alt="task_at_risk.png"></p> <p>Atrasado        <img src="assets/task-late-oct.2017.png" alt="task_late_Oct.2017.png"></p> </td> 
-   <td> <p> </p> <p>O status do progresso atual em uma determinada tarefa. </p> <p>Para obter informações mais detalhadas sobre cada tipo de [!UICONTROL Progress Status], consulte a <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">visão geral da Tarefa [!UICONTROL Progress Status]</a>.</p> </td> 
+   <td> <p> </p> <p>O status do progresso atual em uma determinada tarefa. </p> <p>Para obter mais informações, consulte a visão geral <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Tarefa [!UICONTROL Progress Status]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Datas Projetadas]</td> 
+   <td role="rowheader">Datas Projetadas</td> 
    <td> <img src="assets/gantt-projected-dates-272x152.png" alt="gantt_projects_dates.png" style="width: 272;height: 152;"> </td> 
-   <td> <p>A linha do tempo projetada esperada que marca o [!UICONTROL Início Projetado] e as [!UICONTROL Datas de Término] com base no trabalho atual concluído, além do trabalho restante. </p> <p>Para obter mais informações sobre as datas de conclusão projetadas, consulte <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Visão Geral da [!UICONTROL Data de Conclusão Projetada] para projetos, tarefas e problemas</a>.</p> </td> 
+   <td> <p>A linha do tempo projetada esperada que marca as datas de Início e Término Projetadas com base no trabalho atual concluído, mais o trabalho restante. </p> <p>Para obter mais informações sobre as datas de conclusão projetadas, consulte <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Visão geral da data de conclusão projetada para projetos, tarefas e problemas</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Configurar opções de exibição
 
-1. Vá para o [!UICONTROL Gráfico de Gantt] da Lista de Tarefas ou para o [!UICONTROL Gráfico de Gantt] da Lista de Projetos.\
-   Para obter mais informações sobre onde está localizado o [!UICONTROL Gráfico de Gantt], consulte [Introdução ao [!UICONTROL Gráfico de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
+1. Vá para o **Gráfico de Gantt da Lista de Tarefas** ou o **Gráfico de Gantt da Lista de Projetos**.\
+   Para obter mais informações sobre a localização dos gráficos de Gantt, consulte [Introdução ao [!UICONTROL Gráfico de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
 
-1. (Opcional) Selecione a configuração **[!UICONTROL Alternar para datas projetadas]** para exibir as tarefas por suas [!UICONTROL datas projetadas]. Por padrão, as tarefas são exibidas por suas [!UICONTROL Datas Planejadas] no [!UICONTROL Gráfico de Gantt].
-1. Clique no ícone de opções para exibir a caixa de diálogo **[!UICONTROL Opções]**.\
+1. (Opcional) Selecione a configuração **Alternar para datas projetadas** para exibir as tarefas por suas datas projetadas. Por padrão, as tarefas são exibidas por suas Datas planejadas.
+1. Clique no ícone **Opções**. A caixa de diálogo **Opções** é aberta.\
    ![Opções.png](assets/options-350x129.png)
 
 1. Selecione as opções de configuração que você deseja exibir no [!UICONTROL Gráfico de Gantt].
 
    >[!NOTE]
+   >
    > Nem todas as opções de configuração estão disponíveis na Lista de Projetos [!UICONTROL Gráfico de Gantt].
 
-1. Clique em qualquer lugar no [!UICONTROL Gráfico de Gantt] para fechar a caixa de diálogo **[!UICONTROL Opções]**.
+1. Clique em qualquer lugar no Gráfico de Gantt para fechar a caixa de diálogo **Opções**.

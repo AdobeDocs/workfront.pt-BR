@@ -7,14 +7,16 @@ description: Um Objeto Resolvível é um problema cuja resolução está vincula
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1761'
 ht-degree: 1%
 
 ---
 
 # Visão Geral de Objetos Resolventes e Resolvíveis
+
+<!-- Audited: 5/2025 -->
 
 Um Objeto Resolvível é um problema cuja resolução está vinculada a um Objeto Resolução. Um Objeto de Resolução é um projeto, tarefa ou outro problema.
 
@@ -22,7 +24,7 @@ Quando você converte um problema em uma tarefa ou um projeto, o problema se tor
 
 Você também pode vincular manualmente um problema a um Objeto de resolução, que pode ser uma tarefa, projeto ou problema. Para obter informações, consulte [Vincular manualmente a resolução de um problema a outros problemas, tarefas ou projetos](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).
 
-O problema original torna-se o Objeto resolvível da tarefa, projeto ou problema neste cenário.
+Nesse cenário, o problema original torna-se o Objeto resolvível da tarefa, projeto ou problema.
 
 ## Configurar o Adobe Workfront para manipular objetos resolvíveis {#set-up-adobe-workfront-to-handle-resolvable-objects}
 
@@ -78,10 +80,10 @@ Dependendo de como o administrador do Workfront ou do grupo configurou as prefer
 
 Existem os seguintes cenários:
 
-* Se o administrador do Workfront ou do grupo tiver a opção **Manter o problema original e vincular sua resolução à tarefa** e a opção **Manter o problema original e vincular sua resolução ao projeto** selecionado e a opção **Permitir que essas configurações sejam alteradas durante a conversão** desmarcada, você não poderá alterar essas configurações porque está convertendo problemas em tarefas ou projetos.\
+* Se o administrador do Workfront ou do grupo tiver a opção Manter o problema original e vincular sua resolução à tarefa e a opção Manter o problema original e vincular sua resolução ao projeto selecionado e a opção Permitir que essas configurações sejam alteradas durante a conversão não selecionada, você não poderá alterar essas configurações enquanto estiver convertendo problemas em tarefas ou projetos.\
   ![Área de problemas de preferências do projeto](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* Se o administrador do Workfront ou do grupo tiver o **Manter o problema original e vincular sua resolução à tarefa** e o **Manter o problema original e vincular sua resolução ao projeto** selecionado ou não e o **Permitir que essas configurações sejam alteradas durante a conversão** selecionada, você poderá alterar essas configurações à medida que estiver convertendo problemas em tarefas ou projetos.\
+* Se o administrador do Workfront ou do grupo tiver a opção Manter o problema original e vincular sua resolução à tarefa e a opção Manter o problema original e vincular sua resolução ao projeto selecionado ou não selecionado e a opção Permitir que essas configurações sejam alteradas durante a conversão selecionada, você poderá alterar essas configurações conforme converte problemas em tarefas ou projetos.\
   ![Opção para manter o problema](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 Para obter mais informações sobre a conversão de problemas em tarefas e projetos, consulte [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
@@ -133,9 +135,9 @@ Quando o status personalizado de um projeto é igual a um status padrão que nã
 
 #### Sincronizar o Status Padrão do Objeto de Resolução com o Status Padrão do Objeto de Resolução {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
 
-Independentemente de a opção &quot;Atualizar automaticamente o status de um problema resolvível quando o status do objeto de resolução mudar&quot; ser selecionada, sempre que o status padrão mudar nos objetos de resolução (projetos ou tarefas), o status do objeto resolvível (problemas) mudará, de acordo. Somente os status padrão já estão mapeados para acionar essa alteração.
+Independentemente de a opção Atualizar automaticamente o status de um problema resolvível quando o status do Objeto de resolução for selecionado, sempre que o status padrão for alterado nos Objetos de resolução (projetos ou tarefas), o status do Objeto resolvível (problemas) será alterado de acordo. Somente os status padrão já estão mapeados para acionar essa alteração.
 
-Os seguintes status padrão para tarefas acionam as seguintes alterações nos status padrão para problemas, quando o problema é definido como o objeto de resolução de uma tarefa:
+Os seguintes status de tarefa padrão acionam as seguintes alterações nos status de problema padrão quando o problema é definido como o objeto de resolução da tarefa:
 
 | **STATUS DA TAREFA** | **STATUS DO PROBLEMA** |
 |---|---|
@@ -143,7 +145,7 @@ Os seguintes status padrão para tarefas acionam as seguintes alterações nos s
 | Em andamento | Em andamento |
 | Completo | Fechado |
 
-Os seguintes status padrão para projetos acionam as seguintes alterações nos status padrão para problemas, quando o problema é definido como um Objeto resolvível de um projeto. Alguns status de projeto não acionam alterações no status dos problemas. Os problemas permanecem no status em que estavam antes de o projeto ser transformado em um destes status:
+Os status de projeto padrão a seguir acionam as seguintes alterações nos status de problema padrão quando o problema é definido como um Objeto resolvível de um projeto. Alguns status de projeto não acionam alterações nos status de problemas. Os problemas permanecem no status em que estavam antes de o projeto ser transformado em um destes status:
 
 | **STATUS DO PROJETO** | **STATUS DO PROBLEMA** |
 |---|---|
@@ -165,34 +167,38 @@ Os seguintes status padrão para projetos acionam as seguintes alterações nos 
 
 Quando você altera o status da tarefa ou do projeto para um status personalizado, o status do problema muda para um status de problema personalizado somente se as duas condições a seguir forem atendidas:
 
-* A opção &quot;Atualizar automaticamente o status de um problema resolvível quando o status do objeto de resolução for alterado&quot; está selecionada. Para obter mais informações sobre como habilitar esta configuração, consulte [Configurar o Adobe Workfront para manipular Objetos Resolvíveis](#set-up-adobe-workfront-to-handle-resolvable-objects).
+* O status Atualizável automaticamente do problema resolvível quando o status da opção Resolvendo alteração de objeto é selecionada. Para obter mais informações, consulte [Configurar o Adobe Workfront para manipular Objetos Resolvíveis](#set-up-adobe-workfront-to-handle-resolvable-objects).
 
 * O status personalizado do projeto ou tarefa tem o mesmo código de três letras que o status personalizado do problema.
 
 Você pode criar status personalizados com a mesma chave para problemas e projetos ou tarefas. Quando o projeto ou a tarefa (como um Objeto de resolução) é alterado para o status personalizado, a alteração também reflete no status do problema. A chave de status deve ser a mesma para os status de problema e de projeto ou tarefa.
 
-Por exemplo, crie um status personalizado de projeto chamado &quot;Iniciado&quot; com o código de três letras &quot;LCD&quot; que equivale a &quot;Atual&quot;. Além disso, crie um status personalizado de problema chamado &quot;Projeto iniciado&quot;, também com o código de letra &quot;LCD&quot; que equivale a &quot;Em andamento&quot;. Quando você marca o projeto como &quot;Iniciado&quot;, o problema muda automaticamente o status para &quot;Projeto iniciado&quot;. Se a variável &quot;
-Atualizar automaticamente o status de Problema resolvível quando o status da configuração &quot;Resolvendo alterações de objeto&quot; não estava ativado, o status do problema seria alterado para &quot;Em andamento&quot; (o status padrão).
+Por exemplo, imagine criar um status personalizado de projeto chamado Iniciado com o código de três letras LCD, que equivale a Atual. Em seguida, você cria um status personalizado de problema chamado Projeto iniciado, também com o código de letra LCD, que equivale a Em andamento. Quando você marca o projeto como Iniciado, o problema muda automaticamente o status para Projeto iniciado. Se o status de Atualização automática de problema resolvível quando o status da configuração de Resolução de alterações de objeto não estiver ativado, o status do problema será alterado para Em andamento.
 
 Para obter mais informações sobre como criar um status personalizado, consulte [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Sincronizar o percentual concluído de um Objeto de Resolução com o do Objeto Resolvível
 
-Se um problema for resolvido por uma tarefa ou um projeto, o percentual concluído do problema será atualizado no problema resolvível quando qualquer uma das seguintes situações ocorrer: 
+Se um problema for resolvido por uma tarefa ou um projeto, o percentual concluído do problema será atualizado no problema resolvível quando qualquer uma das seguintes situações ocorrer:
 
 * Quando alguém salva uma alteração na tarefa ou no projeto.
-* A linha do tempo do projeto é recalculada.
+* Quando a linha do tempo do projeto é recalculada.
 
 Se um problema for resolvido por outro problema, o percentual concluído será atualizado quando qualquer um dos problemas for atualizado.
 
 ## Localizar o Objeto Resolvível em uma tarefa ou um projeto
 
+>[!NOTE]
+>
+>Para executar as etapas desta seção, você deve ter pelo menos o acesso de Visualização a tarefas e projetos e permissões de Visualização para a tarefa ou projeto que contém o objeto que pode ser resolvido que você deseja visualizar.
+
 A localização do objeto de resolução é idêntica para tarefas e projetos.
 
-1. Navegue até um projeto ou uma tarefa que você criou convertendo um problema no projeto ou na tarefa.
-1. Clique no ícone **Detalhes do Projeto** ou **Detalhes da Tarefa** e clique nele para expandi-lo.
-1. Clique em **Visão geral**.
-1. Na parte inferior da guia, localize para o campo **Isto resolve**: o problema que é o Objeto resolvível do projeto ou da tarefa é listado neste campo.
+1. Navegue até um projeto ou uma tarefa que você criou convertendo um problema.
+1. No lado esquerdo da página, selecione a guia **Detalhes da tarefa** ou **Detalhes do projeto**.
+1. Na parte inferior da seção **Visão Geral**, localize o campo **Esta Resolução**, no qual o Objeto Resolvível da tarefa ou do projeto é exibido.
+
+   ![Este Campo Resolve](assets/this-resolves-field.png)
 
    >[!NOTE]
    >
@@ -202,11 +208,12 @@ A localização do objeto de resolução é idêntica para tarefas e projetos.
 
 Em uma lista de problemas, você pode identificar problemas que são rotulados como objetos de resolução através de ícones de status localizando este ícone nas colunas **Ícones de Status** ou **Sinalizadores**:
 
-![Resolvendo objeto](assets/ro1.png)
+![Resolvendo objeto](assets/resolving-icon.png)
 
 ## Exibir informações sobre Resolvíveis e Objeto de Resolução em um relatório
 
-Você pode exibir informações sobre os Objetos Resolvíveis ou de Resolução na exibição ou no relatório para projetos, tarefas ou problemas.\
+Você pode exibir informações sobre os Objetos Resolvíveis ou de Resolução na exibição ou no relatório para projetos, tarefas ou problemas.
+
 A tabela a seguir mostra quais campos você pode exibir e em quais exibições você pode exibi-los:
 
 <table style="table-layout:auto"> 
@@ -224,19 +231,19 @@ A tabela a seguir mostra quais campos você pode exibir e em quais exibições v
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Possui Contas a Resolver</strong>: exibe um valor <strong>True</strong> se o projeto ou a tarefa tiver Problemas de Resolução associados a eles, e um valor <strong>False</strong> se eles não tiverem.</td> 
+   <td><strong>Possui Contas a Resolver</strong>: exibe um valor Verdadeiro se o projeto ou a tarefa tiver Problemas Resolvíveis associados a eles, e um valor Falso se eles não tiverem.</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Nome Original do Problema, Data de Entrada Original do Problema, Nome da Origem</strong>: Exibe o nome e a data de entrada do problema original, bem como o nome do usuário que criou o problema em uma exibição personalizada em modo de texto.<br>Para obter mais informações sobre como criar um modo de exibição personalizado de texto para um projeto ou uma lista de relatórios de tarefas para exibir informações sobre o problema original, consulte <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Exibir: exibir informações de problema original em listas de tarefas ou de projetos</a>.<br></td> 
+   <td><strong>Nome Original do Problema, Data de Entrada Original do Problema, Nome da Origem</strong>: Exibe o nome e a data de entrada do problema original, bem como o nome do usuário que criou o problema em uma exibição personalizada em modo de texto.<br>Para obter mais informações, consulte <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Exibir: exibir informações de problemas originais em listas de tarefas ou projetos</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Contas a Resolver:</strong> Exibe uma lista de todos os Objetos Resolvíveis em um modo de exibição personalizado de modo de texto para um relatório ou lista de projetos ou tarefas.</p> <p>Para obter mais informações sobre como criar esta exibição, consulte <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Exibir: Objetos Resolvíveis em um relatório de tarefa ou de projeto</a></p> </td> 
+   <td> <p><strong>Contas a Resolver:</strong> Exibe uma lista de todos os Objetos Resolvíveis em um modo de exibição personalizado de modo de texto para um relatório ou lista de projetos ou tarefas.</p> <p>Para obter mais informações, consulte <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Exibir: Objetos Resolvíveis em um relatório de tarefa ou de projeto</a></p> </td> 
    <td> </td> 
    <td>✓</td> 
    <td> ✓</td> 
