@@ -6,9 +6,9 @@ description: Você pode exibir relatórios de calendário e detalhes de eventos 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
+source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -90,18 +90,18 @@ Você pode escolher entre as seguintes exibições de relatório do calendário:
 
 1. (Opcional) Se você estiver exibindo o calendário nos modos de exibição [!UICONTROL Mês] ou [!UICONTROL Semana], poderá alterar o modo de exibição do calendário com as seguintes opções:
 
-   * Para incluir ou excluir fins de semana:
+<!--   * To include or exclude weekends:
 
-      1. Na barra de ferramentas **[!UICONTROL Calendário]**, clique em **[!UICONTROL Ações de Calendário]** e, na lista suspensa, selecione **[!UICONTROL Mostrar Fim de Semana]** ou **[!UICONTROL Ocultar Fim de Semana]**.
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-   * Para alterar rapidamente as datas exibidas:
+* Para alterar rapidamente as datas exibidas:
 
-      1. Na barra de ferramentas **[!UICONTROL Calendário]**, clique na seta para a esquerda do indicador de data para voltar no calendário ou na seta para a direita para avançar.
+   1. Na barra de ferramentas **[!UICONTROL Calendário]**, clique na seta para a esquerda do indicador de data para voltar no calendário ou na seta para a direita para avançar.
 
-         ![Clique na seta para alterar a data](assets/click-arrows-to-change-dates-calendar-report.png)\
-         As datas exibidas são ajustadas por um intervalo com base na exibição do calendário atual. Por exemplo, se você estiver exibindo o calendário na exibição [!UICONTROL Semana], o calendário será exibido uma semana depois ou uma semana atrás, dependendo da seta selecionada.
+      ![Clique na seta para alterar a data](assets/click-arrows-to-change-dates-calendar-report.png)\
+      As datas exibidas são ajustadas por um intervalo com base na exibição do calendário atual. Por exemplo, se você estiver exibindo o calendário na exibição [!UICONTROL Semana], o calendário será exibido uma semana depois ou uma semana atrás, dependendo da seta selecionada.
 
-      1. (Opcional) Para voltar ao dia atual, clique em [!UICONTROL **Hoje**].
+   1. (Opcional) Para voltar ao dia atual, clique em [!UICONTROL **Hoje**].
 
 
 1. (Opcional) Para exibir um calendário em tela inteira, clique nas setas de tela inteira no lado direito da barra de ferramentas **[!UICONTROL Calendário]**.
