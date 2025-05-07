@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,25 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 >[!IMPORTANT]
 >
 >Os recursos listados nesta página fazem parte de uma versão em fases e só estão disponíveis para clientes específicos.
+
+## O Assets em uma pasta vinculada do Google deve ser adicionado individualmente para aparecer no Workfront
+
+>[!NOTE]
+>
+>* Versão de pré-visualização: 31 de maio de 2025; Versão de produção para todos os clientes: 31 de maio de 2025
+
+O Google está [aprimorando os controles de segurança](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) para aplicativos de terceiros que acessam o Google Drive, exigindo que os aplicativos adotem um modelo de consentimento por usuário. Como resultado, os ativos individuais devem ser vinculados, um de cada vez, para ficarem visíveis no Workfront. Consulte [Configurar integrações de documentos](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) para obter mais informações.
+
+Principais recursos que permanecem inalterados:
+
+* Pesquisar e filtrar ativos e pastas no modal do Google Drive
+* Vincular ativos a objetos do Workfront a partir do Google Drive
+* Faça upload de ativos no Google Drive por meio da lista suspensa &quot;Enviar para&quot; na página de documentos
+* Exibir e acessar a estrutura de pastas na área Meu Drive de um usuário
+* Vincular uma nova versão de um ativo do Google Drive a um documento existente no Workfront
+* Vincular pastas a objetos do Workfront a partir do Google Drive
+* Fazer upload de ativos no Google Drive arrastando e soltando documentos em uma pasta vinculada
+* Criar um novo documento do Google Drive no Workfront
 
 
 ## Novos botões de decisão de aprovação de documento disponíveis no visualizador de provas
