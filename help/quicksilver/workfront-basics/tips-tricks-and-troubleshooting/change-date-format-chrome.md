@@ -6,9 +6,9 @@ title: Alterar o formato de datas em  [!DNL Adobe Workfront]
 description: Para alterar o formato de data para as datas em [!DNL Adobe Workfront] você deve alterar as configurações de idioma no seu navegador.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> As informações neste artigo se aplicam apenas a organizações que ainda não foram integradas à Experiência unificada do Adobe.
-> Se sua organização foi integrada à Experiência unificada do Adobe, sua preferência de data é controlada pela preferência de idioma definida no shell unificado do Adobe. A configuração de idioma padrão e, portanto, a configuração de data padrão, é `en-US`.
+> As informações deste artigo se aplicam apenas a organizações que ainda não foram integradas à Adobe Unified Experience.
+> Se sua organização tiver sido integrada à Adobe Unified Experience, sua preferência de data será controlada pela preferência de idioma definida no Adobe Unified Shell. A configuração de idioma padrão e, portanto, a configuração de data padrão, é `en-US`.
+> Para obter mais informações, consulte [[!DNL Adobe Unified Experience] para [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences).
 
 Você pode alterar o formato de datas em [!DNL Adobe Workfront], como [!UICONTROL Data de Conclusão Planejada], [!UICONTROL Data de Conclusão Efetiva] ou [!UICONTROL Data de Conclusão Projetada].
 

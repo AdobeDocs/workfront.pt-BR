@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3497'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para uma exibição</p>  
-   <p>Permissões de exibição para uma exibição para alterar temporariamente as configurações de exibição</p> </td> 
+   <p>Exibir permissões de um modo de exibição para alterar temporariamente as configurações de modo de exibição ou duplicá-lo <!--<span class="preview">or to export the view</span>--></p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Modelo de layout</p></td> 
@@ -509,9 +509,11 @@ To sort grouped records:
 
 1. (Opcional) Ative a configuração **Aplicar a toda a linha** no canto superior direito da caixa Cores da linha. A linha inteira em que a condição é atendida é exibida automaticamente na cor selecionada.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >Se a configuração Aplicar a toda a linha estiver desativada, somente o lado esquerdo do campo Primário exibirá um indicador de cor estreito com a cor selecionada. A configuração é desativada por padrão.
+   >* Se a configuração Aplicar a toda a linha estiver desativada, somente o lado esquerdo do campo Primário exibirá um indicador de cor estreito com a cor selecionada. A configuração é desativada por padrão.
+   >
+   >* Não é possível aplicar cores de linha a uma linha inteira quando há pelo menos um agrupamento selecionado na exibição de tabela.
 
 1. Clique fora da caixa **Cores da linha** para fechá-la. As cores são aplicadas automaticamente.
 
@@ -525,3 +527,49 @@ Ao exibir a visualização de tabela, você também pode visualizar qual campo o
 
 Para obter mais informações, consulte a seção &quot;Habilitar o indicador de presença em tempo real&quot; no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
+<div class="preview">
+
+## Exportar a exibição de tabela
+
+É possível exportar informações na exibição de tabela para um arquivo CSV ou do Excel.
+
+Considere o seguinte ao exportar a exibição de tabela:
+
+* As informações exportadas para um arquivo do Excel preservam os filtros, agrupamentos e classificações aplicados à exibição de tabela no Workfront Planning. Os agrupamentos não estão visíveis no arquivo CSV.
+
+* Miniaturas e cores de linha personalizadas não são suportadas em arquivos exportados.
+
+* Somente os campos tornados visíveis na interface do Workfront são exportados. Campos ocultos não são exportados.
+
+Para exportar informações da exibição de tabela ou de um tipo de registro:
+
+1. Vá para uma página de tipo de registro e clique em uma guia de exibição de tabela.
+1. Passe o mouse sobre o nome da guia da exibição de tabela e clique no menu **Mais** ![Mais menu](assets/more-menu.png).
+1. Clique em **Exportar** e selecione um dos seguintes formatos:
+
+   * Excel
+   * CSV
+
+   >[!IMPORTANT]
+   >
+   >Não é possível exportar informações da exibição de tabela quando você exibe uma exibição diferente na tela. Você deve exibir a exibição de tabela que deseja exportar para acessar a opção Exportar no menu Mais.
+
+   O arquivo é baixado no computador.
+
+1. (Opcional) Vá para a pasta de downloads no seu computador e localize o arquivo baixado.
+
+   O nome do arquivo exportado segue o seguinte formato:
+
+   `Name of the view - name of the record type`
+
+   Por exemplo, uma exibição de tabela para o tipo de registro Campanhas gera um arquivo chamado `Table view - Campaigns`.
+
+   O arquivo exibe as seguintes informações:
+
+   * Os cabeçalhos de coluna são realçados em preto no arquivo do Excel
+   * Todos os campos visíveis na interface do Workfront, classificados e filtrados pelos mesmos critérios
+   * Os agrupamentos são preservados no arquivo do Excel
+
+   Agora é possível compartilhar os arquivos exportados com outras pessoas ou anexá-los a qualquer comunicação.
+
+</div>

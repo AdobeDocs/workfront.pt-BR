@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
-<p>Sua organização deve estar integrada à Adobe Unified Experience para que os usuários possam solicitar e conceder permissões para uma exibição a partir de uma solicitação de permissão. </p>
+<p>Os usuários devem ser adicionados ao Adobe Admin Console para obter permissões para exibições do Workfront Planning.</p>
 <p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -199,7 +199,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Remover permissões para um tipo de registro
 
-Você pode remover as permissões dos usuários de um tipo de registro. No entanto, eles manterão pelo menos o acesso de visualização ao espaço de trabalho, o que lhes dará permissões para pelo menos visualizar o tipo de registro. Você deve remover o acesso deles do espaço de trabalho se quiser que eles não tenham permissões para os tipos de registro no espaço de trabalho.
+Você pode remover as permissões dos usuários de um tipo de registro. No entanto, eles manterão pelo menos permissões de Exibição no espaço de trabalho, o que também lhes dará pelo menos permissões de Exibição para o tipo de registro. Você deve remover o acesso deles do espaço de trabalho se quiser que eles não tenham permissões para os tipos de registro no espaço de trabalho.
 
 {{step1-to-planning}}
 

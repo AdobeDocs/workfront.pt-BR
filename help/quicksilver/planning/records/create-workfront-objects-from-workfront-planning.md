@@ -1,14 +1,14 @@
 ---
-title: Criar Objetos Workfront a partir do Workfront Planning
+title: Criar objetos Workfront a partir do Workfront Planning à medida que você os conecta aos registros
 description: Você pode criar tipos de objetos do Workfront à medida que os conecta a outros registros no Workfront Planning.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1108'
 ht-degree: 2%
 
 ---
