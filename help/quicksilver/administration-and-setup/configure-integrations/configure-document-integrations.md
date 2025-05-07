@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1199'
 ht-degree: 1%
 
 ---
@@ -250,4 +250,12 @@ Para configurar [!DNL Workfront] para enviar metadados a [!DNL Workfront DAM]:
 
 ## Limitação
 
-* A integração de documentos do Google Drive permite adicionar pastas e imagens da área Meu Drive do Google Drive. Não é possível adicionar pastas ou imagens de uma Unidade Compartilhada. Saiba mais sobre as [Unidades Compartilhadas do Google](https://support.google.com/a/users/answer/7212025?hl=en).
+### Integração com o Google Drive
+
+* Quando uma pasta vinculada é adicionada ao Workfront, os arquivos na pasta não são mais adicionados automaticamente.
+   * Você pode adicionar a pasta Google ao Workfront sem os arquivos e, em seguida, adicionar os arquivos individuais ao Workfront. Os arquivos são adicionados automaticamente à pasta Google no Workfront.
+Ou
+   * Você pode criar uma pasta Documento no Workfront, selecionar todos os arquivos na pasta Google e adicioná-los à pasta Workfront.
+
+
+* A integração de documentos do Google Drive permite adicionar arquivos da área Meu Drive do Google Drive. Não é possível adicionar pastas ou imagens de uma Unidade Compartilhada. Saiba mais sobre as [Unidades Compartilhadas do Google](https://support.google.com/a/users/answer/7212025?hl=en).
