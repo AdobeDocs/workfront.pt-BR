@@ -109,7 +109,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Planilhas vazias não são suportadas.
 * Os campos dos seguintes tipos não são suportados e não podem ser mapeados para campos na planilha de importação:
 
-   * <!--In the Production environment,--> Campos de conexão para registros do Planning ou objetos do Workfront e AEM Assets
+   * &#x200B;<!--In the Production environment,--> Campos de conexão para registros do Planning ou objetos do Workfront e AEM Assets
 
      <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
 
