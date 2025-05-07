@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: 220c31cb836e324b91fb36106ed34662c1eb6b29
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '718'
 ht-degree: 3%
 
 ---
@@ -168,15 +168,19 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Notas de versão para outras áreas
 
-* [Atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Atividade da versão do Adobe Workfront Planning do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md).
+### Aprimoramentos do Workfront Fusion
+
+Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento padrão. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+
+### Melhorias no planejamento do Workfront
+
+Novos recursos no Workfront Planning estão disponíveis na Produção. Para obter mais informações sobre os recursos mais recentes, consulte a [atividade da versão do Adobe Workfront Planning do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md).
 
 Não há atualizações para o seguinte neste momento na versão:
 
 * Planejador de cenários
 * Prova
 * Metas
-
 
 ### API versão 20
 
@@ -188,7 +192,7 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
