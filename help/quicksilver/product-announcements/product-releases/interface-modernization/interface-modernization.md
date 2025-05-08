@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
+source-git-commit: 73df51a476695a3af11911da850ce4049c95aa06
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,21 @@ Para visualizar esta alteração, vá para a guia Documents > Click the more men
 
 ## Relatórios e painéis de controle
 
-+++Expandir para exibir atualizações da interface de Relatórios e Painéis
+### Relatório de Nível de acesso atualizado com novo estilo
+
+**Versão de visualização: a ser definida; Versão de produção: iniciando a semana de 6 de fevereiro de 2025**
+
+Atualizamos o relatório de Nível de acesso com um design mais moderno e consistente com outras áreas do Workfront.
+
+Esta atualização inclui alterações visuais no relatório. Nenhuma funcionalidade foi alterada.
+
+Para criar um relatório de Equipe, vá para Relatórios > Novo relatório > Nível de acesso.
+
++++Expandir para exibir mais atualizações da interface de Relatórios e Painéis
 
 ### Relatório de equipe atualizado com novo estilo
 
-**Versão de visualização: 30 de janeiro de 2025; iniciando a semana de 6 de fevereiro de 2025**
+**Versão de visualização: 30 de janeiro de 2025; Versão de produção: iniciando a semana de 6 de fevereiro de 2025**
 
 Atualizamos o Relatório de equipe com um design mais moderno e consistente com outras áreas do Workfront.
 
