@@ -5,9 +5,9 @@ description: Você pode localizar itens facilmente em  [!DNL Adobe Workfront]  p
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: b04d09d1244a7d7abef8aaddb62dbdf7124bfde8
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1673'
 ht-degree: 1%
 
 ---
@@ -79,23 +79,23 @@ Você pode pesquisar os seguintes objetos no Workfront:
 
 Os campos disponíveis para pesquisa são baseados no tipo de pesquisa: Básica ou [!UICONTROL Pesquisa Avançada].
 
-* **Pesquisa Básica**: ao procurar objetos em uma pesquisa básica, o [!DNL Workfront] procura texto que possa conter suas palavras-chave nos seguintes campos:
+* **Pesquisa Básica**: ao procurar objetos em uma Pesquisa Básica, o [!DNL Workfront] procura texto que possa conter suas palavras-chave nos seguintes campos:
 
    * Nomes de objetos
    * Descrições
    * Campos de dados personalizados
    * Atualizações
-   * Nomes de documentos (em pesquisas de documentos específicas e em uma pesquisa básica)
+   * Nomes de documentos (em pesquisas de documentos específicas e em uma Pesquisa básica)
 
-  Para obter mais informações sobre a pesquisa básica no [!DNL Workfront], consulte [Pesquisa Básica](#basic-search) neste artigo.
+  Para obter mais informações sobre a Pesquisa Básica no [!DNL Workfront], consulte [Pesquisa Básica](#basic-search) neste artigo.
 
-* **[!UICONTROL Pesquisa avançada]**: em uma [!UICONTROL Pesquisa avançada], você pode configurar filtros para campos de pesquisa não disponíveis na pesquisa básica. Portanto, a [!UICONTROL Pesquisa Avançada] permite pesquisar qualquer campo no objeto.
+* **[!UICONTROL Pesquisa avançada]**: em uma [!UICONTROL Pesquisa avançada], você pode configurar filtros para campos de pesquisa não disponíveis na Pesquisa básica. Portanto, a [!UICONTROL Pesquisa Avançada] permite pesquisar qualquer campo no objeto.
 
   Para obter mais informações sobre a [!UICONTROL Pesquisa Avançada], consulte a [Pesquisa Avançada](#advanced-search) neste artigo.
 
 >[!NOTE]
 >
->Para executar uma [!UICONTROL Pesquisa Avançada], você deve selecionar a opção [!UICONTROL Pesquisa Avançada] ao iniciar sua pesquisa. Você não pode refinar uma pesquisa básica em uma [!UICONTROL Pesquisa avançada].
+>Para executar uma [!UICONTROL Pesquisa Avançada], você deve selecionar a opção [!UICONTROL Pesquisa Avançada] ao iniciar sua pesquisa. Você não pode refinar uma Pesquisa Básica em uma [!UICONTROL Pesquisa Avançada].
 
 ## Compreender as limitações de [!DNL Workfront] pesquisas
 
@@ -158,32 +158,32 @@ No entanto, você pode fazer o seguinte na caixa [!UICONTROL Pesquisar] para aju
 
 ## Usar Pesquisa em [!DNL Workfront]
 
-O [!DNL Workfront] apresenta dois tipos de pesquisas: básica e avançada. Use a pesquisa básica se quiser encontrar palavras-chave em campos de objeto comuns, como nome ou descrição. Use a [!UICONTROL Pesquisa Avançada] se desejar usar filtros para pesquisar outros campos de objeto.
+O [!DNL Workfront] apresenta dois tipos de pesquisas: básica e avançada. Use a Pesquisa básica se quiser encontrar palavras-chave em campos de objeto comuns, como nome ou descrição. Use a [!UICONTROL Pesquisa Avançada] se desejar usar filtros para pesquisar outros campos de objeto.
 
 * [Pesquisa Básica](#basic-search)
 * [Busca Avançada](#advanced-search)
 
 ### Pesquisa Básica
 
-Uma pesquisa básica permite procurar palavras-chave em todos os objetos no sistema ou em apenas um objeto por vez (como projetos). [!DNL Workfront] procura essas palavras-chave em alguns campos específicos. Você pode refinar os resultados da pesquisa com base em outros campos específicos de objeto selecionados por [!DNL Workfront].
+Uma Pesquisa básica permite procurar palavras-chave em todos os objetos no sistema ou em apenas um objeto por vez (como projetos). [!DNL Workfront] procura essas palavras-chave em alguns campos específicos. Você pode refinar os resultados da pesquisa com base em outros campos específicos de objeto selecionados por [!DNL Workfront].
 
-Para obter uma lista dos campos específicos pesquisados na pesquisa básica, consulte [Campos disponíveis para pesquisa](#fields-available-for-search) neste artigo.
+Para obter uma lista dos campos específicos pesquisados na Pesquisa Básica, consulte [Campos disponíveis para pesquisa](#fields-available-for-search) neste artigo.
 
 >[!NOTE]
 >
->Para executar uma [!UICONTROL Pesquisa Avançada], você deve selecionar a opção [!UICONTROL Pesquisa Avançada] ao iniciar sua pesquisa. Você não pode refinar uma pesquisa básica em uma [!UICONTROL Pesquisa avançada].
+>Para executar uma [!UICONTROL Pesquisa Avançada], você deve selecionar a opção [!UICONTROL Pesquisa Avançada] ao iniciar sua pesquisa. Você não pode refinar uma Pesquisa Básica em uma [!UICONTROL Pesquisa Avançada].
 
 * [Executar uma pesquisa básica](#perform-a-basic-search)
 * [Refinar uma pesquisa básica](#refine-a-basic-search)
 
 #### Executar uma pesquisa básica
 
-Você pode fazer uma pesquisa básica de uma das seguintes maneiras:
+Você pode fazer uma Pesquisa básica de uma das seguintes maneiras:
 
 * Em todos os objetos do sistema (pesquisa geral).
 * Em apenas um objeto por vez (pesquisa específica de objeto).
 
-Para executar uma pesquisa básica:
+Para executar uma Pesquisa Básica:
 
 1. Clique no ![ícone de Pesquisa](assets/search-icon.png) da lupa, no canto superior direito da página. Você também pode digitar **[!UICONTROL ALT + /]** ou **[!UICONTROL Option + /]** para abrir o menu [!UICONTROL Search].
 
@@ -191,9 +191,10 @@ Para executar uma pesquisa básica:
 
    ![Pesquisar por tipo de objeto](assets/search-objecttype.png)
 
-1. Na caixa **[!UICONTROL Pesquisar]**, comece digitando as informações que você está procurando.\
-   Para obter informações sobre quais campos são pesquisados em [!DNL Workfront], consulte [Entender a Pesquisa](#understand-search).\
-   ![Lista suspensa de pesquisa](assets/qs-search-drop-down-highlighted-350x234.png)\
+1. Na caixa **[!UICONTROL Pesquisar]**, comece digitando as informações que você está procurando.
+Para obter informações sobre quais campos são pesquisados em [!DNL Workfront], consulte [Entender a Pesquisa](#understand-search).
+   ![Lista suspensa de pesquisa](assets/qs-search-drop-down-highlighted-350x234.png)
+
    À medida que você começa a digitar na barra de pesquisa, o [!DNL Workfront] faz recomendações com base no seu histórico de exibição e destaca a palavra-chave que você está procurando em azul.
 
 1. Se o item que você está procurando for exibido no menu [!UICONTROL digitação antecipada], clique nele.
@@ -211,7 +212,7 @@ Para executar uma pesquisa básica:
    >Às vezes, as variações de uma palavra são exibidas na lista de itens encontrados.\
    >Por exemplo, pesquisar por &quot;marketing&quot; exibe objetos que contêm &quot;marketing&quot; ou &quot;marketing&quot; no nome.
 
-1. (Opcional) Se sua pesquisa gerou muitos resultados, refine sua pesquisa conforme descrito em [Refine uma pesquisa básica](#refine-a-basic-search).
+1. (Opcional) Se sua pesquisa gerou muitos resultados, refine sua pesquisa conforme descrito em [Refinar uma Pesquisa Básica](#refine-a-basic-search).
 1. (Opcional) Para retornar à página em que você estava antes da pesquisa, clique em **[!UICONTROL Fechar]** no canto superior direito.
 
 >[!NOTE]
@@ -220,29 +221,30 @@ Para executar uma pesquisa básica:
 
 #### Refinar uma pesquisa básica
 
-Após executar uma pesquisa básica, conforme descrito em [[!UICONTROL Executar uma pesquisa básica]](#perform-a-basic-search), você pode refinar a pesquisa.
+Após executar uma Pesquisa Básica, conforme descrito em [[!UICONTROL Executar uma Pesquisa Básica]](#perform-a-basic-search), você pode refinar a pesquisa.
 
 Use a barra de ferramentas à esquerda dos resultados da pesquisa para restringir as informações que você está procurando.
 
 Para refinar uma pesquisa:
 
 1. (Condicional) Se você tiver realizado uma pesquisa geral, selecione o objeto que estava procurando na lista de objetos no canto superior esquerdo dos resultados.
-1. Localize os campos disponíveis para os objetos exibidos na pesquisa na barra de ferramentas à esquerda dos resultados.\
-   Os valores de cada campo são exibidos, classificados por contagem, até dez valores para cada campo.
-1. Clique dentro de qualquer um dos campos disponíveis para encurtar a lista de resultados.\
-   As seleções feitas são destacadas em azul e os valores de campo que você não selecionar ficam ocultos.\
-   Após selecionar cada novo valor, os resultados à direita são atualizados dinamicamente.\
-   ![Refinar pesquisa](assets/qs-refine-search-350x175.png)
+1. Localize os campos disponíveis para os objetos exibidos na pesquisa na barra de ferramentas à esquerda dos resultados.
+Os valores de cada campo são exibidos, classificados por contagem, até dez valores para cada campo.
+1. Clique dentro de qualquer um dos campos disponíveis para encurtar a lista de resultados.
+As seleções feitas são destacadas em azul e os valores de campo que você não selecionar ficam ocultos.
+Após selecionar cada novo valor, os resultados à direita são atualizados dinamicamente.
+
+   ![Guia Pesquisa básica](assets/basic-search.png)
 
 1. (Opcional) Clique nos valores selecionados para desmarcá-los e exibir todos os valores para cada campo novamente.
 
 ### [!UICONTROL Pesquisa avançada]
 
-A [!UICONTROL Pesquisa avançada] permite pesquisar usando campos e filtros não disponíveis para a pesquisa básica. Por exemplo, você pode pesquisar por projetos com uma Prioridade ou um Nome de proprietário de documento específico.
+A [!UICONTROL Pesquisa Avançada] permite pesquisar usando campos e filtros não disponíveis para a Pesquisa Básica. Por exemplo, você pode pesquisar por projetos com uma Prioridade ou um Nome de proprietário de documento específico.
 
 >[!NOTE]
 >
->Para executar uma [!UICONTROL Pesquisa Avançada], você deve selecionar a opção [!UICONTROL Pesquisa Avançada] ao iniciar sua pesquisa. Você não pode refinar uma pesquisa básica em uma [!UICONTROL Pesquisa avançada].
+>Para executar uma [!UICONTROL Pesquisa Avançada], você deve selecionar a opção [!UICONTROL Pesquisa Avançada] ao iniciar sua pesquisa. Você não pode refinar uma Pesquisa Básica em uma [!UICONTROL Pesquisa Avançada].
 
 * [Usar [!UICONTROL Pesquisa Avançada]](#use-advanced-search)
 
@@ -260,14 +262,12 @@ Para executar uma pesquisa avançada:
    A página [!UICONTROL Pesquisa Avançada] é aberta a partir da direita e cobre a maior parte da página anterior.
 
 1. Selecione o tipo de objeto que você está procurando.\
-   **[!UICONTROL Projetos]** é selecionado por padrão.
+   **[!UICONTROL Tarefas]** é selecionado por padrão.
 
-   ![Objetos de pesquisa avançada](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![Objetos de pesquisa avançada](assets/advanced-search.png)
 
 1. (Opcional) Digite uma palavra-chave no campo na parte superior da lista.
-1. (Opcional) Clique em **[!UICONTROL Filtrar os resultados]** para filtrar os resultados da pesquisa com base em tipos de campos específicos e, em seguida, selecione um campo da lista. Se necessário, selecione também um valor para o campo.\
-   Ou\
-   Adicione um novo filtro.
+1. (Opcional) Ative **[!UICONTROL Filtrar os resultados]** para criar um filtro e refinar a pesquisa. Clique em **Aplicar** quando terminar.
 
 1. Clique em **[!UICONTROL Pesquisar]**.\
    Uma lista de itens que correspondem à sua pesquisa é exibida à direita da barra de ferramentas [!UICONTROL Pesquisa avançada].

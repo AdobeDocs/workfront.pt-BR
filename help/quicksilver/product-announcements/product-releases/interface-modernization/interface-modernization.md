@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
+source-git-commit: 7de63fbe2df6aa5f173b8e5647097e3f8aabc08c
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Atualizamos a página usada para conceder acesso de suporte à sua conta do Work
 
 ### Atualização de interface para o Centro de notificações
 
-**Versão de visualização: 27 de fevereiro de 2025; a ser anunciada**
+**Versão de visualização: 27 de fevereiro de 2025; iniciando a semana de 6 de março de 2025**
 
 Atualizamos o Centro de anúncios com um design mais moderno e consistente com outras áreas do Workfront.
 
@@ -71,7 +71,7 @@ Para exibir as configurações, acesse Configuração > Equipes.
 
 ### Atualização de interface para configurações do processo de aprovação em Configuração
 
-**Versão de visualização: 6 de fevereiro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 6 de fevereiro de 2025; Versão de produção: iniciando a semana de 13 de fevereiro de 2025**
 
 Atualizamos a caixa de diálogo Configurações de aprovação com um design mais moderno que é consistente com outras áreas do Workfront.
 
@@ -177,7 +177,7 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 ### Atualizações de interface para solicitações de equipe
 
-**Versão de visualização: 6 de março de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 6 de março de 2025; Versão de produção: 13 de março de 2025**
 
 Atualizamos a página Solicitações de equipe com um design mais moderno que é consistente com outras áreas do Workfront.
 
