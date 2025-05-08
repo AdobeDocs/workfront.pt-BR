@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Para todas as outras alterações no Adobe Workfront, consulte [Versões do prod
 
 ### Atualização de interface para pesquisa avançada
 
-**Versão de visualização: 17 de abril; Versão de produção: a ser anunciada**
+**Versão de visualização: 17 de abril; Versão de produção: início da semana de 24 de abril**
 
 Atualizamos a área Pesquisa avançada com as seguintes alterações:
 
@@ -157,7 +157,7 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 **Versão de visualização: 16 de janeiro de 2025; iniciando a semana de 30 de janeiro de 2025**
 
-We have updated the Add custom integration dialog box in Setup > Documents > Custom Integration with a more modern design that is consistent with other areas of Workfront.
+Atualizamos a caixa de diálogo Adicionar integração personalizada em Configurar > Documentos > Integração personalizada com um design mais moderno que é consistente com outras áreas do Workfront.
 
 Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade foi alterada.
 
@@ -344,19 +344,16 @@ Atualizamos a página de compartilhamento de documentos para usuários externos 
 
 Usuários externos não podem mais acessar _Minhas configurações_ nesta página.
 
-<!--
+### Página de registro de usuário externo atualizada
 
-### Updated external user registration page
+**Versão de visualização: 24 de abril de 2024; Versão de produção: iniciando a semana de 8 de maio de 2024**
 
-**Preview release: April 24, 2024; Production release: To be announced**
+Atualizamos a página de registro do usuário externo com um design mais moderno que é consistente com outras áreas do Workfront.
 
-We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+## Licenças
 
+### Página de contrato de licença atualizada
 
-## Licenses
+**Versão de visualização: 24 de abril de 2024; Versão de produção: iniciando a semana de 8 de maio de 2024**
 
-### Updated license agreement page
-
-**Preview release: tbd; Production release: To be announced**
-
-We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
+Atualizamos a página do contrato de licença com um design mais moderno e consistente com outras áreas do Workfront.
