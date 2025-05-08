@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
@@ -123,8 +123,6 @@ Para associar um processo de aprovação global existente a um projeto, tarefa, 
 1. Vá para o item de trabalho ao qual deseja associar um processo de aprovação.
 1. Clique em **Aprovações** no painel esquerdo.
 
-   Talvez seja necessário clicar em **Mostrar mais** e em **Aprovações**.
-
    ![Seção de aprovações na tarefa](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. ![Usar aprovações existentes ou criar aprovações de uso único](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
@@ -193,8 +191,6 @@ Para criar um processo de aprovação de uso único:
 1. Vá para o projeto, tarefa, problema, modelo ou tarefa de modelo onde deseja associar um processo de aprovação.
 1. Clique em **Aprovações** no painel esquerdo.
 
-   Talvez seja necessário clicar em **Mostrar mais** > **Aprovações**.
-
    ![Seção de aprovações na tarefa](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Clique em **Criar uso único**.
@@ -231,8 +227,6 @@ Para remover ou deletar um processo de aprovação de um item de trabalho:
 
 1. Vá para o projeto, tarefa, problema, modelo ou tarefa de modelo onde deseja remover um processo de aprovação adicionado anteriormente.
 1. Clique em **Aprovações** no painel esquerdo.
-
-   Talvez seja necessário clicar em **Mostrar mais** > **Aprovações**.
 
    ![Seção de aprovações na tarefa](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 

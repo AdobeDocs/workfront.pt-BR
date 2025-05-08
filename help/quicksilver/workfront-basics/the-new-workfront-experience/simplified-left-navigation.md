@@ -3,11 +3,12 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Navegação à esquerda em [!DNL Adobe Workfront]
 description: O painel de navegação esquerdo do  [!DNL Workfront]  facilita a navegação pelo sistema.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1373'
 ht-degree: 1%
 
 ---
@@ -242,7 +243,7 @@ Para saber quais seções estão disponíveis para áreas específicas, consulte
 
    A página do objeto é exibida.
 
-1. (Condicional) Se você selecionou uma área que contém uma lista de objetos, como **[!UICONTROL Projetos]** ou **[!UICONTROL Portfolio]**, você deve fazer o seguinte para acessar a navegação no painel esquerdo:
+1. (Condicional) Se você selecionou uma área que contém uma lista de objetos, como **[!UICONTROL Projetos]** ou **[!UICONTROL Portfólios]**, você deve fazer o seguinte para acessar a navegação no painel esquerdo:
 
    1. Clique em um objeto na lista.
    1. (Opcional) Na navegação do painel esquerdo, você pode selecionar outro objeto no painel esquerdo, como **[!UICONTROL Tarefas]** ou **[!UICONTROL Problemas]** em um projeto, para acessar uma lista de objetos e clicar no nome do objeto específico.\
@@ -254,12 +255,6 @@ Para saber quais seções estão disponíveis para áreas específicas, consulte
    Você deve ter permissões para editar o objeto antes de poder editar as informações.
 
    ![Seções do painel esquerdo](assets/NWE-left-navigation-panel.png)
-
-1. (Opcional) Clique em **[!UICONTROL Mostrar mais]** na parte inferior do painel esquerdo para exibir mais seções.
-
-   >[!NOTE]
-   >
-   >Essa opção não estará disponível se todas as seções forem exibidas no painel esquerdo por padrão.
 
 1. (Opcional) Para adicionar um link rápido do painel, clique em **[!UICONTROL Adicionar painel]** na parte inferior do painel esquerdo e, em seguida, faça o seguinte:
 

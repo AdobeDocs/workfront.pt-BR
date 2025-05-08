@@ -6,9 +6,9 @@ description: Você pode configurar um projeto para permitir que os usuários adi
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: fedb0328450896d212081715df4cde7644b169bc
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ As seguintes condições são necessárias para configurar um projeto e permitir
 >Recomendamos que o projeto configurado para receber solicitações por emails não tenha mais de um tópico de fila. Se as solicitações enviadas se destinam a recursos ou projetos diferentes, você deve direcioná-las ou movê-las manualmente após o envio.
 
 1. Vá para o projeto que você deseja habilitar para receber problemas por email.
-1. Clique em **Detalhes da fila** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais** primeiro.
+1. Clique em **Detalhes da fila** no painel esquerdo.
 1. Na área **Tipo de Fila**, selecione **Publicar como Fila de Solicitação de Ajuda**.
 
 1. Role para baixo até a área **Configurações da fila de emails** e selecione **Habilitar entrada de solicitação por email**.
