@@ -6,9 +6,9 @@ description: Recomendamos que você adicione projetos aos portfólios ao iniciá
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,8 @@ Considere o seguinte ao adicionar projetos a portfólios:
    >
    >Não é possível adicionar um projeto ao exibir a lista de projetos na exibição [!UICONTROL Marco].
 
+   ![Adicionar projeto existente](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+
    Selecione entre as seguintes opções:
 
    <table style="table-layout:auto"> 
@@ -100,9 +102,13 @@ Considere o seguinte ao adicionar projetos a portfólios:
 
    ![Lista suspensa de novos projetos](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Condicional) Se você optou por adicionar um projeto existente, comece digitando o nome de um projeto na caixa **[!UICONTROL Adicionar projetos]**, em seguida, clique neles quando eles aparecerem na lista. É possível adicionar vários projetos de uma vez.
+1. (Condicional) Se você optou por adicionar um projeto existente, comece digitando o nome de um projeto no campo **[!UICONTROL Adicionar projetos a esta Portfolio]** e, em seguida, clique neles quando eles aparecerem na lista.
 
-   ![Adicionar projeto existente](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   Você pode adicionar mais de um projeto.
+
+1. (Opcional) Clique no ícone **X** à direita do nome do projeto para removê-lo da lista, caso decida não adicioná-lo ao portfólio.
+
+   <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
 1. Clique em **[!UICONTROL Adicionar projetos]**.
 

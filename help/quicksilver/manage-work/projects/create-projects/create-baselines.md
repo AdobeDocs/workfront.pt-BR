@@ -6,9 +6,9 @@ description: Uma linha de base é um instantâneo de projeto que representa as i
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -115,10 +115,6 @@ Para criar uma linha de base:
 
 1. Ir para um projeto.
 1. No painel esquerdo, clique em **Linhas de Base**.
-
-   Ou
-
-   Clique em **Mostrar mais** e em **Linhas de Base**.
 
    ![Seção Linhas de Base no projeto](assets/baselines-section-on-project-with-header.png)
 

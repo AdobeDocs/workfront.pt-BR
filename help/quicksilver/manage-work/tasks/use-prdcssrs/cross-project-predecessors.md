@@ -6,9 +6,9 @@ description: Uma Predecessora entre projetos é uma tarefa da qual outra tarefa 
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Criar uma predecessora entre projetos
 
 1. Vá para a tarefa que será sua sucessora (tarefa dependente).
-1. Clique em **Predecessores** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Predecessores**.
+1. Clique em **Predecessores** no painel esquerdo.
 
    >[!TIP]
    >

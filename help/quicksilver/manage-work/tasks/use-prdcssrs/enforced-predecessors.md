@@ -6,9 +6,9 @@ description: Predecessoras são tarefas das quais outras tarefas dependem para s
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Forçar um predecessor no nível da tarefa
 
 1. Vá para a tarefa sucessora cujo antecessor você deseja impor.
-1. Clique em **Predecessoras** no painel esquerdo e em **Adicionar Predecessora**. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Predecessores**.
+1. Clique em **Predecessoras** no painel esquerdo e em **Adicionar Predecessora**.
 1. (Condicional) Se quiser adicionar uma predecessora entre projetos, remova o nome do projeto no campo **Projeto principal** e substitua-o por outro projeto.
 1. Especifique o nome da(s) tarefa(s) predecessora(s) no campo **Tarefas**.
 1. Especifique o **Tipo de Dependência** entre essas duas tarefas.

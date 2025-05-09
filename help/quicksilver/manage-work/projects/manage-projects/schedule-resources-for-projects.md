@@ -2,22 +2,26 @@
 product-area: projects;resource-management
 navigation-topic: manage-projects
 title: Agendar recursos para um projeto
-description: Você pode agendar recursos para um único projeto para indicar a qual trabalho cada recurso está atribuído, bem como quanto tempo eles devem gastar concluindo seu trabalho. Você pode agendar recursos para um projeto e alocar horas para cada recurso usando a ferramenta Agendamento ou o Balanceador de carga de trabalho no nível do projeto.
-author: Alina
+description: Você pode agendar recursos para um único projeto para indicar a qual trabalho cada recurso está atribuído, bem como quanto tempo eles devem gastar concluindo seu trabalho. Você pode agendar recursos para um projeto e alocar horas para cada recurso usando o Balanceador de carga de trabalho no nível do projeto.
+author: Alina, Lisa
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 1%
+source-wordcount: '283'
+ht-degree: 2%
 
 ---
 
 # Agendar recursos para um projeto
 
-Você pode agendar recursos para um único projeto para indicar a qual trabalho cada recurso está atribuído, bem como quanto tempo eles devem gastar concluindo seu trabalho. Você pode agendar recursos para um projeto e alocar horas para cada recurso usando a ferramenta Agendamento ou o Balanceador de carga de trabalho no nível do projeto.
+<!--Audited: 5/2025-->
+
+Você pode agendar recursos para um único projeto para indicar a qual trabalho cada recurso está atribuído, bem como quanto tempo eles devem gastar concluindo seu trabalho. Você pode agendar recursos para um projeto e alocar horas para cada recurso usando o Balanceador de carga de trabalho no nível do projeto.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -45,31 +49,25 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do Contribute ou superiores para projetos, tarefas e problemas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Contribuir com permissões ou com permissões superiores para projetos, tarefas e problemas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Agendar recursos para um projeto
 
-Para acessar a ferramenta Cronograma em um projeto:
+Você pode usar o Balanceador de carga de trabalho para agendar recursos para um projeto.
 
 1. Vá para o projeto para o qual deseja agendar recursos.
-1. Clique na seção **Agendamento** ou Balanceador de carga de trabalho no painel esquerdo. A seção Agendamento ou Balanceador de Carga de Trabalho pode estar localizada em **Mostrar Mais**.
-
-   Para obter informações sobre como agendar recursos usando a ferramenta Agendamento em um projeto, consulte a seção &quot;Modificar atribuições e alocações de usuário&quot; no artigo &quot;Introdução ao Agendamento de recursos&quot;.
-
-1. (Condicional e recomendado) Se você clicou em Agendamento, clique em **Alternar para Balanceador de Carga de Trabalho** para agendar recursos usando o Balanceador de Carga de Trabalho.
-
-   >[!TIP]
-   >
-   >Se você tiver selecionado Balanceador de carga de trabalho antes, o nome da seção será alterado para Balanceador de carga de trabalho.
+1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
    Para obter informações sobre como programar recursos usando o Balanceador de carga de trabalho, consulte os seguintes artigos:
 
    * [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
    * [Gerenciar alocações de usuário no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
- 
+

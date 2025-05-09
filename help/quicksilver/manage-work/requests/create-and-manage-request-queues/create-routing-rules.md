@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Depois de criado, não é possível mover regras de roteamento de um projeto par
 ## Criar uma Regra de Encaminhamento
 
 1. Vá para o projeto no qual deseja adicionar regras de roteamento para suas solicitações.
-1. Clique em **Regras de roteamento** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Regras de Roteamento**.
+1. Clique em **Regras de roteamento** no painel esquerdo.
 1. Clique em **Nova Regra de Roteamento** para adicionar a nova regra. A caixa **Nova Regra de Roteamento** é aberta.
 
    ![Caixa Nova Regra de Roteamento](assets/new-routing-rule-box.png)

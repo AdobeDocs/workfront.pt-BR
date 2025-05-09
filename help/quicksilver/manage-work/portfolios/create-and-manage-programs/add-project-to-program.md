@@ -2,24 +2,26 @@
 product-area: programs;projects
 navigation-topic: create and manage programs
 title: Adicionar um projeto a um programa
-description: Você pode organizar seus projetos adicionando-os a programas dentro de portfólios. Você pode ter vários projetos dentro de um programa, mas pode associar apenas um programa a um projeto.
+description: Você pode organizar seus projetos adicionando-os a programas dentro de portfólios. Você pode ter vários projetos dentro de um programa, mas pode associar apenas um programa a um projeto. Adicionar um projeto a um programa o adiciona automaticamente ao portfólio do programa ao mesmo tempo.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # Adicionar um projeto a um programa
 
-<!--Audited: 7/2024-->
+<!--Audited: 5/2025-->
 
 Você pode organizar seus projetos adicionando-os a programas dentro de portfólios. Você pode ter vários projetos dentro de um programa, mas pode associar apenas um programa a um projeto.
 
 Você deve criar um portfólio e um programa dentro deste portfólio antes de poder adicionar um projeto a um programa.
+
+Adicionar um projeto a um programa o adiciona automaticamente ao portfólio do programa ao mesmo tempo.
 
 Para obter informações sobre como criar portfólios, consulte [Criar um portfólio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
@@ -98,7 +100,19 @@ Para obter informações sobre como criar programas, consulte [Criar um programa
     </tbody> 
    </table>
 
-1. (Condicional) Se você selecionou **[!UICONTROL Projeto existente]**, faça o seguinte:
+1. (Condicional) Se você selecionou **[!UICONTROL Projeto existente]**, a caixa **Adicionar projetos** será aberta.
 
-   1. Na caixa de diálogo **[!UICONTROL Adicionar projetos]**, digite o nome do projeto no campo fornecido e selecione-o quando ele aparecer na lista. É possível adicionar vários projetos de uma vez.
-   1. Clique em **[!UICONTROL Adicionar projetos]**.**&#x200B;**&#x200B;O projeto aparece na guia **[!UICONTROL Projetos]** do programa e agora está associado ao programa e ao portfólio.
+   <!--screen shot at unshim?-->
+
+1. Faça o seguinte:
+
+   1. Na caixa **[!UICONTROL Adicionar projetos]**, digite o nome de um projeto no campo **Adicionar projetos a este programa** e selecione-o quando ele for exibido na lista. <!--check casing on links and buttons-->
+
+      Você pode adicionar mais de um projeto.
+   1. (Opcional) Clique no ícone **X** à direita do nome do projeto para removê-lo da lista, caso decida não adicioná-lo ao programa.
+
+      <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the program.-->
+
+   1. Clique em **[!UICONTROL Adicionar projetos]**.
+
+      O projeto aparece na guia **[!UICONTROL Projetos]** do programa e agora está associado ao programa e ao respectivo portfólio.

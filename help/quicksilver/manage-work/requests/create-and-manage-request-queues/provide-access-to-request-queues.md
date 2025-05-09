@@ -6,9 +6,9 @@ description: Ao fornecer acesso a uma fila de solicitações, você determina qu
 author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Ao fornecer acesso a uma fila de solicitações, você determina quem na organização pode exibir a fila de solicitações na área Solicitações do Adobe Workfront.
 
-Você pode fornecer a diferentes usuários acesso a uma Fila de solicitações, dependendo se eles fazem parte da equipe do projeto, do grupo do projeto ou da empresa do projeto. Você também pode fornecer acesso a todos no sistema a uma fila de solicitações. 
+Você pode fornecer a diferentes usuários acesso a uma Fila de solicitações, dependendo se eles fazem parte da equipe do projeto, do grupo do projeto ou da empresa do projeto. Você também pode fornecer acesso a todos no sistema a uma fila de solicitações.
 
 Isso é útil em organizações que convidam participantes externos para o Workfront e desejam limitar o acesso dos usuários a áreas específicas — nesse caso, uma fila de solicitações aberta apenas para os usuários associados à empresa ou grupo do projeto limita a visibilidade a participantes externos. Dar acesso a qualquer pessoa torna a solicitação visível para os participantes internos e externos.
 
@@ -72,13 +72,13 @@ Antes da fila de solicitações estar disponível para usuários na área Solici
    >
    >Somente projetos com o status Atual ficam visíveis na área Solicitações.
 
-1. Clique em **Detalhes da fila** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e em **Detalhes da Fila**.
+1. Clique em **Detalhes da fila** no painel esquerdo.
 1. Selecione **Publicar como Fila de Solicitação de Ajuda** para designar o projeto como uma Fila de Solicitação.
 1. Selecione entre as seguintes opções:
 
    * **Qualquer um**: qualquer usuário pode visualizar e adicionar solicitações à fila de solicitações.
-   * **Pessoas com acesso de exibição a este projeto**: os usuários com permissões de exibição para o projeto podem exibir e adicionar solicitações à fila de solicitações. 
-   * **Pessoas da empresa deste projeto**: os usuários associados à Empresa do projeto podem exibir e adicionar solicitações. A Empresa associada ao projeto está listada entre parênteses ao lado dessa opção. 
+   * **Pessoas com acesso de exibição a este projeto**: os usuários com permissões de exibição para o projeto podem exibir e adicionar solicitações à fila de solicitações.
+   * **Pessoas da empresa deste projeto**: os usuários associados à Empresa do projeto podem exibir e adicionar solicitações. A Empresa associada ao projeto está listada entre parênteses ao lado dessa opção.
    * **Pessoas neste grupo de projeto**:Os usuários associados ao Grupo do projeto podem exibir e adicionar solicitações. O Grupo associado ao projeto é listado entre parênteses ao lado dessa opção.
 
      As filas de grupo são úteis quando vários departamentos compartilham uma conta do Workfront para atingir metas organizacionais exclusivas. Cada departamento pode ter suas próprias filas que os membros de outros grupos não podem ver.

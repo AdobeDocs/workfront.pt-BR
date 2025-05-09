@@ -8,9 +8,9 @@ description: As métricas do projeto oferecem uma visualização do que está ac
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Você pode optar por verificar as atribuições de tarefas de um projeto nas seg
 Você pode interagir com os gráficos na área Métricas para analisar diferentes aspectos de um gráfico ou observar mais detalhadamente as tarefas e problemas em um gráfico.
 
 1. Vá para o projeto para o qual deseja ver as métricas.
-1. No painel esquerdo, clique em **Mostrar mais** para exibir mais seções e clique em **Métricas**.\
+1. No painel esquerdo, clique em **Métricas**.\
    Os gráficos na área Métricas exibem informações para tarefas por padrão.\
    ![](assets/metrics-section-350x298.png)
 

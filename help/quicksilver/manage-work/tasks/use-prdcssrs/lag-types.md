@@ -7,9 +7,9 @@ description: Atraso é o tempo que deve decorrer após a conclusão de um predec
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ Considere as seguintes regras ao usar intervalos negativos:
 ### Indicar Tipos de Defasagem na seção Predecessores de uma tarefa {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Vá para uma tarefa para a qual deseja definir o predecessor e o Tipo de Defasagem.
-1. Clique em **Predecessores** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Predecessores**.
+1. Clique em **Predecessores** no painel esquerdo.
 1. Clique em **Adicionar predecessor**.
 1. (Opcional) Se você deseja adicionar um predecessor entre projetos, substitua o nome do **Projeto pai** por outro projeto.
 1. Comece digitando o nome da tarefa predecessora e selecione-a quando ela aparecer na lista.

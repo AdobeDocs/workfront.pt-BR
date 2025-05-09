@@ -7,9 +7,9 @@ description: Um predecessor é a tarefa da qual outra tarefa (chamada de tarefa 
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Para localizar os predecessores de uma tarefa, siga um destes procedimentos:
 * Vá para o projeto em que você está trabalhando e faça o seguinte:
 
    1. Localize a tarefa para a qual deseja encontrar as predecessoras e clique na tarefa.
-   1. Clique em **Predecessores** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Predecessores**.
+   1. Clique em **Predecessores** no painel esquerdo.
    1. O nome do projeto do qual o antecessor é exibido na coluna **Projeto**.
 
       O número na coluna **#** mostra o número da tarefa predecessora. Por exemplo, &quot;6&quot; significa a sexta tarefa no projeto.

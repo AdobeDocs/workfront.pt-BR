@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Para obter mais informações sobre quais notificações podem ser habilitadas p
 
 1. Vá para o projeto ao qual deseja adicionar usuários.
 
-1. Clique em **Pessoas** no painel esquerdo. Talvez seja necessário clicar em **Mostrar mais** primeiro.
+1. Clique em **Pessoas** no painel esquerdo.
 
 1. Clique em **Adicionar usuários**.
 
