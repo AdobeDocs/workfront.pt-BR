@@ -193,7 +193,7 @@ Na linha de agrupamento de uma função de trabalho, observe a taxa de cobrança
 
 ### Vários valores de Taxa de Cobrança e cronogramas {#multiple-billing-rate-values-and-timeframes}
 
-Se você tiver várias taxas de faturamento de sobreposição para uma função de trabalho específica, elas serão listadas no agrupamento dessa função de trabalho. Usando a edição em linha, você pode alterar as taxas de substituição e a **Data de início****Data** e a **Data de término** das taxas de cobrança de substituição nesta guia.
+Se você tiver várias taxas de faturamento de sobreposição para uma função de trabalho específica, elas serão listadas no agrupamento dessa função de trabalho. Usando a edição em linha, você pode alterar as taxas de substituição e a **Data de início**&#x200B;**Data** e a **Data de término** das taxas de cobrança de substituição nesta guia.
 
 >[!NOTE]
 >
