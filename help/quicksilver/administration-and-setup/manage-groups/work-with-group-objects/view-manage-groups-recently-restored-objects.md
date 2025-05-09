@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
@@ -30,28 +30,34 @@ Para obter mais informações sobre itens restaurados, consulte [Restaurar itens
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td>
+   <td><p>Novo: Padrão</p>
+       <p>Ou</p>
+       <p>Atual: Plano</p></td>
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Os itens restaurados devem ser associados ao grupo ou a qualquer um de seus subgrupos. </p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Você deve ser um administrador de grupo do grupo ou um administrador do sistema.</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Permissões de objeto</td>
+   <td>Os itens restaurados devem ser associados ao grupo ou a qualquer um de seus subgrupos.</td> 
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +79,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
    Cada guia lista itens do tipo de objeto correspondente que pertencem ao grupo atual ou a seus subgrupos e que foram restaurados nos últimos 30 dias.
 
-1. Siga um destes procedimentos:
+1. Conclua qualquer uma das seguintes ações:
 
    <table style="table-layout:auto"> 
     <col> 

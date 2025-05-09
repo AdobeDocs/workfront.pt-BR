@@ -5,9 +5,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Anexar um cartão de taxa a um projeto
 
 1. Vá para o projeto.
-1. Clique em **Taxas de cobrança** no painel esquerdo. Talvez seja necessário clicar primeiro em **Mostrar mais**.
+1. Clique em **Taxas de cobrança** no painel esquerdo.
 1. Clique em **Adicionar taxa de cobrança > Anexar um cartão de taxa**.
 
    A página Anexar um cartão de taxa é aberta. Para obter mais informações, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).

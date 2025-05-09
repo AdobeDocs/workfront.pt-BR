@@ -6,7 +6,7 @@ description: É possível usar as taxas de faturamento para calcular a receita d
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 0%
@@ -134,7 +134,7 @@ Para obter mais informações sobre qual função de trabalho é usada para calc
 <p>To override a billing rate for a project:</p>
 <ol>
 <li value="1">Go to the project you want to override billing rates for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. You might have to first click <strong>Show More</strong>. </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. </p> </li>
 <li value="3"> <p>Click <strong>Add Billing Rate</strong> > <strong>New Billing Rate</strong>.</p> <p>The New Billing Rate box opens</p> <p> <img src="assets/override-billing-rate-on-project-nwe-350x310.png" style="width: 350;height: 310;"> </p> <p> <br>The <strong>Default Billing Rate</strong> field displays the system-level rate for this job role.</p> </li>
 <li value="4">In the <strong>Job Role</strong> field, select the job role you want to change the billing rate for.<br></li>
 <li value="5">In the <strong>Billing Rates 1</strong> field, enter the one time billing rate override, then click <strong>Save</strong> to override the billing rate one time, <br>Or Click <strong>Add Rate</strong> to add more billing rate overrides.</li>
@@ -193,7 +193,7 @@ Na linha de agrupamento de uma função de trabalho, observe a taxa de cobrança
 
 ### Vários valores de Taxa de Cobrança e cronogramas {#multiple-billing-rate-values-and-timeframes}
 
-Se você tiver várias taxas de faturamento de sobreposição para uma função de trabalho específica, elas serão listadas no agrupamento dessa função de trabalho. Usando a edição em linha, você pode alterar as taxas de substituição e a **Data de início**&#x200B;**Data** e a **Data de término** das taxas de cobrança de substituição nesta guia.
+Se você tiver várias taxas de faturamento de sobreposição para uma função de trabalho específica, elas serão listadas no agrupamento dessa função de trabalho. Usando a edição em linha, você pode alterar as taxas de substituição e a **Data de início****Data** e a **Data de término** das taxas de cobrança de substituição nesta guia.
 
 >[!NOTE]
 >
@@ -358,7 +358,7 @@ Para obter mais informações sobre como recalcular as finanças do projeto, con
 
 ## Adicionar uma nova taxa de cobrança usando a API
 
-Para adicionar uma nova taxa de cobrança para uma função de trabalho usando a API, execute uma ação *setRatesForRole* para o objeto **Rate** usando o método *PUT*.
+Para adicionar uma nova taxa de cobrança para uma função de trabalho usando a API, execute uma ação *setRatesForRole* para o objeto **Rate** usando o *método PUT*.
 Os campos de ação e data no objeto **Rate** estão disponíveis na API versão 8.0.
 Se você já tiver várias taxas de cobrança definidas para uma função de trabalho em um projeto e quiser adicionar uma nova taxa de cobrança para ele com um novo intervalo de datas, será necessário incluir a taxa existente e a taxa a ser adicionada na mesma chamada de API. É semelhante à forma como as coleções são atualizadas em objetos.
 

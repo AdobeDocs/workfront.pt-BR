@@ -6,9 +6,9 @@ description: Você pode exibir a utilização de seus recursos no relatório de 
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '7283'
+source-wordcount: '7285'
 ht-degree: 1%
 
 ---
@@ -453,7 +453,7 @@ Para acompanhar o andamento ou o custo de um ou mais projetos com um relatório 
 
    * Para exibir as informações de utilização de um único projeto:
 
-      1. Vá para um projeto para o qual deseja exibir as informações de utilização e clique em **Mostrar Mais> Utilização**.
+      1. Vá para um projeto para o qual deseja exibir as informações de utilização e clique em **Utilização** no painel esquerdo.
       1. As informações de utilização são exibidas automaticamente ao visualizar um projeto individual, e a aplicação de um filtro não é necessária.\
          Para filtrar o relatório de Utilização, aplique um filtro e clique em **Executar**.\
          Para obter informações sobre como filtrar o relatório de Utilização, consulte [Informações de utilização do filtro](#filter-utilization-information) neste artigo.\

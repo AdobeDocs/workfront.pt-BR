@@ -7,9 +7,9 @@ description: Você pode usar o Balanceador de carga de trabalho para agendar rec
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '714'
 ht-degree: 1%
 
 ---
@@ -122,7 +122,7 @@ A página da sua equipe inicial é exibida.
 {{step1-to-projects}}
 
 1. Clique no nome de um projeto para abrir a página.
-1. Clique em **Balanceador de carga de trabalho** no painel esquerdo. Talvez seja necessário clicar em **Mostrar Mais** e depois em **Balanceador de Carga de Trabalho**.
+1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
 
    O Balanceador de carga de trabalho do projeto é exibido.
 

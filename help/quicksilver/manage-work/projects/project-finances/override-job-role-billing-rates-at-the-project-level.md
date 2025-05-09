@@ -6,9 +6,9 @@ description: Como gerente de projeto, você pode especificar a taxa de faturamen
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Você pode sobrepor a taxa de faturamento de uma função de trabalho em um proj
 Para sobrepor uma taxa de faturamento para um projeto:
 
 1. Vá para o projeto para o qual você deseja substituir as taxas de faturamento.
-1. Clique em **Taxas de cobrança** no painel esquerdo. Talvez seja necessário clicar primeiro em **Mostrar mais**.
+1. Clique em **Taxas de cobrança** no painel esquerdo.
 1. Clique em **Adicionar Taxa de Cobrança** > **Nova Taxa de Cobrança**.
 
    A caixa Nova taxa de cobrança é aberta.

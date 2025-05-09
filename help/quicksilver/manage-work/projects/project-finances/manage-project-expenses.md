@@ -6,7 +6,7 @@ description: O processo para criar e gerenciar despesas é o mesmo para despesas
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 1%
@@ -58,14 +58,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Adicionar despesas
 
 1. Vá para o projeto onde deseja inserir despesas.\
-   Se quiser adicionar despesas a uma tarefa, navegue até uma tarefa. 
-1. Clique em **Mostrar mais** e em **Despesas**.
+   Se quiser adicionar despesas a uma tarefa, navegue até uma tarefa.
+1. Clique em **Despesas** no painel esquerdo.
 1. Clique em **Adicionar uma Despesa**.
 A caixa de diálogo **Adicionar uma Despesa** é exibida.
 1. Atualize o seguinte:
 
    * **Descrição:** Descrição da despesa.
-
    * **Tipo de Despesa:** (Obrigatório) Selecione a categoria que melhor descreve a despesa.
    * **Tarefa:** comece a digitar o nome da tarefa à qual esta despesa está associada e clique nele quando ele aparecer na lista suspensa.
    * **Valor Planejado:** O valor orçado planejado para a despesa.\
@@ -87,7 +86,6 @@ A caixa de diálogo **Adicionar uma Despesa** é exibida.
 ## Apagar Despesas
 
 1. Vá para o projeto no qual deseja excluir as despesas.
-1. Clique em **Mostrar mais** e em **Despesas**.
+1. Clique em **Despesas** no painel esquerdo.
 1. Selecione as despesas que deseja excluir e clique em **Excluir** ![Excluir](assets/delete.png).
-
 1. Clique em **Sim, Excluir** para confirmar a exclusão.

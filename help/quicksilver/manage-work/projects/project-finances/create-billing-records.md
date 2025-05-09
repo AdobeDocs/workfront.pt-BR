@@ -5,9 +5,9 @@ description: Além de configurar as despesas de rastreamento e receita, você po
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,6 @@ Considere o seguinte ao planejar usar registros de faturamento:
 
 1. Navegue até um projeto.
 1. Clique em **Registros de cobrança** no painel esquerdo.
-
-   Esta seção pode estar localizada em **Mostrar Mais**.
-
 1. Com **Detalhes do Registro de Cobrança** selecionados no painel esquerdo, clique em **Novo Registro de Cobrança**.
 1. Na caixa **Novo Registro de Cobrança** que é exibida, especifique as seguintes informações:
 
@@ -164,11 +161,7 @@ Para adicionar horas faturáveis a um registro de faturamento:
 
 1. Vá para o projeto com os registros de cobrança.
 1. Clique em **Registros de cobrança** no painel esquerdo.
-
-   Esta seção pode estar localizada em **Mostrar Mais**.
-
 1. Clique na **Descrição** de um registro de cobrança para abrir a guia **Detalhes do Registro de Cobrança**.
-
 1. Clique em **Horas faturáveis** no painel esquerdo.
 1. Se houver horas que possam ser incluídas em um registro de cobrança, clique em **Adicionar horas**.\
    A caixa **Adicionar horas faturáveis** é aberta.
@@ -190,11 +183,7 @@ Para adicionar despesas faturáveis a um registro de faturamento:
 
 1. Vá para o projeto com os registros de cobrança.
 1. Clique em **Registros de cobrança** no painel esquerdo.
-
-   Talvez seja necessário clicar em **Mostrar mais** e depois em **Registros de cobrança**.
-
 1. Clique na **Descrição** de um registro de cobrança para abrir a guia **Detalhes do Registro de Cobrança**.
-
 1. Clique em **Despesas faturáveis** no painel esquerdo.
 1. (Condicional) Se você tiver adicionado despesas às suas tarefas ou ao projeto e as tiver marcado como Faturáveis, clique em **Adicionar despesas**.
 
@@ -215,11 +204,7 @@ Para adicionar receitas fixas a um registro de faturamento:
 
 1. Vá para o projeto com os registros de cobrança.
 1. Clique em **Registros de cobrança** no painel esquerdo.
-
-   Talvez seja necessário clicar em **Mostrar mais** e depois em **Registros de cobrança**.
-
 1. Clique na **Descrição** de um registro de cobrança para abrir a guia **Detalhes do Registro de Cobrança**.
-
 1. Selecione a guia **Receitas fixas**.
 1. Se você tiver adicionado receitas fixas às suas tarefas, clique em **Adicionar receitas fixas**.
 

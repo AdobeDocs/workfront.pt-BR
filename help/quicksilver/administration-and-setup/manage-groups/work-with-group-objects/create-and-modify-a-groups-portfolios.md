@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Criar e modificar os Portfolio de um grupo
+title: Criar e modificar os portfólios de um grupo
 description: Como administrador de grupo, ao visualizar um grupo gerenciado na área Grupos, você pode visualizar e trabalhar com seus portfólios.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
@@ -25,28 +25,34 @@ Se houver algum grupo acima do grupo gerenciado por você, os administradores ta
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">licença do Adobe workfront*</td> 
-   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td>
+   <td><p>Novo: Padrão</p>
+       <p>Ou</p>
+       <p>Atual: Plano</p></td>
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>O portfólio deve estar associado ao grupo ou a qualquer um de seus subgrupos.</p> <p>Além disso, você deve ter permissões para visualizar o portfólio, porque você o criou ou porque ele foi compartilhado com você.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Você deve ser um administrador de grupo do grupo ou um administrador do sistema.</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Permissões de objeto</td>
+   <td> <p>O portfólio deve estar associado ao grupo ou a qualquer um de seus subgrupos.</p> <p>Além disso, você deve ter permissões para visualizar o portfólio, porque você o criou ou porque ele foi compartilhado com você.</p></td> 
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,7 +63,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 1. No painel esquerdo, clique em **Grupos** ![Grupos](assets/groups-icon.png).
 
 1. Clique no nome do grupo para o qual deseja criar, exibir ou trabalhar com portfólios.
-1. No painel esquerdo, clique em **Portfolio** para listar os portfólios associados ao grupo (e quaisquer subgrupos abaixo dele).
+1. No painel esquerdo, clique em **Portfólios** para listar os portfólios associados ao grupo (e quaisquer subgrupos abaixo dele).
 1. Siga um destes procedimentos:
 
    <table style="table-layout:auto"> 
@@ -69,10 +75,10 @@ Você deve ter o seguinte para executar as etapas deste artigo:
       <td> 
        <ol> 
         <li value="1"> <p>Clique em <strong>Novo Portfolio</strong>.</p> </li> 
-        <li value="2">Substitua <strong>Portfolio sem título</strong> pelo nome desejado para o portfólio.</li>
+        <li value="2">Substitua <strong>Portfolio</strong> sem título pelo nome desejado para o portfólio.</li>
         <li value="3"><p>Clique em <strong>Detalhes do Portfolio</strong> no painel esquerdo e atualize as informações na área Visão geral, conforme necessário.</p>
         <p>Para obter mais informações sobre as opções de configuração, consulte <a href="/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Criar um portfólio</a>.</p></li>
-        <li value="4">Clique no botão Voltar do navegador para retornar à lista de Portfolio do grupo.</li> 
+        <li value="4">Clique no botão Voltar do navegador para retornar à lista Portfólios do grupo.</li> 
        </ol> </td>
      </tr> 
      <tr> 

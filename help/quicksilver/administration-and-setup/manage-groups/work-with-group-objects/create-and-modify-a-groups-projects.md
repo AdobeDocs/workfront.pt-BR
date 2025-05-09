@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -29,32 +29,39 @@ Se houver algum grupo acima do seu, os administradores também poderão fazer es
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td >Plano Workfront</a>*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td>licença do Adobe Workfront</a>*</td> 
-   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Administradores de grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Conceder acesso administrativo total a um usuário</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td>
+   <td><p>Novo: Padrão</p>
+       <p>Ou</p>
+       <p>Atual: Plano</p></td>
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Você deve ser um administrador de grupo do grupo ou um administrador do sistema.</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Permissões de objeto</td>
    <td> 
     <ul> 
      <li> <p>O projeto deve ser associado ao grupo ou a qualquer um de seus subgrupos. </p> <p>Para obter informações sobre como atribuir um grupo a um projeto, consulte <a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">Gerenciar informações na área Visão Geral do projeto</a>.</p> </li> 
-     <li> <p>Além disso, você deve ter permissões para editar o projeto, porque você o criou ou porque ele foi compartilhado com você.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </li> 
-    </ul> <p><b>OBSERVAÇÃO</b>: quando você cria um projeto a partir da página de um grupo, o sistema atribui o projeto a esse grupo. Isso é diferente de criar um projeto em outras áreas do Workfront, onde o sistema atribui o projeto ao Grupo inicial do usuário que o cria (o Proprietário do projeto).</p> </td> 
+     <li> <p>Além disso, você deve ter permissões para editar o projeto, porque você o criou ou porque ele foi compartilhado com você.</p></li> 
+    </ul>
+    <p><b>OBSERVAÇÃO</b>: quando você cria um projeto a partir da página de um grupo, o sistema atribui o projeto a esse grupo. Isso é diferente de criar um projeto em outras áreas do Workfront, onde o sistema atribui o projeto ao Grupo inicial do usuário que o cria (o Proprietário do projeto).</p> </td>
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

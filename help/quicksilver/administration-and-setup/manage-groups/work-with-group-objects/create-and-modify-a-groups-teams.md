@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1012'
 ht-degree: 3%
 
 ---
@@ -29,24 +29,30 @@ Para obter informações sobre como um administrador do Workfront pode criar uma
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> <p>Você deve ser um administrador de grupo do grupo ou um administrador do Workfront. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">Administradores de grupo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">Conceder acesso administrativo total a um usuário</a>.</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td>
+   <td><p>Novo: Padrão</p>
+       <p>Ou</p>
+       <p>Atual: Plano</p></td>
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Você deve ser um administrador de grupo do grupo ou um administrador do sistema.</td>
+  </tr>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Se precisar descobrir o tipo de plano ou licença, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,7 +84,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
        <td> <p> O sistema preenche o campo Grupo da nova equipe com o grupo que você está visualizando. Se quiser associar um grupo diferente, comece digitando o nome do grupo, em seguida selecione o nome quando ele aparecer.</p> <p>Você pode verificar se está associando o grupo correto à equipe, passando o cursor do mouse sobre ele e clicando no ícone de informações <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p><b>OBSERVAÇÃO</b>: quando uma equipe é atribuída a um grupo ou subgrupo, qualquer administrador desse grupo ou subgrupo pode gerenciar a equipe sem ser membro dele. Os administradores de grupo podem ir para a área Equipes no menu principal e clicar na seta Trocar equipes <img src="assets/switch-team-icon.png" alt="Ícone Trocar equipe"> para listar todas as equipes atribuídas aos grupos que eles gerenciam.</p> </td> 
        </tr> 
        <tr> 
-       <td role="rowheader">Membros da Equipe</td> 
+       <td role="rowheader">Membros da equipe</td> 
        <td> <p>Comece a digitar o nome de um usuário para fazer parte da equipe e selecione o nome quando o no for exibido na lista suspensa. Repita esse processo para adicionar vários usuários à equipe.</p> <p>Não há limite para quantos usuários você pode adicionar a uma equipe. No entanto, recomendamos não ter um número excessivamente grande de usuários em uma equipe, pois o gerenciamento de trabalho da equipe pode se tornar muito complexo.</p> </td> 
        </tr> 
        <tr> 
@@ -119,7 +125,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
        <td>Selecione um proprietário para a equipe.</td> 
        </tr> 
        <tr> 
-       <td role="rowheader">Membros da Equipe</td> 
+       <td role="rowheader">Membros da equipe</td> 
        <td> <p>Adicionar e membros da equipe. Comece a digitar o nome de um usuário e selecione o nome quando ele for exibido. Repita esse processo para adicionar vários usuários à equipe.</p> <p><b>DICA</b>: não há limite para o número de usuários que você pode adicionar a uma equipe. No entanto, recomendamos não ter um número excessivamente grande de usuários em uma equipe, pois o gerenciamento de trabalho da equipe pode se tornar muito complexo.</p> </td> 
        </tr> 
        <tr> 
