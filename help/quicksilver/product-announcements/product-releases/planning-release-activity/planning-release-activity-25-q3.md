@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
+source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/h
 >[!NOTE]
 >
 >* Visualização: 17 de abril de 2025
->* Versão rápida de produção: 15 de maio de 2025
+>* Versão rápida de produção: 12 de junho de 2025
 >* Produção para todos os clientes: 17 de julho de 2025
 
 Para controlar melhor quem pode exibir ou gerenciar registros em cada tipo de registro e garantir que somente pessoas autorizadas possam gerenciar as informações de cada tipo de registro com base em suas funções e responsabilidades, introduzimos permissões no nível do tipo de registro.
