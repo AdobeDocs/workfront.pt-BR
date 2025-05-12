@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,14 @@ Esta página descreve todas as melhorias de gerenciamento de documentos feitas c
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2025, consulte [Visão geral da versão do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
->[!IMPORTANT]
->
->Os recursos listados nesta página fazem parte de uma versão em fases e só estão disponíveis para clientes específicos.
+## Atualização do visualizador de provas da área de trabalho
+
+O Desktop Proofing Viewer foi atualizado para a versão 2.1.48.
+
+Esta atualização é uma correção de problema para manter a compatibilidade do Desktop Viewer com os sistemas operacionais Mac. O elétron foi rebaixado para 34.4.0 e o cromo foi rebaixado para 132.
+
+Essa atualização é para Mac e Windows.
+
 
 ## O Assets em uma pasta vinculada do Google deve ser adicionado individualmente para aparecer no Workfront
 
@@ -43,6 +48,10 @@ Principais recursos que permanecem inalterados:
 
 
 ## Novos botões de decisão de aprovação de documento disponíveis no visualizador de provas
+
+>[!IMPORTANT]
+>
+>Esse recurso faz parte de uma versão em fases e só está disponível para clientes específicos.
 
 >[!NOTE]
 >
