@@ -3,14 +3,14 @@ title: Exemplos do campo de pesquisa externa em um formulário personalizado
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Um campo de pesquisa externo em um formulário personalizado chama uma API externa e retorna valores como opções em um campo suspenso. This article provides examples of using the External lookup field to call the same instance of Workfront or a public API.
+description: Um campo de pesquisa externo em um formulário personalizado chama uma API externa e retorna valores como opções em um campo suspenso. Este artigo fornece exemplos de como usar o campo de pesquisa externa para chamar a mesma instância do Workfront ou uma API pública.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,45 @@ ht-degree: 0%
 
 Um campo de pesquisa externo em um formulário personalizado chama uma API externa e retorna valores como opções em um campo suspenso. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem selecionar uma ou mais dessas opções na lista suspensa.
 
-This article provides examples of using the External lookup field to call the same instance of Workfront or a public API. You can also use the External lookup to communicate with an external system such as Jira, Salesforce, or ServiceNow.
+Este artigo fornece exemplos de como usar o campo de pesquisa externa para chamar a mesma instância do Workfront ou uma API pública. Você também pode usar a Pesquisa externa para se comunicar com um sistema externo, como Jira, Salesforce ou ServiceNow.
 
-For more information about adding an External lookup field to a custom form and additional definitions of the external lookup components, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Para obter mais informações sobre como adicionar um campo de pesquisa externa a um formulário personalizado e definições adicionais dos componentes de pesquisa externa, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Set up an External lookup field for the same instance of Workfront
+## Requisitos de acesso
 
-You can use the External lookup to bring data from your Workfront instance into the custom form.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">plano do Adobe Workfront </td> 
+   <td>Qualquer</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+   <p>Novo: Padrão</p>
+   <p>ou</p>
+   <p>Atual: Plano</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Acesso administrativo a formulários personalizados </td> 
+  </tr>  
+ </tbody> 
+</table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+## Configurar um campo de pesquisa externo para a mesma instância do Workfront
+
+Você pode usar a Pesquisa externa para trazer dados da sua instância do Workfront para o formulário personalizado.
 
 ### Usar valores de campo nativos do Workfront na pesquisa externa
 
@@ -74,7 +106,7 @@ Este exemplo demonstra como chamar a API do Workfront e preencher uma lista de p
 
 ### Usar valores de campo personalizado na pesquisa externa
 
-This example shows you to call the Workfront API and bring data from a custom field into your External lookup field. The example custom field is called &quot;Custom Colors.&quot;
+Este exemplo mostra como chamar a API do Workfront e trazer dados de um campo personalizado para o campo de pesquisa externo. O exemplo de campo personalizado é chamado de &quot;Cores personalizadas&quot;.
 
 1. Abra o formulário personalizado.
 1. No lado esquerdo da tela, encontre **Pesquisa externa** e arraste-a para uma seção da tela.
@@ -121,7 +153,7 @@ Um endpoint está disponível na API do Workfront Planning para pesquisar regist
 
 Para obter mais informações, consulte [API do Workfront Planning](/help/quicksilver/planning/general/planning-api-basics.md).
 
-## Set up an External lookup field for a public API
+## Configurar um campo de pesquisa externo para uma API pública
 
 Você pode usar a pesquisa externa para chamar uma API externa e pública e recuperar dados.
 
@@ -133,9 +165,9 @@ Este exemplo mostra como chamar uma API de países (como <https://api.first.org/
 1. Selecione o **Formato** para o campo.
 1. Insira a chamada da URL da API no campo **URL da API de base**.
 
-   * You can add $$QUERY to implement query filtering for your end users.
+   * Você pode adicionar $$QUERY para implementar a filtragem de consultas para seus usuários finais.
 
-   **Examples**
+   **Exemplos**
 Lista todos os países: <https://api.first.org/data/v1/countries>
 
    Permite que o usuário pesquise por qualquer país no campo suspenso: <https://api.first.org/data/v1/countries?q=$$QUERY>

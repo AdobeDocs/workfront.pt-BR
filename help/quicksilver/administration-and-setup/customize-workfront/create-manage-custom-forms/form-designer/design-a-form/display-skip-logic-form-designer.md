@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1694'
 ht-degree: 0%
 
 ---
@@ -237,6 +237,8 @@ IF({DE:Budget Field} < 0,
 Outro exemplo simples é que um campo de número de telefone deve conter um determinado número de dígitos para ser válido.
 
 Um exemplo adicional para validação com base em outros campos é um campo para tamanho da sala de reunião (pequeno, médio ou grande) e um campo separado para o número de participantes da reunião. O número de pessoas para cada tamanho de quarto é escrito na fórmula de validação. Se o número de participantes que o usuário digita for muito grande para a sala de reunião escolhida, a mensagem de erro será exibida.
+
+Para obter mais exemplos de lógica de validação, consulte [Exemplos de lógica avançada em formulários personalizados](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md).
 
 ### Definir lógica de validação
 
