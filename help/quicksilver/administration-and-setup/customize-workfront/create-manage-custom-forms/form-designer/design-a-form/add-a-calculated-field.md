@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
 
 # Adicionar campos calculados a um formulário
+
+<!-- Audited: 5/2025 -->
 
 Você pode adicionar um campo personalizado calculado que use dados existentes para gerar novos dados quando o formulário personalizado for anexado a um objeto.
 
@@ -77,7 +79,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Você pode usar o mesmo campo personalizado calculado em formulários personalizados que pertencem a objetos diferentes. Por exemplo, você pode usar o campo calculado Lucro criado para o formulário personalizado de projeto em um formulário personalizado de tarefa.
 
-Ao usar um campo personalizado calculado existente, o cálculo não é transferido para o novo formulário. Você deve adicionar o cálculo novamente, no mesmo campo, no novo formulário personalizado.
+Ao usar um campo personalizado calculado existente, o cálculo não é transferido para o novo formulário. Você deve adicionar o cálculo novamente no mesmo campo no novo formulário personalizado.
 
 Você também pode ter um cálculo diferente para o mesmo campo, no novo formulário. Manter o mesmo nome para o campo personalizado calculado garante a coesão e a consistência em sua convenção de nomenclatura.
 
@@ -93,15 +95,15 @@ Para reutilizar um campo personalizado calculado existente:
 
 {{step-1-to-setup}}
 
-1. Clique em **Forms Personalizado** no painel esquerdo.
+1. No painel esquerdo, clique em **Forms Personalizado** e depois em **Forms**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Clique em **Novo formulário personalizado.**
-1. Selecione a quais tipos de objeto você deseja anexar o formulário personalizado e clique em **Continuar**.
+1. Clique em **Novo formulário personalizado**.
 
+1. Na caixa de diálogo **Novo Formulário Personalizado**, selecione a quais tipos de objeto você deseja anexar o formulário personalizado e clique em **Continuar**.
 1. Na parte superior esquerda da tela, clique em **Biblioteca de campos**.
 
    ![Biblioteca de campos](assets/field-library.png)
@@ -131,14 +133,15 @@ Para reutilizar um campo personalizado calculado existente:
 
 {{step-1-to-setup}}
 
-1. Clique em **Forms Personalizado** no painel esquerdo.
+1. No painel esquerdo, clique em **Forms Personalizado** e depois em **Forms**.
+
+1. Clique em **Novo formulário personalizado**.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Clique em **Novo formulário personalizado.**
-1. Selecione a quais tipos de objeto você deseja anexar o formulário personalizado e clique em **Continuar**.
+1. Na caixa de diálogo **Novo Formulário Personalizado**, selecione a quais tipos de objeto você deseja anexar o formulário personalizado e clique em **Continuar**.
 
 1. No lado esquerdo da tela, localize **Calculado** e arraste-o para uma seção da tela.
 
@@ -166,9 +169,9 @@ Para reutilizar um campo personalizado calculado existente:
      </tr> 
      <tr> 
       <td role="rowheader">Formato</td> 
-      <td> <p>O formato no qual você deseja que os resultados do campo sejam armazenados e exibidos.</p> <p>Se o campo for usado em cálculos matemáticos, sempre use o formato <strong>Número</strong> ou <strong>Moeda</strong>. Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</p> 
+      <td> <p>O formato no qual você deseja que os resultados do campo sejam armazenados e exibidos.</p> <p>Se o campo for usado em cálculos matemáticos, sempre use o formato <strong>Número</strong> ou <strong>Moeda</strong>. Ao selecionar <strong>Número</strong> ou <strong>Moeda</strong>, o sistema trunca automaticamente os números que começam com 0.</p> 
       <p><b>IMPORTANTE</b>: antes de escolher um formato, considere o formato correto para o novo campo. O campo de formato não pode ser editado depois que o formulário personalizado é salvo. E selecionar o formato errado poderia afetar cálculos futuros e agregar valores em agrupamentos de relatórios e listas.</p>
-      <p><strong>OBSERVAÇÃO:</strong> campos calculados com um formato de Moeda não devem incluir aspas. (Por exemplo, use 800.00 e não "800.00".) O uso de aspas pode causar consequências inesperadas devido a nuances na formatação de idioma para tipos de moeda.</p></td>
+      <p><strong>OBSERVAÇÃO</strong>: campos calculados com um formato <strong>Moeda</strong> não devem incluir aspas. (Por exemplo, use 800.00 e não "800.00".) O uso de aspas pode causar consequências inesperadas devido a nuances na formatação de idioma para tipos de moeda.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -295,7 +298,7 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
       >
       >Você pode executar qualquer um dos seguintes procedimentos para obter ajuda com o cálculo:
       > 
-      >* Passe o mouse sobre uma expressão no cálculo para ver uma descrição, um exemplo mostrando como ela pode ser usada e um link &quot;Saiba mais&quot; para obter mais informações no artigo [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Passe o mouse sobre uma expressão no cálculo para ver uma descrição, um exemplo mostrando como ela pode ser usada e um link **Saiba mais** para obter mais informações no artigo [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![Texto de ajuda da expressão](assets/hover-expression-help-text.jpg)
       >* Use a codificação de cores para identificar os componentes adicionados. As expressões são exibidas em azul e os campos são exibidos em verde.
       >  ![Cores para expressões de campo](assets/colors-fields-expressions.jpg)

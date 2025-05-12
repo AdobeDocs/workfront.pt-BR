@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
 
 # Desativar ou reativar um usuário
 
-<!--Audited 2/2024-->
+<!--Audited 5/2025-->
 
 <!--
 
@@ -25,13 +25,13 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 -->
 
-Se um usuário sair da organização, talvez seja necessário removê-lo do Adobe Workfront. Eles não devem permanecer ativos no sistema, pois isso criaria confusão para outros usuários ao adicioná-los a atualizações ou atribuí-los ao trabalho. Quando você desativa um usuário, outros usuários não veem mais seus nomes quando procuram pessoas no sistema.
+Se um usuário sair da organização, é recomendável desativá-lo no sistema para evitar que outros usuários fiquem confusos ao adicioná-lo a atualizações ou atribuí-lo a um trabalho. Quando você desativa um usuário, outros usuários não veem mais seus nomes quando procuram pessoas no sistema.
 
 Os administradores podem ver usuários inativos na área Configuração.
 
@@ -41,11 +41,9 @@ Os administradores podem ver usuários inativos na área Configuração.
 >
 >* Recomendamos que você desative os usuários que saíram da organização em vez de excluí-los. Se um usuário for excluído, todo o histórico no Workfront associado a esse usuário será perdido. Isso inclui suas atribuições de trabalho, sua associação com notas, horas, documentos e todos os outros objetos que eles já criaram.
 >
->   A desativação de um usuário no Workfront remove as licenças do usuário para o Workfront e para a prova digital. Além disso, o usuário não pode mais receber trabalho. Quando um usuário é desativado, a licença e a licença de prova do Workfront desse usuário ficam disponíveis para serem usadas por outro usuário. Todas as outras informações no perfil do usuário desativado permanecem inalteradas.
+>* A desativação de um usuário no Workfront remove as licenças do usuário para o Workfront e para a prova digital. Além disso, o usuário não pode mais receber trabalho. Quando um usuário é desativado, a licença e a licença de prova do Workfront desse usuário ficam disponíveis para serem usadas por outro usuário. Todas as outras informações no perfil do usuário desativado permanecem inalteradas.
 >
->   Para obter mais informações sobre o impacto da exclusão e da desativação de usuários, consulte [Excluir usuários](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
->
->* A desativação de um usuário no Workfront não o remove do Perfil de produto do Workfront no Adobe Admin Console.
+>* A desativação de um usuário no Workfront não o remove do Perfil de produto do Workfront no Adobe Admin Console. Para obter mais informações, consulte [Excluir usuários](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 
 ## Requisitos de acesso
@@ -71,7 +69,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p>Você deve ter um dos seguintes:</p> 
     <ul> 
      <li> <p>O nível de acesso Administrador do sistema. </li> 
-     <li> <p>A configuração <b>Usuários</b> no seu nível de acesso foi configurada para <b>Editar</b> acesso, com as opções <b>Criar</b> e pelo menos uma das duas opções <b>Administrador de Usuários</b> habilitadas em <b>Ajustar suas configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Dessas duas opções, se <b>Administrador de Usuários (Usuários de Grupo)</b> estiver habilitado, você deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> </li> 
+     <li> <p>A configuração de usuários em seu nível de acesso está definida para Editar acesso, com a opção Criar e pelo menos uma das duas opções de Administrador de Usuários habilitada em Ajustar as configurações <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Dessas duas opções, se o Administrador de usuários (usuários de grupo) estiver ativado, você deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -101,9 +99,10 @@ Para desativar um usuário:
 
 {{step-1-to-users}}
 
-1. Selecione um usuário, clique no ícone **Mais** ícone ![Mais](assets/more-icon.png) e clique em **Desativar**.
+1. Selecione um usuário na lista de usuários.
+1. Clique no ícone **Mais** ![Mais ícone](assets/more-icon.png) e em **Desativar**.
 
-1. Clique em **Desativar** na caixa exibida.
+1. Na caixa de diálogo **Desativar usuário**, clique em **Desativar**.
 
 ## Programar usuários para desativação
 
@@ -115,36 +114,37 @@ Para programar um usuário para desativação:
 
 {{step-1-to-users}}
 
-1. Selecione o nome do usuário.
+1. Selecione o usuário na lista de usuários.
 
    Ou
 
    (Opcional) Selecione vários usuários para agendá-los para desativação em massa.
 
-1. Clique no ícone Editar ![ícone Editar](assets/edit-icon.png).
-1. Na caixa Editar Usuário exibida, clique em **Planejamento de Recursos** para acessar essa área.
-1. Habilite a opção **Desativação de Agendamento**.
+1. Clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png).
+1. No painel esquerdo da caixa **Editar Usuário**, clique em **Planejamento de Recursos**.
+1. Marque a caixa de seleção **Desativação programada**.
 
-1. No calendário exibido, especifique a data e a hora para a **Data de Desativação Programada**.
+1. Selecione a data e a hora para a **Data de desativação agendada**.
 
    >[!NOTE]
    >
    >* Na caixa de hora, você pode selecionar apenas incrementos de hora inteira, não minutos.
-   >* Se você selecionar uma hora para o dia atual que já passou, o Workfront agendará a desativação para o dia seguinte às 12h. A hora selecionada corresponde ao fuso horário do computador do usuário que está agendando a desativação.
+   >* Se você selecionar um horário para o dia atual que já passou, o Workfront agendará a desativação para o dia seguinte, às 12h.
+   >* A hora selecionada corresponde ao fuso horário do computador do usuário que está agendando a desativação.
 
 1. Clique em **Salvar alterações**.
 
-   O usuário é desativado no dia selecionado algum tempo depois do horário selecionado. Se você selecionou vários usuários para desativar em massa, todos os usuários selecionados serão desativados no dia selecionado algum tempo depois do horário selecionado.
+O usuário é desativado no dia selecionado algum tempo depois do horário selecionado. Se você selecionou vários usuários para desativar em massa, todos os usuários selecionados serão desativados no dia selecionado algum tempo depois do horário selecionado.
 
-Recomendamos criar um relatório para os usuários que você agendou para desativação, a fim de manter-se informado sobre quais usuários estão prestes a serem desativados. Não há confirmação de que a desativação ocorreu depois que os usuários foram desativados.
+Recomendamos criar um relatório para os usuários que você agendou para desativação para manter-se informado sobre quais usuários estão prestes a serem desativados. Não há confirmação de que a desativação ocorreu após a desativação dos usuários.
 
 ## Reativar um usuário
 
 {{step-1-to-users}}
 
-1. Selecione um usuário, clique no ícone Mais ![ícone Mais](assets/more-icon.png) e clique em **Ativar**.
+1. Selecione um usuário, clique no ícone **Mais** ícone ![Mais](assets/more-icon.png) e clique em **Ativar**.
 
-1. Atribua um novo **Nível de acesso** no menu suspenso e clique em **Reativar**.
+1. Na caixa de diálogo **Reativar usuário**, selecione um novo **Nível de acesso** no menu suspenso e clique em **Reativar**.
 <!--
 ### Asset review and approval impact when you reactivate a user
 
@@ -163,16 +163,16 @@ Antes de desativar um administrador do Workfront ou um usuário com uma licença
 
 Esses objetos e atividades podem incluir o seguinte:
 
-* Tarefas ou problemas atribuídos ao usuário
-* Projetos de propriedade do usuário
-* Relatórios configurados para serem executados com os direitos de acesso do usuário
-* Modelos de propriedade do usuário
-* Projetos e modelos nos quais o usuário foi definido como um gerenciador de recursos
-* Regras de roteamento de fila de solicitações nas quais o administrador do Workfront ou o usuário de licença de Plano é o Atribuído padrão
-* Processos de aprovação que têm um estágio incluindo o usuário (especialmente se foram o único aprovador no estágio)
-* Folhas de horas que listam o usuário como um aprovador
-* Perfis de folha de horas que listam o usuário como um aprovador
-* Fluxos de trabalho automatizados de provas que incluem o usuário
+* Tarefas ou problemas atribuídos ao usuário.
+* Projetos pertencentes ao usuário.
+* Relatórios configurados para serem executados com os direitos de acesso do usuário.
+* Modelos de propriedade do usuário.
+* Projetos e modelos nos quais o usuário foi definido como um gerenciador de recursos.
+* Solicitar regras de roteamento de fila. O administrador do Workfront ou o usuário da licença de Plano é o Atribuído padrão.
+* Processos de aprovação que têm um estágio incluindo o usuário (especialmente se eles foram o único aprovador no estágio).
+* Planilha de horas que lista o usuário como um aprovador.
+* Perfis de folha de horas que listam o usuário como um aprovador.
+* Fluxos de trabalho automatizados de provas que incluem o usuário.
 
 ## Impacto do planejamento de recursos ao agendar a desativação de um usuário
 
