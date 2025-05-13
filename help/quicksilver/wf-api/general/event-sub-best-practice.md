@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,13 @@ Verifique se o endpoint de sua assinatura está em conformidade com os Requisito
 
 Para receber payloads de subscrições de evento por meio do firewall, você deve adicionar os endereços IP à inclui na lista de permissões por região global. Para saber mais, consulte [API de Assinatura de Evento](../../wf-api/general/event-subs-api.md).
 
-## Ter o nível de acesso correto e uma chave de API
+## Ter o nível de acesso e a autenticação certos
 
 Para criar, consultar ou excluir uma Assinatura de Evento, o usuário do Workfront precisa:
 
 * Um nível de acesso de **Administrador do Sistema**
 Para saber mais, consulte [Conceder a um usuário acesso administrativo total](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) ou [Conceder aos usuários acesso administrativo a determinadas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* Uma chave de API
+* Um cabeçalho `sessionID` é necessário para usar a API de Assinaturas de Eventos
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
-  -->
+  Para obter mais informações, consulte [Autenticação](api-basics.md#authentication) em [Noções básicas sobre API](api-basics.md).
