@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '879'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      </tr> 
      <tr> 
       <td role="rowheader">Aprovador não precisa estar na equipe do projeto (para processos de aprovação que incluem uma função)</td> 
-      <td> <p>Selecione esta opção se não for necessário que um aprovador esteja na equipe do projeto quando um processo de aprovação incluir uma função. Ao atribuir a decisão de aprovação a uma função de trabalho, somente os usuários que tiverem uma função associada a eles no projeto verão a aprovação. Se você habilitar essa configuração, qualquer usuário com essa função de trabalho receberá a solicitação de aprovação, esteja ele na equipe do projeto ou não. Para obter informações sobre como editar a função de projeto de um usuário, consulte <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Gerenciar a Equipe do Projeto</a>. </p> 
+      <td> <p>Selecione esta opção se não for necessário que um aprovador esteja na equipe do projeto quando um processo de aprovação incluir uma função. Qualquer usuário com essa função de trabalho recebe a solicitação de aprovação, esteja ele na equipe do projeto ou não, embora não receba acesso ao projeto automaticamente. Para obter informações sobre como editar a função de projeto de um usuário, consulte <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Gerenciar a Equipe do Projeto</a>. </p> 
       <p><b>DICA</b>: quando você atribui uma aprovação a uma função e a opção <b>Aprovador não obrigatório na equipe do projeto (para processos de aprovação que incluem uma função)</b> está desabilitada, mas não há funções na equipe do projeto que correspondam à função na aprovação, a aprovação é reatribuída ao Proprietário do Projeto. </p> </td> 
      </tr> 
      <tr> 
