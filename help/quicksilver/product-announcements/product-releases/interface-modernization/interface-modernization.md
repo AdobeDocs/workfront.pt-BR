@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 454877e742420c3bc289adf6b2cb1d692fc4fe95
+source-git-commit: 8e8a10d375e721199c5f81f425178a7bae0bf0c0
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2365'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Atualizamos a página usada para conceder acesso de suporte à sua conta do Work
 
 ## Administração e configuração
 
-+++Expandir para exibir atualizações de interface de Administração e Configuração
++++Expanda para exibir as atualizações da interface de Administração e Configuração realizadas no segundo trimestre
 
 ### Atualização de interface para o Centro de notificações
 
@@ -174,7 +174,7 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 ## Ágil
 
-+++Expandir para exibir atualizações da interface do Agile
++++Expanda para visualizar as atualizações da interface do Agile feitas no segundo trimestre
 
 ### Atualizações de interface para solicitações de equipe
 
@@ -244,7 +244,7 @@ Para exibir esta alteração, vá para Equipes > escolha uma equipe > Lista de p
 
 Atualizamos a caixa de diálogo de compartilhamento para permitir que os usuários compartilhem documentos com usuários externos usando um endereço de email. Esta funcionalidade estava temporariamente indisponível devido ao trabalho de modernização da interface.
 
-+++Expandir para exibir mais atualizações da interface de documentos
++++Expanda para exibir as atualizações da interface de documentos feitas no segundo trimestre
 
 ### Atualizações de interface ao solicitar um documento
 
@@ -284,17 +284,17 @@ Para visualizar esta alteração, vá para a guia Documents > Click the more men
 
 ## Relatórios e painéis de controle
 
++++Expanda para visualizar as atualizações da interface de Relatórios e painéis realizadas no segundo trimestre
+
 ### Relatório de Nível de acesso atualizado com novo estilo
 
-**Versão de visualização: a ser definida; Versão de produção: iniciando a semana de 6 de fevereiro de 2025**
+**Versão de visualização: 30 de janeiro de 2024; Versão de produção: iniciando a semana de 6 de fevereiro de 2025**
 
 Atualizamos o relatório de Nível de acesso com um design mais moderno e consistente com outras áreas do Workfront.
 
 Esta atualização inclui alterações visuais no relatório. Nenhuma funcionalidade foi alterada.
 
 Para criar um relatório de Equipe, vá para Relatórios > Novo relatório > Nível de acesso.
-
-+++Expandir para exibir mais atualizações da interface de Relatórios e Painéis
 
 ### Relatório de equipe atualizado com novo estilo
 
