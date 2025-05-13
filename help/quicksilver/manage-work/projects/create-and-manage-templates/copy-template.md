@@ -6,10 +6,10 @@ description: Além de criar um modelo de projeto do zero, também é possível c
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 3%
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ Você deve ter o seguinte acesso.
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td><p>Novo: Padrão</p> 
-   <p>Atual:Plano </p> </td> 
+   <p>Atual: Plano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -81,9 +81,14 @@ Os itens a seguir nunca são copiados de um modelo existente para um novo:
 1. Clique no **Mais** ícone ![Mais](assets/qs-more-icon-on-an-object.png) do menu à direita do nome do modelo no cabeçalho e clique em **Copiar**.
 
    A caixa **Copiar Modelo** é aberta.
+
+   <!--![Copy template box](assets/copy-template-box.png)-->
+
 1. Especifique um nome para o modelo no campo **Novo Nome do Modelo**.
 
    Por padrão, o novo nome é `Copy of Original template name`.
 
-1. Selecione se deseja **Reter atribuições de usuário em tarefas e modelo**: selecione esta opção para carregar todas as atribuições de tarefa e modelo do modelo original para o novo modelo.
+1. Selecione a opção **Reter atribuições de usuário nas tarefas e no modelo** se desejar carregar todas as atribuições de tarefa e modelo do modelo original para o novo modelo. As atribuições de modelo de tarefa e o Proprietário e Patrocinador do Modelo são transferidos para o modelo copiado.
 1. Clique em **Salvar** para criar uma cópia do modelo.
+
+   O novo modelo é exibido na lista de modelos na área Modelo do Workfront.

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1508'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Este artigo descreve as seguintes informações sobre visualizações de registr
 
 * [Criar e editar um modo de exibição](#create-or-edit-record-views)
 * [Excluir um modo de exibição](#delete-views)
-* [Duplicar uma visualização](#duplicate-views)
+* [Duplicar uma visualização](#duplicate-a-view)
 * [Habilitar os indicadores de presença em tempo real em uma exibição](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 

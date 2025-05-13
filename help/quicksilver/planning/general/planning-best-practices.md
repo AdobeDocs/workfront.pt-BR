@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '3225'
+source-wordcount: '3188'
 ht-degree: 0%
 
 ---
-
 
 <!--drafted because Kari Woolf will write something for Field Readiness instead, nothing for ExL, public-facing documentation-->
 
@@ -35,9 +35,9 @@ Veja a seguir algumas perguntas frequentes sobre a configuração do Workfront P
 
 #### Como devo começar?
 
-* ‖Quando você faz logon no Planning pela primeira vez, siga nosso processo de integração no aplicativo que comunica claramente o valor do Planning e o orienta sobre como navegar e utilizar o produto de forma eficaz. Isso garante que você entenda seus recursos e como começar seu trabalho com facilidade.
-* ¨ Comece explorando nossos modelos de espaço de trabalho predefinidos para ideias de casos de uso semelhantes existentes. Você pode usar os tipos de registro e campos predefinidos incluídos em um modelo ou pode adicionar os seus próprios.
-* Identifique os principais casos de uso que deseja resolver com o Workfront Planning. Por exemplo, a maioria das organizações quer melhorar a visibilidade das atividades estratégicas, o que pode incluir a criação de um &quot;Calendário de campanha&quot; melhor. Portanto, nesse caso de uso, você deve começar respondendo algumas perguntas:
+* ✅ Ao fazer logon no Planning pela primeira vez, siga nosso processo de integração no aplicativo que comunica claramente o valor do Planning e o orienta sobre como navegar e utilizar o produto de maneira eficaz. Isso garante que você entenda seus recursos e como começar seu trabalho com facilidade.
+* ✅ Comece explorando nossos modelos de espaço de trabalho predefinidos para ideias de casos de uso semelhantes existentes. Você pode usar os tipos de registro e campos predefinidos incluídos em um modelo ou pode adicionar os seus próprios.
+* ✅ Identifique os principais casos de uso que deseja resolver com o Workfront Planning. Por exemplo, a maioria das organizações quer melhorar a visibilidade das atividades estratégicas, o que pode incluir a criação de um &quot;Calendário de campanha&quot; melhor. Portanto, nesse caso de uso, você deve começar respondendo algumas perguntas:
 
    * Quem está pedindo isso?
    * Como eles chamam as coisas que querem colocar no calendário?
@@ -50,14 +50,14 @@ Campanhas? Táticas? Iniciativas? Atividades? Eventos?
 
   Além disso, considere que pode haver outros planejadores que não sejam usuários do Workfront no momento. Esses planejadores podem operar a partir de planilhas do Excel, documentos do Word, PowerPoints, etc. Considere como eles podem acessar suas informações no Workfront Planning.
 
-* Para aproveitar ao máximo o Workfront Planning, considere a substituição do uso de Portfolio e Programas no Workfront Workflow por alguma outra estrutura de nível superior no Workfront Planning.
+* ✅ Para aproveitar ao máximo o Workfront Planning, considere substituir o uso de Portfólios e Programas no Workfront Workflow por alguma outra estrutura de nível superior no Workfront Planning.
 
   Atualmente, os clientes da Workfront representam seu trabalho estratégico por meio de portfólios e programas, em alguns casos como projetos de diferentes tipos. Com a introdução do Planning, todo esse trabalho estratégico deve ser tratado por meio de tipos de registro personalizados no Workfront Planning, enquanto o Workfront será centralizado em torno da fase de execução do trabalho representado como projetos e tarefas.
 
 
 #### Quando devo criar um novo espaço de trabalho em vez de modificar um existente?
 
-* ‖Design para o menor volume de espaços de trabalho em nível de organização. Você pode criar espaços de trabalho para unidades de organização operacionais específicas, para corresponder à maneira exclusiva como cada unidade funciona.
+* ✅ Design para o menor volume de espaços de trabalho de nível de organização. Você pode criar espaços de trabalho para unidades de organização operacionais específicas, para corresponder à maneira exclusiva como cada unidade funciona.
 
   Ter as informações em uma única Workspace, para garantir que as relações entre todos os dados possam ser facilmente gerenciadas.
 
@@ -67,7 +67,7 @@ Campanhas? Táticas? Iniciativas? Atividades? Eventos?
 
   Por exemplo, um espaço de trabalho de **Desenvolvimento de Produto** deve ser diferente de um espaço de trabalho de **Marketing**.
 
-* ⛔ Não crie espaços de trabalho exclusivos para cada equipe ou processo em uma organização.
+* ⛔ Não crie espaços de trabalho exclusivos para cada equipe ou processo dentro de uma organização.
 
   A organização de marketing deve se esforçar para manter apenas um espaço de trabalho para manter a visibilidade e permitir que os dados sejam acumulados no nível de planejamento global.
 
@@ -75,10 +75,10 @@ Campanhas? Táticas? Iniciativas? Atividades? Eventos?
 
 #### Como devo usar as Seções do Workspace?
 
-* ‖Crie e rotule seções para ajudar seus usuários a entender como você organiza seu ciclo de vida operacional.
+* ✅ Crie e rotule seções para ajudar seus usuários a entender como você organiza seu ciclo de vida operacional.
 
   Por exemplo, você pode criar uma seção chamada **Registros principais**, na qual você coloca suas Campanhas, Táticas e Entregas no seu espaço de trabalho.
-* Agrupa os tipos de registros &quot;like&quot;.
+* ✅ Agrupe os tipos de registros &quot;curtir&quot;.
 
   Por exemplo, você pode criar uma seção chamada **Geografias**, que contém tipos de registros como: Região, País e Cidade.
 
@@ -89,20 +89,20 @@ Os tipos de registro são os blocos de construção de uma Workspace do Workfron
 
 #### Como devo definir tipos de registros no meu espaço de trabalho?
 
-* ‖Leve algum tempo para identificar quais informações você precisa rastrear (quais tipos de registro eu preciso) e como essas informações precisam ser conectadas. Converse com as partes interessadas que usarão o espaço de trabalho para considerar todas as suas necessidades. Você também pode criar seções personalizadas com diferentes tipos de registro para apresentar as informações de uma maneira muito útil.
+* ✅ Reserve algum tempo para identificar quais informações você precisa acompanhar (quais tipos de registros eu preciso) e como essas informações precisam estar conectadas. Converse com as partes interessadas que usarão o espaço de trabalho para considerar todas as suas necessidades. Você também pode criar seções personalizadas com diferentes tipos de registro para apresentar as informações de uma maneira muito útil.
 
 
-* ⛔ Não duplique tipos de registro por um período diferente (por exemplo, não crie tipos de registro separados para **Campanhas 2024** e **Campanhas 2025**).
+* ⛔ Não duplique os tipos de registro por um período diferente (por exemplo, não crie tipos de registro separados para **Campanhas 2024** e **Campanhas 2025**).
 
   A criação de diferentes tipos de registro interrompe o fluxo de dados sempre que você deseja comparar dados em vários anos. As exibições de hoje são por tipo de registro; portanto, assim que o ano terminar, a exibição desse tipo de registro não mostrará mais os itens futuros. A prática recomendada é ter um tipo de registro para o tipo de trabalho e segmentar os dados usando filtros ou arquivando-os, se necessário.
 
 #### Quando devo usar um campo de seleção única ou múltipla em vez de um tipo de registro vinculado?
 
-* ‖Adicione um novo tipo de registro se o objeto for usado em conexão com vários outros tipos de registro
+* ✅ Adicione um novo tipo de registro se o objeto for usado em conexão com vários outros tipos de registro
 
   Por exemplo, uma Campanha pode ter uma conexão com vários Públicos do Target, e uma Tática pode ter uma conexão com um único Público do Target. Portanto, Campaign, Tactic e Audience devem ser tipos de registro em vez de campos de seleção múltipla.
 
-* ‖Adicione um novo tipo de registro se o objeto precisar armazenar valores de metadados adicionais que podem ser úteis em pesquisas
+* ✅ Adicione um novo tipo de registro se o objeto precisar armazenar valores de metadados adicionais que possam ser úteis em pesquisas
 
   Por exemplo, um tipo de registro de canal como **Email** pode armazenar uma lista de produtos finais de suporte, como metadados nativos ou como uma conexão com um tipo de registro **Produtos** independente.
 * ⛔ Não adicione um novo tipo de registro se os dados armazenados forem relevantes apenas para um único tipo de registro.
@@ -111,7 +111,7 @@ Os tipos de registro são os blocos de construção de uma Workspace do Workfron
 
 #### Como devo rotular meus tipos de registros?
 
-* ‖Crie e rotule tipos de registros que representam uma única construção ou substantivo, como **Campanhas**.
+* ✅ Crie e rotule tipos de registros que representem uma única construção ou substantivo, como **Campanhas**.
 * ⛔ Não crie um tipo de registro que seja melhor representado como uma exibição.
 
   Por exemplo, **Calendário** é uma má opção para um tipo de registro, pois não é o tipo de registro em si, mas uma exibição de registros.
@@ -124,18 +124,18 @@ Os campos são atributos de tipos de registro e são exibidos como colunas na ex
 #### Qual campo é recomendado para ser definido como Campo primário?
 
 
-* O‖Usa valores de campo primário exclusivos para facilitar a localização e &quot;separação&quot; desses registros ao fazer conexões. 
+* ✅ Use valores de campo primário exclusivos para facilitar a localização e a &quot;seleção&quot; desses registros ao fazer conexões. 
 
   Ao fazer uma conexão, os usuários pesquisarão pelos valores no campo Primário e, se não forem exclusivos, os usuários não saberão qual escolher. 
-* ⛔ Evite usar valores não exclusivos como o campo principal, pois isso pode criar confusão para usuários que precisam pesquisar no campo principal ao usar o menu do seletor de conexões. 
+* ⛔ Evite usar valores não exclusivos como campo principal, pois isso pode criar confusão para usuários que precisam pesquisar no campo principal ao usar o menu do seletor de conexões. 
 
 #### Como devo usar fórmulas?
 
-* ‖Use os tipos de campo de Fórmula para reduzir a entrada manual. Quando você estiver inserindo informações com base em dados que já estão na sua visualização de tabela, talvez possa economizar algum esforço calculando essas informações automaticamente usando fórmulas.
+* ✅ Use os tipos de campo de Fórmula para reduzir a entrada manual. Quando você estiver inserindo informações com base em dados que já estão na sua visualização de tabela, talvez possa economizar algum esforço calculando essas informações automaticamente usando fórmulas.
 
 #### Como devo começar a conectar os dados no meu espaço de trabalho?
 
-* A criação de conexões é uma das características mais poderosas do Workfront Planning. É possível conectar tipos de registro uns aos outros ou tipos de registro com tipos de objeto de outros aplicativos como o Adobe Workfront (conexão com Projetos, Portfolio, Programas, Empresas e Grupos) e o Adobe Experience Manager Assets (conexão com ativos e pastas).
+* ✅ Criar conexões é um dos recursos mais eficientes do Workfront Planning. É possível conectar tipos de registro uns aos outros ou tipos de registro com tipos de objeto de outros aplicativos, como o Adobe Workfront (conexão com Projetos, Portfólios, Programas, Empresas e Grupos) e o Adobe Experience Manager Assets (conexão com ativos e pastas).
 
   Conectar tipos de objeto e registro fornece uma visão geral completa de como tudo em sua empresa está conectado.
 
@@ -145,13 +145,13 @@ Os campos são atributos de tipos de registro e são exibidos como colunas na ex
 
 #### Como devo usar campos de pesquisa?
 
-* Depois de estabelecer a conexão entre registros ou tipos de objeto, você pode conectar registros individuais uns aos outros e exibir campos do registro vinculado ou tipos de objeto em um registro do Workfront Planning. Você reduzirá o número de locais necessários para atualizar a mesma informação e garantir que eles correspondam perfeitamente.
+* ✅ Depois de estabelecer a conexão entre registros ou tipos de objeto, você pode conectar registros individuais uns aos outros e exibir campos do registro vinculado ou tipos de objeto em um registro do Workfront Planning. Você reduzirá o número de locais necessários para atualizar a mesma informação e garantir que eles correspondam perfeitamente.
 
   Por exemplo, uma vez que você tenha uma conexão entre um tipo de registro **Campanha** e um tipo de registro **Táticas**, você verá as informações do campo principal, mas quando adicionar campos de pesquisa, você poderá obter informações adicionais desse tipo de registro, como a **Data de inicialização** para essa **Tática**. Os dados desses campos de pesquisa são preenchidos automaticamente após a adição dos registros.
 
 #### Qual tipo de campo é recomendado para URLs? 
 
-* ‖Use um campo de texto de linha única para adicionar dados de URL a um registro.
+* ✅ Use um campo de texto de linha única para adicionar dados de URL a um registro.
 
 ### Visualizações
 
@@ -165,21 +165,21 @@ Os campos são atributos de tipos de registro e são exibidos como colunas na ex
 
 #### Devo ocultar ou excluir os campos que não são relevantes para mim?
 
-* ‖Oculta a coluna em vez de excluí-la quando essas informações podem ser relevantes para uma pessoa diferente usando o mesmo tipo de registro. Se você excluir o campo em uma exibição de tabela específica, esse campo também será excluído no restante das exibições desse registro, bem como em todos os outros locais dos quais esse tipo de registro está vinculado.
+* ✅ Ocultar a coluna em vez de excluí-la quando essas informações puderem ser relevantes para uma pessoa diferente usando o mesmo tipo de registro. Se você excluir o campo em uma exibição de tabela específica, esse campo também será excluído no restante das exibições desse registro, bem como em todos os outros locais dos quais esse tipo de registro está vinculado.
 
 #### Como devo usar filtros e agrupamentos nas visualizações de tabela e linha do tempo?
 
-* ¨ Use visualizações com filtros e agrupamentos para exibir um instantâneo do que você precisa ver. Você pode filtrar e agrupar os dados para ter uma maneira mais utilizável de entender o que está planejado. Você pode agrupar os registros por campos de metadados.
+* ✅ Use modos de exibição com filtros e agrupamentos para exibir um instantâneo do que você precisa ver. Você pode filtrar e agrupar os dados para ter uma maneira mais utilizável de entender o que está planejado. Você pode agrupar os registros por campos de metadados.
 
   Por exemplo, você pode ter uma exibição de linha do tempo para o seu tipo de registro de **Campanha**, que pode ser agrupada por **Públicos-alvo** e filtrada por **Data** para mostrar apenas o ano atual.
 
 #### Por que não vejo todos os registros na minha exibição de linha do tempo?
 
-* Lembre-se de definir 2 campos de data para seus registros. Você pode criar uma visualização de linha do tempo somente quando tiver pelo menos dois campos de data associados a um tipo de registro. Alguns registros talvez não sejam exibidos na exibição de linha do tempo quando as datas de Início ou Término ou ambas não tiverem valores e quando a data de Início for posterior à data de Término.
+* ✅ Lembre-se de definir dois campos de data para seus registros. Você pode criar uma visualização de linha do tempo somente quando tiver pelo menos dois campos de data associados a um tipo de registro. Alguns registros talvez não sejam exibidos na exibição de linha do tempo quando as datas de Início ou Término ou ambas não tiverem valores e quando a data de Início for posterior à data de Término.
 
 #### Como devo usar as configurações de exibição da linha do tempo
 
-* ‖Defina as configurações da exibição da linha do tempo, como o **Estilo de barra** e a **Cor** para obter uma exibição mais visualmente enriquecedora. Você pode personalizar o **Estilo de barra** definindo se deseja ver uma miniatura com uma imagem significativa e adicionar mais campos para exibir na barra (por exemplo, **Proprietário** ou **Status**).
+* ✅ Defina as configurações do modo de exibição de linha do tempo, como o **Estilo de barra** e a **Cor**, para obter um modo de exibição mais visualmente enriquecedor. Você pode personalizar o **Estilo de barra** definindo se deseja ver uma miniatura com uma imagem significativa e adicionar mais campos para exibir na barra (por exemplo, **Proprietário** ou **Status**).
 
   Por padrão, você só vê o campo principal. Você também pode definir a cor da barra por valores de campo (por exemplo, é possível personalizar as cores das barras correspondendo-as ao campo Status ) ou pelo agrupamento aplicado. Por padrão, a cor corresponde à cor do tipo de registro.
 
@@ -191,7 +191,7 @@ Use o recurso de compartilhamento para conceder permissões apropriadas aos func
 
 #### Como devo gerenciar permissões para espaços de trabalho?
 
-* ✔ Quando você cria um **espaço de trabalho**, ele só está disponível para você. Qualquer outra pessoa além dos Administradores do sistema não poderá encontrá-lo. Depois que o espaço de trabalho estiver definido e você estiver pronto para trazer sua equipe para iniciar a colaboração, será necessário compartilhá-lo com ela e definir seu nível de permissão.
+* ✅ Ao criar um **espaço de trabalho**, ele só estará disponível para você. Qualquer outra pessoa além dos Administradores do sistema não poderá encontrá-lo. Depois que o espaço de trabalho estiver definido e você estiver pronto para trazer sua equipe para iniciar a colaboração, será necessário compartilhá-lo com ela e definir seu nível de permissão.
 
   Você pode escolher entre os seguintes níveis de permissão:
 
@@ -199,29 +199,36 @@ Use o recurso de compartilhamento para conceder permissões apropriadas aos func
    * **Contribute**: as pessoas podem criar, editar e excluir registros.
    * **Exibir**: as pessoas podem exibir registros.
 
-* Apesar de muitos clientes sentirem que iriam conceder permissões de **Gerenciar** para espaços de trabalho para a maioria das pessoas, restrinja as permissões de **Gerenciar** a um grupo selecionado de pessoas confiáveis que não excluirão acidentalmente um tipo de registro ou criarão tipos de registro e campos desnecessários. Eles podem editar, compartilhar e até mesmo excluir o espaço de trabalho. Esse nível de permissões concede a eles acesso administrativo total à Workspace.
+* ✅ Embora muitos clientes tenham a impressão de que concederiam permissões de **Gerenciar** para espaços de trabalho à maioria das pessoas, restrinja as permissões de **Gerenciar** a um grupo selecionado de pessoas confiáveis que não excluirão acidentalmente um tipo de registro ou criarão campos e tipos de registro desnecessários. Eles podem editar, compartilhar e até mesmo excluir o espaço de trabalho. Esse nível de permissões concede a eles acesso administrativo total à Workspace.
 
   É necessária uma licença de usuário Standard para que alguém tenha permissões de gerenciamento em um espaço de trabalho.
 
-* ✔ Dê aos usuários **Contribute** permissões se você quiser apenas que eles sejam capazes de criar, editar e excluir registros, mas não quiser que eles alterem a estrutura e o esquema do espaço de trabalho. Com permissões de **Contribute**, não é possível criar tipos de registro ou alterar os campos nos tipos de registro existentes.
+* ✅ Conceda aos usuários permissões de **Contribute** se você quiser apenas que eles possam criar, editar e excluir registros, mas não quiser que eles alterem a estrutura e o esquema do espaço de trabalho. Com permissões do **Contribute**, não é possível criar tipos de registro ou alterar os campos nos tipos de registro existentes.
 
-  Uma licença de usuário Standard é necessária para que alguém tenha permissões do **Contribute** para um espaço de trabalho.
+  É necessária uma licença de usuário Standard para que alguém tenha permissões do **Contribute** para um espaço de trabalho.
 
-* ✔ Dê aos usuários **Visualizar** permissões, se você quiser apenas para visualizar registros.
+* ✅ Conceda aos usuários permissões de **Visualização**, se você quiser que eles apenas visualizem registros.
 
   >[!NOTE]
   >
   >No momento, não temos permissões específicas para tipos de registros ou registros, portanto, isso significa que todos os registros em qualquer um dos tipos de registros estarão visíveis se você conceder acesso a alguém **Exibir** ao espaço de trabalho.
 
+<!--
+#### How should I manage permissions to record types?
+
+* ✅ Remember that users with Manage permissions to workspaces cannot have their permissions lowered for the record type. They will also inherit Manage permissions to the record type. You cannot give a user Manage permissions on the workspace but Contribute or View permissions on the record type. 
+* ✅ If you want users to have a lower permission level (for example, View permissions) for the record type than they have for the workspace, we recommend giving them Contribute permissions to the workspace. You can then, give them View permissions to the record type. 
+-->
+
 #### Como devo gerenciar permissões para exibições?
 
-* ✔ Restrinja **Gerenciar** permissões às pessoas que você deseja que possam editar, excluir e compartilhar a exibição. Isso significa que eles podem alterar os filtros, agrupar campos ou alguma configuração da visualização. Essas alterações afetarão a configuração principal da exibição para todos os outros que também estão usando a exibição.
+* ✅ Restrinja as permissões de **Gerenciar** às pessoas que você deseja que possam editar, excluir e compartilhar o modo de exibição. Isso significa que eles podem alterar os filtros, agrupar campos ou alguma configuração da visualização. Essas alterações afetarão a configuração principal da exibição para todos os outros que também estão usando a exibição.
 
   Uma licença de usuário Padrão é necessária para que alguém tenha permissões de gerenciamento para uma exibição.
 
-* ✓ Conceda aos usuários **View** acesso para poder aplicar a visualização. Eles poderão alterar alguns dos filtros ou agrupamentos e classificação, mas essas alterações serão apenas temporárias; as alterações não são salvas para todos os outros usuários que acessarem a visualização. Essas alterações não afetarão a configuração principal da exibição para todos os outros que também estiverem usando a exibição.  Suas alterações só são visíveis para o usuário que está aplicando as configurações modificadas. Após atualizar a tela, as alterações são redefinidas para o padrão.
+* ✅ Conceda aos usuários acesso de **Visualização** para poder aplicar a visualização. Eles poderão alterar alguns dos filtros ou agrupamentos e classificação, mas essas alterações serão apenas temporárias; as alterações não são salvas para todos os outros usuários que acessarem a visualização. Essas alterações não afetarão a configuração principal da exibição para todos os outros que também estiverem usando a exibição.  Suas alterações só são visíveis para o usuário que está aplicando as configurações modificadas. Após atualizar a tela, as alterações são redefinidas para o padrão.
 
-* ‖Dê **Todos no espaço de trabalho podem visualizar** permissões quando você quiser que todos os que podem visualizar o espaço de trabalho vejam os registros e seus campos nessa exibição específica. Dessa forma, não é necessário adicionar ninguém manualmente à caixa de permissão de compartilhamento da exibição.
+* ✅ Conceda **Todos no espaço de trabalho podem exibir** permissões quando desejar que todos os que podem exibir o espaço de trabalho vejam os registros e seus campos nesse modo de exibição específico. Dessa forma, não é necessário adicionar ninguém manualmente à caixa de permissão de compartilhamento da exibição.
 
   >[!NOTE]
   >
@@ -236,7 +243,7 @@ Use o recurso de compartilhamento para conceder permissões apropriadas aos func
 
 #### Como os tipos de licença do Workfront afetam as permissões do Workfront Planning?
 
-* Para **compartilhamento no Workspace**: os usuários de licenças Light e Contribute só podem obter acesso de visualização a um espaço de trabalho. Para conceder a uma pessoa a permissão Contribute ou Gerenciar para um espaço de trabalho, ela precisa ter uma licença Standard.
+* Para **compartilhamento no Workspace**: os usuários de licenças do Light e do Contribute só podem obter acesso de visualização a um espaço de trabalho. Para conceder permissão de Contribute ou Gerenciar a um espaço de trabalho, é necessário ter uma licença Standard.
 
 * **Compartilhamento de exibições**: os usuários de licença padrão que têm permissões de gerenciamento para um espaço de trabalho poderão criar uma exibição. Os usuários de licença do Light e do Contribute só podem utilizar as exibições que os usuários do Standard criaram e compartilharam com eles. Caso contrário, se nada tiver sido compartilhado, os usuários poderão ver a **Exibição de Tabela Padrão**.
 
@@ -253,22 +260,22 @@ Você pode criar um formulário de solicitação para cada tipo de registro quan
 
 #### Quando devo começar a criar um formulário de solicitação para um tipo de registro?
 
-* ‖Você deve garantir que a estrutura do tipo de registro seja configurada primeiro, adicionando os campos necessários à tabela. Esses campos descrevem seus registros e estarão acessíveis no construtor de formulários.
+* ✅ Verifique se a estrutura do tipo de registro foi configurada primeiro adicionando os campos necessários à tabela. Esses campos descrevem seus registros e estarão acessíveis no construtor de formulários.
 
   Idealmente, crie o formulário de solicitação ou de entrada depois que a estrutura do tipo de registro for finalizada para evitar a falta de campos-chave.
 
 #### Quem pode criar formulários de solicitação?
 
-* ‖Qualquer usuário com acesso Gerenciar ao espaço de trabalho pode criar ou editar um formulário de solicitação. Verifique se as permissões do usuário foram atribuídas corretamente para permitir essa funcionalidade.
+* ✅ Qualquer usuário com acesso de Gerenciar ao espaço de trabalho pode criar ou editar um formulário de solicitação. Verifique se as permissões do usuário foram atribuídas corretamente para permitir essa funcionalidade.
 
 #### Como devo criar ou editar um formulário de solicitação para um tipo de registro?
 
-* ‖Qualquer usuário com acesso Gerenciar ao espaço de trabalho pode seguir as etapas descritas no artigo [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* ✅ Qualquer usuário com acesso de Gerenciar ao espaço de trabalho pode seguir as etapas descritas no artigo [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 #### Quem poderá enviar novos registros usando o formulário de solicitação?
 
-* As permissões de Envio dependem das configurações definidas para cada formulário.
+* ✅ As permissões de envio dependem das configurações que você definir para cada formulário.
 
   No construtor de formulários, depois de publicar o formulário, você pode gerenciar permissões para controlar quem pode enviar solicitações.
 
@@ -342,10 +349,10 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
 * **Planning (or Connections) tab** **in Workfront _-[ [E] Global Connect capability in Planning connections area](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6617d7760001e250f5ffb9ebf04baacc/overview?source-id=unifiedShareMFE)_** 
 
-    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
+    When you go to the Planning section of Adobe Workfront objects, you can display both connections with linked records or any available connections with Planning record types. With that, you can view and edit any connection field without having to navigate away from the current section in Workfront to other areas. The Planning section is available for the following Workfront objects: Project, Portfolio and Program. For more information, see [Manage records in the Planning section of Adobe Workfront objects](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/manage-records-in-planning-section).   
 
 
-* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
+* Create new records within the connection fields - In-context creation of connected records https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/6656c1a30026b903c6edf0210b8cbb23/overview?source-id=unifiedShareMFE  When you need to link records through a connection field but cannot find the required records in the connected record type, you can also create new records in the connected record type directly within the connection fields, with that you can efficiently establish necessary links without having to leave the current record type context. For more information, see Create records https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/create-records.   
 
      
 
@@ -353,7 +360,7 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
      
 
-* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
+* **Connection between Workspaces with Record types accessible from multiple workspaces** – ~~Epic – "[Connect to record types across workspaces](https://experience.adobe.com/@adobeinternalworkfront/so:hub-Hub/workfront/project/64dfad3100027190324dcc35b2176e76/overview?source-id=unifiedShareMFE)"~~ When you are creating a workspace in Planning, you can define certain record types once and then configure them to be accessible from multiple workspaces so you can create connections with them from anywhere. This way, you can streamline the data management process, eliminate duplicative work, and ensure data consistency across teams. As a result, your teams can tag their records with common taxonomies and unlock better visualization, filtering, grouping, and reporting of cross-team work.  For more information, see [Edit record types](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/edit-record-types). 
 
      
 

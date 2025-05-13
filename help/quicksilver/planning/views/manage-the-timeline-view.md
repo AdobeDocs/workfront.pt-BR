@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2946'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ Para gerenciar uma exibição de linha do tempo:
 
 1. (Opcional) Clique em **Detalhamento** para exibir os registros conectados na linha do tempo.
 
-   Para obter informações, consulte a seção [Usar o recurso de Detalhamento para exibir registros conectados na exibição de linha do tempo](#break-down-connected-records-in-the-timeline-view)
+   Para obter informações, consulte a seção [Usar o recurso de Detalhamento para exibir registros conectados na exibição de linha do tempo](#break-down-connected-records-in-the-timeline-view) neste artigo.
 
 ### Adicionar filtros
 
@@ -266,15 +266,22 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
 1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. Clique em **Configurações**.
-1. Clique em **Data e hora** no painel esquerdo e selecione uma **Data de início** e uma **Data de término** para exibir na linha do tempo. Você pode escolher as datas padrão de Início e Término ou escolher qualquer campo de data disponível. As barras que representam os registros começam na data que você indica para a Data inicial e terminam na data correspondente à Data final.
+1. Clique em **Data e hora** no painel esquerdo e selecione uma **Data de início** e uma **Data de término** para exibir na linha do tempo. Você pode escolher as datas padrão de Início e Término ou escolher qualquer campo de data disponível.
+
+   As barras que representam os registros começam na data que você indica para a Data inicial e terminam na data correspondente à Data final.
 
    >[!NOTE]
    >
-   >Os registros que não têm valores para as datas de Início ou Término ou que têm uma data de Início posterior à data de Término não são exibidos na exibição de linha do tempo.
+   >* Os registros que não têm valores para as datas de Início ou Término ou que têm uma data de Início posterior à data de Término não são exibidos na exibição de linha do tempo.
+   >
+   >* Se você exibir registros adicionais usando a opção Breakdown, as datas Start e End serão as do registro principal. Não é possível escolher datas de Início e Término para os registros conectados nesta área.
 
 1. Clique em **Estilo de barra** no painel esquerdo para indicar quais informações você deseja exibir nas barras de registro.
 
-   O campo principal (ou título) do registro, conforme definido na exibição de tabela do registro, é selecionado por padrão. <!--adjust this when the primary field is released??-->
+   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+
+   O campo principal (ou título) do registro, conforme definido na exibição de tabela do registro, é selecionado por padrão.
+   <!--adjust this when the primary field is released??-->
 
 1. (Opcional e condicional) Se você adicionou miniaturas a registros, selecione a opção Miniatura para exibir a imagem associada aos registros na barra de registro.
 
@@ -306,10 +313,13 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
    >
    >* <span class="preview">Se você analisar a exibição da linha do tempo para exibir objetos conectados, a configuração Truncar detalhes da barra será aplicada somente ao tipo de registro principal. Isso não se aplica às barras de registro conectadas.</span>
 
+   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Clique em **Cor** no painel esquerdo para personalizar as cores dos registros e agrupamentos na linha do tempo.
 
    ![exibição da linha do tempo da guia Cor](assets/color-tab-timeline-view.png)
+
+   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
 
 1. (Condicional e opcional) Se você adicionou um agrupamento à exibição de linha do tempo, selecione uma das seguintes opções para definir uma cor para o agrupamento na seção **Definir cor de agrupamento**:
 
@@ -348,9 +358,13 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    Se você não tiver um campo com opções codificadas por cores para o tipo de registro selecionado, essa opção ficará esmaecida.
 
+   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+
 1. Clique em **Salvar**.
 
    Os registros são exibidos na exibição de linha do tempo com as especificações selecionadas.
+
+
 
 ### Analisar registros conectados na exibição de linha do tempo
 
@@ -359,6 +373,7 @@ Você pode exibir registros conectados na visualização da linha do tempo de um
 #### Considerações ao usar o recurso Detalhamento
 
 * Você pode exibir registros ou objetos conectados nos registros do tipo de registro selecionado na exibição de linha do tempo.
+* Você pode exibir registros conectados na exibição de linha do tempo somente ao exibir os registros no modo Padrão. Não é possível usar a opção Detalhamento no modo Compacto da exibição de linha do tempo.
 * Você pode exibir o seguinte na exibição de linha do tempo, usando o recurso Detalhamento:
    * Registros do Workfront Planning conectados ao tipo de registro selecionado.
    * Tipos de objeto do Workfront ou ativos do Experience Manager conectados ao tipo de registro selecionado.
