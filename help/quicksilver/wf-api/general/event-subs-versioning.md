@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: e4ff9c9c44c75518e75b14209a18586363cdf4f5
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,6 @@ Para obter informações sobre os pontos de extremidade usados para atualizar ou
 >As seguintes versões afetarão o controle de versão de assinaturas de eventos:
 >
 >* **25.2 Versão** (10 de abril de 2025): todas as novas assinaturas criadas após a versão 25.2 são criadas como Versão 2.
->* **25.3 Versão** (17 de julho de 2025): não é mais possível fazer downgrade das assinaturas para a Versão 1 após a versão 25.3.
 >* **15 de janeiro de 2026**: todas as assinaturas restantes da versão 1 são migradas para a versão 2.
 
 ## Alterações entre a versão 1 e a versão 2
@@ -256,4 +255,4 @@ As seguintes alterações foram feitas para assinaturas de evento Versão 2:
 
 O Workfront Fusion usa assinaturas de eventos para observar alterações no Workfront a fim de acionar cenários. Você pode atualizar a versão de assinatura de evento que o Fusion usa diretamente em um cenário, usando o módulo Workfront > Atualizar versão de payload de eventos.
 
-Para obter instruções sobre como usar este módulo, consulte [Módulos do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) na documentação do Workfront Fusion.
+Para obter instruções sobre como usar este módulo, consulte [Módulos do Workfront](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) na documentação do Workfront Fusion.
