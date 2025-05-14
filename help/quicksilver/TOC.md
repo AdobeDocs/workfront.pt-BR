@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: b5e5704e3276d23ec0426674f62f53de7d4a4951
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '13201'
+source-wordcount: '13207'
 ht-degree: 2%
 
 ---
@@ -2105,6 +2105,8 @@ ht-degree: 2%
       * [Gerenciar a exibição de tabela](planning/views/manage-the-table-view.md)
       * [Gerenciar a exibição de linha do tempo](planning/views/manage-the-timeline-view.md)
       * [Gerenciar a exibição de calendário](planning/views/manage-the-calendar-view.md)
+      * [Excluir visualizações de registros](planning/views/delete-record-views.md)
+      * [Exibições de registro duplicadas](planning/views/duplicate-record-views.md)
    * Notificações do Adobe Workfront Planning {#adobe-workfront-planning-notifications}
       * [Notificações do Adobe Workfront Planning: índice do artigo](planning/notifications/notifications-information.md)
       * [Gerenciar preferências de notificação do Adobe Workfront Planning](planning/notifications/manage-notification-preferences.md)

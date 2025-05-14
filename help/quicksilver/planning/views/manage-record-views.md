@@ -1,14 +1,14 @@
 ---
 title: Gerenciar Visualizações de Registro
-description: É possível exibir registros em uma exibição de tabela, linha do tempo ou calendário ao usar o Adobe Workfront Planning. Este artigo descreve como criar uma visualização e editar ou excluir uma existente.
+description: É possível exibir registros em uma exibição de tabela, linha do tempo ou calendário ao usar o Adobe Workfront Planning. Este artigo descreve como criar uma visualização e editar uma existente.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1161'
 ht-degree: 1%
 
 ---
@@ -40,10 +40,14 @@ Depois de selecionar um tipo de registro na área Adobe Workfront Planning, voc�
 Este artigo descreve as seguintes informações sobre visualizações de registro:
 
 * [Criar e editar um modo de exibição](#create-or-edit-record-views)
-* [Excluir um modo de exibição](#delete-views)
-* [Duplicar uma visualização](#duplicate-a-view)
 * [Habilitar os indicadores de presença em tempo real em uma exibição](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
+Para obter mais informações sobre o gerenciamento de exibições de registros do Workfront Planning, consulte também os seguintes artigos:
+
+* [Excluir visualizações de registros](/help/quicksilver/planning/views/delete-record-views.md)
+* [Exibições de registro duplicadas](/help/quicksilver/planning/views/duplicate-record-views.md)
+* [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md)
 
 
 ## Requisitos de acesso
@@ -123,21 +127,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * As exibições criadas estão visíveis somente para você e os usuários com os quais você compartilha as exibições.
 * Quando você modifica ou exclui uma exibição, ela é modificada e excluída para todos os usuários que têm permissões para a exibição.
 * Cada usuário pode criar no máximo 100 visualizações. Você pode exibir mais de 100 visualizações para um tipo de registro, mas um usuário pode criar apenas 100 visualizações.
-* É possível compartilhar visualizações criadas com outras pessoas. Para obter informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
-* Os seguintes elementos são exclusivos para cada exibição de registro:
+* Embora alguns elementos de exibição possam ser aplicados a várias exibições para o mesmo registro, eles são exclusivos para cada exibição de registro:
 
    * Filtro
-   * Agrupamento
-   * Ordenar
-   * Aparência da barra (para a exibição de linha do tempo)
+   * Agrupamento (para as exibições de tabela e linha do tempo)
+   * Aparência da barra (para as visualizações de linha do tempo e calendário)
 
-  <!-- some of these are not available in all of the views - edit above-->
+  Por exemplo, ao criar um filtro em uma exibição de tabela, os resultados do filtro ficam visíveis somente na exibição selecionada (a exibição de tabela) e não em todas as exibições associadas ao tipo de registro.
 
-  Por exemplo, ao criar um filtro em uma exibição de tabela, os resultados do filtro ficam visíveis somente na exibição selecionada e não em todas as exibições associadas ao tipo de registro.
-
-  >[!NOTE]
+  >[!TIP]
   >
-  > Alguns elementos de visualização podem não estar disponíveis para todas as visualizações.
+  >Alguns elementos de visualização não estão disponíveis para todas as visualizações.
 
 
 ## Semelhanças e diferenças entre visualizações de registro
@@ -160,7 +160,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 | Exibir registros em um calendário |           |              | ✓ |
 | Registros de grupo | ✓ | ✓ |
 | Classificar registros | ✓ |              |
-| Registros de código de cores |           | ✓ | ✓ |
+| <span class="preview">Registros de código de cores</span> | <span class="preview">✓</span> | ✓ | ✓ |
 | Agrupamentos de código de cores |           | ✓ |
 | Pesquisar registros específicos | ✓ | ✓ |
 | Compartilhar a exibição com outras pessoas | ✓ | ✓ | ✓ |
@@ -242,76 +242,18 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
    * [Gerenciar a exibição de linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md)
    * [Gerenciar a exibição de calendário](/help/quicksilver/planning/views/manage-the-calendar-view.md)
 
-
-## Excluir visualizações
-
-{{step1-to-planning}}
-
-1. Clique no cartão de um espaço de trabalho.
-
-   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
-
-1. Clique em um cartão de tipo de registro.
-
-   A página de tipo de registro é aberta.
-
-   Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
-
-1. Passe o mouse sobre um dos nomes de exibição na guia de exibição e clique em **Mais** ![Mais menu](assets/more-menu.png) à esquerda do nome de exibição e clique em **Excluir**.
-Primeiro, talvez seja necessário clicar em **Mais** à esquerda da última guia para localizar o modo de exibição que você deseja excluir.
-
-1. Clique em **Excluir** para confirmar. <!--ensure there is not another saving step here?!-->
-
-   A exibição é excluída para todos os usuários que podem acessar a área de registros e não pode ser recuperada.
-
-<!--## Add a view as a favorite - this is not possible yet-->
-
-<!--not possible yet - August 30, 2023: -->
-
-## Duplicar uma visualização
-
-Se quiser manter várias versões de uma exibição e fazer pequenas alterações entre as versões, você poderá duplicar uma exibição.
-
-A duplicação de uma exibição cria cópias idênticas de uma exibição existente.
-
-As permissões de compartilhamento da exibição original não são transferidas para a exibição duplicada.
-
-{{step1-to-planning}}
-
-1. Clique no cartão de um espaço de trabalho.
-
-   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
-
-1. Clique em um cartão de tipo de registro.
-
-   A página de tipo de registro é aberta.
-Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
-
-1. Passe o mouse sobre a guia da exibição que você deseja duplicar e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da exibição e clique em **Duplicar**.
-
-   ![Exibir mais menus com opção de duplicação](assets/view-more-menu-with-duplicate-option.png)
-
-
-   A exibição está duplicada e o nome da nova exibição segue o seguinte padrão: `Original view's name (Copy)`. A nova guia de exibição é exibida no final de todas as guias de exibição.
-
 ## Ativar o indicador de presença em tempo real em uma exibição
+
+Você pode ver se outros usuários estão editando registros ao mesmo tempo que você seguindo os indicadores de presença em tempo real na exibição.
 
 Os avatares de outros usuários que estão editando informações de registro ao mesmo tempo que você exibe no canto superior direito de todas as visualizações de registro, por padrão.
 
 Ao exibir a visualização de tabela, você também pode visualizar qual campo outro usuário está editando no momento em que você está visualizando o registro.
 
-1. Ir para uma página de tipo de registro e abrir qualquer exibição.
-1. (Condicional) Se houver outros usuários editando os registros do tipo selecionado ao mesmo tempo, seus avatares serão exibidos no canto superior direito da exibição.
-1. Clique no menu suspenso ao lado dos avatares e selecione a opção **Mostrar colaboradores**. O botão de alternância é selecionado por padrão.
+Para obter mais informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-   ![Exibir alternância de colaboradores selecionada](assets/show-collaborators-toggle-selected.png)
 
-1. (Condicional) Abra uma exibição de tabela e o campo que outra pessoa está editando ativamente será destacado na cor correspondente ao contorno do avatar na exibição de tabela.
 
-   Se a cor de destaque do avatar for cinza, o usuário parou de editar ativamente o registro há mais de 30 segundos.
+<!--## Add a view as a favorite - this is not possible yet-->
 
-   ![Conexão de avatar e campo da tabela de indicadores em tempo real](assets/real-time-indicator-table-field-and-avatar-connection.png)
-
-   >[!TIP]
-   >
-   >Você pode selecionar a opção **Mostrar colaboradores** de qualquer modo de exibição. O campo atualmente editado por outros é descrito somente na exibição de tabela.
+<!--not possible yet - August 30, 2023: -->
