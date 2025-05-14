@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: b2ab4ca5aab65966d3833b0e6d58a563e70694e0
 workflow-type: tm+mt
-source-wordcount: '13207'
+source-wordcount: '13209'
 ht-degree: 2%
 
 ---
@@ -247,6 +247,7 @@ ht-degree: 2%
          * [Atividade de lançamento do Workfront Proof: Semana de 29 de novembro de 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
       * Modernização da interface {#interface-modernization}
          * [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
+         * [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/hidden-interface-modernization.md)
       * Arquivamento de versão trimestral {#quarterly-release}
          * [Arquivamento de versão trimestral](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
          * versão 20.4 {#release-20-4}
