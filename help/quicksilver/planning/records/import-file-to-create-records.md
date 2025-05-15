@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -113,9 +113,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Planilhas vazias não são suportadas.
 * Os campos dos seguintes tipos não são suportados e não podem ser mapeados para campos na planilha de importação:
 
-   * &#x200B;<!--In the Production environment,--> Campos de conexão para registros do Planning ou objetos do Workfront e AEM Assets
+   * Campos de conexão, dependendo do ambiente usado:
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * No ambiente de Produção, os campos de conexão para registros do Planning ou objetos do Workfront e do AEM Assets não podem ser mapeados
+
+      * <span class="preview">No ambiente de Visualização, é possível mapear e importar campos de conexão para registros do Planning. Não é possível mapear campos para o Workfront e o AEM Assets.</span>
 
    * Campos de pesquisa de registros conectados do Planning ou objetos do Workfront e AEM Assets
    * Campos de fórmula
@@ -148,6 +150,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    ![Mapear campos do Planning para colunas ao importar registros](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    Cada linha representa um novo registro. Somente os primeiros 10 registros são exibidos na caixa Preview and edit.
+
+   >[!TIP]
+   >
+   >Nem todos os tipos de campo são suportados. Para obter mais informações, consulte a seção [Considerações sobre a importação de registros usando um arquivo Excel ou CSV](#considerations-about-importing-records-using-an-excel-or-csv-file) neste artigo.
+
 
 1. (Opcional e condicional) Se você tiver permissões de Gerenciamento para o espaço de trabalho, selecione a opção **Criar opções ausentes** no canto inferior esquerdo da tela. Quando ativado, as opções ausentes de campos de seleção única e múltipla são adicionadas.
 

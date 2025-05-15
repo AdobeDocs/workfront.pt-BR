@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '2946'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 +++
 
 ## Gerenciar uma exibição de linha do tempo {#manage-a-timeline-view}
-
-<!--insert screen shot of timeline view-->
 
 Ao criar uma exibição de linha do tempo, todos os registros do tipo de registro selecionado são exibidos em uma linha do tempo cronológica.
 
@@ -278,7 +276,7 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
 1. Clique em **Estilo de barra** no painel esquerdo para indicar quais informações você deseja exibir nas barras de registro.
 
-   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">Você pode definir o estilo de barra do registro principal e dos registros conectados ao usar a opção Detalhamento no modo de exibição Padrão. </span>
 
    O campo principal (ou título) do registro, conforme definido na exibição de tabela do registro, é selecionado por padrão.
    <!--adjust this when the primary field is released??-->
@@ -309,17 +307,14 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    >[!TIP]
    >
-   >* <span class="preview">A configuração Truncar detalhes da barra não está disponível ao exibir o modo de exibição de linha do tempo no modo Compacto e não está disponível no modo de exibição Calendário.</span>
+   ><span class="preview">A configuração Truncar detalhes da barra não está disponível ao exibir o modo de exibição de linha do tempo no modo Compacto e não está disponível no modo de exibição Calendário.</span>
    >
-   >* <span class="preview">Se você analisar a exibição da linha do tempo para exibir objetos conectados, a configuração Truncar detalhes da barra será aplicada somente ao tipo de registro principal. Isso não se aplica às barras de registro conectadas.</span>
-
-   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. Clique em **Cor** no painel esquerdo para personalizar as cores dos registros e agrupamentos na linha do tempo.
 
    ![exibição da linha do tempo da guia Cor](assets/color-tab-timeline-view.png)
 
-   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview">Você pode definir a cor do registro principal e dos registros conectados ao usar a opção Detalhamento no modo de exibição Padrão. </span>
 
 1. (Condicional e opcional) Se você adicionou um agrupamento à exibição de linha do tempo, selecione uma das seguintes opções para definir uma cor para o agrupamento na seção **Definir cor de agrupamento**:
 
@@ -358,7 +353,7 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    Se você não tiver um campo com opções codificadas por cores para o tipo de registro selecionado, essa opção ficará esmaecida.
 
-   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+   1. <span class="preview">(Opcional) Se estiver usando a opção Detalhamento, repita as etapas que começam com a etapa 4 para cada registro conectado exibido na linha do tempo. </span>
 
 1. Clique em **Salvar**.
 
@@ -413,6 +408,15 @@ Você pode exibir registros conectados na visualização da linha do tempo de um
 1. Clique na seta à direita para expandir um tipo de registro e exibir suas conexões.
 
    ![Campanhas detalhadas por programas na exibição de linha do tempo](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+
+   >[!IMPORTANT]
+   >
+   >    Quando você exibe vários registros conectados no detalhamento, eles não estão em ordem hierárquica.
+   >
+   >Por exemplo, se você estiver visualizando a linha do tempo das campanhas e adicionar Produtos e Programas ao detalhamento, os Programas não serão necessariamente conectados aos Produtos primeiro.
+   >
+   >Tanto os Produtos quanto os Programas devem estar conectados às campanhas para serem exibidos como opções para a opção de detalhamento, e você pode adicioná-los ao detalhamento em qualquer ordem.
+
 
 1. (Opcional) Repita as etapas acima para adicionar mais registros conectados.
 

@@ -6,9 +6,9 @@ description: Como gerente de projeto, você pode especificar a taxa de faturamen
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Você pode sobrepor a taxa de faturamento de uma função de trabalho em um proj
 
 * Várias vezes, selecionando várias novas taxas para intervalos de datas específicos.\
   Uma taxa diferente pode ser usada durante cada intervalo de datas especificado.
+
+* Você pode adicionar novas taxas de faturamento a um modelo de projeto e elas se tornarão taxas de faturamento do projeto ao criar o projeto a partir desse modelo. Para obter informações sobre como editar modelos, consulte [Editar modelos de projeto](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 >[!TIP]
 >

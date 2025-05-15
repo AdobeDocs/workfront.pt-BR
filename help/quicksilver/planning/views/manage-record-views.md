@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1166'
 ht-degree: 1%
 
 ---
@@ -168,6 +168,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 | Exibir registros por ano e trimestre |           | ✓ |    |
 | Exibir registros por mês |           | ✓ | ✓ |
 | Exibir registros por semana |           |               | ✓ |
+| <span class="preview">Exportar informações de um modo de exibição</span> | <span class="preview">✓</span> |               |    |
 
 
 ## Criar ou editar exibições {#create-or-edit-views}

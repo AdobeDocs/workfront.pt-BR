@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -109,9 +109,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Planilhas vazias não são suportadas.
 * Os campos dos seguintes tipos não são suportados e não podem ser mapeados para campos na planilha de importação:
 
-   * &#x200B;<!--In the Production environment,--> Campos de conexão para registros do Planning ou objetos do Workfront e AEM Assets
+   * Campos de conexão, dependendo do ambiente usado:
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * No ambiente de Produção, os campos de conexão para registros do Planning ou objetos do Workfront e do AEM Assets não podem ser mapeados
+
+      * <span class="preview">No ambiente de Visualização, é possível mapear e importar campos de conexão para registros do Planning. Não é possível mapear campos para o Workfront e o AEM Assets.</span>
 
    * Campos de pesquisa de registros conectados do Planning ou objetos do Workfront e AEM Assets
    * Campos de fórmula
@@ -129,8 +131,8 @@ Para importar tipos de registro usando um arquivo Excel ou CSV:
 
    Em um espaço de trabalho, expanda a seta apontando para baixo à direita do nome de um espaço de trabalho existente, procure um espaço de trabalho e selecione-o quando ele for exibido na lista.
 1. Clique em **Adicionar tipo de registro**.
-1. Clique em **Do arquivo**.
-1. Arraste e solte um arquivo Excel ou CSV salvo anteriormente no computador ou clique em **Selecionar um arquivo CSV ou Excel** para procurar um.
+1. Clique em **Carregar do arquivo**.
+1. Arraste e solte um arquivo Excel ou CSV salvo anteriormente no computador ou clique em **Selecionar um arquivo CSV ou Excel** para procurar um arquivo e selecione-o.
 1. Clique em **Visualizar e editar**.
 
    A caixa **Visualizar e editar** é exibida com as seguintes informações:
@@ -153,11 +155,21 @@ Para importar tipos de registro usando um arquivo Excel ou CSV:
 
    As planilhas desmarcadas são exibidas com um plano de fundo cinza.
 
-1. (Opcional) Clique na seta para baixo à direita do cabeçalho da coluna para executar um dos seguintes procedimentos:
+1. (Opcional) Clique na seta apontando para baixo à direita do cabeçalho de uma coluna para executar um dos seguintes procedimentos, <span class="preview">na guia **Campo**</span>:
+
+   <span class="preview">![Guia Campo na caixa de importação de mapeamento de tipo de registro](assets/field-tab-on-record-type-import-mapping-box.png)</span>
 
    * Renomear um dos campos
    * Alterar o **Tipo de campo**
    * Atualizar o campo **Descrição**
+
+1. <span class="preview">(Opcional) Clique na guia **Conexão** para mapear as informações da coluna para um campo conectado de outros tipos de registros.</span>
+
+   <span class="preview">![Guia Conexão na caixa de mapeamento de importação do tipo de registro](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">Você só pode mapear para campos de registros conectados do Workfront Planning. Não é possível mapear para campos de conexões Workfront ou AEM Assets. Para obter mais informações, consulte a seção [Considerações sobre a importação de tipos de registros usando um arquivo Excel ou CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file) neste artigo.</span>
 
 1. (Condicional) Depois de atualizar as informações sobre o campo, clique em **Salvar**.
 

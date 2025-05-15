@@ -6,9 +6,9 @@ description: Você pode editar modelos de projeto para refletir as alterações 
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '4877'
+source-wordcount: '4881'
 ht-degree: 2%
 
 ---
@@ -1100,7 +1100,7 @@ Adicionar os seguintes itens a um modelo é idêntico a adicioná-los a um proje
 
 * Taxas de cobrança
 
-  Para obter mais informações sobre substituição de taxas de cobrança para um projeto, consulte [Visão geral da substituição de Taxas de cobrança de função de trabalho e cálculo de Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Adicionar taxas de faturamento para um modelo é semelhante a adicionar taxas de faturamento a um projeto. Para obter mais informações, consulte [Substituir taxas de cobrança de função de trabalho no nível do projeto](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 * Despesas
 

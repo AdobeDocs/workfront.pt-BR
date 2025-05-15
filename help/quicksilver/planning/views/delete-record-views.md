@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
-
 
 # Excluir visualizações de registros
 
@@ -111,11 +111,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-1. Passe o mouse sobre um dos nomes de exibição na guia de exibição e clique em **Mais** ![Mais menu](assets/more-menu.png) à esquerda do nome de exibição e clique em **Excluir**.
+1. <span class="preview">Passe o mouse sobre um dos nomes de exibição na guia de exibição e clique em **Mais** ![Mais menu](assets/more-menu.png) à esquerda do nome de exibição e em **Excluir**.</span>
 
-   Primeiro, talvez seja necessário clicar em **Mais** à esquerda da última guia para localizar o modo de exibição que você deseja excluir.
+   <span class="preview">![Exibir mais menus em uma exibição de registro](assets/view-more-menu-with-duplicate-option.png)</span>
 
-   ![Exibir mais menus em uma exibição de registro](assets/view-more-menu-with-duplicate-option.png)
+   >[!TIP]
+   >
+   >Talvez seja necessário clicar em **Mais** à direita da última guia para localizar o modo de exibição que deseja excluir.
+
 
 1. Clique em **Excluir** para confirmar. <!--ensure there is not another saving step here?!-->
 

@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 1%
 
 ---
-
 
 # Exibições de registro duplicadas
 
@@ -114,9 +114,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    A página de tipo de registro é aberta.
 Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-1. Passe o mouse sobre a guia da exibição que você deseja duplicar e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da exibição e clique em **Duplicar**.
+1. <span class="preview">Passe o mouse sobre a guia da exibição que deseja duplicar e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da exibição e clique em **Duplicar**. </span>
 
-   ![Exibir mais menus em uma exibição de registro](assets/view-more-menu-with-duplicate-option.png)
+   <span class="preview">![Exibir mais menus em uma exibição de registro](assets/view-more-menu-with-duplicate-option.png)</span>
 
 
    A exibição está duplicada e o nome da nova exibição segue o seguinte padrão: `Original view's name (Copy)`. A nova guia de exibição é exibida no final de todas as guias de exibição.
