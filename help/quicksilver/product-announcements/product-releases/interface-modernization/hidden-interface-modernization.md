@@ -6,9 +6,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: b2ab4ca5aab65966d3833b0e6d58a563e70694e0
+exl-id: c0bf438f-f496-420a-b3b6-b958c8a70d3f
+source-git-commit: 1d2761d50176ea5ddf7649f31da8423fd60a6fe6
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3365'
 ht-degree: 1%
 
 ---
@@ -556,6 +557,8 @@ Adicionamos um novo botão Editar modo de texto e um modal de edição às segui
 
 ### Atualizações e comentários
 
++++Expanda para exibir as atualizações da interface de Atualizações e Comentários feitas no segundo trimestre
+
 ### Atualização de aparência para as opções de menu Mais para comentários
 
 **Versão de visualização: 17 de abril de 2024; Versão de produção: iniciando a semana de 17 de abril de 2024**
@@ -569,3 +572,5 @@ Esta atualização inclui as seguintes alterações:
 * Destaque a ação Delete ao exibi-la em vermelho.
 
 Para obter informações, consulte [Trabalho de atualização](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
++++
