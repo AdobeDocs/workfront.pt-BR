@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 564d9b6ba81093caf7ac897ef785120f3bc85d07
+source-git-commit: 93a904811ccc48d320c8d2646c095017baf13900
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '700'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,44 @@ Para obter uma lista de todas as alterações disponíveis com a versão do terc
 ## Modernização da interface
 
 Estamos atualizando a interface em todo o Adobe Workfront para melhorar a experiência do usuário e unificá-la com outros aplicativos da Adobe. Essas alterações são liberadas fora da programação de liberação padrão. Para obter uma lista dessas alterações, consulte [Modernização de Interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+<!--
+
+## Look-and-feel-updates to a group's recently restored items
+
+>[!NOTE]
+>
+>Preview release: May 15, 2025; Production release for all customers: May 15, 2025
+
+We have updated the look and feel of the recently restored items for groups, to match the design of other areas of Workfront. No functionality has changed for recently restored group projects, tasks, requests, documents, or templates.
+
+To view this change, go to Setup > Groups > Select name of group > Recently Restored.
+
+For information, see [View and manage a group's recently restored items](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+
+-->
+
+## Atualizações de aparência na página Diagnóstico na Configuração
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 15 de maio de 2025; Versão de produção para todos os clientes: 15 de maio de 2025
+
+Atualizamos a aparência da página de Diagnósticos na área Configuração para corresponder ao design de outras áreas do Workfront.
+
+Para visualizar esta alteração, acesse Configuração > Sistema > Diagnóstico.
+
+Para obter informações, consulte [Usar Diagnóstico para acionar processos automatizados](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+
+## Atualizações de aparência ao adicionar uma taxa de cobrança a um modelo
+
+>[!NOTE]
+>
+>Versão de pré-visualização: 15 de maio de 2025; Versão de produção para todos os clientes: 15 de maio de 2025
+
+Atualizamos a interface ao adicionar uma taxa de faturamento a um modelo, para corresponder a outras áreas do aplicativo.
+
+Nenhuma alteração de funcionalidade foi introduzida com esta atualização.
 
 ## Atualização de aparência para as opções de menu Mais para comentários
 

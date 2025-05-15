@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
+source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,61 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Atualizar as configurações de exibição da linha do tempo para definir a aparência das barras dos registros conectados ao usar a opção Detalhamento
+
+>[!NOTE]
+>
+>* Visualização: 15 de maio de 2025
+>* Versão rápida de produção: 12 de junho de 2025
+>* Produção para todos os clientes: 17 de julho de 2025
+
+Agora é possível formatar a aparência das barras de registro na exibição de linha do tempo dos registros no detalhamento. Você pode atualizar as seguintes configurações para as barras desses registros:
+
+* Estilo da barra
+* Cor
+
+Antes desse aprimoramento, você só podia formatar as barras dos registros principais como elas eram exibidas na exibição de linha do tempo e não podia formatar as barras dos registros conectados.\
+ 
+Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).  
+
+## Exportar a exibição de tabela para um arquivo CSV ou do Excel 
+
+>[!NOTE]
+>
+>* Visualização: 15 de maio de 2025
+>* Versão rápida de produção: 12 de junho de 2025
+>* Produção para todos os clientes: 17 de julho de 2025
+
+Adicionamos um novo recurso ao Workfront Planning, no qual é possível exportar informações visíveis na exibição de tabela para um arquivo CSV ou do Excel.  
+
+Considere o seguinte ao exportar informações da exibição de tabela:  
+
+* As informações exportadas consideram os filtros, agrupamentos e classificações aplicados à exibição de tabela no Workfront Planning.
+* Miniaturas e cores de linha personalizadas não são suportadas no arquivo exportado.  
+* Somente os campos tornados visíveis na interface do Workfront são exportados. Campos ocultos não são exportados.  
+
+Para obter mais informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md). 
+
+## Agora, os campos conectados do Workfront Planning são permitidos ao importar registros usando um arquivo CSV ou do Excel
+
+>[!NOTE]
+>
+>* Visualização: 15 de maio de 2025
+>* Versão rápida de produção: 12 de junho de 2025
+>* Produção para todos os clientes: 17 de julho de 2025
+
+Agora é possível preencher os valores de campos conectados ao adicionar registros a um tipo de registro usando um arquivo CSV ou do Excel.  Somente os campos de registro conectados do Planning são suportados. Os campos que exibem conexões com outros aplicativos não são compatíveis.
+
+Essa alteração é aceita ao importar um arquivo CSV e do Excel para criar um tipo de registro e registros para um tipo de registro existente.
+
+Antes desse aprimoramento, não era possível preencher campos de conexão ao importar registros.
+
+Para obter informações, consulte os seguintes artigos:
+
+* [Crie registros importando informações de um arquivo CSV ou do Excel](/help/quicksilver/planning/records/import-file-to-create-records.md).
+
+* [Crie tipos de registro importando informações de um arquivo CSV ou do Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
 ## Edição em linha na página Registros conectados de um registro
 

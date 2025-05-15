@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 2629598989726e1beaf03092dcd1a4b93a23a9aa
+source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '800'
 ht-degree: 3%
 
 ---
@@ -41,6 +41,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Aprimoramentos do Adobe Workfront
 
 * [Aprimoramentos no gerenciamento de documentos](#document-management-enhancements)
+* [Aprimoramentos na página inicial](#home-enhancements)
 * [Melhorias nos relatórios](#reporting-enhancements)
 * [Aprimoramentos de atualização e notificação](#update-and-notification-enhancements)
 * [Outras melhorias](#other-enhancements)
@@ -87,6 +88,33 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>     
   </tbody>
 </table>
+
+<!--
+
+### Home enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
+            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
+        </td>
+        <td>May 15, 2025</td>
+        <td>May 15, 2025</td>
+        <td>July 17, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+-->
 
 ### Melhorias nos relatórios
 
@@ -183,7 +211,7 @@ Estamos atualizando a interface em todo o Adobe Workfront para melhorar a experi
 
 ### Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento padrão. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento padrão. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Melhorias no planejamento do Workfront
 
@@ -205,7 +233,7 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
