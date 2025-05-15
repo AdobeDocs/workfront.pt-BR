@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 8e8a10d375e721199c5f81f425178a7bae0bf0c0
+source-git-commit: 0525dc9025f43491a5413726600df0dbb9e45b94
 workflow-type: tm+mt
-source-wordcount: '2365'
-ht-degree: 0%
+source-wordcount: '3539'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +21,46 @@ Esta página lista as atualizações de interface que estamos fazendo no Adobe W
 >Na maioria dos casos, cada atualização é lançada primeiro no ambiente de Pré-visualização e, em seguida, ativada de forma incremental no ambiente de Produção para um subconjunto crescente de clientes, a partir da data de lançamento da Produção listada.
 
 Para todas as outras alterações no Adobe Workfront, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+
+
+## Administração e configuração
+
+### Atualizações de interface nos itens restaurados recentemente de um grupo
+
+**Versão de visualização: 15 de maio de 2025; Versão de produção: 15 de maio de 2025**
+
+Atualizamos a aparência dos itens restaurados recentemente para grupos, para corresponder ao design de outras áreas do Workfront. Nenhuma funcionalidade foi alterada para projetos de grupo, tarefas, solicitações, documentos ou modelos restaurados recentemente.
+
+Para visualizar esta alteração, acesse Configurar > Grupos > Selecionar nome do grupo > Restaurados recentemente.
+
+Para obter informações, consulte [Exibir e gerenciar os itens restaurados recentemente de um grupo](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+
+
+### Atualizações de interface na página Diagnóstico na Configuração
+
+**Versão de visualização: 15 de maio de 2025; Versão de produção: 15 de maio de 2025**
+
+Atualizamos a aparência da página de Diagnósticos na área Configuração para corresponder ao design de outras áreas do Workfront.
+
+Para visualizar esta alteração, acesse Configuração > Sistema > Diagnóstico.
+
+Para obter informações, consulte [Usar Diagnóstico para acionar processos automatizados](/help/quicksilver/administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+
+### Atualizações de interface ao adicionar uma taxa de faturamento a um modelo
+
+**Versão de visualização: 15 de maio de 2025; Versão de produção: 15 de maio de 2025**
+
+Atualizamos a interface ao adicionar uma taxa de faturamento a um modelo, para corresponder a outras áreas do aplicativo.
+
+Nenhuma alteração de funcionalidade foi introduzida com esta atualização.
+
+## Documentos
+
+### Compartilhar um documento com um endereço de email externo
+
+**Versão de visualização: 15 de maio de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a caixa de diálogo de compartilhamento para permitir que os usuários compartilhem documentos com usuários externos usando um endereço de email. Esta funcionalidade estava temporariamente indisponível devido ao trabalho de modernização da interface.
 
 ## Navegação e pesquisa
 
@@ -42,9 +82,103 @@ Para obter mais informações, consulte [Pesquisa [!DNL Adobe Workfront]](/help/
 
 Atualizamos a página usada para conceder acesso de suporte à sua conta do Workfront com um design mais moderno e consistente com outras áreas do Workfront.
 
-## Administração e configuração
+
+## Usuários
+
+### Busca atualizada para a página de logon
+
+**Versão de visualização: 15 de maio de 2024; Versão de produção: a ser anunciada**
+
+Atualizamos a página de logon com um design mais moderno que é consistente com outras áreas do Workfront.
+
+### Atualização da busca pela página de redefinição de senha
+
+**Versão de visualização: 15 de maio de 2024; Versão de produção: a ser anunciada**
+
+Atualizamos a tela de redefinição de senha com um design mais moderno e consistente com outras áreas do Workfront. Esta atualização inclui atualizações nas seguintes páginas:
+
+* Senha quase expirada
+* Senha expirada
+* Senha temporária
+
+### Atualização da página de compartilhamento de documentos para usuários externos
+
+**Versão de visualização: 10 de abril de 2024; Versão de produção: iniciando a semana de 17 de abril de 2024**
+
+Atualizamos a página de compartilhamento de documentos para usuários externos com um design mais moderno que é consistente com outras áreas do Workfront.
+
+Usuários externos não podem mais acessar _Minhas configurações_ nesta página.
+
+### Página de registro de usuário externo atualizada
+
+**Versão de visualização: 24 de abril de 2024; Versão de produção: iniciando a semana de 8 de maio de 2024**
+
+Atualizamos a página de registro do usuário externo com um design mais moderno que é consistente com outras áreas do Workfront.
+
+## Licenças
+
+### Página de contrato de licença atualizada
+
+**Versão de visualização: 24 de abril de 2024; Versão de produção: iniciando a semana de 8 de maio de 2024**
+
+Atualizamos a página do contrato de licença com um design mais moderno e consistente com outras áreas do Workfront.
+
+
+
+## Atualizações de interface feitas no segundo trimestre
+
+
+### Administração e configuração
 
 +++Expanda para exibir as atualizações da interface de Administração e Configuração realizadas no segundo trimestre
+
+### Atualizações de interface na área Gerenciamento de recursos em Configuração
+
+**Versão de visualização: 17 de abril de 2025; A partir da semana de 17 de abril de 2025**
+
+Atualizamos a aparência das preferências do Gerenciamento de recursos na área Configuração para corresponder ao design de outras áreas do Workfront.
+
+Para obter informações, consulte [Configurar preferências do Gerenciamento de Recursos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+## Atualizações de interface em uma lista de Caminho de Etapas na Configuração
+
+**Versão de visualização: 6 de março de 2025; A partir da semana de 10 de abril de 2025**
+
+Atualizamos a aparência da lista Caminho de etapas na área Configuração para corresponder ao design de outras áreas do Workfront.
+
+Para obter informações, consulte [Criar um caminho de etapas](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+## Atualização de interface para a caixa Editar Tipo de Risco na Configuração
+
+**Versão de visualização: 27 de março de 2025; A partir da semana de 10 de abril de 2025**
+
+Atualizamos a aparência da caixa Editar tipo de risco ao atualizar um Tipo de risco existente na área Configuração do Workfront. O novo design agora corresponde a outras áreas do Workfront.
+
+Para obter informações, consulte [Editar e criar tipos de risco](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+### Atualização de interface para a caixa Novo Tipo de Risco na Configuração
+
+**Versão de visualização: 27 de março de 2025; A partir da semana de 10 de abril de 2025**
+
+Atualizamos a aparência da caixa Novo tipo de risco ao adicionar um novo Tipo de risco na área Configuração do Workfront. O novo design agora corresponde a outras áreas do Workfront.
+
+Para obter informações, consulte [Editar e criar tipos de risco](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+### Atualização da interface nas caixas de diálogo Tipos de Despesas em Configuração
+
+**Versão de visualização: 27 de março de 2025; A partir da semana de 10 de abril de 2025**
+
+Atualizamos a aparência das caixas de diálogo para adicionar e editar Tipos de Despesas na área Configuração, para corresponder ao design de outras áreas do Workfront.
+
+Para obter informações, consulte [Criar tipos de despesas personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+
+### Experiência atualizada na área Níveis de acesso em Configuração
+
+**Versão de visualização: 27 de março de 2025; A partir da semana de 10 de abril de 2025**
+
+Para aprimorar o desempenho, fizemos algumas atualizações visuais na área Níveis de acesso em Configuração.
+
+Uma pequena alteração de funcionalidade foi aplicada à lista de Níveis de acesso. Para copiar, editar ou deletar um nível de acesso, selecione o nível e clique no ícone apropriado.
 
 ### Atualização de interface para o Centro de notificações
 
@@ -172,7 +306,7 @@ Esta atualização inclui alterações visuais na área. Nenhuma funcionalidade 
 
 +++
 
-## Ágil
+### Ágil
 
 +++Expanda para visualizar as atualizações da interface do Agile feitas no segundo trimestre
 
@@ -236,13 +370,7 @@ Para exibir esta alteração, vá para Equipes > escolha uma equipe > Lista de p
 
 +++
 
-## Documentos
-
-### Compartilhar um documento com um endereço de email externo
-
-**Versão de visualização: 15 de maio de 2025; Versão de produção: a ser anunciada**
-
-Atualizamos a caixa de diálogo de compartilhamento para permitir que os usuários compartilhem documentos com usuários externos usando um endereço de email. Esta funcionalidade estava temporariamente indisponível devido ao trabalho de modernização da interface.
+### Documentos
 
 +++Expanda para exibir as atualizações da interface de documentos feitas no segundo trimestre
 
@@ -282,13 +410,118 @@ Para visualizar esta alteração, vá para a guia Documents > Click the more men
 
 +++
 
-## Relatórios e painéis de controle
+### Projetos
+
++++Expanda para exibir as atualizações de interface de Projetos feitas no segundo trimestre
+
+### Atualizações de aparência da área Detalhes da fila de um projeto
+
+**Versão de visualização: 27 de março de 2025; A partir da semana de 10 de abril de 2025**
+
+Atualizamos a aparência da área Detalhes da fila em um projeto para corresponder ao design de outras áreas do Workfront.
+
+Com essa atualização, a aparência da área Detalhes da fila de um modelo não foi alterada.
+
+Para obter informações, consulte [Criar uma fila de solicitações](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+### Exibição atualizada de um caminho de etapas de projeto em uma exibição de projeto
+
+**Versão de visualização: 13 de março de 2025; A partir da semana de 10 de abril de 2025**
+
+Ao acessar o caminho de etapas a partir de uma lista de projeto ou de um relatório, a página de detalhes da etapa agora tem uma nova aparência. Você deve adicionar o campo Nome do caminho de marcos à exibição da lista ou do relatório para acessar a página de detalhes do caminho de marcos.
+
+Com esta atualização, também adicionamos informações sobre as cores e os códigos de cor de cada marco.
+
+Para obter informações, consulte [Criar um caminho de etapas](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
++++
+
+
+### Relatórios e painéis de controle
 
 +++Expanda para visualizar as atualizações da interface de Relatórios e painéis realizadas no segundo trimestre
 
+### Atualizações de aparência e comportamento de um relatório de Caminho de Etapas
+
+**Versão de visualização: 30 de abril de 2025; Versão de produção: 30 de abril de 2025**
+
+Atualizamos a aparência do relatório de Caminho de etapas para corresponder ao design de outras áreas do Workfront.
+
+Para obter informações, consulte [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+### Relatórios atualizados com novo estilo
+
+**Versão de visualização: 23 de abril de 2025; Versão de produção: 23 de abril de 2025**
+
+Atualizamos a aparência de vários relatórios para corresponder ao design de outras áreas do Workfront. Nenhuma funcionalidade foi alterada.
+
+Esta atualização inclui alterações visuais nas listas e barras de ferramentas dos relatórios para os seguintes tipos de objeto:
+
+* Modelo de Tarefa
+* Grupos de Tópicos
+* Scorecards
+* Cronogramas
+
+Para obter informações, consulte [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+### Atualizações de interface para itens restaurados recentemente
+
+**Versão de visualização: 23 de abril de 2025; Versão de produção: 23 de abril de 2025**
+
+Atualizamos a aparência dos itens restaurados recentemente na área Configuração para corresponder ao design de outras áreas do Workfront. Nenhuma funcionalidade foi alterada para projetos, tarefas, solicitações, documentos ou modelos restaurados recentemente.
+
+Para visualizar esta alteração, acesse Configuração > Lixeira > Restaurado recentemente.
+
+Para obter informações, consulte [Exibir itens restaurados](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+### Atualizações de interface para a caixa Excluir empresa em um Relatório de empresa
+
+**Versão de visualização: 17 de abril de 2025; Versão de produção: 17 de abril de 2025**
+
+Atualizamos a aparência da caixa Excluir empresa quando você exclui uma empresa de um relatório de Empresa. O novo design agora corresponde a outras áreas do Workfront.
+
+Com esta atualização, a aparência da caixa Excluir empresa na página Empresas na área Configuração não foi alterada.
+
+### Relatórios atualizados com novo estilo
+
+**Versão de visualização: 17 de abril de 2025; Versão de produção: 17 de abril de 2025**
+
+Atualizamos a aparência de vários relatórios para corresponder ao design de outras áreas do Workfront.
+
+Esta atualização inclui alterações visuais nas listas e barras de ferramentas dos relatórios a seguir. Nenhuma funcionalidade foi alterada.
+
+* Empresa
+* Tipo de Despesa
+* Grupo
+* Tipo de hora
+* Entrada no Relatório
+* Recurso Não Mão-de-Obra (disponível somente para clientes específicos)
+* Categoria de Recurso Não Mão-de-Obra (disponível somente para clientes específicos)
+* Tópico da fila
+* Tipo de Risco
+* Perfil da Planilha de Horas
+* Delegação de usuários
+
+Para obter informações, consulte [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+### Relatórios atualizados com novo estilo
+
+**Versão de visualização: 9 de abril de 2025; Versão de produção: 9 de abril de 2025**
+
+Atualizamos a aparência de vários relatórios para corresponder ao design de outras áreas do Workfront.
+
+Esta atualização inclui alterações visuais nas listas e barras de ferramentas dos relatórios a seguir. Nenhuma funcionalidade foi alterada.
+
+* Parâmetro
+* Grupo de Parâmetros
+* Formulários personalizados
+* Folga
+
+Para obter informações, consulte [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
 ### Relatório de Nível de acesso atualizado com novo estilo
 
-**Versão de visualização: 30 de janeiro de 2024; Versão de produção: iniciando a semana de 6 de fevereiro de 2025**
+**Versão de visualização: 30 de janeiro de 2025; Versão de produção: iniciando a semana de 6 de fevereiro de 2025**
 
 Atualizamos o relatório de Nível de acesso com um design mais moderno e consistente com outras áreas do Workfront.
 
@@ -351,42 +584,20 @@ Adicionamos um novo botão Editar modo de texto e um modal de edição às segui
 
 +++
 
-## Usuários
+### Atualizações e comentários
 
-### Busca atualizada para a página de logon
++++Expanda para exibir as atualizações da interface de Atualizações e Comentários feitas no segundo trimestre
 
-**Versão de visualização: 15 de maio de 2024; Versão de produção: a ser anunciada**
+### Atualização de interface para as opções de menu Mais para comentários
 
-Atualizamos a página de logon com um design mais moderno que é consistente com outras áreas do Workfront.
+**Versão de visualização: 17 de abril de 2024; Versão de produção: 17 de abril de 2024**
 
-### Atualização da busca pela página de redefinição de senha
+Atualizamos a aparência das opções disponíveis no menu Mais de um comentário na seção Atualizações para todos os objetos.
 
-**Versão de visualização: 15 de maio de 2024; Versão de produção: a ser anunciada**
+Esta atualização inclui as seguintes alterações:
 
-Atualizamos a tela de redefinição de senha com um design mais moderno e consistente com outras áreas do Workfront. Esta atualização inclui atualizações nas seguintes páginas:
+* As ações foram reorganizadas para que funções semelhantes fossem agrupadas.
+* Divisores inseridos para separar claramente cada grupo.
+* Destaque a ação Delete ao exibi-la em vermelho.
 
-* Senha quase expirada
-* Senha expirada
-* Senha temporária
-
-### Atualização da página de compartilhamento de documentos para usuários externos
-
-**Versão de visualização: 10 de abril de 2024; Versão de produção: iniciando a semana de 17 de abril de 2024**
-
-Atualizamos a página de compartilhamento de documentos para usuários externos com um design mais moderno que é consistente com outras áreas do Workfront.
-
-Usuários externos não podem mais acessar _Minhas configurações_ nesta página.
-
-### Página de registro de usuário externo atualizada
-
-**Versão de visualização: 24 de abril de 2024; Versão de produção: iniciando a semana de 8 de maio de 2024**
-
-Atualizamos a página de registro do usuário externo com um design mais moderno que é consistente com outras áreas do Workfront.
-
-## Licenças
-
-### Página de contrato de licença atualizada
-
-**Versão de visualização: 24 de abril de 2024; Versão de produção: iniciando a semana de 8 de maio de 2024**
-
-Atualizamos a página do contrato de licença com um design mais moderno e consistente com outras áreas do Workfront.
+Para obter informações, consulte [Trabalho de atualização](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
