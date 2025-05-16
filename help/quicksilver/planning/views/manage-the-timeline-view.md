@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '3060'
 ht-degree: 0%
@@ -276,7 +276,7 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
 1. Clique em **Estilo de barra** no painel esquerdo para indicar quais informações você deseja exibir nas barras de registro.
 
-   <span class="preview">Você pode definir o estilo de barra do registro principal e dos registros conectados ao usar a opção Detalhamento no modo de exibição Padrão. </span>
+   Você pode definir o estilo de barra do registro principal <span class="preview">, bem como dos registros conectados</span>, ao usar a opção Detalhamento no modo de exibição Padrão.
 
    O campo principal (ou título) do registro, conforme definido na exibição de tabela do registro, é selecionado por padrão.
    <!--adjust this when the primary field is released??-->
@@ -314,7 +314,7 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    ![exibição da linha do tempo da guia Cor](assets/color-tab-timeline-view.png)
 
-   <span class="preview">Você pode definir a cor do registro principal e dos registros conectados ao usar a opção Detalhamento no modo de exibição Padrão. </span>
+   Você pode definir a cor do registro principal <span class="preview">bem como dos registros conectados</span>, ao usar a opção Detalhamento no modo de exibição Padrão.
 
 1. (Condicional e opcional) Se você adicionou um agrupamento à exibição de linha do tempo, selecione uma das seguintes opções para definir uma cor para o agrupamento na seção **Definir cor de agrupamento**:
 

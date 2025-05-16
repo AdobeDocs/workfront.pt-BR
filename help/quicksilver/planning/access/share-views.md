@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 1%
@@ -202,9 +202,9 @@ Para compartilhar uma exibição publicamente no Workfront Planning:
 
    Isso abre a página do tipo de registro.
 
-1. Na guia de exibição, passe o mouse sobre o modo de exibição que você deseja compartilhar e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do modo de exibição e clique em **Compartilhar**.
+1. <span class="preview">Na guia de exibição, passe o mouse sobre o modo de exibição que você deseja compartilhar e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do modo de exibição e clique em **Compartilhar**. </span>
 
-   ![Mais menus para exibições expandidas com a opção de compartilhamento](assets/more-menu-for-views-expanded-with-share-option.png)
+   <span class="preview">![Mais menus para exibições expandidas com a opção de compartilhamento](assets/more-menu-for-views-expanded-with-share-option.png)</span>
 
 1. Clique em **Compartilhamento público**.
 
@@ -236,10 +236,8 @@ Os usuários que acessam um link para uma exibição para a qual não têm permi
 1. (Condicional) Se você for o gerente de uma view, poderá receber uma solicitação de outro usuário para acessar a view nas seguintes áreas:
 
    * Uma notificação no aplicativo
-
      ![Notificação no aplicativo para solicitação de acesso para exibição](assets/in-app-notification-for-access-request-for-view.png)
    * Uma notificação por email
-
      ![Notificação no aplicativo para solicitação de acesso para exibição](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condicional) Na área de notificação do Workfront, clique no link de notificação no aplicativo
 Ou
