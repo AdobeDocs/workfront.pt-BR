@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 0525dc9025f43491a5413726600df0dbb9e45b94
+source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3691'
 ht-degree: 1%
 
 ---
@@ -82,8 +82,28 @@ Para obter mais informações, consulte [Pesquisa [!DNL Adobe Workfront]](/help/
 
 Atualizamos a página usada para conceder acesso de suporte à sua conta do Workfront com um design mais moderno e consistente com outras áreas do Workfront.
 
+## Relatórios e painel
+
+### URLs com /tile ou /qstile não são mais suportados nos Painéis do Workfront
+
+**Versão de visualização: 13 de maio; Versão de produção: a ser anunciada**
+
+Se você tiver uma página externa em um Painel com uma URL do Workfront que contenha `/tile` ou `/qstile`, essa página não será mais carregada.
+
+A adição de `/tile` ou `/qstile` a uma URL do Workfront permitiu que o navegador carregasse páginas de experiências clássicas sem suporte que foram descontinuadas em julho de 2022.
+
+Recomendamos substituir o URL para ir para uma página compatível ou remover a página externa do Painel.
+
 
 ## Usuários
+
+### Atualização da interface para a nova página de registro do usuário
+
+**Versão de visualização: 15 de maio de 2024; Versão de produção: a ser anunciada**
+
+Atualizamos a nova página de registro do usuário com um design mais moderno e consistente com outras áreas do Workfront.
+
+Os usuários não têm mais a opção de carregar uma foto nesta página. No entanto, eles podem carregar uma foto no perfil do usuário depois de fazer logon no Workfront.
 
 ### Busca atualizada para a página de logon
 
@@ -122,7 +142,6 @@ Atualizamos a página de registro do usuário externo com um design mais moderno
 **Versão de visualização: 24 de abril de 2024; Versão de produção: iniciando a semana de 8 de maio de 2024**
 
 Atualizamos a página do contrato de licença com um design mais moderno e consistente com outras áreas do Workfront.
-
 
 
 ## Atualizações de interface feitas no segundo trimestre
