@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2785'
 ht-degree: 6%
 
 ---
@@ -104,7 +104,7 @@ Para exportar um modelo do Kickstart:
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Painel</p> <p>Todos os painéis no sistema estão disponíveis para exportação. Você pode selecionar até 100 painéis específicos em uma única exportação.</p> </td> 
+      <td scope="col"> <p>Painel</p> <p>Todos os painéis compartilhados publicamente no sistema estão disponíveis para exportação. Painéis não compartilhados em todo o sistema não podem ser exportados. Você pode selecionar até 100 painéis específicos em uma única exportação.</p> </td> 
       <td scope="col">Exporta como arquivo ZIP</td> 
       <td scope="col"> <p>Parâmetro</p> <p>Texto descritivo</p><p>Opção de parâmetro</p> <p>Grupo de Parâmetros</p> <p>Parâmetro da Categoria</p> <p>Categoria</p> <p>Relatório</p> <p>Seção de Guias do Portal</p> <p>Painel</p> <p>Preferências</p> </td> 
      </tr> 

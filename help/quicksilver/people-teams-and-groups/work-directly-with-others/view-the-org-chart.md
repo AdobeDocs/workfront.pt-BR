@@ -6,7 +6,7 @@ description: O recurso de organograma permite exibir o organograma associado a u
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
@@ -49,5 +49,5 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step1-click-profile-pic}}
 
-1. No painel esquerdo, clique em **[!UICONTROL Organograma]**.\
-   ![Organograma](assets/org-chart.png)
+1. No painel esquerdo, clique em **[!UICONTROL Organograma]**.
+   ![Organograma](assets/org-chart-2025.png)

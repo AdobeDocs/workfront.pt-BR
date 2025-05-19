@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 96b9939131beebd9c1968cb5c287d75295c68c5b
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
@@ -79,19 +79,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Cada guia lista itens do tipo de objeto correspondente que pertencem ao grupo atual ou a seus subgrupos e que foram restaurados nos últimos 30 dias.
 
-1. Conclua qualquer uma das seguintes ações:
+1. (Opcional) Para exportar toda a lista de objetos na guia, clique no ícone **Exportar**. ![Ícone Exportar](assets/export-icon.png).
+1. (Opcional) Altere a exibição de informações na lista usando um filtro, uma exibição ou um agrupamento.
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"> <p>Exportar a lista inteira de objetos na guia</p> </td> 
-      <td> <p>Clique em <strong>Exportar</strong>.</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"> <p>Alterar a exibição de informações na lista</p> </td> 
-      <td> <p>No canto superior direito acima da lista, use <strong>Filtro</strong> para definir o que é exibido com base nos critérios fornecidos. Use <strong>Exibir</strong> para definir quais campos são exibidos como colunas. Use o <strong>Agrupamento</strong> para agrupar os itens em categorias.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   Para obter mais informações, consulte [Visão geral dos elementos do relatório](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+

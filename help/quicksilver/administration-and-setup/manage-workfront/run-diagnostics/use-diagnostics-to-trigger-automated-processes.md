@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 9%
@@ -68,33 +68,31 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Envia notificações de vencimentos</td> 
+      <td role="rowheader">Enviar notificações de vencimento</td> 
       <td> <p>Envia manualmente as notificações automáticas de lembrete sobre tarefas e problemas vencidos. </p> <p>Para obter mais informações sobre como configurar lembretes automáticos, consulte <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Configurar lembretes automáticos</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Envia notificações de antecipação</td> 
+      <td role="rowheader">Enviar notificações antecipadas</td> 
       <td> <p>Envia manualmente as notificações automáticas de lembrete para tarefas e problemas que estão se aproximando de suas datas de vencimento.</p> <p>Para obter mais informações sobre como configurar lembretes automáticos, consulte <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Configurar lembretes automáticos</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Envia Lembretes de Notificações</td> 
+      <td role="rowheader">Enviar notificações de lembrete</td> 
       <td> <p>Envia manualmente notificações de lembrete. </p> <p>Para obter mais informações sobre como configurar notificações de lembrete, consulte <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Configurar notificações de lembrete</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Verifica todas as contas POP</td> 
-      <td> <p>Verifica se novos emails foram enviados para contas POP vinculadas ao Workfront. </p> <!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about Workfront and POP account integrations, see and <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.</p>
-       --> </td> 
+      <td role="rowheader">Verificar todas as contas POP</td> 
+      <td>Verifica se novos emails foram enviados para contas POP vinculadas ao Workfront.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Recalcular Linhas de Tempo</td> 
+      <td role="rowheader">Recalcular linhas do tempo</td> 
       <td> <p>Recalcula a linha do tempo de todos os projetos no Workfront com o status Atual. </p> <p>Para obter mais informações sobre como calcular a linha de tempo de projetos automática ou manualmente, um projeto por vez, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular linhas de tempo do projeto</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Recupera Relatórios Padrão do Cliente</td> 
+      <td role="rowheader">Restaura relatórios de cliente padrão</td> 
       <td>Restaura os relatórios padrão originalmente fornecidos com o Workfront, para que fiquem visíveis na seção <strong>Relatórios</strong> para todos os usuários.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Gerar planilha de horas</td> 
+      <td role="rowheader">Gerar planilhas de horas</td> 
       <td>Gera planilhas de horas para usuários baseado em seus perfis de planilhas de horas recorrentes. Essa opção precisa ser executada somente se o perfil da folha de horas tiver sido alterado significativamente depois de ter sido atribuído aos usuários e somente após qualquer folha de horas atual e futura ter sido excluída.</td> 
      </tr> 
     </tbody> 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1043'
 ht-degree: 7%
 
 ---
@@ -167,6 +167,10 @@ As seguintes limitações existem ao exportar dados por meio de kick-starts (os 
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >Se a opção **Painel** não estiver disponível, significa que você não tem nenhum painel em seu sistema que seja compartilhado em todo o sistema. Não é possível exportar painéis privados.
 
 1. Clique em **Mais Opções** para ver a lista completa de objetos.
 
@@ -330,7 +334,7 @@ As seguintes limitações existem ao exportar dados por meio de kick-starts (os 
 
    O arquivo de início inicial exportado é baixado no computador como um arquivo do Excel ou como um . arquivo zip que contém vários arquivos Excel e de propriedades. Cada arquivo do Excel é uma coleção de planilhas, em que cada planilha representa um campo associado ao objeto selecionado. Há uma planilha **Propriedades** associada a cada exportação.
 
-   As opções **Painel** e **Relatório** permitem que você selecione painéis e relatórios específicos para incluir no download. Você pode exportar apenas Painéis, que são compartilhados em todo o sistema.
+   As opções **Painel** e **Relatório** permitem que você selecione painéis e relatórios específicos para incluir no download. Para painéis, você só pode exportar painéis que são compartilhados em todo o sistema.
 
    Não é possível exportar relatórios de matriz. Para obter mais informações sobre relatórios de matriz, consulte [Criar um relatório de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
