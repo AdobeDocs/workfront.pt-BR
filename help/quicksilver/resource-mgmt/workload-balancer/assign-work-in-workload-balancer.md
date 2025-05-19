@@ -6,14 +6,16 @@ description: Como gerenciador de recursos, você pode usar o Balanceador de carg
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1032'
 ht-degree: 1%
 
 ---
 
 # Visão geral da atribuição de trabalho no Balanceador de carga de trabalho
+
+<!-- Audited: 5/2025 -->
 
 Como gerenciador de recursos, você pode usar o Balanceador de carga de trabalho do Adobe Workfront para exibir itens de trabalho que ainda não foram atribuídos aos usuários, bem como atribuir esses itens a eles.
 
@@ -30,7 +32,7 @@ Para obter informações sobre como atribuir itens de trabalho em outras áreas 
 
 Você pode atribuir trabalho no Balanceador de carga de trabalho para corresponder ao tempo disponível dos usuários. Para garantir que você atribua a quantidade certa de trabalho e não superaloque o usuário, o total de Horas planejadas dos itens de trabalho atribuídos ao usuário deve corresponder às alocações diárias ou semanais do usuário.
 
-Você deve entender como o Workfront calcula o tempo disponível para um usuário.
+É importante entender como o Workfront calcula o tempo disponível para um usuário.
 
 O Workfront usa as seguintes informações para calcular a capacidade do usuário no Balanceador de carga de trabalho:
 
@@ -43,7 +45,7 @@ O Workfront usa as seguintes informações para calcular a capacidade do usuári
 
   Para obter mais informações, consulte [Configurar preferências de Gerenciamento de Recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  Para obter informações sobre agendamentos, consulte [Criar um agendamento](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  Para obter informações sobre agendamentos, consulte [Criar um agendamento](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * A folga do usuário. Isso indica quais dias o usuário planeja decolar.
 
@@ -80,8 +82,8 @@ Você pode atribuir trabalho aos usuários usando o Balanceador de carga de trab
 
 Há duas áreas no Balanceador de carga de trabalho em que você pode exibir itens de trabalho:
 
-* **Trabalho não atribuído**: exibe itens que não estão atribuídos a usuários.
-* **Trabalho atribuído**: exibe os itens atribuídos aos usuários.
+* **Trabalho não atribuído**: mostra itens que não foram atribuídos aos usuários.
+* **Trabalho atribuído**: mostra os itens atribuídos aos usuários.
 
 A tabela a seguir descreve quais itens são exibidos em cada área com base em suas atribuições:
 

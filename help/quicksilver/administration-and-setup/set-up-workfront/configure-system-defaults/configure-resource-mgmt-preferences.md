@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
 
 # Configurar preferências de [!UICONTROL Gerenciamento de recursos]
+
+<!-- Audited: 5/2025 -->
 
 <!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
@@ -34,19 +36,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td><p>Novo: [!UICONTROL Padrão]</p>
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Padrão</p>
    Ou
-   <p>Atual: [!UICONTROL Plano]</p>
+   <p>Atual: Plano</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td>[!UICONTROL Administrador do Sistema]</td>
+   <td>Administrador de Sistema</td>
   </tr> 
  </tbody> 
 </table>
@@ -59,11 +61,11 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Ao calcular a capacidade de um usuário, o Workfront considera as seguintes informações:
 
-* O número de horas agendadas, conforme definido na Agenda do usuário ou na [!UICONTROL Agenda Padrão] do sistema Workfront
-* [!UICONTROL Agendar] [!UICONTROL Exceções] (dependendo de qual [!UICONTROL Agendar] é usado, podem ser as exceções do agendamento do usuário ou aquelas associadas ao [!DNL Workfront] [!UICONTROL Agendamento Padrão])
-* Tempo de folga do usuário
+* O número de horas agendadas, conforme definido no Agendamento do usuário ou no Agendamento padrão do sistema Workfront.
+* Exceções de Programação (dependendo de qual Programação é usada, podem ser as exceções da programação do usuário ou aquelas associadas à Programação Padrão do Workfront).
+* A folga do usuário.
 * O valor do Equivalente de Tempo Integral ([!UICONTROL FTE]) do usuário ou do sistema [!DNL Workfront]. O [!UICONTROL FTE] é igual a 1 quando o usuário trabalha em tempo integral, conforme definido no agendamento.
-* O valor de [!UICONTROL Tempo de Trabalho] para o usuário que se refere ao tempo que o usuário gasta no trabalho relacionado ao projeto. Isso não inclui horas extras, como reuniões e treinamento. O [!UICONTROL Tempo de Trabalho] é igual a 1 quando o usuário está disponível para o trabalho o tempo todo, conforme indicado pelo [!UICONTROL FTE] ou pelo agendamento, o que significa que ele não passa nenhum tempo em trabalho não relacionado ao projeto, como reuniões ou treinamentos.
+* O valor de [!UICONTROL Tempo de Trabalho] para o usuário, que se refere ao tempo que o usuário gasta no trabalho relacionado ao projeto. Isso não inclui horas extras, como reuniões e treinamento. O [!UICONTROL Tempo de Trabalho] é igual a 1 quando o usuário está disponível para o trabalho o tempo todo, conforme indicado pelo [!UICONTROL FTE] ou pelo agendamento, o que significa que ele não passa nenhum tempo em trabalho não relacionado ao projeto, como reuniões ou treinamentos.
 
 
 Para obter informações sobre o planejamento e o agendamento de recursos no [!DNL Workfront], consulte [Introdução ao Gerenciamento de Recursos](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
@@ -82,11 +84,9 @@ Para obter informações sobre o planejamento e o agendamento de recursos no [!D
 
    * **O Agendamento Padrão**: [!DNL Workfront] usa o Agendamento Padrão do sistema e o FTE individual do usuário para calcular as Horas Disponíveis do usuário nas ferramentas de gerenciamento de recursos.
 
-     Para obter mais informações sobre agendamentos, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Para obter mais informações, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) e [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-     Para obter mais informações sobre como localizar o valor do [!UICONTROL FTE] do usuário, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-
-     O Workfront calcula as Horas Disponíveis de um usuário usando a seguinte fórmula quando o administrador do Workfront escolhe O [!UICONTROL Calendário Padrão]:
+     Quando essa opção é selecionada, o Workfront calcula as Horas Disponíveis do usuário usando a seguinte fórmula:
 
 
      `User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]`
@@ -94,7 +94,7 @@ Para obter informações sobre o planejamento e o agendamento de recursos no [!D
 
      >[!INFO]
      >
-     >Por exemplo, se o Calendário padrão for 40 horas por semana, o FTE no perfil do usuário será 0,5, o usuário terá 1 hora de Folga em um dia e o [!UICONTROL Tempo de Trabalho] no perfil do usuário será 0,5, o usuário estará disponível para o trabalho real do projeto por 9,5 horas por semana.
+     >Por exemplo, se o Calendário padrão for de 40 horas por semana, o FTE no perfil do usuário será 0,5, o usuário terá 1 hora de Folga em um dia, o [!UICONTROL Tempo de Trabalho] no perfil do usuário será 0,5 e o usuário estará disponível para o trabalho real do projeto por 9,5 horas por semana.
      >
      >Se o usuário tiver 1 hora de folga em um dia, suas Horas disponíveis serão calculadas da seguinte maneira:
      >
@@ -132,11 +132,9 @@ Para obter informações sobre o planejamento e o agendamento de recursos no [!D
       </div></li>      
       -->
 
-   * **O Cronograma do Usuário**: [!DNL Workfront] usa o cronograma do usuário e o [!UICONTROL Cronograma Padrão] do sistema para calcular o valor [!UICONTROL FTE] Disponível do usuário nas ferramentas de gerenciamento de recursos. As Horas Disponíveis são calculadas de acordo apenas com o cronograma do usuário. O valor de [!UICONTROL FTE] do usuário foi ignorado. Esta é a configuração padrão.
+   * **O Cronograma do Usuário**: [!DNL Workfront] usa o cronograma do usuário e o [!UICONTROL Cronograma Padrão] do sistema para calcular o valor [!UICONTROL FTE] Disponível do usuário nas ferramentas de gerenciamento de recursos. As Horas Disponíveis são calculadas de acordo apenas com o cronograma do usuário, e o valor de [!UICONTROL FTE] do usuário é ignorado. Esta é a configuração padrão.
 
-     Para obter mais informações sobre agendamentos, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-
-     Para obter mais informações sobre a [!UICONTROL Agenda] de um usuário, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+     Para obter mais informações, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) e [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
      >[!NOTE]
      >
@@ -156,7 +154,7 @@ Para obter informações sobre o planejamento e o agendamento de recursos no [!D
 
      >[!INFO]
      >
-     >Por exemplo, se o [!UICONTROL Cronograma Padrão] for 40 horas por semana, o cronograma do usuário será 30 horas por semana e o [!UICONTROL Horário de Trabalho] do usuário será 0,5, o [!UICONTROL FTE] do usuário será 0,35.
+     >Por exemplo, se o [!UICONTROL Cronograma Padrão] for 40 horas por semana, o cronograma do usuário será 30 horas por semana, o [!UICONTROL Horário de Trabalho] do usuário será 0,5 e o [!UICONTROL FTE] do usuário será 0,35.
      >
      >Se o usuário tiver 2 horas de Folga por dia, seu [!UICONTROL FTE] Disponível Semanalmente será calculado da seguinte maneira:
      >

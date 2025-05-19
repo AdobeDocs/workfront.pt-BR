@@ -1,21 +1,23 @@
 ---
 content-type: api
 navigation-topic: workfront-objects
-title: Quando APIModel INTERNAL não oferece suporte à categoria projectid (OpTask) de campo
-description: Quando APIModel INTERNAL não oferece suporte a campo projectid (OpTask)
+title: Categoria
+description: Uma tabela de campos disponíveis para o objeto Category, com suas descrições e tipos de valor.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 25%
+source-wordcount: '281'
+ht-degree: 27%
 
 ---
 
 
 # Categoria
+
+<!-- Audited: 5/2025 -->
 
 Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
 mensagem: &quot;APIModel INTERNAL não oferece suporte ao campo projectid (OpTask)&quot;
@@ -104,7 +106,7 @@ mensagem: &quot;APIModel INTERNAL não oferece suporte ao campo projectid (OpTas
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;hasCalculatedFields&quot;}"><strong>hasCalculatedFields</strong> </td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Has Calculated Fields&quot;}">Têm Campos Calculáveis</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Has Calculated Fields&quot;}">Tem campos calculados</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Boolean&quot;}">Booleano</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Does the form have calculated fields associated with it?&quot;}">O formulário tem campos calculados associados a ele?</td> 
    <td> </td> 
@@ -139,23 +141,23 @@ mensagem: &quot;APIModel INTERNAL não oferece suporte ao campo projectid (OpTas
 
 ## Referências
 
-| Nome | Rótulo | Tipo | Digite o código do objeto | URL |
-|---|---|---|---|---|
-| Cliente | cliente | Cliente | CLIENTE | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Cadastrado por | enteredBy | Usuário | USUÁRIO | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Grupo | grupo | Grupo | GRUPO | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Última Atualização realizada por | lastUpdatedBy | Usuário | USUÁRIO | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Nome | Rótulo | Tipo | Digite o código do objeto |
+|---|---|---|---|
+| Cliente | cliente | Cliente | CLIENTE |
+| Cadastrado por | enteredBy | Usuário | USUÁRIO |
+| Grupo | grupo | Grupo | GRUPO |
+| Última Atualização realizada por | lastUpdatedBy | Usuário | USUÁRIO |
 
 
 ## Coleções
 
-| Nome | Rótulo | Tipo | Digite o código do objeto | URL |
-|---|---|---|---|---|
-| Regras de acesso | accessRules | Regra de acesso | ACSRUL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Regras de acesso de categoria | categoryAccessRules | Regras de acesso de categoria | CATACR | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Regras em cascata de categorias | categoryCascadeRules | Regras de categorias em cascata | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Parâmetros da Categoria | categoryParameters | Parâmetros da Categoria | CTGYPA | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Outros Grupos | otherGroups | Grupo | GRUPO | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Nome | Rótulo | Tipo | Digite o código do objeto |
+|---|---|---|---|
+| Regras de acesso | accessRules | Regra de acesso | ACSRUL |
+| Regras de acesso de categoria | categoryAccessRules | Regras de acesso de categoria | CATACR |
+| Regras em cascata de categorias | categoryCascadeRules | Regras de categorias em cascata | CTCSRL |
+| Parâmetros da Categoria | categoryParameters | Parâmetros da Categoria | CTGYPA |
+| Outros Grupos | otherGroups | Grupo | GRUPO |
 
 
 ## Ações
