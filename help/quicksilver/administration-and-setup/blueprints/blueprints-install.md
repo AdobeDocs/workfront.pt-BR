@@ -9,14 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '490'
 ht-degree: 1%
 
 ---
 
 # Instalar um blueprint
+
+<!-- Audited: 5/2025 -->
 
 Você pode instalar um blueprint no seu ambiente de produção ou um ambiente de sandbox.
 
@@ -63,7 +65,7 @@ Você pode instalar seu pacote em qualquer um dos seguintes ambientes:
     </tr>
     <tr>
         <td><strong>Visualização da sandbox</strong></td>
-        <td>A visualização da sandbox é um ambiente de teste que serve como uma réplica do seu ambiente ativo e é atualizado todos os finais de semana pela Workfront. Todos os pacotes de suporte têm acesso à Visualização da sandbox. Para obter mais informações, consulte <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">O [!DNL Adobe Workfront] Ambiente de pré-visualização da sandbox</a>.</td>
+        <td>A visualização da sandbox é um ambiente de teste que serve como uma réplica do seu ambiente ativo e é atualizado todos os finais de semana pela Adobe Workfront. Todos os pacotes de suporte têm acesso à Visualização da sandbox. Para obter mais informações, consulte <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">O [!DNL Adobe Workfront] Ambiente de pré-visualização da sandbox</a>.</td>
     </tr>
     <tr>
         <td><strong>Sandbox 1 e 2</strong></td>
@@ -84,17 +86,18 @@ Você pode instalar seu pacote em qualquer um dos seguintes ambientes:
 
 {{step1-to-blueprints}}
 
-1. Encontre o blueprint que deseja instalar. Você pode filtrar por caso de uso, nível de maturidade, status de instalação e tipo no lado direito.
+1. Encontre o blueprint que deseja instalar. Você pode filtrar por caso de uso, nível de maturidade, status de instalação e tipo no lado direito da página.
 1. (Opcional) Clique em **[!UICONTROL Detalhes]** para saber como o blueprint funciona.
 1. Clique em **[!UICONTROL Instalar]**.
 1. Escolha instalar no ambiente de produção ou em um ambiente de sandbox.\
    Para obter mais informações, consulte o [Onde devo instalar um blueprint?seção ](#where-should-i-install-a-blueprint) neste artigo.
-1. Na página [!UICONTROL Configurar], você pode optar por executar um dos seguintes procedimentos:
+1. Na página **Configurar**, você pode optar por executar um dos seguintes procedimentos:
 
    * Instale o blueprint como está. Para tipos de blueprint que não exigem configuração, essa é a única opção. Para tipos de blueprint que precisam de configuração, você pode optar por instalar o blueprint agora e configurá-lo posteriormente. Clique em **[!UICONTROL Instalar como está]**.
-   * Configure o blueprint antes da instalação do para blueprints que exigem configuração. Faça suas seleções de configuração e clique em **[!UICONTROL Instalar blueprint]**.\
+   * Configure o blueprint antes da instalação do para blueprints que exigem configuração. Faça suas seleções de configuração e clique em **[!UICONTROL Instalar blueprint]**.
 
      Para obter mais informações, consulte [Configurar um blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
-Quando a instalação estiver concluída, uma mensagem exibirá uma lista dos objetos específicos (como funções, equipes ou grupos) que foram instalados com êxito com o blueprint e todos os objetos que falharam na instalação.
+
+   A instalação é concluída e uma mensagem exibe uma lista dos objetos específicos (como funções, equipes ou grupos) que foram instalados com êxito com o blueprint e todos os objetos que falharam na instalação.
 
 Depois de instalar o blueprint, algumas ações adicionais podem ser necessárias para implantá-lo totalmente. Para obter informações, consulte [Ações a serem executadas após a instalação de um blueprint](../../administration-and-setup/blueprints/best-next-actions-after-install.md).

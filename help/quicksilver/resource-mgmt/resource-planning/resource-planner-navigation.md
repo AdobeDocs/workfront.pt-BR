@@ -7,7 +7,7 @@ description: Ao usar o Planejador de recursos da Adobe Workfront, você pode ent
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
 source-wordcount: '2424'
 ht-degree: 2%
@@ -249,7 +249,6 @@ Nas Exibições de projetos e funções, os usuários podem aparecer listados no
 
    * Se a função de trabalho secundária tiver um número válido para a Porcentagem de Disponibilidade de FTE em seu perfil de usuário.
    * Se o usuário estiver atribuído a tarefas nessas funções.
-
 Para obter mais informações sobre a Porcentagem de Disponibilidade de FTE para uma função de trabalho, consulte [Editar perfil de usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Seções Sem Função e Sem Usuário

@@ -8,14 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 04d41a8c9c8c04f2e7ef308465328ccc57bd3195
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2057'
 ht-degree: 0%
 
 ---
 
 # Lista de blueprints disponíveis
+
+<!-- Audited: 5/2025 -->
 
 Os seguintes blueprints do [!DNL Adobe Workfront] estão disponíveis para instalação pelos administradores do sistema. Para obter mais informações sobre blueprints, consulte [Visão geral dos blueprints](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
@@ -50,7 +52,7 @@ O pacote de [!UICONTROL Revisão de ativos digitais] contém um único modelo pa
 Este blueprint contém um modelo que a organização de serviços profissionais [!DNL Workfront] tem usado por anos durante os contratos de implementação com as equipes corporativas de TI para gerenciar as várias atividades que devem ocorrer quando um funcionário é transferido para uma nova função. Esse modelo reduz os riscos de segurança existentes quando uma transferência de funcionário é concluída sem a supervisão da TI. Também elimina horas desperdiçadas de tempo improdutivo quando o acesso aos sistemas não é concedido para cumprir as obrigações da nova função do funcionário.
 
 **[!UICONTROL Fechamento Operacional de Fim de Mês]**
-Este blueprint contém um modelo que a organização de serviços profissionais [!DNL Workfront] tem usado por anos durante os contratos de implementação com as equipes financeiras para organizar o fechamento dos livros no final do mês. O modelo fornece uma lista de verificação de atividades comuns que devem ser concluídas a cada mês para relatar com precisão e promover a integridade da empresa.
+Este blueprint contém um modelo que a organização de serviços profissionais [!DNL Workfront] tem usado por anos durante os contratos de implementação com as equipes financeiras para organizar o fechamento mensal dos livros. O modelo fornece uma lista de verificação de atividades comuns que devem ser concluídas a cada mês para relatar com precisão e promover a integridade da empresa.
 
 **[!UICONTROL Configuração da Organização Financeira]**
 Este blueprint contém a configuração de estruturas organizacionais para expandir para um departamento financeiro.
@@ -77,10 +79,13 @@ Este blueprint contém a configuração de estruturas organizacionais para expan
 Este blueprint contém um modelo que a organização [!DNL Workfront professional services] tem usado por anos durante os contratos de implementação com as equipes de Recursos Humanos para ajudar novos funcionários a rastrear suas atividades de integração.
 
 **[!UICONTROL Nova Disponibilidade de Contratação]**
-Este blueprint contém um modelo que a organização de serviços profissionais [!DNL Workfront] tem usado há anos durante os contratos de implementação com as equipes de Recursos Humanos para solicitar que especialistas em RH e gerentes de contratação concluam atividades essenciais para tornar notável o primeiro dia de um novo funcionário.
+Este blueprint contém um modelo que a organização de serviços profissionais [!DNL Workfront] tem usado por anos durante os contratos de implementação com as equipes de Recursos Humanos para solicitar que especialistas de RH e gerentes de contratação concluam atividades essenciais para o primeiro dia de um funcionário.
 
 **Desintegração | Saindo do Painel de Usuários**
 Este blueprint contém um único painel com 13 relatórios para ajudar você a localizar, reatribuir ou gerenciar os objetos e atribuições associados a um usuário que sai do Workfront. Você também pode usar esses relatórios para um usuário que está mudando para uma nova função ou grupo para reatribuir seu trabalho.
+
+**Habilitação de Parceiro: Pacote GenStudio Foundation**
+O pacote de ativação para parceiros: GenStudio Foundation foi projetado para facilitar a promoção contínua do ambiente de base do GenStudio. Ele inclui todos os componentes necessários para executar o bootcamp de forma eficaz.
 
 **Painel do Gerenciador de Pessoas**
 Este blueprint contém um único painel de controle com 12 relatórios para dar aos gerentes de pessoas visibilidade sobre o trabalho de seus subordinados diretos.
@@ -95,10 +100,10 @@ O pacote de [!UICONTROL Produção de Ativo de Impressão] contém um modelo que
 O pacote de [!UICONTROL Produção de Ativo de Impressão] contém um modelo que organiza o trabalho para um processo de produção de impressão padrão. Este pacote é um ponto de entrada para gerenciar a criação de ativos de impressão no Workfront. Use este pacote para criar uma base para a criação de conteúdo de impressão e, em seguida, personalize-o para atender às necessidades de outros processos criativos de materiais impressos.
 
 **[!UICONTROL Imprimir: Produção de Ativo de Correspondência Direta]**
-Este [!UICONTROL blueprint: Produção de ativos de correspondência direta] organiza o trabalho para um processo de produção de material de apoio para impressão. Este blueprint é um ponto de entrada para o gerenciamento de materiais impressos, especificamente correspondência direta, no Workfront.
+O blueprint [!UICONTROL Imprimir: Produção de ativos de correspondência direta] organiza o trabalho para um processo de produção de material de apoio para impressão. Este blueprint é um ponto de entrada para o gerenciamento de materiais impressos, especificamente correspondência direta, no Workfront.
 
 **[!UICONTROL Imprimir: Criação de Conteúdo de Correspondência Direta e Execução de Campanha]**
-Este blueprint [!UICONTROL Criação e execução de conteúdo de correspondência direta] organiza o trabalho para um processo de produção de material de apoio para impressão. Este blueprint é um ponto de entrada para o gerenciamento de materiais impressos, especificamente correspondência direta, no Workfront. Esse template é exclusivo porque também contém tarefas para imprimir o ativo e executar a campanha de correspondência direta independentemente de outras atividades da campanha.
+O blueprint [!UICONTROL Criação e execução de conteúdo de correspondência direta] organiza o trabalho para um processo de produção de material de apoio para impressão. Este blueprint é um ponto de entrada para o gerenciamento de materiais impressos, especificamente correspondência direta, no Workfront. Esse template é exclusivo porque também contém tarefas para imprimir o ativo e executar a campanha de correspondência direta independentemente de outras atividades da campanha.
 
 **[!UICONTROL Configuração da Organização de Serviços Profissionais]**
 Este blueprint contém a configuração de estruturas organizacionais para expandir para um caso de uso de Serviços profissionais.
@@ -107,8 +112,7 @@ Este blueprint contém a configuração de estruturas organizacionais para expan
 Este blueprint define uma lista de verificação para recursos de recrutamento interno a ser usada para ajudar as partes interessadas a acompanhar o progresso das solicitações de efetivo de pessoal. Ele foi projetado para oferecer suporte a um nível de maturidade gerenciado.
 
 **Preparação para Gerenciamento de Recursos**
-
-Use este Modelo de projeto e Relatório de usuário para garantir que você tenha as configurações e informações corretas necessárias para gerar dados precisos do Gerenciamento de recursos.
+Use este blueprint para garantir que você tenha as configurações e informações corretas necessárias para gerar dados precisos de gerenciamento de recursos.
 
 **[!UICONTROL Autoavaliação do Controle de Riscos: Planejamento de Redução de Riscos Principais]**
 A [!UICONTROL Autoavaliação de Controle de Risco] (RSCA) define um processo para identificar riscos e medir os controles que você tem em vigor para mitigar esses riscos. Esse modelo formaliza o processo para que você avalie novos riscos, garanta que controles apropriados sejam implementados e saiba como medir e documentar a eficácia do controle.
@@ -120,10 +124,10 @@ A [!UICONTROL Autoavaliação de Controle de Riscos] (RSCA) define um processo p
 O pacote de [!UICONTROL Produção de Ativo Social] contém um modelo que organiza o trabalho para criar um artefato social. O modelo fornece um processo simples para a criação original de ativos sociais para uma equipe que depende de procedimentos operacionais padrão para definir como fazer o trabalho e usa o projeto apenas para priorizar o trabalho e acompanhar o progresso.
 
 **[!UICONTROL Produção de ativos sociais] (Gerenciada)**
-O pacote de [!UICONTROL Produção de Ativo Social] contém um modelo que organiza o trabalho para criar um artefato social. Este pacote é um ponto de entrada para gerenciar a criação de ativos sociais no Workfront. Use este pacote para criar uma base para todos os processos de criação de conteúdo social, personalizando-o para atender às necessidades de outros processos criativos de conteúdo social.
+O pacote de [!UICONTROL Produção de Ativo Social] contém um modelo que organiza o trabalho para criar um artefato social. Ela serve como um ponto de entrada para gerenciar a criação de ativos sociais no Workfront. Use este pacote para criar uma base para todos os processos de criação de conteúdo social, personalizando-o para atender às necessidades de outros processos criativos de conteúdo social.
 
 **[!UICONTROL Implementações de software/Desenvolvimento de aplicativos]**
-Este blueprint contém um modelo que a organização de serviços profissionais do [!DNL Workfront] tem usado por anos durante os contratos de implementação com as equipes de TI para organizar o trabalho para instalar soluções de terceiros ou criar utilitários e aplicativos internos.
+Este blueprint contém um modelo que a organização de serviços profissionais do [!DNL Workfront] tem usado por anos durante os contratos de implementação com as equipes de TI para organizar o trabalho ao instalar soluções de terceiros ou criar utilitários e aplicativos internos.
 
 **[!UICONTROL Painel de Manutenção do Administrador do Sistema]**
 Este blueprint contém um único painel de controle para ajudar administradores de sistema a manter e limpar o sistema periodicamente de diversos resíduos que podem aumentar com o tempo.
@@ -142,7 +146,7 @@ Este blueprint contém um único painel com 7 relatórios para ajudar você a pe
 
 **Percepção de valor | Revisar e Aprovar Painel**
 
-Este blueprint contém um único painel com 7 relatórios para ajudar você a obter o valor do Workfront. Esses relatórios ajudam a traduzir os valores de Revisão e Aprovação do trabalho em benefícios mensuráveis que você pode rastrear ao longo do tempo para gerar melhores resultados.
+Este blueprint contém um único painel com 7 relatórios para ajudar você a perceber o valor do Workfront. Esses relatórios ajudam a traduzir os valores de Revisão e Aprovação do trabalho em benefícios mensuráveis que você pode rastrear ao longo do tempo para gerar melhores resultados.
 
 **[!UICONTROL Produção de ativos de vídeo] (integrada)**
 
@@ -153,7 +157,11 @@ O pacote de [!UICONTROL Produção de Ativo de Vídeo] contém um modelo que org
 
 **[!UICONTROL [!DNL Workfront]Comunicação e Iniciar Modelo]**
 
-Este blueprint contém um único modelo que organiza o trabalho que um cliente do [!DNL Workfront] precisará fazer para ter uma implantação excepcional do aplicativo [!DNL Workfront].
+Este blueprint contém um único modelo que organiza o trabalho que um cliente do [!DNL Workfront] precisará fazer para a implantação do aplicativo [!DNL Workfront].
+
+**Treinamento do Workfront para novos usuários**
+
+Este blueprint contém 3 modelos de projeto para usar como uma lista de verificação de treinamento ao habilitar usuários no Workfront.
 
 **[!DNL Workfront Usage Dashboard]**
 Este blueprint contém um único painel de controle com 11 relatórios para ajudar administradores de sistema e equipes de governança a entender se sua configuração está sendo usada conforme esperado.

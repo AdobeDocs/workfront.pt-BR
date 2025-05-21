@@ -3,21 +3,23 @@ filename: document-webhooks-api
 content-type: api
 product-area: documents
 navigation-topic: workfront-api
-title: Visão geral da API de webhooks do documento
+title: 'API de webhooks de documentos: índice do artigo'
 description: Tópicos da API de webhooks do documento
 author: Becky
 feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
-# Visão geral da API de webhooks do documento
+# API de webhooks de documentos: índice do artigo
+
+<!-- Audited: 5/2025 -->
 
 Esta seção contém os seguintes artigos:
 
@@ -32,7 +34,7 @@ Esta seção contém os seguintes artigos:
 * [Obter uma miniatura de um documento](../../wf-api/doc-wbhks-api/get-thmbnl-doc.md)
 * [Upload de arquivo via Webhooks de documentos](../../wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
 * [Criar uma pasta com webhooks de documentos](../../wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
-* [Excluir um documento ou uma pasta (Ainda não implementado)](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
+* [Excluir um documento ou uma pasta (ainda não implementada)](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
 * [Obter informações sobre o serviço (ainda não implementado)](../../wf-api/doc-wbhks-api/get-service-info-webhook.md)
 * [Renomear um documento ou uma pasta (ainda não implementada)](../../wf-api/doc-wbhks-api/rename-docu-or-folder.md)
 * [Executar uma ação personalizada (ainda não implementada)](../../wf-api/doc-wbhks-api/perform-custom-action.md)

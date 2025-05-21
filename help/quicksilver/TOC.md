@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: f2ae543071fa77725037d9b4834651cd05b05b72
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '13209'
+source-wordcount: '13210'
 ht-degree: 2%
 
 ---
@@ -2503,7 +2503,7 @@ ht-degree: 2%
       * [Formato de mensagem de saída para assinaturas de evento](wf-api/api/message-format-event-subs.md)
       * [Perguntas frequentes - Assinaturas de eventos](wf-api/general/event-subs-faq.md)
    * API de webhooks do documento {#document-webhooks-api}
-      * [Artigos da API de webhooks do documento](wf-api/doc-wbhks-api/document-webhooks-api.md)
+      * [API de webhooks de documentos: índice do artigo](wf-api/doc-wbhks-api/document-webhooks-api.md)
       * [Visão geral do Webhooks](wf-api/doc-wbhks-api/webhooks-overview.md)
       * [Registrar uma integração do Webhook](wf-api/doc-wbhks-api/register-webhook-integration.md)
       * [Autenticação para webhooks de documentos](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
@@ -2515,7 +2515,7 @@ ht-degree: 2%
       * [Obter uma miniatura de um documento](wf-api/doc-wbhks-api/get-thmbnl-doc.md)
       * [Upload de arquivo por meio de webhooks de documentos](wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
       * [Criar uma pasta com webhooks de documento](wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
-      * [Excluir um documento ou uma pasta (Ainda não implementado)](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
+      * [Excluir um documento ou uma pasta (ainda não implementado)](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
       * [Obter informações sobre o serviço (ainda não implementado)](wf-api/doc-wbhks-api/get-service-info-webhook.md)
       * [Renomear um documento ou uma pasta (ainda não implementado)](wf-api/doc-wbhks-api/rename-docu-or-folder.md)
       * [Executar uma ação personalizada (ainda não implementada)](wf-api/doc-wbhks-api/perform-custom-action.md)
