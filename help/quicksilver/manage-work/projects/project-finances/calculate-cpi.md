@@ -7,14 +7,16 @@ description: O Índice de Desempenho de Custo (CPI) descreve o relacionamento no
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
 # Calcular Índice de Desempenho de Custo (CPI)
+
+<!-- Audited: 5/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
@@ -61,9 +63,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 +++
 
 ## Visão Geral do Índice de Desempenho de Custo (CPI)
-
-* [O valor da CPI](#the-cpi-value)
-* [Como a CPI é calculada](#how-cpi-is-calculated)
 
 ### O valor CPI {#the-cpi-value}
 
@@ -184,20 +183,18 @@ O Trabalho de Custo Total Orçado Executado é calculado para o seguinte:
 * **Para um projeto:**
 
   ```
-  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top-level tasks)
   ```
 
 
 
 ## Localizar CPI em um projeto ou tarefa
 
-Você pode exibir a CPI de um projeto ou de uma tarefa em um projeto ou em uma lista de tarefas ou relatório. Além disso, você pode visualizá-lo no nível do projeto ou da tarefa.
+Você pode exibir a CPI de um projeto ou tarefa em um projeto ou lista de tarefas ou relatório. Além disso, você pode visualizá-lo no nível do projeto ou da tarefa.
 
 1. Vá para o projeto ou tarefa em que deseja exibir a CPI.
 1. Expanda **Detalhes do projeto** ou **Detalhes da tarefa** no painel esquerdo, dependendo se você está visualizando a CPI de um projeto ou tarefa.
 
-1. Clique em **Finanças**.
-
-   A CPI é exibida no campo **CPI/ SPI/ CSI**.
+1. Clique em **Finanças**. A CPI é exibida no campo **CPI/ SPI/ CSI**.
 
    ![CPI no projeto](assets/cpi-on-project-nwe.png)

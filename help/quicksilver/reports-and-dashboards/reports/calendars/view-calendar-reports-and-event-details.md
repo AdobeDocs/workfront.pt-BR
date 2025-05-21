@@ -6,9 +6,9 @@ description: Você pode exibir relatórios de calendário e detalhes de eventos 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -82,31 +82,26 @@ Você pode escolher entre as seguintes exibições de relatório do calendário:
    * **[!UICONTROL Semana]**: exibe uma semana do calendário
    * **[!UICONTROL Gantt]**: exibe uma exibição contínua do calendário
 
-     Você pode ver mais eventos em uma visualização de [!UICONTROL Gantt] rolando para baixo ou para os lados. Um símbolo de carregamento é exibido à medida que os dados são preenchidos para a exibição.
+     Você pode ver mais eventos em uma visualização de **Gantt** rolando para baixo ou para os lados. Um símbolo de carregamento é exibido à medida que os dados são preenchidos para a exibição.
 
    >[!NOTE]
    >
-   >Nos modos de exibição [!UICONTROL Mês] e [!UICONTROL Semana], os eventos atuais ou futuros (incluindo eventos que abrangem vários dias, desde que contenham hoje ou um dia futuro) têm sombreamento que corresponde à cor no agrupamento de projeto ou calendário. Os eventos anteriores têm um sombreamento mais claro para indicar que não são mais atuais, mas ainda é possível selecionar e visualizar esses eventos.
+   >Nos modos de exibição **Mês** e **Semana**, os eventos atuais ou futuros (incluindo eventos que abrangem vários dias, desde que contenham hoje ou um dia futuro) têm sombreamento que corresponde à cor no agrupamento de projeto ou calendário. Os eventos anteriores têm um sombreamento mais claro para indicar que não são mais atuais, mas ainda é possível selecionar e visualizar esses eventos.
 
-1. (Opcional) Se você estiver exibindo o calendário nos modos de exibição [!UICONTROL Mês] ou [!UICONTROL Semana], poderá alterar o modo de exibição do calendário com as seguintes opções:
+1. (Opcional) Se você estiver exibindo o calendário nos modos de exibição **Mês** ou **Semana**, poderá alterar o modo de exibição do calendário com as seguintes opções:
 
-<!--   * To include or exclude weekends:
-
+   <!--   * To include or exclude weekends:
       1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-* Para alterar rapidamente as datas exibidas:
+   * Para alterar rapidamente as datas exibidas:
 
-   1. Na barra de ferramentas **[!UICONTROL Calendário]**, clique na seta para a esquerda do indicador de data para voltar no calendário ou na seta para a direita para avançar.
+      1. Na barra de ferramentas **[!UICONTROL Calendário]**, clique na seta para a esquerda do indicador de data para voltar no calendário ou na seta para a direita para avançar.
 
-      ![Clique na seta para alterar a data](assets/click-arrows-to-change-dates-calendar-report.png)\
-      As datas exibidas são ajustadas por um intervalo com base na exibição do calendário atual. Por exemplo, se você estiver exibindo o calendário na exibição [!UICONTROL Semana], o calendário será exibido uma semana depois ou uma semana atrás, dependendo da seta selecionada.
+         ![Clique na seta para alterar a data](assets/click-arrows-to-change-dates-calendar-report.png)
 
-   1. (Opcional) Para voltar ao dia atual, clique em [!UICONTROL **Hoje**].
+         As datas exibidas são ajustadas por um intervalo com base na exibição do calendário atual. Por exemplo, se você estiver exibindo o calendário na exibição **Semana**, o calendário será exibido uma semana depois ou uma semana atrás, dependendo da seta selecionada.
 
-
-1. (Opcional) Para exibir um calendário em tela inteira, clique nas setas de tela inteira no lado direito da barra de ferramentas **[!UICONTROL Calendário]**.
-   ![Clique na seta para alterar a data](assets/click-arrows-to-change-dates-calendar-report.png)\
-   Pressione Esc para retornar ao modo de exibição normal do calendário.
+      1. (Opcional) Para voltar ao dia atual, clique em [!UICONTROL **Hoje**].
 
 1. (Opcional) Para ocultar os eventos de um projeto ou agrupamento de calendário vinculado ao calendário, desmarque o projeto ou agrupamento de calendário na lista de projetos.
    ![Ocultar eventos](assets/hide-events-for-project-or-cal-grouping.png)
