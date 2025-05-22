@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '686'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Como administrador do Adobe Workfront ou administrador de grupo, você pode usar
 >
 >As opções do Menu principal que os usuários veem dependem do tipo de licença e das configurações definidas no nível de acesso. Alguns usuários que utilizarão este modelo de layout talvez não vejam todas as opções escolhidas aqui. Para obter mais informações, consulte [Como os níveis de acesso e as permissões funcionam juntos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) e [Acesso configurável à funcionalidade para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 >
->Você poderá ver diferentes opções no Menu principal se sua organização tiver sido integrada à Experiência unificada do Adobe Workfront. Para obter informações, consulte [Experiência unificada Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Você poderá ver diferentes opções no Menu principal se sua organização tiver sido integrada à Experiência unificada do Adobe Workfront. Para obter informações, consulte [Experiência unificada da Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Para obter informações sobre como criar modelos de layout, consulte [Criar e gerenciar modelos de layout](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -47,7 +47,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
-   <td>Qualquer</td> 
+   <td><p>Qualquer</p>
+
+<p>Adicionar aplicativos personalizados ao menu principal só está disponível para organizações licenciadas para o Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
@@ -120,6 +122,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      >[!NOTE]
      >
      >O Planning exige uma licença adicional. Para obter informações sobre o Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+      * Aplicativo personalizado
+
+     >[!NOTE]
+     >
+     > Os aplicativos personalizados devem ser criados separadamente antes de serem disponibilizados como opções do Menu principal. Para obter mais informações, consulte [Criar um aplicativo personalizado para o Workfront com o Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+
 
 1. Siga um destes procedimentos:
 
