@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
+source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,23 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Nova experiência ao detalhar registros no modo Compacto na exibição de linha do tempo
+
+>[!NOTE]
+>
+>* Visualização: 22 de maio de 2025
+>* Versão rápida de produção: 12 de junho de 2025
+>* Produção para todos os clientes: 17 de julho de 2025
+
+Alteramos a experiência ao detalhar registros na exibição de linha do tempo e a exibição Compacta foi aplicada.
+Com a nova atualização, ao definir seus objetos de detalhamento enquanto exibe a linha do tempo no modo Compacto, você será solicitado a mudar a visualização para Padrão após terminar de configurar as condições de detalhamento.
+
+Antes desse aprimoramento, não era possível definir as condições de detalhamento ao exibir a visualização da linha do tempo no modo Compacto.
+
+Com essa atualização, a opção Padrão é a opção padrão. Antes disso, o modo Compacto era o padrão.
+
+Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Atualizar as configurações de exibição da linha do tempo para definir a aparência das barras dos registros conectados ao usar a opção Detalhamento
 

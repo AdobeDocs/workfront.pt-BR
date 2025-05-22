@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
+source-git-commit: 3c1961f649298eda4e76830ca39c23fc4dadb407
 workflow-type: tm+mt
-source-wordcount: '3691'
+source-wordcount: '3938'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,14 @@ Para todas as outras alterações no Adobe Workfront, consulte [Versões do prod
 
 
 ## Administração e configuração
+
+### Nova aparência das caixas Novo e Copiar Scorecard
+
+**Versão de visualização: 22 de maio de 2025 ; Versão de produção: 29 de maio de 2025**
+
+Atualizamos a aparência das caixas Novo e Copiar Scorecard para corresponder ao design em outras áreas do aplicativo. Você pode exibir o design atualizado ao criar ou copiar um cartão de pontuação na área Configuração do Workfront.
+
+Para obter informações, consulte [Criar um cartão de pontuação](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ### Atualizações de interface nos itens restaurados recentemente de um grupo
 
@@ -82,7 +90,42 @@ Para obter mais informações, consulte [Pesquisa [!DNL Adobe Workfront]](/help/
 
 Atualizamos a página usada para conceder acesso de suporte à sua conta do Workfront com um design mais moderno e consistente com outras áreas do Workfront.
 
-## Relatórios e painel
+## Projetos
+
+## Atualizações de aparência nas caixas Novo e Editar risco de um projeto ou modelo
+
+**Versão de visualização: 22 de maio de 2025; Versão de produção: 29 de maio de 2025**
+
+Atualizamos a aparência das caixas Novo risco e Editar risco ao adicionar riscos ou editá-los em um projeto ou modelo na seção Riscos. O design das caixas agora corresponde a outras áreas do Workfront.
+
+Para obter informações, consulte [Criar e editar riscos em projetos](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects).
+
+### Alterações na aparência da caixa Copiar modelo
+
+**Versão de visualização: 22 de maio de 2025; Versão de produção: 22 de maio de 2025**
+
+Atualizamos a aparência da caixa Copiar modelo para corresponder ao design de outras áreas do Workfront.
+
+Para obter informações, consulte [Copiar um modelo de projeto](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md).
+
+### Atualizações de aparência ao adicionar objetos a programas e portfólios
+
+**Versão de visualização: 22 de maio de 2025; Versão de produção: 29 de maio de 2025**
+
+Atualizamos a interface das caixas Adicionar ao fazer o seguinte:
+
+* Adicionar projetos aos programas
+* Adicionar projetos a portfólios
+* Adicionar programas aos portfólios
+
+Para obter informações, consulte os seguintes artigos:
+
+* [Adicionar um programa existente a um portfólio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [Adicionar projetos a um portfólio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Adicionar um projeto a um programa](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
+
+## Relatórios e painéis de controle
 
 ### URLs com /tile ou /qstile não são mais suportados nos Painéis do Workfront
 
@@ -151,7 +194,15 @@ Atualizamos a página do contrato de licença com um design mais moderno e consi
 
 +++Expanda para exibir as atualizações da interface de Administração e Configuração realizadas no segundo trimestre
 
-### Atualizações de interface na área Gerenciamento de recursos em Configuração
+### Atualizações de interface para itens restaurados recentemente
+
+**Versão de visualização: 23 de abril de 2025; Versão de produção: 23 de abril de 2025**
+
+Atualizamos a aparência dos itens restaurados recentemente na área Configuração para corresponder ao design de outras áreas do Workfront. Nenhuma funcionalidade foi alterada para projetos, tarefas, solicitações, documentos ou modelos restaurados recentemente.
+
+Para visualizar esta alteração, acesse Configuração > Lixeira > Restaurado recentemente.
+
+Para obter informações, consulte [Exibir itens restaurados](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).### Atualizações de interface na área Gerenciamento de recursos em Configuração
 
 **Versão de visualização: 17 de abril de 2025; A partir da semana de 17 de abril de 2025**
 
@@ -159,7 +210,7 @@ Atualizamos a aparência das preferências do Gerenciamento de recursos na área
 
 Para obter informações, consulte [Configurar preferências do Gerenciamento de Recursos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-## Atualizações de interface em uma lista de Caminho de Etapas na Configuração
+### Atualizações de interface em uma lista de Caminho de Etapas na Configuração
 
 **Versão de visualização: 6 de março de 2025; A partir da semana de 10 de abril de 2025**
 
@@ -167,7 +218,7 @@ Atualizamos a aparência da lista Caminho de etapas na área Configuração para
 
 Para obter informações, consulte [Criar um caminho de etapas](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-## Atualização de interface para a caixa Editar Tipo de Risco na Configuração
+### Atualização de interface para a caixa Editar Tipo de Risco na Configuração
 
 **Versão de visualização: 27 de março de 2025; A partir da semana de 10 de abril de 2025**
 
@@ -483,16 +534,6 @@ Esta atualização inclui alterações visuais nas listas e barras de ferramenta
 
 Para obter informações, consulte [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-### Atualizações de interface para itens restaurados recentemente
-
-**Versão de visualização: 23 de abril de 2025; Versão de produção: 23 de abril de 2025**
-
-Atualizamos a aparência dos itens restaurados recentemente na área Configuração para corresponder ao design de outras áreas do Workfront. Nenhuma funcionalidade foi alterada para projetos, tarefas, solicitações, documentos ou modelos restaurados recentemente.
-
-Para visualizar esta alteração, acesse Configuração > Lixeira > Restaurado recentemente.
-
-Para obter informações, consulte [Exibir itens restaurados](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
-
 ### Atualizações de interface para a caixa Excluir empresa em um Relatório de empresa
 
 **Versão de visualização: 17 de abril de 2025; Versão de produção: 17 de abril de 2025**
@@ -620,3 +661,8 @@ Esta atualização inclui as seguintes alterações:
 * Destaque a ação Delete ao exibi-la em vermelho.
 
 Para obter informações, consulte [Trabalho de atualização](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+
+
+
+
