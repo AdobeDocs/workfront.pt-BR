@@ -1,11 +1,11 @@
 ---
-title: Atualizações de interface
+title: Modernização da interface
 description: Esta página lista as atualizações de interface que estamos fazendo no Adobe Workfront para melhorar a experiência do usuário e unificá-la com outros aplicativos da Adobe.
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3c1961f649298eda4e76830ca39c23fc4dadb407
+source-git-commit: da7151e210bc779beb963e53a2beed5b5280f494
 workflow-type: tm+mt
 source-wordcount: '3938'
 ht-degree: 1%
