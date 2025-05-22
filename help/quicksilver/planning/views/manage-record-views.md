@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -221,9 +221,13 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
 1. (Condicional) Selecione as **Datas de início** e **datas de término** para os registros que serão exibidos na exibição de linha do tempo ou calendário.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    Você pode selecionar entre campos de data de registro ou campos de data de pesquisa a partir de tipos de objeto ou registro conectados. Você deve usar agregadores para campos de data (MAX ou MIN) ao selecionar campos de pesquisa como datas Inicial e Final para as exibições de linha do tempo e calendário. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    Você pode selecionar entre campos de data de registro ou campos de data de pesquisa a partir de tipos de objeto ou registro conectados.
+   >
+   >Você deve usar agregadores para campos de data (MAX ou MIN) ao selecionar campos de pesquisa ao conectar tipos de registro. Apenas a adição dos agregadores permite usar as datas das conexões como datas de Início e Término para as exibições de linha do tempo e calendário.
+   >
+   >Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Clique em **Criar**.
 

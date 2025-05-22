@@ -6,7 +6,7 @@ description: Um programa representa uma coleção de projetos que compartilham u
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 594504c6a7acc9341471371ca279379042a45457
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 0%
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Um programa representa uma coleção de projetos que compartilham uma estratégia, objetivo ou meta comum que transcende os limites do projeto.
 Os programas são uma subdivisão de portfólios e não podem existir fora de um portfólio. Os programas normalmente compartilham os mesmos recursos que outros programas no mesmo portfólio.

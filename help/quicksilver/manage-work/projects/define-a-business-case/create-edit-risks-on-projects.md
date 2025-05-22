@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Criar e editar riscos em projetos
-description: Os riscos são eventos ou fatores possíveis que impedem a conclusão de um projeto no prazo ou dentro do orçamento. Os riscos podem ser registrados como parte da criação do Business Case de um projeto ou usando a guia Riscos. Os riscos são criados somente em um projeto. Não é possível associar riscos a tarefas ou problemas.
+description: Os riscos são eventos ou fatores possíveis que impedem a conclusão de um projeto no prazo ou dentro do orçamento. Você pode registrar riscos de projeto como parte da criação do Business Case de um projeto ou usando a guia Riscos. Você pode adicionar riscos a projetos e modelos. Não é possível associar riscos a tarefas ou problemas.
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,21 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-Os riscos são eventos ou fatores possíveis que impedem a conclusão de um projeto no prazo ou dentro do orçamento. Os riscos podem ser registrados como parte da criação do Business Case de um projeto ou usando a guia Riscos. Os riscos são criados somente em um projeto. Não é possível associar riscos a tarefas ou problemas.
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes após uma semana da versão de Pré-visualização. </span>
+
+<span class="preview">Para obter mais informações, consulte [Modernização de interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+
+Os riscos são eventos ou fatores possíveis que impedem a conclusão de um projeto no prazo ou dentro do orçamento. Você pode registrar riscos como parte da criação do Business Case de um projeto ou usando a guia Riscos.
+
+Você pode criar riscos somente em projetos ou modelos. Não é possível associar riscos a tarefas ou problemas.
 
 Os riscos podem ser associados ao custo, mas o Custo Efetivo do Risco não afeta o Custo Efetivo do Projeto.
 
 >[!NOTE]
 >
->Este artigo define os riscos associados ao projeto à medida que você os define no Business Case do projeto ou à medida que os adiciona na guia Riscos do projeto. Para obter informações sobre o campo Risco disponível ao editar um projeto, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+>Este artigo define os riscos associados ao projeto à medida que você os define no Business Case do projeto ou à medida que os adiciona na guia Riscos do projeto.
+>
+>Para obter informações sobre o campo Risco disponível ao editar um projeto, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Requisitos de acesso
 
@@ -94,8 +102,7 @@ Para criar ou editar um risco no Business Case:
 
 Além de criar e editar riscos no Business Case, você pode fazer isso usando a seção **Riscos** de um projeto.
 
-* [Criar riscos na área Riscos](#create-risks-in-the-risks-area)
-* [Editar riscos na área Riscos](#edit-risks-in-the-risks-area)
+Você pode criar e editar riscos na seção Riscos de um projeto ou modelo. Criar riscos para modelos é idêntico a criar riscos para projetos.
 
 ### Criar riscos na área Riscos {#create-risks-in-the-risks-area}
 
@@ -104,33 +111,37 @@ Além de criar e editar riscos no Business Case, você pode fazer isso usando a 
 
    ![Seção Riscos da tarefa](assets/risks-section-on-project-2022.png)
 
-1. Clique em **Começar a adicionar riscos** e crie riscos editando suas informações em linha.
+1. Clique em **Começar a adicionar riscos** e crie riscos editando suas informações em linha. **Descrição** é um campo obrigatório
 
    Ou
 
-   Clique em **Novo Risco**. A caixa de diálogo **Novo Risco** é aberta.
+   Clique em **Novo Risco**.
 
-1. Insira as seguintes informações:
+   <span class="preview">A caixa **Novo risco** é aberta.</span>
 
-   * **Descrição**: descrever o risco.
-   * **Tipo de Risco**: indicar a categoria em que o risco se enquadra.\
+   <span class="preview">![Nova caixa de risco](assets/new-risk-box.png)</span>
+
+1. (Condicional) Se você estiver adicionando um risco na caixa **Novo risco**, insira as seguintes informações:
+
+   * **Descrição**: descrever o risco. Este campo é obrigatório.
+   * **Tipo de Risco**: Indique a categoria em que o risco se enquadra.\
      O administrador do Workfront define os Tipos de risco disponíveis em seu ambiente. Para obter informações sobre como definir Tipos de Risco, consulte o artigo [Editar e criar tipos de risco](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
    * **Probabilidade**: indique a probabilidade do risco ocorrer como um valor percentual.
-   * **Custo Potencial**: indique o custo estimado se o risco ocorrer.
-   * **Custo de Mitigação**: indique o custo do plano de mitigação que você deve colocar em prática para evitar que o risco ocorra.
-   * **Custo Real**: indique o custo real do risco se ele tiver ocorrido.
+   * **Custo Potencial**: Indique o custo estimado se o risco ocorrer.
+   * **Custo de Mitigação**: Indique o custo do plano de mitigação que você deve colocar em prática para evitar que o risco ocorra.
+   * **Custo Efetivo**: Indique o custo real do risco, se o risco tiver ocorrido.
    * **Plano de Mitigação**: atualize a descrição do plano para reduzir o risco.
 
 1. (Condicional) Clique em **Enter** se estiver criando o risco embutido.
 
    Ou
 
-   Clique em **Salvar** se estiver editando as informações na caixa de diálogo **Novo Risco**.
+   Clique em **Salvar** se estiver editando as informações na caixa **Novo risco**.
 
 1. (Opcional) Selecione um **Status** diferente para o risco, no menu suspenso **Status**, ao aplicar a exibição **Padrão** para a lista de riscos.
 
-   Por padrão, o Status de um risco é **Identificado**.
+   Por padrão, o **Status** de um risco é **Identificado**.
 
 ### Editar riscos na área Riscos {#edit-risks-in-the-risks-area}
 
@@ -152,21 +163,21 @@ Para editar riscos:
    >
    >Você está aplicando as mesmas informações a todos os riscos selecionados ao editar vários riscos ao mesmo tempo. As informações associadas a cada risco antes das alterações são substituídas em uma edição em massa.
 
-1. Se você clicou em **Editar**, a caixa de diálogo **Editar Risco** será aberta.
+1. Se você clicou em **Editar**, a caixa **Editar risco** ou **Editar riscos** será aberta.
 
    Considere editar os seguintes campos:
 
    * **Descrição**: edite a descrição do risco.
    * **Tipo de Risco**: indicar a categoria em que o risco se enquadra.
    * **Probabilidade**: indique a probabilidade do risco ocorrer como um valor percentual.
-   * **Custo Potencial**: indique o custo estimado se o risco ocorrer.
-   * **Custo de Mitigação**: indique o custo do plano de mitigação que você deve colocar em prática para evitar que o risco ocorra.
-   * **Custo Real**: indique o custo real do risco se ele tiver ocorrido.
+   * **Custo Potencial**: Indique o custo estimado se o risco ocorrer.
+   * **Custo de Mitigação**: Indique o custo do plano de mitigação que você deve colocar em prática para evitar que o risco ocorra.
+   * **Custo Efetivo**: Indique o custo real do risco, se o risco tiver ocorrido.
    * **Plano de Mitigação**: atualize a descrição do plano para reduzir o risco.
 
-1. Clique em **Salvar alterações**.
+1. <span class="preview">Clique em **Salvar**.</span>
 1. (Opcional) Edite o **Status** para um risco, no menu suspenso **Status**, ao aplicar a exibição **Padrão** para a lista de riscos.
 
    >[!NOTE]
    >
-   >Não é possível editar o **Status** dos riscos na caixa de diálogo **Editar Risco**. Você só pode fazer isso em uma edição em linha.
+   >Não é possível editar o **Status** dos riscos na caixa de diálogo **Editar risco**. Você só pode fazer isso em uma edição em linha.

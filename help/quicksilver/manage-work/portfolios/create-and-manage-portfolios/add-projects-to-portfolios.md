@@ -6,16 +6,20 @@ description: Recomendamos que você adicione projetos aos portfólios ao iniciá
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
 # Adicionar projetos a um portfólio
 
-<!--Audited: 7/2024-->
+<!--Audited: 5/2025-->
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes após uma semana da versão de Pré-visualização. </span>
+
+<span class="preview">Para obter mais informações, consulte [Modernização de interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
 
 Recomendamos que você adicione projetos aos portfólios ao iniciá-los. No entanto, você pode adicioná-los a um portfólio a qualquer momento durante sua vida útil.
 
@@ -40,7 +44,7 @@ Considere o seguinte ao adicionar projetos a portfólios:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
    <td><p>Novo: Padrão</p> 
-   <p>Atual:[!UICONTROL Plano] </p> </td> 
+   <p>Atual: [!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso</td> 
@@ -68,8 +72,6 @@ Considere o seguinte ao adicionar projetos a portfólios:
    >[!TIP]
    >
    >Não é possível adicionar um projeto ao exibir a lista de projetos na exibição [!UICONTROL Marco].
-
-   ![Adicionar projeto existente](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
    Selecione entre as seguintes opções:
 
@@ -102,7 +104,11 @@ Considere o seguinte ao adicionar projetos a portfólios:
 
    ![Lista suspensa de novos projetos](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Condicional) Se você optou por adicionar um projeto existente, comece digitando o nome de um projeto no campo **[!UICONTROL Adicionar projetos a esta Portfolio]** e, em seguida, clique neles quando eles aparecerem na lista.
+1. (Condicional) Se você optou por adicionar um projeto existente, a caixa <span class="preview">**Adicionar projetos** será aberta.</span> <!--check this after UI changes-->
+
+   <span class="preview">![Adicionar projeto existente](assets/add-existing-projects-to-portfolios-box.png)</span> <!--check this after UI changes-->
+
+1. Comece digitando o nome de um projeto no campo **[!UICONTROL Adicionar projetos a este Portfolio]** e clique neles quando eles aparecerem na lista.  <!--check this after UI changes-->
 
    Você pode adicionar mais de um projeto.
 
@@ -110,6 +116,6 @@ Considere o seguinte ao adicionar projetos a portfólios:
 
    <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
-1. Clique em **[!UICONTROL Adicionar projetos]**.
+1. Clique em **[!UICONTROL Adicionar Projetos]**. <!--check this after UI changes-->
 
    O projeto ou projetos selecionados agora estão associados ao portfólio.

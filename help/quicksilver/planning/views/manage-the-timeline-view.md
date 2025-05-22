@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3152'
 ht-degree: 0%
 
 ---
@@ -139,13 +139,8 @@ Para gerenciar uma exibição de linha do tempo:
       * Ano
       * Trimestre
       * Mês
-1. Clique na exibição **Alternar para Padrão** para exibir registros em linhas separadas <!--check to see if they updated the name of the setting here-->
-
-   Ou
-
-   Clique em **Alternar para o modo de exibição Compacto** para exibir os registros cujas datas não se cruzam na mesma linha. <!--check to see if they updated the name of the setting here-->
-
-   Os registros são exibidos na exibição Compacta por padrão.
+1. (Opcional) Clique em **Alternar para o modo de exibição Compacto** para exibir os registros cujas datas não se cruzam na mesma linha. <!--check to see if they updated the name of the setting here-->
+1. (Condicional) Se você alterou seu modo para **Compacto**, clique no modo de exibição **Alternar para Padrão** para exibir registros em linhas separadas. <span class="preview">A opção **Padrão** é a padrão.</span>  <!--check to see if they updated the name of the setting here-->
 
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
@@ -353,7 +348,7 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    Se você não tiver um campo com opções codificadas por cores para o tipo de registro selecionado, essa opção ficará esmaecida.
 
-   1. <span class="preview">(Opcional) Se estiver usando a opção Detalhamento, repita as etapas que começam com a etapa 4 para cada registro conectado exibido na linha do tempo. </span>
+1. <span class="preview">(Opcional) Se estiver usando a opção Detalhamento, repita as etapas que começam com a etapa 4 para cada registro conectado exibido na linha do tempo. </span>
 
 1. Clique em **Salvar**.
 
@@ -389,7 +384,7 @@ Você pode exibir registros conectados na visualização da linha do tempo de um
 #### Analisar registros conectados
 
 1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. (Condicional) Se você estiver vendo a exibição da linha do tempo no modo Padrão, clique em **Detalhamento**.
+1. No modo **Padrão** ou <span class="preview">**Compacto**, clique em **Detalhamento**</span> no canto superior direito do modo de exibição de linha do tempo.
 1. Expanda a caixa **Selecionar um tipo de registro vinculado** e selecione um tipo de registro conectado. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Seletor de detalhamento e botão na exibição de linha do tempo](assets/breakdown-picker-and-button-on-timeline.png)
@@ -417,7 +412,15 @@ Você pode exibir registros conectados na visualização da linha do tempo de um
    >
    >Tanto os Produtos quanto os Programas devem estar conectados às campanhas para serem exibidos como opções para a opção de detalhamento, e você pode adicioná-los ao detalhamento em qualquer ordem.
 
+1. <span class="preview">(Condicional) Se você estiver exibindo a linha do tempo no modo Compacto, clique em **Alternar exibição**. O detalhamento não está visível no modo **Compacto**.</span>
 
+   >[!TIP]
+   >
+   ><span class="preview">Selecione **Não mostrar isto novamente** na **Alternar para o modo de exibição Padrão?caixa**, antes de alternar o modo de exibição. </span>
+   >
+   ><span class="preview">Esta preferência é lembrada somente para o navegador atual. Se você alterar navegadores ou computadores, terá que selecionar esta preferência novamente.</span>
+   >
+   >Você não pode reverter para o modo Compacto depois de alternar a exibição para Padrão e exibir registros conectados na exibição.
 1. (Opcional) Repita as etapas acima para adicionar mais registros conectados.
 
 

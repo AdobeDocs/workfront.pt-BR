@@ -6,9 +6,9 @@ description: Além de criar um modelo de projeto do zero, também é possível c
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '329'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,6 @@ Os itens a seguir nunca são copiados de um modelo existente para um novo:
 
 ## Copiar um modelo
 
-
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. Vá para o template que deseja copiar.
@@ -82,11 +81,11 @@ Os itens a seguir nunca são copiados de um modelo existente para um novo:
 
    A caixa **Copiar Modelo** é aberta.
 
-   <!--![Copy template box](assets/copy-template-box.png)-->
+   ![Copiar caixa de modelo](assets/copy-template-box.png)
 
 1. Especifique um nome para o modelo no campo **Novo Nome do Modelo**.
 
-   Por padrão, o novo nome é `Copy of Original template name`.
+   Por padrão, o Workfront define o novo nome seguindo este formato: `Copy of Original template name`.
 
 1. Selecione a opção **Reter atribuições de usuário nas tarefas e no modelo** se desejar carregar todas as atribuições de tarefa e modelo do modelo original para o novo modelo. As atribuições de modelo de tarefa e o Proprietário e Patrocinador do Modelo são transferidos para o modelo copiado.
 1. Clique em **Salvar** para criar uma cópia do modelo.

@@ -6,9 +6,9 @@ description: Você pode editar modelos de projeto para refletir as alterações 
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '4881'
+source-wordcount: '4870'
 ht-degree: 2%
 
 ---
@@ -1092,7 +1092,7 @@ Adicionar os seguintes itens a um modelo é idêntico a adicioná-los a um proje
 * Documentos
 * Riscos
 
-  Para obter mais informações sobre como criar riscos, consulte a seção [Criar e editar riscos em projetos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create) no artigo [Criar e editar riscos em projetos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  Para obter mais informações sobre como criar riscos, consulte [Criar e editar riscos em projetos](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 * Processos de aprovação
 

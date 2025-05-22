@@ -4,28 +4,39 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Criar um Scorecard
 description: Um scorecard mede o alinhamento de um projeto com os critérios estabelecidos anteriormente de um portfólio. Um scorecard geralmente reflete a missão, os valores e os objetivos estratégicos de uma organização.Os gerentes do Portfolio geralmente definem as perguntas e respostas do scorecard para garantir que elas sejam significativas e valiosas durante a priorização e a seleção do projeto. Um administrador do  [!DNL Adobe Workfront]  cria os scorecards com base nas recomendações dos gerentes de portfólio.
-author: Lisa
+author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
 
 # Criar um cartão de pontuação
 
-<!--Audited: 01/2024-->
+<!--Audited: 05/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes após uma semana da versão de Pré-visualização. </span>
+
+<span class="preview">Para obter mais informações, consulte [Modernização de interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+
 Um scorecard mede o alinhamento de um projeto com os critérios estabelecidos anteriormente de um portfólio. Um cartão de pontuação geralmente reflete a missão, os valores e os objetivos estratégicos de uma organização.
 
-Os gerentes do Portfolio geralmente definem as perguntas e respostas do cartão de pontuação para garantir que sejam significativas e valiosas durante a priorização e a seleção do projeto. Um administrador do [!DNL Adobe Workfront] cria os scorecards com base nas recomendações dos gerentes de portfólio.
+Como gerente de portfólio, você pode definir as perguntas e respostas do cartão de pontuação para garantir que sejam significativas e valiosas durante a priorização e a seleção do projeto.
+
+Como administrador do [!DNL Adobe Workfront], você pode criar scorecards com base nas recomendações dos gerentes de portfólio.
 
 As perguntas e respostas escolhidas para um cartão de pontuação devem ser quantificáveis para fornecer um valor de alinhamento para comparar projetos diferentes.
+
+Você pode criar um cartão de pontuação da seguinte maneira:
+
+* Do zero
+* Copiando um existente
 
 ## Requisitos de acesso
 
@@ -56,17 +67,15 @@ Você deve ter o seguinte acesso:
 
 +++
 
-## Criar um cartão de pontuação
-
-Você pode criar um scorecard do zero ou copiar um existente.
-
-Para criar um scorecard do zero:
+## Criar um cartão de pontuação do zero
 
 {{step-1-to-setup}}
 
-1. Clique em **[!UICONTROL Scorecards]** e em **[!UICONTROL Novo Scorecard]**. Isso abre a caixa **Novo Scorecard**.
+1. Clique em **[!UICONTROL Scorecards]** e em **[!UICONTROL Novo Scorecard]**.
 
-   <!--add screen shot at unshim-->
+   <span class="preview">A caixa **Novo cartão de pontuação** é aberta.</span>
+
+   <span class="preview">![Nova caixa de scorecard](assets/new-scorecard-350x173.png)</span>
 
 1. Especifique um **[!UICONTROL Nome do Scorecard]** e uma **[!UICONTROL Descrição]**.
 
@@ -104,7 +113,7 @@ Para criar um scorecard do zero:
    >
    >Você pode reordenar as perguntas no cartão de pontuação arrastando e soltando as perguntas na ordem correta.
 
-1. Clique em **[!UICONTROL Salvar]** quando terminar de inserir todas as informações.
+1. Clique em **[!UICONTROL Salvar]**.
 
    Isso cria o cartão de pontuação e os gerentes de projeto agora podem anexá-lo ao business case do projeto.
 
@@ -116,16 +125,20 @@ Você pode criar um cartão de pontuação copiando e editando um existente.
 
 1. Clique em **[!UICONTROL Scorecards]** no painel esquerdo.
 1. Selecione um scorecard na lista e clique no ícone **Copiar** ![Ícone Copiar scorecard](assets/copy-scorecard-icon.png) na parte superior da lista de scorecards.
-A caixa **Copiar Scorecard** é aberta.
 
-   <!--add screen shot at unshim-->
+   <span class="preview">A caixa **Copiar Scorecard** é aberta.</span>
+
+   <span class="preview">![Copiar caixa de scorecard](assets/copy-scorecard-box.png)</span>
+
 1. Especifique as seguintes informações:
 
-   * **Scorecard**: digite o nome do scorecard.  Por padrão, o nome é atualizado automaticamente de acordo com o seguinte formato:
+   * **Scorecard**: atualize o nome do scorecard.  Por padrão, o nome é atualizado automaticamente de acordo com o seguinte formato:
 
      `Original scorecard name (Copy)`
    * **Descrição**: digite informações adicionais sobre o cartão de pontuação.
 1. Clique em **Salvar**.
+
+   Isso cria um novo cartão de pontuação com as mesmas informações que o original. Os gerentes de projeto agora podem anexá-lo ao seu caso de negócios de projeto.
 
 ## Aplicar um cartão de pontuação a um projeto
 
