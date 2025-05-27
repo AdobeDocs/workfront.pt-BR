@@ -7,9 +7,9 @@ description: As horas em que você faz logon nos itens de trabalho no Adobe Work
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td> 
    <p>Novo: Padrão<p>
    <p>Ou</p>
@@ -49,7 +49,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Visualizar ou ter maior acesso a tarefas, projetos ou problemas</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Visualizar ou ter maior acesso a tarefas, projetos ou problemas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -58,7 +58,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -83,13 +83,6 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 ## Localizar Horas Efetivas
 
 Encontrar o valor de Horas Reais de um item é idêntico para tarefas, projetos e problemas.
-
-Você pode encontrar as informações de Horas Reais nas tarefas nos seguintes locais:
-
-* [Horas Efetivas na seção Detalhes](#actual-hours-in-the-details-section)
-* [Horas efetivas na seção de horas](#actual-hours-in-the-hours-section)
-* [Horas efetivas em relatórios](#actual-hours-in-reports)
-* [Horas efetivas nas ferramentas de gerenciamento de recursos](#actual-hours-in-resource-management-tools)
 
 ### Horas Efetivas na seção Detalhes {#actual-hours-in-the-details-section}
 
@@ -139,6 +132,21 @@ Se quiser ver o progresso do trabalho que seus usuários estão fazendo nas tare
 * O Planejador de recursos.
 
   Para obter informações, consulte [Exibir Horas Disponíveis, Planejadas e Efetivas ou FTE no Planejador de Recursos ao usar a exibição Usuário](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
+
+
+### Horas efetivas no banco de dados do Workfront, na API e nos dados personalizados
+
+<!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
+
+A maioria dos campos do Workfront que armazenam horas é salva no banco de dados do Workfront em minutos. Por exemplo, o nome do campo Horas planejadas de uma tarefa é `workRequired` no banco de dados do Workfront e ele é armazenado em minutos.
+
+Você deve considerar a conversão de minutos em horas ao acessar esses campos em chamadas de API ou em campos ou colunas personalizados calculados.
+
+No entanto, as Horas efetivas são armazenadas no banco de dados do Workfront em Horas.
+
+Você deve usar o seguinte nome de campo de valor para Horas Reais em chamadas de API ou campos personalizados calculados ou colunas no Workfront: `actualWorkRequiredDouble`.
+
+Para obter informações sobre como usar as Horas Efetivas em colunas calculadas ou campos, consulte [Perguntas Frequentes sobre Relatórios](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
 ## Registrar de tempo
 

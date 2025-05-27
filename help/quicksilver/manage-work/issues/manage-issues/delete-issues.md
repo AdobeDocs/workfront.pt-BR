@@ -6,16 +6,20 @@ description: Você pode excluir problemas ou solicitações no Adobe Workfront s
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '720'
 ht-degree: 1%
 
 ---
 
 # Excluir problemas
 
-<!--Audited: 01/2024-->
+<!--Audited: 05/2025-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
 
 Você pode excluir problemas ou solicitações no Adobe Workfront se tiver o acesso e as permissões corretas para fazer isso.
 
@@ -24,6 +28,8 @@ Você pode excluir problemas ou solicitações no Adobe Workfront se tiver o ace
 >&quot;Problemas&quot; e &quot;solicitações&quot; são usados alternadamente no Workfront. Você pode registrar problemas em projetos e tarefas para indicar trabalho imprevisto que precisa ser resolvido. Você também pode enviar solicitações que são registradas como ocorrências em um projeto designado como uma Fila de solicitações.
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -43,30 +49,29 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configuração do nível de acesso</td> 
-   <td> <p>Editar acesso a ocorrências</p> <p>Acesso de visualização ou superior a projetos e tarefas</p>  <p>Para obter informações sobre acesso a problemas em seu Nível de Acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Conceder acesso a problemas</a>.  </p> </td> 
+   <td> <p>Editar acesso a ocorrências</p> <p>Acesso de visualização ou superior a projetos e tarefas</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões no problema</p> <p>Permissões do Contribute ou superiores no projeto ou tarefa</p> <p> Para obter informações sobre a concessão de permissões para problemas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Compartilhar um problema </a></p> </td> 
+   <td> <p>Gerenciar permissões no problema</p> <p>Permissões do Contribute ou superiores no projeto ou tarefa</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront. Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações para exclusão de problemas
 
-* O administrador do Workfront ou um administrador de grupo deve habilitar a exclusão de problemas em um projeto com o status Concluído na área Preferências do projeto. Para obter informações sobre como configurar preferências de projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* O administrador do Workfront ou um administrador de grupo deve habilitar a exclusão de problemas em um projeto com o status Concluído na área Preferências do projeto.
+
+  Para obter informações sobre como configurar preferências de projeto, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Se o problema tiver registrado horas, o administrador do Workfront ou um administrador de grupo deverá permitir a exclusão desses problemas configurando as Preferências de tarefas e problemas na sua instância do Workfront. Isso também se aplica quando você tenta excluir projetos que têm problemas com horas registradas neles.
 
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
-  </MadCap:conditionalText>
-  -->
-
   Para obter mais informações sobre como habilitar a exclusão de problemas em que as horas são registradas, consulte a seção &quot;Exclusão&quot; em [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 
 ## O impacto da exclusão de problemas
 
@@ -101,20 +106,20 @@ Dependendo de como o administrador do Workfront ou do grupo configura as Prefer�
 
 ## Excluir problemas
 
-* [Excluir vários problemas em um projeto simultaneamente](#delete-multiple-issues-in-a-project-simultaneously)
-* [Excluir um único problema](#delete-a-single-issue)
-
 ### Excluir vários problemas em um projeto simultaneamente  {#delete-multiple-issues-in-a-project-simultaneously}
 
 1. Vá para o **Menu principal**.
 1. Clique em **Projetos**.
 1. Clique no nome do projeto que contém os problemas que você deseja excluir.
 1. Clique em **Problemas** no painel esquerdo.
-1. Selecione um problema e clique no ícone **Excluir** ![Excluir ícone](assets/delete.png) na parte superior da lista.
 
-1. Se a exclusão for permitida, clique em **Sim, Exclua-a**.\
+   Uma lista de problemas associados ao projeto selecionado é exibida à direita.
+1. Selecione um ou vários problemas na lista e clique no **ícone Excluir** ![ícone Excluir](assets/delete.png) na parte superior da lista.
+
+1. Se a exclusão for permitida, clique em **Sim, Exclua-a**. <!--change this to this button instead: <span class="preview">*Delete*</span>-->
+
    O administrador do Workfront pode não permitir a exclusão de problemas em que as horas são registradas.\
-   Para obter mais informações sobre acesso e permissões necessárias para excluir um problema, consulte [Excluir problemas](#access-and-permissions-needed).
+   Para obter mais informações sobre o acesso e as permissões necessárias para excluir um problema, consulte a seção [Considerações para a exclusão de problemas](#considerations-for-deleting-issues) neste artigo.
 
 ### Excluir um único problema {#delete-a-single-issue}
 
@@ -123,7 +128,7 @@ Dependendo de como o administrador do Workfront ou do grupo configura as Prefer�
 1. Clique no nome do projeto que contém o problema que você deseja excluir.
 1. Clique em **Problemas** no painel esquerdo.
 
-   ![Ícone de problemas](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Seção de problemas no painel esquerdo](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Clique no nome do problema que deseja excluir.
 1. Clique no menu **Mais** à direita do nome do problema.
@@ -131,11 +136,13 @@ Dependendo de como o administrador do Workfront ou do grupo configura as Prefer�
    ![Menu Emitir Mais](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Clique em **Excluir problema**.
-1. Se a exclusão for permitida, clique em **Sim, Exclua-a**.
+1. Se a exclusão for permitida, clique em **Sim, Exclua-a**. <!--change this to this button instead: <span class="preview">*Delete*</span>-->
 
    O administrador do Workfront pode não permitir a exclusão de problemas em que as horas são registradas.\
-   Para obter mais informações sobre acesso e permissões necessárias para excluir um problema, consulte [Excluir problemas](#access-and-permissions-needed).
+   Para obter mais informações sobre o acesso e as permissões necessárias para excluir um problema, consulte a seção [Considerações para a exclusão de problemas](#considerations-for-deleting-issues) neste artigo.
 
 ## Restaurar problemas excluídos
 
-Um administrador de grupo ou da Workfront pode restaurar problemas 30 dias após a exclusão. Para obter mais informações sobre como restaurar itens no Workfront, consulte [Restaurar itens excluídos](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Um administrador de grupo ou da Workfront pode restaurar problemas 30 dias após a exclusão.
+
+Para obter mais informações sobre como restaurar itens no Workfront, consulte [Restaurar itens excluídos](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

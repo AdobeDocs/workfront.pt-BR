@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '3706'
+source-wordcount: '3721'
 ht-degree: 4%
 
 ---
@@ -622,12 +622,14 @@ Os seguintes campos são incluídos no cabeçalho da tarefa, por padrão:
 
 * Nomes da tarefa
 * Percentual completo
+
+  Para obter informações, consulte [Exibir e atualizar Porcentagem Concluída para tarefas](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 * Atribuições
 * Data de conclusão planejada
 
   >[!CAUTION]
   >
-  >Algumas restrições de tarefa e outras dependências podem impedir que você edite esse campo. Para obter informações sobre Restrições de Tarefa, consulte [Visão geral da Restrição de Tarefa](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >Algumas Restrições de Tarefa e outras dependências podem impedir que você edite a Data de conclusão planejada de uma tarefa. Para obter informações sobre Restrições de Tarefa, consulte [Visão geral da Restrição de Tarefa](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Status
 * Tome decisões de aprovação se você estiver definido como aprovador em um processo de aprovação atual

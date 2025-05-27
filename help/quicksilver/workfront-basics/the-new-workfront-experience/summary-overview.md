@@ -5,9 +5,9 @@ description: Você pode usar o painel Resumo para revisar e atualizar as informa
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '986'
 ht-degree: 2%
 
 ---
@@ -167,7 +167,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## [!UICONTROL Percentual concluído]
 
-Use a barra de progresso na parte superior do [!UICONTROL Resumo] para atualizar a porcentagem concluída para a tarefa ou problema selecionado. Insira um número ou arraste a barra até a porcentagem correta.
+Use a bolha azul de progresso na parte superior do [!UICONTROL Resumo] para atualizar a porcentagem concluída da tarefa ou problema selecionado. Insira um número ou arraste a bolha para a porcentagem correta.
+
+Quando você arrasta e solta a bolha no painel Resumo, a Porcentagem concluída é atualizada em um ponto. Não é possível inserir um número decimal.
 
 ![Porcentagem concluída no painel Resumo](assets/summary-overview-percent-complete.png)
 
