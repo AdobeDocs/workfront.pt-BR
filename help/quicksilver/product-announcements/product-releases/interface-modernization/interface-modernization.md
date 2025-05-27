@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: da7151e210bc779beb963e53a2beed5b5280f494
+source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3990'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,14 @@ Para todas as outras alterações no Adobe Workfront, consulte [Versões do prod
 
 
 ## Administração e configuração
+
+### Atualização da interface para a guia Log de acesso em Configurar
+
+**Versão de visualização: 21 de maio de 2025; Versão de produção: 29 de maio de 2025**
+
+Atualizamos a guia Log de acesso com um design mais moderno que é consistente com outras áreas do Workfront.
+
+Para visualizar esta alteração, acesse Configuração > Fazer logon como > Escolher log de acesso na parte superior da tela.
 
 ### Nova aparência das caixas Novo e Copiar Scorecard
 
@@ -66,7 +74,7 @@ Nenhuma alteração de funcionalidade foi introduzida com esta atualização.
 
 ### Compartilhar um documento com um endereço de email externo
 
-**Versão de visualização: 15 de maio de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 15 de maio de 2025; Versão de produção: 21 de maio de 2025**
 
 Atualizamos a caixa de diálogo de compartilhamento para permitir que os usuários compartilhem documentos com usuários externos usando um endereço de email. Esta funcionalidade estava temporariamente indisponível devido ao trabalho de modernização da interface.
 
