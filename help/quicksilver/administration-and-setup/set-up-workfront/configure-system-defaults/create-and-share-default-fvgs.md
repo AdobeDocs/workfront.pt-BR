@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
+source-git-commit: 4fbf88c544cd56887e6f6f36d7aabfa0668a2a05
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -88,15 +88,18 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 Você pode disponibilizar o filtro, a visualização ou o agrupamento para os usuários do seu sistema. Para obter mais informações sobre como compartilhar filtros, exibições ou agrupamentos com outros usuários, consulte a seção [Disponibilizar filtros, exibições ou agrupamentos para usuários](#make-filters-views-or-groupings-available-to-users) neste artigo.
 
 
-## Mostrar ou ocultar filtros, exibições ou agrupamentos disponíveis no Modelo de layout
+## Disponibilizar filtros, visualizações ou agrupamentos a todos os usuários {#make-filters-views-or-groupings-available-to-users}
 
-Você pode optar por mostrar ou ocultar filtros, exibições ou agrupamentos do Modelo de layout. Filtros visíveis estão disponíveis para todos os usuários em todo o sistema. Você pode usar um Modelo de layout para ocultar filtros visíveis para usuários ou grupos específicos.
+Você pode optar por mostrar ou ocultar filtros, visualizações ou agrupamentos no sistema. Filtros visíveis estão disponíveis para todos os usuários em todo o sistema. Esta configuração funciona como uma chave liga/desliga para todo o sistema, incluindo o Modelo de layout.
+
+Se você quiser ocultar filtros, visualizações ou agrupamentos de usuários específicos, recomendamos usar um Modelo de layout em vez de desativá-lo em todo o sistema.
 
 >[!NOTE]
 >
->Se um usuário estiver usando ativamente um filtro, uma visualização ou um agrupamento e um administrador desativá-lo, o usuário ainda terá acesso até que escolha um novo filtro, exibição ou agrupamento. Depois de escolher um novo, eles não poderão mais reverter para o oculto.
+>* Se um usuário estiver usando ativamente um filtro, uma visualização ou um agrupamento e um administrador desativá-lo, o usuário ainda terá acesso até que escolha um novo filtro, exibição ou agrupamento. Depois de escolher um novo, eles não poderão mais reverter para o oculto.
+>* Se todos os filtros, visualizações e agrupamentos forem restritos por meio do Modelo de layout ou desativados em todo o sistema, o usuário verá as opções padrão, pois o sistema deve exibir algo.
 
-Para mostrar ou ocultar filtros, exibições ou agrupamentos disponíveis no Modelo de layout:
+Para mostrar ou ocultar filtros, exibições ou agrupamentos:
 
 {{step-1-to-setup}}
 
@@ -110,23 +113,29 @@ Para mostrar ou ocultar filtros, exibições ou agrupamentos disponíveis no Mod
    >
    >Se você deseja manter o filtro, a visualização ou o agrupamento disponível para a maioria dos usuários, mas ocultá-lo de outros, é possível usar o Modelo de layout. Para obter mais informações, consulte [Personalizar Filtros, Exibições e Agrupamentos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Condicional) Selecione o filtro, o modo de exibição ou o agrupamento que deseja ocultar dos usuários e clique em **[!UICONTROL Desabilitar todo o sistema]**. O filtro, a visualização ou o agrupamento agora estão ocultos no modelo de layout e nos usuários do sistema.
+1. (Condicional) Selecione o filtro, o modo de exibição ou o agrupamento que deseja ocultar dos usuários e clique em **[!UICONTROL Desabilitar todo o sistema]**. O filtro, a visualização ou o agrupamento agora estão ocultos no Modelo de layout e nos usuários do sistema.
 
 
-## Disponibilizar filtros, visualizações ou agrupamentos a todos os usuários {#make-filters-views-or-groupings-available-to-users}
+## Compartilhar filtros, visualizações ou agrupamentos personalizados com usuários específicos
 
-Estas etapas explicam como disponibilizar filtros, exibições e agrupamentos na caixa de diálogo [!UICONTROL Compartilhar] na área [!UICONTROL Interface] da [!UICONTROL Instalação]. Esta configuração funciona como uma chave liga/desliga para todo o sistema, incluindo o Modelo de layout.
+Estas etapas explicam como compartilhar filtros, exibições e agrupamentos personalizados com usuários específicos usando a caixa de diálogo de compartilhamento na área [!UICONTROL Interface] da [!UICONTROL Instalação]. Você pode conceder ou gerenciar o acesso a filtros, visualizações e agrupamentos que você ou outras pessoas criam. Não é possível compartilhar padrões do sistema com usuários.
+
 
 {{step-1-to-setup}}
 
 1. Clique em **[!UICONTROL Interface]** e em um dos seguintes: **[!UICONTROL Filtros]**, **[!UICONTROL Exibições]** ou **[!UICONTROL Agrupamentos]**.
 
-1. Selecione o filtro, o modo de exibição ou o agrupamento que deseja disponibilizar para os usuários e clique no **[!UICONTROL ícone Compartilhar]** ![ícone Compartilhar](assets/share-icon.png).
+1. Selecione o filtro, o modo de exibição ou o agrupamento que deseja compartilhar e clique no **[!UICONTROL ícone Compartilhar]** ![ícone Compartilhar](assets/share-icon.png).
 1. Comece digitando o nome de usuários, equipes, funções, grupos ou empresas específicos com os quais compartilhar o filtro, a visualização ou o agrupamento e clique no nome quando ele aparecer na lista suspensa.
 
    Para obter mais informações sobre compartilhamento, consulte [Visão geral das permissões de compartilhamento em objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Clique em **[!UICONTROL Salvar]**. Os usuários especificados agora podem ver o filtro, a exibição ou o agrupamento ao visualizar o tipo de objeto ao qual você o associou.
+1. Escolha **Exibir** ou **Gerenciar** ao lado do nome do usuário, da equipe, da função, do grupo ou da empresa. Para ajustar as permissões, clique no ícone do controle deslizante e ajuste as permissões.
+
+   ![ajustar permissões](assets/fine-tune-permissions.png)
+
+1. Clique em **[!UICONTROL Salvar]**. Os usuários especificados agora podem interagir com o filtro, a exibição ou o agrupamento ao visualizar o tipo de objeto ao qual você o associou.
+
 
 ## Excluir filtros, visualizações e agrupamentos
 
