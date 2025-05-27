@@ -126,9 +126,9 @@ Antes de adicionar um usuário, colete as informações sobre o usuário listado
    >
    >* Se o administrador do Workfront ativou uma integração de SSO com o Workfront, o campo Permitir apenas &lt;Configuração de SSO> autenticação ficará oculto se você desativar o convite por email. O campo ID da Federação ou &lt;Configuração do SSO> Nome de Usuário permanece visível.
    >
-   * Se sua organização tiver sido integrada à Admin Console e você adicionar um usuário por meio do Workfront, você não terá a opção de enviar um convite por email.
+   >* Se sua organização tiver sido integrada à Admin Console e você adicionar um usuário por meio do Workfront, você não terá a opção de enviar um convite por email.
    >
-   Para usuários existentes do Adobe, o usuário pode ou não receber um email sobre a disponibilidade do Workfront. Esta é uma preferência controlada pelo administrador do Adobe para o produto.
+   >Para usuários existentes do Adobe, o usuário pode ou não receber um email sobre a disponibilidade do Workfront. Esta é uma preferência controlada pelo administrador do Adobe para o produto.
 
 1. Clique Em **Adicionar Esta Pessoa**.
 
@@ -138,15 +138,15 @@ Antes de adicionar um usuário, colete as informações sobre o usuário listado
 
    >[!NOTE]
    >
-   * Se você for um administrador de grupo que adiciona um usuário a uma organização que foi integrada à Adobe Admin Console, as opções para esta etapa serão **Enviar usuário para Aprovação do Administrador** e **Enviar para Aprovação e Iniciar outro**. O usuário é criado com um status Desativado e Pendente de Aprovação.
+   >* Se você for um administrador de grupo que adiciona um usuário a uma organização que foi integrada à Adobe Admin Console, as opções para esta etapa serão **Enviar usuário para Aprovação do Administrador** e **Enviar para Aprovação e Iniciar outro**. O usuário é criado com um status Desativado e Pendente de Aprovação.
    > 
-   * Se o usuário não sair do status Desativado e Aprovação pendente em alguns minutos e uma atualização de tela não remover o selo Aprovação pendente, você poderá aprovar o usuário manualmente.
+   >* Se o usuário não sair do status Desativado e Aprovação pendente em alguns minutos e uma atualização de tela não remover o selo Aprovação pendente, você poderá aprovar o usuário manualmente.
    >
-   1. Vá até Configuração > Usuários.
-   1. Selecione o usuário ou usuários na lista Usuários.
-   1. Clique no menu de três pontos no cabeçalho da lista.
-   1. Selecione **Aprovar**.
-   1. Após alguns minutos, atualize a página.
+   >1. Vá até Configuração > Usuários.
+   >1. Selecione o usuário ou usuários na lista Usuários.
+   >1. Clique no menu de três pontos no cabeçalho da lista.
+   >1. Selecione **Aprovar**.
+   >1. Após alguns minutos, atualize a página.
 
 
 ## Copiar um usuário para criar um novo
@@ -155,11 +155,11 @@ Você pode criar um usuário copiando um usuário existente.
 
 >[!NOTE]
 >
-Quando você cria um usuário dessa maneira, todas as informações são copiadas do usuário original para o usuário recém-criado, exceto para o seguinte:
+>Quando você cria um usuário dessa maneira, todas as informações são copiadas do usuário original para o usuário recém-criado, exceto para o seguinte:
 >
-* As informações na seção Informações pessoais.
-* Quando eu fizer logon, mostrar: a guia de aterrissagem padrão do nível de acesso é selecionada nesta caixa.
-* Superior imediato de
+>* As informações na seção Informações pessoais.
+>* Quando eu fizer logon, mostrar: a guia de aterrissagem padrão do nível de acesso é selecionada nesta caixa.
+>* Superior imediato de
 >
 
 Para criar um novo usuário copiando um usuário existente:
@@ -183,6 +183,6 @@ Se você selecionou a opção para enviar um convite para o usuário, ele deve r
 
 >[!NOTE]
 >
-Se sua organização tiver sido integrada à Admin Console e você adicionar um usuário por meio do Workfront, você não terá a opção de enviar um convite por email.
+>Se sua organização tiver sido integrada à Admin Console e você adicionar um usuário por meio do Workfront, você não terá a opção de enviar um convite por email.
 >
-Para usuários existentes do Adobe, o usuário pode ou não receber um email sobre a disponibilidade do Workfront. Esta é uma preferência controlada pelo administrador do Adobe para o produto.
+>Para usuários existentes do Adobe, o usuário pode ou não receber um email sobre a disponibilidade do Workfront. Esta é uma preferência controlada pelo administrador do Adobe para o produto.
