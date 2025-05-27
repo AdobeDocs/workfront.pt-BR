@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1218'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ A tabela a seguir exibe as empresas, grupos e funções a serem importados:
   <tr> 
    <td valign="top"> <p>Acme, Co</p> <p>Workfront, Inc.</p> <p><em>Sua Empresa</em> </p> <p>XYZ, Inc.</p> </td> 
    <td valign="top"> <p valign="top" rowspan="7">Finanças</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">Marketing </p> <p valign="top" rowspan="7">Vendas</p> </td> 
-   <td valign="top"> <p valign="top">Analista de negócios</p> <p valign="top">Creative do controlador</p> <p valign="top">Designer</p> <p valign="top">Gerenciador de Recursos</p> <p valign="top">Scrum Master</p> <p valign="top">Redator técnico</p> <p valign="top">Desenvolvedor da Web</p> </td> 
+   <td valign="top"> <p valign="top">Analista de negócios</p> <p valign="top">Creative da controladora</p> <p valign="top">Designer</p> <p valign="top">Gerenciador de Recursos</p> <p valign="top">Scrum Master</p> <p valign="top">Redator técnico</p> <p valign="top">Desenvolvedor da Web</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -309,3 +309,13 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 1. Importe o arquivo do Excel.
 
    Siga as instruções fornecidas em [Importar dados para o Adobe Workfront usando um modelo de Kick-Start](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+
+
+>[!NOTE]
+>
+>Os usuários importados para o Workfront são criados com status Desativado e Aprovação pendente.
+> 
+>Se sua organização tiver sido migrada para a Adobe Admin Console e um usuário não sair do status Desativado e Aprovação pendente em alguns minutos, você poderá adicionar o lote de usuários diretamente à Adobe Admin Console.
+>
+>Para obter instruções, consulte [Gerenciar vários usuários | Upload em massa de CSV](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) na documentação do Adobe.
