@@ -4,9 +4,9 @@ description: As extensões de interface do usuário do Workfront, viabilizadas p
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: e27cf74c94167e918bb6426b99bf7e47139cbade
+source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1693'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Você deve ter o seguinte:
 
 * Uma conta do Workfront habilitada para IMS
 * Uma máquina dev com nó v18 e npm
+* Licença do App Builder
 
 ## Acessar o Adobe App Builder
 
@@ -69,8 +70,6 @@ Instruções adicionais estão disponíveis no [site do Adobe Developer](https:/
 ### Obter acesso ao App Builder
 
 As organizações devem trabalhar com os gerentes de conta para comprar o App Builder.
-
-Para testar a integração do AppBuilder, você pode solicitar uma avaliação gratuita para sua organização IMS aqui: https://developer.adobe.com/app-builder/trial/#
 
 Se o AppBuilder estiver configurado corretamente, você deverá ver Criar projeto a partir do modelo como parte da criação de um novo projeto.
 
@@ -132,7 +131,7 @@ Instruções adicionais estão disponíveis no GitHub e no site do Adobe Develop
 
 1. Confirme a conclusão selecionando Concluído. A geração de código a partir do modelo está em andamento.
    ![geração em andamento](assets/6-generation-in-process.png)
-1. Aguarde até ver uma mensagem informando que a inicialização do aplicativo foi concluída. Em seguida, abra o projeto em um IDE (recomenda-se VSCode) e acesse a pasta src.
+1. Aguarde até ver uma mensagem informando que a inicialização do aplicativo foi concluída. Em seguida, abra o projeto em um IDE (recomenda-se o Visual Studio Code) e acesse a pasta src.
 
    Para obter mais informações sobre as pastas e os arquivos do seu projeto, consulte o [site do desenvolvedor do Adobe](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application).
 
@@ -153,13 +152,13 @@ Para permitir aplicativos personalizados no menu principal do Workfront:
 Na função ExtensionRegistration, você deve ver o código a seguir. Esse código foi criado para você pelo modelo. Este código pode ser adicionado para criar itens de menu adicionais. Substitua IDs e URLs.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -169,13 +168,13 @@ Na função ExtensionRegistration, você deve ver o código a seguir. Esse códi
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Adicione o seguinte trecho de código:
