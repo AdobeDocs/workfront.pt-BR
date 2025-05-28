@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
 
 # Fazer logon como outro usuário
 
-<!--Audited: April, 2024-->
+<!--Audited: 5/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -25,9 +25,7 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
-Como administrador do Adobe Workfront, às vezes pode ser necessário acessar o Workfront em nome de outro usuário.
-
-Ou, como administrador de grupo, talvez seja necessário acessar o Workfront em nome de um usuário que seja membro de um grupo que você gerencia.
+Como administrador do Adobe Workfront, às vezes pode ser necessário acessar o Workfront em nome de outro usuário. Ou, como administrador de grupo, talvez seja necessário acessar o Workfront em nome de um usuário que seja membro de um grupo que você gerencia.
 
 Por exemplo, se uma tarefa não puder progredir até que um usuário de férias execute uma determinada ação, você poderá fazer logon como esse usuário e executar a ação.
 
@@ -44,7 +42,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >Como uma integração de documentos pode se conectar a arquivos pessoais privados, os administradores não podem acessar integrações de documentos enquanto estiverem conectados como outro usuário.
 >
->Para obter mais informações sobre integrações de documentos, consulte [Configurar integrações de documentos](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)
+>Para obter mais informações sobre integrações de documentos, consulte [Configurar integrações de documentos](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Requisitos de acesso
 
@@ -68,8 +66,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Com o nível de acesso de Administrador do sistema, você pode fazer logon como qualquer pessoa.</p> <p>Com um nível de acesso Padrão ou Planejador, você pode fazer logon como um usuário com um nível de licença mais baixo se a configuração <b>Usuários</b> no nível de acesso estiver definida como acesso de <b>Edição</b>, com as opções <b>Criar</b> e pelo menos uma das duas opções <b>Administrador de Usuários</b> habilitadas em <b>Ajustar as configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>OBSERVAÇÃO</b>: dessas duas opções, se <b>Administrador de Usuários (Usuários de Grupo)</b> estiver habilitado, você deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p></td>
+   <td> <p>Com o nível de acesso de Administrador do sistema, você pode fazer logon como qualquer pessoa.</p> <p>Com um nível de acesso Padrão ou Planejador, você pode fazer logon como um usuário com um nível de licença inferior se a configuração Usuários no nível de acesso estiver definida como Acesso de edição, com as opções Criar e pelo menos uma das duas opções de Administrador de usuários habilitadas em Ajustar suas configurações <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p>OBSERVAÇÃO: dessas duas opções, se o Administrador de Usuários (Usuários de Grupo) estiver ativado, você deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -96,15 +94,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. No painel esquerdo, clique em **Fazer logon como**.
 
-1. Na caixa **Usuários** da guia **Fazer logon como**, comece digitando o nome do usuário e clique nele quando ele aparecer na lista suspensa.
+1. Na caixa **Comece a digitar o nome...** da guia **Fazer Logon Como**, comece a digitar o nome do usuário e clique nele quando ele aparecer na lista suspensa.
 
-   O usuário deve ter um nível de acesso definido no Workfront. Não é possível fazer logon no sistema Workfront como um usuário que não tem direitos para fazer logon.
 
    >[!NOTE]
-   >
-   >Os administradores de grupo podem fazer logon somente como usuários membros dos grupos que gerenciam. Eles não podem fazer logon como administrador do Workfront.
+   >* O usuário selecionado deve ter um nível de acesso definido no Workfront. Não é possível fazer logon no sistema Workfront como um usuário que não tem direitos para fazer logon.
+   >* Os administradores de grupo podem fazer logon somente como usuários membros dos grupos que gerenciam. Eles não podem fazer logon como administrador do Workfront.
 
-1. Clique em **Fazer logon.**
+1. Clique Em **Fazer Logon**. Você está conectado como outro usuário e uma notificação é exibida na parte superior da tela indicando isso.
 
    <!--
    <p> Might come in a future story:</p>
@@ -131,15 +128,15 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    </div>
    -->
 
-   Quando você estiver conectado como outro usuário, uma notificação será exibida na parte superior da tela para indicar isso.
 
-1. Depois de executar as ações necessárias como usuário, clique em **Fazer logoff.**
+
+1. Depois de executar as ações necessárias como usuário, clique em **Logout** na parte superior da tela.
 
 ## Atividade de rastreamento e auditoria enquanto um administrador está conectado como outro usuário
 
 O Workfront fornece mecanismos para rastrear e auditar atividades que ocorrem enquanto o administrador está conectado como outro usuário.
 
-Quando você efetua login como outro usuário, a última data de login é modificada para esse usuário para a data em que o administrador do sistema ou do grupo efetuar login como esse usuário.
+Quando você efetua login como outro usuário, a última data de login para esse usuário é modificada para a data em que o administrador do sistema ou do grupo efetuar login como esse usuário.
 
 * [Exibir indicadores em itens](#view-indicators-on-items)
 * [Exibir informações de auditoria](#view-audit-information)
@@ -153,14 +150,17 @@ Por exemplo, se você comentar em um item enquanto estiver conectado como outro 
 ### Exibir informações de auditoria {#view-audit-information}
 
 1. Faça logon no Workfront como administrador do Workfront ou administrador de grupo.
-1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e clique no ícone **Configurar** ![Configurações de engrenagem](assets/gear-icon-settings.png).
+   {{step-1-to-setup}}
+   <!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
-1. Clique em **Fazer logon como** e na guia **Log de acesso**.
+1. No painel esquerdo, clique em **Fazer Logon como** e na guia **Log de Acesso**.
 
-   Sempre que um administrador de sistema ou de grupo fizer logon no Workfront como outro usuário, o evento será conectado na trilha de auditoria. Além disso, todas as ações auditáveis que ocorrem enquanto o administrador está conectado como outro usuário são conectadas na trilha de auditoria.
+   >[!NOTE]
+   >
+   >Sempre que um administrador de sistema ou de grupo fizer logon no Workfront como outro usuário, o evento será conectado na trilha de auditoria. Além disso, todas as ações auditáveis que ocorrem enquanto o administrador está conectado como outro usuário são conectadas na trilha de auditoria.
 
 1. (Opcional) Você pode filtrar os resultados exibidos na trilha de auditoria das seguintes maneiras:
 
    * Por usuário que fez logon
    * Por usuário que fez logon como
-   * Por data
+   * Por data e hora

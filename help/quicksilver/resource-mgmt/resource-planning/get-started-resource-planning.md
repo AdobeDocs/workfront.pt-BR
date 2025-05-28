@@ -7,14 +7,16 @@ description: Você pode usar as ferramentas de planejamento de recursos para ger
 author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # Introdução ao planejamento de recursos
+
+<!--Audited: 5/2025-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -35,7 +37,7 @@ Para obter mais informações sobre como agendar recursos no Workfront usando o 
 
 Para prever o tempo dos recursos para os projetos aos quais você planeja atribuí-los, use as seguintes ferramentas:
 
-* Para alocações de orçamento e priorizar vários projetos no nível do sistema: use o Planejador de Recursos no nível do sistema.
+* Para alocações de orçamento e priorizar vários projetos no nível do sistema, use o Planejador de Recursos no nível do sistema.
 
   Você pode acessar o Planejador de recursos na seção Planejador na área Recursos.
 
