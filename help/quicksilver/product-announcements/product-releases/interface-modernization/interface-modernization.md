@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 616d729b0a42446e11805579febac4e26489b13f
+source-git-commit: f8b660859269694f13410e4bc6894d6677cd04a2
 workflow-type: tm+mt
-source-wordcount: '3990'
+source-wordcount: '3995'
 ht-degree: 1%
 
 ---
@@ -150,7 +150,7 @@ Recomendamos substituir o URL para ir para uma página compatível ou remover a 
 
 ### Atualização da interface para a nova página de registro do usuário
 
-**Versão de visualização: 15 de maio de 2024; Versão de produção: a ser anunciada**
+**Versão de visualização: 12 de maio de 2024; Versão de produção: 19 de maio de 2025**
 
 Atualizamos a nova página de registro do usuário com um design mais moderno e consistente com outras áreas do Workfront.
 
@@ -158,13 +158,15 @@ Os usuários não têm mais a opção de carregar uma foto nesta página. No ent
 
 ### Busca atualizada para a página de logon
 
-**Versão de visualização: 15 de maio de 2024; Versão de produção: a ser anunciada**
+**Versão de visualização: 12 de maio de 2024; Versão de produção: 19 de maio de 2025**
 
 Atualizamos a página de logon com um design mais moderno que é consistente com outras áreas do Workfront.
 
+Com essa alteração, a página de logon não oferecerá mais suporte à marca personalizada.
+
 ### Atualização da busca pela página de redefinição de senha
 
-**Versão de visualização: 15 de maio de 2024; Versão de produção: a ser anunciada**
+**Versão de visualização: 12 de maio de 2024; Versão de produção: 19 de maio de 2025**
 
 Atualizamos a tela de redefinição de senha com um design mais moderno e consistente com outras áreas do Workfront. Esta atualização inclui atualizações nas seguintes páginas:
 
