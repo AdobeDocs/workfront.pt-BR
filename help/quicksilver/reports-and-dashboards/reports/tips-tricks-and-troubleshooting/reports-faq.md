@@ -7,9 +7,9 @@ description: Perguntas frequentes sobre relatórios
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -71,17 +71,27 @@ Em um relatório de projeto, tenho um cálculo que subtrai as Horas Reais das Ho
 
 Meu cálculo é:
 
-`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)`
 
 ### Responder
 
 A maioria dos campos que usam horas no Workfront é armazenada em minutos. Ao usar esses campos em um cálculo, o resultado será, na maioria das vezes, em minutos. Para obter o resultado em horas, é necessário dividir o resultado do cálculo ou o campo ao qual você está fazendo referência por 60.
 
-Por exemplo, as Horas planejadas são armazenadas em minutos, enquanto as Horas efetivas são armazenadas em horas. Como resultado, você deve converter as Horas planejadas de minutos em horas.
+<!--For example, Planned Hours are stored in minutes, while Actual Hours are stored in hours. As a result, you must convert Planned Hours from minutes to hours. -->
 
 O cálculo correto é:
 
-`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+>[!NOTE]
+>
+>Se você estiver se referindo às Horas efetivas em chamadas de API, use `actualWorkRequiredDouble` para o campo de valor. As horas efetivas na API são armazenadas em horas. As horas planejadas são armazenadas em minutos.
+>
+>O cálculo correto em uma chamada de API é:
+>>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+
+<!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
 
 ## Por que o valor de cada um dos meus elementos de gráfico em um relatório não é exibido no gráfico?
 
