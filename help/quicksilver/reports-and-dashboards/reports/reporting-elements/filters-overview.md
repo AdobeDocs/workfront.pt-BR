@@ -223,7 +223,7 @@ Você pode usar modificadores de filtro para indicar que tipo de informação vo
 >[!INFO]
 >
 >**Exemplo:**
->>Você pode filtrar por projetos com uma porcentagem concluída de 100%. Nesse caso, você pode usar o modificador &quot;equal&quot; na seguinte instrução de filtro:
+>&#x200B;>Você pode filtrar por projetos com uma porcentagem concluída de 100%. Nesse caso, você pode usar o modificador &quot;equal&quot; na seguinte instrução de filtro:
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 

@@ -119,7 +119,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      >[!NOTE]
      >
      >O Planning exige uma licença adicional. Para obter informações sobre o Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-      * Aplicativo personalizado
+     > * Aplicativo personalizado
 
      >[!NOTE]
      >
