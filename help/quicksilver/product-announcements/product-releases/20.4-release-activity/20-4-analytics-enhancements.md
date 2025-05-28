@@ -1,19 +1,19 @@
 ---
-title: 20. 4 melhorias no Analytics
-description: 20. 4 melhorias no Analytics
+title: ​20. 4 melhorias no Analytics
+description: ​20. 4 melhorias no Analytics
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
-# 20. 4 melhorias no Analytics
+# &#x200B;20. 4 melhorias no Analytics
 
 Esta página descreve todas as melhorias de análise feitas com a versão 20.4 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 9 de novembro de 2020.
 
@@ -28,5 +28,3 @@ Para permitir que você visualize as informações que deseja ver sem precisar a
 * Cada gráfico agora tem um menu Classificar por que você pode classificar alfabeticamente pela Data Inicial Planejada ou pela Data de Conclusão Planejada.
 
 Anteriormente, a área Analítica aprimorada limitava a quantidade de projetos que podiam ser visualizados a 50.
-
-Este recurso agora está incluído no [Caminho de Aprendizado do Enhanced Analytics, Parte 1](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home) no Workfront One.

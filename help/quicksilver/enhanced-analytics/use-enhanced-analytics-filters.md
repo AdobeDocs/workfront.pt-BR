@@ -6,9 +6,9 @@ description: Os filtros na área Análise aprimorada do Adobe Workfront ajudam v
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->O Analytics aprimorado será removido do Workfront na semana de 26 de maio. O Workfront Data Connect é uma solução nova e alternativa e pode ser usada para replicar qualquer visualização do Enhanced Analytics que você usa atualmente. <br>Consulte o [guia de descontinuação do Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obter mais informações.
+>O Analytics aprimorado foi removido do Workfront em 27 de maio. O Workfront Data Connect é uma solução nova e alternativa e pode ser usada para replicar qualquer visualização do Enhanced Analytics que você usa atualmente. <br>Consulte o [guia de descontinuação do Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obter mais informações.
 
 
 <!-- Audited: 12/2023 -->
 
-Os filtros na área Análise aprimorada do Adobe Workfront ajudam você a se concentrar em projetos específicos ou tipos específicos de dados. Os tipos de filtros que você usa podem fornecer informações sobre:
+Os filtros na área Análise aprimorada do Adobe Workfront ajudam você a se concentrar em projetos específicos ou tipos específicos de dados. Os tipos de filtros que você usa podem fornecer insight sobre:
 
 * Projetos que possui
 * Exibições específicas de portfólio ou programa

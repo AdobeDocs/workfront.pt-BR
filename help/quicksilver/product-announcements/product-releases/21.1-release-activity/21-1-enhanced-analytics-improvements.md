@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 886fe974-7813-425c-b5cf-f6bca21a888b
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,6 @@ Para obter uma lista de todas as alterações disponíveis com a versão 21.1, c
 
 No Modelo de layout padrão, a área do Analytics agora está habilitada por padrão, o que significa que os usuários atribuídos a esse Modelo de layout agora veem a área do Analytics na Barra de navegação global no Adobe Workfront Classic e o Menu principal na nova experiência do Adobe Workfront.
 
-Para saber mais sobre a Análise aprimorada, consulte [Visão geral da Análise aprimorada](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Análises aprimoradas disponíveis para todos os clusters
 
@@ -37,7 +36,6 @@ A análise aprimorada está disponível para todos os clusters do Workfront, inc
 
 Anteriormente, a Análise aprimorada não estava disponível com a Google Cloud Platform, impedindo que os clientes no Cluster 6 acessassem a área do Analytics. Agora, os clientes Business e Enterprise do Cluster 6 podem acessar a área do Analytics.
 
-Para saber mais sobre a Análise aprimorada, consulte [Visão geral da Análise aprimorada](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## A página Pessoas agora está disponível para todos os clusters
 
@@ -49,4 +47,4 @@ A página Pessoas agora está disponível no Workfront Classic para Cluster 4. E
 
 Esta página estava disponível anteriormente na versão 20.3 do Workfront Classic e na nova experiência do Workfront para todos os outros clusters.
 
-Para saber mais sobre os gráficos disponíveis na página Pessoas, consulte [Visão geral da análise aprimorada](../../../enhanced-analytics/enhanced-analytics-overview.md).
+

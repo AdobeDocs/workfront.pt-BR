@@ -5,9 +5,9 @@ description: A barra de navegação superior, exibida na parte superior da tela 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Para saber mais sobre cada área, consulte:
    <td> 
     <ul> 
      <li>[!UICONTROL Home]: <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">Usar a área [!UICONTROL Home]</a></li> 
-     <li>[!UICONTROL Portfolio]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Gerenciamento de Portfolio</a></li> 
+     <li>[!UICONTROL Portfólios]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Gerenciamento de Portfolio</a></li> 
      <li>[!UICONTROL Programas]: <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">Criar e gerenciar programas </a></li> 
      <li>[!UICONTROL Projetos]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Projetos: índice do artigo</a></li> 
      <li>[!UICONTROL Relatórios]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Relatórios</a></li> 
@@ -120,7 +120,6 @@ Para saber mais sobre cada área, consulte:
      <li>[!UICONTROL Folhas de Horas]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Folhas de Horas: índice do artigo</a></li> 
      <li>[!UICONTROL Documentos]: <a href="../../documents/documents-overview.md" class="MCXref xref">Documentos</a></li> 
      <li>[!UICONTROL Modelos]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Criar e gerenciar modelos de projeto: índice do artigo</a></li> 
-     <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Visão geral da análise aprimorada</a></li> 
      <li>[!UICONTROL Metas]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] visão geral</a></li> 
      <li>[!UICONTROL Cenários]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">A visão geral do Planejador de Cenários</a></li> 
      <li>[!UICONTROL Proof]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Prova: índice do artigo</a></li> 

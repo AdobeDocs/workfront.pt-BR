@@ -7,9 +7,9 @@ description: A análise aprimorada é uma ferramenta eficiente no Adobe Workfron
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1243'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->O Analytics aprimorado será removido do Workfront na semana de 26 de maio. O Workfront Data Connect é uma solução nova e alternativa e pode ser usada para replicar qualquer visualização do Enhanced Analytics que você usa atualmente. <br>Consulte o [guia de descontinuação do Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obter mais informações.
+>O Analytics aprimorado foi removido do Workfront em 27 de maio. O Workfront Data Connect é uma solução nova e alternativa e pode ser usada para replicar qualquer visualização do Enhanced Analytics que você usa atualmente. <br>Consulte o [guia de descontinuação do Enhanced Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) para obter mais informações.
 
 
 A análise aprimorada é uma ferramenta eficiente no Adobe Workfront com visualizações pré-criadas que permitem examinar os dados do projeto e identificar tendências com planejamento e conclusão. Essa insight em seus projetos ajuda você a gerenciar o trabalho atual e permite que você planeje com mais precisão trabalhos futuros.
@@ -34,7 +34,7 @@ A análise aprimorada pode ajudar a identificar:
 
 ![Análises](assets/nwe-full-screen-analytics-350x222.png)
 
-Para ver casos de uso ou saber mais sobre o gerenciamento do trabalho atual e o planejamento de trabalho futuro com a Análise aprimorada, consulte [Caminhos de aprendizado da Análise aprimorada](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home).
+Para ver casos de uso ou saber mais sobre o gerenciamento do trabalho atual e o planejamento de trabalho futuro com a Análise aprimorada, consulte [Caminhos de aprendizado da Análise aprimorada](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home).
 
 ## Pré-requisitos
 
@@ -46,7 +46,7 @@ Para acessar a área Analítica aprimorada, você deve:
 
 * Peça ao administrador do Workfront para adicionar Análises aprimoradas ao modelo de layout.
 
-  Para obter mais informações, consulte [Análises aprimoradas: adicionando análises a modelos de layout](https://experienceleague.adobe.com/pt-br/docs/workfront/using/home).
+  Para obter mais informações, consulte [Análises aprimoradas: adicionando análises a modelos de layout](https://experienceleague.adobe.com/en/docs/workfront/using/home).
 
 Para ver informações de projetos e tarefas, você deve:
 

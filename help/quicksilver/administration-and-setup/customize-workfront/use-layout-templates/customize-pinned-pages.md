@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Em um modelo de layout, você pode fixar as páginas que deseja que os usuários sempre tenham disponíveis na parte superior do Adobe Workfront. Elas podem ser páginas acessadas pelo menu principal ou pelos painéis.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 4%
 
 ---
@@ -77,7 +77,6 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    * Selecione entre as seguintes áreas:
 
-      * Análise
       * Calendários
       * Painéis
       * Documentos

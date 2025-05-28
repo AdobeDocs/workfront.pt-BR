@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -34,5 +34,4 @@ Você pode se concentrar em projetos diferentes ou limitar a quantidade de proje
 
 Além dos insights que você pode obter, também é possível concluir ações em tarefas, como atualizar o status, solicitar uma atualização, atribuir a tarefa a alguém etc.— diretamente da área Analítica aprimorada.
 
-Para obter mais informações, consulte [Visão geral da análise aprimorada](../../../enhanced-analytics/enhanced-analytics-overview.md).
 

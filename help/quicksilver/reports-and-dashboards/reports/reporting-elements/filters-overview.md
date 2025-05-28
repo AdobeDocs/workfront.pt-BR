@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Visão geral dos filtros
 description: Você pode usar filtros no Adobe Workfront para reduzir a quantidade de informações exibidas na tela em listas, relatórios ou outras áreas.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1811'
 ht-degree: 1%
 
 ---
@@ -90,10 +90,6 @@ Você pode usar filtros integrados ou criar filtros personalizados nas seguintes
 * Balanceador de carga de trabalho
 
   Para obter informações, consulte [Informações de filtro no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
-
-* Área do Analytics
-
-  Para obter informações, consulte [Aplicar filtros na análise aprimorada](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 * Área de blueprints
 
@@ -189,7 +185,7 @@ Um filtro contém os seguintes elementos:
   </tr> 
   <tr> 
    <td><strong>Campo</strong></td> 
-   <td> <p>O atributo do objeto pelo qual você está filtrando. </p> <p>Por exemplo, você pode filtrar por Nome do Portfolio ou Proprietário do projeto. Nesses casos, Nome e Proprietário são campos dos objetos Portfolio e Projeto. </p> </td> 
+   <td> <p>O atributo do objeto pelo qual você está filtrando. </p> <p>Por exemplo, você pode filtrar por Nome da Portfolio ou Proprietário do projeto. Nesses casos, Nome e Proprietário são campos dos objetos Portfolio e Projeto. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Valor</strong></td> 
@@ -227,7 +223,7 @@ Você pode usar modificadores de filtro para indicar que tipo de informação vo
 >[!INFO]
 >
 >**Exemplo:**
->Você pode filtrar por projetos com uma porcentagem concluída de 100%. Nesse caso, você pode usar o modificador &quot;equal&quot; na seguinte instrução de filtro:
+>>Você pode filtrar por projetos com uma porcentagem concluída de 100%. Nesse caso, você pode usar o modificador &quot;equal&quot; na seguinte instrução de filtro:
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 
@@ -258,7 +254,7 @@ Para obter mais informações sobre como criar um filtro usando a interface de m
 Ao criar um filtro no modo de texto e filtrar valores de campo que contenham vírgulas, você deve adicionar uma barra (&quot;/&quot;) antes das vírgulas que separam os valores, para garantir que o valor seja lido como uma opção de filtro. Isso se aplica somente aos seguintes tipos de campo:
 
 * Menus suspensos
-* Botões de seleção
+* Botões de opção
 * Caixas de seleção
 
 Por exemplo, você tem um campo de botão de opção em um projeto chamado &quot;Cor&quot; e as opções para ele são:

@@ -7,16 +7,16 @@ description: O menu principal muda com o nível de acesso que você foi atribuí
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
 
 # Compreender a navegação de um usuário de licença do [!UICONTROL Trabalho]
 
-O [!UICONTROL Menu Principal] é alterado com o nível de acesso atribuído a você pelo administrador do [!DNL Adobe Workfront]. Por padrão, você recebe acesso somente às áreas que incluem a funcionalidade permitida pelo seu nível de acesso. Para entender os componentes do layout padrão de cada nível de acesso, consulte [Sobre o layout padrão [!DNL Adobe Workfront] 2&rbrace;.](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
+O [!UICONTROL Menu Principal] é alterado com o nível de acesso atribuído a você pelo administrador do [!DNL Adobe Workfront]. Por padrão, você recebe acesso somente às áreas que incluem a funcionalidade permitida pelo seu nível de acesso. Para entender os componentes do layout padrão de cada nível de acesso, consulte [Sobre o layout padrão [!DNL Adobe Workfront] 2}.](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
 
 ## Entender o [!UICONTROL Menu Principal] padrão de um Trabalhador
 
@@ -45,8 +45,6 @@ As seguintes áreas estão incluídas no layout padrão de um [!UICONTROL Trabal
 * **[!UICONTROL Documentos]**: você pode carregar documentos ou revisar documentos compartilhados com você, aqui. Para obter informações, consulte [Documentos](../../../documents/documents-overview.md).
 
 * **[!UICONTROL Recursos]**: você pode exibir a alocação de recursos nas ferramentas de Planejamento de Recursos e exibir Conjuntos de Recursos aqui. Para obter informações, consulte [Gerenciar recursos](../../../resource-mgmt/manage-resources.md).
-
-* **[!UICONTROL Analytics]**: examine os dados do projeto e identifique tendências com o planejamento e a conclusão. Essa área exibe insights dos projetos que você tem acesso para visualizar. Para obter mais informações, consulte [Visão geral da análise aprimorada](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 * **[!UICONTROL Quadros]**: trabalhe com flexibilidade e colaboração com os membros da equipe usando quadros compartilhados que contêm colunas e cartões que refletem o trabalho que você deseja realizar. Para obter informações, consulte [Introdução a quadros: índice do artigo](../../../agile/get-started-with-boards/get-started-with-boards.md).
 

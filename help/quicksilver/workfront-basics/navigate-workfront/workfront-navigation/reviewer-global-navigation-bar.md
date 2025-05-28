@@ -6,16 +6,16 @@ description: O menu principal muda com o nível de acesso que você foi atribuí
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
 
 # Compreender a navegação de um usuário de licença do [!UICONTROL Review]
 
-O [!UICONTROL Menu Principal] é alterado com o nível de acesso atribuído a você pelo administrador do [!DNL Adobe Workfront]. Por padrão, você recebe acesso somente às áreas que incluem a funcionalidade permitida pelo seu nível de acesso. Para entender os componentes do layout padrão de cada nível de acesso, consulte [Sobre o layout padrão [!DNL Adobe Workfront] 2&rbrace;.](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
+O [!UICONTROL Menu Principal] é alterado com o nível de acesso atribuído a você pelo administrador do [!DNL Adobe Workfront]. Por padrão, você recebe acesso somente às áreas que incluem a funcionalidade permitida pelo seu nível de acesso. Para entender os componentes do layout padrão de cada nível de acesso, consulte [Sobre o layout padrão [!DNL Adobe Workfront] 2}.](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
 
 ## Entender o [!UICONTROL Menu Principal] padrão de um [!UICONTROL Revisor]
 
@@ -31,8 +31,6 @@ As seguintes áreas estão incluídas no layout padrão de um [!UICONTROL Reviso
 
 * **[!UICONTROL Solicitações]**: você pode enviar e revisar solicitações que você ou outros usuários da sua empresa enviaram nesta área.
 * **[!UICONTROL Documentos]**: você pode carregar documentos ou revisar documentos compartilhados com você aqui.
-* **[!UICONTROL Analytics]**: examine os dados do projeto e identifique tendências com o planejamento e a conclusão. Essa área exibe insights dos projetos que você tem acesso para visualizar. Para obter mais informações, consulte [Visão geral da análise aprimorada](../../../enhanced-analytics/enhanced-analytics-overview.md).
-
 * **[!UICONTROL Blueprints]**: examine os blueprints existentes no sistema e solicite a instalação de um, caso o administrador do [!DNL Workfront] tenha configurado a fila de solicitações para blueprints. Para obter mais informações, consulte [Visão geral dos blueprints](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 

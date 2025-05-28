@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2771'
 ht-degree: 4%
 
 ---
@@ -168,15 +168,6 @@ Você pode configurar o relatório de Lançamento para mostrar:
 Se quiser ver a integridade de um projeto, você também pode configurar o relatório para mostrar essas mesmas informações usando o campo **Condição** do projeto.
 
 Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desempenho do planejamento de você e de sua organização.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;for tip below: When analytics adds the status option, update this note to say "these entries (status or condition changes)")</p>
--->
-
->[!TIP]
->
->Se você deseja comparar a diferença em dias entre as alterações de condição, é possível usar a Análise aprimorada.\
->Para saber mais sobre a Análise aprimorada, consulte [Visão geral da Análise aprimorada](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
 1. Clique em **Novo Relatório** e selecione **Entrada do Diário**.
