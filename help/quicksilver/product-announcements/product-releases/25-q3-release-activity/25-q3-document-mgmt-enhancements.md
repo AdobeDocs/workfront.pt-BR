@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: c8222e177d7e1ab9f62f5a520a2a941ca87cc27a
+source-git-commit: e73986702dac81d698f59caca76f6c7239ddeef8
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Essa atualização é para Mac e Windows.
 
 >[!NOTE]
 >
->* Versão de pré-visualização: 31 de maio de 2025; Versão de produção para todos os clientes: 31 de maio de 2025
+>* Versão de pré-visualização: 2 de junho de 2025; Versão de produção para todos os clientes: 2 de junho de 2025
 
 O Google está [aprimorando os controles de segurança](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) para aplicativos de terceiros que acessam o Google Drive, exigindo que os aplicativos adotem um modelo de consentimento por usuário. Como resultado, os ativos individuais devem ser vinculados, um de cada vez, para ficarem visíveis no Workfront. Consulte [Configurar integrações de documentos](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) para obter mais informações.
 

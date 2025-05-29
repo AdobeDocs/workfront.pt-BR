@@ -4,11 +4,10 @@ description: Aprimoramentos na página inicial do terceiro trimestre de 2025
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
+exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
+source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,12 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 ## O widget Minhas aprovações agora classifica automaticamente por prazo
 
+>[!NOTE]
+>
+>* Visualização: 29 de maio de 2025
+>* Versão rápida de produção: 12 de junho de 2025
+>* Produção para todos os clientes: 17 de julho de 2025
+
 Atualizamos o widget Minhas aprovações na página inicial para classificar por prazo (decrescente) por padrão. Isso permite que as aprovações mais urgentes sejam exibidas no topo da lista.
 
 Anteriormente, o widget era classificado por data de entrada, o que tornava difícil determinar a prioridade.
-

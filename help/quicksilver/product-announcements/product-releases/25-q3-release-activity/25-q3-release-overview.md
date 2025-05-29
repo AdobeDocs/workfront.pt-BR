@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: f9b0f6b246a723ce407de05c4ae4d5dec0c06fe2
+source-git-commit: 655fc2407583ba65c1f3af7659274bca212eacca
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1087'
 ht-degree: 3%
 
 ---
@@ -89,32 +89,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-<!--
-
-### Home enhancements
+### Aprimoramentos na página inicial
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
-        <td><strong>Feature</strong>
+        <td><strong>Recurso</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Visualização</strong></td>
+        <td><strong>Lançamento rápido</strong></td>
+        <td><strong>Trimestralmente</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
-            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Meu widget de aprovações agora classifica automaticamente por prazo de conclusão </a><p></p>
+            <p>Atualizamos o widget Minhas aprovações na página inicial para classificar por prazo (decrescente) por padrão. Isso permite que as aprovações mais urgentes sejam exibidas no topo da lista. </p>
         </td>
-        <td>May 15, 2025</td>
-        <td>May 15, 2025</td>
-        <td>July 17, 2025</td>
+        <td>sexta-feira, 29 de maio de 2025</td>
+        <td>sexta-feira, 12 de junho de 2025</td>
+        <td>sexta-feira, 17 de julho de 2025</td>
     </tr>     
   </tbody>
-</table> 
-
--->
+</table>
 
 ### Aprimoramentos do projeto
 
@@ -127,6 +123,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Lançamento rápido</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Alteração na forma como as Horas Efetivas são armazenadas no banco de dados para chamadas de API</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Esta atualização introduz uma mudança na forma como as Horas efetivas de projetos, tarefas e problemas são armazenadas no banco de dados. A partir desta atualização, as Horas Efetivas usarão um campo de valor de <code>actualWorkRequiredDouble</code> (com um valor em horas).</p>
+        </td>
+        <td>quarta-feira, 27 de maio de 2025</td>
+        <td>quarta-feira, 27 de maio de 2025</td>
+        <td>quarta-feira, 27 de maio de 2025</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Atualizar no usando o controle deslizante Porcentagem Concluída em um cabeçalho de tarefa ou problema</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Atualizamos a forma como o controle deslizante de porcentagem concluída funciona para tarefas e problemas. Quando você desliza a bolha azul Porcentagem concluída no cabeçalho de uma tarefa ou problema, a Porcentagem concluída da tarefa ou problema será atualizada em incrementos de cinco pontos. Antes desta atualização, ao deslizar a bolha azul Porcentagem concluída, as tarefas ou problemas eram atualizados em incrementos de um ponto.</p>
+        </td>
+        <td>quarta-feira, 27 de maio de 2025</td>
+        <td>quarta-feira, 27 de maio de 2025</td>
+        <td>quarta-feira, 27 de maio de 2025</td>
+    </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mais transparência ao usar o Assistente de IA em projetos, tarefas e problemas</a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -203,22 +217,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mais transparência ao usar o Assistente de IA</a></p>
-                        <p>Para deixar mais claro como o Assistente de IA está localizando respostas para perguntas sobre projetos, tarefas e problemas da Workfront, adicionamos essas informações à resposta da pergunta. Agora, o Assistente de IA inclui suas informações de pesquisa na saída. Você pode usar essas informações como uma maneira de verificar se o Assistente do AI identificou corretamente a pergunta que você estava fazendo e de entender o contexto da resposta. </p>
-                    </td>
-                    <td><p><b>Disponível nas seguintes datas:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versão de pré-visualização: durante todo o período da versão do terceiro trimestre de 2025<br /></p>
-                            </li>
-                            <li>
-                                <p>Versão de produção: um mínimo de 2 semanas após o lançamento para Pré-visualização (a menos que especificado de outra forma)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                 <tr>
                     <td>
                         <p><span class="bold">Recurso</span>
@@ -262,7 +260,7 @@ Estamos atualizando a interface em todo o Adobe Workfront para melhorar a experi
 
 ### Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento padrão. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento padrão. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Melhorias no planejamento do Workfront
 
@@ -284,7 +282,7 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 

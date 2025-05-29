@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
+source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,30 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Filtros, colunas e campos adicionais adicionados à guia Planejamento na área Solicitações
+
+>[!NOTE]
+>
+>* Visualização: 29 de maio de 2025
+>* Versão rápida de produção: 12 de junho de 2025
+>* Produção para todos os clientes: 17 de julho de 2025
+
+Adicionamos a seguinte funcionalidade a uma lista de solicitações na guia Planejamento da área Solicitações:
+
+* Coluna Informado por para indicar a pessoa que adicionou uma solicitação
+* Filtros para limitar o número de solicitações exibidas na guia Planning. Você pode filtrar a lista pelos seguintes itens:
+
+   * o Workspace do qual o formulário de solicitação se originou
+   * o tipo de registro associado ao formulário de solicitação
+   * a Data de Entrada da solicitação
+   * o nome do formulário de solicitação
+   * o Status das solicitações
+   * o nome da pessoa que inseriu a solicitação.
+
+* Controle de colunas para exibir ou ocultar campos (ou colunas) na lista de solicitações do Planning.
+
+Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Nova experiência ao detalhar registros no modo Compacto na exibição de linha do tempo
 
@@ -126,7 +150,7 @@ Antes desse aprimoramento, os usuários com todos os níveis de licença precisa
 >[!NOTE]
 >
 >Esta alteração ficará visível para todos os usuários novos e existentes com uma licença de Administrador do sistema e Padrão.
->Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
+>>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
 
 Para obter informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
