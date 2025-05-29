@@ -6,9 +6,9 @@ description: Você pode excluir problemas ou solicitações no Adobe Workfront s
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 05/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes após uma semana da versão de Pré-visualização. </span>
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
+<span class="preview">Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).</span>
 
 Você pode excluir problemas ou solicitações no Adobe Workfront se tiver o acesso e as permissões corretas para fazer isso.
 
@@ -116,7 +116,7 @@ Dependendo de como o administrador do Workfront ou do grupo configura as Prefer�
    Uma lista de problemas associados ao projeto selecionado é exibida à direita.
 1. Selecione um ou vários problemas na lista e clique no **ícone Excluir** ![ícone Excluir](assets/delete.png) na parte superior da lista.
 
-1. Se a exclusão for permitida, clique em **Sim, Exclua-a**. <!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. Se a exclusão for permitida, clique em **<span class="preview">Excluir</span>**.
 
    O administrador do Workfront pode não permitir a exclusão de problemas em que as horas são registradas.\
    Para obter mais informações sobre o acesso e as permissões necessárias para excluir um problema, consulte a seção [Considerações para a exclusão de problemas](#considerations-for-deleting-issues) neste artigo.
@@ -136,7 +136,7 @@ Dependendo de como o administrador do Workfront ou do grupo configura as Prefer�
    ![Menu Emitir Mais](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Clique em **Excluir problema**.
-1. Se a exclusão for permitida, clique em **Sim, Exclua-a**. <!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. Se a exclusão for permitida, clique em **<span class="preview">Excluir</span>**.
 
    O administrador do Workfront pode não permitir a exclusão de problemas em que as horas são registradas.\
    Para obter mais informações sobre o acesso e as permissões necessárias para excluir um problema, consulte a seção [Considerações para a exclusão de problemas](#considerations-for-deleting-issues) neste artigo.

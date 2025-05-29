@@ -6,10 +6,10 @@ description: Os riscos são eventos ou fatores possíveis que impedem a conclus�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 0%
+source-wordcount: '1080'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 01/2025-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes após uma semana da versão de Pré-visualização. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Para obter mais informações, consulte [Modernização de interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Os riscos são eventos ou fatores possíveis que impedem a conclusão de um projeto no prazo ou dentro do orçamento. Você pode registrar riscos como parte da criação do Business Case de um projeto ou usando a guia Riscos.
 
@@ -117,9 +117,9 @@ Você pode criar e editar riscos na seção Riscos de um projeto ou modelo. Cria
 
    Clique em **Novo Risco**.
 
-   <span class="preview">A caixa **Novo risco** é aberta.</span>
+   A caixa **Novo risco** é aberta.
 
-   <span class="preview">![Nova caixa de risco](assets/new-risk-box.png)</span>
+   ![Nova caixa de risco](assets/new-risk-box.png)
 
 1. (Condicional) Se você estiver adicionando um risco na caixa **Novo risco**, insira as seguintes informações:
 
@@ -175,7 +175,7 @@ Para editar riscos:
    * **Custo Efetivo**: Indique o custo real do risco, se o risco tiver ocorrido.
    * **Plano de Mitigação**: atualize a descrição do plano para reduzir o risco.
 
-1. <span class="preview">Clique em **Salvar**.</span>
+1. Clique em **Salvar**.
 1. (Opcional) Edite o **Status** para um risco, no menu suspenso **Status**, ao aplicar a exibição **Padrão** para a lista de riscos.
 
    >[!NOTE]

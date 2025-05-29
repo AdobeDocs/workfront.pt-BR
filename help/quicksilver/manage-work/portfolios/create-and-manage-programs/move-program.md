@@ -6,9 +6,9 @@ description: Você pode adicionar programas existentes a um portfólio. Como os 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes após uma semana da versão de Pré-visualização. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">Para obter mais informações, consulte [Modernização de interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 Você pode adicionar programas existentes a um portfólio. Como os programas não podem existir em dois portfólios diferentes, a adição de um programa existente o move permanentemente de um portfólio para outro.
 
@@ -62,9 +62,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique em **[!UICONTROL Novo Programa]**.
 1. Clique em **[!UICONTROL Programa Existente]**.
 
-   <span class="preview">A caixa **Adicionar Programas** é aberta.</span> <!--check screen shot - I logged changes for this casing-->
+   A caixa **Adicionar programas** é aberta. <!--check screen shot - I logged changes for this casing-->
 
-   <span class="preview">![Adicionar caixa de programa](assets/add-programs-box.png)</span>
+   ![Adicionar caixa de programa](assets/add-programs-box.png)
 
    >[!IMPORTANT]
    >
@@ -74,7 +74,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Você pode adicionar mais de um programa.
 
-1. (Opcional) Clique no ícone <span class="preview">**Excluir** ![Excluir ícone](assets/delete-icon.png)</span> ao lado do nome de um programa se decidir não adicioná-lo ao portfólio.
+1. (Opcional) Clique no ícone **Excluir** ![Excluir ícone](assets/delete-icon.png) ao lado do nome de um programa se decidir não adicioná-lo ao portfólio.
 
 1. Clique em **[!UICONTROL Adicionar Programas]**. <!--check this button in the UI after they implemented the changes??-->
 

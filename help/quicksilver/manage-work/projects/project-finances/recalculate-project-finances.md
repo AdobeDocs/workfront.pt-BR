@@ -6,9 +6,9 @@ description: As finanças são calculadas em um projeto à medida que ocorrem al
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>Qualquer </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td>
    <p>Novo: Padrão</p>
    <p>ou</p>
@@ -55,7 +55,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Considerações sobre o cálculo de finanças no Adobe Workfront
 
-As finanças são calculadas na Análise aprimorada das seguintes maneiras:
+As finanças são calculadas para projetos das seguintes maneiras:
 
 * Você pode recalcular manualmente custos e receitas em um projeto usando a opção Recalcular Finanças em um projeto.
 * Além disso, algumas ações acionam um recálculo automático.
