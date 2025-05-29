@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 author: Courtney
 hide: true
 hidefromtoc: true
-source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
+source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 0%
 
 # Preparação para a HIPAA para o Workfront
 
-Um cliente da Workfront que é, conforme definido na HIPAA, um **Associado Comercial** e/ou a **Entidade Coberta** em cujo nome o Associado Comercial fornece a Adobe Workfront, deve usar as seguintes diretrizes para configurar o Workfront para uso pronto para HIPAA:
+Um cliente da Workfront que seja, conforme definido na HIPAA, um Associado comercial e/ou a Entidade coberta em cujo nome o Associado comercial fornece a Adobe Workfront deve usar as seguintes diretrizes para configurar o Workfront para uso pronto para a HIPAA:
 
 
-## Requisitos de Senha
+## Requisitos de senha
 
 | **Configuração de Segurança** | **O Que É?** | **Requisito** |
 |----------------------|------------------|------------------|
@@ -35,7 +35,7 @@ Um cliente da Workfront que é, conforme definido na HIPAA, um **Associado Comer
 | **Configuração de Segurança** | **O Que É?** | **Requisito** |
 |----------------------|------------------|------------------|
 | Máximo de falhas de logon | Quantas tentativas de login com falha fazem com que o usuário seja bloqueado? | Não mais de 5 tentativas em um período de 5 minutos; nova tentativa permitida após 30 minutos |
-| Máximo de Falhas de Verificação de SSO | Quantas tentativas de verificação de SSO com falha causam bloqueio? | Não superior a 5 (aplica-se somente a clientes que usam SSO) |
+| Máximo de Falhas de Verificação de SSO | Quantas tentativas de verificação de SSO com falha causam um bloqueio? | Não superior a 5 (aplica-se somente a clientes que usam SSO) |
 
 
 ## Requisitos da sessão
