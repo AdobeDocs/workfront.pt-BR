@@ -3,14 +3,15 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: 'noções básicas do Adobe Workfront: índice de artigos'
 description: Revise essas áreas para obter uma compreensão das noções básicas do Adobe Workfront e saber como executar funções básicas, como usar a área Página inicial ou Prioridades, gerenciar o perfil da conta, usar o Assistente de IA ou entender quais são os requisitos do navegador e os idiomas compatíveis. Consulte o Glossário do Workfront para saber mais sobre a terminologia comum no Workfront.
+short-description: Entenda as noções básicas do Adobe Workfront e saiba como executar funções básicas.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0c76cf9ebadaeabee55939969d59ea16d69ed328
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 58%
+source-wordcount: '205'
+ht-degree: 55%
 
 ---
 
