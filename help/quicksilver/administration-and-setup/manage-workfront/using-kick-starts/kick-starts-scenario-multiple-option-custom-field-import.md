@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
 
 # Cenário de inicializações: importar campos personalizados de várias opções para o Workfront
+
+{{highlighted-preview}}
 
 Você pode importar campos personalizados com várias opções no Adobe Workfront usando a funcionalidade de Início.
 
@@ -25,7 +27,7 @@ Exemplos de campos personalizados com várias opções são:
 * Menu suspenso com múltipla escolha
 * Suspenso
 * Caixa de Seleção
-* Botões de seleção
+* Botões de opção
 
 Às vezes, esses campos podem ter muitas (às vezes centenas) opções. A importação deles usando a funcionalidade de Início pode economizar muito tempo, como administrador do Workfront, e garantir que você evite erros.
 
@@ -124,7 +126,7 @@ Depois de verificar as informações sobre os campos personalizados existentes n
 
 1. Na área **Baixar uma planilha em branco do Kickstart**, marque a caixa de seleção **Dados Personalizados** e clique em **Baixar**.
 
-   ![Selecionar dados personalizados](assets/kickstarts-select-existing-data.png)
+   ![Selecionar dados personalizados](assets/kickstarts-blank-spreadsheet-options.png)
 
    Um arquivo em branco de início é baixado para o computador.
 
@@ -223,7 +225,7 @@ Para preencher a planilha do Excel com informações para os novos campos person
      >
      >Você só pode ter uma opção padrão para cada campo.
 
-   * **`setParameterID`** = as opções correspondentes ao campo personalizado _Marca_ têm um **`setParameterID`** de 1, e as opções correspondentes à _Mídia_ têm um **`setParameterID`**&#x200B;de 2. As planilhas `PARAM` e `POPT` fazem referência cruzada entre si para indicar quais opções pertencem a qual campo personalizado.
+   * **`setParameterID`** = as opções correspondentes ao campo personalizado _Marca_ têm um **`setParameterID`** de 1, e as opções correspondentes à _Mídia_ têm um **`setParameterID`**de 2. As planilhas `PARAM` e `POPT` fazem referência cruzada entre si para indicar quais opções pertencem a qual campo personalizado.
    * **`setDisplayOrder`**= a coluna de ordem de exibição indica a ordem na qual as opções serão exibidas no campo personalizado. Você pode começar com 1 e continuar em ordem crescente para todas as opções, independentemente de a quais campos eles pertencerão. O importante aqui é ter números exclusivos para cada opção.
    * As colunas **`setLabel`** e `**setValue`** geralmente contêm as mesmas informações e devem refletir os nomes desejados na interface do usuário do Workfront. O valor de uma opção é o nome exibido nos relatórios, por exemplo, enquanto o rótulo é exibido nos formulários personalizados quando anexados a um objeto. Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = digite `TRUE` se quiser que qualquer uma das opções fique oculta.
@@ -243,7 +245,7 @@ Para preencher a planilha do Excel com informações para os novos campos person
       * **`CMPY`** para a Empresa
       * **`TASK`** para Tarefa
       * **`PROJ`** para Projeto
-      * **`PORT`** para o Portfolio
+      * **`PORT`** para Portfolio
       * **`PRGM`** para o programa
       * **`USER`** para Usuário
       * **`DOCU`** para documento
@@ -255,14 +257,13 @@ Para preencher a planilha do Excel com informações para os novos campos person
 
      >[!NOTE]
      >
-     >Para formulários de vários objetos, insira o primeiro objeto que você selecionaria ao criar um formulário na interface do usuário. Por exemplo, defina o `setCatObjCode` como `TASK`, se você selecionaria Tarefa na interface do Workfront e, em seguida, Problema, Portfolio, etc., mas não deseja que o formulário fique disponível para Projetos.
+     >Para formulários de vários objetos, insira o primeiro objeto que você selecionaria ao criar um formulário na interface do usuário. Por exemplo, defina o `setCatObjCode` como `TASK`, se você selecionar Tarefa na interface do Workfront e depois Problema, Portfolio, etc., mas não quiser que o formulário fique disponível para Projetos.
 
    * **`setName`** = este é o nome do formulário personalizado como você deseja que ele apareça na interface do Workfront.
 
      ![Folha de categoria preenchida](assets/category-sheet-filled-out-kick-starts.png)
 
 1. Salve a planilha como um arquivo .xls ou .xlsx no computador. Sua planilha do Excel está preenchida e agora está pronta para importação para o Workfront.
-
 
 ## Faça upload da planilha do Excel para o Workfront
 
@@ -272,16 +273,13 @@ Depois de executar as etapas descritas nas seções anteriores, continue com o s
 
 1. Clique em **Sistema > Importar Dados (Kick-Starts)**.
 
-1. Clique em **Escolher Arquivo** na seção **Carregar dados com a planilha do Kickstart**.
+1. Clique em **Escolher arquivo** na seção **Carregar dados com a planilha do Kickstart**.
 
-1. Procure a planilha do Excel que você preparou no computador e selecione-a quando a encontrar. Quando a Workfront reconhece o arquivo, o botão Upload fica azul.
-1. Clique em **Carregar.**
+1. Procure a planilha do Excel que você preparou no computador e selecione-a quando a encontrar.
 
-   ![Arquivo selecionado e botão Carregar](assets/kick-start-file-selected-and-upload-blue-button.png)
+   <div class="preview">
 
-1. Uma notificação de que a importação foi bem-sucedida é exibida. Dependendo da quantidade de informações que você está importando, essa etapa pode levar de alguns segundos a um minuto.
-
-   ![Início bem-sucedido](assets/kick-start-successful.png)
+   O arquivo é carregado automaticamente, e uma notificação de que a importação foi bem-sucedida é exibida. Dependendo da quantidade de informações que você está importando, essa etapa pode levar de alguns segundos a um minuto.
 
    Os novos campos e formulários personalizados agora estão em seu sistema do Workfront. Você pode encontrá-los na área Forms personalizado da Configuração.
 
@@ -289,12 +287,23 @@ Depois de executar as etapas descritas nas seções anteriores, continue com o s
    >
    >Os novos formulários e os campos importados ainda não estão conectados. O formulário é importado sem campos personalizados. Você deve adicionar manualmente os campos ao novo formulário personalizado ou a outro formulário personalizado existente.
 
+   Para obter informações sobre como adicionar campos a formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+   </div>
+
+1. (Somente no ambiente de Produção) Clique em **Carregar**.
+
+   Uma notificação de que a importação foi bem-sucedida é exibida. Dependendo da quantidade de informações que você está importando, essa etapa pode levar de alguns segundos a um minuto.
+
+   Os novos campos e formulários personalizados agora estão em seu sistema do Workfront. Você pode encontrá-los na área Forms personalizado da Configuração.
+
+   >[!NOTE]
+   >
+   >Os novos formulários e os campos importados ainda não estão conectados. O formulário é importado sem campos personalizados. Você deve adicionar manualmente os campos ao novo formulário personalizado ou a outro formulário personalizado existente.
 
    Para obter informações sobre como adicionar campos a formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condicional) Se a importação não tiver sido bem-sucedida, você receberá uma mensagem de erro indicando qual é o problema. Tente identificar o campo, a planilha e o número da linha em que o problema foi encontrado, corrija as informações no arquivo do Excel e tente importar o arquivo mais uma vez.
-
-   ![Erro de início rápido](assets/kick-start-error.png)
+1. (Condicional) Se a importação não tiver sido bem-sucedida, você receberá uma mensagem de erro informando qual é o problema. Tente identificar o campo, a planilha e o número da linha em que o problema foi encontrado e corrija as informações no arquivo do Excel. Em seguida, tente importar o arquivo mais uma vez.
 
 1. (Condicional) Dependendo do problema, conforme indicado na mensagem de erro, algumas informações podem já ter sido importadas. Você deve executar um dos seguintes procedimentos antes de importar a planilha novamente:
 

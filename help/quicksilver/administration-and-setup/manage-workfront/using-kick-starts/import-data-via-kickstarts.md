@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
+source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2894'
 ht-degree: 6%
 
 ---
 
 # Importar dados para o Workfront usando um modelo do Kickstart
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -488,12 +490,19 @@ Para importar os dados da planilha do modelo para o Workfront:
 
 1. Clique em **Sistema** > **Importar Dados (Kick-Starts)**.
 
-1. Na seção **Carregar dados com planilha do Kickstart**, clique em **Escolher Arquivo**, procure e selecione a planilha preenchida.
+1. Na seção **Carregar dados com planilha do Kickstart**, clique em **Escolher arquivo**, procure e selecione a planilha preenchida.
 
-1. Clique em **Carregar.**
+   <div class="preview">
 
-   Se o arquivo do Excel levar mais de 5 minutos para ser carregado para o Workfront, o aplicativo expirará e o Workfront não poderá carregar o arquivo.
+   No ambiente de Pré-visualização, o arquivo é carregado automaticamente, e uma notificação de que a importação foi bem-sucedida é exibida.
 
-   Tente importar seus dados em lotes menores de objetos.
+   Se o arquivo do Excel levar mais de 5 minutos para ser carregado para o Workfront, o aplicativo expirará e o Workfront não poderá carregar o arquivo. Tente importar seus dados em lotes menores de objetos.
 
-1. (Condicional) Se estiver usando o Workfront Fusion, agora você pode ativar os FLOs ou cenários.
+   </div>
+
+1. (Somente no ambiente de Produção) Clique em **Carregar**.
+
+   Se o arquivo do Excel levar mais de 5 minutos para ser carregado para o Workfront, o aplicativo expirará e o Workfront não poderá carregar o arquivo. Tente importar seus dados em lotes menores de objetos.
+
+1. (Condicional) Se a importação não tiver sido bem-sucedida, você receberá uma mensagem de erro informando qual é o problema. Tente identificar o campo, a planilha e o número da linha em que o problema foi encontrado e corrija as informações no arquivo do Excel. Em seguida, tente importar o arquivo mais uma vez.
+1. (Condicional) Se estiver usando o Workfront Fusion, agora você pode ativar os FLOs ou cenários quando a importação estiver concluída.
