@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: ddd69533738865d09f35e290e545cfbae062c687
+source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
 workflow-type: tm+mt
-source-wordcount: '13216'
+source-wordcount: '13220'
 ht-degree: 2%
 
 ---
@@ -188,7 +188,7 @@ ht-degree: 2%
          * [21.2 Aprimoramentos do projeto](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
          * [21.2 Solicitações de melhorias](product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md)
          * [21.2 Aprimoramentos no gerenciamento de recursos](product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md)
-         * [21. 2 Melhorias nos relatórios](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
+         * [&#x200B;21. 2 Melhorias nos relatórios](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
          * [21.2 Aprimoramentos de provas](product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md)
          * [21.2 Aprimoramentos de integração](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
          * [21.2 Outras melhorias](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
@@ -254,7 +254,7 @@ ht-degree: 2%
          * versão 20.4 {#release-20-4}
             * [Visão geral da versão 20.4](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [20.4 Aprimoramentos no gerenciamento de projetos](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
-            * [20. 4 melhorias no Analytics](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
+            * [&#x200B;20. 4 melhorias no Analytics](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
             * [20.4 Aprimoramentos no gerenciamento de recursos](product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md)
             * [20.4 Aprimoramentos de prova](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [20.4 Aprimoramentos de mobilidade e integração](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
@@ -802,6 +802,7 @@ ht-degree: 2%
    * [Glossário da terminologia do Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Requisitos do navegador Adobe Workfront](workfront-basics/workfront-browser-requirements.md)
    * [Idiomas compatíveis com o Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
+   * [Preparação para a HIPAA para o Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
    * Navegar no Adobe Workfront {#navigate}
       * [Navegar pelo Adobe Workfront: índice do artigo](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Pesquisa no Adobe Workfront {#search}
@@ -1171,7 +1172,7 @@ ht-degree: 2%
          * [Visão Geral da Data de Início Projetada do projeto](manage-work/projects/planning-a-project/project-projected-start-date.md)
       * Criar projetos {#create-projects}
          * [Criar projetos: índice do artigo](manage-work/projects/create-projects/create-projects-overview.md)
-         * [Criar um Projeto](manage-work/projects/create-projects/create-project.md)
+         * [Criar um projeto](manage-work/projects/create-projects/create-project.md)
          * [Solicitar um projeto](manage-work/projects/create-projects/request-project.md)
          * [Criar um projeto usando um modelo](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importar um projeto do Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
