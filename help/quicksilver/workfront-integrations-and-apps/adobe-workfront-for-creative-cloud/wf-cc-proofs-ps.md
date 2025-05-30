@@ -19,7 +19,7 @@ Você pode fazer upload de certos tipos de predefinição de documento do Photos
 
 >[!IMPORTANT]
 >
->O arquivo deve ser uma Predefinição de Documento de Foto, conforme descrito em [Modelos e Predefinições no Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
+>O arquivo deve ser uma Predefinição de Documento de Foto, conforme descrito em [Modelos e Predefinições no Photoshop](https://helpx.adobe.com/br/photoshop/using/create-documents.html).
 
 
 
