@@ -2,20 +2,26 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Fazer upload de provas do Adobe Photoshop
-description: Você pode fazer upload de seus quadros de arte como provas diretamente no Adobe Workfront para uma revisão e aprovação completas.
+description: Você pode carregar predefinições de documento de foto como provas diretamente no  [!DNL Adobe Workfront] para obter uma revisão e aprovação completas.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9cbf1706e6c535ff7f52627d2c6e13de65ec76d0
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
 
 # Carregar provas de [!DNL Photoshop]
 
-Você pode fazer upload de seus quadros de arte como provas diretamente no [!DNL Adobe Workfront] para uma revisão e aprovação completas.
+Você pode fazer upload de certos tipos de predefinição de documento do Photoshop como provas diretamente para [!DNL Adobe Workfront] para uma revisão completa e aprovação.
+
+>[!IMPORTANT]
+>
+>O arquivo deve ser uma Predefinição de Documento de Foto, conforme descrito em [Modelos e Predefinições no Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html).
+
+
 
 ## Requisitos de acesso
 
@@ -131,7 +137,7 @@ Você pode fazer upload de uma nova versão de uma prova. O plug-in lembra o flu
 1. Clique em **[!UICONTROL Nova versão]** próximo à parte inferior do painel [!DNL Workfront].
 1. Habilitar a opção **[!UICONTROL Criar uma prova]**.
 
-1. Na seção *[!UICONTROL *Aprovações de prova]&#x200B;**, escolha &#x200B;** [!UICONTROL Básico] **&#x200B; ou &#x200B;** [!UICONTROL Automatizado]**.
+1. Na seção *[!UICONTROL *Aprovações de prova]**, escolha **[!UICONTROL Básico]** ou **[!UICONTROL Automatizado]**.
 
 1. Adicione **[!UICONTROL Revisores]** ou um **[!UICONTROL modelo de fluxo de trabalho]** com base no tipo de aprovação selecionado na etapa 7.
 
