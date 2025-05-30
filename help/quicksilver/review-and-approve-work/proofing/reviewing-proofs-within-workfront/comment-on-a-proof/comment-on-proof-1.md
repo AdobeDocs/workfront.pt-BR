@@ -6,20 +6,22 @@ description: Os comentários permitem fornecer feedback sobre o conteúdo e cola
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
 
 # Comentar em uma prova
 
+<!-- Audited: 5/2025 -->
+
 Os comentários permitem fornecer feedback sobre o conteúdo e colaborar com outros usuários no visualizador de provas.
 
 Ao marcar usuários em comentários em uma prova, os usuários que você pode marcar podem ser diferentes dependendo de vários fatores, como permissões de usuário individual e sua associação à organização:
 
-* Se você for o criador, o proprietário ou tiver permissões específicas ativadas, será possível adicionar tags aos usuários fora do fluxo de trabalho de prova e compartilhar a prova com eles.
+* Se você for o criador ou proprietário da prova, ou tiver permissões específicas ativadas, será possível marcar os usuários fora do fluxo de trabalho da prova e compartilhar a prova com eles.
 * Se você foi adicionado à prova como um usuário externo e é membro de outro ambiente com uma conta de prova diferente, é possível marcar somente esses usuários do seu ambiente original. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Requisitos de acesso
@@ -62,10 +64,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Comentar em uma prova
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
-1. Encontre a prova necessária e clique em **Abrir prova**.
+1. Passe o mouse sobre a prova necessária, em seguida, clique em **Abrir prova**.
 
 1. Na parte superior do visualizador de revisões, clique em **Adicionar comentário**.
-1. (Condicional) Se for uma prova de vídeo, reproduza a prova de vídeo e clique em **Adicionar comentário** no ponto do vídeo em que deseja fazer o comentário usando os indicadores de reprodução
+1. (Condicional) Se for uma prova de vídeo, reproduza a prova de vídeo e clique em **Adicionar comentário** no ponto do vídeo em que deseja fazer o comentário usando os indicadores de reprodução.
 
    >[!TIP]
    >
@@ -84,37 +86,37 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      <tr> 
       <td role="rowheader"><strong>Desenhar uma linha à mão livre</strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
-      <td>Permite adicionar uma linha à mão livre na área selecionada.</td> 
+      <td>Adicionar uma linha à mão livre na área selecionada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Desenhar uma linha</strong> </td> 
       <td> <img src="assets/line.png"> </td> 
-      <td>Permite desenhar uma linha na área selecionada.</td> 
+      <td>Desenha uma linha na área selecionada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Desenhe uma seta</strong> </td> 
       <td> <img src="assets/arrow.png"> </td> 
-      <td>Permite adicionar uma seta a uma área selecionada.</td> 
+      <td>Adicione uma seta a uma área selecionada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Realçar uma área</strong> </td> 
       <td> <img src="assets/highlight.png"> </td> 
-      <td>Realça a área selecionada.</td> 
+      <td>Realce uma área selecionada.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Desenhar um retângulo</strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
-      <td>Permite desenhar um retângulo ao redor de uma área.</td> 
+      <td>Desenhe um retângulo ao redor de uma área.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Polilinha</strong> </td> 
       <td> <img src="assets/polyline.png"> </td> 
-      <td> <p>Desenha uma sequência conectada de segmentos de linha que você pode deixar aberta ou fechada como uma forma. Você pode mover ou excluir qualquer um dos pontos adicionados. </p> <p>Essa ferramenta é útil para trabalhar com imagens técnicas e arquitetônicas.</p> </td> 
+      <td> <p>Desenhe uma sequência conectada de segmentos de linha que você pode deixar aberta ou fechada como uma forma. Você pode mover ou excluir qualquer um dos pontos adicionados. </p> <p>Essa ferramenta é útil para trabalhar com imagens técnicas e arquitetônicas.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Alterar cor, espessura ou opacidade da marcação</strong> </td> 
       <td> <img src="assets/change-color.png"> </td> 
-      <td>Permite alterar a cor, a espessura e a opacidade das ferramentas de marcação.</td> 
+      <td>Alterar a cor, a espessura e a opacidade das ferramentas de marcação.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Texto</strong> </td> 
@@ -124,12 +126,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     </tbody> 
    </table>
 
-1. Em provas estáticas, é possível marcar várias áreas em várias páginas para um comentário. Por exemplo, se você quiser fazer o mesmo comentário em várias páginas, selecione uma área em uma página, vá para a próxima página onde deseja fazer o mesmo comentário e selecione uma área lá. (Isso se aplica somente às ferramentas de marcação de anotação regular, não às ferramentas de marcação de texto.)
+1. (Opcional e Condicional) Em provas estáticas, você pode marcar várias áreas em várias páginas para um comentário. Por exemplo, se você quiser fazer o mesmo comentário em várias páginas, selecione uma área em uma página, vá para a próxima página onde deseja fazer o mesmo comentário e selecione uma área lá.
+
+   >[!NOTE]
+   >
+   >Isso se aplica somente às ferramentas de marcação de anotação regular, não às ferramentas de marcação de texto.
+
 1. Digite seu comentário na caixa **Adicionar comentário** à direita.
 1. (Opcional) Para marcar outro usuário no seu comentário e adicioná-lo ao fluxo de trabalho da prova, digite @ na caixa de comentário e, em seguida, digite o nome do usuário ou endereço de email e selecione o usuário no menu exibido. Para obter mais informações, consulte [Marcar usuários para compartilhar uma prova](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
 1. (Opcional) Para anexar um arquivo a um comentário, siga um destes procedimentos:
 
-   * Clique no ícone de clipe de papel no canto inferior direito do comentário, localize e selecione o arquivo que deseja fazer upload.
+   * Clique no ícone de clipe de papel no canto superior direito do comentário, localize e selecione o arquivo que deseja fazer upload.
    * Arraste um arquivo de um local no seu computador e solte-o na área de comentário.
 
 1. Clique em **Publicar**.

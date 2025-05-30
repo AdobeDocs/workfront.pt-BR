@@ -7,7 +7,7 @@ description: O Resumo permite interagir com informações importantes diretament
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 2%
@@ -110,7 +110,7 @@ Aprovações de provas devem ser adicionadas no Fluxo de trabalho de provas. Par
 
 ## Versões
 
-Use a seção Versões para exibir o número de versões criadas para um documento específico. Clique no ícone **Mais** ![Mais ícone](assets/more-icon.png) para fazer o seguinte:
+Use a seção Versões para exibir o número de versões criadas para um documento específico. Clique no ícone Mais ![ícone Mais](assets/more-icon.png) para fazer o seguinte:
 
 * Abra uma prova.
 * Baixe uma prova ou documento.

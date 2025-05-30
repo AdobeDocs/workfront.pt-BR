@@ -4,19 +4,21 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Adicionar uma coluna Entrada a um Quadro
 description: Opcionalmente, é possível adicionar uma coluna de entrada ao quadro que automaticamente extrai tarefas e problemas como cartões conectados quando adicionados no Workfront, com base nos filtros definidos.
-author: Lisa
+author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1070'
 ht-degree: 3%
 
 ---
 
 # Adicionar uma coluna de entrada a um quadro
 
-Opcionalmente, é possível adicionar uma coluna de entrada ao quadro que automaticamente obtém tarefas e problemas como cartões conectados quando adicionados em [!DNL Workfront], com base nos filtros definidos por você. A coluna de entrada pode servir como uma coluna de backlog para uma equipe Kanban, um local de entrada para uma equipe de suporte ver os problemas à medida que são adicionados a uma fila de solicitações ou qualquer outro propósito necessário.
+<!-- Audited: 5/2025 -->
+
+Opcionalmente, é possível adicionar uma coluna de entrada ao quadro que automaticamente obtém tarefas e problemas como cartões conectados quando adicionados em [!DNL Workfront] com base nos filtros definidos por você. A coluna de entrada pode servir como uma coluna de backlog para uma equipe Kanban, um local de entrada para uma equipe de suporte ver os problemas à medida que são adicionados a uma fila de solicitações ou qualquer outro propósito necessário.
 
 Somente uma coluna de entrada é permitida em um quadro e sempre aparece como a coluna mais à esquerda.
 
@@ -42,15 +44,13 @@ Problemas:
 >
 >É recomendável atualizar o quadro frequentemente se vários usuários estiverem trabalhando no quadro ao mesmo tempo. Atualizar a página ajuda a manter as alterações visuais no quadro atualizadas e evita que problemas como cartões duplicados sejam movidos para o quadro a partir da coluna de entrada.
 >
->Para sincronizar com o Workfront e trazer novas tarefas e problemas para o quadro ou coluna de entrada, clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menu]](assets/more-icon-spectrum.png) ao lado do nome do quadro e selecione **[!UICONTROL Sincronizar itens conectados]**.
+>Para sincronizar com o Workfront e trazer novas tarefas e problemas para o quadro ou coluna de entrada, clique no menu Mais ![[!UICONTROL Mais menu]](assets/more-menu.png) ao lado do nome do quadro e selecione Sincronizar itens conectados.
 
 Para obter mais informações sobre colunas, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Para obter informações sobre cartões conectados, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,14 +79,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step1-to-boards}}
 
-1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clique em **[!UICONTROL Configurar]** à direita do quadro para abrir o painel Configurar.
-1. Expanda **[!UICONTROL Painel]**.
-1. Ativar **[!UICONTROL Entrada dinâmica de itens no quadro]**.
+1. No painel, selecione um quadro.
+1. Clique em **Configurar** à direita do quadro para abrir o painel **Configurar**.
+1. Selecione a seção **Board**. Novos campos são exibidos.
+1. Ativar **Entrada dinâmica de itens no quadro**. A coluna de entrada em branco aparece no lado esquerdo da placa.
 
    ![Opções de filtro simples da coluna de entrada](assets/intake-column-simple-filters.png)
-
-   A coluna de entrada é adicionada à esquerda do quadro. Permanece em branco até que você aplique filtros a ele.
 
 1. (Opcional) Procure e selecione [!DNL Workfront] [!UICONTROL **Projetos**].
 1. (Opcional) Procure e selecione o usuário ou a equipe [!UICONTROL **Atribuições**].
@@ -94,11 +92,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    >[!NOTE]
    >
-   >Se esta opção não estiver selecionada, quando os cartões em outros status estiverem marcados como concluídos, eles &quot;cairão&quot; do quadro e não serão mais exibidos.
+   >Se essa opção não estiver selecionada, quando os cartões em outros status forem marcados como concluídos, eles não serão exibidos no quadro.
 
-1. Clique em [!UICONTROL **Aplicar**].
-
-   Todos os objetos aparecem na coluna de entrada do quadro como cartões conectados.
+1. Clique em **Aplicar**. Os objetos são exibidos na coluna entrada do quadro como cartões conectados.
 
    ![Coluna de entrada](assets/intake-column-added3.png)
 
@@ -106,17 +102,16 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step1-to-boards}}
 
-1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clique em **[!UICONTROL Configurar]** à direita do quadro para abrir o painel Configurar.
-1. Expanda **[!UICONTROL Painel]**.
-1. Ativar **[!UICONTROL Entrada dinâmica de itens no quadro]**.
-
-   A coluna de entrada é adicionada à esquerda do quadro. Permanece em branco até que você aplique filtros a ele.
+1. No painel, selecione um quadro.
+1. Clique em **Configurar** à direita do quadro para abrir o painel **Configurar**.
+1. Selecione a seção **Board**. Novos campos são exibidos.
+1. Ativar **Entrada dinâmica de itens no quadro**. A coluna de entrada em branco aparece no lado esquerdo da placa.
 
 1. Clique em [!UICONTROL **Usar filtros avançados**].
+
 1. Clique em **[!UICONTROL Adicionar fontes de filtro]** e selecione **[!UICONTROL Tarefas]** ou **[!UICONTROL Problemas]**.
 
-   ![Opções de filtro avançado da coluna de entrada](assets/intake-column-advanced-filters1.png)
+   ![Opções de filtro avançado da coluna de entrada](assets/add-filter-sources-options.png)
 
    >[!NOTE]
    >
@@ -124,33 +119,27 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >Além disso, os filtros salvos e os filtros padrão do sistema estão disponíveis para seleção.
 
-1. No painel de filtros, clique em **[!UICONTROL Novo filtro]** para começar.
-
-   ![Clique em Novo filtro](assets/intake-filter-dialog5.png)
+1. No painel de filtros, clique em **[!UICONTROL Novo filtro]**.
 
 1. Crie seu filtro e clique em **[!UICONTROL Salvar como novo]**.
 
    ![Construtor de filtros](assets/intake-filter-dialog6.png)
 
-   Este exemplo mostra um filtro para tarefas de um projeto específico que estão no status de [!UICONTROL Novo] ou [!UICONTROL Em andamento].
+   O exemplo acima mostra um filtro para tarefas de um projeto específico que estão no status de [!UICONTROL Novo] ou [!UICONTROL Em andamento].
 
    >[!NOTE]
    >
    >É recomendável não usar o curinga &quot;Eu&quot; (usuário conectado) em um filtro de quadro, pois não há garantia de exibir sempre tarefas ou problemas para o usuário conectado. Depois que o quadro for configurado com as tarefas e problemas corretos, você pode filtrar o quadro para mostrar itens para um responsável específico. Para obter mais informações, consulte [Filtrar e pesquisar em um quadro](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-   Para obter mais detalhes sobre como criar um filtro, consulte a seção &quot;Criar ou editar um filtro no construtor padrão&quot; no artigo [Criar ou editar filtros em [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   Para obter mais detalhes sobre a criação de filtros, consulte a seção Criar ou editar um filtro no construtor padrão no artigo [Criar ou editar filtros em [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-1. Nomeie o filtro e clique em **[!UICONTROL Salvar]**.
+1. Nomeie o filtro e clique em **[!UICONTROL Salvar]**. O filtro é exibido na lista de filtros salvos e aplicado automaticamente à coluna de entrada.
 
-   ![Digite um nome para o filtro](assets/intake-filter-dialog7.png)
+   ![Inserindo um novo nome de filtro](assets/save-as-modal.png)
 
-   Dar ao filtro um nome exclusivo permite pesquisá-lo posteriormente.
+1. Clique no X na parte superior do painel de filtro para fechá-lo.
 
-1. O filtro é exibido na lista de filtros salvos e é aplicado automaticamente à coluna de entrada. Clique no X na parte superior do painel de filtro para fechá-lo.
-
-   ![Filtro salvo](assets/intake-filter-dialog8.png)
-
-1. (Opcional) Para compartilhar o filtro com outras pessoas, passe o mouse sobre o filtro salvo, clique no ícone de menu **[!UICONTROL Mais]** ![Mais](assets/more-icon-spectrum.png) e selecione **[!UICONTROL Compartilhar]**. Escolha os usuários ou equipes com os quais compartilhar na caixa Compartilhamento de filtro. Para obter mais informações, consulte [Compartilhar um filtro, exibição ou agrupamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+1. (Opcional) Para compartilhar o filtro com outras pessoas, passe o mouse sobre o filtro salvo, clique no ícone de menu **[!UICONTROL Mais]** ![Mais](assets/more-menu.png) e selecione **[!UICONTROL Compartilhar]**. Escolha os usuários ou equipes com os quais compartilhar na caixa **Compartilhamento de filtro**. Para obter mais informações, consulte [Compartilhar um filtro, exibição ou agrupamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 1. (Opcional) Para incluir tarefas e problemas na coluna de entrada, clique em **[!UICONTROL Filtrar fontes]** e selecione o outro objeto para criar outro filtro.
 1. Quando terminar de adicionar filtros, analise a coluna entrada para verificar se as tarefas e problemas corretos foram exibidos.
 
@@ -173,6 +162,6 @@ Os ícones na parte superior direita da coluna de entrada mostram quantos cartõ
 
    Ou
 
-   Clique no **[!UICONTROL Mais]** ícone de menu ![Mais](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Mover]**. Em seguida, na caixa **[!UICONTROL Mover Item]**, escolha outra coluna e selecione **[!UICONTROL Mover]**.
+   Clique no **[!UICONTROL Mais]** ícone de menu ![Mais](assets/more-menu.png) no cartão e selecione **[!UICONTROL Mover]**. Em seguida, na caixa **Mover [ITEM]**, escolha outra coluna e selecione **[!UICONTROL Mover]**.
 
-1. (Opcional) Para excluir a coluna de entrada, clique no ícone de menu **[!UICONTROL Mais]** ![Mais](assets/more-icon-spectrum.png) e selecione **[!UICONTROL Excluir]**.
+1. (Opcional) Para excluir a coluna de entrada, clique no ícone de menu **[!UICONTROL Mais]** ![Mais](assets/more-menu.png) e selecione **[!UICONTROL Excluir]**.

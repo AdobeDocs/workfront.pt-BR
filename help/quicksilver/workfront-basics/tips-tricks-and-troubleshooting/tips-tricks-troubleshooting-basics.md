@@ -1,22 +1,22 @@
 ---
 title: 'Dicas, truques e solução de problemas para  [!DNL Adobe Workfront]: índice de artigos'
-description: Saiba mais sobre como solucionar problemas ou encontre respostas para algumas perguntas frequentes, mas revise os artigos desta seção.
-author: Nolan
+description: Saiba mais sobre como solucionar problemas e encontre respostas para perguntas frequentes revisando os artigos desta seção.
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
 # Dicas, truques e solução de problemas para [!DNL Adobe Workfront]: índice do artigo
 
-<!--Audited: 12/2024-->
+<!--Audited: 5/2025-->
 
-Saiba mais sobre como solucionar problemas ou encontre respostas para algumas perguntas frequentes, mas revise os seguintes artigos:
+Saiba mais sobre como solucionar problemas de dicas e respostas a perguntas frequentes revisando os seguintes artigos:
 
 * [Seu guia rápido para encontrar ajuda no [!DNL Adobe Workfront]](../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
 * [Entre em contato com o Suporte ao cliente](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
