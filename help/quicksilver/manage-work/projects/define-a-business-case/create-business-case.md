@@ -5,9 +5,9 @@ description: Você pode usar o Business Case para solicitar um projeto e definir
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,22 @@ Você pode usar o Business Case para solicitar um projeto e definir a finalidade
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
+ <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td> <p>Qualquer </p> </td> 
+   <td> 
+   <p>Atual: Prime ou superior</p> 
+   <p>Herdados: Pro ou superior</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Plano ou superior</p> </td> 
+   <td> 
+   <p>Atual: Padrão </p> 
+   <p>Herdados: plano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 

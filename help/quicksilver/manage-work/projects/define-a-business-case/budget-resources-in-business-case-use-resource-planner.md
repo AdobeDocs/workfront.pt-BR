@@ -5,9 +5,9 @@ description: Como parte do planejamento de recursos, você pode usar o Planejado
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Você também pode estimar recursos no business case usando o Planejador de cen�
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas deste artigo:
-
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
@@ -38,12 +36,14 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
-   <td> <p>Prime ou superior</p> </td> 
+   <td> <p>Atual: Prime ou superior</p>
+   <p>Herdados: Pro ou superior</p> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Novo: Claro ou superior</p>
-   <p>Atual: revisão ou superior</p>
+   <td> <p>Corrente: clara ou superior</p>
+   <p>Herdado: revisão ou superior</p>
 
 <p><b>IMPORTANTE:</b></p> 
    <p>Novo: Você deve ter uma licença Padrão para modificar informações de orçamento de recursos. </p> 
@@ -66,7 +66,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
