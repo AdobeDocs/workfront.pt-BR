@@ -2,22 +2,23 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: create and manage programs
-title: Visão Geral de Programas em  [!DNL Adobe Workfront]
+title: Visão geral dos programas
 description: Um programa é uma coleção de projetos que têm características unificadoras. Esses projetos geralmente competem pelos mesmos recursos, orçamento ou período. Programas são um subgrupo de portfólios. Você pode associar projetos a programas antes que eles sejam adicionados a um portfólio.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '497'
 ht-degree: 1%
 
 ---
 
-# Visão geral dos programas em [!DNL Adobe Workfront]
+# Visão geral dos programas
 
 <!-- Audited: 09/2024 -->
 
-No Adobe Workfront, um programa é uma coleção de projetos que têm características unificadoras. Por exemplo, eles podem competir pelo mesmo orçamento, recursos ou intervalo de tempo. Programas são um subgrupo de portfólios.
+No Adobe Workfront, um programa é uma coleção de projetos que têm características unificadoras. Por exemplo, eles podem competir pelo mesmo orçamento, recursos ou período. Programas são um subgrupo de portfólios.
 
 Este artigo contém informações gerais sobre programas no Workfront.
 
@@ -32,18 +33,18 @@ Você deve ter o seguinte acesso para criar e gerenciar portfólios:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
    <td> <p>Novo: Qualquer um</p>
    <p>Atual: [!UICONTROL Business] ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>Novo: [!UICONTROL Padrão]</p>
    <p>Atual: [!UICONTROL Plano] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>[!UICONTROL Editar] acesso a Portfolio e Programas</p>  </td> 
+   <td> <p>Acesso de [!UICONTROL Editar] a Portfólios e Programas</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -56,7 +57,7 @@ Você deve ter o seguinte acesso para criar e gerenciar portfólios:
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Considerações sobre o trabalho com programas
@@ -87,13 +88,10 @@ Você deve ter o seguinte acesso para criar e gerenciar portfólios:
    * Um programa pode ter vários projetos.
 
   Para obter informações sobre como criar projetos e portfólios, consulte os seguintes artigos:
-   * [Criar um Projeto](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
+   * [Criar um projeto](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
    * [Criar um portfólio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
 
 
 * Você pode usar o otimizador de portfólios para analisar o desempenho de todos os projetos dentro de um portfólio. Não é possível comparar o desempenho de vários projetos somente no mesmo programa. Você deve analisar o desempenho do projeto no nível do portfólio.
 
   Para obter informações, consulte [Otimizar projetos no Portfolio Otimizer](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
-
-
-

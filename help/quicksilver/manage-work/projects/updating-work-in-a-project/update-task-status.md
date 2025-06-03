@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Atualizar Status da Tarefa
-description: Você pode atualizar o status de uma tarefa para informar a outras pessoas sobre onde a tarefa está (e o projeto geral) e como está progredindo.
+description: Você pode atualizar o status de uma tarefa para informar a outras pessoas sobre onde a tarefa está (e o projeto em geral) e como está progredindo.
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--Audited: 10/2024-->
 
-Você pode atualizar o status de uma tarefa para informar a outras pessoas sobre onde a tarefa está (e o projeto geral) e como está progredindo.
+Você pode atualizar o status de uma tarefa para informar a outras pessoas sobre onde a tarefa está (e o projeto em geral) e como está progredindo.
 
 Os status padrão são Novo, Em andamento e Concluído. O administrador do Adobe Workfront pode adicionar status personalizados para sua organização. Para obter mais informações, consulte [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
@@ -26,8 +26,6 @@ Você pode atualizar manualmente os status das tarefas ou permitir que o Workfro
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para atualizar tarefas manualmente:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +36,7 @@ Você deve ter o seguinte acesso para atualizar tarefas manualmente:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Novo: Padrão</p> 
    Ou
    <p>Atual: trabalho ou superior</p>
@@ -55,7 +53,7 @@ Você deve ter o seguinte acesso para atualizar tarefas manualmente:
  </tbody> 
 </table>
 
-*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,23 +68,23 @@ Você deve ter o seguinte acesso para atualizar tarefas manualmente:
 
 ## Atualizar manualmente o status da tarefa
 
-Você pode atualizar o status da tarefa nas seguintes áreas do Workfront:
+Você pode atualizar o status da tarefa nas seguintes áreas:
 
 * O cabeçalho da tarefa na página da tarefa.
-* A caixa Editar tarefa, ao editar uma tarefa.
+* A caixa Editar tarefa ao editar uma tarefa.
 * A seção Detalhes da Tarefa na página da tarefa.
-* Em uma lista de tarefas ou relatório, quando o campo Status estiver visível na exibição.
+* Em uma lista de tarefas ou relatório quando o campo Status estiver visível na exibição.
 * No painel Resumo da tarefa.
 
 Para atualizar manualmente o status da tarefa no cabeçalho da tarefa:
 
 1. Vá para uma tarefa para a qual deseja atualizar o status.
-1. Clique no campo **Status** no cabeçalho da tarefa e selecione um novo status.
-1. Para fornecer uma indicação visual da conclusão da tarefa, arraste ou clique duas vezes na bolha em **Percentual concluído** no cabeçalho da tarefa
+1. No cabeçalho da tarefa, clique no campo **Status** e selecione um novo status.
+1. Para fornecer uma indicação visual da conclusão da tarefa, arraste a bolha para abaixo de **Percentual concluído** no cabeçalho da tarefa.
 
    Ou
 
-   Clique dentro da bolha no cabeçalho da tarefa para inserir uma porcentagem.
+   Clique duas vezes dentro da bolha **Percentual concluído** para inserir manualmente uma nova porcentagem.
 
    ![](assets/percent-complete-status-widgets-task-header.png)
 
@@ -94,10 +92,10 @@ Para atualizar manualmente o status da tarefa no cabeçalho da tarefa:
 
    * Para adicionar uma observação sobre a atualização, vá para a seção **Atualizações**, clique em **Novo comentário** e digite uma observação.
 
-     ![](assets/add-update-to-task.png)
+     ![Adicionando uma atualização a uma tarefa](assets/add-update-to-task.png)
 
    * Para notificar determinados usuários sobre a atualização, digite seus nomes no campo **Marcar pessoas ou equipes**, que aparece quando você digita um comentário. Para obter mais informações, consulte [Marcar outros em atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Para atualizar a Data de confirmação da tarefa, clique em **Detalhes da tarefa** e edite o campo **Data de confirmação**. Para obter informações, consulte [Editar tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+   * Para atualizar a data de confirmação da tarefa, clique em **Detalhes da tarefa** e edite o campo **Data de confirmação**. Para obter informações, consulte [Editar tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
 
    >[!IMPORTANT]
@@ -150,7 +148,7 @@ O Workfront atualiza automaticamente o status existente de uma tarefa para um st
   <tr data-mc-conditions=""> 
    <td><span>Clique no botão Iniciar Tarefa para aceitar trabalhar em uma tarefa atribuída a você</span> </td> 
    <td><span>Novo</span> </td> 
-   <td> <p>Qualquer status associado ao botão Iniciar Tarefa nas configurações da Equipe Doméstica.</p> <p>Para obter informações sobre como substituir o botão Trabalhar na tarefa pelo botão Iniciar tarefa, consulte <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substituir o botão Trabalhar na tarefa por um botão Iniciar</a></span>.</p> <p>Dica: <span>Clicar</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">no botão Desfazer</span>depois de clicar em Iniciar Tarefa, reverte o status para Novo. </p> </td> 
+   <td> <p>Qualquer status associado ao botão Iniciar Tarefa nas configurações da Equipe Doméstica.</p> <p>Para obter informações sobre como substituir o botão Trabalhar na tarefa pelo botão Iniciar tarefa, consulte <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substituir o botão Trabalhar na tarefa por um botão Iniciar</a></span>.</p> <p>Dica: <span>Clicar</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">no botão Desfazer</span> depois de clicar em Iniciar Tarefa reverte o status para Novo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

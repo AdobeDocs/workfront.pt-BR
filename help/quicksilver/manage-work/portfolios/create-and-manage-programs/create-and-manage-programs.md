@@ -2,22 +2,23 @@
 content-type: reference
 product-area: programs
 navigation-topic: portfolios-navigation-topic
-title: Criar e gerenciar programas
-description: Os programas representam uma coleção de projetos que compartilham uma estratégia, objetivo ou meta comum que transcende os limites do projeto. Os programas são uma subdivisão de portfólios e não podem existir fora de um portfólio.
+title: 'Criar e gerenciar programas: índice do artigo'
+description: Os programas são uma coleção de projetos que contribuem para uma estratégia, um objetivo ou uma meta comum. Os programas são uma subdivisão de portfólios e não podem existir fora de um portfólio.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-# Criar e gerenciar programas
+# Criar e gerenciar programas: índice do artigo
 
-Os programas representam uma coleção de projetos que compartilham uma estratégia, objetivo ou meta comum que transcende os limites do projeto.
+Os programas são uma coleção de projetos que contribuem para uma estratégia, um objetivo ou uma meta comum.
+
 Os programas são uma subdivisão de portfólios e não podem existir fora de um portfólio.
 
 Esta seção contém os seguintes artigos:

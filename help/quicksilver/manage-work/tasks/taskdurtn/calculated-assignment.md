@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: "Visão geral do tipo de duração: atribuição calculada"
+title: 'Visão geral do tipo de duração: atribuição calculada'
 description: A Atribuição calculada é um Tipo de duração que pode ser definido para uma tarefa no Adobe Workfront. Para obter informações gerais sobre Tipos de duração no Workfront, consulte Visão geral da duração da tarefa e Tipo de duração.
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
 # Visão geral do tipo de duração: atribuição calculada
+
+<!-- Audited: 5/2025 -->
 
 A Atribuição calculada é um Tipo de duração que pode ser definido para uma tarefa no Adobe Workfront. Para obter informações gerais sobre os Tipos de Duração no Workfront, consulte [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -31,7 +33,7 @@ A Atribuição calculada é um Tipo de duração que pode ser definido para uma 
 
 A Atribuição Calculada é o Tipo de Duração preferido nas seguintes situações:
 
-* Quando as atribuições têm uma janela de atividade, mas não usam toda a Duração alocada para concluir o trabalho. Por exemplo, você é designado a entregar um relatório ao seu supervisor até o final da semana. Você tem uma duração de cinco dias, mas o rascunho do documento levará apenas dez horas.
+* Quando as atribuições têm uma janela de atividade, mas não usam toda a Duração alocada para concluir o trabalho. Por exemplo, você é designado a entregar um relatório ao seu supervisor até o final da semana. Você tem uma duração de cinco dias, mas o rascunho do documento levará apenas 10 horas.
 * Quando um único recurso é atribuído a uma tarefa porque o gerente de projeto pode estimar a Duração planejada e a quantidade planejada de esforço independente um do outro.
 
   Você pode usar o Tipo de Duração do Trabalho Calculado para o mesmo resultado, mas o gerente de projeto deve inserir uma alocação de porcentagem para o recurso, a fim de afetar o valor calculado para as Horas Planejadas. Isso torna o planejamento de projetos mais difícil e demorado.
