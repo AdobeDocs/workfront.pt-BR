@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >À medida que o Microsoft faz a transição para o novo cliente Teams, o cliente Teams clássico não estará mais disponível após 1º de julho de 2025. Em preparação, estamos desenvolvendo uma nova versão da integração do Microsoft Teams que será totalmente compatível com o cliente Novas equipes e estará disponível antes de 1º de julho para garantir uma transição suave.
 >
->As instruções sobre como baixar e instalar a integração no novo cliente do Teams aparecerão aqui após a integração estar disponível.
+>As instruções sobre como baixar e instalar a integração no novo cliente do Teams estarão disponíveis após o lançamento da integração.
 
 Como proprietário de equipe No [!DNL Microsoft Teams], você pode instalar o aplicativo [!DNL Adobe Workfront for Microsoft Teams] para sua equipe.
 

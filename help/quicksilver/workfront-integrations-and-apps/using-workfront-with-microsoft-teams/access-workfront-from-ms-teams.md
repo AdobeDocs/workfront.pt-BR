@@ -6,7 +6,7 @@ description: Você pode acessar [!DNL Adobe Workfront] de [!DNL Microsoft Teams]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 1%
@@ -21,7 +21,8 @@ ht-degree: 1%
 >
 >À medida que o Microsoft faz a transição para o novo cliente Teams, o cliente Teams clássico não estará mais disponível após 1º de julho de 2025. Em preparação, estamos desenvolvendo uma nova versão da integração do Microsoft Teams que será totalmente compatível com o cliente Novas equipes e estará disponível antes de 1º de julho para garantir uma transição suave.
 >
->As instruções sobre como baixar e instalar a integração no novo cliente do Teams aparecerão aqui após a integração estar disponível.
+>As instruções sobre como baixar e instalar a integração no novo cliente do Teams estarão disponíveis após o lançamento da integração.
+
 
 Você pode acessar [!DNL Adobe Workfront] de [!DNL Microsoft Teams] e executar várias ações em [!DNL Workfront] digitando comandos no canal de bot [!DNL Workfront] ou em qualquer outro canal de equipe.
 
