@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
 
 # Cenário de inicializações: importar campos personalizados de várias opções para o Workfront
-
-{{highlighted-preview}}
 
 Você pode importar campos personalizados com várias opções no Adobe Workfront usando a funcionalidade de Início.
 
@@ -144,20 +142,17 @@ Antes de preencher a planilha do Excel, baixe o modelo de início conforme descr
 
 Para preencher a planilha do Excel com informações para os novos campos personalizados:
 
-1. Abra a planilha do Excel que você baixou na seção anterior e observe várias planilhas. Cada planilha representa um objeto no aplicativo.
+1. Abra a planilha do Excel baixada na seção anterior e revise as planilhas. Cada planilha representa um objeto no aplicativo.
 
-   >[!INFO]
-   >
-   >Por exemplo, **Parâmetro** (que se refere ao Campo Personalizado), **Opção de Parâmetro** (que se refere à opção de Campo Personalizado), **Categoria** (que se refere ao Formulário Personalizado).
-   >
-   >Você deve gravar os nomes dos objetos e seus atributos no formato suportado pelo banco de dados do Workfront.
-   >
-   >Para obter informações sobre o significado desses objetos, consulte o [Glossário da [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
-   >
-   >Para obter informações sobre os nomes dos objetos no banco de dados do Workfront, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
-   >
-   >![Planilhas incluídas na exportação de dados](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   Por exemplo, **Parâmetro** (que se refere ao Campo Personalizado), **Opção de Parâmetro** (que se refere à opção de Campo Personalizado), **Categoria** (que se refere ao Formulário Personalizado).
 
+   Você deve gravar os nomes dos objetos e seus atributos no formato suportado pelo banco de dados do Workfront.
+
+   Para obter informações sobre o significado desses objetos, consulte o [Glossário da [!DNL Adobe Workfront] terminologia](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+
+   Para obter informações sobre os nomes dos objetos no banco de dados do Workfront, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
+
+   ![Planilhas incluídas na exportação de dados](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 1. Verifique se as informações a seguir estão formatadas corretamente:
 
@@ -179,9 +174,11 @@ Para preencher a planilha do Excel com informações para os novos campos person
 
    * **`ID`** = deve ser um número exclusivo para cada linha que representa um novo campo. Você pode usar qualquer número que comece com 1, desde que cada novo campo tenha um número exclusivo.
    * **`setDataType`** = para cada linha que representa um novo campo, insira o tipo de dados aceito pelo campo. O tipo de dados deve ser inserido da maneira como aparece no banco de dados. Selecione um dos seguintes tipos de dados:
+
       * **`NMBR`** para número
       * **`CURC`** para Moeda
       * **`TEXT`** para texto
+
    * `**setDisplaySize**`= o tamanho de exibição (&#39;**setDisplaySize**&#39;) para qualquer campo personalizado de várias opções é sempre 0.
    * **`setDisplayType`** = para cada linha que representa um novo campo, insira o tipo de exibição do campo. O Tipo de Exibição deve ser inserido da maneira como apareceria no banco de dados.
 
@@ -225,13 +222,12 @@ Para preencher a planilha do Excel com informações para os novos campos person
      >
      >Você só pode ter uma opção padrão para cada campo.
 
-   * **`setParameterID`** = as opções correspondentes ao campo personalizado _Marca_ têm um **`setParameterID`** de 1, e as opções correspondentes à _Mídia_ têm um **`setParameterID`**&#x200B;de 2. As planilhas `PARAM` e `POPT` fazem referência cruzada entre si para indicar quais opções pertencem a qual campo personalizado.
+   * **`setParameterID`** = as opções correspondentes ao campo personalizado _Marca_ têm um **`setParameterID`** de 1, e as opções correspondentes à _Mídia_ têm um **`setParameterID`**de 2. As planilhas `PARAM` e `POPT` fazem referência cruzada entre si para indicar quais opções pertencem a qual campo personalizado.
    * **`setDisplayOrder`**= a coluna de ordem de exibição indica a ordem na qual as opções serão exibidas no campo personalizado. Você pode começar com 1 e continuar em ordem crescente para todas as opções, independentemente de a quais campos eles pertencerão. O importante aqui é ter números exclusivos para cada opção.
    * As colunas **`setLabel`** e `**setValue`** geralmente contêm as mesmas informações e devem refletir os nomes desejados na interface do usuário do Workfront. O valor de uma opção é o nome exibido nos relatórios, por exemplo, enquanto o rótulo é exibido nos formulários personalizados quando anexados a um objeto. Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = digite `TRUE` se quiser que qualquer uma das opções fique oculta.
 
    ![Folha de parâmetros preenchida](assets/parameter-option-sheet-filled-out-kick-starts.png)
-
 
 1. (Opcional) Se você também quiser criar um formulário personalizado em que poderá adicionar os novos campos posteriormente, selecione a planilha **`CTGY Category`** e atualize as seguintes colunas necessárias para as informações de formulário personalizado:
 
@@ -277,23 +273,7 @@ Depois de executar as etapas descritas nas seções anteriores, continue com o s
 
 1. Procure a planilha do Excel que você preparou no computador e selecione-a quando a encontrar.
 
-   <div class="preview">
-
    O arquivo é carregado automaticamente, e uma notificação de que a importação foi bem-sucedida é exibida. Dependendo da quantidade de informações que você está importando, essa etapa pode levar de alguns segundos a um minuto.
-
-   Os novos campos e formulários personalizados agora estão em seu sistema do Workfront. Você pode encontrá-los na área Forms personalizado da Configuração.
-
-   >[!NOTE]
-   >
-   >Os novos formulários e os campos importados ainda não estão conectados. O formulário é importado sem campos personalizados. Você deve adicionar manualmente os campos ao novo formulário personalizado ou a outro formulário personalizado existente.
-
-   Para obter informações sobre como adicionar campos a formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-   </div>
-
-1. (Somente no ambiente de Produção) Clique em **Carregar**.
-
-   Uma notificação de que a importação foi bem-sucedida é exibida. Dependendo da quantidade de informações que você está importando, essa etapa pode levar de alguns segundos a um minuto.
 
    Os novos campos e formulários personalizados agora estão em seu sistema do Workfront. Você pode encontrá-los na área Forms personalizado da Configuração.
 

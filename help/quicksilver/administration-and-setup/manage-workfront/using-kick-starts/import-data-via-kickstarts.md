@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '2894'
+source-wordcount: '2851'
 ht-degree: 6%
 
 ---
 
 # Importar dados para o Workfront usando um modelo do Kickstart
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -492,15 +490,7 @@ Para importar os dados da planilha do modelo para o Workfront:
 
 1. Na seção **Carregar dados com planilha do Kickstart**, clique em **Escolher arquivo**, procure e selecione a planilha preenchida.
 
-   <div class="preview">
-
-   No ambiente de Pré-visualização, o arquivo é carregado automaticamente, e uma notificação de que a importação foi bem-sucedida é exibida.
-
-   Se o arquivo do Excel levar mais de 5 minutos para ser carregado para o Workfront, o aplicativo expirará e o Workfront não poderá carregar o arquivo. Tente importar seus dados em lotes menores de objetos.
-
-   </div>
-
-1. (Somente no ambiente de Produção) Clique em **Carregar**.
+   O arquivo é carregado automaticamente, e uma notificação de que a importação foi bem-sucedida é exibida.
 
    Se o arquivo do Excel levar mais de 5 minutos para ser carregado para o Workfront, o aplicativo expirará e o Workfront não poderá carregar o arquivo. Tente importar seus dados em lotes menores de objetos.
 
