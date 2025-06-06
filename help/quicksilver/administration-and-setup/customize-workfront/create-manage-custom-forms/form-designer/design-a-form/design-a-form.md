@@ -8,15 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '6555'
+source-wordcount: '6494'
 ht-degree: 5%
 
 ---
 
 # Criar um formulário personalizado
 
+<!-- Audited: 6/2025 -->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -60,31 +61,31 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. Clique em **Forms Personalizado** no painel esquerdo.
+1. No painel esquerdo, clique em **Forms Personalizado** e selecione **Forms**.
 
 1. Clique em **Novo formulário personalizado.**
 1. Selecione a quais tipos de objeto você deseja anexar o formulário personalizado e clique em **Continuar**.
 
    ![Escolher tipo de objeto](assets/choose-object-type.jpg)
 
-1. Na área **Título obrigatório**, digite o título do formulário personalizado.
-1. (Opcional) Se quiser adicionar mais tipos de objetos ao formulário para que ele possa ser anexado a mais objetos, clique no ícone **Adicionar** ![ícone Adicionar objetos](assets/add-objects-icon.png) após **Tipos de Objetos** e selecione o tipo desejado no menu exibido. Você pode repetir isso para adicionar quantos tipos de objetos desejar.
+1. Na área **Adicionar nome de formulário**, digite o título do formulário personalizado.
+1. (Opcional) Se quiser adicionar mais tipos de objetos ao formulário para que ele possa ser anexado a mais objetos, clique no ícone **Adicionar** ![ícone Adicionar objetos](assets/add-objects-icon.png) ao lado de **Tipos de objetos** e selecione o tipo desejado no menu exibido. Você pode repetir isso para adicionar quantos tipos de objetos desejar.
 
-   Você também pode clicar no X em um tipo de objeto para excluí-lo do formulário.
+   Depois de adicionar mais de um objeto ao formulário, você pode clicar no X em um tipo de objeto para excluí-lo do formulário.
 
    >[!CAUTION]
    >
-   >A exclusão de um formulário personalizado também exclui todos os dados personalizados nos objetos associados ao formulário. Os dados excluídos não podem ser recuperados. Considere desativar um formulário personalizado. Ao desativar um formulário personalizado que não é mais usado, todos os dados históricos associados serão retidos.
+   >A exclusão de um formulário personalizado também exclui todos os dados personalizados nos objetos associados ao formulário. Os dados excluídos não podem ser recuperados. Como alternativa, é possível desativar um formulário personalizado que não é mais usado, o que manterá todos os dados históricos associados.
    >
    >Para obter mais informações, consulte [Adicionar ou excluir tipos de objetos de um formulário personalizado existente](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) e [Desativar ou reativar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md).
 
 
-1. Em seguida, você pode começar a adicionar campos ao formulário personalizado. Consulte as seguintes seções:
+1. Em seguida, você pode começar a adicionar campos ao formulário personalizado. Para obter mais informações, consulte as seguintes seções:
    * [Reutilizar um campo ou widget existente já usado em outro formulário personalizado](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [Observações sobre nomes e rótulos de campos](#notes-on-field-names-and-labels)
    * [Adicionar campos de texto](#add-text-fields)
    * [Adicionar campos calculados](#add-calculated-fields)
-   * [Adicionar botões de opção, grupos de caixas de seleção e menus suspensos](#add-radio-buttons-checkboxes-and-dropdowns)
+   * [Adicionar botões de opção, grupos de caixas de seleção e menus suspensos](#add-radio-buttons-checkbox-groups-and-drop-downs)
    * [Adicionar campos de digitação antecipada e data](#add-typeahead-and-date-fields)
    * [Adicionar campos de pesquisa externos](#add-external-lookup-fields)
    * [Adicionar imagens, PDFs e vídeos](#add-images-pdfs-and-videos)
@@ -100,10 +101,9 @@ Os formulários personalizados são limitados a 500 campos. Um contador na parte
 
 ### Reutilizar um campo ou widget existente já usado em outro formulário personalizado
 
-1. Na parte superior esquerda da tela, clique em **Biblioteca de campos**.
+1. No lado superior esquerdo da tela, clique em **Biblioteca de campos**.
 
-1. Arraste o campo ou widget aqui que você deseja no formulário personalizado.
-1. (Opcional) Repita a etapa anterior para adicionar outros campos ou widgets.
+1. Arraste e solte o campo ou widget desejado na tela. Repita esta etapa para adicionar outros campos ou widgets.
 
    >[!NOTE]
    >
@@ -114,26 +114,26 @@ Os formulários personalizados são limitados a 500 campos. Um contador na parte
 
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
-   ou
+   Ou
 
    Clique em **Salvar e fechar**.
 
 ### Observações sobre nomes e rótulos de campos {#notes-on-field-names-and-labels}
 
-O **rótulo** está disponível para a maioria dos campos. É um rótulo descritivo que aparece acima do campo ou widget no formulário personalizado. Você pode alterar o rótulo a qualquer momento.
+O rótulo está disponível para a maioria dos campos. É um rótulo descritivo que aparece acima do campo ou widget no formulário personalizado. Você pode alterar o rótulo a qualquer momento.
 
 >[!NOTE]
 >
->Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios.
+>Evite usar caracteres especiais neste rótulo, pois eles não são exibidos corretamente nos relatórios.
 
-Um **nome** é necessário para cada campo. Esse nome é como o sistema identifica o campo personalizado ao adicioná-lo a várias áreas no Workfront, como relatórios, Página inicial e interações de API. Quando você está configurando o campo ou widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.
+É necessário um nome para cada campo. Esse nome é como o sistema identifica o campo personalizado ao adicioná-lo a várias áreas no Workfront, como relatórios, Página inicial e interações de API. Quando você está configurando o campo ou widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Label e Name não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.
 
 Cada nome de campo personalizado deve ser exclusivo na instância do Workfront da organização. Dessa forma, é possível reutilizar um que já foi criado para outro formulário personalizado.
 
 >[!NOTE]
 >
 >Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o campo personalizado onde ele pode agora ser referenciado em outras áreas do Workfront.
->Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar seu nome, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.
+>>Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar seu nome, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.
 >
 >Recomendamos que você não digite um nome que já esteja sendo usado para campos integrados do Workfront.
 >
@@ -157,7 +157,7 @@ Os caracteres especiais a seguir não são aceitos em rótulos e nomes de campos
 
 É possível adicionar vários campos de texto diferentes a um formulário personalizado.
 
-+++ **Expanda para ver descrições de campos de texto disponíveis**
++++ Expanda para ver descrições de campos de texto disponíveis.
 
 * **Campo de texto de linha única**: permite que os usuários digitem uma única linha de texto no campo.
 * **Campo de parágrafo**: permite que os usuários digitem várias linhas de texto no campo.
@@ -177,7 +177,7 @@ Os caracteres especiais a seguir não são aceitos em rótulos e nomes de campos
 
 Para adicionar um campo de texto:
 
-1. No lado esquerdo da tela, localize um dos seguintes campos de texto e arraste-o para uma seção da tela:
+1. Na guia **Novo campo** no lado esquerdo da tela, localize um dos seguintes campos de texto e arraste-o para uma seção da tela:
 
    * Texto de linha única
    * Parágrafo
@@ -196,7 +196,7 @@ Para adicionar um campo de texto:
     </tr>
     <tr>
     <td>Tamanho</td>
-    <td><p>Altere o tamanho dos campos de texto no formulário.<p>
+    <td><p>(Opcional) Altere o tamanho dos campos de texto no formulário.<p>
    </td>
     <td><ul>
     <li>Texto de linha única</li>
@@ -208,7 +208,7 @@ Para adicionar um campo de texto:
     <tr>
     <td>Rótulo</td>
     <td><p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo. Você pode alterar o rótulo a qualquer momento.<p>
-    <p>IMPORTANTE: Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p></td>
+    <p><b>Importante</b>: evite usar caracteres especiais neste rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p></td>
     <td><ul>
     <li>Texto de linha única</li>
     <li>Parágrafo</li>
@@ -217,7 +217,7 @@ Para adicionar um campo de texto:
     </tr>
     <tr>
      <td>Nome</td>
-    <td><p>(Obrigatório) Esse nome é a forma como o sistema identifica o campo. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p>
+    <td><p>(Obrigatório) Esse nome é a forma como o sistema identifica o campo. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Label e Name não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
     <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p>
     </td>
     <td><ul>
@@ -240,7 +240,7 @@ Para adicionar um campo de texto:
     </tr>
     <tr>
     <td>Formato</td>
-    <td><p>Selecione o tipo de dados que será capturado no campo personalizado.</p> <p><b>NOTA</b>:   
+    <td><p>Selecione o tipo de dados que será capturado no campo personalizado.</p> <p><b>Nota</b>:   
     <ul> 
     <li>Este campo não pode ser editado depois que o formulário é salvo. Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.</li> 
     <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li>
@@ -267,12 +267,17 @@ Para adicionar um campo de texto:
     <tr> 
       <td role="rowheader">Tornar um campo obrigatório</td>
       <td><p>Selecione essa opção se desejar que o campo seja obrigatório para que o usuário preencha o formulário personalizado.</p></td>
+    <td><ul>
+    <li>Texto de linha única</li>
+    <li>Parágrafo</li>
+    <li>Texto com formatação</li>
+    </ul></td> 
     </tr> 
    </table>
 
 1. (Opcional) Repita a etapa anterior para adicionar outros campos ou widgets.
 
-   ou
+   Ou
 
    Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
 
@@ -280,7 +285,7 @@ Para adicionar um campo de texto:
 
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
-   ou
+   Ou
 
    Clique em **Salvar e fechar**.
 
@@ -294,7 +299,7 @@ Para adicionar um campo calculado, consulte [Adicionar campos calculados com o d
 
 Você pode adicionar botões de opção, grupos de caixas de seleção, menus suspensos e menus suspensos de seleção múltipla em um formulário personalizado.
 
-+++ **Expanda para ver descrições dos campos disponíveis**
++++ Expanda para ver descrições dos campos disponíveis.
 
 * **Botões de opção**: requer que os usuários selecionem apenas uma opção.
 * **Grupo de caixas de seleção**: permite que os usuários selecionem várias opções.
@@ -309,9 +314,9 @@ Você pode adicionar botões de opção, grupos de caixas de seleção, menus su
 
 Para adicionar botões de opção, grupos de caixas de seleção e menus suspensos:
 
-1. No lado esquerdo da tela, encontre um dos campos a seguir e arraste-o para uma seção da tela.
+1. Na guia **Novo campo** no lado esquerdo da tela, localize um dos campos a seguir e arraste-o para uma seção da tela:
 
-   * Botões de seleção
+   * Botões de opção
    * Grupo de caixas de seleção
    * Lista suspensa de seleção única
    * Lista suspensa com seleção múltipla
@@ -329,9 +334,9 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     </tr>
     <tr> 
      <td role="rowheader">Rótulo</td> 
-     <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>IMPORTANTE</b>: </p> <p>Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+     <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      <td><ul>
-    <li>Botões de seleção</li>
+    <li>Botões de opção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Lista suspensa de seleção única</li>
     <li>Lista suspensa com seleção múltipla</li>
@@ -339,10 +344,10 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
      </tr> 
      <tr> 
     <td role="rowheader">Nome</td> 
-     <td> <p>(Obrigatório) Esse nome é a forma como o sistema identifica o campo. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p> 
+     <td> <p>(Obrigatório) Esse nome é a forma como o sistema identifica o campo. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Label e Name não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p> 
     <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td>
      <td><ul>
-    <li>Botões de seleção</li>
+    <li>Botões de opção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Lista suspensa de seleção única</li>
     <li>Lista suspensa com seleção múltipla</li>
@@ -354,7 +359,7 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     <p>  <img src="assets/instructions-form-designer.png"> </p>
     </td> 
     <td><ul>
-    <li>Botões de seleção</li>
+    <li>Botões de opção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Lista suspensa de seleção única</li>
     <li>Lista suspensa com seleção múltipla</li>
@@ -362,14 +367,14 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     </tr> 
     <tr> 
     <td role="rowheader">Formato</td> 
-    <td> <p>Selecione o tipo de dados que será capturado no campo personalizado.</p> <p><b>NOTA</b>:   
+    <td> <p>Selecione o tipo de dados que será capturado no campo personalizado.</p> <p><b>Nota</b>:   
      <ul> 
     <li>Este campo não pode ser editado depois que o formulário é salvo. Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.<br></li> 
     <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li>
     <li>O limite de caracteres para campos de Número é de 16. Você também pode usar um campo Texto para inserir números e evitar o limite.</li>
      </ul></p></td> 
      <td><ul>
-    <li>Botões de seleção</li>
+    <li>Botões de opção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Lista suspensa de seleção única</li>
     <li>Lista suspensa com seleção múltipla</li>
@@ -379,66 +384,60 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
      <td role="rowheader">Tipo de Exibição</td> 
     <td>Alterne entre botões de opção, grupo de caixas de seleção, lista suspensa de seleção única ou lista suspensa de seleção múltipla para o campo.</td> 
     <td><ul>
-    <li>Botões de seleção</li>
+    <li>Botões de opção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Lista suspensa de seleção única</li>
     <li>Lista suspensa com seleção múltipla</li>
     </ul></td>
     </tr> 
-     <tr> 
-    <td role="rowheader">Tornar um campo obrigatório</td> 
-    <td>Selecione essa opção se desejar que o campo seja obrigatório para que o usuário preencha o formulário personalizado. </td> 
-    <td><ul>
-    <li>Botões de seleção</li>
-    <li>Grupo de caixas de seleção</li>
-    <li>Lista suspensa de seleção única</li>
-    <li>Lista suspensa com seleção múltipla</li>
-    </ul></td>
-     </tr> 
-    <tr> 
     <td role="rowheader">Seleções </td> 
     <td> 
-    <ol> 
-    <li> <p>Clique em <b>Opções</b> e habilite qualquer um dos itens a seguir:</p> 
+    <p>Selecione qualquer uma das seguintes opções:</p> 
     <ul> 
-    <li><strong>Mostrar Valores</strong>: mostra os valores de cada escolha no campo. O rótulo de cada opção é exibido por padrão.</li> 
-     <li><strong>Classificar seleções de A a Z</strong>: classifica as seleções adicionadas em ordem alfabética no campo.</li> 
-    </ul> 
-    </li> 
-    <li> <p>Para cada opção adicionada para o usuário, clique no ícone de engrenagem <img src="assets/gear-icon-settings.png"> e selecione uma das seguintes opções:</p> 
+    <li><strong>Mostrar Valores</strong>: mostra os valores de cada escolha no campo. O rótulo de cada opção é exibido por padrão.</li>
+   <li><strong>Classificar seleções de A a Z</strong>: classifica as seleções adicionadas em ordem alfabética no campo.</li>
+    </ul>
+     <p>Para cada opção adicionada para o usuário, clique no ícone de engrenagem <img src="assets/gear-icon-settings.png"> e selecione uma das seguintes opções:</p> 
     <ul> 
     <li><strong>Selecionar por padrão</strong>: selecione a opção por padrão no campo.</li> 
     <li> <p><strong>Ocultar opção</strong>: oculta a opção no campo. As opções ocultas permanecem acessíveis nos relatórios.</p> </li> 
-    <li> <p><strong>Remover Opção</strong>: remova a opção do campo.</p> <p><b>AVISO</b>: se você tiver objetos atuais usando essa opção, não remova-a do campo. Sua remoção fará com que os dados do histórico sejam perdidos. Em vez disso, selecione a opção para ocultá-la, o que impede que os usuários a selecionem no futuro.</p> </li> 
-    </ul> 
-     </li> 
-    </ol>
-
-   <p><b>NOTA:</b></p>
-    <p>Não há limite para o número de opções que você pode selecionar. </p>    
+    <li> <p><strong>Remover Opção</strong>: remova a opção do campo.</p> <p><b>Aviso</b>: se você tiver objetos atuais usando essa opção, não os remova do campo. Sua remoção fará com que os dados do histórico sejam perdidos. Em vez disso, selecione a opção para ocultá-la, o que impede que os usuários a selecionem no futuro.</p> </li> 
+    </ul>   
+    <p><b>Observação:</b> não há limite para o número de opções que você pode selecionar. </p>    
     </td> 
     <td><ul>
-    <li>Botões de seleção</li>
+    <li>Botões de opção</li>
     <li>Grupo de caixas de seleção</li>
     <li>Lista suspensa de seleção única</li>
     <li>Lista suspensa com seleção múltipla</li>
     </ul>
     </td>
      </tr> 
+          <tr> 
+    <td role="rowheader">Tornar um campo obrigatório</td> 
+    <td>Selecione essa opção se desejar que o campo seja obrigatório para que o usuário preencha o formulário personalizado. </td> 
+    <td><ul>
+    <li>Botões de opção</li>
+    <li>Grupo de caixas de seleção</li>
+    <li>Lista suspensa de seleção única</li>
+    <li>Lista suspensa com seleção múltipla</li>
+    </ul></td>
+     </tr> 
+    <tr> 
     </tbody> 
     </table>
 
 1. (Opcional) Repita a etapa anterior para adicionar outros campos ou widgets.
 
-   ou
+   Ou
 
    Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
 
-   ![ícone de cópia](assets/copy-field.png)
+   ![Ícone Copiar](assets/copy-field.png)
 
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
-   ou
+   Ou
 
    Clique em **Salvar e fechar**.
 
@@ -446,7 +445,7 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
 
 Você pode adicionar campos de digitação antecipada e data a um formulário personalizado.
 
-+++ **Expanda para ver descrições dos campos disponíveis**
++++ Expanda para ver descrições dos campos disponíveis.
 
 * **Typeahead**: permite que os usuários digitem o nome de um objeto que existe no Workfront. Uma lista de sugestões é exibida quando o usuário começa a digitar. Esse tipo de campo oferece suporte aos seguintes objetos:
    * Usuário
@@ -464,7 +463,7 @@ Você pode adicionar campos de digitação antecipada e data a um formulário pe
 
 Para adicionar campos de digitação antecipada e data:
 
-1. No lado esquerdo da tela, encontre um dos campos a seguir e arraste-o para uma seção da tela.
+1. Na guia **Novo campo** no lado esquerdo da tela, localize um dos campos a seguir e arraste-o para uma seção na tela.
 
    * Typeahead
    * Data
@@ -482,7 +481,7 @@ Para adicionar campos de digitação antecipada e data:
     </tr>
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>IMPORTANTE</b>: Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
     <li>Data</li>
@@ -490,7 +489,7 @@ Para adicionar campos de digitação antecipada e data:
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>(Obrigatório) Esse nome é a forma como o sistema identifica o campo. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p> 
+      <td> <p>(Obrigatório) Esse nome é a forma como o sistema identifica o campo. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Label e Name não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p> 
       <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td>
     <td><ul>
     <li>Typeahead</li>
@@ -516,7 +515,7 @@ Para adicionar campos de digitação antecipada e data:
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de objeto referenciado</td> 
-      <td> <p>Selecione o tipo de objeto que deseja associar ao campo.</p> <p>Depois de clicar em Aplicar ou Salvar+Fechar, não é possível alterar o tipo de objeto do campo.</p> <p><b>NOTA</b>:   
+      <td> <p>Selecione o tipo de objeto que deseja associar ao campo.</p> <p>Depois de clicar em <b>Aplicar</b> ou <b>Salvar e Fechar</b>, você não poderá alterar o tipo de objeto do campo.</p> <p><b>Nota</b>:   
         <ul> 
          <li>Se o administrador do Workfront personalizou o nome de Portfólios, Programas ou Projetos na interface do usuário do Workfront, o nome padrão do Workfront para o objeto será exibido nessa lista suspensa, não no nome personalizado. Consulte o administrador do Workfront se precisar de ajuda com isso.<br></li> 
          <li>Os seguintes tipos de objetos são suportados nos aplicativos móveis iOS e Android Workfront: usuário, empresa, grupo, função de trabalho, Portfolio, programa, projeto e modelo.</li> 
@@ -529,11 +528,11 @@ Para adicionar campos de digitação antecipada e data:
       <td role="rowheader">Adicionar Filtro</td>
       <td><p>Adicione um filtro para um tipo de objeto para limitar os objetos que os usuários podem escolher quando estiverem usando o campo. </p> <p>Por exemplo, é possível limitar um campo para que os nomes de usuários possam ser selecionados somente se atenderem aos seguintes critérios:</p> 
        <ul> 
-        <li>Eles pertencem a um ou mais grupos especificados por você</li> 
-        <li>Eles estão associados a uma função ou a um cargo especificado por você</li> 
-        <li>Eles pertencem ao mesmo grupo que a pessoa que está usando o campo</li> 
+        <li>Eles pertencem a um ou mais grupos especificados.</li> 
+        <li>Eles estão associados a uma função ou cargo especificado por você.</li> 
+        <li>Eles pertencem ao mesmo grupo que a pessoa que está usando o campo.</li> 
        </ul> <p>Você deve definir o filtro para o tipo de objeto selecionado usando a sintaxe do Modo de texto. Para obter informações sobre como criar um filtro usando o Modo Texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar um filtro usando o modo texto</a>.</p>
-       <p><b>NOTA</b>:
+       <p><b>Nota</b>:
        <ul> 
         <li>Se você estiver editando um formulário personalizado existente, adicionar um filtro a um campo Digitação antecipada não removerá nenhum objeto (fora do escopo do filtro) que os usuários já tenham adicionado usando o campo.</li> 
         <li>Este filtro não está disponível em dispositivos móveis. Se você usar o filtro para um campo Digitação antecipada, o campo aparecerá nos dispositivos móveis dos usuários não afetados pelo filtro.</li> 
@@ -557,7 +556,7 @@ Para adicionar campos de digitação antecipada e data:
 
 1. (Opcional) Repita a etapa anterior para adicionar outros campos ou widgets.
 
-   ou
+   Ou
 
    Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
 
@@ -565,13 +564,13 @@ Para adicionar campos de digitação antecipada e data:
 
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
-   ou
+   Ou
 
    Clique em **Salvar e fechar**.
 
 ### Adicionar campos de pesquisa externos
 
-Um campo de pesquisa externo chama uma API externa e retorna valores como opções em um campo suspenso. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem selecionar uma ou mais dessas opções na lista suspensa. O campo de pesquisa externo também está disponível em listas e relatórios.
+Um campo de pesquisa externo chama uma API externa e retorna valores como opções em um campo suspenso. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem selecionar uma ou mais dessas opções no menu suspenso. O campo de pesquisa externo também está disponível em listas e relatórios.
 
 Para obter exemplos de como usar o campo de pesquisa externa para chamar a mesma instância do Workfront ou uma API pública, consulte [Exemplos do campo de pesquisa externa em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
@@ -582,7 +581,7 @@ Para obter exemplos de como usar o campo de pesquisa externa para chamar a mesma
 
 Para adicionar uma pesquisa externa:
 
-1. No lado esquerdo da tela, encontre **Pesquisa externa** e arraste-a para uma seção da tela.
+1. Na guia **Novo campo** no lado esquerdo da tela, localize a **Pesquisa externa** e arraste-a para uma seção da tela.
 1. No lado direito da tela, configure as opções do campo personalizado:
 
    <table style="table-layout:auto"> 
@@ -591,11 +590,11 @@ Para adicionar uma pesquisa externa:
     <tbody> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>IMPORTANTE</b>: Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo personalizado. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>(Obrigatório) Esse nome é a forma como o sistema identifica o campo. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p>
+      <td> <p>(Obrigatório) Esse nome é a forma como o sistema identifica o campo. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
       <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instruções</td> 
@@ -604,7 +603,7 @@ Para adicionar uma pesquisa externa:
      <tr> 
       <td role="rowheader">Formato</td>
       <td><p>Selecione o tipo de dados que será capturado no campo personalizado.</p>
-      <p><strong>NOTA:</strong></p>
+      <p><strong>Nota:</strong></p>
       <ul><li>É possível alterar o tipo de formato depois que o formulário é salvo, com uma limitação: todos os valores existentes em objetos devem poder ser convertidos para o novo tipo. (Por exemplo, se o tipo de formato for Texto e um objeto estiver armazenando o valor "abc", você não poderá converter o campo e receberá um erro de que o sistema não poderá converter "abc" em número/moeda.) Se você pretende usar seu campo em cálculos matemáticos, certifique-se de selecionar um formato de Número ou Moeda.</li>
       <li>Ao selecionar Número ou Moeda, o sistema trunca automaticamente os números que começam com 0.</li>
       <li>O limite de caracteres para campos de Número é de 16. Você também pode usar um campo Texto para inserir números e evitar o limite.</li>
@@ -612,16 +611,16 @@ Para adicionar uma pesquisa externa:
      </tr> 
      <tr> 
       <td role="rowheader">URL da API base</td> 
-      <td><p>Digite ou cole o URL da API.</p><p>O URL da API deve retornar um conteúdo JSON das opções que você deseja mostrar na lista suspensa. Você pode usar o campo Caminho JSON para selecionar os valores específicos das opções suspensas do JSON retornado.</p><p>Ao inserir o URL da API, você pode passar os seguintes valores no URL:</p>
+      <td><p>Digite ou cole o URL da API.</p><p>O URL da API deve retornar um conteúdo JSON das opções que você deseja mostrar no menu suspenso. Você pode usar o campo Caminho JSON para selecionar os valores específicos das opções suspensas do JSON retornado.</p><p>Ao inserir o URL da API, você pode passar os seguintes valores no URL:</p>
       <ul>
-      <li>$$HOST - representa o host atual do Workfront e pode ser usado para fazer chamadas de API /search para a API do Workfront. Quando esse curinga é usado, a autenticação é tratada e os usuários não precisam enviar cabeçalhos de autenticação. (Por exemplo, os usuários podem pesquisar tarefas usando a URL base <code>$$HOST/attask/api/task/search</code> e isso permitirá pesquisar tarefas e selecionar valores de uma lista de tarefas retornada.)</li>
-      <li><p>$$QUERY - Representa o texto de pesquisa que o usuário final digita no campo e permite implementar a filtragem de consultas para seus usuários finais. (O usuário pesquisará pelo valor na lista suspensa.)</p>
+      <li>$$HOST - representa o host atual do Workfront e pode ser usado para fazer/pesquisar chamadas de API para a API do Workfront. Quando esse curinga é usado, a autenticação é tratada e os usuários não precisam enviar cabeçalhos de autenticação. (Por exemplo, os usuários podem pesquisar tarefas usando a URL base <code>$$HOST/attask/api/task/search</code> e isso permitirá pesquisar tarefas e selecionar valores de uma lista de tarefas retornada.)</li>
+      <li><p>$$QUERY - Representa o texto de pesquisa que o usuário final digita no campo e permite implementar a filtragem de consultas para seus usuários finais. (O usuário pesquisará pelo valor no menu suspenso.)</p>
       <p>Se a API à qual você está fazendo referência permitir, também será possível incluir modificadores na consulta de pesquisa para identificar como a pesquisa deve funcionar. Por exemplo, você pode usar o seguinte como a URL da API Base para permitir que as pessoas pesquisem por qualquer projeto do Workfront que contenha texto específico: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Saiba mais sobre os modificadores de pesquisa do Workfront em <a href="/help/quicksilver/wf-api/general/api-basics.md">Noções básicas sobre API</a>.</p>
-      <p><strong>OBSERVAÇÃO:</strong> se você não estiver usando o $$QUERY e o usuário digitar o texto na caixa de pesquisa, ele restringirá as opções que você já tem. No entanto, se você usar $$QUERY e o usuário digitar algo, uma nova chamada de rede para sua API será executada. Portanto, se você tiver mais de 2000 valores em sua API e a API for compatível com consultas, será possível utilizar o $$QUERY não apenas para pesquisar a partir dos valores de 2000 existentes, mas a partir da API original com as opções limitadas.</p></li>
-      <li><p>{fieldName} - Onde fieldName é qualquer campo personalizado ou nativo no Workfront. Dessa forma, você pode implementar filtros de opção de lista suspensa em cascata ao passar o valor de um campo já selecionado para o campo de pesquisa Externo para filtrar opções. (Por exemplo, o campo Região já existe no formulário e você está restringindo uma lista de países da API para aqueles que estão em uma região específica.)</p>
+      <p><strong>Observação:</strong> se você não estiver usando o $$QUERY e o usuário digitar o texto na caixa de pesquisa, ele restringirá as opções que você já tem. No entanto, se você usar $$QUERY e o usuário digitar algo, uma nova chamada de rede para sua API será executada. Portanto, se você tiver mais de 2000 valores em sua API e a API for compatível com consultas, será possível utilizar o $$QUERY não apenas para pesquisar a partir dos valores de 2000 existentes, mas a partir da API original com as opções limitadas.</p></li>
+      <li><p>{fieldName} - Onde fieldName é qualquer campo personalizado ou nativo no Workfront. Dessa forma, você pode implementar filtros de opção suspensos em cascata ao passar o valor de um campo já selecionado para o campo de pesquisa Externo para filtrar opções. (Por exemplo, o campo Região já existe no formulário e você está restringindo uma lista de países da API para aqueles que estão em uma região específica.)</p>
       <p>Para um campo de pesquisa externo que tem uma dependência em outros campos (usando a sintaxe {fieldName}), as opções retornadas da API são limitadas àquelas que correspondem a qualquer cadeia de caracteres ou valor inserido em outros campos. (Essa funcionalidade não é compatível com listas e relatórios.)</p></li>
       <li>{referenceObject}.{fieldName} - Onde o campo faz parte de um objeto. Essa sintaxe é semelhante às expressões personalizadas. (Por exemplo, portfolioID={project}.{portfolioID})</li></ul>
-      <p><strong>OBSERVAÇÃO:</strong> revise a documentação da API com a qual você está trabalhando para as consultas específicas que você pode definir.</p></td>
+      <p><strong>Dica:</strong> revise a documentação da API com a qual você está trabalhando para as consultas específicas que você pode definir.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Método HTTP</td> 
@@ -629,25 +628,25 @@ Para adicionar uma pesquisa externa:
      </tr>
      <tr> 
       <td role="rowheader">Caminho JSON</td>
-      <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções suspensas.</p><p>Por exemplo, se a URL da API retornar JSON neste formato:</br>
+      <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções suspensas.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
-      &lbrace;
-       dados: &lbrace;
+      {
+       dados: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
-      <p>em seguida, use "$.data[*].name" para selecionar EUA e Canadá como opções suspensas.</p> <p>Para obter mais informações sobre o Caminho JSON e verificar se você grava o Caminho JSON correto, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+     <p>Para obter mais informações sobre o Caminho JSON e verificar se você grava o Caminho JSON correto, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Cabeçalhos</td>
-      <td><p>Clique em <strong>Adicionar Cabeçalho</strong> e digite ou cole o par de valores chave necessário para autenticação com a API.</p><p><strong>OBSERVAÇÃO:</strong> os campos de Cabeçalho não são um local seguro para armazenar credenciais, e você deve ter cuidado com o que inseriu e salvou.</p></td>
+      <td><p>Clique em <strong>Adicionar cabeçalho</strong> e digite ou cole o par de valores chave necessário para autenticação com a API.</p><p><strong>Observação:</strong> os campos de Cabeçalho não são um local seguro para armazenar credenciais, e você deve ter cuidado com o que inseriu e salvou.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader">Menu suspenso com múltipla escolha</td>
-      <td><p>Selecione essa opção para permitir que o usuário selecione mais de um valor na lista suspensa.</p></td>
+      <td role="rowheader">Lista suspensa com seleção múltipla</td>
+      <td><p>Selecione essa opção para permitir que o usuário selecione mais de um valor no menu suspenso.</p></td>
      </tr>
      </tr>
      <tr> 
@@ -659,7 +658,7 @@ Para adicionar uma pesquisa externa:
 
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
-   ou
+   Ou
 
    Clique em **Salvar e fechar**.
 
@@ -677,8 +676,8 @@ Para adicionar uma pesquisa externa:
 
 É possível adicionar imagens, PDFs e vídeos a um formulário personalizado. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem ver a imagem, o PDF ou o vídeo somente nas seguintes áreas:
 
-* A área Detalhes do objeto (por exemplo, para um projeto, a área Detalhes do projeto)
-* A caixa Editar do objeto, se ele tiver a nova aparência da experiência do Adobe Workfront (por exemplo, as caixas Editar projeto e Editar tarefa )
+* A área Detalhes do objeto (por exemplo, para um projeto, a área Detalhes do projeto).
+* A caixa Editar do objeto, se ele tiver a nova aparência da experiência do Adobe Workfront (por exemplo, as caixas Editar projeto e Editar tarefa ).
 
 <!-- Do we need to tell them where they can't see it if we tell them where they can see it?
 Currently, users cannot see the widget in the following areas:​
@@ -687,7 +686,7 @@ Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
 The Workfront Mobile app -->
 
-+++ **Expanda para ver descrições dos campos disponíveis**
++++ Expanda para ver descrições dos campos disponíveis.
 
 * **Imagem**: permite que usuários adicionem arquivos de imagem.
 * **PDF**: permite que usuários adicionem PDFs
@@ -697,7 +696,7 @@ The Workfront Mobile app -->
 
 Para adicionar imagens, PDFs ou vídeos:
 
-1. No lado esquerdo da tela, encontre um dos campos a seguir e arraste-o para uma seção da tela.
+1. Na guia **Novo campo** no lado esquerdo da tela, localize um dos campos a seguir e arraste-o para uma seção na tela.
 
    * Imagem
    * PDF
@@ -711,13 +710,17 @@ Para adicionar imagens, PDFs ou vídeos:
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">Tamanho</td> 
+      <td>(Opcional) Altere o tamanho de exibição do widget conforme necessário.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>IMPORTANTE</b>: Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>(Obrigatório) Esse nome é como o sistema identifica o widget. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p> <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Obrigatório) Esse nome é como o sistema identifica o widget. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Label e Name não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p> <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -735,16 +738,12 @@ Para adicionar imagens, PDFs ou vídeos:
       <td role="rowheader">Instruções</td> 
       <td> <p>Digite quaisquer informações adicionais sobre o widget. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.</p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Tamanho</td> 
-      <td>Altere o tamanho de exibição do widget, conforme necessário.</td> 
-     </tr> 
     </tbody> 
    </table>
 
 1. (Opcional) Repita a etapa anterior para adicionar outros campos ou widgets.
 
-   ou
+   Ou
 
    Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
 
@@ -752,7 +751,7 @@ Para adicionar imagens, PDFs ou vídeos:
 
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
-   ou
+   Ou
 
    Clique em **Salvar e fechar**.
 
@@ -768,7 +767,7 @@ Para adicionar imagens, PDFs ou vídeos:
 1. No formulário personalizado ao qual você está adicionando o widget de vídeo, cole o endereço copiado na caixa **URL**.
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
-   ou
+   Ou
 
    Clique em **Salvar e fechar**.
 
@@ -776,7 +775,7 @@ Para adicionar imagens, PDFs ou vídeos:
 
 Você pode adicionar campos nativos Workfront aos seus formulários personalizados. Quando o formulário personalizado é anexado a um objeto, o campo é preenchido a partir dos dados do objeto. Por exemplo, o campo Descrição em um formulário personalizado anexado a um projeto extrairá a descrição do projeto. (O campo pode mostrar &quot;N/D&quot; se nenhum dado estiver disponível.)
 
-+++ **Expanda para ver a lista de campos nativos com suporte**
++++ Expanda para ver a lista de campos nativos compatíveis.
 
 Esta tabela lista os campos nativos disponíveis para objetos Workfront específicos em um formulário personalizado.
 
@@ -797,7 +796,7 @@ Esta tabela lista os campos nativos disponíveis para objetos Workfront específ
 | Data de Entrada | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | Grupo | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | Última Atualização realizada por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Última data de atualização | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Data da última atualização | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Nome | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Proprietário | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | Data de conclusão planejada | ✓ | ✓ | ✓ |   |   |   |   |   |
@@ -823,20 +822,24 @@ Esta tabela lista os campos nativos disponíveis para objetos Workfront específ
 
 +++
 
-1. No lado esquerdo da tela, localize a **Referência de campo nativo** e arraste-a para uma seção da tela.
+1. Na guia **Novo campo** no lado esquerdo da tela, localize a **Referência de campo nativo** e arraste-a para uma seção da tela.
 1. No lado direito da tela, configure as opções do campo personalizado:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">Tamanho</td> 
+      <td>(Opcional) Altere o tamanho de exibição do campo, conforme necessário.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo. Você pode alterar o rótulo a qualquer momento.</p> <p><b>IMPORTANTE</b>: Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td>
-      <td> <p>(Obrigatório) Esse nome é a forma como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p>
+      <td> <p>(Obrigatório) Esse nome é a forma como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Label e Name não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
       <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p></td> 
      </tr> 
      <tr> 
@@ -851,12 +854,12 @@ Esta tabela lista os campos nativos disponíveis para objetos Workfront específ
       <td role="rowheader">Adicionar Filtro</td>
       <td><p>Adicione um filtro para o campo de referência para limitar a lista de itens que os usuários podem escolher quando estiverem usando o campo. </p> <p>Por exemplo, é possível limitar um campo para que os nomes de usuários possam ser selecionados somente se atenderem aos seguintes critérios:</p> 
        <ul>
-        <li>Eles pertencem a um ou mais grupos especificados por você</li> 
-        <li>Eles estão associados a uma função ou a um cargo especificado por você</li> 
-        <li>Eles pertencem ao mesmo grupo que a pessoa que está usando o campo</li> 
+        <li>Eles pertencem a um ou mais grupos especificados.</li> 
+        <li>Eles estão associados a uma função ou cargo especificado por você.</li> 
+        <li>Eles pertencem ao mesmo grupo que a pessoa que está usando o campo.</li> 
        </ul>
-       <p>Você deve definir o filtro para o campo de referência selecionado usando a sintaxe do Modo de texto. Para obter informações sobre como criar um filtro usando o Modo Texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar um filtro usando o modo texto</a>.</p>
-       <p><b>NOTA</b>:
+       <p>Você deve definir o filtro para o campo de referência selecionado usando a sintaxe do Modo de texto. Para obter informações, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar um filtro usando o modo de texto</a>.</p>
+       <p><b>Nota</b>:
        <ul> 
         <li>A opção de filtro só está disponível quando você faz referência a um campo de digitação antecipada nativo, como Portfolio, Empresa ou Proprietário.</li>
         <li>Se você estiver editando um formulário personalizado existente, adicionar um filtro a um campo nativo não removerá nenhum objeto (fora do escopo do filtro) que os usuários já tenham adicionado usando o campo.</li> 
@@ -868,16 +871,12 @@ Esta tabela lista os campos nativos disponíveis para objetos Workfront específ
       <td role="rowheader">Tornar um campo obrigatório</td>
       <td><p>Selecione essa opção se desejar que o campo seja obrigatório para que o usuário preencha o formulário personalizado.</p></td>
      </tr> 
-     <tr> 
-      <td role="rowheader">Tamanho</td> 
-      <td>(Opcional) Altere o tamanho de exibição do campo, conforme necessário.</td> 
-     </tr> 
     </tbody> 
    </table>
 
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
-   ou
+   Ou
 
    Clique em **Salvar e fechar**.
 
@@ -890,26 +889,30 @@ Você pode adicionar um protótipo do Adobe XD diretamente a um formulário pers
 
 Para adicionar um arquivo Adobe XD:
 
-1. No lado esquerdo da tela, localize o **Adobe XD** e arraste-o para uma seção da tela.
+1. Na guia **Novo campo** no lado esquerdo da tela, localize o **Adobe XD** e arraste-o para uma seção da tela.
 1. Digite ou edite qualquer uma das seguintes propriedades do widget:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+         <tr> 
+      <td role="rowheader">Tamanho</td> 
+      <td>(Opcional) Altere o tamanho de exibição do widget conforme necessário.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>IMPORTANTE</b>: Evite usar caracteres especiais neste rótulo. Eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do widget. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo porque eles não são exibidos corretamente nos relatórios. Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>(Obrigatório) Esse nome é como o sistema identifica o widget. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p>
+      <td> <p>(Obrigatório) Esse nome é como o sistema identifica o widget. Quando você está configurando o widget pela primeira vez e digita o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Label e Name não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p>
     <p>Para obter mais informações, consulte <a href="design-a-form.md#notes-on-field-names-and-labels">Notas sobre nomes e rótulos de campos</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obrigatório) Digite ou cole um link de protótipo válido do XD.</p> 
-      <p>Observação: a configuração Acesso ao link na guia Compartilhar no Adobe XD deve ser definida como Qualquer pessoa com o link. Caso contrário, os usuários não poderão visualizar o protótipo. 
+      <p><b>Observação</b>: a configuração de Acesso ao Link na guia Compartilhar do Adobe XD deve ser definida como Qualquer pessoa com o link. Caso contrário, os usuários não poderão visualizar o protótipo. 
    </td> 
      </tr> 
      <tr> 
@@ -917,16 +920,12 @@ Para adicionar um arquivo Adobe XD:
       <td> <p>Digite quaisquer informações adicionais sobre o widget. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Tamanho</td> 
-      <td>(Opcional) Altere o tamanho de exibição do widget conforme necessário.</td> 
-     </tr> 
     </tbody> 
    </table>
 
 1. (Opcional) Repita a etapa anterior para adicionar outros campos ou widgets.
 
-   ou
+   Ou
 
    Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
 
@@ -934,7 +933,7 @@ Para adicionar um arquivo Adobe XD:
 
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
-   ou
+   Ou
 
    Clique em **Salvar e fechar**.
 
@@ -964,26 +963,30 @@ Você pode adicionar o campo de conexão do Planning a todos os formulários per
 
 Para adicionar um campo de conexão do Planning:
 
-1. No lado esquerdo da tela, localize a **conexão do Planning** e arraste-a para uma seção da tela.
+1. Na guia **Novo campo** no lado esquerdo da tela, localize a **conexão do Planning** e arraste-a para uma seção da tela.
 1. No lado direito da tela, configure as opções do campo personalizado:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+    <tr> 
+      <td role="rowheader">Tamanho</td> 
+      <td>(Opcional) Altere o tamanho de exibição do widget conforme necessário.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Rótulo</td> 
-      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo. Você pode alterar o rótulo a qualquer momento.</p> <p><b>IMPORTANTE</b>:</p> <p>Evite usar caracteres especiais neste rótulo.</p> 
-      <p>Recomendamos que você escolha um rótulo pelo qual possa identificar facilmente de onde vem o registro do Planning. Adicione informações como o nome do espaço de trabalho ou o nome do tipo de registro. </p>   </td> 
+      <td> <p>(Obrigatório) Digite um rótulo descritivo para exibir acima do campo. Você pode alterar o rótulo a qualquer momento.</p> <p><b>Importante</b>: evite usar caracteres especiais neste rótulo.</p> 
+      <p>Recomendamos que você escolha um rótulo que ajude a identificar facilmente de onde vem o registro do Planning. Adicione informações como o nome do espaço de trabalho ou o nome do tipo de registro. </p>   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td>
-      <td> <p>(Obrigatório) O nome é a forma como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Mas os campos Label e Name não são sincronizados — isso dá a você a liberdade de alterar o rótulo que seus usuários veem sem precisar alterar o nome que o sistema vê.</p></td> 
+      <td> <p>(Obrigatório) O nome é a forma como o sistema identifica o campo. Ao configurar o campo pela primeira vez e digitar o rótulo, o campo Nome é preenchido automaticamente para corresponder a ele. Os campos Label e Name não são sincronizados. Isso oferece a opção de alterar o rótulo que os usuários veem sem precisar alterar o nome que o sistema vê.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instruções</td> 
       <td> <p>(Recomendado) Digite quaisquer informações adicionais sobre o campo. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.</p>
-      <p>Aqui é possível adicionar informações explícitas sobre o registro e os objetos que você está conectando. </p>
+      <p>Aqui, você pode adicionar informações detalhadas sobre o registro e os objetos que você está conectando. </p>
       </td> 
      </tr> 
      <tr> 
@@ -992,7 +995,7 @@ Para adicionar um campo de conexão do Planning:
       Você pode selecionar entre os seguintes tipos de objeto:
       <ul><li> Projeto</li>
       <li> Portfólio</li><li> Programa</li><li> Empresa</li><li> Grupo</li></ul>
-       <p>Somente os tipos de objeto do Workfront para os tipos de objeto do formulário estão disponíveis.</p> <p> Por exemplo, se a lista Tipos de objeto na parte superior do designer de formulário mostrar Projeto, você só poderá selecionar Projeto nesse campo e não poderá selecionar Portfólios, embora os portfólios também possam ser conectados a tipos de registro.</p>
+       <p>Somente os tipos de objeto do Workfront para os tipos de objeto do formulário estão disponíveis.</p> <p> Por exemplo, se a lista Tipos de objeto na parte superior do designer de formulário mostrar Projeto, você só poderá selecionar Projeto nesse campo e não em Portfólios, embora os portfólios também possam ser conectados a tipos de registro.</p>
       </td>
      </tr>
      <tr> 
@@ -1005,7 +1008,7 @@ Para adicionar um campo de conexão do Planning:
      </tr>
      <tr> 
       <td role="rowheader">Campo de conexão</td> 
-      <td><p>(Obrigatório) Selecione o campo de conexão entre o tipo de registro selecionado do Planning que você deseja exibir nos objetos do Workfront e o tipo de objeto do Workfront. </p> <p> <b>OBSERVAÇÃO</b></p><p>Você pode ter vários campos de conexão entre o mesmo objeto e tipos de registro, mas pode selecionar apenas um campo.</p>  </td> 
+      <td><p>(Obrigatório) Selecione o campo de conexão entre o tipo de registro selecionado do Planning que você deseja exibir nos objetos do Workfront e o tipo de objeto do Workfront. </p> <p> <b>Observação</b>: você pode ter vários campos de conexão entre os mesmos tipos de objeto e registro, mas pode selecionar apenas um campo.</p>  </td> 
      </tr>
 
 <tr> 
@@ -1018,7 +1021,7 @@ Para adicionar um campo de conexão do Planning:
 
 1. (Opcional) Repita as etapas anteriores para adicionar outros campos.
 
-   ou
+   Ou
 
    Para copiar um campo, passe o mouse sobre um campo e clique no ícone de cópia.
 
@@ -1026,7 +1029,7 @@ Para adicionar um campo de conexão do Planning:
 
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
-   ou
+   Ou
 
    Clique em **Salvar e fechar**.
 

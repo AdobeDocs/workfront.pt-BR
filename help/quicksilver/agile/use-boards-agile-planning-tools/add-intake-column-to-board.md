@@ -7,9 +7,9 @@ description: Opcionalmente, é possível adicionar uma coluna de entrada ao quad
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1033'
 ht-degree: 3%
 
 ---
@@ -84,16 +84,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Selecione a seção **Board**. Novos campos são exibidos.
 1. Ativar **Entrada dinâmica de itens no quadro**. A coluna de entrada em branco aparece no lado esquerdo da placa.
 
-   ![Opções de filtro simples da coluna de entrada](assets/intake-column-simple-filters.png)
+   ![Opções de filtro simples da coluna de entrada](assets/board-section.png)
 
 1. (Opcional) Procure e selecione [!DNL Workfront] [!UICONTROL **Projetos**].
 1. (Opcional) Procure e selecione o usuário ou a equipe [!UICONTROL **Atribuições**].
-1. Selecione [!UICONTROL **Incluir trabalho concluído**] para exibir tarefas e problemas com o status Concluído na coluna de entrada.
-
-   >[!NOTE]
-   >
-   >Se essa opção não estiver selecionada, quando os cartões em outros status forem marcados como concluídos, eles não serão exibidos no quadro.
-
 1. Clique em **Aplicar**. Os objetos são exibidos na coluna entrada do quadro como cartões conectados.
 
    ![Coluna de entrada](assets/intake-column-added3.png)
