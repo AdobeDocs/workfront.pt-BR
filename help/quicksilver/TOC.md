@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 8aee2f81f97bba6851537115e7f588694bd53692
+source-git-commit: fb8b65b59ee9cd591c2a7f8edceab19f89afd29d
 workflow-type: tm+mt
-source-wordcount: '13225'
+source-wordcount: '13255'
 ht-degree: 2%
 
 ---
@@ -2119,6 +2119,10 @@ ht-degree: 2%
    * [Integrações do Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
    * [Visão geral das integrações integradas do Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Métodos de integração do Adobe Workfront](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
+   * Revisar e aprovar integrações {#review-approval-integrations}
+      * [Integrações de revisão e aprovação: índice de artigos](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/review-approval-integrations-toc.md)
+      * [Introdução à prova e à integração com o GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+      * [Introdução à prova e ao Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
    * Adobe Workfront para Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront para Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Instalar o plug-in do Adobe Workfront para aplicativos do Creative Cloud {#install-wf-cc}
