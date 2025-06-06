@@ -6,14 +6,23 @@ description: Se o seu sistema  [!DNL Adobe Workfront]  estiver integrado ao SAML
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 72ffceb3-50f0-486e-92b5-0bea4c9a99c8
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
 # Habilitar [!DNL Outlook for Office] para uso com [!DNL Adobe Workfront] e SAML 2.0
+
+>[!IMPORTANT]
+>
+>[O Microsoft está desabilitando o suporte para tokens herdados do Exchange online](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que são usados atualmente pelo suplemento do Workfront Outlook para autenticação. Essa alteração pela Microsoft já começou a afetar os clientes e continuará a ser implementada em fases até outubro de 2025.
+>
+>* **Depois que o Microsoft desabilitar totalmente esses tokens, a integração do Workfront para Microsoft Outlook não funcionará mais.**
+>
+>Como parte dessa alteração, a Microsoft tomou a decisão de alterar a maneira como os tokens são reativados. Após **30 de junho de 2025**, os administradores não poderão mais reabilitar tokens, somente o Suporte da Microsoft poderá conceder exceções. **Em 1º de outubro de 2025, os tokens herdados serão desativados para todos os locatários. Exceções não serão concedidas.**
+
 
 Se o sistema [!DNL Adobe Workfront] estiver integrado ao SAML 2.0, você deverá habilitar a autenticação SAML 2.0 para suplementos [!DNL Office] para que os usuários possam autenticar usando suas credenciais do SAML 2.0.
 
