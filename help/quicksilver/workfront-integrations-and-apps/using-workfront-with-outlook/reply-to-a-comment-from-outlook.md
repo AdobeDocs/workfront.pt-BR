@@ -6,7 +6,7 @@ description: Ao receber uma notificação por email do  [!DNL Adobe Workfront] n
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -24,7 +24,6 @@ ht-degree: 0%
 >Como parte dessa alteração, a Microsoft tomou a decisão de alterar a maneira como os tokens são reativados. Após **30 de junho de 2025**, os administradores não poderão mais reabilitar tokens, somente o Suporte da Microsoft poderá conceder exceções. **Em 1º de outubro de 2025, os tokens herdados serão desativados para todos os locatários. Exceções não serão concedidas.**
 
 Ao receber uma notificação por email do [!DNL Adobe Workfront] em sua caixa de entrada do [!DNL Outlook], você pode postar rapidamente um comentário no [!DNL Workfront] simplesmente respondendo à notificação no Outlook.
-
 
 ## Requisitos de acesso
 

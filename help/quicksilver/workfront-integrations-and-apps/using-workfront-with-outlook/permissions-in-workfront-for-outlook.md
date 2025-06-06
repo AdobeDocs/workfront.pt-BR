@@ -6,7 +6,7 @@ description: O suplemento  [!DNL Workfront for Outlook]  requer acesso de leitur
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -22,7 +22,6 @@ ht-degree: 0%
 >* **Depois que o Microsoft desabilitar totalmente esses tokens, a integração do Workfront para Microsoft Outlook não funcionará mais.**
 >
 >Como parte dessa alteração, a Microsoft tomou a decisão de alterar a maneira como os tokens são reativados. Após **30 de junho de 2025**, os administradores não poderão mais reabilitar tokens, somente o Suporte da Microsoft poderá conceder exceções. **Em 1º de outubro de 2025, os tokens herdados serão desativados para todos os locatários. Exceções não serão concedidas.**
-
 
 [!DNL Workfront for Outlook] requer o mais alto dos quatro níveis de permissões permitidos nos suplementos [!DNL Outlook].
 
