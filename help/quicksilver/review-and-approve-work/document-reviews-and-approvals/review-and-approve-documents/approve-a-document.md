@@ -6,9 +6,9 @@ description: Se você estiver atribuído como aprovador de um documento, há vá
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
+source-git-commit: 1f7a17206ca77442b501f121f3333d4b60aa85f1
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    >[!NOTE]
    >
-   >As aprovações atribuídas a Funções ou Grupos de trabalho não são listadas na Página inicial. As aprovações atribuídas a Equipes são exibidas no agrupamento Solicitação de equipe na Lista de trabalho.
+   >* As aprovações atribuídas a Funções ou Grupos de trabalho não são listadas na Página inicial.
+   >* As aprovações atribuídas às equipes são exibidas no widget Minhas aprovações de cada membro da equipe na Página inicial.
 
 1. Clique na aprovação do documento na lista para a qual deseja tomar uma decisão de aprovação. As informações relativas à aprovação serão exibidas no lado direito da página.
 
