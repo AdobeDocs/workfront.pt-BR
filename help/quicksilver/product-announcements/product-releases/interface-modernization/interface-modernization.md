@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
+source-git-commit: 6fa00a88f6620936ed9af00faf60f61d48c2f825
 workflow-type: tm+mt
-source-wordcount: '4126'
+source-wordcount: '4390'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,16 @@ Para todas as outras alterações no Adobe Workfront, consulte [Versões do prod
 
 
 ## Administração e configuração
+
+### Atualizações de interface para a página Informações do cliente
+
+**Versão de visualização: 12 de junho de 2025; Versão de produção: 19 de junho de 2025**
+
+Atualizamos a página Informações do cliente com um design mais moderno e consistente com outras áreas do Workfront.
+
+Para visualizar essa alteração, acesse Configuração > Sistema > Informações do cliente.
+
+Para obter informações, consulte [Configurar informações básicas do sistema](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Atualizações de interface para a página Importar dados (Kick-Starts)
 
@@ -108,6 +118,22 @@ Atualizamos a página usada para conceder acesso de suporte à sua conta do Work
 
 ## Projetos
 
+### Atualizações de interface para a seção Projetos associados de um projeto (disponível somente para clientes específicos)
+
+**Versão de visualização: 12 de junho de 2025; Versão de produção: 19 de junho de 2025**
+
+Atualizamos a seção Projetos associados de um projeto com um design mais moderno que é consistente com outras áreas do Workfront.
+
+Clientes específicos podem visualizar essa alteração acessando a seção Projetos associados no painel esquerdo.
+
+### Nova aparência para a caixa &quot;Salvar como modelo&quot;
+
+**Versão de visualização: 12 de junho de 2025; Versão de produção: 19 de junho de 2025**
+
+Atualizamos a aparência da caixa &quot;Salvar como modelo&quot;, que é exibida ao salvar um projeto como modelo. O novo design inclui uma interface simplificada, em que todas as seções são exibidas em um formulário coeso no qual você pode navegar usando links no painel esquerdo. O novo design corresponde a outras áreas e outros objetos no aplicativo.
+
+Para obter informações, consulte [Salvar um projeto como modelo](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
+
 ### Atualizações de aparência para a caixa Excluir problema
 
 **Versão de visualização: 29 de maio de 2025; Versão de produção: 5 de junho de 2025**
@@ -150,6 +176,21 @@ Para obter informações, consulte os seguintes artigos:
 
 
 ## Relatórios e painéis de controle
+
+### Relatórios atualizados com novo estilo
+
+**Versão de visualização: 12 de junho de 2025; Versão de produção: 19 de junho de 2025**
+
+Atualizamos a aparência de vários relatórios para corresponder ao design de outras áreas do Workfront. Nenhuma funcionalidade foi alterada.
+
+Esta atualização inclui alterações visuais nas listas e barras de ferramentas dos relatórios para os seguintes tipos de objeto:
+
+* Riscos
+* Linhas de base
+* Preços
+* Modelos de layout
+
+Para obter informações, consulte [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### URLs com /tile ou /qstile não são mais suportados nos Painéis do Workfront
 

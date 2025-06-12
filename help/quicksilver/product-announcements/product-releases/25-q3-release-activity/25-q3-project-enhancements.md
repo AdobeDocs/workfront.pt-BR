@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: a5a61045bad5a97fb1413fac4a5a2666b753fa83
+source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
->* Visualização: 27 de maio de 2025
->* Versão rápida de produção: 27 de maio de 2025
->* Produção para todos os clientes: 27 de maio de 2025
+>* Visualização: com a próxima versão da API, agendada para posteriormente em 2025
+>* Versão rápida de produção: com a próxima versão da API, programada para ser lançada em 2025
+>* Produção para todos os clientes: com a próxima versão da API, programada para mais tarde em 2025
 
 Esta atualização introduz uma mudança na forma como as Horas efetivas de projetos, tarefas e problemas são armazenadas no banco de dados. A partir desta atualização, as Horas Efetivas usarão um campo de valor de `actualWorkRequiredDouble` (com um valor em horas).
 
