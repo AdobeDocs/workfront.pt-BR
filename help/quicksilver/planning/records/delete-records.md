@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '808'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tr> 
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
    <td> 
-<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar todos os recursos do Workfront Planning.</p> 
+<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p> 
 <p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -171,7 +171,7 @@ Para obter informações sobre como recuperar registros excluídos, consulte [Re
    * Use os atalhos de teclado a seguir para desfazer ou refazer a exclusão de um registro:
 
       * CTRL + Z (⌘ + Z para Mac) para desfazer a exclusão de um registro
-      * CTRL + Shift + Z (⌘ + Shift + Z para o Mac) para refazer a exclusão do registro
+      * CTRL + Shift + Z (⌘ + Shift + Z para Mac) para refazer a exclusão do registro
 
 
 

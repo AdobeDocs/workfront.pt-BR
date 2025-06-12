@@ -7,9 +7,9 @@ description: Você pode usar expressões de dados para definir campos de dados p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2433'
+source-wordcount: '2463'
 ht-degree: 2%
 
 ---
@@ -391,7 +391,17 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
    <p><code>ARRAY(string1, "delimiter")</code></p> 
    </td> 
   </tr>
-  <tr> 
+
+<tr> 
+   <td><strong>ARRAYCONTAINS</strong> </td> 
+   <td> <p>Pesquisa um valor específico em uma lista ou matriz. Se o valor for encontrado, a função retornará True, caso contrário, retornará False. </p> 
+   <p>A expressão é formatada da seguinte maneira:</p>
+   <p><code>ARRAY(value 1, value 2)</code></p> 
+   </td> 
+  </tr>
+
+
+<tr> 
    <td><strong>COMPRIMENTOARRAY</strong> </td> 
    <td> <p>Retorna o número de elementos na matriz e é formatado da seguinte maneira:</p>
    <p><code>ARRAYLENGTH(array)</code></p> 

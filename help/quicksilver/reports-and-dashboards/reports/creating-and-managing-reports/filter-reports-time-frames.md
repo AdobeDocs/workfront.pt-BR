@@ -6,9 +6,9 @@ description: Você pode filtrar um relatório pelo período de uma data que exis
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '963'
 ht-degree: 5%
 
 ---
@@ -118,12 +118,12 @@ Para obter mais informações sobre como criar relatórios, consulte [Criar um r
      </tr>
 
    <tr> 
-      <td role="rowheader">Null</td> 
+      <td role="rowheader">Nulo</td> 
       <td>Selecione este modificador para exibir apenas as horas em que a Data de Entrada está ausente.</td> 
      </tr>
 
    <tr> 
-      <td role="rowheader">Not Null</td> 
+      <td role="rowheader">Não nulo</td> 
       <td>Selecione esse modificador para exibir apenas as horas em que a Data de Entrada tem um valor.</td> 
      </tr>
 
@@ -186,7 +186,7 @@ Por exemplo, se você estiver criando um relatório de horas e quiser exibir as 
   </tr> 
   <tr> 
    <td role="rowheader">Último trimestre</td> 
-   <td> <p>Exibe horas em que a Data de Entrada é uma data no trimestre anterior ao trimestre atual, em que os trimestres estão definidos acima.</p> <p>Observação: se o administrador do Workfront tiver ativado e definido trimestres personalizados para seu sistema, os filtros integrados para trimestres serão substituídos pelas informações de trimestre personalizadas. Para obter mais informações sobre como habilitar trimestres personalizados, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Habilitar trimestres personalizados para projetos</a>.</p> </td> 
+   <td> <p>Exibe horas em que a Data de Entrada é uma data no trimestre anterior ao trimestre atual, em que os trimestres estão definidos acima.</p> <p>Observação: se o administrador do Workfront tiver ativado e definido trimestres personalizados para seu sistema, os filtros integrados para trimestres serão substituídos pelas informações de trimestre personalizadas. Para obter mais informações sobre como habilitar trimestres personalizados, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Habilitar trimestres personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Este ano</td> 

@@ -6,9 +6,9 @@ description: Você pode excluir problemas ou solicitações no Adobe Workfront s
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 1%
 
 ---
@@ -132,10 +132,12 @@ Dependendo de como o administrador do Workfront ou do grupo configura as Prefer�
    ![Menu Emitir Mais](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Clique em **Excluir problema**.
-1. Se a exclusão for permitida, clique em **Excluir**.
+1. Clique em **Excluir** para.
 
-   O administrador do Workfront pode não permitir a exclusão de problemas em que as horas são registradas.\
-   Para obter mais informações sobre o acesso e as permissões necessárias para excluir um problema, consulte a seção [Considerações para a exclusão de problemas](#considerations-for-deleting-issues) neste artigo.
+   >[!NOTE]
+   >
+   >  O administrador do Workfront pode não permitir a exclusão de problemas em que as horas são registradas.\
+   >  Para obter mais informações sobre o acesso e as permissões necessárias para excluir um problema, consulte a seção [Considerações para a exclusão de problemas](#considerations-for-deleting-issues) neste artigo.
 
 ## Restaurar problemas excluídos
 

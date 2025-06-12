@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2695'
+source-wordcount: '2693'
 ht-degree: 1%
 
 ---
@@ -143,7 +143,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimativa no Término &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimativa no Término ]</p> </td> 
    <td> <p>Determine quais dados [!DNL Workfront] usa para calcular a [!UICONTROL Estimativa no Término] (EAC) que representa o custo total projetado de um projeto.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calcular no nível do projeto]</strong>: EAC da tarefa pai e do projeto são determinados pela inserção de [!UICONTROL Horas Reais] ou [!UICONTROL Custo Real do Trabalho] nas Fórmulas EAC. Este cálculo inclui [!UICONTROL Horas efetivas] ou [!UICONTROL Custos e despesas] adicionados diretamente à tarefa ou projeto pai.</li> 
@@ -241,7 +241,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Trimestres Personalizados]</p> </td> 
-   <td> <p>Configure trimestres anuais personalizados para os usuários que trabalharão nos projetos. Os trimestres personalizados geralmente são trimestres que não correspondem ao detalhamento tradicional de trimestres durante um ano civil. Você pode adicionar vários trimestres personalizados. Para obter mais informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados para projetos</a>.</p>  <p><b>NOTA</b>: </p><p>[!DNL Workfront] Os administradores não podem desbloquear as preferências de [!UICONTROL Custom Quarters].</p> </td> 
+   <td> <p>Configure trimestres anuais personalizados para os usuários que trabalharão nos projetos. Os trimestres personalizados geralmente são trimestres que não correspondem ao detalhamento tradicional de trimestres durante um ano civil. Você pode adicionar vários trimestres personalizados. Para obter mais informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados</a>.</p>  <p><b>NOTA</b>: </p><p>[!DNL Workfront] Os administradores não podem desbloquear as preferências de [!UICONTROL Custom Quarters].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -252,7 +252,7 @@ Você pode criar um Business Case para projetos recém-criados em todo o sistema
 
 Depois que o administrador [!DNL Workfront] habilitar as seções no [!UICONTROL Business Case], um Proprietário do Projeto poderá criar um Business Case no nível do projeto. Para obter informações sobre como criar um Business Case, consulte [Criar um Business Case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-### [!UICONTROL Vida após a Morte] {#life-after-death}
+### [!UICONTROL Vida após a Morte]  {#life-after-death}
 
 Configure qualquer uma das seguintes preferências para projetos recém-criados em todo o sistema:
 

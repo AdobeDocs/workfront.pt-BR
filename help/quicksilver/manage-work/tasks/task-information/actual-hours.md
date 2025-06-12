@@ -7,9 +7,9 @@ description: As horas em que você faz logon nos itens de trabalho no Adobe Work
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Você deve considerar a conversão de minutos em horas ao acessar esses campos e
 
 Dependendo de como você está acessando as Horas Reais, elas podem ser armazenadas nos seguintes campos e unidades no banco de dados:
 
-* Na API: O `valuefield` para Horas efetivas é `actualWorkRequiredDouble`, que é armazenado em horas.
+* Na API: com a seguinte versão da API do Workfront agendada para lançamento no final de 2025, o `valuefield` para Horas efetivas é `actualWorkRequiredDouble`, que é armazenado em horas. A versão atual armazenou as Horas Efetivas como `actualWorkRequired`, que são armazenadas em minutos.
 * Na interface do Workfront (colunas e campos personalizados calculados): o `valuefield` para Horas efetivas é `actualWorkRequired`, que é armazenado em minutos.
 
 <!--Change the above with this when we fix this for the Workfront UI: 
