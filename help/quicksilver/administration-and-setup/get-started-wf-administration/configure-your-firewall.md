@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
+source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas ao Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, você deverá executar essa ação por meio da Adobe Admin Console.
+>O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, você deverá executar essa ação por meio da Adobe Admin Console.
 >
->Para configurar sua inclui na lista de permissões se sua organização foi integrada à Adobe Admin Console, consulte [Domínios a serem permitidos para Aplicativos e Serviços Adobe](https://helpx.adobe.com/br/enterprise/kb/network-endpoints.html).
+>Para configurar sua inclui na lista de permissões se sua organização foi integrada à Adobe Admin Console, consulte [Domínios a serem permitidos para Aplicativos e Serviços da Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
@@ -146,28 +146,28 @@ Se o ambiente de Produção estiver no Cluster 4, adicione os seguintes endereç
 * 52.19.188.226
 * 52.28.49.94
 * 52.29.41.175
-* 52.29.197,69
+* 52.29.197.69
 * 52.48.124.108
 * 69.169.230.231
 * 69.169. 230,232
 * 3.121.91.129
 * 3.122.11.35
-* 34 246 27 40
-* 52 208 123 166
+* 34.246.27.40
+* 52.208.123.166
 * 52.208.159.124
 * 52.17.130.201
-* 34 252 250 191
+* 34.252.250.191
 * 52.30.133.50
 * 54.220.93.204
-* 34 254 76 122
+* 34.254.76.122
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
 
 Para obter informações sobre os seguintes endereços IP, consulte [Novos endereços IP para email do Adobe Workfront com a versão 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
-* 23 251 239 98
-* 23 251 239 99
+* 23.251.239.98
+* 23.251.239.99
 
 ### Endereços IP a serem permitidos para Cluster 6 {#ip-addresses-to-allow-for-cluster-6}
 
@@ -423,6 +423,7 @@ Incluir na lista de permissões Se sua organização usar filtragem de rede de s
 * fonts.gstatic.com
 * dpm.demdex.net
 * storage.googleapis.com
+* snippet.maze.co
 * *.aptrinsic.com
 * *.static.workfront.com
 
@@ -435,7 +436,7 @@ Incluir na lista de permissões Se sua organização usar filtragem de rede de s
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-Se sua organização estiver na Experiência unificada do Adobe, ela usará os seguintes domínios. Esses domínios são cobertos em `*.adobe.com`, mas podem ser adicionados se desejado.
+Se sua organização estiver na Experiência unificada da Adobe, ela usará os seguintes domínios. Esses domínios são cobertos em `*.adobe.com`, mas podem ser adicionados se desejado.
 
 * &lt;your domain>.my.workfront.adobe.com
 * &lt;your domain>.preview.workfront.adobe.com
@@ -445,12 +446,12 @@ Se sua organização estiver na Experiência unificada do Adobe, ela usará os s
 
 Para o Workfront Fusion, adicione os seguintes domínios:
 
-* Para organizações que não estejam na Experiência unificada do Adobe:
+* Para organizações que não fazem parte da Experiência unificada da Adobe:
    * app.workfrontfusion.com (AWS EUA)
    * app-eu.workfrontfusion.com (EU AWS)
    * app-az.workfrontfusion.com (Azure EUA)
 
-* Para organização no Adobe Unified Experience
+* Para organização na experiência unificada da Adobe
 (Esses domínios são cobertos em `*.adobe.com`, mas podem ser adicionados se desejado.)
 
    * fusion.adobe.com
