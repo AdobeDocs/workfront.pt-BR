@@ -25,7 +25,7 @@ Com a integração entre o GenStudio for Performance Marketing e o Workfront Pro
 
 * Exibir decisões de revisão no GenStudio for Performance Marketing para aprovação final e publicação
 
-Para obter mais informações sobre revisão e aprovação no GenStudio for Performance Marketing, consulte [Integração do Workfront Proof com o GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Para obter mais informações sobre revisão e aprovação no GenStudio for Performance Marketing, consulte [Integração do Workfront Proof com o GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Requisitos de acesso
