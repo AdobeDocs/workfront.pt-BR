@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: ec018b8987a45cbf29c8a908f3adbdb8aade9d90
+source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2479'
 ht-degree: 3%
 
 ---
@@ -707,6 +707,33 @@ Esse filtro permite a entrada de mensagens se a alteração que ocorreu contiver
 }
 ```
 
+#### containsOnly
+
+Esse filtro permite a entrada de mensagens somente quando o conjunto completo de valores selecionados corresponde exatamente a fieldValue no filtro, independentemente da ordem. Não deve haver valores extras ou ausentes.
+
+Observação: Isso é usado para campos do tipo matriz (seleção múltipla). Este exemplo de assinatura abaixo permite o envio de mensagens somente quando o campo `groups` contém exatamente &quot;Escolha 3&quot; e &quot;Escolha 4&quot;, sem valores adicionais ou ausentes e independentemente da ordem.
+
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": [
+                "Choice 3",
+                "Choice 4"
+            ],
+            "state": "newState",
+            "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
 #### alteração
 
 Esse filtro permite a entrada de mensagens somente se o campo especificado (`fieldName`) tiver um valor diferente em oldstate e newstate. Atualizar outros campos além do especificado (`fieldName`) não retornará essa alteração.
@@ -739,7 +766,7 @@ Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo
 >[!NOTE]
 >
 >A assinatura abaixo com o filtro fornecido só retornará mensagens em que o nome da tarefa contém `again` no `oldState`, qual era antes de uma atualização ser feita na tarefa.
->Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
+>>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
 
 ```
 {
