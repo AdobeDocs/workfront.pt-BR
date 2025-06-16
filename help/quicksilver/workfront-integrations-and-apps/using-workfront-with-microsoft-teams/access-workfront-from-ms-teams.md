@@ -6,9 +6,9 @@ description: Você pode acessar [!DNL Adobe Workfront] de [!DNL Microsoft Teams]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
+source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '549'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->À medida que o Microsoft faz a transição para o novo cliente Teams, o cliente Teams clássico não estará mais disponível após 1º de julho de 2025. Em preparação, estamos desenvolvendo uma nova versão da integração do Microsoft Teams que será totalmente compatível com o cliente Novas equipes e estará disponível antes de 1º de julho para garantir uma transição suave.
+>Como o [Microsoft faz a transição para o novo cliente Teams](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability), o cliente Teams Classic não estará mais disponível após 1º de julho de 2025. Para continuar usando o Microsoft Teams e aplicativos integrados como o Workfront, os clientes devem fazer a transição para o novo cliente do Teams antes dessa data.
 >
->As instruções sobre como baixar e instalar a integração no novo cliente do Teams estarão disponíveis após o lançamento da integração.
+>A integração atualizada do Workfront agora está disponível e é totalmente compatível com a experiência Novas equipes. Na maioria dos casos, o Workfront será exibido automaticamente assim que os usuários fizerem a transição. Caso contrário, a integração pode ser instalada manualmente no Microsoft Teams App Store. Para instalar ou verificar a integração do Workfront no novo cliente Teams, consulte [Instalar [!DNL Adobe Workfront] para Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 
 Você pode acessar [!DNL Adobe Workfront] de [!DNL Microsoft Teams] e executar várias ações em [!DNL Workfront] digitando comandos no canal de bot [!DNL Workfront] ou em qualquer outro canal de equipe.
