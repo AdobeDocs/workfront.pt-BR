@@ -5,19 +5,17 @@ title: Preparação para a HIPAA para o Workfront
 description: Um cliente da Workfront que seja, conforme definido na HIPAA, um Associado comercial e/ou a Entidade coberta em cujo nome o Associado comercial fornece a Adobe Workfront deve usar as diretrizes a seguir para configurar o Workfront para uso pronto para a HIPAA.
 feature: Get Started with Workfront
 author: Courtney
-hide: true
-hidefromtoc: true
-source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
+exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
+source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
-
 # Preparação para a HIPAA para o Workfront
 
-Um cliente da Workfront que seja, conforme definido na HIPAA, um Associado comercial e/ou a Entidade coberta em cujo nome o Associado comercial fornece a Adobe Workfront deve usar as seguintes diretrizes para configurar o Workfront para uso pronto para a HIPAA:
+Um cliente da Workfront que seja, conforme definido na HIPAA, um Associado comercial e/ou a Entidade coberta em cujo nome o Associado comercial fornece a Adobe Workfront deve usar as seguintes diretrizes para configurar o Workfront para uso Pronto para HIPAA:
 
 
 ## Requisitos de senha
@@ -66,5 +64,5 @@ Em especial, as seguintes responsabilidades e obrigações devem ser revistas e 
 * Para qualquer banco de dados do Workfront em que ePHI possa ser acessado, verifique se **a Criptografia em repouso (EAR)** está habilitada.
    * Entre em contato com o Executivo de conta (AE) para verificar se o EAR está incluído em sua compra da Workfront.
    * Configurar sistemas/bancos de dados acessíveis por meio do Workfront para atender às obrigações de conformidade.
-* Certifique-se de que a ePHI não seja transferida, vinculada ou compartilhada com outras soluções da Adobe.
+* Certifique-se de que a ePHI não seja transferida, vinculada ou compartilhada com outras soluções da Adobe que não sejam prontas para HIPAA.
 * Garantir que as fotografias dos pacientes processadas via Workfront sejam armazenadas de forma segura e não estejam acessíveis publicamente.
