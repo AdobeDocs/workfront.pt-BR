@@ -2,26 +2,26 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: "O Balanceador De Carga De Trabalho: Índice De Artigos"
+title: 'O Balanceador de carga de trabalho: índice de artigos'
 description: O Balanceador de carga de trabalho é uma ferramenta de agendamento de recursos no Adobe Workfront que permite atribuir tarefas e problemas aos recursos de pessoas.
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 
 # O Balanceador de carga de trabalho: índice do artigo
 
-<!--Audited: 12/2023-->
+<!--Audited: 6/2025-->
 
 O Balanceador de carga de trabalho é uma ferramenta de agendamento de recursos no Adobe Workfront que permite atribuir tarefas e problemas aos recursos de pessoas.
 
-Para obter informações sobre o que é o Balanceador de carga de trabalho, como navegá-lo e como atribuir trabalho usando-o, consulte os seguintes artigos:
+Esta seção contém os seguintes artigos:
 
 * [Visão geral do Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 * [Acesso necessário para gerenciar recursos no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)

@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 5413ab5cfbb06a7e047a4ccab87e82af7c859cab
 workflow-type: tm+mt
-source-wordcount: '13256'
+source-wordcount: '13262'
 ht-degree: 2%
 
 ---
@@ -1730,9 +1730,9 @@ ht-degree: 2%
          * [O Tableau Desktop não pode estabelecer uma conexão](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
          * [A ferramenta Power BI não consegue se conectar com a senha fornecida](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * Gerenciar recursos {#manage-resources}
-   * [Gerenciar recursos](resource-mgmt/manage-resources.md)
+   * [Gerenciar recursos: índice do artigo](resource-mgmt/manage-resources.md)
    * Gerenciamento de recursos {#resource-management}
-      * [Gerenciamento de recursos](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
+      * [Gerenciamento de recursos: índice do artigo](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [Introdução ao gerenciamento de recursos](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Planejamento de recursos no Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Planejamento de recursos: índice do artigo](resource-mgmt/resource-planning/resource-planning-overview.md)
@@ -1762,7 +1762,7 @@ ht-degree: 2%
       * [Relatório de Horas Orçadas do Planejador de Recursos](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [Limitações de exibição do Planejador de recursos](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
    * Utilização de Recursos {#resource-utilization}
-      * [Utilização de Recursos](resource-mgmt/resource-utilization/resource-utilization.md)
+      * [Utilização de recursos: índice do artigo](resource-mgmt/resource-utilization/resource-utilization.md)
       * [Exibir informações de utilização de recursos](resource-mgmt/resource-utilization/view-utilization-information.md)
    * O Balanceador de carga de trabalho {#the-workload-balancer}
       * [O Balanceador de carga de trabalho: índice do artigo](resource-mgmt/workload-balancer/workload-balancer.md)
