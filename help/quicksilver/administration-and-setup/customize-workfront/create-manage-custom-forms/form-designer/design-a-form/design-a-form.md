@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
+source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
 workflow-type: tm+mt
-source-wordcount: '6494'
+source-wordcount: '6547'
 ht-degree: 5%
 
 ---
@@ -133,7 +133,7 @@ Cada nome de campo personalizado deve ser exclusivo na instância do Workfront d
 >[!NOTE]
 >
 >Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o campo personalizado onde ele pode agora ser referenciado em outras áreas do Workfront.
->&#x200B;>Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar seu nome, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.
+>>Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar seu nome, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.
 >
 >Recomendamos que você não digite um nome que já esteja sendo usado para campos integrados do Workfront.
 >
@@ -531,11 +531,13 @@ Para adicionar campos de digitação antecipada e data:
         <li>Eles pertencem a um ou mais grupos especificados.</li> 
         <li>Eles estão associados a uma função ou cargo especificado por você.</li> 
         <li>Eles pertencem ao mesmo grupo que a pessoa que está usando o campo.</li> 
-       </ul> <p>Você deve definir o filtro para o tipo de objeto selecionado usando a sintaxe do Modo de texto. Para obter informações sobre como criar um filtro usando o Modo Texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar um filtro usando o modo texto</a>.</p>
+       </ul>
+       <p>Você deve definir o filtro para o tipo de objeto selecionado usando a sintaxe do Modo de texto. Para obter informações sobre como criar um filtro usando o Modo Texto, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Editar um filtro usando o modo texto</a>.</p>
+       <p><b>Dica:</b>Você pode criar um relatório para testar seu filtro antes de adicionar o filtro diretamente ao campo de digitação antecipada. Isso ajudará a verificar se o filtro retorna os objetos corretos. Em seguida, você pode alternar para o modo de texto no relatório, copiar a instrução de modo de texto e adicioná-la ao filtro de digitação antecipada.</p>
        <p><b>Nota</b>:
        <ul> 
-        <li>Se você estiver editando um formulário personalizado existente, adicionar um filtro a um campo Digitação antecipada não removerá nenhum objeto (fora do escopo do filtro) que os usuários já tenham adicionado usando o campo.</li> 
-        <li>Este filtro não está disponível em dispositivos móveis. Se você usar o filtro para um campo Digitação antecipada, o campo aparecerá nos dispositivos móveis dos usuários não afetados pelo filtro.</li> 
+        <li>Se você estiver editando um formulário personalizado existente, adicionar um filtro a um campo de digitação antecipada não removerá nenhum objeto (fora do escopo do filtro) que os usuários já tenham adicionado usando o campo.</li> 
+        <li>Este filtro não está disponível em dispositivos móveis. Se você usar o filtro para um campo de digitação antecipada, o campo aparecerá nos dispositivos móveis dos usuários não afetados pelo filtro.</li> 
         </ul></p></td> 
       <td>
        <ul>
@@ -630,12 +632,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções suspensas.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
-      &lbrace;
-       dados: &lbrace;
+      {
+       dados: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o Caminho JSON e verificar se você grava o Caminho JSON correto, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>

@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 7373ee9f31e4b7561735920f3ff02cbd4fdce44a
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
 
-# Organizar e pré-visualização um formulário
+# Organizar e visualizar um formulário
 
-É possível organizar um formulário personalizado com o designer de formulários e pré-visualização-lo para verificar se ele foi configurado corretamente.
+Você pode organizar um formulário personalizado com o designer do formulário e visualizá-lo para verificar se ele está configurado corretamente.
 
 ## Requisitos de acesso
 
@@ -53,7 +53,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Adicionar uma quebra de seção
 
-É possível grupo os campos e widgets personalizados em um formulário personalizado em seções com cabeçalhos. Isso é útil para apresentar uma experiência organizada a usuários que preencherão o formulário. Além disso, se você precisar limitar o acesso a determinados campos e widgets personalizados a determinados usuários, poderá colocá-los em uma seção e conceder acesso à seção somente a esses usuários.
+Você pode agrupar campos e widgets personalizados em um formulário personalizado em seções com cabeçalhos. Isso é útil para apresentar uma experiência organizada a usuários que preencherão o formulário. Além disso, se você precisar limitar o acesso a determinados campos e widgets personalizados a determinados usuários, poderá colocá-los em uma seção e conceder acesso à seção somente a esses usuários.
 
 Por exemplo, se você precisar rastrear informações confidenciais que somente administradores do sistema devem poder exibir ou editar, poderá criar uma quebra de seção com permissões Somente de administrador e colocar os campos confidenciais nessa seção.
 
@@ -61,13 +61,13 @@ As configurações de acesso selecionadas para uma seção são vinculadas diret
 
 Para obter informações sobre permissões em objetos, consulte [Visão geral das permissões de compartilhamento em objetos](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Para obter informações sobre campos e widgets personalizados em formulários personalizados, consulte [Criar um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) personalizado.
+Para obter informações sobre campos e widgets personalizados em formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Criar e configurar o acesso para uma seção em um formulário personalizado
 
-1. Comece a criar ou editar um formulário personalizado e adicionar campos, conforme descrito Criar [um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) personalizado.
+1. Comece a criar ou editar um formulário personalizado e adicionar campos, conforme descrito em [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Clique **em Quebrar seção** e arraste-a para a posição desejada na tela.
+1. Clique em **Quebra de seção** e arraste-a para a posição desejada na tela.
 
 1. No painel direito, configure as opções desejadas para a seção:
 
@@ -90,8 +90,8 @@ Para obter informações sobre campos e widgets personalizados em formulários p
       <td> <p> Selecione as permissões que os usuários precisam em um objeto ao qual o formulário personalizado está anexado para exibir esta seção e editar seus valores de campo. 
        <p>As seguintes permissões estão disponíveis em <b>Os usuários com este acesso ao objeto podem exibir os valores do campo</b>:</p> 
          <ul>
-          <li><strong></strong>Exibir: permissões Exibir para o objeto</li>
-          <li><p><b>Editar</b> limitada: (disponível apenas se o objeto for um projeto, tarefa, problema ou usuário):</p> 
+          <li><strong>Exibir</strong>: exibir permissões para o objeto</li>
+          <li><p><b>Edição Limitada</b>: (Disponível somente se o objeto for um projeto, tarefa, problema ou usuário):</p> 
           <p>Permite que os usuários contribuam com o objeto se ele for um projeto, tarefa ou problema.</p>
           <p>Permite que os usuários editem o perfil ou sejam proprietários da permissão de perfil para o objeto, se for um usuário.</p></li> 
           <li><b>Editar</b>: gerenciar permissões para o objeto </li> 
@@ -99,10 +99,10 @@ Para obter informações sobre campos e widgets personalizados em formulários p
          </ul> </li> 
         <p>As seguintes permissões estão disponíveis em <b>Os usuários com este acesso ao objeto podem editar os valores dos campos</b>: </p> 
          <ul> 
-          <li> <p><b>Editar</b> limitada: (disponível apenas se o objeto for um projeto, tarefa, problema ou usuário):</p> 
-           <p>Se o objeto for um projeto, tarefa ou um problema, esse permissão permitirá que os usuários contribuam para o objeto</p>
-          <p>Se o objeto for um usuário, esse permissão permite que os usuários editem os perfil ou possuam os perfil permissão ao objeto.</p> 
-          <li><b></b>Editar: gerenciar permissões para o objeto </li> 
+          <li> <p><b>Edição Limitada</b>: (Disponível somente se o objeto for um projeto, tarefa, problema ou usuário):</p> 
+           <p>Se o objeto for um projeto, tarefa ou problema, essa permissão permitirá que os usuários contribuam para o objeto</p>
+          <p>Se o objeto for um usuário, essa permissão permitirá que os usuários editem o perfil ou sejam proprietários da permissão de perfil para o objeto.</p> 
+          <li><b>Editar</b>: gerenciar permissões para o objeto </li> 
           <li><b>Somente administrador</b>: nível de acesso de Administrador do Sistema</li> 
          </ul> </li> 
        </ul> 
@@ -110,8 +110,8 @@ Para obter informações sobre campos e widgets personalizados em formulários p
        <p><b>NOTA</b>:  
        <ul> 
        <li> <p>Os usuários sem as permissões especificadas aqui não podem ver os campos e widgets personalizados na seção. </p> <p>Isso também é verdadeiro se você exibir os valores dos campos nos relatórios ou usá-los em campos calculados nos relatórios do modo de texto.</p> </li> 
-       <li><p>Para formulários personalizados de solicitação/ocorrência: se o acesso de Exibição for necessário para ver os campos na quebra de seção, mas o acesso de Administrador for necessário para editar os campos, a seção e todos os seus campos não estarão visíveis para não administradores quando eles preencherem o formulário. Depois que o solicitação é criado, os usuários com acesso Exibir podem visualização os campos na seção.</p></li>
-       <li> <p>A associação de vários tipos de objetos ao formulário pode alterar as permissões de visualização e edição disponíveis nessas etapas. Para obter mais informações, consulte <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Como vários tipos de objetos podem afetar as permissões de quebra de seção em um formulário</a> personalizado neste artigo.</p> </li> 
+       <li><p>Para formulários personalizados de solicitação/ocorrência: se o acesso de Exibição for necessário para ver os campos na quebra de seção, mas o acesso de Administrador for necessário para editar os campos, a seção e todos os seus campos não estarão visíveis para não administradores quando eles preencherem o formulário. Depois que a solicitação é criada, os usuários com acesso de Visualização podem exibir os campos na seção.</p></li>
+       <li> <p>Associar vários tipos de objeto ao seu formulário pode alterar as permissões de exibição e edição disponíveis nessas etapas. Para obter mais informações, consulte <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Como vários tipos de objeto podem afetar as permissões de quebra de seção em um formulário personalizado</a> neste artigo.</p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -123,13 +123,13 @@ Para obter informações sobre campos e widgets personalizados em formulários p
 
 1. Arraste ou adicione pelo menos um campo ou widget personalizado à nova seção. Isso é necessário antes de salvar a seção.
 
-1. Clique **Concluído**.
+1. Clique em **Concluído**.
 
    >[!TIP]
    >
-   >Você pode clicar **Aplicar** a qualquer momento ao criar um formulário personalizado para salvar as alterações e manter o formulário aberto.
+   >Você pode clicar em **Aplicar** a qualquer momento enquanto estiver criando um formulário personalizado para salvar suas alterações e manter o formulário aberto.
 
-### Como vários tipos de objetos podem afetar as permissões de interrupção de seção {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
+### Como vários tipos de objeto podem afetar as permissões de quebra de seção {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
 
 A permissão Edição limitada para quebras de seção de formulário personalizado está disponível somente para os tipos de objeto Projeto, Tarefa, Problema e Usuário.
 
@@ -156,9 +156,9 @@ Em um formulário personalizado com uma quebra de seção configurada com a perm
    >* Você pode usar o botão **Visualizar** no canto superior direito para ter uma ideia de como os campos e widgets personalizados serão exibidos no formulário.
    >* Campos e widgets personalizados nem sempre podem ser exibidos da mesma maneira no formulário, dependendo de quanto espaço na tela está disponível quando um usuário o está visualizando. Por exemplo, o terceiro campo em uma linha de campos pode passar para a próxima linha de campos se o espaço horizontal for limitado.
 
-1. (Opcional) Para posicionar um campo personalizado ou um widget acima ou abaixo de outro, arraste-o para cima ou para baixo até que uma linha azul horizontal apareça entre os itens.
+1. (Opcional) Para posicionar um campo ou widget personalizado acima ou abaixo de outro, arraste-o para cima ou para baixo até que uma linha azul horizontal apareça entre os itens.
 
-1. Para mover um campo personalizado para outra seção no formulário, arraste-o e solte-o no local ou clique no **ícone Mover para** o campo e selecione a seção para movê-lo.
+1. Para mover um campo personalizado para outra seção no formulário, você pode arrastá-lo e soltá-lo no local ou clicar no ícone **Mover para** no campo e selecionar a seção para onde movê-lo.
 
    ![Mover campo para uma seção](assets/move-field-to-section.png)
 
@@ -172,5 +172,10 @@ Em um formulário personalizado com uma quebra de seção configurada com a perm
 
 1. Comece a criar ou editar um formulário personalizado e adicionar campos, conforme descrito em [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Clique **Visualização** no canto superior direito para ver como o formulário ficará ao ser usado e clique **em End Visualização** para voltar a editar o formulário.
+1. Clique em **Visualizar** no canto superior direito para ver como o formulário será exibido quando estiver sendo usado e clique em **Finalizar Visualização** para retornar à edição do formulário.
+
+   >[!NOTE]
+   >
+   >A lógica avançada não é compatível com o modo de visualização do designer de formulário.
+
 
