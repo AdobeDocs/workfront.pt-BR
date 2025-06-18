@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2559'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 1%
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
 Você pode conectar tipos de registro uns aos outros ou pode conectar tipos de registro a tipos de objeto de outros aplicativos.
+
+A conexão de tipos de registro é útil quando há vários tipos de objetos de trabalho que afetam uns aos outros. Por exemplo, você pode trabalhar com campanhas do e cada campanha pode atender a várias marcas. Para indicar esse relacionamento, você pode conectar campanhas a marcas. Além disso, o trabalho para cada campanha pode ser planejado em vários projetos no Workfront. Para indicar isso, você pode conectar as campanhas aos projetos relevantes. A conexão de tipos de registro e, subsequentemente, a conexão de registros individuais realiza essa relação no Workfront Planning.
 
 Este artigo descreve como é possível conectar dois tipos de registro do Workfront Planning ou um tipo de registro do Workfront Planning a um objeto de outro aplicativo.
 
@@ -216,7 +218,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 1. (Condicional) Se você optou por se conectar ao Experience Manager Assets ou a um tipo de registro do Workfront Planning, selecione uma das seguintes opções na área **Aparência do registro**:
 

@@ -6,14 +6,16 @@ description: Recalcular as linhas do tempo permite que os gerentes vejam como di
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
 
 # Recalcular linhas do tempo do projeto
+
+<!--Audited: 06/2025-->
 
 Recalcular as linhas do tempo permite que os gerentes vejam como diferentes fatores relacionados ao projeto estão afetando a linha do tempo do projeto. A linha do tempo de um projeto se refere às datas planejadas e projetadas.
 
@@ -21,68 +23,41 @@ Fazer alterações em cronogramas, folga da equipe e outros itens fora do escopo
 
 Este artigo descreve as maneiras como ocorre o recálculo da linha do tempo.
 
+O recálculo automático da linha do tempo ocorre sem acesso especial para qualquer um dos usuários envolvidos no trabalho no projeto. Além disso, é possível recalcular manualmente a linha do tempo.
+
 ## Requisitos de acesso
 
-<!--drafted for P&P: 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>System administrator to recalculate timeline for all projects in the system</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-O recálculo automático da linha do tempo ocorre sem acesso especial para qualquer um dos usuários envolvidos no trabalho no projeto.
-
-No entanto, você deve ter o seguinte acesso para recalcular manualmente a linha do tempo de um projeto:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano </p> </td> 
+   <td> <p>Nova licença: Standard </p> 
+   Ou
+   <p>Licença atual: plano </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a projetos</p> <p>O administrador do sistema deve recalcular a linha de tempo de todos os projetos no sistema</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a projetos</p> <p>O administrador do sistema deve recalcular a linha de tempo de todos os projetos no sistema</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um projeto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Recálculo automático
 
