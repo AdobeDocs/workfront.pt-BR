@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 1d7d094a682a02b09651023f94e81ee0b330163c
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Para saber que plano, tipo de licença ou acesso você tem, contate o administra
 
 1. Clique no ícone **[!UICONTROL Menu principal]** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito de [!DNL Workfront] e clique no ícone **[!UICONTROL Usuários]** ![Usuários](assets/users-icon-in-main-menu.png).
 
-   ![Opções do menu principal](assets/main-menu-options-350x481.png)
+
 
 1. Selecione o **[!UICONTROL Usuário]** que requer uma redefinição de senha.
    ![Selecionar o usuário](assets/100520classicnweselectuser-350x105.png)
