@@ -325,6 +325,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
      ![Agrupamento aplicado na exibição de linha do tempo](assets/grouping-applied-in-timeline-view.png)
 
    * **Modo de exibição de calendário**: mostra registros que têm pelo menos dois campos do tipo Data em um formato de calendário.
+
      ![Exemplo de exibição de calendário](assets/calendar-view-example.png)
 
 
