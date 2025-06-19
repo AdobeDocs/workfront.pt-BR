@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
+source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 Esta página descreve todas as melhorias na página inicial feitas com a versão do terceiro trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2025, consulte [Visão geral da versão do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Experiência de comentário atualizada na seção Menções na área Minhas atualizações
+
+>[!NOTE]
+>
+>* Visualização: 19 de dezembro de 2024
+>* Versão rápida de produção: 19 de junho de 2025
+>* Produção para todos os clientes: 19 de junho de 2025
+
+Estamos atualizando a experiência de comentários na seção Menções na área Minhas atualizações. Agora, a mesma experiência na área Atualizações da maioria dos objetos do Workfront também está disponível na seção Menções de Minhas atualizações.
+
+Antes desse aprimoramento, a experiência de comentários herdada estava disponível nesta área.
+
+Para obter informações, consulte [Usar a área Minhas atualizações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 ## O widget Minhas aprovações agora classifica automaticamente por prazo
 
