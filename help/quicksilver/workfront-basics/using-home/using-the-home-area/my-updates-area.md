@@ -6,9 +6,9 @@ description: Você pode usar a área [!UICONTROL Minhas atualizações] para rev
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -74,15 +74,13 @@ Você deve ter o seguinte antes de começar:
 
 ## Acessar a área [!UICONTROL Minhas atualizações]
 
-1. Clique em **[!UICONTROL Minhas atualizações]** no **[!UICONTROL Menu Principal]**.
+{{step1-to-my-updates}}
 
-   ![Minhas atualizações no menu principal](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+A área [!UICONTROL Minhas atualizações] é aberta.
 
-   A área [!UICONTROL Minhas atualizações] é aberta.
+As aprovações e solicitações de acesso atribuídas a você estão listadas na primeira metade da página, em **Minhas atualizações**.
 
-   As aprovações e solicitações de acesso atribuídas a você estão listadas na primeira metade da página, em **Minhas atualizações**.
-
-   ![Minhas menções de atualizações para revisores](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+![Minhas menções de atualizações para revisores](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (Opcional) Role até a parte inferior da área [!UICONTROL **Minhas atualizações**] e clique na seta para a direita para exibir mais aprovações exibidas em páginas adicionais.
 

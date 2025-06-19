@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: Atualizações rastreadas pelo sistema
+title: Visão geral das atualizações rastreadas pelo sistema
 description: O Adobe Workfront captura a atividade que ocorre em determinados objetos registrando informações de status na área [!UICONTROL Atualizações] do objeto.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 1%
+source-wordcount: '386'
+ht-degree: 0%
 
 ---
 
-# Atualizações rastreadas pelo sistema
+# Visão geral das atualizações rastreadas pelo sistema
 
-<!-- Audited: April, 2024-->
+<!-- Audited: 06/2025-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
@@ -75,7 +75,7 @@ As atualizações rastreadas pelo sistema não estão disponíveis para todos os
    * [!UICONTROL Iteração]
    * [!UICONTROL Meta]
 
-     Você deve ter uma licença adicional para ter acesso à área [!UICONTROL Metas]. Para obter informações, consulte [Requisitos para usar as Metas do Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+     Nem todos os pacotes do Workfront incluem o Workfront Goals. Para obter informações, consulte [Requisitos para usar as Metas do Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL Cartão] em um quadro
 
      Para obter mais informações sobre atualizações em cartões, consulte [Usar cartões conectados em quadros](../../../agile/get-started-with-boards/connected-cards.md).
