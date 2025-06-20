@@ -5,16 +5,16 @@ description: Você pode usar um cartão de pontuação para medir como um projet
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
 
 # Aplicar um cartão de pontuação a um projeto e gerar uma Pontuação de alinhamento
 
-<!-- Audited: 02/2024 -->
+<!-- Audited: 06/2025 -->
 
 Você pode usar um cartão de pontuação para medir como um projeto se alinha aos critérios estabelecidos anteriormente de um portfólio. Um cartão de pontuação geralmente reflete a missão, os valores e os objetivos estratégicos de uma organização.
 
@@ -29,14 +29,14 @@ Para obter mais informações sobre cartões de pontuação e como criar um, con
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">plano do Adobe Workfront*</td> 
    <td>
    <p>Atual: Prime ou superior</p>
    <p>ou</p>
    <p>Herdados: Business ou superior</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td>
    <p>Atual: Padrão</p>
    <p>ou</p>
@@ -53,7 +53,7 @@ Para obter mais informações sobre cartões de pontuação e como criar um, con
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

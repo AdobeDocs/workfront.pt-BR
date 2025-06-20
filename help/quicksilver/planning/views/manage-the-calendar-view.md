@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 1%
+source-wordcount: '1594'
+ht-degree: 5%
 
 ---
 
@@ -118,16 +118,15 @@ Para gerenciar uma exibição de calendário:
 
    ![Exemplo de exibição de calendário](assets/calendar-view-example.png)
 
-   Os registros associados ao tipo de registro selecionado são exibidos como barras em um calendário. A cor das barras corresponde à cor do ícone de registro.
+   Os registros associados ao tipo de registro selecionado são exibidos como barras em um calendário. A cor das barras corresponde à cor do ícone de registro, por padrão.
 
 1. Siga um destes procedimentos para navegar pelo calendário:
 
-   * Clique nos ícones esquerdo e direito ou use a rolagem horizontal para mover-se para trás e para a frente no calendário.
-   * Clique em **Hoje** para centralizar o calendário na data de hoje.
+   * Clique nos ícones esquerdo e direito no canto superior esquerdo do calendário ou use a rolagem horizontal para mover-se para trás e para frente no calendário.
+   * Clique em **Hoje** no canto superior direito para centralizar o calendário na data de hoje.
    * Selecione uma das seguintes opções no menu suspenso de intervalo de tempo para atualizar os incrementos de tempo:
 
       * **Mês**: os registros são exibidos em um calendário mensal.
-
 
       * **Semana**: os registros são exibidos nas seguintes áreas:
 
@@ -159,16 +158,168 @@ Considere o seguinte ao trabalhar com filtros na exibição de calendário:
 
 * A remoção de filtros os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
 
-* A adição de filtros na exibição de calendário é idêntica à adição de filtros na exibição de tabela.
-
-  Para obter mais informações, consulte a seção &quot;Adicionar filtros&quot; no artigo [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
-
 * Você pode filtrar por campos de registro conectados ou campos de pesquisa.
 
 * Você pode filtrar por campos de pesquisa que exibem vários valores.
 
+Para adicionar um filtro a uma exibição de calendário:
+
+1. Crie uma exibição de calendário para uma página de tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+1. Selecione um modo de exibição de calendário e clique em **Filtros** no canto superior direito da tabela.
+1. Clique em **Adicionar condição** e adicione as seguintes informações:
+
+   * **Selecione um campo** que você deseja filtrar por <!-- the tip below might change-->
+
+   * **Selecione uma opção** (ou um modificador de filtro) para definir que tipo de condição o campo deve atender
+
+     A tabela abaixo exibe os modificadores disponíveis para cada tipo de campo.
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>Tipo de campo</b></th>
+            <th><b>Modificadores</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Linha única, Parágrafo, Fórmula </td>
+            <td><p>Contém</p>
+            <p>Não contém</p>
+            <p>É</p>
+            <p>Não é</p>
+            <p>Está vazio</p>
+            <p>Não está vazio</p></td>
+        </tr>
+        <tr><td>Seleção única</td>
+            <td><p>É</p>
+            <p>Não é</p>
+            <p>É algum dos</p>
+            <p>Não é nenhum dos</p>
+            <p>Está vazio</p>
+            <p>Não está vazio</p></td>
+        </tr>
+        <tr>
+            <td>Multisseleção, Pessoas</td>
+            <td><p>Tem qualquer um dos</p>
+            <p>Possui todos os</p>
+            <p>É exatamente</p>
+            <p>Não tem nenhum dos</p>
+            <p>Está vazio</p>
+            <p>Não está vazio</p></td>
+        </tr>
+        <tr>
+            <td>Número, Porcentagem, Moeda</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Está vazio</p>
+            <p>Não está vazio</p></td>
+        </tr>
+        <tr>
+            <td>Data</td>
+            <td><p>É</p>
+            <p>Não é</p>
+            <p>É depois</p>
+            <p>Está antes</p>
+            <p>Fica entre</p><p>Não fica entre</p>
+            <p>Está vazio</p><p>Não está vazio</p></td>
+        </tr>
+
+     <tr>
+            <td>Caixa de seleção</td>
+            <td><p>É</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * Selecione um valor para o campo selecionado.
+
+   ![Exibição da tabela da interface do usuário do filtro](assets/filter-ui-table-view.png)
+
+   Não há limite para quantas condições de filtragem você pode adicionar.
+
+1. (Opcional) Clique em **Adicionar condição** para adicionar outra opção de filtragem e repita as etapas acima. O número de filtros aplicados é exibido à esquerda do ícone Filtros.
+1. Clique nos seguintes operadores para indicar como as condições de filtro são unidas e devem ser aplicadas:
+
+   * **AND**: todas as condições especificadas devem ser atendidas.
+   * **OU**: qualquer uma das condições especificadas deve ser atendida. Esta é a opção padrão.
+
+   1. (Opcional) Adicione operadores **AND** ou **OR** adicionais entre vários agrupamentos de condição.
+
+      ![Filtros de várias camadas em exibições](assets/multi-tiered-filters-in-views.png)
+
+   A lista de registros é filtrada automaticamente.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (Opcional) Clique no ícone **x** para remover uma condição de filtro.
+1. (Opcional) Clique em **Filtros** para fechar a caixa de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
+
 ### Editar as configurações de exibição do calendário
 
-A edição das configurações de exibição do calendário é semelhante à edição das configurações de uma exibição de linha do tempo.
+Atualize as configurações de exibição do calendário para indicar quais informações e como elas são exibidas na exibição.
 
-Para obter mais informações, consulte a seção &quot;Editar as configurações de exibição da linha do tempo&quot; no artigo [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+1. Crie uma exibição de calendário para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+1. Clique em **Configurações**.
+1. Clique em **Data e hora** no painel esquerdo e selecione uma **Data inicial** e uma **Data final** para exibir no calendário. Você pode escolher as datas padrão de Início e Término ou escolher qualquer campo de data disponível.
+
+   As barras que representam os registros começam na data que você indica para a Data inicial e terminam na data correspondente à Data final.
+
+   >[!NOTE]
+   >
+   >* Os registros que não têm valores para as datas de Início ou Término ou que têm uma data de Início posterior à data de Término não são exibidos na exibição de calendário.
+   >
+   >* Se você exibir registros adicionais usando a opção Breakdown, as datas Start e End serão as do registro principal. Não é possível escolher datas de Início e Término para os registros conectados nesta área.
+
+1. Clique em **Estilo de barra** no painel esquerdo para indicar quais informações você deseja exibir nas barras de registro.
+
+   O campo principal (ou título) do registro, conforme definido na exibição de tabela do registro, é selecionado por padrão.
+   <!--adjust this when the primary field is released??-->
+
+1. (Opcional e condicional) Se você adicionou miniaturas a registros, selecione a opção **Miniatura** para exibir a imagem associada aos registros na barra de registros.
+
+   >[!NOTE]
+   >
+   >    Você deve primeiro adicionar miniaturas na exibição de tabela antes de exibi-las na exibição de calendário. Para obter mais informações, consulte [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+1. Clique em **Adicionar campo**, clique dentro da caixa **Pesquisar campos** e clique no campo que deseja adicionar.
+
+   >[!TIP]
+   >
+   >   * Você deve criar os campos antes de adicioná-los às barras de registro.
+   > 
+   >   * Você deve ter pelo menos um campo selecionado. O **Nome** está selecionado por padrão.
+   >
+   >   * Você pode adicionar até 5 campos.
+
+   Uma visualização da aparência das barras no calendário é exibida à direita.
+
+   ![Seção de estilo de barra nas configurações de exibição do calendário](assets/bar-style-section-in-calendar-view-settings-with-preview.png)
+
+1. Clique em **Cor** no painel esquerdo para personalizar as cores dos registros no calendário.
+
+   ![Painel de cores nas configurações de exibição do calendário](assets/color-panel-on-calendar-view-settings.png)
+
+1. Na seção **Definir cor de registro como**, selecione uma das seguintes opções para definir uma cor para os registros:
+
+   * **Tipo de registro**: a cor das barras de registro no calendário corresponde à cor do tipo de registro selecionado. Esta é a opção padrão.
+   * **Valores de campo**: a cor dos registros corresponde à cor de um campo especificado.
+   * **Nenhum**: os registros são exibidos em uma barra branca.
+
+1. (Condicional) Se você selecionou **Valores de campo** para as cores do registro, selecione um campo no menu suspenso **Corresponder a cor do registro a**.
+
+   ![Menu suspenso do seletor de campos para exibição de calendário](assets/field-selector-drop-down-menu-calendar-view.png)
+
+   Somente campos com opções codificadas por cores são exibidos no menu suspenso.
+
+   Por exemplo, campos de seleção múltipla ou seleção única podem ter opções codificadas por cores.
+
+   Se você não tiver um campo com opções codificadas por cores para o tipo de registro selecionado, essa opção ficará esmaecida.
+
+
+1. Clique em **Salvar**.
+
+   Os registros são exibidos na exibição de calendário com as especificações selecionadas.

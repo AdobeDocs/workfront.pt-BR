@@ -5,7 +5,7 @@ description: Como parte do planejamento de recursos, você pode estimar as funç
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Você deve associar funções de trabalho ao projeto antes de poder fazer o orç
 
   Para obter mais informações, consulte [Recursos de orçamento no Business Case usando o Planejador de Recursos](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-* Use o Planejador de cenários para criar iniciativas com as funções de trabalho necessárias e vinculá-las ao projeto. Para obter mais informações, consulte [Recursos de orçamento no Business Case usando o Planejador de cenários](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+* Use o Planejador de cenários para criar iniciativas com as funções de trabalho necessárias e vinculá-las ao projeto. Para obter mais informações, consulte [Recursos de orçamento no Business Case usando o Planejador de Cenários](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
   >[!NOTE]
   >

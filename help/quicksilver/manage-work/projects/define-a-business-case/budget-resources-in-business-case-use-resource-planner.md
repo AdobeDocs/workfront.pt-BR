@@ -5,7 +5,7 @@ description: Como parte do planejamento de recursos, você pode usar o Planejado
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Estimativa de recursos no Business Case usando o Planejador de recursos
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 Como parte do planejamento de recursos, você pode usar o Planejador de recursos no nível do projeto para fazer o orçamento das funções de trabalho necessárias para concluir o trabalho em um projeto ao criar o business case.
 
@@ -35,23 +35,23 @@ Você também pode estimar recursos no business case usando o Planejador de cen�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
    <td> <p>Atual: Prime ou superior</p>
    <p>Herdados: Pro ou superior</p> 
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
    <td> <p>Corrente: clara ou superior</p>
    <p>Herdado: revisão ou superior</p>
 
 <p><b>IMPORTANTE:</b></p> 
-   <p>Novo: Você deve ter uma licença Padrão para modificar informações de orçamento de recursos. </p> 
-   <p>Atual: Você deve ter uma licença de Plano para modificar informações de orçamento de recursos. </p>
+   <p>Atual: Você deve ter uma licença Padrão para modificar informações de orçamento de recursos. </p> 
+   <p>Herdados: Você deve ter uma licença de Plano para modificar as informações de orçamento de recursos. </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td role="rowheader"><p>Configurações de nível de acesso</p></td> 
    <td> <p>Editar acesso ao seguinte: </p> 
     <ul> 
      <li> <p>Projetos</p> </li> 
@@ -60,13 +60,13 @@ Você também pode estimar recursos no business case usando o Planejador de cen�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
+   <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td> <p>Gerenciar permissões no projeto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

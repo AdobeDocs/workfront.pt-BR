@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: dae692617f447c446a421207143225b33b51debe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '3512'
-ht-degree: 0%
+source-wordcount: '3788'
+ht-degree: 2%
 
 ---
 
@@ -28,8 +28,6 @@ Para obter informações sobre exibições de registros, consulte [Gerenciar exi
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -146,7 +144,7 @@ Para gerenciar uma exibição de linha do tempo:
 
    ![Mensagem original de trimestres personalizados ausente na exibição de linha do tempo](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
-   Essas mensagens de aviso são exibidas uma vez para cada usuário.
+   As mensagens de aviso sobre os trimestres personalizados são exibidas uma vez para cada usuário.
 
    >[!NOTE]
    >
@@ -162,12 +160,12 @@ Para gerenciar uma exibição de linha do tempo:
    >
    ><span class="preview">O botão Ir para a Instalação só é exibido para o administrador do Workfront.</span>
 
-1. (Opcional e condicional) Quando o nome do registro estiver truncado, passe o mouse sobre uma barra de registro para exibir o nome completo do registro e informações adicionais.
+1. (Opcional e condicional) Quando o nome do registro estiver truncado, passe o mouse sobre uma barra de registro para exibir o nome completo do registro e informações adicionais. Para obter informações sobre como configurar o truncamento da barra de registros na linha do tempo, consulte a seção [Editar as configurações de exibição da linha do tempo](#edit-the-timeline-view-settings) neste artigo.
 
 1. Siga um destes procedimentos para navegar pela linha do tempo:
 
-   * Clique nos ícones esquerdo e direito ou use a rolagem horizontal para mover-se para trás e para frente na linha do tempo. Atualizar a página preserva o intervalo de tempo selecionado.
-   * Clique em **Hoje** para centralizar a linha do tempo para a data de hoje.
+   * Clique nos ícones da esquerda e da direita no canto superior esquerdo ou use a rolagem horizontal para mover-se para frente e para trás na linha do tempo. Atualizar a página preserva o intervalo de tempo selecionado.
+   * Clique em **Hoje** no canto superior direito para centralizar a linha do tempo para a data de hoje.
    * Selecione uma das seguintes opções no menu drop-down intervalo de tempo para atualizar os incrementos de tempo e atualizar a view:
 
       * **Ano**: exibe trimestres e meses com indicação de ano.
@@ -218,12 +216,105 @@ Considere o seguinte ao trabalhar com filtros na exibição de linha do tempo:
 
 * A remoção de filtros os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
 
-* A adição de filtros na exibição de linha do tempo é idêntica à adição de filtros na exibição de tabela.
-
-  Para obter mais informações, consulte a seção &quot;Adicionar filtros&quot; no artigo [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
-
 * Você pode filtrar por campos de registro conectados ou campos de pesquisa.
 * Você pode filtrar por campos de pesquisa que exibem vários valores.
+
+Para adicionar um filtro a uma exibição de linha do tempo:
+
+1. Crie uma exibição de linha do tempo para uma página de tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+1. Selecione uma exibição de linha do tempo e clique em **Filtros** no canto superior direito da tabela.
+1. Clique em **Adicionar condição** e adicione as seguintes informações:
+
+   * **Selecione um campo** que você deseja filtrar por <!-- the tip below might change-->
+
+   * **Selecione uma opção** (ou um modificador de filtro) para definir que tipo de condição o campo deve atender
+
+     A tabela abaixo exibe os modificadores disponíveis para cada tipo de campo.
+
+     <table>
+        <thead>
+        <tr>
+            <th><b>Tipo de campo</b></th>
+            <th><b>Modificadores</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Linha única, Parágrafo, Fórmula </td>
+            <td><p>Contém</p>
+            <p>Não contém</p>
+            <p>É</p>
+            <p>Não é</p>
+            <p>Está vazio</p>
+            <p>Não está vazio</p></td>
+        </tr>
+        <tr><td>Seleção única</td>
+            <td><p>É</p>
+            <p>Não é</p>
+            <p>É algum dos</p>
+            <p>Não é nenhum dos</p>
+            <p>Está vazio</p>
+            <p>Não está vazio</p></td>
+        </tr>
+        <tr>
+            <td>Multisseleção, Pessoas</td>
+            <td><p>Tem qualquer um dos</p>
+            <p>Possui todos os</p>
+            <p>É exatamente</p>
+            <p>Não tem nenhum dos</p>
+            <p>Está vazio</p>
+            <p>Não está vazio</p></td>
+        </tr>
+        <tr>
+            <td>Número, Porcentagem, Moeda</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p> &lt; </p>
+            <p>&gt;</p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Está vazio</p>
+            <p>Não está vazio</p></td>
+        </tr>
+        <tr>
+            <td>Data</td>
+            <td><p>É</p>
+            <p>Não é</p>
+            <p>É depois</p>
+            <p>Está antes</p>
+            <p>Fica entre</p><p>Não fica entre</p>
+            <p>Está vazio</p><p>Não está vazio</p></td>
+        </tr>
+
+     <tr>
+            <td>Caixa de seleção</td>
+            <td><p>É</p>
+        </tr>
+        </tbody>
+        </table>
+
+   * Selecione um valor para o campo selecionado.
+
+   ![Exibição da tabela da interface do usuário do filtro](assets/filter-ui-table-view.png)
+
+   Não há limite para quantas condições de filtragem você pode adicionar.
+
+1. (Opcional) Clique em **Adicionar condição** para adicionar outra opção de filtragem e repita as etapas acima. O número de filtros aplicados é exibido à esquerda do ícone **Filtros**.
+1. Clique nos seguintes operadores à esquerda para indicar como as condições de filtro são unidas e devem ser aplicadas:
+
+   * **AND**: todas as condições especificadas devem ser atendidas.
+   * **OU**: qualquer uma das condições especificadas deve ser atendida.
+Esta é a opção padrão.
+
+   1. (Opcional) Adicione outros agrupamentos de filtros e junte-os com os operadores **AND** ou **OR**.
+
+      ![Filtros de várias camadas em exibições](assets/multi-tiered-filters-in-views.png)
+
+   A lista de registros é filtrada automaticamente com base nos critérios de filtro.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+
+1. (Opcional) Clique no ícone **x** para remover uma condição de filtro.
+1. (Opcional) Clique em **Filtros** ou em qualquer outro lugar da página para fechar a caixa de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
 ### Adicionar agrupamento
@@ -231,8 +322,6 @@ Considere o seguinte ao trabalhar com filtros na exibição de linha do tempo:
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 Você pode agrupar registros por informações semelhantes ao aplicar um agrupamento a uma exibição.
-
-Adicionar agrupamentos na exibição de linha do tempo é semelhante a adicionar agrupamentos à exibição de tabela.
 
 Considere o seguinte ao trabalhar com agrupamentos na exibição de linha do tempo:
 
@@ -320,7 +409,7 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
    O campo principal (ou título) do registro, conforme definido na exibição de tabela do registro, é selecionado por padrão.
    <!--adjust this when the primary field is released??-->
 
-1. (Opcional e condicional) Se você adicionou miniaturas a registros, selecione a opção Miniatura para exibir a imagem associada aos registros na barra de registro.
+1. (Opcional e condicional) Se você adicionou miniaturas a registros, selecione a opção **Miniatura** para exibir a imagem associada aos registros na barra de registros.
 
    >[!NOTE]
    >
@@ -340,13 +429,13 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    ![Gravar configurações de linha do tempo do painel de detalhes com visualização](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview">(Opcional e condicional) Se você exibir a linha do tempo no modo Padrão, habilite a configuração **Truncar detalhes da barra**. Quando ativado, as informações nas barras de registro são truncadas e são exibidas somente quando você passa o mouse sobre as barras. Essa configuração é desativada por padrão e as informações são totalmente exibidas nas barras. </span>
+1. <span class="preview">(Opcional e condicional) Se você exibir a linha do tempo no modo Padrão, selecione a configuração **Truncar detalhes da barra**. Quando selecionada, as informações nas barras de registro são truncadas e são exibidas somente quando você passa o mouse sobre as barras. Essa configuração é desmarcada por padrão e as informações do registro são totalmente exibidas nas barras. </span>
 
    ![Truncar configuração habilitada na caixa de configurações da linha do tempo realçada](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">A configuração Truncar detalhes da barra não está disponível ao exibir o modo de exibição de linha do tempo no modo Compacto e não está disponível no modo de exibição Calendário.</span>
+   ><span class="preview">A configuração Truncar detalhes da barra não está disponível ao exibir a exibição da linha do tempo no modo Compacto.</span>
    >
 
 1. Clique em **Cor** no painel esquerdo para personalizar as cores dos registros e agrupamentos na linha do tempo.
@@ -392,13 +481,11 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    Se você não tiver um campo com opções codificadas por cores para o tipo de registro selecionado, essa opção ficará esmaecida.
 
-1. <span class="preview">(Opcional) Se estiver usando a opção Detalhamento, repita as etapas que começam com a etapa 4 para cada registro conectado exibido na linha do tempo. </span>
+1. <span class="preview">(Opcional) Se estiver usando a opção **Detalhamento**, repita as etapas que começam com a etapa 4 para cada registro conectado exibido na linha do tempo. </span>
 
 1. Clique em **Salvar**.
 
    Os registros são exibidos na exibição de linha do tempo com as especificações selecionadas.
-
-
 
 ### Analisar registros conectados na exibição de linha do tempo
 

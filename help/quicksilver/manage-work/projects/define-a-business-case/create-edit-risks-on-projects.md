@@ -6,16 +6,16 @@ description: Os riscos são eventos ou fatores possíveis que impedem a conclus�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
 
 # Criar e editar riscos em projetos
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -44,27 +44,30 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td> 
-   <p>Qualquer</p></td> 
+   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
+   <td> <p>Planos atuais:</p>
+   <ul><li>Qualquer plano, para adicionar riscos na área Riscos do projeto</p></li>
+   <li><p>Prime ou superior, para adicionar riscos ao Business Case do projeto</p></li></ul>
+   <p>Planos herdados: qualquer plano</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: Padrão </p>
-   <p>Atual: Plano </p> </td> 
+   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
+   <td> <p>Atual: Padrão </p>
+   <p>Herdados: plano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td role="rowheader"><p>Configurações de nível de acesso</p></td> 
    <td> <p>Editar acesso a Projetos e Dados Financeiros</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
+   <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td> <p> Gerencie permissões que incluem Gerenciar finanças no projeto para o qual você deseja criar ou editar riscos </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: business-case-and-scorecards
-title: Exportar o Business Case de um projeto
+title: Exportar o Business Case de um Projeto
 description: Você pode exportar o Business Case para um arquivo PDF, caso precise imprimi-lo ou anexá-lo a um email em um formato mais condensado.
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 # Exportar o Business Case de um projeto
 
-Você pode exportar o Business Case para um arquivo PDF, caso precise imprimi-lo ou anexá-lo a um email em um formato mais condensado. 
+Você pode exportar o Business Case para um arquivo PDF, caso precise imprimi-lo ou anexá-lo a um email em um formato mais condensado.
 
 ## Requisitos de acesso
 
@@ -26,27 +26,27 @@ Você pode exportar o Business Case para um arquivo PDF, caso precise imprimi-lo
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
    <td> <p>Atual: Prime ou superior </p> <p>Herdados: Pro ou superior </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
    <td> 
    <p>Corrente: clara ou superior</p>
    <p>Herdado: revisão ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Visualizar o acesso ao Gerenciamento de projetos, dados financeiros e recursos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Visualizar o acesso ao Gerenciamento de projetos, dados financeiros e recursos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões do projeto ou superiores</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Exibir permissões do projeto ou superiores</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,8 +57,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Na área superior direita **Resumo do Business Case**, clique em **Exportar**.
 
    ![Resumo do Business Case](assets/bc-summary--350x587.png)\
-   A PDF  o arquivo foi baixado no computador. O arquivo contém todas as áreas do Business Case em um formato fácil de ler.
+   A PDF   o arquivo foi baixado no computador. O arquivo contém todas as áreas do Business Case em um formato fácil de ler.
 
    ![BC_Summary_exports.png](assets/bc-summary-exported-350x160.png)
 
-1. (Opcional) Você pode anexar o arquivo do PDF a um email ou imprimi-lo para compartilhá-lo com outras pessoas. 
+1. (Opcional) Anexe o arquivo PDF a um email ou imprima-o para compartilhá-lo com outras pessoas.

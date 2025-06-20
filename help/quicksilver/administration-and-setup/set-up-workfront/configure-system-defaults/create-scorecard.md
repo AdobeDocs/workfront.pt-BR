@@ -8,9 +8,9 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -42,15 +42,13 @@ Você pode criar um cartão de pontuação da seguinte maneira:
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>Novo: [!UICONTROL Prime] ou superior</p>
+   <td> <p>Novo: Ultimate</p>
    <p>Atual: [!UICONTROL Business] ou superior</p> 
    </td> 
   </tr> 
@@ -60,10 +58,15 @@ Você deve ter o seguinte acesso:
    <p>Atual: [!UICONTROL Plano]</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Nível de acesso</p></td> 
+   <td><p>Administrador de Sistema</p>
+   </td> 
+  </tr>
  </tbody> 
 </table>
 
-*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
