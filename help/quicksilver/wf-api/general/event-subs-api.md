@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
+source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2632'
 ht-degree: 3%
 
 ---
@@ -711,7 +711,9 @@ Esse filtro permite a entrada de mensagens se a alteração que ocorreu contiver
 
 Esse filtro permite a entrada de mensagens somente quando o conjunto completo de valores selecionados corresponde exatamente a fieldValue no filtro, independentemente da ordem. Não deve haver valores extras ou ausentes.
 
-Observação: Isso é usado para campos do tipo matriz (seleção múltipla). Este exemplo de assinatura abaixo permite o envio de mensagens somente quando o campo `groups` contém exatamente &quot;Escolha 3&quot; e &quot;Escolha 4&quot;, sem valores adicionais ou ausentes e independentemente da ordem.
+>[!NOTE]
+>
+>Isso é usado para campos do tipo matriz (seleção múltipla). Este exemplo de assinatura abaixo permite o envio de mensagens somente quando o campo `groups` contém exatamente &quot;Escolha 3&quot; e &quot;Escolha 4&quot;, sem valores adicionais ou ausentes e independentemente da ordem. Se uma cadeia de caracteres ou um inteiro for especificado em `fieldValue`, em vez de em uma matriz, a assinatura permitirá que as mensagens sejam enviadas apenas quando o campo `groups` contiver exatamente uma opção e essa opção corresponder exatamente à cadeia de caracteres ou ao inteiro especificado em `fieldValue`&quot;
 
 
 ```
@@ -729,6 +731,31 @@ Observação: Isso é usado para campos do tipo matriz (seleção múltipla). Es
             ],
             "state": "newState",
             "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
+#### notContains
+
+Este filtro permite a passagem de mensagens somente quando o campo especificado (`fieldName`) não contém o valor especificado (`fieldValue`).
+
+>[!NOTE]
+>
+>Isso é usado para campos do tipo matriz (seleção múltipla) ou string. Se o campo for uma cadeia de caracteres, verificaremos se o valor especificado não está contido na cadeia de caracteres (por exemplo, &quot;Novo&quot; não está na cadeia de caracteres &quot;Projeto - Atualizado&quot;). Se o campo for uma matriz e o valor do campo especificado for uma cadeia de caracteres ou um inteiro, verificaremos se a matriz não contém o valor especificado (por exemplo, &quot;Opção 1&quot; não está na [&quot;Opção 2&quot;, &quot;Opção 3&quot;]). O exemplo de assinatura abaixo permite o envio de mensagens somente quando os campos `groups` não contêm a cadeia de caracteres &quot;Grupo 2&quot;.
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": "Group 2",
+            "state": "newState",
+            "comparison": "notContains"
         }
     ]
 }
@@ -766,7 +793,7 @@ Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo
 >[!NOTE]
 >
 >A assinatura abaixo com o filtro fornecido só retornará mensagens em que o nome da tarefa contém `again` no `oldState`, qual era antes de uma atualização ser feita na tarefa.
->&#x200B;>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
+>>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
 
 ```
 {
