@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3804'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,7 @@ Considere o seguinte:
 
    * Registrar datas
    * Registrar campos gerados pelo sistema: Data de criação, Data da última modificação
-   * Pesquisar datas de tipos de objeto ou registro conectado.
+   * Pesquisar datas de tipos de registro ou objeto conectados (somente quando você adicionou um agregador para eles quando conectou o registro ou tipos de objeto)
 * Dependendo das datas associadas aos registros, alguns registros podem não ser exibidos na exibição de linha do tempo nos seguintes cenários:
 
    * Quando as datas de início e término não têm valores
