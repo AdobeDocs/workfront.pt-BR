@@ -6,37 +6,33 @@ description: Um Tipo de Hora é um rótulo que permite categorizar a entrada de 
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1487'
 ht-degree: 0%
 
 ---
 
 # Definir tipos de horas e disponibilidade
 
-<!--Audited: 10/2024-->
+<!--Audited: 6/2025-->
 
-Um Tipo de Hora é um rótulo que permite categorizar a entrada de tempo. Dependendo dos requisitos de horas de relatório da sua organização, essa pode ser uma parte essencial do tempo de registro.
+Um Tipo de Hora é um rótulo que permite categorizar a entrada de tempo. Dependendo dos requisitos de horas de relatório de sua organização, essa pode ser uma parte essencial do tempo de registro.
 
 Há dois conjuntos de tipos de horas no Adobe Workfront:
 
-* **Horas gerais:** horas que não estão associadas a um projeto, como um período de licença médica ou administração. Você pode registrar horas gerais somente na folha de horas.
-* **Horas específicas do projeto:** horas registradas em projetos, tarefas e problemas. Você pode registrar horas específicas do projeto de qualquer local em que possa registrar horas.
+* **Horas gerais**: horas que não estão associadas a um projeto, como horas de licença médica ou administração. Você só pode registrar horas gerais na folha de horas.
+* **Horas específicas do projeto**: horas registradas em projetos, tarefas e problemas. Você pode registrar horas específicas do projeto em qualquer local onde possa registrar horas.
 
 Ao registrar o tempo no Workfront, os tipos de horas específicos do projeto que estão disponíveis dependem das opções de configuração definidas nos níveis do sistema, do projeto e do usuário. (Os seguintes tipos de horas específicos do projeto padrão estão sempre disponíveis: Hora do projeto, Hora da tarefa e Hora do problema.)
 
 Os tipos de horas disponíveis para seleção ao registrar horas (em projetos, tarefas e problemas) são determinados primeiro pelos tipos de horas disponibilizados em todo o sistema pelo administrador do sistema e, em seguida, pelos tipos de horas selecionados nos níveis de projeto e usuário.
 
-Após a configuração dos tipos de horas apropriados, você poderá registrar horas de vários locais no Workfront, conforme descrito em [Registrar horas](../../timesheets/create-and-manage-timesheets/log-time.md).
+Após configurar os tipos de horas apropriados, você pode registrar horas de vários locais no Workfront. Para obter mais informações, consulte [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso e permissões para executar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +45,7 @@ Você deve ter o seguinte acesso e permissões para executar as etapas descritas
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Novo: Padrão</p> 
    <p>Atual: Plano</p>
    </td> 
@@ -65,21 +61,22 @@ Você deve ter o seguinte acesso e permissões para executar as etapas descritas
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Definir disponibilidade no nível do sistema
 
-O administrador do sistema determina quais tipos de horas específicos do projeto são disponibilizados em todo o sistema, conforme descrito em [Gerenciar tipos de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+O administrador do sistema determina quais tipos de horas específicos do projeto são disponibilizados em todo o sistema. Para obter mais informações, consulte [Gerenciar tipos de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Definir disponibilidade no nível do projeto {#define-availability-at-the-project-level}
 
 O proprietário do projeto determina se todos os tipos de horas definidos no nível do sistema estão disponíveis no projeto (e tarefas e problemas dentro do projeto) ou se apenas um subconjunto desses tipos de horas está disponível.
 
-1. Vá para o projeto em que deseja determinar a disponibilidade dos tipos de horas.
-1. Clique no menu **Mais** ao lado do nome do projeto no cabeçalho e clique em **Editar**.
-A caixa **Editar Projeto** é aberta.
+{{step1-to-projects}}
+
+1. Na página **Projetos**, selecione o projeto para o qual deseja determinar a disponibilidade dos tipos de horas.
+1. Clique no ícone **Mais** ![Mais ícone](assets/more-icon.png) ao lado do nome do projeto no cabeçalho e clique em **Editar**. O painel **Editar projeto** é aberto.
 
 1. Na seção **Configurações do Projeto**, localize a configuração **Filtrar Tipos de Hora**.
 
@@ -87,9 +84,7 @@ A caixa **Editar Projeto** é aberta.
 
    Ou
 
-   Selecione **Sim** para disponibilizar no projeto apenas um subconjunto dos tipos de horas específicos do projeto e, em seguida, selecione os tipos de horas que deseja disponibilizar.
-
-   Mantenha pressionada a tecla Shift para selecionar vários tipos de horas.
+   Selecione **Sim** para disponibilizar somente um subconjunto dos tipos de horas específicos do projeto no projeto e selecione os **Tipos de Horas** que deseja disponibilizar. Você pode selecionar vários tipos de horas.
 
    >[!NOTE]
    >
@@ -97,7 +92,7 @@ A caixa **Editar Projeto** é aberta.
    >   
    >   * Se você selecionar **Sim**, somente os tipos de horas selecionados serão disponibilizados para seleção ao registrar horas no projeto (ou em tarefas e problemas dentro do projeto).
    >   
-   >   * Se você selecionar **Sim** e não selecionar nenhum tipo de hora, o projeto exibirá somente tipos de hora gerais.
+   >   * Se você selecionar **Sim** e não selecionar nenhum tipo de hora, o projeto exibirá somente tipos de horas gerais.
    >
    >   * As mesmas seleções devem ser feitas no nível do usuário individual para que o usuário veja essas opções de tipo de hora no projeto.
    >
@@ -109,19 +104,17 @@ A caixa **Editar Projeto** é aberta.
 
 Você pode registrar horas para um determinado tipo de hora em projetos, tarefas e problemas somente se esse tipo de hora tiver sido disponibilizado no nível do sistema, do projeto e do usuário.
 
-Se você disponibilizar um tipo de hora no nível do usuário conforme descrito nesta seção, mas não o vir ao registrar horas em um projeto, tarefa ou problema, esse tipo de hora não será disponibilizado no projeto (conforme descrito em [Definir disponibilidade no nível do projeto](#define-availability-at-the-project-level)).
+Se você disponibilizar um tipo de hora no nível do usuário conforme descrito nesta seção, mas não o vir ao registrar o tempo em um projeto, tarefa ou problema, esse tipo de hora não terá sido disponibilizado no projeto. Para obter mais informações, consulte a seguinte seção neste artigo: [Definir disponibilidade no nível do projeto](#define-availability-at-the-project-level).
 
 Para definir os tipos de horas disponíveis para um usuário:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront, e clique no avatar do usuário, no canto superior esquerdo
+1. Clique no ícone **Menu principal** ![Ícone do Menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront, e clique no avatar do usuário, no canto superior esquerdo.
 
    Ou
 
-   Clique no ícone ![](assets/adobe-main-menu.png) do **Menu principal** no canto superior direito, se disponível, em seguida clique em **Perfil do Workfront**.
+   Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/adobe-main-menu.png) no canto superior direito, se disponível, e clique em **Perfil do Workfront**.
 
-1. Clique no menu **Mais** ao lado do nome de usuário e clique em **Editar**.
-
-   A caixa **Editar Pessoa** é aberta.
+1. Clique no ícone **Mais** ![Mais ícone](assets/more-icon.png) ao lado do nome de usuário e clique em **Editar**. A caixa **Editar Pessoa** é aberta.
 
    >[!IMPORTANT]
    >
@@ -136,13 +129,9 @@ Para definir os tipos de horas disponíveis para um usuário:
 
      Para que os tipos de horas selecionados no nível do usuário estejam disponíveis em projetos, tarefas e problemas, esses mesmos tipos de horas também devem ser selecionados na opção **Filtrar Tipos de Horas** ao editar o projeto, conforme descrito em [Definir disponibilidade no nível do projeto](#define-availability-at-the-project-level).
 
-1. (Opcional) No menu suspenso **Tipo de hora padrão**, selecione um tipo de hora.
+1. (Opcional) No menu suspenso **Tipo de hora padrão**, selecione um tipo de hora. Quando o tipo de hora padrão do usuário e um tipo de hora filtrado do projeto são correspondentes, esse tipo de hora é selecionado por padrão ao registrar o tempo.
 
-   Quando o tipo de hora padrão do usuário e um tipo de hora filtrado do projeto são correspondentes, esse tipo de hora é selecionado por padrão ao registrar o tempo.
-
-1. Clique em **Salvar alterações**.
-
-   Agora, ao registrar horas em um projeto, tarefa ou problema, os tipos de horas selecionados estarão disponíveis se esses mesmos tipos de horas tiverem sido disponibilizados no nível do projeto.
+1. Clique em **Salvar alterações**. Agora, ao registrar horas em um projeto, tarefa ou problema, os tipos de horas selecionados estarão disponíveis se esses mesmos tipos de horas tiverem sido disponibilizados no nível do projeto.
 
 ## Como os tipos de hora no nível do usuário e no nível do projeto funcionam juntos
 
@@ -152,20 +141,20 @@ A lista a seguir descreve quais tipos de horas são exibidos em um objeto após 
 
    * Quando o usuário tem um Tipo de hora padrão em seu perfil e o projeto tem o mesmo Tipo de hora filtrado, esse Tipo de hora é exibido como o padrão selecionado ao registrar o tempo; o Tempo do projeto, da tarefa ou do problema é exibido como opções adicionais.
 
-   * Quando o usuário não tem um Tipo de Hora Padrão e o Projeto tem Tipos de Hora Filtrados, o Tipo de Hora padrão ao registrar o tempo é Projeto, Tarefa ou Tempo de Problema, mas os Tipos de Hora filtrados do projeto também são exibidos como opções adicionais.
+   * Quando o usuário não tem um Tipo de hora padrão e o projeto tem Tipos de hora filtrados, o Tipo de hora padrão ao registrar o tempo é Projeto, Tarefa ou Tempo de problema, mas os Tipos de hora filtrados do projeto também são exibidos como opções adicionais.
 
    * Quando o usuário não tem um Tipo de Hora Padrão e o projeto não tem Tipos de Hora Filtrados, somente os tipos de hora Projeto, Tarefa ou Problema são exibidos como padrão, dependendo do objeto no qual você está registrando o tempo.
 
-   * Quando o usuário tem um Tipo de Hora Padrão e o projeto não tem Tipos de Hora Filtrados, o Projeto, Tarefa ou Tempo de Problema é exibido como padrão ao registrar o tempo nos objetos e nenhum outro Tipo de Hora está disponível como opções, incluindo o Tipo de Hora Padrão do usuário.
+   * Quando o usuário tem um Tipo de Hora Padrão e o projeto não tem Tipos de Hora Filtrados, o Projeto, Tarefa ou Tempo de Problema são exibidos como padrão ao registrar o tempo nos objetos e nenhum outro Tipo de Hora está disponível como opções, incluindo o Tipo de Hora Padrão do usuário.
 
 * Depois de personalizar os Tipos de horas e definir os Tipos de horas disponíveis para o seu usuário ou filtrar os Tipos de horas para um projeto, existem os seguintes cenários:
 
-   * Quando você selecionou todos os tipos de horas para o campo Tipo de hora disponível no perfil do usuário e os Tipos de hora do projeto não estão filtrados, você verá todos os tipos de horas disponíveis ao registrar horas.
-   * Quando você selecionou apenas um subconjunto de tipos de hora para o campo Tipo de hora disponível no perfil do usuário e os Tipos de hora do projeto não estão filtrados, você verá apenas os tipos de hora do usuário ao registrar horas.
-   * Quando você selecionou todos os tipos de hora para o campo Tipo de hora disponível no perfil do usuário e os Tipos de hora do projeto estão filtrados, você verá apenas os tipos de hora do projeto e os tipos de hora padrão como Tempo do projeto, Tempo da tarefa, Tempo do problema, dependendo do objeto.
-   * Quando você selecionou apenas um subconjunto de tipos de hora para o campo Tipo de hora disponível no perfil do usuário e os Tipos de hora do projeto estão filtrados, você verá apenas os tipos de hora que são comuns ao usuário e ao projeto. Se nenhum tipo de hora for comum ao usuário e ao projeto, somente os tipos de hora padrão serão exibidos (Hora do projeto, Hora da tarefa, Hora do problema).
+   * Quando você selecionou todos os tipos de horas para o campo Tipo de hora disponível no perfil do usuário e os Tipos de hora do projeto não são filtrados, você verá todos os tipos de horas disponíveis ao registrar horas.
+   * Quando você selecionou apenas um subconjunto de tipos de hora para o campo Tipo de hora disponível no perfil do usuário e os Tipos de hora do projeto não são filtrados, você verá apenas os tipos de hora do usuário ao registrar horas.
+   * Quando você selecionou todos os tipos de horas para o campo Tipo de hora disponível no perfil do usuário e os Tipos de hora do projeto são filtrados, você verá apenas os tipos de horas do projeto e os tipos de horas padrão como Tempo do projeto, Tempo da tarefa, Tempo do problema, dependendo do objeto.
+   * Quando você selecionou apenas um subconjunto de tipos de hora para o campo Tipo de hora disponível no perfil do usuário e os Tipos de hora do projeto são filtrados, você verá apenas os tipos de hora que são comuns ao usuário e ao projeto. Se nenhum tipo de hora for comum ao usuário e ao projeto, somente os tipos de hora padrão serão exibidos (Hora do projeto, Hora da tarefa, Hora do problema).
 
 >[!TIP]
 >
->   Se você selecionar um tipo de hora diferente em vez do tipo de hora padrão para um objeto, o tipo de hora se tornará fixo. Na próxima vez que você fizer logon no mesmo objeto, o Tipo de hora assumirá automaticamente como padrão o tipo selecionado pela última vez.
+>   Se você selecionar um tipo de hora diferente do tipo de hora padrão para um objeto, o tipo de hora se tornará fixo. Na próxima vez que você fizer logon no mesmo objeto, o Tipo de hora assumirá automaticamente como padrão o tipo selecionado pela última vez.
 

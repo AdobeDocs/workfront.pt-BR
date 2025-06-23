@@ -6,24 +6,22 @@ description: Você pode organizar os tipos de problemas ou solicitações que es
 author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '363'
 ht-degree: 2%
 
 ---
 
 # Definir Tipos de Solicitação para um projeto
 
-Você pode organizar os tipos de problemas ou solicitações que estão conectados no Adobe Workfront por Tipos de solicitação.
+<!-- Audited: 6/2025 -->
 
-Essa organização é útil para relatar motivos e ajudar os usuários a entender que tipo de trabalho inesperado pode ocorrer durante a vida útil de um projeto.
+Você pode organizar os tipos de problemas ou solicitações que estão conectados no Adobe Workfront por Tipos de solicitação. Isso é útil para relatar motivos e ajudar os usuários a entender que tipo de trabalho inesperado pode ocorrer durante a vida útil de um projeto.
 
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +35,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
     <p>Novo: Padrão</p>
-    <p>ou</p>
     <p>Atual: Plano</p></td>  
   </tr> 
   <tr> 
@@ -59,13 +56,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Antes de começar, você deve fazer o seguinte:
 
-* Ter ou criar um projeto
+* Ter ou criar um projeto.
 
   Para obter informações sobre como criar projetos, consulte [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Considerações sobre tipos de solicitação
 
-* Você pode especificar o tipo de problemas ou solicitações que podem ser registradas em um projeto ao configurar a área **Detalhes da fila** para o projeto.
+* Você pode especificar o tipo de problemas ou solicitações que podem ser registradas em um projeto ao configurar a área Detalhes da fila para o projeto.
 * Você não precisa ativar o projeto para ser uma fila de solicitações para poder definir Tipos de solicitação para um projeto. Quaisquer problemas registrados para um projeto podem ser rotulados com um Tipo de solicitação diferente.
 * Se você adicionar Tópicos de fila ao seu projeto, deverá definir Tipos de solicitação em cada tópico de fila para exibi-los ao adicionar um novo problema ou solicitação. Para obter mais informações, consulte [Criar tópicos da fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
@@ -73,25 +70,17 @@ Antes de começar, você deve fazer o seguinte:
 
 {{step1-to-projects}}
 
-1. Clique no nome do projeto para abri-lo.
+1. Na página **Projetos**, selecione um projeto.
 1. No painel esquerdo, clique em **Detalhes da fila**.
-1. Na seção **Propriedades da fila**, selecione os **Tipos de solicitação** desejados para o projeto.
-
-   >[!NOTE]
-   >
-   >Você deve ter pelo menos um tipo de solicitação selecionado. Você pode selecionar vários tipos de solicitação.
-
-   Selecione entre os seguintes tipos:
-
+1. Na seção **Propriedades da fila**, selecione os **Tipos de solicitação** desejados para o projeto:
    * Relatório de erro
    * Pedido de alteração
    * Problema
    * Solicitar
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >O administrador do Workfront pode ter renomeado algumas dessas opções. Para obter informações, consulte [Configurar tipos de solicitação](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
+   >* Você deve ter pelo menos um tipo de solicitação selecionado. É possível selecionar vários tipos.
+   >* O administrador do Workfront pode ter renomeado algumas dessas opções. Para obter informações, consulte [Configurar tipos de solicitação](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
-1. Clique em **Salvar**.
-
-   Os tipos de solicitação especificados estarão disponíveis para seleção quando você informar um novo problema em uma tarefa ou um projeto, ou quando submeter uma nova solicitação ao projeto, se o projeto estiver ativado como uma fila de solicitações.
+1. Clique em **Salvar**. Os tipos de solicitação especificados estarão disponíveis para seleção quando você informar um novo problema em uma tarefa ou um projeto, ou quando submeter uma nova solicitação ao projeto (se o projeto estiver ativado como uma fila de solicitações).
