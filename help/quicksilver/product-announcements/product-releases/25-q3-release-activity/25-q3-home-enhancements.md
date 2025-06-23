@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,7 @@ Para obter informações, consulte [Usar a área Minhas atualizações](/help/qu
 
 Atualizamos o widget Minhas aprovações na página inicial para classificar por prazo (decrescente) por padrão. Isso permite que as aprovações mais urgentes sejam exibidas no topo da lista.
 
+Atualmente, somente Aprovações de provas podem ser classificadas por prazo no widget Minhas aprovações.
+
 Anteriormente, o widget era classificado por data de entrada, o que tornava difícil determinar a prioridade.
+

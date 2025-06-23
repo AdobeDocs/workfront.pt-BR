@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1497'
 ht-degree: 3%
 
 ---
@@ -61,8 +61,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Atualização do Visualizador de Revisores de Texto para Desktop</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>O Desktop Proofing Viewer foi atualizado para a versão 2.1.50.
-Essa atualização inclui atualizações internas de ferramentas e não afeta a funcionalidade do usuário final. </p>
+            <p>O Desktop Proofing Viewer foi atualizado para a versão 2.1.50. Essa atualização inclui atualizações internas de ferramentas e não afeta a funcionalidade do usuário final.</p>
         </td>
         <td>sábado, 13 de junho de 2025</td>
         <td>sábado, 13 de junho de 2025</td>
@@ -141,7 +140,7 @@ Essa atualização inclui atualizações internas de ferramentas e não afeta a 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Meu widget de aprovações agora classifica automaticamente por prazo de conclusão </a><p></p>
-            <p>Atualizamos o widget Minhas aprovações na página inicial para classificar por prazo (decrescente) por padrão. Isso permite que as aprovações mais urgentes sejam exibidas no topo da lista. </p>
+            <p>Atualizamos o widget Minhas aprovações na página inicial para classificar por prazo (decrescente) por padrão. Isso permite que as aprovações mais urgentes sejam exibidas no topo da lista. </p><p><b>Observação:</b> atualmente, somente aprovações de provas podem ser classificadas por prazo no widget Minhas aprovações.</p>
         </td>
         <td>sexta-feira, 29 de maio de 2025</td>
         <td>sexta-feira, 12 de junho de 2025</td>
@@ -288,7 +287,7 @@ Estamos atualizando a interface em todo o Adobe Workfront para melhorar a experi
 
 ### Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento padrão. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento padrão. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Melhorias no planejamento do Workfront
 
@@ -326,7 +325,7 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
