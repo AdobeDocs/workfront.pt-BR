@@ -5,9 +5,9 @@ description: Visão geral do Assistente de IA
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
+source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ Para solicitar o contrato da Adobe Gen AI:
 1. Quando a mensagem do contrato da Adobe Gen AI for exibida, clique em **Revisar contrato**.
 1. Insira o nome e o endereço de email da pessoa da sua organização que assinará o contrato de IA de geração da Adobe.
 
-   O contrato será enviado a este indivíduo para assinatura. Depois de assinado e retornado, o Assistente de IA é ativado para a sua organização.
+   O contrato será enviado a este indivíduo para assinatura. Depois de assinado e devolvido, o contrato é revisado pela Adobe e o Assistente de IA é ativado para a sua organização.
 
 ## Dicas para criar prompts no Assistente de IA
 
