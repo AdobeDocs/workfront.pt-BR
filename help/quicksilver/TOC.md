@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: d5b0043ed251bfdb6501d091cf10d77685bc497b
 workflow-type: tm+mt
-source-wordcount: '13266'
+source-wordcount: '13201'
 ht-degree: 2%
 
 ---
@@ -1699,17 +1699,6 @@ ht-degree: 2%
          * [Compartilhar um painel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [Remover uma Página Externa de um painel](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
          * [Visão geral dos Painéis do Canvas](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-   * Analítica aprimorada {#enhanced-analytics}
-      * [Analítica aprimorada](enhanced-analytics/enhanced-analytics.md)
-      * [Visão geral da análise aprimorada](enhanced-analytics/enhanced-analytics-overview.md)
-      * [Aplicar filtros na análise aprimorada](enhanced-analytics/use-enhanced-analytics-filters.md)
-      * [Entender KPIs do Enhanced Analytics](enhanced-analytics/understand-enhanced-analytics-kpis.md)
-      * [Exibir a visualização de Plano de voo na Análise aprimorada](enhanced-analytics/flight-plan-overview.md)
-      * [Exibir a visualização de Burndown na análise aprimorada](enhanced-analytics/burndown-overview.md)
-      * [Visualização das Tarefas em andamento na Análise aprimorada](enhanced-analytics/tasks-in-flight-overview.md)
-      * [Exibir a visualização da atividade Projeto na Análise aprimorada](enhanced-analytics/project-activity-overview.md)
-      * [Visualização do mapa de árvore do projeto na Análise aprimorada](enhanced-analytics/project-treemap-overview.md)
-      * [Visualização da Atividade por equipe na Análise aprimorada](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Visão geral da Conexão de dados do Workfront](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Criar uma conta ou conexão de leitor para o Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
