@@ -6,9 +6,9 @@ description: Programar uma entrega automática de relatório
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1309'
 ht-degree: 2%
 
 ---
@@ -98,7 +98,7 @@ Para agendar um relatório para entrega automática:&#x200B;
       <td role="rowheader"> <p>Enviar para</p> </td> 
       <td> <p>Comece digitando o nome do usuário, grupo, equipe ou função para o qual deseja enviar o relatório e clique no nome quando ele aparecer na lista suspensa.</p> <p>Ou</p> <p>Insira o endereço de email de uma pessoa externa ao sistema Workfront que deseja que tenha acesso ao relatório.</p> <p>Repita esse processo para enviar o relatório para vários usuários, grupos, equipes ou funções.</p> <p>Nota:  <p>Considere o seguinte ao adicionar recipients do delivery de relatório:</p> 
         <ul> 
-         <li>Se sua organização restringir notificações do Workfront a domínios de email específicos, você só poderá enviar relatórios para os endereços de email listados na inclui na lista de permissões de email.<p>Para obter informações sobre como um administrador do Workfront incluir na lista de permissões incluir na lista de permissões atualiza o arquivo de email, consulte a seção <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configurar sua pesquisa de email</a>.</p></li> 
+         <li><p>Se sua organização restringir notificações do Workfront a domínios de email específicos, você só poderá enviar relatórios para os endereços de email listados no arquivo de inclui na lista de permissões de email.</p> <p>Incluir na lista de permissões Por exemplo, quando um usuário é definido como um recipient de relatório e tem um endereço de email que era permitido anteriormente e o arquivo é atualizado para não mais entregar emails para esse domínio, o usuário não receberá mais relatórios entregues.</p><p>Para obter informações sobre como um administrador do Workfront incluir na lista de permissões incluir na lista de permissões atualiza o arquivo de email, consulte a seção <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Configurar sua pesquisa de email</a>.</p></li> 
          <li> <p>Adicionar um grande número de usuários como recipients pode causar falha no delivery. Se você tiver falhas de delivery, poderá agendar vários deliveries de relatório com grupos menores de usuários.</p> </li> 
         </ul> </td> 
      </tr> 
