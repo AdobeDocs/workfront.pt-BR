@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
+source-git-commit: 1cf16fd93de383aae66ba810ad85dd00806b8237
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1341'
 ht-degree: 2%
 
 ---
@@ -99,6 +99,8 @@ Alguns cenários simples de regras de negócios são:
   ```
   IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
   ```
+
+O sistema permite uma regra de negócios por objeto por acionador. Por exemplo, uma regra de acionador de edição é permitida para ocorrências. No entanto, você pode incluir várias regras em uma fórmula com instruções IF aninhadas.
 
 Um cenário com instruções IF aninhadas é:
 
