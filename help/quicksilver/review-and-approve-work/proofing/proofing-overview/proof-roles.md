@@ -7,9 +7,9 @@ description: Funções de prova permitem conceder permissões em provas individu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
+source-git-commit: 93452926a27026f2b0e8a7a807381d562d7cbb01
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,6 @@ Funções de prova permitem conceder permissões em provas individuais. As funç
 ## Funções de prova
 
 As funções de prova são concedidas aos usuários para uma prova individual no momento em que o usuário é convidado a revisar a prova. Se você tiver um plano do Workfront Pro+, poderá conceder funções de prova a usuários com uma licença de Trabalho ou Plano. Se você tiver um plano Workfront Premium Legacy, poderá conceder funções de prova a usuários com uma licença de prova designada. Para obter mais informações, consulte [Acesso à funcionalidade de revisão de texto no Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-
->[!NOTE]
->
->Os usuários nos novos planos do Workfront podem conceder funções de autor ou moderador a qualquer usuário no sistema. Os usuários em planos herdados podem conceder funções de autor ou moderador a qualquer usuário com uma licença de prova no sistema.
 
 A função de prova define quais ações um revisor pode realizar em relação a essa prova específica.
 
@@ -68,7 +64,7 @@ Certas funções de prova fornecem direitos de edição de revisor na prova (mes
  <tbody> 
   <tr> 
    <td> <p><strong>Somente Leitura</strong> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -77,90 +73,94 @@ Certas funções de prova fornecem direitos de edição de revisor na prova (mes
    <td> </td> 
    <td> </td> 
    <td> <p> </p> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Oliveira</strong> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
    <td></td> 
    <td> <p> </p> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Aprovador</strong> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
    <td></td> 
    <td> <p> </p> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Revisor e Aprovador</strong> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
    <td></td> 
    <td> <p> </p> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Autor</strong> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
+   <td> <p><strong>Autor*</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td> <p>✓ µ</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Moderador</strong> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ <strong></strong> </p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> </td> 
-   <td> <p>✓ µ</p> <p> </p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td> <p>✓ µ</p> </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td> <p><strong>Moderador*</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p><strong> ✔</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> <p> </p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
+
+<p>* Os usuários nos novos planos do Workfront podem conceder funções de autor ou moderador a qualquer usuário do sistema, mas somente os usuários com uma licença Standard podem usar todos os recursos associados a essas funções.
+
+Os usuários em planos herdados podem conceder funções de autor ou moderador a qualquer usuário com uma licença de prova no sistema.</p>
