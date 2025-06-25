@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2647'
 ht-degree: 3%
 
 ---
@@ -51,6 +51,9 @@ Os seguintes tópicos oferecem suporte à API de assinatura de evento:
 
 Os seguintes objetos do Workfront são suportados por assinaturas de evento.
 
+* Aprovação
+* Estágio de aprovação
+* Participante do estágio de aprovação
 * Atribuição
 * Empresa
 * Painel
@@ -105,6 +108,18 @@ O recurso de assinatura contém os seguintes campos.
        </tr> 
       </thead> 
       <tbody> 
+       <tr> 
+        <td scope="col">Aprovação</td> 
+        <td scope="col"><p>aprovação</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Estágio de aprovação</td> 
+        <td scope="col"><p>approval_stage</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Participante do estágio de aprovação</td> 
+        <td scope="col"><p>approval_stage_component</p></td> 
+       </tr> 
        <tr> 
         <td scope="col">Atribuição</td> 
         <td scope="col"><p>ATRIBUIR</p></td> 
@@ -793,7 +808,7 @@ Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo
 >[!NOTE]
 >
 >A assinatura abaixo com o filtro fornecido só retornará mensagens em que o nome da tarefa contém `again` no `oldState`, qual era antes de uma atualização ser feita na tarefa.
->&#x200B;>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
+>>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
 
 ```
 {

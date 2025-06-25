@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: e53f845a00245049ac78616848d243453b2d57eb
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 9%
+source-wordcount: '848'
+ht-degree: 10%
 
 ---
 
@@ -21,6 +21,10 @@ Os campos de recurso de assinatura de evento representam acionadores para evento
 Observe que os dados podem ser filtrados usando a filtragem aninhada. Para obter mais informações, consulte [Uso de filtros aninhados](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) no artigo API de Assinatura de Evento.
 
 A tabela a seguir lista os campos disponíveis para recursos de assinatura de eventos:
+
+>[!NOTE]
+>
+>Alguns objetos estão disponíveis somente nas Assinaturas de Eventos versão 2. Esses objetos são anotados na tabela.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,6 +38,200 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td>Aprovação<p>(Subs de Evento v2)</p></td> 
+   <td>aprovação</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>Estágio de aprovação<p>(Subs de Evento v2)</p></td> 
+   <td>approval_stage</td> 
+   <td>approvalID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> name </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>Participante do estágio de aprovação<p>(Subs de Evento v2)</p></td> 
+   <td>approval_stage_component</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisão </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisionDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisionUserID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID do participante </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> componentMetadata </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> FunçãoParticipante </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> componentType </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> realUserID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> requesterID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> stageID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>status</td> 
+  </tr> 
   <tr> 
    <td>Atribuição</td> 
    <td>ATRIBUIR</td> 
@@ -806,7 +1004,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
-   <td>Campo</td> 
+   <td>Campo<p>(Subs de Evento v2)</p></td> 
    <td>CAMPO</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1876,7 +2074,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
    <td><span>requesterID</span> </td> 
   </tr> 
   <tr> 
-   <td>Registro</td> 
+   <td>Registro<p><p>(Subs de Evento v2)</p></td> 
    <td>GRAVAR</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1921,7 +2119,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
    <td>updatedAt</td> 
   </tr> 
   <tr> 
-   <td>Tipo de registro </td> 
+   <td>Tipo de registro<p><p>(Subs de Evento v2)</p> </td> 
    <td>RECORD_TYPE </td> 
    <td>cor</td> 
   </tr> 
@@ -2776,7 +2974,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
-   <td>Espaço de trabalho</td> 
+   <td>Espaço de trabalho<p><p>(Subs de Evento v2)</p></td> 
    <td>WORKSPACE</td> 
    <td>cor</td> 
   </tr> 
