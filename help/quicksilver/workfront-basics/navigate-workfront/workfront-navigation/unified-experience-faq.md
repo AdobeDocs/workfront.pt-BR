@@ -6,9 +6,9 @@ description: Alguns recursos são diferentes entre o [!DNL Workfront] e o Adobe 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f59643eb3722c72fc8cbb5009223af143ac240d8
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,13 @@ Para obter informações sobre o [!DNL Admin Console], leia estes artigos:
 
 Os clientes existentes serão contatados para agendar as migrações. Os colegas de suporte da equipe de migração guiarão os clientes pelo processo, orientarão a configuração do [!DNL Admin Console] e fornecerão links para a documentação necessária para tornar a mudança o mais simples e simples possível.
 
-* [[!DNL Adobe Workfront] Visão geral do suporte](https://experienceleague.adobe.com/pt-br/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] informações](https://experienceleague.adobe.com/pt-br/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] e [!DNL Admin Console] Perguntas frequentes](https://experienceleague.adobe.com/pt-br/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] Visão geral do suporte](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] informações](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] e [!DNL Admin Console] Perguntas frequentes](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### Como você está lidando com [!DNL Adobe Admin Console] para empresas que já têm isso habilitado para IDs federadas de forma diferente da configuração do SSO [!DNL Workfront]?
 
-[!DNL Adobe Admin Console] tem a opção de incluir [!DNL Workfront], substituindo SSO por IMS. Todo o provisionamento de usuários acontece no [!DNL Admin Console], e os usuários verão a tela de logon [!DNL Adobe] chegar ao [!DNL Experience Cloud], onde verão [!DNL Workfront] como uma opção (se tiverem acesso a ela).
+[!DNL Adobe Admin Console] tem a opção de incluir [!DNL Workfront], substituindo SSO pelo Identity Management System (IMS) da Adobe. Todo o provisionamento de usuários acontece no [!DNL Admin Console], e os usuários verão a tela de logon [!DNL Adobe] chegar ao [!DNL Experience Cloud], onde verão [!DNL Workfront] como uma opção (se tiverem acesso a ela).
 
 ### Como isso afeta os clientes que já têm o painel de administração do AEM para [!DNL Adobe Assets], mas o SSO é configurado de forma diferente do [!DNL Workfront?]
 
@@ -77,7 +77,7 @@ Depois que [!DNL Workfront] for adicionado como um aplicativo [!DNL Admin Consol
 
 SSO está configurado no [!DNL Admin Console] e herdado pelo aplicativo [!DNL Workfront].
 
-### O SSO com nosso [!DNL Active Directory] interno ainda será uma opção para IMS?
+### O SSO com nosso [!DNL Active Directory] interno ainda será uma opção para o Identity Management System (IMS) da Adobe?
 
 O IMS substitui o SSO e funciona basicamente da mesma maneira. Todas as permissões de usuário são concedidas e provisionadas em [!DNL Adobe Admin Console], e o usuário verá a tela de logon [!DNL Adobe], onde poderá escolher &quot;[!UICONTROL Conta Pessoal]&quot; ou &quot;[!UICONTROL Conta da Empresa]&quot; para fazer logon (se você tiver [!DNL Active Directory], a maioria fará logon com uma conta da empresa).
 
@@ -103,7 +103,7 @@ A conta de cliente [!DNL Workfront] inteira será migrada. Isso não pode ser fe
 
 ### Todos os [!DNL Workfront] usuários terão que fazer login via [!DNL Experience Cloud]? Ou apenas administradores?
 
-Sim, todos os usuários farão logon via [!DNL Experience Cloud]. O logon IMS substituirá o SSO. É uma experiência muito semelhante, apenas uma tela de logon diferente.
+Sim, todos os usuários farão logon via [!DNL Experience Cloud]. O logon do Adobe Identity Management System (IMS) substituirá o SSO. É uma experiência muito semelhante, apenas uma tela de logon diferente.
 
 ### Os usuários terão que vincular suas contas do [!DNL Adobe] às suas contas do [!DNL Workfront] se já tiverem ambas?
 
