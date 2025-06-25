@@ -7,20 +7,22 @@ description: Os usuários associados a um projeto em alguma capacidade compõem 
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 1b2180fd33da153c7f8b698cd17df2eb10669ce9
+source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
 # Visão geral da equipe do projeto
 
-Os usuários associados a um projeto em alguma capacidade compõem a equipe do projeto. Os usuários listados na área Pessoas de um projeto são os usuários que compõem a equipe do projeto. Por exemplo, os usuários atribuídos para trabalhar no projeto ou o proprietário do projeto fazem parte da equipe do projeto.
+<!-- Audited: 6/2025 -->
+
+Uma equipe de projeto consiste em usuários associados a um projeto em alguma capacidade. Os usuários listados na área Pessoas de um projeto formam a equipe do projeto. Por exemplo, os usuários atribuídos para trabalhar no projeto ou o proprietário do projeto fazem parte da equipe do projeto.
 
 ## Membros da Equipe do Projeto
 
-Você pode atribuir usuários a uma equipe de projeto manual ou automaticamente. Para obter mais informações, consulte a seção &quot;Adicionar usuários a uma Equipe do Projeto&quot; no artigo [Gerenciar a Equipe do Projeto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+Você pode atribuir usuários a uma equipe de projeto manual ou automaticamente. Para obter mais informações, consulte a seção Adicionar usuários a uma Equipe do Projeto no artigo [Gerenciar a Equipe do Projeto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 Quando você adiciona usuários manualmente à Equipe do projeto, eles recebem permissões de exibição para o projeto, bem como tarefas, problemas e documentos do projeto.
 
@@ -45,7 +47,7 @@ Se você não quiser exigir que o usuário esteja na equipe do projeto para apro
 
 ## Filtro de Projetos em que estou trabalhando
 
-Se um usuário estiver listado na área Pessoas de um projeto, esse projeto aparecerá quando ele aplicar o filtro Projetos em que estou em uma lista de projetos ou um relatório de projeto.
+Se um usuário estiver listado na área Pessoas de um projeto, esse projeto aparecerá quando ele aplicar o filtro Projetos em que estou em uma lista de projetos ou relatório de projeto.
 
 Você pode ver se o filtro Projetos em que estou trabalhando está selecionado no cabeçalho da área Projetos. Você pode aplicá-lo a partir do painel Filtros ou do cabeçalho.
 
