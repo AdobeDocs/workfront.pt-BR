@@ -9,9 +9,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: f35da9077b0422ba939ed9f6285835897f28874c
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -20,16 +20,22 @@ ht-degree: 1%
 
 <!--Audited: 05/2025-->
 
-<!--Audited: 07/2024-->
-
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
+<div class="preview">
+
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes após uma semana da versão de Pré-visualização.
+
+Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
+
 Os tipos de horas são rótulos usados para definir suas entradas de horas. Você pode associar tipos de horas a suas entradas de horas.
 
-Há dois conjuntos de tipos de horas:
+Há duas categorias de tipos de horas:
 
-* Tipos de horas específicas do projeto: este é o tempo registrado em projetos, tarefas e problemas. Tipos de hora específicos do projeto podem ser associados a entradas de hora em qualquer lugar no [!DNL Adobe Workfront], onde você pode registrar horas para projetos, tarefas e problemas.
+* **Tipos de Horas Específicas do Projeto**: Este é o tempo gasto em projetos, tarefas e problemas. Tipos de hora específicos do projeto podem ser associados a entradas de hora em qualquer lugar no [!DNL Adobe Workfront], onde você pode registrar horas para projetos, tarefas e problemas.
 
   Ao registrar horas em [!DNL Workfront], os tipos de horas específicos do projeto que estão disponíveis dependem das opções de configuração definidas nos níveis de sistema, projeto e usuário.
 
@@ -45,15 +51,13 @@ Há dois conjuntos de tipos de horas:
   >
   >Se você habilitar qualquer tipo de hora específico de projeto no sistema [!DNL Workfront], pelo menos um tipo de hora específico de projeto deve ser habilitado em cada projeto no sistema. Você não pode ativar um tipo de hora específico do projeto no nível do sistema e não tem tipos de hora específicos do projeto disponíveis no nível do projeto.
 
-* Tipos de horas gerais: horas gerais não podem ser associadas a um projeto, tarefa ou problema, e são registradas diretamente em uma folha de horas.
+* **Tipos de Horas Gerais**: as horas gerais não podem ser associadas a um projeto, tarefa ou problema, e estão registradas diretamente em uma folha de horas.
 
 Para obter informações sobre como registrar horas e associá-las a tipos de horas, consulte [Registrar tempo](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -64,19 +68,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td> <p>Novo: Padrão</p>
    <p>Ou</p>
    <p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td role="rowheader">Nível de acesso</td> 
    <td>Administrador de Sistema</td>
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,15 +99,19 @@ Os tipos de horas que vêm com [!DNL Workfront] são:
 
 ## Criar tipos de horas
 
-Como administrador do [!DNL Workfront], você pode criar novos tipos de horas para sua organização nos níveis do sistema e do projeto. Posteriormente, os usuários podem definir quais tipos de horas estão disponíveis para projetos e usuários específicos. Para obter mais informações, consulte [Definir tipos de hora e disponibilidade](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+Como administrador do [!DNL Workfront], você pode criar tipos de horas para sua organização no nível do sistema e do projeto.
 
-Para criar novos tipos de horas:
+Após definir os tipos de horas no nível do sistema, os usuários podem definir quais tipos de horas estão disponíveis para projetos específicos ou para usuários específicos.
+
+Para obter mais informações, consulte [Definir tipos de hora e disponibilidade](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+
+Para criar tipos de horas:
 
 {{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Folhas de horas e Horas** e em **Tipos de horas**.
 
-1. Na seção **Tipos de Hora**, clique em **+ Novo Tipo de Hora**.
+1. Na seção **Tipos de Hora**, clique em **Novo Tipo de Hora**.
 1. Na caixa de diálogo **Novos Tipos de Hora**, especifique as seguintes informações:
 
    <table style="table-layout:auto"> 
@@ -135,9 +143,18 @@ Para criar novos tipos de horas:
 
 1. Clique em **[!UICONTROL Criar Tipo de Hora].**
 
+   O tipo de hora é adicionado ao sistema do Workfront e é ativado por padrão.
+
 ## Desativar tipos de horas
 
 Você pode desativar os tipos de horas se não quiser mais que os usuários associem suas horas a eles. A desativação de tipos de horas os oculta de qualquer lugar em [!DNL Workfront] onde os tipos de horas estejam visíveis.
+
+>[!NOTE]
+>
+>* Não é possível desativar os tipos de horas predefinidos.
+>* Quando você desativa um Tipo de Hora específico do projeto, todo o tempo registrado para esse tipo automaticamente usa como padrão um tipo de hora específico do projeto interno. Por exemplo, o tempo registrado para um projeto assume como padrão o tipo de hora Tempo do Projeto; o tempo registrado para uma tarefa assume como padrão o tipo de hora Tempo da Tarefa.
+>
+
 
 Para desativar um tipo de hora:
 
@@ -147,6 +164,12 @@ Para desativar um tipo de hora:
 
 1. Selecione o tipo de hora que deseja desativar.
 
-1. Clique em **[!UICONTROL Desativar]**.
 
-   ![Botão Desativar](assets/deactivate-button.png)
+1. <span class="preview">Clique em **Mais** e depois em **Desativar**.</span>
+
+   <span class="preview">![Ativar e desativar links de tipo de hora](assets/activate-and-deactivate-hour-type-links.png)</span>
+
+   <span class="preview">O tipo de hora está desativado e os usuários não podem mais localizá-lo durante o registro de horas.</span>
+
+1. <span class="preview">(Opcional) Para reativar um tipo de hora, selecione-o na lista **Tipos de Hora** e clique em **Mais** > **Ativar**. </span>
+

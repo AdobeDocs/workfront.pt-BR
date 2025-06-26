@@ -2,26 +2,30 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Excluir perfis de planilha de horas
-description: Você pode excluir um perfil de planilha de horas.
+description: Você pode excluir um perfil de planilha de horas que pode não ser mais relevante.
 author: Alina
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
 
 # Excluir perfis de planilha de horas
 
-Você pode excluir um perfil de planilha de horas.
+<!--Audited:6/2025-->
+
+A criação e atribuição de perfis de folha de horas a usuários garante a consistência na maneira como o Adobe Workfront cria suas folhas de horas.
+
+Você pode excluir um perfil de planilha de horas que pode não ser mais relevante.
 
 Para obter informações sobre perfis de folha de horas, consulte [Criar, editar e atribuir perfis de folha de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,17 +36,21 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Plano </p> </td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td> <p>Novo: Padrão</p>
+   Ou
+   <p>Atual: Plano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Você deve ter acesso administrativo a Planilhas de Horas. </p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p>  <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Você deve ter acesso administrativo a Planilhas de Horas. </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Excluir perfis de planilha de horas
 
@@ -55,5 +63,10 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    Se você estiver excluindo um perfil de planilha de horas de um grupo, clique em **Grupos** e, em seguida, clique no nome do grupo.
 
 1. Clique em **Perfis de Planilha de Horas**.
-1. Selecione pelo menos um perfil de planilha de horas que você deseja excluir e clique em **Mais > Excluir**.
-1. Na caixa de mensagem exibida, clique em **Sim, Excluir I** t.
+1. Selecione pelo menos um perfil de planilha de horas que você deseja excluir e clique em **Mais** > **Excluir**.
+1. (Condicional) Se o perfil da folha de horas já estiver atribuído aos usuários, a caixa **Perfil de Folha de Horas de Substituição** será exibida. Faça o seguinte:
+   1. Selecione outro perfil de planilha de horas na lista suspensa. O perfil de planilha de horas que você está excluindo será substituído pelo perfil de planilha de horas com o qual você o substitui para todos os usuários atribuídos. As folhas de horas serão geradas de acordo com o perfil atribuído recentemente no ciclo de geração de folha de horas a seguir.
+   1. Clique em **Excluir** para confirmar a exclusão.
+1. (Condicional) Se o perfil de folha de horas não for atribuído a usuários, a caixa **Excluir folha de horas** será exibida.
+
+   Clique em **Excluir** para confirmar a exclusão.

@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Visualizar Horas Efetivas
-description: As horas em que você faz logon nos itens de trabalho no Adobe Workfront são consideradas Horas Reais.
+description: As horas em que você faz logon nos itens de trabalho no Adobe Workfront são consideradas Horas Reais. As Horas Reais representam o tempo real que você levou para concluir uma tarefa, problema ou um projeto.
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 *Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Horas efetivas vs. horas efetivas herdadas
+
+Dependendo da área do Workfront em que você acessa as horas reais, elas podem se referir a uma das seguintes horas reportadas:
+
+* Em relatórios e listas de projetos, tarefas e problemas:
+
+   * **Horas efetivas**: horas registradas para projetos, tarefas ou problemas após maio de 2021. Eles são armazenados no banco de dados do Workfront em horas e seu campo de valor é `actualWorkRequiredDouble`.
+   * **Horas Reais Herdadas**: horas registradas para projetos, tarefas ou problemas a qualquer momento, inclusive antes de maio de 2021. Eles são armazenados no banco de dados do Workfront como minutos e seu campo de valor é `actualWorkRequired`. <!--check below and see if you need to add this to the API section - asked on the tech doc task -->
+
+* Na área Detalhes do projeto, tarefa ou problema:
+
+   * **Horas efetivas**: horas registradas para projetos, tarefas ou problemas a qualquer momento, inclusive antes de maio de 2021. Elas correspondem às Horas Reais Herdadas em relatórios e listas. Eles são armazenados no banco de dados do Workfront como minutos e seu campo de valor é `actualWorkRequired`.
 
 ## Horas efetivas de tarefas e problemas versus Horas efetivas de projetos
 
@@ -134,7 +147,7 @@ Se quiser ver o progresso do trabalho que seus usuários estão fazendo nas tare
   Para obter informações, consulte [Exibir Horas Disponíveis, Planejadas e Efetivas ou FTE no Planejador de Recursos ao usar a exibição Usuário](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 
-### Horas efetivas na API <!--, and custom data--> do Workfront <!--database and the-->
+### Horas efetivas na API do Workfront
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -142,14 +155,13 @@ A maioria dos campos do Workfront que armazenam horas é salva no banco de dados
 
 Você deve considerar a conversão de minutos em horas ao acessar esses campos em chamadas de API ou em campos ou colunas personalizados calculados.
 
-Dependendo de como você está acessando as Horas Reais, elas podem ser armazenadas nos seguintes campos e unidades no banco de dados:
+As Horas Reais registradas de projetos, tarefas ou problemas estão atualmente armazenadas no banco de dados do Workfront como minutos e seu campo de valor é `actualWorkRequired`.
 
-* Na API: com a seguinte versão da API do Workfront agendada para lançamento no final de 2025, o `valuefield` para Horas efetivas é `actualWorkRequiredDouble`, que é armazenado em horas. A versão atual armazenou as Horas Efetivas como `actualWorkRequired`, que são armazenadas em minutos.
-* Na interface do Workfront (colunas e campos personalizados calculados): o `valuefield` para Horas efetivas é `actualWorkRequired`, que é armazenado em minutos.
+Com a seguinte versão da API do Workfront programada para ser lançada posteriormente em 2025, dependendo de como você está acessando as Horas efetivas, elas podem ser armazenadas nos seguintes campos e unidades no banco de dados:
 
-<!--Change the above with this when we fix this for the Workfront UI: 
+* **Horas efetivas**: horas registradas para projetos, tarefas ou problemas após maio de 2021. Eles são armazenados no banco de dados do Workfront em horas e seu campo de valor é `actualWorkRequiredDouble`.
 
-You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
+* **Horas Reais Herdadas**: horas registradas para projetos, tarefas ou problemas a qualquer momento, inclusive antes de maio de 2021. Eles são armazenados no banco de dados do Workfront como minutos e seu campo de valor é `actualWorkRequired`.
 
 Para obter informações sobre como usar as Horas Efetivas em colunas calculadas ou campos, consulte [Perguntas Frequentes sobre Relatórios](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 

@@ -6,16 +6,14 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '795'
 ht-degree: 6%
 
 ---
 
 # Visão geral dos campos de fórmula
-
-<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
@@ -104,6 +102,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 * Os campos de fórmula fazem referência a campos que pertencem ao mesmo tipo de registro.
 * Você pode fazer referência a campos de outros tipos de registro somente quando você conecta outro tipo de registro ao que está criando um campo de fórmula para.
+* &lt;span class-&quot;preview&quot;>A referência a tipos de registros conectados ou a seus campos de pesquisa em uma fórmula depende de suas permissões para os tipos de registros conectados. Se você não tiver permissões para exibir o tipo de registro, não poderá fazer referência a seus campos em uma fórmula. </span>
 * Não é possível alterar o tipo Field de um campo Formula depois de salvá-lo.
 * É possível atualizar o cálculo de um campo de fórmula depois de salvá-lo, e os resultados do cálculo são atualizados automaticamente para todos os registros do mesmo tipo.
 * É necessário adicionar os campos que você menciona nas fórmulas à medida que são exibidos na interface do Workfront Planning.

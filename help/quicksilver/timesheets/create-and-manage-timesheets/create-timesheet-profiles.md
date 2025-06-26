@@ -1,19 +1,29 @@
 ---
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
-title: Criar, editar e atribuir perfis de planilha de horas
+title: Criar, editar e atribuir perfis de folha de horas
 description: Você pode criar, editar e atribuir perfis de planilha de horas que geram planilhas de horas recorrentes para seus usuários sem nenhuma intervenção adicional sua. Isso economiza tempo e garante a consistência entre os usuários.
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 0%
+source-wordcount: '1540'
+ht-degree: 1%
 
 ---
 
-# Criar, editar e atribuir perfis de planilha de horas
+# Criar, editar e atribuir perfis de folha de horas
+
+<!--Audited: 06/2025-->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
 
 Você pode criar, editar e atribuir perfis de planilha de horas que geram planilhas de horas recorrentes para seus usuários sem nenhuma intervenção adicional sua. Isso economiza tempo e garante que os itens a seguir sejam consistentes entre os usuários:
 
@@ -38,20 +48,20 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td> <p>Novo: Padrão </p>
  <p>ou</p> 
 <p>Atual: Plano </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Você deve ter acesso administrativo a Planilhas de Horas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,18 +76,18 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 >[!IMPORTANT]
 >
->Para habilitar alterações de perfil na planilha de horas atual, você precisa excluir as planilhas existentes e gerar novas. Para obter instruções, consulte [Excluir folhas de horas no Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) e [Gerar folhas de horas manualmente](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+>Para habilitar alterações de perfil na folha de horas atual, você precisa excluir as folhas de horas existentes antes de fazer as alterações nos perfis de folha de horas e gerar novas folhas de horas. Para obter instruções, consulte [Excluir folhas de horas no Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) e [Gerar folhas de horas manualmente](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 {{step-1-to-setup}}
 
-1. Se você estiver criando ou editando um perfil de planilha de horas para uso em todo o sistema, clique em **Planilha de horas e horas**.
+1. Se você criar ou editar um perfil de planilha de horas para uso em todo o sistema, clique em **Planilha de horas e horas**.
 
    Ou
 
-   Se você estiver criando ou editando um perfil de planilha de horas para um grupo, clique em **Grupos** e, em seguida, clique no nome do grupo.
+   Se você criar ou editar um perfil de planilha de horas para um grupo, clique em **Grupos** e, em seguida, clique no nome do grupo.
 
 1. Clique em **Perfis de Planilha de Horas**.
-1. Para criar um novo perfil de planilha de horas, clique em **Novo Perfil**.
+1. Para criar um perfil de planilha de horas, clique em **Novo Perfil**.
 
    Ou
 
@@ -86,13 +96,26 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    O perfil de planilha de horas novo ou existente é exibido.
 
 
-1. Na guia **Definir Detalhes**, digite um **Nome** e uma **Descrição** para o perfil da folha de horas e forneça as seguintes informações:
+1. Clique na guia **Definir Detalhes** e atualize as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
+      <td role="rowheader"><strong>Nome</strong> </td> 
+      <td> <p> Adicione um nome ao perfil da folha de horas. Pode ser o nome de uma equipe ou grupo cujas pessoas compartilham o mesmo período de suas folhas de horas. </p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>Descrição</strong> </td> 
+      <td> <p> Adicione mais informações sobre o perfil da folha de horas.     
+      </p> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader"><strong>Grupo com Acesso de Administração</strong> </td> 
       <td> <p> 
       <ul> 
@@ -147,8 +170,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td role="rowheader"><strong>Tipos de Horas Disponíveis</strong> </td> 
       <td><p>Essa configuração se refere somente aos Tipos de horas gerais, e não aos tipos de horas específicos do projeto. </p>
       <p>Por padrão, os usuários veem todas as horas gerais em uma folha de horas. No entanto, se sua organização quiser que apenas as horas gerais específicas sejam mostradas para um conjunto específico de usuários, você pode selecionar as horas gerais que eles precisam ver em suas folhas de horas, selecionando-os no perfil de folha de horas neste campo. Se quiser desativar todas as horas gerais, desmarque todos os tipos de horas para gerar a folha de horas sem uma seção para as horas gerais.</p></td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>Notificações de lembrete</strong> </td> 
+      <td> <p> Adicione uma notificação de lembrete. O Workfront enviará lembretes aos usuários para que eles concluam ou aprovem suas folhas de horas. Você deve criar notificações de lembrete antes de associá-las a um perfil de planilha de horas.  </p> </td> 
+     </tr>
+
+   <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">Hora extra</span> </td> 
       <td>Você pode optar por ocultar a caixa Horas extras em folhas de horas. Essa opção está desabilitada por padrão.</td> 
      </tr> 

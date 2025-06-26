@@ -6,18 +6,22 @@ description: Você pode criar manualmente uma folha de horas de uso único se qu
 author: Alina
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
 
 # Criar uma planilha de horas de uso único
 
+<!--Audited: 6/2025-->
+
 Você pode criar manualmente uma folha de horas de uso único se quiser uma folha de horas que não seja recorrente. Quando a data de término da folha de horas é atingida e você precisa de mais folhas de horas, você deve criar novas.
 
 Para obter informações sobre como criar um perfil de folha de horas que gere folhas de horas recorrentes para seus usuários sem nenhuma intervenção adicional (recomendado), consulte [Criar, editar e atribuir perfis de folha de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+Para obter informações sobre como gerar folhas de horas manualmente para todos os usuários no sistema associados a um perfil de folha de horas, consulte [Gerar folhas de horas manualmente](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 >[!NOTE]
 >
@@ -50,8 +54,8 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    <p>Atual: Plano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ter acesso administrativo a Planilhas de Horas. </p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> </td> 
+   <td role="rowheader">Nível de acesso</td> 
+   <td> <p>Você deve ter acesso administrativo a Planilhas de Horas. </p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,11 +66,11 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 ## Criar uma planilha de horas de uso único
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Clique em **Folhas de horas**. O filtro **Todos** é selecionado por padrão. Isso exibe todas as planilhas de horas que você tem acesso para visualizar.
+O filtro **Todos** é selecionado por padrão. Isso exibe todas as planilhas de horas que você tem acesso para visualizar.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Lista de planilhas de horas com uma planilha de horas selecionada](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Opcional) Siga um destes procedimentos para atualizar o filtro na lista de folhas de horas:
 
@@ -78,9 +82,9 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
      Isso aplica os filtros Minhas planilhas de horas ou Minha planilha de horas à lista de planilhas de horas.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Botões de filtro de Minhas Planilhas de Horas na página de lista Planilhas de Horas](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Clique no ícone Filtro ![](assets/filter-nwepng.png) para aplicar um filtro diferente ou criar um novo. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-nwepng.png) para aplicar um filtro diferente ou criar um novo. Para obter informações sobre como criar ou atualizar filtros, consulte [Criar ou editar filtros no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -89,9 +93,9 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    >   * [Personalizar Filtros, Modos de Exibição e Agrupamentos usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. (Opcional) Clique no ícone ![](assets/search-icon.png) da **Pesquisa** para digitar uma palavra-chave e procurar uma folha de horas específica. Por exemplo, você pode procurar um intervalo de tempo de planilha de horas do nome do proprietário.
+1. (Opcional) Clique no ícone **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) para digitar uma palavra-chave e procurar uma folha de horas específica. Por exemplo, você pode procurar um intervalo de tempo de planilha de horas do nome do proprietário.
 
-1. (Opcional) Clique nos ícones **Visualização** ![](assets/view-icon.png) ou **Agrupamento** ![](assets/grouping.png) para aplicar uma visualização ou agrupamento diferente ou para criar um novo.
+1. (Opcional) Clique nos ícones **Exibir** ![Exibir](assets/view-icon.png) ou **Agrupamento** ![Agrupamento](assets/grouping.png) para aplicar um modo de exibição ou agrupamento diferente ou para criar um novo.
 
    Para obter informações sobre como criar filtros, visualizações ou agrupamentos, consulte os seguintes artigos:
 

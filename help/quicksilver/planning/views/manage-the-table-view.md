@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '3633'
+source-wordcount: '3720'
 ht-degree: 2%
 
 ---
@@ -458,9 +458,7 @@ Para adicionar um agrupamento:
 
    O número de campos selecionados para o agrupamento é exibido ao lado do ícone Grouping.
 
-   <!--replace screen shot for Expand all-->
-
-   ![Agrupamento aplicado na exibição de tabela](assets/grouping-applied-in-table-view.png)
+   <span class="preview">![Agrupamento aplicado na exibição de tabela](assets/grouping-applied-in-table-view.png)</span>
 
 1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
@@ -471,26 +469,23 @@ Para adicionar um agrupamento:
 1. Clique fora da caixa **Agrupar registros por** para fechá-la.
 1. (Opcional) Clique em **+ Novo registro** no final de qualquer agrupamento para adicionar novos registros e, em seguida, atualize a página para adicionar o novo registro ao agrupamento apropriado. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-<!--
+1. <span class="preview">Para expandir ou recolher agrupamentos, siga um destes procedimentos:</span>
 
-1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+   <div class="preview">
 
-    <div class="preview">
+   1. Clique no ícone **Agrupamento** e depois em **Expandir tudo** ou **Recolher tudo**. Isso expande todos os agrupamentos e subagrupamentos na visualização de tabela.
 
-    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+      ![Expandir e recolher todos os botões na exibição de tabela de caixa de agrupamento](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
-        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+   1. Clique com o botão direito do mouse em qualquer um dos cabeçalhos de agrupamento na exibição de tabela e clique em uma das seguintes opções:
+      * **Expandir grupo**
+      * **Recolher grupo**
+      * **Expandir tudo**
+      * **Recolher tudo**
+      * **Expandir subgrupos**
+      * **Recolher subgrupos**
 
-    1. Right-click any of the grouping headers in the table view, then click one of the following options:
-        * **Expand group**
-        * **Collapse group**
-        * **Expand all**
-        * **Collapse all**
-        * **Expand subgroups**
-        * **Collapse subgroups**
-
-        Depending on the number of groupings you apply to the view, some options might not be available.</div>
--->
+      Dependendo do número de agrupamentos aplicados à exibição, algumas opções podem não estar disponíveis.</div>
 
 <!-- this is not available yet: 
 

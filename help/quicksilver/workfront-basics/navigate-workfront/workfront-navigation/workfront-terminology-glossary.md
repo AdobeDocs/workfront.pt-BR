@@ -6,9 +6,9 @@ description: O  [!DNL Adobe Workfront] glossário lista termos comumente usados 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '21072'
+source-wordcount: '21141'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Nome Objeto</strong></th> 
+   <th><strong>Nome do objeto</strong></th> 
    <th><strong>Descrição</strong></th> 
   </tr> 
  </thead> 
@@ -63,12 +63,13 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Horas efetivas]</td> 
-   <td> <p>Em um relatório de projeto, tarefa ou problema, as [!UICONTROL Horas efetivas] são a soma de todas as horas registradas no projeto, tarefa ou problema.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span> Se, a partir da guia [!UICONTROL Atualizações] para a Tarefa 1, você clicar em 'Tempo de Log' e inserir 25 horas, as Horas Reais da Tarefa 1 = 25 horas. </p> <p>[!DNL Workfront] calcula [!UICONTROL Horas efetivas] para tarefas pai ou projetos usando as seguintes fórmulas:</p> 
+   <td> <p>Em um relatório de projeto, tarefa ou problema, as [!UICONTROL Horas Reais] são a soma de todas as horas registradas no projeto, tarefa ou problema após maio de 2021.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span> Se, a partir da guia [!UICONTROL Atualizações] para a Tarefa 1, você clicar em 'Tempo de Log' e inserir 25 horas, as Horas Reais da Tarefa 1 = 25 horas. </p> <p>[!DNL Workfront] calcula [!UICONTROL Horas efetivas] para tarefas pai ou projetos usando as seguintes fórmulas:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
-     <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project</code> </p> </li> 
+     <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
     </ul> 
-    <p>Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Horas efetivas</a>.</p>
+   <p>Consulte também <strong>Horas efetivas herdadas</strong>.
+    <p>Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Exibir Horas Efetivas</a>.</p>
     </td> 
   </tr> 
   <tr> 
@@ -362,7 +363,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Horas]</td> 
-        <td> <p>Relatório de [!UICONTROL Hora Orçada]</p><p>O objeto [!UICONTROL Budgeted Hour] no relatório Budgeted Hour se refere às informações relacionadas a uma ferramenta de gerenciamento de recursos obsoleta. Somente o Bud ". O campo "Horas" neste relatório refere-se às horas orçadas na área do [!UICONTROL Resource Planner] ou do [!UICONTROL Resource Budgeting] do [!UICONTROL Business Case] do projeto. </p> <p>Para obter mais informações sobre como criar um relatório, consulte o artigo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Criar um relatório personalizado</a>.</p> </td> 
+        <td> <p>Relatório de [!UICONTROL Hora Orçada]</p><p>O objeto [!UICONTROL Budgeted Hour] no relatório Budgeted Hour se refere às informações relacionadas a uma ferramenta de gerenciamento de recursos obsoleta. Somente o Bud "[!UICONTROL. O campo "Horas" neste relatório refere-se às horas orçadas na área do [!UICONTROL Resource Planner] ou do [!UICONTROL Resource Budgeting] do [!UICONTROL Business Case] do projeto. </p> <p>Para obter mais informações sobre como criar um relatório, consulte o artigo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Criar um relatório personalizado</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Planejador de recursos Horas Orçadas] </td> 
@@ -740,7 +741,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo de Dados Personalizado]</td> 
-   <td>A opção para especificar se um Campo de Dados Personalizados  será armazenado no banco de dados como Texto, Data, Número ou Moeda.</td> 
+   <td>A opção para especificar se um Campo de Dados Personalizados [!UICONTROL] será armazenado no banco de dados como Texto, Data, Número ou Moeda.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo de Exibição Personalizada]</td> 
@@ -776,7 +777,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
  <col> 
  <thead> 
   <tr> 
-   <th>Nome Objeto</th> 
+   <th>Nome do objeto</th> 
    <th>Descrição</th> 
   </tr> 
  </thead> 
@@ -1005,7 +1006,7 @@ The designated full time equivalency for users. A full-time user should have 100
  <col> 
  <thead> 
   <tr> 
-   <th>Nome Objeto</th> 
+   <th>Nome do objeto</th> 
    <th>Descrição</th> 
   </tr> 
  </thead> 
@@ -1173,7 +1174,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
  <col> 
  <thead> 
   <tr> 
-   <th>Nome Objeto</th> 
+   <th>Nome do objeto</th> 
    <th>Descrição</th> 
   </tr> 
  </thead> 
@@ -1276,9 +1277,15 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
    <p>See <i>Resource Pools</i> for updated fields. </p> 
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Horas Atuais Herdadas]</td> 
+   <td> <p>Em um relatório de projeto, tarefa ou problema, as [!UICONTROL Horas Reais Herdadas] são a soma de todas as horas registradas no projeto, tarefa ou problema a qualquer momento, inclusive antes de maio de 2021.</p>  
+   <p>As Horas Reais Herdadas são exibidas como Horas Reais em uma área de detalhes de projeto, tarefa ou problema. </p>
+   <p>Consulte também <strong>Horas efetivas</strong>.
+    <p>Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Exibir Horas Efetivas</a>.</p>
+    </td> 
+  </tr>  <tr> 
    <td>[!UICONTROL Tipo de Licença]</td> 
    <td>O tipo de licença alocada para um [!UICONTROL Access Level]. Ele é [!UICONTROL Usuário Completo], [!UICONTROL Usuário Limitado] ou [!UICONTROL Solicitante].</td> 
   </tr> 
@@ -1316,7 +1323,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
  <col> 
  <thead> 
   <tr> 
-   <th>Nome Objeto</th> 
+   <th>Nome do objeto</th> 
    <th>Descrição</th> 
   </tr> 
  </thead> 
@@ -1326,7 +1333,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
    <td> <p>Um dos [!UICONTROL Tipos de Atualização] de um [!UICONTROL Project]. Esta configuração permite que as linhas de tempo [!UICONTROL Projeto Projetado] e [!UICONTROL Planejado] sejam atualizadas apenas quando "[!UICONTROL Linhas de Tempo Recalculadas]" for clicado. Projetos configurados dessa maneira serão ignorados durante o processo noturno de recálculo e quando o projeto ou as tarefas no projeto forem atualizadas.</p> <p>Para obter mais informações, consulte <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Selecionar o projeto [!UICONTROL Tipo de Atualização] </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL -ME]</td> 
+   <td>[!UICONTROL-ME]</td> 
    <td> <p>Refere-se ao usuário conectado no momento. </p> <p>Recomendamos usar esse campo em um filtro para tornar os relatórios mais genéricos ao compartilhá-los com outros usuários. Dessa forma, você pode criar apenas um relatório que exibirá informações diferentes dependendo de quem faz logon para visualizá-lo, já que as informações são sempre personalizadas para o usuário conectado. </p> </td> 
   </tr> 
   <tr> 
@@ -1519,7 +1526,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
  <col> 
  <thead> 
   <tr> 
-   <th>Nome Objeto</th> 
+   <th>Nome do objeto</th> 
    <th>Descrição</th> 
   </tr> 
  </thead> 
@@ -1613,7 +1620,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Duração Planejada]</td> 
-   <td> <p>A [!UICONTROL Duração Planejada] de uma tarefa geralmente é a mesma [!UICONTROL Duração] da tarefa. Representa a diferença em dias entre o [!UICONTROL Início Planejado] e as [!UICONTROL Datas de Conclusão Planejadas] da tarefa. </p> <p>Quando a tarefa tem um Tipo [!UICONTROL Duration] de [!UICONTROL Effort Driven], a Duração Planejada  pode ser diferente da Duração  da tarefa, com base nos recursos atribuídos a ela. </p> <p>Por exemplo, se uma tarefa com um tipo [!UICONTROL Duração] de [!UICONTROL Controlado por Esforço] tiver uma [!UICONTROL Duração] de 3 dias e você atribuir um recurso com um agendamento de tempo integral à tarefa, a [!UICONTROL Duração Planejada] também será de 3 dias. Se você atribuir três recursos com um agendamento de tempo integral à mesma tarefa, a [!UICONTROL Duration] permanecerá 3 dias, mas a Duration Planned será de 1 dia. A [!UICONTROL Duração Planejada] também altera as datas de [!UICONTROL Início Planejado] e [!UICONTROL Conclusão Planejada] da tarefa, para refletir a nova [!UICONTROL Duração Planejada]. Como resultado, a linha do tempo do projeto também é afetada. </p> <p>Para obter mais informações sobre a diferença entre a [!UICONTROL Duração] e a [!UICONTROL Duração Planejada] para tarefas, consulte o artigo <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Diferença entre a [!UICONTROL Duração Planejada] e a [!UICONTROL Duração] para tarefas</a>.</p> <p>Projetos e problemas não têm uma [!UICONTROL Duração Planejada]. </p> </td> 
+   <td> <p>A [!UICONTROL Duração Planejada] de uma tarefa geralmente é a mesma [!UICONTROL Duração] da tarefa. Representa a diferença em dias entre o [!UICONTROL Início Planejado] e as [!UICONTROL Datas de Conclusão Planejadas] da tarefa. </p> <p>Quando a tarefa tem um Tipo [!UICONTROL Duration] de [!UICONTROL Effort Driven], a Duração Planejada [!UICONTROL] pode ser diferente da Duração [!UICONTROL] da tarefa, com base nos recursos atribuídos a ela. </p> <p>Por exemplo, se uma tarefa com um tipo [!UICONTROL Duração] de [!UICONTROL Controlado por Esforço] tiver uma [!UICONTROL Duração] de 3 dias e você atribuir um recurso com um agendamento de tempo integral à tarefa, a [!UICONTROL Duração Planejada] também será de 3 dias. Se você atribuir três recursos com um agendamento de tempo integral à mesma tarefa, a [!UICONTROL Duration] permanecerá 3 dias, mas a [!UICONTROL Duration Planned será de 1 dia. A [!UICONTROL Duração Planejada] também altera as datas de [!UICONTROL Início Planejado] e [!UICONTROL Conclusão Planejada] da tarefa, para refletir a nova [!UICONTROL Duração Planejada]. Como resultado, a linha do tempo do projeto também é afetada. </p> <p>Para obter mais informações sobre a diferença entre a [!UICONTROL Duração] e a [!UICONTROL Duração Planejada] para tarefas, consulte o artigo <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Diferença entre a [!UICONTROL Duração Planejada] e a [!UICONTROL Duração] para tarefas</a>.</p> <p>Projetos e problemas não têm uma [!UICONTROL Duração Planejada]. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Duração Planejada em Minutos]</td> 
@@ -1962,7 +1969,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Gerentes de Recursos]</td> 
-   <td> <p>Em um relatório de projeto ou exibição de lista, este é um campo informativo que mostra os usuários designados para executar atividades de gerenciamento de recursos no projeto.  Quando você usa "" em um relatório, uma lista de gerenciadores de recursos é exibida, com cada gerenciador de recursos no projeto separado por vírgula. Você pode designar até 30 gerentes de recursos em um determinado projeto.</p> <p>Para obter mais informações, consulte o artigo <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md">Designar Gerentes de Recursos para um projeto ou modelo </a>.</p> </td> 
+   <td> <p>Em um relatório de projeto ou exibição de lista, este é um campo informativo que mostra os usuários designados para executar atividades de gerenciamento de recursos no projeto.  Quando você usa "[!UICONTROL]" em um relatório, uma lista de gerenciadores de recursos é exibida, com cada gerenciador de recursos no projeto separado por vírgula. Você pode designar até 30 gerentes de recursos em um determinado projeto.</p> <p>Para obter mais informações, consulte o artigo <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md">Designar Gerentes de Recursos para um projeto ou modelo </a>.</p> </td> 
   </tr>
   <tr> 
    <td>[!UICONTROL Planejador de recursos Horas Orçadas] </td> 
@@ -2049,7 +2056,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
  <col> 
  <thead> 
   <tr> 
-   <th>Nome Objeto</th> 
+   <th>Nome do objeto</th> 
    <th>Descrição</th> 
   </tr> 
  </thead> 
@@ -2060,7 +2067,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Cenário] (em [!DNL Workfront Fusion]) </td> 
-   <td> <p>Um cenário é composto por uma série de etapas (módulos) que indicam como os dados devem ser transferidos e transformados entre aplicativos/serviços.</p> <p>Para obter informações sobre cenários em [!DNL Workfront Fusion], consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] visão geral do cenário</a>.</p> </td> 
+   <td> <p>Um cenário é composto por uma série de etapas (módulos) que indicam como os dados devem ser transferidos e transformados entre aplicativos/serviços.</p> <p>Para obter informações sobre cenários em [!DNL Workfront Fusion], consulte <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] visão geral do cenário</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Cenário] (no [!DNL Workfront Scenario Planner]) </td> 
@@ -2409,7 +2416,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
  <col> 
  <thead> 
   <tr> 
-   <th>Nome Objeto</th> 
+   <th>Nome do objeto</th> 
    <th>Descrição</th> 
   </tr> 
  </thead> 
