@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
+source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,19 @@ Adicionamos um novo campo Horas efetivas que armazena o tempo registrado para pr
 
 Os campos Horas efetivas e Horas efetivas herdadas estão visíveis nas visualizações de projetos, tarefas e problemas, e nos relatórios.
 
-O campo Horas efetivas visível na seção Detalhes do projeto, das tarefas e das ocorrências representa as Horas efetivas herdadas.
+O campo Horas efetivas visível na seção Detalhes do projeto, tarefas e problemas representa as novas Horas efetivas.
+
 
 
 >[!IMPORTANT]
 >
->As horas registradas antes de maio de 2021 são armazenadas no campo Horas efetivas herdadas.  
->&#x200B;>O valor do campo Horas efetivas de projetos, tarefas e problemas em que as horas foram registradas antes de maio de 2021 é zero. 
->&#x200B;>As horas registradas após maio de 2021 são armazenadas nos campos Horas efetivas e Horas efetivas herdadas.
->&#x200B;> Talvez seja necessário atualizar os relatórios para refletir os novos campos.
+>Dependendo de quando as horas foram registradas, pode haver uma discrepância entre as Horas Reais e as Horas Reais Herdadas para um projeto, tarefa ou problema.<br>
+>>Existem os seguintes cenários:
+>
+>* As Horas efetivas que representam horas registradas para projetos, tarefas e problemas desde maio de 2021 foram movidas do campo Horas efetivas herdadas para o novo campo Horas efetivas.
+>* As horas reais que representam horas registradas para projetos, tarefas e problemas antes de maio de 2021 são contabilizadas somente no campo Horas reais herdadas.
+>  ><br>Talvez seja necessário atualizar os relatórios para refletir o novo campo e seus valores.
+
 
 Para obter informações, consulte [Exibir Horas Efetivas](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
