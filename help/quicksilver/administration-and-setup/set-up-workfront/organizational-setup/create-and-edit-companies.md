@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: b89715649473ba13e1b6b7a250dfed7a468bb4b4
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Para adicionar ou editar uma empresa:
 
    Ou
 
-   Se você estiver editando uma empresa existente, selecione-a e clique em **[!UICONTROL Editar]** na parte superior da lista de empresas.
+   Se você estiver editando uma empresa existente, selecione a empresa e clique no **[!UICONTROL ícone Editar]** ![ícone Editar](assets/edit-icon.png) na parte superior da lista de empresas.
 
 1. Atualize as seguintes informações:
 
