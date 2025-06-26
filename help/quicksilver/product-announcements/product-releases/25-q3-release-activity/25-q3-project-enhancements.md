@@ -39,11 +39,11 @@ O campo Horas efetivas visível na seção Detalhes do projeto, tarefas e proble
 >[!IMPORTANT]
 >
 >Dependendo de quando as horas foram registradas, pode haver uma discrepância entre as Horas Reais e as Horas Reais Herdadas para um projeto, tarefa ou problema.<br>
->>Existem os seguintes cenários:
+>&#x200B;>Existem os seguintes cenários:
 >
 >* As Horas efetivas que representam horas registradas para projetos, tarefas e problemas desde maio de 2021 foram movidas do campo Horas efetivas herdadas para o novo campo Horas efetivas.
 >* As horas reais que representam horas registradas para projetos, tarefas e problemas antes de maio de 2021 são contabilizadas somente no campo Horas reais herdadas.
->  ><br>Talvez seja necessário atualizar os relatórios para refletir o novo campo e seus valores.
+>  &#x200B;><br>Talvez seja necessário atualizar os relatórios para refletir o novo campo e seus valores.
 
 
 Para obter informações, consulte [Exibir Horas Efetivas](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
