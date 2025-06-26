@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
+source-git-commit: b87b32d0396b0c277a5fc30d060c76a71192171b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,31 @@ ht-degree: 0%
 Esta página descreve as melhorias no Project feitas com a versão do terceiro trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2025, consulte [Visão geral da versão do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## O campo Horas Reais Existentes foi substituído pelo campo Horas Reais Legadas e pelo novo campo Horas Reais criado
+
+>[!NOTE]
+>
+> Pré-visualização e produção: 24 de junho de 2025 
+
+O campo existente de Horas efetivas foi renomeado para Horas efetivas herdadas. Este campo armazena em minutos o tempo registrado para projetos, tarefas e problemas. O campo é armazenado no banco de dados do Workfront como atualWorkRequired.
+
+Adicionamos um novo campo Horas efetivas que armazena o tempo registrado para projetos, tarefas e problemas em horas, com precisão decimal. O campo é armazenado no banco de dados do Workfront como atualWorkRequiredDouble.
+
+Os campos Horas efetivas e Horas efetivas herdadas estão visíveis nas visualizações de projetos, tarefas e problemas, e nos relatórios.
+
+O campo Horas efetivas visível na seção Detalhes do projeto, das tarefas e das ocorrências representa as Horas efetivas herdadas.
+
+
+>[!IMPORTANT]
+>
+>As horas registradas antes de maio de 2021 são armazenadas no campo Horas efetivas herdadas.  
+>>O valor do campo Horas efetivas de projetos, tarefas e problemas em que as horas foram registradas antes de maio de 2021 é zero. 
+>>As horas registradas após maio de 2021 são armazenadas nos campos Horas efetivas e Horas efetivas herdadas.
+>> Talvez seja necessário atualizar os relatórios para refletir os novos campos.
+
+Para obter informações, consulte [Exibir Horas Efetivas](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
+
 
 ## Alteração na forma como as Horas efetivas são armazenadas no banco de dados para chamadas de API
 
