@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 0da05d048d0dab1c2f06870e589c1349c48ccc58
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Para criar um Grupo de Tópicos:
 1. Clique em **Grupos de Tópicos** no painel esquerdo.
 1. Clique em **Novo Grupo de Tópicos**.
 
-   ![](assets/new-topic-group-box-nwe-350x306.png)
+   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. Especifique as seguintes informações:
 
@@ -94,3 +94,4 @@ Para criar um Grupo de Tópicos:
 1. Clique em **Salvar**.\
    Isso cria um novo Grupo de Tópicos na sua Fila de solicitações. Agora é possível selecionar categorias adicionais no primeiro menu suspenso em uma Fila de solicitações.\
    Para obter mais informações sobre o envio de solicitações, consulte [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. Para editar um Grupo de Tópicos existente, selecione o Grupo de Tópicos na lista Grupos de Tópicos e edite os detalhes na janela que é aberta. Clique em **Salvar** para salvar as alterações.
