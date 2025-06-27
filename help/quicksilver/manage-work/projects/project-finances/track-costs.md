@@ -7,9 +7,9 @@ description: Você pode rastrear custos de projetos, tarefas e problemas no Adob
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2499'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,11 @@ Os tipos de custos são calculados de forma diferente para tarefas e para projet
     </tr> 
     <tr> 
      <td>Custos Reais do Trabalho</td> 
-     <td> <p>Elas são calculadas usando a seguinte fórmula:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
+     <td> <p>Elas são calculadas usando a seguinte fórmula:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> 
+     <p><strong>OBSERVAÇÃO</strong>
+     <p>O Workfront calcula o Custo Efetivo do Trabalho usando as Horas Efetivas herdadas. Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Exibir Horas Efetivas</a>. </p>
+
+  </td> 
     </tr> 
    </tbody> 
   </table>
@@ -150,7 +154,7 @@ A taxa horária na fórmula considera quaisquer alterações de data de efetiva�
 >[!NOTE]
 >
 >O Custo Efetivo de Despesas do projeto é calculado da seguinte forma:
->`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Esses custos não são duplicados no cálculo do Custo Real. Por exemplo, se um Custo Fixo é parte do Custo Efetivo de Despesas do projeto, ele não é adicionado separadamente ao Custo Efetivo.
 
