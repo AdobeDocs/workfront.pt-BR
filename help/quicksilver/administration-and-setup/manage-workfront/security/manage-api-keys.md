@@ -107,6 +107,7 @@ Você pode gerar e gerenciar chaves de API para usuários em funções diferente
    1. Expanda **Sistema** e clique em **Logon Único (SSO)**.
    1. No campo **Tipo**, selecione o tipo de SSO que sua organização usa.
    1. Com o tipo selecionado, role para baixo e desmarque a caixa de seleção **Habilitar**.
+
       ![Habilitar SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Clique em **Salvar**.
 
