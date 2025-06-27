@@ -55,8 +55,8 @@ O Workfront AI Reviewer usa as diretrizes de marca configuradas nos Genstudio Fo
 
 Para saber mais sobre as diretrizes da marca, consulte
 
-* [Marcas da GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Adicionar diretrizes](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [Marcas da GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Adicionar diretrizes](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## Criar revisores de IA
