@@ -57,8 +57,8 @@ Antes de começar, você deve configurar as diretrizes da marca nos GenStudio Fo
 
 Para saber mais sobre as diretrizes da marca, consulte
 
-* [Marcas da GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [Adicionar diretrizes](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [Marcas da GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [Adicionar diretrizes](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 ## Adicionar um revisor de IA
 
