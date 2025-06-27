@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 2c1102e3496d4d8bc7bc07e7c41d1d2455c8637e
+source-git-commit: a6d0cf24d560a64f4e1f0bae7f8655ebc2d44a9b
 workflow-type: tm+mt
-source-wordcount: '13201'
+source-wordcount: '13211'
 ht-degree: 2%
 
 ---
@@ -1501,9 +1501,12 @@ ht-degree: 2%
          * [Introdução aos Painéis do Canvas](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
          * [Adicionar, remover ou organizar relatórios em um Painel da tela de desenho](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
          * [Compartilhar um painel da tela](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-      * Tipos de relatório do Painel de controle do Canvas {#report-types}
-         * [Visão geral dos tipos de relatório do Painel de controle do Canvas](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
-         * [Adicionar um relatório existente a um painel da tela](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+      * Adicionar relatórios {#add-reports}
+         * [Visão geral dos tipos de relatório do Painel de controle do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
+         * [Criar um relatório de KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+         * [Criar um relatório de gráfico](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+         * [Criar um relatório de tabela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+         * [Adicionar um relatório existente a um painel da tela](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
    * Relatórios {#reports}
       * [Relatórios](reports-and-dashboards/reports/reports-overview.md)
       * Noções básicas de relatórios {#report-basics}
