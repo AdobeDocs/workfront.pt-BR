@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1336'
 ht-degree: 2%
 
 ---
@@ -107,14 +107,13 @@ Você pode gerar e gerenciar chaves de API para usuários em funções diferente
    1. Expanda **Sistema** e clique em **Logon Único (SSO)**.
    1. No campo **Tipo**, selecione o tipo de SSO que sua organização usa.
    1. Com o tipo selecionado, role para baixo e desmarque a caixa de seleção **Habilitar**.
-
       ![Habilitar SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Clique em **Salvar**.
 
 
 1. Na barra de endereços de um navegador, insira a seguinte chamada de API:
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**&#x200B;username&#x200B;**&amp;password=**&#x200B;password**&amp;method=PUT
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**username**&amp;password=**password**&amp;method=PUT
 
    Substitua `<domain>` pelo nome de domínio, nome de usuário e senha do Workfront pelas credenciais Workfront do usuário.
 
@@ -140,9 +139,9 @@ Você pode configurar as Chaves de API para expirarem para todos os usuários em
 
    Por padrão, as Chaves de API expiram a cada mês.
 
-1. Para configurar as Chaves de API para expirarem no momento em que as senhas dos usuários expirarem, selecione **Remover chave de API quando a senha de um usuário expirar**.
+1. Para configurar as Chaves de API para expirarem no momento em que as senhas dos usuários expirarem, habilite **Remover chave de API quando a senha de um usuário expirar**.
 
-   Por padrão, essa opção não está selecionada.
+   Por padrão, essa opção não está ativada.
 
    Para obter informações sobre como configurar senhas de usuário para expirar, consulte [Configurar preferências de segurança do sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
@@ -166,15 +165,15 @@ Se você estiver preocupado com uma violação de segurança específica em rela
 
 >[!IMPORTANT]
 >
->O procedimento descrito nesta seção se aplica apenas a organizações que ainda não foram integradas à Plataforma de negócios Adobe. Fazer logon no Workfront por meio da API do Workfront não estará disponível se sua organização tiver sido integrada à Plataforma comercial Adobe.
+>O procedimento descrito nesta seção se aplica apenas a organizações que ainda não foram integradas à Adobe Business Platform. Fazer logon no Workfront por meio da API do Workfront não estará disponível se sua organização tiver sido integrada à Adobe Business Platform.
 >
->Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Plataforma Comercial Adobe, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-
-Aplicativos de terceiros podem se comunicar com o Workfront por meio da API. Para aumentar a segurança do site do Workfront, você pode configurar o Workfront para restringir solicitações de logon da API fazendo upload de um certificado X.509 no Workfront. Depois de habilitada, todas as solicitações de logon por meio da API devem incluir um certificado de cliente, além do nome de usuário e da senha.
+>Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Business Platform, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
 >Isso não estará disponível se a instância Workfront da sua organização estiver habilitada com o Adobe IMS. Consulte o administrador de rede ou de TI se precisar de mais informações.
+
+Aplicativos de terceiros podem se comunicar com o Workfront por meio da API. Para aumentar a segurança do site do Workfront, você pode configurar o Workfront para restringir solicitações de logon da API fazendo upload de um certificado X.509 no Workfront. Depois de habilitada, todas as solicitações de logon por meio da API devem incluir um certificado de cliente, além do nome de usuário e da senha.
 
 * [Obter o certificado X.509](#obtain-the-x-509-certificate)
 * [Carregar o certificado para o Workfront](#upload-the-certificate-to-workfront)
@@ -182,7 +181,7 @@ Aplicativos de terceiros podem se comunicar com o Workfront por meio da API. Par
 
 ### Obter o certificado X.509 {#obtain-the-x-509-certificate}
 
-Obtenha um certificado X.509 válido de uma Autoridade de certificação confiável (como a Verisign) e coloque-o em um local temporário na sua estação de trabalho.
+Obtenha um certificado X.509 válido de uma Autoridade de certificação confiável (como a Verisign) e salve-o em um local temporário na sua estação de trabalho.
 
 ### Fazer upload do certificado para o Workfront {#upload-the-certificate-to-workfront}
 
@@ -192,7 +191,8 @@ Depois de obter o certificado X.509 da sua autoridade de certificação, é nece
 
 1. Expanda **Sistema** e clique em **Informações do cliente**.
 
-1. Na área **Configurações da Chave de API**, selecione **Habilitar Certificado X.509**.
+1. Na área **Configurações da Chave de API**, selecione **Exigir Certificado X.509 para logons de API**.
+1. Clique em **Alterar Certificado**.
 1. Na estação de trabalho, navegue até o certificado X.509 que você baixou anteriormente e selecione-o.
 1. (Opcional) Clique em **Exibir Detalhes** ao lado do nome do certificado para exibir os seguintes detalhes sobre o certificado:
 
