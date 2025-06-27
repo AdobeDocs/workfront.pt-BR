@@ -154,7 +154,7 @@ A taxa horária na fórmula considera quaisquer alterações de data de efetiva�
 >[!NOTE]
 >
 >O Custo Efetivo de Despesas do projeto é calculado da seguinte forma:
->>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>&#x200B;>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >Esses custos não são duplicados no cálculo do Custo Real. Por exemplo, se um Custo Fixo é parte do Custo Efetivo de Despesas do projeto, ele não é adicionado separadamente ao Custo Efetivo.
 

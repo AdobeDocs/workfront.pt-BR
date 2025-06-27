@@ -102,7 +102,7 @@ Você pode adicionar campos que você deseja que [!DNL Workfront] rastreie para 
    * <span class="preview">**Campos personalizados**</span>: exibe uma lista de campos personalizados. Você deve criar os campos personalizados antes que eles estejam disponíveis na lista.
    * <span class="preview">**Todos os campos**</span>: exibe uma lista de campos internos e personalizados.
 
-1. Clique em <span class="preview">**[!UICONTROL Adicionar campos ]**,</span> e selecione o objeto que deseja rastrear no menu suspenso.
+1. Clique em <span class="preview">**[!UICONTROL Adicionar campos &#x200B;]**,</span> e selecione o objeto que deseja rastrear no menu suspenso.
 
    Selecionar campos manualmente não está disponível para todos os objetos que têm uma área Atualizações.
 
