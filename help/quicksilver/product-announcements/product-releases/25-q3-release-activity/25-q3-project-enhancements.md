@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: e3fa5f6fd86f0fe9ba221fb7c20f46f966437a42
+source-git-commit: f02a07c0bc4568d7e0fa25ca6e880024423527b7
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,23 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 >
 > Pré-visualização e produção: 24 de junho de 2025 
 
-O campo existente de Horas efetivas foi renomeado para Horas efetivas herdadas. Este campo armazena em minutos o tempo registrado para projetos, tarefas e problemas. O campo é armazenado no banco de dados do Workfront como atualWorkRequired.
+Adicionamos um novo campo Horas efetivas que armazena o tempo registrado para projetos, tarefas e problemas em horas, com precisão decimal. O campo é armazenado no banco de dados do Workfront como `actualWorkRequiredDouble`.
 
-Adicionamos um novo campo Horas efetivas que armazena o tempo registrado para projetos, tarefas e problemas em horas, com precisão decimal. O campo é armazenado no banco de dados do Workfront como atualWorkRequiredDouble.
+O campo existente de Horas efetivas foi renomeado para Horas efetivas herdadas. O campo armazena o tempo registrado para projetos, tarefas e problemas em minutos e é armazenado no banco de dados do Workfront como `actualWorkRequired`.
 
 Os campos Horas efetivas e Horas efetivas herdadas estão visíveis nas visualizações de projetos, tarefas e problemas, e nos relatórios.
 
 O campo Horas efetivas visível na seção Detalhes do projeto, tarefas e problemas representa as novas Horas efetivas.
 
-
-
 >[!IMPORTANT]
 >
 >Dependendo de quando as horas foram registradas, pode haver uma discrepância entre as Horas Reais e as Horas Reais Herdadas para um projeto, tarefa ou problema.<br>
->&#x200B;>Existem os seguintes cenários:
+>>Existem os seguintes cenários:
 >
->* As Horas efetivas que representam horas registradas para projetos, tarefas e problemas desde maio de 2021 foram movidas do campo Horas efetivas herdadas para o novo campo Horas efetivas.
->* As horas reais que representam horas registradas para projetos, tarefas e problemas antes de maio de 2021 são contabilizadas somente no campo Horas reais herdadas.
->  &#x200B;><br>Talvez seja necessário atualizar os relatórios para refletir o novo campo e seus valores.
-
+>* As horas reais representam horas registradas para projetos, tarefas e problemas desde maio de 2021.
+>* As Horas Reais Herdadas representam horas registradas para projetos, tarefas e problemas durante a vida útil do projeto, tarefa ou problema. Isso inclui horas registradas antes de maio de 2021 até a hora atual.
+>  ><br>Talvez seja necessário atualizar os relatórios para refletir o novo campo e seus valores.
+>  ><br>O Workfront usa Horas Reais Herdadas para calcular Custos Reais do Trabalho.
 
 Para obter informações, consulte [Exibir Horas Efetivas](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
