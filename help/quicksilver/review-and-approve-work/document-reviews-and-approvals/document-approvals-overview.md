@@ -6,9 +6,9 @@ description: Você pode adicionar outros aprovadores ou revisores a um documento
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '569'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Aprovações unificadas é um redesign abrangente do processo de aprovações ex
 * Os participantes da aprovação de documentos são exibidos no Resumo do documento, não na guia do fluxo de trabalho da prova.
 * Aprovações unificadas não são compatíveis com a ferramenta de relatórios atual.
 
-  Você pode ingressar no novo beta Painéis da Tela para [Criar um painel de relatório para revisão e aprovações](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), ou pode usar o widget Todas as aprovações, disponível nos novos Painéis da Tela e Página Inicial, e fornecer os seguintes detalhes sobre Aprovações unificadas:
+  Você pode ingressar no novo beta Painéis da Tela de Pintura para [Criar um painel de relatório para revisão e aprovações](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md), ou pode usar o widget Métricas de aprovação de documentos disponível nos novos Painéis da Tela de Página Inicial e Painéis da Tela de Pintura para fornecer os seguintes detalhes sobre Aprovações unificadas:
 
    * Aprovações por decisão
    * Tempo médio de aprovação

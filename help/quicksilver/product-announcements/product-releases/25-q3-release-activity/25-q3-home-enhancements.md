@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
+source-git-commit: 9808596e561ef30cc0edf5006f5ac2f190ed64f5
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Esta página descreve todas as melhorias na página inicial feitas com a versão
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2025, consulte [Visão geral da versão do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
-<!--## All Approvals widget renamed to Document approval metrics
+## O widget Todas as aprovações foi renomeado para Métricas de aprovação do documento
 
-We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.
+Renomeamos o widget Todas as aprovações para Métricas de aprovação de documento para refletir com mais precisão as informações exibidas. O widget Métricas de aprovação de documento fornece insights de alto nível sobre as aprovações de documentos dos projetos que você possui.
 
-This widget does not contain any information about proof approvals. -->
+Este widget não contém informações sobre aprovações de provas.
 
 ## Experiência de comentário atualizada na seção Menções na área Minhas atualizações
 

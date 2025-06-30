@@ -6,9 +6,9 @@ description: O Início ajuda você a gerenciar seu trabalho. É possível person
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1011'
 ht-degree: 4%
 
 ---
@@ -61,8 +61,8 @@ Abaixo estão os 11 widgets atualmente disponíveis para escolher, bem como um r
 * **Minha aprovação**\
     Exibe todas as aprovações pendentes, atribuídas, delegadas e enviadas; um botão para delegar aprovações; e botões para tomar decisões de aprovação diretamente no widget.
 
-* **Todas as aprovações**\
-        Exibe dois gráficos com informações sobre o tempo médio de aprovação e as decisões, bem como exibições de lista de aprovações pendentes e vencidas. <span style="color: #ff0000;">Este recurso faz parte de uma versão em fases e, no momento, está disponível apenas para clientes específicos.</span>
+* **Métricas de aprovação de documentos**\
+        Exibe dois gráficos com informações sobre o tempo médio de aprovação e as decisões do documento, bem como exibições de lista de aprovações pendentes e vencidas. Você deve ter as Aprovações unificadas habilitadas para usar este widget.
 
 * **Menções**\
     Exibe threads de comentários recentes de toda a Workfront, semelhantes à página Minhas atualizações. Você pode usar o botão responder para compor uma resposta no widget. Este widget também mostra comentários feitos sobre tarefas e problemas atribuídos a você, atribuídos a outro usuário, de sua propriedade, do qual você é o contato principal ou que você criou, desde que a tarefa ou problema tenha sido atualizado nos últimos 30 dias.
