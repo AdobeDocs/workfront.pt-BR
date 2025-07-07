@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: 0c9cbf094ec1b3d5f48a0e4b700b9554925199e1
+source-git-commit: 2c5a4ff65088652b67099d187e6ee4c11d80a3b3
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
@@ -31,12 +31,11 @@ Sandbox 2
 
 O TLS do cliente permite verificar se a mensagem de inscrição de evento recebida realmente veio do Adobe Workfront. Para habilitar essa funcionalidade, o servidor deve estar configurado para solicitar e validar o certificado x509 da Workfront.
 
-<!--
+
 >[!NOTE]
 >
->* Workfront currently supports TLS version 1.2 by default.
->* Organizations can request that TLS version 1.3 be enabled for their Workfront instance.
--->
+>As assinaturas de evento usam TLS versão 1.3 se o servidor para o qual a assinatura de evento está enviando eventos der suporte à versão 1.3. Se o servidor de conexão não for compatível com a versão 1.3, a assinatura do evento usará a versão 1.2 do TLS.
+
 
 
 ## Verificar o certificado de cliente do Workfront
