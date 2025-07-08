@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 8d37762a2f6b01ff25845639c6436b2a39aa5449
+source-git-commit: cd5dcbd0f39754fb9ab1605c1eb65af37aa21996
 workflow-type: tm+mt
-source-wordcount: '13224'
+source-wordcount: '13227'
 ht-degree: 2%
 
 ---
@@ -2457,7 +2457,7 @@ ht-degree: 2%
       * [Atualizar integrações que usam o controle de versão da API padrão](wf-api/api/update-default-api-versioning.md)
       * [Filtrar mensagens de assinatura de eventos](wf-api/api/filter-event-sub-messages.md)
       * [Campos de recurso de assinatura do evento](wf-api/api/event-sub-resource-fields.md)
-      * [Certificados de inscrição em eventos](wf-api/api/event-sub-certs.md)
+      * [Configurar o TLS do cliente para a assinatura de eventos](wf-api/api/event-sub-certs.md)
       * [Especifique uma Versão da API em suas integrações](wf-api/api/specify-api-version-integrations.md)
       * [Alterações na API principal: respostas da pesquisa de status](wf-api/api/api-changes-search.md)
       * [Controle de versão da API e programação de suporte](wf-api/api/api-version-support-schedule.md)
