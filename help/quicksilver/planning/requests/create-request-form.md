@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2166'
 ht-degree: 1%
 
 ---
@@ -241,7 +241,7 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
    ![Compartilhar caixa para o formulário de solicitação](assets/share-box-for-request-form.png)
 
-1. Selecione entre as seguintes opções para indicar quais tipos de usuários podem acessar este formulário:
+1. (Condicional) No ambiente de produção, selecione uma das seguintes opções para indicar quais tipos de usuários podem acessar esse formulário:
 
    * Qualquer pessoa com acesso de exibição ou superior ao espaço de trabalho
    * Qualquer pessoa com acesso de contribuição ou superior ao espaço de trabalho
@@ -257,7 +257,7 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
    >     * Pessoas
    >
 
-1. (Condicional) Se você selecionou **Qualquer pessoa com o link** na etapa anterior, selecione a **Data de expiração do link** no calendário disponível.
+1. (Condicional) No ambiente de produção, se você selecionou **Qualquer pessoa com o link** na etapa anterior, selecione a **Data de expiração do link** no calendário disponível.
 
    As pessoas receberão um erro depois que o link expirar e você deverá atualizar a data do link e gerar um novo link para compartilhar antes que as pessoas possam acessar o formulário novamente.
 
@@ -267,13 +267,14 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
    >
    >Depois que a data de compartilhamento expirar, o formulário de solicitação não estará mais disponível na área Solicitações do Workfront e os links compartilhados com outros usuários não estarão mais acessíveis.
 
-
-1. (Opcional) Clique em **Salvar e copiar link** para salvar os detalhes de compartilhamento do formulário. Se o formulário foi salvo anteriormente, clique em **Copiar link**.
+1. (Opcional e condicional) No ambiente de produção, clique em **Salvar e copiar link** para salvar os detalhes de compartilhamento do formulário. Se o formulário foi salvo anteriormente, clique em **Copiar link**.
 
    As opções de compartilhamento de formulário são salvas e o link é copiado para a área de transferência. Agora você pode compartilhá-lo com outras pessoas.
 
    Para obter informações sobre como criar registros usando um link para um formulário de solicitação, consulte [Enviar solicitações do Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
 
+1. <span class="preview">(Condicional) No ambiente de visualização, para compartilhar com usuários, selecione a guia Compartilhamento interno, procure o nome do usuário e selecione-o quando ele aparecer na lista.</span>
+1. <span class="preview">(Condicional) No ambiente de visualização, para criar um link público, selecione a guia Compartilhamento público e alterne na opção Criar link público. Em seguida, você pode copiar o link aqui ou definir uma data de expiração do link.</span>
 1. Clique em **Salvar** no canto inferior direito da guia **Formulário** para salvar o formulário.
 
 1. Clique na seta à esquerda do nome do formulário no cabeçalho para fechar o formulário.
