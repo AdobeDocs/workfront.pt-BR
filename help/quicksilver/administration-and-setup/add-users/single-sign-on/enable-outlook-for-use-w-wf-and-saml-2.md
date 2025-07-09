@@ -8,14 +8,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
 
 # Habilitar o Outlook para uso com Workfront e SAML 2.0
+
+>[!IMPORTANT]
+>
+>[O Microsoft está desabilitando o suporte para tokens herdados do Exchange online](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que são usados atualmente pelo suplemento do Workfront Outlook para autenticação. Essa alteração pela Microsoft já começou a afetar os clientes e continuará a ser implementada em fases até outubro de 2025.
+>
+>* **Depois que o Microsoft desabilitar totalmente esses tokens, a integração do Workfront para Microsoft Outlook não funcionará mais.**
+>
+>Como parte dessa alteração, a Microsoft tomou a decisão de alterar a maneira como os tokens são reativados. Após **30 de junho de 2025**, os administradores não poderão mais reabilitar tokens, somente o Suporte da Microsoft poderá conceder exceções. **Em 1º de outubro de 2025, os tokens herdados serão desativados para todos os locatários. Exceções não serão concedidas.**
 
 Se você habilitar a autenticação SAML 2.0 e quiser que os usuários façam logon no Workfront a partir do Microsoft Outlook usando suas credenciais do SAML 2.0, será necessário habilitar o SAML 2.0 para autenticar em suplementos do Office.
 

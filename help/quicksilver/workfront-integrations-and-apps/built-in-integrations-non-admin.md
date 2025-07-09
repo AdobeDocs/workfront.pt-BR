@@ -7,9 +7,9 @@ description: Você pode integrar o [!DNL Adobe Workfront] com aplicativos de ter
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '489'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ As seguintes integrações integradas estão disponíveis atualmente no Workfron
      <li>After Effects </li>
      </ul>
      <li><p>Baixe/instale a partir de <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Para obter informações e instruções, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar o plug-in [!DNL Adobe Workfront] para [!DNL Creative Cloud] aplicativos</a>.</p> </td> 
+     <p>Para obter informações e instruções, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar o plug-in [!DNL Adobe Workfront] para [!DNL Creative Cloud] aplicativos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets e Assets Essentials </p>  </p> </td> 
@@ -95,13 +95,13 @@ As seguintes integrações integradas estão disponíveis atualmente no Workfron
      <li>Sincronizar atualizações e status de tarefas vinculadas entre [!DNL Workfront] e [!DNL Jira] </li> 
     </ul> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Calendários do Microsoft (Office 365/Outlook Live)</td> 
+  <!--<tr> 
+   <td role="rowheader">Microsoft Calendars (Office 365 / Outlook Live)</td> 
    <td> 
     <ul> 
-     <li> <p>Integre com uma versão baseada na Web do Outlook no Office 365 ou Outlook Live hospedado na nuvem. </p>
+     <li> <p>Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. </p>
     </ul> </td> 
-  </tr> 
+  </tr>-->
   <tr> 
    <td role="rowheader"> <p>Microsoft OneDrive</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -109,16 +109,16 @@ As seguintes integrações integradas estão disponíveis atualmente no Workfron
      <li>Vincular documentos e pastas a [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <tr> 
+  <!--<tr> 
    <td role="rowheader"> <p>Microsoft Outlook</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Atualizar um projeto/tarefa/problema existente com as informações de um email </li> 
-     <li>Converter emails em [!DNL Workfront] itens diretamente da sua caixa de entrada </li> 
-     <li>Criar novas tarefas por email </li> 
-     <li>Comentar em [!DNL Workfront] itens </li> 
+     <li>Update an existing project/task/issue with info from an email </li> 
+     <li>Convert emails into [!DNL Workfront] items right from your inbox </li> 
+     <li>Create new tasks from an email </li> 
+     <li>Comment on [!DNL Workfront] items </li> 
     </ul> </td> 
-  </tr> 
+  </tr> -->
   <tr> 
    <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>OBSERVAÇÃO</b>: a partir de 1º de julho de 2025, a Microsoft removerá o suporte para o aplicativo de desktop Classic Teams. Como resultado, a integração do Workfront com o Microsoft Teams não será suportada assim que o aplicativo de desktop Classic Teams não estiver mais disponível. </p> </td> 
    <td> 
