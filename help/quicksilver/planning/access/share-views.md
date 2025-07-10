@@ -276,8 +276,10 @@ Os usuários que acessam um link para uma exibição para a qual não têm permi
 1. (Condicional) Se você for o gerente de uma view, poderá receber uma solicitação de outro usuário para acessar a view nas seguintes áreas:
 
    * Uma notificação no aplicativo
+
      ![Notificação no aplicativo para solicitação de acesso para exibição](assets/in-app-notification-for-access-request-for-view.png)
    * Uma notificação por email
+
      ![Notificação no aplicativo para solicitação de acesso para exibição](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condicional) Na área de notificação do Workfront, clique no link de notificação no aplicativo
 Ou
