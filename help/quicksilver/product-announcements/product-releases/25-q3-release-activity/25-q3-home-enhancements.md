@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
+source-git-commit: a1295e5dfa3c608c5f1eca9cabb67bd402617db5
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,11 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 >* Versão rápida de produção: 30 de junho de 2025
 >* Produção para todos os clientes: 30 de junho de 2025
 
-Renomeamos o widget Todas as aprovações para Métricas de aprovação de documento para refletir com mais precisão as informações exibidas. O widget Métricas de aprovação de documento fornece insights de alto nível sobre as aprovações de documentos dos projetos que você possui.
+Renomeamos o widget Todas as aprovações para Métricas de aprovação de documento para refletir com mais precisão as informações exibidas. O widget Métricas de aprovação de documento fornece insights de alto nível sobre as aprovações de documentos dos projetos que você possui. Você deve ter [Aprovações Unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) habilitadas para usar este widget.
 
 Este widget não contém informações sobre aprovações de provas.
+
+Para obter mais informações, consulte [Introdução à Página Inicial](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Experiência de comentário atualizada na seção Menções na área Minhas atualizações
 
