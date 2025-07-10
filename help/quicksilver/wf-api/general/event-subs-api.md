@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
+source-git-commit: 5b984451d19ed0381c75c4fa19f3eba16804fbf5
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2666'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 3%
 -->
 
 Quando ocorre uma ação em um objeto do Adobe Workfront que é compatível com assinaturas de evento, você pode configurar o Workfront para enviar uma resposta para o endpoint desejado. Isso significa que aplicativos de terceiros podem receber atualizações das interações do Workfront por meio da API do Workfront logo após ocorrerem. Em geral, você pode esperar receber notificações de webhook em menos de 5 segundos a partir da alteração de dados que está sendo registrada. Em média, os clientes recebem notificações de webhook em menos de 1 segundo a partir da alteração de dados que está sendo registrada.
+
+Como as subscrições de evento enviam dados para outro serviço, elas são gerenciadas por meio de comandos, em vez de pelo aplicativo do Workfront.
 
 Para receber payloads de assinatura de evento por meio do firewall, você deve adicionar os seguintes endereços IP à inclui na lista de permissões do:
 
@@ -808,7 +810,7 @@ Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo
 >[!NOTE]
 >
 >A assinatura abaixo com o filtro fornecido só retornará mensagens em que o nome da tarefa contém `again` no `oldState`, qual era antes de uma atualização ser feita na tarefa.
->&#x200B;>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
+>>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
 
 ```
 {
