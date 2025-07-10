@@ -6,9 +6,9 @@ description: Você pode adicionar outros aprovadores ou revisores a um documento
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '576'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 >
 >O conteúdo deste artigo se refere à funcionalidade atualizada de aprovação de documentos, disponível somente para contas específicas. Para obter informações sobre processos de aprovação padrão, consulte os artigos listados em [Aprovações de trabalho](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-Aprovações unificadas é um redesign abrangente do processo de aprovações existente que está atualmente em desenvolvimento para o Adobe Workfront. Atualmente disponível em versão limitada, foi projetada para ser uma solução prática e eficaz para empresas que exigem envolvimento abrangente das partes interessadas e aprovações de documentos com versões específicas. Seu design elaborado e novos recursos funcionais facilitam a colaboração, a clareza de funções e o controle de versões no processo de aprovação, aumentando a eficiência e a responsabilidade.
+Aprovações unificadas, anteriormente chamadas de Novas aprovações de documentos, é um redesign holístico do processo de aprovações existente que está atualmente em desenvolvimento para o Adobe Workfront. Atualmente disponível em versão limitada, foi projetada para ser uma solução prática e eficaz para empresas que exigem envolvimento abrangente das partes interessadas e aprovações de documentos com versões específicas. Seu design elaborado e novos recursos funcionais facilitam a colaboração, a clareza de funções e o controle de versões no processo de aprovação, aumentando a eficiência e a responsabilidade.
 
 ## Principais diferenças das aprovações de documentos legados e de provas
 
