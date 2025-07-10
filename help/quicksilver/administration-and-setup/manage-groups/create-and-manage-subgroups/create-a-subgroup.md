@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 3%
+source-wordcount: '659'
+ht-degree: 0%
 
 ---
 
@@ -66,54 +66,35 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Selecione o grupo ou subgrupo existente ao qual deseja adicionar um novo subgrupo.
 1. Clique em **Novo Subgrupo**.
-1. Na caixa **Novo Subgrupo** exibida, digite um **Nome do Grupo** para o subgrupo.
-1. (Opcional) especifique qualquer uma das seguintes informações:
+1. Na caixa **Novo Subgrupo** exibida, digite um **Nome do grupo** para o subgrupo.
+1. (Opcional) Insira qualquer uma das seguintes informações:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Nome do grupo</td> 
-      <td>Altere o nome do grupo.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Descrição</td> 
-      <td>Digite uma descrição para o subgrupo. É possível digitar até 512 caracteres.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Está ativo</td> 
-      <td> <p>(Ativado por padrão) Torna o grupo ativo na instância do Workfront.</p> <p>Em campos de digitação antecipada como o mostrado abaixo, quando os usuários regulares procuram um grupo para anexá-lo a um objeto ou compartilhar um objeto com ele, somente os grupos ativos são exibidos na lista.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Para simplificar isso para seus usuários, você pode desativar a opção Está ativo para grupos que não estão em uso no momento.</p> <p>Você pode visualizar, filtrar e agrupar facilmente a lista Grupos com base no status ativo ou inativo usando esse campo. Para obter informações sobre como usar modos de exibição, filtros e agrupamentos em listas, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Elementos de relatório: filtros, modos de exibição e agrupamentos</a>.</p>  </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Tornar este grupo e seus subgrupos públicos</td> 
-      <td> <p>(Disponível somente se você estiver exibindo Detalhes para um grupo de nível superior, não para um subgrupo.) Ative esta opção para permitir que os usuários no subgrupo com acesso de edição de usuário (que não são administradores do grupo) adicionem esse grupo e seus subgrupos ao perfil de usuário de outros usuários.</p> <p>Para um grupo público, qualquer usuário (dentro ou fora do grupo) que tenha acesso de usuário de edição pode adicionar o grupo ao perfil de outros usuários. Eles não podem fazer isso para um grupo privado.</p> <p>Você pode editar essa opção somente no grupo pai superior em uma hierarquia de grupos que tenha mais de um nível. Todos os subgrupos do grupo pai herdam sua configuração.</p> <p><b>NOTA</b>:  
-        <ul> 
-         <li>Você não pode tornar um subgrupo público por si só, mas pode torná-lo público, o que também torna públicos todos os subgrupos do pai.</li> 
-         <li>Um subgrupo que pertence a um grupo público é público por padrão, portanto, qualquer usuário com acesso de usuário de edição também pode adicionar o subgrupo a outros usuários.</li> 
-        </ul> </p> <p>Se precisar de informações sobre o acesso necessário para editar usuários, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Conceder acesso aos usuários</a>. Para obter informações sobre como editar usuários, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Editar perfil de usuário</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Líder de negócios </td> 
-      <td> <p>Você pode atribuir um usuário como Líder de negócios para um subgrupo que gerencia. Um Líder de negócios é alguém que toma decisões de negócios para o subgrupo. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Visão geral do Líder de negócios</a><span>.</span></p> <p>Se a pessoa ainda não for membro do subgrupo, adicionar seu nome a esse campo também a adicionará ao grupo.</p> <p><b>NOTA</b>:  
-        <ul> 
-         <li>Antes de remover o Líder Comercial de um subgrupo, você deve remover o nome dele do campo Líder Comercial.</li> 
-         <li>Se você remover o nome do campo Líder de negócios, esse usuário permanecerá membro do subgrupo, a menos que você o remova dele. Para obter instruções sobre como remover alguém de um grupo, consulte a seção <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Gerenciar associações de um grupo</a> no artigo <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Gerenciar um grupo</a>.</li> 
-        </ul> </p> <p>Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Visão geral do Líder de negócios</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Membros do Grupo e Administradores de Grupos</td> 
-      <td> 
-       <ul> 
-        <li> <p>Membros do grupo: para adicionar usuários e grupos ao subgrupo, comece digitando o nome de um usuário ou grupo existente que deseja adicionar e, em seguida, selecione o nome quando ele for exibido.</p> <p>Os usuários e grupos adicionados têm acesso a todos os objetos compartilhados com o grupo.</p> </li> 
-        <li> <p data-mc-conditions="SnippetConditions-wf-groups.subgroups">Administradores de grupo: um subgrupo herda os administradores do grupo acima dele, portanto, especificar um usuário como administrador de grupo para um subgrupo é opcional. Você pode atribuir um membro do grupo como administrador do grupo usando o menu suspenso à direita do nome do usuário.</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Procurar pessoas e grupos na lista</td> 
-      <td> Se você precisar encontrar um usuário ou grupo já atribuído a este subgrupo, digite o nome dele aqui e selecione-o quando ele aparecer.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Descrição**: digite uma descrição para o subgrupo. É possível digitar até 512 caracteres.
+   * **Está ativo**: esta opção é habilitada por padrão e torna o grupo ativo na sua instância do Workfront.
+
+     Em campos de digitação antecipada como o mostrado abaixo, quando os usuários regulares procuram um grupo para anexá-lo a um objeto ou compartilhar um objeto com ele, somente os grupos ativos são exibidos na lista.
+
+     ![Campo de digitação antecipada para um grupo](assets/typeahead-for-group.png)
+
+     Para simplificar isso para seus usuários, você pode desabilitar a opção **Está ativo** para grupos que não estão em uso no momento.
+
+     Você pode visualizar, filtrar e agrupar facilmente a lista Grupos com base no status ativo ou inativo usando esse campo. Para obter informações sobre como usar modos de exibição, filtros e agrupamentos em listas, consulte [Elementos de relatório: filtros, modos de exibição e agrupamentos](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+
+   * **Líder de negócios**: você pode atribuir um usuário como Líder de negócios para um subgrupo que você gerencia. Um Líder de negócios é alguém que toma decisões de negócios para o subgrupo. Para obter mais informações, consulte [Visão geral do Líder de negócios](/help/quicksilver/administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
+
+     Se a pessoa ainda não for membro do subgrupo, adicionar seu nome a esse campo também a adicionará ao grupo.
+
+     >[!NOTE]
+     >
+     >* Antes de remover o Líder Comercial de um subgrupo, você deve remover o nome dele do campo Líder Comercial.
+     >* Se você remover o nome do campo Líder de negócios, esse usuário permanecerá membro do subgrupo, a menos que você o remova dele. Para obter instruções sobre como remover alguém de um grupo, consulte [Exibir e gerenciar as associações de um grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+
+   * **Membros do grupo e administradores do grupo**: para adicionar usuários e grupos como membros do subgrupo, comece digitando o nome de um usuário ou grupo existente que você deseja adicionar e, em seguida, selecione o nome quando ele aparecer.
+
+     Os usuários e grupos adicionados têm acesso a todos os objetos compartilhados com o grupo.
+
+     Um subgrupo herda os administradores do grupo acima dele, portanto, especificar um usuário como administrador de grupo para um subgrupo é opcional. Você pode atribuir um membro do grupo como administrador do grupo usando o menu suspenso à direita do nome do usuário.
+
+   * **Pesquisar pessoas e grupos na lista**: se você precisar encontrar um usuário ou grupo já atribuído a este subgrupo, digite o nome dele aqui e selecione-o quando ele aparecer.
 
 1. Clique em **Salvar.**
