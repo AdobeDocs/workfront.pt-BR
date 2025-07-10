@@ -185,7 +185,7 @@ Você pode tornar um subgrupo um grupo de nível superior removendo-o do grupo p
 >[!TIP]
 >
 >Quando você desativa um grupo que tem subgrupos abaixo dele, esses subgrupos também se tornam inativos. Se quiser que uma delas esteja ativa, use essas instruções para removê-la do grupo pai e, em seguida, reativá-la.
->>Para obter instruções sobre como desativar e reativar grupos, consulte [Desativar ou reativar um grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+>&#x200B;>Para obter instruções sobre como desativar e reativar grupos, consulte [Desativar ou reativar um grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 {{step-1-to-setup}}
 
