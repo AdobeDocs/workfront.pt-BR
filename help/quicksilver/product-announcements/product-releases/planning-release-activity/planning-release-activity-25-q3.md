@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: eaba54ebfef15c5f823c7086b809165b5cfb181b
+source-git-commit: ccd0f65f064b5e55b6b5b94b27e25facfe50502f
 workflow-type: tm+mt
-source-wordcount: '1908'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -22,35 +22,34 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-<!--## Auto-populate fields based on applied groupings
+## Preencher campos automaticamente com base nos agrupamentos aplicados
 
-Preview: July 10, 2025 
-Production fast release: August 14, 2025 
-Production for everyone: October 16, 2025 
+Visualização: 10 de julho de 2025
+Versão rápida de produção: 14 de agosto de 2025
+Produção para todos: 16 de outubro de 2025
 
-Now, when you have  groupings applied to a table view, adding a record to the table will auto-populate the fields associated with the groupings you add the record to.  
+Agora, quando você tiver agrupamentos aplicados a uma visualização de tabela, adicionar um registro à tabela preencherá automaticamente os campos associados aos agrupamentos aos quais você adiciona o registro.
 
-If you have multiple groupings applied, the system auto-populates the fields associated with all groupings only when you add the record at the end of the list inside the last grouping criteria.  
+Se você tiver vários agrupamentos aplicados, o sistema preencherá automaticamente os campos associados a todos os agrupamentos somente quando você adicionar o registro no final da lista, dentro dos últimos critérios de agrupamento.
 
-Prior to this enhancement, you had to manually update the fields associated with groupings.  
+Antes desse aprimoramento, você tinha que atualizar manualmente os campos associados aos agrupamentos.
 
-For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
+Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
 
-<!--## Common sharing button for views and record types
+## Botão de compartilhamento comum para exibições e tipos de registro
 
 >[!NOTE]
 >
->* Preview: July 9, 2025 
->* Production for everyone: July 17, 2025 
+>* Visualização: 9 de julho de 2025
+>* Produção para todos: 17 de julho de 2025
 
-You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
+Agora é possível compartilhar uma exibição, bem como um tipo de registro, no mesmo botão na página do tipo de registro. Antes desse aprimoramento, você só podia compartilhar o tipo de registro no botão Compartilhar na página do tipo de registro e uma exibição na guia da exibição.
 
-For more information, see the following articles: 
+Para obter mais informações, consulte os seguintes artigos:
 
-* [Share views](/help/quicksilver/planning/access/share-views.md)  
+* [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md)
 
-* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
--->
+* [Compartilhar tipos de registro](/help/quicksilver/planning/access/share-record-types.md)
 
 <!--## Add teams as approvers on Planning request forms
 
@@ -78,7 +77,7 @@ Para tornar a experiência ao compartilhar um formulário de solicitação no Wo
 * Removemos as opções gerenciar e contribuir para usuários com os quais você compartilha o formulário de solicitação. Agora, os usuários adicionados só podem enviar o formulário.
 * A guia compartilhamento público agora exibe o link e o campo de data de expiração somente após a opção Criar link público ter sido habilitada.
 
-Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandir e recolher todos os agrupamentos na exibição de tabela
 
@@ -296,7 +295,7 @@ Antes desse aprimoramento, os usuários com todos os níveis de licença precisa
 >[!NOTE]
 >
 >Esta alteração ficará visível para todos os usuários novos e existentes com uma licença de Administrador do sistema e Padrão.
->&#x200B;>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
+>>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
 
 Para obter informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
+source-git-commit: 0e519e9d5cb5bbc5052448d399b9cf54e4ed2766
 workflow-type: tm+mt
-source-wordcount: '5088'
+source-wordcount: '5164'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ Esta página lista as atualizações de interface que estamos fazendo no Adobe W
 Para todas as outras alterações no Adobe Workfront, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administração e configuração
+
+### Atualizações de interface para caixas de diálogo de subgrupo
+
+**Versão de visualização: 10 de julho de 2025; Versão de produção: 17 de julho de 2025**
+
+Atualizamos as caixas de diálogo para adicionar um subgrupo, editar um subgrupo e copiar um subgrupo para corresponder a outras áreas do aplicativo.
+
+Para visualizar essas alterações, acesse Configurar > Grupos > selecione um grupo > Subgrupos. (As caixas de diálogo para adicionar, editar e copiar um subgrupo da lista principal de grupos já foram atualizadas.)
+
+Para obter informações, consulte [Criar um subgrupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) e [Gerenciar um subgrupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 ### Atualizações de aparência para a seção Feeds de atualização da Configuração
 
