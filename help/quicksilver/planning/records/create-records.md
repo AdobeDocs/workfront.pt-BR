@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2468'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,11 @@ Os registros do tipo selecionado são exibidos na visualização.
 
 1. (Condicional) Na exibição de tabela, siga um destes procedimentos:
 
-   * Clique em **Novo registro** na última linha da tabela
+   * Clique em **Novo registro** na última linha da tabela ou após o último registro em um agrupamento
+
+     >[!TIP]
+     >
+     ><span class="preview">Quando você adiciona um novo registro após o último em um agrupamento ou subagrupamento, o Workfront preenche automaticamente os campos incluídos nos agrupamentos. Você pode editar esses campos manualmente, se necessário, e os registros podem ser removidos do agrupamento. </span>
 
    * Clique em **Shift + Enter** no teclado a partir de qualquer coluna ou linha da tabela. Isso adiciona uma linha vazia sob o registro do qual você começa.
    * Passe o mouse sobre o campo principal de um registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do campo e clique em **Inserir registro acima** ou **Inserir registro abaixo**.

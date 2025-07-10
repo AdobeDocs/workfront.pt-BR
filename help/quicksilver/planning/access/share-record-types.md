@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Você pode compartilhar um tipo de registro com outras pessoas para garantir a c
 >[!IMPORTANT]
 >
 >Os usuários com acesso a um espaço de trabalho obtêm automaticamente pelo menos permissões de Exibição para todos os tipos de registros no espaço de trabalho.
->&#x200B;>O compartilhamento de visualizações não fornece aos usuários permissões para tipos de registro. Somente espaços de trabalho de compartilhamento podem conceder aos usuários permissões para tipos de registro.
+>>O compartilhamento de visualizações não fornece aos usuários permissões para tipos de registro. Somente espaços de trabalho de compartilhamento podem conceder aos usuários permissões para tipos de registro.
 >
 >* Para obter informações gerais sobre o compartilhamento de objetos no Workfront Planning, consulte também [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Para obter mais informações, consulte a seção [Considerações ao compartilhar tipos de registro](#considerations-when-sharing-record-types) neste artigo.
@@ -151,6 +151,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    Isso abre a página do tipo de registro.
 
 1. Na guia de qualquer modo de exibição, clique em **Compartilhar** no canto superior direito do tipo de registro.
+1. <span class="preview">Clique em **Compartilhar o tipo de registro**.</span>
 
    A caixa **Compartilhar** é aberta.
 
@@ -206,6 +207,7 @@ Você pode remover as permissões dos usuários de um tipo de registro. No entan
 1. Abra o espaço de trabalho cujos tipos de registro você deseja interromper o compartilhamento e clique em um cartão de tipo de registro. Isso abre a página do tipo de registro.
 
 1. Na guia de qualquer modo de exibição, clique em **Compartilhar** no canto superior direito do tipo de registro.
+1. <span class="preview">Clique em **Compartilhar o tipo de registro**.</span>
 
    A caixa **Compartilhar** é aberta.
 1. Localize o usuário, grupo, equipe, empresa ou função de trabalho cujas permissões você deseja remover, expanda o menu suspenso de permissões à direita de seu nome e clique em **Remover**. <!--check the screen shot below - the UI text for View might not be accurate-->

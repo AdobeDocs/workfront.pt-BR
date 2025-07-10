@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '3720'
+source-wordcount: '3758'
 ht-degree: 2%
 
 ---
@@ -325,9 +325,9 @@ Para adicionar um filtro a uma exibição de tabela:
             <td>Data</td>
             <td><p>É</p>
             <p>Não é</p>
-            <p>É depois</p>
+            <p>Está depois</p>
             <p>Está antes</p>
-            <p>Fica entre</p><p>Não fica entre</p>
+            <p>Está entre</p><p>Não está entre</p>
             <p>Está vazio</p><p>Não está vazio</p></td>
         </tr>
 
@@ -573,13 +573,20 @@ Considere o seguinte ao exportar a exibição de tabela:
 Para exportar informações da exibição de tabela ou de um tipo de registro:
 
 1. Vá para uma página de tipo de registro e clique em uma guia de exibição de tabela.
-1. Passe o mouse sobre o nome da guia da exibição de tabela e clique no menu **Mais** ![Mais menu](assets/more-menu.png).
+1. Siga um destes procedimentos:
+
+   * Passe o mouse sobre o nome da guia de exibição de tabela, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da exibição e clique em **Exportar**.
 
    ![Mais menus em um modo de exibição](assets/view-more-menu-with-duplicate-option.png)
-1. Clique em **Exportar** e selecione um dos seguintes formatos:
 
-   * Excel
-   * CSV
+   * Clique em **Compartilhar** > **Exportar a exibição atual**. Essa opção está disponível somente quando você exibe a exibição de tabela.
+
+   ![Botão Compartilhar com tipo de registro e opções de compartilhamento de exibição](assets/share-button-with-record-type-and-view-sharing-options.png)
+
+1. Selecione um dos seguintes formatos:
+
+   * **Excel**
+   * **CSV**
 
    >[!IMPORTANT]
    >
