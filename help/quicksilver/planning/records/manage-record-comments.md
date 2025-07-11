@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
   Por exemplo, comentários adicionados a projetos no Workfront não são exibidos no mesmo projeto vinculado a uma campanha no Workfront Planning, e comentários adicionados ao registro do projeto no Workfront Planning não são exibidos no Workfront.
 
-* É possível marcar os usuários para chamar a atenção deles para uma atualização. Os usuários marcados não recebem uma notificação no aplicativo nem um email sobre a atualização. <!--this might change??-->
-
-* É possível marcar os usuários para chamar a atenção deles para uma atualização. Os usuários marcados receberão uma notificação no aplicativo ou por email sobre a atualização.
+* É possível marcar usuários ou equipes para chamar a atenção deles para uma atualização. Tanto os usuários marcados individualmente quanto os usuários das equipes marcadas recebem uma notificação no aplicativo e um email sobre a sua atualização.
 
   >[!NOTE]
   >
@@ -162,7 +160,7 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 1. (Opcional) Para desfazer ou refazer uma alteração, use as seguintes teclas de atalho:
    * CTRL + Z (⌘+z para Mac) para desfazer uma alteração
    * CTRL + Y (⌘+y para Mac) para refazer uma alteração
-1. (Opcional e condicional) Se a sua instância do Workfront fizer parte da Experiência unificada da Adobe, adicione **@** seguido do nome de um usuário para marcar alguém na atualização. Para obter mais informações, consulte a seção [Considerações sobre comentários em um registro](#considerations-about-commenting-on-a-record) neste artigo.
+1. (Opcional e condicional) Se a sua instância do Workfront fizer parte da Experiência unificada da Adobe, adicione **@** seguido do nome de um usuário ou de uma equipe para marcá-los na atualização. Para obter mais informações, consulte a seção [Considerações sobre comentários em um registro](#considerations-about-commenting-on-a-record) neste artigo.
 
 1. (Opcional) Use as opções na barra de ferramentas de Rich Text para formatar o texto, adicionar emojis ou links para a atualização a fim de aprimorar o conteúdo.
 

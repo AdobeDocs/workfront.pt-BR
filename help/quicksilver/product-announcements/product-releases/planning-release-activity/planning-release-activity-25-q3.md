@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: ccd0f65f064b5e55b6b5b94b27e25facfe50502f
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2148'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,15 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Adicionar notificações para usuários da equipe quando a equipe for adicionada a um comentário de registro
+
+Visualização: 10 de julho de 2025
+Produção para todos: 10 de julho de 2025
+
+Agora, quando você adiciona uma equipe a um comentário de registro no Workfront Planning, todos os membros da equipe recebem uma notificação no aplicativo e uma notificação por email sobre o comentário. Antes dessa melhoria, somente os usuários adicionados aos comentários individualmente eram notificados.
+
+Para obter informações, consulte Gerenciar comentários de registro [Gerenciar comentários de registro](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ## Preencher campos automaticamente com base nos agrupamentos aplicados
 
@@ -77,7 +86,7 @@ Para tornar a experiência ao compartilhar um formulário de solicitação no Wo
 * Removemos as opções gerenciar e contribuir para usuários com os quais você compartilha o formulário de solicitação. Agora, os usuários adicionados só podem enviar o formulário.
 * A guia compartilhamento público agora exibe o link e o campo de data de expiração somente após a opção Criar link público ter sido habilitada.
 
-Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandir e recolher todos os agrupamentos na exibição de tabela
 
@@ -295,7 +304,7 @@ Antes desse aprimoramento, os usuários com todos os níveis de licença precisa
 >[!NOTE]
 >
 >Esta alteração ficará visível para todos os usuários novos e existentes com uma licença de Administrador do sistema e Padrão.
->&#x200B;>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
+>>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
 
 Para obter informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
