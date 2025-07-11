@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Para obter mais informações sobre Logon Único, consulte [Visão geral do logo
 >
 >O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas ao [!DNL Adobe Admin Console]. Se sua organização tiver sido integrada ao [!DNL Adobe Admin Console], nenhuma ação será necessária.
 >
->Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada ao [!DNL Adobe Admin Console], consulte [Diferenças de administração baseadas em plataforma ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem se sua organização foi integrada ao [!DNL Adobe Admin Console], consulte [Diferenças de administração baseadas em plataforma ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 Se você quiser configurar sua sandbox de visualização para funcionar com uma solução de logon único, faça isso configurando-a separadamente do ambiente de produção. A configuração de SSO na sandbox de visualização é independente da sua configuração de SSO no ambiente de produção.
@@ -179,12 +179,15 @@ Para obter informações, consulte [Configurar recálculos de linha de tempo par
 
 Para o ambiente de Pré-visualização, o recálculo noturno é desativado e as linhas de tempo do projeto não são recalculadas automaticamente. Você deve recalcular manualmente a linha do tempo do projeto para o ambiente de Pré-visualização. Para obter informações, consulte [Recalcular linhas do tempo do projeto](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
+
 ## Pré-visualizar o desempenho e a disponibilidade do ambiente
 
-Os ambientes de visualização do [!DNL Workfront] não se destinam a testes de desempenho ou carga. Em vez disso, use esses ambientes para validar a funcionalidade do recurso com os fluxos de trabalho existentes da organização.
+* Os ambientes de visualização do [!DNL Workfront] não se destinam a testes de desempenho ou carga. Em vez disso, use esses ambientes para validar a funcionalidade do recurso com os fluxos de trabalho existentes da organização.
 
-[!DNL Workfront] Os ambientes de visualização devem estar sempre disponíveis.
+* Os fluxos de trabalho envolvendo documentos devem se concentrar no processo e não no teste de carga. Arquivos grandes não são suportados em ambientes de sandbox.
 
-Qualquer interrupção em um ambiente de Visualização do [!DNL Workfront] durante o horário comercial regular será uma prioridade imediatamente após a resolução de quaisquer problemas de Produção, se houver.
+* [!DNL Workfront] Os ambientes de visualização devem estar sempre disponíveis.
 
-Qualquer interrupção em um ambiente de Visualização do [!DNL Workfront] nos finais de semana (sábados e domingos) será resolvida para que o ambiente funcione durante o horário comercial na segunda-feira.
+* Qualquer interrupção em um ambiente de Visualização do [!DNL Workfront] durante o horário comercial regular será uma prioridade imediatamente após a resolução de quaisquer problemas de Produção, se houver.
+
+* Qualquer interrupção em um ambiente de Visualização do [!DNL Workfront] nos finais de semana (sábados e domingos) será resolvida para que o ambiente funcione durante o horário comercial na segunda-feira.
