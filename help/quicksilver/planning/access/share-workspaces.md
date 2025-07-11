@@ -156,8 +156,10 @@ Os usuários que acessam um link para um espaço de trabalho para o qual não t�
 1. (Condicional) Se você for o gerente de um espaço de trabalho, poderá receber uma solicitação de outro usuário para acessar a view nas seguintes áreas:
 
    * Uma notificação no aplicativo
+
      ![Notificação no aplicativo para solicitação de acesso](assets/in-app-notification-for-access-request.png)
    * Uma notificação por email
+
      ![Notificação por email para a solicitação de acesso](assets/email-notification-for-access-request.png)
 1. (Condicional) Na área de notificação do Workfront, clique no link de notificação no aplicativo
 Ou
