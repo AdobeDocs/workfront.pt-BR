@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: e8e8e12bef55303c65894aa495f7554a9f1a811c
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1969'
 ht-degree: 0%
 
 ---
@@ -186,6 +186,8 @@ Você pode compartilhar exibições que criou ou exibições para as quais tem p
 
    A exibição é atualizada com um ícone de pessoas ![Exibir compartilhado com outros ícones](assets/view-shared-with-others-people-icon.png) para indicar que a exibição agora está compartilhada com outros usuários.
 
+   Os usuários com os quais você compartilhou a visualização recebem uma notificação no aplicativo e por email sobre permissões para ela.
+
    >[!TIP]
    >
    >Visualizações sem um ícone de pessoas ou global são visualizações que você criou e não são compartilhadas com outras pessoas. As exibições não compartilhadas só estão visíveis para você.
@@ -276,10 +278,8 @@ Os usuários que acessam um link para uma exibição para a qual não têm permi
 1. (Condicional) Se você for o gerente de uma view, poderá receber uma solicitação de outro usuário para acessar a view nas seguintes áreas:
 
    * Uma notificação no aplicativo
-
      ![Notificação no aplicativo para solicitação de acesso para exibição](assets/in-app-notification-for-access-request-for-view.png)
    * Uma notificação por email
-
      ![Notificação no aplicativo para solicitação de acesso para exibição](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condicional) Na área de notificação do Workfront, clique no link de notificação no aplicativo
 Ou

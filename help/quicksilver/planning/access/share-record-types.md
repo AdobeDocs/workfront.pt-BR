@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Você pode compartilhar um tipo de registro com outras pessoas para garantir a c
 >[!IMPORTANT]
 >
 >Os usuários com acesso a um espaço de trabalho obtêm automaticamente pelo menos permissões de Exibição para todos os tipos de registros no espaço de trabalho.
->&#x200B;>O compartilhamento de visualizações não fornece aos usuários permissões para tipos de registro. Somente espaços de trabalho de compartilhamento podem conceder aos usuários permissões para tipos de registro.
+>>O compartilhamento de visualizações não fornece aos usuários permissões para tipos de registro. Somente espaços de trabalho de compartilhamento podem conceder aos usuários permissões para tipos de registro.
 >
 >* Para obter informações gerais sobre o compartilhamento de objetos no Workfront Planning, consulte também [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Para obter mais informações, consulte a seção [Considerações ao compartilhar tipos de registro](#considerations-when-sharing-record-types) neste artigo.
@@ -195,6 +195,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique em **Salvar**.
 
    O tipo de registro agora é compartilhado com outros usuários.
+Os usuários com os quais você compartilhou o tipo de registro recebem uma notificação no aplicativo e por email sobre a concessão de permissões para as seguintes entidades:
+
+   * O tipo de registro
+   * O espaço de trabalho, se eles não tiverem tido permissões para o espaço de trabalho antes que o tipo de registro fosse compartilhado com eles.
 
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada. Eles devem ter permissões no tipo de registro para poder visualizá-lo.
 

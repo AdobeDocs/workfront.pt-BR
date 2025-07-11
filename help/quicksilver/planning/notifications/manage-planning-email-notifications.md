@@ -1,14 +1,14 @@
 ---
 title: Gerenciar Notificações por Email do Adobe Workfront Planning
-description: Quando alguém marca você em um comentário de registro no Adobe Workfront Planning, você recebe uma notificação por email para essa marca.
+description: Quando alguém marca você ou suas equipes em um comentário de registro no Adobe Workfront Planning, você recebe uma notificação por email para essa tag.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
