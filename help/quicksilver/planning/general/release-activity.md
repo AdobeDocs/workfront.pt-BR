@@ -800,7 +800,7 @@ Produção: 8 de maio de 2024
 
 Visualização: a ser determinado
 
-Se você for um cliente da Experiência unificada da Adobe e alguém adicioná-lo a um comentário na página de registro, você receberá uma notificação no aplicativo e uma notificação por email sobre o comentário. É possível gerenciar as preferências de notificação na área Preferências do perfil do Adobe Experience Cloud. Para obter mais informações, consulte [Preferências e notificações da conta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Se você for um cliente da Experiência unificada da Adobe e alguém adicioná-lo a um comentário na página de registro, você receberá uma notificação no aplicativo e uma notificação por email sobre o comentário. É possível gerenciar as preferências de notificação na área Preferências do perfil do Adobe Experience Cloud. Para obter mais informações, consulte [Preferências e notificações da conta](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences).
 
 Para obter mais informações sobre notificações de planejamento do Workfront, consulte [Notificações do Adobe Workfront Planning: índice do artigo](/help/quicksilver/planning/notifications/notifications-information.md).
 
