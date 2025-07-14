@@ -6,9 +6,9 @@ description: O painel de navegação esquerdo do  [!DNL Workfront]  facilita a n
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
+source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1385'
 ht-degree: 1%
 
 ---
@@ -239,7 +239,7 @@ Encontrar e editar informações no painel esquerdo é semelhante para esses obj
 
 Para saber quais seções estão disponíveis para áreas específicas, consulte [[!UICONTROL Seções padrão] no painel de navegação esquerdo](#default-sections-in-the-left-navigation-panel).
 
-1. Clique no ícone ![](assets/main-menu-icon-16x12.png) do **[!UICONTROL Menu principal]** e clique no nome de um objeto para acessá-lo.
+1. Clique no ícone **[!UICONTROL do]** Menu principal![](assets/main-menu-icon-16x12.png) e clique no nome de um objeto para acessá-lo.
 
    A página do objeto é exibida.
 
@@ -265,15 +265,13 @@ Para saber quais seções estão disponíveis para áreas específicas, consulte
       >
       >Você deve criar o painel antes que ele apareça na lista.
 
-   1. Clique em **[!UICONTROL Adicionar]**.
+1. (Opcional) Para remover um link rápido do painel, passe o mouse sobre o painel na navegação à esquerda e clique no ícone **Remover** ![Ícone Remover](assets/remove-dashboard-from-left.png) quando ele aparecer.
 
-      O link do painel é exibido na parte inferior do painel esquerdo.
-
-1. (Opcional) Para alterar a ordem de uma seção no painel esquerdo, clique no ícone ![](assets/drag-icon.png) de **[!UICONTROL Arrastar]** à direita de uma seção e arraste-a para cima ou para baixo.
+1. (Opcional) Para alterar a ordem de uma seção no painel esquerdo, clique no ícone **[!UICONTROL de]** Arrastar![](assets/drag-icon.png) à direita de uma seção e arraste-a para cima ou para baixo.
 
    ![Arraste uma seção](assets/drag-section-right.png)
 
-1. (Opcional) Para fechar o painel esquerdo, clique no ícone ![](assets/left-panel-collapse-icon.png) de **[!UICONTROL Recolher]**.
+1. (Opcional) Para fechar o painel esquerdo, clique no ícone **[!UICONTROL de]** Recolher![](assets/left-panel-collapse-icon.png).
 
    >[!NOTE]
    >
