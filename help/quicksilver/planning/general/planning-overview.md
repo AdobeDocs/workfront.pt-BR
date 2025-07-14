@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2059'
 ht-degree: 1%
 
 ---
@@ -250,7 +250,7 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
    * Nome
    * Descrição
    * Data de início
-   * Data Final
+   * Data final
    * Status
 
   Você pode criar campos personalizados dos seguintes tipos:
@@ -325,7 +325,6 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
      ![Agrupamento aplicado na exibição de linha do tempo](assets/grouping-applied-in-timeline-view.png)
 
    * **Modo de exibição de calendário**: mostra registros que têm pelo menos dois campos do tipo Data em um formato de calendário.
-
      ![Exemplo de exibição de calendário](assets/calendar-view-example.png)
 
 
@@ -397,9 +396,9 @@ Para obter uma lista atualizada dos recursos lançados, consulte [atividade de v
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Módulos do Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): com os módulos do Adobe Workfront Planning, é possível acionar um cenário quando eventos ocorrem no Workfront Planning. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Adobe Workfront Planning.
+* [Módulos do Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): com os módulos do Adobe Workfront Planning, é possível acionar um cenário quando eventos ocorrem no Workfront Planning. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Adobe Workfront Planning.
 
 * [Noções básicas da API de Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md): a meta da API de Planejamento do Adobe Workfront é simplificar a criação de integrações com o Planning, introduzindo uma arquitetura REST-ful que opera via HTTP.
 
-* **Recursos de relatórios do Workfront Planning**: agora é possível exibir informações do Workfront Planning em um relatório no Workfront usando o Painel do Workfront Canvas. Para obter informações, consulte [Introdução aos Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+* **Recursos de relatórios do Workfront Planning**: agora é possível exibir informações do Workfront Planning em um relatório no Workfront usando o Painel do Workfront Canvas. Para obter informações, consulte [Visão geral dos Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 

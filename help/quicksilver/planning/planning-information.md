@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ As seções a seguir contêm artigos que descrevem em detalhes os recursos atual
 
 * [Noções básicas da API de Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md): a meta da API de Planejamento do Adobe Workfront é simplificar a criação de integrações com o Planning, introduzindo uma arquitetura REST-ful que opera via HTTP.
 
-* [Módulos do Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): com os módulos do Adobe Workfront Planning, é possível acionar um cenário quando eventos ocorrem no Workfront Planning. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Adobe Workfront Planning.
+* [Módulos do Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): com os módulos do Adobe Workfront Planning, é possível acionar um cenário quando eventos ocorrem no Workfront Planning. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Adobe Workfront Planning.
 
 * [Visão geral do Adobe Workfront Planning AI Assistant](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): com o Workfront AI Assistant para Planning, você pode pesquisar registros ou criar, atualizar e excluir registros usando comandos e permitindo que o assistente faça o trabalho por você.
 
@@ -109,5 +109,5 @@ As seções a seguir contêm artigos que descrevem em detalhes os recursos atual
   >
   >    O Assistente de IA do Workfront foi removido temporariamente e estará disponível em uma data posterior.
 
-* **Recursos de relatórios do Workfront Planning**: agora é possível exibir informações do Workfront Planning em um relatório usando o Painel do Workfront Canvas. Para obter informações, consulte [Introdução aos Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+* **Recursos de relatórios do Workfront Planning**: agora é possível exibir informações do Workfront Planning em um relatório usando o Painel do Workfront Canvas. Para obter informações, consulte [Visão geral dos Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 

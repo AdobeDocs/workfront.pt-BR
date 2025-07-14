@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 979d0919605564107e58032b80cfd259bd6edffa
 workflow-type: tm+mt
-source-wordcount: '13231'
+source-wordcount: '13221'
 ht-degree: 2%
 
 ---
@@ -1496,17 +1496,16 @@ ht-degree: 2%
    * [Relatórios e painéis: índice do artigo](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Painéis de tela {#canvas-dashboards}
       * [Painéis de tela](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
-      * Gerenciar painéis da tela de desenho {#manage-canvas-dashboards}
-         * [Gerenciar painéis da tela de desenho](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
-         * [Introdução aos Painéis do Canvas](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
-         * [Adicionar, remover ou organizar relatórios em um Painel da tela de desenho](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
-         * [Compartilhar um painel da tela](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
       * Adicionar relatórios {#add-reports}
+         * [Adicionar relatórios: índice do artigo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-reports-toc.md)
          * [Visão geral dos tipos de relatório do Painel de controle do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
          * [Criar um relatório de KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
          * [Criar um relatório de gráfico](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
          * [Criar um relatório de tabela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
          * [Adicionar um relatório existente a um painel da tela](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+      * Gerenciar painéis da tela de desenho {#manage-canvas-dashboards}
+         * [Gerenciar painéis da tela de desenho](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [Compartilhar um painel da tela](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
    * Relatórios {#reports}
       * [Relatórios](reports-and-dashboards/reports/reports-overview.md)
       * Noções básicas de relatórios {#report-basics}

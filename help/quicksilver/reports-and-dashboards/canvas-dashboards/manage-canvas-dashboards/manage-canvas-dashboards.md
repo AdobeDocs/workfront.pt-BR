@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,4 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [Introdução aos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
-* [Adicionar, remover ou organizar relatórios em um Painel da tela de desenho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
 * [Compartilhar um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)

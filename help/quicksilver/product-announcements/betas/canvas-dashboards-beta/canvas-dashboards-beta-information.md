@@ -7,23 +7,58 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
 
 # Informações beta de Painéis do Canvas
 
-Painéis de tela é um recurso atualmente em desenvolvimento que permite visualizar facilmente os dados do Adobe Workfront adicionando vários tipos de relatório em uma tela personalizável. Observe que, embora agradecemos sua participação durante nossa fase de teste beta, partes do recurso podem não estar completas ou funcionar conforme o esperado. Envie seus comentários sobre a experiência seguindo as instruções na seção [Forneça comentários](#provide-feedback) abaixo.
-
-Para obter informações básicas sobre como usar os Painéis do Canvas, consulte [Introdução aos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-Para obter uma lista de toda a documentação dos Painéis da Tela de Pintura, consulte [Visão geral dos Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
-
 >[!NOTE]
 >
 >Os Painéis do Canvas estão atualmente em uma fase fechada de teste beta e, portanto, estão sujeitos a alterações frequentes.
+
+Painéis de tela é um recurso atualmente em desenvolvimento que permite visualizar facilmente os dados do Adobe Workfront adicionando vários tipos de relatório em uma tela personalizável.
+
+Observe que, embora agradecemos sua participação durante nossa fase de teste beta, partes do recurso podem não estar completas ou funcionar conforme o esperado. Envie seus comentários sobre a experiência seguindo as instruções em na seção [Forneça comentários](#provide-feedback) abaixo.
+
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso.
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>plano do Adobe Workfront</p></td> 
+   <td> 
+<p>Qualquer </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
+   <td> 
+<p>Atual: Plano </p> 
+<p>Novo: Padrão</p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Configurações de nível de acesso</p></td> 
+   <td><p>Editar acesso a relatórios, painéis e calendários</p>
+  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
++++
+
 
 ## Inscreva-se no beta
 
@@ -49,29 +84,3 @@ O feedback é apreciado à medida que desenvolvemos essa ferramenta ao longo do 
 
 1. Clique em **Enviar**.
 
-## Recursos planejados
-
-Abaixo está uma lista dos tipos de relatórios atualmente compatíveis com o beta, bem como uma lista de outros recursos que planejamos adicionar aos Painéis do Canvas ao longo do beta e além.
-
-### Tipos de relatório compatíveis
-
-* Relatórios existentes (relatórios criados usando a ferramenta de relatórios atual)
-* Relatórios de gráfico
-* Relatórios de KPI
-* Relatórios de tabela
-* Relatórios de aprovações pendentes
-
-### Recursos em desenvolvimento
-
-* Curingas com base em data e usuário para filtros
-* Relatórios do Workfront Planning
-* Tipos de objetos adicionais do Workfront
-* Relatórios de painéis
-* Outras melhorias de usabilidade
-* Planilhas
-* Conteúdo da Web incorporado
-
-### Recursos do futuro roteiro
-
-* Solicitações no nível do painel
-* Suporte a moeda

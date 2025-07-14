@@ -3,14 +3,14 @@ product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards
 title: Visão geral dos Painéis do Canvas
 description: Saiba mais sobre Painéis do Canvas
-author: Nolan
+author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: dd4879d758275e37c933ceee285e70acf1cdb5ab
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 1%
 
 ---
 
@@ -18,22 +18,62 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Esta página descreve a funcionalidade que está disponível como parte da versão beta dos Painéis de controle do Canvas. Consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) para saber mais.
+>No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Para obter mais informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Os Painéis do Canvas permitem visualizar facilmente os dados do Adobe Workfront, adicionando vários tipos de relatórios em uma tela personalizável. Para obter instruções básicas sobre como usar os Painéis do Canvas, comece com o artigo [Introdução aos Painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). Caso contrário, consulte o índice do artigo abaixo para obter mais informações sobre um tópico específico.
+Os Painéis de tela de desenho permitem visualizar facilmente os dados do Adobe Workfront adicionando tipos de relatório em uma tela que oferece muitas opções de layout flexíveis, incluindo redimensionamento, arrastar e soltar e muito mais.
 
-<!--## Canvas Dashboards: article index
+Com os Painéis de Controle do Canvas, você pode criar relatórios sobre recursos do Workfront recém-adicionados, incluindo decisões de aprovação de documentos e planejamento do Workfront.
 
-This section contains the following articles:
 
-* [Manage Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
-    * [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
-    * [Add, remove, or arrange reports in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
-    * [Share a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-* [Canvas Dashboard report types](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md) 
-    * [Add an existing report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
-  [Build a KPI report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-    * [Build a chart report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-    * [Build a table report in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-    * [Add a pending approvals report to a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
+## Pré-requisitos
+
+* Sua organização deve fazer parte da versão beta dos Painéis do Canvas. Para obter informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+
+* Você deve ter uma licença de Plano (licenças atuais) ou uma licença Standard (novas licenças) para criar um Painel de controle do Canvas. Para obter informações sobre os tipos de licença da Workfront, consulte [Visão geral das licenças](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) ou [Visão geral das novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+* O administrador do Workfront deve fornecer acesso de Edição aos painéis no Nível de acesso para criar ou editar um Painel da tela. Para obter informações sobre como conceder acesso a Editar, consulte [Conceder acesso a relatórios, painéis e calendários](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+
+## Recursos atuais e planejados
+
+Abaixo está uma lista dos tipos de relatórios atualmente compatíveis com o beta, bem como uma lista de outros recursos que planejamos adicionar aos Painéis do Canvas ao longo do beta.
+
+### Tipos de relatório compatíveis
+
+* Relatórios existentes
+* Relatórios de gráfico
+* Relatórios de KPI
+* Relatórios de tabela
+
+### Recursos recém-lançados
+
+* Configuração versátil do layout do painel
+* Compartilhamento de painel
+* Relatórios de aprovação pendente
+* Relatórios do Workfront Planning
+* Filtragem AND/OR
+* Formatação condicional de colunas e linhas da tabela
+* Configuração de detalhamento para relatórios de KPI e Gráfico
+* Resultados da tabela de agrupamento
+* Filtros de nível de painel e filtros de sobreposição aplicados pelo usuário
+
+
+### Recursos em desenvolvimento
+
+* Tipos de objetos adicionais do Workfront
+* Aprimoramentos de usabilidade
+* Incluir exibições do Workfront Planning como bloco de relatório em um painel
+* Uso de um painel como uma exibição do Workfront Planning
+* Suporte estendido para clientes do Azure e GCP
+* Otimização do desempenho
+
+### Recursos do futuro roteiro
+
+* Exibições da Web incorporadas
+* Calendários
+* Relatórios de gerenciamento de recursos
+* Widgets adicionais da tela inicial
+* Envio de resumos do painel
+* Como copiar relatórios
+* Como copiar painéis
+
 
