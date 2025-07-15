@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Como administrador do Adobe Workfront, você pode conceder acesso administrativo a um modelo de layout aos administradores de um grupo específico para que eles possam editar o modelo. Isso não atribui o modelo aos usuários no grupo.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%

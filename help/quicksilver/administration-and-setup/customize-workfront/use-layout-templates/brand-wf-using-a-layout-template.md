@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: Como administrador do Adobe Workfront ou administrador de grupo, você pode usar um modelo de layout para personalizar os logotipos na área de navegação superior e no menu principal para determinados grupos, equipes, funções de trabalho e usuários. Isso é útil principalmente para grupos em uma organização de grande porte que têm sua própria marca.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -80,10 +80,10 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Marque o ícone Início <span style="font-weight: normal;"> (exibido na extremidade esquerda da área de navegação superior)</span></p> </td> 
-      <td> <p>Na seção <strong>Área de navegação superior</strong>, em <strong>Ícone da página inicial</strong>, clique em qualquer lugar na caixa, localize e selecione a imagem do logotipo. Ou arraste uma imagem para a caixa.</p> <p>Para recortar a imagem, use os controles de rolagem e arraste a imagem para a posição desejada dentro do espaço prescrito.</p> <p>Recomendamos uma imagem de 120 x 120. Pode estar em qualquer um dos seguintes formatos: GIF, JPG, PNG, SVG.</p> <p>Esse ícone também aparece em relatórios, listas, painéis e relatórios entregues que os usuários exportam como arquivos PDF.</p> </td> 
+      <td> <p>Na seção <strong>Área de navegação superior</strong>, em <strong>Ícone da página inicial</strong>, clique em qualquer lugar na caixa, localize e selecione a imagem do logotipo. Ou arraste uma imagem para a caixa.</p> <p>Para recortar a imagem, use os controles de rolagem e arraste a imagem para a posição desejada dentro do espaço prescrito.</p> <p>Recomendamos uma imagem de 120 x 120. Pode estar em qualquer um dos seguintes formatos: GIF, JPG, PNG, SVG.</p> <p>Esse ícone também aparece em relatórios, listas, painéis e relatórios entregues que os usuários exportam como arquivos do PDF.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Marque o logotipo <span style="font-weight: normal;"> do Menu Principal <img src="assets/main-menu-icon.png"> (exibido no canto superior direito do Menu Principal)</span></p> </td> 
+      <td role="rowheader"> <p>Marque o logotipo <img src="assets/main-menu-icon.png"> do Menu Principal <span style="font-weight: normal;"> (exibido no canto superior direito do Menu Principal)</span></p> </td> 
       <td> <p> <p> <p>Na seção <strong>Área de navegação superior</strong>, em <strong>Logotipo do menu principal</strong>, clique em qualquer lugar na caixa, localize e selecione a imagem do logotipo. Ou arraste uma imagem para a caixa.</p> <p>Para recortar a imagem, use os controles de rolagem e arraste a imagem para a posição desejada dentro do espaço prescrito.</p> <p>Recomendamos uma imagem de 300 x 120 pixels. Pode estar em qualquer um dos seguintes formatos: GIF, JPG, PNG, SVG.</p> </p> </p> </td> 
      </tr> 
     </tbody> 

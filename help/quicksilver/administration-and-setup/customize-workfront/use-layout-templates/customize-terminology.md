@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Como administrador do Adobe Workfront, você pode usar um modelo de layout para alterar os rótulos de alguns objetos que aparecem em todo o Workfront para corresponder aos termos usados em sua organização.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Depois de salvar um modelo de layout no qual você alterou a terminologia e, em 
 * Todas as áreas acessadas no menu principal
 * Todas as guias
 * Todos os menus
-* Elementos de Report Builder e relatórios (exibições, filtros e agrupamentos)
+* Elementos do Report Builder e de relatórios (exibições, filtros e agrupamentos)
 * Botões Salvar
 * Arquivos exportados
 * Emails
