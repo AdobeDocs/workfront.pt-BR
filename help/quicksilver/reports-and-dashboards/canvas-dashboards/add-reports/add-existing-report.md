@@ -6,9 +6,9 @@ description: Os relatórios criados por meio da ferramenta Relatórios do Adobe 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 {{step1-to-dashboards}}
 
 1. No painel esquerdo, clique em **Painéis do Canvas**.
+
+1. Clique em **Novo Painel** no canto superior direito.
 
 1. Na caixa **Criar painel**, digite o **Nome** e a **Descrição** do painel.
 

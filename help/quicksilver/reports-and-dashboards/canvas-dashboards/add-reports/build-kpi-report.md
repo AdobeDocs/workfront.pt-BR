@@ -6,7 +6,7 @@ description: Um relatório de KPI que exibe de forma destacada um único KPI agr
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -86,8 +86,8 @@ Há muitas opções de configuração disponíveis para criar um relatório de K
    1. Insira uma **Descrição** do relatório.
 
       >[!NOTE]
-      > 
-      > A descrição será usada como uma legenda abaixo do valor do KPI. Se você não inserir uma descrição, uma legenda será gerada para você com base no agregador e no tipo de agregação selecionados nas etapas a seguir.
+      >
+      >A descrição será usada como uma legenda abaixo do valor do KPI. Se você não inserir uma descrição, uma legenda será gerada para você com base no agregador e no tipo de agregação selecionados nas etapas a seguir.
 
 1. Siga as etapas abaixo para configurar a seção **Criar KPI**:
 

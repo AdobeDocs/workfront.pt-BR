@@ -6,7 +6,7 @@ description: Um relatório de gráfico que visualiza seus dados como um gráfico
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -139,7 +139,6 @@ Há muitas opções de configuração disponíveis para criar um relatório de g
 ## Criar um exemplo de relatório de gráfico
 
 Nesta seção, veremos as etapas para criar um gráfico de colunas que mostra as tarefas vencidas pelo proprietário do projeto.
-
 
 {{step1-to-dashboards}}
 
