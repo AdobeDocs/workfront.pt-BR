@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: 2572093857bb1ad27f869e1d7244549e531ba421
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -82,11 +82,21 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 
 Para tornar a experiência ao compartilhar um formulário de solicitação no Workfront Planning mais segura e simples, fizemos as seguintes alterações:
 
-* Removemos as permissões herdadas. Agora, o formulário de solicitação é compartilhado somente com aqueles que você seleciona.
-* Removemos as opções gerenciar e contribuir para usuários com os quais você compartilha o formulário de solicitação. Agora, os usuários adicionados só podem enviar o formulário.
-* A guia compartilhamento público agora exibe o link e o campo de data de expiração somente após a opção Criar link público ter sido habilitada.
+* Separamos a caixa de diálogo Compartilhar formulário em compartilhamento interno (seleção de com quem compartilhar) e compartilhamento público (criação de um link de compartilhamento).
+* Agora você pode compartilhar formulários de solicitação com o seguinte:
 
-Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+   * Usuários
+   * Equipes
+   * Grupos
+   * Empresas
+   * Funções de trabalho
+
+  Anteriormente, só era possível compartilhar com base no acesso ao espaço de trabalho ou ao compartilhar um link.
+* Removemos permissões herdadas para formulários de solicitação. Agora, o formulário de solicitação é compartilhado somente com aqueles que você seleciona.
+* Removemos as opções gerenciar e contribuir para usuários com os quais você compartilha o formulário de solicitação. Agora, os usuários adicionados só podem enviar o formulário.
+* A guia compartilhamento público agora exibe o link e o campo data de expiração após a opção Criar link público ter sido habilitada.
+
+Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandir e recolher todos os agrupamentos na exibição de tabela
 
@@ -304,7 +314,7 @@ Antes desse aprimoramento, os usuários com todos os níveis de licença precisa
 >[!NOTE]
 >
 >Esta alteração ficará visível para todos os usuários novos e existentes com uma licença de Administrador do sistema e Padrão.
->&#x200B;>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
+>>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
 
 Para obter informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
