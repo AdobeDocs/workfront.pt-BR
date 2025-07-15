@@ -1,14 +1,14 @@
 ---
 title: Gerenciar a exibição de tabela
-description: Você pode exibir registros e seus campos em uma exibição de tabela, ao acessar a página tipo de registro no Adobe Workfront Planning. Este artigo descreve como criar ou editar uma edição de exibição de tabela e como ativar indicadores de presença em tempo real para a exibição ou como exportá-la para um arquivo CSV ou do Excel.
+description: Você pode exibir registros e seus campos em uma exibição de tabela, ao acessar a página tipo de registro no Adobe Workfront Planning. Este artigo descreve como criar ou editar uma edição de exibição de tabela e como ativar indicadores de presença em tempo real para a exibição.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
 workflow-type: tm+mt
-source-wordcount: '3758'
+source-wordcount: '3446'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,8 @@ Este artigo descreve as seguintes informações:
 
 * [Criar ou editar colunas e linhas em uma exibição de tabela](#manage-a-table-view)
 * [Habilitar indicadores de presença em tempo real para a exibição de tabela](#enable-the-real-time-presence-indicator)
-* <span class="preview">[Exportar uma exibição de tabela para um arquivo CSV ou do Excel](#export-the-table-view)</span>
+
+Para obter informações sobre como exportar a exibição de tabela para um arquivo do Excel ou CSV, consulte [Exportar registros da exibição de tabela](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
 ## Requisitos de acesso
 
@@ -558,57 +559,5 @@ Ao exibir a visualização de tabela, você também pode visualizar qual campo o
 
 <div class="preview">
 
-## Exportar a exibição de tabela
 
-É possível exportar informações na exibição de tabela para um arquivo CSV ou do Excel.
-
-Considere o seguinte ao exportar a exibição de tabela:
-
-* As informações exportadas para um arquivo do Excel preservam os filtros, agrupamentos e classificações aplicados à exibição de tabela no Workfront Planning. Os agrupamentos não estão visíveis no arquivo CSV.
-
-* Miniaturas e cores de linha personalizadas não são suportadas em arquivos exportados.
-
-* Somente os campos tornados visíveis na interface do Workfront são exportados. Campos ocultos não são exportados.
-
-Para exportar informações da exibição de tabela ou de um tipo de registro:
-
-1. Vá para uma página de tipo de registro e clique em uma guia de exibição de tabela.
-1. Siga um destes procedimentos:
-
-   * Passe o mouse sobre o nome da guia de exibição de tabela, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da exibição e clique em **Exportar**.
-
-   ![Mais menus em um modo de exibição](assets/view-more-menu-with-duplicate-option.png)
-
-   * Clique em **Compartilhar** > **Exportar a exibição atual**. Essa opção está disponível somente quando você exibe a exibição de tabela.
-
-   ![Botão Compartilhar com tipo de registro e opções de compartilhamento de exibição](assets/share-button-with-record-type-and-view-sharing-options.png)
-
-1. Selecione um dos seguintes formatos:
-
-   * **Excel**
-   * **CSV**
-
-   >[!IMPORTANT]
-   >
-   >Não é possível exportar informações da exibição de tabela quando você exibe uma exibição diferente na tela. Você deve exibir a exibição de tabela que deseja exportar para acessar a opção Exportar no menu Mais.
-
-   O arquivo é baixado no computador.
-
-1. (Opcional) Vá para a pasta de downloads no seu computador e localize o arquivo baixado.
-
-   O nome do arquivo exportado segue o seguinte formato:
-
-   `Name of the view - name of the record type`
-
-   Por exemplo, uma exibição de tabela para o tipo de registro Campanhas gera um arquivo chamado `Table view - Campaigns`.
-
-   O arquivo exibe as seguintes informações:
-
-   * Os cabeçalhos de coluna são realçados em preto no arquivo do Excel
-   * Todos os campos visíveis na interface do Workfront, classificados e filtrados pelos mesmos critérios
-   * Os agrupamentos são preservados no arquivo do Excel
-
-   Agora é possível compartilhar os arquivos exportados com outras pessoas ou anexá-los a qualquer comunicação.
-
-</div>
 
