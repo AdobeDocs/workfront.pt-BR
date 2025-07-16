@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: af7789f3a4c7443854639fd60bcf0661217b37ae
+source-git-commit: b95d536bc251c2575b105f38691a66bde67502b8
 workflow-type: tm+mt
-source-wordcount: '6547'
+source-wordcount: '6589'
 ht-degree: 5%
 
 ---
@@ -133,7 +133,7 @@ Cada nome de campo personalizado deve ser exclusivo na instância do Workfront d
 >[!NOTE]
 >
 >Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o campo personalizado onde ele pode agora ser referenciado em outras áreas do Workfront.
->&#x200B;>Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar seu nome, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.
+>>Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar seu nome, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.
 >
 >Recomendamos que você não digite um nome que já esteja sendo usado para campos integrados do Workfront.
 >
@@ -632,12 +632,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções suspensas.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
-      &lbrace;
-       dados: &lbrace;
+      {
+       dados: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o Caminho JSON e verificar se você grava o Caminho JSON correto, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -743,6 +743,10 @@ Para adicionar imagens, PDFs ou vídeos:
     </tbody> 
    </table>
 
+   >[!NOTE]
+   >Para PDFs, é recomendável usar Grande para o tamanho de exibição do widget.
+   >Um visualizador do PDF do navegador afeta a exibição para os usuários, que podem precisar ajustar o tamanho da janela e a porcentagem de zoom do navegador se a exibição do PDF não for ideal.
+
 1. (Opcional) Repita a etapa anterior para adicionar outros campos ou widgets.
 
    Ou
@@ -797,7 +801,7 @@ Esta tabela lista os campos nativos disponíveis para objetos Workfront específ
 | Cadastrado por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | Data de Entrada | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | Grupo | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| Última Atualização realizada por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Última atualização realizada por | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Data da última atualização | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Nome | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Proprietário | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
@@ -811,7 +815,7 @@ Esta tabela lista os campos nativos disponíveis para objetos Workfront específ
 | Data de Término Projetada | ✓ | ✓ |   |   |   |   |   |   |
 | Minutos de Duração do Projeto |   | ✓ |   |   |   |   |   |   |
 | Data de Início Projetada | ✓ | ✓ |   |   |   |   |   |   |
-| Número de Referência | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Número de referência | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Modo de cronograma | ✓ |   |   | ✓ |   |   |   |   |
 | Severidade |   |   | ✓ |   |   |   |   |   |
 | Patrocinador | ✓ |   |   | ✓ |   |   |   |   |
