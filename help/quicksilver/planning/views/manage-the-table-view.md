@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3446'
+source-wordcount: '3346'
 ht-degree: 2%
 
 ---
 
 # Gerenciar a exibição de tabela
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -87,12 +87,7 @@ Para obter informações sobre como exportar a exibição de tabela para um arqu
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para uma exibição</p>  
-   <p>Permissões de exibição para uma exibição para alterar temporariamente as configurações de exibição, duplicar, <span class="preview">ou exportá-la</span></p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modelo de layout</p></td> 
-   <td> <p>No ambiente de Produção, todos os usuários, inclusive os Administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua as áreas de Planejamento.</p>
-<p><span class="preview">No ambiente de Pré-visualização, os usuários do Standard e os Administradores do sistema têm a área Planejamento ativada por padrão.</span></p></td> 
+   <p>Permissões de exibição para uma exibição para alterar temporariamente as configurações de exibição, duplicá-las ou exportá-las</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,11 +108,9 @@ Ao criar uma exibição de tabela, todos os registros do tipo selecionado são e
 
 Para gerenciar uma exibição de tabela:
 
-1. <span class="preview">Crie uma exibição de tabela, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md). </span>
+1. Crie uma exibição de tabela, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <span class="preview">![Exemplo de exibição de tabela](assets/table-view-example.png)
-
-   </span>
+   ![Exemplo de exibição de tabela](assets/table-view-example.png)
 
 1. (Opcional) Clique em **Altura da linha** e selecione uma das seguintes opções para modificar a altura das linhas da tabela:
    * Pequena
@@ -130,7 +123,7 @@ Para gerenciar uma exibição de tabela:
    * [Filtros](#add-filters)
    * [Classificar](#add-a-sort)
    * [Agrupamento](#add-groupings)
-   * <span class="preview">[Cores da linha](#add-row-colors)</span>
+   * [Cores da linha](#add-row-colors)
    * [Indicador de presença em tempo real](#enable-the-real-time-presence-indicator)
 
 
@@ -459,7 +452,7 @@ Para adicionar um agrupamento:
 
    O número de campos selecionados para o agrupamento é exibido ao lado do ícone Grouping.
 
-   <span class="preview">![Agrupamento aplicado na exibição de tabela](assets/grouping-applied-in-table-view.png)</span>
+   ![Agrupamento aplicado na exibição de tabela](assets/grouping-applied-in-table-view.png)
 
 1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
@@ -470,9 +463,7 @@ Para adicionar um agrupamento:
 1. Clique fora da caixa **Agrupar registros por** para fechá-la.
 1. (Opcional) Clique em **+ Novo registro** no final de qualquer agrupamento para adicionar novos registros e, em seguida, atualize a página para adicionar o novo registro ao agrupamento apropriado. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-1. <span class="preview">Para expandir ou recolher agrupamentos, siga um destes procedimentos:</span>
-
-   <div class="preview">
+1. Para expandir ou recolher agrupamentos, siga um destes procedimentos:
 
    1. Clique no ícone **Agrupamento** e depois em **Expandir tudo** ou **Recolher tudo**. Isso expande todos os agrupamentos e subagrupamentos na visualização de tabela.
 
@@ -486,7 +477,7 @@ Para adicionar um agrupamento:
       * **Expandir subgrupos**
       * **Recolher subgrupos**
 
-      Dependendo do número de agrupamentos aplicados à exibição, algumas opções podem não estar disponíveis.</div>
+      Dependendo do número de agrupamentos aplicados à exibição, algumas opções podem não estar disponíveis.
 
 <!-- this is not available yet: 
 
@@ -496,8 +487,6 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
-
-<div class="preview">
 
 ### Adicionar cores da linha
 
@@ -533,8 +522,6 @@ To sort grouped records:
 
 1. Clique fora da caixa **Cores da linha** para fechá-la. As cores são aplicadas automaticamente.
 
-</div>
-
 ### Ativar o indicador de presença em tempo real
 
 Os avatares de outros usuários que estão editando informações de registro ao mesmo tempo que você exibe no canto superior direito de todas as visualizações de registro, por padrão.
@@ -557,7 +544,7 @@ Ao exibir a visualização de tabela, você também pode visualizar qual campo o
    >
    >Você pode selecionar a opção **Mostrar colaboradores** de qualquer modo de exibição. O campo atualmente editado por outros é descrito somente na exibição de tabela.
 
-<div class="preview">
+
 
 
 

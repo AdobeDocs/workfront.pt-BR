@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1856'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Compartilhar exibições
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ This article describes how you can share a view with others. For information abo
 +++ Expanda para visualizar os requisitos de acesso.
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -98,12 +96,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>  <p>Gerenciar permissões para uma exibição</p>  
    <p>Somente usuários com permissões para Gerenciar um espaço de trabalho podem compartilhar uma visualização publicamente.</p></td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modelo de layout</p></td> 
-   <td> <p>No ambiente de Produção, todos os usuários, inclusive os Administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua as áreas de Planejamento.</p>
-<p><span class="preview">No ambiente de Pré-visualização, os usuários do Standard e os Administradores do sistema têm a área Planejamento ativada por padrão.</span></p></td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -147,15 +141,15 @@ Você pode compartilhar exibições que criou ou exibições para as quais tem p
 
    Isso abre a página do tipo de registro.
 
-1. Na guia exibição, <span class="preview">execute um dos procedimentos a seguir:</span>
+1. Na guia exibição, execute um dos procedimentos a seguir:
 
    * Passe o mouse sobre o nome da guia da exibição que você deseja compartilhar e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da exibição e clique em **Compartilhar**.
 
      ![Mais menu para um modo de exibição](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   * <span class="preview">Clique em **Compartilhar** > **Compartilhar a exibição atual**</span>
+   * Clique em **Compartilhar** > **Compartilhar a exibição atual**
 
-     <span class="preview">![Botão Compartilhar com tipo de registro e opções de compartilhamento de exibição](assets/share-button-with-record-type-and-view-sharing-options.png)</span>
+     ![Botão Compartilhar com tipo de registro e opções de compartilhamento de exibição](assets/share-button-with-record-type-and-view-sharing-options.png)
 
    A caixa **Compartilhar exibição** é aberta e a guia **Compartilhamento interno** deve ser selecionada por padrão.
 
@@ -216,7 +210,7 @@ Para compartilhar uma exibição publicamente no Workfront Planning:
    * Passe o mouse sobre o nome da guia da exibição que você deseja compartilhar e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da exibição e clique em **Compartilhar**.
 
    ![Mais menus para exibições expandidas com a opção de compartilhamento](assets/more-menu-for-views-expanded-with-share-option.png)
-   * <span class="preview">Clique em **Compartilhar** > **Compartilhar a exibição atual**</span>
+   * Clique em **Compartilhar** > **Compartilhar a exibição atual**
 
    A caixa **Compartilhar exibição** é aberta.
 
@@ -265,7 +259,7 @@ Esta seção descreve como você compartilha uma visualização internamente.
 1. Na guia de uma exibição, siga um destes procedimentos:
 
    * Passe o mouse sobre a guia do modo de exibição que você deseja compartilhar e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do modo de exibição e clique em **Compartilhar** > **Copiar link** na caixa **Compartilhar modo de exibição**.
-   * <span class="preview">Clique em **Compartilhar** > **Copiar o link de exibição**</span> > **Copiar link** na caixa **Compartilhar exibição**.
+   * Clique em **Compartilhar** > **Copiar o link de exibição** > **Copiar link** na caixa **Compartilhar exibição**.
 
    Um link para a exibição é copiado para a área de transferência e você recebe uma confirmação na parte inferior da tela.
 
@@ -278,10 +272,8 @@ Os usuários que acessam um link para uma exibição para a qual não têm permi
 1. (Condicional) Se você for o gerente de uma view, poderá receber uma solicitação de outro usuário para acessar a view nas seguintes áreas:
 
    * Uma notificação no aplicativo
-
      ![Notificação no aplicativo para solicitação de acesso para exibição](assets/in-app-notification-for-access-request-for-view.png)
    * Uma notificação por email
-
      ![Notificação no aplicativo para solicitação de acesso para exibição](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condicional) Na área de notificação do Workfront, clique no link de notificação no aplicativo
 Ou
@@ -303,11 +295,11 @@ Na notificação por email, clique em **Exibir todas as notificações** e cliqu
 {{step1-to-planning}}
 
 1. Abra o espaço de trabalho cuja exibição você deseja interromper o compartilhamento e clique em um cartão de tipo de registro. Isso abre a página do tipo de registro.
-1. Na guia exibição, <span class="preview"> execute um dos procedimentos a seguir:</span>
+1. Na guia exibição, execute um dos procedimentos a seguir:
 
    * Passe o mouse sobre o nome da guia da exibição que você deseja compartilhar e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da exibição e clique em **Compartilhar**.
 
-   * <span class="preview">Clique em **Compartilhar** > **Compartilhar a exibição atual**</span>
+   * Clique em **Compartilhar** > **Compartilhar a exibição atual**
 
    A caixa **Compartilhar exibição** é aberta.
 1. Para remover o compartilhamento interno de uma exibição, faça o seguinte:

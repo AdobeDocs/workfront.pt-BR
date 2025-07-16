@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3708'
 ht-degree: 2%
 
 ---
 
 # Gerenciar a exibição de linha do tempo
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -81,12 +81,7 @@ Para obter informações sobre exibições de registros, consulte [Gerenciar exi
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para uma exibição</p>  
    <p>Exibir permissões de um modo de exibição para alterar temporariamente as configurações de modo de exibição ou duplicá-lo</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modelo de layout</p></td> 
-   <td> <p>No ambiente de Produção, todos os usuários, inclusive os Administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua o Planning.</p>
-<p><span class="preview">No ambiente de Pré-visualização, os usuários do Standard e os administradores do sistema têm o Planning habilitado por padrão.</span></p> </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -126,9 +121,7 @@ Para gerenciar uma exibição de linha do tempo:
    >
    >    A classificação dos registros na linha do tempo não está visível na exibição Compacta.
 
-1. <span class="preview"> (Condicional) Se o administrador tiver habilitado trimestres personalizados e o Workfront detectar problemas com a forma como os trimestres personalizados são configurados, você poderá receber um aviso ao abrir o modo de exibição de linha do tempo. </span>
-
-   <div class="preview">
+1. (Condicional) Se o administrador tiver ativado trimestres personalizados e o Workfront detectar problemas na forma como os trimestres personalizados são configurados, você poderá receber um aviso ao abrir a exibição de linha do tempo.
 
    Existem os seguintes cenários:
 
@@ -152,13 +145,11 @@ Para gerenciar uma exibição de linha do tempo:
    >Depois de configurar trimestres personalizados na área Configuração, a exibição de linha do tempo exibe os trimestres personalizados em vez dos trimestres clássicos.
    >Para obter informações, consulte [Habilitar trimestres personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-   </div>
-
-1. <span class="preview">(Condicional) Se você for um administrador do Workfront, clique em **Ir para a Instalação** para configurar seus trimestres. Caso contrário, clique em **OK** e peça ao administrador do Workfront para configurar os trimestres personalizados.</span>
+1. (Condicional) Se você for um administrador do Workfront, clique em **Ir para a Instalação** para configurar seus trimestres. Caso contrário, clique em **OK** e peça ao administrador do Workfront para configurar os trimestres personalizados.
 
    >[!TIP]
    >
-   ><span class="preview">O botão Ir para a Instalação só é exibido para o administrador do Workfront.</span>
+   >O botão Ir para a configuração é exibido somente para o administrador do Workfront.
 
 1. (Opcional e condicional) Quando o nome do registro estiver truncado, passe o mouse sobre uma barra de registro para exibir o nome completo do registro e informações adicionais. Para obter informações sobre como configurar o truncamento da barra de registros na linha do tempo, consulte a seção [Editar as configurações de exibição da linha do tempo](#edit-the-timeline-view-settings) neste artigo.
 
@@ -172,7 +163,7 @@ Para gerenciar uma exibição de linha do tempo:
       * **Trimestre**: exibe meses e semanas com indicação de trimestre.
       * **Mês**: exibe semanas e dias.
 1. (Opcional) Clique em **Alternar para o modo de exibição Compacto** para exibir os registros cujas datas não se cruzam na mesma linha. <!--check to see if they updated the name of the setting here-->
-1. (Condicional) Se você alterou seu modo para **Compacto**, clique no modo de exibição **Alternar para Padrão** para exibir registros em linhas separadas. <span class="preview">A opção **Padrão** é a padrão.</span>  <!--check to see if they updated the name of the setting here-->
+1. (Condicional) Se você alterou seu modo para **Compacto**, clique no modo de exibição **Alternar para Padrão** para exibir registros em linhas separadas. A opção **Padrão** é a padrão.  <!--check to see if they updated the name of the setting here-->
 
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
@@ -280,9 +271,9 @@ Para adicionar um filtro a uma exibição de linha do tempo:
             <td>Data</td>
             <td><p>É</p>
             <p>Não é</p>
-            <p>É depois</p>
+            <p>Está depois</p>
             <p>Está antes</p>
-            <p>Fica entre</p><p>Não fica entre</p>
+            <p>Está entre</p><p>Não está entre</p>
             <p>Está vazio</p><p>Não está vazio</p></td>
         </tr>
 
@@ -392,7 +383,7 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
    >
    >* Se você exibir registros adicionais usando a opção Breakdown, as datas Start e End serão as do registro principal. Não é possível escolher datas de Início e Término para os registros conectados nesta área.
 
-1. <span class="preview">(Condicional e opcional) Se você for um administrador do Workfront, clique em **Ir para a Instalação** na caixa **Usar trimestres personalizados** para ir para a área Instalação e configurar trimestres personalizados. Depois de configurar trimestres personalizados, você pode exibi-los na exibição de linha do tempo em vez dos trimestres clássicos. Se você não for um administrador do Workfront, poderá solicitar que os trimestres personalizados sejam ativados para sua organização a partir de um administrador. </span>
+1. (Condicional e opcional) Se você for um administrador do Workfront, clique em **Ir para a Instalação** na caixa **Usar trimestres personalizados** para ir para a área Instalação e configurar trimestres personalizados. Depois de configurar trimestres personalizados, você pode exibi-los na exibição de linha do tempo em vez dos trimestres clássicos. Se você não for um administrador do Workfront, poderá solicitar que os trimestres personalizados sejam ativados para sua organização a partir de um administrador.
 
    Para obter informações, consulte [Habilitar trimestres personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
@@ -400,11 +391,11 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    >[!TIP]
    >
-   ><span class="preview">O botão Ir para a Instalação só é exibido para o administrador do Workfront.</span>
+   >O botão Ir para a configuração é exibido somente para o administrador do Workfront.
 
 1. Clique em **Estilo de barra** no painel esquerdo para indicar quais informações você deseja exibir nas barras de registro.
 
-   Você pode definir o estilo de barra do registro principal <span class="preview">, bem como dos registros conectados</span>, ao usar a opção Detalhamento no modo de exibição Padrão.
+   Você pode definir o estilo de barra do registro principal, bem como dos registros conectados, ao usar a opção Detalhamento na exibição Padrão.
 
    O campo principal (ou título) do registro, conforme definido na exibição de tabela do registro, é selecionado por padrão.
    <!--adjust this when the primary field is released??-->
@@ -429,20 +420,20 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    ![Gravar configurações de linha do tempo do painel de detalhes com visualização](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview">(Opcional e condicional) Se você exibir a linha do tempo no modo Padrão, selecione a configuração **Truncar detalhes da barra**. Quando selecionada, as informações nas barras de registro são truncadas e são exibidas somente quando você passa o mouse sobre as barras. Essa configuração é desmarcada por padrão e as informações do registro são totalmente exibidas nas barras. </span>
+1. (Opcional e condicional) Se você exibir a linha do tempo no modo Padrão, selecione a configuração **Truncar detalhes da barra**. Quando selecionada, as informações nas barras de registro são truncadas e são exibidas somente quando você passa o mouse sobre as barras. Essa configuração é desmarcada por padrão e as informações do registro são totalmente exibidas nas barras.
 
    ![Truncar configuração habilitada na caixa de configurações da linha do tempo realçada](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview">A configuração Truncar detalhes da barra não está disponível ao exibir a exibição da linha do tempo no modo Compacto.</span>
+   >A configuração Truncar detalhes da barra não está disponível ao exibir a exibição da linha do tempo no modo Compacto.
    >
 
 1. Clique em **Cor** no painel esquerdo para personalizar as cores dos registros e agrupamentos na linha do tempo.
 
    ![exibição da linha do tempo da guia Cor](assets/color-tab-timeline-view.png)
 
-   Você pode definir a cor do registro principal <span class="preview">bem como dos registros conectados</span>, ao usar a opção Detalhamento no modo de exibição Padrão.
+   É possível definir a cor do registro principal, bem como dos registros conectados, ao usar a opção Detalhamento na exibição Padrão.
 
 1. (Condicional e opcional) Se você adicionou um agrupamento à exibição de linha do tempo, selecione uma das seguintes opções para definir uma cor para o agrupamento na seção **Definir cor de agrupamento**:
 
@@ -481,7 +472,7 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
    Se você não tiver um campo com opções codificadas por cores para o tipo de registro selecionado, essa opção ficará esmaecida.
 
-1. <span class="preview">(Opcional) Se estiver usando a opção **Detalhamento**, repita as etapas que começam com a etapa 4 para cada registro conectado exibido na linha do tempo. </span>
+1. (Opcional) Se você estiver usando a opção **Detalhamento**, repita as etapas que começam com a etapa 4 para cada registro conectado exibido na linha do tempo.
 
 1. Clique em **Salvar**.
 
@@ -515,7 +506,7 @@ Você pode exibir registros conectados na visualização da linha do tempo de um
 #### Analisar registros conectados
 
 1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. No modo **Padrão** ou <span class="preview">**Compacto**, clique em **Detalhamento**</span> no canto superior direito do modo de exibição de linha do tempo.
+1. No modo **Padrão** ou **Compacto**, clique em **Detalhamento** no canto superior direito do modo de exibição de linha do tempo.
 1. Expanda a caixa **Selecionar um tipo de registro vinculado** e selecione um tipo de registro conectado. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Seletor de detalhamento e botão na exibição de linha do tempo](assets/breakdown-picker-and-button-on-timeline.png)
@@ -543,13 +534,13 @@ Você pode exibir registros conectados na visualização da linha do tempo de um
    >
    >Tanto os Produtos quanto os Programas devem estar conectados às campanhas para serem exibidos como opções para a opção de detalhamento, e você pode adicioná-los ao detalhamento em qualquer ordem.
 
-1. <span class="preview">(Condicional) Se você estiver exibindo a linha do tempo no modo Compacto, clique em **Alternar exibição**. O detalhamento não está visível no modo **Compacto**.</span>
+1. (Condicional) Se você estiver exibindo a linha do tempo no modo Compacto, clique em **Alternar exibição**. O detalhamento não está visível no modo **Compacto**.
 
    >[!TIP]
    >
-   ><span class="preview">Selecione **Não mostrar isto novamente** na **Alternar para o modo de exibição Padrão?caixa**, antes de alternar o modo de exibição. </span>
+   >Selecione **Não mostrar isto novamente** na **Alternar para o modo de exibição Padrão?caixa**, antes de alternar o modo de exibição.
    >
-   ><span class="preview">Esta preferência é lembrada somente para o navegador atual. Se você alterar navegadores ou computadores, terá que selecionar esta preferência novamente.</span>
+   >Esta preferência é lembrada somente para o navegador atual. Se você alterar navegadores ou computadores, terá que selecionar esta preferência novamente.
    >
    >Você não pode reverter para o modo Compacto depois de alternar a exibição para Padrão e exibir registros conectados na exibição.
 1. (Opcional) Repita as etapas acima para adicionar mais registros conectados.

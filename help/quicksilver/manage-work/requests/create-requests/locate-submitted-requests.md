@@ -8,7 +8,7 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%
@@ -132,13 +132,13 @@ Para localizar solicitações que você ou outros usuários submeteram:
    >
    >Ao sair da lista Solicitações enviadas, a opção de classificação selecionada é preservada.
 
-1. (Opcional) Selecione uma solicitação na lista e clique no ícone ![](assets/open-summary-with-text-nwe.png) do **Abrir Resumo** para abrir o painel Resumo e exibir informações adicionais sobre a solicitação, adicionar comentários, documentos ou atribuí-la. Para obter informações sobre o painel Resumo, consulte [Visão geral do resumo](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Opcional) Selecione uma solicitação na lista e clique no ícone **do** Abrir Resumo![](assets/open-summary-with-text-nwe.png) para abrir o painel Resumo e exibir informações adicionais sobre a solicitação, adicionar comentários, documentos ou atribuí-la. Para obter informações sobre o painel Resumo, consulte [Visão geral do resumo](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >Se o painel Resumo já estiver aberto, o ícone Abrir resumo será alterado para Fechar resumo.
 
-1. (Opcional e condicional) Clique no ícone **X** no canto superior direito ou no ícone ![](assets/close-summary-with-text-nwe.png) de **Fechar Resumo** para fechar o Painel de Resumo.
+1. (Opcional e condicional) Clique no ícone **X** no canto superior direito ou no ícone **de** Fechar Resumo![](assets/close-summary-with-text-nwe.png) para fechar o Painel de Resumo.
 
    Se um problema tiver sido convertido em uma tarefa ou projeto e tiver sido excluído no processo de conversão, o Painel de resumo ficará em branco. Para obter informações sobre a conversão de problemas, consulte [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -175,7 +175,7 @@ Para localizar solicitações que você ou outros usuários submeteram:
     </tbody> 
    </table>
 
-1. (Opcional) Clique no ícone ![](assets/search-icon.png) da **Página de filtro** na parte superior da lista para procurar uma solicitação por nome. A lista é atualizada com resultados que correspondem aos seus critérios de pesquisa.
+1. (Opcional) Clique no ícone **da** Página de filtro![](assets/search-icon.png) na parte superior da lista para procurar uma solicitação por nome. A lista é atualizada com resultados que correspondem aos seus critérios de pesquisa.
 
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
@@ -204,9 +204,9 @@ Para localizar solicitações que você ou outros usuários submeteram:
 
 1. (Opcional e condicional) Se sua organização adquiriu um pacote do Workfront Planning, clique na guia **Planning** e em **Enviado** no painel esquerdo para exibir as solicitações do Workfront Planning.
 
-   <span class="preview">Use **Filtros** e **Colunas** para atualizar as informações na lista de solicitações do Planning. </span>
+   Use **Filtros** e **Colunas** para atualizar as informações na lista de solicitações do Planning.
 
-   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '2468'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Criar registros
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -43,8 +43,6 @@ Para obter informações sobre o gerenciamento de registros nas exibições de t
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -97,16 +95,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td> <p>Permissões do Contribute ou superior para o espaço de trabalho <span class="preview">e tipo de registro</span> onde você deseja adicionar registros. </p>
-   <p>Exiba ou aumente as permissões do espaço de trabalho <span class="preview">e do tipo de registro</span> para criar registros usando o botão Solicitar registro na página de registro</p>
+   <td> <p>Permissões do Contribute ou superior para o espaço de trabalho e tipo de registro ao qual você deseja adicionar registros. </p>
+   <p>Exiba ou aumente as permissões para o espaço de trabalho e o tipo de registro para criar registros usando o botão Solicitar registro na página de registro</p>
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
    <p>Gerencie permissões para objetos do Workfront (portfólios) para adicionar objetos secundários (projetos).</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modelo de layout</p></td> 
-   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal </p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -137,7 +132,7 @@ Os registros do tipo selecionado são exibidos na visualização.
 
      >[!TIP]
      >
-     ><span class="preview">Quando você adiciona um novo registro após o último em um agrupamento ou subagrupamento, o Workfront preenche automaticamente os campos incluídos nos agrupamentos. Você pode editar esses campos manualmente, se necessário, e os registros podem ser removidos do agrupamento. </span>
+     >Quando você adiciona um novo registro após o último em um agrupamento ou subagrupamento, o Workfront preenche automaticamente os campos incluídos nos agrupamentos. Você pode editar esses campos manualmente, se necessário, e os registros podem ser removidos do agrupamento.
 
    * Clique em **Shift + Enter** no teclado a partir de qualquer coluna ou linha da tabela. Isso adiciona uma linha vazia sob o registro do qual você começa.
    * Passe o mouse sobre o campo principal de um registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do campo e clique em **Inserir registro acima** ou **Inserir registro abaixo**.
@@ -187,10 +182,10 @@ Os registros do tipo selecionado são exibidos na visualização.
 
 ## Criar registros usando o botão Novo registro ou Solicitar registro de qualquer exibição de tipo de registro
 
-Usuários com permissões de Exibição para o espaço de trabalho <!--<span class="preview">and record type</span>--> podem criar registros somente usando o botão Solicitar registro na página de tipo de registro.
+Os usuários com permissões de Exibição para o espaço de trabalho e o tipo de registro podem criar registros somente usando o botão Solicitar registro na página Tipo de registro.
 
-Usuários com permissões para Contribute e Gerenciar no espaço de trabalho <!--<span class="preview">and record type</span>--> podem criar registros usando o botão Novo registro na página de tipo de registro.
-<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+Usuários com permissões para Contribute e Gerenciar no espaço de trabalho e tipo de registro podem criar registros usando o botão Novo registro na página Tipo de registro.
+
 
 >[!IMPORTANT]
 >
@@ -207,13 +202,13 @@ Usuários com permissões para Contribute e Gerenciar no espaço de trabalho <!-
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
 Todos os registros do tipo selecionado são exibidos na visualização.
 
-1. (Condicional) Em qualquer exibição, clique no seguinte no canto superior direito da tela, dependendo das permissões do espaço de trabalho <!--<span class="preview">and record type</span>-->:
+1. (Condicional) Em qualquer exibição, clique no seguinte no canto superior direito da tela, dependendo do espaço de trabalho e das permissões de tipo de registro:
 
-   * Clique em **Novo registro**, se você tiver permissões do Contribute ou superiores no espaço de trabalho <!--<span class="preview">and record type</span>-->
+   * Clique em **Novo registro**, se você tiver permissões do Contribute ou superiores no espaço de trabalho e no tipo de registro
 
      Ou
 
-   * Clique em **Solicitar registro**, se você tiver permissões de Exibição no espaço de trabalho <!--<span class="preview">and record type</span>-->.
+   * Clique em **Solicitar registro**, se você tiver permissões de Exibição no espaço de trabalho e no tipo de registro.
 
 1. (Condicional) Se você clicou em **Novo registro**, faça o seguinte:
 
