@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 2%
@@ -154,18 +154,16 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tipos de Solicitação</strong> </td> 
-      <td> <p>Escolha que tipo de solicitações este tópico da fila armazena. As opções visíveis estão definidas na guia <strong>Detalhes da fila</strong> do projeto. Este campo é obrigatório. </p>
-
-   <p><b>NOTA</b>:
-
-   Os tipos são exibidos como uma seleção na área Solicitações somente se o Tipo de solicitação for selecionado nas páginas Detalhes da fila e Tópico da fila. Para obter informações sobre como configurar a área Detalhes da Fila de um projeto, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma Fila de Solicitações</a>. </p> <p>Selecione entre os seguintes tipos:</p>
-   <ul>
-   <li>Relatório de erro</li>
-   <li>Pedido de alteração</li>
-   <li>Problema</li>
-   <li>Solicitar</li>
-   </ul> <p>O administrador do Workfront pode ter renomeado algumas dessas opções. </p> </td>
-   </tr> 
+      <td> <p>Escolha que tipo de solicitações este tópico da fila armazena. As opções visíveis estão definidas na guia <strong>Detalhes da fila</strong> do projeto. Este campo é obrigatório. </p> 
+       <p><b>NOTA</b>:</p>
+      <p>Os tipos são exibidos como uma seleção na área Solicitações somente se o Tipo de solicitação for selecionado nas páginas Detalhes da fila e Tópico da fila. Para obter informações sobre como configurar a área Detalhes da Fila de um projeto, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma Fila de Solicitações</a>. </p> <p>Selecione entre os seguintes tipos:</p> 
+       <ul> 
+        <li>Relatório de erro</li> 
+        <li>Pedido de alteração</li> 
+        <li>Problema</li> 
+        <li>Solicitar</li> 
+       </ul> <p>O administrador do Workfront pode ter renomeado algumas dessas opções. </p> </td> 
+     </tr> 
     </tbody> 
    </table>
 
