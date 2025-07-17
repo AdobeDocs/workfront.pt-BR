@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Comece a criar ou editar o nível de acesso, conforme explicado em [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Clique no ícone de engrenagem ![](assets/gear-icon-settings.png) no botão **Exibir** ou **Editar** à direita de Problemas e selecione as capacidades que deseja conceder em **Ajustar suas configurações**.
+
+   ![ajustar configurações de problema](assets/fine-tune-issues.png)
 
 1. (Opcional) Para restringir permissões herdadas de problemas de objetos de classificação mais alta, clique em **Definir restrições adicionais** e selecione **Nunca herdar acesso a documentos de projetos, tarefas, problemas, etc**.
 

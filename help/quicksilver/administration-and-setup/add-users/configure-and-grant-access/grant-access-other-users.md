@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -71,6 +71,8 @@ Você pode gerenciar quais informações os usuários podem visualizar e editar 
 
    1. Desabilite **Exibir informações de contato** e clique no X para fechar a caixa **Ajustar suas configurações**.
 
+      ![ajustar configurações do usuário](assets/fine-tune-users.png)
+
 1. Para modificar a capacidade de usuários com acesso a licença de Plano de editar outros usuários, clique no ícone de engrenagem ![](assets/gear-icon-settings.png) no botão **Editar** à direita de **Usuários** e selecione as capacidades que deseja conceder:
 
    <table style="table-layout:auto"> 
@@ -80,12 +82,9 @@ Você pode gerenciar quais informações os usuários podem visualizar e editar 
      <tr> 
       <td role="rowheader"><strong>Criar</strong> </td> 
       <td> <p>Permite aos usuários criar usuários.<br>Esta opção está habilitada por padrão.</p> 
-      &lt;!—
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Verifique se essa alteração está sendo feita antes de desfazer essas duas notas. Em 29/3, o documento de requisição diz que isso depende dos resultados da investigação.</p>
-
-       &lt;p>&lt;b>OBSERVAÇÃO&lt;/b>: isso não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.&lt;/p>
-       —> &lt;/td>
-   </tr> 
+     <p><b>OBSERVAÇÃO</b>: não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.</p>
+        </td>  
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>Excluir</strong> </td> 
       <td> <p> Permite que os usuários excluam os usuários que eles próprios criaram.<br>Esta opção está habilitada por padrão.</p> <p><b>OBSERVAÇÃO</b>: não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.</p> </td> 

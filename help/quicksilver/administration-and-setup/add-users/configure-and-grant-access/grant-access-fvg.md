@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 1%
@@ -53,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Comece a criar ou editar o nível de acesso, conforme explicado em [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Clique no ícone de engrenagem ![](assets/gear-icon-settings.png) no botão **Exibir** ou **Editar** à direita de Filtros e selecione as capacidades que deseja conceder em **Ajustar suas configurações**.
 
-   ![](assets/gear-icon-filters-dashboards-groupings.jpg)
+   ![](assets/gear-icon-filters-dashboards-groupings.png)
 
    Por padrão, os usuários com uma licença de Plano, Trabalho, Revisor ou Solicitação têm capacidades totais de Exibição e Edição. Os usuários com uma licença de Usuário externo não acessam filtros, visualizações e agrupamentos.
 
@@ -89,45 +89,45 @@ Esta tabela lista o que um administrador do Workfront pode permitir que usuário
 <tbody>
 <tr>
 <td>Editar filtros, visualizações e agrupamentos</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>Criar filtros, visualizações e agrupamentos</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>Exibir filtros, visualizações e agrupamentos</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>Excluir filtros, visualizações e agrupamentos</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>Compartilhar filtros, visualizações e agrupamentos</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 <tr>
 <td>Compartilhar filtros, visualizações e agrupamentos em todo o sistema</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
-<td>✓ µ</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 </tr>
 </tbody>
 </table>
