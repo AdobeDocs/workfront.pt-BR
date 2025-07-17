@@ -327,7 +327,7 @@ Antes desse aprimoramento, os usuários com todos os níveis de licença precisa
 >[!NOTE]
 >
 >Esta alteração ficará visível para todos os usuários novos e existentes com uma licença de Administrador do sistema e Padrão.
->>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
+>&#x200B;>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
 
 Para obter informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
