@@ -27,8 +27,8 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 >[!NOTE]
 >
 >Visualização: 17 de julho de 2025
->>Produção para lançamento rápido: 14 de agosto de 2025
->>Produção para todos: 16 de outubro de 2025
+>&#x200B;>Produção para lançamento rápido: 14 de agosto de 2025
+>&#x200B;>Produção para todos: 16 de outubro de 2025
 
 
 Estamos introduzindo os seguintes campos para capturar informações de aprovação para registros criados ao enviar uma solicitação com uma aprovação:
@@ -44,8 +44,8 @@ Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fie
 >[!NOTE]
 >
 >Visualização: 10 de julho de 2025
->>Versão rápida de produção: 14 de agosto de 2025
->>Produção para todos: 16 de outubro de 2025
+>&#x200B;>Versão rápida de produção: 14 de agosto de 2025
+>&#x200B;>Produção para todos: 16 de outubro de 2025
 
 
 Agora, quando você tiver agrupamentos aplicados a uma visualização de tabela, adicionar um registro à tabela preencherá automaticamente os campos associados aos agrupamentos aos quais você adiciona o registro.
