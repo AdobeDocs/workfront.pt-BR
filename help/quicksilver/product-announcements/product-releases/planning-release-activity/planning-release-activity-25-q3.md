@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: eb3bace0298ea67deb3d4515da23b9301625bec7
+source-git-commit: 8dd86b364e23089f3ff02c7817807e5219a3ebb4
 workflow-type: tm+mt
-source-wordcount: '2273'
+source-wordcount: '2275'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,11 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 
 ## Configurações avançadas atualizadas ao criar e editar tipos de registro
 
-Pré-visualização e produção: 10 de julho de 2025
+>[!NOTE]
+>
+>Visualização: 10 de julho de 2025
+>>Produção para todos: 10 de julho de 2025
+
 
 Atualizamos a guia Configurações avançadas ao criar ou editar um tipo de registro.
 
@@ -37,8 +41,10 @@ Para obter mais informações, consulte [Criar tipos de registro](/help/quicksil
 
 ## Adicionar notificações para usuários da equipe quando a equipe for adicionada a um comentário de registro
 
-Visualização: 10 de julho de 2025
-Produção para todos: 10 de julho de 2025
+>[!NOTE]
+>
+>Visualização: 10 de julho de 2025
+>>Produção para todos: 10 de julho de 2025
 
 Agora, quando você adiciona uma equipe a um comentário de registro no Workfront Planning, todos os membros da equipe recebem uma notificação no aplicativo e uma notificação por email sobre o comentário. Antes dessa melhoria, somente os usuários adicionados aos comentários individualmente eram notificados.
 
@@ -46,9 +52,12 @@ Para obter informações, consulte Gerenciar comentários de registro [Gerenciar
 
 ## Preencher campos automaticamente com base nos agrupamentos aplicados
 
-Visualização: 10 de julho de 2025
-Versão rápida de produção: 14 de agosto de 2025
-Produção para todos: 16 de outubro de 2025
+>[!NOTE]
+>
+>Visualização: 10 de julho de 2025
+>>Versão rápida de produção: 14 de agosto de 2025
+>>Produção para todos: 16 de outubro de 2025
+
 
 Agora, quando você tiver agrupamentos aplicados a uma visualização de tabela, adicionar um registro à tabela preencherá automaticamente os campos associados aos agrupamentos aos quais você adiciona o registro.
 
@@ -62,8 +71,8 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
 >[!NOTE]
 >
->* Visualização: 9 de julho de 2025
->* Produção para todos: 17 de julho de 2025
+>Visualização: 9 de julho de 2025
+>>Produção para todos: 17 de julho de 2025
 
 Agora é possível compartilhar uma exibição, bem como um tipo de registro, no mesmo botão na página do tipo de registro. Antes desse aprimoramento, você só podia compartilhar o tipo de registro no botão Compartilhar na página do tipo de registro e uma exibição na guia da exibição.
 
@@ -109,7 +118,7 @@ Para tornar a experiência ao compartilhar um formulário de solicitação no Wo
 * Removemos as opções gerenciar e contribuir para usuários com os quais você compartilha o formulário de solicitação. Agora, os usuários adicionados só podem enviar o formulário.
 * A guia compartilhamento público agora exibe o link e o campo data de expiração após a opção Criar link público ter sido habilitada.
 
-Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandir e recolher todos os agrupamentos na exibição de tabela
 
@@ -327,7 +336,7 @@ Antes desse aprimoramento, os usuários com todos os níveis de licença precisa
 >[!NOTE]
 >
 >Esta alteração ficará visível para todos os usuários novos e existentes com uma licença de Administrador do sistema e Padrão.
->&#x200B;>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
+>>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
 
 Para obter informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
