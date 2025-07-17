@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 2847adb34fc8f433392c82dbcab9bf48f0fc8aa0
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
 1. No painel esquerdo, clique em **Interface** > **Modelos de layout**.
 
 1. Clique no nome do modelo de layout que deseja modificar.
-1. Clique em **Copiar**.
+1. Clique no ícone **Copiar** ![Copiar ícone](assets/copy-icon.png).
 
    Todas as configurações, exceto nome, descrição e atribuições de usuário no modelo de layout existente, são copiadas para o novo modelo.
 
