@@ -3,12 +3,12 @@ title: Criar e Gerenciar um Formulário de Solicitação no Adobe Workfront Plan
 description: Depois de selecionar um tipo de registro na área Adobe Workfront Planning, você pode criar um formulário de solicitação e associá-lo a esse tipo de registro. Em seguida, você pode compartilhar um link com outros usuários internos ou externos. Os usuários com um link para o formulário podem preencher os valores de campo nele e, ao enviá-lo, podem adicionar um novo registro para o tipo de registro associado a ele.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2242'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,6 @@ Para obter informações sobre como enviar uma solicitação a um tipo de regist
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto">
  <col>
@@ -93,18 +91,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td role="rowheader"><p>Permissões de objeto</p></td>
    <td>
    <ul>
-   <li><p>Gerenciar permissões para um espaço de trabalho <span class="preview">e tipo de registro</span> </p></li>
+   <li><p>Gerenciar permissões para um espaço de trabalho e tipo de registro</p></li>
     <li><p>Os administradores do sistema podem gerenciar espaços de trabalho que não criaram. </p></li>
     </ul>
    <p>Para obter informações sobre o compartilhamento de permissões para objetos do Workfront Planning, consulte  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Visão geral das permissões de compartilhamento no Adobe Workfront Planning</a> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>No ambiente de Produção, todos os usuários, inclusive os Administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua o Planning.</p>
-<p><span class="preview">No ambiente de Pré-visualização, os usuários do Standard e os administradores do sistema têm o Planning habilitado por padrão.</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -124,8 +116,8 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
    * Não é possível adicionar campos dos seguintes tipos a um formulário de solicitação:
 
-      * Criado por e Modificado pela última vez por <!--Created by, Last modified by, <span class="preview">Approved by</span>-->
-      * Data de criação e data da última modificação <!--Created date, Last modified date, <span class="preview">Approved date</span>-->
+      * Criado por, Última modificação por, <span class="preview">Aprovado por</span>
+      * Data de criação, Última data de modificação, <span class="preview">Data de aprovação</span>
       * Fórmula
       * Campos de pesquisa de objetos do Workfront
       * Campos de pesquisa de registros conectados do Workfront Planning
@@ -229,6 +221,7 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
      Para obter mais informações sobre como adicionar aprovações a formulários de solicitação, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do formulário no cabeçalho e clique em **Editar** para atualizar o nome do formulário.
+
 1. Clique em **Publicar** para publicar o formulário e obter um link exclusivo para ele.
 
    As seguintes situações ocorrem:
@@ -236,47 +229,11 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
    * O botão **Publicar** foi removido.
    * O botão **Cancelar publicação** é adicionado ao formulário. Clicar nele impedirá que o formulário seja acessível.
    * Um botão **Compartilhar** é adicionado ao formulário.
+   * O formulário fica disponível na área Solicitações do menu Principal do Workfront.
 
 1. Clique em **Compartilhar** para compartilhar o formulário com outras pessoas.
 
-   ![Compartilhar caixa para o formulário de solicitação](assets/share-box-for-request-form.png)
-
-1. (Condicional) No ambiente de produção, selecione uma das seguintes opções para indicar quais tipos de usuários podem acessar esse formulário:
-
-   * Qualquer pessoa com acesso de exibição ou superior ao espaço de trabalho
-   * Qualquer pessoa com acesso de contribuição ou superior ao espaço de trabalho
-   * Qualquer pessoa com o link
-
-   >[!WARNING]
-   >
-   >* Quando você seleciona **Qualquer pessoa com o link**, qualquer pessoa pode acessar o formulário e enviar um novo registro, mesmo pessoas fora da sua organização que não tenham uma conta do Workfront.
-   >
-   >* Um formulário que contém os seguintes tipos de campo não pode ser compartilhado publicamente:
-   >
-   >     * Conexões do Workfront ou AEM Assets
-   >     * Pessoas
-   >
-
-1. (Condicional) No ambiente de produção, se você selecionou **Qualquer pessoa com o link** na etapa anterior, selecione a **Data de expiração do link** no calendário disponível.
-
-   As pessoas receberão um erro depois que o link expirar e você deverá atualizar a data do link e gerar um novo link para compartilhar antes que as pessoas possam acessar o formulário novamente.
-
-   Você pode selecionar datas futuras dentro de 180 dias a partir da data atual.
-
-   >[!TIP]
-   >
-   >Depois que a data de compartilhamento expirar, o formulário de solicitação não estará mais disponível na área Solicitações do Workfront e os links compartilhados com outros usuários não estarão mais acessíveis.
-
-1. (Opcional e condicional) No ambiente de produção, clique em **Salvar e copiar link** para salvar os detalhes de compartilhamento do formulário. Se o formulário foi salvo anteriormente, clique em **Copiar link**.
-
-   As opções de compartilhamento de formulário são salvas e o link é copiado para a área de transferência. Agora você pode compartilhá-lo com outras pessoas.
-
-   Para obter informações sobre como criar registros usando um link para um formulário de solicitação, consulte [Enviar solicitações do Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
-
-1. <span class="preview">(Condicional) No ambiente de visualização, para compartilhar com usuários, selecione a guia Compartilhamento interno, procure o nome do usuário e selecione-o quando ele aparecer na lista.</span>
-1. <span class="preview">(Condicional) No ambiente de visualização, para criar um link público, selecione a guia Compartilhamento público e alterne na opção Criar link público. Em seguida, você pode copiar o link aqui ou definir uma data de expiração do link.</span>
-1. Clique em **Salvar** no canto inferior direito da guia **Formulário** para salvar o formulário.
-
+   Para obter informações sobre como compartilhar um formulário de solicitação, consulte a seção [Compartilhar um formulário de solicitação](#share-a-request-form) neste artigo
 1. Clique na seta à esquerda do nome do formulário no cabeçalho para fechar o formulário.
 
    A exibição de tabela **Formulários de solicitação** é aberta e o formulário é adicionado a ela.
@@ -291,7 +248,6 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
    ![Mais menus no formulário de solicitação da lista de formulários de solicitação](assets/more-menu-on-request-form-from-request-forms-list.png)
 
-
 1. Clique na seta à esquerda de **Formulários de solicitação** no cabeçalho para fechar a tabela de formulários de solicitação.
 
    A página de tipo de registro é aberta.
@@ -302,3 +258,54 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
 1. (Opcional) Vá para a área **Solicitações** no Workfront e localize o formulário compartilhado para enviar uma solicitação. Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
+## Compartilhar um formulário de solicitação
+
+1. Crie um formulário de solicitação conforme descrito na seção [Criar um formulário de solicitação para um tipo de registro](#create-a-request-form-for-a-record-type) deste artigo.
+1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do formulário de solicitação na página do tipo de registro.
+1. Clique em **Compartilhar** para compartilhar o formulário com outras pessoas.
+
+1. Para compartilhar o formulário internamente, selecione a guia **Compartilhamento interno**, procure o nome de um usuário, equipe, função de trabalho, grupo ou empresa no campo **Conceder acesso para enviar este formulário** e selecione-o quando ele aparecer na lista. A permissão **Enviar** é selecionada por padrão para cada entidade.
+
+   ![Compartilhar caixa para o formulário de solicitação](assets/share-box-for-request-form.png)
+
+1. (Opcional) Clique no menu suspenso após o nome de uma entidade e clique em **Remover** para removê-la da lista e parar de compartilhar o formulário com ela.
+
+1. Na seção **Quem pode enviar solicitações por meio deste formulário**, selecione uma das seguintes opções para indicar quais tipos de usuários podem acessar este formulário:
+
+   * Somente pessoas convidadas podem acessar
+   * Qualquer pessoa com acesso de exibição ou superior ao espaço de trabalho
+   * Qualquer pessoa com acesso de contribuição ou superior ao espaço de trabalho
+1. (Opcional) Clique em **Copiar link** para compartilhar o link para o formulário com as pessoas que têm acesso para fazer isso. O link é copiado para a área de transferência.
+1. Para compartilhar o formulário publicamente, selecione a guia **Compartilhamento público** e habilite a configuração **Criar link público**.
+
+   ![Compartilhamento público para o formulário de solicitação](assets/share-request-form-publicly-tab.png)
+
+   >[!WARNING]
+   >
+   >* Quando você habilita a configuração **Criar link público**, qualquer pessoa pode acessar o formulário e enviar um novo registro, mesmo pessoas de fora da sua organização que não tenham uma conta do Workfront.
+   >
+   >* Um formulário que contém os seguintes tipos de campo não pode ser compartilhado publicamente:
+   >
+   >     * Conexões do Workfront ou AEM Assets
+   >     * Pessoas
+   >
+
+1. Escolha uma **Data de expiração do link**.
+
+   Você pode selecionar datas futuras dentro de 180 dias a partir da data atual.
+
+   >[!TIP]
+   >
+   >Depois que a data de compartilhamento expirar, o formulário de solicitação não estará mais disponível na área Solicitações do Workfront e os links compartilhados com outros usuários não estarão mais acessíveis.
+
+   As pessoas receberão um erro depois que o link expirar e você deverá atualizar a data do link e gerar um novo link para compartilhar antes que as pessoas possam acessar o formulário novamente.
+
+
+1. (Opcional e condicional) Clique em **Salvar** para salvar os detalhes de compartilhamento do formulário.
+1. (Condicional) Se o formulário foi salvo anteriormente, clique em **Copiar link**.
+
+   As opções de compartilhamento de formulário são salvas e o link é copiado para a área de transferência. Agora você pode compartilhá-lo com outras pessoas.
+
+   Para obter informações sobre como criar registros usando um link para um formulário de solicitação, consulte [Enviar solicitações do Adobe Workfront Planning](/help/quicksilver/planning/requests/submit-requests.md).
+
+1. Clique em **Salvar** no canto inferior direito da guia **Formulário** para salvar o formulário.

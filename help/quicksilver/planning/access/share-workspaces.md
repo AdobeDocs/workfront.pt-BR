@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
 
 # Compartilhar espaços de trabalho
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -90,12 +90,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>  <p>Gerenciar permissões em um espaço de trabalho</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modelo de layout</p></td> 
-   <td> <p>No ambiente de Produção, todos os usuários, inclusive os Administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua as áreas de Planejamento.</p>
-<p><span class="preview">No ambiente de Pré-visualização, os usuários do Standard e os Administradores do sistema têm a área Planejamento ativada por padrão.</span></p></td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -111,12 +107,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Não é possível compartilhar espaços de trabalho com usuários fora da organização.
 * Quando você compartilha um espaço de trabalho, todos os tipos de registro, registros e campos associados aos espaços de trabalho também são compartilhados.
 * Quando você compartilha um espaço de trabalho, as exibições não são compartilhadas. Você deve compartilhar exibições separadamente.
-
-<div class="preview">
-
 * As permissões do Workspace são exibidas como permissões herdadas em tipos de registro.
-
-</div>
 
 ## Compartilhar permissões em um espaço de trabalho
 
@@ -156,10 +147,8 @@ Os usuários que acessam um link para um espaço de trabalho para o qual não t�
 1. (Condicional) Se você for o gerente de um espaço de trabalho, poderá receber uma solicitação de outro usuário para acessar a view nas seguintes áreas:
 
    * Uma notificação no aplicativo
-
      ![Notificação no aplicativo para solicitação de acesso](assets/in-app-notification-for-access-request.png)
    * Uma notificação por email
-
      ![Notificação por email para a solicitação de acesso](assets/email-notification-for-access-request.png)
 1. (Condicional) Na área de notificação do Workfront, clique no link de notificação no aplicativo
 Ou

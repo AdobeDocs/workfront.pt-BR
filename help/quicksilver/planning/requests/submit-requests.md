@@ -3,12 +3,12 @@ title: Enviar solicitações do Adobe Workfront Planning
 description: Depois que alguém compartilhar um link para um formulário de solicitação com você a partir de uma página de tipo de registro no Adobe Workfront Planning, você poderá adicionar uma solicitação para criar registros para o tipo de registro associado ao formulário de solicitação.
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,6 @@ Para obter informações sobre como um gerenciador de espaço de trabalho pode c
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto">
  <col>
@@ -96,20 +94,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr>
    <td role="rowheader"><p>Permissões de objeto</p></td>
    <td>
-   <p>Exibir ou aumentar permissões para um espaço de trabalho <span class="preview">e tipo de registro</span>, se você for um usuário do Workfront</p> 
+   <p>Exibir permissões ou mais altas para um espaço de trabalho e tipo de registro, se você for um usuário do Workfront</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <p>Para acessar a área Planejamento no Workfront, você deve ter a seguinte configuração de modelo de layout: </p>
-<ul>
-<li><p>No ambiente de Produção, todos os usuários, inclusive os administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua o Planning.</p></li>
-<li><div class="preview">
-<p> No ambiente de Pré-visualização, os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
-   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
-
-<p> No entanto, para enviar solicitações ao Workfront Planning, não é necessário acessar a área Planejamento. </p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -226,8 +212,6 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
 Todas as solicitações que você tem acesso para visualizar que foram enviadas para um formulário de solicitação do Planning são exibidas em uma lista.
 1. (Opcional) Siga qualquer um destes procedimentos:
 
-   <div class="preview">
-
    * Clique em **Filtros** e comece a adicionar condições para quais solicitações você deseja exibir na guia Planning.
 
      ![Editar filtros na guia de solicitações do Planning](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -260,8 +244,6 @@ A lista de solicitações é filtrada automaticamente ao adicionar as condiçõe
    A página de detalhes da solicitação é aberta.
 
    ![Solicitar página de detalhes](assets/request-details-page.png)
-
-   </div>
 
 
 1. (Condicional) Se o formulário de solicitação não estiver associado a uma aprovação ou se a solicitação tiver sido aprovada, clique no nome da solicitação e depois clique no nome do registro no campo **Registro**.
@@ -313,7 +295,7 @@ A lista de solicitações é filtrada automaticamente ao adicionar as condiçõe
      >
      >As notificações por email e no aplicativo ficam visíveis somente quando a instância da Workfront da sua organização é integrada à Adobe Unified Experience.
 
-   <!--* <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
+   * <span class="preview"> Depois que a solicitação foi aprovada e o registro foi criado, os campos Approved by e Approved date exibem informações sobre a aprovação no registro.</span>
 
 1. (Opcional) Clique em **Exibir sua solicitação** para abrir a solicitação no Workfront.
 

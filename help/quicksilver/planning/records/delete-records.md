@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '681'
 ht-degree: 2%
 
 ---
@@ -16,11 +16,9 @@ ht-degree: 2%
 
 # Excluir registros
 
-<!--take Preview and Production references out at release-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -29,8 +27,6 @@ Você pode excluir registros que não são mais relevantes no Adobe Workfront Pl
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -82,13 +78,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>   <p>Permissões do Contribute ou superior para um espaço de trabalho <span class="preview">e tipo de registro</span> </a> </p>  
+   <td>   <p>Permissões do Contribute ou superior para um espaço de trabalho e tipo de registro </a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modelo de layout</p></td> 
-   <td> <p>No ambiente de Produção, todos os usuários, inclusive os Administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua o Planning.</p>
-<p><span class="preview">No ambiente de Pré-visualização, os usuários do Standard e os administradores do sistema têm o Planning habilitado por padrão.</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -100,7 +91,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 ## Considerações sobre a exclusão de registros
 
 * É possível excluir registros criados por você ou por outro usuário.
-* Não é possível recuperar registros excluídos no ambiente de Produção. É possível recuperar registros excluídos no ambiente de Pré-visualização.
+* É possível recuperar registros excluídos que você ou outras pessoas excluíram.
 * Se os registros excluídos estiverem vinculados a outros registros, os registros vinculados não serão excluídos, mas as informações do registro excluído também serão excluídas.
 * Não é possível excluir registros da linha do tempo ou das exibições do calendário.
 
@@ -136,7 +127,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    ![Mais opções de menu da página de detalhes do registro](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 O registro é excluído.
-1. (Opcional e condicional) Se você excluir o registro no ambiente de Visualização, vá para a exibição de tabela da página de registro e clique no ícone **Desfazer** ![Ícone Desfazer](assets/undo-icon.png) no canto superior direito da exibição e clique em **Excluído recentemente** para recuperar os registros excluídos.
+1. (Opcional) Vá para a exibição de tabela da página de registro e clique no **ícone Desfazer** ![ícone Desfazer](assets/undo-icon.png) no canto superior direito da exibição e, em seguida, clique em **Excluído recentemente** para recuperar os registros excluídos.
 
 Para obter informações sobre como recuperar registros excluídos, consulte [Recuperar registros excluídos](/help/quicksilver/planning/records/restore-deleted-records.md).
 

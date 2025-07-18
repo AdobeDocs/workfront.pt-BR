@@ -76,7 +76,7 @@ Produção: 21 de dezembro de 2023
 >
 >Sua organização deve comprar o Adobe Workfront Fusion para criar conexões com os recursos do Adobe Workfront Planning.
 >
->Para obter informações, consulte [visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obter informações, consulte [visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Agora, você pode usar o Adobe Workfront Fusion para se conectar aos recursos de planejamento. Com a nova conexão do Fusion, é possível:
 
@@ -92,7 +92,7 @@ Agora, você pode usar o Adobe Workfront Fusion para se conectar aos recursos de
 
 * Acione um cenário quando uma alteração for feita nos recursos de planejamento
 
-Para obter mais informações, consulte [Módulos do Adobe Workfront Planning](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
+Para obter mais informações, consulte [Módulos do Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Semana de 11 de dezembro de 2023
 
@@ -132,9 +132,9 @@ Versão de produção: 21 de dezembro de 2023
 
 >[!IMPORTANT]
 >
->A instância da Workfront de sua organização deve ser integrada à Plataforma de negócios Adobe ou à Adobe Admin Console para poder conectar os registros de recursos do Adobe Workfront Planning à Adobe Experience Manager Assets.
+>A instância da Workfront de sua organização deve ser integrada à Adobe Business Platform ou à Adobe Admin Console para conectar os registros de recursos do Adobe Workfront Planning à Adobe Experience Manager Assets.
 >
->Em caso de dúvidas sobre a integração com a Adobe Admin Console, consulte as [Perguntas frequentes sobre a Experiência unificada do Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Em caso de dúvidas sobre a integração com a Adobe Admin Console, consulte as [Perguntas frequentes sobre a Experiência Unificada do Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Agora é possível estabelecer uma conexão entre os tipos de registro dos recursos do Adobe Workfront Planning e o Adobe Experience Manager Assets.
 
@@ -363,7 +363,7 @@ Para obter mais informações, consulte [Gerenciar a exibição de tabela](/help
 
 Pré-visualização e produção: 24 de agosto de 2023
 
-Agora é possível conectar um registro de recursos de planejamento a programas e portfólios da Workfront. Você deve criar uma conexão entre um tipo de registro de recursos de planejamento e um programa ou portfólio que cria um campo conectado. Em seguida, é possível conectar qualquer registro de recursos de planejamento de todos os outros tipos de registro no mesmo espaço de trabalho a programas e portfólios específicos que criam um tipo de registro de Portfolio do Workfront ou Programa Workfront somente leitura no mesmo espaço de trabalho. Considere o seguinte:
+Agora é possível conectar um registro de recursos de planejamento a programas e portfólios da Workfront. Você deve criar uma conexão entre um tipo de registro de recursos de planejamento e um programa ou portfólio que cria um campo conectado. Em seguida, é possível conectar qualquer registro de recursos de planejamento de todos os outros tipos de registro no mesmo espaço de trabalho a programas e portfólios específicos que criam um tipo de registro somente leitura do Workfront Program ou do Workfront Portfolio no mesmo espaço de trabalho. Considere o seguinte:
 
 * Os tipos de registro do conector do Workfront são exclusivos para cada espaço de trabalho.
 * É possível conectar vários registros de recursos de planejamento ao mesmo programa ou portfólio do Workfront e vários programas e portfólios ao mesmo registro de recursos de planejamento.

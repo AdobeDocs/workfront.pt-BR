@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '327'
 ht-degree: 2%
 
 ---
 
 # Excluir visualizações de registros
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -29,8 +29,6 @@ A exibição é excluída para todos os usuários que têm permissões para aces
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -85,11 +83,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>   <p>Gerenciar permissões para uma exibição</p>  
    <p>Exibir permissões de um modo de exibição para alterar temporariamente as configurações de modo de exibição ou duplicá-lo</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Modelo de layout</p></td> 
-   <td> <p>No ambiente de Produção, todos os usuários, inclusive os Administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua o Planning.</p>
-<p><span class="preview">No ambiente de Pré-visualização, os usuários do Standard e os administradores do sistema têm o Planning habilitado por padrão.</span></p></td> 
-  </tr> 
 </tbody> 
 </table>
 
@@ -111,9 +104,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-1. <span class="preview">Passe o mouse sobre um dos nomes de exibição na guia de exibição e clique em **Mais** ![Mais menu](assets/more-menu.png) à esquerda do nome de exibição e em **Excluir**.</span>
+1. Passe o mouse sobre um dos nomes de exibição na guia de exibição e clique em **Mais** ![Mais menu](assets/more-menu.png) à esquerda do nome de exibição e clique em **Excluir**.
 
-   <span class="preview">![Exibir mais menus em uma exibição de registro](assets/view-more-menu-with-duplicate-option.png)</span>
+   ![Exibir mais menus em uma exibição de registro](assets/view-more-menu-with-duplicate-option.png)
 
    >[!TIP]
    >

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
@@ -91,10 +91,14 @@ Você pode receber notificações por email do Workfront Planning quando os segu
    <td>   <p>Exibir ou aumentar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Modelo de layout</p></td> 
-   <td> <p>Todos os usuários, incluindo administradores do Workfront, devem receber um modelo de layout que inclua a área Planejamento no Menu principal. </p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Modelo de layout</p></td>
+   <td> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
+   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
+
+</td>
+  </tr>
+
 </tbody> 
 </table>
 

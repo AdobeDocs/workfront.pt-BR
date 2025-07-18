@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -104,8 +104,8 @@ Você deve ter o seguinte acesso para acessar o Workfront Planning:
    <td role="rowheader"><p>Permissões de objeto</p></td>
    <td>
    <ul>
-   <li><p>Permissões de exibição ou superiores para espaços de trabalho, <span class="preview">tipos de registro</span> e exibições que você não criou para acessá-los e seus objetos.</p></li>
-   <li><p>Permissões do Contribute ou superior para espaços de trabalho <span class="preview">e tipos de registro</span> que você não criou para editá-los e criar, editar ou excluir tipos de registro e registros.</p></li>
+   <li><p>Visualize ou aumente as permissões para espaços de trabalho, tipos de registro e visualizações que você não criou para acessá-los e seus objetos.</p></li>
+   <li><p>Contribute ou tenha permissões mais altas para espaços de trabalho e tipos de registro que você não criou para editá-los e criar, editar ou excluir tipos de registro e registros.</p></li>
    <li><p>Permissões do Contribute ou superior para exibições que você não criou, para editá-las, excluí-las e compartilhá-las</p>
    </li>
     <li><p>Os administradores do sistema podem gerenciar espaços de trabalho que não criaram. </p></li>
@@ -116,16 +116,14 @@ Você deve ter o seguinte acesso para acessar o Workfront Planning:
   </tr>
 <tr>
    <td role="rowheader"><p>Modelo de layout</p></td>
-   <td> <div class="preview">
+   <td> 
 <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p>
 <p> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua a opção Planning nas seguintes áreas:</p>
    <ul><li>Menu principal</li>
    <li>Painel esquerdo de projetos, portfólios e programas</li>
    </ul>
    <p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Criar e gerenciar modelos de layout</a>.</p>
-   </div>
-   <p><b>Nota</b></p>
-   <p>No ambiente de Produção, todos os usuários, inclusive os administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua as áreas de Planejamento.</p>
+
 </td>
   </tr>
  </tbody>
@@ -145,16 +143,12 @@ Depois que sua organização tiver comprado uma licença adicional do Workfront 
 * Painel esquerdo para projetos, portfólios e programas
 * Pins
 
-<div class="preview">
-
 Os usuários padrão e os Administradores do sistema têm as áreas do Planning habilitadas por padrão nas seguintes áreas:
 
 * Menu principal
 * Painel esquerdo de projetos, portfólios ou programas
 
-</div>
-
-Para adicionar <span class="preview"> ou remover áreas do Workfront Planning </span> dos usuários da sua instância do Workfront:
+Para adicionar ou remover áreas do Workfront Planning dos usuários da sua instância do Workfront:
 
 1. Faça logon no **Workfront** como administrador do Workfront.
 

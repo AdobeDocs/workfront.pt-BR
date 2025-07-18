@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3708'
+source-wordcount: '3750'
 ht-degree: 2%
 
 ---
@@ -66,9 +66,9 @@ Para obter informações sobre exibições de registros, consulte [Gerenciar exi
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Padrão </p>
+    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
+   <td><p> Padrão para criar e excluir visualizações</p>
+   <p>Colaborador ou superior para atualizar elementos de visualização</p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -81,7 +81,13 @@ Para obter informações sobre exibições de registros, consulte [Gerenciar exi
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para uma exibição</p>  
    <p>Exibir permissões de um modo de exibição para alterar temporariamente as configurações de modo de exibição ou duplicá-lo</p> </td> 
-  </tr>  
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Modelo de layout</p></td>
+   <td> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
+   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 

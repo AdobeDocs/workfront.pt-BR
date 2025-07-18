@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # Visão geral do tipo de licença ao usar o Adobe Workfront Planning
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
 Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissões do Adobe Workfront Planning para conceder o seguinte acesso:
 
-* Exibir, contribuir ou gerenciar espaços de trabalho <span class="preview">ou tipos de registro</span>
+* Exibir, contribuir ou gerenciar espaços de trabalho ou tipos de registro
 * Exibir ou gerenciar exibições.
 
 Para obter informações sobre permissões para objetos no Workfront Planning, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
@@ -39,8 +39,6 @@ Conceder permissões de usuário a um espaço de trabalho também concede a eles
 
 Você deve conceder aos usuários permissões separadas para exibições, além daquelas que eles têm para espaços de trabalho, para acessar e gerenciar exibições.
 
-<div class="preview">
-
 Considere o seguinte ao trabalhar com permissões de tipo de registro:
 
 * Os usuários herdam automaticamente permissões de tipo de registro de espaços de trabalho.
@@ -48,12 +46,9 @@ Considere o seguinte ao trabalhar com permissões de tipo de registro:
 * Os usuários não podem ter mais permissões para um tipo de registro do que têm para o espaço de trabalho ao qual o tipo de registro pertence.
 * Remover as permissões dos usuários para um tipo de registro não remove o acesso de Exibição para todos os tipos de registros no espaço de trabalho, pois isso não remove as permissões deles para o espaço de trabalho.
 
-</div>
-
-
 | Tipo de licença da Adobe Workfront* | Permissões mais altas permitidas no Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Padrão | <p>Os usuários podem gerenciar espaços de trabalho <span class="preview">, tipos de registro, </span> e modos de exibição. Eles podem criar, editar ou excluir espaços de trabalho, tipos de registro, registros, campos e exibições.</p> <br> <p>Os administradores do sistema têm permissões de gerenciamento para todos os espaços de trabalho, incluindo aqueles que não criaram.</p> |
+| Padrão | <p>Os usuários podem gerenciar espaços de trabalho, tipos de registro e visualizações. Eles podem criar, editar ou excluir espaços de trabalho, tipos de registro, registros, campos e exibições.</p> <br> <p>Os administradores do sistema têm permissões de gerenciamento para todos os espaços de trabalho, incluindo aqueles que não criaram.</p> |
 | Leve ou Colaborador | <p>Os usuários podem exibir os espaços de trabalho compartilhados com eles, bem como os tipos de registro, registros e campos desses espaços de trabalho.</p> <br> <p>Os usuários podem exibir as visualizações compartilhadas com eles, mas não podem criar as suas próprias visualizações. </p><br> <p>Os usuários não podem criar, editar ou excluir espaços de trabalho, tipos de registro, registros ou campos.</p> |
 
 *O Workfront Planning não está disponível para licenças herdadas do Workfront.
@@ -62,9 +57,9 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 ### Tipos de licença e permissões para espaços de trabalho e tipos de registro
 
-Somente usuários com uma licença Standard podem ter permissões de Contribute ou Gerenciar para espaços de trabalho <span class="preview">e tipos de registro</span>. As permissões Contribute e Manage para espaços de trabalho <span class="preview">e tipos de registro</span> também são transferidas para registros e campos.
+Somente os usuários com uma licença Standard podem ter permissões do Contribute ou do Manage para espaços de trabalho e tipos de registros. As permissões do Contribute e do Manage para espaços de trabalho e tipos de registros também são transferidas para registros e campos.
 
-Os usuários com todos os outros tipos de licença podem ter permissões de Exibição para espaços de trabalho <span class="preview"> e tipos de registro </span> compartilhados com eles, bem como para seus registros e campos.
+Os usuários com todos os outros tipos de licença podem ter permissões de Exibição para espaços de trabalho e tipos de registro compartilhados com eles, bem como para seus registros e campos.
 
 Os administradores do sistema podem exibir todos os espaços de trabalho no sistema, incluindo aqueles que não criaram.
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Visão geral do campo principal
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -53,4 +53,4 @@ Para obter informações sobre como designar um campo como campo primário, cons
 * Alterar o campo principal na exibição de tabela afeta a exibição de todos os outros usuários que a escolhem.
 * Alterar o campo principal em uma exibição de tabela afeta todas as exibições de tabela do tipo de registro.
 * O valor listado no campo principal sempre tem um hiperlink para a página do registro.
-* Se você tiver permissões do Contribute ou superior para um espaço de trabalho <span class="preview">e tipo de registro</span>, poderá editar o valor dos campos primários, exceto para campos de fórmula. Fórmulas são cálculos atualizados automaticamente.
+* Se você tiver permissões do Contribute ou superiores para um espaço de trabalho e tipo de registro, poderá editar o valor dos campos primários, exceto para campos de fórmula. Fórmulas são cálculos atualizados automaticamente.

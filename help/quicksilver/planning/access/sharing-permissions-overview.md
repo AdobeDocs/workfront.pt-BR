@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1155'
 ht-degree: 5%
 
 ---
@@ -20,19 +20,23 @@ ht-degree: 5%
 
 # Visão geral das permissões de compartilhamento no Adobe Workfront Planning
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 
 {{planning-important-intro}}
 
-Você pode compartilhar ou remover permissões de um espaço de trabalho ou exibição do Adobe Workfront Planning.
+Você pode compartilhar ou remover permissões de um espaço de trabalho, tipo de registro ou exibição do Adobe Workfront Planning.
 
-Este artigo descreve os níveis de permissão para objetos do Workfront Planning.
+Também é possível compartilhar formulários de solicitação do Planning. Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+Este artigo descreve os níveis de permissão para espaços de trabalho do Workfront Planning, tipos de registro, registros, campos e exibições.
 
 ## Objetos que você pode compartilhar no Adobe Workfront Planning
+
+Você pode compartilhar manualmente alguns objetos do Workfront Planning, enquanto outros objetos herdam essas permissões de outros objetos.
 
 Você pode compartilhar manualmente os seguintes objetos no Workfront Planning:
 
@@ -44,8 +48,6 @@ Você pode compartilhar manualmente os seguintes objetos no Workfront Planning:
 
   Para obter mais informações, consulte [Compartilhar espaços de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
 
-<div class="preview">
-
 * Tipos de registro
 
    * Você pode compartilhar tipos de registro com pessoas dentro da organização.
@@ -53,8 +55,6 @@ Você pode compartilhar manualmente os seguintes objetos no Workfront Planning:
    * Não é possível compartilhar um tipo de registro com um nível de permissão superior ao do usuário no espaço de trabalho.
 
   Para obter mais informações, consulte [Compartilhar tipos de registros](/help/quicksilver/planning/access/share-record-types.md).
-
-</div>
 
 
 * Visualizações
@@ -66,7 +66,7 @@ Você pode compartilhar manualmente os seguintes objetos no Workfront Planning:
 
   Para obter mais informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
 
-Internamente, você pode compartilhar um espaço de trabalho, uma exibição <span class="preview"> ou um tipo de registro </span> com as seguintes entidades do Workfront:
+Internamente, você pode compartilhar um espaço de trabalho, uma exibição ou um tipo de registro com as seguintes entidades do Workfront:
 
 * Usuários
 * Grupos
@@ -74,7 +74,7 @@ Internamente, você pode compartilhar um espaço de trabalho, uma exibição <sp
 * Empresas
 * Funções de trabalho
 
-<span class="preview"> Quando você compartilha espaços de trabalho e tipos de registro com outras pessoas, o nível de permissão do tipo de registro é automaticamente herdado para os registros e campos associados a eles. </span>
+Quando você compartilha espaços de trabalho e tipos de registro com outras pessoas, o nível de permissão do tipo de registro é automaticamente herdado para os registros e campos associados a eles.
 
 >[!IMPORTANT]
 >
@@ -112,7 +112,7 @@ As tabelas nas seções a seguir ilustram o nível de permissões que você pode
 >Para obter informações, consulte [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
-### Permissões do Workspace
+### Permissões para espaços de trabalho
 
 Você deve conceder aos usuários permissão aos espaços de trabalho para permitir que eles tenham acesso às seguintes entidades:
 
@@ -130,23 +130,26 @@ A seguir estão os níveis de permissões para espaços de trabalho:
 | Excluir | ✓ |            |       |
 | Exibir | ✓ | ✓ | ✓ |
 
-### Permissões de tipo de registro
+### Permissões para tipos de registro
 
-No ambiente de Produção, as permissões do Tipo de registro são sempre herdadas ao conceder permissões ao espaço de trabalho.
+<!-- old access:
+In the Production environment, Record Type permissions are always inherited when you grant permissions to the workspace.
 
-A seguir estão os níveis de permissões para tipos de registro:
+The following are the levels of permissions for record types: 
 
 
-|        | Gerenciar | Contribuir | Exibir |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Criar | ✓ |            |       |
-| Excluir | ✓ |            |       |
-| Editar | ✓ |            |       |
-| Exibir | ✓ | ✓ | ✓ |
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
 
-<div class="preview">
+-->
 
-No ambiente de Pré-visualização, você pode remover as permissões herdadas do tipo de registro recebidas do espaço de trabalho.
+As permissões de Tipo de registro são sempre herdadas ao conceder permissões ao espaço de trabalho.
+
+Você pode remover as permissões herdadas do tipo de registro recebidas do espaço de trabalho.
 
 Você pode conceder aos usuários permissões mais baixas no tipo de registro do que no espaço de trabalho.
 
@@ -168,11 +171,9 @@ Existem os seguintes cenários:
 >
 >*Quando você remove permissões de um tipo de registro, os usuários ainda retêm permissões de Exibição para o espaço de trabalho e todos os tipos de registro, a menos que você remova as permissões deles do espaço de trabalho.
 
-</div>
+### Permissões para registros
 
-### Registrar permissões
-
-As permissões de registro são herdadas de <span class="preview">o tipo de registro</span>, quando você concede permissões ao espaço de trabalho e <span class="preview">ao tipo de registro</span>.
+As permissões de registro são herdadas do tipo de registro quando você concede permissões ao espaço de trabalho e ao tipo de registro.
 
 A seguir estão os níveis de permissões para registros:
 
@@ -184,9 +185,9 @@ A seguir estão os níveis de permissões para registros:
 | Editar | ✓ | ✓ |       |
 | Exibir | ✓ | ✓ | ✓ |
 
-### Permissões de campo
+### Permissões para registrar campos
 
-As permissões de campo são herdadas de <span class="preview">o tipo de registro</span>, quando você concede permissões para o espaço de trabalho e <span class="preview">o tipo de registro</span>.
+As permissões de campo são herdadas do tipo de registro, ao conceder permissões ao espaço de trabalho e ao tipo de registro.
 
 As permissões a seguir se referem aos próprios campos e não aos valores associados a cada campo. Para editar valores de campo, você deve ter permissões para editar registros.
 
@@ -198,7 +199,7 @@ As permissões a seguir se referem aos próprios campos e não aos valores assoc
 | Exibir | ✓ | ✓ | ✓ |
 
 
-### Exibir permissões
+### Permissões para visualizações
 
 Você deve conceder permissões separadas para exibições de registros. A concessão de permissões para o espaço de trabalho não concede permissões para as exibições de registros no espaço de trabalho.
 

@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
 
 # Exibições de registro duplicadas
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -33,8 +33,6 @@ A duplicação de exibições é idêntica para todos os tipos de exibições no
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -87,12 +85,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para uma exibição</p>  
-   <p>Exibir permissões de um modo de exibição para alterar temporariamente as configurações de modo de exibição ou duplicá-lo</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>Modelo de layout</p></td> 
-   <td> <p>No ambiente de Produção, todos os usuários, inclusive os Administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua o Planning.</p>
-<p><span class="preview">No ambiente de Pré-visualização, os usuários do Standard e os administradores do sistema têm o Planning habilitado por padrão.</span></p></td> 
+   <p>Permissões de exibição para uma exibição para alterar temporariamente as configurações de exibição ou duplicá-las.</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -114,9 +107,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    A página de tipo de registro é aberta.
 Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-1. <span class="preview">Passe o mouse sobre a guia da exibição que deseja duplicar e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da exibição e clique em **Duplicar**. </span>
+1. Passe o mouse sobre a guia da exibição que você deseja duplicar e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da exibição e clique em **Duplicar**.
 
-   <span class="preview">![Exibir mais menus em uma exibição de registro](assets/view-more-menu-with-duplicate-option.png)</span>
+   ![Exibir mais menus em uma exibição de registro](assets/view-more-menu-with-duplicate-option.png)
 
 
    A exibição está duplicada e o nome da nova exibição segue o seguinte padrão: `Original view's name (Copy)`. A nova guia de exibição é exibida no final de todas as guias de exibição.

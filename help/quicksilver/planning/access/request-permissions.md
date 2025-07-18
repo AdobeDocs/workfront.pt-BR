@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
 
 # Solicitar permissões para uma exibição ou um espaço de trabalho
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -101,19 +101,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <li><p>Exibir, contribuir ou gerenciar para um espaço de trabalho</p></li></ul>  
    <p>Somente usuários com permissões para Gerenciar um espaço de trabalho e uma visualização podem compartilhar uma visualização publicamente.</p></td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Modelo de layout</p></td> 
-   <td> 
-   <p>No ambiente de Produção, todos os usuários, inclusive os administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua as áreas de Planejamento.</p>
-   <div class="preview">
-<p> No ambiente de Pré-visualização, os usuários com uma licença Light ou de Colaborador devem receber um modelo de layout que inclua a opção Planejamento nas seguintes áreas:</p>
-   <ul><li>Menu principal</li>
-   <li>Painel esquerdo de projetos, portfólios e programas</li>
-   </ul>
-   <p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Criar e gerenciar modelos de layout</a>.</p>
-   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div>
-   </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Modelo de layout</p></td>
+   <td> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
+   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
+
+</td>
+  </tr>
+
 </tbody> 
 </table>
 
@@ -140,10 +135,8 @@ Quando alguém compartilha com você um link para um espaço de trabalho ou uma 
 
    Todos os usuários com permissões para Gerenciar a exibição ou o espaço de trabalho recebem as seguintes notificações para a solicitação de acesso:
    * Uma notificação no aplicativo
-
      ![Notificação no aplicativo para solicitação de acesso](assets/in-app-notification-for-access-request.png)
    * Uma notificação por email
-
      ![Notificação por email para a solicitação de acesso](assets/email-notification-for-access-request.png)
 
 1. (Condicional) Quando a exibição ou o gerenciador de espaço de trabalho concede permissões para a exibição ou o espaço de trabalho, você recebe uma notificação por email e uma notificação no aplicativo com uma confirmação de que a permissão foi concedida. <!--check this - I was not able to test this, but Isk confirmed.-->

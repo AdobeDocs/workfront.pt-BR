@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1110'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Gerenciar exibições de registro
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -53,8 +53,6 @@ Para obter mais informações sobre o gerenciamento de exibições de registros 
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,7 +93,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Padrão </p>
+   <td><p> Padrão para criar e excluir visualizações</p>
+   <p>Colaborador ou superior para atualizar elementos de visualização</p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -109,11 +108,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>   <p>Gerenciar permissões para uma exibição</p>  
    <p>Exibir permissões de um modo de exibição para alterar temporariamente as configurações de modo de exibição ou duplicá-lo</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>Modelo de layout</p></td> 
-   <td> <p>No ambiente de Produção, todos os usuários, inclusive os Administradores do Sistema, devem ser atribuídos a um modelo de layout que inclua o Planning.</p>
-<p><span class="preview">No ambiente de Pré-visualização, os usuários do Standard e os administradores do sistema têm o Planning habilitado por padrão.</span></p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>Modelo de layout</p></td>
+   <td> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
+   <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -160,7 +160,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 | Exibir registros em um calendário |           |              | ✓ |
 | Registros de grupo | ✓ | ✓ |
 | Classificar registros | ✓ |              |
-| <span class="preview">Registros de código de cores</span> | <span class="preview">✓</span> | ✓ | ✓ |
+| Registros de código de cores | ✓ | ✓ | ✓ |
 | Agrupamentos de código de cores |           | ✓ |
 | Pesquisar registros específicos | ✓ | ✓ |
 | Compartilhar a exibição com outras pessoas | ✓ | ✓ | ✓ |
@@ -168,7 +168,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 | Exibir registros por ano e trimestre |           | ✓ |    |
 | Exibir registros por mês |           | ✓ | ✓ |
 | Exibir registros por semana |           |               | ✓ |
-| <span class="preview">Exportar informações de um modo de exibição</span> | <span class="preview">✓</span> |               |    |
+| Exportar informações de uma visualização | ✓ |               |    |
 
 
 ## Criar ou editar exibições {#create-or-edit-views}

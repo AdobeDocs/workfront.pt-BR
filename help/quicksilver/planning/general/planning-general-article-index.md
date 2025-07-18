@@ -1,5 +1,5 @@
 ---
-title: "Informações gerais sobre o Adobe Workfront Planning: Índice de Artigos"
+title: 'Informações gerais sobre o Adobe Workfront Planning: Índice de Artigos'
 description: Como líder em operações de marketing, você pode usar o Adobe Workfront Planning para organizar trabalhos em todo o ciclo de vida de marketing para todas as suas equipes. Os artigos nesta seção descrevem conceitos gerais sobre o Workfront Planning, práticas recomendadas sobre como implementá-lo e fornecem uma visão geral de alguns dos recursos disponíveis no momento.
 author: Alina
 feature: Workfront Planning
