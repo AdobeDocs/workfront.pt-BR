@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -28,10 +28,9 @@ Para obter mais informações sobre campos de pesquisa externos, consulte [Exemp
 
 >[!NOTE]
 >
->Os usuários devem ser adicionados ao Adobe Admin Console para serem acessíveis em chamadas de API. Usuários somente Workfront não podem ser acessados usando a API do Adobe Planning.
+>Ao usar a API do Planning, todas as informações relacionadas ao usuário serão retornadas usando a ID de usuário do Adobe Identity Management System (IMS), e não a ID de usuário do Workfront.
 >
->Para obter informações, consulte [Experiência unificada da Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
+>Para obter informações, consulte [Gerenciar usuários na Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 ## URL da API do Workfront Planning
 
