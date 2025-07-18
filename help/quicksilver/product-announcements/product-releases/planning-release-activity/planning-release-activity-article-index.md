@@ -2,14 +2,14 @@
 content-type: release-notes
 title: 'Atividade de Versão do Adobe Workfront Planning: Índice de Artigos'
 description: Esta é a atividade de lançamento do produto Adobe Workfront Planning.
-author: Alina
+author: Alina, Courtney
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: 3eaab5818e982914f807ce2c4e92dee1885ea8d9
+source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ Para obter informações sobre a atividade atual da versão do Workfront Plannin
 
 Para obter informações sobre recursos lançados antes da versão de Produção em 10 de abril de 2025, consulte os seguintes artigos:
 
-* [Atividade de lançamento do quarto trimestre de 2025 para o Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 * [Atividade da versão do terceiro trimestre de 2025 para o Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 * [Atividade da versão do segundo trimestre de 2025 para o Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Atividade da versão do primeiro trimestre de 2025 para o Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
