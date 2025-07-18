@@ -135,8 +135,10 @@ Quando alguém compartilha com você um link para um espaço de trabalho ou uma 
 
    Todos os usuários com permissões para Gerenciar a exibição ou o espaço de trabalho recebem as seguintes notificações para a solicitação de acesso:
    * Uma notificação no aplicativo
+
      ![Notificação no aplicativo para solicitação de acesso](assets/in-app-notification-for-access-request.png)
    * Uma notificação por email
+
      ![Notificação por email para a solicitação de acesso](assets/email-notification-for-access-request.png)
 
 1. (Condicional) Quando a exibição ou o gerenciador de espaço de trabalho concede permissões para a exibição ou o espaço de trabalho, você recebe uma notificação por email e uma notificação no aplicativo com uma confirmação de que a permissão foi concedida. <!--check this - I was not able to test this, but Isk confirmed.-->
