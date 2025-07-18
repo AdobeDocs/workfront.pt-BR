@@ -131,7 +131,7 @@ Desmarque as notificações que deseja parar de receber.
       * O status de uma solicitação do Workfront Planning que você submeteu alterações
       * Solicita, concede ou rejeita uma aprovação para uma solicitação do Workfront Planning
 
-   Para obter mais informações sobre como gerenciar notificações, consulte [Preferências e notificações da conta](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+   Para obter mais informações sobre como gerenciar notificações, consulte [Preferências e notificações da conta](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences).
 
 <!--OLD: notifications are not available to non-IMS customers: 
 
@@ -141,7 +141,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 
