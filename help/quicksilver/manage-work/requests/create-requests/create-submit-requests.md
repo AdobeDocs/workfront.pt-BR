@@ -6,9 +6,9 @@ description: O trabalho planejado é representado na Adobe Workfront por projeto
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
+source-git-commit: 7c7697936da90d17599d90b69265f62221185569
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2803'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 1%
 </div>
 -->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 O trabalho planejado é representado na Adobe Workfront por projetos e tarefas. No entanto, você pode trabalhar em um ambiente em que o trabalho não planejado, na forma de solicitações, pode entrar a qualquer momento. O Workfront fornece um fluxo de trabalho para acomodar esse tipo de ambiente por meio do uso de Filas de solicitações.
 
@@ -150,12 +150,12 @@ Para criar uma solicitação no aplicativo Web do Workfront:
    ![Nova caixa de solicitação com fluxo de trabalho unificado para solicitações de planejamento](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
    Clique em um dos cartões da fila de solicitações do Workfront ou procure por um e, em seguida, clique nele quando ele for exibido na lista.
-1. <span class="preview">(Condicional) Se você alternou para a nova experiência que inclui o Workfront Planning e está no ambiente de visualização, a caixa **Nova solicitação** exibirá o seguinte:</span>
+1. (Condicional) Se você alternou para a nova experiência que inclui o Workfront Planning e está no ambiente de visualização, a caixa **Nova solicitação** exibirá o seguinte:
 
-   <ul><span class="preview"><li>As 6 filas de solicitações do Workfront acessadas mais recentemente e os formulários de solicitação do Planning são exibidos na seção Recente. </li></span>
-    <span class="preview"><li>Todos os formulários de solicitação adicionais do Workfront e do Planning <b>seção Todos os formulários de solicitação</b>. Você pode procurar formulários de solicitação que não são exibidos por padrão. </li></span>
-    <span class="preview"><li>Todos os caminhos adicionais da fila de solicitações do Workfront e do Planning são exibidos na seção <b>Todos os caminhos de solicitação</b>. Você pode procurar uma fila de solicitações que não é exibida por padrão.</li></span></ul>
-    <span class="preview">Clique em um dos caminhos ou formulários da fila de solicitações do Workfront, ou procure um, e clique nele quando ele for exibido na lista. </span>
+   <ul><li>As 6 filas de solicitações do Workfront acessadas mais recentemente e os formulários de solicitação do Planning são exibidos na seção Recente. </li>
+    <li>Todos os formulários de solicitação adicionais do Workfront e do Planning <b>seção Todos os formulários de solicitação</b>. Você pode procurar formulários de solicitação que não são exibidos por padrão. </li>
+    <li>Todos os caminhos adicionais da fila de solicitações do Workfront e do Planning são exibidos na seção <b>Todos os caminhos de solicitação</b>. Você pode procurar uma fila de solicitações que não é exibida por padrão.</li></ul>
+   Clique em um dos caminhos ou formulários da fila de solicitações do Workfront, ou procure um, e clique nele quando ele for exibido na lista.
 
 1. (Condicional) Se você alternou para a nova experiência que inclui o Workfront Planning, selecione os grupos de tópicos e os tópicos da fila e continue atualizando o formulário.
 
