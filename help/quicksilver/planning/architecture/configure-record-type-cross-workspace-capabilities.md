@@ -4,9 +4,9 @@ description: Você pode habilitar um tipo de registro para ser adicionado a outr
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1006'
 ht-degree: 1%
 
 ---
@@ -44,8 +44,6 @@ Para obter informações, consulte um dos seguintes artigos:
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -117,7 +115,7 @@ Para configurar a adição de um tipo de registro a outro espaço de trabalho ao
 
 {{step1-to-planning}}
 
-1. Clique no espaço de trabalho cujos tipos de registro você deseja editar,
+1. Clique no espaço de trabalho cujos tipos de registro você deseja editar.
 
    A página do espaço de trabalho é aberta e os tipos de registro são exibidos.
 1. Siga um destes procedimentos:
@@ -134,11 +132,11 @@ Ou
 
    ![Editar configurações avançadas do tipo de registro com Adicionar a outros espaços de trabalho habilita](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
 
-1. No campo **Selecione quem pode adicionar este tipo de registro a espaços de trabalho gerenciados por eles**, adicione os usuários que você deseja adicionar este tipo de registro a espaços de trabalho gerenciados por eles.
+1. No campo **Selecione quem pode adicionar este tipo de registro a espaços de trabalho que eles gerenciam**, adicione os usuários que você deseja permitir que adicionem este tipo de registro a espaços de trabalho que eles gerenciam.
 
    Seu nome é adicionado automaticamente ao campo.
 
-   É possível adicionar usuários individuais, ou grupos, equipes, funções de trabalho ou empresas cujos usuários você deseja adicionar esse tipo de registro aos espaços de trabalho que eles gerenciam.
+   É possível adicionar usuários individuais, ou grupos, equipes, funções de trabalho ou empresas cujos usuários você deseja permitir que adicionem esse tipo de registro aos espaços de trabalho que eles gerenciam.
 
    É possível editar esse campo depois de salvar o tipo de registro.
 1. (Opcional) Remova seu nome do campo **Selecione quem pode adicionar este tipo de registro ao espaço de trabalho que eles gerenciam**.
@@ -148,6 +146,11 @@ Ou
    As seguintes situações ocorrem:
 
    * O tipo de registro e seus campos agora estão disponíveis para serem adicionados a outro espaço de trabalho pelas pessoas designadas.
+
+   >[!NOTE]
+   >
+   >É possível editar o tipo de registro e seus campos somente no espaço de trabalho original.
+
    * O cartão de tipo de registro exibe um ícone global ![Ícone de tipo de registro global](assets/global-icon.png) para indicar que o tipo de registro está disponível para ser adicionado a qualquer espaço de trabalho cujo gerente você designou em sua configuração.
    * Um campo **Workspace** gerado pelo sistema é adicionado ao tipo de registro.
 
@@ -155,9 +158,9 @@ Ou
 
      Este campo é somente leitura e não pode ser excluído.
 
-## Configurar a conexão com um tipo de registro em outros espaços de trabalho
+## Configurar a conexão com um tipo de registro de outros espaços de trabalho
 
-Você pode configurar um tipo de registro para se conectar a partir de outros espaços de trabalho ao criar ou editar o tipo de registro.
+É possível configurar um tipo de registro para ser conectado a partir de outros espaços de trabalho ao criar ou editar o tipo de registro.
 
 Para configurar um tipo de registro para conexão a partir de outros espaços de trabalho ao editar o tipo de registro:
 
@@ -175,7 +178,7 @@ Ou
    ![Mais opções de menu do cartão de tipo de registro](assets/more-menu-options-from-record-type-card.png)
 
 1. Na caixa **Editar tipo de registro**, selecione a guia **Configurações avançadas**.
-1. Habilitar a configuração **Permitir conexão com este tipo de registro de outros espaços de trabalho**. <!-- check the setting name, this is the suggested UI text to be edited by Lilit and team-->
+1. Habilitar a configuração **Permitir conexão com este tipo de registro em outros espaços de trabalho**. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![Editar a guia Configurações avançadas do tipo de registro com conexão de outros espaços de trabalho habilitada](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)
 
@@ -191,6 +194,11 @@ Ou
 
    * O tipo de registro e seus campos agora estão disponíveis para conexão a partir dos espaços de trabalho designados.
    * O cartão de tipo de registro exibe um ícone de conexão entre espaços de trabalho ![ícone de conexão entre espaços de trabalho](assets/connect-from-other-workspaces-icon.png) para indicar que o tipo de registro está disponível para ser conectado de qualquer espaço de trabalho designado na sua configuração.
+
+   O tipo de registro fica disponível para conexão a partir dos espaços de trabalho designados.
+
+
+
 
 
 
