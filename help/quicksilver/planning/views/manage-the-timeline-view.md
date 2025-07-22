@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '3750'
 ht-degree: 2%
@@ -114,6 +114,14 @@ Considere o seguinte:
    * Quando as datas de Início ou Término não têm valor
    * Quando a data inicial for posterior à data final
 
+<!--
+<div class="preview">
+
+* You can create and edit records in the timeline view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
+
 Para gerenciar uma exibição de linha do tempo:
 
 1. Vá para a página do tipo de registro para a qual deseja exibir a linha do tempo.
@@ -184,6 +192,10 @@ Para gerenciar uma exibição de linha do tempo:
    1. Pressione Enter no teclado para ir para o próximo campo encontrado.
    1. (Opcional) Se houver mais de uma correspondência, clique nas setas para cima e para baixo à direita da palavra-chave de pesquisa para localizar todas as correspondências na tabela.
    1. Clique no ícone **x** na caixa de pesquisa para limpar a palavra-chave de pesquisa.
+
+   <!--
+    1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+-->
 
 1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
    * [Filtros](#add-filters)
