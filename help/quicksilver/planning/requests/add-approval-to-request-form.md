@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '782'
 ht-degree: 1%
 
 ---
@@ -123,11 +123,11 @@ Para obter informações sobre como enviar uma solicitação a um tipo de regist
    A área **Configuração** é exibida.
 
    ![Guia Configuração](assets/configuration-tab.png)
-1. No campo **Aprovadores**, clique no ícone suspenso e selecione um ou vários nomes na lista
+1. No campo **Aprovadores**, clique no ícone suspenso e selecione um ou vários usuários <span class="preview">ou equipes</span> na lista
 
    Ou
 
-   Comece a digitar o nome de um aprovador e, em seguida, selecione-o quando ele for exibido na lista.
+   Comece digitando o nome de um usuário <span class="preview">ou equipe</span> que você deseja definir como um aprovador, em seguida, selecione-o quando ele for exibido na lista.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -141,6 +141,8 @@ Para obter informações sobre como enviar uma solicitação a um tipo de regist
    >* Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na guia Planejamento da seção Enviado na área Solicitações do Workfront.
    >
    >* Todos os aprovadores devem tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
+   >
+   >* <span class="preview">Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.</span>
 
 
 1. (Opcional) Clique em **Publicar** se você nunca compartilhou o formulário de solicitação antes
