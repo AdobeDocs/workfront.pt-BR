@@ -27,8 +27,8 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 >[!NOTE]
 >
 >Visualização: 10 de julho de 2025
->>Produção para todos: 10 de julho de 2025
->>[!BADGE Fora do cronograma]{type=Neutral}
+>&#x200B;>Produção para todos: 10 de julho de 2025
+>&#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
 
 
 Atualizamos a guia Configurações avançadas ao criar ou editar um tipo de registro.
@@ -45,8 +45,8 @@ Para obter mais informações, consulte [Criar tipos de registro](/help/quicksil
 >[!NOTE]
 >
 >Visualização: 10 de julho de 2025
->>Produção para todos: 10 de julho de 2025
->>[!BADGE Fora do cronograma]{type=Neutral}
+>&#x200B;>Produção para todos: 10 de julho de 2025
+>&#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
 
 Agora, quando você adiciona uma equipe a um comentário de registro no Workfront Planning, todos os membros da equipe recebem uma notificação no aplicativo e uma notificação por email sobre o comentário. Antes dessa melhoria, somente os usuários adicionados aos comentários individualmente eram notificados.
 
@@ -57,8 +57,8 @@ Para obter informações, consulte Gerenciar comentários de registro [Gerenciar
 >[!NOTE]
 >
 >Visualização: 10 de julho de 2025
->>Versão rápida de produção: 14 de agosto de 2025
->>Produção para todos: 16 de outubro de 2025
+>&#x200B;>Versão rápida de produção: 14 de agosto de 2025
+>&#x200B;>Produção para todos: 16 de outubro de 2025
 
 
 Agora, quando você tiver agrupamentos aplicados a uma visualização de tabela, adicionar um registro à tabela preencherá automaticamente os campos associados aos agrupamentos aos quais você adiciona o registro.
@@ -74,7 +74,7 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 >[!NOTE]
 >
 >Visualização: 9 de julho de 2025
->>Produção para todos: 17 de julho de 2025
+>&#x200B;>Produção para todos: 17 de julho de 2025
 
 Agora é possível compartilhar uma exibição, bem como um tipo de registro, no mesmo botão na página do tipo de registro. Antes desse aprimoramento, você só podia compartilhar o tipo de registro no botão Compartilhar na página do tipo de registro e uma exibição na guia da exibição.
 
@@ -147,7 +147,7 @@ Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quic
 >
 >* Visualização: 26 de junho de 2025
 >* Produção para todos: 26 de junho de 2025
->  >[!BADGE Fora do cronograma]{type=Neutral}
+>  &#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
 
 Agora, ao conectar tipos de registro e trazer um campo de fórmula como uma pesquisa, você pode aplicar as funções agregadas (SUM, AVERAGE, MIN, MAX etc.) dependendo do formato do campo de fórmula. Por exemplo, se o campo de fórmula for numérico, você poderá usar funções como SUM ou AVG; se o campo de fórmula estiver formatado como texto, as funções agregadas como SUM não serão aplicadas.
 
@@ -183,7 +183,7 @@ Para obter mais informações, consulte [Habilitar trimestres personalizados par
 >
 >* Visualização: 12 de junho de 2025
 >* Produção para todos: 12 de junho de 2025
->  >[!BADGE Fora do cronograma]{type=Neutral}
+>  &#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
 
 Introduzimos uma melhoria que atualiza todos os campos de fórmula dependentes uns dos outros ao mesmo tempo depois que um campo referenciado é atualizado manualmente. Os campos de fórmula que estão a 2, 3 ou 4 campos do campo cujo valor é alterado manualmente e que fazem referência uns aos outros agora serão atualizados automaticamente ao mesmo tempo.
 
@@ -197,7 +197,7 @@ Para obter informações, consulte [Visão geral dos campos da fórmula](/help/q
 >
 >* Visualização: 6 de junho de 2025
 >* Produção para todos os clientes: 6 de junho de 2025
->  >[!BADGE Fora do cronograma]{type=Neutral}
+>  &#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
 
 Adicionamos as seguintes expressões aos campos de fórmula:
 
@@ -339,7 +339,7 @@ Antes desse aprimoramento, os usuários com todos os níveis de licença precisa
 >[!NOTE]
 >
 >Esta alteração ficará visível para todos os usuários novos e existentes com uma licença de Administrador do sistema e Padrão.
->>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
+>&#x200B;>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
 
 Para obter informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
