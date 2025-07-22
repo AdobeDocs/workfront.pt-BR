@@ -6,9 +6,9 @@ description: Acessar o  [!DNL Workfront] por meio do Adobe Experience Cloud prop
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: e292b54c4488ac12e1af5719117cf6c3cf3392a7
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 A instância de [!DNL Workfront] da sua organização deve ser integrada ao [!DNL Adobe Business Platform] ou ao [!DNL Adobe Admin Console].
 
 Em caso de dúvidas sobre a integração com o [!DNL Adobe Admin Console], consulte as [[!DNL Adobe Unified Experience] Perguntas frequentes](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
+
+## Sistema Adobe Identity Management (IMS)
+
+Como parte da mudança para a Experiência unificada da Adobe, sua organização agora usa o Sistema Identity Management da Adobe para autenticar usuários. Isso significa que você faz logon no Workfront por meio do Adobe, em vez de diretamente no Workfront. O Adobe IMS também exige que os administradores do Workfront lidem com o gerenciamento de usuários no Adobe Admin Console, em vez de no Workfront.
+
+Para obter informações sobre como fazer logon no Workfront na Adobe Unified Experience, consulte [Fazer logon no Adobe Experience Cloud](#log-in-to-adobe-experience-cloud) neste artigo.
+
+Para obter informações sobre o gerenciamento de usuários na Adobe Admin Console, consulte o artigo [Gerenciar usuários na Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 ## Fazer logon em [!DNL Adobe Experience Cloud]
 
@@ -117,7 +125,7 @@ Se sua organização usar um aplicativo separado para gerenciar senhas, você al
 
 Se a sua senha for gerenciada por [!DNL Adobe], você poderá alterá-la em sua conta da Adobe.
 
-[Consulte este artigo para alterar sua senha do Adobe.](https://helpx.adobe.com/br/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Consulte este artigo para alterar sua senha do Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Para obter mais informações sobre como alterar sua senha, entre em contato com o administrador.
 
