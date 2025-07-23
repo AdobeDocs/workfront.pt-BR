@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1196'
 ht-degree: 4%
 
 ---
@@ -299,24 +299,33 @@ A tabela a seguir mostra os objetos cujos comentários também são exibidos em 
 
 Existem algumas limitações na seção Atualizações de uma equipe e ao inserir atualizações em nome de outros usuários.
 
-### Limitações para usuários e equipes
+### Considerações para usuários e equipes
 
 Considere o seguinte ao visualizar atualizações para usuários e equipes:
 
 * Não é possível adicionar novos comentários na seção Atualizações de uma equipe.
-
-* A seção Atualizações para equipes é preenchida por atualizações inseridas nos seguintes objetos:
-
-   * Usuários
-   * Histórias
-   * Planilhas de horas
-   * Iterações
 
 * Você pode adicionar uma resposta a uma atualização que visualiza em uma equipe. A resposta é exibida na seção Atualizações da equipe, bem como na seção Atualizações do objeto ao qual pertence.
 
 * Na seção Atualizações para usuários e equipes, é possível visualizar as atualizações inseridas nos últimos 90 dias.
 
   Se quiser ver todas as atualizações feitas em um usuário ou uma equipe, além do limite de 90 dias, você pode criar um relatório para notas. O relatório não deve ter um filtro de tempo que exiba todas as atualizações feitas para usuários ou equipes. Para obter mais informações, consulte [Criar um relatório personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+* A seção Atualizações para equipes é preenchida com comentários adicionados aos seguintes objetos:
+
+   * Usuários
+   * Histórias
+   * Planilhas de horas
+   * Iterações
+
+* A guia Atualizações de sistema da área Atualizações para usuários é preenchida por atualizações para outros objetos. A seguir estão as atualizações que são exibidas na guia Atualizações do sistema do perfil do usuário, quando esses campos são rastreados na área Feeds de atualizações da Configuração:
+
+   * Adição, remoção e outras atualizações de documentos
+   * Adição de hora, remoção, adição em nome de e outras atualizações de entrada de hora
+   * Notas, atualizações de campos personalizados
+   * Atualizações do perfil do usuário (atualizações do avatar do usuário, número de celular, Fale comigo sobre o campo, Título)
+   * Adição do usuário, remoção, alteração no nível de acesso, alterações nos campos de usuário incorporados
+   * Informações financeiras de tarefas e projetos.
 
 ### Limitações ao inserir comentários em nome de outro usuário
 

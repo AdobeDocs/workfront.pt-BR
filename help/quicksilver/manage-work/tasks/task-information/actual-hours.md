@@ -7,9 +7,9 @@ description: As horas em que você faz logon nos itens de trabalho no Adobe Work
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,7 @@ Dependendo da área do Workfront em que você acessa as horas reais, elas podem 
 * Na área Detalhes do projeto, tarefa ou problema:
 
    * **Horas efetivas**: horas registradas para projetos, tarefas ou problemas após maio de 2021. Eles são armazenados no banco de dados do Workfront em horas e seu campo de valor é `actualWorkRequiredDouble`.
+   * **Horas efetivas**: quando são acessadas usando um campo personalizado de referência de campo nativo em um formulário personalizado de projeto, tarefa ou problema.
 
 ## Horas efetivas de tarefas e problemas versus Horas efetivas de projetos
 
@@ -111,34 +112,40 @@ Para localizar Horas Reais em Detalhes da Tarefa:
 1. Vá para uma tarefa para a qual deseja revisar as Horas Efetivas.
 1. No painel esquerdo, clique em **Detalhes da tarefa**. A seção **Visão geral** é exibida.
 1. Localize o valor **Horas Efetivas** na seção **Horário de Trabalho**. Este é o total de horas registradas nesta tarefa.
+1. (Opcional e condicional) Se a referência do campo nativo Horas efetivas foi adicionada a um formulário personalizado de projeto, tarefa ou problema, vá para o formulário personalizado e localize as Horas efetivas no campo personalizado. Este é o total de horas registradas para o objeto.
 
 ### Horas efetivas na seção Horas {#actual-hours-in-the-hours-section}
 
 Encontrar Horas efetivas na seção Horas é idêntico para projetos, tarefas e problemas.
 
-Para localizar as Horas Reais na seção Horas:
+Para localizar Horas Reais na seção Horas de uma tarefa:
 
 1. Vá para uma tarefa para a qual deseja revisar as Horas Efetivas.
 
 1. No painel esquerdo, clique em **Horas**. Uma lista de entradas de horas registradas na tarefa é exibida, com a coluna **Horas** mostrando o número total de Horas Efetivas da tarefa.
 
 1. Certifique-se de que o modo de exibição **Padrão** e o agrupamento **Projeto** sejam aplicados a esta lista.
+1. As horas efetivas da tarefa são exibidas na linha de agrupamento para a coluna **horas efetivas**.
 
-### Horas efetivas em relatórios {#actual-hours-in-reports}
+### Horas efetivas e horas efetivas herdadas em relatórios
 
-Ao criar relatórios de tarefas, problemas ou projetos, você pode mostrar o valor de Horas efetivas para cada tarefa, problema ou projeto no relatório.
+Ao criar relatórios de tarefas, problemas ou projetos, você pode mostrar as Horas efetivas e os valores de Horas efetivas herdadas para cada tarefa, problema ou projeto no relatório.
 
-Para mostrar Horas Reais em um relatório de tarefa:
+Para obter informações sobre a diferença entre Horas Reais e Horas Reais Herdadas, consulte a seção [Horas Reais vs. Horas Reais Herdadas](#actual-hours-vs-legacy-actual-hours) neste artigo.
+
+Para mostrar Horas Reais e Horas Reais Herdadas em um relatório de tarefa:
 
 {{step1-to-reports}}
 
 1. Na página **Relatórios**, clique em **Novo relatório** e escolha **Tarefa** como seu objeto.
 1. No canto inferior direito da página, clique em **Adicionar coluna**.
-1. No campo suspenso **Mostrar nesta coluna** exibido, comece digitando **Horas efetivas** e, em seguida, selecione o campo quando ele aparecer na lista.
+1. No campo suspenso **Mostrar nesta coluna**, comece digitando **Horas efetivas** e, em seguida, selecione o campo quando ele aparecer na lista.
+1. Repita a etapa acima para adicionar o campo **Horas Reais Herdadas** ao relatório.
 
 1. No canto inferior esquerdo da página, clique em **Salvar + Fechar** para salvar o relatório.
 
 1. Na caixa de diálogo **Nomear este Relatório para Salvá-lo**, digite um novo nome de relatório e clique em **Aplicar**.
+1. Repita as mesmas etapas para um relatório de projeto ou problema.
 
 ### Horas efetivas nas ferramentas de gerenciamento de recursos {#actual-hours-in-resource-management-tools}
 
