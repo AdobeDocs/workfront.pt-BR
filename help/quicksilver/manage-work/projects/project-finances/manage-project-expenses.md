@@ -6,7 +6,7 @@ description: O processo para criar e gerenciar despesas é o mesmo para despesas
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: e1884aa7975018a737538d909954319e6feee318
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Vá para o projeto ou tarefa para o qual você deseja inserir despesas.
 1. Clique em **Despesas** no painel esquerdo.
 1. Clique em **Adicionar uma Despesa**. A caixa de diálogo **Adicionar uma Despesa** é exibida.
-1. Atualize o seguinte:
+1. Insira as seguintes informações:
 
    * **Descrição:** Insira uma descrição da despesa.
    * **Tipo de Despesa:** (Obrigatório) Selecione a categoria que melhor descreve a despesa.
@@ -68,7 +68,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    * **Valor Real:** Insira o valor que representa o custo real da despesa. Isso afeta o Custo Efetivo do projeto.
 
-   * **Data Planejada:** Insira a data esperada para a despesa ocorrer. Você pode digitar a data no campo usando o formato *mm/dd/aa* ou pode clicar no ícone **Calendário**  ![Ícone de calendário](assets/calendar-icon.png) e selecione a data dinamicamente.
+   * **Data Planejada:** Insira a data esperada para a despesa ocorrer. Você pode digitar a data no campo usando o formato *mm/dd/aa* ou pode clicar no ícone **Calendário** ícone ![Calendário](assets/calendar-icon.png) e selecionar a data dinamicamente.
 
    * **Data de Pagamento:** Insira ou selecione a data em que a despesa foi paga.
    * **Faturável:** selecione esta opção se desejar faturar esta despesa. Categorizar uma despesa como faturável é importante ao criar registros de faturamento.
@@ -80,7 +80,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >Você deve criar um formulário personalizado antes de associá-lo a uma despesa. Somente formulários personalizados ativos são exibidos na lista. Para obter informações sobre como criar formulários personalizados, consulte o artigo [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Clique em **Salvar alterações**.
+1. Clique em **Salvar**.
 
 ## Apagar Despesas
 
