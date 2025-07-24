@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 0%
+source-wordcount: '1540'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Compartilhar tipos de registro
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ Você pode compartilhar um tipo de registro com outras pessoas para garantir a c
 >[!IMPORTANT]
 >
 >Os usuários com acesso a um espaço de trabalho obtêm automaticamente pelo menos permissões de Exibição para todos os tipos de registros no espaço de trabalho.
->&#x200B;>O compartilhamento de visualizações não fornece aos usuários permissões para tipos de registro. Somente espaços de trabalho de compartilhamento podem conceder aos usuários permissões para tipos de registro.
+>>O compartilhamento de visualizações não fornece aos usuários permissões para tipos de registro. Somente espaços de trabalho de compartilhamento podem conceder aos usuários permissões para tipos de registro.
 >
 >* Para obter informações gerais sobre o compartilhamento de objetos no Workfront Planning, consulte também [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Para obter mais informações, consulte a seção [Considerações ao compartilhar tipos de registro](#considerations-when-sharing-record-types) neste artigo.
@@ -144,22 +144,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Abra o espaço de trabalho cujos tipos de registro você deseja compartilhar.
 
-<!--when we release Share on the record type card, replace the next 3 steps with this: 
+1. Siga um destes procedimentos:
 
-1. Do one of the following: 
-
-   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
-   * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
-
-   The **Share** box opens.
--->
-
-1. Clique em um cartão de tipo de registro.
-
-   A página de tipo de registro é aberta.
-
-1. Na guia de qualquer modo de exibição, clique em **Compartilhar** no canto superior direito do tipo de registro.
-1. Clique em **Compartilhar o tipo de registro**.
+   * <span class="preview">No cartão de tipo de registro, clique no menu **Mais** > **Compartilhar**.</span>
+   * Clique em um cartão de tipo de registro para abrir a página do tipo de registro e clique em **Compartilhar** > **Compartilhar o tipo de registro** de qualquer exibição de tipo de registro.
 
    A caixa **Compartilhar** é aberta.
 

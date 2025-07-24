@@ -6,9 +6,9 @@ description: Para permitir que as alterações feitas nos perfis de folha de hor
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,13 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 Ao gerar folhas de horas manualmente:
 
 * Eles são gerados de acordo com os perfis de folha de horas associados aos usuários. Os usuários que não têm perfis de folha de horas associados a eles não recebem folhas de horas. 
-* Somente a folha de horas atual e a seguinte são geradas. O Workfront não gera duas folhas de horas para o mesmo período. Se você já tiver uma folha de horas para um intervalo de tempo específico, outra não será gerada quando você estiver usando o processo manual para gerar folhas de horas.
+* Somente a folha de horas atual e a seguinte são geradas. O Workfront não gera duas folhas de horas para o mesmo período. Se você já tiver uma planilha de horas para o período atual, outra não será gerada quando você estiver usando o processo manual para gerar planilhas de horas.
 
 ## Gerar folhas de horas manualmente na área Folhas de horas e horas
 
 Você pode gerar manualmente folhas de horas no nível do sistema ou do grupo na área Folhas de horas e horas na Configuração.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **do** Menu Principal![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. Se você estiver gerando planilhas de horas em uso em todo o sistema, clique em **Planilhas de horas e horas.**
 
@@ -64,7 +64,7 @@ Você pode gerar manualmente folhas de horas no nível do sistema ou do grupo na
    Se você estiver gerando planilhas de horas usadas por um grupo específico, clique em **Grupos** e, em seguida, clique no nome do grupo.
 
 1. Clique em **Perfis de Planilha de Horas**.
-1. Clique em **Mais**, em seguida em **Gerar Planilhas de Horas**.
+1. Clique no ícone **Mais** ![Mais ícone](assets/more-icon.png) e em **Gerar folhas de horas**.
 
    Novas folhas de horas são criadas para até dois períodos de tempo para usuários associados a perfis de folha de horas.
 
@@ -72,7 +72,7 @@ Você pode gerar manualmente folhas de horas no nível do sistema ou do grupo na
 
 Você pode gerar manualmente planilhas de horas no nível do sistema a partir da área Diagnóstico na Configuração.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **do** Menu Principal![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. Expanda **Sistema** e clique em **Diagnósticos**.
 

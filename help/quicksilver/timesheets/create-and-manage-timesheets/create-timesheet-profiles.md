@@ -6,9 +6,9 @@ description: Você pode criar, editar e atribuir perfis de planilha de horas que
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1604'
 ht-degree: 1%
 
 ---
@@ -36,8 +36,6 @@ Para obter mais informações sobre como criar uma folha de horas manualmente, c
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -194,9 +192,17 @@ Você deve ter o seguinte para executar as etapas deste artigo:
    >* Quando você adiciona um grupo, somente o nome do grupo é exibido na guia Atribuir Pessoas, não a lista de membros do grupo. Se quiser ver os membros do grupo listados aqui, clique em Salvar Alterações, em seguida, clique no nome do perfil da planilha de horas que você acabou de criar.
    >* Ao concluir essas etapas, o perfil de folha de horas gera folhas de horas apenas para os usuários atribuídos ou membros do grupo que não têm folhas de horas existentes para o período atual.
 
-1. Clique em **Salvar alterações**.
+1. Clique em **Salvar**.
 
-   Na primeira vez que o perfil de folha de horas gera folhas de horas, duas folhas de horas são criadas para cada usuário. Depois disso, cada vez que gera novas folhas de horas, uma folha de horas é criada por usuário.
+1. Na parte superior da lista de perfis de folha de horas, clique no ícone **Mais** ícone ![Mais](assets/more-icon.png) para perfis de folha de horas no nível do sistema, ou **Mais** para perfis de folha de horas de grupo, e clique em **Gerar folhas de horas**.
+
+   Uma confirmação é exibida na parte inferior da tela de que as folhas de horas foram geradas com sucesso. Novas planilhas de horas são geradas com base nos novos perfis que você criou.
+
+   Para obter mais informações, consulte [Gerar folhas de horas manualmente](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+
+   Na primeira vez que o perfil de folha de horas gera folhas de horas, duas folhas de horas são criadas para cada usuário, tanto para o período que inclui o tempo atual quanto para o período seguinte.
+
+   Depois disso, cada vez que ele gera novas folhas de horas, uma folha de horas é criada por usuário.
 
    <!--the content in the table above will need to match the content in the Create timesheets article-->
 

@@ -6,10 +6,10 @@ description: Você pode excluir um perfil de planilha de horas que pode não ser
 author: Alina
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 0%
+source-wordcount: '267'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ Para obter informações sobre perfis de folha de horas, consulte [Criar, editar
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,16 +54,18 @@ Para obter informações sobre perfis de folha de horas, consulte [Criar, editar
 
 ## Excluir perfis de planilha de horas
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **do** Menu Principal![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
-1. Se você estiver excluindo um perfil de planilha de horas que está em uso em todo o sistema, clique em **Planilha de horas e horas**.
+1. Se você estiver excluindo um perfil de planilha de horas no nível do sistema, clique em **Planilha de horas e horas**.
 
    Ou
 
-   Se você estiver excluindo um perfil de planilha de horas de um grupo, clique em **Grupos** e, em seguida, clique no nome do grupo.
+   Se você excluir um perfil de folha de horas de um grupo, clique em **Grupos** > clique no nome do grupo e em **Perfis de Folha de Horas**.
+1. Selecione pelo menos um perfil de planilha de horas que você deseja excluir e clique no ícone **Mais** ![](assets/more-icon.png) > **Excluir** para o perfil de planilha de horas do sistema
 
-1. Clique em **Perfis de Planilha de Horas**.
-1. Selecione pelo menos um perfil de planilha de horas que você deseja excluir e clique em **Mais** > **Excluir**.
+   Ou
+
+   Clique em **Mais** > **Excluir** para o perfil da folha de horas de nível de grupo.
 1. (Condicional) Se o perfil da folha de horas já estiver atribuído aos usuários, a caixa **Perfil de Folha de Horas de Substituição** será exibida. Faça o seguinte:
    1. Selecione outro perfil de planilha de horas na lista suspensa. O perfil de planilha de horas que você está excluindo será substituído pelo perfil de planilha de horas com o qual você o substitui para todos os usuários atribuídos. As folhas de horas serão geradas de acordo com o perfil atribuído recentemente no ciclo de geração de folha de horas a seguir.
    1. Clique em **Excluir** para confirmar a exclusão.
