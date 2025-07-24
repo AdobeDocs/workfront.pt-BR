@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
+source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '957'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,15 @@ ht-degree: 2%
 
 <!-- Audited: 12/2023 -->
 
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
+
 Tópicos de fila trabalham em conjunto com Regras de roteamento para atribuir automaticamente o trabalho recebido a um usuário, função de trabalho, equipe ou para colocá-lo em um projeto. Os Tópicos de Fila definem as condições que precisam existir para que a Regra de Encaminhamento seja implementada.
 
 Não há limite para o número de Tópicos da fila que podem ser atribuídos a um Grupo de tópicos ou a um projeto. Tópicos de fila são um tipo de objeto reportável.
 
-Depois de criado, não é possível mover tópicos da fila de um projeto para outro.
+Você pode criar Tópicos de fila para projetos individuais ou para modelos de projeto.
+
+Depois de criado, não é possível mover tópicos da fila de um projeto ou modelo para outro.
 
 ## Requisitos de acesso
 
@@ -97,7 +101,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    * [Criar Grupos de Tópicos](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
    * [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
-1. Vá para o projeto que você escolheu para ativar como uma Fila de solicitação de ajuda e onde você deseja criar um novo tópico da fila.\
+1. Vá para o projeto ou modelo que você escolheu para ativar como uma Fila de solicitação de ajuda e onde você deseja criar um novo tópico da fila.\
    Para obter mais informações sobre como designar um projeto como uma Fila de Solicitação de Ajuda, consulte [Criar uma Fila de Solicitação](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Você pode organizar Tópicos de fila relacionados em um Grupo de tópicos. Isso fornecerá ao solicitante uma série de menus suspensos ao fazer uma solicitação.
@@ -171,3 +175,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique em **Salvar**.\
    O Tópico de fila agora está disponível para uso e está visível na área Solicitações do Workfront, depois que uma Fila de solicitação e um Grupo de tópico são selecionados.
+
+## Editar um Tópico de Fila
+
+Para editar um Tópico de Fila existente:
+
+1. Vá para o projeto ou modelo que contém o Tópico da fila que deseja editar.
+1. Clique em **Enfileirar tópicos** no painel esquerdo.
+1. No ambiente de Produção, selecione o Tópico da fila que deseja editar. Na página Detalhes que é aberta, clique em **Editar Tópico da Fila**.
+1. <span class="preview">No ambiente de Visualização, selecione o Tópico da Fila que deseja editar e clique no ícone Editar ![ícone Editar](assets/edit-icon.png).</span>
+
