@@ -88,6 +88,7 @@ Para obter mais informações, consulte [Criar um relatório de KPI](/help/quick
 
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Status**.
    1. Deixe o operador como **Igual** e digite _revisão pendente_ na caixa de texto.
+
       ![exemplo de filtro de kpi pendente](assets/pending-kpi-filter.png)
 1. Clique em **Salvar** no canto superior direito da tela.
 
@@ -133,11 +134,13 @@ Para obter mais informações, consulte [Criar um relatório de KPI](/help/quick
    1. Selecione **Estágio de Aprovação** > **Prazo**.
    1. Altere o operador para **Less Than**.
    1. Alterne **Definir data relativa** para **ON** e digite _$$TODAY_ na caixa de texto.
+
       ![exemplo de filtro de kpi vencido](assets/overdue-kpi-filter.png)
    1. Clique em **Adicionar condição**.
    1. Clique no filtro de condição vazio e em **Escolher um Campo**.
    1. Selecione **Status**.
    1. Altere o operador para **Não Contém** e digite _aprovado_ na caixa de texto.
+
       ![exemplo de filtro de kpi 2](assets/overdue-kpi-filter-2.png) vencido
 1. Clique em **Salvar** no canto superior direito da tela.
 
@@ -184,12 +187,14 @@ Para obter mais informações, consulte [Criar um relatório de KPI](/help/quick
    1. Selecione **Status**.
 
    1. Altere o operador para **Contém** e digite _aprovado_ na caixa de texto.
+
       ![exemplo de filtro de kpi concluído](assets/completed-kpi-filter.png)
    1. Clique em **Adicionar condição**.
    1. Clique em **And** para alterá-lo para **Or**.
    1. Clique no filtro de condição vazio e em **Escolher um Campo**.
    1. Selecione **Status**.
    1. Altere o operador para **Igual** e digite _revisado_ na caixa de texto.
+
       ![exemplo de filtro de kpi concluído](assets/completed-kpi-filter-2.png)
 1. Clique em **Salvar** no canto superior direito da tela.
 
@@ -234,12 +239,14 @@ Para obter mais informações, consulte [Criar um relatório de KPI](/help/quick
    1. Selecione **Status**.
 
    1. Altere o operador para **Não Contém** e digite _aprovado_ na caixa de texto.
+
       ![exemplo de filtro de kpi abandonado](assets/abandoned-kpi-filter.png)
    1. Clique em **Adicionar condição**.
    1. Clique no filtro de condição vazio e em **Escolher um Campo**.
    1. Selecione **Prazo**.
    1. Altere o operador para **Less Than** e alterne **Definir data relativa** para **ON**.
    1. Digite _$$TODAY-2w_ na caixa de texto.
+
       ![exemplo de filtro de kpi abandonado](assets/abandoned-kpi-filter-2.png)
 1. Clique em **Salvar** no canto superior direito da tela.
 
@@ -277,6 +284,7 @@ Para obter mais informações, consulte [Criar um relatório de KPI](/help/quick
    1. Clique no filtro de condição vazio e em **Escolher um Campo**.
    1. Selecione **Versão do Documento** > **Versão**.
    1. Altere o operador para **Is Not Null**.
+
       ![exemplo de filtro](assets/approvals-by-decision-chart-filter.png)
 1. Clique em **Salvar** no canto superior direito da tela.
 
@@ -315,12 +323,14 @@ Para obter mais informações, consulte [Criar um relatório de KPI](/help/quick
    1. Selecione **Estágio de aprovação** > **Participantes do estágio de aprovação** > **Data da decisão**.
 
    1. Altere o operador para **Is Null**.
+
       ![exemplo de filtro de gráfico de revisões](assets/revision-chart-filter.png)
    1. Clique em **Adicionar condição**.
    1. Clique no filtro de condição vazio e em **Escolher um Campo**.
    1. Selecione **Estágio de aprovação** > **Prazo final**.
    1. Altere o operador para **Menor que ou Igual** e alterne **Definir data relativa** para **ON**.
    1. Digite _$$TODAYem_ na caixa de texto.
+
       ![Exemplo de filtro de gráfico de revisões](assets/revision-chart-filter-2.png)
 1. Clique em **Salvar** no canto superior direito da tela.
 
@@ -394,6 +404,7 @@ Para obter mais informações sobre a criação de um relatório de tabela, cons
    1. Clique no filtro de condição vazio e em **Escolher um Campo**.
    1. Selecione **Status**.
    1. Altere o operador para **Igual** e digite _aprovação pendente_ na caixa de texto.
+
       ![exemplo de filtro de tabela de aprovação pendente](assets/pending-approval-table-filter.png)
    1. (Opcional) Adicione mais filtros conforme descrito na seção **Filtros opcionais** abaixo.
 1. Clique em **Salvar** no canto superior direito da tela.
@@ -411,6 +422,7 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
    1. Clique no filtro de condição vazio e em **Escolher um Campo**.
    1. Selecione **Versão do documento** > **Documento** > **Projeto** > **Proprietário** > digite _Nome_ na caixa de pesquisa.
    1. Altere o operador para **Igual** e escolha **Eu (usuário conectado)** para exibir projetos na Workfront onde você está marcado como o proprietário do projeto.
+
       ![exemplo de filtro de tabela de aprovação pendente](assets/pending-approvals-my-project-filter.png)
 1. Clique em **Salvar** no canto superior direito da tela.
 
@@ -420,6 +432,7 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo**.
    1. Selecione **Estágio de Aprovação** > **Participantes do Estágio de Aprovação** > **Solicitante** > digite _Nome_ na caixa de pesquisa.
    1. Altere o operador para **Igual** e escolha **Eu (usuário conectado)** para exibir projetos na Workfront onde você está marcado como o proprietário do projeto.
+
       ![exemplo de filtro de tabela de aprovação pendente](assets/pending-approvals-my-project-filter.png)
 1. Clique em **Salvar** no canto superior direito da tela.
 
@@ -489,6 +502,7 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
    1. Selecione **Estágio de Aprovação** > **Prazo**.
    1. Altere o operador para **Menor que** e alterne **Definir data relativa** para **EM**.
    1. Digite _$$TODAY_ no campo de texto.
+
       ![exemplo de filtro de tabela de aprovação vencido](assets/overdue-approval.png)
    1. (Opcional) Adicione mais filtros conforme descrito na seção **Filtros opcionais** abaixo.
 1. Clique em **Salvar** no canto superior direito da tela.
@@ -507,6 +521,7 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo**.
    1. Selecione **Versão do documento** > **Documento** > **Projeto** > **Proprietário** > digite _Nome_ na caixa de pesquisa.
    1. Altere o operador para **Igual** e escolha **Eu (Usuário conectado)** para exibir projetos na Workfront nos quais você está marcado como proprietário do projeto.
+
       ![exemplo de filtro de tabela de aprovação pendente](assets/pending-approvals-my-project-filter.png)
 1. Clique em **Salvar** no canto superior direito da tela.
 
@@ -516,6 +531,7 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo**.
    1. Selecione **Estágio de Aprovação** > **Participantes do Estágio de Aprovação** > **Solicitante** > digite _Nome_ na caixa de pesquisa.
    1. Altere o operador para **Igual** e escolha **Eu (Usuário conectado)** para exibir projetos na Workfront nos quais você está marcado como proprietário do projeto.
+
       ![exemplo de filtro de tabela de aprovação pendente](assets/pending-approvals-my-project-filter.png)
 1. Clique em **Salvar** no canto superior direito da tela.
 
@@ -525,6 +541,7 @@ Para exibir informações mais específicas dependendo do caso de uso, é possí
    1. Clique no filtro de condição vazio, clique em **Escolher um Campo**.
    1. Selecione **Estágio de Aprovação** > **Participantes do Estágio de Aprovação** > **Equipe do Participante** > digite _Nome_ na caixa de pesquisa.
    1. Altere o operador para **Igual** e escolha **Minhas equipes padrão (Usuário conectado)** ou **Minhas outras equipes (Usuário conectado)** para exibir os projetos atribuídos à sua equipe padrão ou a outras equipes nas quais você está.
+
       ![exemplo de filtro de tabela de aprovação pendente](assets/approvals-ive-submitted-filter.png)
 1. Clique em **Salvar** no canto superior direito da tela.
 +++
