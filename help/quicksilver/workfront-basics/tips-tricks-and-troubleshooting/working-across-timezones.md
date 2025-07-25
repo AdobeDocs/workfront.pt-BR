@@ -5,9 +5,9 @@ title: Trabalhar em fusos horários
 description: Pode ser útil entender como o  [!DNL Adobe Workfront] usa fusos horários para calcular campos de tempo para objetos e horários em outras áreas, como emails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -58,25 +58,36 @@ O fuso horário da instância [!DNL Workfront] de sua organização geralmente �
 
 ### Seu perfil de usuário {#your-user-profile}
 
-O fuso horário em seu perfil de usuário deve ser configurado para o local onde você trabalha. Isso determina o seguinte:
+O campo Fuso horário no perfil do usuário controla a hora mostrada nas mensagens de email de saída.
+
+O fuso horário também afeta o que é exibido em um relatório de calendário PTO.
+
+Para obter informações sobre como configurar o fuso horário no seu perfil de usuário, consulte [Configurar minhas configurações](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+
+Para obter informações sobre como um administrador do [!DNL Workfront] (ou alguém com acesso de [!UICONTROL Edição] aos usuários) pode configurar o fuso horário em um perfil de usuário, consulte [Editar perfil de um usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+### Fuso horário do seu navegador
+
+O fuso horário no navegador deve ser configurado para o local em que você trabalha. Isso determina o seguinte:
 
 <!--
 * The time shown in your outgoing [!DNL Workfront] email messages
 [NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
 -->
-* Horários para um objeto no qual você trabalha, como horário de início e término
+* Horários para um objeto no qual você trabalha, como horário de início e término.
 
-  Se usuários em vários fusos horários forem atribuídos a um objeto, o [!DNL Workfront] converterá os horários do objeto para todos os envolvidos, usando o fuso horário configurado em cada perfil de usuário.
+  Se usuários em vários fusos horários forem atribuídos a um objeto, o [!DNL Workfront] converterá os horários do objeto para todos os envolvidos, usando o fuso horário configurado no navegador de cada usuário.
 
-  **Exemplo:** na zona EST (Horário Padrão da Costa Leste) onde você trabalha, você define uma tarefa para começar às 16h e a atribui aos usuários que trabalham na zona PST (Horário Padrão do Pacífico). Para esses usuários, a hora de início é exibida como 13h. Se fosse exibido como 16h, começariam a trabalhar nele com três horas de atraso.
+  **EXEMPLO**
+Na zona Horário Padrão da Costa Leste (EST) onde você trabalha, você define uma tarefa para começar às 16h20 e a atribui aos usuários que trabalham na zona Horário Padrão do Pacífico (PST). :00 Para esses usuários, a hora de início é exibida como 1:00 PM. Se fosse exibido como 4:00 PM, eles começariam a trabalhar nele com três horas de atraso.
 
-  Se o criador do objeto não observar a diferença entre os fusos horários dos atribuídos e fizer os ajustes necessários ao definir os tempos do objeto, ou se os atribuídos não observarem essa diferença, pode ser difícil obter o tempo correto enquanto todos colaboram no objeto.
+  Se o criador do objeto não souber a diferença entre os fusos horários dos atribuídos e não fizer os ajustes necessários ao definir os tempos do objeto, ou se os atribuídos não souberem essa diferença, pode ser difícil obter o tempo correto enquanto todos colaboram no objeto.
 
-  **Exemplo:** configure uma tarefa de um dia para começar às 9h EST, esquecendo que alguns usuários na tarefa trabalham na zona PST. Para eles, a hora de início é 6:00. Como eles não começarão a trabalhar nisso até às 9:00 da hora (meio-dia, horário de vocês), a tarefa começa e termina com três horas de atraso.
+  **EXEMPLO**
 
-Para obter informações sobre como configurar o fuso horário no seu perfil de usuário, consulte [Configurar minhas configurações](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+  Você configura uma tarefa de um dia para começar às 9:00 AM EST, esquecendo que alguns usuários na tarefa trabalham na zona PST. Para eles, a hora de início é 6:00 AM. Como eles não começarão a trabalhar nela até o dia 9:00 de cada vez (meio-dia, horário local), a tarefa será iniciada e finalizada com três horas de atraso.
 
-Para obter informações sobre como um administrador do [!DNL Workfront] (ou alguém com acesso de [!UICONTROL Edição] aos usuários) pode configurar o fuso horário em um perfil de usuário, consulte [Editar perfil de um usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+A configuração do fuso horário é diferente entre os navegadores. Para obter mais informações, consulte a documentação de cada navegador ou informações de ajuda.
 
 ## Como você pode facilitar para os usuários trabalharem em fusos horários
 
@@ -110,7 +121,7 @@ Os administradores do [!DNL Workfront] criam cronogramas separados para cada fus
 >[!BEGINSHADEBOX]
 
 **EXEMPLO:**
-Um usuário EST é atribuído a uma tarefa de um dia agendada para iniciar às 9h00 PST, que é meio-dia EST. Como o usuário EST tem apenas 2 horas de trabalho restantes para o dia, a data de conclusão da tarefa se estende por cerca de 6 horas no próximo dia útil.
+Um usuário EST é atribuído a uma tarefa de um dia agendada para iniciar às 9:00 AM PST, que é meio-dia EST. Como o usuário EST tem apenas 2 horas de trabalho restantes para o dia, a data de conclusão da tarefa se estende por cerca de 6 horas no próximo dia útil.
 
 
 >[!ENDSHADEBOX]

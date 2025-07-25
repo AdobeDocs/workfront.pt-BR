@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d8ac4d94-28b5-41d6-acb8-259696897c8a
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '486'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ Você pode exportar registros e suas informações da exibição de tabela para 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Padrão </p>
+   <td><p> Leve ou superior </p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -77,8 +77,8 @@ Você pode exportar registros e suas informações da exibição de tabela para 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>   <p>Gerenciar permissões para uma exibição</p>  
-   <p>Permissões de exibição para uma exibição para alterar temporariamente as configurações de exibição, duplicá-las ou exportá-las.</p> </td> 
+   <td>   <p>Exibir ou ter permissões mais altas para uma exibição</p>  
+   </td> 
   </tr> 
 </tbody> 
 </table>
