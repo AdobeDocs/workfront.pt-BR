@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
 workflow-type: tm+mt
-source-wordcount: '3721'
+source-wordcount: '3723'
 ht-degree: 4%
 
 ---
@@ -137,7 +137,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
 
    Para editar informações na seção Detalhes, faça o seguinte:
 
-   1. (Opcional) Clique no ícone ![](assets/collapse-all-icon.png) de **Recolher Tudo** no canto superior direito para recolher todas as áreas.
+   1. (Opcional) Clique no ícone **de** Recolher Tudo![](assets/collapse-all-icon.png) no canto superior direito para recolher todas as áreas.
    1. (Opcional e condicional) Quando uma área for recolhida, clique na **seta apontando para a direita** ![](assets/right-pointing-arrow.png) ao lado de cada área para expandir a área que você deseja editar.
    1. Para obter mais informações sobre como editar informações na guia Detalhes da tarefa, consulte os seguintes artigos:
 
@@ -360,7 +360,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
       <li> <p>O número de recursos atribuídos a uma tarefa </p> </li> 
       <li> <p>O esforço total necessário para concluir a tarefa </p> </li> 
       <li> <p> A duração total da tarefa. </p> </li> 
-       </ul> <p>O administrador do Workfront ou um administrador de grupo seleciona a configuração padrão Tipo de duração para as tarefas em seu sistema ou grupo. Para obter informações sobre como definir padrões de projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto do sistema</a>. </p> <p>Os Tipos de duração permitem definir atribuições de recursos consistentes com base nas necessidades da tarefa. Para obter mais informações sobre o Tipo de Duração de uma tarefa, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>. </p> <p>Selecione entre as seguintes opções: </p> 
+       </ul> <p>O administrador do Workfront ou um administrador de grupo seleciona a configuração padrão Tipo de duração para as tarefas em seu sistema ou grupo. Para obter informações sobre como definir padrões de projetos, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configurar preferências de tarefas e problemas em todo o sistema</a>. </p> <p>Os Tipos de duração permitem definir atribuições de recursos consistentes com base nas necessidades da tarefa. Para obter mais informações sobre o Tipo de Duração de uma tarefa, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>. </p> <p>Selecione entre as seguintes opções: </p> 
        <ul> 
       <li> <p>Atribuição Calculada </p> </li> 
       <li> <p> Trabalho Calculado </p> </li> 

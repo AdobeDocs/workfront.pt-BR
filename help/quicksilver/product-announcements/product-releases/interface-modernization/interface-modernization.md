@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
 workflow-type: tm+mt
 source-wordcount: '5853'
 ht-degree: 0%
@@ -357,7 +357,7 @@ Clientes específicos podem visualizar essa alteração acessando a seção Proj
 
 ### Nova aparência para a caixa &quot;Salvar como modelo&quot;
 
-**Versão de pré-visualização: 12 de junho de 2025; Versão de produção: 19 de junho de 2025
+**Versão de visualização: 12 de junho de 2025; Versão de produção: 19 de junho de 2025**
 
 Atualizamos a aparência da caixa &quot;Salvar como modelo&quot;, que é exibida ao salvar um projeto como modelo. O novo design inclui uma interface simplificada, em que todas as seções são exibidas em um formulário coeso no qual você pode navegar usando links no painel esquerdo. O novo design corresponde a outras áreas e outros objetos no aplicativo.
 
@@ -515,7 +515,6 @@ Atualizamos a página do contrato de licença com um design mais moderno e consi
 
 +++
 
--->
 
 ## Atualizações de interface feitas no segundo trimestre
 
