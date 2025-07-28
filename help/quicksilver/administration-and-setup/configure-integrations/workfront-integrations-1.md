@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -84,6 +84,21 @@ O [!DNL Workfront] fornece as seguintes integrações internas sem custo adicion
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Express</p> </td> 
+   <td> 
+    <ul> 
+     <li>Integre a experiência de comprovação com o Adobe Express. Com essa integração, você pode 
+     <ul>
+     <li>Use modelos de aprovação do Workfront para definir workflows de aprovação. </li>
+     <li>Revise o conteúdo de rascunho do Adobe Express no visualizador de provas. </li>
+     <li>Consulte decisões de revisão no Adobe Express para aprovação final e publicação. </li>
+     </ul>
+   </ul>
+     <p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Introdução à integração do Adobe Express e do Workfront Proof</a>.</p> 
+     </td>  <td><ul><li>Você deve ter licenças para o Workfront e o Adobe Express.</li><li>O Workfront e o Adobe Express devem ser implantados na mesma Organização IMS.</li></ul></td> 
+   <td>A integração deve ser habilitada para suas contas pela Equipe de produto do Adobe. Para obter mais informações, consulte <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Introdução à integração do Adobe Express e do Workfront Proof</a>.</td> 
+  </tr>
  <tr> 
    <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
    <td> 
@@ -113,7 +128,7 @@ O [!DNL Workfront] fornece as seguintes integrações internas sem custo adicion
      <li>After Effects </li>
      </ul>
      <li><p>Baixe/instale a partir de <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Para obter informações e instruções, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar o plug-in [!DNL Adobe Workfront] para [!DNL Creative Cloud] aplicativos</a></p> 
+     <p>Para obter informações e instruções, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar o plug-in [!DNL Adobe Workfront] para [!DNL Creative Cloud] aplicativos</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -264,7 +279,7 @@ O [!DNL Workfront] permite aproveitar outras integrações internas e produtos i
 
   [!DNL Adobe Workfront Fusion] vincula ações em e entre aplicativos e serviços para criar um cenário que transfere e transforma seus dados automaticamente. Ele tem conectores dedicados a muitos aplicativos, mas pode se conectar a qualquer aplicativo com uma API pública.
 
-  Para obter mais informações, consulte [[!DNL Adobe Workfront Fusion] visão geral](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Para obter mais informações, consulte [[!DNL Adobe Workfront Fusion] visão geral](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (Requer [!DNL Workfront Fusion])
