@@ -168,7 +168,7 @@ Para configurar acionadores em [!UICONTROL Salesforce]:
    1. Selecione um **[!UICONTROL Tipo]** no menu suspenso **[!UICONTROL Tipo]**.
 
       Quando qualquer **Conta
-** é designado como o **[!UICONTROL Tipo]** especificado aqui em [!DNL Salesforce], um **[!UICONTROL Projeto]** é criado em [!DNL Workfront].
+**&#x200B; é designado como o &#x200B;** [!UICONTROL Tipo] **&#x200B; especificado aqui em [!DNL Salesforce], um &#x200B;** [!UICONTROL Projeto]** é criado em [!DNL Workfront].
 
       Este campo é obrigatório.
 
