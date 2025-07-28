@@ -26,9 +26,9 @@ ht-degree: 0%
 >
 >Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
 >
->Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Google Workspace, consulte [módulos do Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [módulos do Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Google Workspace, consulte [módulos do Gmail](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [módulos do Google Calendar](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Como a privacidade do cliente é importante, a Adobe Workfront não armazena nem coleta dados de identificação do cliente que resultem da autorização de terceiros de um aplicativo de plug-in do Google. O uso do Workfront para Google Workspace e a transferência de informações recebidas das APIs do Google para qualquer outro aplicativo seguirão a [Política de dados do usuário dos Serviços de API da Google](https://developers.google.com/terms/api-services-user-data-policy), incluindo os requisitos de uso limitado.
 

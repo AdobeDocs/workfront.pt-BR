@@ -44,7 +44,7 @@ As seguintes integrações integradas estão disponíveis atualmente no Workfron
      <li>After Effects </li>
      </ul>
      <li><p>Baixe/instale a partir de <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Para obter informações e instruções, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar o plug-in [!DNL Adobe Workfront] para [!DNL Creative Cloud] aplicativos</a>.</p> </td> 
+     <p>Para obter informações e instruções, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Instalar o plug-in [!DNL Adobe Workfront] para [!DNL Creative Cloud] aplicativos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assets e Assets Essentials </p>  </p> </td> 
