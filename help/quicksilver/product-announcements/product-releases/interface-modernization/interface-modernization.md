@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
 workflow-type: tm+mt
-source-wordcount: '5853'
+source-wordcount: '5961'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Para todas as outras alterações no Adobe Workfront, consulte [Versões do prod
 
 ## Atualizações de interface para a Lista de perfis de planilha de horas em um grupo
 
-**Versão de visualização: 24 de julho de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 24 de julho de 2025; Versão de produção: 28 de julho de 2025**
 
 Atualizamos a aparência da lista Perfis de folha de horas no painel esquerdo em um grupo para corresponder a outras áreas do aplicativo.
 
@@ -50,15 +50,23 @@ O botão de exportação foi movido para o lado direito da página.
 
 Para visualizar esta alteração, acesse Configurar > Controle de alterações > Logs de auditoria.
 
-<!--## Interface updates to the Update users for SSO page in Setup
+## Atualizações de interface na página Atualizar usuários para SSO em Configuração
 
-**Preview release: July 22, 2025; Production release: To be annoounced**
+**Versão de visualização: 22 de julho de 2025; Versão de produção: 28 de julho de 2025**
 
-We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
+Atualizamos a página Atualizar usuários para SSO com um design mais moderno e consistente com outras áreas do Workfront.
 
-To view this change, go to Setup > System > Update Users For SSO-->
+Para visualizar esta alteração, acesse Configuração > Sistema > Atualizar usuários para SSO
 
 ## Projetos
+
+## Atualizações de interface para a caixa Importar arquivo do MS Project
+
+**Versão de visualização: 24 de julho de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a aparência da caixa Importar arquivo do MS Project ao importar um projeto do MS Project para corresponder ao design de outras áreas do Workfront.
+
+Para visualizar essa alteração, vá para Projetos > Novo projeto > Importar projeto MS.
 
 ## Atualização de interface para a caixa Adicionar uma Despesa de um projeto ou modelo
 
