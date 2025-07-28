@@ -7,7 +7,7 @@ description: Você deve adicionar resultados, atividades ou metas alinhadas a um
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -68,13 +68,9 @@ Considere o seguinte ao trabalhar com resultados:
 * Eles respondem à pergunta: &quot;Como saberei quando meu objetivo estiver concluído?&quot;
 * Eles são indicadores de métrica. Você pode selecionar entre as seguintes opções para indicar o progresso do resultado:
 
-  <!--
-  this might change (jira, Salesforce, etc))
-  -->
-
    * Moeda
    * Número
-   * Percentagem
+   * Porcentagem
 
 Para obter mais informações sobre resultados, consulte a lista de semelhanças entre resultados e atividades na seção [Similaridades entre resultados, atividades e projetos](#similarities-between-results-activities-and-projects) neste artigo.
 

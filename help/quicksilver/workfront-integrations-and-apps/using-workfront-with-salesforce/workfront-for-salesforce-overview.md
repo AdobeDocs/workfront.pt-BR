@@ -7,9 +7,9 @@ description: Você pode instalar o [!DNL Adobe Workfront] for Salesforce para pe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 # Visão geral das [!DNL Adobe Workfront for Salesforce]
 
 <!-- Audited: 5/2025 -->
+
+>[!IMPORTANT]
+>
+>Para fornecer integrações mais estáveis e escaláveis, estamos mudando para uma abordagem de integração moderna e flexível usando a Automação e Integração do Workfront (Fusion). Como parte desse processo de transição, a integração do Workfront para Salesforce não estará disponível após **28 de fevereiro de 2026**.
+>
+>Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Salesforce.
+>
+>Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Salesforce, consulte [módulos do Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Você pode instalar o [!DNL Adobe Workfront for Salesforce] para permitir que seus usuários do [!DNL Salesforce] enviem [!DNL Workfront] solicitações e criem projetos automaticamente sem sair do [!DNL Salesforce].
 

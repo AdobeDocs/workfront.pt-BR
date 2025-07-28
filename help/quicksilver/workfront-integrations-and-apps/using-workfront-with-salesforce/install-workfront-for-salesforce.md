@@ -2,13 +2,13 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-salesforce
 title: Instalar [!DNL Adobe Workfront] por [!DNL Salesforce]
-description: Para instalar o aplicativo antes que ele se torne disponível no [!DNL Salesforce] AppExchange, consulte Instalar [!DNL Workfront] o for Salesforce antes que ele se torne disponível no AppExchange Marketplace.
+description: Para instalar o aplicativo antes que ele se torne disponível no [!DNL Salesforce] AppExchange, consulte Instalação [!DNL Workfront] do Salesforce antes que ele se torne disponível no AppExchange Marketplace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: b088c305cbd16aea1b6b79a9f3a9c5ac326cd0b8
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1092'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,17 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Para instalar o aplicativo antes que ele se torne disponível no [!DNL Salesforce AppExchange], consulte [Instalando [!DNL Workfront for Salesforce] antes que ele se torne disponível no [!DNL AppExchange] Marketplace](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace).
+>Para fornecer integrações mais estáveis e escaláveis, estamos mudando para uma abordagem de integração moderna e flexível usando a Automação e Integração do Workfront (Fusion). Como parte desse processo de transição, a integração do Workfront para Salesforce não estará disponível após **28 de fevereiro de 2026**.
+>
+>Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Salesforce.
+>
+>Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Salesforce, consulte [módulos do Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
-Como administrador do [!DNL Salesforce] e do [!DNL Adobe Workfront], você pode instalar o [!DNL Workfront for Salesforce] para permitir que seus usuários do [!DNL Salesforce] enviem solicitações do [!DNL Workfront] e criem projetos automaticamente sem sair do Salesforce.
+Como administrador do [!DNL Salesforce] e do [!DNL Adobe Workfront], você pode instalar o [!DNL Workfront for Salesforce] para permitir que seus usuários do [!DNL Salesforce] enviem solicitações do [!DNL Workfront] e criem projetos automaticamente sem sair da Salesforce.
 
 Para obter uma compreensão geral sobre o que você pode esperar ao instalar o [!DNL Workfront for Salesforce], consulte [[!DNL Adobe Workfront for Salesforce] visão geral](../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md).
 
@@ -61,7 +67,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    * Criar [!DNL Workfront] solicitações de [!DNL Salesforce]
    * Exibir [!DNL Workfront] solicitações ou projetos no Salesforce
 
-## Instalando [!DNL Workfront for Salesforce] {#installing-workfront-for-salesforce}
+## Instalando [!DNL Workfront for Salesforce]  {#installing-workfront-for-salesforce}
 
 Você precisa ser um [!DNL Salesforce] e um administrador do sistema [!DNL Workfront] para instalar e configurar o [!DNL Workfront for Salesforce].
 
@@ -123,7 +129,7 @@ Para instalar o aplicativo antes que ele esteja disponível:
 1. Ir para **Instalação.**
 1. Na seção **Build**, clique em **AppExchange Marketplace**.
 
-1. Na caixa **Pesquisar Aplicativos de AppExchange**, digite **Workfront**.
+1. Na caixa **Pesquisar Aplicativos AppExchange**, digite **Workfront**.
 
 1. Clique no aplicativo Workfront ao encontrá-lo e clique em **Obter agora**.
 1. Clique em **[!UICONTROL Instalar em Produção]** para instalar o aplicativo [!DNL Workfront] no ambiente de Produção [!DNL Salesforce]. (recomendado)

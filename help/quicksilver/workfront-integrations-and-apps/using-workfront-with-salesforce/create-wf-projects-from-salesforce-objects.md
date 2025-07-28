@@ -2,18 +2,28 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-salesforce
 title: Criar [!DNL Adobe Workfront] projetos de [!DNL Salesforce] objetos
-description: Após instalar o [!DNL Adobe Workfront] for Salesforce, você poderá definir acionadores que criam projetos [!DNL Workfront] quando determinados critérios forem atendidos em [!DNL Salesforce] Oportunidades e Contas.
+description: Após instalar o [!DNL Adobe Workfront] for Salesforce, você poderá definir acionadores que criem [!DNL Workfront] projetos quando determinados critérios forem atendidos em [!DNL Salesforce] Oportunidades e Contas.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1581'
 ht-degree: 3%
 
 ---
 
 # Criar [!DNL Adobe Workfront] projetos a partir de [!DNL Salesforce] objetos
+
+>[!IMPORTANT]
+>
+>Para fornecer integrações mais estáveis e escaláveis, estamos mudando para uma abordagem de integração moderna e flexível usando a Automação e Integração do Workfront (Fusion). Como parte desse processo de transição, a integração do Workfront para Salesforce não estará disponível após **28 de fevereiro de 2026**.
+>
+>Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Salesforce.
+>
+>Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Salesforce, consulte [módulos do Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Depois de instalar o [!DNL Adobe Workfront] for Salesforce, você poderá definir acionadores que criam projetos [!DNL Workfront] quando determinados critérios forem atendidos em [!DNL Salesforce] [!UICONTROL Oportunidades] e [!UICONTROL Contas].
 
@@ -86,9 +96,9 @@ O pode acionar a criação de um projeto [!DNL Workfront]. Isso inclui [!DNL Sal
 
 ### Configurar acionadores {#configuring-triggers}
 
-Depois de configurar os acionadores, o processo de criação de projetos do [!DNL Workfront] será habilitado para as estruturas do [!UICONTROL Salesforce Classic] ou do [!DNL Lightning Experience].
+Depois de configurar os acionadores, o processo de criação de projetos [!DNL Workfront] será habilitado para as estruturas do [!UICONTROL Salesforce Classic] ou [!DNL Lightning Experience].
 
-Para configurar acionadores no [!UICONTROL Salesforce]:
+Para configurar acionadores em [!UICONTROL Salesforce]:
 
 1. Faça logon em [!DNL Salesforce] como administrador do sistema.
 1. (Condicional) Em [!DNL Salesforce Classic], clique em **[!UICONTROL Configuração]** e, na seção **[!UICONTROL Compilação]**, expanda **[!UICONTROL Raio]**.
@@ -142,7 +152,7 @@ Para configurar acionadores no [!UICONTROL Salesforce]:
 
       Este campo é obrigatório.
 
-      O projeto criado quando um novo produto é adicionado à oportunidade [!DNL Salesforce] é colocado no mesmo Portfolio ou Programa selecionado para a oportunidade.
+      O projeto criado quando um novo produto é adicionado à oportunidade [!DNL Salesforce] é colocado na mesma Portfolio ou Programa selecionado para a oportunidade.
 
       >[!IMPORTANT]
       >
@@ -158,11 +168,11 @@ Para configurar acionadores no [!UICONTROL Salesforce]:
    1. Selecione um **[!UICONTROL Tipo]** no menu suspenso **[!UICONTROL Tipo]**.
 
       Quando qualquer **Conta
-**&#x200B; é designado como o &#x200B;** [!UICONTROL Tipo] **&#x200B; especificado aqui em [!DNL Salesforce], um &#x200B;** [!UICONTROL Projeto]** é criado em [!DNL Workfront].
+** é designado como o **[!UICONTROL Tipo]** especificado aqui em [!DNL Salesforce], um **[!UICONTROL Projeto]** é criado em [!DNL Workfront].
 
       Este campo é obrigatório.
 
-   1. (Opcional) Comece digitando o nome de um **[!UICONTROL Portfolio]** ou **[!UICONTROL Programa]** onde deseja que o projeto seja colocado em [!DNL Workfront] no campo **[!UICONTROL Portfolio ou Programa]** e selecione-o quando ele aparecer na lista.
+   1. (Opcional) Comece digitando o nome de um **[!UICONTROL Portfolio]** ou **[!UICONTROL Programa]** onde deseja colocar o projeto em [!DNL Workfront] no campo **[!UICONTROL Portfolio ou Programa]** e selecione-o quando ele aparecer na lista.
 
       Se você não especificar um Portfolio ou um Programa, o novo projeto será criado e adicionado à lista **[!UICONTROL Projetos que possuo]** do usuário que fez logon em [!DNL Workfront] pelo [!DNL Salesforce]. O usuário também é o Proprietário do novo projeto.
 
@@ -215,7 +225,7 @@ que os gerou.
    Você pode exibir as seguintes informações sobre os projetos criados pela integração:
 
    * Nome do Projeto
-   * Número de Referência
+   * Número de referência
    * Data de Entrada
    * Nome do proprietário
    * Status
@@ -226,7 +236,7 @@ que os gerou.
      Quando essas informações forem atualizadas em [!DNL Workfront], você poderá ver os campos atualizados nessa lista.
 
 1. (Opcional) Clique no nome de um projeto para abri-lo no Workfront.
-1. (Opcional) Clique em [!UICONTROL **[!UICONTROL Ir para o Salesforce]**] na área [!UICONTROL Detalhes do projeto] ou no cabeçalho do projeto para acessar a [!UICONTROL Oportunidade] ou a Conta
+1. (Opcional) Clique em [!UICONTROL **[!UICONTROL Ir para Salesforce]**] na área [!UICONTROL Detalhes do Projeto] ou no cabeçalho do projeto para acessar a [!UICONTROL Oportunidade] ou a Conta
 onde o projeto se originou. O administrador do sistema ou do grupo deve adicionar o campo [!UICONTROL Integrações] ao modelo de layout para encontrá-lo no cabeçalho do projeto.
 
    >[!NOTE]

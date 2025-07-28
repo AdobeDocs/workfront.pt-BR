@@ -6,14 +6,24 @@ description: Após instalar [!DNL Adobe Workfront] por [!DNL Salesforce], you ca
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 1%
+source-wordcount: '632'
+ht-degree: 0%
 
 ---
 
 # Enviar [!DNL Adobe Workfront] solicitações de [!DNL Salesforce] objetos
+
+>[!IMPORTANT]
+>
+>Para fornecer integrações mais estáveis e escaláveis, estamos mudando para uma abordagem de integração moderna e flexível usando a Automação e Integração do Workfront (Fusion). Como parte desse processo de transição, a integração do Workfront para Salesforce não estará disponível após **28 de fevereiro de 2026**.
+>
+>Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Salesforce.
+>
+>Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Salesforce, consulte [módulos do Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Depois de instalar o [!DNL Adobe Workfront for Salesforce], você pode enviar [!DNL Workfront] solicitações de [!DNL Salesforce] Oportunidades e Contas. Esta funcionalidade existe nas estruturas [!DNL Classic] e [!DNL Lightning Experience].
 
@@ -93,7 +103,7 @@ Para enviar uma solicitação [!DNL Workfront] de uma Oportunidade ou Conta [!DN
    Você pode exibir as seguintes informações sobre as solicitações submetidas:
 
    * Nome das Solicitações (na coluna [!UICONTROL Assunto])
-   * Número de Referência
+   * Número de referência
    * Tipo de requisição
    * Status
    * Enviado na Data

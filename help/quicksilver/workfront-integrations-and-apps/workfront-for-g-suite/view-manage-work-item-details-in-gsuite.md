@@ -7,18 +7,28 @@ description: Você pode exibir e gerenciar os detalhes de um item de trabalho se
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # Exibir e gerenciar detalhes do objeto [!DNL Adobe Workfront] de [!DNL Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->A versão mais recente do plug-in do Adobe Workfront para Google foi lançada em 26 de junho de 2023.
+>Para fornecer integrações mais estáveis e escaláveis, estamos mudando para uma abordagem de integração moderna e flexível usando a Automação e Integração do Workfront (Fusion). Como parte desse processo de transição, a seguinte funcionalidade do Workfront para Google Workspace não estará disponível após **28 de fevereiro de 2026**:
+>
+>* Acesso à funcionalidade Google Workspace no Workfront
+>
+>* Exibir e gerenciar tarefas do Workfront no Gmail ou no painel do site Calendário do Google
+>
+>Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
+>
+>Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Google Workspace, consulte [módulos do Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [módulos do Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Você pode exibir e gerenciar os detalhes de um item de trabalho sem sair de [!DNL Google Workspace]. Por exemplo, você pode ler a descrição de uma tarefa, exibir seu objeto pai, alterar seu status e marcá-la como concluída, tudo dentro de [!DNL Adobe Workfront for Google Workspace].
 

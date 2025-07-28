@@ -3,22 +3,32 @@ product-area: workfront-integrations
 keywords: google,doc,documento,planilha,slide
 navigation-topic: workfront-for-g-suite
 title: Gerenciar [!DNL Adobe Workfront] detalhes de notificação do Google Workspace
-description: No Google Workspace, ao abrir um email de notificação que o Adobe [!DNL Workfront] tenha enviado, você poderá exibir os detalhes do item de trabalho associado e responder sem sair da Caixa de entrada. Se as ações estiverem disponíveis, como a aprovação de uma solicitação, você poderá executar essas ações diretamente do Workfront para o Google Workspace.
+description: No Google Workspace, ao abrir um email de notificação enviado pelo Adobe [!DNL Workfront] , você poderá exibir os detalhes do item de trabalho associado e responder sem sair da Caixa de Entrada. Se as ações estiverem disponíveis, como a aprovação de uma solicitação, você poderá executar essas ações diretamente do Workfront para o Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 1%
+source-wordcount: '576'
+ht-degree: 0%
 
 ---
 
 # Gerenciar detalhes de notificação de [!DNL Adobe Workfront] de [!DNL Google Workspace]
 
->[!NOTE]
+>[!IMPORTANT]
 >
->A versão mais recente do plug-in do Adobe Workfront para Google foi lançada em 26 de junho de 2023.
+>Para fornecer integrações mais estáveis e escaláveis, estamos mudando para uma abordagem de integração moderna e flexível usando a Automação e Integração do Workfront (Fusion). Como parte desse processo de transição, a seguinte funcionalidade do Workfront para Google Workspace não estará disponível após **28 de fevereiro de 2026**:
+>
+>* Acesso à funcionalidade Google Workspace no Workfront
+>
+>* Exibir e gerenciar tarefas do Workfront no Gmail ou no painel do site Calendário do Google
+>
+>Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
+>
+>Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Google Workspace, consulte [módulos do Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [módulos do Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Em [!DNL Google Workspace], quando você abre um email de notificação enviado por [!DNL Adobe Workfront], é possível exibir os detalhes do item de trabalho associado e responder sem sair da [!UICONTROL Caixa de entrada]. Se ações estiverem disponíveis, como a aprovação de uma solicitação, você poderá executar essas ações diretamente de [!DNL Workfront for Google Workspace].
 

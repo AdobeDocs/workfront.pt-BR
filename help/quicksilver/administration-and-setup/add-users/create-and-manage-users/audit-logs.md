@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1523'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,7 @@ O sistema gera uma entrada de log de Nível de acesso quando um usuário executa
 * Altera um nível de acesso:
 
    * Modifica o tipo de licença
-   * Altera permissões de projetos, tarefas, problemas, Portfolio, programas, relatórios, documentos, usuários ou modelos
+   * Altera permissões de projetos, tarefas, problemas, portfólios, programas, relatórios, documentos, usuários ou modelos
 
      >[!NOTE]
      >
@@ -101,7 +101,7 @@ O sistema gera uma entrada de log de Nível de acesso quando um usuário executa
 
 ### Regras de negócios
 
-O Business Rules só está disponível para clientes que compraram um Plano Ultimate Workfront. Para obter mais informações, consulte [Criar e editar regras de negócios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+O Business Rules só está disponível para clientes que compraram um Plano do Ultimate Workfront. Para obter mais informações, consulte [Criar e editar regras de negócios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 O sistema gera uma entrada de log de auditoria da Regra de Negócios quando um usuário realiza uma das seguintes ações:
 
@@ -257,7 +257,7 @@ Para obter mais informações sobre como configurar funções de trabalho, consu
 O sistema gera uma entrada de log de auditoria de Tentativa de login quando um usuário executa uma das seguintes ações:
 
 * Faz logon, logout ou falha em uma tentativa de logon no Workfront (em um navegador e no aplicativo móvel)
-* Faz logon, logout ou falha em uma tentativa de logon em qualquer integração do Workfront (como Workfront para Slack e Workfront para Salesforce)
+* Faz logon, logout ou falha em uma tentativa de logon em qualquer integração do Workfront (como Workfront para Slack)
 * Faz logon ou logout da API do Workfront
 
 Os logs de tentativa de logon não registram quando um administrador do Workfront usa o recurso &quot;Login como&quot;.
