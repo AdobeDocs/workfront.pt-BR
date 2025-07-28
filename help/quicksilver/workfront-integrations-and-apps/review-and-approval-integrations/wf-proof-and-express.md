@@ -90,7 +90,7 @@ Quando um modelo expresso for remisturado, uma aprovação será necessária ant
 
 Os usuários devem ter uma licença Standard Workfront para solicitar aprovação da Adobe Express.
 
-Saiba como [obter aprovação em designs](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Saiba como [obter aprovação em designs](https://helpx.adobe.com/br/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Modelos Remix Express e enviar para revisão e aprovação
