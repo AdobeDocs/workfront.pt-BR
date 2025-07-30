@@ -5,9 +5,9 @@ description: Você pode usar a IA para preencher automaticamente os campos de so
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: a3e93311277bc5b68063e0ec1cbdcce3a40eb3dd
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->No momento, essa funcionalidade faz parte de um beta fechado. Para ativar essa funcionalidade, entre em contato com sargism@adobe.com.
+>No momento, essa funcionalidade faz parte de um beta fechado. Para habilitar esta funcionalidade, contate `sargism@adobe.com`.
 >
 >Para se qualificar para o beta fechado, sua organização deve atender aos requisitos para usar o Workfront AI Assistant. Para obter detalhes, consulte [Pré-requisitos do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
@@ -25,6 +25,8 @@ A IA pode ajudar a preencher automaticamente os campos de solicitação. Ele pod
 Você pode aprovar ou rejeitar essas sugestões antes de enviar a solicitação.
 
 O preenchimento automático não substitui nenhum campo já preenchido.
+
+Os usuários não recebem sugestões de dados aos quais, de outra forma, não teriam acesso.
 
 ## Obter sugestões ao preencher o formulário
 
@@ -162,4 +164,12 @@ Você pode carregar um documento para ser aplicado a todo o formulário ou a uma
    Ou
 
    Selecione **Aceitar tudo** ou **Rejeitar tudo** na parte superior da página para aceitar ou rejeitar todas as sugestões.
+
+## Solução de problemas
+
+Se você não estiver recebendo as sugestões esperadas, talvez seja devido a um dos seguintes motivos:
+
+* Você deve ter pelo menos um mês de dados de solicitação no sistema para que ele possa sugerir valores de campo de solicitações anteriores.
+* Um item de dados de solicitação deve estar no sistema por mais de 24 horas antes de poder ser sugerido em outra solicitação.
+* Talvez você não tenha seguido as medidas de proteção de carregamento de documento ao carregar um documento do qual extrair sugestões. Para obter mais informações, consulte [Medidas de proteção para o carregamento de documentos](#document-upload-guardrails) neste artigo.
 
