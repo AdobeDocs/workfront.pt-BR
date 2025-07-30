@@ -3,10 +3,10 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Experiência unificada da Adobe para  [!DNL Workfront]
 description: Acessar o  [!DNL Workfront] por meio do Adobe Experience Cloud proporciona uma experiência perfeita e unificada para gerenciar todos os seus aplicativos Adobe.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: e292b54c4488ac12e1af5719117cf6c3cf3392a7
+source-git-commit: bd34fe3404e590e74ecd666c039f78c0cc0d72e7
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 0%
@@ -125,7 +125,7 @@ Se sua organização usar um aplicativo separado para gerenciar senhas, você al
 
 Se a sua senha for gerenciada por [!DNL Adobe], você poderá alterá-la em sua conta da Adobe.
 
-[Consulte este artigo para alterar sua senha do Adobe.](https://helpx.adobe.com/br/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Consulte este artigo para alterar sua senha do Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Para obter mais informações sobre como alterar sua senha, entre em contato com o administrador.
 

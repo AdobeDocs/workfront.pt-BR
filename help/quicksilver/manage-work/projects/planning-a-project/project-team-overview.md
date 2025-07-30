@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Visão geral da equipe do projeto
-description: Os usuários associados a um projeto em alguma capacidade compõem a equipe do projeto. Os usuários listados na área Pessoas de um projeto são os usuários que compõem a equipe do projeto.
+description: Os usuários associados a um projeto em alguma capacidade compõem a equipe do projeto. Os usuários listados na área Pessoas de um projeto ou modelo são os usuários que compõem a equipe do projeto.
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 0%
+source-wordcount: '450'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 Uma equipe de projeto consiste em usuários associados a um projeto em alguma capacidade. Os usuários listados na área Pessoas de um projeto formam a equipe do projeto. Por exemplo, os usuários atribuídos para trabalhar no projeto ou o proprietário do projeto fazem parte da equipe do projeto.
 
+Os usuários associados ao trabalho em um modelo de projeto ou ao proprietário ou patrocinador do modelo fazem parte da equipe futura do projeto depois que o projeto é criado usando o modelo.
+
 ## Membros da Equipe do Projeto
 
 Você pode atribuir usuários a uma equipe de projeto manual ou automaticamente. Para obter mais informações, consulte a seção Adicionar usuários a uma Equipe do Projeto no artigo [Gerenciar a Equipe do Projeto](../../../manage-work/projects/planning-a-project/manage-project-team.md).
@@ -28,7 +30,13 @@ Quando você adiciona usuários manualmente à Equipe do projeto, eles recebem p
 
 ## Notificações para membros da equipe do projeto
 
-Dependendo das notificações por email ativadas pelo administrador do Adobe Workfront, os usuários de uma equipe de projeto são notificados sobre várias ações em um projeto. Para obter mais informações sobre como habilitar notificações por email, consulte [Configurar notificações de eventos para todos no sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Dependendo das notificações por email ativadas pelo administrador do Adobe Workfront, os usuários de uma equipe de projeto são notificados sobre várias ações em um projeto.
+
+Para obter mais informações, consulte também os seguintes artigos:
+
+* [Tipos de notificação de eventos](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+
+* [Configurar notificações de eventos para todos no sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 
 >[!NOTE]
 >

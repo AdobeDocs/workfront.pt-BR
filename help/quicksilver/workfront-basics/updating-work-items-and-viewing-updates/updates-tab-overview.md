@@ -7,9 +7,9 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 4%
 
 ---
@@ -322,7 +322,7 @@ Considere o seguinte ao visualizar atualizações para usuários e equipes:
 
    * Adição, remoção e outras atualizações de documentos
    * Adição de hora, remoção, adição em nome de e outras atualizações de entrada de hora
-   * Notas, atualizações de campos personalizados
+   * Atualizações em campos personalizados
    * Atualizações do perfil do usuário (atualizações do avatar do usuário, número de celular, Fale comigo sobre o campo, Título)
    * Adição do usuário, remoção, alteração no nível de acesso, alterações nos campos de usuário incorporados
    * Informações financeiras de tarefas e projetos.

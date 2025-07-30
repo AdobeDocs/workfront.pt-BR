@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 0babf2c4028ee0c45258ec3490bab336fd05a68b
+source-git-commit: bd34fe3404e590e74ecd666c039f78c0cc0d72e7
 workflow-type: tm+mt
-source-wordcount: '13278'
+source-wordcount: '13327'
 ht-degree: 2%
 
 ---
@@ -209,7 +209,6 @@ ht-degree: 2%
          * [21.1 Outras melhorias](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Atividade de versão do Adobe Workfront Planning{#planning-release-activity}
          * [Atividade de versão do Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-
            [Atividade da versão do quarto trimestre de 2025 para o Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Atividade da versão do terceiro trimestre de 2025 para o Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Atividade da versão do segundo trimestre de 2025 para o Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
@@ -2119,6 +2118,11 @@ ht-degree: 2%
       * [Gerenciar preferências de notificação do Adobe Workfront Planning](planning/notifications/manage-notification-preferences.md)
       * [Gerenciar notificações por email do Adobe Workfront Planning](planning/notifications/manage-planning-email-notifications.md)
       * [Gerenciar notificações no aplicativo do Adobe Workfront Planning](planning/notifications/manage-planning-in-app-notifications.md)
+   * Adobe Workfront Planning e Gen Studio para Integração de Marketing de Desempenho {#planning-and-genstudio-integration}
+      * [Integração do Adobe Workfront Planning e do Adobe GenStudio for Performance Marketing: índice do artigo](planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)
+      * [Introdução à integração do Workfront Planning e do GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
+      * [Gerenciar o espaço de trabalho do GenStudio no Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
+      * [Promover um espaço de trabalho do Workfront Planning para o GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
 * Integrações do Adobe Workfront {#adobe-workfront-integrations}
    * [Integrações do Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
    * [Visão geral das integrações integradas do Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)

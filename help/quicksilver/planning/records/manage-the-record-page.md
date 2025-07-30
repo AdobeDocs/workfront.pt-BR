@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
 workflow-type: tm+mt
-source-wordcount: '2115'
+source-wordcount: '2133'
 ht-degree: 1%
 
 ---
@@ -264,11 +264,11 @@ Considere o seguinte ao adicionar uma página Registros conectados a um registro
 
 * Você pode adicionar uma página Registros conectados a um registro depois de conectar tipos de registro ou de objeto ao tipo de registro a partir da exibição de tabela de um tipo de registro.
 
-* Não é possível adicionar uma página Registros conectados à área de visualização de um registro.
+* Não é possível adicionar uma página Registros conectados à área de visualização de um registro. <!--take this out when we release connected record pages to the record preview area-->
 
 * As páginas de registros conectados exibem somente os objetos ou registros conectados de um tipo de objeto ou registro em uma exibição de tabela. A página não exibe todos os registros desse tipo na exibição de tabela.
 
-* Depois de adicionar uma página Registros conectados a um registro, a guia Página fica visível na área de visualização do registro, mas fica em branco. Você deve ir para a página inteira para ver a exibição de tabela do registro conectado. <!--this might have changed? check and take disclaimer out-->
+* Depois de adicionar uma página Registros conectados a um registro, a guia Página fica visível na área de visualização do registro, mas fica em branco. Você deve ir para a página inteira para ver a exibição de tabela do registro conectado. &lt;!—isso mudará com o lançamento de páginas conectadas para a área de visualização— verifique e retire o aviso de isenção de responsabilidade—>
 
 * Você pode adicionar páginas Registros conectados para os seguintes tipos de registro ou objeto conectados:
 
@@ -279,12 +279,20 @@ Considere o seguinte ao adicionar uma página Registros conectados a um registro
   >
   >   Não é possível adicionar uma página Registros conectados para registros conectados do AEM Assets.
 
-
 Para adicionar uma página Registros conectados:
+
+<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+
+1. Click the name of the record to open it. 
+1. Click **Add page** from one of the following areas: 
+
+   * The record's preview window
+   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
+
+-->
 
 1. Em uma exibição de página de registro, clique no nome de um registro para abri-lo e no ícone **Abrir em nova guia** ![Abrir detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) no canto superior direito da página de visualização.
 1. Clique em **Adicionar página**.
-
 
    A caixa **Criar página** é aberta.
 
