@@ -125,7 +125,7 @@ Se sua organização usar um aplicativo separado para gerenciar senhas, você al
 
 Se a sua senha for gerenciada por [!DNL Adobe], você poderá alterá-la em sua conta da Adobe.
 
-[Consulte este artigo para alterar sua senha do Adobe.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Consulte este artigo para alterar sua senha do Adobe.](https://helpx.adobe.com/br/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 Para obter mais informações sobre como alterar sua senha, entre em contato com o administrador.
 
