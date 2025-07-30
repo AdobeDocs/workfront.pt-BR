@@ -5,9 +5,9 @@ description: Você pode usar a IA para preencher automaticamente os campos de so
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: b0454d5fe3d866b30513cdea67d22c06c5efbfb3
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -170,6 +170,5 @@ Você pode carregar um documento para ser aplicado a todo o formulário ou a uma
 Se você não estiver recebendo as sugestões esperadas, talvez seja devido a um dos seguintes motivos:
 
 * Você deve ter pelo menos um mês de dados de solicitação no sistema para que ele possa sugerir valores de campo de solicitações anteriores.
-* Um item de dados de solicitação deve estar no sistema por mais de 24 horas antes de poder ser sugerido em outra solicitação.
 * Talvez você não tenha seguido as medidas de proteção de carregamento de documento ao carregar um documento do qual extrair sugestões. Para obter mais informações, consulte [Medidas de proteção para o carregamento de documentos](#document-upload-guardrails) neste artigo.
 
