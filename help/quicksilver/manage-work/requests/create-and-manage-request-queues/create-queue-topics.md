@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
+source-git-commit: 81b40eda8536d1a63c38a297d92158a12f9d350e
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '937'
 ht-degree: 2%
 
 ---
@@ -183,5 +183,5 @@ Para editar um Tópico de Fila existente:
 1. Vá para o projeto ou modelo que contém o Tópico da fila que deseja editar.
 1. Clique em **Enfileirar tópicos** no painel esquerdo.
 1. No ambiente de Produção, selecione o Tópico da fila que deseja editar. Na página Detalhes que é aberta, clique em **Editar Tópico da Fila**.
-1. <span class="preview">No ambiente de Visualização, selecione o Tópico da Fila que deseja editar e clique no ícone Editar ![ícone Editar](assets/edit-icon.png).</span>
+   <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
 
