@@ -3,18 +3,20 @@ product-area: resource-management
 keywords: trabalho,equipe,equipe,recursos
 navigation-topic: the-workload-balancer
 title: Localize o Balanceador de carga de trabalho
-description: Você pode usar o Balanceador de carga de trabalho para agendar recursos para trabalho ou revisar sua disponibilidade e alocações atuais.
+description: O Balanceador de carga de trabalho está disponível para vários projetos na área Recursos, para uma equipe, para um projeto e para um usuário.
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 0%
 
 ---
 
 # Localize o Balanceador de carga de trabalho
+
+{{preview-fast-release-general}}
 
 Você pode usar o Balanceador de carga de trabalho para agendar recursos para trabalho ou revisar sua disponibilidade e alocações atuais.
 
@@ -55,7 +57,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td><p>Novo: Padrão</p>
        <p>ou</p>
        <p>Atual: plano, ao usar o Balanceador de Carga de Trabalho na área Recursos;</br>
-       Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
+       Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p>
+       <p><span class="preview">Observação: todos os usuários podem acessar o Balanceador de carga de trabalho em seus próprios perfis de usuário, sem requisitos de licença.</span></p></td>
   </tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Visualize ou tenha acesso superior ao seguinte:</p> 
@@ -137,6 +140,27 @@ A página da sua equipe inicial é exibida.
      >
      >Você pode exibir todos os usuários no sistema em vez de somente os do projeto (na área Trabalho atribuído ) ativando a opção Mostrar todos os usuários. Para obter informações, consulte [Navegar pelo Balanceador de Carga de Trabalho](../workload-balancer/navigate-the-workload-balancer.md).
 
+<div class="preview">
+
+### Acessar o Balanceador de carga de trabalho de um usuário
+
+Todos os usuários têm acesso para visualizar o Balanceador de carga de trabalho em seus próprios perfis. Os dados do Balanceador de carga de trabalho de um usuário são somente leitura. Não é possível atribuir trabalho, cancelar atribuição de trabalho ou ajustar alocações no nível do usuário.
+
+Todas as configurações de exibição estão disponíveis para o Balanceador de carga de trabalho de um usuário. Para obter mais informações, consulte [Navegar pelo Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+
+{{step1-click-profile-pic}}
+
+1. Clique em **Balanceador de carga de trabalho** no painel esquerdo.
+
+   O Balanceador de carga de trabalho do usuário é exibido.
+
+   ![Balanceador de carga de trabalho para um usuário](assets/workload-balancer-user.png)
+
+   O Balanceador de carga de trabalho de um usuário exibe as seguintes informações por padrão:
+
+   * **Trabalho atribuído**: as tarefas e problemas atribuídos ao usuário específico.
+
+</div>
 
 ## Adicionar o Balanceador de carga de trabalho a uma seção personalizada
 

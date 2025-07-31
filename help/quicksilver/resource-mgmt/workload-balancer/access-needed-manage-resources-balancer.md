@@ -6,14 +6,16 @@ description: Sem acesso ou permissões corretos, talvez você não consiga visua
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 78d73d0d7bd0ffc00ae1afed0adb324501e0c310
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 # Acesso necessário para gerenciar recursos no Balanceador de carga de trabalho
+
+{{preview-fast-release-general}}
 
 Sem acesso ou permissões corretos, talvez você não consiga visualizar ou gerenciar suas atribuições de trabalho no Balanceador de carga de trabalho.
 
@@ -81,6 +83,8 @@ Você deve ter o seguinte acesso para visualizar o Balanceador de carga de traba
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<span class="preview">Todos os usuários têm acesso para exibir o Balanceador de carga de trabalho em seus próprios perfis. Isso não é restrito pela licença ou nível de acesso. Observe que o Balanceador de Carga de Trabalho em um perfil de usuário é somente leitura e as atribuições e alocações não podem ser alteradas.</span>
 
 ## Acesso necessário para gerenciar atribuições no Balanceador de carga de trabalho
 
