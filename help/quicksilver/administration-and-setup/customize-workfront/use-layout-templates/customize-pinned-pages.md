@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 0e7000597e2347bff0bc626d21aa9a6c9a839c0b
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 4%
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Personalizar páginas fixadas usando um modelo de layout
 
-Em um modelo de layout, você pode fixar as páginas que deseja que os usuários sempre tenham disponíveis na parte superior do Adobe Workfront. Podem ser páginas acessadas por meio do ![ícone do menu principal](assets/main-menu-icon.png) ou do ![ícone do menu principal](assets/main-menu-icon.png) do Menu principal quando disponíveis, ou painéis.
+Em um modelo de layout, você pode fixar as páginas que deseja que os usuários sempre tenham disponíveis na parte superior do Adobe Workfront. Podem ser páginas acessadas por meio do ![ícone do menu principal](assets/main-menu-icon.png) ou do ![ícone do menu principal](assets/main-menu-icon-left-nav.png) do Menu principal quando disponíveis, ou painéis.
 
 Quaisquer pins adicionados por seus usuários são exibidos à direita dos pinos adicionados no modelo de layout.
 

@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b95d536bc251c2575b105f38691a66bde67502b8
+source-git-commit: 75ac50d23c80aaf1b2100b02780adfe7fd7abb39
 workflow-type: tm+mt
-source-wordcount: '6589'
+source-wordcount: '6606'
 ht-degree: 5%
 
 ---
 
 # Criar um formulário personalizado
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -133,7 +135,7 @@ Cada nome de campo personalizado deve ser exclusivo na instância do Workfront d
 >[!NOTE]
 >
 >Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o campo personalizado onde ele pode agora ser referenciado em outras áreas do Workfront.
->&#x200B;>Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar seu nome, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.
+>>Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar seu nome, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.
 >
 >Recomendamos que você não digite um nome que já esteja sendo usado para campos integrados do Workfront.
 >
@@ -572,7 +574,7 @@ Para adicionar campos de digitação antecipada e data:
 
 ### Adicionar campos de pesquisa externos
 
-Um campo de pesquisa externo chama uma API externa e retorna valores como opções em um campo suspenso. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem selecionar uma ou mais dessas opções no menu suspenso. O campo de pesquisa externo também está disponível em listas e relatórios.
+Um campo de pesquisa externo chama uma API externa e retorna valores como opções em um campo suspenso. Os usuários que trabalham com o objeto ao qual o formulário personalizado está anexado podem selecionar uma ou mais dessas opções na lista suspensa, dependendo se o campo de pesquisa externo é um campo de seleção única ou múltipla. Os campos de pesquisa externos também estão disponíveis em listas e relatórios.
 
 Para obter exemplos de como usar o campo de pesquisa externa para chamar a mesma instância do Workfront ou uma API pública, consulte [Exemplos do campo de pesquisa externa em um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
@@ -583,7 +585,7 @@ Para obter exemplos de como usar o campo de pesquisa externa para chamar a mesma
 
 Para adicionar uma pesquisa externa:
 
-1. Na guia **Novo campo** no lado esquerdo da tela, localize a **Pesquisa externa** e arraste-a para uma seção da tela.
+1. Na guia **Novo campo** no lado esquerdo da tela, localize a **Pesquisa externa** ou a <span class="preview">**Pesquisa externa de várias seleções**</span> e arraste-a para uma seção da tela.
 1. No lado direito da tela, configure as opções do campo personalizado:
 
    <table style="table-layout:auto"> 
@@ -632,12 +634,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções suspensas.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
-      &lbrace;
-       dados: &lbrace;
+      {
+       dados: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o Caminho JSON e verificar se você grava o Caminho JSON correto, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -647,8 +649,8 @@ Para adicionar uma pesquisa externa:
       <td><p>Clique em <strong>Adicionar cabeçalho</strong> e digite ou cole o par de valores chave necessário para autenticação com a API.</p><p><strong>Observação:</strong> os campos de Cabeçalho não são um local seguro para armazenar credenciais, e você deve ter cuidado com o que inseriu e salvou.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader">Lista suspensa com seleção múltipla</td>
-      <td><p>Selecione essa opção para permitir que o usuário selecione mais de um valor no menu suspenso.</p></td>
+      <td role="rowheader"><span class="preview">Lista suspensa com seleção múltipla</span></td>
+      <td><p><span class="preview">Selecione essa opção para permitir que o usuário selecione mais de um valor no menu suspenso.</span></p></td>
      </tr>
      </tr>
      <tr> 
