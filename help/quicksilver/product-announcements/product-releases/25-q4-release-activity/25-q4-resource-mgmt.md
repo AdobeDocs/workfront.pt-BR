@@ -4,11 +4,10 @@ description: Melhorias no gerenciamento de recursos do quarto trimestre de 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 610066cc1b5703d048e867767474fb5335a2b0d5
+exl-id: c8c03cb5-0468-4c2b-b69e-70e4c1354514
+source-git-commit: 0dfeebeef4369a67072368eb4034e105818b99a5
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -19,11 +18,25 @@ Esta página descreve as melhorias no Gerenciamento de recursos feitas com a ver
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2025, consulte [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## O Balanceador de carga de trabalho agora está disponível em seu perfil de usuário
+
+>[!NOTE]
+>
+>* Visualização: 31 de julho de 2025
+>* Versão rápida de produção: 14 de agosto de 2025
+>* Produção para todos os clientes: 16 de outubro de 2025
+
+Todos os usuários agora podem visualizar seus próprios dados de demanda e capacidade no Balanceador de carga de trabalho a partir de seus perfis, independentemente do nível de acesso. Ao acessar o perfil de usuário do Workfront, o Balanceador de carga de trabalho é exibido no painel de navegação esquerdo.
+
+Os dados do Balanceador de carga de trabalho de um usuário são somente leitura. Não é possível atribuir trabalho, cancelar atribuição de trabalho ou ajustar alocações no nível do usuário.
+
+Para obter informações, consulte [Localizar o Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md).
+
 ## As atribuições de função são exibidas no Balanceador de carga de trabalho
 
 >[!NOTE]
 >
->* Visualização: 24 de julho de 2025
+>* Visualização: 31 de julho de 2025
 >* Versão rápida de produção: 14 de agosto de 2025
 >* Produção para todos os clientes: 16 de outubro de 2025
 

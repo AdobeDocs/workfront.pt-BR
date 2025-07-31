@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '5961'
+source-wordcount: '6162'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,50 @@ Para visualizar esta alteração, acesse Configuração > Sistema > Atualizar us
 
 ## Projetos
 
+## Nova aparência da seção Detalhes da Fila em um modelo
+
+**Versão de visualização: 31 de julho de 2025; Versão de produção: 7 de agosto de 2025**
+
+Atualizamos a aparência da seção Detalhes da fila de um modelo. A aparência da seção Detalhes da fila agora corresponde a outras áreas do Workfront.
+
+Para obter informações, consulte [Criar uma fila de solicitações](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+<!--## Interface updates when bulk editing templates
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
+
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+
+## Atualizações de interface para a caixa Enviar atualização para o usuário em um modelo
+
+**Versão de visualização: 31 de julho de 2025; Versão de produção: 7 de agosto de 2025**
+
+Atualizamos a aparência da caixa Enviar atualização para o usuário ao acessá-la a partir da guia Pessoas em um modelo. A caixa Enviar atualização para o usuário agora corresponde a outras áreas do Workfront ao enviar uma atualização para um ou vários usuários.
+
+Para obter informações, consulte [Gerenciar a equipe de criação](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+
+<!--## Updated experience when editing a Queue Topic in a project or template
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+
+A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+
+For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+
+## Atualizações de interface para registros de cobrança
+
+**Versão de visualização: 31 de julho de 2025; Versão de produção: 7 de agosto de 2025**
+
+Atualizamos a aparência das páginas Horas faturáveis, Despesas faturáveis e Receitas fixas dos registros de cobrança para corresponder a outras áreas do aplicativo. As caixas de diálogo para adicionar novas horas faturáveis, despesas faturáveis e receitas fixas também foram atualizadas.
+
+Para visualizar essas alterações, vá para um projeto > Registros de cobrança > selecione um registro de cobrança > Horas faturáveis, Despesas faturáveis ou Receitas fixas > adicionar novas horas faturáveis, despesas faturáveis ou receitas fixas.
+
+Para obter informações, consulte [Criar registros de cobrança](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
+
 ## Atualizações de interface para a caixa Importar arquivo do MS Project
 
 **Versão de visualização: 24 de julho de 2025; Versão de produção: a ser anunciada**
@@ -84,7 +128,7 @@ Para obter informações, consulte [Gerenciar despesas do projeto](/help/quicksi
 
 Atualizamos a aparência de uma Regra de Roteamento ao editá-la em um modelo. A página de edição Regra de roteamento agora corresponde ao design de outras áreas do Workfront.
 
-Uma pequena alteração de funcionalidade foi aplicada à lista de Regras de Roteamento. Para editar Regra de Encaminhamento, selecione a Regra de Encaminhamento na lista e clique no ícone Editar.
+Para editar Regra de Encaminhamento, selecione a Regra de Encaminhamento na lista e clique no ícone Editar.
 
 Para obter informações, consulte [Criar Regras de Roteamento](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
@@ -98,7 +142,7 @@ Atualizamos a aparência das seguintes listas em modelos:
 * Grupos de Tópicos
 * Regras de Encaminhamento
 
-Uma pequena alteração de funcionalidade foi aplicada às listas. Para editar ou excluir um item em uma dessas listas, selecione o item e clique no ícone apropriado.
+Para editar ou excluir um item em uma dessas listas, selecione o item e clique no ícone apropriado.
 
 Para obter mais informações, consulte
 
@@ -398,6 +442,11 @@ Para obter informações, consulte [Copiar um modelo de projeto](/help/quicksilv
 ### Atualizações de aparência ao adicionar objetos a programas e portfólios
 
 **Versão de visualização: 22 de maio de 2025; Versão de produção: 29 de maio de 2025**
+
+>[!NOTE]
+>
+>Removido temporariamente da Pré-visualização e Produção
+
 
 Atualizamos a interface das caixas Adicionar ao fazer o seguinte:
 
