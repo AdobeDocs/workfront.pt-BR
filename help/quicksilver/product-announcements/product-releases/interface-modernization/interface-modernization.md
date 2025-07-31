@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
 workflow-type: tm+mt
-source-wordcount: '6162'
+source-wordcount: '6262'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ Atualizamos a aparência da caixa Enviar atualização para o usuário ao acess�
 
 Para obter informações, consulte [Gerenciar a equipe de criação](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
-<!--## Updated experience when editing a Queue Topic in a project or template
+## Experiência atualizada ao editar um Tópico da fila em um projeto ou modelo
 
-**Preview release: July 31, 2025; Production release: August 7, 2025**
+**Versão de visualização: 31 de julho de 2025; Versão de produção: 31 de julho de 2025**
 
-We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+Atualizamos a aparência de um Tópico da fila ao editá-lo em um modelo. A página de edição de Tópico de fila agora corresponde ao design de outras áreas do Workfront.
 
-A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+Uma pequena alteração de funcionalidade foi aplicada à lista de Regras de Roteamento. Para editar um Tópico de fila, selecione o Tópico de fila na lista e clique no ícone Editar. Você não é mais direcionado à página Detalhes do tópico da fila antes de poder editar.
 
-For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+Para obter mais informações, consulte [Criar tópicos da fila](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 ## Atualizações de interface para registros de cobrança
 
