@@ -6,9 +6,9 @@ description: Quando uma tarefa em um projeto requer uma quantidade maior de esfo
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1148'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * Todas as subtarefas, problemas e notas são acumulados no novo projeto.
 * Documentos, versões de documentos e provas são movidos para o novo projeto.
 * O status e o percentual concluído de todas as subtarefas e problemas são preservados.
-* Os usuários compartilhados da tarefa se tornam usuários compartilhados no projeto.
+* Os atribuídos à tarefa e o usuário que converte a tarefa no projeto se tornam usuários compartilhados no projeto.
 * A data de início do projeto é definida como a data de início da tarefa.
 * A tabela a seguir lista informações do projeto e se ele é transferido do modelo ou da tarefa:
 
