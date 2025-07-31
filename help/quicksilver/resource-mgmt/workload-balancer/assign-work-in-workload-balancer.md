@@ -6,14 +6,16 @@ description: Como gerenciador de recursos, você pode usar o Balanceador de carg
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1058'
 ht-degree: 1%
 
 ---
 
 # Visão geral da atribuição de trabalho no Balanceador de carga de trabalho
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -144,11 +146,11 @@ A tabela a seguir descreve quais itens são exibidos em cada área com base em s
  </tbody> 
 </table>
 
-&#42;Quando um item de trabalho é atribuído a um usuário e a uma função, ele é exibido na área Trabalho não atribuído somente quando a função é a Principal pessoa atribuída.
+&#42;Quando um item de trabalho é atribuído a um usuário e a uma função, ele é exibido na área Trabalho não atribuído somente quando a função é a Principal pessoa atribuída. <span class="preview">As atribuições de função são exibidas em itens de trabalho na área Trabalho não atribuído quando a configuração **Mostrar atribuições de função** está habilitada.</span>
 
 &#42;&#42;Quando um item de trabalho é atribuído a um usuário e a outra entidade, ele é exibido na área Trabalho atribuído somente quando o usuário é o Destinatário principal.
 
-Para obter mais informações sobre as áreas Não atribuído e atribuído do Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Para obter mais informações sobre as áreas Trabalho não atribuído e atribuído do Balanceador de carga de trabalho, e as configurações do Balanceador de carga de trabalho, consulte [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Considerações para várias atribuições para funções de trabalho, equipes e usuários
 
