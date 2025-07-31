@@ -5,7 +5,7 @@ description: Além de configurar as despesas de rastreamento e receita, você po
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
+source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -115,13 +115,13 @@ Considere o seguinte ao planejar usar registros de faturamento:
 
 1. Clique em **Salvar.** O registro de cobrança foi criado.
 
-## Incluir Horas Faturáveis, Despesas e Receitas Fixas em um registro de cobrança
+## Incluir horas faturáveis, despesas e receitas fixas em um registro de cobrança
 
-### Incluir Horas Faturáveis em um registro de cobrança {#include-billable-hours-in-a-billing-record}
+### Incluir horas faturáveis em um registro de cobrança {#include-billable-hours-in-a-billing-record}
 
 Você pode incluir horas que foram conectadas em tarefas, problemas ou o projeto em seus registros de cobrança.
 
-Se o usuário que registra as horas ou sua função de trabalho principal estiver associada a uma taxa de cobrança por hora, a receita dessas horas será adicionada ao registro de cobrança.
+Se o usuário que registra as horas ou sua função principal de trabalho estiver associada a uma Taxa por hora de faturamento, a receita dessas horas será adicionada ao registro de faturamento.
 
 * [Que horas podem ser adicionadas a um registro de cobrança](#what-hours-can-be-added-to-a-billing-record)
 * [Adicionar horas a um registro de cobrança](#add-hours-to-a-billing-record)
@@ -135,7 +135,7 @@ Você pode adicionar horas a um registro de faturamento quando as seguintes cond
 
   Para obter mais informações, consulte o artigo [Gerenciar tipos de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-* Todas as horas registradas para problemas ou o projeto podem ser adicionadas a um registro de cobrança se o usuário que registra o tempo tiver uma taxa de Faturamento por hora associada a eles ou a sua Função de trabalho principal.
+* Todas as horas registradas para problemas ou o projeto podem ser adicionadas a um registro de cobrança se o usuário que registra o tempo tiver uma taxa de Faturamento por hora associada a eles ou a sua função de trabalho principal.
 * Se as horas forem registradas em uma tarefa, a tarefa deverá ter o seguinte Tipo de Receita:
 
    * O tipo de receita não pode ser definido como não faturável.
@@ -145,9 +145,9 @@ Você pode adicionar horas a um registro de faturamento quando as seguintes cond
      >[!NOTE]
      >
      >Você pode substituir taxas de faturamento para funções de trabalho no nível do projeto.\
-     >Para obter mais informações, consulte a seção Substituição das Taxas de Cobrança da Função de Trabalho no Nível do Projeto no artigo [Visão geral da substituição das Taxas de Cobrança da Função de Trabalho e cálculo de Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >Para obter mais informações, consulte a seção &quot;Substituição das taxas de cobrança da função de trabalho no nível do projeto&quot; no artigo [Visão geral da substituição das taxas de cobrança da função de trabalho e cálculo da Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-* Se a opção Requer que o tempo seja aprovado para este projeto estiver marcada em Configurações do projeto, o Proprietário do projeto deve aprovar as horas registradas.\
+* Se a opção Requer que o tempo seja aprovado para este projeto estiver selecionada em Configurações do projeto, o Proprietário do projeto deve aprovar as horas registradas.\
   Para obter mais informações, consulte [Solicitar tempo para ser aprovado para um projeto](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
 
 #### Adicionar horas a um registro de cobrança {#add-hours-to-a-billing-record}
@@ -168,9 +168,9 @@ Você pode adicionar horas a um registro de faturamento quando as seguintes cond
 
 1. (Opcional) Clique em **Detalhes de Registros de Cobrança** para revisar os valores de **Horas Faturáveis** e **Total de Registros de Cobrança** e o total de registros de cobrança no cabeçalho de registro de cobrança.
 
-### Incluir Despesas Faturáveis em um registro de cobrança {#include-billable-expenses-in-a-billing-record}
+### Incluir despesas faturáveis em um registro de cobrança {#include-billable-expenses-in-a-billing-record}
 
-Se você estiver adicionando Despesas Faturáveis ao registro de faturamento, certifique-se de que as despesas nas tarefas e no projeto estejam marcadas como Faturáveis. Despesas que não estão marcadas como Faturáveis não estão disponíveis para serem adicionadas em um registro de cobrança. Para obter mais informações sobre como adicionar despesas, consulte o artigo [Gerenciar despesas do projeto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+Se você estiver adicionando despesas faturáveis ao registro de faturamento, verifique se as despesas nas tarefas e o projeto estão marcados como Faturáveis. Despesas que não estão marcadas como Faturáveis não estão disponíveis para serem adicionadas em um registro de cobrança. Para obter mais informações sobre como adicionar despesas, consulte o artigo [Gerenciar despesas do projeto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 Para adicionar despesas faturáveis a um registro de faturamento:
 
@@ -184,7 +184,7 @@ Para adicionar despesas faturáveis a um registro de faturamento:
 
    >[!NOTE]
    >
-   >Se você tiver despesas, mas elas não estiverem marcadas como Faturáveis, o botão **Adicionar Despesas** não será exibido. Somente despesas faturáveis com um Valor Efetivo maior que zero são elegíveis para serem incluídas em um registro de cobrança.
+   >Se você tiver despesas, mas elas não estiverem marcadas como Faturáveis, o botão **Adicionar despesas** não será exibido. Somente despesas faturáveis com um Valor Efetivo maior que zero são elegíveis para serem incluídas em um registro de cobrança.
 
 1. Selecione as despesas faturáveis disponíveis para serem adicionadas ao registro de cobrança e clique em **Adicionar despesas**.  O Valor Efetivo das despesas é adicionado como o valor de **Despesas Faturáveis** para o **Total de Registro de Cobrança**.
 
@@ -192,7 +192,7 @@ Para adicionar despesas faturáveis a um registro de faturamento:
 
 ### Incluir receitas fixas em um registro de cobrança {#include-fixed-revenues-in-a-billing-record}
 
-Você pode adicionar Receitas Fixas aos seus registros de faturamento se tiver tarefas com Receita Fixa disponível. Nenhum outro tipo de tarefa ou receita de projeto está disponível para ser adicionado em um registro de cobrança. Para obter mais informações sobre tipos de receita, consulte a seção Visão Geral de Faturamento e Receita no artigo [Visão Geral de Faturamento e Receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Você pode adicionar receitas fixas aos seus registros de cobrança se tiver tarefas com receita fixa disponível. Nenhum outro tipo de tarefa ou receita de projeto está disponível para ser adicionado em um registro de cobrança. Para obter mais informações sobre tipos de receita, consulte a &quot;Visão Geral de Faturamento e Receita&quot; no artigo [Visão Geral de Faturamento e Receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 {{step1-to-projects}}
 
@@ -204,7 +204,7 @@ Você pode adicionar Receitas Fixas aos seus registros de faturamento se tiver t
 
    >[!NOTE]
    >
-   >Se você tiver valores de receita em tarefas que não estão marcadas como Fixas, o botão **Adicionar Receita Fixa** não será exibido.
+   >Se você tiver valores de receita em tarefas que não estão marcadas como Fixas, o botão **Adicionar receita fixa** não será exibido.
 
 1. Selecione as tarefas cujas receitas fixas você deseja incluir no registro de cobrança e clique em **Adicionar tarefas**.  O valor de **Receita Fixa** das tarefas é adicionado como o valor de **Receitas Faturáveis** para o **Total de Registro de Cobrança**.
 
@@ -238,7 +238,7 @@ Depois de criar um registro de cobrança e adicionar horas, despesas e receitas 
 
    Os seguintes campos não estão disponíveis para edição:
 
-   * **Horas Faturáveis:** O total da Receita Efetiva das horas incluídas no registro de cobrança. Para obter mais informações, consulte a seguinte seção neste artigo: [Incluir Horas Faturáveis em um registro de cobrança](#include-billable-hours-in-a-billing-record).
+   * **Horas Faturáveis:** O total da Receita Efetiva das horas incluídas no registro de cobrança. Para obter mais informações, consulte a seguinte seção neste artigo: [Incluir horas faturáveis em um registro de cobrança](#include-billable-hours-in-a-billing-record).
 
    * **Despesas faturáveis**: o valor total das despesas faturáveis incluídas no registro de cobrança. Para obter mais informações, consulte a seguinte seção neste artigo: [Incluir despesas faturáveis em um registro de cobrança](#include-billable-expenses-in-a-billing-record).
 
