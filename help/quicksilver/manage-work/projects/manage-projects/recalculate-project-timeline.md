@@ -6,9 +6,9 @@ description: Recalcular as linhas do tempo permite que os gerentes vejam como di
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d846f2f90a8ca2a38c1b18897341cb50f4c5aef4
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ O recálculo automático da linha do tempo ocorre sem acesso especial para qualq
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,9 +39,8 @@ O recálculo automático da linha do tempo ocorre sem acesso especial para qualq
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: Padrão </p> 
-   Ou
-   <p>Atual: Plano </p>
+   <td> <p>Padrão </p> 
+    <p>Plano </p>
    </td> 
   </tr> 
   <tr> 
@@ -63,17 +62,21 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Por padrão, as linhas do tempo do projeto são recalculadas automaticamente diariamente quando o escopo do projeto é alterado ou todas as noites. O administrador do Workfront determina se as linhas do tempo devem ser calculadas automaticamente todas as noites ou com cada alteração de escopo gerenciando as configurações de Linhas do Tempo na área Preferências do projeto da Configuração. Para obter mais informações, consulte [Configurar recálculos de linha de tempo para projetos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Se a linha do tempo de um projeto tiver mais de 15 anos, o recálculo automático será desativado para esse projeto e você só poderá selecionar um tipo de atualização Manual. Se você alterar as datas no projeto para menos de 15 anos, será necessário recalcular manualmente a linha do tempo uma vez antes de calculá-la automaticamente.
+>* Se a linha do tempo de um projeto tiver mais de 15 anos, o recálculo automático será desativado para esse projeto e você só poderá selecionar um tipo de atualização Manual. Se você alterar as datas no projeto para menos de 15 anos, será necessário recalcular manualmente a linha do tempo uma vez antes de calculá-la automaticamente.
+>* Para os ambientes Pré-visualização e Atualização personalizada da Sandbox, o recálculo noturno é desativado e as linhas de tempo do projeto não são recalculadas automaticamente. Você deve recalcular manualmente a linha do tempo do projeto para os ambientes Pré-visualização e Atualização personalizada da sandbox.
+>* Se um projeto for complexo, o recálculo automático da linha do tempo talvez não ocorra.
+>  > Um exemplo de um projeto complexo pode ser um projeto com várias dependências, grande número de tarefas, vários predecessores entre projetos ou vários recuos de tarefas.
+>  > O Workfront coloca um aviso à direita do nome do projeto na página do projeto para avisar aos usuários que a linha do tempo do projeto deve ser recalculada manualmente. Somente os usuários com permissões para Gerenciar o projeto podem recalcular manualmente a linha do tempo.
+>
+>   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>
 
 * [Recálculo automático das linhas de tempo do projeto](#automatic-recalculation-of-project-timelines)
 * [Ações que acionam um recálculo automático de linhas de tempo do projeto](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
 
->[!IMPORTANT]
->
->Para os ambientes Pré-visualização e Atualização personalizada da Sandbox, o recálculo noturno é desativado e as linhas de tempo do projeto não são recalculadas automaticamente. Você deve recalcular manualmente a linha do tempo do projeto para os ambientes Pré-visualização e Atualização personalizada da sandbox.
 
 ### Recálculo automático de linhas de tempo do projeto {#automatic-recalculation-of-project-timelines}
 
@@ -86,7 +89,7 @@ O Workfront recalcula as linhas do tempo diariamente somente para projetos em qu
 
 * Ter uma data de última atualização nos últimos 3 meses. Um administrador do Workfront pode alterar essa funcionalidade padrão. Para obter mais informações, consulte [Configurar recálculos de linha de tempo para projetos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-* A data do último cálculo da linha do tempo do projeto não está dentro do dia atual do calendário. Isso significa que a última data de cálculo da linha do tempo do projeto é anterior às 00:00 do dia atual.
+* A data do último cálculo da linha do tempo do projeto não está dentro do dia atual do calendário. Isso significa que a última data de cálculo da linha de tempo do projeto é anterior a 00:00 do dia atual.
 
 Você pode configurar a frequência com que a linha do tempo do seu projeto é atualizada. Quando a linha do tempo do projeto é atualizada, ela é recalculada com base nas alterações feitas no projeto.
 
