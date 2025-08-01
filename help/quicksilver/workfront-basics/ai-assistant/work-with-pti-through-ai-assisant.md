@@ -5,10 +5,10 @@ description: Você pode resumir rapidamente itens de trabalho e documentos usand
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ O Assistente de IA pode ajudá-lo a localizar projetos, tarefas e problemas no W
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,13 +28,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
    <td><p>Novo: Qualquer um</p>
-       <p>ou</p>
        <p>Atual: não disponível</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td><p>Novo: Padrão</p>
-       <p>ou</p>
        <p>Atual: não disponível</p></td>
   </tr> 
  </tbody> 
@@ -42,20 +40,23 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
++++
 
 ## Localizar itens de trabalho
 
 1. Clique no ícone do **Assistente de IA** ![ícone do Assistente de IA](assets/ai-assistant-icon.png) próximo ao canto superior direito da tela.
-1. Insira um prompt, como
+1. Digite um prompt como:
 
-   * Localizar minhas tarefas com vencimento nesta semana
-   * Quais problemas estão na &quot;Campanha da primavera&quot; do projeto?
-   * Localizar projetos no status Atual
+   * *Localizar minhas tarefas com vencimento nesta semana*
+   * *Que problemas existem no projeto &quot;Campanha da primavera&quot;*
+   * *Localizar projetos com o status Atual*
 
-   O Assistente de IA pode levar alguns minutos para localizar as informações, dependendo do tamanho ou da complexidade do prompt e de quantos registros ele precisa pesquisar.
-1. Visualize a resposta no painel Assistente de IA.
-1. (Opcional) Para ir para o item de trabalho, clique no link no painel Assistente de IA.
+   >[!NOTE]
+   >
+   > O Assistente de IA pode levar alguns minutos para localizar as informações, dependendo do tamanho ou da complexidade do prompt e de quantos registros ele precisa pesquisar.
+1. Exiba a resposta no painel **Assistente de IA**.
+1. (Opcional) Para ir para o item de trabalho, clique no link no painel **Assistente de IA**.
+
 
 <!--
 

@@ -1,20 +1,20 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Filtrar um painel
-description: É possível aplicar um filtro a um painel da Tela de desenho depois de criá-lo.
+title: Filtrar um painel da tela
+description: Você pode aplicar um filtro a um Painel da tela de desenho depois de ele ter sido criado.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-# Filtrar um painel
+# Filtrar um painel da tela
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Você deve criar um painel antes que ele possa ser filtrado.
 
-Para obter mais informações, consulte [Criar um painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
+Para obter mais informações, consulte [Criar um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 ## Filtrar um painel
 

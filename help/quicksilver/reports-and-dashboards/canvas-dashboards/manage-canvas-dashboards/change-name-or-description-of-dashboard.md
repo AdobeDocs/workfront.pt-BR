@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Alterar o nome ou a descrição de um painel
-description: Você pode editar o nome ou a descrição de um painel da Tela após sua criação.
+title: Alterar o nome ou a descrição de um Painel da Tela de Pintura
+description: Você pode editar o nome ou a descrição de um Painel da Tela de Pintura após sua criação.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
 
-# Alterar o nome ou a descrição de um painel
+# Alterar o nome ou a descrição de um Painel da Tela de Pintura
 
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Para obter mais informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Você pode editar o nome ou a descrição de um painel da Tela após sua criação.
+Você pode editar o nome ou a descrição de um Painel da Tela de Pintura após sua criação.
 
 Quaisquer alterações feitas em um painel afetarão todos os usuários que tiverem acesso a ele.
 
@@ -65,7 +65,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Você deve criar um painel antes de alterar seu nome ou descrição.
 
-Para obter mais informações, consulte [Criar um painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
+Para obter mais informações, consulte [Criar um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 
 ## Alterar o nome e a descrição de um painel

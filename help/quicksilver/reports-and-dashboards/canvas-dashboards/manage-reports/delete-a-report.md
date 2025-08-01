@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Excluir um relatório
+title: Excluir um relatório em um painel da tela
 description: É possível excluir um relatório de um painel da Tela de Pintura.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
-# Excluir um relatório
+# Excluir um relatório em um painel da tela
 
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Para obter mais informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Depois que um painel é criado e você adiciona relatórios a ele, é possível excluir relatórios mais antigos que não são mais aplicáveis a esse painel específico.
+Depois que um Painel da tela é criado e você adiciona relatórios a ele, é possível excluir relatórios mais antigos que não são mais aplicáveis a esse painel específico.
 
 A exclusão de um relatório é permanente. Se for necessário adicionar novamente um relatório depois de excluí-lo, será necessário recriar o relatório.
 

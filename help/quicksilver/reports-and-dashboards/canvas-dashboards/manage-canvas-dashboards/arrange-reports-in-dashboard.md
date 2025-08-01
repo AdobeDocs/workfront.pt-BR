@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Organizar relatórios em um painel
+title: Organizar relatórios em um painel do Canvas
 description: Você pode organizar como os relatórios são exibidos em um painel da Tela depois de serem adicionados a um.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-# Organizar relatórios em um painel
+# Organizar relatórios em um painel do Canvas
 
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Para obter mais informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-Depois que um relatório é adicionado a um painel, ele é exibido como um widget de relatório no painel para que você possa visualizar rapidamente seus dados rapidamente. Depois que vários relatórios forem adicionados, é recomendável reorganizar o tamanho e a ordem de cada widget para exibir os dados do painel com mais eficiência.
+Depois que um relatório é adicionado a um Painel da tela, ele é exibido como um widget de relatório no painel para que você possa visualizar rapidamente seus dados rapidamente. Depois que vários relatórios forem adicionados, é recomendável reorganizar o tamanho e a ordem de cada widget para exibir os dados do painel com mais eficiência.
 
 +++ Expanda para visualizar os requisitos de acesso.
 

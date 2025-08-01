@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Criar um relatório de gráfico
+title: Criar um relatório de gráfico em um painel da tela
 description: Um relatório de gráfico que visualiza seus dados como um gráfico de barras, colunas, linhas ou de pizza pode ser adicionado a um Painel da Tela de Pintura.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
 
-# Criar um relatório de gráfico
+# Criar um relatório de gráfico em um painel da tela
 
 >[!IMPORTANT]
 >

@@ -5,7 +5,7 @@ title: Criar um painel da tela de desenho
 description: Com os Painéis do Canvas, você pode criar e adicionar relatórios a um painel personalizável para visualizar rapidamente os dados da sua conta.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Criar um painel
 
-Os painéis do Canvas oferecem uma grande variedade de opções e configurações que você pode usar ao criar um painel. Nesta seção, guiaremos você pelo processo geral de criação de um painel.
+Os Painéis do Canvas oferecem uma grande variedade de opções e configurações que você pode usar ao criar um painel. Nesta seção, guiaremos você pelo processo geral de criação de um painel.
 
 {{step1-to-dashboards}}
 
