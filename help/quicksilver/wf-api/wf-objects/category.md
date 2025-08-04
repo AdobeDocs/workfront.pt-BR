@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 8c72a44c49d137c6c73f7c213cb411e45f5a6e24
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 27%
+source-wordcount: '270'
+ht-degree: 28%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 27%
 
 <!-- Audited: 5/2025 -->
 
-Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
-mensagem: &quot;APIModel INTERNAL não oferece suporte ao campo projectid (OpTask)&quot;
+<!--Fieldsclass: "java.lang.IllegalArgumentException",  
+message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
 
 <table style="table-layout:auto"> 
  <col width="100"> 
@@ -114,7 +114,7 @@ mensagem: &quot;APIModel INTERNAL não oferece suporte ao campo projectid (OpTas
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;lastUpdateDate&quot;}"><strong>lastUpdateDate</strong> </td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Last Update Date&quot;}">Última data de atualização</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Last Update Date&quot;}">Data da última atualização</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Date/Time&quot;}">Data/Tempo</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Date of when the object was last modified&quot;}">Data da última modificação do objeto</td> 
    <td> </td> 
@@ -146,7 +146,7 @@ mensagem: &quot;APIModel INTERNAL não oferece suporte ao campo projectid (OpTas
 | Cliente | cliente | Cliente | CLIENTE |
 | Cadastrado por | enteredBy | Usuário | USUÁRIO |
 | Grupo | grupo | Grupo | GRUPO |
-| Última Atualização realizada por | lastUpdatedBy | Usuário | USUÁRIO |
+| Última atualização realizada por | lastUpdatedBy | Usuário | USUÁRIO |
 
 
 ## Coleções
