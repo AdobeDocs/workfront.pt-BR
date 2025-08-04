@@ -5,7 +5,7 @@ description: Você pode controlar quais níveis de acesso na organização têm 
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 7f5e054129a538ff8ac1ca82dc8c4564b22fa5ec
+source-git-commit: d5693657695b2c0e89a69afc8cf90b34d2036f3e
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 1%
@@ -58,7 +58,7 @@ Para ativar o Assistente de IA para um determinado nível de acesso:
 1. Selecione o nível de acesso desejado e clique no ícone **Editar** ![Editar](assets/edit-icon.png) acima da lista.
 1. Na área **Definir restrições adicionais...** da caixa **Editar Nível de Acesso**, desmarque a caixa de seleção **Desabilitar o Assistente do Workfront AI**.
 1. Clique em **Salvar**.
-1. Repita as etapas 3 a 6 para cada nível de acesso para o qual você deseja ativar o Assistente de IA.
+1. Repita as etapas de 3 a 5 para cada nível de acesso para o qual você deseja ativar o Assistente de IA.
 
 >[!NOTE]
 >
