@@ -5,7 +5,7 @@ description: Depois de concluir e enviar o Business Case para uma solicitação 
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -126,7 +126,7 @@ Para criar um relatório para projetos que estão pendentes de aprovação de se
 1. Clique em **Business Case** no painel esquerdo.
 1. Clique em **Aprovar** ou **Rejeitar** na área Resumo do Business Case para aprovar ou rejeitar o Business Case.
 
-   ![Caso de negócios](assets/business-case-summary-with-rp-information--1-.png)
+   &lt;!—![Caso de negócios](assets/business-case-summary-with-rp-information--1-.png)—>
 
    O status do projeto será alterado para **Aprovado** se o Business Case for aprovado.
 

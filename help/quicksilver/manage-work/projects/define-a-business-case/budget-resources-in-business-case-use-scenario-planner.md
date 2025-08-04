@@ -5,9 +5,9 @@ description: Como parte do planejamento de recursos, você pode usar o Planejado
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Antes de começar, você deve fazer o seguinte:
 
    * Se você acabou de publicar informações do Planejador de cenários, selecione o Planejador de cenários no **Escolha quais horas usar para calcular o Custo de mão de obra orçado do projeto** campo na área Orçamento de recursos, em seguida, clique em **Escolher**.
 
-     ![Plano de Negócio no Planejador de Recursos com o botão Escolher](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     <!--![Business case in Resource Planner with Choose button](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
    * Se o Planejador de Recursos foi selecionado anteriormente para recursos de orçamento para o projeto, clique em **Alterar** > **Planejador de Cenários** > **Escolher**.
 

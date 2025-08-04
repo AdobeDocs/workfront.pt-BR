@@ -5,9 +5,9 @@ description: Como parte do planejamento de recursos, você pode usar o Planejado
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -108,11 +108,11 @@ Para aplicar Conjuntos de Recursos e prever recursos do projeto no Business Case
 
    * Selecione o Planejador de recursos no campo **Escolha quais horas usar para calcular o Custo de Trabalho Orçado do projeto**, depois clique em **Escolher > Editar orçamento de recursos**.
 
-     ![Plano de Negócio no Planejador de Recursos](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * Se o Planejador de cenários foi selecionado para recursos de orçamento para o projeto, clique em **Alterar** > **Editar orçamento de recursos**.
 
-     ![Caso de negócios no Planejador de cenários](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    Usa as Horas Orçadas do projeto para calcular o Custo de Mão-de-Obra Orçado do projeto.
 
@@ -138,7 +138,7 @@ Para aplicar Conjuntos de Recursos e prever recursos do projeto no Business Case
 
    Para obter mais informações sobre o Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-   ![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)
+   <!--![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)-->
 
 1. (Opcional e condicional) Expanda as funções de trabalho para ver os usuários associados a elas.
 

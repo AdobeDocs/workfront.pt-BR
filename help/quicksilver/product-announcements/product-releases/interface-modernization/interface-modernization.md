@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '6262'
+source-wordcount: '6319'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,16 @@ Atualizamos a página Atualizar usuários para SSO com um design mais moderno e 
 Para visualizar esta alteração, acesse Configuração > Sistema > Atualizar usuários para SSO
 
 ## Projetos
+
+## Atualizações de interface para um Business Case de projeto
+
+**Versão de visualização: 4 de agosto de 2025; Versão de produção: a ser anunciada**
+
+Atualizamos a aparência do Business Case do projeto para corresponder a outras áreas do aplicativo.
+
+Para visualizar esta alteração, vá para Projetos > Selecione um projeto > Business Case.
+
+Para obter mais informações, consulte [Criar um business case para um projeto](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Nova aparência da seção Detalhes da Fila em um modelo
 

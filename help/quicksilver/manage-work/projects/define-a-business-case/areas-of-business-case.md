@@ -6,9 +6,9 @@ description: Este artigo descreve as áreas do Business Case de um projeto.
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Estas são as áreas no Business Case de um projeto:
 * Despesas
 * Estimativa de Recurso
 * Riscos
-* Scorecard
+* Cartão de pontuação
 * Formulários personalizados
 * Resumo de Business Case
 
@@ -114,7 +114,7 @@ As horas orçadas para os recursos do projeto são exibidas na área Orçamento 
 
 Para obter mais informações sobre recursos de orçamento para o projeto no Business Case, consulte [Recursos de orçamento no Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-![Orçamento de recursos do Business Case](assets/business-case-sp-selected-with-choose-button-350x121.png)
+<!--![Business case resource budgeting](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
 Considere o seguinte ao exibir a seção Orçamento de Recursos do Business Case:
 
@@ -160,7 +160,7 @@ Para obter mais informações sobre como criar riscos, consulte [Criar e editar 
 
 Para obter mais informações sobre como criar e editar Tipos de Risco personalizados, consulte [Editar e criar tipos de risco](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
-## Scorecard
+## Cartão de pontuação
 
 Os scorecards medem o Alinhamento do projeto. Essa área é ativada por padrão no Business Case, mas o administrador do Workfront pode optar por não exibi-la.
 
