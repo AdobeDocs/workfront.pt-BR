@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '4065'
+source-wordcount: '4064'
 ht-degree: 0%
 
 ---
@@ -50,12 +50,13 @@ Para obter mais informações sobre o tipo de horas em que você pode fazer logo
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Novo:</p>
+   <td> 
    <ul><li> Leve ou superior para registrar horas em uma tarefa, problema ou Horas gerais em uma folha de horas</li>
    <li>Padrão para registrar horas em projetos</li></ul>
 
-<p>Atual: 
-   <ul><li>Revise ou registre horas gerais em uma planilha de horas</li>
+<p>Ou: </p>
+
+<ul><li>Revise ou registre horas gerais em uma planilha de horas</li>
    <li>Trabalhar ou mais para registrar horas em um projeto, tarefa ou problema</li></ul> </td> 
   </tr> 
   <tr> 
@@ -126,7 +127,7 @@ Para registrar horas em uma folha de horas:
    ![Planilha de horas](assets/timesheet-redesigned-nwe.png)
 
 
-1. (Opcional) Clique no ícone ![](assets/full-screen.png) de **tela cheia** para exibir a folha de horas no modo de tela cheia, em seguida, clique no ícone **sair-tela cheia** ![](assets/exit-full-screen.png) para retornar à folha de horas.
+1. (Opcional) Clique no ícone **de** tela cheia![](assets/full-screen.png) para exibir a folha de horas no modo de tela cheia, em seguida, clique no ícone **sair-tela cheia** ![](assets/exit-full-screen.png) para retornar à folha de horas.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 

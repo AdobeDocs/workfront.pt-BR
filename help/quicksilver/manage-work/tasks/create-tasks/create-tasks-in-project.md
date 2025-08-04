@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 1%
+source-wordcount: '1041'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Você também pode criar tarefas das seguintes maneiras:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,9 +60,9 @@ Você também pode criar tarefas das seguintes maneiras:
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licença do Adobe Workfront</p> </td> 
-   <td><p>Atual: trabalho ou superior</p> 
-   Ou
-   <p>Novo: Padrão</p> </td> 
+   <td><p>Padrão</p> 
+   <p>Trabalhar ou superior</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -70,7 +70,7 @@ Você também pode criar tarefas das seguintes maneiras:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do Contribute para o projeto com capacidade para Adicionar tarefas ou superior</p> <p>Ao criar uma tarefa, você recebe automaticamente permissões Gerenciar para a tarefa</p> <p> Para obter informações sobre permissões de tarefas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Compartilhar uma tarefa </a>. </p> <p>Para obter informações sobre como solicitar permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Contribuir com permissões para o projeto com a capacidade de adicionar tarefas ou superior</p> <p>Ao criar uma tarefa, você recebe automaticamente permissões Gerenciar para a tarefa</p> <p> Para obter informações sobre permissões de tarefas, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Compartilhar uma tarefa </a>. </p> <p>Para obter informações sobre como solicitar permissões adicionais, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos. </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,10 +81,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Criar tarefas em um projeto
 
+Criar tarefas em um projeto é semelhante a criar tarefas em um modelo. Você pode seguir as etapas descritas abaixo ao adicionar tarefas de modelo a um modelo.
+
+Para criar tarefas em um projeto:
+
 1. Vá para o projeto em que deseja criar uma tarefa.
 1. Clique em **Tarefas** no painel esquerdo.
-1. (Condicional) Se você estiver visualizando a lista de tarefas em um modo de exibição ágil, clique no ícone ![](assets/list-view-in-agile-view-for-tasks.png) do **Modo de Exibição de Lista** no canto superior direito para exibir a lista de tarefas.
-1. (Opcional) Clique no ícone ![](assets/nwe-plan-mode-icon-task-list.png) do **Modo de Plano** e selecione **Salvar Manualmente**. Em seguida, selecione **Padrão** ou **Planejamento de Linha do Tempo**. Isso desabilita a opção **Salvamento automático**, que é habilitada por padrão.
+1. (Condicional) Se você estiver visualizando a lista de tarefas em um modo de exibição ágil, clique no ícone **do** Modo de Exibição de Lista![](assets/list-view-in-agile-view-for-tasks.png) no canto superior direito para exibir a lista de tarefas.
+1. (Opcional) Clique no ícone **do** Modo de Plano![](assets/nwe-plan-mode-icon-task-list.png) e selecione **Salvar Manualmente**. Em seguida, selecione **Padrão** ou **Planejamento de Linha do Tempo**. Isso desabilita a opção **Salvamento automático**, que é habilitada por padrão.
 
    ![Selecionar Salvamento Manual](assets/manual-save-option.png)
 
@@ -113,7 +117,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
-       
 
       >[!NOTE]
       >
@@ -126,7 +129,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       * Atribuições
       * Formulários personalizados
       * Finanças
-      * Configurações 
+      * Configurações
 
         Para obter informações sobre como definir todos os campos relacionados a tarefas em uma tarefa, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -162,13 +165,15 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
          Isso torna a nova tarefa uma tarefa filha ou subtarefa da tarefa anterior.
 
-         Para obter mais informações sobre tarefas filho, consulte [Criar subtarefas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+         Para obter mais informações sobre tarefas filhas, consulte a seção &quot;Criar subtarefas da seção de subtarefas de tarefas&quot; no artigo [Criar subtarefas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. (Condicional) Se você desabilitou a opção **Salvar automaticamente** depois de pressionar **Adicionar mais tarefas**, poderá fazer o seguinte:
 
          * Clique em **Desfazer** a qualquer momento para reverter a última alteração ou em **Cancelar** para reverter todas as alterações feitas na lista de tarefas.
          * Se você clicou anteriormente em **Desfazer**, clique em **Refazer** para reaplicar a última alteração que você cancelou.
          * Clique em **Salvar** para salvar suas alterações na lista de tarefas.
+   1. (Opcional) Em uma lista de tarefas, clique na seção **Predecessor** para adicionar predecessores à tarefa. Para obter mais informações, consulte [Criar uma relação predecessora usando a área Predecessoras](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+   1. (Opcional) Em uma lista de tarefas, clique na seção **Subtarefas** para adicionar tarefas filhas. Para obter mais informações, consulte [Criar subtarefas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
 ## Criar tarefas movendo uma tarefa pessoal para um projeto
 

@@ -6,9 +6,9 @@ description: É possível usar tarefas predecessoras (ou apenas predecessoras) p
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,7 @@ Para obter informações sobre predecessores, consulte [Visão geral dos predece
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,9 +46,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Novo: Padrão </p>
-   <p>Ou </p>
-   <p>Atual: Plano </p> </td> 
+   <p>Padrão </p>
+    <p>Plano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -69,15 +66,24 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Criar um predecessor para uma tarefa
 
+Criar um predecessor para uma tarefa do projeto usando a área Predecessores é semelhante a criar predecessores para tarefas de modelo em um modelo.
+
+Para criar uma tarefa predecessora para uma tarefa do projeto:
+
 1. Navegue até a tarefa que deseja designar como uma tarefa dependente.
 
 1. No painel esquerdo, clique em **Predecessores**.
 
-1. Na seção **Predecessoras**, clique em **+Adicionar Predecessora**. A caixa de diálogo **Adicionar Predecessora** é aberta.
+1. Na seção **Predecessoras**, clique em **Adicionar Predecessora**. A caixa de diálogo **Adicionar Predecessora** é aberta.
 
 1. (Opcional) Para adicionar um predecessor entre projetos, substitua o nome do projeto no campo **Projeto principal** por outro projeto.
 
    Para obter informações, consulte [Criar predecessores entre projetos](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+
+   >[!TIP]
+   >
+   >Não é possível criar predecessores entre modelos para tarefas de modelo.
+
 
 1. No campo **Tarefas**, digite o nome da(s) tarefa(s) que deseja designar como predecessoras e, em seguida, selecione-as quando elas aparecerem no menu suspenso.
 
@@ -96,3 +102,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    Para obter informações, consulte [Impor predecessores](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 1. Clique em **Salvar**.
+
+1. (Opcional) Para remover um predecessor, selecione-o na lista de predecessores, em seguida, clique no ícone **Remover** ícone ![Remover](assets/remove-or-delete-icon.png).
+
+   O antecessor é removido da lista. A tarefa predecessora não é excluída de seu projeto.

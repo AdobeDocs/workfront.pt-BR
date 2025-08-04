@@ -6,9 +6,9 @@ description: É possível usar tarefas predecessoras (ou apenas predecessoras) p
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Para obter mais informações, consulte [Visão geral dos predecessores da taref
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Para obter mais informações, consulte [Visão geral dos predecessores da taref
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: Padrão </p><p>Atual: Plano </p> </td> 
+   <td> <p>Padrão </p><p>Plano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -78,7 +78,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >1. Clique no ícone **Modo de Plano** e escolha **Salvamento Automático**.
    >
-   >1. Digite o Número de Referência do projeto do antecessor seguido, por dois pontos e o número da tarefa. Por exemplo, digitar *765021:12* indica que o Número de Referência do projeto do antecessor é 765021 e o antecessor é o número de tarefa 12 no projeto.
+   >1. Digite o Número de Referência do projeto do antecessor seguido, por dois pontos e o número da tarefa. Por exemplo, digitar *765021:12* indica que o Número de Referência do projeto do predecessor é 765021 e o predecessor é o número de tarefa 12 no projeto.
    >
    >1. Adicione o tipo de dependência para este predecessor. Para obter mais informações, consulte [Criar predecessores entre projetos](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
    >

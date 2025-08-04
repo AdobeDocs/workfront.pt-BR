@@ -7,9 +7,9 @@ description: Após criar um modelo, você pode editar as informações sobre as 
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2493'
 ht-degree: 4%
 
 ---
@@ -31,9 +31,7 @@ Você pode editar tarefas de modelo ou editar tarefas de modelo em massa.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +43,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Novo: Padrão </p>
-   <p>Atual: Plano </p> </td> 
+   <td> <p>Padrão </p>
+   <p>Plano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso</td> 
@@ -80,7 +78,9 @@ Antes de começar, você deve
 1. Clique no nome de um template para abri-lo.
 1. Clique em **Tarefas de modelo** no painel esquerdo.
 1. Clique no nome de uma tarefa de modelo na lista para abrir a tarefa de modelo.
-1. (Opcional) Para editar várias tarefas de modelo em massa, selecione várias tarefas de modelo e clique em **Editar** na parte superior da lista de modelos.
+1. (Opcional) Clique na seção **Predecessores** no painel esquerdo para adicionar predecessores às tarefas de modelo. Adicionar predecessoras de tarefas de modelo é semelhante a adicionar predecessoras de tarefas de projeto. Para obter informações, consulte [Criar uma relação predecessora usando a área Predecessoras](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+1. (Opcional) Clique na seção **Subtarefas** no painel esquerdo para adicionar filhos à tarefa de modelo. Adicionar subtarefas para tarefas de modelo é semelhante a adicionar subtarefas de tarefas de projeto. Para obter informações, consulte a seção &quot;Criar subtarefas a partir da seção de subtarefas de tarefas&quot; no artigo [Criar subtarefas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+
 1. (Condicional) Para editar informações limitadas sobre uma tarefa de modelo, clique em **Detalhes da Tarefa de Modelo** no painel esquerdo e vá para as áreas da seção Detalhes para editar as informações de cada área.
 1. (Opcional) Clique no ícone **Recolher tudo** ![Recolher tudo](assets/collapse-all-icon.png) para recolher todas as áreas.
 1. Para editar informações na seção Detalhes, clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) e selecione uma das áreas abaixo ou clique em **Editar tudo** para editar informações em todas as áreas:
@@ -95,8 +95,8 @@ Antes de começar, você deve
    >[!TIP]
    >
    >Para obter informações sobre todos os campos exibidos na área Detalhes, continue editando todos os campos usando a caixa Editar Tarefa de Modelo, conforme descrito abaixo.
-
-1. (Condicional) Para editar todas as informações sobre a tarefa de modelo, clique no menu **Mais** ![ícone Mais](assets/qs-more-icon-on-an-object.png) ao lado do nome da tarefa de modelo e clique em **Editar**.
+1. (Opcional) Para editar várias tarefas de modelo em massa, selecione várias tarefas de modelo e clique em **Editar** na parte superior da lista de modelos.
+1. (Condicional) Para editar todas as informações sobre a tarefa de modelo ou sobre várias tarefas ao mesmo tempo, clique para selecioná-las em uma lista e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png) na parte superior da lista.
 
    A caixa **Editar Tarefa de Modelo** é exibida.
 
@@ -201,9 +201,9 @@ Antes de começar, você deve
       <td role="rowheader"><strong>Dia de Término</strong><span style="font-weight: normal;"> (Opcional e condicional)</span> </td> 
       <td> <p> Você pode especificar o Dia de Término de uma tarefa de modelo somente quando a Restrição da Tarefa for uma das seguintes:</p> 
        <ul style="list-style-type: circle;"> 
-        <li>Precisa Terminar Em</li> 
-        <li>Não Terminar Antes De</li> 
-        <li>Não Terminar Depois De</li> 
+        <li>Deve concluir em</li> 
+        <li>Não concluir antes de</li> 
+        <li>Concluir no máximo até</li> 
         <li>Datas Fixas</li> 
        </ul> <p>Corresponderá à data na linha do tempo do projeto futuro em que a tarefa será concluída. Para todas as outras restrições, o Workfront calcula o Dia de conclusão com base na Duração e na dependência do antecessor. </p> </td> 
      </tr> 

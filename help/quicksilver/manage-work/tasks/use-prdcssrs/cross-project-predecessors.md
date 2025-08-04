@@ -6,9 +6,9 @@ description: Uma Predecessora entre projetos é uma tarefa da qual outra tarefa 
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Para obter mais informações sobre relações de predecessoras, consulte [Visã
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -49,9 +49,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Novo: Padrão </p> 
-   Ou
-   <p>Atual: Plano </p>
+   <td> <p>Padrão </p>
+
+<p>Plano </p>
    </td> 
   </tr> 
   <tr> 
@@ -70,6 +70,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 +++
 
 ## Criar uma predecessora entre projetos
+
+>[!TIP]
+>
+>Embora a criação de predecessores de tarefas de modelo seja semelhante à criação de predecessores de tarefas de projeto, não é possível criar predecessores entre modelos para tarefas de modelo.
+
 
 1. Vá para a tarefa que será sua sucessora (tarefa dependente).
 1. Clique em **Predecessores** no painel esquerdo.

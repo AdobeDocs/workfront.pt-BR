@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1869'
 ht-degree: 0%
 
 ---
@@ -259,7 +259,7 @@ Esta seção descreve como você compartilha uma visualização internamente.
 1. Na guia de uma exibição, siga um destes procedimentos:
 
    * Passe o mouse sobre a guia do modo de exibição que você deseja compartilhar e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do modo de exibição e clique em **Compartilhar** > **Copiar link** na caixa **Compartilhar modo de exibição**.
-   * Clique em **Compartilhar** > **Copiar o link de exibição** > **Copiar link** na caixa **Compartilhar exibição**.
+   * Clique em **Compartilhar** > **Copiar o link de exibição** da página de tipo de registro.
 
    Um link para a exibição é copiado para a área de transferência e você recebe uma confirmação na parte inferior da tela.
 
@@ -272,10 +272,8 @@ Os usuários que acessam um link para uma exibição para a qual não têm permi
 1. (Condicional) Se você for o gerente de uma view, poderá receber uma solicitação de outro usuário para acessar a view nas seguintes áreas:
 
    * Uma notificação no aplicativo
-
      ![Notificação no aplicativo para solicitação de acesso para exibição](assets/in-app-notification-for-access-request-for-view.png)
    * Uma notificação por email
-
      ![Notificação no aplicativo para solicitação de acesso para exibição](assets/in-app-notification-for-access-request-for-view.png)
 1. (Condicional) Na área de notificação do Workfront, clique no link de notificação no aplicativo
 Ou
