@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
 workflow-type: tm+mt
 source-wordcount: '6319'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Para obter mais informações, consulte [Criar um business case para um projeto]
 
 ## Nova aparência da seção Detalhes da Fila em um modelo
 
-**Versão de visualização: 31 de julho de 2025; Versão de produção: 7 de agosto de 2025**
+**Versão de visualização: 31 de julho de 2025; Versão de produção: 14 de agosto de 2025**
 
 Atualizamos a aparência da seção Detalhes da fila de um modelo. A aparência da seção Detalhes da fila agora corresponde a outras áreas do Workfront.
 
