@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: cbdc60db525dabb93e984dff7787a83edceb6c8c
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1334'
 ht-degree: 2%
 
 ---
@@ -39,9 +39,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Aprimoramentos do Adobe Workfront
 
 * [Melhorias do administrador](#administrator-enhancements)
-* [Aprimoramentos de documento e comprovação](#document-and-proofing-enhancements)
-<!--* [Home enhancements](#home-enhancements)
-* [Requests enhancements](#requests-enhancements)-->
+* [Aprimoramentos de documentos e provas](#document-and-proofing-enhancements)
+  <!--* [Home enhancements](#home-enhancements)-->
+* [Aprimoramentos do projeto](#project-enhancements)
+  <!--* [Requests enhancements](#requests-enhancements)-->
 * [Melhorias no gerenciamento de recursos](#resource-management-enhancements)
 * [Outras melhorias](#other-enhancements)
 
@@ -131,6 +132,36 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> -->
 
+### Aprimoramentos do projeto
+
+<table style="table-layout:auto">
+  <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Novas expressões adicionadas aos campos de fórmula no Planning e aos campos personalizados calculados no Workfront</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+            <p>Adicionamos novas expressões com o seguinte uso a campos de fórmula no Workfront Planning e a campos personalizados calculados no Workfront:</p>
+            <ul>
+            <li>REMOVEACCENTS(string): remove as marcas diacríticas de todos os caracteres acentuados na string de entrada.</li>
+            <li>REPLACEPATTERN(string, padrão, string de substituição): substitui as correspondências do padrão fornecido pela string de substituição.</li>
+            <li>PASCAL(string): converte a string de entrada em PascalCase capitalizando a primeira letra de cada palavra e removendo todos os espaços.</li>
+            </ul>
+        </td>
+        <td>sexta-feira, 7 de agosto de 2025</td>
+        <td>sexta-feira, 7 de agosto de 2025</td>
+        <td>sexta-feira, 7 de agosto de 2025</td>
+    </tr> 
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Maneira adicional de acessar Atribuições Avançadas de listas</a><p></p>
+            <p>Um botão <b>Avançado</b> agora está disponível para atribuições em listas, agilizando o acesso à página Atribuições avançadas. O ícone <b>Pessoas</b> para acessar as Atribuições Avançadas também está disponível nas atribuições das listas.</p>
+        </td>
+        <td>sexta-feira, 7 de agosto de 2025</td>
+        <td>sexta-feira, 11 de setembro de 2025</td>
+        <td>sexta-feira, 16 de outubro de 2025</td>
+    </tr> 
+  </tbody>
+  </table>
+
 ### Melhorias no gerenciamento de recursos
 
 <table style="table-layout:auto">
@@ -207,7 +238,7 @@ Estamos atualizando a interface em todo o Adobe Workfront para melhorar a experi
 
 ### Aprimoramentos do Workfront Fusion
 
-Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento padrão. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Novos recursos no Workfront Fusion estão disponíveis na Produção em uma cadência fora da programação de lançamento padrão. Para obter mais informações sobre os recursos mais recentes, consulte [atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Melhorias no planejamento do Workfront
 
@@ -256,7 +287,7 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API versão 20
 
@@ -268,7 +299,7 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 

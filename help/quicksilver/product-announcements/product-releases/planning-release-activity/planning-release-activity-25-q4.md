@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: cbdc60db525dabb93e984dff7787a83edceb6c8c
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,29 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
+## Novas expressões adicionadas aos campos de fórmula no Planning
+
+>[!NOTE]
+>
+>Visualização: 7 de agosto de 2025
+>>Produção para todos os clientes:August, 2025
+>>[!BADGE Fora do cronograma]{type=Neutral}
+
+Adicionamos novas expressões com o seguinte uso a campos de fórmula no Workfront Planning e a campos personalizados calculados no Workfront:
+
+* **REMOVEACCENTS(string)**: remove marcas diacríticas de todos os caracteres acentuados na cadeia de caracteres de entrada.
+* **REPLACEPATTERN (cadeia de caracteres, padrão, cadeia de caracteres de substituição)**: substitui as correspondências do padrão fornecido pela cadeia de caracteres de substituição.
+* **PASCAL(string)**: converte a cadeia de caracteres de entrada em PascalCase capitalizando a primeira letra de cada palavra e removendo todos os espaços.
+
+Para obter mais informações, consulte [Visão geral das expressões de dados calculadas](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
 ## Adição dos botões Maximizar e Minimizar à janela de criação do campo de fórmula
 
 >[!NOTE]
 >
 >Visualização: 31 de julho de 2025
->&#x200B;>Produção para todos os clientes: 31 de julho de 2025
->&#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
+>>Produção para todos os clientes: 31 de julho de 2025
+>>[!BADGE Fora do cronograma]{type=Neutral}
 
 Adicionamos um botão Maximizar para ampliar o campo Fórmula ao criar ou editar o campo em uma exibição de tabela de registro. Além disso, adicionamos um botão Minimizar na nova janela ampliada para reverter para a caixa de criação do campo.
 
@@ -78,8 +94,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Visualização: 24 de julho de 2025
->&#x200B;>Versão rápida de produção: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Versão rápida de produção: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Agora é possível criar registros na exibição de linha do tempo de um tipo de registro clicando duas vezes em qualquer lugar da linha do tempo.
 
@@ -94,8 +110,8 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 >[!NOTE]
 >
 >Visualização: 24 de julho de 2025
->&#x200B;>Versão rápida de produção: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Versão rápida de produção: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Agora você pode compartilhar um tipo de registro no menu Mais do cartão de tipo de registro na página do espaço de trabalho. Antes desse aprimoramento, a opção Compartilhar estava disponível somente na página de tipo de registro.
 
@@ -106,8 +122,8 @@ Para obter informações, consulte [Compartilhar tipos de registros](/help/quick
 >[!NOTE]
 >
 >Visualização: 24 de julho de 2025
->&#x200B;>Versão rápida de produção: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Versão rápida de produção: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Agora é possível exibir todas as exibições do Workfront Planning (tabela, linha do tempo e calendário) no modo de tela cheia. A funcionalidade de exibição é preservada, e você também pode alterá-la enquanto estiver em tela cheia.
 
@@ -120,22 +136,8 @@ Para obter informações, consulte [Gerenciar exibições de registros](/help/qu
 >[!NOTE]
 >
 >Visualização: 22 de julho de 2025
->&#x200B;>Produção para lançamento rápido: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
-
-Para tornar o processo de aprovação mais flexível, adicionamos a capacidade de adicionar equipes como aprovadores nos formulários de solicitação do Planning. Agora é possível inserir e selecionar nomes de equipe ao configurar aprovadores. Qualquer um dos membros da equipe pode tomar uma decisão, que conta como a decisão de aprovação para toda a equipe.
-
-Anteriormente, somente usuários individuais podiam ser atribuídos como aprovadores.
-
-Para obter mais informações, consulte [Adicionar uma aprovação a um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
-
-## Adicionar equipes como aprovadores nos formulários de solicitação de planejamento
-
->[!NOTE]
->
->Visualização: 22 de julho de 2025
->&#x200B;>Produção para lançamento rápido: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Produção para lançamento rápido: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Para tornar o processo de aprovação mais flexível, adicionamos a capacidade de adicionar equipes como aprovadores nos formulários de solicitação do Planning. Agora é possível inserir e selecionar nomes de equipe ao configurar aprovadores. Qualquer um dos membros da equipe pode tomar uma decisão, que conta como a decisão de aprovação para toda a equipe.
 
@@ -148,8 +150,8 @@ Para obter mais informações, consulte [Adicionar uma aprovação a um formulá
 >[!NOTE]
 >
 >Visualização: 17 de julho de 2025
->&#x200B;>Produção para lançamento rápido: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Produção para lançamento rápido: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Estamos introduzindo os seguintes campos para capturar informações de aprovação para registros criados ao enviar uma solicitação com uma aprovação:
 
@@ -163,8 +165,8 @@ Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fie
 >[!NOTE]
 >
 >Visualização: 10 de julho de 2025
->&#x200B;>Versão rápida de produção: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Versão rápida de produção: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 
 Agora, quando você tiver agrupamentos aplicados a uma visualização de tabela, adicionar um registro à tabela preencherá automaticamente os campos associados aos agrupamentos aos quais você adiciona o registro.
