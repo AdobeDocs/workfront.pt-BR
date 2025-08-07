@@ -123,7 +123,7 @@ Com a integração entre o Workfront Planning e o GenStudio for Performance Mark
 
 * Sua organização deve comprar o Adobe GenStudio for Performance Marketing antes de exibir um espaço de trabalho do GenStudio no Workfront Planning.
 
-  Para obter mais informações sobre o GenStudio, consulte [Guia do Usuário do Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
+  Para obter mais informações sobre o GenStudio, consulte [Guia do Usuário do Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/home).
 
   Para obter mais informações sobre a integração do GenStudio e do Workfront Planning, consulte [Introdução à integração do Workfront Planning e do GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
 
