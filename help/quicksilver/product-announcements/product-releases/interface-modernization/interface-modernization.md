@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
+source-git-commit: 6e6f88362eb46122e43f049ae975a2087cdbe588
 workflow-type: tm+mt
-source-wordcount: '6617'
+source-wordcount: '6618'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ Para visualizar esta alteração, acesse Configuração > Sistema > Atualizar us
 
 ## Projetos
 
-### Atualizações de interface para registro de tempo em um projeto, tarefa ou problema na guia Horas
+### Atualizações de interface para registro de tempo em um projeto, tarefa ou problema na seção Horas
 
 **Versão de visualização: 7 de agosto de 2025; Versão de produção: 14 de agosto de 2025**
 
-Atualizamos a aparência da caixa Registrar tempo ao registrar tempo de um projeto, tarefa ou problema na guia Horas para corresponder ao design de outras áreas do Workfront.
+Atualizamos a aparência da caixa Registrar tempo ao registrar tempo de um projeto, tarefa ou problema na seção Horas, para corresponder ao design de outras áreas do Workfront.
 
 Para obter informações, consulte [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -112,9 +112,9 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 Atualizamos a aparência da caixa Enviar atualização para o usuário ao acessá-la a partir das seguintes áreas:
 
-* A seção Pessoas em um modelo
+* A seção Pessoas de um modelo
 * A seção Pessoas de um projeto
-* Uma lista de usuários em uma empresa
+* A seção Membros da Empresa de uma empresa
 * A lista de usuários na área Usuários
 
 A caixa Enviar atualização para o usuário agora corresponde a outras áreas do Workfront ao enviar uma atualização para um ou vários usuários.
