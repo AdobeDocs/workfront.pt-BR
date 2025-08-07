@@ -47,7 +47,7 @@ Com a integração entre o Workfront Planning e o GenStudio for Performance Mark
 
 * O Workfront e o GenStudio for Performance Marketing devem ser habilitados para a mesma organização.
 
-  Para obter mais informações sobre o GenStudio, consulte [Guia do Usuário do Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home).
+  Para obter mais informações sobre o GenStudio, consulte [Guia do Usuário do Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/home).
 
 * O GenStudio não estará disponível no Workfront Planning quando sua empresa tiver várias instâncias do Workfront. <!--this will change-->
 
