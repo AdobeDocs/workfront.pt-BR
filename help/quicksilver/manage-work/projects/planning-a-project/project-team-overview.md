@@ -7,9 +7,9 @@ description: Os usuários associados a um projeto em alguma capacidade compõem 
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,14 @@ ht-degree: 1%
 
 <!-- Audited: 6/2025 -->
 
-Uma equipe de projeto consiste em usuários associados a um projeto em alguma capacidade. Os usuários listados na área Pessoas de um projeto formam a equipe do projeto. Por exemplo, os usuários atribuídos para trabalhar no projeto ou o proprietário do projeto fazem parte da equipe do projeto.
+Uma equipe de projeto consiste em usuários associados a um projeto em alguma capacidade. Usuários listados na seção Pessoas de um projeto formam a equipe do projeto. Por exemplo, os usuários atribuídos para trabalhar no projeto ou o proprietário do projeto fazem parte da equipe do projeto.
 
-Os usuários associados ao trabalho em um modelo de projeto ou ao proprietário ou patrocinador do modelo fazem parte da equipe futura do projeto depois que o projeto é criado usando o modelo.
+Os seguintes usuários em um modelo de projeto fazem parte da equipe do projeto futuro depois que o projeto é criado usando o modelo:
+
+* Usuários atribuídos para trabalhar (tarefas e problemas) no modelo.
+* O proprietário ou patrocinador do modelo.
+
+Os usuários que fazem parte da futura equipe de projeto em um modelo são exibidos na seção Pessoas do modelo.
 
 ## Membros da Equipe do Projeto
 

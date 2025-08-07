@@ -4,12 +4,12 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Visão geral das expressões de dados calculadas
 description: Você pode usar expressões de dados para definir campos de dados personalizados calculados no Adobe Workfront. As expressões calculadas conectam campos existentes do Workfront em instruções que geram um novo campo.
-author: Nolan
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2551'
 ht-degree: 2%
 
 ---
@@ -414,23 +414,8 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
   </tr>
-  <tr> 
-   <td><strong>SORTASCARRAY</strong> </td> 
-   <td> <p>Ordena os elementos da matriz em ordem crescente e os converte no tipo do primeiro elemento.</p>
-   <p>A expressão é formatada da seguinte maneira:</p>
-   <p><code>SORTASCARRAY(array)</code></p>
-   <p>Por exemplo, ["-12.6", -13.0] torna-se ["-12.6", "-13"].</p>
-   <p>Nota: Essa expressão não é suportada no Workfront Planning.</p></td> 
-  </tr>
-  <tr> 
-   <td><strong>SORTDESCARRAY</strong> </td> 
-   <td> <p>Ordena os elementos da matriz em ordem decrescente e os converte no tipo do primeiro elemento.</p>
-   <p>A expressão é formatada da seguinte maneira:</p>
-   <p><code>SORTDESCARRAY(array)</code></p>
-   <p>Por exemplo, ["-12.6", -13.0] torna-se ["-13", "-12.6"].</p>
-   <p>Nota: Essa expressão não é suportada no Workfront Planning.</p></td> 
-  </tr>
-  <tr>   
+
+<tr>   
    <td><strong>CASO</strong> </td> 
    <td> <p>É usado com outras expressões para escolher um valor em uma lista, com base em um número de índice. </p>
    <p>Um número de índice é um campo ou função que retorna um valor numérico (geralmente em um intervalo conhecido).</p> 
@@ -543,10 +528,35 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
+   <td><strong>PASCAL</strong> </td> 
+   <td> <p>Converte a cadeia de caracteres de entrada em PascalCase colocando a primeira letra de cada palavra em maiúscula e removendo todos os espaços. </p>
+   <p>A expressão é formatada da seguinte maneira:</p>
+   <p><code>PASCAL(string) </code></p>
+   <p>Por exemplo, "olá mundo" torna-se "Olá mundo"</p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>REMOVEACCENTS</strong> </td> 
+   <td> <p>Remove marcas diacríticas de todos os caracteres acentuados na string de entrada. </p> 
+   <p>A expressão é formatada da seguinte maneira:</p>
+   <p><code>REMOVEACCENTS(string)</code></p> 
+   <p>Por exemplo, "Héllo wörld com àccénts" torna-se "Hello world com acentos". </p>
+   </td> 
+  </tr>
+  <tr> 
    <td><strong>SUBSTITUIR</strong> </td> 
    <td> <p>Substitui todas as ocorrências da string2 pela string3 na string1.</p> <p>A expressão é formatada da seguinte maneira:</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
+  </tr>
+
+<tr> 
+   <td><strong>REPLACEPATTERN</strong> </td> 
+   <td> <p>Substitui as correspondências do padrão fornecido pela sequência de caracteres de substituição. </p> 
+   <p>A expressão é formatada da seguinte maneira:</p>
+   <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
+   <p>Por exemplo, REPLACEPATTERN("foo123bar", "\d+", "_") gera a string "foo_bar". 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>DIREITA</strong> </td> 
@@ -560,6 +570,22 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>Ordena os elementos da matriz em ordem crescente e os converte no tipo do primeiro elemento.</p>
+   <p>A expressão é formatada da seguinte maneira:</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>Por exemplo, ["-12.6", -13.0] torna-se ["-12.6", "-13"].</p>
+   <p>Nota: Essa expressão não é suportada no Workfront Planning.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>Ordena os elementos da matriz em ordem decrescente e os converte no tipo do primeiro elemento.</p>
+   <p>A expressão é formatada da seguinte maneira:</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>Por exemplo, ["-12.6", -13.0] torna-se ["-13", "-12.6"].</p>
+   <p>Nota: Essa expressão não é suportada no Workfront Planning.</p></td> 
+  </tr>
   <tr> 
    <td><strong>CADEIA DE CARACTERES</strong> </td> 
    <td> <p>Converte um número em uma cadeia de caracteres e é formatado da seguinte maneira:</p>
@@ -603,3 +629,4 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
   </tr> 
  </tbody> 
 </table>
+
