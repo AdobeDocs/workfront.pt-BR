@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
 workflow-type: tm+mt
-source-wordcount: '6584'
+source-wordcount: '6617'
 ht-degree: 0%
 
 ---
@@ -106,13 +106,24 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-### Atualizações de interface para a caixa Enviar atualização para o usuário em um modelo
+### Atualizações de interface para a caixa Enviar atualização para o usuário em vários objetos
 
-**Versão de visualização: 31 de julho de 2025; Versão de produção: a ser definida, 2025**
+**Versão de visualização: 31 de julho de 2025; Versão de produção: 7 de agosto de 2025**
 
-Atualizamos a aparência da caixa Enviar atualização para o usuário ao acessá-la a partir da guia Pessoas em um modelo. A caixa Enviar atualização para o usuário agora corresponde a outras áreas do Workfront ao enviar uma atualização para um ou vários usuários.
+Atualizamos a aparência da caixa Enviar atualização para o usuário ao acessá-la a partir das seguintes áreas:
 
-Para obter informações, consulte [Gerenciar a equipe de criação](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+* A seção Pessoas em um modelo
+* A seção Pessoas de um projeto
+* Uma lista de usuários em uma empresa
+* A lista de usuários na área Usuários
+
+A caixa Enviar atualização para o usuário agora corresponde a outras áreas do Workfront ao enviar uma atualização para um ou vários usuários.
+
+Para obter informações, consulte os seguintes artigos:
+
+* [Enviar mensagens diretas a outros usuários](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [Gerenciar a equipe do projeto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
+* [Gerenciar associações de empresa](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
 ### Experiência atualizada ao editar um Tópico da fila em um projeto ou modelo
 
