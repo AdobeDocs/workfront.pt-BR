@@ -7,7 +7,7 @@ description: Você pode usar expressões de dados para definir campos de dados p
 author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 2%
@@ -374,7 +374,7 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
 
 É possível criar um campo personalizado calculado que exiba um valor de formato de texto usando as seguintes expressões:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto:fixed"> 
  <col> 
  <col> 
  <thead> 
@@ -555,7 +555,7 @@ Você pode criar um campo personalizado calculado que use algumas das seguintes 
    <td> <p>Substitui as correspondências do padrão fornecido pela sequência de caracteres de substituição. </p> 
    <p>A expressão é formatada da seguinte maneira:</p>
    <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
-   <p>Por exemplo, REPLACEPATTERN("foo123bar", "\d+", "_") gera a string "foo_bar". 
+   <p>Por exemplo, REPLACEPATTERN("foo123bar", "\d+", "_") gera a string "foo_bar".
    </td> 
   </tr> 
   <tr> 

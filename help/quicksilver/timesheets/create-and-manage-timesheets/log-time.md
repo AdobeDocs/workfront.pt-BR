@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '4064'
+source-wordcount: '4160'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,13 @@ ht-degree: 0%
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<!--
 <div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes após uma semana da versão de Pré-visualização.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
 </div>
-
--->
 
 Você pode registrar o tempo para itens de trabalho no Adobe Workfront para indicar o número de horas que você gasta trabalhando neles. Você também pode registrar horas que não estejam relacionadas ao trabalho, como férias, licença médica ou tempo gasto em reuniões. O horário registrado é exibido em sua folha de horas.
 
@@ -455,13 +452,13 @@ Para registrar horas na seção Horas de um projeto, tarefa ou problema:
 1. No painel esquerdo, clique em **Horas**.
 1. Clique em **Log Time**.
 
-   A caixa **Log Time** é exibida.
+   <span class="preview">A caixa **Log time** é exibida.</span>
 
-   <!--<div class="preview">
-  
-   ![Log time in the Hours section of a task](assets/log-time-box-in-hours-section-on-task.png)
+   <div class="preview">
 
-   </div>-->
+   ![Registrar tempo na seção Horas de uma tarefa](assets/log-time-box-in-hours-section-on-task.png)
+
+   </div>
 
 1. Especifique as seguintes informações:
 
@@ -475,7 +472,7 @@ Para registrar horas na seção Horas de um projeto, tarefa ou problema:
      Para obter mais informações sobre como configurar tipos de horas, consulte [Definir tipos de horas e disponibilidade](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Função de trabalho**: (condicional) se a Workfront ou o administrador de grupo tiver habilitado a configuração **Atribuir funções de trabalho a entradas de hora manualmente**, selecione uma **Função de trabalho** no menu suspenso. A Função especificada quando você está atribuído ao objeto é exibida por padrão. Se uma Função não for atribuída a você, sua Função principal é exibida como padrão. Para obter mais informações sobre essa configuração, consulte o artigo [Configurar preferências de horas e folha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-   * **Horas**: insira o número de horas do projeto, tarefa ou problema. <!--<span class="preview">In the weekly calendar, enter the number of hours for the project, task, or issue.</span>-->
+   * **Horas** ou <span class="preview">o calendário semanal</span>: insira o número de horas do projeto, tarefa ou problema. <span class="preview">No calendário semanal, insira o número de horas do projeto, tarefa ou problema.</span> O calendário semanal é exibido na área **Horas** da caixa **Tempo de Log** no ambiente de Produção.
    * **Observação**: adicione uma observação para explicar as horas. Isto foi salvo como uma **Nota de Hora** ou uma **Descrição de Hora**.
 
 1. Clique em **Log time**.
