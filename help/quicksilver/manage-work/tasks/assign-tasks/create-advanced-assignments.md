@@ -7,14 +7,16 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
 
 # Criar atribuições avançadas
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -84,7 +86,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    >[!TIP]
    >
-   >Você pode fazer atribuições avançadas diretamente na lista de tarefas ou problemas se houver duas ou mais pessoas atribuídas. Clique dentro do campo **Atribuições** na mesma linha da tarefa ou problema e clique no **ícone Pessoas** para abrir a janela Atribuições Avançadas. Vá para a etapa 5 para continuar criando atribuições avançadas.\
+   >Você pode fazer atribuições avançadas diretamente na lista de tarefas ou problemas. Clique dentro do campo **Atribuições** na mesma linha da tarefa ou do problema e clique em <span class="preview">**Avançadas**</span> ou no **ícone Pessoas** para abrir a janela Atribuições Avançadas. Vá para a etapa 5 para continuar criando atribuições avançadas.
+   ><span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+   >![Clique no ícone Avançado ou Pessoas](assets/access-aa-from-lists.png)
+   >Imagem de amostra no ambiente de produção:
    >![Clique no ícone Pessoas](assets/nwe-advanced-assignments-350x55.png)
 
 1. Clique em **Atribuir a** no campo **Atribuições** no cabeçalho da tarefa ou problema
@@ -95,7 +100,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique em **Avançado**.
 
-   ![Clique em Avançado](assets/assignments-box-in-task-header.png)
+   ![Clique em Avançado](assets/assignments-from-task-header-0825.png)
 
 1. No campo **Pesquisar pessoas, funções e equipes**, comece digitando o nome de um usuário, função ou equipe, em seguida, clique no nome quando ele aparecer na lista suspensa.
 

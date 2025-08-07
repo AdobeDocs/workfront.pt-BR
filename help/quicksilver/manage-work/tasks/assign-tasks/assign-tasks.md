@@ -7,24 +7,18 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '2012'
+source-wordcount: '1836'
 ht-degree: 1%
 
 ---
 
 # Atribuir tarefas
 
+{{preview-fast-release-general}}
+
 <!--Audited: 07/2024-->
-
-<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Para obter informações sobre a versão atual, consulte a [Visão geral da versão do Quarto Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 É possível atribuir tarefas a usuários, funções de trabalho ou equipes para indicar quem é responsável por concluir as tarefas. É possível atribuir uma tarefa a mais de um recurso por vez.
 
@@ -55,8 +49,6 @@ Além deste artigo, recomendamos que você leia os seguintes artigos para obter 
 * [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Requisitos de acesso
-
-<!-- Audited: 07/2024-->
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
@@ -152,23 +144,21 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Clique no nome das atribuições se a tarefa já estiver atribuída.
 
-   ![Atribuições](assets/assignments-box-in-task-header.png)
+   ![Atribuições](assets/assignments-from-task-header-0825.png)
 
 1. Siga um destes procedimentos:
 
-   * Comece a digitar o nome de um usuário, função ou equipe que deseja atribuir e clique nele quando ele aparecer na lista.
-
+   * Comece a digitar o nome de um usuário, função de trabalho ou equipe que deseja atribuir e clique nele quando ele aparecer na lista.
 
      >[!TIP]
      >
      >Ao adicionar uma atribuição de usuário, observe o avatar, a função principal do usuário ou seu endereço de email para distinguir entre usuários com nomes idênticos. Os usuários devem ser associados a pelo menos uma função de trabalho para visualizá-la à medida que forem adicionados.
      >
      >Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-     >
-     ><span class="preview">Ao adicionar uma atribuição de função de trabalho, você pode procurar a função de trabalho ou o local. Selecione uma função na lista Funções de trabalho para usar a taxa de cobrança padrão para a atribuição ou selecione uma função de trabalho Cartão de taxa para usar a taxa de cobrança do cartão de taxa. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
+     <!--When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). -->
 
-   * (Condicional) Clique em um dos nomes nas listas <span class="preview">**Atribuições sugeridas**</span>, **Usuários e equipes** ou **Funções de trabalho** ou <span class="preview">**Classificar funções de cartão**</span> quando forem exibidas. Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Condicional) Clique em um dos nomes nas listas **Usuários e equipes** ou **Funções de trabalho** quando forem exibidos. Para obter mais informações, consulte [Visão geral das atribuições inteligentes](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      Você pode começar a digitar o nome de qualquer usuário, equipe ou função de trabalho para atribuir à tarefa e, em seguida, selecioná-lo quando ele for exibido na lista.
 
@@ -214,15 +204,11 @@ Para atribuir tarefas em uma lista:
      >Ao adicionar uma atribuição de usuário, observe o avatar, a função principal do usuário ou seu endereço de email para distinguir entre usuários com nomes idênticos. Os usuários devem ser associados a pelo menos uma função de trabalho para visualizá-la à medida que forem adicionados.
      >
      >Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
-     >
-     ><span class="preview">Ao adicionar uma atribuição de função de trabalho, você pode procurar a função de trabalho ou o local. Selecione uma Função de trabalho para usar a taxa de cobrança padrão para a atribuição ou selecione uma função de trabalho Cartão de Taxa para usar a taxa de cobrança do cartão de taxa. Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+
+     <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. (Condicional) Quando visível no campo **Atribuições**, clique no ícone **Pessoas** no canto superior direito da caixa de atribuições para abrir a caixa **Atribuições Avançadas** e criar atribuições avançadas.
-
-   <!--
-   there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
-   -->
+1. (Condicional) No campo Atribuições, clique no ícone <span class="preview">**Avançadas**</span> ou no **ícone Pessoas** ![ícone Pessoas](assets/teams.png) no canto superior direito da caixa Atribuições para abrir a caixa **Atribuições Avançadas** e criar atribuições avançadas.
 
    Para obter mais informações, consulte [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 

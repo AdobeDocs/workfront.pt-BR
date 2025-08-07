@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # Atribuir problemas
+
+{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -170,6 +172,10 @@ Para atribuir ocorrências em uma lista:
 
    * Clique dentro do campo **Atribuições** e comece a digitar o nome de um usuário, função de trabalho ou equipe ativa que deseja atribuir ao problema, em seguida, clique nele quando ele for exibido na lista.
 
+     <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+     ![Campo de atribuições](assets/assignments-field-0825.png)
+
+     Imagem de amostra no ambiente de produção:
      ![Campo de atribuições](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
@@ -180,8 +186,7 @@ Para atribuir ocorrências em uma lista:
    >
    >Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-
-1. (Condicional) Quando visível no campo Atribuições, clique no **ícone Pessoas** ![ícone Pessoas](assets/teams.png) no canto superior direito da caixa Atribuições para abrir a caixa Atribuições avançadas e criar atribuições avançadas. Para obter mais informações, consulte [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Condicional) No campo Atribuições, clique no ícone <span class="preview">**Avançadas**</span> ou no **ícone Pessoas** ![ícone Pessoas](assets/teams.png) no canto superior direito da caixa Atribuições para abrir a caixa Atribuições Avançadas e criar atribuições avançadas. Para obter mais informações, consulte [Criar atribuições avançadas](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >

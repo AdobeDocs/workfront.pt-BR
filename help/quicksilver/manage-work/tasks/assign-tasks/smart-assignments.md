@@ -7,9 +7,9 @@ description: Ao gerenciar atribuições de tarefas e problemas, você pode usar 
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,6 @@ ht-degree: 0%
 # Visão geral das atribuições inteligentes
 
 <!--Audited: 07/2024-->
-
-<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
-
-<span class="preview">As informações destacadas nesta página se referem à funcionalidade disponível somente no ambiente de Visualização.</span>
-
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 Ao gerenciar atribuições de tarefas e problemas, você pode usar atribuições inteligentes para identificar quem é o melhor recurso para concluir o trabalho.
 
@@ -143,7 +135,7 @@ O Workfront calcula as atribuições inteligentes para tarefas da mesma maneira 
 
 <!--For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. -->
 
-As atribuições identificadas estão listadas nas seções **Usuários e equipes**, **Atribuições de funções de trabalho** e <span class="preview">**Classificar funções de cartão**</span> do campo Atribuições. <span class="preview">Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+As atribuições identificadas são listadas nas seções **Usuários e equipes** e **Funções de trabalho**<!--, and <span class="preview">**Rate card roles**</span>--> do campo Atribuições. <!--<span class="preview">For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 <!--
 ### Smart assignments criteria for tasks and issues 
