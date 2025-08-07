@@ -4,12 +4,12 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Dicionário de dados da Workfront Data Connect
 description: Esta página contém informações sobre a estrutura e o conteúdo dos dados no Workfront Data Connect.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
+source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
 workflow-type: tm+mt
-source-wordcount: '8129'
+source-wordcount: '8114'
 ht-degree: 7%
 
 ---
@@ -54,8 +54,8 @@ Os objetos no Workfront (e, portanto, no data lake da Data Connect) são definid
 
 Há vários objetos de data que fornecem informações sobre quando eventos específicos ocorrem.
 
-* `DL_LOAD_TIMESTAMP`: essa data é usada para referência interna e reflete quando os dados foram carregados na tabela Histórico Atual, de Eventos ou Diário. Essa data não deve ser usada para análise de dados e deve ser removida durante a fase beta do data lake da Workfront.
-* `CALENDAR_DATE`: esta data está presente apenas na tabela Histórico Diário. Esta tabela fornece um registro de como foram os dados às 11h59 UTC para cada data especificada em `CALENDAR_DATE`.
+* `DL_LOAD_TIMESTAMP`: Essa data é atualizada após a conclusão de uma atualização de dados bem-sucedida e inclui o carimbo de data e hora de quando o trabalho de atualização que forneceu a versão mais recente de um registro começou.
+* `CALENDAR_DATE`: esta data está presente apenas na tabela Histórico Diário. Esta tabela fornece um registro de como foram os dados às 11:59 UTC para cada data especificada em `CALENDAR_DATE`.
 * `BEGIN_EFFECTIVE_TIMESTAMP`: esta data está presente nas tabelas Evento e Histórico Diário e registra exatamente quando um registro mudou _para_ o valor que tem na linha atual.
 * `END_EFFECTIVE_TIMESTAMP`: Essa data está presente nas tabelas Evento e Histórico Diário e registra exatamente quando um registro alterou _de_ o valor na linha atual para um valor em uma linha diferente. Para permitir entre consultas em `BEGIN_EFFECTIVE_TIMESTAMP` e `END_EFFECTIVE_TIMESTAMP`, esse valor nunca é nulo, mesmo que não haja um novo valor. Caso um registro ainda seja válido (isto é, o valor não tenha sido alterado), `END_EFFECTIVE_TIMESTAMP` terá um valor 2300-01-01.
 
