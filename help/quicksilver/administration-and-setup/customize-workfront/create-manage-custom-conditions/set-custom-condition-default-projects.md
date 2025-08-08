@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
 # Definir uma condição personalizada como padrão para projetos
+
+{{highlighted-preview}}
 
 Se o Tipo de Condição de um projeto for definido como Status de Progresso em vez de Manual, o Adobe Workfront exibirá automaticamente uma das três condições padrão internas no projeto (No Destino, Em Risco ou Com Problemas) conforme avança, conforme explicado em [Visão Geral da Condição do Projeto e do Tipo de Condição](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
@@ -62,14 +64,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique em **Preferências do projeto** > **Condições**.
 
-1. Clique na guia **Projeto**.
-1. Clique em **Definir Condições Padrão**.
-1. No menu suspenso ao lado da condição padrão que deseja alterar, clique na condição personalizada que deseja usar.
+1. Clique na guia **Projetos**.
+1. Clique em **Definir condições padrão**.
+1. No menu suspenso da condição padrão que deseja alterar, clique na condição personalizada que deseja usar.
 1. Repita a etapa anterior para qualquer outra condição padrão que desejar alterar.
 1. Clique em **Salvar**.
 
 Para obter informações sobre como definir uma condição personalizada como uma condição padrão para tarefas e problemas, consulte [Definir uma condição personalizada como padrão para tarefas e problemas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 
 Para obter informações sobre como configurar um projeto para que os usuários possam atualizar sua condição manualmente, consulte [Atualizar Condição para tarefas e problemas](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
-
-Para obter informações sobre condições personalizadas, consulte [Condições personalizadas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

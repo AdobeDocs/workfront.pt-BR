@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique na guia **Tarefas** ou **Problemas**.
 
-1. Clique em **Definir Condições Padrão**.
+1. Clique em **Definir condições padrão**.
 1. No menu suspenso, clique na condição personalizada desejada como condição padrão para tarefas (ou problemas).
 1. Clique em **Salvar**.
 
@@ -70,8 +70,5 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 >
 >* Um usuário atribuído a uma tarefa ou problema, ou que tenha permissões de Gerenciamento, pode alterar sua condição manualmente. Para obter mais informações, consulte [Atualizar condição para tarefas e problemas](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
 >* As três condições padrão para tarefas e problemas que acompanham o Workfront são Indo bem, Algumas preocupações e Principais bloqueios. Não é possível ocultar ou excluir essas condições, mas você pode alterar seus nomes e cores. Ou você pode criar novos itens para usar, conforme descrito em [Criar ou editar uma condição personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
->
 
 Para obter informações sobre como configurar uma condição personalizada como uma condição padrão para projetos, consulte [Definir uma condição personalizada como padrão para projetos](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
-
-Para obter informações sobre condições personalizadas, consulte [Condições personalizadas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
