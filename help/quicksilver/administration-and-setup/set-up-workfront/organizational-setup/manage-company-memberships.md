@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: organization-setup
 title: Gerenciar Associações da Empresa
 description: Na área [!UICONTROL Empresas] da Configuração, você pode adicionar e remover os membros de uma empresa. Você também pode editar os perfis de usuário, lembrá-los de se registrar no sistema  [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront] .
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '879'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique em **[!UICONTROL Empresas]**.
 1. Clique no nome da empresa.
-1. Com a seção **[!UICONTROL Membros da Empresa]** selecionada no painel esquerdo, siga um destes procedimentos:
+1. Clique em **[!UICONTROL Membros da empresa]** no painel esquerdo.
+1. Siga um destes procedimentos:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -125,9 +126,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td role="rowheader">Enviar um comentário aos usuários e às suas áreas [!UICONTROL Atualizações]</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Selecione pelo menos um usuário e clique no ícone [!UICONTROL Comentário] <img src="assets/comment-icon.png"> na barra de ferramentas.</p> </li> 
+        <li value="1"> <p>Selecione pelo menos um usuário e clique em <b>Enviar atualização para o usuário</b> na barra de ferramentas.</p> </li> 
         <li value="2"> <p>Digite o comentário que deseja enviar aos usuários e à área [!UICONTROL Atualizações] de seus perfis de usuário.</p> </li> 
-       </ol> </td> 
+       </ol>
+       <p>Para obter mais informações, consulte <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Enviar mensagens diretas a outros usuários</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exportar a lista de membros da empresa</td> 

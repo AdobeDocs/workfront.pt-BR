@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 2%
+source-wordcount: '635'
+ht-degree: 1%
 
 ---
 
 # Criar ou editar uma condição personalizada
+
+{{highlighted-preview}}
 
 Como administrador do Adobe Workfront, você pode criar ou editar uma condição personalizada para projetos, tarefas e problemas para atender às necessidades da sua organização.
 
@@ -60,12 +62,16 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique na guia do tipo de objeto (**Projeto**, **Tarefa** ou **Problema**) que você deseja associar à condição.
 
-1. Para criar uma nova condição, clique em **Adicionar uma Nova Condição**.
+1. Para criar uma nova condição, clique em **Adicionar uma nova condição**.
 
    Ou
 
-   Para editar uma condição existente, passe o mouse sobre a condição que deseja editar, em seguida, clique no ícone **Editar** que aparece à direita.
+   Para editar uma condição existente, clique em <span class="preview">**Editar** ao lado do nome da condição</span>, ou passe o mouse sobre a condição que deseja editar, em seguida, clique no ícone **Editar** que aparece à direita.
 
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+   ![Editar condição personalizada](assets/custom-conditions-0825.png)
+
+   Imagem de amostra no ambiente de produção:
    ![Condição personalizada](assets/custom-condition-edit-nwe.jpg)
 
 1. Configure sua condição personalizada usando as seguintes opções:
@@ -87,7 +93,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td>(Opcional) Clique no ícone de cor e escolha a cor desejada para a condição quando ela for exibida em projetos, tarefas ou problemas. Você também pode digitar um número hexadecimal.</td> 
      </tr> 
      <tr> 
-      <td>Correspondente </td> 
+      <td>Igual a </td> 
       <td><p>(Obrigatório, somente para projetos) Clique na opção na lista suspensa que melhor descreve a função da nova condição. Por exemplo, para uma condição chamada Compartimento de rastreamento, você clicaria em No Target. Isso determina como as condições padrão funcionam. Todas as condições criadas devem ser iguais a uma das opções no menu suspenso.</p>
       <p>Para obter informações sobre condições padrão, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Definir uma condição personalizada como padrão para projetos</a> e <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Definir uma condição personalizada como padrão para tarefas e problemas</a>.</p>
       <p>Essa opção não poderá ser modificada depois que você terminar de criar a condição.</p></td> 
@@ -116,15 +122,17 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    * Quando um usuário edita um projeto
 
-     ![Alterar condição ao editar o projeto](assets/change-condition-edit-project.png)
+     ![Alterar condição ao editar o projeto](assets/change-condition-edit-project-0825.png)
 
-   * Quando um usuário altera a condição de uma tarefa ou problema na guia Atualizações:
+<!-- 
+   * When a user is changing the condition for a task or issue on the Updates tab:
 
-     ![Alterar condição ao atualizar o comentário](assets/change-condition-update-comment.png)
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+-->
 
-   * Quando um usuário altera a condição de uma tarefa ou problema em uma exibição de lista:
+* Quando um usuário altera a condição de uma tarefa ou problema em uma exibição de lista:
 
-     ![Alterar condição na lista](assets/change-conditions-list-dropdown-only.png)
+  ![Alterar condição na lista](assets/change-conditions-list-dropdown-only.png)
 
 1. Clique em **Salvar**.
 

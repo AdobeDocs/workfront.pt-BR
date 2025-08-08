@@ -6,9 +6,9 @@ description: Por padrão, as informações que você vê no aplicativo Web  [!DN
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '680'
 ht-degree: 1%
 
 ---
@@ -26,17 +26,18 @@ A tabela a seguir lista todas as áreas e objetos do [!DNL Workfront] que contê
 
 | Área ou objeto **[!DNL Workfront]** | **Seções padrão do sistema** | **Seções personalizadas** |
 |---|---|---|
-| Área [!UICONTROL Projetos] | ✓ µ | ✓ µ |
-| [!UICONTROL Equipe] | ✓ µ |   |
-| Área [!UICONTROL Solicitações] | ✓ µ |   |
-| Área [!UICONTROL Planilhas de Horas] | ✓ µ |   |
-| [!UICONTROL Portfolio] | ✓ µ | ✓ µ |
-| [!UICONTROL Programa] | ✓ µ | ✓ µ |
-| [!UICONTROL Projeto] | ✓ µ | ✓ µ |
-| [!UICONTROL Tarefa] | ✓ µ |  ✓ µ |
-| [!UICONTROL Problema] |  ✓ µ |  ✓ µ |
-| [!UICONTROL Usuário] |  ✓ µ |  ✓ µ |
-| [!UICONTROL Documento] |  ✓ µ |  ✓ µ |
+| Área [!UICONTROL Projetos] | ✓ | ✓ |
+| [!UICONTROL Equipe] | ✓ |   |
+| Área [!UICONTROL Solicitações] | ✓ |   |
+| Área [!UICONTROL Planilhas de Horas] | ✓ |   |
+| [!UICONTROL Portfolio] | ✓ | ✓ |
+| [!UICONTROL Programa] | ✓ | ✓ |
+| [!UICONTROL Projeto] | ✓ | ✓ |
+| [!UICONTROL Tarefa] | ✓ |  ✓ |
+| [!UICONTROL Problema] |  ✓ |  ✓ |
+| [!UICONTROL Usuário] |  ✓ |  ✓ |
+| [!UICONTROL Documento] |  ✓ |  ✓ |
+| Área [!UICONTROL Recursos] | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -51,19 +52,19 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
    <td> <p>[!UICONTROL Review] ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
+   <td role="rowheader">Configurações de nível de acesso*</td> 
    <td>[!UICONTROL Reviewer] ou superior</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permissões de objeto</strong></td> 
+   <td role="rowheader">Permissões de objeto</td> 
    <td>Visualizar acesso ao tipo de objeto</td> 
   </tr> 
  </tbody> 
