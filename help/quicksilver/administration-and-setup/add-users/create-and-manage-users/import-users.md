@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
+source-git-commit: 0239cad2d9173da20770934e6132b29301117cdf
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -72,7 +72,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique na seta suspensa **Novo Usuário** e clique em **Importar Usuários**.
 
-1. Na caixa **Importar Usuários** que é exibida, baixe o arquivo de amostra e atualize-o para incluir suas informações pessoais de usuário.
+1. Na caixa **Importar usuários** que é exibida, baixe o arquivo de amostra e atualize-o para incluir suas informações pessoais de usuário.
 
    Cada linha inclui os seguintes campos:
 
@@ -100,13 +100,17 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Clique em **Escolher arquivo** na caixa **Importar usuários**.
 
 1. Navegue até o arquivo salvo e selecione-o.
-1. (Opcional) Selecione a opção **Enviar um email de convite para este usuário** para enviar um convite por email para o usuário, notificando-o de que uma conta do Workfront foi criada e solicitando que ele defina sua senha.
 
-   Desmarque essa opção se desejar definir a senha do usuário.
+<!--
+1. (Optional) Select the **Send an invite email to this user** option to send an email invitation to the user, notifying them that a Workfront account has been created and prompting them to set their password.
+
+   Deselect this option if you want to set the password for the user.
+
+-->
 
 1. Clique em **Importar**.
 
-   Você receberá uma mensagem de confirmação na parte superior da tela de que o usuário foi importado com êxito.
+   Você receberá uma mensagem de confirmação na parte superior da tela de que os usuários foram importados com êxito.
 
 >[!NOTE]
 >
@@ -114,4 +118,4 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 > 
 >Se um usuário não sair do status Desativado e Aprovação pendente em alguns minutos e uma atualização de tela não remover o selo Aprovação pendente, é possível adicionar o lote de usuários diretamente ao Adobe Admin Console.
 >
->Para obter instruções, consulte [Gerenciar vários usuários | Upload em massa de CSV](https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html) na documentação do Adobe.
+>Para obter instruções, consulte [Gerenciar vários usuários | Upload em massa de CSV](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) na documentação do Adobe.
