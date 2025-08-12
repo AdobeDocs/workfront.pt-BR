@@ -4,9 +4,10 @@ content-type: reference
 description: Você pode usar a IA para preencher automaticamente os campos de solicitação inserindo um prompt ou fornecendo um documento.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1093'
 ht-degree: 2%
 
 ---
@@ -62,6 +63,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Pré-requisitos
 
 Para preencher automaticamente solicitações usando um prompt ou documento, **todos** dos itens a seguir devem ser aplicados:
@@ -72,6 +75,9 @@ Para preencher automaticamente solicitações usando um prompt ou documento, **t
 * A Adobe deve ter um contrato de geração de IA da Adobe assinado no arquivo
 
   Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato de IA de geração da Adobe](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) no artigo Visão geral do Assistente de IA.
+* O Assistente de IA deve estar ativado nas configurações do sistema de sua organização. Ele é gerenciado pelo administrador do Workfront.
+
+  Para obter mais informações sobre como habilitar o Assistente de IA nas configurações do sistema, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 ## Obter sugestões de um prompt de texto
 
@@ -252,4 +258,3 @@ Se você não estiver recebendo as sugestões esperadas, talvez seja devido a um
 
 * Você deve ter pelo menos um mês de dados de solicitação no sistema para que ele possa sugerir valores de campo de solicitações anteriores.
 * Talvez você não tenha seguido as medidas de proteção de carregamento de documento ao carregar um documento do qual extrair sugestões. Para obter mais informações, consulte [Medidas de proteção para o carregamento de documentos](#document-upload-guardrails) neste artigo.
-

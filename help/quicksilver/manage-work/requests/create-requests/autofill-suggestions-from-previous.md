@@ -4,7 +4,8 @@ content-type: reference
 description: Você pode usar a IA para preencher automaticamente campos de solicitação usando dados de solicitações anteriores.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -59,6 +60,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Obter sugestões ao preencher o formulário
 
