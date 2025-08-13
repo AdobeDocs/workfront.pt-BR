@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Para obter informações sobre como converter problemas em projetos, consulte [C
    * Versões
    * Provas são incluídas somente quando a opção **Manter o problema original e vincular sua resolução a esta tarefa** não está selecionada.
    * As aprovações de documentos não são incluídas ao converter um problema que tenha documentos e links de documentos anexados.
-
+* Há um limite de processamento de 5 minutos ao converter um problema. Se o problema tiver um grande número de documentos anexados a ele e não for convertido, talvez seja necessário remover alguns dos documentos e tentar novamente.
 * Se você decidir manter o problema na conversão e ele tiver documentos anexados, o documento e suas versões serão copiados para o projeto ou para a tarefa. As provas e as aprovações de documentos não são copiadas para o projeto ou para a tarefa.
 * Se você decidir não manter o problema na conversão e ele tiver documentos anexados, o documento, suas versões e as provas serão transferidos para o projeto ou a tarefa. As aprovações de documentos não serão transferidas para o projeto ou a tarefa.
 * Se você tiver documentos e pastas vinculados ao problema original de serviços de terceiros, como o Google Drive, independentemente de você estar mantendo o problema ou não durante a conversão, esses links serão copiados para o novo objeto.

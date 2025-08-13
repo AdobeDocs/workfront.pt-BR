@@ -6,9 +6,9 @@ description: Quando uma tarefa em um projeto requer uma quantidade maior de esfo
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 0c45c768be1dda579e507f5f6ff4b127021a5f73
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1189'
 ht-degree: 2%
 
 ---
@@ -52,6 +52,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 * A tarefa original é excluída.
 * Todas as subtarefas, problemas e notas são acumulados no novo projeto.
 * Documentos, versões de documentos e provas são movidos para o novo projeto.
+* Há um limite de processamento de 5 minutos ao converter uma tarefa em um projeto. Se a tarefa tiver um grande número de documentos anexados a ela e não for convertida, talvez seja necessário remover alguns dos documentos e tentar novamente.
 * O status e o percentual concluído de todas as subtarefas e problemas são preservados.
 * Os atribuídos à tarefa e o usuário que converte a tarefa no projeto se tornam usuários compartilhados no projeto.
 * A data de início do projeto é definida como a data de início da tarefa.

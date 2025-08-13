@@ -6,9 +6,9 @@ description: Se for necessário trabalhar mais para concluir um problema depois 
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 </table>
 
 *Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+
+## Considerações
+
+* Há um limite de processamento de 5 minutos ao converter um problema em uma tarefa. Se o problema tiver um grande número de documentos anexados a ele e não for convertido, talvez seja necessário remover alguns dos documentos e tentar novamente.
 
 ## Converter um problema em uma tarefa
 

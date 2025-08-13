@@ -7,9 +7,9 @@ description: O Adobe Workfront tem limites para quantos objetos podem ser associ
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,10 @@ Alguns exemplos de dependências de tarefas que podem influenciar ou impedir o r
   <tr> 
    <td role="rowheader"><p>Cálculos de linha do tempo</p></td> 
    <td>A Workfront não executa cálculos automáticos de cronograma para projetos que não foram atualizados em 6 meses e não retomarão até que uma atualização seja feita.<p>Para projetos que não são atualizados há três meses, o Workfront realiza cálculos de cronograma semanalmente em vez de à noite.</p><p>Para obter informações sobre como calcular a linha de tempo do projeto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalcular linhas de tempo do projeto</a>. </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"><p>Converter objetos </p></td> 
+   <td>O Workfront tem um limite de processamento de 5 minutos ao converter objetos. Se o objeto tiver um grande número de documentos anexados a ele, poderá falhar ao converter dentro do limite de 5 minutos. Talvez seja necessário remover alguns documentos e tentar novamente.</td> 
   </tr> 
  </tbody> 
 </table>
