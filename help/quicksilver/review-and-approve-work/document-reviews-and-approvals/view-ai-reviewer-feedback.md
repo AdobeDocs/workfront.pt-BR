@@ -6,17 +6,19 @@ description: Segundos após enviar a solicitação de aprovação, é possível 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
+source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-
 # Exibir pontuação e feedback do revisor da IA
+
+>[!NOTE]
+>
+>No momento, esse recurso está na versão beta.
 
 Segundos após enviar a solicitação de revisão e aprovação, é possível exibir a pontuação e o feedback do Revisor da IA no painel Resumo do documento.
 
