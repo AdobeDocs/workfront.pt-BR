@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
+source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
 workflow-type: tm+mt
-source-wordcount: '6622'
+source-wordcount: '6687'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ Esta página lista as atualizações de interface que estamos fazendo no Adobe W
 Para todas as outras alterações no Adobe Workfront, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administração e configuração
+
+### Atualizações de interface para itens excluídos recentemente
+
+**Versão de visualização: 14 de agosto de 2025; Versão de produção: 21 de agosto de 2025**
+
+Atualizamos a aparência dos itens excluídos recentemente na área Configuração para corresponder ao design de outras áreas do Workfront. Nenhuma funcionalidade foi alterada para projetos, tarefas, solicitações, documentos ou modelos excluídos recentemente.
+
+Para visualizar esta alteração, acesse Configuração > Lixeira > Excluído recentemente.
+
+Para obter informações, consulte [Restaurar itens excluídos](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ### Atualizações de interface para a área Condições em Configuração
 
@@ -82,7 +92,7 @@ Para obter informações, consulte [Log time](/help/quicksilver/timesheets/creat
 
 ### Atualizações de interface para um Business Case de projeto
 
-**Versão de visualização: 4 de agosto de 2025; Versão de produção: 18** de agosto
+**Versão de visualização: 4 de agosto de 2025; Versão de produção: 13 de agosto de 2025**
 
 Atualizamos a aparência do Business Case do projeto para corresponder a outras áreas do aplicativo.
 
@@ -125,15 +135,14 @@ Para obter informações, consulte os seguintes artigos:
 * [Gerenciar a equipe do projeto](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
 * [Gerenciar associações de empresa](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
-### Experiência atualizada ao editar um Tópico da fila em um projeto ou modelo
+### Experiência atualizada ao editar um Grupo de tópicos em um projeto ou modelo
 
 **Versão de visualização: 31 de julho de 2025; Versão de produção: 31 de julho de 2025**
 
-Atualizamos a aparência de um Tópico da fila ao editá-lo em um modelo. A página de edição de Tópico de fila agora corresponde ao design de outras áreas do Workfront.
+Atualizamos a aparência de um Grupo de tópicos ao editá-lo em um modelo. A página de edição Grupo de tópicos agora corresponde ao design de outras áreas do Workfront.
+Uma pequena alteração de funcionalidade foi aplicada ao Grupo de tópicos. Para editar um Grupo de Tópicos, selecione o Grupo de Tópicos na lista e clique no ícone Editar. Você não é mais direcionado à página de detalhes do Grupo de tópicos antes de poder editar.
 
-Uma pequena alteração de funcionalidade foi aplicada à lista de Regras de Roteamento. Para editar um Tópico de fila, selecione o Tópico de fila na lista e clique no ícone Editar. Você não é mais direcionado à página Detalhes do tópico da fila antes de poder editar.
-
-Para obter mais informações, consulte [Criar tópicos da fila](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Para obter mais informações, consulte [Criar grupos de tópicos](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 ### Atualizações de interface para registros de cobrança
 
@@ -215,11 +224,11 @@ Para obter informações, consulte [Importar usuários](/help/quicksilver/admini
 
 ### Administração e configuração
 
-+++Expanda para exibir as atualizações de interface de Admin e Configuração realizadas no terceiro trimestre
++++Expanda para visualizar as atualizações de interface de Admin e Configuração feitas no terceiro trimestre
 
 ### Atualizações de interface para a página Modelos de layout
 
-**Versão de visualização: 17 de julho de 2025; Versão de produção: a ser definida**
+**Versão de visualização: 17 de julho de 2025; Versão de produção: 14 de agosto de 2025**
 
 Atualizamos a página Modelos de layout com um design mais moderno e consistente com outras áreas do Workfront.
 
@@ -404,7 +413,7 @@ Nenhuma alteração de funcionalidade foi introduzida com esta atualização.
 
 ### Documentos
 
-+++Expanda para visualizar as atualizações da interface de Documentos feitas no terceiro trimestre
++++Expanda para visualizar as atualizações da interface de documentos feitas no terceiro trimestre
 
 ### Compartilhar um documento com um endereço de email externo
 
@@ -416,7 +425,7 @@ Atualizamos a caixa de diálogo de compartilhamento para permitir que os usuári
 
 ### Navegação e pesquisa
 
-+++Expanda para exibir as atualizações da interface de navegação e pesquisa realizadas no terceiro trimestre
++++Expanda para visualizar as atualizações da navegação e da interface de pesquisa feitas no terceiro trimestre
 
 ### Atualização de interface para pesquisa avançada
 
@@ -440,7 +449,7 @@ Atualizamos a página usada para conceder acesso de suporte à sua conta do Work
 
 ### Projetos
 
-+++Expanda para exibir as atualizações de interface de Projetos feitas no terceiro trimestre
++++Expanda para visualizar as atualizações de interface de Projetos feitas no terceiro trimestre
 
 <!--
 ### New look and feel for logging time on a project, task, or issue in the Hours tab   
@@ -639,7 +648,7 @@ Atualizamos a página do contrato de licença com um design mais moderno e consi
 
 ### Administração e configuração
 
-+++Expanda para exibir as atualizações da interface de Administração e Configuração realizadas no segundo trimestre
++++Expanda para visualizar as atualizações de interface de Administração e Configuração feitas no segundo trimestre
 
 ### Atualizações de interface para itens restaurados recentemente
 
@@ -891,7 +900,7 @@ Para exibir esta alteração, vá para Equipes > escolha uma equipe > Lista de p
 
 ### Documentos
 
-+++Expanda para exibir as atualizações da interface de documentos feitas no segundo trimestre
++++Expanda para visualizar as atualizações da interface de documentos feitas no segundo trimestre
 
 ### Atualizações de interface ao solicitar um documento
 
@@ -931,7 +940,7 @@ Para visualizar esta alteração, vá para a guia Documents > Click the more men
 
 ### Projetos
 
-+++Expanda para exibir as atualizações de interface de Projetos feitas no segundo trimestre
++++Expanda para visualizar as atualizações de interface de Projetos feitas no segundo trimestre
 
 ### Atualizações de aparência da área Detalhes da fila de um projeto
 
@@ -1095,7 +1104,7 @@ Adicionamos um novo botão Editar modo de texto e um modal de edição às segui
 
 ### Atualizações e comentários
 
-+++Expanda para exibir as atualizações da interface de Atualizações e Comentários feitas no segundo trimestre
++++Expanda para visualizar as atualizações da interface de Atualizações e Comentários feitas no segundo trimestre
 
 ### Atualização de interface para as opções de menu Mais para comentários
 

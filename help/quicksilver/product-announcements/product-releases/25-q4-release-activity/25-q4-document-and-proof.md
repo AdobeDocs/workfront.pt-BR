@@ -4,9 +4,10 @@ description: Aprimoramentos de documentos e provas do quarto trimestre de 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0babf2c4028ee0c45258ec3490bab336fd05a68b
+exl-id: f4615994-8a56-482c-b033-62e719be152e
+source-git-commit: 5422b7f5aa3dc1f3827c6d0d0ff559effb447fa4
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,27 @@ Esta página descreve as melhorias de documentos e provas feitas com a versão d
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2025, consulte [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Novo revisor do Workfront AI
+
+>[!NOTE]
+>
+>Disponível para todos os clientes em 14 de agosto de 2025
+
+O novo Revisor da IA do Workfront ajuda a garantir a conformidade da marca de imagem, revisando automaticamente o conteúdo em relação às diretrizes da sua marca, começando pelas diretrizes de imagem. Ele fornece uma pontuação e feedback acionável para simplificar o processo de aprovação.
+
+Você pode adicionar o Revisor de IA aos modelos de aprovação ou às solicitações individuais de revisão e aprovação, permitindo uma produção de conteúdo mais rápida e, ao mesmo tempo, mantendo os padrões da marca.
+
+Para obter mais informações, consulte [Introdução ao Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
+No momento, esse recurso está na versão beta.
+
+
 ## Nova integração de prova para o Adobe Express
+
+>[!NOTE]
+>
+>Disponível para todos os clientes em 28 de julho de 2025
+
 
 Estamos animados em anunciar uma nova integração entre o Adobe Express e a Workfront Proof.
 
