@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
+source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6776'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ Esta página lista as atualizações de interface que estamos fazendo no Adobe W
 Para todas as outras alterações no Adobe Workfront, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administração e configuração
+
+### Atualizações de interface para a caixa Enviar atualização para o usuário em grupos
+
+**Versão de visualização: 14 de agosto de 2025; Versão de produção: 14 de agosto de 2025**
+
+Atualizamos a aparência da caixa Enviar atualização para o usuário ao acessá-la a partir da lista de membros do grupo e da lista de membros do subgrupo.
+
+A caixa Enviar atualização para o usuário agora corresponde a outras áreas do Workfront ao enviar uma atualização para um ou vários usuários.
+
+Para obter informações, consulte [Exibir e gerenciar as associações de um grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) e [Exibir e gerenciar membros de um subgrupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Atualizações de interface para itens excluídos recentemente
 
@@ -85,6 +95,10 @@ Para visualizar esta alteração, acesse Configuração > Sistema > Atualizar us
 ### Atualizações de interface para registro de tempo em um projeto, tarefa ou problema na seção Horas
 
 **Versão de visualização: 7 de agosto de 2025; Versão de produção: 14 de agosto de 2025**
+
+>[!NOTE]
+>
+>Removido temporariamente da Pré-visualização e Produção
 
 Atualizamos a aparência da caixa Registrar tempo ao registrar tempo de um projeto, tarefa ou problema na seção Horas, para corresponder ao design de outras áreas do Workfront.
 
