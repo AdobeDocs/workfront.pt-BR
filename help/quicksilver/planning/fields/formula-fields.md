@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 7%
+source-wordcount: '736'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ Para obter informações, consulte a seção &quot;Fórmula&quot; no artigo [Cri
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ Para obter informações, consulte a seção &quot;Fórmula&quot; no artigo [Cri
 
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Considerações sobre campos de fórmula
 
@@ -112,6 +112,10 @@ Para obter informações, consulte a seção &quot;Fórmula&quot; no artigo [Cri
 
   Para obter mais informações, consulte a seção &quot;Fórmula&quot; no artigo [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 * Você pode fazer referência a campos de fórmula em novas fórmulas. Depois que o valor for atualizado em um campo referenciado em um campo de fórmula, todos os campos subsequentes que referenciam esse campo ou campos de fórmula que contêm esse campo serão atualizados automaticamente.
+* Campos de fórmula podem ser exibidos como `#ERROR!` nos seguintes casos:
+   * Quando um campo usado em uma fórmula é excluído.
+   * Quando um campo usado em um campo de pesquisa agregado é exibido como `#ERROR!`.
+Por exemplo, se você exibir um campo de pesquisa que contenha campos de fórmula de pesquisa agregada e um dos campos de fórmula referenciados for exibido como `#ERROR!`.
 
 ## Fórmulas compatíveis
 
