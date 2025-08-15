@@ -6,24 +6,24 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 6%
+source-wordcount: '186'
+ht-degree: 4%
 
 ---
 
 # Recuperar o trabalho nas prioridades
 
-Capturar-me — com a tecnologia do Assistente de IA da Workfront — resume atualizações, documentos carregados e outras alterações importantes sobre seus projetos nos seguintes intervalos de tempo: 24 horas, 3 dias, 7 dias, o que ajuda a reduzir a quantidade de tempo que procura informações sobre projetos ativos.
+Capturar-me—ativado pelo Assistente de IA da Workfront—resume atualizações, documentos carregados e outras alterações importantes sobre seus projetos dentro dos seguintes prazos: 24 horas, 3 dias, 7 dias. Isso ajuda a reduzir a quantidade de tempo que procura informações sobre projetos ativos.
 
 >[!NOTE]
 >
->Esse recurso só está disponível para clientes na Experiência de Adobe unificado usando o Assistente de IA. Para obter mais informações sobre o Assistente de IA, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Esse recurso só está disponível para clientes na Experiência unificada do Adobe que usam o Assistente de IA. Para obter mais informações sobre o Assistente de IA, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 ## Requisitos de acesso
 
-+++É necessário ter o seguinte acesso para executar as etapas deste artigo:
++++Você deve ter o seguinte acesso para executar as etapas deste artigo: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,9 +55,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Na parte superior da página, clique no link **Catch me up**.
    ![botão me atualizar](assets/catch-me-up-button.png)
-1. Escolha o período que deseja resumir:
-   1. 24 horas
-   1. 3 dias
-   1. 7 dias
+1. Selecione o período desejado:
+   * **Resumir as últimas 24 horas**
+   * **Resumir os últimos 3 dias**
+   * **Resumir os últimos 7 dias**
 
-   Se não conseguir interagir com esse painel, sua organização não terá um contrato de Adobe Gen AI assinado em arquivo.
+   >[!NOTE]
+   >
+   > Se não conseguir interagir com esse painel, sua organização não terá um contrato de IA do Adobe Gen assinado em arquivo.
+

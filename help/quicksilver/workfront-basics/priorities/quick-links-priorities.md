@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-priorities}}
 
-1. Clique no nome de um item de trabalho para abrir a página Visão geral.
+1. Clique em um nome de item de trabalho para abrir a página **Visão geral**.
 1. Na seção **Links rápidos**, clique em **Adicionar link**.
 1. Cole a URL na caixa **Adicionar link**.
 1. Clique em **Salvar**.
@@ -71,16 +71,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-priorities}}
 
-1. Clique no nome de um item de trabalho para abrir a página Visão geral.
+1. Clique em um nome de item de trabalho para abrir a página **Visão geral**.
 1. Na seção **Links rápidos**, localize o link que deseja copiar.
-1. Clique no ícone Copiar ![Ícone Copiar](assets/copy-icon.png).
+1. Clique no ícone **Copiar**![ Copiar](assets/copy-icon.png).
    ![Copiar link](assets/copy-link.png)
 
 ## Abrir um link rápido
 
 {{step1-to-priorities}}
 
-1. Clique no nome de um item de trabalho para abrir a página Visão geral.
+1. Clique em um nome de item de trabalho para abrir a página **Visão geral**.
 1. Na seção **Links rápidos**, localize o link que deseja abrir.
 1. Clique no link. O link é aberto em uma nova guia.
    ![Abrir link](assets/open-link.png)
@@ -89,7 +89,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 {{step1-to-priorities}}
 
-1. Clique no nome de um item de trabalho para abrir a página Visão geral.
+1. Clique em um nome de item de trabalho para abrir a página **Visão geral**.
 1. Clique em **Editar detalhes** no canto superior direito da tela.
    ![Editar detalhes](assets/edit-details.png)
-1. Localize o link que deseja remover e clique no ícone Excluir ![ícone Excluir](assets/delete-icon.png).
+1. Localize o link que deseja remover e clique no ícone **Excluir** ![Excluir](assets/delete-icon.png).

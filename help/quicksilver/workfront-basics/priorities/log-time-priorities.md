@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo e registra
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: </p>
-   <p>Leve ou superior para registrar horas em uma tarefa ou problema</p>
-   <p>Atual: 
-   <p>Trabalhar ou mais para registrar horas em uma tarefa ou problema</p> </td> 
+   <td> <p>Novo: Leve ou superior para registrar horas em uma tarefa ou problema</p>
+   <p>Atual: trabalha ou mais para registrar horas em uma tarefa ou problema</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -61,7 +59,8 @@ Você pode registrar o tempo diretamente na lista de trabalho:
 
 {{step1-to-priorities}}
 
-1. Passe o cursor do mouse sobre o nome e clique em **Registrar tempo**.
+1. Passe o mouse sobre o nome, em seguida, clique no ícone **Mais** ![Mais](assets/more-icon.png).
+1. Selecione **Log time**.
    ![Atualizar, registrar horário e carregar](assets/update-log-upload.png)
 1. No menu suspenso **Tipo de Hora**, selecione o tipo de hora apropriado. Os tipos de horas estão disponíveis dependendo do que foi definido nos níveis de sistema, projeto e usuário, conforme descrito em Definir tipos de horas e disponibilidade.
 
@@ -77,7 +76,7 @@ Você pode registrar horas em um item de trabalho individual:
 
 {{step1-to-priorities}}
 
-1. Clique no nome de um item de trabalho para abrir a página Visão geral.
+1. Clique em um nome de item de trabalho para abrir a página **Visão geral**.
 1. Na seção **Ações rápidas**, clique em **Registrar tempo**.
 1. No menu suspenso **Tipo de Hora**, selecione o tipo de hora apropriado. Os tipos de horas estão disponíveis dependendo do que foi definido nos níveis de sistema, projeto e usuário, conforme descrito em Definir tipos de horas e disponibilidade.
 1. (Condicional) Se o administrador do Workfront ou do grupo tiver ativado a configuração Atribuir funções de trabalho a entradas de hora manualmente, selecione uma função de trabalho no menu suspenso. A função especificada quando você está atribuído ao item de trabalho é exibida por padrão. Se uma função não for atribuída a você no objeto, sua função principal será exibida como padrão. Se você não tiver uma Função primária atribuída, Nenhuma Função de trabalho será exibida.

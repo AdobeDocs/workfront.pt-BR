@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -72,13 +72,18 @@ Você pode fazer upload de um documento para um item de trabalho na lista de tra
 {{step1-to-priorities}}
 
 1. Na lista de trabalho, passe o mouse sobre o nome do trabalho e clique no ícone **Resumo** ![abrir ícone de resumo](assets/summary-icon.png).
-1. Verifique se você está na guia Tarefa ou Problemas no painel.
-1. Clique no ícone Documento no painel do lado direito.
-1. Clique no ícone Upload file e escolha o arquivo.
-1. (Opcional) Siga qualquer um destes procedimentos:
-   1. Selecione uma pasta.
-   1. Faça um comentário
-   1. Adicione mais arquivos.
+1. Verifique se você está na guia **Tarefa** ou **Problemas** no painel de resumo.
+1. Clique no ícone **Carregar arquivo** ![ícone Carregar arquivo](assets/upload-file-icon.png).
+1. Arraste e solte o arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
+ou
+Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor Document Cloud.
+   ![Adicionar arquivos](assets/add-files.png)
+1. (Opcional) Adicione um comentário.
+1. (Opcional) Adicione mais arquivos.
+
+   >[!NOTE]
+   >
+   >Arquivos adicionais são carregados como documentos separados.
 1. Clique em **Carregar**.
 
 ### Detalhes do item de trabalho
@@ -86,12 +91,18 @@ Você pode fazer upload de um documento para um item de trabalho na lista de tra
 {{step1-to-priorities}}
 
 1. Na lista de trabalho, clique no nome do item de trabalho.
-1. Clique na guia Documento na parte superior da tela.
-1. Clique em **Carregar documento** > **Documento**.
-1. (Opcional) Siga qualquer um destes procedimentos:
-   1. Selecione uma pasta.
-   1. Faça um comentário
-   1. Adicione mais arquivos.
+1. Clique na guia **Documentos** na parte superior da tela.
+1. Clique em **Carregar documento** no canto superior direito e selecione **Documento**.
+1. Arraste e solte o arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
+ou
+Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor Document Cloud.
+   ![Adicionar arquivos](assets/add-files.png)
+1. (Opcional) Adicione um comentário.
+1. (Opcional) Adicione mais arquivos.
+
+   >[!NOTE]
+   >
+   >Arquivos adicionais são carregados como documentos separados.
 1. Clique em **Carregar**.
 
 
@@ -105,16 +116,17 @@ Você pode criar uma prova de um documento da lista de trabalho ou da página De
 {{step1-to-priorities}}
 
 1. Na lista de trabalho, passe o mouse sobre o nome do trabalho e clique no ícone **Resumo** ![abrir ícone de resumo](assets/summary-icon.png).
-1. Verifique se você está na guia Tarefa ou Problemas no painel.
-1. Clique no ícone **Documento** no painel lateral direito.
-1. Clique no ícone **Carregar arquivo** e escolha o arquivo.
+1. Verifique se você está na guia **Tarefa** ou **Problemas** no painel de resumo.
+1. Clique no ícone **Documentos** ![Ícone Documentos](assets/show-document-icon.png) no painel direito.
+1. Clique no ícone **Carregar arquivo** ![Ícone Carregar arquivo](assets/upload-file-icon.png) e escolha o arquivo.
 
    >[!NOTE]
    >
    >Você deve carregar o documento antes de criar a prova.
 
 
-1. Após carregar o arquivo, clique em **Criar prova**.
+1. Depois que o arquivo for carregado, selecione-o na seção **Documentos**.
+1. Clique em **Criar prova** no canto superior direito da caixa Detalhes do arquivo.
 1. Escolha uma das seguintes opções:
 
    <table style="table-layout:auto"> 
@@ -122,11 +134,11 @@ Você pode criar uma prova de um documento da lista de trabalho ou da página De
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Prova simples</td> 
+      <td role="rowheader"><b>Prova simples</b></td> 
       <td>Essa opção cria uma prova sem fluxo de trabalho anexado e aplica as configurações de prova padrão. Você pode atualizar as configurações de prova padrão ou adicionar um fluxo de trabalho depois de criar a prova. Para obter mais informações sobre configurações de prova, consulte <a href="/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Editar configurações de prova</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Prova avançada</td> 
+      <td role="rowheader"><b>Prova avançada</b></td> 
       <td> <p>Essa opção permite configurar um fluxo de trabalho Básico ou Avançado e modificar configurações de prova para a prova criada. Para obter mais informações, consulte </p> 
        <ul> 
         <li><p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Criar uma prova avançada com um fluxo de trabalho Básico</a> </p> </li> 
@@ -142,8 +154,8 @@ Você pode criar uma prova de um documento da lista de trabalho ou da página De
 {{step1-to-priorities}}
 
 1. Na lista de trabalho, clique no nome do item de trabalho.
-1. Clique na guia **Documento** na parte superior da tela.
-1. Clique em **Carregar documento** > **Prova**.
+1. Clique na guia **Documentos** na parte superior da tela.
+1. Clique em **Carregar documento** no canto superior direito e selecione **Prova**.
 1. Crie uma prova conforme descrito em
    [Criar uma prova avançada com um fluxo de trabalho Básico](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [Criar uma prova avançada com um fluxo de trabalho automatizado](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

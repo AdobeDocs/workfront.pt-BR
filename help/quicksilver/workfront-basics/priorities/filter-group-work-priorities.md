@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '653'
 ht-degree: 4%
 
 ---
@@ -64,11 +64,10 @@ Você pode filtrar tarefas e problemas atribuídos a você.
 {{step1-to-priorities}}
 
 1. Clique em **Filtros** na parte superior esquerda da lista de trabalho.
-1. Clique em **Filtros padrão**.
-1. Selecione um ou vários filtros para restringir seus itens de trabalho.
+1. Na seção **Filtros padrão**, selecione um ou mais filtros para restringir seus itens de trabalho.
    ![Filtro](assets/filter-new.png)
 
-+++Expanda para ver informações detalhadas sobre os filtros disponíveis
++++Expanda para ver informações detalhadas sobre filtros disponíveis
 <table>
   <tbody>
    <tr>
@@ -116,12 +115,12 @@ Você pode filtrar tarefas e problemas atribuídos a você.
     <td>Exibe o trabalho pela Data de Término Planejada</td>
     </tr>
     <tr>
-    <td>Status</td>
-    <td>Exibe tarefas ou problemas nos status novo, em andamento e concluído</td>
+    <td>Meu foco</td>
+    <td>Exibe tarefas ou problemas que têm níveis de foco atribuídos. Os níveis de foco são atribuídos e gerenciados pelo usuário individual.</td>
     </tr>
     <tr>
-    <td>Meu foco</td>
-    <td>Exibe tarefas ou problemas no que têm níveis de foco atribuídos. Os níveis de foco são atribuídos e gerenciados pelo usuário individual.</td>
+    <td>Status</td>
+    <td>Exibe tarefas ou problemas nos status novo, em andamento e concluído.</td>
     </tr>
   </tbody>
 </table>
@@ -136,7 +135,7 @@ Use a linguagem natural para filtrar rapidamente o trabalho.
 
 >[!NOTE]
 >
->Esse recurso só está disponível para clientes na Experiência unificada do Adobe que usam o Assistente de IA. Para obter mais informações sobre o Assistente de IA, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>Esse recurso só está disponível para clientes na Experiência unificada do Adobe usando o Assistente de IA. Para obter mais informações sobre o Assistente de IA, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 {{step1-to-priorities}}
 
@@ -146,18 +145,16 @@ Use a linguagem natural para filtrar rapidamente o trabalho.
 
    Você pode digitar itens como:
 
-   * Mostrar tarefas atrasadas
-   * Mostrar minhas prioridades principais
-   * Mostrar trabalho com vencimento hoje
-
-</div>
+   * *Mostrar tarefas atrasadas*
+   * *Mostrar minhas prioridades principais*
+   * *Mostrar trabalho com vencimento hoje*
 
 ## Agrupar seu trabalho
 
 {{step1-to-priorities}}
 
 1. Clique em **Grupos** na parte superior esquerda da lista de trabalho.
-1. Selecione um grupo para organizar sua lista de trabalho
+1. Selecione um grupo para organizar sua lista de trabalho.
    ![Grupos](assets/groups-new.png)
 
 +++Expanda para ver informações detalhadas sobre grupos disponíveis
@@ -165,9 +162,9 @@ Use a linguagem natural para filtrar rapidamente o trabalho.
 | Grupo | Descrição |
 |-----------|-------------|
 | Projeto | Isso agrupa itens por projeto. |
+| Data final | Isso agrupa itens com base no vencimento. As datas de vencimento são determinadas pela Data de conclusão planejada. |
 | Meu foco | Isso agrupa itens com base no nível de foco atribuído. |
-| Semana do prazo | Isso agrupa itens com base na semana de vencimento. As datas de vencimento são determinadas pela Data de conclusão planejada. |
-| Status | Isso agrupa itens pelos seguintes status: Novo, Em andamento, Concluído. <br>Observação: no momento, você não pode usar status personalizados em Prioridades. |
+| Status | Isso agrupa itens pelos seguintes status: Novo, Em andamento, Concluído. <br><b>Observação</b>: no momento, você não pode usar status personalizados em Prioridades. |
 
 +++
 
@@ -176,14 +173,14 @@ Use a linguagem natural para filtrar rapidamente o trabalho.
 Você pode arrastar e soltar itens de trabalho individuais entre categorias ao agrupar por Minha Prioridade ou Status.
 
 1. Agrupe seu trabalho por **Status** ou **Minha Prioridade**.
-2. Passe o mouse sobre o item de trabalho para encontrar o ícone de mover e arraste-o para a categoria desejada.
+2. Passe o mouse sobre o item de trabalho para clicar no ícone **Arrastar** e movê-lo para a categoria desejada.
    ![ícone de arrastar](assets/drag-and-drop.png)
 
 ## Classifique seu trabalho
 
 ### Classificar em grupos
 
-Para classificar seu trabalho em um grupo, abra o **Grupo** e clique em **Classificar em ordem crescente** ou **Classificar em ordem decrescente**.
+Para classificar seu trabalho em um grupo, abra **Grupo** e selecione se deseja classificar em ordem crescente ou decrescente.
 
 ![Classificar em grupos](assets/sort-in-groups.png)
 

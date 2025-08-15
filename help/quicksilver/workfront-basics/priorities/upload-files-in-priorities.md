@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ Para descobrir seu plano, tipo de licença ou acesso, entre em contato com o adm
 
 {{step1-to-priorities}}
 
-1. Passe o cursor do mouse sobre o nome e clique em **Carregar**.
+1. Passe o mouse sobre o nome, em seguida, clique no ícone **Mais** ![Mais](assets/more-icon.png).
+1. Clique em **Carregar**.
    ![Atualizar, registrar horário e carregar](assets/update-log-upload.png)
-1. (Opcional) Selecione uma pasta.
+1. (Opcional) Na caixa **Carregar arquivos**, selecione uma pasta.
 1. Arraste e solte o arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
 ou
 Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor Document Cloud.
@@ -68,16 +69,14 @@ Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de 
    >
    >Arquivos adicionais são carregados como documentos separados.
 1. Clique em **Carregar**.
-   ![Carregar arquivo](assets/upload-file-module.png)
-
 
 ## Fazer upload de um arquivo em um item de trabalho
 
 {{step1-to-priorities}}
 
-1. Clique no nome de um item de trabalho para abrir a página Visão geral.
-1. Na seção **Ações rápidas**, clique em **Carregar**.
-1. (Opcional) Selecione uma pasta.
+1. Clique em um nome de item de trabalho para abrir a página **Visão geral**.
+1. Na seção **Ações rápidas**, clique em **Carregar** e selecione **Documento**.
+1. (Opcional) Na caixa **Carregar arquivos**, selecione uma pasta.
 1. Arraste e solte o arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
 ou
 Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor Document Cloud.
@@ -89,4 +88,3 @@ Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de 
    >
    >Arquivos adicionais são carregados como documentos separados.
 1. Clique em **Carregar**.
-   ![Carregar arquivo](assets/upload-file-module.png)

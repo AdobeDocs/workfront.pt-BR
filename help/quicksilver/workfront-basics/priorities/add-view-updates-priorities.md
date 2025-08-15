@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -87,9 +87,9 @@ Você pode adicionar comentários e exibir comentários e atualizações do sist
 
 1. Clique em um nome de item de trabalho para abrir a página **Visão geral**.
 1. Localize a área **Atualizações** no canto inferior direito da tela.
-1. (Opcional) Use a guia **Comentários** para atualizar as atualizações feitas por outras pessoas no item de trabalho.
+1. (Opcional) Use a guia **Comentários** para exibir as atualizações feitas por outras pessoas no item de trabalho.
 1. (Opcional) Use a guia **Atividade do sistema** para exibir a atividade do sistema relacionada ao item de trabalho.
-1. (Opcional) Para adicionar um comentário, vá para a guia **Comentário** e comece a digitar na caixa Novo comentário. Clique em **Enviar** quando terminar.
+1. (Opcional) Para adicionar um comentário, vá para a guia **Comentário** e comece a digitar na caixa **Novo comentário**. Clique em **Enviar** quando terminar.
    ![Área de atualizações](assets/updates-area-in-overview.png)
 
 ## Responder a um comentário
@@ -101,12 +101,12 @@ Você pode responder a um comentário em um item de trabalho:
 1. Clique em um nome de item de trabalho para abrir a página **Visão geral**.
 1. Localize a área **Atualizações** no canto inferior direito da tela.
 1. Na guia **Comentários**, localize o comentário que deseja responder e clique em **Responder**.
-1. (Condicional) Se desejar responder para inserir o conteúdo de uma mensagem em sua resposta, clique no ícone de menu **Mais** ![Mais menu](assets/more-icon.png) ao lado do corpo da mensagem e escolha **Citar resposta**.
+1. (Condicional) Se quiser trazer o conteúdo de uma mensagem para sua resposta, clique no ícone de menu **Mais** ![Mais menu](assets/more-icon.png) ao lado do corpo da mensagem e escolha **Citar resposta**.
 
 1. Digite sua resposta e clique em **Enviar**.
 
    >[!IMPORTANT]
    >
-   >Você pode editar seu comentário somente em 15 minutos a partir do envio. Para editar um comentário, clique no menu Mais no canto superior direito do comentário e clique em Editar.
+   >Você pode editar seu comentário somente em 15 minutos a partir do envio. Para editar um comentário, clique no menu **Mais** no canto superior direito do comentário e clique em **Editar**.
 
    ![Responder ao comentário](assets/reply-to-comment.png)

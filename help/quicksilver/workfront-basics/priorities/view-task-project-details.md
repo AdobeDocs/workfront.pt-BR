@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 1%
@@ -74,7 +74,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * Exibir e adicionar comentários ao projeto
    * Registrar de tempo
    * Adicionar um arquivo
-   * <span class="preview">Ir diretamente para o projeto</span>
+   * Ir diretamente para o projeto
 
    ![detalhes do projeto](assets/project-details-new.png)
 
@@ -101,7 +101,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Na lista de trabalho, passe o mouse sobre o nome do trabalho e clique no ícone **Resumo** ![abrir ícone de resumo](assets/summary-icon.png).
 
-1. Problema é selecionado por padrão. Aqui você pode
+1. Problema é selecionado por padrão. Aqui você pode:
    * Exibir e editar detalhes e descrição do projeto e do problema
    * Exibir e adicionar comentários ao projeto
    * Exibir e adicionar documentos
@@ -116,7 +116,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 Você pode exibir atualizações em tempo real na página Detalhes de uma tarefa ou problema. Você também pode ver se outros estão visualizando a página ao mesmo tempo que você com indicadores de presença em tempo real.
 
-## Exibir detalhes do item de trabalho
+### Exibir detalhes do item de trabalho
 
 {{step1-to-priorities}}
 
