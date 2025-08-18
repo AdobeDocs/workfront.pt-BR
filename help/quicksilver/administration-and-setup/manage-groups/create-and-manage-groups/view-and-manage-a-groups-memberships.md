@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td role="rowheader">Editar informações de perfil de um usuário</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Selecione um ou mais nomes de usuário e clique em <strong>Editar</strong> <img src="assets/edit-icon.png">.</li> 
+        <li value="1">Selecione um ou mais nomes de usuários e clique em <strong>Editar</strong> <img src="assets/edit-icon.png">.</li> 
         <li value="2"> <p>Alterar as informações de perfil do usuário.</p> <p>Para obter informações sobre as alterações que você pode fazer, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar perfil de um usuário</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -104,8 +104,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td role="rowheader">Exportar dados de associação do usuário</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Selecione um ou mais nomes de usuário e clique em <strong>Exportar</strong> <img src="assets/export.png">.</li> 
-        <li value="2"> <p>Exporte os dados como um arquivo delimitado por PDF, Excel ou tabulação.</p> <p>Para obter mais informações sobre como exportar dados, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportar dados</a>.</p> </li> 
+        <li value="1">Selecione um ou mais nomes de usuários e clique em <strong>Exportar</strong> <img src="assets/export.png">.</li> 
+        <li value="2"> <p>Exporte os dados como um arquivo PDF, Excel ou delimitado por tabulação.</p> <p>Para obter mais informações sobre como exportar dados, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportar dados</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -116,8 +116,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td role="rowheader">Enviar um comentário aos membros do grupo</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Selecione um ou mais nomes de usuário e clique em <strong>Atualizar</strong> <img src="assets/comment-icon.png">.</li> 
-        <li value="2">Digite o comentário.</li> 
+        <li value="1">Selecione pelo menos um membro do grupo e clique em <strong>Enviar atualização para o usuário</strong> na barra de ferramentas.</li> 
+        <li value="2"><p>Digite o comentário que deseja enviar aos usuários e à área Atualizações dos perfis de usuários.</p>
+        <p>Para obter mais informações, consulte <a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md">Enviar mensagens diretas a outros usuários</a>.</p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
