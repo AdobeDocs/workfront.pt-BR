@@ -6,9 +6,9 @@ description: Para permitir que as alterações feitas nos perfis de folha de hor
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: c9df676467007a84920073fe06bc3c73b18a89ae
+source-git-commit: 311816df863d3c03a54d43c8fa3cac69d2d6d7d4
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,8 @@ Você pode gerar manualmente folhas de horas no nível do sistema ou do grupo na
    Se você estiver gerando planilhas de horas usadas por um grupo específico, clique em **Grupos** e, em seguida, clique no nome do grupo.
 
 1. Clique em **Perfis de Planilha de Horas**.
+1. Clique no ícone mais ![ícone mais](assets/more-icon.png), em seguida **Gerar Planilhas de Horas**.
+
 1. Na parte superior da lista de perfis de folha de horas, clique no ícone **Mais** ícone ![Mais](assets/more-icon.png) para perfis de folha de horas no nível do sistema, ou **Mais** para perfis de folha de horas de grupo, e clique em **Gerar folhas de horas**.
 
    Novas folhas de horas são criadas para até dois períodos de tempo para usuários associados a perfis de folha de horas.

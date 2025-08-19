@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 994518f7abe519180fa6c3eab6b29165475ab4fc
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >As opções no menu suspenso Tipo de ação variam de acordo com o log de auditoria selecionado.
 
-   ![Logs de auditoria](assets/audit-logs.jpg)
+   ![Logs de auditoria](assets/audit-logs.png)
 
 1. Clique em **Aplicar**.
 1. (Opcional) Clique em **Limpar Filtros** para redefinir as alterações feitas nos filtros.
@@ -86,7 +86,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step-1-to-setup}}
 
-1. No painel esquerdo, clique em **Sistema > Logs de auditoria**.
+1. No painel esquerdo, clique em **Sistema > Controle de alterações > Logs de auditoria**.
 
 1. No menu suspenso **Tipo de Log**, selecione um log de auditoria.
 
