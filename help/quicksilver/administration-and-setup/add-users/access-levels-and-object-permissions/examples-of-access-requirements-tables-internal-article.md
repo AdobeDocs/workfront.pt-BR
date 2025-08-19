@@ -213,12 +213,12 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
 <tr> 
    <td role="rowheader"><p>Pacotes Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer pacote do Adobe Workfront ou pacote do fluxo de trabalho do Adobe Workfront</p> (***isso é demais****)
+<p>Qualquer pacote do Adobe Workfront ou pacote do fluxo de trabalho do Adobe Workfront</p> (***isso é demais**&#x200B;**)
 
 E
 <p>Qualquer pacote do Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Plataforma Adobe Workfront (****queremos chamar isso ou simplesmente incluí-lo no artigo vinculado na parte inferior???*****)</p></td> 
+<td role="rowheader"><p>Plataforma Adobe Workfront (**&#x200B;**&#x200B;queremos chamar isso ou simplesmente incluí-lo no artigo vinculado na parte inferior???**&#x200B;***)</p></td> 
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p> 
 <p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
