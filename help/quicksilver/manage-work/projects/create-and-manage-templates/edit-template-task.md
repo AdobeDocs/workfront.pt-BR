@@ -7,9 +7,9 @@ description: Após criar um modelo, você pode editar as informações sobre as 
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2491'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Você pode editar tarefas de modelo ou editar tarefas de modelo em massa.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Você pode editar tarefas de modelo ou editar tarefas de modelo em massa.
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Padrão </p>
+   <td> <p>Standard </p>
    <p>Plano </p> </td> 
   </tr> 
   <tr> 
@@ -52,7 +52,7 @@ Você pode editar tarefas de modelo ou editar tarefas de modelo em massa.
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto </td> 
-   <td> <p>Gerenciar permissões de um modelo. </p> <p>Permissões do Contribute ou superior para a tarefa de modelo.</p> </td> 
+   <td> <p>Gerenciar permissões de um modelo. </p> <p>Não é possível compartilhar uma tarefa de modelo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

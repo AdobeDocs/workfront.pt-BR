@@ -6,9 +6,9 @@ description: Você pode copiar ou mover uma tarefa de modelo para o mesmo modelo
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2091'
 ht-degree: 3%
 
 ---
@@ -35,13 +35,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a modelos</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+   <td> <p>Editar acesso a modelos</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um modelo e para a tarefa de modelo </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar permissões para um modelo.</p> <p>Não é possível compartilhar uma tarefa de modelo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +85,7 @@ Você pode copiar uma única tarefa de modelo ou pode copiar várias tarefas de 
 1. Siga um destes procedimentos:
    * Clique no nome de uma tarefa de modelo para abri-la.
    * Selecione uma ou várias tarefas de modelo na lista.
-1. (Condicional) Clique no ícone ![Mais **do menu** Mais](assets/more-icon.png) na parte superior da lista de tarefas de modelo ou à direita do nome da tarefa de modelo, se você tiver aberto a tarefa. Em seguida, clique em **Copiar para** ou **Copiar**, dependendo de onde você está acessando a opção Copiar.
+1. (Condicional) Clique no ícone **Mais** do menu ![Mais](assets/more-icon.png) na parte superior da lista de tarefas de modelo ou à direita do nome da tarefa de modelo, se você tiver aberto a tarefa. Em seguida, clique em **Copiar para** ou **Copiar**, dependendo de onde você está acessando a opção Copiar.
 A caixa Copiar Modelo de Tarefa é aberta.
    ![Caixa de tarefa de modelo de CPU](assets/copy-template-task-box-unshimmed.png)
 1. (Opcional) Renomeie a tarefa de modelo no campo **Nome da Tarefa de Modelo**.
@@ -133,7 +131,7 @@ A caixa Copiar Modelo de Tarefa é aberta.
    Veja a seguir exemplos de restrições específicas de data:
    <ul>
       <li> Precisa Iniciar Em</li>
-      <li> Precisa Terminar Em</li>
+      <li> Deve concluir em</li>
       <li> Não Iniciar Antes De</li>
       <li> Não Iniciar Depois De</li>
       </ul>
@@ -257,7 +255,7 @@ A caixa Mover Modelo de Tarefa é aberta.
    Veja a seguir exemplos de restrições específicas de data:
    <ul>
       <li> Início em</li>
-      <li> Precisa Terminar Em</li>
+      <li> Deve concluir em</li>
       <li> Não Iniciar Antes De</li>
       <li> Não Iniciar Depois De</li>
       </ul>
