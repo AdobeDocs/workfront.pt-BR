@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
+source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
 workflow-type: tm+mt
-source-wordcount: '6776'
+source-wordcount: '6894'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,24 @@ Esta página lista as atualizações de interface que estamos fazendo no Adobe W
 Para todas as outras alterações no Adobe Workfront, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administração e configuração
+
+### Atualizações de interface para a página de notificações de Revisão e Aprovação na Configuração
+
+**Versão de visualização: 18 de agosto de 2025; Versão de produção: 18 de agosto de 2025**
+
+Atualizamos a página de notificações Revisar e aprovar com um design mais moderno e consistente com outras áreas do Workfront.
+
+Para visualizar essas alterações, acesse Configurar > Email > Revisar e aprovar.
+
+### Atualizações de interface para as caixas de diálogo Adicionar e editar registros de cobrança
+
+**Versão de visualização: 14 de agosto de 2025; Versão de produção: 18 de agosto de 2025**
+
+Atualizamos as caixas de diálogo para adicionar e editar registros de cobrança com um design mais moderno que é consistente com outras áreas do Workfront.
+
+Para visualizar essas alterações, vá para Projetos > Selecione um projeto > Registros de cobrança > adicionar um registro de cobrança ou editar um registro de cobrança
+
+Para obter informações, consulte [Criar registros de cobrança](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md).
 
 ### Atualizações de interface para a caixa Enviar atualização para o usuário em grupos
 
@@ -43,6 +61,7 @@ Atualizamos a aparência dos itens excluídos recentemente na área Configuraç�
 Para visualizar esta alteração, acesse Configuração > Lixeira > Excluído recentemente.
 
 Para obter informações, consulte [Restaurar itens excluídos](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+
 
 ### Atualizações de interface para a área Condições em Configuração
 
@@ -84,7 +103,7 @@ Para visualizar esta alteração, acesse Configurar > Controle de alterações >
 
 ### Atualizações de interface na página Atualizar usuários para SSO em Configuração
 
-**Versão de visualização: 22 de julho de 2025; Versão de produção: 28 de julho de 2025**
+**Versão de visualização: 22 de julho de 2025; Versão de produção: 18 de agosto de 2025**
 
 Atualizamos a página Atualizar usuários para SSO com um design mais moderno e consistente com outras áreas do Workfront.
 

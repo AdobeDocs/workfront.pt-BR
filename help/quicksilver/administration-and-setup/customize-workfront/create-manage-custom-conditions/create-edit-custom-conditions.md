@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 1%
+source-wordcount: '601'
+ht-degree: 2%
 
 ---
 
 # Criar ou editar uma condição personalizada
-
-{{highlighted-preview}}
 
 Como administrador do Adobe Workfront, você pode criar ou editar uma condição personalizada para projetos, tarefas e problemas para atender às necessidades da sua organização.
 
@@ -66,13 +64,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Ou
 
-   Para editar uma condição existente, clique em <span class="preview">**Editar** ao lado do nome da condição</span>, ou passe o mouse sobre a condição que deseja editar, em seguida, clique no ícone **Editar** que aparece à direita.
+   Para editar uma condição existente, clique em **Editar** ao lado do nome da condição.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Editar condição personalizada](assets/custom-conditions-0825.png)
-
-   Imagem de amostra no ambiente de produção:
-   ![Condição personalizada](assets/custom-condition-edit-nwe.jpg)
 
 1. Configure sua condição personalizada usando as seguintes opções:
 
@@ -93,7 +87,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td>(Opcional) Clique no ícone de cor e escolha a cor desejada para a condição quando ela for exibida em projetos, tarefas ou problemas. Você também pode digitar um número hexadecimal.</td> 
      </tr> 
      <tr> 
-      <td>Igual a </td> 
+      <td>Equivalente a </td> 
       <td><p>(Obrigatório, somente para projetos) Clique na opção na lista suspensa que melhor descreve a função da nova condição. Por exemplo, para uma condição chamada Compartimento de rastreamento, você clicaria em No Target. Isso determina como as condições padrão funcionam. Todas as condições criadas devem ser iguais a uma das opções no menu suspenso.</p>
       <p>Para obter informações sobre condições padrão, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Definir uma condição personalizada como padrão para projetos</a> e <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Definir uma condição personalizada como padrão para tarefas e problemas</a>.</p>
       <p>Essa opção não poderá ser modificada depois que você terminar de criar a condição.</p></td> 

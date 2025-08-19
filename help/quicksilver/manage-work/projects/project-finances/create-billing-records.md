@@ -5,7 +5,7 @@ description: Além de configurar as despesas de rastreamento e receita, você po
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
+source-git-commit: 4805b93be7ce3dc098c7e160cdb872446f80ecbd
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Considere o seguinte ao planejar usar registros de faturamento:
 1. Na página **Projetos**, selecione um projeto.
 1. Clique em **Registros de cobrança** no painel esquerdo.
 1. Clique em **Novo registro de cobrança**.
-1. Na caixa **Novo Registro de Cobrança** que é exibida, especifique as seguintes informações:
+1. Na caixa **Novo registro de cobrança** que é exibida, insira as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -87,16 +87,16 @@ Considere o seguinte ao planejar usar registros de faturamento:
       <td>(Obrigatório) Informe uma descrição para o registro de faturamento.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Status da Cobrança</td> 
+      <td role="rowheader">Status do faturamento</td> 
       <td> <p>Selecione <strong>Não faturado</strong> se este registro ainda não tiver sido faturado.</p> <p>Selecione <strong>Faturado</strong> se o registro de cobrança tiver sido faturado.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Data de Cobrança</td> 
+      <td role="rowheader">Data de faturamento</td> 
       <td>Selecione a data em que este registro de cobrança foi faturado clicando no ícone de calendário.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Número do Pedido</td> 
-      <td>Informe o Número da OC associado a este registro de faturamento.</td> 
+      <td role="rowheader">Número da fatura</td> 
+      <td>Informe o número da OC associado a este registro de faturamento.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">ID da Fatura</td> 
