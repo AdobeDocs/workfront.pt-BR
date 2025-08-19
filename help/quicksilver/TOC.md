@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 629e7943e7f14e555bf658d6b5c04c2b647b6f83
 workflow-type: tm+mt
-source-wordcount: '13424'
+source-wordcount: '13427'
 ht-degree: 2%
 
 ---
@@ -13,8 +13,8 @@ ht-degree: 2%
 # Guia do Workfront {#using}
 
 * [Documentação do Workfront](home.md)
-* Anúncios de produtos {#product-announcements}
-   * [Anúncios de produtos](product-announcements/product-announcements.md)
+* Anúncios de produto {#product-announcements}
+   * [Anúncios de produto](product-announcements/product-announcements.md)
    * Versões do produto {#product-releases}
       * [Visão geral de versões do produto](product-announcements/product-releases/product-releases.md)
       * [Programação e processo de lançamento do Adobe Workfront](product-announcements/product-releases/workfront-release-schedule.md)
@@ -682,8 +682,8 @@ ht-degree: 2%
          * [Exibir itens restaurados](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
          * [Como os objetos excluídos afetam as horas](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [Restaurar objetos filho individuais](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
-      * Diagnósticos {#diagnostics}
-         * [Diagnósticos](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
+      * Diagnóstico {#diagnostics}
+         * [Diagnóstico](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
          * [Usar diagnósticos para acionar automações](administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)
       * Início {#kick-starts}
          * [Início](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
@@ -885,6 +885,7 @@ ht-degree: 2%
       * [Usar o Assistente de IA para trabalhar com projetos, tarefas e problemas](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [Ativar ou desativar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [Preencher uma solicitação automaticamente usando IA](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
+      * [Visão geral da Integridade do Projeto](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
    * Atualizar itens de trabalho e exibir atualizações {#update-work-items-view-updates}
       * [Atualizar itens de trabalho e exibir atualizações: índice do artigo](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Visão geral da seção Atualizações](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -1533,7 +1534,7 @@ ht-degree: 2%
       * [Relatórios](reports-and-dashboards/reports/reports-overview.md)
       * Noções básicas de relatórios {#report-basics}
          * [Noções básicas de relatório: índice do artigo](reports-and-dashboards/reports/reporting/reporting-basics.md)
-         * [Introdução a relatórios](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+         * [Introdução aos relatórios](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [Salvar relatórios padrão como novos relatórios](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
       * Elementos de relatório {#report-elements}
          * [Visão geral dos elementos de relatório](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
