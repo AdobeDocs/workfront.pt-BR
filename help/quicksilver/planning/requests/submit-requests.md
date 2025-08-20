@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Para obter informações sobre como um gerenciador de espaço de trabalho pode c
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto">
  <col>
@@ -162,7 +162,7 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
 
 1. Clique em **Nova solicitação**.
 
-   ![Nova caixa de solicitação com cartões unificados do Workfront e do Planning](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
    A caixa **Nova solicitação** é aberta com as seguintes informações:
 
@@ -171,7 +171,7 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
 
 1. Siga um destes procedimentos:
 
-   * Clique no cartão para um dos formulários de solicitação do Planning nas seções Formulários de solicitação Recentes ou Todos
+   * Selecione os formulários de solicitação do Planning nas seções Formulários de solicitação Recentes ou Todos
    * Comece digitando o nome de um formulário de solicitação do Planning na caixa de pesquisa e, em seguida, clique no cartão quando ele for exibido na lista.
 
    O formulário de solicitação é aberto.
