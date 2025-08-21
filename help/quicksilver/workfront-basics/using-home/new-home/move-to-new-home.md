@@ -272,7 +272,7 @@ Fazer isso o mais rápido possível dará aos usuários tempo para se ajustarem 
 
 **Treinamento**
 
-* [Tutorial sobre remoção, adição e reorganização de widgets na Página Inicial](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Tutorial sobre remoção, adição e reorganização de widgets na Página Inicial](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Fundamentos do Worker no Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
