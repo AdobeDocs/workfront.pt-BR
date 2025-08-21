@@ -6,9 +6,9 @@ description: Você pode criar itens de trabalho e projetos na área [!UICONTROL 
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 04a9524c4ee9066e7b8d3b47712d70fcfc119b32
+source-git-commit: e3e297bc548338032bc8f321ad3e1214be9cdee4
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '878'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Em Casa, você pode
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -51,6 +51,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader"><strong>Permissões de objeto</strong></td> 
    <td> <p>[!UICONTROL Editar] acesso ou superior em tarefas</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
+   <td> <ul><li>Adobe Workfront</li><li>Você precisa ter o Adobe Workfront Planning para exibir solicitações ou formulários de solicitação do Planning</td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,17 +134,17 @@ Você pode adicionar um problema a um projeto existente diretamente da área da 
 Você pode criar uma solicitação diretamente da área Página inicial:
 
 1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
-1. (Condicional) Adicione o widget **Minhas solicitações** à sua tela inicial. Clique em **Personalizar** e localize **Minhas Solicitações**.
+1. (Condicional) Para adicionar o widget **Minhas solicitações** à sua tela inicial. Clique em **Personalizar** e localize **Minhas Solicitações**.
 1. Vá para o widget **Minhas solicitações** e clique em **Novo**.
-   ![Criar nova solicitação](assets/create-new-request.png)
+   ![Criar nova solicitação](assets/create-new-request-new.png)
 
-1. Na caixa de diálogo **Nova solicitação**, comece a digitar o nome da fila de solicitações.
+1. Na caixa de diálogo **Nova solicitação**, comece digitando o nome da fila de solicitações do Workfront ou do formulário de solicitação do Workfront Planning na barra de pesquisa e, em seguida, selecione-o quando ele aparecer.
 1. Preencha os campos relevantes.
 1. Clique em **Enviar**.
 
 Para obter mais informações sobre o envio de solicitações, consulte [Criar e enviar solicitações](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-## Criar um Projeto
+## Criar um projeto
 
 Você pode criar um projeto diretamente na área Página inicial:
 

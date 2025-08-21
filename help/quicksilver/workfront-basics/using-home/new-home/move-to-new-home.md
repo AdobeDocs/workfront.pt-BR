@@ -7,13 +7,13 @@ author: Courtney
 hide: true
 hidefromtoc: true
 feature: Get Started with Workfront
-source-git-commit: 28bb652f371d3168ffe03c39fc33e29d710605db
+exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
+source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 5%
 
 ---
-
 
 # Mudar da página inicial herdada para a nova página inicial
 
@@ -163,6 +163,8 @@ Abaixo estão os 11 widgets atualmente disponíveis para escolher, bem como um r
 * **Minhas solicitações**\
     Exibe todas as solicitações que você submeteu, um filtro para exibir somente solicitações abertas e um botão que abre o painel de resumo de uma solicitação.
 
+  <span class="preview">No ambiente de Visualização, este widget exibe todas as solicitações que você enviou, um filtro para exibir somente as solicitações que atendam aos critérios especificados por você e um botão que permita reorganizar as colunas no widget.</span>
+
 * **Solicitações da equipe**\
     Exibe todas as solicitações pendentes para as equipes nas quais você está, classificadas por equipe, bem como botões para atribuir diretamente uma solicitação a um usuário ou para trabalhar nela você mesmo.
 
@@ -196,7 +198,7 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
         <td><b>Widgets padrão</b></td>
     </tr>
     <tr>
-        <td>Padrão</td>
+        <td>Standard</td>
         <td>Meus projetos, Meu trabalho, Menções, Tarefas pendentes</td>
     </tr>
     <tr>
@@ -231,7 +233,7 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
         <td>Meu trabalho, menções</td>
     </tr>
     <tr>
-        <td>Solicitar</td>
+        <td>Solicitação</td>
         <td>Meus projetos, Minha aprovação</td>
     </tr>
     <tr>
@@ -270,7 +272,7 @@ Fazer isso o mais rápido possível dará aos usuários tempo para se ajustarem 
 
 **Treinamento**
 
-* [Tutorial sobre remoção, adição e reorganização de widgets na Página Inicial](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Tutorial sobre remoção, adição e reorganização de widgets na Página Inicial](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Fundamentos do Worker no Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

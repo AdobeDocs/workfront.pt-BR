@@ -6,14 +6,18 @@ description: Você pode escolher entre vários widgets para personalizar o conte
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 12%
+source-wordcount: '1092'
+ht-degree: 11%
 
 ---
 
 # Visão geral dos filtros de widget da página inicial
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Você pode usar filtros nos seguintes widgets para localizar e organizar o trabalho:
 
@@ -242,12 +246,14 @@ Você pode usar os seguintes filtros no widget Meus problemas:
 
 ## Minhas solicitações
 
+No ambiente de produção:
+
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Todos</td> 
+      <td role="rowheader">Todas</td> 
       <td>Exibe todas as solicitações submetidas, independentemente do status ou de quem as submeteu.</td> 
      </tr> 
      <tr> 
@@ -277,6 +283,16 @@ Você pode usar os seguintes filtros no widget Meus problemas:
      </tr> 
     </tbody> 
    </table>
+
+<div class="preview">
+
+No ambiente de Pré-visualização:
+
+O widget Minhas solicitações apresenta um filtro personalizável que permite controlar quais solicitações aparecem no widget. Você pode configurar esse filtro para diferentes campos e valores e pode empilhar condições usando AND e OR.
+
+Para obter instruções sobre como configurar o filtro no widget Minhas solicitações, consulte [Solicitações de filtro](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) no artigo Usar o widget Minhas solicitações.
+
+</div>
 
 ## Meu trabalho
 

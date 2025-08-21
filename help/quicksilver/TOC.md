@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
+source-git-commit: 6ad5c482e8c1638612d46d4287bda27466acef3f
 workflow-type: tm+mt
-source-wordcount: '13431'
+source-wordcount: '13436'
 ht-degree: 2%
 
 ---
@@ -876,7 +876,8 @@ ht-degree: 2%
          * [Registrar o tempo em um item de trabalho na área Página inicial](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [Marcar um item como Concluído na área Página inicial](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [Usar a área Minhas atualizações](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
-   * Assistente de IA {#ai-assistant}
+         * [Usar o widget Minhas solicitações](workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+Assistente de IA {#ai-assistant}
       * [Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
       * [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [Resumir usando o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)

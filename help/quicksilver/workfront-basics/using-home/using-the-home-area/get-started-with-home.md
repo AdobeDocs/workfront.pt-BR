@@ -6,9 +6,9 @@ description: O Início ajuda você a gerenciar seu trabalho. É possível person
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1093'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 4%
 >[!IMPORTANT]
 >
 >O conteúdo deste artigo foi substituído pelo conteúdo do novo artigo Introdução. A nova Página inicial agora será chamada de Página inicial.
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
 A nova experiência da Página inicial no Adobe Workfront tem como objetivo melhorar a experiência atual da Página inicial, fornecendo uma maneira mais flexível de se concentrar no trabalho certo.
 
@@ -55,6 +57,9 @@ Abaixo estão os 11 widgets atualmente disponíveis para escolher, bem como um r
 * **Minhas solicitações**\
     Exibe todas as solicitações que você submeteu, um filtro para exibir somente solicitações abertas e um botão que abre o painel de resumo de uma solicitação.
 
+  <span class="preview">No ambiente de Visualização, este widget exibe todas as solicitações que você enviou, um filtro para exibir somente as solicitações que atendam aos critérios especificados por você e um botão que permita reorganizar as colunas no widget.</span>
+
+
 * **Solicitações da equipe**\
     Exibe todas as solicitações pendentes para as equipes nas quais você está, classificadas por equipe, bem como botões para atribuir diretamente uma solicitação a um usuário ou para trabalhar nela você mesmo.
 
@@ -82,7 +87,7 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
         <td><b>Widgets padrão</b></td>
     </tr>
     <tr>
-        <td>Padrão</td>
+        <td>Standard</td>
         <td>Meus projetos, Meu trabalho, Menções, Tarefas pendentes</td>
     </tr>
     <tr>
@@ -117,7 +122,7 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
         <td>Meu trabalho, menções</td>
     </tr>
     <tr>
-        <td>Solicitar</td>
+        <td>Solicitação</td>
         <td>Meus projetos, Minha aprovação</td>
     </tr>
     <tr>
