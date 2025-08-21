@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 81b40eda8536d1a63c38a297d92158a12f9d350e
+source-git-commit: 613904bd75aabe3062c5ab50f28cf44eb62919e8
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '1036'
 ht-degree: 2%
 
 ---
@@ -165,7 +165,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
         <li>Relatório de erro</li> 
         <li>Pedido de alteração</li> 
         <li>Problema</li> 
-        <li>Solicitar</li> 
+        <li>Solicitação</li> 
        </ul> <p>O administrador do Workfront pode ter renomeado algumas dessas opções. </p> </td> 
      </tr> 
     </tbody> 
@@ -183,5 +183,16 @@ Para editar um Tópico de Fila existente:
 1. Vá para o projeto ou modelo que contém o Tópico da fila que deseja editar.
 1. Clique em **Enfileirar tópicos** no painel esquerdo.
 1. No ambiente de Produção, selecione o Tópico da fila que deseja editar. Na página Detalhes que é aberta, clique em **Editar Tópico da Fila**.
-   <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
+1. <span class="preview">No ambiente de Visualização, clique no tópico da fila que deseja editar.
+
+Para obter informações sobre as opções de edição disponíveis, consulte [Criar um tópico da fila](#create-a-queue-topic) neste artigo.
+
+## Excluir um Tópico de Fila
+
+É possível excluir um ou mais tópicos da fila ao mesmo tempo.
+
+1. Vá para o projeto ou modelo que contém o Tópico da fila que deseja excluir.
+1. Clique em **Enfileirar tópicos** no painel esquerdo.
+1. Clique na caixa ao lado do nome de cada Tópico da Fila que você deseja excluir. Uma marca de seleção aparece na caixa.
+1. Clique no ícone **Excluir** ![Ícone Excluir](assets/delete-icon.png) na parte superior da página.
 
