@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
+source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2568'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Você pode criar um formulário de solicitação e associá-lo a um tipo de registro no Adobe Workfront Planning. Você pode compartilhar o formulário com outras pessoas e elas podem enviar solicitações para criar registros.
+Você pode criar um formulário de solicitação e associá-lo a um tipo de registro no Adobe Workfront Planning. Em seguida, você pode compartilhar o formulário com outras pessoas, que podem enviar solicitações para criar registros desse tipo.
 
 Este artigo descreve como um gerenciador de espaço de trabalho pode criar um formulário de solicitação associado a um tipo de registro.
 
@@ -34,7 +34,7 @@ Para obter informações sobre como enviar uma solicitação a um tipo de regist
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto">
  <col>
@@ -78,7 +78,7 @@ Para obter informações sobre como enviar uma solicitação a um tipo de regist
   <tr>
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
    <td>
-   <p>Padrão</p>
+   <p>Standard</p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p>
   </td>
   </tr>
@@ -135,7 +135,11 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
    * Os campos de fórmula que se referem aos campos Moeda exibem os valores sem contabilizar taxas de câmbio.
    * Os valores dos campos de parágrafo exibem um valor &quot;N/A&quot; no formulário de solicitação e exibem tags html em vez do texto formatado na página de detalhes da solicitação.
 
-## Criar um formulário de solicitação para um tipo de registro
+## Começar a criar um formulário de solicitação
+
+Você pode criar um formulário de solicitação do tipo de registro associado ao formulário, <span class="preview">ou da área Solicitações do Workfront.</span>
+
+### Criar um formulário de solicitação a partir de um tipo de registro
 
 {{step1-to-planning}}
 
@@ -149,12 +153,51 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
 
 1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Criar formulário de solicitação** ou **Gerenciar formulários de solicitação**, se você já tiver um formulário e quiser criar outros.
 1. (Condicional) Se quiser adicionar outro formulário, clique em **Novo formulário de solicitação**.
-1. Atualize o nome do formulário de solicitação. Por padrão, o nome do formulário é **Formulário sem título**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
+
+   A caixa de formulário Criar solicitação é aberta.
+
+1. Na caixa Criar formulário de solicitação, atualize o nome do formulário de solicitação. Por padrão, o nome do formulário é **Formulário sem título**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Opcional) Adicione uma **Descrição** para o formulário de solicitação.
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Clique em **Criar**. O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
+1. Clique em **Criar**.
+
+   O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
+1. Continue em [Configurar o formulário](#configure-the-form).
+
+<div class="preview">
+
+### Criar um formulário de solicitação na área Solicitações do Workfront
+
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Solicitações**.
+1. No canto superior direito da tela, clique em **Solicitar formulários**.
+1. (Condicional) Se você estiver editando um formulário de solicitação existente, selecione-o na lista e, em seguida, continue em [Configurar o formulário](#confgure-the-form).
+1. Se você estiver criando um novo formulário de solicitação, no canto superior direito da tela, clique em **Novo formulário de solicitação**.
+
+   A caixa de formulário Criar solicitação é aberta
+
+1. Na caixa Criar formulário de solicitação, atualize o nome do formulário de solicitação. O nome padrão do formulário é **Formulário sem título**.
+1. No campo Object types, selecione o tipo de registro ao qual o formulário de solicitação será associado. Os tipos de registro são agrupados no espaço de trabalho em que estão.
+1. (Opcional) Adicione uma **Descrição** para o formulário de solicitação.
+
+   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+
+1. Clique em **Criar**.
+
+   O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
+1. Continue em [Configurar o formulário](#configure-the-form).
+
+</div>
+
+## Configurar o formulário
+
+1. Comece a criar ou editar um formulário de solicitação, conforme descrito em uma das seguintes seções:
+
+   * [Criar um formulário de solicitação a partir de um tipo de registro](#create-a-request-form-from-a-record-type)
+   * <span class="preview">[Criar um formulário de solicitação da área Solicitações do Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+
+   O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
 
    ![Modo de edição do formulário de solicitação de campanhas](assets/campaigns-request-form-edit-mode.png)
 
@@ -291,7 +334,7 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
    >* Um formulário que contém os seguintes tipos de campo não pode ser compartilhado publicamente:
    >
    >     * Conexões do Workfront ou AEM Assets
-   >     * Pessoas
+   >     * People
    >
 
 1. Escolha uma **Data de expiração do link**.

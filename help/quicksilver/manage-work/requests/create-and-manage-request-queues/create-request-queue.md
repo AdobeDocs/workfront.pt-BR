@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ce611ec0c91b114f1a10977970e42fa753f62f22
 workflow-type: tm+mt
-source-wordcount: '2845'
+source-wordcount: '2868'
 ht-degree: 2%
 
 ---
@@ -47,6 +47,8 @@ Para configurar um projeto ou um modelo como uma fila de solicitações, edite a
 Este artigo descreve como configurar um projeto como uma fila de solicitações, em que os usuários podem enviar solicitações. A configuração de Detalhes da fila para um modelo é semelhante à configuração no projeto.
 
 Para obter informações sobre como enviar uma nova solicitação para uma fila de solicitações, consulte [Copiar e enviar solicitações](../create-requests/copy-and-submit-requests.md).
+
+Para obter informações sobre como configurar um formulário de solicitação no Workfront Planning, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Requisitos de acesso
 
@@ -426,7 +428,7 @@ Para criar uma Fila de solicitações:
    * Relatório de erro
    * Pedido de alteração
    * Problema
-   * Solicitar
+   * Solicitação
 
    Este campo é obrigatório e você deve selecionar pelo menos uma opção.
 
@@ -443,10 +445,10 @@ Para criar uma Fila de solicitações:
 
    * **Duração Padrão:** Insira um número para a Duração e, no menu suspenso, selecione uma das seguintes unidades de duração:
 
-      * Dias
+      * Days
       * Horas
-      * Minutos
-      * Semanas
+      * Minutes
+      * Weeks
 
    A duração padrão é o tempo normalmente necessário para concluir um problema enviado para essa fila de solicitações. Isso se torna o padrão para todas as questões recebidas e pode ser modificado manualmente.
 A duração padrão de um problema é a mesma que o horário planejado para o problema. A Data de conclusão planejada do problema é calculada com base nesse campo.\
