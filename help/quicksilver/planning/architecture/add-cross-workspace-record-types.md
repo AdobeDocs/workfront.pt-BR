@@ -1,13 +1,13 @@
 ---
-title: Adicionar Tipos de Registro Entre Espaços de Trabalho
+title: Adicionar Tipos de Registro Existentes
 description: Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. No Workfront Planning, você pode importar um tipo de registro existente de outro espaço de trabalho.
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '635'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# Adicionar tipos de registro entre espaços de trabalho
+# Adicionar tipos de registro existentes
 
 <span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
@@ -35,7 +35,7 @@ Para obter informações, consulte [Configurar recursos entre espaços de trabal
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.  
++++ Expanda para exibir os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -76,7 +76,7 @@ Para obter informações, consulte [Configurar recursos entre espaços de trabal
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Padrão</p>
+   <td><p> Standard</p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -109,6 +109,7 @@ Considerações ao adicionar tipos de registro existentes de outro espaço de tr
    * Gravar conexões
 
 * É possível editar o tipo de registro, incluindo seus campos, somente em seu espaço de trabalho original. Não é possível editá-lo nos espaços de trabalho em que foi adicionado.
+* Os registros adicionados de todos os espaços de trabalho estarão visíveis para todos os usuários que os acessarem de todos os espaços de trabalho, mesmo que eles sejam criados em um espaço de trabalho onde não tenham permissões.
 
 ## Criar um tipo de registro a partir de um tipo de registro existente
 

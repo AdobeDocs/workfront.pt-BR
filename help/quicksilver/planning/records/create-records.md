@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2814'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,14 @@ Você pode criar registros seguindo um destes procedimentos:
 
 </div>
 
+<!--
+<div class="preview">
+
+* [Add them in the record type calendar view](#create-records-by-adding-them-in-the-record-type-calendar-view)
+
+</div>
+-->
+
 * [Copiar e colar uma lista de registros de uma lista externa](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicar registros de uma exibição de tabela](#create-records-by-duplicating-them)
 * [Conectá-los a partir de outros registros](#create-records-as-you-connect-them)
@@ -49,7 +57,7 @@ Para obter informações sobre o gerenciamento de registros nas exibições de t
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso.  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +98,7 @@ Para obter informações sobre o gerenciamento de registros nas exibições de t
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td> Padrão
+   <td> Standard
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -273,6 +281,7 @@ Os registros do tipo selecionado são exibidos na visualização.
    * CTRL + Z (⌘ + Z para Mac) para desfazer uma alteração
    * CTRL + Shift + Z (⌘ + Shift + Z para Mac) para refazer uma alteração
 
+
 <div class="preview">
 
 ## Criar registros adicionando-os na exibição de linha do tempo do tipo de registro
@@ -303,7 +312,12 @@ Para obter informações sobre como criar um modo de exibição de linha do temp
    ![Nova caixa de registro na linha do tempo com barra de registro sem nome](assets/new-record-small-box-on-timeline.png)
 1. Atualize as seguintes informações:
 
-   * **Nome**: insira o nome do registro. Se você deixá-lo vazio, o Workfront o nomeia como **Sem título** por padrão. O nome não estará visível na barra de registros se deixado em branco.
+   * **Nome**: insira o nome do registro. Se você deixá-lo vazio, o Workfront o nomeia como **Sem título** por padrão.
+
+     >[!TIP]
+     >
+     >Se você exibir o Nome do registro nas barras de registro de acordo com as configurações da linha do tempo, o nome não ficará visível na barra de registro se deixado em branco.
+
    * **Campos de data do registro**: atualize as datas do registro.
 
      Os nomes dos campos de data são personalizados de acordo com os campos selecionados para as datas de Início e Término quando a exibição de linha do tempo foi criada.
@@ -331,6 +345,74 @@ Para obter informações sobre como criar um modo de exibição de linha do temp
    >A miniatura é exibida na exibição de linha do tempo somente quando está ativada nas Configurações da exibição.
 
 </div>
+
+<!--
+
+<div class="preview">
+
+## Create records by adding them in the record type calendar view
+
+You can create records in the calendar view of a record type page, by double-clicking anywhere on the calendar. 
+
+For information about creating a calendar view, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+{{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. 
+
+    The record type page opens in the view that you last accessed. 
+
+1. Click to open a calendar view, or create a calendar view.
+
+    >[!NOTE]
+    >
+    >You can create a calendar view only if there are at least two date fields associated with the record type.
+1. Double-click anywhere on the calendar. 
+
+    A new record box opens. (********might need a new screen shot for Production - might add a title etc*********)
+
+    ![New record box on calendar with unnamed record bar](assets/new-record-small-box-on-calendar.png)
+
+1. Update the following information:
+
+    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. 
+    
+        >[!TIP]
+        >
+        >If you display the Name of the record in the record bars according to the calendar settings, the name is not visible in the record bar if left empty. 
+
+    * **Record date fields**: Update the dates of the record. 
+        
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+
+        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+
+        * By **Month**: The record start and end dates span one day.
+        * By **Week**: The record start and end dates span two days.
+
+1. (Optional) Click one of the following icons: 
+
+    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
+    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
+    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+
+    The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
+
+1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
+
+    >[!TIP]
+    >
+    >By default, Workfront associates the record with a thumbnail and a cover image.
+    >
+    >The thumbnail displays in the calendar view only when it is enabled in the Settings of the view. 
+
+</div>
+
+-->
 
 ## Criar registros copiando e colando-os de uma lista externa
 

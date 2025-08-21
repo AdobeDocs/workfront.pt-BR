@@ -4,9 +4,9 @@ description: Você pode habilitar um tipo de registro para ser adicionado a outr
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1021'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 # Configurar recursos entre espaços de trabalho para tipos de registro
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
 
 <span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
@@ -106,7 +106,7 @@ Para obter informações, consulte um dos seguintes artigos:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Padrão</p>
+   <td><p> Standard</p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -127,7 +127,9 @@ Para obter informações, consulte um dos seguintes artigos:
 
 +++   
 
-## Configurar a adição de um tipo de registro a outros espaços de trabalho
+## Configurar tipos de registros centralizados
+
+<!--this is a UI term; don't change the title of this section-->
 
 Como gerenciador de espaço de trabalho, você pode configurar um tipo de registro a ser adicionado a outros espaços de trabalho ao criar ou editar um tipo de registro.
 
@@ -180,7 +182,9 @@ Ou
 
      Este campo é somente leitura e não pode ser excluído.
 
-## Configurar a conexão com um tipo de registro de outros espaços de trabalho
+## Configurar tipos de registro conectáveis
+
+<!--this is a UI term; don't change the title of this section-->
 
 É possível configurar um tipo de registro para ser conectado a partir de outros espaços de trabalho ao criar ou editar o tipo de registro.
 

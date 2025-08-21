@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
 source-wordcount: '1624'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ Para obter informações sobre os modos de exibição do Adobe Workfront Plannin
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -94,7 +94,7 @@ Para obter informações sobre os modos de exibição do Adobe Workfront Plannin
 
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Gerenciar uma exibição de calendário {#manage-a-calendar-view}
 
@@ -110,6 +110,14 @@ Considere o seguinte:
    * Quando as datas de Início e Término não têm valores, os registros não são exibidos no calendário
    * Quando as datas Start ou End não têm valor, o registro é exibido como um evento de um dia
    * Quando a data de início é posterior à data de término, o registro não é exibido no calendário.
+
+<!--
+<div class="preview">
+
+* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
 
 Para gerenciar uma exibição de calendário:
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '694'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Para obter informações gerais sobre espaços de trabalho, consulte [Visão ger
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -74,7 +74,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Padrão </p>
+   <td><p> Standard </p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -92,7 +92,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Criar um espaço de trabalho
 
@@ -154,5 +154,15 @@ Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para
    Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
 
    Para obter mais informações sobre edição e exclusão de tipos de registros em um espaço de trabalho, consulte [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+1. (Opcional) Clique na seta para trás à esquerda do novo espaço de trabalho para abrir a página principal do Planning. Um novo cartão de espaço de trabalho foi criado para o novo espaço de trabalho na guia **Espaços de trabalho nos quais estou**.
+
+   O nome do usuário que criou o espaço de trabalho é salvo no cartão do espaço de trabalho como o Proprietário.
+
+   >[!NOTE]
+   >
+   >Para usuários que estão sendo atualmente migrados para o Adobe Identity Management System (IMS), os espaços de trabalho criados apenas por usuários do Workfront que não são usuários do IMS são exibidos conforme criados pelo **Sistema**.
+   >
+   >Para obter informações sobre IMS, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 
