@@ -3,10 +3,9 @@ title: Melhorias nas solicitações do quarto trimestre de 2025
 description: Melhorias nas solicitações do quarto trimestre de 2025
 author: Courtney
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -23,8 +22,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 >[!NOTE]
 >
->* Visualização: 31 de julho de 2025
->* Versão rápida de produção: 14 de agosto de 2025
+>* Visualização: 21 de agosto de 2025
+>* Versão rápida de produção: 11 de setembro de 2025
 >* Produção para todos os clientes: 16 de outubro de 2025
 
 Para criar uma melhor experiência do usuário ao fazer solicitações no Workfront e no Workfront Planning, atualizamos a experiência de solicitação. Agora é possível:
