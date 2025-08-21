@@ -5,13 +5,13 @@ title: Usar o widget Minhas solicitações
 description: Você pode enviar solicitações no widget Minhas solicitações. Você também pode personalizar o widget com filtros e colunas.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 68379a6c41db1b694e2968d93de259cb7b0d8bc4
+exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '825'
 ht-degree: 3%
 
 ---
-
 
 # Usar o widget Minhas solicitações
 
@@ -19,11 +19,16 @@ ht-degree: 3%
 
 <span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
+>[!IMPORTANT]
+>
+>Este artigo descreve o novo widget Minhas solicitações. Você deve ter a nova experiência de solicitação habilitada para ver o novo widget.
+>>Você pode ativar a nova experiência de solicitação na área Solicitações.
+
 O widget Minhas solicitações exibe solicitações que foram enviadas para sua organização. Você pode filtrar as solicitações, pesquisar solicitações específicas ou ajustar a ordem e a visibilidade da coluna. Você também pode criar uma nova solicitação no widget Minhas solicitações.
 
 >[!NOTE]
 >
->Quando o widget Minhas solicitações é carregado, ele exibe até 50 solicitações. Para exibir mais solicitações, role para baixo na lista.
+>* Quando o widget Minhas solicitações é carregado, ele exibe até 50 solicitações. Para exibir mais solicitações, role para baixo na lista.
 
 ## Requisitos de acesso
 
@@ -137,8 +142,3 @@ Para pesquisar solicitações específicas no widget Minhas solicitações:
    As solicitações que contêm o termo são realçadas em laranja.
 
 1. (Opcional) Para ir para as solicitações destacadas, clique nas setas para cima ou para baixo na barra de pesquisa.
-
-
-
-
-
