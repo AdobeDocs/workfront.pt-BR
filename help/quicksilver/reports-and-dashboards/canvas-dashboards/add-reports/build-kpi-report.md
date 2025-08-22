@@ -6,9 +6,9 @@ description: Um relatório de KPI que exibe de forma destacada um único KPI agr
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ![Exemplo de relatório de KPI](assets/kpi-example-main.png)
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -122,5 +122,57 @@ Há muitas opções de configuração disponíveis para criar um relatório de K
    1. Clique no botão **Adicionar agrupamento** e selecione o campo que deseja criar como agrupamento.
 
 1. Clique em **Salvar** para criar o relatório e adicioná-lo ao painel.
+
+## Criar um exemplo de relatório de KPI
+
+Nesta seção, veremos as etapas para criar um relatório de KPI que exibe aprovações pendentes de documentos.
+
+Para obter mais informações sobre exemplos de relatório de KPI, consulte [Criar um painel de relatório para revisão e aprovações](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+
+{{step1-to-dashboards}}
+
+1. No painel esquerdo, clique em **Painéis do Canvas**.
+
+1. Clique em **Novo Painel** no canto superior direito.
+
+1. Na caixa **Criar painel**, digite o **Nome** e a **Descrição** do painel.
+
+1. Clique em **Criar**.
+
+1. Na caixa **Adicionar relatório**, selecione **Criar relatório**.
+
+1. No lado esquerdo, selecione **KPI**.
+
+1. No canto superior direito, clique em **Criar relatório**.
+
+1. Siga as etapas abaixo para configurar a seção **Detalhes**:
+
+   1. Digite *Pendente* no campo **Nome**.
+   1. Digite *Aprovações pendentes* no campo **Descrição**. É exibido como uma legenda abaixo do valor do KPI.
+
+1. Siga as etapas abaixo para configurar a seção **Criar KPI**:
+
+   1. No painel esquerdo, clique no **ícone Criar KPI** ![Criar KPI](assets/build-kpi-icon.png).
+
+   1. Clique em **Selecionar campo**.
+
+   1. Localize e selecione a pasta **Aprovação de documentos**.
+
+   1. Selecione **Status**.
+
+   1. No menu suspenso **Tipo de agregação**, selecione **Contagem**.
+
+1. Siga as etapas abaixo para configurar a seção **Filtro**:
+
+   1. No painel esquerdo, clique no ícone **Filtro** ![Filtro](assets/filter-icon.png).
+
+   1. Selecione **Editar filtro**.
+
+   1. Clique em **Adicionar condição**.
+
+   1. Clique no filtro de condição vazio, clique em **Escolher um Campo** e escolha **Status**.
+   1. Deixe o operador como **Igual** e digite _revisão pendente_ na caixa de texto.
+      ![Exemplo de filtro de kpi pendente](assets/pending-kpi-filter.png)
+1. Clique em **Salvar** no canto superior direito da tela.
 
 
