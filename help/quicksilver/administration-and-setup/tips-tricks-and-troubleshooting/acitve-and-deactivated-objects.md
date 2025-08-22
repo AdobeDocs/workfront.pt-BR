@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '687'
 ht-degree: 2%
 
 ---
@@ -96,17 +96,9 @@ Para obter informações, consulte [Criar e editar empresas](../../administratio
 
 Um usuário deve estar ativo para aparecer em qualquer campo de digitação antecipada de todos os outros objetos ao fazer atribuições ou compartilhá-los.
 
-Você pode desativar usuários na página do usuário ou ao editar um usuário.
+Você deve desativar os usuários por meio da [!UICONTROL Adobe Admin Console].
 
-Para obter informações sobre como desativar usuários, consulte [Desativar ou reativar um usuário](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
-
->[!IMPORTANT]
->
->Se sua organização foi integrada ao [!DNL Adobe Business Platform], você deve desativar os usuários por meio do [!UICONTROL Adobe Admin Console].
->
->Para obter instruções sobre como desativar um usuário no [!UICONTROL Adobe Admin Console], consulte a seção &quot;Remover usuários&quot; no artigo [Gerenciar usuários individualmente](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html) ou contate o Administrador do [!UICONTROL Adobe Admin Console].
->
->Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada ao [!DNL Adobe Business Platform], consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+Para obter instruções sobre como desativar um usuário no [!UICONTROL Adobe Admin Console], consulte a seção &quot;Remover usuários&quot; no artigo [Gerenciar usuários individualmente](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html) ou contate o Administrador do [!UICONTROL Adobe Admin Console].
 
 ## Equipes
 

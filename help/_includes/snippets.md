@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4e7aa16333c7a24ee2ef67fb964be70ed45cd369
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2645'
 ht-degree: 1%
 
 ---
@@ -92,9 +92,9 @@ Você pode verificar se está associando o grupo certo com a equipe, passando o 
 
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Adobe Admin Console.
+>O procedimento descrito nesta página foi removido porque se aplicou apenas a organizações que ainda não foram integradas ao Adobe Admin Console.
 >
->Se sua organização foi integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Todas as organizações da Workfront foram integradas à Adobe Admin Console.
 
 ## Etapa 1 - Chegar aos usuários {#step-1-to-users}
 
@@ -431,7 +431,7 @@ Você pode alterar o status aplicado ao item de trabalho com o botão Concluído
    >     
    >   * Tarefas
    >   * Problema
-   >   * Solicitar
+   >   * Solicitação
    >   * Pedido de alteração
    >   * Relatório de erro
 

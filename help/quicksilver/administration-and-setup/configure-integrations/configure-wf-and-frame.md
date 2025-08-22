@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,11 @@ O administrador do Workfront habilita a integração entre o Workfront e o Frame
 
 ## Requisitos de acesso
 
+<!--DELETE THIS SECTION MARCH 2026-->
+<!--
 >[!IMPORTANT]
 >
->Essa funcionalidade está disponível somente para organizações que foram integradas ao [!DNL Adobe Admin Console].
+>This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].-->
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
@@ -62,7 +64,7 @@ Uma vez configurada uma conta padrão do [!DNL Frame.io], qualquer projeto criad
 
 >[!IMPORTANT]
 >
->Esse recurso será adicionado em breve. Por enquanto, contas Frame.io são adicionadas manualmente pela equipe do Workfront. Entre em contato com o representante de conta Adobe para obter ajuda.
+>Esse recurso será adicionado em breve. Por enquanto, contas Frame.io são adicionadas manualmente pela equipe do Workfront. Entre em contato com o representante de conta da Adobe para obter ajuda.
 
 ## Configurar uma única conta Frame.io com um grupo Workfront
 
