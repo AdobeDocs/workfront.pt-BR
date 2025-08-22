@@ -307,4 +307,4 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 > 
 >Se um usuário não sair do status Desativado e Aprovação pendente em alguns minutos, é possível adicionar o lote de usuários diretamente ao Adobe Admin Console.
 >
->Para obter instruções, consulte [Gerenciar vários usuários | Upload em massa de CSV](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) na documentação do Adobe.
+>Para obter instruções, consulte [Gerenciar vários usuários | Upload em massa de CSV](https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html) na documentação do Adobe.
