@@ -4,7 +4,7 @@ description: Este é um artigo interno para nossa equipe manter um inventário d
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 15eba2f627e31661c5fde60e989dfc68a9f4cd15
+source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## Requisitos de acesso (este é um exemplo quando o pacote permanece o mesmo e atualizamos a linha de licenças)
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo
+Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +56,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Requisitos de acesso
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo
+Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Requisitos de acesso (disponíveis somente para novos clientes)
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo
+Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +117,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Requisitos de acesso (este é um exemplo em que o novo recurso existe apenas nos pacotes 2023/2025)
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo
+Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table>
   <tr>
@@ -145,7 +145,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Requisitos de acesso (este é um exemplo em que você precisa ter outros produtos)
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo
+Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table>
   <tr>
@@ -220,7 +220,7 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
    <td> 
 <p>Qualquer pacote de fluxo de trabalho do Adobe Workfront e qualquer pacote do Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Plataforma Adobe Workfront (**&#x200B;**&#x200B;queremos chamar isso ou simplesmente incluí-lo no artigo vinculado na parte inferior???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Plataforma Adobe Workfront (****queremos chamar isso ou simplesmente incluí-lo no artigo vinculado na parte inferior???*****)</p></td> 
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p> 
 <p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
