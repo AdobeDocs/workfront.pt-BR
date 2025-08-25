@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -190,22 +190,15 @@ Para agendar uma atualização da Sandbox de atualização do cliente:
 
 ## Configurar o logon único na sandbox de atualização personalizada
 
->[!IMPORTANT]
->
->O procedimento descrito nesta seção foi removido porque se aplicou apenas a organizações que ainda não foram integradas ao Adobe Admin Console.
->
->Todas as organizações da Workfront foram integradas à Adobe Admin Console.
+Se você quiser configurar sua sandbox de atualização personalizada para funcionar com uma solução de logon único, faça isso configurando-a separadamente do ambiente de produção. A configuração de SSO na sandbox de atualização personalizada é independente da sua configuração de SSO no ambiente de produção.\
+Ao atualizar sua sandbox de atualização personalizada, as informações de SSO não são copiadas de seu ambiente de produção para substituir a configuração da sandbox de atualização personalizada.
 
-<!--If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
-When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
-
-The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.\
-For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+As etapas para configurar o logon único na sandbox de atualização personalizada são semelhantes àquelas para configurá-lo no ambiente de Produção.\
+Para obter mais informações sobre como configurar o [!DNL Workfront] com SSO, consulte [Visão geral do logon único no Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
--->
+>Isso não está disponível se a instância [!DNL Workfront] da sua organização estiver habilitada com o Adobe IMS. Consulte o administrador de rede ou de TI se precisar de mais informações.
 
 ## Recálculo automático de linhas de tempo do projeto
 

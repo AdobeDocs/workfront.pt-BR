@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 9fa4f85c914121adddcba4189af1398021544776
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -25,100 +25,98 @@ ht-degree: 0%
 >Como todas as organizações da Workfront foram integradas à Adobe Admin Console, este artigo será removido em breve.
 
 <!--DELETE ME MARCH 2026-->
-<!--
+
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
+>O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, nenhuma ação será necessária.
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-The Adobe Workfront servers utilize the SAML 2.0 protocol for authentication and authorization. Once updated, the new certificate remains valid for one year. When it is time for you to renew the certificate on your identity provider, you receive a warning in Workfront alerting you that this change must occur. As a Workfront administrator, you can manage this change at the system level.
+Os servidores do Adobe Workfront utilizam o protocolo SAML 2.0 para autenticação e autorização. Depois de atualizado, o novo certificado permanece válido por um ano. Quando for a hora de renovar o certificado em seu provedor de identidade, você receberá um aviso na Workfront alertando que essa alteração deve ocorrer. Como administrador do Workfront, você pode gerenciar essa alteração no nível do sistema.
 
 <!--Use this Important note box in the last few weeks before each update.
 
 You must take action to update the metadata in your identity provider with the information from the renewed certificate before the specified date. Mismatched certificates can keep your users from logging in to Workfront after November 22, 2022.
  
-
+-->
 
 >[!NOTE]
 >
->This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>Isso não estará disponível se a instância Workfront da sua organização estiver habilitada com o Adobe IMS. Consulte o administrador de rede ou de TI se precisar de mais informações.
 
-## Access requirements
+## Requisitos de acesso
 
-+++ Expand to view access requirements for the functionality in this article.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-You must have the following access to perform the steps in this article: 
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Qualquer</td> 
   </tr> 
  <tr> 
-  <td role="rowheader">Adobe Workfront license</td> 
-  <td> <p>New: Standard </p>
- <p>or</p> 
-<p>Current: Plan </p> 
+  <td role="rowheader">Licença do Adobe Workfront</td> 
+  <td> <p>Novo: Padrão </p>
+ <p>ou</p> 
+<p>Atual: Plano </p> 
 </td> 
  </tr>   
  <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Você deve ser um administrador do Workfront.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Configure SAML 2.0 within Workfront
+## Configurar o SAML 2.0 no Workfront
 
-To review the warning message and acknowledge the update of the SAML 2.0 metadata in your identity provider:
+Para revisar a mensagem de aviso e confirmar a atualização dos metadados do SAML 2.0 no provedor de identidade:
 
 {{step-1-to-setup}}
 
-1. Click **System** > **Single Sign-On**.
+1. Clique em **Sistema** > **Logon único**.
 
-1. In the **Type** drop-down menu, select **SAML 2.0**.
+1. No menu suspenso **Tipo**, selecione **SAML 2.0**.
 
-1. Click **Download SAML 2.0 Metadata**.
+1. Clique em **Baixar SAML 2.0 Metadata**.
 
-   This downloads the renewed Workfront certificate for SAML 2.0, which contains the correct metadata for your server.
+   Isso baixa o certificado Workfront renovado para SAML 2.0, que contém os metadados corretos para o servidor.
 
-1. In your identity provider, copy your current Assertion Consumer Service (ACS) URL (also known as the Reply URL) to a safe place. 
+1. Em seu provedor de identidade, copie o URL do Serviço do Consumidor de Asserção (ACS) atual (também conhecido como URL de Resposta) para um local seguro.
 
    >[!CAUTION]
    >
-   >Before you upload the Workfront metadata to your Single Sign-On (SSO) provider in Step 6, copy your current Assertion Consumer Service (ACS) URL to a safe place. This URL, also known as the Reply URL, is found on your SSO provider's Workfront configuration page. 
+   >Antes de fazer upload dos metadados do Workfront para seu provedor de Logon único (SSO) na Etapa 6, copie seu URL atual do Serviço do consumidor de asserção (ACS) para um local seguro. Esse URL, também conhecido como URL de resposta, é encontrado na página de configuração do Workfront do seu provedor de SSO.
    >
    >
-   >If the ACS URL changes after you upload the Workfront metadata, this means that the metadata might contain an incorrect ACS URL. You must change it back to the one you copied in order to avoid breaking your Single Sign-On connection. Your updated certificate will still be correct after you do this.
+   >Se o URL do ACS for alterado depois que você fizer upload dos metadados do Workfront, significa que os metadados podem conter um URL do ACS incorreto. Você deve alterá-lo de volta para o que você copiou para evitar a interrupção da conexão de Logon único. Seu certificado atualizado ainda estará correto após você fazer isso.
 
-1. In your identity provider server, update the new certificate you downloaded.
-1. (Conditional) If the Assertion Consumer Service (ACS) URL or Reply URL has changed in your identity provider, change it back to the URL you copied in Step 5.
-1. In Workfront, on the **Single Sign-on (SSO) page**, make sure that this option is selected: **The new Workfront certificate has already been uploaded to the Identity Provider**.
+1. No servidor do provedor de identidade, atualize o novo certificado baixado.
+1. (Condicional) Se o URL do Serviço de Cliente de Asserção (ACS) ou o URL de Resposta tiver sido alterado no provedor de identidade, altere-o de volta para o URL copiado na Etapa 5.
+1. Na Workfront, na **página Logon Único (SSO)**, verifique se esta opção está selecionada: **O novo certificado do Workfront já foi carregado para o Provedor de Identidade**.
 
    >[!NOTE]
    >
-   >* This option is visible only if all of the following apply:
-   >   * Your organization is already set up for SAML 2.0
-   >   * The current certificate is ready to expire
-   >   * The new certificate is available
-   >* When this field is selected, Workfront administrators can log in to Workfront with their SSO credentials or their Workfront credentials.
+   >* Essa opção estará visível somente se todas as condições a seguir se aplicarem:
+   >   * Sua organização já está configurada para SAML 2.0
+   >   * O certificado atual está pronto para expirar
+   >   * O novo certificado está disponível
+   >* Quando esse campo é selecionado, os administradores do Workfront podem fazer logon no Workfront com suas credenciais de SSO ou as credenciais do Workfront.
 
-1. Click **Save**.
+1. Clique em **Salvar**.
 
-   The warning message no longer displays because you acknowledged the renewal of the SAML 2.0 certificate on the server of your identity provider.
+   A mensagem de aviso não é mais exibida porque você confirmou a renovação do certificado SAML 2.0 no servidor do seu provedor de identidade.
 
-1. Click **Test Connection** to test your configuration.
+1. Clique em **Testar Conexão** para testar sua configuração.
 
-   You should see a message confirming that the connection was successful.
+   Você deve ver uma mensagem confirmando que a conexão foi bem-sucedida.
 
-For more information, or for assistance with the manual configuration of metadata, please contact our Support Team, as explained in [Contact Customer Support](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
-
--->
+Para obter mais informações ou para obter assistência com a configuração manual de metadados, entre em contato com nossa Equipe de Suporte, conforme explicado em [Entre em contato com o Suporte ao Cliente](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

@@ -5,9 +5,9 @@ description: Você pode usar a IA para preencher automaticamente os campos de so
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1093'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Para preencher automaticamente solicitações usando um prompt ou documento, **todos** dos itens a seguir devem ser aplicados:
 
-* Sua organização deve usar o Adobe IMS (Identity Management System)
+* Sua organização deve ter migrado para o Adobe IMS (Identity Management System)
 * A Experiência unificada do Adobe deve ser habilitada
 * Sua organização deve ter um plano Select, Prime ou Ultimate Workfront
 * A Adobe deve ter um contrato de geração de IA da Adobe assinado no arquivo
