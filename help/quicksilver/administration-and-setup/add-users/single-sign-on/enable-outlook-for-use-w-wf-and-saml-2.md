@@ -32,7 +32,7 @@ Se você habilitar a autenticação SAML 2.0 e quiser que os usuários façam lo
 >[!NOTE]
 >
 >Isso não estará disponível se a instância Workfront da sua organização usar um portal SSO personalizado.
->>Consulte o administrador de rede ou de TI se precisar de mais informações.
+>&#x200B;>Consulte o administrador de rede ou de TI se precisar de mais informações.
 <!--
 or is enabled with Adobe IMS-->
 
