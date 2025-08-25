@@ -6,9 +6,9 @@ description: As informações nesta página explicam as práticas recomendadas p
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: af14f408-df39-473c-9e18-bb88022c96ed
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -23,21 +23,12 @@ As informações nesta página explicam as práticas recomendadas para mudar dos
 
 ## Mover sua instância do Workfront para a Admin Console
 
->[!IMPORTANT]
->
->Como todas as organizações da Workfront foram migradas para o Adobe Admin Console, esta seção será removida em breve.
+Os clientes que pretendem usar a nova integração nativa entre o Workfront e o Adobe Experience Manager Assets as a Cloud Service devem garantir que seu ambiente do Workfront esteja vinculado a uma Adobe Admin Console. Para ambientes Workfront existentes, isso provavelmente exigirá uma migração do ambiente para um Adobe Admin Console conectado. Para obter mais detalhes sobre esta migração e a lista de verificação associada, consulte [Preparar para integrar sua organização à Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md).
 
-<!--DELETE THIS SECTION MARCH 2026-->
+A Adobe deve ajudar a realizar essa migração. Para solicitar ajuda, siga um destes procedimentos:
 
-<!--
-Customers that intend to use the new native integration between Workfront and Adobe Experience Manager Assets as a Cloud Service must ensure their Workfront environment is tied to an Adobe Admin Console. For existing Workfront environments, this will likely require a migration of the environment to a connected Adobe Admin Console. For more details regarding this migration and the associated checklist, see [Prepare to onboard your organization to the Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md). 
-
- Adobe must help carry out this migration. To request help, do one of the following:
-
-* If you have Workfront Hub access, submit your request to the [Workfront Migration to Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=629674d500054a38133cf26e01d06a97&path=).
-* If you do not have Workfront Hub access, you can submit your request to the [Workfront to Adobe Admin Console Early Migration Request Queue](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
-
--->
+* Se você tiver acesso ao Workfront Hub, envie sua solicitação para a [Migração do Workfront para o Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=629674d500054a38133cf26e01d06a97&path=).
+* Se você não tiver acesso ao Hub do Workfront, poderá enviar sua solicitação para a [Fila de solicitações de migração antecipada do Workfront Adobe Admin Console](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
 
 ## Configurar seu novo Workfront para integração do as a Cloud Service com o Adobe Experience Manager Assets
 

@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,6 @@ ht-degree: 0%
 # Prepare-se para integrar sua organização à Adobe Admin Console
 
 <!-- Audited: 12/2023 -->
-
-<!--DELETE ME MARCH 2026-->
-
->[!IMPORTANT]
->
->Como todas as organizações foram migradas para o Adobe Admin Console, este artigo será removido em breve.
 
 Como o Adobe Workfront é um produto da Adobe, você pode acessá-lo por meio da Adobe Admin Console. Isso permite gerenciar o Workfront juntamente com outras contas e produtos da Adobe para seus usuários em um local central.
 
@@ -51,7 +45,7 @@ Para garantir que sua organização possa migrar para a Adobe Admin Console, voc
    >
    >Esteja preparado para falar com o Suporte da Workfront e sua equipe de TI sobre preferências de autenticação, como logon único (SSO) ou não-SSO.
 
-   Para obter instruções, consulte a seção Identity Management do [Guia de Implantação do Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/deployment-planning.html).
+   Para obter instruções, consulte a seção Identity Management do [Guia de Implantação do Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Condicional) Se estiver usando o Logon único, conecte a nova Adobe Admin Console ao seu provedor SSO existente.
 

@@ -6,9 +6,9 @@ description: Acessar o  [!DNL Workfront] por meio do Adobe Experience Cloud prop
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,11 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
-<!--DELETE THIS SECTION MARCH 2026-->
+## Pré-requisitos
 
-<!--## Prerequisites
+A instância de [!DNL Workfront] da sua organização deve ser integrada ao [!DNL Adobe Business Platform] ou ao [!DNL Adobe Admin Console].
 
-Your organization's instance of [!DNL Workfront] must be onboarded to the [!DNL Adobe Business Platform] or the [!DNL Adobe Admin Console].
-
-If you have questions about onboarding to the [!DNL Adobe Admin Console], see the [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).-->
+Em caso de dúvidas sobre a integração com o [!DNL Adobe Admin Console], consulte as [[!DNL Adobe Unified Experience] Perguntas frequentes](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
 
 ## Sistema Adobe Identity Management (IMS)
 

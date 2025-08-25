@@ -9,22 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
 # Renovar o certificado de metadados do Adobe Workfront SAML 2.0
-
->[!IMPORTANT]
->
->O procedimento descrito nesta página foi removido porque se aplicou apenas a organizações que ainda não foram integradas ao Adobe Admin Console. Esse procedimento não é necessário para organizações na Adobe Admin Console.
->
->Como todas as organizações da Workfront foram integradas à Adobe Admin Console, este artigo será removido em breve.
-
-<!--DELETE ME MARCH 2026-->
 
 >[!IMPORTANT]
 >
