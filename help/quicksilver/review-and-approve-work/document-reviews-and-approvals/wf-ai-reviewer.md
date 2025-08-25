@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '611'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,9 @@ Qualquer usuário pode adicionar o Revisor de IA a uma solicitação de revisão
 
 ## Pré-requisitos
 
-* Sua organização deve ter migrado para o Adobe IMS (Identity Management System).
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--* Your organization must have migrated to Adobe IMS (Identity Management System).-->
 * Sua instância do Workfront deve ter as Aprovações unificadas habilitadas.
 * A Adobe deve ter um contrato de API Gen da Adobe assinado no arquivo.
 Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato da Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
@@ -53,7 +55,7 @@ O Revisor do AI pode revisar os seguintes tipos de arquivos:
 
 ## Configurar diretrizes da marca
 
-O Revisor da IA do Workfront usa as diretrizes de marca configuradas no Genstudio para Marketing de desempenho ao revisar seu conteúdo. Atualmente, você só pode configurar diretrizes de marca para imagens. Para obter mais informações, consulte [Introdução ao Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started).
+O Revisor da IA do Workfront usa as diretrizes de marca configuradas no Genstudio para Marketing de desempenho ao revisar seu conteúdo. Atualmente, você só pode configurar diretrizes de marca para imagens. Para obter mais informações, consulte [Introdução ao Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Criar revisores de IA

@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: b8d5abc996a3902a8ab8cdce9a8f8d92d4736db1
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 3%
+source-wordcount: '270'
+ht-degree: 2%
 
 ---
 
@@ -24,13 +24,15 @@ Perguntas frequentes sobre a promoção do ambiente:
 
 ### Responder
 
-Atualmente, a promoção de ambientes entre domínios não é suportada. Você deve promover entre ambientes no mesmo domínio.
+Atualmente, a promoção de ambientes entre domínios não é suportada. Você deve promover entre ambientes no mesmo domínio.-->
 
-## A Adobe Business Platform/IMS é um pré-requisito para a promoção do ambiente?
+<!--DELETE THIS SECTION MARCH 2026-->
 
-### Responder
+<!--## Is the Adobe Business Platform / IMS a prerequisite for environment promotion?
 
-Não. A Promoção de ambiente está disponível para instâncias do Workfront habilitadas para IMS e não IMS.
+### Answer
+
+No. Environment Promotion is available for both IMS-enabled and non-IMS Workfront instances.-->
 
 ## Como podemos descobrir se nossa instância do Workfront está em uma licença do Prime ou da Ultimate?
 
