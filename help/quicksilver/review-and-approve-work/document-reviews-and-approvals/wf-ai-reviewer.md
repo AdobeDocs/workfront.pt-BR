@@ -55,7 +55,7 @@ O Revisor do AI pode revisar os seguintes tipos de arquivos:
 
 ## Configurar diretrizes da marca
 
-O Workfront AI Reviewer usa as diretrizes de marca configuradas nos Genstudio Foundations ao revisar seu conteúdo. Atualmente, você só pode configurar diretrizes de marca para imagens. Para obter mais informações, consulte [Introdução ao Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
+O Workfront AI Reviewer usa as diretrizes de marca configuradas nos Genstudio Foundations ao revisar seu conteúdo. Atualmente, você só pode configurar diretrizes de marca para imagens. Para obter mais informações, consulte [Introdução ao Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Criar revisores de IA
