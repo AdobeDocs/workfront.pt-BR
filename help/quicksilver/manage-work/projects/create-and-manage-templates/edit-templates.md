@@ -6,7 +6,7 @@ description: Você pode editar modelos de projeto para refletir as alterações 
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
 source-wordcount: '5045'
 ht-degree: 2%
@@ -108,7 +108,7 @@ As alterações feitas no modelo não refletem nos projetos que estão usando es
    * [Configurações do modelo](#template-settings)
    * [Configurações de tarefas](#task-settings)
    * [Configurações de Problema](#issue-settings)
-   * [Acesso](#access-preview)
+   * [Access](#access-preview)
    * [Comentário](#comment)
    <!--* [Linked folders](#linked-folders-conditional-availability) -->
 
@@ -468,7 +468,7 @@ Para obter informações sobre como essas configurações afetam a criação de 
    | Nível de esforço de trabalho | Valor percentual |
    |---|---|
    | Pequena | 25% |
-   | Média | 50% |
+   | Médio | 50% |
    | Grande | 75% |
 
    Para obter informações sobre como usar o Esforço de trabalho para gerenciar o esforço em tarefas em projetos, consulte [Visão geral do Esforço de trabalho](../../../manage-work/tasks/task-information/work-effort.md).
@@ -488,7 +488,7 @@ Ao editar configurações de problemas, você pode impedir que os usuários adic
 
    ![Editar seção Configurações de Problema da caixa de modelo](assets/edit-template-box-issue-settings-section.png)
 
-1. (Opcional) Desmarque a opção **Permitir que os usuários adicionem problemas em linha**. Ela é ativada por padrão.
+1. (Opcional) Desmarque a opção **Permitir que os usuários adicionem problemas em linha**. Esta opção está habilitada por padrão.
 
    Ao desabilitar essa opção, os usuários não podem adicionar problemas em linha ao projeto ou às tarefas na seção Problemas, quando o projeto é criado a partir do modelo.
 
@@ -577,7 +577,6 @@ Linked folder functionality automatically creates folders in Adobe Experience Ma
 
 This section appears only if all of the following apply:
 
-* Your organization has been migrated to the Adobe Admin Console
 * Your organization has enabled and configured an integration with Adobe Experience Manager
 * The template has enabled and configured linked folders.
 

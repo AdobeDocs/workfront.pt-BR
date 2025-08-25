@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas ao Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, nenhuma ação será necessária.
+>O procedimento descrito nesta página foi removido porque se aplicou apenas a organizações que ainda não foram integradas ao Adobe Admin Console. Esse procedimento não é necessário para organizações na Adobe Admin Console.
 >
->Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Como todas as organizações da Workfront foram integradas à Adobe Admin Console, este artigo será removido em breve.
+
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, nenhuma ação será necessária.
+>
+>Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Os servidores do Adobe Workfront utilizam o protocolo SAML 2.0 para autenticação e autorização. Depois de atualizado, o novo certificado permanece válido por um ano. Quando for a hora de renovar o certificado em seu provedor de identidade, você receberá um aviso na Workfront alertando que essa alteração deve ocorrer. Como administrador do Workfront, você pode gerenciar essa alteração no nível do sistema.
 
