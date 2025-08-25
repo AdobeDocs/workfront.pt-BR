@@ -6,9 +6,9 @@ description: O  [!DNL Adobe Workfront] glossário lista termos comumente usados 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '21141'
+source-wordcount: '21167'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,9 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
   </tr> 
   <tr> 
    <td>[!UICONTROL Custo Real]</td> 
-   <td> <p>Para tarefas e problemas, esse é o custo associado às horas reais registradas em relação à taxa de Custo por hora do recurso atribuído à tarefa ou problema. Para projetos, esse é um total de todos os [!UICONTROL Custos Reais] de tarefas e problemas no projeto. Para obter informações, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Rastrear custos</a>.</p> </td> 
+   <td> <p>Para tarefas e problemas, esse é o custo associado às horas reais registradas em relação à taxa de Custo por hora do recurso atribuído à tarefa ou problema. Para projetos, esse é um total de todos os [!UICONTROL Custos Reais] de tarefas e problemas no projeto. Para obter informações, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Rastrear custos</a>.</p>
+
+<p>Os cálculos de [!UICONTROL Custo Real] consideram [!UICONTROL Horas Reais Herdadas]. Para obter informações, consulte "[!UICONTROL Horas Reais]" ou "[!UICONTROL Horas Reais Herdadas]" nesta tabela. </p>   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Custo Efetivo de Despesa]</td> 
@@ -68,7 +70,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
     </ul> 
-   <p>Consulte também <strong>Horas efetivas herdadas</strong>.
+   <p>Consulte também <strong>[!UICONTROL Horas Reais Herdadas]</strong>.
     <p>Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Exibir Horas Efetivas</a>.</p>
     </td> 
   </tr> 
@@ -363,7 +365,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Horas]</td> 
-        <td> <p>Relatório de [!UICONTROL Hora Orçada]</p><p>O objeto [!UICONTROL Budgeted Hour] no relatório Budgeted Hour se refere às informações relacionadas a uma ferramenta de gerenciamento de recursos obsoleta. Somente o Bud ". O campo "Horas" neste relatório refere-se às horas orçadas na área do [!UICONTROL Resource Planner] ou do [!UICONTROL Resource Budgeting] do [!UICONTROL Business Case] do projeto. </p> <p>Para obter mais informações sobre como criar um relatório, consulte o artigo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Criar um relatório personalizado</a>.</p> </td> 
+        <td> <p>Relatório de [!UICONTROL Hora Orçada]</p><p>O objeto [!UICONTROL Budgeted Hour] no relatório Budgeted Hour se refere às informações relacionadas a uma ferramenta de gerenciamento de recursos obsoleta. Somente o Bud "[!UICONTROL. O campo "Horas" neste relatório refere-se às horas orçadas na área do [!UICONTROL Resource Planner] ou do [!UICONTROL Resource Budgeting] do [!UICONTROL Business Case] do projeto. </p> <p>Para obter mais informações sobre como criar um relatório, consulte o artigo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Criar um relatório personalizado</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Planejador de recursos Horas Orçadas] </td> 
@@ -407,7 +409,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
    <td> <p>Esse é o custo associado às horas que você, como Gerente de recursos, destina ao orçamento das suas funções de trabalho para o trabalho que precisam para concluir nos projetos. </p> <p>O [!UICONTROL Custo do Trabalho Orçado] em um relatório de projeto é calculado usando a seguinte fórmula:</p> <p><code style="font-style: normal;">[!UICONTROL Budgeted Labor Cost] = SUM([!UICONTROL Job Role Cost] per [!UICONTROL Hour] * [!UICONTROL Budgeted Hours] per [!UICONTROL Job Role])</code> </p> <p>Este campo pode referir-se ao seguinte:</p> 
     <ul> 
      <li> <p>Custos de mão de obra exibidos na área [!UICONTROL Resource Budgeting] do [!UICONTROL Business Case] ou no [!UICONTROL Resource Planner] associados ao custo de funções de trabalho em um projeto. Para obter informações sobre como calcular o [!UICONTROL Custo do Trabalho Orçado], consulte o artigo <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">[!UICONTROL Entender Custo do Trabalho Orçado] e [!UICONTROL Horas Orçadas] para projetos</a></p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Custos de mão de obra exibidos na área [!UICONTROL Resource Budgeting] do [!UICONTROL Business Case] que refletem os [!UICONTROL People Costs] estimados em uma iniciativa vinculada ao projeto do [!DNL Scenario Planner] quando você usa o Planejador de cenários para orçar seus recursos de projeto. Para obter informações sobre iniciativas, consulte <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Visão geral das iniciativas no Planejador de cenários</a>. </p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">A visão geral</a> de [!DNL Scenario Planner]. </p> </li> 
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Custos de mão de obra exibidos na área [!UICONTROL Resource Budgeting] do [!UICONTROL Business Case] que refletem os [!UICONTROL People Costs] estimados em uma iniciativa vinculada ao projeto do [!DNL Scenario Planner] quando você usa o Planejador de cenários para orçar seus recursos de projeto. Para obter informações sobre iniciativas, consulte <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Visão geral das iniciativas no Planejador de cenários</a>. </p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">A visão geral[!DNL Scenario Planner] de </a>. </p> </li> 
      <p>Ela é exibida nas seguintes áreas de sob os seguintes nomes:</p>
    <ul>
    <li><strong>[!UICONTROL Custo do Trabalho Orçado]</strong>: na área [!UICONTROL Orçamento de Recursos] do [!UICONTROL Business Case].
@@ -741,7 +743,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo de Dados Personalizado]</td> 
-   <td>A opção para especificar se um Campo de Dados Personalizados  será armazenado no banco de dados como Texto, Data, Número ou Moeda.</td> 
+   <td>A opção para especificar se um Campo de Dados Personalizados [!UICONTROL] será armazenado no banco de dados como Texto, Data, Número ou Moeda.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo de Exibição Personalizada]</td> 
@@ -1117,23 +1119,23 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Iniciativa]</td> 
-   <td> <p>No [!DNL Workfront Scenario Planner], você pode dividir um plano em várias iniciativas para facilitar o gerenciamento do plano. <span>Você pode criar um relatório da [!UICONTROL Initiative] e acessar informações da [!UICONTROL Initiative] em um relatório do [!UICONTROL Project].</span></p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">A visão geral</a> de [!DNL Scenario Planner]. </p> <p>O relatório [!DNL Initiative] não está visível na instância [!DNL Workfront], a menos que a empresa tenha comprado uma licença [!DNL Workfront Scenario Planner]. Não é possível acessar [!UICONTROL Iniciativas] por meio da API.</p> </td> 
+   <td> <p>No [!DNL Workfront Scenario Planner], você pode dividir um plano em várias iniciativas para facilitar o gerenciamento do plano. <span>Você pode criar um relatório da [!UICONTROL Initiative] e acessar informações da [!UICONTROL Initiative] em um relatório do [!UICONTROL Project].</span></p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">A visão geral[!DNL Scenario Planner] de </a>. </p> <p>O relatório [!DNL Initiative] não está visível na instância [!DNL Workfront], a menos que a empresa tenha comprado uma licença [!DNL Workfront Scenario Planner]. Não é possível acessar [!UICONTROL Iniciativas] por meio da API.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>[!UICONTROL Função de Trabalho Iniciativa]</span> </td> 
-   <td> <p><span>O tipo de relatório [!UICONTROL Função de Trabalho da Iniciativa] exibe informações sobre as funções de trabalho associadas a uma iniciativa de plano no [!DNL Workfront Scenario Planner].</span> </p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral</a> de [!DNL Scenario Planner]. </p> <p><span>Este tipo de relatório não é visível na instância [!DNL Workfront], a menos que a empresa tenha comprado uma licença [!DNL Workfront Scenario Planner].</p> </td> 
+   <td> <p><span>O tipo de relatório [!UICONTROL Função de Trabalho da Iniciativa] exibe informações sobre as funções de trabalho associadas a uma iniciativa de plano no [!DNL Workfront Scenario Planner].</span> </p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral[!DNL Scenario Planner] de </a>. </p> <p><span>Este tipo de relatório não é visível na instância [!DNL Workfront], a menos que a empresa tenha comprado uma licença [!DNL Workfront Scenario Planner].</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>[!UICONTROL Horas da Função de Trabalho da Iniciativa]</span> </td> 
-   <td> <p><span> Em um relatório de [!UICONTROL Função de Trabalho da Iniciativa], é exibido o número de horas associado a uma função de trabalho em uma iniciativa.</span> </p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral</a> de [!DNL Scenario Planner]. </p> <p>Este campo e o tipo de relatório da [!UICONTROL Função de Trabalho da Iniciativa] não estão visíveis na instância [!DNL Workfront], a menos que a empresa tenha comprado uma licença [!DNL Workfront Scenario Planner].</p> </td> 
+   <td> <p><span> Em um relatório de [!UICONTROL Função de Trabalho da Iniciativa], é exibido o número de horas associado a uma função de trabalho em uma iniciativa.</span> </p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral[!DNL Scenario Planner] de </a>. </p> <p>Este campo e o tipo de relatório da [!UICONTROL Função de Trabalho da Iniciativa] não estão visíveis na instância [!DNL Workfront], a menos que a empresa tenha comprado uma licença [!DNL Workfront Scenario Planner].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Contagem de Funções de Trabalho da Iniciativa]</td> 
-   <td> <p>Em um relatório de [!UICONTROL Função de Trabalho da Iniciativa], é exibido o número de funções de trabalho específicas associadas a uma iniciativa.</p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral</a> de [!DNL Scenario Planner]. </p> <p>Este campo e o tipo de relatório da [!UICONTROL Função de Trabalho da Iniciativa] não estão visíveis na instância [!DNL Workfront], a menos que a empresa tenha comprado uma licença [!DNL Workfront Scenario Planner].</p> </td> 
+   <td> <p>Em um relatório de [!UICONTROL Função de Trabalho da Iniciativa], é exibido o número de funções de trabalho específicas associadas a uma iniciativa.</p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral[!DNL Scenario Planner] de </a>. </p> <p>Este campo e o tipo de relatório da [!UICONTROL Função de Trabalho da Iniciativa] não estão visíveis na instância [!DNL Workfront], a menos que a empresa tenha comprado uma licença [!DNL Workfront Scenario Planner].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Data da Última Publicação da Iniciativa]</td> 
-   <td> <p>Um campo em um relatório de [!UICONTROL Initiative], [!UICONTROL Initiative Job Role] e [!UICONTROL Project] que exibe a data em que uma iniciativa de plano foi publicada pela última vez em um projeto. É possível publicar iniciativas para criar projetos ou atualizar projetos vinculados às iniciativas.</p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral</a> de [!DNL Scenario Planner]. </p> <p><span>Para obter informações sobre como publicar iniciativas, consulte</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">Publicar cenários para criar e atualizar projetos no [!DNL Workfront Scenario Planner]</a>. Este campo não está visível na instância [!DNL Workfront], a menos que a empresa tenha comprado uma licença [!DNL Workfront Scenario Planner].</p> </td> 
+   <td> <p>Um campo em um relatório de [!UICONTROL Initiative], [!UICONTROL Initiative Job Role] e [!UICONTROL Project] que exibe a data em que uma iniciativa de plano foi publicada pela última vez em um projeto. É possível publicar iniciativas para criar projetos ou atualizar projetos vinculados às iniciativas.</p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral[!DNL Scenario Planner] de </a>. </p> <p><span>Para obter informações sobre como publicar iniciativas, consulte</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">Publicar cenários para criar e atualizar projetos no [!DNL Workfront Scenario Planner]</a>. Este campo não está visível na instância [!DNL Workfront], a menos que a empresa tenha comprado uma licença [!DNL Workfront Scenario Planner].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Pesquisa em Linha]</td> 
@@ -1333,7 +1335,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
    <td> <p>Um dos [!UICONTROL Tipos de Atualização] de um [!UICONTROL Project]. Esta configuração permite que as linhas de tempo [!UICONTROL Projeto Projetado] e [!UICONTROL Planejado] sejam atualizadas apenas quando "[!UICONTROL Linhas de Tempo Recalculadas]" for clicado. Projetos configurados dessa maneira serão ignorados durante o processo noturno de recálculo e quando o projeto ou as tarefas no projeto forem atualizadas.</p> <p>Para obter mais informações, consulte <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Selecionar o projeto [!UICONTROL Tipo de Atualização] </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL -ME]</td> 
+   <td>[!UICONTROL-ME]</td> 
    <td> <p>Refere-se ao usuário conectado no momento. </p> <p>Recomendamos usar esse campo em um filtro para tornar os relatórios mais genéricos ao compartilhá-los com outros usuários. Dessa forma, você pode criar apenas um relatório que exibirá informações diferentes dependendo de quem faz logon para visualizá-lo, já que as informações são sempre personalizadas para o usuário conectado. </p> </td> 
   </tr> 
   <tr> 
@@ -1579,7 +1581,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Plano] (no [!DNL Scenario Planner])</td> 
-   <td> <p>Um plano é o objeto principal ao trabalhar com o Planejador de cenários [!DNL Workfront]. Você pode destacar a estratégia para o futuro próximo e de longo prazo de sua empresa, identificar cada resultado de alto nível e adicioná-lo como um plano ao Planejador de cenários do [!DNL Workfront]. </p> <p>Você não pode exibir planos do [!DNL Scenario Planner] em um relatório e não pode acessá-los por meio da API do [!DNL Workfront]. </p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral</a> de [!DNL Scenario Planner]. </p> </td> 
+   <td> <p>Um plano é o objeto principal ao trabalhar com o Planejador de cenários [!DNL Workfront]. Você pode destacar a estratégia para o futuro próximo e de longo prazo de sua empresa, identificar cada resultado de alto nível e adicioná-lo como um plano ao Planejador de cenários do [!DNL Workfront]. </p> <p>Você não pode exibir planos do [!DNL Scenario Planner] em um relatório e não pode acessá-los por meio da API do [!DNL Workfront]. </p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral[!DNL Scenario Planner] de </a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planejado]</td> 
@@ -1620,7 +1622,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Duração Planejada]</td> 
-   <td> <p>A [!UICONTROL Duração Planejada] de uma tarefa geralmente é a mesma [!UICONTROL Duração] da tarefa. Representa a diferença em dias entre o [!UICONTROL Início Planejado] e as [!UICONTROL Datas de Conclusão Planejadas] da tarefa. </p> <p>Quando a tarefa tem um Tipo [!UICONTROL Duration] de [!UICONTROL Effort Driven], a Duração Planejada  pode ser diferente da Duração  da tarefa, com base nos recursos atribuídos a ela. </p> <p>Por exemplo, se uma tarefa com um tipo [!UICONTROL Duração] de [!UICONTROL Controlado por Esforço] tiver uma [!UICONTROL Duração] de 3 dias e você atribuir um recurso com um agendamento de tempo integral à tarefa, a [!UICONTROL Duração Planejada] também será de 3 dias. Se você atribuir três recursos com um agendamento de tempo integral à mesma tarefa, a [!UICONTROL Duration] permanecerá 3 dias, mas a Duration Planned será de 1 dia. A [!UICONTROL Duração Planejada] também altera as datas de [!UICONTROL Início Planejado] e [!UICONTROL Conclusão Planejada] da tarefa, para refletir a nova [!UICONTROL Duração Planejada]. Como resultado, a linha do tempo do projeto também é afetada. </p> <p>Para obter mais informações sobre a diferença entre a [!UICONTROL Duração] e a [!UICONTROL Duração Planejada] para tarefas, consulte o artigo <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Diferença entre a [!UICONTROL Duração Planejada] e a [!UICONTROL Duração] para tarefas</a>.</p> <p>Projetos e problemas não têm uma [!UICONTROL Duração Planejada]. </p> </td> 
+   <td> <p>A [!UICONTROL Duração Planejada] de uma tarefa geralmente é a mesma [!UICONTROL Duração] da tarefa. Representa a diferença em dias entre o [!UICONTROL Início Planejado] e as [!UICONTROL Datas de Conclusão Planejadas] da tarefa. </p> <p>Quando a tarefa tem um Tipo [!UICONTROL Duration] de [!UICONTROL Effort Driven], a Duração Planejada [!UICONTROL] pode ser diferente da Duração [!UICONTROL] da tarefa, com base nos recursos atribuídos a ela. </p> <p>Por exemplo, se uma tarefa com um tipo [!UICONTROL Duração] de [!UICONTROL Controlado por Esforço] tiver uma [!UICONTROL Duração] de 3 dias e você atribuir um recurso com um agendamento de tempo integral à tarefa, a [!UICONTROL Duração Planejada] também será de 3 dias. Se você atribuir três recursos com um agendamento de tempo integral à mesma tarefa, a [!UICONTROL Duration] permanecerá 3 dias, mas a [!UICONTROL Duration Planned será de 1 dia. A [!UICONTROL Duração Planejada] também altera as datas de [!UICONTROL Início Planejado] e [!UICONTROL Conclusão Planejada] da tarefa, para refletir a nova [!UICONTROL Duração Planejada]. Como resultado, a linha do tempo do projeto também é afetada. </p> <p>Para obter mais informações sobre a diferença entre a [!UICONTROL Duração] e a [!UICONTROL Duração Planejada] para tarefas, consulte o artigo <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Diferença entre a [!UICONTROL Duração Planejada] e a [!UICONTROL Duração] para tarefas</a>.</p> <p>Projetos e problemas não têm uma [!UICONTROL Duração Planejada]. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Duração Planejada em Minutos]</td> 
@@ -1764,7 +1766,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Horas Planejadas de Atribuição de Projeto]</td> 
-   <td> <p>Em um relatório de [!UICONTROL Função de Trabalho da Iniciativa], é exibido o número de [!UICONTROL Horas Planejadas] associado a uma função de trabalho atribuída a tarefas ou problemas no projeto. Este campo e o tipo de relatório da [!UICONTROL Função de Trabalho da Iniciativa] não são exibidos na instância [!DNL Workfront], a menos que a empresa tenha comprado uma licença [!DNL Workfront Scenario Planner]. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral</a> de [!DNL Workfront Scenario Planner]. </p> </td> 
+   <td> <p>Em um relatório de [!UICONTROL Função de Trabalho da Iniciativa], é exibido o número de [!UICONTROL Horas Planejadas] associado a uma função de trabalho atribuída a tarefas ou problemas no projeto. Este campo e o tipo de relatório da [!UICONTROL Função de Trabalho da Iniciativa] não são exibidos na instância [!DNL Workfront], a menos que a empresa tenha comprado uma licença [!DNL Workfront Scenario Planner]. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md">A visão geral[!DNL Workfront Scenario Planner] de </a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Detalhes do Projeto]</td> 
@@ -1969,7 +1971,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Gerentes de Recursos]</td> 
-   <td> <p>Em um relatório de projeto ou exibição de lista, este é um campo informativo que mostra os usuários designados para executar atividades de gerenciamento de recursos no projeto.  Quando você usa "" em um relatório, uma lista de gerenciadores de recursos é exibida, com cada gerenciador de recursos no projeto separado por vírgula. Você pode designar até 30 gerentes de recursos em um determinado projeto.</p> <p>Para obter mais informações, consulte o artigo <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md">Designar Gerentes de Recursos para um projeto ou modelo </a>.</p> </td> 
+   <td> <p>Em um relatório de projeto ou exibição de lista, este é um campo informativo que mostra os usuários designados para executar atividades de gerenciamento de recursos no projeto.  Quando você usa "[!UICONTROL]" em um relatório, uma lista de gerenciadores de recursos é exibida, com cada gerenciador de recursos no projeto separado por vírgula. Você pode designar até 30 gerentes de recursos em um determinado projeto.</p> <p>Para obter mais informações, consulte o artigo <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md">Designar Gerentes de Recursos para um projeto ou modelo </a>.</p> </td> 
   </tr>
   <tr> 
    <td>[!UICONTROL Planejador de recursos Horas Orçadas] </td> 
@@ -2067,11 +2069,11 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Cenário] (em [!DNL Workfront Fusion]) </td> 
-   <td> <p>Um cenário é composto por uma série de etapas (módulos) que indicam como os dados devem ser transferidos e transformados entre aplicativos/serviços.</p> <p>Para obter informações sobre cenários em [!DNL Workfront Fusion], consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] visão geral do cenário</a>.</p> </td> 
+   <td> <p>Um cenário é composto por uma série de etapas (módulos) que indicam como os dados devem ser transferidos e transformados entre aplicativos/serviços.</p> <p>Para obter informações sobre cenários em [!DNL Workfront Fusion], consulte <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] visão geral do cenário</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Cenário] (no [!DNL Workfront Scenario Planner]) </td> 
-   <td> <p>No [!DNL Scenario Planner], um cenário é uma cópia de um plano. </p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">A visão geral</a> de [!DNL Scenario Planner]. </p> <p>Para obter informações sobre como criar cenários, consulte <a href="../../../scenario-planner/create-and-compare-scenarios-for-a-plan.md">Criar e comparar cenários de planejamento no [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>No [!DNL Scenario Planner], um cenário é uma cópia de um plano. </p> <p>O [!DNL Scenario Planner] requer uma licença adicional. Para obter informações sobre [!DNL Workfront Scenario Planner], consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">A visão geral[!DNL Scenario Planner] de </a>. </p> <p>Para obter informações sobre como criar cenários, consulte <a href="../../../scenario-planner/create-and-compare-scenarios-for-a-plan.md">Criar e comparar cenários de planejamento no [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Agenda]</td> 

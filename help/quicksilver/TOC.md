@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: cfec7f1b3001b0fe78534c33c3a10c70f5f64c3f
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '13445'
+source-wordcount: '13449'
 ht-degree: 2%
 
 ---
@@ -489,7 +489,7 @@ ht-degree: 2%
          * [Mapear atributos do usuário](administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
          * [Desativar um usuário](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
          * [Excluir usuários](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-         * [Logs de auditoria](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+         * [Visão geral dos logs de auditoria](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
          * [Exibir e exportar logs de auditoria](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Exibir informações de logon do usuário](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Gerenciar usuários na Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
@@ -2069,6 +2069,7 @@ ht-degree: 2%
       * [Arquitetura: índice de artigos](planning/architecture/architecture-information.md)
       * [Visão geral dos espaços de trabalho](planning/architecture/workspaces-overview.md)
       * [Criar espaços de trabalho](planning/architecture/create-workspaces.md)
+      * [Criar hierarquias do espaço de trabalho](planning/architecture/create-workspace-hierarchies.md)
       * [Visão geral dos tipos de registro](planning/architecture/overview-of-record-types.md)
       * [Criar tipos de registro](planning/architecture/create-record-types.md)
       * [Criar tipos de registro importando informações de um arquivo CSV ou do Excel](planning/architecture/import-file-to-create-record-types.md)

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Você pode exibir todos os logs de auditoria no sistema ou aqueles que atendem a
 
 Os logs de auditoria listam as alterações de usuário acionadas no sistema durante os últimos 90 dias.
 
-Para obter informações sobre todos os tipos de log de auditoria e o que os gera, consulte [Logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Para obter informações sobre todos os tipos de log de auditoria e o que os gera, consulte [Visão geral dos logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 ## Requisitos de acesso
 
@@ -74,7 +74,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    **Todos os Tipos de Log** está selecionado por padrão.
 
-   Para obter uma lista de todos os tipos de log de auditoria que você pode exibir e as informações que eles incluem, consulte [Logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+   Para obter uma lista de todos os tipos de logs de auditoria que você pode exibir e as informações que eles incluem, consulte [Visão geral dos logs de auditoria](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 1. (Opcional) Defina qualquer um dos filtros disponíveis para os seguintes campos:
 

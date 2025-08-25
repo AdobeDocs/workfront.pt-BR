@@ -6,7 +6,7 @@ description: É possível usar tarefas predecessoras (ou apenas predecessoras) p
 author: Alina
 feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Para obter informações sobre predecessores, consulte [Visão geral dos predece
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Padrão </p>
+   <p>Standard </p>
     <p>Plano </p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Criar um predecessor para uma tarefa
 
-Criar um predecessor para uma tarefa do projeto usando a área Predecessores é semelhante a criar predecessores para tarefas de modelo em um modelo.
+Criar um predecessor para uma tarefa do projeto usando a área Predecessores é semelhante a criar predecessores para uma tarefa de modelo em um modelo.
 
 Para criar uma tarefa predecessora para uma tarefa do projeto:
 

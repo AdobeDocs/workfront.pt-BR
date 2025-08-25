@@ -1,5 +1,5 @@
 ---
-title: Logs de auditoria
+title: Visão geral dos logs de auditoria
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
+source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1522'
 ht-degree: 3%
 
 ---
 
-# Logs de auditoria
+# Visão geral dos logs de auditoria
 
 <!--Audited: 01/2024-->
 
@@ -73,14 +73,14 @@ Os seguintes campos são registrados em cada entrada do log de auditoria:
 * [Seção personalizada](#custom-section)
 * [Taxa de Câmbio](#exchange-rate)
 * [Grupo](#group)
-* [Funções de trabalho](#job-roles)
-* [Tentativa de login](#login-attempt)
+* [Função](#job-role)
 * [Prioridade](#priority)
 * [Preferência do projeto](#project-preference)
 * [Severidade](#severity)
 * [Status](#status)
 * [Preferências de tarefas e problemas](#tasks-issues-preferences)
 * [Usuário](#user)
+<!--* [Login Attempt](#login-attempt) -->
 
 ### Nível de acesso {#access-level}
 
@@ -236,7 +236,7 @@ O sistema gera uma entrada de log de auditoria de Grupo quando um usuário execu
    * Adiciona ou remove usuários
    * Adiciona ou remove subgrupos
 
-### Função no trabalho {#job-roles}
+### s {#job-role}
 
 O sistema gera uma entrada de log de auditoria Funções de trabalho quando um usuário executa uma das seguintes ações:
 
@@ -252,24 +252,19 @@ O sistema gera uma entrada de log de auditoria Funções de trabalho quando um u
 
 Para obter mais informações sobre como configurar funções de trabalho, consulte [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-<!--DELETE THIS SECTION MARCH 2026-->
+### Tentativa de login {#login-attempt}
 
-<!--
-### Login Attempt {#login-attempt}
+O sistema gera uma entrada de log de auditoria de Tentativa de login quando um usuário executa uma das seguintes ações:
 
-The system generates a Login Attempt audit log entry when a user does one of the following actions:
+* Faz logon, logout ou falha em uma tentativa de logon no Workfront (em um navegador e no aplicativo móvel)
+* Faz logon, logout ou falha em uma tentativa de logon em qualquer integração do Workfront (como Workfront para Slack)
+* Faz logon ou logout da API do Workfront
 
-* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
-* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
-* Logs in or logs out of the Workfront API
-
-Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
+Os logs de tentativa de logon não registram quando um administrador do Workfront usa o recurso &quot;Login como&quot;.
 
 >[!NOTE]
 >
->This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
-
--->
+>Isso não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.
 
 ### Prioridade {#priority}
 
@@ -350,17 +345,21 @@ Para obter mais informações sobre preferências de tarefas e problemas, consul
 
 ### Usuário {#user}
 
-<!--DELETE THIS SECTION MARCH 2026-->
-<!--
-The system generates a User audit log entry when a user does one of the following actions:
+O sistema gera uma entrada de log de auditoria do usuário quando um usuário executa uma das seguintes ações:
 
-* Creates a user
+* Cria um usuário
+
+  <!--
+  DRAFTED IN FLARE:
+  Gevorg checking with Jonah on whether this note should be here:
+  
+  -->
 
   >[!NOTE]
   >
-  >This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
+  >Isso não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.
 
-* Deletes a user
-* Changes a user's access level, company, team, or group
-* Activates a user
-* Deactivates a user-->
+* Exclui um usuário
+* Altera o nível de acesso, a empresa, a equipe ou o grupo de um usuário
+* Ativa um usuário
+* Desativa um usuário

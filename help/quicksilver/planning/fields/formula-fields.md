@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '791'
 ht-degree: 6%
 
 ---
@@ -70,7 +70,7 @@ Para obter informações, consulte a seção &quot;Fórmula&quot; no artigo [Cri
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Padrão</p>
+   <td><p> Standard</p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -105,7 +105,7 @@ Para obter informações, consulte a seção &quot;Fórmula&quot; no artigo [Cri
 
    * Texto
    * Número
-   * Percentual
+   * Porcentagem
    * Moeda
    * Tags
    * Data
@@ -115,7 +115,11 @@ Para obter informações, consulte a seção &quot;Fórmula&quot; no artigo [Cri
 * Campos de fórmula podem ser exibidos como `#ERROR!` nos seguintes casos:
    * Quando um campo usado em uma fórmula é excluído.
    * Quando um campo usado em um campo de pesquisa agregado é exibido como `#ERROR!`.
-Por exemplo, se você exibir um campo de pesquisa que contenha campos de fórmula de pesquisa agregada e um dos campos de fórmula referenciados for exibido como `#ERROR!`.
+
+     Por exemplo, se você exibir um campo de pesquisa que contenha campos de fórmula de pesquisa agregada e um dos campos de fórmula referenciados for exibido como `#ERROR!`.
+   * Quando um valor de fórmula não pode ser exibido no formato selecionado.
+
+     Por exemplo, se eu selecionar Número para o Formato de um campo de fórmula e os campos usados na fórmula forem campos de texto que exibem apenas valores de texto não numéricos, o resultado da fórmula será exibido como `#ERROR!`, porque não é possível analisar o texto em um número.
 
 ## Fórmulas compatíveis
 
