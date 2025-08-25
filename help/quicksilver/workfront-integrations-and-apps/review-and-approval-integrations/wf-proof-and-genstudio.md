@@ -25,7 +25,7 @@ Com a integração entre o GenStudio for Performance Marketing e o Workfront Pro
 
 * Exibir decisões de revisão no GenStudio for Performance Marketing para aprovação final e publicação
 
-Para obter mais informações sobre revisão e aprovação no GenStudio for Performance Marketing, consulte [Integração do Workfront Proof com o GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Para obter mais informações sobre revisão e aprovação no GenStudio for Performance Marketing, consulte [Integração do Workfront Proof com o GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Requisitos de acesso
@@ -102,7 +102,7 @@ Para obter mais informações sobre como criar workflows e modelos automatizados
 
 Quando um usuário inicia uma revisão no GenStudio for Performance Marketing, ele simplesmente escolhe o modelo necessário. Os usuários podem alterar facilmente qualquer modelo de fluxo de trabalho de prova, adicionando ou removendo revisores e estágios, a qualquer momento.
 
-Para obter mais informações, consulte [Solicitar revisão e aprovação](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Para obter mais informações, consulte [Solicitar revisão e aprovação](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Revisar e aprovar o conteúdo de rascunho do GenStudio for Performance Marketing no visualizador de provas do Workfront
 
@@ -114,7 +114,7 @@ Com o revisor de provas, você pode
 * Marcar rascunho para mostrar o que precisa ser alterado
 * Tomar uma decisão
 
-Para obter mais informações, consulte [Revisar e editar conteúdo](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
+Para obter mais informações, consulte [Revisar e editar conteúdo](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
 
 
 >[!IMPORTANT]
@@ -126,4 +126,4 @@ Para obter mais informações, consulte [Revisar e editar conteúdo](https://exp
 
 Depois que o ativo tiver passado pelo processo de revisão e aprovação, você poderá visualizar a decisão de revisão e publicar o conteúdo diretamente do GenStudio for Performance Marketing.
 
-Para obter mais informações, consulte [Publicar conteúdo aprovado](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Para obter mais informações, consulte [Publicar conteúdo aprovado](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
