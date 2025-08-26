@@ -7,7 +7,7 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b
-source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
+source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -27,5 +27,5 @@ Esta seção contém os seguintes artigos:
 * [Filtrar um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
 * [Alterar o nome ou a descrição de um Painel da Tela de Pintura](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
 * [Excluir um painel da tela de desenho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
-* [Adicionar um painel de tela de desenho a um modelo de layout](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template)
+* [Adicionar um painel de tela de desenho a um modelo de layout](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
 
