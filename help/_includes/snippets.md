@@ -1,7 +1,7 @@
 ---
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2648'
 ht-degree: 1%
 
 ---
@@ -92,9 +92,9 @@ Você pode verificar se está associando o grupo certo com a equipe, passando o 
 
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página foi removido porque se aplicou apenas a organizações que ainda não foram integradas ao Adobe Admin Console.
+>O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Adobe Admin Console.
 >
->Todas as organizações da Workfront foram integradas à Adobe Admin Console.
+>Se sua organização foi integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Etapa 1 - Chegar aos usuários {#step-1-to-users}
 

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d661da6-dc7b-4dea-a56c-28e296acd980
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 0%
+source-wordcount: '161'
+ht-degree: 1%
 
 ---
 
@@ -19,43 +19,41 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
-
-<!--After you deactivate single sign-on (SSO) in Adobe Workfront, users need to log in using their Workfront credentials. These are the credentials the user originally set up. (If you need to change user credentials, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).)
+Após desativar o logon único (SSO) no Adobe Workfront, os usuários precisam fazer logon usando suas credenciais do Workfront. Essas são as credenciais que o usuário configurou originalmente. (Se você precisar alterar as credenciais do usuário, consulte [Editar perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).)
 
 
-## Access requirements
+## Requisitos de acesso
 
-+++ Expand to view access requirements for the functionality in this article.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-You must have the following access to perform the steps in this article: 
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>Plano</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Deactivate SSO
+## Desativar SSO
 
 {{step-1-to-setup}}
 
-1. Click **System** > **Single Sign-On (SSO)**.
+1. Clique em **Sistema** > **Logon Único (SSO)**.
 
-1. Scroll to the bottom of the page and disable the **Enable** option.
-1. Click **Save**.-->
+1. Role até a parte inferior da página e desabilite a opção **Habilitar**.
+1. Clique em **Salvar**.

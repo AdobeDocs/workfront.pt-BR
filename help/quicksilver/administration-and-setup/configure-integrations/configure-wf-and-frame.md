@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ O administrador do Workfront habilita a integração entre o Workfront e o Frame
 
 ## Requisitos de acesso
 
-<!--DELETE THIS SECTION MARCH 2026-->
-<!--
 >[!IMPORTANT]
 >
->This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].-->
+>Essa funcionalidade está disponível somente para organizações que foram integradas ao [!DNL Adobe Admin Console].
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 

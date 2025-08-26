@@ -9,9 +9,9 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -22,59 +22,54 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página foi removido porque se aplicou apenas a organizações que ainda não foram integradas ao Adobe Admin Console.
+>O procedimento descrito nesta página aplica-se apenas a organizações que ainda não foram integradas ao [!UICONTROL Adobe Admin Console].
 >
->Todas as organizações da Workfront foram integradas à Adobe Admin Console.
+>Se sua organização foi integrada ao [!UICONTROL Adobe Admin Console], consulte [Diferenças de administração baseadas em plataforma ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-<!--DELETE ME MARCH 2026-->
+## Problema
 
-<!--
+Ao usar o URL de logout do ADFS (https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0), você recebe uma página de mensagem com o erro: &quot;Houve um problema ao acessar o site. Tente navegar até o site novamente.&quot;
 
-## Problem
+Se o problema persistir, contate o administrador deste site e forneça o seguinte número de referência para identificar o problema: **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
 
-When using the ADFS logout URL (https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0), you receive a message page with the error: "There was a problem accessing the site. Try to browse to the site again."
+## Requisitos de acesso
 
-If the problem persists, contact the administrator of this site and provide the following reference number to identify the problem: **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-## Access requirements
-
-+++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
+   <td role="rowheader">Licença do Adobe [!DNL Workfront]</td> 
    <td> 
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan</p></td> 
+   <p>Novo: Padrão</p>
+   Ou
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td>[!UICONTROL System Administrator]</td>  
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>[!UICONTROL Administrador do Sistema]</td>  
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Solution
+## Solução
 
-1. In your ADFS manager server, go to **[!UICONTROL Trust Relationships]** > **[!UICONTROL Relying Party Trusts]** > `<your party trust>` properties.
+1. No servidor do gerenciador ADFS, vá para **[!UICONTROL Relações de Confiança]** > **[!UICONTROL Relações de Confiança de Terceira Parte Confiável]** > `<your party trust>` propriedades.
 
-1. Under the **[!UICONTROL Endpoints]** tab, click **[!UICONTROL Add]**.
+1. Na guia **[!UICONTROL Pontos de extremidade]**, clique em **[!UICONTROL Adicionar]**.
 
-1. **[!UICONTROL Endpoint Type]** = SAML Logout, Binding = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
+1. **[!UICONTROL Tipo de Ponto de Extremidade]** = SAML Logout, Associação = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 
-   You can set a response URL if you want it to redirect to another page. But we recommend the ADFS site because it warns that you are logged off, but you should still close your browser.
--->
+   Você pode definir um URL de resposta se quiser redirecioná-lo para outra página. Mas recomendamos o site do ADFS porque ele avisa que você está desconectado, mas ainda deve fechar o navegador.

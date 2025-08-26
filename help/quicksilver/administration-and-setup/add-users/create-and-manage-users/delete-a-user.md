@@ -8,141 +8,137 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 3%
+source-wordcount: '872'
+ht-degree: 1%
 
 ---
 
 # Excluir usuários
 
-<!--DELETE ME MARCH 2026-->
+>[!IMPORTANT]
+>
+>O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Adobe Business Platform. Se você foi integrado à Adobe Business Platform, é necessário excluir usuários na Adobe Admin Console.
+>
+>Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Business Platform, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+Quando um usuário deixa a organização, você pode removê-lo do Adobe Workfront.
 
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página foi removido porque se aplicou apenas a organizações que ainda não foram integradas ao Adobe Admin Console.
->
->Todas as organizações da Workfront foram integradas à Adobe Admin Console.
->
->  Para obter instruções sobre como excluir um usuário na Adobe Admin Console, consulte a seção &quot;Excluir usuários permanentemente&quot; no artigo [Gerenciar usuários individualmente](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html) ou entre em contato com o Administrador do Adobe Admin Console.
-
-<!--When a user leaves your organization, you can remove that user from Adobe Workfront.
-
->[!IMPORTANT]
->
->Deleting a user from the system also deletes information associated with the user that you might want to retain. We recommend deactivating users instead of deleting them. For more information, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).-->
+>A exclusão de um usuário do sistema também exclui as informações associadas ao usuário que você pode querer manter. Recomendamos desativar os usuários em vez de excluí-los. Para obter mais informações, consulte [Desativar ou reativar um usuário](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 <!--
 >* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 -->
 
-<!--## Access requirements
+## Requisitos de acesso
 
-+++ Expand to view access requirements for the functionality in this article.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-You must have the following access to perform the steps in this article:
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p><p>Or</p><p>Current: Plan</p></td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Novo: Padrão</p><p>Ou</p><p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must have one of the following:</p> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Você deve ter um dos seguintes:</p> 
     <ul> 
-     <li> <p>The System Administrator access level. </li> 
-     <li> <p><b>Users</b> setting in your access level configured to <b>Edit</b> access, with <b>Create</b> and at least one of the two <b>User Admin</b> options enabled under <b>Fine-tune your settings</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Of these two options, if <b>User Admin (Group Users)</b> is enabled, you must be a group administrator of a group where the user is a member.</p> </li> 
+     <li> <p>O nível de acesso Administrador do sistema. </li> 
+     <li> <p>A configuração <b>Usuários</b> no seu nível de acesso foi configurada para <b>Editar</b> acesso, com as opções <b>Criar</b> e pelo menos uma das duas opções <b>Administrador de Usuários</b> habilitadas em <b>Ajustar suas configurações</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Dessas duas opções, se <b>Administrador de Usuários (Usuários de Grupo)</b> estiver habilitado, você deverá ser um administrador de grupo de um grupo do qual o usuário seja membro.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Deleting vs. deactivating a user
+## Excluir vs. desativar um usuário
 
-Deactivating a user causes the following things to happen:
+A desativação de um usuário faz com que as seguintes coisas aconteçam:
 
-* Removes the user's licenses to both Workfront and Workfront Proof if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see [Workfront Proof: article index](../../../workfront-proof/workfront-proof.md).
-* The user can no longer be assigned work.
-* The user can no longer be added to updates.
-* The user can no longer be added to teams or groups.
-* Objects can no longer be shared with the user.
-* Their association with the following objects remains intact:
+* Remove as licenças do usuário para Workfront e Workfront Proof se o componente do Workfront Proof estiver associado à sua conta do Workfront. Para obter mais informações sobre o Workfront Proof, consulte [Workfront Proof: índice do artigo](../../../workfront-proof/workfront-proof.md).
+* O usuário não pode mais receber trabalho.
+* O usuário não pode mais ser adicionado às atualizações.
+* O usuário não pode mais ser adicionado a equipes ou grupos.
+* Os objetos não podem mais ser compartilhados com o usuário.
+* Sua associação com os seguintes objetos permanece intacta:
 
-   * Tasks, issues, projects, portfolios
-   * Dashboards
-
-     >[!NOTE]
-     >
-     >If you deactivate a user and can no longer view the reports or dashboards associated with a user, you may need to update the **Run this report with the Access Rights of:** field.  
-     >To learn more, see the [Why can't I access a report owned by a deactivated user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
-
-   * Documents
-   * Updates
-   * Hours
-
-* If the user has checked-out documents, the documents remain checked out when you deactivate them. Only a Workfront administrator can check them back in. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
-
-Deleting a user causes the following things to happen:
-
-* Removes the user's licenses to both Workfront and Workfront Proof, if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see [Workfront Proof: article index](../../../workfront-proof/workfront-proof.md).
-* The user can no longer be assigned work.
-* The user can no longer be added to updates.
-* The user can no longer be added to teams or groups.
-* Objects can no longer be shared with the user.
-* Deletes the association of that user with the following objects:
-
-   * Tasks, issues, projects, portfolio
-   * Dashboards
+   * Tarefas, problemas, projetos, portfólios
+   * Painéis
 
      >[!NOTE]
      >
-     >You also lose access to custom sections that contained dashboards associated to the deleted user.  
-     >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
+     >Se você desativar um usuário e não puder mais exibir os relatórios ou painéis associados a um usuário, talvez seja necessário atualizar o campo **Executar este relatório com os Direitos de Acesso de:**.\
+     >Para saber mais, consulte o [Por que não posso acessar um relatório de propriedade de um usuário desativado?Seção ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) do artigo [Perguntas frequentes sobre relatórios](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
-   * Updates
-   * Hours
+   * Documentos
+   * Atualizações
+   * Horas
+
+* Se o usuário tiver feito check-out de documentos, eles permanecerão com check-out quando você os desativar. Somente um administrador do Workfront pode fazer o check-in deles novamente. Para obter mais informações sobre o check-out de documentos, consulte [Check-out de documentos](../../../documents/managing-documents/check-out-documents.md).
+
+Excluir um usuário faz com que as seguintes coisas aconteçam:
+
+* Remove as licenças do usuário para Workfront e Workfront Proof, se o componente do Workfront Proof estiver associado à sua conta do Workfront. Para obter mais informações sobre o Workfront Proof, consulte [Workfront Proof: índice do artigo](../../../workfront-proof/workfront-proof.md).
+* O usuário não pode mais receber trabalho.
+* O usuário não pode mais ser adicionado às atualizações.
+* O usuário não pode mais ser adicionado a equipes ou grupos.
+* Os objetos não podem mais ser compartilhados com o usuário.
+* Exclui a associação desse usuário com os seguintes objetos:
+
+   * Tarefas, problemas, projetos, portfólio
+   * Painéis
 
      >[!NOTE]
      >
-     >These objects remain in Workfront but the owner of the object is now blank.
+     >Você também perde o acesso às seções personalizadas que continham painéis associados ao usuário excluído.\
+     >Para saber mais, consulte [Como faço para acessar um painel que contém um relatório de propriedade de um usuário excluído?Seção ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) do artigo [Perguntas frequentes sobre relatórios](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
-* If the user uploaded any documents under the Documents area in the Global Navigation Bar, the documents are also deleted.
-* If the user has checked out documents that they own and the documents are uploaded in the main Documents area (accessed from the Main Menu), the documents are deleted with the user. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
+   * Atualizações
+   * Horas
 
-For more information about deactivating users, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+     >[!NOTE]
+     >
+     >Esses objetos permanecem no Workfront, mas o proprietário do objeto agora está em branco.
 
-You can permanently delete users one at a time, or you can permanently delete multiple users simultaneously. When you delete individual users, you must wait for the deletion process to complete prior to moving on to other activities in Workfront. The process of deleting multiple users simultaneously runs as a background process, so you can continue using Workfront as the users are deleted.
+* Se o usuário tiver carregado algum documento na área Documentos na Barra de navegação global, os documentos também serão excluídos.
+* Se o usuário tiver feito check-out dos documentos que possui e os documentos forem carregados na área Documentos principal (acessada no Menu principal), os documentos serão excluídos com o usuário. Para obter mais informações sobre o check-out de documentos, consulte [Check-out de documentos](../../../documents/managing-documents/check-out-documents.md).
 
-## Delete one or more users
+Para obter mais informações sobre como desativar usuários, consulte [Desativar ou reativar um usuário](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+
+É possível excluir permanentemente os usuários, um de cada vez, ou excluir permanentemente vários usuários simultaneamente. Ao excluir usuários individuais, você deve aguardar a conclusão do processo de exclusão antes de passar para outras atividades no Workfront. O processo de exclusão de vários usuários simultaneamente é executado como um processo em segundo plano, para que você possa continuar usando o Workfront enquanto os usuários são excluídos.
+
+## Excluir um ou mais usuários
 
 {{step-1-to-users}}
 
-1. Select at least one user that you want to delete, click the More menu ![More icon](assets/more-icon.png), then click **Delete**.
-1. In the box that appears, click **Delete** to confirm the deletion.
+1. Selecione pelo menos um usuário que você deseja excluir, clique no menu Mais ![ícone Mais](assets/more-icon.png) e em **Excluir**.
+1. Na caixa exibida, clique em **Excluir** para confirmar a exclusão.
 
-   The process of deleting users runs as a background process, so you can continue using Workfront as the user or users are deleted.
+   O processo de exclusão de usuários é executado como um processo em segundo plano, para que você possa continuar usando o Workfront como o usuário ou usuários são excluídos.
 
-   Depending on the number of users you are deleting, the process can take several minutes or even a few hours.
+   Dependendo do número de usuários que você está excluindo, o processo pode levar vários minutos ou até mesmo algumas horas.
 
-   After receiving the confirmation in Workfront that the users were deleted, you might continue to see them in the system until the deletion process is complete in the background.
+   Depois de receber a confirmação no Workfront de que os usuários foram excluídos, você pode continuar vendo-os no sistema até que o processo de exclusão seja concluído em segundo plano.
 
-   At a later time, if you discover that one or more users were not successfully deleted, try to delete them one at a time.-->
+   Posteriormente, se você descobrir que um ou mais usuários não foram excluídos com êxito, tente excluí-los um de cada vez.

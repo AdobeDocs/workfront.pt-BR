@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1217'
 ht-degree: 4%
 
 ---
@@ -305,6 +305,6 @@ As tabelas a seguir exibem os usuários a serem importados e vários atributos d
 >
 >Os usuários importados para o Workfront são criados com status Desativado e Aprovação pendente.
 > 
->Se um usuário não sair do status Desativado e Aprovação pendente em alguns minutos, é possível adicionar o lote de usuários diretamente ao Adobe Admin Console.
+>Se sua organização tiver sido migrada para a Adobe Admin Console e um usuário não sair do status Desativado e Aprovação pendente em alguns minutos, você poderá adicionar o lote de usuários diretamente à Adobe Admin Console.
 >
->Para obter instruções, consulte [Gerenciar vários usuários | Upload em massa de CSV](https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html) na documentação do Adobe.
+>Para obter instruções, consulte [Gerenciar vários usuários | Upload em massa de CSV](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) na documentação do Adobe.

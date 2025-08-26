@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 0%
+source-wordcount: '1550'
+ht-degree: 4%
 
 ---
 
@@ -16,88 +16,86 @@ ht-degree: 0%
 
 <!--Audited: 12/2024-->
 
-<!--DELETE ME MARCH 2026-->
-
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página foi removido porque se aplicou apenas a organizações que ainda não foram integradas ao Adobe Admin Console.
->
->Todas as organizações da Workfront foram integradas à Adobe Admin Console.
+>O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, você deverá executar essa ação por meio da Adobe Admin Console.
 >
 >Para obter instruções sobre como conceder acesso completo de administrador na Adobe Admin Console, consulte [Gerenciar usuários na Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>
+>Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-<!--As an Adobe Workfront administrator, you can create another Workfront administrator by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
+Como administrador do Adobe Workfront, você pode criar outro administrador do Workfront atribuindo a ele o nível de acesso Administrador do sistema. Um usuário com esse nível de acesso tem acesso administrativo total a tudo no Workfront, incluindo itens que não foram criados por ele mesmo.
 
 >[!NOTE]
 >
->This is different from using an access level to grant users administrative access to certain areas of the system. For more information, see the following:
+>Isso é diferente de usar um nível de acesso para conceder aos usuários acesso administrativo a determinadas áreas do sistema. Para obter mais informações, consulte:
 >
->* [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) 
->* [Access of a Workfront administrator vs. access of a Plan user with administrative rights](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in this article
+>* [Conceder aos usuários acesso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
+>* [Acesso de um administrador do Workfront vs. acesso de um usuário do Plano com direitos administrativos](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) neste artigo
 >
 
-## Access requirements
+## Requisitos de acesso
 
-+++ Expand to view access requirements for the functionality in this article.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-You must have the following access to perform the steps in this article: 
+Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New: Standard</p>
-   <p>Current: Plan</p></td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td> <p>Novo: Padrão</p>
+   <p>Atual: Plano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator. </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Você deve ser um administrador do Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Grant full System Administrator access to a single user
+## Conceder acesso completo de Administrador do sistema a um único usuário
 
-{{step-1-to-users}} 
+{{step-1-to-users}}
 
-1. Click the name of the user to whom you want to grant administrator rights.
-1. Click the **More** menu ![](assets/more-icon.png) to the right of the user name, then click **Edit**.  
+1. Clique no nome do usuário a quem deseja conceder direitos de administrador.
+1. Clique no menu **Mais** ![](assets/more-icon.png) à direita do nome de usuário e clique em **Editar**.
 
-   The **Edit Person** box displays. 
-1. Click **Access** in the left panel.
-1. In the **Access level** drop-down list, select the **System Administrator** access level.
+   A caixa **Editar Pessoa** é exibida.
+1. Clique em **Acessar** no painel esquerdo.
+1. Na lista suspensa **Nível de acesso**, selecione o nível de acesso **Administrador do Sistema**.
 
-   Depending on changes made in your system, the name of this access level might have changed.
+   Dependendo das alterações feitas no sistema, o nome desse nível de acesso pode ter sido alterado.
 
-1. Click **Save Changes.**
+1. Clique em **Salvar alterações.**
 
-   The user now has full System Administrator rights in the system.
+   O usuário agora tem direitos completos de Administrador do sistema no sistema.
 
-## Access of a Workfront administrator vs. access of a Plan user with administrative rights  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
+## Acesso de um administrador do Workfront vs. acesso de um usuário do Plano com direitos administrativos  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-The two tables below show the difference between the access rights of a user with a Workfront System Administrator access level versus those of a user with a Plan license with some administrative rights.
+As duas tabelas abaixo mostram a diferença entre os direitos de acesso de um usuário com um nível de acesso de Administrador de sistema do Workfront e os de um usuário com uma licença de Plano com alguns direitos administrativos.
 
-Workfront administrators can view all the objects in the system (regardless of who created them), create new ones, and modify or delete existing ones. They have full access to all objects in the system.
+Os administradores do Workfront podem visualizar todos os objetos no sistema (independentemente de quem os criou), criar novos e modificar ou excluir os existentes. Eles têm acesso total a todos os objetos no sistema.
 
-Users with a Plan license who can edit functionality in one area have full access to the functionality in that area.
+Os usuários com uma licença de Plano que podem editar a funcionalidade em uma área têm acesso total à funcionalidade nessa área.
 
 >[!NOTE]
 >
->Users with a Plan license who are designated as group administrators can perform some of the actions allowed for Workfront administrators. They are allowed to perform these actions only for the groups they administer, their subgroups, and the users in these groups and subgroups. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>Os usuários com uma licença de Plano designados como administradores de grupo podem executar algumas das ações permitidas para administradores do Workfront. Eles têm permissão para executar essas ações somente para os grupos que administram, seus subgrupos e os usuários nesses grupos e subgrupos. Para obter mais informações, consulte [Administradores de grupo](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
-* [Access to the Setup area](#access-to-the-setup-area)
-* [Access to objects](#access-to-objects)
+* [Acesso à área Configuração](#access-to-the-setup-area)
+* [Acesso a objetos](#access-to-objects)
 
-### Access to the Setup area {#access-to-the-setup-area}
+### Acesso à área Configuração {#access-to-the-setup-area}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,251 +103,251 @@ Users with a Plan license who can edit functionality in one area have full acces
  <col> 
  <thead> 
   <tr> 
-   <th>Area/object</th> 
-   <th>Workfront administrator </th> 
-   <th>User with a Plan license and some administrative rights</th> 
+   <th>Área/objeto</th> 
+   <th>administrador do Workfront </th> 
+   <th>Usuário com uma licença de Plano e alguns direitos administrativos</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Project Preferences: Projects</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Preferências do projeto: Projetos</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>Project Preferences: Tasks &amp; Issues</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Preferências do projeto: tarefas e problemas</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>Project Preferences: Statuses</td> 
-   <td>Full access</td> 
-   <td> <p>No access</p> </td> 
+   <td>Preferências do Projeto: Status</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso</p> </td> 
   </tr> 
   <tr> 
-   <td>Project Preferences: Priorities</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Preferências do projeto: Prioridades</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>Project Preferences: Severities</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Preferências do projeto: severidades</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>Project Preferences: Exchange Rates</td> 
-   <td>Full access</td> 
-   <td>Full access</td> 
+   <td>Preferências do Projeto: Taxas de Câmbio</td> 
+   <td>Acesso total</td> 
+   <td>Acesso total</td> 
   </tr> 
   <tr> 
-   <td>Processes: Approvals</td> 
-   <td> <p>Full access</p> </td> 
-   <td>Full access</td> 
+   <td>Processos: Aprovações</td> 
+   <td> <p>Acesso total</p> </td> 
+   <td>Acesso total</td> 
   </tr> 
   <tr> 
-   <td>Processes: Milestone Paths</td> 
-   <td>Full access</td> 
-   <td>Full access</td> 
+   <td>Processos: Caminhos de Etapas</td> 
+   <td>Acesso total</td> 
+   <td>Acesso total</td> 
   </tr> 
   <tr> 
-   <td>Custom Forms</td> 
-   <td>Full access</td> 
-   <td> <p>Manage custom forms they created or custom forms shared with them.</p> <p>Attach custom forms they created or custom forms shared with them to objects they have manage or contribute permissions to.</p> </td> 
+   <td>Formulários personalizados</td> 
+   <td>Acesso total</td> 
+   <td> <p>Gerenciar formulários personalizados que eles criaram ou formulários personalizados compartilhados com eles.</p> <p>Anexe formulários personalizados que eles criaram ou formulários personalizados compartilhados com eles a objetos que eles gerenciam ou para os quais eles contribuem com permissões.</p> </td> 
   </tr> 
   <tr> 
-   <td>Recycle Bin: Recently Deleted</td> 
-   <td>Full access</td> 
-   <td> <p>Users who are group administrators can restore projects assigned to Groups they manage, and tasks, issues, or documents associated with those projects.</p> </td> 
+   <td>Lixeira: excluída recentemente</td> 
+   <td>Acesso total</td> 
+   <td> <p>Os usuários que são administradores de grupo podem restaurar projetos atribuídos a grupos que gerenciam e tarefas, problemas ou documentos associados a esses projetos.</p> </td> 
   </tr> 
   <tr> 
-   <td>Recycle Bin: Recently Restored</td> 
-   <td>Full access</td> 
-   <td>Users who are group administrators can see the items they have recently restored.</td> 
+   <td>Lixeira: restaurada recentemente</td> 
+   <td>Acesso total</td> 
+   <td>Os usuários que são administradores de grupo podem ver os itens restaurados recentemente.</td> 
   </tr> 
   <tr> 
-   <td>Job Roles</td> 
-   <td>Full access</td> 
-   <td> <p>Modify but not delete existing job roles.</p> <p>Add new job roles.</p> </td> 
+   <td>Função no trabalho</td> 
+   <td>Acesso total</td> 
+   <td> <p>Modificar mas não excluir funções de trabalho existentes.</p> <p>Adicionar novas funções de trabalho.</p> </td> 
   </tr> 
   <tr> 
-   <td>Teams</td> 
-   <td>Full access</td> 
-   <td> <p>No access to create Teams.</p> <p>Add existing teams to users when creating or editing users.</p> </td> 
+   <td>Equipes</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso para criar Equipes.</p> <p>Adicionar equipes existentes aos usuários ao criar ou editar usuários.</p> </td> 
   </tr> 
   <tr> 
-   <td>Groups</td> 
-   <td>Full access</td> 
-   <td> <p>No access to create Groups.</p> <p>Only group administrators can manage group membership, subgroups, and group-level statuses for the groups they manage. </p> </td> 
+   <td>Grupos</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso para criar grupos.</p> <p>Somente administradores de grupo podem gerenciar a associação de grupo, os subgrupos e os status de nível de grupo dos grupos que gerenciam. </p> </td> 
   </tr> 
   <tr> 
-   <td>Companies</td> 
-   <td>Full access</td> 
-   <td>Full access</td> 
+   <td>Empresas</td> 
+   <td>Acesso total</td> 
+   <td>Acesso total</td> 
   </tr> 
   <tr> 
-   <td>Log in As</td> 
-   <td>Full access </td> 
-   <td> <p>If their group administrative access is enabled on their access level and they are designated as a group administrator, they can log in as the users in the group they administer and their subgroups. They cannot log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
+   <td>Fazer logon como</td> 
+   <td>Acesso total </td> 
+   <td> <p>Se o acesso administrativo ao grupo estiver ativado no nível de acesso e forem designados como administradores de grupo, eles poderão fazer logon como os usuários no grupo que administram e seus subgrupos. Eles não podem efetuar login como um Administrador do sistema.<br>Para obter mais informações sobre como habilitar o acesso administrativo de grupo para usuários, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Schedules</td> 
-   <td>Full access</td> 
-   <td> <p>No access to edit Schedules.</p> <p>Access to add existing schedules to other users, at the user level. </p> </td> 
+   <td>Cronogramas</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso para editar Cronogramas.</p> <p>Acesso para adicionar agendamentos existentes a outros usuários, no nível do usuário. </p> </td> 
   </tr> 
   <tr> 
-   <td>Timesheet &amp; Hours: Timesheet Profiles</td> 
-   <td>Full access</td> 
-   <td> <p>Access to assign existing Timesheet Profiles to users, at the user level.</p> <p>Users who are group administrators can create Timesheet Profiles for the groups they administer and their subgroups. </p> </td> 
+   <td>Horas e planilhas de horas: Perfis de planilhas de horas</td> 
+   <td>Acesso total</td> 
+   <td> <p>Acesso para atribuir Perfis de Planilha de Horas aos usuários, no nível do usuário.</p> <p>Os usuários que são administradores de grupo podem criar Perfis de folha de horas para os grupos que administram e seus subgrupos. </p> </td> 
   </tr> 
   <tr> 
-   <td>Timesheet &amp; Hours: Hour Types</td> 
-   <td>Full access</td> 
-   <td> <p>Access to assign Hour Types to users, at the user level.</p> </td> 
+   <td>Horas e planilhas de horas: Tipos de horas</td> 
+   <td>Acesso total</td> 
+   <td> <p>Acesso para atribuir Tipos de horas aos usuários, no nível do usuário.</p> </td> 
   </tr> 
   <tr> 
-   <td>Timesheet &amp; Hours: Preferences</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Horas e Planilha de Horas: Preferências</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>Email: Notifications: Event Notifications</td> 
-   <td>Activate/ Deactivate all</td> 
-   <td>No access</td> 
+   <td>Email: Notificações: Notificações de Eventos</td> 
+   <td>Ativar/ desativar tudo</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>Email: Notifications: Reminder Notifications</td> 
-   <td>Full access</td> 
-   <td>Full access</td> 
+   <td>Email: Notificações: Notificações de lembrete</td> 
+   <td>Acesso total</td> 
+   <td>Acesso total</td> 
   </tr> 
   <tr> 
-   <td>Email: Notifications: Email Templates</td> 
-   <td>Full access</td> 
-   <td> <p>No access to edit Email Templates.</p> <p>Access to add existing Email Templates to Reminder Notifications.</p> </td> 
+   <td>Email: Notificações: Modelos de email</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso para editar Modelos de email.</p> <p>Acesso para adicionar Modelos de email existentes a Notificações de lembrete.</p> </td> 
   </tr> 
   <tr> 
-   <td>Email: Automatic Reminders</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Email: Lembretes automáticos</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>Email: Invitations</td> 
-   <td>Full access</td> 
-   <td> <p>No access to edit Email Invitations.</p> <p>Access to resend email invitations to unregistered users only from the People tab.</p> </td> 
+   <td>Email: Convites</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso para editar Convites por email.</p> <p>Acesso para reenviar convites por email a usuários não registrados somente na guia Pessoas.</p> </td> 
   </tr> 
   <tr> 
-   <td>Email: Setup</td> 
-   <td>Full access</td> 
-   <td> <p>No access</p> </td> 
+   <td>Email: Configuração</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso</p> </td> 
   </tr> 
   <tr> 
    <td>Scorecards</td> 
-   <td>Full access</td> 
-   <td> <p>Full access</p> </td> 
+   <td>Acesso total</td> 
+   <td> <p>Acesso total</p> </td> 
   </tr> 
   <tr> 
-   <td>Expense Types</td> 
-   <td>Full access</td> 
-   <td> <p>No access</p> </td> 
+   <td>Tipos de Despesas</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso</p> </td> 
   </tr> 
   <tr> 
-   <td>Risk Types</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Tipos de Risco</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>Access Levels</td> 
-   <td> <p>Full access to modify all access levels.</p> <p>The System Administrator and External User access levels cannot be modified, by default.</p> </td> 
-   <td> <p>No access to edit Access Levels.</p> <p>Assign an access level to other users which is lower or equal to theirs at the user level.</p> </td> 
+   <td>Níveis de Acesso</td> 
+   <td> <p>Acesso total para modificar todos os níveis de acesso.</p> <p>Por padrão, os níveis de acesso Administrador do sistema e Usuário externo não podem ser modificados.</p> </td> 
+   <td> <p>Sem acesso para editar Níveis de Acesso.</p> <p>Atribua um nível de acesso a outros usuários que seja inferior ou igual ao deles no nível do usuário.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface: Layout Templates</td> 
-   <td>Full access</td> 
-   <td> <p>Access to assign existing Layout Templates to other users, at the user level. </p> <p>Users designated as group administrators can create Layout Templates for groups and subgroups they manage.</p> </td> 
+   <td>Interface: modelos de layout</td> 
+   <td>Acesso total</td> 
+   <td> <p>Acesso para atribuir modelos de layout existentes a outros usuários, no nível do usuário. </p> <p>Os usuários designados como administradores de grupo podem criar Modelos de layout para grupos e subgrupos que gerenciam.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface: Update Feeds</td> 
-   <td>Full access</td> 
-   <td> <p>No access to modify Update Feeds.</p> <p>Access to add fields to be tracked in the Update Feeds when editing Custom Forms.</p> </td> 
+   <td>Interface: Feeds de atualização</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso para modificar os Feeds de atualização.</p> <p>Acesso para adicionar campos a serem rastreados nos Feeds de atualização ao editar o Forms personalizado.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface: Filters</td> 
-   <td>Full access</td> 
-   <td> <p>No access to create Filters in the Setup area.</p> <p>Access to create new filters in a list of objects.</p> </td> 
+   <td>Interface: filtros</td> 
+   <td>Acesso total</td> 
+   <td> <p>Não há acesso para criar Filtros na área Configuração.</p> <p>Acesso para criar novos filtros em uma lista de objetos.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface: Views</td> 
-   <td>Full access</td> 
-   <td> <p>No access to create Views in the Setup area.</p> <p>Access to create new views in a list of objects.</p> </td> 
+   <td>Interface: Exibições</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso para criar Exibições na área Configuração.</p> <p>Acesso para criar novas visualizações em uma lista de objetos.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface: Groupings</td> 
-   <td>Full access</td> 
-   <td> <p>No access to create Groupings in the Setup area.</p> <p>Access to create new groupings in a list of objects.</p> </td> 
+   <td>Interface: agrupamentos</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso para criar agrupamentos na área Configuração.</p> <p>Acesso para criar novos agrupamentos em uma lista de objetos.</p> </td> 
   </tr> 
   <tr> 
-   <td>Interface: List Controls</td> 
-   <td>Full access</td> 
-   <td> <p>No access</p> </td> 
+   <td>Interface: Controles de Lista</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso</p> </td> 
   </tr> 
   <tr> 
-   <td>Documents: Cloud Providers</td> 
-   <td>Full access</td> 
-   <td> <p>No access to configure Cloud Providers.</p> <p>Access to link documents to and from Cloud Providers from the Documents tab, after the Cloud Providers have been integrated with Workfront.</p> </td> 
+   <td>Documentos: provedores de nuvem</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso para configurar Provedores de nuvem.</p> <p>Acesso para vincular documentos de e para Provedores de nuvem na guia Documentos, depois que os Provedores de nuvem tiverem sido integrados ao Workfront.</p> </td> 
   </tr> 
   <tr> 
-   <td>Documents: Metadata Mapping</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Documentos: mapeamento de metadados</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>Documents: SharePoint Integration</td> 
-   <td>Full access</td> 
-   <td> <p>No access to configure a SharePoint integration.</p> <p>Access to link documents to and from SharePoint from the Documents tab, after the SharePoint integration with Workfront has been configured.</p> </td> 
+   <td>Documentos: integração do SharePoint</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso para configurar uma integração com o SharePoint.</p> <p>Acesso para vincular documentos de e para o SharePoint na guia Documentos, após a configuração da integração do SharePoint com o Workfront.</p> </td> 
   </tr> 
   <tr> 
-   <td>Documents: Custom Integration</td> 
-   <td>Full access</td> 
-   <td> <p>No access to configure a Custom Integration.</p> <p>Access to link documents to and from third-party providers from the Documents tab, after the third-party providers have been integrated with Workfront.</p> </td> 
+   <td>Documentos: Integração personalizada</td> 
+   <td>Acesso total</td> 
+   <td> <p>Sem acesso para configurar uma Integração personalizada.</p> <p>Acesso para vincular documentos de e para provedores de terceiros na guia Documentos, depois que os provedores de terceiros tiverem sido integrados ao Workfront.</p> </td> 
   </tr> 
   <tr> 
-   <td>System: Branding</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Sistema: marca</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>System: Customer Info</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Sistema: informações do cliente</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>System: Single Sign-On (SSO)</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Sistema: Logon Único (SSO)</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>System: Update Users for SSO</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Sistema: atualizar usuários para SSO</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>System: Kick-Starts</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Sistema: Início</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>System: Diagnostics</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Sistema: Diagnóstico</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
   <tr> 
-   <td>System: Preferences</td> 
-   <td>Full access</td> 
-   <td>No access</td> 
+   <td>Sistema: Preferências</td> 
+   <td>Acesso total</td> 
+   <td>Sem acesso</td> 
   </tr> 
  </tbody> 
 </table>
 
-### Access to objects {#access-to-objects}
+### Acesso a objetos {#access-to-objects}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -357,72 +355,71 @@ Users with a Plan license who can edit functionality in one area have full acces
  <col> 
  <thead> 
   <tr> 
-   <th>Area/object</th> 
-   <th>Workfront administrator </th> 
-   <th>User with a Plan license and some administrative rights</th> 
+   <th>Área/objeto</th> 
+   <th>administrador do Workfront </th> 
+   <th>Usuário com uma licença de Plano e alguns direitos administrativos</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Calendars</td> 
-   <td>Full access</td> 
-   <td>Manage calendars they create and calendars shared with them.</td> 
+   <td>Calendários</td> 
+   <td>Acesso total</td> 
+   <td>Gerenciar calendários que eles criam e calendários compartilhados com eles.</td> 
   </tr> 
   <tr> 
-   <td>Dashboards</td> 
-   <td>Full access</td> 
-   <td>Manage dashboards they create and dashboards shared with them.</td> 
+   <td>Painéis</td> 
+   <td>Acesso total</td> 
+   <td>Gerencie painéis que eles criam e painéis compartilhados com eles.</td> 
   </tr> 
   <tr> 
-   <td>Documents</td> 
-   <td>Full access</td> 
-   <td>Manage documents they upload or documents shared with them.</td> 
+   <td>Documentos</td> 
+   <td>Acesso total</td> 
+   <td>Gerencie documentos dos quais fazem upload ou documentos compartilhados com eles.</td> 
   </tr> 
   <tr> 
-   <td>Issues</td> 
-   <td>Full access</td> 
-   <td>Manage issues they create or issues shared with them.</td> 
+   <td>Problemas</td> 
+   <td>Acesso total</td> 
+   <td>Gerencie problemas que eles criam ou problemas que são compartilhados com eles.</td> 
   </tr> 
   <tr> 
-   <td>Portfolios</td> 
-   <td>Full access</td> 
-   <td>Manage portfolios they create or portfolios shared with them. </td> 
+   <td>Portfólios</td> 
+   <td>Acesso total</td> 
+   <td>Gerencie portfólios que eles criam ou portfólios compartilhados com eles. </td> 
   </tr> 
   <tr> 
-   <td>Programs</td> 
-   <td>Full access</td> 
-   <td>Manage programs they create or programs shared with them.</td> 
+   <td>Programas</td> 
+   <td>Acesso total</td> 
+   <td>Gerencie programas que eles criam ou programas compartilhados com eles.</td> 
   </tr> 
   <tr> 
-   <td>Project</td> 
-   <td>Full access</td> 
-   <td>Manage projects they create or projects shared with them.</td> 
+   <td>Projeto</td> 
+   <td>Acesso total</td> 
+   <td>Gerencie projetos que eles criam ou projetos compartilhados com eles.</td> 
   </tr> 
   <tr> 
-   <td>Reports</td> 
-   <td>Full access</td> 
-   <td>Manage reports they create or reports shared with them. View, copy and edit system reports.</td> 
+   <td>Relatórios</td> 
+   <td>Acesso total</td> 
+   <td>Gerencie relatórios que eles criam ou relatórios compartilhados com eles. Exibir, copiar e editar relatórios do sistema.</td> 
   </tr> 
   <tr> 
-   <td>Tasks</td> 
-   <td>Full access</td> 
-   <td>Manage tasks they create or tasks shared with the</td> 
+   <td>Tarefas</td> 
+   <td>Acesso total</td> 
+   <td>Gerenciar tarefas que eles criam ou tarefas compartilhadas com a</td> 
   </tr> 
   <tr> 
-   <td>Templates</td> 
-   <td>Full access</td> 
-   <td>Manage templates they create or templates shared with them</td> 
+   <td>Modelos</td> 
+   <td>Acesso total</td> 
+   <td>Gerenciar modelos que eles criam ou modelos compartilhados com eles</td> 
   </tr> 
   <tr> 
-   <td>Timesheets</td> 
-   <td>Full access</td> 
-   <td>Full access</td> 
+   <td>Planilhas de horas</td> 
+   <td>Acesso total</td> 
+   <td>Acesso total</td> 
   </tr> 
   <tr> 
-   <td>Users</td> 
-   <td>Full access</td> 
-   <td> <p>Limited access</p> <p>They cannot assign groups to users for which they are not a group administrator or groups that are not public.</p> <p>They cannot assign an access level to users which is higher then their own access level.</p> <p>If their group administrative access is enabled on their access level and they are designated as a group administrator on a group, they can reset the password of and log in as the users in the group they administer and their subgroups. They cannot reset the password of or log in as a System Administrator.<br>For more information about enabling group administrative access for users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </td> 
+   <td>Usuários</td> 
+   <td>Acesso total</td> 
+   <td> <p>Acesso limitado</p> <p>Eles não podem atribuir grupos a usuários para os quais não são administradores de grupo ou grupos que não são públicos.</p> <p>Eles não podem atribuir um nível de acesso aos usuários que seja superior ao seu próprio nível de acesso.</p> <p>Se o acesso administrativo ao grupo estiver ativado no nível de acesso e forem designados como administradores de grupo em um grupo, eles poderão redefinir a senha e fazer logon como os usuários no grupo que administram e seus subgrupos. Eles não podem redefinir a senha ou fazer logon como um Administrador do sistema.<br>Para obter mais informações sobre como habilitar o acesso administrativo de grupo para usuários, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
--->
