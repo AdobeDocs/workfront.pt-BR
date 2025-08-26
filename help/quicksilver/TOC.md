@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
 workflow-type: tm+mt
-source-wordcount: '13449'
+source-wordcount: '13461'
 ht-degree: 2%
 
 ---
@@ -1524,14 +1524,15 @@ ht-degree: 2%
          * [Gerenciar painéis da tela: índice do artigo](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [Compartilhar um painel da tela](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
          * [Organizar relatórios em um painel do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+         * [Filtrar um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
          * [Alterar o nome ou a descrição de um Painel da Tela de Pintura](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
          * [Excluir um painel da tela de desenho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+         * [Adicionar um painel de tela de desenho a um modelo de layout](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template)
       * Gerenciar relatórios {#manage-reports}
          * [Gerenciar relatórios: índice do artigo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
          * [Editar um relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
          * [Editar filtros de relatório em um painel de tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
          * [Excluir um relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
-
    * Relatórios {#reports}
       * [Relatórios](reports-and-dashboards/reports/reports-overview.md)
       * Noções básicas de relatórios {#report-basics}
