@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 4%
+source-wordcount: '1638'
+ht-degree: 3%
 
 ---
 
@@ -82,6 +82,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Lançamento rápido</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Implantação em Fases de Aprovações Unificadas</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Estamos habilitando Aprovações unificadas, anteriormente conhecidas como Novas aprovações de documentos, em uma implantação em fases. Essa funcionalidade será ativada automaticamente na instância do Workfront nos próximos seis meses.</p>
+            <p>As Aprovações unificadas substituem as aprovações de documentos herdados e fornecem a nova funcionalidade. 
+</p>
+        </td>
+        <td>Implantação em fases, a partir de 17 de julho de 2025</td>
+        <td>Implantação em fases, a partir de 17 de julho de 2025</td>
+        <td>Implantação em fases, a partir de 17 de julho de 2025</td>
+    </tr> 
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Novo Revisor da IA do Workfront</a><p></p>
@@ -349,7 +360,7 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API versão 20
 
@@ -361,7 +372,7 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 

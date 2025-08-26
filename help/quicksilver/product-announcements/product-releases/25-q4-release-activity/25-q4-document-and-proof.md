@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f4615994-8a56-482c-b033-62e719be152e
-source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
+source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ ht-degree: 0%
 Esta página descreve as melhorias de documentos e provas feitas com a versão do quarto trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2025, consulte [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Implantação em fases das aprovações unificadas
+
+>[!NOTE]
+>
+>Versão de produção para clientes: implantação em fases a partir de 17 de julho de 2025
+
+
+Estamos habilitando Aprovações unificadas, anteriormente conhecidas como Novas aprovações de documentos, em uma implantação em fases. Essa funcionalidade será ativada automaticamente na instância do Workfront nos próximos seis meses.
+
+As Aprovações unificadas substituem as aprovações de documentos herdados e fornecem a seguinte funcionalidade diretamente em um documento:
+
+* Designar uma equipe inteira do Workfront como revisores ou aprovadores
+* Definir um prazo para a revisão ou aprovação
+* Criar e reutilizar modelos de aprovação
+* Utilizar novas versões
+* Exibir vários indicadores-chave de desempenho para suas aprovações nos widgets da Página inicial do Workfront
+* Usar Painéis do Canvas para exibir detalhes de relatórios sobre Aprovações unificadas
+
+Para obter mais informações, consulte [Visão geral das aprovações unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 ## Novo revisor do Workfront AI
 
