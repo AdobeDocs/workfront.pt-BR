@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
@@ -127,17 +127,15 @@ Para personalizar a Página inicial usando um modelo de layout:
         <li>Meus problemas</li>
       </ul>
       <p>Depois de selecionar o widget que deseja editar, selecione os <b>Filtros</b>, <b>Colunas</b> e <b>Grupos</b> que deseja disponibilizar para a Página Inicial à direita.</p>
-      <p> Você pode:</p>
+      <p> É possível:</p>
       <ul>
       <li><p>Selecione e ordene os Filtros, Colunas ou Grupos disponíveis aos usuários marcando a caixa ao lado das opções na lista. Opções desmarcadas não serão exibidas para usuários.</p></li>
-      <li> <p>Arraste e solte opções na lista para definir uma ordem.</p></li>
       <p>
 
    >[!IMPORTANT]
    >
    >* As opções Filtro, Colunas e Grupo são vinculadas às opções de personalização da lista no Modelo de layout. As alterações feitas aqui também serão aplicadas a essas configurações.
    >* Os usuários devem ter pelo menos o acesso de Criação a Exibições para que a configuração da coluna do administrador seja aplicada corretamente a suas Páginas iniciais.
-
    </p>
       <li><p>Defina um Filtro ou Grupo padrão para o widget, passando o mouse sobre uma opção e clicando em <b>Definir como padrão</b>. O padrão atual exibe um símbolo azul <b>Padrão</b> à direita.</p></li>
       <li><p>Adicione um Filtro, Coluna ou Grupo existente à lista de opções disponíveis clicando no botão de adição na parte inferior de cada lista para adicionar uma opção a ela. Observe que somente Filtros, Campos (para Colunas) ou Grupos existentes podem ser adicionados dessa maneira.</p></li>

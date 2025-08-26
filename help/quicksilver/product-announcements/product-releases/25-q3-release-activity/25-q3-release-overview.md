@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 401d6a25cb23ebd28960ea866e7308142107a891
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1866'
+source-wordcount: '1879'
 ht-degree: 3%
 
 ---
@@ -160,7 +160,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Meu widget de aprovações agora classifica automaticamente por prazo de conclusão </a><p></p>
-            <p>Atualizamos o widget Minhas aprovações na página inicial para classificar por prazo (decrescente) por padrão. Isso permite que as aprovações mais urgentes sejam exibidas no topo da lista. </p><p><b>Observação:</b> atualmente, somente aprovações de provas podem ser classificadas por prazo no widget Minhas aprovações.</p>
+            <p>Atualizamos o widget Minhas aprovações na página inicial para classificar por prazo (crescente) por padrão. Isso permite que as aprovações mais urgentes sejam exibidas no topo da lista. As aprovações são ordenadas da seguinte maneira:</p>
+            <ul>
+                <li>Prazos atrasados</li>
+                <li>Próximos prazos de conclusão</li>
+                <li>Itens sem prazo de conclusão</li>
+            </ul>
+            <p><b>Observação:</b> atualmente, somente aprovações de provas podem ser classificadas por prazo no widget Minhas aprovações.</p>
         </td>
         <td>sexta-feira, 29 de maio de 2025</td>
         <td>sexta-feira, 12 de junho de 2025</td>
@@ -381,7 +387,7 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 

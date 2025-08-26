@@ -6,10 +6,10 @@ description: Você pode escolher entre vários widgets para personalizar o conte
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 6%
+source-wordcount: '1111'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ Por padrão, a Página inicial é preenchida com widgets específicos de acordo 
         <td><b>Widgets padrão</b></td>
     </tr>
     <tr>
-        <td>Padrão</td>
+        <td>Standard</td>
         <td>Meus projetos, Meu trabalho, Menções, Tarefas pendentes</td>
     </tr>
     <tr>
@@ -67,7 +67,7 @@ Por padrão, a Página inicial é preenchida com widgets específicos de acordo 
         <td>Meu trabalho, menções</td>
     </tr>
     <tr>
-        <td>Solicitar</td>
+        <td>Solicitação</td>
         <td>Meus projetos, Minhas aprovações</td>
     </tr>
     <tr>
@@ -95,7 +95,7 @@ Para adicionar um widget:
    ![Botão Personalizar](assets/customize-button.png)
 1. Role até a seção **Widgets** e selecione os widgets que deseja adicionar.
 
-+++ Expandir para ver uma lista detalhada dos widgets disponíveis
+   +++ Expandir para ver uma lista detalhada dos widgets disponíveis
 
    * **Meu trabalho**\
        Exibe todas as tarefas, problemas e solicitações atribuídas em um único local. Você pode clicar no botão Trabalhar nisso para começar a trabalhar em um item ou no botão Concluído para marcá-los como concluídos. Você também pode atualizar informações (Status, Condição, Percentual concluído) sobre tarefas e problemas, tempo de registro e adicionar atualizações do widget Meu trabalho.
@@ -119,7 +119,10 @@ Para adicionar um widget:
        Exibe todas as solicitações pendentes para as equipes nas quais você está, classificadas por equipe, bem como botões para atribuir diretamente uma solicitação a um usuário ou para trabalhar nela você mesmo.
 
    * **Minhas aprovações**\
-       Exibe todas as suas aprovações atribuídas ou delegadas pendentes, um botão para delegar aprovações e botões para tomar decisões de aprovação diretamente no dispositivo.
+       Exibe todas as aprovações atribuídas ou delegadas pendentes, um botão para delegar aprovações e botões para tomar decisões de aprovação diretamente no widget. As aprovações são ordenadas da seguinte maneira:
+      * Prazos atrasados
+      * Próximos prazos de conclusão
+      * Itens sem prazo de conclusão
 
    * **Métricas de aprovação de documentos**\
            Exibe dois gráficos com informações sobre o tempo médio de aprovação e as decisões, bem como exibições de lista de aprovações pendentes e vencidas. Você deve ter [Aprovações Unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) habilitadas para usar este widget.
@@ -134,7 +137,7 @@ Para adicionar um widget:
      >
      >Você deve ter permissão para criar tarefas para criar tarefas no widget de tarefas, e somente as tarefas pessoais inseridas pelo usuário atual serão exibidas.
 
-+++
+   +++
 
 1. Clique em **Adicionar widget**.
 
