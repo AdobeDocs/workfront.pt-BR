@@ -5,10 +5,10 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 3%
+source-wordcount: '311'
+ht-degree: 4%
 
 ---
 
@@ -44,6 +44,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a ocorrências</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Produto</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Você precisa ter o Adobe Workfront Planning para exibir solicitações ou formulários de solicitação do Planning</td> 
   </tr> 
  </tbody> 
 </table>

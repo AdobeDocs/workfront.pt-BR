@@ -6,9 +6,9 @@ description: O trabalho planejado é representado na Adobe Workfront por projeto
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2841'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,17 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
+<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
+<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
+</div>
+-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 O trabalho planejado é representado na Adobe Workfront por projetos e tarefas. No entanto, você pode trabalhar em um ambiente em que o trabalho não planejado, na forma de solicitações, pode entrar a qualquer momento. O Workfront fornece um fluxo de trabalho para acomodar esse tipo de ambiente por meio do uso de Filas de solicitações.
 
@@ -50,6 +58,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <col> 
  <col> 
  <tbody> 
+ <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
@@ -64,6 +73,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a ocorrências</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> Produto</td> 
+   <td> <ul><li>Adobe Workfront</li><li>Você precisa ter o Adobe Workfront Planning para exibir solicitações ou formulários de solicitação do Planning</td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,18 +149,20 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
 1. (Condicional) Se você alternou para a nova experiência que inclui o Workfront Planning e está no ambiente de produção, a caixa **Nova solicitação** exibirá o seguinte:</span>
 
-   * As 6 filas de solicitações do Workfront acessadas mais recentemente e os formulários de solicitação do Planning são exibidos na seção Recente.
-   * 50 outras filas de solicitações do Workfront e formulários de solicitação do Planning são exibidos em ordem alfabética na seção **Todos os formulários de solicitação**. Você pode procurar uma fila de solicitações que não é exibida por padrão.
-
-   ![Nova caixa de solicitação com fluxo de trabalho unificado para solicitações de planejamento](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
-
-   Clique em um dos cartões da fila de solicitações do Workfront ou procure por um e, em seguida, clique nele quando ele for exibido na lista.
-1. (Condicional) Se você alternou para a nova experiência que inclui o Workfront Planning e está no ambiente de visualização, a caixa **Nova solicitação** exibirá o seguinte:
-
    <ul><li>As 6 filas de solicitações do Workfront acessadas mais recentemente e os formulários de solicitação do Planning são exibidos na seção Recente. </li>
     <li>Todos os formulários de solicitação adicionais do Workfront e do Planning <b>seção Todos os formulários de solicitação</b>. Você pode procurar formulários de solicitação que não são exibidos por padrão. </li>
     <li>Todos os caminhos adicionais da fila de solicitações do Workfront e do Planning são exibidos na seção <b>Todos os caminhos de solicitação</b>. Você pode procurar uma fila de solicitações que não é exibida por padrão.</li></ul>
    Clique em um dos caminhos ou formulários da fila de solicitações do Workfront, ou procure um, e clique nele quando ele for exibido na lista.
+1. <span class="preview">(Condicional) Se você alternou para a nova experiência que inclui o Workfront Planning, selecione um dos caminhos ou formulários da fila de solicitações do Workfront ou clique na barra de pesquisa. </span>
+
+   <span class="preview">Quando você clicar na barra de pesquisa, será exibida uma lista suspensa mostrando primeiro as filas e os formulários usados mais recentemente. Selecione um na lista ou comece a digitar e selecione a fila ou lista quando ela for exibida.</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">Considere o seguinte em relação à nova experiência de solicitação atualmente disponível na Visualização:</span>
+   >* <span class="preview">A lista inclui as filas de solicitações do Workfront e os formulários de solicitação do Workfront Planning.</span>
+   >* <span class="preview">Você pode filtrar a lista por tipo de objeto.</span>
+   >* <span class="preview">Para exibir somente as filas de Solicitações Workfront, filtre por `Issue` tipos de objeto.</span>
 
 1. (Condicional) Se você alternou para a nova experiência que inclui o Workfront Planning, selecione os grupos de tópicos e os tópicos da fila e continue atualizando o formulário.
 

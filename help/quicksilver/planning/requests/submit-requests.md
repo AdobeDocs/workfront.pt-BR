@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,10 @@ Você pode submeter uma solicitação do Workfront Planning nas seguintes áreas
 
 * Na área Solicitações do Workfront.
 * De um link direto para o formulário de solicitação que foi compartilhado.
-
-  Este artigo descreve como enviar uma solicitação para adicionar novos registros a um tipo de registro da área Solicitações do Workfront ou de um link compartilhado.
 * Na página tipo de registro, ao adicionar ou solicitar um novo registro. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
+
+Este artigo descreve como enviar uma solicitação para adicionar novos registros a um tipo de registro da área Solicitações do Workfront ou de um link compartilhado.
+
 
 Usuários do Workfront e usuários externos podem enviar solicitações para tipos de registro do Planning e criar registros. <!--double check on the external users-->
 
@@ -160,7 +161,9 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
    >* Você tem acesso para exibir pelo menos um espaço de trabalho.
    >
 
-1. Clique em **Nova solicitação**.
+<!--Production-->
+
+1. No ambiente de Produção, clique em **Nova solicitação**.
 
    <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
@@ -169,12 +172,15 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
    * As 6 filas de solicitações do Workfront acessadas mais recentemente e os formulários de solicitação do Planning são exibidos na seção Recente.
    * 50 outras filas de solicitações do Workfront e formulários de solicitação do Planning são exibidos em ordem alfabética na seção **Todos os formulários de solicitação**. Você pode procurar uma fila de solicitações que não é exibida por padrão.
 
-1. Siga um destes procedimentos:
+1. No ambiente de Produção, execute um dos procedimentos a seguir:
 
    * Selecione os formulários de solicitação do Planning nas seções Formulários de solicitação Recentes ou Todos
    * Comece digitando o nome de um formulário de solicitação do Planning na caixa de pesquisa e, em seguida, clique no cartão quando ele for exibido na lista.
 
    O formulário de solicitação é aberto.
+
+<!-- Put preview section here-->
+1. <span class="preview">No ambiente de Visualização, selecione um formulário ou uma fila de solicitações na área Formulários de solicitações acessadas recentemente, ou comece a digitar o nome do formulário ou da fila na lista, em seguida, selecione-o quando ele for exibido.
 
 1. Atualize os campos disponíveis no formulário de solicitação. Os campos com um asterisco vermelho são obrigatórios.
 1. Clique em **Enviar**.
