@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -46,6 +46,11 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | Tamanho do CSV do arquivo do Excel que você pode importar para criar tipos de registro | 5 MB |
 | Número de linhas que você pode importar em um arquivo CSV ou Excel para criar tipos de registro | 25.000 |
 | Número de colunas que você pode importar em um arquivo CSV ou Excel para criar tipos de registro | 500 |
+
+<!--
+| <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
+| <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
+-->
 
 *Recomendamos não ter muitos espaços de trabalho, pois eles podem se tornar difíceis de gerenciar e seus fluxos de trabalho podem estar muito fragmentados.
 

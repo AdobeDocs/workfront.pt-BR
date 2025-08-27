@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 6%
+source-wordcount: '684'
+ht-degree: 7%
 
 ---
 
@@ -112,14 +112,32 @@ Para obter informações, consulte a seção &quot;Fórmula&quot; no artigo [Cri
 
   Para obter mais informações, consulte a seção &quot;Fórmula&quot; no artigo [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 * Você pode fazer referência a campos de fórmula em novas fórmulas. Depois que o valor for atualizado em um campo referenciado em um campo de fórmula, todos os campos subsequentes que referenciam esse campo ou campos de fórmula que contêm esse campo serão atualizados automaticamente.
-* Campos de fórmula podem ser exibidos como `#ERROR!` nos seguintes casos:
-   * Quando um campo usado em uma fórmula é excluído.
-   * Quando um campo usado em um campo de pesquisa agregado é exibido como `#ERROR!`.
 
-     Por exemplo, se você exibir um campo de pesquisa que contenha campos de fórmula de pesquisa agregada e um dos campos de fórmula referenciados for exibido como `#ERROR!`.
-   * Quando um valor de fórmula não pode ser exibido no formato selecionado.
 
-     Por exemplo, se eu selecionar Número para o Formato de um campo de fórmula e os campos usados na fórmula forem campos de texto que exibem apenas valores de texto não numéricos, o resultado da fórmula será exibido como `#ERROR!`, porque não é possível analisar o texto em um número.
+<!--
+
+<div class="preview">
+
+## Limitations of formula fields
+
+* You can add a maximum of 20 formula fields for one record type. 
+
+   Formula lookup fields added from connected record types do not count against this limit. 
+
+* The formula expression cannot exceed 50,000 characters. 
+
+* Formula fields might display as `#ERROR!` in the following cases:
+   * When a field used in a formula is deleted.
+   * When a field used in an aggregated lookup field displays as `#ERROR!`. 
+   
+      For example, if you display a lookup field that contains aggregated lookup formula fields and one of the referenced formula fields  displays as `#ERROR!`. 
+   *  When a formula value cannot be displayed in the selected format. 
+   
+      For example, if I select Number for the Format of a formula field, and the fields used in the formula are text fields that display only non-numeric text values, the formula result will display as `#ERROR!`, because it cannot parse the text into a number.
+ 
+ </div>
+ 
+ -->
 
 ## Fórmulas compatíveis
 

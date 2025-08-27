@@ -6,14 +6,23 @@ description: Quando uma tarefa em um projeto requer uma quantidade maior de esfo
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1198'
 ht-degree: 2%
 
 ---
 
 # Converter uma tarefa em um projeto
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div>-->
 
 Quando uma tarefa em um projeto requer uma quantidade maior de esforço para ser concluída do que o planejado originalmente, é possível convertê-la em um projeto.
 
@@ -166,7 +175,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique no ícone **Mais** ![](assets/more-icon.png) e em **Converter para Projeto**.
 1. Escolha uma das opções a seguir:
 
-   * **Novo projeto**
+   * **Novo projeto**, para criar um projeto sem usar um modelo
    * Um modelo na seção **Selecionar nos Modelos**
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
@@ -174,15 +183,15 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 1. Clique em **Continuar** na notificação exibida.
 1. Na caixa **Converter em Projeto**, especifique o seguinte:
 
-   * **Nome**: nomeie seu projeto. O nome padrão é o nome da tarefa.
-   * (Opcional) **Descrição**: descreva a finalidade deste projeto.
-   * (Opcional e condicional) Se você optou por criar um projeto a partir de um modelo, atualize os campos disponíveis na caixa de diálogo **Converter em projeto**.
+   * **Nome**: nomeie seu projeto. O nome padrão é o nome da tarefa. Este campo é obrigatório.
+   * **Descrição**: descreva a finalidade deste projeto.
+   * (Condicional) Se você optou por criar um projeto a partir de um modelo, atualize os campos disponíveis na caixa **Converter em projeto**.
 
      Para obter mais informações sobre a edição de campos em projetos, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
-     >Para atualizar os campos na seção Finanças da caixa Converter em Projeto, você deverá ter o acesso para Editar aos Dados Financeiros no seu nível de acesso. Se você tiver o acesso de Visualização de Dados Financeiros no seu nível de acesso, todas as informações financeiras do modelo serão transferidas para o novo projeto e você não poderá editá-las enquanto converter o problema. Para obter informações, consulte [Conceder acesso aos dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Compartilhar um modelo](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     >Para atualizar os campos na seção Finanças da caixa Converter em Projeto, você deverá ter o acesso para Editar aos Dados Financeiros no seu nível de acesso. Se você tiver o acesso de Visualização de Dados Financeiros no seu nível de acesso, todas as informações financeiras do modelo serão transferidas para o novo projeto e você não poderá editá-las enquanto converter o problema. Para obter informações, consulte [Conceder acesso aos dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Compartilhar um modelo](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    * (Opcional) Adicione o **Forms personalizado** ao novo projeto.
 
@@ -191,6 +200,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      >Se um formulário personalizado de vários objetos anexado à tarefa for configurado para uso com tarefas e projetos, todas as informações salvas no formulário serão retidas quando você fizer a conversão.
      >
      >
-     >Se você estiver usando um modelo para a conversão e um formulário personalizado anexado ao modelo contiver um campo personalizado também encontrado em um formulário personalizado anexado à tarefa, o valor do campo da tarefa será usado para o novo projeto. No entanto, se o campo personalizado estiver em branco na tarefa, o valor do modelo será usado.
+     >Se você estiver usando um modelo para a conversão e um formulário personalizado anexado ao modelo contiver um campo personalizado também encontrado em um formulário personalizado anexado à tarefa, o valor do campo da tarefa será usado para o novo projeto. No entanto, se o campo personalizado estiver vazio na tarefa, o valor do modelo será usado.
 
-1. Clique em **Salvar alterações**.
+1. Clique em **Salvar alterações** <!--<span class="preview">or **Convert to Project**</span>-->.
