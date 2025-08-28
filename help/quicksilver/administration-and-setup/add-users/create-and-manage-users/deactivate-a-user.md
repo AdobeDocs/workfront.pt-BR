@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: b235945deb3254feaf671083fc992786851a3286
+source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1116'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 >title="Desativar um usuário"
 >abstract="A desativação de usuários os remove do Workfront e do Frame.io. Usuários desativados podem ser reativados posteriormente."
 
+{{highlighted-preview}}
+
 <!--Audited 5/2025-->
 
 <!--
@@ -30,7 +32,7 @@ ht-degree: 2%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -88,7 +90,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Antes de desativar um administrador do Workfront ou usuário de licença Standard ou Plan, você deve associar seus objetos e atividades a outro usuário.
 
-Para obter mais informações, consulte [Sobre a desativação de administradores do Workfront e usuários de licenças de Plano](#about-deactivating-workfront-administrators-and-plan-license-users) neste artigo.
+Para obter mais informações, consulte [Sobre a desativação de administradores do Workfront e usuários de licenças Padrão ou Plano](#about-deactivating-workfront-administrators-and-plan-license-users) neste artigo.
 
 ## Desativar um usuário
 
@@ -127,17 +129,17 @@ Para programar um usuário para desativação:
 
 1. Clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png).
 1. No painel esquerdo da caixa **Editar Usuário**, clique em **Planejamento de Recursos**.
-1. Marque a caixa de seleção **Desativação programada**.
+1. Marque a caixa de seleção **Desativação agendada**, <span class="preview"> ou clique em **Definir data de desativação**</span>.
 
-1. Selecione a data e a hora para a **Data de desativação agendada**.
+1. Selecione a data e a hora para a **Data de desativação agendada** / <span class="preview">**Data de desativação**</span>.
 
    >[!NOTE]
    >
    >* Na caixa de hora, você pode selecionar apenas incrementos de hora inteira, não minutos.
-   >* Se você selecionar um horário para o dia atual que já passou, o Workfront agendará a desativação para o dia seguinte, às 12h.
+   >* Se você selecionar uma hora para o dia atual que já passou, o Workfront agendará a desativação para o dia seguinte às 12:00 AM.
    >* A hora selecionada corresponde ao fuso horário do computador do usuário que está agendando a desativação.
 
-1. Clique em **Salvar alterações**.
+1. Clique em **Salvar alterações** <span class="preview">ou **Salvar**</span>.
 
 O usuário é desativado no dia selecionado algum tempo depois do horário selecionado. Se você selecionou vários usuários para desativar em massa, todos os usuários selecionados serão desativados no dia selecionado algum tempo depois do horário selecionado.
 

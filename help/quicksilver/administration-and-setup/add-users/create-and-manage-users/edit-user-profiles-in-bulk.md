@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2625'
 ht-degree: 0%
 
 ---
 
 # Editar perfis de usuário em massa
+
+{{highlighted-preview}}
 
 <!--
 
@@ -23,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -65,163 +67,356 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Os requisitos de acesso na documentação](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) da Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## contas Editar usuário em massa
+## Editar contas de usuário em massa
 
 {{step-1-to-users}}
 
-1. Selecione mais de uma usuário e clique no ícone ![Editar Editar ícone](assets/edit-icon.png).
+1. Selecione mais de um usuário e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png).
 
-1. **Na caixa Editar Usuário** exibida, altere qualquer uma das seguintes opções:
+1. Na caixa **Editar Usuário**, altere as informações em qualquer uma das seções e clique em **Salvar Alterações** <span class="preview">ou **Salvar**</span> a qualquer momento.
 
+### Preferências
+
+* **Fuso Horário**: o fuso horário do usuário.
+
+  Para obter informações sobre como ajudar usuários a colaborar na Workfront em fusos horários diferentes, consulte [Trabalhando em fusos horários diferentes](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+
+* **Localidade de email**: a localidade de email preferencial do usuário. Isso afeta o formato de números e datas nos emails que vêm do Workfront para esse usuário.
+
+  >[!NOTE]
+  >
+  >Quando sua organização está na Experiência unificada do Adobe, as preferências de idioma do usuário são armazenadas no perfil do Adobe e a localidade do email não é usada. Para obter informações sobre como acessar essas preferências, consulte [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+### Notificações
+
+Selecione as notificações por email que devem ser ativadas para os usuários.
+
+Você pode selecionar notificações de resumo instantâneas e diárias. Todas as notificações de resumo diárias são entregues algum tempo depois do mesmo tempo para todos os usuários selecionados.
+
+Para obter mais informações, consulte [Configurar notificações de eventos para todos no sistema](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+
+### Acesso
+
+* **Está ativo** / <span class="preview">**O usuário está ativo**</span>: habilite esta opção para indicar que os usuários estão ativos. Usuários ativos usam uma licença Workfront. A desativação do campo desativa os usuários e os impede de fazer logon no Workfront.
+
+* **Nível de Acesso**: selecione o nível de acesso a ser atribuído a esses usuários. Todos os usuários selecionados terão o mesmo nível de acesso.
+
+  Ao atribuir um nível de acesso aos usuários, você pode atribuir um nível igual ou inferior ao seu próprio nível de acesso. (Por exemplo, se o seu nível de acesso for Padrão, você não poderá atribuir o nível de acesso Administrador.)
+
+  No entanto, não é possível atribuir um nível de acesso que, por padrão, seja inferior ao seu próprio nível de acesso se o administrador do Workfront tiver ativado permissões não padrão no nível de acesso que também não estejam ativadas no seu próprio nível de acesso.
+
+  Por exemplo, se você tiver uma licença Standard sem acesso para excluir tarefas, não será possível atribuir uma licença Light a alguém com acesso para excluir tarefas, embora a licença Light seja inferior à licença Standard. Para obter mais informações, consulte [Criar ou modificar níveis de acesso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+  Para obter mais informações sobre níveis de acesso, consulte [Configurar acesso ao Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
+
+  >[!NOTE]
+  >
+  >Se sua organização usar o novo modelo de acesso (Padrão/Claro/Colaborador), você não poderá reatribuir um usuário Padrão ou Light a um nível de acesso de Colaborador se ele já tiver atingido o limite de decisão para o mês.
+  >
+  >Para obter mais informações sobre o novo modelo de acesso, consulte [Visão geral sobre novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+  >
+  >Para obter informações sobre limites de decisão, consulte [Visão geral sobre documento limitado e decisão de prova para usuários não pagos](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+
+* **Modelo de layout**: escolha um modelo de layout para os usuários. este modelo de layout tem precedência sobre qualquer modelo de layout atribuído ao Grupo padrão, Equipe padrão ou Função principal. Para obter mais informações sobre a prioridade de atribuição de modelos de layout, consulte [Criar e gerenciar modelos de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+  A lista a seguir descreve como a lista de modelos disponíveis neste campo depende do seu acesso:
+
+   * Como administrador do Workfront, você pode ver todos os modelos de layout de nível de sistema e de grupo.
+   * Como administrador de grupo, você pode ver o modelo de layout no nível do sistema, bem como aqueles associados aos grupos que gerencia.
+   * Como um usuário com uma licença Padrão ou de Plano e acesso para editar usuários, você pode ver apenas modelos de layout no nível do sistema.
+
+     Para obter mais informações sobre modelos de layout de nível de grupo, consulte [Criar e modificar modelos de layout de um grupo](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+### Organização
+
+* **Empresa**: a empresa dos usuários. Os usuários podem ser associados a apenas uma empresa. Você deve criar uma empresa antes de associá-la a um usuário. Somente empresas ativas são exibidas na lista. Para obter informações sobre como criar empresas, consulte [Criar e editar empresas](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+* **Equipe interna**: especifique a equipe interna dos usuários. Os usuários só podem ter uma equipe inicial.
+* **Outras equipes**: os usuários podem pertencer a várias equipes.
+* **Grupo Doméstico** / <span class="preview">**Grupo Doméstico Atual**</span>: selecione um grupo apropriado para atribuir aos usuários. Isso dá aos usuários a capacidade de acessar objetos que são compartilhados com o grupo. Você também pode compartilhar modelos de layout com um Grupo padrão.
+
+  Este campo é obrigatório. Todos os usuários devem estar associados a um grupo padrão. Se você não selecionar um, seu Grupo Padrão será atribuído como o Grupo Padrão.
+
+  Você pode atribuir um grupo a um usuário somente se um dos seguintes for verdadeiro:
+
+   * você é um administrador do Workfront
+   * você é o administrador do grupo
+   * o grupo é público
+
+* **Outros grupos**: os usuários podem pertencer a vários grupos. Você pode atribuir um grupo a um usuário somente se for um administrador do Workfront, se for o administrador do grupo ou se o grupo for público.
+
+  >[!IMPORTANT]
+  >
+  >Adicionar um usuário a mais de 100 grupos pode causar problemas de desempenho em qualquer área do Workfront que carrega a lista de grupos.
+
+  Para obter mais informações sobre grupos públicos, consulte [Criar um grupo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+
+  Para obter mais informações sobre grupos, consulte [Visão geral sobre grupos](/help/quicksilver/administration-and-setup/manage-groups/groups-overview/groups.md).
+
+### Planejamento de recursos
+
+* **Tempo de Trabalho**: representa a porcentagem de tempo FTE (equivalente a tempo completo) em que os usuários estão disponíveis para o trabalho real, sem incluir a sobrecarga. A Hora Útil deve ser um número decimal até 1, e não pode ser 0. Por exemplo, uma disponibilidade de 20% para o trabalho real seria de 0,2.
+
+  O campo padrão é 1, indicando que um usuário gasta todo o FTE em trabalho real relacionado ao projeto.
+
+  O sistema usa esse número para calcular a disponibilidade do usuário para o trabalho real relacionado ao projeto.
+
+  Para obter mais informações sobre como criar agendas no Workfront, consulte [Criar uma agenda](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+  As exceções de agendamento e a folga também podem afetar a capacidade do usuário.
+
+  O Workfront calcula a disponibilidade de um usuário dependendo das preferências de Gerenciamento de recursos na área Configuração. Para obter mais informações, consulte [Configurar preferências de Gerenciamento de Recursos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+  >[!TIP]
+  >
+  >Defina o valor de Tempo de trabalho como 1 para indicar que o usuário está disponível para trabalho relacionado ao projeto em todo o equivalente de tempo integral.
+
+* **Agendar Desativação** / <span class="preview">**Definir data de desativação**</span>: marque esta caixa / <span class="preview">clique neste botão</span> se desejar agendar a desativação desses usuários em uma determinada data e em um determinado horário.
+* **Data de Desativação Agendada** / <span class="preview">**Data de Desativação**</span>: a data e a hora em que os usuários são desativados. Para obter informações sobre como agendar usuários para desativação, consulte [Agendar usuários para desativação](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) em [Desativar ou reativar um usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Função principal**: esta é a função principal que os usuários podem desempenhar no Workfront. Todas as tarefas e problemas aos quais os usuários estão atribuídos também são atribuídos a essa função de trabalho. As funções de trabalho são essenciais no gerenciamento de recursos. Você só poderá atualizar esse campo se tiver uma licença Padrão ou de Plano com acesso de usuário administrativo ou se for um administrador do Workfront. Para obter mais informações sobre como configurar usuários com acesso administrativo, consulte [Conceder acesso aos usuários](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
+  Somente as funções de trabalho ativas são exibidas na lista.
+
+* (Condicional) Se você selecionou uma **Função principal**, o campo **Porcentagem de disponibilidade de FTE** será exibido. Especifique que porcentagem de tempo dos agendamentos dos usuários está alocada para esta função de trabalho. O valor padrão para o Percentual de Disponibilidade de FTE para a Função Principal é 100%.
+* **Outras funções**: os usuários podem ter várias funções de trabalho no Workfront. As funções de trabalho são essenciais no gerenciamento de recursos. Não há limite para quantas funções de trabalho um usuário pode realizar. No entanto, recomendamos não atribuir um usuário a um número excessivamente grande de funções de trabalho, pois o gerenciamento de recursos pode se tornar muito complexo para esses usuários.
+
+  Somente as funções de trabalho ativas são exibidas na lista. Para obter mais informações sobre funções de trabalho, consulte [Criar e gerenciar funções de trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+  Você só poderá atualizar esse campo se tiver uma licença Padrão ou de Plano com acesso de usuário administrativo ou se for um administrador do Workfront.
+
+  Para obter mais informações sobre como configurar usuários com acesso administrativo, consulte [Conceder acesso aos usuários](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
+* (Condicional) Se você selecionou uma ou várias **Outras funções**, o campo **Porcentagem de disponibilidade de FTE** será exibido para cada função. Especifique que porcentagem de tempo dos cronogramas dos usuários está alocada para cada função de trabalho. O valor padrão para a Porcentagem de Disponibilidade FTE para as Outras Funções é 0%.
+
+  Se Outras Funções tiverem 0% de Disponibilidade FTE, elas não serão exibidas no Planejador de Recursos, a menos que os usuários sejam atribuídos a tarefas nessas funções.
+
+  A soma de todos os **Percentuais de Disponibilidade de FTE** para todas as funções deve ser igual a 100%. Cada Porcentagem de Disponibilidade de FTE calcula as Horas Disponíveis para cada função por usuário no Planejador de Recursos. As Horas Disponíveis para cada função por usuário dependem do tempo disponível para o usuário.
+
+  O tempo disponível para o usuário é calculado pelo Workfront, dependendo do método selecionado pelo administrador do Workfront para calcular o FTE nas Preferências de gerenciamento de recursos.
+
+  Para obter informações sobre como calcular a disponibilidade do usuário, consulte [Visão geral do cálculo de horas e FTE para usuários e funções no Planejador de recursos](/help/quicksilver/resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+
+  Para obter informações sobre como configurar preferências de Gerenciamento de Recursos, consulte [Configurar preferências de Gerenciamento de Recursos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+* **Agendamento**: associe um agendamento aos usuários. O agendamento dos usuários calcula a linha do tempo das tarefas às quais os usuários estão atribuídos.
+
+  Você deve criar um agendamento antes de associá-lo aos usuários. Para obter mais informações sobre como criar agendas, consulte [Criar uma agenda](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+  >[!IMPORTANT]
+  >
+  >O Workfront só usa o agendamento de um usuário quando a configuração **Calcular Disponibilidade de Recursos Usando** está definida como **O Agendamento do Usuário**. Para obter informações sobre como essa configuração afeta qual agendamento é usado para o Gerenciamento de Recursos, consulte [Configurar preferências de Gerenciamento de Recursos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+* **Perfil de Planilha de Horas**: Associe um Perfil de Planilha de Horas aos usuários para garantir que as planilhas de horas sejam geradas automaticamente.
+
+  A lista de perfis que você tem disponível neste campo depende do seu acesso:
+
+   * Como administrador do Workfront, você pode ver todos os perfis de planilha de horas no nível do sistema e no nível do grupo.
+   * Como administrador de grupo, você pode ver os Perfis de planilha de horas no nível do sistema, bem como aqueles associados aos grupos que você gerencia.
+   * Como um usuário com uma licença Padrão ou de Plano e acesso para editar usuários, você pode ver somente Perfis de planilha de horas no nível do sistema. Para obter mais informações sobre Perfis de Planilha de Horas no nível do grupo, consulte [Criar, editar e atribuir perfis de planilha de horas](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+* **Tipo de Hora Padrão**: Selecione o tipo de hora padrão para os usuários. Esse é o tipo de hora usado por padrão quando os usuários registram tempo.
+* **Tipos de Horas Disponíveis**: Selecione os tipos de horas que devem estar disponíveis para os usuários. Esses tipos de horas estão visíveis em qualquer lugar no Workfront, onde os usuários possam registrar horas. Os usuários só podem ver os tipos de horas que estão ativados no nível do projeto, bem como no nível do usuário. Para obter mais informações sobre quais tipos de horas estão disponíveis para os usuários, consulte [Definir tipos de horas e disponibilidade](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+* **FTE**: este é o equivalente de tempo integral dos usuários. O Workfront usa esse número para calcular a disponibilidade dos usuários com base na Programação Default apenas quando as Preferências de Gerenciamento de Recursos no nível do sistema são definidas como A Programação Default.
+
+  O FTE indica a quantidade de tempo que os usuários podem gastar no trabalho. Isso inclui as despesas gerais e o tempo gasto no trabalho do projeto. Por exemplo, o tempo gasto em reuniões ou treinamento também é incluído no FTE.
+
+  O FTE deve ser um número decimal até 1 e não pode ser 0. Por exemplo, se o valor de FTE for 0,5 e o Agendamento padrão no Workfront for 40 horas, os usuários estarão disponíveis 20 horas por semana.
+
+  O padrão do campo é 1.
+
+  Exceções de cronograma, folga e o valor de Tempo de trabalho podem afetar a disponibilidade dos usuários.
+
+  O Workfront calcula a disponibilidade de um usuário dependendo das preferências de Gerenciamento de recursos na área Configuração.
+
+  Se as Preferências de Gerenciamento de Recursos no nível do sistema forem definidas como O Cronograma do Usuário, o valor especificado aqui será ignorado e o usuário será considerado disponível de acordo com o especificado em seu cronograma.
+
+  Para obter mais informações, consulte [Configurar preferências de Gerenciamento de Recursos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+  Para obter mais informações sobre como criar agendas no Workfront, consulte [Criar uma agenda](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+* **Conjuntos de Recursos**: associe os usuários aos Conjuntos de Recursos.
+
+  >[!NOTE]
+  >
+  >Somente os conjuntos de recursos comuns a todos os usuários selecionados aparecem nesse campo. Se os usuários selecionados não tiverem conjuntos de recursos compartilhados, esse campo ficará vazio. Se esse campo estiver vazio, os conjuntos de recursos especificados aqui substituirão seus conjuntos de recursos individuais.
+
+  Para obter mais informações sobre pools de recursos, consulte [Associar pools de recursos a usuários](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+
+* **Taxa de Custo**: a quantidade de custo por hora para o usuário.
+
+  Para taxas de custo atuais, clique em **Adicionar taxa**. Informe o valor da taxa de custo para o período e atribua uma Data Inicial e uma Data Final conforme necessário. A Taxa de Custo 1 não terá uma data inicial e a última taxa de custo não terá uma data final.
+
+  Algumas datas são adicionadas automaticamente. Por exemplo, se a Taxa de Custo 1 não tiver uma data final e você adicionar a Taxa de Custo 2 com uma data inicial de 1º de maio de 2023, uma data final de 30 de abril de 2023 será adicionada à Taxa de Custo 1 para que não haja lacunas.
+
+* **Taxa de Cobrança**: a quantidade de cobrança por hora para o usuário.
+
+  Para taxas de cobrança efetivas por data, clique em **Adicionar taxa**. Informe o valor da taxa de faturamento para o período e atribua uma Data Inicial e uma Data Final conforme necessário. A Taxa de Cobrança 1 não terá uma data inicial e a última taxa de cobrança não terá uma data final.
+
+  Algumas datas são adicionadas automaticamente. Por exemplo, se a Taxa de cobrança 1 não tiver uma data final e você adicionar um segundo com uma data inicial de 1º de maio de 2023, uma data final de 30 de abril de 2023 será adicionada à Taxa de cobrança 1 para que não haja lacunas.
+
+### Formulários personalizados
+
+Associar um formulário personalizado de usuário existente aos usuários. Você deve criar um formulário personalizado antes de associá-lo a um usuário. Somente formulários personalizados ativos são exibidos na lista. Os campos que você não tem acesso para editar não são exibidos em um formulário personalizado individual.
+
+>[!NOTE]
+>
+>Recursos avançados de formulário personalizado, como campos de pesquisa externos e campos nativos do Workfront, só estão disponíveis quando você abre o registro do usuário na página de detalhes, não na caixa de diálogo Editar usuário. (Na lista de usuários, clique no nome do usuário para abrir os detalhes.)
+
+Opcionalmente, você pode selecionar a opção **Recalcular Expressões Personalizadas** para garantir que todos os campos personalizados calculados em formulários personalizados anexados aos usuários selecionados estejam atualizados.
+
+Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+### Comentário
+
+Digite o comentário que deseja enviar aos usuários e à área Atualizações dos perfis de usuários.
+
+<!--
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Preferências</td> 
+      <td role="rowheader">Preferences</td> 
       <td> 
        <ul> 
-        <li><b>Fuso horário:</b> o fuso horário dos usuários.</li> 
-        <li><b></b>Localidade: a localidade preferida dos usuários. Isso afeta o formato dos números e datas nos emails provenientes do Workfront.</li> 
-        <li><b>Envie o trabalho que atribuo a mim mesmo para a minha guia</b> de trabalho: esta configuração se refere a um recurso obsoleto que foi removido do Workfront.</li> 
+        <li><b>Time Zone:</b> The users' time zone.</li> 
+        <li><b>Locale</b>: The users' preferred locale. This affects the format of numbers and dates in the emails that come from Workfront.</li> 
+        <li><b>Send work I assign to myself to my Working On tab</b>: This setting refers to a deprecated feature that has been removed from Workfront.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Notificações</td> 
-      <td>Selecione as notificações por email que devem ser ativadas para o novo usuário.<p>Você pode selecionar notificações instantâneas e diárias de resumo. Todas as notificações diárias de resumo são entregues algum tempo depois do mesmo tempo para todos os usuários selecionados. Para obter mais informações, consulte <a href="../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md" class="MCXref xref">Configurar evento notificações para todos no sistema</a>.</p></td> 
+      <td role="rowheader">Notifications</td> 
+      <td>Select the email notifications which should be enabled for the new user.<p>You can select instant as well as daily digest notifications. All the daily digest notifications are delivered sometime after the same time for all the users selected. For more information, see <a href="../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md" class="MCXref xref">Configure event notifications for everyone in the system</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Acesso</td> 
+      <td role="rowheader">Access</td> 
       <td> 
        <ul> 
-        <li><b>Está Ativo:</b> selecione este campo para indicar se os usuários estão ativos. Usuários ativos usam uma licença Workfront. Desmarcar o campo desativa os usuários.</li> 
+        <li><b>Is Active:</b> Select this field to indicate whether the users are active. Active users use a Workfront license. Deselecting the field deactivates the users.</li> 
         <li> 
-        <p><b>Nível de Acesso:</b> Selecione o nível de acesso a ser atribuído a esses usuários. Todos os usuários selecionados terão o mesmo nível de acesso.
+        <p><b>Access Level:</b> Select the access level to assign to these users. All users selected will have the same access level.
         </p> 
-        <p>Ao atribuir um nível de acesso aos usuários, você pode atribuir um nível igual ou inferior ao seu próprio nível de acesso. (Por exemplo, se o nível de acesso for Planejador, não será possível atribuir o nível de acesso do Administrador.) </p>
-        <p>No entanto, você não pode atribuir um nível de acesso menor que o seu se o administrador da Workfront tiver ativado permissões no nível de acesso que também não são habilitadas por conta própria (por meio das configurações de Ajuste fino, conforme descrito em <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis</a> de acesso personalizados).</p> 
-        <p>Para obter mais informações sobre níveis de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configurar acesso ao Adobe Systems Workfront</a>.</p> 
+        <p>When you assign an access level to users, you can assign a level equal to or less than your own access level. (For example, if your access level is Planner, you cannot assign the Administrator access level.) </p>
+        <p>However, you cannot assign an access level that is lower than your own if the Workfront administrator has enabled permissions on the access level that are not also enabled in your own (via the Fine-Tune settings, as described in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>).</p> 
+        <p>For more information about access levels, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configure access to Adobe Workfront</a>.</p> 
          </li> 
         <li> 
-        <p><b>Layout Modelo</b>: escolha um modelo de layout para os usuários. O layout modelo atribuído aos usuários terá precedência em relação a qualquer layout modelo atribuído ao Grupo inicial, à Equipe inicial ou aos função de trabalho principal. Para obter mais informações sobre a prioridade de atribuição dos modelo de layout, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Criar e gerenciar modelos</a> de layout.</p> 
-        <p><b>OBSERVAÇÃO</b>: a lista de modelos de layout disponíveis neste campo depende do seu acesso:
+        <p><b>Layout Template</b>: Choose a layout template for the users. The layout template assigned to the users will take precedence over any layout template assigned to their Home Group, Home Team or primary job role. For more information about the assignment priority of layout template, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p> 
+        <p><b>NOTE</b>:  The list of layout templates you have available in this field depends on your access:
           <ul>
-           <li>Como administrador do Workfront, você pode ver todos os modelos de layout de nível de sistema e de grupo.</li>
-           <li>Como administrador de grupo, você pode ver modelos de layout no nível do sistema, bem como aqueles associados aos grupos que gerencia.</li>
-           <li><p>Como um usuário com uma licença de Planejador e acesso para editar usuários, você pode ver apenas modelos de layout no nível do sistema. </p>
-           <p>Para obter informações sobre modelos de layout em nível de grupo, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Criar e gerenciar modelos de layout</a>.</p>
+           <li>As a Workfront administrator, you can see all system-level and group-level layout templates.</li>
+           <li>As a group administrator, you can see system-level layout templates, as well as those associated with the groups that you manage.</li>
+           <li><p>As a user with a Planner license and access to edit users, you can see only system-level layout templates. </p>
+           <p>For information about group-level layout templates, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p>
            </li>
           </ul></p> 
           </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Organização</td> 
+      <td role="rowheader">Organization</td> 
       <td> 
        <ul> 
-        <li><b>Empresa</b>: o empresa dos usuários. Os usuários podem ser associados somente a uma empresa. Você deve criar uma empresa para associá-la a uma usuário. Somente empresas ativas são exibidas no lista. Para obter informações sobre como criar empresas, consulte Entender e gerenciar empresas.</li> 
-        <li><b>Home Team</b>: especifique a equipe inicial para os usuários. Os usuários só podem ter uma equipe inicial. </li> 
-        <li><b>Outras equipes</b>: os usuários podem pertencer a várias equipes. </li> 
-        <li> <p><b>Grupo inicial:</b> selecione uma grupo apropriada para atribuir os usuários como seu grupo inicial. Isso dá ao usuário a capacidade de acessar objetos compartilhados com o grupo.</p> <p><b>OBSERVAÇÃO</b>: este é um campo obrigatório. Você não pode ter usuários não associados a um Grupo inicial.</p> <p>Você pode atribuir uma grupo a usuários somente nas seguintes situações:</p> 
+        <li><b>Company</b>: The company of the users. Users can be associated only with one company. You must create a company before you can associate it with a user. Only active companies display in the list. For information about creating companies, see Understanding and Managing Companies.</li> 
+        <li><b>Home Team</b>: Specify the home team for the users. Users can only have one home team. </li> 
+        <li><b>Other Teams</b>: Users can belong to multiple teams. </li> 
+        <li> <p><b>Home Group:</b> Select an appropriate group to assign the users as their Home Group. This gives the user the ability to access objects that are shared with the group.</p> <p><b>NOTE</b>:  This is a required field. You cannot have users not associated with a Home Group.</p> <p>You can assign a group to users only in the following situations:</p> 
          <ul> 
-          <li>Você é um administrador da Workfront.</li> 
-          <li>Você é o administrador desse grupo.</li> 
-          <li>O grupo é público.</li> 
+          <li>You are a Workfront administrator.</li> 
+          <li>You are the administrator of that group.</li> 
+          <li>The group is public.</li> 
          </ul> </li> 
-        <li> <p><b>Outros grupos</b>: os usuários podem pertencer a vários grupos. Você pode atribuir um grupo a um usuário somente nas seguintes situações:</p> 
+        <li> <p><b>Other Groups</b>: Users can belong to multiple groups. You can assign a group to a user only  in the following situations:</p> 
          <ul> 
-          <li>Você é um administrador do Workfront.</li> 
-          <li>Você é o administrador desse grupo.</li> 
-          <li> <p>O grupo é público. </p> 
-          <p>Para obter mais informações sobre grupos públicos, consulte <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Criar um grupo</a>.</p> 
-          <p>Para obter mais informações sobre grupos, consulte <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Visão geral sobre grupos</a>.</p> 
+          <li>You are a Workfront administrator.</li> 
+          <li>You are the administrator of that group.</li> 
+          <li> <p>The group is public. </p> 
+          <p>For more information about public groups, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Create a group</a>.</p> 
+          <p>For more information about groups, see <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Groups overview</a>.</p> 
           </li> 
          </ul> 
          </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Planejamento de recursos</td> 
+      <td role="rowheader">Resource Planning</td> 
       <td> 
-       <ul>
-
-   <li>
-       <b>Tempo de Trabalho</b>: representa a porcentagem de tempo FTE (equivalente a tempo completo) em que o usuário está disponível para o trabalho real, sem incluir a sobrecarga. A Hora Útil deve ser um número decimal até 1, e não pode ser 0. Por exemplo, uma disponibilidade de 20% para o trabalho real seria de 0,2.
-
-   O campo padrão é 1, indicando que um usuário gasta todo o FTE em trabalho real relacionado ao projeto.
-
-   O sistema usa esse número para calcular a disponibilidade do usuário para o trabalho real relacionado ao projeto.
-
-   Para obter mais informações sobre como criar agendas no Workfront, consulte <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Criar uma agenda</a>.
-
-   Exceções de agendamento e folga também podem afetar a capacidade do usuário.
-
-   O Workfront calcula a disponibilidade de um usuário dependendo das preferências de Gerenciamento de recursos na área Configuração. Para obter mais informações, consulte <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar preferências de Gerenciamento de Recursos</a>.
-
-   <b>DICA</b>
-
-   Defina o valor de Tempo de trabalho como 1 para indicar que o usuário está disponível para trabalho relacionado ao projeto em todo o equivalente de tempo integral.
-   </li>
-
-   <li><b>Desativação agendada</b>: marque esta caixa se desejar agendar usuários para desativação após um período.</li> 
-       <li><b>Data de desativação agendada</b>: a data após a qual os usuários serão desativados. Para obter mais informações sobre o agendamento de usuários para desativação, consulte a seção <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Agendar usuários para desativação</a> em <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desativar ou reativar um usuário</a>.</li> 
-       <li> <p><b>Função</b> primária: esta é a principal tarefa função que um usuário tem na Workfront. Todas as tarefa e problemas aos quais os usuários são atribuídos também são atribuídos a essa tarefa função, por padrão. As funções de trabalho são essenciais na gestão de recursos. Para obter mais informações sobre funções de trabalho, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Criar e gerenciar funções de trabalho</a></p> <p>Você pode atualizar esse campo somente se tiver uma licença de plano com acesso administrativo usuário ou se for um administrador do Workfront. Para obter mais informações sobre como configurar usuários com acesso administrativo usuário, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </li> 
-       <li>(Condicional) Se você selecionou uma <b>Função</b> primária, o <b>campo Porcentagem de FTE Disponibilidade</b> é exibido. Especifique qual a porcentagem de tempo dos horários dos usuários alocados para esse trabalho função. O valor padrão da Porcentagem de FTE Disponibilidade para a Função primária é 100%.</li> 
-       <li> <p><b>Outras funções</b>: os usuários podem ter várias funções de trabalho no Workfront. As funções de trabalho são essenciais na gestão de recursos. Não há limite para quantas funções de trabalho um usuário pode cumprir. No entanto, recomendamos não atribuir uma usuário a um número excessivamente grande de funções de trabalho, porque o gerenciamento de recursos pode se tornar muito complexo para esses usuários.</p> <p>Para obter mais informações sobre funções de trabalho, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Criar e gerenciar funções</a> de trabalho.</p> <p>Você pode atualizar esse campo somente se tiver uma licença de plano com acesso administrativo usuário ou se for um administrador do Workfront. Para obter mais informações sobre como configurar usuários com acesso administrativo usuário, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.</p> </li> 
-       <li> <p>(Condicional) Se você selecionou uma ou várias Outras <b>funções</b>, a <b>Porcentagem do campo Disponibilidade</b> FTE será exibida para cada função. Especifique qual a porcentagem de tempo dos horários dos usuários está alocada para cada tarefa função. O valor padrão da Porcentagem de FTE Disponibilidade para as outras funções é 0%.</p> <p><b>NOTA</b>:  
        <ul> 
-       <li>Se Outras Funções tiverem 0% de Disponibilidade FTE, elas não serão exibidas no Planejador de Recursos, a menos que os usuários sejam atribuídos a tarefas nessas funções.</li> 
-       <li> <p>A soma de todas as Porcentagens de Disponibilidade de FTE para todas as funções deve ser igual a 100%. Cada Porcentagem de Disponibilidade de FTE calcula as Horas Disponíveis para cada função por usuário no Planejador de Recursos. As Horas Disponíveis para cada função por usuário dependem do tempo disponível para o usuário.</p> <p>O tempo disponível para o usuário é calculado pela Workfront dependendo do método selecionado pelo administrador da Workfront para calcular as FTE na Preferências de Gerenciamento de recursos.</p> <p>Para obter mais informações sobre como calcular a disponibilidade para o usuário, consulte <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Visão geral do cálculo de horas e FTE para usuários e funções no Planejador</a> de recursos.</p> <p>Para obter mais informações sobre como configurar preferências de Gerenciamento de recursos, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar preferências de Gerenciamento de recursos</a>.</p> </li> 
+      
+      <li>
+       <b>Work Time</b>: Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.
+
+      The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work. 
+
+      The system uses this number to calculate the availability of the user for actual, project-related work. 
+
+      For more information about creating schedules in Workfront, see <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>.
+
+      Schedule exceptions and time off might also affect the user capacity. 
+
+      Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configure Resource Management preferences</a>. 
+
+      <b>TIP</b>
+
+      Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.
+      </li> 
+
+      <li><b>Schedule Deactivation</b>: Check this box if you want to schedule users to be deactivated after a period of time.</li> 
+       <li><b>Scheduled Deactivation Date</b>: The date after which the users become deactivated. For more information about scheduling users for deactivation, see the section <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Schedule users for deactivation</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate or reactivate a user</a>.</li> 
+       <li> <p><b>Primary Role</b>: This is the primary job role that a user has in Workfront. Every task and issue that the users are assigned to is also assigned to this job role, by default. Job roles are essential in resource management. For more information about job roles, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a></p> <p>You can update this field only if you have a Plan license with administrative user access, or if you are a Workfront administrator. For more information about setting up users with administrative user access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+       <li>(Conditional) If you selected a <b>Primary Role</b>, the <b>Percentage of FTE Availability</b> field displays. Specify what percentage of time of the users' schedules is allocated to this job role. The default value for the Percentage of FTE Availability for the Primary Role is 100%.</li> 
+       <li> <p><b>Other Roles</b>: Users can have multiple job roles in Workfront. Job roles are essential in resource management. There is no limit for how many job roles a user can fulfill. However, we recommend to not assign one user to an excessively large number of job roles, because resource management might become too complex for these users.</p> <p>For more information about job roles, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> <p>You can update this field only if you have a Plan license with administrative user access, or if you are a Workfront administrator. For more information about setting up users with administrative user access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+       <li> <p>(Conditional) If you selected one or multiple <b>Other Roles</b>, the <b>Percentage of FTE Availability</b> field displays for each role. Specify what percentage of time of the users' schedules is allocated to each job role. The default value for the Percentage of FTE Availability for the Other Roles is 0%.</p> <p><b>NOTE</b>:  
+       <ul> 
+       <li>If Other Roles have a 0% FTE Availability, they do not display in the Resource Planner, unless the users are assigned to tasks in these roles.</li> 
+       <li> <p>The sum of all Percentages of FTE Availability for all roles must equal 100%. Each Percentage of FTE Availability calculates the Available Hours for each role per user in the Resource Planner. The Available Hours for each role per user depends on the available time for the user.</p> <p>The available time for the user is calculated by Workfront depending on the method that has been selected by the Workfront administrator to calculate the FTE in the Resource Management Preferences.</p> <p>For more information about calculating availability for the user, see <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overview of calculating hours and FTE for users and roles in the Resource Planner</a>.</p> <p>For more information about configuring Resource Management preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configure Resource Management preferences</a>.</p> </li> 
        </ul> </p> </li> 
-       <li> <p><b>Agendamento</b>: associe um agendamento com os usuários. A agenda dos usuários calcula a linha do tempo das tarefas às quais os usuários são atribuídos.</p> <p>Um administrador da Workfront ou um grupo administrador deve criar um agendamento antes de poder ser associado aos usuários.</p> <p>Selecione um cronograma de nível de sistema ou grupo para atribuí-lo aos usuários selecionados.</p> <p>Para obter mais informações sobre agendamentos no nível do sistema e no grupo, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>.</p> <p><b>IMPORTANTE</b>: a workfront usa o agendamento de uma usuário somente quando a configuração Calcular disponibilidade de recursos Usando está definida como Agendamento do usuário. Para obter informações sobre como a disponibilidade do recurso Calcular usando a configuração afeta qual agendamento é usado para o Gerenciamento de recursos, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar preferências</a> de Gerenciamento de recursos.</p> </li> 
-       <li> <p><b>Perfil de</b> folha de tempo: associe um perfil de folha de tempo aos usuários. Isso garante que as planilhas de tempo gerem automaticamente para os usuários.</p> 
-       <p><b>OBSERVAÇÃO</b>:  
+       <li> <p><b>Schedule</b>: Associate a schedule with the users. The schedule of the users calculates the timeline of the tasks the users are assigned to.</p> <p>A Workfront administrator or a group administrator must create a schedule before it can be associated with users.</p> <p>Select a system-level or a group schedule to assign it to the selected users.</p> <p>For more information about system-level and group schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.</p> <p><b>IMPORTANT</b>: Workfront uses the schedule of a user only when the Calculate Resource Availability Using setting is set to The User's Schedule. For information about how the Calculate Resource Availability Using setting affects which schedule is used for Resource Management, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configure Resource Management preferences</a>.</p> </li> 
+       <li> <p><b>Timesheet Profile</b>: Associate a Timesheet Profile with the users. This ensures that timesheets generate automatically for the users.</p> 
+       <p><b>NOTE</b>:  
        <ul> 
-       <li>A lista de perfis de folha de tempo disponíveis neste campo depende do seu acesso:
+       <li>The list of timesheet profiles you have available in this field depends on your access:
        <ul>
-       <li>Como administrador da Workfront, você pode ver todos os perfis de folha de tempo de nível de sistema e grupo nível.</li>
-       <li><p>Como um administrador grupo, você pode ver perfis de folha de tempo no nível do sistema, bem como aqueles associados aos grupos que você gerenciar.</p></li>
-       <li><p>Como um usuário com uma licença de Planejador e acesso para editar usuários, você pode ver apenas perfis de planilha de horas no nível do sistema.</p></li>
+       <li>As a Workfront administrator, you can see all system-level and group-level timesheet profiles.</li>
+       <li><p>As a group administrator, you can see system-level timesheet profiles, as well as those associated with the groups that you manage.</p></li>
+       <li><p>As a user with a Planner license and access to edit users, you can see only system-level timesheet profiles.</p></li>
        </ul></li> 
-       <li>Se você for um administrador de grupo, todos os usuários que estiver editando deverão ser membros de um grupo que você administra.</li> 
+       <li>If you are a group administrator, all of the users you are editing must be members of a group that you administer.</li> 
        </ul> </p> </li> 
-       <li><b>Tipo</b> de hora padrão: selecione o tipo de hora padrão para os usuários. Esse é o tipo de hora que é usado por padrão quando o usuário registra o tempo.</li> 
-       <li> <p><b>Tipos</b> de hora disponíveis: selecione os tipos de hora que devem estar disponíveis para o usuário. Esses tipos de hora são visíveis em todos os lugares da Workfront, onde os usuários podem registrar o tempo. Um usuário pode ver apenas os tipos de hora ativados no nível do projeto, bem como o nível usuário.</p> 
-       <p>Para obter mais informações sobre quais tipos de hora estão disponíveis para os usuários, consulte <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Definir tipos de hora e disponibilidade</a>.</p> 
+       <li><b>Default Hour Type</b>: Select the default hour type for the users. This is the hour type that is used by default when the users log time.</li> 
+       <li> <p><b>Available Hour Types</b>: Select the hour types that should be available to the user. These hour types are visible everywhere in Workfront where the users can log time. A user can only see the hour types that are enabled at the project level as well as the user level.</p> 
+       <p>For more information about what hour types are available to users, see <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Define hour types and availability</a>.</p> 
        </li> 
-       <li> <b></b>FTE: isso é o equivalente em tempo integral do usuário. O Workfront usa esse número para calcular a disponibilidade do usuário com base na Programação Padrão apenas quando as Preferências de Gerenciamento de Recursos no nível do sistema são definidas como A Programação Padrão.
+       <li> <b>FTE</b>: This is the Full Time Equivalent of the user. Workfront uses this number to calculate the availability of the user based on the Default Schedule only when the Resource Management Preferences at the system level are set to The Default Schedule. 
 
-   <p>O FTE indica a quantidade de tempo que o usuário pode gastar no trabalho. Isso inclui as despesas gerais e o tempo gasto no trabalho do projeto. Por exemplo, o tempo gasto em reuniões ou treinamento também é incluído no FTE.</p>
+      <p>The FTE indicates the amount of time that the user can spend at work. This includes overhead, as well as time spent on project work. For example, time that is spent in meetings, or training is also included in the FTE.</p> 
 
-   O FTE deve ser um número decimal até 1 e não pode ser 0. Por exemplo, se o valor de FTE for 0,5 e o Agendamento padrão no Workfront for 40 horas, o usuário estará disponível 20 horas por semana.
+      The FTE must be a decimal number up to 1, and it cannot be 0. For example, if the FTE value is 0.5 and the Default Schedule in Workfront is 40 hours, the user is available for 20 hours a week. 
 
-   O padrão do campo é 1.
+      The field's default is 1.
 
-   Exceções de cronograma, tempo de folga pode e o valor de Tempo de trabalho pode afetar a disponibilidade do usuário.
+      Schedule exceptions, time off might, and the value of Work Time may affect the availability of the user. 
 
-   O Workfront calcula a disponibilidade de um usuário dependendo das preferências de Gerenciamento de recursos na área Configuração.
+      Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area.
 
-   Se as Preferências de Gerenciamento de Recursos no nível do sistema forem definidas como O Cronograma do Usuário, o valor especificado aqui será ignorado e o usuário será considerado disponível de acordo com o especificado em seu cronograma.
+      If the Resource Management Preferences at the system level are set to The User's Schedule, the value you specify here is ignored and the user is considered to be available according to what is specified in their schedule. 
 
-   Para obter mais informações, consulte <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurar preferências de Gerenciamento de Recursos</a>.
+      For more information, see <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configure Resource Management preferences</a>. 
 
-   Para obter mais informações sobre como criar agendas no Workfront, consulte <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Criar uma agenda</a>.
-   </li> 
-       <li> <p><b>Pools de Recursos</b>: associe os usuários aos pools de recursos.</p> <p><b>OBSERVAÇÃO</b>: somente os pools de recursos comuns a todos os usuários selecionados aparecem neste campo. Se os usuários selecionados não tiverem conjuntos de recursos compartilhados, esse campo estará vazio. Se esse campo estiver vazio, os conjuntos de recursos especificados aqui substituirão seus conjuntos de recursos individuais.</p> 
-       <p>Para obter mais informações sobre pools de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Visão geral dos pools de recursos </a>.</p> </li> 
-       <li><b>Custo por hora</b>: a quantidade de custo por hora para o usuário. </li> 
-       <li><b>Cobrança por hora</b>: a quantidade de cobrança por hora para o usuário.</li> 
-       <li><b>Forms personalizado</b>: associe um formulário personalizado de usuário existente aos usuários. Você deve criar um formulário personalizado antes de associá-lo a um usuário. Somente formulários personalizados ativos são exibidos na lista. Para obter informações sobre como criar formulários personalizados, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Criar um formulário personalizado</a>.</li> 
-       <li><b>Comentário</b>: insira um comentário no campo fornecido. Todos os usuários selecionados receberão uma notificação no aplicativo, bem como uma notificação por email com seu comentário. O comentário é exibido na guia Atualizações do perfil do usuário.</li> 
+      For more information about creating schedules in Workfront, see <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>.
+      </li> 
+       <li> <p><b>Resource Pools</b>: Associate the users with resource pools.</p> <p><b>NOTE</b>:  Only the resource pools that are common to all the users selected appear in this field. If the users selected have no shared resource pools, this field is empty. If this field is empty, the resource pools you specify here will overwrite their individual resource pools.</p> 
+       <p>For more information about resource pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.</p> </li> 
+       <li><b>Cost Per Hour</b>: The amount of cost per hour for the user. </li> 
+       <li><b>Billing Per Hour</b>: The amount of billing per hour for the user.</li> 
+       <li><b>Custom Forms</b>: Associate an existing user custom form with the users. You must create a custom form before you can associate it with a user. Only active custom forms display in the list. For information about creating custom forms, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Create a custom form</a>.</li> 
+       <li><b>Comment</b>: Enter a comment in the field provided. All users selected will receive an in-app notification as well as an email notification with your comment. The comment shows in the Updates tab of the users' profile.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
+-->
 
-1. (Opcional) Na seção **Forms Personalizado**, selecione a opção **Recalcular Expressões Personalizadas** para garantir que todos os campos personalizados calculados em formulários personalizados anexados aos usuários selecionados estejam atualizados.
-
-1. Clique em **Salvar alterações**.
