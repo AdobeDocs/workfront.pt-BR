@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 909236983b7eefa25ea7961a2f760d87cae23132
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -70,15 +70,15 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
      Ou
 
-     Para criar um novo modelo para o grupo que é baseado em um modelo existente, selecione o modelo existente e clique em **Copiar**.
+     Para criar um novo modelo para o grupo baseado em um modelo existente, selecione o modelo existente e clique no ícone **Copiar** ícone ![Copiar ícone](assets/copy-icon.png).
 
      Para obter informações sobre como criar um Modelo de Layout, consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
      Para obter informações sobre como copiar um modelo de layout para criar um novo, consulte [Copiar um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 
-   * Para editar um modelo de layout de grupo existente, selecione-o e clique em **Editar**.
+   * Para editar um modelo de layout de grupo existente, selecione-o e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png).
 
      Para obter informações sobre como editar um modelo de layout, consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-   * Para excluir um ou mais modelos de layout, selecione-os e clique em **Excluir**.
-   * **Exportar** a lista de modelos de layout.
+   * Para excluir um ou mais modelos de layout, selecione-os e clique no ícone **Excluir** ![Ícone Excluir](assets/delete.png).
+   * Para exportar a lista de modelos de layout, clique no ícone **Exportar** ![Ícone Exportar](assets/export-icon.png).
