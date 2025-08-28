@@ -5,11 +5,11 @@ content-type: reference
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Este artigo explica o que acontece quando um processo de aprovação já está em uso quando um administrador do Workfront (ou um usuário com acesso administrativo aos processos de aprovação) altera sua associação com um grupo.
-author: Alina, Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 77b2dce2-1523-4262-a659-0d301059a54c
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 1%

@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Criar um Scorecard
 description: Um scorecard mede o alinhamento de um projeto com os critérios estabelecidos anteriormente de um portfólio. Um scorecard geralmente reflete a missão, os valores e os objetivos estratégicos de uma organização.Os gerentes do Portfolio geralmente definem as perguntas e respostas do scorecard para garantir que elas sejam significativas e valiosas durante a priorização e a seleção do projeto. Um administrador do  [!DNL Adobe Workfront]  cria os scorecards com base nas recomendações dos gerentes de portfólio.
-author: Lisa, Alina
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%

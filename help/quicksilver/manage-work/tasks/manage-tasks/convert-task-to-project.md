@@ -6,29 +6,28 @@ description: Quando uma tarefa em um projeto requer uma quantidade maior de esfo
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1244'
 ht-degree: 2%
 
 ---
 
 # Converter uma tarefa em um projeto
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes após uma semana da versão de Pré-visualização.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div>-->
+</div>
 
 Quando uma tarefa em um projeto requer uma quantidade maior de esforço para ser concluída do que o planejado originalmente, é possível convertê-la em um projeto.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +52,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações para converter tarefas em projetos
 
@@ -202,4 +203,4 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
      >
      >Se você estiver usando um modelo para a conversão e um formulário personalizado anexado ao modelo contiver um campo personalizado também encontrado em um formulário personalizado anexado à tarefa, o valor do campo da tarefa será usado para o novo projeto. No entanto, se o campo personalizado estiver vazio na tarefa, o valor do modelo será usado.
 
-1. Clique em **Salvar alterações** <!--<span class="preview">or **Convert to Project**</span>-->.
+1. Clique em **Salvar alterações** <span class="preview">ou **Converter em projeto**.</span>
