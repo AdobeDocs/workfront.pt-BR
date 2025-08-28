@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 1b8a09028136d858fbf4de9f8b4b35165c6b6d25
+source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,22 @@ Esta página descreve as melhorias de Administrador feitas com a versão do Quar
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2025, consulte [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
+## Ativar os recursos de IA do Beta para sua organização
+
+>[!NOTE]
+>
+>* Visualização: 28 de agosto de 2025
+>* Versão rápida de produção: 11 de setembro de 2025
+>* Produção para todos os clientes: 16 de outubro de 2025
+
+Para facilitar a visualização e a influência dos recursos futuros de IA, possibilitamos que você ative as Betas para esses recursos na sua organização. Agora, você pode optar por ativar um ou mais recursos do AI Beta disponíveis atualmente nas Preferências do sistema.
+
+Anteriormente, os recursos do Beta não podiam ser ativados por administradores do sistema.
+
+Para obter mais informações sobre como definir preferências do sistema, consulte [Configurar preferências do sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+Para obter os pré-requisitos para habilitar os recursos de IA, consulte [Pré-requisitos para o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+
 ## Atualizações no perfil de usuário do Workfront
 
 >[!NOTE]
@@ -27,7 +43,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 Atualizamos a aparência do perfil de usuário do Workfront para um design moderno consistente com outras áreas do Workfront. Essas atualizações se aplicam a um administrador que edita um único perfil ou que edita em massa vários perfis, ou a um usuário que edita seu próprio perfil.
 
-Há pequenas diferenças de funcionalidade em relação ao perfil de usuário atual, incluindo:
+Existem algumas pequenas diferenças de funcionalidade em relação ao perfil de usuário atual, incluindo:
 
 * Algumas caixas de seleção (como marcar o usuário como ativo) foram alteradas para alternâncias ou botões.
 * A opção &quot;Enviar trabalho que eu atribuo a mim mesmo para minha guia Trabalhando em&quot;, em Preferências, foi removida porque se refere a um recurso obsoleto.
