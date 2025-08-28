@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: cb9a6536c4995080887032aa84539eff040338f8
+source-git-commit: 6b93a6d7830d644520c38aa6010cd7df18c5a667
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 4%
@@ -132,16 +132,16 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td>Permite optar por habilitar ou desabilitar a experiência da lista de trabalho de prioridades para seus usuários. Os usuários ainda verão os ícones de Prioridades no Workfront, mas não terão acesso à funcionalidade. Para obter mais informações sobre prioridades, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introdução às prioridades</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader">Ativar IA </td> 
-      <td>Permite optar por ativar a IA, incluindo o Assistente de IA. <p><b>Observação</b>: sua organização deve atender aos requisitos específicos para habilitar a IA. Para obter mais informações sobre IA, incluindo os requisitos, consulte <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Visão geral do Assistente de IA</a>.</p></td> 
+      <td role="rowheader"><span class="preview">Habilitar IA</span> </td> 
+      <td><span class="preview">Permite optar por ativar a IA, incluindo o Assistente de IA. <p><b>Observação</b>: sua organização deve atender aos requisitos específicos para habilitar a IA. Para obter mais informações sobre IA, incluindo os requisitos, consulte <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Visão geral do Assistente de IA</a>.</p></span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Preenchimento automático de formulário </td> 
-      <td>Permite que você opte por ativar a capacidade de preencher formulários de solicitação automaticamente com base em dados de solicitação anteriores. Para obter mais informações sobre o Preenchimento Automático de Formulário, consulte <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Preencher automaticamente uma solicitação a partir de dados anteriores</a>.</td> 
+      <td role="rowheader"><span class="preview">Preenchimento automático de formulário </span></td> 
+      <td><span class="preview">Permite que você opte por ativar a capacidade de preencher formulários de solicitação automaticamente com base em dados de solicitação anteriores. Para obter mais informações sobre o Preenchimento Automático de Formulário, consulte <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Preencher automaticamente uma solicitação a partir de dados anteriores</a>.</span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Aceitar o AI Betas </td> 
-      <td>Permite optar por ativar os recursos de IA que estão atualmente no Beta. Se você habilitar essa opção, poderá selecionar quais recursos do AI Beta devem ser habilitados. Para obter mais informações sobre cada recurso do AI Beta, clique no ícone de informações ao lado desse recurso.</td> 
+      <td role="rowheader"><span class="preview">Aceitar o AI Betas </span></td> 
+      <td><span class="preview">Permite optar por ativar os recursos de IA que estão atualmente no Beta. Se você habilitar essa opção, poderá selecionar quais recursos do AI Beta devem ser habilitados. Para obter mais informações sobre cada recurso do AI Beta, clique no ícone de informações ao lado desse recurso.</span></td> 
      </tr>
      <tr> 
       <td role="rowheader">Ambientes de Teste</td> 
