@@ -8,7 +8,7 @@ description: Como administrador do  [!DNL Workfront Proof] você pode escolher o
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca585494-5cda-4c41-b9b2-908e24d210d6
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+source-git-commit: 3a938714a948ca7681dfd7deaf924af6453dee58
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 2%
@@ -28,14 +28,14 @@ Como administrador do [!DNL Workfront Proof], você pode escolher o idioma a ser
 [!DNL Workfront Proof] está disponível nos seguintes idiomas:
 
 * Inglês (EUA/Reino Unido)
-* Brasileiro (Português)
-* Chinese
+* Português do Brasil
+* Chinês
 * Holandês
 * Francês
 * Alemão
-* Japonês
+* japonês
 * Norueguês
-* Espanhol
+* espanhol
 * Sueco
 
 ## Alterar o Idioma Padrão em [!UICONTROL Configurações da Conta]
@@ -46,7 +46,7 @@ Para alterar o idioma padrão da sua conta, siga as etapas abaixo.
 
 1. Na seção **[!UICONTROL Detalhes da conta]**, clique em **[!UICONTROL Editar]** para as configurações de **[!UICONTROL Idioma padrão]**.
 
-1. No menu suspenso, selecione o idioma padrão.\
+1. No menu suspenso, selecione o idioma padrão.
    ![account_language_setting.png](assets/account-language-setting-350x230.png)
 
 1. Clique em **[!UICONTROL Salvar].**
@@ -69,9 +69,9 @@ Você pode adicionar comentários usando um alfabeto que difere do idioma padrã
 Você pode escolher entre os seguintes alfabetos:
 
 * Script latino
-* Chinese
-* Coreano
-* Japonês
+* Chinês
+* coreano
+* japonês
 * Cirílico
 * Hebraico
 * Árabe
