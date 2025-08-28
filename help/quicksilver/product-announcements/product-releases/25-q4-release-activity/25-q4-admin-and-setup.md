@@ -4,9 +4,10 @@ description: Aprimoramentos do administrador no quarto trimestre de 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0687c93dfc9b49379fd9592791e4b814f06a7ba1
+exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
+source-git-commit: 1b8a09028136d858fbf4de9f8b4b35165c6b6d25
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,22 @@ ht-degree: 0%
 Esta página descreve as melhorias de Administrador feitas com a versão do Quarto trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2025, consulte [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Atualizações no perfil de usuário do Workfront
+
+>[!NOTE]
+>
+>* Visualização: 28 de agosto de 2025
+>* Produção para todos os clientes: 4 de setembro de 2025
+
+Atualizamos a aparência do perfil de usuário do Workfront para um design moderno consistente com outras áreas do Workfront. Essas atualizações se aplicam a um administrador que edita um único perfil ou que edita em massa vários perfis, ou a um usuário que edita seu próprio perfil.
+
+Há pequenas diferenças de funcionalidade em relação ao perfil de usuário atual, incluindo:
+
+* Algumas caixas de seleção (como marcar o usuário como ativo) foram alteradas para alternâncias ou botões.
+* A opção &quot;Enviar trabalho que eu atribuo a mim mesmo para minha guia Trabalhando em&quot;, em Preferências, foi removida porque se refere a um recurso obsoleto.
+
+Para obter mais informações, consulte [Editar perfil de usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Adicionar várias opções de valor de uma API externa a um formulário personalizado
 
