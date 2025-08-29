@@ -4,10 +4,11 @@ title: Usar listas aprimoradas
 description: As listas aprimoradas usam um formato de tabela para exibir os itens de lista e têm uma aparência diferente das listas padrão
 author: Lisa
 feature: Get Started with Workfront
-source-git-commit: 8e88db186c574ea57dd609301b816d57636b125b
+exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 0%
+source-wordcount: '1124'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 {{preview-fast-release-general}}
 
-As listas aprimoradas estão disponíveis em algumas áreas do Adobe Workfront. Essas listas usam um formato de tabela para exibir os itens de lista e têm uma aparência diferente das listas padrão.
+As listas aprimoradas estão disponíveis em algumas áreas do Adobe Workfront. Essas listas usam um formato de tabela para exibir os itens de lista e têm uma aparência diferente das listas padrão. O gerenciamento de visualizações também é aprimorado, incluindo filtragem, agrupamento, gerenciamento de colunas e pesquisa.
 
 Para obter informações sobre as listas padrão, consulte [Introdução a listas no Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -67,7 +68,22 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 Dependendo da configuração da lista aprimorada, pode haver duas maneiras de adicionar um item à lista:
 
 * Clique em um botão acima da lista. Essa opção abre uma caixa de diálogo onde você insere informações e as salva.
-* Clique em **Nova linha** na parte inferior da lista. Essa opção adiciona uma nova linha à tabela e você insere informações em cada célula. Se uma célula estiver limitada a um conjunto de dados específico (como um nome de moeda), talvez seja solicitado que você escolha em uma lista ou pesquise o nome.
+* Clique em **Nova linha** na parte inferior da lista. Essa opção adiciona uma nova linha à tabela e você insere informações em cada célula.
+
+  As listas aprimoradas são compatíveis com estes tipos de campo:
+
+   * Texto
+   * Número
+   * Moeda
+   * Data
+   * Data e hora
+   * Menus suspensos de seleção única/múltipla
+   * Typeahead
+   * Parágrafo
+   * Destinatário (um ou vários)
+   * Seletor de cores
+
+  Ao editar uma célula, cada tipo de campo tem suas próprias opções de edição.
 
 Para editar um item na lista, clique duas vezes na célula que deseja editar e digite as informações. Algumas células podem ser somente leitura.
 
@@ -77,13 +93,19 @@ Para editar um item na lista, clique duas vezes na célula que deseja editar e d
 
 Quando você marca a caixa de seleção ao lado de um item na lista aprimorada, a barra de ação aparece na parte inferior da tela e mostra as ações que você pode realizar no item. Algumas ações podem ser específicas dessa lista e não aparecem em nenhuma outra lista.
 
-Clique em um botão na barra de ações para realizar essa ação, como visualizar o item da lista, excluir o item ou torná-lo o item padrão.
+>[!NOTE]
+>
+>Várias listas aprimoradas podem permitir a seleção de um único item, a edição em massa (seleção de mais de um item) ou nenhuma seleção de item.
+
+Clique em um botão na barra de ações para realizar essa ação, como visualizar o item da lista, excluir o item ou editar o item.
 
 Se nenhuma ação estiver disponível para o item selecionado, a barra de ação indicará &quot;Nenhuma ação disponível&quot;.
 
 ![Exemplo da barra de ações](assets/glist-action-bar-exchange-rates.png)
 
-O menu **Mais** é o menu de três pontos que aparece ao lado de um item da lista quando você passa o mouse sobre ele. Clique no menu para ver as ações adicionais do item. Algumas ações podem ser específicas dessa lista e não aparecem em nenhuma outra lista.
+O menu **Mais** é o menu de três pontos que aparece ao lado de um campo principal em um item da lista quando você passa o mouse sobre ele. (O campo principal é a coluna mais à esquerda da tabela.)
+
+Clique no menu para ver as ações adicionais do item. Algumas ações podem ser específicas dessa lista e não aparecem em nenhuma outra lista.
 
 ![Mais exemplo de menu](assets/glist-more-menu-exchange-rates.png)
 
@@ -100,7 +122,9 @@ Algumas listas aprimoradas permitem ocultar e exibir colunas e reordenar as colu
 
    >[!NOTE]
    >
-   >Um campo pode ser sempre exibido ou fixado na primeira posição e você não pode alterar sua coluna.
+   >O campo principal é a coluna mais à esquerda da tabela. Ela é fixada na primeira posição e não é possível alterar sua coluna. Se o número de colunas for grande, o campo principal é congelado à esquerda e, ao rolar a tela horizontalmente, você sempre o verá.
+   >
+   >O ícone ao lado de um nome de campo mostra o tipo de campo, como texto ou campo de data.
 
    <span class="preview">Um indicador aparece no botão **Colunas** quando as colunas estão ocultas. O indicador não aparece ao reordenar colunas.</span>
 
@@ -150,7 +174,7 @@ Para classificar colunas individuais, vá para a coluna e clique na seta para ba
 
 >[!NOTE]
 >
->Se a lista tiver um item padrão, esse item sempre será o primeiro na lista, independentemente de como a lista é classificada.
+>Algumas colunas podem não ser classificáveis.
 
 ![Classificar por uma coluna](assets/glist-sort-by-column.png)
 

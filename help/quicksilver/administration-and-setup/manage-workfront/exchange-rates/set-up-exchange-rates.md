@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '650'
 ht-degree: 2%
 
 ---
@@ -89,6 +89,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    * Passe o mouse sobre o nome da moeda e clique no menu **Mais** que aparece. Em seguida, selecione **Tornar Padrão**.
 
      A nova moeda padrão é atualizada com o ícone.
+
+     >[!NOTE]
+     >
+     >A moeda padrão sempre aparece primeiro na lista, independentemente de como a lista é classificada.
 
 1. (Opcional) Para excluir uma moeda, marque a caixa de seleção ao lado do nome da moeda e selecione **Excluir** na barra de ações na parte inferior da tela. Não é possível excluir a moeda padrão.
 
