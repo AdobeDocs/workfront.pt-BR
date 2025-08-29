@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
+source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
 workflow-type: tm+mt
-source-wordcount: '7449'
+source-wordcount: '7469'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,10 @@ Para obter informações, consulte os seguintes artigos:
 
 **Versão de visualização: 21 de agosto de 2025; Versão de produção: 28 de agosto de 2025**
 
+>[!NOTE]
+>
+>Esse recurso foi removido temporariamente do ambiente de Produção do.
+
 Atualizamos a aparência da caixa Novo tópico da fila ao adicionar um novo tópico da fila a um projeto ou modelo, para corresponder ao design de outras áreas do Workfront.
 
 Para obter informações, consulte [Criar tópicos da fila](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -187,6 +191,10 @@ Para obter informações, consulte [Criar tópicos da fila](/help/quicksilver/ma
 ### Atualizações de interface ao editar um Tópico da fila em um projeto ou modelo
 
 **Versão de visualização: 21 de agosto de 2025; Versão de produção: 28 de agosto de 2025**
+
+>[!NOTE]
+>
+>Esse recurso foi removido temporariamente do ambiente de Produção do.
 
 Atualizamos a experiência ao editar um Tópico da fila em projetos e modelos para corresponder a outras áreas do Workfront.
 
