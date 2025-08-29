@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Para obter informações sobre como criar registros, consulte [Criar registros](
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td> <p>Padrão</p> 
+   <td> <p>Standard</p> 
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -95,7 +95,7 @@ Para obter informações sobre como criar registros, consulte [Criar registros](
 
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 
 ## Considerações sobre a edição de registros
@@ -106,6 +106,10 @@ Para obter informações sobre como criar registros, consulte [Criar registros](
    * A visualização do registro em uma exibição de registro
    * A página de detalhes do registro
    * Em linha, em uma exibição de tabela.
+<!--* You can edit a record's dates from the following areas:
+    * All areas listed above
+    * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
 
 * Quando um usuário edita um registro em uma exibição, as alterações são visíveis imediatamente em todas as exibições e nas páginas de registro para todos os outros usuários.
 

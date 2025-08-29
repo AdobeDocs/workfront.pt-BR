@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2618'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -163,11 +163,9 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
      <tr> 
       <td role="rowheader">Descrição</td> 
       <td> <p>Inclua informações adicionais sobre o problema.</p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">Seção de informações básicas</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Status</td> 
       <td> <p>Selecione o status da ocorrência. Para obter mais informações sobre status de problemas, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Acessar a lista de status de problemas do sistema</a>. </p> </td> 
      </tr> 
@@ -192,8 +190,24 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
         <li> <p style="font-weight: bold;">Problema Sem Solução</p> </li> 
         <li> <p style="font-weight: bold;">Erro Fatal</p> </li> 
        </ul> <p>Dependendo das Preferências do projeto selecionadas pelo administrador do Workfront, os nomes das severidades podem ser diferentes para você. Para obter mais informações sobre como editar severidades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">Criar ou personalizar severidades de problemas</a>.</p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader">Condição do problema</td> 
+   <td> <p>A Condição de um problema é um sinalizador colocado nele para indicar como ele está indo.</p> 
+   <p>Você pode definir a Condição de uma tarefa ou um problema de forma automática ou manual.</p>
+   <p>Você deve ser atribuído ao problema para alterar sua condição.</p>
+   <p>Selecione entre as seguintes opções:</p> 
+      <ul> 
+   <li> <p style="font-weight: bold;">Indo Bem</p> </li> 
+   <li> <p style="font-weight: bold;">Algumas Dificuldades</p> </li> 
+   <li> <p style="font-weight: bold;">Com Problemas</p> </li> 
+   </ul> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Digite um link da Web relacionado às informações sobre o problema.</p> </td> 
      </tr> 
