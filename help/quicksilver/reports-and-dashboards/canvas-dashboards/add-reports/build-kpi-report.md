@@ -6,9 +6,9 @@ description: Um relatório de KPI que exibe de forma destacada um único KPI agr
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Para obter mais informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
+>>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>
+>* Traga sua própria chave para o Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 É possível criar e adicionar um relatório de KPI a um Painel da tela que representa visualmente seus dados principais do indicador de desempenho como um número, que você pode usar para ver como seus projetos e equipes estão se saindo.
 
 ![Exemplo de relatório de KPI](assets/kpi-example-main.png)
+
+## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso. 
 
@@ -107,6 +114,8 @@ Há muitas opções de configuração disponíveis para criar um relatório de K
 
    1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.
 
+      Para obter mais informações sobre filtros, consulte [Editar filtros de relatório em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+
 1. Siga as etapas abaixo para configurar a seção **Configurações de Coluna de Detalhamento**:
 
    1. No painel esquerdo, clique no ícone **Colunas de Detalhamento** ![Colunas de Detalhamento](assets/drilldown-column.png). Os campos do gráfico aparecem automaticamente como colunas na seção de visualização à direita.
@@ -174,5 +183,37 @@ Para obter mais informações sobre exemplos de relatório de KPI, consulte [Cri
    1. Deixe o operador como **Igual** e digite _revisão pendente_ na caixa de texto.
       ![Exemplo de filtro de kpi pendente](assets/pending-kpi-filter.png)
 1. Clique em **Salvar** no canto superior direito da tela.
+
+## Considerações ao criar um relatório de KPI
+
+### Utilização do seletor de campos
+
+O menu suspenso **Seções** da seção **Criar KPI** foi projetado para restringir as opções em um seletor de campos para facilitar a localização de um objeto ao criar um relatório de tabela. Para iniciar, você selecionaria um objeto de entidade base.
+
+* **Todas as Seções**: todos os tipos de objetos no Workfront Workflow e no Workfront Planning.
+* **Objetos Workfront**: objetos de Fluxo de Trabalho Workfront nativos.
+* **Tipos de Registro do Planning**: tipos de registro personalizados definidos no Workfront Planning.
+
+![Menu suspenso de seções](assets/sections-dropdown.png)
+
+Depois que o objeto de entidade base for selecionado, o menu suspenso **Seções** será atualizado com as opções de tipo de campo aplicáveis.
+
+* **Todas as Seções**: campos nativos, campos personalizados e objetos relacionados.
+* **Todos os campos**: campos nativos e personalizados (exclui relações).
+* **Campos Personalizados**: campos definidos pelo cliente em um formulário personalizado ou em um registro do Planning.
+* **Campos do Workfront**: somente campos nativos.
+* **Relações**: registros conectados.
+
+![Seleção de objetos relatáveis](assets/reportable-objects-selection.png)
+
+### Fazendo referência a objetos filho
+
+Os relacionamentos disponíveis para colunas adicionais, opções de filtro e atributos de agrupamento geralmente são limitados a objetos superiores na hierarquia de objetos do Workfront ou têm uma única seleção no objeto de entidade base do relatório. Há algumas exceções a isso, que incluem:
+
+* Projeto > Tarefas
+* Aprovação de documento > Estágios de aprovação de documento
+* Estágios de aprovação de documento > Participantes do estágio de aprovação de documento
+
+Ao utilizar qualquer uma das relações pai-filho listadas acima, você verá uma linha na tabela para cada registro filho conectado ao objeto pai.
 
 

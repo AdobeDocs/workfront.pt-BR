@@ -6,9 +6,9 @@ description: Um relatório de gráfico que visualiza seus dados como um gráfico
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Para obter mais informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
+>>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>
+>* Traga sua própria chave para o Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Você pode criar e adicionar um relatório de gráfico a um Painel da Tela de Pintura para visualizar seus dados como um gráfico de barras, colunas, linhas ou pizza.
 
 ![Relatório de gráfico](assets/chart-report-main.png)
 
-+++ Expanda para visualizar os requisitos de acesso.
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +97,7 @@ Há muitas opções de configuração disponíveis para criar um relatório de g
 
       >[!NOTE]
       >
-      >Há um número máximo de séries que podem ser exibidas em um gráfico. Quando esta caixa estiver marcada, todas as séries acima do limite serão consolidadas em um agrupamento **Outro** no gráfico.
+      >É possível exibir um número máximo de 60 séries em um gráfico. Quando esta caixa estiver marcada, todas as séries acima do limite serão consolidadas em um agrupamento **Outro** no gráfico.
 
 1. Siga as etapas abaixo para configurar a seção **Criar gráfico**:
 
@@ -204,6 +211,8 @@ Nesta seção, veremos as etapas para criar um gráfico de colunas que mostra as
 
    1. Insira *$$TODAY* no campo avaliador.
 
+      Para obter mais informações sobre curingas, consulte a seção Variáveis de filtro de curingas com base em data no artigo [Editar filtros de relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+
       ![Campo avaliador](assets/add-condition.png)
 
 1. Siga as etapas abaixo para configurar a seção **Configurações de Coluna de Detalhamento**:
@@ -227,3 +236,35 @@ Nesta seção, veremos as etapas para criar um gráfico de colunas que mostra as
    1. Clique no botão **Adicionar agrupamento** e selecione o campo **Projeto** > **Nome**.
 
 1. Clique em **Salvar** para criar o relatório e adicioná-lo ao painel.
+
+## Considerações ao criar um relatório de gráfico
+
+### Utilização do seletor de campos
+
+O menu suspenso **Seções** da seção **Gráfico de compilação** foi criado para restringir as opções em um seletor de campos para facilitar a localização de um objeto ao criar um relatório de tabela. Para iniciar, você selecionaria um objeto de entidade base.
+
+* **Todas as Seções**: todos os tipos de objetos no Workfront Workflow e no Workfront Planning.
+* **Objetos Workfront**: objetos de Fluxo de Trabalho Workfront nativos.
+* **Tipos de Registro do Planning**: tipos de registro personalizados definidos no Workfront Planning.
+
+![Menu suspenso de seções](assets/sections-dropdown.png)
+
+Depois que o objeto de entidade base for selecionado, o menu suspenso **Seções** será atualizado com as opções de tipo de campo aplicáveis.
+
+* **Todas as Seções**: campos nativos, campos personalizados e objetos relacionados.
+* **Todos os campos**: campos nativos e personalizados (exclui relações).
+* **Campos Personalizados**: campos definidos pelo cliente em um formulário personalizado ou em um registro do Planning.
+* **Campos do Workfront**: somente campos nativos.
+* **Relações**: registros conectados.
+
+![Seleção de objetos relatáveis](assets/reportable-objects-selection.png)
+
+### Fazendo referência a objetos filho
+
+Os relacionamentos disponíveis para colunas adicionais, opções de filtro e atributos de agrupamento geralmente são limitados a objetos superiores na hierarquia de objetos do Workfront ou têm uma única seleção no objeto de entidade base do relatório. Há algumas exceções a isso, que incluem:
+
+* Projeto > Tarefas
+* Aprovação de documento > Estágios de aprovação de documento
+* Estágios de aprovação de documento > Participantes do estágio de aprovação de documento
+
+Ao utilizar qualquer uma das relações pai-filho listadas acima, você verá uma linha na tabela para cada registro filho conectado ao objeto pai.

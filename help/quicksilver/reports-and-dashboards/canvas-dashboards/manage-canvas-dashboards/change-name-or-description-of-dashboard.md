@@ -5,10 +5,11 @@ title: Alterar o nome ou a descrição de um Painel da Tela de Pintura
 description: Você pode editar o nome ou a descrição de um Painel da Tela de Pintura após sua criação.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 1%
+source-wordcount: '297'
+ht-degree: 2%
 
 ---
 
@@ -16,14 +17,21 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Para obter mais informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
+>>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>
+>* Traga sua própria chave para o Amazon Web Services
+>* Azure
+>* Google Cloud Platform
+
 
 Você pode editar o nome ou a descrição de um Painel da Tela de Pintura após sua criação.
 
 Quaisquer alterações feitas em um painel afetarão todos os usuários que tiverem acesso a ele.
 
+## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,6 +78,10 @@ Para obter mais informações, consulte [Criar um Painel da Tela](/help/quicksil
 
 ## Alterar o nome e a descrição de um painel
 
+>[!NOTE]
+>
+>Os usuários com os quais você compartilhou um Painel de controle do Canvas poderão ver seu nome e descrição na lista de inventário dos Painéis de controle do Canvas e na seção de detalhes do painel.
+
 {{step1-to-dashboards}}
 
 1. No painel esquerdo, clique em **Painéis do Canvas**.
@@ -83,4 +95,6 @@ Para obter mais informações, consulte [Criar um Painel da Tela](/help/quicksil
 1. Insira uma nova **Descrição**.
 
 1. Clique em **Salvar**.
+
+
 

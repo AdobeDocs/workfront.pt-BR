@@ -6,9 +6,9 @@ description: Você pode compartilhar um painel do Canvas com outros usuários do
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Para obter mais informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
+>>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>
+>* Traga sua própria chave para o Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Você pode compartilhar um painel do Canvas com outros usuários do Adobe Workfront para que eles possam visualizá-lo ou editá-lo.
 
-+++ Expanda para visualizar os requisitos de acesso.
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso. 
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -44,13 +51,14 @@ Você pode compartilhar um painel do Canvas com outros usuários do Adobe Workfr
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurações de nível de acesso</p></td> 
-   <td><p>Editar acesso a relatórios, painéis e calendários</p>
+   <td><p>Visualizar acesso a relatórios, painéis e calendários</p>
   </td> 
   </tr>  
     </tr>  
         <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td><p>Gerenciar permissões do painel</p>
+   <td><p>Exibir permissões para o painel compartilhar o painel</p>
+   <p>Gerenciar permissões para que o painel atribua permissões de painel</p>
   </td> 
   </tr>
 </tbody> 
@@ -61,13 +69,17 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Considerações sobre o compartilhamento de painéis
 
-* Por padrão, o criador de um painel tem Permissões de gerenciamento para ele.
+* Os painéis podem ser compartilhados com usuários, equipes, grupos, funções de trabalho ou recursos da empresa.
 
-* Você pode compartilhar painéis que cria com outros indivíduos, equipes, grupos, funções de trabalho ou empresas. Você também pode compartilhar painéis que outras pessoas criaram e compartilharam anteriormente com você.
+* Por padrão, o criador de um painel tem Permissões de gerenciamento para o painel.
 
-* Por padrão, quando você compartilha um painel, os usuários herdam permissões de Exibição para todos os objetos de relatórios no painel, a menos que a permissão seja atualizada antes do compartilhamento.
+* Administradores de sistema e usuários com permissão Gerenciar podem conceder acesso a Exibir ou Gerenciar a um painel.
 
-* Se você tiver permissões de visualização em um painel, ainda poderá compartilhar o painel, mas não poderá atribuir uma permissão superior a Visualizar aos destinatários.
+* Os usuários com permissão de Exibição em um painel podem conceder acesso de Exibição a um painel.
+
+* Ao compartilhar um painel, os recursos com os quais ele é compartilhado herdarão permissões para os relatórios exibidos no painel.
+
+* Quando um painel é distribuído por meio de um modelo de layout, uma permissão de Exibição automática para o painel (e seus relatórios) é concedida a todos os recursos atribuídos ao modelo de layout.
 
 
 ## Compartilhar um painel da tela
@@ -83,16 +95,18 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. No campo **Conceder acesso a**, comece digitando o nome de um usuário, equipe, função, grupo ou empresa específico com o qual deseja compartilhar o Painel da Tela, em seguida, selecione-o quando ele aparecer na lista suspensa.
 
-1. (Opcional) Para editar o acesso de um usuário ao painel, clique em **Exibir** próximo ao seu nome e selecione **Gerenciar** na lista suspensa exibida.
+1. (Opcional) Para editar o acesso de um recurso ao painel, clique em **Exibir** ao lado do nome e selecione **Gerenciar** na lista suspensa exibida.
 
    >[!NOTE]
    >
-   >Alguns usuários não podem ter seus níveis de acesso alterados (por exemplo, administradores).
+   > Quando os usuários não têm as permissões Editar para um painel atribuído por meio de seu nível de acesso, elas não podem receber as permissões Gerenciar para um painel.
 
-1. Repita as etapas 5 a 6 para cada usuário com o qual deseja compartilhar o painel.
+1. Repita as etapas 5 a 6 para cada recurso com o qual deseja compartilhar o painel.
 
 1. Clique no botão **Compartilhar**. Os destinatários recebem uma notificação por email informando que o painel foi compartilhado com eles, que agora eles podem acessar em **Painéis** > **Painéis do Canvas** > **Painéis compartilhados**.
 
    >[!NOTE]
    >
-   >As preferências individuais do usuário e exclusões de sistema para notificações por email podem ser aplicadas.
+   > As preferências individuais do usuário e exclusões de sistema para notificações por email podem ser aplicadas. <br>
+   > As notificações só são enviadas quando compartilhadas diretamente com um usuário. O compartilhamento para grupos, funções, empresas e equipes não gera notificações por email.<br>
+   > As permissões herdadas de um modelo de layout não gerarão uma notificação por email sobre o acesso ao painel.

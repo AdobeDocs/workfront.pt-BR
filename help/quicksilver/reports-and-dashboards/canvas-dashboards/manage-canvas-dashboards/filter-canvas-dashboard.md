@@ -5,9 +5,10 @@ title: Filtrar um painel da tela
 description: Você pode aplicar um filtro a um Painel da tela de desenho depois de ele ter sido criado.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
+exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -16,9 +17,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Para obter mais informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
+>>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>
+>* Traga sua própria chave para o Amazon Web Services
+>* Azure
+>* Google Cloud Platform
+
 
 É possível aplicar um filtro a um Painel da tela de desenho que contenha prompts. Um prompt funciona como um modificador de filtro que aplica critérios de filtragem adicionais para que você possa restringir ainda mais seus resultados. Esses prompts podem ser modificados toda vez que você aplicar o filtro, permitindo ajustar os resultados exibidos sem precisar editar os principais critérios de filtro do painel ou de cada relatório individual.
+
+## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso. 
 

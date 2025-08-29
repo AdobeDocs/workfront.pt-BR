@@ -6,9 +6,9 @@ description: É possível adicionar um relatório de tabela a um Painel da tela 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 72344e5c1607ba6b4dd2a1e71a462bba93369b27
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '1045'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Para obter mais informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
+>>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>
+>* Traga sua própria chave para o Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 É possível adicionar um relatório de tabela a um Painel da tela para visualizar seus dados em formato de tabela.
 
 ![Exemplo de relatório de tabela](assets/table-example-main.png)
+
+## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso. 
 
@@ -60,6 +67,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Você deve criar um painel antes de criar um relatório de tabela.
 
+
 ## Criar um relatório de tabela em um painel da tela
 
 Há muitas opções de configuração disponíveis para criar um relatório de tabela. Nesta seção, guiaremos você pelo processo geral de criação de um.
@@ -91,6 +99,8 @@ Há muitas opções de configuração disponíveis para criar um relatório de t
    1. No painel esquerdo, clique no ícone **Colunas da tabela** ![Criar tabela](assets/drilldown-column.png).
 
    1. Clique em **Adicionar coluna** e selecione o campo que deseja exibir como uma coluna na tabela. A coluna é exibida na seção de visualização à direita.
+
+
 
    1. Repita a etapa acima para cada coluna que deseja adicionar.
 
@@ -190,3 +200,35 @@ Para obter mais informações sobre exemplos de relatório de tabela, consulte [
       ![exemplo de filtro de tabela de aprovação pendente](assets/pending-approval-table-filter.png)
    1. (Opcional) Adicione mais filtros conforme descrito na seção **Filtros opcionais** abaixo.
 1. Clique em **Salvar** no canto superior direito da tela.
+
+## Considerações ao criar um relatório de tabela
+
+### Utilização do seletor de campos
+
+O menu suspenso **Seções** na seção **Tabela de compilação** foi criado para restringir as opções em um seletor de campos para facilitar a localização de um objeto ao criar um relatório de tabela. Para iniciar, você selecionaria um objeto de entidade base.
+
+* **Todas as Seções**: todos os tipos de objetos no Workfront Workflow e no Workfront Planning.
+* **Objetos Workfront**: objetos de Fluxo de Trabalho Workfront nativos.
+* **Tipos de Registro do Planning**: tipos de registro personalizados definidos no Workfront Planning.
+
+![Menu suspenso de seções](assets/sections-dropdown.png)
+
+Depois que o objeto de entidade base for selecionado, o menu suspenso **Seções** será atualizado com as opções de tipo de campo aplicáveis.
+
+* **Todas as Seções**: campos nativos, campos personalizados e objetos relacionados.
+* **Todos os campos**: campos nativos e personalizados (exclui relações).
+* **Campos Personalizados**: campos definidos pelo cliente em um formulário personalizado ou em um registro do Planning.
+* **Campos do Workfront**: somente campos nativos.
+* **Relações**: registros conectados.
+
+![Seleção de objetos relatáveis](assets/reportable-objects-selection.png)
+
+### Fazendo referência a objetos filho
+
+Os relacionamentos disponíveis para colunas adicionais, opções de filtro e atributos de agrupamento geralmente são limitados a objetos superiores na hierarquia de objetos do Workfront ou têm uma única seleção no objeto de entidade base do relatório. Há algumas exceções a isso, que incluem:
+
+* Projeto > Tarefas
+* Aprovação de documento > Estágios de aprovação de documento
+* Estágios de aprovação de documento > Participantes do estágio de aprovação de documento
+
+Ao utilizar qualquer uma das relações pai-filho listadas acima, você verá uma linha na tabela para cada registro filho conectado ao objeto pai.

@@ -6,10 +6,10 @@ description: Os relatórios criados por meio da ferramenta Relatórios do Adobe 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 1%
 
 ---
 
@@ -17,11 +17,18 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Para obter mais informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
+>>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>
+>* Traga sua própria chave para o Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 Os relatórios criados por meio da ferramenta Relatórios do Adobe Workfront podem ser adicionados a um Painel de controle da tela. Para obter mais informações sobre como criar relatórios, consulte [Introdução aos relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
-+++ Expanda para visualizar os requisitos de acesso.
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,6 +63,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Adicionar um relatório existente a um painel da tela
 
+
 {{step1-to-dashboards}}
 
 1. No painel esquerdo, clique em **Painéis do Canvas**.
@@ -76,9 +84,15 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
      >[!NOTE]
      >
-     > Neste ponto da fase beta, o widget inicial **Todas as aprovações** é o único disponível. Essa lista será expandida à medida que o estágio beta avançar.
+     > Neste ponto da fase beta, o widget inicial **Métricas de aprovação de documentos** é o único widget disponível. Essa lista será expandida à medida que o estágio beta avançar.
 
 1. (Opcional) Para exibir os detalhes de um relatório antes de adicioná-lo ao painel, clique em **Exibir** de acordo com o relatório desejado.
 
 1. Clique em **Adicionar** alinhado com o relatório que você deseja adicionar.
+
+   >[!NOTE]
+   >
+   > Se quiser adicionar outro relatório existente a um painel após sua criação, clique no botão **Adicionar relatório** no canto superior direito da página de detalhes do painel e repita as etapas de 6 a 9.
+
+
 

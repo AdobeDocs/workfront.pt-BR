@@ -5,10 +5,11 @@ title: Adicionar um painel de tela de desenho a um modelo de layout
 description: É possível adicionar um Painel da tela de desenho a um modelo de layout para que ele substitua a página inicial de aterrissagem, apareça no painel esquerdo de um objeto ou seja fixado à barra superior.
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
+exl-id: 91ebcec5-99a4-4096-8d4e-b4ea31755d75
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 1%
+source-wordcount: '547'
+ht-degree: 2%
 
 ---
 
@@ -16,11 +17,18 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Para obter mais informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+>No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
+>>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>
+>* Traga sua própria chave para o Amazon Web Services
+>* Azure
+>* Google Cloud Platform
 
 É possível adicionar um Painel da tela de desenho a um modelo de layout para que ele substitua a página inicial de aterrissagem, apareça no painel esquerdo de um objeto ou seja fixado à barra superior em todo o Adobe Workfront.
 
 ![Painel esquerdo](assets/left-panel.png)
+
+## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso. 
 
