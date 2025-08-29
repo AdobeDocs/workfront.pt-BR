@@ -19,7 +19,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Forneça comentários](#provide-feedback) abaixo.<br>
->>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>&#x200B;>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
