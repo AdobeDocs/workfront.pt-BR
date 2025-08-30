@@ -7,7 +7,7 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Forneça comentários](#provide-feedback) abaixo.<br>
->&#x200B;>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -89,7 +89,7 @@ O feedback é apreciado à medida que desenvolvemos essa ferramenta ao longo do 
 
 1. Na página **Comentários sobre Beta dos Painéis do Canvas**, insira um **assunto do feedback** e **descrição do feedback**.
 
-1. (Opcional) Na seção **Outros detalhes**, selecione o tipo de atividade relacionado ao seu feedback no menu suspenso **Atividade de relatórios**.
+1. (Opcional) Na seção **Outros detalhes**, selecione o tipo de atividade que está relacionado ao seu feedback no menu suspenso **Atividade de relatório**.
 
 1. (Opcional) Selecione o tipo de objeto para o qual você está deixando comentários no menu suspenso **Tipo de objeto de relatório**.
 
