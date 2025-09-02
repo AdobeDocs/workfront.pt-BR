@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
+source-git-commit: e835f3721f8d732780ab199fd6da47f563004077
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1905'
 ht-degree: 4%
 
 ---
@@ -42,8 +42,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Aprimoramentos de documento e comprovação](#document-and-proofing-enhancements)
 * [Aprimoramentos na página inicial](#home-enhancements)
 * [Aprimoramentos do projeto](#project-enhancements)
-* [Melhorias nas solicitações](#requests-enhancements)
 * [Melhorias no gerenciamento de recursos](#resource-management-enhancements)
+* [Melhorias nas solicitações](#requests-enhancements)
 * [Outras melhorias](#other-enhancements)
 
 ### Melhorias do administrador
@@ -175,36 +175,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-### Melhorias nas solicitações
-
-<table style="table-layout:auto">
-  <tbody>
-   <tr>
-        <td><strong>Recurso</strong>
-        </td>
-        <td><strong>Visualização</strong></td>
-        <td><strong>Lançamento rápido</strong></td>
-        <td><strong>Trimestralmente</strong></td>
-    </tr>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Atualizações para a experiência de Solicitação</a><p></p>
-            <p>Para criar uma melhor experiência do usuário ao fazer solicitações no Workfront e no Workfront Planning, atualizamos a experiência de solicitação. Agora é possível:
-            <ul>
-                <li>Exiba as solicitações do Workfront e do Workfront Planning em uma única lista.</li>
-                <li>Filtrar solicitações enviadas com base nos critérios especificados.</li>
-                <li>Procure e selecione filas de solicitações do Workfront e formulários do Workfront Planning em uma experiência consolidada.</li>
-                <li>Ocultar e reordenar colunas na lista de solicitações enviadas.</li>
-            </ul>
-            </p>
-        </td>
-        <td>sexta-feira, 21 de agosto de 2025</td>
-        <td>sexta-feira, 11 de setembro de 2025</td>
-        <td>sexta-feira, 16 de outubro de 2025</td>
-    </tr>     
-  </tbody>
-</table>
-
 ### Aprimoramentos do projeto
 
 <table style="table-layout:auto">
@@ -280,6 +250,45 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </td>
         <td>sexta-feira, 31 de julho de 2025</td>
         <td>sexta-feira, 14 de agosto de 2025</td>
+        <td>sexta-feira, 16 de outubro de 2025</td>
+    </tr>     
+  </tbody>
+</table>
+
+### Melhorias nas solicitações
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Recurso</strong>
+        </td>
+        <td><strong>Visualização</strong></td>
+        <td><strong>Lançamento rápido</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Nova coluna de Status combinada na lista de Solicitações unificada</a><p></p>
+            <p>Para simplificar a experiência de solicitação unificada, a coluna Status agora exibe o Status da solicitação e o Status da aprovação, o que for aplicável a uma determinada solicitação.</p>
+        </td>
+        <td>sexta-feira, 28 de agosto de 2025</td>
+        <td>sexta-feira, 11 de setembro de 2025</td>
+        <td>sexta-feira, 16 de outubro de 2025</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Atualizações para a experiência de Solicitação</a><p></p>
+            <p>Para criar uma melhor experiência do usuário ao fazer solicitações no Workfront e no Workfront Planning, atualizamos a experiência de solicitação. Agora é possível:
+            <ul>
+                <li>Exiba as solicitações do Workfront e do Workfront Planning em uma única lista.</li>
+                <li>Filtrar solicitações enviadas com base nos critérios especificados.</li>
+                <li>Procure e selecione filas de solicitações do Workfront e formulários do Workfront Planning em uma experiência consolidada.</li>
+                <li>Ocultar e reordenar colunas na lista de solicitações enviadas.</li>
+            </ul>
+            </p>
+        </td>
+        <td>sexta-feira, 21 de agosto de 2025</td>
+        <td>sexta-feira, 11 de setembro de 2025</td>
         <td>sexta-feira, 16 de outubro de 2025</td>
     </tr>     
   </tbody>
@@ -389,7 +398,7 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API versão 20
 
@@ -401,7 +410,7 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
