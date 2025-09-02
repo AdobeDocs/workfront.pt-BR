@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
+source-git-commit: e82c1a122f7a11fda2210de75c5f62c5fbaa35f0
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1875'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| Lançamento mensal | Versão trimestral |
 >|----|----|
->| <ul><li>25.5 (maio de 2025)</li><li>25.6 (junho de 2025)</li><li>25.7 (julho de 2025)</li></ul> | <ul><li>25.7 (julho de 2025)</li></ul> |
+>| <ul><li>25.5 (15 de maio de 2025)</li><li>25.6 (12 de junho de 2025)</li><li>25.7 (17 de julho de 2025)</li></ul> | <ul><li>25.7 (17 de julho de 2025)</li></ul> |
 >
 >Observe que, para a versão final de cada trimestre (25.7 neste trimestre), os usuários na programação de lançamento rápido receberão o lançamento um dia antes.
 >
@@ -387,7 +387,7 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
