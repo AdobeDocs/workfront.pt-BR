@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
 source-wordcount: '5244'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=pt-BR ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -46,7 +46,7 @@ Para obter mais informações sobre campos do Workfront Planning, consulte [Vis�
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -89,7 +89,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Padrão </p>
+   <td><p> Standard </p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -108,7 +108,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Criar campos conectando tipos de registro
 
@@ -200,7 +200,7 @@ Para obter informações, consulte [Importar campos do Workfront](/help/quicksil
    * [Moeda](#currency)
    * [Caixa de seleção](#checkbox)
    * [Fórmula](#formula)
-   * [Pessoas](#people)
+   * [People](#people)
    * [Criado por](#created-by)
    * [Data de criação](#created-date)
    * [Modificado pela última vez por](#last-modified-by)
@@ -264,6 +264,14 @@ Os campos de parágrafo capturam informações alfanuméricas adicionais sobre u
 
 Você pode usar um campo de seleção múltipla para capturar informações adicionais em qualquer formato selecionando mais de uma opção em um menu suspenso.
 
+<!--
+>[!NOTE]
+>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's multi-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
+editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+>
+-->
+
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Multisseleção**.
 
    ![Tipo de campo de seleção múltipla](assets/multi-select-field-type.png)
@@ -292,6 +300,14 @@ Você pode usar um campo de seleção múltipla para capturar informações adic
 ### Seleção única {#single-select}
 
 Os campos de seleção única capturam informações adicionais em qualquer formato ao selecionar uma opção em um menu suspenso.
+
+<!--
+>[!NOTE]
+>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's single-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
+editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+>
+-->
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Seleção única**.
 
@@ -358,7 +374,7 @@ Os tipos de campo de número capturam informações em um formato de número.
 >Campos numéricos são exibidos como um tipo de campo Texto de linha única em um construtor de formulários de solicitação.
 >
 >No entanto, o formato do campo é preservado e os valores desses campos serão exibidos como números depois que a solicitação for enviada, no tipo de registro e na página de detalhes da solicitação.
->&#x200B;>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Número**.
@@ -388,7 +404,7 @@ Os tipos de campo Porcentagem capturam informações em um formato de número se
 >Os campos de porcentagem são exibidos como um tipo de campo de texto de linha única em um construtor de formulários de solicitação.
 >
 >No entanto, o formato do campo é preservado e os valores desses campos serão exibidos como porcentagens após o envio da solicitação, no tipo de registro e na página de detalhes da solicitação.
->&#x200B;>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Porcentagem**.
@@ -428,7 +444,7 @@ Os tipos de campo Moeda capturam as informações em um formato de número prece
 >Os campos de moeda são exibidos como um tipo de campo de texto de linha única em um construtor de formulários de solicitação.
 >
 >No entanto, o formato do campo é preservado e os valores desses campos serão exibidos como moeda após o envio da solicitação, no tipo de registro e na página de detalhes da solicitação.
->&#x200B;>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Moeda**.
 
@@ -537,7 +553,7 @@ Para obter mais informações, consulte [Visão geral dos campos da fórmula](/h
 
    O novo campo de fórmula é adicionado como uma coluna ao tipo de registro e seus valores podem ser associados a registros.
 
-### Pessoas
+### People
 
 Você pode usar o tipo de campo Pessoas para adicionar um usuário <!--, job role, or team--> a um registro. Este é um campo de digitação antecipada, e você pode adicionar somente usuários<!--, roles, or teams--> que já existem em sua instância do Workfront.
 

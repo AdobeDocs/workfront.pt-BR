@@ -4,9 +4,9 @@ description: Os tipos de registro são os tipos de objeto do Adobe Workfront Pla
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -44,48 +44,28 @@ Para obter informações, consulte [Configurar recursos entre espaços de trabal
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> Produtos</p> </td> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planejamento do Adobe Workfront<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
-   <td> 
-<p>Qualquer um dos seguintes planos da Workfront:</p> 
-<ul><li>Selecionar</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>O Workfront Planning não está disponível para planos herdados do Workfront</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Pacote de planejamento do Adobe Workfront*</p></td> 
-   <td> 
-<p>Qualquer </p> 
+<ul><li><p>Qualquer pacote do Workfront</p></li>
+E
+<li><p>Pacote do Planning Plus</p></li></ul>
+Ou:
+<ul><li><p>Qualquer pacote de fluxo de trabalho</p> </li>
+E
+<li><p>Planejamento do pacote Prime ou Ultimate</p></li></ul>
 <p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
-   <td> 
-<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Standard</p>
-   <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
-   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  </td> 
@@ -105,8 +85,9 @@ Considerações ao adicionar tipos de registro existentes de outro espaço de tr
 * Após adicionar o tipo de registro de outro espaço de trabalho, as seguintes informações também são adicionadas do tipo de registro existente:
 
    * Campos
-   * Registros
    * Gravar conexões
+
+* É possível exibir registros adicionados de outros espaços de trabalho, somente quando você tem permissões para esses espaços.
 
 * É possível editar o tipo de registro, incluindo seus campos, somente em seu espaço de trabalho original. Não é possível editá-lo nos espaços de trabalho em que foi adicionado.
 * Os registros adicionados de todos os espaços de trabalho estarão visíveis para todos os usuários que os acessarem de todos os espaços de trabalho, mesmo que eles sejam criados em um espaço de trabalho onde não tenham permissões.

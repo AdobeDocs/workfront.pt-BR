@@ -4,9 +4,9 @@ description: Você pode habilitar um tipo de registro para ser adicionado a outr
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1052'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Para obter informações, consulte um dos seguintes artigos:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.  
++++ Expanda para exibir os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -74,52 +74,32 @@ Para obter informações, consulte um dos seguintes artigos:
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> Produtos</p> </td> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planejamento do Adobe Workfront<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
-   <td> 
-<p>Qualquer um dos seguintes planos da Workfront:</p> 
-<ul><li>Selecionar</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>O Workfront Planning não está disponível para planos herdados do Workfront</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Pacote de planejamento do Adobe Workfront*</p></td> 
-   <td> 
-<p>Qualquer </p> 
+<ul><li><p>Qualquer pacote do Workfront</p></li>
+E
+<li><p>Pacote do Planning Plus</p></li></ul>
+Ou:
+<ul><li><p>Qualquer pacote de fluxo de trabalho</p> </li>
+E
+<li><p>Planejamento do pacote Prime ou Ultimate</p></li></ul>
 <p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
-   <td> 
-<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Standard</p>
-   <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
-   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -130,12 +110,15 @@ Para obter informações, consulte um dos seguintes artigos:
 ## Configurar tipos de registros centralizados
 
 <!--this is a UI term; don't change the title of this section-->
+<!--IMPORTANT: not sure if we can call these centralized yet - checking with Lilit as of Sept 2; you might need to revert this to what the screen shot shows below?????-->
 
-Como gerenciador de espaço de trabalho, você pode configurar um tipo de registro a ser adicionado a outros espaços de trabalho ao criar ou editar um tipo de registro.
+Como gerenciador de espaço de trabalho, você pode configurar um tipo de registro para ser um tipo de registro centralizado. Um tipo de registro centralizado pode ser adicionado a outros espaços de trabalho.
 
-Quando você configura a adição de um tipo de registro a outros espaços de trabalho, um gerenciador de espaço de trabalho pode importar o tipo de registro e todas as suas informações para um dos espaços de trabalho que gerenciam.
+Um gerenciador de espaço de trabalho pode adicionar um tipo de registro centralizado a um espaço de trabalho gerenciado por ele. Os campos originais do tipo de registro também são adicionados.
 
-Para configurar a adição de um tipo de registro a outro espaço de trabalho ao editar o tipo de registro:
+Os usuários podem adicionar registros a um tipo de registro centralizado a partir de qualquer espaço de trabalho ao qual tenham acesso para contribuir onde esse tipo de registro é adicionado, incluindo seu espaço de trabalho principal. Eles podem exibir somente registros do espaço de trabalho para os quais têm permissões.
+
+Para configurar a adição de um tipo de registro como um tipo de registro centralizado:
 
 {{step1-to-planning}}
 
@@ -181,6 +164,9 @@ Ou
      O campo Workspace exibe o espaço de trabalho de onde cada registro foi criado.
 
      Este campo é somente leitura e não pode ser excluído.
+1. (Opcional) Vá para outro espaço de trabalho e crie um tipo de registro usando um tipo de registro existente. Selecione o tipo de registro que você ativou nas etapas acima.
+
+   Para obter informações, consulte [Adicionar tipos de registros existentes](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
 
 ## Configurar tipos de registro conectáveis
 
@@ -222,6 +208,9 @@ Ou
    * O cartão de tipo de registro exibe um ícone de conexão entre espaços de trabalho ![ícone de conexão entre espaços de trabalho](assets/connect-from-other-workspaces-icon.png) para indicar que o tipo de registro está disponível para ser conectado de qualquer espaço de trabalho designado na sua configuração.
 
    O tipo de registro fica disponível para conexão a partir dos espaços de trabalho designados.
+1. (Opcional) Vá para outro espaço de trabalho e adicione uma conexão ao tipo de registro que você ativou para conectividade entre espaços de trabalho nas etapas acima.
+
+   Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 

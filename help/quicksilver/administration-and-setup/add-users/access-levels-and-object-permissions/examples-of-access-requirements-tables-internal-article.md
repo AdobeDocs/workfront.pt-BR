@@ -4,9 +4,9 @@ description: Este é um artigo interno para nossa equipe manter um inventário d
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
+source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '752'
 ht-degree: 2%
 
 ---
@@ -208,36 +208,59 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
 </col> 
 <tbody> 
 <tr> 
-<td> 
-   <p> Produtos</p> </td> 
-   <td> 
-   <p> Adobe Workfront</p>
-   </td> 
-  </tr>
-
-<tr> 
    <td role="rowheader"><p>Pacotes Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer pacote de fluxo de trabalho do Adobe Workfront e qualquer pacote do Adobe Workfront Planning</p> 
+<ul><li><p>Qualquer pacote do Workfront</p></li>
+E
+<li><p>Qualquer pacote do Planning</p></li></ul>
+Ou
+<ul><li><p>Qualquer pacote de fluxo de trabalho</p></li>
+E
+<li><p>Qualquer pacote do Planning</p></li></ul>
    </td> </tr>
-<td role="rowheader"><p>Plataforma Adobe Workfront (**&#x200B;**&#x200B;queremos chamar isso ou simplesmente incluí-lo no artigo vinculado na parte inferior???**&#x200B;***)</p></td> 
-   <td> 
-<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
+
+</tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p> Standard</p> 
+   <td><p>Standard</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
-   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
+   <td role="rowheader"><p>Permissões de objeto</p></td> 
+   <td>   <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
+   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Requisitos de acesso para tipos de registros centralizados no Workfront Planning
+
+Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
 <tr> 
+   <td role="rowheader"><p>Pacotes Adobe Workfront</p></td> 
+   <td>
+
+<ul><li><p>Qualquer pacote do Workfront ou Workflow</p></li>
+E
+<li><p>Um pacote do Prime ou Ultimate Planning</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
+   <td><p>Standard</p> 
+  </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  </td> 
@@ -248,14 +271,11 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
 Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-
-
 ## Requisitos de acesso para a maioria do Scenario Planner
 
 >[!NOTE]
 >
 >Se sua empresa comprou o Planejador de cenários da Adobe no passado, ele não tem mais direitos. O Planejador de cenários não está mais disponível para compra.
-
 
 Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
@@ -264,24 +284,61 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
  <col> 
  <tbody>
 
-<td> <p>[!DNL Adobe Workfront] Pacote</p> </td> 
+<td> <p>Pacote do Adobe Workfront</p> </td> 
    <td> 
    <p>Adobe Workfront Ultimate</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] licença*</p> </td> 
+   <td> <p>Licença do Adobe Workfront</p> </td> 
    <td> <p>Leve ou superior</p> 
    Ou
-   <p>[!UICONTROL Review] ou superior</p> </td> 
+   <p>Revisar ou superior</p> </td> 
   </tr>
 
 <td><p>Configurações de nível de acesso</p> </td> 
-   <td> <p>[!UICONTROL Editar] acesso à [!DNL Scenario Planner]</p> </td> 
+   <td> <p>Editar acesso ao Planejador de cenários</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Permissões de objeto </p> </td> 
-   <td> <p>[!UICONTROL Gerenciar] permissões para um plano</p>  </td> 
+   <td> <p>Gerenciar permissões de um plano</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter informações, consulte [Requisitos de acesso à documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Requisitos de acesso para a maioria das metas do Workfront
+
+>[!NOTE]
+>
+>Se sua empresa comprou o Adobe Workfront Goals no passado, ele foi avô. O Adobe Workfront Goals não está mais disponível para compra.
+
+Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody>
+
+<td> <p>Pacote do Adobe Workfront</p> </td> 
+   <td> 
+   <p>Adobe Workfront Ultimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Licença do Adobe Workfront</p> </td> 
+   <td> <p>Colaborador ou superior</p> 
+   Ou
+   <p>Solicitante ou superior</p> </td> 
+  </tr>
+
+<td><p>Configurações de nível de acesso</p> </td> 
+   <td> <p>Editar acesso às Metas</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Permissões de objeto </p> </td> 
+   <td> <p>Gerenciar permissões para uma meta</p>  </td> 
   </tr> 
  </tbody> 
 </table>
