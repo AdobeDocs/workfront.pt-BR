@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2739'
 ht-degree: 3%
 
 ---
@@ -62,9 +62,9 @@ Os seguintes objetos do Workfront são suportados por assinaturas de evento.
 * Documento
 * Despesa
 * Campo
-* Hora
+* Hour
 * Problema
-* Nota
+* Observação
 * Portfólio
 * Programa
 * Projeto
@@ -89,6 +89,10 @@ Para criar, consultar ou excluir uma assinatura de evento, seu usuário do Workf
 * Um cabeçalho `sessionID` é necessário para usar a API de Assinaturas de Eventos
 
   Para obter mais informações, consulte [Autenticação](api-basics.md#authentication) em [Noções básicas sobre API](api-basics.md).
+
+## Evitar sobrecarregar assinaturas de evento
+
+O serviço de assinatura de eventos foi projetado para fornecer entrega confiável de eventos para todos os usuários. Para garantir isso, foram implementadas salvaguardas para evitar a produção excessiva de eventos por parte de um único usuário, o que poderia causar possíveis problemas de qualidade de serviço para todos os usuários. Como resultado, um usuário que está produzindo muitos eventos em uma taxa alta em um curto período de tempo pode enfrentar sandboxing e atrasos de entrega de eventos.
 
 ## Formar o recurso de assinatura
 
@@ -149,7 +153,7 @@ O recurso de assinatura contém os seguintes campos.
         <td scope="col"><p>CAMPO</p></td> 
        </tr> 
       <tr> 
-        <td scope="col"><p>Hora</p></td> 
+        <td scope="col"><p>Hour</p></td> 
         <td scope="col">HORA</td> 
        </tr> 
        <tr> 
@@ -157,7 +161,7 @@ O recurso de assinatura contém os seguintes campos.
         <td scope="col"><p>OPTASK</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Nota</td> 
+        <td scope="col">Observação</td> 
         <td scope="col">Nota</td> 
        </tr> 
        <tr> 
@@ -804,7 +808,7 @@ Esse filtro permite a entrada de mensagens somente se o campo especificado (`fie
 }
 ```
 
-#### state
+#### estado
 
 Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo do objeto que foi criado ou atualizado. Isso é útil quando você quer saber onde uma alteração foi feita de algo para outro.
 `oldState` não é possível em CREATE `eventTypes`.
@@ -812,7 +816,7 @@ Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo
 >[!NOTE]
 >
 >A assinatura abaixo com o filtro fornecido só retornará mensagens em que o nome da tarefa contém `again` no `oldState`, qual era antes de uma atualização ser feita na tarefa.
->&#x200B;>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
+>>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
 
 ```
 {

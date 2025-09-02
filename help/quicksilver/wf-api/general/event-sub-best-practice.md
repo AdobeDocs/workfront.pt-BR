@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Verifique se todos os campos obrigatórios do corpo da solicitação foram forne
 ## Evite incluir campos de corpo extras
 
 Não inclua campos de corpo extras na solicitação, pois isso resultará na falha da API ao criar uma assinatura.
+
+## Evitar sobrecarregar assinaturas de evento
+
+O serviço de assinatura de eventos foi projetado para fornecer entrega confiável de eventos para todos os usuários. Para garantir isso, foram implementadas salvaguardas para evitar a produção excessiva de eventos por parte de um único usuário, o que poderia causar possíveis problemas de qualidade de serviço para todos os usuários. Como resultado, um usuário que está produzindo muitos eventos em uma taxa alta em um curto período de tempo pode enfrentar sandboxing e atrasos de entrega de eventos.
 
 ## Concluir o teste dentro do período de carência
 
