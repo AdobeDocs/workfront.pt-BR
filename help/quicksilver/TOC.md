@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 9b09452cbde87f0903283eca2021e9aef4b67e59
+source-git-commit: ae8ef9f24b8c641f4e4f456d4a05107a10dd7cb1
 workflow-type: tm+mt
 source-wordcount: '13469'
 ht-degree: 2%
@@ -1952,10 +1952,10 @@ ht-degree: 2%
          * [Criar prova de um PowerPoint com um vídeo incorporado](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
          * [Versões de prova não podem ser baixadas ou visualizadas quando uma prova interativa é adicionada como uma nova versão](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Integrações nativas {#native-integrations}
-   * [Revisar e aprovar integrações nativas: índice de artigos](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
-   * [Introdução à prova e à integração com o GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-   * [Introdução à prova e ao Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
-   * [Introdução à integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+      * [Revisar e aprovar integrações nativas: índice de artigos](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
+      * [Introdução à prova e à integração com o GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+      * [Introdução à prova e ao Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
+      * [Introdução à integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
    * Dicas, truques e solução de problemas para aprovações {#ttt-approvals}
       * [Dicas, truques e solução de problemas para aprovações: índice do artigo](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Exibir o número de decisões de prova e documento para todos os usuários](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
