@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '3278'
 ht-degree: 0%
 
 ---
@@ -32,16 +32,9 @@ Você pode criar registros seguindo um destes procedimentos:
 <div class="preview">
 
 * [Adicioná-los na exibição de linha do tempo do tipo de registro](#create-records-by-adding-them-in-the-record-type-timeline-view)
+* [Adicioná-los na exibição de calendário do tipo de registro](#create-records-by-adding-them-in-the-record-type-calendar-view)
 
 </div>
-
-<!--
-<div class="preview">
-
-* [Add them in the record type calendar view](#create-records-by-adding-them-in-the-record-type-calendar-view)
-
-</div>
--->
 
 * [Copiar e colar uma lista de registros de uma lista externa](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicar registros de uma exibição de tabela](#create-records-by-duplicating-them)
@@ -307,7 +300,7 @@ Para obter informações sobre como criar um modo de exibição de linha do temp
    >Você só poderá criar uma exibição de linha do tempo se houver pelo menos dois campos de data associados ao tipo de registro.
 1. Clique duas vezes em qualquer lugar na linha do tempo.
 
-   Uma nova caixa de registro é aberta. <!--might need a new screen shot for Production - might add a title etc-->
+   A caixa **Novo registro** é aberta. <!--might need a new screen shot for Production - might add a title etc-->
 
    ![Nova caixa de registro na linha do tempo com barra de registro sem nome](assets/new-record-small-box-on-timeline.png)
 1. Atualize as seguintes informações:
@@ -335,8 +328,10 @@ Para obter informações sobre como criar um modo de exibição de linha do temp
    * **Fechar** ![Ícone Fechar](assets/close-icon.png) para fechar a nova caixa de registro.
 
    O registro é adicionado imediatamente à linha do tempo, bem como às exibições de tabela e calendário, a menos que você tenha clicado no ícone **Excluir**.
-   <!--1. (Optional) Hover over one of the record bar's margins in the timeline, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
-    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
+1. (Opcional) Passe o mouse sobre uma das margens da barra de registro na linha do tempo, em seguida, arraste e solte as extremidades da barra para uma data diferente. Isso altera automaticamente as datas inicial e final do registro.
+
+   Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Opcional) Clique na barra de registros na linha do tempo para abrir a janela de detalhes do registro e atualizar suas informações, excluí-la ou adicionar comentários.
 
@@ -348,75 +343,73 @@ Para obter informações sobre como criar um modo de exibição de linha do temp
 
 </div>
 
-<!--
-
 <div class="preview">
 
-## Create records by adding them in the record type calendar view
+## Criar registros adicionando-os na exibição de calendário do tipo de registro
 
-You can create records in the calendar view of a record type page, by double-clicking anywhere on the calendar. 
+Você pode criar registros na exibição de calendário de uma página de tipo de registro clicando duas vezes em qualquer lugar do calendário.
 
-For information about creating a calendar view, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+Para obter informações sobre como criar um modo de exibição de calendário, consulte [Gerenciar o modo de exibição de calendário](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. Clique no espaço de trabalho ao qual deseja adicionar registros.
 
-1. Click a record type card. 
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
 
-    The record type page opens in the view that you last accessed. 
+1. Clique em um cartão de tipo de registro.
 
-1. Click to open a calendar view, or create a calendar view.
+   A página do tipo de registro é aberta na exibição acessada pela última vez.
 
-    >[!NOTE]
-    >
-    >You can create a calendar view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere on the calendar. 
+1. Clique para abrir uma exibição de calendário ou criar uma exibição de calendário.
 
-    A new record box opens. (********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)
+   >[!NOTE]
+   >
+   >Você só poderá criar uma exibição de calendário se houver pelo menos dois campos de data associados ao tipo de registro.
+1. Clique duas vezes em qualquer lugar do calendário.
 
-    ![New record box on calendar with unnamed record bar](assets/new-record-small-box-on-calendar.png)
+   A caixa **Novo registro** é aberta. <!--(********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)-->
 
-1. Update the following information:
+   ![Nova caixa de registro no calendário com barra de registro sem nome](assets/new-record-small-box-on-calendar.png)
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. 
-    
-        >[!TIP]
-        >
-        >If you display the Name of the record in the record bars according to the calendar settings, the name is not visible in the record bar if left empty. 
+1. Atualize as seguintes informações:
 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the calendar view was created.
+   * **Nome**: insira o nome do registro. Se você deixá-lo vazio, o Workfront o nomeia como **Sem título** por padrão.
 
-        By default, date values are preselected depending on how you display the calendar view. The following scenarios exist:
+     >[!TIP]
+     >
+     >Se você exibir o Nome do registro nas barras de registro de acordo com as configurações do calendário, o nome não ficará visível na barra de registro se deixado em branco.
 
-        * By **Month**: The record start and end dates span one day.
-        * By **Week**: The record start and end dates span two days.
+   * **Campos de data do registro**: atualize as datas do registro.
 
-1. (Optional) Click one of the following icons: 
+     Os nomes dos campos de data são personalizados de acordo com os campos selecionados para as datas Inicial e Final quando a exibição de calendário foi criada.
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+     Por padrão, os valores de data são pré-selecionados dependendo de como você exibe a visualização do calendário. Existem os seguintes cenários:
 
-    The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
-1. (Optional and conditional) Choose **Month** from the upper-corner dropdown menu, hover over one of the record bar's margins in the calendar, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
+      * Por **Mês**: as datas de início e término do registro abrangem um dia.
+      * Por **Semana**: as datas de início e término do registro são de dois dias.
 
-    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
+1. (Opcional) Clique em um dos seguintes ícones:
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the calendar view only when it is enabled in the Settings of the view. 
+   * **Expandir** ![Ícone Expandir](assets/expand-icon.png) para abrir os detalhes do registro na janela de visualização.
+   * **Excluir** ![Ícone Excluir](assets/delete-icon.png) para excluir o registro.
+   * **Fechar** ![Ícone Fechar](assets/close-icon.png) para fechar a nova caixa de registro.
 
-    (*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)
+   O registro é adicionado ao calendário, bem como às exibições de tabela e linha do tempo imediatamente, a menos que você tenha clicado no ícone **Excluir**.
+1. (Opcional e condicional) Escolha **Mês** no menu suspenso do canto superior, passe o mouse sobre uma das margens da barra de registro no calendário, em seguida, arraste e solte as extremidades da barra em uma data diferente. Isso altera automaticamente as datas inicial e final do registro.
 
-    </div> -->
+   Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+1. (Opcional) Clique na barra de registros no calendário para abrir a janela de detalhes do registro e atualizar suas informações, excluí-lo ou adicionar comentários.
+
+   >[!TIP]
+   >
+   >Por padrão, o Workfront associa o registro a uma miniatura e a uma imagem de capa.
+   >
+   >A miniatura é exibida na exibição de calendário somente quando está habilitada nas Configurações da exibição.
+
+   <!--(*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)-->
+
+   </div>
 
 
 ## Criar registros copiando e colando-os de uma lista externa

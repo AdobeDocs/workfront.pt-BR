@@ -6,22 +6,22 @@ description: É possível editar informações nos portfólios criados por você
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1047'
 ht-degree: 1%
 
 ---
 
 # Editar portfólios
 
-<div class="preview">
+<!--<div class="preview"> 
 
-As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes após uma semana da versão de Pré-visualização.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 É possível editar informações nos portfólios criados por você ou criadas por outros usuários, caso eles tenham sido compartilhados com você.
 
@@ -109,9 +109,9 @@ Para obter mais informações, consulte [Modernização da interface](/help/quic
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
-   <span class="preview">A caixa **[!UICONTROL Editar Portfolio]** é exibida.</span>
+   A caixa **[!UICONTROL Editar Portfolio]** é exibida.
 
-   <span class="preview">![Editar caixa de portfólio](assets/edit-portfolio-box-classic-350x224.png)</span>
+   ![Editar caixa de portfólio](assets/edit-portfolio-box-classic-350x224.png)
 
    Todos os campos do portfólio estão disponíveis na caixa [!UICONTROL Editar Portfolio] e são agrupados pelas áreas listadas no painel esquerdo.
 
@@ -169,15 +169,12 @@ Para obter mais informações, consulte [Modernização da interface](/help/quic
     </tbody> 
    </table>
 
-1. Clique em **[!UICONTROL Salvar alterações]** <span class="preview">ou [!UICONTROL **Salvar**]</span> e continue editando as seções a seguir.
+1. Clique em [!UICONTROL **Salvar**] e continue editando as seções a seguir.
 
 ### Formulários personalizados
 
 1. Comece a editar o portfólio conforme descrito acima.
-1. Clique no menu suspenso **[!UICONTROL Adicionar Forms]** para selecionar um formulário personalizado e adicioná-lo ao portfólio.
-
-   Ou
-   <span class="preview">Comece digitando o nome de um formulário no campo [!UICONTROL **Adicionar formulário personalizado**].</span>
+1. Comece digitando o nome de um formulário no campo [!UICONTROL **Adicionar formulário personalizado**].
 
    Você deve criar formulários personalizados de portfólio antes que eles estejam disponíveis para adicionar.
 
@@ -185,16 +182,16 @@ Para obter mais informações, consulte [Modernização da interface](/help/quic
    >
    >Dependendo de como o administrador do [!DNL Workfront] definiu as permissões para as seções no formulário personalizado, nem todos podem exibir ou editar os mesmos campos em um determinado formulário personalizado. As permissões para editar campos em uma seção de um formulário personalizado dependem das permissões que você tem no próprio portfólio. Para obter informações sobre como configurar permissões em seções de um formulário personalizado, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Clique em **[!UICONTROL Salvar alterações]** <span class="preview">ou [!UICONTROL **Salvar**]</span> e continue editando as seções a seguir.
+1. Clique em [!UICONTROL **Salvar**] e continue editando as seções a seguir.
 
 ### Comentário {#comment}
 
 1. Comece a editar um portfólio, conforme descrito acima.
 1. Clique em **[!UICONTROL Comentário]**.
 
-   <span class="preview">![Caixa Editar comentário do portfólio](assets/comment-box-edit-portfolio-classic-350x227.png)</span>
+   ![Caixa Editar comentário do portfólio](assets/comment-box-edit-portfolio-classic-350x227.png)
 
-1. <span class="preview">Adicione um comentário no campo **[!UICONTROL Adicionar uma atualização ao portfólio]**.</span>
+1. Adicione um comentário no campo **[!UICONTROL Adicionar uma atualização ao portfólio]**.
 1. (Opcional) Clique no ícone **[!UICONTROL Pessoas]** para adicionar um usuário ou uma equipe ao comentário.
 1. (Opcional) Clique no ícone **[!UICONTROL Bloquear]** para bloquear o comentário e torná-lo privado somente para os usuários em sua empresa.
-1. Clique em **[!UICONTROL Salvar alterações]** <span class="preview">ou [!UICONTROL **Salvar**]</span>.
+1. Clique em [!UICONTROL **Salvar**].

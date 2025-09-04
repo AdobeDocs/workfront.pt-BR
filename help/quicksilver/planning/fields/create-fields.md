@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '5244'
+source-wordcount: '5332'
 ht-degree: 1%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=pt-BR ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -264,13 +264,10 @@ Os campos de parágrafo capturam informações alfanuméricas adicionais sobre u
 
 Você pode usar um campo de seleção múltipla para capturar informações adicionais em qualquer formato selecionando mais de uma opção em um menu suspenso.
 
-<!--
 >[!NOTE]
 >
-><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's multi-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
-editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+><span class="preview">Além da funcionalidade descrita nesta seção, você pode adicionar novas opções ao editar o valor do campo de seleção múltipla de um registro em linha, no modo de exibição de tabela. Para obter mais informações, consulte a seção &quot;Editar informações sobre campos de seleção única ou múltipla&quot; no artigo [Editar registros](/help/quicksilver/planning/records/edit-records.md).</span>
 >
--->
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Multisseleção**.
 
@@ -301,13 +298,11 @@ editing records in the table view" section in the article [Edit records](/help/q
 
 Os campos de seleção única capturam informações adicionais em qualquer formato ao selecionar uma opção em um menu suspenso.
 
-<!--
 >[!NOTE]
 >
-><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's single-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
-editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+><span class="preview">Além da funcionalidade descrita nesta seção, você pode adicionar novas opções ao editar o valor de campo de seleção única de um registro em linha, no modo de exibição de tabela. Para obter mais informações, consulte a seção &quot;Editar informações sobre campos de seleção única ou múltipla&quot; no artigo [Editar registros](/help/quicksilver/planning/records/edit-records.md).</span>
 >
--->
+
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Seleção única**.
 
@@ -374,7 +369,7 @@ Os tipos de campo de número capturam informações em um formato de número.
 >Campos numéricos são exibidos como um tipo de campo Texto de linha única em um construtor de formulários de solicitação.
 >
 >No entanto, o formato do campo é preservado e os valores desses campos serão exibidos como números depois que a solicitação for enviada, no tipo de registro e na página de detalhes da solicitação.
->&#x200B;>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Número**.
@@ -404,7 +399,7 @@ Os tipos de campo Porcentagem capturam informações em um formato de número se
 >Os campos de porcentagem são exibidos como um tipo de campo de texto de linha única em um construtor de formulários de solicitação.
 >
 >No entanto, o formato do campo é preservado e os valores desses campos serão exibidos como porcentagens após o envio da solicitação, no tipo de registro e na página de detalhes da solicitação.
->&#x200B;>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Porcentagem**.
@@ -444,7 +439,7 @@ Os tipos de campo Moeda capturam as informações em um formato de número prece
 >Os campos de moeda são exibidos como um tipo de campo de texto de linha única em um construtor de formulários de solicitação.
 >
 >No entanto, o formato do campo é preservado e os valores desses campos serão exibidos como moeda após o envio da solicitação, no tipo de registro e na página de detalhes da solicitação.
->&#x200B;>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Moeda**.
 

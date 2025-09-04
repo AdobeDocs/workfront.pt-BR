@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1399'
 ht-degree: 2%
 
 ---
@@ -107,41 +107,41 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.-->
 
-## Add users to a Project Team
+## Adicionar usuários a uma Equipe do Projeto
 
-When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Quando você adiciona usuários à equipe do projeto, eles obtêm permissões de Exibição no projeto e nas tarefas, problemas e documentos do projeto. Para obter mais informações, consulte o artigo [Visão geral da Equipe do Projeto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
->Users on the Project Team are not automatically added to the resource management tools for the project.
+>Os usuários na Equipe do projeto não são adicionados automaticamente às ferramentas de gerenciamento de recursos do projeto.
 
-You can add users to the project team in the following ways:
+Você pode adicionar usuários à equipe do projeto das seguintes maneiras:
 
-* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
-* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
+* [Adicionar usuários automaticamente a uma Equipe de Projeto](#automatically-add-users-to-a-project-team)
+* [Adicionar usuários manualmente a uma Equipe do Projeto](#manually-add-users-to-a-project-team)
 
-### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
+### Adicionar usuários automaticamente a uma equipe do projeto {#automatically-add-users-to-a-project-team}
 
-The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
+Os usuários que atendem às seguintes funções no projeto são adicionados automaticamente à equipe do projeto e aparecem na seção Pessoas quando o projeto é criado:
 
-* The creator of the project
-* The project owner
-* The project sponsor
+* O criador do projeto
+* O proprietário do projeto
+* O patrocinador do projeto
 
-Users are also automatically added to the project team when they are assigned to the following:
+Os usuários também são adicionados automaticamente à equipe do projeto quando são atribuídos ao seguinte:
 
-* Tasks
-* Issues
+* Tarefas
+* Problemas
 
-### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
+### Adicionar usuários manualmente a uma Equipe do Projeto {#manually-add-users-to-a-project-team}
 
-If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
+Se os usuários que não desempenham nenhuma função no projeto quiserem ser notificados sobre determinadas atualizações ou alterações durante a vida do projeto, você pode adicioná-las manualmente à equipe do projeto.
 
- For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
+Para obter mais informações sobre quais notificações podem ser habilitadas para usuários na equipe do projeto, consulte [Tipos de notificação de evento](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
- <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >

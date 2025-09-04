@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 1%
+source-wordcount: '960'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Este artigo descreve como é possível editar as configurações para campos do 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -71,7 +71,7 @@ Este artigo descreve como é possível editar as configurações para campos do 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Padrão </p>
+   <td><p> Standard </p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -90,7 +90,7 @@ Este artigo descreve como é possível editar as configurações para campos do 
 
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 
 ## Considerações sobre a edição de configurações de campo
@@ -98,7 +98,7 @@ Este artigo descreve como é possível editar as configurações para campos do 
 Você deve considerar o seguinte antes de fazer alterações na configuração de um campo:
 
 * É possível editar configurações de campo somente a partir da tabela de tipo de registro.
-* Não é possível editar um campo na página de registro ou em qualquer outra exibição fora da exibição de tabela.
+* Não é possível editar as configurações de um campo na página de registro ou em qualquer outra exibição fora da exibição de tabela.
 * Não é possível editar o tipo de campo depois que o campo é salvo.
 * Não é possível desmarcar a configuração Permitir números negativos que foi selecionada anteriormente para um campo Número, Porcentagem ou Moeda se já houver valores negativos armazenados nos registros aos quais está anexado.
 * Você pode editar a configuração dos seguintes elementos de campo, depois de salvar o campo:
@@ -116,6 +116,7 @@ Você deve considerar o seguinte antes de fazer alterações na configuração d
   >Não há notificação para outros usuários informando que a configuração do campo foi alterada.
 
 * Você pode editar campos de pesquisa existentes a partir de registros conectados.
+* Além de editar o campo conforme descrito na seção [Editar configurações de campo](#edit-field-settings-1) deste artigo, <span class="preview">você pode editar as opções de um campo de seleção única ou múltipla ao editar um registro na exibição de tabela, à medida que atualiza os valores do campo. Para obter informações, consulte a seção [Adicionar novas opções a um campo de seleção existente ao editar registros na exibição de tabela](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) deste artigo.</span>
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -163,3 +164,36 @@ Você deve considerar o seguinte antes de fazer alterações na configuração d
 1. (Condicional) Para campos de registro conectados, clique em **Editar campos de pesquisa** e adicione ou remova qualquer um dos campos de pesquisa do tipo de registro conectado.
 
    Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+
+<div class="preview">
+
+## Adicionar novas opções a um campo de seleção existente ao editar registros na exibição de tabela
+
+<!--some of this information is also available in Edit records article - update both when necessary-->
+
+Você pode adicionar novas opções a um campo de seleção única ou múltipla existente ao editar registros na exibição de tabela.
+
+>[!IMPORTANT]
+>
+>A funcionalidade descrita nesta seção está disponível somente na exibição de tabela. Não está disponível em nenhuma outra área em que campos de seleção única ou múltipla são exibidos.
+
+**EXEMPLO**
+
+Você pode ter um campo de seleção única chamado Status que tem as opções Novo e Fechado e deseja adicionar uma opção para um status Em andamento. Você pode adicionar a escolha executando um dos procedimentos a seguir:
+
+* Edição do campo. Para obter informações, consulte a seção [Editar configurações de campo](#edit-field-settings-1) neste artigo.
+* Adicionar uma nova opção ao editar o registro na exibição de tabela, conforme descrito abaixo.
+
+Para adicionar uma nova opção a um campo de seleção existente ao editar um registro:
+
+1. Ir para uma página do tipo registro e abrir a exibição de tabela.
+1. Adicione o campo de seleção única ou múltipla ao qual você deseja adicionar uma opção na exibição de tabela como uma nova coluna. Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
+1. Comece a editar o campo em linha clicando duas vezes na célula do campo.
+1. Digite o nome da opção que deseja adicionar e clique em **Adicionar opção**.
+
+   ![Adicionar opção em campo de seleção única na exibição de tabela](assets/add-choice-in-table-view-for-single-select-field.png)
+
+   A nova opção é adicionada imediatamente ao campo de seleção única.
+
+</div>

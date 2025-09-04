@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 5%
+source-wordcount: '1860'
+ht-degree: 4%
 
 ---
 
@@ -111,19 +111,12 @@ Considere o seguinte:
    * Quando as datas Start ou End não têm valor, o registro é exibido como um evento de um dia
    * Quando a data de início é posterior à data de término, o registro não é exibido no calendário.
 
-<!--
 <div class="preview">
 
-* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+* Você pode criar e editar registros na exibição de calendário. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
+* Você pode redimensionar as barras de registros na exibição mensal do calendário clicando em, arrastando e soltando suas margens em uma nova posição. O redimensionamento das barras de registros atualiza as datas de início e término imediatamente. Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 </div>
--->
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the calendar monthly view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 Para gerenciar uma exibição de calendário:
 
@@ -151,7 +144,7 @@ Para gerenciar uma exibição de calendário:
 
 1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
    * [Filtros](#add-filters)
-     <!--<span class="preview">[Row height](#modify-row-height)</span>-->
+   * <span class="preview">[Altura da linha](#modify-row-height)</span>
    * [Configurações](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -275,80 +268,72 @@ Para adicionar um filtro a uma exibição de calendário:
 1. (Opcional) Clique no ícone **x** para remover uma condição de filtro.
 1. (Opcional) Clique em **Filtros** para fechar a caixa de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!--
 <span class="preview">
 
-### Modify row height
+### Modificar altura da linha
 
-You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+Você pode modificar a altura da linha de uma célula do calendário para aumentar ou diminuir o número de barras de registro exibidas em cada célula.
 
-The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+O número de registros exibidos no calendário varia dependendo de quantos campos você exibe nas barras dos registros.
 
 >[!TIP]
 >
->This setting is available only when viewing the calendar by month. 
+>Esta configuração só está disponível durante a visualização mensal do calendário.
 
 
-1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. (Conditional) Display the calendar view by month, then click **Row height** in the calendar's toolbar.    
-1. Choose from the following options: 
+1. Crie uma exibição de calendário para uma página de tipo de registro, conforme descrito no artigo [Gerenciar exibições de registro](/help/quicksilver/planning/views/manage-record-views.md).
+1. (Condicional) Exiba a exibição de calendário por mês e clique em **Altura da linha** na barra de ferramentas do calendário.
+1. Escolha entre as seguintes opções:
 
-<table>
-<thead>
-<tr>
-    <th><b>Row height option</b></th>
-    <th><b>Number of records</b></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>Short</td>
-    <td><p>Contains:</p>
+   <table>
+    <thead>
+    <tr>
+        <th><b>Opção Altura da linha</b></th>
+        <th><b>Número máximo padrão de registros</b></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Pequena</td>
+        <td><p>Contém:</p>
 
-<ul><li>2 records displaying 1 field</li>
-<li>1 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr><td>Standard</td>
-    <td><p>Contains:</p>
+   <ul><li>2 registros exibindo 1 campo</li>
+    <li>1 registro exibindo mais de 1 campo</li></ul>
+        </td>
+    </tr>
+    <tr><td>Standard</td>
+        <td><p>Contém:</p>
 
-<ul><li>4 records displaying 1 field</li>
-<li>2 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Medium</td>
-    <td><p>Contains:</p>
+   <ul><li>4 registros exibindo 1 campo</li>
+    <li>2 registros exibindo mais de 1 campo</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Médio</td>
+        <td><p>Contém:</p>
 
-<ul><li>8 records displaying 1 field</li>
-<li>4 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Tall</td>
-    <td><p>Contains:</p>
+   <ul><li>8 registros exibindo 1 campo</li>
+    <li>4 registros exibindo mais de 1 campo</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Alta</td>
+        <td><p>Contém:</p>
 
-<ul><li>12 records displaying 1 field</li>
-<li>6 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Fit to content</td>
-    <td><p>All records are visible, up to 500 records</p></td>
-</tr>
-</tbody>
-</table> 
+   <ul><li>12 registros exibindo 1 campo</li>
+    <li>6 registros exibindo mais de 1 campo</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Ajustar ao conteúdo</td>
+        <td><p>Todos os registros estão visíveis, até 500 registros</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-1. (Optional) Click **Show more** if there are records that are not visible in the calendar. 
-
-    >[!TIP]
-    >
-    >The **Show more** option displays when you choose Fit to content and there are are more than 500 records in one time frame.
-
+1. (Opcional) Clique em **mais** se houver registros que não estejam visíveis no calendário.
 
 </span>
-
--->
 
 ### Editar as configurações de exibição do calendário
 
