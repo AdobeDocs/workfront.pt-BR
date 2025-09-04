@@ -4,10 +4,10 @@ description: As extensões da interface do Workfront, viabilizadas pelo construt
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 1%
+source-wordcount: '2178'
+ht-degree: 0%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 1%
 
 As extensões de interface do usuário do Workfront, viabilizadas pelo Adobe App Builder, permitem que clientes e parceiros criem experiências de usuário personalizadas. Essas ferramentas aumentam a eficiência, fornecem experiências integradas e conectadas, melhoram significativamente a satisfação do usuário e ajudam as empresas a concretizar sua visão exclusiva.
 
-Por exemplo, sem as extensões da interface do usuário do Workfront, um gerente de projeto pode precisar alternar entre o Workfront e um sistema de rastreamento de tempo separado para registrar horas. Com as extensões de interface do usuário, o rastreamento de tempo pode ser integrado diretamente à experiência do Workfront, simplificando o fluxo de trabalho e economizando tempo. Além disso, você pode adicionar componentes personalizados para melhorar a usabilidade, automatizar tarefas repetitivas e aprimorar o gerenciamento de conteúdo com recursos como marcação de metadados e visualizações de conteúdo. O Adobe App Builder também oferece escalabilidade e gerenciamento de identidade (IMS) robusto, garantindo personalização segura e eficiente em qualquer escala.
+Por exemplo, sem as extensões da interface do usuário do Workfront, um gerente de projeto pode precisar alternar entre o Workfront e um sistema de rastreamento de tempo separado para registrar horas. Com as extensões da interface do usuário, o rastreamento de tempo pode ser integrado diretamente à experiência do Workfront, simplificando o fluxo de trabalho e economizando tempo. Além disso, você pode adicionar componentes personalizados para melhorar a usabilidade, automatizar tarefas repetitivas e aprimorar o gerenciamento de conteúdo com recursos como marcação de metadados e visualizações de conteúdo. O Adobe App Builder também oferece escalabilidade e gerenciamento de identidade (IMS) robusto, garantindo personalização segura e eficiente em qualquer escala.
 
 As extensões da interface do usuário do Workfront oferecem vários benefícios principais:
 
 * Personalização precisa: as interfaces de software padrão geralmente não atendem a todos os requisitos de negócios. As extensões de interface do usuário permitem que os desenvolvedores modifiquem e estendam a interface do usuário padrão para atender a necessidades comerciais específicas.
-* Integração do sistema: as extensões da interface do usuário facilitam a integração de outros sistemas, garantindo fluxos de trabalho ininterruptos e consistência de dados.
-* Escalabilidade: à medida que as empresas crescem, as extensões da interface do usuário podem ser desenvolvidas para adicionar novas funcionalidades sem a necessidade de uma revisão completa do sistema.
+* Integração do sistema: as extensões da interface do usuário facilitam a integração de outros sistemas, garantindo fluxos de trabalho perfeitos e consistência dos dados.
+* Escalabilidade: à medida que as empresas crescem, as extensões de interface do usuário podem ser desenvolvidas para adicionar novas funcionalidades sem a necessidade de uma revisão completa do sistema.
 * Tempo de desenvolvimento reduzido: ferramentas e pontos de extensão pré-criados reduzem significativamente o tempo e o esforço necessários para implementar recursos personalizados.
 * Melhor adoção pelo usuário: uma experiência otimizada do usuário pode impulsionar significativamente a adoção do software. Os elementos personalizados da interface do usuário projetados para corresponder às preferências do usuário podem melhorar as taxas de adoção e a satisfação geral.
 * Aproveitando as extensões da interface do usuário do Workfront, as empresas podem criar experiências de usuário personalizadas que impulsionam a eficiência, a integração e a satisfação do usuário.
 
-Depois que um aplicativo é criado no App Builder do Adobe, um administrador do Workfront pode adicioná-lo ao Menu principal do Workfront e ao painel de navegação esquerdo usando modelos de layout. Um usuário com o modelo de layout que clicar no aplicativo verá o aplicativo incorporado no Workfront, em vez de precisar abri-lo separadamente.
+Depois que um aplicativo é criado no App Builder do Adobe, um administrador do Workfront pode adicioná-lo ao Menu principal do Workfront e ao painel de navegação esquerdo usando modelos de layout. Um usuário com o modelo de layout que clica no aplicativo vê o aplicativo incorporado no Workfront, em vez de precisar abri-lo separadamente.
 
 Este artigo descreve como acessar o App Builder e usar um template para criar um aplicativo.
 
@@ -87,19 +87,19 @@ Instruções adicionais estão disponíveis no [site do Adobe Developer](https:/
 
    >[!IMPORTANT]
    >
-   >Se você não vir a opção de criar um projeto a partir de um modelo, você está configurado incorretamente no Admin Console e não tem acesso ao catálogo do App Builder. Essa opção é exibida somente quando você tem acesso ao AppBuilder.
+   >Se você não vir a opção para criar um projeto a partir de um modelo, você está configurado incorretamente no Admin Console e não tem acesso ao catálogo do App Builder. Essa opção é exibida somente quando você tem acesso ao AppBuilder.
 
    ![Criar a partir do modelo](assets/create-from-template.png)
 
 1. Selecione **App Builder**.
 
-1. Insira um **Título do projeto** e **Nome do aplicativo**. Ambos têm padrões, mas será mais fácil identificar o projeto desejado posteriormente se você personalizar o valor.
+1. Insira um **Título do projeto** e **Nome do aplicativo**. Ambos têm padrões, mas é mais fácil identificar o projeto desejado posteriormente se você personalizar o valor.
 
 1. Deixe **Incluir tempo de execução** selecionado.
 
 1. Clique em **Salvar**.
 
-## Usar a CLI do Adobe IO (aio)
+## Usar a CLI do Adobe Developer (aio)
 
 O Adobe fornece uma CLI de código aberto que você pode usar para criar o aplicativo do App Builder.
 
@@ -125,7 +125,7 @@ Instruções adicionais estão disponíveis no GitHub e no site do Adobe Develop
    * Nomeie a extensão.
    * Forneça um resumo descritivo da funcionalidade da extensão.
    * Selecione um número de versão inicial para começar.
-   * O modelo criará o código de um botão de navegação principal se você selecionar &quot;Adicionar um botão personalizado ao item de menu principal&quot; quando solicitado a informar &quot;O que deseja fazer a seguir?&quot;.
+   * O modelo cria o código de um botão de navegação principal se você selecionar &quot;Adicionar um botão personalizado ao item de menu principal&quot; quando solicitado a informar &quot;O que deseja fazer a seguir?&quot;.
 
    ![seleção concluída](assets/5-select-done.png)
 
@@ -135,13 +135,15 @@ Instruções adicionais estão disponíveis no GitHub e no site do Adobe Develop
 
    Para obter mais informações sobre as pastas e os arquivos do seu projeto, consulte o [site do desenvolvedor do Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
 
+Para obter mais informações sobre as pastas e os arquivos do seu projeto, consulte o [site do Adobe Developer](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
+
 ## Criar as extensões no VSCode
 
 A configuração do arquivo App.js é necessária para habilitar a navegação pelo menu principal do Workfront ou pela navegação secundária (painel esquerdo).
 
 A configuração do arquivo ExtensionRegistration.js é necessária para exibir as extensões nos modelos de layout do Workfront.
 
-Os exemplos a seguir mostram como adicionar aplicativos personalizados ao Menu principal do Workfront e ao painel esquerdo de um objeto, usando as extensões da interface do usuário.
+Os exemplos a seguir mostram como adicionar aplicativos personalizados ao Menu principal do Workfront e ao painel esquerdo de um objeto, usando as Extensões de interface do usuário.
 
 ### Configurar ExtensionRegistration.js
 
@@ -152,13 +154,13 @@ Para permitir aplicativos personalizados no menu principal do Workfront:
 Na função ExtensionRegistration, você deve ver o código a seguir. Esse código foi criado para você pelo modelo. Este código pode ser adicionado para criar itens de menu adicionais. Substitua IDs e URLs.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -168,18 +170,18 @@ Na função ExtensionRegistration, você deve ver o código a seguir. Esse códi
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Adicione o seguinte trecho de código:
    ![trecho de código ](assets/7-extension-registration-step1-from-sam.png)
-Este exemplo mostra um item Menu Principal. Você deve atualizar a ID, o rótulo, o ícone e o URL para os nomes corretos do aplicativo. Ao adicionar vários itens, verifique se a ID é exclusiva.
+Este exemplo mostra um Item de menu principal. Você deve atualizar a ID, o rótulo, o ícone e o URL para os nomes corretos do aplicativo. Ao adicionar vários itens, verifique se a ID é exclusiva.
 
 1. Salve o trabalho.
 
@@ -218,11 +220,170 @@ Para permitir aplicativos personalizados na navegação do painel esquerdo do Wo
 
 1. Salve o trabalho.
 
+### Incorporar um aplicativo usando um formulário personalizado do Workfront
+
+O ponto de extensão do widget de formulários é um recurso de extensão de interface do usuário no Adobe Workfront que permite criar widgets personalizados que podem ser incorporados a formulários personalizados do Workfront. Diferentemente de outros pontos de extensão que adicionam itens de navegação ou opções de menu, os widgets fornecem uma maneira de exibir conteúdo personalizado em painéis dedicados dentro de campos de formulário personalizados.
+
+Os widgets são componentes modulares da interface do usuário que podem ser adicionados aos formulários personalizados do Workfront como campos de formulário. Eles fornecem uma maneira de exibir funcionalidades personalizadas, visualizações de dados ou conteúdo externo diretamente em interfaces de formulários personalizadas, permitindo que os usuários interajam com a lógica personalizada ao preencher formulários.
+
+#### Configurar uma extensão de widget
+
+Assim como os pontos de extensão da interface do usuário para o Menu Principal e a navegação secundária, o ponto de extensão dos &quot;widgets&quot; é configurado no objeto de métodos do componente `ExtensionRegistration`, geralmente no campo `ExtensionRegistration.js`. Isso significa que o uso do widget de formulários requer apenas a adição de um item &quot;widget&quot; em `extesionregistration` com uma rota válida em seu app.js:
+
+```
+javascript 
+
+
+Apply to ExtensionReg... 
+
+widgets: { 
+
+  getItems() { 
+
+    return [ 
+
+      { 
+
+        id: "test2", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget with dimensions", 
+
+        dimensions: { 
+
+          height: 450, 
+
+          width: 300, 
+
+          maxHeight: 600, 
+
+          maxWidth: 400, 
+
+        }, 
+
+      }, 
+
+      { 
+
+        id: "test", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget without dimensions", 
+
+      }, 
+
+    ]; 
+
+  }, 
+
+}, 
+```
+
+#### Propriedades de configuração do widget
+
+**Propriedades Necessárias**
+
+* id (string): Identificador exclusivo do widget. Deve ser exclusivo em todos os widgets da sua extensão.
+
+* url (string): o caminho do URL para o conteúdo do widget. Isso deve apontar para uma rota em sua extensão que renderize o componente de widget.
+
+* rótulo (string): nome de exibição do widget que aparece na interface de seleção de campo de formulário personalizado.
+
+**Propriedades Opcionais**
+
+* dimensões (objeto): especifica as dimensões de exibição do widget. Todas as propriedades são opcionais e essas são as únicas dimensões possíveis:
+
+* altura (número): altura do widget em pixels
+
+* largura (número): largura do widget em pixels
+
+* maxHeight (número): Altura máxima do widget em pixels
+
+* maxWidth (número): Largura máxima do widget em pixels
+
+**Propriedades do Dimension**
+
+O objeto dimensions permite controlar as restrições de tamanho e layout do widget:
+
+* altura e largura: defina o tamanho inicial/preferencial do widget
+
+* maxHeight e maxWidth: Defina limites superiores para evitar que o widget fique muito grande
+
+* Comportamento responsivo: Os widgets podem responder dentro dessas restrições
+
+* Integração de formulários: as dimensões ajudam a garantir que o widget se ajuste bem aos layouts do campo de formulário
+
+#### Exemplo de configurações do Dimension
+
+```
+// Fixed size widget 
+
+dimensions: { 
+
+  height: 300, 
+
+  width: 250, 
+
+} 
+
+// Flexible height with width constraint 
+
+dimensions: { 
+
+  width: 300, 
+
+  maxHeight: 500, 
+
+} 
+
+// Height constraint only 
+
+dimensions: { 
+
+  height: 400, 
+
+  maxWidth: 350, 
+
+} 
+
+// No dimensions - uses default sizing 
+
+{} 
+```
+
+#### Dados de contexto
+
+Os widgets têm acesso ao mesmo contexto compartilhado que outros pontos de extensão, incluindo:
+
+* auth: informações de autenticação, incluindo o token IMS
+
+* objCode: Código do tipo de objeto (TASK, PROJECT, ISSUE, etc.)
+
+* objID: Identificador de objeto
+
+* hostname: nome do host da instância do Workfront
+
+* protocol: protocolo de conexão
+
+* user: Informações do usuário atual
+
+* isLoginAs: Se o usuário estiver conectado como outro usuário
+
+* isInBulkEditing: se o formulário estiver atualmente no modo de edição em massa. Nesse caso, o contexto inclui vários valores para a ID de objeto.
+
+#### Adicionar um widget a um formulário personalizado do Workfront
+
+Um aplicativo pode ser incorporado em um formulário personalizado do Workfront usando o tipo de campo &quot;Extensões de interface do usuário&quot;. Depois de adicionar o campo, selecione um widget de formulários. A lista de widgets é baseada em aplicativos ativos na sua organização IMS ou aplicativo ativo localmente quando `extensionoverride=TRUE`.
+
+![Campo de extensões da interface do usuário em um formulário personalizado](assets/ui-extensions-field.png)
+
 ### Configurar App.js
 
 1. Acesse App.js.
 
-1. O modelo encaminhará uma rota para uma opção de menu principal. Uma rota define o mapeamento entre caminhos de URL e os componentes renderizados para esses caminhos. Para adicionar uma rota, use o seguinte trecho de código. Substitua o caminho e o elemento exatos pelo seu.
+1. O modelo cria uma rota para uma opção de Menu principal. Uma rota define o mapeamento entre caminhos de URL e os componentes renderizados para esses caminhos. Para adicionar uma rota, use o seguinte trecho de código. Substitua o caminho e o elemento exatos pelo seu.
 
    ```
        <Route 
@@ -239,9 +400,10 @@ Para permitir aplicativos personalizados na navegação do painel esquerdo do Wo
 
 Para obter mais informações sobre como desenvolver e executar o aplicativo, consulte o [site do desenvolvedor do Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application).
 
+
 ## Contexto compartilhado
 
-O contexto compartilhado é usado para compartilhar dados do Workfront com uma extensão de interface do usuário. Os dados disponíveis por meio do contexto compartilhado incluem os dados do usuário e o contexto do aplicativo.
+O contexto compartilhado é usado para compartilhar dados do Workfront com uma extensão da interface do usuário. Os dados disponíveis por meio do contexto compartilhado incluem os dados do usuário e o contexto do aplicativo.
 
 
 ### Usuário
@@ -262,14 +424,14 @@ Este é um exemplo para obter o contexto do aplicativo para documentos:
 
 Ao desenvolver seu aplicativo do App Builder para o Workfront, talvez seja necessário testar seu aplicativo no Workfront sem publicá-lo.
 
-No aplicativo App Builder, você pode iniciar o `aio app run` para desenvolvimento local. Isso fornecerá uma URL, normalmente algo como `https://localhost:9080`. Como alternativa, você pode executar `aio app deploy` para obter um domínio estático do Adobe. Anote esses URLs para uso futuro.
+No aplicativo App Builder, você pode iniciar o `aio app run` para desenvolvimento local. Isso fornece a você uma URL, normalmente algo como `https://localhost:9080`. Como alternativa, você pode executar `aio app deploy` para obter um domínio estático do Adobe. Anote esses URLs para uso futuro.
 
-Em seguida, navegue até a página específica em que deseja desenvolver no navegador. Abra as ferramentas do desenvolvedor e acesse o Armazenamento local workfront.com ou workfront.adobe.com. Aqui, você deve adicionar uma entrada. Use `extensionOverride` como chave e a URL do construtor de aplicativos anotada anteriormente como o valor.
+Em seguida, navegue até a página específica em que deseja desenvolver no navegador. Abra as ferramentas do desenvolvedor e acesse o Armazenamento local workfront.com ou workfront.adobe.com. Aqui, você deve adicionar uma entrada. Use `extensionOverride` como chave e a URL da App Builder anotada anteriormente como o valor.
 
 Se a configuração foi concluída corretamente, ao recarregar a página de modelo de layout no Workfront, você verá os botões do aplicativo App Builder. Adicione os botões do aplicativo ao Menu principal e ao painel esquerdo para um objeto e verifique se eles são exibidos corretamente nessas áreas.
 
-Instruções adicionais estão disponíveis no site do desenvolvedor do Adobe, com um exemplo do AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+Instruções adicionais estão disponíveis no site do Adobe Developer, com um exemplo do AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
 
 ## Publicar aplicativos e aprovar o envio
 
-Para publicar o aplicativo e aprová-lo, siga as instruções no [site do desenvolvedor do Adobe](https://developer.adobe.com/uix/docs/guides/publication/).
+Para publicar o aplicativo e aprová-lo, siga as instruções no [site do Adobe Developer](https://developer.adobe.com/uix/docs/guides/publication/).
