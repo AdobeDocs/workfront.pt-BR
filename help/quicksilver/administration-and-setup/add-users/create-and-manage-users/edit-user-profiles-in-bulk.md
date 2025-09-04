@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2610'
 ht-degree: 0%
 
 ---
 
 # Editar perfis de usuário em massa
-
-{{highlighted-preview}}
 
 <!--
 
@@ -25,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -77,7 +75,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Selecione mais de um usuário e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png).
 
-1. Na caixa **Editar Usuário**, altere as informações em qualquer uma das seções e clique em **Salvar Alterações** <span class="preview">ou **Salvar**</span> a qualquer momento.
+1. Na caixa **Editar Usuário**, altere as informações em qualquer uma das seções e clique em **Salvar** a qualquer momento.
 
 ### Preferências
 
@@ -101,7 +99,7 @@ Para obter mais informações, consulte [Configurar notificações de eventos pa
 
 ### Acesso
 
-* **Está ativo** / <span class="preview">**O usuário está ativo**</span>: habilite esta opção para indicar que os usuários estão ativos. Usuários ativos usam uma licença Workfront. A desativação do campo desativa os usuários e os impede de fazer logon no Workfront.
+* **O usuário está ativo**: habilite esta opção para indicar que os usuários estão ativos. Usuários ativos usam uma licença Workfront. A desativação do campo desativa os usuários e os impede de fazer logon no Workfront.
 
 * **Nível de Acesso**: selecione o nível de acesso a ser atribuído a esses usuários. Todos os usuários selecionados terão o mesmo nível de acesso.
 
@@ -136,7 +134,7 @@ Para obter mais informações, consulte [Configurar notificações de eventos pa
 * **Empresa**: a empresa dos usuários. Os usuários podem ser associados a apenas uma empresa. Você deve criar uma empresa antes de associá-la a um usuário. Somente empresas ativas são exibidas na lista. Para obter informações sobre como criar empresas, consulte [Criar e editar empresas](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 * **Equipe interna**: especifique a equipe interna dos usuários. Os usuários só podem ter uma equipe inicial.
 * **Outras equipes**: os usuários podem pertencer a várias equipes.
-* **Grupo Doméstico** / <span class="preview">**Grupo Doméstico Atual**</span>: selecione um grupo apropriado para atribuir aos usuários. Isso dá aos usuários a capacidade de acessar objetos que são compartilhados com o grupo. Você também pode compartilhar modelos de layout com um Grupo padrão.
+* **Grupo padrão**: selecione um grupo apropriado para atribuir os usuários. Isso dá aos usuários a capacidade de acessar objetos que são compartilhados com o grupo. Você também pode compartilhar modelos de layout com um Grupo padrão.
 
   Este campo é obrigatório. Todos os usuários devem estar associados a um grupo padrão. Se você não selecionar um, seu Grupo Padrão será atribuído como o Grupo Padrão.
 
@@ -174,8 +172,8 @@ Para obter mais informações, consulte [Configurar notificações de eventos pa
   >
   >Defina o valor de Tempo de trabalho como 1 para indicar que o usuário está disponível para trabalho relacionado ao projeto em todo o equivalente de tempo integral.
 
-* **Agendar Desativação** / <span class="preview">**Definir data de desativação**</span>: marque esta caixa / <span class="preview">clique neste botão</span> se desejar agendar a desativação desses usuários em uma determinada data e em um determinado horário.
-* **Data de Desativação Agendada** / <span class="preview">**Data de Desativação**</span>: a data e a hora em que os usuários são desativados. Para obter informações sobre como agendar usuários para desativação, consulte [Agendar usuários para desativação](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) em [Desativar ou reativar um usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Definir data de desativação**: clique neste botão se desejar agendar a desativação desses usuários em uma determinada data e hora.
+* **Data de desativação**: a data e a hora em que os usuários são desativados. Para obter informações sobre como agendar usuários para desativação, consulte [Agendar usuários para desativação](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) em [Desativar ou reativar um usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Função principal**: esta é a função principal que os usuários podem desempenhar no Workfront. Todas as tarefas e problemas aos quais os usuários estão atribuídos também são atribuídos a essa função de trabalho. As funções de trabalho são essenciais no gerenciamento de recursos. Você só poderá atualizar esse campo se tiver uma licença Padrão ou de Plano com acesso de usuário administrativo ou se for um administrador do Workfront. Para obter mais informações sobre como configurar usuários com acesso administrativo, consulte [Conceder acesso aos usuários](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   Somente as funções de trabalho ativas são exibidas na lista.

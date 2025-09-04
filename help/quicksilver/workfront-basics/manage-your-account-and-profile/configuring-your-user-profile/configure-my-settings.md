@@ -6,16 +6,14 @@ description: Seu perfil  [!DNL Adobe Workfront]  contém informações sobre voc
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: eda5a2b283d87bccbbff1edff6744556f25ac6e0
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '3288'
+source-wordcount: '3317'
 ht-degree: 1%
 
 ---
 
 # Definir minhas configurações
-
-{{highlighted-preview}}
 
 <!-- Audited: 01/2024 -->
 
@@ -248,7 +246,7 @@ Essas informações já devem ter sido configuradas pelo administrador do [!DNL 
    <td> Atualize seu endereço de email. Este campo é obrigatório. Lembre-se de que seu endereço de email também é seu nome de usuário para [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Redefinir senha]</strong> / <span class="preview"><strong>Alterar senha</strong></span></td> 
+   <td role="rowheader"><strong>[!UICONTROL Alterar senha]</strong></td> 
    <td>Redefina sua senha nesta seção. Para obter mais informações sobre como redefinir sua senha, consulte <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Redefinir sua senha</a>.</td> 
   </tr> 
   <tr> 
@@ -343,6 +341,9 @@ Especifique o que deseja exibir na interface do [!DNL Workfront] nesta seção.
    <td role="rowheader"><strong>[!UICONTROL Local de Email]</strong> </td> 
    <td><p>Especifique seu idioma preferido aqui. Controla o idioma, a data e o formato do número usados nas mensagens de email de saída.</p>
    <p><strong>OBSERVAÇÃO:</strong> quando sua organização está na Experiência unificada do Adobe, as preferências de idioma são armazenadas em seu perfil do Adobe e a localidade de email não é usada. Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Alterar o idioma do Adobe Experience Cloud</a> no artigo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Idiomas com suporte no Adobe Workfront</a>.</p></td> 
+  </tr>
+  <tr><td><strong>[!UICONTROL Enviar trabalho que eu atribuir a mim mesmo para minha guia Trabalhando Em]</strong> </td>
+  <td>Selecione esta opção se quiser que o status do trabalho atribuído a você mesmo seja automaticamente definido como Em andamento em vez de Novo.</td>
   </tr>
   <tr> 
    <td role="rowheader"><strong>(Condicional) Gera provas automaticamente ao carregar documentos</strong></td> 
@@ -456,8 +457,8 @@ Use qualquer um dos seguintes itens nesta seção:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Desativação de Agendamento]</strong> / <span class="preview"><strong>Definir data de desativação</strong></span></td> 
-   <td><p>Marque esta caixa / <span class="preview">clique neste botão</span> se desejar agendar a desativação da sua conta após um período. Na <strong>[!UICONTROL Data de Desativação Agendada]</strong> que for exibida, especifique a data após a qual sua conta será desativada. Para obter informações sobre como desativar usuários, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Agendar usuários para desativação</a> em <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desativar ou reativar um usuário</a>. </p><p>Você pode editar os campos de desativação da sua conta se tiver uma licença [!UICONTROL Standard] ou [!UICONTROL Plan] ou se for o administrador [!DNL Workfront]. </p></td> 
+   <td role="rowheader"><strong>[!UICONTROL Definir data de desativação]</strong></td>
+   <td><p>Clique nesse botão se desejar agendar a desativação da conta após um período. Na <strong>[!UICONTROL Data de Desativação Agendada]</strong> que for exibida, especifique a data após a qual sua conta será desativada. Para obter informações sobre como desativar usuários, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">Agendar usuários para desativação</a> em <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Desativar ou reativar um usuário</a>. </p><p>Você pode editar os campos de desativação da sua conta se tiver uma licença [!UICONTROL Standard] ou [!UICONTROL Plan] ou se for o administrador [!DNL Workfront]. </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Função Primária]</strong></td> 
