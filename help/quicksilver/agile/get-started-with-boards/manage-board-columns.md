@@ -6,9 +6,9 @@ description: Um novo quadro contém três colunas por padrão. Você pode adicio
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -120,12 +120,6 @@ A política de atualização do status funciona automaticamente para o cartão e
 * Quando um status ad hoc ou cartão conectado é atualizado no cartão para corresponder ao status da coluna na política ou um status de cartão conectado é atualizado em outro lugar no Workfront, o cartão é movido automaticamente para essa coluna. Além disso, se um status personalizado em um cartão corresponder ao status do sistema atribuído à coluna, o cartão é movido para essa coluna.
 
 Um cartão permanecerá em uma coluna em que é colocado se o status do cartão não corresponder a nenhum status definido em nenhuma política de coluna existente.
-
->[!NOTE]
->
->Os painéis dinâmicos sempre colocam cartões na coluna que corresponde ao status, independentemente das políticas de coluna estarem ativadas ou desativadas. Os cartões retornarão às colunas atribuídas quando você atualizar o quadro.
-> 
->Além disso, para todos os tipos de quadro, se você mover um cartão de uma coluna para outra coluna com o mesmo status, o cartão retornará à coluna original quando você atualizar o quadro.
 
 1. Acesse o quadro.
 1. Clique no menu **[!UICONTROL Mais]** ![Mais menus](assets/more-icon-spectrum.png) na coluna e selecione **[!UICONTROL Editar]**.
