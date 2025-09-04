@@ -154,13 +154,13 @@ Para permitir aplicativos personalizados no menu principal do Workfront:
 Na função ExtensionRegistration, você deve ver o código a seguir. Esse código foi criado para você pelo modelo. Este código pode ser adicionado para criar itens de menu adicionais. Substitua IDs e URLs.
 
     &quot;
-    mainMenu: {
+    mainMenu: &lbrace;
     
-    getItems() {
+    getItems() &lbrace;
     
-    return [
+    return &lbrack;
     
-    {
+    &lbrace;
     
     id: &#39;main-menu-label&#39;,
     
@@ -170,13 +170,13 @@ Na função ExtensionRegistration, você deve ver o código a seguir. Esse códi
     
     icon: icon1,
     
-    },
+    &rbrace;,
     
-    ];
+    &rbrack;;
     
-    },
+    &rbrace;,
     
-    }
+    &rbrace;
     &quot;
 
 1. Adicione o seguinte trecho de código:
