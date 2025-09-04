@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,114 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+<!--## Unified request form list now available
 
+>[!NOTE]
+>
+>* Preview: September 4, 2025
+>* Production fast release: September 11, 2025
+>* Production all: October 16, 2025
+
+To make it easier to find the request form you're looking for in Workfront Planning, we've created a unified list for request forms. Now, all request forms that you have access to can be found in a single list, regardless of the object they were created for. Clicking on a form in this list brings you to the request form's page, where you can edit, preview, or publish and unpublish the form.
+
+Previously, request forms were located only on the object for which they were created.
+
+For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## Redimensionar registros na exibição mensal do calendário
+
+>[!NOTE]
+>
+>* Visualização: 4 de setembro de 2025
+>* Versão rápida de produção: 15 de outubro de 2025
+>* Produção: 16 de outubro de 2025
+
+Na exibição de calendário de uma página do tipo de registro, agora é possível clicar, arrastar e soltar as margens esquerda ou direita de um registro para modificar sua duração.
+
+Mover as margens de um registro também modifica suas datas inicial e final imediatamente.
+
+Um outline é exibido para orientá-lo para o novo local antes do redimensionamento do evento.
+
+O redimensionamento de registros na exibição de calendário está disponível somente ao exibir a exibição por mês.
+
+Para obter mais informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+
+## Criar registros na exibição de calendário
+
+>[!NOTE]
+>
+>* Visualização: 4 de setembro de 2025
+>* Versão rápida de produção: 15 de outubro de 2025
+>* Produção para todos os clientes: 16 de outubro de 2025
+
+Agora é possível criar registros na exibição de calendário de um tipo de registro clicando duas vezes em qualquer lugar do calendário.
+
+Você pode selecionar o intervalo de datas do seu registro ou abrir a página do registro para editar todos os seus detalhes.
+
+Antes desse aprimoramento, para adicionar um registro da exibição de calendário, você só poderia adicionar novos registros usando o botão Novo registro.
+
+Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
+
+## Redimensionar registros na exibição de linha do tempo
+
+>[!NOTE]
+>
+>* Visualização: 4 de setembro de 2025
+>* Versão rápida de produção: 15 de outubro de 2025
+>* Produção para todos os clientes: 16 de outubro de 2025
+
+Na exibição de linha do tempo de uma página do tipo de registro, agora é possível clicar, arrastar e soltar as margens esquerda ou direita de um registro para modificar sua duração.
+
+Mover as margens de um registro também modifica suas datas inicial e final imediatamente.
+
+Um outline é exibido para orientá-lo para o novo local antes do redimensionamento do evento.
+
+>[!NOTE]
+>
+>O redimensionamento de registros na exibição de linha do tempo está disponível ao exibir a exibição anualmente, trimestralmente ou mensalmente.
+
+
+Para obter mais informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
+
+## Controlar quantos registros são exibidos no modo de exibição Calendário
+
+>[!NOTE]
+>
+>* Visualização: 4 de setembro de 2025
+>* Versão rápida de produção: 15 de outubro de 2025
+>* Produção para todos os clientes: 16 de outubro de 2025
+
+Adicionamos a configuração Altura da linha na barra de ferramentas Exibição de calendário de uma página de registro. Agora é possível escolher quantos registros serão exibidos em uma célula do calendário selecionando uma das seguintes opções para a altura da linha da exibição:
+
+* Pequena
+* Standard
+* Médio
+* Alta
+* Ajustar ao conteúdo
+
+A configuração só estará disponível quando a exibição de calendário for exibida por mês. A configuração não está disponível quando o calendário é exibido por semana.
+
+Para obter mais informações, incluindo limites para cada opção, consulte [Gerenciar a exibição do calendário](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+
+## Adicionar nova opção para selecionar campos do tipo na exibição de tabela
+
+>[!NOTE]
+>
+>* Visualização: 4 de setembro de 2025
+>* Versão rápida de produção: 15 de outubro de 2025
+>* Produção para todos os clientes: 16 de outubro de 2025
+
+Agora é possível adicionar uma nova opção a um campo de seleção única ou múltipla ao atualizar o valor do campo na exibição de tabela. Por exemplo, quando o campo de seleção única Status tem três opções e você deseja ter uma quarta opção, é possível adicioná-lo ao editar o campo Status de um registro na exibição de tabela.
+
+Antes desse aprimoramento, você poderia adicionar novas opções somente editando o campo.
+
+>[!NOTE]
+>
+>Essa funcionalidade está disponível somente quando você atualiza valores de campo na exibição de tabela.
+
+
+Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 ## Nova coluna Status combinada na lista de solicitações unificada
 
@@ -77,8 +184,8 @@ Para obter informações, consulte [Visão geral dos campos da fórmula](/help/q
 >[!NOTE]
 >
 >Visualização: 7 de agosto de 2025
->&#x200B;>Produção para todos os clientes:August, 2025
->&#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
+>>Produção para todos os clientes:August, 2025
+>>[!BADGE Fora do cronograma]{type=Neutral}
 
 Adicionamos novas expressões com o seguinte uso a campos de fórmula no Workfront Planning e a campos personalizados calculados no Workfront:
 
@@ -93,8 +200,8 @@ Para obter mais informações, consulte [Visão geral das expressões de dados c
 >[!NOTE]
 >
 >Visualização: 31 de julho de 2025
->&#x200B;>Produção para todos os clientes: 31 de julho de 2025
->&#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
+>>Produção para todos os clientes: 31 de julho de 2025
+>>[!BADGE Fora do cronograma]{type=Neutral}
 
 Adicionamos um botão Maximizar para ampliar o campo Fórmula ao criar ou editar o campo em uma exibição de tabela de registro. Além disso, adicionamos um botão Minimizar na nova janela ampliada para reverter para a caixa de criação do campo.
 
@@ -143,8 +250,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Visualização: 24 de julho de 2025
->&#x200B;>Versão rápida de produção: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Versão rápida de produção: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Agora é possível criar registros na exibição de linha do tempo de um tipo de registro clicando duas vezes em qualquer lugar da linha do tempo.
 
@@ -159,8 +266,8 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 >[!NOTE]
 >
 >Visualização: 24 de julho de 2025
->&#x200B;>Versão rápida de produção: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Versão rápida de produção: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Agora você pode compartilhar um tipo de registro no menu Mais do cartão de tipo de registro na página do espaço de trabalho. Antes desse aprimoramento, a opção Compartilhar estava disponível somente na página de tipo de registro.
 
@@ -171,8 +278,8 @@ Para obter informações, consulte [Compartilhar tipos de registros](/help/quick
 >[!NOTE]
 >
 >Visualização: 24 de julho de 2025
->&#x200B;>Versão rápida de produção: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Versão rápida de produção: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Agora é possível exibir todas as exibições do Workfront Planning (tabela, linha do tempo e calendário) no modo de tela cheia. A funcionalidade de exibição é preservada, e você também pode alterá-la enquanto estiver em tela cheia.
 
@@ -185,8 +292,8 @@ Para obter informações, consulte [Gerenciar exibições de registros](/help/qu
 >[!NOTE]
 >
 >Visualização: 22 de julho de 2025
->&#x200B;>Produção para lançamento rápido: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Produção para lançamento rápido: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Para tornar o processo de aprovação mais flexível, adicionamos a capacidade de adicionar equipes como aprovadores nos formulários de solicitação do Planning. Agora é possível inserir e selecionar nomes de equipe ao configurar aprovadores. Qualquer um dos membros da equipe pode tomar uma decisão, que conta como a decisão de aprovação para toda a equipe.
 
@@ -199,8 +306,8 @@ Para obter mais informações, consulte [Adicionar uma aprovação a um formulá
 >[!NOTE]
 >
 >Visualização: 17 de julho de 2025
->&#x200B;>Produção para lançamento rápido: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Produção para lançamento rápido: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Estamos introduzindo os seguintes campos para capturar informações de aprovação para registros criados ao enviar uma solicitação com uma aprovação:
 
@@ -214,8 +321,8 @@ Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fie
 >[!NOTE]
 >
 >Visualização: 10 de julho de 2025
->&#x200B;>Versão rápida de produção: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Versão rápida de produção: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 
 Agora, quando você tiver agrupamentos aplicados a uma visualização de tabela, adicionar um registro à tabela preencherá automaticamente os campos associados aos agrupamentos aos quais você adiciona o registro.

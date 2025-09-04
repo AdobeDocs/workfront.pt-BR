@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '7469'
+source-wordcount: '7542'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,13 @@ Esta página lista as atualizações de interface que estamos fazendo no Adobe W
 Para todas as outras alterações no Adobe Workfront, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administração e configuração
+
+### Atualizações de interface para as caixas Novo e Copiar Scorecard
+
+**Versão de visualização: 4 de setembro de 2025; Versão de produção: 11 de setembro de 2025**
+
+Atualizamos a aparência das caixas Novo e Copiar Scorecard para corresponder ao design em outras áreas do aplicativo. Você pode exibir o design atualizado ao criar ou copiar um cartão de pontuação na área Configuração do Workfront.\
+Para obter informações, consulte [Criar um cartão de pontuação](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ### Atualizações de interface para a lista de modelos de layout em um grupo
 
@@ -217,7 +224,7 @@ Para obter informações, consulte [Gerenciar despesas do projeto](/help/quicksi
 
 >[!NOTE]
 >
->Removido temporariamente da Pré-visualização e Produção
+>Disponível em Pré-visualização e estará disponível na Produção em uma implantação em fases, a partir de 4 de setembro de 2025.
 
 Atualizamos a aparência da caixa Registrar tempo ao registrar tempo de um projeto, tarefa ou problema na seção Horas, para corresponder ao design de outras áreas do Workfront.
 
