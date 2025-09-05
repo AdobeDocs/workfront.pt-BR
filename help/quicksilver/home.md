@@ -3,10 +3,10 @@ title: Documentação do [!DNL Adobe Workfront]
 description: Documentação para  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 4558180667d3812f3b4089b7d599158327a683bf
+source-git-commit: 0a90da6978fc9b380d237dab74af1f14eabb857a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 1%
+source-wordcount: '426'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ Bem-vindo à página inicial da documentação técnica e do produto do Adobe Wo
 
 >[!TAB Problemas conhecidos]
 
-* [Problemas conhecidos](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/issues/overview)
+* [Problemas conhecidos](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
 
 
 >[!ENDTABS]
@@ -70,7 +70,8 @@ Bem-vindo à página inicial da documentação técnica e do produto do Adobe Wo
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Introdução à administração do Workfront</a></li>
-    <li><a href="https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Introdução ao Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Introdução ao Workfront Fusion</li>
+    <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Adquirir e instalar aplicativos da Adobe Exchange</a></li>
     </ul>
  </td>
     <td>
@@ -91,6 +92,7 @@ Bem-vindo à página inicial da documentação técnica e do produto do Adobe Wo
         <li><a href="/help/quicksilver/wf-api/general/api-basics.md">Noções básicas sobre API</a></li>
         <li><a href="https://developer.adobe.com/workfront/api-explorer/">API Explorer</a></li>
         <li><a href="/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md">Integrações do Workfront</a></li>
+        <li><a href="/help/quicksilver/app-builder/app-builder.md">Criar aplicativos personalizados para o Workfront com o Adobe App Builder</a></li>
         </ul></td>
   </tr>
 </table>
@@ -108,9 +110,9 @@ A pesquisa de documentação pode ser mais eficiente com algumas abordagens estr
 
 ### Explorar as seções de aprendizado e treinamento
 
-* **Materiais de treinamento**: navegue até a página [Treinamento do Workfront](https://experienceleague.adobe.com/pt-br/browse/workfront) para obter uma biblioteca de vídeos e artigos de treinamento criados para ajudá-lo a entender melhor os recursos e configurações do Workfront. Você também pode acessar o material de treinamento pago em [learning.adobe.com](https://learning.adobe.com/).
-* **Cursos**: encontre [cursos de aprendizado estruturado](https://experienceleague.adobe.com/home?lang=pt-BR&Solution=Workfront#courses) que orientam você pelo uso de vários recursos do Workfront em uma sequência lógica.
+* **Materiais de treinamento**: navegue até a página [Treinamento do Workfront](https://experienceleague.adobe.com/en/browse/workfront) para obter uma biblioteca de vídeos e artigos de treinamento criados para ajudá-lo a entender melhor os recursos e configurações do Workfront. Você também pode acessar o material de treinamento pago em [learning.adobe.com](https://learning.adobe.com/).
+* **Cursos**: encontre [cursos de aprendizado estruturado](https://experienceleague.adobe.com/home?Solution=Workfront#courses) que orientam você pelo uso de vários recursos do Workfront em uma sequência lógica.
 
 ### Encontre respostas em Fóruns da comunidade
 
-* **Fazer perguntas**: se a documentação não responder à sua pergunta, tente postar nos [fóruns da Comunidade Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=pt) onde outros usuários e especialistas podem oferecer assistência.
+* **Fazer perguntas**: se a documentação não responder à sua pergunta, tente postar nos [fóruns da Comunidade Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) onde outros usuários e especialistas podem oferecer assistência.
