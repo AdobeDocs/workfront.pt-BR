@@ -51,7 +51,7 @@ Bem-vindo à página inicial da documentação técnica e do produto do Adobe Wo
 
 >[!TAB Problemas conhecidos]
 
-* [Problemas conhecidos](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
+* [Problemas conhecidos](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/issues/overview)
 
 
 >[!ENDTABS]
@@ -70,7 +70,7 @@ Bem-vindo à página inicial da documentação técnica e do produto do Adobe Wo
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Introdução à administração do Workfront</a></li>
-    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Introdução ao Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Introdução ao Workfront Fusion</li>
     <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Adquirir e instalar aplicativos da Adobe Exchange</a></li>
     </ul>
  </td>
@@ -110,9 +110,9 @@ A pesquisa de documentação pode ser mais eficiente com algumas abordagens estr
 
 ### Explorar as seções de aprendizado e treinamento
 
-* **Materiais de treinamento**: navegue até a página [Treinamento do Workfront](https://experienceleague.adobe.com/en/browse/workfront) para obter uma biblioteca de vídeos e artigos de treinamento criados para ajudá-lo a entender melhor os recursos e configurações do Workfront. Você também pode acessar o material de treinamento pago em [learning.adobe.com](https://learning.adobe.com/).
-* **Cursos**: encontre [cursos de aprendizado estruturado](https://experienceleague.adobe.com/home?Solution=Workfront#courses) que orientam você pelo uso de vários recursos do Workfront em uma sequência lógica.
+* **Materiais de treinamento**: navegue até a página [Treinamento do Workfront](https://experienceleague.adobe.com/pt-br/browse/workfront) para obter uma biblioteca de vídeos e artigos de treinamento criados para ajudá-lo a entender melhor os recursos e configurações do Workfront. Você também pode acessar o material de treinamento pago em [learning.adobe.com](https://learning.adobe.com/).
+* **Cursos**: encontre [cursos de aprendizado estruturado](https://experienceleague.adobe.com/home?lang=pt-BR&Solution=Workfront#courses) que orientam você pelo uso de vários recursos do Workfront em uma sequência lógica.
 
 ### Encontre respostas em Fóruns da comunidade
 
-* **Fazer perguntas**: se a documentação não responder à sua pergunta, tente postar nos [fóruns da Comunidade Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) onde outros usuários e especialistas podem oferecer assistência.
+* **Fazer perguntas**: se a documentação não responder à sua pergunta, tente postar nos [fóruns da Comunidade Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=pt) onde outros usuários e especialistas podem oferecer assistência.
