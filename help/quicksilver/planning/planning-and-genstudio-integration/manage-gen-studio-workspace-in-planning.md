@@ -42,7 +42,7 @@ Para obter informações gerais sobre a integração do GenStudio com o Workfron
 >[!IMPORTANT]
 >
 >As etapas descritas neste artigo ilustram como você pode atualizar o espaço de trabalho do GenStudio no Workfront Planning quando tem permissões de gerenciamento para ele.
->> Nem todos os recursos estão disponíveis quando você tem permissões do Contribute para o espaço de trabalho do GenStudio.
+>&#x200B;> Nem todos os recursos estão disponíveis quando você tem permissões do Contribute para o espaço de trabalho do GenStudio.
 >
 >Se sua empresa tiver várias instâncias do Workfront, todos os usuários receberão permissões do Contribute no espaço de trabalho do GenStudio no Workfront Planning.
 
