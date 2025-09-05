@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '692'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 >
 >As informações neste artigo se referem ao Adobe Workfront Planning, um recurso adicional da Adobe Workfront.
 >
->Sua empresa deve adquirir uma licença adicional para o Workfront Planning acessar seus recursos.
+>Sua empresa deve adquirir um pacote adicional para que o Workfront Planning acesse seus recursos.
 >
 >Para obter mais informações, entre em contato com seu gerente de conta
 >
@@ -51,44 +51,27 @@ Você deve ter o seguinte acesso para acessar o Workfront Planning:
  </col>
  <tbody>
     <tr>
-<tr>
-<td>
-   <p> Produtos</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Planejamento do Adobe Workfront<p></li></ul></td>
-  </tr>  
  <tr>
-   <td role="rowheader"><p>plano do Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td>
    <td>
-<p>Qualquer um dos seguintes planos da Workfront:</p>
+<p>Qualquer um dos seguintes pacotes Workfront:</p>
 <ul><li>Selecionar</li>
 <li>Prime</li>
 <li>Ultimate</li></ul>
-<p>O Workfront Planning não está disponível para planos herdados do Workfront</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Pacote de planejamento do Adobe Workfront*</p></td>
-   <td>
-<p>Qualquer um dos seguintes planos do Workfront Planning:</p>
-<ul><li>Em Planejamento</li>
-<li>Planning Plus</li>
-</ul>
+<p>O Workfront Planning não está disponível para pacotes Workfront herdados</p>
+<ul><li><p>Qualquer pacote do Planning</p></li></ul>
 <p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p>
    </td>
-
 <tr>
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td>
    <td>
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p>
 <p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p>
    </td>
-
-</tr>
+  </tr>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
    <td>
    <ul><li><p>Padrão, Claro ou Contribuinte, para exibir informações do Workfront Planning</p></li>
    <li><p>Padrão, para criar espaços de trabalho e visualizações</p></li></ul>
@@ -96,7 +79,7 @@ Você deve ter o seguinte acesso para acessar o Workfront Planning:
   </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Configuração do nível de acesso</p></td>
+   <td role="rowheader"><p>Configurações de nível de acesso</p></td>
    <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p>  
 </td>
   </tr>
@@ -121,32 +104,32 @@ Você deve ter o seguinte acesso para acessar o Workfront Planning:
 <p> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua a opção Planning nas seguintes áreas:</p>
    <ul><li>Menu principal</li>
    <li>Painel esquerdo de projetos, portfólios e programas</li>
-   </ul>
-   <p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Criar e gerenciar modelos de layout</a>.</p>
-
+   </ul>   
 </td>
   </tr>
  </tbody>
 </table>
 
-*Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Compartilhar a área do Planning usando um modelo de layout
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-Depois que sua organização tiver comprado uma licença adicional do Workfront Planning, o administrador do sistema poderá adicionar a opção Planning às seguintes áreas modificando e atribuindo você a um modelo de layout:
-
-* Menu principal
-* Landing page
-* Painel esquerdo para projetos, portfólios e programas
-* Pins
-
 Os usuários padrão e os Administradores do sistema têm as áreas do Planning habilitadas por padrão nas seguintes áreas:
 
 * Menu principal
 * Painel esquerdo de projetos, portfólios ou programas
+
+O administrador do sistema deverá adicionar as áreas do Planning a você, se você tiver qualquer outra licença do Workfront e precisar contribuir para o trabalho do Workfront Planning.
+
+O administrador pode adicionar a opção Planning às seguintes áreas modificando e atribuindo você a um modelo de layout:
+
+* Menu principal
+* Página de destino
+* Painel esquerdo para projetos, portfólios e programas
+* Pins
 
 Para adicionar ou remover áreas do Workfront Planning dos usuários da sua instância do Workfront:
 
@@ -174,7 +157,11 @@ Usuários com qualquer tipo de licença do Workfront podem acessar o Workfront P
 
 ## Conceder permissões
 
-É necessário conceder aos usuários permissões para espaços de trabalho e exibições do Workfront Planning criados por você para que eles possam acessá-los.
+Você pode conceder permissões às seguintes entidades no Workfront Planning:
+
+* Espaços de trabalho
+* Tipos de registro
+* Exibições
 
 Para obter mais informações, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 

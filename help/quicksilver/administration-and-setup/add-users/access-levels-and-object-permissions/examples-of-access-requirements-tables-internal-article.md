@@ -4,9 +4,9 @@ description: Este é um artigo interno para nossa equipe manter um inventário d
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -406,6 +406,8 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
 
 Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+## Requisitos de acesso para automação e integração do Adobe Workfront
+
 <p>Baseado em conector (herdado): automação e integração do Workfront Fusion for Work </p>
    </td> 
   </tr> 
@@ -418,9 +420,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
-Para obter informações sobre licenças do Adobe Workfront Fusion, consulte [licenças do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+
+Para obter informações sobre licenças do Adobe Workfront Fusion, consulte [licenças do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Controles avançados corporativos
 
