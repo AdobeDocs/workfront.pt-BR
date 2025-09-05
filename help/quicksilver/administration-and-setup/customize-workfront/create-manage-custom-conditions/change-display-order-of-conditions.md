@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ Você pode alterar a ordem em que as condições são exibidas em projetos, tare
 
 * Quando um usuário altera a condição de uma tarefa ou problema
 
-  ![Alterar condição na lista](assets/change-conditions-list-dropdown-only.png)
+  ![Alterar condição na lista](assets/change-conditions-list-dropdown-0925.png)
+
+  >[!NOTE]
+  >
+  >Na exibição de Condição padrão, o campo **Condição** é um tipo de campo que não pode ser editado em linha. Quando você adiciona o campo **Condição** separadamente a uma exibição, ele é editável. Para obter informações sobre edição em linha, consulte [itens de edição em linha em uma lista no Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 ## Requisitos de acesso
 
@@ -68,8 +72,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Selecione a guia **Projetos**, **Tarefas** ou **Problemas**.
 
-1. Arraste ![Ícone Mover](assets/move-icon---dots.png) Condições para alterar sua ordem.
+1. Arraste ![ícone Mover](assets/move-icon---dots.png) as condições para alterar sua ordem.
 
    O novo pedido é salvo automaticamente.
 
-Para obter mais informações sobre como personalizar Condições, consulte [Condições personalizadas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Para obter mais informações sobre como personalizar condições, consulte [Condições personalizadas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

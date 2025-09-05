@@ -6,9 +6,9 @@ description: A Condição de uma tarefa ou problema é um sinalizador colocado s
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1060'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Os valores de Condição aos quais nos referimos neste artigo estão disponívei
 
 ## Requisitos de acesso {#access-requirements}
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ Os valores de Condição aos quais nos referimos neste artigo estão disponívei
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td> 
-   Novo:
+   Novo menu:
    <ul><li><p>Padrão para tarefas</p></li>
    <li><p>Colaborador ou superior para problemas</p></li></ul>
    Atual:
@@ -59,7 +59,7 @@ Os valores de Condição aos quais nos referimos neste artigo estão disponívei
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
    <td> <p>Exiba permissões ou mais altas em tarefas e problemas para exibir sua Condição</p>
-   <p>Permissões do Contribute em tarefas e problemas para atualizar a Condição</p>
+   <p>Contribua com permissões em tarefas e problemas para atualizar a Condição</p>
   </td> 
   </tr> 
  </tbody> 
@@ -134,8 +134,9 @@ Você pode atualizar manualmente a Condição de tarefas e problemas em várias 
    * Algumas Dificuldades
    * Com Problemas
 
-   ![](assets/condition-in-task-header.png)
-1. Clique em Enter para salvar a Condição.
+   ![](assets/condition-in-task-header-0925.png)
+
+<!--1. Click Enter to save the Condition.-->
 
 ### Atualizar a Condição de uma tarefa ou problema na seção Detalhes da tarefa ou problema
 
@@ -151,14 +152,17 @@ Você pode atualizar manualmente a Condição de tarefas e problemas em várias 
 
 1. Atualize a **Condição** do problema ou tarefa em linha, clicando duas vezes na condição existente e selecionando um novo valor no menu suspenso.
 
-   ![](assets/condition-drop-down-values-in-task-list.png)
+   ![](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >
    >As condições podem ser personalizadas para seu ambiente, portanto, você pode encontrar mais de três opções de Condição em seu ambiente. Os nomes das Condições podem ser diferentes dos listados acima. Para obter informações sobre como personalizar Condições no Workfront, consulte [Criar ou editar uma condição personalizada](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-
 1. Pressione **Enter** no teclado ou clique fora do campo Condição para salvar a nova tarefa ou condição de problema.
+
+   >[!NOTE]
+   >
+   >Na exibição de Condição padrão, o campo **Condição** é um tipo de campo que não pode ser editado em linha. Quando você adiciona o campo **Condição** separadamente a uma exibição, ele é editável. Para obter informações sobre edição em linha, consulte [itens de edição em linha em uma lista no Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 <!--   
 <li><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md">Views overview in Adobe Workfront</a>.</p></li>   

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '647'
 ht-degree: 2%
 
 ---
@@ -118,18 +118,23 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
      ![Alterar condição ao editar o projeto](assets/change-condition-edit-project-0825.png)
 
-   <!-- 
-   * When a user is changing the condition for a task or issue on the Updates tab:
-
-     ![Change condition when updating comment](assets/change-condition-update-comment.png)
-   -->
-
    * Quando um usuário altera a condição de uma tarefa ou problema em uma exibição de lista:
 
-     ![Alterar condição na lista](assets/change-conditions-list-dropdown-only.png)
+     ![Alterar condição na lista](assets/change-conditions-list-dropdown-0925.png)
+
+     >[!NOTE]
+     >
+     >Na exibição de Condição padrão, o campo **Condição** é um tipo de campo que não pode ser editado em linha. Quando você adiciona o campo **Condição** separadamente a uma exibição, ele é editável. Para obter informações sobre edição em linha, consulte [itens de edição em linha em uma lista no Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 1. Clique em **Salvar**.
 
 Você pode definir sua condição personalizada como uma condição padrão para projetos ou tarefas e problemas. Para obter mais informações, consulte [Definir uma condição personalizada como padrão para projetos](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) e [Definir uma condição personalizada como padrão para tarefas e problemas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 
 Para obter mais informações sobre condições personalizadas, consulte [Condições personalizadas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+
+<!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+   * When a user is changing the condition for a task or issue on the Updates tab:
+
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+   -->

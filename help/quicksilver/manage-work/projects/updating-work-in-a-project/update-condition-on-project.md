@@ -6,7 +6,7 @@ description: A Condição de um projeto é um sinalizador colocado nele para ind
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>
 
 Para as novas licenças:
-<p>Padrão</p>
+<p>Standard</p>
 
 Para licenças atuais:
 <ul><li><p>Plano</p>
@@ -61,9 +61,9 @@ Para licenças atuais:
 
 ## Definir automaticamente a Condição
 
-A configuração automática da Condição de um projeto é determinada pelo Tipo de Condição do projeto. O tipo de condição deve ser definido como Status de progresso para que o Workfront defina automaticamente a condição do projeto.
+A configuração automática da Condição de um projeto é determinada pelo Tipo de Condição do projeto. O tipo de condição deve ser definido como Status de progresso para que o Workfront defina automaticamente a condição do projeto.
 
-O administrador de Workfront ou de grupo determina o padrão do campo Tipo de condição para novos projetos no sistema ao definir as preferências do projeto na área Configuração. Para obter mais informações, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+O administrador de Workfront ou de grupo determina o padrão do campo Tipo de condição para novos projetos no sistema ao definir as preferências do projeto na área Configuração. Para obter mais informações, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Ao criar um projeto, a Condição do projeto é automaticamente definida para corresponder ao Status de progresso do projeto nesse momento. O Status de Progresso do projeto é baseado no progresso das tarefas no projeto.
 
@@ -78,7 +78,7 @@ Se você definir o Tipo de condição do seu projeto como Manual em vez de Statu
 
 1. Verifique se o campo **Tipo de Condição** está definido como **Manual**.
 
-   ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
+   ![](assets/project-details-overview-select-condition.png)
 
 1. No campo **Condição**, selecione entre as seguintes opções aquela que corresponde à sua compreensão de se o trabalho associado a ele está indo bem ou se há atrasos:
 
