@@ -4,9 +4,10 @@ description: Outras melhorias durante o período do quarto trimestre de 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f7dcae5e6bcc8674ef37ef94282c50dc9ffe951d
+exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
+source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,6 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 Com o layout de listas avançado, é possível usar filtros e agrupamentos para exibir seu trabalho e mantê-lo melhor organizado. Agora, há um indicador de ponto azul acima de um widget para informar quando um filtro ou agrupamento foi aplicado a uma lista nas seguintes áreas:
 
-* Taxas de câmbio em Configuração
 * Widget Minhas solicitações
 * Prioridades
 
