@@ -3,9 +3,9 @@ title: Visão Geral de Tipos de Registro Centralizados
 description: Os tipos de registro centralizado podem ser adicionados a vários espaços de trabalho a partir de um espaço de trabalho central ou principal no Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -20,120 +20,109 @@ recommendations: noDisplay, noCatalog
 
 # Visão geral dos tipos de registro centralizado
 
-
 Os tipos de registro centralizado podem ser adicionados a vários espaços de trabalho a partir de um espaço de trabalho central ou principal no Adobe Workfront Planning.
 
 ## Visão geral dos tipos de registros centralizados
 
 Ao implementar o Workfront Planning para uma organização de várias equipes com workflows comuns, talvez seja necessário definir uma estrutura coesa e metadados para os principais tipos de registro (como Campanhas ou Materiais de entrega) que podem ser adicionados aos espaços de trabalho de cada equipe para capturar e gerenciar o trabalho.
 
-Além disso, você pode precisar do trabalho de cada equipe para chegar a um nível central e mais global.
+Além disso, pode ser necessário que o trabalho de cada equipe atinja um nível central.
 
-Nesse fluxo de trabalho, é possível garantir que as equipes capturem seu trabalho de forma consistente ao desbloquear a visibilidade entre equipes, sem a necessidade de adicionar todos na organização a um espaço de trabalho.
+Nesse fluxo de trabalho, você pode garantir que as equipes capturem seu trabalho de forma consistente ao desbloquear a visibilidade entre equipes, sem a necessidade de adicionar tudo a um espaço de trabalho, ou todos na organização a cada espaço de trabalho. Você pode usar tipos de registro centralizados para fazer isso.
 
 Para usar tipos de registro centralizados, faça o seguinte:
 
-1. Configure um tipo de registro a ser centralizado.
+1. Configure um tipo de registro para ser centralizado em um espaço de trabalho específico.
+
+   Um gerenciador de espaço de trabalho pode selecionar usuários com uma licença, equipes, grupos, funções ou empresas do Standard para adicionar um tipo de registro escolhido a um espaço de trabalho gerenciado por eles.
+
+   O tipo de registro original existirá em seu espaço de trabalho original, mas ficará visível de todos os outros espaços de trabalho.
 
    Para obter informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
-1. Adicionar um tipo de registro existente a partir de um centralizado.
+1. Adicionar um tipo de registro existente de um já existente que foi configurado como centralizado para o espaço de trabalho de uma equipe.
+
+   O tipo de registro existirá nos seguintes espaços de trabalho:
+
+   * Seu espaço de trabalho original, onde foi designado como um tipo de registro centralizado.
+   * O espaço de trabalho da equipe.
 
    Para obter informações, consulte [Adicionar tipos de registros existentes](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md).
 
+   As seções a seguir descrevem considerações sobre os tipos de registros centralizados em seus espaços de trabalho originais ou após serem adicionados aos espaços de trabalho de uma equipe.
 
+## Considerações sobre os tipos de registros centralizados em seu espaço de trabalho original
 
+O tipo de registro configurado para ser centralizado tem as seguintes propriedades:
 
-· Uma nova configuração &quot;Permitir a adição do tipo de registro em outros espaços de trabalho&quot; está disponível em Configurações avançadas para tipos de registro.
+* Todas as informações só podem ser editadas no espaço de trabalho original.
 
-· Se ativado, o gerenciador de espaço de trabalho pode selecionar usuários com licença Standard, equipes, grupos, funções ou empresas que podem adicionar o tipo de registro nos espaços de trabalho que gerenciam.
+* Você pode executar as seguintes ações no tipo de registro centralizado a partir do espaço de trabalho original de um tipo de registro centralizado:
 
-· O gerenciador de espaço de trabalho que está editando a configuração será adicionado automaticamente à lista de usuários selecionados por padrão
+   * Editar
 
-o O gerenciador de espaço de trabalho pode remover seu próprio nome depois de adicionar pelo menos 1 outra entidade
+     A edição de um tipo de registro centralizado inclui a edição de sua aparência, recursos entre espaços de trabalho e todos os campos criados no espaço de trabalho original.
+   * Criar formulários de solicitação
+   * Gerenciar formulários de solicitação
 
-o É necessário selecionar pelo menos 1 usuário/equipe/... para salvar a configuração
+* Você só pode excluir um tipo de registro centralizado se ele não tiver sido adicionado a um espaço de trabalho de equipe. Após ser adicionado ao espaço de trabalho de uma equipe, tentar excluí-lo do espaço de trabalho original gerará um erro.
 
-o Depois que o tipo de registro for adicionado em pelo menos 1 outro espaço de trabalho, todos os usuários selecionados poderão ser removidos
+  Isso é feito para que o tipo de registro centralizado possa permanecer nos espaços de trabalho em que já foi adicionado.
+* Os registros adicionados a um tipo de registro centralizado ficam visíveis somente para usuários com permissões de Exibição no espaço de trabalho original.
+* Os registros adicionados do espaço de trabalho da equipe são acumulados e exibidos no espaço de trabalho original. Todos os membros do espaço de trabalho original obtêm permissões de Exibição para ele.
 
-§ Isso é feito para que seja possível evitar a adição do tipo de registro global em novos espaços de trabalho, mas mantê-lo nos espaços de trabalho que já o estão usando.
+* Os tipos de registro conectados de um tipo de registro centralizado se tornarão disponíveis para conexão a partir dos espaços de trabalho em que esse tipo de registro for adicionado.
 
-· Na fase 1, todos os registros dos tipos de registro conectados são compartilhados automaticamente com qualquer espaço de trabalho em que o tipo de registro foi adicionado.
+* Os campos criados para um tipo de registro centralizado do espaço de trabalho original são visíveis em todos os espaços de trabalho em que o tipo de registro é adicionado.
 
-· Quando o tipo de registro é ativado como espaço de trabalho cruzado, um campo &quot;Workspace&quot; gerado pelo sistema é adicionado ao tipo de registro
+## Considerações sobre tipos de registros centralizados depois de adicioná-los ao espaço de trabalho de uma equipe
 
-o Ele mostra o espaço de trabalho de onde cada registro foi criado.
+* Os colaboradores do espaço de trabalho da equipe obtêm permissão do Contribute para o tipo de registro centralizado no espaço de trabalho da equipe. Eles podem adicionar e gerenciar registros nela.
 
-o Este campo é somente leitura e não pode ser excluído.
+* Os visualizadores do espaço de trabalho da equipe obtêm permissão de Visualização para o tipo de registro centralizado no espaço de trabalho da equipe. Eles não podem adicionar e gerenciar registros no.
 
-o Pode ser ocultado nos campos de exibição.
+* Os gerentes de espaço de trabalho da equipe podem executar as seguintes ações no tipo de registro adicionado de um tipo de registro centralizado no espaço de trabalho de uma equipe:
 
-o O campo do espaço de trabalho pode ser usado para filtragem, agrupamento e classificação, bem como em qualquer configuração de exibição, como em outros campos.
+   * Adicionar novos campos
 
+     Os campos adicionados a um registro centralizado de um espaço de trabalho da equipe ficam visíveis somente no espaço de trabalho da equipe.
+   * Compartilhá-lo
+   * Excluí-lo.
 
-Tipos de registro entre Workspace em espaços de trabalho locais
+     Excluir o tipo de registro do espaço de trabalho de uma equipe só o remove do espaço de trabalho da equipe. Os registros adicionados a ele a partir do espaço de trabalho da equipe também são excluídos. Isso não exclui o tipo de registro de seu espaço de trabalho original ou de qualquer outro espaço de trabalho de equipe ao qual tenha sido adicionado.
 
-· Ao tentar adicionar um novo tipo de registro ao espaço de trabalho, os gerentes de espaço de trabalho locais veem uma opção para selecionar na lista de tipos de registro global que estão disponíveis para eles
+     Isso é feito para que seja possível manter o tipo de registro centralizado já adicionado nos espaços de trabalho que já o estão usando.
 
-· Quando selecionam um dos tipos de registro global, ele é imediatamente adicionado ao espaço de trabalho
+* Não é possível executar as seguintes ações no tipo de registro adicionado de um tipo de registro centralizado no espaço de trabalho de uma equipe:
 
-· É possível mover o tipo de registro global para qualquer seção e posição no espaço de trabalho local
+   * Editar
 
+     Não é possível editar a aparência, os recursos entre espaços de trabalho ou os campos importados do espaço de trabalho original.
+   * Criar formulários de solicitação
+   * Gerenciar formulários de solicitação
 
-Permissões para o tipo de registro global em espaços de trabalho locais
+* Os registros adicionados aos espaços de trabalho de uma equipe ficam visíveis nos seguintes espaços de trabalho, se você tiver permissões de Exibição ou superiores para esses espaços de trabalho:
 
-Nos espaços de trabalho locais, os membros obtêm o seguinte acesso ao tipo de registro global:
+   * O espaço de trabalho da equipe onde eles são adicionados.
+   * O espaço de trabalho original do tipo de registro centralizado.
+   * Todos os outros espaços de trabalho onde o espaço de trabalho centralizado é adicionado.
 
-· Na Fase 1, os gerentes de espaço de trabalho locais obtêm permissão do Contribute. Isso significa:
+* Os cenários a seguir existem para registros criados nos espaços de trabalho das equipes:
 
-o Os gerentes de espaços de trabalho locais podem:
+   * Se você tiver permissões Gerenciar no espaço de trabalho original e não tiver permissões nos espaços de trabalho das equipes, poderá exibir registros adicionados dos espaços de trabalho da equipe no espaço de trabalho original, mas não poderá gerenciá-los no espaço de trabalho original.
+   * Se você tiver permissões de Gerenciamento no espaço de trabalho da equipe, poderá gerenciar os registros no espaço de trabalho original do tipo de registro centralizado ou no espaço de trabalho onde eles foram adicionados.
 
-§ Adicionar o tipo de registro global
+     Você pode exibir os registros em espaços de trabalho de equipe adicionais onde o tipo de registro centralizado é adicionado somente se você tiver permissões de Visualização para esses espaços de trabalho.
 
-§ Adicionar/editar/excluir quaisquer registros no tipo de registro global, independentemente do espaço de trabalho do qual o registro foi adicionado.
+## Acesso a conexões
 
-§ Excluir o tipo de registro global do espaço de trabalho local
+Os tipos de registro conectados ao tipo de registro centralizado no espaço de trabalho original tornam-se visíveis para espaços de trabalho de equipe onde o tipo de registro centralizado é adicionado.
 
-o Os gerentes de espaços de trabalho locais não podem:
+## Comportamento da API
 
-§ Adicionar, editar, excluir campos
+Ao adicionar registros a um tipo de registro centralizado de um espaço de trabalho da equipe usando a API do Workfront Planning, o sistema verifica se o usuário tem acesso para criar registros no espaço de trabalho original do tipo de registro centralizado.
 
-§ Atualizar a aparência e o rótulo do tipo de registro
+Os seguintes casos existem:
 
-§ Consulte as configurações avançadas para o tipo de registro
+* Se o usuário tiver acesso, o registro será criado no espaço de trabalho original dos tipos de registro centralizado.
 
-§ Gerenciamento de automações
-
-§ Gerenciar formulários de solicitação
-
-§ Ajustar o compartilhamento do tipo de registro para o escopo do espaço de trabalho
-
-§ Desabilitar a configuração do tipo de registro global nas configurações avançadas.
-
-· Colaboradores de espaço de trabalho local obtêm permissão do Contribute para o tipo de registro global e podem adicionar e gerenciar registros nele
-
-· Os visualizadores do espaço de trabalho local obtêm permissão de Exibição para o tipo de registro global
-
-· Assim que um registro é adicionado ao tipo de registro global de qualquer um dos espaços de trabalho locais, o campo Workspace mostra esse nome de espaço de trabalho
-
-o Por enquanto, não é possível editar e alterar o campo do espaço de trabalho
-
-· Os registros adicionados aos espaços de trabalho locais são todos sumariados e exibidos no espaço de trabalho principal, e todos os membros desse espaço de trabalho obtêm acesso de visualização a ele.
-
-· Os registros adicionados em espaços de trabalho locais não são exibidos em outros espaços de trabalho locais usando o mesmo tipo de registro global e seus membros não obtêm acesso aos registros.
-
-
-
-Acesso a conexões:
-
-· Escopo do MVP
-
-o Os tipos de registro conectados ao tipo de registro global se tornarão visíveis para espaços de trabalho locais onde o tipo de registro global é adicionado para que eles possam usar os campos de conexão para marcar
-
-
-Comportamento da API
-
-Se o usuário tentar criar registros em um tipo de registro global por meio da API sem fornecer a ID do espaço de trabalho, o sistema verificará se o usuário tem acesso para criar registros no espaço de trabalho principal (onde o tipo de registro global é criado)
-
-· Em caso afirmativo, o registro é criado no espaço de trabalho principal
-
-· Se não, o usuário recebe um erro de validação de que não tem acesso ao espaço de trabalho principal e precisa fornecer a ID do espaço de trabalho onde tem acesso para criar.
+* Se o usuário não tiver acesso, ele receberá um erro de que não tem acesso ao espaço de trabalho original do tipo de registro centralizado e precisa fornecer a ID do espaço de trabalho onde tem acesso para criar registros.
