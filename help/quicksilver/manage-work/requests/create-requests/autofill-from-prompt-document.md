@@ -5,9 +5,9 @@ description: Você pode usar a IA para preencher automaticamente os campos de so
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 98bb646d7f96ebba57de44194df27d3f6632ab45
+source-git-commit: b8c29ecb30dda449bc604f585a06b5a6663994f9
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1144'
 ht-degree: 2%
 
 ---
@@ -116,6 +116,46 @@ Para usar sugestões com base em um prompt de texto colado:
    >[!NOTE]
    >
    >Quaisquer sugestões não revisadas serão automaticamente aceitas quando você enviar a solicitação.
+
+### Exemplos de prompt de texto
+
+Esses exemplos mostram solicitações para várias maneiras de a IA fazer referência a outros projetos.
+
+* Fazendo referência a uma campanha de cliente anterior
+
+  ```
+  Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
+  ```
+
+* Com base em um projeto existente
+
+  ```
+  Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
+  ```
+
+* Reutilizar um estilo de um produto anterior
+
+  ```
+  Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
+  ```
+
+* Expandir um tipo de campanha mais antigo
+
+  ```
+  Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
+  ```
+
+* Repetição de uma solicitação para um produto diferente
+
+  ```
+  Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
+  ```
+
+* Estilo narrativo com referências implícitas
+
+  ```
+  We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
+  ```
 
 ## Obter sugestões com base em um documento do qual você fez upload
 
