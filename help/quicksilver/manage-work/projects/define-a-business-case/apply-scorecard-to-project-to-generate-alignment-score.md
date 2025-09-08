@@ -5,9 +5,9 @@ description: Você pode usar um cartão de pontuação para medir como um projet
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Para aplicar um cartão de pontuação a um projeto:
 
 1. Selecione um scorecard no menu suspenso.
 
-   <!--![New scorecard](assets/new-scorecard.png)-->
+   ![Novo cartão de pontuação](assets/scorecard-section.png)
 
 1. Insira uma resposta para todas as perguntas no cartão de pontuação.
 
@@ -160,31 +160,27 @@ Você pode visualizar a pontuação de alinhamento de um projeto no nível do pr
 
 1. Vá para o projeto cuja Pontuação de alinhamento você deseja exibir.
 1. Clique em **Business Case** no painel esquerdo.
-1. Vá para o **Resumo do Business Case** no lado direito da tela.
+1. Vá para o **Resumo do Business Case** no lado direito da tela. A Pontuação de alinhamento está localizada no Resumo de business case, no valor **Aligned**.
 
-   A Pontuação de alinhamento está localizada no Resumo de business case, no valor **Aligned**.
-
-   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
+   ![Pontuação de alinhamento em um projeto](assets/aligned-section.png)
 
 ### Exibir as pontuações de alinhamento do projeto e do portfólio no Portfolio Otimizer
 
-Você pode visualizar a pontuação de alinhamento de um projeto ou de um portfólio no Portfolio Otimizer, se tiver acesso de Gerenciamento ao portfólio.
+Você pode visualizar a pontuação de alinhamento de um projeto ou de um portfólio no Portfolio Otimizer se tiver acesso de Gerenciamento ao portfólio.
 
 Para obter mais informações sobre as informações exibidas no Portfolio Otimizer, consulte [visão geral do Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * [Localizar a Pontuação de Alinhamento do projeto no Portfolio Otimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [Localize a Pontuação de alinhamento do portfólio no Portfolio Otimizer](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
+  ![Pontuação de alinhamento no Portfolio Otimizer](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### Localizar a Pontuação de alinhamento do projeto no Portfolio Otimizer {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. Clique no nome de um portfólio.
-1. Clique em **Otimização do Portfolio** no painel esquerdo.
-
-   O Portfolio Otimizer é exibido.
+1. Clique em **Otimização do Portfolio** no painel esquerdo. O Portfolio Otimizer é exibido.
 
    A pontuação de alinhamento de um projeto é exibida como uma porcentagem na coluna **Alinhamento** do Portfolio Otimizer.
 

@@ -6,9 +6,9 @@ description: Os riscos são eventos ou fatores possíveis que impedem a conclus�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Os riscos podem ser associados ao custo, mas o Custo Efetivo do Risco não afeta
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,18 +86,18 @@ Para criar ou editar um risco no Business Case:
 1. Na seção **Riscos**, clique em **Editar Riscos**.
 1. Insira ou edite as seguintes informações:
 
-   * **Descrição:** descreva o risco.
+   * **Descrição:** Descreva o risco.
 
-   * **Custo Potencial**: indique o custo estimado se o risco ocorrer.
+   * **Custo Potencial**: insira o custo estimado se o risco ocorrer.
 
-   * **Probabilidade**: indique a probabilidade do risco ocorrer como um valor percentual.
+   * **Probabilidade**: insira a probabilidade do risco ocorrer como um valor percentual.
 
-   * **Tipo:** indique a categoria em que o risco se enquadra.
+   * **Tipo:** Selecione a categoria em que o risco se enquadra.
    * **Plano de Mitigação**: atualize a descrição do plano para reduzir o risco.
 
-   * **Custo de Mitigação**: indique o custo do plano de mitigação que você deve colocar em prática para evitar que o risco ocorra.
+   * **Custo de Mitigação**: Insira o custo do plano de mitigação que você deve colocar em vigor para evitar que o risco ocorra.
 
-   <!--![Risks](assets/crp1-350x117.png)-->
+   ![Riscos](assets/edit-risk.png)
 
 1. (Opcional) Clique em **Adicionar outro risco** para adicionar outros riscos.
 1. Clique em **Salvar**.
@@ -115,13 +115,11 @@ Você pode criar e editar riscos na seção Riscos de um projeto ou modelo. Cria
 
    ![Seção Riscos da tarefa](assets/risks-section-on-project-2022.png)
 
-1. Clique em **Começar a adicionar riscos** e crie riscos editando suas informações em linha. **Descrição** é um campo obrigatório
+1. Clique em **Começar a adicionar riscos** e crie riscos editando suas informações em linha.
 
    Ou
 
-   Clique em **Novo Risco**.
-
-   A caixa **Novo risco** é aberta.
+   Clique em **Novo Risco** para abrir a caixa **Novo risco**.
 
    ![Nova caixa de risco](assets/new-risk-box.png)
 
@@ -149,9 +147,9 @@ Você pode criar e editar riscos na seção Riscos de um projeto ou modelo. Cria
 
 ### Editar riscos na área Riscos {#edit-risks-in-the-risks-area}
 
-É possível editar riscos durante a vida útil de um projeto, quando ocorrem alterações em sua probabilidade, custo potencial ou status, por exemplo.
+É possível editar riscos durante a vida útil de um projeto ou quando ocorrem alterações (por exemplo, uma alteração em sua probabilidade, custo potencial ou status).
 
-É possível editar um risco de cada vez ou editar vários riscos em massa.
+É possível editar um risco por vez ou editar vários riscos em massa.
 
 Para editar riscos:
 
@@ -172,7 +170,7 @@ Para editar riscos:
    Considere editar os seguintes campos:
 
    * **Descrição**: edite a descrição do risco.
-   * **Tipo de Risco**: indicar a categoria em que o risco se enquadra.
+   * **Tipo de Risco**: atualizar a categoria em que o risco se enquadra.
    * **Probabilidade**: indique a probabilidade do risco ocorrer como um valor percentual.
    * **Custo Potencial**: Indique o custo estimado se o risco ocorrer.
    * **Custo de Mitigação**: Indique o custo do plano de mitigação que você deve colocar em prática para evitar que o risco ocorra.

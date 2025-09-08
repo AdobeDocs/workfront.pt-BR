@@ -6,16 +6,16 @@ description: Você pode exportar o Business Case para um arquivo PDF, caso preci
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
 
 # Exportar o Business Case de um projeto
 
-Você pode exportar o Business Case para um arquivo PDF, caso precise imprimi-lo ou anexá-lo a um email em um formato mais condensado.
+Você pode exportar o Business Case para um arquivo PDF caso precise imprimi-lo ou anexá-lo a um email em um formato mais condensado.
 
 ## Requisitos de acesso
 
@@ -52,13 +52,12 @@ Você pode exportar o Business Case para um arquivo PDF, caso precise imprimi-lo
 
 ## Exportar o Business Case
 
-1. Vá para o projeto do qual deseja exportar o Business Case.
+{{step1-to-projects}}
+
+1. Na página **Projetos**, selecione o projeto do qual deseja exportar o Business Case.
 1. Clique em **Business Case** no painel esquerdo.
-1. Na área superior direita **Resumo do Business Case**, clique em **Exportar**.
+1. No canto superior direito da área **Resumo do Business Case**, clique em **Exportar**. Um arquivo do PDF é baixado no computador.
 
-   &lt;!—![Resumo de Business Case](assets/bc-summary--350x587.png)—>\
-   A PDF   o arquivo foi baixado no computador. O arquivo contém todas as áreas do Business Case em um formato fácil de ler.
+   ![Resumo do Business Case](assets/bc-summary.png)
 
-   <!--![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)-->
 
-1. (Opcional) Anexe o arquivo PDF a um email ou imprima-o para compartilhá-lo com outras pessoas.

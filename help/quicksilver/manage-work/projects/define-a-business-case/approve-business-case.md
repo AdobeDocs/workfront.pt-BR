@@ -5,9 +5,9 @@ description: Depois de concluir e enviar o Business Case para uma solicitação 
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -80,15 +80,15 @@ Para criar um relatório para projetos que estão pendentes de aprovação de se
 
 1. Selecione a guia **Exibir** do relatório e clique em **Adicionar coluna**.
 
-1. Comece digitando &quot;Status&quot; no campo **Mostrar nesta coluna** e selecione este campo quando ele aparecer na lista.
+1. Comece digitando *Status* no campo **Mostrar nesta coluna** e selecione este campo quando ele aparecer na lista.
 
    Essa coluna exibirá o status dos projetos.
 
 1. Selecione a guia **Filtros** do relatório e clique em **Adicionar uma Regra de Filtro**.
 
-1. Comece digitando &quot;Status&quot; em **Mostrar apenas projetos em que o campo ...** está e selecione-o quando ele aparecer na lista.
+1. Comece digitando *Status* em **Mostrar apenas projetos em que o campo ...** está e selecione-o quando ele aparecer na lista.
 1. Selecione **Igual** para o modificador de filtro.
-1. Comece a digitar &quot;Solicitado&quot; no campo disponível.
+1. Comece digitando *Solicitado* no campo disponível.
 
    Isso garante que o relatório inclua apenas projetos que estejam no status Solicitado.
 
@@ -126,15 +126,15 @@ Para criar um relatório para projetos que estão pendentes de aprovação de se
 1. Clique em **Business Case** no painel esquerdo.
 1. Clique em **Aprovar** ou **Rejeitar** na área Resumo do Business Case para aprovar ou rejeitar o Business Case.
 
-   &lt;!—![Caso de negócios](assets/business-case-summary-with-rp-information--1-.png)—>
+<!-- ![Business case](assets/business-case-summary-with-rp-information--1-.png) -->
 
-   O status do projeto será alterado para **Aprovado** se o Business Case for aprovado.
+O status do projeto será alterado para **Aprovado** se o Business Case for aprovado.
 
-   O status do projeto será alterado para **Rejeitado** se o Plano de Negócio for rejeitado.
+O status do projeto será alterado para **Rejeitado** se o Plano de Negócio for rejeitado.
 
-   >[!NOTE]
-   >
-   >Não há notificações que alertem o usuário que enviou a aprovação do business case se a solicitação do projeto foi aprovada ou rejeitada.
+>[!NOTE]
+>
+>Não há notificações que alertem o usuário que enviou a aprovação do business case se a solicitação do projeto foi aprovada ou rejeitada.
 
 ## Aprove o business case acessando os projetos solicitados em um portfólio
 

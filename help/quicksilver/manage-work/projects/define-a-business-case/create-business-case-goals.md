@@ -5,9 +5,9 @@ description: Como parte da criação de um Business Case, você pode criar um co
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,10 @@ Considere o seguinte ao criar metas do Business Case para seus projetos:
 {{step1-to-projects}}
 
 1. Na lista de projetos, selecione o projeto para o qual deseja definir metas de Business Case.
+
 1. No painel esquerdo, clique em **Business Case**. A seção **Business Case** é exibida.
 
-   <!--![Business case info](assets/business-case-page-info-goals-expenses-nwe-350x123.png)-->
+   ![Informações do business case](assets/business-case-info.png)
 
 1. Na seção **Metas**, clique em **Editar Metas**.
 
@@ -93,15 +94,15 @@ Considere o seguinte ao criar metas do Business Case para seus projetos:
 
    * Muito alta
    * Alta
-   * Média
+   * Médio
    * Baixa
    * Muito baixa
 
-     <!--![Importance](assets/g1-350x76.png)-->
+   ![Importância](assets/goals-section.png)
 
-     >[!NOTE]
-     >
-     >Você não pode personalizar os níveis de importância das metas.
+   >[!NOTE]
+   >
+   >Você não pode personalizar os níveis de importância das metas.
 
 1. (Opcional) Para adicionar outra meta, clique em **Adicionar Outra Meta** e repita as etapas de 5 a 6.
 

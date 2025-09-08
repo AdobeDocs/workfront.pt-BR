@@ -5,9 +5,9 @@ description: Forms personalizados são usados para coletar informações que nã
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -70,19 +70,19 @@ Para obter informações sobre como anexar formulários personalizados a objetos
 
 ## Anexar o Forms personalizado ao Business Case
 
-Para adicionar um personalizado de a um Business Case, o administrador do Workfront precisa selecionar esta opção em Configuração. Para obter mais informações sobre como habilitar formulários personalizados na Instalação, consulte a seção [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) no artigo [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Para adicionar um personalizado de a um Business Case, o administrador do Workfront precisa selecionar esta opção em Configuração. Para obter mais informações sobre como habilitar formulários personalizados na Instalação, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Para anexar um formulário personalizado:
 
-1. Vá para o projeto ao qual deseja anexar o formulário e clique em **Business Case** no painel esquerdo.
+1. Vá para o projeto ao qual deseja anexar o formulário e clique em **Business Case** no painel esquerdo. O Business Case é exibido.
 
-   O Business Case é exibido.
+1. Na seção **Formulário personalizado**, selecione o formulário personalizado que deseja anexar no menu suspenso. O formulário personalizado aparece na seção **Formulários adicionados** abaixo.
 
-1. Na seção **Formulário personalizado**, selecione o formulário personalizado que deseja anexar no menu suspenso.
+1. (Opcional) Para expandir os detalhes do formulário personalizado, clique na seta à esquerda do nome do formulário personalizado.
 
-   <!--![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)-->
+   ![Expandir detalhes do formulário personalizado](assets/expand-custom-form-details.png)
 
-1. (Opcional) Selecione **Editar formulário personalizado**.\
-   <!--![Edit custom form](assets/acf1-350x122.png)-->
+<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+  ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Opcional) Especifique as informações nos campos do formulário personalizado e clique em **Salvar**.
+1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->

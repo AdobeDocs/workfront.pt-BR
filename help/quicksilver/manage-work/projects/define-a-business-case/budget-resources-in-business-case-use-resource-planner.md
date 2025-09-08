@@ -5,9 +5,9 @@ description: Como parte do planejamento de recursos, você pode usar o Planejado
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Você também pode estimar recursos no business case usando o Planejador de cen�
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,13 +106,13 @@ Para aplicar Conjuntos de Recursos e prever recursos do projeto no Business Case
 
 1. (Opcional e condicional) Se as informações do projeto tiverem sido publicadas de uma iniciativa no Planejador de cenários, execute um dos seguintes procedimentos:
 
-   * Selecione o Planejador de recursos no campo **Escolha quais horas usar para calcular o Custo de Trabalho Orçado do projeto**, depois clique em **Escolher > Editar orçamento de recursos**.
+   * Selecione o Planejador de recursos no campo **Escolha quais horas usar para calcular o Custo de Trabalho Orçado do projeto**, depois clique em **Escolher** > **Editar orçamento de recursos**.
 
-     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
+   <!-- ![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * Se o Planejador de cenários foi selecionado para recursos de orçamento para o projeto, clique em **Alterar** > **Editar orçamento de recursos**.
 
-     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
+     <!-- ![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    Usa as Horas Orçadas do projeto para calcular o Custo de Mão-de-Obra Orçado do projeto.
 
@@ -156,9 +156,9 @@ Para aplicar Conjuntos de Recursos e prever recursos do projeto no Business Case
 
     
 
-1. Clique em **Hoje** para voltar ao período atual.
+1. Clique em **Hoje** para retornar ao período de tempo de hoje.
 1. (Opcional) Clique em **Semana**, **Mês** ou **Trimestre** para exibir informações do projeto em diferentes intervalos de tempo.
-1. (Opcional) Clique no menu suspenso **Horas** e selecione **Horas**,**FTE** ou **Custo** para alterar a forma como as informações são exibidas no Planejador de Recursos. As horas são exibidas por padrão.
+1. (Opcional) Clique no menu suspenso **Horas** e selecione **Horas**, **FTE** ou **Custo** para alterar a forma como as informações são exibidas no Planejador de Recursos. As horas são exibidas por padrão.
 
 1. (Opcional) Clique em **Exportar** para exportar o Planejador de recursos para um arquivo do Excel.
 
@@ -172,7 +172,7 @@ Para aplicar Conjuntos de Recursos e prever recursos do projeto no Business Case
 
    * Estime manualmente a quantidade de valores de Horas, FTE ou Custo para funções, usuários ou o projeto.
 
-     Ou
+     ou
 
    * Clique no ícone **Opções** do projeto ou das funções de trabalho e selecione uma opção para orçar automaticamente as horas para funções, usuários ou o projeto.
 
@@ -180,9 +180,9 @@ Para aplicar Conjuntos de Recursos e prever recursos do projeto no Business Case
 
    >[!NOTE]
    >
-   >Você pode estimar horas, FTEs ou custos dos recursos para qualquer período exibido na área Orçamento de recursos, independentemente da linha do tempo do projeto. Por exemplo, se você quiser indicar que seus recursos podem não estar disponíveis durante a linha do tempo do projeto (em que estão associados às Horas planejadas), mas podem estar disponíveis durante outro tempo, você pode fazer isso orçando-os para períodos em que as Horas planejadas são zero, se for quando elas estiverem disponíveis para trabalhar.
+   >Você pode estimar horas, FTEs ou custos para seus recursos para qualquer período exibido na área Orçamento de recursos, independentemente da linha do tempo do projeto. Por exemplo, se você quiser indicar que os recursos podem não estar disponíveis durante a linha do tempo do projeto (em que estão associados às Horas planejadas), mas podem estar disponíveis durante outro momento, é possível fazê-lo orçando-os para períodos em que as Horas planejadas são zero, se for quando elas estiverem disponíveis para trabalhar.
 
-1. (Opcional) Para entender se você pode mover as Horas orçadas, os FTEs ou os Custos para outro intervalo de tempo, clique no ícone **Opções** e depois **Ajustar Datas de Orçamento**.
+1. (Opcional) Para entender se você pode mover as Horas orçadas, os FTEs ou os Custos para outro período, clique no ícone **Opções** e **Ajustar Datas de Orçamento**.
 
    Para obter mais informações sobre o ajuste de datas orçadas, consulte [Ajustar datas de orçamento no Planejador de Recursos](../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md).
 
