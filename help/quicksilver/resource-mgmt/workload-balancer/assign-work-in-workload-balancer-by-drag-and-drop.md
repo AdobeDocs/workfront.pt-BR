@@ -6,7 +6,7 @@ description: Você pode atribuir itens de trabalho usando o Balanceador de carga
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 69ac06c36440d9fbbf0c8c9f3e019374da2e2f91
+source-git-commit: bf1a8e4384360554c6245b455650f30976e82ce1
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Para obter informações gerais sobre como atribuir trabalho a usuários usando 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -95,7 +95,7 @@ Você pode atribuir um item da área Trabalho não atribuído a um usuário ou p
    >* A opção Mostrar todos os usuários está disponível somente no Balanceador de carga de trabalho de um projeto.
    >* Use filtros para exibir somente os usuários que são importantes para você. Por exemplo, use um filtro para exibir somente usuários de suas equipes ou grupos.
 
-1. Clique na barra de um item de trabalho <span class="preview">ou atribuição de função</span> que indica a linha do tempo planejada ou projetada e arraste-a sobre o nome de um usuário na área **Atribuída**.
+1. Clique na barra de um item de trabalho <span class="preview">ou atribuição de função</span> que indica a linha do tempo planejada ou projetada e arraste-a ao longo das horas para um usuário na área **Atribuída**.
 
    O usuário que você passar o mouse para soltar o item de trabalho é realçado.
 
