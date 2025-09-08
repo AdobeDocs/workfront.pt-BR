@@ -5,9 +5,9 @@ description: Você pode usar a IA para preencher automaticamente os campos de so
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b8c29ecb30dda449bc604f585a06b5a6663994f9
+source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1336'
 ht-degree: 2%
 
 ---
@@ -121,41 +121,54 @@ Para usar sugestões com base em um prompt de texto colado:
 
 Esses exemplos mostram solicitações para várias maneiras de a IA fazer referência a outros projetos.
 
-* Fazendo referência a uma campanha de cliente anterior
+#### Fazendo referência a uma campanha de cliente anterior
 
-  ```
-  Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
-  ```
+>[!BEGINSHADEBOX]
 
-* Com base em um projeto existente
+Crie uma solicitação de campanha semelhante à que fizemos para o lançamento do segundo trimestre da (Client Company), mas desta vez para a divisão Automotive. Manter o mesmo conjunto de entrega e perfil de público-alvo.
 
-  ```
-  Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
-  ```
+>[!ENDSHADEBOX]
 
-* Reutilizar um estilo de um produto anterior
+#### Com base em um projeto existente
 
-  ```
-  Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
-  ```
+>[!BEGINSHADEBOX]
 
-* Expandir um tipo de campanha mais antigo
+Use a mesma configuração que tivemos no início do projeto (Empresa cliente) na primavera passada. Eu desejo executar uma campanha publicitária digital direcionada ao mesmo público executivo, mas com datas atualizadas para este trimestre.
 
-  ```
-  Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
-  ```
+>[!ENDSHADEBOX]
 
-* Repetição de uma solicitação para um produto diferente
+#### Reutilizar um estilo de um produto anterior
 
-  ```
-  Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
-  ```
+>[!BEGINSHADEBOX]
 
-* Estilo narrativo com referências implícitas
+Prepare uma solicitação semelhante à campanha de promoção de verão (Empresa do cliente) que executamos no ano passado. Concentre-se nos ativos de redes sociais, mantenha o espanhol como idioma principal e ajuste o orçamento para US$ 75.000.
 
-  ```
-  We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
-  ```
+>[!ENDSHADEBOX]
+
+#### Expandir um tipo de campanha mais antigo
+
+>[!BEGINSHADEBOX]
+
+Use como referência a campanha da série de webinários (empresa cliente) do primeiro trimestre. Quero o mesmo fluxo de trabalho de registro e ativos, mas desta vez o tópico é &quot;IA no Planejamento Financeiro&quot; e o público é de jovens profissionais.
+
+>[!ENDSHADEBOX]
+
+#### Repetição de uma solicitação para um produto diferente
+
+>[!BEGINSHADEBOX]
+
+Configure uma solicitação de campanha da mesma forma que o projeto de reformulação da marca (Empresa do cliente) que lidamos, mas substitua por (Nova empresa do cliente) como cliente. Mantenha todos os materiais de entrega alinhados à marca corporativa.
+
+>[!ENDSHADEBOX]
+
+#### Estilo narrativo com referências implícitas
+
+>[!BEGINSHADEBOX]
+
+Estamos planejando uma campanha semelhante aos anúncios de feriados sociais que fizemos no ano passado. O orçamento deve ser de cerca de 50 mil, a meta é a geração de leads e os resultados devem incluir os ativos do Instagram e do TikTok.
+
+>[!ENDSHADEBOX]
+
 
 ## Obter sugestões com base em um documento do qual você fez upload
 
