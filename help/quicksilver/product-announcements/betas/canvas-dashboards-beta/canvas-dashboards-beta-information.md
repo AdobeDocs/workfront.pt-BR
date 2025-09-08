@@ -7,9 +7,9 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
+source-git-commit: db08403c62cc85d6ccb705bb84c9c277e94f8635
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Forneça comentários](#provide-feedback) abaixo.<br>
->&#x200B;>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -55,7 +55,7 @@ Para obter mais informações, consulte [Visão geral dos Painéis da Tela](/hel
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurações de nível de acesso</p></td> 
-   <td><p>Editar acesso a relatórios, painéis e calendários</p>
+   <td><p>Acesso de Administrador do sistema para ativar Painéis do Canvas</p>
   </td> 
   </tr>  
 </tbody> 
@@ -73,9 +73,15 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    >[!NOTE]
    >
-   > O botão **Ingressar no Canvas Dashboards beta** só estará disponível se sua organização tiver sido convidada para o beta.
+   > O botão **Ingressar nos Painéis da Tela beta** só pode ser acessado por administradores do sistema. Todos os outros usuários verão esse botão em um estado desativado.
 
 1. Revise os termos na caixa **contrato do Beta** e clique em **Concordo**. Agora você está inscrito no beta. Observe que pode levar alguns minutos para que os dados do Workfront fiquem totalmente acessíveis nos Painéis do Canvas.
+
+   >[!NOTE]
+   >
+   >Depois que os termos beta são aceitos, os recursos do Painel de controle do Canvas serão habilitados para todos os usuários no ambiente do Workfront. Qualquer usuário com acesso de Visualização e Gerenciamento a painéis poderá visualizar e editar Painéis da Tela de acordo com seu nível de acesso.<br>
+   >Observe que a visibilidade da landing page dos Painéis do Canvas é controlada por meio do Modelo de layout atribuído pelo usuário. Para obter mais informações, consulte [Criar e gerenciar modelos de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
 
 ## Fornecer feedback
 
