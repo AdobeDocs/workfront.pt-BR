@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
+source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 >* Versão rápida de produção: 11 de setembro de 2025
 >* Produção para todos os clientes: 16 de outubro de 2025
 
-Para simplificar a experiência de solicitação unificada, a coluna Status agora exibe o Status da solicitação e o Status da aprovação, o que for aplicável a uma determinada solicitação.
+Para simplificar a experiência de solicitação unificada, a coluna Status agora exibe o Status da solicitação e o Status da aprovação, o que se aplicar a uma determinada solicitação.
 
 Para obter mais informações sobre como criar solicitações, consulte:
 

@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
+source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 4%
@@ -291,7 +291,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Nova coluna de Status combinada na lista de Solicitações unificada</a><p></p>
-            <p>Para simplificar a experiência de solicitação unificada, a coluna Status agora exibe o Status da solicitação e o Status da aprovação, o que for aplicável a uma determinada solicitação.</p>
+            <p>Para simplificar a experiência de solicitação unificada, a coluna Status agora exibe o Status da solicitação e o Status da aprovação, o que se aplicar a uma determinada solicitação.</p>
         </td>
         <td>sexta-feira, 28 de agosto de 2025</td>
         <td>sexta-feira, 11 de setembro de 2025</td>
@@ -419,7 +419,7 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API versão 20
 
@@ -431,7 +431,7 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
