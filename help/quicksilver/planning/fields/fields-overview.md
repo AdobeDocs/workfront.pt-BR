@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -94,3 +94,5 @@ Você pode adicionar novos campos no Adobe Workfront Planning que reflitam o cic
 * Os nomes de campos podem ter até 250 caracteres.
 
 * Ao excluir um tipo de registro ou espaço de trabalho, todos os campos associados a eles e aos valores dos campos também são excluídos e não podem ser recuperados. <!-- this might change with a possible recycle bin solution?!-->
+* Quando você exclui campos que fazem parte de uma expressão de fórmula, o campo de fórmula é alterado.
+* Quando você altera uma expressão de fórmula e esse campo de fórmula é referenciado em outros campos de fórmula, as fórmulas adicionais também são afetadas.

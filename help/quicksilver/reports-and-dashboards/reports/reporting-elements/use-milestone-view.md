@@ -3,19 +3,31 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Usar a visualização de Etapas
 description: Você pode aplicar a visualização Marco a uma lista de projeto ou relatório. Você pode usar o modo de exibição Marco para exibir todos os marcos associados às tarefas nos projetos que você está visualizando.
-author: Nolan
+author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 0%
+source-wordcount: '1420'
+ht-degree: 1%
 
 ---
 
 # Usar a visualização de Etapas
 
 <!-- Audited: 11/2024 -->
+
+<!--remove Preview and Production mentions from the article when this comes out live-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Você pode aplicar a visualização Marco a uma lista de projeto ou relatório. Você pode usar o modo de exibição Marco para exibir todos os marcos associados às tarefas nos projetos que você está visualizando.
 
@@ -46,9 +58,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
    <td> 
-      <p>Novo:</p>
+      <p>Novo menu:</p>
          <ul>
-         <li><p>Padrão</p></li>
+         <li><p>Standard</p></li>
          </ul>
       <p>Atual:</p>
          <ul>
@@ -83,7 +95,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Visão geral da visualização de Etapas {#milestone-view-overview}
 
-A visualização Marco está disponível em listas de projeto e relatórios de projeto. Esta visualização permite que você visualize rapidamente todos os marcos associados às tarefas nos projetos que você está visualizando.
+A visualização Marco está disponível em listas de projeto e relatórios de projeto. Você pode visualizar rapidamente todos os marcos associados às tarefas nos projetos que está visualizando.
 
 
 >[!NOTE]
@@ -92,8 +104,9 @@ A visualização Marco está disponível em listas de projeto e relatórios de p
 >
 >* Folhas de horas, na lista de projetos ao adicionar um projeto.
 
-
 Para obter informações sobre como alternar para o modo de exibição de Marco, consulte a seção [Alternar para o modo de exibição de Marco](#switch-to-the-milestone-view) neste artigo.
+
+<!--add new screen shot-->
 
 ![Projeto com exibição de marco](assets/project-with-milestone-view-with-complete.png)
 
@@ -116,18 +129,30 @@ Ao aplicar a visualização Marco a uma lista de projetos, os projetos são exib
 Ao visualizar uma lista de projetos ou um relatório de projeto na visualização Marco, as seguintes informações estão disponíveis:
 
 * **Datas Planejadas ou Datas Projetadas:** especifique se deseja exibir Datas Planejadas ou Datas Projetadas na exibição de Marco.\
-  As datas são exibidas para o início e a conclusão, bem como para cada marco no Caminho de marcos.\
-  Se você estiver visualizando Datas planejadas e também tiver acesso de gerenciamento ao projeto, poderá editar as seguintes datas diretamente da visualização de Marco: (Se você estiver visualizando Datas projetadas, as datas não poderão ser editadas porque as Datas projetadas são calculadas e não podem ser alteradas manualmente.)
+  As datas são exibidas para as datas de início e conclusão do projeto, bem como para a conclusão de cada tarefa de etapa no Caminho de Etapas.
 
-   * **Datas de Início do Projeto:** Se um projeto estiver agendado a partir da Data de Início, você poderá alterar manualmente a Data de Início do projeto, e a Data de Conclusão será calculada.
-   * **Datas de Término do Projeto:** Se um projeto estiver agendado a partir da Data de Término, você poderá alterar manualmente a Data de Término do projeto, e a Data de Início será calculada.
-   * **Datas de conclusão da tarefa:** você pode atualizar manualmente a conclusão das tarefas diretamente do modo de exibição Marco.
+  Se você estiver visualizando Datas projetadas, as datas não poderão ser editadas. As datas projetadas são calculadas pela Workfront e não podem ser alteradas manualmente.
 
-* **Percentual concluído:** Exibe o percentual de conclusão de cada tarefa e projeto.\
-  Você pode desabilitar a exibição da porcentagem de conclusão, conforme descrito na seção [Configurar quais informações serão exibidas na exibição de Marco](#configure-what-information-displays-in-the-milestone-view) deste artigo.\
+  Se você estiver visualizando Datas planejadas e também tiver acesso de Gerenciamento ao projeto, poderá editar as seguintes datas diretamente da visualização de Marco:
+
+   * **Datas de Início do Projeto:** Se um projeto estiver agendado a partir da Data de Início, você poderá alterar manualmente a Data de Início Planejada do projeto, e a Data de Conclusão Planejada será então calculada.
+   * **Datas de conclusão do projeto:** se um projeto estiver agendado a partir da Data de conclusão planejada, você poderá alterar manualmente a Data de conclusão planejada do projeto, e a Data de início planejada será calculada.
+   * **Datas de conclusão da tarefa:** você pode atualizar manualmente a Data de conclusão planejada para tarefas diretamente do modo de exibição Marco.
+
+* **Percentual concluído:** Exibe o percentual de conclusão de cada tarefa e projeto.
+
+  Você pode desabilitar a exibição da porcentagem de conclusão, conforme descrito na seção [Configurar quais informações serão exibidas na exibição de Marco](#configure-what-information-displays-in-the-milestone-view) deste artigo.
+
   Você pode ajustar a porcentagem de conclusão diretamente na exibição de Marco, conforme descrito na seção [Ajustar a porcentagem concluída para tarefas na exibição de Marco](#adjust-percent-complete-for-tasks-in-the-milestone-view) deste artigo.
 
-* **Ícones de status de tarefas:** um ícone de status é exibido ao lado de cada projeto e tarefa no modo de exibição Marco.
+* **Ícones de status de progresso da tarefa:** um ícone de status é exibido ao lado de cada projeto e tarefa no modo de exibição Marco. <!--get new screen shots or hide them - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+
+  <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
+   * On Time - green
+   * Behind - yellow
+   * At Risk - blue
+   * Late - red-->
+
 
    * No Prazo\
      ![Ícone On time](assets/gantt-ontime.png)
@@ -141,7 +166,8 @@ Ao visualizar uma lista de projetos ou um relatório de projeto na visualizaçã
    * Atrasado\
      ![Ícone de atraso](assets/gantt-late.png)
 
-  Você pode desabilitar a exibição desses ícones de status, conforme descrito na seção [Configurar quais informações serão exibidas na exibição de Marco](#configure-what-information-displays-in-the-milestone-view) deste artigo.\
+  Você pode desabilitar a exibição desses ícones de status, conforme descrito na seção [Configurar quais informações serão exibidas na exibição de Marco](#configure-what-information-displays-in-the-milestone-view) deste artigo.
+
   Para obter informações mais detalhadas sobre cada tipo de status, consulte o artigo [Visão geral do status do progresso da tarefa](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 * **Sombreamento de status de tarefa para tarefas concluídas**: depois que uma tarefa é marcada como Concluída, o plano de fundo da tarefa é sombreado no modo de exibição Marco para indicar se a tarefa foi concluída no prazo ou atrasada:
@@ -158,18 +184,43 @@ Ao visualizar uma lista de projetos ou um relatório de projeto na visualizaçã
 
       * **Sombreamento verde para a coluna Início do Projeto**: o plano de fundo da coluna Início do Projeto estará verde quando o Status de Progresso do projeto for **No Prazo**.
 
+     >[!TIP]
+     >
+     >Você deve ir até a página Detalhes do Projeto para visualizar a Data do Início Efetivo do projeto.
+
    * **Coluna de Término do Projeto**: o plano de fundo da coluna de Término do Projeto é vermelho ou verde somente quando a Data de Término Efetivo é preenchida:
 
       * **Sombreamento Vermelho para a coluna Conclusão do projeto**: o plano de fundo da coluna Conclusão do projeto fica vermelho quando o Status de Progresso do projeto é **Atrasado**.
 
       * **Sombreamento verde para a coluna Conclusão do projeto**: o plano de fundo da coluna Conclusão do projeto estará verde quando o Status de Progresso do projeto for **No Prazo**.
 
+     >[!TIP]
+     >
+     >Você deve ir até a página Detalhes do Projeto para visualizar a Data de Término Efetivo do projeto.
+
    * Nenhuma sombra de cor é atribuída às colunas Início e Conclusão quando as tarefas têm um Status de Progresso de Em Risco ou Atrasado.
+
+  <!--add new screen shot-->
 
   ![Modo de exibição de marco com sombreamento](assets/milestone-view-with-shading.png)
 
 * **Nome do projeto**: o nome do projeto é exibido com um link para o projeto.
 * **Ícone Condição do projeto**: um ícone é exibido ao lado do nome do projeto, indicando a condição do projeto.
+
+  <!--
+   <div class="preview">
+   A condition icon in the shape of a colored circle displays next to each project in the Milestone view. The possible project conditions and circle colors are: 
+   * On Target - green
+   * At Risk - yellow
+   * In Trouble - red
+   </div>
+   -->
+
+  A condição do projeto pode ser uma das seguintes:
+
+   * No Prazo
+   * Em Risco
+   * Com problemas
 
 ## Configurar quais informações serão exibidas na visualização de Marco {#configure-what-information-displays-in-the-milestone-view}
 
@@ -178,18 +229,23 @@ Você pode configurar se os seguintes elementos serão exibidos na visualizaçã
 * Ícones de status de progresso
 * Porcentagem concluída de projetos e tarefas
 
-Por padrão, os ícones de status do projeto e o percentual concluído dos projetos são exibidos.
+Por padrão, os ícones de status do progresso e o percentual concluído de projetos e tarefas são exibidos.
 
-Quaisquer alterações feitas nessas opções se aplicam somente a você; outros usuários não serão afetados. As alterações feitas serão mantidas na próxima vez que você fizer logon no Adobe Workfront.
+Quaisquer alterações feitas nessas opções se aplicam somente a você; outros usuários não serão afetados. As alterações feitas serão mantidas na próxima vez que você fizer logon no Workfront.
 
 Para configurar se os ícones de status do projeto e a porcentagem de conclusão dos projetos serão exibidos:
 
 {{step1-to-projects}}
 
-1. Clique no menu suspenso **Exibir** e em **Marco**.\
-   Se você estiver visualizando uma lista de projetos dentro de uma Portfolio ou um Programa, selecione a subguia **Marco**.
+1. Clique no menu suspenso **Exibir** e em **Marco**.
+   <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. Clique em **Opções** no canto superior direito da exibição Marco.\
+1. <!--In the Production environment,--> Clique em **Opções** no canto superior direito da exibição Marco.
+
+   <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
+
+   <!--at Prod release, replace this screen shot and adjust the Production/ Preview text above-->
+
    ![marco_exibição_opções.png](assets/milestone-view-options-350x141.png)
 
 1. Selecione entre as seguintes opções:
@@ -211,7 +267,7 @@ Para configurar se os ícones de status do projeto e a porcentagem de conclusão
 
 ## Ajustar a Porcentagem Concluída para tarefas na exibição de Marco {#adjust-percent-complete-for-tasks-in-the-milestone-view}
 
-Você pode ajustar a Porcentagem concluída para tarefas na visualização Marco. Não é possível ajustar o Percentual de Conclusão para uma tarefa pai (uma tarefa que contém subtarefas).
+Você pode ajustar a Porcentagem concluída para tarefas na visualização Marco. Não é possível ajustar o Percentual concluído para uma tarefa pai (uma tarefa que contém subtarefas) ou para um projeto.
 
 Para ajustar o percentual concluído de uma tarefa na exibição Marco:
 
@@ -219,6 +275,8 @@ Para ajustar o percentual concluído de uma tarefa na exibição Marco:
 
 1. Clique no menu suspenso **Exibir** e em **Marco**.
 
-1. (Condicional) Se as porcentagens de conclusão não estiverem sendo exibidas na exibição Marco, clique em **Opções** no canto superior direito da exibição Marco e verifique se **Porcentagem concluída** está habilitada.
+1. (Condicional) Se as porcentagens de conclusão não estiverem sendo exibidas no modo de exibição Marco, habilite a exibição do Percentual Concluído de tarefas e projetos, conforme descrito na seção [Configurar quais informações serão exibidas no modo de exibição Marco](#configure-what-information-displays-in-the-milestone-view) deste artigo.
 
-1. Clique na porcentagem de conclusão abaixo de uma tarefa, especifique uma nova porcentagem e pressione Enter.
+1. <!--In the Production environment,--> Clique na porcentagem de conclusão abaixo de uma tarefa, especifique uma nova porcentagem e pressione Enter.
+
+   <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->

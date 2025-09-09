@@ -4,9 +4,9 @@ description: O espaço de trabalho do GenStudio for Performance Marketing estar�
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Sua organização deve atender aos seguintes requisitos para que a integração 
    <td role="rowheader"><p>Funções de usuário do Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualquer função de usuário do GenStudio para acessar Campanhas, Produtos e Personalidades</li>
    <li>GenStudio System Manager para acessar Ativações e Eventos</li></ul>
-   Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
+   Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
    </p>
   </td> 
   </tr>   
@@ -146,15 +146,18 @@ Dependendo de quantas instâncias do Workfront sua organização tiver, você te
     <td role="rowheader"><p>Uma instância do Workfront</p></td> 
    <td> 
 <p>O espaço de trabalho do GenStudio está visível na sua instância do Workfront Planning</p>
-<p>Os administradores do Workfront têm permissões para Gerenciar o espaço de trabalho do GenStudio no Planning</p>
-<p>Todos os outros usuários têm acesso ao espaço de trabalho do GenStudio no Planning</p>
+<p>Todos os usuários, incluindo administradores do Workfront, têm acesso ao espaço de trabalho do GenStudio no Planning por padrão</p>
+<p>Os administradores do Workfront podem modificar e conceder permissões de gerenciamento no espaço de trabalho do GenStudio a qualquer pessoa</p>
 </td> </tr>
    <tr> 
 <td> 
    <p> Várias instâncias do Workfront</p> </td> 
    <td> 
    <p>O espaço de trabalho do GenStudio está visível em todas as instâncias do Workfront</p>
-<p>Todos os usuários com acesso ao GenStudio for Performance Marketing e ao Workfront Planning têm permissões do Contribute no GenStudio no Planning</p> </td> 
+<p>Todos os usuários com acesso ao GenStudio for Performance Marketing e ao Workfront Planning têm permissões do Contribute no GenStudio no Planning por padrão</p> 
+<p>Os administradores do Workfront não podem conceder permissões de gerenciamento ao espaço de trabalho do GenStudio a ninguém</p>
+
+</td> 
   </tr>
    </tbody> 
 </table>
@@ -199,6 +202,8 @@ As seções abaixo descrevem o seguinte:
    * Editar informações de tipos de registros do GenStudio (sua aparência, configurações avançadas).
    * Compartilhar tipos de registros do GenStudio com outras pessoas.
    * Criar tipos de registro. Esses tipos de registro permanecem somente no Workfront Planning. Eles não são exibidos no GenStudio.
+   * Habilite registros do espaço de trabalho do GenStudio para se conectar a outros espaços de trabalho.
+   * Habilite registros do espaço de trabalho do GenStudio para serem adicionados a outros espaços de trabalho.
 * Quando você tem permissões do Contribute para o espaço de trabalho do GenStudio no Planning, não é possível modificar os tipos de registro do GenStudio no Planning.
 
 ### Registros no espaço de trabalho do GenStudio
