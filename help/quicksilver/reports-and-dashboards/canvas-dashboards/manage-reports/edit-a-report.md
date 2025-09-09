@@ -6,10 +6,10 @@ description: Você pode editar um relatório de painel da Tela após sua criaç�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
-source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
+source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 2%
+source-wordcount: '524'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,8 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->&#x200B;>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
