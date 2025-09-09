@@ -5,7 +5,7 @@ description: Você pode usar a IA para preencher automaticamente os campos de so
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 3351a928ba20d1509f99a63c98b3e106c58fb43f
+source-git-commit: 6aab36ee2839fdf32f5606d2070d1e52d7f44753
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 2%
@@ -125,7 +125,7 @@ Esses exemplos mostram solicitações para várias maneiras de a IA fazer refer�
 
 >[!BEGINSHADEBOX]
 
-Crie uma solicitação de campanha semelhante à que fizemos para o lançamento do segundo trimestre da (Client Company), mas desta vez para a divisão Automotive. Manter o mesmo conjunto de entrega e perfil de público-alvo.
+Crie uma solicitação de campanha semelhante à que fizemos para o lançamento do segundo trimestre da (empresa cliente), mas desta vez para a divisão Automotive. Manter o mesmo conjunto de entrega e perfil de público-alvo.
 
 >[!ENDSHADEBOX]
 
@@ -133,7 +133,7 @@ Crie uma solicitação de campanha semelhante à que fizemos para o lançamento 
 
 >[!BEGINSHADEBOX]
 
-Use a mesma configuração que tivemos no início do projeto (Empresa cliente) na primavera passada. Eu desejo executar uma campanha publicitária digital direcionada ao mesmo público executivo, mas com datas atualizadas para este trimestre.
+Use a mesma configuração que fizemos no início do projeto (nome do projeto) na primavera passada. Eu desejo executar uma campanha publicitária digital direcionada ao mesmo público executivo, mas com datas atualizadas para este trimestre.
 
 >[!ENDSHADEBOX]
 
@@ -141,7 +141,7 @@ Use a mesma configuração que tivemos no início do projeto (Empresa cliente) n
 
 >[!BEGINSHADEBOX]
 
-Prepare uma solicitação semelhante à campanha de promoção de verão (Empresa do cliente) que executamos no ano passado. Concentre-se nos ativos de redes sociais, mantenha o espanhol como idioma principal e ajuste o orçamento para US$ 75.000.
+Prepare uma solicitação semelhante à campanha de promoção de verão (empresa cliente) que executamos no ano passado. Concentre-se nos ativos de redes sociais, mantenha o espanhol como idioma principal e ajuste o orçamento para US$ 75.000.
 
 >[!ENDSHADEBOX]
 
@@ -149,7 +149,7 @@ Prepare uma solicitação semelhante à campanha de promoção de verão (Empres
 
 >[!BEGINSHADEBOX]
 
-Use como referência a campanha da série de webinários (empresa cliente) do primeiro trimestre. Quero o mesmo fluxo de trabalho de registro e ativos, mas desta vez o tópico é &quot;IA no Planejamento Financeiro&quot; e o público é de jovens profissionais.
+Use a campanha de série de webinários (nome da campanha) do primeiro trimestre como referência. Quero o mesmo fluxo de trabalho de registro e ativos, mas desta vez o tópico é &quot;IA no Planejamento Financeiro&quot; e o público é de jovens profissionais.
 
 >[!ENDSHADEBOX]
 
@@ -157,7 +157,7 @@ Use como referência a campanha da série de webinários (empresa cliente) do pr
 
 >[!BEGINSHADEBOX]
 
-Configure uma solicitação de campanha da mesma forma que o projeto de reformulação da marca (Empresa do cliente) que lidamos, mas substitua por (Nova empresa do cliente) como cliente. Mantenha todos os materiais de entrega alinhados à marca corporativa.
+Configure uma solicitação de campanha da mesma forma que o projeto de reformulação da marca (empresa cliente) que lidamos, mas substitua por (nova empresa cliente) como cliente. Mantenha todos os materiais de entrega alinhados à marca corporativa.
 
 >[!ENDSHADEBOX]
 
