@@ -240,7 +240,7 @@ Para configurar se os ícones de status do projeto e a porcentagem de conclusão
 1. Clique no menu suspenso **Exibir** e em **Marco**.
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. <!--In the Production environment,--> Clique em **Opções** no canto superior direito da exibição Marco.
+1. &#x200B;<!--In the Production environment,--> Clique em **Opções** no canto superior direito da exibição Marco.
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
@@ -277,6 +277,6 @@ Para ajustar o percentual concluído de uma tarefa na exibição Marco:
 
 1. (Condicional) Se as porcentagens de conclusão não estiverem sendo exibidas no modo de exibição Marco, habilite a exibição do Percentual Concluído de tarefas e projetos, conforme descrito na seção [Configurar quais informações serão exibidas no modo de exibição Marco](#configure-what-information-displays-in-the-milestone-view) deste artigo.
 
-1. <!--In the Production environment,--> Clique na porcentagem de conclusão abaixo de uma tarefa, especifique uma nova porcentagem e pressione Enter.
+1. &#x200B;<!--In the Production environment,--> Clique na porcentagem de conclusão abaixo de uma tarefa, especifique uma nova porcentagem e pressione Enter.
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->
