@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ Para criar uma melhor experiência do usuário ao fazer solicitações no Workfr
 * Ocultar e reordenar colunas na lista de solicitações enviadas.
 
 Essa atualização também apresenta alterações na aparência da página.
+
+Ao usar a nova experiência de Solicitação, esteja ciente do seguinte:
+
+* Os rascunhos agora estão na mesma lista das solicitações enviadas
+* A nova experiência atualmente mostra somente solicitações criadas nos últimos 1,5 mês. Para ver solicitações mais antigas, você pode desativar temporariamente a nova experiência e acessar as solicitações mais antigas por meio da experiência antiga.
 
 Anteriormente, as solicitações do Workfront e do Workfront Planning estavam em guias separadas e os filtros não eram personalizáveis.
 
