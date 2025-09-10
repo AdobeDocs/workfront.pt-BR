@@ -6,9 +6,9 @@ description: O trabalho planejado é representado na Adobe Workfront por projeto
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2856'
 ht-degree: 1%
 
 ---
@@ -163,6 +163,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
    >* <span class="preview">A lista inclui as filas de solicitações do Workfront e os formulários de solicitação do Workfront Planning.</span>
    >* <span class="preview">Você pode filtrar a lista por tipo de objeto.</span>
    >* <span class="preview">Para exibir somente as filas de Solicitações Workfront, filtre por `Issue` tipos de objeto.</span>
+   >* <span class="preview">Na nova experiência de solicitação, os rascunhos estão na mesma lista das solicitações enviadas.</span>
 
 1. (Condicional) Se você alternou para a nova experiência que inclui o Workfront Planning, selecione os grupos de tópicos e os tópicos da fila e continue atualizando o formulário.
 
