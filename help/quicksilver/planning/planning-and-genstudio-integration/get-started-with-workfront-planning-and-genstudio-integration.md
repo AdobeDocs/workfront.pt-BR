@@ -103,7 +103,7 @@ Sua organização deve atender aos seguintes requisitos para que a integração 
    <td role="rowheader"><p>Funções de usuário do Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualquer função de usuário do GenStudio para acessar Campanhas, Produtos e Personalidades</li>
    <li>GenStudio System Manager para acessar Ativações <!--and Events--></li></ul>
-   Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
+   Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
    </p>
   </td> 
   </tr>   
