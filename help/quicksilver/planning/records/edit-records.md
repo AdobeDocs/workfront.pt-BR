@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 0%
@@ -246,6 +246,8 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 1. <span class="preview">Passe o mouse sobre as extremidades da barra de um registro, clique, arraste e solte sua margem em outra data. Isso atualiza automaticamente a data inicial ou final do registro.</span>
 
    <span class="preview">![Barra de extremidade esquerda na exibição de linha do tempo a ser redimensionada](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
 
 1. Clique na barra de um registro para abrir sua área de detalhes e editar todos os campos.
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '3910'
+source-wordcount: '3920'
 ht-degree: 2%
 
 ---
@@ -114,13 +114,6 @@ Considere o seguinte:
    * Quando as datas de Início ou Término não têm valor
    * Quando a data inicial for posterior à data final
 
-<div class="preview">
-
-* Você pode criar e editar registros na exibição de linha do tempo. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
-* Você pode redimensionar as barras de registros na exibição de linha do tempo clicando em, arrastando e soltando suas margens em uma nova posição. O redimensionamento das barras de registros atualiza as datas de início e término imediatamente. Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
-
-</div>
-
 Para gerenciar uma exibição de linha do tempo:
 
 1. Vá para a página do tipo de registro para a qual deseja exibir a linha do tempo.
@@ -203,6 +196,20 @@ Para gerenciar uma exibição de linha do tempo:
 1. (Opcional) Clique em **Detalhamento** para exibir os registros conectados na linha do tempo.
 
    Para obter informações, consulte a seção [Usar o recurso de Detalhamento para exibir registros conectados na exibição de linha do tempo](#break-down-connected-records-in-the-timeline-view) neste artigo.
+1. <span class="preview">Para criar registros na exibição de linha do tempo ou editar suas datas, siga um destes procedimentos:</span>
+
+   * <span class="preview">Clique duas vezes em qualquer lugar na linha do tempo para criar um registro. </span>
+
+     <span class="preview">Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).</span>
+
+   * <span class="preview">Clique na extremidade de uma barra de registros e arraste-a e solte-a em uma nova posição. O redimensionamento das barras de registros atualiza as datas de início e término imediatamente. </span>
+
+     <span class="preview">Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
+
+
 
 ### Adicionar filtros
 

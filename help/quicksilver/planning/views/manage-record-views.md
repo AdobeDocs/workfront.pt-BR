@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 1%
+source-wordcount: '1216'
+ht-degree: 2%
 
 ---
 
@@ -52,7 +52,7 @@ Para obter mais informações sobre o gerenciamento de exibições de registros 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -119,7 +119,7 @@ Para obter mais informações sobre o gerenciamento de exibições de registros 
 
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Considerações ao trabalhar com visualizações de registro
 
@@ -146,7 +146,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Recurso | Exibição em tabela | Exibição da linha do tempo | Exibição de calendário |
+| Recurso | Exibição em tabela | Exibição da linha do tempo | Visualização de calendário |
 |-----------------------------------------------------------------------|------------|---------------|--------------|
 | Exibir registros em uma lista ou tabela | ✓ |              | |
 | Exibir todos os campos como colunas na tabela, por padrão | ✓ |              |    |
@@ -170,6 +170,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 | Exibir registros por semana |           |               | ✓ |
 | Exportar informações de uma visualização | ✓ |               |    |
 | <span class="preview">Exibir em tela inteira</span> | ✓ | ✓ | ✓ |
+| <span class="preview">Criar registros na exibição</span> | ✓ | ✓ | ✓ |
 
 ## Criar ou editar exibições {#create-or-edit-views}
 
@@ -187,6 +188,12 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
 1. Clique em **+ Exibição** para adicionar um novo modo de exibição.
+
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, click the **+View** tab. 
+    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
+
 1. Selecione entre os seguintes tipos de exibições:
 
    * Tabela
@@ -206,6 +213,8 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 >
 >Caso contrário, as opções Linha do tempo e Calendário estarão esmaecidas.
 >
+
+<!-- replace screen shot at production??-->
 
 ![Exibir lista suspensa de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
 

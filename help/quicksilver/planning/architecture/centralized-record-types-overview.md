@@ -3,7 +3,7 @@ title: Visão Geral de Tipos de Registro Centralizados
 description: Os tipos de registro centralizado podem ser adicionados a vários espaços de trabalho a partir de um espaço de trabalho central ou principal no Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -96,7 +96,7 @@ O tipo de registro configurado para ser centralizado tem as seguintes propriedad
 
    * Editar
 
-     Não é possível editar a aparência, os recursos entre espaços de trabalho ou os campos importados do espaço de trabalho original.
+     Não é possível editar a aparência, os recursos entre espaços de trabalho ou os campos adicionados a partir do espaço de trabalho original.
    * Criar formulários de solicitação
    * Gerenciar formulários de solicitação
 
