@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
+source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,11 @@ Para obter mais informações sobre como definir preferências do sistema, consu
 Para obter os pré-requisitos para habilitar os recursos de IA, consulte [Pré-requisitos para o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 ## Atualizações no perfil de usuário do Workfront
+
+>[!IMPORTANT]
+>
+>Esta atualização foi removida temporariamente da Pré-visualização e Produção.
+
 
 >[!NOTE]
 >
