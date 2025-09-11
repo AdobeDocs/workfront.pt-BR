@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 5%
+source-wordcount: '990'
+ht-degree: 4%
 
 ---
 
@@ -113,17 +113,16 @@ Para obter informações, consulte a seção &quot;Fórmula&quot; no artigo [Cri
   Para obter mais informações, consulte a seção &quot;Fórmula&quot; no artigo [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 * Você pode fazer referência a campos de fórmula em novas fórmulas. Depois que o valor for atualizado em um campo referenciado em um campo de fórmula, todos os campos subsequentes que referenciam esse campo ou campos de fórmula que contêm esse campo serão atualizados automaticamente.
 
-<!--
 <div class="preview">
 
-* When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:   
+* Quando você atualiza um campo de fórmula ou um campo que poderia impactá-lo, um alerta o notifica do impacto da alteração. O alerta é exibido nos seguintes casos:
 
-   * When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue. 
+   * Quando você atualiza um campo de fórmula (excluindo alterações de nome e descrição) quando esse campo tem campos de fórmula ou de pesquisa dependentes. O alerta lista esses campos dependentes e pergunta se você deseja continuar.
 
-   * When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
+   * Ao excluir um campo usado em uma expressão de fórmula ou como um campo de pesquisa. O alerta lista a fórmula dependente e os campos de pesquisa e pergunta se você deseja continuar com a exclusão.
 
 </div>
--->
+
 
 
 <div class="preview">

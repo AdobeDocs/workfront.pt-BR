@@ -1,10 +1,12 @@
 ---
 title: Introdução à Integração do Workfront Planning e do GenStudio for Performance Marketing
 description: O espaço de trabalho do GenStudio for Performance Marketing estará disponível no Adobe Workfront Planning quando sua empresa tiver comprado ambos os produtos. Saiba mais sobre as noções básicas sobre como você pode simplificar seus fluxos de trabalho usando essa integração.
-hide: true
-hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 0%
@@ -103,7 +105,7 @@ Sua organização deve atender aos seguintes requisitos para que a integração 
    <td role="rowheader"><p>Funções de usuário do Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualquer função de usuário do GenStudio para acessar Campanhas, Produtos e Personalidades</li>
    <li>GenStudio System Manager para acessar Ativações <!--and Events--></li></ul>
-   Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
+   Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
    </p>
   </td> 
   </tr>   

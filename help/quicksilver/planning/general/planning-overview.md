@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '1973'
-ht-degree: 2%
+source-wordcount: '2003'
+ht-degree: 1%
 
 ---
 
@@ -395,18 +395,11 @@ Para obter uma lista atualizada dos recursos lançados, consulte [atividade de v
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Módulos do Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): com os módulos do Adobe Workfront Planning, é possível acionar um cenário quando eventos ocorrem no Workfront Planning. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Adobe Workfront Planning.
+* [Módulos do Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): com os módulos do Adobe Workfront Planning, é possível acionar um cenário quando eventos ocorrem no Workfront Planning. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Adobe Workfront Planning.
 
 * [Noções básicas da API de Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md): a meta da API de Planejamento do Adobe Workfront é simplificar a criação de integrações com o Planning, introduzindo uma arquitetura REST-ful que opera via HTTP.
 
-<!--
-<div class="preview">
-
-* [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): You can manage records from GenStudio for Performance Marketing in the GenStudio workspace in Workfront Planning.
-
-</div>
-
--->
+* [Introdução ao Adobe Workfront Planning e à integração com o Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): você pode gerenciar registros do GenStudio for Performance Marketing no espaço de trabalho do GenStudio no Workfront Planning.
 
 * **Recursos de relatórios do Workfront Planning**: agora é possível exibir informações do Workfront Planning em um relatório no Workfront usando o Painel do Workfront Canvas. Para obter informações, consulte [Visão geral dos Painéis da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 

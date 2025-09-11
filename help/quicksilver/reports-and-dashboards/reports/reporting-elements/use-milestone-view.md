@@ -6,7 +6,7 @@ description: Você pode aplicar a visualização Marco a uma lista de projeto ou
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 1%
@@ -106,7 +106,7 @@ A visualização Marco está disponível em listas de projeto e relatórios de p
 
 Para obter informações sobre como alternar para o modo de exibição de Marco, consulte a seção [Alternar para o modo de exibição de Marco](#switch-to-the-milestone-view) neste artigo.
 
-<!--add new screen shot for preview or prod release-->
+<!--add new screen shot for preview or production release-->
 
 ![Projeto com exibição de marco](assets/project-with-milestone-view-with-complete.png)
 
@@ -145,7 +145,7 @@ Ao visualizar uma lista de projetos ou um relatório de projeto na visualizaçã
 
   Você pode ajustar a porcentagem de conclusão diretamente na exibição de Marco, conforme descrito na seção [Ajustar a porcentagem concluída para tarefas na exibição de Marco](#adjust-percent-complete-for-tasks-in-the-milestone-view) deste artigo.
 
-* **Ícones de status de progresso da tarefa:** um ícone de status é exibido ao lado de cada projeto e tarefa no modo de exibição Marco. <!--get new screen shots or hide them for preview or prod - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+* **Ícones de status de progresso da tarefa:** um ícone de status é exibido ao lado de cada projeto e tarefa no modo de exibição Marco. <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
 
   <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
    * On Time - green
@@ -200,7 +200,7 @@ Ao visualizar uma lista de projetos ou um relatório de projeto na visualizaçã
 
    * Nenhuma sombra de cor é atribuída às colunas Início e Conclusão quando as tarefas têm um Status de Progresso de Em Risco ou Atrasado.
 
-  <!--add new screen shot for preview or prod release-->
+  <!--add new screen shot for preview or production release-->
 
   ![Modo de exibição de marco com sombreamento](assets/milestone-view-with-shading.png)
 
@@ -240,11 +240,11 @@ Para configurar se os ícones de status do projeto e a porcentagem de conclusão
 1. Clique no menu suspenso **Exibir** e em **Marco**.
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. &#x200B;<!--In the Production environment,--> Clique em **Opções** no canto superior direito da exibição Marco.
+1. <!--In the Production environment,--> Clique em **Opções** no canto superior direito da exibição Marco.
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
-   <!--at Prod release, replace this screen shot and adjust the Production/ Preview text above-->
+   <!--at Production release, replace this screen shot and adjust the Production/ Preview text above-->
 
    ![marco_exibição_opções.png](assets/milestone-view-options-350x141.png)
 
@@ -277,6 +277,6 @@ Para ajustar o percentual concluído de uma tarefa na exibição Marco:
 
 1. (Condicional) Se as porcentagens de conclusão não estiverem sendo exibidas no modo de exibição Marco, habilite a exibição do Percentual Concluído de tarefas e projetos, conforme descrito na seção [Configurar quais informações serão exibidas no modo de exibição Marco](#configure-what-information-displays-in-the-milestone-view) deste artigo.
 
-1. &#x200B;<!--In the Production environment,--> Clique na porcentagem de conclusão abaixo de uma tarefa, especifique uma nova porcentagem e pressione Enter.
+1. <!--In the Production environment,--> Clique na porcentagem de conclusão abaixo de uma tarefa, especifique uma nova porcentagem e pressione Enter.
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->

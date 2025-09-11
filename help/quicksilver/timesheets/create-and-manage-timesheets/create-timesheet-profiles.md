@@ -6,9 +6,9 @@ description: Você pode criar, editar e atribuir perfis de planilha de horas que
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1695'
 ht-degree: 2%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 2%
 
 <!--at the Prod release, remove the Production and Preview references from this article-->
 
-<!--<div class="preview">
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes após uma semana da versão de Pré-visualização.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> -->
+</div>
 
 Você pode criar, editar e atribuir perfis de planilha de horas que geram planilhas de horas recorrentes para seus usuários sem nenhuma intervenção adicional sua. Isso economiza tempo e garante que os itens a seguir sejam consistentes entre os usuários:
 
@@ -67,7 +67,7 @@ Para obter mais informações sobre como criar uma folha de horas manualmente, c
 
 ## Criar ou editar um perfil de planilha de horas
 
-<!--
+<!--Old info: 
 <div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
 <p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
@@ -182,9 +182,9 @@ Para obter mais informações sobre como criar uma folha de horas manualmente, c
     </tbody> 
     </table>
 
-1. &#x200B;<!--In the Production environment, or when creating group-level timesheet profiles,--> Clique na guia **Atribuir Pessoas** para associar o perfil da folha de horas a usuários, grupos ou equipes específicos (se você for um administrador do Workfront). <!--Keep the reference to the group upon release to Prod-->
+1. No ambiente de Produção ou ao criar perfis de folha de horas no nível do grupo, clique na guia **Atribuir Pessoas** para associar o perfil de folha de horas a usuários, grupos ou equipes específicos (se você for um administrador do Workfront). <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-   <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
+   <span class="preview">No ambiente de Visualização ao criar perfis de folha de horas para o sistema, role em direção à parte inferior da página e localize a seção **Atribuir Pessoas**.</span> <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    Comece a digitar o nome do usuário, grupo ou equipe e clique nele quando ele aparecer na lista suspensa.
 
