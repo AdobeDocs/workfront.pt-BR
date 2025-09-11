@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
 workflow-type: tm+mt
-source-wordcount: '7542'
+source-wordcount: '7673'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,16 @@ Esta página lista as atualizações de interface que estamos fazendo no Adobe W
 Para todas as outras alterações no Adobe Workfront, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administração e configuração
+
+### Atualizações de interface ao adicionar ou editar o perfil de folha de horas na área Configuração
+
+**Versão de visualização: 11 de setembro de 2025; Versão de produção: 18 de setembro de 2025**
+
+Atualizamos a aparência da página Perfil da folha de horas ao editar ou adicionar um perfil de folha de horas do sistema.
+
+Para visualizar essas alterações, vá para Configurar > Horas e planilha de horas > Perfis de planilha de horas e adicione um novo perfil ou edite um existente.
+
+Para obter mais informações, consulte [Criar, editar e atribuir perfis de folha de horas](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ### Atualizações de interface para as caixas Novo e Copiar Scorecard
 
@@ -153,6 +163,14 @@ Introduzimos atualizações de interface ao editar portfólios na caixa Editar P
 Para obter informações, consulte [Editar portfólios](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
 ## Projetos
+
+### Atualizações de interface para uma lista de projetos ou relatório ao aplicar a visualização de Marco
+
+**Versão de visualização: 11 de setembro de 2025; Versão de produção: 18 de setembro de 2025**
+
+Atualizamos a aparência de uma lista ou relatório de projeto ao aplicar a exibição de Marco a eles.
+
+A lista de projetos ou o relatório agora corresponde ao design de outras áreas do Workfront. Para obter informações, consulte [Usar a exibição de Marco](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 ### Alterações de interface para Converter uma tarefa em um projeto sem um modelo
 
@@ -357,6 +375,18 @@ Para obter mais informações, consulte
 * [Criar Regras de Roteamento](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 ## Usuários
+
+<!--
+### Interface updates for the New User dialog
+
+**Preview release: September 11, 2025; Production release: September 18, 2025**
+
+We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+
+To view this change, go to Users > New User > New User.
+
+For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+-->
 
 ### Atualizações de interface na caixa de diálogo Importar usuários
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
-source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
+source-git-commit: 1dc8591dd0da3c3b6030bd643bf80dbe1ee97ea9
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 Esta página descreve as melhorias feitas no Project com a versão do quarto trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2025, consulte [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Novo beta de Integridade do Projeto
+
+>[!NOTE]
+>
+>* Visualização: 11 de setembro de 2025
+>* Produção para todos os clientes: 11 de setembro de 2025
+
+O novo recurso Saúde do projeto utiliza o poder do Assistente de IA para fornecer instantaneamente uma avaliação de como seus projetos estão se saindo e quais áreas precisam de sua atenção.
+
+O Assistente de IA pode gerar uma avaliação de Integridade do projeto para um projeto, um programa e vários projetos.
+
+Para obter mais informações, consulte [Visão geral da Integridade do Projeto](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+
+No momento, esse recurso está na versão beta.
 
 <!--
 ## Create project intake forms in Workfront

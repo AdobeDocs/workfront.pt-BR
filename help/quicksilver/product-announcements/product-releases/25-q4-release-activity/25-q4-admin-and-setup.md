@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Esta página descreve as melhorias de Administrador feitas com a versão do Quarto trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2025, consulte [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Nova visualização do administrador de painéis
+
+>[!NOTE]
+>
+>* Visualização: 11 de setembro de 2025
+>* Versão rápida de produção: 15 de outubro de 2025
+>* Produção para todos os clientes: 16 de outubro de 2025
+
+A Exibição de administrador dos painéis contém uma lista de todos os painéis na sua conta que os administradores do sistema podem usar para obter um instantâneo rápido dos detalhes gerais dos painéis, incluindo a última atualização, quantos cartões cada um tem e muito mais.
+
+Para obter mais informações, consulte [Gerenciar a exibição de administração dos painéis](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md).
 
 ## Ativar os recursos de IA do Beta para sua organização
 

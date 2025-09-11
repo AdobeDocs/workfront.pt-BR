@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: d0fbeb7b04d2bf632e04e1764a3ffff9abcfb231
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1796'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,45 @@ To make it easier to find the request form you're looking for in Workfront Plann
 Previously, request forms were located only on the object for which they were created.
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## Nova caixa de informações exibida ao alterar ou excluir campos
+
+>[!NOTE]
+>
+>* Visualização: 11 de setembro de 2025
+>* Versão rápida de produção: 15 de outubro de 2025
+>* Produção: 16 de outubro de 2025
+
+Quando você atualiza um campo de fórmula ou um campo que poderia impactá-lo, um alerta o notifica do impacto da alteração. O alerta é exibido nos seguintes casos:
+
+* Quando você atualiza um campo de fórmula (excluindo alterações de nome e descrição) quando esse campo tem campos de fórmula ou de pesquisa dependentes. O alerta lista esses campos dependentes e pergunta se você deseja continuar.
+
+* Ao excluir um campo usado em uma expressão de fórmula ou como um campo de pesquisa. O alerta lista a fórmula dependente e os campos de pesquisa e pergunta se você deseja continuar com a exclusão.
+
+Para obter informações, consulte [Visão geral dos campos da fórmula](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Integração entre o Adobe Workfront Planning e o Adobe GenStudio for Performance Marketing
+
+>[!NOTE]
+>
+>Visualização: 11 de setembro de 2025
+>>Produção para todos os clientes: 11 de setembro de 2025
+>>[!BADGE Fora do cronograma]{type=Neutral}
+
+Se sua organização usa o Adobe Workfront Planning e o Adobe GenStudio for Performance Marketing, talvez você queira definir conceitos de marketing como Campanhas, Produtos e Personalidades com mais detalhes do que o GenStudio suporta por padrão.
+
+Com a nova integração nativa entre o GenStudio for Performance Marketing e o Workfront Planning, agora é possível gerenciar Campanhas, Produtos, Personalidades, Ativações, Canais e Regiões usados no GenStudio for Performance Marketing no Workfront Planning. A integração também permite configurar o GenStudio for Performance Marketing para fazer referência aos tipos de registro existentes do Workfront Planning, criando um fluxo de trabalho de marketing mais conectado e consistente.
+
+O espaço de trabalho do GenStudio for Performance Marketing agora está disponível no Adobe Workfront Planning quando sua empresa comprou os dois produtos.
+Com a integração entre o Workfront Planning e o GenStudio for Performance Marketing, você pode:
+
+* Exiba o espaço de trabalho do GenStudio no Workfront Planning.
+* Modifique suas campanhas, produtos, personalidades e ativações no GenStudio for Performance Marketing e atualize em tempo real as mesmas informações no Workfront Planning.
+* Modifique suas campanhas, produtos, personalidades e ativações no Workfront Planning e em tempo real
+* Evite a entrada de dados duplicados.
+* Mantenha o alinhamento entre os esforços de planejamento e ativação.
+
+Para obter informações, consulte [Introdução à integração do Adobe Workfront Planning e do Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
 
 ## Redimensionar registros na exibição mensal do calendário
 
@@ -184,8 +223,8 @@ Para obter informações, consulte [Visão geral dos campos da fórmula](/help/q
 >[!NOTE]
 >
 >Visualização: 7 de agosto de 2025
->&#x200B;>Produção para todos os clientes:August, 2025
->&#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
+>>Produção para todos os clientes:August, 2025
+>>[!BADGE Fora do cronograma]{type=Neutral}
 
 Adicionamos novas expressões com o seguinte uso a campos de fórmula no Workfront Planning e a campos personalizados calculados no Workfront:
 
@@ -200,8 +239,8 @@ Para obter mais informações, consulte [Visão geral das expressões de dados c
 >[!NOTE]
 >
 >Visualização: 31 de julho de 2025
->&#x200B;>Produção para todos os clientes: 31 de julho de 2025
->&#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
+>>Produção para todos os clientes: 31 de julho de 2025
+>>[!BADGE Fora do cronograma]{type=Neutral}
 
 Adicionamos um botão Maximizar para ampliar o campo Fórmula ao criar ou editar o campo em uma exibição de tabela de registro. Além disso, adicionamos um botão Minimizar na nova janela ampliada para reverter para a caixa de criação do campo.
 
@@ -250,8 +289,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >Visualização: 24 de julho de 2025
->&#x200B;>Versão rápida de produção: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Versão rápida de produção: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Agora é possível criar registros na exibição de linha do tempo de um tipo de registro clicando duas vezes em qualquer lugar da linha do tempo.
 
@@ -266,8 +305,8 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 >[!NOTE]
 >
 >Visualização: 24 de julho de 2025
->&#x200B;>Versão rápida de produção: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Versão rápida de produção: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Agora você pode compartilhar um tipo de registro no menu Mais do cartão de tipo de registro na página do espaço de trabalho. Antes desse aprimoramento, a opção Compartilhar estava disponível somente na página de tipo de registro.
 
@@ -278,8 +317,8 @@ Para obter informações, consulte [Compartilhar tipos de registros](/help/quick
 >[!NOTE]
 >
 >Visualização: 24 de julho de 2025
->&#x200B;>Versão rápida de produção: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Versão rápida de produção: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Agora é possível exibir todas as exibições do Workfront Planning (tabela, linha do tempo e calendário) no modo de tela cheia. A funcionalidade de exibição é preservada, e você também pode alterá-la enquanto estiver em tela cheia.
 
@@ -292,8 +331,8 @@ Para obter informações, consulte [Gerenciar exibições de registros](/help/qu
 >[!NOTE]
 >
 >Visualização: 22 de julho de 2025
->&#x200B;>Produção para lançamento rápido: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Produção para lançamento rápido: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Para tornar o processo de aprovação mais flexível, adicionamos a capacidade de adicionar equipes como aprovadores nos formulários de solicitação do Planning. Agora é possível inserir e selecionar nomes de equipe ao configurar aprovadores. Qualquer um dos membros da equipe pode tomar uma decisão, que conta como a decisão de aprovação para toda a equipe.
 
@@ -306,8 +345,8 @@ Para obter mais informações, consulte [Adicionar uma aprovação a um formulá
 >[!NOTE]
 >
 >Visualização: 17 de julho de 2025
->&#x200B;>Produção para lançamento rápido: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Produção para lançamento rápido: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 Estamos introduzindo os seguintes campos para capturar informações de aprovação para registros criados ao enviar uma solicitação com uma aprovação:
 
@@ -321,8 +360,8 @@ Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fie
 >[!NOTE]
 >
 >Visualização: 10 de julho de 2025
->&#x200B;>Versão rápida de produção: 14 de agosto de 2025
->&#x200B;>Produção para todos os clientes: 16 de outubro de 2025
+>>Versão rápida de produção: 14 de agosto de 2025
+>>Produção para todos os clientes: 16 de outubro de 2025
 
 
 Agora, quando você tiver agrupamentos aplicados a uma visualização de tabela, adicionar um registro à tabela preencherá automaticamente os campos associados aos agrupamentos aos quais você adiciona o registro.
