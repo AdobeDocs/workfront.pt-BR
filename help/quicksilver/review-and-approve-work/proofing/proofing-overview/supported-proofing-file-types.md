@@ -7,9 +7,9 @@ description: Você pode compartilhar e revisar vários tipos de arquivos com seu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
+source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ O Workfront tem os seguintes limites:
 * MAC - MacPaint
 * MIF - Intercâmbio de MapInfo
 * MNG - Gráfico de rede múltipla
-* MO:DCA - Objeto misto: Arquitetura do conteúdo do documento
+* MO:DCA - Objeto Misto: Arquitetura de Conteúdo de Documento
 * MSP - Microsoft Paint
 * MRC - Conteúdo de rasterização misto principal
 * MRC - Conteúdo de raster misto T.44
@@ -133,6 +133,12 @@ O Workfront tem os seguintes limites:
 * PNM - Utilitários de bitmap portátil
 * PPM - Utilitários de bitmap portáteis
 * PPT - Apresentação do PowerPoint
+
+  >[!NOTE]
+  >
+  >Há um problema conhecido com os arquivos de apresentação do PowerPoint que não puderam ser carregados no momento. Se você enfrentar esse problema, converta o arquivo para o PDF e faça upload do PDF. Para obter mais informações, consulte [Provas: não é possível gerar uma prova de um arquivo do PowerPoint](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
+
+
 * PPTX - PowerPoint Presentation 2007 PS - PostScript File
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
