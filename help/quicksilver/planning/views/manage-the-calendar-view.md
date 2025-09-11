@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1874'
 ht-degree: 4%
 
 ---
@@ -111,13 +111,6 @@ Considere o seguinte:
    * Quando as datas Start ou End não têm valor, o registro é exibido como um evento de um dia
    * Quando a data de início é posterior à data de término, o registro não é exibido no calendário.
 
-<div class="preview">
-
-* Você pode criar e editar registros na exibição de calendário. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
-* Você pode redimensionar as barras de registros na exibição mensal do calendário clicando em, arrastando e soltando suas margens em uma nova posição. O redimensionamento das barras de registros atualiza as datas de início e término imediatamente. Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
-
-</div>
-
 Para gerenciar uma exibição de calendário:
 
 1. Vá para a página do tipo de registro para a qual deseja exibir o calendário.
@@ -141,6 +134,25 @@ Para gerenciar uma exibição de calendário:
          * Os registros que duram um dia ou menos são exibidos na metade inferior da exibição do calendário. Se você optou por exibir a hora das datas inicial e final, o registro será exibido no horário apropriado no dia em que ocorre.
 
 1. <span class="preview">(Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir o modo de exibição em tela cheia, em seguida, no ícone **Sair da tela cheia** ![Sair do ícone de tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.  </span>
+
+1. <span class="preview">Para criar registros na exibição de calendário ou editar suas datas, siga um destes procedimentos:</span>
+
+   * <span class="preview">Clique duas vezes em qualquer lugar do calendário para criar um registro. </span>
+
+     <span class="preview">Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).</span>
+
+   * <span class="preview">Na exibição mensal do calendário, clique no final de uma barra de registro e arraste-a e solte-a em uma nova posição. O redimensionamento das barras de registros atualiza as datas de início e término imediatamente. </span> <!--when resizing in the calendar weekly view is released, modify the sentence above to take out 'monthly', since it will be available in both-->
+
+     <span class="preview">Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   <!--ADD ONE OF THE FOLLOWING DEPENDING ON WHAT RELEASES: 
+    Scenario 1: drag and drop in the calendar weekly view: 
+    * <span class="preview">In the weekly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 2: drag and drop in the calendar monthly view: 
+    * <span class="preview">In the monthly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 3: drag and drop in the calendar view (both weekly and monthly are supported): 
+    * <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
    * [Filtros](#add-filters)

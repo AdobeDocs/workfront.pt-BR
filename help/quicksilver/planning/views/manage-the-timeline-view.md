@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
 source-wordcount: '3920'
 ht-degree: 2%
@@ -187,12 +187,6 @@ Para gerenciar uma exibição de linha do tempo:
 
    1. <span class="preview">(Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir o modo de exibição em tela cheia, em seguida, no ícone **Sair da tela cheia** ![Sair do ícone de tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.  </span>
 
-1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
-   * [Filtros](#add-filters)
-   * [Agrupamento](#add-grouping)
-   * [Configurações](#edit-the-timeline-view-settings)
-     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
-
 1. (Opcional) Clique em **Detalhamento** para exibir os registros conectados na linha do tempo.
 
    Para obter informações, consulte a seção [Usar o recurso de Detalhamento para exibir registros conectados na exibição de linha do tempo](#break-down-connected-records-in-the-timeline-view) neste artigo.
@@ -209,7 +203,11 @@ Para gerenciar uma exibição de linha do tempo:
    <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
         <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
-
+1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
+   * [Filtros](#add-filters)
+   * [Agrupamento](#add-grouping)
+   * [Configurações](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### Adicionar filtros
 
