@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 5ecf925ce1fdf5da75b0736d226b11ce6cbaf3fd
+source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
 workflow-type: tm+mt
-source-wordcount: '3185'
+source-wordcount: '3425'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -106,22 +106,20 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
   Não é possível redefinir a senha de um administrador do Workfront.
 
-<!--
-* **&lt;SSO Configuration&gt; Username**: If your Workfront administrator enabled an SSO integration with Workfront, the SSO Username displays in this field. The type of SSO configuration enabled for your Workfront instance is visible in this field.
-* **OnlyAllow &lt;SSO Configuration&gt; Authentication**: If your Workfront administrator enabled an SSO integration with Workfront and has updated all users for SSO, this field is selected by default. The type of SSO configuration enabled for your Workfront instance is visible in this field.
-  
-  When this field is selected, the user is required to log into Workfront with their SSO credentials. Unchecking it will allow them to log in to Workfront with their Workfront credentials.
+* **&lt;Configuração de SSO> Nome de usuário**: se o administrador do Workfront habilitou uma integração de SSO com o Workfront, o Nome de Usuário de SSO é exibido neste campo. O tipo de configuração de SSO ativado para sua instância do Workfront é visível nesse campo.
+* **Permitir &lt;Configuração de SSO> Autenticação**: se o administrador do Workfront habilitou uma integração de SSO com o Workfront e atualizou todos os usuários para SSO, esse campo será selecionado por padrão. O tipo de configuração de SSO ativado para sua instância do Workfront é visível nesse campo.
 
-  For more information about configuring Workfront with an SSO solution, see [Overview of single sign-on in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+  Quando esse campo é selecionado, o usuário precisa fazer logon no Workfront com suas credenciais de SSO. Ao desmarcá-la, você poderá fazer logon no Workfront com as credenciais da Workfront.
 
-  For more information about updating users for SSO, see [Update users for single sign-on](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+  Para obter mais informações sobre como configurar o Workfront com uma solução SSO, consulte [Visão geral do logon único no Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+
+  Para obter mais informações sobre como atualizar usuários para SSO, consulte [Atualizar usuários para logon único](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md).
 
   >[!NOTE]
   >
-  >If you are a group administrator, you can edit the &lt;SSO Configuration&gt; fields only for users in the groups where you are designated as such. Also, the User Admin (Group Users) permission must be enabled in your access level.
+  >Se você for um administrador de grupo, poderá editar os campos &lt;Configuração de SSO> somente para usuários nos grupos em que estiver designado como tal. Além disso, a permissão Administrador de usuário (usuários de grupo) deve estar ativada em seu nível de acesso.
   >
-  >If you are a group administrator and you have the User Admin (All Users) permission enabled in your access level, you can edit the &lt;SSO Configuration&gt; fields for all users.
--->
+  >Se você for um administrador de grupo e tiver a permissão Administrador de Usuário (Todos os Usuários) ativada em seu nível de acesso, poderá editar os campos &lt;Configuração do SSO> para todos os usuários.
 
 * **Foto do perfil**: clique em **Carregar novo** para carregar a imagem de perfil do usuário. É possível carregar um arquivo JPG, GIF ou PNG. O limite de tamanho do arquivo é 4 MB.
 
@@ -152,7 +150,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 <!--* **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.-->
 
-<!--**Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **Enviar trabalho que eu atribuir a mim mesmo para minha guia Trabalhando em**: quando esta opção é selecionada, o trabalho que o usuário autoatribuir é automaticamente definido para o status Em andamento em vez de Novo. <!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **Gerar provas automaticamente ao carregar documentos**: marque esta opção se desejar que os documentos carregados pelo usuário gerem uma prova imediatamente.
 
