@@ -5,10 +5,10 @@ title: Gerenciar a exibição de administração dos painéis
 description: A Exibição de administrador dos painéis contém uma lista de todos os painéis em sua conta que os administradores do sistema podem usar para obter um instantâneo rápido dos detalhes gerais dos painéis.
 author: Jenny
 feature: Agile
-source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
+source-git-commit: 56263c3f868e7abdaf973c5c03411a2e63ba645d
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 0%
+source-wordcount: '618'
+ht-degree: 1%
 
 ---
 
@@ -38,8 +38,13 @@ Nessa área, você pode executar as seguintes ações:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Colaborador ou superior </p>
-        <p> Solicitação ou superior </p></td> 
+   <td> <p>Standard</p>
+        <p> Plano </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Administrador de Sistema </p>
+        </td> 
   </tr> 
  </tbody> 
 </table>
