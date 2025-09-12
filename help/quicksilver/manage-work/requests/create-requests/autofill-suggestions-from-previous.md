@@ -1,18 +1,18 @@
 ---
-title: Preencher automaticamente uma solicitação a partir de dados anteriores
+title: Preencher automaticamente uma solicitação com dados de solicitações anteriores
 content-type: reference
 description: Você pode usar a IA para preencher automaticamente campos de solicitação usando dados de solicitações anteriores.
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
+source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# Preencher automaticamente uma solicitação a partir de dados anteriores
+# Preencher automaticamente uma solicitação com dados de solicitações anteriores
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 A IA pode ajudar a preencher automaticamente os campos de solicitação com base em solicitações anteriores. Você pode aprovar ou rejeitar essas sugestões antes de enviar a solicitação.
 
-O preenchimento automático não substitui nenhum campo já preenchido.
+O preenchimento automático não substitui nenhum campo que já tenha sido preenchido.
 
 Os usuários não recebem sugestões de dados aos quais, de outra forma, não teriam acesso.
 
@@ -65,7 +65,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Obter sugestões ao preencher o formulário
 
-O preenchimento automático pode sugerir valores de campo enquanto você preenche o formulário. À medida que você informa valores nos campos de solicitação, o Workfront compara esses valores com solicitações anteriores. Se o valor inserido estiver estreitamente correlacionado com outros valores de campo em contextos semelhantes em solicitações anteriores, o Workfront sugere esses valores.
+O preenchimento automático pode sugerir valores de campo enquanto você está preenchendo o formulário. À medida que você informa valores nos campos de solicitação, o Workfront compara esses valores com solicitações anteriores. Se o valor inserido estiver estreitamente correlacionado com outros valores de campo em contextos semelhantes em solicitações anteriores, o Workfront sugere esses valores.
 
 Por exemplo, se uma clínica sempre usar o mesmo código de faturamento, a Workfront sugerirá esse código de faturamento no campo apropriado quando o nome da clínica for inserido.
 
