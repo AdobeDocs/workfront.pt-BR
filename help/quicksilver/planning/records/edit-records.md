@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
 source-wordcount: '2701'
 ht-degree: 0%
@@ -246,7 +246,7 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 <!--add another step about drag and drop here when that is available-->
 
 1. Abra a página de tipo de registro em uma exibição de calendário. Para obter informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview">(Condicional) Passe o mouse sobre as extremidades da barra de um registro na exibição mensal do calendário, em seguida, clique, arraste e solte suas margens em outra data. Isso atualiza automaticamente a data inicial ou final do registro.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above-->
+1. <span class="preview">(Condicional) Passe o mouse sobre as extremidades da barra de um registro na exibição mensal do calendário, em seguida, clique, arraste e solte suas margens em outra data. Isso atualiza automaticamente a data inicial ou final do registro.</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release-->
 
    <span class="preview">![Barra de extremidade esquerda na exibição de calendário a ser redimensionada](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 1%
@@ -32,7 +32,7 @@ A duplicação de exibições é idêntica para todos os tipos de exibições no
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -73,7 +73,7 @@ A duplicação de exibições é idêntica para todos os tipos de exibições no
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Padrão </p>
+   <td><p> Standard </p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -92,7 +92,7 @@ A duplicação de exibições é idêntica para todos os tipos de exibições no
 
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Duplicar uma visualização de registro
 
@@ -111,5 +111,8 @@ Por padrão, todos os registros do tipo selecionado são exibidos na exibição 
 
    ![Exibir mais menus em uma exibição de registro](assets/view-more-menu-with-duplicate-option.png)
 
-
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Duplicate**. 
+    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Duplicate**.</span>-->
    A exibição está duplicada e o nome da nova exibição segue o seguinte padrão: `Original view's name (Copy)`. A nova guia de exibição é exibida no final de todas as guias de exibição.

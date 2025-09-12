@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 2%
@@ -28,7 +28,7 @@ A exibição é excluída para todos os usuários que têm permissões para aces
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -69,7 +69,7 @@ A exibição é excluída para todos os usuários que têm permissões para aces
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Padrão </p>
+   <td><p> Standard </p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -88,7 +88,7 @@ A exibição é excluída para todos os usuários que têm permissões para aces
 
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Excluir uma visualização de registro
 
@@ -112,6 +112,10 @@ A exibição é excluída para todos os usuários que têm permissões para aces
    >
    >Talvez seja necessário clicar em **Mais** à direita da última guia para localizar o modo de exibição que deseja excluir.
 
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
+    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Delete**.</span>-->
 
 1. Clique em **Excluir** para confirmar. <!--ensure there is not another saving step here?!-->
 

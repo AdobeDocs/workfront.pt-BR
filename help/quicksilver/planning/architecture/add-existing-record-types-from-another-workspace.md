@@ -4,9 +4,9 @@ description: Os tipos de registro são os tipos de objeto do Adobe Workfront Pla
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,11 @@ Antes de adicionar registros a um espaço de trabalho a partir de um tipo de reg
 <ul><li><p>Qualquer pacote do Workfront</p></li>
 E
 <li><p>Pacote do Planning Plus</p></li></ul>
-Ou:
-<ul><li><p>Qualquer pacote de fluxo de trabalho</p> </li>
-E
-<li><p>Planejamento do pacote Prime ou Ultimate</p></li></ul>
-<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 
+<!--Or:
+<ul><li><p>Any Workflow package</p> </li>
+And
+<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 
    </td>
 
 <tr> 
