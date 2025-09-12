@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 3d5dc51c519c7880e7a159fd26420bbd5ec18b6b
 workflow-type: tm+mt
-source-wordcount: '13497'
+source-wordcount: '13503'
 ht-degree: 2%
 
 ---
@@ -440,6 +440,7 @@ ht-degree: 2%
          * [Criar e editar regras de negócios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [Configurar locais](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
+         * [Importar cartões de taxa de um modelo](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/import-rate-cards.md)
       * Configurar preferências de cronograma e folha de horas {#configure-timesheets-schedules}
          * [Configurar preferências de cronograma e folha de horas](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [Visão geral dos cronogramas](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
