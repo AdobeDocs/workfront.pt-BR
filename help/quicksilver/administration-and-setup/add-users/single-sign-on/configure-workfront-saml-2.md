@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1061'
 ht-degree: 7%
 
 ---
@@ -23,7 +23,13 @@ ht-degree: 7%
 
 <!-- Audited: 12/2023 -->
 
-{{important-admin-console-onboard}}
+
+
+>[!IMPORTANT]
+>
+>O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Adobe Admin Console.
+>
+>Para mapear atributos de usuário em organizações que foram integradas à Adobe Admin Console, consulte [Mapear atributos de usuário na experiência unificada da Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) no artigo Mapear atributos de usuário.
 
 Como administrador do Adobe Workfront, você pode configurar os aplicativos móveis e da Web do Workfront para se integrarem a uma solução SAML (Security Assertion Markup Language) 2.0 para logon único (SSO).
 
@@ -142,7 +148,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <li> <p>Endereço de email</p> </li> 
       <li> <p>Extensão</p> </li> 
       <li> <p>Nome</p> </li> 
-      <li> <p>Grupo padrão</p> </li> 
+      <li> <p>Grupo principal</p> </li> 
       <li> <p>Equipe interna</p> </li> 
       <li> <p>Função no trabalho</p> </li> 
       <li> <p>Sobrenome</p> </li> 

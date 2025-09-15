@@ -8,16 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 93f4c1691210d88531fcc269bd40ee7ed8633309
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
 
 # Atualizar metadados do SAML 2.0 no provedor de identidade
 
-{{important-admin-console-onboard}}
+>[!IMPORTANT]
+>
+>O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Adobe Admin Console.
+>
+>Para mapear atributos de usuário em organizações que foram integradas à Adobe Admin Console, consulte [Mapear atributos de usuário na experiência unificada da Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) no artigo Mapear atributos de usuário.
 
 As seções a seguir descrevem como atualizar os metadados da SAML (Security Assertion Markup Language) 2.0 ao usar os ADFS (Serviços de Federação do Ative Diretory) como provedor de identidade.
 
