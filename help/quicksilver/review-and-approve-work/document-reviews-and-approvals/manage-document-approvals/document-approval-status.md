@@ -6,9 +6,9 @@ description: Os status de decisão do documento são listados e explicados
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: fcdb935b148ed7f8b9c49476f099f8285e02b0b5
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '178'
 ht-degree: 5%
 
 ---
@@ -98,6 +98,7 @@ Os seguintes status estão disponíveis:
                                 <p>Pelo menos um aprovador tomou a decisão de "Aprovado com alterações"</p>
                                 <p>Outros aprovadores podem ter dado decisões de "Aprovado"
                             </li>
+                            <p>Observação: essa opção não estará disponível se você estiver usando a integração Frame.io para revisão e aprovação.</p>
                         </ul>
                     </td>
                 </tr>
@@ -106,9 +107,9 @@ Os seguintes status estão disponíveis:
                     </td>
                     <td>
                         <ul>
-                            <li>
-                                <p>Todas as aprovações e revisões estão concluídas</p>
-                            </li>
+                           <!--<li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>-->
                             <li>
                                 <p>Todos os aprovadores podem ter indicado "Aprovado"
                             </li>

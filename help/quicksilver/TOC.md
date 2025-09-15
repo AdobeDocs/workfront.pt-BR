@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 3d5dc51c519c7880e7a159fd26420bbd5ec18b6b
+source-git-commit: 5b34ea50fbf4718512a604191202b4ae9521ba86
 workflow-type: tm+mt
-source-wordcount: '13503'
+source-wordcount: '13500'
 ht-degree: 2%
 
 ---
@@ -1804,7 +1804,6 @@ ht-degree: 2%
       * [Atualizar itens de trabalho no Balanceador de carga de trabalho usando o Resumo](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Revisar e aprovar trabalho {#review-and-approve-work}
    * [Revisar e aprovar trabalho](review-and-approve-work/review-and-approve-work.md)
-   * [Programa Alpha - Aprovações de documentos](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Visão geral de documentos e decisões de prova limitados para usuários não pagos](review-and-approve-work/proof-doc-decision-limits.md)
    * Aprovações de trabalho {#work-approvals}
       * [Aprovações de trabalho](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -1818,14 +1817,15 @@ ht-degree: 2%
       * [Delegar solicitação de aprovação](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Associar um processo de aprovação novo ou existente ao trabalho](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Cancelar aprovações enviadas](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Revisão e aprovação de ativos e documentos {#document-reviews-and-approvals}
-      * [Revisão e aprovação de ativos e documentos: índice do artigo](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-      * [Funcionalidade disponível para revisão e aprovação de ativos e documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+   * Aprovações unificadas {#document-reviews-and-approvals}
+      * [Aprovações de documentos unificados: índice do artigo](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+      * [Funcionalidade disponível para aprovações unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [Visão geral das aprovações unificadas](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Visão geral do status de decisão do documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Introdução ao Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+      * [Visão geral do gerenciamento de armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
       * Configurar e gerenciar aprovações de ativos e documentos {#manage-asset-review-and-approval}
-         * [Configurar e gerenciar aprovações de ativos e documentos: índice de artigos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+         * [Configurar e gerenciar aprovações unificadas: índice de artigos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Criar revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
          * [Criar uma revisão de documento ou solicitação de aprovação](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Adicionar revisores ou aprovadores adicionais a um ativo ou documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
@@ -1839,6 +1839,7 @@ ht-degree: 2%
          * [Exibir pontuação e feedback do revisor da IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [Revisar um documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Aprovar um documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
+         * [Revisar e aprovar um documento no visualizador Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
    * Prova {#proofing}
       * [Prova: índice do artigo](review-and-approve-work/proofing/proofing.md)
       * Visão geral de prova {#proofing-overview}

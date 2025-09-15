@@ -6,7 +6,7 @@ description: Você pode solicitar aprovação de outros usuários para um docume
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 3fc3b1421882261a58a1984c9df410896d596062
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -59,7 +59,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Passe o mouse sobre o documento e clique em Detalhes do documento.
    ![Detalhes do documento](assets/doc-details.png)
-
 
 1. Próximo ao nome do documento, selecione a versão do documento para a qual deseja criar uma aprovação na lista suspensa versão. A versão mais recente será selecionada por padrão.
 
