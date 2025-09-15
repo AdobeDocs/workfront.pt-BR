@@ -1,18 +1,18 @@
 ---
-title: Visão geral do Assistente de IA
+title: Assistente de IA no Workfront
 content-type: reference
-description: Visão geral do Assistente de IA
+description: Saiba mais sobre o Assistente de IA no Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 657c2aa75d088f87f8e05b5089fccae2577842ee
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '831'
 ht-degree: 1%
 
 ---
 
-# Visão geral do Assistente de IA
+# Assistente de IA no Workfront
 
 O Assistente de IA da Workfront ajuda você a realizar seu trabalho oferecendo informações e sugestões no aplicativo em uma conversa em idioma natural. O Assistente de IA pode lhe oferecer uma experiência de trabalho mais estável
 
