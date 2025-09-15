@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
+source-git-commit: 084f19973941b391d3d7e62c4901eee8ec975527
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4396'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Os métodos HTTP padrão correspondem às seguintes operações:
 * **PUT** - Edita um objeto existente
 * **DELETE** - Exclui um objeto
 
-Para contornar deficiências do cliente ou limites de comprimento do protocolo, o parâmetro do método pode ser usado para substituir o comportamento HTTP. Por exemplo, uma operação GET pode ser implementada publicando o seguinte URI:
+Para contornar deficiências do cliente ou limites de comprimento do protocolo, o parâmetro do método pode ser usado para substituir o comportamento HTTP. Por exemplo, uma operação do GET pode ser implementada publicando o seguinte URI:
 <pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=get<br>GET /attask/api/v15.0/project/4c78...54d0?method=get</pre>
 
 ### Resposta
@@ -82,13 +82,13 @@ GET /attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
 retorna uma resposta JSON semelhante ao seguinte:
 
 
-<pre>&lbrace;<br>    "dados": [<br>        {<br>            "percentComplete": 0,<br>            "status": "CUR",<br>            "priority": 2,<br>            "name": "Novo projeto",<br>            "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br></pre>
+<pre>{<br>    "dados": [<br>        {<br>            "percentComplete": 0,<br>            "status": "CUR",<br>            "priority": 2,<br>            "name": "Novo projeto",<br>            "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
 >Ao executar uma solicitação do GET pela barra de endereços do navegador, não é necessário incluir a sessionID como parte da solicitação.
 
-Uma segurança especial foi adicionada às solicitações de PUT, POST e DELETE. Qualquer solicitação que resulte em gravação ou exclusão do banco de dados só poderá ser executada se **sessionID=abc123** estiver incluída no URI. Os exemplos a seguir mostram como isso procuraria uma solicitação DELETE:
+Uma segurança especial foi adicionada às solicitações do PUT, POST e DELETE. Qualquer solicitação que resulte em gravação ou exclusão do banco de dados só poderá ser executada se **sessionID=abc123** estiver incluída no URI. Os exemplos a seguir mostram como isso procuraria uma solicitação DELETE:
 <pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=delete&amp;sessionID=abc123<br>GET /attask/api/v15.0/project/4c78...54d0?method=delete&amp;sessionID=abc123</pre>
 
 ### Autenticação
@@ -110,7 +110,7 @@ SessionID: abc1234
 
 #### Autenticação baseada em cookie
 
-A API usa a mesma autenticação baseada em cookies usada pela interface do usuário da Web para o sistema. Onde, se um cliente fizer logon no Workfront usando a interface da Web, qualquer chamada de AJAX feita no mesmo navegador usará a mesma autenticação.
+A API usa a mesma autenticação baseada em cookies usada pela interface do usuário da Web para o sistema. Onde, se um cliente fizer logon no Workfront usando a interface da Web, quaisquer chamadas do AJAX feitas no mesmo navegador usarão a mesma autenticação.
 
 >[!NOTE]
 >
@@ -133,9 +133,9 @@ A API usa a mesma autenticação baseada em cookies usada pela interface do usu�
 
 >[!NOTE]
 >
->O procedimento descrito nesta seção se aplica apenas a organizações que ainda não foram integradas à Plataforma de negócios Adobe. Fazer logon no Workfront por meio da API do Workfront não estará disponível se sua organização tiver sido integrada à Plataforma comercial Adobe.
+>O procedimento descrito nesta seção se aplica apenas a organizações que ainda não foram integradas à Adobe Business Platform. Fazer logon no Workfront por meio da API do Workfront não estará disponível se sua organização tiver sido integrada à Adobe Business Platform.
 >
->Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Plataforma Comercial Adobe, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Business Platform, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Usando um nome de usuário e senha válidos, você pode usar a seguinte solicitação para obter uma ID de sessão:
 
@@ -201,16 +201,16 @@ Para fazer logoff de um usuário:
 1. Altere o URL para /attask/api/v15.0/project/search.\
    Observe que a página não pode ser encontrada.
 1. Substitua a palavra *search* por login?username=admin&amp;password=user, substituindo seu nome de usuário e senha por *admin* e *user\
-   *Essa sessão é armazenada no navegador como um cookie e não precisa ser reexpressa em cada solicitação subsequente do GET.
+   *Essa sessão é armazenada no navegador como um cookie e não precisa ser reafirmada em cada solicitação subsequente do GET.
 
 1. Altere a URL de volta para **/attask/api/v15.0/project/search**.
 1. Observe a resposta fornecida.
 
-Você sempre deve incluir a sessionID fornecida após o logon ao executar solicitações PUT, POST e DELETE.
+Você sempre deve incluir a sessionID fornecida após o logon ao executar solicitações do PUT, POST e DELETE.
 
 ## Comportamento do GET
 
-Use o método HTTP GET para recuperar um ou vários objetos e executar relatórios.
+Use o método GET do HTTP para recuperar um ou vários objetos e executar relatórios.
 
 ### Recuperando Objetos
 
@@ -226,7 +226,7 @@ GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
 
 retorna uma resposta semelhante à seguinte:
 
-<pre>&lbrace;<br>    "percentComplete": 0,<br>    "status": "CUR",<br>    "priority": 2,<br>    "name": "Novo projeto",<br>    "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br></pre>
+<pre>{<br>    "percentComplete": 0,<br>    "status": "CUR",<br>    "priority": 2,<br>    "name": "Novo projeto",<br>    "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br></pre>
 
 
 Você pode recuperar vários objetos na mesma solicitação especificando o parâmetro de solicitação de id e fornecendo uma lista de IDs separadas por vírgulas, como mostrado no exemplo a seguir:
@@ -318,7 +318,7 @@ Por padrão, a recuperação de um objeto retorna somente o subconjunto de campo
 
 Você pode usar o parâmetro de solicitação de campos para especificar que uma lista separada por vírgulas de campos específicos seja retornada. Por exemplo, a solicitação
 <pre>/attask/api/v15.0/task/search?fields=plannedStartDate,priority</pre>retorna uma resposta semelhante à seguinte:
-<pre>&lbrace;<br>    "priority": 2,<br>    "name": "primeira tarefa",<br>    "ID": "4c7c08fa0000002ff924e298ee148df4",<br>    "plannedStartDate": "30/08/2010:00:00:000-0600" <br></pre>
+<pre>{<br>    "priority": 2,<br>    "name": "primeira tarefa",<br>    "ID": "4c7c08fa0000002ff924e298ee148df4",<br>    "plannedStartDate": "30/08/2010:00:00:000-0600" <br></pre>
 
 >[!NOTE]
 >
@@ -331,7 +331,7 @@ Para obter uma lista de referências de campo possíveis, consulte  [API Explor
 Você pode pesquisar objetos aninhados. Por padrão, objetos aninhados são retornados somente com o nome e a ID. Por exemplo, para obter todos os problemas junto com seus proprietários, use a seguinte solicitação:
 <pre>/attask/api/v15.0/issue/search?fields=proprietário</pre>Se forem necessárias mais informações, é possível solicitar um campo aninhado usando a sintaxe de dois pontos. Por exemplo, a solicitação a seguir pesquisa todos os problemas, juntamente com o nome, a ID, o título e o número de telefone do proprietário
 <pre>/attask/api/v15.0/issue/search?fields=proprietário:título,proprietário:phoneNumber</pre>e retorna o seguinte: 
-<pre>&lbrace;<br>    "name": "um problema importante",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "proprietário": {<br>        "title": "Especialista em Operações",<br>        "phoneNumber": "555-1234",<br>        "name": "Usuário administrador",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br></pre>
+<pre>{<br>    "name": "um problema importante",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "proprietário": {<br>        "title": "Especialista em Operações",<br>        "phoneNumber": "555-1234",<br>        "name": "Usuário administrador",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br></pre>
 
 #### Recuperando coleções aninhadas
 
@@ -350,7 +350,7 @@ Você pode recuperar campos de dados personalizados usando o prefixo &quot;DE:&q
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>que retornaria
 <pre>{<br>    "name": "projeto de dados personalizado",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Você também pode recuperar todos os dados personalizados de um objeto solicitando o campo parameterValues. Por exemplo, 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>retorna dados semelhantes ao seguinte:
-<pre>&lbrace;<br>    "name": "projeto de dados personalizado",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "tarefa b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br></pre>
+<pre>{<br>    "name": "projeto de dados personalizado",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "tarefa b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br></pre>
 
 #### Uso de Consultas Nomeadas
 
@@ -367,8 +367,8 @@ Você pode usar `count` para retornar o número de resultados que correspondem �
 
 Você pode executar uma solicitação de relatório, onde somente a agregação de algum campo é desejada com um ou mais agrupamentos. Como mostrado no exemplo a seguir, a sintaxe do relatório é igual à sintaxe da API do SOAP:
 <pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>que retorna o seguinte resultado
-<pre>&lbrace;<br>    "Primeiro projeto": { <br>        "sum_hours": 15 <br>    }, <br>     "Segundo projeto": { <br>        "sum_hours": 30 <br>    } <br></pre>A adição do parâmetro $$ROLLUP=true inclui um total em cada nível de agrupamento:
-<pre>&lbrace;<br>    "Primeiro projeto": { <br>        "sum_hours": 15 <br>    }, <br>    "Segundo projeto": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
+<pre>{<br>    "Primeiro projeto": { <br>        "sum_hours": 15 <br>    }, <br>     "Segundo projeto": { <br>        "sum_hours": 30 <br>    } <br></pre>A adição do parâmetro $$ROLLUP=true inclui um total em cada nível de agrupamento:
+<pre>{<br>    "Primeiro projeto": { <br>        "sum_hours": 15 <br>    }, <br>    "Segundo projeto": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br></pre>
 
 ### Classificação dos resultados da consulta na API
 
@@ -452,11 +452,11 @@ Você pode criar uma regra de acesso para determinar quem pode acessar um objeto
 Para definir um projeto para que ele seja compartilhado somente com um usuário com ID &quot;abc123&quot;, use a seguinte solicitação:
 <pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {accessID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'} ] }</pre>Como alternativa, para compartilhar somente com uma nova pessoa e manter as permissões existentes intactas:
 <pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxx/share?method=put&amp;accessorID=abc123&amp;accessorObjCode=USER&amp;coreAction=VIEW</pre>Para recuperar as regras de acesso existentes:
-<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxx?fields=accessRules:*</pre>
+<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?fields=regras de acesso:*</pre>
 
 ## Comportamento do POST
 
-POST insere um novo objeto. A sintaxe é idêntica ao PUT, mas com algumas exceções. Como o novo objeto ainda não existe, ele não tem uma ID. Por esse motivo, o URI não inclui a ID.
+POST insere um novo objeto. A sintaxe é idêntica à do PUT, mas com algumas exceções. Como o novo objeto ainda não existe, ele não tem uma ID. Por esse motivo, o URI não inclui a ID.
 
 ### Criação de um objeto
 
@@ -480,9 +480,9 @@ Você pode fazer upload de documentos por meio do seguinte URL da API:
 
 ## Comportamento do PUT
 
-PUT é usado para atualizar um objeto existente.
+O PUT é usado para atualizar um objeto existente.
 
-A resposta de um PUT é idêntica a uma GET. Em ambos os casos, o servidor retorna o novo estado do objeto após a atualização. Todas as regras usadas para alterar uma resposta a uma solicitação do GET também funcionam com o PUT, como especificar campos adicionais a serem retornados, dados personalizados etc.
+A resposta de uma PUT é idêntica a uma GET. Em ambos os casos, o servidor retorna o novo estado do objeto após a atualização. Todas as regras usadas para alterar uma resposta a uma solicitação do GET também funcionam com o PUT, como especificar campos adicionais a serem retornados, dados personalizados etc.
 
 ### Editando Objetos
 
@@ -492,12 +492,12 @@ As atualizações de objetos são sempre feitas por ID usando o URI exclusivo do
 ### Especificação de edições de JSON
 
 Como mostrado no exemplo a seguir, você pode usar o parâmetro de solicitação de atualizações para especificar os campos a serem atualizados usando a sintaxe JSON:
-<pre>PUT /attask/api/v15.0/project/4c7...?atualizações= <br>&lbrace;<br>     nome: "Novo Nome de Projeto", <br>     status: "CUR", <br>     ... <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?atualizações= <br>{<br>     nome: "Novo Nome de Projeto", <br>     status: "CUR", <br>     ... <br></pre>
 
 ### Fazer atualizações aninhadas
 
 Alguns objetos têm coleções de propriedade privada que podem ser atualizadas. Por exemplo, o exemplo a seguir demonstra como substituir as atribuições existentes para uma determinada tarefa:
-<pre>PUT /attask/api/v15.0/task/4c7...?atualizações= <br>&lbrace;<br>    atribuições: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?atualizações= <br>{<br>    atribuições: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
@@ -515,30 +515,30 @@ Alguns objetos oferecem suporte a ações adicionais que podem ser executadas, a
 
 A seguir é apresentada a sintaxe para mover uma tarefa de um projeto para outro:
 <pre>PUT /attask/api/v15.0/task/4c7.../move?projectID=5d8...</pre>Um exemplo para cada tipo de ação é fornecido aqui: (??)
-<pre>PUT /attask/api/v15.0/project/1234/approveApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/v/api/v15.0/project/1234/recallApproval<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval<br><br>PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed</pre>Somente a ação de mover requer a identificação de atributos adicionais para especificar o projeto para o qual o item de trabalho deve ser movido.
+<pre>PUT /attask/api/v15.0/project/1234/approveApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/recallApproval<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval<br><br>PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed</pre>Somente a ação de mover requer a identificação de atributos adicionais para especificar o projeto para o qual o item de trabalho deve ser movido.
 
 Veja a seguir um exemplo de cada tipo de ação: 
-<pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
+<pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
 
 ### Objetos de Compartilhamento
 
 O exemplo a seguir demonstra a sintaxe para o compartilhamento de um projeto com uma equipe:
-<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>Ao editar um objeto, você pode substituir todas as regras de acesso em um objeto fazendo um PUT e enviando atualizações semelhantes ao seguinte exemplo:
-<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',accessorObjCode:'TEAMOB',coreAction:'VIEW'}]}</pre>O exemplo a seguir mostra a sintaxe para mover uma tarefa de um projeto para outro:
+<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>Ao editar um objeto, você pode substituir todas as regras de acesso em um objeto fazendo uma PUT e enviando atualizações semelhantes ao seguinte exemplo:
+<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',accessorObjCode:'TEAMOB',coreAction:'VIEW'}]}</pre>O exemplo a seguir mostra a sintaxe para mover uma tarefa de um projeto para outro:
 <pre>PUT /attask/api/v15.0/task/4c7.../move?projectID=5d8...</pre>
 
 ## Comportamento do DELETE
 
-DELETE remove um objeto. Em todos os casos, o URI pode incluir o parâmetro force=true para fazer com que o servidor remova os dados especificados e seus dependentes. No exemplo a seguir, uma tarefa é excluída executando o método HTTP DELETE em um URI:
-<pre>DELETE /attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE DELETE /attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0 <br>1 /attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0?force=true <br>DELETE /attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0?force true</pre>
+O DELETE remove um objeto. Em todos os casos, o URI pode incluir o parâmetro force=true para fazer com que o servidor remova os dados especificados e seus dependentes. No exemplo a seguir, uma tarefa é excluída executando o método HTTP DELETE em um URI:
+<pre>DELETE /attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0?force=true <br>DELETE /attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0?force=pt</pre>
 
 ## Atualizações em massa
 
 Uma instrução de atualização em massa atualiza vários objetos ao mesmo tempo em uma única chamada de API. Uma chamada de API de criação em massa é criada de forma semelhante a uma chamada de atualização normal, como mostrado nos exemplos a seguir:
-<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que resulta em um retorno semelhante ao seguinte:
-<pre>dados: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    nome: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>    plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>    prioridade: 0,<br>    projectsCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>&lbrace;<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    nome: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>    plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>    prioridade: 0,<br>    projectsCompletionDate: "28/08/2014 T16:12:00:000-0400",<br>    status: "CUR"<br>]</pre>Você também pode fazer uma atualização em massa semelhante ao seguinte:
-<pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}] apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que resulta em um retorno semelhante ao seguinte:
-<pre>dados: [<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>     plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>     prioridade: 0,<br>     projectsCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>&rbrace;,<br>&lbrace;<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    name: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>    plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>    prioridade: 0,<br>    projectsCompletionDate: "28/08/2014 T16:16:00:000-0400",<br>    status: "CUR"<br>]</pre>Se quiser que todas as operações aconteçam na mesma transação, adicione "atomic=true" à chamada da API em lote como um parâmetro de solicitação. Dessa forma, se qualquer uma das operações falhar, todas as operações serão revertidas.
+<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>ou <pre>PUSH /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que resulta em um retorno semelhante ao seguinte:
+<pre>dados: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    nome: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>    plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>    prioridade: 0,<br>    projectsCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    nome: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>    plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>    prioridade: 0,<br>    projectsCompletionDate: "28/08/2014 T16:12:00:000-0400",<br>    status: "CUR"<br>]</pre>Você também pode fazer uma atualização em massa semelhante ao seguinte:
+<pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Editar"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>que resulta em um retorno semelhante ao seguinte:
+<pre>dados: [<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>     plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>     prioridade: 0,<br>     projectsCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    name: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "28/08/2014 T11:00:00:000-0400",<br>    plannedStartDate: "28/08/2014 T11:00:00:000-0400",<br>    prioridade: 0,<br>    projectsCompletionDate: "28/08/2014 T16:16:00:000-0400",<br>    status: "CUR"<br>]</pre>Se quiser que todas as operações aconteçam na mesma transação, adicione "atomic=true" à chamada da API em lote como um parâmetro de solicitação. Dessa forma, se qualquer uma das operações falhar, todas as operações serão revertidas.
 
 >[!NOTE]
 >
