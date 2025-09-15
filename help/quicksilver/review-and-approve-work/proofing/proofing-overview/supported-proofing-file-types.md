@@ -7,9 +7,9 @@ description: Você pode compartilhar e revisar vários tipos de arquivos com seu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
+source-git-commit: e9fd96e32cabb1a99bb2170261577ec05c35ff6f
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,13 @@ O Workfront tem os seguintes limites:
 * PNM - Utilitários de bitmap portátil
 * PPM - Utilitários de bitmap portáteis
 * PPT - Apresentação do PowerPoint
+* PPTX - PowerPoint Presentation 2007 (Apresentação do PowerPoint 2007)
 
   >[!NOTE]
   >
-  >Há um problema conhecido com os arquivos de apresentação do PowerPoint que não puderam ser carregados no momento. Se você enfrentar esse problema, converta o arquivo para o PDF e faça upload do PDF. Para obter mais informações, consulte [Provas: não é possível gerar uma prova de um arquivo do PowerPoint](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
+  >Há um problema conhecido com os arquivos de apresentação do PowerPoint que não puderam ser carregados no momento. Se você enfrentar esse problema, converta o arquivo para o PDF e faça upload do PDF. Para obter mais informações, consulte [Provas: não é possível gerar uma prova de um arquivo do PowerPoint](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx).
 
-
-* PPTX - PowerPoint Presentation 2007 PS - PostScript File
+* PS - PostScript File
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
 * PTK - PTOCA
