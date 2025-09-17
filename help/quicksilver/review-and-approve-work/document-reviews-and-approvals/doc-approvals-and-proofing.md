@@ -6,9 +6,9 @@ description: Você pode usar Aprovações unificadas com revisões.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -97,8 +97,6 @@ Para adicionar uma nova versão:
 ## Revise a prova e tome uma decisão
 
 O documento não passará para um status de aprovado até que todos os aprovadores atribuídos escolham &quot;aprovado&quot;.
-
-Se qualquer aprovador escolher &quot;precisa de trabalho&quot;, o status do documento será alterado imediatamente para Precisa de trabalho. O documento precisa ser revisado e carregado como uma nova versão com um novo fluxo de trabalho de aprovação.
 
 Para revisar e aprovar um documento:
 

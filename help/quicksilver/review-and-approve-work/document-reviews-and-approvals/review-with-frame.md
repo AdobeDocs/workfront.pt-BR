@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -81,8 +81,6 @@ A marcação de comentários e ativos está visível somente no visualizador Fra
 Como aprovador, você pode adicionar comentários e marcar até ativos. Você deve tomar a decisão de mover o processo de aprovação para frente.
 
 O documento não passará para um status de aprovado até que todos os aprovadores atribuídos escolham &quot;aprovado&quot;.
-
-Se qualquer aprovador escolher &quot;Precisa de trabalho&quot;, o status do documento será alterado imediatamente para Precisa de trabalho. O documento precisa ser revisado e carregado como uma nova versão com um novo fluxo de trabalho de aprovação.
 
 Para tomar uma decisão sobre um documento:
 
