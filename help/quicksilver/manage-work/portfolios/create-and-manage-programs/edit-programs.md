@@ -6,14 +6,16 @@ description: É possível editar informações sobre programas criados por você
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 0%
+source-wordcount: '1059'
+ht-degree: 1%
 
 ---
 
 # Editar programas
+
+{{highlighted-preview}}
 
 É possível editar informações sobre programas criados por você ou criados por outros usuários, caso eles tenham sido compartilhados com você.
 
@@ -104,6 +106,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    A caixa de diálogo **[!UICONTROL Editar Programa]** é exibida.
 
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+   ![Editar caixa de programa](assets/edit-program-0925.png)
+
+   Imagem de amostra no ambiente de produção:
    ![Editar caixa de programa](assets/edit-program-box-nwe-350x236.png)
 
    Todos os campos de programa estão disponíveis na caixa [!UICONTROL Editar Programa] e são agrupados pelas áreas listadas no painel esquerdo.
@@ -157,7 +163,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     </tbody> 
    </table>
 
-1. Clique em **[!UICONTROL Salvar alterações]** ou continue editando as seções a seguir.
+1. Clique em <span class="preview">**Salvar**</span> ou **[!UICONTROL Salvar alterações]**, ou continue editando as seções a seguir.
 
 ### [!UICONTROL Formulários personalizados]
 
@@ -170,17 +176,17 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    >
    >Dependendo de como o administrador do [!DNL Workfront] definiu as permissões para as seções no formulário personalizado, nem todos podem exibir ou editar os mesmos campos em um determinado formulário personalizado. As permissões para editar campos em uma seção de um formulário personalizado dependem das permissões que você tem no próprio programa. Para obter informações sobre como configurar permissões em seções de um formulário personalizado, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Atualize todos os campos nos formulários personalizados e clique em **[!UICONTROL Salvar alterações]** ou continue com a seção a seguir.
+1. Atualize todos os campos nos formulários personalizados e clique em <span class="preview">**Salvar**</span> ou **[!UICONTROL Salvar alterações]**, ou continue com a seção a seguir.
 
 ### [!UICONTROL Comentário] {#comment}
 
 1. Comece a editar um programa conforme descrito acima.
 1. Clique em **[!UICONTROL Comentário]**.
-
-   ![Caixa Comentário na caixa Editar programa](assets/comment-box-in-program-edit-box-classic-350x195.png)
-
-1. Adicione um comentário no campo **[!UICONTROL Postar uma atualização para o programa]**.
+1. Adicione um comentário no **[!UICONTROL Poste uma atualização no programa]** / <span class="preview">**Adicione uma atualização a cada campo de programa**</span>.
 1. (Opcional) Clique no ícone **[!UICONTROL Pessoas]** para adicionar um usuário ou uma equipe ao comentário.
-1. (Opcional) Clique no ícone **[!UICONTROL Bloquear]** para bloquear o comentário e torná-lo privado somente para os usuários em sua empresa.
+1. (Opcional) Clique no ícone **[!UICONTROL Bloquear]** <span class="preview">ou selecione [!UICONTROL **Privado para minha empresa**]</span> para bloquear o comentário e torná-lo privado apenas para os usuários em sua empresa.
 
    Depois de salvar as alterações, o comentário adicionado é exibido na guia [!UICONTROL Atualizações] do programa e envia um email aos usuários incluídos nele.
+
+
+   <!--THIS IMAGE GOES AFTER "CLICK COMMENT." I had to move it to get rid of blank lines. Lisa ![Comment box in edit program box](assets/comment-box-in-program-edit-box-classic-350x195.png)-->
