@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1976'
 ht-degree: 1%
 
 ---
 
 # Visão geral dos tipos de registro conectados
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   -->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Você pode indicar que os tipos de registro individuais se relacionam entre si ou com objetos de outros aplicativos, conectando-os.
 
@@ -75,12 +75,12 @@ Considere o seguinte sobre a conexão de tipos de registro:
 
      Por exemplo, se você conectar o tipo de registro &quot;Campanha&quot; ao tipo de registro &quot;Produto&quot;, um campo de registro vinculado (campo de conexão) chamado &quot;Produto vinculado&quot; será criado no tipo de registro Campanha. Um tipo de registro vinculado chamado automaticamente de &quot;Campanha&quot; é criado no tipo de registro Produto.
 
-     <!--<div class="preview">
-        
-        For example, the following scenarios exist: 
-        * When you enable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
-        * When you disable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is not created on the Product record type.
-        </div>-->
+     <div class="preview">
+
+     Por exemplo, os seguintes cenários existem:
+      * Ao habilitar a configuração Criar campo correspondente no tipo de registro vinculado e conectar o tipo de registro &quot;Campanha&quot; ao tipo de registro &quot;Produto&quot;, um campo de registro vinculado (campo de conexão) chamado &quot;Produto vinculado&quot; é criado no tipo de registro Campanha. Um tipo de registro vinculado chamado automaticamente de &quot;Campanha&quot; é criado no tipo de registro Produto.
+      * Ao desativar a configuração Criar campo correspondente no tipo de registro vinculado e conectar o tipo de registro &quot;Campanha&quot; ao tipo de registro &quot;Produto&quot;, um campo de registro vinculado (campo de conexão) chamado &quot;Produto vinculado&quot; será criado no tipo de registro Campanha. Um tipo de registro vinculado chamado automaticamente de &quot;Campanha&quot; não é criado no tipo de registro Produto.
+     </div>
 
      Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -90,7 +90,7 @@ Considere o seguinte sobre a conexão de tipos de registro:
       * Os campos de registros de planejamento não podem ser acessados de objetos do Workfront.
       * Os registros do Planning ficam visíveis na guia Planejamento do objeto Workfront. Para obter informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Você pode criar um campo personalizado de conexão do Planning e anexá-lo ao formulário personalizado de um objeto do Workfront. Para obter informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Os campos de registro do Planning podem ser acessados a partir de ativos do Experience Manager quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Os campos de registro do Planning podem ser acessados a partir de ativos do Experience Manager quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
    * **Ao adicionar campos de pesquisa a partir do registro ou objeto ao qual você se conecta**: além de criar um campo de registro vinculado, você também pode se conectar a campos do registro ou tipo de objeto conectado que são chamados de campos de pesquisa. Um campo vinculado (ou de pesquisa) com informações do registro ao qual você está se conectando é exibido no registro do qual você está se conectando.
@@ -132,66 +132,65 @@ Depois de estabelecer uma conexão entre dois tipos de registro ou entre um regi
 
 Você pode escolher se deseja conectar um registro a vários registros de cada vez ou um registro de cada vez entre si.
 
-Dependendo de quantos registros você pode adicionar a um campo de registro conectado <!--and the environment you use to create the connected fields-->, estes são os tipos de conexão que você pode escolher ao conectar tipos de registro:
-
-<!--replace the list of 4 connection types at the bottom of this commented-out section with this entire section, whenw e release to preview: 
+Dependendo de quantos registros você pode adicionar a um campo de registro conectado e do ambiente usado para criar os campos conectados, os seguintes tipos de conexão que você pode escolher ao conectar tipos de registro:
 
 <div class="preview">
 
-* In the Preview environment: 
+* No ambiente de Pré-visualização:
 
-    * When the Create corresponding field on linked record type setting is disabled, you can choose from: 
+   * Quando a configuração Criar campo correspondente no tipo de registro vinculado está desativada, é possível escolher entre:
 
-        * [Multi-select](#multi-select-connection-type)
-        * [Single-select](#single-select-connection-type)
+      * [Seleção múltipla](#multi-select-connection-type)
+      * [Seleção única](#single-select-connection-type)
 
 </div>
 
-* <span class="preview">In the Preview environment, when the Create corresponding field on linked record type setting is enabled,</span> or in the Production environment, you can choose from:
+* <span class="preview">No ambiente de Visualização, quando a configuração Criar campo correspondente no tipo de registro vinculado estiver habilitada,</span> ou no ambiente Produção, você poderá escolher entre:
 
-    * [Many to many](#many-to-many-connection-type)
-    * [One to many](#one-to-many-connection-type)
-    * [Many to one](#many-to-one-connection-type)
-    * [One to one](#many-to-one-connection-type) 
+   * [Muitos para muitos](#many-to-many-connection-type)
+   * [Um para muitos](#one-to-many-connection-type)
+   * [Muitos para um](#many-to-one-connection-type)
+   * [Um para um](#many-to-one-connection-type)
 
 <div class="preview">
 
-### Multi-select connection type
+### Tipo de conexão de seleção múltipla
 
-![Multi-select connection type](assets/multi-select-connection-picker.png)
+![Tipo de conexão de seleção múltipla](assets/multi-select-connection-picker.png)
 
-When you create a multi-select connection between record types, you can then select multiple connected records in the connection field from the original record type. 
+Ao criar uma conexão de seleção múltipla entre tipos de registro, você pode selecionar vários registros conectados no campo conexão do tipo de registro original.
 
-For example, if you create a multi-select connection between campaigns and projects, you can select multiple projects for one campaign. A Campaign connected record type is not created for the Project object type.
+Por exemplo, se você criar uma conexão de várias seleções entre campanhas e projetos, poderá selecionar vários projetos para uma campanha. Um tipo de registro conectado ao Campaign não é criado para o tipo de objeto Projeto.
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following types:
+Após selecionar esse tipo de conexão, você não poderá alterar o tipo de conexão depois de salvá-la em nenhum dos seguintes tipos:
 
-    * Single-select
-    * One to many
-    * Many to one
-    * One to one
+    * Seleção única
+    * De um para muitos
+    * De muitos para um
+    * De um para um
 
-### Single-select connection type
+### Tipo de conexão de seleção única
 
-![Single select connection type](assets/single-select-connection-picker.png)
+![Tipo de conexão de seleção única](assets/single-select-connection-picker.png)
 
-When you create a single-select connection between record types, you can then select one record in the connection field from the original record type. 
+Ao criar uma conexão de seleção única entre tipos de registro, você pode selecionar um registro no campo conexão do tipo de registro original.
 
-For example, if you create a single-select connection between campaigns and companies, you can select one company for one campaign. A Campaign connected record type is not created for the Company object type.
+Por exemplo, se você criar uma conexão de seleção única entre campanhas e empresas, poderá selecionar uma empresa para uma campanha. Um tipo de registro conectado ao Campaign não é criado para o tipo de objeto Empresa.
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following:
+Após selecionar esse tipo de conexão, você não poderá alterá-lo depois de salvá-lo em uma das seguintes opções:
 
-    * One to many
-    * One to one
+* Um para muitos
+* Um para um
 
 </div>
 
+
+<!--
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
 -->
-
-* [Muitos para muitos](#many-to-many-connection-type)
-* [Um para muitos](#one-to-many-connection-type)
-* [Muitos para um](#many-to-one-connection-type)
-* [Um para um](#many-to-one-connection-type)
 
 ### Tipo de conexão muitos para muitos
 
