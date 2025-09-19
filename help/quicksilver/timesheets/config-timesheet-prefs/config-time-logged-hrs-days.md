@@ -6,9 +6,9 @@ description: Como um usuário com uma licença Plan, você pode configurar se fa
 author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b4ab350af22afa44774f06d82daf1c3fb266d2b9
+source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
@@ -54,9 +54,9 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    * **Administrador do sistema configurando o log de tempo para outras pessoas:** comece a editar uma ou mais contas de usuário, conforme descrito em [Editar perfil de usuário](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. Na caixa de diálogo resultante, na seção **Planejamento de Recursos**, localize a opção **Registrar Tempo em**.
+1. Na caixa de diálogo resultante, na seção **Planejamento de Recursos**, localize a opção **Registrar tempo em**.
 
-   ![](assets/new-timesheet-log-hours-350x249.png)
+   ![Registrar tempo nas opções](assets/user-profile-log-time-options.png)
 
 1. (Condicional) Se você for um administrador do sistema editando vários usuários simultaneamente, selecione **Fazer logon**.
 1. Selecione entre as seguintes opções para registro de tempo:
