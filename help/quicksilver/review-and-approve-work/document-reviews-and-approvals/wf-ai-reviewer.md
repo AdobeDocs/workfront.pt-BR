@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 4%
@@ -55,12 +55,12 @@ Se você fizer upload de um tipo de arquivo não compatível, a opção Revisor 
 
 ## Configurar diretrizes da marca
 
-O Workfront AI Reviewer usa as diretrizes de marca configuradas nos Genstudio Foundations ao revisar seu conteúdo. Atualmente, você só pode configurar diretrizes de marca para imagens. Para obter mais informações, consulte [Introdução ao Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started).
+O Workfront AI Reviewer usa as diretrizes de marca configuradas no Genstudio Foundation ao revisar seu conteúdo. Atualmente, você só pode configurar diretrizes de marca para imagens. Para obter mais informações, consulte [Introdução ao Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Criar revisores de IA
 
-Depois que houver pelo menos uma marca configurada no GenStudio Foundations, os administradores do Workfront poderão começar a criar Revisores de IA na área Configuração. Esses Revisores de IA podem ser atribuídos a modelos de aprovação e solicitações individuais de revisão e aprovação. No momento, os revisores de IA só podem analisar em relação às diretrizes da marca da imagem.
+Depois que houver pelo menos uma marca configurada no GenStudio Foundation, os administradores do Workfront poderão começar a criar Revisores de IA na área Configuração. Esses Revisores de IA podem ser atribuídos a modelos de aprovação e solicitações individuais de revisão e aprovação. No momento, os revisores de IA só podem analisar em relação às diretrizes da marca da imagem.
 
 Para obter mais informações, consulte [Criar Revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 

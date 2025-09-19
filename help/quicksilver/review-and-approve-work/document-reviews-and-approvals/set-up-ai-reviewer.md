@@ -2,15 +2,15 @@
 product-area: documents
 navigation-topic: approvals
 title: Criar revisores de IA
-description: Depois de ter pelo menos uma marca configurada no GenStudio Foundations, você pode criar vários Revisores de IA, que podem ser atribuídos a modelos de aprovação e a solicitações individuais de revisão e aprovação.
+description: Depois de ter pelo menos uma marca configurada no GenStudio Foundation, você pode criar vários Revisores de IA, que podem ser atribuídos a modelos de aprovação e a solicitações individuais de revisão e aprovação.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >No momento, esse recurso está na versão beta.
 
-Depois de ter pelo menos uma marca configurada no GenStudio Foundations, você pode criar vários Revisores de IA, que podem ser atribuídos a modelos de aprovação e a solicitações individuais de revisão e aprovação.
+Depois de ter pelo menos uma marca configurada no GenStudio Foundation, você pode criar vários Revisores de IA, que podem ser atribuídos a modelos de aprovação e a solicitações individuais de revisão e aprovação.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Depois de ter pelo menos uma marca configurada no GenStudio Foundations, você p
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Padrão</p> </td> 
+   <td> <p>Standard</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -55,9 +55,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Pré-requisitos
 
-Antes de começar, você deve configurar as diretrizes de marca de imagem nos GenStudio Foundations.
+Antes de começar, você deve configurar as diretrizes de marca de imagem no GenStudio Foundation.
 
-Para saber mais sobre as diretrizes de marca de imagem, consulte [Introdução ao Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Para saber mais sobre as diretrizes de marca de imagem, consulte [Introdução ao Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 ## Adicionar um revisor de IA
 
