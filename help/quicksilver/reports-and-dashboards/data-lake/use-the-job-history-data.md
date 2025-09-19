@@ -6,7 +6,7 @@ description: Com o Data Connect, os administradores do Workfront podem acessar r
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
+source-git-commit: 05cf34fe6659c50da76d2478c6e79352346dc9a5
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Na visualização Histórico de tarefas, os administradores do Workfront podem acessar registros detalhados de cada trabalho de atualização de dados. Esses registros fornecem insight valiosas para as tarefas que mantêm seus dados atualizados e ajudam a estabelecer prazos ideais sobre quando executar processos e atualizar suas visualizações de negócios.
 
-![Exibição do Histórico do Trabalho](assets/job-history-tab.png)
+![Exibição do Histórico do Trabalho](assets/job-history-overview.png)
 
 As colunas de exibição Histórico de tarefas contêm as seguintes informações:
 
