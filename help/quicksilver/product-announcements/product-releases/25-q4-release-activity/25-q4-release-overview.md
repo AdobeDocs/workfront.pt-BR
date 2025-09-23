@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
+source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2125'
 ht-degree: 4%
 
 ---
@@ -351,6 +351,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Experiência unificada do Adobe disponível agora para mais organizações da Workfront</a><p></p>
+            <p>Para permitir que as organizações acessem os benefícios da Experiência unificada da Adobe, continuamos disponibilizando-a para os clientes existentes da Workfront.</p><p><span style="color: #ff0000;">A Experiência Unificada do Adobe está sendo disponibilizada em uma implantação em fases.</span> </p>
+        </td>
+        <td><p>sexta-feira, 11 de setembro de 2025</p><p>Ou</p><p>sexta-feira, 11 de dezembro de 2025</p></td>
+        <td><p>sexta-feira, 16 de outubro de 2025</p><p>Ou</p><p>sexta-feira, 15 de janeiro de 2026</p></td>
+        <td><p>sexta-feira, 16 de outubro de 2025</p><p>Ou</p><p>sexta-feira, 15 de janeiro de 2026</p></td>
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Atualizações das listas aprimoradas</a><p></p>
             <p>Com o layout de listas avançado, é possível usar filtros e agrupamentos para exibir seu trabalho e mantê-lo melhor organizado. Agora, há um indicador de ponto azul acima de um widget para informar quando um filtro ou agrupamento foi aplicado a uma lista nas seguintes áreas:</p>
             <ul>
@@ -439,7 +447,7 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API versão 20
 
@@ -451,7 +459,7 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 

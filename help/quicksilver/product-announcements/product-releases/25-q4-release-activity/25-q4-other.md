@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
+source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,30 @@ Esta página descreve as melhorias feitas com a versão do quarto trimestre de 2
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2025, consulte [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
-## Atualizações das listas aprimoradas
+## A Experiência unificada da Adobe agora está disponível para mais organizações da Workfront
+
+>[!NOTE]
+>
+>* A Experiência unificada do Adobe está sendo disponibilizada em uma implantação em fases. As organizações serão integradas à Experiência unificada da Adobe em uma das seguintes programações:
+>
+>| Versão de visualização | Versão de produção |
+>|---|---|
+>| quinta-feira, 18 de setembro de 2024 | 16 de outubro de 2025 (com a versão 25.10) |
+>| sexta-feira, 11 de dezembro de 2025 | 15 de janeiro de 2026 (com a versão 26.1) |
+
+Para permitir que as organizações acessem os benefícios da Experiência unificada da Adobe, continuamos disponibilizando-a para os clientes existentes da Workfront.
+
+A experiência unificada da Adobe inclui:
+
+* Um logon único para todos os aplicativos da Adobe por meio do Adobe Experience Cloud
+* Um &quot;alternador de organização&quot; para alternar entre organizações e ambientes do Workfront
+* Navegação com opções para páginas do Workfront, preferências do Adobe Experience Cloud e seu perfil do Workfront
+
+O administrador do Workfront receberá uma mensagem do Centro de notificações sobre a data em que sua organização migrará para a Experiência unificada da Adobe.
+
+Para obter mais informações, consulte [Experiência unificada da Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+[Exiba uma demonstração em vídeo deste recurso.](https://video.tv.adobe.com/v/3412388/){target=_blank}## Atualizações às listas aprimoradas
 
 >[!NOTE]
 >
