@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Salvar um projeto como modelo
-description: Salve um projeto como um modeloSalve como modelo" no nível do projeto, para que os usuários vejam isso na interface do usuário do; há outro artigo que esse link aborda com mais detalhes (passo a passo). Essa funcionalidade precisa ficar nas áreas de projetos E modelos.)"
+description: Salve um projeto como um modelo no nível do projeto para que os usuários vejam isso na interface do usuário do; há outro artigo que esse link aborda com mais detalhes (passo a passo). Essa funcionalidade precisa ficar nas áreas de projetos E modelos.)
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Se você decidir que um projeto ocorrerá novamente em algum momento no futuro, 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 

@@ -3,11 +3,11 @@ content-type: reference
 product-area: projects
 navigation-topic: financials
 title: Calcular Custo Orçado
-description: Calcular Progresso do Projeto de Rastreamento de Custo Orçado com um Relatório de Utilização""
+description: Calcular Progresso do Projeto de Rastreamento de Custo Orçado com um Relatório de Utilização
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 2%
@@ -71,7 +71,7 @@ O Custo Orçado, conforme refletido na área Orçamento de Recursos do Business 
     </tr> 
     <tr> 
      <td>Custo</td> 
-     <td> <p>Otimizador de Portfolio</p> <p>Dica: o total de todos os valores de Custo Orçado do projeto é o Custo Orçado do portfólio.</p> </td> 
+     <td> <p>Portfolio Otimizer</p> <p>Dica: o total de todos os valores de Custo Orçado do projeto é o Custo Orçado do portfólio.</p> </td> 
     </tr> 
     <tr> 
      <td>Custo orçado do projeto</td> 

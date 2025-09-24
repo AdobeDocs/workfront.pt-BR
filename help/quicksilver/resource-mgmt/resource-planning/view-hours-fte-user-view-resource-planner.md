@@ -3,11 +3,11 @@ content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: Exibir Horas Disponíveis, Planejadas e Reais ou FTE no Planejador de Recursos ao Usar a View do Usuário
-description: Visualize as Horas Disponíveis, Planejadas e Reais ou FTE no Planejador de Recursos ao usar o "User viewPlanning" no RP" - talvez "estimando recursos no RP" ou "Gerenciando Recursos no RP". etc... - ou talvez seja necessário redefinir o objetivo de outro PDV?!)"
+description: Exibir Horas Disponíveis, Planejadas e Reais ou FTE no Planejador de Recursos ao usar a view do Usuário Planejamento no RP - talvez "estimando recursos no RP" ou "Gerenciando Recursos no RP". etc... - ou talvez seja necessário redefinir a finalidade de outro PDV?!)
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 1%
