@@ -6,7 +6,7 @@ description: Você pode definir uma prioridade para uma ocorrência para indicar
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 3%
@@ -15,9 +15,9 @@ ht-degree: 3%
 
 # Atualizar prioridade do problema
 
-Você pode definir uma prioridade para um problema  para indicar a importância do problema.
+Você pode definir uma prioridade para uma ocorrência para indicar a importância da ocorrência.
 
-Você deve ter permissões de gerenciamento para o problema para modificar a Prioridade do problema.  [Atualize a Prioridade de um problema](#update-the-priority-of-an-issue).
+Você deve ter permissões de gerenciamento para o problema para modificar a Prioridade do problema. [Atualize a Prioridade de um problema](#update-the-priority-of-an-issue).
 
 ## Requisitos de acesso
 
@@ -103,7 +103,7 @@ Consulte a tabela a seguir para entender cada rótulo de prioridade padrão e se
 
 1. Clique no campo **Prioridade** na área **Informações básicas**.
 
-   ![Prioridade do problema](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![Prioridade do problema](assets/issue-priority-field.png)
 
 1. Selecione um valor para o campo **Prioridade**.
 
