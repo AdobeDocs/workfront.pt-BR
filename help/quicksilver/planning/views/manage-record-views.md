@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 2%
+source-wordcount: '1260'
+ht-degree: 1%
 
 ---
 
@@ -187,13 +187,12 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-1. Clique em **+ Exibição** para adicionar um novo modo de exibição.
+1. Dependendo do ambiente usado, faça o seguinte:
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, click the **+View** tab. 
-    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
-   <!--1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>-->
+   * No ambiente de Produção, clique na guia **+Exibir**.
+   * <span class="preview">No ambiente de Visualização, clique no ícone suspenso ![Ícone suspenso](assets/drop-down-icon.png) ao lado do nome do modo de exibição atual e clique em **+Novo modo de exibição**.</span>
+
+1. <span class="preview">No menu suspenso Exibir, arraste e solte as exibições em ordem de preferência.</span>
 1. Selecione entre os seguintes tipos de exibições:
 
    * Tabela
