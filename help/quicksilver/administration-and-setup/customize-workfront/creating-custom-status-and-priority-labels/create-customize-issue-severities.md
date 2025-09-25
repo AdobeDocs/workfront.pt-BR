@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 5%
+source-wordcount: '665'
+ht-degree: 3%
 
 ---
 
 # Criar ou personalizar a gravidade de problemas
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -72,7 +74,7 @@ O Workfront tem cinco severidades de problema integradas:
 * Problema Sem Solução
 * Erro Fatal
 
-<p>É possível editar o seguinte para essas severidades:</p>
+É possível editar o seguinte para essas severidades:
 
 * Nome
 * Cor
@@ -82,10 +84,11 @@ O Workfront tem cinco severidades de problema integradas:
 * Qual severidade é o padrão
 
   Para obter mais informações sobre severidades padrão, consulte [Criar ou editar a severidade de um problema](#create-or-edit-an-issue-severity) neste artigo.
+
 * Descrição
 * Se uma severidade está oculta no Workfront
 
-  Para obter mais informações sobre como ocultar uma severidade, consulte [Criar ou editar uma severidade de problema](#create-or-edit-an-issue-severity")
+  Para obter mais informações sobre como ocultar uma severidade, consulte [Criar ou editar a severidade de um problema](#create-or-edit-an-issue-severity) neste artigo.
 
 * Excluir uma severidade
 
@@ -99,44 +102,45 @@ Como administrador do Workfront, você pode criar e editar severidades de proble
 
 1. No painel esquerdo, clique em **Preferências do projeto** > **Severidades**.
 
-1. Se você estiver criando uma nova severidade, clique em **Adicionar uma Nova Severidade**.
+1. Se você estiver criando uma nova severidade, clique em <span class="preview">**Nova linha** na parte inferior da tabela</span> ou **Adicionar uma Nova Severidade**.
 1. Configure as seguintes opções para a nova severidade ou edite-as para uma existente:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Nome da Severidade</td> 
-      <td>Digite um nome para a severidade</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Chave</td> 
-      <td>Aumentar ou diminuir o nível de seriedade, originalmente atribuído pela Workfront, para a gravidade.
-      <p>O número de importância para cada severidade deve ser exclusivo. O número mais alto corresponde ao nível mais alto de severidade.</p> <p>Não é possível editar esse número depois de salvar a severidade.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Cor</td> 
-      <td> <p>Escolha uma cor para a severidade.</p> 
-      <p>A cor da severidade é usada em relatórios de gráfico quando você agrupa seus resultados por Severidade do Problema. Para obter informações sobre relatórios de gráficos, consulte <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Adicionar um gráfico a um relatório</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Severidade Padrão</td> 
-      <td>Selecione a severidade que deseja que o Workfront selecione automaticamente todas as questões recém-criadas.</p>
-      <p>A aparência é a gravidade padrão para problemas no Workfront.</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Descrição</td> 
-      <td>Digite uma descrição para a severidade para explicar sua função.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Ocultar</td> 
-      <td> Ocultar uma severidade que não é mais necessária. 
-      <p>Uma severidade oculta não é exibida em nenhum lugar do Workfront, portanto, os usuários não podem escolhê-la para seus problemas.</p> 
-      <p><b>IMPORTANTE</b>: em vez de excluir severidades que você não deseja mais usar, sugerimos que você as oculte. Dessa forma, você mantém todos os seus dados históricos em objetos já concluídos com a severidade, enquanto impede que as pessoas usem a severidade no futuro.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **Nome da Severidade**: Digite um nome para a severidade.
+   * **Importância**: aumente ou diminua o nível de seriedade, originalmente atribuído pela Workfront, para a severidade.
+
+     O número de importância para cada severidade deve ser exclusivo. O número mais alto corresponde ao nível mais alto de severidade.
+
+     Não é possível editar esse número depois de salvar a severidade.
+
+   * **Cor**: escolha uma cor para a severidade.
+
+     A cor da severidade é usada em relatórios de gráfico quando você agrupa seus resultados por Severidade do Problema. Para obter informações sobre relatórios de gráficos, consulte [Adicionar um gráfico a um relatório](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+
+   * **Severidade Padrão**: Selecione a severidade que deseja que o Workfront aplique automaticamente a todas as questões recém-criadas.
+
+     **Cosmética** é a severidade padrão para problemas no Workfront.
+
+     Não é possível definir uma severidade oculta como padrão.
+
+     <div class="preview">
+
+     A severidade padrão é indicada com um ícone ![Ícone de severidade padrão](assets/default-icon.png). Para escolher um novo padrão, siga um destes procedimentos:
+
+      * Marque a caixa de seleção ao lado do nome da severidade e selecione **Tornar padrão** na barra de ações, na parte inferior da tela.
+      * Passe o mouse sobre o nome da severidade e clique no menu **Mais** que aparece. Em seguida, selecione **Tornar Padrão**.
+
+        A nova severidade padrão é rotulada com o ícone.
+
+     </div>
+
+   * **Descrição**: digite uma descrição para a severidade para explicar sua função.
+   * <span class="preview">**Ocultar Opção**</span> ou **Ocultar**: <span class="preview">Escolha **Sim**</span> ou marque a caixa de seleção para ocultar uma severidade que não é mais necessária.
+
+     Uma severidade oculta não é exibida em nenhum lugar do Workfront, portanto, os usuários não podem escolhê-la para seus problemas.
+
+     >[!IMPORTANT]
+     >
+     >Em vez de excluir severidades que você não deseja mais usar, sugerimos que você as oculte. Dessa forma, você mantém todos os seus dados históricos em objetos já concluídos com a severidade, enquanto impede que as pessoas usem a severidade no futuro.
 
 1. (Opcional) Altere a ordem de listagem das severidades arrastando e soltando na ordem desejada.
 
