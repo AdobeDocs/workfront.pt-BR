@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
+source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 Esta página descreve as melhorias de Administrador feitas com a versão do Quarto trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2025, consulte [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
+
+## Confirmação ao remover um formulário personalizado de um objeto
+
+>[!NOTE]
+>
+>* Visualização: 25 de setembro de 2025
+>* Versão rápida de produção: 15 de outubro de 2025
+>* Produção para todos os clientes: 16 de outubro de 2025
+
+Para garantir que você mantenha o acesso aos dados necessários, adicionamos uma caixa de diálogo de confirmação ao remover um formulário personalizado de um objeto. Remover um formulário personalizado de um objeto remove permanentemente os dados desse formulário do objeto. Agora, a caixa de diálogo permite confirmar que você entende que esses dados serão removidos, garantindo que você não remova os dados necessários.
+
+Anteriormente, o único aviso de remoção de dados era o texto próximo à opção de remoção.
+
+Para obter mais informações sobre como remover um formulário personalizado, consulte [Remover um formulário personalizado de um objeto](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object) no artigo Gerenciar formulários personalizados anexados a objetos.
 
 ## Atualizações no perfil de usuário do Workfront
 
