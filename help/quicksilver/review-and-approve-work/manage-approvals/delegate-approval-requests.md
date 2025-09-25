@@ -6,7 +6,7 @@ description: A delegação de solicitações de aprovação permite que você at
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -117,10 +117,10 @@ Para delegar aprovações a outro usuário:
 1. Especifique as seguintes informações na seção Delegar minhas aprovações:
 
    * **Nome**: comece a digitar o nome do usuário ao qual deseja delegar aprovações e clique no nome quando ele aparecer no menu suspenso.
-   * **Data de início**: selecione a data para que as aprovações comecem a ser encaminhadas. O encaminhamento começa às 12h na data selecionada.\
+   * **Data de início**: selecione a data para que as aprovações comecem a ser encaminhadas. O encaminhamento começa às 12h00 da data que você selecionar.:00\
      A Data inicial deve ser a data atual ou uma data futura.
    * **Data final**: siga um destes procedimentos:
-      * Selecione a data para que as aprovações parem de ser encaminhadas. O encaminhamento termina às 23h59 na data selecionada.
+      * Selecione a data para que as aprovações parem de ser encaminhadas. O encaminhamento termina às 23h:59 na data selecionada.
       * Selecione **Nenhuma data de término** para configurar o Workfront para delegar aprovações indefinidamente.
 
 1. Clique em **Salvar**.
@@ -133,13 +133,14 @@ Para delegar aprovações a outro usuário:
    >[!NOTE]
    >
    >Os administradores do Workfront podem desativar delegações de aprovação na área de configuração. Se as delegações de aprovação estiverem desativadas, você não verá o botão Delegar aprovações.
+
 1. Especifique as seguintes informações na seção Delegar minhas aprovações:
 
    * **Nome**: comece a digitar o nome do usuário ao qual deseja delegar aprovações e clique no nome quando ele aparecer no menu suspenso.
-   * **Data de início**: selecione a data para que as aprovações comecem a ser encaminhadas. O encaminhamento começa às 12h na data selecionada.\
+   * **Data de início**: selecione a data para que as aprovações comecem a ser encaminhadas. O encaminhamento começa às 12h00 da data que você selecionar.:00\
      A Data inicial deve ser a data atual ou uma data futura.
    * **Data final**: siga um destes procedimentos:
-      * Selecione a data para que as aprovações parem de ser encaminhadas. O encaminhamento termina às 23h59 na data selecionada.
+      * Selecione a data para que as aprovações parem de ser encaminhadas. O encaminhamento termina às 23h:59 na data selecionada.
       * Selecione **Nenhuma data de término** para configurar o Workfront para delegar aprovações indefinidamente.
 
 ## Atualizar ou interromper uma delegação de aprovações {#update-or-stop-an-approval-delegation}

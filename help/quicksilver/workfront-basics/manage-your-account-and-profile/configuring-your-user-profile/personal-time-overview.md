@@ -4,17 +4,19 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Configurar folga pessoal
 description: É importante indicar no Adobe Workfront quando a folga aprovada acontece, pois isso afeta sua programação e afeta as Datas de conclusão planejadas das tarefas às quais você está atribuído.
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
+source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
 # Configurar folga pessoal
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -70,14 +72,17 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 >[!NOTE]
 >
->Se você estiver na Experiência unificada do Adobe, poderá acessar o perfil do Workfront clicando no menu da conta do Adobe (sua foto de perfil) na área de navegação superior e escolhendo Perfil do Workfront.
+>Se você estiver na Experiência unificada do Adobe, poderá acessar o perfil do Workfront clicando no menu de conta do Adobe (sua imagem de perfil) na área de navegação superior e escolhendo Perfil do Workfront.
 >
 >![perfil do workfront](assets/aue-profile.png)
-
 
 1. No painel esquerdo, clique em **[!UICONTROL Folga]**.
 1. Selecione a data desejada para sua folga pessoal.
 
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+   ![Calendário de folga pessoal](assets/personal-time-off-calendar-0925.png)
+
+   Imagem de amostra no ambiente de produção:
    ![Calendário de folga pessoal](assets/personal-time-off-calendar.png)
 
 1. Selecione **[!UICONTROL Todo o dia]**, se você estiver tirando um dia de folga.
