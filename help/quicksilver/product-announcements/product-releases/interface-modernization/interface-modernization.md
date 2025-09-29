@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
+source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
 workflow-type: tm+mt
-source-wordcount: '8092'
+source-wordcount: '8031'
 ht-degree: 0%
 
 ---
@@ -216,13 +216,13 @@ Atualizamos a aparência da caixa Editar modelos ao editar modelos em massa de u
 
 Para obter informações, consulte [Editar modelos de projeto](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-### Atualizações de interface para uma lista de projetos ou relatório ao aplicar a visualização de Marco
+<!--### Interface updates for a project list or report when applying the Milestone view
 
-**Versão de visualização: 11 de setembro de 2025; Versão de produção: 18 de setembro de 2025**
+**Preview release: September 11, 2025; Production release: September 18, 2025**
 
-Atualizamos a aparência de uma lista ou relatório de projeto ao aplicar a exibição de Marco a eles.
+We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
-A lista de projetos ou o relatório agora corresponde ao design de outras áreas do Workfront. Para obter informações, consulte [Usar a exibição de Marco](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### Alterações de interface para Converter uma tarefa em um projeto sem um modelo
 
