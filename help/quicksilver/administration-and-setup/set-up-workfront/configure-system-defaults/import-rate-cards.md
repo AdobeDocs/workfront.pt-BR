@@ -5,9 +5,9 @@ author: Lisa
 hide: true
 hidefromtoc: true
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: e94cbfd9c503936539dbe011e787533222896202
+source-git-commit: 1342574cb5f410d92ad4bce369c9804d3129e656
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Você pode usar um arquivo de modelo para criar seus cartões de taxa no Excel e importá-los para o Adobe Workfront, em vez de adicionar todas as funções de trabalho e taxas manualmente.
 
-Para ver os cartões de taxa de exemplo descritos neste artigo, baixe o [arquivo de amostra](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/import-rate-cards/assets/rate-cards-sample.zip).
+Para ver os cartões de taxa de exemplo descritos neste artigo, baixe o [arquivo de amostra](assets/rate-cards-sample.zip).
 
 ## Regras importantes para trabalhar com o arquivo de modelo
 
