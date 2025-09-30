@@ -5,21 +5,14 @@ description: Você pode usar a IA para preencher automaticamente campos de solic
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
+source-git-commit: 21039f9ab14529b56935d65e0261dc1ce068918c
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
 # Preencher automaticamente uma solicitação com dados de solicitações anteriores
-
->[!NOTE]
->
->* Essa funcionalidade estará disponível como um beta aberto no seguinte agendamento:
->
->   * Lançamento mensal: 11 de setembro de 2025
->   * Versão trimestral: 16 de outubro de 2025
 
 A IA pode ajudar a preencher automaticamente os campos de solicitação com base em solicitações anteriores. Você pode aprovar ou rejeitar essas sugestões antes de enviar a solicitação.
 
