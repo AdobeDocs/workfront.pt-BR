@@ -6,14 +6,16 @@ description: Você pode criar, editar e atribuir perfis de planilha de horas que
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
+source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1641'
 ht-degree: 2%
 
 ---
 
 # Criar, editar e atribuir perfis de folha de horas
+
+{{highlighted-preview}}
 
 <!--Audited: 06/2025-->
 
@@ -85,8 +87,7 @@ Para obter mais informações sobre como criar uma folha de horas manualmente, c
 
    A página de perfil da folha de horas nova ou existente é exibida.
 
-
-1. Clique na guia **Definir Detalhes** e atualize as seguintes informações: <!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
+1. Atualize as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -112,7 +113,7 @@ Para obter mais informações sobre como criar uma folha de horas manualmente, c
      <ul> 
       <li> <p>Se você estiver criando um perfil de planilha de horas para um grupo que administra, identifique o grupo aqui.</p> <p>Isso não atribui o perfil da folha de horas aos usuários no grupo; permite apenas que os administradores do grupo modifiquem o perfil da folha de horas. Você atribuirá o perfil aos usuários na Etapa 6.</p>
 
-   <p><b>OBSERVAÇÃO</b>: quando usuários fora do grupo estão anexando perfis de folha de horas a outro usuário, eles não poderão ver ou anexar esse perfil de folha de horas.</p> </li> 
+   <p><b>OBSERVAÇÃO</b>: quando usuários fora do grupo estão anexando perfis de folha de horas a outros usuários, eles não poderão ver ou anexar esse perfil de folha de horas.</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -155,6 +156,10 @@ Para obter mais informações sobre como criar uma folha de horas manualmente, c
    <b>OBSERVAÇÃO</b>: depois que você enviar uma folha de horas para aprovação, não poderá mais editar as horas. Para retornar uma folha de horas enviada a um estado editável, cancele a folha de horas ou peça ao aprovador para rejeitar a folha de horas. Para obter mais informações, consulte <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Enviar uma folha de horas para aprovação</a> e<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Aprovar uma folha de horas</a>.</p> </p> </td>
    </tr> 
      <tr> 
+      <td role="rowheader"><strong>Hora extra</strong> </td> 
+      <td>Você pode optar por ocultar a caixa Horas extras em folhas de horas. Essa opção está desabilitada por padrão.</td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>Tipos de Horas Disponíveis</strong> </td> 
       <td><p>Essa configuração se refere somente aos Tipos de horas gerais, e não aos tipos de horas específicos do projeto. </p>
       <p>Por padrão, os usuários veem todas as horas gerais em uma folha de horas. No entanto, se sua organização quiser que apenas as horas gerais específicas sejam mostradas para um conjunto específico de usuários, você pode selecionar as horas gerais que eles precisam ver em suas folhas de horas, selecionando-os no perfil de folha de horas neste campo. Se quiser desativar todas as horas gerais, desmarque todos os tipos de horas para gerar a folha de horas sem uma seção para as horas gerais.</p></td> 
@@ -165,14 +170,9 @@ Para obter mais informações sobre como criar uma folha de horas manualmente, c
       <td> <p> Adicione uma notificação de lembrete. O Workfront enviará lembretes aos usuários para que eles concluam ou aprovem suas folhas de horas. Você deve criar notificações de lembrete antes de associá-las a um perfil de planilha de horas.  </p> </td> 
      </tr>
 
-   <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Hora extra</span> </td> 
-      <td>Você pode optar por ocultar a caixa Horas extras em folhas de horas. Essa opção está desabilitada por padrão.</td> 
-     </tr> 
-    </tbody> 
-    </table>
+1. Ao criar perfis de folha de horas no nível do grupo em produção, clique na guia **Atribuir pessoas** para associar o perfil de folha de horas a usuários, grupos ou equipes específicos (se você for um administrador do Workfront). <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-1. Ao criar perfis de folha de horas a nível de grupo, clique na guia **Atribuir Pessoas** para associar o perfil de folha de horas a usuários, grupos ou equipes específicos (se você for um administrador do Workfront). <!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+   <span class="preview">Ao criar perfis de folha de horas de nível de grupo na Visualização, role em direção à parte inferior da página e localize a seção **Atribuir Pessoas**.</span>
 
    Ao criar perfis de folha de horas para o sistema, role em direção à parte inferior da página e localize a seção **Atribuir pessoas**. <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
@@ -188,7 +188,7 @@ Para obter mais informações sobre como criar uma folha de horas manualmente, c
 
 1. Clique em **Salvar**.
 
-1. Na parte superior da lista de perfis de folha de horas, clique no ícone **Mais** ícone ![Mais](assets/more-icon.png) para perfis de folha de horas no nível do sistema, ou **Mais** para perfis de folha de horas de grupo, e clique em **Gerar folhas de horas**.
+1. Na parte superior da lista de perfis de folha de horas, clique no ícone **Mais** ícone ![Mais](assets/more-icon.png) e clique em **Gerar folhas de horas**.
 
    Uma confirmação é exibida na parte inferior da tela de que as folhas de horas foram geradas com sucesso. Novas planilhas de horas são geradas com base nos novos perfis que você criou.
 
