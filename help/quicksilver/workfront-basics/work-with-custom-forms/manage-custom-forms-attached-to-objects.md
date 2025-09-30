@@ -6,16 +6,16 @@ description: Você pode atualizar a ordem na qual os formulários personalizados
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
 
 # Gerenciar formulários personalizados anexados a objetos
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível para todos os clientes no ambiente de Pré-visualização e para um grupo selecionado de clientes no ambiente de Produção.</span>
 
 Você pode atualizar a ordem na qual os formulários personalizados anexados a um objeto são exibidos, removê-los ou editar em massa a forma como os formulários personalizados são exibidos em vários objetos.
 
@@ -41,7 +41,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do Contribute ou superiores aos objetos para os quais você gerencia formulários personalizados</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Permissões do Contribute ou superior para os objetos para os quais você gerencia formulários personalizados</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
 
 1. Vá para o objeto no qual deseja alterar a ordem dos formulários personalizados adicionados e, em seguida, comece a editar o objeto.
 
-   **Exemplo:** Por exemplo, para gerenciar os formulários personalizados de um projeto, vá para o projeto, clique no menu ![](assets/more-icon.png) **Mais** e clique em **Editar**.
+   **Exemplo:** Por exemplo, para gerenciar os formulários personalizados de um projeto, vá para o projeto, clique no menu **** Mais![](assets/more-icon.png) e clique em **Editar**.
 
 1. Na seção **Forms personalizado** para projetos, tarefas e problemas, clique no ícone ![](assets/move-icon---dots.png) ao lado do nome de um formulário personalizado. Para todos os outros objetos, clique em **Gerenciar Forms**. Essa opção é exibida somente se pelo menos um formulário personalizado estiver anexado ao objeto.
 1. Arraste um formulário ![](assets/move-icon---dots.png) para um novo local na lista.
@@ -81,6 +81,8 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
 1. Para formulários personalizados de projetos, tarefas e problemas, clique no ícone **X** à direita de um formulário para removê-lo do objeto.
 
    Para todos os outros objetos, clique em **Gerenciar Forms** e no ícone **X** à direita de um formulário para removê-lo do objeto.
+
+1. <span class="preview">Na caixa de diálogo que é aberta, clique em **Remover**.</span>
 
 1. Clique em **Salvar**.
 
