@@ -6,9 +6,9 @@ description: Seu perfil  [!DNL Adobe Workfront]  contém informações sobre voc
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '3317'
+source-wordcount: '3318'
 ht-degree: 1%
 
 ---
@@ -342,7 +342,7 @@ Especifique o que deseja exibir na interface do [!DNL Workfront] nesta seção.
    <td><p>Especifique seu idioma preferido aqui. Controla o idioma, a data e o formato do número usados nas mensagens de email de saída.</p>
    <p><strong>OBSERVAÇÃO:</strong> quando sua organização está na Experiência unificada do Adobe, as preferências de idioma são armazenadas em seu perfil do Adobe e a localidade de email não é usada. Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Alterar o idioma do Adobe Experience Cloud</a> no artigo <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Idiomas com suporte no Adobe Workfront</a>.</p></td> 
   </tr>
-  <tr><td><strong>[!UICONTROL Enviar trabalho que eu atribuir a mim mesmo para minha guia Trabalhando Em]</strong> </td>
+  <tr><td><strong>[!UICONTROL Definir automaticamente o status da tarefa como Em Andamento quando as tarefas forem autoatribuídas]</strong> </td>
   <td>Selecione esta opção se quiser que o status do trabalho atribuído a você mesmo seja automaticamente definido como Em andamento em vez de Novo.</td>
   </tr>
   <tr> 
@@ -352,14 +352,6 @@ Especifique o que deseja exibir na interface do [!DNL Workfront] nesta seção.
   </tr> 
  </tbody> 
 </table>
-
-<!--
-  <tr><td><strong>[!UICONTROL Send work I assign to myself to my Working On tab]</strong> </td>
-  <td>Select this option if you want the status of work you assign to yourself to automatically be set to In Progress instead of New.</td>
-
-  <strong>[!UICONTROLAutomatically set the task status to In Progress when tasks are self-assigned]</strong>: When this option is selected, work that you assign to yourself is automatically set to In Progress status instead of New.
-  </tr>
--->
 
 ### [!UICONTROL Notificações]
 
