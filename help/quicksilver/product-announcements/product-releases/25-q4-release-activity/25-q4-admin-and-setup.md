@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 
 >[!NOTE]
 >
->* Visualização: 25 de setembro de 2025
->* Versão rápida de produção: 15 de outubro de 2025
->* Produção para todos os clientes: 16 de outubro de 2025
+>* Visualização: 24 de setembro de 2025
+>* Produção para todos os clientes: 25 de setembro de 2025
 
 Para garantir que você mantenha o acesso aos dados necessários, adicionamos uma caixa de diálogo de confirmação ao remover um formulário personalizado de um objeto. Remover um formulário personalizado de um objeto remove permanentemente os dados desse formulário do objeto. Agora, a caixa de diálogo permite confirmar que você entende que esses dados serão removidos, garantindo que você não remova os dados necessários.
 

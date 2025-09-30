@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
 workflow-type: tm+mt
-source-wordcount: '2214'
+source-wordcount: '2219'
 ht-degree: 4%
 
 ---
@@ -60,12 +60,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Confirmação ao remover um formulário personalizado de um objeto</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> Confirmação ao remover um formulário personalizado de um objeto</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Para garantir que você mantenha o acesso aos dados necessários, adicionamos uma caixa de diálogo de confirmação ao remover um formulário personalizado de um objeto. Remover um formulário personalizado de um objeto remove permanentemente os dados desse formulário do objeto. Agora, a caixa de diálogo permite confirmar que você entende que esses dados serão removidos, garantindo que você não remova os dados necessários. </p>
         </td>
+        <td>quinta-feira, 24 de setembro de 2025</td>
         <td>sexta-feira, 25 de setembro de 2025</td>
-        <td>quinta-feira, 15 de outubro de 2025</td>
-        <td>sexta-feira, 16 de outubro de 2025</td>
+        <td>sexta-feira, 25 de setembro de 2025</td>
     </tr> 
     <tr>
         <td>
@@ -456,7 +456,7 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ### API versão 20
 
@@ -468,7 +468,7 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
