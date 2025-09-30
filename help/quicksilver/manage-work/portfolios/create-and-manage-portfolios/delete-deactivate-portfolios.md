@@ -6,7 +6,7 @@ description: Portfólios são coleções de projetos ou programas no Adobe Workf
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 1%
@@ -68,6 +68,18 @@ Considere o seguinte ao decidir se exclui ou desativa portfólios:
 * Desativar um portfólio garante que o nome dele e de seus programas não possam mais ser atribuídos a projetos ao criar um projeto.
 * Desativar um portfólio que já está anexado a um projeto não o remove do projeto. Se você remover um portfólio desativado de um projeto, será necessário reativá-lo antes de reanexá-lo ao projeto.
 
+## Excluir um portfólio
+
+{{step1-to-portfolios}}
+
+1. Siga um destes procedimentos:
+
+   * Selecione o portfólio na lista e clique no ícone **[!UICONTROL Excluir]** ![Ícone Excluir](assets/delete.png).
+   * Clique no portfólio para abri-lo e, em seguida, clique no menu **Mais** ![Mais menu](assets/more-icon.png) à direita do nome do portfólio e **Excluir Portfolio**.
+1. Clique em **[!UICONTROL Sim, exclua-o]** para confirmar.
+
+   O portfólio é excluído e não pode ser recuperado.
+
 ## Desativar um portfólio
 
 Ao desativar um portfólio, você ainda pode acessá-lo na área [!UICONTROL Portfólios], mas ele não é mais exibido na lista de portfólios quando os usuários tentam adicioná-lo a um projeto.
@@ -84,14 +96,4 @@ Ao desativar um portfólio, você ainda pode acessá-lo na área [!UICONTROL Por
 O portfólio é desativado imediatamente.
 1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-icon.png) à direita do nome do portfólio e clique em **[!UICONTROL Ativar Portfolio]** para reativá-lo.
 
-## Excluir um portfólio
 
-{{step1-to-portfolios}}
-
-1. Siga um destes procedimentos:
-
-   * Selecione o portfólio na lista e clique no ícone **[!UICONTROL Excluir]** ![Ícone Excluir](assets/delete.png).
-   * Clique no portfólio para abri-lo e, em seguida, clique no menu **Mais** ![Mais menu](assets/more-icon.png) à direita do nome do portfólio e **Excluir Portfolio**.
-1. Clique em **[!UICONTROL Sim, exclua-o]** para confirmar.
-
-   O portfólio é excluído e não pode ser recuperado.

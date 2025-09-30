@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 74bdbaa0dd4df7b11a96105ad4258b06317b2510
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '13516'
+source-wordcount: '13520'
 ht-degree: 2%
 
 ---
@@ -1453,6 +1453,7 @@ ht-degree: 2%
          * [Adicionar um programa existente a um portfólio](manage-work/portfolios/create-and-manage-programs/move-program.md)
          * [Adicionar um projeto a um programa](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
          * [Remover um projeto de um programa](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
+         * [Excluir e desativar programas](manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
       * Gerenciar projetos no Portfolio Otimizer {#manage-projects-in-portfolio-optimizer}
          * [Gerenciar projetos no Portfolio Otimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [Visão geral do Portfolio Otimizer](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)

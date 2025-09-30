@@ -6,14 +6,16 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3935'
 ht-degree: 2%
 
 ---
 
 # Gerenciar a exibição de linha do tempo
+
+<!--remove preview and production references at production-->
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
@@ -117,9 +119,9 @@ Considere o seguinte:
 Para gerenciar uma exibição de linha do tempo:
 
 1. Vá para a página do tipo de registro para a qual deseja exibir a linha do tempo.
-1. Crie uma exibição de linha do tempo, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. <span class="preview">Crie uma exibição de linha do tempo, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md). </span>
 
-   ![Exemplo de exibição da linha do tempo](assets/timeline-view-example.png)
+   <span class="preview">![Exemplo de exibição da linha do tempo](assets/timeline-view-example.png)</span>
 
    Os registros associados ao tipo de registro selecionado são exibidos como barras em uma linha do tempo e são classificados em ordem cronológica de sua Data inicial, por padrão.
 
@@ -173,9 +175,9 @@ Para gerenciar uma exibição de linha do tempo:
 
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
-   1. Clique no ícone **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o registro com a correspondência correta é realçado.
+   1. <span class="preview">Clique no ícone **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o registro com a correspondência correta é realçado. </span>
 
-      ![Caixa de pesquisa e exibição da linha do tempo dos resultados](assets/search-box-and-results-timeline-view.png)
+      <span class="preview">![Caixa de pesquisa e exibição da linha do tempo dos resultados](assets/search-box-and-results-timeline-view.png)</span>
 
       Você pode usar qualquer palavra ou caractere especial visível na tela.
 
@@ -353,23 +355,21 @@ Considere o seguinte ao trabalhar com agrupamentos na exibição de linha do tem
 Para adicionar um agrupamento na exibição de linha do tempo:
 
 1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
-1. Clique em **Agrupamento** no canto superior direito do modo de exibição de linha do tempo.
+1. <span class="preview">Clique em **Agrupamento** no canto superior direito do modo de exibição de linha do tempo.</span>
 
-   ![Modo de exibição de linha do tempo da interface de agrupamento com campos vinculados](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![Modo de exibição de linha do tempo da interface de agrupamento com campos vinculados](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. Clique em um dos campos sugeridos ou clique em **Escolher um campo diferente**, procure um campo diferente e clique nele quando ele for exibido na lista.
 
    O agrupamento é aplicado automaticamente à linha do tempo e os registros são exibidos dentro da caixa de agrupamento.
 
-   <!-- add a step that you can rearrange the groupings here, when this will be possible-->
-
 1. (Opcional) Repita as etapas acima para adicionar até três agrupamentos.
 
-   O número de campos selecionados para o agrupamento é exibido ao lado do ícone Grouping.
+   <span class="preview">O número de campos selecionados para o agrupamento é exibido ao lado do ícone Agrupamento.</span>
 
-   <!-- update screen shot with view redesign-->
+   <span class="preview">![Agrupamento aplicado na exibição de linha do tempo](assets/grouping-applied-in-timeline-view.png)</span>
 
-   ![O agrupamento se aplica à exibição de linha do tempo](assets/grouping-applied-in-timeline-view.png)
+1. Na caixa **Agrupar registros por**, arraste e solte os agrupamentos na ordem correta.
 
 1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
@@ -530,7 +530,11 @@ Você pode exibir registros conectados na visualização da linha do tempo de um
 1. No modo **Padrão** ou **Compacto**, clique em **Detalhamento** no canto superior direito do modo de exibição de linha do tempo.
 1. Expanda a caixa **Selecionar um tipo de registro vinculado** e selecione um tipo de registro conectado. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
+   <div class="preview">
+
    ![Seletor de detalhamento e botão na exibição de linha do tempo](assets/breakdown-picker-and-button-on-timeline.png)
+
+   </div>
 
    >[!TIP]
    >
@@ -543,7 +547,7 @@ Você pode exibir registros conectados na visualização da linha do tempo de um
    >    As datas de início e término devem ser sequenciais. Se a Data final for anterior à Data inicial, nenhum registro será exibido na linha do tempo.
 
    Uma seta apontando para a direita é exibida na barra do registro selecionado na linha do tempo, caso eles estejam conectados a outros registros.
-1. Clique na seta à direita para expandir um tipo de registro e exibir suas conexões.
+1. Clique na seta à direita para expandir um tipo de registro e exibir suas conexões. <!--update screen shot at production-->
 
    ![Campanhas detalhadas por programas na exibição de linha do tempo](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 

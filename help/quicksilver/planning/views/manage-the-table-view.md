@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '3494'
 ht-degree: 2%
@@ -34,7 +34,7 @@ Para obter informações sobre como exportar a exibição de tabela para um arqu
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -100,7 +100,7 @@ Para obter informações sobre como exportar a exibição de tabela para um arqu
 
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Editar registros usando a exibição de tabela
 
@@ -114,13 +114,13 @@ Ao criar uma exibição de tabela, todos os registros do tipo selecionado são e
 
 Para gerenciar uma exibição de tabela:
 
-1. Crie uma exibição de tabela, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
+1. <span class="preview">Crie uma exibição de tabela, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).</span>
 
-   ![Exemplo de exibição de tabela](assets/table-view-example.png)
+   <span class="preview">![Exemplo de exibição de tabela](assets/table-view-example.png)</span>
 
 1. (Opcional) Clique em **Altura da linha** e selecione uma das seguintes opções para modificar a altura das linhas da tabela:
    * Pequena
-   * Média
+   * Médio
    * Alta
 
 1. <span class="preview">(Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir o modo de exibição em tela cheia, em seguida, no ícone **Sair da tela cheia** ![Sair do ícone de tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.  </span>
@@ -159,7 +159,11 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    * Clique em **Campos** na barra de ferramentas da tabela, arraste e solte os campos na ordem desejada e clique fora da caixa **Visibilidade e ordem dos campos** para fechá-la.
 
+     <div class="preview">
+
      ![Barra de ferramentas de exibição de tabela de configuração de campos expandida](assets/fields-setting-table-view-toolbar-expanded.png)
+
+     </div>
 
 
      >[!TIP]
@@ -203,9 +207,9 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
-   1. Clique no ícone **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado.
+   1. <span class="preview">Na caixa **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela.</span> O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado.
 
-      ![Caixa de pesquisa com estrutura azul de resultados na exibição de tabela](assets/search-box-with-results-blue-outline-table-view.png)
+      <span class="preview">![Caixa de pesquisa com estrutura azul de resultados na exibição de tabela](assets/search-box-with-results-blue-outline-table-view.png)</span>
 
       Você pode usar qualquer palavra ou caractere especial visível na tela.
 
@@ -459,9 +463,13 @@ Para adicionar um agrupamento:
 
 1. (Opcional) Clique em **Adicionar condição** e repita as etapas acima para adicionar até três agrupamentos.
 
+   <div class="preview">
+
    O número de campos selecionados para o agrupamento é exibido ao lado do ícone Grouping.
 
    ![Agrupamento aplicado na exibição de tabela](assets/grouping-applied-in-table-view.png)
+
+   </div>
 
 1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 

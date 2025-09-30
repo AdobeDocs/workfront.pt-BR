@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1287'
 ht-degree: 1%
 
 ---
 
 
 # Gerenciar exibições de registro
+
+<!-- take preview and production references out at production-->
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
@@ -192,30 +194,32 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
    * No ambiente de Produção, clique na guia **+Exibir**.
    * <span class="preview">No ambiente de Visualização, clique no ícone suspenso ![Ícone suspenso](assets/drop-down-icon.png) ao lado do nome do modo de exibição atual e clique em **+Novo modo de exibição**.</span>
 
-1. <span class="preview">No menu suspenso Exibir, arraste e solte as exibições em ordem de preferência.</span>
 1. Selecione entre os seguintes tipos de exibições:
 
    * Tabela
    * Linha do tempo
    * Calendário
 
-   Uma nova guia é criada com a exibição selecionada.
+   No ambiente de Produção, uma nova guia é criada com a exibição selecionada.
 
    Dependendo da largura da tela, modos de exibição adicionais podem ser exibidos no menu **Mais** ![Mais menu](assets/more-menu.png).
 
+   >[!TIP]
+   >
+   >Quando você cria um tipo de registro, a exibição de tabela também é criada por padrão.
+   >
+   >Para criar uma exibição de linha do tempo ou calendário, o tipo de registro para o qual você cria a exibição deve ter pelo menos dois campos de data.
+   >
+   >Caso contrário, as opções Linha do tempo e Calendário estarão esmaecidas.
+   >
 
->[!TIP]
->
->Quando você cria um tipo de registro, a exibição de tabela também é criada por padrão.
->
->Para criar uma exibição de linha do tempo ou calendário, o tipo de registro para o qual você cria a exibição deve ter pelo menos dois campos de data.
->
->Caso contrário, as opções Linha do tempo e Calendário estarão esmaecidas.
->
+   <span class="preview">No ambiente de Visualização, escolha um tipo de exibição e clique em **Criar**. Uma nova visualização é adicionada ao menu suspenso. </span>
 
-<!-- replace screen shot at production??-->
+   <span class="preview">![Criar caixa de exibição](assets/create-view-box.png)</span>
 
-![Exibir lista suspensa de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
+1. <span class="preview">No menu suspenso Exibir, arraste e solte as exibições em ordem de preferência.</span>
+
+   <span class="preview">![Exibir lista suspensa de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)</span>
 
 1. (Condicional) Clique em **Avançar** ao criar uma exibição de linha do tempo ou calendário.
 

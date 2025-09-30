@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2308'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Para obter informações, consulte os seguintes artigos:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto">
  <col>
@@ -85,7 +85,7 @@ Para obter informações, consulte os seguintes artigos:
   <tr>
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
    <td>
-   <p>Padrão</p>
+   <p>Standard</p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p>
   </td>
   </tr>
@@ -264,16 +264,16 @@ Considere o seguinte ao adicionar uma página Registros conectados a um registro
 
 * Você pode adicionar uma página Registros conectados a um registro depois de conectar tipos de registro ou de objeto ao tipo de registro a partir da exibição de tabela de um tipo de registro.
 
-* No ambiente de Produção, não é possível adicionar uma página Registros conectados à área de visualização de um registro.
+* No ambiente de Produção, não é possível adicionar uma página Registros conectados a partir da pré-visualização de um registro.
 
-  <span class="preview">Você pode adicionar uma página Registros conectados à área de visualização de um registro no ambiente de Visualização.</span>
+  <span class="preview">Você pode adicionar uma página Registros conectados a partir da visualização de um registro no ambiente Visualização.</span>
 
 * As páginas de registros conectados exibem somente os objetos ou registros conectados de um tipo de objeto ou registro em uma exibição de tabela. A página não exibe todos os registros desse tipo na exibição de tabela.
 
 * Dependendo do ambiente usado, você pode observar o seguinte:
 
    * No ambiente de Produção, depois de adicionar uma página Registros conectados a um registro, a guia Página fica visível na área de visualização do registro, mas está vazia. Você deve ir para a página inteira para ver a exibição de tabela do registro conectado.
-   * <span class="preview">No ambiente de Visualização, a página Registros conectados está visível na área de visualização do registro e na guia separada do navegador.</span>
+   * <span class="preview">No ambiente de Visualização, a página Registros conectados está visível na área de visualização do registro e na guia do navegador.</span>
 
 * Você pode adicionar páginas Registros conectados para os seguintes tipos de registro ou objeto conectados:
 
@@ -332,7 +332,7 @@ Todos os campos do registro conectado são exibidos na exibição de tabela da g
 
      Para obter informações sobre como editar registros no modo de exibição de tabela, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
-   * Edite em linha qualquer um dos registros na tabela na página Registros conectados. Os objetos do Workfront são exibidos em uma visualização de tabela somente leitura e não é possível editá-los.
+   * Edite em linha qualquer um dos registros na tabela na página Registros conectados. No ambiente de Produção, todos os objetos do Workfront são exibidos em uma exibição de tabela somente leitura e não é possível editá-los. <span class="preview">Você pode editar projetos Workfront em linha no ambiente de Pré-visualização.</span>
 
 1. (Opcional) Clique duas vezes no nome da guia da página Registros conectados
 
@@ -353,7 +353,12 @@ Todos os campos do registro conectado são exibidos na exibição de tabela da g
    >   Não é possível criar, editar ou excluir campos na exibição de tabela de uma guia de registro conectado.
    >
 
-1. Clique em **Conectar** para adicionar ou remover registros. Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
+1. (Condicional) Para conectar mais registros ou objetos, siga um destes procedimentos:
+
+   * Clique em **Conectar** na parte inferior da tabela para adicionar ou remover registros ou quaisquer objetos do Workfront <span class="preview">exceto projetos.</span>
+   * <span class="preview">No ambiente de Visualização, clique em **Conectar registros** no canto superior direito da página de registros conectados ou em **Nova linha** na parte inferior da tabela para adicionar ou remover projetos.</span>
+
+   Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 1. (Opcional) Passe o mouse sobre o nome da guia da página Registros conectados, clique em **Mais** ![Mais menu](assets/more-menu.png) e em **Excluir** para remover para a guia.
 
 

@@ -6,9 +6,9 @@ description: Você pode atualizar a ordem na qual os formulários personalizados
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
+source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -28,25 +28,25 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">plano do Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Solicitação ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar o acesso aos objetos para os quais você gerencia formulários personalizados</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar o acesso aos objetos para os quais você gerencia formulários personalizados</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões do Contribute ou superior para os objetos para os quais você gerencia formulários personalizados</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Permissões do Contribute ou superior para os objetos para os quais você gerencia formulários personalizados</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Pré-requisitos
 
@@ -59,7 +59,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
 
 1. Vá para o objeto no qual deseja alterar a ordem dos formulários personalizados adicionados e, em seguida, comece a editar o objeto.
 
-   **Exemplo:** Por exemplo, para gerenciar os formulários personalizados de um projeto, vá para o projeto, clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon.png) e clique em **Editar**.
+   **Exemplo:** Por exemplo, para gerenciar os formulários personalizados de um projeto, vá para o projeto, clique no menu **** Mais![](assets/more-icon.png) e clique em **Editar**.
 
 1. Na seção **Forms personalizado** para projetos, tarefas e problemas, clique no ícone ![](assets/move-icon---dots.png) ao lado do nome de um formulário personalizado. Para todos os outros objetos, clique em **Gerenciar Forms**. Essa opção é exibida somente se pelo menos um formulário personalizado estiver anexado ao objeto.
 1. Arraste um formulário ![](assets/move-icon---dots.png) para um novo local na lista.
@@ -73,18 +73,13 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
 >
 >Quando você remove um formulário personalizado de um objeto, todas as informações capturadas nos campos personalizados do formulário são perdidas e não podem ser recuperadas.
 
-1. Vá para o objeto onde deseja remover o formulário personalizado e comece a editar o objeto.
+1. Vá para o objeto onde deseja remover o formulário personalizado e clique na seção **Detalhes** no painel esquerdo do objeto.
 
-   Por exemplo, vá para um projeto, clique no menu **Mais** ![](assets/more-icon.png) e clique em **Editar**.
+   Por exemplo, vá para um projeto, clique na seção **Detalhes do projeto**.
 
-1. Clique em **Forms Personalizado**.
-1. Para formulários personalizados de projetos, tarefas e problemas, clique no ícone **X** à direita de um formulário para removê-lo do objeto.
-
-   Para todos os outros objetos, clique em **Gerenciar Forms** e no ícone **X** à direita de um formulário para removê-lo do objeto.
-
-1. <span class="preview">Na caixa de diálogo que é aberta, clique em **Remover**.</span>
-
-1. Clique em **Salvar**.
+1. Clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png) no canto superior direito da página do objeto e clique em **Editar tudo**.
+1. Clique no ícone **Excluir** ![](assets/delete-icon.png) à direita de um nome de formulário personalizado e clique em **Excluir** para confirmar e remover o formulário do objeto ou em **Cancelar** para impedir a remoção.
+1. Clique em **Salvar alterações**.
 
 ## Gerenciar vários formulários personalizados que contêm os mesmos campos personalizados
 
