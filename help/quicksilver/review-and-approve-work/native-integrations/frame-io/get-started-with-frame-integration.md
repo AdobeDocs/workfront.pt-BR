@@ -6,12 +6,10 @@ description: Introdução à integração do Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -42,7 +40,7 @@ Depois que o fluxo de trabalho de aprovação é criado, revisores e aprovadores
 Para obter mais informações sobre a configuração de projetos, consulte
 
 * [Criar um projeto](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-  <!--* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)-->
+* [Visão geral da integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Iniciar revisões e aprovações formais no Workfront
 
@@ -72,7 +70,7 @@ Revisores e aprovadores podem ser adicionados a um fluxo de trabalho de aprovaç
 
 Depois que o fluxo de trabalho de revisão e aprovação é iniciado no Workfront, os revisores e aprovadores podem acessar o visualizador Frame.io para adicionar comentários, marcar o ativo e tomar uma decisão.
 
-<!--For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).-->
+Para obter mais informações, consulte [Revisar e aprovar com o visualizador Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).
 
 #### Acessar o visualizador Frame.io
 
@@ -83,7 +81,7 @@ Os usuários podem acessar o visualizador Frame.io das seguintes maneiras:
 
 >[!NOTE]
 >
->Os usuários externos do Workfront são notificados por email e serão solicitados a criar um logon Frame.io para revisar e aprovar ativos. <!--is this still accurate?-->
+>Os usuários externos do Workfront são notificados por email e serão solicitados a criar um logon Frame.io para revisar e aprovar ativos.
 
 ![abrir o visualizador de quadros da Página Inicial](assets/open-fio-viewwer.png)
 

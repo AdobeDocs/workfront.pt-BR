@@ -5,16 +5,14 @@ title: Visão geral do armazenamento corporativo da Adobe
 description: Visão geral do armazenamento corporativo da Adobe
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d24773df7eede3140eeecdea7f1c33b8466e887a
+exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
+source-git-commit: e908d0ffd1a3397dead5909942b2b0bedb91ae1c
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
-
 
 # Visão geral do armazenamento corporativo da Adobe
 
@@ -40,4 +38,4 @@ Isso também prepara o caminho para integrações futuras do gerenciamento de at
 
 A integração do Workfront com o Frame.io aproveita o armazenamento corporativo da Adobe para fornecer uma experiência unificada de análise e aprovação. Essa integração permite que os coordenadores de projetos gerenciem projetos e planejem o trabalho no Workfront, enquanto os criadores, profissionais de marketing e participantes podem revisar e aprovar ativos no Frame.io. Isso garante que todas as partes interessadas tenham acesso às versões mais recentes dos ativos e que o feedback seja centralizado em um único local.
 
-<!--For more information about the Workfront and Frame.io integration, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Para obter mais informações sobre a integração do Workfront e do Frame.io, consulte [Visão geral da integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
