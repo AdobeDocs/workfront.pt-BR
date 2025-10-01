@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 8df1889997937b2a4238862eb2f86aeda84ed104
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -191,3 +191,5 @@ Para o ambiente de Pré-visualização, o recálculo noturno é desativado e as 
 * Qualquer interrupção em um ambiente de Visualização do [!DNL Workfront] durante o horário comercial regular será uma prioridade imediatamente após a resolução de quaisquer problemas de Produção, se houver.
 
 * Qualquer interrupção em um ambiente de Visualização do [!DNL Workfront] nos finais de semana (sábados e domingos) será resolvida para que o ambiente funcione durante o horário comercial na segunda-feira.
+
+* A revisão não está disponível nos ambientes de Pré-visualização.
