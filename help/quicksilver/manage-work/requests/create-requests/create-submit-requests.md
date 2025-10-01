@@ -6,9 +6,9 @@ description: O trabalho planejado é representado na Adobe Workfront por projeto
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
+source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
 workflow-type: tm+mt
-source-wordcount: '2856'
+source-wordcount: '2840'
 ht-degree: 1%
 
 ---
@@ -147,13 +147,13 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
    A caixa **Nova solicitação** é aberta.
 
-1. (Condicional) Se você alternou para a nova experiência que inclui o Workfront Planning e está no ambiente de produção, a caixa **Nova solicitação** exibirá o seguinte:</span>
+1. (Condicional) Se você alternou para a nova experiência e está no ambiente de produção, a caixa **Nova solicitação** exibe o seguinte:</span>
 
    <ul><li>As 6 filas de solicitações do Workfront acessadas mais recentemente e os formulários de solicitação do Planning são exibidos na seção Recente. </li>
     <li>Todos os formulários de solicitação adicionais do Workfront e do Planning <b>seção Todos os formulários de solicitação</b>. Você pode procurar formulários de solicitação que não são exibidos por padrão. </li>
     <li>Todos os caminhos adicionais da fila de solicitações do Workfront e do Planning são exibidos na seção <b>Todos os caminhos de solicitação</b>. Você pode procurar uma fila de solicitações que não é exibida por padrão.</li></ul>
    Clique em um dos caminhos ou formulários da fila de solicitações do Workfront, ou procure um, e clique nele quando ele for exibido na lista.
-1. <span class="preview">(Condicional) Se você alternou para a nova experiência que inclui o Workfront Planning, selecione um dos caminhos ou formulários da fila de solicitações do Workfront ou clique na barra de pesquisa. </span>
+1. <span class="preview">(Condicional) Se você alternou para a nova experiência, selecione um dos caminhos ou formulários da fila de solicitações do Workfront ou clique na barra de pesquisa. </span>
 
    <span class="preview">Quando você clicar na barra de pesquisa, será exibida uma lista suspensa mostrando primeiro as filas e os formulários usados mais recentemente. Selecione um na lista ou comece a digitar e selecione a fila ou lista quando ela for exibida.</span>
 
@@ -165,7 +165,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
    >* <span class="preview">Para exibir somente as filas de Solicitações Workfront, filtre por `Issue` tipos de objeto.</span>
    >* <span class="preview">Na nova experiência de solicitação, os rascunhos estão na mesma lista das solicitações enviadas.</span>
 
-1. (Condicional) Se você alternou para a nova experiência que inclui o Workfront Planning, selecione os grupos de tópicos e os tópicos da fila e continue atualizando o formulário.
+1. (Condicional) Se você alternou para a nova experiência, selecione os grupos de tópicos e os tópicos da fila e continue atualizando o formulário.
 
    Caso contrário, clique dentro do campo **Tipo de solicitação** e siga um destes procedimentos:
 
@@ -348,7 +348,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
    Ao enviar a solicitação, o rascunho é excluído automaticamente e não pode ser restaurado.
 
-   As solicitações enviadas estão listadas na seção **Enviadas** da área Solicitações. Se você estiver usando a nova experiência que inclui o Workfront Planning, as solicitações enviadas pelo Workfront serão exibidas na guia **Workfront** da área Solicitações.
+   As solicitações enviadas estão listadas na seção **Enviadas** da área Solicitações. Se você estiver usando a nova experiência do, as solicitações enviadas pelo Workfront serão exibidas na guia **Workfront** da área Solicitações.
 
    Para obter informações sobre como endereçar solicitações recebidas, consulte o artigo [Gerenciar solicitações de trabalho e de equipe](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
