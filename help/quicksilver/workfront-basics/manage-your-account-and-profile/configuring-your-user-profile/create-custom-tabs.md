@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Criar seções personalizadas
 description: Por padrão, as informações que você vê no aplicativo Web  [!DNL Workfront]  são exibidas com frequência nas seções no painel esquerdo. Cada seção contém informações diferentes sobre uma área ou objeto  [!DNL Workfront] .
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
+source-git-commit: ccaf637601c53e5d92dd3357fb07e84b5fd69166
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 1%
@@ -106,7 +106,7 @@ Os seguintes objetos são filtrados para o objeto sob o qual são exibidos, se e
 * Tarefa
 * Problema
 * Processo de aprovação
-* Nota
+* Observação
 * Documento
 
 Para obter mais informações sobre a hierarquia e interdependência de objetos, consulte a seção [Interdependência e hierarquia de objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) no artigo [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

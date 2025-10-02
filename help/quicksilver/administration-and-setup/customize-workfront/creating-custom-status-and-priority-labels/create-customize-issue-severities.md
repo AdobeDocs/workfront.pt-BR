@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
+source-git-commit: 7cb1eed72b0f5ce4abd83013b7a2f224dbb2c229
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 3%
@@ -134,7 +134,7 @@ Como administrador do Workfront, você pode criar e editar severidades de proble
      </div>
 
    * **Descrição**: digite uma descrição para a severidade para explicar sua função.
-   * <span class="preview">**Ocultar Opção**</span> ou **Ocultar**: <span class="preview">Escolha **Sim**</span> ou marque a caixa de seleção para ocultar uma severidade que não é mais necessária.
+   * <span class="preview">**Ocultar Opção**</span> ou **Ocultar**: <span class="preview">Selecione **Sim**</span> ou marque a caixa de seleção para ocultar uma severidade que não é mais necessária.
 
      Uma severidade oculta não é exibida em nenhum lugar do Workfront, portanto, os usuários não podem escolhê-la para seus problemas.
 

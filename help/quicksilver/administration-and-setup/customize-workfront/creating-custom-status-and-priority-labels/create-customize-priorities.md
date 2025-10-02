@@ -5,7 +5,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
+source-git-commit: 7cb1eed72b0f5ce4abd83013b7a2f224dbb2c229
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 1%
@@ -136,7 +136,7 @@ Além das prioridades padrão fornecidas no Workfront, você pode adicionar suas
      </div>
 
    * **Descrição**: digite uma descrição para a prioridade para explicar sua função.
-   * <span class="preview">**Ocultar Opção**</span> ou **Ocultar**: <span class="preview">Escolha **Sim**</span> ou marque a caixa de seleção para ocultar uma prioridade que não é mais necessária.
+   * <span class="preview">**Ocultar Opção**</span> ou **Ocultar**: <span class="preview">Selecione **Sim**</span> ou marque a caixa de seleção para ocultar uma prioridade que não é mais necessária.
 
      Uma prioridade oculta não é exibida em nenhum lugar do Workfront, portanto, os usuários não podem escolhê-la para seus projetos, tarefas ou problemas.
 

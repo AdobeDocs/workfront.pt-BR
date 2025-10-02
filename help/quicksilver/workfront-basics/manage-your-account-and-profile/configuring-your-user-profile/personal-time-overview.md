@@ -7,18 +7,18 @@ description: É importante indicar no Adobe Workfront quando a folga aprovada ac
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
+source-git-commit: ce2f1ebe7ea97f3c25ac6a7ef33fd3c066727220
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
 
 # Configurar folga pessoal
 
-{{highlighted-preview}}
-
 <!-- Audited: 12/2023 -->
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox e está sendo lançado em uma implantação em fases para Produção.</span>
 
 O [!DNL Adobe Workfront] não foi projetado para replicar ou substituir seus sistemas existentes para gerenciar, acumular e rastrear o tempo livre pessoal.
 
