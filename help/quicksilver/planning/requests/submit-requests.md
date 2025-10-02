@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 3942ba8d626a854344624bc5b7ea3ad01e8ad7fb
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,14 @@ A lista de solicitações é filtrada automaticamente ao adicionar as condiçõe
 
    ![Solicitar página de detalhes](assets/request-details-page.png)
 
+   <div class="preview">
+      Na visualização:
 
+   ![Solicitar página com comentário](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview">(Opcional) Insira um comentário na área Comentários.
 1. (Condicional) Se o formulário de solicitação não estiver associado a uma aprovação ou se a solicitação tiver sido aprovada, clique no nome da solicitação e depois clique no nome do registro no campo **Registro**.
 
    A página do registro é aberta no Workfront Planning.
@@ -315,6 +322,14 @@ A lista de solicitações é filtrada automaticamente ao adicionar as condiçõe
 
    ![Solicitar página de detalhes](assets/request-details-page.png)
 
+   <div class="preview">
+   Na visualização:
+
+   ![Solicitar página com comentário](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview">(Opcional) Insira um comentário na área Comentários.
 1. (Condicional) Se o formulário de solicitação não estiver associado a uma aprovação ou se a solicitação tiver sido aprovada, clique no nome da solicitação e depois clique no nome do registro no campo **Registro**.
 
    A página do registro é aberta no Workfront Planning.
