@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '3371'
+source-wordcount: '3397'
 ht-degree: 1%
 
 ---
@@ -337,7 +337,7 @@ Depois de criar uma conexão entre um tipo de registro e o Adobe Experience Mana
 
 >[!NOTE]
 >
->Os registros de planejamento e seus campos podem ser acessados no Experience Manager Assets quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Os registros de planejamento e seus campos podem ser acessados no Experience Manager Assets quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Para conectar registros com ativos do Experience Manager:
 
@@ -467,11 +467,12 @@ Os registros e objetos são adicionados imediatamente.
    Uma página conectada do tipo de registro é exibida na exibição de tabela.
 
    Todos os registros conectados de um tipo são exibidos na tabela.
-1. Clique em **Conectar**, <span class="preview">**Conectar registros** ou **Nova linha**</span> para adicionar ou remover registros.
+1. Clique em **Conectar** ou <span class="preview">**Conectar registros** em uma lista de projetos</span> para adicionar ou remover registros existentes.
 
    ![Botão Conectar realçado na guia de detalhes do registro conectado](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 
    Para obter informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. <span class="preview">Clique em **Nova linha** em uma lista de projetos para criar um projeto. Os novos projetos são automaticamente conectados ao registro atual. </span>
 1. (Opcional) Se não conseguir encontrar um registro conectado, clique em **+ Adicionar** para criá-lo e conectá-lo.
 
 ## Conectar registros de objetos do Workfront

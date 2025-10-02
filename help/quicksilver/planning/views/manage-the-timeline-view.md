@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '3935'
+source-wordcount: '3962'
 ht-degree: 2%
 
 ---
@@ -198,12 +198,10 @@ Para gerenciar uma exibição de linha do tempo:
 
      <span class="preview">Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).</span>
 
-   * <span class="preview">Clique na extremidade de uma barra de registros e arraste-a e solte-a em uma nova posição. O redimensionamento das barras de registros atualiza as datas de início e término imediatamente. </span>
+   * <span class="preview">Clique na margem esquerda ou direita de uma barra de registros e arraste-a e solte-a em uma nova posição. O redimensionamento das barras de registros atualiza as datas de início ou término imediatamente. </span>
 
+   * <span class="preview">Arraste e solte registros para atualizar sua posição e datas na linha do tempo. Mover as barras dos registros atualiza as datas de início e término imediatamente.</span>
      <span class="preview">Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).</span>
-
-   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
-        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
    * [Filtros](#add-filters)

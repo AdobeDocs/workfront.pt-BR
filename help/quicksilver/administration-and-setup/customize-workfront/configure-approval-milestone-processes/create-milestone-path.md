@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '889'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,14 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
+<div class="preview">
+
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
+
+Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 Como administrador do Adobe Workfront, você pode criar caminhos de etapas que podem ser aplicados a qualquer projeto no sistema. As alterações feitas nos caminhos de marcos nessa área afetam todo o sistema do Workfront.
 
@@ -45,14 +53,18 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Plano</td> 
+   <td><p>Standard</p>
+   <p>Plano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador do Workfront.</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Você deve ser um administrador do Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,7 +84,18 @@ Para obter mais informações sobre como associar um caminho de etapas a um proj
 
 1. Clique em **Processos** > **Caminhos de Etapas**.
 1. Clique em **Novo Caminho de Etapas.**
-1. Especifique as seguintes informações na área **Informações Básicas**:
+
+   <div class="preview">
+
+   A caixa Novo Caminho de Etapas é aberta.
+
+   ![Caixa Novo caminho de etapas](assets/new-milestone-path-box.png)
+
+   </div>
+
+1. Clique em **Informações básicas** no painel esquerdo.
+
+   Atualize as seguintes informações:
 
    <table style="table-layout:auto">
     <tr>
@@ -93,7 +116,10 @@ Para obter mais informações sobre como associar um caminho de etapas a um proj
     </tr>
    </table>
 
-1. Especifique as seguintes informações na área **Etapas**:
+1. Clique em **Etapas** no painel esquerdo.
+1.No ambiente de Produção, clique em **Adicionar marco** para adicionar marcos ao caminho.
+   <span class="preview">No ambiente de Visualização, clique em **Nova linha** para adicionar marcos ao caminho.</span>
+1. Atualize as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,15 +140,14 @@ Para obter mais informações sobre como associar um caminho de etapas a um proj
     </tbody> 
    </table>
 
-1. Clique em **Adicionar Etapa** e continue adicionando etapas conforme necessário até que o caminho seja concluído.
-
+1. (Opcional) Arraste e solte cada etapa para reorganizá-las.
 1. Clique em **Criar Caminho de Etapas** para salvar suas alterações.
 
    Seu caminho de etapas está pronto para ser associado a um projeto.
 
    Para obter mais informações sobre como associar caminhos de etapas a projetos e etapas a tarefas, consulte [Associar etapas a tarefas](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-
+1. (Opcional) Na lista Caminhos de Etapas, selecione uma etapa e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) para abrir o caminho de etapas e editar suas informações.
 1. (Opcional) Clique no ícone **Exportar** ![Ícone Exportar](assets/export-icon.png) e selecione um dos seguintes formatos para exportar a lista de caminhos de etapas para um arquivo:
 
    * PDF
@@ -130,13 +155,15 @@ Para obter mais informações sobre como associar um caminho de etapas a um proj
    * Excel (xlsx)
    * Delimitado por tabulação
 
-1. (Opcional) Selecione uma etapa na lista de etapas e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) para editar as informações da etapa.
-1. (Opcional) Selecione uma etapa na lista de etapas e clique no ícone **Excluir** ![Ícone Excluir](assets/delete-icon.png) para excluí-la.
+1. (Opcional) Selecione um ou vários marcos na lista de marcos e clique no **ícone Excluir** ![ícone Excluir](assets/delete-icon.png) para excluí-lo.
 1. Clique em **Sim, exclua**.
-A etapa é excluída e não pode ser recuperada. Todas as informações do projeto associadas à etapa e todas as informações de tarefas associadas aos caminhos de etapas também são excluídas.
+
+   A etapa é excluída e não pode ser recuperada. O caminho de etapas é removido de qualquer projeto anteriormente associado a ele e todas as etapas são removidas das tarefas associadas a ele.
+
+   Os marcos excluídos não podem ser recuperados.
 
 
-## View milestone path details in a project report
+## Exibir detalhes do caminho de etapas em um relatório de projeto
 
 Você pode visualizar os detalhes de um caminho de etapas em um relatório de projeto.
 

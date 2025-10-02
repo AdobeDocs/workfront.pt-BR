@@ -6,9 +6,9 @@ description: Você pode aplicar a visualização Marco a uma lista de projeto ou
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1638'
 ht-degree: 1%
 
 ---
@@ -19,15 +19,13 @@ ht-degree: 1%
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 Você pode aplicar a visualização Marco a uma lista de projeto ou relatório. Você pode usar o modo de exibição Marco para exibir todos os marcos associados às tarefas nos projetos que você está visualizando.
 
@@ -95,8 +93,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Visão geral da visualização de Etapas {#milestone-view-overview}
 
+<div class="preview">
+
 A visualização Marco está disponível em listas de projeto e relatórios de projeto. Você pode visualizar rapidamente todos os marcos associados às tarefas nos projetos que está visualizando.
 
+![Projeto com exibição de marco](assets/project-with-milestone-view-with-complete.png)
+
+</div>
 
 >[!NOTE]
 >
@@ -106,9 +109,6 @@ A visualização Marco está disponível em listas de projeto e relatórios de p
 
 Para obter informações sobre como alternar para o modo de exibição de Marco, consulte a seção [Alternar para o modo de exibição de Marco](#switch-to-the-milestone-view) neste artigo.
 
-<!--add new screen shot for preview or production release-->
-
-![Projeto com exibição de marco](assets/project-with-milestone-view-with-complete.png)
 
 ### Seções de exibição de etapas
 
@@ -145,26 +145,34 @@ Ao visualizar uma lista de projetos ou um relatório de projeto na visualizaçã
 
   Você pode ajustar a porcentagem de conclusão diretamente na exibição de Marco, conforme descrito na seção [Ajustar a porcentagem concluída para tarefas na exibição de Marco](#adjust-percent-complete-for-tasks-in-the-milestone-view) deste artigo.
 
-* **Ícones de status de progresso da tarefa:** um ícone de status é exibido ao lado de cada projeto e tarefa no modo de exibição Marco. <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+* **Ícones de status de progresso da tarefa:** Dependendo do ambiente usado para exibir a exibição de marcos, os ícones a seguir indicam o status de progresso das tarefas:
 
-  <!--A progress status icon in the shape of a colored circle displays next to each project and task in the Milestone view. The possible statuses and circle colors are: 
-   * On Time - green
-   * Behind - yellow
-   * At Risk - blue
-   * Late - red-->
+   * No ambiente de Produção, os seguintes ícones de status são exibidos ao lado de cada projeto e tarefa na visualização Marco:
 
+      * No Prazo\
+        ![Ícone On time](assets/gantt-ontime.png)
 
-   * No Prazo\
-     ![Ícone On time](assets/gantt-ontime.png)
+      * Fora do Cronograma\
+        ![Ícone Atrás](assets/gantt-behind.png)
 
-   * Fora do Cronograma\
-     ![Ícone Atrás](assets/gantt-behind.png)
+      * Em Risco\
+        ![Ícone de risco](assets/gantt-atrisk.png)
 
-   * Em Risco\
-     ![Ícone de risco](assets/gantt-atrisk.png)
+      * Atrasado\
+        ![Ícone de atraso](assets/gantt-late.png)
 
-   * Atrasado\
-     ![Ícone de atraso](assets/gantt-late.png)
+     <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+
+  <div class="preview">
+
+   * No ambiente de Pré-visualização, os seguintes círculos coloridos são exibidos ao lado de cada projeto e tarefa na visualização Marco:
+
+      * No Prazo - verde
+      * Atrás - amarelo
+      * Em Risco - azul
+      * Atrasado - vermelho
+
+  </div>
 
   Você pode desabilitar a exibição desses ícones de status, conforme descrito na seção [Configurar quais informações serão exibidas na exibição de Marco](#configure-what-information-displays-in-the-milestone-view) deste artigo.
 
@@ -200,27 +208,29 @@ Ao visualizar uma lista de projetos ou um relatório de projeto na visualizaçã
 
    * Nenhuma sombra de cor é atribuída às colunas Início e Conclusão quando as tarefas têm um Status de Progresso de Em Risco ou Atrasado.
 
-  <!--add new screen shot for preview or production release-->
+  <!--add new screen shot for preview or production release; logged a bug as this is not happening in the new view - if at prod this is still missing, hide this screen shot-->
 
   ![Modo de exibição de marco com sombreamento](assets/milestone-view-with-shading.png)
 
 * **Nome do projeto**: o nome do projeto é exibido com um link para o projeto.
-* **Ícone Condição do projeto**: um ícone é exibido ao lado do nome do projeto, indicando a condição do projeto.
+* **Ícone Condição do projeto**: dependendo do ambiente, você está acessando o modo de exibição Marco a partir dos seguintes indicadores para mostrar a Condição do projeto:
 
-  <!--
-   <div class="preview">
-   A condition icon in the shape of a colored circle displays next to each project in the Milestone view. The possible project conditions and circle colors are: 
-   * On Target - green
-   * At Risk - yellow
-   * In Trouble - red
-   </div>
-   -->
+   * No ambiente de Produção, um ícone é exibido ao lado do nome do projeto, indicando a condição do projeto. A condição do projeto pode ser uma das seguintes:
 
-  A condição do projeto pode ser uma das seguintes:
+      * No Prazo
+      * Em Risco
+      * Com problemas
 
-   * No Prazo
-   * Em Risco
-   * Com problemas
+  <div class="preview">
+
+   * No ambiente de Pré-visualização, um ícone de condição na forma de um círculo colorido é exibido ao lado de cada projeto. As condições possíveis do projeto e as cores do círculo são:
+
+      * No Target - verde
+      * Em Risco - amarelo
+      * Com Problemas - vermelho
+
+     </div>
+
 
 ## Configurar quais informações serão exibidas na visualização de Marco {#configure-what-information-displays-in-the-milestone-view}
 
@@ -238,15 +248,15 @@ Para configurar se os ícones de status do projeto e a porcentagem de conclusão
 {{step1-to-projects}}
 
 1. Clique no menu suspenso **Exibir** e em **Marco**.
-   <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. &#x200B;<!--In the Production environment,--> Clique em **Opções** no canto superior direito da exibição Marco.
+1. No ambiente de Produção, clique em **Opções** no canto superior direito da exibição Marco e selecione uma das opções da próxima etapa.
 
-   <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
+   ![marco_exibição_opções.png](assets/milestone-view-options-350x141.png)
+
+   <div class="preview">No ambiente Visualização, selecione uma das opções da próxima etapa, no canto superior direito da exibição Marco.</div>
 
    <!--at Production release, replace this screen shot and adjust the Production/ Preview text above-->
 
-   ![marco_exibição_opções.png](assets/milestone-view-options-350x141.png)
 
 1. Selecione entre as seguintes opções:
 
@@ -277,6 +287,6 @@ Para ajustar o percentual concluído de uma tarefa na exibição Marco:
 
 1. (Condicional) Se as porcentagens de conclusão não estiverem sendo exibidas no modo de exibição Marco, habilite a exibição do Percentual Concluído de tarefas e projetos, conforme descrito na seção [Configurar quais informações serão exibidas no modo de exibição Marco](#configure-what-information-displays-in-the-milestone-view) deste artigo.
 
-1. &#x200B;<!--In the Production environment,--> Clique na porcentagem de conclusão abaixo de uma tarefa, especifique uma nova porcentagem e pressione Enter.
+1. No ambiente de Produção, clique na porcentagem de conclusão abaixo de uma tarefa, especifique uma nova porcentagem e pressione Enter.
 
-   <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->
+   <div class="preview">No ambiente de Visualização, mova o slide de Porcentagem concluída para o novo percentual concluído para atualizá-lo. </div>

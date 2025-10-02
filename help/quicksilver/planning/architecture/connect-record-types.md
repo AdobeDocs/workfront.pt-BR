@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2764'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,12 @@ A conexão de tipos de registro é útil quando há vários tipos de objetos de 
 
 Este artigo descreve como é possível conectar dois tipos de registro do Workfront Planning ou um tipo de registro do Workfront Planning a um objeto de outro aplicativo.
 
-Depois de estabelecer a conexão entre registros ou tipos de objeto, você pode conectar registros individuais uns aos outros e exibir campos do registro vinculado ou tipos de objeto em um registro do Workfront Planning.
+Depois de estabelecer a conexão entre registros ou tipos de objeto, um campo de conexão é adicionado a um tipo de registro do Planning. No campo de conexão, é possível conectar registros individuais uns aos outros e exibir campos do registro vinculado ou tipos de objeto em um registro do Workfront Planning.
+
+<!--
+>[!CAUTION]
+>
+><span class="preview">One record type can have up to 30 connection fields.</span>-->
 
 Para obter informações gerais sobre tipos de conexão, consulte [Visão geral sobre tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -126,19 +131,18 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
 1. Clique no cartão de um tipo de registro para abrir a página do tipo de registro.
 1. Clique no ícone **+** no canto superior direito do modo de exibição de tabela e clique na guia **Nova conexão**.
 
-   ![Nova guia de conexão com opções do Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![Nova guia de conexão com opções do Workfront AEM](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-1. No campo **Tipo de registro**, procure um tipo de registro ou selecione um dos seguintes:
+1. Procure um tipo de registro ou selecione um dos seguintes:
 
-   * Outro tipo de registro do espaço de trabalho atual
+   * <span class="preview">Um tipo de registro do espaço de trabalho atual</span>
 
-     ![Seletor de conexões de muitos para muitos](assets/many-to-many-connection-picker.png)
+     <span class="preview">![Seletor de conexão de seleção múltipla para o tipo de registro do mesmo espaço de trabalho](assets/multi-select-connection-picker-record-type.png)</span>
 
      >[!TIP]
      >
      > 
      >Se você não tiver outros tipos de registro no espaço de trabalho selecionado, a seção espaço de trabalho não será exibida.
-
 
    * Um tipo de registro de outro espaço de trabalho que foi configurado para se conectar a outros espaços de trabalho.
 
@@ -149,13 +153,13 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
 
      Para obter informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![Caixa Nova conexão para permitir vários registros](assets/new-connection-allow-multiple-records-box.png)
+     ![Caixa Nova conexão para permitir vários registros](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-   * Um **Projeto, Portfolio, Programa, Empresa** ou **Grupo** da seção **Tipos de Objeto do Workfront**.
+   * <span class="preview">Um **Projeto, Portfolio, Programa, Empresa** ou **Grupo** da seção **Tipos de Objeto do Workfront**.</span>
 
-     ![Seleção de conexão do projeto Workfront](assets/workfront-project-connection-selection.png)
+     <span class="preview">![Seleção de conexão do projeto Workfront](assets/multi-select-connection-picker-project.png)</span>
 
-   * **Experience Manager Assets** da seção **Aplicativos Adobe**.
+   * **Experience Manager Assets** da seção **Aplicativos Adobe**. <!--update screen shot??-->
 
      ![Seleção de conexão do AEM Assets](assets/aem-assets-connection-selection.png)
 
@@ -170,7 +174,7 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
 1. Atualize o campo **Descrição** adicionando informações sobre o campo de registro conectado. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
 1. (Condicional) Ao conectar tipos de registro de dois espaços de trabalho diferentes ou de um registro e um objeto de ativo do Adobe Experience Manager, selecione a opção **Permitir vários registros**. Ao selecioná-lo, você indica que permite que os usuários adicionem vários registros quando o campo de tipo de registro conectado é exibido nos registros originais. É selecionado por padrão.
 
-   ![Caixa Nova conexão para permitir vários registros](assets/new-connection-allow-multiple-records-box.png)
+   ![Nova conexão com o tipo de registro de outro espaço de trabalho](assets/new-connection-allow-multiple-records-box.png)
 
 1. (Condicional) Ao conectar tipos de registro do mesmo espaço de trabalho ou de um tipo de registro do Planning a um tipo de objeto do Workfront, siga um destes procedimentos, dependendo do ambiente que estiver usando:
 
@@ -197,6 +201,8 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
          >
          >Há um limite de 500 campos para um tipo de registro. Recomendamos manter essa configuração desativada, especialmente para tipos de registros taxonômicos, para evitar atingir esse limite.
 
+         <!--<span class="preview">There is a limit of 30 connected fields for a record type.</span>-->
+
       3. (Condicional) Se você habilitou **Criar campo correspondente no tipo de registro vinculado**, escolha entre as seguintes opções para indicar a quantidade de registros aos quais os usuários podem se conectar e de:
 
          * Muitos para muitos
@@ -222,7 +228,7 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condicional) Ao selecionar uma conexão com o tipo de registro Experience Manager Assets ou Workfront Planning, escolha uma das seguintes opções na área **Aparência do registro**:

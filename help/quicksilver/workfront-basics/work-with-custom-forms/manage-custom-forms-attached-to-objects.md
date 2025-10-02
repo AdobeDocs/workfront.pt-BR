@@ -6,16 +6,16 @@ description: Você pode atualizar a ordem na qual os formulários personalizados
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
 
 # Gerenciar formulários personalizados anexados a objetos
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível para todos os clientes no ambiente de Pré-visualização e para um grupo selecionado de clientes no ambiente de Produção.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Você pode atualizar a ordem na qual os formulários personalizados anexados a um objeto são exibidos, removê-los ou editar em massa a forma como os formulários personalizados são exibidos em vários objetos.
 
@@ -59,7 +59,7 @@ Você deve ter o seguinte acesso para executar as ações descritas neste artigo
 
 1. Vá para o objeto no qual deseja alterar a ordem dos formulários personalizados adicionados e, em seguida, comece a editar o objeto.
 
-   **Exemplo:** Por exemplo, para gerenciar os formulários personalizados de um projeto, vá para o projeto, clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon.png) e clique em **Editar**.
+   **Exemplo:** Por exemplo, para gerenciar os formulários personalizados de um projeto, vá para o projeto, clique no menu **** Mais![](assets/more-icon.png) e clique em **Editar**.
 
 1. Na seção **Forms personalizado** para projetos, tarefas e problemas, clique no ícone ![](assets/move-icon---dots.png) ao lado do nome de um formulário personalizado. Para todos os outros objetos, clique em **Gerenciar Forms**. Essa opção é exibida somente se pelo menos um formulário personalizado estiver anexado ao objeto.
 1. Arraste um formulário ![](assets/move-icon---dots.png) para um novo local na lista.

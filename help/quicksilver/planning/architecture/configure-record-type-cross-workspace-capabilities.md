@@ -4,9 +4,9 @@ description: Você pode habilitar um tipo de registro para ser adicionado a outr
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1143'
 ht-degree: 1%
 
 ---
@@ -49,6 +49,8 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 <span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+Você pode configurar tipos de registro para funcionar em vários espaços de trabalho.
+
 A seguir estão os recursos entre espaços de trabalho dos tipos de registro:
 
 * Você pode designar um tipo de registro como centralizado. Os usuários podem adicionar tipos de registro centralizados a outros espaços de trabalho que eles podem gerenciar.
@@ -81,8 +83,10 @@ Para obter informações, consulte um dos seguintes artigos:
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
 <ul><li><p>Qualquer pacote do Workfront</p></li>
-E
-<li><p>Pacote do Planning Plus</p></li></ul>
+<p>E</p>
+<li><p>Qualquer pacote do Planning para criar tipos de registro conectáveis</p></li>
+<li><p>Pacote do Planning Plus para criar tipos de registro centralizados</p></li>
+</ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
@@ -118,19 +122,18 @@ Um gerenciador de espaço de trabalho pode adicionar um tipo de registro central
 
 Os usuários podem adicionar registros a um tipo de registro centralizado a partir de qualquer espaço de trabalho ao qual tenham permissões do Contribute e ao qual o tipo de registro centralizado seja adicionado, incluindo seu espaço de trabalho original. Eles podem exibir registros do espaço de trabalho para o qual têm somente permissões de Exibição.
 
-Para obter mais informações, consulte [Visão geral dos tipos de registro entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+Para obter mais informações, consulte [Visão geral dos tipos de registro entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-Para configurar a adição de um tipo de registro como um tipo de registro centralizado:
+Para configurar um tipo de registro como centralizado:
 
 {{step1-to-planning}}
 
-1. Clique no espaço de trabalho cujos tipos de registro você deseja editar.
+1. Clique no espaço de trabalho cujos tipos de registro você deseja configurar como centralizado.
 
    A página do espaço de trabalho é aberta e os tipos de registro são exibidos.
 1. Siga um destes procedimentos:
 
    * Passe o mouse sobre o cartão de um tipo de registro e clique no menu **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito do cartão de tipo de registro
-Ou
    * Clique em um cartão de tipo de registro para abrir a página de tipo de registro e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro.
 1. Clique em **Editar**.
 
@@ -140,7 +143,7 @@ Ou
    >
    >Se um tipo de registro já tiver sido designado como um tipo de registro centralizado e ele tiver sido adicionado a outros espaços de trabalho, a opção Editar ficará esmaecida.
 
-1. Na caixa **Editar tipo de registro**, selecione a guia **Configurações avançadas**.
+1. Na caixa **Editar tipo de registro**, clique na guia **Configurações avançadas**.
 1. Habilitar a configuração **Permitir a adição deste tipo de registro a outros espaços de trabalho**.
 
    ![Editar configurações avançadas do tipo de registro com Adicionar a outros espaços de trabalho habilita](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
@@ -197,12 +200,11 @@ Para configurar um tipo de registro para conexão a partir de outros espaços de
 1. Siga um destes procedimentos:
 
    * Passe o mouse sobre o cartão de um tipo de registro e clique no menu **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito do cartão de tipo de registro e clique em **Editar**
-Ou
    * Clique em um cartão de tipo de registro para abrir a página de tipo de registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Editar**.
 
    ![Mais opções de menu do cartão de tipo de registro](assets/more-menu-options-from-record-type-card.png)
 
-1. Na caixa **Editar tipo de registro**, selecione a guia **Configurações avançadas**.
+1. Na caixa **Editar tipo de registro**, clique na guia **Configurações avançadas**.
 1. Habilitar a configuração **Permitir conexão com este tipo de registro em outros espaços de trabalho**. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![Editar a guia Configurações avançadas do tipo de registro com conexão de outros espaços de trabalho habilitada](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)

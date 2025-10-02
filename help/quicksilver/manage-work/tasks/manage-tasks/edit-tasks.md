@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '3723'
+source-wordcount: '3810'
 ht-degree: 4%
 
 ---
@@ -26,12 +26,22 @@ ht-degree: 4%
 </div>
 -->
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 
 É possível editar informações sobre tarefas que você criou ou para as quais você tem permissões do Contribute ou do Manage.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +53,8 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Novo: Padrão</p>
-   <p>Atual: trabalho ou superior</p> </td> 
+   <td> <p>Standard</p>
+   <p>Trabalhar ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso</td> 
@@ -183,6 +193,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
    * [Formulários personalizados](#Custom%C2%A0F)
    * [Finanças](#finance)
    * [Configurações](#settings)
+   * [Comentário](#comment)
 
    >[!NOTE]
    >
@@ -399,7 +410,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
       <td>Abreviação</td> 
       </tr> 
       <tr> 
-      <td>Minutos</td> 
+      <td>Minutes</td> 
       <td>M</td> 
       </tr> 
       <tr> 
@@ -411,11 +422,11 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
       <td>E</td> 
       </tr> 
       <tr> 
-      <td>Semanas</td> 
+      <td>Weeks</td> 
       <td>S</td> 
       </tr> 
       <tr> 
-      <td>Meses</td> 
+      <td>Months</td> 
       <td>T</td> 
       </tr> 
       <tr> 
@@ -605,9 +616,23 @@ Você pode definir formulários personalizados padrão para serem anexados autom
    </table>
     </li>
 
-1. Clique em **Salvar**.
+1. Clique em **Salvar** ou continue com a seção a seguir.
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
+
+### Comentário
+
+1. Comece a editar sua tarefa conforme descrito na seção [Editar tarefas](#Edit2) deste artigo.
+1. Clique em **Comentário** no painel esquerdo.
+
+   ![Seção de comentários na caixa editar tarefa](assets/comment-section-on-edit-task-box.png)
+
+1. Adicione uma atualização no espaço fornecido.
+1. (Opcional) Adicione um dos seguintes itens à atualização:
+
+   * Adicione usuários ou equipes à sua atualização na área **Marcar pessoas** ou use @ para incluí-los na sua atualização.
+   * Marque a caixa de seleção **Privado para minha empresa** para manter a atualização privada para as pessoas da sua empresa.
+1. Clique em **Salvar**.
 
 ## Editar uma tarefa no cabeçalho da tarefa (limitado)
 

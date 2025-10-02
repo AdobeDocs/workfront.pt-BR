@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1380'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -35,30 +35,44 @@ Você pode criar objetos do Adobe Workfront no Workfront Planning das seguintes 
 
   Para obter informações sobre como criar objetos do Workfront usando automações, consulte [Criar objetos usando as automações de registro do Adobe Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
-Você pode criar os seguintes tipos de objetos do Workfront a partir do Workfront Planning ao conectar um registro do Workfront Planning com os seguintes tipos de objeto do Workfront:
-
-* Projetos
-* Portfólios
-* Programas
-
 >[!IMPORTANT]
 >
->* Você pode criar somente projetos, portfólios e programas no Workfront ao conectá-los a partir de um registro.
+>Você pode criar os seguintes objetos do Workfront no Workfront Planning ao conectá-los aos registros do Planning:
 >
->* Não é possível criar grupos ou empresas ao conectá-los a partir de um registro no Workfront Planning.
+>* Projetos
+>* Portfólios
+>* Programas
+>
+>Você pode conectar os seguintes objetos do Workfront com registros do Planning, mas não pode criá-los no processo de conexão:
+>
+>* Grupos
+>* Empresas
 >
 
-Você pode conectar projetos, portfólios e programas de um campo de conexão nas seguintes áreas do Workfront Planning:
+Considere o seguinte ao conectar e criar objetos do Workfront aos registros do Workfront Planning:
 
-* A exibição de tabela de um tipo de registro
-* A página Detalhes ou a caixa de visualização de um registro
-* A guia Conexões de um registro
+* Você pode conectar projetos, portfólios, programas, grupos e empresas do Workfront a partir de um campo de conexão das seguintes áreas do Workfront Planning:
+
+   * A exibição de tabela de um tipo de registro
+   * A página Detalhes ou a caixa de visualização de um registro
+   * A guia Conexões de um registro
+
+* Você pode criar projetos nas seguintes áreas do Workfront Planning:
+
+   * A exibição de tabela de um tipo de registro
+   * A área Detalhes de um registro no campo de conexão
+   * <span class="preview">A página de registro Conectado de um registro, na área Detalhes</span>
+
+* Você pode criar portfólios e programas das seguintes áreas do Workfront Planning:
+
+   * A exibição de tabela de um tipo de registro
+   * A área Detalhes de um registro no campo de conexão
 
 Para obter informações sobre como conectar registros do Planning a objetos do Workfront, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -99,7 +113,7 @@ Para obter informações sobre como conectar registros do Planning a objetos do 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td> Padrão
+   <td> Standard
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -128,10 +142,17 @@ Para obter informações sobre como conectar registros do Planning a objetos do 
 Você deve ter o seguinte antes de adicionar novos projetos ou portfólios, conectando-os a partir de registros existentes:
 
 * Tipos de registros conectados a projetos, portfólios ou programas do Workfront. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Registros. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
+* Registros para os tipos de registro conectados a objetos do Workfront. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
 * O acesso e as permissões corretos no Workfront Planning e no Workfront, conforme descrito na seção [Requisitos de acesso](#access-requirements) deste artigo.
 
 ## Criar projetos à medida que você os conecta com registros do Workfront Planning
+
+É possível criar projetos ao conectá-los a registros no Workfront Planning nas seguintes áreas do Workfront Planning:
+
+* A exibição de tabela de um tipo de registro ou a área Detalhes de um registro no campo de conexão
+* <span class="preview">A página de registro Conectado de um registro, na área Detalhes de um registro </span>
+
+### Criar projetos na área Detalhes de um registro ou na exibição de tabela de um tipo de registro
 
 Para criar projetos ao conectá-los a partir de outros registros:
 
@@ -154,7 +175,34 @@ Comece digitando o nome de um projeto e clique em **Adicionar projeto** se não 
 
 1. (Opcional) Clique no nome do novo projeto no Workfront Planning para abrir a página do projeto no Workfront e fazer atualizações adicionais no projeto.
 
+<div class="preview">
+
+### Criar projetos na página Registros conectados de um registro
+
+1. Conecte o tipo de objeto Projeto a um tipo de registro do Workfront Planning na exibição de tabela.
+
+   Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+1. Clique no nome de um registro em qualquer exibição. A caixa de visualização Detalhes é aberta.
+
+1. Adicione uma **página Registros conectados** para projetos.
+
+   Para obter informações, consulte a seção &quot;Adicionar uma página de registros conectados a um registro&quot; no artigo [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+   A página Registros conectados é exibida na exibição de tabela. Os projetos conectados são exibidos na tabela.
+
+   ![Exibição da tabela de projetos na página de registros conectados](assets/projects-connected-records-page-table.png)
+
+1. Clique em **Nova linha** na tabela de projetos para adicionar um projeto.
+
+   Você só pode adicionar um projeto em branco nesta área. Não é possível adicionar um projeto usando um modelo.
+1. (Opcional) Clique no nome do projeto na exibição de tabela para abrir o projeto no Workfront e adicionar mais informações.
+
+</div>
+
 ## Crie portfólios à medida que você os conecta com registros do Workfront Planning
+
+Você pode criar portfólios a partir da exibição de tabela de um tipo de registro ou da página Detalhes de um registro.
 
 Para criar portfólios à medida que você os conecta a partir de registros do Planning:
 
@@ -173,6 +221,8 @@ Para criar portfólios à medida que você os conecta a partir de registros do P
 1. (Opcional) Clique no nome do novo portfólio no Workfront Planning para abrir a página do portfólio no Workfront e fazer atualizações adicionais no portfólio.
 
 ## Criar programas à medida que você os conecta com registros do Workfront Planning
+
+Você pode criar programas na exibição de tabela de um tipo de registro ou na página Detalhes de um registro.
 
 Para criar programas à medida que você os conecta a partir dos registros do Planning:
 
