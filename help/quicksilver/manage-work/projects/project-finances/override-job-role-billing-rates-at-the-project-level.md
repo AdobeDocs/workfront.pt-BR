@@ -6,14 +6,16 @@ description: Como gerente de projeto, você pode especificar a taxa de faturamen
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
 # Substituir Taxas de Cobrança de Função de Trabalho no nível do projeto
+
+{{highlighted-preview}}
 
 Como gerente de projeto, você pode especificar a taxa de faturamento de uma função de trabalho em um projeto específico. Essa taxa de cobrança no nível do projeto substitui a taxa de cobrança no nível do sistema para essa função de trabalho. O Workfront usa a taxa de cobrança no nível do projeto da função de trabalho para calcular a receita, em vez de usar a taxa de cobrança no nível do sistema.
 
@@ -89,8 +91,6 @@ Para sobrepor uma taxa de faturamento para um projeto:
 
 1. No campo **Função de trabalho**, selecione a função de trabalho para a qual deseja alterar a taxa de cobrança.
 
-   ![Substituir taxa de cobrança no projeto](assets/override-billing-rate-on-project-nwe-350x310.png)
-
    O campo **Taxa de Cobrança Padrão** exibe a taxa no nível do sistema para esta função de trabalho.
 
 1. No campo **Taxas de Cobrança 1**, insira a substituição de taxa de cobrança ocasional e clique em **Salvar** para substituir a taxa de cobrança uma vez
@@ -105,7 +105,11 @@ Para sobrepor uma taxa de faturamento para um projeto:
    * **Data de Início**: esta é a data em que a Taxa Padrão termina.
    * **Data Final**: a data em que termina a nova substituição de taxa de cobrança.
 
-   ![nova_taxa_de_cobrança_com_datas_de_ajuste.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+   ![Taxas de cobrança com datas de substituição](assets/billing-rates-093025.png)
+
+   Imagem de amostra no ambiente de produção:
+   ![Taxas de cobrança com datas de substituição](assets/new-billing-rate-with-adjustment-dates-350x266.png)
 
 1. O fuso horário para as datas selecionadas é exibido na parte inferior da caixa Nova taxa de cobrança. Esse é o fuso horário associado à sua instância do Workfront, como mostrado na área Informações do cliente da Configuração. Para obter informações, consulte [Configurar informações básicas do sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 1. O Workfront aplica a taxa de substituição de função de trabalho às horas que ocorrem durante os períodos especificados ao calcular a receita do projeto.
