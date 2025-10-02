@@ -6,7 +6,7 @@ description: O trabalho planejado é representado na Adobe Workfront por projeto
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 71149623643b1f08b88fdf8f5aaeb5d9b284d53f
+source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
 workflow-type: tm+mt
 source-wordcount: '2840'
 ht-degree: 1%
@@ -155,7 +155,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
    Clique em um dos caminhos ou formulários da fila de solicitações do Workfront, ou procure um, e clique nele quando ele for exibido na lista.
 1. <span class="preview">(Condicional) Se você alternou para a nova experiência, selecione um dos caminhos ou formulários da fila de solicitações do Workfront ou clique na barra de pesquisa. </span>
 
-   <span class="preview">Quando você clicar na barra de pesquisa, será exibida uma lista suspensa mostrando primeiro as filas e os formulários usados mais recentemente. Selecione um na lista ou comece a digitar e selecione a fila ou lista quando ela for exibida.</span>
+   <span class="preview">Quando você clicar na barra de pesquisa, será exibida uma lista suspensa mostrando primeiro as filas e os formulários usados mais recentemente. Selecione um na lista ou comece a digitar e selecione a fila ou o formulário quando ele for exibido.</span>
 
    >[!NOTE]
    >
