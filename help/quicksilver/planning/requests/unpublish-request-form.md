@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 793a856a963060cbade33a1c29f002cecf7f7e47
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '864'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Também é possível alterar as entidades com as quais você compartilha um form
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -76,7 +76,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr>
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
    <td>
-   <p>Padrão</p>
+   <p>Standard</p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p>
   </td>
   </tr>
@@ -117,7 +117,7 @@ Para alterar o compartilhamento de um formulário de solicitação:
 
 {{step1-to-planning}}
 
-1. Clique no espaço de trabalho ao qual deseja adicionar registros.
+1. Clique no espaço de trabalho onde deseja compartilhar um formulário.
 
    O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
 

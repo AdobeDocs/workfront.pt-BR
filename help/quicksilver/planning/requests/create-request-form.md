@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
+source-git-commit: de42feb0d5a349e6b4b403b790b4759f693f7f4c
 workflow-type: tm+mt
-source-wordcount: '2568'
+source-wordcount: '3138'
 ht-degree: 1%
 
 ---
@@ -135,11 +135,15 @@ Para obter informações sobre como enviar solicitações do Workfront Planning,
    * Os campos de fórmula que se referem aos campos Moeda exibem os valores sem contabilizar taxas de câmbio.
    * Os valores dos campos de parágrafo exibem um valor &quot;N/A&quot; no formulário de solicitação e exibem tags html em vez do texto formatado na página de detalhes da solicitação.
 
-## Começar a criar um formulário de solicitação
+## Criar um formulário de solicitação
+
+Para criar um formulário de solicitação, você deve começar a criar o formulário, configurar os detalhes do formulário e concluir publicando e compartilhando o formulário.
+
+### Começar a criar um formulário de solicitação
 
 Você pode criar um formulário de solicitação do tipo de registro associado ao formulário, <span class="preview">ou da área Solicitações do Workfront.</span>
 
-### Criar um formulário de solicitação a partir de um tipo de registro
+#### Criar um formulário de solicitação a partir de um tipo de registro
 
 {{step1-to-planning}}
 
@@ -168,7 +172,7 @@ Você pode criar um formulário de solicitação do tipo de registro associado a
 
 <div class="preview">
 
-### Criar um formulário de solicitação na área Solicitações do Workfront
+#### Criar um formulário de solicitação na área Solicitações do Workfront
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Solicitações**.
 1. No canto superior direito da tela, clique em **Solicitar formulários**.
@@ -186,16 +190,21 @@ Você pode criar um formulário de solicitação do tipo de registro associado a
 1. Clique em **Criar**.
 
    O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
-1. Continue em [Configurar o formulário](#configure-the-form).
+1. Continue em [Configurar detalhes para o formulário de solicitação](#set-up-details-for-the-request-form).
 
 </div>
 
-## Configurar o formulário
+### Configurar detalhes do formulário de solicitação
 
-1. Comece a criar ou editar um formulário de solicitação, conforme descrito em uma das seguintes seções:
+Os detalhes do formulário são divididos em guias.
 
-   * [Criar um formulário de solicitação a partir de um tipo de registro](#create-a-request-form-from-a-record-type)
-   * <span class="preview">[Criar um formulário de solicitação da área Solicitações do Workfront](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+* A guia **Formulário** permite adicionar campos e elementos de conteúdo ao formulário
+* A guia **Configuração** permite definir um processo de aprovação para o formulário, <span class="preview">e definir opções de conclusão de solicitação</span>.
+* <span class="preview">A guia **Automações** permite automatizar o que ocorrerá com base nos recursos da solicitação feita com o formulário.</span>
+
+#### Configurar detalhes do formulário
+
+1. Comece a criar ou editar um formulário de solicitação, conforme descrito na seção [Começar a criar um formulário de solicitação](#begin-creating-a-request-form).
 
    O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
 
@@ -248,6 +257,16 @@ Você pode criar um formulário de solicitação do tipo de registro associado a
    Para obter mais informações sobre como criar um formulário personalizado, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Opcional) Clique em **Visualizar** para ver como o formulário será exibido para outros usuários quando eles o usarem para enviar um novo registro.
+1. Prossiga para [Configurar detalhes da configuração](#set-up-configuration-details) se desejar configurar mais detalhes para o formulário ou vá para [Concluir criação de formulário de solicitação](#complete-request-form-creation).
+
+#### Configurar detalhes da configuração
+
+Na guia Configuração, você pode definir o processo de aprovação <span class="preview"> e configurar quando uma solicitação criada a partir deste formulário será marcada como Concluída</span>.
+
+1. Comece a criar ou editar um formulário de solicitação, conforme descrito na seção [Começar a criar um formulário de solicitação](#begin-creating-a-request-form).
+
+   O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
+1. (Opcional) Configure os detalhes do formulário, conforme descrito em [Configurar detalhes do formulário](#set-up-form-details).
 
 1. (Opcional) Clique na guia **Configuração** e adicione pelo menos um usuário <span class="preview">ou equipe</span>ao campo **Aprovadores** para aprovar novas solicitações para este formulário de registro.
 
@@ -263,6 +282,39 @@ Você pode criar um formulário de solicitação do tipo de registro associado a
 
      Para obter mais informações sobre como adicionar aprovações a formulários de solicitação, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
+1. <span class="preview">(Condicional) Se quiser que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**.</span>
+
+1. <span class="preview">Selecione se deseja que uma solicitação criada a partir deste formulário seja marcada como concluída quando o objeto solicitado for criado ou quando o objeto solicitado for concluído.</span>
+1. <span class="preview">(Condicional) Se você selecionou a solicitação para ser marcada como concluída quando o objeto solicitado é concluído, selecione o campo e o valor que indicam quando o objeto é concluído. Por exemplo, você pode selecionar o campo Status e o valor Complete para concluir a solicitação quando o status do objeto criado é definido como Complete.</span>
+1. Prossiga para [Configurar detalhes de automação](#set-up-configuration-details) se desejar configurar mais detalhes para o formulário ou vá para [Concluir criação de formulário de solicitação](#complete-request-form-creation).
+
+<div class="preview">
+
+#### Configurar Automações
+
+Você pode configurar automações no Adobe Workfront Planning que, quando ativadas, criam objetos no Workfront ou registros no Workfront Planning quando acionadas a partir de um registro do Planning.
+
+Para obter informações sobre como criar automações em outras áreas do Workfront Planning, consulte [Configurar automações do Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+1. Na página de detalhes da automação, atualize os seguintes campos na seção **Triggers**:
+
+   * **Acionador**: selecione a ação que acionará a automação. Atualmente, o único acionador disponível para a automação do formulário de solicitação é `When request object status equals pending creation`.
+
+1. Atualizar os seguintes campos na seção **Ações**: <!--submitted bugs for these fields - see if they need changing here-->
+   * **Ações**: selecione a ação que você deseja que o Workfront execute ao acionar a automação. Este campo é obrigatório.
+Atualmente, a única Ação disponível para solicitar a automação do formulário é `Create record`.
+
+     >[!TIP]
+     >
+     >Depois de salvar a automação, não é mais possível alterar a ação selecionada nesse campo.
+1. Prossiga para [Concluir criação de formulário de solicitação](#complete-request-form-creation).
+
+
+</div>
+
+### Concluir criação do formulário de solicitação
+
+1. Crie e configure o formulário conforme descrito em [Comece a criar um formulário de solicitação](#begin-creating-a-request-form) e [Configure os detalhes para o formulário de solicitação](#set-up-details-for-the-request-form).
 1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do formulário no cabeçalho e clique em **Editar** para atualizar o nome do formulário.
 
 1. Clique em **Publicar** para publicar o formulário e obter um link exclusivo para ele.
@@ -280,6 +332,21 @@ Você pode criar um formulário de solicitação do tipo de registro associado a
 1. Clique na seta à esquerda do nome do formulário no cabeçalho para fechar o formulário.
 
    A exibição de tabela **Formulários de solicitação** é aberta e o formulário é adicionado a ela.
+
+## Gerenciar formulários de solicitação existentes
+
+
+1. Clique no espaço de trabalho onde deseja gerenciar formulários de solicitação.
+
+   O espaço de trabalho é aberto e os tipos de registro são exibidos como cartões.
+
+1. Clique em um cartão de tipo de registro. Para obter informações sobre como criar um tipo de registro, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
+
+   A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
+
+1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Gerenciar formulários de solicitação**.
+
+   Todos os formulários de solicitação associados ao tipo de registro são exibidos em uma exibição de tabela.
 
 1. (Opcional) Passe o mouse sobre o nome de um formulário de solicitação na exibição de tabela, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do formulário e clique em um dos seguintes:
 
