@@ -7,28 +7,32 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
+source-git-commit: 48c0f5c617f41a4ce51ea45c17817aa869ba5adb
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 1%
+source-wordcount: '1392'
+ht-degree: 3%
 
 ---
 
 # Compartilhar um documento
 
-O administrador do Adobe Workfront concede aos usuários acesso para visualizar ou editar documentos quando eles atribuírem níveis de acesso, conforme explicado em [Conceder acesso a documentos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
+O administrador do Workfront controla quem pode exibir ou editar documentos na área Níveis de acesso em Configurar. Para obter mais informações, consulte [Conceder acesso a documentos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
-O nível de acesso que o administrador do Workfront concede aos usuários permite que eles visualizem ou editem documentos. Além disso, outros usuários também podem conceder a outros usuários permissões para exibir ou gerenciar documentos específicos que eles próprios carregaram ou que têm acesso para compartilhar.
+Os usuários também podem compartilhar documentos aos quais fizeram upload ou têm acesso, dando a outras pessoas permissão para visualizá-los ou gerenciá-los.
 
-As permissões são específicas a um item no Workfront e definem quais ações podem ser executadas nesse item. Para obter informações sobre permissões de objeto, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+* As permissões se aplicam a itens individuais e definem quais ações alguém pode realizar.
+* A pessoa que carrega um documento automaticamente obtém controle total (Gerenciar permissões).
+* Para compartilhar uma pasta inteira, consulte [Compartilhar uma pasta de documentos](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-Por padrão, o usuário que carrega um documento no Workfront tem permissões de gerenciamento.
+>[!NOTE]
+>
+>Se sua instância do Workfront usar o Adobe Enterprise Storage, você não poderá compartilhar documentos individuais. Em vez disso, você concede acesso no nível do projeto. Lembre-se de que o compartilhamento do projeto pode conceder acesso a informações confidenciais do projeto, como dados financeiros, dependendo do nível de permissão escolhido.
 
-Para obter informações sobre como compartilhar uma pasta de documentos inteira, consulte [Compartilhar uma pasta de documentos](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 Você deve ter o seguinte para compartilhar objetos:
 
@@ -62,39 +66,11 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-## Considerações sobre o compartilhamento de documentos
 
-Além das considerações abaixo, consulte também [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
->[!NOTE]
->
->Um administrador do Workfront pode adicionar ou remover permissões a qualquer item no sistema, para todos os usuários, sem ser o proprietário desses itens.
-
-* O compartilhamento de um documento é semelhante ao compartilhamento de qualquer outro objeto no Workfront. Para obter informações sobre como compartilhar documentos no Workfront, consulte [Compartilhar um objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* Você pode conceder as seguintes permissões a documentos:
-
-   * Exibir
-   * Gerenciar
-
-* Você também pode compartilhar um documento publicamente ou em todo o sistema.
-
-  >[!CAUTION]
-  >
-  >Recomendamos que você tenha cuidado ao compartilhar com usuários externos um objeto que contém informações confidenciais. Isso permite que eles visualizem informações sem ser um usuário da Workfront ou parte da organização.
-
-* Você pode compartilhar um documento com alguém que não tenha uma conta do Workfront, adicionando o endereço de email no campo Dar acesso ao documento.
-* Quando você compartilha um documento, os usuários têm o mesmo acesso a todas as versões do documento e a todas as provas do documento.\
-  Para obter mais informações sobre revisões no Workfront, consulte a seção [Revisão](../../review-and-approve-work/proofing/proofing.md).
-
-* Você pode herdar permissões para documentos dos objetos aos quais estão associados. O administrador do Workfront pode restringir a herança de permissões para documentos em seu nível de acesso.
-
-  Para obter mais informações sobre como restringir permissões herdadas em documentos, consulte [Criar ou modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-
-  Você pode remover manualmente permissões herdadas em documentos. Para obter mais informações, consulte [Remover permissões de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-
-* Um documento anexado herda permissões somente do objeto ao qual foi anexado. Se você criar uma pasta no objeto e mover o documento para a pasta, ela herdará as permissões da pasta. Porém, se você criar uma pasta em um objeto pai ou avô e mover o documento para essa pasta, ele não herdará as permissões dessa pasta.
 
 ## Compartilhar um documento
+
+Por padrão, o usuário que carrega um documento no Workfront tem permissões de gerenciamento.
 
 {{step1-to-documents}}
 
@@ -172,8 +148,21 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
 1. Clique em **Salvar**.
 
+## Compartilhamento de documentos com o armazenamento corporativo da Adobe
+
+A Workfront está fazendo a transição para a solução de armazenamento corporativo da Adobe para fornecer maior conectividade com os produtos Adobe Creative Cloud. Os clientes existentes serão transferidos para o novo modelo em fases. Para obter mais informações sobre os benefícios do Adobe Enterprise Storage, visite [visão geral do Adobe Enterprise Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Se sua instância do Workfront usar o armazenamento corporativo da Adobe, você não poderá compartilhar documentos individuais diretamente. Em vez disso, você deve conceder acesso no nível do projeto.
+
+>[!IMPORTANT]
+>
+>O compartilhamento de um projeto também pode conceder aos usuários acesso a informações confidenciais do projeto, como finanças, dependendo do nível de permissão escolhido.
+>
+>Certifique-se de revisar as configurações de permissão cuidadosamente antes de compartilhar.
 
 ## Permissões de documento
+
+As permissões são específicas a um item no Workfront e definem quais ações podem ser executadas nesse item. Para obter informações sobre permissões de objeto, consulte [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 A tabela a seguir mostra quais permissões você pode conceder aos usuários ao permitir que eles exibam ou gerenciem documentos:
 
@@ -330,3 +319,35 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
 A ação &#42; é compartilhada por Documentos e Pastas de Documentos.
 
 &#42;&#42; É necessário ter uma licença de comprovação separada associada à sua conta da Workfront para poder comprovar documentos. Entre em contato com seu gerente de conta para obter uma licença de comprovação. Para obter mais informações sobre revisões no Workfront, consulte [Revisão](../../review-and-approve-work/proofing/proofing.md).
+
+## Considerações sobre o compartilhamento de documentos
+
+Além das considerações abaixo, consulte também [Visão geral das permissões de compartilhamento em objetos](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+>[!NOTE]
+>
+>Um administrador do Workfront pode adicionar ou remover permissões a qualquer item no sistema, para todos os usuários, sem ser o proprietário desses itens.
+
+* O compartilhamento de um documento é semelhante ao compartilhamento de qualquer outro objeto no Workfront. Para obter informações sobre como compartilhar documentos no Workfront, consulte [Compartilhar um objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Você pode conceder as seguintes permissões a documentos:
+
+   * Exibir
+   * Gerenciar
+
+* Você também pode compartilhar um documento publicamente ou em todo o sistema.
+
+  >[!CAUTION]
+  >
+  >Recomendamos que você tenha cuidado ao compartilhar com usuários externos um objeto que contém informações confidenciais. Isso permite que eles visualizem informações sem ser um usuário da Workfront ou parte da organização.
+
+* Você pode compartilhar um documento com alguém que não tenha uma conta do Workfront, adicionando o endereço de email no campo Dar acesso ao documento.
+* Quando você compartilha um documento, os usuários têm o mesmo acesso a todas as versões do documento e a todas as provas do documento.\
+  Para obter mais informações sobre revisões no Workfront, consulte a seção [Revisão](../../review-and-approve-work/proofing/proofing.md).
+
+* Você pode herdar permissões para documentos dos objetos aos quais estão associados. O administrador do Workfront pode restringir a herança de permissões para documentos em seu nível de acesso.
+
+  Para obter mais informações sobre como restringir permissões herdadas em documentos, consulte [Criar ou modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+  Você pode remover manualmente permissões herdadas em documentos. Para obter mais informações, consulte [Remover permissões de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+
+* Um documento anexado herda permissões somente do objeto ao qual foi anexado. Se você criar uma pasta no objeto e mover o documento para a pasta, ela herdará as permissões da pasta. Porém, se você criar uma pasta em um objeto pai ou avô e mover o documento para essa pasta, ele não herdará as permissões dessa pasta.
