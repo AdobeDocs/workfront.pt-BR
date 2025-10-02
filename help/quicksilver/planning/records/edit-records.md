@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2764'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
    <span class="preview">![Barra de extremidade esquerda na exibição de linha do tempo a ser redimensionada](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
-1. <span class="preview">Clique em uma barra de registro e arraste-a e solte-a em outra posição para atualizar sua linha do tempo e datas. As datas de Início e Término do registro são atualizadas automaticamente.</span>
+1. <span class="preview">Clique e segure uma barra de registros, em seguida arraste e solte-a em outra posição para atualizar sua linha do tempo e datas. As datas de Início e Término do registro são atualizadas automaticamente.</span>
 
 1. Clique na barra de um registro para abrir sua área de detalhes e editar todos os campos.
 
@@ -250,7 +250,7 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
    <span class="preview">![Barra de extremidade esquerda na exibição de calendário a ser redimensionada](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
-1. <span class="preview">Clique em uma barra de registro e arraste-a e solte-a em outra posição para atualizar sua linha do tempo e datas. As datas de Início e Término do registro são atualizadas automaticamente.</span>
+1. <span class="preview">Clique e segure uma barra de registros, em seguida arraste e solte-a em outra posição para atualizar sua linha do tempo e datas. As datas de Início e Término do registro são atualizadas automaticamente.</span>
 
 1. Clique na barra de um registro para abrir sua área de detalhes e editar todos os campos.
 
@@ -378,11 +378,11 @@ Para obter mais informações, consulte [Gerenciar conexões de registro de obje
 
 <div class="preview">
 
-## Editar informações em campos de seleção única ou múltipla
+## Editar configurações de campo de seleção única ou múltipla ao atualizar seus valores
 
 <!--some of this information is also available in Edit fields article - update both when necessary-->
 
-Ao editar informações em um campo de seleção única ou múltipla, é possível adicionar novas opções ao campo, sem precisar editar o campo.
+Ao atualizar informações em um campo de seleção única ou múltipla, é possível adicionar novas opções ao campo, sem precisar editar o campo.
 
 >[!IMPORTANT]
 >

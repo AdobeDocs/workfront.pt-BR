@@ -6,9 +6,9 @@ description: Você pode editar modelos de projeto para refletir as alterações 
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '5658'
+source-wordcount: '5655'
 ht-degree: 2%
 
 ---
@@ -652,8 +652,6 @@ Editing templates in bulk differs depending on which environment you are using.
 
 *****************and hide the first line below************ -->
 
-Para editar modelos em massa:
-
 {{step1-to-templates}}
 
 1. Selecione vários modelos na lista.
@@ -671,12 +669,11 @@ Para editar modelos em massa:
 
    * Visão geral
    * Finanças
-   * Portfólio
-   * Configurações
-   * Acesso
    * Formulários personalizados
-   * Tarefas
-   * Problemas
+   * Configurações de modelo
+   * Configurações da tarefa
+   * Configurações do problema
+   * Acesso
    * Comentário
 
 1. Clique em **Salvar**.

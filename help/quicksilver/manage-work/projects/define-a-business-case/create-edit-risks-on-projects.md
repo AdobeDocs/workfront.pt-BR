@@ -6,9 +6,9 @@ description: Os riscos são eventos ou fatores possíveis que impedem a conclus�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1080'
 ht-degree: 1%
 
 ---
@@ -115,7 +115,7 @@ Você pode criar e editar riscos na seção Riscos de um projeto ou modelo. Cria
 
    ![Seção Riscos da tarefa](assets/risks-section-on-project-2022.png)
 
-1. Clique em **Começar a adicionar riscos** e crie riscos editando suas informações em linha.
+1. Clique em **Adicionar mais riscos** e crie riscos editando suas informações em linha.
 
    Ou
 
@@ -131,15 +131,11 @@ Você pode criar e editar riscos na seção Riscos de um projeto ou modelo. Cria
 
    * **Probabilidade**: indique a probabilidade do risco ocorrer como um valor percentual.
    * **Custo Potencial**: Indique o custo estimado se o risco ocorrer.
-   * **Custo de Mitigação**: Indique o custo do plano de mitigação que você deve colocar em prática para evitar que o risco ocorra.
    * **Custo Efetivo**: Indique o custo real do risco, se o risco tiver ocorrido.
+   * **Custo de Mitigação**: Indique o custo do plano de mitigação que você deve colocar em prática para evitar que o risco ocorra.
    * **Plano de Mitigação**: atualize a descrição do plano para reduzir o risco.
 
-1. (Condicional) Clique em **Enter** se estiver criando o risco embutido.
-
-   Ou
-
-   Clique em **Salvar** se estiver editando as informações na caixa **Novo risco**.
+1. Clique em **Salvar**.
 
 1. (Opcional) Selecione um **Status** diferente para o risco, no menu suspenso **Status**, ao aplicar a exibição **Padrão** para a lista de riscos.
 
@@ -167,14 +163,14 @@ Para editar riscos:
 
 1. Se você clicou em **Editar**, a caixa **Editar risco** ou **Editar riscos** será aberta.
 
-   Considere editar os seguintes campos:
+   Atualize os seguintes campos:
 
    * **Descrição**: edite a descrição do risco.
    * **Tipo de Risco**: atualizar a categoria em que o risco se enquadra.
    * **Probabilidade**: indique a probabilidade do risco ocorrer como um valor percentual.
    * **Custo Potencial**: Indique o custo estimado se o risco ocorrer.
-   * **Custo de Mitigação**: Indique o custo do plano de mitigação que você deve colocar em prática para evitar que o risco ocorra.
    * **Custo Efetivo**: Indique o custo real do risco, se o risco tiver ocorrido.
+   * **Custo de Mitigação**: Indique o custo do plano de mitigação que você deve colocar em prática para evitar que o risco ocorra.
    * **Plano de Mitigação**: atualize a descrição do plano para reduzir o risco.
 
 1. Clique em **Salvar**.

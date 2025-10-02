@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2458'
 ht-degree: 1%
 
 ---
@@ -342,12 +342,12 @@ Todos os campos do registro conectado são exibidos na exibição de tabela da g
 
    * <span class="preview">Clique em **Conectar registros** no canto superior direito da página de registro conectada para conectar projetos existentes.</span>
    * <span class="preview">Editar informações do projeto em linha na tabela.</span>
-   * <span class="preview">Clique em **Nova linha** para criar um projeto sem um modelo.</span>
+   * <span class="preview">Clique em **Nova linha** para criar um projeto sem um modelo. O novo projeto está conectado ao registro atual imediatamente.</span>
 
      Para obter mais informações, consulte [Criar objetos do Workfront no Workfront Planning à medida que você os conecta a registros](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
    * <span class="preview">Passe o mouse sobre um projeto e clique no menu **Mais** [Mais menu](assets/more-menu.png), em seguida, clique em um dos seguintes:</span>
-      * <span class="preview">**Excluir** para excluir o projeto. A exclusão de um projeto o desconecta do registro e o move para a lixeira do Workfront. </span>
-      * <span class="preview">**Desconectar** para desconectar o projeto do registro. Desconectando um projeto</span>
+      * <span class="preview">**Excluir** para excluir o projeto. A exclusão de um projeto o desconecta do registro e o move para a Lixeira do Workfront. </span>
+      * <span class="preview">**Desconectar** para desconectar o projeto do registro. Desconectar um projeto o remove e todos os valores de seus campos de pesquisa do registro atual. </span>
 
 1. (Opcional) Clique duas vezes no nome da guia da página Registros conectados
 

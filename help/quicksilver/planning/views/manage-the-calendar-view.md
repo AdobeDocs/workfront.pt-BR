@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
 source-wordcount: '1895'
 ht-degree: 4%
@@ -116,9 +116,13 @@ Para gerenciar uma exibição de calendário:
 1. Vá para a página do tipo de registro para a qual deseja exibir o calendário.
 1. Crie uma exibição de calendário, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
+   <div class="preview">
+
    ![Exemplo de exibição de calendário](assets/calendar-view-example.png)
 
    Os registros associados ao tipo de registro selecionado são exibidos como barras em um calendário. A cor das barras corresponde à cor do ícone de registro, por padrão.
+
+   </div>
 
 1. Siga um destes procedimentos para navegar pelo calendário:
 

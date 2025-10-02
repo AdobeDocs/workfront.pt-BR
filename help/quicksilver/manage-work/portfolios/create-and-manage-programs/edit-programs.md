@@ -6,9 +6,9 @@ description: É possível editar informações sobre programas criados por você
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1070'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 É possível editar informações sobre programas criados por você ou criados por outros usuários, caso eles tenham sido compartilhados com você.
 
-Você pode editar um programa na página Programa ou editar programas em uma lista.
+Você pode editar um programa na página do programa ou editar um ou vários programas em massa em uma lista.
 
 ## Requisitos de acesso
 
@@ -36,7 +36,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>Novo: [!UICONTROL Padrão] </p><p>Ou </p><p>Atual: [!UICONTROL Plano] </p> </td> 
+   <td> <p>[!UICONTROL Padrão]</p>
+   <p>[!UICONTROL Plano]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso</td> 
@@ -188,4 +189,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    Depois de salvar as alterações, o comentário adicionado é exibido na guia [!UICONTROL Atualizações] do programa e envia um email aos usuários incluídos nele.
 1. Clique em **[!UICONTROL Salvar]**
+
+
+## Editar programas em massa
+
+Quando você edita programas em massa, todas as informações atualizadas se aplicam a todos os programas selecionados, substituindo as informações originais de cada programa.
+
+1. Vá para uma lista de programas e selecione vários programas.
+1. Clique no ícone **Editar** ![Editar ícone](assets/edit-icon.png) na parte superior da lista.
+
+   A caixa **Editar Programas** é aberta.
+1. Atualize as informações nas seguintes seções:
+
+   * Visão geral
+   * Formulários personalizados
+   * Comentário
+
+   Para obter mais informações, consulte a seção [Editar programas](#edit-programs-1) neste artigo, começando na Etapa 4. <!--ensure this stays accurate-->
 
