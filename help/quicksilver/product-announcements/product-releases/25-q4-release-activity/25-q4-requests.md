@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -18,20 +18,34 @@ Esta página descreve as melhorias nas Solicitações feitas com a versão do Qu
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2025, consulte [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md).
 
-## Nova coluna Status combinada na lista de solicitações unificada
+## Criar e salvar exibições na área Solicitações
 
 >[!NOTE]
 >
->* Visualização: 28 de agosto de 2025
->* Versão rápida de produção: 11 de setembro de 2025
->* Produção para todos os clientes: 16 de outubro de 2025
+>Visualização: 2 de outubro de 2025
+>>Versão rápida de produção: 15 de outubro de 2025
+>>Produção para todos: 16 de outubro de 2025
 
-Para simplificar a experiência de solicitação unificada, a coluna Status agora exibe o Status da solicitação e o Status da aprovação, o que se aplicar a uma determinada solicitação.
+Para facilitar a visualização das informações necessárias, adicionamos a capacidade de criar e salvar exibições na área Solicitações. Agora, você pode salvar uma visualização, incluindo filtros e configurações de coluna, e alternar entre visualizações. Um administrador do Workfront pode adicionar a nova visualização aos modelos de layout.
 
-Para obter mais informações sobre como criar solicitações, consulte:
+Anteriormente, não era possível salvar filtros e configurações de coluna.
 
-* Para o Workfront: [Criar e enviar solicitações](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* Para o Workfront Planning: [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md)
+Para obter informações e instruções, consulte [Criar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+<!--## New combined Status column in unified Request list 
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.
+
+For more information on creating requests see:
+
+* For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
 
 ## Atualizações na experiência de solicitação
 

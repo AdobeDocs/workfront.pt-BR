@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '8031'
+source-wordcount: '8402'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,39 @@ Para todas as outras alterações no Adobe Workfront, consulte [Versões do prod
 
 ## Administração e configuração
 
-<!--### Interface updates when adding or editing group timesheet profiles
+### Nova interface e funcionalidade para as caixas Novo e Editar caminho de etapas
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**Versão de visualização: 2 de outubro de 2025; Versão de produção: iniciando a semana de 9 de outubro de 2025**
 
-We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+As caixas Novo e Editar Caminho de Etapas agora têm uma nova interface. A lista de caminho de etapas tem uma nova aparência e funcionalidade, e alguma funcionalidade nesta área pode ter sido alterada.
 
-To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+Para obter informações, consulte [Criar um caminho de etapas](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+### Atualizações de interface ao adicionar ou editar perfis de planilha de horas de grupo
+
+**Versão de visualização: 30 de setembro de 2025; Versão de produção: iniciando a semana de 2 de outubro de 2025**
+
+Atualizamos a aparência da página Perfil da folha de horas ao editar ou adicionar um perfil de folha de horas de grupo.
+
+Para visualizar essas alterações, vá para Configurar > Grupos > selecione um nome de grupo > Perfis de folha de horas e adicione um novo perfil ou edite um existente.
+
+Para obter mais informações, consulte [Criar, editar e atribuir perfis de folha de horas](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+
+
+### Atualizações de interface para as listas de Status
+
+**Versão de visualização: 2 de outubro de 2025; Versão de produção: 9 de outubro de 2025**
+
+Atualizamos a aparência das listas de Status para corresponder ao design em outras áreas do aplicativo.
+
+Essa atualização afeta:
+
+* A área Status, em Configuração > Preferências do Projeto
+* Os status são ao visualizar um grupo
 
 ### Atualizações de interface para a área Gravidades na Configuração
 
-**Versão de visualização: 25 de setembro de 2025; Versão de produção: 2 de outubro de 2025**
+**Versão de visualização: 25 de setembro de 2025; Versão de produção: 9 de outubro de 2025**
 
 Atualizamos a página Gravidades com um design mais moderno que é consistente com outras áreas do Workfront.
 
@@ -48,7 +68,7 @@ Para obter mais informações, consulte [Criar ou personalizar severidades de pr
 
 ### Atualizações de interface para a área Prioridades em Configuração
 
-**Versão de visualização: 25 de setembro de 2025; Versão de produção: 2 de outubro de 2025**
+**Versão de visualização: 25 de setembro de 2025; Versão de produção: 9 de outubro de 2025**
 
 Atualizamos a página Prioridades com um design mais moderno e consistente com outras áreas do Workfront.
 
@@ -208,6 +228,38 @@ Para obter informações, consulte [Editar programas](/help/quicksilver/manage-w
 
 ## Projetos
 
+### Atualizações de interface para taxas de cobrança
+
+**Versão de visualização: 2 de outubro de 2025; Versão de produção: iniciando a semana de 9 de outubro de 2025**
+
+Atualizamos a aparência da página Taxas de cobrança em um projeto para corresponder a outras áreas do aplicativo. As caixas de diálogo para adicionar e editar taxas de cobrança também foram atualizadas.
+
+Para visualizar esta alteração, vá para um projeto > Taxas de cobrança.
+
+Para obter informações, consulte [Substituir taxas de cobrança de função de trabalho no nível do projeto](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
+### Atualizações de interface para uma lista de projetos ou relatório ao aplicar a visualização de Marco
+
+**Versão de visualização: 2 de outubro de 2025; Versão de produção: iniciando a semana de 9 de outubro de 2025**
+
+Atualizamos a aparência de uma lista ou relatório de projeto ao aplicar a exibição de Marco a eles.
+
+A lista de projetos ou o relatório agora corresponde ao design de outras áreas do Workfront. Para obter informações, consulte [Usar a exibição de Marco](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+
+<!--### Interface updates for the Edit Tasks box
+
+**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+
+ We have updated the look and feel of the Edit Tasks box when editing tasks in bulk. The Edit Tasks box now matches the design of a single-task Edit box.   
+
+The following changes are included in this update: 
+
+*There is a new experience for assigning resources to tasks, when editing a single task and when editing tasks in bulk.  
+
+*The Resource Scope field has been removed from the Edit task box.  
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
 ### Atualização da interface ao editar modelos em massa
 
 **Versão de visualização: 18 de setembro de 2025; Versão de produção: 25 de setembro de 2025**
@@ -215,14 +267,6 @@ Para obter informações, consulte [Editar programas](/help/quicksilver/manage-w
 Atualizamos a aparência da caixa Editar modelos ao editar modelos em massa de uma lista de modelos. A organização das informações na caixa Editar modelos agora corresponde à caixa de edição de modelo único.
 
 Para obter informações, consulte [Editar modelos de projeto](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
-
-<!--### Interface updates for a project list or report when applying the Milestone view
-
-**Preview release: September 11, 2025; Production release: September 18, 2025**
-
-We have updated the look and feel of a project list or report when you apply the Milestone view to them.
-
-The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### Alterações de interface para Converter uma tarefa em um projeto sem um modelo
 
@@ -427,16 +471,15 @@ Para obter mais informações, consulte
 * [Criar Regras de Roteamento](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 
-
 ## Usuários
 
-<!--### Interface updates for the User Details page
+### Atualizações de interface para a página Detalhes do usuário
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**Versão de visualização: 2 de outubro de 2025; Versão de produção: 9 de outubro de 2025**
 
-We have updated the look and feel of the User Details page to match other areas of the application.
+Atualizamos a aparência da página Detalhes do usuário para corresponder a outras áreas do aplicativo.
 
-You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+Você pode visualizar o design atualizado acessando Usuários, selecionando um usuário e clicando em Detalhes no painel esquerdo.
 
 ### Atualizações de interface para folga pessoal
 
@@ -791,7 +834,7 @@ Para obter informações, consulte [Criar um relatório personalizado](/help/qui
 
 ### URLs com /tile ou /qstile não são mais suportados nos Painéis do Workfront
 
-**Versão de visualização: 13 de maio; Versão de produção: a ser anunciada**
+**Versão de visualização: 13 de maio; Versão de produção: a partir de 20 de maio de 2025**
 
 Se você tiver uma página externa em um Painel com uma URL do Workfront que contenha `/tile` ou `/qstile`, essa página não será mais carregada.
 
