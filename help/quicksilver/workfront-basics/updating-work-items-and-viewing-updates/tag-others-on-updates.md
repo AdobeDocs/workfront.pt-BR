@@ -6,9 +6,9 @@ description: Ao fornecer comentários de atualização em um objeto do Adobe Wor
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Em vez de incluir esses usuários no objeto atribuindo-os a ele ou fazendo com q
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -122,8 +122,7 @@ Também é possível remover usuários que foram marcados por engano ao editar o
 
    >[!NOTE]
    >
-   >* Essa opção é exibida somente quando o usuário está associado a uma Empresa.
-   >* Os usuários marcados fora da empresa ainda podem receber uma notificação no aplicativo ou um email, mesmo que não vejam os comentários privados na guia Atualizações. Recomendamos não marcar usuários externos em uma atualização se você não quiser compartilhar as informações com eles.
+   >Os usuários marcados fora da empresa ainda podem receber uma notificação no aplicativo ou um email, mesmo que não vejam os comentários privados na guia Atualizações. Recomendamos não marcar usuários externos em uma atualização se você não quiser compartilhar as informações com eles.
 
 1. (Opcional) Para adicionar vários usuários e equipes, repita a etapa 2. <!--insure this stays accurate-->
 
@@ -142,7 +141,7 @@ Também é possível remover usuários que foram marcados por engano ao editar o
 
    Para obter informações sobre a funcionalidade adicional disponível ao atualizar um item de trabalho, consulte [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Opcional) Clique no menu ![](assets/more-menu.png) de **Mais**, no canto superior direito do comentário, e clique em **Editar**. Remova qualquer um dos usuários marcados e clique em **Enviar**.
+1. (Opcional) Clique no menu **de** Mais![](assets/more-menu.png), no canto superior direito do comentário, e clique em **Editar**. Remova qualquer um dos usuários marcados e clique em **Enviar**.
 
    >[!IMPORTANT]
    >

@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Editar tarefas em uma lista
-description: É possível editar as informações da tarefa em uma lista de tarefas editando os campos exibidos na lista.
+description: É possível editar as informações da tarefa em uma lista de tarefas editando os campos exibidos na lista. Você deve definir o Modo de plano em uma lista de tarefas para indicar como deseja que as alterações sejam salvas no Workfront. Você pode salvar as alterações manual ou automaticamente.
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2822'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ 
 
 ## Considerações sobre a edição de tarefas em uma lista {#considerations-about-editing-tasks-in-a-list}
 
@@ -84,15 +84,20 @@ Leve em consideração o seguinte ao editar tarefas em uma lista:
      >
      >Por padrão, o Workfront salva automaticamente suas alterações em tarefas na seção Subtarefas ou em um relatório de tarefas.
 
-* Você pode controlar quando o Workfront salva as alterações feitas nas tarefas em uma lista. Suas alterações podem ser salvas automaticamente ou manualmente.
+* Você pode controlar quando o Workfront salva as alterações feitas nas tarefas em uma lista definindo o Modo de Plano antes de começar a editar as tarefas.
 
-  Para obter informações sobre como configurar quando o Workfront salva as alterações feitas nas tarefas de uma lista, consulte a seção [Selecionar uma opção de salvamento ao editar tarefas em uma lista](#select-a-save-option-when-editing-tasks-in-a-list) neste artigo.
+  Você pode decidir entre salvar as alterações no Workfront da seguinte maneira:
+
+      * Automaticamente, após cada alteração
+     * manualmente, somente após clicar em Salvar.
+  
+  Para obter informações sobre como configurar quando o Workfront salva as alterações feitas nas tarefas de uma lista, consulte a seção [Modificar Modo de Plano antes de editar tarefas em uma lista](#modify-plan-mode-before-editing-tasks-in-a-list) neste artigo.
 
 * Outros usuários devem atualizar suas páginas antes de visualizarem as atualizações feitas em uma tarefa.
 
-## Selecione uma opção para salvar ao editar tarefas em uma lista {#select-a-save-option-when-editing-tasks-in-a-list}
+## Modificar o modo de plano antes de editar tarefas em uma lista
 
-Você pode decidir se as alterações feitas nas tarefas de uma lista são salvas automaticamente à medida que ocorrem ou se deseja salvar manualmente cada alteração.
+Você pode decidir se as alterações feitas nas tarefas de uma lista são salvas automaticamente à medida que ocorrem ou se deseja salvar manualmente cada alteração. Para fazer isso, você deve modificar o Modo de plano em uma lista de tarefas antes de editar as tarefas.
 
 >[!IMPORTANT]
 >
@@ -100,17 +105,17 @@ Você pode decidir se as alterações feitas nas tarefas de uma lista são salva
 
 Quando você salva as alterações em uma lista de um projeto que tem Automático ou Automático e Ao alterar selecionado como o Tipo de atualização, o Workfront atualiza a linha do tempo do projeto, juntamente com todas as dependências no projeto e entre projetos. Os cálculos de linha de tempo podem levar muito tempo se o projeto for grande ou se houver muitas dependências. Alguns métodos de edição de uma lista de tarefas podem ser mais rápidos que outros, dependendo do método selecionado para salvar as alterações.
 
-Você pode controlar quando o Workfront salva as alterações feitas nas tarefas em uma lista. Existem os seguintes cenários: 
+Você pode controlar quando o Workfront salva as alterações feitas nas tarefas em uma lista. Existem os seguintes cenários:
 
 * Você pode fazer com que o Workfront salve as alterações automaticamente após cada atualização.
 
-  Para obter informações, consulte a seção [Editar tarefas em uma lista e salvar automaticamente as alterações](#edit-tasks-in-a-list-and-automatically-save-changes) neste artigo.
+  Para obter informações, consulte a seção [Definir o Modo de Plano para salvar automaticamente as alterações](#set-the-plan-mode-to-automatically-save-changes) neste artigo.
 
 * É possível ter controle sobre quando você aplica várias alterações de uma vez usando manualmente um botão Salvar.
 
-  Para obter informações, consulte a seção [Editar tarefas em uma lista e salvar manualmente as alterações](#edit-tasks-in-a-list-and-manually-save-changes) neste artigo.
+  Para obter informações, consulte a seção [Definir o Modo de Plano para salvar manualmente as alterações](#set-the-plan-mode-to-manually-save-changes) neste artigo.
 
-### Editar tarefas em uma lista e salvar as alterações automaticamente {#edit-tasks-in-a-list-and-automatically-save-changes}
+### Defina o Modo de plano para salvar as alterações automaticamente
 
 >[!TIP]
 >
@@ -129,7 +134,7 @@ Para editar tarefas em uma lista e salvar alterações automaticamente:
 1. Na página **Projetos**, selecione um projeto.
 1. No painel esquerdo, clique na seção **Tarefas**.
 
-1. Clique no ícone **Modo de plano** ![Ícone do modo de plano](assets/plan-mode-icon.png) na parte superior da lista e verifique se a opção **Salvamento automático** está selecionada.
+1. Clique no ícone **Modo de Plano** ícone ![Modo de Plano](assets/plan-mode-icon.png) na parte superior da lista e verifique se a opção **Salvamento automático** está selecionada.
 
    ![Habilitar a configuração de salvamento automático](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
@@ -141,7 +146,7 @@ Para editar tarefas em uma lista e salvar alterações automaticamente:
 
    Ou
 
-   Clique no menu ![](assets/more-icon-task-list.png) **Mais** à direita do nome da tarefa.
+   Clique no menu **** Mais![](assets/more-icon-task-list.png) à direita do nome da tarefa.
 
 1. (Opcional) Selecione entre as seguintes opções:
 
@@ -192,7 +197,7 @@ Para editar tarefas em uma lista e salvar alterações automaticamente:
     </tbody> 
    </table>
 
-### Editar tarefas em uma lista e salvar as alterações manualmente {#edit-tasks-in-a-list-and-manually-save-changes}
+### Defina o Modo de plano para salvar as alterações manualmente {#edit-tasks-in-a-list-and-manually-save-changes}
 
 Você pode salvar manualmente as alterações feitas nas tarefas de uma lista. Ao salvar as alterações dessa maneira, você tem a flexibilidade de revertê-las antes de salvar.
 
@@ -239,7 +244,7 @@ Para editar tarefas em uma lista ao selecionar a opção Salvar manualmente padr
 
 1. No painel esquerdo, clique na seção **Tarefas**.
 
-1. Clique no ícone **Modo de plano** ![Ícone do modo de plano](assets/plan-mode-icon.png) na parte superior da lista.
+1. Clique no ícone **Modo de Plano** ícone ![Modo de Plano](assets/plan-mode-icon.png) na parte superior da lista.
 
 1. Na caixa de diálogo **Modo do Plano**, selecione **Salvar manualmente** e clique em **Padrão**.
 
@@ -261,7 +266,7 @@ Para editar tarefas em uma lista ao selecionar a opção Salvar manualmente padr
 
    Ou
 
-   Clique no menu ![](assets/more-icon-task-list.png) **Mais**.
+   Clique no menu **** Mais![](assets/more-icon-task-list.png).
 
 1. (Opcional) Selecione entre as seguintes opções:
 
@@ -327,7 +332,7 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
 
 1. No painel esquerdo, clique na seção **Tarefas**.
 
-1. Clique no ícone **Modo de plano** ![Ícone do modo de plano](assets/plan-mode-icon.png) na parte superior da lista.
+1. Clique no ícone **Modo de Plano** ícone ![Modo de Plano](assets/plan-mode-icon.png) na parte superior da lista.
 
 1. Na caixa de diálogo **Modo do Plano**, selecione **Salvar manualmente** e clique em **Planejamento de Linha do Tempo**.
 
@@ -369,7 +374,7 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
 
    Ou
 
-   Clique no menu ![](assets/more-icon-task-list.png) **Mais**.
+   Clique no menu **** Mais![](assets/more-icon-task-list.png).
 
 1. Selecione entre as seguintes opções:
 
@@ -459,7 +464,7 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
 1. Na página **Projetos**, selecione um projeto.
 1. No painel esquerdo, clique na seção **Tarefas**.
 
-1. Clique no ícone **Modo de plano** ![Ícone do modo de plano](assets/plan-mode-icon.png) na parte superior da lista e verifique se a opção **Salvamento automático** está selecionada.
+1. Clique no ícone **Modo de Plano** ícone ![Modo de Plano](assets/plan-mode-icon.png) na parte superior da lista e verifique se a opção **Salvamento automático** está selecionada.
 
    ![Habilitar a configuração de salvamento automático](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 

@@ -7,9 +7,9 @@ description: O Adobe Workfront permite enviar mensagens rápidas e fáceis que n
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: d16495a0686ae5e54d16b108c69645f8666b46bd
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,11 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. (Opcional) Selecione **[!UICONTROL Particular para minha empresa]** para tornar esta mensagem visível somente para outros usuários em sua empresa.
 
-1. Clique em **[!UICONTROL Atualizar].**
+   >[!TIP]
+   >
+   >A configuração [!UICONTROL **Privado para minha empresa**] só está disponível quando seu perfil do Workfront está associado a uma empresa.
+
+1. Clique **[!UICONTROL Atualizar].**
 A mensagem está postada na parte superior da lista de mensagens na guia **[!UICONTROL Atualizações]** da página de perfil do usuário.
 
 ## Enviar uma mensagem para um ou mais usuários a partir da lista Usuário
@@ -89,5 +93,9 @@ Essa opção só estará disponível se você tiver uma licença Standard, Plan 
 
 1. (Opcional) Clique em **Marcar pessoas** para marcar outros usuários na mensagem. Para obter mais informações, consulte [Marcar outros em atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Opcional) Selecione **[!UICONTROL Particular para minha empresa]** para tornar esta mensagem visível somente para outros usuários em sua empresa.
+
+   >[!TIP]
+   >
+   >A configuração [!UICONTROL **Privado para minha empresa**] só está disponível quando seu perfil do Workfront está associado a uma empresa.
 1. Clique em [!UICONTROL **Enviar**].
 A mensagem é postada no topo da lista de mensagens na guia **[!UICONTROL Atualizações]** em cada página de perfil de usuário marcada.

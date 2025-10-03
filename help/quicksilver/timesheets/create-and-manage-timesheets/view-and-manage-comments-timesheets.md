@@ -6,9 +6,9 @@ description: Você pode fazer comentários nas folhas de horas, nos itens de tra
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Você pode exibir atualizações de uma folha de horas ou de entradas de horas i
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -96,6 +96,10 @@ Você pode fazer comentários gerais sobre a planilha de horas. Comentar na folh
 1. Comece a adicionar novos comentários ou responder aos existentes, conforme descrito em [Atualizar trabalho](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Adicione pessoas ou equipes no campo **Marque pessoas ou equipes** para incluir outras pessoas em sua atualização. Para obter mais informações, consulte [Marcar outros em atualizações](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Opcional) Selecione a opção **Particular para minha empresa** se quiser que apenas as pessoas da sua empresa vejam a atualização.
+
+   >[!TIP]
+   >
+   >A configuração **Privado para minha empresa** só está disponível quando seu perfil do Workfront está associado a uma empresa.
 1. Digite seu comentário e clique em **Enviar**.
 
    Seu comentário é exibido na seção [!UICONTROL Atualizações] da folha de horas, na guia Comentários.

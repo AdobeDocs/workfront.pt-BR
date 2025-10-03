@@ -6,9 +6,9 @@ description: Você pode editar modelos de projeto para refletir as alterações 
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '5655'
+source-wordcount: '5674'
 ht-degree: 2%
 
 ---
@@ -640,6 +640,10 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 
    ![Editar seção de comentário da caixa de modelo](assets/edit-template-box-comment-section.png)
 1. Adicione um comentário sobre a atualização que você está fazendo, marque usuários adicionais ou selecione a caixa **Privado para minha empresa** para manter a atualização privada para os usuários de sua empresa e clique em **Salvar**.
+
+   >[!TIP]
+   >
+   >A configuração **Privado para minha empresa** só está disponível quando seu perfil do Workfront está associado a uma empresa.
 
 ## Editar modelos em massa
 
