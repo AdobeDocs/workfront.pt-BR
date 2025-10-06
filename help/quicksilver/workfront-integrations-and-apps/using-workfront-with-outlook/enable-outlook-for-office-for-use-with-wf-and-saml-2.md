@@ -6,9 +6,9 @@ description: Se o seu sistema  [!DNL Adobe Workfront]  estiver integrado ao SAML
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 72ffceb3-50f0-486e-92b5-0bea4c9a99c8
-source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
+source-git-commit: 3f779985292a2f89eb3a0ffad9378bd55f31d130
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,3 @@ ht-degree: 0%
 >
 >**Como o Microsoft desabilitou esses tokens, a integração do Workfront para Microsoft Outlook não funciona mais.**
 
-Se o sistema [!DNL Adobe Workfront] estiver integrado ao SAML 2.0, você deverá habilitar a autenticação SAML 2.0 para suplementos [!DNL Office] para que os usuários possam autenticar usando suas credenciais do SAML 2.0.
-
-Se tiver problemas ao fazer logon no [!DNL Workfront] com SAML, contate o administrador do [!DNL Workfront] para garantir que o SAML esteja configurado corretamente.
-
-Para obter informações sobre como habilitar suplementos do Office para autenticação usando uma solução SAML 2.0, consulte a seção no artigo [Configurar o Adobe Workfront com SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).

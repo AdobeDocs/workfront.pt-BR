@@ -6,9 +6,9 @@ description: Se você receber um erro do outlookIdentityToken ao usar o Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4a911760-e3fe-4e77-b7aa-b08f9ea59d6a
-source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
+source-git-commit: 3f779985292a2f89eb3a0ffad9378bd55f31d130
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,3 @@ ht-degree: 0%
 >
 >**Como o Microsoft desabilitou esses tokens, a integração do Workfront para Microsoft Outlook não funciona mais.**
 
-Ao usar o Workfront para Outlook, você pode ver o seguinte erro:
-
-```
-Unexpected error
-Unable to get the outlookIdentityToken
-```
-
-Para resolver esse erro, você deve ativar os tokens herdados do Microsoft 365 para para sua organização. Como isso deve ser feito no Microsoft 365, a Workfront não pode habilitar esses tokens para sua organização.
-
-Para obter instruções sobre como habilitar tokens herdados do Microsoft 365, consulte [Ativar ou desativar tokens herdados do Exchange Online](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/turn-exchange-tokens-on-off) na documentação do Microsoft.
-
-Para obter mais informações sobre tokens herdados, consulte [Posso ativar novamente os tokens herdados do Exchange Online?](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens#can-i-turn-exchange-online-legacy-tokens-back-on) na documentação do Microsoft.
