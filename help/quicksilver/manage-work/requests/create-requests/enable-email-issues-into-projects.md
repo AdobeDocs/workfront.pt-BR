@@ -79,7 +79,7 @@ As seguintes condições são necessárias para configurar um projeto e permitir
 >* O Workfront permite um email exclusivo por fila de solicitações em todos os clusters. Se optar por desativar a fila de solicitações, você manterá o endereço de email criado, desde que ele ainda esteja na caixa Endereço de email de entrada. Se optar por descontinuar o uso do email de entrada, você deverá excluí-lo do Campo Email de entrada para que ele possa estar disponível para uso futuro.
 >
 >* Se a fila de solicitações tiver vários tópicos da fila ou grupos de tópicos, o Workfront selecionará aleatoriamente o tópico da fila para o qual as solicitações enviadas por email serão direcionadas, tornando as solicitações enviadas por email difíceis de gerenciar.
->  >Recomendamos que o projeto configurado para receber solicitações por emails não tenha mais de um tópico de fila. Se as solicitações enviadas se destinam a recursos ou projetos diferentes, você deve direcioná-las ou movê-las manualmente após o envio.
+>  &#x200B;>Recomendamos que o projeto configurado para receber solicitações por emails não tenha mais de um tópico de fila. Se as solicitações enviadas se destinam a recursos ou projetos diferentes, você deve direcioná-las ou movê-las manualmente após o envio.
 
 1. Vá para o projeto que você deseja habilitar para receber problemas por email.
 1. Clique em **Detalhes da fila** no painel esquerdo.
