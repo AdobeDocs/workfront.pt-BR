@@ -6,7 +6,7 @@ description: Você pode fazer comentários nas folhas de horas, nos itens de tra
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: ea0ae13abe9373bef7a1d146ca1951c8c383f994
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 0%
@@ -100,6 +100,7 @@ Você pode fazer comentários gerais sobre a planilha de horas. Comentar na folh
    >[!TIP]
    >
    >A configuração **Privado para minha empresa** só está disponível quando seu perfil do Workfront está associado a uma empresa.
+
 1. Digite seu comentário e clique em **Enviar**.
 
    Seu comentário é exibido na seção [!UICONTROL Atualizações] da folha de horas, na guia Comentários.
