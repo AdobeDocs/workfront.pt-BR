@@ -6,10 +6,10 @@ description: Você pode exibir detalhes sobre a versão do suplemento do Adobe W
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f2200d71-c81e-4b15-b631-07e08562609b
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 0%
+source-wordcount: '254'
+ht-degree: 2%
 
 ---
 
@@ -17,11 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[O Microsoft está desabilitando o suporte para tokens herdados do Exchange online](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que são usados atualmente pelo suplemento do Workfront Outlook para autenticação. Essa alteração pela Microsoft já começou a afetar os clientes e continuará a ser implementada em fases até outubro de 2025.
+>[O Microsoft desabilitou o suporte para tokens herdados do Exchange online](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que foram usados pelo suplemento do Workfront Outlook para autenticação. Essa alteração pelo Microsoft foi implementada em fases e está concluída a partir de 1 de outubro de 2025.
 >
->* **Depois que o Microsoft desabilitar totalmente esses tokens, a integração do Workfront para Microsoft Outlook não funcionará mais.**
->
->Como parte dessa alteração, a Microsoft tomou a decisão de alterar a maneira como os tokens são reativados. Após **30 de junho de 2025**, os administradores não poderão mais reabilitar tokens, somente o Suporte da Microsoft poderá conceder exceções. **Em 1º de outubro de 2025, os tokens herdados serão desativados para todos os locatários. Exceções não serão concedidas.**
+>**Como o Microsoft desabilitou esses tokens, a integração do Workfront para Microsoft Outlook não funciona mais.**
 
 Você pode exibir detalhes sobre a versão do suplemento [!DNL Adobe Workfront] para [!DNL Outlook], navegar diretamente para a versão da Web, enviar comentários ou sair.
 

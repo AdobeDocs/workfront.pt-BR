@@ -6,22 +6,22 @@ description: Se o seu sistema  [!DNL Adobe Workfront]  estiver integrado ao SAML
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 72ffceb3-50f0-486e-92b5-0bea4c9a99c8
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
 
 # Habilitar [!DNL Outlook for Office] para uso com [!DNL Adobe Workfront] e SAML 2.0
 
+
+
 >[!IMPORTANT]
 >
->[O Microsoft está desabilitando o suporte para tokens herdados do Exchange online](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que são usados atualmente pelo suplemento do Workfront Outlook para autenticação. Essa alteração pela Microsoft já começou a afetar os clientes e continuará a ser implementada em fases até outubro de 2025.
+>[O Microsoft desabilitou o suporte para tokens herdados do Exchange online](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens), que foram usados pelo suplemento do Workfront Outlook para autenticação. Essa alteração pelo Microsoft foi implementada em fases e está concluída a partir de 1 de outubro de 2025.
 >
->* **Depois que o Microsoft desabilitar totalmente esses tokens, a integração do Workfront para Microsoft Outlook não funcionará mais.**
->
->Como parte dessa alteração, a Microsoft tomou a decisão de alterar a maneira como os tokens são reativados. Após **30 de junho de 2025**, os administradores não poderão mais reabilitar tokens, somente o Suporte da Microsoft poderá conceder exceções. **Em 1º de outubro de 2025, os tokens herdados serão desativados para todos os locatários. Exceções não serão concedidas.**
+>**Como o Microsoft desabilitou esses tokens, a integração do Workfront para Microsoft Outlook não funciona mais.**
 
 Se o sistema [!DNL Adobe Workfront] estiver integrado ao SAML 2.0, você deverá habilitar a autenticação SAML 2.0 para suplementos [!DNL Office] para que os usuários possam autenticar usando suas credenciais do SAML 2.0.
 
