@@ -6,9 +6,9 @@ description: Você pode configurar um projeto para permitir que os usuários adi
 author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: bca543ad2ee8ead26cfa662900eb513af36f743c
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ As seguintes condições são necessárias para configurar um projeto e permitir
 >* O Workfront permite um email exclusivo por fila de solicitações em todos os clusters. Se optar por desativar a fila de solicitações, você manterá o endereço de email criado, desde que ele ainda esteja na caixa Endereço de email de entrada. Se optar por descontinuar o uso do email de entrada, você deverá excluí-lo do Campo Email de entrada para que ele possa estar disponível para uso futuro.
 >
 >* Se a fila de solicitações tiver vários tópicos da fila ou grupos de tópicos, o Workfront selecionará aleatoriamente o tópico da fila para o qual as solicitações enviadas por email serão direcionadas, tornando as solicitações enviadas por email difíceis de gerenciar.
->  &#x200B;>Recomendamos que o projeto configurado para receber solicitações por emails não tenha mais de um tópico de fila. Se as solicitações enviadas se destinam a recursos ou projetos diferentes, você deve direcioná-las ou movê-las manualmente após o envio.
+>  >Recomendamos que o projeto configurado para receber solicitações por emails não tenha mais de um tópico de fila. Se as solicitações enviadas se destinam a recursos ou projetos diferentes, você deve direcioná-las ou movê-las manualmente após o envio.
 
 1. Vá para o projeto que você deseja habilitar para receber problemas por email.
 1. Clique em **Detalhes da fila** no painel esquerdo.
@@ -119,6 +119,11 @@ Quando um usuário do Workfront envia um email para o Workfront, as seguintes co
 * A linha Assunto do email se torna o Nome da ocorrência.
 * O corpo do email se torna a Descrição do problema.
 * Se houver documentos anexados ao email, eles serão anexados ao problema no Workfront.
+
+  >[!NOTE]
+  >
+  > Arquivos MSG não são suportados e não serão anexados ao problema no Workfront.
+
 * O usuário que está enviando o email se torna o contato principal do novo problema no Workfront.
 * O corpo do texto do email não pode exceder 4.000 caracteres.
 * Os anexos de email não podem exceder o total de 7 MB.
