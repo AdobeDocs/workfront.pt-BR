@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+source-git-commit: 2d7022eae32d3266966ef6f424b1cff176622f86
 workflow-type: tm+mt
 source-wordcount: '8402'
 ht-degree: 0%
@@ -240,7 +240,7 @@ Para obter informações, consulte [Substituir taxas de cobrança de função de
 
 ### Atualizações de interface para uma lista de projetos ou relatório ao aplicar a visualização de Marco
 
-**Versão de visualização: 2 de outubro de 2025; Versão de produção: iniciando a semana de 9 de outubro de 2025**
+**Versão de visualização: 2 de outubro de 2025; Versão de produção: iniciando a semana de 6 de outubro de 2025**
 
 Atualizamos a aparência de uma lista ou relatório de projeto ao aplicar a exibição de Marco a eles.
 
