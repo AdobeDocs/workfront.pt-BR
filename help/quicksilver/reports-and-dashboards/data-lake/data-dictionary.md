@@ -66,7 +66,7 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
 >[!NOTE]
 >
 >Novos campos podem ser adicionados às visualizações de objetos sem aviso prévio para suportar as necessidades de dados em evolução do aplicativo Workfront. Atenção ao uso de consultas &quot;SELECT&quot; em que o destinatário de dados downstream não esteja preparado para lidar com colunas adicionais à medida que são adicionadas.<br>
->>Se for necessário renomear ou remover uma coluna, informaremos com antecedência dessas alterações.
+>&#x200B;>Se for necessário renomear ou remover uma coluna, informaremos com antecedência dessas alterações.
 
 ### Nível de acesso
 
