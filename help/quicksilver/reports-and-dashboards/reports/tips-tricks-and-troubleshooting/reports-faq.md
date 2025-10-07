@@ -7,9 +7,9 @@ description: Perguntas frequentes sobre relatórios
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ A seguir, perguntas frequentes sobre relatórios.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -210,8 +210,7 @@ Para saber mais sobre o **Executar este Relatório com o campo Direitos de Acess
 
 Ao excluir um usuário, você ainda pode acessar todos os relatórios criados por ele. No entanto, todos os painéis que incluíram o relatório também são excluídos. Isso significa que não é mais possível acessar o seguinte:
 
-* Um painel que contenha o relatório
-* Uma seção personalizada que contém um painel do relatório
+* Um painel que contém o relatório, incluindo painéis no painel esquerdo de um objeto
 
 Para saber mais sobre as implicações da exclusão de um usuário, consulte [Excluir usuários](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 

@@ -3,12 +3,12 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Navegação à esquerda em [!DNL Adobe Workfront]
 description: O painel de navegação esquerdo do  [!DNL Workfront]  facilita a navegação pelo sistema.
-author: Courtney
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 297a8bc1a59fab42d96ec3479451c2f82f5c3dc1
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1375'
 ht-degree: 1%
 
 ---
@@ -74,8 +74,8 @@ O painel esquerdo está disponível para os seguintes objetos:
 
 >[!IMPORTANT]
 >
->Se o painel esquerdo exibir apenas uma seção por padrão, como **[!UICONTROL Todos os projetos]** na área **[!UICONTROL Projetos]**, um administrador do [!DNL Workfront] deverá adicionar pelo menos uma seção personalizada a esta área ao criar um modelo de layout e atribuir você a esse modelo antes que o painel esquerdo seja exibido nessa área.\
->Para obter informações sobre como um administrador do [!DNL Workfront] personaliza o painel esquerdo em um modelo de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Se o painel esquerdo exibir apenas uma seção por padrão, como **[!UICONTROL Todos os projetos]** na área **[!UICONTROL Projetos]**, um administrador do [!DNL Workfront] deverá adicionar pelo menos um painel a esta área ao criar um modelo de layout e atribuir você a esse modelo antes que o painel esquerdo seja exibido nessa área.
+>>Para obter informações sobre como um administrador do [!DNL Workfront] personaliza o painel esquerdo em um modelo de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 O painel esquerdo está disponível para as seguintes áreas:
 
@@ -163,8 +163,8 @@ As seções a seguir são exibidas no painel esquerdo da área **[!UICONTROL Pro
         <td>Exibe todos os projetos que você tem acesso para visualizar. Use o menu suspenso [!UICONTROL Filtro] para alterar os projetos que deseja exibir</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Seções personalizadas]</strong></td>
-        <td>Você pode exibir todas as seções personalizadas que o administrador do [!DNL Workfront] adicionou ao painel esquerdo para a área [!UICONTROL Projetos] no Modelo de Layout. As seções personalizadas têm nomes que foram personalizados para o seu ambiente.</td>
+        <td><strong>[!UICONTROL Painéis]</strong></td>
+        <td>Você pode exibir todos os painéis adicionados pelo administrador do [!DNL Workfront] ao painel esquerdo para a área [!UICONTROL Projetos] no Modelo de layout. Esses painéis têm nomes que foram personalizados para o seu ambiente.</td>
     </tr>
 </table>
 
@@ -239,14 +239,16 @@ Encontrar e editar informações no painel esquerdo é semelhante para esses obj
 
 Para saber quais seções estão disponíveis para áreas específicas, consulte [[!UICONTROL Seções padrão] no painel de navegação esquerdo](#default-sections-in-the-left-navigation-panel).
 
-1. Clique no ícone **[!UICONTROL do]** Menu principal![](assets/main-menu-icon-16x12.png) e clique no nome de um objeto para acessá-lo.
+{{step1-click-main-menu}}
+
+1. Clique no nome de um objeto para acessá-lo.
 
    A página do objeto é exibida.
 
 1. (Condicional) Se você selecionou uma área que contém uma lista de objetos, como **[!UICONTROL Projetos]** ou **[!UICONTROL Portfólios]**, você deve fazer o seguinte para acessar a navegação no painel esquerdo:
 
    1. Clique em um objeto na lista.
-   1. (Opcional) Na navegação do painel esquerdo, você pode selecionar outro objeto no painel esquerdo, como **[!UICONTROL Tarefas]** ou **[!UICONTROL Problemas]** em um projeto, para acessar uma lista de objetos e clicar no nome do objeto específico.\
+   1. (Opcional) Na navegação do painel esquerdo, você pode selecionar outro objeto (como **[!UICONTROL Tarefas]** ou **[!UICONTROL Problemas]** dentro de um projeto) no painel esquerdo para acessar uma lista de objetos e, em seguida, clicar no nome do objeto específico.
 
       A página do objeto é exibida.
 
@@ -254,9 +256,9 @@ Para saber quais seções estão disponíveis para áreas específicas, consulte
 
    Você deve ter permissões para editar o objeto antes de poder editar as informações.
 
-   ![Seções do painel esquerdo](assets/NWE-left-navigation-panel.png)
+   ![Seções do painel esquerdo](assets/left-navigation-panel.png)
 
-1. (Opcional) Para adicionar um link rápido do painel, clique em **[!UICONTROL Adicionar painel]** na parte inferior do painel esquerdo e, em seguida, faça o seguinte:
+1. (Opcional) Para adicionar um link rápido do painel, clique em **[!UICONTROL Adicionar um painel]** na parte inferior do painel esquerdo e, em seguida, faça o seguinte:
 
    1. Digite um nome para o painel no campo **[!UICONTROL Nome do link rápido]**.
    1. Comece digitando o nome de um painel existente no campo **[!UICONTROL Escolha um painel]** e clique no painel quando ele for exibido na lista.
@@ -267,9 +269,9 @@ Para saber quais seções estão disponíveis para áreas específicas, consulte
 
 1. (Opcional) Para remover um link rápido do painel, passe o mouse sobre o painel na navegação à esquerda e clique no ícone **Remover** ![Ícone Remover](assets/remove-dashboard-from-left.png) quando ele aparecer.
 
-1. (Opcional) Para alterar a ordem de uma seção no painel esquerdo, clique no ícone **[!UICONTROL de]** Arrastar![](assets/drag-icon.png) à direita de uma seção e arraste-a para cima ou para baixo.
+1. (Opcional) Para alterar a ordem de uma seção no painel esquerdo, clique no ícone **** Arrastar![](assets/drag-icon.png) ao lado de uma seção e arraste-a para cima ou para baixo.
 
-   ![Arraste uma seção](assets/drag-section-right.png)
+   ![Arraste uma seção](assets/drag-section.png)
 
 1. (Opcional) Para fechar o painel esquerdo, clique no ícone **[!UICONTROL de]** Recolher![](assets/left-panel-collapse-icon.png).
 

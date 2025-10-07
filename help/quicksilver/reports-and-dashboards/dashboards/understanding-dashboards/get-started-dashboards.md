@@ -7,9 +7,9 @@ description: O objetivo de um painel é fornecer acesso rápido às informaçõe
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Você deve ter o seguinte:
   <tr> 
    <td> <p><strong>Licença do Adobe Workfront</strong></p> </td> 
       <td> 
-      <p>Novo:</p>
+      <p>Novo menu:</p>
          <ul>
          <li><p>Colaborador ou superior</p></li>
          </ul>
@@ -86,8 +86,8 @@ Você pode compartilhar um painel com os usuários das seguintes maneiras:
 * Compartilhamento individual.\
   Para obter mais informações sobre como compartilhar painéis, consulte [Compartilhar relatórios, painéis e calendários](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) e [Compartilhar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
-* Adicione um painel a qualquer área ou objeto no Workfront com uma seção personalizada.\
-  Para obter mais informações sobre como criar seções personalizadas, consulte [Navegação à esquerda na Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Adicione um painel a qualquer área ou objeto no Workfront no painel esquerdo.\
+  Para obter mais informações sobre como adicionar painéis ao painel esquerdo, consulte [Navegação à esquerda na Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Coloque os painéis em modelos de layout, que você pode compartilhar com os usuários.\
   Para obter mais informações sobre como compartilhar painéis por meio de modelos de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
@@ -95,8 +95,8 @@ Você pode compartilhar um painel com os usuários das seguintes maneiras:
 * Imprima uma cópia impressa deles para compartilhar com os usuários.\
   Para obter mais informações sobre como imprimir painéis, consulte [Imprimir um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
-* Exporte-os como um arquivo PDF para que você possa enviá-los por email aos usuários.\
-  Para obter mais informações sobre como exportar um painel para um arquivo PDF, consulte [Exportar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+* Exporte-os como um arquivo do PDF para que você possa enviá-los por email aos usuários.\
+  Para obter mais informações sobre como exportar um painel para um arquivo do PDF, consulte [Exportar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 Quando você compartilha um painel com usuários, todos os relatórios, calendários e páginas externas que estão no painel também são compartilhados com os mesmos usuários por padrão.
 
@@ -108,8 +108,8 @@ Quando você compartilha um painel com usuários, todos os relatórios, calendá
 
 Você pode exibir um painel das seguintes maneiras:
 
-* Acesse a seção personalizada onde o painel é colocado.\
-  Para obter mais informações sobre como colocar painéis em seções personalizadas, consulte [Navegação à esquerda no Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Acesse o painel pelo painel esquerdo de um objeto.
+Para obter mais informações sobre como colocar painéis no painel esquerdo, consulte [Navegação à esquerda no Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Procure e acesse manualmente o painel.
 

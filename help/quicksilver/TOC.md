@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: f5b9f7eac2dd5bdc1f9634777b91737a8cc7fc53
+source-git-commit: 30b99255a2178f972f9a9f3f7eda5f2929a24978
 workflow-type: tm+mt
-source-wordcount: '13436'
+source-wordcount: '13446'
 ht-degree: 2%
 
 ---
@@ -842,7 +842,7 @@ ht-degree: 2%
       * [Visão geral da navegação estrutural](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
       * [Visão geral dos cabeçalhos de objeto](workfront-basics/the-new-workfront-experience/new-object-headers.md)
       * [Fixar páginas para personalizar o espaço de trabalho](workfront-basics/the-new-workfront-experience/pin-pages.md)
-      * [Criar seções personalizadas](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+      * [Adicionar um painel no painel esquerdo de um objeto ou área do Workfront](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
       * [Acessar a ajuda do Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
       * [Visão geral de [!DNL Adobe Workfront] objetos](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [Entender a navegação de um usuário de licença de trabalho](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)

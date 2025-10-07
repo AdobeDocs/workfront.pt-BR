@@ -6,7 +6,7 @@ description: Você pode compartilhar o Balanceador de carga de trabalho com outr
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 1%
@@ -130,10 +130,10 @@ Você precisa do seguinte acesso para visualizar informações no Balanceador de
 1. Siga um destes procedimentos para compartilhar o link com outras pessoas:
 
    * Cole-o em um email, mensagem de chat ou qualquer outro aplicativo e compartilhe-o com outros usuários.
-   * Adicione-o a uma seção personalizada como uma página externa, adicione a seção personalizada ao perfil de um usuário ou a um Modelo de layout e, em seguida, compartilhe o Modelo de layout com usuários, equipes, funções de trabalho ou grupos.
+   * Adicione-o a um painel como uma página externa, adicione o painel ao perfil de um usuário ou a um modelo de layout e, em seguida, compartilhe o modelo de layout com usuários, equipes, funções de trabalho ou grupos.
 
-     Para obter informações sobre como criar uma Página Externa, consulte [Incorporar uma página da Web externa em um painel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Para obter informações sobre como adicionar seções personalizadas a um Modelo de Layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Para obter informações sobre como criar uma página externa, consulte [Incorporar uma página da Web externa em um painel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Para obter informações sobre como adicionar painéis a um modelo de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >
-     >Quando você adiciona o Balanceador de carga de trabalho à seção personalizada de um objeto, as informações no Balanceador de carga de trabalho não são filtradas pelo objeto. O Balanceador de carga de trabalho exibe as informações filtradas pelos filtros aplicados originalmente.
+     >Ao adicionar o Balanceador de carga de trabalho como um painel ao painel esquerdo de um objeto, as informações no Balanceador de carga de trabalho não são filtradas pelo objeto. O Balanceador de carga de trabalho exibe as informações filtradas pelos filtros aplicados originalmente.

@@ -7,9 +7,9 @@ description: O Balanceador de carga de trabalho está disponível para vários p
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Você pode usar o Balanceador de carga de trabalho para agendar recursos para tr
 Você pode acessar o Balanceador de carga de trabalho das seguintes maneiras:
 
 * De várias áreas predefinidas pelo Adobe Workfront
-* Ao adicioná-lo a uma seção personalizada
+* Ao adicioná-lo ao painel esquerdo como um painel
 
 Este artigo descreve as áreas em que você pode acessar o Balanceador de carga de trabalho.
 
@@ -162,11 +162,11 @@ Todas as configurações de exibição estão disponíveis para o Balanceador de
 
 </div>
 
-## Adicionar o Balanceador de carga de trabalho a uma seção personalizada
+## Adicionar o Balanceador de carga de trabalho ao painel esquerdo como um painel
 
-Você pode adicionar o Balanceador de carga de trabalho a qualquer seção personalizada.
+Você pode adicionar o Balanceador de carga de trabalho como um painel ao painel esquerdo de objetos que permitem personalização.
 
-A maioria das personalizações já aplicadas ao Balanceador de carga de trabalho é preservada ao adicioná-lo a uma seção personalizada.
+A maioria das personalizações já aplicadas ao Balanceador de carga de trabalho é preservada ao adicioná-lo ao painel esquerdo.
 
 1. Acesse o Balanceador de carga de trabalho indo para qualquer uma das seguintes áreas:
 
@@ -181,15 +181,15 @@ A maioria das personalizações já aplicadas ao Balanceador de carga de trabalh
       (NOTE: ensure this stays correct)
       -->
 
-1. Crie uma seção personalizada conforme descrito em [Criar guias ou seções personalizadas](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) para colocar o painel na guia personalizada.
+1. Adicione um painel ao painel de navegação esquerdo de um objeto, conforme descrito em [Adicione um painel no painel esquerdo de um objeto ou área do Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) para colocar o painel na guia personalizada.
 
-   Ao acessar o Balanceador de carga de trabalho na seção personalizada, você pode visualizá-lo como se o estivesse acessando diretamente de uma de suas áreas originais listadas na Etapa 1.
+   Ao acessar o Balanceador de carga de trabalho pelo painel, você pode visualizá-lo como se o estivesse acessando diretamente de uma de suas áreas originais listadas na Etapa 1.
 
    <!--
       (NOTE: ensure this stays correct)
      -->
 
-1. (Opcional) Compartilhe a guia personalizada em um Modelo de layout conforme descrito em [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+1. (Opcional) Compartilhe o painel em um Modelo de layout conforme descrito em [Personalize o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 
 <!--

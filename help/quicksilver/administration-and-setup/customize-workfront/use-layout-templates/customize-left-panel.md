@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Em um modelo de layout, você pode personalizar o que os usuários veem na área do painel esquerdo no [!DNL Adobe Workfront].
 
-Por exemplo, você pode determinar qual dos seguintes itens os usuários veem no painel esquerdo ao visualizar uma tarefa:
+Por exemplo, você pode determinar quais dos seguintes itens os usuários veem no painel esquerdo ao visualizar um projeto:
 
-![Painel esquerdo da identidade visual](assets/left-panel-adobe-branding.png)
+![Painel esquerdo de um projeto](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >
@@ -136,7 +136,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
      </tr> 
      <tr> 
       <td>[!UICONTROL Projetos]</td> 
-      <td>Projetos <img src="assets/projects-in-main-menu.png"> no menu principal  <img src="assets/main-menu-icon.png"></td> 
+      <td>Projetos <img src="assets/projects-in-main-menu.png"> no menu principal [!UICONTROL] <img src="assets/main-menu-icon.png"></td> 
       <td>[!UICONTROL Projetos]</td> 
      </tr> 
      <tr> 
@@ -147,7 +147,7 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
      <tr> 
       <td>[!UICONTROL Painéis]</td> 
       <td>O nome de um painel</td> 
-      <td>[!UICONTROL Meus Painéis], [!UICONTROL Painéis Compartilhados], [!UICONTROL Todos os Painéis]<p><b>OBSERVAÇÃO</b>: se você criou guias personalizadas para a área [!UICONTROL Reports] usando um modelo de layout em [!DNL Adobe Workfront Classic], elas serão exibidas na parte inferior da lista. Para usuários, eles são exibidos na parte inferior do painel esquerdo na área [!UICONTROL Dashboards].</p> </td> 
+      <td>[!UICONTROL Meus Painéis], [!UICONTROL Painéis Compartilhados], [!UICONTROL Todos os Painéis]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Equipe de Scrum]</td> 
@@ -227,13 +227,15 @@ Para executá-las para um grupo, você deve ser um gerente desse grupo.</p> </td
    >* [Brand Adobe [!DNL Workfront] usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (Opcional) Se quiser adicionar um item do painel esquerdo que se vincule a um dos painéis da sua organização, clique em **[!UICONTROL Adicionar seção personalizada]**, digite um **[!UICONTROL Título da seção personalizada]** para o item e, em seguida, adicione o painel.
+1. (Opcional) Se você deseja adicionar um item do painel esquerdo que se vincula a um dos painéis da sua organização, clique em **[!UICONTROL Adicionar painel]**, digite o **[!UICONTROL Nome rápido do link]** para o item e escolha o painel.
 
-   Os itens do painel são exibidos na parte inferior do painel esquerdo. Os usuários veem o título da seção Personalizada que você digita ao lado do item do painel quando passam o mouse sobre ele no painel esquerdo.
+   Você deve criar o painel antes que ele apareça na lista.
+
+   Os itens do painel são exibidos na parte inferior do painel esquerdo.
 
    >[!NOTE]
    >
-   >Os usuários podem adicionar itens personalizados do painel a seu próprio painel esquerdo. Ao adicionar itens personalizados do painel em um modelo de layout, seus itens são exibidos além daqueles que adicionam, sem substituí-los ou redefini-los. Isso também é verdadeiro se você atribuir usuários a um novo modelo de layout com itens de painel personalizados. Para obter informações sobre como os usuários podem personalizar o painel esquerdo, consulte [Criar guias ou seções personalizadas](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >Os usuários podem adicionar itens personalizados do painel a seu próprio painel esquerdo. Ao adicionar itens personalizados do painel em um modelo de layout, seus itens são exibidos além daqueles que adicionam, sem substituí-los ou redefini-los. Isso também é verdadeiro se você atribuir usuários a um novo modelo de layout com itens de painel personalizados. Para obter informações sobre como os usuários podem personalizar o painel esquerdo, consulte [Adicionar um painel no painel esquerdo de um objeto ou área do Workfront](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
    >
    >Para obter informações sobre painéis, consulte [Painéis](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
