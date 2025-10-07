@@ -6,9 +6,9 @@ description: O suplemento do Adobe Workfront para Outlook 365 foi disponibilizad
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 exl-id: abd5a4a2-0be5-46d7-bb66-47138c838063
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,6 @@ O suplemento do Adobe Workfront para Outlook 365 foi disponibilizado em 16 de ma
 
 O Suplemento permite que você acesse a funcionalidade do Workfront diretamente do Outlook 365 na Web, bem como ao usar as versões para desktop do Windows e do Mac do Outlook incluídas na assinatura do Office 365.
 
-Para obter mais informações sobre o Suplemento do Workfront para Outlook 365, consulte [Configurar o Adobe Workfront para Outlook](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
+>[!NOTE]
+>
+>Este suplemento não está mais disponível.

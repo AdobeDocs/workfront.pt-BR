@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 70f6200fc94bc923c651d614dfd0aba68ceda334
+source-git-commit: f5b9f7eac2dd5bdc1f9634777b91737a8cc7fc53
 workflow-type: tm+mt
-source-wordcount: '13526'
+source-wordcount: '13436'
 ht-degree: 2%
 
 ---
@@ -2219,16 +2219,6 @@ ht-degree: 2%
       * [Atualizar um item do Adobe Workfront do G Suite usando conteúdo de email](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Adobe Workfront para Outlook {#workfront-for-outlook}
       * [Adobe Workfront para Outlook: índice do artigo](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
-      * [Configurar o Adobe Workfront para Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-      * [Níveis de permissões para o Workfront para Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
-      * [Responder a um comentário do Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)
-      * [Atualizar um objeto existente a partir de um email do Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)
-      * [Adicionar um email do Outlook a um projeto como uma tarefa ou um problema](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)
-      * [Criar uma solicitação Adobe Workfront a partir de um email do Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)
-      * [Adicionar um email do Outlook como uma tarefa à sua lista de trabalho](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
-      * [Exibir informações adicionais sobre o Adobe Workfront para Outlook e fazer logoff](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
-      * [Habilitar o Outlook para Office para uso com Adobe Workfront e SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
-      * [Solução de problemas: erro do outlookIdentityToken ao usar o Workfront para Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
    * Adobe Workfront para Microsoft Teams {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]: índice do artigo](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Visão geral do Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)

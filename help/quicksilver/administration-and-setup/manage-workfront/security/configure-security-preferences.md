@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 6b93a6d7830d644520c38aa6010cd7df18c5a667
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '818'
 ht-degree: 4%
 
 ---
@@ -99,7 +99,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader">Permitir que as pessoas usem os aplicativos móveis da Workfront e o suplemento para o Workfront Outlook</td> 
-      <td> <p>Permite que os usuários acessem os aplicativos móveis (Workfront View para iPad e aplicativos de celular) e o aplicativo Workfront Outlook.</p> <p>Essa opção está ativada por padrão. </p> <p>Para obter informações sobre o Modo de Exibição Workfront, consulte <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Usar o Modo de Exibição Adobe Workfront</a>. Para obter mais informações sobre os aplicativos móveis, consulte <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Usar o aplicativo móvel do Adobe Workfront: índice do artigo</a>.</p> <p>Para obter mais informações sobre o plug-in do Outlook, consulte <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Configurar Adobe Workfront para Outlook</a>.</p> </td> 
+      <td> <p>Permite que os usuários acessem os aplicativos móveis (Workfront View para iPad e aplicativos de celular) e o aplicativo Workfront Outlook.</p> <p>Essa opção está ativada por padrão. </p> <p>Para obter informações sobre o Modo de Exibição Workfront, consulte <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Usar o Modo de Exibição Adobe Workfront</a>. Para obter mais informações sobre os aplicativos móveis, consulte <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Usar o aplicativo móvel do Adobe Workfront: índice do artigo</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Colaborar com pessoas sem contas do Workfront usando endereços de email</p> </td> 
@@ -140,7 +140,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td><span class="preview">Permite que você opte por ativar a capacidade de preencher formulários de solicitação automaticamente com base em dados de solicitação anteriores. Para obter mais informações sobre o Preenchimento Automático de Formulário, consulte <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Preencher automaticamente uma solicitação a partir de dados anteriores</a>.</span></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Aceitar o AI Betas </span></td> 
+      <td role="rowheader"><span class="preview">Aceitar versões beta da IA </span></td> 
       <td><span class="preview">Permite optar por ativar os recursos de IA que estão atualmente no Beta. Se você habilitar essa opção, poderá selecionar quais recursos do AI Beta devem ser habilitados. Para obter mais informações sobre cada recurso do AI Beta, clique no ícone de informações ao lado desse recurso.</span></td> 
      </tr>
      <tr> 

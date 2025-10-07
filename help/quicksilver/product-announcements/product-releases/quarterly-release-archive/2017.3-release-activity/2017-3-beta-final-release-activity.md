@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '3821'
+source-wordcount: '3791'
 ht-degree: 0%
 
 ---
@@ -267,22 +267,22 @@ Essa é a função padrão à qual os usuários são atribuídos em uma prova qu
 
 ## Aprimoramentos de provas no Workfront Proof e no Workfront {#proofing-enhancements-within-both-workfront-proof-and-workfront}
 
-* [Reiniciar e ignorar o visualizador de prova de vídeo do HTML5 (Atalhos de Teclado)](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
-* [Atualizações do visualizador de provas HTML5](#html5-proofing-viewer-updates)
+* [Reiniciar e Ignorar no visualizador do HTML5 Video revisor (Atalhos de Teclado)](#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts)
+* [Atualizações do visualizador de provas do HTML5](#html5-proofing-viewer-updates)
 
 ### Reiniciar e ignorar no visualizador de prova de vídeo do HTML5 (atalhos de teclado) {#restart-and-skip-in-html5-video-proofing-viewer-keyboard-shortcuts}
 
-Agora, há atalhos de teclado no HTML5 revisor para vídeo que permitem reiniciar o vídeo do início e pular para o final do vídeo.
+Agora, há atalhos de teclado no HTML5 revisores para vídeo que permitem reiniciar o vídeo do início e pular para o final do vídeo.
 
 Para obter mais informações sobre os atalhos de teclado disponíveis, consulte [Atalhos de teclado no visualizador de provas do Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md).
 
-### Atualizações do visualizador de provas HTML5 {#html5-proofing-viewer-updates}
+### Atualizações do visualizador de provas do HTML5 {#html5-proofing-viewer-updates}
 
-O visualizador HTML5 agora é compatível com provas estáticas.
+O visualizador do HTML5 agora oferece suporte a provas estáticas.
 
-Antes dessa alteração, o visualizador do HTML5 era compatível apenas com provas de vídeo. 
+Antes dessa alteração, o visualizador do HTML5 era compatível apenas com provas em vídeo. 
 
-O visualizador de HTML inclui a seguinte nova funcionalidade ao revisar conteúdo estático:
+O visualizador do HTML inclui a seguinte nova funcionalidade ao revisar conteúdo estático:
 
 * Fazer um único comentário com marcações em várias páginas em uma única exibição
 
@@ -297,7 +297,7 @@ O visualizador de HTML inclui a seguinte nova funcionalidade ao revisar conteúd
 * Especificar valores personalizados na ferramenta Medição
 * Ao anotar texto em uma prova no visualizador de provas do Workfront Proof, você pode incluir opções para indicar que o texto deve estar em negrito, itálico e sublinhado.
 
-O visualizador de HTML5 ainda não suporta todas as funcionalidades atualmente disponíveis no visualizador de Flashes existente. A seguinte funcionalidade não está disponível no momento, mas será incluída em uma versão futura:
+O visualizador do HTML5 ainda não suporta todas as funcionalidades atualmente disponíveis no visualizador do Flash existente. A seguinte funcionalidade não está disponível no momento, mas será incluída em uma versão futura:
 
 * Suporte a arquivos de mídia avançada
 * Modo de comparação (vídeo e estático)
@@ -307,9 +307,9 @@ O visualizador de HTML5 ainda não suporta todas as funcionalidades atualmente d
 * Indicador de presença que mostra os usuários que estão trabalhando na prova
 * Compartilhar provas
 
-Para obter mais informações sobre provas estáticas de revisão no visualizador de HTML5, consulte .
+Para obter mais informações sobre provas estáticas de revisão no visualizador do HTML5, consulte .
 
-Como administrador do Workfront no Workfront Proof, você pode determinar se os usuários em sua organização têm acesso ao novo visualizador de provas de HTML 5 para provas em vídeo.
+Como administrador do Workfront no Workfront Proof, você pode determinar se os usuários em sua organização têm acesso ao novo visualizador de provas do HTML5 para provas em vídeo.
 
 ## Novo redesign do gráfico de Gantt {#new-gantt-chart-redesign}
 
@@ -431,9 +431,9 @@ Adicionamos a capacidade de acessar e gerenciar seus projetos por meio do aplica
 
 >[!NOTE]
 >
->A integração de Slack não está disponível no momento. Ele estará disponível para uso com seu ambiente de produção em novembro de 2017.
+>A integração do Slack não está disponível no momento. Ele estará disponível para uso com seu ambiente de produção em novembro de 2017.
 
-Estamos lançando uma nova integração entre o Workfront e o Slack. Se a sua organização já estiver usando o Slack para a comunicação, agora é possível integrá-lo ao Workfront e executar ações comuns do Workfront sem deixar os canais de comunicação no Slack. Agora você pode executar as seguintes ações a partir da sua conta Slack:
+Estamos lançando uma nova integração entre o Workfront e o Slack. Se sua organização já estiver usando o Slack para sua comunicação, agora é possível integrá-lo ao Workfront e executar ações comuns do Workfront sem sair dos canais de comunicação no Slack. Agora você pode executar as seguintes ações na sua conta da Slack:
 
 * Pesquisar um item no Workfront
 * Acessar suas listas de trabalho e aprovações
@@ -452,8 +452,6 @@ Fizemos as seguintes melhorias no complemento Workfront para o  Outlook 365:
 
 * Adicionar uma tarefa ou um problema a um projeto no Workfront: agora é possível converter um email em uma tarefa ou um problema no Workfront, usando o suplemento do Outlook 365. Nesse processo, você pode especificar um projeto ao qual deseja que a tarefa ou o problema seja adicionado, bem como um destinatário e uma data de vencimento. Antes desse aprimoramento, você só poderia enviar uma solicitação para uma fila de solicitações ou adicionar uma tarefa pessoal à sua lista de Trabalho no Outlook 365. 
 * Preservar um link para objetos do Workfront no email original convertido em tarefas, problemas ou solicitações: Quando você converte um email do Outlook 365 em uma tarefa, um problema ou uma solicitação, o Outlook 365 preserva um link para a tarefa ou problema que foi convertido desse email dentro do email original. Antes dessa alteração, não havia nenhuma indicação no Outlook se um email havia sido convertido em uma tarefa ou enviado como uma solicitação. 
-
-  Para obter mais informações sobre como converter um email em uma tarefa ou um problema do Outlook 365, consulte [Adicionar um email do Outlook a um projeto como uma tarefa ou um problema](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
 
 ## Alterações na API {#api-changes}
 
