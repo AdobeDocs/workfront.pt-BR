@@ -7,16 +7,16 @@ description: O Adobe [!DNL Workfront]  fez parceria com algumas plataformas de G
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 0b76f99627b154b216fc4ed6fb36e6a07805126e
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 0%
+source-wordcount: '120'
+ht-degree: 3%
 
 ---
 
 # [!DNL Adobe Workfront] para [!DNL Mobile Device Management] (MDM)
 
-O Adobe [!DNL Workfront] fez uma parceria com algumas plataformas [!DNL Mobile Device Management] (MDM) para fornecer às organizações uma experiência móvel mais segura e controlada. O aplicativo móvel [!DNL Workfront] está disponível nas seguintes plataformas de gerenciamento de dispositivos móveis:
+O Adobe [!DNL Workfront] fez parceria com algumas plataformas [!DNL Mobile Device Management] (MDM) para fornecer às organizações uma experiência móvel mais segura e controlada. O aplicativo móvel [!DNL Workfront] está disponível nas seguintes plataformas de gerenciamento de dispositivos móveis:
 
 ## MobileIron
 
@@ -27,17 +27,11 @@ Consulte a documentação de ajuda de [!DNL MobileIron] para instalar o aplicati
 
 Para obter informações sobre como configurar o [!DNL Workfront] para [!DNL MobileIron], consulte [Configurar [!DNL Adobe Workfront] para [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Blackberry Dynamics</h2>
--->
+## Intune
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">See Blackberry Dynamics' help documentation to install the Workfront mobile app from their platform:</p>
--->
+O aplicativo móvel Workfront agora está disponível na loja de aplicativos [!DNL Microsoft Intune]. O administrador do Workfront pode atribuir o aplicativo ao seu dispositivo por meio do Intune.
 
-<!--
-<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li>iOS</li>
-<li>Android</li>
-</ul>
--->
+* iOS
+* Android
+
+Sua instância do Workfront deve estar no Adobe Identity Management System (IMS).
