@@ -23,8 +23,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 >[!NOTE]
 >
 >Visualização: 2 de outubro de 2025
->>Versão rápida de produção: 15 de outubro de 2025
->>Produção para todos: 16 de outubro de 2025
+>&#x200B;>Versão rápida de produção: 15 de outubro de 2025
+>&#x200B;>Produção para todos: 16 de outubro de 2025
 
 Para facilitar a visualização das informações necessárias, adicionamos a capacidade de criar e salvar exibições na área Solicitações. Agora, você pode salvar uma visualização, incluindo filtros e configurações de coluna, e alternar entre visualizações. Um administrador do Workfront pode adicionar a nova visualização aos modelos de layout.
 
