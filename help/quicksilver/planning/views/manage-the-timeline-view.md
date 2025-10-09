@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '3962'
+source-wordcount: '3985'
 ht-degree: 2%
 
 ---
@@ -198,10 +198,19 @@ Para gerenciar uma exibição de linha do tempo:
 
      <span class="preview">Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).</span>
 
+   <!--Andrea verifying>[!TIP]
+    >
+    ><span class="preview">Double-clicking to create records in the timeline is not possible inside of a grouping.</span>-->
+
    * <span class="preview">Clique na margem esquerda ou direita de uma barra de registros e arraste-a e solte-a em uma nova posição. O redimensionamento das barras de registros atualiza as datas de início ou término imediatamente. </span>
 
    * <span class="preview">Arraste e solte registros para atualizar sua posição e datas na linha do tempo. Mover as barras dos registros atualiza as datas de início e término imediatamente.</span>
      <span class="preview">Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).</span>
+
+   >[!TIP]
+   >
+   ><span class="preview"> Redimensionar e arrastar e soltar registros não é possível na linha do tempo para os tipos de objeto do Workfront e do AEM Assets exibidos no detalhamento.</span>
+
 
 1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
    * [Filtros](#add-filters)

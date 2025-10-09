@@ -1,25 +1,38 @@
 ---
 navigation-topic: betas
 title: Programas do Beta
-description: Saiba mais sobre as versões beta atuais do Adobe Workfront.
+description: Saiba mais sobre os novos recursos do Adobe Workfront que estão disponíveis atualmente para todos ou um número limitado de clientes em uma versão beta.
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 0%
+source-wordcount: '112'
+ht-degree: 1%
 
 ---
 
 # Programas do Beta
 
-Os artigos vinculados desta página descrevem os programas beta atuais disponíveis no Adobe Workfront. Os recursos disponíveis na versão beta podem não estar disponíveis para todos os clientes.
+Os artigos vinculados desta página descrevem os programas beta atuais disponíveis no Adobe Workfront.
 
-Os artigos a seguir contêm informações sobre recursos que estão atualmente na versão beta:
+Os programas do Beta que estão sendo executados em uma versão limitada e são gerenciados de forma privada podem não estar listados nesta página.
 
-* [Informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+Os recursos disponíveis na versão beta podem não estar disponíveis para todos os clientes.
+
+Os seguintes recursos estão disponíveis atualmente na versão beta:
+
+* Painel de tela de desenho
+
+  Para obter informações, consulte [informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
+
+* Integridade do projeto
+
+  Para obter informações, consulte [Visão geral da Integridade do Projeto](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
+
+* O Revisor da IA do Workfront
+Para obter informações, consulte [Introdução ao Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 
 <!--

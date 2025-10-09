@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '820'
 ht-degree: 3%
 
 ---
@@ -27,13 +27,13 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Como administrador do Adobe Workfront, você pode criar caminhos de etapas que podem ser aplicados a qualquer projeto no sistema. As alterações feitas nos caminhos de marcos nessa área afetam todo o sistema do Workfront.
 
@@ -85,13 +85,9 @@ Para obter mais informações sobre como associar um caminho de etapas a um proj
 1. Clique em **Processos** > **Caminhos de Etapas**.
 1. Clique em **Novo Caminho de Etapas.**
 
-   <div class="preview">
-
    A caixa Novo Caminho de Etapas é aberta.
 
    ![Caixa Novo caminho de etapas](assets/new-milestone-path-box.png)
-
-   </div>
 
 1. Clique em **Informações básicas** no painel esquerdo.
 
@@ -118,8 +114,7 @@ Para obter mais informações sobre como associar um caminho de etapas a um proj
 
 1. Clique em **Etapas** no painel esquerdo.
 
-1. No ambiente de Produção, clique em **Adicionar marco** para adicionar marcos ao caminho.
-   <span class="preview">No ambiente de Visualização, clique em **Nova linha** para adicionar marcos ao caminho.</span>
+1. Clique em **Nova linha** para adicionar marcos ao caminho.
 1. Atualize as seguintes informações:
 
    <table style="table-layout:auto"> 
