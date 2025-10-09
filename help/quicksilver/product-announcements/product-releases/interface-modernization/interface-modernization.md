@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2d7022eae32d3266966ef6f424b1cff176622f86
+source-git-commit: d7f91e17294981c2c31681ca7f4732f9a79d4c61
 workflow-type: tm+mt
-source-wordcount: '8402'
+source-wordcount: '8483'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ Esta página lista as atualizações de interface que estamos fazendo no Adobe W
 Para todas as outras alterações no Adobe Workfront, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administração e configuração
+
+### Atualizações de interface na caixa de diálogo Importar usuários em Empresas
+
+**Versão de visualização: 9 de outubro de 2025; Versão de produção para todos os clientes: iniciando a semana de 16 de outubro de 2025**
+
+Atualizamos a caixa de diálogo para importar novos usuários em uma empresa por meio de um arquivo de planilha, para corresponder a outras áreas do aplicativo.
+
+Para exibir essa alteração, vá para Configuração > Empresas > selecione uma empresa > Membros da Empresa > Adicionar membro > Importar usuários.
 
 ### Nova interface e funcionalidade para as caixas Novo e Editar caminho de etapas
 
@@ -56,7 +64,7 @@ Essa atualização afeta:
 
 ### Atualizações de interface para a área Gravidades na Configuração
 
-**Versão de visualização: 25 de setembro de 2025; Versão de produção: 9 de outubro de 2025**
+**Versão de visualização: 25 de setembro de 2025; Versão de produção: a ser anunciada**
 
 Atualizamos a página Gravidades com um design mais moderno que é consistente com outras áreas do Workfront.
 
@@ -68,7 +76,7 @@ Para obter mais informações, consulte [Criar ou personalizar severidades de pr
 
 ### Atualizações de interface para a área Prioridades em Configuração
 
-**Versão de visualização: 25 de setembro de 2025; Versão de produção: 9 de outubro de 2025**
+**Versão de visualização: 25 de setembro de 2025; Versão de produção: a ser anunciada**
 
 Atualizamos a página Prioridades com um design mais moderno e consistente com outras áreas do Workfront.
 
@@ -484,6 +492,11 @@ Você pode visualizar o design atualizado acessando Usuários, selecionando um u
 ### Atualizações de interface para folga pessoal
 
 **Versão de visualização: 25 de setembro de 2025; Versão de produção: 2 de outubro de 2025**
+
+>[!NOTE]
+>
+>Esse recurso foi removido temporariamente dos ambientes de Pré-visualização e Produção em 9 de outubro de 2025.
+
 
 Atualizamos a aparência do calendário de folga pessoal, incluindo a capacidade de delegar aprovações, para corresponder a outras áreas do aplicativo.
 
