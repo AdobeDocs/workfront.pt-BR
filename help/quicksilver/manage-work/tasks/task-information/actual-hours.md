@@ -7,9 +7,9 @@ description: As horas em que você faz logon nos itens de trabalho no Adobe Work
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d577fb1f84c2a91c7b4a37be271235ffa338c9fd
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -75,11 +75,14 @@ Dependendo da área do Workfront em que você acessa as horas reais, elas podem 
      >
      >O Custo Efetivo do projeto usa as Horas Efetivas herdadas para calcular.
 
+* Na área Detalhes do projeto, tarefa ou problema, horas reais podem ser exibidas nos seguintes campos:
 
-* Na área Detalhes do projeto, tarefa ou problema:
+   * **Horas efetivas**: na guia Detalhes, são horas registradas para projetos, tarefas ou problemas após maio de 2021. Eles são armazenados no banco de dados do Workfront em horas e seu campo de valor é `actualWorkRequiredDouble`.
+   * **Horas efetivas**: em um formulário personalizado de projeto, tarefa ou problema, quando são acessadas usando um campo personalizado de referência de campo nativo que faz referência ao campo nativo Horas efetivas. Estas horas são registradas para projetos, tarefas ou problemas após maio de 2021. Eles são armazenados no banco de dados do Workfront em horas e seu campo de valor é `actualWorkRequiredDouble`.
 
-   * **Horas efetivas**: horas registradas para projetos, tarefas ou problemas após maio de 2021. Eles são armazenados no banco de dados do Workfront em horas e seu campo de valor é `actualWorkRequiredDouble`.
-   * **Horas efetivas**: quando são acessadas usando um campo personalizado de referência de campo nativo em um formulário personalizado de projeto, tarefa ou problema.
+>[!NOTE]
+>
+>É recomendável usar o campo Horas efetivas sempre que possível, pois o campo Horas efetivas herdadas pode exibir horas imprecisas devido à forma como os incrementos são arredondados.
 
 ## Horas efetivas de tarefas e problemas versus Horas efetivas de projetos
 
