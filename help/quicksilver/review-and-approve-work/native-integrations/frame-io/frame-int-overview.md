@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: f8d81996846f7b719bf3e5e8aaa2ad9ba1805cff
+source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,14 @@ A integração do Workfront e do Frame.io permite que os coordenadores de projet
 
 ## Requisitos de integração
 
-Você deve ter a integração do Workfront e do Frame.io habilitada pelo Adobe Professional Services.
+* O Workfront e o Frame.io devem ser implantados na mesma organização do Identity Management System (IMS).
 
-<!--
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+* Os usuários podem pertencer a apenas uma instância do Workfront na organização IMS.
 
-* Users can belong to only one Workfront instance within the IMS organization.
+* A instância do Workfront deve ser ativada no armazenamento corporativo da Adobe Unified Experience e do Adobe.
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
+* A integração deve ser configurada pelo Adobe Professional Services.
 
-* The integration is configured by Adobe Professional Services. 
--->
 
 ## Baseado em armazenamento corporativo Adobe
 
@@ -39,7 +36,7 @@ No centro dessa integração está o armazenamento corporativo da Adobe — uma 
 Os principais benefícios do armazenamento corporativo da Adobe incluem:
 
 * Camada de armazenamento unificado para ativos criativos e de gerenciamento de trabalho
-* Permissões centralizadas via Adobe IMS para controle de acesso seguro
+* Permissões centralizadas via Adobe Identity Management system (IMS) para controle de acesso seguro
 * Visibilidade completa de ativos no Workfront e Frame.io <!--, and Creative Cloud apps -->
 * Gerenciamento dimensionável de armazenamento e cotas para as necessidades corporativas
 
@@ -80,7 +77,7 @@ Esse limite não se aplica a clientes do Frame.io Enterprise.
 
 #### Tipos de arquivo compatíveis no visualizador Frame.io
 
-O visualizador Frame.io suporta todos os tipos comuns de vídeo, imagem, áudio, PDF e MS® Office. Para obter uma lista detalhada dos arquivos suportados, consulte [Tipos no Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
+O visualizador Frame.io suporta todos os tipos comuns de vídeo, imagem, áudio, PDF e MS® Office. Para obter uma lista detalhada dos arquivos suportados, consulte [Tipos de arquivos suportados no Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io).
 
 #### Acesso e licenciamento para o visualizador Frame.io
 
@@ -98,11 +95,13 @@ Para obter mais informações sobre como gerenciar projetos no Workfront, consul
 
 ### Convenções de nomenclatura e estrutura impostas
 
-Como essa integração é criada usando o ESM, há algumas convenções de estrutura e nomenclatura aplicadas que devem ser consideradas ao gerenciar projetos e documentos.
+Como essa integração é criada usando o Adobe Enterprise Storage, há algumas convenções de estrutura e nomenclatura aplicadas que devem ser consideradas ao gerenciar projetos e documentos.
 
 * Os nomes dos objetos devem ser exclusivos e não podem ser duplicados
-* O ESM requer nomes exclusivos para objetos de mesmo nível com o mesmo pai na árvore hierárquica
+* O Adobe Enterprise Storage requer nomes exclusivos para objetos de mesmo nível com o mesmo pai na árvore hierárquica
 * Os documentos não podem ter o mesmo nome se pertencerem ao mesmo projeto
+* Os nomes de documento não podem conter nenhum dos seguintes caracteres especiais: \ / : * ? &quot; | &lt; >
+* Os nomes dos documentos são limitados a no máximo 255 caracteres
 
 Com essas limitações em mente, o Workfront renomeia automaticamente objetos ou documentos conforme necessário para evitar conflitos.
 
