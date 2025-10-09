@@ -6,9 +6,9 @@ description: O Início ajuda você a gerenciar seu trabalho. É possível person
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1106'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,7 @@ Abaixo estão os 11 widgets atualmente disponíveis para escolher, bem como um r
 * **Minhas solicitações**\
     Exibe todas as solicitações que você submeteu, um filtro para exibir somente solicitações abertas e um botão que abre o painel de resumo de uma solicitação.
 
-  <span class="preview">No ambiente de Visualização, este widget exibe todas as solicitações que você enviou, um filtro para exibir somente as solicitações que atendam aos critérios especificados por você e um botão que permita reorganizar as colunas no widget.</span>
+  <span class="preview">No ambiente de Visualização, este widget exibe todas as solicitações que você enviou, um filtro para exibir somente as solicitações que atendem aos critérios especificados por você e um botão que permite reorganizar as colunas no widget. Se você tiver acesso ao Workfront Planning, suas solicitações do Planning também aparecerão aqui.</span>
 
 
 * **Solicitações da equipe**\
