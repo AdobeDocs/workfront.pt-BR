@@ -6,16 +6,16 @@ description: Como gerente de projeto, você pode especificar a taxa de faturamen
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
+source-git-commit: 4b2bf1205951de13cb09d31f54f890a74bdf7d98
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
 
 # Substituir Taxas de Cobrança de Função de Trabalho no nível do projeto
 
-{{highlighted-preview}}
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox e está sendo lançado em uma implantação em fases para Produção.</span>
 
 Como gerente de projeto, você pode especificar a taxa de faturamento de uma função de trabalho em um projeto específico. Essa taxa de cobrança no nível do projeto substitui a taxa de cobrança no nível do sistema para essa função de trabalho. O Workfront usa a taxa de cobrança no nível do projeto da função de trabalho para calcular a receita, em vez de usar a taxa de cobrança no nível do sistema.
 
