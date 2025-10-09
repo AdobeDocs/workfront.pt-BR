@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 >[!NOTE]
 >
 >Visualização: 2 de outubro de 2025
->&#x200B;>Versão rápida de produção: 15 de outubro de 2025
->&#x200B;>Produção para todos: 16 de outubro de 2025
+>>Versão rápida de produção: 15 de outubro de 2025
+>>Produção para todos: 16 de outubro de 2025
 
 Para facilitar a visualização das informações necessárias, adicionamos a capacidade de criar e salvar exibições na área Solicitações. Agora, você pode salvar uma visualização, incluindo filtros e configurações de coluna, e alternar entre visualizações. Um administrador do Workfront pode adicionar a nova visualização aos modelos de layout.
 
@@ -71,7 +71,7 @@ Essa atualização também apresenta alterações na aparência da página.
 Ao usar a nova experiência de Solicitação, esteja ciente do seguinte:
 
 * Atualmente, só é possível encontrar rascunhos na experiência de solicitação herdada. Na nova experiência do, você poderá ver rascunhos somente quando estiver em uma fila de fluxo de trabalho, se tiver um rascunho no mesmo caminho.
-* A nova experiência atualmente mostra somente solicitações criadas nos últimos 1,5 mês. Para ver solicitações mais antigas, você pode desativar temporariamente a nova experiência e acessar as solicitações mais antigas por meio da experiência antiga.
+* Atualmente, a nova experiência do mostra somente solicitações criadas após julho de 2025. Para ver solicitações mais antigas, você pode desativar temporariamente a nova experiência e acessar as solicitações mais antigas por meio da experiência antiga.
 
 Anteriormente, as solicitações do Workfront e do Workfront Planning estavam em guias separadas e os filtros não eram personalizáveis.
 
