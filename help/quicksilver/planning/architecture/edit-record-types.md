@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. É pos
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -67,7 +67,7 @@ Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. É pos
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Padrão </p>
+   <td><p> Standard </p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -88,13 +88,13 @@ Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. É pos
 
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 ## Editar tipos de registro
 
 {{step1-to-planning}}
 
-1. Clique no espaço de trabalho cujos tipos de registro você deseja editar,
+1. Clique no espaço de trabalho cujos tipos de registro você deseja editar.
 
    A página do espaço de trabalho é aberta e os tipos de registro são exibidos.
 1. Siga um destes procedimentos:
@@ -127,7 +127,7 @@ Ou
          * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
 
 
-1. (Opcional e condicional) Se você for um administrador do sistema, clique em **Configurações avançadas** e atualize as seguintes informações na seção **Recurso entre espaços de trabalho**: <!--the info here is duplicated in the Create record types article-->
+1. (Opcional e condicional) Se você for um Administrador do Sistema, clique em **Configurações avançadas** e atualize as seguintes informações na seção **Recurso entre espaços de trabalho**: <!--take this info out and replace it with a link to this article: help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md-->
    * Habilitar a configuração **Permitir conexão com este tipo de registro em outros espaços de trabalho**: isso permite que os gerentes de espaço de trabalho se conectem a este tipo de registro a partir de outros espaços de trabalho.\
      Você pode designar de quais espaços de trabalho esse tipo de registro pode ser conectado. Você pode disponibilizá-lo para todos os espaços de trabalho ou designar outros específicos para que possa importá-lo.
 Para obter mais informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).

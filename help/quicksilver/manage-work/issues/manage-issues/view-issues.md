@@ -6,14 +6,16 @@ description: Você pode visualizar os problemas associados a um projeto, tarefa 
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
 # Exibir problemas
+
+<!--Audited: 10/2025-->
 
 Você pode visualizar os problemas associados a um projeto, tarefa ou iteração.
 
@@ -80,7 +82,7 @@ Para acessar uma ocorrência e exibir informações sobre ela:
 
    * Abrir
    * Concluídos
-   * Todos
+   * Todas
 
 1. Clique no nome de um problema.
 
@@ -138,11 +140,14 @@ Para acessar uma ocorrência e exibir informações sobre ela:
 
 ## Exibir quais projetos e tarefas têm problemas
 
-Você pode adicionar ícones no modo de exibição de um relatório ou lista de projetos ou tarefas para mostrar se eles têm problemas anexados. Adicionar ícones à exibição de um relatório ou lista é semelhante para projetos e tarefas.
+Você pode adicionar ícones no modo de exibição de um relatório ou lista de projetos ou tarefas para mostrar se eles têm problemas anexados.
+
+Adicionar ícones à exibição de um relatório ou lista é semelhante para projetos e tarefas.
 
 Para adicionar ícones que mostram se um projeto tem problemas em um relatório de projeto:
 
-1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
+{{step1-click-main-menu}}
+
 1. Clique em **Relatórios** > **Novo Relatório** > **Relatório de Projeto**.
 1. No campo **Mostrar nesta coluna**, comece digitando **Ícones de Status** e selecione-os quando ele aparecer na lista.
 
@@ -150,4 +155,4 @@ Para adicionar ícones que mostram se um projeto tem problemas em um relatório 
 
    Os ícones de problema são exibidos nos projetos que têm problemas na coluna **Ícones de Status**.
 
-   ![lista_de_projetos_com_ícone_de_problemas.png](assets/project-list-with-issue-icon-350x132.png)
+   ![Lista de projetos com ícone de problema](assets/project-list-with-issue-icon-350x132.png)
