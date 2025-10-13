@@ -6,9 +6,9 @@ description: Você pode criar, editar e atribuir perfis de planilha de horas que
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 611c3c947855610cf86cdcbf96d1e9d847e34f38
+source-git-commit: 395a7788ddfda71264b7b964953435affd7761e9
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1597'
 ht-degree: 2%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 2%
 # Criar, editar e atribuir perfis de folha de horas
 
 <!--Audited: 06/2025-->
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox e está sendo lançado em uma implantação em fases para Produção.</span>
 
 Você pode criar, editar e atribuir perfis de planilha de horas que geram planilhas de horas recorrentes para seus usuários sem nenhuma intervenção adicional sua. Isso economiza tempo e garante que os itens a seguir sejam consistentes entre os usuários:
 
@@ -151,13 +149,11 @@ Para obter mais informações sobre como criar uma folha de horas manualmente, c
 
    * **Notificações de lembrete**: adicione uma notificação de lembrete. O Workfront enviará lembretes aos usuários para que eles concluam ou aprovem suas folhas de horas. Você deve criar notificações de lembrete antes de associá-las a um perfil de planilha de horas.
 
-1. Ao criar perfis de folha de horas no nível do grupo em produção, clique na guia **Atribuir pessoas** para associar o perfil de folha de horas a usuários, grupos ou equipes específicos (se você for um administrador do Workfront). <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
-
-   <span class="preview">Ao criar perfis de folha de horas de nível de grupo na Visualização, role em direção à parte inferior da página e localize a seção **Atribuir Pessoas**.</span>
-
-   Ao criar perfis de folha de horas para o sistema, role em direção à parte inferior da página e localize a seção **Atribuir pessoas**.
+1. Para associar o perfil da folha de horas a usuários, grupos ou equipes específicos (se você for um administrador do Workfront), role em direção à parte inferior da página e localize a seção **Atribuir pessoas**.
 
    Comece a digitar o nome do usuário, grupo ou equipe e clique nele quando ele aparecer na lista suspensa.
+
+   <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
    Se você for um administrador de grupo, poderá atribuir o perfil da folha de horas aos grupos que administra, mas não às equipes. Para obter mais informações, consulte [Limitações para um administrador de grupo atribuir um perfil de folha de horas](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) neste artigo.
 
