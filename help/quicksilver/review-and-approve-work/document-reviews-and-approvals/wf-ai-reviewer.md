@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
+source-git-commit: 0e6b43d0d9ca416fdd67907457e3b0afec66db63
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '657'
 ht-degree: 4%
 
 ---
@@ -36,6 +36,10 @@ Qualquer usuário pode adicionar o Revisor de IA a uma solicitação de revisão
 * A Adobe deve ter um contrato de API Gen da Adobe assinado no arquivo.
 Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato da Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
+## Associar-se ao beta
+
+Para participar da versão beta, vá para **Configuração** > **Revisão e Aprovação** > **Revisores de IA** e clique em **Aceitar Termos**.
+
 
 ## Tipos de arquivo compatíveis {#supported-file-types-ai-reviewer}
 
@@ -55,7 +59,7 @@ Se você fizer upload de um tipo de arquivo não compatível, a opção Revisor 
 
 ## Configurar diretrizes da marca
 
-O Workfront AI Reviewer usa as diretrizes de marca configuradas no Genstudio Foundation ao revisar seu conteúdo. Atualmente, você só pode configurar diretrizes de marca para imagens. Para obter mais informações, consulte [Introdução ao Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started).
+O Workfront AI Reviewer usa as diretrizes de marca configuradas no Genstudio Foundation ao revisar seu conteúdo. Atualmente, você só pode configurar diretrizes de marca para imagens. Para obter mais informações, consulte [Introdução ao Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started).
 
 
 ## Criar revisores de IA
