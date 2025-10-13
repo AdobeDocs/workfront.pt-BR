@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 4a7362ae663b73ce48f049556145b4de3e6a6ac9
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 2%
@@ -18,6 +18,8 @@ ht-degree: 2%
 # Redefinir preferências de um usuário
 
 <!-- Audited: 12/2023 -->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Como administrador do Adobe Workfront, você pode redefinir ou remover as configurações de preferência do usuário para qualquer usuário no sistema do Workfront.
 
@@ -69,7 +71,7 @@ Ao redefinir as preferências do usuário, algumas preferências são revertidas
  </thead> 
  <tbody> 
   <tr> 
-   <td>Visualizações</td> 
+   <td>Exibições</td> 
    <td> <p> Revertido para o padrão do sistema</p> <p>As exibições existentes não são excluídas. Você pode selecioná-los novamente.</p> </td> 
   </tr> 
   <tr> 
@@ -103,6 +105,17 @@ Ao redefinir as preferências do usuário, algumas preferências são revertidas
  </tbody> 
 </table>
 
+<!-- Display this table and hide the HTML table above, when the unshim is released.
+| Preference | Status after the reset |
+| --- | --- |
+| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
+| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
+| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
+| Recent items list | Cleared |
+| Favorites list | Unaffected |
+| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
+-->
+
 ## Redefinir preferências do usuário
 
 {{step-1-to-setup}}
@@ -110,7 +123,7 @@ Ao redefinir as preferências do usuário, algumas preferências são revertidas
 1. Selecione **Fazer Logon Como**.
 1. Comece digitando o nome do usuário cujas preferências você deseja redefinir, em seguida, clique no nome quando ele aparecer na lista suspensa.
 1. Selecione **Fazer Logon**.
-1. Se sua organização não tiver sido integrada à Experiência unificada do Adobe, siga esta etapa:
+1. Se sua organização não tiver sido integrada à Experiência unificada da Adobe, siga esta etapa:
 
    * No campo URL na parte superior do navegador da Web, adicione `/resetUser` depois de `workfront.com`.
 
@@ -120,7 +133,7 @@ Ao redefinir as preferências do usuário, algumas preferências são revertidas
      >
      >`https://company_domain.my.workfront.com/resetUser`
 
-1. Se sua organização tiver sido integrada à Experiência unificada do Adobe, siga esta etapa:
+1. Se sua organização tiver sido integrada à Experiência unificada da Adobe, siga esta etapa:
 
    * No campo URL na parte superior do navegador da Web, adicione `/resetUser` depois de `workfront`.
 
@@ -133,6 +146,7 @@ Ao redefinir as preferências do usuário, algumas preferências são revertidas
 1. Pressione **Enter**.
 1. Para redefinir todas as preferências de usuário, selecione **Redefinir**.
 
-   Ou
+<!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
+Ou
 
-   Para redefinir apenas guias personalizadas, selecione **Redefinir Guias**.
+Para redefinir apenas guias personalizadas, selecione **Redefinir Guias**.
