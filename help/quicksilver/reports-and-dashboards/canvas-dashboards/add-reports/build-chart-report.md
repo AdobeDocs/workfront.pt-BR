@@ -123,7 +123,7 @@ Há muitas opções de configuração disponíveis para criar um relatório de g
 
 1. Siga as etapas abaixo para configurar a seção **Filtro**:
 
-   1. No painel esquerdo, clique no ícone **Filtro**![ Filtro](assets/filter-icon.png).
+   1. No painel esquerdo, clique no ícone **Filtro**![&#x200B; Filtro](assets/filter-icon.png).
    1. Selecione **Editar filtro**.
    1. Clique em **Adicionar condição** e especifique o campo pelo qual deseja filtrar e o modificador que define o tipo de condição que o campo deve atender.
    1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.

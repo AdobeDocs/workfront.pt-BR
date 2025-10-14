@@ -50,7 +50,7 @@ A integração do [!DNL Workfront Proof] com o [!DNL Basecamp] deve ser configur
 
 Você pode integrar [!DNL Workfront] com [!DNL Basecamp] ou [!DNL Basecamp Classic]. Cada versão do [!DNL Basecamp] usa uma API diferente e, portanto, requer procedimentos de configuração diferentes.
 
-Para obter informações sobre como configurar o [!DNL Basecamp Classic], consulte [Integração [!DNL Workfront Proof] com [!DNL Basecamp Classic].](https://support.workfront.com/knowledge/articles/115004234707/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004234707)
+Para obter informações sobre como configurar o [!DNL Basecamp Classic], consulte [Integração [!DNL Workfront Proof] com [!DNL Basecamp Classic].](https://support.workfront.com/knowledge/articles/115004234707/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004234707)
 
 ## Habilitando a Integração do [!DNL Basecamp] com o [!DNL Workfront Proof]
 

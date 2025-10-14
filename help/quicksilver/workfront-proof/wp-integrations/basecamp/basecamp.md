@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
-* [Adicionar uma prova a um projeto  [!DNL Basecamp] ](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
+* [Adicionar uma prova a um projeto  [!DNL Basecamp] &#x200B;](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
 * [Integrar [!DNL Workfront Proof] com [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
 * [Revisar uma Prova em  [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
 * [Compreender a [!DNL Basecamp] integração com [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)

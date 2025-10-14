@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Gerenciar trabalho com o plug-in [!DNL Adobe Workfront] para aplicativos [!DNL Creative Cloud]
 
-* [Encontrar seu trabalho usando o plug-in [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
-* [Exibir informações do item de trabalho usando o plug-in [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
-* [Atualize seu trabalho usando o plug-in [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
-* [Marcar itens de trabalho como concluídos usando o plug-in  [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
-* [Registrar tempo usando o plug-in [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+* [Encontrar seu trabalho usando o plug-in [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
+* [Exibir informações do item de trabalho usando o plug-in [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
+* [Atualize seu trabalho usando o plug-in [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
+* [Marcar itens de trabalho como concluídos usando o plug-in  [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
+* [Registrar tempo usando o plug-in [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
 * [Exibir e gerenciar [!DNL Adobe Workfront] notificações de [!DNL Adobe Creative Cloud]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)

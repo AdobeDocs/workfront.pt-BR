@@ -33,7 +33,7 @@ Se você for um administrador de Prova [!DNL Workfront] e tiver uma ou mais cont
 1. Selecione uma conta de destino na lista de contas conectadas (2).
 1. Atribua a permissão de perfil (3) que este usuário deve ter na nova conta.
 1. Selecione um usuário (4) que deve assumir a propriedade dos itens que não serão movidos.
-Isso inclui os itens que você decidirá deixar na conta antiga e os itens que não podem ser movidos (consulte [Itens que não podem ser movidos](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) abaixo).
+Isso inclui os itens que você decidirá deixar na conta antiga e os itens que não podem ser movidos (consulte [Itens que não podem ser movidos](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) abaixo).
 
 1. Marque as caixas de seleção se desejar mover as provas (5) e os arquivos (6) junto com o usuário.
 1. Crie um nome para a pasta (7) na qual todos os itens movidos serão colocados na nova conta.

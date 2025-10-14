@@ -158,8 +158,8 @@ Se um ativo foi carregado pela primeira vez para [!DNL Workfront] e enviado para
 
 Para garantir que seus usuários tenham acesso contínuo a documentos vinculados ao Workfront por meio da integração herdada do [!DNL SharePoint], você deve reconfigurar o acesso à integração herdada do [!DNL SharePoint] e manter o Segredo do Cliente do SharePoint atualizado.
 
-* [Reconfigurar o acesso à integração herdada  [!DNL SharePoint] ](#reconfigure-access-to-the-legacy-sharepoint-integration)
-* [Configure o Segredo do Cliente para obter acesso contínuo à integração herdada  [!DNL SharePoint] ](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
+* [Reconfigurar o acesso à integração herdada  [!DNL SharePoint] &#x200B;](#reconfigure-access-to-the-legacy-sharepoint-integration)
+* [Configure o Segredo do Cliente para obter acesso contínuo à integração herdada  [!DNL SharePoint] &#x200B;](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Reconfigurar o acesso à integração herdada [!DNL SharePoint]
 

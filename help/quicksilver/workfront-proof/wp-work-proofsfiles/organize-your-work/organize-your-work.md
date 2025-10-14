@@ -32,5 +32,5 @@ Esta seção contém os seguintes artigos:
 * [Compreender as Permissões de Pasta em  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md)
 * [Criar e Gerenciar Marcas em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)
 * [Arquivar em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
-* [Fazer Backup dos Dados [!DNL Workfront Proof] ](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
+* [Fazer Backup dos Dados [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
 * [Imprimir e Exportar Comentários em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)

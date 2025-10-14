@@ -893,7 +893,7 @@ GET /customAction
 
 Uma string JSON que indica sucesso ou falha, conforme especificado na seção Tratamento de erros abaixo. Na falha (ou seja, status = &quot;failure&quot;), o Workfront exibirá a mensagem de erro fornecida para o usuário.
 
-**Exemplo:** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**Exemplo:** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 resposta
 

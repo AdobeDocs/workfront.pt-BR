@@ -26,4 +26,4 @@ Esta seção contém os seguintes artigos:
 * [O Painel em  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
 * [Layout de Página na Guia Exibições em [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
 * [Pesquisando [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/search.md)
-* [Noções básicas sobre a trilha de auditoria de atividade  [!DNL Workfront Proof] ](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+* [Noções básicas sobre a trilha de auditoria de atividade  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

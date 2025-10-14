@@ -84,7 +84,7 @@ Considere as seguintes regras ao usar instruções EXISTS em um filtro:
 
 * Quando um objeto de vinculação está ausente porque os objetos original e de destino estão conectados diretamente uns aos outros, você pode usar o código do objeto de destino em vez do objeto de vinculação.
 * Você pode fazer referência a vários campos (Campos de destino) no mesmo objeto (Objeto de destino); nesse caso, você deve conectar as linhas que fazem referência aos campos por AND.\
-  Para obter um exemplo de filtragem para mais de um campo que pertence ao Objeto de Destino, consulte a seção [Exemplo 4: filtrar por vários campos: tarefas por Nome do Proprietário da Portfolio e ID do Scorecard do Alinhamento da Portfolio ](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) neste artigo.
+  Para obter um exemplo de filtragem para mais de um campo que pertence ao Objeto de Destino, consulte a seção [Exemplo 4: filtrar por vários campos: tarefas por Nome do Proprietário da Portfolio e ID do Scorecard do Alinhamento da Portfolio &#x200B;](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) neste artigo.
 
 * O único modificador suportado para uma instrução EXISTS é NOTEXISTS.
 

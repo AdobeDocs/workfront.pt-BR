@@ -73,7 +73,7 @@ Os administradores do [!DNL Adobe Admin Console] também podem criar pacotes som
 
 Você pode instalar o plug-in [!DNL Adobe Workfront for Photoshop] por conta própria a partir do [!DNL Adobe Exchange].
 
-1. Vá para a [página de instalação do Adobe Workfront para Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) no Adobe Exchange.
+1. Vá para a [página de instalação do Adobe Workfront para Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share) no Adobe Exchange.
 1. Na caixa de diálogo exibida, clique em **Abrir [!DNL Adobe Creative Cloud] aplicativo de desktop**.
 1. Depois que o gerenciador de plug-in [!DNL Adobe Photoshop] for aberto, clique em **[!UICONTROL Instalar]**.
 1. Leia as informações na caixa de diálogo e clique em **[!UICONTROL OK]**.

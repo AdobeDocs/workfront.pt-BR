@@ -27,5 +27,5 @@ Esta seção contém os seguintes artigos:
 * [A  [!DNL Workfront Proof] Página de Cobrança](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 <!--* [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) -->
 * [Escolhendo seu Método de Pagamento em [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
-* [Baixando Sua Fatura [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-* [Feche sua conta  [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+* [Baixando Sua Fatura [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+* [Feche sua conta  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)

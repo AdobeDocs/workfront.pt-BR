@@ -76,7 +76,7 @@ Para obter mais informações sobre esses perfis e permissões, consulte [Perfis
 1. Em uma exibição de lista ou no Painel, selecione o item ou itens para os quais deseja criar ou gerenciar tags.
 1. Clique em **[!UICONTROL Marcas]** > **[!UICONTROL Gerenciar Marcas]** logo acima da lista.
 
-1. Na guia [!UICONTROL Marcas] exibida, gerencie suas marcas conforme descrito acima em [Criando, Editando ou Excluindo uma Guia.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
+1. Na guia [!UICONTROL Marcas] exibida, gerencie suas marcas conforme descrito acima em [Criando, Editando ou Excluindo uma Guia.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
    Uma tag é aplicada a todos os itens selecionados quando a caixa de seleção ao lado da tag está em cinza escuro. Se estiver cinza claro, somente alguns dos itens em um lote selecionado serão marcados com ele. Se quiser remover uma marca de todos os itens selecionados, certifique-se de que a opção ao lado da marca está em branco.\
    ![Menu_de_marcas_-_Escuro_e_verificações_de_luz.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 

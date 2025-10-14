@@ -35,8 +35,8 @@ A sandbox de visualização contém seus dados de produção reais. Os dados flu
 
 Por padrão, como administrador do sistema, você tem acesso ao ambiente Visualização da sandbox. Se não conseguir acessar o ambiente Visualizar Sandbox conforme descrito nesta seção, contate o administrador do [!DNL Workfront] ou nossa equipe de suporte.
 
-* [Acessando a Sandbox de Visualização como um Cliente Autônomo [!DNL Workfront Proof] ](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
-* [Acessando a sandbox de visualização como um cliente do  [!DNL Workfront]+[!DNL Workfront Proof] ](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
+* [Acessando a Sandbox de Visualização como um Cliente Autônomo [!DNL Workfront Proof] &#x200B;](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
+* [Acessando a sandbox de visualização como um cliente do  [!DNL Workfront]+[!DNL Workfront Proof] &#x200B;](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
 
 ### Acessando a Sandbox de Visualização como Cliente Autônomo do [!DNL Workfront Proof]
 

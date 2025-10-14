@@ -239,7 +239,7 @@ Além de mover tarefas de uma lista de tarefas, você pode mover uma tarefa no n
 
    A tarefa é exibida na lista.
 
-   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
    >[!NOTE]
    >

@@ -467,4 +467,4 @@ Esta é a linha do tempo de remoção dessas opções de SSO:
 
 ### Webinário do roteiro de produtos do terceiro trimestre {#q3-product-roadmap-webinar}
 
-Saiba mais sobre o que está por vir durante o [webinário do T3 Roadmap](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) em 1º de agosto, às 9h. MST
+Saiba mais sobre o que está por vir durante o [webinário do T3 Roadmap](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register) em 1º de agosto, às 9h. MST

@@ -62,6 +62,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    Clique no ícone de adição na barra lateral de complementos do [!DNL Google Workspace] na extremidade direita de um aplicativo do [!DNL Google Workspace] ([!DNL Gmail], [!DNL Google Calendar] ou [!DNL Google Drive]). Pesquise por *[!DNL Workfront for Google Workspace]* e clique no item de aplicativo [!DNL Workfront for Google Workspace] que aparece.
 
 1. Clique em **[!UICONTROL Instalar]** e siga as instruções exibidas.
-1. (Condicional) No aplicativo [!DNL Google Workspace], se você não vir o ícone [!DNL Workfront]Workfront icon![ do ](assets/wf-lion-icon.png) na barra lateral de complementos do [!DNL Google Workspace] na extremidade direita da página, atualize a página.
+1. (Condicional) No aplicativo [!DNL Google Workspace], se você não vir o ícone [!DNL Workfront]Workfront icon![&#x200B; do &#x200B;](assets/wf-lion-icon.png) na barra lateral de complementos do [!DNL Google Workspace] na extremidade direita da página, atualize a página.
 
 Para obter informações sobre como fazer logon, consulte [Logon e saída [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).

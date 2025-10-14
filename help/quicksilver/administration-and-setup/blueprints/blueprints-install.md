@@ -90,7 +90,7 @@ Você pode instalar seu pacote em qualquer um dos seguintes ambientes:
 1. (Opcional) Clique em **[!UICONTROL Detalhes]** para saber como o blueprint funciona.
 1. Clique em **[!UICONTROL Instalar]**.
 1. Escolha instalar no ambiente de produção ou em um ambiente de sandbox.\
-   Para obter mais informações, consulte o [Onde devo instalar um blueprint?seção ](#where-should-i-install-a-blueprint) neste artigo.
+   Para obter mais informações, consulte o [Onde devo instalar um blueprint?seção &#x200B;](#where-should-i-install-a-blueprint) neste artigo.
 1. Na página **Configurar**, você pode optar por executar um dos seguintes procedimentos:
 
    * Instale o blueprint como está. Para tipos de blueprint que não exigem configuração, essa é a única opção. Para tipos de blueprint que precisam de configuração, você pode optar por instalar o blueprint agora e configurá-lo posteriormente. Clique em **[!UICONTROL Instalar como está]**.

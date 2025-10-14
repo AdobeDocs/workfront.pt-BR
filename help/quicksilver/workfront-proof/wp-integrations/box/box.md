@@ -24,7 +24,7 @@ ht-degree: 4%
 
 Esta seção contém os seguintes artigos:
 
-* [Introdução à integração  [!DNL Workfront Proof]  e  [!DNL Box] ](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [Criar uma prova por meio da sua conta  [!DNL Box] ](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [Introdução à integração  [!DNL Workfront Proof]  e  [!DNL Box] &#x200B;](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [Criar uma prova por meio da sua conta  [!DNL Box] &#x200B;](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
 * [Sincronizar [!DNL Box] Pastas Com [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
 * [Exibir o arquivo original de uma prova em  [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

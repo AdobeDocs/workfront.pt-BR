@@ -392,7 +392,7 @@ Saiba mais sobre as soluções de substituição para cada ferramenta baseada em
 
 ### Webinário da versão 21.1 {#21-1-release-webinar}
 
-O webinário da versão do Workfront 21.1 será apresentado em 3 de fevereiro, às 11h EDT / 16h BST. Inscreva-se para o webinário [aqui](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=ac&amp;eventid=2934272&amp;sessionid=1&amp;key=5C231B3385686D1E224A49EBE0BF0E37&amp;regTag=&amp;V2=false&amp;sourcepage=register).
+O webinário da versão do Workfront 21.1 será apresentado em 3 de fevereiro, às 11h EDT / 16h BST. Inscreva-se para o webinário [aqui](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
 
 ### Alteração na cadência de lançamento da Visualização {#change-in-preview-release-cadence}
 

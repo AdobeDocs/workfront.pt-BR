@@ -240,7 +240,7 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
 
    A tarefa é exibida na lista.
 
-   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Selecione o botão de opção do pai depois de encontrá-lo.
 
