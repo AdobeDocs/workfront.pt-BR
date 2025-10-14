@@ -108,7 +108,7 @@ Ou
 
 1. Na caixa **Editar tipo de registro**, a guia **Aparência** é aberta por padrão. <!--update screen shot below at preview-->
 
-   ![Guia de aparência da caixa Editar tipo de registro ](assets/edit-record-type-box-appearance-tab.png)
+   ![Guia de aparência da caixa Editar tipo de registro &#x200B;](assets/edit-record-type-box-appearance-tab.png)
 
    Atualize as seguintes informações na guia **Aparência**:
 
