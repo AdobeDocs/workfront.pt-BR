@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 
 
 # Editar registros
+
+<!--keep the choice values information in yellow till Jan 2026-->
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
@@ -405,5 +407,7 @@ Para adicionar uma nova opção a um campo de seleção existente ao editar um r
    ![Adicionar opção em campo de seleção única na exibição de tabela](assets/add-choice-in-table-view-for-single-select-field.png)
 
    A nova opção é adicionada imediatamente ao campo de seleção única.
+
+   <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
 
 </div>

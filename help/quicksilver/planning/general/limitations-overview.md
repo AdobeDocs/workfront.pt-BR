@@ -6,13 +6,15 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 2%
 
 ---
 
+
+<!--keep the 30 connection limit in yellow till Jan 2026-->
 
 # Visão geral das limitações de objetos do Adobe Workfront Planning
 
@@ -49,6 +51,10 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | <span class="preview">Número de campos de fórmula para um tipo de registro</span> | <span class="preview">20</span> |
 | <span class="preview">Número de caracteres em uma expressão de campo de fórmula</span> | <span class="preview">50.000</span> |
 
+
+<!-- Add this after the formula fields limit above:
+
+| <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |-->
 
 *Recomendamos não ter muitos espaços de trabalho, pois eles podem se tornar difíceis de gerenciar e seus fluxos de trabalho podem estar muito fragmentados.
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '5332'
 ht-degree: 1%
@@ -14,13 +14,15 @@ ht-degree: 1%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=pt-BR ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
 <!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
 
 # Criar campos
+
+<!--information about choice values must stay in yellow till Jan 2026-->
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
@@ -294,6 +296,24 @@ Você pode usar um campo de seleção múltipla para capturar informações adic
 
    O novo campo de seleção múltipla é adicionado como uma coluna ao tipo de registro e seus valores podem ser associados a registros.
 
+<!--
+1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
+1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+
+    >[!NOTE]
+    >
+    >* <span class="preview">Workfront assigns unique values for each choice. </span>
+    >
+    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
+    >
+    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
+    >
+    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+
+1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span> 
+
+-->
+
 ### Seleção única {#single-select}
 
 Os campos de seleção única capturam informações adicionais em qualquer formato ao selecionar uma opção em um menu suspenso.
@@ -302,7 +322,6 @@ Os campos de seleção única capturam informações adicionais em qualquer form
 >
 ><span class="preview">Além da funcionalidade descrita nesta seção, você pode adicionar novas opções ao editar o valor de campo de seleção única de um registro em linha, no modo de exibição de tabela. Para obter mais informações, consulte a seção &quot;Editar informações sobre campos de seleção única ou múltipla&quot; no artigo [Editar registros](/help/quicksilver/planning/records/edit-records.md).</span>
 >
-
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Seleção única**.
 
@@ -328,6 +347,25 @@ Os campos de seleção única capturam informações adicionais em qualquer form
 1. Clique em **Criar**.
 
    O novo campo de seleção única é adicionado como uma coluna ao tipo de registro e seus valores podem ser associados a registros.
+
+<!--
+
+1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
+1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+
+    >[!NOTE]
+    >
+    >* <span class="preview">Workfront assigns unique values for each choice. </span>
+    >
+    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
+    >
+    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
+    >
+    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+
+1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span>
+
+-->
 
 ### Data {#date}
 
@@ -369,7 +407,7 @@ Os tipos de campo de número capturam informações em um formato de número.
 >Campos numéricos são exibidos como um tipo de campo Texto de linha única em um construtor de formulários de solicitação.
 >
 >No entanto, o formato do campo é preservado e os valores desses campos serão exibidos como números depois que a solicitação for enviada, no tipo de registro e na página de detalhes da solicitação.
->&#x200B;>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Número**.
@@ -399,7 +437,7 @@ Os tipos de campo Porcentagem capturam informações em um formato de número se
 >Os campos de porcentagem são exibidos como um tipo de campo de texto de linha única em um construtor de formulários de solicitação.
 >
 >No entanto, o formato do campo é preservado e os valores desses campos serão exibidos como porcentagens após o envio da solicitação, no tipo de registro e na página de detalhes da solicitação.
->&#x200B;>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Porcentagem**.
@@ -439,7 +477,7 @@ Os tipos de campo Moeda capturam as informações em um formato de número prece
 >Os campos de moeda são exibidos como um tipo de campo de texto de linha única em um construtor de formulários de solicitação.
 >
 >No entanto, o formato do campo é preservado e os valores desses campos serão exibidos como moeda após o envio da solicitação, no tipo de registro e na página de detalhes da solicitação.
->&#x200B;>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+>>Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Comece a criar um campo conforme descrito na seção [Criar campos do zero](#create-fields-from-scratch) neste artigo e selecione o tipo de campo **Moeda**.
 
@@ -514,7 +552,7 @@ Para obter mais informações, consulte [Visão geral dos campos da fórmula](/h
    >
    >* Você pode fazer referência a um campo que esteja a até 4 campos (e objetos) de distância do tipo de registro atual. Por exemplo, se você estiver criando um campo de fórmula para um tipo de registro Atividade (1) e a Atividade estiver conectada ao tipo de registro Campanha (2) que está conectado a um Projeto Workfront (3), poderá fazer referência ao campo Orçamento do projeto (4) na fórmula que está sendo criada para o tipo de registro Atividade.
    >
-   >![Exemplo de fórmula do orçamento do projeto com quatro campos removidos &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Exemplo de fórmula do orçamento do projeto com quatro campos removidos ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Opcional) Clique em **Maximizar** para abrir a caixa Fórmula em uma área maior.

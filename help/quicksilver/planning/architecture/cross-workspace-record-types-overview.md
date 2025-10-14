@@ -1,12 +1,12 @@
 ---
-title: Visão Geral dos Tipos de Registro Entre Espaços de Trabalho
-description: Os tipos de registro centralizado podem ser adicionados a vários espaços de trabalho a partir de um espaço de trabalho central ou principal no Adobe Workfront Planning.
+title: Visão geral do tipo de registro entre espaços de trabalho
+description: Os tipos de registro global podem ser adicionados a vários espaços de trabalho a partir de um espaço de trabalho central ou principal no Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -19,99 +19,99 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# Visão geral dos tipos de registro entre espaços de trabalho
+# Visão geral do tipo de registro entre espaços de trabalho
 
-No Adobe Workfront Planning, você pode ativar recursos entre espaços de trabalho para um tipo de registro que permita fazer referência a um tipo de registro em mais de um espaço de trabalho.
+{{planning-important-intro}}
+
+Você pode ativar recursos entre espaços de trabalho para um tipo de registro no Adobe Workfront Planning. Um tipo de registro entre espaços de trabalho pode ser referenciado ou acessado em mais de um espaço de trabalho.
+
+>[!IMPORTANT]
+>
+>Há requisitos de pacote aprimorados do Workfront para habilitar recursos entre espaços de trabalho para tipos de registro em seu sistema. Para obter informações, consulte [Visão geral sobre acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+
 
 A seguir estão os recursos entre espaços de trabalho dos tipos de registro:
 
-* Você pode designar um tipo de registro como centralizado. Os usuários podem adicionar tipos de registro centralizados a outros espaços de trabalho que gerenciam.
+* **Tipos de registros globais**: os usuários podem adicionar tipos de registros globais a outros espaços de trabalho gerenciados por eles.
 
-  >[!IMPORTANT]
-  >
-  >Você deve ter um pacote do Workfront Planning Plus, além de um pacote do Workfront para usar tipos de registro centralizados.
-  >
-  >Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com seu gerente de conta da Workfront.
-
-* Você pode designar um tipo de registro como conectável. Os usuários podem se conectar a esse tipo de registro a partir de outros espaços de trabalho.
+* **Tipos de registro conectáveis**: os usuários podem se conectar a este tipo de registro de outros espaços de trabalho.
 
 Este artigo fornece uma visão geral dos tipos de registro entre espaços de trabalho. Para obter informações sobre como definir os recursos entre espaços de trabalho de um tipo de registro, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
+## Visão geral dos tipos de registro global
 
-## Visão geral dos tipos de registros centralizados
-
-Os tipos de registro centralizado podem ser adicionados a vários espaços de trabalho a partir de um espaço de trabalho central ou principal no Workfront Planning.
+Os tipos de registro global podem ser adicionados a vários espaços de trabalho a partir de um espaço de trabalho central ou principal no Workfront Planning.
 
 Ao implementar o Workfront Planning para uma organização de várias equipes com workflows comuns, talvez seja necessário definir uma estrutura coesa e metadados para os principais tipos de registro (como Campanhas ou Materiais de entrega) que podem ser adicionados aos espaços de trabalho de cada equipe para capturar e gerenciar o trabalho.
 
 Além disso, pode ser necessário que o trabalho de cada equipe atinja um nível central.
 
-Nesse fluxo de trabalho, você pode garantir que as equipes capturem seu trabalho de forma consistente ao desbloquear a visibilidade entre equipes, sem a necessidade de adicionar tudo a um espaço de trabalho, ou todos na organização a cada espaço de trabalho. Você pode usar tipos de registro centralizados para fazer isso.
+Nesse fluxo de trabalho, você pode garantir que as equipes capturem seu trabalho de forma consistente ao desbloquear a visibilidade entre equipes, sem a necessidade de adicionar tudo a um espaço de trabalho, ou todos na organização a cada espaço de trabalho. Você pode usar tipos de registro global para fazer isso.
 
-Para usar tipos de registro centralizados, faça o seguinte:
+Para usar tipos de registro global, faça o seguinte:
 
-1. Configure um tipo de registro para ser centralizado em um espaço de trabalho específico.
+1. Em um espaço de trabalho gerenciado, configure um tipo de registro para ser global.
 
    Um gerente de espaço de trabalho pode conceder permissões a usuários com uma licença Standard ou a equipes, grupos, funções e empresas para adicionar um tipo de registro escolhido a um espaço de trabalho gerenciado por eles.
 
    O tipo de registro original existirá em seu espaço de trabalho original, mas ficará visível em outros espaços de trabalho.
 
    Para obter informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
-1. Adicione um tipo de registro a um espaço de trabalho secundário a partir de um existente que foi configurado como um tipo de registro centralizado.
+1. Adicione um tipo de registro a um espaço de trabalho secundário a partir de um existente que foi configurado como um tipo de registro global.
 
    O tipo de registro existirá nos seguintes espaços de trabalho:
 
-   * Seu espaço de trabalho original, onde foi designado como um tipo de registro centralizado.
+   * Seu espaço de trabalho original, onde foi designado como um tipo de registro global.
    * Um espaço de trabalho secundário.
 
    Para obter informações, consulte [Adicionar tipos de registro existentes de outro espaço de trabalho](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
-   As seções a seguir descrevem considerações sobre os tipos de registros centralizados e como eles funcionam em seus espaços de trabalho originais ou secundários.
+   As seções a seguir descrevem considerações sobre os tipos de registros globais e como eles funcionam em seus espaços de trabalho originais ou secundários.
 
-### Considerações sobre os tipos de registros centralizados em seu espaço de trabalho original
+### Considerações sobre os tipos de registro global em seu espaço de trabalho original
 
-O tipo de registro configurado para ser centralizado tem as seguintes propriedades:
+O tipo de registro configurado para ser global tem as seguintes propriedades:
 
 * Todas as informações (aparência, campos originais) só podem ser editadas no espaço de trabalho original.
 
-* Você pode executar as seguintes ações no tipo de registro centralizado a partir do espaço de trabalho original de um tipo de registro centralizado:
+* Você pode executar as seguintes ações no tipo de registro global a partir de seu espaço de trabalho original:
 
    * Editar
 
-     A edição de um tipo de registro centralizado inclui a edição de sua aparência, recursos entre espaços de trabalho e todos os campos criados no espaço de trabalho original.
+     A edição de um tipo de registro global inclui a edição de sua aparência, recursos entre espaços de trabalho e todos os campos criados no espaço de trabalho original.
    * Criar formulários de solicitação
    * Gerenciar formulários de solicitação
 
-* Você só poderá excluir um tipo de registro centralizado se ele não tiver sido adicionado a um espaço de trabalho secundário. Depois que ele for adicionado a outro espaço de trabalho, tentar excluí-lo do espaço de trabalho original gerará um erro.
-
-  Isso é feito para que o tipo de registro centralizado possa permanecer nos espaços de trabalho em que já foi adicionado.
-* Os registros adicionados a um tipo de registro centralizado ficam visíveis somente para usuários com permissões de Exibição no espaço de trabalho ao qual foram adicionados.
+* Você só poderá deletar um tipo de registro global se ele não tiver sido adicionado a um espaço de trabalho secundário. Você deve primeiro removê-lo (excluindo-o) dos espaços de trabalho secundários antes de excluí-lo do espaço de trabalho original.
+* Os registros adicionados a um tipo de registro global ficam visíveis somente para usuários com permissões de Exibição no espaço de trabalho ao qual foram adicionados.
 * Os registros adicionados de um espaço de trabalho secundário são totalizados e exibidos no espaço de trabalho original. Todos os membros do espaço de trabalho original obtêm permissões de Exibição para eles.
+* Se o tipo de registro global original for adicionado a vários espaços de trabalho secundários, você poderá exibir os registros adicionados a outros espaços de trabalho somente a partir do espaço de trabalho original ou de espaços de trabalho nos quais você tem pelo menos permissões para Exibir.
+* Os tipos de registro conectados de um tipo de registro global se tornarão disponíveis para conexão a partir dos espaços de trabalho em que esse tipo de registro for adicionado.
 
-* Os tipos de registro conectados de um tipo de registro centralizado se tornarão disponíveis para conexão a partir dos espaços de trabalho em que esse tipo de registro for adicionado.
+  Por exemplo, se você tiver um tipo de registro global do Campaign que tenha uma conexão com um tipo de registro Regiões e adicionar o tipo de registro Campanha a um espaço de trabalho secundário, as Regiões se tornarão conectáveis entre espaços de trabalho do espaço de trabalho secundário. Os membros do espaço de trabalho secundário agora podem criar campanhas e vinculá-las a regiões.
 
-  Por exemplo, se você tiver um tipo de registro Campanha que tenha uma conexão com o tipo de registro Regiões e adicionar o tipo de registro Campanha a um espaço de trabalho secundário, as Regiões se tornarão conectáveis entre espaços de trabalho para o espaço de trabalho secundário. Os membros do espaço de trabalho secundário agora podem criar campanhas e vinculá-las a regiões.
+* Os campos criados para um tipo de registro global do espaço de trabalho original são visíveis em todos os espaços de trabalho em que o tipo de registro é adicionado. As configurações de campo de um espaço de trabalho original são somente leitura nos espaços de trabalho secundários.
 
-* Os campos criados para um tipo de registro centralizado do espaço de trabalho original são visíveis em todos os espaços de trabalho em que o tipo de registro é adicionado. As configurações de campo de um espaço de trabalho original são somente leitura nos espaços de trabalho secundários.
+### Considerações sobre tipos de registro global em um espaço de trabalho secundário
 
-### Considerações sobre tipos de registros centralizados depois de adicioná-los a um espaço de trabalho secundário
+* Colaboradores secundários de espaço de trabalho obtêm permissão do Contribute para o tipo de registro global no espaço de trabalho de sua equipe. Eles podem adicionar e gerenciar registros nela a partir do espaço de trabalho secundário.
 
-* Colaboradores secundários de espaço de trabalho obtêm permissão do Contribute para o tipo de registro centralizado no espaço de trabalho de sua equipe. Eles podem adicionar e gerenciar registros nela a partir do espaço de trabalho secundário.
+* Os visualizadores secundários do espaço de trabalho obtêm a permissão Exibir para o tipo de registro global no espaço de trabalho de sua equipe. Eles não podem adicionar e gerenciar registros nele.
 
-* Os visualizadores secundários do espaço de trabalho obtêm permissão de Visualização para o tipo de registro centralizado no espaço de trabalho de sua equipe. Eles não podem adicionar e gerenciar registros nele.
-
-* Os gerentes de espaço de trabalho secundário podem executar as seguintes ações adicionais no tipo de registro adicionado de um tipo de registro centralizado em um espaço de trabalho secundário:
+* Os gerenciadores de espaço de trabalho secundário podem executar as seguintes ações adicionais no tipo de registro adicionado de um tipo de registro global em um espaço de trabalho secundário:
 
    * Excluí-lo.
 
-     A exclusão do tipo de registro de um espaço de trabalho secundário o remove apenas do espaço de trabalho secundário. Os registros adicionados a ele a partir do espaço de trabalho secundário também são excluídos. Isso não exclui o tipo de registro de seu espaço de trabalho original ou de qualquer outro espaço de trabalho secundário ao qual ele tenha sido adicionado.
+     A exclusão do tipo de registro de um espaço de trabalho secundário o remove apenas do espaço de trabalho secundário. Os registros e campos adicionados a ele a partir do espaço de trabalho secundário também são excluídos. Isso não exclui o tipo de registro de seu espaço de trabalho original ou de qualquer outro espaço de trabalho secundário ao qual ele tenha sido adicionado.
 
-  <!--These two capabilities will come later:
+  <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
     * Add new fields
-        Fields added to a centralized record from a secondary workspace are visible only from the secondary workspace. 
-    * Share it-->
+        Fields added to a global record from a secondary workspace are visible only from the secondary workspace. 
+    * Share it
+    * Add request forms to it
+    * Add automations to it-->
 
-* Nenhum usuário pode executar as seguintes ações no tipo de registro adicionado de um tipo de registro centralizado em um espaço de trabalho secundário:
+* Nenhum usuário pode executar as seguintes ações no tipo de registro adicionado de um tipo de registro global em um espaço de trabalho secundário:
 
    * Editar
 
@@ -119,31 +119,31 @@ O tipo de registro configurado para ser centralizado tem as seguintes propriedad
    * Criar e gerenciar formulários de solicitação
    * Criar e gerenciar automações
 
-* Os registros adicionados em espaços de trabalho secundários ficam visíveis nos seguintes espaços de trabalho, somente se você tiver permissões de Exibição ou superiores para esses espaços de trabalho:
+* Os registros adicionados em um espaço de trabalho secundário ficam visíveis nos seguintes espaços de trabalho, somente se você tiver permissões de Exibição ou superiores para esses espaços de trabalho:
 
    * O espaço de trabalho secundário onde eles são adicionados.
-   * O espaço de trabalho original do tipo de registro centralizado.
-   * Todos os outros espaços de trabalho onde o espaço de trabalho centralizado é adicionado.
+   * O espaço de trabalho original do tipo de registro global.
+   * Todos os outros espaços de trabalho onde o espaço de trabalho global é adicionado.
 
 * Existem os seguintes cenários para registros criados em espaços de trabalho secundários:
 
    * Se você tiver permissões Gerenciar no espaço de trabalho original e não tiver permissões em um espaço de trabalho secundário, poderá exibir registros adicionados dos espaços de trabalho secundários no espaço de trabalho original, mas não poderá gerenciá-los no espaço de trabalho original.
-   * Se você tiver permissões de Gerenciamento no espaço de trabalho secundário, poderá gerenciar os registros no espaço de trabalho original do tipo de registro centralizado ou no espaço de trabalho onde eles foram adicionados.
-   * Você pode exibir os registros em espaços de trabalho secundários adicionais onde o tipo de registro centralizado é adicionado somente se tiver permissões de Exibição para esses espaços de trabalho.
+   * Se você tiver permissões Gerenciar no espaço de trabalho secundário, poderá gerenciar os registros no espaço de trabalho original do tipo de registro global ou no espaço de trabalho em que eles foram adicionados.
+   * Você pode exibir os registros em espaços de trabalho secundários adicionais onde o tipo de registro global é adicionado somente se tiver permissões de Exibição para esses espaços de trabalho.
 
-### Acesso às conexões de um tipo de registro centralizado
+### Acesso às conexões de um tipo de registro global
 
-Os tipos de registro conectados ao tipo de registro centralizado no espaço de trabalho original tornam-se visíveis em outros espaços de trabalho onde o tipo de registro centralizado é adicionado.
+Os tipos de registro conectados ao tipo de registro global no espaço de trabalho original tornam-se visíveis a partir de outros espaços de trabalho em que o tipo de registro global é adicionado e ficam disponíveis para conexões a partir dos espaços de trabalho secundários em que o tipo de registro global é adicionado.
 
-### Acesso à API de um tipo de registro centralizado
+### Acesso à API de um tipo de registro global
 
-Ao adicionar registros a um tipo de registro centralizado de um espaço de trabalho secundário usando a API do Workfront Planning, o sistema verifica se o usuário tem acesso para criar registros no espaço de trabalho original do tipo de registro centralizado.
+Ao adicionar registros a um tipo de registro global de um espaço de trabalho secundário usando a API do Workfront Planning, o sistema verifica se o usuário tem acesso para criar registros no espaço de trabalho original do tipo de registro global.
 
 Os seguintes casos existem:
 
-* Se o usuário tiver acesso, o registro será criado no espaço de trabalho original dos tipos de registro centralizado.
+* Se o usuário tiver acesso, o registro será criado no espaço de trabalho original dos tipos de registro global.
 
-* Se o usuário não tiver acesso, ele receberá um erro de que não tem acesso ao espaço de trabalho original do tipo de registro centralizado e precisa fornecer a ID do espaço de trabalho onde tem acesso para criar registros.
+* Se o usuário não tiver acesso, ele receberá um erro de que não tem acesso ao espaço de trabalho original do tipo de registro global e precisa fornecer a ID do espaço de trabalho onde tem acesso para criar registros.
 
 ## Visão geral dos tipos de registro conectáveis
 
@@ -155,9 +155,9 @@ Para usar tipos de registro conectáveis, faça o seguinte:
 
 1. Configure um tipo de registro para ser conectável em um espaço de trabalho específico.
 
-   Um gerenciador de espaço de trabalho pode selecionar quais espaços de trabalho um tipo de registro designado está disponível para conexão a partir de outros espaços de trabalho.
+   Um gerenciador de espaço de trabalho pode selecionar a quais espaços de trabalho um tipo de registro designado está disponível para conexão.
 
-   O tipo de registro original existirá em seu espaço de trabalho original e será adicionado como um tipo de registro conectado a outro espaço de trabalho.
+   O tipo de registro original existirá em seu espaço de trabalho original e poderá ser acessado para conexão de outro espaço de trabalho.
 
    Para obter informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 1. Conecte-se a um tipo de registro designado como conectável de outro espaço de trabalho que você gerencia.

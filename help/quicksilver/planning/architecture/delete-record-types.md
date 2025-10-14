@@ -6,13 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 2%
 
 ---
 
+
+<!--keep the global record type reference in yellow till January 2026-->
 
 # Excluir tipos de registro
 
@@ -32,7 +34,7 @@ Para obter informações sobre tipos de registros, consulte [Visão geral sobre 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -73,7 +75,7 @@ Para obter informações sobre tipos de registros, consulte [Visão geral sobre 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p> Padrão</p>
+   <td><p> Standard</p>
    <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
@@ -92,7 +94,7 @@ Para obter informações sobre tipos de registros, consulte [Visão geral sobre 
 
 *Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
 
 
 ## Considerações ao excluir tipos de registro
@@ -108,6 +110,21 @@ Para obter informações sobre tipos de registros, consulte [Visão geral sobre 
 * O tipo de registro é removido de todos os usuários que acessam o espaço de trabalho.
 * Não é possível recuperar tipos de registros excluídos ou suas informações.
 * É recomendável recriar os campos e os registros associados ao tipo de registro que você deseja excluir em outro tipo de registro antes de excluí-los.
+
+<!--
+
+<div class="preview">
+
+* You cannot delete a global record type that has been added to other workspaces. 
+   
+   You must first delete it from the secondary workspaces where it's been added, before you can delete it from its original workspace. 
+
+   Deleting a global record type from their secondary workspaces only remove them, their records, and that workspace's fields from the secondary workspace. It does not delete the global record type from its original workspace.
+
+   For information, see the section "Delete a global record type from a secondary workspace" in the article [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
+
+</div>
+-->
 
 ## Excluir tipos de registro
 
@@ -127,6 +144,13 @@ Para obter informações sobre tipos de registros, consulte [Visão geral sobre 
 
    ![Excluir permanentemente a confirmação do tipo de registro](assets/permanently-delete-record-type-confirmation.png)
 
+   <!--[!TIP]
+   >
+   ><span class="preview">You cannot delete global record types added to other workspaces. First, delete the global record types form their secondary workspaces before deleting them from the original workspace.</span>-->
+
+
 1. Digite **excluir** na caixa de confirmação e clique em **Excluir permanentemente**. Isso não diferencia maiúsculas de minúsculas.
 
    O tipo de registro selecionado, juntamente com seus campos, registros associados e exibições são excluídos e não podem ser recuperados.
+
+
