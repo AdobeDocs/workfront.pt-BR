@@ -7,9 +7,9 @@ description: É importante indicar no Adobe Workfront quando a folga aprovada ac
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: ce2f1ebe7ea97f3c25ac6a7ef33fd3c066727220
+source-git-commit: f10b0a4897d6250f0c4decf1fad069c598536a38
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox e está sendo lançado em uma implantação em fases para Produção.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 O [!DNL Adobe Workfront] não foi projetado para replicar ou substituir seus sistemas existentes para gerenciar, acumular e rastrear o tempo livre pessoal.
 
@@ -79,10 +79,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. No painel esquerdo, clique em **[!UICONTROL Folga]**.
 1. Selecione a data desejada para sua folga pessoal.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
-   ![Calendário de folga pessoal](assets/personal-time-off-calendar-0925.png)
+   <!--<span class="preview">Sample image in the Preview environment:</span>
+   ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)-->
 
-   Imagem de amostra no ambiente de produção:
+   <!--Sample image in the Production environment:-->
    ![Calendário de folga pessoal](assets/personal-time-off-calendar.png)
 
 1. Selecione **[!UICONTROL Todo o dia]**, se você estiver tirando um dia de folga.
