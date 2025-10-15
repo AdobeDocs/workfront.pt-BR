@@ -38,7 +38,7 @@ Você deve ter o seguinte acesso para concluir as etapas deste artigo:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Plano do Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/br/products/workfront/pricing.html" target="_blank">Plano do Adobe Workfront</a>*</td> 
    <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 

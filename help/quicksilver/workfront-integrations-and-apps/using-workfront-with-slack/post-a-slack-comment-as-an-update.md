@@ -28,7 +28,7 @@ Você deve ter o seguinte:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plano]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/br/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plano]</a>*</td> 
    <td> <p>[!UICONTROL Pro] ou superior</p> </td> 
   </tr> 
  </tbody> 

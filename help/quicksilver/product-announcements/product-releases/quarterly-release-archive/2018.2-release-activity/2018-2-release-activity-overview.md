@@ -215,7 +215,7 @@ Ao instalar o novo Workfront para Outlook em qualquer um de seus ambientes, sua 
 
 Use os seguintes recursos para saber mais sobre o Workfront para Outlook e começar a usá-los:
 
-* [Site e vídeo](https://business.adobe.com/products/workfront/integrations.html) 
+* [Site e vídeo](https://business.adobe.com/br/products/workfront/integrations.html) 
 * [Usando o Workfront com o Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) (artigo de ajuda)
 
 ### Remoção de versões antigas da API {#removing-old-api-versions}

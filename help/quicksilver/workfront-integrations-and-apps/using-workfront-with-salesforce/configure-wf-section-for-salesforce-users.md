@@ -25,7 +25,7 @@ ht-degree: 1%
 >
 >Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Salesforce, consulte [módulos do Salesforce](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
-É necessário um Plano [!UICONTROL Pro] [!DNL Workfront] para usar este recurso. Para obter mais informações sobre os vários planos disponíveis, consulte [[!DNL Workfront] Planos.](https://business.adobe.com/products/workfront/pricing.html)
+É necessário um Plano [!UICONTROL Pro] [!DNL Workfront] para usar este recurso. Para obter mais informações sobre os vários planos disponíveis, consulte [[!DNL Workfront] Planos.](https://business.adobe.com/br/products/workfront/pricing.html)
 
 Depois de instalar o [!DNL Adobe Workfront] for [!DNL Salesforce] como administrador do [!DNL Workfront], você poderá disponibilizá-lo para os seus usuários adicionando-o em uma nova seção às suas [!UICONTROL Oportunidades] e [!UICONTROL Conta]
 layouts de página no [!UICONTROL Salesforce].

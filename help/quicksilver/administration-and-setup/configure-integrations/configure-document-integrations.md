@@ -74,7 +74,7 @@ Você pode configurar as seguintes integrações para gerenciar documentos:
 
 * [!DNL Workfront Proof]
 
-  Vincular provas de [!DNL Workfront Proof] permite que você disponibilize provas que foram criadas originalmente em [!DNL Workfront Proof] em [!DNL Workfront]. Para os planos atuais, é necessário um Plano [!UICONTROL Pro] [!DNL Workfront] ou superior para usar este recurso. Para os novos planos, esse recurso está disponível com todos os planos. Para obter mais informações sobre os vários planos disponíveis, consulte [Planos do Workfront](https://business.adobe.com/products/workfront/pricing.html).
+  Vincular provas de [!DNL Workfront Proof] permite que você disponibilize provas que foram criadas originalmente em [!DNL Workfront Proof] em [!DNL Workfront]. Para os planos atuais, é necessário um Plano [!UICONTROL Pro] [!DNL Workfront] ou superior para usar este recurso. Para os novos planos, esse recurso está disponível com todos os planos. Para obter mais informações sobre os vários planos disponíveis, consulte [Planos do Workfront](https://business.adobe.com/br/products/workfront/pricing.html).
 
 * [!DNL Microsoft SharePoint]
 
@@ -97,7 +97,7 @@ Você pode configurar as seguintes integrações para gerenciar documentos:
 
 * Outros provedores de documentos (por meio de integrações de documentos personalizadas).
 
-  Para os planos atuais, é necessário um Plano [!UICONTROL Pro] [!DNL Workfront] ou superior para usar este recurso. Para os novos planos, esse recurso está disponível com todos os planos. Para obter mais informações sobre os vários planos disponíveis, consulte [Planos do Workfront](https://business.adobe.com/products/workfront/pricing.html).
+  Para os planos atuais, é necessário um Plano [!UICONTROL Pro] [!DNL Workfront] ou superior para usar este recurso. Para os novos planos, esse recurso está disponível com todos os planos. Para obter mais informações sobre os vários planos disponíveis, consulte [Planos do Workfront](https://business.adobe.com/br/products/workfront/pricing.html).
 
 Além disso, você pode aprimorar sua experiência com documentos do [!DNL Workfront] com integrações de DAM de terceiros. Os administradores devem habilitar esses recursos para que os usuários vinculem o serviço à sua conta [!DNL Workfront].
 

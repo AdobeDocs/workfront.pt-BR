@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
-É necessário um Plano Select ou Premium para usar esse recurso. Para obter mais informações sobre os vários planos disponíveis, consulte [[!DNL Workfront] Planos](https://business.adobe.com/products/workfront/pricing.html).
+É necessário um Plano Select ou Premium para usar esse recurso. Para obter mais informações sobre os vários planos disponíveis, consulte [[!DNL Workfront] Planos](https://business.adobe.com/br/products/workfront/pricing.html).
 
 Você pode criar grupos de usuários que podem ser adicionados como revisores em várias provas. Isso é útil se você enviar conteúdo para os mesmos usuários regularmente.
 

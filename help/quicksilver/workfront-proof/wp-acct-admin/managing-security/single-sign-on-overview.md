@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Este artigo se refere à funcionalidade no produto independente [!DNL Workfront Proof]. Para obter informações sobre provas dentro de [!DNL Adobe Workfront], consulte [Prova](../../../review-and-approve-work/proofing/proofing.md).
 
-É necessário um Plano [!UICONTROL Empresa] [!DNL Workfront] para usar este recurso. Para obter mais informações sobre os vários planos disponíveis, consulte [Planos do Workfront](https://business.adobe.com/products/workfront/pricing.html).
+É necessário um Plano [!UICONTROL Empresa] [!DNL Workfront] para usar este recurso. Para obter mais informações sobre os vários planos disponíveis, consulte [Planos do Workfront](https://business.adobe.com/br/products/workfront/pricing.html).
 
 O Logon Único (SSO) permite que seus usuários façam logon no [!DNL Workfront Proof] usando o nome de usuário e a senha existentes de sua organização.
 

@@ -230,7 +230,7 @@ Esta tabela lista as atividades de administração disponíveis para:
 
 &#42;&#42; No nível de acesso do administrador de grupo, o acesso a esta ação deve ser habilitado. Para obter mais informações, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; As atividades a seguir fazem parte dos Controles Avançados de Empresa e não estão disponíveis para o plano Select. Somente as organizações que compraram os planos do Prime ou do Ultimate podem acessar esses recursos.  Consulte a [página de preços e pacotes do Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) para obter mais informações sobre planos. (Para organizações que usam os planos herdados, a tabela acima mostra as atividades para administradores de grupos e subgrupos.)
+&#42;&#42;&#42; As atividades a seguir fazem parte dos Controles Avançados de Empresa e não estão disponíveis para o plano Select. Somente as organizações que compraram os planos do Prime ou do Ultimate podem acessar esses recursos.  Consulte a [página de preços e pacotes do Adobe Workfront](https://business.adobe.com/br/products/workfront/pricing.html) para obter mais informações sobre planos. (Para organizações que usam os planos herdados, a tabela acima mostra as atividades para administradores de grupos e subgrupos.)
 
 * Configurar as preferências de projeto, tarefa e problema no nível do grupo
 * Configurar preferências de horas e planilha de horas no nível do grupo
