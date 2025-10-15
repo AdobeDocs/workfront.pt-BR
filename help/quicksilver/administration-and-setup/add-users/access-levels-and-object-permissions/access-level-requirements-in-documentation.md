@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 469242118429fa37835766737b88d35d2baefb69
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 1%
+source-wordcount: '1048'
+ht-degree: 0%
 
 ---
 
@@ -35,45 +35,46 @@ Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td> Os planos da Adobe Workfront se referem ao conjunto de recursos que sua organização adquiriu. A maior parte da funcionalidade do Workfront está disponível em todos os planos, com algumas exceções, relacionadas principalmente ao planejamento estratégico e aos controles corporativos. 
-   <ul><li>Para descobrir qual plano da Adobe Workfront sua organização usa, incluindo se sua organização está no novo ou no atual modelo de empacotamento, entre em contato com o administrador do Workfront.</li>
-   <li>Para obter instruções sobre como um administrador do Workfront pode localizar o plano Workfront da sua organização, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Exibir o cluster da sua organização e o plano Workfront</a>.</li><li>Para obter mais informações sobre os novos planos do Workfront, consulte <a href="https://business.adobe.com/br/products/workfront/pricing.html">Preços e pacotes do Adobe Workfront</a>.</li></ul> </td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> Os pacotes do Adobe Workfront se referem ao conjunto de recursos que sua organização adquiriu. A maioria das funcionalidades do Workfront está disponível em todos os pacotes, com algumas exceções, principalmente relacionadas ao planejamento estratégico e aos controles corporativos. <p>Os pacotes existentes antes de 2022 não são listados.</p>
+   <p>Os pacotes do Workfront são divididos em três áreas. Cada área oferece pacotes diferentes, como Select, Prime e Ultimate.<p>
+   <ul>
+   <li><b>Fluxo de Trabalho do Workfront</b>: inclui funcionalidades relacionadas a operações, como gerenciamento de tarefas, aprovações e planilhas de horas.</li>
+   <li><b>Workfront Planning</b>: inclui a funcionalidade relacionada ao planejamento estratégico.</li>
+   <li><b>Automação e Integração do Workfront</b>: inclui funcionalidades relacionadas à automatização de processos e à integração com outros aplicativos.</li>
+   </ul>
+  <p>Sua organização pode ter comprado um pacote do Workfront em uma ou mais dessas áreas.</p>
+  <p>Anteriormente, a Workfront oferecia os pacotes Workfront Select, Workfront Prime e Workfront Ultimate, sem distinguir entre Fluxo de trabalho, Planejamento e Automação e Integração. Sua organização pode estar em um desses pacotes herdados. 
+   <ul><li>Para saber qual pacote do Adobe Workfront sua organização usa, incluindo se a organização está no modelo de pacote atual ou herdado, entre em contato com o administrador do Workfront.</li>
+   <li>Para obter instruções sobre como um administrador do Workfront pode localizar o pacote Workfront da sua organização, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Exibir o cluster da sua organização e o pacote Workfront</a>.</li><li>Para obter mais informações sobre os pacotes do Workfront, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Preços e pacotes do Adobe Workfront</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> As licenças do Adobe Workfront se referem ao conjunto de recursos do Workfront incluídos na licença atribuída a você. Por exemplo, um usuário pode ter uma licença que inclui a marcação da conclusão dos itens de trabalho e o registro do tempo, enquanto outro usuário tem uma licença que permite apenas aprovar ativos ou enviar solicitações. <p> 
    <ul>
    <li>Para descobrir qual licença você está atribuído, entre em contato com o administrador do Workfront.</li>
-   <li>A Adobe Workfront está fazendo a transição para um novo modelo de preços e pacotes. Para obter informações sobre licenças, consulte:
+   <li>Para obter informações sobre licenças, consulte:
    <ul>
-   <li>Novo: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Visão geral das novas licenças</a></li>
-   <li>Atual: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral das licenças</a></li></ul></li>
-   <li>Se você tiver o nível de acesso correto e ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Visão geral de novas licenças</a></li>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Visão geral de licenças</a></li></ul></li>
+   <li>Se você tiver o nível de acesso correto e ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.
    </ul>
       </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>A Workfront oferece alguns produtos que podem ser comprados além do Workfront.
-   <p>Os artigos que descrevem os procedimentos executados nesses produtos adicionais listam o produto necessário aqui.</p>
-   <ul>
-   <li>Adobe Experience Manager Assets ou Assets Essentials </li>
-   <li>Workfront Fusion</li>
-   <li>Workfront Goals</li>
-   <li>Planejador de cenário do Workfront</li>
-   <li>Workfront Planning</li>
-   </ul>
+   <td><p>Como o Workfront funciona em conjunto com outros produtos da Adobe, alguns procedimentos no Workfront interagem diretamente com esses produtos. Para seguir esses procedimentos, sua organização deve ter adquirido esse produto. Por exemplo, para usar uma funcionalidade que permita ao Workfront interagir com o Adobe Experience Manager Assets, sua organização deve ter comprado o Adobe Experience Manager Assets.</p>
+   <p>Os artigos que descrevem procedimentos executados com produtos adicionais listam o produto necessário na linha de produtos desta tabela.</p>
    <p>Para saber se sua organização adquiriu um desses produtos adicionais, entre em contato com o administrador do Workfront.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso</td> 
    <td> Os níveis de acesso são conjuntos de permissões para ações que podem ser executadas no Workfront, definidos pelo administrador do Workfront. <p>A Workfront tem níveis de acesso incorporados que correspondem às licenças da Workfront, mas o administrador do Workfront pode criar mais níveis de acesso para refletir com mais precisão os conjuntos de permissões necessários em sua organização.</p>
    <ul>
-    <li>A Adobe Workfront está fazendo a transição para um novo modelo de preços e pacotes. Para obter informações sobre níveis de acesso para cada modelo, consulte:
+    <li>Para obter informações sobre níveis de acesso, consulte:
    <ul>
-   <li>Novo: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Visão geral sobre novos níveis de acesso</a></li>
-   <li>Atual: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Visão geral dos níveis de acesso</a></li></ul></li>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Visão geral dos novos níveis de acesso</a></li>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Visão geral dos níveis de acesso</a></li></ul></li>
     <li>Para descobrir os detalhes do seu nível de acesso, entre em contato com o administrador do Workfront</li>
     <li>Se você for um administrador do Workfront, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configurar acesso ao Adobe Workfront</a> para saber mais sobre como conceder acesso a objetos específicos no nível de acesso.</li>  
    <li>Se você tiver o nível de acesso correto e ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</li>
@@ -93,10 +94,10 @@ Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atu
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront Fusion</td> 
    <td>O Adobe Workfront Fusion tem um modelo de licenciamento separado do Workfront. 
-   <ul><li>Atual: O modelo de licença atual é baseado no número de operações realizadas e não tem limitações sobre quais ações uma organização pode executar. </li>
-   <li>Herdados: as licenças herdadas se baseiam na capacidade dos cenários de se conectarem a aplicativos de terceiros ou se os cenários são usados apenas para automação do Workfront. </li>
+   <ul><li>O modelo de licença atual é baseado no número de operações realizadas e não tem limitações sobre quais ações uma organização pode executar. </li>
+   <li>As licenças herdadas são baseadas na capacidade dos cenários de se conectarem a aplicativos de terceiros ou se os cenários são usados apenas para automação do Workfront. </li>
    </ul>
-   Para obter informações sobre o licenciamento do Fusion, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">licenças do Workfront Fusion</a>.
+   Para obter informações sobre o licenciamento do Fusion, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">licenças do Workfront Fusion</a>.
    </td> 
   </tr> 
  </tbody> 
