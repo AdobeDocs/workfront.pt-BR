@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d7f91e17294981c2c31681ca7f4732f9a79d4c61
+source-git-commit: 21293cdd7a1c8f76149ee2e224fa8701e25e970e
 workflow-type: tm+mt
-source-wordcount: '8483'
+source-wordcount: '8497'
 ht-degree: 0%
 
 ---
@@ -334,6 +334,10 @@ Para obter informações, consulte [Criar tópicos da fila](/help/quicksilver/ma
 ### Atualização de interface para a caixa Editar Despesa de um projeto
 
 **Versão de visualização: 28 de agosto de 2025; Versão de produção: 4 de setembro de 2025**
+
+>[!NOTE]
+>
+>Esse recurso foi removido temporariamente dos ambientes de Pré-visualização e Produção em 15 de outubro de 2025.
 
 Atualizamos a caixa de diálogo para editar uma despesa de projeto, para corresponder a outras áreas do aplicativo. A caixa de diálogo atualizada está disponível ao editar despesas em projetos ou modelos.
 
