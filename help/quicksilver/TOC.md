@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2c9bf2eabfeaf3b67daca8b7f1bab8f867baec62
 workflow-type: tm+mt
-source-wordcount: '13454'
+source-wordcount: '13463'
 ht-degree: 2%
 
 ---
@@ -215,7 +215,8 @@ ht-degree: 2%
          * [21.1 Outras melhorias](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Atividade de versão do Adobe Workfront Planning{#planning-release-activity}
          * [Atividade de versão do Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-           [Atividade da versão do quarto trimestre de 2025 para o Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
+         * [Atividade da versão do primeiro trimestre de 2026 para o Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
+         * [Atividade de lançamento do quarto trimestre de 2025 para o Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Atividade da versão do terceiro trimestre de 2025 para o Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Atividade da versão do segundo trimestre de 2025 para o Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Atividade da versão do primeiro trimestre de 2025 para o Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
