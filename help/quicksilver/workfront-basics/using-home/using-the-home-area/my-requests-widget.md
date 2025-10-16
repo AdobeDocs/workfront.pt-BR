@@ -19,7 +19,7 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >Este artigo descreve o novo widget Minhas solicitações. Você deve ter a nova experiência de solicitação habilitada para ver o novo widget.
->>Você pode ativar a nova experiência de solicitação na área Solicitações.
+>&#x200B;>Você pode ativar a nova experiência de solicitação na área Solicitações.
 
 O widget Minhas solicitações exibe solicitações que foram enviadas para sua organização. Você pode filtrar as solicitações, pesquisar solicitações específicas ou ajustar a ordem e a visibilidade da coluna. Você também pode criar uma nova solicitação no widget Minhas solicitações.
 
