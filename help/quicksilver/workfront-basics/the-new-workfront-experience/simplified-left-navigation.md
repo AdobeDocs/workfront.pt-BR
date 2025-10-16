@@ -80,7 +80,7 @@ O painel esquerdo está disponível para os seguintes objetos:
 >[!IMPORTANT]
 >
 >Se o painel esquerdo exibir apenas uma seção por padrão, como **[!UICONTROL Todos os projetos]** na área **[!UICONTROL Projetos]**, um administrador do [!DNL Workfront] deverá adicionar pelo menos um painel a esta área ao criar um modelo de layout e atribuir você a esse modelo antes que o painel esquerdo seja exibido nessa área.
->>Para obter informações sobre como um administrador do [!DNL Workfront] personaliza o painel esquerdo em um modelo de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>&#x200B;>Para obter informações sobre como um administrador do [!DNL Workfront] personaliza o painel esquerdo em um modelo de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 O painel esquerdo está disponível para as seguintes áreas:
 
@@ -89,7 +89,7 @@ O painel esquerdo está disponível para as seguintes áreas:
 * [Seções padrão na área [!UICONTROL Recursos]](#default-sections-in-the-resourcing-area)
 * [Seções padrão na área [!UICONTROL Projetos]](#default-sections-in-the-projects-area)
 * [Seções padrão na área [!UICONTROL Folhas de horas]](#default-sections-in-the-timesheets-area)
-* [Seções padrão na área  [!DNL Goals] ](#default-sections-in-the-goals-area)
+* [Seções padrão na área  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
 
 ### Seções padrão na área [!UICONTROL Painéis]
 
@@ -274,7 +274,7 @@ Para saber quais seções estão disponíveis para áreas específicas, consulte
 
 1. (Opcional) Para remover um link rápido do painel, passe o mouse sobre o painel na navegação à esquerda e clique no ícone **Remover** ![Ícone Remover](assets/remove-dashboard-from-left.png) quando ele aparecer.
 
-1. (Opcional) Para alterar a ordem de uma seção no painel esquerdo, clique no ícone **** Arrastar![](assets/drag-icon.png) ao lado de uma seção e arraste-a para cima ou para baixo.
+1. (Opcional) Para alterar a ordem de uma seção no painel esquerdo, clique no ícone **&#x200B;**&#x200B;Arrastar![](assets/drag-icon.png) ao lado de uma seção e arraste-a para cima ou para baixo.
 
    ![Arraste uma seção](assets/drag-section.png)
 

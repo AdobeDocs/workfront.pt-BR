@@ -174,7 +174,7 @@ Você pode recalcular manualmente os campos personalizados de vários objetos ed
 >![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >
 >O Workfront calcula todos os campos personalizados para todos os projetos selecionados.
->>Nem todas as listas de todos os objetos têm esse recurso.
+>&#x200B;>Nem todas as listas de todos os objetos têm esse recurso.
 >
 >Dependendo da complexidade de seus projetos, recomendamos não selecionar um grande número de projetos ao recalcular campos personalizados calculados em massa para garantir o desempenho ideal. Alguns itens que podem tornar um projeto muito complexo podem ser várias dependências ou atribuições ou um grande número de campos personalizados.
 

@@ -31,7 +31,7 @@ Isso é útil se a política de segurança de sua organização impedir que os u
 >Todos os emails do Workfront são enviados desse endereço para aumentar o sucesso do delivery de emails e eliminar a falsificação de emails. Isso inclui alertas automatizados e comunicação entre usuários.
 >
 >Por exemplo, a linha De em um email do Workfront recebido de um usuário chamado Joan Harris seria semelhante a:
->>`Joan Harris <notifications@my.workfront.com>`
+>&#x200B;>`Joan Harris <notifications@my.workfront.com>`
 
 Para obter informações sobre como configurar o firewall da sua organização para abrir a comunicação entre o seu ambiente e os servidores da Adobe Workfront incluir na lista de permissões, consulte [Configurar o arquivo do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 

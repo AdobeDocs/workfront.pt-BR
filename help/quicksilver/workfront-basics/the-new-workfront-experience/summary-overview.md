@@ -123,7 +123,7 @@ Para obter informações sobre como acessar o [!UICONTROL Resumo] de documentos,
 
 1. (Opcional) Para fechar o painel [!UICONTROL Resumo], siga um destes procedimentos:
 
-   * Em uma lista de tarefas ou problemas, clique no ícone **** Abrir resumo![](assets/summary-panel-icon.png)
+   * Em uma lista de tarefas ou problemas, clique no ícone **&#x200B;**&#x200B;Abrir resumo![](assets/summary-panel-icon.png)
 
      Ou
 

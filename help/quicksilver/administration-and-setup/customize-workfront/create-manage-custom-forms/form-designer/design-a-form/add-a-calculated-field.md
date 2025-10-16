@@ -278,7 +278,7 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
            >
            ><div>Em um formulário personalizado anexado a um objeto, os demonstrativos de data e hora em campos personalizados calculados são calculados e salvos pelo Tempo universal coordenado (UTC), não pelas configurações de fuso horário definidas para a instância da organização e o perfil do usuário. Os cálculos em um formulário personalizado são gerados com base nos fusos horários individuais de cada usuário.</div>
 
-        +++
+      +++
 
    1. Clique na caixa de texto grande e, em seguida, clique em **Expressões** e **Campos** disponíveis para adicioná-los ao cálculo.
 

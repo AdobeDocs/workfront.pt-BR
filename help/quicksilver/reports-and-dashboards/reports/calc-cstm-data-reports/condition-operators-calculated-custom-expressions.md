@@ -31,7 +31,7 @@ Você pode criar instruções &quot;IF&quot; para os seguintes elementos do Work
 * Campos personalizados calculados
 * Regras de negócios
 
-Para obter mais informações sobre a compilação de instruções &quot;IF&quot;, consulte a [ visão geral das instruções &quot;IF&quot;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+Para obter mais informações sobre a compilação de instruções &quot;IF&quot;, consulte a [&#x200B; visão geral das instruções &quot;IF&quot;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Os exemplos neste guia ilustram o uso de operadores de condição em campos personalizados calculados. Também é possível usá-los em colunas ou agrupamentos personalizados calculados, ao seguir a sintaxe correta para campos personalizados calculados em relatórios.
 

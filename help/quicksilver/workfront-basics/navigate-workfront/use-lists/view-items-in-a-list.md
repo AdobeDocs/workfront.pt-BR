@@ -459,7 +459,7 @@ A tabela a seguir lista muitos dos ícones disponíveis na barra de ferramentas 
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
    <td>[!UICONTROL Gráfico de Gantt]</td> 
-   <td> <p>Exibir a lista na exibição de Gráfico de Gantt [!UICONTROL].</p> <p>Isso está disponível somente para projetos e tarefas.</p> </td> 
+   <td> <p>Exibir a lista na exibição de Gráfico de Gantt .</p> <p>Isso está disponível somente para projetos e tarefas.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 

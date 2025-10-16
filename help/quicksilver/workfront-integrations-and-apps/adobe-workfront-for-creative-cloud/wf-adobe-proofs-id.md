@@ -131,7 +131,7 @@ Você pode fazer upload de uma nova versão de uma prova. O plug-in lembra o flu
 1. Clique em **[!UICONTROL Nova versão]** próximo à parte inferior do plug-in.
 1. Habilitar a opção **[!UICONTROL Criar uma prova]**.
 
-1. Na seção *[!UICONTROL *Aprovações de prova]**, escolha **[!UICONTROL Básico]** ou **[!UICONTROL Automatizado]**.
+1. Na seção *[!UICONTROL *Aprovações de prova]&#x200B;**, escolha &#x200B;** [!UICONTROL Básico] **&#x200B; ou &#x200B;** [!UICONTROL Automatizado]**.
 
 1. Adicione **[!UICONTROL Revisores]** ou um **[!UICONTROL modelo de fluxo de trabalho]** com base no tipo de aprovação selecionado na etapa 7.
 

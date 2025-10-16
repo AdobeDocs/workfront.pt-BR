@@ -201,7 +201,7 @@ A tabela a seguir exibe semelhanças e diferenças entre resultados, atividades 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> ****
+  <tr> **&#x200B;**
    <td>Eles oferecem um intervalo de valores entre os valores inicial e final que ilustra o quão perto você está de atingi-los. A proximidade com o valor final calcula um valor de Progresso para a meta. </td> 
    <td>✔</td> 
    <td>✔</td> 

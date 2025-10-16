@@ -25,7 +25,7 @@ ht-degree: 0%
 >Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
->>Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>&#x200B;>Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 <!--Old:
 >[!NOTE]

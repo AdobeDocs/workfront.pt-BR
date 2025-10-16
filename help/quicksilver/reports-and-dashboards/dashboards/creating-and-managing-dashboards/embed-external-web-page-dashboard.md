@@ -29,7 +29,7 @@ Por exemplo, se sua organização tiver um repositório de documentos baseado na
 >
 >
 >* Páginas de painel não são mais suportadas como páginas externas incorporadas em Painéis. Embora os painéis existentes não sejam modificados automaticamente para remover essas páginas externas, qualquer modificação em um painel que inclua essa referência não poderá ser salva até que a referência seja removida ou alterada.
->  > Especificamente, os seguintes subdomínios Workfront.com não são mais compatíveis:
+>  &#x200B;> Especificamente, os seguintes subdomínios Workfront.com não são mais compatíveis:
 >
 >     * /dashboards&#x200B;
 >     * /dashboard/:ID&#x200B;

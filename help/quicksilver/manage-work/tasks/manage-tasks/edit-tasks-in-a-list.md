@@ -172,7 +172,7 @@ Para editar tarefas em uma lista e salvar alterações automaticamente:
 
    Ou
 
-   Clique no menu **** Mais![](assets/more-icon-task-list.png) à direita do nome da tarefa.
+   Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon-task-list.png) à direita do nome da tarefa.
 
 1. (Opcional) Selecione entre as seguintes opções:
 
@@ -292,7 +292,7 @@ Para editar tarefas em uma lista ao selecionar a opção Salvar manualmente padr
 
    Ou
 
-   Clique no menu **** Mais![](assets/more-icon-task-list.png).
+   Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon-task-list.png).
 
 1. (Opcional) Selecione entre as seguintes opções:
 
@@ -400,7 +400,7 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
 
    Ou
 
-   Clique no menu **** Mais![](assets/more-icon-task-list.png).
+   Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon-task-list.png).
 
 1. Selecione entre as seguintes opções:
 

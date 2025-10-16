@@ -50,7 +50,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique no ícone **[!UICONTROL Equipe de comutação]** ![Ícone Equipe de comutação](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Clique no menu **** Mais![](assets/more-icon.png) e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon.png) e selecione **[!UICONTROL Editar]**.
 
    Somente membros da equipe com uma licença [!UICONTROL Padrão], [!UICONTROL Plano] ou [!UICONTROL Trabalho] podem ver esta opção.
 

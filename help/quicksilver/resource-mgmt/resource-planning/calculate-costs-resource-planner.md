@@ -150,7 +150,7 @@ Embora não seja possível exibir as informações da tarefa no Planejador de Re
 
 Existem os seguintes cenários ao calcular o Custo Planejado para usuários, funções e o projeto:
 
-* Quando o **Tipo de Custo** for **De Hora em Hora do Usuário **e não houver **nenhuma atribuição** na tarefa:
+* Quando o **Tipo de Custo** for **De Hora em Hora do Usuário &#x200B;** e não houver **nenhuma atribuição** na tarefa:
 
    * **Custo Planejado de Função e Usuário**:
 

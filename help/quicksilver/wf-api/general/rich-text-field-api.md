@@ -123,4 +123,4 @@ Para salvar os seguintes valores de um campo rich text usando a API do Workfront
 1. Use o método stringify no JSON descrito acima para fazer uma solicitação do PUT e enviar atualizações.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

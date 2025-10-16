@@ -86,7 +86,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 1. Vá para o objeto no qual deseja alterar a ordem dos formulários personalizados adicionados e, em seguida, comece a editar o objeto.
 
-   **Exemplo:** Por exemplo, para gerenciar os formulários personalizados de um projeto, vá para o projeto, clique no menu **** Mais![](assets/more-icon.png) e clique em **Editar**.
+   **Exemplo:** Por exemplo, para gerenciar os formulários personalizados de um projeto, vá para o projeto, clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon.png) e clique em **Editar**.
 
 1. Na seção **Forms personalizado** para projetos, tarefas e problemas, clique no ícone ![](assets/move-icon---dots.png) ao lado do nome de um formulário personalizado. Para todos os outros objetos, clique em **Gerenciar Forms**. Essa opção é exibida somente se pelo menos um formulário personalizado estiver anexado ao objeto.
 1. Arraste um formulário ![](assets/move-icon---dots.png) para um novo local na lista.
