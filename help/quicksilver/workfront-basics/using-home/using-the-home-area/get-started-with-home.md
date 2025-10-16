@@ -140,7 +140,7 @@ Você pode adicionar um pouco de clarão pessoal à sua Página inicial selecion
 1. Vá para a Home page seguindo um destes procedimentos:
 
    * Se a Página inicial estiver definida como página de aterrissagem, clique no **ícone do Adobe Workfront** ![ícone do Adobe Workfront](assets/home-icon-30x29.png) no canto superior esquerdo da tela.
-   * Clique no ícone **Menu Principal** no canto superior direito da tela ou no **Ícone do** Menu Principal![Ícone do ](assets/main-menu-icon.png) no canto superior esquerdo, se disponível, em seguida, clique em **Página Inicial**.
+   * Clique no ícone **Menu Principal** no canto superior direito da tela ou no **Ícone do** Menu Principal![Ícone do &#x200B;](assets/main-menu-icon.png) no canto superior esquerdo, se disponível, em seguida, clique em **Página Inicial**.
 
 1. Clique em **Personalizar** no canto superior direito da tela.
 
