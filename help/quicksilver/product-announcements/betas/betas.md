@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 167037c90b2da8164db62fe6304ce935104bdf05
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '131'
 ht-degree: 1%
 
 ---
@@ -33,6 +33,9 @@ Os seguintes recursos estão disponíveis atualmente na versão beta:
 
 * O Revisor da IA do Workfront
 Para obter informações, consulte [Introdução ao Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+
+* Preenchimento de formulário de IA
+Para obter informações, consulte [Usar preenchimento de formulário de IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
 <!--
