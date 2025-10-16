@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '636'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. É pos
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso. 
++++ Expanda para exibir os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -36,59 +36,99 @@ Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. É pos
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
+   <td> 
+<p>Para ativar tipos de registro conectáveis: </p>
+<ul> 
+<li><p>Qualquer pacote do Workfront e qualquer pacote do Planning</p></li>
+<p>Ou</p>
+<li><p>Fluxo de trabalho e pacotes do Planning Prime e Ultimate</p></li></ul>
+
+<p>Para ativar tipos de registro global:</p>
+
+<ul> 
+<li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
+<p>Ou</p>
+<li><p>Fluxo de trabalho e pacotes do Planning Prime e Ultimate</p></li></ul>
+<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Permissões de objeto</p></td> 
+   <td>   <p>Gerenciar permissões em um espaço de trabalho</p>  
+   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> Produtos</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planejamento do Adobe Workfront<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Qualquer um dos seguintes planos da Workfront:</p> 
-<ul><li>Selecionar</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>O Workfront Planning não está disponível para planos herdados do Workfront</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Pacote de planejamento do Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Qualquer </p> 
-<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
    <td><p> Standard </p>
-   <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
-   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>   <p>Gerenciar permissões para um espaço de trabalho e tipo de registro </p>  
-   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
-   <p>Somente administradores do sistema podem habilitar tipos de registro para se conectar de outros espaços de trabalho</p> </td> 
-  </tr>
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace and record type </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <p>Only system administrators can enable record types to connect from other workspaces</p> </td> 
+  </tr> 
 
 </tbody> 
-</table>
-
-*Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+</table> -->
 
 ## Editar tipos de registro
 
@@ -108,7 +148,7 @@ Ou
 
 1. Na caixa **Editar tipo de registro**, a guia **Aparência** é aberta por padrão. <!--update screen shot below at preview-->
 
-   ![Guia de aparência da caixa Editar tipo de registro &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Guia de aparência da caixa Editar tipo de registro ](assets/edit-record-type-box-appearance-tab.png)
 
    Atualize as seguintes informações na guia **Aparência**:
 

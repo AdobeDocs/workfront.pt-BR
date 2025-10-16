@@ -1,11 +1,11 @@
 ---
-title: Definir Configurações de Tipo de Registro
+title: Configurar a área de configurações de um tipo de registro
 description: Você poderá editar os tipos de registro depois que eles forem salvos na página Configurações.
 hide: true
 hidefromtoc: true
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ recommendations: noDisplay, noCatalog
 
 -->
 
-# Definir Configurações de Tipo de Registro
+# Definir a área Configurações de um tipo de registro
 
 <span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
@@ -66,10 +66,8 @@ Dependendo dos recursos que deseja definir para um tipo de registro, é possíve
 <li><p>Qualquer pacote do Planning para criar tipos de registro conectáveis</p></li>
 <li><p>Pacote do Planning Plus para criar tipos de registro centralizados</p></li>
 </ul>
-Ou:
-<ul><li><p>Qualquer pacote de fluxo de trabalho</p> </li>
-E
-<li><p>Planejamento do pacote Prime ou Ultimate</p></li></ul>
+<p>Ou:</p>
+<ul><li><p>Um pacote do Workflow e do Planning Prime ou Ultimate</p> </li></ul>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 
    </td>
 

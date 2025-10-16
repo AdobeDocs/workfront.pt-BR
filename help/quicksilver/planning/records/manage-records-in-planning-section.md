@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 1%
+source-wordcount: '1828'
+ht-degree: 0%
 
 ---
 
@@ -31,54 +31,31 @@ Você pode exibir registros do Workfront Planning no Workfront nas seguintes ár
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso. 
++++ Expanda para exibir os requisitos de acesso para a funcionalidade neste artigo. 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Produtos</p> </td>
-   <td>
-   <ul><li><p> Adobe Workfront</p></li>
-   <li><p> Planejamento do Adobe Workfront<p></li></ul></td>
-  </tr>  
- <tr>
-   <td role="rowheader"><p>plano do Adobe Workfront*</p></td>
-   <td>
-<p>Qualquer um dos seguintes planos da Workfront:</p>
-<ul><li>Selecionar</li>
-<li>Prime</li>
-<li>Ultimate</li></ul>
-<p>O Workfront Planning não está disponível para planos herdados do Workfront</p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>Pacote de planejamento do Adobe Workfront*</p></td>
-   <td>
-<p>Qualquer</p>
-<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p>
-   </td>
-
-<tr>
-   <td role="rowheader"><p>plataforma Adobe Workfront</p></td>
-   <td>
-<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p>
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p>
-   </td>
-  </tr>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
-   <td>
-   <p>Standard</p>
-   <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p>
-  </td>
-  </tr>
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
+   <td> 
+<ul> 
+<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
+Ou
+<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
+<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
   <tr>
    <td role="rowheader"><p>Configuração do nível de acesso</p></td>
    <td> <p>Visualize ou tenha mais acesso a projetos, programas e portfólios</p>  
@@ -89,20 +66,88 @@ Você pode exibir registros do Workfront Planning no Workfront nas seguintes ár
    <td role="rowheader"><p>Permissões de objeto</p></td>
    <td>
    <p>No Workfront, visualize ou aumente as permissões para um projeto, portfólio ou programa</a> </p> 
-   <p>No Workfront Planning:
-   <ul><li>
-   Exibir permissões para um espaço de trabalho e tipo de registro para exibir registros conectados </li>
-   ou
-   <li> Contribuir com permissões ou mais altas para um espaço de trabalho e tipo de registro para conectar ou desconectar registros</a></li></ul> </p>  
+   <p>No Workfront Planning:</p>
+   <ul><li>Exibir permissões para um espaço de trabalho e tipo de registro para exibir registros conectados </li>
+   Ou
+   <li> Contribuir com permissões ou mais altas para um espaço de trabalho e tipo de registro para conectar ou desconectar registros</a></li></ul> 
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho do Workfront Planning, incluindo aqueles que eles não criaram</p> 
+  </td>
+  </tr>   
+</tbody> 
+</table>
+
+Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+
+<!--Old:
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Products</p> </td>
+   <td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
+  </tr>  
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+   <td>
+<p>Any of the following Workfront plans:</p>
+<ul><li>Select</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning is not available for legacy Workfront plans</p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td>
+   <td>
+<p>Any</p>
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
+   <td>
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+   </td>
+  </tr>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td>
+   <p>Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+  </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>View or higher access to Projects, Programs, and Portfolios</p>  
+   <p>There is no access level configuration for Workfront Planning. </p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Object permissions</p></td>
+   <td>
+   <p>In Workfront, View or higher permissions to a project, portfolio, or program</a> </p> 
+   <p>In Workfront Planning:
+   <ul><li>
+   View permissions to a workspace and record type to view any connected records </li>
+   or
+   <li> Contribute or higher permissions to a workspace and record type  to connect or disconnect records</a></li></ul> </p>  
+   <p>System Administrators have permissions to all Workfront Planning workspaces, including the ones they did not create</p> 
   </td>
   </tr>
  </tbody>
-</table>
-
-*Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 
 ## Gerenciar registros na seção Planejamento

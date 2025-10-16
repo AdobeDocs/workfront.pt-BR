@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 30b99255a2178f972f9a9f3f7eda5f2929a24978
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '13446'
+source-wordcount: '13454'
 ht-degree: 2%
 
 ---
@@ -450,7 +450,7 @@ ht-degree: 2%
          * [Criar um cronograma](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
       * Configuração organizacional {#organization-setup}
          * [Configuração organizacional](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
-         * [Gerenciar empresas](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
+         * [Criar e editar empresas](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
          * [Gerenciar associações de empresa](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
          * [Desativar ou reativar uma empresa](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
          * [Função de trabalho](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
@@ -1226,7 +1226,7 @@ ht-degree: 2%
          * [Agendar recursos para um projeto](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
          * [Comunicar com os membros da equipe do projeto](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
          * [Gerenciar um projeto na visualização Agile](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
-         * [Visão geral das métricas do projeto](manage-work/projects/manage-projects/project-metrics.md)
+         * [Entender as métricas do projeto](manage-work/projects/manage-projects/project-metrics.md)
          * [Visão geral dos limites do projeto](manage-work/projects/manage-projects/project-maximums.md)
          * [Resumir atualizações com o Assistente de IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
       * Criar e gerenciar modelos de projeto {#create-and-manage-project-templates}
@@ -1375,7 +1375,7 @@ ht-degree: 2%
          * [Atualizar as horas planejadas e a duração de uma tarefa com um tipo de duração simples](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
          * [Tipos de duração em projetos do Adobe Workfront e do Microsoft](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
       * Usar predecessores da tarefa {#use-task-predecessors}
-         * [Usar predecessores da tarefa](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+         * [Usar predecessores da tarefa: índice do artigo](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
          * [Visão geral das predecessoras da tarefa](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
          * [Criar uma relação de predecessora na lista de tarefas](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
          * [Criar um relacionamento predecessor usando a área Predecessores](manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
@@ -1390,24 +1390,24 @@ ht-degree: 2%
          * [Perguntas frequentes de tarefas](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
          * [A duração do projeto não corresponde à duração planejada](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
    * Problemas {#issues}
-      * [Problemas](manage-work/issues/issues-overview.md)
+      * [Problemas: índice do artigo](manage-work/issues/issues-overview.md)
       * Converter problemas {#convert-issues}
-         * [Converter problemas](manage-work/issues/convert-issues/convert-issues-overview.md)
+         * [Converter problemas: índice do artigo](manage-work/issues/convert-issues/convert-issues-overview.md)
          * [Visão geral da conversão de problemas no Adobe Workfront](manage-work/issues/convert-issues/convert-issues.md)
-         * [Converter um problema em um projeto no Adobe Workfront](manage-work/issues/convert-issues/convert-issue-to-project.md)
-         * [Converter um problema em uma tarefa no Adobe Workfront](manage-work/issues/convert-issues/convert-issue-to-task.md)
+         * [Converter um problema em um projeto](manage-work/issues/convert-issues/convert-issue-to-project.md)
+         * [Converter um problema em uma tarefa](manage-work/issues/convert-issues/convert-issue-to-task.md)
          * [Visão Geral de Objetos Resolventes e Resolvíveis](manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
          * [Desvincular problemas de seus Objetos de resolução](manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)
          * [Vincular manualmente a resolução de um problema a outros problemas, tarefas ou projetos](manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
       * Informações do problema {#issue-information}
-         * [Informações do problema](manage-work/issues/issue-information/issue-info-overview.md)
+         * [Informações da edição: índice do artigo](manage-work/issues/issue-information/issue-info-overview.md)
          * [Visão geral da duração do problema](manage-work/issues/issue-information/issue-duration.md)
          * [Atualizar prioridade do problema](manage-work/issues/issue-information/update-issue-priority.md)
          * [Atualizar severidade do problema](manage-work/issues/issue-information/update-issue-severity.md)
          * [Visão geral da Data de conclusão planejada do problema](manage-work/issues/issue-information/issue-planned-completion-date.md)
          * [Use &quot;opTask&quot; e &quot;issue&quot; ao fazer referência a problemas](manage-work/issues/issue-information/use-optask-instead-of-issue.md)
       * Gerenciar problemas {#manage-issues}
-         * [Gerenciar problemas](manage-work/issues/manage-issues/manage-issues-overview.md)
+         * [Gerenciar problemas: índice do artigo](manage-work/issues/manage-issues/manage-issues-overview.md)
          * [Criar problemas](manage-work/issues/manage-issues/create-issues.md)
          * [Atribuir problemas](manage-work/issues/manage-issues/assign-issues.md)
          * [Exibir problemas](manage-work/issues/manage-issues/view-issues.md)
@@ -1436,9 +1436,9 @@ ht-degree: 2%
          * [Portfólios: índice de artigos](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [Navegar em um portfólio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [Visão geral do gerenciamento do Portfolio](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-         * [Visão geral do Portfolio no Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+         * [Entender a metodologia de portfólio](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
       * Criar e gerenciar portfólios {#create-and-manage-portfolios}
-         * [Criar e gerenciar portfólios](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
+         * [Criar e gerenciar portfólios: índice de artigos](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [Criar um portfólio](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
          * [Excluir e desativar portfólios](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
          * [Editar portfólios](manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
@@ -1455,7 +1455,7 @@ ht-degree: 2%
          * [Remover um projeto de um programa](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
          * [Excluir e desativar programas](manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
       * Gerenciar projetos no Portfolio Otimizer {#manage-projects-in-portfolio-optimizer}
-         * [Gerenciar projetos no Portfolio Otimizer](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
+         * [Gerenciar projetos no Portfolio Otimizer: índice de artigos](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [Visão geral do Portfolio Otimizer](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
          * [Localize o Portfolio Otimizer](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
          * [Visão geral da pontuação do Portfolio Otimizer](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
@@ -1507,7 +1507,7 @@ ht-degree: 2%
       * [Exibir o organograma](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
    * Trabalhar com grupos e equipes {#work-with-groups-teams}
       * [Trabalhar com grupos e equipes](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
-      * [Grupos versus equipes no Adobe Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+      * [Grupos versus equipes no Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
    * Trabalhar com solicitações de equipe {#work-with-team-requests}
       * [Trabalhar com solicitações de equipe](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
       * [Visão geral de solicitações de equipe](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
@@ -1999,7 +1999,7 @@ ht-degree: 2%
       * [Rastrear registros de horas com a API do Adobe Workfront](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
       * [Não é possível registrar horas para datas futuras](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
 * Planejador de cenários do Adobe Workfront {#scenario-planner}
-   * [Planejador de cenários do Adobe Workfront](scenario-planner/scenario-planning.md)
+   * [[!DNL Adobe Workfront Scenario Planner]: índice do artigo](scenario-planner/scenario-planning.md)
    * [Introdução ao Scenario Planner](scenario-planner/get-started-with-scenario-planning.md)
    * [A visão geral do Planejador de cenários](scenario-planner/scenario-planner-overview.md)
    * [Acesso necessário para usar o Planejador de cenários](scenario-planner/access-needed-to-use-sp.md)
@@ -2087,6 +2087,7 @@ ht-degree: 2%
       * [Criar tipos de registro importando informações de um arquivo CSV ou do Excel](planning/architecture/import-file-to-create-record-types.md)
       * [Visão geral dos tipos de registro entre espaços de trabalho](planning/architecture/cross-workspace-record-types-overview.md)
       * [Configurar recursos entre espaços de trabalho para tipos de registro](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+      * [Definir a área Configurações de um tipo de registro](planning/architecture/configure-record-type-settings.md)
       * [Adicionar tipos de registro existentes de outro espaço de trabalho](planning/architecture/add-existing-record-types-from-another-workspace.md)
       * [Visão geral dos tipos de registro do Connect](planning/architecture/connect-record-types-overview.md)
       * [Conectar tipos de registro](planning/architecture/connect-record-types.md)
@@ -2491,7 +2492,6 @@ ht-degree: 2%
    * Notas da API {#api-notes}
       * [Notas da API](wf-api/api/api.md)
       * [Upload de arquivos por meio da API](wf-api/api/uploading-files-api.md)
-      * [Encerramento do suporte para JSONP](wf-api/api/ending-support-jsonp.md)
       * [Obter tempo disponível do usuário](wf-api/api/api-user-available-time.md)
       * [Atualizar integrações que usam o controle de versão da API padrão](wf-api/api/update-default-api-versioning.md)
       * [Filtrar mensagens de assinatura de eventos](wf-api/api/filter-event-sub-messages.md)

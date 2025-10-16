@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e717e095f1995dbed0232789616d42492156d843
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
@@ -16,12 +16,14 @@ ht-degree: 1%
 
 # Gerenciar exibições de registro
 
-<!-- take preview and production references out at production-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -54,7 +56,7 @@ Para obter mais informações sobre o gerenciamento de exibições de registros 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso. 
++++ Expanda para exibir os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -64,48 +66,23 @@ Para obter mais informações sobre o gerenciamento de exibições de registros 
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Produtos</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planejamento do Adobe Workfront<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer um dos seguintes planos da Workfront:</p> 
-<ul><li>Selecionar</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>O Workfront Planning não está disponível para planos herdados do Workfront</p> 
+<ul> 
+<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
+Ou
+<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
+<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Pacote de planejamento do Adobe Workfront*</p></td> 
-   <td> 
-<p>Qualquer </p> 
-<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
-   <td> 
-<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
   <tr> 
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td><p> Padrão para criar e excluir visualizações</p>
    <p>Colaborador ou superior para atualizar elementos de visualização</p>
-   <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
-   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para uma exibição</p>  
    <p>Exibir permissões de um modo de exibição para alterar temporariamente as configurações de modo de exibição ou duplicá-lo</p> </td> 
@@ -115,13 +92,78 @@ Para obter mais informações sobre o gerenciamento de exibições de registros 
    <td> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
    <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
 </td>
-  </tr>
+  </tr> 
 </tbody> 
 </table>
 
-*Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++
+
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+</tbody> 
+</table>-->
 
 ## Considerações ao trabalhar com visualizações de registro
 
@@ -171,8 +213,8 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 | Exibir registros por mês |           | ✓ | ✓ |
 | Exibir registros por semana |           |               | ✓ |
 | Exportar informações de uma visualização | ✓ |               |    |
-| <span class="preview">Exibir em tela inteira</span> | ✓ | ✓ | ✓ |
-| <span class="preview">Criar registros na exibição</span> | ✓ | ✓ | ✓ |
+| Exibir em tela inteira | ✓ | ✓ | ✓ |
+| Criar registros na exibição | ✓ | ✓ | ✓ |
 
 ## Criar ou editar exibições {#create-or-edit-views}
 
@@ -189,10 +231,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-1. Dependendo do ambiente usado, faça o seguinte:
-
-   * No ambiente de Produção, clique na guia **+Exibir**.
-   * <span class="preview">No ambiente de Visualização, clique no ícone suspenso ![Ícone suspenso](assets/drop-down-icon.png) ao lado do nome do modo de exibição atual e clique em **+Novo modo de exibição**.</span>
+1. Clique no ícone suspenso ![Ícone suspenso](assets/drop-down-icon.png) ao lado do nome do modo de exibição atual e clique em **+Novo modo de exibição**.
 
 1. Selecione entre os seguintes tipos de exibições:
 
@@ -200,9 +239,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
    * Linha do tempo
    * Calendário
 
-   No ambiente de Produção, uma nova guia é criada com a exibição selecionada.
-
-   Dependendo da largura da tela, modos de exibição adicionais podem ser exibidos no menu **Mais** ![Mais menu](assets/more-menu.png).
+1. Escolha um tipo de exibição e clique em **Criar**. Uma nova visualização é adicionada ao menu suspenso.
 
    >[!TIP]
    >
@@ -211,16 +248,14 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
    >Para criar uma exibição de linha do tempo ou calendário, o tipo de registro para o qual você cria a exibição deve ter pelo menos dois campos de data.
    >
    >Caso contrário, as opções Linha do tempo e Calendário estarão esmaecidas.
-   >
+   >  
 
-   <span class="preview">No ambiente de Visualização, escolha um tipo de exibição e clique em **Criar**. Uma nova visualização é adicionada ao menu suspenso. </span>
+   ![Criar caixa de exibição](assets/create-view-box.png)
 
-   <span class="preview">![Criar caixa de exibição](assets/create-view-box.png)</span>
+1. (Opcional) Para editar um modo de exibição existente, clique no menu suspenso à direita do nome do modo de exibição atual, digite o nome de um modo de exibição no campo **Pesquisa** e pressione Enter no teclado.
+1. (Opcional) No menu suspenso Exibir, arraste e solte as exibições na ordem de sua preferência.
 
-1. <span class="preview">Para editar um modo de exibição existente, digite o nome de um modo de exibição no campo **Pesquisa** e pressione Enter no teclado.</span>
-1. <span class="preview">No menu suspenso Exibir, arraste e solte as exibições em ordem de preferência.</span>
-
-   <span class="preview">![Exibir lista suspensa de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)</span>
+   ![Exibir lista suspensa de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Condicional) Clique em **Avançar** ao criar uma exibição de linha do tempo ou calendário.
 
@@ -254,7 +289,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
    Clique duas vezes no nome da exibição e comece a digitar o novo nome.  <!--ensure there is not another saving step here?!-->
 
-1. <span class="preview">(Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir qualquer modo de exibição em tela cheia, em seguida, no ícone **Sair da tela cheia** ![Sair da tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.  </span>
+1. (Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir qualquer modo de exibição em tela cheia, em seguida no ícone **Sair da tela cheia** ![Sair do ícone de tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.
 
 1. (Opcional) Para gerenciar um tipo específico de visualização, consulte os seguintes artigos:
 

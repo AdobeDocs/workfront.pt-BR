@@ -4,9 +4,9 @@ description: Os tipos de registro global podem ser adicionados a vários espaço
 hidefromtoc: true
 hide: true
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -79,18 +79,23 @@ O tipo de registro configurado para ser global tem as seguintes propriedades:
    * Editar
 
      A edição de um tipo de registro global inclui a edição de sua aparência, recursos entre espaços de trabalho e todos os campos criados no espaço de trabalho original.
-   * Criar formulários de solicitação
-   * Gerenciar formulários de solicitação
+   * Criar e gerenciar formulários de solicitação
+   * Criar e gerenciar automações
 
 * Você só poderá deletar um tipo de registro global se ele não tiver sido adicionado a um espaço de trabalho secundário. Você deve primeiro removê-lo (excluindo-o) dos espaços de trabalho secundários antes de excluí-lo do espaço de trabalho original.
+
+  Para obter mais informações, consulte [Excluir tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
 * Os registros adicionados a um tipo de registro global ficam visíveis somente para usuários com permissões de Exibição no espaço de trabalho ao qual foram adicionados.
 * Os registros adicionados de um espaço de trabalho secundário são totalizados e exibidos no espaço de trabalho original. Todos os membros do espaço de trabalho original obtêm permissões de Exibição para eles.
-* Se o tipo de registro global original for adicionado a vários espaços de trabalho secundários, você poderá exibir os registros adicionados a outros espaços de trabalho somente a partir do espaço de trabalho original ou de espaços de trabalho nos quais você tem pelo menos permissões para Exibir.
+* Quando o tipo de registro global original é adicionado a vários espaços de trabalho secundários, os seguintes cenários existem:
+
+   * Os membros do espaço de trabalho original obtêm automaticamente permissões de Exibição para todos os registros adicionados de qualquer espaço de trabalho, mesmo que não sejam membros desses espaços de trabalho.
+   * Os membros do espaço de trabalho secundário podem exibir somente registros de espaços de trabalho dos quais são membros.
 * Os tipos de registro conectados de um tipo de registro global se tornarão disponíveis para conexão a partir dos espaços de trabalho em que esse tipo de registro for adicionado.
 
   Por exemplo, se você tiver um tipo de registro global do Campaign que tenha uma conexão com um tipo de registro Regiões e adicionar o tipo de registro Campanha a um espaço de trabalho secundário, as Regiões se tornarão conectáveis entre espaços de trabalho do espaço de trabalho secundário. Os membros do espaço de trabalho secundário agora podem criar campanhas e vinculá-las a regiões.
 
-* Os campos criados para um tipo de registro global do espaço de trabalho original são visíveis em todos os espaços de trabalho em que o tipo de registro é adicionado. As configurações de campo de um espaço de trabalho original são somente leitura nos espaços de trabalho secundários.
+* Os campos criados para um tipo de registro global do espaço de trabalho original são visíveis em todos os espaços de trabalho em que o tipo de registro é adicionado. É possível editar configurações de campo somente no espaço de trabalho original. As configurações dos campos criados no espaço de trabalho original são somente leitura nos espaços de trabalho secundários para todos os membros, independentemente de suas permissões no espaço de trabalho secundário. Os gerentes de espaço de trabalho secundário não podem modificar as configurações de campo para campos configurados no espaço de trabalho original. Somente os gerentes de espaço de trabalho do espaço de trabalho original podem modificar as configurações de campo no espaço de trabalho original.
 
 ### Considerações sobre tipos de registro global em um espaço de trabalho secundário
 
@@ -103,6 +108,8 @@ O tipo de registro configurado para ser global tem as seguintes propriedades:
    * Excluí-lo.
 
      A exclusão do tipo de registro de um espaço de trabalho secundário o remove apenas do espaço de trabalho secundário. Os registros e campos adicionados a ele a partir do espaço de trabalho secundário também são excluídos. Isso não exclui o tipo de registro de seu espaço de trabalho original ou de qualquer outro espaço de trabalho secundário ao qual ele tenha sido adicionado.
+
+     Para obter mais informações, consulte [Excluir tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
 
   <!--These two capabilities will come later - and edit some of the bullets below after these capabilities are released:
     * Add new fields
@@ -128,7 +135,7 @@ O tipo de registro configurado para ser global tem as seguintes propriedades:
 * Existem os seguintes cenários para registros criados em espaços de trabalho secundários:
 
    * Se você tiver permissões Gerenciar no espaço de trabalho original e não tiver permissões em um espaço de trabalho secundário, poderá exibir registros adicionados dos espaços de trabalho secundários no espaço de trabalho original, mas não poderá gerenciá-los no espaço de trabalho original.
-   * Se você tiver permissões Gerenciar no espaço de trabalho secundário, poderá gerenciar os registros no espaço de trabalho original do tipo de registro global ou no espaço de trabalho em que eles foram adicionados.
+   * Se você tiver permissões de Gerenciamento no espaço de trabalho secundário, poderá gerenciar os registros do espaço de trabalho original do tipo de registro global e do espaço de trabalho secundário em que eles foram adicionados.
    * Você pode exibir os registros em espaços de trabalho secundários adicionais onde o tipo de registro global é adicionado somente se tiver permissões de Exibição para esses espaços de trabalho.
 
 ### Acesso às conexões de um tipo de registro global

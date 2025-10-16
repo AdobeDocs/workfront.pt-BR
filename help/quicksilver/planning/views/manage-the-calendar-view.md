@@ -6,18 +6,21 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1772'
 ht-degree: 4%
 
 ---
 
 # Gerenciar a exibição de calendário
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -27,7 +30,7 @@ Para obter informações sobre os modos de exibição do Adobe Workfront Plannin
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso. 
++++ Expanda para exibir os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -37,47 +40,23 @@ Para obter informações sobre os modos de exibição do Adobe Workfront Plannin
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Produtos</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planejamento do Adobe Workfront<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer um dos seguintes planos da Workfront:</p> 
-<ul><li>Selecionar</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>O Workfront Planning não está disponível para planos herdados do Workfront</p> 
+<ul> 
+<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
+Ou
+<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
+<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Pacote de planejamento do Adobe Workfront*</p></td> 
-   <td> 
-<p>Qualquer </p> 
-<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
-   <td> 
-<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
-   </td> 
-   </tr> 
-  </tr> 
-    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
+  <tr> 
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td><p> Padrão para criar e excluir visualizações</p>
    <p>Colaborador ou superior para atualizar elementos de visualização</p>
-   <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
-   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td>   <p>Gerenciar permissões para uma exibição</p>  
    <p>Exibir permissões de um modo de exibição para alterar temporariamente as configurações de modo de exibição ou duplicá-lo</p> </td> 
@@ -87,14 +66,77 @@ Para obter informações sobre os modos de exibição do Adobe Workfront Plannin
    <td> Os usuários com uma licença Light ou Contributor devem receber um modelo de layout que inclua o Planning.
    <p>Usuários padrão e Administradores do sistema têm as áreas do Planning habilitadas por padrão.</p></div></li></ul>
 </td>
-  </tr>
-
+  </tr> 
 </tbody> 
 </table>
 
-*Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++ 
+
+<!--Old:
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard to create and delete views</p>
+   <p>Contributor or higher to update view elements</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings or to duplicate it</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> Users with a Light or Contributor license must be assigned a layout template that includes Planning.
+   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div></li></ul>
+</td>
+  </tr>
+
+</tbody> 
+</table> -->
 
 ## Gerenciar uma exibição de calendário {#manage-a-calendar-view}
 
@@ -116,13 +158,9 @@ Para gerenciar uma exibição de calendário:
 1. Vá para a página do tipo de registro para a qual deseja exibir o calendário.
 1. Crie uma exibição de calendário, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <div class="preview">
-
    ![Exemplo de exibição de calendário](assets/calendar-view-example.png)
 
    Os registros associados ao tipo de registro selecionado são exibidos como barras em um calendário. A cor das barras corresponde à cor do ícone de registro, por padrão.
-
-   </div>
 
 1. Siga um destes procedimentos para navegar pelo calendário:
 
@@ -137,23 +175,23 @@ Para gerenciar uma exibição de calendário:
          * Os registros que se estendem por vários dias são exibidos na parte superior do calendário.
          * Os registros que duram um dia ou menos são exibidos na metade inferior da exibição do calendário. Se você optou por exibir a hora das datas inicial e final, o registro será exibido no horário apropriado no dia em que ocorre.
 
-1. <span class="preview">(Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir o modo de exibição em tela cheia, em seguida, no ícone **Sair da tela cheia** ![Sair do ícone de tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.  </span>
+1. (Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir o modo de exibição em tela cheia, em seguida no ícone **Sair da tela cheia** ![Sair do ícone de tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.
 
-1. <span class="preview">Para criar registros na exibição de calendário ou editar suas datas, siga um destes procedimentos:</span>
+1. Para criar registros na exibição de calendário ou editar suas datas, siga um destes procedimentos:
 
-   * <span class="preview">Clique duas vezes em qualquer lugar do calendário para criar um registro. </span>
+   * Clique duas vezes em qualquer lugar do calendário para criar um registro.
 
-     <span class="preview">Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).</span>
+     Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
 
-   * <span class="preview">Clique na margem esquerda ou direita de uma barra de registros e arraste-a e solte-a em uma nova posição. O redimensionamento das barras de registros atualiza as datas de início ou término imediatamente. </span>
+   * Clique na margem esquerda ou direita de uma barra de registros e, em seguida, arraste e solte-a em uma nova posição. O redimensionamento das barras de registros atualiza as datas de início ou término imediatamente.
 
-   * <span class="preview">Arraste e solte as barras de registro para atualizar sua posição e datas. Mover as barras dos registros atualiza as datas de início e término imediatamente.</span>
+   * Arraste e solte as barras de registro para atualizar sua posição e datas. Mover as barras dos registros atualiza as datas de início e término imediatamente.
 
-     <span class="preview">Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).</span>
+     Para obter informações, consulte [Editar registros](/help/quicksilver/planning/records/edit-records.md).
 
 1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
    * [Filtros](#add-filters)
-   * <span class="preview">[Altura da linha](#modify-row-height)</span>
+   * [Altura da linha](#modify-row-height)
    * [Configurações](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -277,7 +315,6 @@ Para adicionar um filtro a uma exibição de calendário:
 1. (Opcional) Clique no ícone **x** para remover uma condição de filtro.
 1. (Opcional) Clique em **Filtros** para fechar a caixa de filtros. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<span class="preview">
 
 ### Modificar altura da linha
 

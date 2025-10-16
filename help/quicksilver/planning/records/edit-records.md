@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,12 @@ ht-degree: 0%
 
 <!--keep the choice values information in yellow till Jan 2026-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -36,7 +39,7 @@ Para obter informações sobre como criar registros, consulte [Criar registros](
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para exibir os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -46,58 +49,87 @@ Para obter informações sobre como criar registros, consulte [Criar registros](
 <tbody> 
     <tr> 
 <tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
+   <td> 
+<ul> 
+<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
+Ou
+<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
+<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
+   </td> 
+  <tr> 
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Permissões de objeto</p></td> 
+   <td>   <p>Contribuir com ou mais permissões para um espaço de trabalho e tipo de registro  </p>  
+   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p> </td> 
+  </tr>   
+</tbody> 
+</table>
+
+Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
 <td> 
-   <p> Produtos</p> </td> 
+   <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planejamento do Adobe Workfront<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
    <td> 
-<p>Qualquer um dos seguintes planos da Workfront:</p> 
-<ul><li>Selecionar</li> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
 <li>Prime</li> 
 <li>Ultimate</li></ul> 
-<p>O Workfront Planning não está disponível para planos herdados do Workfront</p> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Pacote de planejamento do Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
    <td> 
-<p>Qualquer </p> 
-<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
-   <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
    <td> <p>Standard</p> 
-   <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
-   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p>   
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>  <p>Permissões do Contribute ou superior para um espaço de trabalho e tipo de registro </a> </p>  
-   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  </td> 
-  </tr>
-
-</tbody> 
-</table>
-
-*Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++   
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr> -->
 
 ## Considerações sobre a edição de registros
 
@@ -107,7 +139,7 @@ Para obter informações sobre como criar registros, consulte [Criar registros](
    * A visualização do registro em uma exibição de registro
    * A página de detalhes do registro
    * Em linha, em uma exibição de tabela.
-   * <span class="preview"> O calendário e a linha do tempo, ao redimensionar <!--or dragging and dropping--> os registros. Isso atualiza as datas dos registros.</span>
+   * A exibição de calendário e linha do tempo ao redimensionar ou arrastar e soltar os registros. Isso atualiza as datas dos registros.
 
 * Quando um usuário edita um registro em uma exibição, as alterações são visíveis imediatamente em todas as exibições e nas páginas de registro para todos os outros usuários.
 
@@ -233,11 +265,11 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
 1. Abra a página de tipo de registro em uma exibição de linha do tempo. Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-1. <span class="preview">Passe o mouse sobre as extremidades da barra de um registro, clique, arraste e solte sua margem em outra data. Isso atualiza automaticamente a data inicial ou final do registro.</span>
+1. Passe o mouse sobre as extremidades da barra de um registro, clique, arraste e solte sua margem em outra data. Isso atualiza automaticamente a data inicial ou final do registro.
 
-   <span class="preview">![Barra de extremidade esquerda na exibição de linha do tempo a ser redimensionada](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+   ![Barra de extremidade esquerda na exibição de linha do tempo a ser redimensionada](assets/left-end-bar-handle-to-resize-timeline-view.png)
 
-1. <span class="preview">Clique e segure uma barra de registros, em seguida arraste e solte-a em outra posição para atualizar sua linha do tempo e datas. As datas de Início e Término do registro são atualizadas automaticamente.</span>
+1. Clique e segure uma barra de registro, em seguida, arraste e solte-a em outra posição para atualizar sua linha do tempo e datas. As datas de início e término do registro são atualizadas automaticamente.
 
 1. Clique na barra de um registro para abrir sua área de detalhes e editar todos os campos.
 
@@ -248,11 +280,11 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 <!--add another step about drag and drop here when that is available-->
 
 1. Abra a página de tipo de registro em uma exibição de calendário. Para obter informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/planning/views/manage-the-calendar-view.md).
-1. <span class="preview">(Condicional) Passe o mouse sobre as extremidades da barra de um registro no modo de exibição de calendário, em seguida, clique em, arraste e solte suas margens em outra data. Isso atualiza automaticamente a data inicial ou final do registro.</span>
+1. (Condicional) Passe o mouse sobre as extremidades da barra de um registro na exibição de calendário, em seguida, clique, arraste e solte suas margens em outra data. Isso atualiza automaticamente a data inicial ou final do registro.
 
-   <span class="preview">![Barra de extremidade esquerda na exibição de calendário a ser redimensionada](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+   ![Barra de extremidade esquerda na exibição de calendário a ser redimensionada](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
-1. <span class="preview">Clique e segure uma barra de registros, em seguida arraste e solte-a em outra posição para atualizar sua linha do tempo e datas. As datas de Início e Término do registro são atualizadas automaticamente.</span>
+1. Clique e segure uma barra de registro, em seguida, arraste e solte-a em outra posição para atualizar sua linha do tempo e datas. As datas de início e término do registro são atualizadas automaticamente.
 
 1. Clique na barra de um registro para abrir sua área de detalhes e editar todos os campos.
 
@@ -378,8 +410,6 @@ Depois de conectar registros a objetos do Workfront, você pode editar os regist
 
 Para obter mais informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-<div class="preview">
-
 ## Editar configurações de campo de seleção única ou múltipla ao atualizar seus valores
 
 <!--some of this information is also available in Edit fields article - update both when necessary-->
@@ -410,4 +440,3 @@ Para adicionar uma nova opção a um campo de seleção existente ao editar um r
 
    <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
 
-</div>

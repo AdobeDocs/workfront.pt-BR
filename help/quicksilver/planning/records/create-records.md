@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: '3131'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,12 @@ ht-degree: 0%
 
 # Criar registros
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -28,14 +31,8 @@ Você pode criar registros seguindo um destes procedimentos:
 
 * [Use o botão Novo registro ou Solicitar registro de qualquer exibição de tipo de registro](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [Adicioná-los em linha a partir da exibição de tabela do tipo de registro](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-
-<div class="preview">
-
 * [Adicioná-los na exibição de linha do tempo do tipo de registro](#create-records-by-adding-them-in-the-record-type-timeline-view)
 * [Adicioná-los na exibição de calendário do tipo de registro](#create-records-by-adding-them-in-the-record-type-calendar-view)
-
-</div>
-
 * [Copiar e colar uma lista de registros de uma lista externa](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplicar registros de uma exibição de tabela](#create-records-by-duplicating-them)
 * [Conectá-los a partir de outros registros](#create-records-as-you-connect-them)
@@ -50,7 +47,7 @@ Para obter informações sobre o gerenciamento de registros nas exibições de t
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.  
++++ Expanda para exibir os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -60,62 +57,97 @@ Para obter informações sobre o gerenciamento de registros nas exibições de t
 <tbody> 
     <tr> 
 <tr> 
-<td> 
-   <p> Produtos</p> </td> 
-   <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Planejamento do Adobe Workfront<p></li></ul></td> 
-  </tr>   
+</tr>   
 <tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer um dos seguintes planos da Workfront:</p> 
-<ul><li>Selecionar</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>O Workfront Planning não está disponível para planos herdados do Workfront</p> 
+<ul> 
+<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
+Ou
+<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
+<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
-<tr> 
-   <td role="rowheader"><p>Pacote de planejamento do Adobe Workfront*</p></td> 
-   <td> 
-<p>Qualquer </p> 
-<p>Para obter mais informações sobre o que está incluído em cada plano do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 
+  <tr> 
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
+   <td><p>Standard</p>
    </td> 
- <tr> 
-   <td role="rowheader"><p>plataforma Adobe Workfront</p></td> 
-   <td> 
-<p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
-   </td> 
-   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td> Standard
-   <p>O Workfront Planning não está disponível para licenças herdadas do Workfront</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
-   <td> <p>Não há controles de nível de acesso para o Adobe Workfront Planning</p> 
-   <p>Edite o acesso no Workfront para os tipos de objeto que deseja criar (projetos, programas e portfólios) à medida que os registros são conectados a eles. </p>  
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
    <td> <p>Permissões do Contribute ou superior para o espaço de trabalho e tipo de registro ao qual você deseja adicionar registros. </p>
    <p>Exiba ou aumente as permissões para o espaço de trabalho e o tipo de registro para criar registros usando o botão Solicitar registro na página de registro</p>
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>
    <p>Gerencie permissões para objetos do Workfront (portfólios) para adicionar objetos secundários (projetos).</p>
    </td> 
-  </tr>
-
+  </tr>  
 </tbody> 
 </table>
 
-*Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++   
+
+<!--Old:
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning package*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect the records to them. </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Contribute or higher permissions to the workspace and record type where you want to add records. </p>
+   <p>View or higher permissions to the workspace and record type to create records using the Request record button on the record page</p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
+   </td> 
+  </tr> 
+
+</tbody> 
+</table> -->
 
 ## Criar registros usando o botão Novo registro ou Solicitar registro de qualquer exibição de tipo de registro
 
@@ -275,8 +307,6 @@ Os registros do tipo selecionado são exibidos na visualização.
    * CTRL + Shift + Z (⌘ + Shift + Z para Mac) para refazer uma alteração
 
 
-<div class="preview">
-
 ## Criar registros adicionando-os na exibição de linha do tempo do tipo de registro
 
 Você pode criar registros na exibição de linha do tempo de uma página de tipo de registro clicando duas vezes na linha do tempo.
@@ -341,9 +371,7 @@ Para obter informações sobre como criar um modo de exibição de linha do temp
    >
    >A miniatura é exibida na exibição de linha do tempo somente quando está ativada nas Configurações da exibição.
 
-</div>
 
-<div class="preview">
 
 ## Criar registros adicionando-os na exibição de calendário do tipo de registro
 
@@ -408,9 +436,6 @@ Para obter informações sobre como criar um modo de exibição de calendário, 
    >A miniatura é exibida na exibição de calendário somente quando está habilitada nas Configurações da exibição.
 
    <!--(*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)-->
-
-   </div>
-
 
 ## Criar registros copiando e colando-os de uma lista externa
 
