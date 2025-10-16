@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '809'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
@@ -57,14 +57,20 @@ Você deve ter o seguinte acesso para usar o Workfront Planning:
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td>
    <td>
    <p>Qualquer pacote do Workfront e do Planning</p>
-   <p>Ou</p>
    <p>Qualquer pacote de Fluxo de Trabalho e Planejamento</p>
-   <!--<p><b>NOTE</b></p>
-<p><span class="preview">For access to global record types:</span></p>
-<ul><li><p><span class="preview">Any Workfront package and a Planning Plus package</span></p></li>
-<p>Or</p>
-<li><p><span class="preview">Workflow and Planning Prime and Ultimate packages</span></p></li></ul>--> </td>
-<tr>
+
+<p><b>Nota</b></p>
+
+<p>Para acesso a tipos de registro conectáveis:</p>
+   <ul><li><p>Qualquer pacote do Workfront e um pacote do Planning</p></li>
+   <li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime e Ultimate</p></li></ul>
+
+<div class="preview">
+   <p>Para acesso a tipos de registros globais:</p>
+   <ul><li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
+   <li><p>Qualquer pacote de Fluxo de Trabalho e um pacote do Planning Prime e Ultimate</p></li></ul> </td></tr>
+   </div>
+   <tr>
    <td role="rowheader"><p>plataforma Adobe Workfront</p></td>
    <td>
    <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p>

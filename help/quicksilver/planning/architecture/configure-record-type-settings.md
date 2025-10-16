@@ -1,26 +1,17 @@
 ---
 title: Configurar a área de configurações de um tipo de registro
-description: Você poderá editar os tipos de registro depois que eles forem salvos na página Configurações.
-hide: true
-hidefromtoc: true
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 1%
-
----
-
-
-<!--add better metadata at release:
-
-title: Configure Record Type Settings
-description: You can edit record types after they have been saved in the Settings page. 
+description: Além de editar um tipo de registro na caixa Editar tipo de registro, você também pode editar tipos de registro na página Configurações.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
-recommendations: noDisplay, noCatalog 
+recommendations: noDisplay, noCatalog
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 2%
 
--->
+---
+
 
 # Definir a área Configurações de um tipo de registro
 
@@ -32,7 +23,7 @@ recommendations: noDisplay, noCatalog
 
 Você pode definir configurações adicionais para um tipo de registro depois que elas tiverem sido salvas no Adobe Workfront Planning.
 
-Dependendo dos recursos que deseja definir para um tipo de registro, é possível definir configurações adicionais para ele ao seguir um destes procedimentos:
+Dependendo dos recursos que deseja definir para um tipo de registro, é possível definir configurações adicionais seguindo um destes procedimentos:
 
 <!--the above will need to be reworded when we add automations and manage request forms to this area-->
 
@@ -46,7 +37,7 @@ Dependendo dos recursos que deseja definir para um tipo de registro, é possíve
 
 ## Requisitos de acesso
 
-+++ Expanda para exibir os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para exibir os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,30 +46,36 @@ Dependendo dos recursos que deseja definir para um tipo de registro, é possíve
 </col> 
 <tbody> 
     <tr> 
-<tr>
-
+<tr> 
 </tr>   
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Qualquer pacote do Workfront</p></li>
-<p>E</p>
-<li><p>Qualquer pacote do Planning para criar tipos de registro conectáveis</p></li>
-<li><p>Pacote do Planning Plus para criar tipos de registro centralizados</p></li>
-</ul>
-<p>Ou:</p>
-<ul><li><p>Um pacote do Workflow e do Planning Prime ou Ultimate</p> </li></ul>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com seu gerente de conta da Workfront. </p> 
-   </td>
+<p>Qualquer pacote do Workfront e do Planning</p>
+<p>Qualquer pacote do Workfront e do Planning</p>
+<p><b>Nota</b></p>
+<p>Para configurar tipos de registro conectáveis: </p>
+<ul> 
+<li><p>Qualquer pacote do Workfront e qualquer pacote do Planning</p></li>
+<p>Ou</p>
+<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
 
-<tr> 
+<p>Para configurar tipos de registro global:</p>
+
+<ul> 
+<li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
+<p>Ou</p>
+<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
+<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p>
+   </td> </tr>
+  <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>   <p>Gerenciar permissões para um espaço de trabalho</a> </p>  
+   <td>   <p>Gerenciar permissões em um espaço de trabalho</p>  
    <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  </td> 
   </tr>  
 </tbody> 
@@ -86,7 +83,7 @@ Dependendo dos recursos que deseja definir para um tipo de registro, é possíve
 
 Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++   
++++    
 
 <!--Old:
 
@@ -164,12 +161,16 @@ Você pode definir recursos entre espaços de trabalho para um tipo de registro,
 1. Siga um destes procedimentos:
 
    * Passe o mouse sobre o cartão de um tipo de registro e clique no menu **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito do cartão de tipo de registro e clique em **Configurações**
-Ou
+
+     ![Mais opções de menu do cartão de tipo de registro](assets/more-menu-options-from-record-type-card-with-settings-link.png)
+
+     Ou
+
    * Clique em um cartão de tipo de registro para abrir a página de tipo de registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Configurações**.
 
-   <!--update screen shot at release-->
+   <!--update screen shot at prod??-->
 
-   ![Mais opções de menu do cartão de tipo de registro](assets/more-menu-options-from-record-type-card.png)
+   ![Configurações entre espaços de trabalho na página Configurações](assets/settings-page-cross-workspace-settings.png)
 
 1. A seção **Configurações entre espaços de trabalho** está selecionada por padrão.
 1. Ative ou desative uma das seguintes configurações:
@@ -179,4 +180,4 @@ Ou
 
    As configurações estão desativadas por padrão.
 
-   Para obter informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+   Para obter mais informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)

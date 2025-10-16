@@ -1,23 +1,18 @@
 ---
 title: Adicionar tipos de registro existentes de outro Workspace
 description: Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. No Workfront Planning, é possível adicionar um tipo de registro existente criado em outro espaço de trabalho.
-hidefromtoc: true
-hide: true
-exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
-workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 0%
+
+---
+
 
 # Adicionar tipos de registro existentes de outro espaço de trabalho
 
@@ -56,7 +51,7 @@ Antes de adicionar registros a um espaço de trabalho a partir de um tipo de reg
    <td> 
 <ul><li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
 <p>Ou</p>
-<li><p>Fluxo de trabalho e pacotes do Planning Prime e Ultimate</p></p></li></ul>
+<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></p></li></ul>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
   <tr> 
@@ -120,6 +115,8 @@ And
 >[!NOTE]
 >
 >Verifique se há pelo menos um tipo de registro designado como global em pelo menos um outro espaço de trabalho.
+>
+>Para obter informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
 1. Comece a criar um tipo de registro, conforme descrito no artigo [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md), em seguida, clique em **Adicionar existente**. <!--check this - the option might have been renamed in the UI-->
 

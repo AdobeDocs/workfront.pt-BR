@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '450'
 ht-degree: 2%
 
 ---
@@ -48,13 +48,9 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | Tamanho do CSV do arquivo do Excel que você pode importar para criar tipos de registro | 5 MB |
 | Número de linhas que você pode importar em um arquivo CSV ou Excel para criar tipos de registro | 25.000 |
 | Número de colunas que você pode importar em um arquivo CSV ou Excel para criar tipos de registro | 500 |
-| <span class="preview">Número de campos de fórmula para um tipo de registro</span> | <span class="preview">20</span> |
-| <span class="preview">Número de caracteres em uma expressão de campo de fórmula</span> | <span class="preview">50.000</span> |
-
-
-<!-- Add this after the formula fields limit above:
-
-| <span class="preview">Number of connection fields for one record type</span> | <span class="preview">30</span> |-->
+| Número de campos de fórmula para um tipo de registro | 20 |
+| <span class="preview">Número de campos de conexão para um tipo de registro</span> | <span class="preview">30</span> |
+| Número de caracteres em uma expressão de campo de fórmula | 50.000 |
 
 *Recomendamos não ter muitos espaços de trabalho, pois eles podem se tornar difíceis de gerenciar e seus fluxos de trabalho podem estar muito fragmentados.
 

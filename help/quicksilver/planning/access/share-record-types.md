@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Você pode compartilhar um tipo de registro com outras pessoas para garantir a c
 >[!IMPORTANT]
 >
 >Os usuários com acesso a um espaço de trabalho obtêm automaticamente pelo menos permissões de Exibição para todos os tipos de registros no espaço de trabalho.
->&#x200B;>O compartilhamento de visualizações não fornece aos usuários permissões para tipos de registro. Somente espaços de trabalho de compartilhamento podem conceder aos usuários permissões para tipos de registro.
+>>O compartilhamento de visualizações não fornece aos usuários permissões para tipos de registro. Somente espaços de trabalho de compartilhamento podem conceder aos usuários permissões para tipos de registro.
 >
 >* Para obter informações gerais sobre o compartilhamento de objetos no Workfront Planning, consulte também [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 >* Para obter mais informações, consulte a seção [Considerações ao compartilhar tipos de registro](#considerations-when-sharing-record-types) neste artigo.
@@ -181,6 +181,17 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 * Não é possível compartilhar tipos de registro externamente, com usuários fora do Workfront.
 * Para conceder a um usuário que não tem permissões de espaço de trabalho superiores às permissões de Exibição para um tipo de registro, primeiro você deve compartilhar o espaço de trabalho com ele com uma permissão superior à de Exibição. As permissões mais altas do espaço de trabalho serão aplicadas aos tipos de registro.
 
+<div class="preview">
+
+* Os seguintes cenários existem ao compartilhar tipos de registro global:
+
+   * Você pode compartilhar tipos de registros globais a partir do espaço de trabalho original.
+   * Não é possível compartilhar tipos de registros globais depois que eles são adicionados a um espaço de trabalho secundário.
+
+  Para obter informações, consulte [Visão geral do tipo de registro entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
+</div>
+
 ## Compartilhar permissões para um tipo de registro
 
 É possível ajustar permissões para tipos de registros individuais de um espaço de trabalho se você tiver a permissão Gerenciar para o espaço de trabalho.
@@ -191,7 +202,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 1. Siga um destes procedimentos:
 
-   * <span class="preview">No cartão de tipo de registro, clique no menu **Mais** > **Compartilhar**.</span>
+   * No cartão de tipo de registro, clique no menu **Mais** > **Compartilhar**.
    * Clique em um cartão de tipo de registro para abrir a página do tipo de registro e clique em **Compartilhar** > **Compartilhar o tipo de registro** de qualquer exibição de tipo de registro.
 
    A caixa **Compartilhar** é aberta.

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -200,8 +200,6 @@ Você deve considerar o seguinte antes de fazer alterações na configuração d
    Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
-<div class="preview">
-
 ## Adicionar novas opções a um campo de seleção existente ao editar registros na exibição de tabela
 
 <!--some of this information is also available in Edit records article - update both when necessary-->
@@ -230,6 +228,5 @@ Para adicionar uma nova opção a um campo de seleção existente ao editar um r
 
    A nova opção é adicionada imediatamente ao campo de seleção única.
 
-   <!--<span class="preview">A new choice value is also added to each choice. You can use the choice values in API calls or other integrations. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). </span>-->
+   <span class="preview">Um novo valor também é adicionado a cada escolha. Você pode usar os valores de opção em chamadas de API ou outras integrações. Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).</span>
 
-</div>

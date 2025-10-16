@@ -1,25 +1,24 @@
 ---
 title: Visão geral do tipo de registro entre espaços de trabalho
-description: Os tipos de registro global podem ser adicionados a vários espaços de trabalho a partir de um espaço de trabalho central ou principal no Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
-exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 95474ea813f4ea575942eea733caf2952b2daa75
-workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 0%
-
----
-
-<!-- add these to the metadata, when making this public: 
-
+description: Você pode ativar os tipos de registro para serem globais ou conectáveis. Os tipos de registro global podem ser adicionados a vários espaços de trabalho a partir de um espaço de trabalho central ou principal no Adobe Workfront Planning, enquanto os tipos de registro conectáveis podem ser conectados a partir de outros espaços de trabalho que não os seus próprios.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
--->
+exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+workflow-type: tm+mt
+source-wordcount: '1534'
+ht-degree: 0%
+
+---
+
 
 # Visão geral do tipo de registro entre espaços de trabalho
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
@@ -32,11 +31,13 @@ Você pode ativar recursos entre espaços de trabalho para um tipo de registro n
 
 A seguir estão os recursos entre espaços de trabalho dos tipos de registro:
 
-* **Tipos de registros globais**: os usuários podem adicionar tipos de registros globais a outros espaços de trabalho gerenciados por eles.
+* <span class="preview">**Tipos de registros globais**: os usuários podem adicionar tipos de registros globais a outros espaços de trabalho que gerenciam.</span>
 
 * **Tipos de registro conectáveis**: os usuários podem se conectar a este tipo de registro de outros espaços de trabalho.
 
 Este artigo fornece uma visão geral dos tipos de registro entre espaços de trabalho. Para obter informações sobre como definir os recursos entre espaços de trabalho de um tipo de registro, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
+
+<div class="preview">
 
 ## Visão geral dos tipos de registro global
 
@@ -118,11 +119,12 @@ O tipo de registro configurado para ser global tem as seguintes propriedades:
     * Add request forms to it
     * Add automations to it-->
 
-* Nenhum usuário pode executar as seguintes ações no tipo de registro adicionado de um tipo de registro global em um espaço de trabalho secundário:
+* Nenhum usuário pode executar as seguintes ações em um tipo de registro global em um espaço de trabalho secundário:
 
    * Editar
 
      Não é possível editar a aparência, os recursos entre espaços de trabalho ou os campos adicionados a partir do espaço de trabalho original.
+   * Compartilhá-lo
    * Criar e gerenciar formulários de solicitação
    * Criar e gerenciar automações
 
@@ -151,6 +153,8 @@ Os seguintes casos existem:
 * Se o usuário tiver acesso, o registro será criado no espaço de trabalho original dos tipos de registro global.
 
 * Se o usuário não tiver acesso, ele receberá um erro de que não tem acesso ao espaço de trabalho original do tipo de registro global e precisa fornecer a ID do espaço de trabalho onde tem acesso para criar registros.
+
+</div>
 
 ## Visão geral dos tipos de registro conectáveis
 

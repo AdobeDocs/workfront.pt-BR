@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 1%
+source-wordcount: '1062'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # Excluir tipos de registro
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -52,10 +52,12 @@ Para obter informações sobre tipos de registros, consulte [Visão geral sobre 
 <li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
 <p>Ou</p>
 <li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
-<!--<p>To delete global record types:</p>
-<ul><li><p>Any Workfront package and a Planning Plus package</p></li>
-<p>Or</p>
-<li><p>Workflow and Planning Prime and Ultimate packages</p></li></ul>-->
+<div class="preview">
+<p>Para deletar tipos de registro global:</p>
+<ul><li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
+<p>Ou</p>
+<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
+</div>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
   <tr> 
@@ -71,7 +73,7 @@ Para obter informações sobre tipos de registros, consulte [Visão geral sobre 
 </tbody> 
 </table>
 
-*Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
 
@@ -148,14 +150,13 @@ Para obter informações sobre tipos de registros, consulte [Visão geral sobre 
 * Não é possível recuperar tipos de registros excluídos ou suas informações.
 * É recomendável recriar os campos e os registros associados ao tipo de registro que você deseja excluir em outro tipo de registro antes de excluí-los.
 
-<!--
 <div class="preview">
 
-* You cannot delete a global record type that has been added to other workspaces. 
+* Não é possível excluir um tipo de registro global que tenha sido adicionado a outros espaços de trabalho.
 
-   For more information, see the section [Delete global record types](#delete-global-record-types) in this article. 
+  Para obter mais informações, consulte a seção [Excluir tipos de registros globais](#delete-global-record-types) neste artigo.
 
-</div>-->
+</div>
 
 ## Excluir tipos de registro
 
@@ -180,71 +181,68 @@ Para obter informações sobre tipos de registros, consulte [Visão geral sobre 
 
    O tipo de registro selecionado, juntamente com seus campos, registros associados e exibições são excluídos e não podem ser recuperados.
 
-<!--
-
 <div class="preview">
 
-## Delete global record types
+## Excluir tipos de registro global
 
-The following scenarios exist when deleting global record types:
+Os seguintes cenários existem ao excluir tipos de registros globais:
 
-* If a record type configured as global has not yet been added to another workspace, you can delete it from its original workspace. 
+* Se um tipo de registro configurado como global ainda não tiver sido adicionado a outro espaço de trabalho, você poderá excluí-lo do espaço de trabalho original.
 
-* If a record type configured as a global record type has been added to at least one other workspace, you cannot delete it from its original workspace. You must first remove (by deleting) global record types from the secondary workspaces where they were added and then you can permanently delete the global record type from its original workspace. 
+* Se um tipo de registro configurado como um tipo de registro global tiver sido adicionado a pelo menos outro espaço de trabalho, você não poderá excluí-lo do espaço de trabalho original. Primeiro, você deve remover (excluindo) os tipos de registro global dos espaços de trabalho secundários em que foram adicionados e, em seguida, pode excluir permanentemente o tipo de registro global de seu espaço de trabalho original.
 
-### Delete a global record type from the original workspace
+### Excluir um tipo de registro global do espaço de trabalho original
 
-You can delete a record type from its original workspace if it's no longer relevant. 
+Você poderá excluir um tipo de registro de seu espaço de trabalho original se ele não for mais relevante.
 
-1. Go to the global record type in its original workspace. 
+1. Vá para o tipo de registro global em seu espaço de trabalho original.
 
-1. (Conditional) Do one of the following, depending on whether the global record type has been added to secondary workspaces: 
+1. (Condicional) Execute um dos seguintes procedimentos, dependendo se o tipo de registro global foi adicionado aos espaços de trabalho secundários:
 
-   * If the record type was not added to a secondary workspace, click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**. 
-   * If the record type was added to at least one other secondary workspace, first, go to the secondary workspace and delete the global record from that space. 
+   * Se o tipo de registro não tiver sido adicionado a um espaço de trabalho secundário, clique no menu **Mais** ![Mais menu](assets/more-menu.png) no cartão do tipo de registro, ou à direita do nome do tipo de registro em sua página, em seguida, clique em **Excluir**.
+   * Se o tipo de registro tiver sido adicionado a pelo menos um outro espaço de trabalho secundário, primeiro, vá para o espaço de trabalho secundário e exclua o registro global desse espaço.
 
-      For information, see the section [Delete a global record type from a secondary workspace](#delete-a-global-record-type-from-a-secondary-workspace) in this article. 
-   
-1. (Conditional) Continue deleting the record type, as described in the section [Delete record types](#delete-record-types-1) in this article.
+     Para obter informações, consulte a seção [Excluir um tipo de registro global de um espaço de trabalho secundário](#delete-a-global-record-type-from-a-secondary-workspace) neste artigo.
 
-   The following things occur: 
+1. (Condicional) Continue a excluir o tipo de registro, conforme descrito na seção [Excluir tipos de registro](#delete-record-types-1) deste artigo.
 
-   * The global record type is removed from the original workspace and the record type, its records and fields cannot be recovered.
-   * All global record types from the secondary workspaces and their records are also removed.
+   As seguintes situações ocorrem:
 
-### Delete a global record type from a secondary workspace
+   * O tipo de registro global é removido do espaço de trabalho original e o tipo de registro, seus registros e campos não podem ser recuperados.
+   * Todos os tipos de registros globais dos espaços de trabalho secundários e seus registros também são removidos.
 
-You can delete a record type you added from another workspace if no longer needed. 
+### Excluir um tipo de registro global de um espaço de trabalho secundário
 
-Consider the following:
+É possível excluir um tipo de registro adicionado de outro espaço de trabalho se não for mais necessário.
 
-* Deleting a global record type from a secondary workspace will only remove it from the secondary workspace. The record type remains in the original workspace. 
+Considere o seguinte:
 
-* When you delete a global record type from a secondary workspace, the following are also deleted:
+* A exclusão de um tipo de registro global de um espaço de trabalho secundário só o removerá do espaço de trabalho secundário. O tipo de registro permanece no espaço de trabalho original.
 
-   * The records added from the secondary workspace.
+* Quando você deleta um tipo de registro global de um espaço de trabalho secundário, os itens a seguir também são deletados:
 
-   ***************Not yet there, coming soon:* The fields added from the secondary workspace.*********
+   * Os registros adicionados do espaço de trabalho secundário.
 
-* Global record types deleted from their secondary workspaces cannot be recovered. 
+  <!--Coming later: * The fields added from the secondary workspace.-->
 
-* The original record type remains in its original workspace as well as in other workspaces where it's been added. 
+* Os tipos de registro global excluídos de seus espaços de trabalho secundários não podem ser recuperados.
 
-To delete a global record type from a secondary workspace: 
+* O tipo de registro original permanece em seu espaço de trabalho original, bem como em outros espaços de trabalho aos quais foi adicionado.
 
-1. Go to the global record type in its secondary workspace. 
+Para deletar um tipo de registro global de um espaço de trabalho secundário:
 
-1. (Optional) Click on the **More** menu ![More menu](assets/more-menu.png) on the record type's card, or to the right of the record type's name on its page, then click **Delete**.
-1. (Conditional) Type **delete** in the field provided, then click **Permanently delete**.
+1. Vá para o tipo de registro global no espaço de trabalho secundário.
 
-   ![Delete secondary global record type confirmation box](assets/delete-secondary-global-record-type.png)
+1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) no cartão do tipo de registro ou à direita do nome do tipo de registro em sua página e clique em **Excluir**.
+1. (Condicional) Digite **delete** no campo fornecido e clique em **Excluir permanentemente**.
 
-   The following things occur: 
+   ![Excluir caixa de confirmação do tipo de registro global secundário](assets/delete-secondary-global-record-type.png)
 
-   * The record type created from a global record type is removed from the selected workspace. 
-   * The original record type with its fields remain in their original workspace. 
-   * The record type remains in all other workspaces where it's been added.
-   * The records *******and fields****** added to the record type from the current workspace are deleted. All other records added from additional workspaces where the global record type was added are preserved in their respective workspaces and in the original workspace. <!--Fields are preserved in the workspaces where they were added.
-   
-</div>   
-   -->
+   As seguintes situações ocorrem:
+
+   * O tipo de registro criado a partir de um tipo de registro global é removido do espaço de trabalho selecionado.
+   * O tipo de registro original com seus campos permanecem em seu espaço de trabalho original.
+   * O tipo de registro permanece em todos os outros espaços de trabalho aos quais foi adicionado.
+   * Os registros <!--and fields--> adicionados ao tipo de registro do espaço de trabalho atual são excluídos. Todos os outros registros adicionados de espaços de trabalho adicionais onde o tipo de registro global foi adicionado são preservados em seus respectivos espaços de trabalho e no espaço de trabalho original. &lt;!— Os campos são preservados nos espaços de trabalho onde foram adicionados.
+
+</div>
