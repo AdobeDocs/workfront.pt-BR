@@ -6,16 +6,14 @@ description: Você pode atribuir itens de trabalho usando o Balanceador de carga
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 2a52b1e401eae79c55076afd352cc83e1829140a
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
 # Atribuir trabalho no Balanceador de carga de trabalho arrastando e soltando
-
-{{preview-fast-release-general}}
 
 Você pode atribuir itens de trabalho usando o Balanceador de carga de trabalho do Adobe Workfront arrastando e soltando itens de trabalho para os usuários corretos.
 
@@ -68,7 +66,7 @@ Você pode atribuir um item da área Trabalho não atribuído a um usuário ou p
 
    Você pode atribuir trabalho aos usuários usando o Balanceador de carga de trabalho na área Recursos, no projeto ou no nível da equipe. Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado na Workfront, consulte [Localizar o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Opcional) Vá para a área **Trabalho não atribuído** e aplique um filtro para exibir tarefas, problemas, <span class="preview">e atribuições de função</span> que não estejam atribuídas a usuários
+1. (Opcional) Vá para a área **Trabalho não atribuído** e aplique um filtro para exibir tarefas, problemas e atribuições de função que não estão atribuídas aos usuários
 
    Ou
 
@@ -76,7 +74,7 @@ Você pode atribuir um item da área Trabalho não atribuído a um usuário ou p
 
    >[!NOTE]
    >
-   ><span class="preview">As atribuições de função são exibidas em itens de trabalho na área Trabalho não atribuído quando a configuração Mostrar atribuições de função está habilitada. Para obter mais informações, consulte [Personalizar a exibição](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) em [Navegar pelo Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+   >As atribuições de função são exibidas em itens de trabalho na área Trabalho não atribuído quando a configuração Mostrar atribuições de função está ativada. Para obter mais informações, consulte [Personalizar a exibição](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) em [Navegar pelo Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 1. (Condicional) No Balanceador de carga de trabalho de um projeto, clique no ícone **Mostrar todos os usuários** ![Mostrar todos os usuários](assets/show-all-users-icon-project-workload-balancer.png) para exibir todos os usuários do Workfront.
 
@@ -91,25 +89,21 @@ Você pode atribuir um item da área Trabalho não atribuído a um usuário ou p
    >* A opção Mostrar todos os usuários está disponível somente no Balanceador de carga de trabalho de um projeto.
    >* Use filtros para exibir somente os usuários que são importantes para você. Por exemplo, use um filtro para exibir somente usuários de suas equipes ou grupos.
 
-1. Clique na barra de um item de trabalho <span class="preview">ou atribuição de função</span> que indica a linha do tempo planejada ou projetada e arraste-a ao longo das horas para um usuário na área **Atribuída**.
+1. Clique na barra de um item de trabalho ou atribuição de função que indica a linha do tempo planejada ou projetada e arraste-a ao longo das horas para um usuário na área **Atribuída**.
 
    O usuário que você passar o mouse para soltar o item de trabalho é realçado.
 
-   <span class="preview">Ao arrastar e soltar atribuições de funções, o usuário será realçado em laranja se sua função atual não corresponder à atribuição de função. Você ainda pode atribuir o trabalho ao usuário quando as funções não coincidirem.</span>
+   Ao arrastar e soltar atribuições de funções, o usuário é destacado em laranja se sua função atual não corresponder à atribuição de função. Você ainda pode atribuir o trabalho ao usuário quando as funções não corresponderem.
 
    >[!TIP]
    >
    >As Horas planejadas do usuário que você está passando são atualizadas em tempo real com o número de Horas planejadas diárias do item de trabalho, para indicar qual pode ser o impacto da adição de um novo item na alocação geral.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Soltar item para atribuir a um usuário](assets/wb-drag-drop-role-or-task-to-user.png)
 
-   Imagem de amostra no ambiente de produção:
-   ![Soltar item para atribuir a um usuário](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+1. Quando estiver pronto, solte o item de trabalho selecionado ou a atribuição de função na mesma linha do nome do usuário na Área Atribuída. O item é atribuído e as Horas Planejadas alocadas são atualizadas para o usuário com as novas horas do item de trabalho.
 
-1. Quando estiver pronto, solte o item de trabalho selecionado <span class="preview">ou a atribuição de função</span> na mesma linha que o nome do usuário na Área Atribuída. O item é atribuído e as Horas Planejadas alocadas são atualizadas para o usuário com as novas horas do item de trabalho.
-
-   <span class="preview">Se a configuração Mostrar Atribuições de Função não estiver habilitada</span> e o item de trabalho tiver sido atribuído a uma função de trabalho que o usuário não pode atender, o item será exibido abaixo do nome do usuário na área Trabalho Atribuído. Ele também permanece na área Trabalho não atribuído para indicar que a função de trabalho associada a ele ainda não foi substituída por um usuário.
+   Se a configuração Mostrar atribuições de função não estiver ativada e o item de trabalho tiver sido atribuído a uma função de trabalho que o usuário não pode preencher, o item será exibido abaixo do nome do usuário na área Trabalho atribuído. Ele também permanece na área Trabalho não atribuído para indicar que a função de trabalho associada a ele ainda não foi substituída por um usuário.
 
    >[!TIP]
    >

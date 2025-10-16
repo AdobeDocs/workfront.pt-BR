@@ -7,7 +7,7 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # Atribuir trabalho manualmente usando o Balanceador de carga de trabalho
-
-{{preview-fast-release-general}}
 
 Você pode atribuir itens de trabalho manualmente aos usuários usando o Balanceador de carga de trabalho do Adobe Workfront.
 
@@ -69,7 +67,7 @@ Você pode atribuir itens de trabalho que ainda não foram atribuídos a um usu�
 
    Você pode atribuir trabalho aos usuários usando o Balanceador de carga de trabalho na área Recursos, no projeto ou no nível da equipe. Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado na Workfront, consulte [Localizar o Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Opcional) Vá para a área **Trabalho não atribuído** e aplique um filtro para exibir tarefas, problemas, <span class="preview">ou atribuições de função</span>.
+1. (Opcional) Vá para a área **Trabalho não atribuído** e aplique um filtro para exibir tarefas, problemas ou atribuições de função.
 
    Ou
 
@@ -77,9 +75,9 @@ Você pode atribuir itens de trabalho que ainda não foram atribuídos a um usu�
 
    >[!NOTE]
    >
-   ><span class="preview">As atribuições de função são exibidas em itens de trabalho na área Trabalho não atribuído quando a configuração Mostrar atribuições de função está habilitada. Para obter mais informações, consulte [Personalizar a exibição](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) em [Navegar pelo Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).</span>
+   >As atribuições de função são exibidas em itens de trabalho na área Trabalho não atribuído quando a configuração Mostrar atribuições de função está ativada. Para obter mais informações, consulte [Personalizar a exibição](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) em [Navegar pelo Balanceador de Carga de Trabalho](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Clique no **Mais menu** ![Mais menu](assets/qs-more-menu.png) à esquerda de um nome de item de trabalho <span class="preview">ou de uma atribuição de função</span> e clique em **Atribuir a este(a)**.
+1. Clique no **Mais menu** ![Mais menu](assets/qs-more-menu.png) à esquerda de um nome de item de trabalho ou de uma atribuição de função e clique em **Atribuir a este(a)**.
 
    ![Atribuir esta a](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

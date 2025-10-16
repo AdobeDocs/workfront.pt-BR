@@ -7,7 +7,7 @@ description: O Balanceador de carga de trabalho está disponível para vários p
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Localize o Balanceador de carga de trabalho
-
-{{preview-fast-release-general}}
 
 Você pode usar o Balanceador de carga de trabalho para agendar recursos para trabalho ou revisar sua disponibilidade e alocações atuais.
 
@@ -136,8 +134,6 @@ A página da sua equipe inicial é exibida.
      >
      >Você pode exibir todos os usuários no sistema em vez de somente os do projeto (na área Trabalho atribuído ) ativando a opção Mostrar todos os usuários. Para obter informações, consulte [Navegar pelo Balanceador de Carga de Trabalho](../workload-balancer/navigate-the-workload-balancer.md).
 
-<div class="preview">
-
 ### Acessar o Balanceador de carga de trabalho de um usuário
 
 Todos os usuários têm acesso para visualizar o Balanceador de carga de trabalho em seus próprios perfis. Os dados do Balanceador de carga de trabalho de um usuário são somente leitura. Não é possível atribuir trabalho, cancelar atribuição de trabalho ou ajustar alocações no nível do usuário.
@@ -155,8 +151,6 @@ Todas as configurações de exibição estão disponíveis para o Balanceador de
    O Balanceador de carga de trabalho de um usuário exibe as seguintes informações por padrão:
 
    * **Trabalho atribuído**: as tarefas e problemas atribuídos ao usuário específico.
-
-</div>
 
 ## Adicionar o Balanceador de carga de trabalho ao painel esquerdo como um painel
 

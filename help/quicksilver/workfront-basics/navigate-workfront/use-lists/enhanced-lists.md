@@ -5,7 +5,7 @@ description: As listas aprimoradas usam um formato de tabela para exibir os iten
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
+source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # Usar listas aprimoradas
-
-{{preview-fast-release-general}}
 
 As listas aprimoradas estão disponíveis em algumas áreas do Adobe Workfront. Essas listas usam um formato de tabela para exibir os itens de lista e têm uma aparência diferente das listas padrão. O gerenciamento de visualizações também é aprimorado, incluindo filtragem, agrupamento, gerenciamento de colunas e pesquisa.
 
@@ -126,7 +124,7 @@ Algumas listas aprimoradas permitem ocultar e exibir colunas e reordenar as colu
    >
    >O ícone ao lado de um nome de campo mostra o tipo de campo, como texto ou campo de data.
 
-   <span class="preview">Um indicador aparece no botão **Colunas** quando as colunas estão ocultas. O indicador não aparece ao reordenar colunas.</span>
+   Um indicador é exibido no botão **Colunas** quando as colunas estão ocultas. O indicador não aparece ao reordenar as colunas.
 
    ![Indicador para colunas ocultas](assets/glist-columns-hidden-indicator.png)
 
@@ -149,7 +147,7 @@ Os filtros ajudam a reduzir a quantidade de informações exibidas na lista. Agr
 1. Clique em **Adicionar condição** para adicionar outra condição ao filtro como uma instrução OR.
 1. Quando o filtro for aplicado, você poderá abrir as opções **Filtro** novamente para alterar as opções de filtro ou limpar todos os filtros.
 
-   <span class="preview">Um indicador aparece no botão **Filtro** quando um filtro é aplicado à lista.</span>
+   Um indicador é exibido no botão **Filtro** quando um filtro é aplicado à lista.
 
    ![Indicador aplicado de filtro](assets/glist-filter-applied-indicator.png)
 
@@ -164,7 +162,7 @@ Os filtros ajudam a reduzir a quantidade de informações exibidas na lista. Agr
 
    ![Agrupamento em listas aprimoradas](assets/glist-group-by-due-date-priorities.png)
 
-   <span class="preview">Um indicador aparece no botão **Grupo** quando um agrupamento é aplicado à lista.</span>
+   Um indicador é exibido no botão **Grupo** quando um agrupamento é aplicado à lista.
 
    ![Indicador de agrupamento aplicado](assets/glist-grouping-applied-indicator.png)
 

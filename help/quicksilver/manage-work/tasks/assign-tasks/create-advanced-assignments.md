@@ -2,21 +2,19 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Criar atribuições avançadas
-description: Você pode gerenciar atribuições de tarefas ou problemas usando as Atribuições Avançadas.
+description: Você pode gerenciar atribuições de tarefas ou problemas usando Atribuições Avançadas.
 author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
 
 # Criar atribuições avançadas
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -85,11 +83,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    >[!TIP]
    >
-   >Você pode fazer atribuições avançadas diretamente na lista de tarefas ou problemas. Clique dentro do campo **Atribuições** na mesma linha da tarefa ou do problema e clique em <span class="preview">**Avançadas**</span> ou no **ícone Pessoas** para abrir a janela Atribuições Avançadas. Vá para a etapa 5 para continuar criando atribuições avançadas.
-   ><span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+   >Você pode fazer atribuições avançadas diretamente na lista de tarefas ou problemas. Clique dentro do campo **Atribuições** na mesma linha da tarefa ou do problema e clique em **Avançadas** na parte inferior da lista ou no **ícone Pessoas** no canto superior direito da caixa de atribuições, para abrir a janela Atribuições Avançadas. Vá para a etapa 5 para continuar criando atribuições avançadas.
    >![Clique no ícone Avançado ou Pessoas](assets/access-aa-from-lists.png)
-   >Imagem de amostra no ambiente de produção:
-   >![Clique no ícone Pessoas](assets/nwe-advanced-assignments-350x55.png)
 
 1. Clique em **Atribuir a** no campo **Atribuições** no cabeçalho da tarefa ou problema
 

@@ -6,16 +6,14 @@ description: Use o Balanceador de carga de trabalho para entender a disponibilid
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '4348'
+source-wordcount: '4334'
 ht-degree: 0%
 
 ---
 
 # Navegar pelo Balanceador de carga de trabalho
-
-{{preview-fast-release-general}}
 
 <!--Audited: 12/2024-->
 
@@ -23,7 +21,7 @@ Use o Balanceador de carga de trabalho no Adobe Workfront para atribuir trabalho
 
 O Balanceador de carga de trabalho está disponível em várias áreas do Adobe Workfront. Navegar por ele é semelhante em todas as áreas.
 
-Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado, consulte [Localizar o Balanceador de carga de trabalho](https://experienceleague.adobe.com/pt-br/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado, consulte [Localizar o Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Requisitos de acesso
 
@@ -78,7 +76,7 @@ Considere o seguinte ao visualizar o Balanceador de carga de trabalho:
   >* Os itens de trabalho atribuídos a uma função de trabalho ou equipe, e também atribuídos a um usuário, são exibidos na área Trabalho não atribuído e sob o nome do usuário atribuído na área Trabalho atribuído.
   >* Itens de trabalho atribuídos a um usuário e a uma função de trabalho, onde a função de trabalho é selecionada como o principal responsável pelo item, são exibidos na área Trabalho não atribuído.
   >* Os itens de trabalho atribuídos a mais de um usuário são exibidos em todos os nomes de usuários atribuídos na área Trabalho atribuído.
-  >* <span class="preview">As atribuições de função são exibidas em itens de trabalho na área Trabalho não atribuído quando a configuração Mostrar atribuições de função está habilitada. Para obter informações, consulte a seção [Personalizar o modo de exibição](#customize-the-view) neste artigo.</span>
+  >* As atribuições de função são exibidas em itens de trabalho na área Trabalho não atribuído quando a configuração Mostrar atribuições de função está ativada. Para obter informações, consulte a seção [Personalizar a exibição](#customize-the-view) neste artigo.
 
   Para obter mais informações, consulte [Áreas de atribuição no Balanceador de carga de trabalho](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer) em [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
@@ -105,9 +103,8 @@ Para obter mais informações sobre como exibir informações no Balanceador de 
 
 Para obter informações sobre como gerenciar recursos usando o Balanceador de carga de trabalho, consulte também os seguintes artigos:
 
-* [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](https://experienceleague.adobe.com/pt-br/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Gerenciar alocações de usuário no Balanceador de carga de trabalho](https://experienceleague.adobe.com/pt-br/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
-
+* [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Gerenciar alocações de usuário no Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Navegar pelo Balanceador de carga de trabalho para vários projetos na área Recursos
 
@@ -138,7 +135,7 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
 
         Para obter informações sobre como usar filtros, consulte [Informações de filtro no Balanceador de carga de trabalho](../workload-balancer/filter-information-workload-balancer.md).
 
-      * <span class="preview">Atribuições de função em itens de trabalho são exibidas somente quando você habilita a configuração Mostrar Atribuições de Função. Para obter informações, consulte a seção [Personalizar o modo de exibição](#customize-the-view) neste artigo.</span>
+      * As atribuições de função nos itens de trabalho são exibidas somente quando você ativa a configuração Mostrar atribuições de função. Para obter informações, consulte a seção [Personalizar a exibição](#customize-the-view) neste artigo.
 
       * Os projetos são exibidos somente quando você ativa a configuração Agrupar por projeto. Para obter informações, consulte a seção [Personalizar a exibição](#customize-the-view) neste artigo.
 
@@ -240,11 +237,7 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
 
    O painel Configurações é exibido à direita.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Painel Configurações do Balanceador de Carga de Trabalho](assets/workload-balancer-settings.png)
-
-   Imagem de amostra no ambiente de produção:
-   ![Painel de configurações](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
    Selecione entre as opções listadas abaixo para atualizar as informações exibidas no Balanceador de carga de trabalho e clique no **ícone X** no canto superior direito da caixa Configurações para fechá-lo.
 
@@ -265,7 +258,7 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
 
      Um ícone de marca de seleção verde é exibido no canto superior direito de uma barra de tarefas ou problemas quando são concluídos. O mesmo ícone é exibido para um projeto quando as tarefas ou problemas do período selecionado do projeto são concluídos.
    * **Mostrar tempo restante**: quando habilitado, o Workfront exibe a diferença entre o horário diário para o qual o usuário está disponível para trabalhar com base em seus cronogramas e as horas para as quais ele está alocado na área Trabalho atribuído para os usuários. Isso é desativado por padrão e o tempo alocado é exibido por padrão.
-   * <span class="preview">**Mostrar atribuições de função**: quando habilitado, as atribuições de função são exibidas na área Trabalho não atribuído em seus itens de trabalho atribuídos. Isto é habilitado por padrão.</span>
+   * **Mostrar atribuições de função**: quando habilitado, as atribuições de função são exibidas na área Trabalho não atribuído em seus itens de trabalho atribuídos. Isso é ativado por padrão.
 
    * Na seção **Selecionar tema de cor**, selecione a cor desejada para as barras de projeto e tarefa.
 
@@ -316,7 +309,7 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
    ![Detalhes do tempo alocado](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Opcional) Clique no **ícone Ocultar alocações** ![ícone Mostrar alocações](assets/show-allocations-icon-small.png) para exibir o nome das tarefas e problemas nas barras dos itens de trabalho.
-1. Clique no ícone **Mais ícone do menu** ![Mais ícone](assets/more-icon.png) à direita do nome de uma tarefa, problema, <span class="preview">ou função</span> e clique em uma das opções abaixo.
+1. Clique no ícone **Mais ícone** do menu ![Mais ícone](assets/more-icon.png) à direita do nome de uma tarefa, problema ou função e clique em uma das opções abaixo.
 
    ![Mais menu](assets/more-menu-right-of-task-350x104.png)
 
@@ -333,7 +326,7 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
 
      >[!NOTE]
      >
-     ><span class="preview">As atribuições de função são exibidas somente em itens de trabalho na área Trabalho não atribuído quando a configuração Mostrar atribuições de função está habilitada. Para obter informações, consulte a seção [Personalizar a exibição](#customize-the-view) neste artigo. As atribuições de função só têm a opção **Atribuir a este(a)** no **menu Mais**.</span>
+     >As atribuições de função são exibidas somente em itens de trabalho na área Trabalho não atribuído quando a configuração Mostrar atribuições de função está ativada. Para obter informações, consulte a seção [Personalizar a exibição](#customize-the-view) neste artigo. As atribuições de função só têm a opção **Atribuir a este(a)** no menu **Mais**.
 
      >[!TIP]
      >
@@ -423,7 +416,7 @@ A página da Equipe inicial é exibida por padrão.
 
    O Balanceador de carga de trabalho de uma equipe exibe as seguintes informações, por padrão:
 
-   * Na área **Trabalho não atribuído**: itens de trabalho atribuídos à equipe ou às funções de equipe e trabalho e que não estão atribuídos a usuários. <span class="preview">As atribuições de função são exibidas em itens de trabalho na área Trabalho não atribuído quando a configuração Mostrar atribuições de função está habilitada.</span>
+   * Na área **Trabalho não atribuído**: itens de trabalho atribuídos à equipe ou às funções de equipe e trabalho e que não estão atribuídos a usuários. As atribuições de função são exibidas em itens de trabalho na área Trabalho não atribuído quando a configuração Mostrar atribuições de função está ativada.
    * Na área **Trabalho atribuído**: os itens de trabalho atribuídos aos usuários são exibidos sob os nomes dos usuários.
 
 1. Continue navegando no Balanceador de carga de trabalho de uma equipe, conforme descrito na seção [Navegar no Balanceador de carga de trabalho para vários projetos na seção Área de recursos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) deste artigo.
@@ -439,7 +432,7 @@ A página da Equipe inicial é exibida por padrão.
 
    O Balanceador de carga de trabalho do projeto exibe as seguintes informações, por padrão:
 
-   * Na área **Trabalho não atribuído**: itens de trabalho no projeto que são atribuídos a funções ou equipes e não são atribuídos a usuários. <span class="preview">As atribuições de função são exibidas em itens de trabalho na área Trabalho não atribuído quando a configuração Mostrar atribuições de função está habilitada.</span>
+   * Na área **Trabalho não atribuído**: itens de trabalho no projeto que são atribuídos a funções ou equipes e não são atribuídos a usuários. As atribuições de função são exibidas em itens de trabalho na área Trabalho não atribuído quando a configuração Mostrar atribuições de função está ativada.
    * Na área **Trabalho atribuído**: itens de trabalho no projeto atribuídos a pelo menos um usuário.
 
    Recomendamos o uso de filtros para mostrar apenas os usuários que são importantes para você.
@@ -480,8 +473,6 @@ A página da Equipe inicial é exibida por padrão.
 
 1. Continue navegando no Balanceador de carga de trabalho de um projeto, conforme descrito na seção [Navegar no Balanceador de carga de trabalho para vários projetos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) deste artigo.
 
-<div class="preview">
-
 ### Navegar pelo Balanceador de carga de trabalho de um usuário
 
 Você pode acessar o Balanceador de carga de trabalho em seu próprio perfil de usuário.
@@ -504,7 +495,6 @@ Você pode acessar o Balanceador de carga de trabalho em seu próprio perfil de 
 
 1. Continue navegando no Balanceador de carga de trabalho de um usuário conforme descrito na seção [Navegar no Balanceador de carga de trabalho para vários projetos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) deste artigo.
 
-</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
