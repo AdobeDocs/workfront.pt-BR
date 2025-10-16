@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
-source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 1%
+source-wordcount: '384'
+ht-degree: 0%
 
 ---
 
@@ -31,26 +31,26 @@ Você deve ter o seguinte:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plano</strong>
+   <td>Pacote do Adobe Workfront
    </td>
-   <td> <p>Novo: Prime ou Ultimate</p><p>Ou</p><p>Atual: não disponível</p>
+   <td> <p>Prime ou Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenças</strong>
+   <td><strong>licenças do Workfront</strong>
    </td>
-   <td> <p>[!UICONTROL Padrão]</p><p>Ou</p><p>Atual: não disponível</p>
+   <td> <p>Standard</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Configurações de nível de acesso
    </td>
-   <td>Você deve ser um administrador [!DNL Workfront].
+   <td><p>Você deve ser um administrador do Workfront.</p>
    </td>
   </tr>
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Pré-requisitos
 

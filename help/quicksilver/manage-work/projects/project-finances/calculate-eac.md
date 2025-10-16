@@ -7,9 +7,9 @@ description: Como métrica de desempenho, a EAC (Estimativa no término) represe
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -28,35 +28,32 @@ Como configuração, permite definir como o valor de EAC deve ser calculado. 
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Pacote do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Novo: Claro ou superior</p>
-   <p>ou</p>
-   <p>Atual: revisão ou superior</p></td>  
+   <p>Leve ou superior</p>
+   <p>Revisar ou superior</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Configurações de nível de acesso</td> 
    <td>Exibir acesso a Projetos e Dados Financeiros</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
+   <td>Permissões de objeto</td> 
    <td>Exibir ou permissões mais altas para o projeto com permissões para Exibir Finanças</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-Esta seção contém os seguintes artigos:
+Tarefas são itens de trabalho que contribuem para a conclusão de um projeto no Adobe Workfront. Saiba mais sobre informações de tarefas nos seguintes artigos:
 
 * [Visão geral das tarefas](../../../manage-work/tasks/task-information/tasks-overview.md)
 * [Exibir horas efetivas](../../../manage-work/tasks/task-information/actual-hours.md)

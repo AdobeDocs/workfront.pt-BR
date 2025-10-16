@@ -1,14 +1,14 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
-title: Carregar pranchetas XD como provas no Workfront
+title: Fazer upload de pranchetas do XD como provas para o Workfront
 description: Você pode fazer upload de pranchetas como provas diretamente no Adobe Workfront para uma revisão e aprovação completas.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -21,22 +21,20 @@ Você pode fazer upload de pranchetas como provas diretamente no [!DNL Adobe Wor
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>Plano atual: [!UICONTROL Pro] ou superior</p> <p>ou</p> <p>Plano herdado: [!UICONTROL Premium]</p> <p>Para obter mais informações sobre acesso de prova com os diferentes planos, consulte .</p> </td> 
+ <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] pacote</td> 
+   <td>Qualquer </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>Plano atual: [!UICONTROL Trabalho] ou [!UICONTROL Prova]</p> <p>Plano herdado: Qualquer um (Você deve ter a prova ativada para o usuário)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> <p>Standard</p> <p>Trabalhar ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produto</td> 
+   <td role="rowheader">Produtos adicionais</td> 
    <td>Você deve ter uma licença [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront].</td> 
   </tr> 
   <tr> 
@@ -50,7 +48,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do [!DNL Workfront] ou do [!DNL Workfront Proof].
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 
@@ -108,16 +107,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. (Opcional) Digite um comentário na área **[!UICONTROL Atualizações]**.
 
-   ![Aprovações de prova no XD](assets/proof-approvals-xd-350x396.png)
+   ![Aprovações de provas no XD](assets/proof-approvals-xd-350x396.png)
 
 1. Escolha o formato de exportação no menu suspenso **[!UICONTROL Tipo de ativo]**.
 
 
-1. (Opcional) Se você selecionar PDF como tipo de ativo e tiver mais de uma prancheta selecionada, escolha se deseja exportar suas pranchetas como **[!UICONTROL Arquivo de PDF único]s** ou **M[!UICONTROL vários arquivos de PDF]**.
+1. (Opcional) Se você selecionar PDF como tipo de ativo e tiver mais de uma prancheta selecionada, escolha se deseja exportar suas pranchetas como **[!UICONTROL Arquivo único do PDF]s** ou **M[!UICONTROL Vários arquivos do PDF]**.
 
 1. (Opcional) Nomeie o PDF.
 
-   ![opções de PDF](assets/pdf-options.png)
+   ![Opções do PDF](assets/pdf-options.png)
 
 1. Clique em **[!UICONTROL Carregar]**.\
    O documento aparece na área [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.
@@ -184,10 +183,10 @@ Você pode criar uma prova interativa para suas pranchetas com o plug-in [!DNL W
 
 1. (Opcional) Digite um comentário na área **[!UICONTROL Atualizações]**.
 
-   ![Aprovações de prova no XD](assets/proof-approvals-xd-350x396.png)
+   ![Aprovações de provas no XD](assets/proof-approvals-xd-350x396.png)
 
 1. No menu suspenso **[!UICONTROL Tipo de ativo]**, escolha o link que acabou de criar na guia **Links compartilhados**. Para obter mais informações, consulte [Criar um link interativo para sua prancheta](#create-an-interactive-link-for-your-artboard).\
-   ![Links compartilhados no XD](assets/shared-links-xd-350x870.png)
+   ![Links compartilhados em XDS](assets/shared-links-xd-350x870.png)
 
 1. Clique em **[!UICONTROL Carregar]**.
 
@@ -247,13 +246,13 @@ Você pode fazer upload de uma nova versão de uma prova. O plug-in lembra o flu
 
 1. (Opcional) Digite um comentário na área **[!UICONTROL Atualizações]**.
 
-   ![Aprovações de prova no XD](assets/proof-approvals-xd-350x396.png)
+   ![Aprovações de provas no XD](assets/proof-approvals-xd-350x396.png)
 
-1. (Opcional) Se você selecionar PDF como tipo de ativo e tiver mais de uma prancheta selecionada, escolha se deseja exportar suas pranchetas como **[!UICONTROL Arquivo de PDF único]s** ou **M[!UICONTROL vários arquivos de PDF]**.
+1. (Opcional) Se você selecionar PDF como tipo de ativo e tiver mais de uma prancheta selecionada, escolha se deseja exportar suas pranchetas como **[!UICONTROL Arquivo único do PDF]s** ou **M[!UICONTROL Vários arquivos do PDF]**.
 
 1. (Opcional) Nomeie o PDF.
 
-   opções de PDF
+   Opções do PDF
 
 1. Clique em **[!UICONTROL Carregar]**.\
    O documento aparece na área [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.

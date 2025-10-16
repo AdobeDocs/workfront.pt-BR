@@ -7,9 +7,9 @@ description: Para acessar os dados do Data Connect, primeiro você deve criar um
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -18,41 +18,33 @@ ht-degree: 0%
 
 Para acessar os dados do Data Connect, primeiro você deve criar uma conta de leitor (ou serviço) do Snowflake para sua organização e, em seguida, criar uma nova conexão para cada usuário ou ferramenta que você deseja que tenha acesso ao Data Connect.
 
-Depois de criar uma conexão, você pode encontrar sua URL e nome de usuário associados clicando nela na página **Conexão de Dados** (**Menu principal** > **Configuração** > **Sistema** > **Conexão de Dados**) na guia **Conexões Existentes**.
+Depois de criar uma conexão, você pode encontrar seu URL e nome de usuário associados clicando nele na página Data Connect (Main menu > Setup > System > Data Connect) na guia Existing Connections.
 
 Para obter informações sobre como usar uma conexão recém-criada com um produto externo, consulte [Estabelecer uma conexão com o Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td><p>Incluído nos seguintes planos:</p>
-    <ul>
-        <li>Ultimate</li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>O Workfront Data Connect não está disponível para planos Workfront herdados.</p> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td><p>Ultimate</p>
+    <p>Workflow Ultimate</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Plano</p></td> 
+   <td>
+   <p>Standard</p>
+   <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador do Workfront.</p></td> 
+   <td> <p>Você deve ser um administrador do Workfront</p></td> 
   </tr> 
  </tbody> 
 </table>

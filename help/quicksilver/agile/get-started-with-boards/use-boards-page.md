@@ -6,9 +6,9 @@ description: O painel [!UICONTROL painéis] mostra a lista de painéis aos quais
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -37,22 +37,19 @@ Para obter informações sobre como criar um novo quadro ou editar um existente,
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Novo: [!UICONTROL Contributor] ou superior</p> 
-   <p>ou</p>
-   <p>Atual: [!UICONTROL Request] ou superior</p>
+   <p>Colaborador ou superior</p> 
+   <p>Solicitação ou superior</p>
    </td> 
   </tr> 
  </tbody> 

@@ -6,9 +6,9 @@ description: Você pode configurar as seguintes opções para as equipes ágeis 
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -37,8 +37,6 @@ Para obter informações sobre como configurar uma equipe do Scrum, consulte [Co
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -46,15 +44,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td> <p>Novo: [!UICONTROL Padrão]</p> 
-   ou
-   <p>Atual: [!UICONTROL Trabalho] ou superior</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Trabalhar ou superior</p> </td> 
   </tr>
 
 <tr> 
@@ -77,9 +74,9 @@ Para configurar como as histórias são estimadas para sua equipe ágil:
 
 {{step1-to-team}}
 
-1. Clique no ícone ![](assets/switch-team-icon.png) Trocar Equipes **, em seguida, selecione uma nova equipe no menu suspenso ou pesquise por uma equipe na caixa de pesquisa.**
+1. Clique no ícone **[!UICONTROL Trocar Equipes]**, em seguida, selecione uma nova equipe no menu suspenso ou pesquise por uma equipe na caixa de pesquisa.![](assets/switch-team-icon.png)
 1. Selecione a Equipe Ágil que deseja gerenciar.
-1. Clique no menu ![](assets/more-menu.png) **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **** Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
@@ -173,7 +170,7 @@ Para limitar o WIP para a equipe Kanban:
 1. Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipes](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Selecione a equipe Kanban que deseja gerenciar.
-1. Clique no menu ![](assets/more-menu.png) **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **** Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
@@ -198,7 +195,7 @@ Você pode configurar histórias do backlog para serem adicionadas automaticamen
 1. Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipes](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Selecione a equipe Kanban que deseja gerenciar.
-1. Clique no menu ![](assets/more-menu.png) **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **** Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
@@ -219,7 +216,7 @@ Você pode escolher por quanto tempo os cartões concluídos permanecem no quadr
 
 1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipes](assets/switch-team-icon.png) e selecione uma nova equipe Kanban no menu suspenso ou procure uma equipe na barra de pesquisa.
 1. Selecione a equipe Kanban.
-1. Clique no menu ![](assets/more-menu.png) **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **** Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 

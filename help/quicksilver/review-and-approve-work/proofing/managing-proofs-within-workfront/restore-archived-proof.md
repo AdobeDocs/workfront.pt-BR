@@ -6,9 +6,9 @@ description: Uma prova é arquivada automaticamente quando não for aberta por 6
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -21,25 +21,28 @@ Uma prova é arquivada automaticamente quando não for aberta por 60 dias consec
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Select ou Premium</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
-  </tr>
-
-<tr> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"> <p>Licença do Adobe Workfront</p> </td> 
+   <td> 
+   <p>Qualquer</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Acesso à prova </td> 
    <td>Convidado ou superior</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual acesso de plano ou prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Usar predecessores da tarefa
+title: 'Usar predecessores da tarefa: índice de artigos'
 description: Predecessoras são tarefas das quais outras tarefas (chamadas tarefas sucessoras) dependem antes de serem concluídas. Saiba mais sobre predecessores no Adobe Workfront nos artigos a seguir.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 56048927-39cd-49a0-b00a-bf145bca90a1
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
 
-# Usar predecessores da tarefa
+# Usar predecessores da tarefa: índice do artigo
 
 Esta seção contém os seguintes artigos:
 

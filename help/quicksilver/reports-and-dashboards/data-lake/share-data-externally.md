@@ -7,10 +7,10 @@ description: O Workfront Data Connect permite usar os dados do Workfront de sua 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 1%
+source-wordcount: '570'
+ht-degree: 2%
 
 ---
 
@@ -43,35 +43,27 @@ A maioria dos produtos exigirá as seguintes informações sobre seu data lake p
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td><p>Incluído nos seguintes planos:</p>
-    <ul>
-        <li><p>Ultimate</p></li> 
-    </ul>    
-   <!--<p>Can be purchased as an add-on to the following plans:</p> 
-    <ul>
-        <li>Select</li> 
-        <li>Prime</li>
-    </ul>--> 
-    <p>O Workfront Data Connect não está disponível para planos Workfront herdados.</p> 
-   </td> </td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td><p>Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Plano</p></td> 
+   <td>
+   <p>Standard</p>
+   <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador do Workfront.</p></td> 
+   <td> <p>Você deve ser um administrador do Workfront</p></td> 
   </tr> 
  </tbody> 
 </table>

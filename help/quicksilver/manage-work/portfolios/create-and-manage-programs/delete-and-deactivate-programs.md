@@ -5,7 +5,7 @@ title: Excluir e desativar programas
 description: Um programa representa uma coleção de projetos que compartilham uma estratégia, objetivo ou meta comum que transcende os limites do projeto. Os programas são uma subdivisão de portfólios e não podem existir fora de um portfólio. Os programas normalmente compartilham os mesmos recursos que outros programas no mesmo portfólio. Você pode excluir ou desativar um programa quando ele se tornar irrelevante.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Recomendamos desativar um portfólio, em vez de excluí-lo, para preservar as in
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td>
+   <td role="rowheader">[!DNL Adobe Workfront] pacote</td>
 
 <td> <p>Qualquer</p> </td> 
   </tr> 

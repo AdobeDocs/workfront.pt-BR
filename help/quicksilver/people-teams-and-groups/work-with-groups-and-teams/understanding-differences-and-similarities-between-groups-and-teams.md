@@ -2,19 +2,19 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: work-with-groups-and-teams
-title: Grupos versus equipes no Adobe Workfront
-description: Grupos e equipes são coleções de usuários no Adobe Workfront.
+title: Grupos versus equipes no Workfront
+description: Grupos e equipes são coleções de usuários no Adobe Workfront. Saiba mais sobre as diferenças e semelhanças entre grupos e equipes.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 722295463c1338a70ff42c26acf69b09cf33f725
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
 
-# Grupos versus equipes em [!DNL Adobe Workfront]
+# Grupos versus equipes no Workfront
 
 <!-- Audited: 12/2023 -->
 
@@ -32,11 +32,11 @@ Por exemplo, você pode ter um grupo Financeiro que contém usuários no Departa
 
 Para obter mais informações sobre como criar e gerenciar grupos, consulte [Criar um grupo](../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) e [Gerenciar um grupo](../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
-## Usar Equipes para representar a estrutura de trabalho em um departamento
+## Usar equipes para representar a estrutura de trabalho em um departamento
 
-Recomendamos que você configure as Equipes para corresponder à estrutura de trabalho diária das suas equipes departamentais.
+Recomendamos que você configure equipes para corresponder à estrutura de trabalho diária de suas equipes departamentais.
 
-Por exemplo, você pode ter uma Equipe de Folha de Pagamento, uma Equipe de Contas a Pagar e uma equipe de Contas a Receber. Normalmente, as pessoas em cada uma dessas equipes trabalham em projetos, tarefas ou problemas semelhantes para essas equipes.
+Por exemplo, você pode ter uma equipe de Folha de Pagamento, uma equipe de Contas a Pagar e uma equipe de Contas a Receber. Normalmente, as pessoas em cada uma dessas equipes trabalham em projetos, tarefas ou problemas semelhantes para essas equipes.
 
 Para obter mais informações sobre como criar e gerenciar equipes, consulte [Criar e gerenciar equipes](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 
@@ -46,26 +46,26 @@ A tabela a seguir ilustra as diferenças e semelhanças entre grupos e equipes:
 
 | **Funcionalidade** | **Grupo** | **Equipe** |
 |---|---|---|
-| Um Planejador pode criar |  | ✓ µ |
-| Somente um administrador do Workfront pode criar | ✓ µ |  |
-| Compartilhar objetos | ✓ µ | ✓ µ |
-| Atribuir uma tarefa |  | ✓ µ |
-| Atribuir um problema |  | ✓ µ |
-| Associar a um projeto | ✓ µ |  |
-| Designar como Aprovador em um Processo de Aprovação |  | ✓ µ |
-| Acionador de notificações para todos os membros ao mesmo tempo |  | ✓ µ |
-| Adicionar tag a um comentário |  | ✓ µ |
-| Exibir na área Pessoas ou Equipes |  | ✓ µ |
-| Exibir Trabalhando Na Lista |  | ✓ µ |
-| Filtrar usuários no Planejador de recursos | ✓ µ | ✓ µ |
-| Filtrar usuários no Balanceador de carga de trabalho | ✓ µ | ✓ µ |
-| Filtrar usuários no relatório de Utilização | ✓ µ | ✓ µ |
-| Visibilidade dos Caminhos de Etapas para um Projeto ou Modelo | ✓ µ |  |
-| Visibilidade do Forms personalizado | ✓ µ |  |
-| Visibilidade das Programações | ✓ µ |  |
-| Atribuir perfis de planilha de horas | ✓ µ | ✓ µ |
-| Atribuir modelos de layout | ✓ µ | ✓ µ |
-| Qualquer usuário com uma licença do Plano pode atribuí-la a outro usuário |  | ✓ µ |
-| Personalizar status | ✓ µ |  |
-| Personalizar o botão [!UICONTROL Concluído] |  | ✓ µ |
-| Rastrear licenças | ✓ µ |  |
+| Um Planejador pode criar |  | ✓ |
+| Somente um administrador do Workfront pode criar | ✓ |  |
+| Compartilhar objetos | ✓ | ✓ |
+| Atribuir uma tarefa |  | ✓ |
+| Atribuir um problema |  | ✓ |
+| Associar a um projeto | ✓ |  |
+| Designar como Aprovador em um Processo de Aprovação |  | ✓ |
+| Acionador de notificações para todos os membros ao mesmo tempo |  | ✓ |
+| Adicionar tag a um comentário |  | ✓ |
+| Exibir na área Pessoas ou Equipes |  | ✓ |
+| Exibir Trabalhando Na Lista |  | ✓ |
+| Filtrar usuários no Planejador de recursos | ✓ | ✓ |
+| Filtrar usuários no Balanceador de carga de trabalho | ✓ | ✓ |
+| Filtrar usuários no relatório de Utilização | ✓ | ✓ |
+| Visibilidade dos Caminhos de Etapas para um Projeto ou Modelo | ✓ |  |
+| Visibilidade do Forms personalizado | ✓ |  |
+| Visibilidade das Programações | ✓ |  |
+| Atribuir perfis de planilha de horas | ✓ | ✓ |
+| Atribuir modelos de layout | ✓ | ✓ |
+| Qualquer usuário com uma licença do Plano pode atribuí-la a outro usuário |  | ✓ |
+| Personalizar status | ✓ |  |
+| Personalizar o botão [!UICONTROL Concluído] |  | ✓ |
+| Rastrear licenças | ✓ |  |

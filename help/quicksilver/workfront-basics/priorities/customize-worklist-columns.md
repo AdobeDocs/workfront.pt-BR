@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Prioridades exibe os itens de trabalho atribuídos a você. Não é possível ve
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Pacote do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
    <td> 
-   <p>Atual: Revisor ou superior</p>
-   <p>Novo: Claro ou superior</p> 
+   <p>Revisor ou superior</p>
+   <p>Leve ou superior</p> 
    </td> 
   </tr> 
   <tr> 

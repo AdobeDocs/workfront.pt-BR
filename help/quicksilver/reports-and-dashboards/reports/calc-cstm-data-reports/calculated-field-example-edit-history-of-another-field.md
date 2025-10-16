@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting
 keywords: auditoria,trilha,personalizado,campo
 navigation-topic: calculate-custom-data-reports
-title: "Exemplo de campo personalizado calculado: exibir um histórico de edição do campo"
+title: 'Exemplo de campo personalizado calculado: exibir um histórico de edição do campo'
 description: Se os usuários atualizarem campos personalizados regularmente e você quiser capturar um log de todas as alterações feitas em um campo, bem como uma data quando as alterações ocorrerem, será possível capturar essas informações em um campo personalizado calculado.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -35,35 +35,38 @@ Isso faz o seguinte:
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer</td> 
+   <td> <p>Pacote do Adobe Workfront</p> </td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Licença da Workfront*</p> </td> 
-   <td> <p>Plano </p> </td> 
+   <td> <p>Licença do Adobe Workfront</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Plano</p></td>
   </tr> 
   <tr> 
-   <td><strong>Configurações de nível de acesso*</strong> </td> 
-   <td> <p>Acesso administrativo ao Forms personalizado</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td><p>Configurações de nível de acesso</p></td> 
+   <td> <p>Acesso administrativo ao Forms personalizado</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Permissões de objeto</strong> </p> </td> 
-   <td> <p>Gerenciar permissões nos formulários personalizados </p> <p>Para obter mais informações, consulte <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartilhar um formulário personalizado</a>.<br></p> </td> 
+   <td> <p>Permissões de objeto</p> </td> 
+   <td> <p>Gerenciar permissões nos formulários personalizados</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 

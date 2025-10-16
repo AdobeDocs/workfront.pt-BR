@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,11 @@ Um campo personalizado com formatação rich text é chamado Campo com rich text
 
 Exemplo: uma solicitação básica do GET para recuperar o valor do Campo com campo de formulário personalizado rich text:
 
-<!-- [Copy](javascript:void(0);) -->
-<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
+```
+GET /attask/api-internal/<OBJ Code>/<OBJ ID>?fields=parameterValues#
+OR
+GET /attask/api/v12.0/<OBJ Code>/<OBJ ID>?fields=parameterValues
+```
 
 Exemplo: essa solicitação retornará o valor de Campo com rich text em JSON armazenado no parameterValue DE:Field com rich text
 
@@ -120,4 +123,4 @@ Para salvar os seguintes valores de um campo rich text usando a API do Workfront
 1. Use o método stringify no JSON descrito acima para fazer uma solicitação do PUT e enviar atualizações.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
+   <pre><OBJ Code><OBJ ID></pre>

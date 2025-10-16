@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -190,7 +190,7 @@ Você pode validar seu token de acesso com uma chamada de API semelhante ao segu
 
 ## Solicitar um token de atualização
 
-Para solicitar um token de atualização, você pode fazer uma chamada de POST para a API, semelhante ao seguinte:
+Para solicitar um token de atualização, você pode fazer uma chamada POST para a API, semelhante ao seguinte:
 
 >[!INFO]
 >

@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Exportar uma lista de planilhas de horas
 description: Como gerente de pessoas ou aprovador de planilhas de horas, você pode precisar baixar uma lista de planilhas de horas para visualizar rapidamente as informações sobre as planilhas de horas das pessoas pelas quais você é responsável. Você pode fazer isso exportando uma lista de folhas de horas.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '466'
 ht-degree: 2%
 
 ---
@@ -23,33 +23,31 @@ Como gerente de pessoas ou aprovador de planilhas de horas, você pode precisar 
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: Claro ou superior </p>
-   <p>Atual: revisão ou superior </p>
+   <td>Licença do Adobe Workfront</td> 
+   <td> <p>Leve ou superior </p>
+   <p>Revisar ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Visualize ou aumente o acesso a tarefas e problemas </p> </td> 
+   <td>Configuração do nível de acesso</td> 
+   <td> <p>Acesso maior ou igual a tarefas e problemas</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou mais altas para a folha de horas</p> </td> 
+   <td>Permissões de objeto</td> 
+   <td> <p>Exibir ou aumentar permissões em tarefas e problemas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +87,7 @@ A área **Folhas de horas** é aberta.
 
 ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Opcional) Clique no ícone ![](assets/search-icon.png) de **pesquisa**, digite uma palavra-chave e procure uma planilha de horas específica. Por exemplo, você pode procurar um intervalo de tempo de conjunto de horas ou nome do proprietário.
+1. (Opcional) Clique no ícone **de** pesquisa![](assets/search-icon.png), digite uma palavra-chave e procure uma planilha de horas específica. Por exemplo, você pode procurar um intervalo de tempo de conjunto de horas ou nome do proprietário.
 
 1. (Opcional) Siga um destes procedimentos para atualizar o filtro na lista de folhas de horas:
 
@@ -129,16 +127,16 @@ A área **Folhas de horas** é aberta.
 
 1. Selecione o tipo de arquivo para o qual deseja exportar a lista de planilhas de horas a partir das seguintes opções:
 
-   * PDF Paisagem
-   * PDF Retrato
-   * PDF Outros Tamanhos
+   * PDF Ladscape
+   * PDF Portrait
+   * PDF de outros tamanhos
    * Excel
    * Excel (xlsx)
    * Delimitado por tabulação
 
    Uma lista de folhas de horas é baixada para o computador no formato selecionado e inclui as seguintes informações de folha de horas:
 
-   * Faixa de Datas
+   * Date Range
    * Nome do proprietário
    * Horas totais
    * Valor de horas extras

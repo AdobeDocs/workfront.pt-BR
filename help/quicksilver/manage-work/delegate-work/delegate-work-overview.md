@@ -4,10 +4,10 @@ content-type: overview
 navigation-topic: delegate-work
 title: Delegar visão geral do trabalho
 description: Quando você planeja ficar fora do escritório por um curto período de tempo, pode delegar temporariamente seu trabalho a outros usuários para garantir que sua ausência não se torne um obstáculo para a conclusão do trabalho.
-author: Lisa
+author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 1%

@@ -6,9 +6,9 @@ description: As pessoas devem ser adicionadas ao painel como membros antes de vi
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -23,22 +23,19 @@ Por padrão, o criador de um quadro é o proprietário. O proprietário do paine
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Novo: [!UICONTROL Contributor] ou superior</p> 
-   <p>ou</p>
-   <p>Atual: [!UICONTROL Request] ou superior</p>
+   <p>Colaborador ou superior</p> 
+   <p>Solicitação ou superior</p>
    </td> 
   </tr> 
  </tbody> 
@@ -99,4 +96,4 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Somente um usuário pode ser o proprietário do quadro. Uma equipe não pode ser um proprietário.
 
-1. Clique em [!UICONTROL **Atualizar**].
+1. Clique [!UICONTROL **Atualizar**].

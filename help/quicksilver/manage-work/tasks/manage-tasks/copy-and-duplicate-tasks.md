@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Copiar e duplicar tarefas
+title: Copiar e Duplicar Tarefas
 description: Você pode copiar uma tarefa de um projeto para outro ou duplicar uma tarefa dentro do mesmo projeto.
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1679'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,38 @@ Você pode copiar uma tarefa de um projeto para outro ou duplicar uma tarefa den
 
 ## Requisitos de acesso
 
-<!-- drafted for P&P:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Trabalhar ou superior</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a tarefas e projetos</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td> <p>Gerenciar permissões para uma tarefa</p> <p>Contribute ou tem permissões mais altas para o projeto</p> 
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,37 +80,7 @@ Você pode copiar uma tarefa de um projeto para outro ou duplicar uma tarefa den
    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
--->
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Trabalhar ou superior </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a tarefas e projetos</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para uma tarefa </p> <p>Permissões do Contribute ou superiores para o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+</table>-->
 
 ## Considerações para copiar tarefas
 
@@ -107,7 +108,7 @@ Considere o seguinte ao copiar uma tarefa:
    Ir para um relatório de tarefa.
 
 1. (Condicional) Clique em **Tarefas** no painel esquerdo, se você tiver aberto o projeto que contém as tarefas.
-1. Clique no ícone ![](assets/qs-list-mode-or-save-mode-icon-small.png) do **Modo de Plano** e verifique se a opção **Salvamento automático** está habilitada.
+1. Clique no ícone **do** Modo de Plano![](assets/qs-list-mode-or-save-mode-icon-small.png) e verifique se a opção **Salvamento automático** está habilitada.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
@@ -240,7 +241,7 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
 
    A tarefa é exibida na lista.
 
-   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Selecione o botão de opção do pai depois de encontrá-lo.
 
@@ -289,7 +290,7 @@ Você pode duplicar rapidamente uma tarefa em uma lista de tarefas, se precisar 
 1. Clique em **Tarefas** no painel esquerdo.
 1. Siga um destes procedimentos:
 
-   * (Condicional) Clique no ícone ![](assets/qs-list-mode-or-save-mode-icon-small.png) do **Modo de Plano** e verifique se a opção **Salvamento automático** está habilitada, selecione as tarefas que deseja duplicar e clique no **menu Mais** ![](assets/qs-more-menu-29x11.png) > **Duplicar**.
+   * (Condicional) Clique no ícone **do** Modo de Plano![](assets/qs-list-mode-or-save-mode-icon-small.png) e verifique se a opção **Salvamento automático** está habilitada, selecione as tarefas que deseja duplicar e clique no **menu Mais** ![](assets/qs-more-menu-29x11.png) > **Duplicar**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 

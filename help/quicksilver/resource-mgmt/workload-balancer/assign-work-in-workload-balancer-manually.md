@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: d93bdaec834f5a66e663c7edc7d9ffa42ffa5918
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
@@ -26,25 +26,21 @@ Para obter informações gerais sobre como atribuir trabalho a usuários usando 
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td> <p>Qualquer </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
-       <p>ou</p>
-       <p>Atual: plano, ao usar o Balanceador de Carga de Trabalho na área Recursos;</br>
-       Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Licença do Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Planejar, ao usar o Balanceador de carga de trabalho na área Recursos; Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
+  </tr>
+  <tr> 
+   <td>Configurações de nível de acesso</td> 
    <td> <p>Editar acesso ao seguinte:</p> 
     <ul> 
      <li>Gerenciamento de recursos</li> 
@@ -55,13 +51,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
+   <td>Permissões de objeto</td> 
    <td>Contribuir com permissões ou mais altas para projetos, tarefas e problemas que incluem Fazer atribuições</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

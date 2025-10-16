@@ -6,9 +6,9 @@ description: Você pode exibir a utilização de seus recursos no relatório de 
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '7285'
+source-wordcount: '7259'
 ht-degree: 1%
 
 ---
@@ -46,26 +46,22 @@ Você pode exibir a utilização de seus recursos no relatório de Utilização.
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte para acessar o relatório de Utilização:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td><p>Novo: Qualquer um</p>
-       <p>Ou</p>
-       <p>Atual: Pro ou superior</p> </td> 
+  <tr> 
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
-       <p>Ou</p>
-       <p>Atual: Plano</p> </td> 
+   <td>Licença do Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Configurações de nível de acesso</td> 
    <td> <p>Visualize ou tenha acesso superior ao seguinte:</p> 
     <ul> 
      <li> <p>Gerenciamento de recursos </p> </li> 
@@ -76,13 +72,13 @@ Você deve ter o seguinte para acessar o relatório de Utilização:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
+   <td>Permissões de objeto</td> 
    <td> <p>Visualize o acesso a projetos, portfólios e programas para acessar a seção Utilização na área Recursos</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Gerenciar acesso a um projeto para acessar a seção Utilização do projeto</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -5,9 +5,9 @@ description: Além de configurar as despesas de rastreamento e receita, você po
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 4805b93be7ce3dc098c7e160cdb872446f80ecbd
+source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '1645'
+source-wordcount: '1635'
 ht-degree: 1%
 
 ---
@@ -29,28 +29,27 @@ Não é possível criar registros de cobrança para tarefas; você só pode cria
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Pacote do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Novo: Padrão</p>
-   <p>ou</p>
-   <p>Atual: Plano</p></td> 
+   <p>Standard</p>
+   <p>Plano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Configurações de nível de acesso</td> 
    <td>Editar acesso a Projetos e Dados Financeiros</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
+   <td>Permissões de objeto</td> 
    <td>Gerenciar permissões do projeto com permissões para Gerenciar Finanças</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

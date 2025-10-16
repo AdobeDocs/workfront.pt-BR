@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: "Exemplo de campo personalizado calculado: exibir o gerente do criador de um problema no formulário personalizado de problema"
+title: 'Exemplo de campo personalizado calculado: exibir o gerente do criador de um problema no formulário personalizado de problema'
 description: Usando um campo personalizado calculado, você pode exibir o nome do gerente do criador de um problema em um formulário personalizado anexado ao problema. Usando a mesma instrução, é possível construir campos calculados semelhantes para projetos, problemas e outros objetos.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,36 @@ Usando um campo personalizado calculado, você pode exibir o nome do gerente do 
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer</td> 
+   <td> <p>Pacote do Adobe Workfront</p> </td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Licença da Adobe Workfront*</p> </td> 
-   <td> <p>Plano </p> </td> 
+   <td> <p>Licença do Adobe Workfront</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Plano</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Configurações de nível de acesso*</td> 
-   <td> <p>Acesso administrativo a formulários personalizados<br>Para obter informações sobre como conceder acesso administrativo a partir do nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+  <tr> 
+   <td><p>Configurações de nível de acesso</p></td> 
+   <td> <p>Acesso administrativo a formulários personalizados</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <tr> 
    <td> <p>Permissões de objeto</p> </td> 
-   <td> <p>Acesso do Contribute ao objeto ao qual o formulário está anexado com acesso a Editar o formulário personalizado</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Contribuir com acesso ao objeto ao qual o formulário está anexado com acesso a Editar o formulário personalizado</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exibir o gerente do criador de um problema no formulário personalizado de problema
 

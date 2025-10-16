@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Criar um Business Case para um projeto
 description: Você pode usar o Business Case para solicitar um projeto e definir a finalidade, o orçamento e o benefício potencial para o projeto. O gerente do Portfolio ou o patrocinador do projeto usa as informações do Business Case para analisar e priorizar o projeto antes de aprová-lo.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,16 @@ Você pode usar o Business Case para solicitar um projeto e definir a finalidade
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>plano do Adobe Workfront</p></td> 
    <td> 
-   <p>Atual: Prime ou superior</p> 
-   <p>Herdados: Pro ou superior</p> 
+   <p>Prime ou superior</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td> 
-   <p>Atual: Padrão </p> 
-   <p>Herdados: plano </p> </td> 
+   <p>Standard </p> 
+   <p>Plano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurações de nível de acesso</p></td> 
@@ -50,7 +49,7 @@ Você pode usar o Business Case para solicitar um projeto e definir a finalidade
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

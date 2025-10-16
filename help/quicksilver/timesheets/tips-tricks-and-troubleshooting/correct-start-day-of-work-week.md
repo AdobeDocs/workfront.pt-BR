@@ -4,10 +4,10 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Corrigir o Dia de Início da Semana de Trabalho para Folhas de Horas
 description: O dia de início da semana em minha folha de horas não corresponde ao meu dia de início semanal esperado.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%

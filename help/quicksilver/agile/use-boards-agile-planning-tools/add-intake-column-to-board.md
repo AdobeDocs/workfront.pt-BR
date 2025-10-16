@@ -7,7 +7,7 @@ description: Opcionalmente, é possível adicionar uma coluna de entrada ao quad
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 3%
@@ -57,15 +57,14 @@ Para obter mais informações sobre colunas, consulte [Gerenciar colunas do quad
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Novo: [!UICONTROL Contributor] ou superior</p> 
-   <p>ou</p>
-   <p>Atual: [!UICONTROL Request] ou superior</p>
+   <p>Colaborador ou superior</p> 
+   <p>Solicitação ou superior</p>
    </td> 
   </tr> 
  </tbody> 

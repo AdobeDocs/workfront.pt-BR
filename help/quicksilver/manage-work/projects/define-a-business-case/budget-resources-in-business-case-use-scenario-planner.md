@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: Recursos de orçamento no Business Case usando o Planejador de Cenários
 description: Como parte do planejamento de recursos, você pode usar o Planejador de cenários do Adobe Workfront para orçar as funções de trabalho necessárias para concluir o trabalho em um projeto ao criar o business case.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 0%
+source-wordcount: '959'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Para obter mais informações sobre como criar um business case, consulte [Criar
 >
 >As informações de função de trabalho para a iniciativa vinculada ao projeto inserido no Planejador de Cenários no nível do sistema ficam visíveis na área Orçamento de Recursos do business case do projeto quando você publica a iniciativa. O Planejador de cenários está disponível somente na nova experiência do Adobe Workfront e requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
 
-Você também pode estimar recursos no business case usando o Planejador de recursos. Para obter mais informações, consulte o seguinte:
+Você também pode estimar recursos no business case usando o Planejador de recursos. Para obter mais informações, consulte:
 
 * [Recursos de orçamento no Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
   <!--* [Budget resources by project in the Resource Planner](../../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md)-->
@@ -35,7 +35,7 @@ Você também pode estimar recursos no business case usando o Planejador de recu
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,14 +44,13 @@ Você também pode estimar recursos no business case usando o Planejador de recu
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
-   <td><p>Atual: Ultimate</p> 
-   <p>Herdados: Business ou superior</p> </td> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
+   <td><p>Prime ou superior</p> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td><p>Corrente: clara ou superior 
-   <p>Herdado: revisão ou superior</p> </td> 
+   <td><p>Leve ou superior 
+   <p>Revisar ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Produto</p></td> 

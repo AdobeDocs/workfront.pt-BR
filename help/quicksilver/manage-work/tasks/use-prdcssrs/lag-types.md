@@ -2,14 +2,14 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Visão geral dos Tipos de Defasagem
+title: Visão geral dos tipos de defasagem
 description: Atraso é o tempo que deve decorrer após a conclusão de um predecessor imposto até que a tarefa dependente possa começar (Atraso Positivo) ou o tempo que uma tarefa dependente poderia iniciar antes que o predecessor fosse iniciado (Atraso Negativo).
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1444'
 ht-degree: 0%
 
 ---
@@ -31,29 +31,55 @@ As datas Planejada, Projetada e Estimada das tarefas sucessoras são calculadas 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td><p>Novo: Padrão</p>
-       <p>ou</p>
-       <p>Atual: Plano </p> </td>
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Standard</p> 
+   <p>Plano</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nível de acesso</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a tarefas e projetos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para as tarefas e o projeto</p> </td> 
+   <td> <p>Gerenciar permissões para as tarefas e o projeto</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan </p> </td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the tasks and the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Tipos de Defasagem {#lag-types}
 

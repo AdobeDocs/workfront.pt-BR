@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Gerenciar informações da tarefa na área Visão geral de detalhes da tarefa
-description: Gerenciar informações da tarefa na área Visão geral de detalhes da tarefa
+title: Gerenciar Informações da Tarefa na Área de Visão Geral de Detalhes da Tarefa
+description: É possível exibir ou editar as informações de uma tarefa acessando a área Visão Geral da seção Detalhes da Tarefa. Há um número limitado de campos que você pode exibir ou editar na seção Detalhes da tarefa.
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2102'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
 -->
 
-É possível exibir ou editar as informações de uma tarefa acessando a área Visão Geral da seção Detalhes da Tarefa. Há um número limitado de campos que você pode exibir ou editar nessa área. Para obter informações sobre como editar todas as informações de uma tarefa, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+É possível exibir ou editar as informações de uma tarefa acessando a área Visão Geral da seção Detalhes da Tarefa. Há um número limitado de campos que você pode exibir ou editar na seção Detalhes da tarefa.
+
+Para obter informações sobre como editar todas as informações de uma tarefa, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 Este artigo descreve como exibir ou editar informações na área Visão geral dos Detalhes da tarefa. Para obter informações sobre a atualização de outras áreas de Detalhes da Tarefa, consulte os seguintes artigos:
 
@@ -29,31 +31,29 @@ Este artigo descreve como exibir ou editar informações na área Visão geral d
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-   *Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. 
- </caption> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Plano Adobe Workfront<b>*</b> </p> </td> 
+   <td> <p>Pacote do Adobe Workfront</p> </td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td> <p>Licença Adobe Workfront<b>*</b> </p> </td> 
-   <td> <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Licença do Adobe Workfront </p> </td> 
+   <td><p>Standard</p> 
+   <p>Trabalhar ou superior</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Configurações de nível de acesso*</strong> </td> 
-   <td> <p>Acesso de visualização ou superior a projetos e tarefas</p> <p>Se você tiver o nível de acesso correto, mas ainda não puder editar a seção Detalhes da tarefa, pergunte à Adobe Workfront se ela definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td>Configurações de nível de acesso</td> 
+   <td> <p>Acesso de visualização ou superior a projetos e tarefas</p> <p>Se você tiver o nível de acesso correto, mas ainda não puder editar a seção Detalhes da tarefa, pergunte à Adobe Workfront se ela definiu restrições adicionais no seu nível de acesso. </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Permissões de objeto</strong> </p> </td> 
-   <td> <p>Contribute ou permissões superiores para o projeto</p> <p>Exiba permissões da tarefa para exibir informações na seção Detalhes. </p> 
-   <p>Permissões do Contribute para a tarefa para atualizar as seguintes informações na seção Detalhes:</p>
+   <td> <p>Permissões de objeto</p> </td> 
+   <td> <p>Permissões do Contribute ou superior para o projeto</p> <p>Exiba permissões da tarefa para exibir informações na seção Detalhes. </p> 
+   <p>Contribua com permissões para que a tarefa atualize as seguintes informações na seção Detalhes:</p>
 
 <ul>
    <li>Descrição</li>
@@ -64,6 +64,42 @@ Você deve ter o seguinte:
   </tr> 
  </tbody> 
 </table>
+
+Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>If you have the correct access level but still can't edit the Details  section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information in the Details section. </p> 
+   <p>Contribute permissions for the task to update the following information  in the Details section:</p>
+
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   </ul>
+   
+   <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Editar informações da tarefa na seção Visão Geral de Detalhes da Tarefa
 
@@ -97,7 +133,7 @@ Você deve ter o seguinte:
       <td> <p>Informações adicionais sobre a tarefa</p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader">Número de Referência</td> 
+      <td role="rowheader">Número de referência</td> 
       <td>É um valor exclusivo para a tarefa gerada pelo Workfront para todos os objetos no sistema. </td> 
      </tr> 
      <tr> 
@@ -155,7 +191,7 @@ Você deve ter o seguinte:
             <td>Abreviação</td> 
            </tr> 
            <tr> 
-            <td>Minutos</td> 
+            <td>Minutes</td> 
             <td>M</td> 
            </tr> 
            <tr> 
@@ -167,11 +203,11 @@ Você deve ter o seguinte:
             <td>E</td> 
            </tr> 
            <tr> 
-            <td>Semanas</td> 
+            <td>Weeks</td> 
             <td>S</td> 
            </tr> 
            <tr> 
-            <td>Meses</td> 
+            <td>Months</td> 
             <td>T</td> 
            </tr> 
            <tr> 
@@ -310,7 +346,7 @@ Você deve ter o seguinte:
       <td> <p>A data em que a tarefa foi atualizada pela última vez. </p> <p>Dica: o Workfront registra uma Data atualizada sempre que alguém edita e salva uma tarefa.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Última Atualização realizada por</td> 
+      <td role="rowheader">Última atualização realizada por</td> 
       <td> <p>Pessoa que atualizou a tarefa pela última vez.</p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 

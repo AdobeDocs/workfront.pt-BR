@@ -6,10 +6,10 @@ description: Você pode compartilhar um calendário com outros usuários e dispo
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 0606dab832753543ceef4b5b505413967176aec4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 1%
 
 ---
 
@@ -22,8 +22,6 @@ Você pode compartilhar um calendário com outros usuários e disponibilizá-lo 
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -31,22 +29,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td><p>Novo: Claro</p>
-       <p>ou</p>
-       <p>Atual: revisão</p></td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Leve</p>
+       <p>Revisar</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>[!UICONTROL Exibir] ou acesso superior a [!UICONTROL Relatórios], [!UICONTROL Painéis] e [!UICONTROL Calendários]</p></td> 
+   <td> <p> Acesso maior ou igual a relatórios, painéis e calendários</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>[!UICONTROL Exibir] ou permissões superiores para o relatório de calendário, com acesso para compartilhar</td> 
+   <td>Exibir permissões ou mais altas para o relatório de calendário, com acesso para compartilhar</td> 
   </tr> 
  </tbody> 
 </table>

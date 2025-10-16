@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -30,31 +30,27 @@ Para obter mais informações, consulte [Visão geral da conversão de problemas
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
-   <td>Qualquer</td> 
+  <tr> 
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>
-   <p>Novo: Padrão</p>
-   <p>ou</p>
-   <p>Atual: Plano</p></td> 
+   <td>Licença do Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plano</p></td>
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+  <tr> 
+   <td>Configurações de nível de acesso</td> 
    <td> <p>Acesso administrativo a formulários personalizados</p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -79,8 +75,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Adicione mais objetos ao formulário personalizado no problema ou tarefa que você está convertendo, como explicado na seção [Primeiro: adicione mais objetos ao formulário personalizado](#first-add-additonal-objects-to-the-custom-form) neste artigo.
 1. Converta o problema ou a tarefa usando a opção **Forms personalizado** na caixa que é exibida para selecionar o formulário personalizado necessário. Para obter instruções, consulte os seguintes artigos:
 
-   * [Converter um problema em um projeto no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-   * [Converter um problema em uma tarefa no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+   * [Converter um problema em um projeto](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
+   * [Converter um problema em uma tarefa](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Converter uma tarefa em um projeto](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
 1. Na caixa de diálogo **Converter em (tipo de objeto)** que é exibida, clique no menu suspenso **Adicionar Forms** e selecione o formulário copiado na seção anterior.

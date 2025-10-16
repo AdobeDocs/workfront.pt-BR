@@ -9,16 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 9%
+ht-degree: 25%
 
 ---
 
 # Sobre o layout padrão do Adobe Workfront
 
-O layout padrão é a organização do ![ícone do menu principal](assets/main-menu-icon.png) ou do ![ícone do menu principal](assets/main-menu-icon.png) do menu principal, se disponível, o painel esquerdo, os modos de exibição, agrupamentos e filtros antes que um administrador do Adobe Workfront faça alterações usando um modelo de layout.
+O layout padrão é a organização do ![ícone do menu principal](assets/main-menu-icon.png) ou do ![ícone do menu principal](assets/main-menu-icon-left-nav.png) do menu principal, se disponível, o painel esquerdo, os modos de exibição, agrupamentos e filtros antes que um administrador do Adobe Workfront faça alterações usando um modelo de layout.
 
 Para obter informações sobre como um administrador do Workfront pode modificar o layout padrão de um usuário atribuindo um modelo de layout ao usuário, consulte [Atribuir usuários a um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -269,7 +269,7 @@ A tabela a seguir mostra os itens padrão do Menu principal e quais itens do pai
     <th class="tg-fymr">Área</th>
     <th class="tg-fymr">Itens do painel esquerdo</th>
     <th class="tg-fymr">Administrador de Sistema</th>
-    <th class="tg-fymr">Padrão</th>
+    <th class="tg-fymr">Standard</th>
     <th class="tg-fymr">Leve</th>
     <th class="tg-fymr">Colaborador</th>
     <th class="tg-fymr">Usuário externo</th>

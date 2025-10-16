@@ -6,9 +6,9 @@ description: Você pode adicionar qualquer tarefa ou problema a um quadro no Ado
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -25,27 +25,24 @@ Você pode adicionar qualquer tarefa ou problema a um quadro ou fluxo de trabalh
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto">
  <col>
  <col>
  <tbody>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td>
+   <td role="rowheader">Pacote do Adobe Workfront</td>
    <td> <p>Qualquer</p> </td>
   </tr>
   <tr>
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td>
+   <td role="rowheader">Licença do Adobe Workfront</td>
    <td>
-   <p>Novo: [!UICONTROL Padrão]</p> 
-   <p>ou</p>
-   <p>Atual: [!UICONTROL Trabalho] ou superior</p>
+   <p>Standard</p> 
+   <p>Trabalhar ou superior</p>
    </td>
   </tr>
   <tr>
    <td role="rowheader">Permissões de objeto</td>
-   <td>[!UICONTROL Exibir] ou permissões superiores para a tarefa ou problema </td>
+   <td>Exibir permissões ou mais altas para a tarefa ou problema </td>
   </tr>
  </tbody>
 </table>

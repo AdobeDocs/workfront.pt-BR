@@ -6,9 +6,9 @@ description: O menu Favoritos permite acessar itens rapidamente. Os itens perman
 feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ O menu [!UICONTROL Favoritos] permite acessar itens rapidamente. Os itens perman
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,15 +30,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>
-      <p>Novo: Colaborador ou superior<p>
-      <p>Ou</p>
-      <p>Atual: solicitação ou superior</p> </td> 
+      <p>Colaborador ou superior<p>
+      <p>Solicitação ou superior</td> 
   </tr> 
  </tbody> 
 </table>

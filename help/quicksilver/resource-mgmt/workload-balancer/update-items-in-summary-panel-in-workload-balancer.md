@@ -6,9 +6,9 @@ description: Você pode abrir o painel Resumo no Balanceador de carga de trabalh
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '389'
 ht-degree: 2%
 
 ---
@@ -23,26 +23,22 @@ O painel Resumo está disponível para tarefas e problemas nas áreas Trabalho a
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td> <p>Qualquer </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
-       <p>ou</p>
-       <p>Atual: plano, ao usar o Balanceador de Carga de Trabalho na área Recursos;</br>
-       Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso ao seguinte:</p> 
+   <td>Licença do Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Planejar, ao usar o Balanceador de carga de trabalho na área Recursos; Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
+  </tr>
+  <tr> 
+   <td>Configurações de nível de acesso</td> 
+   <td> <p>Visualize ou tenha acesso superior ao seguinte:</p> 
     <ul> 
      <li>Gerenciamento de recursos</li> 
      <li>Projetos</li> 
@@ -52,13 +48,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td>Contribuir com permissões ou com permissões superiores para projetos, tarefas e problemas</td> 
+   <td>Permissões de objeto</td> 
+   <td>Contribuir com ou mais permissões para projetos, tarefas e problemas</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

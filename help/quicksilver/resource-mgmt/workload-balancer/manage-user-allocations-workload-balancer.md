@@ -6,9 +6,9 @@ description: Como um Gerenciador de recursos, você pode atribuir trabalho aos u
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -23,25 +23,21 @@ Como um Gerenciador de recursos, você pode atribuir trabalho aos usuários e ge
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td> <p>Qualquer </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
-       <p>ou</p>
-       <p>Atual: plano, ao usar o Balanceador de Carga de Trabalho na área Recursos;</br>
-       Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Licença do Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Planejar, ao usar o Balanceador de carga de trabalho na área Recursos; Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
+  </tr>
+  <tr> 
+   <td>Configurações de nível de acesso</td> 
    <td> <p>Editar acesso ao seguinte:</p> 
     <ul> 
      <li>Gerenciamento de recursos</li> 
@@ -52,13 +48,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
+   <td>Permissões de objeto</td> 
    <td> <p>Contribua com permissões ou superiores que incluam Fazer atribuições às tarefas e problemas para os quais você deseja gerenciar alocações. </p> <p>Ou </p> <p>Gerencie permissões para as tarefas para as quais você deseja atualizar as Horas planejadas, além de atualizar alocações. Para obter informações sobre como atualizar as Horas planejadas no Balanceador de carga de trabalho, consulte a seção <a href="#update-task-planned-hours-when-managing-user-allocations">Atualizar horas planejadas da tarefa ao gerenciar alocações de usuário</a> neste artigo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,7 +90,7 @@ Considere o seguinte ao localizar alocações diárias, semanais ou mensais para
 
   >[!INFO]
   >
-  > Por exemplo, uma tarefa pode ter uma Duração de 2 dias e 2 Horas planejadas e tem uma Hora de início planejada de 12h no primeiro dia da duração com um usuário e um Cronograma do projeto que termina às 17h. A capacidade do usuário para o primeiro dia é de 5 horas. A capacidade do usuário para o segundo dia é de 8 horas (se a programação começar às 9:00 AM).
+  > Por exemplo, uma tarefa pode ter uma Duração de 2 dias e 2 Horas planejadas e tem uma Hora de início planejada de 12:00 PM no primeiro dia da duração com um usuário e um Cronograma de projeto que termina às 17:00. A capacidade do usuário para o primeiro dia é de 5 horas. A capacidade do usuário para o segundo dia é de 8 horas (se a programação começar às 9:00 AM).
   >
   >O Workfront calcula a alocação das 2 horas nos 2 dias da duração usando a seguinte fórmula:
   >

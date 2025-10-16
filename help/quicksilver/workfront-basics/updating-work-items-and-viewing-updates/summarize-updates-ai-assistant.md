@@ -6,9 +6,9 @@ description: As Atualizações são de um objeto que inclui um botão que usa o 
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: 440d9af6915184b7e91ca257e02be4a234fb91e0
+source-git-commit: cf3d5daa739fa6ab413ee82a9f465441ef61ae6d
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -27,42 +27,70 @@ Você pode usar o botão Resumir conteúdo para gerar um resumo ou pode inserir 
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td><p>Novo: Qualquer um</p>
-       <p>ou</p>
-       <p>Atual: não disponível</p></td>
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer pacote de fluxo de trabalho</p>
+      </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
-       <p>ou</p>
-       <p>Atual: não disponível</p></td>
-  </tr> 
- </tbody> 
+   <td><p>Standard</p>
+   </td>
+  </tr>
+
+<tr> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td><p>Exibir ou ter permissões mais altas para os objetos cujas atualizações você deseja exibir</p>
+   </td>
+  </tr>
+
+</tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Any</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Pré-requisitos
 
-* O administrador do Workfront deve ter ativado o Assistente de IA para sua organização.
+* O administrador do Workfront deve ativar o Assistente de IA para sua organização.
 
   Para obter mais informações, consulte [Pré-requisitos do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) no artigo Visão geral do Assistente de IA.
-* O administrador do Workfront deve ter ativado o Assistente de IA para o seu nível de acesso.
+* O administrador do Workfront deve ativar o Assistente de IA no seu nível de acesso.
 
   Para obter mais informações, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
-## Resumir usando o botão Resumir Conteúdo
+## Resumir usando o botão Resumir comentários
 
-1. Navegue até o fluxo de atualização que deseja resumir.
-1. Clique no botão **Resumir Conteúdo**.
+1. Vá para o objeto cujas atualizações você deseja resumir.
+1. Clique em **Atualizações** no painel esquerdo.
+1. Clique no botão **Resumir comentários** na parte superior da área **Atualizações**.
 
    O Assistente de IA é aberto, com um prompt para resumir os últimos 7 dias de comentários no fluxo de atualização.
 

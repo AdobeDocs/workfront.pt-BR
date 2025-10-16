@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 0%
+source-wordcount: '406'
+ht-degree: 1%
 
 ---
 
@@ -30,6 +30,33 @@ Exemplo:
 >
 >* Os clientes que compraram o Workfront após a versão 23.3 (julho de 2023) têm o processo de lançamento rápido habilitado por padrão e podem recusar.
 >* Os clientes que compraram o Workfront antes da versão 23.3 têm o processo de lançamento rápido desativado por padrão e podem aderir.
+
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacote do Workfront</td> 
+   <td><p>Qualquer</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Standard</p> <p>Plano</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Você deve ser um administrador do Workfront. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerações ao ativar ou desativar o processo de lançamento rápido
 

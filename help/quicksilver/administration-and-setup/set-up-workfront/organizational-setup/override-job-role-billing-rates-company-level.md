@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 1%
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -25,32 +25,28 @@ No nível do projeto, você pode ativar uma opção para permitir que as taxas d
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
-   <td> <p>Qualquer </p> </td> 
+   <td>[!DNL Adobe Workfront] pacote</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td>
-   <p>Novo: [!UICONTROL Padrão]</p>
-   <p>Ou</p>
-   <p>Atual: [!UICONTROL Plano]</p></td> 
+   <td>[!DNL Adobe Workfront] licença</td> 
+   <td><p>[!UICONTROL Padrão]</p>
+       <p>[!UICONTROL Plano]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Configurações de nível de acesso</td> 
    <td> <p>Acesso administrativo a Empresas se você não for um Administrador do sistema</p>
-   <p>Editar acesso a Dados Financeiros</p> </td> 
+   <p>Editar acesso a Dados Financeiros</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

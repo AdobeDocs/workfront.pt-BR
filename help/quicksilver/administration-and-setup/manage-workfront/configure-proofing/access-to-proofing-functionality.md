@@ -9,28 +9,24 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 882c3e58e0e47c549be70dff3f5ac410b34a090f
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
 
 # Acesso à funcionalidade de prova no Workfront
 
-A funcionalidade de prova disponível para os usuários depende de qual plano da Workfront sua organização adquiriu.
+A revisão é incluída automaticamente para todas as licenças no Workfront. As licenças determinam o que os usuários podem fazer.
 
-## Provas no Workfront
+<!--Workfront instances using enterprise storage do not have access to proofing functionality. Instead, they use the native integration with Frame.io. For more information, see -->
 
-Atualmente, existem três opções de plano para Revisão de Texto no Workfront:
+Os pacotes herdados do Workfront 2017 incluem automaticamente a prova de licenças de Trabalho e Plano se você tiver os planos pro, business ou enterprise do Workfront. Estes planos estão a ser progressivamente eliminados.
 
-* **Novos planos do Workfront**: a revisão é incluída automaticamente para todas as licenças nos novos planos do Workfront.
-* **Planos atuais do Workfront Pro+**: a revisão é incluída automaticamente nas licenças de Trabalho e Plano se você tiver os planos pro, business ou enterprise do Workfront.
-* **Planos herdados do Workfront Premium**: esta opção é para planos herdados do Workfront: Select, Enterprise, Premium. A revisão não é incluída automaticamente nas licenças deste plano. Você deve conceder acesso à prova a usuários específicos em seus perfis de usuário.
+Se você for um administrador do Workfront, poderá verificar em qual plano sua instância está acessando Configuração > Sistema > Licenças.
 
-  Se você for um administrador do Workfront, poderá verificar em qual plano sua instância está acessando Configuração > Sistema > Licenças.
-
-### Recursos de provas no Workfront
+## Recursos de provas no Workfront
 
 Para obter informações sobre como conceder e revogar o acesso de um usuário para criar e exibir provas no Workfront, consulte [Configurar o acesso de prova de um usuário](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 

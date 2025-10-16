@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2763'
 ht-degree: 4%
 
 ---
@@ -35,31 +35,23 @@ O relatório de Lançamento pode mostrar:
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-      <td> 
-      <p>Novo:</p>
-         <ul>
-         <li><p>Padrão</p></li>
-         </ul>
-      <p>Atual:</p>
-         <ul>
-         <li><p>Plano</p></li>
-         </ul>
-   </td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plano</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td role="rowheader">Configuração do nível de acesso</td> 
    <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +61,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -111,7 +103,7 @@ A exibição padrão desse relatório contém as seguintes colunas:
    <td><strong>Tipo de alteração</strong> </td> 
    <td> <p>O tipo de alteração feita no campo afetado. Dependendo das regras de filtro configuradas e das ações executadas pelos usuários, o seguinte poderá aparecer neste campo:</p> 
     <ul> 
-     <li> <p>Adicionar</p> </li> 
+     <li> <p>Add</p> </li> 
      <li> <p>Auditoria</p> </li> 
      <li> <p>Excluir</p> </li> 
      <li> <p>Resumo</p> </li> 

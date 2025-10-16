@@ -7,10 +7,10 @@ description: No Google Workspace, ao abrir um email de notificação enviado pel
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 0%
+source-wordcount: '572'
+ht-degree: 1%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 >
 >Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
 >
->Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Google Workspace, consulte [módulos do Gmail](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [módulos do Google Calendar](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Google Workspace, consulte [módulos do Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [módulos do Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Em [!DNL Google Workspace], quando você abre um email de notificação enviado por [!DNL Adobe Workfront], é possível exibir os detalhes do item de trabalho associado e responder sem sair da [!UICONTROL Caixa de entrada]. Se ações estiverem disponíveis, como a aprovação de uma solicitação, você poderá executar essas ações diretamente de [!DNL Workfront for Google Workspace].
 
@@ -38,24 +38,26 @@ Em [!DNL Google Workspace], quando você abre um email de notificação enviado 
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Trabalho], [!UICONTROL Plano]</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Standard</p><p>Trabalhar ou superior</p>
   </tr> 
-  </tbody> 
+ </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -97,7 +99,7 @@ Antes de gerenciar os detalhes de notificação de [!DNL Google Workspace], voc�
       <td><strong>[!UICONTROL Aprovar]</strong>, <strong>[!UICONTROL Rejeitar]</strong>, <strong>[!UICONTROL Conceder]</strong> acesso a ele ou <strong>[!UICONTROL Ignorar]</strong> uma solicitação de acesso a ele</td> 
      </tr> 
      <tr> 
-      <td>Atualizar </td> 
+      <td>Atualização </td> 
       <td> <p>Exiba qualquer parte da lista inteira de atualizações do item para que você tenha o contexto necessário para <strong>[!UICONTROL Postagem]</strong> uma nova atualização ou uma <strong>[!UICONTROL Resposta]</strong>. Você pode clicar em <strong>[!UICONTROL Notify]</strong> para alertar usuários específicos sobre sua resposta. </p> <p>Para obter mais informações, consulte <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Responder a uma notificação de atualização de [!DNL Adobe Workfront] de [!DNL Google Workspace]</a>.</p> </td> 
      </tr> 
      <tr> 

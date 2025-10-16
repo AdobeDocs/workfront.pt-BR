@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filtro: exibir itens por status de mesmo nome quando os status estiverem associados a grupos diferentes"
+title: 'Filtro: exibir itens por status de mesmo nome quando os status forem associados a grupos diferentes'
 description: Você pode ter um status de tarefa atribuído ao Grupo A com o nome Novo status com a chave de 3 letras NST. Você pode ter outro status de tarefa atribuído ao Grupo B, também chamado Novo status com a chave de 3 letras NES. Embora os nomes dos dois status possam ser idênticos, o código de 3 letras é sempre exclusivo. Para obter mais informações sobre status de grupos, consulte Criar ou editar um status de grupo.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8ddcd8b1-44a9-4341-80c7-76ba70d2953b
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -26,28 +26,21 @@ Com o construtor de filtros, não é possível identificar entre os dois status 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-    <p>Novo:</p>
-   <ul><li><p>Colaborador para modificar um filtro </p></li>
-   <li><p>Padrão para modificar um relatório</p></li> </ul>
-
-<p>Atual:</p>
-   <ul><li><p>Solicitação para modificar um filtro </p></li>
-   <li><p>Planejar a modificação de um relatório</p></li> </ul></td> 
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
+   <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -60,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

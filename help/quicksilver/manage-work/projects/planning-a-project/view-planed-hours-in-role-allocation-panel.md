@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: plan-a-project
 title: Exibir horas planejadas do projeto no painel Alocação de função
 description: Você pode visualizar a alocação de funções para todas as funções de trabalho atribuídas a itens de trabalho em um projeto no painel Alocação de funções do projeto.
-author: Alina
+author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -24,14 +24,50 @@ Você pode visualizar a alocação de funções para todas as funções de traba
 >* [Mostrar alocação de funções para projetos e iniciativas na lista de tarefas](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
 >* [Mostrar alocação de funções para projetos e iniciativas no Balanceador de Carga de Trabalho](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
->  Você deve ter uma licença do Planejador de cenários para ver as horas de iniciativa no painel Alocação de função. Para obter informações sobre o Planejador de cenários, consulte [Introdução ao Planejador de cenários](../../../scenario-planner/get-started-with-scenario-planning.md).
+>  Você deve ter uma licença do Planejador de cenários para ver as horas de iniciativa no painel Alocação de função. Para obter informações sobre o Planejador de cenários, consulte [Introdução ao Planejador de cenários](../../../scenario-planner/get-started-with-scenario-planning.md).
 >
+>Se sua empresa comprou o Planejador de cenários da Adobe no passado, ele não tem mais direitos. O Planejador de cenários não está mais disponível para compra.
 
 ## Requisitos de acesso
 
-<!--drafted for P&P:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Adobe Workfront Ultimate</p>
+   <p>Ultimate de fluxo de trabalho do Adobe</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> 
+   <p>Leve ou superior</p>
+   <p>Revisar ou superior</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Acesso de visualização ou superior aos Projetos</p>
+   <p>Editar acesso ao Planejador de cenários para atualizar horas nas iniciativas</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td> <p>Exibir permissões do projeto ou superiores</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+able style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -41,10 +77,7 @@ Você pode visualizar a alocação de funções para todas as funções de traba
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Light or higher</p> 
-   Or
-   <p>Legacy license: Review or higher</p> 
-   </td> 
+   <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -55,36 +88,7 @@ Você pode visualizar a alocação de funções para todas as funções de traba
    <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
--->
-
-Você deve ter o seguinte:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Revisar ou superior</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso de visualização ou superior aos Projetos</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões do projeto ou superiores</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+</table>-->
 
 ## Pré-requisitos
 

@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: manage-issues
 title: Visão geral da modificação de atribuições de emissão
 description: Você pode atribuir problemas a usuários, equipes ou funções de trabalho ou cancelá-los. Você pode atribuir vários recursos ao mesmo tempo ou apenas um recurso. Você pode atribuir um problema de cada vez ou vários problemas em massa.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%

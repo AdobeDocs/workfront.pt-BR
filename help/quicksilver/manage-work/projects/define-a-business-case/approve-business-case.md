@@ -2,12 +2,12 @@
 navigation-topic: business-case-and-scorecards
 title: Aprovar um Business Case
 description: Depois de concluir e enviar o Business Case para uma solicitação de projeto, o Business Case deve ser aprovado. Depende do workflow em sua organização. Um projeto pode ser iniciado sem a aprovação do Business Case, mas o administrador e os proprietários do projeto do Adobe Workfront podem não considerar ideal.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -29,18 +29,16 @@ Para obter mais informações sobre como concluir e enviar um Business Case, con
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-   <p>Atual: Prime ou superior</p>
-   <p>ou</p>
-   <p>Herdados: Business ou superior</p> 
+   <p>Prime ou superior</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Atual: Padrão </p> 
-   <p>Herdados: plano </p> </td> 
+   <p>Standard </p> 
+   <p>Plano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -53,7 +51,7 @@ Para obter mais informações sobre como concluir e enviar um Business Case, con
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

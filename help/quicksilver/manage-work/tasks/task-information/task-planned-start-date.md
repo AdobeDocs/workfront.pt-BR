@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Visão geral da Data de Início Planejada da tarefa
+title: Visão Geral da Data de Início Planejada da tarefa
 description: A Data de Início Planejada de uma tarefa é a data em que você, como criador da tarefa, decide que o trabalho na tarefa deve começar. As datas das tarefas planejadas influenciam as datas e a linha do tempo do projeto. Para obter informações sobre a Data Inicial Planejada do projeto, consulte Visão Geral da Data Inicial Planejada do projeto.
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: 0ff02569d3c7fb532a2faafc46fe4235ce77acd4
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 2%

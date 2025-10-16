@@ -6,10 +6,10 @@ description: Você pode modificar um calendário existente adicionando ou exclui
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 1%
 
 ---
 
@@ -25,8 +25,6 @@ Você pode modificar um calendário existente adicionando ou excluindo um link p
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -34,22 +32,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront plan]</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td><p>Novo: Padrão</p>
-       <p>ou</p>
-       <p>Atual: Plano</p></td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>[!UICONTROL Editar] acesso a [!UICONTROL Relatórios], [!UICONTROL Painéis] e [!UICONTROL Calendários]</p></td> 
+   <td> <p> Editar acesso a relatórios, painéis e calendários</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>Acesso [!UICONTROL Gerenciar] ao relatório de calendário</td> 
+   <td>Gerenciar acesso ao relatório de calendário</td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,13 +67,11 @@ Se você compartilhou o relatório de calendário com outros usuários ou equipe
    1. Clique em **[!UICONTROL Adicionar ao Calendário].**
    1. Comece digitando o nome de um projeto do qual deseja adicionar eventos de calendário e clique no nome quando ele for exibido na lista suspensa.
    1. Clique em **Adicionar**.
-
       ![adicionar um projeto a um calendário](assets/add-a-calendar-project.png)
 
 
 1. (Opcional) Para adicionar um agrupamento de calendário ou modificar um agrupamento de calendário existente:
    1. Clique no menu **Mais** ao lado do nome do projeto e clique em **Editar**.
-
       ![editar projeto no calendário](assets/edit-project-in-calendar.png)
 
    1. Escolha como deseja agrupar os itens:

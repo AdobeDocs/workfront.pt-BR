@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '475'
 ht-degree: 1%
 
 ---
@@ -26,26 +26,23 @@ Você pode instalar um blueprint no seu ambiente de produção ou um ambiente de
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Novo: Padrão</p>
-   <p>ou</p>
-   <p>Atual: Plano</p></td> 
+   <p>Standard</p>
+   <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td>Você deve ser um administrador [!DNL Workfront]. </td> 
+   <td>administrador do Workfront</td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,7 +87,7 @@ Você pode instalar seu pacote em qualquer um dos seguintes ambientes:
 1. (Opcional) Clique em **[!UICONTROL Detalhes]** para saber como o blueprint funciona.
 1. Clique em **[!UICONTROL Instalar]**.
 1. Escolha instalar no ambiente de produção ou em um ambiente de sandbox.\
-   Para obter mais informações, consulte o [Onde devo instalar um blueprint?seção &#x200B;](#where-should-i-install-a-blueprint) neste artigo.
+   Para obter mais informações, consulte o [Onde devo instalar um blueprint?seção ](#where-should-i-install-a-blueprint) neste artigo.
 1. Na página **Configurar**, você pode optar por executar um dos seguintes procedimentos:
 
    * Instale o blueprint como está. Para tipos de blueprint que não exigem configuração, essa é a única opção. Para tipos de blueprint que precisam de configuração, você pode optar por instalar o blueprint agora e configurá-lo posteriormente. Clique em **[!UICONTROL Instalar como está]**.

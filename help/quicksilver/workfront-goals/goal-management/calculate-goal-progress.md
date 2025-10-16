@@ -6,10 +6,10 @@ description: O progresso da meta é orientado por indicadores de progresso como 
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 0%
+source-wordcount: '795'
+ht-degree: 1%
 
 ---
 
@@ -17,23 +17,31 @@ ht-degree: 0%
 
 <!--Audited for P&P only: 4/2025-->
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
+>Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
->
->* Para o novo plano e estrutura de licença:
->
->   * Um plano do Ultimate
->    
->* Para o plano e a estrutura de licença atuais:
->
->   * A Pro ou superior
->   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
->
-> Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
+>O Adobe Workfront Goals não está mais disponível para compra.
 >
 >Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+>[!IMPORTANT]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>
+>* For the new plan and license structure:
+>
+>   * An Ultimate plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher 
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+> Contact your Workfront account manager to learn about a Workfront Goals license.-->
+
 
 O Adobe Workfront calcula o progresso da meta automaticamente, com base no progresso de seus indicadores de progresso.
 

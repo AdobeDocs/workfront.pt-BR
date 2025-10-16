@@ -5,9 +5,9 @@ description: É possível localizar itens facilmente em  [!DNL Adobe Workfront] 
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
+source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1570'
 ht-degree: 1%
 
 ---
@@ -33,17 +33,14 @@ Você deve ter permissões para Exibir um objeto antes de encontrá-lo em uma pe
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td> <p>Novo: Colaborador ou superior<p>
-   <p>Ou</p>
-   <p>Atual: solicitação ou superior </p>
-
-
-</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Colaborador ou superior<p>
+   <p>Solicitação ou superior </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 

@@ -6,9 +6,9 @@ description: Você pode remover as permissões de outros usuários nos objetos a
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: ce7b475dbd11f9cfd7fcf9879c0f34bf993f9113
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -23,31 +23,21 @@ Considerações semelhantes às dos objetos de compartilhamento se aplicam à re
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-
-Você deve ter o seguinte para compartilhar objetos:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Workfront*</td> 
-   <td> <p>Nova licença: Contributor ou superior</p>
-   Ou  
-   <p>Licença atual: Solicitação ou superior</p>
-   <p><b>Nota</b></p>
-
-<p>Alguns objetos exigem um acesso maior do que a Solicitação. </p>
-
-<p>Por exemplo, para a nova licença, um Colaborador pode compartilhar problemas, mas somente os usuários com licença Padrão podem compartilhar um projeto.</p>
-
-<p>Para a licença atual, um Solicitante pode compartilhar ocorrências, mas somente Trabalhadores ou Planejadores podem compartilhar um projeto.</p> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Colaborador ou superior</p> 
+   <p>Solicitação ou superior</p>
+   <p><strong>Observação</strong>: alguns objetos exigem um acesso maior do que a Solicitação.</p>
    </td> 
   </tr> 
   <tr> 
@@ -57,11 +47,11 @@ Você deve ter o seguinte para compartilhar objetos:
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
    <td> <p>Exibir permissões ou superiores aos objetos que você deseja compartilhar</p> <p>Gerenciar permissões para remover permissões herdadas em objetos</p>  </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso para a documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

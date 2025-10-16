@@ -6,9 +6,9 @@ description: Por padrão, as informações que você vê no aplicativo Web  [!DN
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 0efbc6051443d8e0ed96512b72d0949b288f7c2d
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -44,34 +44,32 @@ A tabela a seguir lista todas as áreas e objetos do [!DNL Workfront] que contê
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>Qualquer</p> </td> 
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Review] ou superior</p> </td> 
+   <td>Licença do Adobe Workfront</td> 
+   <td>
+   <p>Leve ou superior</p>
+   <p>Revisar ou superior</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td>[!UICONTROL Reviewer] ou superior</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td>Visualizar acesso ao tipo de objeto</td> 
+   <td>Permissões de objeto</td> 
+   <td><p>Visualizar acesso ao tipo de objeto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Adicionar um painel no painel esquerdo de um objeto ou área [!DNL Workfront]
 

@@ -1,23 +1,25 @@
 ---
 product-area: projects
 navigation-topic: use-the-gantt-chart
-title: Atualizar informações no Diagrama de Gantt da lista de tarefas
-description: O Gráfico de Gantt da lista de tarefas mostra detalhes sobre tarefas que estão em um projeto ou modelo.
+title: Atualizar Informações no Gráfico de Gantt da Lista de Tarefas
+description: O Gráfico de Gantt de uma lista de tarefas do Adobe Workfront mostra detalhes sobre tarefas que estão em um projeto ou modelo.
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 0%
+source-wordcount: '1006'
+ht-degree: 1%
 
 ---
 
 # Atualizar informações na lista de tarefas [!UICONTROL Gráfico de Gantt]
 
-A lista de tarefas [!UICONTROL Gráfico de Gantt] mostra detalhes sobre tarefas que estão em um projeto ou modelo.
+<!--Audited: 08/2025-->
 
-Em um modelo, a lista de tarefas [!UICONTROL Gráfico de Gantt] reflete as atualizações feitas na lista de tarefas do modelo no nível da tarefa. Não é possível editar o [!UICONTROL Gráfico de Gantt] associado a um modelo.
+O [!UICONTROL Gráfico de Gantt] de uma lista de tarefas do Adobe Workfront mostra detalhes sobre tarefas que estão em um projeto ou modelo.
+
+Em um modelo, a lista de tarefas [!UICONTROL Gráfico de Gantt] reflete as atualizações feitas na lista de tarefas do modelo no nível de tarefa do modelo. Não é possível editar o [!UICONTROL Gráfico de Gantt] associado a um modelo.
 
 Em um projeto, você pode atualizar as informações da tarefa diretamente na lista de tarefas [!UICONTROL Gráfico de Gantt].
 
@@ -31,32 +33,60 @@ Este artigo descreve as seguintes ações que você pode executar diretamente no
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para seguir as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>Qualquer </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] pacote</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Plano] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> <p>[!UICONTROL Padrão]</p>
+   <p>[!UICONTROL Plano]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>[!UICONTROL Editar] acesso a Projetos e Tarefas</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>[!UICONTROL Editar] acesso a Projetos e Tarefas</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>[!UICONTROL Gerenciar] acesso ao projeto e às tarefas </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>[!UICONTROL Gerenciar] acesso ao projeto e às tarefas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ 
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project and tasks </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Modificar duração da tarefa
 
@@ -69,7 +99,7 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
 
    ![Clique no ícone Gráfico de Gantt](assets/click-gantt-chart-icon.png)
 
-   Todas as alterações são salvas automaticamente quando a opção **[!UICONTROL Salvar automaticamente]** está habilitada. Ela é ativada por padrão.
+   Todas as alterações são salvas automaticamente quando a opção **[!UICONTROL Salvar automaticamente]** está habilitada. Esta opção está habilitada por padrão.
 
 1. (Opcional) Clique no ícone **[!UICONTROL Modo de plano]** e selecione **[!UICONTROL Salvar manualmente padrão]** ou **[!UICONTROL Planejamento de linha do tempo]** para salvar as alterações manualmente.
 
@@ -129,7 +159,7 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
 1. Vá para o projeto que deseja modificar.
 1. Na área **[!UICONTROL Tarefas]**, clique no ícone do **[!UICONTROL Gráfico de Gantt]**.
 
-   Todas as alterações são salvas automaticamente quando a opção **[!UICONTROL Salvar automaticamente]** está habilitada. Ela é ativada por padrão.
+   Todas as alterações são salvas automaticamente quando a opção **[!UICONTROL Salvar automaticamente]** está habilitada. Esta opção está habilitada por padrão.
 
    ![Clique no ícone Gráfico de Gantt](assets/click-gantt-chart-icon.png)
 
@@ -180,7 +210,7 @@ Você deve ter o seguinte para seguir as etapas deste artigo:
 
    ![Clique no ícone Gráfico de Gantt](assets/click-gantt-chart-icon.png)
 
-   Todas as alterações são salvas automaticamente quando a opção **[!UICONTROL Salvar automaticamente]** está habilitada. Ela é ativada por padrão.
+   Todas as alterações são salvas automaticamente quando a opção **[!UICONTROL Salvar automaticamente]** está habilitada. Esta opção está habilitada por padrão.
 
 1. (Opcional) Clique no ícone **[!UICONTROL Modo de plano]** e selecione **[!UICONTROL Salvar manualmente padrão]** ou **[!UICONTROL Planejamento de linha do tempo]** para salvar as alterações manualmente.
 1. Clique duas vezes no número percentual dentro da tarefa e insira o número.

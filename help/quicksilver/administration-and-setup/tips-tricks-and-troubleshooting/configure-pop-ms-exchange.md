@@ -5,13 +5,13 @@ product-area: system-administration;setup
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Configurar POP no Microsoft Exchange
 description: Uma conta de email POP em  [!DNL Microsoft Exchange]  está desabilitada.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7b6f40-cfbd-4f02-8c3e-de26b05db13b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -26,39 +26,31 @@ Conta de email POP em [!DNL Microsoft Exchange] desabilitada.
 
 Antes de gastar tempo resolvendo o problema, verifique se a conta POP do usuário está configurada corretamente. Se continuar a ter problemas depois de confirmar que a conta POP está configurada corretamente, contate o Suporte do [!DNL Microsoft] ou um de seus parceiros para obter ajuda adicional.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For instructions on integrating a POP account in Adobe Workfront, see .</p>
--->
-
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
-   <td>Qualquer</td> 
+   <td>[!DNL Adobe Workfront] pacote</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td>
-   <p>Novo: Padrão</p>
-   <p>ou</p>
-   <p>Atual: Plano</p></td> 
+   <td>[!DNL Adobe Workfront] licença</td> 
+   <td><p>Standard</p>
+       <p>Plano</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Configurações de nível de acesso</td> 
    <td>[!UICONTROL Administrador do Sistema]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

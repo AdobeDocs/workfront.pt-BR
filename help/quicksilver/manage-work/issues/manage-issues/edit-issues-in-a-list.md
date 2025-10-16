@@ -6,14 +6,16 @@ description: Você pode editar um problema individual ou editar problemas em uma
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '882'
 ht-degree: 1%
 
 ---
 
 # Editar problemas em uma lista
+
+<!--Audited: 08/2025-->
 
 Você pode editar um problema individual ou editar problemas em uma lista de problemas ou relatório. Este artigo descreve como editar problemas em listas.
 
@@ -21,19 +23,26 @@ Para obter informações sobre como editar um problema individual, consulte [Edi
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as ações neste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Solicitação ou superior</p> <p>Licença de revisão ou superior para editar problemas na seção Problemas de um projeto.</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+
+<ul><li><p>Colaborador ou superior</p> </li>
+   <li><p>Licença leve ou superior para editar um problema na seção Problemas de um projeto</p></li></ul> 
+    Ou
+   <ul><li><p>Solicitante ou superior</p> </li>
+   <li><p>Licença de revisor ou superior para editar um problema na seção Problemas de um projeto</p></li></ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -46,7 +55,34 @@ Você deve ter o seguinte acesso para executar as ações neste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues section of a project.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Problemas de edição em linha
 
@@ -71,40 +107,40 @@ Para editar um problema em linha:
 
    Para obter informações sobre objetos de edição em linha, consulte [itens de edição em linha em uma lista no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-## Editar problemas em uma lista
+## Editar problemas de uma lista
 
 1. Ir para uma lista de problemas em um projeto ou tarefa.
 1. Siga um destes procedimentos
 
-   * Selecione o problema na lista e clique no ícone Editar ![ícone Editar](assets/qs-edit-icon.png) na barra de ferramentas.
-   * Clique no **Mais menu** ![Mais menu](assets/more-icon-task-list.png) à direita do nome do problema e clique em **Abrir em uma nova guia**. Isso abre a página do problema em uma nova guia. Clique em **Mais** > **Editar** na página de problemas.
-   * Clique no **Mais menu** ![Mais menu](assets/more-icon-task-list.png) à direita do nome do problema e clique em **Editar**.
+   * Selecione o problema na lista e clique em **Editar** ícone ![Editar ícone](assets/qs-edit-icon.png) na barra de ferramentas.
+   * Clique no nome do problema e em **Editar**.
 
-     Qualquer uma dessas ações abre a caixa Editar ocorrência.
+     Qualquer uma dessas ações abre a caixa **Editar Problema**.
 
-     Para obter informações sobre edição de problemas na caixa Editar Problema, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
+     Para obter informações sobre edição de problemas na caixa **Editar Problema**, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## Editar problemas usando o Resumo
 
-É possível editar um problema em uma lista usando o Resumo.
+É possível editar um problema em uma lista usando o painel Resumo.
 
 1. Vá para o projeto cujos problemas você deseja editar.
 1. Clique em **Problemas** no painel esquerdo.
 
    A lista de problemas do projeto é exibida.
 
-1. Selecione um problema que deseja editar e clique no ícone **Abrir resumo** ![Abrir resumo](assets/qs-open-summary-icon-in-new-toolbar-small.png) no canto superior direito da lista de problemas.
+1. Selecione um problema que deseja editar e clique no ícone **Abrir resumo** ![Abrir ícone de resumo](assets/qs-open-summary-icon-in-new-toolbar-small.png) no canto superior direito da lista de problemas.
 
    O **Resumo** é aberto.
 
 1. (Opcional) Comece digitando uma atualização para o problema na área **Atualizações**.
 1. Clique em qualquer um dos seguintes ícones ou áreas para ir para a ocorrência e editar informações no nível da ocorrência:
 
-   | Documentos | Clique **Clique aqui para adicionar** para adicionar documentos ao problema. |
+   | Ícone | Ação |
    |---|---|
-   | Detalhes | Clique em para atualizar as informações sobre o problema. |
-   | Horas | Clique para registrar horas. |
-   | Aprovações | Clique para adicionar aprovações de problemas. |
+   | Documentos ![Ícone de documentos](assets/documents-icon-in-summary.png) | Clique **Clique aqui para adicionar** para adicionar documentos ao problema. |
+   | Detalhes ![Ícone de detalhes](assets/details-icon-in-summary.png) | Clique em para atualizar as informações sobre o problema. |
+   | Horas ![Log de tempo](assets/log-time-icon-in-summary.png) | Clique para registrar horas. |
+   | Aprovações ![Ícone de Aprovações](assets/approvals-icon-in-summary.png) | Clique para adicionar aprovações de problemas. |
 
 1. (Opcional) Clique novamente no ícone **Abrir resumo** ou no ícone **X** no canto superior direito do resumo para fechar o painel e editar o problema em linha.
 

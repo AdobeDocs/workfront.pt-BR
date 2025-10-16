@@ -2,13 +2,13 @@
 content-type: reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "Atualizar trabalho em um projeto: índice do artigo"
+title: 'Atualizar trabalho em um projeto: Índice de artigos'
 description: Para atualizar o status e o progresso de um projeto, você deve atualizar o status e o progresso em suas tarefas. Isso acaba sendo acumulado para mostrar o progresso do projeto.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 6f7793f4-93e4-46b5-86f4-6ebede289ccb
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%

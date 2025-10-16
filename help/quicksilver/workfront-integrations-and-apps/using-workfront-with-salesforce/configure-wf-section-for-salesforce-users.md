@@ -6,9 +6,9 @@ description: Depois de instalar o [!DNL Adobe Workfront] for Salesforce como adm
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,9 @@ ht-degree: 1%
 >
 >Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Salesforce.
 >
->Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Salesforce, consulte [módulos do Salesforce](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
-
-É necessário um Plano [!UICONTROL Pro] [!DNL Workfront] para usar este recurso. Para obter mais informações sobre os vários planos disponíveis, consulte [[!DNL Workfront] Planos.](https://business.adobe.com/br/products/workfront/pricing.html)
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Salesforce, consulte [módulos do Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Depois de instalar o [!DNL Adobe Workfront] for [!DNL Salesforce] como administrador do [!DNL Workfront], você poderá disponibilizá-lo para os seus usuários adicionando-o em uma nova seção às suas [!UICONTROL Oportunidades] e [!UICONTROL Conta]
 layouts de página no [!UICONTROL Salesforce].
@@ -34,26 +32,31 @@ Para obter informações sobre como instalar o [!DNL Workfront for Salesforce], 
 
 Para que os usuários tenham [!DNL Workfront] disponível nas estruturas [!DNL Classic] e [!DNL Lightning Experience], você deve adicionar as páginas [!DNL WorkfrontOpportunities] e [!DNL WorkfrontAccounts] [!UICONTROL Visualforce] aos layouts de página [!UICONTROL Oportunidade] e [!UICONTROL Contas], respectivamente.
 
+
+
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para usar a funcionalidade descrita neste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>[!UICONTROL Pro] ou superior</p> </td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Plano]</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Plano</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -149,7 +152,7 @@ ou objeto [!UICONTROL Opportunity].
 1. Faça logon em [!DNL Salesforce] como administrador do sistema.
 1. Vá para uma **[!UICONTROL Oportunidade]** ou uma **[!UICONTROL Conta]**.
 
-1. Clique no ícone **[!UICONTROL Configuração]** e em **[!UICONTROL Editar página]**.\
+1. Clique no ícone **[!UICONTROL Configuração]** e em **[!UICONTROL Editar Página]**.
 
 1. Expanda a seção **[!UICONTROL Gerenciado de forma personalizada]**.
 1. Arraste e solte o componente **[!DNL Workfront]** na sua [!UICONTROL Oportunidade] ou conta

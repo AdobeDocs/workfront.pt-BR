@@ -7,9 +7,9 @@ description: A Data de conclusão projetada é um indicador calculado em tempo r
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ As seções a seguir descrevem como a Data de conclusão projetada é determinad
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 
 <table style="table-layout:auto"> 
@@ -32,23 +32,21 @@ As seções a seguir descrevem como a Data de conclusão projetada é determinad
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Novo: 
    <ul><li><p>Colaborador ou posterior para exibir a Data de conclusão projetada em um relatório</p></li> <li><p>Uma licença Standard para criar um relatório</p></li> </ul>
-
-<p>Atual: 
+   Ou
    <ul><li><p>Revisar ou posterior para exibir a Data de Término Projetada em um relatório</p></li> 
    <li><p>Uma licença de plano para criar um relatório</p> </li></ul>
       </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso</td> 
-   <td> <p>Acesso de visualização ou superior aos Projetos</p> <p>É necessário ter acesso de Edição a Relatórios, Painéis e Calendários para criar um relatório</p> <p>É necessário ter acesso para Editar filtros, visualizações e agrupamentos para criar um relatório ou modificar uma visualização de lista</p>  </td> 
+   <td> <p>Acesso de visualização ou superior aos Projetos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para criar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para criar um relatório ou modificar uma visualização de lista</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -57,7 +55,7 @@ As seções a seguir descrevem como a Data de conclusão projetada é determinad
  </tbody> 
 </table>
 
-*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

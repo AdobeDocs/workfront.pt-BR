@@ -6,9 +6,9 @@ description: Você pode personalizar o tipo de informação exibida na tela usan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1713'
 ht-degree: 1%
 
 ---
@@ -25,44 +25,35 @@ Este artigo descreve como criar e editar exibições padrão para listas e relat
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
+   <td role="rowheader">Licença do Adobe Workfront</strong></td> 
    <td> 
-      <p>Novo:</p>
-         <ul>
-         <li><p>Colaborador ou superior</p></li>
-         </ul>
-      <p>Atual:</p>
-         <ul>
-         <li><p>Solicitação ou superior</p></li>
-         </ul>
+    <p>Colaborador ou superior</p>
+    <p>Solicitação ou superior</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para criar uma visualização em um relatório</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permissões de objeto*</strong></td> 
+   <td role="rowheader">Permissões de objeto</td> 
    <td> <p>Gerenciar permissões para um relatório para criar ou editar uma visualização em um relatório</p> <p>Gerenciar permissões em uma exibição para editá-la</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Criar ou personalizar um modo de exibição
@@ -90,7 +81,6 @@ A caixa de diálogo **Personalizar exibição** é exibida.
    * Ajuste a ordem em que as colunas aparecem arrastando o título da coluna para um novo local.
 
    * Na área **Configurações de Coluna**, clique em **Resumir esta coluna por** e escolha como deseja que os dados sejam exibidos na coluna. Essa opção está disponível para os seguintes tipos de coluna:
-
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -106,7 +96,7 @@ A caixa de diálogo **Personalizar exibição** é exibida.
            <td role="rowheader"><strong>Campos de moeda</strong></td> 
            <td><ul>
            <li>Contagem</li>
-         <li>Soma</li>
+         <li>Sum</li>
            <li>Média</li>
          <li>Máximo</li>
            <li>Mínimo</li>

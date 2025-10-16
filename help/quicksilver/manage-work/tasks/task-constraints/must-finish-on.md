@@ -2,12 +2,12 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Visão geral da restrição de tarefa: deve ser concluída em"
+title: 'Visão Geral Da Restrição Da Tarefa: Deve Terminar Em'
 description: Você pode usar a Restrição de Tarefa Deve Terminar em (MFO) para programar uma tarefa para terminar em uma data específica.
 author: Alina
 feature: Work Management
 exl-id: 9e546a0f-7f7a-4f1c-9d9d-aa3cea377fdf
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%

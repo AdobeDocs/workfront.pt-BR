@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: manage-projects
 title: Gerenciar informações na área Visão geral do projeto
-description: Gerenciar informações na área Visão geral do projeto
+description: Você pode exibir ou editar as informações de um projeto acessando a área Visão geral da seção Detalhes do projeto. Há um número limitado de campos que você pode exibir ou editar nessa área.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1404'
 ht-degree: 3%
 
 ---
@@ -25,35 +25,64 @@ Você pode exibir ou editar as informações de um projeto acessando a área Vis
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Licença da Adobe Workfront*</p> </td> 
-   <td> <p>Revisar ou superior</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Licença do Adobe Workfront</p> </td> 
+   <td><p>Leve ou superior</p> 
+   <p>Revisar ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso de visualização ou superior para Projetos </p>
-
-<p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Acesso de visualização ou superior para Projetos</p>
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir acesso ao projeto para exibir informações limitadas sobre o projeto</p> 
-   <p>Gerenciar o acesso ao projeto para editar informações sobre o projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
+   <td> <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access or higher to Projects </p>
+   
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View access to the project to view limited information about the project</p> 
+   <p>Manage access to the project to edit information about the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Acesse a seção Visão geral
 
@@ -169,7 +198,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
    | Campo | Descrição |
    |---|---|
-   | Número de Referência | Este é um campo gerado automaticamente e sempre tem um valor exclusivo para cada projeto. |
+   | Número de referência | Este é um campo gerado automaticamente e sempre tem um valor exclusivo para cada projeto. |
    | Data de Início Projetada | Esta é uma data em &#39;tempo real&#39; em que o trabalho iniciará com base no trabalho concluído e no trabalho restante. |
    | Data de Término Projetada | Esta é uma data em &#39;tempo real&#39; em que o projeto será concluído com base no progresso das tarefas concluídas e com base nas atualizações de progresso nas tarefas com status Novo ou Em andamento. |
    | Horas planejadas | Horas planejadas no projeto. Essas horas são um total de Horas Planejadas para cada tarefa. |
@@ -178,8 +207,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    | Duração Efetiva | Quantidade de tempo que o projeto realmente estenderá, com base no período entre a Data de Início Efetivo mais antiga de uma tarefa e a Data de Conclusão Efetiva mais recente de uma tarefa no projeto. |
    | Data de Entrada | A data e a hora em que o projeto foi criado. |
    | Cadastrado por | O nome do usuário que criou o projeto. |
-   | Última data de atualização | A data e a hora em que o projeto foi atualizado pela última vez. |
-   | Última Atualização realizada por | O nome do usuário que atualizou o projeto pela última vez. |
+   | Data da última atualização | A data e a hora em que o projeto foi atualizado pela última vez. |
+   | Última atualização realizada por | O nome do usuário que atualizou o projeto pela última vez. |
    | Modelo |   |
 
 

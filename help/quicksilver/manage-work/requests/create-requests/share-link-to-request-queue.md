@@ -1,13 +1,13 @@
 ---
 title: Compartilhar um link para uma fila de solicitações
 description: Você pode compartilhar um link para uma fila de solicitações, um grupo de tópicos ou um tópico da fila ao submeter a solicitação.
-author: Alina
+author: Becky
 draft: Probably
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '288'
 ht-degree: 4%
 
 ---
@@ -24,21 +24,18 @@ Você pode compartilhar um link para uma fila de solicitações, um grupo de tó
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: Colaborador ou superior</p>
-   Ou
-   <p>Atual: solicitação ou superior</p>
+   <td> <p>Colaborador ou superior</p>
+   <p>Solicitação ou superior</p>
     </td> 
   </tr> 
   <tr> 
@@ -52,7 +49,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

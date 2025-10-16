@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: "Exemplo de campo personalizado calculado: exibir um carimbo de data e hora de Status em um Formulário personalizado"
-description: O campo calculado a seguir exibe a data em que o status do objeto é marcado como Em Andamento (INP.) É possível usar as mesmas informações para campos personalizados calculados para problemas, tarefas ou projetos.
-author: Nolan
+title: 'Exemplo de campo personalizado calculado: exibir um carimbo de data e hora de Status em um Formulário personalizado'
+description: O campo calculado a seguir exibe a data em que o status do objeto é marcado como Em Andamento (INP). É possível usar as mesmas informações para campos personalizados calculados para problemas, tarefas ou projetos.
+author: Jenny
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
 
 # Exemplo de campo personalizado calculado: exibir um carimbo de data e hora de Status em um formulário personalizado
 
-O campo calculado a seguir exibe a data em que o status do objeto é marcado como Em Andamento (INP.) É possível usar as mesmas informações para campos personalizados calculados para problemas, tarefas ou projetos.
+O campo calculado a seguir exibe a data em que o status do objeto é marcado como Em Andamento (INP). É possível usar as mesmas informações para campos personalizados calculados para problemas, tarefas ou projetos.
 
 >[!NOTE]
 >
@@ -24,35 +24,36 @@ O campo calculado a seguir exibe a data em que o status do objeto é marcado com
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;"> 
-  <p>*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.</p> 
- </caption> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p>plano do Adobe Workfront*</p> </td> 
-   <td>Qualquer</td> 
+   <td> <p>Pacote do Adobe Workfront</p> </td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td> <p>Licença da Adobe Workfront*</p> </td> 
-   <td> <p>Plano </p> </td> 
+   <td> <p>Licença do Adobe Workfront</p> </td> 
+   <td>
+      <p>Standard</p>
+      <p>Plano</p></td>
   </tr> 
   <tr> 
-   <td><strong>Configurações de nível de acesso*</strong> </td> 
-   <td> <p>Editar acesso para Criar relatórios, painéis e calendários</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td><p>Configurações de nível de acesso</p></td> 
+   <td> <p>Editar acesso para Criar relatórios, painéis e calendários</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Permissões de objeto</strong> </p> </td> 
-   <td> <p>Gerenciar permissões no objeto ao qual o formulário está anexado</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.<br>Para obter mais informações sobre permissões para painéis, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Compartilhar relatórios, painéis e calendários </a>.</p> </td> 
+   <td> <p>Permissões de objeto</p> </td> 
+   <td> <p>Gerenciar permissões no objeto ao qual o formulário está anexado</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisito
 

@@ -5,9 +5,9 @@ description: 'As Notificações no aplicativo mantêm você informado sobre dois
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Para obter uma lista do item de trabalho e notificações de comunicado que voc�
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +37,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] pacote</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Solicitação] ou superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença</strong></td> 
+   <td> 
+   <p>Colaborador ou superior</p>
+   <p>Solicitação ou superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Exibir notificações
 

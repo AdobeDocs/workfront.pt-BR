@@ -6,9 +6,9 @@ description: É possível excluir um relatório de um painel da Tela de Pintura.
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
-source-git-commit: fb8b9a10aac45868e085fb5154ef02ce989b599d
+source-git-commit: b5fbff2b81efaf31d0a8abaf32d6195303876531
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '343'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->&#x200B;>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -31,7 +31,7 @@ A exclusão de um relatório é permanente. Se for necessário adicionar novamen
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso. 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -40,7 +40,7 @@ A exclusão de um relatório é permanente. Se for necessário adicionar novamen
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
 <p>Qualquer </p> 
    </td> 
@@ -48,8 +48,8 @@ A exclusão de um relatório é permanente. Se for necessário adicionar novamen
  <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td> 
-<p>Atual: Plano </p> 
-<p>Novo: Padrão</p> 
+<p>Standard </p> 
+<p>Plano</p> 
    </td> 
    </tr> 
   </tr> 
@@ -80,7 +80,7 @@ Para obter mais informações, consulte [Criar um painel da Tela](/help/quicksil
 >[!WARNING]
 >
 >Depois que um relatório é excluído, ele não pode ser recuperado. <br>
->&#x200B;>Se você tiver adicionado um relatório clássico existente a um painel da Tela de desenho, excluí-lo do painel não excluirá o relatório original.
+>>Se você tiver adicionado um relatório clássico existente a um painel da Tela de desenho, excluí-lo do painel não excluirá o relatório original.
 
 {{step1-to-dashboards}}
 

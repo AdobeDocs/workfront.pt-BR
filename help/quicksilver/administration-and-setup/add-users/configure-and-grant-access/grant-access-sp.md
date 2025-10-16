@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -22,36 +22,36 @@ Além do acesso ao Planejador de Cenários, um usuário com um nível de acesso 
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>plano do Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>Pacote do Adobe Workfront</p> </td> 
    <td>Business ou superior</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Revisar ou superior. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" data-mc-variable-override="">Visão geral das licenças</a>.</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> 
+   <p>Leve ou superior</p>
+   <p>Revisar ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td> <p>Você deve adquirir uma licença adicional para que o Planejador de cenários da Adobe Workfront acesse a funcionalidade descrita neste artigo.</p> <p>Para obter informações sobre como obter o Planejador de cenários do Workfront, consulte <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref" data-mc-variable-override="">Acesso necessário para usar o Planejador de cenários</a>. </p> </td> 
+   <td> <p>Você deve adquirir uma licença adicional para o Planejador de cenários do Adobe Workfront.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nível de acesso*</td> 
-   <td> <p>Exibir acesso ou superior ao Planejador de cenários</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Exibir acesso ou superior ao Planejador de cenários</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Permissões de objeto</p> </td> 
-   <td> <p>Exibir permissões ou superiores para um plano</p> <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref" data-mc-variable-override="">Solicitar acesso a um plano no Planejador de Cenários</a>.</p> </td> 
+   <td> <p>Exibir permissões ou superiores para um plano</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

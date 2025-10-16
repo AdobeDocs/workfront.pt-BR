@@ -6,9 +6,9 @@ description: Você pode adicionar documentos a cartões conectados em Adobe Work
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -25,27 +25,24 @@ Você pode adicionar documentos a cartões conectados em Adobe Workfront Boards.
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Novo: [!UICONTROL Contributor] ou superior</p> 
-   <p>ou</p>
-   <p>Atual: [!UICONTROL Request] ou superior</p>
+   <p>Colaborador ou superior</p> 
+   <p>Solicitação ou superior</p>
    </td> 
   </tr> 
    <tr>
    <td role="rowheader">Configurações de nível de acesso</td>
-   <td>[!UICONTROL Editar] acesso a Documentos</td>
+   <td>Editar acesso a documentos</td>
   </tr>
  </tbody> 
 </table>
@@ -72,4 +69,4 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    >[!NOTE]
    >
-   >Os PDF não mostram uma imagem em miniatura.
+   >Os PDFs não mostram uma imagem em miniatura.

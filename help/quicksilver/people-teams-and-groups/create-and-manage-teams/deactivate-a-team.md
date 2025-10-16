@@ -6,9 +6,9 @@ description: Você pode desativar as equipes que não usam mais enquanto retém 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -40,29 +40,26 @@ Você pode desativar as equipes que não usam mais enquanto retém os dados hist
  </tbody> 
 </table>
 
-As equipes desativadas não aparecem quando você pesquisa por uma equipe, mas ainda serão exibidas na [!UICONTROL Equipe interna] e em Outras equipes se o usuário tiver sido atribuído à equipe antes da desativação.
+As equipes desativadas não aparecem ao procurar uma equipe, mas ainda serão exibidas na [!UICONTROL Equipe interna] e em Outras equipes se o usuário tiver sido atribuído à equipe antes da desativação.
 
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader"> <p>Pacote do Adobe Workfront</p> </td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Novo: Padrão</p>
-   <p>ou</p>
-   <p>Atual: Plano</p></td>
-  </tr>
+   <p>Standard</p>
+   <p>Plano</p></td>
+  </tr> 
   <tr>
    <td>Configurações de nível de acesso</td>
    <td><p>Não são necessárias configurações para desativar um grupo.</p>

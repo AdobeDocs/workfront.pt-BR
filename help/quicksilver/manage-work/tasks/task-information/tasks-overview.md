@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Visão geral das tarefas
+title: Visão geral de tarefas
 description: Uma tarefa é um item de trabalho dentro de um projeto. Representa uma quantidade finita de trabalho menor que o projeto.
 author: Alina
 feature: Work Management
 exl-id: 060918b2-8c3f-4f85-a8ac-bcd36141d071
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%

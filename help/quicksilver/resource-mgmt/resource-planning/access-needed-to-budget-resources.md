@@ -7,9 +7,9 @@ description: Você pode exibir e gerenciar informações sobre o planejamento de
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -30,23 +30,20 @@ Quando sua empresa comprou uma licença do Adobe Workfront que inclui o Planejam
 
 Para obter informações adicionais sobre os pré-requisitos para usar as ferramentas de orçamento na Workfront, consulte [Introdução ao Planejamento de Recursos](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-Para fazer o orçamento de recursos, gerenciar Conjuntos de Recursos e consultar Informações de custo nas ferramentas de planejamento de recursos, sua empresa e você devem ter o seguinte acesso: 
+Para fazer o orçamento de recursos, gerenciar Conjuntos de Recursos e consultar Informações de custo nas ferramentas de planejamento de recursos, sua empresa e você devem ter o seguinte acesso:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td><p>Novo: Qualquer um</p>
-       <p>ou</p>
-       <p>Atual: Pro ou superior</p> </td> 
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
-       <p>ou</p>
-       <p>Atual: Plano</p></td>
+   <td>Licença do Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plano</p></td>
   </tr>  
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -66,11 +63,9 @@ Para fazer o orçamento de recursos, gerenciar Conjuntos de Recursos e consultar
    <td role="rowheader">Permissões de objeto</td> 
    <td> <p>Gerencie permissões no projeto que incluem Gerenciar permissões financeiras.</p> <p>Para obter informações sobre permissões de projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p> <p>Para obter informações sobre permissões financeiras em um projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Compartilhar permissões financeiras em um objeto</a></a>.</p>
 
-<p><b>Nota</b>
-
-Ao estimar recursos na visualização Função, se você tiver menos que Gerenciar permissões para pelo menos um projeto listado na função, não será possível estimar horas, FTE ou Custo para a função. Você pode estimar somente os projetos para os quais tem permissões de gerenciamento.</p> </td>
-</tr> 
+<p><b>OBSERVAÇÃO:</b> ao estimar recursos na exibição Função, se você tiver menos do que Gerenciar permissões para pelo menos um projeto listado na função, não poderá estimar horas, FTE ou Custo para a função. Você pode estimar somente os projetos para os quais tem permissões de gerenciamento.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

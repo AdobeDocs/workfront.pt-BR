@@ -6,10 +6,11 @@ title: Excluir um Modelo de Tarefa
 description: É possível excluir um modelo de tarefa se ele não for mais necessário. Tarefas de modelo excluídas não podem ser recuperadas. Tarefas de projeto criadas a partir da tarefa de modelo não são excluídas ou modificadas.
 author: Alina
 feature: Work Management
-source-git-commit: bbf2d987bf3267117ab61b123141dd2cb2f82fc3
+exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 3%
+source-wordcount: '275'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 3%
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso. 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,12 +36,12 @@ ht-degree: 3%
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td> <p>Standard </p>
-   <p>Plano </p> </td> 
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
+   <td> <p>Standard</p>
+   <p>Plano</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Nível de acesso</p></td> 
+   <td role="rowheader"><p>Configuração do nível de acesso</p></td> 
    <td> <p>Editar acesso a modelos</p>  </td> 
   </tr> 
   <tr> 
@@ -50,9 +51,35 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> <p>Standard </p>
+   <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level</p></td> 
+   <td> <p>Edit access to Templates</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Object permissions</p> </td> 
+   <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Excluir uma tarefa de modelo
 
@@ -76,7 +103,3 @@ ht-degree: 3%
 >Você pode clicar nas seções Predecessores ou Subtarefas no painel esquerdo de uma tarefa de modelo para excluir um predecessor ou uma subtarefa.
 >
 >Repita as etapas acima para excluir tarefas de modelo predecessoras ou subtarefas.
-
-
-
-

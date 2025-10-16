@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '2193'
-ht-degree: 1%
+source-wordcount: '2213'
+ht-degree: 2%
 
 ---
 
 # Criar um processo de aprovação para itens de trabalho
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 08/2025-->
 
 <!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
@@ -44,35 +44,65 @@ Para obter informações sobre aprovações associadas a documentos ou provas, c
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacote do Adobe Workfront*</td> 
+   <td><p>Para o processo de aprovação de nível de sistema ou de uso único:</p><ul><li><p>Qualquer pacote</p></li></ul>
+   <p>Para o processo de aprovação em nível de grupo:</p>
+   <ul><li><p>Fluxo de trabalho Prime ou Ultimate</p></li>
+   <li><p>Workfront Prime ou Ultimate</p></li></ul>
+   </td>
+
+</tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Standard</p>
+ <p>Plano</p> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Se você for um administrador do sistema ou tiver acesso administrativo aos processos de Aprovação, poderá criar um processo de aprovação no nível do sistema ou um processo de aprovação no nível do grupo para um grupo específico.</p> 
+   <p>Se você for um administrador de grupo e tiver acesso administrativo aos processos de Aprovação, poderá criar processos de aprovação de nível de grupo para grupos gerenciados.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td><p>Processo de aprovação em nível de sistema ou de uso único: qualquer</p>
-   <p>Processo de aprovação no nível do grupo: Prime ou Ultimate</p></td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>System-level or single-use approval process: Any</p>
+   <p>Group-level approval process: Prime or Ultimate</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: Padrão </p>
- <p>ou</p> 
-<p>Atual: Plano </p> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p>
+ <p>or</p> 
+<p>Current: Plan </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Se você for um administrador do sistema ou tiver acesso administrativo a processos de aprovação, poderá criar um processo de aprovação no nível do sistema ou um processo de aprovação no nível do grupo para um grupo específico.</p> 
-   <p>Se você for um administrador de grupo, poderá criar processos de aprovação de nível de grupo para grupos gerenciados.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>If you are a system administrator or you have administrative access to approval processes, you can create a system-level approval process, or a group-level approval process for a particular group.</p> 
+   <p>If you are a group administrator, you can create group-level approval processes for groups that you manage.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## Criar um processo de aprovação global de nível de sistema ou de grupo para itens de trabalho
 
@@ -99,7 +129,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
     <tbody> 
      <tr> 
       <td role="rowheader">Nome do processo de aprovação</td> 
-      <td><p>Digite um nome descritivo para o processo de aprovação. Os usuários veem esse nome ao aplicar o processo de aprovação a um objeto, conforme descrito em <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associar um processo de aprovação novo ou existente ao trabalho</a>.</p></td> 
+      <td><p>Digite um nome descritivo para o processo de aprovação. Os usuários veem esse nome ao aplicar o processo de aprovação a um objeto, conforme descrito em <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associar um processo de aprovação novo ou existente ao trabalho</a>.</p> <p> Este campo é obrigatório. </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descrição</td> 
@@ -116,8 +146,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
        <li>Se você for um administrador do sistema ou tiver acesso administrativo a processos de aprovação, poderá ver qualquer grupo no sistema ao digitar seu nome. <b>Todos os grupos</b> está selecionado por padrão. </li> 
        <li>Se você for um administrador de grupo sem acesso administrativo a processos de aprovação, poderá atribuir o processo de aprovação a qualquer grupo gerenciado ao digitar seu nome. A opção <b>Todos os Grupos</b> não está disponível.</li> 
        </ul> 
+       <p>Este campo é obrigatório.</p>
        <p>Esta opção não está disponível para processos de aprovação de uso único.</p> 
-       <p><b>AVISO</b>: quando você faz alterações ao processo de aprovação específico do grupo, os processos de aprovação existentes que já foram associados a itens de trabalho podem mudar. Para obter informações sobre essas alterações, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Como as alterações no grupo e no processo de aprovação afetam os processos de aprovação atribuídos</a>.</p> 
+       <p><b>AVISO</b></p> <p> Quando você faz alterações no processo de aprovação específico do grupo, os processos de aprovação existentes que já foram associados a itens de trabalho podem mudar. Para obter informações sobre essas alterações, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Como as alterações no grupo e no processo de aprovação afetam os processos de aprovação atribuídos</a>.</p> 
        <p>Para obter informações sobre como listar e gerenciar os processos de aprovação do seu grupo na página do seu grupo, consulte <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processos de aprovação de nível de grupo</a>. </p> 
        <p>Para obter informações sobre acesso administrativo a processos de aprovação, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> </td> 
      </tr> 
@@ -134,7 +165,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Iniciar o processo de aprovação quando o status estiver configurado como</p> </td> 
-      <td> <p>Selecione o status que acionará o processo de aprovação em itens de trabalho. Quando alguém atualiza um item de trabalho para esse status, seu processo de aprovação é iniciado. </p> <p>O mesmo status não pode ser selecionado para vários caminhos de processo de aprovação.</p> <p>Os status disponíveis baseiam-se no que está selecionado na opção <b>Esta aprovação pode ser usada por</b> (explicado na tabela acima):</p> 
+      <td> <p>Selecione o status que acionará o processo de aprovação em itens de trabalho. Quando alguém atualiza um item de trabalho para esse status, seu processo de aprovação é iniciado. </p> 
+      <p>Este campo é obrigatório. </p>
+      <p>O mesmo status não pode ser selecionado para vários caminhos de processo de aprovação.</p> <p>Os status disponíveis baseiam-se no que está selecionado na opção <b>Esta aprovação pode ser usada por</b> (explicado na tabela acima):</p> 
        <ul> 
        <li> Se <b>Todos os grupos</b> estiver selecionado, somente os status do sistema estarão disponíveis
        <li> <p>Se um grupo específico for selecionado, somente os status disponíveis para esse grupo estarão disponíveis</p> </li> 
@@ -146,18 +179,19 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader">Aprovadores</td> 
-      <td> <p>Comece digitando o nome do usuário, da equipe ou da função de trabalho que deseja designar como aprovador para esse estágio e clique no nome quando ele aparecer na lista suspensa. Você pode adicionar somente usuários ativos, <span>funções de trabalho</span> e equipes. </p>
+      <td> <p>Comece digitando o nome do usuário, da equipe ou da função de trabalho que deseja designar como aprovador para esse estágio e clique no nome quando ele aparecer na lista suspensa. Você pode adicionar somente usuários ativos, <span>funções de trabalho</span> e equipes. </p> 
+      <p>Este campo é obrigatório.</p>
 
-   <p><b>DICA</b>:</p>
+   <p><b>DICA</b></p>
 
    <p>Ao adicionar um usuário como aprovador, observe o avatar, a função principal do usuário ou o endereço de email dele para distinguir entre usuários com nomes idênticos. Os usuários devem ser associados a pelo menos uma função de trabalho para visualizá-la à medida que forem adicionados.</p>
       <p>Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Conceder acesso aos usuários</a>. </p>
 
-   <p><b>NOTA</b>:
+   <p><b>Nota</b>
 
    Adicionar um usuário, equipe ou função como aprovador não lhes dá permissões automaticamente para o objeto associado a essa aprovação. Eles recebem permissões para o objeto quando a etapa de aprovação é acionada. Caso contrário, os objetos devem ser compartilhados com eles antes que possam tomar uma decisão de aprovação. </p> <p>Você também pode designar um indivíduo como um aprovador especificando a função do indivíduo. Por exemplo, você pode atribuir um Proprietário do projeto, Patrocinador do projeto, Proprietário do Portfolio, Proprietário do programa ou Gerente como aprovador. Essas opções são exibidas automaticamente quando você começa a digitar.</p>
 
-   <p><b>IMPORTANTE</b>:  
+   <p><b>IMPORTANTE</b>  
        <ul> 
        <li> <p>Quando você atribui uma aprovação ao Patrocinador do Projeto e ninguém é designado como patrocinador de um projeto, a aprovação é reatribuída ao Proprietário do Projeto. Se ninguém for designado como o proprietário do projeto, a aprovação será atribuída ao administrador do Workfront. </p> </li> 
       </ul> 
@@ -166,7 +200,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
        </ul> 
        <ul> 
        <li> <p>Quando você atribui uma aprovação ao Proprietário do projeto e ninguém é designado como o proprietário de um projeto, a aprovação é reatribuída ao administrador principal do Workfront, conforme indicado na seção Informações do cliente na área Configuração. Para obter informações, consulte <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configurar informações básicas do sistema</a>.  </p> </li> 
-       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Você pode repetir esse processo para adicionar vários aprovadores ao estágio. Um único estágio pode incluir uma combinação de usuários, equipes e funções de trabalho como aprovadores. Não há limite para o número de aprovadores que podem ser adicionados a um estágio.</p> <p><b>IMPORTANTE</b>:  <p>Quando você atribui funções de trabalho como aprovadores, todos os usuários associados a essa função de trabalho que também estão na equipe do projeto podem tomar uma decisão sobre a aprovação. </p> <p>Quando você atribui uma equipe como um aprovador, qualquer usuário nessa equipe pode tomar uma decisão sobre a aprovação. </p> <p>Para obter mais informações sobre a equipe de criação, consulte <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Visão geral da Equipe de Criação</a>. Para obter mais informações sobre aprovação de trabalho, consulte <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprovando trabalho </a>.</p> </p> </td> 
+       </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>Você pode repetir esse processo para adicionar vários aprovadores ao estágio. Um único estágio pode incluir uma combinação de usuários, equipes e funções de trabalho como aprovadores. Não há limite para o número de aprovadores que podem ser adicionados a um estágio.</p> <p><b>IMPORTANTE</b></p> <p>Quando você atribui funções de trabalho como aprovadores, todos os usuários associados a essa função de trabalho que também estão na equipe do projeto podem tomar uma decisão sobre a aprovação. </p> <p>Quando você atribui uma equipe como um aprovador, qualquer usuário nessa equipe pode tomar uma decisão sobre a aprovação. </p> <p>Para obter mais informações sobre a equipe de criação, consulte <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Visão geral da Equipe de Criação</a>. Para obter mais informações sobre aprovação de trabalho, consulte <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Aprovando trabalho </a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Somente uma decisão é necessária <br> <br> (é exibida somente se você adicionar vários aprovadores ao estágio) </td> 
@@ -223,4 +257,4 @@ Para obter instruções sobre como associar um processo de aprovação a um item
 
 Por padrão, os usuários que gerenciam permissões em projetos, tarefas e problemas podem criar processos de aprovação de uso único neles. Para obter informações sobre como adicionar processos de aprovação de uso único a projetos, tarefas e problemas, consulte a seção [Associar um processo de aprovação de uso único a um projeto, tarefa, problema, modelo ou tarefa de modelo](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) no artigo [Associar um processo de aprovação novo ou existente a trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-Os usuários também podem alterar as configurações de um processo de aprovação global associado a um item de trabalho. Essas alterações afetam somente o projeto, tarefa ou problema associado ao processo de aprovação no nível do sistema. Para obter mais informações, consulte a seção [Modificar um processo de aprovação global para uso em um objeto específico](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#modifying-a-global-approval-process) no artigo [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)).
+Os usuários também podem alterar as configurações de um processo de aprovação global associado a um item de trabalho. Essas alterações afetam somente o projeto, tarefa ou problema associado ao processo de aprovação no nível do sistema. Para obter mais informações, consulte a seção &quot;Modificar um processo de aprovação global para uso em um objeto específico&quot; no artigo [Associar um processo de aprovação novo ou existente ao trabalho](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).

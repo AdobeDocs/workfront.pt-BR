@@ -2,14 +2,14 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: Visão geral da atividade da versão 2018.3
-description: "Observação: a versão 2018.3 foi disponibilizada no ambiente de Produção nas seguintes datas (para obter datas e horas detalhadas, consulte trust.workfront.com)"
+description: 'Observação: a versão 2018.3 foi disponibilizada no ambiente de Produção nas seguintes datas (para obter datas e horas detalhadas, consulte trust.workfront.com)'
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 3ac15b6527a727cfe95075405fa19164c06b102f
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ A versão 2018.3 contém melhorias para administradores do Workfront e outros us
 ### Aprimoramentos de provas
 
 * [Ferramentas de Marcação de Revisão agora expandidas por padrão](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#proofing-markup-tools-now-expanded-by-default) 
-* [Arquivos SWF não são mais suportados no visualizador de provas](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#swf-files-supported-only-in-the-legacy-proofing-viewer) 
+* [Arquivos do SWF não são mais suportados no visualizador de provas](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#swf-files-supported-only-in-the-legacy-proofing-viewer) 
 * [Ações Acessíveis Mais Rapidamente na Lista de Comentários no visualizador de provas](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer) 
 * [Melhorias no compartilhamento de provas no visualizador de provas](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#proof-sharing-improvements-in-the-proofing-viewer)
 * [Aprimoramentos da Lista de Comentários no visualizador de provas](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#comments-list-enhancements-in-the-proofing-viewer) 
@@ -108,9 +108,9 @@ A versão 2018.3 contém melhorias para administradores do Workfront e outros us
 ### Outras melhorias
 
 * [Integração de documentos do Microsoft OneDrive](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#document-integration-with-microsoft-onedrive) 
-* [Workfront para integração do Microsoft Teams](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-for-microsoft-teams-integration) 
+* [Integração do Workfront para Microsoft Teams](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#workfront-for-microsoft-teams-integration) 
 * [Workfront atualizado para Integração com o Adobe Creative Cloud](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md#updated-workfront-for-adobe-cc-integration) 
-* [Remoção de Flashes para relatórios, calendários e compartilhamento de documentos](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#flash-removal-for-report-calendar-and-document-sharing)
+* [Remoção rápida de relatórios, calendários e compartilhamento de documentos](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#flash-removal-for-report-calendar-and-document-sharing)
 
 ## Anúncios {#announcements}
 
@@ -118,7 +118,7 @@ A versão 2018.3 contém melhorias para administradores do Workfront e outros us
 * [Não há mais suporte para a versão 3 da API](#api-version-3-no-longer-supported)
 * [O Suporte do TLS Está Terminando](#tls-support-is-ending)
 * [O suporte a JSONP está terminando](#jsonp-support-is-ending)
-* [Remoção de Aplicativo de Flash](#flash-application-removal)
+* [Remoção de Aplicativo Flash](#flash-application-removal)
 * [Várias Opções de Logon Único a Serem Removidas](#various-single-sign-on-options-to-be-removed)
 * [Atualização herdada do Workfront Fusion - 20 de setembro de 2018](#legacy-workfront-fusionupdate-september-20-2018)
 
@@ -138,11 +138,11 @@ Para obter mais informações, consulte  [TLS 1.2 necessário no Adobe Workfron
 
 ### O suporte a JSONP está terminando {#jsonp-support-is-ending}
 
-Como o JSONP (Javascript com preenchimento) é um padrão antigo com vulnerabilidades de segurança conhecidas, a Workfront não oferecerá mais suporte ao JSONP a partir de novembro de 2018. Para obter mais informações, consulte [Encerrando suporte para JSONP](../../../../wf-api/api/ending-support-jsonp.md).
+Como o JSONP (Javascript com preenchimento) é um padrão antigo com vulnerabilidades de segurança conhecidas, a Workfront não oferecerá mais suporte ao JSONP a partir de novembro de 2018.
 
-### Remoção de aplicativo do Flash {#flash-application-removal}
+### Remoção de aplicativo Flash {#flash-application-removal}
 
-Toda a funcionalidade que depende da tecnologia Flash está planejada para ser removida do Workfront com a versão 2018.3 e substituída por uma nova solução.
+Todas as funcionalidades que dependem da tecnologia Flash estão planejadas para serem removidas do Workfront com a versão 2018.3 e substituídas por uma nova solução.
 
 Para obter informações detalhadas sobre as ferramentas herdadas do Flash e suas substituições, consulte [Substituição de ferramentas baseadas no Flash no Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 

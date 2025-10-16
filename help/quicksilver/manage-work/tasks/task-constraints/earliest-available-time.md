@@ -2,12 +2,12 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Visão geral da Restrição da Tarefa: Primeiro Horário Disponível"
+title: 'Visão Geral da Restrição de Tarefa: Horário Mais Cedo Disponível'
 description: Primeiro Horário Disponível é uma Restrição de Tarefa que programa uma tarefa para iniciar no primeiro horário disponível depois de considerar quaisquer relacionamentos com predecessores.
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
-source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%

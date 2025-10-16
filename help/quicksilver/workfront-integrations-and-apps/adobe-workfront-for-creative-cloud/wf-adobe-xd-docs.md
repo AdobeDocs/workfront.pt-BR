@@ -1,14 +1,14 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Carregar pranchetas XD como documentos no Workfront
+title: Fazer upload de pranchetas do XD como documentos para o Workfront
 description: Você pode fazer upload de pranchetas como documentos para uma revisão e aprovação rápidas ou simplesmente para armazená-las no Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '530'
 ht-degree: 1%
 
 ---
@@ -22,42 +22,42 @@ Você pode carregar suas pranchetas como documentos para revisão e aprovação 
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <!-- <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <!-- <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Work or higher</p> </td> 
   </tr> 
   <tr> -->
-   <td role="rowheader">Produto</td> 
+   <td role="rowheader">Produtos adicionais</td> 
    <td>Você deve ter uma licença [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a [!UICONTROL Documentos]</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a [!UICONTROL Documentos]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Acesso à [!UICONTROL View] ou superior ao objeto no qual você deseja carregar um documento.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Acesso à [!UICONTROL View] ou superior ao objeto no qual você deseja carregar um documento.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Pré-requisitos
 
-* Você deve instalar o plug-in [!DNL Adobe Workfront for XD] antes de carregar placas de arte XD como documentos no Workfront.
+* Você deve instalar o plug-in [!DNL Adobe Workfront for XD] antes de carregar quadros de arte do XD como documentos no Workfront.
 
 Para obter instruções, consulte [Instalar [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
@@ -100,7 +100,7 @@ Para obter instruções, consulte [Instalar [!DNL Adobe Workfront for XD]](/help
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td>Escolha se deseja que as pranchetas selecionadas sejam carregadas como um <strong>Arquivo de PDF único</strong> ou <strong>Vários arquivos de PDF</strong>. As pranchetas são carregadas como um PDF na guia [!UICONTROL Documentos] do item de trabalho no [!DNL Workfront].</td>
+      <td>Escolha se deseja que as pranchetas selecionadas sejam carregadas como um <strong>Único arquivo PDF</strong> ou <strong>Vários arquivos PDF</strong>. As pranchetas são carregadas como um PDF na guia [!UICONTROL Documentos] do item de trabalho no [!DNL Workfront].</td>
      </tr>
     </tbody>
    </table>
@@ -124,7 +124,7 @@ Para obter instruções, consulte [Instalar [!DNL Adobe Workfront for XD]](/help
 
    >[!NOTE]
    >
-   >Se quiser fazer upload de uma nova versão de um SVG, PNG ou JPG, você poderá fazer upload de apenas uma prancheta.
+   >Para fazer upload de uma nova versão de uma SVG, PNG ou JPG, você pode fazer upload de apenas uma prancheta.
 
 1. (Opcional) Digite um comentário na área **[!UICONTROL Atualizações]**.
 
@@ -143,11 +143,11 @@ Para obter instruções, consulte [Instalar [!DNL Adobe Workfront for XD]](/help
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>A prancheta é carregada como um JPG na guia [!UICONTROL Documentos] do item de trabalho no [!DNL Workfront]. <br></td>
+      <td>A prancheta é carregada como uma JPG na guia [!UICONTROL Documentos] do item de trabalho no [!DNL Workfront]. <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>A prancheta é carregada como um SVG para a guia [!UICONTROL Documentos] do item de trabalho no [!DNL Workfront]. </td>
+      <td>A prancheta é carregada como uma SVG na guia [!UICONTROL Documentos] do item de trabalho no [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>

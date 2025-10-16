@@ -6,14 +6,14 @@ description: Leia este artigo para saber como fazer logon no Workfront.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
 
-# Fazer logon em [!DNL Adobe Workfront]
+# Faça logon no [!DNL Adobe Workfront]
 
 <!--Audited: 2024-->
 
@@ -37,28 +37,24 @@ Você precisa das seguintes informações para entrar no [!DNL Adobe Workfront]:
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano</strong></td> 
+   <td>Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
+   <td>Licença do Adobe Workfront</td> 
    <td> 
-   <p>Novo: [!UICONTROL Contributor] ou superior</p>
-   <p>Atual: [!UICONTROL Request] ou superior</p> </td> 
+   <p>Colaborador ou superior</p>
+   <p>Solicitação ou superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

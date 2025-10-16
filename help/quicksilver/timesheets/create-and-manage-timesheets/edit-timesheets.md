@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Editar informações da folha de horas
 description: Como um usuário com acesso administrativo a Folhas de horas, você pode editar informações em folhas de horas existentes no Adobe Workfront. Por exemplo, você pode editar o Proprietário, os Aprovadores ou o intervalo de tempo da folha de horas.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -23,43 +23,44 @@ Você pode editar informações em uma única folha de horas ou pode editar vár
 >
 >Se os usuários estiverem associados a Perfis de Planilha de Horas e as planilhas de horas forem geradas automaticamente, as alterações feitas nas planilhas existentes não serão refletidas nas planilhas de horas que serão geradas para datas futuras. Todas as folhas de horas geradas automaticamente têm as configurações estabelecidas nos Perfis de folha de horas. Para obter mais informações, consulte [Criar perfis de planilha de horas](../create-and-manage-timesheets/create-timesheet-profiles.md)
 
-
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td> <p>Qualquer</p> </td> 
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Plano </p> </td> 
+   <td>Licença do Adobe Workfront</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plano</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Você deve ter acesso administrativo a Planilhas de Horas. </p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
-</tr> 
+   <td>Configurações de nível de acesso</td> 
+   <td><p>Acesso administrativo a planilhas de horas</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Editar planilhas de horas
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal** no canto superior direito do Adobe Workfront e em **Folhas de horas**.
+1. Clique no ícone **do** Menu principal![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e em **Folhas de horas**.
 
    O filtro **Todos** é selecionado por padrão, o que exibe todas as planilhas de horas que você tem acesso para visualizar.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Opcional) Clique no ícone ![](assets/search-icon.png) de **pesquisa**, digite uma palavra-chave e procure uma planilha de horas específica. Por exemplo, você pode procurar um intervalo de tempo de planilha de horas ou nome de proprietário.
+1. (Opcional) Clique no ícone **de** pesquisa![](assets/search-icon.png), digite uma palavra-chave e procure uma planilha de horas específica. Por exemplo, você pode procurar um intervalo de tempo de planilha de horas ou nome de proprietário.
 
 1. (Opcional) Siga um destes procedimentos para atualizar o filtro na lista de folhas de horas:
 
@@ -93,7 +94,7 @@ Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele 
    * [Criar ou editar exibições no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Criar agrupamentos no Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Selecione uma ou várias planilhas de horas e clique no ícone ![](assets/edit-icon.png) de **Editar** na parte superior da lista de planilhas de horas.
+1. Selecione uma ou várias planilhas de horas e clique no ícone **de** Editar![](assets/edit-icon.png) na parte superior da lista de planilhas de horas.
 1. Exiba ou especifique as seguintes informações:
 
    <table style="table-layout:auto"> 

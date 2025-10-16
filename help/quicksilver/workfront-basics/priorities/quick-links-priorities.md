@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,6 @@ Prioridades exibe os itens de trabalho atribuídos a você. Não é possível ve
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -32,14 +30,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Pacote do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
    <td> 
-   <p>Atual: Solicitação ou superior para problemas; Trabalho ou superior para tarefas</p>
-   <p>Novo: Colaborador ou problemas maiores; Leve ou superior para tarefas</p> 
+   <p>Solicitação ou superior para problemas; Trabalho ou superior para tarefas</p>
+   <p>Colaborador ou problemas maiores; Leve ou superior para tarefas</p> 
    </td> 
   </tr> 
   <tr> 
@@ -53,7 +51,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +71,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em um nome de item de trabalho para abrir a página **Visão geral**.
 1. Na seção **Links rápidos**, localize o link que deseja copiar.
-1. Clique no ícone **Copiar**![&#x200B; Copiar](assets/copy-icon.png).
+1. Clique no ícone **Copiar**![ Copiar](assets/copy-icon.png).
    ![Copiar link](assets/copy-link.png)
 
 ## Abrir um link rápido

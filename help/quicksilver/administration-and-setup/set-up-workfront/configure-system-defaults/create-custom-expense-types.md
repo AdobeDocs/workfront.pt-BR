@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 7f95df7acfb1afd0974c0138152a68326631d265
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '379'
 ht-degree: 4%
 
 ---
@@ -27,31 +27,27 @@ Como administrador do [!DNL Adobe Workfront], você pode criar tipos de despesas
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
-   <td>Qualquer</td> 
+   <td>[!DNL Adobe Workfront] pacote</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td><p>Novo: [!UICONTROL Padrão]</p>
-   Ou
-   <p>Atual: [!UICONTROL Plano]</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licença</td> 
+   <td><p>[!UICONTROL Padrão]</p>
+       <p>[!UICONTROL Plano]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td>[!UICONTROL Administrador do Sistema]</td>
-  </tr>
+   <td>Configurações de nível de acesso</td> 
+   <td>[!UICONTROL Administrador do Sistema]</td> 
+  </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,8 +78,8 @@ Os tipos de despesas padrão em [!DNL Workfront] que não podem ser excluídos o
       * Quilômetro
       * Quilograma
       * Dólar
-      * Hora
-      * Dia
+      * Hour
+      * Day
       * Outro - A seleção dessa opção solicita que você nomeie sua unidade de medida e defina a unidade de medida como algo familiar à sua organização.
 
    * **Taxa** - O preço por unidade. Este é um campo formatado por moeda e representa o custo de cada unidade estabelecida no campo **Unidade Calculada**. A taxa pode conter um valor numérico com até 4 números após a casa decimal. Por exemplo, 1.0375.

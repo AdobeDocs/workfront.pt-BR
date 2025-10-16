@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting;projects
 keywords: calculado,agregações,avançado,exibições
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Agrupamento: exibir o resultado da agregação de vários valores calculados em um agrupamento"
+title: 'Agrupamento: Exibir o Resultado da Agregação de Vários Valores Calculados em um Agrupamento'
 description: Você pode usar o modo texto em uma coluna para exibir um cálculo entre dois campos na exibição de um relatório ou lista. Cada linha exibe o cálculo de cada objeto no relatório ou lista.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -27,28 +27,21 @@ Você pode exibir o valor agregado de vários itens de exibição calculados na 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-    <p>Novo:</p>
-   <ul><li><p>Colaborador para modificar um filtro </p></li>
-   <li><p>Padrão para modificar um relatório</p></li> </ul>
-
-<p>Atual:</p>
-   <ul><li><p>Solicitação para modificar um filtro </p></li>
-   <li><p>Planejar a modificação de um relatório</p></li> </ul></td> 
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
+   <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -61,7 +54,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: "Visão geral do tipo de duração: orientado por esforço"
+title: 'Visão geral do tipo de duração: Controlado pelo esforço'
 description: Orientado pelo esforço é um tipo de duração que você pode definir para uma tarefa no Adobe Workfront. Para obter informações gerais sobre Tipos de duração no Workfront, consulte Visão geral da duração da tarefa e Tipo de duração.
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 1%

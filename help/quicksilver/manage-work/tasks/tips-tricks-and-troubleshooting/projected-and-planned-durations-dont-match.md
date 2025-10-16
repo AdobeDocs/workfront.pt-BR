@@ -3,13 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: A duração do projeto não corresponde à duração planejada
-description: '"Você recebe a seguinte mensagem de erro: ''A duração projetada de uma tarefa/problema foi para 0 e não corresponde à duração planejada''".'
+description: Este artigo descreve como solucionar problemas no Adobe Workfront quando você pode receber a seguinte mensagem:'A duração projetada de uma tarefa/problema foi para 0 e não corresponde à duração planejada'.
 author: Alina
 feature: Work Management
 exl-id: ef135d44-3138-457d-b54a-3f1102ce3116
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---

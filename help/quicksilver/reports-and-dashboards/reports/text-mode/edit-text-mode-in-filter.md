@@ -6,7 +6,7 @@ description: É possível editar um filtro em uma lista ou relatório usando o m
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 1%
@@ -25,28 +25,20 @@ Para obter mais exemplos de modo de texto ao criar um filtro, consulte também a
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-      <p>Novo:</p>
-         <ul>
-         <li><p>Padrão</p></li>
-         </ul>
-      <p>Atual:</p>
-         <ul>
-         <li><p>Plano</p></li>
-         </ul>
-   </td>
+     <p>Standard</p>
+     <p>Plano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -59,7 +51,7 @@ Você deve ter o seguinte:
  </tbody> 
 </table>
 
-Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +81,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 
    Para acessar o filtro de uma lista, vá para a lista e clique no ícone **Filtro**, em seguida, passe o mouse sobre o filtro no painel lateral **Filtros** que você deseja modificar e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png). O painel lateral **Filtros** exibe o filtro selecionado ou o construtor de filtros herdados abre.
 
-   OU
+   OR
 
    Para acessar o filtro de um relatório, vá para o relatório e clique em **Ações de Relatório** > **Editar** > guia **Filtros**.
 
@@ -97,7 +89,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 
    Se você estiver usando o painel lateral **Filtros** em uma lista, clique em **Modo de texto**.
 
-   OU
+   OR
 
    Se você estiver usando o construtor de filtros herdados ou em um relatório, clique em **Adicionar uma Regra de Filtro** para começar a adicionar as condições de seu filtro. Em seguida, clique em **Alternar para o modo de texto** e depois em **Editar modo de texto** no lado direito do construtor.
 

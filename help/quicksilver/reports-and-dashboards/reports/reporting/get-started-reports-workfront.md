@@ -2,19 +2,19 @@
 content-type: overview;reference
 product-area: reporting
 navigation-topic: reporting-navigation-topic
-title: Introdução a relatórios
+title: Introdução aos relatórios
 description: Os relatórios fornecem visibilidade sobre o que está acontecendo com os usuários e o trabalho. Com os relatórios, é possível exibir informações sobre objetos no Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '3293'
-ht-degree: 0%
+source-wordcount: '3292'
+ht-degree: 1%
 
 ---
 
-# Introdução a relatórios
+# Introdução aos relatórios
 
 <!-- Audited: 12/2023 -->
 
@@ -88,7 +88,7 @@ Para obter informações sobre como criar relatórios, consulte [Criar um relat�
 
 ### Pré-requisitos para criar relatórios {#prerequisites-for-creating-reports}
 
-* Você deve ter uma licença Plan (licenças atuais) ou uma licença Standard (novas licenças) para criar seus próprios relatórios.
+* Você deve ter uma licença Padrão ou de Plano para criar seus próprios relatórios.
 
   Para obter informações sobre os tipos de licença da Workfront, consulte [Visão geral das licenças](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) para as licenças atuais e [Visão geral das novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) para as novas licenças.
 
@@ -177,7 +177,7 @@ A guia Detalhes de um relatório exibe o objeto dos relatórios e os atributos e
 >[!IMPORTANT]
 >
 >As informações na guia Detalhes podem ser exibidas de forma diferente da guia Gráfico com base no fuso horário.\
->Por exemplo, um usuário na Califórnia concluiu uma tarefa às 21h30 PST em 12 de fevereiro. Quando um usuário em Nova York visualiza um relatório que inclui a conclusão dessa tarefa, a Data de conclusão real é exibida como 13 de fevereiro na guia Detalhes e nos detalhes do Gráfico porque foi concluída às 12h30 EST em 13 de fevereiro. No entanto, no gráfico, ele é incluído no agrupamento de 12 de fevereiro até que você expanda o elemento do gráfico.
+>Por exemplo, um usuário na Califórnia concluiu uma tarefa às 21:00 PST em 12 de fevereiro. :30 Quando um usuário em Nova York visualiza um relatório que inclui a conclusão dessa tarefa, a Data de conclusão real é exibida como 13 de fevereiro na guia Detalhes e nos detalhes do Gráfico porque foi concluída às 12:30 am EST em 13 de fevereiro. No entanto, no gráfico, ele é incluído no agrupamento de 12 de fevereiro até que você expanda o elemento do gráfico.
 
 ### Guia Resumo {#summary-tab}
 
@@ -206,7 +206,7 @@ Considere incluir um gráfico em seus relatórios para obter painéis impactante
 >[!IMPORTANT]
 >
 >Ao clicar em um elemento de gráfico, as informações expandidas podem ser exibidas de forma diferente do gráfico com base no seu fuso horário.\
->Por exemplo, um usuário na Califórnia concluiu uma tarefa às 21h30 PST em 12 de fevereiro. Quando um usuário em Nova York visualiza um relatório que inclui a conclusão dessa tarefa, a Data de conclusão real é exibida como 13 de fevereiro na guia Detalhes e nos detalhes do Gráfico porque foi concluída às 12h30 EST em 13 de fevereiro. No entanto, no gráfico, ele é incluído no agrupamento de 12 de fevereiro até que você expanda o elemento do gráfico.
+>Por exemplo, um usuário na Califórnia concluiu uma tarefa às 21:00 PST em 12 de fevereiro. :30 Quando um usuário em Nova York visualiza um relatório que inclui a conclusão dessa tarefa, a Data de conclusão real é exibida como 13 de fevereiro na guia Detalhes e nos detalhes do Gráfico porque foi concluída às 12:30 am EST em 13 de fevereiro. No entanto, no gráfico, ele é incluído no agrupamento de 12 de fevereiro até que você expanda o elemento do gráfico.
 
 Para obter informações sobre como criar um relatório com um gráfico, consulte o artigo [Adicionar um gráfico a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
@@ -296,7 +296,7 @@ Os termos a seguir são usados em referência aos relatórios do Workfront:
    <td>Um Bean representa um elemento de programação reutilizável. O termo Bean identifica relações entre diferentes objetos no aplicativo Workfront. É importante conhecer esses relacionamentos ao tentar exibir atributos adicionais sobre um objeto que não estão disponíveis nas ferramentas básicas de relatórios.</td> 
   </tr> 
   <tr> 
-   <td>Interface ou Report Builder do construtor</td> 
+   <td>Interface do construtor ou Report Builder</td> 
    <td>A Interface do construtor é uma série de menus suspensos que contêm campos exibidos nas guias Colunas (Exibição), Filtro e Agrupamento. Ela fornece um mapeamento intuitivo dos relacionamentos de Bean para auxiliar na identificação das colunas em uma visualização, os critérios de um filtro e os atributos comuns de um agrupamento.</td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ Os termos a seguir são usados em referência aos relatórios do Workfront:
     <ul> 
      <li>Coluna</li> 
      <li>Barra</li> 
-     <li>Torta</li> 
+     <li>Pizza </li> 
      <li>Linha</li> 
      <li>Medidor</li> 
      <li>Bolha</li> 
@@ -325,7 +325,7 @@ Os termos a seguir são usados em referência aos relatórios do Workfront:
   </tr> 
   <tr> 
    <td>Campos</td> 
-   <td> <p>Refere-se aos atributos de seus objetos. Por exemplo, "Status" é um campo para Projetos, Tarefas ou Problemas. "Gerenciador de Portfolio" é um campo para o objeto Portfolio.</p> <p>Também é possível ter campos personalizados que você mesmo cria e adiciona a formulários personalizados.<br>Para obter informações sobre como criar formulários personalizados, consulte o artigo <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Criar um formulário personalizado</a>.</p> </td> 
+   <td> <p>Refere-se aos atributos de seus objetos. Por exemplo, "Status" é um campo para Projetos, Tarefas ou Problemas. "Portfolio Manager" é um campo para o objeto Portfolio.</p> <p>Também é possível ter campos personalizados que você mesmo cria e adiciona a formulários personalizados.<br>Para obter informações sobre como criar formulários personalizados, consulte o artigo <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Criar um formulário personalizado</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Nome do Campo </td> 

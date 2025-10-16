@@ -6,9 +6,9 @@ description: Você pode atualizar o status de um problema para informar a outras
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -21,23 +21,20 @@ Você pode atualizar o status de um problema para informar a outras pessoas onde
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Novo: Colaborador ou superior</p>
-   Ou
-   <p>Atual: solicitação ou superior</p>
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Colaborador ou superior</p>
+   <p>Solicitação ou superior</p>
    </td> 
   </tr> 
   <tr> 
@@ -55,13 +52,41 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Contributor or higher</p>
+   Or
+   <p>Current: Request or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the issue</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
+
 ## Status de problemas
 
 A seguir estão os status padrão para problemas no Workfront:
 
 * Novo(a)
 * Em andamento
-* Aguardando Retorno
+* Aguardando feedback
 * Em Espera
 * Não Será Resolvido
 * Reaberta
@@ -169,7 +194,7 @@ O Workfront atualiza automaticamente o status existente de um problema para um s
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Clique no botão Iniciar Problema para aceitar trabalhar em um problema atribuído a você</span> </td> 
-   <td><span>Novo</span> </td> 
+   <td><span>Novo menu</span> </td> 
    <td> <p>Qualquer status associado ao botão Iniciar problema nas configurações da Equipe da página inicial. </p> <p>Para obter informações sobre a substituição do botão Trabalhar na tarefa pelo botão Iniciar problema, consulte <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substituir o botão Trabalhar na tarefa por um botão Iniciar</a></span><span>.</span> </p> <p>Dica: Clicar em <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">o botão Desfazer</span> depois de clicar em Iniciar problema reverte o status para Novo. </p> </td> 
   </tr> 
  </tbody> 

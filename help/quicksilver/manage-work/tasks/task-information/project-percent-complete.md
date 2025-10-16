@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Visão geral do Percentual de Término do Projeto
+title: Visão Geral do Percentual de Término do Projeto
 description: O valor do Percentual concluído de um projeto é calculado com base na Duração planejada ou nas Horas planejadas das tarefas no projeto. O administrador do Adobe Workfront ou um administrador de grupo define qual valor é levado em conta ao calcular o percentual concluído no sistema quando configuram informações na área Preferências do projeto. Para obter informações sobre como configurar as preferências do projeto, consulte Configurar preferências do projeto do sistema.
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%

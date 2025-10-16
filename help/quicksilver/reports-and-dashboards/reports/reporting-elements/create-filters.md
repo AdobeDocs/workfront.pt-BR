@@ -6,9 +6,9 @@ description: É possível limitar a quantidade de informações exibidas na tela
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2375'
 ht-degree: 1%
 
 ---
@@ -35,48 +35,35 @@ Você pode aplicar os seguintes tipos de filtros no Adobe Workfront:
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
+   <td role="rowheader">Licença do Adobe Workfront</strong></td> 
    <td> 
-      <p>Novo:</p>
-         <ul>
-         <li><p>Colaborador para modificar um filtro</p></li>
-         <li><p>Padrão para modificar um filtro em um relatório</p></li>
-         </ul>
-      <p>Atual:</p>
-         <ul>
-         <li><p>Solicitação para modificar um filtro</p></li>
-         <li><p>Plano para modificar um filtro em um relatório</p></li>
-         </ul>
+    <p>Colaborador ou Solicitação para modificar um filtro</p>
+    <p>Padrão ou Plano para modificar um filtro em um relatório</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <ul><li><p>Editar acesso a Filtros, Visualizações e Agrupamentos</p></li></ul>
-
-Para editar um filtro em um relatório, você deve ter a seguinte configuração de nível de acesso, além de Editar acesso a Filtros, Visualizações e Agrupamentos:
-
-<ul><li><p>Editar acesso a relatórios, painéis e calendários</p></li></ul>   
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a relatórios, painéis, calendários</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permissões de objeto*</strong></td> 
-   <td> <p>Gerenciar permissões para um filtro</p></td> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td> <p>Gerenciar permissões para um filtro</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

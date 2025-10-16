@@ -6,9 +6,9 @@ description: Este cenário de integração vincula um projeto  [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
+source-git-commit: d3f234313677d916318c181c91cb951948454006
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -23,34 +23,39 @@ Este cenário de integração vincula um projeto [!DNL Adobe Workfront] (campanh
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para usar a funcionalidade neste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>[!UICONTROL Pro] ou superior</p> </td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer pacote de fluxo de trabalho do Adobe Workfront e qualquer pacote de Automação e Integração do Adobe Workfront</p><p>Workfront Ultimate</p><p>Workfront Prime e pacotes Select, com uma compra adicional do Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Plano], [!UICONTROL Trabalho]</p> </td> 
+   <td role="rowheader">Licenças do Adobe Workfront</td> 
+   <td> <p>Standard</p><p>Trabalhar ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licença**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion para Automação e Integração do Trabalho] </p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront Fusion</td> 
+   <td>
+   <p>Baseado em operação: nenhum requisito de licença do Workfront Fusion</p>
+   <p>Baseado em conector (herdado): automação e integração do Workfront Fusion for Work </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>Sua organização deve comprar o [!DNL Adobe Workfront Fusion] e o [!DNL Adobe Workfront] para usar a funcionalidade descrita neste artigo.</td> 
+   <td>
+   <p>Se sua organização tiver um pacote Select ou Prime Workfront que não inclua a Automação e Integração do Workfront, ela deverá comprar o Adobe Workfront Fusion.</li></ul>
+   </td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-&#42;&#42;Para obter informações sobre[!DNL &#x200B; Adobe Workfront Fusion] licenças, consulte [[!DNL Adobe Workfront Fusion] licenças](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)
+Para obter informações sobre licenças do Adobe Workfront Fusion, consulte [licenças do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Evento de acionamento
 
@@ -175,7 +180,7 @@ Conclua as etapas a seguir para implantar este cenário de integração na sua c
    |---|---|
    | [!UICONTROL [!DNL Anaplan] Workspace ID] | A ID de um espaço de trabalho da sua conta [!DNL Anaplan]. |
    | [!UICONTROL [!DNL Anaplan] ID do Modelo] | A ID de um modelo da sua conta [!DNL Anaplan] e do espaço de trabalho selecionado. |
-   | [!UICONTROL [!DNL Anaplan] Nome do módulo &#x200B;] | O nome do módulo que descreve os atributos de campanha na Lista [!DNL Anaplan] selecionada. |
+   | [!UICONTROL [!DNL Anaplan] Nome do módulo ] | O nome do módulo que descreve os atributos de campanha na Lista [!DNL Anaplan] selecionada. |
    | [!UICONTROL Nome da Lista de Campanhas] | O nome da lista da sua conta [!DNL Anaplan] e o espaço de trabalho e modelo selecionados. |
 
    {style="table-layout:auto"}

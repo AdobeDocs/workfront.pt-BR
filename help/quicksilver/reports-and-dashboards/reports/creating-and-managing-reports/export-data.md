@@ -1,14 +1,14 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Export Data
-description: You can export Adobe Workfront data from lists, reports, dashboards, and searches.
+title: Exportar dados
+description: Você pode exportar dados do Adobe Workfront de listas, relatórios, painéis e pesquisas.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2252'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-You can export Adobe Workfront data from lists, reports, dashboards, and searches.
+Você pode exportar dados do Adobe Workfront de listas, relatórios, painéis e pesquisas.
 
 Alguns motivos para exportar dados são:
 
 * Você deseja fornecer uma cópia dos dados em papel a alguém fora do Workfront.
 * Você deseja enviar os resultados de um relatório como um anexo para um usuário externo.
 * Você deseja criar um backup externo dos dados do Workfront.
-* Há um limite para exibir apenas 2.000 resultados em uma página dentro do aplicativo web do Workfront. If your report produces more than 2,000, you can export the report to any of the available formats and view all the results in the report in one list.
+* Há um limite para exibir apenas 2.000 resultados em uma página dentro do aplicativo web do Workfront. Se o seu relatório produzir mais de 2.000, você poderá exportá-lo para qualquer um dos formatos disponíveis e visualizar todos os resultados no relatório em uma lista.
 
-You can either export a report manually, from the Workfront interface, or you can schedule a delivery for a report and that report will be sent to you at a later time. Para obter mais informações sobre o agendamento de relatórios entregues, consulte [Visão geral da entrega de relatórios](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Você pode exportar um relatório manualmente, da interface do Workfront, ou pode agendar a entrega de um relatório que será enviado a você posteriormente. Para obter mais informações sobre o agendamento de relatórios entregues, consulte [Visão geral da entrega de relatórios](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 As informações deste artigo não se aplicam às seguintes exportações:
 
@@ -46,33 +46,24 @@ As informações deste artigo não se aplicam às seguintes exportações:
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>
-    <p>Novo:</p>
-      <ul>
-      <li>Leve ou superior</li>
-      </ul>
-    <p>Atual:</p>
-      <ul>
-      <li>Revisar ou superior</li>
-    </td> 
+   <td> 
+      <p>Leve</p>
+      <p>Revisar</p>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>View or higher access to Reports, Dashboards, and Calendars to export reports</p> <p>View or higher access to the objects you view in a list to export the list</p> </td> 
+   <td> <p>Visualize ou acesse mais relatórios, painéis e calendários para exportar relatórios</p> <p>Acesso de visualização ou superior aos objetos exibidos em uma lista para exportar a lista</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -81,7 +72,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -104,15 +95,15 @@ As informações podem ser exportadas nos seguintes formatos:
 
 >[!NOTE]
 >
->Dashboards can either be printed or exported only to a PDF file.
+>Painéis podem ser impressos ou exportados somente para um arquivo do PDF.
 
-### Export limits {#export-limits}
+### Exportar limites {#export-limits}
 
 <!--
 NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."]
 -->
 
-There are several limitations around the way reports display in Workfront as well as the way they export through a manual export, a delivered report, or through the API.
+Há várias limitações no modo como os relatórios são exibidos no Workfront, bem como no modo como são exportados por meio de uma exportação manual, um relatório entregue ou pela API.
 
 * **50.000 células:** o número máximo de células permitidas em uma exportação de relatório para arquivos do Excel.
 * **50.000 linhas:** o número de linhas de dados permitidas em uma exportação de relatório para arquivos PDF e Delimitados por tabulação.
@@ -133,13 +124,13 @@ There are several limitations around the way reports display in Workfront as wel
 
   Para obter informações sobre como usar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-  For information about using prompts, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  Para obter informações sobre como usar prompts, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 * Estes limites aplicam-se a:
 
-   * A manual export of a report.
-   * A scheduled report.
-   * An export through an API integration.
+   * Uma exportação manual de um relatório.
+   * Um relatório agendado.
+   * Uma exportação por meio de uma integração de API.
    * Dados exportados por meio de um início.
 
      Para obter mais informações sobre como exportar dados por meio de inícios, consulte [Exportar dados do Adobe Workfront por meio de Inícios](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
@@ -150,9 +141,9 @@ There are several limitations around the way reports display in Workfront as wel
 
    * Exportando informações de utilização de um projeto.
 
-     For more information about exporting utilization information for a project, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
+     Para obter mais informações sobre como exportar informações de utilização de um projeto, consulte [Visão Geral do Relatório de Utilização de Recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project).
 
-* **10MB file size:** File size limit for any exported report scheduled for delivery. If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report.
+* **Tamanho do arquivo de 10 MB:** Limite do tamanho do arquivo para qualquer relatório exportado agendado para entrega. Se um arquivo exportado anexado a um email tiver mais de 5 MB, um link no qual o arquivo pode ser baixado será enviado por email, em vez do relatório exportado anexado.
 * **65.530 hiperlinks:** esse é um limite imposto pelo Excel a documentos que contêm mais de 65.530 hiperlinks. Esses documentos não podem ser abertos quando são exportados manualmente ou enviados em um relatório entregue. Observe que um documento do Excel pode ter apenas 200 linhas de dados, mas se houver mais de 65.530 links dentro do documento, ele não abrirá. Esse limite existe apenas em arquivos do Excel e não em outros formatos compatíveis.
 * **256 colunas**: esse é um limite imposto pelo Excel a documentos que contêm mais de 256 colunas. Esses documentos não podem ser exportados manualmente ou enviados em um relatório entregue. Esse limite existe apenas em arquivos do Excel e não em outros formatos compatíveis.
 
@@ -168,7 +159,7 @@ Se você tentar exportar dados além do limite, talvez não receba todos os dado
 
 Além disso, os relatórios que levarem mais de 60 minutos para serem executados serão interrompidos.
 
-If you have concerns or issues regarding your limit, please contact Workfront Technical Support.
+Se você tiver dúvidas ou problemas relacionados ao seu limite, entre em contato com o Suporte técnico da Workfront.
 
 ## Exportar dados
 
@@ -177,13 +168,13 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
 1. Vá para o relatório ou lista que deseja exportar.
 1. Selecione os itens que deseja exportar. Selecionar itens individuais exporta somente os itens selecionados.
 
-   For example, in a project, select the tasks you want to export.
+   Por exemplo, em um projeto, selecione as tarefas que deseja exportar.
 
    Ou
 
-   Leave all items deselected to export the entire list.
+   Deixe todos os itens desmarcados para exportar toda a lista.
 
-1. Click **Export**, then select a format.
+1. Clique em **Exportar** e selecione um formato.
 
    <!--
    This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
@@ -216,10 +207,10 @@ Para obter mais informações sobre como exportar dados de um painel, consulte [
 
 As seções a seguir descrevem como as informações são exibidas em um arquivo exportado:
 
-* [File names](#file-names)
-* [Titles](#titles)
-* [Timestamps](#timestamps)
-* [Formatting](#formatting)
+* [Nomes de arquivos](#file-names)
+* [Títulos](#titles)
+* [Carimbos de data/hora](#timestamps)
+* [Formatação](#formatting)
 * [Links](#links)
 * [Marca](#branding)
 
@@ -240,11 +231,11 @@ Quando você exporta uma lista de tarefas ou problemas, o **Nome do Arquivo** po
 
 * Ao exportar listas de tarefas e problemas em uma tarefa (subtarefas):
 
-   * **The_project_name_the_task_name_Exported_Tasks**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
-   * **The_project_name_the_task_name_Exported_Issues**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
+   * **The_project_name_the_task_name_Exported_Tasks**(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
+   * **The_project_name_the_task_name_Exported_Issues**(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
 
-When you export a list of any other objects from a project to a PDF file, the file name of the exported document indicates the type of objects you exported.\
-For example, the file name may be:
+Quando você exporta uma lista de quaisquer outros objetos de um projeto para um arquivo PDF, o nome do arquivo do documento exportado indica o tipo de objetos que você exportou.\
+Por exemplo, o nome do arquivo pode ser:
 
 * *Usuários_Exportados*, ao exportar a guia Pessoas no projeto(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
 * *Exported_Risks*, ao exportar uma lista de Riscos no projeto(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
@@ -255,9 +246,9 @@ Quando você exporta um relatório, o nome do arquivo do relatório exportado é
 
 *The_report_name*(*nos formatos PDF, Excel, Excel (.xlsx) ou delimitado por tabulação)*
 
-### Titles {#titles}
+### Títulos {#titles}
 
-When you export a list of objects, only the file in the PDF format will have a title. If you export a list or a report to Excel, Excel (.xlsx), or Tab Delimited formats, the file does not have a title.
+Ao exportar uma lista de objetos, somente o arquivo no formato PDF terá um título. Se você exportar uma lista ou um relatório para os formatos Excel, Excel (.xlsx) ou Delimitado por tabulação, o arquivo não terá um título.
 
 #### Títulos para listas exportadas {#titles-for-exported-lists}
 
@@ -277,9 +268,9 @@ Por exemplo, o título pode ser:
 * *Usuários Exportados*, ao exportar a guia Pessoas no projeto.
 * *Riscos Exportados*, ao exportar uma lista de Riscos no projeto.
 
-#### Titles for exported reports {#titles-for-exported-reports}
+#### Títulos para relatórios exportados {#titles-for-exported-reports}
 
-A report that is exported to a PDF file will have a title.
+Um relatório exportado para um arquivo PDF terá um título.
 
 Se o relatório for exportado para os formatos Excel, Excel (.xlsx) ou Delimitado por tabulação, o relatório exportado não terá um título. O título do arquivo exportado é o nome do relatório como ele aparece no aplicativo web do Workfront.
 
@@ -287,7 +278,7 @@ Se o relatório tiver uma descrição, ela será incluída no arquivo exportado.
 
 ### Carimbos de data e hora {#timestamps}
 
-A timestamp is displayed on the exported document from the context of the user who exported the item.
+Um carimbo de data e hora é exibido no documento exportado do contexto do usuário que exportou o item.
 
 O carimbo de data e hora inclui:
 
@@ -316,24 +307,24 @@ Para obter mais informações sobre como personalizar a formatação em um relat
 
 ### Links {#links}
 
-Os links podem apontar para qualquer objeto no Workfront que ofereça suporte a links. When you export a list in Workfront to PDF, any supported links that exist in the original document remain live in the exported document.
+Os links podem apontar para qualquer objeto no Workfront que ofereça suporte a links. Quando você exporta uma lista no Workfront para o PDF, todos os links compatíveis existentes no documento original permanecem ativos no documento exportado.
 
 >[!TIP]
 >
->If the line `valueformat=HTML` appears in text mode for a custom field column and the link values do not display in an exported PDF file, you need to enter additional lines of code to your column in text mode.
+>Se a linha `valueformat=HTML` aparecer no modo de texto para uma coluna de campo personalizado e os valores de link não forem exibidos em um arquivo do PDF exportado, você precisará inserir linhas adicionais de código na coluna no modo de texto.
 >
->For example, if you have a custom field called Open Q1 Projects that contains links, you would add the following code:
+>Por exemplo, se você tem um campo personalizado chamado Abrir projetos Q1 que contém links, você adicionaria o seguinte código:
 >
 >`link.url=customDataLabelsAsString(Open Q1 Projects)`
 >`linkedname=direct`
 
-When you export to an Excel format, only links to objects within Workfront are included in the exported file and they are only supported in places where you can select to allow links in exported Excel documents, such as report deliveries.
+Quando você exporta para um formato do Excel, somente os links para objetos no Workfront são incluídos no arquivo exportado e só são suportados em locais onde você pode selecionar para permitir links em documentos exportados do Excel, como deliveries de relatórios.
 
 ## Marca {#branding}
 
 >[!IMPORTANT]
 >
->Branding applies only to organizations that are not yet onboarded to Adobe Experience Cloud.
+>A marca se aplica somente a organizações que ainda não estão integradas ao Adobe Experience Cloud.
 >
 >Se sua organização foi integrada ao Adobe Experience Cloud, a marca não está disponível.
 

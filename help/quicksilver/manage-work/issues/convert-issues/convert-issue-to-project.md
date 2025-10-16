@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Converter um problema em um projeto no Adobe Workfront
-description: Converter um problema em um projeto no Adobe Workfront
+title: Converter um problema em um projeto
+description: Se for necessário fazer mais para concluir um problema depois de enviá-lo, converta-o em um projeto no Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2009'
 ht-degree: 1%
 
 ---
 
-# Converter um problema em um projeto no Adobe Workfront
+# Converter um problema em um projeto
 
-<!--Audited: 01/2024-->
+<!--Audited: 08/2025-->
 
 Se for necessário trabalhar mais para concluir um problema depois que ele for enviado, você pode converter o problema em um projeto.
 
-Você pode converter um problema em um novo projeto ou convertê-lo em um projeto usando um modelo. Este artigo descreve ambas as maneiras de converter problemas em projetos.
+Você pode converter um problema em um projeto com ou sem usar um modelo de projeto. Este artigo descreve ambas as maneiras de converter problemas em projetos.
 
 >[!IMPORTANT]
 >
@@ -31,29 +31,27 @@ Ao criar um projeto a partir de um problema, alguns dos campos no projeto são p
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Novo: Padrão </p> 
-    <p>Atual: Plano </p> </td> 
+   <p>Standard</p> 
+    <p>Plano</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a Problemas, Tarefas e Projetos</p> <p>Editar acesso a Dados Financeiros para atualizar informações financeiras de uma projeção convertida a partir da ocorrência</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões para o problema</p> <p>Você obtém permissões de Gerenciamento para o projeto após a conversão do problema</p> </td> 
+   <td> <p>Exibir permissões para o problema</p> <p>Você obtém permissões de gerenciamento para o projeto depois de converter o problema</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,6 +59,34 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard </p> 
+    <p>Current: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues, Tasks, and Projects</p> <p>Edit access to Financial Data to update financial information for a projected converted from the issue</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the issue</p> <p>You obtain Manage permissions to the project after the issue is converted</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 ## Considerações
 

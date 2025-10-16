@@ -6,9 +6,9 @@ description: Integrar o  [!DNL Adobe Workfront] com o Slack permite que você ac
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -24,26 +24,28 @@ Integrar [!DNL Adobe Workfront] com [!DNL Slack] permite que você faça o segui
 
 Dependendo de como o ambiente do [!DNL Slack] está configurado, você mesmo pode instalar e configurar o [!DNL Workfront for Slack], ou o administrador do [!DNL Workfront] deve instalá-lo e configurá-lo primeiro para que você possa configurá-lo para si mesmo.
 
-Quando você integra sua instância do [!DNL Slack] com [!DNL Workfront], os usuários podem usar o [!DNL Workfront] enquanto colaboram dentro de seus canais [!DNL Slack]. A integração pode ser usada de qualquer ambiente [!DNL Slack], incluindo o aplicativo móvel [!DNL Slack].
+Quando você integra sua instância do [!DNL Slack] com [!DNL Workfront], os usuários podem usar o [!DNL Workfront] enquanto colaboram dentro de seus canais [!DNL Slack]. A integração pode ser usada de qualquer ambiente [!DNL Slack], incluindo o aplicativo móvel [!DNL Slack]. ## Requisitos de acesso
 
-## Requisitos de acesso
-
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/br/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] plano]</a>*</td> 
-   <td> <p>[!UICONTROL Pro] ou superior</p> </td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Qualquer</p>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].\
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos para usar o [!DNL Workfront] com [!DNL Slack]
 

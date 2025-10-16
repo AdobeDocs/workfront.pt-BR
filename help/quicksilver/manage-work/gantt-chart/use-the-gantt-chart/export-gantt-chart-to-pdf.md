@@ -5,35 +5,35 @@ description: É possível exportar o Diagrama de Gantt para uma PDF. Posteriorme
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # Exportar o [!UICONTROL Gráfico de Gantt] para o PDF
 
-<!--Audited: 5/2025-->
+<!--Audited: 08/2025-->
 
 Você pode exportar o [!UICONTROL Gráfico de Gantt] para um PDF. Posteriormente, você pode imprimi-lo ou anexá-lo a um email para compartilhá-lo com outros usuários.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano do [!UICONTROL Adobe Workfront]</td> 
-   <td> <p>Qualquer </p> </td> 
+   <td role="rowheader">Pacote [!UICONTROL Adobe Workfront]</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da [!UICONTROL Adobe Workfront]</td> 
-   <td> <p>Novo:[!UICONTROL Light] ou superior</p>
-   <p>Atual:[!UICONTROL Review] ou superior</p> </td> 
+   <td> <p>[!UICONTROL Light] ou superior</p>
+   <p>[!UICONTROL Review] ou superior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -41,7 +41,7 @@ Você pode exportar o [!UICONTROL Gráfico de Gantt] para um PDF. Posteriormente
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>[!UICONTROL Exibir] ou superior acesso ao projeto</p> </td> 
+   <td> <p>[!UICONTROL Exibir] ou superior acesso ao projeto e às tarefas</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,6 +49,34 @@ Você pode exportar o [!UICONTROL Gráfico de Gantt] para um PDF. Posteriormente
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] plan</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] license</td> 
+   <td> <p>New:[!UICONTROL Light] or higher</p>
+   <p>Current:[!UICONTROL Review] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL View] or higher access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL View] or higher access to the project</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+-->
 
 ## Exportar o [!UICONTROL Gráfico de Gantt]
 
@@ -134,7 +162,7 @@ A caixa de diálogo **[!UICONTROL Exportar para o PDF]** é exibida.
 
 
 1. Se a PDF for impressa depois de ser exportada para o PDF, selecione o tamanho do papel no qual deseja imprimir no menu suspenso **[!UICONTROL Tamanho da página]**.
-Você pode selecionar entre as seguintes opções:
+Você pode selecionar entre as opções a seguir:
 
    * **[!UICONTROL Carta]**
    * **[!UICONTROL Assuntos legais]**

@@ -6,10 +6,10 @@ description: É possível compartilhar filtros, visualizações e agrupamentos q
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 1%
+source-wordcount: '1170'
+ht-degree: 2%
 
 ---
 
@@ -30,49 +30,43 @@ Quando um filtro, exibição ou agrupamento é compartilhado com você, é poss�
 
 Para obter informações sobre como criar um filtro, uma exibição ou um agrupamento, consulte os seguintes artigos:
 
-* [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Visão geral dos Filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront*</strong></td> 
-   <td> <p>Qualquer </p> </td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
+   <td role="rowheader">Licença do Adobe Workfront</strong></td> 
    <td> 
-      <p>Novo:</p>
-         <ul>
-         <li><p>Colaborador ou superior</p></li>
-         </ul>
-      <p>Atual:</p>
-         <ul>
-         <li><p>Solicitação ou superior</p></li>
-         </ul>
+    <p>Colaborador ou superior</p>
+    <p>Solicitação ou superior</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Acesso de visualização ou superior a filtros, visualizações, agrupamentos</p></td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Acesso de visualização ou superior a filtros, visualizações, agrupamentos</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td><p>Exibir permissões ou mais altas com acesso para compartilhar, filtrar ou agrupar uma exibição</p></td> 
+   <td role="rowheader">Permissões de objeto</td> 
+    <td> <p>Exibir permissões ou mais altas com acesso para compartilhar, filtrar ou agrupar uma exibição</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -136,7 +130,7 @@ Compartilhar um filtro usando a interface do construtor padrão:
 
 1. (Opcional) Ative ou desative as permissões adicionais de uma entidade seguindo um destes procedimentos:
 
-   1. Clique em **Exibir** e desabilite a opção **Compartilhar**. Ela é ativada por padrão.
+   1. Clique em **Exibir** e desabilite a opção **Compartilhar**. Esta opção está habilitada por padrão.
    1. Clique em **Gerenciar** e desabilite a opção **Compartilhar** ou **Excluir**. Elas são ativadas por padrão.
 
       >[!NOTE]
@@ -185,7 +179,7 @@ O compartilhamento de filtros, visualizações e agrupamentos na interface herda
 
 1. (Condicional) Se estiver compartilhando com usuários individuais, equipes, funções, grupos ou empresas, clique no menu suspenso para definir o nível de acesso que deseja conceder.
 
-   Você pode selecionar entre as seguintes opções:
+   Você pode selecionar entre as opções a seguir:
 
    <table style="table-layout:auto"> 
     <col> 

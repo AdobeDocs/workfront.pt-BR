@@ -6,9 +6,9 @@ description: Após instalar o [!DNL Adobe Workfront] for Salesforce, você poder
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1573'
 ht-degree: 3%
 
 ---
@@ -21,32 +21,35 @@ ht-degree: 3%
 >
 >Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Salesforce.
 >
->Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Salesforce, consulte [módulos do Salesforce](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Salesforce, consulte [módulos do Salesforce](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules).
 
 Depois de instalar o [!DNL Adobe Workfront] for Salesforce, você poderá definir acionadores que criam projetos [!DNL Workfront] quando determinados critérios forem atendidos em [!DNL Salesforce] [!UICONTROL Oportunidades] e [!UICONTROL Contas].
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para usar a funcionalidade descrita neste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>[!UICONTROL Pro] ou superior</p> </td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Plano]</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Plano</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -168,7 +171,7 @@ Para configurar acionadores em [!UICONTROL Salesforce]:
    1. Selecione um **[!UICONTROL Tipo]** no menu suspenso **[!UICONTROL Tipo]**.
 
       Quando qualquer **Conta
-**&#x200B; é designado como o &#x200B;** [!UICONTROL Tipo] **&#x200B; especificado aqui em [!DNL Salesforce], um &#x200B;** [!UICONTROL Projeto]** é criado em [!DNL Workfront].
+** é designado como o **[!UICONTROL Tipo]** especificado aqui em [!DNL Salesforce], um **[!UICONTROL Projeto]** é criado em [!DNL Workfront].
 
       Este campo é obrigatório.
 

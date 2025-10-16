@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2828'
 ht-degree: 6%
 
 ---
@@ -34,35 +34,31 @@ Cada um desses procedimentos é descrito na ordem correta neste artigo.
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer</td> 
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>
-   <p> Novo: Padrão</p>
-   ou
-   <p>Atual: Plano</p></td> 
+   <td>Licença do Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plano</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td>[!UICONTROL Administrador do Sistema]</td> 
+   <td>Configurações de nível de acesso</td> 
+   <td>Administrador de Sistema</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Limitação
+## Limitações
 
 Você pode importar um grande número de objetos para o Workfront usando um template do Kickstart. No entanto, considere as seguintes limitações:
 
@@ -189,9 +185,9 @@ Para exportar um modelo do Kickstart:
       <td> <p> Agrupamento</p> <p>Preferências </p> </td> 
      </tr> 
      <tr> 
-      <td>Hora</td> 
+      <td>Hour</td> 
       <td>Exporta como arquivo do Excel</td> 
-      <td> <p> Hora</p> <p>Preferências </p> </td> 
+      <td> <p> Hour</p> <p>Preferências </p> </td> 
      </tr> 
      <tr> 
       <td>Problema</td> 
@@ -211,9 +207,9 @@ Para exportar um modelo do Kickstart:
      </tr>
 
    <tr> 
-      <td>Nota</td> 
+      <td>Observação</td> 
       <td>Exporta como arquivo do Excel</td> 
-      <td> <p> Nota</p> <p>Preferências </p> </td> 
+      <td> <p> Observação</p> <p>Preferências </p> </td> 
      </tr> 
      <tr> 
       <td>Portfólio</td> 
@@ -360,7 +356,7 @@ Cada linha da planilha corresponde a um objeto exclusivo.
    * Na coluna **setCategoryID**, digite o GUID do formulário personalizado existente no qual este campo personalizado reside. Esse campo é necessário ao importar dados personalizados.
    * Se precisar adicionar vários valores de dados no campo personalizado (como botões de opção, caixas de seleção ou listas), use o delimitador de dados personalizado da barra vertical &quot;|&quot; listado na guia Preferências para separar os valores.
 
-     **Exemplo:** Digite A|D na coluna DE:Departamentos para preencher os departamentos A e D no formulário personalizado.
+     **Exemplo:** Digite A|D na coluna DE:Departments para preencher o departamento A e o departamento D no formulário personalizado.
 
      >[!NOTE]
      >
@@ -378,11 +374,11 @@ O Workfront pode processar a maioria dos formatos de data. No entanto, você dev
 
 A Workfront também aceita valores de tempo como parte da data.
 
-Por exemplo: 10/07/2022 13h30 ou 10h/2022 13h.
+Por exemplo: 07/10/2022 01:30 ou 07/10/2022 1:00 PM.
 
 Se você omitir uma hora na data, a Workfront executará um dos seguintes procedimentos:
 
-* O horário assume que é 12h. Para ver o resultado de data esperado, o fuso horário do sistema deve corresponder ao seu fuso horário.
+* Presume que a hora seja 12:00 AM. Para ver o resultado de data esperado, o fuso horário do sistema deve corresponder ao seu fuso horário.
 * Se estiver em um objeto associado a um agendamento, o horário diferirá para o horário mais antigo permitido pelo agendamento.
 
 >[!NOTE]

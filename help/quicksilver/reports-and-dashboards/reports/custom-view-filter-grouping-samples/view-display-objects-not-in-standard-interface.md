@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "View: Exibir Objetos que Não Estão Incluídos na Interface Padrão"
+title: 'View: Exibir Objetos que Não Estão Incluídos na Interface Padrão'
 description: Você pode exibir em uma view objetos que não estão incluídos na interface de modo padrão. Você pode fazer isso somente referenciando-os pelo modo de texto.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,25 @@ Você pode determinar quais campos podem ser incluídos em uma view de uma das s
 
   Você pode usar o modo de texto para incluir em uma exibição o nome da coluna ou do campo, em vez da ID, substituindo o `fieldnameID` pelo `fieldname:name`.
 
-  Por exemplo, na interface de modo padrão, o campo **ID do Proprietário do Portfolio** está disponível para uma exibição de projeto, mas o campo **Nome do Proprietário do Portfolio** não está. Você pode usar o modo texto para exibir o **Nome do Proprietário do Portfolio** na coluna de uma exibição.
+  Por exemplo, na interface de modo padrão, o campo **ID do Proprietário do Portfolio** está disponível para uma exibição de projeto, mas o campo **Nome do Proprietário do Portfolio** não está. Você pode usar o modo de texto para exibir o **Nome do Proprietário do Portfolio** na coluna de um modo de exibição.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-    <p>Novo:</p>
-   <ul><li><p>Colaborador para modificar um filtro </p></li>
-   <li><p>Padrão para modificar um relatório</p></li> </ul>
-
-<p>Atual:</p>
-   <ul><li><p>Solicitação para modificar um filtro </p></li>
-   <li><p>Planejar a modificação de um relatório</p></li> </ul></td> 
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
+   <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -64,7 +57,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -92,7 +85,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    linkedname=portfolio
    ```
 
-   Neste exemplo específico, o relatório classificará pelo ID de proprietário do Portfolio, conforme indicado pela linha `querysort`.
+   Neste exemplo específico, o relatório classificará pelo ID do proprietário do Portfolio, conforme indicado pela linha `querysort`.
 
    >[!TIP]
    >

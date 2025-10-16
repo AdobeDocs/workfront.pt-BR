@@ -3,11 +3,11 @@ content-type: reference
 navigation-topic: create-and-manage-projects
 title: 'Definir um business case: índice de artigo'
 description: Você pode solicitar um projeto formal e eficientemente criando um Business Case. Os artigos a seguir descrevem as informações necessárias para definir o Business Case de um projeto.
-author: Alina
+author: Becky
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%

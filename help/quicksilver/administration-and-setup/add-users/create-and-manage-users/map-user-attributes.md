@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '956'
 ht-degree: 1%
 
 ---
@@ -26,28 +26,26 @@ Usando o logon único (SSO), você pode passar atributos do Ative Diretory do se
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p><p>Ou</p><p>Atual: Plano</p></td> 
+   <td><p>Standard</p><p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td>[!UICONTROL Administrador do Sistema]</td>
+   <td><p>Você deve ser um administrador do Workfront</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,9 +61,9 @@ Lembre-se do seguinte ao mapear atributos:
 
 ## Mapear atributos de usuário para sua organização
 
-O procedimento para mapear atributos difere dependendo se sua organização está na experiência unificada de Adobe.
+O procedimento para mapear atributos difere dependendo se sua organização está na experiência unificada do Adobe.
 
-Para determinar se sua organização está na experiência unificada de Adobe, examine o URL que você usa para acessar o Workfront.
+Para determinar se sua organização está na experiência unificada da Adobe, examine o URL que você usa para acessar o Workfront.
 
 | URL | Experiência do Adobe |
 |---|---|
@@ -91,7 +89,7 @@ Para determinar se sua organização está na experiência unificada de Adobe, e
 
    Você pode mapear atributos como Endereço, Gerente, Função, Grupo padrão e assim por diante.
 
-   Os mapeamentos de atributos funcionam em uma proporção de 1:1. Por exemplo, não é possível definir cada grupo ao qual um usuário pertence; você pode definir apenas um por usuário.
+   Os mapeamentos de atributos funcionam em uma Proporção de 1:1. Por exemplo, não é possível definir cada grupo ao qual um usuário pertence; você pode definir apenas um por usuário.
 
    >[!IMPORTANT]
    >
@@ -138,11 +136,11 @@ Para determinar se sua organização está na experiência unificada de Adobe, e
 
 1. Selecione a guia **Adobe**.
 
-1. (Opcional e condicional) Se sua organização tiver o mapeamento de atributos configurado na experiência clássica e você quiser copiar esse mapeamento de atributos para a experiência unificada de Adobe, clique em **Migrar Mapeamentos**. Em seguida, você pode descartar, excluir ou editar esses mapeamentos.
+1. (Opcional e condicional) Se sua organização tiver o mapeamento de atributos configurado na experiência clássica e você quiser copiar esse mapeamento de atributos para a experiência unificada do Adobe, clique em **Migrar Mapeamentos**. Em seguida, você pode descartar, excluir ou editar esses mapeamentos.
 
    >[!NOTE]
    >
-   >Recomendamos migrar mapeamentos na primeira vez que você configurar mapeamentos na experiência unificada de Adobe. Não há mal em migrá-los novamente mais tarde, mas a migração de mais de uma vez é desnecessária.
+   >Recomendamos migrar mapeamentos na primeira vez que você configurar mapeamentos na experiência unificada do Adobe. Não há mal em migrá-los novamente mais tarde, mas a migração de mais de uma vez é desnecessária.
 
 1. Para criar um novo mapeamento de atributo, clique em **Adicionar Mapeamento**.
 

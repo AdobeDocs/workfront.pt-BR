@@ -6,10 +6,10 @@ description: Leia este artigo para solucionar problemas de botões de filtro que
 feature: Get Started with Workfront
 author: Nolan and Alina
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 3%
 
 ---
 
@@ -17,26 +17,32 @@ ht-degree: 1%
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano</strong></td> 
-   <td> <p>Qualquer</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>licença do Adobe [!DNL Workfront]</strong></td> 
-   <td> <p>[!UICONTROL Plano] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
-   <td> <p>[!UICONTROL Administrador do sistema]</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Pacote do Adobe Workfront
+   </td>
+   <td> <p>Prime ou Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Licenças do Adobe Workfront
+   </td>
+   <td><p>Standard</p>
+   <p>Plano</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configurações de nível de acesso
+   </td>
+   <td>Você deve ser um administrador [!DNL Workfront].
+   </td>
+  </tr>
 </table>
+
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Problema
 

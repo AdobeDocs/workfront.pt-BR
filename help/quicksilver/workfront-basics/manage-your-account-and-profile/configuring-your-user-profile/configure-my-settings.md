@@ -6,7 +6,7 @@ description: Seu perfil  [!DNL Adobe Workfront]  contém informações sobre voc
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 00162e3d20ab541f3233afd5d0c5d90b4c4d6309
+source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
 workflow-type: tm+mt
 source-wordcount: '3318'
 ht-degree: 1%
@@ -392,13 +392,13 @@ Somente um administrador do [!DNL Workfront] pode visualizar e editar todos os c
   --> 
   <tr> 
    <td role="rowheader"><strong>(Condicional) [!UICONTROL Usuário pode gerar provas (... de ... licenças de prova restantes)]</strong></td> 
-   <td>Este campo só estará disponível se sua empresa usar um plano herdado [!DNL Workfront] e tiver comprado o componente [!DNL Workfront Proof]. Quando essa opção estiver selecionada, você será ativado como um usuário de prova. Ele também exibe o número de licenças de prova usadas em seu sistema do número total de licenças de prova adquiridas. Este campo é visível e editável apenas para usuários que também são administradores do [!DNL Workfront]. Para obter mais informações sobre as opções de plano para revisão de texto em [!DNL Workfront], consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Acesso à funcionalidade de revisão de texto em [!DNL Workfront]</a>.</td>
+   <td>Este campo só estará disponível se sua empresa usar um pacote [!DNL Workfront] herdado e tiver comprado o componente [!DNL Workfront Proof]. Quando essa opção estiver selecionada, você será ativado como um usuário de prova. Ele também exibe o número de licenças de prova usadas em seu sistema do número total de licenças de prova adquiridas. Este campo é visível e editável apenas para usuários que também são administradores do [!DNL Workfront]. Para obter mais informações sobre as opções de plano para revisão de texto em [!DNL Workfront], consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Acesso à funcionalidade de revisão de texto em [!DNL Workfront]</a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condicional) [!UICONTROL Perfil de Permissão]</strong></td> 
    <td> <p>Este campo exibe o nível de acesso que você tem em [!DNL Workfront Proof]. Ela só estará disponível se:</p> 
     <ul> 
-     <li>Sua empresa usa um plano [!DNL Workfront] herdado e adquiriu o componente [!DNL Workfront Proof] ou você tem uma licença do [!UICONTROL Standard], do [!UICONTROL Work] ou do [!UICONTROL Plan] em um plano [!DNL Workfront] mais recente.</li> 
+     <li>Sua empresa usa um pacote herdado [!DNL Workfront] e adquiriu o componente [!DNL Workfront Proof] ou você tem uma licença do [!UICONTROL Standard], do [!UICONTROL Work] ou do [!UICONTROL Plan] em um pacote [!DNL Workfront] mais recente.</li> 
      <li>Você está ativado como um usuário de prova.</li> 
     </ul> <p>[!DNL Workfront] os administradores podem editar o campo para todos os usuários, exceto eles próprios, para que todos os usuários vejam o campo como somente visualização em seus próprios perfis. Para obter mais informações sobre o perfil de permissão, consulte <a href="../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md" class="MCXref xref">Visão geral do Perfil de Permissão de Prova</a>.</p> </td> 
   </tr> 

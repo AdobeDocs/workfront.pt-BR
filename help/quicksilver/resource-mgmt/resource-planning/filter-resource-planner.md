@@ -6,9 +6,9 @@ description: Usando filtros, você pode modificar quais informações são exibi
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2361'
 ht-degree: 0%
 
 ---
@@ -25,36 +25,32 @@ Usando filtros, você pode modificar quais informações são exibidas no Planej
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td><p>Novo: Qualquer um</p>
-       <p>ou</p>
-       <p>Atual: Pro ou superior</p> </td> 
+  <tr> 
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Claro ou superior</p>
-       <p>ou</p>
-       <p>Atual: revisão ou superior</p></td>
+   <td>Licença do Adobe Workfront</td> 
+   <td><p>Leve ou superior</p>
+       <p>Revisar ou superior</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de visualização ou superior para Projetos, Usuários e Gerenciamento de recursos</p> </td> 
+   <td>Configurações de nível de acesso</td> 
+   <td> <p>Acesso de visualização ou superior para Projetos, Usuários e Gerenciamento de recursos</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou superiores para projetos</p> </td> 
+   <td>Permissões de objeto</td> 
+   <td> <p>Visualizar ou ter permissões mais altas para projetos</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

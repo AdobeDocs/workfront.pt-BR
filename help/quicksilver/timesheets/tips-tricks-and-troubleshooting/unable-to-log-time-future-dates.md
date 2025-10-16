@@ -4,13 +4,13 @@ product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
 title: Não é possível registrar horas para datas futuras
 description: Você não pode registrar horas para datas futuras em projetos, tarefas ou problemas porque os campos estão desativados.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 6108fad2-f0a2-4989-8645-69a16820032b
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 1%
+source-wordcount: '135'
+ht-degree: 2%
 
 ---
 
@@ -30,11 +30,11 @@ Os administradores do sistema podem atualizar uma configuração para permitir q
 
 Como administrador do sistema, faça o seguinte:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Expanda **Folhas de horas e horas** e clique em **Preferências**.
 
-1. Na seção **Preferências Gerais**, selecione as **Horas de log para datas futuras**.
+1. Na seção **Preferências Gerais**, selecione **Registrar horas para datas futuras**.
 
 1. Clique em **Salvar**.
 

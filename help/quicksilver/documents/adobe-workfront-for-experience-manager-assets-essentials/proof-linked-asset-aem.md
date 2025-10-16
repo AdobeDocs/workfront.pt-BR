@@ -1,63 +1,59 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Teste de um ativo vinculado para Experience Manager Assets ou Assets Essentials
-description: Depois de vincular uma ativo da Experience Manager Assets Essentials, você pode criar um prova e atribuir usuários para revisar e adicionar comentários ao ativo.
+title: Criar uma prova de um ativo vinculado do Experience Manager Assets ou do Assets Essentials
+description: Depois de vincular um ativo do Experience Manager Assets Essentials, você pode criar uma prova e atribuir usuários para revisar e adicionar comentários ao ativo.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 1%
+source-wordcount: '441'
+ht-degree: 2%
 
 ---
 
-# Teste de um ativo vinculado para Experience Manager Assets ou Assets Essentials
+# Criar uma prova de um ativo vinculado do Experience Manager Assets ou do Assets Essentials
 
-Depois de vincular uma ativo da Experience Manager Assets Essentials, você pode criar um prova e atribuir usuários para revisar e adicionar comentários ao ativo.
+Depois de vincular um ativo do Experience Manager Assets Essentials, você pode criar uma prova e atribuir usuários para revisar e adicionar comentários ao ativo.
 
 ## Requisitos de acesso
 
 <!-- Audited: 4/2025 -->
 
-+++ Expanda para visualização requisitos de acesso do funcionalidade neste artigo.
-
-Você deve ter o seguinte:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Systems plano da Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenças da Adobe Systems Workfront</td> 
+   <td role="rowheader">Licenças do Adobe Workfront</td> 
    <td> 
-   <p>Novo: Padrão</p>
-   <p>Ou</p>
-   <p>Atual: trabalho ou superior</p>
-   <p>A prova deve estar ativada para o usuário.</p>
+   <p>Standard</p>
+   <p>Trabalhar ou superior</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produto</td> 
+   <td role="rowheader">Produtos adicionais</td> 
    <td>Você deve ter o Experience Manager as a Cloud Service ou o Assets Essentials e deve ser adicionado ao produto como usuário na Admin Console. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a documentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td> <p>Editar acesso a documentos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir acesso ou superior</p> <p>Para obter informações sobre a solicitação de acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Exibir acesso ou superior</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Os requisitos de acesso na documentação](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) da Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,16 +61,16 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Os requi
 
 Antes de começar:
 
-* O administrador da Workfront deve configurar uma integração Experience Manager. Para obter mais informações, consulte [Configurar a Experience Manager Assets como uma integração](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) Cloud Service ou [configurar a integração](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md) Experience Manager Assets Essentials.
+* O administrador do Workfront deve configurar uma integração do Experience Manager. Para obter mais informações, consulte [Configurar a integração do Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Criar uma prova
 
-Você pode criar provas estáticas, de vídeo ou interativas.
+É possível criar provas estáticas, de vídeo ou interativas.
 
-Para criar um prova:
+Para criar uma prova:
 
-1. Vá para o projeto, tarefa ou emite onde deseja a prova e clique na **seção Documentos** .
-1. Passe o mouse sobre a documento e clique na **Criar Proof** link exibida abaixo do nome documento.
+1. Vá para o projeto, tarefa ou problema em que deseja a prova e clique na seção **Documentos**.
+1. Passe o mouse sobre o documento e clique no link **Criar prova**, que aparece abaixo do nome do documento.
 
    >[!NOTE]
    >
@@ -105,11 +101,11 @@ Para criar um prova:
 
 Depois de criar uma prova, faça o seguinte:
 
-* Exibir atividade do estágio atual
+* Exibir atividade de estágio atual
 * Atualizar revisores e prazos
-* Editar o fluxo de Trabalho
+* Editar o fluxo de trabalho
 
-Para obter mais informações sobre como gerenciar um prova existente, consulte [Gerenciar provas Adobe Systems Workfront: índice](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md) de artigo.
+Para obter mais informações sobre como gerenciar uma prova existente, consulte [Gerenciar provas no Adobe Workfront: índice do artigo](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md).
 
 ## Revisar uma prova
 

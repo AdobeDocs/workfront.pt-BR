@@ -7,9 +7,9 @@ description: O Adobe Workfront permite enviar mensagens rápidas e fáceis que n
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -29,32 +29,28 @@ O usuário para o qual você está enviando a mensagem recebe os seguintes tipos
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer</td> 
+  <tr> 
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Para enviar uma mensagem da página de perfil do usuário, você deve ter:<br>
-   Novo: Claro ou superior<br>
-   ou<br>
-   Atual: revisão ou superior</p>
-   <p>Para enviar uma mensagem da lista de Usuários, você deve ter:<br>
-   Novo: Padrão<br>
-   ou<br>
-   Atual: trabalho ou superior</p></td>
+   <p>Para enviar uma mensagem da página de perfil do usuário, você deve ter:</P>
+   <p>Leve ou superior</p>
+   <p>Revisar ou superior</p>
+   <p>Para enviar uma mensagem a partir da lista de usuários, você deve ter:</p>
+   <p>Standard</p>
+   <p>Trabalhar ou superior</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

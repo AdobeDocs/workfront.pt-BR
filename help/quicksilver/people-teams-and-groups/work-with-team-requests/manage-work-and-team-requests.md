@@ -7,9 +7,9 @@ description: Uma solicitação representa uma atribuição pendente de tarefa ou
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -26,27 +26,23 @@ Uma solicitação representa uma atribuição pendente de tarefa ou problema. As
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
    <p>Para atribuir ou trabalhar em uma solicitação:
-   <p>Novo: Claro ou superior</br>
-    ou</br>
-   Atual: revisão ou superior</p>
+   <p>Leve ou superior</p>
+  <p>Revisar ou superior</p>
    <p>Para reatribuir uma solicitação:
-   <p>Novo: Padrão</br>
-    ou</br>
-   Atual: trabalho ou superior</p></td>
+   <p>Standard</p>
+   <p>Trabalhar ou superior</p></td>
   </tr> 
  </tbody> 
 </table>

@@ -2,12 +2,12 @@
 content-type: overview
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Visão geral das iniciativas no Planejador de cenários
+title: Visão Geral das Iniciativas no Planejador de Cenários
 description: O Planejador de cenários está disponível somente na nova experiência do Adobe Workfront e requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte A visão geral do Planejador de cenários.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 0%
@@ -45,11 +45,6 @@ Considere o seguinte ao criar iniciativas:
 * É possível criar várias iniciativas em um plano. Com cada iniciativa, você pode destacar uma estratégia de alto nível para realizar o trabalho em seu departamento.
 * É possível priorizar iniciativas em um plano para garantir que a iniciativa mais importante receba o maior orçamento e os maiores recursos.
 * Quando você cria iniciativas em um plano, todos os usuários que visualizam esse plano também podem visualizar todas as iniciativas dentro do plano.
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change when we add to the access levels granularity)</p>
-  -->
-
 * É possível publicar iniciativas para criar projetos ou atualizar os projetos vinculados a eles. Para obter informações sobre como publicar iniciativas, consulte [Atualizar ou criar projetos publicando iniciativas em [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
 ## Informações financeiras sobre iniciativas

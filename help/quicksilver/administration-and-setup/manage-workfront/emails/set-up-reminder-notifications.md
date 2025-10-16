@@ -5,9 +5,9 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1209'
 ht-degree: 2%
 
 ---
@@ -35,21 +35,18 @@ An example of how this can be used would be helpful here and/or in the section <
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: Padrão </p>
- <p>ou</p> 
-<p>Atual: Plano</p> 
+   <td> <p>Standard </p>
+<p>Plano</p> 
 </td> 
   </tr> 
   <tr> 
@@ -59,13 +56,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Personalizar o email de lembrete
 
-Você pode personalizar o assunto, o corpo e o HTML no email de notificação de lembrete.
+Você pode personalizar o assunto, o corpo e a HTML no email de notificação de lembrete.
 
 Ou você pode usar o email padrão incluído na notificação de lembrete. O email padrão usa o nome da notificação de lembrete como o assunto do email e o nome do objeto no corpo do email, incluindo o evento que acionou a notificação.
 
@@ -119,7 +116,7 @@ Para obter informações sobre como criar um modelo de email, consulte [Configur
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Critério</td> 
+      <td role="rowheader">Critérios</td> 
       <td> <p>Selecione os critérios para qualificar a notificação de lembrete a ser agendada. Notificações de lembrete não são agendadas a menos que a seleção de critérios seja atendida.</p> <p>As opções de critérios a seguir estão disponíveis, dependendo do tipo de objeto selecionado na Etapa 4:</p> 
        <ul> 
         <li><strong>Incompleto nos Projetos Atuais:</strong> <i>(Disponível para lembretes de tarefas e problemas)</i> A notificação de lembrete está agendada para ser enviada somente quando o status do objeto ao qual a notificação de lembrete está associada não é Concluído e o status do projeto é Atual.</li> 

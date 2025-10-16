@@ -6,10 +6,10 @@ description: O cabeçalho do projeto inclui um botão que usa o Assistente do AI
 author: Becky
 feature: Get Started with Workfront
 exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
-source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
+source-git-commit: a24180f95c89c76605eaa735467a791102254645
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 1%
+source-wordcount: '356'
+ht-degree: 0%
 
 ---
 
@@ -27,35 +27,31 @@ Você pode usar o botão Resumo do projeto para gerar um resumo ou pode inserir 
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td><p>Novo: Qualquer um</p>
-       <p>ou</p>
-       <p>Atual: não disponível</p></td>
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p>
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
-       <p>ou</p>
-       <p>Atual: não disponível</p></td>
+   <td><p>Standard</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
-       <p>ou</p>
-       <p>Atual: não disponível</p></td>
+   <td role="rowheader">Permissões de objeto</td> 
+   <td><p>Você deve ter acesso de Visualização ao projeto</p>
   </tr> 
  </tbody> 
  </tbody> 
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 

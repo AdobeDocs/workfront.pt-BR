@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '247'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,6 @@ Você pode criar novas tarefas e problemas diretamente em Prioridades:
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,14 +29,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Pacote do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
    <td> 
-   <p>Atual: Solicitação ou superior para Solicitações; Revisão ou superior para ocorrências; Trabalho ou superior para tarefas</p>
-   <p>Novo: colaborador ou superior para solicitações; leve ou superior para problemas e documentos: tarefas padrão ou superiores</p> 
+   <p>Solicitação ou superior para Solicitações; Revisão ou superior para problemas; Trabalho ou superior para tarefas</p>
+   <p>Colaborador ou superior para solicitações; leve ou superior para problemas e documentos: tarefas padrão ou superiores</p> 
    </td> 
   </tr> 
   <tr> 

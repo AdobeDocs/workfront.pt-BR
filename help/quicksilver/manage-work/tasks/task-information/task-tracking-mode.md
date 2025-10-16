@@ -2,15 +2,15 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Visão geral do modo de rastreamento de tarefas
+title: Visão Geral do Modo de Rastreamento de Tarefas
 description: É possível ajustar a configuração do Modo de rastreamento de uma tarefa ao criar ou editar uma tarefa para controlar como e quando os indicadores de Status de progresso de uma tarefa são exibidos. O Adobe Workfront exibe sinalizadores de Status do Progresso quando você define determinadas configurações para rastrear o progresso em tarefas.
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ Para obter mais informações sobre o Status de Progresso das tarefas, consulte 
 
 Como proprietário de tarefa ou gerente de projeto, você pode selecionar como o Workfront indica o status do progresso em cada tarefa. Para obter informações sobre como definir o Modo de Acompanhamento em suas tarefas, consulte [Definir Modo de Acompanhamento para tarefas](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
 
-Você pode selecionar entre as seguintes opções:
+Você pode selecionar entre as opções a seguir:
 
 * [O Usuário Deve Atualizar](#user-must-update)
 * [Assumir Em Dia](#assume-on-time)

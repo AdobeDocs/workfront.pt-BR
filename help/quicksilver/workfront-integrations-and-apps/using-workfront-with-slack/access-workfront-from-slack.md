@@ -6,9 +6,9 @@ description: A integração [!DNL Adobe Workfront] com [!DNL Slack] permite aces
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1106'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,29 @@ ht-degree: 1%
 Integrar [!DNL Adobe Workfront] com [!DNL Slack] permite que você acesse [!DNL Workfront] de [!DNL Slack] ou execute determinadas ações em [!DNL Workfront] usando um comando de barra. A integração pode ser usada de qualquer ambiente [!DNL Slack], incluindo o aplicativo móvel [!DNL Slack].
 
 Você ou o administrador do [!DNL Slack] deve instalar o aplicativo [!DNL Workfront] na instância do [!DNL Slack] antes de usar o [!DNL Workfront] no [!DNL Slack]. Para obter mais informações, consulte [Configurar Adobe Workfront para Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+
+## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Qualquer</p>
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Sobre comandos de barra {#about-slash-commands}
 
@@ -33,11 +56,11 @@ Lembre-se do seguinte ao usar um comando de barra em [!DNL Slack] para acessar [
 
   Isso indica que seu comando se destina ao aplicativo [!DNL Workfront]. Os comandos para [!DNL Workfront] funcionam somente quando você já configurou o aplicativo [!DNL Workfront] com sua instância [!DNL Slack].
 
-Para obter uma lista de todos os comandos que você pode executar do Slack para [!DNL Workfront], consulte [Acesso [!DNL Workfront] de um comando de barra em [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack).
+Para obter uma lista de todos os comandos que você pode executar no Slack para [!DNL Workfront], consulte [Acesso [!DNL Workfront] de um comando de barra em [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack).
 
 ## Fazer logon em [!DNL Workfront] a partir de [!DNL Slack] {#log-in-to-workfront-from-slack}
 
-Ao digitar qualquer comando no campo de mensagem em Slack, você será solicitado a fazer logon em [!DNL Workfront] primeiro.\
+Ao digitar qualquer comando no campo de mensagem no Slack, você será solicitado a fazer logon no [!DNL Workfront] primeiro.\
 Para obter uma lista completa dos comandos [!DNL Workfront] de [!DNL Slack], consulte o [Acesso [!DNL Workfront] de um comando de barra na seção  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) deste artigo.
 
 Para fazer login em [!DNL Workfront] a partir de [!DNL Slack]:
@@ -151,7 +174,7 @@ Para fazer login em [!DNL Workfront] a partir de [!DNL Slack]:
       * Tarefa
       * Problema
       * Relatório
-      * Pessoas
+      * People
       * Modelo
       * Documento
       * Portfólio
@@ -181,7 +204,7 @@ Exibe uma lista completa de comandos para [!DNL Workfront].
    * `Visit Workfront Help`: Abre a seção [!UICONTROL Slack] no Site de Ajuda [!DNL Workfront] em uma nova guia do navegador.
 
 
-1. (Opcional) Para excluir a mensagem de qualquer comando, passe o mouse sobre o canto superior direito da mensagem Slack que contém o comando e clique em&#x200B;**[!UICONTROL Mostrar ações da mensagem]**, depois clique em **[!UICONTROL Excluir mensagem]**.
+1. (Opcional) Para excluir a mensagem de qualquer comando, passe o mouse sobre o canto superior direito da mensagem do Slack que contém o comando e clique em&#x200B;**[!UICONTROL Mostrar ações da mensagem]** e em **[!UICONTROL Excluir mensagem]**.
 
 1. (Opcional e condicional) Clique em **[!UICONTROL Excluir]** para confirmar que deseja excluir esta mensagem.
 
@@ -191,7 +214,7 @@ Você pode acessar [!DNL Workfront] objetos de um link para esses objetos que é
 
 Para obter mais informações sobre como acessar [!DNL Workfront] de um link compartilhado, consulte [Acessar [!DNL Adobe Workfront] objetos de um link compartilhado em [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md).
 
-## Definir configurações {#configure-settings}
+## Ajustar configurações {#configure-settings}
 
 1. Dentro de um campo de mensagem [!DNL Slack], digite o seguinte comando:
 
@@ -205,7 +228,7 @@ Para obter mais informações sobre como acessar [!DNL Workfront] de um link com
 
 1. Desmarque entre as seguintes opções para desativar as configurações do Workfront:
 
-   * Na área **[!UICONTROL Configurações Gerais]**, desabilite a configuração **[!UICONTROL Ao colar a URL [!DNL Workfront] em um canal [!DNL Slack], mostre descrição adicional, data de vencimento ou nome do solicitante]**&#x200B;se você não quiser que [!DNL Slack] adicione mais informações sobre os objetos [!DNL Workfront] quando compartilhar uma URL com o objeto em [!UICONTROL Slack].
+   * Na área **[!UICONTROL Configurações Gerais]**, desabilite a configuração **[!UICONTROL Ao colar a URL [!DNL Workfront] em um canal [!DNL Slack], mostre descrição adicional, data de vencimento ou nome do solicitante]**&#x200B;se não quiser que [!DNL Slack] adicione mais informações sobre seus objetos [!DNL Workfront] quando você compartilhar uma URL com o objeto no [!UICONTROL Slack].
 
    * Na área **[!UICONTROL Configurações de notificações]**, desabilite as notificações que você deseja parar de receber do Workfront.\
 

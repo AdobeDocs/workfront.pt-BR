@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 416be55e172e2e2f0a1d8b593fdcb27d123e2fcb
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 3%
+source-wordcount: '514'
+ht-degree: 13%
 
 ---
 
@@ -39,187 +39,187 @@ Esta tabela lista as atividades de administração disponíveis para:
  <tbody>
   <tr> 
    <td>Redefinir senha de um usuário</td> 
-   <td>✓ µ </td> 
-   <td>✓ µ </td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td>Criar e editar perfis de usuário</td> 
-   <td>✓ µ</td> 
-   <td>✓ µ*</td> 
-   <td>✓ µ*</td> 
+   <td>✓</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar subgrupos</td>
-   <td>✓ µ </td> 
-   <td>✓ ➡***</td> 
-   <td>✓ ➡***</td> 
+   <td>✓ </td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
    <td>Configurar preferências de projeto, tarefa e problema no nível do sistema</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Ativar e desativar preferências de projetos, tarefas e problemas para grupos e subgrupos</td> 
-   <td>✓ ➡***</td> 
-   <td>✓ ➡***</td> 
-   <td>✓ ➡***</td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
    <td>Configurar preferências de horas e planilha de horas no nível do sistema</td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Ativar e desativar preferências de horas e planilhas de horas para grupos e subgrupos </td> 
-   <td>✓ ➡***</td> 
-   <td>✓ ➡***</td> 
-   <td>✓ ➡***</td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
    <td>Configurar emails de notificação de eventos no nível do sistema</td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Ativar e desativar emails de notificação de eventos para grupos e subgrupos</td> 
-   <td>✓ ➡*** </td> 
-   <td>✓ ➡***</td> 
+   <td>✓*** </td> 
+   <td>✓***</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar formulários personalizados</td> 
-   <td>✓ µ </td> 
-   <td>✓ ➡**</td> 
-   <td>✓ ➡**</td> 
+   <td>✓ </td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar modelos de layout</td> 
-   <td>✓ µ </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓ </td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar processos de aprovação para um grupo</td> 
-   <td>✓ ➡*** </td> 
-   <td>✓ ➡***</td> 
-   <td>✓ ➡***</td> 
+   <td>✓*** </td> 
+   <td>✓***</td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar equipes</td> 
-   <td>✓ µ </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓ </td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar taxas de câmbio</td> 
-   <td>✓ µ </td> 
-   <td>✓ ➡**</td> 
-   <td>✓ ➡**</td> 
+   <td>✓ </td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar tipos de horas</td> 
-   <td>✓ µ </td> 
-   <td>✓ ➡**</td> 
-   <td>✓ ➡**</td> 
+   <td>✓ </td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar caminhos de etapas</td> 
-   <td>✓ µ </td> 
-   <td>✓ ➡**</td> 
-   <td>✓ ➡**</td> 
+   <td>✓ </td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar cronogramas</td> 
-   <td>✓ µ </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓ </td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar empresas</td> 
-   <td>✓ µ </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓ </td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar perfis de planilha de horas</td> 
-   <td>✓ µ </td> 
-   <td>✓ µ</td> 
-   <td>✓ µ</td> 
+   <td>✓ </td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Criar planilhas de horas de uso único</td> 
-   <td>✓ µ</td> 
-   <td>✓ ➡**</td> 
-   <td>✓ ➡**</td> 
+   <td>✓</td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar funções de trabalho</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar prioridades, severidades, condições</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar tipos de riscos</td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Criar e gerenciar status</td> 
-   <td>✓ µ </td> 
-   <td>✓ µ </td> 
-   <td>✓ µ</td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Fazer logon como outra pessoa</td> 
-   <td>✓ µ </td> 
-   <td>✓ µ </td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td>Exibir e restaurar itens excluídos</td> 
-   <td>✓ µ </td> 
-   <td>✓ µ </td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td>Exibir e gerenciar itens restaurados</td> 
-   <td>✓ µ </td> 
-   <td>✓ µ </td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td>Exibir a alocação de licença atual</td> 
-   <td>✓ µ </td> 
-   <td>✓ µ </td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td>Atribuir número máximo de licenças</td> 
-   <td>✓ ➡*** </td> 
+   <td>✓*** </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Exibir logs de auditoria</td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Importar e exportar dados usando o Kickstart</td> 
-   <td>✓ µ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -230,7 +230,14 @@ Esta tabela lista as atividades de administração disponíveis para:
 
 &#42;&#42; No nível de acesso do administrador de grupo, o acesso a esta ação deve ser habilitado. Para obter mais informações, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; As atividades a seguir fazem parte dos Controles Avançados de Empresa e não estão disponíveis para o plano Select. Somente as organizações que compraram os planos do Prime ou do Ultimate podem acessar esses recursos.  Consulte a [página de preços e pacotes do Adobe Workfront](https://business.adobe.com/br/products/workfront/pricing.html) para obter mais informações sobre planos. (Para organizações que usam os planos herdados, a tabela acima mostra as atividades para administradores de grupos e subgrupos.)
+&#42;&#42;&#42; Esses pacotes incluem os recursos de Controles Avançados de Empresa listados abaixo:
+
+* Fluxo de trabalho Prime e superior
+* Workfront Prime e superior
+
+Consulte a [página de preços e pacotes do Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) para obter mais informações sobre pacotes.
+
+Advanced Enterprise Controls:
 
 * Configurar as preferências de projeto, tarefa e problema no nível do grupo
 * Configurar preferências de horas e planilha de horas no nível do grupo

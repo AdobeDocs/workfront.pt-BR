@@ -6,9 +6,9 @@ description: Você pode adicionar um cartão ao seu quadro conectado a tarefas e
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f8feca57e039e34c320f2b967c58c5fc0862f665
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
@@ -40,21 +40,18 @@ Para sincronizar cartões conectados com o Workfront, clique no menu **[!UICONTR
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td>
-   <p>Novo: Colaborador ou superior</p>
-   <p>Ou</p>
-   <p>Atual: solicitação ou superior</p>
- </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> 
+   <p>Colaborador ou superior</p> 
+   <p>Solicitação ou superior</p>
+   </td> 
   </tr> 
   <tr>
    <td role="rowheader">Configurações de nível de acesso</td>
@@ -63,7 +60,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr>
    <td role="rowheader">Permissões de objeto</td>
    <td><p>Visualize ou aumente as permissões para a tarefa ou problema do Workfront</p>
-   <p><strong>Observação:</strong> usuários com permissões de Exibição para uma tarefa ou problema não podem executar nenhuma ação em cartões conectados a ela, incluindo mover o cartão para outra coluna no quadro. Os usuários da exibição só podem abrir o cartão para ver suas propriedades e abrir a tarefa ou problema conectado. Para solicitar acesso adicional, abra a tarefa ou problema e solicite acesso lá.</td>
+</td>
   </tr>
  </tbody> 
 </table>

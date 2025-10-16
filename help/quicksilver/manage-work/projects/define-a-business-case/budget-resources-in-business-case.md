@@ -2,10 +2,10 @@
 navigation-topic: business-case-and-scorecards
 title: Recursos de orçamento no Business Case
 description: Como parte do planejamento de recursos, você pode estimar as funções de trabalho necessárias para concluir o trabalho em um projeto ao criar o business case. Para obter mais informações sobre como criar um Business Case, consulte Criar um Business Case para um projeto .
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%

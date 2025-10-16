@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Visão geral de "Pode iniciar" para tarefas"
+title: Visão geral de "Pode iniciar" para tarefas
 description: Quando uma tarefa está pronta para ser iniciada, o Adobe Workfront adiciona um indicador Pode iniciar à tarefa para identificar facilmente que é seguro começar a trabalhar nela. Você pode exibir esse indicador na exibição de uma lista de tarefas ou relatório.
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%

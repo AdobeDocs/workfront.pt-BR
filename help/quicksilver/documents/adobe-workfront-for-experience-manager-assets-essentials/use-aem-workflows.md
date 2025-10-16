@@ -6,9 +6,9 @@ description: Usar fluxos de trabalho na integração do Experience Manager Asset
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -21,51 +21,47 @@ Quando um Projeto é criado usando um Modelo de projeto ao qual um fluxo de trab
 
 >[!NOTE]
 >
->Os fluxos de trabalho estão disponíveis somente em uma integração com o Adobe Experience Manager as a Cloud Service. Eles não estão disponíveis em integrações com o Adobe Experience Manager Assets Essentials.
+>Os fluxos de trabalho estão disponíveis somente em uma integração com o Adobe Experience Manager as a Cloud Service. Não estão disponíveis em integrações com o Adobe Experience Manager Assets Essentials.
 
 
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte:
-
-<table>
-  <tr>
-   <td><strong>Plano Adobe Workfront*</strong>
-   </td>
-   <td>Qualquer
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Licenças do Adobe Workfront*</strong>
-   </td>
-   <td>Solicitação ou superior
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Produto</strong>
-   </td>
-   <td><p>Você deve ter o Experience Manager Assets as a Cloud Service ou Assets Essentials e ser adicionado ao produto como usuário no Admin Console.</p><p>Você deve ter acesso de gravação ao repositório no Adobe Experience Manager.</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Configurações de nível de acesso*</strong>
-   </td>
-   <td>Editar acesso a documentos
-<p>
-<strong>Observação: </strong>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <strong>Criar ou modificar níveis de acesso personalizados</strong>.
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Permissões de objeto</strong>
-   </td>
-   <td>Gerenciar acesso ou superior no projeto 
-<p>
-Para obter informações sobre como solicitar acesso adicional, consulte <strong>Solicitar acesso aos objetos </strong>.
-   </td>
-  </tr>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p> Qualquer</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenças do Adobe Workfront</td> 
+   <td> 
+   <p>Colaborador ou superior</p> 
+   <p>Solicitação ou superior</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Produtos adicionais</td> 
+   <td>Você deve ter o Experience Manager as a Cloud Service ou o Assets Essentials e deve ser adicionado ao produto como usuário na Admin Console.</td> 
+  </tr> 
+   <tr> 
+    <td role="rowheader">Permissões do Experience Manager</td> 
+    <td>Você deve ter acesso de gravação à pasta.</td> 
+   </tr>
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a documentos</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td> <p>Exibir acesso ou superior</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
+
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +69,7 @@ Para obter informações sobre como solicitar acesso adicional, consulte <strong
 
 Antes de começar,
 
-* O administrador do Workfront deve configurar os workflows em uma integração com o Adobe Experience Manager. Para obter mais informações, consulte [Configurar a integração as a Cloud Service do Experience Manager Assets](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* O administrador do Workfront deve configurar os workflows em uma integração com o Adobe Experience Manager. Para obter mais informações, consulte [Configurar a integração do Experience Manager Assets as a Cloud Service](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
 
 ## Adicionar um fluxo de trabalho a um modelo
 
@@ -154,7 +150,7 @@ Para editar o fluxo de trabalho de pastas vinculadas:
 
 1. Ative ou desative a **[!UICONTROL Criar pasta vinculada]** conforme desejado. Se você ativá-lo, poderá editar a configuração da pasta vinculada.
 
-   Para obter detalhes sobre a configuração da pasta vinculada, consulte [Criar pastas vinculadas do Adobe Experience Manager](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) no artigo [Configurar a integração [!UICONTROL as a Cloud Service] do Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+   Para obter detalhes sobre a configuração da pasta vinculada, consulte [Criar pastas vinculadas do Adobe Experience Manager](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) no artigo [Configurar a integração do [!UICONTROL Experience Manager Assets as a Cloud Service]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 1. (Opcional) Se quiser que a árvore de pastas seja criada somente se determinados valores estiverem presentes em um formulário personalizado anexado ao projeto, clique em **Aplicar filtro** para essa árvore de pastas e selecione o formulário personalizado que contém o campo, o campo e o valor do campo. Se o campo no formulário personalizado anexado ao novo projeto contiver o valor escolhido, a árvore de pastas será criada.
 1. (Opcional) Ao configurar nomes de pastas, você pode selecionar entre as seguintes opções:
@@ -176,6 +172,6 @@ Para editar o fluxo de trabalho de pastas vinculadas:
 
 Para editar o fluxo de trabalho de publicação de ativos:
 
-1. Ative ou desative o **Publish assets automaticamente**, conforme desejado.
+1. Ative ou desative o **Publicar ativos automaticamente**, conforme desejado.
 1. (Condicional) Se você estiver ativando a publicação, selecione se deseja publicar no serviço de publicação, no portal de marcas ou em ambos.
 1. Clique em **[!UICONTROL Salvar]**.

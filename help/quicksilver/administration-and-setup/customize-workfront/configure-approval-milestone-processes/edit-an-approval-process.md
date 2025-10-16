@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 1%
+source-wordcount: '1994'
+ht-degree: 2%
 
 ---
 
 # Editar um processo de aprovação
+
+<!--Audited: 08/2025-->
 
 Se você for um administrador do Adobe Workfront ou tiver acesso administrativo a processos de aprovação, poderá visualizar e editar todos os processos de aprovação no sistema.
 
@@ -37,30 +39,60 @@ Para obter informações sobre como criar processos de aprovação, consulte [Cr
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacote do Adobe Workfront*</td> 
+   <td><p>Para o processo de aprovação de nível de sistema ou de uso único:</p><ul><li><p>Qualquer pacote</p></li></ul>
+   <p>Para o processo de aprovação em nível de grupo:</p>
+   <ul><li><p>Fluxo de trabalho Prime ou Ultimate</p></li>
+   <li><p>Workfront Prime ou Ultimate</p></li></ul>
+   </td>
+
+</tr> 
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Standard</p>
+ <p>Plano</p> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Se você for um administrador do sistema ou tiver acesso administrativo aos processos de Aprovação, poderá criar um processo de aprovação no nível do sistema ou um processo de aprovação no nível do grupo para um grupo específico.</p> 
+   <p>Se você for um administrador de grupo e tiver acesso administrativo aos processos de Aprovação, poderá criar processos de aprovação de nível de grupo para grupos gerenciados.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--
+
+I made the above match what we had for Create approval process - seemed more complete; 
+For this article, the old access was: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td>Qualquer</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td>Plano</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso administrativo a Processos de Aprovação se você não for um Administrador do Sistema</p> <p><b>OBSERVAÇÃO</b>: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to Approval Processes if you are not a System Administrator</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
-
-+++
+</table>-->
 
 ## Editar um processo de aprovação existente
 
@@ -90,7 +122,9 @@ Você deve ter o seguinte:
     <tbody> 
      <tr> 
       <td role="rowheader">Nome do processo de aprovação</td> 
-      <td>Digite um nome descritivo para o processo de aprovação. Os usuários veem esse nome ao aplicar o processo de aprovação a um objeto, conforme descrito em <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associar um processo de aprovação novo ou existente ao trabalho</a>.</td> 
+      <td><p>Digite um nome descritivo para o processo de aprovação. Os usuários veem esse nome ao aplicar o processo de aprovação a um objeto, conforme descrito em <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associar um processo de aprovação novo ou existente ao trabalho</a>.</p>
+      <p>Este campo é obrigatório.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descrição</td> 
@@ -106,7 +140,9 @@ Você deve ter o seguinte:
        <ul> 
         <li>Se você for um administrador do sistema ou tiver acesso administrativo a processos de aprovação, poderá ver qualquer grupo no sistema ao digitar seu nome. <b>Todos os grupos</b> está selecionado por padrão. </li> 
         <li>Se você for um administrador de grupo sem acesso administrativo a processos de aprovação, poderá atribuir o processo de aprovação a qualquer grupo gerenciado ao digitar seu nome. A opção <b>Todos os Grupos</b> não está disponível.</li> 
-       </ul> <p>Esta opção não está disponível para processos de aprovação de uso único.</p> <p><b>AVISO</b>: quando você faz alterações ao processo de aprovação específico do grupo, os processos de aprovação existentes que já foram associados a itens de trabalho podem mudar. Para obter informações sobre essas alterações, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Como as alterações no grupo e no processo de aprovação afetam os processos de aprovação atribuídos</a>.</p> <p>Para obter informações sobre como listar e gerenciar os processos de aprovação do seu grupo na página do seu grupo, consulte <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processos de aprovação de nível de grupo</a>. </p> <p>Para obter informações sobre acesso administrativo a processos de aprovação, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> </td> 
+       </ul> 
+       <p>Este campo é obrigatório.</p>
+       <p>Esta opção não está disponível para processos de aprovação de uso único.</p> <p><b>AVISO</b>: quando você faz alterações ao processo de aprovação específico do grupo, os processos de aprovação existentes que já foram associados a itens de trabalho podem mudar. Para obter informações sobre essas alterações, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Como as alterações no grupo e no processo de aprovação afetam os processos de aprovação atribuídos</a>.</p> <p>Para obter informações sobre como listar e gerenciar os processos de aprovação do seu grupo na página do seu grupo, consulte <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processos de aprovação de nível de grupo</a>. </p> <p>Para obter informações sobre acesso administrativo a processos de aprovação, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -121,7 +157,9 @@ Você deve ter o seguinte:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Iniciar o processo de aprovação quando o status estiver configurado como</p> </td> 
-      <td> <p>Selecione o status que acionará o processo de aprovação em itens de trabalho. Quando alguém atualiza um item de trabalho para esse status, seu processo de aprovação é iniciado. </p> <p>O mesmo status não pode ser selecionado para vários caminhos de processo de aprovação.</p> <p>Os status disponíveis baseiam-se no que está selecionado na opção <b>Esta aprovação pode ser usada por</b> (explicado na tabela acima):</p> 
+      <td> <p>Selecione o status que acionará o processo de aprovação em itens de trabalho. Quando alguém atualiza um item de trabalho para esse status, seu processo de aprovação é iniciado. </p> 
+      <p>Este campo é obrigatório.</p>
+      <p>O mesmo status não pode ser selecionado para vários caminhos de processo de aprovação.</p> <p>Os status disponíveis baseiam-se no que está selecionado na opção <b>Esta aprovação pode ser usada por</b> (explicado na tabela acima):</p> 
       <ul> 
       <li> Se <b>Todos os grupos</b> estiver selecionado, somente os status bloqueados do sistema estarão disponíveis. <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
@@ -136,16 +174,18 @@ Você deve ter o seguinte:
       <td role="rowheader">Aprovadores</td> 
       <td> <p>Comece digitando o nome do usuário, da equipe ou da função de trabalho que deseja designar como aprovador para esse estágio e clique no nome quando ele aparecer na lista suspensa. Você pode adicionar somente usuários, funções de trabalho e equipes ativos. </p>
 
-   <p><b>DICA</b>:</p>
+   <p>Este campo é obrigatório.</p>
+
+   <p><b>DICA</b></p>
 
    <p>Ao adicionar um usuário como aprovador, observe o avatar, a função principal do usuário ou o endereço de email dele para distinguir entre usuários com nomes idênticos. Os usuários devem ser associados a pelo menos uma função de trabalho para visualizá-la à medida que forem adicionados.</p>
       <p>Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Conceder acesso aos usuários</a></p>.
 
-   <p><b>NOTA</b>:
+   <p><b>Nota</b>
 
    Adicionar um usuário, equipe ou função como aprovador não lhes dá permissões automaticamente para o objeto associado a essa aprovação. Eles recebem permissões para o objeto quando a etapa de aprovação é acionada. Caso contrário, os objetos devem ser compartilhados com eles antes que possam tomar uma decisão de aprovação. </p>
    <p>Você também pode designar um indivíduo como um aprovador especificando a função do indivíduo. Por exemplo, você pode atribuir um Proprietário do projeto, Patrocinador do projeto, Proprietário do Portfolio, Proprietário do programa ou Gerente como aprovador. Essas opções são exibidas automaticamente quando você começa a digitar.</p> 
-      <p><b>IMPORTANTE</b>:  
+      <p><b>IMPORTANTE</b>
       <ul> 
       <li> Quando você atribui uma aprovação ao Patrocinador do Projeto e ninguém é designado como patrocinador de um projeto, a aprovação é reatribuída ao Proprietário do Projeto. Se ninguém for designado como o proprietário do projeto, a aprovação será atribuída ao administrador do Workfront. </li> 
       <li> Quando você atribui uma aprovação a uma função e a opção <b>Aprovador que não precisa estar na equipe do projeto</b> está desabilitada, mas nenhuma função na equipe do projeto corresponde à função na aprovação, a aprovação é reatribuída ao Proprietário do projeto. Para obter informações sobre configurações de aprovação, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Definir configurações de aprovação globais</a>.

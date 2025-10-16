@@ -6,9 +6,9 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '3234'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -70,8 +70,6 @@ Para obter informações adicionais sobre comentários em cartões, metas e regi
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -79,15 +77,21 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Pacote do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> 
-   <p>Novo: Colaborador ou superior para problemas e documentos: Claro ou superior para todos os outros objetos</p>
-   <p>Atual: solicitação ou superior para ocorrências e documentos; Revisão ou superior para todos os outros objetos</p>
-   </td> 
+   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
+   <td> <p>Para problemas e documentos:</p>
+
+<ul><li><p>Colaborador ou superior</p></li>
+   <li><p>Solicitação ou superior</p></li></ul>
+
+<p>Para todos os outros objetos:</p>
+   <ul><li><p>Leve ou superior</p></li>
+   <li><p>Revisar ou superior</p></li></ul>
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
@@ -100,9 +104,39 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>New: Contributor or higher for issues and documents: Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>View access to the object</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 ## Considerações sobre comentários em objetos
 
@@ -329,7 +363,7 @@ Você pode aprimorar seus comentários usando Rich Text ou adicionando vários i
 
    | **Atributo** | **Botão da barra de ferramentas** | **Teclas de atalho do Mac** | **Teclas de atalho do Windows** |
    |---|---|---|---|
-   | Negrito | ![Ícone de Negrito](assets/mceclip10.png) | ⌘+b | Ctrl+O |
+   | Negrito | ![Ícone de Negrito](assets/mceclip10.png) | ⌘b | Ctrl+O |
    | Itálico | ![Ícone de Itálico](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | Sublinhar | ![Ícone de sublinhado](assets/mceclip8.png) | ⌘+u | Ctrl+S |
    | Hiperlink | ![Ícone de hiperlink](assets/mceclip7.png) | <br>Para abrir a caixa Adicionar links: ⌘+K</br> <br>Para colar um link sobre o texto selecionado: ⌘+V</br> | <br>Para abrir a caixa Adicionar links: Ctrl+K</br> <br>Para colar um link sobre o texto selecionado: Ctrl+V</br> |
@@ -406,7 +440,7 @@ Você pode aprimorar seus comentários usando Rich Text ou adicionando vários i
    >* O tamanho máximo do arquivo de imagem é 7 MB. Os tipos de arquivo de imagem compatíveis são .jpg, .gif e .png.
    >* As imagens podem ser acessadas na seção Atualizações em um objeto e também estão disponíveis na área Documentos do Menu principal.
    >Você pode copiar uma captura de tela do computador usando uma combinação de teclado ou, por exemplo, a função Print Screen (em computadores com Windows).
-   >* Para colar a imagem, clique com o botão direito do mouse no novo comentário e clique em **Colar** ou pressione CTRL + V para Windows (ou ⌘ + V para Mac) no teclado.
+   >* Você pode colar a imagem clicando com o botão direito do mouse no novo comentário e clicando em **Colar** ou pressionando CTRL + V para Windows (ou ⌘ + V para Mac) no teclado.
    >* É possível enviar uma atualização com uma imagem e nenhum texto.
    >* Quando você exclui um comentário que contém uma imagem, ela é removida da seção Atualizações, bem como da área Documentos. A imagem também é excluída da área Documentos ao editar um comentário e excluir a imagem.
    >* Quando alguém exclui uma imagem anexada a um comentário da área Documentos, ela também é removida do comentário.

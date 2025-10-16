@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Aprovar uma Planilha de Horas
 description: O processo de aprovação de planilhas de horas fornece aos gerentes visibilidade sobre as horas de trabalho de seus subordinados diretos. Os aprovadores podem verificar se todo o tempo registrado foi alocado nas áreas corretas e se um número suficiente de horas foi registrado para o período.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -27,33 +27,28 @@ Para obter informações sobre o envio de uma planilha de horas, consulte [Envia
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- </col> 
- <col> 
- </col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront</p></td> 
-   <td> <p>Qualquer</p> </td> 
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td> 
-   <td> <p>Novo: Padrão</p>
-   <p>Atual: Plano </p> 
-   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso administrativo a planilhas de horas e horas </p> </td> 
-  </tr>
-
-</td> 
+   <td>Licença do Adobe Workfront</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plano</p></td>
+  </tr> 
+  <tr> 
+   <td>Configurações de nível de acesso</td> 
+   <td><p>Acesso administrativo a planilhas de horas e horas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -98,7 +93,7 @@ A área **Folhas de horas** é aberta.
    >   
    >
 
-1. (Opcional) Clique no ícone ![](assets/search-icon.png) da **pesquisa** na parte superior da lista de folhas de horas e digite uma palavra-chave para localizar uma folha de horas específica. Você pode pesquisar um intervalo de tempo ou o nome de um proprietário ou aprovador.
+1. (Opcional) Clique no ícone **da** pesquisa![](assets/search-icon.png) na parte superior da lista de folhas de horas e digite uma palavra-chave para localizar uma folha de horas específica. Você pode pesquisar um intervalo de tempo ou o nome de um proprietário ou aprovador.
 1. Clique no intervalo de tempo da folha de horas que você deseja aprovar. A folha de horas é aberta.
 
    >[!TIP]

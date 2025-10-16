@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1841'
 ht-degree: 0%
 
 ---
@@ -23,26 +23,23 @@ Você pode configurar detalhes de um blueprint antes de instalá-lo. Os tipos de
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Novo: Padrão</p>
-   <p>ou</p>
-   <p>Atual: Plano</p></td> 
+   <p>Standard</p>
+   <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td>Você deve ser um administrador [!DNL Workfront]. </td> 
+   <td>administrador do Workfront </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +82,7 @@ Escolha como deseja instalar o modelo.
 
 Você também pode designar a propriedade do modelo antes de instalar o blueprint. Você pode fazer alterações nesses campos após a instalação do template. Para obter mais informações, consulte [Editar modelos de projeto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-![[[!UICONTROL Seção &#x200B;]](assets/Blueprints_TemplatePreferences.png) das ] Preferências de modelo
+![[!UICONTROL Seção ] das ](assets/Blueprints_TemplatePreferences.png) Preferências de modelo
 
 1. Na seção [!UICONTROL Preferências de Modelo], especifique um novo nome de modelo.
 1. Especifique o seguinte:
@@ -157,7 +154,7 @@ Alguns modelos incluem funções de trabalho prescritas. As funções de trabalh
 
 O blueprint pesquisa pelo nome da função para ver se alguma função existente corresponde. A pesquisa diferencia maiúsculas de minúsculas, portanto, os nomes devem ser uma correspondência exata. Se nenhuma função existente for correspondente, você pode fazer com que o blueprint as crie para você.
 
-![[[!UICONTROL seção &#x200B;]](assets/Blueprints_RoleMapping.png) de Mapeamento de Funções]
+![[!UICONTROL seção ] de Mapeamento de Funções](assets/Blueprints_RoleMapping.png)
 
 1. Se existir uma função, você pode escolher uma das seguintes opções:
 

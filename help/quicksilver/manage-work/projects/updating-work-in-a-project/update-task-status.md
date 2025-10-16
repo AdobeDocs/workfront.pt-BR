@@ -6,9 +6,9 @@ description: Você pode atualizar o status de uma tarefa para informar a outras 
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
@@ -25,21 +25,20 @@ Você pode atualizar manualmente os status das tarefas ou permitir que o Workfro
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: Padrão</p> 
-   Ou
-   <p>Atual: trabalho ou superior</p>
+   <td> <p>Standard</p> 
+   <p>Trabalhar ou superior</p>
    </td> 
   </tr> 
   <tr> 
@@ -53,9 +52,37 @@ Você pode atualizar manualmente os status das tarefas ou permitir que o Workfro
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard</p> 
+   Or
+   <p>Current: Work or higher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the task</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Considerações sobre a atualização do Status das tarefas
 
@@ -147,7 +174,7 @@ O Workfront atualiza automaticamente o status existente de uma tarefa para um st
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Clique no botão Iniciar Tarefa para aceitar trabalhar em uma tarefa atribuída a você</span> </td> 
-   <td><span>Novo</span> </td> 
+   <td><span>Novo menu</span> </td> 
    <td> <p>Qualquer status associado ao botão Iniciar Tarefa nas configurações da Equipe Doméstica.</p> <p>Para obter informações sobre como substituir o botão Trabalhar na tarefa pelo botão Iniciar tarefa, consulte <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substituir o botão Trabalhar na tarefa por um botão Iniciar</a></span>.</p> <p>Dica: <span>Clicar</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">no botão Desfazer</span> depois de clicar em Iniciar Tarefa reverte o status para Novo. </p> </td> 
   </tr> 
  </tbody> 

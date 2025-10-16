@@ -6,9 +6,9 @@ description: Você pode usar a extensão Workfront para exportar conteúdo digit
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
 workflow-type: tm+mt
-source-wordcount: '3107'
+source-wordcount: '3069'
 ht-degree: 0%
 
 ---
@@ -37,26 +37,24 @@ A extensão do Workfront é compatível com o Adobe Creative Cloud 2017 e mais r
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Atual: Pro ou superior</p>
-   Ou
-   <p>Novo: Qualquer plano</p> </td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer</p>
+ </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Atual: trabalho ou superior</p>
-   Ou
-   <p>Novo: Padrão</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> 
+      <p>Standard</p> 
+   <p>Trabalhar ou superior</p>
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Produto</td> 
+   <td role="rowheader">Produtos adicionais</td> 
    <td>Você deve ter uma licença do Adobe Creative Cloud além de uma licença do Workfront.</td> 
   </tr> 
   <tr> 
@@ -66,7 +64,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -233,7 +231,7 @@ Você pode adicionar comentários diretamente a um documento do Workfront em um 
 
 1. (Opcional) Para incluir outros usuários ou equipes do Workfront no comentário, comece digitando o nome de um usuário ou equipe na caixa **Notificar pessoas ou equipes** e, em seguida, clique no nome quando ele aparecer na lista suspensa.
 1. (Opcional) Para solicitar aprovação no documento, selecione **Fazer uma solicitação de aprovação**.
-1. Clique em **Atualizar**.
+1. Clique **Atualizar**.
 
    Uma atualização é postada na guia Atualizações do documento. Os usuários do Workfront incluídos no comentário recebem uma notificação no aplicativo e, dependendo de como o Workfront é configurado, também podem receber uma notificação por email.
 

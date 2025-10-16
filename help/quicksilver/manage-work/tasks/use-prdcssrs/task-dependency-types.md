@@ -2,12 +2,12 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: use-predecessors
-title: Visão geral dos tipos de dependência de tarefa
+title: Visão Geral dos Tipos de Dependência de Tarefa
 description: Os Tipos de Dependências referem-se aos relacionamentos de predecessores entre tarefas. Eles definem quando a tarefa dependente pode iniciar ou terminar com base no início ou término de seu antecessor.
 author: Alina
 feature: Work Management
 exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%

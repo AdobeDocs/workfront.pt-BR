@@ -2,14 +2,14 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
-title: O status do projeto não será alterado de Concluído para Atual
-description: (Embora isso possa ser adicionado como uma Pergunta frequente, deixei esse como seu próprio artigo por motivos de pesquisa)
+title: O status do projeto não será alterado de concluído para atual
+description: Este artigo descreve um cenário em que não é possível atualizar o Status do projeto de Concluído para Atual.
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---

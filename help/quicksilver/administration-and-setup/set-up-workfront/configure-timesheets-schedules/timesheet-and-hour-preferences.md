@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: e8c89b68a022ae1c0cf5da20257cd8bc36e94d4c
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -44,24 +44,22 @@ Quaisquer alterações feitas nas folhas de horas afetam todas as folhas de hora
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
-   <td>Qualquer</td> 
+   <td>[!DNL Adobe Workfront] pacote</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td><p>Atual:[!UICONTROL Plano]</p>
-   Ou
-   <p>Novo: Padrão</p>
-   </td> 
+   <td>[!DNL Adobe Workfront] licença</td> 
+   <td><p>[!UICONTROL Padrão]</p>
+       <p>[!UICONTROL Plano]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td>[!UICONTROL Administrador do Sistema]</td>
-</tr> 
+   <td>Configurações de nível de acesso</td> 
+   <td>[!UICONTROL Administrador do Sistema]</td> 
+  </tr> 
  </tbody> 
 </table>
 
-Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

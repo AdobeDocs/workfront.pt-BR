@@ -2,18 +2,22 @@
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
 title: Nivelar Recursos no [!UICONTROL Gráfico de Gantt]
-description: Informações sobre como nivelar recursos no Gráfico de Gantt.
+description: Se o mesmo recurso for atribuído a duas tarefas diferentes, você poderá usar o nivelamento de recursos para ajustar a linha do tempo das tarefas para que elas não ocorram ao mesmo tempo. Este artigo fornece informações sobre como nivelar recursos no Gráfico de Gantt.
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
 # Nivelar Recursos no [!UICONTROL Gráfico de Gantt]
+
+<!--Audited: 08/2025-->
+
+Você pode usar o nivelamento de recursos para ajustar a linha do tempo das tarefas para que elas não ocorram ao mesmo tempo, caso os mesmos recursos sejam atribuídos a várias tarefas ao mesmo tempo.
 
 O nivelamento de recursos em um projeto tem duas finalidades:
 
@@ -22,34 +26,62 @@ O nivelamento de recursos em um projeto tem duas finalidades:
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
-   <td> <p>Qualquer </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] pacote</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Plano] </p> </td> 
+   <td role="rowheader">[!DNL Workfront] licença</td> 
+   <td> <p>[!UICONTROL Padrão]</p>
+   <p>[!UICONTROL Plano]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>[!UICONTROL Editar] acesso a Projetos</p> <p><b>Nota</b>
-
-Se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td>
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>[!UICONTROL Editar] acesso a Projetos</p></td>
 </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Acesso de [!UICONTROL Manage] ao projeto</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Acesso de [!UICONTROL Manage] ao projeto</p>
+</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects</p> <p><b>NOTE</b>
+
+If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table> -->
 
 ## Visão Geral do Nivelamento de Recursos
 
@@ -75,7 +107,7 @@ Você pode usar o [!UICONTROL Gráfico de Gantt] da Lista de Tarefas para nivela
 1. Vá para o projeto que deseja nivelar.
 1. Na área **[!UICONTROL Tarefas]**, clique no ícone do **[!UICONTROL Gráfico de Gantt]**.
 
-   Todas as alterações são salvas automaticamente quando a opção **[!UICONTROL Salvar automaticamente]** está habilitada. Ela é ativada por padrão.
+   Todas as alterações são salvas automaticamente quando a opção **[!UICONTROL Salvar automaticamente]** está habilitada. Esta opção está habilitada por padrão.
 
 1. (Opcional) Clique no ícone do **[!UICONTROL Modo de plano]** e selecione **[!UICONTROL Salvar manualmente o padrão]** ou **[!UICONTROL Planejamento de linha do tempo]** para salvar as alterações manualmente.
 
@@ -98,7 +130,7 @@ Você pode usar o [!UICONTROL Gráfico de Gantt] da Lista de Tarefas para nivela
    >
    >Seus recursos podem estar superalocados se forem atribuídos a várias tarefas que ocorrem durante o mesmo período.
 
-1. (Opcional e condicional) Se você desabilitou a opção de Salvamento automático, clique nos ícones **[!UICONTROL Desfazer]** ou&#x200B;**[!UICONTROL Refazer]** se deseja cancelar ou duplicar qualquer uma das alterações.
+1. (Opcional e condicional) Se você desabilitou a opção de Salvamento automático, clique nos ícones **[!UICONTROL Desfazer]** ou **[!UICONTROL Refazer]** se deseja cancelar ou duplicar qualquer uma das alterações.
 
    >[!TIP]
    >

@@ -6,10 +6,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 4%
+source-wordcount: '575'
+ht-degree: 5%
 
 ---
 
@@ -35,8 +35,6 @@ Algumas notificações de eventos têm várias linhas de assunto, o que signific
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -44,21 +42,24 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td>Plano</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plano</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Planejador ou superior, com acesso administrativo a notificações de lembrete</p> <p>Para obter informações sobre como conceder acesso administrativo a um usuário do Plano, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder acesso administrativo a determinadas áreas aos usuários</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Planejador ou superior, com acesso administrativo a notificações de lembrete</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,7 +85,7 @@ Por exemplo, &quot;Alguém inclui-me em uma atualização direcionada&quot; tem 
 
 ![Não há várias linhas de assunto no evento](assets/ev-multiple-subject.png)
 
-Se um usuário for incluído em uma conversa na tarefa, problema, tarefa de modelo ou documento, um email será gerado com a primeira linha de assunto. A linha de assunto contém &quot;referenceObject:name&quot; e o sistema define o objeto e exibe o nome apropriado no campo assunto. A linha de assunto do email seria semelhante a esta: &quot;Comment on Task 123 on Project ABC&quot;.
+Se um usuário for incluído em uma conversa na tarefa, problema, tarefa de modelo ou documento, um email será gerado com a primeira linha de assunto. A linha de assunto contém &quot;referenceObject:name&quot; e o sistema define o objeto e exibe o nome apropriado no campo de assunto. A linha de assunto do email seria semelhante a esta: &quot;Comment on Task 123 on Project ABC&quot;.
 
 Se adicionado a uma conversa de projeto, um email com o segundo assunto será gerado. Aqui, a linha de assunto contém &quot;topReferenceObject:name&quot; e, novamente, o Workfront identifica qual objeto foi referenciado e retornará esse nome de objeto em vez de &quot;topReferenceObject:name&quot; no assunto. A linha de assunto do email seria semelhante a esta: &quot;Comment on Project ABC&quot;.
 

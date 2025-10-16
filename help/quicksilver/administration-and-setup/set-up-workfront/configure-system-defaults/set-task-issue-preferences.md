@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 3f2cc191c316d107f16a12160cb126203b05387c
+source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
 workflow-type: tm+mt
-source-wordcount: '2251'
+source-wordcount: '2228'
 ht-degree: 0%
 
 ---
@@ -36,30 +36,27 @@ Por padrão, as preferências de tarefas e problemas são bloqueadas e os admini
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
-   <td>Qualquer</td> 
+   <td>[!DNL Adobe Workfront] pacote</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td><p>Novo: [!UICONTROL Padrão]</p>
-   ou
-   <p>Atual: [!UICONTROL Plano]</p></td> 
+   <td>[!DNL Adobe Workfront] licença</td> 
+   <td><p>[!UICONTROL Padrão]</p>
+       <p>[!UICONTROL Plano]</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td>[!UICONTROL Administrador do Sistema]</td>
+   <td>Configurações de nível de acesso</td> 
+   <td>[!UICONTROL Administrador do Sistema]</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,7 +74,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * [Mover](#move)
    * [[!UICONTROL Datas efetivas]](#actual-dates)
    * [[!UICONTROL Delegação]](#delegation)
-   * [[!UICONTROL Acesso]](#access)
+   * [[!UICONTROL Access]](#access)
 
 
 ### [!UICONTROL Padrões de nova tarefa] {#new-task-defaults}
@@ -248,7 +245,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 </note>
 -->
 
-### [!UICONTROL Acesso] {#access}
+### [!UICONTROL Access] {#access}
 
 <table style="table-layout:auto"> 
   <col> 

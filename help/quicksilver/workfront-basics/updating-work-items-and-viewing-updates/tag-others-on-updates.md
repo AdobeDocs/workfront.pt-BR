@@ -6,9 +6,9 @@ description: Ao fornecer comentários de atualização em um objeto do Adobe Wor
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -57,35 +57,65 @@ Em vez de incluir esses usuários no objeto atribuindo-os a ele ou fazendo com q
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
+   <td role="rowheader"><strong>Pacote do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença da Adobe Workfront*</strong></td> 
-   <td> <p>Novo: Colaborador ou superior para problemas e documentos; Claro ou superior para todos os outros objetos</p>
-   <p>Atual: solicitação ou superior para ocorrências e documentos; Revisão ou superior para todos os outros objetos</p> </td> 
-  </tr> 
-  <tr> 
+   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
+   <td> <p>Para problemas e documentos:</p>
+
+<ul><li><p>Colaborador ou superior</p></li>
+   <li><p>Solicitação ou superior</p></li></ul>
+
+<p>Para todos os outros objetos:</p>
+   <ul><li><p>Leve ou superior</p></li>
+   <li><p>Revisar ou superior</p></li></ul>
+
+</td>  
+  </tr>
    <td role="rowheader"><strong>Configuração do nível de acesso</strong></td> 
-   <td> <p>Acesso de visualização ou superior aos objetos nos quais você deseja postar a resposta</p> </td> 
+   <td> <p>Visualize ou tenha acesso superior aos objetos em que deseja marcar os usuários</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Permissão de objeto</strong></td> 
-   <td> <p>Visualize ou aumente as permissões para os objetos em que deseja postar a resposta</p> </td> 
+   <td> <p>Visualize ou aumente as permissões dos objetos nos quais você deseja marcar os usuários</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso para a documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso para a documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> <p>New: Contributor or higher for issues and documents; Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View or higher access to the objects where you want to post the reply</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permission</strong></td> 
+   <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Marcar outros usuários em atualizações
 
@@ -118,7 +148,9 @@ Também é possível remover usuários que foram marcados por engano ao editar o
 
    ![Marcar um usuário](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. (Opcional) Para tornar a atualização privada, habilite **Privado para minha empresa** no canto inferior direito da caixa de atualização. Isso torna a atualização visível apenas para os usuários em sua empresa. A opção **Particular para minha empresa** está disponível somente quando uma Empresa é especificada em seu perfil do Workfront.
+1. (Opcional) Para tornar a atualização privada, habilite **Privado para minha empresa** no canto inferior direito da caixa de atualização. Isso torna a atualização visível apenas para os usuários em sua empresa.
+
+   A opção **Particular para minha empresa** está disponível somente quando uma Empresa é especificada em seu perfil do Workfront.
 
    >[!NOTE]
    >

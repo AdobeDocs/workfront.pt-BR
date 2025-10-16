@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ Adicionamos um novo menu Mais em listas e relatórios de projeto para permitir q
 
 * Para vários projetos de uma vez:
 * Recalcular Linha de Tempo
-* Recalcular Finanças
+* Recalcular finanças
 * Recalcular Expressões Personalizadas
 * Para um único projeto:
 * Vincular Modelo
@@ -124,7 +124,7 @@ Para aumentar a eficiência e eliminar o número de cliques, lançamos uma melho
 
 Os usuários permanecem na lista, relatório ou painel após converterem um problema em um projeto, em vez de serem redirecionados para a página do projeto. Uma notificação de sucesso com o link para o projeto é exibida após a conclusão da conversão, para permitir que você navegue facilmente até o projeto, se necessário.
 
-Para obter mais informações, consulte [Converter um problema em um projeto no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Para obter mais informações, consulte [Converter um problema em um projeto](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## As horas de alocação não serão mais removidas quando forem feitas alterações nas atribuições
 

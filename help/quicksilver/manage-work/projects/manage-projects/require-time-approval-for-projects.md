@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Exigir que o tempo seja aprovado para um projeto
-description: Exigir que o tempo seja aprovado para um projeto
+description: Você pode configurar o projeto para exigir que as horas registradas no projeto sejam aprovadas pelo Proprietário do projeto. Quando configuradas dessa forma, as horas devem ser aprovadas pelo Proprietário do projeto antes de serem qualificadas para serem usadas em um registro de cobrança.
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -26,30 +26,30 @@ Para obter mais informações sobre registros de cobrança, consulte o artigo [C
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Para exigir que o tempo seja aprovado no projeto:</p>
-   <ul><li>Novo: Padrão</li>
-   <li>Atual: Plano</li></ul>
+   <ul><li><p>Standard</p></li>
+   <li><p>Plano</p></li></ul>
 
 <p>Para aprovar horas registradas em um projeto:</p>
-   <ul><li>Novo: Claro ou superior</li>
-   <li>Revisar ou superior</li>
+   <ul><li><p>Leve ou superior</p></li>
+   <li><p>Revisar ou superior</p></li>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a Projetos ou superior</p>  </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a projetos</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -73,7 +73,56 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>To require time to be approved on the project:</p>
+   <ul><li>New: Standard</li>
+   <li>Current: Plan</li></ul>
+   
+   <p>To approve hours logged on a project:</p>
+   <ul><li>New: Light or higher</li>
+   <li>Review or higher</li>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects or higher</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View permissions to the project or higher</p>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Additional access</td> 
+   <td> <p>You must meet at least one of the following conditions to approve time on a project:</p> 
+    <ul> 
+     <li>You are the Project Owner with the access and permissions specified above. In this case, you can do the following if one of the conditions below exists: 
+      <ul>
+       <li>If you have Manage permissions on the project, you can approve or reject hours logged on the project by any other user.</li>
+       <li> If you have Contribute or View access to the project you will be able to approve or reject only the hours logged by you or any other user that reports you.<br></li>
+      </ul></li> 
+     <li>You have a Plan license with administrative access to Timesheets &amp; Hours. In this case:
+      <ul>
+       <li>You can approve or reject any hours on the projects you have at least permissions to View. </li>
+      </ul></li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Exigir que o tempo seja aprovado para um projeto
 
@@ -108,7 +157,7 @@ Para aprovar ou rejeitar horas em um projeto:
    Se você rejeitar as horas aprovadas posteriormente, o status das horas mudará para **Não Aprovado**.\
    Quando você inclui as horas aprovadas em um registro de cobrança, o status das horas muda para **Faturadas e Aprovadas**. Horas adicionadas a um registro de cobrança não podem ser excluídas. Para obter mais informações sobre como criar registros de cobrança, consulte o artigo [Criar registros de cobrança](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. (Opcional) Clique no ícone ![](assets/reject-hours-icon.png) de **Rejeitar** para rejeitar as entradas de tempo do projeto.\
+1. (Opcional) Clique no ícone **de** Rejeitar![](assets/reject-hours-icon.png) para rejeitar as entradas de tempo do projeto.\
    O status das horas muda para **Rejected**.
 
    >[!NOTE]

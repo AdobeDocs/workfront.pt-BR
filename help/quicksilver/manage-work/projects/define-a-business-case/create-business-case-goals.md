@@ -2,13 +2,13 @@
 navigation-topic: business-case-and-scorecards
 title: Criar metas do Business Case
 description: Como parte da criação de um Business Case, você pode criar um conjunto de metas para definir os objetivos de um projeto. As metas de Business Case são usadas para comunicar ao Gerente do Portfolio ou ao Patrocinador do Projeto a finalidade de concluir um projeto.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
+source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 1%
+source-wordcount: '431'
+ht-degree: 2%
 
 ---
 
@@ -50,15 +50,14 @@ Considere o seguinte ao criar metas do Business Case para seus projetos:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront*</p></td> 
-   <td> <p>Atual: Prime ou superior</p>
-   <p>Herdados: Pro ou superior</p>  </td> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
+   <td> <p>Prime ou superior</p>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Licença da Adobe Workfront*</p></td>
+   <td role="rowheader"><p>Licença do Adobe Workfront</p></td>
    <td> 
-   <p>Atual: Padrão</p> 
-   <p>Herdados: plano </p> 
+   <p>Standard</p> 
+   <p>Plano </p> 
    </td> 
   </tr> 
   <tr> 
@@ -72,7 +71,7 @@ Considere o seguinte ao criar metas do Business Case para seus projetos:
  </tbody> 
 </table>
 
-*Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação da Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -2,20 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: Gerenciar problemas
-description: Os artigos a seguir contêm informações sobre o gerenciamento de problemas.
+title: 'Gerenciar problemas: índice de artigos'
+description: Ao trabalhar em um projeto, você pode descobrir que eventos inesperados surgem. Você pode registrar esses eventos inesperados como problemas para um projeto específico ou para uma tarefa. Os artigos a seguir contêm informações sobre o gerenciamento de problemas.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-# Gerenciar problemas
+# Gerenciar problemas: índice do artigo
+
+<!--Audited: 08/2025-->
+
+Ao trabalhar em um projeto, você pode descobrir que eventos inesperados surgem. Você pode registrar esses eventos inesperados como problemas para um projeto específico ou para uma tarefa.
 
 Esta seção contém os seguintes artigos:
 

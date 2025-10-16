@@ -6,9 +6,9 @@ description: É possível editar informações nos portfólios criados por você
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: cfbd38d9ab8f1976f891164a2572bb929339477d
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1048'
 ht-degree: 1%
 
 ---
@@ -36,22 +36,22 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] pacote</td> 
    <td> <p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenças do Adobe [!DNL Workfront]*</td> 
-   <td> <p>Novo: Padrão</p>
-   <p>Atual: [!UICONTROL Plano] </p> </td> 
+   <td role="rowheader">Licenças do Adobe [!DNL Workfront]</td> 
+   <td> <p>[!UICONTROL Padrão]</p>
+   <p>[!UICONTROL Plano]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso</td> 
-   <td> <p>Acesso de [!UICONTROL Editar] a Portfólios</p>  </td> 
+   <td> <p>[!UICONTROL Editar] acesso a [!UICONTROL Portfólios]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
    <td> <p>Permissões [!UICONTROL Manage] para um portfólio</p>
-   <p> Gerencie permissões para os projetos no portfólio para adicioná-los ou removê-los do portfólio</p>  </td> 
+   <p>Permissões [!UICONTROL Manage] para os projetos no portfólio para adicioná-los ou removê-los dele</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,6 +59,35 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 *Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe [!DNL Workfront] licenses*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>[!UICONTROL Manage] permissions to a portfolio</p>
+   <p> Manage permissions to the projects in the portfolio to add or remove them from the portfolio</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Editar portfólios
 

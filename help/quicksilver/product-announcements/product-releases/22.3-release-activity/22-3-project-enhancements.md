@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1535'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Esta atualização inclui:
 * Os formulários personalizados padrão definidos na área Configurações de tarefas do projeto de destino foram adicionados à nova tarefa.
 
 
-Para obter mais informações, consulte [Converter um problema em uma tarefa no Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
+Para obter mais informações, consulte [Converter um problema em uma tarefa](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-task.md).
 
 ## Nova experiência ao converter um problema em um projeto sem um modelo
 

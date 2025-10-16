@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '174'
 ht-degree: 4%
 
 ---
@@ -23,23 +23,19 @@ Capturar-me—ativado pelo Assistente de IA da Workfront—resume atualizações
 
 ## Requisitos de acesso
 
-+++Você deve ter o seguinte acesso para executar as etapas deste artigo: 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td><p>Novo: Qualquer um</p>
-       <p>ou</p>
-       <p>Atual: não disponível</p></td>
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td>Qualquer</td>
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
-       <p>ou</p>
-       <p>Atual: não disponível</p></td>
+   <td><p>Standard</td>
   </tr> 
  </tbody> 
 </table>

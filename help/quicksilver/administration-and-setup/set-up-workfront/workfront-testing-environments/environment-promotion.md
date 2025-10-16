@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2088'
 ht-degree: 2%
 
 ---
@@ -32,26 +32,26 @@ Você deve ter o seguinte:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plano</strong>
+   <td>Pacote do Adobe Workfront
    </td>
-   <td> Prime ou Ultimate (somente novos planos)
+   <td> <p>Prime ou Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenças</strong>
+   <td><strong>licenças do Workfront</strong>
    </td>
-   <td> [!UICONTROL Padrão]
+   <td> <p>Standard</p>&gt;
    </td>
   </tr>
    <tr>
    <td>Configurações de nível de acesso
    </td>
-   <td>Você deve ser um administrador [!DNL Workfront].
+   <td><p>Você deve ser um administrador do Workfront.</p>
    </td>
   </tr>
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Pré-requisitos
 
@@ -107,7 +107,7 @@ Essa chamada executa um processo de várias etapas.
 
 A primeira etapa resulta na criação de um pacote de promoção vazio no status &quot;MONTANDO&quot;.
 
-A segunda etapa usa a matriz `objectCollections` fornecida no corpo do POST para reunir os registros solicitados do Workfront. Essa etapa pode levar vários minutos para ser concluída, dependendo do número de registros solicitados e da configuração do Workfront. No final deste processo, o pacote de promoção vazio é atualizado com o `packageEntities` e o status é automaticamente definido como &quot;RASCUNHO&quot;.
+A segunda etapa usa a matriz `objectCollections` fornecida no corpo POST para reunir os registros solicitados do Workfront. Essa etapa pode levar vários minutos para ser concluída, dependendo do número de registros solicitados e da configuração do Workfront. No final deste processo, o pacote de promoção vazio é atualizado com o `packageEntities` e o status é automaticamente definido como &quot;RASCUNHO&quot;.
 
 
 >[!NOTE]
@@ -527,7 +527,7 @@ Para cada objeto de promoção, um dos `actions` a seguir será definido:
   </tr> 
   <tr> 
    <td>USAREXISTENTE</td> 
-   <td><p>Quando um registro correspondente é encontrado no ambiente de destino, a ação é definida como USEEXISTING e um <code>targetId</code> também é capturado no <code>translationmap</code>.</p><p>Quando esta ação é definida no <code>translationmap</code> que é fornecido ao ponto de extremidade <code>/install</code>, o serviço de instalação não criará o registro. No entanto, ele usará a <code>targetId</code> incluída na entrada do mapa para outros objetos que possam ter uma referência a este registro.</p><p>Por exemplo, um "Grupo padrão" pode ser encontrado no ambiente de destino no qual um pacote está sendo implantado. Não é possível ter dois registros de "Grupo padrão", portanto, o serviço de instalação usará o GUID do grupo existente em qualquer outra ação de criação de objeto que inclua uma referência ao "Grupo padrão", como um projeto, formulário ou qualquer outra entidade relacionada a esse grupo.</p><p><b>Nota:</b> <ul><li><p>Quando a ação USEEXISTING é atribuída, o registro existente no ambiente de destino não é modificado. </p><p>Por exemplo, se a descrição do "Grupo padrão" tiver sido alterada na sandbox de onde o pacote foi criado e o valor da descrição for diferente no ambiente de destino, o valor permanecerá inalterado após uma instalação com este <code>translationmap</code>.</li></ul></td> 
+   <td><p>Quando um registro correspondente é encontrado no ambiente de destino, a ação é definida como USEEXISTING e um <code>targetId</code> também é capturado no <code>translationmap</code>.</p><p>Quando esta ação é definida no <code>translationmap</code> que é fornecido ao ponto de extremidade <code>/install</code>, o serviço de instalação não criará o registro. No entanto, ele usará a <code>targetId</code> incluída na entrada do mapa para outros objetos que possam ter uma referência a este registro.</p><p>Por exemplo, um "Grupo padrão" pode ser encontrado no ambiente de destino no qual um pacote está sendo implantado. Não é possível ter dois registros de "Grupo padrão", portanto, o serviço de instalação usará o GUID do grupo existente em qualquer outra ação de criação de objeto que inclua uma referência ao "Grupo padrão", como um projeto, formulário ou qualquer outra entidade relacionada a esse grupo.</p><p><b>Observação:</b> <ul><li><p>Quando a ação USEEXISTING é atribuída, o registro existente no ambiente de destino não é modificado. </p><p>Por exemplo, se a descrição do "Grupo padrão" tiver sido alterada na sandbox de onde o pacote foi criado e o valor da descrição for diferente no ambiente de destino, o valor permanecerá inalterado após uma instalação com este <code>translationmap</code>.</li></ul></td> 
   </tr> 
   <tr> 
    <td>SUBSTITUIÇÃO</td> 
@@ -691,7 +691,7 @@ Ou
   </tbody> 
 </table>
 
-Esta chamada inicia uma tentativa de instalação de um pacote de promoção no ambiente de destino identificado no URL do POST.
+Esta chamada inicia uma tentativa de instalação de um pacote de promoção no ambiente de destino identificado no URL POST.
 
 #### URL
 

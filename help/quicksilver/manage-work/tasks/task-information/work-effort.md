@@ -7,9 +7,9 @@ description: Visão geral do esforço de trabalho
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -61,25 +61,22 @@ Este artigo descreve o que é o Esforço de trabalho e como você deve usá-lo a
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Atual: Plano </p>
-   Ou
-   <p>Novo: Padrão </p>
-    </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Plano</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configuração do nível de acesso</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a projetos e tarefas</p> </td> 
   </tr> 
   <tr> 
@@ -89,9 +86,37 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront. Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current: Plan </p>
+   Or
+   <p>New: Standard </p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>Edit access to Projects and Tasks</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a project and its tasks</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Considerações sobre o uso do esforço de trabalho
 
@@ -105,7 +130,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 ## Ativar usando o Esforço de trabalho em vez das horas planejadas
 
-1. Vá para um projeto, clique no menu ![](assets/more-icon.png) de **Mais** e clique em **Editar**.
+1. Vá para um projeto, clique no menu **de** Mais![](assets/more-icon.png) e clique em **Editar**.
 1. Clique em **Configurações da tarefa** e selecione a opção **Usar esforço do trabalho para calcular automaticamente as horas planejadas da tarefa**. Essa opção é desmarcada por padrão.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)
@@ -155,7 +180,7 @@ Como administrador do Workfront, você define as horas típicas por dia de traba
    <td>Um pequeno nível de esforço para concluir uma tarefa é definido como 25% das horas típicas por dia de trabalho. Isso significa que uma tarefa atribuída a esse nível de Esforço de trabalho deve levar até 2 horas por dia para ser concluída em um dia. <code>(0.25*8=2)</code></td> 
   </tr> 
   <tr> 
-   <td>Média</td> 
+   <td>Médio</td> 
    <td> <p>Um nível de esforço da Medium para concluir uma tarefa é definido como 50% das horas Típicas por dia de trabalho. Isso significa que uma tarefa atribuída a esse nível de Esforço de trabalho deve levar mais de 2 e menos de 6 horas para ser concluída em um dia. <code>(0.50*80=4)</code> </p> <p>Nota: Quando a configuração Usar esforço do trabalho para calcular automaticamente as Horas planejadas da tarefa estiver ativada no projeto, essa será a configuração padrão para uma tarefa, se a tarefa tiver 0 Horas planejadas antes dessa configuração ter sido ativada. Isso faz com que as Horas planejadas da tarefa sejam atualizadas para 4 horas. </p> </td> 
   </tr> 
   <tr> 

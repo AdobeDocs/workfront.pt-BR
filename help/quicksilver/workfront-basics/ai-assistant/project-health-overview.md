@@ -5,9 +5,9 @@ description: O recurso Integridade do projeto utiliza o poder do Assistente de I
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: d1ded406b8c4da975e2ff4d6825954cabd483ed2
+source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1508'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,8 @@ O Assistente de IA pode gerar uma avaliação de Integridade do projeto para os 
 
 Para obter mais informações sobre o Assistente de IA, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-+++ Expanda para visualizar os requisitos de acesso. 
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -36,9 +37,10 @@ Para obter mais informações sobre o Assistente de IA, consulte [Visão geral d
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Select, Prime ou Ultimate </p> 
+<p>Selecionar ou superior </p> 
+<p>Fluxo de trabalho Selecionar ou superior</p>
    </td> 
 <tr> 
  <tr> 
@@ -50,9 +52,9 @@ Para obter mais informações sobre o Assistente de IA, consulte [Visão geral d
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurações de nível de acesso</p></td> 
-   <td><p>Administrador para gerenciar configurações de Integridade do Projeto </p>
-   <p>Editar para aplicar configurações de Integridade do Projeto </p>
-     <p>Exibir para exibir as configurações de Integridade do Projeto </p>
+   <td><p>Você precisa ser um administrador do sistema para gerenciar as configurações de Integridade do Projeto </p>
+   <p>Editar acesso aos projetos para aplicar as configurações de Integridade do Projeto </p>
+     <p>Exibir acesso aos projetos para exibir as configurações de Integridade do Projeto </p>
   </td> 
   </tr>  
     </tr>  

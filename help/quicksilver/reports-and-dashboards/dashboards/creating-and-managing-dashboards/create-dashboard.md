@@ -6,9 +6,9 @@ description: Você pode criar painéis para acessar informações rapidamente no
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
@@ -25,36 +25,33 @@ Para saber mais sobre painéis, consulte [Introdução aos painéis](../../../re
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte:
-
-<table style="table-layout:auto">
+<table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>plano do Adobe Workfront</strong></p> </td> 
-   <td>Qualquer</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Licença do Adobe Workfront</strong></p> </td> 
-   <td> <p>Atual: Plano </p>
-   Ou
-   <p>Novo: Padrão </p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> 
+      <p>Standard</p>
+      <p>Plano</p>
+   </td> 
   </tr> 
   <tr> 
-   <td><strong>Configurações de nível de acesso</strong> </td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários</p> </td> 
-  </tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários</p></td> 
+  </tr>  
   <tr> 
-   <td> <p><strong>Permissões de objeto</strong> </p> </td> 
+   <td role="rowheader">Permissões de objeto</td> 
    <td> <p>Você obterá permissões de gerenciamento para os painéis que criar</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

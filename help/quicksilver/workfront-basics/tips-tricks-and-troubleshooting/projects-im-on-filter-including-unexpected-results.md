@@ -6,10 +6,10 @@ description: Leia este artigo para solucionar problemas do filtro Projetos em qu
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 1%
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
@@ -17,26 +17,34 @@ ht-degree: 1%
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano</strong></td> 
-   <td> <p>Qualquer</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>licença do Adobe [!DNL Workfront]</strong></td> 
-   <td> <p>[!UICONTROL Plano] </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
-   <td> <p>[!UICONTROL Administrador do sistema]</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Pacote do Adobe Workfront
+   </td>
+   <td> <p>Prime ou Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Licenças do Adobe Workfront
+   </td>
+   <td><p>Standard</p>
+   <p>Plano</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configurações de nível de acesso
+   </td>
+   <td>Você deve ser um administrador [!DNL Workfront].
+   </td>
+  </tr>
 </table>
+
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 ## Problema
 
@@ -48,7 +56,7 @@ O filtro [!UICONTROL **Projetos em que estou**] inclui projetos que contêm o us
 
 1. Verifique os [!UICONTROL **Detalhes do Projeto**] para cada projeto inesperado incluído pelo filtro e remova seu nome de todos os campos.
 
-   OU
+   OR
 
 1. Tente usar um filtro semelhante, como [!UICONTROL **Projetos dos quais sou proprietário**], que inclui apenas projetos que são atribuídos especificamente a você.
 

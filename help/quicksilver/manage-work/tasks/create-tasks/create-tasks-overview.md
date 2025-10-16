@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Visão geral da criação de tarefas
+title: Visão Geral da Criação de Tarefas
 description: Você só pode criar tarefas em um projeto depois de criá-lo.
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Ao definir as informações padrão a serem associadas com tarefas adicionadas a
 * Quando você copia tarefas de um projeto para outro e o projeto de destino tem configurações padrão diferentes para tarefas, as tarefas copiadas preservam as configurações padrão do projeto original, a menos que sejam limpas no processo de cópia.
 * Quando você duplica uma tarefa no mesmo projeto, os formulários personalizados e o processo de aprovação são transferidos para a tarefa duplicada.
 
-  Para obter informações sobre como copiar e duplicar tarefas, consulte [&#128279;](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Para obter informações sobre como copiar e duplicar tarefas, consulte [Copiar e duplicar tarefas](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 * Quando você move a tarefa para outro projeto, as configurações padrão da tarefa são salvas nas tarefas do projeto original, independentemente das configurações padrão da tarefa no novo projeto.
 

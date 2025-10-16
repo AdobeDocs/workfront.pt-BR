@@ -8,20 +8,22 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1497'
 ht-degree: 2%
 
 ---
 
 # Visão geral da conversão de problemas no Adobe Workfront
 
+<!--Audited: 08/2025-->
+
 Se for necessário trabalhar mais para concluir um problema depois que ele for enviado, você pode converter o problema em um projeto ou em uma tarefa.
 
-Para obter informações sobre como converter problemas em tarefas, consulte [Converter um problema em uma tarefa no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+Para obter informações sobre como converter problemas em tarefas, consulte [Converter um problema em uma tarefa](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
 
-Para obter informações sobre como converter problemas em projetos, consulte [Converter um problema em um projeto no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Para obter informações sobre como converter problemas em projetos, consulte [Converter um problema em um projeto](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Considerações ao converter problemas
 
@@ -62,7 +64,7 @@ Para obter informações sobre como converter problemas em projetos, consulte [C
 
 Ao converter um problema em um projeto, você pode convertê-lo em um projeto em branco ou usar um modelo.
 
-Para obter informações, consulte [Converter um problema em um projeto no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Para obter informações, consulte [Converter um problema em um projeto](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 Ao usar um modelo, alguns campos preenchidos no modelo são transferidos para o projeto criado a partir do problema convertido. Outros campos são transferidos para o projeto a partir do problema convertido.
 

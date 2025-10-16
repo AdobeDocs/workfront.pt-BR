@@ -6,10 +6,10 @@ description: É possível adicionar tags aos cartões para mostrar visualmente q
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 1%
+source-wordcount: '543'
+ht-degree: 3%
 
 ---
 
@@ -25,22 +25,19 @@ ht-degree: 1%
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Novo: [!UICONTROL Contributor] ou superior</p> 
-   <p>ou</p>
-   <p>Atual: [!UICONTROL Request] ou superior</p>
+   <p>Colaborador ou superior</p> 
+   <p>Solicitação ou superior</p>
    </td> 
   </tr> 
  </tbody> 
@@ -104,7 +101,7 @@ As tags de workflow estão disponíveis para todas as placas em um workflow.
    Clique no ícone **[!UICONTROL Editar]**&#x200B;tag ![Editar tag](assets/boards-edittag-30x29.png) e crie uma nova tag no Gerenciador de Tags. Clique em **Concluído** para retornar ao cartão e selecione a marca no cartão.
 1. Clique em **Fechar**.
 
-## Editar uma tag
+## Edição de uma tag
 
 1. Acessar um quadro.
 1. Clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon-spectrum.png) ao lado do nome do quadro e escolha **[!UICONTROL Gerenciador de Tags]**.
@@ -127,7 +124,7 @@ As tags de workflow estão disponíveis para todas as placas em um workflow.
 1. Localize a marca que você deseja remover do cartão e clique no ícone **[!UICONTROL Remover]** ![Remover marca](assets/copy-of-boards-remove-30x23.png).
 1. Clique em **[!UICONTROL Fechar]**.
 
-## Excluir uma tag
+## Exclusão de uma tag
 
 1. Acessar um quadro.
 1. Clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menu]](assets/more-icon-spectrum.png) ao lado do nome do quadro e escolha **[!UICONTROL Gerenciador de Tags]**.

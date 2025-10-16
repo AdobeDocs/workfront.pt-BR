@@ -7,9 +7,9 @@ description: É importante indicar no Adobe Workfront quando a folga aprovada ac
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: f10b0a4897d6250f0c4decf1fad069c598536a38
+source-git-commit: 95cc394c3e1aa0ee5713e981030a96e27dd1f183
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -38,33 +38,33 @@ As ferramentas de Gerenciamento de Recursos também usam sua folga pessoal para 
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
- <col> 
- </col> 
+ </col>
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
-   <td>Qualquer</td> 
+   <td> Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td> <p>Novo: Padrão (para configurar seu tempo livre pessoal)</p>
-        <p>ou</p>
-        <p>Atual: trabalha ou mais (para configurar seu tempo livre pessoal)</p> </td>
+   <td>Licença do Adobe Workfront</td> 
+   <td> <p>Para configurar suas folgas pessoais, você deve ter:</p>
+        <p>Padrão (para configurar seu tempo livre pessoal)</p>
+        <p>Trabalhar ou mais (para configurar seu tempo livre pessoal)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td>[!UICONTROL Manager] com acesso a [!UICONTROL Editar Usuário] (para fazer alterações no calendário de folga de outros usuários)<br>
-   <strong>OBSERVAÇÃO:</strong> se um gerente editar o calendário de folga pessoal de outro usuário, todas as entradas serão exibidas no fuso horário do usuário, e não no fuso horário do gerente.</td> 
+   <td>Configurações de nível de acesso</td> 
+   <td><p>Para fazer alterações no calendário de folga de outro usuário, você deve ser o gerente desse usuário e ter acesso para Editar usuário.</p>
+   <p><strong>OBSERVAÇÃO:</strong> se um gerente editar o calendário de folga pessoal de outro usuário, todas as entradas serão mostradas no fuso horário do usuário e não no fuso horário do gerente.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configurar folga pessoal em [!DNL Workfront]
 

@@ -6,9 +6,9 @@ description: Sem acesso ou permissões corretos, talvez você não consiga visua
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: 78d73d0d7bd0ffc00ae1afed0adb324501e0c310
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -21,40 +21,40 @@ Sem acesso ou permissões corretos, talvez você não consiga visualizar ou gere
 
 Você deve ter acesso para exibir os usuários cuja carga de trabalho deseja exibir ou gerenciar no Balanceador de carga de trabalho. Além disso, você deve ter o nível de acesso correto e as permissões corretas nos projetos aos quais o trabalho está associado.
 
-## O plano do Adobe Workfront necessário para usar o Balanceador de carga de trabalho em diferentes áreas
+<!--## Adobe Workfront package needed to use the Workload Balancer for different areas
 
-A tabela a seguir ilustra a conexão entre o plano Workfront que sua empresa tem e onde no sistema você pode usar o Balanceador de carga de trabalho:
+The following table illustrates the connection between the Workfront plan your company has and where in the system you can use the Workload Balancer:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p><b>Plano Workfront (Atual)</b></p></td> 
-   <td> <p><b>Áreas em que você pode acessar o Balanceador de carga de trabalho</b></p> </td> 
+   <td><p><b>Workfront Plan (Current)</b></p></td> 
+   <td> <p><b>Areas where you can access the Workload Balancer</b></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Equipe ou superior </td> 
-   <td>Balanceador de carga de trabalho para uma equipe ou um projeto</td> 
+   <td>Team or higher </td> 
+   <td>Workload Balancer for a team or a project</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Pro ou superior</td> 
-   <td>Balanceador de carga de trabalho para vários projetos, no nível do sistema</td> 
+   <td>Pro or higher</td> 
+   <td>Workload Balancer for multiple projects, at the system level</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p><b>Plano do Workfront (Novo)</b></p></td> 
-   <td> <p><b>Áreas em que você pode acessar o Balanceador de carga de trabalho</b></p> </td> 
+   <td><p><b>Workfront Plan (New)</b></p></td> 
+   <td> <p><b>Areas where you can access the Workload Balancer</b></p> </td> 
   </tr>
   <tr> 
-   <td role="rowheader">Qualquer </td> 
-   <td>Acesse o Balanceador de carga de trabalho em qualquer lugar no Workfront</td> 
+   <td>Any </td> 
+   <td>Access the Workload Balancer anywhere in Workfront</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter informações sobre os planos da Workfront, consulte [Nossos Planos](https://business.adobe.com/br/products/workfront/pricing.html).
+For information about the Workfront plans, see [Our Plans](https://business.adobe.com/products/workfront/pricing.html).
 
-Para obter informações sobre onde localizar o Balanceador de Carga de Trabalho no Workfront, consulte [Localizar o Balanceador de Carga de Trabalho](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+For information about where you can locate the Workload Balancer in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).-->
 
 ## Acesso necessário para visualizar o Balanceador de carga de trabalho
 
@@ -65,24 +65,26 @@ Você deve ter o seguinte acesso para visualizar o Balanceador de carga de traba
  <col> 
  <tbody>
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
-       <p>ou</p>
-       <p>Atual: plano, para exibir o Balanceador de Carga de Trabalho na área Recursos;</br>
-       Trabalhar, para visualizar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td>
+  </tr>
+  <tr> 
+   <td>Licença do Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plano, para exibir o Balanceador de Carga de Trabalho na área Recursos; Trabalho, para exibir o Balanceador de Carga de Trabalho de uma equipe ou projeto</p></td>
   </tr>  
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Visualize ou tenha acesso superior ao Gerenciamento de recursos</p> <p>Para obter informações sobre o nível de acesso Gerenciamento de Recursos, consulte o artigo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Conceder acesso ao Gerenciamento de Recursos</a>.</p></td> 
+   <td>Configurações de nível de acesso</td> 
+   <td> <p>Visualize ou tenha acesso superior ao Gerenciamento de recursos</p> <p>Para obter informações sobre o nível de acesso Gerenciamento de Recursos, consulte o artigo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md">Conceder acesso ao Gerenciamento de Recursos</a>.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Você deve ter permissões de Visualização no projeto cujas atribuições deseja visualizar. </p> <p>Para obter informações sobre permissões de projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p></td> 
+   <td>Permissões de objeto</td> 
+   <td> <p>Você deve ter permissões de Visualização no projeto cujas atribuições deseja visualizar. </p> <p>Para obter informações sobre permissões de projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md">Compartilhar um projeto no Adobe Workfront</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <span class="preview">Todos os usuários têm acesso para exibir o Balanceador de carga de trabalho em seus próprios perfis. Isso não é restrito pela licença ou nível de acesso. Observe que o Balanceador de Carga de Trabalho em um perfil de usuário é somente leitura e as atribuições e alocações não podem ser alteradas.</span>
 
@@ -95,25 +97,28 @@ Você deve ter o seguinte acesso para gerenciar o Balanceador de carga de trabal
  <col> 
  <tbody>
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
-       <p>ou</p>
-       <p>Atual: plano, para gerenciar atribuições no Balanceador de Carga de Trabalho na área Recursos;</br>
-       Trabalho, para gerenciar atribuições no Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td>
+  </tr>
+  <tr> 
+  <tr> 
+   <td>Licença do Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plano, para gerenciar atribuições no Balanceador de Carga de Trabalho na área Recursos; Trabalho, para gerenciar atribuições no Balanceador de Carga de Trabalho de uma equipe ou projeto</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso ao Gerenciamento de recursos</p> 
-     <p>Para obter informações sobre o nível de acesso Gerenciamento de Recursos, consulte o artigo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Conceder acesso ao Gerenciamento de Recursos</a>.</p> </td> 
+   <td>Configurações de nível de acesso</td>
+   <td> <p>Editar acesso ao Gerenciamento de recursos</p>
+     <p>Para obter informações sobre o nível de acesso Gerenciamento de Recursos, consulte o artigo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" >Conceder acesso ao Gerenciamento de Recursos</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td> <p> Permissões do Contribute ou superiores no projeto cujas atribuições você deseja gerenciar, que inclui permissões para fazer atribuições. </p> <p>Para obter informações sobre permissões de projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p></td>
+   <td>Permissões de objeto</td> 
+   <td> <p> Permissões do Contribute ou superiores no projeto cujas atribuições você deseja gerenciar, que inclui permissões para fazer atribuições. </p> <p>Para obter informações sobre permissões de projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md">Compartilhar um projeto no Adobe Workfront</a>.</p></td>
   </tr> 
- </tbody> 
+ </tbody>
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--these notes were inside the table: for the Edit access to Res Management
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    

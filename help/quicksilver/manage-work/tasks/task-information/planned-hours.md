@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Visão geral das Horas planejadas
+title: Visão geral das horas planejadas
 description: As Horas Planejadas associadas a uma tarefa, problema ou projeto representam a quantidade de tempo necessária para que os usuários atribuídos concluam a tarefa, problema ou projeto.
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 48efc796923079622ce4bc1c2bddb2429915c9a1
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '2815'
 ht-degree: 0%

@@ -6,9 +6,9 @@ description: Os administradores e usuários do Workfront com uma licença de Pla
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -23,22 +23,19 @@ Você pode adicionar usuários a uma equipe, definir o modelo de layout da equip
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Pacote do Adobe Workfront</p> </td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Novo: Padrão</p>
-   <p>ou</p>
-   <p>Atual: trabalho ou superior</p></td>
+   <p>Standard</p>
+   <p>Trabalhar ou superior</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +50,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique no ícone **[!UICONTROL Equipe de comutação]** ![Ícone Equipe de comutação](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Clique no menu ![](assets/more-icon.png) **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **** Mais![](assets/more-icon.png) e selecione **[!UICONTROL Editar]**.
 
    Somente membros da equipe com uma licença [!UICONTROL Padrão], [!UICONTROL Plano] ou [!UICONTROL Trabalho] podem ver esta opção.
 

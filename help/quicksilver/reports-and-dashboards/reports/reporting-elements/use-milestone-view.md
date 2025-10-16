@@ -6,9 +6,9 @@ description: Você pode aplicar a visualização Marco a uma lista de projeto ou
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1623'
 ht-degree: 1%
 
 ---
@@ -41,38 +41,30 @@ A visualização Marco está disponível ao visualizar uma lista de projetos ou 
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>plano do Adobe Workfront</strong></td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
+   <td role="rowheader">Licença do Adobe Workfront</strong></td> 
    <td> 
-      <p>Novo menu:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Atual:</p>
-         <ul>
-         <li><p>Trabalhar ou superior</p></li>
-         </ul>
+    <p>Standard</p>
+    <p>Trabalhar ou superior</p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
-   <td> <p>Acesso maior ou igual a relatórios, painéis, calendários</p></td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Acesso maior ou igual a relatórios, painéis, calendários</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Permissões de objeto</strong></td> 
-   <td> <p>Exibir permissões para um relatório de projeto para aplicar a exibição de Marco a um relatório</p> </td> 
+   <td role="rowheader">Permissões de objeto</td> 
+    <td> <p>Exibir permissões para um relatório de projeto para aplicar a exibição de Marco a um relatório</p></td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,10 +6,10 @@ description: As alterações feitas em um perfil de folha de horas não têm efe
 author: Alina
 feature: Timesheets
 exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 0%
+source-wordcount: '751'
+ht-degree: 1%
 
 ---
 
@@ -35,32 +35,36 @@ Os administradores do Adobe Workfront ou de grupo podem gerar folhas de horas pa
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
- <col> 
+ <col>
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td> <p>Qualquer</p> </td> 
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Plano </p> </td> 
+   <td>Licença do Adobe Workfront</td> 
+   <td>
+   <p>Standard</p>
+   <p>Plano</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Você deve ter acesso administrativo a Planilhas de Horas. </p> <p>Para obter mais informações, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Conceder aos usuários acesso administrativo a determinadas áreas</a>.</p> <p>Se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td>Configurações de nível de acesso</td> 
+   <td><p>Acesso administrativo a planilhas de horas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Excluir planilhas de horas em uma lista
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+1. Clique no ícone **do** Menu principal![](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
 
 1. Clique em **Folhas de horas**. O filtro **Todos** é selecionado por padrão e exibe todas as planilhas de horas que você tem acesso para visualizar.
 
@@ -106,7 +110,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
    Para gerar novas folhas de horas, verifique se os usuários estão associados a um perfil de folha de horas e peça ao administrador do Workfront ou a um administrador de grupo para gerar novas folhas de horas.
 
-   Para obter mais informações, consulte o seguinte:
+   Para obter mais informações, consulte:
 
    * [Criar, editar e atribuir perfis de planilha de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
    * [Gerar folhas de horas manualmente](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
@@ -114,7 +118,7 @@ Você deve ter o seguinte para executar as etapas deste artigo:
 
 ## Excluir uma planilha de horas da página Planilha de horas
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do [!UICONTROL **Menu principal**], no canto superior direito do Adobe Workfront.
+1. Clique no ícone [!UICONTROL **do**] Menu principal![](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
 1. Clique na folha de horas que deseja excluir para abri-la.
 1. Clique no ícone [!UICONTROL **Mais**] ![](assets/more-icon.png) à direita do nome da folha de horas e clique em **Excluir**.
 

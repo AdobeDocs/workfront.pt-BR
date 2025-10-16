@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibição: problemas com a resolução de detalhes do objeto"
-description: Esta visualização de problema exibe o nome e a porcentagem concluída do objeto de resolução do problema, permitindo que o originador do problema tenha uma visão do progresso do problema, mesmo sem acesso à tarefa ou ao projeto de resolução.
+title: 'Exibir: Problemas com a Resolução de Detalhes do Objeto'
+description: Esta visualização de problema exibe o nome e a porcentagem concluída do objeto de resolução do problema, permitindo que o originador do problema tenha o insight no progresso do problema, mesmo sem acesso à tarefa ou ao projeto de resolução.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7f4c923a-01e4-4896-9f54-1f0c66d64bb5
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-Esta visualização de problema exibe o nome e a porcentagem concluída do objeto de resolução do problema, permitindo que o originador do problema tenha uma visão do progresso do problema, mesmo sem acesso à tarefa ou ao projeto de resolução.
+Esta visualização de problema exibe o nome e a porcentagem concluída do objeto de resolução do problema, permitindo que o originador do problema tenha o insight no progresso do problema, mesmo sem acesso à tarefa ou ao projeto de resolução.
 
 Este modo de exibição usa a marca `sharecol=true` para combinar vários campos sob o mesmo cabeçalho de coluna. Para obter mais informações sobre a marca `sharecol`, consulte [Exibir: mesclar informações de várias colunas em uma coluna compartilhada](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
@@ -28,32 +28,33 @@ Este modo de exibição usa a marca `sharecol=true` para combinar vários campos
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo:<ul><li>Colaborador para modificar uma visualização</li><li>Padrão para modificar um relatório</li></ul></p><p>Ou</p>Atual:<ul><li>Solicitação para modificar uma exibição</li><li>Planejar a modificação de um relatório</li></ul></p> </td> 
+   <td> 
+   <p>Colaborador ou Solicitação para modificar uma exibição </p>
+   <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
-  </tr>  
+  </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

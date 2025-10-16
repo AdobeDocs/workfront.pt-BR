@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -46,22 +46,24 @@ Considere o seguinte ao trabalhar com permissões de tipo de registro:
 * Os usuários não podem ter mais permissões para um tipo de registro do que têm para o espaço de trabalho ao qual o tipo de registro pertence.
 * Remover as permissões dos usuários para um tipo de registro não remove o acesso de Exibição para todos os tipos de registros no espaço de trabalho, pois isso não remove as permissões deles para o espaço de trabalho.
 
-| Tipo de licença da Adobe Workfront* | Permissões mais altas permitidas no Adobe Workfront Planning |
+| Tipo de licença do Adobe Workfront | Permissões mais altas permitidas no Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Padrão | <p>Os usuários podem gerenciar espaços de trabalho, tipos de registro e visualizações. Eles podem criar, editar ou excluir espaços de trabalho, tipos de registro, registros, campos e exibições.</p> <br> <p>Os administradores do sistema têm permissões de gerenciamento para todos os espaços de trabalho, incluindo aqueles que não criaram.</p> |
+| Standard | <p>Os usuários podem gerenciar espaços de trabalho, tipos de registro e visualizações. Eles podem criar, editar ou excluir espaços de trabalho, tipos de registro, registros, campos e exibições.</p> <br> <p>Os administradores do sistema têm permissões de gerenciamento para todos os espaços de trabalho, incluindo aqueles que não criaram.</p> |
 | Leve ou Colaborador | <p>Os usuários podem exibir os espaços de trabalho compartilhados com eles, bem como os tipos de registro, registros e campos desses espaços de trabalho.</p> <br> <p>Os usuários podem exibir as visualizações compartilhadas com eles, mas não podem criar as suas próprias visualizações. </p><br> <p>Os usuários não podem criar, editar ou excluir espaços de trabalho, tipos de registro, registros ou campos.</p> |
 
-*O Workfront Planning não está disponível para licenças herdadas do Workfront.
-Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+<!--Old: 
+*Workfront Planning is not available for legacy Workfront licenses. 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 
 ### Tipos de licença e permissões para espaços de trabalho e tipos de registro
 
 Somente os usuários com uma licença Standard podem ter permissões do Contribute ou do Manage para espaços de trabalho e tipos de registros. As permissões do Contribute e do Manage para espaços de trabalho e tipos de registros também são transferidas para registros e campos.
 
+Os administradores do sistema podem exibir todos os espaços de trabalho no sistema, incluindo aqueles que não criaram.
+
 Os usuários com todos os outros tipos de licença podem ter permissões de Exibição para espaços de trabalho e tipos de registro compartilhados com eles, bem como para seus registros e campos.
 
-Os administradores do sistema podem exibir todos os espaços de trabalho no sistema, incluindo aqueles que não criaram.
 
 >[!INFO]
 >
@@ -76,7 +78,11 @@ Os administradores do sistema podem exibir todos os espaços de trabalho no sist
 
 ### Tipos de licença e permissões para exibições
 
-Somente os usuários com uma licença Standard podem ter permissões de gerenciamento para exibições. Os usuários com todos os outros tipos de licença podem ter permissões de Exibição para exibições compartilhadas com eles.
+Somente os usuários com uma licença Standard podem ter permissões de gerenciamento para exibições.
+
+Os administradores do sistema não podem acessar as exibições que não criaram. Eles devem ser compartilhados com eles.
+
+Os usuários com todos os outros tipos de licença podem ter permissões de Exibição para exibições compartilhadas com eles.
 
 >[!INFO]
 >

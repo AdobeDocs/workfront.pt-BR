@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: business-case-and-scorecards
 title: Visão geral das áreas do business case
 description: Este artigo descreve as áreas do Business Case de um projeto.
-author: Alina
+author: Becky
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Estas são as áreas no Business Case de um projeto:
 * Despesas
 * Estimativa de Recurso
 * Riscos
-* Cartão de pontuação
+* Scorecard
 * Formulários personalizados
 * Resumo de Business Case
 
@@ -160,7 +160,7 @@ Para obter mais informações sobre como criar riscos, consulte [Criar e editar 
 
 Para obter mais informações sobre como criar e editar Tipos de Risco personalizados, consulte [Editar e criar tipos de risco](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
-## Cartão de pontuação
+## Scorecard
 
 Os scorecards medem o Alinhamento do projeto. Essa área é ativada por padrão no Business Case, mas o administrador do Workfront pode optar por não exibi-la.
 

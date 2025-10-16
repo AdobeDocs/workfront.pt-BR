@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '808'
 ht-degree: 3%
 
 ---
@@ -32,21 +32,18 @@ Os modelos de email podem ser associados a notificações de lembrete para probl
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td><p>Novo: Padrão</p>
-   Ou
-   <p>Atual: Plano</p>
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Standard</p>
+   <p>Plano</p>
    </td> 
   </tr> 
   <tr> 
@@ -56,7 +53,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter mais informações sobre requisitos de acesso, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -109,16 +106,16 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique em **Salvar**.
 
-## Adicionar formatação de HTML a um modelo de email {#add-html-formatting-to-an-email-template}
+## Adicionar a formatação do HTML a um modelo de email {#add-html-formatting-to-an-email-template}
 
-Você pode adicionar tags HTML a modelos de email para produzir notificações personalizadas.\
+É possível adicionar tags HTML a modelos de email para produzir notificações personalizadas.\
 Comece a criar o modelo de email conforme descrito em [Criar um novo modelo de email](#create-a-new-email-template).
 
-A formatação de HTML pode enriquecer seus modelos de email, conforme mostrado nas seções a seguir.
+A formatação HTML pode enriquecer seus modelos de email, conforme mostrado nas seções a seguir.
 
 * [Vincular a objetos do Workfront](#link-to-workfront-objects)
-* [Vincular a campos personalizados com HTML](#link-to-custom-fields-with-html)
-* [exemplos de email do HTML](#html-email-examples)
+* [Vincular a campos personalizados com o HTML](#link-to-custom-fields-with-html)
+* [Exemplos de email do HTML](#html-email-examples)
 
 ### Vincular a objetos do Workfront {#link-to-workfront-objects}
 
@@ -154,11 +151,11 @@ Para obter o valor &quot;curinga&quot; de um objeto, siga um destes procedimento
 
 O valor `heading` pode ser o nome do objeto, conforme você quer que ele apareça no corpo do email.
 
-### Vincular a campos personalizados com HTML {#link-to-custom-fields-with-html}
+### Vincular a campos personalizados com o HTML {#link-to-custom-fields-with-html}
 
 Você pode incluir links para usuários e campos personalizados usando o curinga `$$` para instruir o gerador de email a procurar valores no banco de dados associado ao objeto. Eles devem estar presentes em ambos os lados da referência de atributo do banco de dados.
 
-Por exemplo, adicionar o texto a seguir como HTML adicionaria o nome do usuário atribuído à notificação de lembrete associada a uma tarefa:
+Por exemplo, adicionar o seguinte texto como HTML adicionaria o nome do usuário atribuído à notificação de lembrete associada a uma tarefa:
 
 `assignedTo:firstName`
 
@@ -202,7 +199,7 @@ Substitua `<your domain>` pelo domínio Workfront da sua empresa, sem os colchet
 >
 >`DE:Project:Delivery Date`
 
-### exemplos de email do HTML {#html-email-examples}
+### Exemplos de email do HTML {#html-email-examples}
 
 * [Notificação de lembrete de Projeto Atrasado (exemplo)](#late-project-reminder-notification-example)
 * [Lembrete sobre Tarefa ou Problema Prestes a Iniciar (exemplo)](#task-or-issue-about-to-start-reminder-example)

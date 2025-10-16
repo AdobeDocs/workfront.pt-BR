@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: task-constraints
-title: Atualizar a Restrição de Tarefa de uma tarefa
+title: Atualizar a Restrição de uma Tarefa
 description: As restrições de tarefa determinam quando uma tarefa deve iniciar e terminar em um projeto. Para obter mais informações, consulte Visão geral da Restrição de tarefa.
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 8%
+source-wordcount: '298'
+ht-degree: 10%
 
 ---
 
@@ -19,32 +19,60 @@ As restrições de tarefa determinam quando uma tarefa deve iniciar e terminar e
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte para alterar a Restrição da Tarefa de uma tarefa:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Qualquer </p> </td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Trabalhar ou superior</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td><p>Standard</p> 
+   <p>Trabalhar ou superior</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Acesso de visualização ou superior aos Projetos</p> <p>Editar acesso a tarefas</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Acesso de visualização ou superior aos Projetos</p> <p>Editar acesso a tarefas</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar acesso à tarefa </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Gerenciar acesso à tarefa</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View or higher access to Projects</p> <p>Edit access to Tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage access to the task </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Atualizar a Restrição de Tarefa de uma tarefa
 
@@ -59,14 +87,14 @@ Você deve ter o seguinte para alterar a Restrição da Tarefa de uma tarefa:
    | Datas Fixas | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Datas Fixas](../../../manage-work/tasks/task-constraints/fixed-dates.md). |
    |---|---|
    | Precisa Iniciar Em | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Deve Iniciar em](../../../manage-work/tasks/task-constraints/must-start-on.md). |
-   | Precisa Terminar Em | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Deve Terminar em](../../../manage-work/tasks/task-constraints/must-finish-on.md). |
+   | Deve concluir em | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Deve Terminar em](../../../manage-work/tasks/task-constraints/must-finish-on.md). |
    | O Mais Breve Possível | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Assim que possível](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
    | O Mais Tarde Possível | Para obter informações, consulte [Visão geral da Restrição de Tarefa: O Mais Tarde Possível](../../../manage-work/tasks/task-constraints/as-late-as-possible.md). |
    | Momento Mais Cedo Disponível | Para obter informações, consulte [Visão geral da Restrição da Tarefa: Primeiro Horário Disponível](../../../manage-work/tasks/task-constraints/earliest-available-time.md). |
    | Último horário disponível | Para obter informações, consulte [Visão geral da Restrição da Tarefa: Último Tempo Disponível](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
    | Não Iniciar Depois De | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Não Iniciar Depois de](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
    | Não Iniciar Antes De | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Não Iniciar Antes de](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
-   | Não Terminar Depois De | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Não Terminar Depois de](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
+   | Concluir no máximo até | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Não Terminar Depois de](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
    | Não Terminar Antes De | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Não Concluir Antes de](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
    {style="table-layout:auto"}

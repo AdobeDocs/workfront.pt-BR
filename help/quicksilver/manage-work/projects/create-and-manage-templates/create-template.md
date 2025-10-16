@@ -6,10 +6,10 @@ description: É possível criar e excluir modelos na área Modelos. Ao criar um 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 2%
+source-wordcount: '566'
+ht-degree: 3%
 
 ---
 
@@ -41,22 +41,20 @@ Você pode criar um novo modelo das seguintes maneiras:
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Novo: Padrão </p><p>Ou </p><p>Atual: Plano </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Você precisa ser um administrador do sistema para importar modelos de blueprints</p> </td> 
+   <td> <p>Standard </p><p>Plano</p> <p>Você precisa ser um administrador do sistema para importar modelos de blueprints</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a modelos</p> </td> 
   </tr> 
   <tr> 
@@ -69,6 +67,30 @@ Você deve ter o seguinte:
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+<!--Old:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p><p>Or </p><p>Current: Plan </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You must be a system administrator to import templates from Blueprints</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Templates</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>You have Manage permissions to the templates you create, by default</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>-->
 
 ## Criar um modelo
 
@@ -102,7 +124,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >
    >Não é possível editar tarefas diretamente neste Gráfico de Gantt.
 
-1. Para adicionar informações ao novo modelo, clique no ícone ![Mais **do menu** Mais](assets/more-icon.png) e clique em **Editar**.
+1. Para adicionar informações ao novo modelo, clique no ícone **Mais** do menu ![Mais](assets/more-icon.png) e clique em **Editar**.
 
    Para obter informações sobre como editar um modelo, consulte [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 

@@ -6,9 +6,9 @@ description: Você pode personalizar quais campos são exibidos em um cartão de
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -34,22 +34,19 @@ Você também pode exibir campos personalizados criados anteriormente. Não é p
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Novo: [!UICONTROL Contributor] ou superior</p> 
-   <p>ou</p>
-   <p>Atual: [!UICONTROL Request] ou superior</p>
+   <p>Colaborador ou superior</p> 
+   <p>Solicitação ou superior</p>
    </td> 
   </tr> 
  </tbody> 
@@ -91,7 +88,7 @@ Os dados em campos personalizados podem ser editados no cartão, embora alguns e
 
    >[!NOTE]
    >
-   >Os seguintes tipos de campo não estão disponíveis para adicionar a placas: Adobe XD, Image, PDF, Video.
+   >Os seguintes tipos de campo não estão disponíveis para adicionar a cartões: Adobe XD, Image, PDF, Video.
 
 1. Selecione o nome do campo.
 1. (Opcional) Clique no campo **[!UICONTROL Valor do campo]** para alterar este campo personalizado para outro.

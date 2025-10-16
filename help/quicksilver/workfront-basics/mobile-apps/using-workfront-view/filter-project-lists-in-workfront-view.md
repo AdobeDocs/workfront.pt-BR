@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 description: Por padrão, o  [!DNL Adobe Workfront] Modo de Exibição exibe a lista [!UICONTROL Todos os Projetos] em  [!DNL Workfront], de modo que todos os projetos aos quais você tem acesso sejam listados, independentemente de seu status.
 author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 0%
+source-wordcount: '324'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Você pode filtrar a lista de projetos em [!DNL Workfront View] para exibir some
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso no [!DNL Workfront] para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,17 +31,21 @@ Você deve ter o seguinte acesso no [!DNL Workfront] para executar as etapas des
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong>/td&gt; 
+   <td role="rowheader"><strong>Pacote do Adobe Workfront</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Review] ou superior</p> </td> 
+   <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
+   <td> 
+   <p>Colaborador ou superior</p>
+   <p>Revisar ou superior</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Filtrar a lista [!UICONTROL projetos] na [!UICONTROL Exibição do Workfront]
 
@@ -52,7 +56,7 @@ Você deve ter o seguinte acesso no [!DNL Workfront] para executar as etapas des
 
 1. Selecione entre os seguintes filtros:
 
-   * [!UICONTROL Portfolio]: selecione portfólios específicos cujos projetos você deseja exibir.
+   * [!UICONTROL Portfólios]: selecione portfólios específicos cujos projetos você deseja exibir.
    * [!UICONTROL Condição]: selecione para exibir somente projetos com uma [!UICONTROL Condição] específica.
    * [!UICONTROL Progresso]: selecione para exibir somente projetos em um [!UICONTROL Status do Progresso] específico.
    * Status: selecione para exibir somente projetos em [!UICONTROL Status] específicos.

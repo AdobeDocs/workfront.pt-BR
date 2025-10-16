@@ -2,51 +2,52 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Criar uma prova para conteúdo interativo em um arquivo ZIP
-description: Você pode gerar uma prova para conteúdo interativo que não seja de sites armazenado em um arquivo ZIP. Exemplos desse tipo de conteúdo da Web incluem anúncios com streaming de vídeo ou áudio, animações HTML, banners interativos.
+description: Você pode gerar uma prova para conteúdo interativo que não seja de sites armazenado em um arquivo ZIP. Exemplos desse tipo de conteúdo da Web incluem anúncios com streaming de vídeo ou áudio, animações HTML e banners interativos.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '386'
 ht-degree: 1%
 
 ---
 
 # Criar uma prova para conteúdo interativo em um arquivo ZIP
 
-Você pode gerar uma prova para conteúdo interativo que não seja de sites armazenado em um arquivo ZIP. Exemplos desse tipo de conteúdo da Web incluem anúncios com streaming de vídeo ou áudio, animações HTML, banners interativos.
+Você pode gerar uma prova para conteúdo interativo que não seja de sites armazenado em um arquivo ZIP. Exemplos desse tipo de conteúdo da Web incluem anúncios com streaming de vídeo ou áudio, animações HTML e banners interativos.
 
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>Plano atual: Pro ou Superior</p> <p>ou</p> <p>Plano herdado: Premium</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Plano atual: Trabalho ou Plano</p> <p>Plano herdado: Qualquer um (Você deve ter a prova ativada para o usuário)</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> 
+   <p>Standard</p>
+   <p>Trabalho ou Plano</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de Permissões de Prova </td> 
    <td>Gerente ou superior</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar acesso a documentos</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso a documentos</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual perfil de plano, função ou permissão de prova você tem, contate o administrador do Workfront ou do Workfront Proof.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

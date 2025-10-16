@@ -7,31 +7,43 @@ description: O Adobe Workfront Goals vem com um conjunto de notificações de ev
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
 # Ativar notificações do Adobe Workfront Goals
 
+<!--Audited for P&P only: 10/2025-->
+
+>[!NOTE]
+>
+>Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>
+>O Adobe Workfront Goals não está mais disponível para compra.
+>
+>Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+<!--Old:
+
 >[!IMPORTANT]
 >
->Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
+>Your organization must have the following to use the functionality described in this article:
 >
->* Para o novo plano e estrutura de licença:
+>* For the new plan and license structure:
 >
->   * O plano do Ultimate Workfront
+>   * The Ultimate Workfront plan 
 >    
->* Para o plano e a estrutura de licença atuais:
+>* For the current plan and license structure: 
 >
->   * Um plano Pro ou superior do Workfront
->   * Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
->Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
 
 O Adobe Workfront Goals vem com um conjunto de notificações de eventos que podem ser habilitadas para sua conta. Essas notificações de eventos acionam a comunicação por email sempre que a condição definida pelo evento é atendida.
 

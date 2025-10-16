@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Agora é possível acessar com mais facilidade sua lista de favoritos imediatame
 
 A interface reprojetada corresponde à experiência ao criar um projeto a partir de um modelo que também atualizamos recentemente.
 
-Para obter mais informações, consulte [Converter um problema em um projeto no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
+Para obter mais informações, consulte [Converter um problema em um projeto](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Converter problemas em projetos usando um modelo de listas, relatórios e painéis
 

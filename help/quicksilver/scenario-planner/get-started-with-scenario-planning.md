@@ -5,20 +5,19 @@ author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
 # Introdução ao [!DNL Scenario Planner]
 
-O [!DNL Scenario Planner] exige uma licença adicional para a licença [!DNL Adobe Workfront]. Para obter informações sobre o Workfront [!DNL Scenario Planner], consulte [A [!DNL Scenario Planner] visão geral](../scenario-planner/scenario-planner-overview.md).
-
 Você pode usar o [!DNL Adobe Workfront Scenario Planner] para criar planos de nível empresarial que descrevam os resultados estratégicos gerais da sua empresa. Você pode definir várias iniciativas para um plano e colocá-las em vários cenários para encontrar a solução ideal para a execução do plano.
 
 Para obter uma visão geral de alto nível do [!DNL Workfront Scenario Planner], consulte [A [!DNL Scenario Planner] visão geral](../scenario-planner/scenario-planner-overview.md).
+
 
 ## Abordagens para usar o [!DNL Workfront Scenario Planner]
 
@@ -61,7 +60,7 @@ O [!DNL Workfront Scenario Planner] é exibido.
 
    Para obter informações sobre como criar planos, consulte [Criar e editar planos no Scenario Planner](../scenario-planner/create-and-edit-plans.md).
 
-## [!DNL Workfront Scenario Planner] objetos
+## Objetos do [!DNL Workfront Scenario Planner]
 
 A tabela abaixo descreve os objetos [!DNL Workfront Scenario Planner]. O administrador do [!DNL Workfront] pode personalizar o nome no sistema modificando um modelo de layout e atribuindo-o a usuários, equipes ou grupos. Para obter informações sobre como personalizar nomes de objetos usando um modelo de layout, consulte [Personalizar terminologia da interface de usuário usando um modelo de layout](../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 

@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Visão geral da data de transferência da tarefa
+title: Visão Geral da Data de Transferência da Tarefa
 description: A Data de Transferência é a data em que uma tarefa se torna disponível para trabalho. Normalmente, isso significa que suas predecessoras foram resolvidas e o destinatário da tarefa pode começar a trabalhar nela.
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 2%
@@ -68,7 +68,7 @@ O Workfront usa as seguintes regras para calcular a Data de Transferência de um
   Veja a seguir restrições forçadas sobre tarefas:
 
    * Precisa Iniciar Em
-   * Precisa Terminar Em
+   * Deve concluir em
    * Não Iniciar Antes De
    * Não Iniciar Depois De
    * Data fixa

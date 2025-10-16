@@ -3,12 +3,12 @@ product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Enviar planilha de horas para aprovação
 description: Enviar sua planilha de horas para aprovação oferece ao seu gerente visibilidade sobre suas horas de trabalho. Os aprovadores podem verificar se todo o tempo registrado foi alocado nas áreas corretas e se um número suficiente de horas foi registrado para o período de tempo.
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -23,33 +23,31 @@ Enviar sua planilha de horas para aprovação oferece ao seu gerente visibilidad
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td>Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Novo: Claro ou superior </p>
-   <p>Atual: revisão ou superior </p>
+   <td>Licença do Adobe Workfront</td> 
+   <td> <p>Leve ou superior </p>
+   <p>Revisar ou superior </p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Configurações de nível de acesso</td> 
    <td> <p>Visualize ou aumente o acesso a tarefas e problemas </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
+   <td>Permissões de objeto</td> 
    <td> <p>Exibir permissões ou mais altas para a folha de horas</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +87,7 @@ Sem essas notificações, você pode saber mais sobre o status de suas folhas de
 
 Para exibir o status de uma planilha de horas:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+1. Clique no ícone **do** Menu principal![](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
 1. Clique em **Folhas de horas**. O filtro **Todos** é selecionado por padrão.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
@@ -131,7 +129,7 @@ Para exibir o status de uma planilha de horas:
       <td> <p>Sua planilha de horas está aberta no momento e você pode registrar horas. </p> <p>Uma folha de horas cancelada é exibida com um status de Aberta. Para obter informações, consulte a seção <a href="#recall-a-timesheet" class="MCXref xref">Cancelar uma folha de horas</a> neste artigo. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Enviados</td> 
+      <td role="rowheader">Enviado</td> 
       <td>Você enviou sua planilha de horas para aprovação, mas ela ainda não foi aprovada. Você pode cancelar uma folha de horas enviada para continuar a editá-la. Para obter informações, consulte a seção <a href="#recall-a-timesheet" class="MCXref xref">Cancelar uma folha de horas</a> neste artigo. </td> 
      </tr> 
      <tr> 
@@ -155,7 +153,7 @@ Você pode cancelar uma planilha de horas que já foi enviada para aprovação. 
 
 Para chamar novamente uma planilha de horas:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu principal**, no canto superior direito do Adobe Workfront.
+1. Clique no ícone **do** Menu principal![](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
 
 1. Clique em **Folhas de horas**.
 1. Clique em **Minhas Planilhas de Horas** no canto superior direito da tela ou selecione **Minhas Planilhas de Horas** no menu suspenso **Filtro** ![](assets/filter-nwepng.png).

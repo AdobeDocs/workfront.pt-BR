@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
+source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1505'
 ht-degree: 6%
 
 ---
@@ -34,21 +34,18 @@ Como administrador do Adobe Workfront, você pode criar níveis de acesso person
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Novo: Padrão
-   <p>ou</p>
-   <p>Atual: Plano</p></td> 
+   <td><p>Standard</p>
+   <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -66,7 +63,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 {{step-1-to-setup}}
 
 1. Clique em **Níveis de acesso** no painel esquerdo.
-1. &#x200B;
+1. 
    * No ambiente de produção:
 Selecione o nível de acesso que você deseja copiar e personalizar e clique em **Copiar**.
 

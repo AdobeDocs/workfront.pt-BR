@@ -6,10 +6,10 @@ description: Você pode usar o relatório de aprovação de prova para exibir in
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 1%
+source-wordcount: '249'
+ht-degree: 2%
 
 ---
 
@@ -21,32 +21,33 @@ Você pode usar o relatório de aprovação de prova para exibir informações s
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>plano do Workfront*</p> </td> 
+   <td role="rowheader"> <p>Pacote do Workfront</p> </td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Visão geral das licenças da Adobe Workfront*</p> </td> 
-   <td> <p>Plano</p> </td> 
+   <td role="rowheader"> <p>Licença do Adobe Workfront</p> </td> 
+   <td> 
+   <p>Standard</p>
+   <p>Plano</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Nível de acesso*</strong> </td> 
+   <td role="rowheader"><strong>Configuração de nível de acesso</strong> </td> 
    <td> <p>Editar acesso a:</p> 
     <ul> 
      <li> <p>Criar relatórios, painéis e calendários</p> </li> 
      <li> <p>Criar filtros, visualizações e agrupamentos</p> </li> 
-    </ul> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

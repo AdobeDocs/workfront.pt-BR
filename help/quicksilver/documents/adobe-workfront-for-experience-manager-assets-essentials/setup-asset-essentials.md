@@ -6,9 +6,9 @@ description: Conecte seu trabalho ao seu conteúdo no Experience Manager Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
@@ -29,37 +29,37 @@ Conecte seu trabalho ao seu conteúdo no Experience Manager Assets Essentials&#x
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table>
   <tr>
-   <td>[!DNL Adobe Workfront] plano
+   <td><strong>Pacote do Adobe Workfront</strong>
    </td>
    <td>Qualquer
    </td>
   </tr>
   <tr>
-   <td>[!DNL Adobe Workfront] licença
+   <td><strong>licenças do Adobe Workfront</strong>
    </td>
-   <td><p>Atual: [!UICONTROL Plano]</p>
-   <p>Novo: [!UICONTROL Padrão]</p></td>
-  </tr>
-  <tr>
-   <td>[!DNL Experience Manager] licença
-   </td>
-   <td>[!UICONTROL Padrão]
+   <td>
+   <p>Standard</p>
+   <p>Plano</p>
    </td>
   </tr>
   <tr>
-   <td>Produto
+   <td><strong>Produtos adicionais</strong>
    </td>
-   <td>Você deve ter o Experience Manager Assets Essentials e ser adicionado ao produto como usuário na Admin Console.
+   <td>Você deve ter o Experience Manager Assets as a Cloud Service ou o Assets Essentials e deve ser adicionado ao produto como usuário.
    </td>
   </tr>
   <tr>
-   <td>Configurações de nível de acesso
+   <td><strong>Permissões do Experience Manager</strong>
    </td>
-   <td>Você deve ser um administrador [!DNL Workfront].
+   <td>Você deve ter acesso de gravação à pasta de destino na integração do Experience Manager.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Configurações de nível de acesso</strong>
+   </td>
+   <td>Você deve ser um administrador do Workfront para configurar uma integração com o Experience Manager. Após a configuração, os usuários com uma licença de Plano podem configurar pastas vinculadas em projetos individuais.
    </td>
   </tr>
 </table>
@@ -111,7 +111,7 @@ Mapeie dados de objetos do Workfront para campos de mídia de ativos no Experien
 
 Antes de começar, você deve
 
-* Configure um esquema de metadados no Experience Manager Assets Essentials conforme explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+* Configure um esquema de metadados no Experience Manager Assets Essentials conforme explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 * (Opcional) Configure campos de formulário personalizados no Workfront. O Workfront tem muitos campos personalizados internos que você pode usar. No entanto, você também pode criar seus próprios campos personalizados. Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Campos Workfront e Experience Manager Assets compatíveis
@@ -126,7 +126,7 @@ Para mapear vários campos de texto de linha única para palavras-chave, insira 
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=pt-BR).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 

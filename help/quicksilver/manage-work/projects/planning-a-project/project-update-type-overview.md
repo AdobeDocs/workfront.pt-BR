@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Visão geral do Tipo de atualização de projeto
+title: Visão geral do tipo de atualização de projeto
 description: O Tipo de atualização de um projeto indica como o Adobe Workfront calcula a linha do tempo de um projeto. As alterações no plano de projeto podem acionar alterações na linha do tempo do projeto. A linha do tempo do projeto deve ser recalculada automática ou manualmente para garantir que esteja atualizada com essas alterações.
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%

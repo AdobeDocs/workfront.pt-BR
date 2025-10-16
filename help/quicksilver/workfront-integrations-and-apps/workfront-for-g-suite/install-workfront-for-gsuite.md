@@ -7,9 +7,9 @@ description: Você pode instalar o complemento  [!DNL Adobe Workfront] for Googl
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
+source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -26,32 +26,34 @@ ht-degree: 0%
 >
 >Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
 >
->Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+>Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Google Workspace, consulte [módulos do Gmail](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [módulos do Google Calendar](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Google Workspace, consulte [módulos do Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [módulos do Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
 Você pode instalar o complemento [!DNL Adobe Workfront for Google Workspace] no [!DNL Google Workspace] Marketplace.
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano*</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença*</td> 
-   <td> <p>[!UICONTROL Trabalho], [!UICONTROL Plano]</p> </td> 
-  </tr>
-   </tbody> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Standard</p><p>Trabalhar ou superior</p>
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do [!DNL Workfront].
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Instalar [!DNL Workfront for Google Workspace]
 
@@ -62,6 +64,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    Clique no ícone de adição na barra lateral de complementos do [!DNL Google Workspace] na extremidade direita de um aplicativo do [!DNL Google Workspace] ([!DNL Gmail], [!DNL Google Calendar] ou [!DNL Google Drive]). Pesquise por *[!DNL Workfront for Google Workspace]* e clique no item de aplicativo [!DNL Workfront for Google Workspace] que aparece.
 
 1. Clique em **[!UICONTROL Instalar]** e siga as instruções exibidas.
-1. (Condicional) No aplicativo [!DNL Google Workspace], se você não vir o ícone [!DNL Workfront]Workfront icon![&#x200B; do &#x200B;](assets/wf-lion-icon.png) na barra lateral de complementos do [!DNL Google Workspace] na extremidade direita da página, atualize a página.
+1. (Condicional) No aplicativo [!DNL Google Workspace], se você não vir o ícone [!DNL Workfront]Workfront icon![ do ](assets/wf-lion-icon.png) na barra lateral de complementos do [!DNL Google Workspace] na extremidade direita da página, atualize a página.
 
 Para obter informações sobre como fazer logon, consulte [Logon e saída [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).

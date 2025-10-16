@@ -6,9 +6,9 @@ description: No painel [!UICONTROL painéis], é possível criar um novo painel 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '845'
 ht-degree: 1%
 
 ---
@@ -23,23 +23,21 @@ No painel [!UICONTROL painéis], é possível criar um novo painel ou editar um 
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
-    <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td> <p>Novo: Colaborador ou superior </p>
- <p>ou</p> 
-<p>Atual: [!UICONTROL Request] ou superior </p> 
-</td> 
-  </tr>
+  <tr> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> 
+   <p>Colaborador ou superior</p> 
+   <p>Solicitação ou superior</p>
+   </td> 
+  </tr> 
  </tbody> 
 </table>
 

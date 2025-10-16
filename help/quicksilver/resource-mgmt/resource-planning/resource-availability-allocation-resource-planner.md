@@ -6,9 +6,9 @@ description: Você pode visualizar a disponibilidade de seus recursos e a quanti
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1199'
 ht-degree: 4%
 
 ---
@@ -21,26 +21,21 @@ Você pode visualizar a disponibilidade de seus recursos e a quantidade de traba
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td><p>Novo: Qualquer um</p>
-       <p>ou</p>
-       <p>Atual: Pro ou superior</p> </td> 
+  <tr>
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Claro ou superior</p>
-       <p>ou</p>
-       <p>Atual: revisão ou superior</p></td>
+   <td>Licença do Adobe Workfront</td> 
+   <td><p>Leve ou superior</p>
+       <p>Revisar ou superior</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Configurações de nível de acesso</td> 
    <td> <p>Visualize ou tenha acesso superior ao seguinte:</p> 
     <ul> 
      <li> <p>Gerenciamento de recursos</p> </li> 
@@ -50,13 +45,13 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
+   <td>Permissões de objeto</td> 
    <td> <p>Visualize ou tenha permissões mais altas para os projetos que deseja visualizar no Planejador de recursos</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -167,7 +162,7 @@ Considere o seguinte ao alterar sua exibição para o Planejador de recursos:
    | Líquido |   | ✔ | ✔ |
    | Efetivo | ✔ |   |   |
    | Diferença | ✔ |   |   |
-   | Percentual | ✔ |   |   |
+   | Porcentagem | ✔ |   |   |
 
 1. Selecione **Usar valores Planejados (PLN) em cálculos LÍQUIDOS** para usar informações Planejadas em vez de Orçadas ao calcular os valores Líquidos nas exibições de Projeto e Função.
 

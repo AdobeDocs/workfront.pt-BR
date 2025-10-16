@@ -8,50 +8,47 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 51dfd1ff1ad0f5847db42cfc1d5f9b5f907f672d
+source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1855'
 ht-degree: 0%
 
 ---
 
 # Configurar [!DNL Workfront] com conector herdado [!DNL Adobe Experience Manager]
 
+<!-- Audited: 4/2025 -->
+
 Como administrador do [!DNL Adobe Workfront], você pode integrar o [!DNL Workfront] ao [!UICONTROL Adobe Experience Manager (AEM) Assets] e fornecer à sua organização uma solução abrangente de gerenciamento de conteúdo para a criação, o compartilhamento e a manutenção de ativos no seu fluxo de trabalho.
 
 ## Requisitos de acesso
 
-<!-- Audited: 4/2025 -->
-
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
-   <td>Qualquer</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td><p>Novo: Padrão</p>
-   <p>Ou</p>
-   <p>Atual: Plano</p>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td>Administrador de Sistema </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td>Pacote do Adobe Workfront
+   </td>
+   <td> <p>Prime ou Ultimate</p>
+    <p>Workflow Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Licenças do Adobe Workfront
+   </td>
+   <td><p>Standard</p>
+   <p>Plano</p>
+   </td>
+  </tr>
+   <tr>
+   <td>Configurações de nível de acesso
+   </td>
+   <td>Você deve ser um administrador [!DNL Workfront].
+   </td>
+  </tr>
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## [!DNL Workfront for AEM Assets]
 
@@ -74,7 +71,7 @@ O [!DNL Workfront for AEM Assets connector] permite que sua organização faça 
 
 Antes de instalar o conector [!DNL Workfront] para [!UICONTROL AEM Assets], verifique se os seguintes pré-requisitos foram atendidos:
 
-* O [!UICONTROL AEM Assets] está instalado e configurado, versão 6.5 ou posterior. Para obter informações sobre como instalar o [!UICONTROL AEM Assets], consulte a [[!DNL Adobe Experience Manager] documentação](https://experienceleague.adobe.com/pt-br/docs/experience-manager).
+* O [!UICONTROL AEM Assets] está instalado e configurado, versão 6.5 ou posterior. Para obter informações sobre como instalar o [!UICONTROL AEM Assets], consulte a [[!DNL Adobe Experience Manager] documentação](https://experienceleague.adobe.com/en/docs/experience-manager).
 * (Condicional) Se as regras de firewall não permitirem o tráfego conforme o esperado, adicione o endereço IP e/ou domínio do cluster à inclui na lista de permissões. Incluir na lista de permissões Para obter mais informações, consulte [Configurar o arquivo do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Instalar o pacote do conector [!DNL Workfront for AEM Assets] {#install-the-workfront-for-aem-assets-connector-package}
@@ -244,7 +241,7 @@ O [!UICONTROL Externalizador do AEM] permite que o AEM passe URLs em um formato 
 
 ## Configurar [!DNL Workfront] para integrar com [!DNL AEM assets] {#configure-workfront-to-integrate-with-aem-assets}
 
-Depois de instalar o Conector do [!UICONTROL Workfront for AEM Assets] (conforme descrito em [Instalar o pacote de conectores do [!UICONTROL Workfront for AEM Assets]](#install-the-workfront-for-aem-assets-connector-package)) e configurar o [!UICONTROL AEM Assets] (conforme descrito em [Configurar[!UICONTROL &#x200B; AEM Assets] para integração com o  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)), você precisará configurar o [!DNL Workfront] para vincular documentos entre o [!DNL Workfront] e o [!DNL AEM Assets].
+Depois de instalar o Conector do [!UICONTROL Workfront for AEM Assets] (conforme descrito em [Instalar o pacote de conectores do [!UICONTROL Workfront for AEM Assets]](#install-the-workfront-for-aem-assets-connector-package)) e configurar o [!UICONTROL AEM Assets] (conforme descrito em [Configurar[!UICONTROL  AEM Assets] para integração com o  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)), você precisará configurar o [!DNL Workfront] para vincular documentos entre o [!DNL Workfront] e o [!DNL AEM Assets].
 
 1. Faça logon no Workfront como administrador.
 

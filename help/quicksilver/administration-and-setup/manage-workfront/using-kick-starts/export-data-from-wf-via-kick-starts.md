@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
+source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 7%
+source-wordcount: '1019'
+ht-degree: 8%
 
 ---
 
@@ -32,32 +32,27 @@ A exportação de dados por meio do Kick-Starts também é útil para entender q
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td>Qualquer</td> 
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>
-   <p>Novo: Padrão</p>
-   Ou
-   <p>Atual: Plano</p>
-   </td> 
+   <td>Licença do Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plano</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td>[!UICONTROL Administrador do Sistema]</td>
+   <td>Configurações de nível de acesso</td> 
+   <td>Administrador de Sistema</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -238,7 +233,7 @@ As seguintes limitações existem ao exportar dados por meio de kick-starts (os 
       <td valign="top">ZIP</td> 
      </tr> 
      <tr> 
-      <td valign="top">Hora</td> 
+      <td valign="top">Hour</td> 
       <td valign="top"> Hora<br>Preferências </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -258,7 +253,7 @@ As seguintes limitações existem ao exportar dados por meio de kick-starts (os 
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
-      <td valign="top">Nota</td> 
+      <td valign="top">Observação</td> 
       <td valign="top"> Nota<br>Preferências </td> 
       <td valign="top">Excel</td> 
      </tr> 

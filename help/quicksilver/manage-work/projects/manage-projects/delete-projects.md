@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -28,36 +28,59 @@ Você pode excluir um projeto em uma lista de projetos ou no nível do projeto.
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Pacote do Adobe Workfront</p> </td> 
+   <td>Qualquer</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Licença do Adobe Workfront</p> </td> 
+   <td> <p>Standard</p>
+   <p>Plano</p> 
+   </td> 
+  </tr> 
+    <td>Configurações de nível de acesso</td> 
+   <td> <p>Editar acesso aos Projetos com capacidade para Criar e Excluir projetos</p> </td> 
+  </tr> 
+    <td> <p>Permissões de objeto</p> </td> 
+   <td> <p>Editar acesso a Projetos, Tarefas, Problemas com capacidade de Excluir projetos, tarefas e problemas</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>plano do Adobe Workfront</p> </td> 
-   <td>Qualquer</td> 
+   <td> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p>Licença da Adobe Workfront*</p> </td> 
-   <td> <p>Nova licença: Standard </p>
-   <p>Licença atual: plano </p> 
+   <td> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>New license: Standard </p>
+   <p>Current license: Plan </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Configuração do nível de acesso</td> 
-   <td> <p>Editar acesso aos Projetos com capacidade para Criar e Excluir projetos</p> </td> 
+   <td>Access level configuration</td> 
+   <td> <p>Edit access to Projects with ability to Create and Delete projects</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Permissões de objeto </p> </td> 
-   <td> <p>Editar acesso a Projetos, Tarefas, Problemas com capacidade de Excluir projetos, tarefas e problemas</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-*Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Entender o processo de exclusão de projetos
 
@@ -98,7 +121,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    * Linhas de base
    * Informações do Business Case
    * Informações de Detalhes da Fila
-   * Preços
+   * Taxas de cobrança
    * Registro de cobrança
 
      Não é possível excluir um projeto que tenha Registros de cobrança com status Faturado. Para obter mais informações, consulte [Criar registros de cobrança](../../projects/project-finances/create-billing-records.md).

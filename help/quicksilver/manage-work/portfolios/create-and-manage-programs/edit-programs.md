@@ -6,9 +6,9 @@ description: É possível editar informações sobre programas criados por você
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
+source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
@@ -23,15 +23,12 @@ Você pode editar um programa na página do programa ou editar um ou vários pro
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] pacote</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
@@ -40,7 +37,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <p>[!UICONTROL Plano]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Nível de acesso</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Acesso de [!UICONTROL Editar] a Programas</p>  </td> 
   </tr> 
   <tr> 

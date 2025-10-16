@@ -7,16 +7,16 @@ description: Um Objeto Resolvível é um problema cuja resolução está vincula
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 1%
+source-wordcount: '1760'
+ht-degree: 2%
 
 ---
 
 # Visão Geral de Objetos Resolventes e Resolvíveis
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 08/2025 -->
 
 Um Objeto Resolvível é um problema cuja resolução está vinculada a um Objeto Resolução. Um Objeto de Resolução é um projeto, tarefa ou outro problema.
 
@@ -76,7 +76,7 @@ The default status of the issue is controlled by the status of the project or ta
 
 ## Manipular o objeto resolvível durante a conversão em um projeto ou tarefa
 
-Dependendo de como o administrador do Workfront ou do grupo configurou as preferências de problemas no nível do sistema ou do grupo, você pode lidar com o objeto que pode ser resolvido durante a conversão de um problema em um projeto ou uma tarefa.
+Dependendo de como o administrador do Workfront ou do grupo configurou as Preferências de problemas no nível do sistema ou do grupo, você pode lidar com o objeto que pode ser resolvido durante a conversão de um problema em um projeto ou tarefa.
 
 Existem os seguintes cenários:
 

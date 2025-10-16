@@ -5,43 +5,42 @@ description: Você pode resumir rapidamente itens de trabalho e documentos usand
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 1%
+source-wordcount: '278'
+ht-degree: 0%
 
 ---
 
 # Obter ajuda do Assistente de IA
 
-O AI Assistant pode localizar informações da documentação do Workfront, eliminando a necessidade de visitar o Adobe Experience League para obter a ajuda necessária.
+O Assistente de IA pode localizar informações da documentação do Workfront, eliminando a necessidade de visitar a Adobe Experience League para obter a ajuda necessária.
 
 Por exemplo, se você perguntar ao Assistente de IA &quot;Como criar uma fila de solicitações&quot;, ele retornará instruções para criar a solicitação, extraídas do artigo [Criar e gerenciar filas de solicitações](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
+
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td><p>Novo: Qualquer um</p>
-       <p>ou</p>
-       <p>Atual: não disponível</p></td>
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
-       <p>ou</p>
-       <p>Atual: não disponível</p></td>
+   <td><p>Qualquer</p>
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos
 
@@ -63,5 +62,5 @@ Para obter informações ou instruções da Documentação do Workfront usando o
 
 1. Visualize a resposta no painel Assistente de IA.
 1. (Opcional) Se a resposta não contiver as informações necessárias, refine sua resposta e tente novamente.
-1. (Opcional e condicional) Se a resposta incluir um link para um artigo do Adobe Experience League, clique no link para abrir o artigo em uma nova janela.
+1. (Opcional e condicional) Se a resposta incluir um link para um artigo da Adobe Experience League, clique no link para abrir o artigo em uma nova janela.
 

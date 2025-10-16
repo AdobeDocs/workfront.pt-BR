@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibir: caminho de envio dos problemas"
+title: 'View: Caminho de Submissão para Emissões'
 description: Na visualização de um relatório de problemas, é possível exibir o caminho pelo qual um problema foi enviado. O caminho indica a Fila, o Grupo de tópicos e o Tópico da fila em que o problema foi enviado originalmente.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bee1e066-c3f4-4d74-92b0-ab7f43d52a50
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -26,44 +26,33 @@ Na visualização de um relatório de problemas, é possível exibir o caminho p
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p> Atual: 
-   <ul>
-   <li>Solicitação para modificar uma exibição</li> 
-   <li>Planejar a modificação de um relatório</li>
-   </ul>
-     </p>
-     <p> Novo: 
-   <ul>
-   <li>Colaborador para modificar uma visualização</li> 
-   <li>Padrão para modificar um relatório</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Colaborador ou Solicitação para modificar uma exibição </p>
+   <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

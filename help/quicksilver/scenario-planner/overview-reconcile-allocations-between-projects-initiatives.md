@@ -6,7 +6,7 @@ description: Visão geral da reconciliação de alocações de recursos entre pr
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Você pode conectar projetos a iniciativas seguindo um destes procedimentos:
 
   Para obter mais informações, consulte [Importar projetos para planos na [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
-* Iniciativas do Publish para projetos
+* Publicar iniciativas nos projetos
 
   Para obter mais informações, consulte [Atualizar ou criar projetos publicando iniciativas em [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 

@@ -7,9 +7,9 @@ description: Você pode adicionar um formulário personalizado existente a qualq
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '730'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Você pode adicionar um formulário personalizado existente a qualquer um dos ob
 * Grupos
 * Iterações
 * Despesas
-* Registros de faturamento
+* Registros de cobrança
 
 Você pode adicionar um formulário personalizado somente aos tipos de objetos para os quais o formulário foi criado.
 
@@ -41,38 +41,64 @@ Você pode adicionar um formulário personalizado somente aos tipos de objetos p
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as ações descritas neste artigo:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
+  </tr> 
+<tr> 
+  <td role="rowheader">Licença do Adobe Workfront</td> 
+  <td> <p>Colaborador ou superior</p>
+ <p>Solicitação ou superior</p> 
+</td> 
+ </tr> 
+  <tr> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td> <p>Editar o acesso aos objetos para os quais você gerencia formulários personalizados</p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Permissões de objeto</td> 
+   <td> <p>Gerencie permissões para o objeto ao qual você deseja anexar um formulário personalizado.</p> <p>Exiba ou aumente as permissões do formulário personalizado, com permissão para <b>Anexar a objetos de Dados Personalizados</b> (projetos, tarefas e problemas).</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td> <p>Qualquer </p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Licença do Adobe Workfront</td> 
-  <td> <p>Novo: Colaborador ou superior </p>
- <p>ou</p> 
-<p>Atual: solicitação ou superior </p> 
+  <td role="rowheader">Adobe Workfront license</td> 
+  <td> <p>New: Contributor or higher </p>
+ <p>or</p> 
+<p>Current: Request or higher </p> 
 </td> 
  </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
-   <td> <p>Editar o acesso aos objetos para os quais você gerencia formulários personalizados</p>
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to the objects for which you manage custom forms</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerencie permissões para o objeto ao qual você deseja anexar um formulário personalizado.</p> <p>Exiba ou aumente as permissões do formulário personalizado, com permissão para <b>Anexar a objetos de Dados Personalizados</b> (projetos, tarefas e problemas). Para obter mais informações, consulte <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartilhar um formulário personalizado</a>.</p> <p>Importante: se você não tiver uma licença de Plano com acesso administrativo ao Forms Personalizado, deverá ter permissões específicas para pelo menos exibir o formulário personalizado, conforme descrito em <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Compartilhar um formulário personalizado</a>. Essas permissões devem ser concedidas a você mesmo se o formulário estiver visível em todo o sistema. </p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso a objetos</a>.</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the object for which you want to attach a custom form.</p> <p>View or higher permissions to the custom form, with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to&nbsp;Custom&nbsp;Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>
-
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-+++
+</table>-->
 
 ## Pré-requisitos
 
@@ -132,11 +158,11 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Navegue até uma lista de objetos.
 1. Selecione vários objetos na lista.
 
-1. Clique no menu ![](assets/more-icon.png) **Mais** e no ícone ![](assets/edit-icon.png) **Editar**.
+1. Clique no menu **** Mais![](assets/more-icon.png) e no ícone **** Editar![](assets/edit-icon.png).
 
    Ou
 
-   Clique no ícone ![](assets/edit-icon.png) de **Editar** na parte superior da lista.
+   Clique no ícone **de** Editar![](assets/edit-icon.png) na parte superior da lista.
 1. Clique em **Forms Personalizado** no painel esquerdo.
 1. no menu suspenso **Fazer uma seleção**, selecione o formulário que deseja associar a todos os objetos selecionados.
 

@@ -6,10 +6,10 @@ description: Os usuários podem solicitar acesso a objetos no Adobe Workfront. P
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 2c94dd423cfffc7685f24699fa73fb6a48cf2806
+source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 0%
+source-wordcount: '479'
+ht-degree: 1%
 
 ---
 
@@ -25,22 +25,21 @@ Se você for o proprietário de um objeto, poderá conceder ou negar acesso aos 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td> <p>Qualquer</p> </td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td> <p>Novo: Padrão</p> 
-   <p>Atual: trabalho ou superior</p> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Standard</p> 
+   <p>Trabalhar ou superior</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -53,7 +52,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-*Para obter mais informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,7 +60,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 1. Clique no **Menu principal** ![](assets/dots-main-menu.png) no canto superior direito da tela ou no **Menu principal** ![](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, em seguida clique em **Página inicial**
 Ou
-Clique no ícone ![](assets/home-icon-30x29.png) da **Página inicial**, no canto superior esquerdo da Adobe Workfront.
+Clique no ícone **da** Página inicial![](assets/home-icon-30x29.png), no canto superior esquerdo da Adobe Workfront.
 
    >[!NOTE]
    >

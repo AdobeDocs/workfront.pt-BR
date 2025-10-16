@@ -2,12 +2,12 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: "Visão geral do tipo de duração: trabalho calculado"
+title: 'Visão Geral Do Tipo De Duração: Trabalho Calculado'
 description: O Trabalho calculado é um Tipo de duração que pode ser definido para uma tarefa no Adobe Workfront. Para obter informações gerais sobre Tipos de duração no Workfront, consulte Visão geral da duração da tarefa e Tipo de duração.
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -22,7 +22,7 @@ O Trabalho calculado é um Tipo de duração que pode ser definido para uma tare
 
 O Trabalho Calculado determina a quantidade de esforço (Horas Planejadas) necessário para a tarefa ser concluída. Recomendamos que você use o Tipo de Duração do Trabalho Calculado quando os recursos atribuídos à tarefa forem alocados para toda a duração da tarefa.
 
-O Workfront ou um administrador de grupo pode definir o Tipo de duração padrão do sistema ou grupo como Trabalho calculado. Nesse caso, todas as novas tarefas serão criadas com esse Tipo de Duração. Para obter informações sobre como alterar as preferências de tarefas e problemas como parte das preferências de projetos no nível do sistema ou do grupo, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+O Workfront ou um administrador de grupo pode definir o Tipo de duração padrão do sistema ou grupo como Trabalho calculado. Nesse caso, todas as novas tarefas serão criadas com esse Tipo de Duração. Para obter informações sobre como alterar as preferências de tarefas e problemas como parte das preferências de projetos no nível do sistema ou do grupo, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 À medida que recursos são adicionados a uma tarefa, um gerente de projeto pode esperar que o esforço planejado aumente. Para ilustrar, uma reunião de planejamento de uma hora com três recursos representa três horas totais de trabalho necessário, e uma reunião de planejamento de uma hora com dez recursos representa dez horas de trabalho necessário. Isso pressupõe que cada recurso esteja alocado para a tarefa com 100% de alocação.
 

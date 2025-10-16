@@ -6,10 +6,10 @@ description: O botão Concluído pode definir automaticamente o status de uma ta
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: dd47158a4c2e1b7372af6c9450b2d277d1ca8c6f
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 1%
+source-wordcount: '759'
+ht-degree: 2%
 
 ---
 
@@ -33,23 +33,20 @@ Os usuários com determinadas permissões podem configurar o botão [!UICONTROL 
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>plano do Adobe Workfront</p> </td> 
+   <td role="rowheader"> <p>Pacote do Adobe Workfront</p> </td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Novo: Padrão</p>
-   <p>ou</p>
-   <p>Atual: Plano</p></td>
-  </tr> 
+   <p>Standard</p>
+   <p>Plano</p></td>
+  </tr>  
  </tbody> 
 </table>
 
@@ -99,7 +96,7 @@ Para tornar as alterações na funcionalidade de botão [!UICONTROL Concluído] 
 
 Para associar usuários a uma Equipe da Página Inicial:
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **[!UICONTROL Menu Principal]** no canto superior direito de [!DNL Adobe Workfront].
+1. Clique no ícone **[!UICONTROL do]** Menu Principal![](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront].
 
 1. Clique em **[!UICONTROL Usuários]** e selecione o(s) usuário(s) que deseja associar a uma Equipe interna.
 1. Clique no menu **[!UICONTROL Mais]** e em **[!UICONTROL Editar]**.\

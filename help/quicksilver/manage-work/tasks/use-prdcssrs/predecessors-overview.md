@@ -2,14 +2,14 @@
 content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
-title: Visão geral das predecessoras da tarefa
+title: Visão Geral de Predecessoras da Tarefa
 description: Um predecessor é a tarefa da qual outra tarefa (chamada de tarefa sucessora ou dependente) depende. O Adobe Workfront oferece suporte a cinco tipos de dependências de predecessoras.
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---

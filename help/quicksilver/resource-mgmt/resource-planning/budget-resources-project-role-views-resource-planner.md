@@ -6,9 +6,9 @@ description: Você pode estimar recursos no Planejador de recursos do Adobe Work
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -35,36 +35,31 @@ Antes de começar a orçar as informações no Planejador de recursos, consulte 
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-    <td><p>Novo: Qualquer um</p>
-       <p>ou</p>
-       <p>Atual: Pro ou superior</p> </td> 
+   <td>Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
-       <p>ou</p>
-       <p>Atual: Plano</p></td> 
+   <td>Licença do Adobe Workfront</td> 
+   <td><p>Standard</p>
+       <p>Plano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
+   <td>Configurações de nível de acesso</td> 
    <td> <p>Editar acesso ao Gerenciamento de recursos que inclui acesso a Editar prioridades e horas de orçamento no Planejador de recursos</p> <p>Editar acesso a Dados Financeiros para recursos de orçamento por Custo</p> <p>Editar acesso a projetos e usuários</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões de objeto</td> 
+   <td>Permissões de objeto</td> 
    <td> <p>Gerenciar permissões para os projetos para os quais você deseja orçar informações</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -109,7 +104,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    * Clique no menu **Mais** do projeto e em **Definir as horas planejadas das funções como orçadas**.\
      As horas orçadas para cada função são calculadas usando a seguinte fórmula:\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -158,7 +153,7 @@ Você deve ter acesso de Edição a Gerenciamento de Recursos e a Dados Financei
 
 Para obter informações sobre o acesso necessário para recursos de orçamento, consulte o artigo [Acesso necessário para recursos de orçamento no Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Para alocações de orçamento no Planejador de recursos na visualização de função **&#x200B;**:
+Para alocações de orçamento no Planejador de recursos na visualização de função ****:
 
 1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
 
@@ -179,8 +174,8 @@ Para alocações de orçamento no Planejador de recursos na visualização de fu
    * Na coluna **BDG**, especifique manualmente um número de horas orçadas, FTE ou custo para as funções de trabalho.\
      Isso distribui as Horas orçadas da função para as Horas orçadas do projeto para os projetos que você tem acesso para gerenciar.
 
-   * Clique no menu **Mais** da função de trabalho e clique em **Definir as horas planejadas dos projetos como orçadas.**&#x200B;As horas orçadas da função são calculadas usando a seguinte fórmula:\
-     &#x200B;*
+   * Clique no menu **Mais** da função de trabalho e clique em **Definir as horas planejadas dos projetos como orçadas.**As horas orçadas da função são calculadas usando a seguinte fórmula:\
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

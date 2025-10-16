@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Visualização: detalhes da origem do problema para tarefas e projetos"
+title: 'Exibir: Detalhes do Problema Originador para Tarefas e Projetos'
 description: Quando um problema é convertido em uma tarefa ou um projeto, uma relação de objeto de resolução é estabelecida entre a tarefa ou o projeto e o problema. Essa exibição mostra os campos do problema que é concluído automaticamente quando a tarefa ou o projeto é concluído.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '289'
 ht-degree: 3%
 
 ---
@@ -36,44 +36,33 @@ Para obter mais informações, consulte também [Exibir: exibir informações de
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p> Atual: 
-   <ul>
-   <li>Solicitação para modificar uma exibição</li> 
-   <li>Planejar a modificação de um relatório</li>
-   </ul>
-     </p>
-     <p> Novo: 
-   <ul>
-   <li>Colaborador para modificar uma visualização</li> 
-   <li>Padrão para modificar um relatório</li>
-   </ul>
-     </p>
-    </td> 
+   <td> 
+   <p>Colaborador ou Solicitação para modificar uma exibição </p>
+   <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório</p> </td> 
+   <td> <p>Gerenciar permissões para um relatório</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 +++
 

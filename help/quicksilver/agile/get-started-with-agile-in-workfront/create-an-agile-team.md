@@ -6,9 +6,9 @@ description: O Adobe Workfront permite que equipes ágeis concluam o trabalho de
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
+source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '990'
 ht-degree: 1%
 
 ---
@@ -31,8 +31,6 @@ O [!DNL Workfront] oferece suporte às seguintes metodologias ágeis:
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -40,15 +38,14 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plano</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td> <p>Novo: Padrão</p>
-   Atual: 
-   <ul><li><p>[!UICONTROL Plano] para criar uma nova Equipe Ágil</p></li> 
-   <li><p>[!UICONTROL Trabalho] ou superior para converter um grupo em um grupo ágil</p></li></ul> </td> 
+   <td role="rowheader">Licença do Adobe Workfront</td> 
+   <td> <p>Standard</p>
+   <p>Planejar a criação de uma nova equipe ágil</p>
+  <p>Trabalhar ou mais para converter uma equipe em uma equipe ágil</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,9 +6,9 @@ description: O painel de navegação esquerdo do  [!DNL Workfront]  facilita a n
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
+source-git-commit: 0fbbf7fccee0158cc0630703ed1b663cf42725dd
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1370'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ A maioria das áreas e objetos no WF usam um painel de navegação simples no la
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
++++Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,17 +39,22 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plano*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] pacote</strong></td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Solicitação] ou superior</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licença</strong></td> 
+   <td>
+   <p>Colaborador ou superior</p>
+   <p>Solicitação ou superior</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Para saber que tipo de plano ou licença você tem, contate o administrador do [!DNL Workfront].
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Seções padrão no painel de navegação esquerdo
 
@@ -75,7 +80,7 @@ O painel esquerdo está disponível para os seguintes objetos:
 >[!IMPORTANT]
 >
 >Se o painel esquerdo exibir apenas uma seção por padrão, como **[!UICONTROL Todos os projetos]** na área **[!UICONTROL Projetos]**, um administrador do [!DNL Workfront] deverá adicionar pelo menos um painel a esta área ao criar um modelo de layout e atribuir você a esse modelo antes que o painel esquerdo seja exibido nessa área.
->&#x200B;>Para obter informações sobre como um administrador do [!DNL Workfront] personaliza o painel esquerdo em um modelo de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>>Para obter informações sobre como um administrador do [!DNL Workfront] personaliza o painel esquerdo em um modelo de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 O painel esquerdo está disponível para as seguintes áreas:
 
@@ -84,7 +89,7 @@ O painel esquerdo está disponível para as seguintes áreas:
 * [Seções padrão na área [!UICONTROL Recursos]](#default-sections-in-the-resourcing-area)
 * [Seções padrão na área [!UICONTROL Projetos]](#default-sections-in-the-projects-area)
 * [Seções padrão na área [!UICONTROL Folhas de horas]](#default-sections-in-the-timesheets-area)
-* [Seções padrão na área  [!DNL Goals] &#x200B;](#default-sections-in-the-goals-area)
+* [Seções padrão na área  [!DNL Goals] ](#default-sections-in-the-goals-area)
 
 ### Seções padrão na área [!UICONTROL Painéis]
 
@@ -269,7 +274,7 @@ Para saber quais seções estão disponíveis para áreas específicas, consulte
 
 1. (Opcional) Para remover um link rápido do painel, passe o mouse sobre o painel na navegação à esquerda e clique no ícone **Remover** ![Ícone Remover](assets/remove-dashboard-from-left.png) quando ele aparecer.
 
-1. (Opcional) Para alterar a ordem de uma seção no painel esquerdo, clique no ícone **&#x200B;**&#x200B;Arrastar![](assets/drag-icon.png) ao lado de uma seção e arraste-a para cima ou para baixo.
+1. (Opcional) Para alterar a ordem de uma seção no painel esquerdo, clique no ícone **** Arrastar![](assets/drag-icon.png) ao lado de uma seção e arraste-a para cima ou para baixo.
 
    ![Arraste uma seção](assets/drag-section.png)
 

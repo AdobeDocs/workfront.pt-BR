@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
@@ -23,28 +23,21 @@ Prioridades exibe os itens de trabalho atribuídos a você. Não é possível ve
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> 
-   <p>Novo: Qualquer um </p>
-   <p>Atual: Pro ou superior</p>
+   <p>Qualquer</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-      <p><strong>Fazer upload de documentos</strong></p>
-   <p>Novo: Colaborador</p>
-   <p>Atual: solicitação</p>
-      <p><strong>Criar provas</strong></p>
-        <p>Novo: Padrão</p>
-     <p>Atual: Trabalho ou Plano</p>
+   <p>Colaborador ou superior para carregar documentos; Padrão para criar provas</p>
+   <p>Solicitação ou superior para carregar documentos; Trabalho ou superior para criar provas</p>
    </td> 
   </tr> 
   <tr> 
@@ -52,7 +45,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td>Gerente ou superior</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso*</td> 
+   <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a documentos</p> </td> 
   </tr> 
  </tbody> 

@@ -7,9 +7,9 @@ description: É possível criar uma pasta vinculada ao Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
+source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -24,23 +24,23 @@ Se um ativo for excluído ou movido de uma pasta vinculada dentro do Experience 
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte:
-
 <table>
   <tr>
-   <td><strong>Plano Adobe Workfront*</strong>
+   <td><strong>Pacote do Adobe Workfront</strong>
    </td>
    <td>Qualquer
    </td>
   </tr>
   <tr>
-   <td><strong>Licenças do Adobe Workfront*</strong>
+   <td><strong>licenças do Adobe Workfront</strong>
    </td>
-   <td>Plano
+   <td>
+   <p>Standard</p>
+   <p>Plano</p>
    </td>
   </tr>
   <tr>
-   <td><strong>Produto</strong>
+   <td><strong>Produtos adicionais</strong>
    </td>
    <td>Você deve ter o Experience Manager Assets as a Cloud Service ou o Assets Essentials e deve ser adicionado ao produto como usuário.
    </td>
@@ -59,8 +59,7 @@ Você deve ter o seguinte:
   </tr>
 </table>
 
-
-*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

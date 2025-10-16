@@ -6,9 +6,9 @@ description: Gerenciar feedback em várias versões ou revisões de um trabalho 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
+source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -36,21 +36,19 @@ Considere as seguintes informações ao criar uma nova versão de uma prova:
 
 +++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td> <p>Atual: Pro ou superior</p> <p>ou</p> <p>Herdados: Select ou Premium</p> <p>Para obter mais informações sobre acesso de revisão de texto com os diferentes planos, consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Acesso à funcionalidade de revisão de texto no Workfront</a>.</p> </td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Atual: Padrão</p> 
-   <p>Ou</p>
-   <p>Herdados: Trabalho ou Plano (é necessário ter a prova ativada para o usuário)</p> </td> 
+   <td> <p>Standard</p> 
+   <p>Trabalho ou Plano</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Perfil de Permissões de Prova </td> 
@@ -58,12 +56,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a documentos</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td> <p>Editar acesso a documentos</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -208,7 +206,7 @@ If the creator or owner of&nbsp;&nbsp;the proof has
 
 ## Sobre a mensagem Nova versão
 
-Se houver um assunto/mensagem personalizado incluído na versão anterior da prova, ele será exibido por padrão na página Nova versão. Você pode:
+Se houver um assunto/mensagem personalizado incluído na versão anterior da prova, ele será exibido por padrão na página Nova versão. É possível:
 
 * Editar o assunto e a mensagem.
 * Desmarque a caixa Notificar pessoas por email, o que significa que nenhum email será enviado aos revisores para notificá-los de que eles têm uma nova versão para revisar.
