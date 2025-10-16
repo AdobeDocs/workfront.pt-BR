@@ -170,7 +170,7 @@ Considere o seguinte:
    ![Caixa de visualização de detalhes](assets/details-box.png)
 
 
-1. (Opcional) Clique no ícone **Abrir em nova guia**![ no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.](assets/open-details-in-a-new-tab-icon.png)<!--check the icon; they are changing it-->
+1. (Opcional) Clique no ícone **Abrir em nova guia**![&#x200B; no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.](assets/open-details-in-a-new-tab-icon.png)<!--check the icon; they are changing it-->
 
    A página de registro é aberta.
 
