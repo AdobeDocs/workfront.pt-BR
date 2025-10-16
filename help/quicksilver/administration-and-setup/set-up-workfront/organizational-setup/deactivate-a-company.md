@@ -70,7 +70,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Selecione uma ou mais empresas para desativar ou reativar.
 1. Clique em **[!UICONTROL Editar]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
-1. <!--In the Production environment, -->Para uma única empresa, desabilite a opção **[!UICONTROL Está ativo]** para desativá-lo ou habilite a opção para ativá-lo.
+1. &#x200B;<!--In the Production environment, -->Para uma única empresa, desabilite a opção **[!UICONTROL Está ativo]** para desativá-lo ou habilite a opção para ativá-lo.
 
    Ou
 
