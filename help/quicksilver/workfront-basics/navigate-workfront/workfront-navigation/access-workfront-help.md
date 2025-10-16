@@ -22,10 +22,10 @@ O [!DNL Workfront] oferece uma grande variedade de conteúdo para ajudá-lo a en
 
 Além de pesquisar a documentação de ajuda, você também pode acessar os seguintes recursos [!DNL Workfront] da Experience League:
 
-* Tutoriais do Workfront: para obter mais informações, consulte [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
+* Tutoriais do Workfront: para obter mais informações, consulte [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
 
-* [!UICONTROL Laboratório de Inovação]: Para obter mais informações, consulte [O [!UICONTROL Laboratório de Inovação]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
-* [!UICONTROL [!DNL Workfront] Comunidade]: Para obter mais informações, consulte [A [!UICONTROL [!DNL Adobe Workfront] Comunidade]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+* [!UICONTROL Laboratório de Inovação]: Para obter mais informações, consulte [O [!UICONTROL Laboratório de Inovação]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=pt).
+* [!UICONTROL [!DNL Workfront] Comunidade]: Para obter mais informações, consulte [A [!UICONTROL [!DNL Adobe Workfront] Comunidade]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=pt)
 
 ## Acessar ajuda de dentro de [!DNL Workfront]
 
