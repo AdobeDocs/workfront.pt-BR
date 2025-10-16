@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
 # Excluir visualizações de registros
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -42,11 +42,10 @@ A exibição é excluída para todos os usuários que têm permissões para aces
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
-Ou
-<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
+   <p>Qualquer Workfront e qualquer pacote do Planning</p>
+
+<p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
+   <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
@@ -139,20 +138,10 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
 
-1. Na guia da exibição, siga um destes procedimentos:
+1. Na guia da exibição, clique na guia da exibição, passe o mouse sobre a exibição no menu suspenso, clique no menu **Mais** ![Mais menu](assets/more-menu.png) e clique em **Excluir**.</span>
 
-   * Dependendo do ambiente a partir do qual você está acessando a view, faça o seguinte:
+   ![Mais menus com opções](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-      * No ambiente de Produção, passe o mouse sobre o nome da guia da exibição que você deseja compartilhar e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da exibição e clique em **Excluir**.
-
-     >[!TIP]
-     >
-     >Talvez seja necessário clicar em **Mais** à direita da última guia para localizar o modo de exibição que deseja excluir.
-
-      * <span class="preview"> No ambiente de Visualização, clique na guia do modo de exibição, passe o mouse sobre o modo de exibição no menu suspenso, clique no menu **Mais** ![Mais menu](assets/more-menu.png) e clique em **Excluir**.</span>
-
-     ![Mais menus com opções](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-1. Clique em **Excluir** para confirmar. <!--ensure there is not another saving step here?!-->
+1. Clique em **Excluir** para confirmar.
 
    A exibição é excluída para todos os usuários que podem acessar a área de registros.

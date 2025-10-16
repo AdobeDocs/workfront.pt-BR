@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Gerenciar conexões de registro de objetos do Workfront
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -45,10 +45,8 @@ Você pode exibir registros do Workfront Planning no Workfront nas seguintes ár
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
-Ou
-<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
+<p>Qualquer Workfront e qualquer pacote do Planning</p>
+<p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
   <tr> 
@@ -172,7 +170,7 @@ Considere o seguinte ao exibir registros do Workfront Planning na seção Planni
    * [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 * Você pode exibir a seção Planejamento de um objeto do Workfront, mesmo quando não há registros associados ao objeto do Workfront.
-* <span class="preview">Um tipo de registro só é exibido na área Planejamento de um objeto do Workfront quando você habilita a configuração Criar campo correspondente no tipo de registro vinculado ao criar a conexão entre dois tipos de registro.</span>
+* Um tipo de registro só é exibido na área Planejamento de um objeto do Workfront quando você ativa a configuração Criar campo correspondente no tipo de registro vinculado ao criar a conexão entre dois tipos de registro.
 
   Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -262,7 +260,7 @@ Considere o seguinte ao exibir registros do Workfront Planning de um campo de co
 
   Por exemplo, talvez seja possível anexar um formulário personalizado com um campo de conexão do Planning a tarefas, mas não é possível conectar objetos do Workfront Planning a tarefas.
 * Não é possível editar um campo de conexão do Planning ao editar objetos do Workfront em massa.
-* <span class="preview">Um tipo de registro só é exibido em um campo personalizado de conexão do Planning de um objeto do Workfront quando você habilita a configuração Criar campo correspondente no tipo de registro vinculado ao criar a conexão entre dois tipos de registro.</span>
+* Um tipo de registro só é exibido em um campo personalizado de conexão do Planning de um objeto do Workfront quando você ativa a configuração Criar campo correspondente no tipo de registro vinculado ao criar a conexão entre dois tipos de registro.
 
   Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 

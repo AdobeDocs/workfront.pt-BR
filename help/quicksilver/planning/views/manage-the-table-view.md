@@ -6,18 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '3431'
+source-wordcount: '3370'
 ht-degree: 2%
 
 ---
 
 # Gerenciar a exibição de tabela
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 {{planning-important-intro}}
 
@@ -48,10 +50,8 @@ Para obter informações sobre como exportar a exibição de tabela para um arqu
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
-Ou
-<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
+<p>Qualquer Workfront e qualquer pacote do Planning</p>
+<p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
   <tr> 
@@ -153,16 +153,16 @@ Ao criar uma exibição de tabela, todos os registros do tipo selecionado são e
 
 Para gerenciar uma exibição de tabela:
 
-1. <span class="preview">Crie uma exibição de tabela, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).</span>
+1. Crie uma exibição de tabela, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-   <span class="preview">![Exemplo de exibição de tabela](assets/table-view-example.png)</span>
+   ![Exemplo de exibição de tabela](assets/table-view-example.png)
 
 1. (Opcional) Clique em **Altura da linha** e selecione uma das seguintes opções para modificar a altura das linhas da tabela:
    * Pequena
    * Médio
    * Alta
 
-1. <span class="preview">(Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir o modo de exibição em tela cheia, em seguida, no ícone **Sair da tela cheia** ![Sair do ícone de tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.  </span>
+1. (Opcional) Clique no ícone **Tela cheia** ![Abrir ícone de tela cheia](assets/open-full-screen-icon.png) para abrir o modo de exibição em tela cheia, em seguida no ícone **Sair da tela cheia** ![Sair do ícone de tela cheia](assets/exit-full-screen-icon.png) ou em Escape no teclado para sair da tela cheia.
 
 1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
    * [Colunas (ou campos)](#add-columns-or-fields)
@@ -198,12 +198,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    * Clique em **Campos** na barra de ferramentas da tabela, arraste e solte os campos na ordem desejada e clique fora da caixa **Visibilidade e ordem dos campos** para fechá-la.
 
-     <div class="preview">
-
      ![Barra de ferramentas de exibição de tabela de configuração de campos expandida](assets/fields-setting-table-view-toolbar-expanded.png)
-
-     </div>
-
 
      >[!TIP]
      >
@@ -246,9 +241,9 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
-   1. <span class="preview">Na caixa **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela.</span> O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado.
+   1. Na caixa **Pesquisar** ![Ícone Pesquisar](assets/search-icon.png) e comece a digitar uma palavra-chave associada a qualquer campo de um registro exibido na tela. O número de correspondências corretas é exibido ao lado do item de pesquisa e o campo com a correspondência correta é realçado.
 
-      <span class="preview">![Caixa de pesquisa com estrutura azul de resultados na exibição de tabela](assets/search-box-with-results-blue-outline-table-view.png)</span>
+      ![Caixa de pesquisa com estrutura azul de resultados na exibição de tabela](assets/search-box-with-results-blue-outline-table-view.png)
 
       Você pode usar qualquer palavra ou caractere especial visível na tela.
 
@@ -502,13 +497,11 @@ Para adicionar um agrupamento:
 
 1. (Opcional) Clique em **Adicionar condição** e repita as etapas acima para adicionar até três agrupamentos.
 
-   <div class="preview">
-
    O número de campos selecionados para o agrupamento é exibido ao lado do ícone Grouping.
 
    ![Agrupamento aplicado na exibição de tabela](assets/grouping-applied-in-table-view.png)
 
-   </div>
+
 
 1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 

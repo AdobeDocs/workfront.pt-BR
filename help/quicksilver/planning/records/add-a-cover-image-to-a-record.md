@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,7 @@ Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/p
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
-Ou
-<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
+<p>Qualquer Workfront e qualquer pacote do Planning</p> <p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
   <tr> 
@@ -170,7 +167,7 @@ Considere o seguinte:
    ![Caixa de visualização de detalhes](assets/details-box.png)
 
 
-1. (Opcional) Clique no ícone **Abrir em nova guia**![&#x200B; no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.](assets/open-details-in-a-new-tab-icon.png)<!--check the icon; they are changing it-->
+1. (Opcional) Clique no ícone **Abrir em nova guia**![ no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.](assets/open-details-in-a-new-tab-icon.png)<!--check the icon; they are changing it-->
 
    A página de registro é aberta.
 

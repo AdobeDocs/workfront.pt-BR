@@ -6,20 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # Exibições de registro duplicadas
 
-<!--remove preview and production references-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -48,10 +46,9 @@ A duplicação de exibições é idêntica para todos os tipos de exibições no
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
-Ou
-<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
+<p>Qualquer Workfront e qualquer pacote do Planning</p>
+
+<p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
   <tr> 
@@ -141,11 +138,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    A página de tipo de registro é aberta.
 Por padrão, todos os registros do tipo selecionado são exibidos na exibição de tabela.
 
-1. Dependendo do ambiente usado, faça o seguinte:
+1. Clique no ícone suspenso ![Ícone suspenso](assets/drop-down-icon.png) ao lado do nome da exibição atual, passe o mouse sobre o nome de uma exibição, clique em **Mais** e em **Duplicar**.
 
-   * No ambiente de Produção, passe o mouse sobre um dos nomes de exibição na guia de exibição e clique em **Mais** ![Mais menu](assets/more-menu.png) à esquerda do nome da exibição e clique em **Duplicar**.
-   * <span class="preview">No ambiente de Visualização, clique no ícone suspenso ![Ícone suspenso](assets/drop-down-icon.png) ao lado do nome da exibição atual, passe o mouse sobre o nome de uma exibição, clique em **Mais** e em **Duplicar**.</span>
+   ![Mais menu no modo de exibição com opções](assets/more-menu-for-views-expanded-with-delete-option.png)
 
-     ![Mais menu no modo de exibição com opções](assets/more-menu-for-views-expanded-with-delete-option.png)
-
-     A exibição está duplicada e o nome da nova exibição segue o seguinte padrão: `Original view's name (Copy)`. A nova guia de exibição é exibida no final de todas as guias de exibição.
+   A exibição está duplicada e o nome da nova exibição segue o seguinte padrão: `Original view's name (Copy)`. A nova guia de exibição é exibida no final de todas as guias de exibição.

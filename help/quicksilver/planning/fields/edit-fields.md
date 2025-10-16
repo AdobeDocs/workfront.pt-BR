@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,7 @@ Este artigo descreve como é possível editar as configurações para campos do 
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
-Ou
-<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
+<p>Qualquer Workfront e qualquer pacote do Planning</p> <p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
   <tr> 
@@ -150,7 +147,7 @@ Você deve considerar o seguinte antes de fazer alterações na configuração d
   >Não há notificação para outros usuários informando que a configuração do campo foi alterada.
 
 * Você pode editar campos de pesquisa existentes a partir de registros conectados.
-* Além de editar o campo conforme descrito na seção [Editar configurações de campo](#edit-field-settings-1) deste artigo, <span class="preview">você pode editar as opções de um campo de seleção única ou múltipla ao editar um registro na exibição de tabela, à medida que atualiza os valores do campo. Para obter informações, consulte a seção [Adicionar novas opções a um campo de seleção existente ao editar registros na exibição de tabela](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) deste artigo.</span>
+* Além de editar o campo conforme descrito na seção [Editar configurações de campo](#edit-field-settings-1) deste artigo, você pode editar as opções de um campo de seleção única ou múltipla ao editar um registro na exibição de tabela, à medida que atualiza os valores do campo. Para obter informações, consulte a seção [Adicionar novas opções a um campo de seleção existente ao editar registros na exibição de tabela](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view) deste artigo.
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 

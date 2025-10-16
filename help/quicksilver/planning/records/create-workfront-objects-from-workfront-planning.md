@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1316'
 ht-degree: 1%
 
 ---
@@ -17,12 +17,11 @@ ht-degree: 1%
 
 # Criar objetos Workfront a partir do Workfront Planning à medida que você os conecta aos registros
 
-<!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -61,7 +60,7 @@ Considere o seguinte ao conectar e criar objetos do Workfront aos registros do W
 
    * A exibição de tabela de um tipo de registro
    * A área Detalhes de um registro no campo de conexão
-   * <span class="preview">A página de registro Conectado de um registro, na área Detalhes</span>
+   * A página Registro conectado de um registro, na área Detalhes
 
 * Você pode criar portfólios e programas das seguintes áreas do Workfront Planning:
 
@@ -86,10 +85,7 @@ Para obter informações sobre como conectar registros do Planning a objetos do 
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
-Ou
-<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
+<p>Qualquer Workfront e qualquer pacote do Planning</p> <p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
 <tr> 
@@ -203,7 +199,7 @@ Você deve ter o seguinte antes de adicionar novos projetos ou portfólios, cone
 É possível criar projetos ao conectá-los a registros no Workfront Planning nas seguintes áreas do Workfront Planning:
 
 * A exibição de tabela de um tipo de registro ou a área Detalhes de um registro no campo de conexão
-* <span class="preview">A página de registro Conectado de um registro, na área Detalhes de um registro </span>
+* A página Registro conectado de um registro, na área Detalhes de um registro
 
 ### Criar projetos na área Detalhes de um registro ou na exibição de tabela de um tipo de registro
 
@@ -228,8 +224,6 @@ Comece digitando o nome de um projeto e clique em **Adicionar projeto** se não 
 
 1. (Opcional) Clique no nome do novo projeto no Workfront Planning para abrir a página do projeto no Workfront e fazer atualizações adicionais no projeto.
 
-<div class="preview">
-
 ### Criar projetos na página Registros conectados de um registro
 
 1. Conecte o tipo de objeto Projeto a um tipo de registro do Workfront Planning na exibição de tabela.
@@ -250,8 +244,6 @@ Comece digitando o nome de um projeto e clique em **Adicionar projeto** se não 
 
    Você só pode adicionar um projeto em branco nesta área. Não é possível adicionar um projeto usando um modelo.
 1. (Opcional) Clique no nome do projeto na exibição de tabela para abrir o projeto no Workfront e adicionar mais informações.
-
-</div>
 
 ## Crie portfólios à medida que você os conecta com registros do Workfront Planning
 

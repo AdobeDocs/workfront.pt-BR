@@ -6,18 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 4%
+source-wordcount: '779'
+ht-degree: 5%
 
 ---
 
 # Visão geral dos campos de fórmula
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -27,9 +29,11 @@ Os campos de fórmula geram um novo valor usando valores existentes de outros ca
 
 Para obter informações, consulte a seção &quot;Fórmula&quot; no artigo [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 
-## Requisitos de acesso
+<!--do we need these for an overview article?
 
-+++ Expanda para exibir os requisitos de acesso para a funcionalidade neste artigo. 
+## Access requirements
+
++++ Expand to view the access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -41,30 +45,30 @@ Para obter informações, consulte a seção &quot;Fórmula&quot; no artigo [Cri
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
    <td> 
-<ul> 
-<li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
-Ou
-<li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
-<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
    </td> 
   <tr> 
-   <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
    <td><p>Standard</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td>   <p>Gerenciar permissões em um espaço de trabalho</p>  
-   <p>Os administradores do sistema têm permissões para todos os espaços de trabalho, incluindo aqueles que não criaram</p>  </td> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table>
+</table> 
 
-Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++   
+
+-->
 
 <!--Old:
 
@@ -146,19 +150,11 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
   Para obter mais informações, consulte a seção &quot;Fórmula&quot; no artigo [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 * Você pode fazer referência a campos de fórmula em novas fórmulas. Depois que o valor for atualizado em um campo referenciado em um campo de fórmula, todos os campos subsequentes que referenciam esse campo ou campos de fórmula que contêm esse campo serão atualizados automaticamente.
 
-<div class="preview">
-
 * Quando você atualiza um campo de fórmula ou um campo que poderia impactá-lo, um alerta o notifica do impacto da alteração. O alerta é exibido nos seguintes casos:
 
    * Quando você atualiza um campo de fórmula (excluindo alterações de nome e descrição) quando esse campo tem campos de fórmula ou de pesquisa dependentes. O alerta lista esses campos dependentes e pergunta se você deseja continuar.
 
    * Ao excluir um campo usado em uma expressão de fórmula ou como um campo de pesquisa. O alerta lista a fórmula dependente e os campos de pesquisa e pergunta se você deseja continuar com a exclusão.
-
-</div>
-
-
-
-<div class="preview">
 
 ## Limitações de campos de fórmula
 
@@ -177,7 +173,6 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
      Por exemplo, se eu selecionar Número para o Formato de um campo de fórmula e os campos usados na fórmula forem campos de texto que exibem apenas valores de texto não numéricos, o resultado da fórmula será exibido como `#ERROR!`, porque não é possível analisar o texto em um número.
 
-</div>
 
 ## Fórmulas compatíveis
 
