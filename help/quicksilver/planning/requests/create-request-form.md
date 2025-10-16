@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '3046'
+source-wordcount: '2686'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ Para criar um formulário de solicitação, você deve começar a criar o formul
 
 ### Começar a criar um formulário de solicitação
 
-Você pode criar um formulário de solicitação do tipo de registro associado ao formulário, <span class="preview">ou da área Solicitações do Workfront.</span>
+Você pode criar um formulário de solicitação a partir do tipo de registro associado ao formulário <!--span class="preview">, or from the Requests area of Workfront.</span>-->.
 
 #### Criar um formulário de solicitação a partir de um tipo de registro
 
@@ -136,37 +136,41 @@ Você pode criar um formulário de solicitação do tipo de registro associado a
    O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
 1. Continue em [Configurar o formulário](#configure-the-form).
 
+<!--
+
 <div class="preview">
 
-#### Criar um formulário de solicitação na área Solicitações do Workfront
+#### Create a request form from the Requests area of Workfront
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Solicitações**.
-1. No canto superior direito da tela, clique em **Solicitar formulários**.
-1. (Condicional) Se você estiver editando um formulário de solicitação existente, selecione-o na lista e, em seguida, continue em [Configurar o formulário](#confgure-the-form).
-1. Se você estiver criando um novo formulário de solicitação, no canto superior direito da tela, clique em **Novo formulário de solicitação**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Requests**.
+1. In the upper-right corner of the screen, click **Request forms**.
+1. (Conditional) If you are editing an existing request form, select it from the list, then continue to [Configure the form](#confgure-the-form).
+1. If you are creating a new request form, in the upper-right corner of the screen, click **New request form**.
 
-   A caixa de formulário Criar solicitação é aberta
+   The Create request form box opens
 
-1. Na caixa Criar formulário de solicitação, atualize o nome do formulário de solicitação. O nome padrão do formulário é **Formulário sem título**.
-1. No campo Object types, selecione o tipo de registro ao qual o formulário de solicitação será associado. Os tipos de registro são agrupados no espaço de trabalho em que estão.
-1. (Opcional) Adicione uma **Descrição** para o formulário de solicitação.
+1. In the Create request form box, update the name of the request form. By default, the name of the form is **Untitled form**. 
+1. In the Object types field, select the record type that the request form will be associated with. Record types are grouped into the workspace that they exist within.
+1. (Optional) Add a **Description** for the request form. 
 
-   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+1. Click **Create**. 
 
-1. Clique em **Criar**.
+   The request form for the selected record type opens in the Form tab.
+1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
 
-   O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
-1. Continue em [Configurar detalhes para o formulário de solicitação](#set-up-details-for-the-request-form).
+
 
 </div>
+
+-->
 
 ### Configurar detalhes do formulário de solicitação
 
 Os detalhes do formulário são divididos em guias.
 
 * A guia **Formulário** permite adicionar campos e elementos de conteúdo ao formulário
-* A guia **Configuração** permite definir um processo de aprovação para o formulário, <span class="preview">e definir opções de conclusão de solicitação</span>.
-* <span class="preview">A guia **Automações** permite automatizar o que ocorrerá com base nos recursos da solicitação feita com o formulário.</span>
+* A guia **Configuração** permite definir um processo de aprovação para o formulário e definir opções de conclusão da solicitação&lt;.
+  <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Configurar detalhes do formulário
 
@@ -227,14 +231,14 @@ Os detalhes do formulário são divididos em guias.
 
 #### Configurar detalhes da configuração
 
-Na guia Configuração, você pode definir o processo de aprovação <span class="preview"> e configurar quando uma solicitação criada a partir deste formulário será marcada como Concluída</span>.
+Na guia Configuração, é possível definir o processo de aprovação e configurar quando uma solicitação criada a partir desse formulário será marcada como Concluída.
 
 1. Comece a criar ou editar um formulário de solicitação, conforme descrito na seção [Começar a criar um formulário de solicitação](#begin-creating-a-request-form).
 
    O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
 1. (Opcional) Configure os detalhes do formulário, conforme descrito em [Configurar detalhes do formulário](#set-up-form-details).
 
-1. (Opcional) Clique na guia **Configuração** e adicione pelo menos um usuário <span class="preview">ou equipe</span>ao campo **Aprovadores** para aprovar novas solicitações para este formulário de registro.
+1. (Opcional) Clique na guia **Configuração** e adicione pelo menos um usuário ou equipe ao campo **Aprovadores** para aprovar novas solicitações para este formulário de registro.
 
    ![Guia Configuração](assets/configuration-tab.png)
 
@@ -244,39 +248,44 @@ Na guia Configuração, você pode definir o processo de aprovação <span class
    * Você pode adicionar um ou vários aprovadores a um formulário de solicitação.
    * Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado.
    * Todos os aprovadores devem tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
-   * <span class="preview">Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.</span>
+   * Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.
 
      Para obter mais informações sobre como adicionar aprovações a formulários de solicitação, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. <span class="preview">(Condicional) Se quiser que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**.</span>
+1. (Condicional) Se desejar que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**.
 
-1. <span class="preview">Selecione se deseja que uma solicitação criada a partir deste formulário seja marcada como concluída quando o objeto solicitado for criado ou quando o objeto solicitado for concluído.</span>
-1. <span class="preview">(Condicional) Se você selecionou a solicitação para ser marcada como concluída quando o objeto solicitado é concluído, selecione o campo e o valor que indicam quando o objeto é concluído. Por exemplo, você pode selecionar o campo Status e o valor Complete para concluir a solicitação quando o status do objeto criado é definido como Complete.</span>
-1. Prossiga para [Configurar detalhes de automação](#set-up-configuration-details) se desejar configurar mais detalhes para o formulário ou vá para [Concluir criação de formulário de solicitação](#complete-request-form-creation).
+1. Selecione se você deseja que uma solicitação criada a partir deste formulário seja marcada como concluída quando o objeto solicitado for criado ou quando o objeto solicitado for concluído.
+1. (Condicional) Se você selecionou que a solicitação seja marcada como concluída quando o objeto solicitado for concluído, selecione o campo e o valor que indicam quando o objeto é concluído. Por exemplo, você pode selecionar o campo Status e o valor Concluído para concluir a solicitação quando o status do objeto criado for definido como Concluído.
+1. Prossiga para <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Concluir criação de formulário de solicitação](#complete-request-form-creation).
 
+<!--
+ 
 <div class="preview">
 
-#### Configurar Automações
+#### Set up Automations
 
-Você pode configurar automações no Adobe Workfront Planning que, quando ativadas, criam objetos no Workfront ou registros no Workfront Planning quando acionadas a partir de um registro do Planning.
+You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. 
 
-Para obter informações sobre como criar automações em outras áreas do Workfront Planning, consulte [Configurar automações do Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+For information on creating automations in other areas of Workfront Planning, see [Configure Adobe Workfront Planning automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-1. Na página de detalhes da automação, atualize os seguintes campos na seção **Triggers**:
+1. On the automation's details page, update the following fields in the **Triggers** section: 
 
-   * **Acionador**: selecione a ação que acionará a automação. Atualmente, o único acionador disponível para a automação do formulário de solicitação é `When request object status equals pending creation`.
+   * **Trigger**: Select the action that will trigger the automation. Currently, the only available trigger for request form automation is `When request object status equals pending creation`.
 
-1. Atualizar os seguintes campos na seção **Ações**: <!--submitted bugs for these fields - see if they need changing here-->
-   * **Ações**: selecione a ação que você deseja que o Workfront execute ao acionar a automação. Este campo é obrigatório.
-Atualmente, a única Ação disponível para solicitar a automação do formulário é `Create record`.
+1. Update the following fields in the **Actions** section: 
+
+   * **Actions**: Select the action that you want Workfront to perform when triggering the automation. This is a required field. 
+   Currently, the only available Action for request form automation is `Create record`.
 
      >[!TIP]
      >
-     >Depois de salvar a automação, não é mais possível alterar a ação selecionada nesse campo.
-1. Prossiga para [Concluir criação de formulário de solicitação](#complete-request-form-creation).
+     >After you saved the automation, you can no longer change the action selected in this field.
+1. Continue to  [Complete request form creation](#complete-request-form-creation).
 
 
 </div>
+
+-->
 
 ### Concluir criação do formulário de solicitação
 

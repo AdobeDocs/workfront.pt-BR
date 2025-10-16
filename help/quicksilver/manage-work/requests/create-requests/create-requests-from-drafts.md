@@ -6,16 +6,14 @@ description: Além de usar os rascunhos disponíveis que o Workfront sugere quan
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '618'
 ht-degree: 1%
 
 ---
 
 # Criar solicitações a partir de rascunhos
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
 Além de usar os rascunhos disponíveis que o Workfront sugere quando você informa uma nova solicitação, também é possível acessar um rascunho de solicitação na seção Rascunhos e finalizar a submissão a partir daí.
 
@@ -107,6 +105,6 @@ Você deve fazer o seguinte antes de criar uma solicitação a partir de um rasc
 
    >[!NOTE]
    >
-   >* <span class="preview">Na nova experiência de solicitação, os rascunhos estão na mesma lista das solicitações enviadas.</span>
-   ><span class="preview">Para obter mais informações sobre como criar solicitações na nova experiência, consulte [Criar solicitações e gerar rascunhos no aplicativo Web do Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) no artigo Criar e enviar solicitações.</span>
+   >Na nova experiência de solicitação, os rascunhos estão na mesma lista de solicitações enviadas.
+   >Para obter mais informações sobre como criar solicitações na nova experiência do, consulte [Criar solicitações e gerar rascunhos no aplicativo Web do Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) no artigo Criar e enviar solicitações.
 

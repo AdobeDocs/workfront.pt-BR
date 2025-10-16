@@ -6,9 +6,9 @@ description: O trabalho planejado é representado na Adobe Workfront por projeto
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2580'
 ht-degree: 1%
 
 ---
@@ -25,9 +25,6 @@ ht-degree: 1%
 </div>
 -->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 O trabalho planejado é representado na Adobe Workfront por projetos e tarefas. No entanto, você pode trabalhar em um ambiente em que o trabalho não planejado, na forma de solicitações, pode entrar a qualquer momento. O Workfront fornece um fluxo de trabalho para acomodar esse tipo de ambiente por meio do uso de Filas de solicitações.
 
@@ -144,23 +141,16 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
    A caixa **Nova solicitação** é aberta.
 
-1. (Condicional) Se você alternou para a nova experiência e está no ambiente de produção, a caixa **Nova solicitação** exibe o seguinte:</span>
+1. (Condicional) Se você alternou para a nova experiência, selecione um dos caminhos ou formulários da fila de solicitações do Workfront ou clique na barra de pesquisa.
 
-   <ul><li>As 6 filas de solicitações do Workfront acessadas mais recentemente e os formulários de solicitação do Planning são exibidos na seção Recente. </li>
-    <li>Todos os formulários de solicitação adicionais do Workfront e do Planning <b>seção Todos os formulários de solicitação</b>. Você pode procurar formulários de solicitação que não são exibidos por padrão. </li>
-    <li>Todos os caminhos adicionais da fila de solicitações do Workfront e do Planning são exibidos na seção <b>Todos os caminhos de solicitação</b>. Você pode procurar uma fila de solicitações que não é exibida por padrão.</li></ul>
-   Clique em um dos caminhos ou formulários da fila de solicitações do Workfront, ou procure um, e clique nele quando ele for exibido na lista.
-1. <span class="preview">(Condicional) Se você alternou para a nova experiência, selecione um dos caminhos ou formulários da fila de solicitações do Workfront ou clique na barra de pesquisa. </span>
-
-   <span class="preview">Quando você clicar na barra de pesquisa, será exibida uma lista suspensa mostrando primeiro as filas e os formulários usados mais recentemente. Selecione um na lista ou comece a digitar e selecione a fila ou o formulário quando ele for exibido.</span>
+   Ao clicar na barra de pesquisa, uma lista suspensa é exibida mostrando primeiro as filas e os formulários usados mais recentemente. Selecione um na lista ou comece a digitar e selecione a fila ou o formulário quando ele for exibido.
 
    >[!NOTE]
    >
-   ><span class="preview">Considere o seguinte em relação à nova experiência de solicitação atualmente disponível na Visualização:</span>
-   >* <span class="preview">A lista inclui as filas de solicitações do Workfront e os formulários de solicitação do Workfront Planning.</span>
-   >* <span class="preview">Você pode filtrar a lista por tipo de objeto.</span>
-   >* <span class="preview">Para exibir somente as filas de Solicitações Workfront, filtre por `Issue` tipos de objeto.</span>
-   >* <span class="preview">Na nova experiência de solicitação, os rascunhos estão na mesma lista das solicitações enviadas.</span>
+   >Considere o seguinte em relação à nova experiência de solicitação:
+   >* A lista inclui as filas de solicitações do Workfront e os formulários de solicitação do Workfront Planning.
+   >* Você pode filtrar a lista por tipo de objeto.
+   >* Na nova experiência de solicitação, os rascunhos são encontrados na mesma lista de solicitações enviadas.
 
 1. (Condicional) Se você alternou para a nova experiência, selecione os grupos de tópicos e os tópicos da fila e continue atualizando o formulário.
 

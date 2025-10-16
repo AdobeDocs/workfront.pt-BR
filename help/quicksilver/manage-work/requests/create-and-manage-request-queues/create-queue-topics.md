@@ -7,9 +7,9 @@ author: Becky
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '964'
 ht-degree: 2%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 2%
 # Criar Tópicos de Fila
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Tópicos de fila trabalham em conjunto com Regras de roteamento para atribuir automaticamente o trabalho recebido a um usuário, função de trabalho, equipe ou para colocá-lo em um projeto. Os Tópicos de Fila definem as condições que precisam existir para que a Regra de Encaminhamento seja implementada.
 
@@ -179,8 +177,7 @@ Para editar um Tópico de Fila existente:
 
 1. Vá para o projeto ou modelo que contém o Tópico da fila que deseja editar.
 1. Clique em **Enfileirar tópicos** no painel esquerdo.
-1. No ambiente de Produção, selecione o Tópico da fila que deseja editar. Na página Detalhes que é aberta, clique em **Editar Tópico da Fila**.
-1. <span class="preview">No ambiente de Visualização, clique no tópico da fila que deseja editar.
+1. Clique no tópico da fila que deseja editar.
 
 Para obter informações sobre as opções de edição disponíveis, consulte [Criar um tópico da fila](#create-a-queue-topic) neste artigo.
 

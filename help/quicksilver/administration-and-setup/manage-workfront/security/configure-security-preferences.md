@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '735'
 ht-degree: 5%
 
 ---
@@ -22,10 +22,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--Audited: 05/2024-->
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{important-admin-console-onboard}}
 
@@ -128,16 +124,16 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <td>Permite optar por habilitar ou desabilitar a experiência da lista de trabalho de prioridades para seus usuários. Os usuários ainda verão os ícones de Prioridades no Workfront, mas não terão acesso à funcionalidade. Para obter mais informações sobre prioridades, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introdução às prioridades</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Habilitar IA</span> </td> 
-      <td><span class="preview">Permite optar por ativar a IA, incluindo o Assistente de IA. <p><b>Observação</b>: sua organização deve atender aos requisitos específicos para habilitar a IA. Para obter mais informações sobre IA, incluindo os requisitos, consulte <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Visão geral do Assistente de IA</a>.</p></span></td> 
+      <td role="rowheader">Habilitar IA </td> 
+      <td>Permite optar por ativar a IA, incluindo o Assistente de IA. <p><b>Observação</b>: sua organização deve atender aos requisitos específicos para habilitar a IA. Para obter mais informações sobre IA, incluindo os requisitos, consulte <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">Visão geral do Assistente de IA</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Preenchimento automático de formulário </span></td> 
-      <td><span class="preview">Permite que você opte por ativar a capacidade de preencher formulários de solicitação automaticamente com base em dados de solicitação anteriores. Para obter mais informações sobre o Preenchimento Automático de Formulário, consulte <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Preencher automaticamente uma solicitação a partir de dados anteriores</a>.</span></td> 
+      <td role="rowheader">Preenchimento automático de formulário </td> 
+      <td>Permite que você opte por ativar a capacidade de preencher formulários de solicitação automaticamente com base em dados de solicitação anteriores. Para obter mais informações sobre o Preenchimento Automático de Formulário, consulte <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Preencher automaticamente uma solicitação a partir de dados anteriores</a>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">Aceitar versões beta da IA </span></td> 
-      <td><span class="preview">Permite optar por ativar os recursos de IA que estão atualmente no Beta. Se você habilitar essa opção, poderá selecionar quais recursos do AI Beta devem ser habilitados. Para obter mais informações sobre cada recurso do AI Beta, clique no ícone de informações ao lado desse recurso.</span></td> 
+      <td role="rowheader">Aceitar versões beta da IA </td> 
+      <td>&gt;Permite optar por ativar os recursos de IA atualmente no Beta. Se você habilitar essa opção, poderá selecionar quais recursos do AI Beta devem ser habilitados. Para obter mais informações sobre cada recurso do AI Beta, clique no ícone de informações ao lado desse recurso.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Ambientes de Teste</td> 

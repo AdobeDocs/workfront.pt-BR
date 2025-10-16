@@ -6,9 +6,9 @@ description: O Início ajuda você a gerenciar seu trabalho. É possível person
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1030'
 ht-degree: 4%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 4%
 >[!IMPORTANT]
 >
 >O conteúdo deste artigo foi substituído pelo conteúdo do novo artigo Introdução. A nova Página inicial agora será chamada de Página inicial.
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
 A nova experiência da Página inicial no Adobe Workfront tem como objetivo melhorar a experiência atual da Página inicial, fornecendo uma maneira mais flexível de se concentrar no trabalho certo.
 
@@ -55,9 +53,7 @@ Abaixo estão os 11 widgets atualmente disponíveis para escolher, bem como um r
     Exibe os problemas atribuídos a você em uma lista. Você pode usar filtros, visualizações ou agrupamentos existentes para personalizar a lista ou pode criar um problema diretamente do widget. Este widget inclui apenas problemas cujos projetos associados estão definidos como Atuais e não inclui projetos concluídos. Você também pode delegar seus problemas enquanto estiver fora do escritório.
 
 * **Minhas solicitações**\
-    Exibe todas as solicitações que você submeteu, um filtro para exibir somente solicitações abertas e um botão que abre o painel de resumo de uma solicitação.
-
-  <span class="preview">No ambiente de Visualização, este widget exibe todas as solicitações que você enviou, um filtro para exibir somente as solicitações que atendem aos critérios especificados por você e um botão que permite reorganizar as colunas no widget. Se você tiver acesso ao Workfront Planning, suas solicitações do Planning também aparecerão aqui.</span>
+    Exibe todas as solicitações que você enviou, um filtro para exibir somente as solicitações que atendem aos critérios especificados por você e um botão que permite reorganizar as colunas no widget. Se você tiver acesso ao Workfront Planning, suas solicitações do Planning também aparecerão aqui.
 
 
 * **Solicitações da equipe**\
@@ -144,7 +140,7 @@ Você pode adicionar um pouco de clarão pessoal à sua Página inicial selecion
 1. Vá para a Home page seguindo um destes procedimentos:
 
    * Se a Página inicial estiver definida como página de aterrissagem, clique no **ícone do Adobe Workfront** ![ícone do Adobe Workfront](assets/home-icon-30x29.png) no canto superior esquerdo da tela.
-   * Clique no ícone **Menu Principal** no canto superior direito da tela ou no **Ícone do** Menu Principal![Ícone do &#x200B;](assets/main-menu-icon.png) no canto superior esquerdo, se disponível, em seguida, clique em **Página Inicial**.
+   * Clique no ícone **Menu Principal** no canto superior direito da tela ou no **Ícone do** Menu Principal![Ícone do ](assets/main-menu-icon.png) no canto superior esquerdo, se disponível, em seguida, clique em **Página Inicial**.
 
 1. Clique em **Personalizar** no canto superior direito da tela.
 
