@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: e69209f449ba1643667135c3a0137b93c6171ef8
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -90,11 +90,11 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    A área **Configuração** é exibida.
 
    ![Guia Configuração](assets/configuration-tab.png)
-1. No campo **Aprovadores**, clique no ícone suspenso e selecione um ou vários usuários <span class="preview">ou equipes</span> na lista
+1. No campo **Aprovadores**, clique no ícone suspenso e selecione um ou vários usuários ou equipes na lista
 
    Ou
 
-   Comece digitando o nome de um usuário <span class="preview">ou equipe</span> que você deseja definir como um aprovador, em seguida, selecione-o quando ele for exibido na lista.
+   Comece digitando o nome de um usuário ou equipe que deseja definir como um aprovador, em seguida, selecione-o quando ele for exibido na lista.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -109,7 +109,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    >
    >* Todos os aprovadores devem tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
    >
-   >* <span class="preview">Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.</span>
+   >* Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.
 
 
 1. (Opcional) Clique em **Publicar** se você nunca compartilhou o formulário de solicitação antes

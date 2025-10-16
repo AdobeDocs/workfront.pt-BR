@@ -6,23 +6,20 @@ description: Você pode enviar solicitações no widget Minhas solicitações. V
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '734'
 ht-degree: 3%
 
 ---
 
 # Usar o widget Minhas solicitações
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
-
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 >[!IMPORTANT]
 >
 >Este artigo descreve o novo widget Minhas solicitações. Você deve ter a nova experiência de solicitação habilitada para ver o novo widget.
->&#x200B;>Você pode ativar a nova experiência de solicitação na área Solicitações.
+>>Você pode ativar a nova experiência de solicitação na área Solicitações.
 
 O widget Minhas solicitações exibe solicitações que foram enviadas para sua organização. Você pode filtrar as solicitações, pesquisar solicitações específicas ou ajustar a ordem e a visibilidade da coluna. Você também pode criar uma nova solicitação no widget Minhas solicitações.
 

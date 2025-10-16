@@ -5,16 +5,15 @@ title: Criar exibições na área Solicitações
 description: Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações.
 author: Becky
 feature: Work Management
-source-git-commit: 1c7e2fb7de500083f0f7e42f1016323305054d88
+source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
 
 # Criar ou editar exibições na área Solicitações
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações. Essas exibições incluem filtros e organização de colunas.
 
