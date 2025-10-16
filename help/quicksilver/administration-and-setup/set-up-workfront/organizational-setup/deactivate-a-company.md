@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: 30b61b32add4c6d062b5b524773d309008c9563d
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 ---
 
 # Desativar ou reativar uma empresa
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 É possível desativar uma empresa que não é mais usada, mantendo todos os dados históricos associados a ela. Se você desativar uma empresa já em uso em algum lugar no sistema, ela continuará a funcionar da mesma forma que sempre funcionou. Ele não é removido ou bloqueado.
 
@@ -67,8 +69,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. No painel esquerdo, clique no ícone **[!UICONTROL Empresas]** ![Empresas](assets/companies-icon-left-panel.png).
 
 1. Selecione uma ou mais empresas para desativar ou reativar.
-1. Clique em **[!UICONTROL Editar]**.
-1. Para uma única empresa, desabilite a opção **[!UICONTROL Está ativo]** para desativá-lo ou habilite a opção para ativá-lo.
+1. Clique em **[!UICONTROL Editar]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
+1. <!--In the Production environment, -->Para uma única empresa, desabilite a opção **[!UICONTROL Está ativo]** para desativá-lo ou habilite a opção para ativá-lo.
 
    Ou
 
