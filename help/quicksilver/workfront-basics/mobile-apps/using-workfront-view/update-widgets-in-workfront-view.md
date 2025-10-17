@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-workfront-view
 title: Atualizar widgets na visualização Detalhes do projeto
 description: Você pode exibir informações adicionais sobre o [!UICONTROL projeto] depois de acessá-lo na lista de projetos, adicionando widgets à sua tela [!UICONTROL Detalhes do Projeto]. Cada usuário pode personalizar seus próprios widgets.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: f9b9381b4b38796dbf7dfd9eddffc50fb9e5c24c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 1%

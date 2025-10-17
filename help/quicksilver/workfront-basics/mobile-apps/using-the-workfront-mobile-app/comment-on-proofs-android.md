@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Comentar em provas no Android
 description: Você pode revisar e resolver comentários existentes em uma prova e adicionar novos comentários e anotações ao documento de prova.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Você pode associar seus comentários de prova a uma área específica do docume
 
    ![Configurações da ferramenta de desenho](assets/android-drawingtoolsettings-350x328.png)
 
-1. Draw a forma no documento de prova. Selecione o ícone **[!UICONTROL Desfazer]** ![Desfazer](assets/android-undo-icon-30x31.png) para desfazer o desenho.
+1. Desenhe a forma no documento de prova. Selecione o ícone **[!UICONTROL Desfazer]** ![Desfazer](assets/android-undo-icon-30x31.png) para desfazer o desenho.
 1. (Condicional) Selecione a forma e escolha **[!UICONTROL Configurações]** para editar as configurações da forma, ou **[!UICONTROL Remover]** para excluir a forma.
 
    ![Menu Desenho](assets/android-drawing-settingsremove-350x166.png)

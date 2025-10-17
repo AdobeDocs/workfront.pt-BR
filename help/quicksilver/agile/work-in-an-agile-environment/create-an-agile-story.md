@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Criar uma história Agile
 description: Você pode criar uma história ágil em uma iteração de várias maneiras. Depois de criar uma matéria ágil, é possível adicionar subtarefas à matéria.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%

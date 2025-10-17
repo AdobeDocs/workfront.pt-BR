@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notificações: informações diversas"
+title: 'Notificações: Informações diversas'
 description: As notificações a seguir alertam sobre atividades que ocorrem em um projeto que você está patrocinando.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 0%
@@ -64,11 +64,11 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>Uma de minhas pessoas foi adicionada a um projeto</strong> </p> <p>Um gerente recebe uma notificação por email quando um de seus usuários é adicionado a um projeto. Essa notificação é enviada independentemente do status do projeto. </p> <p>Os usuários com uma licença de [!UICONTROL Review] não recebem uma notificação.</p> <p>O assunto do email é: <em>Atribuição do Projeto: &lt;Nome do Usuário&gt;[&lt;GUID do Projeto&gt;_ &lt;GUID do Usuário&gt;]</em></p> </td> 
-   <td> <p>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Nome do usuário que adicionou a pessoa ao projeto<br>Nome do usuário que foi adicionado ao projeto<br>Data de Início Planejada do Projeto <br>Data de Conclusão Planejada do Projeto <br>Percentual de Conclusão do Projeto<br>Nomes de Outros no Projeto<br>Status do Projeto<br>Proprietário do Projeto<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br><br><br></p> </td> 
+   <td> <p>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Nome do usuário que adicionou a pessoa ao projeto<br>Nome do usuário que foi adicionado ao projeto<br>Data de Início Planejada do Projeto<br>Projeto [!UICONTROL Data de Conclusão Planejada]<br>Porcentagem Concluída do Projeto<br>Nomes de Outros no Projeto<br>Status do Projeto<br>Proprietário do Projeto<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br><br><br></p> </td> 
    <td><strong>Instantâneo</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Alguém adicionar um projeto a um portfólio ou programa que possuo</strong> </p> <p>O portfólio e/ou o proprietário do programa recebem uma notificação quando um novo projeto é adicionado a um portfólio ou programa.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Projeto adicionado a] &lt;Nome do Portfolio&gt;[GUID do Projeto]</em></p> </td> 
+   <td> <p><strong>Alguém adicionar um projeto a um portfólio ou programa que possuo</strong> </p> <p>O portfólio e/ou o proprietário do programa recebem uma notificação quando um novo projeto é adicionado a um portfólio ou programa.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Projeto adicionado a] &lt;Portfolio Name&gt;[Project GUID]</em></p> </td> 
    <td> Nome do Portfolio<br>Número de Referência do Projeto<br>Nome do usuário que adicionou o projeto ao portfólio/programa<br><br></td> 
    <td><strong>Instantâneo</strong> </td> 
   </tr> 

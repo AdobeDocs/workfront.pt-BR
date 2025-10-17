@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Criar e gerenciar perfis de planilha de horas de um grupo
 description: Quando você está visualizando um grupo gerenciado na área Grupos, é possível visualizar e trabalhar com os perfis de folha de horas para os quais os administradores do grupo, ou um de seus subgrupos, têm acesso administrativo.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: 7eaff1c74cd880bde062e6fdf169c73d6eeb7f75
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%

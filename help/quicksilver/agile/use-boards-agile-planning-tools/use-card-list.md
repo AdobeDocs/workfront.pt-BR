@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Usar a lista de cartões
 description: Você pode criar uma lista de cartões em um fluxo de trabalho e adicionar os cartões às iterações.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%

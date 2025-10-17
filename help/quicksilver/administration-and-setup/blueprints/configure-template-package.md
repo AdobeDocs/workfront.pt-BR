@@ -4,11 +4,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configurar um blueprint
 description: Você pode configurar detalhes do modelo de projeto ou da estrutura organizacional antes de instalar o blueprint.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1841'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Escolha como deseja instalar o modelo.
 
 Você também pode designar a propriedade do modelo antes de instalar o blueprint. Você pode fazer alterações nesses campos após a instalação do template. Para obter mais informações, consulte [Editar modelos de projeto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-![[!UICONTROL Seção &#x200B;] das &#x200B;](assets/Blueprints_TemplatePreferences.png) Preferências de modelo
+![[!UICONTROL Seção ] das ](assets/Blueprints_TemplatePreferences.png) Preferências de modelo
 
 1. Na seção [!UICONTROL Preferências de Modelo], especifique um novo nome de modelo.
 1. Especifique o seguinte:
@@ -154,7 +154,7 @@ Alguns modelos incluem funções de trabalho prescritas. As funções de trabalh
 
 O blueprint pesquisa pelo nome da função para ver se alguma função existente corresponde. A pesquisa diferencia maiúsculas de minúsculas, portanto, os nomes devem ser uma correspondência exata. Se nenhuma função existente for correspondente, você pode fazer com que o blueprint as crie para você.
 
-![[!UICONTROL seção &#x200B;] de Mapeamento de Funções](assets/Blueprints_RoleMapping.png)
+![[!UICONTROL seção ] de Mapeamento de Funções](assets/Blueprints_RoleMapping.png)
 
 1. Se existir uma função, você pode escolher uma das seguintes opções:
 

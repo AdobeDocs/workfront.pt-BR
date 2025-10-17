@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: Quando um usuário clica em Trabalhar nela ou adiciona um comentário de atualização a uma nova tarefa à qual foi atribuído (sem definir manualmente uma condição para a tarefa), o Adobe Workfront exibe a condição padrão para tarefas, que é configurada em Configuração. O mesmo se aplica às questões.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%

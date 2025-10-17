@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Atualizar o status de histórias e subtarefas no quadro Scrum
 description: É possível alterar o status de uma história diretamente do storyboard Agile para refletir como as histórias estão progredindo pela iteração ou pelo projeto.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%

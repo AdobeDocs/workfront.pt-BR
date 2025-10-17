@@ -4,10 +4,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Visão Geral dos Relatórios de Calendário
 description: Um relatório de calendário é um relatório dinâmico que fornece uma representação visual do seu trabalho. Você pode exibir informações de data em um relatório de calendário para tarefas, problemas e projetos.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 4%
@@ -32,7 +32,7 @@ O [!DNL Workfront] cria automaticamente seu calendário pessoal padrão quando:
 
 * Você é um usuário recém-criado que não tem acesso a nenhum outro calendário e visita a página de relatório do calendário pela primeira vez
 
-  OU
+  OR
 
 * Você exclui manualmente todos os calendários e não tem acesso a nenhum outro calendário
 

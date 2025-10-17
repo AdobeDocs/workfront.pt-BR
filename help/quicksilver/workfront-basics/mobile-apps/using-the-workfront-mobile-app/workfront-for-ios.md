@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront para iOS
 description: O aplicativo  [!DNL Adobe Workfront]  permite acessar seu trabalho em qualquer dispositivo iOS. Você pode instalar e usar o  [!DNL Workfront] aplicativo móvel em telefones e tablets com o iOS 10 ou posterior. Um aplicativo móvel  [!DNL Workfront]  dedicado está disponível para a iPhone e a iPad.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 2%
@@ -39,7 +39,7 @@ A área [!UICONTROL Página inicial] permite trabalhar diretamente em tarefas, p
    <td> 
     <ul> 
      <li>Atualizar status de tarefas e problemas</li> 
-     <li>Post na área Atualizações</li> 
+     <li>Publicar na área Atualizações</li> 
      <li>Visualizar documentos</li> 
      <li>Anexar fotos</li> 
      <li> <p>Criar uma solicitação ou uma tarefa rápida</p> <p>Nota: As tarefas rápidas criadas na home page são tarefas pessoais, a menos que você opte por atribuir um projeto.</p> </li> 
@@ -73,7 +73,7 @@ A área [!UICONTROL Projetos] permite que você interaja com e gerencie os seus 
     <ul> 
      <li>Atualizar status do projeto</li> 
      <li>Exibir detalhes importantes do projeto</li> 
-     <li>Post na área [!UICONTROL Atualizações]</li> 
+     <li>Publicar na área [!UICONTROL Atualizações]</li> 
      <li>Converter tarefas, problemas e solicitações em projetos</li> 
     </ul> </td> 
    <td> 
@@ -145,7 +145,7 @@ A área [!UICONTROL Solicitações] permite exibir detalhes sobre solicitações
     </ul> </td>
    <td>
     <ul>
-     <li>Post na área [!UICONTROL Atualizações]</li>
+     <li>Publicar na área [!UICONTROL Atualizações]</li>
      <li>Visualizar documentos</li>
      <li>Anexar fotos</li>
      <li>Salvar uma solicitação como rascunho</li>
@@ -160,7 +160,7 @@ A área [!UICONTROL Solicitações] permite exibir detalhes sobre solicitações
 
 A área [!UICONTROL folhas de horas] permite exibir detalhes sobre suas folhas de horas. Na área [!UICONTROL Folhas de horas] do aplicativo, você pode:
 
-* Post na área [!UICONTROL Atualizações]
+* Publicar na área [!UICONTROL Atualizações]
 * Ajustar tipos de horas
 * Alterar o horário em que você fez logon
 * Inserir comentários em sua folha de horas

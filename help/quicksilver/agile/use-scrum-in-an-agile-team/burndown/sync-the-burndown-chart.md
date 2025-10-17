@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: burndown
 title: Sincronizar Dados no Gráfico de Burndown
 description: O gráfico de burndown é sincronizado automaticamente com os dados do seu projeto ou iteração. Se o gráfico de burndown ficar fora de sincronia com os dados no projeto ou na iteração, você poderá sincronizá-lo manualmente.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%

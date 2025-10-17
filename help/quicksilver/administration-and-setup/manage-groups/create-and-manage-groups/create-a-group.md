@@ -5,11 +5,11 @@ keywords: criar,grupo,subgrupo,novo
 navigation-topic: create-and-manage-groups
 title: Criar um grupo
 description: Como administrador do Adobe Workfront, você pode criar grupos para organizar usuários e projetos e atribuir direitos de acesso no Workfront.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 3%

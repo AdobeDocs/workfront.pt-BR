@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Ser um testador beta do Android
 description: Leia este artigo para se tornar um testador beta do Android para o  [!DNL Adobe Workfront] aplicativo móvel.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%

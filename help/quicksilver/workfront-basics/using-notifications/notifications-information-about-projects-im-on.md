@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notificações: informações sobre projetos em que estou"
+title: 'Notificações: Informações sobre projetos em que estou'
 description: As notificações a seguir alertam sobre atividades que ocorrem em projetos nos quais você está trabalhando.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
  <tbody> 
   <tr> 
    <td> <p><strong>Um documento foi adicionado a um projeto em que estou</strong> </p> <p>Os membros de uma equipe de projeto recebem uma notificação por email quando um documento é adicionado ao projeto, exceto para o usuário que adicionou o documento.</p> <p>Uma notificação só será enviada se o status do projeto for [!UICONTROL Atual] e o documento não for Privado.</p> <p>O assunto do email de notificação instantânea é <em>[!UICONTROL Documento adicionado a] &lt;Nome do Projeto&gt;</em></p> <p>O assunto da notificação de resumo diário é <em>[!UICONTROL Resumo dos Projetos em que você está] &lt;Data do resumo diário&gt;</em></p> </td> 
-   <td> Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Documento<br>Nome do usuário que adicionou o documento<br>Nome do Documento<br>Adicionado na Data<br>Detalhes do Documento (formato, tamanho, Número da Versão)<br>Miniatura do Documento<br><strong>[!UICONTROL Preview]</strong> e <strong>[!UICONTROL Download]</strong> botões<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de documentos adicionados<br>*Nome do Documento<br>*Nome do usuário que carregou o documento<br>*Data do resumo diário </td> 
+   <td> Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Documento<br>Nome do usuário que adicionou o documento<br>Nome do Documento<br>Adicionado na Data<br>Detalhes do Documento (formato, tamanho, Número da Versão)<br>Miniatura do Documento<br><strong>[!UICONTROL Preview]</strong> e <strong>[!UICONTROL Download]</strong> botões<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de documentos adicionados<br>*Nome do Documento<br>*Nome do usuário que carregou documento<br>*Data do resumo diário </td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
@@ -45,12 +45,12 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>Quando uma status de projeto for alterada de ideia/aprovado/solicitado/em planejamento para atual, enviar email para a equipe</strong> </p> <p>Os membros de uma equipe de projeto recebem uma notificação por email quando o status do projeto é definido como [!UICONTROL Atual].</p> <p>Observação: os usuários devem ser listados na guia Equipe de um projeto para receber notificações quando o status do projeto for definido como [!UICONTROL Atual]. Para obter informações sobre como adicionar usuários a uma equipe de projeto, consulte <a href="../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Gerenciar a Equipe de Projeto</a>.</p> <p>O assunto do email de notificação instantânea é <em>&lt;Nome do Projeto&gt; [!UICONTROL é Atual - Vá para o seu projeto e veja as suas tarefas!]</em></p> <p> O assunto da notificação de resumo diário é <em> [!UICONTROL Resumo dos Projetos em que você está] &lt;Data do resumo diário&gt; </em></p> </td> 
-   <td> <p>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status do Projeto<br>Data de Conclusão Planejada do Projeto <br>Proprietário do Projeto<br>Uma lista de tarefas atribuídas a você, a uma de suas funções de trabalho ou a uma de suas equipes<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Status do Projeto<br>*Data do resumo diário</p> </td> 
+   <td> <p>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status do Projeto<br>Data de Conclusão Planejada do Projeto [!UICONTROL]<br>Proprietário do Projeto<br>Uma lista de tarefas atribuídas a você, a uma de suas funções de trabalho ou a uma de suas equipes<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Status do Projeto<br>*Data do resumo diário</p> </td> 
    <td><strong>Instantâneo</strong> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Um projeto em que minha equipe se torna ativa</strong> <p>Os membros de uma equipe recebem uma notificação por email quando um projeto se torna ativo. A equipe deve ser atribuída a pelo menos uma tarefa para receber a notificação.</p><p>Se um usuário individual e uma equipe forem atribuídos a uma tarefa no projeto. a equipe não receberá uma notificação.</p><p>O assunto do email de notificação instantânea é <i>&lt;Nome do Projeto&gt; [!UICONTROL está Ativo - Vá para o seu projeto e veja as suas tarefas!]</i></p><p>O assunto da notificação de resumo diário é <em> [!UICONTROL Resumo dos Projetos em que você está] &lt;Data do resumo diário&gt; </em></p></td> 
-   <td>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status do Projeto<br>Data de Conclusão Planejada do Projeto <br>Proprietário do Projeto<br>Uma lista de tarefas atribuídas à sua equipe<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Status do Projeto<br>*Data do resumo diário</td> 
+   <td>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status do Projeto<br>Data de Conclusão Planejada do Projeto [!UICONTROL]<br>Proprietário do Projeto<br>Uma lista de tarefas atribuídas à sua equipe<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Status do Projeto<br>*Data do resumo diário</td> 
    <td><strong>Instantâneo</strong> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>Sou adicionado a um projeto</strong> </p> <p>O usuário que foi adicionado ao projeto recebe uma notificação por email quando é adicionado, a menos que o usuário se adicione ao projeto.</p> <p>Uma notificação só será enviada se o status do projeto for [!UICONTROL Atual].</p> <p>O assunto do email de notificação instantânea é <em>[!UICONTROL Você foi adicionado ao projeto] &lt;Nome do Projeto&gt;</em></p> <p> O assunto da notificação de resumo diário é <em> [!UICONTROL Resumo dos Projetos em que você está] &lt;Data do resumo diário&gt; </em></p> </td> 
-   <td> <p>Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Nome do usuário que adicionou você ao projeto<br>Projeto [!UICONTROL Data de Início Planejada]<br>Projeto [!UICONTROL Data de Conclusão Planejada]<br>Percentual de Conclusão do Projeto<br>Nomes de Outros Usuários no Projeto <br>Proprietário do Projeto<br><strong>Ver Mais Detalhes</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Data do resumo diário</p> </td> 
+   <td> <p>Nome do Projeto<br>Nome da Portfolio<br>Número de Referência do Projeto<br>Nome do usuário que adicionou você ao projeto<br>Projeto [!UICONTROL Data de Início Planejada]<br>Projeto [!UICONTROL Data de Conclusão Planejada]<br>Percentual de Conclusão do Projeto<br>Nomes de Outros Usuários no Projeto <br>Proprietário do Projeto<br><strong>Cf. Mais Detalhes</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Data do resumo diário</p> </td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 

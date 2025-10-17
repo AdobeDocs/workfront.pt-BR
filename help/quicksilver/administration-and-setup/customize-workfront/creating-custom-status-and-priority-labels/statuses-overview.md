@@ -5,11 +5,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Visão geral dos status
 description: Para descobrir qual é o estado atual de desenvolvimento de um projeto, tarefa ou problema, o usuário pode visualizar seu status.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Você deve ter o seguinte acesso e permissões para um projeto, tarefa ou proble
 Você deve ter o seguinte acesso e permissões para um projeto, tarefa ou problema para alterar manualmente seu status:
 
 * Editar o acesso em seu nível de acesso a Projetos, Tarefas e Problemas
-* Permissões do Contribute ou superiores na tarefa ou problema
+* Contribuir com ou ter permissões mais altas na tarefa ou problema
 * Gerenciar permissões no projeto.
 
 A alteração do status de um projeto, tarefa ou problema geralmente é um processo manual. No entanto, há momentos em que o status de um problema é alterado automaticamente, dependendo de outros fatores que ocorrem no sistema.

@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Desbloquear ou bloquear a configuração de notificações de eventos para todos os grupos
 description: Se você for um administrador do Adobe Workfront, poderá desbloquear ou rebloquear a capacidade de administradores de grupos configurarem uma notificação de eventos para grupos de nível superior que gerenciam. A configuração de uma notificação de evento consiste em ativá-la ou desativá-la.
-author: Lisa, Nolan
+author: Courtney, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%

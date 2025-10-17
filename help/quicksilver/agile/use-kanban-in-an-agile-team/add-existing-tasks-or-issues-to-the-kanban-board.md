@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Adicionar tarefas ou problemas existentes ao Quadro Kanban
 description: Você pode adicionar qualquer tarefa ou problema a um Quadro Kanban se tiver acesso de gerenciamento ao projeto.
-author: Courtney
+author: Jenny
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 1%

@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Adicionar o backlog ao Quadro Kanban
 description: Você pode exibir uma coluna [!UICONTROL Backlog] diretamente no quadro Kanban. A coluna [!UICONTROL Lista de pendências] do  [!DNL Kanban] quadro contém os primeiros 20 itens da sua lista de pendências no [!DNL Kanban] quadro. Tarefas e problemas devem pertencer a um projeto com um status que seja igual a Atual para aparecer no backlog.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%

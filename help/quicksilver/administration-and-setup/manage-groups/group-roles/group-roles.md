@@ -5,12 +5,12 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Funções de grupo
 description: O administrador do Workfront concede aos grupos acesso às áreas do Workfront onde precisam trabalhar e se comunicar. Cada grupo pode manter suas informações do Workfront, como usuários, modelos, formulários personalizados e projetos, separadas das de outros departamentos.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 23f9f91c-0d6e-4203-ab31-75fec73f9201
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 2%

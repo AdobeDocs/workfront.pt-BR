@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Adicionar um cartão ad hoc a um quadro
 description: Você pode adicionar rapidamente um cartão ad hoc a um quadro e atribuí-lo a um membro do quadro. O cartão pode representar uma tarefa, problema, pessoa, grupo ou qualquer tipo de item que você deseja incluir no quadro.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 0%

@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notificações: informações sobre o trabalho atribuído a mim"
+title: 'Notificações: Informações sobre o trabalho atribuído a mim'
 description: As notificações a seguir alertam sobre atividades que ocorrem em um item de trabalho atribuído a você.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '2088'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   -->
   <tr> 
    <td> <p><strong>Uma tarefa que concluí foi aprovada ou rejeitada</strong> </p> <p>O destinatário da tarefa recebe uma notificação por e-mail quando a tarefa é aprovada ou rejeitada.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual.</p> <p>Os usuários com uma licença de [!UICONTROL Review] ou [!UICONTROL Requestor] não recebem uma notificação.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Concluído]: &lt;Nome da Tarefa&gt; em &lt;Nome do Projeto&gt;</em></p> <p> O assunto da notificação do resumo diário é: <em> [!UICONTROL Resumo do Trabalho Atribuído a Você] &lt;Data do resumo diário&gt; </em></p> </td> 
-   <td> Nome da Tarefa<br>Nome do Projeto<br>Número de Referência da Tarefa<br>Nome do usuário que concedeu a aprovação<br>Novo Status da Tarefa<br>Data e Hora em que a tarefa foi aprovada ou rejeitada<br>Status da Tarefa Anterior<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de tarefas aprovadas ou rejeitadas<br>*Nome da Tarefa<br>*Nome do usuário que aprovou ou rejeitou a tarefa<br>*Decisão de Aprovação ([!UICONTROL Aprovado]/ ICONTROL Rejected&rbrack;)<br>*Data do resumo diário<br></td> 
+   <td> Nome da Tarefa<br>Nome do Projeto<br>Número de Referência da Tarefa<br>Nome do usuário que concedeu a aprovação<br>Novo Status da Tarefa<br>Data e Hora em que a tarefa foi aprovada ou rejeitada<br>Status da Tarefa Anterior<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de tarefas aprovadas ou rejeitadas<br>*Nome da Tarefa<br>*Nome do usuário que aprovou ou rejeitou a tarefa<br>*Decisão de Aprovação ([!UICONTROL Approved]/ [!UICONTROL Rejeitado])<br>*Data do resumo diário<br></td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
@@ -91,7 +91,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   --> 
   <tr> 
    <td> <p><strong>Um problema que resolvi foi aprovado ou rejeitado</strong> </p> <p>O destinatário de um problema recebe uma notificação por email quando uma decisão de aprovação é tomada (aprovada ou rejeitada).</p> <p>Os usuários com uma licença de [!UICONTROL Review] ou [!UICONTROL Requestor] não recebem uma notificação.</p> <p>O assunto do email de notificação instantânea é: <em>Problema Pendente de Aprovação: &lt;Data de Início Planejada&gt; &lt;Número de Referência do Problema&gt; - &lt;Nome do Problema&gt; em &lt;Nome do Projeto&gt;</em></p> <p> O assunto da notificação do resumo diário é: <em> Resumo do trabalho atribuído a você &lt;Data do resumo diário&gt; </em></p> </td> 
-   <td> Nome do Problema<br>Nome do Projeto<br>Número de Referência do Problema<br>Nome do usuário que aprovou ou rejeitou o problema<br>Decisão de Aprovação (Aprovada ou Rejeitada)<br>Status do Problema<br>Nome do usuário que solicitou a aprovação<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de problemas aprovados ou rejeitados<br>*Nome do Problema<br>*Nome do usuário que aprovou ou rejeitou o problema<br>*Decisão de Aprovação (Aprovada ou Rejeitada ou)<br>*Data do resumo diário<br></td> 
+   <td> Nome do Problema<br>Nome do Projeto<br>Número de Referência do Problema<br>Nome do usuário que aprovou ou rejeitou o problema<br>Decisão de Aprovação (Aprovada ou Rejeitada)<br>Status do Problema<br>Nome do usuário que solicitou a aprovação<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de problemas aprovados ou rejeitados<br>*Nome do Problema<br>*Nome do usuário que aprovou ou rejeitou o problema<br>*Decisão de Aprovação (Aprovada ou ou Rejected)<br>*Data do resumo diário<br></td> 
    <td><strong>Diariamente</strong> </td> 
   </tr>
   <tr> 
@@ -101,7 +101,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>Documentos foram carregados ou alterados nas solicitações às quais estou atribuído</strong> </p> <p>O destinatário da ocorrência recebe uma notificação por email quando os documentos são carregados ou os detalhes do documento são alterados em uma ocorrência que ele adicionou.</p> <p>Uma notificação por email não é enviada se o usuário que acionou o problema for o destinatário do problema.</p> <p>Uma notificação será enviada somente se o status do projeto for [!UICONTROL Atual] e se o projeto estiver configurado como uma Fila de Solicitações de Ajuda (conforme descrito em <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma Fila de Solicitações</a>).</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Documento adicionado a] &lt;Nome da Solicitação&gt;</em></p> <p> O assunto da notificação do resumo diário é: <em> [!UICONTROL Resumo do Trabalho Atribuído a Você] &lt;Data do resumo diário&gt; </em></p> </td> 
-   <td> <p>Nome da Solicitação<br>Nome do Projeto (Nome da Fila de Solicitações)<br>Número de Referência do Documento <br>Nome do usuário que carregou o documento<br>Nome do Documento <br>Adicionado na Data<br>Detalhes do Documento (formato, tamanho, número da Versão)<br>Miniatura do Documento<br><strong>[!UICONTROL Visualização]</strong> e <strong>[!UICONTROL Download]</strong> botões<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de documentos carregados ou alterados<br>*Nome do Documento<br>&rbrace;*Nome do objeto<br>*Nome do usuário que carregou o documento<br>*Data do resumo diário</p> </td> 
+   <td> <p>Nome da Solicitação<br>Nome do Projeto (Nome da Fila de Solicitações)<br>Número de Referência do Documento <br>Nome do usuário que carregou o documento<br>Nome do Documento <br>Adicionado na Data<br>Detalhes do Documento (formato, tamanho, número da Versão)<br>Miniatura do Documento<br><strong>[!UICONTROL Visualização]</strong> e <strong>[!UICONTROL Download]</strong> botões<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de documentos carregados ou alterados<br>*Documento Nome<br>*Nome do Objeto<br>*Nome do usuário que carregou o documento<br>*Data do resumo diário</p> </td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 

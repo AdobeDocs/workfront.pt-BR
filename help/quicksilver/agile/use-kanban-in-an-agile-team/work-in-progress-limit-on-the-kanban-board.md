@@ -3,10 +3,10 @@ product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Gerenciar o limite do Trabalho em curso (WIP) no Quadro Kanban
 description: Você pode configurar um limite de Trabalho em andamento (WIP) para cada coluna no quadro Kanban. O limite de WIP é simplesmente um aviso visual e não impede que sua equipe tenha mais itens em cada coluna de status do que o limite definido.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%

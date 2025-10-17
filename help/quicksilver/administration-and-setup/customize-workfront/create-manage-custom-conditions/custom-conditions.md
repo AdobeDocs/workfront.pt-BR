@@ -5,15 +5,15 @@ content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: Uma condição é uma representação visual de como um projeto, tarefa ou problema está progredindo. Como administrador do Adobe Workfront, você pode usar as condições criadas pelo Workfront para uso em projetos, tarefas e problemas, ou pode criar condições personalizadas para atender melhor às necessidades da sua organização.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: bbe6f0a0-18bf-4229-a50a-aa7286b82626
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

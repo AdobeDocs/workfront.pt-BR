@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: "Grupos: índice de artigos"
+title: 'Grupos: índice de artigos'
 description: Os grupos são semelhantes a, mas distintos de equipes e empresas. O administrador do Workfront concede aos grupos acesso às áreas do Workfront onde precisam trabalhar e se comunicar.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: afbbdda2-095b-429d-a672-2f53c541273c
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%

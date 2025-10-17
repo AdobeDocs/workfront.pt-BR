@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notificações: Comunicação"
+title: 'Notificações: Comunicação'
 description: As notificações a seguir alertam você sobre a comunicação, como um comentário atualizado, que acontece em um item de trabalho com o qual você está envolvido. Para obter informações sobre como configurar as notificações recebidas, consulte Modificar suas próprias notificações por email.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>Alguém tiver incluído minha equipe em uma atualização direta</strong> </p> <p>Uma atualização direcionada é quando um usuário inclui especificamente outro usuário em uma atualização, conforme descrito em <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Marcar outros usuários em atualizações</a>.</p> <p>Nesse caso, qualquer membro da equipe incluída na atualização direcionada receberá uma notificação por email sobre a atualização.</p> <p>A notificação por email é enviada somente para usuários que têm direitos de acesso ao objeto.</p> <p>Se o usuário que envia a atualização direcionada for um membro da equipe que está sendo incluída, o usuário que envia a atualização não receberá uma notificação por email.</p> <p>O assunto do email de notificação instantânea é: [!UICONTROL Comentário sobre] &lt;Nome do objeto&gt; em &lt;Nome do objeto pai&gt; (ref# &lt;Número de referência do objeto&gt;)</p> <p> O assunto da notificação de resumo diário é:<em> [!UICONTROL Resumo da Comunicação] &lt;Data do resumo diário&gt;</em></p> </td> 
-   <td> <p>Nome do Objeto<br>Nome do Objeto Pai<br>Número de Referência do Objeto<br>Nome do usuário que fez a atualização direcionada<br>Nome de todas as equipes e usuários incluídos na atualização direcionada<br>Data e Hora em que a atualização direcionada foi feita<br>Texto da atualização direcionada<br><strong>[!UICONTROL Comentário]</strong> botão<br>*Número total de comentários recebidos<br>*Número de comentários recebidos para cada objeto<br>*Nome do Projeto<br>*<strong>[!UICONTROL Ver Todas as Notificações]</strong> botão{11 4}*Data do resumo diário<br> </p> </td> 
+   <td> <p>Nome do Objeto<br>Nome do Objeto Pai<br>Número de Referência do Objeto<br>Nome do usuário que fez a atualização direcionada<br>Nome de todas as equipes e usuários incluídos na atualização direcionada<br>Data e Hora em que a atualização direcionada foi feita<br>Texto da atualização direcionada<br><strong>[!UICONTROL Comentário]</strong> botão<br>*Número total de comentários recebidos<br>*Número de comentários recebidos para cada objeto<br>*Nome do Projeto<br>*<strong>[!UICONTROL Ver Todas as Notificações]</strong> botão<br>*Data do resumo diário </p> </td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 

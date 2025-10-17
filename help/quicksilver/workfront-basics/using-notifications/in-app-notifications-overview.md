@@ -3,13 +3,13 @@ content-type: overview
 navigation-topic: notifications
 title: Visão geral das notificações no aplicativo
 description: 'Este artigo lista as notificações no aplicativo que você pode receber. As Notificações no aplicativo mantêm você informado sobre dois tipos de informações: notificações de anúncio e notificações de item de trabalho. Eles estão disponíveis no aplicativo web e no aplicativo móvel.'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -52,7 +52,7 @@ Ao clicar no ícone numerado ![Ícone Notificações](assets/notifications-icon-
 * [[!UICONTROL Atualizações]](#updates)
 * [[!UICONTROL Alterações de data]](#date-changes)
 * [[!UICONTROL Compartilhar]](#share)
-* [[!UICONTROL Outros]](#other)
+* [[!UICONTROL Outras]](#other)
 
 ### [!UICONTROL Aprovações]
 
@@ -141,7 +141,7 @@ Ao clicar no ícone numerado ![Ícone Notificações](assets/notifications-icon-
 * ![Ícone de documento](assets/document.png) [!UICONTROL Documento compartilhado com] [nome da equipe] - [nome do compartilhador]
 * ![Ícone de prova](assets/proof.png) [!UICONTROL Prova compartilhada com você] - [nome do compartilhador]
 
-### [!UICONTROL Outros]
+### [!UICONTROL Outras]
 
 * ![Ícone de erro](assets/error.png) [!UICONTROL Um erro precisa de sua atenção]
 * ![Ícone de aviso](assets/announcement.png) [!UICONTROL Aviso] - [Nome do administrador do Workfront]

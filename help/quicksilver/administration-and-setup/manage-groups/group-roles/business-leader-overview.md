@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: group-roles
 title: Visão geral do Líder de negócios
 description: Em um grupo, o Líder de negócios é a pessoa que toma decisões para o grupo em relação a metas, estratégias, orçamento, contratação e assim por diante. Por exemplo, em uma organização com um Diretor de marketing, essa pessoa provavelmente seria o Líder de negócios de marketing.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4081587f-1ace-4f40-a3a1-57231d5a5d43
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%

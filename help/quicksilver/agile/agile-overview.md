@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Visão geral do Agile
 description: Agile é uma metodologia de trabalho que permite que as equipes concluam pequenas quantidades gerenciáveis de trabalho em uma cadência consistente. Em ágil, as equipes gerenciam histórias em um backlog ou storyboard e não em tarefas em um projeto.O  [!DNL Adobe Workfront] fornece ferramentas que ajudam as equipes a trabalhar de forma ágil.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%

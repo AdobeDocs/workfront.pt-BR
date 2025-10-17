@@ -1,13 +1,13 @@
 ---
 product-previous: mobile
 navigation-topic: mobile-apps
-title: Usar o aplicativo móvel [!DNL Adobe Workfront]
+title: 'Usar o aplicativo móvel [!DNL Adobe Workfront] '
 description: Acelere o engajamento e simplifique o trabalho para equipes e indivíduos em sua organização por meio do  [!DNL Adobe Workfront's] aplicativo móvel, disponível em qualquer dispositivo iOS ou Android.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Você pode baixar e instalar o aplicativo da [Apple App Store](https://apps.appl
 No aplicativo móvel, você pode concluir itens de trabalho e visualizar informações como na versão do navegador do [!DNL Workfront]. Estes recursos e muito mais estão disponíveis:
 
 * Trabalhar e atribuir tarefas e problemas
-* Atualizações do Post
+* Publicar atualizações
 * Acessar painéis do Workfront
 * Exibir e gerenciar projetos
 * Exibir, comentar e tomar decisões sobre provas

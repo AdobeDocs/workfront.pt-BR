@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Seção Meu trabalho no aplicativo móvel
 description: A seção [!UICONTROL Meu Trabalho] da área [!UICONTROL Página Inicial] exibe suas tarefas, problemas, projetos, aprovações, solicitações e planilhas de horas.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 1%

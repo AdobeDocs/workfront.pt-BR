@@ -3,10 +3,10 @@ content-type: overview;reference
 navigation-topic: notifications
 title: Visão geral das notificações
 description: O Adobe Workfront envia notificações por email, notificações no aplicativo e notificações em seu dispositivo móvel.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 1%
@@ -154,7 +154,7 @@ Há outros emails que você pode receber de [!DNL Workfront] que não podem ser 
 
 Os emails a seguir são enviados automaticamente por [!DNL Workfront] quando estas condições são atendidas:
 
-* Restaurar um item: Quando o administrador do [!DNL Workfront] restaura um objeto da Lixeira [!UICONTROL 2&rbrace;, um email é enviado ao administrador do [!DNL Workfront].]
+* Restaurar um item: Quando o administrador do [!DNL Workfront] restaura um objeto da Lixeira [!UICONTROL 2}, um email é enviado ao administrador do ].[!DNL Workfront]
 * Falha ao restaurar: Quando o administrador do [!DNL Workfront] tenta restaurar um objeto da Lixeira e a restauração falha, um email é enviado ao administrador do [!DNL Workfront].
 
 Os emails a seguir podem ser configurados somente no nível do perfil do usuário. Eles não podem ser ativados ou desativados no nível do sistema:

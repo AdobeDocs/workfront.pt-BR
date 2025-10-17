@@ -4,10 +4,10 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Anexar uma notificação de lembrete a um objeto
 description: 'Você pode associar notificações de lembrete a vários tipos de objeto diferentes: Projetos, Tarefas, Problemas, Folhas de horas, Modelos, Tarefas de modelo e Perfis de folha de horas recorrentes.'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: 770e20cf9e32ac9884f5eb320f7067fcf162c63d
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 1%

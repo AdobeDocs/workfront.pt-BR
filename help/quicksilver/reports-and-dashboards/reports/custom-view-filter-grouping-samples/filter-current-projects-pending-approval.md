@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtro: exibir seus projetos atuais pendentes de aprovação'
 description: O filtro de projeto a seguir exibe projetos no status Atual - Aprovação pendente, onde o usuário conectado é o Patrocinador do projeto ou o Gerente do Portfolio.
-author: Lisa and Nolan
+author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 32045aec-acc5-44d2-bad5-7759dc797414
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%

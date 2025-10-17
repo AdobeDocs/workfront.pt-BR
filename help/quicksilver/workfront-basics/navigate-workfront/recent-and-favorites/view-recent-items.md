@@ -4,9 +4,9 @@ navigation-topic: recent-and-favorites
 title: Exibir itens recentes
 description: O menu [!UICONTROL Recentes] está localizado na barra de navegação superior. Este menu mostra projetos, relatórios, painéis, tarefas, problemas, etc. visualizados recentemente.
 feature: Get Started with Workfront
-author: Lisa
+author: Courtney
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%

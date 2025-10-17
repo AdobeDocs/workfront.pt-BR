@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Adicionar uma Subtarefa a uma História Existente no Quadro Scrum
 description: Ao criar subtarefas para matérias existentes, lembre-se da configuração do Modo de conclusão do projeto, pois isso afeta a forma como as matérias são atualizadas.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr>
    <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>Acesso à [!UICONTROL Contribute] ou [!UICONTROL Manage] para a tarefa em que a subtarefa está </td> 
+   <td>Acesso do [!UICONTROL Contribute] ou do [!UICONTROL Manage] à tarefa em que a subtarefa está </td> 
   </tr>
  </tbody> 
 </table>

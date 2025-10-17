@@ -4,11 +4,11 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Status de grupos bloqueados e desbloqueados
 description: Bloquear os status personalizados de um grupo é uma maneira de garantir que as pessoas no grupo e em seus subgrupos estejam usando os mesmos processos em seu fluxo de trabalho. Quando um status de grupo é bloqueado, ele fica disponível para todos os usuários no grupo e nos grupos inferiores.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%

@@ -4,11 +4,11 @@ product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Kanban em uma equipe Agile
 description: Leia estes artigos para saber mais sobre como usar o Kanban em uma equipe ágil.
-author: Lisa
+author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 20bb4534-796c-48ac-b43e-85717fefe1bf
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%

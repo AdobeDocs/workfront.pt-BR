@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Usar sinalizadores em histórias no Quadro Kanban
 description: No quadro  [!DNL Kanban] , os sinalizadores fornecem uma indicação visual de quando uma história está pronta para ser movida para o próximo status. Isso permite que as equipes Kanban usem uma abordagem de "pull" em vez de uma abordagem de "push" ao mover histórias entre status.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%

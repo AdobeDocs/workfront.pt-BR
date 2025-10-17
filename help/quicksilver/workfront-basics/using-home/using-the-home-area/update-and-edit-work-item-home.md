@@ -3,10 +3,10 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Atualizar ou editar um item de trabalho na área da página inicial
 description: Você pode exibir e adicionar atualizações a um item de trabalho na área [!UICONTROL Página inicial] da Adobe Workfront. Você também pode editar outros dados relacionados ao item de trabalho se tiver acesso para editá-lo.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 7%

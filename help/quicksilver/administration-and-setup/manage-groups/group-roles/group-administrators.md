@@ -5,14 +5,14 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: Os administradores do Adobe Workfront em uma grande organização com muitos departamentos podem não querer gerenciar todos os departamentos e grupos da organização nesses departamentos. Em vez disso, eles podem criar um grupo para cada departamento e subgrupos dentro desse grupo, cada um gerenciado por um administrador de grupo.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -66,7 +66,7 @@ Recomendamos que os administradores de grupo tenham acesso de edição aos usuá
 >[!IMPORTANT]
 >
 >Os administradores de grupo devem ter acesso maior do que aqueles que gerenciam; caso contrário, não poderão visualizar ou modificar níveis de acesso mais baixos.
->Para obter instruções sobre como conceder esse acesso, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>>Para obter instruções sobre como conceder esse acesso, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Para um administrador de grupo que precisa atribuir perfis de folha de horas a usuários em seus grupos e subgrupos, também recomendamos Acesso administrativo a folhas de horas e horas. Para obter instruções sobre como conceder esse acesso, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -76,7 +76,7 @@ Como administrador de grupo, você pode realizar as tarefas descritas abaixo par
 
 >[!NOTE]
 >
->No novo modelo de preços e pacotes, você deve ter um plano Prime ou superior para executar o seguinte:
+>No novo modelo de preços e pacotes, você deve ter um plano do Prime ou superior para executar o seguinte:
 >
 > * Criar notificações de evento de grupo
 > * Configurar preferências do projeto do grupo
@@ -116,7 +116,7 @@ Como administrador de grupo, você pode realizar as tarefas descritas abaixo par
 
 ### Gerenciar preferências e ferramentas do grupo {#manage-group-preferences-and-tools}
 
-* Quando uma preferência de projeto, de tarefa ou de problema, ou uma preferência de planilhas de horas e horas for desbloqueada para grupos em todo o sistema, edite essa preferência para os grupos que você gerencia. Essas preferências afetam o comportamento do projeto, tarefa e problema. Para obter mais informações, consulte o seguinte:
+* Quando uma preferência de projeto, de tarefa ou de problema, ou uma preferência de planilhas de horas e horas for desbloqueada para grupos em todo o sistema, edite essa preferência para os grupos que você gerencia. Essas preferências afetam o comportamento do projeto, tarefa e problema. Para obter mais informações, consulte:
 
    * [Configurar preferências de projeto para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
    * [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)

@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notificações: solicitações que fiz"
+title: 'Notificações: Solicitações que fiz'
 description: As notificações a seguir informam sobre solicitações feitas no Adobe Workfront.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1412'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>Um documento foi alterado ou carregado sobre um problema para o qual sou o contato principal</strong> </p> <p>O contato principal do problema recebe uma notificação por email quando um documento é carregado ou alterado no problema, a menos que o usuário que carregou ou alterou o documento também seja o contato principal.</p> <p>Uma notificação só será enviada se o projeto estiver configurado como uma [!UICONTROL Fila de Solicitação de Ajuda] (conforme descrito em <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Criar uma Fila de Solicitação]</a>).</p> <p>O assunto do email de notificação instantânea é: <em>Documento adicionado a &lt;Nome do Problema&gt;</em></p> <p>O assunto da notificação de resumo diário é: <em>Resumo de suas solicitações &lt;Data do resumo diário&gt;</em></p> </td> 
-   <td> Nome do Objeto no qual o documento foi carregado<br>Nome do Objeto Pai<br>Número de Referência do Documento<br>Nome do usuário que carregou o documento<br>Nome do Documento<br>Adicionado na Data<br>Detalhes do Documento (formato, tamanho, Número da Versão)<br>Miniatura do Documento<br><strong>[!UICONTROL Visualização]</strong> e <strong>[!UICONTROL Download]</strong> botões<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de documentos carregados<br>*Nome do documento{1 5}*Nome do Objeto Pai<br>*Nome do usuário que adicionou o documento<br>*Data do resumo diário<br> </td> 
+   <td> Nome do Objeto onde o documento foi carregado<br>Nome do Objeto Pai<br>Número de Referência do Documento<br>Nome do usuário que carregou o documento<br>Nome do Documento<br>Adicionado na Data<br>Detalhes do Documento (formato, tamanho, Número da Versão)<br>Miniatura do Documento<br><strong>[!UICONTROL Visualização]</strong> e <strong>[!UICONTROL Download]</strong> botões<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de documentos carregados<br>*Nome de documento<br>*Nome do Objeto Pai<br>*Nome do usuário que adicionou o documento<br>*Data do resumo diário </td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>Envio uma solicitação (confirmação)</strong> </p> <p>O contato principal sobre o problema recebe uma notificação por email quando envia um problema.</p> <p>Uma notificação é enviada somente se o status do projeto for [!UICONTROL Atual] e se o projeto estiver configurado como uma [!UICONTROL Fila de Solicitações de Ajuda] (conforme descrito em <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Criar uma Fila de Solicitações]</a>).</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Solicitação Enviada]: &lt;Nome da Solicitação&gt; em &lt;Nome do Projeto (Fila de Solicitações)&gt;</em></p> <p>O assunto da notificação de resumo diário é:<em> Resumo das suas solicitações &lt;Data do resumo diário&gt;</em></p> </td> 
-   <td> <p>Nome do Projeto (Nome da Fila de Solicitações)<br>Nome do Portfolio<br>Número de Referência do Problema<br>Nome do Problema<br>Data de Inserção<br>Prioridade do Problema<br>Status do Problema<br>Atribuído ao Nome<br>Contato Principal<br>*Número de Referência do Projeto<br>*Nome do Projeto<br>*Número total de solicitações enviadas<br>*Nome da Solicitação<br>*Prioridade da Solicitação<br>*Data do resumo diário</p> </td> 
+   <td> <p>Nome do Projeto (Nome da Fila de Solicitação)<br>Nome da Portfolio<br>Número de Referência do Problema<br>Nome do Problema<br>Data de Inserção<br>Prioridade do Problema<br>Status do Problema<br>Atribuído ao Nome<br>Contato Principal<br>*Número de Referência do Projeto<br>*Nome do Projeto<br>*Número total de solicitações enviadas<br>*Nome da Solicitação<br>*Prioridade da Solicitação<br>*Data do resumo diário</p> </td> 
    <td> <p><strong>Instantâneo</strong> </p> <p><strong>e Diariamente</strong> </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>O status é alterado em minha solicitação</strong> </p> <p>O contato principal do problema recebe uma notificação por email quando o status do problema é alterado, a menos que o usuário que alterou o status também seja o contato principal.</p> <p>Uma notificação será enviada somente se o status do projeto for Atual e o projeto estiver configurado como uma [!UICONTROL Fila de Solicitações de Ajuda] (conforme descrito em <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Criar uma Fila de Solicitações]</a>).</p> <p>O assunto do email de notificação instantânea é: <em>&lt;Nome da Solicitação&gt; é &lt;Novo Status&gt;</em></p> <p>O assunto da notificação de resumo diário é:<em> Resumo das suas solicitações &lt;Data do resumo diário&gt;</em></p> </td> 
-   <td> Nome da Solicitação<br>Nome do Projeto<br>Número de Referência da Solicitação<br>Nome do usuário que alterou o Status da Solicitação<br>Novo Status<br>Data e Hora em que o Status da Solicitação foi alterado<br>Status da Solicitação Anterior<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de solicitações cujo status foi alterado<br>*Nome da Solicitação<br>*Status da Solicitação Anterior<br>*Novo Status da Solicitação<br>*Nome do usuário que alterou o status<br>*Data do resumo diário<br></td> 
+   <td> Nome da Solicitação<br>Nome do Projeto<br>Número de Referência da Solicitação<br>Nome do usuário que alterou o Status da Solicitação<br>Novo Status<br>Data e Hora em que o Status da Solicitação foi alterado<br>Status da Solicitação Anterior<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de solicitações cujo status foi alterado<br>*Nome da Solicitação<br>*Status da Solicitação Anterior<br>*Novo Status da Solicitação<br>*Nome do usuário que alterou status<br>*Data do resumo diário<br></td> 
    <td> <p><strong>Diariamente</strong> </p> <p> </p> </td> 
   </tr> 
  </tbody> 

@@ -4,11 +4,11 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Usar status personalizados como status padrão
 description: Quando um status personalizado é definido como um status padrão, o novo status padrão é usado em todo o sistema de várias maneiras. A forma como ele é usado depende se é definido como um status padrão do nível do sistema ou um status padrão do nível do grupo.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 366043a786c94f1bc40ad3b20af175bb84c94742
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%

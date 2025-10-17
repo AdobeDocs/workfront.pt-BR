@@ -5,11 +5,11 @@ keywords: exibir,grupo,evento,notificações,configurar,ativar,desativar
 navigation-topic: create-and-manage-groups
 title: Exibir e configurar notificações de eventos para um grupo
 description: Como administrador de grupo, você pode exibir as notificações de eventos ativadas para um grupo gerenciado. Além disso, se um administrador do Adobe Workfront desbloquear uma notificação de evento, você poderá configurá-la para um grupo de nível superior gerenciado por você. A configuração de uma notificação de evento consiste em ativá-la ou desativá-la.
-author: Lisa
+author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: a42a167447d2f11b5502e4a0953b5e7eec2e67b1
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%

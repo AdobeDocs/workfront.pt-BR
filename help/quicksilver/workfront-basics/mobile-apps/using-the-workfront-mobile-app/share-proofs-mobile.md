@@ -3,13 +3,13 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Compartilhar e baixar provas no  [!DNL Adobe Workfront] aplicativo móvel
 description: Você pode compartilhar um documento de prova com recipients internos e externos diretamente do aplicativo móvel. Você também pode baixar um documento de prova no seu dispositivo móvel.
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -80,5 +80,5 @@ Esta opção envia um email com um link de prova pública para um contato de [!D
 Você pode baixar uma cópia do documento de prova no seu dispositivo móvel. Observe que, embora não seja possível visualizar os arquivos de vídeo, ainda é possível baixá-los.
 
 1. Abra a prova do documento e selecione o menu **[!UICONTROL Mais]** ![Mais menu](assets/mobile-verticalmoremenu-20x33.png) na parte superior direita do documento. Em seguida, selecione **[!UICONTROL Mais]**.
-1. Selecione **[!UICONTROL Baixar]**.
+1. Selecione **[!UICONTROL Download]**.
 1. Siga as instruções do dispositivo para concluir o download e abra o arquivo de documento.

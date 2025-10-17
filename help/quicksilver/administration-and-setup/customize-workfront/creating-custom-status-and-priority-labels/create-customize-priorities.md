@@ -1,11 +1,11 @@
 ---
 title: Criar e personalizar prioridades
 description: Você pode controlar as prioridades de projetos, tarefas e problemas na área Configuração do Workfront. As prioridades dão importância aos seus projetos, tarefas ou problemas no Adobe Workfront.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 2%

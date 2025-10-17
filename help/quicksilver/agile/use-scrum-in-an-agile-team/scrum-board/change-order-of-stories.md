@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Alterar a ordem das histórias no quadro Scrum
 description: A ordem em que as matérias aparecem no storyboard não indica prioridade. No entanto, isso pode afetar a prioridade percebida, tornando as histórias mais visíveis. Por padrão, as matérias são exibidas em ordem alfabética dentro de cada [!UICONTROL status] coluna no storyboard.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: 4dc2d81cd6dc4249f96925b6339fb837c4f67254
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%

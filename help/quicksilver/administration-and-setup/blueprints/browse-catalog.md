@@ -4,10 +4,10 @@ product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: Procurar no catálogo de blueprints e solicitar instalação de blueprints
 description: Os blueprints fornecem blocos de construção básicos para ajudá-lo a criar um sistema de gerenciamento de trabalho que cresce com você. Todos [!DNL Adobe Workfront] os usuários podem navegar pelo catálogo de blueprints. Além disso, você pode fazer uma solicitação para que o administrador do  [!DNL Workfront] instale um blueprint específico para você, caso o administrador tenha habilitado solicitações de blueprint.
-author: Becky, Lisa
+author: Jenny
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%

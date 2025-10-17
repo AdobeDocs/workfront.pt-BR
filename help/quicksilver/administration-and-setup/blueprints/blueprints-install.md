@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Instalar um blueprint
 description: Você pode instalar um blueprint no seu ambiente de produção ou um ambiente de sandbox.
-author: Becky
+author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: 5fd855bec596926a4361fd07a1a763c7956e5e61
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 1%
@@ -87,7 +87,7 @@ Você pode instalar seu pacote em qualquer um dos seguintes ambientes:
 1. (Opcional) Clique em **[!UICONTROL Detalhes]** para saber como o blueprint funciona.
 1. Clique em **[!UICONTROL Instalar]**.
 1. Escolha instalar no ambiente de produção ou em um ambiente de sandbox.\
-   Para obter mais informações, consulte o [Onde devo instalar um blueprint?seção &#x200B;](#where-should-i-install-a-blueprint) neste artigo.
+   Para obter mais informações, consulte o [Onde devo instalar um blueprint?seção ](#where-should-i-install-a-blueprint) neste artigo.
 1. Na página **Configurar**, você pode optar por executar um dos seguintes procedimentos:
 
    * Instale o blueprint como está. Para tipos de blueprint que não exigem configuração, essa é a única opção. Para tipos de blueprint que precisam de configuração, você pode optar por instalar o blueprint agora e configurá-lo posteriormente. Clique em **[!UICONTROL Instalar como está]**.

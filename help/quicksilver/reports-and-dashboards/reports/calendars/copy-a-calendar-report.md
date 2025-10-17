@@ -3,10 +3,10 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Copiar um Relatório de Calendário
 description: Se você criou um calendário, é possível copiar o calendário e usá-lo como ponto de partida para um novo calendário.
-author: Lisa
+author: Jenny
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%

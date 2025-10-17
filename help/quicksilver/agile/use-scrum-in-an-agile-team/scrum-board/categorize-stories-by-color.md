@@ -3,10 +3,10 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Categorizar Histórias por Cor no Quadro Scrum
 description: A associação de cores padrão das matérias do quadro Scrum difere dependendo se o storyboard está localizado em uma iteração ou em um projeto.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%

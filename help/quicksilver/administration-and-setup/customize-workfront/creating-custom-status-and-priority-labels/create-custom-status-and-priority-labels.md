@@ -1,16 +1,16 @@
 ---
-title: "Criar status personalizados e rótulos de prioridade: índice de artigos"
+title: 'Criar status personalizados e rótulos de prioridade: índice de artigos'
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: Como administrador do Adobe Workfront, você pode criar status personalizados para projetos, tarefas e problemas. Eles podem ser para usuários em todo o sistema Workfront ou para grupos ou subgrupos específicos. O status de um item de trabalho representa seu estado atual de desenvolvimento.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 94248a76-6531-4196-964d-6fd51ed02f6a
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 3%

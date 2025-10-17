@@ -3,11 +3,11 @@ content-type: reference
 navigation-topic: get-started-with-workfront
 title: 'Usar notificações: índice do artigo'
 description: Leia estes artigos para saber como usar notificações no Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 2768cb277a45493dc8eb9ffeca2c05b14d772382
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -22,7 +22,7 @@ O [!DNL Adobe Workfront] envia notificações por email, no aplicativo e por dis
 
 Esta seção contém os seguintes artigos:
 
-* [[!DNL Adobe Workfront] notificações](../../workfront-basics/using-notifications/wf-notifications.md)
+* [Notificações do [!DNL Adobe Workfront]](../../workfront-basics/using-notifications/wf-notifications.md)
 * [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
 * [Assinar itens em  [!DNL Adobe Workfront]](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 * [Visão geral das notificações no aplicativo](../../workfront-basics/using-notifications/in-app-notifications-overview.md)

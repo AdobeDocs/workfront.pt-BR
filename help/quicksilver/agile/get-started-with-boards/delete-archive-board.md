@@ -4,10 +4,10 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Excluir ou arquivar um quadro
 description: Você pode excluir ou arquivar um quadro no Workfront. A exclusão de um quadro o remove permanentemente do Workfront, enquanto o arquivamento de um quadro retém todos os cartões e permite que ele seja restaurado posteriormente.
-author: Lisa
+author: Jenny
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%

@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: "Notificações: informações sobre os projetos que eu patrocino"
+title: 'Notificações: Informações sobre projetos que eu patrociono'
 description: As notificações a seguir alertam sobre atividades que ocorrem em um projeto que você está patrocinando.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: b4c7c046-f15f-4e6e-9332-5232c7b7080b
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
  <tbody> 
   <tr> 
    <td> <p><strong>Um documento foi adicionado ao patrocinador do projeto</strong> </p> <p>O Patrocinador do projeto recebe uma notificação por email quando um documento é adicionado ao projeto.</p> <p>Uma notificação só será enviada se o status do projeto for [!UICONTROL Atual] e se o documento não for [!UICONTROL Privado].</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Documento adicionado a] &lt;Nome do Projeto&gt;</em></p> <p>O assunto da notificação de resumo diário é:<em> [!UICONTROL Resumo dos Projetos que Você Patrocinou] &lt;Data do resumo diário&gt;</em></p> </td> 
-   <td> Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Documento<br>Nome do usuário que adicionou o documento<br>Nome do Documento<br>Adicionado na Data<br>Detalhes do Documento (formato, tamanho, Número da Versão)<br>Miniatura do Documento<br><strong>[!UICONTROL Preview]</strong> e <strong>[!UICONTROL Download]</strong> botões<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de documentos adicionados<br>*Nome do Documento<br>*Nome do usuário que adicionou documento<br>*Data do resumo diário </td> 
+   <td> Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Documento<br>Nome do usuário que adicionou o documento<br>Nome do Documento<br>Adicionado na Data<br>Detalhes do Documento (formato, tamanho, Número da Versão)<br>Miniatura do Documento<br><strong>[!UICONTROL Visualização]</strong> e <strong>[!UICONTROL Download]</strong> botões<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de documentos adicionados<br>*Nome do Documento<br>*Nome do usuário que adicionou o documento<br>*Data do resumo diário </td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>Quando um projeto for alterado de uma status positiva de progresso (no prazo) para uma status negativa de progresso (em atraso)</strong>, enviar email para o patrocinador do projeto </p> <p>O Patrocinador do projeto recebe uma notificação por email quando o projeto atrasa o agendamento. "Um projeto está atrasado no agendamento quando o Status de Progresso é "[!UICONTROL Em Risco]" ou "[!UICONTROL Com Problemas]"."</p> <p>Os usuários com uma licença de [!UICONTROL Review] não recebem uma notificação.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Alteração de Progresso do Projeto]: &lt;Nome do Projeto&gt;</em></p> <p>O assunto da notificação de resumo diário é: <em>[!UICONTROL Resumo dos Projetos que Você Patrocinou] &lt;Data do resumo diário&gt;</em></p> </td> 
-   <td> Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status de Progresso do Projeto<br>Projeto [!UICONTROL Data de Início Planejada]<br>Projeto [!UICONTROL Data de Término Planejada]<br>Projeto [!UICONTROL Data de Início Projetada]<br>Projeto [!UICONTROL Data de Término Projetada]<br>Porcentagem de Término do Projeto<br>Status do Projeto<br>Proprietário do Projeto<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Status de Progresso do Projeto<br>*Data resumo diário </td> 
+   <td> Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Projeto<br>Status de Progresso do Projeto<br>Data de Início Planejada do Projeto [!UICONTROL]<br>Data de Término Planejada do Projeto [!UICONTROL]<br>Projeto [!UICONTROL Data de Início Projetada]<br>Projeto [!UICONTROL Data de Término Projetada]<br>Percentual de Término do Projeto<br>Status do Projeto<br>Proprietário do Projeto<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Status de Progresso do Projeto<br> diário do Projeto resumo </td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tr> 
   <tr> 
    <td> <p><strong>Um problema não atribuído foi adicionado ao patrocinador do projeto</strong> </p> <p>O Patrocinador do projeto recebe uma notificação por email quando um problema não atribuído é adicionado ao projeto.</p> <p>Uma notificação será enviada somente se o status do projeto for [!UICONTROL Atual] ou [!UICONTROL Planning].</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Quem deve ser atribuído a este novo problema no] &lt;Nome do Projeto&gt;?</em></p> <p>O assunto da notificação de resumo diário é:<em> [!UICONTROL Resumo dos Projetos que Você Patrocinou] &lt;Data do resumo diário&gt;</em></p> </td> 
-   <td> Nome do projeto<br>Nome do Portfolio<br>Número de Referência do Problema<br>Nome do usuário que adicionou o problema<br>Nome do Problema<br>Tipo de Problema<br>Data de Inserção<br>Prioridade do Problema<br>Atribuído ao Nome (vazio)<br>Status do Problema<br>Contato Principal<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de problemas adicionados<br>*Nome do Problema<br>*Nome do usuário que adicionou o problema<br>*Data do resumo diário<br></td> 
+   <td> Nome do Projeto<br>Nome do Portfolio<br>Número de Referência do Problema<br>Nome do usuário que adicionou o problema<br>Nome do Problema<br>Tipo de Problema<br>Data de Inserção<br>Prioridade do Problema<br>Atribuído ao Nome (vazio)<br>Status do Problema<br>Contato Principal<br>*Nome do Projeto<br>*Número de Referência do Projeto<br>*Número total de problemas adicionados<br>*Nome do Problema<br>*Nome do usuário que adicionou o problema<br>*Data do resumo diário<br></td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
