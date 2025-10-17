@@ -56,7 +56,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    Para adicionar uma nova coluna, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 1. Clique no menu **[!UICONTROL Mais]** na coluna e selecione **[!UICONTROL Editar]** para abrir a área Configurações.
-1. Em [!UICONTROL Políticas de Coluna], habilite a política de limite **[!UICONTROL de ]Trabalho em andamento** para limitar o número de cartões que podem ser adicionados à coluna.
+1. Em [!UICONTROL Políticas de Coluna], habilite a política de limite **[!UICONTROL de &#x200B;]Trabalho em andamento** para limitar o número de cartões que podem ser adicionados à coluna.
 1. Digite o número de limite no campo **[!UICONTROL Definir limite]**.
 
    ![Limite de WIP para a coluna](assets/boards-wip-limit-in-column.png)

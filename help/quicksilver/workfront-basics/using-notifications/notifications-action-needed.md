@@ -67,7 +67,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
    <td><strong>Instantâneo e Diário</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Preciso revisar uma tarefa, cuja aprovação foi delegada</strong> </p> <p>Uma aprovação de tarefa foi delegada a você e você precisa revisá-la.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Aprovação de Tarefa Delegada - Favor Revisar ]&lt;Nome da Tarefa&gt;</em></p> <p>O assunto da notificação de resumo diário é:<em> [!UICONTROL Resumo da Ação Necessária] &lt;Data do resumo diário&gt;</em></p> </td> 
+   <td> <p><strong>Preciso revisar uma tarefa, cuja aprovação foi delegada</strong> </p> <p>Uma aprovação de tarefa foi delegada a você e você precisa revisá-la.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Aprovação de Tarefa Delegada - Favor Revisar &#x200B;]&lt;Nome da Tarefa&gt;</em></p> <p>O assunto da notificação de resumo diário é:<em> [!UICONTROL Resumo da Ação Necessária] &lt;Data do resumo diário&gt;</em></p> </td> 
    <td> Nome da Tarefa<br>Nome do Projeto<br>Número de Referência da Tarefa<br>Nome do usuário que solicitou a aprovação<br>Nome do usuário em cujo nome você está aprovando a Tarefa<br>Status de Aprovação Pendente<br>Data e Hora da Aprovação Solicitada<br>Prioridade da Tarefa<br>Estágio da Aprovação<br>Nomes de Aprovadores<br>[!UICONTROL Data de Conclusão Planejada da Tarefa]<br><strong>[!UICONTROL Tomar Decisão de Aprovação]</strong> botão <br>*Número total de aprovações de tarefas pendentes<br>*Link para <strong>[!UICONTROL Aprovações de Tarefas *Ver Todas as Aprovações]</strong> botão<br>*Data do resumo diário </td> 
    <td><strong>Instantâneo e Diário</strong> </td> 
   </tr> 

@@ -66,7 +66,7 @@ Recomendamos que os administradores de grupo tenham acesso de edição aos usuá
 >[!IMPORTANT]
 >
 >Os administradores de grupo devem ter acesso maior do que aqueles que gerenciam; caso contrário, não poderão visualizar ou modificar níveis de acesso mais baixos.
->>Para obter instruções sobre como conceder esse acesso, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>&#x200B;>Para obter instruções sobre como conceder esse acesso, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Para um administrador de grupo que precisa atribuir perfis de folha de horas a usuários em seus grupos e subgrupos, também recomendamos Acesso administrativo a folhas de horas e horas. Para obter instruções sobre como conceder esse acesso, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 

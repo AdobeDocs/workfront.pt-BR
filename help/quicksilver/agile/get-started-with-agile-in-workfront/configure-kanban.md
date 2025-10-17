@@ -76,7 +76,7 @@ Para configurar como as histórias são estimadas para sua equipe ágil:
 
 1. Clique no ícone **[!UICONTROL Trocar Equipes]**, em seguida, selecione uma nova equipe no menu suspenso ou pesquise por uma equipe na caixa de pesquisa.![](assets/switch-team-icon.png)
 1. Selecione a Equipe Ágil que deseja gerenciar.
-1. Clique no menu **** Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
@@ -170,7 +170,7 @@ Para limitar o WIP para a equipe Kanban:
 1. Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipes](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Selecione a equipe Kanban que deseja gerenciar.
-1. Clique no menu **** Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
@@ -195,7 +195,7 @@ Você pode configurar histórias do backlog para serem adicionadas automaticamen
 1. Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipes](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Selecione a equipe Kanban que deseja gerenciar.
-1. Clique no menu **** Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
@@ -216,7 +216,7 @@ Você pode escolher por quanto tempo os cartões concluídos permanecem no quadr
 
 1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipes](assets/switch-team-icon.png) e selecione uma nova equipe Kanban no menu suspenso ou procure uma equipe na barra de pesquisa.
 1. Selecione a equipe Kanban.
-1. Clique no menu **** Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 

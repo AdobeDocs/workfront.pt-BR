@@ -23,7 +23,7 @@ Leia estes artigos para entender como navegar no Adobe Workfront e aprender a te
 Esta seção contém as seguintes subseções e artigos:
 
 * [Compreender objetos em  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-* [Glossário da terminologia  [!DNL Adobe Workfront] ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
+* [Glossário da terminologia  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [[!DNL Adobe Unified Experience] para [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
 * [[!DNL Adobe Unified Experience] Perguntas frequentes](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
 * [[!DNL Adobe Workfront] Pesquisa](../../workfront-basics/navigate-workfront/search/search.md)
@@ -36,7 +36,7 @@ Esta seção contém as seguintes subseções e artigos:
 * [Fixar páginas para personalizar o espaço de trabalho](../../workfront-basics/the-new-workfront-experience/pin-pages.md)
 * [Listas em  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/use-lists/lists.md)
 * [Adicionar um painel no painel esquerdo de um objeto ou área do Workfront](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
-* [Acessar a ajuda do  [!DNL Adobe Workfront] ](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
+* [Acessar a ajuda do  [!DNL Adobe Workfront] &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
 * [Visão geral das datas de Projeto, Tarefa e Problema em [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [Compreender a navegação de um usuário de licença do [!UICONTROL Trabalho]](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
 * [Compreender a navegação de um usuário de licença do [!UICONTROL Review]](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)

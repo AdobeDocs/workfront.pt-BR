@@ -54,7 +54,7 @@ Qualquer grupo adicionado a um grupo existente torna-se automaticamente um subgr
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-Você pode atribuir membros do subgrupo como administradores do grupo ao subgrupo ao criá-lo ou editá-lo. Para obter instruções, consulte [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) no artigo [Criar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Você pode atribuir membros do subgrupo como administradores do grupo ao subgrupo ao criá-lo ou editá-lo. Para obter instruções, consulte [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) no artigo [Criar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Como alternativa, você pode deixar a administração do subgrupo para os administradores de grupo atribuídos aos grupos acima dele. Ao criar um subgrupo, os administradores de grupo nos grupos acima têm acesso automático para gerenciar o subgrupo.
 
