@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: d950346c549d22c7a8db82ce032caa24202f9126
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -54,12 +54,12 @@ O campo Horas efetivas visível na seção Detalhes do projeto, tarefas e proble
 >[!IMPORTANT]
 >
 >Dependendo de quando as horas foram registradas, pode haver uma discrepância entre as Horas Reais e as Horas Reais Herdadas para um projeto, tarefa ou problema.<br>
->&#x200B;>Existem os seguintes cenários:
+>>Existem os seguintes cenários:
 >
 >* As horas reais representam horas registradas para projetos, tarefas e problemas desde maio de 2021.
 >* As Horas Reais Herdadas representam horas registradas para projetos, tarefas e problemas durante a vida útil do projeto, tarefa ou problema. Isso inclui horas registradas antes de maio de 2021 até a hora atual.
->  &#x200B;><br>Talvez seja necessário atualizar os relatórios para refletir o novo campo e seus valores.
->  &#x200B;><br>O Workfront usa Horas Reais Herdadas para calcular Custos Reais do Trabalho.
+>  ><br>Talvez seja necessário atualizar os relatórios para refletir o novo campo e seus valores.
+>  ><br>O Workfront usa Horas Reais Herdadas para calcular Custos Reais do Trabalho.
 
 Para obter informações, consulte [Exibir Horas Efetivas](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
@@ -71,6 +71,8 @@ Para obter informações, consulte [Exibir Horas Efetivas](/help/quicksilver/man
 >* Visualização: com a próxima versão da API, agendada para posteriormente em 2025
 >* Versão rápida de produção: com a próxima versão da API, programada para ser lançada em 2025
 >* Produção para todos os clientes: com a próxima versão da API, programada para mais tarde em 2025
+>
+>Para obter informações sobre versões de API, consulte [Controle de versão de API e agendamento de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 Esta atualização introduz uma mudança na forma como as Horas efetivas de projetos, tarefas e problemas são armazenadas no banco de dados. A partir desta atualização, as Horas Efetivas usarão um campo de valor de `actualWorkRequiredDouble` (com um valor em horas).
 

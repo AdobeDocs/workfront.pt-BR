@@ -7,9 +7,9 @@ description: As horas em que você faz logon nos itens de trabalho no Adobe Work
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 055228fd15d670a214039575dc076ab36f6e99eb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -202,11 +202,13 @@ Com a seguinte versão da API do Workfront programada para ser lançada posterio
 * **Horas efetivas**: horas registradas para projetos, tarefas ou problemas após maio de 2021. Eles são armazenados no banco de dados do Workfront em horas e seu campo de valor é `actualWorkRequiredDouble`.
 * **Horas Reais Herdadas**: horas registradas para projetos, tarefas ou problemas a qualquer momento, inclusive antes de maio de 2021. Eles são armazenados no banco de dados do Workfront como minutos e seu campo de valor é `actualWorkRequired`.
 
-  >[!IMPORTANT]
-  >
-  >O Custo Efetivo do projeto usa as Horas Efetivas herdadas para calcular.
+Para obter informações sobre versões de API, consulte [Controle de versão de API e agendamento de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-  Para obter informações sobre como usar as Horas Efetivas em colunas calculadas ou campos, consulte [Perguntas Frequentes sobre Relatórios](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+>[!IMPORTANT]
+>
+>O Custo Efetivo do projeto usa as Horas Efetivas herdadas para calcular.
+
+Para obter informações sobre como usar as Horas Efetivas em colunas calculadas ou campos, consulte [Perguntas Frequentes sobre Relatórios](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
 ## Registrar de tempo
 

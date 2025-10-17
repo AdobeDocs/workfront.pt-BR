@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '3875'
+source-wordcount: '3874'
 ht-degree: 2%
 
 ---
@@ -250,7 +250,7 @@ Para gerenciar uma exibição de linha do tempo:
 
    >[!TIP]
    >
-   >Não é possível redimensionar, arrastar e soltar registros na linha do tempo para tipos de objetos do Workfront e do AEM Assets exibidos no detalhamento.
+   >Não é possível redimensionar, arrastar e soltar registros na linha do tempo para tipos de objetos do Workfront e do AEM Assets exibidos em detalhamentos.
 
 1. Atualize os seguintes elementos de exibição conforme descrito nas subseções abaixo:
    * [Filtros](#add-filters)

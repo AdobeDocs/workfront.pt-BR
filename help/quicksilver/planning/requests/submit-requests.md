@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1950'
 ht-degree: 0%
 
 ---
@@ -52,13 +52,10 @@ Para obter informações sobre como um gerenciador de espaço de trabalho pode c
 <tr> 
    <td role="rowheader"><p>Pacotes Adobe Workfront</p></td> 
    <td> 
-<ul><li><p>Qualquer pacote do Workfront</p></li>
-E
-<li><p>Qualquer pacote do Planning</p></li></ul>
+<p>Qualquer pacote do Workfront e qualquer pacote do Planning</p>
 Ou
-<ul><li><p>Qualquer pacote de fluxo de trabalho</p></li>
-E
-<li><p>Qualquer pacote do Planning</p></li></ul>
+<p>Qualquer pacote de fluxo de trabalho e qualquer pacote de planejamento</p>
+<p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront.</p>
    </td> </tr>
 
 </tr> 

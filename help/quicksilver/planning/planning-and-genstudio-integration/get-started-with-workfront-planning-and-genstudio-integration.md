@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '2000'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ A tabela a seguir descreve os requisitos de acesso e permissões para usar o Ado
    <td role="rowheader"><p>Funções de usuário do Adobe GenStudio for Performance Marketing</p></td> 
    <td><p><ul><li>Qualquer função de usuário do GenStudio para acessar Campanhas, Produtos e Personalidades</li>
    <li>GenStudio System Manager para acessar Ativações <!--and Events--></li></ul>
-   Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
+   Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Funções e permissões de usuário</a>. 
    </p>
   </td> 
   </tr>   
@@ -163,7 +163,7 @@ Para obter mais informações sobre o Adobe GenStudio for Performance Marketing,
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -208,22 +208,20 @@ Dependendo de quantas instâncias do Workfront sua organização tiver, você te
    <tr> 
 <td> 
    <p> Várias instâncias do Workfront</p> </td> 
-   <td>
-
-<p>O espaço de trabalho do GenStudio está visível em todas as instâncias do Workfront</p>
-<p>Todos os usuários com acesso ao GenStudio for Performance Marketing e ao Workfront Planning têm permissões do Contribute no GenStudio no Planning por padrão</p> 
-<p>Os administradores do Workfront não podem conceder permissões de gerenciamento ao espaço de trabalho do GenStudio a ninguém</p>
+   <td> 
+   <p>A seguir estão os cenários para quando sua organização tem mais de uma instância do Workfront com o Workfront Planning:</p>
+   <ul><li>Se sua empresa tiver várias instâncias do Workfront no momento em que elas compram o Adobe GenStudio for Performance Marketing, o espaço de trabalho do GenStudio estará visível em todas as instâncias do Workfront.</li>
+   <li>Se sua empresa adicionar mais instâncias do Workfront depois que a instância original já tiver sido integrada ao Adobe GenStudio for Performance Marketing, o espaço de trabalho do GenStudio ficará visível somente na instância original do Workfront. Para obter informações sobre como conectar uma instância adicional do Workfront à Adobe GenStudio, entre em contato com o representante da conta. </li></ul>    
 </td> 
   </tr>
    </tbody> 
 </table>
 
-<!--If Iskuhi confirms, add this or a corrected version to the second row of the table above:
-<p>The following are the scenarios for when your organization has more than one instance of Workfront with Workfront Planning:</p>
-   <ul><li>If your company has multiple instances of Workfront at the moment when they purchase Adobe GenStudio for Performance Marketing, the GenStudio workspace is visible from all Workfront instances.</li>
-   <li>If your company adds more Workfront instances after their original instance has already been integrated with Adobe GenStudio for Performance Marketing, the GenStudio workspace is visible only from the original Workfront instance. For information about connecting additional instance of Workfront to Adobe GenStudio, contact your account representative. </li></ul>  
-   
-   -->
+<!--Old for the second row in the table:
+
+<p>The GenStudio workspace is visible from all Workfront instances</p>
+<p>All users with access to GenStudio for Performance Marketing and Workfront Planning have Contribute permissions on the GenStudio in Planning by default</p> 
+<p>Workfront administrators cannot grant Manage permissions to the GenStudio workspace to anyone</p>-->
 
 Para obter informações sobre permissões do Workfront Planning, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 

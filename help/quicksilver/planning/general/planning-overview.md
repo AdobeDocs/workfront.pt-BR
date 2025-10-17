@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2004'
 ht-degree: 1%
 
 ---
@@ -174,7 +174,7 @@ Depois que sua organização comprar um pacote do Workfront Planning, como admin
 
   Para obter mais informações, consulte [Personalizar o Menu Principal usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) e [Atribuir usuários a um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Atribua aos usuários uma licença do Workfront e permissões do Workfront Planning que permitiriam a eles visualizar ou criar objetos no Workfront Planning. Para obter mais informações sobre como conceder acesso e permitir que outras pessoas usem o Workfront Planning, consulte [Visão geral sobre acesso ao Adobe Planning](/help/quicksilver/planning/access/access-overview.md).
+* Atribua aos usuários uma licença do Workfront e permissões do Workfront Planning que permitiriam a eles visualizar ou criar objetos no Workfront Planning. Para obter mais informações sobre como conceder acesso e permitir que outras pessoas usem o Workfront Planning, consulte [Visão geral sobre acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
 ## Terminologia do Workfront Planning
 
@@ -395,7 +395,7 @@ Para obter uma lista atualizada dos recursos lançados, consulte [atividade de v
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Módulos do Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): com os módulos do Adobe Workfront Planning, é possível acionar um cenário quando eventos ocorrem no Workfront Planning. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Adobe Workfront Planning.
+* [Módulos do Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): com os módulos do Adobe Workfront Planning, é possível acionar um cenário quando eventos ocorrem no Workfront Planning. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Adobe Workfront Planning.
 
 * [Noções básicas da API de Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md): a meta da API de Planejamento do Adobe Workfront é simplificar a criação de integrações com o Planning, introduzindo uma arquitetura REST-ful que opera via HTTP.
 

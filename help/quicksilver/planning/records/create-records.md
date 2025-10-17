@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: df0686038adb1278339e872e122a311884cb6d29
 workflow-type: tm+mt
-source-wordcount: '3130'
+source-wordcount: '3147'
 ht-degree: 0%
 
 ---
@@ -330,7 +330,12 @@ Para obter informações sobre como criar um modo de exibição de linha do temp
    A caixa **Novo registro** é aberta. <!--might need a new screen shot for Production - might add a title etc-->
 
    ![Nova caixa de registro na linha do tempo com barra de registro sem nome](assets/new-record-small-box-on-timeline.png)
+
+   >[!NOTE]
+   >
+   >Não é possível criar registros na exibição de linha do tempo quando as barras de registro são exibidas em um agrupamento nomeado.
 1. Atualize as seguintes informações:
+
 
    * **Nome**: insira o nome do registro. Se você deixá-lo vazio, o Workfront o nomeia como **Sem título** por padrão.
 
