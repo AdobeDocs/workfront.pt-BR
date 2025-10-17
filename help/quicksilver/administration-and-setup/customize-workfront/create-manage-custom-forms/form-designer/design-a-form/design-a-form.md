@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+source-git-commit: 559044c44ca8d32d010188445403b4fc1e524002
 workflow-type: tm+mt
-source-wordcount: '6583'
+source-wordcount: '6642'
 ht-degree: 5%
 
 ---
@@ -129,7 +129,7 @@ Cada nome de campo personalizado deve ser exclusivo na instância do Workfront d
 >[!NOTE]
 >
 >Embora seja possível fazer isso, recomendamos que você não altere esse nome depois que você ou outros usuários começarem a usar o formulário personalizado no Workfront. Se você fizer isso, o sistema não reconhecerá mais o campo personalizado onde ele pode agora ser referenciado em outras áreas do Workfront.
->&#x200B;>Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar seu nome, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.
+>>Por exemplo, se você adicionar o campo personalizado a um relatório e depois alterar seu nome, o Workfront não o reconhecerá no relatório e ele deixará de funcionar corretamente lá, a menos que você o adicione novamente ao relatório usando o novo nome.
 >
 >Recomendamos que você não digite um nome que já esteja sendo usado para campos integrados do Workfront.
 >
@@ -628,12 +628,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções suspensas.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
-      &lbrace;
-       dados: &lbrace;
+      {
+       dados: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o Caminho JSON e verificar se você grava o Caminho JSON correto, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1041,6 +1041,10 @@ Para adicionar um campo de conexão do Planning:
    * Conectar ou desconectar registros do objeto Workfront.
 
    Para obter mais informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+
+### Adicionar extensões da interface do usuário
+
+Um aplicativo pode ser incorporado em um formulário personalizado do Workfront usando o tipo de campo Extensões de interface do usuário. Para criar extensões de interface do usuário, você deve ter acesso ao Adobe App Builder na Adobe Developer Console. Para obter informações, consulte [Incorporar um aplicativo usando um formulário personalizado do Workfront](/help/quicksilver/app-builder/app-builder.md#embed-an-app-using-a-workfront-custom-form) no artigo [Criar aplicativos personalizados para o Workfront com o Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
 ## Organizar e visualizar um formulário com o designer de formulário
 
