@@ -235,7 +235,7 @@ Esta tabela lista as atividades de administração disponíveis para:
 * Fluxo de trabalho Prime e superior
 * Workfront Prime e superior
 
-Consulte a [página de preços e pacotes do Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) para obter mais informações sobre pacotes.
+Consulte a [página de preços e pacotes do Adobe Workfront](https://business.adobe.com/br/products/workfront/pricing.html) para obter mais informações sobre pacotes.
 
 Advanced Enterprise Controls:
 
