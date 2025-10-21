@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 2c9bf2eabfeaf3b67daca8b7f1bab8f867baec62
+source-git-commit: e05b15bbb9e9148cc6f2940ae33f7ea9f98b7444
 workflow-type: tm+mt
-source-wordcount: '13463'
+source-wordcount: '13471'
 ht-degree: 2%
 
 ---
@@ -873,6 +873,7 @@ ht-degree: 2%
          * [Adicionar, editar ou remover widgets na Nova página inicial](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Exibir itens na Lista de trabalho na área Página inicial](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [Visão geral dos filtros de widget da página inicial](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+         * [Gerenciar suas aprovações com o widget Minhas aprovações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)
          * [Gerencie seu trabalho com o widget Meu trabalho](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
          * [Gerenciar solicitações de trabalho e de equipe na área Página inicial](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [Atualizar ou editar um item de trabalho na área Página Inicial](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
