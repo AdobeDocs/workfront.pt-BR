@@ -7,7 +7,7 @@ description: É possível criar uma cópia de qualquer relatório ao qual você 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Se quiser fazer uma cópia de um relatório personalizado, faça o seguinte:
 
    ![Copiar relatório](assets/unshimmed-report-actions-copy.png)
 
-   Uma cópia do relatório original é criada com o nome padrão de _[Nome do relatório original] (Cópia)_. Por exemplo, uma cópia do relatório &quot;Tarefas concluídas do quarto trimestre&quot; seria nomeada &quot;Tarefas concluídas do quarto trimestre (Cópia)&quot;.
+   Uma cópia do relatório original é criada com o nome padrão de _[Nome do relatório original]_ _(Cópia)_. Por exemplo, uma cópia do relatório &quot;Tarefas concluídas do quarto trimestre&quot; seria nomeada &quot;Tarefas concluídas do quarto trimestre (Cópia)&quot;.
 
 1. (Opcional) Para renomear o relatório, clique em **Ações de Relatório** e em **Editar**. Digite um novo nome na caixa de texto no canto superior esquerdo e clique em **Salvar + Fechar** quando terminar.
 

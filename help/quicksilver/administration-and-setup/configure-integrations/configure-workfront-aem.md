@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
 workflow-type: tm+mt
 source-wordcount: '1855'
 ht-degree: 0%
@@ -71,7 +71,7 @@ O [!DNL Workfront for AEM Assets connector] permite que sua organização faça 
 
 Antes de instalar o conector [!DNL Workfront] para [!UICONTROL AEM Assets], verifique se os seguintes pré-requisitos foram atendidos:
 
-* O [!UICONTROL AEM Assets] está instalado e configurado, versão 6.5 ou posterior. Para obter informações sobre como instalar o [!UICONTROL AEM Assets], consulte a [[!DNL Adobe Experience Manager] documentação](https://experienceleague.adobe.com/pt-br/docs/experience-manager).
+* O [!UICONTROL AEM Assets] está instalado e configurado, versão 6.5 ou posterior. Para obter informações sobre como instalar o [!UICONTROL AEM Assets], consulte a [[!DNL Adobe Experience Manager] documentação](https://experienceleague.adobe.com/en/docs/experience-manager).
 * (Condicional) Se as regras de firewall não permitirem o tráfego conforme o esperado, adicione o endereço IP e/ou domínio do cluster à inclui na lista de permissões. Incluir na lista de permissões Para obter mais informações, consulte [Configurar o arquivo do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Instalar o pacote do conector [!DNL Workfront for AEM Assets] {#install-the-workfront-for-aem-assets-connector-package}
@@ -241,7 +241,7 @@ O [!UICONTROL Externalizador do AEM] permite que o AEM passe URLs em um formato 
 
 ## Configurar [!DNL Workfront] para integrar com [!DNL AEM assets] {#configure-workfront-to-integrate-with-aem-assets}
 
-Depois de instalar o Conector do [!UICONTROL Workfront for AEM Assets] (conforme descrito em [Instalar o pacote de conectores do [!UICONTROL Workfront for AEM Assets]](#install-the-workfront-for-aem-assets-connector-package)) e configurar o [!UICONTROL AEM Assets] (conforme descrito em [Configurar[!UICONTROL &#x200B; AEM Assets] para integração com o  [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)), você precisará configurar o [!DNL Workfront] para vincular documentos entre o [!DNL Workfront] e o [!DNL AEM Assets].
+Depois de instalar o Conector do [!UICONTROL Workfront for AEM Assets] (conforme descrito em [Instalar o pacote de conectores do [!UICONTROL Workfront for AEM Assets]](#install-the-workfront-for-aem-assets-connector-package)) e configurar o [!UICONTROL AEM Assets] (conforme descrito em [Configurar o [!UICONTROL AEM Assets] para integração com o [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)), você precisará configurar o [!DNL Workfront] para vincular documentos entre o [!DNL Workfront] e o [!DNL AEM Assets].
 
 1. Faça logon no Workfront como administrador.
 
