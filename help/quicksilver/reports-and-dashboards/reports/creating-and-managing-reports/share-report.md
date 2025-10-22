@@ -6,10 +6,10 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 1%
+source-wordcount: '826'
+ht-degree: 0%
 
 ---
 
@@ -66,7 +66,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 Além das considerações abaixo, consulte também [Compartilhar relatórios, painéis e calendários](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 * Você pode compartilhar relatórios criados com outros indivíduos, equipes, grupos, funções de trabalho ou empresas. Você também pode compartilhar relatórios criados por outras pessoas e compartilhados com você.
-* Você também pode compartilhá-los com toda a organização ou torná-los públicos. Tornar um relatório público gera um URL que pode ser compartilhado com outras pessoas.
+* Você pode compartilhar relatórios com toda a organização ou torná-los públicos. Tornar um relatório público gera um URL que pode ser compartilhado com outras pessoas.
 * Você pode compartilhar um relatório individual ou vários relatórios de uma lista de relatórios.
 
 ## Maneiras de compartilhar relatórios
@@ -74,21 +74,21 @@ Além das considerações abaixo, consulte também [Compartilhar relatórios, pa
 Você pode compartilhar relatórios no Workfront da seguinte maneira:
 
 * Manualmente, conforme descrito na seção [Compartilhar um relatório](#share-a-report) abaixo.
-* Automaticamente, herdando permissões de Exibição de um painel que contém o relatório que foi compartilhado. Para obter informações sobre a exibição de permissões herdadas em objetos, consulte [Exibir permissões herdadas em objetos](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+* Automaticamente herdando permissões de exibição de um painel que contém o relatório que foi compartilhado. Para obter informações sobre a exibição de permissões herdadas em objetos, consulte [Exibir permissões herdadas em objetos](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
 ## Compartilhar um relatório {#share-a-report}
 
 O compartilhamento de um ou vários relatórios de uma lista é idêntico.
 
-1. Vá para uma lista de relatórios, selecione um ou vários relatórios e clique em **Compartilhar**.
+1. Vá para uma lista de relatórios, selecione um ou vários relatórios e clique no **ícone Compartilhar** ![ícone Compartilhar](assets/share-icon.png).
 
    Ou
 
-   Clique no nome de um relatório e em **Ações de Relatório >**&#x200B;**Compartilhamento**.
+   Clique no nome de um relatório e em **Ações de Relatório** > **Compartilhamento**. A caixa **Compartilhar [NOME DO RELATÓRIO]** é aberta.
 
-   ![](assets/unshimmed-report-actions-sharing.png)
+   ![Opção de compartilhamento](assets/unshimmed-report-actions-sharing.png)
 
-1. Na caixa que é exibida, no campo **Adicionar pessoas, equipes, funções, grupos ou empresas ...**, comece digitando o nome do usuário, equipe, função de trabalho, grupo ou empresa com a qual deseja compartilhar o relatório e pressione **Enter** quando o nome for exibido.
+1. No campo **Conceder acesso ao relatório para**, comece digitando o nome do usuário, da equipe, da função de trabalho, do grupo ou da empresa com a qual deseja compartilhar o relatório e selecione-o quando ele for exibido.
 
 1. Para ajustar o nível de acesso a um nome adicionado, clique no menu suspenso à direita do nome e escolha uma das opções abaixo.
 
@@ -97,12 +97,12 @@ O compartilhamento de um ou vários relatórios de uma lista é idêntico.
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Visualizar o projeto</td> 
-      <td> <p>Permite que o destinatário acesse para ver o relatório na área <strong>Relatórios</strong> e executá-lo.</p> <p>Você pode clicar em <strong>Configurações Avançadas</strong> para especificar se deseja que o usuário ou usuários possam <strong>Compartilhar</strong> com qualquer pessoa no sistema.</p> </td> 
+      <td role="rowheader">Exibir</td> 
+      <td> <p>Permite que o destinatário acesse para ver o relatório na área <strong>Relatórios</strong> e executá-lo.</p> <p>Você pode clicar no ícone <strong>Configurações avançadas</strong> à direita para especificar se deseja que o usuário ou usuários <strong>compartilhem</strong> com qualquer pessoa no sistema.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Gerenciar o projeto</td> 
-      <td> <p>Permite ao recipient acesso completo de edição ao relatório.</p> <p>Você pode clicar em <strong>Configurações avançadas</strong> para especificar se deseja que o usuário ou usuários <strong>excluam</strong> o relatório do sistema e <strong>compartilhem</strong> com qualquer pessoa no sistema.</p> </td> 
+      <td role="rowheader">Gerenciar</td> 
+      <td> <p>Permite ao recipient acesso completo de edição ao relatório.</p> <p>Você pode clicar no ícone <strong>Configurações avançadas</strong> à direita para especificar se deseja que o usuário ou usuários <strong>excluam</strong> o relatório do sistema e <strong>o compartilhem</strong> com qualquer pessoa no sistema.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -110,13 +110,13 @@ O compartilhamento de um ou vários relatórios de uma lista é idêntico.
 1. (Opcional) Repita as duas etapas anteriores para adicionar outros nomes à lista e configurar suas opções.
 1. (Opcional) Clique no menu suspenso **Somente pessoas convidadas podem acessar** na caixa de compartilhamento e escolha entre as seguintes opções:
 
-   * **Somente pessoas convidadas podem acessar**. Selecione esta opção para que somente os usuários aos quais foi concedido acesso ao relatório possam exibi-lo.
+   * **Somente pessoas convidadas podem acessar**: selecione esta opção para que somente os usuários aos quais foi concedido acesso ao relatório possam exibi-lo.
 
-   * **Todos no sistema podem exibir**. Selecione esta opção para que todos no Workfront com acesso a relatórios possam exibir o relatório.
+   * **Todos no sistema podem exibir**: selecione esta opção para que todos no Workfront com acesso a relatórios possam exibir o relatório.
 
 1. (Opcional) Clique no ícone de **engrenagem** ![configurações do ícone de engrenagem](assets/gear-icon-settings-with-dn-arrow.jpg) no canto superior direito da caixa de compartilhamento e, opcionalmente, selecione a seguinte opção:
 
-   * **Tornar público para usuários externos** Selecione esta opção para gerar uma URL que possa ser compartilhada com outras pessoas. Qualquer pessoa com o URL pode acessar o relatório, sem ter uma licença do Adobe Workfront.
+   * **Tornar público para usuários externos**: selecione esta opção para gerar uma URL que possa ser compartilhada com outras pessoas. Qualquer pessoa com o URL pode acessar o relatório, sem ter uma licença do Adobe Workfront.
 
      >[!CAUTION]
      >
