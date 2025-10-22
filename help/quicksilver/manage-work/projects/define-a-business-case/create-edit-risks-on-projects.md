@@ -6,9 +6,9 @@ description: Os riscos são eventos ou fatores possíveis que impedem a conclus�
 author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1062'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ Para criar ou editar um risco no Business Case:
 
 1. Vá para o projeto para o qual deseja criar riscos.
 1. Clique em **Business Case** no painel esquerdo.
-1. Na seção **Riscos**, clique em **Editar Riscos**.
+1. Na seção **Riscos**, clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png)
 1. Insira ou edite as seguintes informações:
 
    * **Descrição:** Descreva o risco.
@@ -96,7 +96,7 @@ Para criar ou editar um risco no Business Case:
 
    ![Riscos](assets/edit-risk.png)
 
-1. (Opcional) Clique em **Adicionar outro risco** para adicionar outros riscos.
+1. (Opcional) Clique em **Adicionar outro risco** para adicionar mais riscos.
 1. Clique em **Salvar**.
 
 ## Criar e editar riscos na área Riscos
@@ -104,8 +104,6 @@ Para criar ou editar um risco no Business Case:
 Além de criar e editar riscos no Business Case, você pode fazer isso usando a seção **Riscos** de um projeto.
 
 Você pode criar e editar riscos na seção Riscos de um projeto ou modelo. Criar riscos para modelos é idêntico a criar riscos para projetos.
-
-### Criar riscos na área Riscos {#create-risks-in-the-risks-area}
 
 1. Vá para o projeto para o qual deseja criar riscos.
 1. Clique em **Riscos** no painel esquerdo.
@@ -146,19 +144,19 @@ Você pode criar e editar riscos na seção Riscos de um projeto ou modelo. Cria
 
 Para editar riscos:
 
-1. Navegue até um projeto para o qual deseja editar os riscos existentes.
+1. Vá para um projeto para o qual deseja editar os riscos existentes.
 1. Clique em **Riscos** no painel esquerdo.
 1. Inicie a edição em linha dos campos para os riscos que você vê na lista para editar um risco de cada vez.
 
    Ou
 
-   Selecione um ou vários riscos e clique em **Editar** para editar vários riscos ao mesmo tempo.
+   Selecione um ou vários riscos e clique no **ícone Editar** ![ícone Editar](assets/edit-icon-on-white.png) para editar vários riscos ao mesmo tempo.
 
    >[!NOTE]
    >
    >Você está aplicando as mesmas informações a todos os riscos selecionados ao editar vários riscos ao mesmo tempo. As informações associadas a cada risco antes das alterações são substituídas em uma edição em massa.
 
-1. Se você clicou em **Editar**, a caixa **Editar risco** ou **Editar riscos** será aberta.
+1. Se você clicou no ícone **Editar**, a caixa **Editar risco** ou **Editar riscos** será aberta.
 
    Atualize os seguintes campos:
 

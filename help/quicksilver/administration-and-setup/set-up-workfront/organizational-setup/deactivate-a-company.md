@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 8fb17d1008b00bc0701ce6e2f06c59d020510e90
+source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. No painel esquerdo, clique no ícone **[!UICONTROL Empresas]** ![Empresas](assets/companies-icon-left-panel.png).
 
 1. Selecione uma ou mais empresas para desativar ou reativar.
-1. Clique em **[!UICONTROL Editar]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
+1. Clique em **[!UICONTROL Editar]**.<!--MAKE THIS A SEPARATE NUMBERED LINE<span class="preview">(Conditional) In the Preview environment, disable the **[!UICONTROL Is Active]** option to deactivate it, or enable the option to activate it.</span>-->
 1. Para uma única empresa, desabilite a opção **[!UICONTROL Está ativo]** para desativá-lo ou habilite a opção para ativá-lo. <!--ADD TO THE FRONT OF THIS SENTENCE In the Production environment, -->
 
    Ou

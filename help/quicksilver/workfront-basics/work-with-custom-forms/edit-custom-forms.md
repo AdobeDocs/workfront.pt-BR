@@ -7,9 +7,9 @@ description: Você pode editar informações em um formulário personalizado dep
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,11 @@ A edição de informações em um formulário personalizado anexado a um objeto 
 
 ## Recalcular todos os campos personalizados calculados para um objeto  {#recalculate-all-calculated-custom-fields-for-an-object}
 
+>[!IMPORTANT]
+>
+>Você deve ter um formulário personalizado com campos calculados anexados ao objeto antes de seguir as etapas desta seção.
+
+
 1. Vá para a página principal do objeto cujos campos personalizados você deseja recalcular.
 1. Clique no menu **Mais** ![](assets/more-icon.png) à direita do nome do objeto e clique em **Recalcular Expressões**.
 
@@ -154,7 +159,12 @@ A edição de informações em um formulário personalizado anexado a um objeto 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
 -->
 
-Você pode recalcular manualmente os campos personalizados de vários objetos editando-os em massa a partir de uma lista ou relatório.
+Dependendo dos objetos para os quais você deseja recalcular as expressões personalizadas, faça isso nas seguintes áreas:
+
+* Em uma lista de objetos, no menu Mais na parte superior da lista.
+* Na caixa Editar, ao selecionar e editar vários objetos em massa.
+
+Para recalcular manualmente os campos personalizados de vários objetos editando-os em massa a partir de uma lista ou relatório:
 
 1. Ir para uma lista de objetos que contêm formulários personalizados com campos calculados.
 1. Selecione os objetos cujos campos personalizados calculados você deseja atualizar.
@@ -164,17 +174,17 @@ Você pode recalcular manualmente os campos personalizados de vários objetos ed
 
    O Workfront calcula todos os campos personalizados para todos os objetos selecionados.
 
->[!TIP]
->
->Você também pode recalcular expressões personalizadas de uma lista de objetos. Por exemplo, para recalcular expressões personalizadas em massa de uma lista de projetos:
->
->1. Vá para uma lista de projetos ou relatório e selecione um ou vários projetos.
->1. Clique no menu **Mais** ![](assets/more-icon.png) e em **Recalcular Expressões Personalizadas**.
->
->![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
->
->O Workfront calcula todos os campos personalizados para todos os projetos selecionados.
->&#x200B;>Nem todas as listas de todos os objetos têm esse recurso.
+Para recalcular expressões personalizadas de uma lista de objetos:
+
+1. Vá para uma lista de projetos ou relatório e selecione um ou vários projetos.
+1. Clique no menu **Mais** ![](assets/more-icon.png) e em **Recalcular Expressões Personalizadas**.
+
+![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+
+O Workfront calcula imediatamente todos os campos personalizados para todos os projetos selecionados.
+Nem todas as listas de todos os objetos têm esse recurso.
+
+>[!NOTE]
 >
 >Dependendo da complexidade de seus projetos, recomendamos não selecionar um grande número de projetos ao recalcular campos personalizados calculados em massa para garantir o desempenho ideal. Alguns itens que podem tornar um projeto muito complexo podem ser várias dependências ou atribuições ou um grande número de campos personalizados.
 

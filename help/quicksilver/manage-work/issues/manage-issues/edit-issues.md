@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 460090a1102465c34e92433e52c0beb240d8e9b9
+source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2578'
 ht-degree: 3%
 
 ---
@@ -18,6 +18,16 @@ ht-degree: 3%
 # Editar problemas
 
 <!--Audited: 03/2025-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 É possível editar informações sobre problemas criados por você ou criados por outros usuários se eles compartilharem os problemas com você.
 
@@ -238,8 +248,6 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
    </ul> </td> 
      </tr>
 
-
-
    <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>Digite um link da Web relacionado às informações sobre o problema.</p> </td> 
@@ -262,7 +270,6 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
 
    <p>Ao adicionar um usuário de contato principal, observe o avatar, a função principal do usuário e seu endereço de email para distinguir entre usuários com nomes idênticos. Os usuários devem ser associados a pelo menos uma função de trabalho para visualizá-la à medida que forem adicionados.</p>
       <p> Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Conceder acesso aos usuários</a>.</p>
-
 
    </td> 
      </tr> 
@@ -323,7 +330,7 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
 
    ![Seção de atribuições de problemas](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
-1. Clique em **Pesquisar pessoas, funções e equipes** e comece a digitar o nome de um usuário, função ou equipe que deseja atribuir à tarefa, em seguida, clique nele ou pressione Enter quando ele for exibido na lista.
+1. Clique em **Pesquisar pessoas, funções e equipes** e comece a digitar o nome de um usuário, função ou equipe que deseja atribuir ao problema, em seguida, clique nele ou pressione Enter quando ele for exibido na lista.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
@@ -333,9 +340,9 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
    >
    >Se o nome do usuário contiver um caractere especial, você deverá incluí-lo no campo de pesquisa.
 
+   Você pode atribuir vários usuários, funções de trabalho ou equipes. Você pode atribuir somente usuários, funções de trabalho e equipes ativos.
+
    >[!TIP]
-   >
-   >Você pode atribuir vários usuários, funções de trabalho ou equipes. Você pode atribuir somente usuários, funções de trabalho e equipes ativos.
    >
    >
    >Se um usuário, função de trabalho ou equipe foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
@@ -343,7 +350,10 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
    >* Reatribuir o item de trabalho aos recursos ativos.
    >* Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
 
-1. (Opcional) Indique se um destinatário é o principal responsável pelo problema, passando o cursor do mouse sobre o nome do destinatário e clicando em **Tornar primário**. Uma equipe não pode ser o principal destinatário de um problema.
+   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
+
+   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
+
 1. Atualize os seguintes campos:
 
    <table style="table-layout:auto"> 
@@ -354,7 +364,7 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
     <tbody> 
      <tr> 
       <td role="rowheader">Horas planejadas</td> 
-      <td> <p>Esta é a quantidade de tempo real que os designados da ocorrência levariam para concluí-la. Digite o número de Horas planejadas para a ocorrência.<br></p> <p>Nota: Alterar as Horas Planejadas da emissão não alterará a Data de Término Planejada da emissão. </p> </td> 
+      <td> <p>Esta é a quantidade de tempo real que os designados da ocorrência levariam para concluí-la. Digite o número de Horas planejadas para a ocorrência.<br></p> <p><b>Nota</b></p>  <p>Alterar as Horas planejadas do problema não alterará a Data de conclusão planejada do problema. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Função do atribuidor</td> 
@@ -364,6 +374,15 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
    </tr> 
     </tbody> 
    </table>
+
+   <!--
+   <div class="preview">
+   1. (Conditional) In the Preview environment, update the **Planned Hours** field
+      Or 
+      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   </div> -->
+
+1. Para remover atribuições de todos os problemas, consulte [Atribuir problemas](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 
 1. Clique em **Salvar** ou continue editando as seções a seguir.
 
