@@ -5,7 +5,7 @@ description: O recurso Integridade do projeto utiliza o poder do Assistente de I
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: dce36c38a626b4d3799fb1d1f673bdc49d81e274
+source-git-commit: 5ce0206c8a7e596dac0bfdf836ca51c2cdbd1d0d
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 2%
