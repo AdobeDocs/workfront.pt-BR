@@ -182,10 +182,10 @@ Examinando a consulta de dentro para fora: 
 >[!NOTE]
 >
 >É recomendável usar essa consulta como sua própria &quot;Exibição&quot; no Power BI ou Tableau.  Se quiser trazer outros campos de `<object>_event view`, junte a saída desta consulta de volta ao `<object>_event view`.  Os campos de junção seriam os seguintes: <br>
->>Para projects_event: 
->>`From projects_event p`
->>`Join <above query> c on c.projectid = p.projectid  `
->>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>&#x200B;>Para projects_event: 
+>&#x200B;>`From projects_event p`
+>&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
+>&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 
