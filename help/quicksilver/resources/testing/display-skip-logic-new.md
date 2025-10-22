@@ -2,7 +2,7 @@
 title: Adicionar lógica de exibição e lógica de salto a um formulário personalizado
 description: Adicionar lógica de exibição e lógica de salto a um formulário personalizado
 draft: Probably
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 0%
@@ -75,7 +75,7 @@ A melhor maneira de aprender a adicionar lógica de exibição e salto a um form
 
 Neste exemplo, você criará um formulário personalizado com um campo de botão de opção de múltipla escolha. Em seguida, você adicionará a lógica de exibição que conecta esse campo a um segundo campo.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **do** Menu Principal![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. No painel esquerdo, selecione **Forms Personalizado** ![](assets/custom-forms-icon.png).
 
@@ -129,7 +129,7 @@ A lógica de ignorar funciona de forma semelhante à lógica de exibição, mas 
 
 Para saber mais sobre isso, continue trabalhando no exemplo de formulário personalizado criado na seção [Lógica de exibição - exemplo prático](#display-logic-practical-example) deste artigo.
 
-1. Clique no ícone ![](assets/main-menu-icon.png) do **Menu Principal** no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
+1. Clique no ícone **do** Menu Principal![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e em **Configurar** ![](assets/gear-icon-settings.png).
 
 1. Clique em **Forms Personalizado**.
 1. Clique no nome do formulário **Exemplo de formulário personalizado - Lógica de exibição de aprendizado e lógica de salto** que você criou nas etapas acima para abri-lo para edição.
@@ -141,7 +141,7 @@ Para saber mais sobre isso, continue trabalhando no exemplo de formulário perso
 
    *Associação*
 
-1. Abra a guia **Adicionar um campo**, crie um **Campo de Texto com Formatação &#x200B;** campo chamado *Qual é a meta do site?* e clique em **Aplicar**.
+1. Abra a guia **Adicionar um campo**, crie um campo **Campo de Texto com Formatação** chamado *Qual é a meta do site?* e clique em **Aplicar**.
 
    Nesta organização, um site de documentação de ajuda é criado pela equipe técnica de redação, não pelo departamento de Marketing. Portanto, não são necessárias mais informações de um usuário que seleciona a documentação de Ajuda no segundo campo. Criaremos uma linha de texto (um campo de texto descritivo) dizendo para eles verem a equipe de Redação técnica em vez disso. E usaremos uma regra de lógica de salto que ignora esse usuário para essa linha de texto.
 

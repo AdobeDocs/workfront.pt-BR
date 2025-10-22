@@ -6,9 +6,9 @@ description: Você pode exibir a utilização de seus recursos no relatório de 
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '7259'
+source-wordcount: '7099'
 ht-degree: 1%
 
 ---
@@ -339,29 +339,22 @@ Ao contrário de outras áreas do Workfront, se a Receita planejada exceder o li
   <tr> 
    <td><strong>Receita atual</strong> </td>
    <td> <p>Receita Efetiva é a receita associada às Horas Efetivas das tarefas e do projeto. Para obter mais informações sobre a Receita Efetiva, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">Rastrear valores de receita</a> em <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Visão geral de faturamento e receita</a>.</p>
-
-<p>A maneira como o relatório de Utilização calcula a Receita Real dos projetos incluídos difere, dependendo do Tipo de Receita definido na tarefa, da seguinte maneira:</p> <p><strong>Receita Fixa:</strong> Independentemente das atribuições de tarefa, a receita na tarefa é sempre calculada usando o Valor Fixo especificado na tarefa.</p> <p><b>IMPORTANTE</b>
-
-Ao contrário de outras áreas do Workfront, o relatório de Utilização calcula a Receita Real dividindo a Receita Fixa igualmente pelo número de horas registradas na tarefa. </p> <p> </p> <p>Por exemplo, uma tarefa tem uma Receita Efetiva de US$ 200. Se houver 4 horas reais na tarefa, cada hora será de US$ 50. Ele é distribuído no nível de usuário e função. Essa distribuição é exclusiva do relatório de Utilização.</p> <p><b>OBSERVAÇÃO</b>
-
-Se você tiver uma tarefa de Receita Fixa e não houver Horas Reais na tarefa, a Receita Real não será exibida no Relatório de Utilização porque não há como distribuir horas. </p> <p><strong>Função por hora:</strong> a receita na tarefa é calculada usando a taxa de cobrança definida para uma função específica, multiplicada pelo número de Horas efetivas.</p> <p>O Workfront usa a seguinte fórmula:</p> <p><code>Receita atual por hora da função = SUM(Horas atuais da função em todas as tarefas) * Taxa de cobrança da função</code> </p> <p><b>OBSERVAÇÃO:</b> a taxa horária de cobrança na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> <p><strong>Horas por Usuário:</strong> a receita da tarefa é calculada usando a taxa de cobrança definida para um usuário específico, multiplicada pelo número de horas registradas na tarefa desse usuário. O Workfront usa a seguinte fórmula:</p> <p><code>Receita Real por Hora do Usuário = SUM(Horas Reais do Usuário em Todas as Tarefas) * Taxa de Cobrança do Usuário</code></p> <p><b>OBSERVAÇÃO:</b> a taxa horária de cobrança na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> <p><b>Horas por Valor da Hora do Usuário e da Função Corrigida</b> </p> <p><b>IMPORTANTE</b>
-
-Ao contrário de outras áreas do Workfront, o relatório de Utilização calcula a Receita Real dividindo a Receita Fixa igualmente pelo número de horas registradas na tarefa. </p> <p>Os seguintes casos existem: </p>
-<ul>
-<li> <p><strong>Função por hora mais taxa fixa:</strong> A taxa de cobrança definida para uma função específica, multiplicada pelo número de horas registradas na tarefa de um usuário com essa função. Além disso, um valor fixo que é especificado na tarefa é adicionado à taxa de funções. </p> <p>O Workfront usa a seguinte fórmula:</p> <p><code>Horas por Hora da Função mais Receita Fixa Efetiva = [SUM(Horas Efetivas da função em todas as tarefas) * Taxa de Cobrança da Função] + SUM(Valor Máximo ou Fixo da tarefa / Horas Efetivas da tarefa)</code> </p> </li>
-<li> <p><strong>Horas por Valor da Hora do Usuário mais Taxa Fixa:</strong> A taxa de cobrança definida para um usuário específico, multiplicada pelo número de horas registradas na tarefa desse usuário. Além disso, uma quantidade fixa especificada na tarefa é adicionada à taxa de usuários. </p> <p>O Workfront usa a seguinte fórmula:</p> <p><code>Horas por Valor da Hora do Usuário mais Receita Fixa Efetiva = [SUM(Horas Efetivas da função em todas as tarefas) * Taxa de Cobrança do Usuário] + SUM(Valor Máximo ou Fixo da tarefa / Horas do Usuário da tarefa)</code> </p> </li>
-</ul> <p><b>Função ou Usuário por Hora com Limite</b> </p> <p><b>IMPORTANTE</b>
-
-Ao contrário de outras áreas do Workfront, se a Receita planejada exceder o limite, a quantia acima do Valor do limite será considerada Receita fixa. A Receita Planejada é calculada dividindo a Receita Fixa igualmente pelo número de Horas Planejadas na tarefa e, em seguida, adicionando a isso a Quantia Máxima e a receita horária da função ou do usuário. <br></p> <p>Os seguintes casos existem:</p>
-<ul>
-<li> <p><strong>A hora da função com limite:</strong> as tarefas são cobradas por hora como na hora da função, mas têm um valor máximo de limite que pode ser especificado. O Workfront usa a seguinte fórmula:</p> <p><code>Hora da Função c/ Receita Efetiva do Limite = [SUM(Horas Efetivas da função em todas as tarefas e problemas) * Taxa de Cobrança da Função] + Quantidade Limite da tarefa + SUM(Quantia acima do Valor Limite / Horas Efetivas da tarefa)</code></p> </li>
-<li> <p><strong>A hora do usuário com limite:</strong> as tarefas são cobradas por hora como na hora do usuário, mas têm um valor máximo de limite que pode ser especificado.</p> <p> O Workfront usa a seguinte fórmula:</p> <p><code>Horas por Valor de Hora do Usuário c/ Receita Efetiva Limite = [SUM(Horas Efetivas da função em todas as tarefas e problemas) * Taxa de Cobrança do Usuário] + Quantidade Limite da tarefa + SUM(Quantia acima da Quantidade Limite / Horas Efetivas da tarefa)</code> </p> </li>
-</ul>
-<p><strong>Receita do projeto</strong>: a receita associada às horas registradas no projeto é calculada levando-se em conta o valor de Cobrança por Hora da função de trabalho principal do usuário que registra o tempo. Não recomendamos registrar tempo no projeto. </p>
-<p><b>OBSERVAÇÃO</b>
-
-Se o usuário não estiver associado a uma função de trabalho ou se o Faturamento por hora da função principal for zero, o Workfront calculará a Receita real usando o valor de Faturamento por hora para o usuário. Se o usuário não tiver um valor de Cobrança por hora em seu perfil, a Receita atual será zero. </p>
-</td> 
+   <p>A maneira como o relatório de Utilização calcula a Receita Real dos projetos incluídos difere, dependendo do Tipo de Receita definido na tarefa, da seguinte maneira:</p> <p><strong>Receita Fixa:</strong> Independentemente das atribuições de tarefa, a receita na tarefa é sempre calculada usando o Valor Fixo especificado na tarefa.</p> <p><b>IMPORTANTE</b></p>
+   <p>Ao contrário de outras áreas do Workfront, o relatório de Utilização calcula a Receita Real dividindo a Receita Fixa igualmente pelo número de horas registradas na tarefa. </p> <p> </p> <p>Por exemplo, uma tarefa tem uma Receita Efetiva de US$ 200. Se houver 4 horas reais na tarefa, cada hora será de US$ 50. Ele é distribuído no nível de usuário e função. Essa distribuição é exclusiva do relatório de Utilização.</p> <p><b>Nota</b></p></p>
+   <p>Se você tiver uma tarefa de Receita Fixa e não houver Horas Reais na tarefa, a Receita Real não será exibida no Relatório de Utilização porque não há como distribuir horas. </p> <p><strong>Função por hora:</strong> a receita na tarefa é calculada usando a taxa de cobrança definida para uma função específica, multiplicada pelo número de Horas efetivas.</p> <p>O Workfront usa a seguinte fórmula:</p> <p><code>Role Hourly Actual Revenue = SUM(Actual Hours from role on all tasks) * Role Billing Rate</code> </p> <p><b>OBSERVAÇÃO:</b> a taxa horária de cobrança na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> <p><strong>Horas por Usuário:</strong> a receita da tarefa é calculada usando a taxa de cobrança definida para um usuário específico, multiplicada pelo número de horas registradas na tarefa desse usuário. O Workfront usa a seguinte fórmula:</p> <p><code>User Hourly Actual Revenue = SUM(Actual Hours from user on all tasks) * User Billing Rate</code></p> <p><b>OBSERVAÇÃO:</b> a taxa horária de cobrança na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> <p><b>Horas por Valor da Hora do Usuário e da Função Corrigida</b> </p> <p><b>IMPORTANTE</b>
+   <p>Ao contrário de outras áreas do Workfront, o relatório de Utilização calcula a Receita Real dividindo a Receita Fixa igualmente pelo número de horas registradas na tarefa. </p> <p>Os seguintes casos existem: </p> </p>
+   <ul> 
+     <li> <p><strong>Função por hora mais taxa fixa:</strong> A taxa de cobrança definida para uma função específica, multiplicada pelo número de horas registradas na tarefa de um usuário com essa função. Além disso, um valor fixo que é especificado na tarefa é adicionado à taxa de funções. </p> <p>O Workfront usa a seguinte fórmula:</p> <p><code>Role Hourly Plus Fixed Actual Revenue = [SUM(Actual Hours from role on all tasks) * Role Billing Rate] + SUM(Cap or Fixed Amount of the task / Actual Hours of the task)</code> </p> </li>
+     <li> <p><strong>Horas por Valor da Hora do Usuário mais Taxa Fixa:</strong> A taxa de cobrança definida para um usuário específico, multiplicada pelo número de horas registradas na tarefa desse usuário. Além disso, uma quantidade fixa especificada na tarefa é adicionada à taxa de usuários. </p> <p>O Workfront usa a seguinte fórmula:</p> <p><code>User Hourly Plus Fixed Actual Revenue = [SUM(Actual Hours from role on all tasks) * User Billing Rate] + SUM(Cap or Fixed Amount of the task / User Hours of the task)</code> </p> </li> 
+   </ul> <p><b>Função ou Usuário por Hora com Limite</b> </p> <p><b>IMPORTANTE</b>
+   <p>Ao contrário de outras áreas do Workfront, se a Receita planejada exceder o limite, a quantia acima do Valor do limite será considerada Receita fixa. A Receita Planejada é calculada dividindo a Receita Fixa igualmente pelo número de Horas Planejadas na tarefa e, em seguida, adicionando a isso a Quantia Máxima e a receita horária da função ou do usuário. <br></p> <p>Os seguintes casos existem:</p></p>
+    <ul> 
+     <li> <p><strong>A hora da função com limite:</strong> as tarefas são cobradas por hora como na hora da função, mas têm um valor máximo de limite que pode ser especificado. O Workfront usa a seguinte fórmula:</p> <p><code>Role Hourly w/ Cap Actual Revenue = [SUM(Actual Hours from role on all tasks and issues) * Role Billing Rate] + Cap Amount of the task + SUM(Amount over the Cap Amount / Actual Hours of the task)</code></p> </li>
+     <li> <p><strong>A hora do usuário com limite:</strong> as tarefas são cobradas por hora como na hora do usuário, mas têm um valor máximo de limite que pode ser especificado.</p> <p> O Workfront usa a seguinte fórmula:</p> <p><code>User Hourly w/ Cap Actual Revenue = [SUM(Actual Hours from role on all tasks and issues) * User Billing Rate] + Cap Amount of the task + SUM(Amount over the Cap Amount / Actual Hours of the task)</code> </p> </li> 
+    </ul>
+     <p><strong>Receita do projeto</strong>: a receita associada às horas registradas no projeto é calculada levando-se em conta o valor de Cobrança por Hora da função de trabalho principal do usuário que registra o tempo. Não recomendamos registrar tempo no projeto. </p> 
+     <p><b>OBSERVAÇÃO</b>Se o usuário não estiver associado a uma função de trabalho ou se o Faturamento por Hora da Função Principal for zero, a Workfront calculará a Receita Efetiva usando o valor de Faturamento por Hora para o usuário. Se o usuário não tiver um valor de Cobrança por hora em seu perfil, a Receita atual será zero. </p> 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>Variação do orçamento (para Receita)</strong> </td> 
@@ -467,7 +460,7 @@ Você deve especificar um ou mais projetos no filtro antes de executar o relató
 
      {{step1-to-utilization-report}}
 
-      1. Clique em **Mostrar**>**Programas**.
+      1. Clique em **Mostrar** > **Programas**.
       1. Aplique um filtro ao relatório de Utilização e clique em **Executar**.\
          Você deve especificar um ou mais programas no filtro antes de executar o relatório de Utilização. Para obter informações sobre como filtrar o relatório de Utilização, consulte [Informações de utilização do filtro](#filter-utilization-information) neste artigo.\
          As informações de utilização são exibidas para projetos e programas individuais (os projetos são agrupados em seus programas associados).
@@ -476,7 +469,7 @@ Você deve especificar um ou mais projetos no filtro antes de executar o relató
 
      {{step1-to-utilization-report}}
 
-      1. Clique em **Exibir**>**Portfólios**.
+      1. Clique em **Mostrar** > **Portfólios**.
       1. Aplique um filtro ao relatório de Utilização e clique em **Executar**.\
          Você deve especificar um ou mais portfólios no filtro antes de executar o relatório de Utilização. Para obter informações sobre como filtrar o relatório de Utilização, consulte [Informações de utilização do filtro](#filter-utilization-information) neste artigo.\
          As informações de utilização são exibidas para projetos, programas e portfólios individuais (os projetos são agrupados em seus programas associados e os programas são agrupados em seus portfólios associados).
@@ -492,7 +485,8 @@ Você deve especificar um ou mais projetos no filtro antes de executar o relató
    A opção selecionada determina quais colunas e informações estão disponíveis no relatório.
    ![Exibir opções](assets/utilization-view-dropdown.png)
 
-1. (Opcional) Selecione o intervalo de datas para o qual as informações de utilização são exibidas. Você pode exibir informações de uma determinada semana ou mês à esquerda da coluna **Geral**. As informações do projeto, programa ou portfólio geral são sempre exibidas na coluna **Geral**.\
+1. (Opcional) Selecione o intervalo de datas para o qual as informações de utilização são exibidas. Você pode exibir informações de uma determinada semana ou mês à esquerda da coluna **Geral**. As informações do projeto, programa ou portfólio geral são sempre exibidas na coluna **Geral**.
+
    Para obter mais informações, consulte [Ajustar o intervalo de datas para o qual as informações são exibidas](#adjust-the-date-range-for-which-information-is-displayed) neste artigo.
 
 1. (Opcional) Clique em qualquer título de coluna para classificar o relatório de utilização pelas informações contidas nessa coluna. A classificação funciona somente quando você inclui vários itens no relatório. Por exemplo, você pode classificar os resultados do relatório quando estiver olhando para mais de um projeto (ou portfólio ou programa). Não é possível classificar os resultados quando você está observando apenas um projeto (ou um portfólio ou um programa) de cada vez.
@@ -511,7 +505,8 @@ Ao criar um filtro, todos os usuários do Workfront com acesso ao relatório de 
 Para criar ou modificar um filtro:
 
 1. Abra o relatório de Utilização.
-Consulte [Rastrear progresso, custo e receita com o relatório de Utilização](#track-progress-cost-and-revenue-with-the-utilization-report) para fazer isso.
+
+   Consulte [Rastrear progresso, custo e receita com o relatório de Utilização](#track-progress-cost-and-revenue-with-the-utilization-report) para fazer isso.
 
 1. Clique no ícone **Filtro** para exibir as opções de filtro.
 1. (Condicional) Para modificar um filtro existente, clique no menu suspenso **Filtro** e selecione o filtro que deseja modificar.

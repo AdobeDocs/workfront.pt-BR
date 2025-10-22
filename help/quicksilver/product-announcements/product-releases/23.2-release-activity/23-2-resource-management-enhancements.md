@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -36,9 +36,9 @@ O campo padrão é 1, indicando que um usuário gasta todo o FTE em trabalho rea
 Como resultado dessa atualização, o Workfront calcula a disponibilidade do usuário usando as fórmulas abaixo, dependendo de sua seleção na área Preferências de gerenciamento de recursos:
 
 * Agendamento Padrão:
-* Capacidade do Usuário = [(Horas Programadas - Exceções Programadas) * FTE - Folga] * Tempo de Trabalho
+* Capacidade do Usuário = [(Horas Programadas - Exceções Programadas) `*` FTE - Folga] `*` Tempo de Trabalho
 * Cronograma do usuário:
-* Capacidade do Usuário = (Horas Programadas - Exceções Programadas - Folga) * Tempo de Trabalho.
+* Capacidade do Usuário = (Horas Programadas - Exceções Programadas - Folga) `*` Tempo de Trabalho.
 
 Para obter mais informações, consulte [Configurar preferências do [!UICONTROL Gerenciamento de Recursos]](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

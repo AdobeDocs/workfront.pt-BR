@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 0%
@@ -26,11 +26,8 @@ O webinário de lançamento do 23.1 foi realizado na terça-feira, 10 de janeiro
 ## Aprimoramentos do Adobe Workfront
 
 * [Aprimoramentos no gerenciamento de projetos e recursos](#project-and-resource-management-enhancements)
-
 * [Aprimoramentos do Agile](#agile-enhancements)
-
 * [Melhorias na mobilidade](#mobile-enhancements)
-
 * [Outras melhorias](#other-enhancements)
 
 ### Aprimoramentos no gerenciamento de projetos e recursos
@@ -524,11 +521,11 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/releases/current-updates).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
 
 ### Funcionalidade que será removida em breve do Workfront
 
@@ -556,6 +553,7 @@ Algumas funcionalidades de controle de lista estão sendo movidas para as áreas
 Estamos substituindo a [extensão do Workfront para Illustrator e InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) por plug-ins atualizados do Creative Cloud. A partir do final de 2022, essa extensão não estará mais disponível para instalação no Adobe Exchange.
 
 A funcionalidade nesta extensão, juntamente com vários aprimoramentos, está disponível na atualização do Adobe Workfront para plug-ins do Creative Cloud:
+
 * [Adobe Workfront para Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [Adobe Workfront para XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * [Adobe Workfront para design e vídeo](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)

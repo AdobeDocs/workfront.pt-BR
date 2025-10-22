@@ -6,7 +6,7 @@ description: Um cliente da Workfront que seja, conforme definido na HIPAA, um As
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Um cliente da Workfront que seja, conforme definido na HIPAA, um Associado comer
 | **Configuração de Segurança** | **O Que É?** | **Requisito** |
 |----------------------|------------------|------------------|
 | Força mínima de senha para contratos | Qual é a força mínima para senhas de contrato? | Não menos de 8 caracteres |
-| Força mínima de senha para senhas de usuário | Qual é a força mínima para as senhas dos usuários? | Caracteres de três das seguintes categorias:<br>* Letras maiúsculas (alfabeto latino)<br>* Letras minúsculas (alfabeto latino)<br>* Dígitos de base 10<br>* Caracteres não alfanuméricos |
+| Força mínima de senha para senhas de usuário | Qual é a força mínima para as senhas dos usuários? | Caracteres de três das seguintes categorias:<br> Letras maiúsculas (alfabeto latino)<br> Letras minúsculas (alfabeto latino)<br> Dígitos de base 10<br> Caracteres não alfanuméricos |
 | Duração da senha | Por quanto tempo as senhas devem permanecer inalteradas? | As senhas devem ser alteradas pelo menos a cada 90 dias |
 | Histórico de senhas | Quantas senhas passadas devem ser lembradas e não permitidas? | Não inferior a 5 |
 

@@ -6,7 +6,7 @@ description: Como um usuário com acesso administrativo a Folhas de horas, você
 author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 1%
@@ -112,8 +112,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      <tr> 
       <td role="rowheader"><strong>Data de término</strong> </td> 
       <td> Esta é a data de término da folha de horas.</td> 
-     </tr>
-<tr> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
       <td> Este é o status da folha de horas.
       A seguir estão opções possíveis de status da folha de horas: 
@@ -121,7 +121,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <li><b>Enviado</b>: a planilha de horas é enviada para aprovação dos aprovadores designados.</li>
       <li><b>Rejeitada</b>: a folha de horas não foi aprovada pelos aprovadores e agora está disponível novamente para o usuário editar as entradas de horas.</li>
       <li><b>Fechado</b>: a folha de horas foi fechada pelo usuário ou aprovada pelo aprovador e, como resultado, agora está fechada. Não é possível adicionar horas a uma folha de horas fechada.</li>
-   </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aprovadores</strong> </td> 

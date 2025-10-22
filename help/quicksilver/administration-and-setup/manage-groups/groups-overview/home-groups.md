@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -30,10 +30,10 @@ Ao estabelecer Grupos padrão, considere como sua organização divide os usuár
 
 >[!NOTE]
 >
->Se você precisar reorganizar seus Grupos padrão em unidades organizacionais, será necessário>
+>Se você precisar reorganizar seus Grupos padrão em unidades organizacionais, será necessário
+>
 >1. Crie o novo grupo, conforme explicado em [Criar um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 >1. Reatribua o novo grupo como o Grupo Inicial do usuário, conforme explicado em [Editar perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
->
 
 ## Gerenciamento de modelos de layout
 

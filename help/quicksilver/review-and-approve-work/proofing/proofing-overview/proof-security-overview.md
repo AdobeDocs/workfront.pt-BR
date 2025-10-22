@@ -7,7 +7,7 @@ description: É possível adicionar medidas de segurança extras às provas.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
-source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -32,10 +32,10 @@ Quando o logon necessário estiver ativado, os revisores são solicitados a faze
 
 >[!TIP]
 >
->Para simplificar o processo de logon, recomendamos configurar o SSO na prova do Workfront e do Workfront. Para obter mais informações sobre como ativar o SSO, consulte >
+>Para simplificar o processo de logon, recomendamos configurar o SSO na prova do Workfront e do Workfront. Para obter mais informações sobre como ativar o SSO, consulte
+>
 >* [Logon único no Workfront: índice do artigo](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 >* [Configurar Logon Único para usuários do Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
->
 
 ## Assinatura eletrônica
 
@@ -47,6 +47,6 @@ Quando a configuração de assinatura eletrônica é ativada em uma prova, uma c
 
 >[!IMPORTANT]
 >
->Para assinar eletronicamente uma prova com credenciais de SSO, você deve configurar o SSO no Workfront Proof. Para obter mais informações sobre como ativar o SSO, consulte >
->* [Configurar Logon Único para usuários do Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>Para assinar eletronicamente uma prova com credenciais de SSO, você deve configurar o SSO no Workfront Proof. Para obter mais informações sobre como ativar o SSO, consulte
 >
+>* [Configurar Logon Único para usuários do Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)

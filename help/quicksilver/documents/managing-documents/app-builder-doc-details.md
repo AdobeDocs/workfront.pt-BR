@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%
@@ -92,41 +92,56 @@ Se o AppBuilder estiver configurado corretamente, você deverá ver &quot;Criar 
 O Adobe fornece uma CLI de código aberto que pode ser usada para ajudar a criar os aplicativos do App Builder. A documentação pode ser encontrada aqui: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) e as Instruções para App Builder do Adobe [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app).
 
 1. Instalação
-   1. Para instalar a ferramenta (verifique se você está no nó v18 primeiro), execute: `npm install -g @adobe/aio-cli `.
+
+   1. Para instalar a ferramenta (verifique se você está no nó v18 primeiro), execute: `npm install -g @adobe/aio-cli`.
 
 1. Autenticar no Terminal
+
    1. Inicie seu terminal e faça logon na AIO com o comando: `aio login`.
 
 1. Inicializar seu aplicativo
+
    1. Comece a configurar seu aplicativo executando: `aio app init example-app`.
 
 1. Seleção da configuração
-   1. Continue para selecionar sua Organização e Projeto a partir das opções fornecidas.\
+
+   1. Continue para selecionar sua Organização e Projeto a partir das opções fornecidas.
+
       ![Selecionar organização](assets/select-org.png)
+
       ![Selecionar projeto](assets/select-project.png)
 
 1. Seleção e configuração de modelo
+
    1. Procure todos os modelos disponíveis e escolha o modelo **@adobe/aem-cf-editor-ui-ext-tpl** para seu projeto.
+
       ![Modelo de pesquisa](assets/search-template.png)
+
       ![Selecionar modelo](assets/select-template.png)
 
 1. Definir A Extensão
+
    1. Nomeie sua extensão.
    1. Forneça um resumo descritivo da funcionalidade da sua extensão.
    1. Selecione um número de versão inicial para começar.
    1. Confirme a conclusão selecionando **Concluído**.
-      ![Definir extensão](assets/define-extension.png)
+
+   ![Definir extensão](assets/define-extension.png)
 
 1. Navegue até a pasta do projeto
+
    1. Acessar a pasta src
+
    1. Renomeie a pasta `aem-cf-editor-1` como `workfront-doc-details-1`.
 
 1. Modificar arquivos de configuração
+
    1. Abrir app.config.yaml
    1. Atualize a linha de `aem/cf-editor/1` para `workfront/doc-details/1`.
    1. Ajustar o caminho de inclusão de `src/aem-cf-editor-1/ext.config.yaml` para `src/workfront-doc-details-1/ext.config.yaml`.
 
 1. Editar o componente de registro de extensão
+
    1. Abrir `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`.
    1. Na seção de métodos, adicione uma função `secondaryNav` que contenha uma função assíncrona `getButtons`.
    1. `getButtons` deve receber um objeto com a seguinte estrutura:
@@ -317,20 +332,22 @@ O Adobe fornece uma CLI de código aberto que pode ser usada para ajudar a criar
 Para ter um aplicativo convidado carregado no Workfront, o aplicativo precisa ser enviado para o espaço de trabalho Produção e enviado para aprovação.
 
 1. Implante o aplicativo no espaço de trabalho de produção
-   1. `aio app use -w Production `
-   1. `aio app deploy `
+
+   1. `aio app use -w Production`
+   1. `aio app deploy`
 
 1. Navegue até [https://developer-stage.adobe.com/](https://developer-stage.adobe.com/) ou [https://developer.adobe.com/](https://developer.adobe.com/).
+
    1. Clique em **Console** no canto superior direito.
 
 1. Localize o projeto usado para criar o aplicativo AppBuilder.
-
 1. Selecione o Workspace de produção.
+
    ![Selecionar espaço de trabalho de produção](assets/find-application.png)
 
 1. Envie a solicitação para revisão privada (você receberá avisos de que não estamos publicando no aplicativo exchange marketplace, o que é normal).
-
 1. Preencha o formulário (título, descrição, ícone e nota ao revisor).
+
    ![Preencha o formulário para revisão privada](assets/submission-details.png)
 
 >[!IMPORTANT]

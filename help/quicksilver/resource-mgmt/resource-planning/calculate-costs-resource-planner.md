@@ -6,7 +6,7 @@ description: Você pode estimar seus recursos no Planejador de Recursos da Adobe
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 0%
@@ -150,7 +150,7 @@ Embora não seja possível exibir as informações da tarefa no Planejador de Re
 
 Existem os seguintes cenários ao calcular o Custo Planejado para usuários, funções e o projeto:
 
-* Quando o **Tipo de Custo** for **De Hora em Hora do Usuário &#x200B;** e não houver **nenhuma atribuição** na tarefa:
+* Quando o **Tipo de Custo** é **Usuário por hora** e não há **nenhuma atribuição** na tarefa:
 
    * **Custo Planejado de Função e Usuário**:
 

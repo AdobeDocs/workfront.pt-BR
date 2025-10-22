@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -94,7 +94,7 @@ O Workfront Planning suporta os seguintes modificadores de pesquisa:
         <td>$isEmpty </td>
         <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
         <td>Retorna registros cujo valor de campo não está vazio  </td>
-        <td><ul><li>“” </li><li>null </li><ul>  </td>
+        <td><ul><li>“” </li><li>nulo </li><ul>  </td>
     </tr>
     <tr>
         <td>$isNotEmpty </td>
@@ -349,7 +349,7 @@ Recomendamos que você considere usar respostas paginadas para conjuntos de dado
 
 Por exemplo, se quiser retornar os resultados 2001-4000, você poderá usar a solicitação a seguir. Este exemplo retorna 2000 registros que estão no status ativo, a partir do resultado 2001:
 
-`POST /v1/records/search `
+`POST /v1/records/search`
 
 
 

@@ -7,7 +7,7 @@ description: Depois que o administrador do Adobe Workfront conceder a você o ac
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -241,9 +241,10 @@ Editing activities differs depending on which environment you use.
    ![Caixa Editar atividade](assets/edit-activity-box-unshimmed.png)
 
 1. Edite as seguintes informações:
+
    * **Nome da atividade**: o nome da atividade. Use um nome descritivo que ilustre qual atividade você deve executar para indicar que a meta foi concluída.
-   * **Proprietário da atividade:** O proprietário da atividade. O proprietário deve ser um usuário ativo do Workfront.\
-     Para obter mais informações sobre campos de atividade, consulte [Adicionar atividades às metas](../results-and-activities/add-activities-to-goals.md).
+   * **Proprietário da atividade:** O proprietário da atividade. O proprietário deve ser um usuário ativo do Workfront.
+
+   Para obter mais informações sobre campos de atividade, consulte [Adicionar atividades às metas](../results-and-activities/add-activities-to-goals.md).
+
 1. Clique em **Salvar**.
-
-

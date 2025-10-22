@@ -8,7 +8,7 @@ description: Você pode pesquisar conteúdo no site do Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%
@@ -46,11 +46,14 @@ Para pesquisar o site [!DNL Workfront Proof]:
 
 1. (Opcional) Nos resultados da pesquisa exibidos, classifique por coluna clicando no cabeçalho na parte superior de uma coluna. (Opcional) Adicione filtragem aos resultados clicando no ícone [!UICONTROL pesquisar] no final da linha de cabeçalho. ![Search_filter_in_Search_results.png](assets/search-filter-in-search-results-350x90.png)
 
-Isso adiciona menus suspensos nos quais você pode selecionar filtros para restringir sua pesquisa.
-1. ![Search_filter_boxes_appear_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+   Isso adiciona menus suspensos nos quais você pode selecionar filtros para restringir sua pesquisa.
 
-1. (Opcional) Restrinja sua pesquisa abrindo a guia [!UICONTROL Marcas] e clicando em uma marca na barra lateral de navegação à esquerda. Os itens associados a essa tag aparecem nos Resultados da pesquisa.\
-   ![Pesquisando_por_marca.png](assets/searching-by-tag-350x209.png)\
+   ![Search_filter_boxes_appear_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)
+
+1. (Opcional) Restrinja sua pesquisa abrindo a guia [!UICONTROL Marcas] e clicando em uma marca na barra lateral de navegação à esquerda. Os itens associados a essa tag aparecem nos Resultados da pesquisa.
+
+   ![Pesquisando_por_marca.png](assets/searching-by-tag-350x209.png)
+
    O nome da tag aparece no campo de pesquisa no canto superior direito do Workfront Proof. Você pode refinar sua pesquisa selecionando tags adicionais ou digitando mais palavras-chave no campo de pesquisa. Você pode remover uma tag do campo de pesquisa clicando no ícone x ao lado do nome da tag.
 
 Para obter informações sobre como pesquisar texto no conteúdo de prova, consulte [Pesquisar conteúdo em uma prova](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).

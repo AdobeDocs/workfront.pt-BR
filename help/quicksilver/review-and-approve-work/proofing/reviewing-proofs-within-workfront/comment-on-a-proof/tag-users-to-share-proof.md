@@ -6,7 +6,7 @@ description: Ao comentar em uma prova no visualizador de provas, você pode marc
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 0%
@@ -64,10 +64,10 @@ Os usuários com a função de Perfil de Permissão de Prova ou Prova descrita n
 
 >[!NOTE]
 >
->Você pode marcar um colaborador externo usando seu endereço de email somente se um dos seguintes for verdadeiro:>
+>Você pode marcar um colaborador externo usando seu endereço de email somente se uma das opções a seguir for verdadeira:
+>
 >* Um usuário na conta da Workfront de sua organização adicionou o endereço de email do colaborador a uma prova anteriormente.
 >* O colaborador usou o endereço de email para assinar uma prova na conta da Workfront de sua organização anteriormente.
->
 
 Para marcar alguém e compartilhar uma prova em um comentário:
 

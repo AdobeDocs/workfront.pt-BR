@@ -4,7 +4,7 @@ description: As extensões da interface do Workfront, viabilizadas pelo construt
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 0%
@@ -112,12 +112,16 @@ Instruções adicionais estão disponíveis no GitHub e no site do Adobe Develop
 1. Inicie seu terminal e faça logon na AIO com o comando: `aio login`. Se você tiver problemas ao fazer logon na Organização IMS correta, tente `aio login -f` para forçar um prompt de logon. Use `aio where` para ver qual organização você está conectado à organização IMS correta. para obter mais detalhes, use `aio config`.
 1. Comece a configurar seu aplicativo executando: `aio app init example-app` certifique-se de substituir &quot;exemplo-aplicativo&quot; pelo nome do seu aplicativo. Se não tiver certeza dos nomes de aplicativos, você poderá ver uma lista de nomes de aplicativos com o comando `aio console project list`.
 1. Selecione sua organização e projeto nas opções fornecidas.
+
    ![resultado do comando](assets/1-command-result.png)
    ![Selecione um projeto](assets/2-select-a-project.png)
 
 1. Procure todos os modelos disponíveis e escolha o **@adobe/workfront-ui-ext-tpl** para seu projeto.
+
    ![Escolher um modelo](assets/3-choose-template.png)
+
 1. Selecione e insira o nome do projeto criado na Adobe Developer Console.
+
    ![selecione e insira o nome do projeto](assets/4-select-and-enter-project-name.png)
 
 1. Responda às solicitações do aplicativo:
@@ -130,7 +134,9 @@ Instruções adicionais estão disponíveis no GitHub e no site do Adobe Develop
    ![seleção concluída](assets/5-select-done.png)
 
 1. Confirme a conclusão selecionando Concluído. A geração de código a partir do modelo está em andamento.
+
    ![geração em andamento](assets/6-generation-in-process.png)
+
 1. Aguarde até ver uma mensagem informando que a inicialização do aplicativo foi concluída. Em seguida, abra o projeto em um IDE (recomenda-se o Visual Studio Code) e acesse a pasta src.
 
    Para obter mais informações sobre as pastas e os arquivos do seu projeto, consulte o [site do desenvolvedor do Adobe](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application).
@@ -154,13 +160,13 @@ Para permitir aplicativos personalizados no menu principal do Workfront:
 Na função ExtensionRegistration, você deve ver o código a seguir. Esse código foi criado para você pelo modelo. Este código pode ser adicionado para criar itens de menu adicionais. Substitua IDs e URLs.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -170,18 +176,20 @@ Na função ExtensionRegistration, você deve ver o código a seguir. Esse códi
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Adicione o seguinte trecho de código:
-   ![trecho de código &#x200B;](assets/7-extension-registration-step1-from-sam.png)
-Este exemplo mostra um Item de menu principal. Você deve atualizar a ID, o rótulo, o ícone e o URL para os nomes corretos do aplicativo. Ao adicionar vários itens, verifique se a ID é exclusiva.
+
+   ![trecho de código ](assets/7-extension-registration-step1-from-sam.png)
+
+   Este exemplo mostra um Item de menu principal. Você deve atualizar a ID, o rótulo, o ícone e o URL para os nomes corretos do aplicativo. Ao adicionar vários itens, verifique se a ID é exclusiva.
 
 1. Salve o trabalho.
 
@@ -193,7 +201,7 @@ Para permitir aplicativos personalizados na navegação do painel esquerdo do Wo
 1. Na função ExtensionRegistration, adicione o seguinte trecho de código:
 
    ```
-   secondaryNav: {  
+   secondaryNav: {
    
    TASK: {  
    
@@ -215,7 +223,6 @@ Para permitir aplicativos personalizados na navegação do painel esquerdo do Wo
    ![registro de extensão](assets/8-extension-registration-file-step2.png)
 
    * Este exemplo mostra um item de navegação do painel esquerdo chamado Minha Tarefa. Você deve atualizar a ID, o rótulo, o ícone e o URL para os nomes corretos do aplicativo.
-
    * Este exemplo mostra um item de navegação do painel esquerdo para o tipo de objeto Projeto. Você deve criar esses itens separadamente para cada objeto em que eles são compatíveis com o Workfront. Os seguintes objetos estão disponíveis: projeto, tarefa, problema, portfólio e programa.
 
 1. Salve o trabalho.
@@ -410,7 +417,7 @@ O contexto compartilhado é usado para compartilhar dados do Workfront com uma e
 
 As extensões de interface do usuário do Workfront compartilham dados do usuário. O objeto do usuário disponível por meio do contexto compartilhado inclui uma ID de usuário do Workfront e o endereço de email do usuário.
 
-`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email `
+`user = (conn?.sharedContext?.get("user")); // {ID: '1', email: 'test@aaa.com'} userID = user.ID userEmail = user.email`
 
 ### Contexto do aplicativo
 
@@ -418,7 +425,7 @@ Ao adicionar um aplicativo personalizado usando um ponto de extensão de Navega�
 
 Este é um exemplo para obter o contexto do aplicativo para documentos:
 
-`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails); `
+`context = conn?.sharedContext; // Using the connection created above, grab the document details from the host tunnel. // conn?.host?.document?.getDocumentDetails().then(setDocDetails);`
 
 ## Testar o aplicativo no Workfront
 

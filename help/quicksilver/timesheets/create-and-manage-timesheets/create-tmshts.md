@@ -6,7 +6,7 @@ description: Você pode criar manualmente uma folha de horas de uso único se qu
 author: Lisa
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 0%
@@ -26,13 +26,9 @@ Para obter informações sobre como gerar folhas de horas manualmente para todos
 >[!NOTE]
 >
 >* Planilha de horas de uso único não pode ser criada para grupos.
->  <!--
->  <span>Making sure with Lilit that this is correct</span>>
->  -->
 >* Ao criar uma folha de horas de uso único, você não pode selecionar tipos de horas gerais específicos para incluir em sua folha de horas. Todos os tipos de horas gerais ativados no seu sistema são exibidos em folhas de horas criadas manualmente.
 >
->  Se você quiser selecionar apenas determinados tipos de horas gerais para exibir em suas folhas de horas, use um perfil de folha de horas. Para obter mais informações sobre perfis de folha de horas, consulte [Criar, editar e atribuir perfis de folha de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
->
+>Se você quiser selecionar apenas determinados tipos de horas gerais para exibir em suas folhas de horas, use um perfil de folha de horas. Para obter mais informações sobre perfis de folha de horas, consulte [Criar, editar e atribuir perfis de folha de horas](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Requisitos de acesso
 

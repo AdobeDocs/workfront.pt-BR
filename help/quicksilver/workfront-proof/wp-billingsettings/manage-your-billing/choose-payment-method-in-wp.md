@@ -7,7 +7,7 @@ description: Saiba mais sobre pagamentos no Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -27,7 +27,7 @@ As seguintes opções de pagamento estão disponíveis:
 | **Assinaturas mensais** | **Assinaturas anuais** |
 |---|---|
 | cartão de crédito | cartão de crédito |
-| transferência bancária |
+| transferência bancária |  |
 
 {style="table-layout:auto"}
 

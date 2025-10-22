@@ -6,7 +6,7 @@ description: texto
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -20,9 +20,11 @@ Você deve desinstalar o conector herdado do Workfront com Adobe Experience Mana
 ## Cancelar assinatura no Workfront
 
 1. Abra o Adobe Experience Manager.
-1. No Experience Manager, vá para **Ferramentas** > **Cloud Service** > **Configuração de Integração do Workfront**.
+1. No Experience Manager, vá para **Ferramentas** > **Serviços de Nuvem** > **Configuração de Integração do Workfront**.
 1. Selecione sua configuração (global-workfront por padrão) e clique em **Propriedades**.
+
    ![cancelar assinatura do workfront](assets/unsubscribe-from-workfront.png)
+
 1. Desative a sincronização de documentos, comentários e metadados. O rótulo deve ser dia Desativado.
 Isso removerá as assinaturas no Workfront e permitirá que o usuário crie uma nova assinatura usando o mesmo url definido no Day CQ Link Externalizer.
 
@@ -31,6 +33,7 @@ Isso removerá as assinaturas no Workfront e permitirá que o usuário crie uma 
 Após remover a assinatura, agora é seguro excluir a Configuração de integração do Workfront.
 
 1. Abra a configuração e selecione **Excluir**.
+
    ![excluir configuração](assets/delete-wf-configuration.png)
 
 ## Remover mapeamento

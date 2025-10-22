@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -157,12 +157,15 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 {{step1-to-planning}}
 
 O espaço de trabalho que você acessou por último é aberto.
+
 1. Clique em um cartão de tipo de registro.
 
    A página de tipo de registro é aberta.
+
 1. (Condicional) No menu suspenso **Exibir**, no canto superior direito da tabela, selecione uma exibição de tabela. Essa deve ser a exibição padrão, a menos que você tenha visualizado o tipo de registro na exibição de linha do tempo ao acessá-lo pela última vez.
 
    Os registros associados ao tipo de registro selecionado são exibidos na exibição de tabela.
+
 1. Clicar com o botão direito do mouse em uma linha de registro
 
    Ou

@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '3829'
 ht-degree: 0%
@@ -118,7 +118,7 @@ A versão 2020.3 contém os seguintes aprimoramentos para todos os usuários:
 >
 >Sua organização deve ter as seguintes opções para usar a funcionalidade descrita neste artigo:
 >
->* Um [plano Adobe Workfront](https://business.adobe.com/br/products/workfront/pricing.html) Pro ou superior.
+>* Um [plano Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html) Pro ou superior.
 >* Uma licença do Adobe Workfront Goals, além de uma licença da Workfront.
 >
 >  Entre em contato com o gerente de conta da Workfront para saber mais sobre uma licença do Workfront Goals.
@@ -146,36 +146,37 @@ A versão 2020.3 contém os seguintes aprimoramentos para todos os usuários:
 
 >[!NOTE]
 >
->## Requisitos de acesso>
+>**Requisitos de acesso**
+>
 >Você deve ter o seguinte:
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/br/products/workfront/pricing.html" target="_blank">Plano do Workfront</a>*</p> </td> 
->&gt;   <td>Business ou superior</td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>Tipo de licença*</p> </td> 
->&gt;   <td> <p>Revisar ou superior. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">Produto</td> 
->&gt;   <td>Planejador de cenário do Workfront <p>Para obter informações sobre o Planejador de cenários do Workfront, consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">A visão geral do Planejador de cenários</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"><strong>Nível de acesso*</strong> </td> 
->&gt;   <td> <p>Exibir acesso ou superior ao Planejador de cenários</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
->&gt;  </tr> 
->&gt;  <tr data-mc-conditions=""> 
->&gt;   <td role="rowheader"> <p><strong>Permissões de objeto</strong> </p> </td> 
->&gt;   <td> <p>Exibir permissões ou superiores para um plano</p> <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitar acesso a um plano no Planejador de Cenários</a>.</p> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
->&gt;*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Plano do Workfront</a>*</p> </td> 
+&gt;   <td>Business ou superior</td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>Tipo de licença*</p> </td> 
+&gt;   <td> <p>Revisar ou superior. Para obter mais informações, consulte <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">visão geral das licenças da Adobe Workfront</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">Produto</td> 
+&gt;   <td>Planejador de cenário do Workfront <p>Para obter informações sobre o Planejador de cenários do Workfront, consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">A visão geral do Planejador de cenários</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"><strong>Nível de acesso*</strong> </td> 
+&gt;   <td> <p>Exibir acesso ou superior ao Planejador de cenários</p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do Workfront se ele definiu restrições adicionais em seu nível de acesso. Para obter informações sobre como um administrador do Workfront pode alterar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p> </td> 
+&gt;  </tr> 
+&gt;  <tr data-mc-conditions=""> 
+&gt;   <td role="rowheader"> <p><strong>Permissões de objeto</strong> </p> </td> 
+&gt;   <td> <p>Exibir permissões ou superiores para um plano</p> <p>Para obter informações sobre como solicitar acesso adicional a um plano, consulte <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Solicitar acesso a um plano no Planejador de Cenários</a>.</p> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
+&gt;*Para descobrir que plano, tipo de licença ou acesso você tem, entre em contato com o administrador do Workfront.
 
  
 
@@ -450,7 +451,7 @@ Incluir na lista de permissões Para obter mais informações, consulte [Configu
 
 Com o Workfront One, você descobrirá o conteúdo, os recursos e as notícias mais importantes da Workfront — tudo em um único local, com um único logon. Unificamos os sites de Experiência, Comunidade e Treinamento, facilitando encontrar o que você está procurando.
 
-[Saiba mais sobre o Workfront One](https://business.adobe.com/br/products/workfront.html).
+[Saiba mais sobre o Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinário da versão 20.3 {#20-3-release-webinar}
 

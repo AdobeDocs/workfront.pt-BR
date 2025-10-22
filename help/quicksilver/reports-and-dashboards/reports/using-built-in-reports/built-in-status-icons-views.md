@@ -6,7 +6,7 @@ description: Você pode adicionar o campo Ícones de status como uma coluna em s
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 3%
@@ -105,7 +105,7 @@ Para adicionar o campo Ícones de status a uma exibição personalizada criada d
 
    * *Ícones de Status*
    * *Sinalizadores*
-   * *Ícones de Exibição *(somente em Exibições de documentos).
+   * *Exibir Ícones* (somente em Exibições de documentos).
 
    Os ícones integrados estão listados em qualquer um desses nomes.\
    Um modo de exibição de Modelo contém os campos **Ícones de Status** e **Sinalizadores**. Nesse caso, as duas colunas contêm ícones idênticos.\

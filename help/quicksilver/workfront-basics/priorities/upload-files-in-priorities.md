@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -75,14 +75,19 @@ Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de 
 1. Clique em um nome de item de trabalho para abrir a página **Visão geral**.
 1. Na seção **Ações rápidas**, clique em **Carregar** e selecione **Documento**.
 1. (Opcional) Na caixa **Carregar arquivos**, selecione uma pasta.
-1. Arraste e solte o arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
-ou
-Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor Document Cloud.
+1. Arraste e solte seu arquivo ou pressione Cmd/Ctrl + V para colar da área de transferência
+
+   ou
+
+   Clique em **Adicionar arquivos** para procurar arquivos ou importar arquivos de um provedor Document Cloud.
+
    ![Adicionar arquivos](assets/add-files.png)
+
 1. (Opcional) Adicione um comentário.
 1. (Opcional) Adicione mais arquivos.
 
    >[!NOTE]
    >
    >Arquivos adicionais são carregados como documentos separados.
+
 1. Clique em **Carregar**.

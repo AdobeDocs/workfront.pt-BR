@@ -6,7 +6,7 @@ description: Você pode importar projetos existentes para um plano. Os projetos 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 0%
@@ -180,15 +180,9 @@ Quando você importa um projeto para um plano, algumas informações do projeto 
 >Ocorrem os seguintes:
 >
 >* As alterações no projeto nunca afetam a iniciativa após você importar o projeto para o plano. Essas alterações incluem alterações nas alocações de funções de trabalho.
->
->  <!--
->  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change if projects will ever affect initiatives automatically) </p>>
->  -->
->
 >* As alterações na iniciativa afetam as informações na área [!DNL Scenario Planner] do projeto somente quando você publica a iniciativa no projeto correspondente. Caso contrário, elas não afetarão as informações de [!UICONTROL Horas planejadas] para as tarefas e problemas do projeto.
 >
 >  Para obter informações sobre como as iniciativas de publicação afetam os projetos vinculados, consulte [Atualizar ou criar projetos publicando iniciativas no Planejador de Cenários](../scenario-planner/publish-scenarios-update-projects.md).
->
 
 {{step1-to-scenario-planner}}
 

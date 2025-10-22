@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0e58a1d6-5e0c-4445-a5ac-400dfd4c4948
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -34,9 +34,7 @@ Você pode usar os status bloqueado e desbloqueado em um processo de aprovação
 As mensagens de aviso são exibidas nos seguintes cenários para ajudar você e seus usuários a compreender os resultados dos seguintes cenários:
 
 * Um administrador desbloqueia um status de nível de sistema que é usado em um processo de aprovação. Uma mensagem avisa que a pode excluir o status desbloqueado de seus grupos, o que impediria que os membros do grupo usassem esse processo de aprovação corretamente para objetos atribuídos a seus grupos.
-
 * Um usuário começa a editar um processo de aprovação que usa um status desbloqueado. Uma mensagem alerta o usuário sobre o status desbloqueado para que ele possa avaliar se seria uma boa ideia bloqueá-lo novamente ou substituí-lo.
-
 * Um processo de aprovação em nível de sistema com status desbloqueado é anexado a um objeto e o status foi excluído para o grupo atribuído ao objeto. Quando um membro do grupo vai para a seção Aprovações do objeto, uma mensagem explica que o processo de aprovação não pode ser iniciado para o objeto.
 
 Você pode usar os status bloqueado e desbloqueado em um processo de aprovação de grupo. Se você criar um processo de aprovação de grupo com um status de grupo desbloqueado, os usuários poderão anexar o processo de aprovação a qualquer projeto, tarefa ou problema associado ao grupo.

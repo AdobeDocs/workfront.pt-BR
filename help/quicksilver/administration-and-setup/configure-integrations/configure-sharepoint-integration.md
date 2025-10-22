@@ -5,10 +5,10 @@ product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 description: É possível integrar o [!DNL Workfront] ao [!DNL SharePoint] Online, proporcionando aos usuários a capacidade de navegar, vincular e adicionar [!DNL SharePoint] documentos no Workfront. A funcionalidade fornecida é semelhante à de outras [!DNL Workfront] integrações de documentos.
 author: Becky
-feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
+feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -156,8 +156,8 @@ Se um ativo foi carregado pela primeira vez para [!DNL Workfront] e enviado para
 
 Para garantir que seus usuários tenham acesso contínuo a documentos vinculados ao Workfront por meio da integração herdada do [!DNL SharePoint], você deve reconfigurar o acesso à integração herdada do [!DNL SharePoint] e manter o Segredo do Cliente do SharePoint atualizado.
 
-* [Reconfigurar o acesso à integração herdada  [!DNL SharePoint] &#x200B;](#reconfigure-access-to-the-legacy-sharepoint-integration)
-* [Configure o Segredo do Cliente para obter acesso contínuo à integração herdada  [!DNL SharePoint] &#x200B;](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
+* [Reconfigurar o acesso à integração herdada  [!DNL SharePoint] ](#reconfigure-access-to-the-legacy-sharepoint-integration)
+* [Configure o Segredo do Cliente para obter acesso contínuo à integração herdada  [!DNL SharePoint] ](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Reconfigurar o acesso à integração herdada [!DNL SharePoint]
 
@@ -170,7 +170,7 @@ A reconfiguração da integração herdada [!DNL SharePoint] permite que seus us
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
 1. Selecione **[!UICONTROL Documentos]** na navegação à esquerda e **[!UICONTROL Provedores de nuvem]**.
-1. Verifique se as opções **[!DNL SharePoint]** e **[!UICONTROL [!DNL SharePoint] (API gráfica)]** estão habilitadas.
+1. Verifique se as opções **[!DNL SharePoint]** e **[!UICONTROL [!DNL SharePoint](API gráfica)]** estão habilitadas.
 1. Clique em **[!UICONTROL Salvar]**.
 1. Selecione **[!UICONTROL Documentos]** na navegação à esquerda e **[!UICONTROL [!DNL SharePoint]Integração]**.
 1. Selecione a marca de seleção à esquerda da lista para todas as integrações existentes e selecione **[!UICONTROL Desativar]**.

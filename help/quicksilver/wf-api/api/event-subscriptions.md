@@ -1,13 +1,15 @@
 ---
+title: Inscrições em eventos
 content-type: api
 navigation-topic: Event Subscriptions resources
 description: Recursos de Assinaturas de Eventos
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 1b09f1d69561bd192c4e26bf48da558ed2e8b626
+exl-id: b604d8fe-3a5b-4217-9a08-df269826f112
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
@@ -25,4 +27,3 @@ A seguir, estão vários recursos em Assinaturas de evento no Adobe Workfront:
 * [Filtrar mensagens de assinatura de eventos](../../wf-api/api/filter-event-sub-messages.md)
 * [Formato de mensagem de saída para assinaturas de evento](../../wf-api/api/message-format-event-subs.md)
 * [Perguntas frequentes - Assinaturas de eventos](../../wf-api/general/event-subs-faq.md)
-

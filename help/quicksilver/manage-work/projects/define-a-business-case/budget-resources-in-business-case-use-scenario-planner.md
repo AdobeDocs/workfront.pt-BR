@@ -5,7 +5,7 @@ description: Como parte do planejamento de recursos, você pode usar o Planejado
 author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 1%
@@ -109,11 +109,12 @@ Antes de começar, você deve fazer o seguinte:
 >[!IMPORTANT]
 >
 >Você pode estimar seus recursos por um período de 15 anos. Se você orçar recursos para um projeto com duração superior a 15 anos, as informações de orçamento podem não ser precisas.
-><!--
+
+<!--
 ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >(is this still accurate for the Scenario Planner?)>
 ></MadCap:conditionalText>>
->-->
+-->
 
 1. Vá para o projeto para o qual deseja orçar recursos.
 

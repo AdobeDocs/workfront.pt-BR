@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 1%
@@ -199,11 +199,11 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 | Exibir registros em uma linha do tempo |            | ✓ |             |
 | Filtrar registros | ✓ | ✓ | ✓ |
 | Exibir registros em um calendário |           |              | ✓ |
-| Registros de grupo | ✓ | ✓ |
-| Classificar registros | ✓ |              |
+| Registros de grupo | ✓ | ✓ |  |
+| Classificar registros | ✓ |              |  |
 | Registros de código de cores | ✓ | ✓ | ✓ |
-| Agrupamentos de código de cores |           | ✓ |
-| Pesquisar registros específicos | ✓ | ✓ |
+| Agrupamentos de código de cores |           | ✓ |  |
+| Pesquisar registros específicos | ✓ | ✓ |  |
 | Compartilhar a exibição com outras pessoas | ✓ | ✓ | ✓ |
 | Abrir a página do registro na exibição | ✓ | ✓ |    |
 | Exibir registros por ano e trimestre |           | ✓ |    |

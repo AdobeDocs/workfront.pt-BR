@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 17aaf70977aa6ce0276676c6a30fd6c951be956c
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 2%
@@ -48,10 +48,8 @@ Você também pode alterar a imagem de fundo e a cor da tela de logon:
 >[!NOTE]
 >
 >* A alteração da imagem e da cor de fundo do logon não estará disponível se a instância do Workfront da sua organização usar um portal de SSO personalizado. Consulte o administrador de rede ou de TI se precisar de mais informações.
-><!--
->or is enabled with Adobe IMS  >
->  >
->-->
+>
+><!-- or is enabled with Adobe IMS -->
 >
 >* Um administrador ou administrador de grupo do Workfront também pode marcar o Workfront para determinados grupos e usuários usando um modelo de layout. A marca em um modelo de layout substitui a marca no nível do sistema explicada neste artigo. Para obter instruções sobre a identidade visual em um modelo de layout, consulte [Brand Adobe Workfront usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md).
 
@@ -134,10 +132,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >[!NOTE]
    >
    >Isso não estará disponível se a instância Workfront da sua organização usar um portal SSO personalizado.
-   ><!--   >
-   >or is enabled with Adobe IMS   >
-   >   >
-   >-->
+   >
+   ><!--  or is enabled with Adobe IMS -->
    >
    >Consulte o administrador de rede ou de TI se precisar de mais informações.
 

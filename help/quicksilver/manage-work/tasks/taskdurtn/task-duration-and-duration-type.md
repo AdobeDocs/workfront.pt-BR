@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1653'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Se o Início Efetivo e as Datas de Término Efetivo da tarefa estiverem fora do 
 >[!BEGINSHADEBOX]
 
 **EXEMPLO**
-Se você tiver uma programação que comece às 9h e termine às 12h e uma tarefa que esteja programada para iniciar às 14h e terminar às 16h, a Duração da tarefa será zero.
+Se você tiver uma agenda que começa às 9:00 AM e termina às 12:00 PM e uma tarefa que está agendada para iniciar às 2:00 PM e terminar às 4:00 PM, a Duração da tarefa será zero.
 
 
 >[!ENDSHADEBOX]
@@ -73,11 +73,11 @@ Ao atualizar a Duração das tarefas em uma lista, você pode usar as seguintes 
 
 | Unidade de Tempo | Abreviação |
 |---|---|
-| Minutos | M |
+| Minutes | M |
 | Horas | H |
 | Dias. Este é o padrão. | E |
-| Semanas | S |
-| Meses | T, MO |
+| Weeks | S |
+| Months | T, MO |
 | Minutos corridos | EM |
 | Horas corridas | EH |
 | Dias corridos | ED |

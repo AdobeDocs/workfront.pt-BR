@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 0%
@@ -173,8 +173,9 @@ A caixa Nova ocorrência é exibida.
    >[!TIP]
    >
    >Os Tipos de solicitação devem ser ativados em Detalhes da fila e ao criar o Tópico da fila para ser exibido como uma seleção no formulário Novo problema. Para obter informações, consulte os seguintes artigos:
+   >
    >* [Criar uma Fila de Solicitações](../../requests/create-and-manage-request-queues/create-request-queue.md)
-   >  * [Criar Tópicos de Fila](../../requests/create-and-manage-request-queues/create-queue-topics.md)
+   >* [Criar Tópicos de Fila](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
 1. Continue especificando os campos disponíveis no formulário **Novo problema**. Para obter mais informações sobre os campos disponíveis quando você insere um novo problema, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
 

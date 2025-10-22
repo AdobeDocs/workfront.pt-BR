@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 517c080ed4e6096ac0a2028125d62d33b2db2359
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -31,11 +31,11 @@ Para obter uma lista de todas as alterações disponíveis com a versão 22.1, c
 
 >[!NOTE]
 >
->Lançado para clientes do EMEA com comprovação integrada criado antes de 6 de julho de 2021 apenas. Essa funcionalidade será visualizada em uma implantação em fases, a partir de 13 de janeiro e até 17 de janeiro, para os seguintes clientes: >
+>Lançado para clientes do EMEA com comprovação integrada criado antes de 6 de julho de 2021 apenas. Essa funcionalidade será visualizada em uma implantação em fases, a partir de 13 de janeiro e até 17 de janeiro, para os seguintes clientes:
+>
 >* Clientes EMEA com prova integrada e independente
 >* Clientes do EMEA com comprovação integrada criada após 6 de julho de 2021
 >* Todos os clientes dos EUA
->
 
 Para fornecer uma experiência mais integrada entre o Workfront e o Proof, fizemos várias melhorias com relação aos recursos de revisão para Revisores e Solicitantes:
 

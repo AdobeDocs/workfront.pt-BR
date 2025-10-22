@@ -6,7 +6,7 @@ description: Se for necessário trabalhar mais para concluir um problema depois 
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 1%
@@ -171,8 +171,8 @@ A tabela a seguir ilustra quais campos de problemas estão visíveis nas tarefas
 | Campos de problema | Campo de projeto ou tarefa | Lista ou relatório de projetos | Área Detalhes do projeto | Lista de tarefas ou relatório | Área Detalhes da tarefa |
 |---|---|---|---|---|---|
 | [!UICONTROL Nome do problema] | [!UICONTROL Nome do problema convertido] | ✔ | ✔ | ✔ | ✔ |
-| [!UICONTROL Contato Primário] | [!UICONTROL Nome do Originador do Problema Convertido] | ✔ | ✔ | ✔ |
-| [!UICONTROL Data de entrada] | [!UICONTROL Data de entrada do problema convertido] | ✔ |  | ✔ |
+| [!UICONTROL Contato Primário] | [!UICONTROL Nome do Originador do Problema Convertido] | ✔ | ✔ | ✔ |  |
+| [!UICONTROL Data de entrada] | [!UICONTROL Data de entrada do problema convertido] | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]
