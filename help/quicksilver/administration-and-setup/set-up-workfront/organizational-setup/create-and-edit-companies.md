@@ -141,11 +141,11 @@ Para adicionar ou editar uma empresa:
 
    Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condicional) Se você estiver criando uma empresa, clique em **[!UICONTROL Criar Empresa]**<span class="preview">ou** Salvar **.</span>
+1. (Condicional) Se você estiver criando uma empresa, clique em **[!UICONTROL Criar Empresa]**<span class="preview">ou **&#x200B; Salvar &#x200B;**.</span>
 
    Ou
 
-   Se você estiver editando uma empresa existente, clique em **[!UICONTROL Salvar alterações]**<span class="preview">ou** Salvar **.</span>
+   Se você estiver editando uma empresa existente, clique em **[!UICONTROL Salvar alterações]**<span class="preview">ou **&#x200B; Salvar &#x200B;**.</span>
 
 ## Gerenciar associações de empresa
 
