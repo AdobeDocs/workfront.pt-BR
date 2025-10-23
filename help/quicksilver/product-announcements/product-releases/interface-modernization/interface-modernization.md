@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 21293cdd7a1c8f76149ee2e224fa8701e25e970e
+source-git-commit: bf4764cc1e20bf87fb1069ca432ee6303096313c
 workflow-type: tm+mt
-source-wordcount: '8497'
+source-wordcount: '8788'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,44 @@ Esta página lista as atualizações de interface que estamos fazendo no Adobe W
 Para todas as outras alterações no Adobe Workfront, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administração e configuração
+
+### Atualizações de interface para as caixas de diálogo Adicionar e editar empresas
+
+**Versão de visualização: 23 de outubro de 2025; Versão de produção: a partir de 30 de outubro de 2025**
+
+Atualizamos as caixas de diálogo para adicionar e editar empresas com um design mais moderno que é consistente com outras áreas do Workfront.
+
+Para obter mais informações, consulte [Criar e editar empresas](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+
+## Projetos
+
+### Atualizações de interface para as caixas Novo e Editar Risco em um painel personalizado em um projeto
+
+**Versão de visualização: 16 de outubro de 2025; Versão de produção para todos os clientes: iniciando a semana de 23 de outubro de 2025**
+
+Atualizamos a aparência das caixas Novos e Editar Riscos ao criar ou atualizar um risco existente. O novo design agora corresponde a outras áreas do Workfront.  Para acessar o novo design, crie um relatório de riscos e coloque-o em um painel, depois adicione o painel a um projeto e gerencie os riscos no painel.
+
+Para obter informações, consulte [Criar e editar riscos em projetos](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+
+## Usuários
+
+### Atualizações de interface para folga pessoal
+
+**Versão de visualização: 23 de outubro de 2025; Versão de produção para todos os clientes: iniciando a semana de 30 de outubro de 2025**
+
+<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. -->
+
+Atualizamos a aparência do calendário de folga pessoal, incluindo a capacidade de delegar aprovações, para corresponder a outras áreas do aplicativo.
+
+Para exibir essas alterações, vá para o perfil do usuário e clique em **Folga** no painel esquerdo.
+
+Para obter mais informações, consulte [Configurar tempo livre pessoal](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) e [Delegar solicitação de aprovação](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+
+## Atualizações de interface feitas no quarto trimestre
+
+## Administração e configuração
+
++++Expanda para visualizar as atualizações de interface de administração e configuração feitas no quarto trimestre
 
 ### Atualizações de interface na caixa de diálogo Importar usuários em Empresas
 
@@ -64,7 +102,7 @@ Essa atualização afeta:
 
 ### Atualizações de interface para a área Gravidades na Configuração
 
-**Versão de visualização: 25 de setembro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 25 de setembro de 2025; Versão de produção: iniciando a semana de 23 de outubro de 2025**
 
 Atualizamos a página Gravidades com um design mais moderno que é consistente com outras áreas do Workfront.
 
@@ -76,7 +114,7 @@ Para obter mais informações, consulte [Criar ou personalizar severidades de pr
 
 ### Atualizações de interface para a área Prioridades em Configuração
 
-**Versão de visualização: 25 de setembro de 2025; Versão de produção: a ser anunciada**
+**Versão de visualização: 25 de setembro de 2025; Versão de produção: iniciando a semana de 23 de outubro de 2025**
 
 Atualizamos a página Prioridades com um design mais moderno e consistente com outras áreas do Workfront.
 
@@ -209,7 +247,11 @@ Atualizamos a página Atualizar usuários para SSO com um design mais moderno e 
 
 Para visualizar esta alteração, acesse Configuração > Sistema > Atualizar usuários para SSO
 
++++
+
 ## Portfólios
+
++++Expanda para visualizar as atualizações da interface do Portfolio realizadas no quarto trimestre
 
 ### Atualizações de interface para editar portfólios
 
@@ -224,7 +266,11 @@ Introduzimos atualizações de interface ao editar portfólios na caixa Editar P
 
 Para obter informações, consulte [Editar portfólios](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md).
 
++++
+
 ## Programas
+
++++Expanda para visualizar as atualizações da interface do Programa realizadas no quarto trimestre
 
 ### Atualizações de interface na caixa Editar programa
 
@@ -234,7 +280,11 @@ Atualizamos a aparência da caixa Editar programa para corresponder ao design de
 
 Para obter informações, consulte [Editar programas](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md).
 
++++
+
 ## Projetos
+
++++Expanda para visualizar as atualizações da interface do Project feitas no quarto trimestre
 
 ### Atualizações de interface para taxas de cobrança
 
@@ -436,7 +486,11 @@ Atualizamos a caixa de diálogo para adicionar uma nova despesa a um projeto, pa
 
 Para obter informações, consulte [Gerenciar despesas do projeto](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
 
++++
+
 ## Modelos
+
++++Expanda para visualizar as atualizações da interface de modelos feitas no quarto trimestre
 
 ### Atualizações de interface para a lista de Pessoas em um modelo
 
@@ -482,8 +536,12 @@ Para obter mais informações, consulte
 * [Criar Grupos De Tópicos](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [Criar Regras de Roteamento](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
++++
+
 
 ## Usuários
+
++++Expanda para visualizar as atualizações da interface do usuário realizadas no quarto trimestre
 
 ### Atualizações de interface para a página Detalhes do usuário
 
@@ -528,6 +586,8 @@ Atualizamos a caixa de diálogo para importar novos usuários por meio de um arq
 Para visualizar esta alteração, vá para Usuários > Novo usuário > Importar usuários.
 
 Para obter informações, consulte [Importar usuários](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
++++
 
 ## Atualizações de interface feitas no terceiro trimestre
 

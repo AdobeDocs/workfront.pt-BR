@@ -3,7 +3,7 @@ title: Documentação do [!DNL Adobe Workfront]
 description: Documentação para  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 0a90da6978fc9b380d237dab74af1f14eabb857a
+source-git-commit: e8d0b180e39025e3d6775d1f90dbd5c8fad9025e
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 3%
@@ -20,17 +20,17 @@ Bem-vindo à página inicial da documentação técnica e do produto do Adobe Wo
 
 >[!TAB Versão mais recente]
 
-* [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
-* [Visão geral da versão do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
+* [Visão geral da versão do primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
+* [Atividade da versão do Primeiro Trimestre de 2026 do Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
 * [Atividade de versão do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
-* [Atividade de lançamento do Adobe Workfront Planning do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
-* [Atividade de versão do Adobe Workfront Planning do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 
 >[!TAB Versões de 2025]
 
+* [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
 * [Visão geral da versão do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
 * [Visão geral da versão do segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
 * [Visão geral da versão do primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+* [Atividade de lançamento do Adobe Workfront Planning do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 * [Atividade de versão do Adobe Workfront Planning do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 * [Atividade da versão do Segundo trimestre de 2025 do Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Atividade da versão do Primeiro Trimestre de 2025 do Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
@@ -51,7 +51,7 @@ Bem-vindo à página inicial da documentação técnica e do produto do Adobe Wo
 
 >[!TAB Problemas conhecidos]
 
-* [Problemas conhecidos](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/issues/overview)
+* [Problemas conhecidos](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
 
 
 >[!ENDTABS]
@@ -70,7 +70,7 @@ Bem-vindo à página inicial da documentação técnica e do produto do Adobe Wo
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Introdução à administração do Workfront</a></li>
-    <li><a href="https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Introdução ao Workfront Fusion</li>
+    <li><a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/get-started-fusion-toc">Introdução ao Workfront Fusion</li>
     <li><a href="/help/quicksilver/app-builder/install-apps-on-exchange.md">Adquirir e instalar aplicativos da Adobe Exchange</a></li>
     </ul>
  </td>
@@ -110,9 +110,9 @@ A pesquisa de documentação pode ser mais eficiente com algumas abordagens estr
 
 ### Explorar as seções de aprendizado e treinamento
 
-* **Materiais de treinamento**: navegue até a página [Treinamento do Workfront](https://experienceleague.adobe.com/pt-br/browse/workfront) para obter uma biblioteca de vídeos e artigos de treinamento criados para ajudá-lo a entender melhor os recursos e configurações do Workfront. Você também pode acessar o material de treinamento pago em [learning.adobe.com](https://learning.adobe.com/).
-* **Cursos**: encontre [cursos de aprendizado estruturado](https://experienceleague.adobe.com/home?lang=pt-BR&Solution=Workfront#courses) que orientam você pelo uso de vários recursos do Workfront em uma sequência lógica.
+* **Materiais de treinamento**: navegue até a página [Treinamento do Workfront](https://experienceleague.adobe.com/en/browse/workfront) para obter uma biblioteca de vídeos e artigos de treinamento criados para ajudá-lo a entender melhor os recursos e configurações do Workfront. Você também pode acessar o material de treinamento pago em [learning.adobe.com](https://learning.adobe.com/).
+* **Cursos**: encontre [cursos de aprendizado estruturado](https://experienceleague.adobe.com/home?Solution=Workfront#courses) que orientam você pelo uso de vários recursos do Workfront em uma sequência lógica.
 
 ### Encontre respostas em Fóruns da comunidade
 
-* **Fazer perguntas**: se a documentação não responder à sua pergunta, tente postar nos [fóruns da Comunidade Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=pt) onde outros usuários e especialistas podem oferecer assistência.
+* **Fazer perguntas**: se a documentação não responder à sua pergunta, tente postar nos [fóruns da Comunidade Workfront](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) onde outros usuários e especialistas podem oferecer assistência.

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 5e81e18ef667af3e4d08f4fc8987f7a3b6617971
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 0%
@@ -105,9 +105,9 @@ Para adicionar ou editar uma empresa:
 
 1. Atualize as seguintes informações na seção **Informações Básicas**:
 
-   * **Nome da Empresa**<span class="preview"> ou **Nome**</span>: digite um nome para a empresa.
+   * **Nome da Empresa** <span class="preview"> ou **Nome**</span>: digite um nome para a empresa.
    * **Está ativo**: quando esta opção é habilitada, os usuários podem encontrar a empresa e anexá-la aos projetos que eles criam e editam. Uma empresa inativa não pode ser anexada a projetos. Essa opção está ativada por padrão.
-   * **Esta é a Empresa Primária**<span class="preview"> ou **É Primária**</span>: atribui a empresa como a empresa primária da sua organização. A empresa principal geralmente representa a conta da Workfront na qual a maioria dos usuários trabalha.
+   * **Esta é a Empresa Primária** <span class="preview">ou **É Primária**</span>: atribui a empresa como a empresa primária da sua organização. A empresa principal geralmente representa a conta da Workfront na qual a maioria dos usuários trabalha.
 
      Você pode ter uma empresa ou nenhuma empresa designada como empresa primária, mas não pode ter várias empresas designadas como empresas primárias. Para obter mais informações, consulte [Criar e modificar níveis de acesso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -141,11 +141,11 @@ Para adicionar ou editar uma empresa:
 
    Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condicional) Se você estiver criando uma empresa, clique em **[!UICONTROL Criar Empresa]**<span class="preview">ou **&#x200B; Salvar &#x200B;**.</span>
+1. (Condicional) Se você estiver criando uma empresa, clique em **[!UICONTROL Criar Empresa]**<span class="preview">ou** Salvar **.</span>
 
    Ou
 
-   Se você estiver editando uma empresa existente, clique em **[!UICONTROL Salvar alterações]**<span class="preview">ou **&#x200B; Salvar &#x200B;**.</span>
+   Se você estiver editando uma empresa existente, clique em **[!UICONTROL Salvar alterações]**<span class="preview">ou** Salvar **.</span>
 
 ## Gerenciar associações de empresa
 
