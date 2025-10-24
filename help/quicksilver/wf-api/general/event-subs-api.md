@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: f6f3df61286a360324963c872718be224a7ab413
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '3054'
 ht-degree: 3%
 
 ---
@@ -816,7 +816,7 @@ Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo
 >[!NOTE]
 >
 >A assinatura abaixo com o filtro fornecido só retornará mensagens em que o nome da tarefa contém `again` no `oldState`, qual era antes de uma atualização ser feita na tarefa.
->&#x200B;>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
+>>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
 
 ```
 {
@@ -904,6 +904,86 @@ O campo `filterConnector` na carga da assinatura permite escolher como os filtro
     "filterConnector": "AND"
 }
 ```
+
+### Utilização de grupos de filtros
+
+Os grupos de filtros permitem criar condições lógicas (AND/OR) aninhadas em seus filtros de assinatura de evento.
+
+Cada grupo de filtros pode ter o seguinte:
+
+* Seu próprio conector (AND ou OR).
+* Vários filtros, cada um seguindo a mesma sintaxe e comportamento dos filtros independentes.
+
+>[!IMPORTANT]
+>
+>Um grupo deve ter no mínimo 2 filtros.
+
+
+Todos os filtros dentro de um grupo são compatíveis com o seguinte:
+
+* Operadores de comparação: eq, ne, gt, gte, lt, lte, contains, notContains, containsOnly, alterado.
+* Opções de estado: newState, oldState.
+* Direcionamento de campo: qualquer nome de campo de objeto válido.
+
+```
+{
+  "objCode": "TASK",
+  "eventType": "UPDATE",
+  "authToken": "token",
+  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+  "filters": [
+    {
+      "fieldName": "percentComplete",
+      "fieldValue": "100",
+      "comparison": "lt"
+    },
+    {
+      "type": "group",
+      "connector": "OR",
+      "filters": [
+        {
+          "fieldName": "status",
+          "fieldValue": "CUR",
+          "comparison": "eq"
+        },
+        {
+          "fieldName": "priority",
+          "fieldValue": "1",
+          "comparison": "eq"
+        }
+      ]
+    }
+  ],
+  "filterConnector": "AND"
+}
+```
+
+O exemplo acima contém os seguintes componentes:
+
+1. O Filtro de nível superior (fora do grupo):
+   * { &quot;fieldName&quot;: &quot;percentComplete&quot;, &quot;fieldValue&quot;: &quot;100&quot;, &quot;comparison&quot;: &quot;lt&quot; }
+   * Esse filtro verifica se o campo percentComplete da tarefa atualizada é menor que 100.
+
+1. Grupo de filtros (filtros aninhados com OR):
+   * { &quot;type&quot;: &quot;group&quot;, &quot;connector&quot;: &quot;OR&quot;, &quot;filters&quot;: [{ &quot;fieldName&quot;: &quot;status&quot;, &quot;fieldValue&quot;: &quot;CUR&quot;, &quot;comparison&quot;: &quot;eq&quot; }, { &quot;fieldName&quot;: &quot;priority&quot;, &quot;fieldValue&quot;: &quot;1&quot;, &quot;comparison&quot;: &quot;eq&quot; }] }
+   * Este grupo avalia dois filtros internos:
+      * O primeiro verifica se o status da tarefa é igual a &quot;CUR&quot; (atual).
+      * O segundo verifica se a prioridade é igual a &quot;1&quot; (alta prioridade).
+   * Como o conector é &quot;OR&quot;, esse grupo passará se qualquer uma das condições for verdadeira.
+
+1. Conector de nível superior (filterConnector: AND):
+   * O conector mais externo entre os filtros de nível superior é &quot;AND&quot;. Isso significa que o filtro de nível superior e o grupo devem passar para que o evento corresponda.
+
+1. A assinatura será acionada quando as seguintes condições forem atendidas:
+   * O percentComplete é menor que 100.
+   * O status é &quot;CUR&quot; ou a prioridade é &quot;1&quot;.
+
+>[!NOTE]
+>
+>Há limites em vigor para garantir um desempenho consistente do sistema ao usar grupos de filtros, que incluem o seguinte:<br>
+>* Cada assinatura aceita até 10 grupos de filtros (com cada grupo contendo vários filtros).
+>* Cada grupo de filtros pode incluir até 5 filtros para evitar possível degradação do desempenho durante o processamento do evento.
+>* Embora até 10 grupos de filtros (cada um com 5 filtros) seja aceito, um grande número de assinaturas ativas com lógica de filtro complexa pode resultar em um atraso durante a avaliação do evento.
 
 ## Exclusão de Assinaturas de Eventos
 
