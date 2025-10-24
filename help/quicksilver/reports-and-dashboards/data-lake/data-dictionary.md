@@ -7,9 +7,9 @@ description: Esta página contém informações sobre a estrutura e o conteúdo 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
+source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
 workflow-type: tm+mt
-source-wordcount: '8733'
+source-wordcount: '8788'
 ht-degree: 9%
 
 ---
@@ -48,7 +48,8 @@ Os objetos no Workfront (e, portanto, no data lake da Data Connect) são definid
 
 >[!IMPORTANT]
 >
->O diagrama de relacionamento de entidade está em andamento. Como tal, é apenas para fins de referência e está sujeito a alterações.
+>O ERD (diagrama de relacionamento de entidade) fornecido está propositalmente incompleto, pois um ERD completo se tornaria ilegível devido ao alto número de relacionamentos dentro do aplicativo.<br>
+>>Este diagrama fornece um exemplo de como as relações documentadas na tabela Projeto na seção [Tabela de terminologia](#terminology-table) abaixo podem ser usadas para unir dados da visualização de dados do Projeto a objetos adjacentes. Espera-se que um ERD completo não seja necessário uma vez que esse padrão seja entendido para as relações de objeto do projeto
 
 ## Tipos de data
 
@@ -66,7 +67,7 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
 >[!NOTE]
 >
 >Novos campos podem ser adicionados às visualizações de objetos sem aviso prévio para suportar as necessidades de dados em evolução do aplicativo Workfront. Atenção ao uso de consultas &quot;SELECT&quot; em que o destinatário de dados downstream não esteja preparado para lidar com colunas adicionais à medida que são adicionadas.<br>
->&#x200B;>Se for necessário renomear ou remover uma coluna, informaremos com antecedência dessas alterações.
+>>Se for necessário renomear ou remover uma coluna, informaremos com antecedência dessas alterações.
 
 ### Nível de acesso
 
