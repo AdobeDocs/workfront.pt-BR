@@ -6,9 +6,9 @@ description: A ferramenta de revisão do Adobe Workfront é uma extensão de nav
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 7bff0a8c43355472453403fcd404388a3d95d471
+source-git-commit: 78d9e8e47f8f6777f9211d8f85a3dfbc9405d798
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 A ferramenta de revisão do Adobe Workfront é uma extensão de navegador baseada na Web que permite marcar o conteúdo interativo em um arquivo ZIP ou com um URL. A ferramenta de revisão do Adobe Workfront está disponível nos seguintes navegadores:
 
 * Firefox
-* Chrome
+* Google Chrome
 * Edge
 * Safari
 
@@ -42,6 +42,9 @@ Revisores e aprovadores devem instalar a ferramenta de revisão do Adobe Workfro
 * [Extensão do Chrome](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
 
 * [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+* [Extensão do Safari](https://apps.apple.com/us/app/adobe-workfront-review-tool/id6741517062?mt=12)
+
 
 
 Para que as provas interativas sejam abertas automaticamente na ferramenta de revisão do Adobe Workfront, um administrador do Workfront deve atualizar as configurações de Prova no Workfront, conforme descrito nas seções abaixo.
