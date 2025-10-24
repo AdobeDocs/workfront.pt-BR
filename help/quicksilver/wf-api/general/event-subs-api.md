@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f6f3df61286a360324963c872718be224a7ab413
+source-git-commit: 35fbf2f5792edb844264b15e298411819c0f5081
 workflow-type: tm+mt
 source-wordcount: '3054'
 ht-degree: 3%
@@ -27,7 +27,7 @@ Quando ocorre uma ação em um objeto do Adobe Workfront que é compatível com 
 
 Como as subscrições de evento enviam dados para outro serviço, elas são gerenciadas por meio de comandos, em vez de pelo aplicativo do Workfront.
 
-Para receber payloads de assinatura de evento por meio do firewall, você deve adicionar os seguintes endereços IP à inclui na lista de permissões do:
+Para receber payloads de assinatura de evento por meio do firewall, você deve adicionar os seguintes endereços IP ao incluo na lista de permissões:
 
 **Para clientes na Europa:**
 
@@ -816,7 +816,7 @@ Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo
 >[!NOTE]
 >
 >A assinatura abaixo com o filtro fornecido só retornará mensagens em que o nome da tarefa contém `again` no `oldState`, qual era antes de uma atualização ser feita na tarefa.
->&#x200B;>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
+>>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
 
 ```
 {
@@ -961,6 +961,7 @@ Todos os filtros dentro de um grupo são compatíveis com o seguinte:
 O exemplo acima contém os seguintes componentes:
 
 1. O Filtro de nível superior (fora do grupo):
+
    * { &quot;fieldName&quot;: &quot;percentComplete&quot;, &quot;fieldValue&quot;: &quot;100&quot;, &quot;comparison&quot;: &quot;lt&quot; }
    * Esse filtro verifica se o campo percentComplete da tarefa atualizada é menor que 100.
 
