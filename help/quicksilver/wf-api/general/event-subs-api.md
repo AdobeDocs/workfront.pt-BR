@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 987eea4d0ad7f8e30b944418836280728ee63812
+source-git-commit: 8f5cd4125281bb00331c4dc895cc57b138190cfe
 workflow-type: tm+mt
-source-wordcount: '3054'
+source-wordcount: '3031'
 ht-degree: 3%
 
 ---
@@ -816,7 +816,7 @@ Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo
 >[!NOTE]
 >
 >A assinatura abaixo com o filtro fornecido só retornará mensagens em que o nome da tarefa contém `again` no `oldState`, qual era antes de uma atualização ser feita na tarefa.
->&#x200B;>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
+>>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
 
 ```
 {
@@ -962,12 +962,14 @@ O exemplo acima contém os seguintes componentes:
 
 1. O Filtro de nível superior (fora do grupo):
 
-   * { &quot;fieldName&quot;: &quot;percentComplete&quot;, &quot;fieldValue&quot;: &quot;100&quot;, &quot;comparison&quot;: &quot;lt&quot; }
+   * `{ "fieldName": "percentComplete", "fieldValue": "100", "comparison": "lt" }`
    * Esse filtro verifica se o campo percentComplete da tarefa atualizada é menor que 100.
 
 1. Grupo de filtros (filtros aninhados com OR):
-   * { &quot;type&quot;: &quot;group&quot;, &quot;connector&quot;: &quot;OR&quot;, &quot;filters&quot;: [{ &quot;fieldName&quot;: &quot;status&quot;, &quot;fieldValue&quot;: &quot;CUR&quot;, &quot;comparison&quot;: &quot;eq&quot; }, { &quot;fieldName&quot;: &quot;priority&quot;, &quot;fieldValue&quot;: &quot;1&quot;, &quot;comparison&quot;: &quot;eq&quot; }] }
+
+   * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * Este grupo avalia dois filtros internos:
+
       * O primeiro verifica se o status da tarefa é igual a &quot;CUR&quot; (atual).
       * O segundo verifica se a prioridade é igual a &quot;1&quot; (alta prioridade).
    * Como o conector é &quot;OR&quot;, esse grupo passará se qualquer uma das condições for verdadeira.
@@ -981,7 +983,8 @@ O exemplo acima contém os seguintes componentes:
 
 >[!NOTE]
 >
->Há limites em vigor para garantir um desempenho consistente do sistema ao usar grupos de filtros, que incluem o seguinte:<br>
+>Existem limites em vigor para garantir um desempenho consistente do sistema ao usar grupos de filtros, que incluem o seguinte:
+>
 >* Cada assinatura aceita até 10 grupos de filtros (com cada grupo contendo vários filtros).
 >* Cada grupo de filtros pode incluir até 5 filtros para evitar possível degradação do desempenho durante o processamento do evento.
 >* Embora até 10 grupos de filtros (cada um com 5 filtros) seja aceito, um grande número de assinaturas ativas com lógica de filtro complexa pode resultar em um atraso durante a avaliação do evento.
