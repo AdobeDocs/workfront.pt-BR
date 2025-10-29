@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
@@ -171,8 +171,13 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 * Embora alguns elementos de exibição possam ser aplicados a várias exibições para o mesmo registro, eles são exclusivos para cada exibição de registro:
 
    * Filtro
+   * Classificar (para a exibição de tabela)
+   * Cores da linha (para a exibição de tabela)
+   * Campos (para a exibição de tabela)
+   * Detalhamento (para a exibição de linha do tempo)
    * Agrupamento (para as exibições de tabela e linha do tempo)
    * Aparência da barra (para as visualizações de linha do tempo e calendário)
+   * Altura da linha (para a tabela e a exibição mensal do calendário)
 
   Por exemplo, ao criar um filtro em uma exibição de tabela, os resultados do filtro ficam visíveis somente na exibição selecionada (a exibição de tabela) e não em todas as exibições associadas ao tipo de registro.
 
@@ -212,6 +217,7 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 | Exportar informações de uma visualização | ✓ |               |    |
 | Exibir em tela inteira | ✓ | ✓ | ✓ |
 | Criar registros na exibição | ✓ | ✓ | ✓ |
+| Dividir registros por suas conexões |          | ✓ |    |
 
 ## Criar ou editar exibições {#create-or-edit-views}
 

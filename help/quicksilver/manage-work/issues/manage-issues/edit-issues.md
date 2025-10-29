@@ -8,7 +8,7 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
 source-wordcount: '2578'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Editar problemas
 
-<!--Audited: 03/2025-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -333,7 +333,7 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
 1. Clique em **Pesquisar pessoas, funções e equipes** e comece a digitar o nome de um usuário, função ou equipe que deseja atribuir ao problema, em seguida, clique nele ou pressione Enter quando ele for exibido na lista.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
+   (NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)
    -->
 
    >[!NOTE]
@@ -351,7 +351,6 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
    >* Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
 
    <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
-
    1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
 
 1. Atualize os seguintes campos:
@@ -377,16 +376,21 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
 
    <!--
    <div class="preview">
-   1. (Conditional) In the Preview environment, update the **Planned Hours** field
-      Or 
-      Click **Assign to me** to assign the issue to yourself. (********ADD DEFINITION OF PLANNED HOURS FROM THE TABLE AT PROD RELEASE*********)
+   1. (Conditional) In the Preview environment, do one of the following:
+         * Click **Assign to me** to assign the issue to yourself
+      * Update the **Planned Hours** field.
+         The **Planned Hours** is the amount of hours it would take the assignees of the issue to complete it. 
+         >[!NOTE]
+         >
+         >Changing the Planned Hours of the issue will not change the issue Planned Completion Date. 
    </div> -->
+
 
 1. Para remover atribuições de todos os problemas, consulte [Atribuir problemas](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 
 1. Clique em **Salvar** ou continue editando as seções a seguir.
 
-### Forms personalizado
+### Formulários personalizados
 
 1. Comece a editar um problema conforme descrito acima.
 1. Clique em **Forms Personalizado**.

@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
 source-wordcount: '1771'
 ht-degree: 4%
@@ -224,6 +224,8 @@ Para adicionar um filtro a uma exibição de calendário:
 1. Clique em **Adicionar condição** e adicione as seguintes informações:
 
    * **Selecione um campo** que você deseja filtrar por <!-- the tip below might change-->
+
+     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
 
    * **Selecione uma opção** (ou um modificador de filtro) para definir que tipo de condição o campo deve atender
 

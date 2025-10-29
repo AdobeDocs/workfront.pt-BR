@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
 
 # Atribuir problemas
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2024-->
 
 <!--
 <div class="preview"> 
@@ -116,7 +116,7 @@ Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 </div>
 -->
 
-## Atribuir um único problema
+## Atribuir um único problema no cabeçalho do problema
 
 1. Vá para um problema que deseja atribuir.
 1. Clique em **Atribuir a** no canto superior direito do cabeçalho do problema, na área **Atribuições**
@@ -155,9 +155,9 @@ Considere o seguinte ao atribuir vários recursos a um item de trabalho:
 1. Clique em **Salvar** para concluir a atribuição do problema.
 1. (Opcional) Clique no ícone **X** ao lado do nome das atribuições na área Atribuições no cabeçalho do problema para remover uma atribuição.
 
-## Atribuir um problema em uma lista
+## Atribuir um problema ao editá-lo em linha em uma lista
 
-Você pode atribuir problemas em uma lista ou em um relatório quando qualquer um dos campos de atribuição estiver visível na exibição da lista. Essa é a maneira mais rápida de atribuir problemas.
+Você pode atribuir problemas em uma lista ou em um relatório quando qualquer um dos campos de atribuição estiver visível na exibição da lista. Essa é uma maneira mais rápida de atribuir problemas.
 
 Dependendo de qual campo estiver visível na visualização, você poderá atribuir as seguintes entidades à ocorrência:
 
@@ -195,6 +195,12 @@ Para atribuir ocorrências em uma lista:
    >Não é possível fazer atribuições avançadas nos campos Atribuído a ou Atribuído.
 
 1. Depois de adicionar os atribuídos ao problema, pressione Enter ou clique em qualquer lugar na página para salvar as alterações.
+
+## Atribuir um problema na caixa Editar problema
+
+Você pode atribuir um problema ao editá-lo na caixa Editar problema.
+
+Para obter informações, consulte a seção &quot;Atribuições&quot; no artigo [Editar problemas](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 ## Atribuir problemas em massa
 

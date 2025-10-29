@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
 workflow-type: tm+mt
-source-wordcount: '3370'
+source-wordcount: '3401'
 ht-degree: 2%
 
 ---
@@ -192,6 +192,8 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    As colunas adicionadas ficam visíveis para todos os usuários que acessam o tipo de registro e são adicionadas como novos campos na página do registro.
 
+1. (Opcional) Clique no ícone **Campos** ![Ícone Campos](assets/fields-icon.png) na barra de ferramentas, localize o campo na lista <!--or <span class="preview"> search for a field</span>,--> e desmarque a opção de alternância à direita do nome do campo para ocultar o campo.
+
 1. Siga um destes procedimentos para reordenar colunas na tabela:
 
    * Segure o cabeçalho da coluna e arraste e solte-o na posição desejada. A coluna movida brevemente será exibida com um plano de fundo azul até que você faça outros ajustes na tabela.
@@ -311,6 +313,8 @@ Para adicionar um filtro a uma exibição de tabela:
 1. Clique em **Adicionar condição** e adicione as seguintes informações:
 
    * **Selecione um campo** que você deseja filtrar por <!-- the tip below might change-->
+
+     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
 
    * **Selecione uma opção** (ou um modificador de filtro) para definir que tipo de condição o campo deve atender
 
@@ -542,6 +546,8 @@ To sort grouped records:
 1. (Opcional) Clique em **Cores da linha** para definir condições e escolher a configuração de cores diferentes para linhas da tabela.
 
 1. Clique em **Adicionar cor** e **Selecione um campo** cujo valor você deseja determinar a cor de uma linha.
+
+   <!--replace the text for this step above with this at preview release: Click **Add color**, then <span class="preview">search for a field or </span> click the drop-down menu to display a list of fields and select it from the list. This is the field whose value you want to determine the color of a row.-->
 
    Por exemplo, para exibir campanhas com um status de Ativo em verde, selecione **Status** e escolha um modificador e um valor para o campo.
 
