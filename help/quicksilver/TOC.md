@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 59c9953fdd38ca7591e17a20303f029dbdd75c67
+source-git-commit: 69d3b6d93ce4ceaf66a7886704023de494cde35d
 workflow-type: tm+mt
-source-wordcount: '13494'
+source-wordcount: '13516'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 2%
       * [Preparar-se para uma versão trimestral do Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versão do primeiro trimestre de 2026 {#release-26-q1}
          * [Visão geral da versão do primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
+         * [Aprimoramentos do administrador no primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md)
+         * [Aprimoramentos de documentos e aprovações no primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md)
+         * [Aprimoramentos nas integrações do primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md)
+         * [Primeiro trimestre de 2026 Outras melhorias](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md)
       * Versão do quarto trimestre de 2025 {#release-25-q4}
          * [Visão geral da versão do quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
          * [Aprimoramentos do administrador no quarto trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)

@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ac079ad7cb4b696cb54ff5ad8ff34940d0d62913
+source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -22,13 +22,28 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
+<!--## New field search box in the Filters, Fields, and Row colors icons in Planning views
+
+>[!NOTE]
+>
+>Preview: October 30, 2025 
+>Production fast release: November 13, 2025 
+>Production for everyone:  January 15, 2026 
+
+
+You can now search for a specific field when building a view element in record type view. The new search boxes have been added when you build a filter, sort, grouping, or when you configure your fields or row colors. Prior to this enhancement, you could simply scroll through the list of available fields.
+This improvement is available in all views.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).-->
+
+
 ## Tipos de registro global e a capacidade de adicioná-los como tipos de registro existentes a outros espaços de trabalho
 
 >[!NOTE]
 >
 >Visualização: 16 de outubro de 2025
->&#x200B;>Versão rápida de produção: 13 de novembro de 2025
->&#x200B;>Produção para todos: 15 de janeiro de 2026
+>>Versão rápida de produção: 13 de novembro de 2025
+>>Produção para todos: 15 de janeiro de 2026
 
 Ao implementar o Workfront Planning para uma organização de várias equipes com workflows comuns, talvez seja necessário definir uma estrutura coesa e metadados para os principais tipos de registro (como Campanhas ou Materiais de entrega) que podem ser adicionados aos espaços de trabalho de cada equipe para capturar e gerenciar o trabalho.
 
@@ -51,8 +66,8 @@ Para obter mais informações, consulte os seguintes artigos:
 >[!NOTE]
 >
 >Visualização: 16 de outubro de 2025
->&#x200B;>Versão rápida de produção: 13 de novembro de 2025
->&#x200B;>Produção para todos: 15 de janeiro de 2026
+>>Versão rápida de produção: 13 de novembro de 2025
+>>Produção para todos: 15 de janeiro de 2026
 
 Introduzimos um limite de 30 campos de conexão para cada tipo de registro.
 
@@ -65,8 +80,8 @@ Para obter mais informações, consulte [Visão geral dos Tipos de Registros Con
 >[!NOTE]
 >
 >Visualização: 16 de outubro de 2025
->&#x200B;>Versão rápida de produção: 13 de novembro de 2025
->&#x200B;>Produção para todos: 15 de janeiro de 2026
+>>Versão rápida de produção: 13 de novembro de 2025
+>>Produção para todos: 15 de janeiro de 2026
 
 Ao adicionar opções de campo a um campo de seleção única ou múltipla, o Workfront atribuirá valores amigáveis exclusivos a cada escolha. Antes dessa melhoria, o Workfront gerou uma ID alfanumérica que era difícil de entender e usar em chamadas de API e outras integrações.
 
