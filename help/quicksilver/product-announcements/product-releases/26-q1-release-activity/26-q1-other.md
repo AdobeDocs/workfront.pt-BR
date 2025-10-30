@@ -23,8 +23,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento do cicl
 >[!NOTE]
 >
 >Visualização: 30 de outubro de 2025
->>Versão rápida de produção: 13 de novembro de 2025
->>Produção para todos: 15 de janeiro de 2026
+>&#x200B;>Versão rápida de produção: 13 de novembro de 2025
+>&#x200B;>Produção para todos: 15 de janeiro de 2026
 
 Os campos que permitem várias seleções, como caixas de seleção e listas suspensas de várias seleções, agora estão limitados a 5000 seleções quando um usuário preenche o formulário.
 
