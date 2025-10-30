@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '2578'
-ht-degree: 3%
+source-wordcount: '2741'
+ht-degree: 2%
 
 ---
 
@@ -19,15 +19,13 @@ ht-degree: 3%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 É possível editar informações sobre problemas criados por você ou criados por outros usuários se eles compartilharem os problemas com você.
 
@@ -350,41 +348,45 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
    >* Reatribuir o item de trabalho aos recursos ativos.
    >* Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
 
-   <!--1. (Conditional) Depending on what environment you are editing issues in, do one of the following:
-   1. In the Production environment, INDENT THE FOLLOWING STEPS FURTHER AT RELEASE: (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. -->
+1. (Condicional) Dependendo do ambiente no qual você está editando problemas, execute um dos procedimentos a seguir:
 
-1. Atualize os seguintes campos:
+   1. No ambiente de produção:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    </col> 
-    <col> 
-    </col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Horas planejadas</td> 
-      <td> <p>Esta é a quantidade de tempo real que os designados da ocorrência levariam para concluí-la. Digite o número de Horas planejadas para a ocorrência.<br></p> <p><b>Nota</b></p>  <p>Alterar as Horas planejadas do problema não alterará a Data de conclusão planejada do problema. </p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader">Função do atribuidor</td> 
-      <td> <p>Selecione uma função no menu suspenso <strong>Função do destinatário</strong> ao selecionar uma pessoa como destinatário. Essa é a função que o destinatário pode desempenhar nesse problema. </p> <p><b>DICA</b>
+      1. Indique se um destinatário é o principal responsável no problema, passando o cursor do mouse sobre o nome do destinatário e clicando em **Tornar primário**. Uma equipe não pode ser o principal destinatário de um problema.
 
-   Somente as funções de trabalho associadas a cada destinatário em seu perfil são exibidas no menu suspenso.</p> </td>
-   </tr> 
-    </tbody> 
-   </table>
+      1. Atualize os seguintes campos:
 
-   <!--
-   <div class="preview">
-   1. (Conditional) In the Preview environment, do one of the following:
-         * Click **Assign to me** to assign the issue to yourself
-      * Update the **Planned Hours** field.
-         The **Planned Hours** is the amount of hours it would take the assignees of the issue to complete it. 
-         >[!NOTE]
-         >
-         >Changing the Planned Hours of the issue will not change the issue Planned Completion Date. 
-   </div> -->
+         <table style="table-layout:auto"> 
+         <col> 
+         </col> 
+         <col> 
+         </col> 
+         <tbody> 
+         <tr> 
+            <td role="rowheader">Horas planejadas</td> 
+            <td> <p>Esta é a quantidade de tempo real que os designados da ocorrência levariam para concluí-la. Digite o número de Horas planejadas para a ocorrência.<br></p> <p><b>Nota</b></p>  <p>Alterar as Horas planejadas do problema não alterará a Data de conclusão planejada do problema. </p> </td> 
+         </tr> 
+         <tr data-mc-conditions=""> 
+            <td role="rowheader">Função do atribuidor</td> 
+            <td> <p>Selecione uma função no menu suspenso <strong>Função do destinatário</strong> ao selecionar uma pessoa como destinatário. Essa é a função que o destinatário pode desempenhar nesse problema. </p> <p><b>DICA</b>
 
+         Somente as funções de trabalho associadas a cada destinatário em seu perfil são exibidas no menu suspenso.</p> </td>
+         </tr> 
+         </tbody> 
+         </table>
+
+
+
+   1. <span class="preview">(Condicional) No ambiente de Visualização, execute um dos procedimentos a seguir:</span>
+
+      * <span class="preview">Clique em **Atribuir a mim** para atribuir o problema a você mesmo </span>
+      * <span class="preview">Atualize o campo **Horas Planejadas**.</span>
+
+        As **Horas planejadas** são a quantidade de horas que os atribuídos da ocorrência levariam para concluí-la.
+
+        >[!NOTE]
+        >
+        >Alterar as Horas planejadas do problema não alterará a Data de conclusão planejada do problema.
 
 1. Para remover atribuições de todos os problemas, consulte [Atribuir problemas](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 

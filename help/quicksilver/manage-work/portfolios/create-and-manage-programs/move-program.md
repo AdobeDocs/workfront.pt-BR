@@ -6,7 +6,7 @@ description: Você pode adicionar programas existentes a um portfólio. Como os 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Adicionar um programa existente a um portfólio
 
-<!--Audited: 5/2025-->
+<!--Audited: 10/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -93,12 +93,12 @@ Você pode adicionar programas existentes a um portfólio. Como os programas nã
    >
    >A adição de um programa existente transporta todos os projetos associados a esse programa para o portfólio. Tenha cuidado para não mover projetos involuntariamente dessa maneira.
 
-1. No campo **[!UICONTROL Adicionar programas a este Portfolio]**, digite o nome de um programa e selecione-o quando ele for exibido na lista. <!--see the name of this field, I suggested changes here-->
+1. No campo **[!UICONTROL Adicionar programas a este portfólio]**, digite o nome de um programa e selecione-o quando ele for exibido na lista. <!--see the name of this field, I suggested changes here-->
 
    Você pode adicionar mais de um programa.
 
 1. (Opcional) Clique no ícone **Excluir** ![Excluir ícone](assets/delete-icon.png) ao lado do nome de um programa se decidir não adicioná-lo ao portfólio.
 
-1. Clique em **[!UICONTROL Adicionar Programas]**. <!--check this button in the UI after they implemented the changes??-->
+1. Clique em **[!UICONTROL Adicionar programas]**.
 
    O programa é exibido na guia **[!UICONTROL Programas]** no portfólio selecionado.

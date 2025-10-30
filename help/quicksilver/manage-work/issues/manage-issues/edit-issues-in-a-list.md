@@ -6,28 +6,25 @@ description: Você pode editar um problema individual ou editar problemas em uma
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '992'
 ht-degree: 1%
 
 ---
 
 # Editar problemas em uma lista
 
-<!--Audited: 08/2025-->
+<!--Audited: 10/2025-->
 
-<!--Audited: 03/2025-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 Você pode editar um problema individual ou editar problemas em uma lista de problemas ou relatório. Este artigo descreve como editar problemas em listas.
 
@@ -175,24 +172,15 @@ Para editar problemas em massa:
 
    A edição das informações em todos os problemas é idêntica à edição de informações em um problema ao editar as seguintes áreas:
 
-   * Visão geral
-   * Configurações
-   * Formulários personalizados
-   * Atribuições
-   * Comentário
-
-   <!--at release for unshim, replace the list above with this:
-
    <div class="preview">
 
-   * Overview
-   * Assignments
-   * Custom Forms 
-   * Settings
-   * Comment
+   * Visão geral
+   * Atribuições
+   * Formulários personalizados
+   * Configurações
+   * Comentário
 
    </div>
-   -->
 
    Para obter mais informações sobre como editar um problema, consulte [Editar problemas](../../../manage-work/issues/manage-issues/edit-issues.md).
 
@@ -206,16 +194,11 @@ Para editar problemas em massa:
 
    É possível editar apenas os campos nos formulários anexados a todas as questões selecionadas e que você tem permissão para editar.
 
-   <!--1. (Optional and conditional) Depending what environment you use to edit the issues, do one of the following to recalculate custom expressions for all issues:
-   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
+1. (Opcional e condicional) Dependendo do ambiente usado para editar os problemas, siga um destes procedimentos para recalcular as expressões personalizadas para todos os problemas:
 
-1. (Opcional) Na área **Forms Personalizado**, selecione a opção **Recalcular Expressões Personalizadas** para garantir que todos os Campos Personalizados Calculados que estão no Forms Personalizado anexado aos problemas selecionados estejam atualizados.
+   1. No ambiente de Produção, na área **Forms Personalizado**, selecione a opção **Recalcular Expressões Personalizadas** para garantir que todos os Campos Personalizados Calculados que estão no Forms Personalizado anexado aos problemas selecionados estejam atualizados.
 
-   <!--  
-   <div class="preview">
-
-   1. In the Preview environment, with all the issues selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the issue list, then click **Recalculate Expressions**.
-   -->
+   1. <span class="preview">No ambiente de Visualização, com todos os problemas selecionados na lista, clique no menu **Mais** ![Mais menu](assets/more-icon.png) na parte superior da lista de problemas e clique em **Recalcular Expressões**. </span>
 
    >[!IMPORTANT]
    >

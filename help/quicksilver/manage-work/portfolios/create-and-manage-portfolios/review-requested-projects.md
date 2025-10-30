@@ -6,7 +6,7 @@ description: As solicitações de projeto são exibidas como projetos com status
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Revisar projetos solicitados
+
+<!--Audited: 10/2025-->
 
 Quando várias solicitações de projeto são enviadas para revisão, o escritório de gerenciamento de projetos ou o comitê do portfólio pode se reunir para revisar as solicitações enviadas e determinar as aprovações das solicitações do projeto. As solicitações de projeto são exibidas como projetos com status [!UICONTROL Solicitado] em [!DNL Adobe Workfront].
 
@@ -89,19 +91,19 @@ Você pode revisar projetos solicitados nas seguintes áreas do [!DNL Adobe Work
 
 Você pode criar um relatório para projetos para ver quais projetos têm status de [!UICONTROL Solicitado].
 
-Para obter mais informações sobre como aprovar solicitações de projeto criando um relatório de projeto, consulte a seção [[!UICONTROL Aprovando o Business Case Criando um Relatório de Projeto]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) em [Aprovar um Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md). 
+Para obter mais informações sobre como aprovar solicitações de projeto criando um relatório de projeto, consulte a seção [[!UICONTROL Aprovando o Business Case Criando um Relatório de Projeto]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) em [Aprovar um Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ## Revisar projetos solicitados em um portfólio
 
 1. Vá para o portfólio cujos projetos solicitados você deseja revisar.
-1. Clique em&#x200B;**[!UICONTROL Projetos]** no painel esquerdo
+1. Clique em **[!UICONTROL Projetos]** no painel esquerdo
 1. No menu suspenso **[!UICONTROL Filtro]**, selecione **[!UICONTROL Solicitado]**.
 
    Somente projetos com status **[!UICONTROL Solicitado]** são exibidos na lista.
 
    >[!TIP]
    >
-   > Além de ter o Status de **[!UICONTROL Solicitado]**, os projetos devem ser associados ao Portfolio selecionado para serem exibidos nesta lista.
+   > Além de ter o Status de **[!UICONTROL Solicitado]**, os projetos devem ser associados ao Portfolio selecionado para serem exibidos nesta lista.
 
 1. Clique no nome de um projeto na lista para abri-lo.
 1. Clique em **[!UICONTROL Detalhes do projeto]** no painel esquerdo.
@@ -117,13 +119,13 @@ Para obter mais informações sobre como aprovar solicitações de projeto crian
 
      >[!NOTE]
      >
-     >Não há notificações que alertem o usuário que enviou a aprovação do business case se a solicitação do projeto foi aprovada ou rejeitada. 
+     >Não há notificações que alertem o usuário que enviou a aprovação do business case se a solicitação do projeto foi aprovada ou rejeitada.
 
      Ou
 
    * Altere o status do projeto para qualquer outro status no menu suspenso **[!UICONTROL Status]**.
 
      ![Alterar status do projeto da lista suspensa](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
- 
 
- 
+
+

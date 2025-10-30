@@ -6,7 +6,7 @@ description: Você pode anexar um modelo a um projeto durante a fase de criaçã
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Anexar um modelo a um projeto
 
-<!-- Audited: 5/2025 -->
+<!-- Audited: 10/2025 -->
 
 Você pode anexar um modelo a um projeto durante a fase de criação inicial do projeto ou após sua criação.
 
@@ -115,16 +115,15 @@ Você pode anexar um modelo a um projeto a partir da página do projeto ou de um
 
 1. Na página **Projetos**, selecione o projeto ao qual deseja anexar um modelo.
 
-1. Clique no ícone **Mais** ícone ![Mais](assets/qs-more-icon-on-an-object.png) à direita do nome do projeto.
+1. Clique no ícone **Mais** ![Mais suspenso](assets/more-dropdown.png) à direita do nome do projeto.
 
-   ![Mais lista suspensa](assets/more-dropdown.png)
+   ![Ícone Mais](assets/qs-more-icon-on-an-object.png)
 
    Ou
 
-   Vá para uma lista de projetos ou relatório e selecione um projeto, em seguida, clique no ícone **Mais** ícone ![Mais](assets/qs-more-icon-on-an-object.png) na parte superior da lista.
+   Vá para uma lista de projetos ou relatório, selecione um projeto e clique no ícone **Mais** ![menu suspenso Mais](assets/more-dropdown.png) na parte superior da lista.
 
    ![Mais menus expandidos](assets/more-menu-expanded.png)
-
 
 1. Clique em **Anexar Modelo**. A caixa **Anexar Modelo** é exibida.
 

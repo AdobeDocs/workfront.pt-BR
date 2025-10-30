@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,13 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
 
-</div> 
--->
+</div>
 
 Você pode atribuir problemas a usuários, funções e equipes para indicar quem é responsável por concluir os problemas. Para obter informações gerais sobre atribuição de problemas, consulte [Visão geral da modificação de atribuições de problemas](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -204,10 +202,9 @@ Para obter informações, consulte a seção &quot;Atribuições&quot; no artigo
 
 ## Atribuir problemas em massa
 
-<!--
-Assigning issues in bulk is different depending on what environment you choose to do this. 
+Atribuir problemas em massa é diferente, dependendo do ambiente escolhido para fazer isso.
 
-### Assign issues in bulk in the Production environment -->
+### Atribuir problemas em massa no ambiente de produção
 
 1. Vá para uma lista de problemas que você deseja atribuir em massa.
 1. Selecione vários problemas na lista.
@@ -232,33 +229,32 @@ Assigning issues in bulk is different depending on what environment you choose t
 1. Clique em **Salvar alterações**.
 1. (Opcional e condicional) Quando os campos Atribuído a ou Atribuições forem exibidos na lista de problemas, clique dentro de uma dessas colunas para um problema e, em seguida, clique no ícone **X** ao lado do nome de um destinatário para removê-lo do problema.
 
-<!--
 <div class="preview">
 
-### Assign issues in bulk in the Preview environment
+### Atribuir problemas em massa no ambiente de Pré-visualização
 
-1. Go to a list of issues that you want to assign in bulk. 
-1. Select several issues in the list. 
-1. Click the **Edit icon** ![Edit icon](assets/qs-edit-icon.png).
+1. Vá para uma lista de problemas que você deseja atribuir em massa.
+1. Selecione vários problemas na lista.
+1. Clique no **ícone Editar** ![ícone Editar](assets/qs-edit-icon.png).
 
-   The **Edit Issues** dialog box opens.
+   A caixa de diálogo **Editar Problemas** é aberta.
 
-1. Click **Assignments** in the left panel, and in the **Assignments** area, start typing the name of a user, role, or team in the **Search people, roles, or teams** field, then click it when it displays in the list
+1. Clique em **Atribuições** no painel esquerdo e, na área **Atribuições**, comece digitando o nome de um usuário, função ou equipe no campo **Pesquisar pessoas, funções ou equipes** e clique nele quando ele for exibido na lista
 
-   Or
+   Ou
 
-   Click **Assign to me** to assign the issues to yourself.
+   Clique em **Atribuir a mim** para atribuir os problemas a você mesmo.
 
    >[!IMPORTANT]
    >
-   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
-   
-1. (Optional) If you want to remove existing assignees from all issues, click the **x** next to their name.
+   >Se qualquer um dos problemas já estiver atribuído, os recursos que você indicar aqui serão adicionados aos problemas em vez de substituir os recursos existentes nos problemas.
 
-1. (Optional) Update the Planned Hours field. For more information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md). 
+1. (Opcional) Se você deseja remover os atribuídos existentes de todas as questões, clique no ícone **x** ao lado do nome.
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
+1. (Opcional) Atualize o campo Horas planejadas. Para obter mais informações, consulte [Editar problemas](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+
+1. Clique em **Salvar**.
+1. (Opcional e condicional) Quando os campos Atribuído a ou Atribuições forem exibidos na lista de problemas, clique dentro de uma dessas colunas para um problema e, em seguida, clique no ícone **X** ao lado do nome de um destinatário para removê-lo do problema.
 
 </div>
--->
+
