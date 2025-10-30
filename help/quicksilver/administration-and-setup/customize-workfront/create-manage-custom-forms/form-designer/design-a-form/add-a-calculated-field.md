@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2446'
 ht-degree: 0%
 
 ---
 
 # Adicionar campos calculados a um formulário
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -169,6 +171,10 @@ Para reutilizar um campo personalizado calculado existente:
       <p><b>IMPORTANTE</b>: antes de escolher um formato, considere o formato correto para o novo campo. O campo de formato não pode ser editado depois que o formulário personalizado é salvo. E selecionar o formato errado poderia afetar cálculos futuros e agregar valores em agrupamentos de relatórios e listas.</p>
       <p><strong>OBSERVAÇÃO</strong>: campos calculados com um formato <strong>Moeda</strong> não devem incluir aspas. (Por exemplo, use 800.00 e não "800.00".) O uso de aspas pode causar consequências inesperadas devido a nuances na formatação de idioma para tipos de moeda.</p></td>
      </tr> 
+     <tr>
+      <td><span class="preview">Ativo</span></td>
+      <td><span class="preview"><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -278,7 +284,7 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
            >
            ><div>Em um formulário personalizado anexado a um objeto, os demonstrativos de data e hora em campos personalizados calculados são calculados e salvos pelo Tempo universal coordenado (UTC), não pelas configurações de fuso horário definidas para a instância da organização e o perfil do usuário. Os cálculos em um formulário personalizado são gerados com base nos fusos horários individuais de cada usuário.</div>
 
-      +++
+        +++
 
    1. Clique na caixa de texto grande e, em seguida, clique em **Expressões** e **Campos** disponíveis para adicioná-los ao cálculo.
 

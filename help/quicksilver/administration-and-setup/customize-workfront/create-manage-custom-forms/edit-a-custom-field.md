@@ -8,18 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
 
 # Adicionar ou editar um campo personalizado, quebra de seção ou widget
 
+{{preview-fast-release-general}}
+
 Você pode adicionar um novo campo ou widget personalizado diretamente na área Campos no Workfront, sem abrir um formulário personalizado para criar o campo.
 
 Também é possível editar as propriedades de um campo personalizado, quebra de seção ou widget usado em formulários personalizados. Isso inclui o rótulo do item, nome, instruções e assim por diante.
+
+<span class="preview">Definir um campo personalizado como Inativo o exclui dos relatórios, filtros e modos de exibição, e o campo não está mais disponível na biblioteca de campos de formulários personalizados. Todos os novos campos são definidos como Ativo por padrão. </span>
 
 Se você remover um campo personalizado de um formulário personalizado, ele ainda existirá em todos os outros formulários aos quais foi adicionado e você poderá editá-lo em um formulário ou na área Campos. Para obter informações sobre como excluir um campo, consulte [Excluir um campo ou widget personalizado do sistema](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 
