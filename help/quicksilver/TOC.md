@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: f468c1a7a99e057f4bc392bf8197ec8bedfa3e96
+source-git-commit: 59c9953fdd38ca7591e17a20303f029dbdd75c67
 workflow-type: tm+mt
-source-wordcount: '13485'
+source-wordcount: '13494'
 ht-degree: 2%
 
 ---
@@ -385,7 +385,7 @@ ht-degree: 2%
       * [A programação de recursos não é mais suportada](product-announcements/announcements/feature-removal-timeline.md)
       * [Guia de desativação do Analytics aprimorado](product-announcements/announcements/enhanced-analytics-deprecation.md)
       * [Perguntas frequentes sobre a Janela de manutenção](product-announcements/announcements/maintenance-window-faq.md)
-      * [Alteração necessária para adicionar provas ao seu arquivo de inclui na lista de permissões](product-announcements/announcements/proofhq-domain-change-workfront.md)
+      * [Alteração necessária para adicionar provas ao incluo na lista de permissões](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Cancelar inscrição nas mensagens do Centro de notificações na nova experiência do Adobe Workfront](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * Arquivo de avisos {#announcement-archive}
          * [Arquivo de avisos](product-announcements/announcements/announcement-archive/announcement-archive.md)
@@ -397,7 +397,7 @@ ht-degree: 2%
          * [Novo sistema gerenciado pela Adobe Workfront para substituir o email POP em Filas de solicitações pela versão 21.1](product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)
          * [Novos endereços IP para email do Adobe Workfront com a versão 21.1](product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
          * [Falsificação de email e remoção de resposta POP](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
-         * [Os clientes nos Clusters 1, 2 e 3 devem atualizar qualquer bloco IP de inclui na lista de permissões do para evitar o bloqueio dos serviços da Adobe Workfront](product-announcements/announcements/announcement-archive/clusters-1-3-update-whitelist.md)
+         * [Os clientes nos Clusters 1, 2 e 3 devem atualizar todos os blocos IP incluídos na lista de permissões para impedir o bloqueio dos serviços da Adobe Workfront](product-announcements/announcements/announcement-archive/clusters-1-3-update-whitelist.md)
          * [Remover SMTP personalizado como uma opção de email de saída](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
    * Programas do Beta {#beta}
       * [Programas do Beta](product-announcements/betas/betas.md)
@@ -418,8 +418,8 @@ ht-degree: 2%
       * [Gerenciar licenças disponíveis em seu sistema](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
       * [Configurar as noções básicas](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
       * [Visão geral do firewall](administration-and-setup/get-started-wf-administration/firewall-overview.md)
-      * [Configurar firewall ➡ incluir na lista de permissões](administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
-      * [Configurar inclui na lista de permissões por email](administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
+      * [Configurar incluo na lista de permissões de firewall](administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+      * [Configurar incluo na lista de permissões de email](administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
       * [Enviar notificações](administration-and-setup/get-started-wf-administration/view-send-announcements.md)
       * [Requisitos do navegador](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
       * [Diferenças baseadas em plataforma](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
@@ -1969,6 +1969,7 @@ ht-degree: 2%
       * [Introdução à prova e à integração com o GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
       * [Introdução à prova e ao Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [Introdução à integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+      * [Usar o Adobe Experience Manager com a integração Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
    * Dicas, truques e solução de problemas para aprovações {#ttt-approvals}
       * [Dicas, truques e solução de problemas para aprovações: índice do artigo](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Exibir o número de decisões de prova e documento para todos os usuários](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)

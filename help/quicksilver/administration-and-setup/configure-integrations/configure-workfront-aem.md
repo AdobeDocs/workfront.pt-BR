@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 0841594c855c39fedf4eab5492994ff4f7acfbdf
+source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
 workflow-type: tm+mt
 source-wordcount: '1855'
 ht-degree: 0%
@@ -50,6 +50,8 @@ Como administrador do [!DNL Adobe Workfront], você pode integrar o [!DNL Workfr
 
 Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## [!DNL Workfront for AEM Assets]
 
 O [!DNL Workfront for AEM Assets connector] permite que sua organização faça o seguinte:
@@ -71,8 +73,8 @@ O [!DNL Workfront for AEM Assets connector] permite que sua organização faça 
 
 Antes de instalar o conector [!DNL Workfront] para [!UICONTROL AEM Assets], verifique se os seguintes pré-requisitos foram atendidos:
 
-* O [!UICONTROL AEM Assets] está instalado e configurado, versão 6.5 ou posterior. Para obter informações sobre como instalar o [!UICONTROL AEM Assets], consulte a [[!DNL Adobe Experience Manager] documentação](https://experienceleague.adobe.com/pt-br/docs/experience-manager).
-* (Condicional) Se as regras de firewall não permitirem o tráfego conforme o esperado, adicione o endereço IP e/ou domínio do cluster à inclui na lista de permissões. Incluir na lista de permissões Para obter mais informações, consulte [Configurar o arquivo do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+* O [!UICONTROL AEM Assets] está instalado e configurado, versão 6.5 ou posterior. Para obter informações sobre como instalar o [!UICONTROL AEM Assets], consulte a [[!DNL Adobe Experience Manager] documentação](https://experienceleague.adobe.com/en/docs/experience-manager).
+* (Condicional) Se as regras de firewall não permitirem o tráfego conforme esperado, adicione o endereço IP e/ou domínio do cluster ao incluo na lista de permissões. Para obter mais informações, consulte [Configurar incluo na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Instalar o pacote do conector [!DNL Workfront for AEM Assets] {#install-the-workfront-for-aem-assets-connector-package}
 
@@ -175,7 +177,7 @@ Antes de começar, você deve ativar permissões para workfront-service:
 
       **[!UICONTROL Ignorar Domínio de Email]:** selecione esta opção se os usuários do AEM não usarem o nome de domínio em suas IDs de usuário.
 
-      **[!UICONTROL Restringir Acesso]:** Selecione esta opção para especificar os endereços IP [!DNL Workfront] apropriados que precisam ser adicionados ao arquivo de inclui na lista de permissões. Para obter mais informações sobre a inclui na lista de permissões do firewall, consulte [Configurar a inclui na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+      **[!UICONTROL Restringir Acesso]:** Selecione esta opção para especificar os endereços IP [!DNL Workfront] apropriados que precisam ser adicionados ao incluo na lista de permissões. Para obter mais informações sobre o incluo na lista de permissões, consulte [Configurar incluo na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
    1. No canto superior esquerdo da página Configuração de integração do Workfront, clique na guia **[!UICONTROL Básico]** e em **[!UICONTROL Conectar]**.
 
