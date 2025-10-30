@@ -5,16 +5,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 2%
 
 ---
 
 # Criar e personalizar prioridades
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox e está sendo lançado em uma implantação em fases para Produção.</span>
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -99,7 +97,7 @@ Além das prioridades padrão fornecidas no Workfront, você pode adicionar suas
 1. No painel esquerdo, clique em **Preferências do projeto** > **Prioridades**.
 
 1. Clique na guia do tipo de objeto para o qual você deseja criar uma prioridade (**Projeto**, **Tarefa** ou **Problema**).
-1. Clique em <span class="preview">**Nova linha** na parte inferior da tabela</span> ou **Adicionar uma Nova Prioridade**.
+1. Clique em **Nova linha** na parte inferior da tabela.
 1. Configure as seguintes opções para a prioridade:
 
    * **Nome da Prioridade**: digite um nome para a prioridade.
@@ -119,8 +117,6 @@ Além das prioridades padrão fornecidas no Workfront, você pode adicionar suas
 
      Não é possível definir uma prioridade oculta como padrão.
 
-     <div class="preview">
-
      A prioridade padrão é indicada com um ícone ![Ícone de prioridade padrão](assets/default-icon.png). Para escolher um novo padrão, siga um destes procedimentos:
 
       * Marque a caixa de seleção ao lado do nome da prioridade e selecione **Tornar padrão** na barra de ações, na parte inferior da tela.
@@ -128,10 +124,8 @@ Além das prioridades padrão fornecidas no Workfront, você pode adicionar suas
 
         A nova prioridade padrão é rotulada com o ícone.
 
-     </div>
-
    * **Descrição**: digite uma descrição para a prioridade para explicar sua função.
-   * <span class="preview">**Ocultar Opção**</span> ou **Ocultar**: <span class="preview">Selecione **Sim**</span> ou marque a caixa de seleção para ocultar uma prioridade que não é mais necessária.
+   * **Ocultar Opção**: selecione **Sim** para ocultar uma prioridade que não é mais necessária.
 
      Uma prioridade oculta não é exibida em nenhum lugar do Workfront, portanto, os usuários não podem escolhê-la para seus projetos, tarefas ou problemas.
 

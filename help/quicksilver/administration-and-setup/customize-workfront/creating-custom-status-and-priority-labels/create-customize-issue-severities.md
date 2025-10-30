@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 3%
+source-wordcount: '629'
+ht-degree: 4%
 
 ---
 
 # Criar ou personalizar a gravidade de problemas
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente Pré-visualização de sandbox e está sendo lançado em uma implantação em fases para produção.
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -97,7 +95,7 @@ Como administrador do Workfront, você pode criar e editar severidades de proble
 
 1. No painel esquerdo, clique em **Preferências do projeto** > **Severidades**.
 
-1. Se você estiver criando uma nova severidade, clique em <span class="preview">**Nova linha** na parte inferior da tabela</span> ou **Adicionar uma Nova Severidade**.
+1. Se você estiver criando uma nova severidade, clique em **Nova linha** na parte inferior da tabela.
 1. Configure as seguintes opções para a nova severidade ou edite-as para uma existente:
 
    * **Nome da Severidade**: Digite um nome para a severidade.
@@ -117,8 +115,6 @@ Como administrador do Workfront, você pode criar e editar severidades de proble
 
      Não é possível definir uma severidade oculta como padrão.
 
-     <div class="preview">
-
      A severidade padrão é indicada com um ícone ![Ícone de severidade padrão](assets/default-icon.png). Para escolher um novo padrão, siga um destes procedimentos:
 
       * Marque a caixa de seleção ao lado do nome da severidade e selecione **Tornar padrão** na barra de ações, na parte inferior da tela.
@@ -126,10 +122,8 @@ Como administrador do Workfront, você pode criar e editar severidades de proble
 
         A nova severidade padrão é rotulada com o ícone.
 
-     </div>
-
    * **Descrição**: digite uma descrição para a severidade para explicar sua função.
-   * <span class="preview">**Ocultar Opção**</span> ou **Ocultar**: <span class="preview">Selecione **Sim**</span> ou marque a caixa de seleção para ocultar uma severidade que não é mais necessária.
+   * **Ocultar Opção**: selecione **Sim** para ocultar uma severidade que não é mais necessária.
 
      Uma severidade oculta não é exibida em nenhum lugar do Workfront, portanto, os usuários não podem escolhê-la para seus problemas.
 
