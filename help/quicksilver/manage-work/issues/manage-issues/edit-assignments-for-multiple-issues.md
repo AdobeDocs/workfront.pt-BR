@@ -6,9 +6,9 @@ description: Modificar atribuições de usuário para vários problemas em uma l
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '916'
 ht-degree: 1%
 
 ---
@@ -66,11 +66,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>When to modify user assignments on issues</h2>
-<p>(NOTE:&nbsp;drafted and moved to the overview article: Modify issue assignments overview)</p>
-<p>You might want to modify the user assignments for multiple issues for a variety of&nbsp;reasons, including the following:</p>
+<p>(NOTE:  drafted and moved to the overview article: Modify issue assignments overview)</p>
+<p>You might want to modify the user assignments for multiple issues for a variety of  reasons, including the following:</p>
 <ul>
-<li>Users join or leave&nbsp;your team</li>
-<li>A user takes a vacation that extends beyond the issue&nbsp;due dates</li>
+<li>Users join or leave  your team</li>
+<li>A user takes a vacation that extends beyond the issue  due dates</li>
 <li>A specific role or user is set as the assignee for multiple issues and you want to quickly modify all items to be assigned to a different user or role</li>
 </ul>
 </div>
@@ -81,40 +81,35 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. Vá para a lista de problemas que contém os problemas cujas atribuições você deseja modificar.
 1. (Opcional) Crie um filtro para exibir somente problemas atribuídos ao destinatário que você deseja modificar.
 
-   Por exemplo, você pode criar um filtro para exibir somente problemas com uma função específica como destinatário. Em seguida, você pode substituir a função por um usuário específico. Faça o seguinte:
+   Por exemplo, você pode criar um filtro para exibir somente problemas com uma função específica como destinatário.  Em seguida, você pode substituir a função por um usuário específico. Faça o seguinte:
 
-   1. Clique na lista suspensa **Filtro** e em **Novo Filtro**.
+   1. Clique na lista suspensa **Filtros** e em **Novo filtro**.
 
-      A caixa de diálogo Novo filtro é exibida.
-
-   1. Clique em **Adicionar uma Regra de Filtro.**
-   1. Para filtrar por uma função específica, expanda **Funções de atribuição** e clique em **ID.**
-
-      Ou
-
-      Para filtrar por um usuário específico, expanda **Usuários de Atribuição,** e clique em **ID.**
+   1. No primeiro campo, comece digitando **Funções de atribuição** e escolha **Funções de atribuição: Nome** na lista.
+   1. Selecione **É qualquer um de** no menu suspenso do modificador, em seguida, comece a digitar o nome de uma função e selecione-o quando ele for exibido na lista. Você pode digitar várias funções.
 
       >[!TIP]
       >
       >Não use **Atribuído a** porque este campo se refere apenas ao Proprietário do problema e não a todos os atribuídos.
 
-   1. Na lista suspensa, selecione **Igual** como qualificador de filtro.
-   1. Comece digitando o nome do usuário ou função que deseja filtrar e clique no nome quando ele aparecer na lista suspensa.
-   1. Clique em **Salvar filtro.**
+      A lista de problemas filtra automaticamente os critérios de filtro.
+   1. (Opcional) Clique em **Salvar como novo** e depois em **Salvar**.
 
 1. Selecione os problemas para os quais deseja modificar atribuições e clique no **ícone Editar** ![ícone Editar](assets/qs-edit-icon.png).
 
-   O **Editar problemas** é exibido. Os itens editados são exibidos no canto superior esquerdo da página.
+   O **Editar problemas** é exibido. O número de itens selecionados é exibido no canto superior esquerdo da página.
 
-1. Vá para a seção **Atribuições** e selecione **Atribuído**.
+1. (Condicional) No ambiente de Produção, faça o seguinte:
 
-   ![Área de atribuições](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   1. Vá para a seção **Atribuições** e selecione **Atribuído**.
 
-1. Siga um destes procedimentos:
+      ![Área de atribuições](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
-   1. Para adicionar um novo destinatário:
+   1. Siga um destes procedimentos:
 
-      1. Comece a digitar o nome de um usuário, função ou equipe e selecione-o quando ele for exibido na lista. A atribuição é adicionada e não substitui as atribuições atuais nos problemas selecionados.
+      1. Para adicionar um novo destinatário:
+
+         1. Comece a digitar o nome de um usuário, função ou equipe e selecione-o quando ele for exibido na lista. A atribuição é adicionada e não substitui as atribuições atuais nos problemas selecionados.
 
          >[!TIP]
          >
@@ -127,25 +122,54 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
          As informações comuns em todas as ocorrências selecionadas são exibidas. Por exemplo, se o mesmo usuário for atribuído a todos os problemas, ele será exibido na coluna **Destinatário**. Se as informações não forem comuns nos problemas selecionados, nenhuma informação será exibida.
 
-   1. Para remover designados individuais:
+      1. Para remover designados individuais:
 
-      1. Clique no ícone **X** ao lado do nome do destinatário que você deseja remover se ele for exibido na lista Atribuições.
+         1. Clique no ícone **X** ao lado do nome do destinatário que você deseja remover se ele for exibido na lista Atribuições.
 
-         Ou
+            Ou
 
-         (Condicional) Se o destinatário que você deseja remover não for exibido na seção Atribuições porque o destinatário está atribuído a apenas alguns dos problemas selecionados, clique em **Remover destinatário** e comece a digitar o nome do destinatário que você deseja remover, depois clique no nome quando ele aparecer na lista suspensa.
+            Se o destinatário que você deseja remover não for exibido na seção Atribuições porque o destinatário está atribuído a apenas alguns dos problemas selecionados, clique em **Remover destinatário** e comece a digitar o nome do destinatário que você deseja remover, em seguida, clique no nome quando ele aparecer na lista suspensa.
 
-      1. Clique novamente em **Remover responsável** para adicionar outro responsável a ser removido.
+         1. Clique novamente em **Remover responsável** para adicionar outro responsável a ser removido.
 
-   1. Para remover todos os designados existentes:
+      1. Para remover todos os designados existentes:
 
-      1. Clique em **Remover todos os atribuídos existentes** e em **Sim, Excluir todos os atribuídos**.
+         1. Clique em **Remover todos os atribuídos existentes** e em **Sim, Excluir todos os atribuídos**.
 
-         Isso remove não somente os atribuídos comuns (atribuídos exibidos na caixa de diálogo de edição), mas também todos os atribuídos em todas as questões selecionadas.
+            Isso remove não somente os atribuídos comuns (atribuídos exibidos na caixa de diálogo de edição), mas também todos os atribuídos em todas as questões selecionadas.
 
-1. (Opcional) Modifique qualquer uma das seguintes opções para os responsáveis selecionados para associar às ocorrências:
+         1. (Opcional) Modifique qualquer uma das seguintes opções para os responsáveis selecionados para associar às ocorrências:
 
-   * **Proprietário da Questão:** Selecione o botão de opção para indicar qual destinatário está designado como o Proprietário da Questão. Se não for selecionada, o Adobe Workfront designará o primeiro destinatário como Proprietário do problema. Isso não está disponível para atribuições de equipe.
-   * **Função do destinatário**: selecione uma função na lista suspensa. Se não for selecionada, o Workfront selecionará automaticamente a função principal do usuário.
+            * **Proprietário da Questão:** Selecione o botão de opção para indicar qual destinatário está designado como o Proprietário da Questão. Se não for selecionada, o Adobe Workfront designará o primeiro destinatário como Proprietário do problema. Isso não está disponível para atribuições de equipe.
+            * **Função do destinatário**: selecione uma função na lista suspensa. Se não for selecionada, o Workfront selecionará automaticamente a função principal do usuário.
 
-1. Clique em **Salvar alterações**.
+      1. Clique em **Salvar alterações**.
+
+1. <span class="preview">No ambiente de Visualização, faça o seguinte:</span>
+
+   1. <span class="preview">Clique em **Atribuições** no painel esquerdo e clique no ícone **x** ao lado do destinatário que você deseja remover. </span>
+
+      >[!TIP]
+      >
+      ><span class="preview">Somente os atribuídos a todas as questões selecionadas são exibidos na área **Atribuições**. </span>
+
+      ![Área de atribuições em problemas de edição em massa](assets/assignments-area-on-bulk-edit-issues.png)
+
+   1. <span class="preview">Comece digitando o nome de um usuário, função ou equipe para adicionar atribuídos a todas as questões selecionadas. </span>
+
+      >[!TIP]
+      >
+      >Você pode atribuir vários usuários, funções de trabalho ou equipes. Você pode atribuir somente usuários, funções de trabalho e equipes ativos.
+      >
+      >Se um usuário, função de trabalho ou equipe foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
+      >
+      >* Reatribuir o item de trabalho aos recursos ativos.
+      >* Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
+
+      <span class="preview">Os atribuídos adicionados são adicionados aos existentes. Elas não substituem as existentes para cada problema selecionado. </span>
+   1. <span class="preview">(Opcional) Clique em **Atribuir a mim** para atribuir todos os problemas a você mesmo.</span>
+   1. <span class="preview">Clique em **Salvar**. </span>
+
+
+
+

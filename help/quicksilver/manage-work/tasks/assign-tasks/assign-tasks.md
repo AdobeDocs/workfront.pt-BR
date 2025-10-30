@@ -7,16 +7,16 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1829'
 ht-degree: 1%
 
 ---
 
 # Atribuir tarefas
 
-<!--Audited: 07/2024-->
+<!--Audited: 10/2025-->
 
 <!--
 <div class="preview"> 
@@ -175,7 +175,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 1. Clique em **Salvar**.
 1. (Opcional e condicional) Clique no ícone **X** ao lado do nome da atribuição no painel direito da tarefa para remover uma atribuição, se você clicou em **Avançado**.
 
-## Atribuir uma tarefa em uma lista
+## Atribuir uma tarefa em uma lista ao editá-la em linha
 
 É possível atribuir tarefas em uma lista ou um relatório quando qualquer um dos campos de atribuições estiver visível na exibição da lista. Essa é uma maneira mais rápida de atribuir tarefas. Este artigo descreve como modificar atribuições de uma tarefa em uma lista. Para obter informações sobre como modificar várias atribuições para várias tarefas em uma lista, consulte [Modificar várias atribuições de usuário em uma lista de tarefas](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
@@ -224,7 +224,7 @@ Para atribuir tarefas em uma lista:
 
 1. Depois de adicionar os atribuídos à tarefa, pressione Enter ou clique em qualquer lugar na página para salvar as alterações se tiver selecionado Salvamento automático. Ou clique em **Salvar**.
 
-## Atribuir várias tarefas a um usuário
+## Atribuir várias tarefas a um usuário em massa a partir de uma lista
 
 <!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
 
