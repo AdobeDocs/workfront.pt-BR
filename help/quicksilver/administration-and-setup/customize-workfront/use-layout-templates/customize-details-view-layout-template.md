@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -98,11 +98,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 ## Personalize o que os usuários veem na visualização de Detalhes
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Clique na seta para baixo ![Seta para baixo](assets/dropdown-arrow-12x12.png) em **Personalize o que os usuários veem** e clique em **Projeto**, **Tarefa**, **Problema**, **Programa** ou **Portfolio.**
-<!--
-, or billing record
--->
-
+1. Clique na seta para baixo ![Seta para baixo](assets/dropdown-arrow-12x12.png) em **Personalize o que os usuários veem** e clique em **Projeto**, **Tarefa**, **Problema**, **Programa** ou **Portfolio.**<!--, or billing record-->
 1. Na seção **Detalhes**, siga um destes procedimentos para personalizar o que os usuários veem na exibição Detalhes:
 
    * Arraste qualquer cabeçalho de seção ![ícone Mover](assets/move-icon---dots.png) para alterar sua ordem.
@@ -112,6 +108,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
      Todos os campos são ativados por padrão. Você pode marcar ou desmarcar a caixa de seleção **Selecionar tudo** em uma área para exibir ou ocultar todos os campos dessa área.
 
+   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+   ![Modo de exibição de detalhes no modelo de layout](assets/layout-template-details-view-updated-save-buttons.png)
+
+   Imagem de amostra no ambiente de produção:
    ![Modo de exibição de detalhes no modelo de layout](assets/layout-template-details-view.png)
 
 1. <span class="preview">No ambiente de Pré-visualização: Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.</span>
