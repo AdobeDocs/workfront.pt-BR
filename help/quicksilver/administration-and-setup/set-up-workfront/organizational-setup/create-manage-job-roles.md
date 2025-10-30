@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: d342df9949eb1434acbb53c29b7e329dd91c9b28
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 0%
 <!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+>[!IMPORTANT]
+>
+>Com a versão 25.11, a opção Substituir moeda para funções de trabalho será descontinuada na Produção. (A descontinuação ocorre em 30 de outubro no ambiente de Pré-visualização .) Em vez de ter uma moeda base e moedas de substituição, uma moeda estará disponível para funções de trabalho e as taxas de custo e cobrança serão definidas usando essa moeda.
 
 Como administrador do [!DNL Adobe Workfront] ou usuário com acesso administrativo às Funções de Trabalho, você pode criar funções de trabalho que podem ser atribuídas a usuários e excluir funções de trabalho padrão que não são relevantes para sua organização. Para obter informações sobre acesso administrativo no [!DNL Workfront], consulte [Conceder aos usuários acesso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -59,72 +63,143 @@ Para criar uma função de trabalho:
 
 1. No painel esquerdo, clique em&#x200B; **[!UICONTROL Funções de trabalho].**
 1. Clique em **[!UICONTROL Nova Função].**
-1. Configure o seguinte:
+1. Configure os seguintes campos:
 
+   * **Nome**: indique um nome para a função de trabalho. Esse é o nome exibido em qualquer lugar do Workfront em que o campo Função de trabalho é exibido.
+
+     >[!TIP]
+     >
+     >O nome de uma função de trabalho pode conter até 255 caracteres. No entanto, nomes mais longos podem estar truncados em determinadas áreas do Workfront.
+
+   * **Descrição**: insira uma descrição para a função que indique o que é exclusivo sobre ela.
+   * **Está ativo**: selecione **Sim** se desejar que a função fique ativa e disponível em qualquer lugar do Workfront para ser associada a usuários, itens de trabalho, etc. Selecione **Não** se desejar que a função seja desativada e não esteja disponível para atribuir a usuários, itens de trabalho, etc.
+
+     Para obter informações sobre como desativar funções de trabalho, consulte [Desativar funções de trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+
+   * **Moeda Base**: é a Moeda Base, conforme definida na área Configuração pelo administrador do Workfront. Para obter informações, consulte [Configurar taxas de câmbio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+     >[!TIP]
+     >
+     >Não é possível editar a Moeda base no nível da função de trabalho. Esse campo fica esmaecido e serve como um lembrete da moeda base do sistema.
+
+   * **Taxa de Custo**: esta é a taxa de custo por hora da função de trabalho. Esse valor calcula os custos planejados e reais de tarefas e problemas associados à função e, por fim, os custos planejados e reais dos projetos. Informe a taxa usando a Moeda Base.
+
+     Para taxas de custo atuais, clique em **Adicionar taxa**. Informe o valor do custo/hora para o período e atribua uma Data Inicial e uma Data Final, conforme necessário. A primeira taxa de custo não terá uma data inicial e a última taxa de custo não terá uma data final.
+
+     Algumas datas são adicionadas automaticamente. Por exemplo, se a primeira taxa de custo não tiver uma data final e você adicionar uma segunda taxa de custo com uma data inicial de 1º de maio de 2025, uma data final de 30 de abril de 2025 será adicionada à primeira taxa de custo para que não haja lacunas.
+
+     >[!TIP]
+     >
+     >Ao editar uma função de trabalho existente, você pode selecionar **Classificar por data de início** para ver a data de início mais recente no topo da lista de taxas.
+
+   * **Taxa de Cobrança**: esta é a taxa de cobrança por hora da função de trabalho. Esse valor calcula as receitas planejadas e reais de tarefas e problemas associados à função e, por fim, as receitas planejadas e reais dos projetos. Informe a taxa usando a Moeda Base.
+
+     Para taxas de cobrança efetivas por data, clique em **Adicionar taxa**. Informe o valor do faturamento/hora para o período e atribua uma Data Inicial e uma Data Final conforme necessário. A primeira taxa de cobrança não terá uma data inicial e a última taxa de cobrança não terá uma data final.
+
+     Algumas datas são adicionadas automaticamente. Por exemplo, se a primeira taxa de cobrança não tiver uma data final e você adicionar um segundo com uma data inicial de 1º de maio de 2025, uma data final de 30 de abril de 2025 será adicionada à primeira taxa de cobrança para que não haja lacunas.
+
+     >[!TIP]
+     >
+     >Ao editar uma função de trabalho existente, você pode selecionar **Classificar por data de início** para ver a data de início mais recente no topo da lista de taxas.
+
+   * **Substituir Moeda**: selecione uma moeda associada a esta função de trabalho. Essa é a moeda que a Workfront usa para calcular custos e receita associados a essa função de trabalho.
+
+     Isso é diferente da Moeda base configurada pelo administrador do Workfront na área Configuração e pode ser diferente da moeda associada a um projeto.
+
+     >[!TIP]
+     >
+     >Somente as moedas disponíveis na área Taxas de Câmbio do sistema estão disponíveis neste campo. Se você tiver apenas uma moeda configurada, esse campo não será exibido.
+
+     Para obter informações sobre como configurar a Moeda Base no Workfront, consulte [Configurar taxas de câmbio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+     Para obter informações sobre como alterar a moeda de um projeto, consulte [Alterar a moeda do projeto](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+
+   * **Substituir Taxa de Custo da Moeda**: é a taxa de custo por hora da função de trabalho usando a Substituir Moeda selecionada. O Workfront usa esse valor para calcular os custos planejados e reais de tarefas e problemas associados à função de trabalho.
+
+     Informe a taxa na Moeda de Sobreposição especificada acima. Isso também atualiza a Taxa de Custo para essa função de trabalho ao usar a Moeda Base.
+
+     Para obter informações sobre como a Workfront calcula custos, consulte [Rastrear custos](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+     >[!TIP]
+     >
+     >Ao atualizar uma função de trabalho existente que já tenha uma taxa de custo associada a ela, o Workfront calcula a taxa de Sobreposição de Moeda com base na taxa de conversão do seu sistema. Se você atualizar a Taxa de Custo da Moeda de Sobreposição, a taxa de custo da função de ordem de produção também será atualizada automaticamente.
+
+   * **Substituir Taxa de Cobrança da Moeda**: esta é a taxa de cobrança por hora da função de trabalho usando a Substituir Moeda selecionada. O Workfront usa esse valor para calcular a receita planejada e real de tarefas e problemas associados à função de trabalho.
+
+     Informe a taxa na Moeda de Sobreposição especificada acima. Isso também atualiza a Taxa de cobrança para essa função de trabalho ao usar a Moeda base.
+
+     Para obter informações sobre como a Workfront calcula a receita, consulte [Visão geral de faturamento e receita](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+     >[!TIP]
+     >
+     >Ao atualizar uma função de trabalho existente que já tenha uma taxa de faturamento associada a ela, o Workfront calcula a taxa de Substituição de Moeda com base na taxa de conversão do seu sistema. Se você atualizar a Taxa de Faturamento da Moeda de Sobreposição, a taxa de faturamento da função de trabalho também será atualizada automaticamente.
+
+<!--
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nome]</td> 
-      <td> <p>Indique um nome para o cargo. Este é o nome exibido em todos os locais [!DNL Workfront] onde o campo [!UICONTROL Função de Trabalho] é exibido. </p> <p>Dica: o nome de uma função de trabalho pode conter até 255 caracteres. No entanto, nomes mais longos podem estar truncados em determinadas áreas de [!DNL Workfront]. </p> </td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td> <p>Indicate a name for the job role. This is the name that displays everywhere in [!DNL Workfront] where the [!UICONTROL Job Role] field displays. </p> <p>Tip: The name of a job role may contain up to 255 characters. However, longer names might be truncated in certain areas of [!DNL Workfront]. </p> </td> 
      </tr>
      <tr> 
-      <td role="rowheader">[!UICONTROL Descrição]</td> 
-      <td>Informe uma descrição para a função que indique o que é exclusivo sobre ela. </td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
+      <td>Enter a description for the role that indicates what is unique about it. </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Está Ativo]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Is Active]</span> </td> 
       <td> 
        <ul> 
-        <li> <p>Selecione <b>[!UICONTROL Sim]</b> se desejar que a função fique ativa e disponível em todos os locais do [!DNL Workfront] para ser associada a usuários, itens de trabalho, etc. </p> </li> 
-        <li> <p>Selecione <b>[!UICONTROL No]</b>, se desejar que a função seja desativada e não esteja disponível para atribuir a usuários, itens de trabalho, etc. </p> </li> 
-       </ul> <p><span>Para obter informações sobre como desativar funções de trabalho, consulte</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Desativar funções de trabalho</a>. </p> </td> 
+        <li> <p>Select <b>[!UICONTROL Yes]</b> if you want the role to be active and available everywhere in [!DNL Workfront] to be associated with users, work items, etc. </p> </li> 
+        <li> <p>Select <b>[!UICONTROL No]</b>, if you want the role to be deactivated and not available to assign to users, work items, etc. </p> </li> 
+       </ul> <p><span>For information about deactivating job roles, see</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Deactivate job roles</a>. </p> </td> 
      </tr>
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Moeda Base]</span> </td> 
-      <td> <p><span>Esta é a [!UICONTROL Moeda Base], conforme definido na área [!UICONTROL Setup] pelo administrador do Workfront. Para obter informações, consulte</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar taxas de câmbio</a>.</p> <p>Dica: <span>Não é possível editar a [!UICONTROL Moeda Base] no nível de função de trabalho. Este campo está esmaecido e serve como um lembrete da moeda base do seu sistema.</span> </p> </td> 
+      <td role="rowheader"><span>[!UICONTROL Base Currency]</span> </td> 
+      <td> <p><span>This is the [!UICONTROL Base Currency], as set in the [!UICONTROL Setup] area by your Workfront administrator. For information, see</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a> .</p> <p>Tip: <span>You cannot edit the [!UICONTROL Base Currency] at the job role level. This field is dimmed and serves as a reminder for what the base currency is for your system.</span> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Taxa de Custo]</td> 
-      <td><p>Esta é a taxa de custo por hora da função de trabalho. Esse valor calcula os custos planejados e reais de tarefas e problemas associados à função e, por fim, os custos planejados e reais dos projetos. Insira a taxa usando a [!UICONTROL Moeda base].</p> 
-      <p>Para taxas de custo efetivas por data, clique em <strong>[!UICONTROL Adicionar Taxa]</strong>. Insira o valor de custo/hora para o período e atribua uma [!UICONTROL Data de Início] e uma [!UICONTROL Data de Término] conforme necessário. A primeira taxa de custo não terá uma data inicial e a última taxa de custo não terá uma data final.</p> <p>Algumas datas são adicionadas automaticamente. Por exemplo, se a primeira taxa de custo não tiver uma data final e você adicionar uma segunda taxa de custo com uma data inicial de 1º de maio de 2023, uma data final de 30 de abril de 2023 será adicionada à primeira taxa de custo para que não haja lacunas.</p> <p>Dica: ao editar uma função de trabalho existente, você pode selecionar <strong>Classificar por data de início</strong> para ver a data de início mais recente no topo da lista de taxas.</p></td> 
+      <td role="rowheader">[!UICONTROL Cost Rate]</td> 
+      <td><p>This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the [!UICONTROL Base Currency].</p> 
+      <p>For date effective cost rates, click <strong>[!UICONTROL Add Rate]</strong>. Enter the value of the cost/hour for the time period, and assign a [!UICONTROL Start Date] and [!UICONTROL End Date] as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.</p> <p>Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, 2023, an end date of April 30, 2023 is added to the first cost rate so that no gaps exist.</p> <p>Tip: When editing an existing job role, you can select <strong>Sort by start date</strong> to see the most recent start date at the top of the rate list.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Taxa de Cobrança] </td> 
-      <td><p>Esta é a taxa de cobrança por hora da função de trabalho. Esse valor calcula as receitas planejadas e reais de tarefas e problemas associados à função e, por fim, as receitas planejadas e reais dos projetos. Insira a taxa usando a [!UICONTROL Moeda base].</p> <p>Para taxas de cobrança efetivas por data, clique em <strong>[!UICONTROL Adicionar Taxa]</strong>. Insira o valor de faturamento/hora para o período e atribua uma [!UICONTROL Data de Início] e uma [!UICONTROL Data de Término] conforme necessário. A primeira taxa de cobrança não terá uma data inicial e a última taxa de cobrança não terá uma data final.</p> <p>Algumas datas são adicionadas automaticamente. Por exemplo, se a primeira taxa de cobrança não tiver uma data final e você adicionar um segundo com uma data inicial de 1º de maio de 2023, uma data final de 30 de abril de 2023 será adicionada à primeira taxa de cobrança para que não haja lacunas.</p> <p>Dica: ao editar uma função de trabalho existente, você pode selecionar <strong>Classificar por data de início</strong> para ver a data de início mais recente no topo da lista de taxas.</p> </td> 
+      <td role="rowheader">[!UICONTROL Billing Rate] </td> 
+      <td><p>This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the [!UICONTROL Base Currency].</p> <p>For date effective billing rates, click <strong>[!UICONTROL Add Rate]</strong>. Enter the value of the billing/hour for the time period, and assign a [!UICONTROL Start Date] and [!UICONTROL End Date] as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.</p> <p>Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to the first billing rate so that no gaps exist.</p> <p>Tip: When editing an existing job role, you can select <strong>Sort by start date</strong> to see the most recent start date at the top of the rate list.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Substituir Moeda]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency]</span> </td> 
       <td>
-        <p>Selecione uma moeda associada a esta função de trabalho. Esta é a moeda que [!DNL Workfront] usa para calcular custos e receita associados a esta função de trabalho. </p> 
-        <p><span>Isso é diferente da [!UICONTROL Moeda Base] configurada pelo administrador [!DNL Workfront] na área [!UICONTROL Setup] e pode ser diferente da moeda associada a um projeto.</span> </p> 
-        <p>Dica: somente as moedas disponíveis na área [!UICONTROL Taxas de Câmbio] do sistema estão disponíveis neste campo. Se você tiver apenas uma moeda configurada, esse campo não será exibido.</p> 
-       <p><span>Para obter informações sobre como configurar a [!UICONTROL Moeda Base] em [!DNL Workfront], consulte</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar taxas de câmbio</a>.</p> <p><span>Para obter informações sobre como alterar a moeda de um projeto, consulte</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Alterar a moeda do projeto</a>.</p> </td> 
+        <p>Select a currency associated with this job role. This is the currency that [!DNL Workfront] uses for calculating costs and revenue associated with this job role. </p> 
+        <p><span>This is different than the [!UICONTROL Base Currency] set up by your [!DNL Workfront] administrator in the [!UICONTROL Setup] area, and can be different than the currency associated with a project.</span> </p> 
+        <p>Tip: Only currencies available in the [!UICONTROL Exchange Rates] area in your system are available in this field. If you only have one currency set up, this field is does not appear.</p> 
+       <p><span>For information about setting up the [!UICONTROL Base Currency] in [!DNL Workfront], see</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> <p><span>For information about changing the currency of a project, see</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Change the project currency</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Substituir Taxa de Custo da Moeda]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency Cost Rate]</span> </td> 
       <td>
-        <p>Essa é a taxa de custo por hora da função de trabalho que usa a [!UICONTROL Substituir Moeda] selecionada. [!DNL Workfront] usa esse valor para calcular os custos planejados e reais de tarefas e problemas associados à função de trabalho. </p> 
-        <p><span>Insira a taxa na [!UICONTROL Substituir Moeda] especificada acima. Isso também atualiza a Taxa de Custo para essa função de trabalho ao usar a [!UICONTROL Moeda Base].</span> </p> 
-        <p>Para obter informações sobre como o [!DNL Workfront] calcula o custo, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Rastrear custos</a>.</p> 
-       <p>Dica: ao atualizar uma função de trabalho existente que já tenha uma Taxa de Custo associada a ela, o [!DNL Workfront] calcula a taxa de [!UICONTROL Substituir Moeda] com base na taxa de conversão do sistema. Se você atualizar a [!UICONTROL Substituir Taxa de Custo da Moeda], a Taxa de Custo da função de trabalho também será atualizada automaticamente.</p> </td> 
+        <p>This is the cost per hour rate of the job role using the selected [!UICONTROL Override Currency]. [!DNL Workfront] uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role. </p> 
+        <p><span>Enter the rate in the [!UICONTROL Override Currency] specified above. This also updates the Cost Rate for this job role when using the [!UICONTROL Base Currency].</span> </p> 
+        <p>For information about how [!DNL Workfront] calculates cost, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> 
+       <p>Tip: When updating an existing job role that already has a Cost Rate associated with it, [!DNL Workfront] calculates the [!UICONTROL Override Currency] rate based on the conversion rate in your system. If you update the [!UICONTROL Override Currency Cost Rate], the Cost Rate of the job role also updates automatically.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Substituir Taxa de Cobrança da Moeda]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency Billing Rate]</span> </td> 
       <td>
-        <p>Essa é a taxa de cobrança por hora da função de trabalho usando a [!UICONTROL Substituir Moeda] selecionada. [!DNL Workfront] usa esse valor para calcular a receita planejada e real de tarefas e problemas associados à função de trabalho. </p>
-        <p><span>Insira a taxa na [!UICONTROL Substituir Moeda] especificada acima. Isso também atualiza a Taxa de Cobrança dessa função de trabalho ao usar a [!UICONTROL Moeda Base].</span> </p>
-        <p>Para obter informações sobre como [!DNL Workfront] calcula a receita, consulte <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Visão Geral de Faturamento e Receita</a>.</p>
-        <p>Dica: ao atualizar uma função de trabalho existente que já tenha uma Taxa de Cobrança associada a ela, o [!DNL Workfront] calcula a taxa de Substituição de Moeda com base na taxa de conversão do seu sistema. Se você atualizar a Taxa de Faturamento da Moeda de Sobreposição, a Taxa de Faturamento da função de trabalho também será atualizada automaticamente. </p>
+        <p>This is the billing per hour rate of the job role using the selected [!UICONTROL Override Currency]. [!DNL Workfront] uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role. </p>
+        <p><span>Enter the rate in the [!UICONTROL Override Currency] specified above. This also updates the Billing Rateate for this job role when using the [!UICONTROL Base Currency].</span> </p>
+        <p>For information about how [!DNL Workfront] calculates revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p>
+        <p>Tip: When updating an existing job role that already has a Billing Rate associated with it, [!DNL Workfront] calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the Billing Rate of the job role also updates automatically. </p>
        </td>
      </tr> 
     </tbody> 
    </table>
+-->
 
-   >[!TIP]
-   >
-   >As funções de trabalho são parte integral do gerenciamento de recursos. Para usar as ferramentas de planejamento de recursos, as funções de trabalho precisam de um custo e uma taxa de faturamento associados a elas. Para obter informações, consulte [Introdução ao Gerenciamento de recursos](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+>[!TIP]
+>
+>As funções de trabalho são parte integral do gerenciamento de recursos. Para usar as ferramentas de planejamento de recursos, as funções de trabalho precisam de um custo e uma taxa de faturamento associados a elas. Para obter informações, consulte [Introdução ao Gerenciamento de recursos](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 1. Clique em **[!UICONTROL Criar Função]**. A função de trabalho agora está disponível para ser atribuída a tarefas, problemas, aprovações ou você pode compartilhar modelos de layout ou outros objetos com ela. Para obter informações sobre todos os usos de funções de trabalho em [!DNL Workfront], consulte [Visão geral da função de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Para obter informações sobre como excluir uma função de trabalho, consulte [Excluir funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
