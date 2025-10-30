@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 18c39c5b1959c31b6fd0018476b48643b4b15021
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
 
 # Personalizar o painel esquerdo usando um modelo de layout
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -134,7 +136,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      </tr> 
      <tr> 
       <td>[!UICONTROL Projetos]</td> 
-      <td>Projetos <img src="assets/projects-in-main-menu.png"> no menu principal  <img src="assets/main-menu-icon.png"></td> 
+      <td>Projetos <img src="assets/projects-in-main-menu.png"> no menu principal [!UICONTROL] <img src="assets/main-menu-icon.png"></td> 
       <td>[!UICONTROL Projetos]</td> 
      </tr> 
      <tr> 
@@ -237,12 +239,18 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >
    >Para obter informações sobre painéis, consulte [Painéis](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-1. Continue personalizando o modelo de layout.
+1. <span class="preview">No ambiente de Pré-visualização: Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.</span>
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Se tiver terminado de personalizar, clique em **Salvar e Fechar**.</span>
+
+1. No ambiente de Produção: Continue personalizando o modelo de layout.
 
    Ou
 
-   Se tiver terminado de personalizar, clique em **[!UICONTROL Salvar]**.
+   Se tiver terminado de personalizar, clique em **Salvar**.
 
    >[!TIP]
    >
-   >Você pode clicar em [!UICONTROL **Salvar**] a qualquer momento para salvar seu progresso, o que fecha o editor de modelo de layout, e continuar modificando o modelo posteriormente.
+   >Você pode clicar em **Salvar** a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.

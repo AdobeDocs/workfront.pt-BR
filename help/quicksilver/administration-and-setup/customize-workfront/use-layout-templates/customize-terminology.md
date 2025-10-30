@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 3%
+source-wordcount: '659'
+ht-degree: 2%
 
 ---
 
 # Personalizar a terminologia da interface de usuário usando um modelo de layout
+
+{{preview-fast-release-general}}
 
 Como administrador do Adobe Workfront, você pode usar um modelo de layout para alterar os rótulos de alguns objetos que aparecem em todo o Workfront para corresponder aos termos usados em sua organização.
 
@@ -137,7 +139,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >
    >Depois de clicar em Concluído (e mesmo depois de salvar o modelo de layout), você sempre pode retornar às configurações Definir terminologia e clicar em Redefinir ao lado de qualquer termo personalizado para retorná-lo ao estado padrão.
 
-1. Continue personalizando o modelo de layout.
+1. <span class="preview">No ambiente de Pré-visualização: Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.</span>
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Se tiver terminado de personalizar, clique em **Salvar e Fechar**.</span>
+
+1. No ambiente de Produção: Continue personalizando o modelo de layout.
 
    Ou
 

@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
 # Personalizar cabeçalhos de objetos usando um modelo de layout
+
+{{preview-fast-release-general}}
 
 Como administrador do Adobe Workfront ou administrador de grupo, você pode usar um modelo de layout para configurar os campos que os usuários veem no cabeçalho do objeto quando abrem a página de um objeto.
 
@@ -95,9 +97,15 @@ Se você já tiver cinco campos selecionados, remova um campo antes de adicionar
    ![Adicionar campo ao cabeçalho](assets/add-field-to-header-in-lt-list.png)
 
 
-1. (Opcional) Arraste e solte os campos adicionados em uma ordem diferente.
+1. (Opcional) Arraste e solte os campos em uma ordem diferente.
 
-1. Continue personalizando o modelo de layout.
+1. <span class="preview">No ambiente de Pré-visualização: Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.</span>
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Se tiver terminado de personalizar, clique em **Salvar e Fechar**.</span>
+
+1. No ambiente de Produção: Continue personalizando o modelo de layout.
 
    Ou
 
@@ -105,4 +113,4 @@ Se você já tiver cinco campos selecionados, remova um campo antes de adicionar
 
    >[!TIP]
    >
-   >Você pode clicar em Salvar a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo posteriormente.
+   >Você pode clicar em **Salvar** a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.

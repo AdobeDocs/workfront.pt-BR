@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
 
 # Personalizar filtros, visualizações e agrupamentos usando um modelo de layout
+
+{{preview-fast-release-general}}
 
 Como administrador do Adobe Workfront, você pode usar um modelo de layout para especificar quais controles de lista aparecem nos menus suspensos Filtro, Exibir e Agrupamento. Esses menus são exibidos acima em listas em todo o Workfront, como a lista de tarefas de um projeto:
 
@@ -116,7 +118,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
     </tbody> 
    </table>
 
-1. Continue personalizando o modelo de layout.
+1. <span class="preview">No ambiente de Pré-visualização: Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.</span>
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Se tiver terminado de personalizar, clique em **Salvar e Fechar**.</span>
+
+1. No ambiente de Produção: Continue personalizando o modelo de layout.
 
    Ou
 
@@ -124,4 +132,4 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    >[!TIP]
    >
-   >Você pode clicar em Salvar a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo posteriormente.
+   >Você pode clicar em **Salvar** a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Brand Adobe Workfront usando um modelo de layout
 
 <!--Audited: 09/2024-->
+
+{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -86,7 +88,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
     </tbody> 
    </table>
 
-1. Continue personalizando o modelo de layout.
+1. <span class="preview">No ambiente de Pré-visualização: Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.</span>
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Se tiver terminado de personalizar, clique em **Salvar e Fechar**.</span>
+
+1. No ambiente de Produção: Continue personalizando o modelo de layout.
 
    Ou
 
@@ -94,8 +102,6 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    >[!TIP]
    >
-   >Você pode clicar em Salvar a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo posteriormente.
-
-1. Clique em **Salvar**.
+   >Você pode clicar em **Salvar** a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.
 
 Para obter mais informações sobre modelos de layout, consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

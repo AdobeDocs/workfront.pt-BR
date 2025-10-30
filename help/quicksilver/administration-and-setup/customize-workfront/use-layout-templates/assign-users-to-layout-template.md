@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
 
 # Atribuir usuários a um modelo de layout
+
+{{preview-fast-release-general}}
 
 É possível atribuir um modelo de layout criado a qualquer usuário, função de trabalho, equipe ou grupo que precise usá-lo.
 
@@ -78,7 +80,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    É possível atribuir até 100 usuários de cada vez.
 
-1. Clique em **Concluído** e em **Salvar** no canto inferior esquerdo.
+1. Clique em **Concluído** e em **Salvar** ou <span class="preview">**Salvar e fechar**</span> no canto inferior esquerdo.
 
    Esta etapa conclui o processo de criação e atribuição de um modelo de layout.
 

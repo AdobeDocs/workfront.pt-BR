@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
 
 # Conceder acesso administrativo a um modelo de layout
+
+{{preview-fast-release-general}}
 
 Como administrador do Adobe Workfront, você pode conceder acesso administrativo a um modelo de layout aos administradores de um grupo específico para que eles possam editar o modelo. Isso não atribui o modelo aos usuários no grupo.
 
@@ -69,4 +71,4 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >   
    >* Se você não conceder acesso administrativo aos administradores de um grupo específico, todos os usuários que podem editar contas de usuários terão acesso administrativo ao modelo de layout. Alguns administradores do Workfront optam intencionalmente por não conceder acesso administrativo a um modelo de layout para transformá-lo em um modelo de layout no nível do sistema.
 
-1. Você pode clicar em **Salvar** a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.
+1. Você pode clicar em <span class="preview">**Aplicar**</span> ou **Salvar** a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.

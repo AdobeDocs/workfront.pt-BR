@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
 # Personalizar a exibição de Detalhes usando um modelo de layout
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+{{preview-fast-release-general}}
 
 Como administrador do Adobe Workfront, você pode usar um modelo de layout para determinar quais informações aparecem quando um usuário clica no ícone Detalhes ![ícone Detalhes](assets/project-details-icon.png) no painel esquerdo enquanto visualiza uma tarefa, problema, documento, programa ou portfólio.
 
@@ -114,7 +114,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    ![Modo de exibição de detalhes no modelo de layout](assets/layout-template-details-view.png)
 
-1. Continue personalizando o modelo de layout.
+1. <span class="preview">No ambiente de Pré-visualização: Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.</span>
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Se tiver terminado de personalizar, clique em **Salvar e Fechar**.</span>
+
+1. No ambiente de Produção: Continue personalizando o modelo de layout.
 
    Ou
 
@@ -122,4 +128,4 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    >[!TIP]
    >
-   >Você pode clicar em Salvar a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo posteriormente.
+   >Você pode clicar em **Salvar** a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.

@@ -4,20 +4,22 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Você pode usar um Modelo de layout para configurar o que os usuários veem quando abrem a Página inicial no Adobe Workfront.
-author: Lisa
+author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
 
 # Personalizar página inicial usando um modelo de layout
 
-Você pode usar um Modelo de layout para configurar o que os usuários veem quando abrem a Página inicial pela primeira vez.
+{{preview-fast-release-general}}
+
+Você pode usar um modelo de layout para configurar o que os usuários veem quando abrem a Página inicial pela primeira vez.
 
 Você pode configurar:
 
@@ -134,11 +136,11 @@ Para personalizar a Página inicial usando um modelo de layout:
    >
    >* As opções Filtro, Colunas e Grupo são vinculadas às opções de personalização da lista no Modelo de layout. As alterações feitas aqui também serão aplicadas a essas configurações.
    >* Os usuários devem ter pelo menos o acesso de Criação a Exibições para que a configuração da coluna do administrador seja aplicada corretamente a suas Páginas iniciais.
-   ></p>
-   >   <li><p>Defina um Filtro ou Grupo padrão para o widget, passando o mouse sobre uma opção e clicando em <b>Definir como padrão</b>. O padrão atual exibe um símbolo azul <b>Padrão</b> à direita.</p></li>
-   >   <li><p>Adicione um Filtro, Coluna ou Grupo existente à lista de opções disponíveis clicando no botão de adição na parte inferior de cada lista para adicionar uma opção a ela. Observe que somente Filtros, Campos (para Colunas) ou Grupos existentes podem ser adicionados dessa maneira.</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>Defina um Filtro ou Grupo padrão para o widget, passando o mouse sobre uma opção e clicando em <b>Definir como padrão</b>. O padrão atual exibe um símbolo azul <b>Padrão</b> à direita.</p></li>
+      <li><p>Adicione um Filtro, Coluna ou Grupo existente à lista de opções disponíveis clicando no botão de adição na parte inferior de cada lista para adicionar uma opção a ela. Observe que somente Filtros, Campos (para Colunas) ou Grupos existentes podem ser adicionados dessa maneira.</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >
@@ -150,7 +152,13 @@ Para personalizar a Página inicial usando um modelo de layout:
       </tbody> 
       </table>
 
-1. Continue personalizando o modelo de layout.
+1. <span class="preview">No ambiente de Pré-visualização: Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.</span>
+
+   <span class="preview">Ou</span>
+
+   <span class="preview">Se tiver terminado de personalizar, clique em **Salvar e Fechar**.</span>
+
+1. No ambiente de Produção: Continue personalizando o modelo de layout.
 
    Ou
 
