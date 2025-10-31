@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
 
 # Criar modelo a partir do projeto
+
+<!--Audited: 10/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: Keep this article in the Creating and Managing Templates area with the detailed information that this contains. Since this is an article about creating TEMPLATES, this needs to be detailed under Templates; there is a similar article with almost the same title in Managing projects that points to this one - since this functionality is in the UI under Projects, this article must have a presence in that areas as well. Keep both, but make this one the only editable one (iterative))</p>
@@ -89,7 +91,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Criar modelo a partir do projeto
 
 1. Vá para o projeto que deseja salvar como modelo.
-1. Clique no menu **Mais** ![Ícone Mais](assets/qs-more-icon-on-an-object.png) e **Salvar como Modelo**.
+1. Clique no menu **Mais** ![Ícone Mais](assets/more-icon.png) e **Salvar como Modelo**.
 1. Especifique as seguintes informações para o modelo:
 
    <table style="table-layout:auto"> 
@@ -97,7 +99,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Nome</td> 
+      <td role="rowheader">Nome do Modelo</td> 
       <td>Especifique um nome para o modelo.</td> 
      </tr> 
      <tr> 
@@ -112,29 +114,32 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
         <li><strong>Não</strong>: outros usuários não podem encontrar o modelo e não podem anexá-lo a projetos.</li> 
        </ul> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Formulários personalizados</td> 
-      <td>Use a lista suspensa para selecionar qualquer formulário personalizado para anexar ao modelo. Se algum formulário personalizado já tiver sido associado ao projeto, todos os campos de dados desses formulários personalizados serão exibidos.<br>Você pode incluir até 10 formulários personalizados em um único modelo.</td> 
-     </tr> 
     </tbody> 
    </table>
 
-1. Clique em **Gerenciar Forms** para remover ou reordenar os formulários. Para obter informações sobre como remover e reordenar formulários personalizados no modelo, consulte [Formulários personalizados](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Clique em **Forms Personalizado** no painel esquerdo.
+1. Clique no campo **Adicionar formulário personalizado** e comece a digitar o nome de um projeto personalizado para ou selecione um na lista.
 
-   ![Primeira etapa do modelo Salvar como](assets/save-as-template-first-step-350x159.png)
+   Se algum formulário personalizado já estiver associado ao projeto, todas as informações nos campos existentes desses formulários personalizados serão exibidas nos formulários.
 
-1. Clique em **Próxima etapa.**
-1. Na seção **Opções**, marque a caixa de seleção ao lado de qualquer informação que você deseja apagar do modelo.
+   É possível incluir até 10 formulários personalizados em um único modelo.
 
-   ![Salvar como opções de modelo](assets/save-as-template-options-step-350x109.png)
+1. Passe o mouse sobre o nome de um formulário, em seguida, clique para arrastá-lo e soltá-lo em um novo local.
 
-1. Clique em **Próxima etapa.**
-1. Na seção **Excluir**, selecione as tarefas que deseja excluir do projeto.
+   ![Salvar projeto como modelo na parte superior da caixa](assets/save-project-as-template-top-of-the-form.png)
 
-   ![Salvar como exclusão de modelo](assets/save-as-template-exclude-350x205.png)
+1. Clique em **Opções** no painel esquerdo e selecione os campos ou itens que deseja transferir para o modelo.
+
+   Todos os itens são verificados por padrão. Os itens desmarcados não são transferidos para o modelo.
+
+   ![Salvar como opções de modelo](assets/save-project-as-template-options-area.png)
+
+1. Clique em **Excluir** no painel esquerdo e selecione as tarefas que deseja excluir do projeto.
+
+   ![Salvar como exclusão de modelo](assets/save-project-as-template-exclude-area.png)
 
 1. Clique em **Concluir e Salvar Modelo.**
 
-   Seu modelo agora aparece na lista de modelos disponíveis e pode ser anexado a um projeto existente ou usado para criar um novo.
+   Seu modelo agora aparece na lista de modelos disponíveis. Os usuários podem anexar o novo modelo a um projeto existente ou usá-lo para criar um projeto.
 
- 
+

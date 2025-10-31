@@ -6,7 +6,7 @@ description: Você pode importar projetos do Microsoft Project para o Adobe Work
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Importar um projeto do Microsoft Project
 
-<!-- Audited: 4/2025 -->
+<!-- Audited: 10/2025 -->
 
 Você pode importar projetos do Microsoft Project para o Adobe Workfront e gerenciar todos os seus projetos em um único aplicativo. Toda vez que você importa um projeto do Microsoft Project, um novo projeto é criado no Workfront.
 
@@ -103,14 +103,16 @@ Você pode criar um projeto na área **Projetos** do **Menu Principal**, ou na �
 1. Faça logon no Workfront.
 1. Siga um destes procedimentos:
 
-   * Clique no **Menu Principal** ![ícone Menu Principal](assets/main-menu-icon.png) no canto superior direito do Workfront ou clique no **Menu Principal** ![Linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Projetos** e expanda **Novo Projeto**.
+   * Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo ou no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, se disponível, clique em **Projetos** e expanda **Novo Projeto**.
    * Vá para um portfólio e expanda **Novo projeto**.
    * Vá para um programa e expanda **Novo Projeto**.
    * Se você for um administrador de grupo, poderá criar um projeto na seção **Projetos** de um grupo que gerencia. Para obter mais informações, consulte [Criar e modificar projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. Clique em **Importar projeto MS**. A caixa de diálogo **Importar Arquivo MS** é exibida.
+1. Clique em **Importar projeto MS**.
 
    ![Lista suspensa de novos projetos](assets/import-ms-project-option.png)
+
+   A caixa **Importar Arquivo MS** é aberta.
 
 1. Clique em **Selecionar arquivo** e procure o arquivo .xml em seu computador que você exportou do Microsoft Project.
 1. Importar o arquivo selecionado. O Workfront inicia o processo de importação e cria um novo projeto com base no arquivo exportado do Microsoft Project.

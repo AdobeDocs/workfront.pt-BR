@@ -6,16 +6,16 @@ description: Você pode solicitar a aprovação de um projeto antes de começar 
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '557'
 ht-degree: 2%
 
 ---
 
 # Solicitar um projeto
 
-<!--Audited: April 2024-->
+<!--Audited: 10/2025-->
 
 Você pode solicitar a aprovação de um projeto antes de começar a trabalhar nele.
 
@@ -114,10 +114,12 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    * Siga as mesmas etapas para criar um projeto enquanto define um Business Case. (recomendado)
 
-     Para obter informações sobre como definir um Business Case e solicitar um projeto, consulte [Criar um Business Case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     Para obter informações, consulte [Criar um Business Case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
    * Crie um projeto do zero ou usando um modelo e altere o status para **Solicitado**.
 
-     Para obter informações sobre como criar um projeto, consulte [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md) ou [Criar um projeto usando um modelo](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Para obter informações, consulte [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md) ou [Criar um projeto usando um modelo](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   O projeto solicitado tem o status de **Solicitado** e é exibido na guia **Projetos Solicitados** de uma Portfolio, caso você o tenha associado a uma Portfolio. Um gerente de portfólio agora pode revisá-lo e aprová-lo ou rejeitá-lo. Nesse caso, o status do projeto será alterado para **Aprovado** ou **Rejeitado**.
+   O projeto solicitado tem o status de **Solicitado** e é exibido na guia **Projetos Solicitados** de uma Portfolio, caso você o tenha associado a uma Portfolio.
+
+   Um gerente de portfólio agora pode revisá-lo e aprová-lo ou rejeitá-lo. Nesse caso, o status do projeto será alterado para **Aprovado** ou **Rejeitado**.

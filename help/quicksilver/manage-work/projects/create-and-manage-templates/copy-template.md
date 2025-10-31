@@ -6,7 +6,7 @@ description: Além de criar um modelo de projeto do zero, também é possível c
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 3%
@@ -102,7 +102,7 @@ Os itens a seguir nunca são copiados de um modelo existente para um novo:
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. Vá para o template que deseja copiar.
-1. Clique no **Mais** ícone ![Mais](assets/qs-more-icon-on-an-object.png) do menu à direita do nome do modelo no cabeçalho e clique em **Copiar**.
+1. Clique no **Mais** ícone ![Mais](assets/more-icon.png) do menu à direita do nome do modelo no cabeçalho e clique em **Copiar**.
 
    A caixa **Copiar Modelo** é aberta.
 

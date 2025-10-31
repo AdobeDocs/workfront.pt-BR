@@ -6,16 +6,16 @@ description: É possível criar e excluir modelos na área Modelos. Ao criar um 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 3%
+source-wordcount: '648'
+ht-degree: 5%
 
 ---
 
 # Criar um modelo de projeto
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2025 -->
 
 É possível criar e excluir modelos na área Modelos. Ao criar um novo modelo, você pode inserir as informações de todas as tarefas e das configurações futuras do projeto. Essas informações serão transferidas para qualquer projeto criado a partir do modelo.
 
@@ -94,7 +94,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Criar um modelo
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Modelos**.
+{{step1-to-templates}}
 
 1. Clique em **Novo Modelo**.
 
@@ -104,33 +104,69 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Especifique um nome para o novo modelo no cabeçalho do modelo e pressione **Enter.**
 1. Clique na seção **Tarefas de modelo** no painel esquerdo.
-1. Clique Em **Começar A Adicionar Tarefas De Modelo**.
+1. Clique em **Começar a adicionar Modelos de Tarefa** para adicionar tarefas em linha
 
    Ou
 
-   Clique em **Nova Tarefa de Modelo** para começar a adicionar tarefas ao seu modelo.
+   Clique em **Nova Tarefa de Modelo** para começar a adicionar tarefas ao seu modelo na caixa **Nova Tarefa de Modelo**.
 
-   Adicionar tarefas de modelo a um modelo é idêntico a adicionar tarefas a um projeto.
+   ![Caixa Nova Tarefa de Modelo](assets/new-template-task-box.png)
 
-   Para obter mais informações sobre como adicionar tarefas a um projeto, consulte [Criar tarefas em um projeto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+1. Atualize as informações nas seguintes áreas:
+
+   * Visão geral
+   * Finanças
+   * Configurações
+   * Atribuições
+   * Formulários personalizados
+   * Anexar documento
+
+     Atualizar informações para uma tarefa de modelo é semelhante a editar tarefas em um projeto. Para obter mais informações, consulte [Editar tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
    >[!NOTE]
    >
    >Não é possível adicionar tarefas recorrentes a um modelo.
 
-1. (Opcional) Clique no ícone do **Gráfico de Gantt** no canto superior direito da Lista de Tarefas para ver uma representação visual da lista de tarefas do modelo.
+1. Clique em uma das opções a seguir:
+
+   * **Salvar Tarefa de Modelo** para salvar a tarefa de modelo atual e fecha a caixa Nova Tarefa de Modelo.
+   * **Salvar Tarefa de Modelo e Iniciar Outra** para salvar a tarefa de modelo atual e abrir outra caixa Nova Tarefa de Modelo para adicionar outra tarefa.
+   * **Cancelar** para fechar a caixa sem salvar a tarefa de modelo.
+1. (Opcional) Após adicionar as tarefas de modelo, na seção Tarefas de Modelo, clique no ícone **Gráfico de Gantt** no canto superior direito da Lista de Tarefas para ver uma representação visual da lista de tarefas do modelo.
 
    >[!TIP]
    >
    >Não é possível editar tarefas diretamente neste Gráfico de Gantt.
 
-1. Para adicionar informações ao novo modelo, clique no ícone **Mais** do menu ![Mais](assets/more-icon.png) e clique em **Editar**.
+1. Para adicionar informações ao novo modelo, clique no ícone **Mais** do menu ![Mais](assets/more-icon.png) à esquerda do nome do modelo no cabeçalho e clique em **Editar**.
 
    Para obter informações sobre como editar um modelo, consulte [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-1. Clique em **Salvar alterações**.
-1. (Opcional) Se quiser adicionar mais itens ao modelo, consulte a seção [Adicionar mais itens a um modelo](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) no artigo [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   >[!NOTE]
+   >
+   >   A associação de um modelo de projeto a um grupo (ou a falta de um grupo) afeta como as preferências do projeto, da tarefa e do problema determinam determinadas configurações no modelo.
+   >
+   >Para obter mais informações, consulte a seção &quot;Como as preferências se aplicam a modelos e tarefas de modelo&quot; no artigo [Criar e modificar modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
-## Configurações de modelo determinadas pela associação de grupo
+1. Clique em **Salvar**.
+1. (Opcional) Adicione os seguintes itens ao modelo
 
-A associação de um modelo de projeto a um grupo (ou a falta de um grupo) afeta como as preferências do projeto, da tarefa e do problema determinam determinadas configurações no modelo. Para obter mais informações, consulte a seção [Criar e modificar modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates) no artigo [Criar e modificar modelos de projeto de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+   * Documentos
+   * Riscos
+   * Processos de aprovação
+   * Taxas de cobrança
+   * Despesas
+   * Detalhes da fila
+   * Grupos de Tópicos e Tópicos de Fila
+
+1. (Opcional) Adicione os seguintes itens às tarefas no modelo:
+
+   * Documentos
+   * Despesas
+   * Aprovações
+
+   Para obter informações, consulte a seção &quot;Adicionar mais itens a um modelo&quot; no artigo [Editar modelos de projeto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+
+
+

@@ -6,10 +6,10 @@ description: O Modo de rastreamento de uma tarefa determina como o Status de pro
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -102,7 +102,7 @@ Para definir o modo de rastreamento:
    * Usuário deve atualizar (esta é a opção padrão)
    * Assumir Em Dia
    * Ignorar avisos de atrasos
-   * Preenchimento automático
+   * Completar Automaticamente
    * Predecessor
 
    Para obter mais informações sobre as opções de modo de rastreamento, consulte [Visão geral do Modo de Rastreamento de Tarefa](../../../manage-work/tasks/task-information/task-tracking-mode.md)

@@ -6,16 +6,16 @@ description: Você pode usar modelos como uma estrutura para criar projetos no A
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1150'
 ht-degree: 1%
 
 ---
 
 # Criar um projeto usando um modelo
 
-<!-- Audited: 01/2024 -->
+<!-- Audited: 10/2025 -->
 
 Você pode usar modelos como uma estrutura para criar projetos no Adobe Workfront. Se você tiver projetos que se repetem com frequência, usar modelos para a linha do tempo geral do novo projeto evita que você tenha que criar os mesmos projetos repetidamente.
 
@@ -120,7 +120,7 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
 
 1. Siga um destes procedimentos:
 
-   * Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo. Clique em **Projetos** e expanda **Novo projeto**.
+   * Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo ou no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, se disponível, clique em **Projetos** e expanda **Novo Projeto**.
    * Vá para um portfólio e expanda **Novo projeto**.
 
      >[!TIP]
@@ -153,7 +153,7 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
 
    Faça o seguinte:
 
-   1. Selecione **Novo projeto do modelo**.
+   1. Clique em **Novo projeto do modelo**.
    1. No campo **Pesquisar Modelos**, comece digitando o nome de um modelo e clique nele quando ele for exibido na lista.
    1. Revise os detalhes do modelo à direita.
 
@@ -165,7 +165,7 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
       * O número de todas as tarefas no modelo
       * Os nomes dos formulários personalizados do modelo
 
-   1. (Opcional) Passe o mouse sobre o nome de um modelo no painel esquerdo e clique no **ícone de** Favoritos **&#x200B;**&#x200B;![ícone de Favoritos](assets/favorites-icon-small.png) para marcá-lo como favorito para uso futuro.
+   1. (Opcional) Passe o mouse sobre o nome de um modelo no painel esquerdo e clique no **ícone de** Favoritos **** ![ícone de Favoritos](assets/favorites-icon-small.png) para marcá-lo como favorito para uso futuro.
 
       Ou
 
@@ -179,19 +179,25 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
 
       ![Detalhes do modelo](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
+      <!--no longer available, after unshimming - Oct 2025:
       >[!NOTE]
       >
-      >Se você tiver o Modo de Exibição de Marco aplicado à lista de projetos, clique no nome de um modelo na **seção Novo a partir do Modelo**.
+      >If you have the Milestone View applied to the list of projects, click the name of a template in the **New from Template section**.
       >
       >
-      >![Modo de exibição de Marco da criação de um projeto a partir de um modelo](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >![Milestone view of creating a project from a template](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
       >
+      -->
 
    A caixa **Novo Projeto** é aberta.
 
    ![Nova caixa de projeto](assets/new-project-from-template-box.png)
 
-1. Se um campo já estiver preenchido no modelo, ele será preenchido na caixa **Novo projeto**. É possível editar os valores pré-preenchidos para melhor corresponder ao seu projeto. Para obter mais informações, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. (Condicional) Se um campo já estiver preenchido no modelo, ele será preenchido na caixa **Novo projeto**.
+
+   Edite os valores pré-preenchidos para que correspondam melhor ao seu projeto.
+
+   Para obter mais informações, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 1. Clique em **Criar projeto**.
 
    Todos os detalhes definidos no modelo são associados automaticamente ao projeto recém-criado se você não os alterou na etapa anterior.
@@ -203,17 +209,21 @@ Em vez de começar na área Projetos, você pode criar um projeto a partir de um
 {{step1-to-templates}}
 
 1. Clique no nome de um modelo que deseja usar.
-1. Clique no menu **Mais** ![Ícone Mais](assets/more-icon.png) e em **Criar Projeto**.
+1. Clique no **Mais** ícone ![Mais](assets/more-icon.png) do menu à direita do nome do modelo no cabeçalho e clique em **Criar projeto**.
 
    ![Criar projeto a partir do modelo](assets/project-sharing-on-template.png)
 
    A caixa **Novo Projeto** é aberta.
 
-1. Insira um nome para o projeto, revise cada seção e faça as alterações necessárias.
+1. Insira um nome para o projeto. O Workfront usa o nome do modelo para nomear o novo projeto.
+
+1. Revise cada seção na caixa **Novo projeto** e faça as alterações necessárias.
 
    ![Nova caixa de projeto](assets/new-project-from-template-box.png)
 
-   Se um campo já estiver preenchido no modelo, ele será preenchido na caixa **Novo projeto**. É possível editar os valores pré-preenchidos para melhor corresponder ao seu projeto. Para obter mais informações, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Se um campo já estiver preenchido no modelo, ele será preenchido na caixa **Novo projeto**. É possível editar os valores pré-preenchidos para melhor corresponder ao seu projeto.
+
+   Para obter informações, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Clique em **Criar projeto**.
 
