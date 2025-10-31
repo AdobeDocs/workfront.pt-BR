@@ -384,7 +384,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
 
    &lt;!- recuar os marcadores abaixo mais uma vez no lançamento para mostrar Prod e, em seguida, outro marcador novo para Visualização:
    1. (Condicional) Dependendo do ambiente a partir do qual você acessa a tarefa, faça o seguinte:
-   1. <!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
+   1. &#x200B;<!--In the Production environment,AND ADD THIS TO THE STEP BELOW-->
 
 1. Clique em **Pesquisar pessoas, funções e equipes** e comece a digitar o nome de um usuário, função ou equipe que deseja atribuir à tarefa, em seguida, clique nele ou pressione Enter quando ele for exibido na lista.
 
