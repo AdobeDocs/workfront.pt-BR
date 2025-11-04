@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 8f5cd4125281bb00331c4dc895cc57b138190cfe
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
-source-wordcount: '3031'
+source-wordcount: '3060'
 ht-degree: 3%
 
 ---
@@ -60,6 +60,7 @@ Os seguintes objetos do Workfront são suportados por assinaturas de evento.
 * Empresa
 * Painel
 * Documento
+* Versão do Documento
 * Despesa
 * Campo
 * Hour
@@ -68,9 +69,16 @@ Os seguintes objetos do Workfront são suportados por assinaturas de evento.
 * Portfólio
 * Programa
 * Projeto
+* Aprovação da revisão
 * Registro
 * Tipo de registro
 * Relatório
+* Plano de recrutamento
+* Valor do Parâmetro do Plano de Pessoal
+* Recurso do plano de recrutamento
+* Valor do Atributo de Recurso do Plano de Pessoal
+* Conjunto de Valores de Atributo de Recurso do Plano de Pessoal
+* Valor do Parâmetro de Recursos do Plano de Pessoal
 * Tarefa
 * Modelo
 * Planilha de horas
@@ -816,7 +824,7 @@ Esse conector faz com que o filtro se aplique ao novo estado ou ao estado antigo
 >[!NOTE]
 >
 >A assinatura abaixo com o filtro fornecido só retornará mensagens em que o nome da tarefa contém `again` no `oldState`, qual era antes de uma atualização ser feita na tarefa.
->&#x200B;>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
+>Um caso de uso para isso seria encontrar as mensagens objCode que mudaram de uma coisa para outra. Por exemplo, para descobrir todas as tarefas que foram alteradas de &quot;Pesquisar algum nome&quot; para &quot;Pesquisar nome da equipe Algum nome&quot;
 
 ```
 {

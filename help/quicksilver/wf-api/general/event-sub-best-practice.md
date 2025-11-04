@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
+source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -42,9 +42,9 @@ Tente concluir todos os testes de assinatura dentro do período de carência de 
 
 Verifique se o endpoint de sua assinatura está em conformidade com os Requisitos de Entrega de Mensagem de Assinatura de Evento Padrão. Para saber mais sobre esses requisitos, consulte [Requisitos de entrega de assinatura de evento](../../wf-api/general/setup-event-sub-endpoint.md).
 
-## ➡ Incluir na lista de permissões endereços IP por região global
+## Incluir na lista de permissões endereços IP por região global
 
-Para receber payloads de subscrições de evento por meio do firewall, você deve adicionar os endereços IP à inclui na lista de permissões por região global. Para saber mais, consulte [API de Assinatura de Evento](../../wf-api/general/event-subs-api.md).
+Para receber payloads de assinatura de evento por meio do firewall, você deve adicionar os endereços IP ao incluo na lista de permissões por região global. Para saber mais, consulte [API de Assinatura de Evento](../../wf-api/general/event-subs-api.md).
 
 ## Ter o nível de acesso e a autenticação certos
 
@@ -53,6 +53,4 @@ Para criar, consultar ou excluir uma Assinatura de Evento, o usuário do Workfro
 * Um nível de acesso de **Administrador do Sistema**
 Para saber mais, consulte [Conceder a um usuário acesso administrativo total](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) ou [Conceder aos usuários acesso administrativo a determinadas áreas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-* Um cabeçalho `sessionID` é necessário para usar a API de Assinaturas de Eventos
-
-  Para obter mais informações, consulte [Autenticação](api-basics.md#authentication) em [Noções básicas sobre API](api-basics.md).
+* Se sua organização usar o Adobe IMS (Identity Management System), inclua um token de usuário IMS transmitido no cabeçalho `X-User-Token`.
