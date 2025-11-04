@@ -6,9 +6,9 @@ description: Salve um projeto como um modeloSalve como modelo" no nível do proj
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '485'
 ht-degree: 1%
 
 ---
@@ -159,7 +159,7 @@ Saving a project as a template differs in the Production and the Preview environ
 -->
 
 1. Vá para o projeto que deseja salvar como modelo.
-1. Clique no menu **Mais** ![Ícone Mais](assets/qs-more-icon-on-an-object.png) e **Salvar como Modelo**.
+1. Clique no menu **Mais** ![Ícone Mais](assets/qs-more-icon-on-an-object.png) à direita do nome do projeto no cabeçalho e **Salvar como Modelo**.
 1. Na seção **Salvar como Modelo**, especifique as seguintes informações para o modelo:
 
    <table style="table-layout:auto"> 

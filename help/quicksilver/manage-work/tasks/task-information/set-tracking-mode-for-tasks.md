@@ -6,9 +6,9 @@ description: O Modo de rastreamento de uma tarefa determina como o Status de pro
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '194'
 ht-degree: 6%
 
 ---
@@ -85,8 +85,6 @@ Para obter informações sobre o Modo de Acompanhamento nas tarefas, consulte [V
 -->
 
 ## Definir modo de rastreamento para tarefas
-
-Para definir o modo de rastreamento:
 
 1. Vá para a tarefa para a qual deseja definir o modo de rastreamento.
 1. Clique no ícone **Mais** ![](assets/qs-more-icon-on-an-object.png)ao lado do nome da tarefa e clique em **Editar**.

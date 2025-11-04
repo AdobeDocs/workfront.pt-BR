@@ -7,22 +7,34 @@ description: Após criar um modelo, você pode editar as informações sobre as 
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
 workflow-type: tm+mt
-source-wordcount: '2498'
-ht-degree: 4%
+source-wordcount: '2631'
+ht-degree: 3%
 
 ---
 
 # Editar uma tarefa de modelo
 
-<!--Audited: 09/2024-->
+<!--Audited: 11/2025-->
+
+<!--take out production and preview references and new/ old experiences at release-->
+
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
 
 Após criar um modelo, você pode editar as informações das tarefas do modelo. As informações atualizadas em uma tarefa de modelo são associadas às tarefas do projeto depois de usar o modelo para criar um projeto ou anexar o modelo a um projeto.
 
 Para obter informações sobre como criar um modelo, consulte [Criar um modelo de projeto](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
-Você pode editar tarefas de modelo ou editar tarefas de modelo em massa.
+É possível editar uma tarefa de modelo por vez ou editar tarefas de modelo em massa.
 
 >[!NOTE]
 >
@@ -94,32 +106,37 @@ Antes de começar, você deve
 
   Para obter informações sobre como criar um modelo, consulte [Criar um modelo de projeto](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
-## Editar tarefa de modelo
+## Editar modelos de tarefa
 
-É possível editar um modelo de tarefa usando as áreas Editar Modelo de Tarefa ou Detalhes do Modelo de Tarefa. As etapas a seguir descrevem a edição de uma tarefa na caixa Editar Tarefa de Modelo.
+É possível editar um modelo de tarefa usando as áreas Editar Modelo de Tarefa ou Detalhes do Modelo de Tarefa.
 
 {{step1-to-templates}}
 
 1. Clique no nome de um template para abri-lo.
 1. Clique em **Tarefas de modelo** no painel esquerdo.
 1. Clique no nome de uma tarefa de modelo na lista para abrir a tarefa de modelo.
-1. (Opcional) Clique na seção **Predecessores** no painel esquerdo para adicionar predecessores às tarefas de modelo. Adicionar predecessoras de tarefas de modelo é semelhante a adicionar predecessoras de tarefas de projeto. Para obter informações, consulte [Criar uma relação predecessora usando a área Predecessoras](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
-1. (Opcional) Clique na seção **Subtarefas** no painel esquerdo para adicionar filhos à tarefa de modelo. Adicionar subtarefas para tarefas de modelo é semelhante a adicionar subtarefas de tarefas de projeto. Para obter informações, consulte a seção &quot;Criar subtarefas a partir da seção de subtarefas de tarefas&quot; no artigo [Criar subtarefas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+1. Para editar informações limitadas sobre a tarefa de modelo, faça o seguinte:
+   1. (Opcional) Clique em **Atualizações** no painel esquerdo para adicionar atualizações à tarefa de modelo. As atualizações de modelos de tarefa não são transferidas para tarefas do projeto quando o modelo é usado para criar um projeto.
+   1. (Opcional) Clique em **Documentos** no painel esquerdo para adicionar documentos à tarefa de modelo. Os documentos serão transferidos para as tarefas do projeto quando você usar o modelo para criar o projeto.
+   1. (Condicional) Para editar informações limitadas sobre uma tarefa de modelo, clique em **Detalhes da Tarefa de Modelo** no painel esquerdo e vá para as áreas da seção Detalhes para editar as informações de cada área.
+   1. (Opcional) Siga qualquer um destes procedimentos:
+      * Clique no ícone **Recolher tudo** ![Recolher todo o ícone](assets/collapse-all-icon.png) para recolher todas as áreas.
+      * Clique no ícone **Editar** ![Editar ícone](assets/edit-icon.png) e selecione qualquer uma das áreas abaixo ou clique em **Editar tudo** para editar informações em todas as áreas:
 
-1. (Condicional) Para editar informações limitadas sobre uma tarefa de modelo, clique em **Detalhes da Tarefa de Modelo** no painel esquerdo e vá para as áreas da seção Detalhes para editar as informações de cada área.
-1. (Opcional) Clique no ícone **Recolher tudo** ![Recolher tudo](assets/collapse-all-icon.png) para recolher todas as áreas.
-1. Para editar informações na seção Detalhes, clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) e selecione uma das áreas abaixo ou clique em **Editar tudo** para editar informações em todas as áreas:
+         * Visão geral
+         * Forms personalizado
+Os nomes dos formulários de alfândega são exibidos somente se houver formulários personalizados anexados à tarefa de modelo.
+         * Finanças
 
-   * Visão geral
-   * Formulários personalizados
+        >[!TIP]
+        >
+        >Para obter informações sobre todos os campos exibidos na área Detalhes, continue editando todos os campos usando a caixa Editar Tarefa de Modelo, conforme descrito abaixo.
 
-     Os nomes dos formulários de alfândega são exibidos somente se houver formulários personalizados anexados ao objeto.
+   1. (Opcional) Clique na seção **Subtarefas** no painel esquerdo para adicionar filhos à tarefa de modelo. Adicionar subtarefas para tarefas de modelo é semelhante a adicionar subtarefas de tarefas de projeto. Para obter informações, consulte a seção &quot;Criar subtarefas a partir da seção de subtarefas de tarefas&quot; no artigo [Criar subtarefas](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+   1. (Opcional) Clique em **Despesas** no painel esquerdo e adicione despesas às tarefas do modelo. As despesas da tarefa de modelo transferem para tarefas de projeto futuras, quando o modelo é usado para criar um projeto.
+   1. (Opcional) Clique em **Aprovações** no painel esquerdo para criar aprovações ou anexar aprovações globais ou de nível de grupo às tarefas de modelo. As aprovações são transferidas para tarefas futuras do projeto.
+   1. (Opcional) Clique na seção **Predecessores** no painel esquerdo para adicionar predecessores às tarefas de modelo. Adicionar predecessoras de tarefas de modelo é semelhante a adicionar predecessoras de tarefas de projeto. Para obter informações, consulte [Criar uma relação predecessora usando a área Predecessoras](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
 
-   * Finanças
-
-   >[!TIP]
-   >
-   >Para obter informações sobre todos os campos exibidos na área Detalhes, continue editando todos os campos usando a caixa Editar Tarefa de Modelo, conforme descrito abaixo.
 1. (Opcional) Para editar várias tarefas de modelo em massa, selecione várias tarefas de modelo e clique em **Editar** na parte superior da lista de modelos.
 1. (Condicional) Para editar todas as informações sobre a tarefa de modelo ou sobre várias tarefas ao mesmo tempo, clique para selecioná-las em uma lista e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png) na parte superior da lista.
 
@@ -127,10 +144,11 @@ Antes de começar, você deve
 
    >[!TIP]
    >
-   >Você também pode selecionar uma tarefa de modelo em uma lista e clicar em Editar para abrir a caixa Editar tarefa de modelo.
+   >Você também pode selecionar uma tarefa de modelo em uma lista e clicar em **Editar** à direita do nome da tarefa de modelo no cabeçalho, para abrir a caixa **Editar Tarefa de Modelo**.
 
    ![Editar tarefa de modelo](assets/edit-template-tasks-box-classic-350x356.png)
 
+   <!--1. (Conditional) In the Production environment, -->
 1. Considere especificar informações em qualquer uma das seguintes seções:
 
    * [Visão geral](#overview)
@@ -139,6 +157,16 @@ Antes de começar, você deve
    * [Atribuições](#assignments)
    * [Formulários personalizados](#custom-forms)
    * [Comentário](#comment)
+
+<!--1. Continue editing the template task as described in the Edit a template task using the old experience section in this article (********add hashtag anchor here*******)-->
+
+<!--1. <span class="preview">(Conditional) In the Preview environment, click **Try new experience** in the upper-right corner of the **Edit Template Task** box </span>, then continue editing the template task as described in the Edit a template task using the new experience section in this article (********add hashtag anchor here*******).</span>
+1. (Optional) Click **Switch back to old experience** at the bottom of the Edit Template Task box  
+-->
+
+
+<!--### Edit a template task using the old experience
+(and make all the headers below "####")-->
 
 ### Visão geral {#overview}
 
@@ -416,3 +444,332 @@ Os formulários são adicionados automaticamente às tarefas criadas a partir do
 1. Clique em **Salvar alterações**.
 
    Quando você ou outro usuário cria um projeto a partir desse modelo, todas as configurações aplicadas às tarefas do modelo se tornam as configurações para as tarefas do projeto.
+
+<!--
+<div class="preview"> 
+
+### Edit a template task using the new experience
+
+Consider specifying information in any of the following sections:
+
+   * [Template task name](#template-task-name)
+   * [Overview](#overview-1)
+   * [Assignments](#assignments-1)
+   * [Finance](#finance-1)
+   * [Custom Forms](#custom-forms-1)
+   * [Settings](#settings-1)
+   * [Comment](#comment-1)
+
+#### Template Task Name
+
+1. Begin editing a template task as described above.
+1. In the Edit Template Task box, click **Template Task Name** and add a name for the template task. 
+
+   This view is not available when editing template tasks in bulk. 
+
+1. (Optional) Continue editing the following sections, depending on the information you want to modify.
+
+   Or
+
+   Click **Save**. 
+
+#### Overview {#overview-1}
+
+1. Begin editing a template task as described above.
+1. In the **Edit Template Task** box, click **Overview** in the left panel. 
+
+   ![Template task edit overview section](assets/template-task-edit-overview.png)
+
+1. Update any of the following:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Description</strong> </td> 
+      <td>Add additional information about the template task.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Priority</strong> </td> 
+      <td> <p>This is a visual flag for you which allows you to prioritize your template tasks. </p> <p>Select from the following options:</p> 
+       <ul> 
+        <li> <p><strong>None</strong> </p> </li> 
+        <li> <p><strong>Low</strong> </p> </li> 
+        <li> <p> <b>Normal</b></p> </li> 
+        <li> <p><b>High</b> </p> </li> 
+        <li> <p><b>Urgent</b> </p> </li> 
+       </ul> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Create and customize priorities</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Task Constraint</strong> </td> 
+      <td> <p>The task on the project created from this template will have this constraint. Task Constraints identify when a task must be completed. </p> <p>Select from the following options:</p> 
+       <ul> 
+        <li><strong>Fixed Dates</strong>. Specify a <strong>Planned Start</strong> and a <strong>Planned Completion Date.</strong></li> 
+        <li><strong>Must Start On</strong>. Specify a <strong>Planned Start Date.</strong></li> 
+        <li><strong>Must Finish On</strong>. Specify a <strong>Planned Completion Date</strong>.</li> 
+        <li><strong>As Soon as Possible</strong> </li> 
+        <li><strong>As Late as Possible</strong> </li> 
+        <li style="font-weight: bold;"><strong>Earliest Available Time</strong> </li> 
+        <li style="font-weight: bold;"><strong>Latest Available Time</strong> </li> 
+        <li>Start No Later Than. Specify a <strong>Planned Start Date</strong>.</li> 
+        <li><strong>Start No Earlier Than</strong>. Specify a <strong>Planned Start Date</strong>.</li> 
+        <li><strong>Finish No Later Than</strong>. Specify a <strong>Planned Completion Date</strong>.</li> 
+        <li><strong>Finish No Earlier Than</strong>. Specify a <strong>Planned Completion Date</strong>.</li> 
+       </ul> <p>For more information on Task Constraint, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span style="font-weight: bold;">Start Day</span><span style="font-weight: normal;"> (Optional and conditional)</span> </td> 
+      <td> <p> You can specify the Start Day of a template task only when the Task&nbsp;Constraint is one of the following:</p> 
+       <ul> 
+        <li>Must Start On</li> 
+        <li>Start No&nbsp;Earlier Than</li> 
+        <li>Start No Later Than</li> 
+        <li>Fixed Dates</li> 
+       </ul> <p>This will correspond to the date within the timeline of the future project when the task will start. For all other constraints, Workfront calculates the Start Day based on predecessor dependency between the tasks. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Completion Day</strong><span style="font-weight: normal;"> (Optional and conditional)</span> </td> 
+      <td> <p> You can specify the Completion Day of a template task only when the Task Constraint is one of the following:</p> 
+       <ul style="list-style-type: circle;"> 
+        <li>Must Finish On</li> 
+        <li>Finish No Earlier Than</li> 
+        <li>Finish No Later Than</li> 
+        <li>Fixed Dates</li> 
+       </ul> <p>This will correspond to the date within the timeline of the future project when the task will complete. For all other constraints, Workfront calculates the Completion Day based on Duration and predecessor dependency. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>URL</strong> </td> 
+      <td>Specify a web link that relates to the information about the template task.</td> 
+     </tr> 
+
+     <tr> 
+      <td role="rowheader"><strong>Work Effort</strong> </td> 
+      <td>Choose from the following options:
+      <ul><li>Small</li>
+      <li>Medium</li>
+      <li>Large</li></ul>
+
+      <p><b>IMPORTANT</b></p>
+      <p>The Work Effort field displays when editing a template task only when you select the <b>Use Work Effort to automatically calculate task Planned Hours</b> setting when editing the template.</p>
+
+      </td> 
+     </tr> 
+     </tbody> 
+   </table>
+
+1. (Optional) Continue editing the following sections, depending on the information you want to modify.
+
+   Or
+
+   Click **Save**.
+
+#### Assignments {#assignments-1}
+
+1. Begin editing a template task as described above.
+1. In the **Edit Template Task** box, click **Assignments** in the left panel.
+
+   ![Template task edit assignments](assets/template-task-edit-assignments.png)
+
+1. In the Search people, role, or teams field, start typing the name of an assignee, then select it when it displays in the list
+
+   Or
+
+   Click **Assign to me** to assign the template task to yourself.
+1. Consider updating the following information: 
+
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+
+<tr> 
+      <td role="rowheader"><strong>Duration Type</strong> </td> 
+      <td> <p>The future task created from this template will have this Duration Type. <br>The Duration Type identifies the relationship between the following:</p> 
+      <ul>
+      <li><p>Number of resources assigned to a task</p> </li>
+      <li><p>The total effort required to complete the task</p></li> 
+      <li><p>The total duration of the task </p></li></ul> <p>Using Duration Types, you can set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> <p>Select from the following options:</p> 
+       <ul> 
+        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Calculated Assignment</span> </p> </li> 
+        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Calculated Work</span> </p> </li> 
+        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Effort Driven</span> </p> </li> 
+        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Simple</span> <br> </p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Duration</strong> </td> 
+      <td> <p>Specify the Duration of the future tasks, in minutes, hours, days, weeks, or months. The future task created from this template will have the Duration specified here.</p> <p>By default, Workfront measures Duration in days. This is the amount of time that you allow for the task to remain incomplete, before it must be completed. You cannot specify the Duration of a task when the <strong>Duration Type</strong> of the task is <strong>Simple</strong>, or when the <strong>Task Constraint</strong> is <strong>Fixed Dates</strong>.</p> <p><b>IMPORTANT</b></p> <p>Duration is typically the amount of time between the Planned Start and the Planned Completion Dates of a template task, and for this reason, it affects the timeline of the template. This determines the timeline of the future project created from the template. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Planned Hours</strong> </td> 
+      <td> <p>Specify the number of Planned Hours for the future task on the project created with this template. This is the amount of actual time it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the <strong>Duration Type</strong> is set to <strong>Calculated Assignment</strong>. </p> </td> 
+     </tr> 
+  </tbody> 
+   </table>
+
+1. (Optional) Continue editing the following sections, depending on the information you want to modify.
+
+   Or
+
+   Click **Save**.
+
+#### Finance {#finance-1}
+
+1. Begin editing a template task as described above.
+1. In the **Edit Template Task** box, click **Finance** in the left panel.
+
+   ![Template task edit finance section](assets/template-task-edit-finance.png)
+
+1. Update any of the following:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Cost Type</strong> </td> 
+      <td> <p>Specify the Cost Type for the future task. This is going to determine how the Cost on the task is calculated, based on the number of hours on the tasks. </p> <p>Select from the following options:</p> 
+       <ul> 
+        <li> <p style="font-weight: normal;"><span>No Cost</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>Fixed Hourly</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>User Hourly</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>Role Hourly</span> </p> </li> 
+       </ul> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Revenue Type</strong> </td> 
+      <td> <p>Specify the Revenue Type for the future task. This is going to determine how the Revenue on the task is calculated, based on the number of hours on the tasks.</p> <p style="font-weight: normal;">Select from the following options: </p> 
+       <ul> 
+        <li> <p style="font-weight: normal;">Not Billable</p> </li> 
+        <li> <p style="font-weight: normal;">User Hourly</p> </li> 
+        <li> <p style="font-weight: normal;">Role Hourly</p> </li> 
+        <li> <p style="font-weight: normal;">Fixed Hourly</p> </li> 
+        <li> <p style="font-weight: normal;">User Hourly w/Cap</p> </li> 
+        <li> <p style="font-weight: normal;">Role Hourly w/Cap</p> </li> 
+        <li> <p style="font-weight: normal;">User Hourly Plus Fixed</p> </li> 
+        <li> <p style="font-weight: normal;">Role Hourly Plus Fixed</p> </li> 
+        <li> <p style="font-weight: normal;">Fixed Revenue</p> </li> 
+       </ul> <p>For more information about tracking revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Continue editing the following sections, depending on the information you want to modify.
+
+   Or
+
+   Click **Save**.
+
+
+#### Custom Forms {#custom-forms}
+
+You can define custom forms to be automatically attached by default to tasks when the tasks are added to a project. For information about setting up the project to include default task custom forms, see the "Tasks" section in the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+You can also add custom forms to the future tasks of a project when the project is created from a template, by adding the custom forms to the template tasks. 
+
+1. Begin editing a template task as described above.
+1. In the **Edit Template Task** box, click **Custom Forms** in the left panel.
+
+   ![Template task edit custom forms section](assets/template-task-edit-custom-forms.png)
+
+1. Select the custom form or forms that you want to associate with the template task. 
+
+   You must build the custom forms before they are available to select in this field. 
+   Only active custom forms display in the list. 
+
+   For more information about building custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
+
+   You can add up to ten custom forms to a template task. 
+   The forms are automatically added to the tasks created from the template. 
+1. (Conditional and optional) If you attached a custom form to the template task, edit any fields on the form. You must specify all required fields before you can save the template task.
+
+   >[!NOTE]
+   >
+   >Depending on how your Workfront administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the template task or the future task.   
+   >For information about setting permissions on sections of a custom form, see [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).   
+   >For information about setting task permissions, see [Share a task](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).   
+   >For information about setting template permissions, see [Share a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+
+1. (Optional) Continue editing the following section, depending on the information you want to modify.
+
+   Or
+
+   Click **Save**.
+
+#### Settings {#settings-1}
+
+1. Begin editing a template task as described above.
+1. In the **Edit Template Task Box**, click **Settings** in the left panel.
+
+   ![Template task edit settings section](assets/template-task-edit-settings.png)
+
+1. Update any of the following:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+   <tr> 
+      <td role="rowheader"><p><b>Milestone</b></p></strong> </td> 
+      <td> <p>Choose a milestone to associate with the selected template task.</p>
+      
+   <p><b>IMPORTANT</b></p>
+   <p>You must associate a milestone path with a template for this field to display. For more information, see <a href="../create-and-manage-templates/edit-templates.md">Edit project templates</a>.</p> 
+   </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Tracking Mode</strong> </td> 
+      <td> <p>Specify how the progress status of the future task will be tracked. </p> <p>Select from the following options:</p> 
+       <ul> 
+        <li> <p><strong>User Must Update</strong> </p> </li> 
+        <li> <p><strong>Assume on Time</strong> </p> </li> 
+        <li> <p><strong>Ignore Late Warnings</strong> </p> </li> 
+        <li> <p><strong>Autocomplete</strong> </p> </li> 
+        <li> <p><strong>Predecessor</strong> </p> </li> 
+       </ul> <p>For more information about the Tracking Mode on tasks, see <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Task Tracking Mode overview</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Reminder Notifications</strong> </td> 
+      <td> <p>Select which Reminder Notifications you would like to attach to the template task. They will be attached to the future tasks on the project created from this template. Your system administrator must configure Reminder Notifications before you can select them on a task. For more information about configuring Reminder Notifications, see <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Set up reminder notifications</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Approval Process</strong> </td> 
+      <td> <p>Select the approval process you want to associate with the template task. Your Workfront administrator must define system-level task Approval Processes before you can associate them with template tasks. <span>A user with administrative access to Approval processes can also create group-specific approval processes.</span> For more information about creating approval processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.</p> <p>Consider the following when adding approval processes: </p> 
+       <ul> 
+       <li>Only active approval processes display in the list. </li> 
+       <li> <p>System-wide and group-specific approval processes display in the list. Approval processes associated with a group other than that of the template do not display in the list.</p> <p>Important: If the group associated with the template changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
+       <li> <p>If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. For information, see <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>. </p>  </li> 
+       <li> <p>When bulk-editing template tasks, the following scenarios exist:</p> 
+       <ul> 
+       <li> <p>When you select template tasks from the same template group, both system-level and group-level approval processes display in this field.</p> </li> 
+       <li> <p>When you select template tasks from different template groups, only system-level approval processes display in this field.</p> </li> 
+       <li> <p>When any of the template tasks has a single-use approval process attached, it is replaced by the system-level <span>or group-level approval process</span> you select. </p> </li> 
+       </ul> </li> 
+       </ul> </td> 
+     </tr> 
+     
+    </tbody> 
+   </table>
+
+1. (Optional) Continue editing the following sections, depending on the information you want to modify.
+
+   Or
+
+   Click **Save**.
+
+#### Comment {#comment-1}
+
+1. Begin editing a template task as described above.
+1. In the **Edit Template Task** box, click **Comment** in the left panel.
+
+   ![Template task edit Comment section](assets/template-task-edit-comment.png)
+
+1. In the **Add an update to the template task** area, specify a comment that you want to display in the updates stream of the template task in the available field. This comment is visible for everyone with View access to the template and the template task and with access to view Notes.
+1. Click **Save**.
+
+   When you or another user creates a project from this template, all settings you applied to template tasks become the settings for the project tasks.
+
+</div>
+
+-->
