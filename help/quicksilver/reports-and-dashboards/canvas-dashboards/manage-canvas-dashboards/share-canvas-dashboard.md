@@ -6,9 +6,9 @@ description: Você pode compartilhar um painel do Canvas com outros usuários do
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->&#x200B;>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -93,6 +93,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Na página **Painéis da Tela**, selecione o painel que deseja compartilhar.
 
 1. No canto superior direito da página, clique no botão **Compartilhar**. A caixa de diálogo **Compartilhamento de Painel** é exibida.
+
+   ![Botão Compartilhar](assets/share-button.png)
 
 1. No campo **Conceder acesso a**, comece digitando o nome de um usuário, equipe, função, grupo ou empresa específico com o qual deseja compartilhar o Painel da Tela, em seguida, selecione-o quando ele aparecer na lista suspensa.
 

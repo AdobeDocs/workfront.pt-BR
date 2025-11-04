@@ -5,9 +5,9 @@ description: O recurso Integridade do projeto utiliza o poder do Assistente de I
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
+source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1965'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ O Assistente de IA fornece uma avaliação rápida da condição geral de um pro
 * Em Risco
 * Com problemas
 
-Esse estado é calculado usando os componentes do projeto e do programa, como progresso do projeto, trabalho subestimado e muito mais. Para obter uma lista completa dos componentes usados para medir a Integridade do Projeto, consulte a seção [Lista de estados do projeto e do programa](#project-and-program-states-list).
+Esse estado é calculado usando componentes do projeto, como progresso do projeto, trabalho subestimado e muito mais. Para obter uma lista completa dos componentes usados para medir a Integridade do Projeto, consulte a seção [Lista de estados do projeto e do programa](#project-and-program-states-list).
 
 A cada componente do projeto é atribuída uma pontuação de risco numérica que vai de (0 a 100), cuja média é criada para criar o estado geral de Integridade do projeto:
 
@@ -110,7 +110,7 @@ No primeiro exemplo, quatro componentes de projeto são avaliados e suas pontua�
 * 1 Em Risco (45 pontuação de risco)
 * 1 Em Problema (pontuação de risco 20)
 
-Quando você calcula a média dessas pontuações, o resultado é 61. Usando os critérios do estado de Integridade do Projeto listados acima, este projeto será colocado no estado Em Risco.
+Quando você calcula a média dessas pontuações, o resultado é 61. Usando os critérios de Integridade do Projeto listados acima, este projeto será colocado no estado Em Risco.
 
 No próximo exemplo, uma alteração de agendamento de 1 dia ocorreu no início da linha do tempo do projeto. Neste cenário, o Assistente de IA avalia o tempo e o impacto da alteração em relação à duração geral do projeto:
 
