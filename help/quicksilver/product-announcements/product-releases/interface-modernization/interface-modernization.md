@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c17a50542553db5b836ff82f3d0c6ed93ae3c3ad
+source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
 workflow-type: tm+mt
-source-wordcount: '8980'
+source-wordcount: '8992'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,11 @@ Para obter informações, consulte [Criar e editar riscos em projetos](/help/qui
 
 **Versão de visualização: 23 de outubro de 2025; Versão de produção para todos os clientes: iniciando a semana de 30 de outubro de 2025**
 
-<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. -->
+<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. It was released to Preview again on Oct 23 and Prod rollout started Oct 30. Then it was removed from Prod again on Nov 4. -->
+
+>[!NOTE]
+>
+>Esse recurso foi removido temporariamente do ambiente de Produção do em 4 de novembro de 2025.
 
 Atualizamos a aparência do calendário de folga pessoal, incluindo a capacidade de delegar aprovações, para corresponder a outras áreas do aplicativo.
 
