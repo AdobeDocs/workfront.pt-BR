@@ -5,10 +5,10 @@ description: O recurso Integridade do projeto utiliza o poder do Assistente de I
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: 5ce0206c8a7e596dac0bfdf836ca51c2cdbd1d0d
+source-git-commit: 8ece3c614febb6f480b352323721bcc9dcc940b6
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 2%
+source-wordcount: '1969'
+ht-degree: 1%
 
 ---
 
@@ -81,6 +81,107 @@ Para ativar o Assistente de IA e a Integridade do projeto para sua organização
 
 Para obter mais informações, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) e [Configurar preferências do sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
+## Como a integridade do projeto é calculada
+
+O Assistente de IA fornece uma avaliação rápida da condição geral de um projeto, atribuindo a ele um dos estados de Integridade do projeto disponíveis:
+
+* No Prazo
+* Em Risco
+* Com problemas
+
+Esse estado é calculado usando os componentes do projeto e do programa, como progresso do projeto, trabalho subestimado e muito mais. Para obter uma lista completa dos componentes usados para medir a Integridade do Projeto, consulte a seção [Lista de estados do projeto e do programa](#project-and-program-states-list).
+
+A cada componente do projeto é atribuída uma pontuação de risco numérica que vai de (0 a 100), cuja média é criada para criar o estado geral de Integridade do projeto:
+
+* No Target (75 ou superior): o desempenho do projeto está dentro dos limites esperados.
+* Em risco (50-74): são detectados problemas emergentes que podem afetar o desempenho do projeto.
+* Em Problema (49 ou menos): o desempenho do projeto está abaixo dos limites aceitáveis e requer atenção imediata.
+
+>[!NOTE]
+>
+>* Atualmente, o Assistente de IA avalia somente os dados do projeto selecionado.
+>* A análise entre projetos ou histórica ainda não está incluída no cálculo da Integridade do Projeto.
+
+### Exemplos de cálculo da Integridade do projeto para um projeto
+
+No primeiro exemplo, quatro componentes de projeto são avaliados e suas pontuações de risco individuais são calculadas da seguinte maneira:
+
+* 2 No Target (pontuação de risco 90)
+* 1 Em Risco (45 pontuação de risco)
+* 1 Em Problema (pontuação de risco 20)
+
+Quando você calcula a média dessas pontuações, o resultado é 61. Usando os critérios do estado de Integridade do Projeto listados acima, este projeto será colocado no estado Em Risco.
+
+No próximo exemplo, uma alteração de agendamento de 1 dia ocorreu no início da linha do tempo do projeto. Neste cenário, o Assistente de IA avalia o tempo e o impacto da alteração em relação à duração geral do projeto:
+
+* Um turno de agendamento de 1 dia no início de uma linha do tempo de 60 dias do projeto é pequeno e normalmente pontuado como No destino.
+* Um turno de agendamento de 1 dia próximo à data de conclusão de um projeto causa mais interrupções e pode ser marcado em Risco ou Com Problemas.
+
+Como a alteração era pequena e ocorreu no início da linha do tempo do projeto, isso coloca o projeto no estado No destino.
+
+Se ocorrerem várias alterações de cronograma dentro da linha do tempo de um projeto, essas alterações serão pontuadas e calculadas na média antes de serem aplicadas ao cálculo de Integridade do projeto.
+
+## Entender a diferença entre as condições do projeto e a Integridade do projeto
+
+As Condições do projeto e Integridade do projeto são conceitos semelhantes no Workfront e têm os mesmos nomes padrão para descrever a condição ou o estado do projeto (No destino, Em risco e Com problema), mas atendem a diferentes objetivos.
+
+As condições do projeto fornecem um instantâneo básico sobre o desempenho atual de um projeto com base apenas nas datas planejadas, projetadas e estimadas. Ele pode ser definido manualmente pelo proprietário do projeto ou automaticamente pelo Workfront com base nas tarefas do projeto. Como alternativa, o Project Health é mais abrangente e avalia outros fatores, fornecendo um nível superior de compreensão de como está se saindo.
+
+Para obter mais informações sobre Condições do projeto, consulte [Condições personalizadas](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+## Lista de estados do projeto e do programa
+
+A tabela abaixo contém um detalhamento dos estados disponíveis em que o Assistente de IA atribuirá o projeto ou programa ao gerar uma avaliação de Integridade do projeto.
+
+<table>
+    <tr>
+        <td><b>Estado do Projeto</b></td>
+        <td><b>Definição</b></td>
+        <td><b>Fatores</b></td>
+    </tr>
+    <tr>
+        <td>No Prazo</td>
+        <td>Isso é atribuído quando o nível de risco médio para os seguintes fatores se enquadra no limite saudável.
+        </td>
+        <td> 
+        <ul><li>Desvio de escopo</li>
+        <li>Campos ausentes</li>
+        <li>Alterações no cronograma</li>
+        <li>Trabalho subestimado</li>
+        <li>Progresso do projeto</li>
+        <li>Tarefas vencidas</li>
+        <li>Orçamento</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>Em Risco</td>
+        <td>Isso é atribuído quando o nível de risco médio dos seguintes fatores cai um pouco abaixo do limite saudável.</td>
+        <td>
+        <ul><li>Desvio de escopo</li>
+        <li>Campos ausentes</li>
+        <li>Alterações no cronograma</li>
+        <li>Trabalho subestimado</li>
+        <li>Progresso do projeto</li>
+        <li>Tarefas vencidas</li>
+        <li>Orçamento</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>Com problemas</td>
+        <td>Este é atribuído quando o nível médio de risco para os seguintes fatores cai abaixo do limite saudável.</td>
+        <td>
+        <ul><li>Desvio de escopo</li>
+        <li>Campos ausentes</li>
+        <li>Alterações no cronograma</li>
+        <li>Trabalho subestimado</li>
+        <li>Progresso do projeto</li>
+        <li>Tarefas vencidas</li>
+        <li>Orçamento</li>
+        </ul></td>
+    </tr>
+    </tr>
+   </table>
+
 ## Lista de prompts do assistente do AI
 
 Abaixo está uma lista de prompts que você pode usar para solicitar a Avaliação da IA a fim de gerar uma Avaliação da Integridade do Projeto para um projeto, programa ou todos os projetos em sua conta.
@@ -109,60 +210,6 @@ Abaixo está uma lista de prompts que você pode usar para solicitar a Avaliaç�
        <tr>
         <td>Qualquer página no Workfront </td>
         <td><em>Qual é a integridade do programa [NOME DO PROGRAMA]?</em></td>
-    </tr>
-   </table>
-
-
-## Lista de condições de projeto e programa
-
-Abaixo estão as condições disponíveis que o Assistente de IA atribuirá ao seu projeto ou programa ao gerar uma avaliação de Integridade do projeto.
-
-<table>
-    <tr>
-        <td><b>Condição do projeto</b></td>
-        <td><b>Status de Progresso do Projeto</b></td>
-        <td><b>Fatores de condição do projeto</b></td>
-    </tr>
-    <tr>
-        <td>No Prazo</td>
-        <td>Esta análise é atribuída quando o nível de risco médio para os seguintes fatores se enquadra no limite saudável.
-        </td>
-        <td> 
-        <ul><li>Desvio de escopo</li>
-        <li>Campos ausentes</li>
-        <li>Alterações no cronograma</li>
-        <li>Trabalho subestimado</li>
-        <li>Progresso do projeto</li>
-        <li>Tarefas vencidas</li>
-        <li>Orçamento</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>Em Risco</td>
-        <td>Esta análise é atribuída quando o nível médio de risco para os seguintes fatores se situar um pouco abaixo do limiar saudável.</td>
-        <td>
-        <ul><li>Desvio de escopo</li>
-        <li>Campos ausentes</li>
-        <li>Alterações no cronograma</li>
-        <li>Trabalho subestimado</li>
-        <li>Progresso do projeto</li>
-        <li>Tarefas vencidas</li>
-        <li>Orçamento</li>
-        </ul></td>
-    </tr>
-    <tr>
-        <td>Com problemas</td>
-        <td>Esta análise é atribuída quando o nível médio de risco para os seguintes fatores cai abaixo do limite saudável.</td>
-        <td>
-        <ul><li>Desvio de escopo</li>
-        <li>Campos ausentes</li>
-        <li>Alterações no cronograma</li>
-        <li>Trabalho subestimado</li>
-        <li>Progresso do projeto</li>
-        <li>Tarefas vencidas</li>
-        <li>Orçamento</li>
-        </ul></td>
-    </tr>
     </tr>
    </table>
 
@@ -261,7 +308,7 @@ Para obter mais informações, consulte a seguinte seção neste artigo: [Gerenc
 
    ![Avaliação de integridade do projeto](assets/health-assessment.png)
 
-   Se estiver gerando uma avaliação para um portfólio, várias medalhas serão listadas mostrando a condição de cada projeto no programa. Para obter mais informações sobre os rótulos de medalha, consulte a seguinte seção neste artigo: [Lista de condições de projeto e programa](#project-and-program-conditions-list).
+   Se estiver gerando uma avaliação para um portfólio, várias medalhas serão listadas mostrando a condição de cada projeto no programa. Para obter mais informações sobre os rótulos de medalha, consulte a seguinte seção neste artigo: [Lista de estados do projeto e do programa](#project-and-program-states-list).
 
 1. (Opcional) Clique em um dos pontos de avaliação para expandir seus detalhes.
 
