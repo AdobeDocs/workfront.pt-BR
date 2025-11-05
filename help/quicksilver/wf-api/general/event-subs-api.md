@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
+source-git-commit: 0fd415767680d877c9dd1de448f7903e6616d155
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3097'
 ht-degree: 3%
 
 ---
@@ -153,6 +153,10 @@ O recurso de assinatura contém os seguintes campos.
         <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Versão do Documento</p></td> 
+        <td scope="col">DOCV </td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>Despesa</p></td> 
         <td scope="col">EXPNS</td> 
        </tr> 
@@ -185,6 +189,10 @@ O recurso de assinatura contém os seguintes campos.
         <td scope="col"><p>PROJ</p></td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Aprovação da revisão</p></td> 
+        <td scope="col"><p>PRFAPL</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>Registro</p></td> 
         <td scope="col"><p>GRAVAR</p></td> 
        </tr> 
@@ -195,6 +203,30 @@ O recurso de assinatura contém os seguintes campos.
        <tr> 
         <td scope="col"><p>Relatório</p></td> 
         <td scope="col"><p>PTLSEC</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Plano de recrutamento</p></td> 
+        <td scope="col"><p>EQUIPE</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Valor do Parâmetro do Plano de Pessoal</p></td> 
+        <td scope="col"><p>SPVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Recurso do plano de recrutamento</p></td> 
+        <td scope="col"><p>EQUIPE</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Valor do Atributo de Recurso do Plano de Pessoal</p></td> 
+        <td scope="col"><p>SPAVAL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Conjunto de Valores de Atributo de Recurso do Plano de Pessoal</p></td> 
+        <td scope="col"><p>SAVSET</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Valor do Parâmetro de Recursos do Plano de Pessoal</p></td> 
+        <td scope="col"><p>SRPVAL</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Tarefa</p></td> 
