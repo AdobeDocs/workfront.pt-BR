@@ -182,7 +182,7 @@ Para editar tarefas em uma lista e salvar alterações automaticamente:
 
    Ou
 
-   Clique no menu **** Mais![](assets/more-icon-task-list.png) à direita do nome da tarefa.
+   Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon-task-list.png) à direita do nome da tarefa.
 
 1. (Opcional) Selecione entre as seguintes opções:
 
@@ -302,7 +302,7 @@ Para editar tarefas em uma lista ao selecionar a opção Salvar manualmente padr
 
    Ou
 
-   Clique no menu **** Mais![](assets/more-icon-task-list.png).
+   Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon-task-list.png).
 
 1. (Opcional) Selecione entre as seguintes opções:
 
@@ -410,7 +410,7 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
 
    Ou
 
-   Clique no menu **** Mais![](assets/more-icon-task-list.png).
+   Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon-task-list.png).
 
 1. Selecione entre as seguintes opções:
 
@@ -528,7 +528,7 @@ Para obter mais informações sobre como editar uma tarefa, consulte [Editar tar
       </div>-->
    <!--<span class="preview">1. Click **Save**.</span>
    <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span>-->
-1. <!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> Especifique as informações que deseja alterar para todas as tarefas selecionadas em qualquer uma das seguintes áreas:
+1. &#x200B;<!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> Especifique as informações que deseja alterar para todas as tarefas selecionadas em qualquer uma das seguintes áreas:
 
    * Visão geral
    * Configurações
