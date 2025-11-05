@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 6ded38ef130fbcdde8d680f77f6db38fbd81efb4
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 # Criar atribuições avançadas
 
-<!-- Audited: 07/2024-->
+<!-- Audited: 11/2025-->
+
+<!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
 
 <!--
 <div class="preview"> 
@@ -49,8 +51,7 @@ Este artigo descreve como acessar Atribuições avançadas no cabeçalho da tare
 Além disso, você pode fazer atribuições avançadas nas seguintes áreas do Workfront:
 
 * Em listas e relatórios quando o campo Atribuições é exibido na visualização.
-* Na seção Atribuições ao editar uma tarefa. Para obter mais informações, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
-  <!--* In the Production environment, in the Assignments section when editing a task. <span class="preview">This has been removed from the Preview environment.</span> For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).-->
+* Na seção Atribuições ao editar uma tarefa. Para obter mais informações, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
 * No cabeçalho da tarefa ou do problema, na área Atribuições.
 * No Balanceador de carga de trabalho. Para obter mais informações, consulte [Atribuir trabalho manualmente usando o Balanceador de Carga de Trabalho](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 

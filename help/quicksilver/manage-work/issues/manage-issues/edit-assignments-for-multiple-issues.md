@@ -6,9 +6,9 @@ description: Modificar atribuições de usuário para vários problemas em uma l
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '968'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,14 @@ ht-degree: 1%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
+
+<div class="preview">
+
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
+
+Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 Você pode modificar simultaneamente as atribuições de usuários para várias questões. Para obter informações sobre como editar problemas ou atribuí-los um de cada vez, consulte também os seguintes artigos:
 

@@ -6,9 +6,9 @@ description: No Adobe Workfront, as tarefas podem ter relacionamentos pai-filho.
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 01/2025 -->
 
-No Adobe Workfront, as tarefas podem ter relacionamentos pai-filho. Tarefas secundárias são chamadas de subtarefas. É possível criar subtarefas na lista de tarefas transformando uma tarefa principal em uma subtarefa. Também é possível transformar uma subtarefa em uma tarefa principal.
+No Adobe Workfront, as tarefas podem ter relacionamentos pai-filho. Tarefas secundárias são chamadas de subtarefas. Você pode criar subtarefas na lista de tarefas tornando uma tarefa principal uma subtarefa de outra tarefa. Também é possível transformar uma subtarefa em uma tarefa principal.
 
 ## Requisitos de acesso
 
@@ -84,6 +84,11 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 É possível criar subtarefas a partir da lista de tarefas ou da seção de subtarefas de tarefas.
 
+>[!TIP]
+>
+>A criação de subtarefas para um projeto é semelhante à criação de subtarefas de modelo para tarefas de modelo em um modelo.
+
+
 ### Criar subtarefas da lista de tarefas {#create-subtasks-from-the-task-list}
 
 1. Vá para o projeto em que deseja criar subtarefas.
@@ -113,12 +118,14 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 1. Vá para o projeto em que deseja criar subtarefas.
 1. Clique na seção **Tarefas** no painel esquerdo.
 1. Clique no nome da tarefa em que deseja criar uma subtarefa.
-1. Clique na seção **Subtarefas** no painel esquerdo, se presente.
+1. Clique na seção **Subtarefas** no painel esquerdo, se disponível.
 1. Clique em **Nova tarefa.**
 
-   Siga as etapas no artigo a seguir para continuar criando a subtarefa: [Criar tarefas em um projeto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Para obter informações sobre como criar tarefas, consulte [Criar tarefas em um projeto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 1. Clique em **Criar tarefa.**
+
+   A nova tarefa é criada como uma subtarefa para a tarefa que você selecionou na etapa 3. <!--ensure this is accurate-->
 
 ## Transformar uma subtarefa em uma tarefa principal
 

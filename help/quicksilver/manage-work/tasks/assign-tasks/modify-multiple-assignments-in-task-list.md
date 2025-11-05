@@ -7,20 +7,28 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
 
 # Modificar atribuições de vários usuários em uma lista de tarefas
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2025-->
 
 <!--
-<p>There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3</p>
+this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
+
+<!--<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 Ao gerenciar atribuições de tarefas, você pode modificá-las simultaneamente para várias tarefas de uma vez usando o recurso de edição em massa em uma lista de tarefas.
 
@@ -117,14 +125,17 @@ When assigning users to work, their availability according to their schedules af
 
 1. Selecione as tarefas para as quais deseja modificar atribuições e clique no ícone **Editar** ![](assets/edit-icon.png).
 
-   A página Editar Tarefas é exibida. Os itens editados são exibidos no canto superior esquerdo da página.
+   A caixa **Editar Tarefas** abre <!--<span class="preview">in the new experience</span>-->.
+
+   <!--1. <span class="preview">(Optional) Click **Switch to old experience** at the bottom of the **Edit Tasks** box.</span> 
+   <span class="preview">The **Edit Tasks** box opens in the old experience.</span>-->
 
 1. Vá para a seção **Atribuições**.
-1. Siga um destes procedimentos para adicionar ou remover responsáveis:
 
    >[!IMPORTANT]
    >
    >A remoção de atribuídos pode afetar as horas da tarefa e as porcentagens de alocação. Para obter mais informações, consulte a seção [Como a remoção de atribuídos afeta as horas da tarefa e as porcentagens de alocação](#how-removing-assignees-affects-task-hours-and-allocation-percentages) neste artigo.
+1. Siga um destes procedimentos para adicionar ou remover responsáveis:
 
    * Para adicionar um novo destinatário:
 
@@ -180,3 +191,17 @@ When assigning users to work, their availability according to their schedules af
    * **Função do destinatário**: selecione uma função na lista suspensa. Se não for selecionada, o Adobe Workfront selecionará automaticamente a função principal do usuário.
 
 1. Clique em **Salvar alterações.**
+
+<!--
+1. <span class="preview"> (Optional) Click **Try new experience** in the upper-right corner of the **Edit Tasks** box. The Edit Tasks box opens in the new experience. Do one of the following:</span>
+
+   <div class="preview">
+
+   * To add assignees, start typing the name of an assignee in the **Search people, roles, or teams** field, then select them when they display in the list. 
+   * To remove assignees, click the **x** icon to the right of their name. Only assignees that are common to all tasks display in the list. 
+   * Click Assign to me to assign the selected tasks to yourself.
+
+   </div>
+1. <span class="preview">(Conditional) When using the new experience, click **Save**.</span>
+
+-->

@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1826'
 ht-degree: 1%
 
 ---
@@ -224,11 +224,7 @@ Para atribuir tarefas em uma lista:
 
 1. Depois de adicionar os atribuídos à tarefa, pressione Enter ou clique em qualquer lugar na página para salvar as alterações se tiver selecionado Salvamento automático. Ou clique em **Salvar**.
 
-## Atribuir várias tarefas a um usuário em massa a partir de uma lista
-
-<!--Assigning multiple tasks to a user is different, depending on what environment you use to assign the tasks. 
-
-### Assign multiple tasks to a user in the Production environment-->
+## Atribuir várias tarefas em massa a partir de uma lista
 
 1. Vá para uma lista de tarefas que você deseja atribuir em massa.
 1. (Condicional) Verifique se a opção **Salvar automaticamente** está selecionada se você estiver em uma lista de tarefas em um projeto.
@@ -240,7 +236,11 @@ Para atribuir tarefas em uma lista:
 1. Selecione várias tarefas na lista de tarefas.
 1. Clique em **Editar**.
 
-   A caixa de diálogo **Editar Tarefas** é aberta.
+   A caixa de diálogo **Editar Tarefas** abre <!--<span class="preview">in the new experience</span>-->.
+
+   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+
+   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
 
 1. Na área **Atribuições**, marque a caixa **Destinatário** e comece a digitar o nome de um usuário, função de trabalho ou equipe que deseja atribuir a todas as tarefas.
 
@@ -274,7 +274,7 @@ Para atribuir tarefas em uma lista:
 <!--
 <div class="preview">
 
-### Assign multiple tasks to a user in the Preview environment
+### Assign multiple tasks in bulk from a list in the new experience
 
 1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
 1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.

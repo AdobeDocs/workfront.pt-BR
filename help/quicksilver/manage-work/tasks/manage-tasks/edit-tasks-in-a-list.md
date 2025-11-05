@@ -6,10 +6,10 @@ description: É possível editar as informações da tarefa em uma lista de tare
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: ac5552f1c235f595b1c0d2558fcf88b1e03f5a8e
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2764'
-ht-degree: 2%
+source-wordcount: '2762'
+ht-degree: 3%
 
 ---
 
@@ -182,7 +182,7 @@ Para editar tarefas em uma lista e salvar alterações automaticamente:
 
    Ou
 
-   Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon-task-list.png) à direita do nome da tarefa.
+   Clique no menu **** Mais![](assets/more-icon-task-list.png) à direita do nome da tarefa.
 
 1. (Opcional) Selecione entre as seguintes opções:
 
@@ -302,7 +302,7 @@ Para editar tarefas em uma lista ao selecionar a opção Salvar manualmente padr
 
    Ou
 
-   Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon-task-list.png).
+   Clique no menu **** Mais![](assets/more-icon-task-list.png).
 
 1. (Opcional) Selecione entre as seguintes opções:
 
@@ -410,7 +410,7 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
 
    Ou
 
-   Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon-task-list.png).
+   Clique no menu **** Mais![](assets/more-icon-task-list.png).
 
 1. Selecione entre as seguintes opções:
 
@@ -509,33 +509,44 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
    >Não é possível editar tarefas em massa ao salvar tarefas manualmente.
 
 1. Selecione mais de uma tarefa na lista de tarefas.
-1. Clique no ícone **Editar** ![Ícone Editar](assets/qs-edit-icon.png). A caixa de diálogo **Editar Tarefas** é aberta.
+   <!--1. <span class="preview">(Optional) Click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then **Recalculate Expressions** to update all information in calculated custom fields.</span> -->
+1. Clique no ícone **Editar** ![Ícone Editar](assets/qs-edit-icon.png). A caixa de diálogo **Editar Tarefas** abre <!--<span class="preview">in the new experience</span>-->.
 
-1. Especifique as informações que deseja alterar para todas as tarefas selecionadas.
+   A edição de informações em todas as tarefas é idêntica à edição de informações em uma tarefa.
+Para obter mais informações sobre como editar uma tarefa, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-   A edição de informações em todas as tarefas é idêntica à edição de informações em uma tarefa. Se você quiser editar a Duração da tarefa, as tarefas selecionadas deverão ter a mesma Restrição de Tarefa; caso contrário, o campo **Duração** não será preenchido.
+   <!--<span class="preview">1. In the new experience, do the following:</span> (******keep the below indented******)
+      1. Specify the information you want to change for all the tasks you selected in any of the following areas: 
+      <div class="preview">
+      * Overview
+      * Assignments
+      * Custom Forms
+      * Finance
+      * Settings
+      * Settings
+      * Comment
+      </div>-->
+   <!--<span class="preview">1. Click **Save**.</span>
+   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span>-->
+1. <!--<span class="preview">In the old experience,, do the following:</span> (**********indent the steps below*********)--> Especifique as informações que deseja alterar para todas as tarefas selecionadas em qualquer uma das seguintes áreas:
 
-   Para obter mais informações sobre como editar uma tarefa, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   * Visão geral
+   * Configurações
+   * Atribuições
+   * Formulários personalizados
+   * Comentário
 
-   >[!NOTE]
-   >
-   >As informações que você está alterando em todas as tarefas selecionadas substituirão as informações existentes em tarefas individuais, exceto pelo campo **Atribuições**. Adicionar um novo destinatário na edição em massa adicionará este destinatário a todas as tarefas selecionadas. Se outros atribuídos forem atribuídos às tarefas selecionadas, eles permanecerão atribuídos, além daquele adicionado por meio da edição em massa.
+     <!-- at release, move the below tip under the first set of bullet points, for the new experience-->
 
-1. Clique em **Forms Personalizado** para editar os formulários personalizados anexados a todas as tarefas selecionadas. Somente formulários personalizados ativos são exibidos na lista.
+     >[!NOTE]
+     >
+     >* As informações que você está alterando em todas as tarefas selecionadas substituirão as informações existentes em tarefas individuais, exceto pelo campo **Atribuições**. Adicionar um novo destinatário na edição em massa adicionará este destinatário a todas as tarefas selecionadas. Se outros atribuídos forem atribuídos às tarefas selecionadas, eles permanecerão atribuídos, além daquele adicionado por meio da edição em massa.
+     >* Se quiser editar a Duração da tarefa, as tarefas selecionadas deverão ter a mesma Restrição de Tarefa. Caso contrário, o campo **Duration** não será preenchido.
+     >
+     >* Somente formulários personalizados ativos são exibidos na lista. Se as tarefas selecionadas não tiverem formulários personalizados comuns, nenhum formulário será listado nesta seção.
+     >* É possível editar apenas os campos nos formulários que estão anexados a todas as tarefas selecionadas e que você tem permissão para editar.  Para obter informações sobre a edição de formulários personalizados em massa, consulte [Gerenciar formulários personalizados anexados a objetos](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
 
-   Se as tarefas selecionadas não tiverem formulários personalizados comuns, nenhum formulário será listado nesta seção.
 
-   É possível editar apenas os campos nos formulários que estão anexados a todas as tarefas selecionadas e que você tem permissão para editar.
-
-   <!--1. (Optional and conditional) Depending what environment you use to edit the tasks, do one of the following to recalculate custom expressions for all tasks:
-   1. In the Production environment, ADD THE SENTENCE FROM THE NEXT STEP HERE:-->
-
-1. (Opcional) Na seção Forms Personalizado, selecione a opção **Recalcular Expressões Personalizadas** para garantir que todos os Campos Personalizados Calculados que estão nos formulários personalizados anexados às tarefas selecionadas estejam atualizados.
-
-   <!--
-   1. <span class="preview">In the Preview environment, with all the tasks selected in the list, click the **More** menu ![More menu](assets/more-icon.png) at the top of the task list, then click **Recalculate Expressions**. This is only available when you automatically save your changes. </span>
-
-   -->
+1. (Opcional) Na seção **Forms Personalizado**, selecione a opção **Recalcular Expressões Personalizadas** para garantir que todos os Campos Personalizados Calculados que estão nos formulários personalizados anexados às tarefas selecionadas estejam atualizados.
 1. Clique em **Salvar alterações**. Todas as alterações feitas agora estão visíveis em todas as tarefas selecionadas.
 
-Para obter informações sobre a edição de formulários personalizados em massa, consulte [Gerenciar formulários personalizados anexados a objetos](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).

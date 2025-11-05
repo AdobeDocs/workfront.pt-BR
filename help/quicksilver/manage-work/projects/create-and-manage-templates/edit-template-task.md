@@ -2,19 +2,19 @@
 product-area: templates
 keywords: tarefa,padrões,automatizar,criação
 navigation-topic: templates-navigation-topic
-title: Editar uma tarefa de modelo
+title: Editar Modelo de Tarefa
 description: Após criar um modelo, você pode editar as informações sobre as tarefas do modelo. As informações atualizadas em uma tarefa de modelo são associadas às tarefas do projeto depois de usar o modelo para criar um projeto ou anexar o modelo a um projeto.
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 3%
+source-wordcount: '2629'
+ht-degree: 4%
 
 ---
 
-# Editar uma tarefa de modelo
+# Editar modelos de tarefa
 
 <!--Audited: 11/2025-->
 

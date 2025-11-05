@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 69d3b6d93ce4ceaf66a7886704023de494cde35d
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '13516'
+source-wordcount: '13515'
 ht-degree: 2%
 
 ---
@@ -1247,7 +1247,7 @@ ht-degree: 2%
          * [Anexar um modelo a um projeto](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
          * [Copiar e mover tarefas de modelo](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [Editar modelos de projeto](manage-work/projects/create-and-manage-templates/edit-templates.md)
-         * [Editar uma tarefa de modelo](manage-work/projects/create-and-manage-templates/edit-template-task.md)
+         * [Editar modelos de tarefa](manage-work/projects/create-and-manage-templates/edit-template-task.md)
          * [Excluir uma tarefa de modelo](manage-work/projects/create-and-manage-templates/delete-template-tasks.md)
          * [Criar modelo a partir do projeto](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
          * [Compartilhar modelos de projeto](manage-work/projects/create-and-manage-templates/share-project-template.md)

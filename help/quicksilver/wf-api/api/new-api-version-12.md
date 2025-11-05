@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2421'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Os seguintes recursos são novos na API do Workfront versão 12.
 
 ### BreadCrumb {#breadcrumb}
 
-Um objeto BreadCrumb representa um elemento na hierarquia pai/filho de um item de trabalho do Adobe Workfront. As navegações estruturais indicam como um item de trabalho se encaixa na estrutura maior de Portfolio, Projetos, Projetos e Tarefas.
+Um objeto BreadCrumb representa um elemento na hierarquia pai/filho de um item de trabalho do Adobe Workfront. As navegações estruturais indicam como um item de trabalho se encaixa na estrutura maior de Portfólios, Projetos, Projetos e Tarefas.
 
 Para obter mais informações sobre navegações estruturais no Workfront, consulte [Visão geral sobre navegações estruturais na nova experiência do Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
@@ -560,7 +560,7 @@ Um objeto Grupo representa um conjunto de usuários e equipes. Os grupos geralme
 
 ### LinkedFolder {#linkedfolder}
 
-Um objeto LinkedFolder representa uma pasta vinculada de um provedor de documentos externo, como Google Drive ou Dropbox.
+Um objeto LinkedFolder representa uma pasta vinculada de um provedor de documentos externo, como o Google Drive ou o Dropbox.
 
 Para obter mais informações sobre Pastas Vinculadas, consulte [Vincular documentos de aplicativos externos](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
@@ -658,9 +658,9 @@ Para obter mais informações sobre campos personalizados, consulte [Criar ou ed
 
 ### Portfólio {#portfolio}
 
-Um objeto Portfolio é uma coleção de projetos que competem pelos mesmos recursos, normalmente dinheiro ou pessoas para concluí-los.
+Um objeto do Portfolio é uma coleção de projetos que competem pelos mesmos recursos, normalmente dinheiro ou pessoas para concluí-los.
 
-Para obter mais informações sobre portfólios, consulte [visão geral de Portfolio no Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Para obter mais informações sobre portfólios, consulte [visão geral do Portfolio no Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -762,7 +762,7 @@ Um objeto ScheduledReport representa um relatório que foi configurado para ser 
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Um objeto ScoreCardQuestion representa uma pergunta que foi adicionada a um Scorecard. Essas perguntas geralmente são determinadas pelo gerente de Portfolio, e suas respostas permitem que o gerente entenda como um projeto se alinha com as metas do portfólio.
+Um objeto ScoreCardQuestion representa uma pergunta que foi adicionada a um Scorecard. Essas perguntas geralmente são determinadas pelo gerente da Portfolio e suas respostas permitem que o gerente entenda como um projeto se alinha às metas do portfólio.
 
 Para obter mais informações sobre Perguntas do Scorecard, consulte [Criar um scorecard](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -851,7 +851,7 @@ Um objeto Equipe é uma coleção de Usuários que pode ser atribuída a um item
 
 Um objeto TemplateTask representa uma Tarefa que faz parte de um Template. Modelos de Tarefa se tornam Tarefas no Projeto onde o Modelo é usado.
 
-Para obter mais informações sobre Modelos de Tarefa, consulte [Editar uma tarefa de modelo](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
+Para obter mais informações sobre Modelos de Tarefa, consulte [Editar modelos de tarefa](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -892,7 +892,7 @@ Para obter mais informações sobre Folhas de horas, consulte [Visão geral sobr
  </tbody> 
 </table>
 
-### Atualizar
+### Atualização
 
 <table style="table-layout:auto"> 
  <col> 
