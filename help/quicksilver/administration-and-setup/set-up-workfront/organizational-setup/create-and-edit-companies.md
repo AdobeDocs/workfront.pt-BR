@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 5e81e18ef667af3e4d08f4fc8987f7a3b6617971
+source-git-commit: 6fb64986260842c419c61fe386e9ccf1a0da8f14
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -141,11 +141,11 @@ Para adicionar ou editar uma empresa:
 
    Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condicional) Se você estiver criando uma empresa, clique em **[!UICONTROL Criar Empresa]**<span class="preview">ou **&#x200B; Salvar &#x200B;**.</span>
+1. (Condicional) Se você estiver criando uma empresa, clique em **[!UICONTROL Criar Empresa]** <span class="preview">ou **Salvar**.</span>
 
    Ou
 
-   Se você estiver editando uma empresa existente, clique em **[!UICONTROL Salvar alterações]**<span class="preview">ou **&#x200B; Salvar &#x200B;**.</span>
+   Se você estiver editando uma empresa existente, clique em **[!UICONTROL Salvar alterações]** <span class="preview">ou **Salvar**.</span>
 
 ## Gerenciar associações de empresa
 
@@ -167,9 +167,13 @@ Para obter mais informações sobre objetos de compartilhamento, consulte [Visã
 
 Quando um administrador do [!DNL Workfront] atribui um grupo a uma empresa, os administradores do grupo obtêm acesso de [!UICONTROL Gerenciar] à empresa em [!UICONTROL Configuração]. Isso inclui o acesso à página [!UICONTROL Empresas] em [!UICONTROL Configuração], onde é possível ver e gerenciar a empresa associada ao grupo.
 
-Com esse acesso à página [!UICONTROL Empresas], um administrador de grupo pode atribuir um grupo a uma empresa, mas ela deve ser uma empresa criada pelo administrador do grupo. Se o nível de acesso do administrador de grupo não estiver configurado com acesso administrativo a empresas, o campo [!UICONTROL Grupo] será necessário quando o administrador de grupo criar a empresa. Seu título em negrito indica que:
+Com esse acesso à página [!UICONTROL Empresas], um administrador de grupo pode atribuir um grupo a uma empresa, mas ela deve ser uma empresa criada pelo administrador do grupo. Se o nível de acesso do administrador de grupo não estiver configurado com acesso administrativo a empresas, o campo [!UICONTROL Grupo] será necessário quando o administrador de grupo criar a empresa. Seu <span class="preview">asterisco</span> ou título em negrito indica o seguinte:
 
-![Editar empresa](assets/group-admin-add-company.png)
+<span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
+![Caixa de diálogo Nova empresa com grupo obrigatório](assets/group-admin-add-company-group-required.png)
+
+Imagem de amostra no ambiente de produção:
+![Grupo necessário na empresa](assets/group-admin-add-company.png)
 
 Para obter informações sobre como os usuários obtêm acesso administrativo a empresas em seu nível de acesso, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
