@@ -6,9 +6,9 @@ description: Ao atribuir usuários ou funções a uma tarefa, eles são alocados
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,20 @@ ht-degree: 0%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+<div class="preview">
 
-</div> 
--->
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
+
+Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 As horas de alocação representam a quantidade total de tempo que um recurso atribuído é planejado para trabalhar em uma tarefa. As horas representam o tempo que um usuário é alocado em um determinado dia ou dia da semana, semana ou mês durante toda a duração da tarefa.
+
+Você pode modificar as horas de alocação ao fazer atribuições avançadas em uma tarefa.
 
 >[!NOTE]
 >
@@ -58,7 +61,7 @@ As horas de alocação representam a quantidade total de tempo que um recurso at
   <tr> 
    <td>Permissões de objeto</td>
    <td><p>Contribuir com ou mais permissões para a tarefa</p>
-   <p>Editar permissões para atualizar horas de alocação na caixa Editar tarefa</p></td>
+   <p>Edite permissões para atualizar horas de alocação na caixa Editar tarefa ao editar tarefas <span class="preview">usando a experiência antiga. Não é mais possível gerenciar horas de alocação na caixa Editar tarefa ao editar tarefas na nova experiência.</span></p> <p>Para obter informações, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tarefas</a></p>.</td>
   </tr>
  </tbody>
 </table>
@@ -67,12 +70,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation hours in the Edit Task box</p>
-To this:
-<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
+<!--Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
+<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.-->
+
 
 ## Considerações para modificar as horas de alocação de uma tarefa
 
@@ -95,14 +96,9 @@ To this:
 ## Modificar as horas de alocação de usuário ou função para uma tarefa
 
 1. Vá para uma tarefa cujas atribuições você deseja alterar as horas de alocação.
-1. Clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) ao lado do nome da tarefa e clique em **Editar** e depois em **Atribuições**.
-
-   Ou
-
-   Clique na área **Atribuições** no cabeçalho da tarefa e clique em **Avançadas**.
-
+1. Clique na área **Atribuições** no cabeçalho da tarefa e clique em **Avançadas**.
 1. Verifique se o **Tipo de Duração** da tarefa é **Simples**.
-1. Modifique as **Alocações** para cada destinatário de tarefa. São alocações gerais para cada atribuição a esta tarefa, para toda a duração da tarefa. Isso também pode atualizar o total de Horas planejadas da tarefa.
+1. Modifique o campo **Alocações** para cada destinatário da tarefa. São alocações gerais para cada atribuição a esta tarefa, para toda a duração da tarefa. Isso também pode atualizar as **Horas planejadas** gerais da tarefa.
 
    ![Modificar alocações](assets/advanced-assignments-duration-type-allocations.png)
 

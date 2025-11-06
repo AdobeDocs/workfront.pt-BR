@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '2212'
 ht-degree: 1%
 
 ---
@@ -18,15 +18,15 @@ ht-degree: 1%
 
 <!--Audited: 10/2025-->
 
-<!--
-<div class="preview"> 
+<!--remove production/ preview and old/ new experience references at prod-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
 
-</div> 
--->
+Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 É possível atribuir tarefas a usuários, funções de trabalho ou equipes para indicar quem é responsável por concluir as tarefas. É possível atribuir uma tarefa a mais de um recurso por vez.
 
@@ -236,13 +236,20 @@ Para atribuir tarefas em uma lista:
 1. Selecione várias tarefas na lista de tarefas.
 1. Clique em **Editar**.
 
-   A caixa de diálogo **Editar Tarefas** abre <!--<span class="preview">in the new experience</span>-->.
+   A caixa de diálogo **Editar Tarefas** abre <span class="preview">na nova experiência.</span>
 
-   <!--1. Continue assigning the tasks <span class="preview">using the new experience</span>. <span class="preview">For more information, see the section Assign multiple tasks in bulk from a list in the new experience in this article.</span> (^^^^^^^^^^^^add anchor here at release^^^^^^^^^^^^) -->
+1. Continue atribuindo as tarefas <span class="preview">usando a nova experiência.</span>
 
-   <!--1. <span class="preview">(Optional) Click **Switch back to old experience** at the bottom of the Edit Tasks box.</span> -->
+   <span class="preview">Para obter mais informações, consulte a seção [Atribuir várias tarefas em massa de uma lista na nova experiência](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) deste artigo.</span>
 
-1. Na área **Atribuições**, marque a caixa **Destinatário** e comece a digitar o nome de um usuário, função de trabalho ou equipe que deseja atribuir a todas as tarefas.
+1. <span class="preview">(Opcional) Clique em **Retornar à experiência antiga** na parte inferior da caixa **Editar Tarefas** para abrir a experiência antiga.</span>
+
+   >[!TIP]
+   >
+   >A atribuição de tarefas no ambiente de Produção está disponível somente para a experiência antiga.
+
+
+1. (Condicional) Usando a experiência antiga, na área **Atribuições**, marque a caixa **Destinatário** e comece a digitar o nome de um usuário, função de trabalho ou equipe que você deseja atribuir a todas as tarefas.
 
    >[!IMPORTANT]
    >
@@ -271,53 +278,51 @@ Para atribuir tarefas em uma lista:
 1. Clique em **Salvar alterações**.
 1. (Opcional e condicional) Quando os campos Atribuído a ou Atribuições forem exibidos na lista de tarefas, clique dentro de uma dessas colunas para uma tarefa e, em seguida, clique no ícone **X** ao lado do nome de um destinatário para removê-lo da tarefa.
 
-<!--
+
 <div class="preview">
 
-### Assign multiple tasks in bulk from a list in the new experience
+### Atribuir várias tarefas em massa a partir de uma lista na nova experiência
 
-1. Go to a list of tasks that you want to assign in bulk in the Preview environment. 
-1. (Conditional) Ensure that the **Autosave** option is selected if you are on a list of tasks under a project.
-
-   >[!IMPORTANT]
-   >
-   >You cannot edit tasks in bulk when saving tasks manually on a project.
-
-1. Select several tasks in the tasks list. 
-1. Click **Edit**.
-
-   The **Edit Tasks** dialog box opens.
-
-1. In the **Assignments** area, start typing the name of users, teams, or roles in the **Search people, roles, or teams** field provided, then click them when they display in the list
-
-   Or 
-
-   Click **Assign to me** to assign it to yourself.
+1. Vá para uma lista de tarefas que você deseja atribuir em massa no ambiente de Pré-visualização.
+1. (Condicional) Verifique se a opção **Salvar automaticamente** está selecionada se você estiver em uma lista de tarefas em um projeto.
 
    >[!IMPORTANT]
    >
-   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+   >Não é possível editar tarefas em massa ao salvar tarefas manualmente em um projeto.
 
-1. Click inside the **Duration Type** field and choose a Duration Type. 
+1. Selecione várias tarefas na lista de tarefas.
+1. Clique em **Editar**.
 
-   For information about Duration Type on tasks, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   A caixa de diálogo **Editar Tarefas** é aberta.
 
-1. (Conditional) Depending on what **Duration Type** you selected, update the following fields: 
+1. Na área **Atribuições**, comece digitando o nome de usuários, equipes ou funções no campo **Pesquisar pessoas, funções ou equipes** fornecido, em seguida, clique nelas quando forem exibidas na lista
 
-   * Duration
-   * Planned Hours
+   Ou
 
-      For more information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). 
+   Clique em **Atribuir a mim** para atribuí-lo a si mesmo.
 
-1. (Optional) If you want to remove existing assignees from all tasks, click the **x** next to their name in the **Search people, roles, or teams** field.
+   >[!IMPORTANT]
+   >
+   >Se qualquer uma das tarefas já estiver atribuída, os recursos que você indicar aqui serão adicionados às tarefas em vez de substituir os recursos existentes nas tarefas.
 
-1. Click **Save**.
-1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of tasks, click inside one of these columns for a task, then click the **X icon** next to the name of an assignee to remove it from the task.
+1. Clique dentro do campo **Tipo de Duração** e escolha um Tipo de Duração.
+
+   Para obter informações sobre o Tipo de Duração em tarefas, consulte [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+1. (Condicional) Dependendo do **Tipo de Duração** selecionado, atualize os seguintes campos:
+
+   * Duração
+   * Horas planejadas
+
+     Para obter mais informações, consulte [Editar tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+1. (Opcional) Se quiser remover os atribuídos existentes de todas as tarefas, clique em **x** ao lado do nome no campo **Pesquisar pessoas, funções ou equipes**.
+
+1. Clique em **Salvar**.
+1. (Opcional e condicional) Quando os campos **Atribuído a** ou **Atribuições** forem exibidos na lista de tarefas, clique dentro de uma dessas colunas para uma tarefa e, em seguida, clique no ícone **X** ao lado do nome de um destinatário para removê-lo da tarefa.
 
 
 </div>
--->
-
 
 
 <!--

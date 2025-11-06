@@ -6,26 +6,29 @@ description: A porcentagem de alocação representa a quantidade de tempo que um
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '509'
 ht-degree: 1%
 
 ---
 
 # Gerenciar porcentagem de alocação de usuários ou funções em tarefas
 
-<!--
-<div class="preview"> 
+<!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
 
-</div> 
--->
+Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
+
 
 A porcentagem de alocação representa a quantidade de tempo que um recurso atribuído deve trabalhar em uma tarefa em um dia. É a porcentagem de um dia útil (de acordo com o agendamento do usuário ou projeto) em que um recurso é alocado durante toda a duração da tarefa.
+
+Você pode modificar a porcentagem de alocação quando faz atribuições avançadas em uma tarefa.
 
 >[!NOTE]
 >
@@ -56,7 +59,7 @@ A porcentagem de alocação representa a quantidade de tempo que um recurso atri
   <tr> 
    <td>Permissões de objeto</td>
    <td><p>Contribuir com ou mais permissões para a tarefa</p>
-   <p>Editar permissões para atualizar a porcentagem de alocação na caixa Editar tarefa</p></td>
+   <p>Edite permissões para atualizar a porcentagem de alocação na caixa Editar tarefa quando <span class="preview"> editar tarefas usando a experiência antiga. Não é mais possível gerenciar a porcentagem de alocação na caixa Editar tarefa ao editar tarefas na nova experiência.</span></p> <p>Para obter informações, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tarefas</a></p>.</td>
   </tr>
  </tbody>
 </table>
@@ -66,9 +69,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 +++
 
 <!--
-Change this sentence in the table when unshimmming assignments on Edit task:
-<p>Edit permissions to update allocation percentage in the Edit Task box</p>
-To this:
+Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+
 <p>Edit permissions to update allocation percentage in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation percentage in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
 -->
 
@@ -85,11 +87,7 @@ To this:
 ## Modificar a alocação percentual de usuário ou função para uma tarefa
 
 1. Vá para uma tarefa cujos recursos você está alterando a alocação percentual.
-1. Clique no menu **Mais** ![](assets/qs-more-icon-on-an-object.png) ao lado do nome da tarefa e clique em **Editar**.
-
-   Ou
-
-   Clique na área **Atribuições** no cabeçalho da tarefa e clique em **Avançadas**.
+1. Clique na área **Atribuições** no cabeçalho da tarefa e clique em **Avançadas**.
 
 1. Verifique se o **Tipo de Duração** da tarefa é um dos seguintes:
 
@@ -101,7 +99,7 @@ To this:
    >* Para o Tipo de Duração da Atribuição Calculada, o Workfront usa a seguinte fórmula para calcular a porcentagem de alocação de cada destinatário: `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
    >* Para o Tipo de Duração Simples, é possível estimar as horas atribuídas a cada recurso, não a porcentagem de alocação.
 
-1. Clique em **Atribuições** e modifique as **Alocações** para cada destinatário de tarefa.
+1. Modifique o campo **Alocações** para cada destinatário da tarefa.
 
    Você só pode modificar a porcentagem de alocação para atribuições de usuário e funções de trabalho.
 

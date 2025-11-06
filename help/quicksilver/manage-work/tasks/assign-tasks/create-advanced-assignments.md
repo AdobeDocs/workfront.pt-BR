@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -20,15 +20,14 @@ ht-degree: 0%
 
 <!--remove the bullet indicated when we get rid of the new/old experience of editing tasks-->
 
-<!--
-<div class="preview"> 
+
+<!--<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> 
--->
+</div> -->
 
 Você pode gerenciar atribuições de tarefas ou problemas usando Atribuições Avançadas.
 
@@ -136,7 +135,6 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
     -->
 
 1. Para cada usuário na coluna **Destinatário**, especifique as seguintes informações:
-
 
    * **Proprietário**: passe o mouse sobre o nome do destinatário e clique em **Tornar primário** no campo Proprietário se desejar marcar o destinatário como o proprietário da tarefa ou do problema. Uma caixa de seleção verde indica que o usuário especificado é o contato principal da tarefa ou problema. O Adobe Workfront marca o primeiro usuário ou função de trabalho atribuída a uma tarefa ou problema como Proprietário ou Atribuição principal. Uma equipe não pode ser designada como o Proprietário principal de uma tarefa ou problema.
 

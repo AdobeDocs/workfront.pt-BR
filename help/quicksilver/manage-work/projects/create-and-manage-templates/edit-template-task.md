@@ -7,7 +7,7 @@ description: Após criar um modelo, você pode editar as informações sobre as 
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
 source-wordcount: '4716'
 ht-degree: 4%
@@ -576,35 +576,35 @@ Depois de abrir a caixa **Editar Tarefa de Modelo** na nova experiência, consid
    Clique em **Atribuir a mim** para atribuir a tarefa de modelo a você mesmo.
 1. Considere atualizar as seguintes informações:
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody>
 
-<tr> 
-      <td role="rowheader"><strong>Tipo de Duração</strong> </td> 
-      <td> <p>A tarefa futura criada a partir desse modelo terá esse Tipo de Duração. <br>O Tipo de Duração identifica a relação entre o seguinte:</p> 
-      <ul>
-      <li><p>Número de recursos atribuídos a uma tarefa</p> </li>
-      <li><p>O esforço total necessário para concluir a tarefa</p></li> 
-      <li><p>A duração total da tarefa </p></li></ul> <p>Usando Tipos de Duração, você pode definir atribuições de recursos consistentes com base nas necessidades da tarefa. Para obter mais informações sobre o Tipo de Duração de uma tarefa, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>.</p> <p>Selecione entre as seguintes opções:</p> 
-       <ul> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Atribuição calculada</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Trabalho Calculado</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Orientado pelo Esforço</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Simples</span> <br> </p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Duração</strong> </td> 
-      <td> <p>Especifique a Duração das tarefas futuras, em minutos, horas, dias, semanas ou meses. A tarefa futura criada a partir desse modelo terá a Duração especificada aqui.</p> <p>Por padrão, o Workfront mede a Duração em dias. Período permitido para que a tarefa permaneça incompleta antes de ser concluída. Você não pode especificar a Duração de uma tarefa quando o <strong>Tipo de Duração</strong> da tarefa é <strong>Simples</strong>, ou quando a <strong>Restrição de Tarefa</strong> é <strong>Datas Fixas</strong>.</p> <p><b>IMPORTANTE</b></p> <p>Normalmente, a Duração é a quantidade de tempo entre o Início planejado e as Datas de conclusão planejadas de uma tarefa de modelo e, por esse motivo, afeta a linha do tempo do modelo. Isso determina a linha do tempo do projeto futuro criado a partir do modelo. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Horas planejadas</strong> </td> 
-      <td> <p>Especifique o número de Horas planejadas para a tarefa futura no projeto criado com este modelo. Essa é a quantidade de tempo real que os atribuídos da tarefa levariam para concluí-la. Você só pode especificar o número de Horas Planejadas para uma tarefa quando o <strong>Tipo de Duração</strong> está definido como <strong>Atribuição Calculada</strong>. </p> </td> 
-     </tr> 
-  </tbody> 
-   </table>
+   <tr> 
+         <td role="rowheader"><strong>Tipo de Duração</strong> </td> 
+         <td> <p>A tarefa futura criada a partir desse modelo terá esse Tipo de Duração. <br>O Tipo de Duração identifica a relação entre o seguinte:</p> 
+         <ul>
+         <li><p>Número de recursos atribuídos a uma tarefa</p> </li>
+         <li><p>O esforço total necessário para concluir a tarefa</p></li> 
+         <li><p>A duração total da tarefa </p></li></ul> <p>Usando Tipos de Duração, você pode definir atribuições de recursos consistentes com base nas necessidades da tarefa. Para obter mais informações sobre o Tipo de Duração de uma tarefa, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração da Tarefa e do Tipo de Duração</a>.</p> <p>Selecione entre as seguintes opções:</p> 
+         <ul> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Atribuição calculada</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Trabalho Calculado</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Orientado pelo Esforço</span> </p> </li> 
+         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Simples</span> <br> </p> </li> 
+         </ul> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Duração</strong> </td> 
+         <td> <p>Especifique a Duração das tarefas futuras, em minutos, horas, dias, semanas ou meses. A tarefa futura criada a partir desse modelo terá a Duração especificada aqui.</p> <p>Por padrão, o Workfront mede a Duração em dias. Período permitido para que a tarefa permaneça incompleta antes de ser concluída. Você não pode especificar a Duração de uma tarefa quando o <strong>Tipo de Duração</strong> da tarefa é <strong>Simples</strong>, ou quando a <strong>Restrição de Tarefa</strong> é <strong>Datas Fixas</strong>.</p> <p><b>IMPORTANTE</b></p> <p>Normalmente, a Duração é a quantidade de tempo entre o Início planejado e as Datas de conclusão planejadas de uma tarefa de modelo e, por esse motivo, afeta a linha do tempo do modelo. Isso determina a linha do tempo do projeto futuro criado a partir do modelo. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Horas planejadas</strong> </td> 
+         <td> <p>Especifique o número de Horas planejadas para a tarefa futura no projeto criado com este modelo. Essa é a quantidade de tempo real que os atribuídos da tarefa levariam para concluí-la. Você só pode especificar o número de Horas Planejadas para uma tarefa quando o <strong>Tipo de Duração</strong> está definido como <strong>Atribuição Calculada</strong>. </p> </td> 
+      </tr> 
+   </tbody> 
+      </table>
 
 1. (Opcional) Continue editando as seções a seguir, dependendo das informações que você deseja modificar.
 

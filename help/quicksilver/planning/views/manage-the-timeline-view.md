@@ -6,22 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a18b70b20e37f9751fbae2d4aad76e4905f976b2
+source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
 workflow-type: tm+mt
-source-wordcount: '3874'
+source-wordcount: '3951'
 ht-degree: 2%
 
 ---
 
 # Gerenciar a exibição de linha do tempo
 
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
 
 {{planning-important-intro}}
 
@@ -285,9 +282,7 @@ Para adicionar um filtro a uma exibição de linha do tempo:
 1. Selecione uma exibição de linha do tempo e clique em **Filtros** no canto superior direito da tabela.
 1. Clique em **Adicionar condição** e adicione as seguintes informações:
 
-   * **Selecione um campo** que você deseja filtrar por <!-- the tip below might change-->
-
-     <!--replace the bullet above with this at preview release: <span class="preview">Search for a field or </span> click the drop-down menu to display a list of fields and select it from the list-->
+   * **Selecione um campo** a <span class="preview">Pesquise um campo ou </span> clique no menu suspenso para exibir uma lista de campos e selecioná-lo na lista
 
    * **Selecione uma opção** (ou um modificador de filtro) para definir que tipo de condição o campo deve atender
 
