@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e9b96508d27da15472506aa36bdaa507ca9831ba
+source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
 workflow-type: tm+mt
-source-wordcount: '8992'
+source-wordcount: '9336'
 ht-degree: 0%
 
 ---
@@ -34,33 +34,68 @@ Para obter mais informações, consulte [Criar e editar empresas](/help/quicksil
 
 ## Projetos
 
+### Nova experiência ao trabalhar com tarefas de modelo
+
+**Versão de visualização: 6 de novembro de 2025; Versão de produção: iniciando a semana de 13 de novembro de 2025**
+
+Atualizamos a experiência ao trabalhar com tarefas de modelo.
+
+>[!NOTE]
+>
+>Você terá a chance de alternar entre a experiência antiga e a nova de adicionar ou editar tarefas de modelo por um tempo limitado.
+
+As seguintes alterações estão incluídas nesta atualização:
+
+* A lista de tarefas de modelo na seção Subtarefas de uma tarefa de modelo agora corresponde à maioria das listas no Workfront
+
+* As caixas Novo e Editar Modelo de Tarefa têm uma nova aparência
+
+* Agora você pode atualizar campos personalizados de pesquisa externa ao editar tarefas de modelo
+
+* Há uma nova experiência para atribuir recursos a tarefas de modelo. A nova experiência agora está disponível ao editar uma tarefa ou editar várias tarefas em massa. Os seguintes campos foram removidos da caixa Editar tarefas:
+
+* Alocações
+   * Proprietário ou proprietário da tarefa
+   * Função do atribuidor
+
+Você ainda pode encontrar os campos removidos ao fazer atribuições avançadas em tarefas de modelo.
+
+Para obter informações, consulte [Editar tarefas de modelo](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
+
+
+### Nova experiência ao editar e atribuir tarefas únicas ou em massa
+
+**Versão de visualização: 6 de novembro de 2025; Versão de produção: iniciando a semana de 13 de novembro de 2025**
+
+Atualizamos a caixa Editar tarefas ao editar tarefas únicas ou editá-las em massa.
+
+>[!NOTE]
+>
+>Você terá a chance de alternar entre a experiência antiga e a nova para editar tarefas por um tempo limitado.
+
+As seguintes alterações estão incluídas nesta atualização:
+
+* A opção Recalcular Expressões Personalizadas foi removida durante a atualização de tarefas em massa e foi adicionada ao menu Mais em uma lista de tarefas, após selecionar várias tarefas.
+
+* Agora você pode atualizar campos personalizados de pesquisa externa
+
+* Há uma nova experiência para atribuir recursos a tarefas. Isso agora está disponível ao editar uma tarefa ou ao editar várias tarefas em massa. Os seguintes campos foram removidos da caixa Editar tarefas:
+
+   * Alocações
+   * Proprietário ou proprietário da tarefa
+   * Função do atribuidor
+
+Você ainda pode encontrar os campos removidos ao fazer atribuições avançadas em tarefas.
+
+Para obter informações, consulte [Editar tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
 ### Atualização de interface ao converter uma tarefa em um projeto usando um modelo
 
-**Versão de visualização: 30 de outubro de 2025; Versão de produção: a partir de 6 de novembro de 2025**
+**Versão de visualização: 30 de outubro de 2025; Versão de produção: iniciando a semana de 6 de novembro de 2025**
 
 Atualizamos a caixa Converter em projeto ao converter uma tarefa em um projeto usando um modelo. O design da caixa agora corresponde à caixa Editar projeto.
 
 Para obter informações, consulte [Converter uma tarefa em um projeto](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
-
-<!--### New experience when bulk editing and single- or bulk-assigning tasks
-
-**Preview release: October 30, 2025; Production release: Starting on November 6, 2025**
-
-We have updated the Edit Tasks box when editing single tasks or editing them in bulk. The following changes are included in this update:
-
-* The Recalculate Custom Expressions option has been removed when updating tasks in bulk and has been added to the More menu in a task list, after selecting multiple tasks.
-
-* There is a new experience for assigning resources to tasks. This is now available both when editing one task or editing several tasks in bulk. The following fields have been removed from the Edit tasks box:
-
-* Allocations
-* Owner or Task Owner
-* Assignee's Role
-
-You can still find the removed fields when making advanced assignments on tasks.
-
-You will have a chance to switch between the old and the new experience for editing tasks for a limited time.
-
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
 
 ### Nova experiência ao editar e atribuir problemas de forma única ou em massa
 
@@ -72,11 +107,13 @@ As seguintes alterações estão incluídas nesta atualização:
 
 * A opção Recalcular expressões personalizadas foi removida ao atualizar problemas em massa. A opção foi adicionada ao menu Mais em uma lista de problemas, após selecionar vários problemas.
 
+* Agora você pode atualizar campos personalizados de pesquisa externa ao editar problemas.
+
 * Há uma nova experiência para atribuir recursos a problemas. Isso agora está disponível ao editar um problema ou editar vários problemas em massa. Os seguintes campos foram removidos da caixa Editar problemas:
 
-* Alocações
-* Proprietário ou Proprietário do problema
-* Função do atribuidor
+   * Alocações
+   * Proprietário ou Proprietário do problema
+   * Função do atribuidor
 
 Você pode atualizar os campos removidos ao fazer atribuições avançadas em problemas.
 
