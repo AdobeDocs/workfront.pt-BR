@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 5706ebd11985b9e67c93686918f8f0327adabdf1
+source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '365'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 3%
 # Redefinir preferências de um usuário
 
 <!-- Audited: 12/2023 -->
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox e está sendo lançado em uma implantação em fases para Produção.</span>
 
 Como administrador do Adobe Workfront, você pode redefinir ou remover as configurações de preferência do usuário para qualquer usuário no sistema do Workfront.
 
@@ -106,8 +104,6 @@ Ao redefinir as preferências do usuário, algumas preferências são revertidas
 
 <!--Display this table and hide the HTML table above, when the unshim is released.-->
 
-<div class="preview">
-
 | Preferência | Status após a redefinição |
 | --- | --- |
 | Exibições | Revertido para o padrão do sistema <p>As exibições existentes não são excluídas. Você pode selecioná-los novamente.</p> |
@@ -116,8 +112,6 @@ Ao redefinir as preferências do usuário, algumas preferências são revertidas
 | Lista de itens recentes | Limpo |
 | Lista Favoritos | Não afetado |
 | Preferências do usuário | Revertido para o padrão do sistema <p>As notificações por email são revertidas para os padrões do sistema. As notificações padrão estão listadas em [Notificações de eventos disponíveis no Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
-
-</div>
 
 ## Redefinir preferências do usuário
 
@@ -148,8 +142,8 @@ Ao redefinir as preferências do usuário, algumas preferências são revertidas
 
 1. Pressione **Enter**.
 
-1. <span class="preview">Para redefinir todas as preferências de usuário, clique em **Redefinir**.</span>
+1. Para redefinir todas as preferências de usuário, clique em **Redefinir**.
 
-   <span class="preview">Ou</span>
+   Ou
 
-   <span class="preview">Para redefinir a navegação à esquerda do usuário para a configuração de modelo de layout original, clique em **Redefinir Navegação à Esquerda**.</span>
+   Para redefinir a navegação à esquerda do usuário para a configuração original do modelo de layout, clique em **Redefinir Navegação à Esquerda**.
