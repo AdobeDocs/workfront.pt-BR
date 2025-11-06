@@ -6,9 +6,9 @@ description: Modificar atribuições de usuário para vários problemas em uma l
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '521'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Você pode modificar simultaneamente as atribuições de usuários para várias questões. Para obter informações sobre como editar problemas ou atribuí-los um de cada vez, consulte também os seguintes artigos:
 
@@ -107,76 +107,59 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    O **Editar problemas** é exibido. O número de itens selecionados é exibido no canto superior esquerdo da página.
 
-1. (Condicional) No ambiente de Produção, faça o seguinte:
+1. Clique em **Atribuições** no painel esquerdo e clique no ícone **x** ao lado do destinatário que você deseja remover.
 
-   1. Vá para a seção **Atribuições** e selecione **Atribuído**.
+   >[!TIP]
+   >
+   >Somente os atribuídos atribuídos a todas as questões selecionadas são exibidos na área **Atribuições**.
 
-      ![Área de atribuições](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![Área de atribuições em problemas de edição em massa](assets/assignments-area-on-bulk-edit-issues.png)
 
-   1. Siga um destes procedimentos:
+1. Comece digitando o nome de um usuário, função ou equipe para adicionar atribuídos a todas as questões selecionadas.
 
-      1. Para adicionar um novo destinatário:
+   >[!TIP]
+   >
+   >Você pode atribuir vários usuários, funções de trabalho ou equipes. Você pode atribuir somente usuários, funções de trabalho e equipes ativos.
+   >
+   >Se um usuário, função de trabalho ou equipe foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
+   >
+   >* Reatribuir o item de trabalho aos recursos ativos.
+   >* Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
 
-         1. Comece a digitar o nome de um usuário, função ou equipe e selecione-o quando ele for exibido na lista. A atribuição é adicionada e não substitui as atribuições atuais nos problemas selecionados.
+   Os atribuídos adicionados são adicionados aos existentes. Elas não substituem as existentes para cada problema selecionado.
 
+1. (Opcional) Clique em **Atribuir a mim** para atribuir todos os problemas a você mesmo.
+1. Clique em **Salvar**.
+
+
+   <!--Old functionality for assignments for issues - before November 2025:
+   1. (Conditional) In the Production environment, do the following: 
+   1. Go to the **Assignments** section, then select **Assignee**.
+      ![Assignments area](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   1. Do one of the following:
+      1. To add a new assignee:
+         1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected issues.
          >[!TIP]
          >
-         >Você pode atribuir vários usuários, funções de trabalho ou equipes. Você pode atribuir somente usuários, funções de trabalho e equipes ativos.
+         >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
          >
-         >Se um usuário, função de trabalho ou equipe foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
+         >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
          >
-         >* Reatribuir o item de trabalho aos recursos ativos.
-         >* Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
-
-         As informações comuns em todas as ocorrências selecionadas são exibidas. Por exemplo, se o mesmo usuário for atribuído a todos os problemas, ele será exibido na coluna **Destinatário**. Se as informações não forem comuns nos problemas selecionados, nenhuma informação será exibida.
-
-      1. Para remover designados individuais:
-
-         1. Clique no ícone **X** ao lado do nome do destinatário que você deseja remover se ele for exibido na lista Atribuições.
-
-            Ou
-
-            Se o destinatário que você deseja remover não for exibido na seção Atribuições porque o destinatário está atribuído a apenas alguns dos problemas selecionados, clique em **Remover destinatário** e comece a digitar o nome do destinatário que você deseja remover, em seguida, clique no nome quando ele aparecer na lista suspensa.
-
-         1. Clique novamente em **Remover responsável** para adicionar outro responsável a ser removido.
-
-      1. Para remover todos os designados existentes:
-
-         1. Clique em **Remover todos os atribuídos existentes** e em **Sim, Excluir todos os atribuídos**.
-
-            Isso remove não somente os atribuídos comuns (atribuídos exibidos na caixa de diálogo de edição), mas também todos os atribuídos em todas as questões selecionadas.
-
-         1. (Opcional) Modifique qualquer uma das seguintes opções para os responsáveis selecionados para associar às ocorrências:
-
-            * **Proprietário da Questão:** Selecione o botão de opção para indicar qual destinatário está designado como o Proprietário da Questão. Se não for selecionada, o Adobe Workfront designará o primeiro destinatário como Proprietário do problema. Isso não está disponível para atribuições de equipe.
-            * **Função do destinatário**: selecione uma função na lista suspensa. Se não for selecionada, o Workfront selecionará automaticamente a função principal do usuário.
-
-      1. Clique em **Salvar alterações**.
-
-1. <span class="preview">No ambiente de Visualização, faça o seguinte:</span>
-
-   1. <span class="preview">Clique em **Atribuições** no painel esquerdo e clique no ícone **x** ao lado do destinatário que você deseja remover. </span>
-
-      >[!TIP]
-      >
-      ><span class="preview">Somente os atribuídos a todas as questões selecionadas são exibidos na área **Atribuições**. </span>
-
-      ![Área de atribuições em problemas de edição em massa](assets/assignments-area-on-bulk-edit-issues.png)
-
-   1. <span class="preview">Comece digitando o nome de um usuário, função ou equipe para adicionar atribuídos a todas as questões selecionadas. </span>
-
-      >[!TIP]
-      >
-      >Você pode atribuir vários usuários, funções de trabalho ou equipes. Você pode atribuir somente usuários, funções de trabalho e equipes ativos.
-      >
-      >Se um usuário, função de trabalho ou equipe foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
-      >
-      >* Reatribuir o item de trabalho aos recursos ativos.
-      >* Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
-
-      <span class="preview">Os atribuídos adicionados são adicionados aos existentes. Elas não substituem as existentes para cada problema selecionado. </span>
-   1. <span class="preview">(Opcional) Clique em **Atribuir a mim** para atribuir todos os problemas a você mesmo.</span>
-   1. <span class="preview">Clique em **Salvar**. </span>
+         >* Reassign the work item to active resources.
+         >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+          Information that is common across all issues selected displays. For example, if the same user is assigned to all issues, that user displays in the **Assignee**  column. If information is not common across the issues selected, no information displays.
+      1. To remove individual assignees:
+         1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
+            Or
+            If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the issues that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
+         1. Click  **Remove Assignee** again to add another assignee to remove.
+      1. To remove all existing assignees:
+         1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
+            This removes not only common assignees (assignees that are displayed in the edit  dialog box), but also all assignees on all the selected issues.
+         1. (Optional) Modify any of the following options for the assignees you selected to associate with the issues:
+          * **Issue Owner:**  Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. 
+            * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
+      1. Click **Save Changes**.-->
 
 
 

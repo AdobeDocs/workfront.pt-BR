@@ -6,16 +6,24 @@ description: É possível criar e excluir modelos na área Modelos. Ao criar um 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 46133f435c665dd82d134f18d0b5de4e70bab7d7
+source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 5%
+source-wordcount: '779'
+ht-degree: 6%
 
 ---
 
 # Criar um modelo de projeto
 
 <!-- Audited: 10/2025 -->
+
+<div class="preview">
+
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
+
+Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+
+</div>
 
 É possível criar e excluir modelos na área Modelos. Ao criar um novo modelo, você pode inserir as informações de todas as tarefas e das configurações futuras do projeto. Essas informações serão transferidas para qualquer projeto criado a partir do modelo.
 
@@ -112,23 +120,32 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    ![Caixa Nova Tarefa de Modelo](assets/new-template-task-box.png)
 
-   <!--<span class="preview">The Create Template Task opens in the new experience.</span>-->
+   <span class="preview">A caixa **Criar Tarefa de Modelo** é aberta na nova experiência.</span>
 
-   <!--
-   1. <span class="preview">(Conditional) Using the new experience, update information in the following areas in the **Create Template Task** box:</span>
+1. <span class="preview">(Condicional) Usando a nova experiência, atualize as informações nas seguintes áreas na caixa **Criar Tarefa de Modelo**:</span>
+
    <div class="preview">
-   * Template Task Name
-   * Overview
-   * Assignments
-   * Finance
-   * Custom Forms
-   * Documents
-   * Settings 
+
+   * Nome do Modelo de Tarefa
+   * Visão geral
+   * Atribuições
+   * Finanças
+   * Formulários personalizados
+   * Documentos
+   * Configurações
+
    </div>
-   1. Click **Save**
-   Or (*******remove the 1. from the step below and continue with those steps here*********)
-   1. (Optional) Click **Switch back to old experience** at the bottom of the **Create Template Task** box.
-   The **New Template Task** opens. (************add screen shot***********)-->
+
+1. Clique em **Criar tarefa de modelo**
+
+   Ou
+
+   <span class="preview">Clique em **Retornar à experiência antiga** na parte inferior da caixa **Criar Tarefa de Modelo**.</span>
+   <span class="preview">A **Nova Tarefa de Modelo** abre na experiência antiga.</span>
+
+   >[!TIP]
+   >
+   >Na Produção, a experiência antiga é aberta por padrão.
 
 1. Atualize as informações nas seguintes áreas na caixa **Nova Tarefa de Modelo**:
 
@@ -148,7 +165,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Clique em uma das opções a seguir:
 
    * **Salvar Tarefa de Modelo** para salvar a tarefa de modelo atual e fecha a caixa Nova Tarefa de Modelo.
-   * **Salvar Tarefa de Modelo e Iniciar Outra** para salvar a tarefa de modelo atual e abrir outra caixa Nova Tarefa de Modelo para adicionar outra tarefa.
+   * **Salvar Tarefa de Modelo e Iniciar Outra** para salvar a tarefa de modelo atual e abrir outra caixa **Nova Tarefa de Modelo** para adicionar outra tarefa.
    * **Cancelar** para fechar a caixa sem salvar a tarefa de modelo.
 1. (Opcional) Após adicionar as tarefas de modelo, na seção Tarefas de Modelo, clique no ícone **Gráfico de Gantt** no canto superior direito da Lista de Tarefas para ver uma representação visual da lista de tarefas do modelo.
 
