@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL [!DNL Workfront] Gerenciador de provas ] permissões solução de problemas
+# [!UICONTROL [!DNL Workfront] Gerenciador de provas &#x200B;] permissões solução de problemas
 
 A seguir estão os perfis de permissão disponíveis em [!DNL Adobe Workfront] para usuários de revisão:
 
