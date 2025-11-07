@@ -6,7 +6,7 @@ description: Ao atribuir usuários ou funções a uma tarefa, eles são alocados
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Você pode modificar as horas de alocação ao fazer atribuições avançadas em
   <tr> 
    <td>Permissões de objeto</td>
    <td><p>Contribuir com ou mais permissões para a tarefa</p>
-   <p>Edite permissões para atualizar horas de alocação na caixa Editar tarefa ao editar tarefas <span class="preview">usando a experiência antiga. Não é mais possível gerenciar horas de alocação na caixa Editar tarefa ao editar tarefas na nova experiência.</span></p> <p>Para obter informações, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tarefas</a></p>.</td>
+   <p>Edite permissões para atualizar horas de alocação na caixa Editar tarefa ao editar tarefas <span class="preview">usando a experiência antiga. Não é mais possível gerenciar horas de alocação na caixa Editar tarefa ao editar tarefas na nova experiência.</span></p> <p>Para obter informações, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tarefas</a>.</p></td>
   </tr>
  </tbody>
 </table>

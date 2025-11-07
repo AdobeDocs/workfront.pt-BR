@@ -6,9 +6,9 @@ description: O  [!DNL Adobe Workfront] glossário lista termos comumente usados 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '21167'
+source-wordcount: '21526'
 ht-degree: 0%
 
 ---
@@ -365,7 +365,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Horas]</td> 
-        <td> <p>Relatório de [!UICONTROL Hora Orçada]</p><p>O objeto [!UICONTROL Budgeted Hour] no relatório Budgeted Hour se refere às informações relacionadas a uma ferramenta de gerenciamento de recursos obsoleta. Somente o Bud ". O campo "Horas" neste relatório refere-se às horas orçadas na área do [!UICONTROL Resource Planner] ou do [!UICONTROL Resource Budgeting] do [!UICONTROL Business Case] do projeto. </p> <p>Para obter mais informações sobre como criar um relatório, consulte o artigo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Criar um relatório personalizado</a>.</p> </td> 
+        <td> <p>Relatório de [!UICONTROL Hora Orçada]</p><p>O objeto [!UICONTROL Budgeted Hour] no relatório Budgeted Hour se refere às informações relacionadas a uma ferramenta de gerenciamento de recursos obsoleta. Somente o Bud "[!UICONTROL. O campo "Horas" neste relatório refere-se às horas orçadas na área do [!UICONTROL Resource Planner] ou do [!UICONTROL Resource Budgeting] do [!UICONTROL Business Case] do projeto. </p> <p>Para obter mais informações sobre como criar um relatório, consulte o artigo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Criar um relatório personalizado</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Planejador de recursos Horas Orçadas] </td> 
@@ -716,8 +716,26 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
    <td>[!UICONTROL Custo]</td> 
    <td> <p>O valor monetário que você deve gastar ao concluir um projeto, tarefa ou problema. </p> <p>Você pode rastrear vários tipos de custos de mão de obra, despesas e riscos relacionados ao projeto.Para obter informações sobre o rastreamento de custos no [!DNL Workfront], consulte <a href="../../../manage-work/projects/project-finances/track-costs.md">Rastrear custos</a>.</p> 
    </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Índice de Desempenho de Custo (CPI)]</td> 
+   <td> <p>O [!UICONTROL Índice de Desempenho de Custo (CPI)] descreve a relação no nível de projeto ou tarefa entre o custo planejado e o custo real. Os gerentes de projeto revisam essa métrica para identificar tarefas ou projetos que atualmente rastreiam com custo baixo ou acima em um determinado momento. O custo pode ser medido em horas ou dólares, dependendo do [!UICONTROL Método de Índice de Desempenho (PIM)].</p> 
+    <p> Para obter informações, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-cpi.md">Calcular Índice de Desempenho de Custo(CPI)</a>.</p>
+
+</td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Índice de Desempenho de Agendamento de Custo (CSI)]</td> 
+   <td> <p>O [!UICONTROL Índice de Desempenho de Agendamento de Custo (CSI)] é um cálculo automático que combina o [!UICONTROL Índice de Desempenho de Custo (CPI)] e o [!UICONTROL Índice de Desempenho de Agendamento (SPI)] em uma métrica geral que equilibra custo e agendamento. Ao multiplicar esses valores, uma única métrica pode contabilizar uma programação prolongada com um orçamento menor ou vice-versa. Os gerentes de projeto podem usar isso para determinar a integridade geral do projeto ou da tarefa quando o custo é sacrificado para impulsionar o cronograma no meio do projeto.</p> 
+    <p> Para obter informações, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-csi.md">Calcular Índice de Desempenho de Tempo</a>.</p>
+    </td> 
+  </tr>
+
+
+
+<tr> 
    <td>[!UICONTROL Tipo de Custo]</td> 
    <td>Para uma tarefa, o [!UICONTROL Tipo de Custo] determina como a tarefa acumulará custos. Alguns exemplos incluem [!UICONTROL Horas Fixas], [!UICONTROL Horas Usuários Horas Fixas] e [!UICONTROL Horas Usuários Horas Fixas]. </td> 
   </tr> 
@@ -743,7 +761,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo de Dados Personalizado]</td> 
-   <td>A opção para especificar se um Campo de Dados Personalizados  será armazenado no banco de dados como Texto, Data, Número ou Moeda.</td> 
+   <td>A opção para especificar se um Campo de Dados Personalizados [!UICONTROL] será armazenado no banco de dados como Texto, Data, Número ou Moeda.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo de Exibição Personalizada]</td> 
@@ -894,8 +912,23 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Metas Empresariais]</td> 
    <td>Metas multifuncionais que contribuem para as métricas das metas da empresa.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Estimativa na Conclusão]</td> 
+   <td><p>Como métrica de desempenho do projeto, a EAC (Estimativa no término) representa o custo total projetado de seu projeto ou tarefa quando ela é concluída.</p>
+   <p>Como configuração de projeto, permite definir como o valor de EAC deve ser calculado.</p>
+   <p>Para obter informações, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-eac.md">Calcular EAC (Estimativa no Término)</a>. </p>
+   </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Data de Vencimento Estimada]</td> 
+   <td>Nos relatórios de projetos, tarefas e problemas, a Data de Vencimento Estimada é a data pela qual a Workfront estima que o item deva ser concluído.</td> 
+  </tr>
+
+
+<tr> 
    <td>[!UICONTROL Evento]</td> 
    <td>Qualquer alteração em um projeto ou tarefa.</td> 
   </tr> 
@@ -1335,7 +1368,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
    <td> <p>Um dos [!UICONTROL Tipos de Atualização] de um [!UICONTROL Project]. Esta configuração permite que as linhas de tempo [!UICONTROL Projeto Projetado] e [!UICONTROL Planejado] sejam atualizadas apenas quando "[!UICONTROL Linhas de Tempo Recalculadas]" for clicado. Projetos configurados dessa maneira serão ignorados durante o processo noturno de recálculo e quando o projeto ou as tarefas no projeto forem atualizadas.</p> <p>Para obter mais informações, consulte <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Selecionar o projeto [!UICONTROL Tipo de Atualização] </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL -ME]</td> 
+   <td>[!UICONTROL-ME]</td> 
    <td> <p>Refere-se ao usuário conectado no momento. </p> <p>Recomendamos usar esse campo em um filtro para tornar os relatórios mais genéricos ao compartilhá-los com outros usuários. Dessa forma, você pode criar apenas um relatório que exibirá informações diferentes dependendo de quem faz logon para visualizá-lo, já que as informações são sempre personalizadas para o usuário conectado. </p> </td> 
   </tr> 
   <tr> 
@@ -1557,7 +1590,14 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
    <td>[!UICONTROL Porcentagem Concluída]</td> 
    <td> <p>Um campo de projeto, tarefa ou problema que mostra qual porcentagem do trabalho associado à tarefa, projeto ou problema foi concluída.</p> <p>Você pode atualizar esse campo manualmente para problemas e tarefas de trabalho. </p> <p>Para projetos e tarefas pai, esse campo é um acúmulo de todas as tarefas de trabalho e você não pode atualizá-lo manualmente. </p> <p>Para obter mais informações, consulte Visão geral do <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Projeto [!UICONTROL Porcentagem Concluída]</a>.</p> </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td>[!UICONTROL Método de Índice de Desempenho (PIM)]</td> 
+   <td> <p>O [!UICONTROL Método de Índice de Desempenho (PIM)] do projeto controla o método que a Adobe Workfront usa para calcular as métricas de desempenho do projeto, como Índice de Desempenho de Custo (CPI), Índice de Desempenho de Tempo (CSI), Índice de Desempenho de Tempo (SPI) e Estimar na Conclusão (EAC).</p> 
+   <p>O Workfront calcula esses valores usando horas ou custo.</p>
+   <p>Para obter informações, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/set-pim.md">Definir o PIM (Método de Índice de Desempenho)</a>.</p>
+   </td> 
+  </tr>
+ <tr> 
    <td>[!UICONTROL Permissão]</td> 
    <td> <p>Direitos concedidos a um usuário em um objeto, normalmente fornecidos para que ele possa concluir o trabalho no item ou visualizá-lo. Você pode conceder permissões para:</p> 
     <ul> 
@@ -1606,11 +1646,8 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   <tr> 
    <td>[!UICONTROL Custo Planejado]</td> 
    <td> <p>Um total do [!UICONTROL Custo de Trabalho Planejado] e do [!UICONTROL Custo de Despesas Planejado] do projeto. Isso não inclui o [!UICONTROL Custo de Risco Planejado] no projeto.  </p> </td> 
-  </tr>
-
-
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Alinhamento de Data Planejada]</td> 
    <td> <p>Este é um indicador automático que o Workfront atribui a projetos, tarefas e problemas para mostrar quando um item será concluído em relação à Data de conclusão planejada. </p>
    <p>A seguir estão os valores possíveis para o indicador de Alinhamento de Data Planejada: </p>
@@ -1622,7 +1659,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Duração Planejada]</td> 
-   <td> <p>A [!UICONTROL Duração Planejada] de uma tarefa geralmente é a mesma [!UICONTROL Duração] da tarefa. Representa a diferença em dias entre o [!UICONTROL Início Planejado] e as [!UICONTROL Datas de Conclusão Planejadas] da tarefa. </p> <p>Quando a tarefa tem um Tipo [!UICONTROL Duration] de [!UICONTROL Effort Driven], a Duração Planejada  pode ser diferente da Duração  da tarefa, com base nos recursos atribuídos a ela. </p> <p>Por exemplo, se uma tarefa com um tipo [!UICONTROL Duração] de [!UICONTROL Controlado por Esforço] tiver uma [!UICONTROL Duração] de 3 dias e você atribuir um recurso com um agendamento de tempo integral à tarefa, a [!UICONTROL Duração Planejada] também será de 3 dias. Se você atribuir três recursos com um agendamento de tempo integral à mesma tarefa, a [!UICONTROL Duration] permanecerá 3 dias, mas a Duration Planned será de 1 dia. A [!UICONTROL Duração Planejada] também altera as datas de [!UICONTROL Início Planejado] e [!UICONTROL Conclusão Planejada] da tarefa, para refletir a nova [!UICONTROL Duração Planejada]. Como resultado, a linha do tempo do projeto também é afetada. </p> <p>Para obter mais informações sobre a diferença entre a [!UICONTROL Duração] e a [!UICONTROL Duração Planejada] para tarefas, consulte o artigo <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Diferença entre a [!UICONTROL Duração Planejada] e a [!UICONTROL Duração] para tarefas</a>.</p> <p>Projetos e problemas não têm uma [!UICONTROL Duração Planejada]. </p> </td> 
+   <td> <p>A [!UICONTROL Duração Planejada] de uma tarefa geralmente é a mesma [!UICONTROL Duração] da tarefa. Representa a diferença em dias entre o [!UICONTROL Início Planejado] e as [!UICONTROL Datas de Conclusão Planejadas] da tarefa. </p> <p>Quando a tarefa tem um Tipo [!UICONTROL Duration] de [!UICONTROL Effort Driven], a Duração Planejada [!UICONTROL] pode ser diferente da Duração [!UICONTROL] da tarefa, com base nos recursos atribuídos a ela. </p> <p>Por exemplo, se uma tarefa com um tipo [!UICONTROL Duração] de [!UICONTROL Controlado por Esforço] tiver uma [!UICONTROL Duração] de 3 dias e você atribuir um recurso com um agendamento de tempo integral à tarefa, a [!UICONTROL Duração Planejada] também será de 3 dias. Se você atribuir três recursos com um agendamento de tempo integral à mesma tarefa, a [!UICONTROL Duration] permanecerá 3 dias, mas a [!UICONTROL Duration Planned será de 1 dia. A [!UICONTROL Duração Planejada] também altera as datas de [!UICONTROL Início Planejado] e [!UICONTROL Conclusão Planejada] da tarefa, para refletir a nova [!UICONTROL Duração Planejada]. Como resultado, a linha do tempo do projeto também é afetada. </p> <p>Para obter mais informações sobre a diferença entre a [!UICONTROL Duração] e a [!UICONTROL Duração Planejada] para tarefas, consulte o artigo <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Diferença entre a [!UICONTROL Duração Planejada] e a [!UICONTROL Duração] para tarefas</a>.</p> <p>Projetos e problemas não têm uma [!UICONTROL Duração Planejada]. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Duração Planejada em Minutos]</td> 
@@ -1971,7 +2008,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Gerentes de Recursos]</td> 
-   <td> <p>Em um relatório de projeto ou exibição de lista, este é um campo informativo que mostra os usuários designados para executar atividades de gerenciamento de recursos no projeto.  Quando você usa "" em um relatório, uma lista de gerenciadores de recursos é exibida, com cada gerenciador de recursos no projeto separado por vírgula. Você pode designar até 30 gerentes de recursos em um determinado projeto.</p> <p>Para obter mais informações, consulte o artigo <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md">Designar Gerentes de Recursos para um projeto ou modelo </a>.</p> </td> 
+   <td> <p>Em um relatório de projeto ou exibição de lista, este é um campo informativo que mostra os usuários designados para executar atividades de gerenciamento de recursos no projeto.  Quando você usa "[!UICONTROL]" em um relatório, uma lista de gerenciadores de recursos é exibida, com cada gerenciador de recursos no projeto separado por vírgula. Você pode designar até 30 gerentes de recursos em um determinado projeto.</p> <p>Para obter mais informações, consulte o artigo <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md">Designar Gerentes de Recursos para um projeto ou modelo </a>.</p> </td> 
   </tr>
   <tr> 
    <td>[!UICONTROL Planejador de recursos Horas Orçadas] </td> 
@@ -2069,7 +2106,7 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Cenário] (em [!DNL Workfront Fusion]) </td> 
-   <td> <p>Um cenário é composto por uma série de etapas (módulos) que indicam como os dados devem ser transferidos e transformados entre aplicativos/serviços.</p> <p>Para obter informações sobre cenários em [!DNL Workfront Fusion], consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] visão geral do cenário</a>.</p> </td> 
+   <td> <p>Um cenário é composto por uma série de etapas (módulos) que indicam como os dados devem ser transferidos e transformados entre aplicativos/serviços.</p> <p>Para obter informações sobre cenários em [!DNL Workfront Fusion], consulte <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] visão geral do cenário</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Cenário] (no [!DNL Workfront Scenario Planner]) </td> 
@@ -2078,6 +2115,13 @@ As entradas de horas podem ter um dos seguintes status no Workfront:
   <tr> 
    <td>[!UICONTROL Agenda]</td> 
    <td>A programação de trabalho semanal, incluindo horários de trabalho, combinada com Dias de folga (como Feriados) e dias de exceção (como um dia de trabalho de sábado). Você pode associar cronogramas a projetos e usuários.</td> 
+  </tr> 
+<tr> 
+   <td>[!UICONTROL Índice de Desempenho de Agendamento (SPI)]</td> 
+   <td><p>O [!UICONTROL Schedule Performance Index (SPI)] descreve a relação entre o agendamento planejado e o agendamento real. O Adobe Workfront calcula a SPI nos níveis de projeto e tarefa. Os gerentes de projeto analisam essa métrica para identificar se as tarefas ou os projetos estão atualmente rastreando antes ou depois do cronograma.</p>
+  <p>Para obter informações, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/calculate-spi.md">Calcular SPI (Índice de Desempenho de Agendamento)</a>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Isenção de Agendamento]</td> 

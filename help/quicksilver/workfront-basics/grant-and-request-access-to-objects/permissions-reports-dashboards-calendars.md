@@ -4,10 +4,10 @@ content-type: reference
 product-area: user-management;reports;dashboards;calendars
 navigation-topic: grant-and-request-access-to-objects
 description: O administrador do Adobe Workfront concede aos usuários acesso para exibir ou editar relatórios, painéis e calendários quando eles atribuem níveis de acesso. Para obter mais informações sobre como conceder acesso a relatórios, painéis e calendários, consulte Conceder acesso a relatórios, painéis e calendários.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%

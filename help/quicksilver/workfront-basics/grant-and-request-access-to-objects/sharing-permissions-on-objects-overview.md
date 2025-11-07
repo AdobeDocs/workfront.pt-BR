@@ -3,10 +3,10 @@ content-type: overview
 navigation-topic: grant-and-request-access-to-objects
 title: Visão geral das permissões de compartilhamento em objetos
 description: Você pode compartilhar ou remover permissões de um objeto criado ou de um objeto compartilhado com você.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Você pode compartilhar os seguintes objetos no Workfront com outros usuários:
 
 * **Modelos**: para obter mais informações, consulte [Compartilhar modelos de projeto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfolio**: para obter mais informações, consulte [Compartilhar um portfólio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+* **Portfólios**: para obter mais informações, consulte [Compartilhar um portfólio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 * **Programas**: para obter informações, consulte [Compartilhar um programa](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md).
 
@@ -103,7 +103,7 @@ Você pode compartilhar um objeto com até 100 entidades (usuários, equipes, gr
 
 ## Compartilhar permissões para objetos
 
-A tabela a seguir ilustra o nível de permissões que você pode selecionar ao compartilhar um objeto. Nem todos os objetos têm todas essas configurações disponíveis. Você pode conceder a outra entidade permissões para Exibir ou Gerenciar um objeto. Se você estiver compartilhando um projeto, tarefa ou problema, também poderá conceder permissões ao Contribute para ele.
+A tabela a seguir ilustra o nível de permissões que você pode selecionar ao compartilhar um objeto. Nem todos os objetos têm todas essas configurações disponíveis. Você pode conceder a outra entidade permissões para Exibir ou Gerenciar um objeto. Se você estiver compartilhando um projeto, tarefa ou problema, também poderá conceder permissões para Contribuir com ele.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -136,7 +136,7 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
    <td role="rowheader"><strong>Gerenciar</strong></td> 
    <td> <p>Você pode executar as seguintes ações no objeto:</p> 
     <ul> 
-     <li>Todas as ações incluídas com as permissões de Exibição e Contribute</li> 
+     <li>Todas as ações incluídas nas permissões Exibir e Contribuir</li> 
      <li>Excluí-lo</li> 
      <li>Gerenciar informações financeiras nela</li> 
     </ul> </td> 
@@ -160,7 +160,7 @@ As permissões no Workfront são herdadas hierarquicamente. Isso significa que, 
 
 Por exemplo, se você conceder a um usuário permissões do Contribute para um projeto, o usuário terá permissões do Contribute para todas as tarefas e problemas (objetos filho) associados a esse projeto.
 
-Continuando com o exemplo acima, não é possível restringir permissões a objetos filho. Se não quiser que o usuário tenha permissões do Contribute para objetos filho associados ao projeto, remova manualmente as Permissões herdadas dos objetos e ajuste as permissões para o usuário individual, incluindo as Configurações avançadas. 
+Continuando com o exemplo acima, não é possível restringir permissões a objetos filho. Se não quiser que o usuário tenha permissões do Contribute para objetos filho associados ao projeto, remova manualmente as Permissões herdadas dos objetos e ajuste as permissões para o usuário individual, incluindo quaisquer Configurações avançadas. 
 
 Para obter mais informações sobre a hierarquia e a interdependência de objetos no Workfront, consulte a seção [Interdependência e hierarquia de objetos](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) no artigo [visão geral de objetos do Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 

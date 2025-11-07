@@ -2,20 +2,20 @@
 title: Compartilhamento de um modelo
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
-description: Como administrador do Adobe Workfront, você pode conceder aos usuários acesso para exibir ou editar modelos ao atribuir seus níveis de acesso. Um usuário deve ter uma licença de Plano para ter acesso a Editar modelos.
-author: Alina
+description: Como admin do Adobe Workfront, você pode conceder aos usuários acesso para visualizar ou editar modelos, definindo seus níveis de acesso. Um usuário precisa ter uma licença de plano para ter acesso à edição de modelos.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 2%
+ht-degree: 15%
 
 ---
 
 # Compartilhar um modelo
 
-Como administrador do Adobe Workfront, você pode conceder aos usuários acesso para exibir ou editar modelos ao atribuir seus níveis de acesso. Um usuário deve ter uma licença de Plano para ter acesso a Editar modelos.
+Como admin do Adobe Workfront, você pode conceder aos usuários acesso para visualizar ou editar modelos, definindo seus níveis de acesso. Um usuário precisa ter uma licença de plano para ter acesso à edição de modelos.
 
 Para obter mais informações sobre como conceder acesso a modelos, consulte [Conceder acesso a modelos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 

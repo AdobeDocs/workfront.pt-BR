@@ -7,7 +7,7 @@ description: O Adobe Workfront determina o status do progresso de um projeto obs
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 1%
@@ -28,15 +28,16 @@ A seguir estão os status de progresso dos projetos no Workfront:
  <tbody> 
   <tr> 
    <td>No Prazo</td> 
-   <td> O Status de Progresso de um projeto é <strong>No Prazo</strong> se:<ul><li>Se as Datas de Término Projetada e Estimada forem anteriores ou iguais à Data de Término Planejada do projeto</li></ul> <p> <img src="assets/project-on-time-progress-status-350x69.png" style="width: 350;height: 69;"> </p> </td> 
+   <td> O Status de Progresso de um projeto é <strong>No Prazo</strong> se:<ul><li>Se as Datas de Vencimento Projetadas e Estimadas forem anteriores ou iguais à Data de Término Planejada do projeto <p> <img src="assets/project-on-time-progress-status-350x69.png" style="width: 350;height: 69;"> </p></li></ul>  </td> 
   </tr> 
   <tr> 
    <td>Em Risco</td> 
-   <td> O Status de Progresso de um projeto é <strong>Em Risco</strong> se <strong>todos</strong> dos itens a seguir forem verdadeiros:<ul><li>As datas de conclusão estimada e projetada estão no futuro</li><li> A Data de conclusão estimada é posterior à Data de conclusão planejada e à Data de conclusão projetada </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> O Status de Progresso de um projeto é <strong>Em Risco</strong> se <strong>todos</strong> dos itens a seguir forem verdadeiros:<ul><li>As datas de conclusão estimada e projetada estão no futuro</li><li> A Data de Vencimento Estimada é posterior à Data de Conclusão Planejada e à Data de Conclusão Projetada <p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p></li></ul> </td> 
   </tr> 
   <tr> 
    <td>Fora do Cronograma</td> 
-   <td> O status do progresso de um projeto é <strong>atrasado</strong> se <strong>todos</strong> dos itens a seguir forem verdadeiros:<ul><li>As datas de conclusão estimada e projetada estão no futuro</li><li> As datas de conclusão estimada e projetada são posteriores à data de conclusão planejada do projeto</li><li> A data de conclusão estimada não é posterior à data de conclusão projetada</li></ul> <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> O status do progresso de um projeto é <strong>atrasado</strong> se <strong>todos</strong> dos itens a seguir forem verdadeiros:<ul><li>As datas de conclusão estimada e projetada estão no futuro</li><li> As datas de conclusão estimada e projetada são posteriores à data de conclusão planejada do projeto</li><li> A Data de Vencimento Estimada não é posterior à Data de Conclusão Projetada
+   <p> <img src="assets/project-behind-progress-status-350x67.png" style="width: 350;height: 67;"> </p></li></ul>  </td> 
   </tr> 
   <tr> 
    <td>Atrasado</td> 
@@ -51,7 +52,7 @@ A seguir estão os status de progresso dos projetos no Workfront:
 Considere o seguinte:
 
 * A Data de conclusão projetada do projeto é orientada pela tarefa no Caminho Crítico com a Data de conclusão projetada mais recente.
-* A Data de conclusão estimada do projeto é orientada pela tarefa no Caminho Crítico com a Data de conclusão estimada mais recente.
+* A Data de vencimento estimada do projeto é orientada pela tarefa no Caminho Crítico com a Data de vencimento estimada mais recente.
 
 Para obter informações sobre o Caminho Crítico do projeto, consulte [Visão Geral do Caminho Crítico do projeto](../../../manage-work/tasks/manage-tasks/critical-path.md).
 

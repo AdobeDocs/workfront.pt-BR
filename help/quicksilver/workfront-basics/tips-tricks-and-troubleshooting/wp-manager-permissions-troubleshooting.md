@@ -6,19 +6,20 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Solução de problemas de permissões do Workfront Proof Manager
 description: Os perfis de permissão disponíveis no  [!DNL Adobe] Workfront para usuários de comprovação são Administrador, Supervisor e Gerente.
 feature: Get Started with Workfront
+auhor: Courtney
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL [!DNL Workfront] Gerenciador de provas &#x200B;] permissões solução de problemas
+# [!UICONTROL [!DNL Workfront] Gerenciador de provas ] permissões solução de problemas
 
 A seguir estão os perfis de permissão disponíveis em [!DNL Adobe Workfront] para usuários de revisão:
 
-* [!UICONTROL Administrador]
+* [!UICONTROL Admin]
 * [!UICONTROL Supervisor]
 * [!UICONTROL Gerente]
 

@@ -3,8 +3,9 @@ title: O site  [!DNL Adobe Workfront] Status
 description: Você pode exibir a integridade da plataforma  [!DNL Workfront] , incluindo incidentes, janelas de manutenção agendada e o status atual de todos os clusters  [!DNL Workfront]  acessando o site  [!DNL Workfront Status] .
 draft: Probably
 feature: Get Started with Workfront
+author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -44,7 +45,7 @@ Para se inscrever no site Status ou gerenciar sua inscrição depois de já ter 
    ![](assets/manage-subs.png)
 1. Se você tiver uma conta existente, faça logon nela; caso contrário, crie uma nova conta.
 1. Clique no botão **[!UICONTROL Criar assinaturas]**.
-1. Selecione **[!UICONTROL Adobe Workfront]** sob o cabeçalho **[!UICONTROL Experience Cloud]** e clique em **[!UICONTROL Continuar]**.
+1. Selecione **[!UICONTROL Adobe Workfront]** no cabeçalho **[!UICONTROL Experience Cloud]** e clique em **[!UICONTROL Continuar]**.
 1. Selecione suas preferências regionais e de tipo de evento e clique em **[!UICONTROL Continuar]**.
 1. Clique em **[!UICONTROL Concluído]** para confirmar sua assinatura.
 

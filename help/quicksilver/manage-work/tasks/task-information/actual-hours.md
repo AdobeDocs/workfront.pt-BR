@@ -7,9 +7,9 @@ description: As horas em que você faz logon nos itens de trabalho no Adobe Work
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -93,8 +93,10 @@ Dependendo da área do Workfront em que você acessa as horas reais, elas podem 
 
 * Em relatórios e listas de projetos, tarefas e problemas:
 
-   * **Horas efetivas**: horas registradas para projetos, tarefas ou problemas após maio de 2021. Eles são armazenados no banco de dados do Workfront em horas e seu campo de valor é `actualWorkRequiredDouble`.
-   * **Horas Reais Herdadas**: horas registradas para projetos, tarefas ou problemas a qualquer momento, inclusive antes de maio de 2021. Eles são armazenados no banco de dados do Workfront como minutos e seu campo de valor é `actualWorkRequired`.
+   * **Horas efetivas**: horas registradas para projetos, tarefas ou problemas entre maio de 2021 e hoje. Eles são armazenados no banco de dados do Workfront em horas e seu campo de valor é `actualWorkRequiredDouble`.
+   * **Horas Reais Herdadas**: horas registradas para projetos, tarefas ou problemas a qualquer momento, entre qualquer data anterior a maio de 2021 e hoje. Eles são armazenados no banco de dados do Workfront como minutos e seu campo de valor é `actualWorkRequired`.
+
+     As horas registradas atualmente atualizarão as Horas efetivas atuais e herdadas.
 
      >[!IMPORTANT]
      >
@@ -102,12 +104,14 @@ Dependendo da área do Workfront em que você acessa as horas reais, elas podem 
 
 * Na área Detalhes do projeto, tarefa ou problema, horas reais podem ser exibidas nos seguintes campos:
 
-   * **Horas efetivas**: na guia Detalhes, são horas registradas para projetos, tarefas ou problemas após maio de 2021. Eles são armazenados no banco de dados do Workfront em horas e seu campo de valor é `actualWorkRequiredDouble`.
-   * **Horas efetivas**: em um formulário personalizado de projeto, tarefa ou problema, quando são acessadas usando um campo personalizado de referência de campo nativo que faz referência ao campo nativo Horas efetivas. Estas horas são registradas para projetos, tarefas ou problemas após maio de 2021. Eles são armazenados no banco de dados do Workfront em horas e seu campo de valor é `actualWorkRequiredDouble`.
+   * **Horas efetivas**: na guia Detalhes, essas são horas registradas para projetos, tarefas ou problemas entre maio de 2021 e hoje. Eles são armazenados no banco de dados do Workfront em horas e seu campo de valor é `actualWorkRequiredDouble`.
+   * **Horas efetivas**: em um formulário personalizado de projeto, tarefa ou problema, quando são acessadas usando um campo personalizado de referência de campo nativo que faz referência ao campo nativo Horas efetivas. Essas horas são registradas para projetos, tarefas ou problemas entre qualquer data anterior a maio de 2021 e hoje. Eles são armazenados no banco de dados do Workfront em horas e seu campo de valor é `actualWorkRequiredDouble`.
+
+     As horas registradas atualmente atualizarão as Horas efetivas atuais e herdadas.
 
 >[!NOTE]
 >
->É recomendável usar o campo Horas efetivas sempre que possível, pois o campo Horas efetivas herdadas pode exibir horas imprecisas devido à forma como os incrementos são arredondados.
+>É recomendável usar o campo Horas efetivas sempre que possível, pois o campo Horas efetivas herdadas pode exibir horas imprecisas devido à forma como os incrementos são arredondados quando as horas são armazenadas em minutos.
 
 ## Horas efetivas de tarefas e problemas versus Horas efetivas de projetos
 
