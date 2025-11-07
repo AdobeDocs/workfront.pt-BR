@@ -5,9 +5,9 @@ description: As listas aprimoradas usam um formato de tabela para exibir os iten
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ad9739ac670f723203f1e5e9148c446b6356c126
+source-git-commit: ddae871559a756f00ef96e70254e1019964ce882
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1288'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 |--- |--- |
 | Prioridades | <ul><li>Início > selecione o ícone Prioridades no menu esquerdo</li><li>Menu principal > Prioridades</li></ul> |
 | Lista de solicitações | <ul><li>Solicitações (somente nova experiência)</li><li>Widget Minhas solicitações na página inicial</li></ul> |
-| Lista de taxas de câmbio | <ul><li>Configuração > Preferências do Projeto > Taxas de Câmbio</li></ul> |
+| Listas de status, prioridades, severidades e taxas de câmbio em Configuração | <ul><li>Configuração > Preferências do Projeto > Status</li><li>Configuração > Preferências do Projeto > Prioridades</li><li>Configuração > Preferências do Projeto > Severidades</li><li>Configuração > Preferências do Projeto > Taxas de Câmbio</li></ul> |
 
 ## Adicionar e editar itens em uma lista aprimorada
 
@@ -93,19 +93,19 @@ Quando você marca a caixa de seleção ao lado de um item na lista aprimorada, 
 
 >[!NOTE]
 >
->Várias listas aprimoradas podem permitir a seleção de um único item, a edição em massa (seleção de mais de um item) ou nenhuma seleção de item.
+>Listas aprimoradas diferentes podem permitir a seleção de um único item, a edição em massa (seleção de mais de um item) ou nenhuma seleção de item.
 
 Clique em um botão na barra de ações para realizar essa ação, como visualizar o item da lista, excluir o item ou editar o item.
 
 Se nenhuma ação estiver disponível para o item selecionado, a barra de ação indicará &quot;Nenhuma ação disponível&quot;.
 
-![Exemplo da barra de ações](assets/glist-action-bar-exchange-rates.png)
+![Exemplo da barra de ações](assets/glist-action-bar-statuses.png)
 
 O menu **Mais** é o menu de três pontos que aparece ao lado de um campo principal em um item da lista quando você passa o mouse sobre ele. (O campo principal é a coluna mais à esquerda da tabela.)
 
 Clique no menu para ver as ações adicionais do item. Algumas ações podem ser específicas dessa lista e não aparecem em nenhuma outra lista.
 
-![Mais exemplo de menu](assets/glist-more-menu-exchange-rates.png)
+![Mais exemplo de menu](assets/glist-more-menu-priorities.png)
 
 ## Personalizar colunas em uma lista aprimorada
 
@@ -127,6 +127,23 @@ Algumas listas aprimoradas permitem ocultar e exibir colunas e reordenar as colu
    Um indicador é exibido no botão **Colunas** quando as colunas estão ocultas. O indicador não aparece ao reordenar as colunas.
 
    ![Indicador para colunas ocultas](assets/glist-columns-hidden-indicator.png)
+
+## Aplicar uma exibição a uma lista aprimorada
+
+Uma exibição é um conjunto personalizado de arranjos e filtros de coluna que você pode aplicar a uma lista. Você pode criar novas visualizações e editar visualizações existentes.
+
+Para aplicar uma exibição, clique na lista suspensa **Exibições** e selecione a exibição que deseja aplicar à lista.
+
+Para criar uma nova view:
+
+1. Clique na lista suspensa **Exibições** e selecione **Nova exibição**.
+1. Insira um nome para o modo de exibição e clique em **Criar**.
+1. (Opcional) Oculte, exiba ou reorganize as colunas. Para obter mais informações, consulte [Personalizar colunas em uma lista aprimorada](#customize-columns-in-an-enhanced-list).
+1. (Opcional) Filtre e agrupe os itens da lista. Para obter mais informações, consulte [Filtrar e agrupar itens em uma lista aprimorada](#filter-and-group-items-in-an-enhanced-list).
+
+   As alterações nas exibições são salvas automaticamente e ficam visíveis para qualquer pessoa que use a exibição.
+
+   Na próxima vez que você aplicar essa visualização, as configurações de coluna e filtro permanecerão da maneira definida.
 
 ## Filtrar e agrupar itens em uma lista aprimorada
 
