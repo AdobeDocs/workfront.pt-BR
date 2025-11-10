@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7900629ccffae809ed97dbeae5d27ddff69536d5
+source-git-commit: e92910e553f08aea12e9e1b17a17413731c37d2f
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1331'
 ht-degree: 3%
 
 ---
@@ -204,6 +204,12 @@ Essa atualização é para Mac e Windows.
 
 A API do Workfront versão 21 foi lançada em 23 de outubro de 2025. Para a API versão 21, modificamos alguns recursos e endpoints. Algumas das alterações são compatíveis com a nova funcionalidade, enquanto outras facilitam o uso das informações disponíveis por meio da API.
 
+>[!IMPORTANT]
+>
+>Essa alteração de versão da API apresenta uma mudança radical que pode afetar suas chamadas de API existentes. Isso se deve ao fato de que a API versão 21 usa Assinaturas de evento versão 2.
+>
+> Para campos de seleção múltipla, a versão 2 das Inscrições no evento sempre é enviada como uma matriz. A versão 1 envia uma matriz se mais de um valor for selecionado. Se apenas um valor fosse selecionado, ele enviaria uma string.
+
 Para obter informações sobre novidades e atualizações, consulte [Novidades na API versão 21](/help/quicksilver/wf-api/api/new-api-version-21.md).
 
 Para obter informações sobre versões de API, consulte [Controle de versão de API e agendamento de suporte](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
@@ -231,12 +237,12 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
