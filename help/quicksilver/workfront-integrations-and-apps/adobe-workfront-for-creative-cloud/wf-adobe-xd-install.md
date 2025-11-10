@@ -6,9 +6,9 @@ description: Você pode instalar o plug-in do Adobe Workfront para XD no Adobe M
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '497'
 ht-degree: 2%
 
 ---
@@ -105,20 +105,19 @@ Você pode instalar o plug-in [!DNL Adobe Workfront for XD] por conta própria a
    >* Para localizar seu domínio, abra um navegador, navegue até a instância do [!DNL Workfront] e copie a primeira parte da URL:\
    >![Localizar domínio](assets/domain-350x50.png)
    >
-   >* Se sua instância do Workfront estiver integrada ao Experience Cloud, peça ao administrador para fornecer o domínio do Workfront encontrado em Produto > Workfront no Admin Console.
+   >* Se sua instância do Workfront estiver integrada ao Experience Cloud e o domínio começar com `experience.adobe.com`, peça ao administrador para fornecer o domínio do Workfront encontrado em Produto > Workfront no Admin Console.
 
-1. No navegador, insira suas credenciais do [!DNL Workfront] e clique em **[!DNL Log in]**. Se sua empresa usa um logon único (SSO), você será direcionado à página do seu provedor de SSO para fazer logon.
+1. No navegador, insira suas credenciais do [!DNL Adobe] e clique em **[!DNL Log in]**. Se sua empresa usa um logon único (SSO), você será direcionado à página do seu provedor de SSO para fazer logon.
 
    >[!NOTE]
    >
    >Talvez você não seja solicitado a inserir suas credenciais do [!DNL Workfront] se tiver feito logon recentemente.
 
-   Siga as instruções para fazer logon no [!DNL Workfront].
+1. Siga as instruções para fazer logon no [!DNL Workfront].
 
    >[!NOTE]
    >
    >* O [!DNL Workfront] se conecta ao [!DNL Adobe Creative Cloud] usando o OAuth 2.0, um padrão seguro usado pela maioria das integrações baseadas na Web para a autenticação e autorização de usuários.
-   >* Quando for solicitado que você insira o [domínio ou host] da sua conta do [!DNL Workfront], digite-o usando este formato: *yourCompany&#39;sDomain.my.workfront.com*. O domínio da sua empresa geralmente é o nome da sua empresa.
 
 1. Clique em **[!UICONTROL Permitir Acesso]** para concluir o logon e voltar para [!DNL Adobe XD] para ver seu trabalho.
 

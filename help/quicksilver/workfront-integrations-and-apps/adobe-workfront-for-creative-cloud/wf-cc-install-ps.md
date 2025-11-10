@@ -6,9 +6,9 @@ description: Você pode instalar o plug-in do Adobe Workfront para Photoshop no 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 61e5b763ec527aeb846e975e06842dc2c4c69918
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '581'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ Você pode instalar o plug-in [!DNL Adobe Workfront for Photoshop] por conta pr�
 1. Vá para a [página de instalação do Adobe Workfront para Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share) no Adobe Exchange.
 1. Na caixa de diálogo exibida, clique em **Abrir [!DNL Adobe Creative Cloud] aplicativo de desktop**.
 1. Depois que o gerenciador de plug-in [!DNL Adobe Photoshop] for aberto, clique em **[!UICONTROL Instalar]**.
-1. Leia as informações na caixa de diálogo e clique em **[!UICONTROL OK]**.
+1. Leia as informações na caixa de diálogo, clique em **[!UICONTROL OK]** e siga as instruções na tela para concluir a instalação.
 
 1. Prossiga para a seção a seguir para obter informações sobre como abrir o plug-in.
 
@@ -99,20 +99,43 @@ Você pode instalar o plug-in [!DNL Adobe Workfront for Photoshop] por conta pr�
    >* Para localizar seu domínio, abra um navegador, navegue até a instância do [!DNL Workfront] e copie a primeira parte da URL:\
    >![Localizar domínio](assets/domain-350x50.png)
    >
-   >* Se sua instância do Workfront estiver integrada ao Experience Cloud, peça ao administrador para fornecer o domínio do Workfront encontrado em Produto > Workfront no Admin Console.
+   >* Se sua instância do Workfront estiver integrada ao Experience Cloud e o domínio começar com `experience.adobe.com`, peça ao administrador para fornecer o domínio do Workfront encontrado em Produto > Workfront no Admin Console.
 
-1. No navegador, insira suas credenciais do [!DNL Workfront] e clique em **[!UICONTROL Fazer logon]**. Se sua empresa usa um logon único (SSO), você será direcionado à página do seu provedor de SSO para fazer logon.
+1. No navegador, insira suas credenciais do [!DNL Adobe] e clique em **[!UICONTROL Fazer logon]**. Se sua empresa usa um logon único (SSO), você será direcionado à página do seu provedor de SSO para fazer logon.
 
    >[!NOTE]
    >
    >Talvez você não seja solicitado a inserir suas credenciais do [!DNL Workfront] se tiver feito logon recentemente.
 
-   Siga as instruções para fazer logon no [!DNL Workfront].
+1. Siga as instruções para fazer logon no [!DNL Workfront].
 
    >[!NOTE]
    >
    >* O [!DNL Workfront] se conecta ao [!DNL Adobe Creative Cloud] usando o OAuth 2.0, um padrão seguro usado pela maioria das integrações baseadas na Web para a autenticação e autorização de usuários.
-   >* Quando for solicitado que você insira o [domínio ou host] da sua conta do [!DNL Workfront], digite-o usando este formato: *yourCompany&#39;sDomain.my.workfront.com*. O domínio da sua empresa geralmente é o nome da sua empresa.
+
 
 1. Clique em **[!UICONTROL Permitir Acesso]** para concluir o logon.
 1. Retorne ao [!UICONTROL Adobe Photoshop] para ver seu trabalho.
+
+### Solução de problemas de erros de logon
+
+**O erro &quot;Algo deu errado&quot; é exibido ao tentar fazer logon**
+
+
+Você não pode usar uma URL que comece com `experience.adobe.com` para fazer logon no plug-in.
+
+![erro de logon](assets/plugin-log-in-error.png) ![domínio](assets/incorrect-domain.png)
+
+
+Para corrigir esse problema,
+
+1. Exclua a pasta que armazena o domínio do plug-in.
+
+   >[!TIP]
+   >
+   >Em uma Mac, vá para Localizador, pressione **Command+Shift+.** para exibir pastas ocultas, navegue até **/Users//Library/Application Support** e exclua a pasta **Workfront**.
+
+
+1. Volte para o plug-in e insira o domínio do Workfront. O domínio deve ser `company-name.my.workfront.com` e não `experience.adobe.com`.
+
+   Para [encontrar seu domínio do Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md), se você estiver na Experiência unificada da Adobe, vá para Configuração, Informações do cliente.
