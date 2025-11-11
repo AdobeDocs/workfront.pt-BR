@@ -7,7 +7,7 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2ed58b15-098a-4937-86e6-2a8444389c00
-source-git-commit: a48d7691d64a561bdef8a6bad506a3ce0c4f839e
+source-git-commit: 7e14f7224b5383f94c330a1543b9e01b651ed821
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
@@ -24,5 +24,5 @@ Esta seção contém os seguintes artigos:
 
 * [Editar um relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
 * [Editar filtros de relatório em um painel de tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
-* [Duplicação de um relatório em um Painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report)
+* [Duplicação de um relatório em um Painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
 * [Excluir um relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)

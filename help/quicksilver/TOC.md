@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 8b44aaa935b4c2fa8d9f9408b9b17d927488cfb4
+source-git-commit: ddbee8110fbfb76a3a6bfe8bca66e1ba1cc40fb4
 workflow-type: tm+mt
 source-wordcount: '13522'
 ht-degree: 2%
@@ -1548,7 +1548,7 @@ ht-degree: 2%
          * [Gerenciar relatórios: índice do artigo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
          * [Editar um relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
          * [Editar filtros de relatório em um painel de tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
-         * [Duplicação de um relatório em um Painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report)
+         * [Duplicação de um relatório em um Painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
          * [Excluir um relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
    * Relatórios {#reports}
       * [Relatórios](reports-and-dashboards/reports/reports-overview.md)
