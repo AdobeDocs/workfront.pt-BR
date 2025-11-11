@@ -6,20 +6,22 @@ description: Você pode aproveitar a funcionalidade ágil para o seu projeto sem
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
 
 # Gerenciar um projeto na visualização Agile
 
-<!-- Audited: 2/2024 -->
+<!-- Audited: 11/2025 -->
 
 Você pode aproveitar a funcionalidade ágil para o seu projeto sem os desafios administrativos que normalmente acompanham as práticas ágeis (como gerenciar um backlog da equipe ou criar iterações).
 
-Se você quiser trabalhar em um ambiente ágil que use uma lista de pendências de equipe e permita criar iterações de tarefas na lista de pendências, siga as instruções em [Trabalhar em um ambiente ágil](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+Você pode trabalhar em um ambiente ágil que usa um backlog de equipe e permite criar iterações de tarefas no backlog.
+
+Para obter informações, consulte [Trabalhar em um ambiente ágil](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Requisitos de acesso
 
@@ -95,7 +97,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Exibir um projeto na exibição Agile
 
-1. Vá para o projeto que deseja visualizar em uma visualização Agile, na lista de tarefas ou na lista de problemas.
+Você pode exibir as tarefas ou os problemas em um projeto em uma exibição ágil, em vez de em uma lista, para aproveitar a funcionalidade ágil para o desenvolvimento do seu projeto.
+
+1. Vá para o projeto que deseja exibir em um modo de exibição ágil e clique em **Tarefas** ou **Problemas** no painel esquerdo.
 1. Clique no ícone **Exibição do painel** ![Ícone do painel](assets/board-icon-for-agile-view.png).
 
    A exibição de quadro do projeto é exibida por padrão.
@@ -107,4 +111,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Para obter mais informações, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) e [Personalizar quais campos são exibidos em um cartão](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Observe que você não pode definir políticas de coluna na exibição de quadro de um projeto.
 
-1. (Opcional) Para retornar à exibição de lista, clique no ícone **Lista**.
+1. (Opcional) Para retornar ao modo de exibição de lista, clique no ícone **Lista** ícone ![Lista](assets/list-icon.png).
+
+   A lista de tarefas ou problemas é exibida.

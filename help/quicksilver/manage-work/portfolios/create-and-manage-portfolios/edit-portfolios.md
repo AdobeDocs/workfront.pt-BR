@@ -6,9 +6,9 @@ description: É possível editar informações nos portfólios criados por você
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: cfbd38d9ab8f1976f891164a2572bb929339477d
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1080'
 ht-degree: 1%
 
 ---
@@ -149,6 +149,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * [[!UICONTROL Visão geral]](#overview)
    * [Formulários personalizados](#custom-forms)
    * [Comentário](#comment)
+
+
+   >[!TIP]
+   >
+   >Para recalcular campos personalizados para vários portfólios de uma vez, selecione vários portfólios em uma lista e clique no menu **Mais** ![Mais menu](assets/more-icon.png) na parte superior da lista e **Recalcular Expressões**.
+
 
 ### [!UICONTROL Visão geral] {#overview}
 

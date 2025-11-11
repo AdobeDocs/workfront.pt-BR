@@ -6,9 +6,9 @@ description: É possível editar informações sobre programas criados por você
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1109'
 ht-degree: 1%
 
 ---
@@ -111,6 +111,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * [[!UICONTROL Visão geral]](#overview)
    * [[!UICONTROL Formulários personalizados]](#Custom%C2%A0F)
    * [[!UICONTROL Comentário]](#comment)
+
+
+   >[!TIP]
+   >
+   >Para recalcular campos personalizados para vários programas de cada vez, selecione vários programas em uma lista e clique no menu **Mais** ![Mais menu](assets/more-icon.png) na parte superior da lista e **Recalcular Expressões**.
 
 ### [!UICONTROL Visão geral] {#overview}
 

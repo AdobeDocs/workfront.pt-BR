@@ -8,16 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '721'
 ht-degree: 1%
 
 ---
 
 # Criar um cartão de pontuação
 
-<!--Audited: 05/2025-->
+<!--Audited: 11/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -48,7 +48,7 @@ Você pode criar um cartão de pontuação da seguinte maneira:
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Workfront</td> 
-   <td><p>Qualquer</p></td> 
+   <td><p>Workfront ou Workflow Prime ou superior</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 

@@ -7,16 +7,16 @@ description: A Data de conclusão projetada é um indicador calculado em tempo r
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
 
 # Visão geral da Data de conclusão projetada para projetos, tarefas e problemas
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2025 -->
 
 A Data de conclusão projetada é um indicador calculado em tempo real de quando o projeto, tarefa ou problema será concluído. Quando o projeto, tarefa ou problema é marcado como Concluído, a Data de conclusão projetada muda para a data da Data de conclusão atual.
 
@@ -122,6 +122,9 @@ Para criar um relatório de problemas que inclua a Data de conclusão projetada:
 1. Selecione-a quando ela aparecer na lista, sob o objeto **Problema**.
 1. Clique em **Salvar + Fechar**.
 
+   ![Data de Término Projetada do Problema na coluna do relatório](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+
+
    A coluna **Data de Conclusão Projetada** no relatório está preenchida.
 
-   ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
+

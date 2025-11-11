@@ -7,9 +7,9 @@ description: Para agregar vários campos no Adobe Workfront e exibir esse valor 
 author: Jenny
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -87,8 +87,9 @@ Para obter mais informações sobre a sintaxe que deve ser usada em uma coluna p
 
 * Na página principal de um objeto, clicando no ícone Mais ![ícone Mais](assets/more-icon.png) e clicando em **Recalcular Expressões**
 
-* Edição de vários objetos em massa quando **Recalcular Expressões Personalizadas** está habilitado
-* Edição de um formulário personalizado quando **Atualizar cálculos anteriores** está habilitado para o campo personalizado calculado
+* Edição de vários objetos em massa quando **Recalcular Expressões Personalizadas** está habilitado.
+* Editar vários objetos em massa ao clicar em **Recalcular Expressões** no menu Mais em uma lista de objetos.
+* Editar um formulário personalizado quando **Atualizar cálculos anteriores** estiver habilitado para o campo personalizado calculado.
 
 ## Quando usar colunas calculadas em uma exibição
 

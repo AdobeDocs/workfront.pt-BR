@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: ddbee8110fbfb76a3a6bfe8bca66e1ba1cc40fb4
+source-git-commit: 52c907abde5c96ad50e4ccb031414baf6475186c
 workflow-type: tm+mt
 source-wordcount: '13522'
 ht-degree: 2%
@@ -2025,7 +2025,7 @@ ht-degree: 2%
    * [Atualizar prioridades de iniciativa no Planejador de cenários](scenario-planner/prioritize-initiatives.md)
    * [Atualizar ou criar projetos publicando iniciativas no Planejador de cenários](scenario-planner/publish-scenarios-update-projects.md)
    * [Visão geral da reconciliação de alocações de recursos entre projetos e iniciativas](scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
-   * [Solicitar acesso a um plano no Planejador de cenários](scenario-planner/request-access-to-plan.md)
+   * [Solicitar permissões para um plano no Planejador de cenários](scenario-planner/request-access-to-plan.md)
    * [Resolver conflitos de iniciativa no Planejador de cenários](scenario-planner/resolve-conflicts-in-sp.md)
    * [Compartilhar um plano no Planejador de cenários](scenario-planner/share-a-plan.md)
    * [Mostrar alocação de funções para projetos e iniciativas na lista de tarefas](scenario-planner/show-role-allocation-task-list-nwe.md)

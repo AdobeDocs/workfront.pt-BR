@@ -4,10 +4,10 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Criar gráfico de um relatório por um campo personalizado de seleção múltipla
 description: Você pode criar um relatório por meio de um campo personalizado de seleção múltipla somente após criar um campo calculado adicional que capture as opções selecionadas no campo personalizado de seleção múltipla.
-author: Nolan
+author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 0%

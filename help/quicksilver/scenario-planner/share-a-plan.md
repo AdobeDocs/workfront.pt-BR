@@ -7,7 +7,7 @@ description: Você pode compartilhar um plano criado no Planejador de cenários 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 2%
@@ -118,7 +118,7 @@ Para obter mais informações sobre o acesso ao [!DNL Scenario Planner] para vá
 * Não é possível exibir planos que você não criou ou que não estão compartilhados com você.
 * Você só pode compartilhar um plano com outros usuários. Não é possível compartilhar planos com grupos, equipes ou empresas.
 * Primeiro, salve um plano antes de compartilhá-lo.
-* Você pode compartilhar um URL para um plano com outro usuário. Se o usuário não tiver permissões para pelo menos exibir o plano, poderá solicitar acesso ao plano a outro usuário quando receber o URL. Para obter informações sobre como solicitar acesso a um plano, consulte [Solicitar acesso a um plano no [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+* Você pode compartilhar um URL para um plano com outro usuário. Se o usuário não tiver permissões para pelo menos exibir o plano, poderá solicitar acesso ao plano a outro usuário quando receber o URL. Para obter informações sobre como solicitar acesso a um plano, consulte [Solicitar permissões para um plano em [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
 * Ao compartilhar vários planos que já foram compartilhados com outras pessoas, os usuários com os quais você compartilha não substituem, mas são adicionados aos usuários existentes em cada plano selecionado.
 
 ## Opções de permissão do plano

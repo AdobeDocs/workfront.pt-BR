@@ -2,21 +2,23 @@
 product-area: enterprise-scenario-planner-product-area
 keywords: plano,permissões,compartilhamento,iniciativas,cenários,cenário
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Solicitar Acesso a um Plano no Planejador de Cenários
+title: Solicitar permissões para um plano no Planejador de cenários
 description: Você pode solicitar acesso a um plano no Planejador de cenários do Adobe Workfront quando o link para o plano for compartilhado com você.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
-# Solicitar acesso a um plano no [!DNL Scenario Planner]
+# Solicitar permissões para um plano no [!DNL Scenario Planner]
 
-Você pode solicitar acesso a um plano no [!DNL Adobe Workfront Scenario Planner] quando o link para o plano for compartilhado com você.
+<!--Audited: 11/2025-->
+
+Você pode solicitar permissões para um plano no [!DNL Adobe Workfront Scenario Planner] quando o link para o plano for compartilhado com você.
 
 ## Requisitos de acesso
 
@@ -95,7 +97,7 @@ Antes de solicitar acesso a um plano no [!DNL Scenario Planner], você deve ter 
 >
 >Se você não tiver direitos de nível de acesso para [!DNL Scenario Planner] e tentar acessar um plano por meio de um link, não poderá solicitar acesso ao plano. Em vez disso, uma tela exibe informando para contatar o administrador [!DNL Workfront].
 
-## Solicitar acesso aos planos no [!DNL Workfront Scenario Planner]
+## Solicitar permissões para planos no [!DNL Workfront Scenario Planner]
 
 Se você ainda não tiver permissões para um plano e navegar até ele a partir de um link compartilhado com você, uma tela será exibida para informá-lo de que você não tem permissões para exibir o plano. Você será solicitado a solicitar permissões ao criador do plano.
 
@@ -107,7 +109,7 @@ Para solicitar permissões:
 
 1. Clique em um link para um plano.
 
-   ![Solicitar acesso ao plano](assets/request-access-to-plan-350x277.png)
+   ![Solicitar permissões para planejar](assets/request-access-to-plan-350x277.png)
 
 1. No menu suspenso **[!UICONTROL Solicitar acesso a]**, indique o nível de permissões que deseja receber. Selecione entre as seguintes opções:
 
