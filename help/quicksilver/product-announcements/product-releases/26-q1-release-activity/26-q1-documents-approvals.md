@@ -4,9 +4,9 @@ description: Aprimoramentos de documentos e aprovações no primeiro trimestre d
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7fb12a3fbdad661baf2d0ad472ce8017e178ddef
+source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,25 @@ Esta página descreve as melhorias de documentos e aprovações feitas com a ver
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2026, consulte [Visão geral da versão do Primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Suporte entre organizações para Adobe Express com revisão de Workfront
+
+>[!NOTE]
+>
+>Visualização: 13 de novembro de 2025
+>Versão rápida de produção: 13 de novembro de 2025\
+>Produção para todos: 13 de novembro de 2025
+
+Estamos introduzindo suporte entre organizações para o Adobe Express com o Workfront Proofing. Esse aprimoramento permite que os clientes que operam em várias organizações IMS usem e gerenciem workflows de prova com facilidade.
+
+Para obter mais informações, consulte [Introdução à integração do Adobe Express e do Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
+
 
 ## Adobe Experience Manager agora disponível com a integração Frame.io
 
 >[!NOTE]
 >
 >Visualização: 30 de outubro de 2025
->&#x200B;>Versão rápida de produção: 30 de outubro de 2025\
+>Versão rápida de produção: 30 de outubro de 2025\
 >Produção para todos: 30 de outubro de 2025
 
 Agora você pode usar o Experience Manager Assets&#x200B; para gerenciar e armazenar seus ativos digitais que passaram pelo ciclo de revisão e aprovação. Essa integração permite aproveitar os recursos do Adobe Experience Manager, Frame.io e Workfront para simplificar seus processos de colaboração e gerenciamento de conteúdo.

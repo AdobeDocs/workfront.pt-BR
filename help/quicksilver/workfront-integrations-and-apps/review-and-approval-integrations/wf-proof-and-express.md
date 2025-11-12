@@ -8,9 +8,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: 752c39b90e9206a335435350f8844c746a7127e0
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Requisitos de integração
 
-* O Workfront e o Adobe Express devem ser implantados na mesma Organização IMS.
-
-* A integração deve ser habilitada para suas contas pela Equipe de produto do Adobe.
-
-  >[!IMPORTANT]
-  >
-  >A integração do Adobe Express e do Workfront Proof estará disponível para os usuários ao longo de várias versões, começando com contas que têm o Workfront e o Adobe Express associados à mesma ID de organização na Adobe Admin Console, seguidas por clientes com usuários que trabalham em organizações IMS. Se quiser habilitar a integração, entre em contato com o Gerente de sucesso do cliente ou Gerente de conta estratégica.
+* Você deve ter direitos de acesso ao Adobe Express e a pelo menos um ambiente do Workfront com uma licença do Workfront Standard.
 
 * Os usuários devem instalar o [Revisar conteúdo interativo com a ferramenta de revisão do Adobe Workfront](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) antes de começar a revisar rascunhos no Adobe Express.
 
@@ -89,7 +83,7 @@ Quando um modelo expresso for remisturado, uma aprovação será necessária ant
 
 Os usuários devem ter uma licença Standard Workfront para solicitar aprovação da Adobe Express.
 
-Saiba como [obter aprovação em designs](https://helpx.adobe.com/br/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Saiba como [obter aprovação em designs](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Modelos Remix Express e enviar para revisão e aprovação
