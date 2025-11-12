@@ -7,9 +7,9 @@ description: Você pode criar um relatório por meio de um campo personalizado d
 author: Jenny
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -131,13 +131,15 @@ Para criar o campo personalizado calculado que faz referência ao campo personal
 
 ### Criar um gráfico que faça referência a um campo personalizado calculado {#build-a-chart-that-references-a-calculated-custom-field}
 
-1. (Opcional) Para garantir que todos os campos calculados pelos quais você deseja criar gráficos sejam preenchidos com valores, na guia Detalhes do relatório, selecione todos os objetos que contêm o formulário personalizado com a seleção múltipla de campos personalizados e o campo personalizado calculado e clique em **Editar**.
-1. (Opcional e condicional) Selecione o campo **Recalcular Expressões Personalizadas** e clique em **Salvar Alterações**.\
-   ![Recalcular expressões personalizadas](assets/recalculate-custom-expressions-350x259.png)
+1. (Opcional) Para garantir que todos os campos calculados pelos quais você deseja criar gráficos sejam preenchidos com valores, você deve recalcular as expressões personalizadas em todos os objetos do relatório.
+Para obter informações sobre o recálculo de expressões, consulte [Editar informações em campos personalizados](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
+   <!--from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
+   1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
+   ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
    >[!NOTE]
    >
-   >Esta opção foi eliminada da edição de projetos em massa.  Você ainda pode recalcular expressões para projetos em massa clicando no ícone **Mais** ícone ![Mais](assets/more-icon-45x33.png) na parte superior de uma lista de projetos e **Recalcular Expressões**.
+   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. -->
 
 1. Vá para o relatório em que deseja adicionar o gráfico do campo calculado que faz referência ao campo personalizado de multisseleção.
 1. Clique em **Ações de Relatório** e depois em **Editar**.
