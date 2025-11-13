@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '3951'
+source-wordcount: '3968'
 ht-degree: 2%
 
 ---
@@ -563,6 +563,8 @@ Você pode exibir registros conectados na visualização da linha do tempo de um
   Por exemplo, tarefas, estão conectadas a projetos no Workfront. Usando o recurso Detalhamento, você pode exibir projetos que estão conectados a campanhas no Planning, mas não tarefas conectadas a projetos no Workfront.
 
   Se você quiser exibir portfólios e projetos na exibição de linha do tempo de um tipo de registro do Workfront Planning, os portfólios e os projetos deverão estar conectados ao registro do Planning ou a um registro conectado ao registro do Planning cuja exibição de linha do tempo você está gerenciando.
+* Não é possível exibir Marcas do Adobe GenStudio conectadas a tipos de registro do Planning.
+Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Você só pode exibir tipos de registro associados a pelo menos dois campos de data.
 * Os campos de data para os tipos de registro que você deseja exibir na exibição de linha do tempo devem estar visíveis na exibição de tabela do tipo de registro selecionado, como campos de pesquisa.
 * As datas de Início e Término dos tipos de registro que você deseja exibir na exibição de linha do tempo devem estar em ordem cronológica. Por exemplo, se um registro tiver uma data de início de 31 de janeiro e uma data de término de 1º de janeiro, ele não será exibido na exibição de linha do tempo. Para obter mais informações, consulte a seção [Gerenciar uma exibição de linha do tempo](#manage-a-timeline-view) neste artigo.

@@ -6,9 +6,9 @@ description: É possível criar e excluir modelos na área Modelos. Ao criar um 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '734'
 ht-degree: 6%
 
 ---
@@ -17,13 +17,15 @@ ht-degree: 6%
 
 <!-- Audited: 10/2025 -->
 
-<div class="preview">
+<!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
-As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
+<!--<div class="preview"> 
 
-Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-</div>
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> -->
 
 É possível criar e excluir modelos na área Modelos. Ao criar um novo modelo, você pode inserir as informações de todas as tarefas e das configurações futuras do projeto. Essas informações serão transferidas para qualquer projeto criado a partir do modelo.
 
@@ -118,13 +120,11 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Clique em **Nova Tarefa de Modelo** para começar a adicionar tarefas ao seu modelo na caixa **Nova Tarefa de Modelo**.
 
-   ![Caixa Nova Tarefa de Modelo](assets/new-template-task-box.png)
+   A caixa **Criar Tarefa de Modelo** é aberta na nova experiência.
 
-   <span class="preview">A caixa **Criar Tarefa de Modelo** é aberta na nova experiência.</span>
+   ![Nova experiência para Nova Tarefa de Modelo](assets/new-template-task-box-unshimmed.png)
 
-1. <span class="preview">(Condicional) Usando a nova experiência, atualize as informações nas seguintes áreas na caixa **Criar Tarefa de Modelo**:</span>
-
-   <div class="preview">
+1. (Condicional) Usando a nova experiência, atualize as informações nas seguintes áreas na caixa **Criar Tarefa de Modelo**:
 
    * Nome do Modelo de Tarefa
    * Visão geral
@@ -134,14 +134,15 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    * Documentos
    * Configurações
 
-   </div>
-
 1. Clique em **Criar tarefa de modelo**
 
    Ou
 
-   <span class="preview">Clique em **Retornar à experiência antiga** na parte inferior da caixa **Criar Tarefa de Modelo**.</span>
-   <span class="preview">A **Nova Tarefa de Modelo** abre na experiência antiga.</span>
+   Clique em **Retornar à experiência antiga** na parte inferior da caixa **Criar Tarefa de Modelo**.
+
+   A **Nova Tarefa de Modelo** é aberta na experiência antiga.
+
+   ![Caixa Nova Tarefa de Modelo](assets/new-template-task-box.png)
 
    >[!TIP]
    >

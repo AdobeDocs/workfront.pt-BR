@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2040'
 ht-degree: 1%
 
 ---
@@ -280,6 +280,12 @@ A seguir estão os principais objetos e conceitos do Workfront Planning:
 
      ![Nova guia de conexão com opções do Workfront AEM](assets/new-connection-tab-with-workfront-aem-options.png)
 
+   * Um tipo de registro e uma Marca Adobe GenStudio for Performance Marketing.
+
+     Você deve ter uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros às Marcas GenStudio.
+
+     ![Nova guia de conexão com a opção Adobe GenStudio Brand](assets/new-connection-tab-with-genstudio-option.png)
+
 
   Depois de estabelecer uma conexão entre os tipos de registro, você pode conectar registros individuais ou objetos desses tipos uns aos outros. A conexão entre os registros é exibida como um campo de registro conectado ou uma conexão.
 
@@ -396,7 +402,7 @@ Para obter uma lista atualizada dos recursos lançados, consulte [atividade de v
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Módulos do Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): com os módulos do Adobe Workfront Planning, é possível acionar um cenário quando eventos ocorrem no Workfront Planning. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Adobe Workfront Planning.
+* [Módulos do Adobe Workfront Planning para Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): com os módulos do Adobe Workfront Planning, é possível acionar um cenário quando eventos ocorrem no Workfront Planning. Você também pode criar, ler, atualizar e excluir registros ou executar uma chamada de API personalizada para sua conta do Adobe Workfront Planning.
 
 * [Noções básicas da API de Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-api-basics.md): a meta da API de Planejamento do Adobe Workfront é simplificar a criação de integrações com o Planning, introduzindo uma arquitetura REST-ful que opera via HTTP.
 

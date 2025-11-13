@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,19 @@ ht-degree: 0%
 
 <!--Audited: 11/2025-->
 
+<!--remove the old/new experience references when the toggles are removed-->
+
 <!--
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 Ao gerenciar atribuições de tarefas, você pode modificá-las simultaneamente para várias tarefas de uma vez usando o recurso de edição em massa em uma lista de tarefas.
 
@@ -125,25 +127,22 @@ When assigning users to work, their availability according to their schedules af
 
 1. Selecione as tarefas para as quais deseja modificar atribuições e clique no ícone **Editar** ![](assets/edit-icon.png).
 
-   A caixa **Editar Tarefas** abre <span class="preview">na nova experiência. Siga um destes procedimentos:</span>
-
-   <div class="preview">
+   A caixa **Editar tarefas** é aberta na nova experiência. Siga um destes procedimentos:
 
    * Para adicionar responsáveis, comece digitando o nome de um responsável no campo **Pesquisar pessoas, funções ou equipes** e, em seguida, selecione-os quando eles forem exibidos na lista.
    * Para remover atribuídos, clique no ícone **x** à direita do nome. Somente os atribuídos comuns a todas as tarefas são exibidos na lista.
    * Clique em Atribuir a mim para atribuir as tarefas selecionadas a você mesmo.
 
-   </div>
+1. (Condicional) Ao usar a nova experiência, clique em **Salvar**.
 
-1. <span class="preview">(Condicional) Ao usar a nova experiência, clique em **Salvar**.</span>
+1. (Opcional) Clique em **Alternar para experiência antiga** na parte inferior da caixa **Editar tarefas**.
 
-1. <span class="preview">(Opcional) Clique em **Alternar para experiência antiga** na parte inferior da caixa **Editar Tarefas**.</span>
+   A caixa **Editar Tarefas** é aberta na experiência antiga.
 
-   <span class="preview">A caixa **Editar Tarefas** é aberta na experiência antiga.</span>
-
+   <!--
    >[!TIP]
    >
-   >A experiência antiga está disponível por padrão no ambiente de Produção.
+   >The old experience is available by default in the Production environment.-->
 
 1. (Condicional) Na experiência antiga, faça o seguinte para modificar os atribuídos:
 

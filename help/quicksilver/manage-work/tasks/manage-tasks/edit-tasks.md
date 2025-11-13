@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4416'
 ht-degree: 4%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 4%
 </div>
 -->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
-Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 É possível editar informações sobre tarefas que você criou ou para as quais você tem permissões do Contribute ou do Manage.
 
@@ -377,19 +377,17 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
 1. Comece a editar sua tarefa conforme descrito acima.
 1. Clique em **Atribuições** no painel esquerdo.
 
-   <span class="preview">A área Atribuições é aberta na nova experiência.</span>
+   A área Atribuições é aberta na nova experiência.
 
 1. (Condicional) Usando a nova experiência do, faça o seguinte:
 
-   1. <span class="preview">Comece a digitar o nome de um usuário, função de trabalho ou equipe no campo **Pesquisar pessoas, função ou equipe** e selecione-os quando eles forem exibidos na lista</span>
+   1. Comece a digitar o nome de um usuário, função de trabalho ou equipe no campo **Pesquisar pessoas, função ou equipe** e selecione-os quando eles forem exibidos na lista
 
       Ou
 
-      <span class="preview">Clique em **Atribuir a mim** para atribuir a tarefa a você mesmo. </span>
+      Clique em **Atribuir a mim** para atribuir a tarefa a si mesmo.
 
-   1. <span class="preview">Atualize as seguintes informações:</span>
-
-      <div class="preview">
+   1. Atualize as seguintes informações:
 
       <table style="table-layout:auto"> 
          <col> 
@@ -501,7 +499,6 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
          </tbody> 
          </table>
 
-      </div>
 
       <!--<tr> 
       <td role="rowheader">Allocation</td> 
@@ -520,9 +517,9 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
          </tbody> 
          </table>-->
 
-   1. <span class="preview">(Opcional) Clique em **Alternar para experiência antiga** na parte inferior da caixa **Editar tarefa**. </span>
-      <span class="preview">A área Atribuições é aberta na experiência antiga. </span>
-      ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
+   1. (Opcional) Clique em **Alternar para experiência antiga** na parte inferior da caixa **Editar tarefa**.
+A área Atribuições é aberta na experiência antiga.
+      ![Seção de atribuições na caixa Editar tarefa](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
 1. Clique em **Pesquisar pessoas, funções ou equipes** e comece a digitar o nome de um usuário, função ou equipe que deseja atribuir à tarefa, em seguida, clique nele ou pressione Enter quando ele for exibido na lista.
 
@@ -670,7 +667,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
    </tbody>
    </table>
 
-1. Clique em **Salvar alterações** <span class="preview"> ou **Salvar** </span> ou continue com as seções a seguir.
+1. Clique em **Salvar** ou continue com as seções a seguir.
 
 ### Formulários personalizados
 

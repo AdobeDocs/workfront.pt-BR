@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -134,8 +134,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 * Planilhas vazias não são suportadas.
 * Os campos dos seguintes tipos não são suportados e não podem ser mapeados para campos na planilha de importação:
 
-   * Campos de conexão para tipos de objeto Workfront e AEM Assets.
-   * Campos de pesquisa de registros conectados do Planning ou objetos do Workfront e AEM Assets
+   * Campos de conexão para Workfront, tipos de objeto do AEM Assets ou Marcas da GenStudio.
+   * Campos de pesquisa de registros conectados do Planning, Workfront, objetos do AEM Assets ou Marcas da GenStudio.
    * Campos de fórmula
    * Data de criação, Criado por
    * Última data de modificação, Última modificação por
@@ -190,7 +190,7 @@ Para importar tipos de registro usando um arquivo Excel ou CSV:
 
    >[!TIP]
    >
-   >Você só pode mapear para campos a partir de registros conectados do Workfront Planning. Não é possível mapear para campos de conexões Workfront ou AEM Assets. Para obter mais informações, consulte a seção [Considerações sobre a importação de tipos de registros usando um arquivo Excel ou CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file) neste artigo.
+   >Você só pode mapear para campos a partir de registros conectados do Workfront Planning. Não é possível mapear para campos de conexões de marcas Workfront, AEM Assets ou GenStudio. Para obter mais informações, consulte a seção [Considerações sobre a importação de tipos de registros usando um arquivo Excel ou CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file) neste artigo.
 
 1. (Condicional) Depois de atualizar as informações sobre o campo, clique em **Salvar**.
 

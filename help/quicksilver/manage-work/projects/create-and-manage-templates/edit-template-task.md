@@ -7,9 +7,9 @@ description: Após criar um modelo, você pode editar as informações sobre as 
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '4716'
+source-wordcount: '4633'
 ht-degree: 4%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 4%
 
 <!--take out production and preview references and new/ old experiences at release-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
-Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div> -->
 
 Após criar um modelo, você pode editar as informações das tarefas do modelo. As informações atualizadas em uma tarefa de modelo são associadas às tarefas do projeto depois de usar o modelo para criar um projeto ou anexar o modelo a um projeto.
 
@@ -138,15 +138,21 @@ Os nomes dos formulários de alfândega são exibidos somente se houver formulá
 1. (Opcional) Para editar várias tarefas de modelo em massa, selecione várias tarefas de modelo e clique em **Editar** na parte superior da lista de modelos.
 1. (Condicional) Para editar todas as informações sobre a tarefa de modelo ou sobre várias tarefas ao mesmo tempo, clique para selecioná-las em uma lista e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png) na parte superior da lista.
 
-   A caixa **Editar Tarefa de Modelo** é exibida.
+   A caixa **Editar Tarefa de Modelo** é exibida na nova experiência.
+
+   ![Nova experiência para Editar Tarefa de Modelo](assets/edit-template-task-box-unshimmed.png)
 
    >[!TIP]
    >
    >Você também pode selecionar uma tarefa de modelo em uma lista e clicar em **Editar** à direita do nome da tarefa de modelo no cabeçalho, para abrir a caixa **Editar Tarefa de Modelo**.
 
+   Continue editando a tarefa de modelo conforme descrito na seção [Editar uma tarefa de modelo usando a nova experiência](#edit-a-template-task-using-the-new-experience) deste artigo.
+
+1. (Opcional) Clique em **Retornar à experiência antiga** na parte inferior da caixa **Editar Tarefa de Modelo** para abrir a caixa **Editar Tarefa de Modelo** na experiência antiga.
+
    ![Editar tarefa de modelo](assets/edit-template-tasks-box-classic-350x356.png)
 
-1. (Condicional) No ambiente de Produção, considere especificar informações em qualquer uma das seguintes seções:
+1. Considere especificar informações em qualquer uma das seguintes seções:
 
    * [Visão geral](#overview)
    * [Finanças](#finance)
@@ -156,9 +162,6 @@ Os nomes dos formulários de alfândega são exibidos somente se houver formulá
    * [Comentário](#comment)
 
 1. Continue editando a tarefa de modelo conforme descrito na seção [Editar uma tarefa de modelo usando a experiência antiga](#edit-a-template-task-using-the-old-experience) deste artigo.
-
-1. <span class="preview">(Condicional) No ambiente de Visualização, a caixa Editar tarefa de modelo abre na nova experiência. Continue editando a tarefa de modelo conforme descrito na seção [Editar uma tarefa de modelo usando a nova experiência](#edit-a-template-task-using-the-new-experience) deste artigo.</span>
-1. <span class="preview">(Opcional) Clique em **Retornar à experiência antiga** na parte inferior da caixa **Editar Tarefa de Modelo** para abrir a caixa **Editar Tarefa de Modelo** na experiência antiga. Continue editando a tarefa de modelo conforme descrito na seção [Editar uma tarefa de modelo usando a experiência antiga](#edit-a-template-task-using-the-old-experience) deste artigo.</span>
 
 ### Editar uma tarefa de modelo usando a experiência antiga
 
@@ -438,8 +441,6 @@ Os formulários são adicionados automaticamente às tarefas criadas a partir do
 1. Clique em **Salvar alterações**.
 
    Quando você ou outro usuário cria um projeto a partir desse modelo, todas as configurações aplicadas às tarefas do modelo se tornam as configurações para as tarefas do projeto.
-
-<div class="preview">
 
 ### Editar uma tarefa de modelo usando a nova experiência
 
@@ -767,4 +768,3 @@ Os formulários são adicionados automaticamente às tarefas criadas a partir do
 
    Quando você ou outro usuário cria um projeto a partir desse modelo, todas as configurações aplicadas às tarefas do modelo se tornam as configurações para as tarefas do projeto.
 
-</div>

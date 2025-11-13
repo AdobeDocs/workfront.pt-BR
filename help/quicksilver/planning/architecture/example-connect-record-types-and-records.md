@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
 workflow-type: tm+mt
-source-wordcount: '2047'
-ht-degree: 0%
+source-wordcount: '2050'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ Para fazer isso:
 
      >[!NOTE]
      >
-     >A opção **Tipo de conexão** não está disponível ao conectar registros de espaços de trabalho diferentes ou ao conectar ativos do Experience Manager. Para obter mais informações, consulte [Visão geral dos tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+     >A opção **Tipo de conexão** não está disponível ao conectar registros de espaços de trabalho diferentes ou ao conectar ativos da Experience Manager ou Marcas da GenStudio. Para obter mais informações, consulte [Visão geral dos tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
    * **Aparência do registro**: escolha entre as seguintes opções:
       * **Nome e imagem**: exibe o nome e a miniatura ou o ícone dos registros conectados. É selecionado por padrão.
