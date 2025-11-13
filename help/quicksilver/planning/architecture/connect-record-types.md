@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,11 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
 <td> 
    <p> Produtos adicionais</p> </td> 
    <td> 
-   <p> Além do Adobe Workfront, você deve ter uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar os ativos do AEM aos tipos de registro do Planning.<p>
-    Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p>
+   <p> Além do Adobe Workfront, você deve ter o seguinte, se quiser conectar tipos de registro a objetos dos seguintes aplicativos:</p>
+   <ul><li><p>Uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar o AEM Assets aos tipos de registro do Planning.</p>
+   <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
+   <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas da GenStudio</p>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -225,6 +228,10 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
      Uma guia Nova conexão é aberta para o registro ou tipo de objeto selecionado.
 
+   * Uma **Marca** da Adobe GenStudio for Performance Marketing da seção **Adobe GenStudio**
+
+     ![Seleção de conexão de Marca da GenStudio](assets/brand-genstudio-connection-selection.png)
+
 1. Atualize o campo **Nome** com o nome do novo campo conectado, como ele aparecerá na exibição de tabela ou na página de registro do tipo de registro original. Isso cria a coluna (ou campo) de registro conectado na exibição de tabela do tipo de registro original. Por padrão, o nome do campo é o nome do registro ou objeto ao qual você se conecta.
 
    >[!TIP]
@@ -232,7 +239,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    >É possível ter várias conexões para o mesmo registro ou tipo de objeto. Se você não editar o nome do campo conectado, o Workfront adicionará um numeral após o nome do registro conectado, para indicar o número de tipos de registros conectados com o mesmo nome.
 
 1. Atualize o campo **Descrição** adicionando informações sobre o campo de registro conectado. A descrição de um campo é exibida quando você passa o mouse sobre a coluna do campo em uma tabela.
-1. (Condicional) Ao conectar tipos de registro de dois espaços de trabalho diferentes ou de um registro e um objeto de ativo do Adobe Experience Manager, selecione a opção **Permitir vários registros**. Ao selecioná-lo, você indica que permite que os usuários adicionem vários registros quando o campo de tipo de registro conectado é exibido nos registros originais. É selecionado por padrão.
+1. (Condicional) Ao conectar tipos de registro de dois espaços de trabalho diferentes, um tipo de registro e um objeto de ativo do Adobe Experience Manager ou um tipo de registro e uma Marca da GenStudio, selecione a opção **Permitir vários registros**. Ao selecioná-lo, você indica que permite que os usuários adicionem vários registros quando o campo de tipo de registro conectado é exibido nos registros originais. É selecionado por padrão.
 
    ![Nova conexão com o tipo de registro de outro espaço de trabalho](assets/new-connection-allow-multiple-records-box.png)
 
@@ -271,10 +278,10 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
-1. (Condicional) Ao selecionar uma conexão com o tipo de registro Experience Manager Assets ou Workfront Planning, escolha uma das seguintes opções na área **Aparência do registro**:
+1. (Condicional) Ao se conectar ao Experience Manager Assets, a um tipo de registro do Workfront Planning ou a uma Marca GenStudio, escolha uma das seguintes opções na área **Aparência do registro**:
 
    * **Nome e imagem**: o nome e a miniatura ou o ícone dos registros conectados serão exibidos no campo de registro conectado. Esta é a opção padrão.
    * **Nome**: somente o nome dos registros conectados será exibido no campo de registro conectado.
@@ -349,7 +356,10 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    >[!NOTE]
    >
-   > Os agregadores não estão disponíveis ao conectar tipos de registro ao Experience Manager Assets.
+   > Os agregadores não estão disponíveis ao conectar tipos de registro ao seguinte:
+   >* Experience Manager Assets
+   >* Marcas GenStudio.
+   >
 
    Selecione entre as seguintes opções:
 

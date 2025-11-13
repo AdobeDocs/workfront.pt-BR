@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
 workflow-type: tm+mt
-source-wordcount: '3319'
+source-wordcount: '3359'
 ht-degree: 1%
 
 ---
@@ -84,8 +84,11 @@ Você pode conectar o seguinte:
 <td> 
    <p> Produtos adicionais</p> </td> 
    <td> 
-    <p>Além do Adobe Workfront, você deve ter uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar os ativos do AEM aos registros do Planning.</p>
-    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p>
+   <p> Além do Adobe Workfront, você deve ter o seguinte, se quiser conectar registros com objetos dos seguintes aplicativos:</p>
+   <ul><li><p>Uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar o AEM Assets aos tipos do Planning.</p>
+   <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
+   <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas da GenStudio</p>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -389,7 +392,7 @@ Depois de criar uma conexão entre um tipo de registro e o Adobe Experience Mana
 
 >[!NOTE]
 >
->Os registros de planejamento e seus campos podem ser acessados no Experience Manager Assets quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Os registros de planejamento e seus campos podem ser acessados no Experience Manager Assets quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 Para conectar registros com ativos do Experience Manager:
 
