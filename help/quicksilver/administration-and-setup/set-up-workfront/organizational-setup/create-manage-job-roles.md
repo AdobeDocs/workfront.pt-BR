@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: a30e505aa2061240f92642fda274be66e4947bce
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Com a versão 25.11, a opção Substituir moeda para funções de trabalho será descontinuada na Produção. (A descontinuação ocorre em 30 de outubro no ambiente de Pré-visualização .) Em vez de ter uma moeda base e moedas de substituição, uma moeda estará disponível para funções de trabalho e as taxas de custo e cobrança serão definidas usando essa moeda.
+>Com a versão 25.11, a opção Substituir moeda para funções de trabalho foi descontinuada na Produção. (A desativação ocorreu em 30 de outubro no ambiente de Pré-visualização.) Em vez de ter uma moeda base e moedas de substituição, uma moeda agora está disponível para funções de trabalho e as taxas de custo e cobrança são definidas usando essa moeda.
 
 Como administrador do [!DNL Adobe Workfront] ou usuário com acesso administrativo às Funções de Trabalho, você pode criar funções de trabalho que podem ser atribuídas a usuários e excluir funções de trabalho padrão que não são relevantes para sua organização. Para obter informações sobre acesso administrativo no [!DNL Workfront], consulte [Conceder aos usuários acesso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
+>[!TIP]
+>
+>As funções de trabalho são parte integral do gerenciamento de recursos. Para usar as ferramentas de planejamento de recursos, as funções de trabalho precisam de um custo e uma taxa de faturamento associados a elas. Para obter informações, consulte [Introdução ao Gerenciamento de recursos](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
 ## Requisitos de acesso
 
@@ -76,65 +80,64 @@ Para criar uma função de trabalho:
 
      Para obter informações sobre como desativar funções de trabalho, consulte [Desativar funções de trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
-   * **Moeda Base**: é a Moeda Base, conforme definida na área Configuração pelo administrador do Workfront. Para obter informações, consulte [Configurar taxas de câmbio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+   * **Moeda**: a Moeda Base é mostrada por padrão. O administrador do Workfront adiciona a Moeda base na área Configuração. Você pode alterar a seleção para outra moeda disponível e alterar a moeda em faixas de datas efetivas.
 
      >[!TIP]
      >
-     >Não é possível editar a Moeda base no nível da função de trabalho. Esse campo fica esmaecido e serve como um lembrete da moeda base do sistema.
-
-   * **Taxa de Custo**: esta é a taxa de custo por hora da função de trabalho. Esse valor calcula os custos planejados e reais de tarefas e problemas associados à função e, por fim, os custos planejados e reais dos projetos. Informe a taxa usando a Moeda Base.
-
-     Para taxas de custo atuais, clique em **Adicionar taxa**. Informe o valor do custo/hora para o período e atribua uma Data Inicial e uma Data Final, conforme necessário. A primeira taxa de custo não terá uma data inicial e a última taxa de custo não terá uma data final.
-
-     Algumas datas são adicionadas automaticamente. Por exemplo, se a primeira taxa de custo não tiver uma data final e você adicionar uma segunda taxa de custo com uma data inicial de 1º de maio de 2025, uma data final de 30 de abril de 2025 será adicionada à primeira taxa de custo para que não haja lacunas.
-
-     >[!TIP]
-     >
-     >Ao editar uma função de trabalho existente, você pode selecionar **Classificar por data de início** para ver a data de início mais recente no topo da lista de taxas.
-
-   * **Taxa de Cobrança**: esta é a taxa de cobrança por hora da função de trabalho. Esse valor calcula as receitas planejadas e reais de tarefas e problemas associados à função e, por fim, as receitas planejadas e reais dos projetos. Informe a taxa usando a Moeda Base.
-
-     Para taxas de cobrança efetivas por data, clique em **Adicionar taxa**. Informe o valor do faturamento/hora para o período e atribua uma Data Inicial e uma Data Final conforme necessário. A primeira taxa de cobrança não terá uma data inicial e a última taxa de cobrança não terá uma data final.
-
-     Algumas datas são adicionadas automaticamente. Por exemplo, se a primeira taxa de cobrança não tiver uma data final e você adicionar um segundo com uma data inicial de 1º de maio de 2025, uma data final de 30 de abril de 2025 será adicionada à primeira taxa de cobrança para que não haja lacunas.
-
-     >[!TIP]
-     >
-     >Ao editar uma função de trabalho existente, você pode selecionar **Classificar por data de início** para ver a data de início mais recente no topo da lista de taxas.
-
-   * **Substituir Moeda**: selecione uma moeda associada a esta função de trabalho. Essa é a moeda que a Workfront usa para calcular custos e receita associados a essa função de trabalho.
-
-     Isso é diferente da Moeda base configurada pelo administrador do Workfront na área Configuração e pode ser diferente da moeda associada a um projeto.
-
-     >[!TIP]
-     >
-     >Somente as moedas disponíveis na área Taxas de Câmbio do sistema estão disponíveis neste campo. Se você tiver apenas uma moeda configurada, esse campo não será exibido.
+     >Somente as moedas disponíveis na área Taxas de Câmbio do sistema estão disponíveis neste campo. Se você tiver apenas uma moeda configurada, somente essa moeda estará disponível.
 
      Para obter informações sobre como configurar a Moeda Base no Workfront, consulte [Configurar taxas de câmbio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
      Para obter informações sobre como alterar a moeda de um projeto, consulte [Alterar a moeda do projeto](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
 
-   * **Substituir Taxa de Custo da Moeda**: é a taxa de custo por hora da função de trabalho usando a Substituir Moeda selecionada. O Workfront usa esse valor para calcular os custos planejados e reais de tarefas e problemas associados à função de trabalho.
+   * **Taxa de Custo**: esta é a taxa de custo por hora da função de trabalho. Esse valor calcula os custos planejados e reais de tarefas e problemas associados à função e, por fim, os custos planejados e reais dos projetos. Insira a taxa usando a moeda selecionada.
 
-     Informe a taxa na Moeda de Sobreposição especificada acima. Isso também atualiza a Taxa de Custo para essa função de trabalho ao usar a Moeda Base.
+     Para taxas de custo atuais, clique em **Adicionar taxa**. Informe o valor do custo/hora para o período e atribua uma Data Inicial e uma Data Final, conforme necessário. A primeira taxa de custo não terá uma data inicial e a última taxa de custo não terá uma data final.
+
+     Algumas datas são adicionadas automaticamente. Por exemplo, se a primeira taxa de custo não tiver uma data final e você adicionar uma segunda taxa de custo com uma data inicial de 1º de maio de 2025, uma data final de 30 de abril de 2025 será adicionada à primeira taxa de custo para que não haja lacunas.
 
      Para obter informações sobre como a Workfront calcula custos, consulte [Rastrear custos](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
 
      >[!TIP]
      >
-     >Ao atualizar uma função de trabalho existente que já tenha uma taxa de custo associada a ela, o Workfront calcula a taxa de Sobreposição de Moeda com base na taxa de conversão do seu sistema. Se você atualizar a Taxa de Custo da Moeda de Sobreposição, a taxa de custo da função de ordem de produção também será atualizada automaticamente.
+     >Ao editar uma função de trabalho existente, você pode classificar a lista para ver a data de início mais recente na parte superior da lista de taxas.
 
-   * **Substituir Taxa de Cobrança da Moeda**: esta é a taxa de cobrança por hora da função de trabalho usando a Substituir Moeda selecionada. O Workfront usa esse valor para calcular a receita planejada e real de tarefas e problemas associados à função de trabalho.
+   * **Taxa de Cobrança**: esta é a taxa de cobrança por hora da função de trabalho. Esse valor calcula as receitas planejadas e reais de tarefas e problemas associados à função e, por fim, as receitas planejadas e reais dos projetos. Insira a taxa usando a moeda selecionada.
 
-     Informe a taxa na Moeda de Sobreposição especificada acima. Isso também atualiza a Taxa de cobrança para essa função de trabalho ao usar a Moeda base.
+     Para taxas de cobrança efetivas por data, clique em **Adicionar taxa**. Informe o valor do faturamento/hora para o período e atribua uma Data Inicial e uma Data Final conforme necessário. A primeira taxa de cobrança não terá uma data inicial e a última taxa de cobrança não terá uma data final.
+
+     Algumas datas são adicionadas automaticamente. Por exemplo, se a primeira taxa de cobrança não tiver uma data final e você adicionar um segundo com uma data inicial de 1º de maio de 2025, uma data final de 30 de abril de 2025 será adicionada à primeira taxa de cobrança para que não haja lacunas.
 
      Para obter informações sobre como a Workfront calcula a receita, consulte [Visão geral de faturamento e receita](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
      >[!TIP]
      >
-     >Ao atualizar uma função de trabalho existente que já tenha uma taxa de faturamento associada a ela, o Workfront calcula a taxa de Substituição de Moeda com base na taxa de conversão do seu sistema. Se você atualizar a Taxa de Faturamento da Moeda de Sobreposição, a taxa de faturamento da função de trabalho também será atualizada automaticamente.
+     >Ao editar uma função de trabalho existente, você pode classificar a lista para ver a data de início mais recente na parte superior da lista de taxas.
+
+1. Clique em **[!UICONTROL Criar Função]**. A função de trabalho agora está disponível para ser atribuída a tarefas, problemas, aprovações ou você pode compartilhar modelos de layout ou outros objetos com ela. Para obter informações sobre todos os usos de funções de trabalho em [!DNL Workfront], consulte [Visão geral da função de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Para obter informações sobre como excluir uma função de trabalho, consulte [Excluir funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
 <!--
+   * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
+
+     Enter the rate in the Override Currency specified above. This also updates the Cost Rate for this job role when using the Base Currency.
+
+     For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+     >[!TIP]
+     >
+     >When updating an existing job role that already has a cost rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Cost Rate, the cost rate of the job role also updates automatically.
+
+   * **Override Currency Billing Rate**: This is the billing per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual revenue of tasks and issues associated with the job role.
+
+      Enter the rate in the Override Currency specified above. This also updates the Billing Rate for this job role when using the Base Currency.
+
+      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+     >[!TIP]
+     >
+     >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
+
+
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -197,27 +200,5 @@ Para criar uma função de trabalho:
    </table>
 -->
 
->[!TIP]
->
->As funções de trabalho são parte integral do gerenciamento de recursos. Para usar as ferramentas de planejamento de recursos, as funções de trabalho precisam de um custo e uma taxa de faturamento associados a elas. Para obter informações, consulte [Introdução ao Gerenciamento de recursos](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-1. Clique em **[!UICONTROL Criar Função]**. A função de trabalho agora está disponível para ser atribuída a tarefas, problemas, aprovações ou você pode compartilhar modelos de layout ou outros objetos com ela. Para obter informações sobre todos os usos de funções de trabalho em [!DNL Workfront], consulte [Visão geral da função de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Para obter informações sobre como excluir uma função de trabalho, consulte [Excluir funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>Delete a job role</h2>
-<ol data-mc-continue="false">
-<li value="1">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong> <img src="assets/gear-icon-settings.png">.</li>
-<li value="2">Click<strong>Job Roles.</strong></li>
-<li value="3">Select the job role that you want to delete, then click <strong>Delete.</strong></li>
-<li value="4">If there are any objects (users, tasks, issues) that are assigned to the job role, do one of the following:<br>
-<ul>
-<li><p><strong>Replace the job role with a different job role:</strong> Select the new job role from the drop-down list.</p><p>Any current and past resource allocations that are associated with the deleted job role are transferred to the job role that you select.</p><p>Users who have only one job role assigned to them are reassigned to the job role that you select; users who have a secondary job role assigned to them are not reassigned to the job role that you select.</p></li>
-<li><p><strong>Delete the job role and its resource allocation:</strong> Select<strong>None</strong> from the drop-down list.</p><note type="important">
-Deleting a job role deletes all current and past resource allocation related to that job role for all projects.
-</note><p>​For example, if a task or issue is assigned to only that job role, the task or issue is unassigned after the job role is deleted.</p></li>
-</ul></li>
-<li value="5">Click  <strong>Yes, Delete It</strong>. </li>
-</ol>
-</div>
--->
