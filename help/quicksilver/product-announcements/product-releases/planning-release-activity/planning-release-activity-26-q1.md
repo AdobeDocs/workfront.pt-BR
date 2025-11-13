@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3ba6468327ca390ddc75ff1c18440283daa6eee4
+source-git-commit: 21cab3964ffd79b4b58835fcb992f59eefee78ee
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,18 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Conexão das Marcas GenStudio for Performance Marketing com os tipos de registro do Workfront Planning
+
+>[!NOTE]
+>
+>Visualização: 13 de novembro de 2025
+>Versão rápida de produção: 13 de novembro de 2025
+>Produção para todos: 13 de novembro de 2026
+
+Agora é possível conectar tipos de registro do Workfront Planning com Marcas da Adobe GenStudio for Performance Marketing. Sua organização deve ter o Workfront Planning e o Adobe GenStudio for Performance Marketing.
+
+Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 
 ## Nova caixa de pesquisa de campo nos ícones de cores Filtros, Campos e Linha nas exibições do Planning

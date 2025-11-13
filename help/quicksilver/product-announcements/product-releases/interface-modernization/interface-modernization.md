@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 829b3d343286b63922614b3855f9227667ad57a4
+source-git-commit: f22f00417cd0bfbe53cfee513e8be95a8719f785
 workflow-type: tm+mt
-source-wordcount: '9336'
+source-wordcount: '9416'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,23 @@ Esta página lista as atualizações de interface que estamos fazendo no Adobe W
 Para todas as outras alterações no Adobe Workfront, consulte [Versões do produto](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administração e configuração
+
+### Atualizações na caixa de diálogo ao excluir um item que está em uso
+
+**Versão de visualização: 13 de novembro de 2025; Versão de produção: 20 de novembro de 2025**
+
+Os seguintes objetos agora têm uma caixa de diálogo atualizada ao excluir um item que está em uso:
+
+* Níveis de acesso
+* Empresas
+* Tipo de Despesa
+* Perfis de grupo/planilha de horas
+* Tipo de hora
+* Tipo de Risco
+* Agendar
+* Perfil da Planilha de Horas
+
+A nova caixa de diálogo agora é consistente com outras áreas do Workfront. Não há alteração na funcionalidade.
 
 ### Atualizações de interface para as caixas de diálogo Adicionar e editar empresas
 
@@ -131,9 +148,8 @@ Para obter informações, consulte [Criar e editar riscos em projetos](/help/qui
 
 ### Atualizações de interface para folga pessoal
 
-**Versão de visualização: 23 de outubro de 2025; Versão de produção para todos os clientes: iniciando a semana de 30 de outubro de 2025**
+**Versão de visualização: 23 de outubro de 2025; Versão de produção para todos os clientes: iniciando a semana de 13 de novembro de 2025**
 
-<!--This feature was in Preview and Prod starting on Sept 25 and it was removed on Oct 9. It was released to Preview again on Oct 23 and Prod rollout started Oct 30. Then it was removed from Prod again on Nov 4. -->
 
 >[!NOTE]
 >
@@ -476,7 +492,7 @@ Para obter informações, consulte [Criar tópicos da fila](/help/quicksilver/ma
 
 >[!NOTE]
 >
->Esse recurso foi removido temporariamente dos ambientes de Pré-visualização e Produção em 15 de outubro de 2025.
+>Esse recurso foi removido temporariamente da Pré-visualização e Produção em 15 de outubro. Ele está disponível em Pré-visualização e em Produção em uma implantação em fases, a partir de 13 de novembro de 2025.
 
 Atualizamos a caixa de diálogo para editar uma despesa de projeto, para corresponder a outras áreas do aplicativo. A caixa de diálogo atualizada está disponível ao editar despesas em projetos ou modelos.
 

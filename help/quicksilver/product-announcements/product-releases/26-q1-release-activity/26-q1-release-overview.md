@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5f05c1a13c6c0d0ed1d69b850a0cb07ce53fc271
+source-git-commit: c13c8e2b9b6d50f9abf1d61fad904aa68abb44c5
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1450'
 ht-degree: 3%
 
 ---
@@ -52,6 +52,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Lançamento rápido</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Data de entrada e Cadastrada pela ID armazenada em objetos personalizados</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>A data de entrada e inserida pela ID agora são armazenadas em formulários, campos e seções personalizados. É possível usar essas opções de dados em relatórios como filtros, visualizações ou agrupamentos. Para exibi-los na lista de formulários personalizados, campos ou seções em Configurar, adicione Data de Entrada e Inserido por: Nome como colunas em uma exibição nova ou existente.</p>
+        </td>
+        <td>sexta-feira, 13 de novembro de 2025</td>
+        <td>sexta-feira, 13 de novembro de 2025</td>
+        <td>sexta-feira, 13 de novembro de 2025</td>
+    </tr>  
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Atualizações em nomes de botão ao editar um modelo de layout</a>
@@ -246,12 +255,12 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
