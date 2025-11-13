@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b0fb8f0ca72800c2befe4f1f8194be17c4f75c95
+source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1680'
 ht-degree: 3%
 
 ---
@@ -39,6 +39,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Melhorias do administrador](#administrator-enhancements)
 * [Aprimoramentos de documentos e aprovações](#documents-and-approvals-enhancements)
+* [Aprimoramentos de integração](#integration-enhancements)
+* [Melhorias nos relatórios](#reporting-enhancements)
 * [Outras melhorias](#other-enhancements)
 
 ### Melhorias do administrador
@@ -133,6 +135,69 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>sexta-feira, 30 de outubro de 2025</td>
         <td>sexta-feira, 30 de outubro de 2025</td>
         <td>sexta-feira, 30 de outubro de 2025</td>
+    </tr>   
+  </tbody>
+</table>
+
+### Melhorias nos relatórios
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Recurso</strong>
+        </td>
+        <td><strong>Visualização</strong></td>
+        <td><strong>Lançamento rápido</strong></td>
+        <td><strong>Trimestralmente</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicar um relatório em um Painel da Tela</a><p>![MEDALHA Fora do Cronograma]{type=Neutral}</p>
+            <p>Agora é possível duplicar um relatório de KPI, tabela ou gráfico em um Painel da tela após sua criação. Após a duplicação, é possível editar o relatório conforme necessário antes de salvar.</p>
+        </td>
+        <td>sexta-feira, 23 de outubro de 2025</td>
+        <td>sexta-feira, 23 de outubro de 2025</td>
+        <td>sexta-feira, 23 de outubro de 2025</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Removendo opções de campo dos filtros de relatório</a>
+            <p>Removemos as seguintes opções de campo que estavam disponíveis anteriormente ao aplicar um filtro a um relatório:
+            <ul>
+            <li>IDs de outros grupos</li>
+            <li>Outras IDs de funções</li>
+            <li>Outras IDs de equipes</li>
+            </ul>
+            </p>
+        </td>
+        <td>sexta-feira, 6 de novembro de 2025</td>
+        <td>sexta-feira, 13 de novembro de 2025</td>
+        <td>sexta-feira, 15 de janeiro de 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Exibição aprimorada da contagem de agrupamentos nos Painéis da Tela</a>
+            <p>Quando um relatório de tabela tem várias páginas de resultados e a tabela está configurada com agrupamentos, a tabela agora exibe o valor do registro da página atual e a contagem geral do registro de todas as páginas. Por exemplo, se o seu relatório de tabela tem 7 agrupamentos e a primeira página mostra 3, a tabela exibirá 3 de 7.</p>
+        </td>
+       <td>sexta-feira, 6 de novembro de 2025</td>
+        <td>sexta-feira, 13 de novembro de 2025</td>
+        <td>sexta-feira, 15 de janeiro de 2026</td>
+    </tr>   
+       <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Novas medidas de proteção para melhorar os tempos de carregamento nos Painéis do Canvas</a>
+            <p>Para evitar atrasos de tempo de carregamento e melhorar o desempenho geral nos Painéis do Canvas, aplicamos limites em quantos componentes do painel podem ser adicionados a um painel:
+            <ul>
+            <li>Relatórios por painel: limite de 25</li>
+            <li>Agrupamentos em visualizações de tabela: limite de 5</li>
+            <li>Distância do objeto base do relatório: limite de 10</li>
+            <li>Colunas em uma exibição de tabela: limite de 25</li>
+            <li>Prompts de filtro no nível do painel: limite de 10</li>
+            </ul></p>
+        </td>
+       <td>sexta-feira, 6 de novembro de 2025</td>
+        <td>sexta-feira, 13 de novembro de 2025</td>
+        <td>sexta-feira, 15 de janeiro de 2026</td>
     </tr>   
   </tbody>
 </table>
@@ -255,12 +320,12 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
