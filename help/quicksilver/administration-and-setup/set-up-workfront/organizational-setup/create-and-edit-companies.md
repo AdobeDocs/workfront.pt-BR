@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 6fb64986260842c419c61fe386e9ccf1a0da8f14
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,18 @@ Para adicionar ou editar uma empresa:
    Ou
 
    Se você estiver editando uma empresa existente, clique em **[!UICONTROL Salvar alterações]** <span class="preview">ou **Salvar**.</span>
+
+## Excluir empresas
+
+{{step-1-to-setup}}
+
+1. Clique em **[!UICONTROL Empresas]**.
+
+   Uma lista de empresas é exibida.
+
+1. Clique na caixa de seleção ao lado da empresa que você deseja excluir e clique no ícone Excluir ![ícone Excluir](assets/delete-icon.png) próximo à parte superior da página.
+1. Se você estiver excluindo uma empresa definida como Empresa primária ou estiver em uso em outro objeto, selecione uma empresa para substituir aquela que está excluindo. A empresa selecionada torna-se a Empresa principal ou substitui a empresa excluída nos objetos aos quais a empresa está atribuída.
+1. Clique em **Excluir**.
 
 ## Gerenciar associações de empresa
 

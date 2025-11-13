@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >Se você tiver acesso administrativo a empresas em seu nível de acesso, também poderá clicar em Adicionar mais empresas na parte inferior da lista. Isso adiciona uma linha onde é possível configurar rapidamente a nova empresa.
 
 1. (Opcional) Para editar ou excluir empresas, selecione pelo menos uma empresa e use os botões da barra de ferramentas para editar o ![ícone Editar](assets/edit-icon.png) ou excluir o ![ícone Excluir](assets/delete.png).
+
+   >[!NOTE]
+   >
+   >Se você estiver excluindo uma empresa e ela estiver definida como uma empresa Primária ou em uso em outro objeto, será solicitado que você escolha outra empresa para substituir aquela que está sendo excluída. A empresa selecionada torna-se a Empresa principal ou substitui a empresa excluída nos objetos aos quais a empresa está atribuída.
 
    Para obter informações sobre como editar uma empresa, consulte a seção [Criar ou editar uma empresa no Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) no artigo [Criar e editar empresas](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
