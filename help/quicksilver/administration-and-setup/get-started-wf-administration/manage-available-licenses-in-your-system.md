@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Gerenciar licenças disponíveis em seu sistema
 description: Como administrador do Adobe Workfront, você pode acessar informações sobre sua conta da Workfront, incluindo o número de licenças compradas para sua organização, bem como o número dessas licenças em uso no momento.
-author: Lisa, Becky
+author: Lisa, Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -49,15 +49,15 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 >[!NOTE]
 >
->As instruções a seguir se aplicam somente aos novos planos.
+>As instruções a seguir se aplicam aos pacotes Select, Prime e Ultimate.
 >
->Para o plano Select:
+>Para o pacote Select:
 >
 >1. Os administradores do sistema não podem definir limites para Grupos padrão.
 >2. Os administradores de sistema podem ver apenas o número total de licenças usadas em todos os Grupos Padrão.
 >3. Os administradores de grupo não podem acessar a página Licenças.
 >
->Para os planos da Prime e da Ultimate:
+>Para os pacotes do Prime e do Ultimate:
 >
 >1. Os administradores do sistema podem adicionar Grupos padrão à página Licenças para visualizar a utilização de licenças nesses grupos e também podem definir limites de licença.
 >2. Os administradores de grupo podem acessar a página Licenças e visualizar a utilização de licenças nos grupos que eles gerenciam que foram adicionados à página Licenças por administradores do sistema.
@@ -133,8 +133,6 @@ Para obter mais informações sobre limites de prova e decisão de documento, co
 ![Alocação de decisão mensal](assets/monthly-decision-allotment.png)
 
 ## Adicionar ou remover um Grupo Padrão da página de licenças {#add-or-remove-a-home-group-to-the-licenses-page}
-
-<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 Cada usuário pode ser atribuído a apenas um Grupo padrão. O Workfront fornece uma contagem de licenças orientada por grupo calculando quantas licenças estão alocadas e são usadas atualmente em cada Grupo padrão.
 

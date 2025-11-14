@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 2%
@@ -60,7 +60,7 @@ Para acessar a página Informações do cliente:
 
 1. No painel esquerdo, clique em **Sistema** > **Informações do cliente**.
 
-   Dependendo do plano Workfront adquirido, algumas seções podem estar ausentes na página Informações do cliente. Entre em contato com o Representante de conta se precisar descobrir qual plano da Workfront sua organização usa.
+   Dependendo do pacote do Workfront que você adquiriu, algumas seções podem estar ausentes na página Informações do cliente. Entre em contato com o representante de conta se precisar descobrir qual pacote do Workfront sua organização usa.
 
    As seções disponíveis na área Informações do cliente são:
 
@@ -72,13 +72,13 @@ Para acessar a página Informações do cliente:
 
      Para obter informações sobre as configurações da chave de API, consulte [Gerenciar chaves de API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
-   * **Inclui na lista de permissões IP**
+   * **Incluo na lista de permissões IP**
 
-     Incluir na lista de permissões Para obter informações sobre como adicionar os endereços IP ao seu arquivo para o qual os usuários podem acessar o Workfront incluir na lista de permissões, consulte [Configurar o arquivo do seu firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+     Para obter informações sobre como adicionar os endereços IP ao seu incluo na lista de permissões para o qual seus usuários podem acessar o Workfront, consulte [Configurar o incluo na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-   * **Inclui na lista de permissões por e-mail**
+   * **Incluo na lista de permissões de email**
 
-     Para obter informações sobre como adicionar emails ao seu arquivo de incluir na lista de permissões inclui na lista de permissões, consulte [Configurar seu arquivo de email](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+     Para obter informações sobre como adicionar emails ao incluo na lista de permissões, consulte [Configurar incluo na lista de permissões de email](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
 
    <!--
    * **License**
