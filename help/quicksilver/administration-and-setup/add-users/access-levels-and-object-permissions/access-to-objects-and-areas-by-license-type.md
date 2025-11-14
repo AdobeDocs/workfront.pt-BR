@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '457'
 ht-degree: 24%
 
 ---
@@ -33,10 +33,10 @@ A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada
   >
   >Este artigo contém informações sobre o acesso a objetos para os tipos de licença herdados. Para obter informações sobre os novos tipos de licença, consulte [Visão geral sobre novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) e [Visão geral sobre novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
-|   | Plano | Trabalho | Revisar | Solicitar | Externo |
+|   | Plano | Trabalho | Revisar | Solicitação | Externo |
 |---|---|---|---|---|---|
 | Projetos | Editar | Editar (sem criar permissões) | Exibir | Visualização (somente a página Detalhes) | Sem acesso |
-| Tarefas | Editar | Editar | Exibir | Exibir | Exibir |
+| Tarefas | Editar | Editar | Exibir | Exibir | Sem acesso |
 | Problemas | Editar | Editar | Editar | Editar | Sem acesso |
 | Portfólios | Editar | Exibir | Exibir | Sem acesso | Sem acesso |
 | Programas | Editar | Exibir | Exibir | Sem acesso | Sem acesso |

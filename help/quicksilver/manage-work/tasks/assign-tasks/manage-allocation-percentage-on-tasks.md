@@ -6,9 +6,9 @@ description: A porcentagem de alocação representa a quantidade de tempo que um
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '458'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,9 @@ Você pode modificar a porcentagem de alocação quando faz atribuições avanç
   <tr> 
    <td>Permissões de objeto</td>
    <td><p>Contribuir com ou mais permissões para a tarefa</p>
-   <p>Edite permissões para atualizar a porcentagem de alocação na caixa Editar tarefa ao editar tarefas usando a experiência antiga. Não é mais possível gerenciar a porcentagem de alocação na caixa Editar tarefa ao editar tarefas na nova experiência.</p> <p>Para obter informações, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tarefas</a>.</p></td>
+   <p>Edite permissões para atualizar a porcentagem de alocação na caixa Editar tarefa ao editar tarefas usando a experiência antiga.</p>
+   <p><b>Nota</b></p>
+   <p> Não é mais possível gerenciar a porcentagem de alocação na caixa Editar tarefa ao editar tarefas na nova experiência.</p> <p>Para obter informações, consulte <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Editar tarefas</a>.</p></td>
   </tr>
  </tbody>
 </table>

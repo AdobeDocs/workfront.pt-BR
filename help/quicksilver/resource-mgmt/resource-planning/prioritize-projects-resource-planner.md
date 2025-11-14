@@ -6,9 +6,9 @@ description: Os projetos são listados em ordem de prioridade no Planejador de r
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1282'
 ht-degree: 1%
 
 ---
@@ -105,9 +105,9 @@ Para editar a Prioridade de Planejamento do Projeto:
 
 >[!IMPORTANT]
 >
->Sua empresa deve ter um plano Business ou superior da Workfront para priorizar projetos no Portfolio Otimizer.
+>Sua empresa deve ter um pacote do Prime ou superior Workfront para priorizar projetos no Portfolio Otimizer.
 >
->Para obter mais informações sobre os planos da Workfront, consulte [Nossos planos](https://business.adobe.com/br/products/workfront/pricing.html).
+>Para obter mais informações sobre pacotes Workfront, consulte [pacotes e preços do Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Para obter informações sobre a priorização de projetos no Portfolio Otimizer, consulte [Priorizar projetos no Portfolio Otimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

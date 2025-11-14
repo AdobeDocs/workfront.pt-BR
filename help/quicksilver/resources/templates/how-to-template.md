@@ -2,10 +2,10 @@
 title: [Título da tarefa]
 description: [Título da tarefa]
 draft: Probably
-source-git-commit: 32bf4cccee672b84e7c3e5b188a71979c0ac241e
+source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 0%
+source-wordcount: 144
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  <tbody> 
   <tr> 
    <td role="rowheader">plano do Adobe Workfront*</td> 
-   <td> <p>[Qualquer, Pro, Business, Enterprise] ou superior</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
@@ -35,7 +35,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
-   <td>&lbrack;Especifique informações especiais sobre o produto. Remover esta linha se a funcionalidade estiver no Workfront [Proper]</td> 
+   <td>[Especifique informações especiais sobre o produto. Remover esta linha se a funcionalidade estiver no Workfront [Proper]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
