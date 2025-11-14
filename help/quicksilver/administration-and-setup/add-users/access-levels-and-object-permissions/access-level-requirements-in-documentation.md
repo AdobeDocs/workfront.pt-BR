@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 469242118429fa37835766737b88d35d2baefb69
+source-git-commit: c1c30696dc9ef324103467f3bdcb83609cf5d1d8
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 Os artigos de instruções da documentação do Workfront contêm uma tabela que explica os requisitos de acesso e permissões necessários para esse procedimento. Esta tabela de Requisitos de acesso permite compreender se você pode executar uma determinada ação no Workfront ou por que não pode fazê-lo. Este artigo explica cada elemento da tabela Requisitos de acesso e fornece dicas e links para a solução de problemas a informações mais detalhadas.
 
 Se uma linha estiver ausente da tabela Requisitos de acesso em um determinado artigo, não há requisitos desse tipo para essa ação.
-
-Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atual&quot;. Isso ocorre porque a Workfront está fazendo a transição para um novo modelo de preços e pacotes, com algumas organizações operando sob o novo modelo e outras ainda usando o modelo atual. Para descobrir qual modelo sua organização usa, entre em contato com o administrador do Workfront. Você pode encontrar detalhes e links para informações na seção [Tabela de requisitos de acesso](#the-access-requirements-table) deste artigo.
 
 >[!NOTE]
 >
@@ -37,16 +35,16 @@ Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atu
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
    <td> Os pacotes do Adobe Workfront se referem ao conjunto de recursos que sua organização adquiriu. A maioria das funcionalidades do Workfront está disponível em todos os pacotes, com algumas exceções, principalmente relacionadas ao planejamento estratégico e aos controles corporativos. <p>Os pacotes existentes antes de 2022 não são listados.</p>
-   <p>Os pacotes do Workfront são divididos em três áreas. Cada área oferece pacotes diferentes, como Select, Prime e Ultimate.<p>
+   <p>Os pacotes do Workfront são divididos em três áreas. Algumas áreas oferecem pacotes diferentes, como Select, Prime e Ultimate.<p>
    <ul>
-   <li><b>Fluxo de Trabalho do Workfront</b>: inclui funcionalidades relacionadas a operações, como gerenciamento de tarefas, aprovações e planilhas de horas.</li>
-   <li><b>Workfront Planning</b>: inclui a funcionalidade relacionada ao planejamento estratégico.</li>
+   <li><b>Fluxo de Trabalho do Workfront</b>: inclui funcionalidades relacionadas a operações, como gerenciamento de tarefas, aprovações e planilhas de horas. Além disso, esse pacote é dividido em pacotes Workflow Select, Workflow Prime e Workflow Ultimate.</li>
+   <li><b>Workfront Planning</b>: inclui a funcionalidade relacionada ao planejamento estratégico. Este pacote é dividido em pacotes Planning Select, Planning Prime e Planning Ultimate.</li>
    <li><b>Automação e Integração do Workfront</b>: inclui funcionalidades relacionadas à automatização de processos e à integração com outros aplicativos.</li>
    </ul>
   <p>Sua organização pode ter comprado um pacote do Workfront em uma ou mais dessas áreas.</p>
   <p>Anteriormente, a Workfront oferecia os pacotes Workfront Select, Workfront Prime e Workfront Ultimate, sem distinguir entre Fluxo de trabalho, Planejamento e Automação e Integração. Sua organização pode estar em um desses pacotes herdados. 
    <ul><li>Para saber qual pacote do Adobe Workfront sua organização usa, incluindo se a organização está no modelo de pacote atual ou herdado, entre em contato com o administrador do Workfront.</li>
-   <li>Para obter instruções sobre como um administrador do Workfront pode localizar o pacote Workfront da sua organização, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Exibir o cluster da sua organização e o pacote Workfront</a>.</li><li>Para obter mais informações sobre os pacotes do Workfront, consulte <a href="https://business.adobe.com/br/products/workfront/pricing.html">Preços e pacotes do Adobe Workfront</a>.</li></ul> </td> 
+   <li>Para obter instruções sobre como um administrador do Workfront pode localizar o pacote Workfront da sua organização, consulte <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Exibir o cluster da sua organização e o pacote Workfront</a>.</li><li>Para obter mais informações sobre os pacotes do Workfront, consulte <a href="https://business.adobe.com/products/workfront/pricing.html">Preços e pacotes do Adobe Workfront</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -97,7 +95,7 @@ Algumas linhas contêm informações rotuladas como &quot;Novo&quot; e &quot;Atu
    <ul><li>O modelo de licença atual é baseado no número de operações realizadas e não tem limitações sobre quais ações uma organização pode executar. </li>
    <li>As licenças herdadas são baseadas na capacidade dos cenários de se conectarem a aplicativos de terceiros ou se os cenários são usados apenas para automação do Workfront. </li>
    </ul>
-   Para obter informações sobre o licenciamento do Fusion, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">licenças do Workfront Fusion</a>.
+   Para obter informações sobre o licenciamento do Fusion, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">licenças do Workfront Fusion</a>.
    </td> 
   </tr> 
  </tbody> 
