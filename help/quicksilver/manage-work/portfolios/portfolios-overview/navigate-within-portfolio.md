@@ -141,7 +141,7 @@ Para obter informações sobre programas, consulte a seção [Criar e gerenciar 
 
    >[!IMPORTANT]
    >
-   >Sua empresa deve ter um pacote [!UICONTROL  do ]Prime[!DNL Workfront] ou superior para ter acesso ao [!UICONTROL Portfolio Otimizer].
+   >Sua empresa deve ter um pacote [!UICONTROL &#x200B; do &#x200B;]Prime[!DNL Workfront] ou superior para ter acesso ao [!UICONTROL Portfolio Otimizer].
    >
 
    Para obter informações sobre como usar o Portfolio Otimizer, consulte a seção [Gerenciar projetos no Portfolio Otimizer: índice de artigo](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
