@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: f741cee4fffc3bc4d686709bc35eda2d5954b04e
 workflow-type: tm+mt
 source-wordcount: '6933'
 ht-degree: 5%
@@ -60,7 +60,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. Clique em **Novo formulário personalizado.**
 1. Selecione a quais tipos de objeto você deseja anexar o formulário personalizado e clique em **Continuar**.
 
-   ![Escolher tipo de objeto](assets/choose-object-type.jpg)
+   ![Escolher tipos de objeto](assets/new-custom-form-select-objects.png)
 
 1. Na área **Adicionar nome de formulário**, digite o título do formulário personalizado.
 1. (Opcional) Se quiser adicionar mais tipos de objetos ao formulário para que ele possa ser anexado a mais objetos, clique no ícone **Adicionar** ![ícone Adicionar objetos](assets/add-objects-icon.png) ao lado de **Tipos de objetos** e selecione o tipo desejado no menu exibido. Você pode repetir isso para adicionar quantos tipos de objetos desejar.
@@ -651,12 +651,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções suspensas.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
-      &lbrace;
-       dados: &lbrace;
+      {
+       dados: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o Caminho JSON e verificar se você grava o Caminho JSON correto, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
