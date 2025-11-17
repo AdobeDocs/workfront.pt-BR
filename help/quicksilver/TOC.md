@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
+source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
 workflow-type: tm+mt
-source-wordcount: '13536'
+source-wordcount: '13544'
 ht-degree: 2%
 
 ---
@@ -2146,6 +2146,7 @@ ht-degree: 2%
       * [Gerenciar conexões de registro de objetos do Workfront](planning/records/manage-records-in-planning-section.md)
       * [Exportar os detalhes de um registro](planning/records/export-the-record-page.md)
       * [Exportar registros da exibição de tabela](planning/records/export-records-from-the-table-view.md)
+      * [Adicionar uma página Registros conectados a um registro](planning/records/add-a-connected-records-page-to-a-record.md)
       * [Criar objetos Workfront a partir do Workfront Planning à medida que você os conecta aos registros](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Configurar automações do Adobe Workfront Planning](planning/records/configure-automations-to-create-records.md)
       * [Criar objetos usando automações de registro do Workfront Planning](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)

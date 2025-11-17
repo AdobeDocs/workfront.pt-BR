@@ -6,9 +6,9 @@ description: Navegar em um portfólio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -88,9 +88,8 @@ Para obter mais informações sobre portfólios, consulte [Entender a metodologi
 
 ## Navegar em um portfólio
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront].
+{{step1-to-portfolios}}
 
-1. Clique em [!UICONTROL Portfólios].
 1. No menu suspenso **[!UICONTROL Filtro]**, selecione:
 
    * **[!UICONTROL Meus Portfólios]**: inclui uma lista de portfólios para os quais você está designado como [!UICONTROL Gerente do Portfolio].
@@ -141,7 +140,7 @@ Para obter informações sobre programas, consulte a seção [Criar e gerenciar 
 
    >[!IMPORTANT]
    >
-   >Sua empresa deve ter um pacote [!UICONTROL &#x200B; do &#x200B;]Prime[!DNL Workfront] ou superior para ter acesso ao [!UICONTROL Portfolio Otimizer].
+   >Sua empresa deve ter um pacote [!UICONTROL  do ]Prime[!DNL Workfront] ou superior para ter acesso ao [!UICONTROL Portfolio Otimizer].
    >
 
    Para obter informações sobre como usar o Portfolio Otimizer, consulte a seção [Gerenciar projetos no Portfolio Otimizer: índice de artigo](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '172'
 ht-degree: 1%
 
 ---
@@ -45,3 +45,4 @@ Os artigos a seguir descrevem como criar e gerenciar registros e suas informaç�
 * [Gerenciar o layout da página de registros](/help/quicksilver/planning/records/manage-the-record-page.md)
 * [Exportar os detalhes de um registro](/help/quicksilver/planning/records/export-the-record-page.md)
 * [Exportar registros da exibição de tabela](/help/quicksilver/planning/records/export-records-from-the-table-view.md)
+* [Adicionar uma página de registro conectada a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
