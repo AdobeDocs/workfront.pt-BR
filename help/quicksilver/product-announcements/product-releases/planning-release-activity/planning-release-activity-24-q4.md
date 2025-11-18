@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -40,13 +40,13 @@ Antes desse aprimoramento, você poderia marcar ou desmarcar o botão Título pa
 
 Para obter mais informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-## Exportar detalhes do registro para PDF
+## Exportar detalhes do registro para o PDF
 
 >[!NOTE]
 >
 >Versão de pré-visualização: 3 de setembro de 2024; Produção para lançamento rápido: Com lançamento 24.9 (12 de setembro de 2024); Produção para lançamento trimestral: Com lançamento 24.10 (outubro de 2024)
 
-Agora é possível exportar a página de detalhes de um registro ou pré-visualizar para um documento PDF.
+Agora você pode exportar a página de detalhes de um registro ou pré-visualizar um documento do PDF.
 
 Antes desse aprimoramento, você poderia exportar a guia de detalhes de um registro somente para um arquivo do Word (.docx).
 
@@ -68,4 +68,4 @@ A seguir estão alguns dos principais recursos do Adobe Workfront Planning:
 
 * Conecte-se a tipos de objetos de outros sistemas, criando uma estrutura coerente para todos os seus processos.
 
-Para obter mais informações sobre o Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Para obter mais informações sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).

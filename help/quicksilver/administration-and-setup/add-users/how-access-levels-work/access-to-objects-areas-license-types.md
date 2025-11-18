@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: b333ea67bb909ca55306f6474832c275ebad590c
+source-git-commit: 29af5a01c1d5fcec35ac0061a478e5721f6770c0
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '411'
 ht-degree: 23%
 
 ---
@@ -32,7 +32,7 @@ A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada
 <table style="table-layout:auto">
     <tr>
         <td></td>
-        <td>Padrão</td>
+        <td>Standard</td>
         <td>Leve</td>
         <td>Colaborador</td>
         <td>Externo</td>
@@ -49,7 +49,7 @@ A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada
         <td>Editar</td>
         <td>Exibir</td>
         <td>Exibir</td>
-        <td>Exibir</td>
+        <td>Sem acesso</td>
     </tr>
     <tr>
         <td>Problemas</td>

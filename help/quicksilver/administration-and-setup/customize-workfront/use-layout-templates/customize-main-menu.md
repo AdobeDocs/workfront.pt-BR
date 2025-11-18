@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '697'
 ht-degree: 4%
 
 ---
@@ -115,7 +115,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
      >[!NOTE]
      >
-     >O Planning exige uma licença adicional. Para obter informações sobre o Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+     >O Planning exige uma licença adicional. Para obter informações sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
    * Aplicativo personalizado
 

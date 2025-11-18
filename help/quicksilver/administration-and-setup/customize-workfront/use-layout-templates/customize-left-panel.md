@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      </tr> 
      <tr> 
       <td>[!UICONTROL Projetos]</td> 
-      <td>Projetos <img src="assets/projects-in-main-menu.png"> no menu principal  <img src="assets/main-menu-icon.png"></td> 
+      <td>Projetos <img src="assets/projects-in-main-menu.png"> no menu principal [!UICONTROL] <img src="assets/main-menu-icon.png"></td> 
       <td>[!UICONTROL Projetos]</td> 
      </tr> 
      <tr> 
@@ -200,7 +200,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
     </tbody> 
    </table>
 
-   *Sua empresa deve comprar uma licença adicional para que o Workfront Planning possa adicionar essa área ao painel esquerdo de projetos, portfólios e programas. Para obter mais informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+   *Sua empresa deve comprar uma licença adicional para que o Workfront Planning possa adicionar essa área ao painel esquerdo de projetos, portfólios e programas. Para obter mais informações, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
    **Os aplicativos personalizados devem ser criados separadamente antes de serem disponibilizados como opções do Menu principal. Para obter mais informações, consulte [Criar um aplicativo personalizado para o Workfront com o Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 

@@ -7,9 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Introdução à avaliação gratuita do Adobe Workfront Planning
 
 No momento, a Adobe Workfront está oferecendo uma avaliação gratuita de 60 dias do Adobe Workfront Planning.
+
+O teste está disponível entre as seguintes datas: 1 de fevereiro - 1 de abril de 2025.
 
 Esta versão de avaliação é a sua oportunidade de ver como o Planning conecta a estratégia de visão geral com o trabalho diário que a torna realidade.
 
@@ -46,14 +48,33 @@ Um dos administradores do Workfront deve revisar e assinar um contrato legal ant
 Para revisar e aceitar o contrato legal, faça o seguinte:
 
 1. Faça logon no Adobe Workfront como Administrador do sistema.
-1. Vá para **Configuração** > **Sistema** > **Preferências**.
-1. Clique em **Revisar Contrato de Avaliação** na seção **Outras preferências**.
+1. (Condicional) Quando a avaliação estiver aberta, os administradores do sistema receberão um convite para a avaliação com um link para o local em que aceitam o contrato legal.
 
-<!-- finish these steps-->
+   Ou
+
+   Vá para **Configuração** > **Sistema** > **Preferências**.
+1. Clique em **Revisar Contrato de Avaliação** na seção **Outras preferências**.
+1. Clique em **Aceitar**, depois de revisar o contrato.
+
+   Sua organização está agora inscrita na avaliação do Workfront Planning até 1º de abril de 2025.
+
+   As seguintes permissões são concedidas aos dados disponíveis na guia **Espaços de trabalho de práticas recomendadas** na área **Avaliação do Planning**:
+
+   * Todos os administradores do sistema têm permissões de gerenciamento.
+   * Todos os outros usuários têm permissões de Exibição.
+1. (Opcional) Comece a explorar a guia **Espaços de trabalho de práticas recomendadas** e compartilhe espaços de trabalho ou seus objetos com outras pessoas.
+
+   Para obter mais informações sobre como usar o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+<!-- finish these steps and check to see if the UI elements are spelled correctly; also if the trial agreement is accessible according to the steps aboe - ???  -->
 
 ## Visão geral de datas importantes
 
 Estas são algumas datas importantes associadas à oferta de avaliação gratuita do Adobe Workfront Planning:
+
+* 1 de fevereiro de 2025 - Lançamento de avaliação do Workfront Planning
+* 1 de abril de 2025 - encerramento da versão de avaliação do Workfront Planning. A Workfront protege seus dados por 6 meses após o término da avaliação.
+* 30 de novembro de 2025 - A Workfront não disponibiliza mais seus dados após essa data.
 
 <!--## Overview of the access to Workfront Planning -->
 

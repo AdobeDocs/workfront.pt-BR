@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '7386'
+source-wordcount: '7392'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Os seguintes recursos estão incluídos nesta atualização:
 
 * Dependendo de como estiver configurado, o formulário de solicitação pode exibir todos os campos do tipo de registro, exceto os campos dos seguintes tipos:
 
-   * Pessoas
+   * People
    * Campos conectados (inclui conexões com ativos do Experience Manager)
    * Campos de pesquisa conectados
    * Fórmula
@@ -615,7 +615,7 @@ Algumas das informações na landing page incluem o seguinte:
 
 * Tutorial de introdução ao Workfront Planning
 
-Para obter mais informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Para obter mais informações, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Nova experiência de integração para o Workfront Planning
 
@@ -642,7 +642,7 @@ O operador UNIQUE remove as duplicatas dos valores do campo de pesquisa e mostra
 O operador UNIQUE está disponível para todos os tipos de campo, exceto o seguinte:
 
 * Parágrafo
-* Pessoas
+* People
 * Campo de caixa de seleção
 
 Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
@@ -663,7 +663,7 @@ Produção: 30 de maio de 2024
 
 Visualização: a ser determinado
 
-Atualizamos a aparência do ícone para a área Planejamento no Menu principal. Para obter informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Atualizamos a aparência do ícone para a área Planejamento no Menu principal. Para obter informações, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Renomeação do programa Workfront Planning
 
@@ -918,7 +918,7 @@ Visualização: a ser determinado
 
 Nós renomeamos a área Maestro no Menu Principal para Planejamento.
 
-Para obter uma visão geral do Adobe Workfront Planning, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+Para obter uma visão geral do Adobe Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Nova experiência ao excluir um tipo de registro
 
@@ -1058,7 +1058,7 @@ Agora há uma opção para modificar a altura de uma linha ao exibir registros n
 Você pode atualizar a altura da linha para um dos seguintes tamanhos:
 
 * Pequena
-* Média
+* Médio
 * Alto.
 
 Para obter mais informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
@@ -1130,7 +1130,7 @@ Reprojetamos e aprimoramos a experiência de adicionar opções ou objetos para 
 
 * Seleção única
 * Seleção múltipla
-* Pessoas
+* People
 * Campos de registro conectados (ao conectar tipos de registro do recurso de planejamento ou objetos do Workfront)
 
 Com a nova melhoria, uma caixa menor e mais responsiva é exibida primeiro.
