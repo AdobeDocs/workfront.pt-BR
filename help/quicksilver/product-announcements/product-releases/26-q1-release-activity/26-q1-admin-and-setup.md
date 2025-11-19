@@ -4,9 +4,9 @@ description: Aprimoramentos do administrador no primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f6b46a3c9d3ad792fd55309a5aaf5e23a83e233d
+source-git-commit: eead7c3c22dff242cd2a875381f5a2ac901cc2bd
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,9 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 A data de entrada e inserida pela ID agora são armazenadas em formulários, campos e seções personalizados. É possível usar essas opções de dados em relatórios como filtros, visualizações ou agrupamentos. Para exibi-los na lista de formulários personalizados, campos ou seções em Configurar, adicione Data de Entrada e Inserido por: Nome como colunas em uma exibição nova ou existente.
 
+>[!NOTE]
+>
+>A data de entrada e a ID inserida estão disponíveis somente em formulários, campos e seções personalizados criados em ou após 13 de novembro de 2025.
 
 ## Atualizações a nomes de botão ao editar um modelo de layout
 
