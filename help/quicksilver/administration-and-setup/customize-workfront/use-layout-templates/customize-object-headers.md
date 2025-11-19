@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. Na seção [!UICONTROL Campos de cabeçalho], passe o mouse sobre os campos exibidos e siga um destes procedimentos:
+1. Na seção [!UICONTROL Campos de cabeçalho], passe o mouse sobre os campos atuais e siga um destes procedimentos:
    * Clique no ícone **x** para remover um campo
 
      Ou
@@ -83,19 +83,15 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Você pode ter até cinco campos no cabeçalho de um objeto.
 Se você já tiver cinco campos selecionados, remova um campo antes de adicionar um novo.
-1. Na caixa **Adicionar campo**, comece digitando o nome de um campo do Workfront não editável que você deseja adicionar e, em seguida, selecione-o quando ele for exibido na lista. O campo é adicionado imediatamente à direita da caixa Adicionar campo e será exibido como o primeiro campo no canto superior esquerdo do cabeçalho do objeto.
+1. Na caixa **Adicionar campo**, comece digitando o nome de um campo personalizado ou de um campo nativo do Workfront que deseja adicionar e, em seguida, selecione-o quando ele for exibido na lista. O campo é adicionado imediatamente à direita da caixa Adicionar campo e será exibido como o primeiro campo no canto superior direito do cabeçalho do objeto.
 
    >[!TIP]
    >
-   >* Você só pode adicionar campos exibidos na área Visão geral da seção Detalhes do objeto e que não sejam editáveis. Campos não editáveis são campos que os usuários não podem editar manualmente. Eles são automaticamente calculados pela Workfront.
-   >
-   >* Você pode adicionar campos editáveis que já fazem parte dos cabeçalhos padrão (por exemplo, Proprietário do projeto, Status, Percentual concluído, Atribuições).
+   >* É possível adicionar qualquer campo personalizado ou qualquer campo nativo disponível na área Visão geral da seção Detalhes de um objeto. Por exemplo, somente problemas têm o campo Gravidade, e esse campo não está disponível para ser adicionado a projetos ou tarefas.
    >
    >* Ao adicionar o campo &quot;Resolvido por&quot; ao cabeçalho de um problema, o campo é alterado para &quot;Resolvendo problema, tarefa ou projeto&quot; quando há um objeto de resolução associado ao problema.
 
-
    ![Adicionar campo ao cabeçalho](assets/add-field-to-header-in-lt-list.png)
-
 
 1. (Opcional) Arraste e solte os campos em uma ordem diferente.
 
