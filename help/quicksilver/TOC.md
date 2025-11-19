@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: e73965653f1923168ff331dfdf05713f1902ba5a
 workflow-type: tm+mt
-source-wordcount: '13547'
+source-wordcount: '13556'
 ht-degree: 2%
 
 ---
@@ -921,6 +921,7 @@ ht-degree: 2%
       * [Gerenciar formulários personalizados anexados a objetos](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * Usar notificações {#use-notifications}
       * [Usar notificações: índice do artigo](workfront-basics/using-notifications/use-notifications.md)
+      * [Visão geral das notificações do Experience Cloud](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
       * [Visão geral das notificações](workfront-basics/using-notifications/wf-notifications.md)
       * [Modificar suas próprias notificações por email](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Assinar itens no Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -2126,6 +2127,7 @@ ht-degree: 2%
       * [Compartilhar espaços de trabalho](planning/access/share-workspaces.md)
       * [Compartilhar tipos de registro](planning/access/share-record-types.md)
       * [Compartilhar exibições](planning/access/share-views.md)
+      * [Compartilhar registros](planning/access/share-records.md)
       * [Solicitar permissões para uma exibição ou um espaço de trabalho](planning/access/request-permissions.md)
    * Registros do Adobe Workfront Planning {#adobe-workfront-planning-records}
       * [Registros: índice do artigo](planning/records/records-information.md)
@@ -2136,7 +2138,7 @@ ht-degree: 2%
       * [Editar registros](planning/records/edit-records.md)
       * [Excluir registros](planning/records/delete-records.md)
       * [Restaurar registros excluídos](planning/records/restore-deleted-records.md)
-      * [Compartilhar registros](planning/records/share-records.md)
+      * [Compartilhar registros usando um link](planning/records/share-records.md)
       * [Registros duplicados](planning/records/copy-or-duplicate-records.md)
       * [Gerenciar comentários de registro](planning/records/manage-record-comments.md)
       * [Visão geral da seção Histórico](planning/records/history-section-overview.md)
