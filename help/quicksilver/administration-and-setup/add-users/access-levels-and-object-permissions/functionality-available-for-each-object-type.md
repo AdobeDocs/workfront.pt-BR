@@ -2,7 +2,7 @@
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: acesso,modelo,funil,diagrama,níveis,permissões
+keywords: acesso,modelo,funnel,diagrama,níveis,permissões
 navigation-topic: access-levels
 title: Funcionalidade Disponível para Cada Tipo de Objeto para Vários Níveis de Acesso
 description: As tabelas a seguir listam a funcionalidade disponível para cada tipo de objeto nos vários níveis de acesso.
@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: e894c1e2134d025420205c6575329a2a9079fadf
 workflow-type: tm+mt
 source-wordcount: '1563'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -27,7 +27,7 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 
 >[!NOTE]
 >
->Este artigo descreve a funcionalidade disponível para níveis de acesso no modelo de plano atual do Workfront. Para ver a funcionalidade disponível no novo modelo de plano, consulte [Funcionalidade disponível para cada tipo de objeto para novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
+>Este artigo descreve a funcionalidade disponível para níveis de acesso no modelo de pacote atual do Workfront. Para ver a funcionalidade disponível no novo modelo de pacote, consulte [Funcionalidade disponível para cada tipo de objeto para novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
 
 ## Projetos
 
@@ -181,7 +181,7 @@ Somente os usuários com uma licença de Plano podem ter acesso total aos progra
 
 Os usuários com uma licença de Plano podem ter acesso total aos relatórios. Todos os outros Níveis de Acesso têm acesso de Visualização aos relatórios.
 
-| Ação | Planejador | Trabalhador | Revisor | Solicitar | Usuário externo |
+| Ação | Planejador | Trabalhador | Revisor | Solicitação | Usuário externo |
 |---|---|---|---|---|---|
 | Criar | ✓&#42; |  |  |  |  |
 | Excluir | ✓&#42; |  |  |  |  |
