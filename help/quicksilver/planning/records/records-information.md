@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '175'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Os artigos a seguir descrevem como criar e gerenciar registros e suas informaç�
 * [Editar registros](/help/quicksilver/planning/records/edit-records.md)
 * [Excluir registros](/help/quicksilver/planning/records/delete-records.md)
 * [Restaurar registros excluídos](/help/quicksilver/planning/records/restore-deleted-records.md)
-* [Compartilhar registros](/help/quicksilver/planning/records/share-records.md)
+* [Compartilhar registros usando um link](/help/quicksilver/planning/records/share-records.md)
 * [Visão geral dos registros conectados](/help/quicksilver/planning/records/connected-records-overview.md)
 * [Conectar registros](/help/quicksilver/planning/records/connect-records.md)
 * [Registros duplicados](/help/quicksilver/planning/records/copy-or-duplicate-records.md)
