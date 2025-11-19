@@ -4,9 +4,9 @@ description: As extensões da interface do Workfront, viabilizadas pelo construt
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 1c2422f61e3db6fbe05cd03b9fbc1f17e906ebad
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
@@ -160,13 +160,13 @@ Para permitir aplicativos personalizados no menu principal do Workfront:
 Na função ExtensionRegistration, você deve ver o código a seguir. Esse código foi criado para você pelo modelo. Este código pode ser adicionado para criar itens de menu adicionais. Substitua IDs e URLs.
 
     &quot;
-    mainMenu: &lbrace;
+    mainMenu: {
     
-    getItems() &lbrace;
+    getItems() {
     
-    return &lbrack;
+    return [
     
-    &lbrace;
+    {
     
     id: &#39;main-menu-label&#39;,
     
@@ -176,18 +176,18 @@ Na função ExtensionRegistration, você deve ver o código a seguir. Esse códi
     
     icon: icon1,
     
-    &rbrace;,
+    },
     
-    &rbrack;;
+    ];
     
-    &rbrace;,
+    },
     
-    &rbrace;
+    }
     &quot;
 
 1. Adicione o seguinte trecho de código:
 
-   ![trecho de código &#x200B;](assets/7-extension-registration-step1-from-sam.png)
+   ![trecho de código ](assets/7-extension-registration-step1-from-sam.png)
 
    Este exemplo mostra um Item de menu principal. Você deve atualizar a ID, o rótulo, o ícone e o URL para os nomes corretos do aplicativo. Ao adicionar vários itens, verifique se a ID é exclusiva.
 
@@ -438,6 +438,19 @@ Em seguida, navegue até a página específica em que deseja desenvolver no nave
 Se a configuração foi concluída corretamente, ao recarregar a página de modelo de layout no Workfront, você verá os botões do aplicativo App Builder. Adicione os botões do aplicativo ao Menu principal e ao painel esquerdo para um objeto e verifique se eles são exibidos corretamente nessas áreas.
 
 Instruções adicionais estão disponíveis no site do Adobe Developer, com um exemplo do AEM: https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+
+### Desabilitar sinalizador para permitir testes locais no Chrome versão 142 e posterior
+
+A versão 142 do Chrome introduz Restrições de acesso à rede local. Essas restrições podem interferir nos ambientes de teste locais.
+
+Para resolver o problema, você deve desabilitar a Verificação de Acesso à Rede Local desativando o sinalizador correspondente nas configurações do Chrome: `chrome://flags/#local-network-access-check`.
+
+Para desativar o sinalizador
+
+1. Abra o Chrome, digite `chrome://flags` na barra de endereços e pressione **Enter**.
+1. Na barra de pesquisa na parte superior, digite **Verificações de Acesso à Rede Local**.
+1. Clique no menu suspenso ao lado do sinalizador **Verificações de Acesso à Rede Local** e selecione Desabilitado.
+1. Clique no botão **Reiniciar**, exibido na parte inferior da tela, para aplicar as alterações.
 
 ## Publicar aplicativos e aprovar o envio
 
