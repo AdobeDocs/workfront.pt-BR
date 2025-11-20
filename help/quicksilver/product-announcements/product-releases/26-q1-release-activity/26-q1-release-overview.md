@@ -4,10 +4,10 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 81e95c6ebab98ad67d0364d0f3b7a63ce4568498
+source-git-commit: 203ff7855649c968c52d74ef0ee7581a1439aa47
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 3%
+source-wordcount: '1740'
+ht-degree: 4%
 
 ---
 
@@ -40,7 +40,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Melhorias do administrador](#administrator-enhancements)
 * [Aprimoramentos de documentos e aprovações](#documents-and-approvals-enhancements)
 * [Aprimoramentos de integração](#integration-enhancements)
-* [Melhorias nos relatórios](#reporting-enhancements)
+* [Aprimoramentos nos relatórios](#reporting-enhancements)
+  <!--* [Requests enhancements](#requests-enhancements)-->
 * [Outras melhorias](#other-enhancements)
 
 ### Melhorias do administrador
@@ -127,6 +128,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>Lançamento rápido</strong></td>
         <td><strong>Trimestralmente</strong></td>
     </tr>
+         <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Atualização do seletor de ativos para a integração nativa do Adobe Workfront para Experience Manager Assets </a>
+            <p>Atualizamos o seletor de ativos na integração do Adobe Workfront para Experience Manager Assets. Com essa atualização, agora é possível selecionar e enviar coleções do AEM diretamente para o Workfront. </p>
+        </td>
+        <td>sexta-feira, 20 de novembro de 2025</td>
+        <td>sexta-feira, 11 de dezembro de 2025</td>
+        <td>sexta-feira, 15 de janeiro de 2026</td>
+    </tr>   
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Nova versão da integração do Salesforce agora disponível </a>
@@ -201,6 +211,56 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
   </tbody>
 </table>
+
+<!--### Requests enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+     <tr>
+        <td>
+            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Save drafts of requests in the new requesting experience</a>
+            <p>To make it easier to create and submit requests, we've added the ability to save drafts to the new requesting experience. Now, when you begin filling out a request and close it, the request is saved in Draft status and can be found in your request list. You can then reopen, update, and submit the draft at your convenience. </p>
+        </td>
+        <td>November 20, 2025</td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>  
+        <tr>
+        <td>
+            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Delete submitted requests in the new requesting experience</a>
+            <p>To make it easier to keep your requests organized and uncluttered, we've added the ability to delete requests to the new requesting experience. Now, you can delete requests that you have submitted. Workfront Administrators and Workfront Planning Workspace administrators can also delete requests.</p>
+        </td>
+        <td>November 20, 2025</td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
+        <tr>
+        <td>
+            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
+            <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
+        </td>
+        <td>November 20, 2025</td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>   
+        <tr>
+        <td>
+            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create new requests by copying previously submitted requests in the new requesting experience</a>
+            <p>To make it easier to submit requests, we've added the ability to copy requests to the new requesting experience. Now, you can copy a request, edit any fields, and submit it as a new request. </p>
+        </td>
+        <td>November 20, 2025</td>
+        <td>December 11, 2025</td>
+        <td>January 15, 2026</td>
+    </tr>    
+  </tbody>
+</table> -->
 
 ### Outras melhorias
 
@@ -320,12 +380,12 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 

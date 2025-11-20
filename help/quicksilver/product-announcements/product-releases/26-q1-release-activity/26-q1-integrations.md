@@ -4,9 +4,9 @@ description: Aprimoramentos nas integrações do primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 81e95c6ebab98ad67d0364d0f3b7a63ce4568498
+source-git-commit: 192df9ef08f75b3a6a6e9a50908b6da6e861bdd6
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ Esta página descreve as melhorias nas integrações feitas com a versão do Pri
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2026, consulte [Visão geral da versão do Primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Atualização do seletor de ativos para a integração nativa do Adobe Workfront para Experience Manager Assets
+
+
+>[!NOTE]
+>
+>Visualização: 20 de novembro de 2025
+>Versão rápida de produção: 11 de dezembro de 2025\
+>Produção para todos: 16 de janeiro de 2026
+
+Atualizamos o seletor de ativos na integração do Adobe Workfront para Experience Manager Assets. Com essa atualização, agora é possível selecionar e enviar coleções do AEM diretamente para o Workfront.
 
 ## Nova versão da integração do Salesforce já disponível
 
