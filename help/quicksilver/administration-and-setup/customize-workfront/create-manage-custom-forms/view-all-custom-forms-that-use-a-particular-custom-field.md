@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: f4043daeb7a7dad84b6232b5ac133fd59ca64292
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,25 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Descubra quais formulários personalizados usam um determinado campo ou widget personalizado
 
+Para ver o uso de um campo na lista de todos os campos personalizados:
+
 {{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **Forms Personalizado**.
 1. Clique em **Campos**, procure o campo ou widget na coluna **Nome** e exiba a coluna **Forms** para ver quais formulários personalizados estão usando o campo ou widget.
 1. (Opcional) Clique no nome de qualquer um desses formulários personalizados para ir para o formulário e considerar quais alterações você pode precisar fazer lá se modificar o campo ou widget.
+
+Para ver o uso de um campo em um formulário personalizado:
+
+{{step-1-to-setup}}
+
+1. No painel esquerdo, clique em **Forms Personalizado**.
+1. Abra um formulário personalizado e adicione um campo da biblioteca ou selecione um campo existente no formulário.
+
+   O indicador de uso à direita do designer de formulário mostra quantos outros formulários personalizados usam esse campo.
+
+1. Clique em **Exibir Forms Relacionada**.
+
+   Na lista de formulários, você pode clicar em qualquer nome de formulário para abrir o formulário e ver como o campo é usado. Um indicador mostra se cada formulário está ativo ou inativo.
+
+
