@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 9507e04be7cdd33658b4958f3030b0d3359a9ef1
+source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,8 @@ Se você já tiver cinco campos selecionados, remova um campo antes de adicionar
    >[!TIP]
    >
    >* É possível adicionar qualquer campo personalizado ou qualquer campo nativo disponível na área Visão geral da seção Detalhes de um objeto. Por exemplo, somente problemas têm o campo Gravidade, e esse campo não está disponível para ser adicionado a projetos ou tarefas.
+   >
+   >* Quando um usuário edita um campo personalizado no cabeçalho e ele está contido em um formulário personalizado que não está anexado ao objeto, o formulário personalizado é adicionado automaticamente ao objeto.
    >
    >* Ao adicionar o campo &quot;Resolvido por&quot; ao cabeçalho de um problema, o campo é alterado para &quot;Resolvendo problema, tarefa ou projeto&quot; quando há um objeto de resolução associado ao problema.
 
