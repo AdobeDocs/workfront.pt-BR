@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: b68b15f7c36b9988a2fd4f34d0e8b8c3c8ce2908
+source-git-commit: 019c3246edf14f8ceafefbd80ca2c3d509b6ca6b
 workflow-type: tm+mt
-source-wordcount: '13570'
+source-wordcount: '13590'
 ht-degree: 2%
 
 ---
@@ -229,6 +229,9 @@ ht-degree: 2%
          * [Atividade da versão do segundo trimestre de 2025 para o Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Atividade da versão do primeiro trimestre de 2025 para o Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Atividade de lançamento do quarto trimestre de 2024 para o Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+      * Atividade de lançamento das agências do Adobe Workfront{#agencies-release-activity}
+         * [Atividade de lançamento da agência da Adobe Workfront](/help/quicksilver/product-announcements/product-releases/agencies-release-activity/agencies-release-activity-article-index.md)
+         * [Atividade de lançamento do primeiro trimestre de 2026 para recursos da agência Adobe Workfront](/help/quicksilver/product-announcements/product-releases/agencies-release-activity/agencies-release-activity-26-q1.md)
       * Atividade de lançamento do Planejador de cenários do Adobe Workfront {#scenario-planner-release}
          * [Atividade de lançamento do Planejador de cenários do Adobe Workfront](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [Planejador de cenários do Adobe Workfront com a versão 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
