@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 21cab3964ffd79b4b58835fcb992f59eefee78ee
+source-git-commit: 0964ad24535bf43a23c740cd63abcf8fea705b8d
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 >
 >Visualização: 13 de novembro de 2025
 >Versão rápida de produção: 13 de novembro de 2025
->Produção para todos: 13 de novembro de 2026
+>Produção para todos: 13 de novembro de 2025
 
 Agora é possível conectar tipos de registro do Workfront Planning com Marcas da Adobe GenStudio for Performance Marketing. Sua organização deve ter o Workfront Planning e o Adobe GenStudio for Performance Marketing.
 
