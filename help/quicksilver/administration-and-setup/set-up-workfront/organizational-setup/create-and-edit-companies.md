@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
+source-git-commit: 0d79b04c58d6a0a1c8de7f83d7b941e75b1a88f5
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox e está sendo lançado em uma implantação em fases para Produção.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Uma empresa é uma unidade organizacional no [!DNL Adobe Workfront] que pode representar sua organização, um departamento dentro da organização ou um cliente com o qual você trabalha. Você pode adicionar empresas a [!DNL Workfront] e usá-las para fins de planejamento financeiro, relatórios, para definir permissões sobre objetos e para manter as informações confidenciais.
 
@@ -105,9 +105,9 @@ Para adicionar ou editar uma empresa:
 
 1. Atualize as seguintes informações na seção **Informações Básicas**:
 
-   * **Nome da Empresa** <span class="preview"> ou **Nome**</span>: digite um nome para a empresa.
+   * **Nome**: digite um nome para a empresa.
    * **Está ativo**: quando esta opção é habilitada, os usuários podem encontrar a empresa e anexá-la aos projetos que eles criam e editam. Uma empresa inativa não pode ser anexada a projetos. Essa opção está ativada por padrão.
-   * **Esta é a Empresa Primária** <span class="preview">ou **É Primária**</span>: atribui a empresa como a empresa primária da sua organização. A empresa principal geralmente representa a conta da Workfront na qual a maioria dos usuários trabalha.
+   * **É a Empresa Primária**: atribui a empresa como a empresa primária da sua organização. A empresa principal geralmente representa a conta da Workfront na qual a maioria dos usuários trabalha.
 
      Você pode ter uma empresa ou nenhuma empresa designada como empresa primária, mas não pode ter várias empresas designadas como empresas primárias. Para obter mais informações, consulte [Criar e modificar níveis de acesso personalizados](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -141,11 +141,7 @@ Para adicionar ou editar uma empresa:
 
    Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Condicional) Se você estiver criando uma empresa, clique em **[!UICONTROL Criar Empresa]** <span class="preview">ou **Salvar**.</span>
-
-   Ou
-
-   Se você estiver editando uma empresa existente, clique em **[!UICONTROL Salvar alterações]** <span class="preview">ou **Salvar**.</span>
+1. Clique em **Salvar**.
 
 ## Excluir empresas
 
@@ -179,13 +175,9 @@ Para obter mais informações sobre objetos de compartilhamento, consulte [Visã
 
 Quando um administrador do [!DNL Workfront] atribui um grupo a uma empresa, os administradores do grupo obtêm acesso de [!UICONTROL Gerenciar] à empresa em [!UICONTROL Configuração]. Isso inclui o acesso à página [!UICONTROL Empresas] em [!UICONTROL Configuração], onde é possível ver e gerenciar a empresa associada ao grupo.
 
-Com esse acesso à página [!UICONTROL Empresas], um administrador de grupo pode atribuir um grupo a uma empresa, mas ela deve ser uma empresa criada pelo administrador do grupo. Se o nível de acesso do administrador de grupo não estiver configurado com acesso administrativo a empresas, o campo [!UICONTROL Grupo] será necessário quando o administrador de grupo criar a empresa. Seu <span class="preview">asterisco</span> ou título em negrito indica o seguinte:
+Com esse acesso à página [!UICONTROL Empresas], um administrador de grupo pode atribuir um grupo a uma empresa, mas ela deve ser uma empresa criada pelo administrador do grupo. Se o nível de acesso do administrador de grupo não estiver configurado com acesso administrativo a empresas, o campo [!UICONTROL Grupo] será necessário quando o administrador de grupo criar a empresa—o asterisco indica que:
 
-<span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
 ![Caixa de diálogo Nova empresa com grupo obrigatório](assets/group-admin-add-company-group-required.png)
-
-Imagem de amostra no ambiente de produção:
-![Grupo necessário na empresa](assets/group-admin-add-company.png)
 
 Para obter informações sobre como os usuários obtêm acesso administrativo a empresas em seu nível de acesso, consulte [Conceder aos usuários acesso administrativo a determinadas áreas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
