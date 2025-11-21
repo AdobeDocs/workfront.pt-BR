@@ -6,20 +6,21 @@ description: Você pode enviar solicitações no widget Minhas solicitações. V
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '798'
 ht-degree: 3%
 
 ---
 
 # Usar o widget Minhas solicitações
 
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 >[!IMPORTANT]
 >
 >Este artigo descreve o novo widget Minhas solicitações. Você deve ter a nova experiência de solicitação habilitada para ver o novo widget.
->&#x200B;>Você pode ativar a nova experiência de solicitação na área Solicitações.
+>Você pode ativar a nova experiência de solicitação na área Solicitações.
 
 O widget Minhas solicitações exibe solicitações que foram enviadas para sua organização. Você pode filtrar as solicitações, pesquisar solicitações específicas ou ajustar a ordem e a visibilidade da coluna. Você também pode criar uma nova solicitação no widget Minhas solicitações.
 
@@ -63,11 +64,21 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Criar uma solicitação
+## Criar uma nova solicitação
 
 Você pode criar uma solicitação diretamente do widget Minhas solicitações.
 
 Para obter instruções, consulte [Criar uma solicitação](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) no artigo Criar itens de trabalho e projetos da área Página inicial.
+
+<div class="preview">
+
+## Copiar uma solicitação
+
+Você pode copiar uma solicitação no widget Minhas solicitações, editá-la e enviá-la como uma nova solicitação.
+
+Para obter instruções, consulte [Copiar e enviar solicitações na nova experiência de solicitação](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) no artigo Copiar e enviar solicitações.
+
+</div>
 
 ## Filtrar solicitações
 
