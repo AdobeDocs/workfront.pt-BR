@@ -6,9 +6,9 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 203ff7855649c968c52d74ef0ee7581a1439aa47
+source-git-commit: f38c10a187367570739f65961f945450b7b9b5de
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 >Versão rápida de produção: 11 de dezembro de 2025\
 >Produção para todos: 16 de janeiro de 2026
 
-Para facilitar a criação e o envio de solicitações, adicionamos a capacidade de salvar rascunhos na nova experiência de solicitação. Agora, quando você começa a preencher uma solicitação e a fecha, a solicitação é salva no status Rascunho e pode ser encontrada na lista de solicitações. Em seguida, você poderá reabrir, atualizar e submeter a preliminar quando desejar.
+Para facilitar a criação e o envio de solicitações, adicionamos a capacidade de salvar rascunhos na nova experiência de solicitação. Agora, quando você começa a preencher uma solicitação e a fecha, a solicitação é salva no status Rascunho e pode ser encontrada no formulário de solicitação usado para criar o rascunho. Em seguida, você poderá reabrir, atualizar e submeter a preliminar quando desejar.
 
 Anteriormente, esse recurso não estava disponível na nova experiência de solicitação.
 
-Os rascunhos criados na experiência de solicitação herdada estão disponíveis na nova experiência de solicitação. Você pode localizá-los na lista de solicitações.
+Os rascunhos criados na experiência de solicitação herdada estão disponíveis na nova experiência de solicitação.
 
 Para obter mais informações sobre rascunhos de solicitações, consulte [Criar solicitações a partir de rascunhos](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 
@@ -49,19 +49,23 @@ Anteriormente, a exclusão de solicitações não estava disponível.
 
 Para obter informações e instruções, consulte [Excluir uma solicitação enviada ou rascunho de solicitação](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
-## Compartilhar exibições na área Solicitações e no widget Minhas solicitações
+<!--
+
+## Share views in the Requests area and the My Requests widget
 
 >[!NOTE]
 >
->Visualização: 20 de novembro de 2025
->Versão rápida de produção: 11 de dezembro de 2025\
->Produção para todos: 16 de janeiro de 2026
+>Preview: November 20, 2025 
+>Production fast release: December 11, 2025  
+>Production for everyone: January 16, 2026  
 
-Para facilitar a visualização das informações necessárias, adicionamos a capacidade de compartilhar exibições na nova experiência de relatórios. Agora é possível compartilhar visualizações com outros usuários, equipes ou grupos.
+To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
 
-Você pode compartilhar exibições de lista de solicitações na área Solicitações do Workfront e no widget Minhas solicitações na Página inicial. A funcionalidade de compartilhamento é idêntica em ambos os locais, e as configurações de exibição, incluindo compartilhamento, são preservadas ao se mover entre o widget Minhas solicitações e a área Solicitações.
+You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
 
-Para obter informações sobre exibições de solicitação, incluindo compartilhamento, consulte [Criar e gerenciar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+-->
 
 ## Criar novas solicitações copiando solicitações enviadas anteriormente na nova experiência de solicitação
 

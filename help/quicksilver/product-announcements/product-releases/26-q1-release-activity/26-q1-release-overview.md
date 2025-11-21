@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 203ff7855649c968c52d74ef0ee7581a1439aa47
+source-git-commit: bd2d6fcf9e7a724914e8005cffc455fc6979f611
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1930'
 ht-degree: 4%
 
 ---
@@ -40,8 +40,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Melhorias do administrador](#administrator-enhancements)
 * [Aprimoramentos de documentos e aprovações](#documents-and-approvals-enhancements)
 * [Aprimoramentos de integração](#integration-enhancements)
-* [Aprimoramentos nos relatórios](#reporting-enhancements)
-  <!--* [Requests enhancements](#requests-enhancements)-->
+* [Melhorias nos relatórios](#reporting-enhancements)
+* [Melhorias nas solicitações](#requests-enhancements)
 * [Outras melhorias](#other-enhancements)
 
 ### Melhorias do administrador
@@ -212,55 +212,55 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-<!--### Requests enhancements
+### Melhorias nas solicitações
 
 <table style="table-layout:auto">
   <tbody>
    <tr>
-        <td><strong>Feature</strong>
+        <td><strong>Recurso</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Visualização</strong></td>
+        <td><strong>Lançamento rápido</strong></td>
+        <td><strong>Trimestralmente</strong></td>
     </tr>
      <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Save drafts of requests in the new requesting experience</a>
-            <p>To make it easier to create and submit requests, we've added the ability to save drafts to the new requesting experience. Now, when you begin filling out a request and close it, the request is saved in Draft status and can be found in your request list. You can then reopen, update, and submit the draft at your convenience. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Salvar rascunhos de solicitações na nova experiência de solicitação</a>
+            <p>Para facilitar a criação e o envio de solicitações, adicionamos a capacidade de salvar rascunhos na nova experiência de solicitação. Agora, quando você começa a preencher uma solicitação e a fecha, a solicitação é salva no status Rascunho e pode ser encontrada no formulário de solicitação usado para criar o rascunho. Em seguida, você poderá reabrir, atualizar e submeter a preliminar quando desejar. </p>
         </td>
-        <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
+        <td>sexta-feira, 20 de novembro de 2025</td>
+        <td>sexta-feira, 11 de dezembro de 2025</td>
+        <td>sexta-feira, 15 de janeiro de 2026</td>
     </tr>  
         <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Delete submitted requests in the new requesting experience</a>
-            <p>To make it easier to keep your requests organized and uncluttered, we've added the ability to delete requests to the new requesting experience. Now, you can delete requests that you have submitted. Workfront Administrators and Workfront Planning Workspace administrators can also delete requests.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Excluir solicitações enviadas na nova experiência de solicitação</a>
+            <p>Para facilitar a organização e a organizada das solicitações, adicionamos a capacidade de excluir solicitações à nova experiência de solicitação. Agora é possível excluir solicitações enviadas. Os administradores do Workfront e do Workfront Planning Workspace também podem excluir solicitações.</p>
         </td>
-        <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
+        <td>sexta-feira, 20 de novembro de 2025</td>
+        <td>sexta-feira, 11 de dezembro de 2025</td>
+        <td>sexta-feira, 15 de janeiro de 2026</td>
     </tr>   
-        <tr>
+<!--        <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Share views in the Requests area and the My Requests widget</a>
             <p>To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups. </p>
         </td>
         <td>November 20, 2025</td>
         <td>December 11, 2025</td>
         <td>January 15, 2026</td>
-    </tr>   
+    </tr>   -->
         <tr>
         <td>
-            <a href="help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Create new requests by copying previously submitted requests in the new requesting experience</a>
-            <p>To make it easier to submit requests, we've added the ability to copy requests to the new requesting experience. Now, you can copy a request, edit any fields, and submit it as a new request. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md" class="MCXref xref" xrefformat="{para}">Criar novas solicitações copiando solicitações enviadas anteriormente na nova experiência de solicitação</a>
+            <p>Para facilitar o envio de solicitações, adicionamos a capacidade de copiar solicitações para a nova experiência de solicitação. Agora você pode copiar uma solicitação, editar quaisquer campos e enviá-la como uma nova solicitação. </p>
         </td>
-        <td>November 20, 2025</td>
-        <td>December 11, 2025</td>
-        <td>January 15, 2026</td>
+        <td>sexta-feira, 20 de novembro de 2025</td>
+        <td>sexta-feira, 11 de dezembro de 2025</td>
+        <td>sexta-feira, 15 de janeiro de 2026</td>
     </tr>    
   </tbody>
-</table> -->
+</table>
 
 ### Outras melhorias
 
@@ -380,12 +380,12 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
