@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
+source-git-commit: 0c13d3da9e42085bfa1db5a0fb2227c23b8b40be
 workflow-type: tm+mt
-source-wordcount: '13594'
+source-wordcount: '13597'
 ht-degree: 2%
 
 ---
@@ -1493,7 +1493,7 @@ ht-degree: 2%
          * [Permitir que os usuários enviem um problema por email para um projeto da Fila de solicitações](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
          * [Localizar solicitações enviadas](manage-work/requests/create-requests/locate-submitted-requests.md)
          * [Compartilhar um link para uma fila de solicitações](manage-work/requests/create-requests/share-link-to-request-queue.md)
-         * [Excluir um rascunho de solicitação](manage-work/requests/create-requests/delete-request-draft.md)
+         * [Excluir uma solicitação enviada ou rascunho de solicitação](manage-work/requests/create-requests/delete-request-draft.md)
          * [Copiar e enviar solicitações](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [Preencher automaticamente uma solicitação a partir de dados anteriores](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
          * [Preencher automaticamente uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
