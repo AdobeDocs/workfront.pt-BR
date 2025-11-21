@@ -6,14 +6,16 @@ description: Além de usar os rascunhos disponíveis que o Workfront sugere quan
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '840'
 ht-degree: 1%
 
 ---
 
 # Criar solicitações a partir de rascunhos
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Além de usar os rascunhos disponíveis que o Workfront sugere quando você informa uma nova solicitação, também é possível acessar um rascunho de solicitação na seção Rascunhos e finalizar a submissão a partir daí.
 
@@ -52,13 +54,55 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Pré-requisitos para criar solicitações a partir de rascunhos
 
-Você deve fazer o seguinte antes de criar uma solicitação a partir de um rascunho: 
+Você deve fazer o seguinte antes de criar uma solicitação a partir de um rascunho:
 
 * Comece a criar uma solicitação. Isso salva a solicitação como rascunho automaticamente na seção Rascunhos.
 
   Para obter informações sobre como criar solicitações, consulte [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Criar solicitações a partir de rascunhos
+
+O procedimento para criar solicitações de rascunhos difere entre a nova experiência de solicitação e a experiência herdada.
+
+* <span class="preview">[Criar solicitações a partir de rascunhos na nova experiência de solicitação](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [Criar solicitações de rascunhos na experiência de solicitação herdada](#create-requests-from-drafts-in-the-legacy-requesting-experience)
+
+<div class="preview">
+
+### Criar solicitações de rascunhos na nova experiência de solicitação
+
+
+
+<!--
+   
+1. Open the draft.
+
+   Drafts can be found in the following locations:
+
+   * In the requests list in the Requests area
+   * In the requests list in the My Requests widget in Home
+   * In the New request dialog (includes only drafts of requests created with the selected form)
+   
+-->
+1. Abra o rascunho.
+
+   Os rascunhos podem ser encontrados na caixa de diálogo Nova solicitação (inclui somente rascunhos de solicitações criadas com o formulário selecionado).
+1. Atualize as informações da solicitação conforme descrito em [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. (Opcional e condicional) A qualquer momento durante a inserção da solicitação, clique em **Descartar** rascunho se desejar excluir o rascunho. Isso exclui o rascunho.
+
+   Se você descartou o rascunho por engano, clique imediatamente em **Desfazer** na mensagem, na parte inferior da tela. Essa opção está disponível somente por alguns segundos.
+
+   Para obter mais informações sobre como excluir rascunhos, consulte [Excluir uma solicitação enviada ou rascunho da solicitação](../../../manage-work/requests/create-requests/delete-request-draft.md).
+
+1. (Opcional) Para salvar as alterações no rascunho sem enviá-lo, saia da página Nova solicitação. As alterações são salvas automaticamente.
+
+1. Após concluir as informações da solicitação, clique em **Enviar**.
+
+   Quando você envia a solicitação, o rascunho é excluído e não pode ser restaurado.
+
+</div>
+
+### Criar solicitações de rascunhos na experiência de solicitação herdada
 
 {{step1-to-requests}}
 
