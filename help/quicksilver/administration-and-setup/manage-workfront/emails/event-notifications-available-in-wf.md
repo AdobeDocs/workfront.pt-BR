@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: f3016e77f086d221dc11398ec06cc7435ad82278
 workflow-type: tm+mt
-source-wordcount: '5201'
+source-wordcount: '5237'
 ht-degree: 7%
 
 ---
@@ -46,7 +46,7 @@ Consulte também [Notificações: ação necessária](../../../workfront-basics/
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo de Objeto</th> 
+   <th>Tipo de objeto</th> 
    <th>Evento</th> 
    <th>Destinatário</th> 
    <th>Descrição</th> 
@@ -181,7 +181,7 @@ Consulte também [Notificações: solicitações que fiz](../../../workfront-bas
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo de Objeto</th> 
+   <th>Tipo de objeto</th> 
    <th>Evento</th> 
    <th>Destinatário</th> 
    <th>Descrição</th> 
@@ -256,7 +256,7 @@ Consulte também [Notificações: solicitações que fiz](../../../workfront-bas
    <td> <p>Documento</p> </td> 
    <td> <p>Adicionar Documento de Solicitação</p> </td> 
    <td> <p>Originador do problema</p> </td> 
-   <td> <p>Um documento foi alterado ou carregado sobre um problema para o qual sou o contato principal.</p> <p>O contato principal do problema recebe uma notificação por email quando um documento é carregado ou alterado no problema, a menos que o usuário que carregou ou alterou o documento também seja o contato principal.</p> <p>Uma notificação será enviada somente se o status do projeto for Atual e se o projeto tiver a opção "Publish como Fila de solicitação de ajuda" ativada na guia Configuração da fila.</p> </td> 
+   <td> <p>Um documento foi alterado ou carregado sobre um problema para o qual sou o contato principal.</p> <p>O contato principal do problema recebe uma notificação por email quando um documento é carregado ou alterado no problema, a menos que o usuário que carregou ou alterou o documento também seja o contato principal.</p> <p>Uma notificação será enviada somente se o status do projeto for Atual e se o projeto tiver a opção "Publicar como Fila de solicitação de ajuda" ativada na guia Configuração da fila.</p> </td> 
    <td> <p>Ativo (somente diariamente)</p> </td> 
   </tr> 
   <tr> 
@@ -285,7 +285,7 @@ Consulte também [Notificações: Comunicação](../../../workfront-basics/using
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo de Objeto</th> 
+   <th>Tipo de objeto</th> 
    <th>Evento</th> 
    <th>Destinatário</th> 
    <th>Descrição</th> 
@@ -301,7 +301,7 @@ Consulte também [Notificações: Comunicação](../../../workfront-basics/using
    <td> <p>Ativo</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Nota</p> </td> 
+   <td> <p>Observação</p> </td> 
    <td> <p>Adicionar Nota de Solicitação</p> </td> 
    <td> <p>Originador do problema</p> </td> 
    <td> <p>Quando um comentário for postado em uma solicitação, envie um email para o contato principal do problema.</p> <p>O contato principal de um problema recebe uma notificação por email quando um comentário é postado em uma solicitação, a menos que o usuário que postou o comentário também seja o contato principal do problema.</p> <p>Todos os usuários incluídos diretamente no comentário também recebem uma notificação por email.</p> <p>Uma notificação é enviada somente se o status do projeto for Atual.</p> </td> 
@@ -322,7 +322,7 @@ Consulte também [Notificações: Comunicação](../../../workfront-basics/using
    <td> <p>Ativo (somente diariamente)</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Nota</p> </td> 
+   <td> <p>Observação</p> </td> 
    <td> <p>Comentário do Item de Trabalho</p> </td> 
    <td> <p>Participantes da thread</p> </td> 
    <td> <p>Quando alguém comentar em um item de trabalho, envie email para qualquer um que tiver comentado este item de trabalho.</p> <p>Os participantes da thread e os usuários incluídos em uma mensagem direta recebem uma notificação por email quando um usuário faz um comentário na thread.</p> <p>Os usuários devem ter acesso de Visualização para receber uma notificação.</p> <p>Os seguintes usuários não recebem uma notificação:</p> 
@@ -334,14 +334,14 @@ Consulte também [Notificações: Comunicação](../../../workfront-basics/using
    <td> <p>Ativo (somente diariamente)</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Nota</p> </td> 
+   <td> <p>Observação</p> </td> 
    <td> <p>Comentário do Item de Trabalho</p> </td> 
    <td> <p>Destinatário do item de trabalho</p> </td> 
    <td> <p>Quando alguém comentar em um dos meus itens de trabalho, envie email para os atribuídos.</p> <p>O destinatário do item de trabalho recebe uma notificação por email sempre que um usuário adiciona uma atualização a um item de trabalho, a menos que o usuário que adiciona a atualização também seja o destinatário.</p> </td> 
    <td> <p>Ativo (somente diariamente)</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Nota</p> </td> 
+   <td> <p>Observação</p> </td> 
    <td> <p>Resposta à requisição de trabalho</p> </td> 
    <td> <p> Solicitante do trabalho</p> </td> 
    <td> <p>Alguém responde ao meu pedido.</p> <p>Depois que um usuário envia uma solicitação e outro usuário responde, o usuário que enviou a solicitação recebe uma notificação por email.</p> <p>Uma notificação por e-mail não será enviada se:</p> 
@@ -369,7 +369,7 @@ Consulte também [Notificações: Informações de aprovação](../../../workfro
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo de Objeto</th> 
+   <th>Tipo de objeto</th> 
    <th>Evento</th> 
    <th>Destinatário</th> 
    <th>Descrição</th> 
@@ -433,7 +433,7 @@ Consulte também [Notificações: informações sobre o trabalho atribuído a mi
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo de Objeto</th> 
+   <th>Tipo de objeto</th> 
    <th>Evento</th> 
    <th>Destinatário</th> 
    <th>Descrição</th> 
@@ -494,7 +494,7 @@ Consulte também [Notificações: informações sobre o trabalho atribuído a mi
    <td> <p>Documento</p> </td> 
    <td> <p>Adicionar Documento de Solicitação</p> </td> 
    <td> <p>Usuário ao qual o problema está atribuído</p> </td> 
-   <td> <p>Documentos foram carregados ou alterados na minha requisição.</p> <p>O destinatário do problema recebe uma notificação por email quando os documentos são carregados ou alterados em um problema adicionado.</p> <p>Uma notificação por e-mail não é enviada se o usuário que inseriu o problema for o destinatário do problema.</p> <p>Uma notificação será enviada somente se o status do projeto for Atual e se o projeto tiver a opção "Publish como Fila de solicitação de ajuda" ativada na guia Configuração da fila.</p> </td> 
+   <td> <p>Documentos foram carregados ou alterados na minha requisição.</p> <p>O destinatário do problema recebe uma notificação por email quando os documentos são carregados ou alterados em um problema adicionado.</p> <p>Uma notificação por e-mail não é enviada se o usuário que inseriu o problema for o destinatário do problema.</p> <p>Uma notificação será enviada somente se o status do projeto for Atual e se o projeto tiver a opção "Publicar como Fila de solicitação de ajuda" ativada na guia Configuração da fila.</p> </td> 
    <td> <p>Ativo (somente diariamente)</p> </td> 
   </tr> 
   <tr> 
@@ -544,7 +544,7 @@ Consulte também [Notificações: Informações sobre projetos em que estou](../
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo de Objeto</th> 
+   <th>Tipo de objeto</th> 
    <th>Evento</th> 
    <th>Destinatário</th> 
    <th>Descrição</th> 
@@ -601,6 +601,13 @@ Consulte também [Notificações: Informações sobre projetos em que estou](../
    <td> <p>Quando uma status de projeto for alterado, enviar email para a equipe.</p> <p>Os usuários na equipe do projeto recebem uma notificação por email quando o status do projeto é alterado. </p> </td> 
    <td> <p>Inativo</p> </td> 
   </tr> 
+     <tr> 
+   <td> <p>Projeto</p> </td> 
+   <td> <p>Status atual do projeto</p> </td> 
+   <td> <p>Membros da equipe atribuída</p> </td> 
+   <td> <p>Um projeto em que minha equipe se torna ativa.</p> <p>Os membros de uma equipe atribuída do Workfront recebem uma notificação por email quando o projeto atribuído para eles se tornarem ativos.</p> </td> 
+   <td> <p>Inativo</p> </td> 
+  </tr> 
   <tr> 
    <td> <p>Usuário de Projeto</p> </td> 
    <td> <p>Adição de Usuário de Projeto</p> </td> 
@@ -636,7 +643,7 @@ Consulte também [Notificações: informações sobre projetos que possuo](../..
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo de Objeto</th> 
+   <th>Tipo de objeto</th> 
    <th>Evento</th> 
    <th>Destinatário</th> 
    <th>Descrição</th> 
@@ -735,7 +742,7 @@ Consulte também [Notificações: Informações sobre projetos que eu patrociono
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo de Objeto</th> 
+   <th>Tipo de objeto</th> 
    <th>Evento</th> 
    <th>Destinatário</th> 
    <th>Descrição</th> 
@@ -820,7 +827,7 @@ Consulte também [Notificações: informações diversas](../../../workfront-bas
  <col> 
  <thead> 
   <tr> 
-   <th>Tipo de Objeto</th> 
+   <th>Tipo de objeto</th> 
    <th>Evento</th> 
    <th>Destinatário</th> 
    <th>Descrição</th> 
@@ -888,7 +895,7 @@ Consulte também [Notificações: informações diversas](../../../workfront-bas
   <tr> 
    <td> <p>Projeto</p> </td> 
    <td> <p>Projeto adicionado ao portfólio ou programa</p> </td> 
-   <td> <p>Proprietário do Portfolio ou programa</p> </td> 
+   <td> <p>Portfolio ou Proprietário do Programa</p> </td> 
    <td> <p>Alguém adicionar um projeto a um portfólio ou programa que possuo.</p> </td> 
    <td> <p>Ativo (apenas instantâneo)</p> </td> 
   </tr> 
@@ -921,7 +928,7 @@ Consulte também [Notificações: informações diversas](../../../workfront-bas
 
 Consulte também [Notificações: Delegação](../../../workfront-basics/using-notifications/notifications-delegation.md).
 
-| Tipo de Objeto | Evento | Destinatário | Descrição | Estado padrão |
+| Tipo de objeto | Evento | Destinatário | Descrição | Estado padrão |
 |------------------|--------------------------------------------|-----------|--------------------------------------------------------------|-----------------------|
 | Tarefas e problemas | Delegação de tarefas e problemas | Atribuidor | Delego minhas tarefas e problemas (confirmação) | Ativo (apenas instantâneo) |
 | Tarefas e problemas | Interromper delegação de tarefas e problemas | Atribuidor | Interrompo a delegação de minhas tarefas e problemas (confirmação) | Ativo (apenas instantâneo) |
