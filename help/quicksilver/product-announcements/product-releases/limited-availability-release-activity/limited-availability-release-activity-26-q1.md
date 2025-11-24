@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bd0c365fcf5431a6b540d302385315d28688e558
+source-git-commit: a335b035e82ebe3daa6a9687b362a9117f348e0e
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Para obter uma lista de todos os recursos de disponibilidade limitada lançados 
 
 >[!NOTE]
 >
->Data de lançamento da produção: xx de novembro de 2025
+>Data de lançamento da produção: 20 de novembro de 2025
 
 Agora você pode aplicar alterações baseadas em porcentagem a uma ou mais taxas de cobrança de função de trabalho em um cartão de taxa. Em vez de atualizar manualmente cada taxa uma por uma, você pode aplicar alterações a todas as taxas selecionadas em uma única operação.
 
