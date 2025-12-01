@@ -7,18 +7,18 @@ description: É importante indicar no Adobe Workfront quando a folga aprovada ac
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e25ea757129e9645f7b5f0729cd498d5947f49f2
+source-git-commit: 0e37a5a519770d3d48192f1799491aa53a871508
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
 # Configurar folga pessoal
 
-<!-- Audited: 12/2023 -->
+<!-- Audited: 12/2025 -->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox e está sendo lançado em uma implantação em fases para Produção.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 O [!DNL Adobe Workfront] não foi projetado para replicar ou substituir seus sistemas existentes para gerenciar, acumular e rastrear o tempo livre pessoal.
 
@@ -72,18 +72,17 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 >[!NOTE]
 >
->Se você estiver na Experiência unificada do Adobe, poderá acessar o perfil do Workfront clicando no menu de conta do Adobe (sua imagem de perfil) na área de navegação superior e escolhendo Perfil do Workfront.
+>Se sua organização estiver na Experiência unificada da Adobe, clique no menu de conta do **Adobe** (sua imagem de perfil) no canto superior direito da área de navegação superior e clique em **Perfil do Workfront**.
 >
 >![perfil do workfront](assets/aue-profile.png)
 
 1. No painel esquerdo, clique em **[!UICONTROL Folga]**.
 1. Selecione a data desejada para sua folga pessoal.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
    ![Calendário de folga pessoal](assets/personal-time-off-calendar-0925.png)
 
-   Imagem de amostra no ambiente de produção:
-   ![Calendário de folga pessoal](assets/personal-time-off-calendar.png)
+   <!--Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
 
 1. Selecione **[!UICONTROL Todo o dia]**, se você estiver tirando um dia de folga.
 
