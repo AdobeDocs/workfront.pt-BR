@@ -7,9 +7,9 @@ description: Esta página contém informações sobre a estrutura e o conteúdo 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: e06db80d752d79157c758b3ecf3a8d4e7040e96d
+source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
 workflow-type: tm+mt
-source-wordcount: '8788'
+source-wordcount: '8878'
 ht-degree: 9%
 
 ---
@@ -20,7 +20,7 @@ Esta página contém informações sobre a estrutura e o conteúdo dos dados no 
 
 >[!NOTE]
 >
->Os dados no Data Connect são atualizados a cada quatro horas, portanto, alterações recentes podem não ser refletidas imediatamente.
+>Os dados no Data Connect são atualizados a cada 4 horas, portanto, alterações recentes podem não ser refletidas imediatamente.
 
 ## Exibir tipos
 
@@ -49,7 +49,7 @@ Os objetos no Workfront (e, portanto, no data lake da Data Connect) são definid
 >[!IMPORTANT]
 >
 >O ERD (diagrama de relacionamento de entidade) fornecido está propositalmente incompleto, pois um ERD completo se tornaria ilegível devido ao alto número de relacionamentos dentro do aplicativo.<br>
->&#x200B;>Este diagrama fornece um exemplo de como as relações documentadas na tabela Projeto na seção [Tabela de terminologia](#terminology-table) abaixo podem ser usadas para unir dados da visualização de dados do Projeto a objetos adjacentes. Espera-se que um ERD completo não seja necessário uma vez que esse padrão seja entendido para as relações de objeto do projeto
+>Este diagrama fornece um exemplo de como as relações documentadas na tabela Projeto na seção [Tabela de terminologia](#terminology-table) abaixo podem ser usadas para unir dados da visualização de dados do Projeto a objetos adjacentes. Espera-se que um ERD completo não seja necessário uma vez que esse padrão seja entendido para as relações de objeto do projeto
 
 ## Tipos de data
 
@@ -67,7 +67,7 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
 >[!NOTE]
 >
 >Novos campos podem ser adicionados às visualizações de objetos sem aviso prévio para suportar as necessidades de dados em evolução do aplicativo Workfront. Atenção ao uso de consultas &quot;SELECT&quot; em que o destinatário de dados downstream não esteja preparado para lidar com colunas adicionais à medida que são adicionadas.<br>
->&#x200B;>Se for necessário renomear ou remover uma coluna, informaremos com antecedência dessas alterações.
+>Se for necessário renomear ou remover uma coluna, informaremos com antecedência dessas alterações.
 
 ### Nível de acesso
 
@@ -1597,7 +1597,7 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
     </tbody>
 </table>
 
-### Enumerado Personalizado
+### Lista Discriminada Personalizada
 
 <table>
     <thead>
@@ -1614,7 +1614,7 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
             <td>CustomEnum</td>
             <td>Condição, Prioridade, Severidade, Status</td>
             <td>CSTEM</td>
-            <td>Enumerado Personalizado</td>
+            <td>Lista Discriminada Personalizada</td>
             <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
         </tr>
       </tbody>
@@ -1660,17 +1660,21 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
         </tr>
     </tbody>
 </table>
-<div>* O tipo de registro é identificado por meio da propriedade "enumClass". Estes são os tipos esperados:<br>
-<ul><li>CONDITION_OPTASK</li>
-<li>CONDITION_PROJ</li>
-<li>CONDITION_TASK</li>
-<li>PRIORITY_OPTASK</li>
-<li>PRIORITY_PROJ</li>
-<li>PRIORITY_TASK</li>
-<li>SEVERITY_OPTASK</li>
-<li>STATUS_OPTASK</li>
-<li>STATUS_PROJ</li>
-<li>STATUS_TASK</li></ul></div>
+
+>[!NOTE]
+>
+>O tipo de registro é identificado por meio da propriedade `enumClass`. Estes são os tipos esperados:<br>
+><ul><li>CONDITION_OPTASK</li>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
+
 
 ### Documento
 
@@ -6601,6 +6605,11 @@ Disponibilidade limitada para o cliente
         </tr>
     </tbody>
 </table>
+
+>[!NOTE]
+>
+>Existem 3 tipos de equipe que são armazenados nas tabelas de objeto de Equipe: PROJECT, TEMPLATE e ADHOC. <br>
+>Cada um desses tipos de equipe é representado juntos nas visualizações do data lake da Data Connect. Para isolar o tipo específico de grupo que você quer que seja retornado, você precisará filtrar na coluna `teamtype`. Por exemplo, se você quiser apenas as equipes tradicionais que fazem parte de suas estruturas organizacionais, configuradas na área Equipes do aplicativo, você pode ter uma consulta com esta aparência: <code>select * from team_current where teamtype = &#39;ADHOC&#39;;</code>
 
 ### Integrante da Equipe
 
