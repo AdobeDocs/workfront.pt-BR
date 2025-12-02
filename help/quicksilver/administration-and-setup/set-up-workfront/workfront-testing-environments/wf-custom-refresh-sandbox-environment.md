@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1741'
 ht-degree: 0%
 
 ---
@@ -223,3 +223,8 @@ Para o ambiente Personalizar atualização da sandbox, o recálculo noturno é d
 * [!DNL Workfront] Os ambientes da Sandbox de atualização personalizada devem estar sempre disponíveis. Qualquer interrupção em um ambiente de sandbox de atualização personalizada da Workfront durante o horário comercial regular será uma prioridade imediatamente após a resolução de qualquer problema de produção, se houver. Qualquer interrupção em um ambiente Workfront Custom Refresh Sandbox nos finais de semana (sábados e domingos) será resolvida para que o ambiente funcione durante o horário comercial na segunda-feira.
 
 * A revisão não está disponível nos ambientes de sandbox de atualização personalizada.
+
+* As seguintes notificações não estão disponíveis para uso nos ambientes de sandbox de atualização personalizada:
+
+   * Notificações de lembrete
+   * Notificações automáticas de lembrete atrasadas ou antecipadas
