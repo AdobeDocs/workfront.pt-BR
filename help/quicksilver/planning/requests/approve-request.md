@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Os aprovadores recebem as seguintes notificações sobre uma solicitação pende
 
 Para aprovar uma solicitação:
 
-1. Siga um destes procedimentos:
+1. (Condicional) Se você estiver usando a experiência de solicitação herdada no Workfront, abra a solicitação seguindo um destes procedimentos:
 
    * Se você tiver acesso ao Workfront Planning e puder exibir pelo menos um espaço de trabalho, clique em **Menu Principal** ![Menu principal Pontos](assets/dots-menu.png) no canto superior direito da tela ou no **Menu Principal** ![Menu principal Linhas](assets/lines-menu.png) no canto superior esquerdo, se disponível, clique em **Solicitações** > **Enviadas** > **Planejamento** e clique na solicitação com o status **Revisão pendente** ou **Em revisão**.
 
@@ -113,7 +113,7 @@ Para aprovar uma solicitação:
    A página de solicitação é aberta no modo somente leitura.
 
    ![Página de solicitação somente leitura no status de revisão](assets/read-only-reqeust-page-in-review-status.png)
-
+1. Se você estiver usando a nova experiência de solicitação no Workfront, clique em **Menu Principal** ![Menu principal Pontos](assets/dots-menu.png) no canto superior direito da tela ou no **Menu Principal** ![Menu principal Linhas](assets/lines-menu.png) no canto superior esquerdo, se disponível, clique em **Solicitações** e clique na solicitação que deseja aprovar com o status de **Revisão pendente** ou **Na revisão**.
 1. (Opcional) Clique no ícone **Aprovações** ![Ícone Aprovações](assets/approvals-icon.png) no canto superior direito da solicitação para exibir os aprovadores.
 1. Clique em **Revisar e aprovar** e escolha uma das seguintes opções:
 

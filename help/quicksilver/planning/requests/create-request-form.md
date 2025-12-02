@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2684'
 ht-degree: 1%
 
 ---
@@ -241,13 +241,13 @@ Na guia Configuração, é possível definir o processo de aprovação e configu
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
-   * Quando você associa um formulário de solicitação a aprovadores, qualquer nova solicitação deve primeiro ser aprovada por todos os aprovadores antes de gerar um novo registro.
    * Você pode adicionar um ou vários aprovadores a um formulário de solicitação.
-   * Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado.
-   * Todos os aprovadores devem tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
+   * Se você adicionar mais de um aprovador e a opção Somente uma decisão é necessária não estiver ativada, todos os aprovadores deverão aprovar a solicitação antes que o Workfront Planning crie um registro.
+   * Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na guia Planejamento da seção Enviado na área Solicitações do Workfront.
+   * Se você adicionar mais de um aprovador e a opção Somente uma decisão é obrigatória não estiver ativada, todos os aprovadores deverão tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
    * Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.
 
-     Para obter mais informações sobre como adicionar aprovações a formulários de solicitação, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   Para obter mais informações sobre como adicionar aprovações a formulários de solicitação, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Condicional) Se desejar que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**.
 

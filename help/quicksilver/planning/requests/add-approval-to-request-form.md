@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: de568156315ff9094d938600c91b55e185d53765
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    A área **Configuração** é exibida.
 
    ![Guia Configuração](assets/configuration-tab.png)
-1. No campo **Aprovadores**, clique no ícone suspenso e selecione um ou vários usuários ou equipes na lista
-
-   Ou
-
-   Comece digitando o nome de um usuário ou equipe que deseja definir como um aprovador, em seguida, selecione-o quando ele for exibido na lista.
+1. No campo **Aprovadores**, comece digitando o nome de um usuário ou equipe que você deseja definir como um aprovador, em seguida, selecione-o quando ele for exibido na lista.
+1. (Opcional e condicional) Se você tiver definido mais de um aprovador e só precisar de um aprovador para tomar uma decisão, habilite a opção **Somente uma decisão é necessária**.
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -103,11 +100,11 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    >
    >* Você pode adicionar um ou vários aprovadores a um formulário de solicitação.
    >
-   >* Se você adicionar mais de um aprovador, todos os aprovadores deverão aprovar a solicitação antes que o Workfront Planning crie um registro.
+   >* Se você adicionar mais de um aprovador e a opção Somente uma decisão é necessária não estiver ativada, todos os aprovadores deverão aprovar a solicitação antes que o Workfront Planning crie um registro.
    >
    >* Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na guia Planejamento da seção Enviado na área Solicitações do Workfront.
    >
-   >* Todos os aprovadores devem tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
+   >* Se você adicionar mais de um aprovador e a opção Somente uma decisão é obrigatória não estiver ativada, todos os aprovadores deverão tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
    >
    >* Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.
 
