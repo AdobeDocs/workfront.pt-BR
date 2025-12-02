@@ -4,7 +4,7 @@ description: Você pode criar várias hierarquias de espaço de trabalho entre o
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Você pode criar várias hierarquias de espaço de trabalho entre os tipos de re
    <td> 
 <ul> 
 <li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
-<p>Ou</p>
+Ou
 <li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 

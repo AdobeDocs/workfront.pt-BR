@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1199'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Para obter mais informações sobre tipos de registros, consulte [Visão geral s
 <p>Para configurar tipos de registro conectáveis: </p>
 <ul> 
 <li><p>Qualquer pacote do Workfront e qualquer pacote do Planning</p></li>
-<p>Ou</p>
+Ou
 <li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
 
 <div class="preview">
@@ -60,7 +60,7 @@ Para obter mais informações sobre tipos de registros, consulte [Visão geral s
 
 <ul> 
 <li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
-<p>Ou</p>
+Ou
 <li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p>
 
@@ -163,9 +163,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
         Este artigo descreve como criar tipos de registro do zero.
 
-     <!--
-        * <span class="preview">By adding them from another workspace</span>
-            <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
+      * <span class="preview">Adicionando-os de outro espaço de trabalho</span>
+        <span class="preview">Para obter informações, consulte [Adicionar tipos de registro existentes de outro espaço de trabalho](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>
 
 
 * Você pode mover tipos de registro em uma seção e de uma seção de um espaço de trabalho para outra. Não é possível mover tipos de registro de um espaço de trabalho para outro.
@@ -197,7 +196,7 @@ Você pode adicionar tipos de registro manualmente nas seções Tipos de Registr
 1. (Opcional) Clique em **Adicionar seção** para adicionar uma nova seção ao espaço de trabalho.
 1. Clique em **Adicionar tipo de registro** e depois em **Adicionar manualmente**.
 
-   A caixa Adicionar tipo de registro é aberta. <!--update screen shot for preview-->
+   A caixa Adicionar tipo de registro é aberta.
 
    ![Adicionar caixa de tipo de registro com opções de aparência](assets/add-record-type-box-with-appearance-options.png)
 
@@ -207,13 +206,11 @@ Você pode adicionar tipos de registro manualmente nas seções Tipos de Registr
    * **Descrição**: adicione mais informações sobre o tipo de registro.
    * Selecione uma cor e uma forma para o ícone associado ao tipo de registro. Faça o seguinte:
       * Selecione uma cor para identificar o novo tipo de registro. Esta é a cor do ícone do tipo de registro. O cinza é selecionado por padrão.
-      * Selecione um ícone na lista ou comece a digitar o nome de um ícone para descrever o que ele representa e, em seguida, selecione-o quando ele for exibido. Este é o ícone do tipo de registro. Um ícone de arquivo é selecionado por padrão.
+      * Selecione um ícone na lista ou comece a digitar o nome de um ícone no campo de pesquisa para descrever o que ele representa e, em seguida, selecione-o quando ele for exibido. Este é o ícone do tipo de registro. Um ícone de arquivo é selecionado por padrão.
 
-1. (Opcional e condicional) Se você for um administrador do sistema, clique na guia **Configurações avançadas** <span class="preview">ou **Configurações entre espaços de trabalho**</span> e atualize as informações sobre os recursos entre espaços de trabalho do tipo de registro.
+1. (Opcional e condicional) Se você for um administrador do sistema, clique na guia **Configurações avançadas** <span class="preview">ou **Configurações entre espaços de trabalho**</span> e <span class="preview">atualize as informações sobre os recursos entre espaços de trabalho do tipo de registro.
 
-   Para obter mais informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registros](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production - Jan 2026-->
-
-   ![Editar caixa de tipo de registro com guia de configurações avançadas](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![Editar caixa de tipo de registro com guia de configurações avançadas](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    Para obter mais informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
@@ -280,16 +277,12 @@ Você pode importar o seguinte ao importar informações de um arquivo CSV ou do
 
 Para obter mais informações, consulte [Criar Tipos de Registro importando informações de um arquivo CSV ou do Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
-<!--
-
 <div class="preview">
 
-## Create record types by adding existing ones from another workspace 
+## Criar tipos de registro adicionando os existentes de outro espaço de trabalho
 
-You can add record types to a workspace by adding existing ones from another workspace. You can only add record types that have been configured as global record types. 
+Você pode adicionar tipos de registro a um espaço de trabalho adicionando os existentes de outro espaço de trabalho. Você só pode adicionar tipos de registro que tenham sido configurados como tipos de registro globais.
 
-For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+Para obter informações, consulte [Adicionar tipos de registro existentes de outro espaço de trabalho](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 </div>
-
--->

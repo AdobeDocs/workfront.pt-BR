@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1650'
 ht-degree: 1%
 
 ---
@@ -61,15 +61,15 @@ Para obter informações, consulte um dos seguintes artigos:
 <p>Para configurar tipos de registro conectáveis: </p>
 <ul> 
 <li><p>Qualquer pacote do Workfront e qualquer pacote do Planning</p></li>
-<p>Ou</p>
-<li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
+Ou
+<li><p>Qualquer fluxo de trabalho e qualquer planejamento</p></li></ul>
 
 <div class="preview">
 <p>Para configurar tipos de registro global:</p>
 
 <ul> 
 <li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
-<p>Ou</p>
+Ou
 <li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p>
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 2%
@@ -46,7 +46,7 @@ Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. É pos
 <p>Para configurar tipos de registro conectáveis: </p>
 <ul> 
 <li><p>Qualquer pacote do Workfront e qualquer pacote do Planning</p></li>
-<p>Ou</p>
+Ou
 <li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
 
 <div class="preview">
@@ -54,7 +54,7 @@ Os tipos de registro são os tipos de objeto do Adobe Workfront Planning. É pos
 
 <ul> 
 <li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
-<p>Ou</p>
+Ou
 <li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p>
 
@@ -154,7 +154,7 @@ Ou
 
 1. Na caixa **Editar tipo de registro**, a guia **Aparência** é aberta por padrão. <!--update screen shot below at production-->
 
-   ![Guia de aparência da caixa Editar tipo de registro &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Guia de aparência da caixa Editar tipo de registro ](assets/edit-record-type-box-appearance-tab.png)
 
    Atualize as seguintes informações na guia **Aparência**:
 

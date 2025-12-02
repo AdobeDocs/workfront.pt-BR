@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Antes de adicionar registros a um espaço de trabalho a partir de um tipo de reg
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
 <ul><li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
-<p>Ou</p>
+Ou
 <li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></p></li></ul>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
@@ -114,10 +114,11 @@ And
 
 >[!NOTE]
 >
->Verifique se há pelo menos um tipo de registro designado como global em pelo menos um outro espaço de trabalho.
+>Verifique se há pelo menos um tipo de registro designado como global em pelo menos um outro espaço de trabalho principal.
 >
 >Para obter informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
+1. Vá para um espaço de trabalho em que deseja criar um tipo de registro (espaço de trabalho secundário).
 1. Comece a criar um tipo de registro, conforme descrito no artigo [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md), em seguida, clique em **Adicionar existente**. <!--check this - the option might have been renamed in the UI-->
 
    ![Modal para adicionar tipo de registro com opção para adicionar de outro espaço de trabalho](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
@@ -129,7 +130,7 @@ And
 1. Clique em **Continuar**.
 1. Na caixa **Escolher o tipo de registro**, clique no cartão do tipo de registro que deseja adicionar de um espaço de trabalho existente e clique em **Adicionar**.
 
-   O tipo de registro é adicionado ao espaço de trabalho selecionado e o ícone **do** tipo de registro global![](assets/global-icon.png) é exibido no cartão do tipo de registro.
+   O tipo de registro é adicionado ao espaço de trabalho secundário selecionado e o ícone **do** tipo de registro global![](assets/global-icon.png) é exibido no cartão do tipo de registro.
 
    As seguintes situações ocorrem:
 

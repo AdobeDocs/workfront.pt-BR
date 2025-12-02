@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
@@ -112,6 +112,11 @@ O tipo de registro configurado para ser global tem as seguintes propriedades:
 
      Para obter mais informações, consulte [Excluir tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
    * Compartilhar as exibições dos tipos de registro.
+
+     Não é possível compartilhar uma exibição publicamente de um tipo de registro global em um espaço de trabalho secundário. Você só pode compartilhar exibições internamente de um espaço de trabalho secundário.
+
+     Para obter informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
+
 
      <!-- when they will be able to add fields to the secondary space, this bullet will need this extra information: 
          After adding fields to the global record type in the secondary workspace, shared views might not open for other users in workspaces. The fields exist only in the secondary workspace and they would not be visible in any other workspace. Only fields created in the primary workspace are visible in all secondary workspaces where there the record type is added. -->

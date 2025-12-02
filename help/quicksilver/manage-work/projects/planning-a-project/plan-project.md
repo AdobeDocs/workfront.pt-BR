@@ -2,25 +2,26 @@
 product-area: projects
 navigation-topic: plan-a-project
 title: Visão geral do plano de projeto
-description: Descubra o que é um projeto, como estabelecer seu escopo e estrutura, bem como os principais conceitos, como cronogramas, linhas do tempo e datas de início e de conclusão.
+description: Um projeto é um item de trabalho grande no Adobe Workfront. Você pode dividir um projeto em tarefas que são itens de trabalho menores. As tarefas podem ser atribuídas a usuários ou equipes que podem ser responsáveis por sua conclusão. Quando todos os usuários concluem suas tarefas, o projeto também se torna concluído.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
 
 # Planejar uma visão geral do projeto
 
-<!--Audited: 01/2024-->
+<!--Audited: 12/2025-->
 
 <!--
-< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
--->
+< see if you need to add something about approval settings, issue for ad-hoc happenings and how to work with documents??-->
+
+<!--this article is linked to the ESM area in the UI; the ESM team on the Adobe side linked to this article for their -->
 
 Um projeto é um item de trabalho grande no Adobe Workfront. Você pode dividir um projeto em tarefas que são itens de trabalho menores. As tarefas podem ser atribuídas a usuários ou equipes que podem ser responsáveis por sua conclusão. Quando todos os usuários concluem suas tarefas, o projeto também se torna concluído.
 
@@ -30,9 +31,13 @@ Além de planejar suas tarefas em um projeto, muitos outros detalhes são inclu�
 
 O planejamento do projeto significa determinar exatamente quais objetivos principais você deve alcançar para concluir o projeto.
 
-Nas fases iniciais de um projeto, talvez você ainda não tenha determinado se deve realmente realizar o projeto. Pode não ser econômico, ou você pode não ter os recursos. Nesta fase de planejamento, é possível criar um projeto no Workfront sem adicionar nenhuma tarefa e definir o status como planejamento.
+Nas fases iniciais de um projeto, talvez você ainda não tenha determinado se deve realmente realizar o projeto. Pode não ser econômico, ou você pode não ter os recursos. Nesta fase do planejamento, é possível criar um projeto no Workfront sem adicionar nenhuma tarefa e definir seu status como Planning.
+
+Ou você pode enviar uma solicitação de projeto para perguntar ao seu gerente da Portfolio se é viável criar o projeto. Isso permite enviar um Business Case para o projeto, no qual você pode estimar o que será necessário para concluí-lo. Isso cria um projeto com o status Solicitado.
 
 Para obter mais informações sobre como criar um projeto, consulte o artigo [Criar um projeto](../../../manage-work/projects/create-projects/create-project.md).
+
+Para obter informações sobre como criar uma solicitação de projeto, consulte [Solicitar um projeto](/help/quicksilver/manage-work/projects/create-projects/request-project.md).
 
 Considere as seguintes perguntas antes de planejar um projeto:
 
@@ -54,13 +59,19 @@ Depois de definir o escopo geral do projeto, você pode determinar se deseja rea
 
 ### Definir a data de início e de conclusão do projeto {#define-the-start-and-completion-date-of-the-project}
 
-Ao planejar um projeto, uma das primeiras coisas que você deve determinar é a linha do tempo: quando o projeto pode começar e com que hora ele deve ser concluído. Determine se há um prazo definido para quando o projeto deve ser concluído ou se você deve definir um ponto de partida e trabalhar a partir desse ponto.
+Ao planejar um projeto, uma das primeiras coisas que você deve determinar é a linha do tempo: determine quando o projeto pode ser iniciado e em que momento deve ser concluído.
+
+Determine se há um prazo definido para quando o projeto deve ser concluído ou se você deve definir um ponto de partida e trabalhar a partir desse ponto.
 
 Você pode programar um projeto a partir de uma Data Inicial ou pode programá-lo a partir da Data de Conclusão. Você pode definir esse atributo ao criar inicialmente o projeto e pode alterá-lo a qualquer momento editando o projeto.
+
+Para obter informações, consulte [Editar projetos](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 ### Definir o Cronograma do projeto {#define-the-project-schedule}
 
 Você deve determinar um agendamento e associá-lo ao projeto e aos usuários responsáveis pela conclusão das tarefas no projeto.
+
+Um agendamento define o horário que os usuários têm disponível para trabalhar no projeto.
 
 Considere definir o seguinte em um Agendamento:
 
@@ -70,7 +81,7 @@ Considere definir o seguinte em um Agendamento:
 
 Saber quando os usuários estão disponíveis para trabalhar é importante para entender o progresso de suas tarefas no projeto.
 
-Você pode criar várias programações do projeto e aplicar uma programação padrão ao projeto. Agendamentos personalizados adicionais podem ser aplicados a indivíduos diferentes.
+Você pode criar vários agendamentos na instância do Workfront e aplicar um agendamento padrão que será usado para todos os projetos. Você também pode criar agendamentos personalizados adicionais para associá-los a indivíduos diferentes.
 
 Para obter mais informações sobre Agendas, consulte o artigo [Criar uma agenda](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -80,14 +91,19 @@ Ao planejar um projeto, há informações adicionais que devem ser configuradas 
 
 Considere fazer as seguintes perguntas:
 
-* Existe uma norma que determina que você mantenha um registro de eventos e processos? Em caso afirmativo, o que você precisa rastrear?\
+* Existe uma norma que determina que você mantenha um registro de eventos e processos? Em caso afirmativo, o que você precisa rastrear?
+
   O Workfront permite registrar edições, alterações de escopo, alterações de status e ações para que você possa cumprir com os regulamentos específicos do seu setor.\
   Para obter mais informações sobre como definir quais atualizações serão rastreadas no Workfront, consulte o artigo [Atualizações rastreadas pelo sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-* Você precisa rastrear alguma informação que não tenha um campo no Workfront para armazená-la? Em caso afirmativo, crie Forms personalizado para projetos ou tarefas em que você pode armazenar essas informações.\
+* Você precisa rastrear alguma informação que não tenha um campo no Workfront para armazená-la?
+
+  Em caso afirmativo, crie Forms personalizado para projetos ou tarefas em que você pode armazenar essas informações.
+
   Para obter mais informações sobre como criar formulários personalizados, consulte o artigo [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-* Há algum ponto de verificação de aprovação que deve ser concedido antes que o trabalho em um projeto possa continuar? Em caso afirmativo, crie Processos de aprovação para projetos ou tarefas que você pode usar ao criar seu projeto.\
+* Há algum ponto de verificação de aprovação que deve ser concedido antes que o trabalho em um projeto possa continuar? Em caso afirmativo, crie Processos de aprovação para projetos ou tarefas que você pode usar ao criar seu projeto.
+
   Para obter mais informações sobre Processos de Aprovação, consulte o artigo [Criar um processo de aprovação para itens de trabalho](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Criar a linha do tempo do projeto
@@ -95,11 +111,12 @@ Considere fazer as seguintes perguntas:
 Depois de determinar os principais objetivos de um projeto e decidir que o projeto merece ser perseguido, você deve calcular a linha do tempo para cada objetivo. Cada objetivo pode se tornar uma de suas tarefas no projeto.
 
 Isso ajuda a priorizar seus objetivos e planejar sua Estrutura de detalhamento de trabalho de acordo. A Estrutura de detalhamento de trabalho define a linha do tempo do projeto.\
-Para obter mais informações sobre como criar tarefas em um projeto, consulte a seção [Definir tarefas](#define-tasks).
+Para obter mais informações sobre como criar tarefas em um projeto, consulte a seção [Definir tarefas](#define-tasks) neste artigo.
 
 Considere o seguinte ao criar a linha do tempo do projeto:
 
 * Divida objetivos maiores em tarefas secundárias e defina seu Início e suas Datas de conclusão.
+* Atribua tarefas a indivíduos ou equipes, para que você saiba quem é responsável por sua conclusão. Você pode atribuir tarefas a funções de trabalho, mas somente para a fase de planejamento inicial do projeto, quando não tiver certeza de quem pode ser atribuído às tarefas. Depois de iniciar o projeto, é melhor substituir as funções de trabalho por atribuições de usuário ou equipe.
 * Determine se seus objetivos dependem de outros objetivos.
 
   Você pode configurar essas dependências como predecessoras.
@@ -124,7 +141,7 @@ Ao definir os objetivos do seu projeto e as tarefas associadas a eles, você est
 
 Você pode criar tarefas em um projeto das seguintes maneiras:
 
-* Adicionar tarefas a um projeto em edição em linha.
+* Adicione tarefas a um projeto manualmente, à medida que edita em linha a lista Tarefas no projeto.
 * Use um Modelo com Tarefas de Modelo definidas e adicione-o ao seu projeto.
 
   As Modelos de Tarefa se tornam as Tarefas do Projeto.

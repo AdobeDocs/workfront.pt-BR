@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1165'
 ht-degree: 5%
 
 ---
@@ -57,7 +57,7 @@ Você pode compartilhar manualmente os seguintes objetos no Workfront Planning:
   Para obter mais informações, consulte [Compartilhar tipos de registros](/help/quicksilver/planning/access/share-record-types.md).
 
 
-* Visualizações
+* Exibições
 
    * Você deve fornecer aos usuários, incluindo Administradores do sistema, permissões para acessar exibições separadamente de suas permissões para acessar espaços de trabalho.
    * Quando você compartilha uma exibição, todos os elementos da exibição são compartilhados, incluindo filtros, agrupamento, classificação ou Configurações.
@@ -66,21 +66,6 @@ Você pode compartilhar manualmente os seguintes objetos no Workfront Planning:
 
   Para obter mais informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
 
-Internamente, você pode compartilhar um espaço de trabalho, uma exibição ou um tipo de registro com as seguintes entidades do Workfront:
-
-* Usuários
-* Grupos
-* Equipes
-* Empresas
-* Funções de trabalho
-
-Quando você compartilha espaços de trabalho e tipos de registro com outras pessoas, o nível de permissão do tipo de registro é automaticamente herdado para os registros e campos associados a eles.
-
->[!IMPORTANT]
->
->Se a instância do Workfront da sua organização tiver sido integrada à Adobe Unified Experience, os usuários com os quais você deseja compartilhar objetos do Planning deverão ser adicionados à Adobe Admin Console. Não é possível compartilhar objetos do Planning com usuários do Workfront que não foram adicionados ao Adobe Admin Console.
-
-
 ## Considerações sobre o compartilhamento de objetos no Adobe Workfront Planning
 
 * Seu tipo de licença do Adobe Workfront funciona em conjunto com suas permissões do Workfront Planning para fornecer acesso a exibir, contribuir ou gerenciar espaços de trabalho e seus objetos.
@@ -88,14 +73,30 @@ Quando você compartilha espaços de trabalho e tipos de registro com outras pes
   Para obter informações sobre como os tipos de licença afetam os níveis de permissão do Workfront Planning, consulte [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 * Os administradores do sistema podem gerenciar todos os espaços de trabalho no sistema, inclusive aqueles que não criaram.
 * Outros usuários, incluindo Administradores do sistema, só podem acessar as exibições que criaram ou que foram compartilhadas com eles. Os administradores do sistema só podem receber permissões para Gerenciar uma visualização.
-* Você pode compartilhar um link com outros usuários para um espaço de trabalho ou uma visualização.
 
-  Existem os seguintes cenários:
-   * Os usuários que recebem o link para um espaço de trabalho devem ser usuários ativos e fazer logon no Workfront para acessar o espaço de trabalho.
-   * Os usuários que recebem o link para uma visualização podem acessá-la das seguintes maneiras:
+* Quando você compartilha espaços de trabalho e tipos de registro com outras pessoas, o nível de permissão do tipo de registro é automaticamente herdado para os registros e campos associados a eles.
 
-      * Deve ser um usuário ativo e fazer logon no Workfront, se o link para a exibição foi compartilhado internamente.
-      * Podem ser usuários externos do Workfront e acessar a visualização por meio de um link compartilhado publicamente, sem fazer logon no Workfront.
+  >[!IMPORTANT]
+  >
+  >Se a instância do Workfront da sua organização tiver sido integrada à Adobe Unified Experience, os usuários com os quais você deseja compartilhar objetos do Planning deverão ser adicionados à Adobe Admin Console. Não é possível compartilhar objetos do Planning com usuários do Workfront que não foram adicionados ao Adobe Admin Console.
+
+* Você pode compartilhar objetos do Planning das seguintes maneiras:
+
+   * Internamente, você pode compartilhar um espaço de trabalho, uma exibição ou um tipo de registro com as seguintes entidades do Workfront:
+
+      * Usuários
+      * Grupos
+      * Equipes
+      * Empresas
+      * Funções de trabalho
+
+     É possível compartilhar um objeto do Planning com até 100 entidades por objeto.
+
+   * Internamente, compartilhando um link para um espaço de trabalho ou para uma exibição com outros usuários do Planning. Existem os seguintes cenários:
+
+      * Os usuários que recebem o link para um espaço de trabalho devem ser usuários ativos e fazer logon no Workfront para acessar o espaço de trabalho.
+      * Os usuários que recebem um link Compartilhamento interno para uma exibição devem ser usuários ativos e fazer logon no Workfront para acessar a exibição.
+   * Externamente, compartilhando um link de compartilhamento Público com uma visualização com usuários externos que não têm uma conta do Workfront.
 
 ## Permissões de compartilhamento para objetos do Adobe Workfront Planning
 
@@ -169,7 +170,7 @@ Existem os seguintes cenários:
 
 >[!NOTE]
 >
->*Quando você remove permissões de um tipo de registro, os usuários ainda retêm permissões de Exibição para o espaço de trabalho e todos os tipos de registro, a menos que você remova as permissões deles do espaço de trabalho.
+>Ao remover permissões de um tipo de registro, os usuários ainda retêm permissões de Exibição para o espaço de trabalho e todos os tipos de registro, a menos que você remova as permissões deles do espaço de trabalho.
 
 ### Permissões para registros
 

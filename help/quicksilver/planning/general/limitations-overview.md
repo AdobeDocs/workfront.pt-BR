@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 2fb95d37c32984e248767993c4858038d27e0590
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 2%
+source-wordcount: '461'
+ht-degree: 3%
 
 ---
 
@@ -31,12 +31,12 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 
 | objeto do Adobe Workfront Planning | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Número de espaços de trabalho para uma instância do Workfront | ilimitado* |
+| Número de espaços de trabalho para uma instância do Workfront | Ilimitado* |
 | Número de seções para um espaço de trabalho | 50 |
 | Número de tipos de registro para um espaço de trabalho | 100 (isso inclui tipos de registro de todas as seções e aqueles que são criados ao usar um modelo de espaço de trabalho) |
 | Número de registros de um tipo de registro | 25.000 |
-| Número de registros de um espaço de trabalho | 25.000 para clientes com o Planning <br> 500.000 para clientes com o Planning Plus |
-| Número do total de registros para uma instância do Workfront Planning | 500.000 para clientes com o Planning <br>2 milhões para clientes com o Planning Plus |
+| Número de registros de um espaço de trabalho | Seleção de Planejamento: 25.000 <br> Prime do Planning: 500.000 <br> Ultimate do Planning: 1.000.000 |
+| Número do total de registros para uma instância do Workfront Planning | Seleção de Planejamento: 500.000 <br> Prime de Planejamento: 2.000.000 <br> Ultimate de Planejamento: Ilimitado |
 | Número de campos para um tipo de registro ou taxonomia | 500 |
 | Número de caracteres de um campo de texto de linha única | 1.000 caracteres |
 | Número de caracteres para um campo de parágrafo | 10.000 caracteres |
@@ -51,6 +51,7 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | Número de campos de fórmula para um tipo de registro | 20 |
 | <span class="preview">Número de campos de conexão para um tipo de registro</span> | <span class="preview">30</span> |
 | Número de caracteres em uma expressão de campo de fórmula | 50.000 |
+| Número de entidades (usuários, funções, equipes, empresas, grupos) com as quais você pode compartilhar um objeto do Planning | 100 |
 
 *Recomendamos não ter muitos espaços de trabalho, pois eles podem se tornar difíceis de gerenciar e seus fluxos de trabalho podem estar muito fragmentados.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1902'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,12 @@ ht-degree: 0%
 
 # Compartilhar exibições
 
-<!--
+<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 {{planning-important-intro}}
 
@@ -170,6 +169,11 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 * Quando você compartilha uma visualização publicamente, o link é acessível por qualquer pessoa fora da sua empresa por um tempo limitado, indicado pela data de expiração. Não é necessário fazer logon para exibir a exibição compartilhada.
 
+  >[!NOTE]
+  >
+  ><span class="preview">Não é possível compartilhar uma exibição publicamente de um tipo de registro global em um espaço de trabalho secundário. Para obter mais informações, consulte [Adicionar tipos de registro existentes de outro espaço de trabalho](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).</span>
+
+
 * As pessoas de fora da organização que têm acesso a uma exibição não podem criar outras exibições, editar a exibição compartilhada ou adicionar, excluir ou editar informações de registro na exibição.
 
 ## Compartilhar permissões para uma exibição internamente
@@ -239,6 +243,8 @@ Você pode compartilhar exibições que criou ou exibições para as quais tem p
 
 É possível compartilhar os modos de exibição criados ou os modos de exibição nos quais você tem permissões de gerenciamento com pessoas que não têm uma licença da Workfront e que podem ser externas à organização.
 
+<span class="preview">Você não pode compartilhar uma exibição publicamente de um tipo de registro global em seu espaço de trabalho secundário. </span>
+
 >[!IMPORTANT]
 >
 >Somente usuários com permissões para Gerenciar um espaço de trabalho podem compartilhar as exibições do espaço de trabalho publicamente.
@@ -268,6 +274,11 @@ Para compartilhar uma exibição publicamente no Workfront Planning:
 1. Habilitar a configuração **Criar link público**.
 
    Um link fica disponível. Este é um link público. Quando compartilhados, qualquer pessoa com o link, incluindo pessoas de fora da organização, pode acessar a página de tipo de registro e exibir registros e campos na página.
+
+   >[!TIP]
+   >
+   ><span class="preview">A configuração **Criar link público** está esmaecida para um tipo de registro global em seu espaço de trabalho secundário.</span>
+
 
 1. Clique no ícone **Copiar link** ![Copiar exibição de link](assets/copy-link-view.png) para copiar o link para a área de transferência.
 

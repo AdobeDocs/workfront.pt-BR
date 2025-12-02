@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Recomendamos recriar alguns ou todos os tipos de registros, registros, campos e 
    <td> 
 <ul> 
 <li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
-<p>Ou</p>
+Ou
 <li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
@@ -141,7 +141,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 1. Para deletar um espaço de trabalho, siga um destes procedimentos:
 
    * Passe o mouse sobre o cartão de espaço de trabalho e clique no menu **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito do cartão
-Ou
+Ou <!--Add this to the bullet below: <span class="preview">Search for a workspace by name and </span>-->
    * Clique em um cartão de espaço de trabalho para abrir o espaço de trabalho e no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do espaço de trabalho.
 1. Clique em **Excluir**.
 
