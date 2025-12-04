@@ -1,13 +1,13 @@
 ---
 title: Criar hierarquias do Workspace
-description: Você pode criar várias hierarquias de espaço de trabalho entre os tipos de registro em um espaço de trabalho.
+description: Como um gerenciador de espaço de trabalho, você pode criar várias hierarquias de espaço de trabalho entre os tipos de registro no Adobe Workfront Planning. Depois de conectar tipos de registro em um espaço de trabalho e criar uma hierarquia, os tipos de registro são conectados uns aos outros, com um tipo de registro designado como pai e até seis outros tipos de registro configurados como filhos.
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ff9371b639e7684a94c08b8cd6293b632fac9edf
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 1%
+source-wordcount: '248'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,14 @@ hidefromtoc: yes
 
 # Criar hierarquias do espaço de trabalho
 
-Você pode criar várias hierarquias de espaço de trabalho entre os tipos de registro em um espaço de trabalho.
+Como um gerenciador de espaço de trabalho, você pode criar várias hierarquias de espaço de trabalho entre os tipos de registro no Adobe Workfront Planning.
+
+Depois de conectar tipos de registro em um espaço de trabalho e criar uma hierarquia, os tipos de registro são conectados uns aos outros, com um tipo de registro designado como pai e até seis outros tipos de registro configurados como filhos. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+As hierarquias gerarão navegações estruturais para os tipos de registros e registros <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> exibidos em seus cabeçalhos. Dessa forma, os usuários sabem onde estão na hierarquia em qualquer estágio do fluxo de trabalho.
+
+Para obter informações gerais sobre hierarquias e navegações estruturais, consulte [Visão geral sobre hierarquia e navegação estrutural](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 
 ## Requisitos de acesso
 
@@ -72,3 +79,5 @@ Ou
 Para obter mais informações sobre requisitos de acesso do Workfront, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Criar uma hierarquia de espaço de trabalho
