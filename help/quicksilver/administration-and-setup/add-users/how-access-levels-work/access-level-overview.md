@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
+source-git-commit: 364d1263070c0249d13290700d705e29eb646012
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 5%
+source-wordcount: '1691'
+ht-degree: 7%
 
 ---
 
@@ -29,7 +29,7 @@ Como administrador do Adobe Workfront, você atribui um nível de acesso a um us
 O Workfront tem cinco novos níveis de acesso incorporados:
 
 * Administrador de Sistema
-* Padrão
+* Standard
 * Leve
 * Colaborador
 * Externo
@@ -101,7 +101,7 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 | Modelos |   |   | ✓ |
 | Dados financeiros |   |   | ✓ |
 | Gerenciamento de recursos |   |   | ✓ |
-| Planejador de cenários |   |   | ✓ (A configuração padrão é Sem acesso.) |
+| Planejador de cenários |   |   | ✓ (A configuração padrão é Sem Acesso.) |
 | Quadros |   |   | ✓ |
 | Início |   |   | ✓ |
 | Metas |   |   | ✓ |
@@ -263,6 +263,11 @@ Usuários com este nível de acesso incorporado:
 * Pode fazer solicitações e atualizá-las
 * Pode fazer upload e aprovar documentos
 * Pode aprovar projetos, tarefas e problemas
+
+  >[!NOTE]
+  >
+  >Os colaboradores podem participar de aprovações, mas não podem acessar a guia Aprovações para exibir ou gerenciar processos de aprovação.
+
 * Pode revisar o status de problemas que enviaram
 * Podem ser atribuídos a itens de trabalho, mas não podem concluí-los
 * Pode acessar solicitações somente no menu principal. Para obter mais informações sobre filas de solicitações, consulte [Criar uma fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
