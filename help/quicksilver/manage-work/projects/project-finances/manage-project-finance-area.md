@@ -6,9 +6,9 @@ description: É possível exibir ou editar as informações financeiras de um pr
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1275'
 ht-degree: 2%
 
 ---
@@ -58,7 +58,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 Considere o seguinte ao exibir ou editar informações na área Financeira:
 
-* As informações financeiras que você pode encontrar na área Finanças de Detalhes do Projeto representam valores acumulados no nível do projeto a partir de tarefas, bem como informações inseridas diretamente no projeto. Algumas informações financeiras podem ser gerenciadas tanto no nível do projeto quanto no nível da tarefa.
+* As informações financeiras que você pode encontrar na área Finanças de Detalhes do Projeto representam valores totalizados no nível do projeto a partir de tarefas, bem como informações inseridas diretamente no projeto. Algumas informações financeiras podem ser gerenciadas tanto no nível do projeto quanto no nível da tarefa.
 * Você deve ter permissões de Visualização no projeto, bem como acesso a Dados Financeiros no seu nível de acesso para poder visualizar a área Financeira em um projeto.
 * Você deve ter permissões de gerenciamento no projeto, bem como acesso aos dados financeiros do seu nível de acesso para poder editar as informações na área de finanças. No entanto, recomendamos que somente o Proprietário do projeto edite as informações nessa área.
 
@@ -153,7 +153,7 @@ Para editar informações na subguia Project Finance:
    >Você precisa de Permissões de gerenciamento para o projeto para executar as etapas a seguir. Também recomendamos que somente o Proprietário do projeto faça alterações na subguia Finanças do projeto.
 
 1. Clique em **Detalhes do projeto** no painel esquerdo.
-1. Clique no ícone **Editar** ![Editar ícone](assets/edit-icon.png) no canto superior direito da seção Detalhes e clique em **Finanças**. Isso abre a área Finanças para edição.
+1. Clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png) no canto superior direito da seção Detalhes e clique em **Finanças**. Isso abre a área Finanças para edição.
 1. Edite qualquer campo disponível para edição clicando uma vez no campo ou clicando em **+Adicionar** para adicionar informações a um campo vazio.
 
    >[!TIP]
