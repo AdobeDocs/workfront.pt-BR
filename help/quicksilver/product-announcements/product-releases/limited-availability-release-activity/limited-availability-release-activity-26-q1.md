@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: bc222ec76ac94a44c33ee166036d84c164b1da01
+source-git-commit: fb1b5bb34810652e5098f0dcad70062670d7c137
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -50,13 +50,19 @@ Na Pesquisa avançada de atribuições avançadas, selecionar uma opção para *
 
 O KPI de Horas planejadas na tela Atribuições avançadas não é mais editável quando a duração da tarefa é 0. Anteriormente, era possível editar as horas planejadas, mas as alterações não eram salvas.
 
-<!--### Maintenance Updates week of November 30-December 6, 2025
+### Atualizações de manutenção semana de 30 de novembro a 6 de dezembro de 2025
+
+**Campo Data da Taxa de Câmbio oculto quando taxas de câmbio efetivas não são usadas**
+
+O campo **Data da Taxa de Câmbio** na área Detalhes do Projeto > Finanças agora fica oculto quando a caixa de seleção **Usar taxas de câmbio efetivas por data do sistema** não está marcada. Anteriormente, ao editar um projeto, o campo de data era exibido nos detalhes do projeto, mesmo quando as taxas de câmbio efetivas não estavam habilitadas.
+
+<!--### Maintenance Updates week of December 7-13, 2025
 
 **Title**
 
 text
 
-### Maintenance Updates week of December 7-13, 2025
+### Maintenance Updates week of January 4-10, 2026
 
 **Title**
 
