@@ -8,9 +8,9 @@ author: Becky
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: d4f261c41f99ef53b258987994b389045c692bd3
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -39,5 +39,5 @@ Para obter mais informações sobre como criar, enviar ou enviar solicitações 
 * [Compartilhar um link para uma fila de solicitações](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
 * [Excluir uma solicitação enviada ou rascunho de solicitação](../../../manage-work/requests/create-requests/delete-request-draft.md)
 * [Preencher automaticamente uma solicitação a partir de dados anteriores](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
-* [Preencher automaticamente uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+* [Use o Preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
 * [Criar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)

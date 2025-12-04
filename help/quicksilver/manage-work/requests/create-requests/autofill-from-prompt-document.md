@@ -1,18 +1,18 @@
 ---
-title: Usar preenchimento de formulário de IA para preencher uma solicitação usando prompts ou documentos
+title: Use o Preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos
 content-type: reference
 description: Você pode usar a IA para preencher automaticamente os campos de solicitação inserindo um prompt ou fornecendo um documento.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 2%
+source-wordcount: '1370'
+ht-degree: 1%
 
 ---
 
-# Usar preenchimento de formulário de IA para preencher uma solicitação usando prompts ou documentos
+# Use o Preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos
 
 >[!NOTE]
 >
@@ -169,7 +169,7 @@ Estamos planejando uma campanha semelhante aos anúncios de feriados sociais que
 
 ## Obter sugestões com base em um documento do qual você fez upload
 
-O preenchimento automático pode sugerir valores de campo com base em um documento que você fez upload.
+O Preenchimento de formulário fornecido pela IA pode preencher uma solicitação usando prompts ou documentos podem sugerir valores de campo com base em um documento que você fez upload.
 
 Esse tipo de sugestão também verifica solicitações anteriores para contextos semelhantes. Por exemplo, se o prompt mencionar que a solicitação é para um determinado cliente, o Workfront poderá localizar e inserir o endereço de faturamento desse cliente automaticamente, com base em solicitações anteriores.
 
@@ -234,8 +234,8 @@ Os tipos de campo do Workfront afetam se um determinado campo pode ser preenchid
 
 <table>
 <tr>
-<td><b>O preenchimento automático </b><br> suportado pode ser preenchido</td>
-<td><b>Sem suporte</b> <br>O preenchimento automático não preenche</td>
+<td>O <b>Preenchimento de Formulário </b><br> com suporte fornecido pela IA pode preencher</td>
+<td><b>Sem suporte</b> <br>O Preenchimento de Formulário fornecido pela IA não preenche</td>
 </tr>
 <tr>
 <td>
