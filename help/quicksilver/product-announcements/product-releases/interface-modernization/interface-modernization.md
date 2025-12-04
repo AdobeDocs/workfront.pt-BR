@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f22f00417cd0bfbe53cfee513e8be95a8719f785
+source-git-commit: 1ef57b73a77d0c622b3dbd57057c51d0ccbad7db
 workflow-type: tm+mt
-source-wordcount: '9416'
+source-wordcount: '9457'
 ht-degree: 0%
 
 ---
@@ -1415,6 +1415,13 @@ Ao acessar o caminho de etapas a partir de uma lista de projeto ou de um relató
 Com esta atualização, também adicionamos informações sobre as cores e os códigos de cor de cada marco.
 
 Para obter informações, consulte [Criar um caminho de etapas](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+
+#### Nova aparência da seção Projetos de um portfólio
+
+**Pré-visualização e produção: 18 de março de 2025**
+
+Melhoramos a lista de projetos na seção Projetos de um portfólio. A lista agora corresponde à maioria das listas no Workfront.
 
 +++
 
