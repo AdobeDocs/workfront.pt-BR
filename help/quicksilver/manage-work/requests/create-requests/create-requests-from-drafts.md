@@ -6,9 +6,9 @@ description: Além de usar os rascunhos disponíveis que o Workfront sugere quan
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 38843e2c093d5af9d74d8b4442fd28e194996e8d
+source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '863'
 ht-degree: 1%
 
 ---
@@ -73,20 +73,15 @@ O procedimento para criar solicitações de rascunhos difere entre a nova experi
 
 
 
-<!--
-   
-1. Open the draft.
 
-   Drafts can be found in the following locations:
-
-   * In the requests list in the Requests area
-   * In the requests list in the My Requests widget in Home
-   * In the New request dialog (includes only drafts of requests created with the selected form)
-   
--->
 1. Abra o rascunho.
 
-   Os rascunhos podem ser encontrados na caixa de diálogo Nova solicitação (inclui somente rascunhos de solicitações criadas com o formulário selecionado).
+   Os rascunhos podem ser encontrados nos seguintes locais:
+
+   * Na lista de solicitações na área Solicitações
+   * Na lista de solicitações do widget Minhas solicitações na Página inicial
+   * Na caixa de diálogo Nova solicitação (inclui somente rascunhos de solicitações criadas com o formulário selecionado)
+
 1. Atualize as informações da solicitação conforme descrito em [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Opcional e condicional) A qualquer momento durante a inserção da solicitação, clique em **Descartar** rascunho se desejar excluir o rascunho. Isso exclui o rascunho.
 
