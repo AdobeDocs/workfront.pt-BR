@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 364d1263070c0249d13290700d705e29eb646012
+source-git-commit: 5cea1b349867dbb408af97e6c2402a0d799af87b
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 7%
+source-wordcount: '1698'
+ht-degree: 6%
 
 ---
 
@@ -102,8 +102,6 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 | Dados financeiros |   |   | ✓ |
 | Gerenciamento de recursos |   |   | ✓ |
 | Planejador de cenários |   |   | ✓ (A configuração padrão é Sem Acesso.) |
-| Quadros |   |   | ✓ |
-| Início |   |   | ✓ |
 | Metas |   |   | ✓ |
 
 {style="table-layout:auto"}
@@ -155,8 +153,8 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
   <tr> 
    <td>Tarefas</td> 
    <td> </td> 
-   <td>✓</td> 
-   <td> </td> 
+   <td></td> 
+   <td>✓ (limitado)</td> 
   </tr> 
   <tr> 
    <td>Problemas</td> 
@@ -215,7 +213,7 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
   <tr> 
    <td>Dados financeiros</td> 
    <td></td> 
-   <td> <p>✓</p> </td> 
+   <td> <p>✓ (a configuração padrão é Sem Acesso)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -229,23 +227,13 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
    <td> </td> 
    <td> </td> 
    <td>✓ (A configuração padrão é Sem acesso.)</td> 
-  </tr> 
-  <tr> 
-   <td>Quadros </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-     <tr> 
-   <td>Início </td> 
-   <td> </td> 
-   <td> </td> 
-   <td>✓</td> 
-  </tr> 
-  <tr>   
+  </tr>
+
+<tr>   
    <td>Metas </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td>✓ (A configuração padrão é Sem Acesso)</td> 
  </tbody> 
 </table>
 
@@ -282,8 +270,8 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 
 | Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
-| Projeto |   | ✓ |   |
-| Tarefa |   | ✓ |   |
+| Projeto |   | ✓ (limitado) |   |
+| Tarefa |   | ✓(limit.) |   |
 | Problema |   |   | ✓ |
 | Portfólios |   | ✓ |   |
 | Programas |   | ✓ |   |
@@ -292,13 +280,11 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 | Documento |   |   | ✓ |
 | Usuário |   | ✓ |   |
 | Equipes |   | ✓ |   |
-| Modelo | ✓ |   |   |
+| Modelos | ✓ |   |   |
 | Dados financeiros | ✓ |   |   |
 | Gerenciamento de recursos | ✓ |   |   |
 | Planejador de cenários | ✓ |   |   |
-| Quadros |   |   | ✓ (Cartões simples) |
-| Início |   | ✓ (Minhas atualizações) |   |
-| Metas |   |   | ✓ |
+| Metas |   |   | ✓ (A configuração padrão é Sem Acesso) |
 
 {style="table-layout:auto"}
 
@@ -343,12 +329,10 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 | Documento |   | ✓ (Sem capacidade de compartilhar documentos) |   |
 | Usuário |   | ✓ |   |
 | Equipes | ✓ |   |   |
-| Modelo | ✓ |   |   |
+| Modelos | ✓ |   |   |
 | Dados financeiros | ✓ |   |   |
 | Gerenciamento de recursos | ✓ |   |   |
 | Planejador de cenários | ✓ |   |   |
-| Quadros | ✓ |   |   |
-| Início | ✓ |   |   |
 | Metas | ✓ |   |   |
 
 

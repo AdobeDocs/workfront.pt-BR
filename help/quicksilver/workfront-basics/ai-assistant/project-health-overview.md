@@ -5,9 +5,9 @@ description: O recurso Integridade do projeto utiliza o poder do Assistente de I
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: b95be2e0917b53195ac327880a2ea7399c1485de
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '2060'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,14 @@ Para obter mais informações sobre o Assistente de IA, consulte [Visão geral d
    <td><p>Você precisa ser um administrador do sistema para gerenciar as configurações de Integridade do Projeto </p>
    <p>Editar acesso aos projetos para aplicar as configurações de Integridade do Projeto </p>
      <p>Exibir acesso aos projetos para exibir as configurações de Integridade do Projeto </p>
+     <p>Exibir acesso a Programas para usar e exibir a Integridade do Projeto para todos os projetos em um programa</p>
   </td> 
+  <tr> 
+   <td role="rowheader"><p>Permissões de objeto</p></td> 
+   <td><p>Gerenciar permissões em projetos para aplicar configurações de Integridade do Projeto </p>
+     <p>Exibir permissões para projetos para exibir configurações de Integridade do Projeto </p>
+  </td> 
+  </tr> 
   </tr>  
     </tr>  
 </tbody> 
@@ -66,16 +73,16 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Inscrever-se no beta de Integridade do projeto
 
-Para utilizar o Project Health, sua organização deve ter o Assistente de IA ativado.
+Sua organização deve ter o Assistente de IA habilitado para usar o Project Health.
 
 Para ativar o Assistente de IA e a Integridade do projeto para sua organização, todos os itens a seguir devem ser aplicados:
 
-* Sua organização deve ter migrado para o Adobe IMS (Identity Management System).
-* Sua organização deve ter um plano Select, Prime ou Ultimate Workfront
+* Sua organização deve ter migrado para o Adobe Identity Management System (IMS).
+* Sua organização deve ter um pacote do Workfront ou Workflow Select, Prime ou Ultimate.
 * A Experiência unificada do Adobe deve ser habilitada.
 * A Adobe deve ter um contrato de API Gen da Adobe assinado no arquivo.
 * O administrador do Workfront deve ativar o Assistente de IA para os usuários em sua organização. O Assistente de IA é ativado por meio de níveis de acesso.
-* As opções Habilitar IA e Integridade do projeto devem ser selecionadas na seção Preferências de IA em Configuração > Sistema > Preferências.
+* As opções Habilitar IA e Integridade do projeto devem ser selecionadas na seção Preferências de IA da área Preferências do sistema em Configuração.
 
   ![seção Preferências de IA](assets/ai-preferences.png)
 
@@ -127,9 +134,12 @@ As Condições do projeto e Integridade do projeto são conceitos semelhantes no
 
 As condições do projeto fornecem um instantâneo básico sobre o desempenho atual de um projeto com base apenas nas datas planejadas, projetadas e estimadas. Ele pode ser definido manualmente pelo proprietário do projeto ou automaticamente pelo Workfront com base nas tarefas do projeto. Como alternativa, o Project Health é mais abrangente e avalia outros fatores, fornecendo um nível superior de compreensão de como está se saindo.
 
-Para obter mais informações sobre Condições do projeto, consulte [Condições personalizadas](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Para obter mais informações sobre as Condições do projeto, consulte os seguintes artigos:
 
-## Lista de estados do projeto e do programa
+* [Atualizar condição de um projeto](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
+* [Condições personalizadas](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+
+## Lista de estados de Integridade do Projeto do projeto e do programa
 
 A tabela abaixo contém um detalhamento dos estados disponíveis em que o Assistente de IA atribuirá o projeto ou programa ao gerar uma avaliação de Integridade do projeto.
 
@@ -184,7 +194,7 @@ A tabela abaixo contém um detalhamento dos estados disponíveis em que o Assist
 
 ## Lista de prompts do assistente do AI
 
-Abaixo está uma lista de prompts que você pode usar para solicitar a Avaliação da IA a fim de gerar uma Avaliação da Integridade do Projeto para um projeto, programa ou todos os projetos em sua conta.
+Abaixo está uma lista de prompts que você pode usar para solicitar que o Assistente de IA gere uma avaliação de Integridade do Projeto para um projeto, programa ou todos os projetos que você tem acesso para visualizar.
 
 <table>
     <tr>
@@ -215,19 +225,21 @@ Abaixo está uma lista de prompts que você pode usar para solicitar a Avaliaç�
 
 ## Gerenciar configurações de Integridade do Projeto
 
-Uma configuração de integridade do projeto contém critérios específicos que determinam como a integridade do projeto é calculada. Depois que uma configuração é criada, você pode aplicá-la a um projeto.
+Você precisa ser um Administrador do Sistema para gerenciar as configurações de Integridade do Projeto.
 
->[!NOTE]
->
->Você precisa ser um Administrador do Sistema para gerenciar as configurações de Integridade do Projeto.
+Uma configuração de integridade do projeto contém critérios específicos que determinam como a integridade do projeto é calculada. Depois que o administrador do Workfront criar uma configuração, você pode aplicá-la a um projeto.
+
+Você pode ter várias configurações de Integridade do Projeto em seu sistema.
 
 {{step-1-to-setup}}
 
-1. Clique em **Preferências do projeto** no painel esquerdo e selecione **Integridade do projeto** no menu suspenso exibido.
+1. Clique em **Preferências do projeto** no painel esquerdo e selecione **Integridade do projeto**.
 
-1. No canto superior direito da página, selecione **Nova configuração**.
+1. No canto superior direito da página, clique em **Nova configuração**.
 
-1. (Opcional) Na página de detalhes das configurações, substitua *Configuração sem título* por uma nova configuração **Nome**.
+   A página **Configurações de IA** é aberta.
+
+1. (Opcional) Clique no título da **Configuração sem título** para renomear a configuração.
 
 1. Na seção **Que fatores você deseja incluir na integridade do projeto**, desmarque qualquer fator que não queira incluir ao determinar os critérios de integridade do projeto:
    * **Trilha de escopo**: quanto o escopo do projeto foi expandido desde seu início.
@@ -249,45 +261,48 @@ Uma configuração de integridade do projeto contém critérios específicos que
 
 1. No **Como você estima o escopo do trabalho em um projeto?Seção**, selecione qual fator de projeto aumentará à medida que o escopo do projeto aumentar.
 
-1. Na **Em quais campos você deseja verificar a integridade?**, selecione um ou mais campos que serão verificados para determinar a integridade do projeto.
+1. Na **Qual você deseja verificar por campos obrigatórios?**, selecione um ou mais campos que devem conter um valor para o projeto.
 
-   ![Campos de conclusão do projeto](assets/project-completeness-fields.png)
+   ![Campos necessários para a integridade do projeto](assets/project-completeness-fields.png)
 
+1. Clique em **Adicionar** a mais campos de projeto ou tarefa nativos ou personalizados.
 
 1. Clique em **Salvar** no canto superior direito.
 
 ## Aplicar configurações de Integridade do Projeto
 
-Depois que um administrador cria uma configuração de Integridade do projeto, os usuários com acesso de Edição podem aplicá-la a um projeto.
-
+Depois que o administrador do Workfront criar uma configuração de Integridade do projeto, você poderá aplicá-la a um projeto se tiver permissões para Gerenciar um projeto.
 
 {{step1-to-projects}}
 
 1. Na página **Projetos**, selecione um projeto.
 
-1. Clique no ícone **Mais** ![Mais ícone](assets/more-icon.png) à direita do nome do projeto e selecione **Editar**. O painel lateral **Editar projeto** é aberto.
+1. Clique no ícone **Mais** ![Mais ícone](assets/more-icon.png) à direita do nome do projeto e selecione **Editar**. A caixa **Editar Projeto** é aberta.
 
-1. No painel esquerdo, selecione **Configurações do projeto**.
+1. No painel esquerdo, clique em **Configurações do projeto**.
 
 1. No campo **Configuração de Integridade do Projeto**, selecione a configuração que deseja aplicar a este projeto.
 
    ![Campo de configuração de Integridade do Projeto](assets/project-health-configurations.png)
 
-1. Clique em **Salvar** no canto inferior esquerdo do painel.
+1. Clique em **Salvar** no canto inferior esquerdo da página.
 
 ## Gerar uma avaliação de Integridade do Projeto para um projeto ou programa
 
-Se você tiver acesso de Visualização para um projeto ou programa, poderá gerar a avaliação de Integridade do projeto usando o assistente de IA.
+Você pode gerar uma Avaliação de integridade do projeto no Assistente de IA nas seguintes áreas:
 
-Se estiver gerando uma avaliação para um projeto, isso pode ser feito a partir da página do projeto ou referenciando o nome do projeto quando você perguntar ao assistente como o projeto está se saindo.
+* Para um projeto, você pode gerar a avaliação na página do projeto ou fazendo referência ao nome do projeto quando perguntar ao assistente como um projeto específico está se saindo.
 
-Se estiver gerando uma avaliação para um programa, você pode fazê-lo na página de detalhes do programa.
+* Para um programa, você pode gerar a avaliação na página Detalhes do programa.
 
 >[!NOTE]
 >
->Uma avaliação de Integridade do Projeto não pode ser gerada para um projeto até que ele tenha sido iniciado. Você pode definir qual evento aciona um projeto para começar nas configurações do projeto.
+>* Você precisa de permissões de Visualização para o projeto ou o programa para gerar uma avaliação.
+>* Uma avaliação de Integridade do Projeto não pode ser gerada para um projeto até que ele tenha sido iniciado. Você pode configurar qual evento aciona um projeto para começar em Preferências do projeto
 
-Para obter mais informações, consulte a seguinte seção neste artigo: [Gerenciar configurações de integridade do projeto](#manage-project-health-configurations).
+Para obter mais informações, consulte a seção [Gerenciar configurações de integridade do projeto](#manage-project-health-configurations) neste artigo.
+
+Para gerar uma avaliação de Integridade do Projeto para um projeto ou programa:
 
 1. Navegue até o projeto ou programa para o qual você deseja gerar uma avaliação de Integridade do Projeto.
 
@@ -302,17 +317,17 @@ Para obter mais informações, consulte a seguinte seção neste artigo: [Gerenc
    >[!NOTE]
    >
    >Se você estiver acessando o Assistente de IA de uma página diferente no Workfront, poderá digitar *Qual é a integridade do projeto [NOME DO PROJETO]?* ou *Qual é a integridade do programa [NOME DO PROGRAMA]?* <br>
-   >Para obter uma lista completa dos prompts atuais que você pode inserir, consulte a seguinte seção neste artigo: [lista de prompts do Assistente de IA](#ai-assistant-prompts-list).
+   >Para obter uma lista completa dos prompts atuais que você pode inserir, consulte a seção [lista de prompts do Assistente de IA](#ai-assistant-prompts-list) neste artigo.
 
-1. Clique no ícone **Enviar** ![Ícone Enviar](assets/send-icon.png). A avaliação de Integridade do projeto é gerada e exibida no painel. Uma medalha é exibida na parte superior de cada avaliação de Integridade do Projeto, o que reflete a condição atual do projeto.
+1. Clique no ícone **Enviar** ![Ícone Enviar](assets/send-icon.png). A avaliação de Integridade do projeto é gerada e exibida no painel. Um selo é exibido na parte superior de cada avaliação de Integridade do projeto, o que reflete a condição atual do projeto.
 
    ![Avaliação de integridade do projeto](assets/health-assessment.png)
 
-   Se estiver gerando uma avaliação para um portfólio, várias medalhas serão listadas mostrando a condição de cada projeto no programa. Para obter mais informações sobre os rótulos de medalha, consulte a seguinte seção neste artigo: [Lista de estados do projeto e do programa](#project-and-program-states-list).
+   Se estiver gerando uma avaliação para um programa, várias medalhas serão listadas mostrando a condição de cada projeto no programa. Para obter mais informações sobre os rótulos de medalha, consulte a seção [Lista de estados de projeto e programa](#project-and-program-states-list) neste artigo.
 
 1. (Opcional) Clique em um dos pontos de avaliação para expandir seus detalhes.
 
-1. (Opcional) No modo de detalhes expandido, clique no link da tarefa para abrir os detalhes da tarefa.
+1. (Opcional) No modo de detalhes expandido, clique no link do projeto para abrir os detalhes do projeto.
 
    ![Detalhes expandidos](assets/expanded-details.png)
 
@@ -320,9 +335,9 @@ Para obter mais informações, consulte a seguinte seção neste artigo: [Gerenc
 
 ## Gerar uma avaliação de Integridade do Projeto para vários projetos
 
-Você pode gerar uma avaliação combinada da Integridade do projeto para todos os projetos aos quais você tem acesso de Visualização (ou superior) no momento.
+Você pode gerar uma avaliação combinada da Integridade do projeto para todos os projetos para os quais você tem permissões de exibição no momento ou superior.
 
-Um projeto só será incluído na avaliação combinada da Integridade do Projeto se o projeto tiver sido iniciado. Você pode definir qual evento aciona um projeto para começar nas configurações do projeto. Para obter mais informações, consulte a seguinte seção neste artigo: [Gerenciar configurações de integridade do projeto](#manage-project-health-configurations).
+Um projeto só será incluído na avaliação combinada da Integridade do Projeto se o projeto tiver sido iniciado. Você pode definir qual evento aciona um projeto para começar nas configurações do projeto. Para obter mais informações, consulte a seção [Gerenciar configurações de integridade do projeto](#manage-project-health-configurations) neste artigo.
 
 1. Clique no ícone do **Assistente de IA** ![ícone do Assistente de IA](assets/ai-assistant-icon.png), no canto superior direito da tela. O Assistente de IA é aberto.
 
