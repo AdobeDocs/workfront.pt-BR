@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 7960f134874ae2a2587dd2b6cb0ec5740955339d
+source-git-commit: 509b3454344d3775172b899e3bd4559416f54adc
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 9%
 
 ---
@@ -1135,7 +1135,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
    <td> userOptions </td> 
   </tr> 
   <tr> 
-   <td>Hour</td> 
+   <td>Hora</td> 
    <td>HORA</td> 
    <td>accessIDs</td> 
   </tr> 
@@ -1515,7 +1515,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
    <td>workflowAutomationID</td> 
   </tr> 
   <tr> 
-   <td>Observação</td> 
+   <td>Nota</td> 
    <td>Nota</td> 
    <td>accessIDs</td> 
   </tr> 
@@ -3024,6 +3024,11 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>projeto:status</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>recurrenceRuleID</td> 
   </tr> 
   <tr> 
@@ -3237,7 +3242,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
    <td>workflowAutomationID</td> 
   </tr> 
   <tr> 
-   <td>Planilha de horas</td> 
+   <td>Folha de horas</td> 
    <td>FOLHA</td> 
    <td>approverID</td> 
   </tr> 
