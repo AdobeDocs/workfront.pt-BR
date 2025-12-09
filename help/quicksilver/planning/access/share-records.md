@@ -230,7 +230,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada. Eles devem ter permissões no tipo de registro para poder visualizá-lo. Para obter mais informações, consulte também [Compartilhar registros usando um link](/help/quicksilver/planning/records/share-records.md).
 
-## Remover permissões para um registro (*************** ISSO FOI COPIADO DOS TIPOS DE REGISTRO, ELE PRECISA SER EDITADO PARA REGISTROS, MAS AGUARDE A RESPOSTA DO SLACK DA LILIT **********)
+## Remover permissões para um registro (**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** ISSO FOI COPIADO DOS TIPOS DE REGISTRO, ELE PRECISA SER EDITADO PARA REGISTROS, MAS AGUARDE A RESPOSTA DO SLACK DA LILIT &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**)
 
 É possível remover permissões de usuários de um registro. No entanto, eles manterão pelo menos permissões de exibição para o espaço de trabalho do registro, o que também lhes dará pelo menos permissões de exibição para o tipo de registro. Você deve remover o acesso deles do espaço de trabalho se quiser que eles não tenham permissões para os tipos de registro no espaço de trabalho.
 
