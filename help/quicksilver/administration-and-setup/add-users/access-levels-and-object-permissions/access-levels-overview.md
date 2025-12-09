@@ -10,16 +10,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 0%
+source-wordcount: '328'
+ht-degree: 3%
 
 ---
 
 # Visão geral dos níveis de acesso
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>As informações neste artigo se referem aos níveis de acesso herdados. Para obter informações sobre os novos níveis de acesso, consulte [Visão geral sobre os novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+
 
 Como administrador do Adobe Workfront, você atribui um nível de acesso a um usuário para duas finalidades:
 
@@ -57,8 +62,18 @@ Para obter informações sobre tópicos relacionados aos níveis de acesso, cons
    <td> <p>Para obter instruções sobre como atribuir um nível de acesso a um usuário, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar perfil de um usuário</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Níveis de Acesso Padrão, Claro, Contribuinte</td> 
-   <td> <p>Se você vir esses níveis de acesso em seu ambiente em vez de Plano, Trabalho, Revisão ou Solicitação, sua organização usará o novo modelo de nível de acesso. Para obter informações sobre o novo modelo, consulte <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Visão geral dos novos níveis de acesso</a>.</p> </td> 
+   <td><b>Tipos de Níveis de Acesso</b></td> 
+   <td><p>Há dois tipos de Níveis de acesso no Workfront:</p>
+   <ul><li>Níveis de acesso herdados</li>
+   <ul><li>Plano</li>
+   <li>Trabalho</li>
+   <li>Revisar</li>
+   <li>Solicitação</li></ul>
+   <li>Novos Níveis de Acesso:</li>
+   <ul><li>Padrão</li>
+   <li>Leve</li>
+   <li>Colaborador</li></ul></ul> 
+   <p>Para obter informações sobre os novos Níveis de Acesso, consulte <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Visão geral sobre os Novos níveis de acesso</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

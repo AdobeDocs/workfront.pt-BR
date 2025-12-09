@@ -2,7 +2,7 @@
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: acesso,modelo,funil,diagrama,níveis,permissões
+keywords: acesso,modelo,funnel,diagrama,níveis,permissões
 navigation-topic: access-levels
 title: Funcionalidade Disponível para Cada Tipo de Objeto para Novos Níveis de Acesso
 description: As tabelas a seguir listam a funcionalidade disponível para cada tipo de objeto nos vários níveis de acesso.
@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 02ca85404dfc2a00c94e21a6642748ab3ee39015
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1335'
 ht-degree: 14%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 14%
 
 {{highlighted-preview}}
 
+>[!NOTE]
+>
+>As informações neste artigo se referem aos novos níveis de acesso. Para obter informações sobre os níveis de acesso herdados, consulte [Visão geral dos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+
 As tabelas a seguir listam a funcionalidade disponível para cada tipo de objeto nos vários níveis de acesso.
 
 Também indica quais ações os administradores do Workfront podem desativar ou ativar usando um nível de acesso.
@@ -28,11 +32,11 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 >[!NOTE]
 >
 >* Este artigo descreve a funcionalidade disponível para níveis de acesso no novo modelo de plano do Workfront. Para ver a funcionalidade disponível no modelo de plano atual, consulte [Funcionalidade disponível para cada tipo de objeto para vários níveis de acesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Para obter uma lista de funcionalidades disponíveis para os diferentes planos no novo modelo de plano, consulte [Preços e Empacotamento da Adobe Workfront](https://business.adobe.com/br/products/workfront/pricing.html).
+>* Para obter uma lista de funcionalidades disponíveis para os diferentes planos no novo modelo de plano, consulte [Preços e Empacotamento da Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projetos
 
-| Ação | Standard | Leve | Colaborador | Usuário externo |
+| Ação | Padrão | Leve | Colaborador | Usuário externo |
 |------------------------------|----------|--------|-------------|---------------|
 | Criar | ✓&#42; |   |   |   |
 | Copiar | ✓&#42; |   |   |   |
@@ -70,7 +74,7 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 
 ## Tarefas
 
-| Ação | Standard | Leve | Colaborador | Usuário externo |
+| Ação | Padrão | Leve | Colaborador | Usuário externo |
 |--------------------------------|----------|--------|-------------|---------------|
 | Criar | ✓&#42; |   |   |   |
 | Excluir | ✓&#42; |   |   |   |
@@ -102,7 +106,7 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 
 ## Problemas
 
-| Ação | Standard | Leve | Colaborador | Usuário externo |
+| Ação | Padrão | Leve | Colaborador | Usuário externo |
 |-------------------------------|----------|--------|-------------|---------------|
 | Criar | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Editar | ✓ | ✓ | ✓ |   |
@@ -132,7 +136,7 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 
 Somente os usuários com uma licença Standard podem ter acesso total aos portfólios.
 
-| Ação | Standard | Leve | Colaborador | Usuário externo |
+| Ação | Padrão | Leve | Colaborador | Usuário externo |
 |--------------------------|----------|--------|-------------|---------------|
 | Criar | ✓&#42; |   |   |   |
 | Excluir | ✓&#42; |   |   |   |
@@ -156,7 +160,7 @@ Somente os usuários com uma licença Standard podem ter acesso total aos portf�
 
 Somente os usuários com uma licença Standard podem ter acesso total aos programas.
 
-| Ação | Standard | Leve | Colaborador | Usuário externo |
+| Ação | Padrão | Leve | Colaborador | Usuário externo |
 |------------------------------|----------|--------|-------------|---------------|
 | Criar | ✓&#42; |   |   |   |
 | Excluir | ✓&#42; |   |   |   |
@@ -180,7 +184,7 @@ Somente os usuários com uma licença Standard podem ter acesso total aos progra
 
 Os usuários com uma licença Standard podem ter acesso total aos relatórios. Todos os outros Níveis de Acesso têm acesso de Visualização aos relatórios.
 
-| Ação | Standard | Leve | Colaborador | Usuário externo |
+| Ação | Padrão | Leve | Colaborador | Usuário externo |
 |--------------------------------------|----------|--------|-------------|---------------|
 | Criar | ✓&#42; |   |   |   |
 | Excluir | ✓&#42; |   |   |   |
@@ -202,7 +206,7 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 
 ## Filtros, visualizações e agrupamentos
 
-| Ação | Standard | Leve | Colaborador | Usuário externo |
+| Ação | Padrão | Leve | Colaborador | Usuário externo |
 |-------------------|------------|---------|---------------|---------------|
 | Criar | ✓* | ✓* | ✓* |   |
 | Excluir | ✓* | ✓* | ✓* |   |
@@ -217,7 +221,7 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 
 ## Documentos
 
-| Ação | Standard | Leve | Colaborador | Usuário externo |
+| Ação | Padrão | Leve | Colaborador | Usuário externo |
 |--------------------------------|----------|--------|-------------|---------------|
 | Criar | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Excluir (documentos e pastas) | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -252,7 +256,7 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 
 ## Usuários
 
-| Ação | Standard | Leve | Colaborador | Usuário externo** |
+| Ação | Padrão | Leve | Colaborador | Usuário externo** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
 | Criar | ✓* |   |   |   |
 | Excluir | ✓* |   |   |   |
@@ -269,7 +273,7 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 
 ## Equipes
 
-| Ação | Standard | Leve | Colaborador | Usuário externo* |
+| Ação | Padrão | Leve | Colaborador | Usuário externo* |
 |-----------------------------------------|-----------|------------|-------------|------------------|
 | Criar | ✓* |   |   |   |
 | Excluir | ✓* |   |   |   |
@@ -284,7 +288,7 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 
 ## Modelos
 
-| Ação | Standard | Leve | Colaborador | Usuário externo |
+| Ação | Padrão | Leve | Colaborador | Usuário externo |
 |-----------------------|----------|--------|-------------|---------------|
 | Criar | ✓&#42; |   |   |   |
 | Excluir | ✓&#42; |   |   |   |
@@ -302,7 +306,7 @@ Os usuários com uma licença Standard podem ter acesso total aos relatórios. T
 
 Somente os usuários com uma licença Standard podem ter acesso total aos dados financeiros.
 
-| Ação | Standard | Leve | Colaborador | Usuário externo |
+| Ação | Padrão | Leve | Colaborador | Usuário externo |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
 | Editar taxas de custo e cobrança de função | ✓&#42; |   |   |   |
 | Editar taxas de custo e cobrança de usuário | ✓&#42; |   |   |   |
@@ -326,7 +330,7 @@ Somente os usuários com uma licença Standard podem ter acesso total aos dados 
 
 Somente os usuários com uma licença Standard podem ter acesso total ao gerenciamento de recursos. Outros tipos de licença podem ter acesso limitado ou inexistente ao Gerenciamento de recursos no Workfront.
 
-| Ação | Standard | Leve | Colaborador | Usuário externo |
+| Ação | Padrão | Leve | Colaborador | Usuário externo |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Editar prioridades e horas de orçamento no Planejador | ✓&#42; |   |   |   |
 | Criar, editar, excluir Conjuntos de Recursos&#42;&#42; | ✓&#42; |   |   |   |
@@ -347,7 +351,7 @@ Somente os usuários com uma licença Standard podem ter acesso total ao gerenci
 
 ## Área do Planejador de Cenários
 
-| Ação | Standard | Leve | Colaborador | Usuário externo |
+| Ação | Padrão | Leve | Colaborador | Usuário externo |
 |-----------------------------------------------------------------------|----------|-------|-------------|---------------|
 | Criar/editar planos e iniciativas existentes | ✓ | ✓ |   |   |
 | Adicionar ou editar informações de função de trabalho em planos e iniciativas&#42; | ✓ | ✓ |   |   |

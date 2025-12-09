@@ -2,7 +2,7 @@
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: acesso,modelo,funil,diagrama,níveis,permissões
+keywords: acesso,modelo,funnel,diagrama,níveis,permissões
 navigation-topic: access-levels
 title: Níveis de acesso incorporados
 description: Cada um dos seis atuais níveis de acesso incorporados foi projetado para um tipo específico de usuário, incluindo Administrador do sistema, Planejador, Trabalhador, Revisor, Solicitante e Usuário externo. Esses níveis de acesso permitem controlar o que os usuários podem editar e visualizar no sistema. Se você precisar de um nível de acesso personalizado, poderá copiar um nível de acesso incorporado e modificá-lo de acordo com a quantidade de acesso que você deseja que ele permita para os vários tipos de objeto do Workfront.
@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 6%
+source-wordcount: '1654'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->Este artigo descreve os níveis de acesso incorporados atuais no Adobe Workfront. Para obter informações sobre os novos níveis de acesso incorporados, consulte [Visão geral sobre os novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>As informações neste artigo se referem aos níveis de acesso herdados. Para obter informações sobre os novos níveis de acesso, consulte [Visão geral sobre os novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Cada um dos seis atuais níveis de acesso incorporados foi projetado para um tipo específico de usuário. Esses níveis de acesso permitem controlar o que os usuários podem editar e visualizar no sistema.
@@ -94,21 +94,21 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 
 | Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
-| Projetos |   |   | ✓ µ |
-| Tarefas |   |   | ✓ µ |
-| Problemas |   |   | ✓ µ |
-| Portfólios |   |   | ✓ µ |
-| Programas |   |   | ✓ µ |
-| Relatórios, painéis e calendários |   |   | ✓ µ |
-| Filtros, visualizações e agrupamentos |   |   | ✓ µ |
-| Documentos |   |   | ✓ µ |
-| Usuários |   |   | ✓ µ |
-| Equipes |   |   | ✓ µ |
-| Modelos |   |   | ✓ µ |
-| Dados financeiros |   |   | ✓ µ |
-| Gerenciamento de recursos |   |   | ✓ µ |
-| Planejador de cenários |   |   | ✓ (A configuração padrão é Sem acesso.) |
-| Workfront Goals |   |   | ✓ (A configuração padrão é Sem acesso.) |
+| Projetos |   |   | ✓ |
+| Tarefas |   |   | ✓ |
+| Problemas |   |   | ✓ |
+| Portfólios |   |   | ✓ |
+| Programas |   |   | ✓ |
+| Relatórios, painéis e calendários |   |   | ✓ |
+| Filtros, visualizações e agrupamentos |   |   | ✓ |
+| Documentos |   |   | ✓ |
+| Usuários |   |   | ✓ |
+| Equipes |   |   | ✓ |
+| Modelos |   |   | ✓ |
+| Dados financeiros |   |   | ✓ |
+| Gerenciamento de recursos |   |   | ✓ |
+| Planejador de cenários |   |   | ✓ (A configuração padrão é Sem Acesso.) |
+| Workfront Goals |   |   | ✓ (A configuração padrão é Sem Acesso.) |
 
 {style="table-layout:auto"}
 
@@ -132,20 +132,20 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 | Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
 | Projetos |   |   | ✓ (Limitado: os usuários só podem compartilhar o projeto, criar tarefas e problemas nele e editar dados em formulários personalizados que já estão anexados a ele.) |
-| Tarefas |   |   | ✓ µ |
-| Problemas |   |   | ✓ µ |
-| Portfólios |   | ✓ (A configuração padrão é Sem acesso.) |   |
-| Programas |   | ✓ (A configuração padrão é Sem acesso.) |   |
-| Relatórios, painéis e calendários |   | ✓ µ |   |
-| Filtros, visualizações e agrupamentos |   |   | ✓ µ |
-| Documentos |   |   | ✓ µ |
-| Usuários |   |   | ✓ µ |
-| Equipes |   |   | ✓ ➡ (Acesso limitado) |
-| Modelos | ✓ µ |   |   |
-| Dados financeiros |   | ✓ (A configuração padrão é Sem acesso. A configuração Exibir permite que o usuário visualize somente a área Finanças   em Detalhes do projeto.) |   |
-| Gerenciamento de recursos |   | ✓ µ |   |
-| Planejador de cenários |   |   | ✓ (A configuração padrão é Sem acesso.) |
-| Workfront Goals |   |   | ✓ (A configuração padrão é Sem acesso.) |
+| Tarefas |   |   | ✓ |
+| Problemas |   |   | ✓ |
+| Portfólios |   | ✓ (A configuração padrão é Sem Acesso.) |   |
+| Programas |   | ✓ (A configuração padrão é Sem Acesso.) |   |
+| Relatórios, painéis e calendários |   | ✓ |   |
+| Filtros, visualizações e agrupamentos |   |   | ✓ |
+| Documentos |   |   | ✓ |
+| Usuários |   |   | ✓ |
+| Equipes |   |   | ✓ (Acesso limitado) |
+| Modelos | ✓ |   |   |
+| Dados financeiros |   | ✓ (A configuração padrão é Sem Acesso. A configuração Exibir permite que o usuário visualize somente a área Finanças   em Detalhes do projeto.) |   |
+| Gerenciamento de recursos |   | ✓ |   |
+| Planejador de cenários |   |   | ✓ (A configuração padrão é Sem Acesso.) |
+| Workfront Goals |   |   | ✓ (A configuração padrão é Sem Acesso.) |
 
 {style="table-layout:auto"}
 
@@ -182,20 +182,20 @@ Mais limitadas para projetos e tarefas do que o nível de acesso Trabalhador, as
   <tr> 
    <td>Projetos</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Tarefas</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Problemas</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Portfólios</td> 
@@ -212,37 +212,37 @@ Mais limitadas para projetos e tarefas do que o nível de acesso Trabalhador, as
   <tr> 
    <td>Relatórios, painéis, calendários</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Filtros, visualizações e agrupamentos</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Documentos</td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Usuários</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
 <tr> 
    <td>Equipes</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr>
 
 <tr> 
    <td>Modelos</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -255,7 +255,7 @@ Mais limitadas para projetos e tarefas do que o nível de acesso Trabalhador, as
   <tr> 
    <td>Gerenciamento de recursos</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -293,21 +293,21 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
 
 | Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
-| Projeto |   | ✓ (Somente a página Detalhes do projeto) |   |
-| Tarefa |   | ✓ (Somente a página Detalhes da tarefa) |   |
-| Problema |   |   | ✓ µ |
-| Portfólios | ✓ µ |   |   |
-| Programas | ✓ µ |   |   |
-| Relatórios, painéis e calendários |   | ✓ µ |   |
-| Filtros, visualizações e agrupamentos |   |   | ✓ µ |
-| Documentos |   |   | ✓ µ |
-| Usuário |   | ✓ µ |   |
-| Equipes |   | ✓ µ |   |
-| Modelos | ✓ µ |   |   |
-| Dados financeiros | ✓ µ |   |   |
-| Gerenciamento de recursos | ✓ µ |   |   |
-| Planejador de cenários | ✓ µ |   |   |
-| Workfront Goals |   |   | ✓ (A configuração padrão é Sem acesso.) |
+| Projeto |   | ✓ (Somente a página Detalhes do Projeto) |   |
+| Tarefa |   | ✓(Somente a página Detalhes da Tarefa) |   |
+| Problema |   |   | ✓ |
+| Portfólios | ✓ |   |   |
+| Programas | ✓ |   |   |
+| Relatórios, painéis e calendários |   | ✓ |   |
+| Filtros, visualizações e agrupamentos |   |   | ✓ |
+| Documentos |   |   | ✓ |
+| Usuário |   | ✓ |   |
+| Equipes |   | ✓ |   |
+| Modelos | ✓ |   |   |
+| Dados financeiros | ✓ |   |   |
+| Gerenciamento de recursos | ✓ |   |   |
+| Planejador de cenários | ✓ |   |   |
+| Workfront Goals |   |   | ✓ (A configuração padrão é Sem Acesso.) |
 
 {style="table-layout:auto"}
 
@@ -333,18 +333,18 @@ Embora essas configurações não estejam visíveis na área Níveis de Acesso p
 
 | Tipo de objeto do Workfront | Sem acesso | Exibir acesso | Editar acesso |
 |---|---|---|---|
-| Projeto | ✓ µ |   |   |
-| Tarefa | ✓ µ | |   |
-| Problema | ✓ µ |   |   |
-| Portfólios | ✓ µ |   |   |
-| Programas | ✓ µ |   |   |
+| Projeto | ✓ |   |   |
+| Tarefa | ✓ | |   |
+| Problema | ✓ |   |   |
+| Portfólios | ✓ |   |   |
+| Programas | ✓ |   |   |
 | Relatórios, painéis e calendários |   | ✓ (Somente para relatórios de calendário; sem capacidade de compartilhar relatórios) |   |
-| Filtros, visualizações e agrupamentos | ✓ µ |   |   |
+| Filtros, visualizações e agrupamentos | ✓ |   |   |
 | Documentos |   | ✓ (sem a capacidade de compartilhar documentos) |   |
-| Usuários |   | ✓ µ |   |
-| Equipes |   | ✓ µ |   |
-| Modelos | ✓ µ |   |   |
-| Dados financeiros | ✓ µ |   |   |
-| Gerenciamento de recursos | ✓ µ |   |   |
-| Planejador de cenários | ✓ µ |   |   |
-| Workfront Goals | ✓ µ |   |   |
+| Usuários |   | ✓ |   |
+| Equipes |   | ✓ |   |
+| Modelos | ✓ |   |   |
+| Dados financeiros | ✓ |   |   |
+| Gerenciamento de recursos | ✓ |   |   |
+| Planejador de cenários | ✓ |   |   |
+| Workfront Goals | ✓ |   |   |

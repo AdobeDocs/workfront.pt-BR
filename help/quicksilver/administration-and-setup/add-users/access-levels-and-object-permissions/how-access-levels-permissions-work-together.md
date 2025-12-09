@@ -3,21 +3,25 @@ title: Como os níveis de acesso e as permissões funcionam juntos
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: acesso,modelo,funil,diagrama,níveis,permissões
+keywords: acesso,modelo,funnel,diagrama,níveis,permissões
 navigation-topic: access-levels
 description: O administrador do Adobe Workfront determina o nível de acesso que cada usuário deve ter. Esse nível de acesso define o que os usuários podem ver e fazer com os tipos de objetos e áreas no sistema.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '899'
 ht-degree: 2%
 
 ---
 
 # Como os níveis de acesso e as permissões funcionam juntos
+
+>[!NOTE]
+>
+>As informações neste artigo se referem aos níveis de acesso herdados. Para obter informações sobre os novos níveis de acesso, consulte [Visão geral sobre os novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 O administrador do Adobe Workfront determina o nível de acesso que cada usuário deve ter. Esse nível de acesso define o que os usuários podem ver e fazer com os tipos de objetos e áreas no sistema.
 
@@ -106,19 +110,19 @@ A tabela a seguir compara o acesso geral de um usuário a objetos (definido pelo
  <tbody> 
   <tr> 
    <td>Concedido por um administrador do Workfront no nível de acesso de um usuário</td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Concedido por um usuário que compartilha um objeto no nível do objeto</td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p>Herdado de um objeto compartilhado de classificação mais alta 
    </td> 
    <td> </td> 
-   <td>✓ µ</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

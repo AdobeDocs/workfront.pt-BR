@@ -10,16 +10,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 3%
+source-wordcount: '370'
+ht-degree: 2%
 
 ---
 
 # Visão geral de licenças
 
 <!-- Audited: 12/2023 -->
+
+>[!NOTE]
+>
+>As informações neste artigo se referem aos níveis de acesso herdados. Para obter informações sobre os novos níveis de acesso, consulte [Visão geral sobre os novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Sua organização adquiriu um determinado número de licenças quando adquiriu a Adobe Workfront. Como administrador do Workfront, você fornece um dos cinco tipos de licenças do Workfront a cada usuário ao atribuir a ele um nível de acesso.
 
@@ -36,7 +40,7 @@ Esta tabela e diagrama mostram os principais níveis de acesso ao Workfront:
 | Plano | Administrador do sistema, planejador |
 | Trabalho | Trabalhador |
 | Revisar | Revisor |
-| Solicitar | Solicitante |
+| Solicitação | Solicitante |
 | Externo | Usuário externo |
 
 >[!NOTE]

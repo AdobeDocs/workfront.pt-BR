@@ -9,14 +9,18 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
-source-git-commit: 88ddadb8ea00d5c45ec414837bf10aa63d11200e
+source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 0%
+source-wordcount: '173'
+ht-degree: 1%
 
 ---
 
 # Como funcionam os novos níveis de acesso
+
+>[!NOTE]
+>
+>As informações neste artigo se referem aos novos níveis de acesso. Para obter informações sobre os níveis de acesso herdados, consulte [Visão geral dos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 Como administrador do Adobe Workfront, você pode conceder aos usuários acesso para visualizar ou editar objetos atribuindo a eles um nível de acesso. Os artigos abaixo explicam como os novos níveis de acesso funcionam.
 
