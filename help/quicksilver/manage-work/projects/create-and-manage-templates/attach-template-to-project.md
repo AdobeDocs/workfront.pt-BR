@@ -6,10 +6,10 @@ description: Você pode anexar um modelo a um projeto durante a fase de criaçã
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 0%
+source-wordcount: '1126'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Para obter mais informações sobre como criar um projeto usando um modelo, cons
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Para obter mais informações sobre como criar um projeto usando um modelo, cons
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
     <p>Plano</p>
     </p> </td> 
   </tr> 
@@ -159,15 +159,23 @@ Você pode anexar um modelo a um projeto a partir da página do projeto ou de um
      </tr> 
      <tr> 
       <td role="rowheader">As tarefas de modelo selecionadas abaixo são importadas para o projeto. Desmarque aqueles que deseja excluir. </td> 
-      <td>Desmarque todas as tarefas que deseja excluir do modelo antes de anexá-lo ao projeto.</td> 
+      <td><p>Desmarque todas as tarefas que deseja excluir do modelo antes de anexá-lo ao projeto.</p>
+      <p><b>DICA</b></p>
+      <p>Você pode escolher apenas uma tarefa.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Selecione a tarefa do projeto que você deseja como predecessora das tarefas neste modelo.</td> 
-      <td> <p>Clique no campo para exibir uma lista de tarefas do projeto e selecione qual tarefa deve ser concluída antes que as tarefas do modelo possam ser iniciadas. Como alternativa, você pode ignorar essa etapa e configurar relações no projeto depois que o modelo for anexado. </p> <p> Selecione as informações de <strong>Tipo de Dependência</strong>, <strong>Tempo de Atraso</strong> e se desejar que o predecessor seja aplicado marcando a caixa de seleção <strong>Impor Predecessor</strong>. </p> </td> 
+      <td> <p>Clique dentro da caixa de campo para exibir uma lista de tarefas do projeto e, em seguida, selecione qual tarefa deve ser concluída antes que as tarefas do modelo possam começar. Como alternativa, você pode ignorar essa etapa e configurar relações no projeto depois que o modelo for anexado. </p> <p> Selecione as informações de <strong>Tipo de Dependência</strong>, <strong>Tempo de Atraso</strong> e se desejar que o predecessor seja aplicado marcando a caixa de seleção <strong>Impor Predecessor</strong>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Selecione a tarefa de projeto que você deseja como a principal das tarefas neste modelo.</td> 
-      <td> Selecione qual tarefa do projeto você deseja designar como tarefa pai para todas as tarefas do modelo. Se você não fizer uma seleção, todas as tarefas do modelo aparecerão no final das tarefas do projeto atual. Você pode ignorar essa etapa e mover tarefas no projeto depois que o modelo for anexado.</td> 
+      <td> <p>Selecione qual tarefa do projeto você deseja designar como tarefa pai para todas as tarefas do modelo. Se você não fizer uma seleção, todas as tarefas do modelo aparecerão no final das tarefas do projeto atual. Você pode ignorar essa etapa e mover tarefas no projeto depois que o modelo for anexado.</p>
+      <p><b>Nota</b></p>
+      <p>Se você selecionou uma tarefa de modelo pai com filhos adicionais, somente o pai exibirá a tarefa do projeto como sua predecessora depois de adicionada ao projeto. As tarefas de modelo filho não exibirão uma predecessora.</p>
+      <p>Se você selecionou apenas uma tarefa de modelo filho, a tarefa do projeto será exibida como sua predecessora depois de ser adicionada ao projeto. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">seção Opções</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 

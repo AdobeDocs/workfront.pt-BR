@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->As informações neste artigo se referem aos novos níveis de acesso. Para obter informações sobre os níveis de acesso herdados, consulte [Visão geral dos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>As informações neste artigo se referem aos níveis de acesso atuais. Para obter informações sobre os níveis de acesso herdados, consulte [Visão geral dos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 Sua organização adquiriu um determinado número de licenças ao adquirir o Adobe Workfront. Como administrador do Workfront, você fornece um dos dois tipos de licenças do Workfront para cada usuário ao atribuir um nível de acesso a ele.
 

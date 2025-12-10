@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
 workflow-type: tm+mt
 source-wordcount: '3508'
 ht-degree: 10%
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->As informações neste artigo se referem aos níveis de acesso herdados. Para obter informações sobre os novos níveis de acesso, consulte [Visão geral sobre os novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>As informações neste artigo se referem aos níveis de acesso herdados. Para obter informações sobre os níveis de acesso atuais, consulte [Visão geral sobre novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Ao configurar um nível de acesso para sua organização, você pode determinar quais ações específicas estão disponíveis para o nível de acesso.
 
