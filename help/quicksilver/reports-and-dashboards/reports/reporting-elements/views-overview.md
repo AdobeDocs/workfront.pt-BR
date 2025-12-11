@@ -7,9 +7,9 @@ description: Você pode personalizar o tipo de informação exibida em uma lista
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -43,24 +43,41 @@ A seguir estão tipos de exibições que podem ser aplicadas em listas ou relat�
     </tr>
     <tr>
         <td><strong>Visualização Agile</strong></td>
-        <td>É possível aplicá-lo a uma lista de tarefas na seção Tarefas de um projeto. Você pode personalizar e compartilhar uma visualização ágil com outras pessoas. Para obter informações, consulte <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Criar ou editar exibições no Adobe Workfront</a>.</td>
+        <td>É possível aplicar a visualização Quadro ou Agile a uma lista de tarefas na seção Tarefas de um projeto ou a uma lista de problemas na seção Problemas do projeto. Para obter informações, consulte <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">Gerenciar um projeto na Exibição Agile</a>.</td>
     </tr>
     <tr>
         <td><strong>exibição de Gantt</strong></td>
         <td>Você pode aplicá-lo a uma lista de tarefas na seção Tarefas de um projeto, a uma lista de projetos, ou adicioná-lo a um relatório de tarefa ou de projeto. Você pode personalizar quais informações você visualiza na visualização de Gantt usando opções predefinidas incorporadas. Todos os usuários com acesso para visualizar tarefas ou projetos podem visualizá-los na visualização de Gantt. Para obter informações, consulte <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Introdução ao Gráfico de Gantt</a>.</td>
        </tr>
+
+<tr>
+        <td><strong>Visualização aprimorada</strong></td>
+        <td>As exibições aprimoradas são baseadas em listas aprimoradas. Eles estão disponíveis em algumas áreas do Workfront. Essas listas usam um formato de tabela para exibir os itens de lista e têm uma aparência diferente das exibições ou listas padrão. O gerenciamento de visualizações também é aprimorado, incluindo filtragem, agrupamento, gerenciamento de colunas e pesquisa. Para obter informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md">Usar listas aprimoradas</a></td>
+       </tr>    
 </table>
+
+
 
 <!--NOTE FOR MAYBE LATER: consider adding calendar and board views, or Milestone view (not customizable) to this list of views (above)?! -->
 
 ## Compartilhar uma exibição
 
-Para obter informações sobre como compartilhar um modo de exibição, consulte [Compartilhar um filtro, modo de exibição ou agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Você pode compartilhar os elementos de uma exibição padrão.
+
+Para obter informações sobre como compartilhar um modo de exibição padrão, consulte [Compartilhar um filtro, modo de exibição ou agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+
+Não é possível compartilhar as visualizações de Gantt e Agile. Todos com acesso às áreas em que essas exibições são exibidas podem exibir as mesmas informações.
+
+<!-- add something about the enhanced views here, when we have a link-->
 
 ## Remover uma visualização
 
 A capacidade de remover uma visualização funciona de forma diferente, dependendo se você criou inicialmente a visualização ou se ela foi compartilhada com você. Não é possível remover uma exibição padrão.
 
-Para obter mais informações, consulte [Remover filtros, visualizações e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+Não é possível remover as visualizações de Gantt ou Agile.
+
+Para obter mais informações sobre como remover um modo de exibição padrão, consulte [Remover filtros, modos de exibição e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
+<!-- add something about the enhanced views here, when we have a link-->
 
 

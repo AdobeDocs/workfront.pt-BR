@@ -5,16 +5,16 @@ description: Você pode exibir listas de objetos em  [!DNL Adobe Workfront]  par
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: ca16652aa06b4652d0d1b41156ed1ef96225c49a
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2301'
 ht-degree: 2%
 
 ---
 
 # Introdução a listas em [!DNL Adobe Workfront]
 
-<!--Audited: 11/2024-->
+<!--Audited: 12/2025-->
 
 Você pode exibir listas de objetos em [!DNL Adobe Workfront] para obter informações sobre eles, como suas datas de início e vencimento, usuários atribuídos a eles e outros objetos associados a eles.
 
@@ -206,7 +206,7 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar em [!DN
    <td>Lista de planilhas de horas</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Planilha de Horas] s &gt; [!UICONTROL Todas as Planilhas de Horas]*</p> </li> 
+     <li> <p>[!UICONTROL Planilha de Horas] &gt; [!UICONTROL Todas as Planilhas de Horas]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -293,7 +293,7 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar em [!DN
  </tbody> 
 </table>
 
-Não é possível personalizar a lista na área especificada. Um administrador do [!DNL Workfront] pode criar uma lista personalizada no nível do sistema, ou você pode criar um relatório para este objeto se seu nível de acesso permitir que você edite relatórios.
+*Não é possível personalizar a lista na área especificada. Um administrador do [!DNL Workfront] pode criar uma lista personalizada no nível do sistema, ou você pode criar um relatório para este objeto se seu nível de acesso permitir que você edite relatórios.
 
 ## Listar elementos
 
@@ -466,7 +466,7 @@ A tabela a seguir lista muitos dos ícones disponíveis na barra de ferramentas 
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
    <td>[!UICONTROL Gráfico de Gantt]</td> 
-   <td> <p>Exibir a lista na exibição de Gráfico de Gantt .</p> <p>Isso está disponível somente para projetos e tarefas.</p> </td> 
+   <td> <p>Exibir a lista na exibição de Gráfico de Gantt [!UICONTROL].</p> <p>Isso está disponível somente para projetos e tarefas.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
@@ -649,25 +649,19 @@ A tabela a seguir mostra algumas das diferenças entre as listas padrão e aprim
   </tr> 
   <tr>
   <td> <p>Exibir <strong>Todos</strong> ou até <strong>2000</strong> itens por padrão</p> </td> 
-   <td> Exibir até 100 itens por padrão e até 2000 após a rolagem </td> 
+   <td> Exibir todos os itens na lista após a rolagem manual </td> 
   </tr>
 
 <tr> 
-   <td>Os ícones na parte superior da lista são consistentes em todas as listas, independentemente de onde você os acessa. Algumas listas, tarefas, problemas ou documentos têm ícones exclusivos pertinentes à funcionalidade desses tipos de objeto. </td> 
-   <td>Os ícones na parte superior da lista diferem dependendo de onde você acessa a lista. Além disso, há uma barra azul na parte inferior da lista que é exibida ao selecionar itens na lista.</td> 
+   <td>A interação com os itens na lista é consistente em todos os tipos de objeto e é feita usando os ícones na parte superior da lista.  </td> 
+   <td>A interação com os itens na lista pode variar dependendo do tipo de objeto. Para isso, use os ícones na parte superior da lista, bem como a barra de ferramentas azul ativada após selecionar os itens da lista. </td> 
   </tr>
 
-<tr> 
-   <td> <p>Usar ícones na barra de ferramentas na parte superior da lista para interagir com itens na lista</p> </td> 
-   <td> <p>Siga um destes procedimentos para interagir com os itens na lista, dependendo do que você deseja atualizar:</p>
-   <ul><li>Use os ícones na barra de ferramentas na parte superior para realizar algumas ações, como pesquisar, adicionar novos itens, classificar ou filtrar</li>
-   <li>Selecione um item na lista e use os ícones na barra de ferramentas azul na parte inferior da lista para algumas ações, como excluir ou exibir itens</li></ul> 
-   </tr>   
-   </td> 
+</td> 
   </tr> 
   <tr> 
    <td><p>É possível aplicar alterações de cor de célula a itens em uma lista</p></td>
-   <td><p>É possível aplicar alterações de cor de célula a itens em uma lista somente no Workfront Planning. </p></td>
+   <td><p>Não é possível aplicar alterações de cor de célula a itens em uma lista. </p></td>
    </td> 
    <td></td> 
   </tr> 

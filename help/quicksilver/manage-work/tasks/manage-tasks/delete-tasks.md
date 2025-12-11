@@ -6,10 +6,10 @@ description: É possível excluir tarefas que podem estar duplicadas ou que fora
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 2%
+source-wordcount: '810'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Para tarefas com informações históricas (atualizações, alterações de agen
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,8 +33,8 @@ Para tarefas com informações históricas (atualizações, alterações de agen
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td><p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -98,37 +98,40 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 Ao excluir uma tarefa, você afeta outros objetos vinculados à tarefa.
 
-Os seguintes objetos anexados a uma tarefa também são excluídos quando você exclui uma tarefa:
+Considere o seguinte:
 
-* Documentos
+* Os seguintes objetos anexados a uma tarefa também são excluídos quando você exclui uma tarefa:
+
+   * Documentos
 
   Não é possível excluir uma tarefa que tenha um documento com check-out anexado a ela. Para obter mais informações sobre o check-out de documentos, consulte [Check-out de documentos](../../../documents/managing-documents/check-out-documents.md).
 
-* Problemas
-* Subtarefas
-* Notas
-* Aprovações
+   * Problemas
+   * Subtarefas
+   * Notas
+   * Aprovações
 
-Dependendo de como o administrador do Workfront configura as Preferências de exclusão de projeto, tarefa ou problema na Planilha de horas e preferências de hora da sua instância do Workfront, as horas registradas para as tarefas são tratadas de uma das seguintes maneiras ao excluir uma tarefa:
+* Dependendo de como o administrador do Workfront configura as Preferências de exclusão de projeto, tarefa ou problema na Planilha de horas e preferências de hora da sua instância do Workfront, as horas registradas para as tarefas são tratadas de uma das seguintes maneiras ao excluir uma tarefa:
 
-* Mover para o projeto e não será restaurado na tarefa, se a tarefa for restaurada posteriormente.
-* São excluídos e serão restaurados na tarefa, se a tarefa for restaurada posteriormente.
+   * Mover para o projeto e não será restaurado na tarefa, se a tarefa for restaurada posteriormente.
+   * São excluídos e serão restaurados na tarefa, se a tarefa for restaurada posteriormente.
 
   Isso também se aplica quando você tenta excluir projetos com tarefas com horas registradas.
 
-  <!--
+  Para obter mais informações sobre como configurar as preferências de exclusão para horas registradas em problemas, consulte [Configurar preferências de horas e planilha de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * As despesas da tarefa serão movidas para o projeto.
+
+   * Os usuários atribuídos à tarefa ou à aprovação da tarefa permanecem na equipe do projeto.
+
+  Para obter mais informações sobre as equipes de projeto, consulte [Visão geral da Equipe de Projeto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+
+* Quando você exclui uma tarefa filho e move seu pai para outro projeto e, em seguida, restaura a tarefa filho excluída, a tarefa é adicionada de volta ao projeto original como uma tarefa principal.
+
+<!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
-
-  Para obter mais informações sobre como configurar as preferências de exclusão para horas registradas em problemas, consulte [Configurar preferências de horas e planilha de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-* As despesas da tarefa serão movidas para o projeto.
-
-* Os usuários atribuídos à tarefa ou à aprovação da tarefa permanecem na equipe do projeto.
-
-  Para obter mais informações sobre as equipes de projeto, consulte [Visão geral da Equipe de Projeto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Excluir tarefas
 
