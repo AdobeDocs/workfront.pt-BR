@@ -6,7 +6,7 @@ description: Você pode adicionar outros aprovadores ou revisores a um documento
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
+source-git-commit: 72915fc9f3c262d9c90fd205c6be3776ac20e303
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 3%
@@ -19,7 +19,7 @@ ht-degree: 3%
 >
 >O conteúdo deste artigo se refere à funcionalidade atualizada de aprovação de documentos, disponível somente para contas específicas. Para obter informações sobre processos de aprovação padrão, consulte os artigos listados em [Aprovações de trabalho](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-Aprovações unificadas, anteriormente chamadas de Novas aprovações de documentos, é um redesign holístico do processo de aprovações existente que está atualmente em desenvolvimento para o Adobe Workfront. Atualmente disponível em versão limitada, foi projetada para ser uma solução prática e eficaz para empresas que exigem envolvimento abrangente das partes interessadas e aprovações de documentos com versões específicas. Seu design elaborado e novos recursos funcionais facilitam a colaboração, a clareza de funções e o controle de versões no processo de aprovação, aumentando a eficiência e a responsabilidade.
+As Aprovações unificadas, anteriormente chamadas de Novas aprovações de documentos, são um novo design holístico do processo de aprovação existente, que está atualmente em desenvolvimento para o Adobe Workfront. Atualmente disponível em versão limitada, foi projetada para ser uma solução prática e eficaz para empresas que exigem envolvimento abrangente das partes interessadas e aprovações de documentos com versões específicas. Seu design elaborado e novos recursos funcionais facilitam a colaboração, a clareza de funções e o controle de versões no processo de aprovação, aumentando a eficiência e a responsabilidade.
 
 ## Principais diferenças das aprovações de documentos legados e de provas
 
