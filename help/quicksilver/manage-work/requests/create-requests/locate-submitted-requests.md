@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1249'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Você pode localizar os seguintes tipos de solicitações que você ou outra pes
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,7 +73,44 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Localizar solicitações enviadas
 
-Para localizar solicitações que você ou outros usuários submeteram:
+A localização de solicitações enviadas difere de acordo com o uso da experiência de solicitação nova ou herdada.
+
+### Localizar solicitações enviadas na nova experiência de solicitação
+
+Para localizar solicitações que você ou outros usuários enviaram na nova experiência de solicitação:
+
+{{step1-to-requests}}
+
+1. Verifique se o botão **Usar nova experiência**, no canto superior direito da tela, está habilitado.
+
+   A lista Solicitações é exibida.
+
+1. (Opcional) Para pesquisar uma solicitação, comece digitando na barra de pesquisa no canto superior direito da lista. Os resultados da pesquisa são exibidos à medida que você digita.
+1. (Opcional) Clique em **Filtros** e comece a adicionar condições para as solicitações que você deseja localizar.
+
+   Você pode filtrar pelos seguintes campos:
+
+   * **Workspace**: o espaço de trabalho ao qual o formulário de solicitação está associado.
+   * **Tipo de registro**: o tipo de registro ao qual o formulário de solicitação está associado.
+   * **Data de entrada**: a data em que a solicitação foi enviada.
+   * **Formulário de solicitação**: o nome do formulário de solicitação usado para enviar a solicitação.
+   * **Status**: o status da solicitação.
+   * **Inserido por**: o nome do usuário que adicionou a solicitação. Se a solicitação foi adicionada por alguém fora do Workfront, o campo **Informado por** mostrará `N/A`.
+
+   Você pode ter vários filtros unidos por **And** ou **Or**.
+A lista de solicitações é filtrada automaticamente ao adicionar as condições de filtro.
+1. (Opcional) Use as exibições para se concentrar nas solicitações que você deseja localizar.
+
+   Para obter instruções, consulte [Criar ou editar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+>[!NOTE]
+>
+>* Se você tiver o Workfront Planning, suas solicitações do Workfront e do Planning serão exibidas na mesma lista. As solicitações Workfront exibem o valor `Issue` na coluna Tipo de objeto.
+>* A lista Solicitações é exibida com 50 solicitações exibidas. Para visualizar mais solicitações, navegue até a parte inferior da lista.
+
+### Localizar solicitações enviadas na experiência herdada de solicitação
+
+Para localizar solicitações que você ou outros usuários enviaram na experiência de solicitação herdada:
 
 {{step1-to-requests}}
 
