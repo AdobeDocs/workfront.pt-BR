@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
+source-git-commit: 1e830ccb4e87c231f57ae39e59988bb261737188
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,37 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Adicionar o campo de conexão da Marca a Produtos e personalidades por padrão no espaço de trabalho do GenStudio
+
+>[!NOTE]
+>
+>Visualização: 11 de dezembro de 2025
+>Versão rápida de produção: 11 de dezembro de 2025
+>Produção para todos: 11 de dezembro de 2025
+
+O campo de conexão com a Marca GenStudio for Performance Marketing agora é adicionado por padrão aos tipos de registro Produtos e Personalidades no espaço de trabalho GenStudio do Workfront Planning.
+
+Sua organização deve ter o Workfront Planning e o Adobe GenStudio for Performance Marketing.
+
+Antes desse aprimoramento, você poderia adicionar o campo de conexão Marca somente manualmente a qualquer tipo de registro, incluindo Produtos e Personalidades. Você ainda pode conectar manualmente o tipo de registro do Brand GenStudio a outros tipos de registro no Workfront Planning.
+
+Para obter informações, consulte [Introdução à integração do Adobe Workfront Planning e do Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+## Restringir a remoção de permissões de usuários do GenStudio for Performance Marketing do Planning
+
+>[!NOTE]
+>
+>Visualização: 11 de dezembro de 2025
+>Versão rápida de produção: 11 de dezembro de 2025
+>Produção para todos: 11 de dezembro de 2025
+
+Adicionamos uma proteção que impede a remoção das permissões dos usuários do GenStudio for Performance Marketing de objetos do Workfront Planning. Com essa melhoria, não é mais possível remover usuários do GenStudio do espaço de trabalho do GenStudio no Planning, nem desabilitar permissões herdadas para tipos de registros no espaço de trabalho do GenStudio, se essas permissões incluírem usuários do GenStudio. Antes dessa melhoria, ao remover esses usuários do espaço de trabalho do GenStudio no Planning, eles também perderiam permissões para registrar tipos no GenStudio.
+
+Sua organização deve ter o Workfront Planning e o Adobe GenStudio for Performance Marketing.
+
+Para obter informações, consulte [Introdução à integração do Adobe Workfront Planning e do Adobe GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
 
 ## Remoção do compartilhamento público de exibições em um tipo de registro global em um espaço de trabalho secundário
 

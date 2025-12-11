@@ -4,9 +4,9 @@ description: Melhorias nas solicitações do primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 34e6f4386c768b94c3835d4a4d7e7deadc3fecda
+source-git-commit: 59aa98645583fb79a5d61a248dca535a3460956f
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,20 @@ ht-degree: 0%
 Esta página descreve as melhorias nas Solicitações feitas com a versão do Primeiro trimestre de 2026 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2026, consulte [Visão geral da versão do Primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Preenchimento de formulário fornecido pela IA agora disponível para solicitações
+
+>[!NOTE]
+>
+>Visualização: 11 de dezembro de 2025
+>Versão rápida de produção: 11 de dezembro de 2025\
+>Produção para todos: 11 de dezembro de 2025
+
+Para facilitar a criação de solicitações, criamos o Preenchimento de formulário viabilizado pela IA. Agora é possível colar um prompt ou carregar um documento em um formulário de solicitação, e a IA obterá as informações relevantes e preencherá o formulário.
+
+Sua organização deve ter a IA habilitada para acessar essa funcionalidade.
+
+Para obter mais informações sobre o Preenchimento de Formulário fornecido pela IA, incluindo o que é necessário para habilitar a IA para sua organização, consulte [Usar Preenchimento de Formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 <!--## Share views in the Requests area and the My Requests widget
 
@@ -37,8 +51,8 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >Visualização: 20 de novembro de 2025
->Versão rápida de produção: 11 de dezembro de 2025\
->Produção para todos: 16 de janeiro de 2026
+>Lançamento rápido de produção: 14 de janeiro de 2026\
+>Produção para todos: 15 de janeiro de 2026
 
 Para facilitar a criação e o envio de solicitações, adicionamos a capacidade de salvar rascunhos na nova experiência de solicitação. Agora, quando você começa a preencher uma solicitação e a fecha, a solicitação é salva no status Rascunho e pode ser encontrada no formulário de solicitação usado para criar o rascunho. Em seguida, você poderá reabrir, atualizar e submeter a preliminar quando desejar.
 
@@ -53,8 +67,8 @@ Para obter mais informações sobre rascunhos de solicitações, consulte [Criar
 >[!NOTE]
 >
 >Visualização: 20 de novembro de 2025
->Versão rápida de produção: 11 de dezembro de 2025\
->Produção para todos: 16 de janeiro de 2026
+>Lançamento rápido de produção: 14 de janeiro de 2026\
+>Produção para todos: 15 de janeiro de 2026
 
 Para facilitar a organização e a organizada das solicitações, adicionamos a capacidade de excluir solicitações à nova experiência de solicitação. Agora é possível excluir solicitações enviadas. Os administradores do Workfront e do Workfront Planning Workspace também podem excluir solicitações.
 
@@ -69,10 +83,17 @@ Para obter informações e instruções, consulte [Excluir uma solicitação env
 >
 >Visualização: 20 de novembro de 2025
 >Versão rápida de produção: 11 de dezembro de 2025\
->Produção para todos: 16 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
 
 Para facilitar o envio de solicitações, adicionamos a capacidade de copiar solicitações para a nova experiência de solicitação. Agora você pode copiar uma solicitação, editar quaisquer campos e enviá-la como uma nova solicitação.
 
 Anteriormente, essa funcionalidade não estava disponível na nova experiência de solicitação.
 
 Para obter informações sobre como copiar e enviar uma solicitação, consulte [Copiar e enviar solicitações](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+
+
+
+
+
+
+

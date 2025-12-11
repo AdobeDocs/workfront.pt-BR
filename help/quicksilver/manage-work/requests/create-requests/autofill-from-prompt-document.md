@@ -5,10 +5,10 @@ description: Você pode usar a IA para preencher automaticamente os campos de so
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 3c319ff406ca7705e618f3159edcf87d27d8229e
+source-git-commit: 59aa98645583fb79a5d61a248dca535a3460956f
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 1%
+source-wordcount: '1351'
+ht-degree: 3%
 
 ---
 
@@ -16,12 +16,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->* Essa funcionalidade estará disponível como um beta aberto no seguinte agendamento:
->
->   * Lançamento mensal: 11 de setembro de 2025
->   * Versão trimestral: 16 de outubro de 2025
->
->* Para usar essa funcionalidade, sua organização deve atender aos requisitos para usar o Assistente de IA da Workfront. Para obter detalhes, consulte [Pré-requisitos do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+>Para usar essa funcionalidade, sua organização deve atender aos requisitos para usar o Assistente de IA da Workfront. Para obter detalhes, consulte [Pré-requisitos do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 O Preenchimento de formulário de IA pode ajudar a preencher automaticamente os campos de solicitação com base em um prompt inserido. Ele também pode preencher campos com base em texto, como emails que são documentos carregados. Você pode aprovar ou rejeitar essas sugestões antes de enviar a solicitação.
 
@@ -31,7 +26,7 @@ Os usuários não recebem sugestões de dados aos quais, de outra forma, não te
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
