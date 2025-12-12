@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: f2fe6ef78b3032f7a89d4c816cb11b525634c067
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 1%
+source-wordcount: '789'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -52,7 +52,7 @@ Ou
  </tr>
 <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
   </td> 
   </tr>
 
@@ -210,3 +210,5 @@ Na notificação por email, clique em **Exibir todas as notificações** e cliqu
 1. Clique em **Salvar**.
 
    Os usuários removidos não terão mais acesso ao espaço de trabalho ou a seus objetos.
+
+   Não há notificação para os usuários que foram removidos do acesso ao espaço de trabalho de que eles não têm mais essas permissões.

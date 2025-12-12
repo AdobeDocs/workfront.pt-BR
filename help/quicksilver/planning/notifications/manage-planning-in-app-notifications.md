@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '359'
+ht-degree: 1%
 
 ---
 
@@ -23,8 +23,8 @@ Você pode receber notificações no aplicativo do Workfront Planning quando os 
 * Alguém marcar você ou suas equipes em um comentário de registro
 
   Para obter informações sobre como marcar outras pessoas em um comentário de registro, consulte [Gerenciar comentários de registro](/help/quicksilver/planning/records/manage-record-comments.md).
-* Alguém solicitar sua permissão para acessar uma visualização ou um espaço de trabalho
-* Alguém confirma que seu acesso foi concedido a uma exibição ou a um espaço de trabalho <!--Isk confirmed there is no notification for denying permissions - did not test-->
+* Alguém solicitou sua permissão para acessar uma exibição ou um espaço de trabalho <!--<span class="preview">or record</span>-->
+* Alguém confirma que seu acesso foi concedido a uma exibição ou a um espaço de trabalho <!--<span class="preview">or record</span>--> <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Requisitos de acesso
 
@@ -155,8 +155,8 @@ OLD:
 
 ## Gerenciar notificações no aplicativo ao solicitar e conceder permissões
 
-Você recebe notificações no aplicativo quando alguém solicita ou concede permissões para uma visualização ou um espaço de trabalho.
+Você recebe notificações no aplicativo quando alguém solicita ou concede permissões para uma visualização ou um espaço de trabalho. <!--<span class="preview">or record</span>-->
 
-Para obter informações sobre como solicitar, conceder ou negar permissões para uma exibição ou um espaço de trabalho, consulte [Solicitar permissões para uma exibição ou um espaço de trabalho](/help/quicksilver/planning/access/request-permissions.md).
+Para obter informações sobre como solicitar, conceder ou negar permissões, consulte [Solicitar permissões para uma exibição ou um espaço de trabalho](/help/quicksilver/planning/access/request-permissions.md).
 
 Para obter informações sobre como gerenciar as notificações do Workfront Planning, consulte [Gerenciar preferências de notificação do Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

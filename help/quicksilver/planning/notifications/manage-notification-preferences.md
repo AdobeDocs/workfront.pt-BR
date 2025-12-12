@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 1%
 Você pode receber notificações no aplicativo ou por email quando as seguintes ações ocorrerem no Workfront Planning:
 
 * Alguém adicionar você ou suas equipes a um comentário na página de gravação
-* Alguém solicitar permissão para acessar uma visualização ou um espaço de trabalho
-* Alguém concede a você permissão para acessar uma exibição ou um espaço de trabalho <!--I could not test this but Isk confirmed-->
+* Alguém solicitou permissão para acessar uma exibição ou um espaço de trabalho <!--or <span class="preview">or a record</span>-->
+* Alguém concede a você permissão para acessar uma exibição ou um espaço de trabalho <!--or <span class="preview">or a record</span>--> <!--I could not test this but Isk confirmed-->
 * Você submete uma solicitação do Workfront Planning.
 * Alguém aprovar ou rejeitar uma solicitação do Workfront Planning que você enviou.
 * O status é alterado para uma solicitação do Workfront Planning enviada.
@@ -177,7 +177,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 

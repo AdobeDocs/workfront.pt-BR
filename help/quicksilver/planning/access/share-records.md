@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: e6fc6def1553df3faa8e1200f7ec2ca2bb97eb04
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1831'
 ht-degree: 2%
 
 ---
@@ -115,7 +115,12 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 <!--checking on the below with Lilit-->
 
 * Você pode compartilhar registros com as seguintes entidades: pessoas, grupos, equipes, empresas ou funções de trabalho.
-* Quando você compartilha um espaço de trabalho com usuários, eles também recebem as mesmas permissões para os registros no espaço de trabalho, por padrão.
+* Você pode conceder os seguintes níveis de permissões a um registro:
+
+   * Exibir
+   * Gerenciar
+* Quando você compartilha um espaço de trabalho e um tipo de registro com usuários, eles também recebem as mesmas permissões para os registros no espaço de trabalho, por padrão.
+Quando os usuários têm permissões do Contribute para um espaço de trabalho ou tipo de registro, eles recebem permissões de gerenciamento para os registros desse tipo de registro.
 * Quando você remove uma entidade de um espaço de trabalho, todas as permissões de compartilhamento são removidas dos tipos de registro e de todos os registros nele.
 * O acesso de um usuário ao registro é determinado por meio da combinação das três configurações a seguir:
 
@@ -126,10 +131,10 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
       * **Todos no espaço de trabalho podem exibir**: isso torna o registro visível para todos no espaço de trabalho <!-- is this OK to say "workspace? should it be "record"??-->
       * **Somente pessoas convidadas podem acessar**: esta opção é selecionada por padrão e permite restringir o acesso ao registro a pessoas específicas.
 
-* Você pode conceder os seguintes níveis de permissões a um registro:
+     >[!NOTE]
+     >
+     >Se você optar por conceder a **Todos no espaço de trabalho podem exibir a permissão** para um tipo de registro ou um registro, todos os usuários listados na lista de compartilhamento das permissões do espaço de trabalho terão as mesmas permissões no tipo de registro e no registro, mesmo quando as permissões herdadas estiverem desabilitadas.
 
-   * Exibir
-   * Gerenciar
 
 * Quando você compartilha um registro com um usuário, ele é adicionado com a mesma permissão que tem no tipo de registro, por padrão.
 
@@ -138,13 +143,15 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    * Se tiverem permissões de Exibição para o tipo de registro, eles obterão permissões de Exibição para o registro
    * Se tiverem permissões do Contribute ou do Manage para o tipo de registro, eles obterão permissões do Manage para o registro
 
-* Como gerenciador de espaço de trabalho, você pode compartilhar um registro com um usuário que não faz parte do espaço de trabalho. Nesse caso, há um aviso ao lado da entidade adicionada notificando que ela não tem acesso ao espaço de trabalho. Você pode continuar adicionando o usuário ao registro, o que também o adicionará ao espaço de trabalho, ou parar de adicioná-lo ao registro, o que também não o adicionará ao espaço de trabalho.
+* Como gerenciador de espaço de trabalho, você pode compartilhar um registro com um usuário que não tem permissões para o tipo de registro ou o espaço de trabalho. Nesse caso, há um aviso ao lado da entidade adicionada notificando que ela não tem acesso ao espaço de trabalho ou ao tipo de registro. <!--ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too--> Você pode continuar adicionando o usuário ao registro, o que também o adicionará ao tipo de registro e espaço de trabalho, ou cancelar o compartilhamento.
 
-* Ao compartilhar um registro com usuários que têm permissões de gerenciamento no espaço de trabalho, eles também obtêm permissões de gerenciamento para o registro por padrão. A permissão Exibir fica esmaecida.
+* Quando um usuário tem permissões de Gerenciar ou Contribuir para o espaço de trabalho e o tipo de registro e você os adiciona às permissões de registro, as permissões de Exibição ficam esmaecidas. Eles retêm as mesmas permissões para o registro que têm para o tipo de registro e não é possível conceder a eles permissões mais baixas para o registro. <!--Lilit is checking on this, it is not working correctly-->
 
-* Se não tiver permissões para adicionar pessoas ao espaço de trabalho, você só verá e adicionará usuários, equipes, grupos, funções e empresas que já foram adicionados ao espaço de trabalho. Não é possível adicionar nenhuma outra entidade que ainda não faça parte do espaço de trabalho.
+  Quando eles têm permissões de Exibição para o espaço de trabalho ou o tipo de registro, eles retêm permissões de Exibição para os registros. Você pode conceder a eles permissões Gerenciar para o registro ao desabilitar Permissões herdadas e selecionar a configuração Somente pessoas convidadas podem acessar. <!-- I think this is right, but because of the above not working, I can't test-->
 
-* Você pode desabilitar permissões herdadas para um único registro. Nesse caso, você pode conceder a eles permissões para registros individuais ou eles podem obter permissões se pertencerem à opção **Todos no espaço de trabalho podem exibir**. <!-- is this OK to say "workspace? should it be "record"??-->
+<!-- not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.-->
+
+* Você pode desabilitar permissões herdadas para um único registro. Nesse caso, você pode conceder a eles permissões para registros individuais ou eles podem obter permissões se pertencerem à opção **Todos no espaço de trabalho podem exibir**.
 
 * Se várias permissões de compartilhamento se aplicarem ao mesmo usuário, ele receberá a maior permissão dessas permissões.
 
@@ -163,7 +170,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 
 ## Compartilhar permissões de registro
 
-É possível ajustar permissões para registros individuais, se você tiver a permissão Gerenciar para o espaço de trabalho.
+Como gerenciador de espaço de trabalho, você pode ajustar permissões para registros individuais.
 
 {{step1-to-planning}}
 
@@ -173,13 +180,14 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 1. Siga um destes procedimentos:
 
    * Na exibição de tabela, passe o mouse sobre o nome de um registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) e clique em **Compartilhar**.
+   * Na exibição de tabela, selecione um registro e clique em **Compartilhar** na barra de ferramentas azul na parte inferior da lista.
    * Em qualquer exibição, clique no nome de um registro e em **Compartilhar** no canto superior direito da página de detalhes do registro.
 
    A caixa **Compartilhar** é aberta.
 
    ![Permissões para registros com permissões herdadas em](assets/permissions-for-records-with-inherited-permissions-on.png)
 
-1. (Opcional) Na área **Quem tem acesso**, a opção **Todos os usuários do espaço de trabalho podem visualizar** é selecionada por padrão.  Todos os usuários com permissões de Exibição ou superiores para o espaço de trabalho e o tipo de registro podem exibir o registro.
+1. (Opcional) Na área **Quem tem acesso**, a opção **Todos os usuários do espaço de trabalho podem visualizar** é selecionada por padrão.  Todos os usuários com permissões de **Exibição** ou superior para o espaço de trabalho e o tipo de registro têm as mesmas permissões para o registro.
 
 1. (Opcional) Clique no número de usuários na opção **Permissões herdadas** para exibir usuários, equipes, grupos, empresas ou funções de trabalho que herdam permissões do espaço de trabalho.
 
@@ -187,7 +195,7 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
    >
    >Não é possível remover entidades individuais da lista de permissões herdadas.
 
-1. (Opcional e condicional) Se quiser compartilhar o tipo de registro com entidades específicas e conceder a elas um acesso diferente ao tipo de registro do que já têm para o espaço de trabalho, faça o seguinte:
+1. (Opcional e condicional) Se quiser compartilhar o registro com entidades específicas e conceder a elas um acesso diferente ao tipo de registro do que já têm para o espaço de trabalho, faça o seguinte:
 
    1. Selecione **Desabilitar** no menu suspenso **Permissões herdadas**.
 
@@ -208,13 +216,13 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
    >[!IMPORTANT]
    >
    >* Além de equipes, grupos, empresas e funções de trabalho, você pode compartilhar somente com usuários que foram adicionados à Adobe Admin Console. Não é possível adicionar usuários somente do Workfront. Para obter informações, consulte [Gerenciar usuários na Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
-   >* Se os usuários tiverem permissões do Contribute ou do Manage para o espaço de trabalho e o tipo de registro, eles manterão permissões do Manage para o registro. A permissão Exibir fica esmaecida
-   >* Você não pode conceder aos usuários uma permissão menor para o registro se eles tiverem o Contribute ou superior.
+   >* Se os usuários tiverem permissões do Contribute ou do Manage para o espaço de trabalho e o tipo de registro, eles manterão permissões do Manage para o registro. A permissão Exibir fica esmaecida. <!--this is not dimmed at this time, Lilit to check-->
+   >* Você não pode conceder aos usuários uma permissão menor para o registro se eles tiverem o Contribute ou superior ao tipo de registro.
    > Para obter mais informações, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 1. Para conceder aos usuários que não têm permissões para o espaço de trabalho acesso para exibir um registro, no campo **Conceder acesso a este modo de exibição**, comece digitando o nome de um usuário, grupo, equipe, empresa ou função de trabalho e, em seguida, clique nele quando ele for exibido na lista.
 
-   A entidade selecionada foi adicionada ao registro e ao espaço de trabalho com permissões de **Exibição**.
+   A entidade selecionada é adicionada ao registro e também ao tipo de registro e ao espaço de trabalho com permissões de **Exibição**.
 
    Os administradores do sistema sempre recebem permissões de gerenciamento para registros compartilhados com eles, e há uma indicação de que um usuário é um administrador do sistema.
 
@@ -222,32 +230,37 @@ If the inherited permissions are disabled, the user gets the maximum of wildcard
 1. Clique em **Salvar**.
 
    O registro agora é compartilhado com outros usuários.
-   <!--Checking with Lilit on this: The users you shared the record with receive both an in-app and email notification about having given permissions to the following entities:
 
-   * The record
-   * The record type, if they never had permissions before
-   * The workspace, if they had not had permissions to the workspace before the record was shared with them. -->
+   Os usuários com os quais você compartilhou o registro recebem uma notificação no aplicativo e por email sobre a concessão de permissões para as seguintes entidades:
+
+   * O registro
+   * O tipo de registro, se eles nunca tiveram permissões antes
+   * O espaço de trabalho, se eles não tiverem tido permissões para o espaço de trabalho antes do registro ser compartilhado com eles.
+
+   Para obter informações, consulte [Notificações do Adobe Workfront Planning: índice do artigo](/help/quicksilver/planning/notifications/notifications-information.md).
 
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada. Eles devem ter permissões no tipo de registro para poder visualizá-lo. Para obter mais informações, consulte também [Compartilhar registros usando um link](/help/quicksilver/planning/records/share-records.md).
 
-## Remover permissões para um registro (**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** ISSO FOI COPIADO DOS TIPOS DE REGISTRO, ELE PRECISA SER EDITADO PARA REGISTROS, MAS AGUARDE A RESPOSTA DO SLACK DA LILIT &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**)
+## Remover permissões para um registro
 
-É possível remover permissões de usuários de um registro. No entanto, eles manterão pelo menos permissões de exibição para o espaço de trabalho do registro, o que também lhes dará pelo menos permissões de exibição para o tipo de registro. Você deve remover o acesso deles do espaço de trabalho se quiser que eles não tenham permissões para os tipos de registro no espaço de trabalho.
+É possível remover permissões de usuários de um registro. No entanto, eles manterão pelo menos permissões de Exibição no espaço de trabalho, o que também lhes dará pelo menos permissões de Exibição para o tipo de registro. Você deve remover o acesso deles do espaço de trabalho se quiser que eles não tenham permissões para os tipos de registros ou registros no espaço de trabalho.
 
 {{step1-to-planning}}
 
-1. Abra o espaço de trabalho cujos tipos de registro você deseja interromper o compartilhamento e clique em um cartão de tipo de registro. Isso abre a página do tipo de registro.
+1. Abra o espaço de trabalho cujos registros deseja interromper o compartilhamento e clique em um cartão de tipo de registro. Isso abre a página do tipo de registro.
+1. Siga um destes procedimentos:
 
-1. Na guia de qualquer modo de exibição, clique em **Compartilhar** no canto superior direito do tipo de registro.
-1. Clique em **Compartilhar o tipo de registro**.
+   * Na exibição de tabela, passe o mouse sobre o nome de um registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) e clique em **Compartilhar**.
+   * Na exibição de tabela, selecione um registro e clique em **Compartilhar** na barra de ferramentas azul na parte inferior da lista.
+   * Em qualquer exibição, clique no nome de um registro e em **Compartilhar** no canto superior direito da página de detalhes do registro.
 
    A caixa **Compartilhar** é aberta.
 1. Localize o usuário, grupo, equipe, empresa ou função de trabalho cujas permissões você deseja remover, expanda o menu suspenso de permissões à direita de seu nome e clique em **Remover**. <!--check the screen shot below - the UI text for View might not be accurate-->
 
-   ![Remover opção no menu suspenso de compartilhamento de tipo de registro](assets/remove-option-on-record-type-sharing-drop-down.png)
+   ![Remover permissões no registro](assets/remove-option-on-record-sharing-drop-down.png)
 
 1. Clique em **Salvar**.
 
-   As pessoas não têm mais as permissões indicadas para o tipo de registro. No entanto, eles ainda têm permissões para o espaço de trabalho, a menos que você também as remova das permissões do espaço de trabalho.
+   As pessoas não têm mais as permissões indicadas para o registro. No entanto, eles ainda têm permissões para o tipo de registro e o espaço de trabalho, a menos que você também os remova dessas permissões.
 
-   Não há notificação para os usuários que foram removidos do acesso à visualização de que eles não têm mais esse acesso.
+   Não há notificação para os usuários que foram removidos do acesso ao registro de que eles não têm mais essas permissões.

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 0%
+source-wordcount: '586'
+ht-degree: 1%
 
 ---
 
@@ -27,8 +27,8 @@ Você pode receber notificações por email do Workfront Planning quando os segu
 * Alguém marcar você ou suas equipes em um comentário de registro
 
   Para obter informações sobre como marcar outras pessoas em um comentário de registro, consulte [Gerenciar comentários de registro](/help/quicksilver/planning/records/manage-record-comments.md).
-* Alguém solicitar sua permissão para acessar uma visualização ou um espaço de trabalho
-* Alguém confirma que seu acesso foi concedido a uma exibição ou a um espaço de trabalho <!--Isk confirmed that there is nno email for denying access but did not test-->
+* Alguém solicitou sua permissão para acessar um modo de exibição, um espaço de trabalho ou um tipo de registro <!--or <span class="preview">or a record</span>-->
+* Alguém confirma que seu acesso foi concedido para um tipo de exibição, espaço de trabalho ou registro <!--<span class="preview">or record</span>--> <!--Isk confirmed that there is nno email for denying access but did not test-->
 * Você submete uma solicitação do Workfront Planning. Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Alguém aprovar ou rejeitar uma solicitação do Workfront Planning que você enviou. Para obter informações, consulte [Aprovar uma solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * O status é alterado para uma solicitação do Workfront Planning enviada.
@@ -160,17 +160,17 @@ A página **Notificações** é aberta no Adobe Experience Cloud. Todas as notif
 
 ## Gerenciar notificações por email ao solicitar e conceder permissões
 
-1. (Condicional e opcional) Depois que alguém solicitar ou conceder permissões para acessar uma visualização ou um espaço de trabalho, vá para o email que informa sobre a solicitação de permissão. O remetente do email é o Adobe Experience Cloud.
+1. (Condicional e opcional) Depois que alguém solicitar ou conceder permissões para acessar um tipo de objeto do Planning, vá para o email que informa sobre a solicitação de permissão. O remetente do email é o Adobe Experience Cloud.
 
 1. (Opcional) Clique na mensagem na caixa **Workfront** dentro do email.
 
-   A página de detalhes do registro é aberta no Workfront. Você pode fazer atualizações no registro ou responder ao comentário.
+   O objeto que você solicitou permissões é aberto no Workfront.
 
 1. (Condicional) Se disponível, clique em **Exibir todas as notificações**.
 A página **Notificações** é aberta no Adobe Experience Cloud. Todas as notificações de todos os aplicativos Adobe Experience Cloud são exibidas.
 
 
-Para obter informações sobre como solicitar, conceder ou negar permissões para uma exibição ou um espaço de trabalho, consulte [Solicitar permissões para uma exibição ou um espaço de trabalho](/help/quicksilver/planning/access/request-permissions.md).
+Para obter informações sobre como solicitar, conceder ou negar permissões, consulte [Solicitar permissões para uma exibição ou um espaço de trabalho](/help/quicksilver/planning/access/request-permissions.md).
 
 Para obter informações sobre como gerenciar as notificações do Workfront Planning, consulte [Gerenciar preferências de notificação do Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
 
