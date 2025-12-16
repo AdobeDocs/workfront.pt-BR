@@ -4,7 +4,7 @@ description: Melhorias nas solicitações do primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 59aa98645583fb79a5d61a248dca535a3460956f
+source-git-commit: cf4c5888f58cb51c26176eae4aa1c8e011bbecf8
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -51,7 +51,7 @@ For information on request views, including sharing, see [Create and manage view
 >[!NOTE]
 >
 >Visualização: 20 de novembro de 2025
->Lançamento rápido de produção: 14 de janeiro de 2026\
+>Versão rápida de produção: 11 de dezembro de 2026\
 >Produção para todos: 15 de janeiro de 2026
 
 Para facilitar a criação e o envio de solicitações, adicionamos a capacidade de salvar rascunhos na nova experiência de solicitação. Agora, quando você começa a preencher uma solicitação e a fecha, a solicitação é salva no status Rascunho e pode ser encontrada no formulário de solicitação usado para criar o rascunho. Em seguida, você poderá reabrir, atualizar e submeter a preliminar quando desejar.
