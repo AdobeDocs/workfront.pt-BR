@@ -3,9 +3,9 @@ title: Visão geral da hierarquia e da navegação estrutural
 description: Você pode criar várias hierarquias de espaço de trabalho entre os tipos de registro em um espaço de trabalho.
 hide: true
 hidefromtoc: true
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -45,19 +45,17 @@ Estes são os benefícios de usar hierarquias em seus espaços de trabalho:
 * É possível ter até quatro tipos de registro e objeto conectados em uma hierarquia.
 * Você pode conectar apenas os seguintes tipos de objetos em uma hierarquia de espaço de trabalho:
    * Tipos de registro que pertencem ao espaço de trabalho no qual você está criando as hierarquias.
-   * Projetos Workfront.
+   * Projetos Workfront. Projetos Workfront não podem ser adicionados como pais de outros tipos de registro. Eles são sempre o último filho em uma hierarquia.
 * Não é possível adicionar os seguintes tipos de objeto em uma hierarquia:
-   * Tipos de registro de outros espaços de trabalho, mesmo quando definidos como conectáveis ou tipos de registro globais.
+   * Tipos de registro de outros espaços de trabalho, mesmo quando definidos como conectáveis ou tipos de registro globais. Você pode adicionar tipos de registros globais a hierarquias somente quando eles tiverem sido adicionados ao espaço de trabalho no qual você está construindo a hierarquia.
    * Todos os outros objetos do Workfront.
    * AEM Assets
-* As hierarquias podem incluir tipos de registro do Planning e tipos de objeto do Workfront ao mesmo tempo.
+* As hierarquias podem incluir tipos de registro do Planning e projetos do Workfront ao mesmo tempo.
 
       Por exemplo, você pode ter um tipo de registro de Campanha com Táticas de Planejamento e Projetos Workfront como filhos na mesma hierarquia de espaço de trabalho.
   * Se uma conexão entre os tipos de registro selecionados já existir, o sistema reutilizará a conexão existente.
 * Se não houver uma conexão, o Workfront criará uma como parte da configuração da hierarquia.
-* A configuração **Criar campo correspondente no tipo de registro vinculado** deve ser ativada para o campo conectado.
-
-  Os tipos de registro com conexões que não criam um campo correspondente em seus tipos de registro vinculados também podem fazer parte de hierarquias, mas quando você cria uma nova conexão durante a configuração da hierarquia, sempre terá que criar um campo correspondente no tipo de registro vinculado.
+* A configuração **Criar campo correspondente no tipo de registro vinculado** deve ser ativada para o campo conectado para registros e objetos que você deseja incluir em uma hierarquia.
 * A seguir estão as regras para configuração de hierarquia:
    * Um tipo de registro só pode ter um tipo de registro pai em um determinado espaço de trabalho.
 
@@ -79,7 +77,7 @@ Por exemplo, a Tática A pode pertencer à Campanha X e à Campanha Y.
 
 Quando você cria hierarquias entre tipos de registro, elas geram navegações estruturais para os registros que pertencem a esses tipos de registro.
 
-Por exemplo, se você criar uma hierarquia e conectar Campanhas com Táticas, depois com Programas e, em seguida, com Projetos, ao navegar para um registro de qualquer um dos tipos conectados na hierarquia, você poderá visualizar onde o registro é colocado na hierarquia.
+Por exemplo, se você criar uma hierarquia e conectar Campanhas com Táticas, depois com Atividades e, em seguida, com Projetos, ao navegar para um registro de qualquer um dos tipos conectados na hierarquia, você poderá visualizar onde o registro é colocado na hierarquia.
 
 Considere o seguinte:
 

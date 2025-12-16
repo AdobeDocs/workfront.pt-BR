@@ -4,9 +4,9 @@ description: Como um gerenciador de espaço de trabalho, você pode criar vária
 hide: true
 hidefromtoc: true
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,10 @@ hidefromtoc: yes
 
 Como um gerenciador de espaço de trabalho, você pode criar várias hierarquias de espaço de trabalho entre os tipos de registro no Adobe Workfront Planning.
 
-Depois de conectar tipos de registro em um espaço de trabalho e criar uma hierarquia, os tipos de registro são conectados uns aos outros, com um tipo de registro designado como pai e até seis outros tipos de registro configurados como filhos. <!--asking Robert how many we can have in one hierarchy; I think 7 total but not sure-->
+
+Depois que os tipos de registro forem conectados em um espaço de trabalho, você poderá criar uma hierarquia que organiza essas conexões. As hierarquias organizam tipos de registro em relacionamentos pai-filho e podem conter até quatro níveis de tipos de objeto.
+
+Se uma conexão entre dois tipos de registro ainda não existir, ela poderá ser criada conforme você configura a hierarquia. Uma vez definida, a hierarquia estabelece um caminho estruturado entre tipos de registro relacionados no espaço de trabalho.
 
 As hierarquias gerarão navegações estruturais para os tipos de registros e registros <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> exibidos em seus cabeçalhos. Dessa forma, os usuários sabem onde estão na hierarquia em qualquer estágio do fluxo de trabalho.
 
@@ -87,8 +90,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do espaço de trabalho e clique em **Configurações**.
 A seção **Hierarquias** é aberta por padrão.
 1. Clique em **Nova hierarquia** no canto superior direito da página **Hierarquias**.
-1. Clique em **Adicionar objeto** e selecione um objeto no menu suspenso. Este será o objeto pai na sua hierarquia.
-Você pode selecionar um tipo de registro no espaço de trabalho atual ou um projeto do Workfront.
+1. Clique em **Adicionar objeto** e selecione um objeto no menu suspenso. Este será o primeiro objeto pai na sua hierarquia.
+O primeiro pai só pode ser um tipo de registro do Planning. Os projetos Workfront não podem ser selecionados como pais de outros tipos de objeto em uma hierarquia.
 1. Clique em **Adicionar objeto** para adicionar um segundo objeto que é o primeiro filho na hierarquia e, em seguida, selecione outro objeto no menu suspenso.
    ![Nova caixa de hierarquia sem campo selecionado](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
 1. Clique em **Selecionar campo conectado** para indicar qual campo conecta os dois objetos.
