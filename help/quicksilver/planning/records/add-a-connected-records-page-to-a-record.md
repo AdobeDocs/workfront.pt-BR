@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 6aba4316228a320cf33e419249a64b3cf56e8f39
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-Você pode exibir informações de registros ou objetos conectados adicionando uma guia de uma página Registros conectados a um registro. Isso adiciona os registros conectados em uma exibição de tabela à guia.
+Você pode exibir informações de registros ou objetos conectados adicionando uma guia de uma página Registros conectados a um registro no Adobe Workfront Planning. Isso adiciona os registros conectados em uma exibição de tabela à guia.
 
 Considere o seguinte ao adicionar uma página Registros conectados a um registro:
 
@@ -38,12 +38,17 @@ Considere o seguinte ao adicionar uma página Registros conectados a um registro
    * Table
    * <span class="preview">Timeline</span>
    * <span class="preview">Calendar</span>
+
+* <span class="preview">You can create one page per one object or record type. For example, you cannot create two connected record pages for connected projects or tactics.</span>
+
 -->
 
 * Você pode adicionar páginas Registros conectados para os seguintes tipos de registro ou objeto conectados:
 
    * Tipos de registro do Workfront Planning
-   * Projetos, programas, portfólios, grupos ou empresas do Workfront. Você pode visualizar os objetos conectados do Workfront mesmo quando não tem permissões para acessá-los no Workfront.
+   * Projetos Workfront
+
+     Você pode visualizar os projetos conectados do Workfront mesmo quando não tem permissões para acessá-los no Workfront.
 
 ## Requisitos de acesso
 
@@ -73,7 +78,7 @@ Considere o seguinte ao adicionar uma página Registros conectados a um registro
    <ul><li><p>Uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar o AEM Assets aos tipos de registro do Planning.</p>
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas da GenStudio</p>
-   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -98,7 +103,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 ## Adicionar uma página Registros conectados a um registro
 
-Você deve primeiro conectar tipos de registro a outros tipos de registro ou objeto antes de adicionar uma página de registros conectados a um registro.
+Você deve primeiro conectar tipos de registro a outros tipos de registro ou projetos Workfront antes de adicionar uma página de registros conectada a um registro.
 
 1. Clique no nome do registro para abri-lo a partir de qualquer exibição de uma página do tipo de registro.
 1. Clique em **Adicionar página** de uma das seguintes áreas:

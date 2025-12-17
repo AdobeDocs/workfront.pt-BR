@@ -6,7 +6,7 @@ description: O Início ajuda você a gerenciar seu trabalho. É possível person
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 4%
@@ -16,6 +16,10 @@ ht-degree: 4%
 # Introdução à Página inicial
 
 <!--Audited: 12/2023-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -66,7 +70,13 @@ Abaixo estão os 11 widgets atualmente disponíveis para escolher, bem como um r
         Exibe dois gráficos com informações sobre o tempo médio de aprovação e as decisões do documento, bem como exibições de lista de aprovações pendentes e vencidas. Você deve ter [Aprovações Unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) habilitadas para usar este widget.
 
 * **Menções**\
-    Exibe threads de comentários recentes de toda a Workfront, semelhantes à página Minhas atualizações. Você pode usar o botão responder para compor uma resposta no widget. Este widget também mostra comentários feitos sobre tarefas e problemas atribuídos a você, atribuídos a outro usuário, de sua propriedade, do qual você é o contato principal ou que você criou, desde que a tarefa ou problema tenha sido atualizado nos últimos 30 dias.
+    <!--In the Production environment, it--> Exibe threads de comentários recentes de toda a Workfront, semelhantes à página Minhas atualizações. Você pode usar o botão responder para compor uma resposta no widget. Este widget também mostra comentários feitos sobre tarefas e problemas atribuídos a você, atribuídos a outro usuário, de sua propriedade, do qual você é o contato principal ou que você criou, desde que a tarefa ou problema tenha sido atualizado nos últimos 30 dias.
+
+  <!--<div class="preview">
+
+    In the Preview environment, it displays recent comments that you made or comments where other users tagged you that have been added in the past 2 weeks. You can use the reply button to compose a reply within the widget. 
+
+    </div>-->
 
 * **Tarefas pendentes**\
     Este widget exclusivo permite adicionar itens a uma lista de verificação pessoal que você pode editar livremente. As tarefas são rastreadas como tarefas no seu projeto pessoal e permanecem por até duas semanas após a conclusão.
@@ -83,7 +93,7 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
         <td><b>Widgets padrão</b></td>
     </tr>
     <tr>
-        <td>Standard</td>
+        <td>Padrão</td>
         <td>Meus projetos, Meu trabalho, Menções, Tarefas pendentes</td>
     </tr>
     <tr>
@@ -140,7 +150,7 @@ Você pode adicionar um pouco de clarão pessoal à sua Página inicial selecion
 1. Vá para a Home page seguindo um destes procedimentos:
 
    * Se a Página inicial estiver definida como página de aterrissagem, clique no **ícone do Adobe Workfront** ![ícone do Adobe Workfront](assets/home-icon-30x29.png) no canto superior esquerdo da tela.
-   * Clique no ícone **Menu Principal** no canto superior direito da tela ou no **Ícone do** Menu Principal![Ícone do &#x200B;](assets/main-menu-icon.png) no canto superior esquerdo, se disponível, em seguida, clique em **Página Inicial**.
+   * Clique no ícone **Menu Principal** no canto superior direito da tela ou no **Ícone do** Menu Principal![Ícone do ](assets/main-menu-icon.png) no canto superior esquerdo, se disponível, em seguida, clique em **Página Inicial**.
 
 1. Clique em **Personalizar** no canto superior direito da tela.
 

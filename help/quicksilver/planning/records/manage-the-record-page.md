@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 48bfeb3b950ca1149a919aa204d77db6aa501e01
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Para obter informações, consulte os seguintes artigos:
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    </td> 
   </tr> 
   <tr>
@@ -142,9 +142,9 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
  </tbody>
 </table>-->
 
-## Considerações sobre a edição de páginas de registro
+## Considerações sobre o trabalho com páginas de registro
 
-* Por padrão, os detalhes e as páginas de visualização de um registro exibem todos os campos associados ao registro.
+* Por padrão, a página de detalhes de um registro exibe todos os campos associados ao registro.
 
 * Não é possível adicionar novos campos a um registro na página de visualização ou de detalhes. Você deve adicionar novos campos na exibição de tabela para exibi-los nas páginas de visualização e detalhes.
 
@@ -154,10 +154,17 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    * Reorganização de campos
    * Adição ou remoção de seções
+   * Adicionar ou remover páginas de registros conectados
 
 * As alterações de exibição feitas na visualização do registro ficam imediatamente visíveis na página de detalhes do registro. As alterações feitas na página de registro também estão visíveis na caixa de visualização do registro.
 
 * Adicionar uma imagem de capa ou uma miniatura a um registro não faz parte do layout geral da pré-visualização ou página do registro. É possível adicionar imagens de capa ou miniaturas exclusivas a cada registro. Para obter informações, consulte [Adicionar uma imagem de capa a um registro](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) e [Adicionar uma miniatura a um registro](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+* Você pode adicionar outras páginas dos seguintes tipos à página de um registro:
+
+   * Página de registros conectados
+
+     Para obter informações, consulte a seção [Adicionar uma página de registros conectados a um registro](#add-a-connected-records-page-to-a-record).
 
 ## Adicionar seções a uma visualização ou página de registro
 

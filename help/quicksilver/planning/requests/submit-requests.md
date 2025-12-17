@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Para obter informações sobre como um gerenciador de espaço de trabalho pode c
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -61,7 +61,7 @@ Ou
 </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Licença externa, do Colaborador, do Light ou do Standard</p> 
+   <td><p>Qualquer</p> 
   </td> 
   </tr> 
   <tr> 
