@@ -4,7 +4,7 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b12784a65f435a9e2992995f5ebe17acf11e1705
+source-git-commit: 8f126e75845e15ff5d4e0b327abcfafb1dbffd99
 workflow-type: tm+mt
 source-wordcount: '2152'
 ht-degree: 4%
@@ -280,7 +280,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Para facilitar a criação e o envio de solicitações, adicionamos a capacidade de salvar rascunhos na nova experiência de solicitação. Agora, quando você começa a preencher uma solicitação e a fecha, a solicitação é salva no status Rascunho e pode ser encontrada no formulário de solicitação usado para criar o rascunho. Em seguida, você poderá reabrir, atualizar e submeter a preliminar quando desejar. </p>
         </td>
         <td>sexta-feira, 20 de novembro de 2025</td>
-        <td>sexta-feira, 11 de dezembro de 2025</td>
+        <td>quinta-feira, 14 de janeiro de 2026</td>
         <td>sexta-feira, 15 de janeiro de 2026</td>
     </tr>  
         <tr>
@@ -289,7 +289,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Para facilitar a organização e a organizada das solicitações, adicionamos a capacidade de excluir solicitações à nova experiência de solicitação. Agora é possível excluir solicitações enviadas. Os administradores do Workfront e do Workfront Planning Workspace também podem excluir solicitações.</p>
         </td>
         <td>sexta-feira, 20 de novembro de 2025</td>
-        <td>sexta-feira, 11 de dezembro de 2025</td>
+        <td>quinta-feira, 14 de janeiro de 2026</td>
         <td>sexta-feira, 15 de janeiro de 2026</td>
     </tr>   
         <tr>
@@ -441,12 +441,12 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
