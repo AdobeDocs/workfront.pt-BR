@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: df508366dd8cd1c237ad1beffcf86bfb6392c8bb
+source-git-commit: 95ddfe6139d225527ba5539903ba8ef100589a75
 workflow-type: tm+mt
 source-wordcount: '13623'
 ht-degree: 2%
@@ -1983,7 +1983,7 @@ ht-degree: 2%
       * [Introdução à prova e à integração com o GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
       * [Introdução à prova e ao Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [Introdução à integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
-      * [Usar o Adobe Experience Manager com a integração Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
+      * [Usar o Adobe Experience Manager com a integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
    * Dicas, truques e solução de problemas para aprovações {#ttt-approvals}
       * [Dicas, truques e solução de problemas para aprovações: índice do artigo](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Exibir o número de decisões de prova e documento para todos os usuários](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
