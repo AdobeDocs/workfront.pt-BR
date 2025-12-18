@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 0%
+source-wordcount: '1871'
+ht-degree: 1%
 
 ---
 
@@ -106,7 +106,8 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 * Os registros criados ao enviar formulários de solicitação não podem ser diferenciados dos registros adicionados por meio de qualquer outro método no Workfront Planning.
 
   Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
-* As solicitações enviadas são exibidas na guia Planejamento da seção Enviado na área Solicitações do Workfront.
+* As solicitações enviadas são exibidas na área Solicitações do Workfront.
+* As solicitações de Planejamento enviadas estão visíveis somente na nova experiência de solicitação. Não é possível ver as solicitações do Planning na experiência de solicitação herdada.
 * Há limitações na forma como determinados tipos de campo são exibidos em um formulário de solicitação ou na página de detalhes da solicitação após o envio de um formulário.
 
   Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
@@ -130,19 +131,10 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
    >* Você tem acesso para exibir pelo menos um espaço de trabalho.
    >
 
-<!--Production-->
+1. Clique na barra **Que solicitação você deseja enviar** para abrir uma lista de formulários de solicitação.
+1. Selecione um formulário de solicitação na lista ou comece a digitar o nome do formulário de solicitação e selecione-o quando ele aparecer na lista.
 
-1. No ambiente de Produção, clique em **Nova solicitação**.
-
-   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
-
-   A caixa **Nova solicitação** é aberta com as seguintes informações:
-
-   * As 6 filas de solicitações do Workfront acessadas mais recentemente e os formulários de solicitação do Planning são exibidos na seção Recente.
-   * 50 outras filas de solicitações do Workfront e formulários de solicitação do Planning são exibidos em ordem alfabética na seção **Todos os formulários de solicitação**. Você pode procurar uma fila de solicitações que não é exibida por padrão.
-
-1. Selecione um formulário ou uma fila de solicitações na área Formulários de solicitação acessados recentemente, ou comece a digitar o nome do formulário ou da fila na lista, em seguida, selecione-o quando ele for exibido.
-
+   Uma janela é aberta com o nome do formulário de solicitação na parte superior.
 1. Atualize os campos disponíveis no formulário de solicitação. Os campos com um asterisco vermelho são obrigatórios.
 1. Clique em **Enviar**.
 
@@ -150,19 +142,13 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
 
    Seu formulário é enviado e os seguintes itens ocorrem:
 
-   * Se o formulário de solicitação não foi associado a uma aprovação, a solicitação é adicionada à guia Planejamento da seção Enviado da área Solicitações do Workfront e um novo registro é adicionado ao tipo de registro associado ao formulário.
+   * Se o formulário de solicitação não foi associado a uma aprovação, a solicitação é adicionada à lista Solicitações na área Solicitações do Workfront e no widget Minhas solicitações, e um novo registro é adicionado ao tipo de registro associado ao formulário.
 
-   * Se o formulário de solicitação foi associado a uma aprovação, a solicitação é adicionada à guia Planejamento da seção Enviado da área Solicitações do Workfront. Um novo registro é adicionado à página de tipo de registro somente após ser aprovado por todos os aprovadores.
+   * Se o formulário de solicitação foi associado a uma aprovação, a solicitação é adicionada à lista Solicitações na área Solicitações do Workfront e no widget Minhas solicitações. Um novo registro é adicionado à página de tipo de registro somente após ser aprovado pelos aprovadores.
 
      Para obter informações, consulte [Adicionar uma aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-     ![Área de solicitações com alternância para a guia de planejamento de fluxo de trabalho unificado](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
-
-     >[!IMPORTANT]
-     >
-     >Todos os usuários com acesso a pelo menos um espaço de trabalho podem exibir a guia Planejamento na área Solicitações. Você pode exibir somente as solicitações submetidas por você ou por qualquer outra pessoa aos espaços de trabalho para os quais você tem pelo menos permissões. Os administradores do Workfront podem exibir todas as solicitações enviadas para qualquer espaço de trabalho no sistema.
-
-   * A solicitação é visível somente para o proprietário, aprovador e pessoas que têm pelo menos permissões de Visualização no espaço de trabalho.
+   * A solicitação é visível somente para o proprietário, aprovador e pessoas que têm pelo menos permissões de Visualização no espaço de trabalho. Os administradores do Workfront podem exibir todas as solicitações enviadas para qualquer espaço de trabalho no sistema.
 
    * Você recebe uma notificação no aplicativo e uma notificação por email informando que a solicitação foi enviada com êxito ou para revisão.
    * Se o formulário de solicitação foi associado a uma aprovação, os aprovadores recebem uma notificação no aplicativo e uma notificação por email para revisar e aprovar a solicitação.
@@ -174,9 +160,6 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
      >Há um link para a solicitação na notificação de confirmação ou aprovação por email.
 
 1. (Opcional) Clique em **Exibir sua solicitação** na mensagem de confirmação para abrir a solicitação ou clique no ícone **X** para fechar a confirmação.
-
-1. (Opcional) Clique na guia **Planning** na área **Solicitações** para exibir suas solicitações.
-Todas as solicitações que você tem acesso para visualizar que foram enviadas para um formulário de solicitação do Planning são exibidas em uma lista.
 1. (Opcional) Siga qualquer um destes procedimentos:
 
    * Clique em **Filtros** e comece a adicionar condições para quais solicitações você deseja exibir na guia Planning.
@@ -243,17 +226,15 @@ A lista de solicitações é filtrada automaticamente ao adicionar as condiçõe
 
    Seu formulário é enviado e os seguintes itens ocorrem:
 
-   * Se o formulário de solicitação não foi associado a uma aprovação, a solicitação é adicionada à guia Planejamento da seção Enviado da área Solicitações do Workfront e um novo registro é adicionado ao tipo de registro associado ao formulário.
+   * Se o formulário de solicitação não foi associado a uma aprovação, a solicitação é adicionada à lista Solicitações na área Solicitações do Workfront e no widget Minhas solicitações, e um novo registro é adicionado ao tipo de registro associado ao formulário.
 
-   * Se o formulário de solicitação foi associado a uma aprovação, a solicitação é adicionada à guia Planejamento da seção Enviado da área Solicitações do Workfront. Um novo registro é adicionado à página de tipo de registro somente após ser aprovado por todos os aprovadores.
+   * Se o formulário de solicitação foi associado a uma aprovação, a solicitação é adicionada à lista Solicitações na área Solicitações do Workfront e no widget Minhas solicitações. Um novo registro é adicionado à página de tipo de registro somente após ser aprovado por todos os aprovadores.
 
      Para obter informações, consulte [Adicionar uma aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-     ![Guia Planejamento em Solicitações](assets/planning-tab-in-requests.png)
-
      >[!IMPORTANT]
      >
-     >Todos os usuários com acesso a pelo menos um espaço de trabalho podem exibir a guia Planejamento na área Solicitações. Você pode exibir somente as solicitações submetidas por você ou por qualquer outra pessoa aos espaços de trabalho para os quais você tem pelo menos permissões. Os administradores do Workfront podem exibir todas as solicitações enviadas para qualquer espaço de trabalho no sistema. <!--ensure this is correct; asking team in slack-->
+     >Você pode exibir somente as solicitações submetidas por você ou por qualquer outra pessoa aos espaços de trabalho para os quais você tem pelo menos permissões. Os administradores do Workfront podem exibir todas as solicitações enviadas para qualquer espaço de trabalho no sistema. <!--ensure this is correct; asking team in slack-->
 
    * Você recebe uma notificação no aplicativo e uma notificação por email informando que a solicitação foi enviada com êxito ou para revisão.
    * Se o formulário de solicitação foi associado a uma aprovação, os aprovadores recebem uma notificação no aplicativo e uma notificação por email para revisar e aprovar a solicitação.
@@ -262,7 +243,7 @@ A lista de solicitações é filtrada automaticamente ao adicionar as condiçõe
      >
      >As notificações por email e no aplicativo ficam visíveis somente quando a instância da Workfront da sua organização é integrada à Adobe Unified Experience.
 
-   * <span class="preview"> Depois que a solicitação foi aprovada e o registro foi criado, os campos Approved by e Approved date exibem informações sobre a aprovação no registro.</span>
+   <!-- <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 
 1. (Opcional) Clique em **Exibir sua solicitação** para abrir a solicitação no Workfront.
 
@@ -293,6 +274,24 @@ A lista de solicitações é filtrada automaticamente ao adicionar as condiçõe
 
    A página de tipo de registro é aberta no Workfront Planning.
 
+<div class="preview">
 
+## Criar uma solicitação copiando uma solicitação existente
+
+Você pode copiar uma solicitação na lista de solicitações no Workfront e, em seguida, editar os detalhes e enviá-la como uma nova solicitação.
+
+Isso está disponível somente na nova experiência de solicitação.
+
+Para obter instruções, consulte [Copiar e enviar solicitações](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+
+## Criar rascunhos e solicitações a partir de rascunhos existentes
+
+Você pode criar um rascunho de uma solicitação, voltar ao rascunho e submetê-lo posteriormente como uma solicitação.
+
+Isso está disponível somente na nova experiência de solicitação.
+
+Para obter instruções, consulte [Criar solicitações de rascunhos](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
+
+</div>
 
 

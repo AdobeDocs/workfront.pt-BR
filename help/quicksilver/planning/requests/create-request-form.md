@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: de568156315ff9094d938600c91b55e185d53765
+source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2678'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Para obter informações sobre como enviar uma solicitação a um tipo de regist
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -54,7 +54,7 @@ Ou
 </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
   </td> 
   </tr> 
   <tr> 
@@ -173,6 +173,10 @@ Os detalhes do formulário são divididos em guias.
 
 1. Comece a criar ou editar um formulário de solicitação, conforme descrito na seção [Começar a criar um formulário de solicitação](#begin-creating-a-request-form).
 
+   Ou
+
+   Localize o formulário de solicitação na lista Formulários de solicitação, clique na caixa ao lado do nome do formulário e clique em **Editar formulário** na barra azul na parte inferior da tela.
+
    O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
 
    ![Modo de edição do formulário de solicitação de campanhas](assets/campaigns-request-form-edit-mode.png)
@@ -195,8 +199,6 @@ Os detalhes do formulário são divididos em guias.
      Os campos contidos no formulário de solicitação estarão visíveis para todos que enviarem uma solicitação para esse tipo de registro.
 
 1. (Opcional) Passe o mouse sobre qualquer campo no formulário que deseja remover, em seguida, clique no ícone **x** para removê-los. Eles são adicionados à guia **Campos** à esquerda do formulário.
-
-   Por exemplo, remova o campo **Assunto**, pois ele não está visível no Workfront Planning. <!--remove this example if this becomes visible in Planning?-->
 
 1. (Opcional) Para remover a **Seção padrão** do formulário, faça o seguinte:
 
@@ -235,14 +237,13 @@ Na guia Configuração, é possível definir o processo de aprovação e configu
    O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
 1. (Opcional) Configure os detalhes do formulário, conforme descrito em [Configurar detalhes do formulário](#set-up-form-details).
 
-1. (Opcional) Clique na guia **Configuração** e adicione pelo menos um usuário ou equipe ao campo **Aprovadores** para aprovar novas solicitações para este formulário de registro.
+1. (Opcional) Se quiser adicionar aprovadores, clique na guia **Configuração** e adicione pelo menos um usuário ou equipe ao campo **Aprovadores** para aprovar novas solicitações para este formulário de registro.
 
    ![Guia Configuração](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
    * Você pode adicionar um ou vários aprovadores a um formulário de solicitação.
-   * Se você adicionar mais de um aprovador e a opção Somente uma decisão é necessária não estiver ativada, todos os aprovadores deverão aprovar a solicitação antes que o Workfront Planning crie um registro.
    * Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na guia Planejamento da seção Enviado na área Solicitações do Workfront.
    * Se você adicionar mais de um aprovador e a opção Somente uma decisão é obrigatória não estiver ativada, todos os aprovadores deverão tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
    * Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.
