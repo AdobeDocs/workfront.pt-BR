@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 3%
+source-wordcount: '467'
+ht-degree: 2%
 
 ---
 
@@ -41,8 +41,8 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | Número de caracteres de um campo de texto de linha única | 1.000 caracteres |
 | Número de caracteres para um campo de parágrafo | 10.000 caracteres |
 | Número de campos de parágrafo para um tipo de registro | Campos de 20 parágrafos |
-| Tamanho do arquivo que você pode colar em uma tabela do tipo record | 1 MB |
-| Tamanho do arquivo que você pode importar por meio da API para uma tabela de tipo de registro | 1,5 MB |
+| Tamanho do arquivo que você pode usar para importar informações em uma tabela de tipo de registro | 1 MB |
+| Tamanho do arquivo que você pode usar para importar informações em uma tabela de tipo de registro por meio da API | 1,5 MB |
 | A velocidade com a qual as solicitações de API podem ser feitas | 200 solicitações por minuto |
 | Número de visualizações que um usuário pode criar para um tipo de registro | 100 |
 | Tamanho do CSV do arquivo do Excel que você pode importar para criar tipos de registro | 5 MB |

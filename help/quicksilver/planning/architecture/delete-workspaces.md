@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -134,7 +134,12 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 {{step1-to-planning}}
 
-1. (Condicional) Se você for um administrador do Workfront, clique em **Espaços de trabalho em que estou** para acessar os espaços de trabalho que você criou ou em **Outros espaços de trabalho** para acessar os espaços de trabalho que outras pessoas compartilharam com você.
+1. (Condicional) Se você for um administrador do Workfront, clique em uma das seguintes opções:
+
+   * **Estou** no(a) espaço(s) de trabalho para acessar espaços de trabalho criados por você
+   * **Outros espaços de trabalho** para acessar espaços de trabalho que outras pessoas compartilharam com você
+Ou
+     <span class="preview">**Todos os espaços de trabalho** para acessar espaços de trabalho compartilhados com você ou com espaços de trabalho criados</span>
 
 1. (Opcional) Clique em **Mostrar tudo** para exibir espaços de trabalho adicionais. O link **Mostrar tudo** é exibido somente quando há mais de duas linhas de cartões de espaço de trabalho.
 1. (Opcional) Clique em K **Mostrar menos** para limitar o número de espaços de trabalho exibidos na tela.

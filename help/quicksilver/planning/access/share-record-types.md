@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1538'
 ht-degree: 1%
 
 ---
@@ -212,6 +212,11 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    ![Permissões para tipos de registro com permissões herdadas em](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Opcional) Na área **Quem tem acesso**, a opção **Todos os usuários do espaço de trabalho podem visualizar** é selecionada por padrão.  Todos os usuários com permissões de Exibição ou superiores para o espaço de trabalho podem exibir o tipo de registro.
+
+   >[!WARNING]
+   >
+   >Não é possível compartilhar tipos de registro com usuários individuais. Se você adicionar usuários individuais ao tipo de registro, eles também serão adicionados ao espaço de trabalho.
+
 
 1. (Opcional) Clique no número de usuários na opção **Permissões herdadas** para exibir usuários, equipes, grupos, empresas ou funções de trabalho que herdam permissões do espaço de trabalho.
 

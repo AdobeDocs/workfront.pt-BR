@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 1%
+source-wordcount: '1067'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Você pode excluir um projeto em uma lista de projetos ou no nível do projeto.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Você pode excluir um projeto em uma lista de projetos ou no nível do projeto.
   </tr> 
   <tr> 
    <td> <p>Licença do Adobe Workfront</p> </td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
    <p>Plano</p> 
    </td> 
   </tr> 
@@ -174,6 +174,34 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. Clique em **Sim, exclua**.
 
    O projeto é excluído e armazenado na Lixeira por 30 dias. O administrador do Workfront pode restaurá-lo da Lixeira durante esse período.
+
+## Excluir um projeto da página de registros conectados de um registro do Workfront Planning
+
+>[!NOTE]
+>
+>As informações nesta seção se referem ao Adobe Workfront Planning, um recurso adicional da Adobe Workfront.
+>
+>Para obter uma lista de requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Para obter informações gerais sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+Você deve ter as seguintes informações antes de poder acessar e excluir projetos de uma página de registros conectados do Workfront Planning:
+
+* Tipos de registros do Planning conectados a projetos do Workfront. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Registros de planejamento. Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
+* Uma página de registros conectados que exibe projetos conectados a um registro do Planning. Para obter informações, consulte [Adicionar uma página de registros conectados a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
+Para excluir um registro de uma página de registros conectada:
+
+1. Na página de registros conectados que exibe projetos conectados a um registro, passe o mouse sobre o nome de um projeto e clique no ícone **Mais** ícone ![Mais ícone](assets/more-icon.png)
+
+   Ou
+
+   Selecione um ou vários projetos na lista. Observe a barra azul na parte inferior da lista de projetos.
+
+1. Clique em **Excluir** e depois em **Excluir** para confirmar.
+
+   Os projetos são excluídos e colocados na lixeira do Workfront.
 
 ## Restauração de projetos excluídos
 
