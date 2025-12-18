@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: db74f7a97174ce0bca30684bc0871cca4b6ae4d9
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2890'
 ht-degree: 4%
 
 ---
@@ -39,6 +39,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [Melhorias do administrador](#administrator-enhancements)
 * [Aprimoramentos de documentos e aprovações](#documents-and-approvals-enhancements)
+* [Aprimoramentos na página inicial](#home-enhancements)
 * [Aprimoramentos de integração](#integration-enhancements)
 * [Aprimoramentos do projeto](#project-enhancements)
 * [Melhorias nos relatórios](#reporting-enhancements)
@@ -147,7 +148,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 
 
-### Aprimoramentos de integração
+### Aprimoramentos na página inicial
 
 <table style="table-layout:auto">
   <tbody>
@@ -183,7 +184,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
          <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Escolha um projeto do Workfront ao enviar uma revisão no Creative Cloud Express</a><p>![MEDALHA Fora do Cronograma]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Escolha um projeto do Workfront ao enviar uma revisão no Creative Cloud Express</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Você pode escolher um projeto do Workfront para o qual enviar uma prova. Isso ajuda a manter todos os ativos e provas relacionados organizados no mesmo projeto. </p>
         </td>
         <td>terça-feira, 15 de dezembro de 2025</td>
@@ -311,7 +312,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>   
      <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicar um relatório em um Painel da Tela</a><p>![MEDALHA Fora do Cronograma]{type=Neutral}</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Duplicar um relatório em um Painel da Tela</a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>Agora é possível duplicar um relatório de KPI, tabela ou gráfico em um Painel da tela após sua criação. Após a duplicação, é possível editar o relatório conforme necessário antes de salvar.</p>
         </td>
         <td>sexta-feira, 23 de outubro de 2025</td>
@@ -593,12 +594,12 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
