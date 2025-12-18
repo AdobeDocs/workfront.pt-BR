@@ -6,10 +6,10 @@ description: Você pode enviar solicitações no widget Minhas solicitações. V
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 59a53f7355032810a05fce2d3f0dfe30d64bbd40
+source-git-commit: 1acffcc2d3511d70fc7d0b263102335d7234e797
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 3%
+source-wordcount: '882'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,7 @@ O widget Minhas solicitações exibe solicitações que foram enviadas para sua 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,6 +98,8 @@ Para configurar o filtro no widget Minhas solicitações:
    * Status
    * Inserido por
 
+   <span class="preview">No ambiente de Pré-visualização, você também pode filtrar por quaisquer campos personalizados que tenham sido adicionados como uma coluna      para a exibição.</span>
+
 1. No campo seguinte, selecione o operador que deseja usar para essa condição de filtro. Os operadores disponíveis dependem do campo escolhido.
 1. (Condicional) Se um campo aparecer à direita do operador, selecione o valor pelo qual deseja filtrar.
 1. (Opcional) Para adicionar outra condição de filtro, clique em **Adicionar condição** e repita as etapas 4 a 6.
@@ -112,7 +114,7 @@ O filtro é salvo automaticamente.
 >* Para filtrar apenas por solicitações Workfront, defina o filtro como **Tipo de objeto** > **Tem qualquer um dos** > **Problemas**.
 >* Para filtrar apenas por solicitações do Workfront Planning, defina o filtro como **Tipo de objeto** > **Não tem nenhum de** > **Problemas**.
 
-## Ajustar colunas
+## Ajustar ou adicionar colunas
 
 Você pode escolher quais das colunas disponíveis aparecem no widget Minhas solicitações e definir sua ordem.
 
@@ -133,6 +135,9 @@ Para ajustar as colunas no widget Minhas solicitações:
 1. No widget Minhas solicitações, clique em **Colunas**.
 1. (Opcional) Para reordenar colunas, clique na alça de arrastar ![alça de arrastar](assets/drag-handle.png) da coluna que você deseja mover e arraste-a para os locais desejados. A coluna na parte superior da lista aparece no widget Minhas solicitações como a coluna mais à esquerda.
 1. (Opcional) Use o botão para controlar se uma coluna é exibida no widget Minhas solicitações.
+1. <span class="preview">Para adicionar um campo personalizado como coluna, clique no ícone **Adicionar coluna** ![Adicionar coluna](assets/add-column.png), próximo à direita da tela, e clique no ícone de adição próximo ao campo de formulário personalizado que você deseja adicionar como coluna ao widget.</span>
+
+   <span class="preview">Campos personalizados em formulários anexados ao objeto na lista estão disponíveis para serem adicionados como colunas.</span>
 
 As preferências de coluna são salvas automaticamente.
 

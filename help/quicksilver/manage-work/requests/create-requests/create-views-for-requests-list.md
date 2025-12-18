@@ -5,21 +5,22 @@ title: Criar exibições na área Solicitações
 description: Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações.
 author: Becky
 feature: Work Management
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 0%
+source-wordcount: '702'
+ht-degree: 2%
 
 ---
 
 # Criar ou editar exibições na área Solicitações
 
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações. Essas exibições incluem filtros e organização de colunas.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 
 <table style="table-layout:auto"> 
@@ -89,6 +90,21 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. (Opcional) Para renomear uma exibição, clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e clique no menu de três pontos ao lado da exibição, selecione **Renomear** e digite o novo nome da exibição.
 1. Clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e selecione o modo de exibição que deseja editar.
+1. <span class="preview">Para adicionar um campo personalizado como coluna, clique no ícone **Adicionar coluna** ![Adicionar coluna](assets/add-column.png), próximo à direita da tela, e clique no ícone de adição próximo ao campo de formulário personalizado que você deseja adicionar como coluna ao modo de exibição.</span>
+
+   <span class="preview">Campos personalizados em formulários anexados ao objeto na lista estão disponíveis para serem adicionados como colunas.</span>
+
+   >[!TIP]
+   >
+   >No momento, não é possível adicionar colunas no ambiente de produção.
+1. (Opcional) Clique em **Colunas** e oculte, exiba ou reorganize as colunas da lista de solicitações.
+
+   ![Caixa Colunas](assets/columns-editing-box-in-requests-planning-tab.png)
+
+   >[!TIP]
+   >
+   >No momento, não é possível adicionar mais nenhuma coluna no ambiente de produção.
+
 1. (Opcional) Clique em **Filtros** e comece a adicionar condições para quais solicitações você deseja exibir na guia Planning.
 
    ![Editar filtros na guia de solicitações do Planning](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -102,16 +118,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    * **Status**: o status da solicitação.
    * **Inserido por**: o nome do usuário que adicionou a solicitação. Se a solicitação foi adicionada por alguém fora do Workfront, o campo **Informado por** mostrará `N/A`.
 
+   <span class="preview">No ambiente de Visualização, você também pode filtrar por quaisquer campos personalizados que tenham sido adicionados ao modo de exibição.</span>
+
    Você pode ter vários filtros unidos por **And** ou **Or**.
 A lista de solicitações é filtrada automaticamente ao adicionar as condições de filtro.
 
-1. (Opcional) Clique em **Colunas** e oculte, exiba ou reorganize as colunas da lista de solicitações.
 
-   ![Caixa Colunas](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >Não é possível adicionar mais colunas.
 
 >[!IMPORTANT]
 >
