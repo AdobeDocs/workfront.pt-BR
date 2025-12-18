@@ -6,20 +6,22 @@ description: Um relatório de gráfico que visualiza seus dados como um gráfico
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: bb65fa45f6fce762920627ad0fb6fd1d832f23a3
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 0%
+source-wordcount: '1713'
+ht-degree: 1%
 
 ---
 
 # Criar um relatório de gráfico em um painel da tela
 
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Visualização para todos os clientes.</span>
+
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->&#x200B;>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -31,7 +33,7 @@ Você pode criar e adicionar um relatório de gráfico a um Painel da Tela de Pi
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -48,7 +50,7 @@ Você pode criar e adicionar um relatório de gráfico a um Painel da Tela de Pi
  <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td> 
-<p>Standard</p> 
+<p>Padrão</p> 
 <p>Plano</p> 
    </td> 
    </tr> 
@@ -99,48 +101,90 @@ Há muitas opções de configuração disponíveis para criar um relatório de g
       >[!NOTE]
       >
       >É possível exibir um número máximo de 60 séries em um gráfico. Quando esta caixa estiver marcada, todas as séries acima do limite serão consolidadas em um agrupamento **Outro** no gráfico.
+1. Escolha o tipo de gráfico que deseja criar:
+   * [Gráfico de barras, colunas ou linhas](#bar-column-or-line-chart)
+   * [Gráfico de pizza](#pie-chart)
 
-1. Siga as etapas abaixo para configurar a seção **Criar gráfico**:
+### Gráfico de barras, colunas ou linhas
 
-   1. No painel esquerdo, clique no ícone **Criar gráfico** ![Criar gráfico](assets/build-chart-icon.png).
+>[!NOTE]
+>
+>Pode haver campos adicionais dependendo do tipo de campo selecionado. As opções descritas abaixo são padrão para todos os tipos de campo.
 
-   1. No menu suspenso **Tipo de gráfico**, selecione o tipo de gráfico que deseja criar:
 
-      * **Barra**
-      * **Coluna**
-      * **Linha**
-      * **Pizza**
+1. No painel esquerdo, clique no ícone **Criar gráfico** ![Criar gráfico](assets/build-chart-icon.png).
 
-   1. No menu suspenso **Tipo de coluna**, selecione o tipo de coluna:
-      * **Simples**
-      * **Várias séries**
-      * **Empilhado**
+1. No menu suspenso **Tipo de gráfico**, selecione **Barra**, **Coluna** ou **Linha**.
+1. No segundo menu suspenso, selecione o tipo de barra, coluna ou linha:
+   * **Simples**
+   * **Várias séries**
+   * **Empilhado**
 
-   1. Selecione o botão **Atualizar campo** na primeira seção, localize e selecione o campo que contém os dados que serão resumidos no gráfico.
-   1. No menu suspenso **Tipo de agregação**, selecione como os dados são acumulados para produzir a saída do gráfico.
+1. Na seção **Eixo inferior (X)**, selecione o **Atualizar campo**, localize e selecione o campo que contém os dados que serão resumidos no gráfico.
+1. No menu suspenso **Tipo de agregação**, selecione como os dados são acumulados para produzir a saída do gráfico.
+1. <span class="preview">(Opcional) Adicione um rótulo de eixo no espaço fornecido.</span>
+1. <span class="preview"> (Opcional) Alternar **Ocultar eixo** em. </span>
+1. <span class="preview">(Opcional) Insira um **Valor da linha de referência** para definir um destino ou limite no gráfico.</span>
+1. Escolha um **Tipo de linha** no menu suspenso.
+1. Selecione o botão **Atualizar campo** na segunda seção, localize e selecione o segundo campo que deseja exibir no gráfico.
 
-   1. Selecione o botão **Atualizar campo** na segunda seção, localize e selecione o segundo campo que deseja exibir no gráfico.
 
-1. Siga as etapas abaixo para configurar a seção **Filtro**:
+### Gráfico de pizza
 
-   1. No painel esquerdo, clique no ícone **Filtro**![&#x200B; Filtro](assets/filter-icon.png).
-   1. Selecione **Editar filtro**.
-   1. Clique em **Adicionar condição** e especifique o campo pelo qual deseja filtrar e o modificador que define o tipo de condição que o campo deve atender.
-   1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.
+>[!NOTE]
+>
+>Pode haver campos adicionais dependendo do tipo de campo selecionado. As opções descritas abaixo são padrão para todos os tipos de campo.
 
-1. Siga as etapas abaixo para configurar a seção **Configurações de Coluna de Detalhamento**:
 
-   1. No painel esquerdo, clique no ícone **Colunas de Detalhamento** ![Colunas de Detalhamento](assets/drilldown-column.png). Os campos do gráfico aparecem automaticamente como colunas na seção de visualização à direita.
+1. No painel esquerdo, clique no ícone **Criar gráfico** ![Criar gráfico](assets/build-chart-icon.png).
 
-   1. (Opcional) Para atualizar qualquer uma das configurações de coluna existentes, selecione a coluna que deseja atualizar na seção **Colunas atuais** e atualize as informações desejadas (por exemplo, rótulo, status vinculado e condições).
+1. No menu suspenso **Tipo de gráfico**, selecione **Barra**.
+1. Na seção **Métrica**, selecione o **Atualizar campo**, localize e selecione o campo que contém os dados que serão resumidos no gráfico.
+1. No menu suspenso **Tipo de agregação**, selecione como os dados são acumulados para produzir a saída do gráfico.
+1. Na seção **Segmento**, selecione o **Atualizar campo**, localize e selecione o campo que contém os segmentos que deseja exibir no gráfico de pizza.
+1. <span class="preview"> (Opcional) Na seção **Pizza**, alterne **Mostrar rótulos de segmentos** para exibir rótulos de segmentos.</span>
+1. <span class="preview"> (Opcional) Ative **Mostrar total** para exibir o total no meio do gráfico. Quando habilitado, há opções adicionais para mostrar um rótulo central e escolher o formato do valor.</span>
 
-   1. Clique em **Adicionar coluna** e selecione o campo que deseja exibir como uma coluna na tabela. Repita esse processo para cada coluna que deseja adicionar.
+>[!NOTE]
+>
+>Os tipos de agregação são exibidos da seguinte maneira:
+>
+>* Tipos de agregação de contagem: o valor central exibido é uma contagem de todos os segmentos do gráfico.
+>* Sum aggregation types: o valor central exibido é o total agregado do valor numérico ou de moeda.
+>* Tipos de agregação média, máxima e mínima: O valor central exibe o valor médio, máximo ou mínimo adequadamente.
 
-1. Siga as etapas abaixo para configurar a seção **Configurações do Grupo de Detalhamento**:
+1. <span class="preview">(Opcional) Na seção Legenda, alterne **Mostrar legenda** para exibir a legenda do gráfico.</span>
 
-   1. No painel esquerdo, clique no ícone **Configurações de grupo** ![Configurações de grupo](assets/drilldown-group-icon.png).
+1. <span class="preview"> (Opcional) Escolha uma **Posição da legenda** no menu suspenso.</span>
 
-   1. Clique no botão **Adicionar agrupamento** e selecione o campo que deseja criar como agrupamento.
+## Definir configurações adicionais de relatório de gráfico
+
+### Filtros
+
+Siga as etapas abaixo para configurar a seção **Filtro**:
+
+1. No painel esquerdo, clique no ícone **Filtro**![ Filtro](assets/filter-icon.png).
+1. Selecione **Editar filtro**.
+1. Clique em **Adicionar condição** e especifique o campo pelo qual deseja filtrar e o modificador que define o tipo de condição que o campo deve atender.
+1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.
+
+### Configurações de detalhamento
+
+Siga as etapas abaixo para configurar a seção **Configurações de Coluna de Detalhamento**:
+
+1. No painel esquerdo, clique no ícone **Colunas de Detalhamento** ![Colunas de Detalhamento](assets/drilldown-column.png). Os campos do gráfico aparecem automaticamente como colunas na seção de visualização à direita.
+
+1. (Opcional) Para atualizar qualquer uma das configurações de coluna existentes, selecione a coluna que deseja atualizar na seção **Colunas atuais** e atualize as informações desejadas (por exemplo, rótulo, status vinculado e condições).
+
+1. Clique em **Adicionar coluna** e selecione o campo que deseja exibir como uma coluna na tabela. Repita esse processo para cada coluna que deseja adicionar.
+
+### Configurações do grupo de detalhamento
+
+Siga as etapas abaixo para configurar a seção **Configurações do Grupo de Detalhamento**:
+
+1. No painel esquerdo, clique no ícone **Configurações de grupo** ![Configurações de grupo](assets/drilldown-group-icon.png).
+
+1. Clique no botão **Adicionar agrupamento** e selecione o campo que deseja criar como agrupamento.
 
 1. Clique em **Salvar** para criar o relatório e adicioná-lo ao painel.
 
