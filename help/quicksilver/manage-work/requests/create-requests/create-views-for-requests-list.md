@@ -1,22 +1,28 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Criar exibições na área Solicitações
+title: Criar e gerenciar exibições na área Solicitações
 description: Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações.
 author: Becky
 feature: Work Management
-source-git-commit: d2e938cabc5123a89335a42ed06bccaa77fcad83
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '1004'
 ht-degree: 2%
 
 ---
 
-# Criar ou editar exibições na área Solicitações
+# Criar e gerenciar exibições na área Solicitações
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações. Essas exibições incluem filtros e organização de colunas.
+
+As exibições podem ser criadas e gerenciadas na área Solicitações do Workfront e no widget Minhas solicitações na Página inicial. As configurações de exibição são preservadas entre a área Solicitações e o widget.
+
+>[!IMPORTANT]
+>
+>Essa funcionalidade está disponível somente na nova experiência de solicitação.
 
 ## Requisitos de acesso
 
@@ -55,18 +61,18 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Criar uma visualização na área Solicitações
 
-{{step1-to-requests}}
+Você pode criar uma visualização na área Solicitações do Workfront ou no widget Minhas solicitações na Página inicial.
 
-1. (Opcional e condicional) Selecione a configuração **Alternar para nova experiência** no canto superior direito da tela se os seguintes itens se aplicarem à sua organização e instância do Workfront:
+1. Para acessar a lista Solicitações, clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Solicitações]**.
 
-   * Sua organização adquiriu um pacote do Workfront
-   * Sua organização foi integrada à Adobe Unified Experience.
-   * Seu administrador concedeu acesso ao Workfront Planning
-   * Você tem pelo menos permissões de exibição para um espaço de trabalho do Workfront Planning
+1. Para acessar o widget Minhas solicitações na Página inicial:
 
-   Para obter mais informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md)
+   1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Início]**.
+   1. Localize o widget Minhas solicitações.
 
-1. Clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e selecione **Nova exibição**.
+      Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Na lista Solicitações ou no widget Minhas solicitações, clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e selecione **Nova exibição**.
 
    ![Nova exibição](assets/create-new-view.png)
 
@@ -77,16 +83,16 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 É possível editar visualizações existentes, incluindo aquelas que você acabou de criar.
 
-{{step1-to-requests}}
+1. Para acessar a lista Solicitações, clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Solicitações]**.
 
-1. (Opcional e condicional) Selecione a configuração **Alternar para nova experiência** no canto superior direito da tela se os seguintes itens se aplicarem à sua organização e instância do Workfront:
+1. Para acessar o widget Minhas solicitações na Página inicial:
 
-   * Sua organização adquiriu um pacote do Workfront
-   * Sua organização foi integrada à Adobe Unified Experience.
-   * Seu administrador concedeu acesso ao Workfront Planning
-   * Você tem pelo menos permissões de exibição para um espaço de trabalho do Workfront Planning
+   1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Início]**.
+   1. Localize o widget Minhas solicitações.
 
-   Para obter mais informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md)1.
+      Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Na lista Solicitações ou no widget Minhas solicitações, localize a exibição que você deseja editar.
 
 1. (Opcional) Para renomear uma exibição, clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e clique no menu de três pontos ao lado da exibição, selecione **Renomear** e digite o novo nome da exibição.
 1. Clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e selecione o modo de exibição que deseja editar.
@@ -135,3 +141,23 @@ A lista de solicitações é filtrada automaticamente ao adicionar as condiçõe
 Um administrador do Workfront pode adicionar a nova visualização aos modelos de layout.
 
 Para obter instruções, consulte [Personalizar filtros, exibições e agrupamentos usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+
+## Compartilhar uma exibição
+
+Você pode compartilhar visualizações criadas com outros usuários, equipes ou grupos.
+
+1. Para acessar a lista Solicitações, clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Solicitações]**.
+
+1. Para acessar o widget Minhas solicitações na Página inicial:
+
+   1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Início]**.
+   1. Localize o widget Minhas solicitações.
+
+      Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Na lista Solicitações ou no widget Minhas solicitações, localize a exibição que você deseja compartilhar.
+1. Passe o mouse sobre a exibição que deseja compartilhar e clique no menu de três pontos quando ele aparecer.
+1. Selecione **Compartilhar**.
+1. Na caixa de diálogo que é aberta, digite os nomes dos usuários, equipes ou grupos com os quais deseja compartilhar a exibição e selecione-os na lista quando eles forem exibidos.
+1. Clique em **Salvar**.
+

@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 95ddfe6139d225527ba5539903ba8ef100589a75
+source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
 workflow-type: tm+mt
-source-wordcount: '13623'
+source-wordcount: '13625'
 ht-degree: 2%
 
 ---
@@ -1497,8 +1497,8 @@ ht-degree: 2%
          * [Excluir uma solicitação enviada ou rascunho de solicitação](manage-work/requests/create-requests/delete-request-draft.md)
          * [Copiar e enviar solicitações](manage-work/requests/create-requests/copy-and-submit-requests.md)
          * [Preencher automaticamente uma solicitação a partir de dados anteriores](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+         * [Criar e gerenciar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
          * [Use o Preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
-         * [Criar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
    * Delegar trabalho {#delegate-work}
       * [Delegar trabalho](manage-work/delegate-work/delegate-work.md)
       * [Delegar visão geral de tarefas e problemas](manage-work/delegate-work/delegate-work-overview.md)
