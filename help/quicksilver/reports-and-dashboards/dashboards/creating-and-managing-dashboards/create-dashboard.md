@@ -6,10 +6,10 @@ description: Você pode criar painéis para acessar informações rapidamente no
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 1%
+source-wordcount: '549'
+ht-degree: 4%
 
 ---
 
@@ -17,13 +17,16 @@ ht-degree: 1%
 
 <!--Audited: 01/2025-->
 
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Visualização para todos os clientes.</span>
+
+
 Você pode criar painéis para acessar informações rapidamente no Adobe Workfront. Até 25 relatórios, calendários e páginas externas podem ser adicionados a painéis que podem ser compartilhados com outras pessoas para colaboração ideal.
 
 Para saber mais sobre painéis, consulte [Introdução aos painéis](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +39,7 @@ Para saber mais sobre painéis, consulte [Introdução aos painéis](../../../re
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-      <p>Standard</p>
+      <p>Padrão</p>
       <p>Plano</p>
    </td> 
   </tr> 
@@ -85,6 +88,11 @@ Você pode adicionar páginas externas existentes a um painel ou criar uma a par
      <tr>
       <td role="rowheader"><strong>Descrição (opcional)</strong></td>
       <td>Esta é uma descrição do seu painel.</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>Moeda</strong></td>
+      <td><span class="preview">Esse é o tipo de moeda padrão para o painel. <br>
+      <br>Os usuários podem alternar entre diferentes tipos de moeda ao filtrar o painel. Para obter mais informações, consulte <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrar um painel por tipo de moeda</a>.</span></td>
      </tr>
     </tbody>
    </table>

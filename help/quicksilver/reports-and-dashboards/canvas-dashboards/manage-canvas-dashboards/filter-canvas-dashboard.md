@@ -6,20 +6,22 @@ description: Você pode aplicar um filtro a um Painel da tela de desenho depois 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 0%
+source-wordcount: '1013'
+ht-degree: 1%
 
 ---
 
 # Filtrar um painel da tela
 
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Visualização para todos os clientes.</span>
+
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->&#x200B;>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -30,7 +32,7 @@ ht-degree: 0%
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -47,7 +49,7 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td> 
-<p>Standard</p> 
+<p>Padrão</p> 
 <p>Plano</p> 
    </td> 
    </tr> 
@@ -177,3 +179,22 @@ Todos os usuários com acesso a um painel podem aplicar um prompt de painel a um
    ![Selecionar condição](assets/prompts-list.png)
 
 1. Clique no ícone **Fechar** ![Ícone Fechar](assets/close-icon.png) no canto superior direito para ocultar o painel.
+
+<span class="preview">
+
+## Filtrar um painel por tipo de moeda
+
+Você pode alternar entre diferentes tipos de moeda no nível do painel. Os relatórios que contêm campos de moeda serão atualizados para refletir o tipo de moeda selecionado.
+
+>[!NOTE]
+>
+>Os campos de moeda podem ser bloqueados no nível do relatório. Se um campo de moeda estiver bloqueado, o tipo de moeda para esse relatório não será alterado quando você alterar o tipo de moeda para o painel.
+
+Para alterar o tipo de moeda do painel,
+
+1. Clique no menu suspenso currency no canto superior direito da página de detalhes do painel.
+1. Selecione o tipo de moeda desejado na lista.
+
+   ![alterar lista suspensa de moedas](assets/filter-by-currency.png)
+
+</span>

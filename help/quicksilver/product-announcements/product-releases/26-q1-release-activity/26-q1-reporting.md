@@ -4,9 +4,9 @@ description: Melhorias na geração de relatórios no primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
+source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -17,39 +17,35 @@ Esta página descreve os aprimoramentos de relatórios feitos com a versão do p
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2026, consulte [Visão geral da versão do Primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-<!--
 
-## Currency updates in Canvas Dashboards
 
->[!NOTE]
->
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
-
-We have made the following updates for currency fields:
-
-* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
-
-* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
-
-* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
-
--->
-
-<!--
-
-## Quick search table results in Canvas Dashboards
+## Atualizações de moeda em Painéis do Canvas
 
 >[!NOTE]
 >
->Preview: December 18, 2025 
->Production fast release: January 14, 2026 
->Production for everyone: January 15, 2026 
+>Visualização: 18 de dezembro de 2025
+>Lançamento rápido de produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
 
-We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
+Fizemos as seguintes atualizações para os campos de moeda:
 
--->
+* Quando várias moedas são definidas no Workfront, agora é possível escolher uma moeda padrão para o painel durante a criação.
+
+* Ao criar um relatório, você pode bloquear um campo de moeda. Isso garante que a preferência de moeda no nível do painel não afete a exibição desses valores.
+
+* Ao visualizar um painel, os usuários podem alternar entre qualquer moeda definida no Workfront. Essas alterações se aplicam a todo o painel de controle, com exceção dos campos de moeda bloqueados.
+
+
+## Resultados da tabela de pesquisa rápida em Painéis do Canvas
+
+>[!NOTE]
+>
+>Visualização: 18 de dezembro de 2025
+>Lançamento rápido de produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
+
+Adicionamos uma pesquisa rápida aos Relatórios de tabela. Essa pesquisa funciona em todas as páginas, para que você possa encontrar dados mesmo que não estejam visíveis no momento.
+
 
 ## Nova opção Mostrar total para Gráficos de Pizza
 
