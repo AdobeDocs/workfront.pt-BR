@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,12 @@ Os aprovadores recebem as seguintes notificações sobre uma solicitação pende
 >
 >A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para que os usuários possam receber notificações por email e no aplicativo.
 
-Para aprovar uma solicitação:
+Você pode aprovar solicitações para criar registros a partir da própria solicitação, <span class="preview">ou do widget Minhas aprovações na Página inicial.</span>
+
+* [Aprovar uma solicitação da solicitação no Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
+* [Aprovar uma solicitação do widget Minhas aprovações na Página inicial](#approve-a-request-from-the-my-approvals-widget-in-home)
+
+### Aprovar uma solicitação da solicitação no Workfront Planning
 
 1. (Condicional) Se você estiver usando a experiência de solicitação herdada no Workfront, abra a solicitação seguindo um destes procedimentos:
 
@@ -128,3 +133,31 @@ Para aprovar uma solicitação:
    * **Rejeitada**: a solicitação foi rejeitada.
 
    A solicitação permanece na guia Planejamento da seção Enviado na área Solicitações do Workfront.
+
+<div class="preview">
+
+### Aprovar uma solicitação do widget Minhas aprovações na Página inicial
+
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Início]**.
+
+   Ou
+
+   Clique no ícone [!UICONTROL Página inicial] ![Ícone da página inicial](/help/_includes/assets/home-icon-30x29.png), no canto superior esquerdo do Adobe Workfront.
+
+1. Localize o objeto que deseja aprovar ou rejeitar.
+
+1. (Opcional) Adicione um comentário clicando na seta suspensa ao lado de Aprovar ou Rejeitar, digitando a nota e clicando em Adicionar.
+
+1. Escolha uma das seguintes opções:
+
+   * **Aprovar**: aprova a solicitação. Um registro é criado imediatamente para o tipo de registro associado ao formulário de solicitação depois que todos os aprovadores aprovam a solicitação.
+   * **Rejeitar**: rejeita a solicitação, mesmo quando você é o único aprovador que a rejeita. Nenhum registro é criado para o tipo de registro associado ao formulário de solicitação.
+
+   O usuário que enviou a solicitação recebe notificações por email e por aplicativo quando a solicitação é aprovada ou rejeitada.
+
+   O status da solicitação muda para o seguinte, dependendo da decisão de aprovação:
+
+   * **Concluída**: a solicitação foi aprovada.
+   * **Rejeitada**: a solicitação foi rejeitada.
+
+</div>

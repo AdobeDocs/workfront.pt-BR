@@ -6,14 +6,16 @@ description: Os processos de aprovação oferecem flexibilidade para criar aprov
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 0%
+source-wordcount: '752'
+ht-degree: 2%
 
 ---
 
 # Exibir aprovações
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Os processos de aprovação oferecem flexibilidade para criar aprovações em várias etapas para projetos, tarefas e problemas. Os administradores do Adobe Workfront definem processos de aprovação para oferecer consistência em todo o sistema.
 
@@ -23,7 +25,7 @@ Para obter informações sobre como associar aprovações ao trabalho no Workfro
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,7 +65,7 @@ Você pode exibir ou gerenciar aprovações das seguintes áreas:
 
 * Na área Início
 
-   * Todos os projetos, tarefas, problemas, folhas de horas, documentos e acessos que aguardam sua aprovação são exibidos no widget Minhas aprovações na área Página inicial.
+   * Todos os projetos, tarefas, problemas, folhas de horas, documentos, acessos e <span class="preview">solicitações do Workfront Planning</span> aguardando sua aprovação são exibidos no widget Minhas aprovações, na área Página inicial.
    * As aprovações enviadas por você mesmo também são exibidas no widget Minhas aprovações na área Página inicial, ao escolher a opção de filtro Aprovações enviadas. Para obter mais informações, consulte a seção [Revisar trabalho enviado para aprovação na área Página inicial](#review-work-you-submit-for-approval-in-the-home-area) neste artigo.
    * As aprovações são removidas do widget Minhas aprovações na área Página inicial quando o projeto, tarefa ou problema associado é marcado como Resolvido, Em espera, Fechado ou Cancelado.
 
