@@ -6,10 +6,10 @@ description: Você pode excluir solicitações enviadas ou solicitar rascunhos.
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 8b08336431d2e4ebfcb078d8329f8748fac66eda
+source-git-commit: d87df92f548b19901374e982d1759efade644e17
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 0%
+source-wordcount: '772'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ Para obter informações, consulte:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -74,7 +74,7 @@ Você pode excluir solicitações na área Solicitações do Workfront ou no wid
 * Os administradores do espaço de trabalho do Workfront Planning podem excluir solicitações <!--and drafts--> no espaço de trabalho do Planning que administram.
 * Os usuários podem excluir as solicitações <!--and drafts--> que enviaram.
 
-Para excluir uma solicitação ou rascunho na nova experiência de solicitação:
+### Excluir uma solicitação do menu de três pontos
 
 1. Para acessar a lista Solicitações, clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Solicitações]**.
 
@@ -103,6 +103,24 @@ Para excluir uma solicitação ou rascunho na nova experiência de solicitação
 1. Na caixa de diálogo que é aberta, clique em **Excluir**.
 
    A solicitação <!--or draft--> foi excluída.
+
+### Solicitações de exclusão em massa
+
+1. Para acessar a lista Solicitações, clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Solicitações]**.
+
+1. Para acessar o widget Minhas solicitações na Página inicial:
+
+   1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Início]**.
+   1. Localize o widget Minhas solicitações.
+
+      Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Na lista Solicitações ou no widget Minhas solicitações, clique na caixa à esquerda de cada solicitação que você deseja excluir.
+1. Na barra azul na parte inferior da página, clique em **Excluir**.
+
+   >[!NOTE]
+   >
+   >Se a opção Excluir não estiver visível na barra azul, você não terá permissão para excluir uma ou mais solicitações selecionadas.
 
 </div>
 
