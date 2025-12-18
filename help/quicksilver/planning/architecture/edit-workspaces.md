@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Editar espaços de trabalho
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -54,7 +54,7 @@ Ou
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    </td> 
   </tr> 
   <tr> 
@@ -125,22 +125,24 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 </tbody> 
 </table> -->
 
-
 ## Editar um espaço de trabalho
 
 {{step1-to-planning}}
 
-1. (Condicional) Se você for um administrador do Workfront, clique em **Espaços de trabalho em que estou** para acessar os espaços de trabalho que você criou ou em **Outros espaços de trabalho** para acessar os espaços de trabalho que outras pessoas compartilharam com você.
+1. (Condicional) Se você for um administrador do Workfront, clique em uma das seguintes opções:
 
-<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******-->
+   * **Estou** no(a) espaço(s) de trabalho para acessar espaços de trabalho criados por você
+   * **Outros espaços de trabalho** para acessar espaços de trabalho que outras pessoas compartilharam com você
+Ou
+     <span class="preview">**Todos os espaços de trabalho** para acessar espaços de trabalho compartilhados com você ou com espaços de trabalho criados</span>
 
 1. (Opcional) Clique em **Mostrar tudo** para exibir espaços de trabalho adicionais. O link **Mostrar tudo** é exibido somente quando há mais de duas linhas de cartões de espaço de trabalho.
 1. (Opcional) Clique em K **Mostrar menos** para limitar o número de espaços de trabalho exibidos na tela.
 1. Para editar um espaço de trabalho, siga um destes procedimentos:
 
    * Passe o mouse sobre o cartão de espaço de trabalho e clique no menu **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito do cartão
-Ou <!--Add this to the next bullet: <span class="preview"> Search for a workspace by name and</span>-->
-   * Clique em um cartão de espaço de trabalho para abrir o espaço de trabalho e no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do espaço de trabalho.
+Ou
+   * <span class="preview"> Clique no ícone **pesquisar** ![ícone Pesquisar](assets/search-icon.png) no canto superior direito da página Espaços de Trabalho para procurar um espaço de trabalho por nome</span>, clique em um cartão de espaço de trabalho para abrir o espaço de trabalho e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do espaço de trabalho.
 1. Clique em **Editar**.
 
    A caixa **Editar espaço de trabalho** é exibida.

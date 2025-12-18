@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 2%
 
 ---
 
 
 # Excluir espaços de trabalho
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -52,7 +52,7 @@ Ou
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    </td> 
   </tr> 
   <tr> 
@@ -141,8 +141,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 1. Para deletar um espaço de trabalho, siga um destes procedimentos:
 
    * Passe o mouse sobre o cartão de espaço de trabalho e clique no menu **Mais** ![Mais menu](assets/more-menu.png) no canto superior direito do cartão
-Ou <!--Add this to the bullet below: <span class="preview">Search for a workspace by name and </span>-->
-   * Clique em um cartão de espaço de trabalho para abrir o espaço de trabalho e no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do espaço de trabalho.
+Ou
+   * <span class="preview"> Clique no ícone **pesquisar** ![ícone Pesquisar](assets/search-icon.png) no canto superior direito da página Espaços de Trabalho para procurar um espaço de trabalho por nome</span>, clique em um cartão de espaço de trabalho para abrir o espaço de trabalho e clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do espaço de trabalho.
 1. Clique em **Excluir**.
 
    ![Excluir permanentemente a confirmação do espaço de trabalho](assets/permanently-delete-workspace-confirmation.png)
@@ -150,3 +150,5 @@ Ou <!--Add this to the bullet below: <span class="preview">Search for a workspac
 1. Digite &quot;**delete**&quot; no espaço fornecido e clique em **Excluir permanentemente**. Isso não diferencia maiúsculas de minúsculas.
 
    O espaço de trabalho foi excluído e não pode ser recuperado. Quaisquer tipos de registro, registros, campos e exibições associados a eles também são excluídos. <!--ensure this is right at or before GA-->
+
+

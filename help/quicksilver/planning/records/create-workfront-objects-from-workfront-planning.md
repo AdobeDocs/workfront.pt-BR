@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 1%
+source-wordcount: '1267'
+ht-degree: 2%
 
 ---
 
@@ -60,7 +60,7 @@ Considere o seguinte ao conectar e criar objetos do Workfront aos registros do W
 
    * A exibição de tabela de um tipo de registro
    * A área Detalhes de um registro no campo de conexão
-   * A página Registro conectado de um registro, na área Detalhes
+   * A página de registro Conectado de um registro
 
 * Você pode criar portfólios e programas das seguintes áreas do Workfront Planning:
 
@@ -92,7 +92,7 @@ Para obter informações sobre como conectar registros do Planning a objetos do 
 <tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    </td> 
   </tr> 
   <tr> 
