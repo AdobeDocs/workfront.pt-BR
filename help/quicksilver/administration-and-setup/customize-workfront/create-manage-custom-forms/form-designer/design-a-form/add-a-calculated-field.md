@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: e95701bdce2388f7f2b249b1fbf5b27d0ded08af
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 0%
+source-wordcount: '2506'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +47,7 @@ Um campo personalizado calculado pode conter:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +59,7 @@ Um campo personalizado calculado pode conter:
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   <tr> 
@@ -107,6 +107,10 @@ Para reutilizar um campo personalizado calculado existente:
    ![Biblioteca de campos](assets/field-library.png)
 
 1. Use a caixa de pesquisa ou expanda a seção **Calculado** para localizar o campo calculado necessário e, em seguida, arraste o campo onde deseja que ele apareça no formulário personalizado.
+
+1. <span class="preview">(Condicional) Clique em **Verificar se há conflitos** para revisar todos os objetos que podem ser afetados pela alteração da fórmula neste campo calculado.</span>
+
+   <span class="preview">Se dois ou mais formulários contendo o mesmo campo calculado forem anexados a um objeto, as fórmulas deverão ser idênticas em todos os formulários. A edição da fórmula não é permitida se a alteração puder causar um conflito.</span>
 
 1. (Opcional) Repita a etapa anterior para adicionar outros campos.
 
@@ -284,7 +288,7 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
            >
            ><div>Em um formulário personalizado anexado a um objeto, os demonstrativos de data e hora em campos personalizados calculados são calculados e salvos pelo Tempo universal coordenado (UTC), não pelas configurações de fuso horário definidas para a instância da organização e o perfil do usuário. Os cálculos em um formulário personalizado são gerados com base nos fusos horários individuais de cada usuário.</div>
 
-      +++
+        +++
 
    1. Clique na caixa de texto grande e, em seguida, clique em **Expressões** e **Campos** disponíveis para adicioná-los ao cálculo.
 
