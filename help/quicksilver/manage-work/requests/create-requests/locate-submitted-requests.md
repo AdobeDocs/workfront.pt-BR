@@ -8,15 +8,16 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ebdb1803fe57386a84d3d882b02a53ec4344b225
+source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1309'
 ht-degree: 2%
 
 ---
 
 # Localizar solicitações enviadas
 
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Você pode localizar os seguintes tipos de solicitações que você ou outra pessoa submeteu ou as solicitações que você iniciou, mas que nunca terminou de submeter. Você pode localizar essas solicitações nas seguintes áreas do Adobe Workfront:
 
@@ -71,11 +72,16 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Localizar solicitações enviadas
+## Localizar solicitações enviadas na área Solicitações
 
 A localização de solicitações enviadas difere de acordo com o uso da experiência de solicitação nova ou herdada.
 
+* [Localizar solicitações enviadas na nova experiência de solicitação](#locate-submitted-requests-in-the-new-requesting-experience)
+* [Localizar solicitações enviadas na experiência herdada de solicitação](#locate-submitted-requests-in-the-legacy-requesting-experience)
+
 ### Localizar solicitações enviadas na nova experiência de solicitação
+
+Você pode localizar solicitações enviadas na área Solicitações, <span class="preview">que inclui links para objetos criados por essas solicitações.</span>
 
 Para localizar solicitações que você ou outros usuários enviaram na nova experiência de solicitação:
 
