@@ -4,9 +4,9 @@ description: Melhorias nas solicitações do primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d77568db7ad1af56302c8460db603d242274a8cf
+source-git-commit: ac1857f4cf4c6b3823773902ae8be439e2dcd55a
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,88 @@ ht-degree: 0%
 Esta página descreve as melhorias nas Solicitações feitas com a versão do Primeiro trimestre de 2026 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2026, consulte [Visão geral da versão do Primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Links de objetos criados agora estão disponíveis na área Solicitações e no widget Minhas solicitações
+
+>[!NOTE]
+>
+>Visualização: 18 de dezembro de 2025
+>Lançamento rápido de produção: 14 de janeiro de 2026\
+>Produção para todos: 15 de janeiro de 2026
+
+Para facilitar o acesso ao objeto criado por uma solicitação específica, adicionamos links à coluna Objeto criado. Agora, você pode clicar no link desta coluna para ser levado diretamente para a página do objeto criado.
+
+Anteriormente, essa coluna continha somente o nome do objeto, e não seu link.
+
+Para obter informações sobre como localizar esses links, consulte. Para obter instruções sobre como adicionar colunas, consulte:
+
+* [Localizar solicitações enviadas](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+
+<!--
+
+## Create groupings in the Requests list and My Requests widget
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026  
+>Production for everyone: January 15, 2026  
+
+To make it easier for you to find the requests you need, we've added groupings to the Requests list and the My Requests widget. Now, you can group requests by any column on the list. These groupings become part of the view that you are using when you create the grouping.
+
+For more information on creating views for the Request list and My Requests widget, including adding groupings, see [Create or edit views in the Requests area and My Requests widget](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+-->
+
+## Compartilhar exibições na área Solicitações e no widget Minhas solicitações
+
+>[!NOTE]
+>
+>Visualização: 18 de dezembro de 2025
+>Lançamento rápido de produção: 14 de janeiro de 2026\
+>Produção para todos: 15 de janeiro de 2026
+
+Para facilitar a visualização das informações necessárias, adicionamos a capacidade de compartilhar visualizações à nova experiência de solicitação. Agora é possível compartilhar visualizações com outros usuários, equipes ou grupos.
+
+Você pode compartilhar exibições de lista de solicitações na área Solicitações do Workfront e no widget Minhas solicitações na Página inicial. A funcionalidade de compartilhamento é idêntica em ambos os locais, e as configurações de exibição, incluindo compartilhamento, são preservadas ao se mover entre o widget Minhas solicitações e a área Solicitações.
+
+Para obter informações sobre exibições de solicitação, incluindo compartilhamento, consulte [Criar e gerenciar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+## Adicionar campos personalizados à lista Solicitações e ao widget Minhas solicitações
+
+>[!NOTE]
+>
+>Visualização: 18 de dezembro de 2025
+>Lançamento rápido de produção: 14 de janeiro de 2026\
+>Produção para todos: 15 de janeiro de 2026
+
+Para facilitar a visualização das informações necessárias, adicionamos a capacidade de adicionar campos personalizados como colunas na lista Solicitações e no widget Minhas solicitações na Página inicial. Agora é possível adicionar campos de formulários personalizados como uma coluna, e as solicitações que têm informações nesse campo exibirão essas informações na lista ou no widget.
+
+Essa funcionalidade está disponível somente na nova experiência de Solicitações.
+
+Anteriormente, os campos personalizados não estavam disponíveis na lista Solicitações ou no widget Minhas solicitações.
+
+Para obter instruções sobre como adicionar colunas, consulte:
+
+* [Criar ou editar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
+* [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+
+## O curinga do usuário atual agora está disponível no filtro Solicitações
+
+>[!NOTE]
+>
+>Visualização: 18 de dezembro de 2025
+>Lançamento rápido de produção: 14 de janeiro de 2026\
+>Produção para todos: 15 de janeiro de 2026
+
+Para facilitar a filtragem de solicitações aplicáveis a você, criamos um curinga do usuário atual. Agora, ao filtrar, você pode selecionar &quot;Eu (usuário conectado)&quot;. O filtro será aplicado ao usuário que está visualizando a lista de solicitações.
+
+Isso pode ser conveniente ao adicionar um filtro a uma visualização que vários usuários usarão. Cada usuário verá os resultados do filtro que se aplicam a ele.
+
+O curinga está disponível em campos nos quais o valor é um usuário.
+
+Para obter mais informações sobre como configurar exibições na lista Solicitações, incluindo filtros, consulte [Criar ou editar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
 ## Preenchimento de formulário fornecido pela IA agora disponível para solicitações
 
@@ -30,20 +112,6 @@ Para facilitar a criação de solicitações, criamos o Preenchimento de formul�
 Sua organização deve ter a IA habilitada para acessar essa funcionalidade.
 
 Para obter mais informações sobre o Preenchimento de Formulário fornecido pela IA, incluindo o que é necessário para habilitar a IA para sua organização, consulte [Usar Preenchimento de Formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
-
-<!--## Share views in the Requests area and the My Requests widget
-
->[!NOTE]
->
->Preview: December 4, 2025 
->Production fast release: December 11, 2025  
->Production for everyone: January 16, 2026  
-
-To make it easier to ensure to see the information you need, we've added the ability to share views to the new reporting experience. Now, you can share views with other users, teams, or groups.
-
-You can share request list views from both the Requests area in Workfront and the My Requests widget in Home. Sharing functionality is identical in both places, and view settings, including sharing, are preserved when moving between the My Requests widget and the Requests area.
-
-For information on request views, including sharing, see [Create and manage views in the Requests area](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).-->
 
 
 ## Salvar rascunhos de solicitações na nova experiência de solicitação

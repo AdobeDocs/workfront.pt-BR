@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: 8e5a35f20675e911a5ba7251b39ead7c1770b666
 workflow-type: tm+mt
-source-wordcount: '13625'
+source-wordcount: '13630'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 2%
          * [Visão geral da versão do primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
          * [Aprimoramentos do administrador no primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md)
          * [Aprimoramentos de documentos e aprovações no primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-documents-approvals.md)
+         * [Melhorias na página inicial do primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-home.md)
          * [Aprimoramentos nas integrações do primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md)
          * [Aprimoramentos do projeto do primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-projects.md)
          * [Melhorias na geração de relatórios no primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md)

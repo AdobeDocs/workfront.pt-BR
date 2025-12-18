@@ -4,9 +4,9 @@ description: Melhorias na geração de relatórios no primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 00483638948941c933e5f8bc8cb3edaf8e43fea1
+source-git-commit: bed931281d7d0b3184914ed7649d9cb889bcf39a
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,113 @@ ht-degree: 0%
 Esta página descreve os aprimoramentos de relatórios feitos com a versão do primeiro trimestre de 2026 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2026, consulte [Visão geral da versão do Primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+<!--
+
+## Currency updates in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026 
+>Production for everyone: January 15, 2026 
+
+We have made the following updates for currency fields:
+
+* When multiple currencies are defined in Workfront, you can now choose a default currency for the dashboard during creation. 
+
+* When creating a report, you can lock a currency field. This ensures that the dashboard-level currency preference does not affect the display of these values.
+
+* When viewing a dashboard, users can toggle between any defined currencies in Workfront. These changes apply to the entire dashboard with the exception of locked currency fields.
+
+-->
+
+<!--
+
+## Quick search table results in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast release: January 14, 2026 
+>Production for everyone: January 15, 2026 
+
+We have added a quick search to Table reports. This search works across all pages, so you can find data even if it's not currently visible.
+
+-->
+
+## Nova opção Mostrar total para Gráficos de Pizza
+
+>[!NOTE]
+>
+>Visualização: 18 de dezembro de 2025
+>Lançamento rápido de produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
+
+Introduzimos uma nova opção Mostrar total que converte gráficos de pizza em gráficos de rosca. Esse recurso permite que os usuários exibam um valor central que representa o total de todos os segmentos no gráfico.
+
+* Para tipos de agregação de contagem, o valor central exibido é uma contagem de todos os segmentos do gráfico.
+* Para tipos de agregação de soma, o valor central exibido é o total agregado do valor numérico ou de moeda.
+* Para os tipos de agregação média, máxima e mínima, o valor central exibe o valor médio, máximo ou mínimo de acordo.
+
+Os usuários também têm a opção de mostrar ou ocultar um rótulo para o total e fornecer um valor de rótulo personalizado.
+
+Para obter mais informações, consulte [Criar um relatório de gráfico em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+
+## Novas opções de configuração para Gráficos de Pizza em Painéis de Tela
+
+>[!NOTE]
+>
+>Visualização: 18 de dezembro de 2025
+>Lançamento rápido de produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
+
+Introduzimos duas novas opções de configuração para Gráficos de Pizza:
+
+* Ocultar rótulos de segmento: agora é possível optar por ocultar rótulos de segmento em um Gráfico de pizza se eles forem muito longos e afetarem a legibilidade do gráfico.
+* Ocultar e reposicionar legenda do gráfico: agora é possível optar por ocultar uma legenda de Gráfico de Pizza. Também é possível definir a posição da legenda para a direita (padrão), esquerda, parte superior ou inferior do gráfico.
+
+Para obter mais informações, consulte [Criar um relatório de gráfico em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+
+## Melhorias na contagem de agrupamento de Painéis do Canvas
+
+>[!NOTE]
+>
+>Visualização: 18 de dezembro de 2025
+>Lançamento rápido de produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
+
+Atualizamos a barra de agrupamento nos Painéis do Canvas para exibir a contagem de registros da página atual e a contagem geral de registros do agrupamento em todas as páginas.
+
+Por exemplo, a barra de agrupamento mostrará &quot;3 de 7&quot; ou &quot;83 de 21032&quot; para fornecer uma visão clara da distribuição de dados no agrupamento.
+
+Anteriormente, a barra de agrupamento não fornecia essas informações detalhadas de contagem, tornando desafiador entender o número total de registros em um agrupamento ao navegar por várias páginas.
+
+## Novo recurso de Linha de referência em relatórios no Canvas Dashboards
+
+>[!NOTE]
+>
+>Visualização: 18 de dezembro de 2025
+>Lançamento rápido de produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
+
+Agora é possível definir uma linha Referência nos gráficos de Barra, Coluna e Linha para definir uma meta ou um limite para seus relatórios com base em séries.
+
+Observação: a linha Referência não é dinâmica e não é possível aplicar várias linhas de referência. Estamos explorando melhorias futuras, mas não há planos imediatos em vigor.
+
+Para obter mais informações, consulte [Criar um relatório de gráfico em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
+
+## Personalizar rótulos de eixo em relatórios de Gráfico em Painéis de Tela de Pintura
+
+>[!NOTE]
+>
+>Visualização: 18 de dezembro de 2025
+>Lançamento rápido de produção: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
+
+Agora é possível personalizar os rótulos de eixo nos relatórios de Gráfico. Esse novo recurso permite que você insira um rótulo de eixo de substituição para ser exibido em vez do objeto padrão e do caminho de campo. Além disso, você pode optar por ocultar totalmente os rótulos dos eixos.
+
+Para obter mais informações, consulte [Criar um relatório de gráfico em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md).
 
 ## Duplicação de um relatório em um Painel da tela
 
@@ -75,3 +182,7 @@ Para evitar atrasos de tempo de carregamento e melhorar o desempenho geral nos P
 * Distância do objeto base do relatório: limite de 10
 * Colunas em uma exibição de tabela: limite de 25
 * Prompts de filtro no nível do painel: limite de 10
+
+
+
+

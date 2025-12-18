@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e830ccb4e87c231f57ae39e59988bb261737188
+source-git-commit: a58e7da96c43dd308a213c6d7ef74d5085a2e1ba
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,122 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Compartilhar exibições na página de registros Projetos conectados
+
+>[!NOTE]
+>
+>Visualização: 18 de dezembro de 2025
+>Lançamento rápido de produção: 14 de janeiro de 2026\
+>Produção para todos: 15 de janeiro de 2026
+
+Para facilitar a visualização das informações necessárias, adicionamos a capacidade de compartilhar exibições na página de registros dos Projetos Conectados. Agora é possível compartilhar visualizações com outros usuários, equipes ou grupos.
+
+Para obter informações sobre exibições de solicitação, incluindo compartilhamento, consulte [Criar e gerenciar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+
+## O curinga do usuário atual agora está disponível nos filtros de visualização de conexão do projeto
+
+>[!NOTE]
+>
+>Visualização: 18 de dezembro de 2025
+>Lançamento rápido de produção: 14 de janeiro de 2026\
+>Produção para todos: 15 de janeiro de 2026
+
+Para facilitar a filtragem de conexões de projeto que se aplicam a você, criamos um curinga do usuário atual. Agora, ao filtrar, você pode selecionar &quot;Eu (usuário conectado)&quot;. O filtro será aplicado ao usuário que está visualizando a lista de solicitações.
+
+Isso pode ser conveniente ao adicionar um filtro a uma visualização que vários usuários usarão. Cada usuário verá os resultados do filtro que se aplicam a ele.
+
+O curinga está disponível em campos nos quais o valor é um usuário.
+
+Para obter mais informações sobre como configurar as exibições de conexão do projeto, incluindo filtros, consulte [Adicionar uma página Registros conectados a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
+<!--
+
+## Create record type hierarchies in workspaces
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast: January 14, 2026 
+>Production all: January 15, 2026 
+
+You can now define flexible but structured hierarchies between record or object types.  
+
+Hierarchies are connections between record types. You can have up to 4 record and object types connected in one hierarchy, and you can have multiple hierarchies in one workspace. The first record type in the hierarchy is a parent, and all the other record or object types are its children objects.  
+
+You can use hierarchies to organize work in a way that reflects how your teams actually plan, operate, and deliver and to visualize how strategy flows into execution. 
+
+Consider the following when building hierarchies: 
+
+* You can have multiple hierarchies in a workspace 
+* You can connect only Planning record types from one workspace and Workfront projects in a hierarchy.  
+* A record type or a project can only have one parent in the same workspace. 
+* A record type can be the parent in multiple hierarchies 
+* Connectable record types cannot be used in hierarchies in other workspaces than their own. 
+* Global record types can be used in hierarchies only in the workspaces that they were created in or have been added to.  
+
+When you create hierarchies between record types, they generate breadcrumbs for records that belong to those record types. 
+
+For more information, see [Hierarchy and breadcrumb overview](help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+-->
+
+<!--
+
+## New unified breadcrumbs added to records' pages
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast: January 14, 2026 
+>Production for all: January 15, 2026 
+
+We have added breadcrumbs to a record's page to reflect its spot in a hierarchy. After you create hierarchies, you can see a record's breadcrumb at the top of its page, indicating what other parent or children objects are connected to it. Hierarchies are consistent across Workfront and Planning.  
+
+For example, you can view a project's Planning hierarchy when it's connected to Planning record types in its Planning breadcrumb, and its Workfront hierarchy when it's connected to Workfront object types, like Portfolios or Programs, in Workfront.  
+
+For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+-->
+
+## Melhorias na página principal do Workspace
+
+>[!NOTE]
+>
+>Visualização: 18 de dezembro de 2025
+>Produção rápida: 14 de janeiro de 2026
+>Produção para todos: 15 de janeiro de 2026
+
+Fizemos as seguintes melhorias na página principal do Workspaces no Workfront Planning:
+
+* Uma experiência de rolagem mais rápida e dinâmica. Isso é especialmente visível se sua organização tiver um grande número de espaços de trabalho e para administradores de sistema.
+
+* Adicionamos uma caixa de pesquisa que agora permite procurar um espaço de trabalho específico por nome.
+
+* A guia **Outros espaços de trabalho** foi renomeada para **Todos os espaços de trabalho** e inclui todos os espaços de trabalho para os quais você tem pelo menos permissões para Exibir, incluindo os que você criou.
+
+Para obter informações, consulte [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+<!--
+
+## Improvements to connected records pages
+
+>[!NOTE]
+>
+>Preview: December 18, 2025 
+>Production fast: January 14, 2026 
+>Production for all: January 15, 2026 
+
+To give you more flexibility when working with connected records pages, we have enhanced the functionality of views in this area of Workfront Planning. The following are improvements in the connected records pages of a record that are coming with this release:
+
+* You can now add a timeline and a calendar view to a record's connected records page.
+* You can now share views from a connected records page. The views shared from these pages are visible system-wide by all users you share them with in any other area of Workfront Planning. All views shared in any other areas of Planning are also visible in the connected records page for the same users they are shared with.
+* We have added a restriction to only allow one connected records page per each record or object type. Prior to this enhancement, you could add multiple pages for the same record or object type. Now, you can use multiple views for the same record type in one connected records page.
+* We have added a **New row** link at the bottom of a table view and a **Connect records** button in the upper-right area of the connected records page. Prior to this enhancement, the **New row** link and the **Connect records** button existed only on a project connected page. 
+
+For information, see [Add a Connected records page to a record](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
+
+-->
 
 ## Adicionar o campo de conexão da Marca a Produtos e personalidades por padrão no espaço de trabalho do GenStudio
 
@@ -154,3 +270,9 @@ Considere o seguinte com esta melhoria:
 * Os valores de escolha são exibidos em minúsculas e são separados por sublinhados no caso de opções de várias palavras. Se você usar um rótulo já usado como outro nome de opção para o mesmo campo, o Workfront adicionará um número sequencial ao valor.
 
 Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
+
+
+
+
+
+
