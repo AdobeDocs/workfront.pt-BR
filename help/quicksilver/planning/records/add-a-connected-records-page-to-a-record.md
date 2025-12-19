@@ -406,7 +406,7 @@ Para gerenciar várias exibições na página registros conectados:
    * **Linha do tempo**. Para obter mais informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
    * **Calendário**. Para obter mais informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-1. (Opcional) Passe o mouse sobre o nome de um modo de exibição na página Registros conectados, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) e, em seguida, clique em um dos seguintes: ************* verifique se todos são possíveis *********
+1. (Opcional) Passe o mouse sobre o nome de um modo de exibição na página Registros conectados, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) e, em seguida, clique em um dos seguintes: **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** verifique se todos são possíveis **&#x200B;**&#x200B;**&#x200B;***
 
    * **Renomear**
    * **Compartilhar**. Para obter mais informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
