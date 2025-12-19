@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '2745'
+source-wordcount: '2743'
 ht-degree: 0%
 
 ---
@@ -40,19 +40,6 @@ Considere o seguinte ao adicionar uma página Registros conectados a um registro
       * <span class="preview">Linha do tempo</span>
       * <span class="preview">Calendário</span>
    * Você pode exibir projetos conectados do Workfront na exibição de lista.
-
-
-<!--replace the above bullet with this: 
-
-* You can display the objects in a connected records page in the following types of views:
-
-   * Table
-   * <span class="preview">Timeline</span>
-   * <span class="preview">Calendar</span>
-
-* <span class="preview">You can create one page per one object or record type. For example, you cannot create two connected record pages for connected projects or tactics.</span>
-
--->
 
 * Você pode adicionar páginas Registros conectados para os seguintes tipos de registro ou objeto conectados:
 
@@ -89,7 +76,7 @@ Considere o seguinte ao adicionar uma página Registros conectados a um registro
    <ul><li><p>Uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar o AEM Assets aos tipos de registro do Planning.</p>
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas da GenStudio</p>
-   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -132,7 +119,7 @@ Você deve primeiro conectar tipos de registro a outros tipos de registro ou pro
    >[!TIP]
    >
    ><span class="preview">Você pode criar uma página de registros conectada por tipo de registro. Se um tipo de registro conectado já tiver uma página, ele não será mais exibido como uma opção.</span>
-
+   >
 
 1. (Opcional e condicional) Se mais de um campo conectado do tipo de registro ou objeto para o qual você está criando a página for exibido, clique no campo cujos registros ou objetos você deseja exibir na página de registros conectados da lista **Selecionar campo de referência**.
 
@@ -149,7 +136,7 @@ Você deve primeiro conectar tipos de registro a outros tipos de registro ou pro
    >
    >Você deve adicionar registros conectados na área Tabela ou Detalhes de um registro antes de exibi-los em uma página de registros conectados. Caso contrário, a tabela ou lista estará vazia.
 
-   Os primeiros cinco campos dos registros conectados são exibidos por padrão. <!--No lookup fields display by default.-->
+   Os primeiros cinco campos dos registros conectados são exibidos por padrão. Nenhum campo de pesquisa é exibido por padrão.
 
    ![Exibição da tabela conectada ao público-alvo nos detalhes da campanha](assets/audience-connected-table-view-under-campaign-details-page.png)
 
@@ -165,9 +152,6 @@ Para obter informações, consulte a seção [Gerenciar a página de registros c
    Ou
 
    Passe o mouse sobre o nome da guia, em seguida, clique em **Mais** ![Mais menu](assets/more-menu.png) e em **Renomear** para renomear para a nova guia de página de registros conectados.
-
-
-   <!--1. <span class="preview">(Optional) Click the dropdown menu to the right of the view name, then click **New view** to add a view. For more information, see the section [Manage multiple views from the connected records page](#manage-multiple-views-from-the-connected-records-page) in this article. </span>-->
 
 1. (Opcional) Passe o mouse sobre o nome da guia da página de registros conectados, clique em **Mais** ![Mais menu](assets/more-menu.png) e em **Excluir** para remover para a guia.
 
@@ -185,6 +169,7 @@ Os registros conectados ao registro selecionado são exibidos na exibição de t
 1. Clique em **Conectar** na parte inferior da exibição de tabela para conectar registros existentes, selecione-os na caixa de conexão e clique fora da caixa para fechá-la. Os registros são adicionados automaticamente à tabela e conectados ao registro selecionado. Os registros devem existir antes que você possa adicioná-los.
 
    Para obter mais informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+
 1. Edite quaisquer informações dos registros conectados em linha na exibição de tabela.
 1. Passe o mouse sobre o nome de um registro conectado, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png)
 
@@ -204,6 +189,7 @@ Os registros conectados ao registro selecionado são exibidos na exibição de t
      >[!TIP]
      >
      >É possível selecionar mais de um registro ou objeto para excluí-los.
+     >
 
 1. Editar em linha qualquer um dos registros na tabela na página de registros conectados.
 1. Use qualquer um dos seguintes elementos de exibição na barra de ferramentas de uma página de registro conectada para gerenciar a exibição de tabela:
@@ -220,6 +206,7 @@ Os registros conectados ao registro selecionado são exibidos na exibição de t
    >[!NOTE]
    >
    >Não é possível criar, editar ou excluir campos na exibição de tabela de uma guia de registro conectado.
+   >
 
 <div class="preview">
 
@@ -233,6 +220,7 @@ Os registros conectados ao registro selecionado são exibidos na exibição de t
 1. Clique em **Conectar registros** no canto superior direito da página de registro conectada para conectar registros existentes, selecione-os na caixa de conexão e clique fora da caixa para fechá-la. Os registros são adicionados automaticamente à tabela e conectados ao registro selecionado. Os registros devem existir antes que você possa adicioná-los.
 
    Para obter mais informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+
 1. Clique em **Nova linha** na parte inferior da tabela para adicionar novos registros. Os novos registros são conectados automaticamente aos registros selecionados.
 1. Edite quaisquer informações dos registros conectados em linha na exibição de tabela.
 1. Passe o mouse sobre o nome de um registro conectado, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png)
@@ -269,7 +257,10 @@ Os registros conectados ao registro selecionado são exibidos na exibição de t
    >[!NOTE]
    >
    >Não é possível criar, editar ou excluir campos na exibição de tabela de uma guia de registro conectado.
+   >
+
 1. Clique no menu suspenso modos de exibição e em **Novo modo de exibição** para adicionar um novo modo de exibição à página. Em seguida, faça o seguinte:
+
    1. Adicione um **Nome da exibição**.
    1. Na área **Tipo de exibição**, selecione um dos seguintes tipos de exibições:
 
@@ -284,10 +275,11 @@ Para obter informações, consulte [Gerenciar a exibição de calendário](/help
 
    1. Clique em **Criar**.
 Uma nova exibição é adicionada ao menu suspenso de exibições.
+
    1. (Opcional) Passe o mouse sobre o nome de um modo de exibição criado, clique no menu **Mais** ![Mais menu](assets/more-menu.png) e, em seguida, clique em uma das seguintes opções:
+
       * **Renomear**, para adicionar um novo nome para o modo de exibição.
       * **Compartilhar**
-
 
         Para obter mais informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
 
@@ -302,24 +294,6 @@ Para obter informações, consulte [Excluir exibições de registros](/help/quic
 
 </div>
 
-
-<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
-         * Portfolios
-         * Programs
-         * Groups
-         * Companies
-      Do any of the following in the table view of the connected records page: 
-      * Click the name of a object. This opens the object's page in a new tab. 
-      * Click **Connect** at the bottom of the table view to connect existing objects, select them from the connection box, then click outside the box to close it. The objects are automatically added to the table. The objects must exist before you can add them.
-      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
-      * Select one of the objects in the table view, then click one of the following options in the blue bar at the bottom of the list: 
-      * **View** to open the record page in a new tab
-      * **Copy link** to copy a link to the record page
-      * **Disconnect** to disconnect the object from the record you are viewing. 
-      TIP      
-      You can select more than one record or object to disconnect them.
-      -->
-
 ### Gerenciar a página de registros conectados de projetos do Workfront
 
 Ao criar uma página de registros conectados para projetos conectados do Workfront, faça o seguinte:
@@ -333,7 +307,8 @@ Os projetos conectados ao registro selecionado são exibidos na exibição de li
 1. Editar informações do projeto em linha na tabela.
 1. Clique em **Nova linha** para criar um projeto sem um modelo. O novo projeto é automaticamente conectado ao registro atual.
 
-   Para obter mais informações, consulte [Criar objetos do Workfront no Workfront Planning à medida que você os conecta a registros](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+   Para obter mais informações, consulte [Criar objetos do Workfront no Workfront Planning à medida que você os conecta aos registros](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
 1. Passe o mouse sobre um nome de projeto na lista e clique no menu **Mais** [Mais menu](assets/more-menu.png)
 
    Ou
@@ -346,7 +321,10 @@ Os projetos conectados ao registro selecionado são exibidos na exibição de li
      >[!TIP]
      >
      >Você pode selecionar mais de um projeto para desconectá-los ou excluí-los.
+     >
+
 1. Clique no menu suspenso modos de exibição e em **Novo modo de exibição** para adicionar um novo modo de exibição à página. Em seguida, faça o seguinte:
+
    1. Adicione um **Nome da exibição**.
    1. Selecione **Lista** na área **Tipo de exibição**.
    1. Clique em **Criar**.
@@ -406,7 +384,7 @@ Para gerenciar várias exibições na página registros conectados:
    * **Linha do tempo**. Para obter mais informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
    * **Calendário**. Para obter mais informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-1. (Opcional) Passe o mouse sobre o nome de um modo de exibição na página Registros conectados, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) e, em seguida, clique em um dos seguintes: **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** verifique se todos são possíveis **&#x200B;**&#x200B;**&#x200B;***
+1. (Opcional) Passe o mouse sobre o nome de uma exibição na página Registros conectados, em seguida, clique no menu **Mais** ![Mais menu](assets/more-menu.png) e, em seguida, clique em uma das seguintes opções:
 
    * **Renomear**
    * **Compartilhar**. Para obter mais informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md).
@@ -424,3 +402,20 @@ Para gerenciar várias exibições na página registros conectados:
      >Duplicar uma exibição das páginas Registros conectados a torna disponível em todas as outras áreas do planejamento do Workfront, ao exibir os mesmos tipos de registro.
 
 </div>
+
+<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+         * Portfolios
+         * Programs
+         * Groups
+         * Companies
+      Do any of the following in the table view of the connected records page: 
+      * Click the name of a object. This opens the object's page in a new tab. 
+      * Click **Connect** at the bottom of the table view to connect existing objects, select them from the connection box, then click outside the box to close it. The objects are automatically added to the table. The objects must exist before you can add them.
+      For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+      * Select one of the objects in the table view, then click one of the following options in the blue bar at the bottom of the list: 
+      * **View** to open the record page in a new tab
+      * **Copy link** to copy a link to the record page
+      * **Disconnect** to disconnect the object from the record you are viewing. 
+      TIP      
+      You can select more than one record or object to disconnect them.
+      -->

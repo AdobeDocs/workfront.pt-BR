@@ -2,23 +2,23 @@
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: Gerenciar o backlog Agile
-description: Tarefas e problemas podem ser atribuídos a uma equipe ágil e adicionados ao backlog dessa equipe como histórias, dependendo da metodologia ágil que a equipe está usando.
+description: Tarefas e problemas podem ser atribuídos a uma equipe Agile e adicionados ao backlog dessa equipe como histórias, dependendo da metodologia Agile que a equipe está usando.
 author: Jenny
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1334'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Gerenciar o backlog ágil
+# Gerenciar o backlog do Agile
 
-Os itens de trabalho a seguir podem ser atribuídos a uma equipe ágil e adicionados ao backlog dessa equipe como histórias, dependendo da metodologia ágil que a equipe está usando:
+Os itens de trabalho a seguir podem ser atribuídos a uma equipe do Agile e adicionados ao backlog dessa equipe como histórias, dependendo da metodologia do Agile que a equipe está usando:
 
-* **[!UICONTROL Equipes ágeis de scrum]:** tarefas e problemas podem ser atribuídos à equipe ágil e adicionados à lista de pendências.
-* **[!UICONTROL Equipes ágeis do Kanban]:** as tarefas podem ser atribuídas à equipe ágil e adicionadas à lista de pendências. Os usuários podem exibir a lista de pendências diretamente do storyboard Agile, conforme descrito em [[!UICONTROL Adicionar a lista de pendências] ao quadro Kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). A equipe usa essa lista de pendências para priorizar e gerenciar sua fila de trabalho.
+* **[!UICONTROL Equipes Agile de Scrum]:** tarefas e problemas podem ser atribuídos à equipe Agile e adicionados à lista de pendências.
+* **[!UICONTROL Equipes Agile do Kanban]:** as tarefas podem ser atribuídas à equipe Agile e adicionadas à lista de pendências. Os usuários podem exibir a lista de pendências diretamente do storyboard Agile, conforme descrito em [[!UICONTROL Adicionar a lista de pendências] ao quadro Kanban](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). A equipe usa essa lista de pendências para priorizar e gerenciar sua fila de trabalho.
 
 Tarefas ou problemas podem ser atribuídos à equipe (e subsequentemente adicionados à lista de pendências da equipe) de qualquer lugar no [!DNL Adobe Workfront]. Por exemplo, uma única equipe pode receber atribuições de trabalho de vários projetos.
 
@@ -28,7 +28,7 @@ Tarefas ou problemas podem ser atribuídos à equipe (e subsequentemente adicion
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,8 +42,8 @@ Tarefas ou problemas podem ser atribuídos à equipe (e subsequentemente adicion
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -66,19 +66,19 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Você pode reordenar matérias na lista de backlog usando o método arrastar e soltar.
 
-1. Acesse o backlog ágil, onde deseja reordenar as histórias.
+1. Acesse o backlog Agile, onde deseja reordenar as histórias.
 1. No menu suspenso **[!UICONTROL Exibir]**, selecione o modo de exibição **[!UICONTROL Lista de Pendências]** ou um modo de exibição personalizado que contenha a coluna **[!UICONTROL Ordem]**.
 
    >[!NOTE]
    >
-   >Se uma tarefa ou problema tiver uma equipe ágil atribuída e o projeto não estiver em um status que corresponda a Atual, ele não será exibido no backlog. No entanto, elas ainda afetam a contagem de backlog na coluna Ordem.
+   >Se uma tarefa ou problema tiver uma equipe Agile atribuída e o projeto não estiver em um status que corresponda a Atual, eles não serão exibidos no backlog. No entanto, elas ainda afetam a contagem de backlog na coluna Ordem.
 
 1. Selecione uma ou mais matérias e arraste-as para a ordem em que deseja que elas apareçam no backlog.
    ![Arrastar e soltar itens do backlog](assets/agile-backlog-drag-and-drop.png)
 
 ### Analisar histórias {#break-down-stories}
 
-Como as histórias em um backlog variam de tamanho, os usuários podem dividi-las em tamanhos executáveis para uma iteração. Detalhar uma matéria cria subtarefas na tarefa que a matéria representa e substitui a tarefa original no backlog. Você pode ter uma tarefa pai ou suas subtarefas atribuídas a uma Equipe Ágil, mas não pode ter ambos atribuídos a uma equipe simultaneamente.
+Como as histórias em um backlog variam de tamanho, os usuários podem dividi-las em tamanhos executáveis para uma iteração. Detalhar uma matéria cria subtarefas na tarefa que a matéria representa e substitui a tarefa original no backlog. Você pode ter uma tarefa pai ou suas subtarefas atribuídas a uma equipe Ágil, mas não pode ter ambos atribuídos a uma equipe simultaneamente.
 
 >[!NOTE]
 >
@@ -105,10 +105,10 @@ Você pode editar histórias diretamente nas guias [!UICONTROL Histórias] ou [!
 
 ## Criar novas histórias no backlog {#create-new-stories-on-the-backlog}
 
-Você pode criar novas histórias no backlog, criando a história diretamente do backlog, ou atribuindo uma tarefa ou problema existente a uma equipe ágil.
+Você pode criar novas histórias no backlog, criando a história diretamente do backlog, ou atribuindo uma tarefa ou problema existente a uma equipe Agile.
 
 * [Criar uma história no backlog](#create-a-story-from-the-backlog)
-* [Atribuir uma tarefa ou problema a uma equipe ágil](#assign-a-task-or-issue-to-an-agile-team)
+* [Atribuir uma tarefa ou problema a uma equipe Agile](#assign-a-task-or-issue-to-an-agile-team)
 
 ### Criar uma história no backlog {#create-a-story-from-the-backlog}
 
@@ -140,7 +140,7 @@ Para criar uma história no backlog:
       <td> Digite um nome para a história.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Descrição]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Description]</strong></td>
       <td>(Opcional) Digite uma descrição para a matéria.</td>
      </tr>
      <tr>
@@ -168,11 +168,11 @@ Para criar uma história no backlog:
 
 1. Clique em **[!UICONTROL Salvar história]**.
 
-### Atribuir uma tarefa ou problema a uma equipe ágil {#assign-a-task-or-issue-to-an-agile-team}
+### Atribuir uma tarefa ou problema a uma equipe Agile {#assign-a-task-or-issue-to-an-agile-team}
 
-É possível atribuir uma tarefa ou um problema a uma Equipe Ágil. Depois de atribuída, a tarefa ou problema aparece como uma nova história no backlog da equipe.
+Você pode atribuir uma tarefa ou um problema a uma Equipe Agile. Depois de atribuída, a tarefa ou problema aparece como uma nova história no backlog da equipe.
 
-Para atribuir uma tarefa ou um problema a uma Equipe Ágil:
+Para atribuir uma tarefa ou um problema a uma Equipe Agile:
 
 1. Vá para o projeto que contém a tarefa que você deseja atribuir.
 1. Selecione a tarefa ou problema na lista.
@@ -180,7 +180,7 @@ Para atribuir uma tarefa ou um problema a uma Equipe Ágil:
 1. Clique em **[!UICONTROL Atribuições]**.
 1. (Opcional) Exclua todos os atribuídos existentes.
 1. Clique em **[!UICONTROL Adicionar responsável]**.
-1. Comece digitando o nome da equipe ágil que você deseja que seja atribuído à tarefa ou problema, em seguida, clique no nome da equipe quando ele aparecer na lista suspensa.
+1. Comece digitando o nome da equipe Agile que você deseja atribuir à tarefa ou problema e clique no nome da equipe quando ela aparecer na lista suspensa.
 1. Clique em **[!UICONTROL Salvar alterações]**.
 A tarefa ou problema agora está disponível no backlog da equipe.
 
@@ -192,7 +192,7 @@ A tarefa ou problema agora está disponível no backlog da equipe.
 
 ### Mover histórias do backlog para uma iteração ou quadro
 
-1. Ir para o backlog da Equipe Ágil.
+1. Acesse o backlog da equipe Agile.
 1. Selecione as histórias que deseja mover para uma iteração ou quadro Kanban e clique em **[!UICONTROL Mais]** > **[!UICONTROL Mover para]**.
 Se você mover a história para um quadro [!UICONTROL Kanban], o quadro [!UICONTROL Mover história para o Kanban] será exibido.
 Se você mover a matéria para uma iteração, a caixa de diálogo [!UICONTROL Mover a História para uma Iteração] será exibida.
@@ -210,7 +210,7 @@ Se você mover a matéria para uma iteração, a caixa de diálogo [!UICONTROL M
 
 Se você decidir que sua equipe ainda não está pronta para trabalhar em uma história, poderá mover a história para o backlog.
 
-Para obter mais informações, consulte [Mover uma história ágil](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
+Para obter mais informações, consulte [Mover uma história do Agile](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 
 ### Exportar histórias do backlog {#export-stories-from-the-backlog}
 

@@ -6,10 +6,10 @@ description: Você pode exibir uma coluna [!UICONTROL Backlog] diretamente no qu
 author: Jenny
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ Você pode exibir uma coluna [!UICONTROL Backlog] diretamente no quadro Kanban. 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,8 +33,8 @@ Você pode exibir uma coluna [!UICONTROL Backlog] diretamente no quadro Kanban. 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -58,4 +58,4 @@ Por padrão, a coluna [!UICONTROL Backlog] está oculta. Para exibir o backlog:
 >
 >Se você adicionar várias equipes a um item de backlog, a tarefa ou problema será exibido somente no backlog da equipe principal. A equipe principal é a equipe atribuída pela primeira vez.
 
-Para obter mais informações sobre a lista de pendências, consulte [Gerenciar a lista de pendências ágil](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obter mais informações sobre a lista de pendências, consulte [Gerenciar a lista de pendências Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

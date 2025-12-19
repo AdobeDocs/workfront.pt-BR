@@ -7,7 +7,7 @@ description: Consulte este artigo para entender melhor como o quadro Kanban func
 author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -20,15 +20,15 @@ ht-degree: 0%
 
 As seções a seguir permitem entender melhor como o quadro [!UICONTROL Kanban] funciona.
 
-Para obter uma descrição da metodologia K[!UICONTROL anban], consulte [Criar uma equipe ágil](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Para obter uma descrição da metodologia K[!UICONTROL anban], consulte [Criar uma equipe Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-Se você estiver interessado em migrar de um quadro da Equipe Ágil [!UICONTROL Kanban] para [!DNL Workfront] [!UICONTROL Quadros], consulte [Migrar cartões da Equipe Ágil [!UICONTROL Kanban] para  [!DNL Workfront] quadros](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Se você estiver interessado em migrar de um quadro da Equipe Agile [!UICONTROL Kanban] para [!DNL Workfront] [!UICONTROL Quadros], consulte [Migrar cartões da Equipe Agile [!UICONTROL Kanban] para [!DNL Workfront] quadros](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## Layout e funções do quadro [!UICONTROL Kanban]
 
 O quadro [!UICONTROL Kanban] consiste nos seguintes elementos:
 
-**Coluna de lista de pendências**: exibe todas as tarefas que estão atualmente na lista de pendências. Essa coluna não é exibida por padrão. Para obter mais informações sobre a lista de pendências, incluindo como exibi-la no quadro [!UICONTROL Kanban], consulte [Gerenciar a lista de pendências ágil](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+**Coluna de lista de pendências**: exibe todas as tarefas que estão atualmente na lista de pendências. Essa coluna não é exibida por padrão. Para obter mais informações sobre a lista de pendências, incluindo como exibi-la no quadro [!UICONTROL Kanban], consulte [Gerenciar a lista de pendências Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 **Status da história**: indica como uma história está progredindo com base em qual coluna de status a história está.
 

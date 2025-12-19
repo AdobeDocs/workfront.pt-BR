@@ -6,10 +6,10 @@ description: É possível adicionar histórias a uma iteração de várias manei
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Você pode adicionar histórias a uma iteração de qualquer uma das seguintes maneiras:
 
-* Da lista de pendências após a criação da iteração, conforme descrito na seção [Mover histórias da lista de pendências para uma iteração ou quadro [!UICONTROL Kanban]](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) em [Gerenciar a lista de pendências ágil](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+* Da lista de pendências após a criação da iteração, conforme descrito na seção [Mover histórias da lista de pendências para uma iteração ou quadro [!UICONTROL Kanban]](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board) em [Gerenciar a lista de pendências Agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
 
 * Na página [!UICONTROL Detalhes] da tarefa ou problema individual
 * De uma lista de tarefas ou problemas
@@ -26,7 +26,7 @@ Você pode adicionar histórias a uma iteração de qualquer uma das seguintes m
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -36,8 +36,8 @@ Você pode adicionar histórias a uma iteração de qualquer uma das seguintes m
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Permissões de objeto</td> 

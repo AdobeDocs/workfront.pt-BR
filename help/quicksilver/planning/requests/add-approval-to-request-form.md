@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: de568156315ff9094d938600c91b55e185d53765
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 0%
+source-wordcount: '680'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ Para obter informações sobre como enviar uma solicitação a um tipo de regist
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -58,7 +58,7 @@ Ou
 </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
   </td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    >
    >* Se você adicionar mais de um aprovador e a opção Somente uma decisão é necessária não estiver ativada, todos os aprovadores deverão aprovar a solicitação antes que o Workfront Planning crie um registro.
    >
-   >* Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na guia Planejamento da seção Enviado na área Solicitações do Workfront.
+   >* Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na área Solicitações do Workfront.
    >
    >* Se você adicionar mais de um aprovador e a opção Somente uma decisão é obrigatória não estiver ativada, todos os aprovadores deverão tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
    >

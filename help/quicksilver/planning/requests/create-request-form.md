@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '2670'
 ht-degree: 1%
 
 ---
@@ -244,7 +244,7 @@ Na guia Configuração, é possível definir o processo de aprovação e configu
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
    * Você pode adicionar um ou vários aprovadores a um formulário de solicitação.
-   * Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na guia Planejamento da seção Enviado na área Solicitações do Workfront.
+   * Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na área Solicitações do Workfront.
    * Se você adicionar mais de um aprovador e a opção Somente uma decisão é obrigatória não estiver ativada, todos os aprovadores deverão tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
    * Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.
 

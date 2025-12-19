@@ -7,7 +7,7 @@ description: O storyboard Scrum ágil é exibido junto com o status de conclusã
 author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -73,4 +73,4 @@ Por exemplo, suponha que a História A contenha Subtarefa 1 e Subtarefa 2 (e amb
 
 Essa mesma lógica se aplica às subtarefas de segundo nível (subtarefas de subtarefas). Se uma subtarefa tiver uma ou mais subtarefas de segundo nível atribuídas à mesma equipe ágil e pertencer à iteração, somente a subtarefa de segundo nível será exibida no backlog.
 
-Para obter mais informações sobre a lista de pendências, consulte [Gerenciar a lista de pendências ágil](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obter mais informações sobre a lista de pendências, consulte [Gerenciar a lista de pendências Agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

@@ -6,16 +6,16 @@ description: Você pode criar uma história ágil em uma iteração de várias m
 author: Jenny
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Criar uma história ágil
+# Criar uma história do Agile
 
-Você pode criar uma história ágil em uma iteração de várias maneiras. Depois de criar uma matéria ágil, é possível adicionar subtarefas à matéria.
+Você pode criar uma história Agile em uma iteração de várias maneiras. Depois de criar uma história Agile, é possível adicionar subtarefas à história.
 
 Quando você adiciona uma história ou subtarefa em uma iteração, o Tipo de Duração é definido como [!UICONTROL Simples] e a Restrição de Tarefa é definida como Datas Fixas, com as datas bloqueadas dentro da iteração. Não é possível modificar o Tipo de Duração ou a Restrição de Tarefa em uma iteração. Além disso, a duração da tarefa deve ser superior a 0 minutos.
 
@@ -23,7 +23,7 @@ Para obter informações sobre como gerenciar a história depois de adicionada �
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,8 +37,8 @@ Para obter informações sobre como gerenciar a história depois de adicionada �
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -51,9 +51,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 +++
 
-## Criar uma história ágil em uma iteração
+## Criar uma história do Agile em uma iteração
 
-1. Vá para a iteração ágil na qual deseja criar a história:
+1. Vá para a iteração Agile onde deseja criar a história:
 
    {{step1-to-team}}
 
@@ -76,7 +76,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td>Digite um nome para a história.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Descrição]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Description]</strong></td>
       <td>Digite uma descrição para a história.</td>
      </tr>
      <tr>
@@ -85,7 +85,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimativa] (pontos)</strong></td>
-      <td>Especifique a estimativa para a história. Se a sua equipe ágil estiver configurada para estimar histórias em pontos, por padrão, 1 ponto é igual a 8 horas. As estimativas são adicionadas como [!UICONTROL Horas planejadas] na história.<br>Por exemplo, se você estimar uma matéria como 3 pontos, o comportamento padrão é adicionar 24 [!UICONTROL Horas Planejadas] à matéria.<br>Se uma história contiver subtarefas, lembre-se de que as estimativas combinadas para todas as subtarefas determinam a estimativa da história pai. Para obter mais informações, consulte <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Adicionar histórias a uma iteração existente</a>.</td>
+      <td>Especifique a estimativa para a história. Se a sua equipe Agile estiver configurada para estimar histórias em pontos, por padrão 1 ponto será igual a 8 horas. As estimativas são adicionadas como [!UICONTROL Horas planejadas] na história.<br>Por exemplo, se você estimar uma matéria como 3 pontos, o comportamento padrão é adicionar 24 [!UICONTROL Horas Planejadas] à matéria.<br>Se uma história contiver subtarefas, lembre-se de que as estimativas combinadas para todas as subtarefas determinam a estimativa da história pai. Para obter mais informações, consulte <a href="../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md" class="MCXref xref">Adicionar histórias a uma iteração existente</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Projeto Pai]</strong></td>
@@ -104,17 +104,17 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique em **[!UICONTROL Salvar história]**.
 
-## Criar uma história ágil no backlog
+## Criar uma história Agile no backlog
 
-Você pode criar uma história ágil a partir da lista de pendências ágil, conforme descrito na seção [Criar novas histórias na lista de pendências](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) do artigo [[!UICONTROL Gerenciar] a lista de pendências ágil](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Você pode criar uma história Agile a partir do backlog Agile, conforme descrito na seção [Criar novas histórias no backlog](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#creating-new-stories) do artigo [[!UICONTROL Gerenciar] do backlog Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-## Adicionar uma tarefa ou problema como uma história ágil
+## Adicionar uma tarefa ou problema como uma história do Agile
 
 Você pode adicionar uma tarefa ou problema existente como uma história a uma iteração. Para obter mais informações, consulte [Adicionar histórias a uma iteração existente](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md) ou [Adicionar histórias e problemas do quadro [!UICONTROL Scrum]](../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
 
-## Criar subtarefas para uma história ágil
+## Criar subtarefas para uma história do Agile
 
-É possível criar uma subtarefa para uma matéria ágil usando um dos seguintes métodos:
+É possível criar uma subtarefa para uma história Agile usando um dos seguintes métodos:
 
 * Usando a guia **[!UICONTROL Subtarefas]**, conforme descrito em [Criar subtarefas](../../manage-work/tasks/create-tasks/create-subtasks.md#creating-subtasks) em [Criar subtarefas](../../manage-work/tasks/create-tasks/create-subtasks.md).
 

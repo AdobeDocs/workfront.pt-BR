@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '13631'
 ht-degree: 2%
@@ -1111,9 +1111,9 @@ ht-degree: 2%
          * [Exibir e editar informações de história no quadro Scrum](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
    * Trabalhe em um ambiente ágil {#work-in-agile-environment}
       * [Trabalhe em um ambiente ágil](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
-      * [Criar uma história ágil](agile/work-in-an-agile-environment/create-an-agile-story.md)
-      * [Gerenciar o backlog ágil](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
-      * [Mover uma história ágil](agile/work-in-an-agile-environment/move-an-agile-story.md)
+      * [Criar uma história do Agile](agile/work-in-an-agile-environment/create-an-agile-story.md)
+      * [Gerenciar o backlog do Agile](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+      * [Mover uma história do Agile](agile/work-in-an-agile-environment/move-an-agile-story.md)
    * Dicas, truques e solução de problemas para agile {#tips-tricks-agile}
       * [Dicas, truques e solução de problemas para agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [Status personalizados não são exibidos no storyboard do Agile](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
@@ -1241,7 +1241,7 @@ ht-degree: 2%
          * [Remover usuários dos projetos](manage-work/projects/manage-projects/remove-users-from-projects.md)
          * [Agendar recursos para um projeto](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
          * [Comunicar com os membros da equipe do projeto](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-         * [Gerenciar um projeto Agile na visualização do Quadro](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+         * [Gerenciar um projeto Agile na exibição de Quadro](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [Entender as métricas do projeto](manage-work/projects/manage-projects/project-metrics.md)
          * [Visão geral dos limites do projeto](manage-work/projects/manage-projects/project-maximums.md)
          * [Resumir atualizações com o Assistente de IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

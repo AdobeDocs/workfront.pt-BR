@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 99e26d4249162e46da1a73301e68bdf30436a81d
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Recomendamos que você também veja os seguintes artigos:
 
 ## Considerações sobre a aprovação de solicitações
 
-* As solicitações enviadas são exibidas na guia Planejamento da seção Enviado na área Solicitações do Workfront com um dos seguintes status de solicitação:
+* As solicitações enviadas são exibidas na área Solicitações do Workfront com um dos seguintes status de solicitação:
 
    * **Revisão pendente**: este status é mostrado quando nenhum dos aprovadores abriu o objeto de solicitação.
    * **Em revisão**: o status de **Revisão pendente** muda para **Em revisão** quando pelo menos um aprovador abre o objeto de solicitação. O status da solicitação permanece **Em revisão** até que todos os aprovadores aprovem a solicitação.
@@ -118,7 +118,7 @@ Você pode aprovar solicitações para criar registros a partir da própria soli
    A página de solicitação é aberta no modo somente leitura.
 
    ![Página de solicitação somente leitura no status de revisão](assets/read-only-reqeust-page-in-review-status.png)
-1. Se você estiver usando a nova experiência de solicitação no Workfront, clique em **Menu Principal** ![Menu principal Pontos](assets/dots-menu.png) no canto superior direito da tela ou no **Menu Principal** ![Menu principal Linhas](assets/lines-menu.png) no canto superior esquerdo, se disponível, clique em **Solicitações** e clique na solicitação que deseja aprovar com o status de **Revisão pendente** ou **Na revisão**.
+1. Se você estiver usando a nova experiência de solicitação no Workfront, clique em **Menu Principal** ![Menu principal Pontos](assets/dots-menu.png) no canto superior direito da tela ou no **Menu Principal** ![Menu principal Linhas](assets/lines-menu.png) no canto superior esquerdo, se disponível, clique em **Solicitações** e clique na solicitação que deseja aprovar com o status de **Revisão pendente**.
 1. (Opcional) Clique no ícone **Aprovações** ![Ícone Aprovações](assets/approvals-icon.png) no canto superior direito da solicitação para exibir os aprovadores.
 1. Clique em **Revisar e aprovar** e escolha uma das seguintes opções:
 
@@ -132,7 +132,7 @@ Você pode aprovar solicitações para criar registros a partir da própria soli
    * **Concluída**: a solicitação foi aprovada.
    * **Rejeitada**: a solicitação foi rejeitada.
 
-   A solicitação permanece na guia Planejamento da seção Enviado na área Solicitações do Workfront.
+   A solicitação permanece na área Solicitações do Workfront.
 
 <div class="preview">
 

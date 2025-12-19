@@ -7,7 +7,7 @@ description: Agile é uma metodologia de trabalho que permite que as equipes con
 author: Jenny
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -34,15 +34,15 @@ Para começar a usar o ágil avançado no Workfront:
 
 1. Equipes Kanban: gerencie o backlog e crie o quadro [!UICONTROL Kanban].
 
-   Para obter informações, consulte [Gerenciar o backlog ágil](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) e [Visão geral do Kanban](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
+   Para obter informações, consulte [Gerenciar o backlog Agile](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) e [Visão geral do Kanban](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
 
 1. Equipes de Scrum: gerencie o backlog, crie uma iteração e crie o quadro [!UICONTROL Scrum].
 
-   Para obter informações, consulte [Gerenciar a lista de pendências ágil](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Visão geral das iterações](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md) e [Visão geral do quadro Scrum](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
+   Para obter informações, consulte [Gerenciar a lista de pendências Agile](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Visão geral das iterações](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md) e [Visão geral do quadro Scrum](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
 
 1. Adicione tarefas de projetos ao backlog ou ao storyboard da equipe.
 
-   Para obter informações, consulte [Gerenciar a lista de pendências ágil](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Adicionar tarefas ou problemas existentes ao quadro [!UICONTROL Kanban]](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md) e [Adicionar histórias a uma iteração existente](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   Para obter informações, consulte [Gerenciar a lista de pendências Agile](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Adicionar tarefas ou problemas existentes ao quadro [!UICONTROL Kanban]](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md) e [Adicionar histórias a uma iteração existente](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Usar agile em um projeto
 

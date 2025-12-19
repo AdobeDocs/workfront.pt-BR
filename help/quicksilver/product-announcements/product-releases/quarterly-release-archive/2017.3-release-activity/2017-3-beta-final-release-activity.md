@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '3791'
 ht-degree: 0%
@@ -94,29 +94,29 @@ Para obter mais informações, consulte &quot;Personalizando a página inicial&q
 
 ## Kanban para Agile  {#kanban-for-agile}
 
-As equipes Agile agora podem usar uma metodologia Kanban no Workfront, além da metodologia ágil Scrum já compatível.
+As equipes Agile agora podem usar uma metodologia Kanban no Workfront, além da metodologia Agile Scrum já compatível.
 
-As metodologias ágeis de Scrum e Kanban no Workfront diferem das seguintes maneiras:
+As metodologias Scrum e Kanban Agile na Workfront diferem das seguintes maneiras:
 
 **Benefícios do uso do Kanban no Workfront**
 
-* Exiba o backlog no storyboard ágil de Kanban.
+* Exiba o backlog no storyboard do Kanban Agile.
 
   Para obter mais informações, consulte em .
 
-* Configurar itens no backlog para serem adicionados automaticamente ao storyboard ágil de Kanban quando outros itens forem movidos para um status que equivale a Concluído.
+* Configurar itens no backlog para serem adicionados automaticamente ao storyboard Agile Kanban quando outros itens forem movidos para um status que equivale a Concluído.
 
   Para obter mais informações, consulte [Configurar matérias a serem adicionadas automaticamente da lista de pendências](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) em [Configurar Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configure um limite de Trabalho em andamento (WIP) a ser exibido no storyboard ágil de Kanban.
+* Configure um limite de Trabalho em andamento (WIP) a ser exibido no storyboard Agile do Kanban.
 
   Para obter mais informações, consulte [Configurar o limite do trabalho em andamento (WIP)](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) em [Configurar Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 **Vantagens de Usar Scrum no Workfront**
 
-* Adicione um conjunto de histórias a uma iteração ágil e crie um storyboard para essa iteração.
+* Adicione um conjunto de histórias a uma iteração Agile e crie um storyboard para essa iteração.
 * Inclua problemas no storyboard Scrum.
-* Incluir problemas na lista de pendências de uma equipe ágil.
+* Incluir problemas na lista de pendências de uma equipe Agile.
 
   Para obter mais informações, consulte [Configurar como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) em [Configurar Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
@@ -125,7 +125,7 @@ As metodologias ágeis de Scrum e Kanban no Workfront diferem das seguintes mane
 
   Para obter mais informações, consulte [Visão geral do gráfico de burndown ágil](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-Para obter mais informações sobre como habilitar e configurar o Kanban para uma Equipe Ágil, consulte [Decidir sobre uma metodologia Ágil](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) em [Criar uma Equipe Ágil](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Para obter mais informações sobre como habilitar e configurar o Kanban para uma equipe Agile, consulte [Decidir sobre uma metodologia Agile](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) em [Criar uma equipe Agile](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 ## Incluir problemas no backlog de Scrum de uma Equipe Agile {#include-issues-on-the-scrum-backlog-for-an-agile-team}
 
@@ -133,15 +133,15 @@ Para obter mais informações sobre como habilitar e configurar o Kanban para um
 >
 >Essa funcionalidade foi removida do ambiente de Produção do em 14 de novembro de 2017. Está planejado para ser reintroduzido no ambiente de Pré-visualização no início de 2018, com um design aprimorado e maior estabilidade. Ele estará disponível no ambiente de Produção com a versão 2018.1.
 
-Agora é possível incluir problemas no backlog de sua equipe ágil ao usar a metodologia ágil de Scrum (os problemas não são exibidos no backlog de uma equipe ágil ao usar a metodologia Kanban). As equipes ágeis do Scrum existentes devem habilitar essa funcionalidade para que os problemas sejam incluídos. Os problemas são incluídos automaticamente no backlog de equipes ágeis do Scrum criadas após a versão 2017.3.
+Agora é possível incluir problemas no backlog da equipe Agile ao usar a metodologia Scrum Agile (problemas não são exibidos no backlog de uma equipe Agile ao usar a metodologia Kanban). As equipes Scrum Agile existentes devem habilitar essa funcionalidade para que os problemas sejam incluídos. Os problemas são incluídos automaticamente no backlog das equipes do Scrum Agile criadas após a versão 2017.3.
 
 Antes dessa alteração, somente tarefas podiam ser adicionadas ao backlog. Se você quiser adicionar um problema, primeiro é necessário converter o problema em uma tarefa antes que ele possa ser adicionado.
 
 Como agora você tem acesso a mais do que apenas tarefas no backlog, qualquer exibição de tarefa personalizada anteriormente disponível no backlog é copiada e adicionada ao backlog como exibições de Item de Trabalho do Backlog personalizadas.
 
-Para obter informações sobre problemas no backlog, consulte  [Gerenciar o backlog ágil](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obter informações sobre problemas no backlog, consulte  [Gerenciar o backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-Para obter informações sobre como ativar problemas para que fiquem disponíveis no backlog de uma equipe ágil de Scrum, consulte  [Configure como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) em [Configurar Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Para obter informações sobre como habilitar problemas a serem disponibilizados no backlog de uma equipe Agile Scrum, consulte  [Configure como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) em [Configurar Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Incluir problemas no Storyboard Scrum Agile {#include-issues-on-the-scrum-agile-story-board}
 
@@ -149,7 +149,7 @@ Para obter informações sobre como ativar problemas para que fiquem disponívei
 >
 >Essa funcionalidade foi removida do ambiente de Produção do em 14 de novembro de 2017. Está planejado para ser reintroduzido no ambiente de Pré-visualização no início de 2018, com um design aprimorado e maior estabilidade. Ele estará disponível no ambiente de Produção com a versão 2018.1.
 
-Agora é possível incluir problemas no storyboard ao usar a metodologia ágil de Scrum.
+Agora é possível incluir problemas no storyboard ao usar a metodologia Scrum Agile.
 
 Para obter mais informações, consulte [Configurar colunas de status no storyboard Agile](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2) em [Configurar Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
@@ -159,11 +159,11 @@ Para obter mais informações, consulte [Configurar colunas de status no storybo
 >
 >Essa funcionalidade foi removida do ambiente de Produção do em 14 de novembro de 2017. Está planejado para ser reintroduzido no ambiente de Pré-visualização no início de 2018, com um design aprimorado e maior estabilidade. Ele estará disponível no ambiente de Produção com a versão 2018.1.
 
-As opções de Agrupamento e Filtro agora estão disponíveis no backlog ágil, permitindo organizar o backlog por agrupamentos, bem como filtrar tarefas e problemas específicos.
+As opções de Agrupamento e Filtro agora estão disponíveis no backlog Agile, permitindo organizar o backlog por agrupamentos, bem como filtrar tarefas e problemas específicos.
 
-Antes dessa alteração, você poderia aplicar em exibições ao backlog ágil.
+Antes dessa alteração, você poderia aplicar em exibições ao backlog do Agile.
 
-Para obter mais informações, consulte  [Gerenciar a lista de pendências ágil](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) no  [Gerenciar o backlog ágil](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obter mais informações, consulte  [Gerenciar a lista de pendências Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) em  [Gerenciar o backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ## Formatação de Rich Text para atualizações e emails {#rich-text-formatting-for-updates-and-emails}
 

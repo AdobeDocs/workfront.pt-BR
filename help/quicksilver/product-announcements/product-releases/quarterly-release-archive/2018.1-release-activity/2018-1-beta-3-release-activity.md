@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Para obter mais informações sobre como recuperar itens excluídos no Workfront
 
 Para obter mais informações sobre os recursos de um administrador de grupo, consulte a seção &quot;Recursos de administradores de grupo&quot; em [Criar um grupo](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
 
-## Melhorias no visualizador de provas do HTML5  {#html5-proofing-viewer-improvements}
+## Melhorias no visualizador do HTML5 Provision  {#html5-proofing-viewer-improvements}
 
 * [Comparar Modo](#compare-mode)
 * [Filtrar a Lista de Comentários](#filter-the-comment-list)
@@ -88,9 +88,9 @@ Para obter mais informações sobre os recursos de um administrador de grupo, co
 
 ### Modo de comparação {#compare-mode}
 
-Agora você pode usar o modo de comparação no visualizador de provas de HTML5 ao exibir provas estáticas e de vídeo. 
+Agora você pode usar o modo de comparação no visualizador de provas do HTML5 ao exibir provas estáticas e de vídeo. 
 
-O modo Comparar no visualizador de provas HTML5 difere do visualizador de provas herdado das seguintes maneiras:
+O modo Comparar no visualizador de provas do HTML5 difere do visualizador de provas herdado das seguintes maneiras:
 
 * Ao iniciar o modo Comparar, a versão mais recente passa para o lado direito, com a versão que você está comparando abrindo à esquerda.
 
@@ -176,7 +176,7 @@ Para obter mais informações, consulte &quot;Criar e gerenciar modelos de layou
 
 ### Adicionar tarefas e problemas à iteração diretamente da página Detalhes da tarefa ou problema {#add-tasks-and-issues-to-the-iteration-directly-from-the-task-or-issue-details-page}
 
-Agora é possível adicionar tarefas e problemas que estão atribuídos a uma Equipe Ágil a uma iteração diretamente da tarefa ou problema.
+Agora é possível adicionar tarefas e problemas que estão atribuídos a uma Equipe Agile a uma iteração diretamente da tarefa ou problema.
 
 Anteriormente, só era possível adicionar tarefas a uma iteração a partir do backlog. 
 
@@ -184,19 +184,19 @@ Para obter mais informações, consulte [Criar uma iteração](../../../../agile
 
 ### Incluir problemas no backlog de Scrum e no Storyboard de uma Equipe Ágil {#include-issues-on-the-scrum-backlog-and-story-board-for-an-agile-team}
 
-Agora os problemas são incluídos por padrão no backlog da sua equipe ágil ao usar a metodologia ágil de Scrum (os problemas não são exibidos no backlog de uma equipe ágil ao usar a metodologia Kanban).
+Agora os problemas são incluídos por padrão no backlog da equipe Agile ao usar a metodologia Scrum Agile (os problemas não são exibidos no backlog de uma equipe Agile ao usar a metodologia Kanban).
 
 Antes dessa alteração, somente tarefas podiam ser adicionadas ao backlog. Se você quiser adicionar um problema, primeiro é necessário converter o problema em uma tarefa antes que ele possa ser adicionado.
 
-Para obter informações sobre problemas no backlog, consulte  [Gerenciar o backlog ágil](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obter informações sobre problemas no backlog, consulte  [Gerenciar o backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Aplicar agrupamentos e filtros ao backlog de uma equipe Agile {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
-As opções de Agrupamento e Filtro agora estão disponíveis no backlog ágil, permitindo organizar o backlog por agrupamentos, bem como filtrar tarefas e problemas específicos.
+As opções de Agrupamento e Filtro agora estão disponíveis no backlog Agile, permitindo organizar o backlog por agrupamentos, bem como filtrar tarefas e problemas específicos.
 
-Antes dessa alteração, você poderia aplicar em exibições ao backlog ágil.
+Antes dessa alteração, você poderia aplicar em exibições ao backlog do Agile.
 
-Para obter mais informações, consulte  [Gerenciar a lista de pendências ágil](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) no  [Gerenciar o backlog ágil](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obter mais informações, consulte  [Gerenciar a lista de pendências Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) em  [Gerenciar o backlog Agile](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Criar uma iteração em Branco e Atualizar Mais Tarde {#create-a-blank-iteration-and-update-it-later}
 

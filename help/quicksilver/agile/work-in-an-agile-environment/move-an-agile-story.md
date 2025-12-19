@@ -2,24 +2,24 @@
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Mover uma história ágil
-description: É possível mover uma história ágil para uma iteração diferente (para equipes Scrum) ou para o backlog (para equipes Kanban e Scrum).
+description: Você pode mover uma história Agile para uma iteração diferente (para equipes Scrum) ou para o backlog (para equipes Kanban e Scrum).
 author: Jenny
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Mover uma história ágil
+# Mover uma história do Agile
 
-É possível mover uma história ágil para uma iteração diferente (para equipes Scrum) ou para o backlog (para equipes Kanban e Scrum).
+Você pode mover uma história Agile para uma iteração diferente (para equipes Scrum) ou para o backlog (para equipes Kanban e Scrum).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,8 +33,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 

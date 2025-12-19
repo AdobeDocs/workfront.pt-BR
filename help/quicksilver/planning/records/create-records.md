@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '3147'
+source-wordcount: '3143'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Para obter informações sobre o gerenciamento de registros nas exibições de t
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    </td> 
   </tr> 
   <tr> 
@@ -208,7 +208,7 @@ O formulário de solicitação do tipo de registro é aberto.
 
    * Um novo registro é adicionado ao tipo de registro, a menos que você opte por adicioná-lo usando um formulário de solicitação com um processo de aprovação. A aprovação deve ser concedida por todos os aprovadores antes que o registro seja criado.
    * Vários registros são adicionados ao tipo de registro se você tiver adicionado registros usando uma planilha CSV ou do Excel.
-   * Uma nova solicitação será adicionada na guia Planejamento da área Solicitações do Workfront, se você tiver adicionado a solicitação enviando um formulário de solicitação.
+   * Uma nova solicitação será adicionada na área Solicitações do Workfront se você tiver adicionado a solicitação enviando um formulário de solicitação.
 
 <!-- this is not possible anymore: 
 

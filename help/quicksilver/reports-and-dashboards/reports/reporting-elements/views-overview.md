@@ -7,7 +7,7 @@ description: Você pode personalizar o tipo de informação exibida em uma lista
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -38,8 +38,8 @@ A seguir estão tipos de exibições que podem ser aplicadas em listas ou relat�
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>Exibições padrão</strong></td>
-        <td>Você pode aplicá-los a qualquer lista ou relatório de objetos. As exibições padrão são altamente personalizáveis. Você pode personalizar e compartilhar uma exibição padrão com outras pessoas. Para obter informações, <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Crie ou edite exibições no Adobe Workfront</a>.</td>
+        <td><strong>Visualização padrão</strong></td>
+        <td>Você pode aplicá-lo a qualquer lista ou relatório de objetos. As exibições padrão são altamente personalizáveis. Você pode personalizar e compartilhar uma exibição padrão com outras pessoas. Para obter informações, <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Crie ou edite exibições no Adobe Workfront</a>.</td>
     </tr>
     <tr>
         <td><strong>Visualização do quadro</strong></td>

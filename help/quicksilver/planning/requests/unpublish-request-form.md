@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ Também é possível alterar as entidades com as quais você compartilha um form
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -54,7 +54,7 @@ Ou
 </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
   </td> 
   </tr> 
   <tr> 
@@ -133,4 +133,4 @@ O link ou botão **Cancelar publicação** é alterado para **Publicar**.
 
    Todos os registros adicionados anteriormente usando o formulário de solicitação permanecem na página de tipo de registro.
 
-   Todas as solicitações adicionadas anteriormente permanecem na área Solicitações do Workfront, na guia Planejamento.
+   Todas as solicitações adicionadas anteriormente permanecem na área Solicitações do Workfront.
