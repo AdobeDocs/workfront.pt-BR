@@ -8,10 +8,10 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '445'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Para obter informações sobre como criar problemas no [!DNL Workfront], consult
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,7 +87,7 @@ Para personalizar os nomes dos tipos de solicitação:
 1. Clique em **[!UICONTROL Preferências do projeto]** > **[!UICONTROL Status]**.
 
 1. Clique na guia **[!UICONTROL Problemas]**.
-1. Na parte superior da guia **[!UICONTROL Problemas]**, passe o mouse sobre o nome de um tipo de solicitação e clique no ícone **[!UICONTROL Editar]** que aparece.
+1. Na parte superior da guia **[!UICONTROL Problemas]**, clique na lista suspensa, selecione um tipo de solicitação e clique no ícone **[!UICONTROL Editar]** que aparece.
 
    ![Editar nome do tipo de solicitação](assets/edit-request-type-name-nwe.png)
 

@@ -6,14 +6,18 @@ description: Com a versão 20.3 (prevista para agosto de 2020), o Adobe Workfron
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
 
 # Remover SMTP personalizado como uma opção de email de saída
+
+>[!NOTE]
+>
+>A funcionalidade descrita neste artigo não está mais disponível e o artigo será removido em breve.
 
 Com a versão 20.3 (prevista para agosto de 2020), o Adobe Workfront está migrando para um novo sistema de email que melhorará muito a confiabilidade da sua entrega de email para atualizações e notificações do Workfront. Como resultado, os clientes não poderão mais usar seu próprio servidor de email SMTP para retransmitir seu email da plataforma Workfront para o recipient pretendido. Todos os e-mails serão enviados diretamente do servidor de e-mail da Workfront.
 
@@ -25,4 +29,4 @@ A configuração destacada nesta captura de tela fará a transição automática
 
 Se você configurou um servidor de email SMTP personalizado, **recomendamos que você entre em contato com a equipe de TI** para garantir que os emails de notifications@my.workfront.com não sejam bloqueados para emails de entrada em seu sistema. Você também pode consultar Configuração do firewall para obter detalhes sobre os endereços IP de onde vêm nosso tráfego e email.
 
-Se tiver outras dúvidas ou dúvidas, entre em contato com a [Equipe de suporte da Workfront](https://experienceleague.adobe.com/pt-br?support-tab=home#support).
+Se tiver outras dúvidas ou dúvidas, entre em contato com a [Equipe de suporte da Workfront](https://experienceleague.adobe.com/?support-tab=home&lang=pt-BR#support).

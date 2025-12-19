@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 0%
+source-wordcount: '649'
+ht-degree: 2%
 
 ---
 
@@ -24,14 +24,14 @@ Como administrador do [!DNL Adobe Workfront], você pode exibir e gerenciar os a
 >* No contexto de OAuth2, &quot;aplicativo OAuth2&quot; se refere a esse tipo de link de acesso entre um aplicativo e um servidor, como [!DNL Workfront]. Para obter mais informações, consulte [Criar aplicativos OAuth2 para [!DNL Workfront] integrações](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 >* Você pode ter até dez aplicativos OAuth2 ao mesmo tempo.
 
-* Para obter informações sobre como criar aplicativos OAuth2 personalizados, consulte [Criar aplicativos OAuth2 para [!DNL Workfront] integrações](../../administration-and-setup/configure-integrations/create-oauth-application.md)
-* Para obter instruções sobre como configurar e usar o aplicativo OAuth2 com credenciais de usuário (fluxo de código de autorização), consulte [Configurar e usar os aplicativos OAuth 2 personalizados da sua organização usando o fluxo de código de autorização](../../wf-api/api/oauth-app-code-token-flow.md).
-* Para obter instruções sobre como configurar e usar o aplicativo OAuth2 usando a autenticação de servidor (fluxo JWT), consulte [Configurar e usar os aplicativos OAuth 2 personalizados da sua organização usando o fluxo JWT](../../wf-api/api/oauth-app-jwt-flow.md).
+* Para obter informações, instruções e detalhes sobre como criar aplicativos OAuth2 personalizados, consulte [Criar aplicativos OAuth2 para [!DNL Workfront] integrações](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+* Para obter informações, instruções e detalhes para configurar e usar o aplicativo OAuth2 com credenciais de usuário (fluxo de código de autorização), consulte [Configurar e usar os aplicativos OAuth 2 personalizados da sua organização usando o fluxo de código de autorização](../../wf-api/api/oauth-app-code-token-flow.md).
+* Para obter informações, instruções e detalhes para configurar e usar o aplicativo OAuth2 usando a autenticação de servidor (fluxo JWT), consulte [Configurar e usar os aplicativos OAuth 2 personalizados de sua organização usando o fluxo JWT](../../wf-api/api/oauth-app-jwt-flow.md).
 * Para obter instruções sobre como configurar e usar o aplicativo OAuth2 usando o PKCE, consulte [Configurar e usar os aplicativos OAuth 2 personalizados de sua organização usando o fluxo de PKCE](../../wf-api/api/oauth-app-pkce-flow.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Como administrador do [!DNL Adobe Workfront], você pode exibir e gerenciar os a
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> <p>Plano</p></td> 
+   <td><p>Padrão</p> <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 

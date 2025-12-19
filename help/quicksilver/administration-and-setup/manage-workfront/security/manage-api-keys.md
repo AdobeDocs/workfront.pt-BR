@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+source-git-commit: 87d3443c7b08c59d435e852c6a17df297e7023d6
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 2%
+source-wordcount: '1356'
+ht-degree: 3%
 
 ---
 
@@ -19,6 +19,21 @@ ht-degree: 2%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
+
+
+
+>[!IMPORTANT]
+>
+>A Workfront não recomenda mais o uso do ponto de extremidade ou das chaves de API `/login`. Em vez disso, use um dos seguintes métodos de autenticação:
+>
+>* Autenticação do servidor com JWT
+>* Autenticação de usuário com OAuth2
+>
+>Para obter instruções sobre como configurar esses métodos de autenticação, consulte [Criar aplicativos OAuth2 para integrações do Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>
+>Para obter instruções sobre como usar a autenticação de servidor no Workfront, consulte [Configurar e usar os aplicativos OAuth 2 personalizados da sua organização usando o fluxo JWT](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>
+>Para obter instruções sobre como usar a autenticação de usuário no Workfront, consulte [Configurar e usar os aplicativos OAuth 2 personalizados de sua organização usando o fluxo de código de autorização](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
 
 Para minimizar as vulnerabilidades de segurança da API, os administradores do Adobe Workfront podem gerenciar as Chaves de API usadas para permitir que os aplicativos acessem o Workfront em nome de um usuário.
 
@@ -35,7 +50,7 @@ Exemplos de aplicativos que usam a API do Workfront são:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +62,7 @@ Exemplos de aplicativos que usam a API do Workfront são:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p><p>Plano</p></td> 
+   <td><p>Padrão</p><p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -73,10 +88,6 @@ Os administradores do Workfront também têm uma chave de API exclusiva. Quando 
 ## Gerenciar uma chave de API do administrador
 
 Você pode gerar, redefinir ou remover a Chave de API da conta de usuário administrador.
-
->[!NOTE]
->
->Você também pode gerar uma Chave de API por meio da API. Para obter mais informações, consulte a seção [API de Assinatura de Evento](../../../wf-api/general/event-subs-api.md) em [API de Assinatura de Evento](../../../wf-api/general/event-subs-api.md).
 
 {{step-1-to-setup}}
 

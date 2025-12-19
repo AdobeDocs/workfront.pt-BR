@@ -6,9 +6,9 @@ description: Você pode alterar o idioma em que exibe o Adobe Workfront e emails
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1168'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Atualmente, o Workfront Fusion só oferece suporte ao inglês.
 * O Workfront Fusion não é compatível com o uso de caracteres de texto em outros idiomas em campos inseridos pelo usuário.
 
 Sua empresa deve comprar uma licença do Workfront Fusion para que você acesse o Workfront Fusion.\
-Para obter mais informações sobre o Workfront Fusion, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter mais informações sobre o Workfront Fusion, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Alterar o idioma
 
@@ -106,10 +106,10 @@ Para ver todas as traduções disponíveis para o idioma escolhido, a localidade
 
 Para determinar se sua organização foi migrada para o Adobe Admin Console, examine o URL usado para exibir o Workfront.
 
-| URL | Experiência do Adobe |
-|---|---|
-| (NomeEmpresa).my.workfront.com | Não migrado para o Adobe Admin Console |
-| experience.adobe.com | Migrado para o Adobe Admin Console |
+| URL | Experiência do Adobe | Controle de idioma |
+|---|---|---|
+| (NomeEmpresa).my.workfront.com | Não migrado para o Adobe Admin Console | [Alterar o idioma do navegador](#change-the-browser-language) |
+| experience.adobe.com | Migrado para o Adobe Admin Console | [Alterar o idioma do Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) |
 
 * [Alterar o idioma do navegador](#change-the-browser-language)
 * [Alterar o idioma do Adobe Experience Cloud](#change-the-adobe-experience-cloud-language)

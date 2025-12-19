@@ -6,10 +6,10 @@ description: Acessar o  [!DNL Workfront] por meio do Adobe Experience Cloud prop
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 29083931a4910c99027edb856ab200c8a4345679
+source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 0%
+source-wordcount: '718'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ Se sua organização faz parte da Experiência unificada da Adobe, a URL usada p
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,6 +108,9 @@ Esse menu permite:
 
 * Escolha a formatação do **[!UICONTROL Tema escuro]** para [!DNL Adobe Experience Cloud].
 * Definir **[!UICONTROL Preferências]** para [!DNL Adobe Experience Cloud], incluindo as preferências de idioma principal e secundário.
+  >[!NOTE]
+  >
+  >As configurações de data se baseiam nas configurações de idioma principal. Por exemplo, selecionar **Inglês (Estados Unidos)** exibe datas no formato MM/DD/AAAA, ao selecionar **Inglês (Reino Unido)** exibe datas no formato DD/MM/AAAA.
 * Acesse seu **[!UICONTROL [!DNL Workfront]Perfil]**. Quando você estiver no perfil, clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon.png) e selecione **[!UICONTROL Editar]**. Para obter mais informações sobre o perfil, consulte [Configurar minhas configurações](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sair]** do Adobe Experience Cloud.
 
