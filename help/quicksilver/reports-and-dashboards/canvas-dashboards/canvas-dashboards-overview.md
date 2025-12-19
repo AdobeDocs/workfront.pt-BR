@@ -7,9 +7,9 @@ author: Courtney and Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 96be3dbf57e87da19cef79426b1c8cd2290f60df
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '528'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,10 @@ Com os Painéis de Controle do Canvas, você pode criar relatórios sobre recurs
 * O administrador do Workfront deve fornecer acesso de Edição aos painéis no Nível de acesso para criar ou editar um Painel da tela. Para obter informações sobre como conceder acesso a Editar, consulte [Conceder acesso a relatórios, painéis e calendários](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Artigos do Canvas Dashboard
+
+* Usar painéis do Canvas
+
+   * [Usar painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
 
 * Painéis do Canvas beta
 

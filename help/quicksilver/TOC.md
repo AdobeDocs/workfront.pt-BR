@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 7a29fcef1ee9a3010b7efc0713b5bbe9ca48b5cc
 workflow-type: tm+mt
-source-wordcount: '13631'
+source-wordcount: '13634'
 ht-degree: 2%
 
 ---
@@ -1535,6 +1535,7 @@ ht-degree: 2%
    * [Relatórios e painéis: índice do artigo](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Painéis de tela {#canvas-dashboards}
       * [Visão geral dos Painéis do Canvas](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * [Usar painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
       * Criar painéis {#create-dashboards}
          * [Criar painéis da tela de desenho: índice do artigo](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards-article-index.md)
          * [Criar um painel da tela de desenho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
