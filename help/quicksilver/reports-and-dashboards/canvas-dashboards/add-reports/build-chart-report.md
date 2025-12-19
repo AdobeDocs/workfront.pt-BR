@@ -6,9 +6,9 @@ description: Um relatório de gráfico que visualiza seus dados como um gráfico
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: bb65fa45f6fce762920627ad0fb6fd1d832f23a3
+source-git-commit: 56af1b6c8e4ae7bb990288d9e6a4326ffd18c2c9
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1838'
 ht-degree: 1%
 
 ---
@@ -163,7 +163,7 @@ Há muitas opções de configuração disponíveis para criar um relatório de g
 
 Siga as etapas abaixo para configurar a seção **Filtro**:
 
-1. No painel esquerdo, clique no ícone **Filtro**![&#x200B; Filtro](assets/filter-icon.png).
+1. No painel esquerdo, clique no ícone **Filtro**![ Filtro](assets/filter-icon.png).
 1. Selecione **Editar filtro**.
 1. Clique em **Adicionar condição** e especifique o campo pelo qual deseja filtrar e o modificador que define o tipo de condição que o campo deve atender.
 1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.
@@ -283,6 +283,16 @@ Nesta seção, veremos as etapas para criar um gráfico de colunas que mostra as
 1. Clique em **Salvar** para criar o relatório e adicioná-lo ao painel.
 
 ## Considerações ao criar um relatório de gráfico
+
+### Relatórios com dados financeiros
+
+Os usuários com acesso de Visualização ou Edição a Dados financeiros em seu nível de acesso ainda verão os dados financeiros nas visualizações do Painel do Canvas, mesmo se a permissão de Visualização de finanças for removida no nível de tarefa ou projeto.
+
+* Os usuários sem direitos de dados financeiros no nível de acesso não verão dados financeiros nos relatórios.
+* Os usuários que veem dados financeiros estão limitados a registros para os quais já têm permissão para visualizar (projetos, tarefas, problemas, etc.). Eles não verão valores financeiros para registros que não podem acessar.
+* Os criadores de relatórios devem ter cuidado ao incluir dados financeiros nos painéis e estar cientes de com quem compartilham painéis para evitar acesso não intencional.
+
+Esse é um limite conhecido e pretendemos resolvê-lo o mais rápido possível.
 
 ### Utilização do seletor de campos
 

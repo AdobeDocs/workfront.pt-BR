@@ -6,10 +6,10 @@ description: Um relatório de KPI que exibe de forma destacada um único KPI agr
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: d7caaa0871263fb8ef4224a9c298778f3ee2454a
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 0%
+source-wordcount: '1260'
+ht-degree: 1%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->&#x200B;>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -48,7 +48,7 @@ ht-degree: 0%
  <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td> 
-<p>Standard</p> 
+<p>Padrão</p> 
 <p>Plano</p> 
    </td> 
    </tr> 
@@ -186,6 +186,16 @@ Para obter mais informações sobre exemplos de relatório de KPI, consulte [Cri
 1. Clique em **Salvar** no canto superior direito da tela.
 
 ## Considerações ao criar um relatório de KPI
+
+### Relatórios com dados financeiros
+
+Os usuários com acesso de Visualização ou Edição a Dados financeiros em seu nível de acesso ainda verão os dados financeiros nas visualizações do Painel do Canvas, mesmo se a permissão de Visualização de finanças for removida no nível de tarefa ou projeto.
+
+* Os usuários sem direitos de dados financeiros no nível de acesso não verão dados financeiros nos relatórios.
+* Os usuários que veem dados financeiros estão limitados a registros para os quais já têm permissão para visualizar (projetos, tarefas, problemas, etc.). Eles não verão valores financeiros para registros que não podem acessar.
+* Os criadores de relatórios devem ter cuidado ao incluir dados financeiros nos painéis e estar cientes de com quem compartilham painéis para evitar acesso não intencional.
+
+Esse é um limite conhecido e pretendemos resolvê-lo o mais rápido possível.
 
 ### Utilização do seletor de campos
 
