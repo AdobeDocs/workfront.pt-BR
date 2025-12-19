@@ -6,9 +6,9 @@ description: Você pode personalizar o tipo de informação exibida na tela usan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '893'
 ht-degree: 4%
 
 ---
@@ -60,10 +60,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Criar ou personalizar um modo de exibição
 
-O processo de criação ou personalização de uma view difere dependendo se você está criando ou personalizando uma view padrão ou uma view Agile ou Board.
-
-* [Criar ou personalizar um modo de exibição padrão](#create-or-customize-a-standard-view)
-* [Criar ou personalizar uma visualização Agile](#create-or-customize-an-agile-view)
+O processo de criação ou personalização de uma view difere dependendo se você está criando ou personalizando uma view padrão ou uma view Quadro.
 
 ### Criar ou personalizar um modo de exibição padrão {#create-or-customize-a-standard-view}
 
@@ -161,13 +158,15 @@ A caixa de diálogo **Personalizar exibição** é exibida.
 
    Seu acesso determina como a visualização é salva. Se você criou a visualização originalmente, é possível salvar as alterações; caso contrário, será solicitado que você salve uma versão. Lembre-se de que as alterações feitas na exibição afetam os usuários com os quais a exibição foi compartilhada.
 
-### Criar ou personalizar uma visualização Agile {#create-or-customize-an-agile-view}
+### Criar ou personalizar uma exibição de Quadro {#create-or-customize-an-agile-view}
 
-As exibições Agile, também chamadas de exibições de Quadro, são exibidas somente para listas de tarefas e problemas em um projeto.
+Você pode gerenciar projetos seguindo uma metodologia Agile usando uma visualização de Quadro.
+
+Os modos de exibição de quadro estão disponíveis apenas para listas de tarefas e problemas em um projeto.
 
 Eles são pré-configurados, mas você pode modificar determinadas configurações para eles.
 
-Para obter mais informações sobre exibições Agile ou Board, consulte o artigo [Gerenciar um projeto na Exibição Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Para obter mais informações sobre exibições Agile ou Board, consulte o artigo [Gerenciar um projeto Agile na exibição Board](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 

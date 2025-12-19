@@ -1,31 +1,31 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
-title: Gerenciar um projeto na visualização Agile
-description: Você pode aproveitar a funcionalidade ágil para o seu projeto sem os desafios administrativos que normalmente acompanham as práticas ágeis (como gerenciar um backlog da equipe ou criar iterações).
+title: Gerenciar um projeto Agile na exibição de Quadro
+description: Você pode aproveitar a funcionalidade Agile para o seu projeto sem os desafios administrativos que normalmente acompanham as práticas Agile (como gerenciar um backlog da equipe ou criar iterações).
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 5%
 
 ---
 
-# Gerenciar um projeto na visualização Agile
+# Gerenciar um projeto Agile na exibição de Quadro
 
 <!-- Audited: 11/2025 -->
 
-Você pode aproveitar a funcionalidade ágil para o seu projeto sem os desafios administrativos que normalmente acompanham as práticas ágeis (como gerenciar um backlog da equipe ou criar iterações).
+Você pode aproveitar a funcionalidade Agile para o seu projeto sem os desafios administrativos que normalmente acompanham as práticas Agile (como gerenciar um backlog da equipe ou criar iterações).
 
-Você pode trabalhar em um ambiente ágil que usa um backlog de equipe e permite criar iterações de tarefas no backlog.
+Você pode trabalhar em um ambiente Agile que use um backlog de equipe e permita criar iterações de tarefas no backlog.
 
 Para obter informações, consulte [Trabalhar em um ambiente ágil](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -95,11 +95,11 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 </table>-->
 
 
-## Exibir um projeto na exibição Agile
+## Exibir um projeto na exibição de Quadro
 
-Você pode exibir as tarefas ou os problemas em um projeto em uma exibição ágil, em vez de em uma lista, para aproveitar a funcionalidade ágil para o desenvolvimento do seu projeto.
+Você pode exibir as tarefas ou os problemas em um projeto em uma exibição de Quadro em vez de em uma lista, para aproveitar a funcionalidade Ágil para o desenvolvimento do seu projeto.
 
-1. Vá para o projeto que deseja exibir em um modo de exibição ágil e clique em **Tarefas** ou **Problemas** no painel esquerdo.
+1. Vá para o projeto que você deseja gerenciar de acordo com a metodologia Agile e clique em **Tarefas** ou **Problemas** no painel esquerdo.
 1. Clique no ícone **Exibição do painel** ![Ícone do painel](assets/board-icon-for-agile-view.png).
 
    A exibição de quadro do projeto é exibida por padrão.

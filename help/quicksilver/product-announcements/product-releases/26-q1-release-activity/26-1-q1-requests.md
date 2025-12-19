@@ -4,9 +4,9 @@ description: Melhorias nas solicitações do primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac1857f4cf4c6b3823773902ae8be439e2dcd55a
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Para obter mais informações sobre rascunhos de solicitações, consulte [Criar
 
 Para facilitar a organização e a organizada das solicitações, adicionamos a capacidade de excluir solicitações à nova experiência de solicitação. Agora é possível excluir solicitações enviadas. Os administradores do Workfront e do Workfront Planning Workspace também podem excluir solicitações.
 
-Anteriormente, a exclusão de solicitações não estava disponível.
+Anteriormente, esse recurso não estava disponível na nova experiência de solicitação.
 
 Para obter informações e instruções, consulte [Excluir uma solicitação enviada ou rascunho de solicitação](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 

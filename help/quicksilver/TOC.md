@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 8e5a35f20675e911a5ba7251b39ead7c1770b666
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '13630'
+source-wordcount: '13631'
 ht-degree: 2%
 
 ---
@@ -1241,7 +1241,7 @@ ht-degree: 2%
          * [Remover usuários dos projetos](manage-work/projects/manage-projects/remove-users-from-projects.md)
          * [Agendar recursos para um projeto](manage-work/projects/manage-projects/schedule-resources-for-projects.md)
          * [Comunicar com os membros da equipe do projeto](manage-work/projects/manage-projects/communicate-with-project-team-members.md)
-         * [Gerenciar um projeto na visualização Agile](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
+         * [Gerenciar um projeto Agile na visualização do Quadro](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [Entender as métricas do projeto](manage-work/projects/manage-projects/project-metrics.md)
          * [Visão geral dos limites do projeto](manage-work/projects/manage-projects/project-maximums.md)
          * [Resumir atualizações com o Assistente de IA](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

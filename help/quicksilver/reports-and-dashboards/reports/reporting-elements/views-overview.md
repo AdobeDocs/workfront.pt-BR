@@ -7,9 +7,9 @@ description: Você pode personalizar o tipo de informação exibida em uma lista
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,8 @@ A seguir estão tipos de exibições que podem ser aplicadas em listas ou relat�
         <td>Você pode aplicá-los a qualquer lista ou relatório de objetos. As exibições padrão são altamente personalizáveis. Você pode personalizar e compartilhar uma exibição padrão com outras pessoas. Para obter informações, <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Crie ou edite exibições no Adobe Workfront</a>.</td>
     </tr>
     <tr>
-        <td><strong>Visualização Agile</strong></td>
-        <td>É possível aplicar a visualização Quadro ou Agile a uma lista de tarefas na seção Tarefas de um projeto ou a uma lista de problemas na seção Problemas do projeto. Para obter informações, consulte <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">Gerenciar um projeto na Exibição Agile</a>.</td>
+        <td><strong>Visualização do quadro</strong></td>
+        <td>É possível aplicar a exibição Quadro a uma lista de tarefas na seção Tarefas de um projeto ou a uma lista de problemas na seção Problemas do projeto para gerenciar seus projetos usando uma metodologia Agile. Para obter informações, consulte <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">Gerenciar um projeto Agile na exibição de Quadro</a>.</td>
     </tr>
     <tr>
         <td><strong>exibição de Gantt</strong></td>
@@ -66,7 +66,7 @@ Você pode compartilhar os elementos de uma exibição padrão.
 
 Para obter informações sobre como compartilhar um modo de exibição padrão, consulte [Compartilhar um filtro, modo de exibição ou agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-Não é possível compartilhar as visualizações de Gantt e Agile. Todos com acesso às áreas em que essas exibições são exibidas podem exibir as mesmas informações.
+Não é possível compartilhar as visualizações de Gantt e Tabuleiro. Todos com acesso às áreas em que essas exibições são exibidas podem exibir as mesmas informações.
 
 <!-- add something about the enhanced views here, when we have a link-->
 
@@ -74,7 +74,7 @@ Não é possível compartilhar as visualizações de Gantt e Agile. Todos com ac
 
 A capacidade de remover uma visualização funciona de forma diferente, dependendo se você criou inicialmente a visualização ou se ela foi compartilhada com você. Não é possível remover uma exibição padrão.
 
-Não é possível remover as visualizações de Gantt ou Agile.
+Não é possível remover as visualizações de Gantt ou Quadro.
 
 Para obter mais informações sobre como remover um modo de exibição padrão, consulte [Remover filtros, modos de exibição e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
