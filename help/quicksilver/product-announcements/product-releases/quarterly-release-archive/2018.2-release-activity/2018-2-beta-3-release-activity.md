@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 239a4e7e-e9db-4cf0-a703-8888e00f0d83
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Para obter informações sobre como incluir sinalizadores em relatórios de tare
 
 ## Editar campos diretamente em um cartão de história Agile {#edit-fields-directly-on-an-agile-story-card}
 
-Ao visualizar o storyboard Agile de uma equipe ágil, agora é possível editar campos em linha, diretamente no cartão da história. É possível editar qualquer campo que você tenha acesso para editar ao exibir a tarefa ou problema original.
+Ao visualizar o storyboard do Agile de uma equipe do Agile, agora é possível editar campos em linha, diretamente no cartão da história. É possível editar qualquer campo que você tenha acesso para editar ao exibir a tarefa ou problema original.
 
 Antes dessa alteração, as informações no cartão de história só podiam ser visualizadas, não editadas.
 

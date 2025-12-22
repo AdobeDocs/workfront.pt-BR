@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 90d472307ffb6b524154696b4c14d725db44b079
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2838'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -89,12 +89,12 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
    <ul><li><p>Uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar o AEM Assets aos tipos de registro do Planning.</p>
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas da GenStudio</p>
-   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    </td> 
   </tr> 
   <tr> 
@@ -252,8 +252,9 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    >[!TIP]
    >
-   >Além do <span class="preview">limite de 30 campos de conexão para um tipo de registro</span>, há um limite de 500 campos para um tipo de registro. Recomendamos manter essa configuração desativada, especialmente para tipos de registros taxonômicos, para evitar atingir esse limite.
+   >* Além do <span class="preview">limite de 30 campos de conexão para um tipo de registro</span>, há um limite de 500 campos para um tipo de registro. Recomendamos manter essa configuração desativada, especialmente para tipos de registros taxonômicos, para evitar atingir esse limite.
    >
+   > <!--* <span class="preview">Selecting the **Create corresponding field on linked record type** is a prerequisite for creating hierarchies.</span>-_>
 
 1. (Condicional) Se você habilitou **Criar campo correspondente no tipo de registro vinculado**, escolha entre as seguintes opções para indicar a quantidade de registros aos quais os usuários podem se conectar e de:
 
@@ -278,7 +279,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condicional) Ao se conectar ao Experience Manager Assets, a um tipo de registro do Workfront Planning ou a uma Marca GenStudio, escolha uma das seguintes opções na área **Aparência do registro**:

@@ -6,10 +6,10 @@ description: Os cronogramas definidos em [!DNL Adobe Workfront] afetam o gráfic
 author: Jenny
 feature: Agile
 exl-id: 72650c19-434d-463a-8924-49219604ff01
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Os cronogramas definidos em [!DNL Adobe Workfront] afetam o gráfico de burndown excluindo dias de folga (finais de semana e feriados) do burndown.
 
-Por padrão, o gráfico de burndown usa a programação padrão. Além da programação padrão, as equipes ágeis podem optar por usar também uma programação alternativa para incorporar dias não úteis específicos da equipe. Esse cronograma alternativo é refletido no gráfico de burndown de qualquer iteração atribuída à equipe. A programação alternativa afeta somente o gráfico de burndown. (Para obter mais informações sobre o agendamento padrão, bem como sobre como o administrador do [!DNL Workfront] pode criar um agendamento específico de equipe, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).)
+Por padrão, o gráfico de burndown usa a programação padrão. Além da programação padrão, as equipes Agile podem optar por usar também uma programação alternativa para incorporar dias não úteis específicos da equipe. Esse cronograma alternativo é refletido no gráfico de burndown de qualquer iteração atribuída à equipe. A programação alternativa afeta somente o gráfico de burndown. (Para obter mais informações sobre o agendamento padrão, bem como sobre como o administrador do [!DNL Workfront] pode criar um agendamento específico de equipe, consulte [Criar um agendamento](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).)
 
 O gráfico de burndown não considera dias parciais. Por exemplo, se sua equipe trabalha 4 horas todas as sextas-feiras, isso é representado como um dia inteiro no gráfico de burndown.
 
@@ -25,7 +25,7 @@ Para obter mais informações sobre como usar o gráfico de burndown, consulte a
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,8 +39,8 @@ Para obter mais informações sobre como usar o gráfico de burndown, consulte a
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone da equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Selecione a Equipe Ágil que deseja gerenciar.
+1. Selecione a equipe Agile que você deseja gerenciar.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 
 1. Na seção **[!UICONTROL Agile]**, na área **[!UICONTROL Agendar]**, selecione o novo agendamento no menu suspenso.

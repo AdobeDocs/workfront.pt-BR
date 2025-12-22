@@ -2,24 +2,24 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Criar uma iteração
-description: As iterações são um componente essencial para as equipes ágeis de Scrum no planejamento da capacidade de trabalho. [!DNL Adobe Workfront] permite que equipes ágeis do Scrum gerenciem seu trabalho criando várias iterações para acomodar as necessidades da equipe.
+description: As iterações são um componente essencial para as equipes ágeis de Scrum no planejamento da capacidade de trabalho. [!DNL Adobe Workfront] permite que as equipes do Scrum Agile gerenciem seu trabalho criando várias iterações para acomodar as necessidades da equipe.
 author: Jenny
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # Criar uma iteração
 
-As iterações são um componente essencial para as equipes ágeis de Scrum no planejamento da capacidade de trabalho. [!DNL Adobe Workfront] permite que equipes ágeis do Scrum gerenciem seu trabalho criando várias iterações para acomodar as necessidades da equipe.
+As iterações são um componente essencial para as equipes ágeis de Scrum no planejamento da capacidade de trabalho. [!DNL Adobe Workfront] permite que as equipes do Scrum Agile gerenciem seu trabalho criando várias iterações para acomodar as necessidades da equipe.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,12 +70,12 @@ Você pode adicionar uma iteração à lista para criar rapidamente uma iteraç�
       <td>Adicione metas à iteração.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Data de Início]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Start Date]</strong></td> 
       <td>Insira a data em que a iteração deve começar.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Data de Término]</strong></td> 
-      <td><p>Insira a data em que a iteração deve terminar. A [!DNL Workfront] recomenda definir uma data de término não superior a 4 semanas a partir da data de início.</p><p>Dica: certifique-se de escolher um dia útil como a data final. O gráfico de burndown usa apenas dias úteis em seus cálculos.<br>Por padrão, o gráfico de burndown usa o agendamento padrão para definir dias úteis (conforme descrito em <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>). Ou, para incorporar dias não úteis específicos da equipe, as equipes ágeis podem optar por usar um agendamento alternativo (conforme descrito em "Definindo um Agendamento de Equipe Alternativo para Gráficos de Burndown" em <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Criar uma equipe ágil</a>).</p></td> 
+      <td role="rowheader"><strong>[!UICONTROL End Date]</strong></td> 
+      <td><p>Insira a data em que a iteração deve terminar. A [!DNL Workfront] recomenda definir uma data de término não superior a 4 semanas a partir da data de início.</p><p>Dica: certifique-se de escolher um dia útil como a data final. O gráfico de burndown usa apenas dias úteis em seus cálculos.<br>Por padrão, o gráfico de burndown usa o agendamento padrão para definir dias úteis (conforme descrito em <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>). Ou, para incorporar dias não úteis específicos da equipe, as equipes Agile podem optar por usar um agendamento alternativo (conforme descrito em "Definindo um Agendamento de Equipe Alternativo para Gráficos de Burndown" em <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Criar uma equipe Agile</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Capacidade]</strong></td> 
@@ -118,12 +118,12 @@ Use o recurso [!UICONTROL Planejar Iteração] para criar uma iteração usando 
       <td>Especifique um nome para a iteração.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Data de Início]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Start Date]</strong></td> 
       <td> Especifique a data em que a iteração deve começar.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Data Final]</strong> </td> 
-      <td><p>Especifique a data em que a iteração deve terminar. A [!DNL Workfront] recomenda definir uma data de término não superior a 4 semanas a partir da data de início.</p><p>Dica: certifique-se de escolher um dia útil como a data final. O gráfico de burndown usa apenas dias úteis em seus cálculos.<br>Por padrão, o gráfico de burndown usa o agendamento padrão para definir dias úteis (conforme descrito em <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>). Ou, para incorporar dias não úteis específicos da equipe, as equipes ágeis podem optar por usar um agendamento alternativo (conforme descrito em <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Usar um agendamento de equipe alternativo para gráficos de burndown</a>).</p></td> 
+      <td><p>Especifique a data em que a iteração deve terminar. A [!DNL Workfront] recomenda definir uma data de término não superior a 4 semanas a partir da data de início.</p><p>Dica: certifique-se de escolher um dia útil como a data final. O gráfico de burndown usa apenas dias úteis em seus cálculos.<br>Por padrão, o gráfico de burndown usa o agendamento padrão para definir dias úteis (conforme descrito em <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um agendamento</a>). Ou, para incorporar dias não úteis específicos da equipe, as equipes Agile podem optar por usar um agendamento alternativo (conforme descrito em <a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">Usar um agendamento de equipe alternativo para gráficos de burndown</a>).</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Foco]</strong></td> 

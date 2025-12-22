@@ -3,14 +3,14 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
 title: Criar uma iteração em um fluxo de trabalho
-description: Uma iteração é uma quantidade definida de tempo reservado para concluir o trabalho. Algumas equipes ágeis podem se referir a uma iteração como uma sprint.
+description: Uma iteração é uma quantidade definida de tempo reservado para concluir o trabalho. Algumas equipes Agile podem se referir a uma iteração como uma sprint.
 author: Jenny
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 >
 >Os fluxos de trabalho só estão disponíveis para um grupo específico de clientes.
 
-Uma iteração é uma quantidade definida de tempo reservado para concluir o trabalho. Algumas equipes ágeis podem se referir a uma iteração como uma sprint.
+Uma iteração é uma quantidade definida de tempo reservado para concluir o trabalho. Algumas equipes Agile podem se referir a uma iteração como uma sprint.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 

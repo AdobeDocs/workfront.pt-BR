@@ -2,24 +2,24 @@
 product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Criar uma história Agile em uma iteração
-description: Este artigo descreve como criar uma nova história ágil quando você já está na iteração.
+description: Este artigo descreve como criar uma nova história do Agile quando você já está na iteração.
 author: Jenny
 feature: Agile
 exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Criar uma história ágil em uma iteração
+# Criar uma história do Agile em uma iteração
 
-Este artigo descreve como criar uma nova história ágil quando você já está na iteração. Para obter informações sobre como criar uma história ágil a partir de uma tarefa, problema ou outra área de [!DNL Adobe Workfront], consulte [Adicionar histórias a uma iteração existente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+Este artigo descreve como criar uma nova história do Agile quando você já está na iteração. Para obter informações sobre como criar uma história Agile a partir de uma tarefa, problema ou outra área de [!DNL Adobe Workfront], consulte [Adicionar histórias a uma iteração existente](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -29,8 +29,8 @@ Este artigo descreve como criar uma nova história ágil quando você já está 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -43,9 +43,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 +++
 
-## Criar uma história ágil em uma iteração
+## Criar uma história do Agile em uma iteração
 
-1. Vá para a iteração ágil na qual deseja criar a história:
+1. Vá para a iteração Agile onde deseja criar a história:
 
    {{step1-to-team}}
 
@@ -67,7 +67,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td>Digite um nome para a história.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Descrição]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Description]</strong></td>
       <td>Digite uma descrição para a história.</td>
      </tr>
      <tr>

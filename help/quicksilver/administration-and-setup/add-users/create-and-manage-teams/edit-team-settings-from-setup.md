@@ -5,10 +5,10 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ Para obter informações sobre equipes, consulte [Visão geral das equipes](../.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -100,7 +100,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader">Ágil</td> 
-      <td>Especificar se é uma Equipe Ágil. Para obter informações sobre equipes ágeis e como gerenciar seu trabalho, consulte <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Criar uma equipe ágil</a>.</td> 
+      <td>Especifique se esta é uma Equipe Agile. Para obter informações sobre as equipes Agile e como gerenciar seu trabalho, consulte <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Criar uma equipe Agile</a>.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Trabalhar na tarefa</td> 

@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 0%
@@ -149,7 +149,7 @@ No lugar de um webinário de lançamento, convidamos você a se registrar no Ado
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Funcionalidade de iteração disponível em Adobe Workfront Boards</a></p>
-                        <p>Vários novos recursos disponíveis nas placas Workfront possibilitam o uso da funcionalidade ágil do Scrum. Esses recursos incluem:
+                        <p>Vários novos recursos disponíveis nas placas Workfront permitem usar a funcionalidade Agile Scrum. Esses recursos incluem:
                         <ul>
                         <li>Fluxos de trabalho para agrupar painéis relacionados à mesma equipe e colaborar no trabalho</li>
                         <li>Uma lista de cartões ou backlog de trabalho, com a opção de usar fontes para conectar cartões a tarefas e problemas do Workfront</li>
@@ -653,11 +653,11 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão 23.2, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/releases/current-updates).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão 23.2, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
 
 ### Funcionalidade que será removida em breve do Workfront
 

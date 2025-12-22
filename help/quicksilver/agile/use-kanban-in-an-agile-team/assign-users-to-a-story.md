@@ -6,10 +6,10 @@ description: Você pode atribuir usuários a histórias diretamente no quadro Ka
 author: Jenny
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ Você pode atribuir usuários a histórias diretamente no quadro Kanban.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,8 +33,8 @@ Você pode atribuir usuários a histórias diretamente no quadro Kanban.
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -49,7 +49,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone Equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe Kanban no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Vá para o quadro ágil [!UICONTROL Kanban] onde deseja atribuir usuários.
+1. Vá para o quadro Agile [!UICONTROL Kanban] onde deseja atribuir usuários.
 1. Vá para o bloco história no quadro [!UICONTROL Kanban] onde deseja adicionar um usuário.
 1. Clique no avatar da equipe no bloco da história (ou em um avatar do usuário, se já houver um atribuído), comece digitando o nome do usuário que deseja atribuir à história e clique no nome quando ele for exibido. Você também pode escolher um usuário sugerido.
 

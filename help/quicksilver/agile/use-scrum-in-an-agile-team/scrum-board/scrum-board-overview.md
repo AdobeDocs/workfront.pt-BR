@@ -3,11 +3,11 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: scrum-board
 title: Visão geral do quadro Scrum
-description: O storyboard Scrum ágil é exibido junto com o status de conclusão e o gráfico de burndown.
+description: O storyboard Scrum Agile é exibido junto com o status de conclusão e o gráfico de burndown.
 author: Jenny
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -18,10 +18,10 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-O storyboard ágil [!UICONTROL Scrum] é exibido junto com o status de conclusão e o gráfico de burndown. Estes componentes ágeis estão disponíveis nas seguintes situações no [!UICONTROL Adobe Workfront]:
+O storyboard Agile [!UICONTROL Scrum] é exibido junto com o status de conclusão e o gráfico de burndown. Estes componentes Agile estão disponíveis nas seguintes situações no [!UICONTROL Adobe Workfront]:
 
-* Em iterações ágeis. Para obter mais detalhes sobre como usar o storyboard Agile, o gráfico de burndown e o status de conclusão em um ambiente exclusivamente ágil (com listas de pendências e uma iteração), consulte [Trabalhar em um ambiente Agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
-* Ao visualizar um projeto em uma visualização ágil. Para obter informações sobre como aproveitar o storyboard Agile, o gráfico de burndown e o status de conclusão em um projeto existente, consulte [Gerenciar um projeto na Exibição Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+* Em iterações Agile. Para obter mais detalhes sobre como usar o storyboard Agile, o gráfico de burndown e o status de conclusão em um ambiente Agile puro (com listas de pendências e uma iteração), consulte [Trabalhar em um ambiente Agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+* Ao visualizar um projeto em uma visualização Agile. Para obter informações sobre como aproveitar o storyboard Agile, o gráfico de burndown e o status de conclusão em um projeto existente, consulte [Gerenciar um projeto na Exibição Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ![Iteração Agile](assets/agile-iteration-with-callouts.png)
 
@@ -35,7 +35,7 @@ O storyboard consiste nos seguintes elementos:
 
   Em uma iteração, essa coluna aparece no storyboard somente quando uma ou mais matérias no storyboard contêm pelo menos uma subtarefa que atende aos seguintes requisitos:
 
-   * Atribuída à mesma equipe ágil que a tarefa pai.
+   * Atribuída à mesma equipe Agile que a tarefa pai.
    * Pertence à iteração.
 
      Em um projeto, essa coluna aparece sempre que uma tarefa tem pelo menos uma subtarefa.
@@ -44,13 +44,13 @@ O storyboard consiste nos seguintes elementos:
 
 * **Status da tarefa**: indique como uma história está progredindo pela iteração ou projeto com base na coluna de status em que a história está.
 
-  Os status da tarefa podem ser personalizados para o projeto modificando a exibição ágil.
+  Os status da tarefa podem ser personalizados para o projeto modificando a visualização Agile.
 
 * **Swim Lane**: quando uma história principal e suas subtarefas aparecem no storyboard, uma pista de natação é criada especificamente para a história e suas subtarefas. Isso fornece uma distinção visual para ver melhor como as subtarefas de uma história estão progredindo no storyboard.
 
   Em uma iteração, as faixas de natação aparecem no storyboard somente quando uma história no storyboard contém pelo menos uma subtarefa que atende aos seguintes requisitos:
 
-   * Atribuída à mesma equipe ágil que a tarefa pai.
+   * Atribuída à mesma equipe Agile que a tarefa pai.
    * Pertence à iteração.
 
   Em um projeto, as faixas de natação aparecem sempre que uma tarefa tem pelo menos uma subtarefa ou uma tarefa pai.
@@ -67,10 +67,10 @@ Essa mesma lógica se aplica às subtarefas de segundo nível (subtarefas de sub
 
 ## Relação entre o Storyboard e o Backlog
 
-O backlog de iteração mostra apenas histórias ou subtarefas em que é possível definir uma estimativa. Se uma matéria pai tiver subtarefas que são exibidas no storyboard (porque elas são atribuídas à mesma equipe ágil e pertencem à iteração), a tarefa pai não será exibida no backlog. Nessa situação, somente as subtarefas são exibidas no backlog, enquanto as subtarefas e a matéria pai são exibidas no storyboard.
+O backlog de iteração mostra apenas histórias ou subtarefas em que é possível definir uma estimativa. Se uma matéria pai tiver subtarefas que são exibidas no storyboard (porque elas são atribuídas à mesma equipe Agile e pertencem à iteração), a tarefa pai não será exibida no backlog. Nessa situação, somente as subtarefas são exibidas no backlog, enquanto as subtarefas e a matéria pai são exibidas no storyboard.
 
-Por exemplo, suponha que a História A contenha Subtarefa 1 e Subtarefa 2 (e ambas as subtarefas sejam atribuídas à mesma equipe ágil). Nessa situação, a História A é exibida no storyboard em uma pista de natação com Subtarefa 1 e Subtarefa 2. No entanto, somente a Subtarefa 1 e a Subtarefa 2 são exibidas no backlog.
+Por exemplo, suponha que a História A contenha Subtarefa 1 e Subtarefa 2 (e ambas as subtarefas sejam atribuídas à mesma equipe Agile). Nessa situação, a História A é exibida no storyboard em uma pista de natação com Subtarefa 1 e Subtarefa 2. No entanto, somente a Subtarefa 1 e a Subtarefa 2 são exibidas no backlog.
 
-Essa mesma lógica se aplica às subtarefas de segundo nível (subtarefas de subtarefas). Se uma subtarefa tiver uma ou mais subtarefas de segundo nível atribuídas à mesma equipe ágil e pertencer à iteração, somente a subtarefa de segundo nível será exibida no backlog.
+Essa mesma lógica se aplica às subtarefas de segundo nível (subtarefas de subtarefas). Se uma subtarefa tiver uma ou mais subtarefas de segundo nível atribuídas à mesma equipe Agile e pertencer à iteração, somente a subtarefa de segundo nível será exibida no backlog.
 
 Para obter mais informações sobre a lista de pendências, consulte [Gerenciar a lista de pendências Agile](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

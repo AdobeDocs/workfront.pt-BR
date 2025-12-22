@@ -7,7 +7,7 @@ description: As informações de conclusão descritas neste artigo são exibidas
 author: Jenny
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -37,7 +37,7 @@ As seguintes informações estão disponíveis:
 
   Pontos e horas estão associados a histórias. Quando uma matéria é marcada como [!UICONTROL Concluída], os pontos ou horas associados a essa matéria são marcados como Concluídos.
 
-  Por padrão, são usados pontos. Você pode alterar modificando as configurações da sua equipe, conforme descrito em [Criar uma equipe ágil](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+  Por padrão, são usados pontos. Você pode alterar modificando as configurações da sua equipe, conforme descrito em [Criar uma equipe Agile](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 * **[!UICONTROL Pontos / Horas por dia]:** (Disponível somente em iterações) O número médio de pontos ou horas marcados como [!UICONTROL Concluído] todos os dias desde o início da iteração até o dia atual.
 

@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 7a29fcef1ee9a3010b7efc0713b5bbe9ca48b5cc
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '13634'
 ht-degree: 2%
@@ -1047,13 +1047,13 @@ ht-degree: 2%
       * [Adicionar tags](agile/get-started-with-boards/add-tags.md)
       * [Gerenciar a exibição de administração dos painéis](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)
       * [Notificações e preferências de email dos painéis](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
-   * Usar ferramentas de planejamento ágil nos quadros {#agile-planning-boards}
+   * Usar ferramentas de planejamento Agile em quadros {#agile-planning-boards}
       * [Visão geral das ferramentas de planejamento ágil: índice do artigo](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [Gerenciar o limite de trabalho em andamento (WIP) em um quadro](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
       * [Adicionar uma coluna de entrada a um quadro](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Usar grupos em um quadro](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Configurar queda de cartão](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [Migrar cartões Kanban da Equipe Ágil para quadros do Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+      * [Migrar cartões Kanban da equipe do Agile para quadros do Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
       * [Gerenciar fluxos de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [Criar uma iteração em um fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
@@ -1062,11 +1062,11 @@ ht-degree: 2%
    * [Visão geral do Agile](agile/agile-overview.md)
    * Introdução ao Agile no Adobe Workfront {#agile-in-workfront}
       * [Introdução ao Agile no Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [Criar uma equipe ágil](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+      * [Criar uma equipe Agile](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [Configurar Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [Configurar Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-   * Kanban em uma equipe ágil {#kanban}
-      * [Kanban em uma equipe ágil](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
+   * Kanban em uma equipe Agile {#kanban}
+      * [Kanban em uma equipe Agile](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Visão geral do Kanban](agile/use-kanban-in-an-agile-team/kanban-overview.md)
       * [Adicionar uma subtarefa a uma história existente no quadro Kanban](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
       * [Adicionar tarefas ou problemas existentes ao quadro Kanban](agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)
@@ -1080,8 +1080,8 @@ ht-degree: 2%
       * [Usar sinalizadores em matérias no quadro Kanban](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
       * [Adicionar o backlog ao quadro Kanban](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
       * [Excluir história do quadro Kanban](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-   * Scrum em uma equipe ágil {#scrum}
-      * [Scrum em uma equipe ágil](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
+   * Scrum em uma equipe Agile {#scrum}
+      * [Scrum em uma equipe Agile](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
       * Burndown {#burndown}
          * [Burndown](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
          * [Visão geral do gráfico de burndown ágil](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
@@ -1093,7 +1093,7 @@ ht-degree: 2%
          * [Iterações](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [Visão geral das iterações](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
          * [Criar uma iteração](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
-         * [Criar uma história ágil em uma iteração](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
+         * [Criar uma história do Agile em uma iteração](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
          * [Adicionar histórias a uma iteração existente](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [Exibir uma iteração](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [Excluir uma iteração](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
@@ -1114,7 +1114,7 @@ ht-degree: 2%
       * [Criar uma história do Agile](agile/work-in-an-agile-environment/create-an-agile-story.md)
       * [Gerenciar o backlog do Agile](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
       * [Mover uma história do Agile](agile/work-in-an-agile-environment/move-an-agile-story.md)
-   * Dicas, truques e solução de problemas para agile {#tips-tricks-agile}
+   * Dicas, truques e solução de problemas para o Agile {#tips-tricks-agile}
       * [Dicas, truques e solução de problemas para agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [Status personalizados não são exibidos no storyboard do Agile](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Documentos {#documents}

@@ -6,10 +6,10 @@ description: Você pode adicionar qualquer tarefa ou problema a um Quadro Kanban
 author: Jenny
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 Você pode adicionar qualquer tarefa ou problema a um quadro [!UICONTROL Kanban] se tiver acesso de gerenciamento ao projeto. Lembre-se do seguinte ao mover uma tarefa ou problema para um quadro [!UICONTROL Kanban]:
 
-* Se a tarefa ou problema for atribuído a uma equipe ágil e movido para o quadro [!UICONTROL Kanban] de outra equipe, a atribuição da equipe não será alterada.
+* Se a tarefa ou o problema for atribuído a uma equipe Agile e movido para o quadro [!UICONTROL Kanban] de outra equipe, a atribuição da equipe não será alterada.
 * Se a tarefa ou o problema não for atribuído a uma equipe, a tarefa ou o problema será atribuído à equipe proprietária do quadro Kanban.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,8 +38,8 @@ Você pode adicionar qualquer tarefa ou problema a um quadro [!UICONTROL Kanban]
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
  </tbody> 
 </table>

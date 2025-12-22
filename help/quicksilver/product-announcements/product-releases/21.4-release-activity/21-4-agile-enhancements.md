@@ -5,7 +5,7 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -35,17 +35,17 @@ Essa opção se aplica somente às equipes Scrum e não às equipes Kanban.
 
 Para obter mais informações, consulte [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-## Alterações na exibição ágil nos projetos
+## Alterações na exibição Agile em projetos
 
 >[!NOTE]
 >
 >Esse recurso foi lançado no ambiente de Pré-visualização em 16 de setembro de 2021.
 
-Como parte da versão 21.3, fizemos melhorias no cabeçalho e nos storyboards do cartão agile (consulte [Atualizações do cabeçalho e do storyboard do cartão agile](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Essas atualizações se aplicavam às iterações, bem como à exibição ágil nos projetos.
+Como parte da versão 21.3, fizemos melhorias no cabeçalho e nos storyboards do cartão Agile (consulte [Atualizações do cabeçalho e do storyboard do cartão Agile](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Essas atualizações se aplicavam às iterações, bem como à visualização Agile dos projetos.
 
-Com a versão 21.4, estamos revertendo esses aprimoramentos para a exibição ágil nos projetos. Nenhuma alteração está sendo feita nas iterações ágeis.
+Com a versão 21.4, estamos revertendo esses aprimoramentos para a visualização Agile dos projetos. Nenhuma alteração está sendo feita nas iterações Agile.
 
-Veja a seguir as alterações que estão sendo revertidas em relação à exibição ágil nos projetos:
+Veja a seguir as alterações que estão sendo revertidas em relação à exibição Agile nos projetos:
 
 * Os cartões de história e as colunas do quadro têm larguras ajustáveis.
 * As colunas não têm sombreamento de plano de fundo.

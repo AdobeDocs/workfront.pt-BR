@@ -5,7 +5,7 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 23.3 Melhorias na agilidade
 
-Esta página descreve todas as placas e as melhorias ágeis feitas com a versão 23.3. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
+Esta página descreve todas as melhorias nas Placas e no Agile feitas com a versão 23.3. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
 
 Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo da versão 23.3, consulte a [Visão geral da versão 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
@@ -52,7 +52,7 @@ Agora é possível exibir todas as placas e fluxos de trabalho no modo escuro. A
 
 >[!NOTE]
 >
->Se a instância do Workfront da sua organização tiver sido integrada à Experiência unificada do Adobe, você poderá ativar a formatação de tema escuro para todo o Adobe Experience Cloud no menu de preferências (a imagem do seu perfil), e não verá uma opção separada de modo escuro para placas Workfront.
+>Se a instância do Workfront da sua organização tiver sido integrada à Experiência unificada da Adobe, você poderá ativar a formatação de tema escuro para todas as Adobe Experience Cloud no menu de preferências (imagem do perfil), e não verá uma opção separada de modo escuro para placas Workfront.
 
 Para obter mais informações, consulte [Notificações e preferências de email dos painéis](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
@@ -118,15 +118,15 @@ Para obter mais informações, consulte [Criar ou editar um quadro](/help/quicks
 
 [Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
-## Migrar cartões Kanban da Equipe Ágil para Quadros
+## Migrar cartões Kanban da Equipe Agile para Quadros
 
-Um novo botão **Adicionar aos quadros** em quadros Kanban de equipes ágeis permite adicionar todos os cartões do quadro Kanban a um quadro Workfront. Você pode optar por criar um novo quadro do Workfront ou adicionar os cartões a um quadro existente.
+Um novo botão **Adicionar aos quadros** nos quadros Kanban da Equipe Agile permite adicionar todos os cartões do quadro Kanban a um quadro Workfront. Você pode optar por criar um novo quadro do Workfront ou adicionar os cartões a um quadro existente.
 
 O posicionamento dos cartões no quadro do Workfront é baseado nas políticas de coluna. (Por exemplo, uma política pode mover todos os cartões com status &quot;Em andamento&quot; para uma coluna específica.) Se não houver políticas ou os cartões não corresponderem às políticas, os cartões serão colocados na coluna mais à esquerda. Nesse momento, os cartões na coluna Backlog da placa herdada não são adicionados à placa Workfront.
 
-Os cartões não são removidos do quadro Kanban da Equipe Ágil e as alterações de status do cartão serão sincronizadas com ambos os quadros. Você pode manter ambas as placas ativas até estar pronto para mudar para Workfront Boards.
+Os cartões não são removidos do quadro Kanban da equipe Agile e as alterações de status do cartão serão sincronizadas com ambos os quadros. Você pode manter ambas as placas ativas até estar pronto para mudar para Workfront Boards.
 
-Para obter mais informações, consulte [Migrar cartões Kanban da Equipe Ágil para quadros do Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Para obter mais informações, consulte [Migrar cartões Kanban da equipe do Agile para quadros do Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 [Exibir uma demonstração em vídeo deste recurso](https://video.tv.adobe.com/v/3420425/){target=_blank}
 

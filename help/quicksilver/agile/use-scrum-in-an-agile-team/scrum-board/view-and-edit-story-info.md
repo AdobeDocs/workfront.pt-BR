@@ -6,10 +6,10 @@ description: Ao visualizar um bloco de matéria no quadro Kanban, determinadas i
 author: Jenny
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -37,7 +37,7 @@ Ao exibir um bloco de matéria no storyboard, as informações na tabela a segui
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>O nome do projeto com um link diretamente para o projeto<br>Este link é exibido somente em histórias (tarefas pai, não subtarefas) ao usar a exibição ágil em uma iteração; ele não é exibido ao usar uma exibição ágil em um projeto.</p> </td> 
+   <td> <p>O nome do projeto com um link diretamente para o projeto<br>Este link é exibido somente em histórias (tarefas pai, não subtarefas) ao usar a exibição Agile em uma iteração; ele não é exibido ao usar uma exibição Agile em um projeto.</p> </td> 
    <td>✓ </td> 
    <td> </td> 
   </tr> 
@@ -62,7 +62,7 @@ Ao exibir um bloco de matéria no storyboard, as informações na tabela a segui
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Quaisquer campos adicionais (incluindo campos personalizados) que possam ter sido adicionados à exibição ágil por meio da modificação da exibição ágil, conforme descrito em "Criação e Personalização de uma Exibição do [!UICONTROL Agile]" na <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Visão geral das Exibições no [!UICONTROL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Quaisquer campos adicionais (incluindo campos personalizados) que possam ter sido adicionados à exibição Agile modificando-a, conforme descrito em "Criação e Personalização de uma Exibição do [!UICONTROL Agile]" na <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Visão geral das Exibições no [!UICONTROL Adobe Workfront]</a>.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -71,7 +71,7 @@ Ao exibir um bloco de matéria no storyboard, as informações na tabela a segui
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -106,7 +106,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. No painel esquerdo, selecione **[!UICONTROL Iterações]** para escolher uma iteração específica, ou selecione **[!UICONTROL Iteração atual]**.
 
-1. Vá para o storyboard ágil [!UICONTROL Scrum].
+1. Vá para o storyboard [!UICONTROL Scrum] Agile.
 1. Expanda o bloco [!UICONTROL história] para exibir todos os campos associados à história.
 
    ![cartão de história](assets/agile-storycard-scrum-2021-350x333.png)

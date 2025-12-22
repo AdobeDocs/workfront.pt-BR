@@ -2,14 +2,14 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configurar Kanban
-description: Você pode configurar as seguintes opções para as equipes ágeis Kanban durante ou após a criação da equipe.
+description: Você pode configurar as seguintes opções para as equipes Ágeis Kanban durante ou após a criação da equipe.
 author: Jenny
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-Você pode criar uma Equipe Ágil no [!DNL Adobe Workfront] conforme descrito em [Criar uma Equipe Ágil](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Ao criar uma equipe ágil, é possível escolher a metodologia que a equipe usa para concluir o trabalho. Você pode escolher entre as seguintes opções:
+Você pode criar uma equipe Agile em [!DNL Adobe Workfront] conforme descrito em [Criar uma equipe Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Ao criar uma equipe Ágil, é possível escolher a metodologia que a equipe usa para concluir o trabalho. Você pode escolher entre as seguintes opções:
 
 * Scrum
 * Kanban
 
-Este artigo descreve como definir as configurações de uma equipe Kanban. Depois de criar uma Equipe Ágil e escolher a metodologia Kanban, consulte este artigo para atualizar as seguintes configurações:
+Este artigo descreve como definir as configurações de uma equipe Kanban. Depois de criar uma equipe Agile e escolher a metodologia Kanban, consulte este artigo para atualizar as seguintes configurações:
 
 * Se as histórias são estimadas em pontos ou horas
 * As colunas de status no storyboard Agile
-* Campos adicionais a serem exibidos em cartões de história no storyboard Agile
+* Campos adicionais a serem exibidos nos cartões de história no storyboard Agile
 * O limite do trabalho em andamento (WIP)
 * Como adicionar histórias automaticamente do backlog
 * Quanto tempo os cartões permanecem no quadro Kanban
@@ -35,7 +35,7 @@ Para obter informações sobre como configurar uma equipe do Scrum, consulte [Co
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,8 +50,8 @@ Para obter informações sobre como configurar uma equipe do Scrum, consulte [Co
 
 <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
 
 <tr> 
@@ -70,13 +70,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Você pode configurar histórias para serem estimadas usando pontos ou horas.
 
-Para configurar como as histórias são estimadas para sua equipe ágil:
+Para configurar como as histórias são estimadas para sua equipe Agile:
 
 {{step1-to-team}}
 
 1. Clique no ícone **[!UICONTROL Trocar Equipes]**, em seguida, selecione uma nova equipe no menu suspenso ou pesquise por uma equipe na caixa de pesquisa.![](assets/switch-team-icon.png)
-1. Selecione a Equipe Ágil que deseja gerenciar.
-1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
+1. Selecione a equipe Agile que você deseja gerenciar.
+1. Clique no menu **** Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
@@ -86,17 +86,17 @@ Para configurar como as histórias são estimadas para sua equipe ágil:
 
 1. Clique em **[!UICONTROL Salvar alterações]**.
 
-## Configurar colunas de status no storyboard Agile
+## Configurar colunas de status no storyboard do Agile
 
-Você pode definir os status existentes no storyboard da Equipe Ágil. Esses são os únicos status exibidos no storyboard.
+Você pode definir os status existentes no storyboard da equipe Agile. Esses são os únicos status exibidos no storyboard.
 
-Para definir os status disponíveis para o storyboard associado à Equipe Ágil:
+Para definir os status que estão disponíveis para o storyboard associado à Equipe Agile:
 
 {{step1-to-team}}
 
 1. Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipes](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Selecione a Equipe Ágil que deseja gerenciar.
+1. Selecione a equipe Agile que você deseja gerenciar.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
@@ -138,13 +138,13 @@ Por padrão, os seguintes tipos de dados são exibidos no cartão de história p
 >
 >Se você usar um campo personalizado em um cartão de matéria, ele não poderá conter um ponto no nome.
 
-Para configurar storycards atribuídos à equipe ágil para exibir campos adicionais:
+Para configurar cartões de história atribuídos à equipe do Agile para exibir campos adicionais:
 
 {{step1-to-team}}
 
 1. Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipes](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Selecione a Equipe Ágil que deseja gerenciar.
+1. Selecione a equipe Agile que você deseja gerenciar.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
@@ -161,7 +161,7 @@ Para configurar storycards atribuídos à equipe ágil para exibir campos adicio
 
 Ao definir o limite de WIP de uma equipe Kanban, você pode controlar o número de itens nos quais a equipe está trabalhando no momento limitando o número de tarefas que podem aparecer na coluna [!UICONTROL Novo] ou [!UICONTROL Em andamento] do quadro [!UICONTROL Kanban].
 
-Depois de configurar o limite de WIP para uma equipe Kanban, você pode exibir o limite de WIP e atualizá-lo a partir do [!UICONTROL quadro de história ágil do Kanban], conforme descrito em [Gerenciar o limite de trabalho em andamento (WIP) no [!UICONTROL quadro Kanban]](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+Após configurar o limite de WIP para uma equipe Kanban, você pode exibir o limite de WIP e atualizá-lo a partir do storyboard Agile [!UICONTROL Kanban], conforme descrito em [Gerenciar o limite de trabalho em andamento (WIP) no quadro [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 Para limitar o WIP para a equipe Kanban:
 
@@ -170,14 +170,14 @@ Para limitar o WIP para a equipe Kanban:
 1. Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipes](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Selecione a equipe Kanban que deseja gerenciar.
-1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **** Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
 1. Na seção **[!UICONTROL Agile]**, na seção **[!UICONTROL Metodologia]**, verifique se o Kanban está selecionado.
 
-1. Na seção **[!UICONTROL Storyboard]**, no campo **[!UICONTROL Limite de WIP]**, especifique o número máximo de itens permitidos em cada coluna do storyboard ágil [!UICONTROL Kanban]. É possível definir um limite diferente para cada coluna. O limite máximo que pode ser definido para cada coluna é 100.
-Quando definido, o limite WIP exibe uma mensagem de aviso no storyboard ágil [!UICONTROL Kanban] sempre que o limite é excedido para qualquer coluna no storyboard. Essa mensagem de aviso é exibida somente na primeira vez que o limite de WIP é excedido. Esta mensagem de aviso não é exibida em nenhuma coluna com status igual a [!UICONTROL Concluído].
+1. Na seção **[!UICONTROL Storyboard]**, no campo **[!UICONTROL Limite de WIP]**, especifique o número máximo de itens permitidos em cada coluna do storyboard Agile [!UICONTROL Kanban]. É possível definir um limite diferente para cada coluna. O limite máximo que pode ser definido para cada coluna é 100.
+Quando definido, o limite WIP exibe uma mensagem de aviso no storyboard [!UICONTROL Kanban] Agile sempre que o limite é excedido para qualquer coluna no storyboard. Essa mensagem de aviso é exibida somente na primeira vez que o limite de WIP é excedido. Esta mensagem de aviso não é exibida em nenhuma coluna com status igual a [!UICONTROL Concluído].
 O limite de WIP é simplesmente um aviso visual e não impede que sua equipe tenha mais itens em uma única coluna do que o limite definido.
 
    ![Limite de WIP](assets/wip-limit-350x193.png)
@@ -195,7 +195,7 @@ Você pode configurar histórias do backlog para serem adicionadas automaticamen
 1. Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipes](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Selecione a equipe Kanban que deseja gerenciar.
-1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **** Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
@@ -216,7 +216,7 @@ Você pode escolher por quanto tempo os cartões concluídos permanecem no quadr
 
 1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipes](assets/switch-team-icon.png) e selecione uma nova equipe Kanban no menu suspenso ou procure uma equipe na barra de pesquisa.
 1. Selecione a equipe Kanban.
-1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **** Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 

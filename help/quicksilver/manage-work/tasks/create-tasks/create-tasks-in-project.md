@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -48,7 +48,7 @@ Você também pode criar tarefas das seguintes maneiras:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,8 +60,8 @@ Você também pode criar tarefas das seguintes maneiras:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -116,7 +116,7 @@ Para criar tarefas em um projeto:
 
 1. Vá para o projeto em que deseja criar uma tarefa.
 1. Clique em **Tarefas** no painel esquerdo.
-1. (Condicional) Se você estiver visualizando a lista de tarefas em um modo de exibição ágil, clique no ícone **do** Modo de Exibição de Lista![](assets/list-view-in-agile-view-for-tasks.png) no canto superior direito para exibir a lista de tarefas.
+1. (Condicional) Se você estiver exibindo a lista de tarefas em um modo de exibição Agile, clique no ícone **do** Modo de Exibição de Lista![](assets/list-view-in-agile-view-for-tasks.png) no canto superior direito para exibir a lista de tarefas.
 1. (Opcional) Clique no ícone **do** Modo de Plano![](assets/nwe-plan-mode-icon-task-list.png) e selecione **Salvar Manualmente**. Em seguida, selecione **Padrão** ou **Planejamento de Linha do Tempo**. Isso desabilita a opção **Salvamento automático**, que é habilitada por padrão.
 
    ![Selecionar Salvamento Manual](assets/manual-save-option.png)

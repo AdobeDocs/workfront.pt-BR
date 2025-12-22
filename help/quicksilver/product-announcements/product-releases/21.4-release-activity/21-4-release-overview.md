@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4718'
 ht-degree: 0%
@@ -252,7 +252,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td><strong>Disponível nestas datas:</strong> <p>Versão de pré-visualização: 9 de setembro de 2021<br></p> <p>Versão de produção: com a versão 21.4</p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>A nova experiência do Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">Alterações na exibição ágil nos projetos</a> </p> <p>Como parte da versão 21.3, fizemos melhorias no cabeçalho e nos storyboards do cartão agile (consulte <a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">Atualizações do cabeçalho e do storyboard do cartão agile</a>). Essas atualizações se aplicavam às iterações, bem como à exibição ágil nos projetos.</p> <p>Com a versão 21.4, estamos revertendo esses aprimoramentos para a exibição ágil nos projetos. Nenhuma alteração está sendo feita nas iterações ágeis.</p> <p>Veja a seguir as alterações que estão sendo revertidas em relação à exibição ágil nos projetos:</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-agile-enhancements.md#changes" class="MCXref xref" xrefformat="{para}">Alterações na exibição Agile em projetos</a> </p> <p>Como parte da versão 21.3, fizemos melhorias no cabeçalho e nos storyboards do cartão Agile (consulte <a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile" class="MCXref xref" xrefformat="{para}">Atualizações do cabeçalho e do storyboard do cartão Agile</a>). Essas atualizações se aplicavam às iterações, bem como à visualização Agile dos projetos.</p> <p>Com a versão 21.4, estamos revertendo esses aprimoramentos para a visualização Agile dos projetos. Nenhuma alteração está sendo feita nas iterações Agile.</p> <p>Veja a seguir as alterações que estão sendo revertidas em relação à exibição Agile nos projetos:</p> 
     <ul> 
      <li> <p>Os cartões de história e as colunas do quadro têm larguras ajustáveis.</p> </li> 
      <li> <p>As colunas não têm sombreamento de plano de fundo.</p> </li> 
@@ -465,7 +465,7 @@ O webinário da versão 21.4 do Workfront foi apresentado em 23 de setembro de 2
 
 ## Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
 
 ## Funcionalidade não mais compatível
 

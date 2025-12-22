@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 57592455c61f0ddd14f6d2bcc033b58a8cdc7028
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1257'
 ht-degree: 2%
 
 ---
@@ -227,7 +227,7 @@ Comece digitando o nome de um projeto e clique em **Adicionar projeto** se não 
 
 1. Adicione uma **página Registros conectados** para projetos.
 
-   Para obter informações, consulte a seção &quot;Adicionar uma página de registros conectados a um registro&quot; no artigo [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
+   Para obter informações, consulte [Adicionar uma página de registros conectados a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
    A página Registros conectados é exibida na exibição de tabela. Os projetos conectados são exibidos na tabela.
 

@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '2799'
 ht-degree: 0%
@@ -281,8 +281,8 @@ O webinário de lançamento do versão 23.3 do foi realizado em 29 de junho de 2
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrar cartões Kanban da Equipe Ágil para Quadros</a></p>
-                        <p>Um novo botão <b>Adicionar aos quadros</b> em quadros Kanban de equipes ágeis permite adicionar todos os cartões do quadro Kanban a um quadro Workfront. Você pode optar por criar um novo quadro do Workfront ou adicionar os cartões a um quadro existente.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrar cartões Kanban da equipe do Agile para Quadros</a></p>
+                        <p>Um novo botão <b>Adicionar aos quadros</b> nos quadros Kanban da Equipe Agile permite adicionar todos os cartões do quadro Kanban a um quadro Workfront. Você pode optar por criar um novo quadro do Workfront ou adicionar os cartões a um quadro existente.</p>
                     </td>
                     <td><p><b>Disponível nas seguintes datas:</b></p>
                         <ul>
@@ -768,11 +768,11 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/releases/current-updates).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
 
 ### Funcionalidade que será removida em breve do Workfront
 

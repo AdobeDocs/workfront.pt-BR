@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3231'
+source-wordcount: '3232'
 ht-degree: 0%
 
 ---
@@ -733,15 +733,15 @@ Para obter informações sobre versões de API, consulte [Controle de versão de
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/releases/current-updates).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão 22.3, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Webinário da versão 22.4
 
-O webinário de lançamento do 22.4 será realizado na quinta-feira, 22 de setembro de 2022, às 9h PDT. Você pode [se inscrever para o webinário aqui](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
+O webinário de lançamento do versão 22.4 será realizado na quinta-feira, 22 de setembro de 2022, às 9:00 AM PDT. Você pode [se inscrever para o webinário aqui](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
 
 ### Funcionalidade removida com a versão 22.4
 

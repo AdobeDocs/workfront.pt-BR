@@ -2,20 +2,20 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Excluir uma iteração
-description: É possível excluir uma iteração da sua equipe ágil se ela não for mais necessária.
+description: Você pode excluir uma iteração da sua equipe Agile se ela não for mais necessária.
 author: Jenny
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 # Excluir uma iteração
 
-É possível excluir uma iteração da sua equipe ágil se ela não for mais necessária.
+Você pode excluir uma iteração da sua equipe Agile se ela não for mais necessária.
 
 Ao excluir uma iteração, todas as histórias da iteração são movidas para o backlog. As tarefas e problemas também permanecem em seus projetos.
 
@@ -25,7 +25,7 @@ Ao excluir uma iteração, todas as histórias da iteração são movidas para o
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -35,12 +35,12 @@ Ao excluir uma iteração, todas as histórias da iteração são movidas para o
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>Você deve ser um membro da Equipe Ágil à qual a iteração está atribuída</td> 
+   <td>Você deve ser um membro da equipe Agile à qual a iteração está atribuída</td> 
   </tr>
  </tbody> 
 </table>

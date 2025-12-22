@@ -6,10 +6,10 @@ description: A ordem em que as matérias aparecem no storyboard não indica prio
 author: Jenny
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Quando você reordena colunas no storyboard, todas as alterações feitas são s
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -57,6 +57,6 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Alterar a ordem da história em um projeto
 
-Diferentemente das iterações ágeis, não é possível alterar a ordem da história ao visualizar um projeto em uma visualização ágil. Para modificar a ordem da matéria de um projeto, é necessário exibir o projeto em uma exibição padrão.
+Diferentemente das iterações Agile, não é possível alterar a ordem da história ao visualizar um projeto em uma visualização Agile. Para modificar a ordem da matéria de um projeto, é necessário exibir o projeto em uma exibição padrão.
 
-Para obter informações sobre como alterar a exibição de projeto, consulte [[!UICONTROL Gerenciar um projeto] na [!UICONTROL Exibição Agile]](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Em vez de selecionar uma exibição ágil, selecione uma exibição padrão.
+Para obter informações sobre como alterar a exibição de projeto, consulte [[!UICONTROL Gerenciar um projeto] na [!UICONTROL Exibição Agile]](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Em vez de selecionar uma visualização Agile, selecione uma visualização padrão.

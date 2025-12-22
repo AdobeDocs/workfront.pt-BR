@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão 23.1, c
 
 ## Planejamento de Scrum para painéis do Workfront
 
-Os novos recursos de planejamento de Scrum nas placas Adobe Workfront oferecem opções flexíveis para gerenciar seus processos ágeis. Com essas ferramentas, você pode:
+Os novos recursos de planejamento de Scrum nas placas Adobe Workfront oferecem opções flexíveis para gerenciar seus processos Ágeis. Com essas ferramentas, você pode:
 
 * Rastrear trabalhos em iterações ou sprints
 * Usar a velocidade para orientar os compromissos da equipe

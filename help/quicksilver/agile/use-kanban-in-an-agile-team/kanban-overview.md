@@ -7,7 +7,7 @@ description: Consulte este artigo para entender melhor como o quadro Kanban func
 author: Jenny
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -34,7 +34,7 @@ O quadro [!UICONTROL Kanban] consiste nos seguintes elementos:
 
 Para obter mais informações, consulte [Atualizar o status das histórias no quadro [!UICONTROL Kanban]](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md).
 
-Os status da história podem ser personalizados para o projeto modificando a exibição ágil, conforme descrito na seção [[!UICONTROL Criar ou personalizar uma exibição Ágil]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) em [Criar ou editar exibições em [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+Os status da história podem ser personalizados para o projeto modificando a exibição Agile, conforme descrito na seção [[!UICONTROL Criar ou personalizar uma exibição Agile]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) em [Criar ou editar exibições em [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 >[!NOTE]
 >

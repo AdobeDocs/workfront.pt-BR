@@ -6,10 +6,10 @@ description: Ao criar subtarefas para matérias existentes, lembre-se da configu
 author: Jenny
 feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Ao criar subtarefas para matérias existentes, lembre-se do seguinte:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -62,7 +62,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone da equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Vá para a iteração ágil ou para o projeto que contém a matéria em que você deseja adicionar uma subtarefa. Para obter informações sobre como navegar para uma iteração, consulte [Exibir uma iteração](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Vá para a iteração Agile ou o projeto que contém a matéria à qual você deseja adicionar uma subtarefa. Para obter informações sobre como navegar para uma iteração, consulte [Exibir uma iteração](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Vá para o bloco de matéria no storyboard onde deseja adicionar uma subtarefa.
 1. Clique em **[!UICONTROL Adicionar Subtarefa]** no cartão de história principal para criar uma subtarefa para a história.
 
@@ -89,7 +89,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <td> Especifique um nome para a subtarefa.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Descrição]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Description]</strong></td>
       <td>Especifique uma descrição para a subtarefa.</td>
      </tr>
      <tr>

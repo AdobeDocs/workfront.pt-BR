@@ -6,10 +6,10 @@ description: Por padrão, ao criar uma equipe, você se torna o Proprietário da
 author: Jenny
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ Para obter informações sobre como um administrador do [!DNL Adobe Workfront] p
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Para obter informações sobre como um administrador do [!DNL Adobe Workfront] p
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td>
   </tr> 
  </tbody> 
@@ -65,9 +65,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      >
      >Quando uma equipe é atribuída a um grupo ou subgrupo, os administradores desse grupo ou subgrupo podem gerenciar a equipe sem ser membros dele. Os administradores de grupo podem ir para a área Equipes no menu principal e clicar na seta Alternar equipes ![Ícone Alternar equipe](assets/switch-team-icon.png) para listar todas as equipes atribuídas aos grupos que eles gerenciam.
 
-   * **[!UICONTROL Esta é uma Equipe Agile]:** Selecione esta opção se você deseja configurar esta nova equipe para ser uma Equipe Agile.
+   * **[!UICONTROL Esta é uma Equipe Agile]:** Selecione esta opção se quiser configurar esta nova equipe para ser uma Equipe Agile.
 
-     Para obter mais informações sobre equipes ágeis, consulte [Criar uma equipe ágil](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Para obter mais informações sobre equipes Agile, consulte [Criar uma equipe Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * **[!UICONTROL Membros da Equipe]:** Comece a digitar o nome de um usuário a ser adicionado à equipe e selecione o nome quando ele aparecer na lista suspensa.
 

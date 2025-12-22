@@ -8,10 +8,10 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ Como administrador do Adobe Workfront, você pode criar uma equipe na área Conf
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -91,7 +91,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
       <td role="rowheader">Esta é uma Equipe Ágil</td> 
-      <td>Selecione este item se você deseja configurar esta nova equipe para ser uma equipe ágil. Para obter mais informações sobre equipes ágeis, consulte <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Criar uma equipe ágil</a>.</td> 
+      <td>Selecione este item se você deseja configurar esta nova equipe para ser uma Equipe Agile. Para obter mais informações sobre equipes Agile, consulte <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Criar uma equipe Agile</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Trabalhar na tarefa</td> 

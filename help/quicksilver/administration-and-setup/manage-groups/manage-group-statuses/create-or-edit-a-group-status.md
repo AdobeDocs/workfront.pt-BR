@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1321'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -25,13 +25,13 @@ Se houver algum grupo acima do seu, os administradores também poderão fazer es
 
 >[!NOTE]
 >
->Status de grupo personalizados não podem ser exibidos em um projeto ao visualizar o projeto em uma visualização ágil. Somente os status bloqueados padrão e personalizados ficam visíveis ao visualizar um projeto em uma visualização ágil. Para obter informações sobre como personalizar uma exibição Agile para um projeto, consulte a seção [Criar ou personalizar uma exibição Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) no artigo [Criar ou editar exibições no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+>Status de grupo personalizados não podem ser exibidos em um projeto ao visualizar o projeto em uma visualização Agile. Somente os status bloqueados padrão e personalizados ficam visíveis ao visualizar um projeto em uma visualização Agile. Para obter informações sobre como personalizar um modo de exibição Agile para um projeto, consulte a seção [Criar ou personalizar um modo de exibição Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) no artigo [Criar ou editar modos de exibição no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 Para obter informações gerais sobre status, consulte [Visão geral dos status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Para obter informações gerais sobre status, consulte [Visão geral dos status]
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr>
   <tr> 

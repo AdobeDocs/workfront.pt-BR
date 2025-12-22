@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Melhorias na lógica de formulários personalizados</a></p><p>[!BADGE Na produção &#x200B;]{type=Informative}</p>
+            Melhorias na lógica de formulários personalizados</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
             <p>O construtor de lógica de formulários personalizados tem uma interface atualizada para fornecer mais espaço para a criação de regras de lógica. Esse novo design pode acomodar mais facilmente outros tipos de lógica que poderão ser adicionados no futuro.</p><p>Além das opções atuais de exibição e lógica de salto, a lógica de validação também está disponível.</p>
         </td>
         <td>
@@ -68,7 +68,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Expressões adicionadas a campos personalizados calculados</a></p>
-            [!BADGE Na produção &#x200B;]{type=Informative}
+            [!BADGE Na produção ]{type=Informative}
             <p>As seguintes expressões agora estão disponíveis nos campos personalizados calculados do Workfront: ARRAY, FORMAT, SWITCH, SORTASCARRAY, SORTDESCARRAY, ARRAYLENGTH, ARRAYELEMENT e ADDHOUR. As definições e exemplos de cada expressão estão disponíveis no editor de cálculo e no Experience League.</p>
         </td>
         <td>
@@ -105,7 +105,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Atualização do Visualizador de provas de desktop </a></p>[!BADGE Na produção &#x200B;]{type=Informative}
+            Atualização do Visualizador de provas de desktop </a></p>[!BADGE Na produção ]{type=Informative}
             <p>O Desktop Proofing Viewer foi atualizado para a versão 2.1.45. Essa atualização permite que o visualizador use
             <ul><li>Elétron versão 35</li><li>Crômio versão 134</li><ul></p>
         </td>
@@ -120,7 +120,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Editar vários documentos de uma só vez em um Relatório de documentos </a></p>[!BADGE Na produção &#x200B;]{type=Informative}
+            Editar vários documentos de uma só vez em um Relatório de documentos </a></p>[!BADGE Na produção ]{type=Informative}
             <p>Agora é possível editar vários documentos de uma só vez em um Relatório de documentos. É possível editar as descrições e atualizar formulários personalizados.</p>
         </td>
         <td>
@@ -143,7 +143,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Aprimoramentos nas provas no aplicativo móvel (somente iOS)</a><p>[!BADGE Na produção &#x200B;]{type=Informative}</p></p>
+            Aprimoramentos nas provas no aplicativo móvel (somente iOS)</a><p>[!BADGE Na produção ]{type=Informative}</p></p>
             <p>Vários aprimoramentos estão disponíveis para a funcionalidade de prova no aplicativo móvel do Adobe Workfront:
             <ul>
             <li>Agora é possível abrir um arquivo de prova no aplicativo de email móvel, em um link que foi compartilhado com você. Anteriormente, os links de emails não eram compatíveis e você tinha que acessar provas do aplicativo móvel do Workfront.</li>
@@ -175,7 +175,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Adicionar um comentário aos projetos ao editá-los na caixa Editar projeto</a><p>[!BADGE Na produção &#x200B;]{type=Informative}</p>
+            Adicionar um comentário aos projetos ao editá-los na caixa Editar projeto</a><p>[!BADGE Na produção ]{type=Informative}</p>
             <p>Agora é possível adicionar um comentário a um projeto ao editá-lo na caixa Editar projeto. Você também pode adicionar um comentário a vários projetos ao editá-los em massa. Antes dessa atualização, essa funcionalidade não existia ao editar projetos.</p>
         </td>
         <td>
@@ -199,7 +199,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Os dados de aprovação e decisão de documentos agora estão disponíveis no Data Connect</a><p>[!BADGE Na produção &#x200B;]{type=Informative}</p>
+            Os dados de aprovação e decisão de documentos agora estão disponíveis no Data Connect</a><p>[!BADGE Na produção ]{type=Informative}</p>
             <p>Agora você pode acessar dados para aprovações e decisões de documentos no Data Connect. Este conjunto de dados une aprovações de documentos de recursos de prova do Workfront e aprovações do Frame.io que estão acontecendo em documentos do Workfront. Agora é possível ilustrar o tempo do ciclo, o número de ciclos e os impactos da linha do tempo de aprovações atrasadas por meio das visualizações de BI.</p>
         </td>
         <td>
@@ -212,7 +212,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Atualizações no Calendário do Workfront</a></p><p>[!BADGE Na produção &#x200B;]{type=Informative}</p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Atualizações no Calendário do Workfront</a></p><p>[!BADGE Na produção ]{type=Informative}</p>
             <p>Atualizamos a aparência do Calendário do Workfront para um design moderno consistente com outras áreas do Workfront. Há pequenas diferenças de funcionalidade em relação ao Calendário atual do Workfront, incluindo:
             <ul>
             <li>Como adicionar itens ad-hoc ao calendário</li>
@@ -242,7 +242,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Atualize para a nova versão de assinatura de evento com pontos de extremidade de atualização de versão</a></p>
-            [!BADGE Na produção &#x200B;]{type=Informative}
+            [!BADGE Na produção ]{type=Informative}
             <p>O Workfront agora tem versões de assinaturas de eventos. A nova versão não é uma alteração na API do Workfront, mas uma alteração na funcionalidade de assinatura do evento. É possível alternar as assinaturas do evento para a nova versão sem criar uma lacuna na assinatura do evento</p>
         </td>
         <td>
@@ -255,7 +255,7 @@ Os lançamentos mensais e trimestrais devem estar disponíveis na quinta-feira d
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Representar as alterações de usuário do Adobe Admin Console como "Sistema" no feed de atualização do Workfront</a></p><p>[!BADGE Na produção &#x200B;]{type=Informative}</p><p>Agora, quando o administrador do Adobe Admin Console faz uma alteração nas informações de usuário de um usuário do Workfront, o Workfront registra essa alteração na guia Atividade do sistema da área Atualizações do usuário, como pertencente ao "Sistema". Refere-se ao administrador do Adobe Admin Console.</p>
+            Representar as alterações de usuário do Adobe Admin Console como "Sistema" no feed de atualização do Workfront</a></p><p>[!BADGE Na produção ]{type=Informative}</p><p>Agora, quando o administrador do Adobe Admin Console faz uma alteração nas informações de usuário de um usuário do Workfront, o Workfront registra essa alteração na guia Atividade do sistema da área Atualizações do usuário, como pertencente ao "Sistema". Refere-se ao administrador do Adobe Admin Console.</p>
         </td>
         <td>
             <p><b>Disponível nas seguintes datas:</b></p>
@@ -296,10 +296,10 @@ A seguinte funcionalidade será removida do Workfront em breve:
 
 #### Estamos removendo a visualização Agile herdada em um projeto
 
-A visualização Agile herdada em um projeto será removida do Workfront com a versão 25.3 em 13 de março de 2025. Você ainda poderá exibir suas tarefas em uma visualização Agile em um projeto clicando no ícone Quadros. As ferramentas ágeis herdadas ainda estão disponíveis na área Equipes.
+A visualização Agile herdada em um projeto será removida do Workfront com a versão 25.3 em 13 de março de 2025. Você ainda poderá exibir suas tarefas em uma visualização Agile em um projeto clicando no ícone Quadros. As ferramentas Agile herdadas existentes ainda estão disponíveis na área Equipes.
 
-A imagem abaixo mostra a opção ágil herdada que será removida:
-![link de exibição ágil herdado](assets/project-agile-board-view.png)
+A imagem abaixo mostra a opção Agile herdada que será removida:
+![link de exibição Agile herdado](assets/project-agile-board-view.png)
 
 
 #### Substituição aprimorada do Analytics
@@ -318,7 +318,7 @@ Estamos atualizando a interface em todo o Adobe Workfront para melhorar a experi
 
 >[!IMPORTANT]
 >
->A documentação do Workfront Fusion foi movida para um novo local. Para obter informações, instruções e versões do Fusion, visite a [documentação do Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/home).
+>A documentação do Workfront Fusion foi movida para um novo local. Para obter informações, instruções e versões do Fusion, visite a [documentação do Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
 >
 >Cada artigo de documentação atual do Fusion contém um link para o artigo correspondente no novo local. Atualize seus marcadores.
 >
@@ -352,8 +352,8 @@ Para obter informações sobre quais versões de API são atualmente compatívei
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Segundo trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/releases/current-updates).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Segundo trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).

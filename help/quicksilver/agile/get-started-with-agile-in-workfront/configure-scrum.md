@@ -2,37 +2,37 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configurar Scrum
-description: Você pode configurar as seguintes opções para as equipes ágeis de Scrum durante ou após a criação da equipe.
+description: Você pode configurar as seguintes opções para as equipes do Scrum Agile durante ou após a criação da equipe.
 author: Jenny
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1725'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Configurar [!UICONTROL Scrum]
 
-Você pode criar uma Equipe Ágil no [!DNL Adobe Workfront] conforme descrito em [Criar uma Equipe Ágil](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Ao criar uma equipe ágil, é possível escolher a metodologia que a equipe usa para concluir o trabalho. Você pode escolher entre as seguintes opções:
+Você pode criar uma equipe Agile em [!DNL Adobe Workfront] conforme descrito em [Criar uma equipe Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Ao criar uma equipe Ágil, é possível escolher a metodologia que a equipe usa para concluir o trabalho. Você pode escolher entre as seguintes opções:
 
 * Scrum
 * Kanban
 
-Este artigo descreve como definir as configurações para uma equipe Scrum. Depois de criar uma Equipe Ágil e escolher a metodologia Scrum, consulte este artigo para atualizar as seguintes configurações:
+Este artigo descreve como definir as configurações para uma equipe Scrum. Depois de criar uma equipe Agile e escolher a metodologia Scrum, consulte este artigo para atualizar as seguintes configurações:
 
 * Se as histórias são estimadas em pontos ou horas
 * As colunas de status no storyboard Agile para iterações e projetos
-* Campos adicionais a serem exibidos em cartões de história no storyboard Agile
-* Como os indicadores de cor são usados para histórias no storyboard Agile
+* Campos adicionais a serem exibidos nos cartões de história no storyboard Agile
+* Como os indicadores de cor são usados para matérias no storyboard Agile
 * Como as datas são aplicadas ao adicionar itens de trabalho a uma iteração
 
 Para obter informações sobre como configurar uma equipe Kanban, consulte [Configurar Kanban](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,8 +47,8 @@ Para obter informações sobre como configurar uma equipe Kanban, consulte [Conf
 
 <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
 
 <tr> 
@@ -71,12 +71,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Você pode configurar histórias para serem estimadas usando pontos ou horas.
 
-Para configurar como as histórias são estimadas para sua equipe ágil:
+Para configurar como as histórias são estimadas para sua equipe Agile:
 
 {{step1-to-team}}
 
 1. Clique no ícone **[!UICONTROL Trocar equipe]** e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
-1. Selecione a Equipe Ágil que deseja gerenciar.
+1. Selecione a equipe Agile que você deseja gerenciar.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 
    Somente membros da equipe com uma licença [!UICONTROL Padrão], [!UICONTROL Plano] ou [!UICONTROL Trabalho] podem ver esta opção.
@@ -88,24 +88,24 @@ Para configurar como as histórias são estimadas para sua equipe ágil:
 
 1. Clique em **[!UICONTROL Salvar alterações]**.
 
-## Configurar colunas de status no storyboard Agile
+## Configurar colunas de status no storyboard do Agile
 
-Você pode configurar quais colunas são exibidas no storyboard Agile para todas as iterações atribuídas à sua equipe ou para um determinado projeto.
+Você pode configurar quais colunas são exibidas no storyboard do Agile para todas as iterações atribuídas à sua equipe ou para um determinado projeto.
 
 * [Configurar colunas de status para iterações](#configure-status-columns-for-iterations)
 * [Configurar colunas de status para projetos](#configure-status-columns-for-projects)
 
 ### Configurar colunas de status para iterações {#configure-status-columns-for-iterations}
 
-Você pode definir os status existentes no storyboard da Equipe Ágil. Esses são os únicos status exibidos no storyboard.
+Você pode definir os status existentes no storyboard da equipe Agile. Esses são os únicos status exibidos no storyboard.
 
-Para definir os status disponíveis para o storyboard associado à Equipe Ágil:
+Para definir os status que estão disponíveis para o storyboard associado à Equipe Agile:
 
 {{step1-to-team}}
 
 1. Clique no ícone **[!UICONTROL Equipe de comutação]** ![Ícone Equipe de comutação](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Selecione a Equipe Ágil que deseja gerenciar.
+1. Selecione a equipe Agile que você deseja gerenciar.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 
    Somente membros da equipe com uma licença de [!UICONTROL Plano] ou [!UICONTROL Trabalho] veem essa opção.
@@ -157,13 +157,13 @@ Por padrão, os seguintes tipos de dados são exibidos no cartão de história p
 >
 >Se você usar um campo personalizado em um cartão de matéria, ele não poderá conter um ponto no nome.
 
-Para configurar storycards atribuídos à equipe ágil para exibir campos adicionais:
+Para configurar cartões de história atribuídos à equipe do Agile para exibir campos adicionais:
 
 {{step1-to-team}}
 
 1. Clique no ícone **[!UICONTROL Equipe de comutação]** ![Ícone Equipe de comutação](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Selecione a Equipe Ágil que deseja gerenciar.
+1. Selecione a equipe Agile que você deseja gerenciar.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 Somente membros da equipe com uma licença de [!UICONTROL Plano] ou [!UICONTROL Trabalho] veem essa opção.
 
@@ -179,15 +179,15 @@ Somente membros da equipe com uma licença de [!UICONTROL Plano] ou [!UICONTROL 
 
 ## Configure como os indicadores de cor são usados para matérias no storyboard Agile
 
-Por padrão, os blocos de storyboard em uma iteração ágil são codificados por cores de acordo com o projeto ao qual a história está associada. Cada projeto recebe arbitrariamente uma cor no storyboard. É possível alterar esse comportamento padrão para cada grupo Agile. As cores de matérias ágeis podem ser vinculadas à prioridade da matéria, ao proprietário e assim por diante.
+Por padrão, os blocos de storyboard em uma iteração do Agile são codificados por cores de acordo com o projeto ao qual a história está associada. Cada projeto recebe arbitrariamente uma cor no storyboard. É possível alterar esse comportamento padrão para cada equipe Agile. As cores das histórias de Agile podem ser vinculadas à prioridade da história, ao proprietário e assim por diante.
 
-Para alterar o comportamento de como as cores são atribuídas a matérias para uma Equipe Ágil:
+Para alterar o comportamento de como as cores são atribuídas a matérias para uma equipe Agile:
 
 {{step1-to-team}}
 
 1. Clique no ícone **[!UICONTROL Equipe de comutação]** ![Ícone Equipe de comutação](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Selecione a Equipe Ágil que deseja gerenciar.
+1. Selecione a equipe Agile que você deseja gerenciar.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 
    Somente membros da equipe com uma licença de [!UICONTROL Plano] ou [!UICONTROL Trabalho] veem essa opção.

@@ -3,19 +3,19 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Scrum em uma equipe ágil
-description: Leia estes artigos para saber mais sobre como usar o Scrum em uma equipe ágil.
+description: Leia estes artigos para saber mais sobre como usar o Scrum em uma equipe Agile.
 author: Jenny
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 25141131-0092-48a8-ae8b-f75fc3b6fb41
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 0%
 
 ---
 
-# Scrum em uma equipe ágil
+# Scrum em uma equipe Agile
 
 Esta seção contém as seguintes subseções:
 

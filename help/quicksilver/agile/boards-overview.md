@@ -7,7 +7,7 @@ description: As placas Adobe Workfront são ferramentas flexíveis que permitem 
 author: Jenny
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -26,9 +26,9 @@ Com os painéis de discussão, você pode:
 * Configurar colunas para mostrar um status ou categoria
 * Personalize fluxos de trabalho com cartões abertos (cartões ad hoc ou cartões conectados a tarefas e problemas do [!DNL Workfront])
 * Organize e gerencie o trabalho de uma equipe em um único local
-* Usar ferramentas de planejamento ágeis, como uma coluna de entrada para quadros Kanban
+* Usar ferramentas de planejamento Agile, como uma coluna de entrada para quadros Kanban
 
-Para obter informações sobre como usar os recursos básicos de quadros, consulte [Introdução a quadros: índice de artigo](../agile/get-started-with-boards/get-started-with-boards.md). Para obter informações sobre as ferramentas de planejamento ágil nos quadros, consulte [Visão geral das ferramentas de planejamento ágil](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
+Para obter informações sobre como usar os recursos básicos de quadros, consulte [Introdução a quadros: índice de artigo](../agile/get-started-with-boards/get-started-with-boards.md). Para obter informações sobre as ferramentas de planejamento Agile nos quadros, consulte [Visão geral das ferramentas de planejamento Agile](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
 Para obter informações sobre como usar um quadro em um projeto, consulte [Gerenciar um projeto na Exibição Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
@@ -36,4 +36,4 @@ Você também pode acessar quadros no aplicativo móvel. Para obter informaçõe
 
 Para ver as apresentações de vídeo dos recursos de quadros, consulte [[!DNL Adobe Workfront] [!UICONTROL Quadros] demonstrações de vídeo](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
 
-Para obter informações sobre ferramentas ágeis adicionais no [!DNL Workfront], consulte [Visão geral do Agile](../agile/agile-overview.md).
+Para obter informações sobre as ferramentas adicionais do Agile no [!DNL Workfront], consulte [Visão geral do Agile](../agile/agile-overview.md).

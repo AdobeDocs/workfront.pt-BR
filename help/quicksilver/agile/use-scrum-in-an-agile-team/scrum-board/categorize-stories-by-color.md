@@ -6,10 +6,10 @@ description: A associação de cores padrão das matérias do quadro Scrum difer
 author: Jenny
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 A associação de cores padrão das histórias difere dependendo se o storyboard está localizado em uma iteração ou em um projeto:
 
-* **[!UICONTROL Iteração]**: em uma iteração, os blocos de storyboard são codificados por cores de acordo com o projeto ao qual a história está associada. (Cada projeto recebe arbitrariamente uma cor no storyboard.) É possível alterar esse comportamento padrão para cada grupo Agile. As cores das histórias ágeis em uma iteração podem ser vinculadas ao projeto (padrão), prioridade da história, proprietário ou formato livre. Para obter mais informações, consulte [Configurar como os indicadores de cor são usados para histórias no storyboard Ágil](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) no artigo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+* **[!UICONTROL Iteração]**: em uma iteração, os blocos de storyboard são codificados por cores de acordo com o projeto ao qual a história está associada. (Cada projeto recebe arbitrariamente uma cor no storyboard.) É possível alterar esse comportamento padrão para cada equipe Agile. As cores das histórias Agile em uma iteração podem ser vinculadas ao projeto (padrão), prioridade da história, proprietário ou formato livre. Para obter mais informações, consulte [Configurar como os indicadores de cor são usados para histórias no storyboard Agile](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4) no artigo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-* **[!UICONTROL Projeto]**: em um projeto, todas as subtarefas correspondem à cor da tarefa pai, de modo que as cores de todas as histórias em qualquer raia sejam as mesmas. As cores são atribuídas aleatoriamente às tarefas quando são criadas se a tarefa não tiver subtarefas ou não tiver uma tarefa pai. Você pode alterar esse comportamento padrão modificando a exibição ágil. As cores das matérias ágeis em um projeto podem ser vinculadas à matéria principal (padrão), prioridade da matéria, proprietário ou formato livre. Para obter mais informações, consulte [Criar ou personalizar uma exibição [!UICONTROL Agile]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) na [Visão geral das exibições [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+* **[!UICONTROL Projeto]**: em um projeto, todas as subtarefas correspondem à cor da tarefa pai, de modo que as cores de todas as histórias em qualquer raia sejam as mesmas. As cores são atribuídas aleatoriamente às tarefas quando são criadas se a tarefa não tiver subtarefas ou não tiver uma tarefa pai. Você pode alterar esse comportamento padrão modificando a visualização Agile. As cores das matérias Agile em um projeto podem ser vinculadas à matéria principal (padrão), prioridade da matéria, proprietário ou formato livre. Para obter mais informações, consulte [Criar ou personalizar uma exibição [!UICONTROL Agile]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) na [Visão geral das exibições [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -50,7 +50,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Alterar a cor das matérias ao usar a forma livre
 
-Se as configurações agile team tiverem sido definidas de modo que a opção [!UICONTROL Associar Cor do Cartão a] esteja definida como [!UICONTROL Formato Livre], os usuários poderão alterar manualmente a cor de quadros individuais. Isso pode ser útil para comunicar outros tipos de informações importantes para a equipe ou a organização:
+Se as configurações da Equipe Agile tiverem sido definidas para que a opção [!UICONTROL Associar Cor do Cartão a] seja definida como [!UICONTROL Formato Livre], os usuários poderão alterar manualmente a cor de quadros de matérias individuais. Isso pode ser útil para comunicar outros tipos de informações importantes para a equipe ou a organização:
 
 {{step1-to-team}}
 

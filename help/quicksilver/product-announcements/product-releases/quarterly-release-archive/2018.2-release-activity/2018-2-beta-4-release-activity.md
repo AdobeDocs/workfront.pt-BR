@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1705'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Para obter mais informações, consulte  no artigo .
 
 ## Interface aprimorada para configurar status para uma Equipe Agile {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
-A interface para configurar os status de uma Equipe Ágil foi atualizada com as seguintes melhorias:
+A interface para configurar os status de uma Equipe Agile foi atualizada com as seguintes melhorias:
 
 * Nova aparência
 * Reordenar colunas de status via arrastar e soltar 
@@ -145,7 +145,7 @@ Desativamos temporariamente a exportação de dados do Planejador de recursos ao
 
 Para obter mais informações sobre como exportar os dados do Planejador de recursos para o Excel, consulte a seção &quot;Opção de Exportação&quot; na [Visão geral da navegação do Planejador de recursos](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Para participar do nosso programa beta atual para o Planejador de recursos, consulte [Beta de desempenho do Planejador de recursos.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=pt)
+Para participar do nosso programa beta atual para o Planejador de recursos, consulte [Beta de desempenho do Planejador de recursos.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## Configuração do Sistema: Informações da Sessão em Páginas Externas {#system-setting-session-information-in-external-pages}
 

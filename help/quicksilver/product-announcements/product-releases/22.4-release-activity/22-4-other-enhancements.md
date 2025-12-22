@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -27,17 +27,17 @@ Para obter mais informações sobre o plug-in, consulte [[!DNL Adobe Workfront] 
 
 [Baixe o Adobe Workfront para InDesign no marketplace hoje](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
-Os administradores também podem [criar um pacote com os plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) do Admin Console e implantar para os usuários de maneira gerenciada ou autogerenciada.
+Os administradores também podem [criar um pacote com os plug-ins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) da Admin Console e implantar para os usuários de maneira gerenciada ou autogerenciada.
 
 ## Sincronizar metadados de objeto com a integração nativa do Experience Manager Assets
 
 Agora, o portfólio, o programa, o projeto, a tarefa, o problema e os campos de documento do Workfront são atualizados automaticamente quando o campo é alterado no Workfront.
 
-Para permitir que os metadados do objeto sejam sincronizados automaticamente, você deve ativar a opção Sincronizar metadados do objeto para suas integrações em Configurar > Integrações de Experience Manager.
+Para permitir que os metadados do objeto sejam sincronizados automaticamente, você deve ativar a opção Sincronizar metadados do objeto para suas integrações em Configurar > Integrações do Experience Manager.
 
 Anteriormente, somente os campos do projeto eram atualizados automaticamente.
 
-Para obter mais informações, consulte [Configurar a integração as a Cloud Service do Experience Manager Assets](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Para obter mais informações, consulte [Configurar a integração do Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 ## Envios de metadados para objetos principais de programa e portfólio
 
@@ -45,7 +45,7 @@ Agora, quando um ativo é enviado pela primeira vez para o Experience Manager As
 
 Anteriormente, somente os dados do projeto principal eram enviados.
 
-Para obter mais informações, consulte [Enviar um documento para a Experience Manager Assets ou o Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
+Para obter mais informações, consulte [Enviar um documento para o Experience Manager Assets ou o Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
 
 ## Descrição expandida da equipe
 

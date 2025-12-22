@@ -2,28 +2,28 @@
 content-type: reference
 navigation-topic: boards
 title: Migrar cartões Kanban da Equipe Agile para painéis do Workfront
-description: Você pode migrar seus itens de trabalho de um quadro Kanban da Equipe Ágil para um quadro Workfront novo ou existente.
+description: Você pode migrar seus itens de trabalho de um quadro Kanban da Equipe Agile para um quadro Workfront novo ou existente.
 author: Jenny
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Migrar cartões Kanban da Equipe Ágil para quadros do Workfront
+# Migrar cartões Kanban da equipe do Agile para quadros do Workfront
 
-Você pode migrar seus itens de trabalho de um quadro Kanban da Equipe Ágil para um quadro Workfront novo ou existente. Quando você executa a migração, todos os cartões no quadro Kanban são copiados para o quadro Workfront. Você não tem permissão para escolher cartões específicos.
+Você pode migrar seus itens de trabalho de um quadro Kanban da Equipe Agile para um quadro Workfront novo ou existente. Quando você executa a migração, todos os cartões no quadro Kanban são copiados para o quadro Workfront. Você não tem permissão para escolher cartões específicos.
 
 O posicionamento dos cartões no quadro do Workfront é baseado nas políticas de coluna. (Por exemplo, uma política poderia mover todos os cartões com status de &quot;Em andamento&quot; para uma coluna específica. Para obter mais informações sobre políticas de coluna, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) Se não houver políticas ou os cartões não corresponderem às políticas, os cartões serão colocados na coluna mais à esquerda do quadro. Nesse momento, os cartões na coluna Backlog da placa herdada não são adicionados à placa Workfront.
 
-Os cartões não são removidos do quadro Kanban da Equipe Ágil e as alterações de status do cartão serão sincronizadas com ambos os quadros. Você pode manter ambas as placas ativas até estar pronto para mudar para Workfront Boards.
+Os cartões não são removidos do quadro Kanban da equipe Agile e as alterações de status do cartão serão sincronizadas com ambos os quadros. Você pode manter ambas as placas ativas até estar pronto para mudar para Workfront Boards.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 

@@ -6,7 +6,7 @@ description: É possível adicionar histórias a uma iteração de várias manei
 author: Jenny
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 3%
@@ -83,7 +83,7 @@ Você pode configurar equipes Scrum individuais para usar as datas do projeto po
 É possível adicionar qualquer tarefa ou problema a qualquer iteração se você tiver acesso de Gerenciamento ao projeto. Lembre-se do seguinte ao mover uma tarefa ou problema para uma iteração:
 
 * Se você adicionar várias equipes, a tarefa ou problema poderá ser exibido somente na iteração de uma equipe. Esta é a iteração que você escolhe na etapa 3 abaixo.
-* Se a tarefa ou problema for atribuído a uma equipe ágil e movido para a iteração de outra equipe, a atribuição da equipe não será alterada.
+* Se a tarefa ou problema for atribuído a uma equipe Agile e movido para a iteração de outra equipe, a atribuição da equipe não será alterada.
 * Se a tarefa ou problema não for atribuído a uma equipe, a tarefa ou problema será atribuído à equipe que possui a iteração.
 * Não é possível adicionar tarefas pai à iteração. Se você adicionar qualquer tarefa filho, a tarefa pai aparecerá no quadro Scrum como uma raia.
 

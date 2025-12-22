@@ -6,10 +6,10 @@ description: Ao visualizar um bloco de matéria no quadro Kanban, determinadas i
 author: Jenny
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -62,7 +62,7 @@ Ao visualizar um bloco de história no quadro [!UICONTROL Kanban], as informaç�
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Quaisquer campos adicionais (incluindo campos personalizados) que possam ter sido adicionados à exibição Agile modificando a exibição Agile, conforme descrito em "Criando e Personalizando uma Exibição Agile" na <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Visão geral das Exibições em [!DNL Adobe Workfront]</a></p> </td> 
+   <td> <p>Quaisquer campos adicionais (incluindo campos personalizados) que possam ter sido adicionados à exibição Agile por meio da modificação da exibição Agile, conforme descrito em "Criando e Personalizando uma Exibição Agile" na <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Visão geral das Exibições em [!DNL Adobe Workfront]</a></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -71,7 +71,7 @@ Ao visualizar um bloco de história no quadro [!UICONTROL Kanban], as informaç�
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,8 +85,8 @@ Ao visualizar um bloco de história no quadro [!UICONTROL Kanban], as informaç�
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
  </tbody> 
 </table>

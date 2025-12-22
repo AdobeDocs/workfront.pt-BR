@@ -6,10 +6,10 @@ description: Os administradores e usuários do Workfront com uma licença de Pla
 author: Jenny
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ Você pode adicionar usuários a uma equipe, definir o modelo de layout da equip
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,8 +34,8 @@ Você pode adicionar usuários a uma equipe, definir o modelo de layout da equip
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
-   <p>Trabalhar ou superior</p></td>
+   <p>Padrão</p>
+   <p>Trabalho ou maior</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +50,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Clique no ícone **[!UICONTROL Equipe de comutação]** ![Ícone Equipe de comutação](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon.png) e selecione **[!UICONTROL Editar]**.
+1. Clique no menu **** Mais![](assets/more-icon.png) e selecione **[!UICONTROL Editar]**.
 
    Somente membros da equipe com uma licença [!UICONTROL Padrão], [!UICONTROL Plano] ou [!UICONTROL Trabalho] podem ver esta opção.
 
@@ -77,9 +77,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
      Para obter mais informações sobre como aplicar um modelo de layout personalizado a uma equipe, consulte a seção &quot;Aplicando um Modelo Personalizado a uma Equipe&quot; em Alterar as áreas [!UICONTROL Meu Trabalho] e [!UICONTROL Solicitações de Trabalho] com Modelos de Layout.
 
-   * Decida se esta equipe é ágil selecionando a opção **[!UICONTROL Esta é uma Equipe Ágil]**.
+   * Decida se esta equipe é Agile selecionando a opção **[!UICONTROL Esta é uma Equipe Agile]**.
 
-     Para obter mais informações sobre equipes ágeis e como gerenciar o trabalho dentro de uma equipe ágil, consulte [Criar uma equipe ágil](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Para obter mais informações sobre equipes Agile e como gerenciar o trabalho dentro de uma equipe Agile, consulte [Criar uma equipe Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * Altere o botão [!UICONTROL Trabalhar nisto] para um botão [!UICONTROL Iniciar]. Para obter mais informações sobre como configurar o botão [!UICONTROL Iniciar], consulte [Substituir o botão Trabalhar nisto por um botão [!UICONTROL Iniciar]](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Personalize o botão **[!UICONTROL Concluído]**. Para obter mais informações sobre como personalizar o botão [!UICONTROL Concluído], consulte:

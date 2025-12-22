@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 0%
@@ -184,7 +184,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Disponível nestas datas:</strong> <p>Versão de pré-visualização: 18 de novembro de 2021 <br></p> <p>Versão de produção: com a versão 22.1 </p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>A nova experiência do Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#filter" class="MCXref xref" xrefformat="{para}">Filtrar por lista de usuários em quadros ágeis mostra os usuários com mais atribuições primeiro</a> </p> <p>Agora, o filtro mostra os usuários com mais atribuições primeiro, para que sejam mais fáceis de localizar sem percorrer a lista.</p> <p>Anteriormente, o filtro por lista de usuários nos quadros Kanban e Scrum era exibido em ordem alfabética. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#filter" class="MCXref xref" xrefformat="{para}">Filtrar por lista de usuários em quadros Agile mostra os usuários com mais atribuições primeiro</a> </p> <p>Agora, o filtro mostra os usuários com mais atribuições primeiro, para que sejam mais fáceis de localizar sem percorrer a lista.</p> <p>Anteriormente, o filtro por lista de usuários nos quadros Kanban e Scrum era exibido em ordem alfabética. </p> </td> 
    <td><strong>Disponível nestas datas:</strong> <p>Versão de pré-visualização: 11 de novembro de 2021 <br></p> <p>Versão de produção: com a versão 22.1 <b style="color: #ff0000;">(removida da versão 22.1. Não está mais disponível na Visualização.)</b></p> <p><strong>Disponível nestes ambientes:</strong> </p> <p>A nova experiência do Adobe Workfront </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -417,7 +417,7 @@ O webinário da versão 22.1 do Workfront foi apresentado em 12 de janeiro de 20
 
 ## Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a [página de atualizações da versão de treinamento](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
 
 ## Funcionalidade não mais compatível
 

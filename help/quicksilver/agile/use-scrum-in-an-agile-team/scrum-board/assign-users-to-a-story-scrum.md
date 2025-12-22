@@ -6,10 +6,10 @@ description: Leia este artigo para saber como atribuir usuários a uma história
 author: Jenny
 feature: Agile
 exl-id: 57fa28cc-f93d-4938-9d65-3dcf90fdf6a0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
@@ -46,7 +46,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. (Opcional) Clique no ícone **[!UICONTROL Equipe do switch]** ![Ícone da equipe do switch](assets/switch-team-icon.png) e selecione uma nova equipe [!UICONTROL Scrum] no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Vá para a iteração ágil ou para o projeto que contém o storyboard ao qual você deseja atribuir usuários. Para obter informações sobre como navegar para uma iteração, consulte [Exibir uma iteração](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Vá para a iteração Agile ou o projeto que contém o storyboard ao qual você deseja atribuir usuários. Para obter informações sobre como navegar para uma iteração, consulte [Exibir uma iteração](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Vá para o bloco história no storyboard em que deseja adicionar um usuário.
 1. Clique no avatar da equipe no bloco da história (ou em um avatar do usuário, se já houver um atribuído), comece digitando o nome do usuário que deseja atribuir à história e clique no nome quando ele for exibido. Você também pode escolher um usuário sugerido.
 

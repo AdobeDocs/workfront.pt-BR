@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 23.2 Melhorias na agilidade
 
-Esta página descreve todas as melhorias ágeis feitas com a versão 23.2 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.2.
+Esta página descreve todas as melhorias de Agile feitas com a versão 23.2 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.2.
 
 Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo da versão 23.2, consulte [Visão geral da versão 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
@@ -27,7 +27,7 @@ Para obter mais informações, consulte [Adicionar tarefas ou problemas existent
 
 ## Funcionalidade de iteração disponível em placas Adobe Workfront
 
-Vários novos recursos disponíveis nas placas Workfront possibilitam o uso da funcionalidade ágil do Scrum. Esses recursos incluem:
+Vários novos recursos disponíveis nas placas Workfront permitem usar a funcionalidade Agile Scrum. Esses recursos incluem:
 
 * Fluxos de trabalho para agrupar painéis relacionados à mesma equipe e colaborar no trabalho
 * Uma lista de cartões ou backlog de trabalho, com a opção de usar fontes para conectar cartões a tarefas e problemas do Workfront

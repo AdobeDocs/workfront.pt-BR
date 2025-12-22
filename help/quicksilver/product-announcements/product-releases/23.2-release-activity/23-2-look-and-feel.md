@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2120636a-9464-4121-b8ba-f9d0af022b37
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 2%
@@ -44,7 +44,7 @@ Informações adicionais do usuário agora são exibidas quando você adiciona u
 
 * Pesquisa global por usuários
 * Fazer logon como página (esta página agora também tem uma aparência moderna, em linha com outras áreas do Workfront)
-* Novo formulário de subtarefa em um storyboard de iteração ágil
+* Novo formulário de subtarefa em um storyboard de iteração Agile
 * Editar caixa de diálogo de iteração
 * Caixa de diálogo Criar equipe
 * Editar página da equipe

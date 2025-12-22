@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '2731'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Para obter informações sobre como criar registros, consulte [Criar registros](
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    </td> 
   </tr> 
   <tr> 
@@ -142,11 +142,14 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    * Campos vinculados de outros registros
    * Campos do tipo fórmula
    * Campos do sistema (Criado por, Data de criação, Última modificação por, Última data de modificação)
-* Se os registros exibidos estiverem vinculados a outros registros, as novas informações dos registros que você está editando serão refletidas nos registros vinculados.
+* Se os registros exibidos estiverem vinculados a outros registros, as novas informações dos registros que você está editando serão refletidas nos registros vinculados em todos os espaços de trabalho onde esse registro estiver vinculado.
 * Não é possível editar registros em massa. <!--this will probably change-->
 * Os URLs são reconhecidos como links em tipos de campo de texto de linha única somente quando começam com o seguinte: http://, https://, ftp:// ou www. .
 * Você pode adicionar uma imagem de capa a cada registro. A imagem é exclusiva para cada registro e não se aplica a todos os registros do mesmo tempo.
 * É possível editar a ordem dos campos em uma página de registro e adicionar uma imagem de capa para um registro. Para obter mais informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
+* É possível editar as datas de Início e Término de um registro redimensionando ou reposicionando os registros nas exibições de linha do tempo e calendário.
+
+  Não é possível redimensionar ou reposicionar registros quando as datas de Início e Término escolhidas para o registro são somente leitura. Por exemplo, usar campos de pesquisa ou fórmula para as datas Inicial e Final de um registro não permite redimensionar ou reposicionar o registro em uma exibição de linha do tempo e calendário. <!--this also repeats below, for the timeline and the calendar views; also update there, if this changes-->
 
 ## Editar registros
 
@@ -266,6 +269,10 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 
 1. Clique e segure uma barra de registro, em seguida, arraste e solte-a em outra posição para atualizar sua linha do tempo e datas. As datas de início e término do registro são atualizadas automaticamente.
 
+   >[!IMPORTANT]
+   >
+   >Não é possível arrastar e soltar as extremidades de uma barra de registro, nem arrastar e soltar o registro em outra data quando as datas Inicial e Final escolhidas para o registro são somente leitura. Por exemplo, usar campos de pesquisa ou fórmula para as datas Inicial e Final de um registro não permite redimensionar ou reposicionar o registro em uma exibição de linha do tempo. <!--this also repeats in Considerations and in editing in the calendar view; also update there, if this changes-->
+
 1. Clique na barra de um registro para abrir sua área de detalhes e editar todos os campos.
 
    Para obter informações, consulte a seção [Editar um registro da visualização do registro em uma exibição](#edit-a-record-from-the-records-preview-in-a-view) neste artigo.
@@ -280,6 +287,10 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
    ![Barra de extremidade esquerda na exibição de calendário a ser redimensionada](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)
 
 1. Clique e segure uma barra de registro, em seguida, arraste e solte-a em outra posição para atualizar sua linha do tempo e datas. As datas de início e término do registro são atualizadas automaticamente.
+
+   >[!IMPORTANT]
+   >
+   >Não é possível arrastar e soltar as extremidades de uma barra de registro, nem arrastar e soltar o registro em outra data quando as datas Inicial e Final escolhidas para o registro são somente leitura. Por exemplo, usar campos de pesquisa ou fórmula para as datas Inicial e Final de um registro não permite redimensionar ou reposicionar o registro em uma exibição de calendário. <!--this also repeats in Considerations and in editing in the timeline view; also update there, if this changes-->
 
 1. Clique na barra de um registro para abrir sua área de detalhes e editar todos os campos.
 

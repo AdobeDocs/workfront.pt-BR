@@ -6,7 +6,7 @@ description: Você pode aproveitar a funcionalidade Agile para o seu projeto sem
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
@@ -21,7 +21,7 @@ Você pode aproveitar a funcionalidade Agile para o seu projeto sem os desafios 
 
 Você pode trabalhar em um ambiente Agile que use um backlog de equipe e permita criar iterações de tarefas no backlog.
 
-Para obter informações, consulte [Trabalhar em um ambiente ágil](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+Para obter informações, consulte [Trabalhar em um ambiente Agile](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Requisitos de acesso
 

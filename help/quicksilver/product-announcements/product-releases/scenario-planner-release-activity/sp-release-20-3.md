@@ -8,7 +8,7 @@ description: O Planejador de cenários do Workfront está disponível com a vers
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -35,7 +35,7 @@ O Planejador de cenários permite:
 
   Crie e compare cenários, facilite a colaboração e o consenso, execute e replaneje quando necessário.
 
-O Planejador de cenários ajuda você a ser mais ágil no seu planejamento. Se você é o proprietário do plano estratégico da sua empresa ou se está conduzindo um planejamento trimestral para uma única unidade de negócios, departamento ou equipe, o Planejador de cenários pode ajudar. Crie e compare vários cenários de maneira rápida e fácil com base em restrições, como orçamentos ou recursos da equipe.
+O Planejador de cenários ajuda você a ser mais ágil em seu planejamento. Se você é o proprietário do plano estratégico da sua empresa ou se está conduzindo um planejamento trimestral para uma única unidade de negócios, departamento ou equipe, o Planejador de cenários pode ajudar. Crie e compare vários cenários de maneira rápida e fácil com base em restrições, como orçamentos ou recursos da equipe.
 
 Com o Planejador de cenários, você pode modelar cenários por objetivo ou iniciativa no Planejador de cenários para responder a perguntas como:
 

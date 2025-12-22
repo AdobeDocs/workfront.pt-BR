@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Você pode controlar as prioridades de projetos, tarefas e problemas na área Co
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Você pode controlar as prioridades de projetos, tarefas e problemas na área Co
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   <tr> 
@@ -109,7 +109,7 @@ Além das prioridades padrão fornecidas no Workfront, você pode adicionar suas
 
    * **Cor**: escolha uma cor para a prioridade.
 
-     A cor da prioridade é usada em relatórios de gráfico e Configurações de Equipe Agile. Para obter informações sobre relatórios de gráficos, consulte [Adicionar um gráfico a um relatório](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md). Para obter informações sobre Configurações de Equipe Agile, consulte [Criar uma Equipe Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     A cor da prioridade é usada em relatórios de gráfico e Configurações de Equipe Agile. Para obter informações sobre relatórios de gráficos, consulte [Adicionar um gráfico a um relatório](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md). Para obter informações sobre Configurações de Equipe Agile, consulte [Criar uma equipe Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * **Prioridade padrão**: selecione a prioridade que deseja que o Workfront aplique automaticamente a todos os projetos, tarefas ou problemas recém-criados.
 

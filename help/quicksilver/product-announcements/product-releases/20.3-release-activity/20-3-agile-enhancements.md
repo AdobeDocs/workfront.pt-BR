@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f86122a2-17c7-4df5-a958-177cc3d14f73
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -30,4 +30,4 @@ Para obter mais informações, consulte [Configurar Kanban](../../../agile/get-s
 
 ## Os Quadros Agile carregam 50 itens de trabalho de cada vez
 
-Para aumentar a velocidade e o desempenho das ferramentas ágeis, agora são carregadas até 50 placas em vários locais. Se houver mais de 50 itens de trabalho em um quadro Agile, um botão será exibido na parte inferior do quadro ou do backlog, permitindo carregar itens de trabalho adicionais.
+Para aumentar a velocidade e o desempenho das ferramentas Agile, agora são carregadas até 50 placas em vários locais. Se houver mais de 50 itens de trabalho em um quadro Agile, um botão será exibido na parte inferior do quadro ou backlog, permitindo carregar itens de trabalho adicionais.

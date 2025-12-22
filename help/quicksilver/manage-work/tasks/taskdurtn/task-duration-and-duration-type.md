@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 1%
@@ -153,7 +153,7 @@ O Tipo de duração ajuda a responder às seguintes perguntas:
   <tr> 
    <th scope="col"> <p><strong>Simples</strong> </p> </th> 
    <td scope="col"> <p>Determina as horas planejadas e a duração (que são as mesmas, para este tipo de duração) com base no número de horas para as quais cada destinatário é alocado. </p> <p>O Workfront calcula as Horas planejadas somando as horas alocadas planejadas para cada destinatário. </p> <p>Você pode alterar manualmente a quantidade de horas para a qual cada destinatário está alocado, e o número de Horas planejadas e a quantidade de Duração são alterados de acordo. Se você escolher um número total de horas alocadas para todos os designados, esse número será dividido igualmente entre cada designado.</p> <p>Para obter informações mais detalhadas, consulte <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Visão geral do Tipo de Duração: Simples</a>.</p> </td> 
-   <td scope="col"> <p>As horas são distribuídas uniformemente entre os designados se você escolher um número total de horas alocadas. No entanto, como gerente de projeto, você pode ajustar manualmente as horas para cada destinatário. </p> <p>Você pode editar as Horas planejadas e a Duração de uma tarefa com um Tipo de duração simples em linha ou no nível da tarefa. </p> <p>Se uma Equipe Ágil for atribuída a uma tarefa, o Tipo de duração será automaticamente definido como Simples e não poderá ser alterado. A duração da tarefa para uma Equipe Ágil deve ser maior que 0 minutos.</p> </td> 
+   <td scope="col"> <p>As horas são distribuídas uniformemente entre os designados se você escolher um número total de horas alocadas. No entanto, como gerente de projeto, você pode ajustar manualmente as horas para cada destinatário. </p> <p>Você pode editar as Horas planejadas e a Duração de uma tarefa com um Tipo de duração simples em linha ou no nível da tarefa. </p> <p>Se uma Equipe Agile for atribuída a uma tarefa, o Tipo de duração será automaticamente definido como Simples e não poderá ser alterado. A duração da tarefa para uma equipe Agile deve ser superior a 0 minutos.</p> </td> 
   </tr> 
  </tbody> 
 </table>
