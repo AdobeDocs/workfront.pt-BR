@@ -318,7 +318,7 @@ Estamos atualizando a interface em todo o Adobe Workfront para melhorar a experi
 
 >[!IMPORTANT]
 >
->A documentação do Workfront Fusion foi movida para um novo local. Para obter informações, instruções e versões do Fusion, visite a [documentação do Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
+>A documentação do Workfront Fusion foi movida para um novo local. Para obter informações, instruções e versões do Fusion, visite a [documentação do Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/home).
 >
 >Cada artigo de documentação atual do Fusion contém um link para o artigo correspondente no novo local. Atualize seus marcadores.
 >
@@ -352,8 +352,8 @@ Para obter informações sobre quais versões de API são atualmente compatívei
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Segundo trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Segundo trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-known-issues/releases/current-updates).
 
 ### Atualizações de treinamento
 
-Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
+Explore as atualizações mais recentes feitas em programas de aprendizado, caminhos de aprendizado, vídeos e guias para cada versão de produto do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página Tutoriais do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR).
