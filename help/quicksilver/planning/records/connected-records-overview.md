@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,8 @@ Para obter informações sobre como conectar registros uns aos outros ou a outro
 * Todos os usuários com acesso ao Workfront Planning and View ou permissões mais altas para o espaço de trabalho e um tipo de registro podem ver as conexões que você faz entre registros ou entre registros e objetos de outros aplicativos. Eles podem exibir registros e objetos conectados independentemente de suas permissões nos aplicativos aos quais você está se conectando.
 * Você poderá exibir e editar as conexões de todos os outros usuários se tiver permissões de Gerenciamento para o espaço de trabalho e o tipo de registro em que estão os registros conectados.
 * É possível conectar um registro a um ou vários objetos de outro aplicativo., dependendo do tipo de conexão selecionado ao conectar os tipos de registro. Para obter mais informações, consulte a seção &quot;Tipos de conexões&quot; no artigo [Visão geral sobre tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-  <!--* <span class="preview">If connected record types are part of hierarchies, you can access any object type within the hierarchy from the records' pages. For information, see [Hierarchy and breadcrumb overview](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>-->
+* <span class="preview">Se os tipos de registro conectados fizerem parte de hierarquias, você poderá acessar qualquer tipo de objeto dentro da hierarquia nas páginas dos registros. Para obter informações, consulte [Visão geral sobre hierarquia e navegação estrutural](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>
+* <span class="preview">* Quando os tipos de registro conectados fazem parte de hierarquias, você pode conectar um registro de um tipo de registro filho a até 10 registros de um tipo de registro pai. Para obter informações, consulte [Visão geral sobre hierarquia e navegação estrutural](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md). </span>
 
 ## Áreas em que é possível conectar registros
 

@@ -1,30 +1,18 @@
 ---
 title: Criar hierarquias do Workspace
-description: Como um gerenciador de espaço de trabalho, você pode criar várias hierarquias de espaço de trabalho entre os tipos de registro no Adobe Workfront Planning. Depois de conectar tipos de registro em um espaço de trabalho e criar uma hierarquia, os tipos de registro são conectados uns aos outros, com um tipo de registro designado como pai e até seis outros tipos de registro configurados como filhos.
-hide: true
-hidefromtoc: true
-exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 1%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Create Workspace Hierarchies
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: Como um gerenciador de espaço de trabalho, você pode criar várias hierarquias de espaço de trabalho entre os tipos de registro no Adobe Workfront Planning. Depois de conectar tipos de registro em um espaço de trabalho e criar uma hierarquia, os tipos de registro são conectados uns aos outros, com um tipo de registro designado como pai e até três outros tipos de registro configurados como filhos.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 1%
+
 ---
 
--->
 
 # Criar hierarquias do espaço de trabalho
 
@@ -38,13 +26,11 @@ Depois que os tipos de registro forem conectados em um espaço de trabalho, voc�
 
 Se uma conexão entre dois tipos de registro ainda não existir, ela poderá ser criada conforme você configura a hierarquia. Uma vez definida, a hierarquia estabelece um caminho estruturado entre tipos de registro relacionados no espaço de trabalho.
 
-As hierarquias gerarão navegações estruturais para os tipos de registro e seus respectivos registros <!--ensure this is the case: does the breadcrumb show for both the RT and the record??--> que são exibidos em seus cabeçalhos. Dessa forma, os usuários sabem onde estão na hierarquia em qualquer estágio do fluxo de trabalho.
+As hierarquias geram navegações estruturais para seus respectivos registros que são exibidos em seus cabeçalhos. Dessa forma, os usuários sabem onde estão na hierarquia em qualquer estágio do fluxo de trabalho.
 
 Para obter informações gerais sobre hierarquias e navegações estruturais, consulte [Visão geral sobre hierarquia e navegação estrutural](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
 ## Requisitos de acesso
-
-<!--check the access to see if you oversimplified???-->
 
 +++ Expanda para exibir os requisitos de acesso para executar as etapas deste artigo:  
 
@@ -84,6 +70,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 +++
 
 ## Criar uma hierarquia de espaço de trabalho
+
+Você pode criar até 5 hierarquias em um espaço de trabalho.
 
 {#step1-to-planning}
 
@@ -155,6 +143,13 @@ Cada tipo de objeto adicional se torna filho dos tipos de objeto anteriores.
 
    * A hierarquia é adicionada à seção **Hierarquias** do espaço de trabalho.
    * Os registros que preenchem os campos de conexão exibem todas as conexões em suas navegações estruturais, quando você acessa a página de um registro.
+
+   >[!NOTE]
+   >
+   >Você pode conectar um registro de um tipo de registro filho a até 10 registros de um tipo de registro pai.
+   >
+   >Para obter mais informações, consulte [Visão geral sobre hierarquia e navegação estrutural](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
 1. (Opcional) Passe o mouse sobre uma hierarquia e clique no menu **Mais**.
 
    ![Menu Mais de Hierarquia expandido](assets/hierarchy-more-menu-expanded.png)

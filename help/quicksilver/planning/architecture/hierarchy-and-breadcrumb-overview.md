@@ -1,28 +1,18 @@
 ---
 title: Visão geral da hierarquia e da navegação estrutural
-description: Você pode criar várias hierarquias de espaço de trabalho entre os tipos de registro em um espaço de trabalho.
-hide: true
-hidefromtoc: true
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
-workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 0%
-
----
-
-<!--update the metadata with real information when making this available in TOC and in the left nav:
-
----
-title: Hierarchy and Breadcrumb Overview
-description: You can create multiple workspace hierarchies between the record types in a workspace. 
+description: Você pode criar várias hierarquias de espaço de trabalho entre os tipos de registro em um espaço de trabalho depois de conectar os tipos de registro.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hide: yes 
-hidefromtoc: yes 
+source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 0%
+
 ---
--->
+
+
 
 # Visão geral da hierarquia e da navegação estrutural
 
@@ -30,7 +20,7 @@ hidefromtoc: yes
 
 <span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Como um gerenciador de espaço de trabalho, você pode definir hierarquias flexíveis mas estruturadas entre tipos de registro e outros tipos de objeto no Adobe Workfront Planning.
+Como um gerenciador de espaço de trabalho, você pode definir hierarquias flexíveis mas estruturadas entre tipos de registro conectados e outros tipos de objeto no Adobe Workfront Planning.
 
 As hierarquias são conexões entre tipos de registro ou entre tipos de registro e um projeto do Workfront.
 
@@ -45,7 +35,7 @@ Estes são os benefícios de usar hierarquias em seus espaços de trabalho:
 
 ## Considerações ao trabalhar com hierarquia
 
-* Você pode criar várias hierarquias para um espaço de trabalho.
+* Você pode criar até 5 hierarquias para um espaço de trabalho.
 * É possível ter até quatro tipos de registro e objeto conectados em uma hierarquia.
 * Você pode conectar apenas os seguintes tipos de objetos em uma hierarquia de espaço de trabalho:
    * Tipos de registro que pertencem ao espaço de trabalho no qual você está criando as hierarquias.
@@ -60,6 +50,9 @@ Estes são os benefícios de usar hierarquias em seus espaços de trabalho:
   * Se uma conexão entre os tipos de registro selecionados já existir, o sistema reutilizará a conexão existente.
 * Se não houver uma conexão, o Workfront criará uma como parte da configuração da hierarquia.
 * A configuração **Criar campo correspondente no tipo de registro vinculado** deve ser ativada para o campo conectado de registros e tipos de objeto que você deseja incluir em uma hierarquia.
+* Não é possível deletar um tipo de registro se ele fizer parte de uma hierarquia.
+* Não é possível excluir um campo de conexão se o tipo de registro referenciado no campo fizer parte de uma hierarquia. Você deve primeiro remover o tipo de registro da hierarquia ou excluir a hierarquia antes de poder excluir o tipo de registro.
+* Você pode excluir um campo de pesquisa de um tipo de registro conectado. As informações no campo não podem ser recuperadas.
 * A seguir estão as regras para configuração de hierarquia:
    * Um tipo de registro só pode ter um tipo de registro pai em um determinado espaço de trabalho.
 
@@ -77,18 +70,22 @@ Estes são os benefícios de usar hierarquias em seus espaços de trabalho:
    * Os tipos de registro global podem aparecer em vários espaços de trabalho dentro de várias hierarquias, após serem adicionados a esses espaços de trabalho.
 
      Por exemplo, se uma Campanha for um tipo de registro global e parte de uma hierarquia no Workspace 1, ela poderá ser adicionada como um tipo de registro existente ao Workspace 2 e poderá fazer parte de uma hierarquia lá. Mas ela não pode fazer parte de uma hierarquia no Workspace 2 somente quando designada como um tipo de registro global no Workspace 1, mas não adicionada ao Workspace 2.
+   * Quando os tipos de registro conectados fazem parte de hierarquias, você pode conectar um registro de um tipo de registro-filho a até 10 registros de um tipo de registro-pai.
+
+     Por exemplo, se você criar uma hierarquia entre Campanhas como principal e Persona como registro secundário, poderá conectar a mesma persona a até 10 campanhas.
 
 ## Considerações ao visualizar navegações estruturais
-
-<!-- this might be incomplete, because I have no UI for this yet-->
 
 Quando você cria hierarquias entre tipos de registro, elas geram navegações estruturais para os registros que pertencem a esses tipos de registro.
 
 Por exemplo, se você criar uma hierarquia e conectar Campanhas com Táticas, depois com Atividades e, em seguida, com Projetos, ao navegar para um registro de qualquer um dos tipos conectados na hierarquia, você poderá visualizar onde o registro é colocado na hierarquia.
 
+![Navegação estrutural](assets/breadcrumbs-on-project.png)
+
 Considere o seguinte:
 
 * Se um tipo de registro fizer parte de várias hierarquias, você poderá alternar entre hierarquias a partir da navegação estrutural do registro na página do registro.
+* Se o tipo de registro em uma hierarquia tiver vários registros, você poderá selecionar registros na navegação estrutural.
 * As navegações estruturais funcionam no Workfront e no Planning.
 
   Por exemplo, ao observar um projeto que está conectado a campanhas e táticas do Planning, e também a portfólios e programas do Workfront, é possível alternar entre os tipos de objeto do Planning e do Workfront na navegação estrutural.
