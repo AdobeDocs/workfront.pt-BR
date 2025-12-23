@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '523'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | Número de entidades (usuários, funções, equipes, empresas, grupos) com as quais você pode compartilhar um objeto do Planning | 100 |
 | <span class="preview">Número de tipos de registros em uma hierarquia</span> | 4 |
 | <span class="preview">Número de hierarquias em um espaço de trabalho</span> | 5 |
-| <span class="preview">Número de registros pai conectados a um filho em uma hierarquia</span> | 10 |
+| <span class="preview">Número de registros de um tipo de registro pai conectados a um registro de um tipo de registro filho, dentro de uma hierarquia</span> | 10 |
 | Número de registros conectados a um registro em um tipo de conexão de seleção múltipla, <span class="preview"> sem uma hierarquia configurada entre os registros</span> | 500 |
 
 *Recomendamos não ter muitos espaços de trabalho, pois eles podem se tornar difíceis de gerenciar e seus fluxos de trabalho podem estar muito fragmentados.

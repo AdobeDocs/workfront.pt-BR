@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 34921b12ad902ba7390e4ea34825331280e7a8d6
+source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
 workflow-type: tm+mt
 source-wordcount: '1042'
 ht-degree: 0%
@@ -46,8 +46,9 @@ Estes são os benefícios de usar hierarquias em seus espaços de trabalho:
    * AEM Assets.
 * As hierarquias podem incluir tipos de registro do Planning e projetos do Workfront ao mesmo tempo.
 
-      Por exemplo, você pode ter um tipo de registro de Campanha com Táticas de Planejamento e Projetos Workfront como filhos na mesma hierarquia de espaço de trabalho.
-  * Se uma conexão entre os tipos de registro selecionados já existir, o sistema reutilizará a conexão existente.
+  Por exemplo, você pode ter um tipo de registro de Campanha com Táticas de Planejamento e Projetos Workfront como filhos na mesma hierarquia de espaço de trabalho.
+
+* Se uma conexão entre os tipos de registro selecionados já existir, o sistema reutilizará a conexão existente.
 * Se não houver uma conexão, o Workfront criará uma como parte da configuração da hierarquia.
 * A configuração **Criar campo correspondente no tipo de registro vinculado** deve ser ativada para o campo conectado de registros e tipos de objeto que você deseja incluir em uma hierarquia.
 * Não é possível deletar um tipo de registro se ele fizer parte de uma hierarquia.
