@@ -4,9 +4,9 @@ description: Aprimoramentos de documentos e aprovações no primeiro trimestre d
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0197be82879cbd2abfd053e4a93002884db252b4
+source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Esta página descreve as melhorias de documentos e aprovações feitas com a ver
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2026, consulte [Visão geral da versão do Primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Escolher um projeto do Workfront ao enviar uma revisão no Creative Cloud Express
+## Escolher um projeto do Workfront ao enviar uma revisão no Adobe Express
 
 >[!NOTE]
 >
