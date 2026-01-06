@@ -7,9 +7,9 @@ description: Esta página contém informações sobre a estrutura e o conteúdo 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 815bee06ce413005e362d2e38068d591696cad5b
+source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8878'
+source-wordcount: '8904'
 ht-degree: 9%
 
 ---
@@ -40,16 +40,59 @@ Há vários tipos de exibição que você pode usar no Data Connect para exibir 
 
 <!-- Custom view -->
 
-## Diagrama de relacionamento de entidade
+## Diagramas de relacionamento de entidade
 
-Os objetos no Workfront (e, portanto, no data lake da Data Connect) são definidos não apenas por seus valores individuais, mas por suas relações com outros objetos. O diagrama de relacionamento de entidade abaixo fornece um mapeamento de alto nível de relacionamentos de objetos no Data Connect. O diagrama pode ser visualizado e baixado por meio do seguinte link:
+Os objetos no Workfront (e, portanto, no data lake da Data Connect) são definidos não apenas por seus valores individuais, mas por suas relações com outros objetos.
 
-[Diagrama de relacionamento da entidade Conexão de Dados](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+Os diagramas de relacionamento de entidade (ERDs) abaixo fornecem um mapeamento de alto nível de relacionamentos de objetos no Data Connect para objetos Workfront principais.
 
 >[!IMPORTANT]
 >
->O ERD (diagrama de relacionamento de entidade) fornecido está propositalmente incompleto, pois um ERD completo se tornaria ilegível devido ao alto número de relacionamentos dentro do aplicativo.<br>
->Este diagrama fornece um exemplo de como as relações documentadas na tabela Projeto na seção [Tabela de terminologia](#terminology-table) abaixo podem ser usadas para unir dados da visualização de dados do Projeto a objetos adjacentes. Espera-se que um ERD completo não seja necessário uma vez que esse padrão seja entendido para as relações de objeto do projeto
+>Os diagramas são centralizados em objetos únicos e não representam um diagrama completo de relacionamento de entidade para todo o aplicativo do Workfront. <br>
+>Esses diagramas são destinados a fornecer exemplos de como os relacionamentos podem ser usados para unir dados a objetos adjacentes.
+
+### Exemplo de diagramas de relacionamento de entidade
+
++++ Expandir para exibir os diagramas de exemplo
+
+>[!TIP]
+>
+>Para exibir um diagrama com mais detalhes, clique com o botão direito na imagem e selecione **Abrir imagem em nova guia**.
+
+
+### Atribuições
+
+![Diagrama de relacionamento de entidade das atribuições](assets/Assignment-centered-ERD.png)
+
+
+### Documentos e aprovações de documentos
+
+![Diagrama de relacionamento da entidade de aprovação de documentos e documentos](assets/Document-and-Document-Approvals-centered-ERD.png)
+
+### Horas e planilhas de horas
+
+![Diagrama de relacionamento de entidade de Horas e Folhas de Horas](assets/Hours-and-Timesheet-centered-ERD.png)
+
+
+### Problemas
+
+![Diagrama de relação de entidade de problemas](assets/Issue-centered-ERD.png)
+
+### Projetos
+
+![Diagrama de relacionamento da entidade Projetos](assets/Project-centered-ERD.png)
+
+
+### Tarefas
+
+![Diagrama de relacionamento da entidade de tarefas](assets/Task-centered-ERD.png)
+
+
+### Usuários
+
+![Diagrama de relacionamento da entidade de usuários](assets/User-centered-ERD.png)
+
++++
 
 ## Tipos de data
 
@@ -974,7 +1017,7 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
     </tbody>
 </table>
 
-### Registro de Cobrança
+### Registro de cobrança
 
 <table>
     <thead>
@@ -988,10 +1031,10 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
       </thead>
       <tbody>
         <tr>
-            <td>Registro de Cobrança</td>
-            <td>Registro de Cobrança</td>
+            <td>Registro de cobrança</td>
+            <td>Registro de cobrança</td>
             <td>FATURA</td>
-            <td>Registro de Cobrança</td>
+            <td>Registro de cobrança</td>
             <td>BILLINGRECORDS_CURRENT<br>BILLINGRECORDS_DAILY_HISTORY<br>BILLINGRECORDS_EVENT</td>
         </tr>
       </tbody>
@@ -1665,15 +1708,15 @@ A tabela a seguir correlaciona nomes de objetos no Workfront (bem como seus nome
 >
 >O tipo de registro é identificado por meio da propriedade `enumClass`. Estes são os tipos esperados:<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Documento
@@ -2407,7 +2450,7 @@ Disponibilidade limitada para o cliente
     </tbody>
 </table>
 
-### Versão do Documento
+### Versão do documento
 
 <table>
     <thead>
@@ -2421,10 +2464,10 @@ Disponibilidade limitada para o cliente
       </thead>
       <tbody>
         <tr>
-            <td>Versão do Documento</td>
-            <td>Versão do Documento</td>
+            <td>Versão do documento</td>
+            <td>Versão do documento</td>
             <td>DOCV</td>
-            <td>Versão do Documento</td>
+            <td>Versão do documento</td>
             <td>DOCUMENTVERSIONS_CURRENT<br>DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
         </tr>
       </tbody>
@@ -2680,7 +2723,7 @@ Disponibilidade limitada para o cliente
     </tbody>
 </table>
 
-### Tipo de Despesa
+### Tipo de despesa
 
 <table>
     <thead>
@@ -2694,10 +2737,10 @@ Disponibilidade limitada para o cliente
       </thead>
       <tbody>
         <tr>
-            <td>Tipo de Despesa</td>
-            <td>Tipo de Despesa</td>
+            <td>Tipo de despesa</td>
+            <td>Tipo de despesa</td>
             <td>EXPTYP</td>
-            <td>Tipo de Despesa</td>
+            <td>Tipo de despesa</td>
             <td>EXPENSETYPES_CURRENT<br>EXPENSETYPES_DAILY_HISTORY<br>EXPENSETYPES_EVENT</td>
         </tr>
       </tbody>
@@ -2824,7 +2867,7 @@ Disponibilidade limitada para o cliente
     </tbody>
 </table>
 
-### Hour
+### Hora
 
 <table>
     <thead>
@@ -2838,10 +2881,10 @@ Disponibilidade limitada para o cliente
       </thead>
       <tbody>
         <tr>
-            <td>Hour</td>
-            <td>Hour</td>
+            <td>Hora</td>
+            <td>Hora</td>
             <td>HORA</td>
-            <td>Hour</td>
+            <td>Hora</td>
             <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
         </tr>
       </tbody>
@@ -3097,7 +3140,7 @@ Auto</td>
     </tbody>
 </table>
 
-### Entrada no Relatório
+### Lançamento documentado
 
 <table>
     <thead>
@@ -3111,10 +3154,10 @@ Auto</td>
       </thead>
       <tbody>
         <tr>
-            <td>Entrada no Relatório</td>
-            <td>Entrada no Relatório</td>
+            <td>Lançamento documentado</td>
+            <td>Lançamento documentado</td>
             <td>JRNLE</td>
-            <td>Entrada no Relatório</td>
+            <td>Lançamento documentado</td>
             <td>JOURNALENTRIES_CURRENT<br>JOURNALENTRIES_DAILY_HISTORY<br>JOURNALENTRIES_EVENT</td>
         </tr>
       </tbody>
@@ -3410,7 +3453,7 @@ Auto</td>
     </tbody>
 </table>
 
-### Caminho de Etapas
+### Caminho de marcos
 
 <table>
     <thead>
@@ -3424,10 +3467,10 @@ Auto</td>
       </thead>
       <tbody>
         <tr>
-            <td>Caminho de Etapas</td>
-            <td>Caminho de Etapas</td>
+            <td>Caminho de marcos</td>
+            <td>Caminho de marcos</td>
             <td>MPATH</td>
-            <td>Caminho de Etapas</td>
+            <td>Caminho de marcos</td>
             <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
         </tr>
       </tbody>
@@ -3684,7 +3727,7 @@ Auto</td>
     </tbody>
 </table>
 
-### Observação
+### Nota
 
 <table>
     <thead>
@@ -3698,10 +3741,10 @@ Auto</td>
       </thead>
       <tbody>
         <tr>
-            <td>Observação</td>
-            <td>Observação</td>
             <td>Nota</td>
-            <td>Observação</td>
+            <td>Nota</td>
+            <td>Nota</td>
+            <td>Nota</td>
             <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
         </tr>
       </tbody>
@@ -5133,7 +5176,7 @@ Auto</td>
             <td>Usuário da Equipe do Projeto</td>
             <td>Usuário da Equipe do Projeto</td>
             <td>PRTU</td>
-            <td>Usuário de Projeto</td>
+            <td>Usuário de projeto</td>
             <td>PROJECTSUSERS_CURRENT<br>PROJECTSUSERS_DAILY_HISTORY<br>PROJECTSUSERS_EVENT</td>
         </tr>
       </tbody>
@@ -5840,7 +5883,7 @@ Auto</td>
     </tbody>
 </table>
 
-### Tipo de Risco
+### Tipo de risco
 
 <table>
     <thead>
@@ -5854,10 +5897,10 @@ Auto</td>
       </thead>
       <tbody>
         <tr>
-            <td>Tipo de Risco</td>
-            <td>Tipo de Risco</td>
+            <td>Tipo de risco</td>
+            <td>Tipo de risco</td>
             <td>RSKTYP</td>
-            <td>Tipo de Risco</td>
+            <td>Tipo de risco</td>
             <td>RISKTYPES_CURRENT<br>RISKTYPES_DAILY_HISTORY<br>RISKTYPES_EVENT</td>
         </tr>
       </tbody>
@@ -6960,7 +7003,7 @@ Disponibilidade limitada para o cliente
     </tbody>
 </table>
 
-### Modelo de Tarefa
+### Tarefa de modelo
 
 <table>
     <thead>
@@ -6974,10 +7017,10 @@ Disponibilidade limitada para o cliente
       </thead>
       <tbody>
         <tr>
-            <td>Modelo de Tarefa</td>
-            <td>Modelo de Tarefa</td>
+            <td>Tarefa de modelo</td>
+            <td>Tarefa de modelo</td>
             <td>TTSK</td>
-            <td>Modelo de Tarefa</td>
+            <td>Tarefa de modelo</td>
             <td>TEMPLATETASKS_CURRENT<br>TEMPLATETASKS_DAILY_HISTORY<br>TEMPLATETASKS_EVENT</td>
         </tr>
       </tbody>
@@ -7719,7 +7762,7 @@ Disponibilidade limitada para o cliente
     </tbody>
 </table>
 
-### Planilha de horas
+### Folha de horas
 
 <table>
     <thead>
@@ -7733,10 +7776,10 @@ Disponibilidade limitada para o cliente
       </thead>
       <tbody>
         <tr>
-            <td>Planilha de horas</td>
-            <td>Planilha de horas</td>
+            <td>Folha de horas</td>
+            <td>Folha de horas</td>
             <td>FOLHA</td>
-            <td>Planilha de horas</td>
+            <td>Folha de horas</td>
             <td>FOLHAS_DE_HORAS_ATUAIS<br>FOLHAS_DE_HORAS_DIÁRIAS_HISTÓRICO<br>FOLHAS_DE_HORAS_EVENTO</td>
         </tr>
       </tbody>
