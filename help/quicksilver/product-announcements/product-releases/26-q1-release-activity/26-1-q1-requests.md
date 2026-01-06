@@ -4,9 +4,9 @@ description: Melhorias nas solicitações do primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -125,8 +125,6 @@ Para obter mais informações sobre o Preenchimento de Formulário fornecido pel
 Para facilitar a criação e o envio de solicitações, adicionamos a capacidade de salvar rascunhos na nova experiência de solicitação. Agora, quando você começa a preencher uma solicitação e a fecha, a solicitação é salva no status Rascunho e pode ser encontrada no formulário de solicitação usado para criar o rascunho. Em seguida, você poderá reabrir, atualizar e submeter a preliminar quando desejar.
 
 Anteriormente, esse recurso não estava disponível na nova experiência de solicitação.
-
-Os rascunhos criados na experiência de solicitação herdada estão disponíveis na nova experiência de solicitação.
 
 Para obter mais informações sobre rascunhos de solicitações, consulte [Criar solicitações a partir de rascunhos](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 

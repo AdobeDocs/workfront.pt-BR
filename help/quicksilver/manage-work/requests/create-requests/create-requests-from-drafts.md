@@ -6,10 +6,10 @@ description: Além de usar os rascunhos disponíveis que o Workfront sugere quan
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 1%
+source-wordcount: '836'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ Além de usar os rascunhos disponíveis que o Workfront sugere quando você info
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,6 +82,10 @@ O procedimento para criar solicitações de rascunhos difere entre a nova experi
    * Na lista de solicitações do widget Minhas solicitações na Página inicial
    * Na caixa de diálogo Nova solicitação (inclui somente rascunhos de solicitações criadas com o formulário selecionado)
 
+   >[!NOTE]
+   >
+   >Os rascunhos criados na experiência de solicitação herdada não estão disponíveis na nova experiência de solicitação.
+
 1. Atualize as informações da solicitação conforme descrito em [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Opcional e condicional) A qualquer momento durante a inserção da solicitação, clique em **Descartar** rascunho se desejar excluir o rascunho. Isso exclui o rascunho.
 
@@ -112,7 +116,7 @@ O procedimento para criar solicitações de rascunhos difere entre a nova experi
 1. Revise as informações sobre cada rascunho nas seguintes colunas da lista Rascunhos:
 
    | Assunto | Esse é o nome que você deu à solicitação quando ela começou a ser criada. |
-   |---|---|
+   | --- | --- |
    | Caminho | O nome da fila de solicitações, dos grupos de tópicos e dos tópicos da fila em que você originalmente pretendia submeter a solicitação. |
    | Data de Entrada | A data em que você iniciou a criação da solicitação. |
    | Data da última atualização | A última de sua última atualização. Se você não a atualizou desde que iniciou a solicitação pela primeira vez, a Data de Entrada e a Data da Última Atualização devem ser iguais. |
@@ -141,9 +145,4 @@ O procedimento para criar solicitações de rascunhos difere entre a nova experi
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Quando você envia a solicitação, o rascunho é excluído e não pode ser restaurado.
-
-   >[!NOTE]
-   >
-   >Na nova experiência de solicitação, os rascunhos estão na mesma lista de solicitações enviadas.
-   >Para obter mais informações sobre como criar solicitações na nova experiência do, consulte [Criar solicitações e gerar rascunhos no aplicativo Web do Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) no artigo Criar e enviar solicitações.
 
