@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 644b27b1cab7b7a4e94a28c82387de056dfe34a0
 workflow-type: tm+mt
 source-wordcount: '13634'
 ht-degree: 2%
@@ -1493,7 +1493,7 @@ ht-degree: 2%
          * [Criar e enviar solicitações](manage-work/requests/create-requests/create-submit-requests.md)
          * [Criar solicitações a partir de rascunhos](manage-work/requests/create-requests/create-requests-from-drafts.md)
          * [Permitir que os usuários enviem um problema por email para um projeto da Fila de solicitações](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
-         * [Localizar solicitações enviadas](manage-work/requests/create-requests/locate-submitted-requests.md)
+         * [Visualizar solicitações enviadas](manage-work/requests/create-requests/locate-submitted-requests.md)
          * [Compartilhar um link para uma fila de solicitações](manage-work/requests/create-requests/share-link-to-request-queue.md)
          * [Excluir uma solicitação enviada ou rascunho de solicitação](manage-work/requests/create-requests/delete-request-draft.md)
          * [Copiar e enviar solicitações](manage-work/requests/create-requests/copy-and-submit-requests.md)
@@ -2087,7 +2087,7 @@ ht-degree: 2%
       * [Personalizar a terminologia das Metas do Adobe Workfront](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Compartilhar uma meta no Workfront Goals](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Ativar notificações do Adobe Workfront Goals](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Planejamento do Adobe Workfront {#adobe-workfront-planning}
+* Adobe Workfront Planning {#adobe-workfront-planning}
    * [Informações gerais sobre o Adobe Workfront Planning](planning/planning-information.md)
    * Informações gerais sobre o Adobe Workfront Planning {#adobe-workfront-planning-general-information}
       * [Informações gerais sobre o Adobe Workfront Planning: índice do artigo](planning/general/planning-general-article-index.md)
