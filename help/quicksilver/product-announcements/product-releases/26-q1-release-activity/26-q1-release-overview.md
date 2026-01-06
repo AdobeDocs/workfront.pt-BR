@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6b6500b0db40a959d87d97c89d85e3564445cca4
+source-git-commit: 353b71e59fc2dc2e1f806a560f04076586a32424
 workflow-type: tm+mt
-source-wordcount: '3013'
+source-wordcount: '2949'
 ht-degree: 4%
 
 ---
@@ -201,15 +201,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>sexta-feira, 11 de dezembro de 2025</td>
         <td>sexta-feira, 15 de janeiro de 2026</td>
     </tr>   
-     <tr>
+    <!-- <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">Nova versão da integração do Salesforce agora disponível </a>
-            <p>Para nos mantermos atualizados com as alterações recentes na API do Workfront, criamos uma nova integração do Salesforce. A nova integração apresenta a mesma funcionalidade da versão anterior e foi atualizada para evitar a perda de funcionalidades descontinuadas na API.</p><p>NOTA: a integração do Workfront para Salesforce, incluindo a nova versão, não estará disponível após **28 de fevereiro de 2026**. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-integrations.md" class="MCXref xref" xrefformat="{para}">New version of Salesforce integration now available </a>
+            <p>To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.</p><p>NOTE: The Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. </p>
         </td>
-        <td>sexta-feira, 30 de outubro de 2025</td>
-        <td>sexta-feira, 30 de outubro de 2025</td>
-        <td>sexta-feira, 30 de outubro de 2025</td>
-    </tr>   
+        <td>October 30, 2025</td>
+        <td>October 30, 2025</td>
+        <td>October 30, 2025</td>
+    </tr>   -->
   </tbody>
 </table>
 
@@ -594,12 +594,12 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 

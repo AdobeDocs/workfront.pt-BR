@@ -4,9 +4,9 @@ description: Aprimoramentos nas integrações do primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d0434e500daa257ec9070c5bb0279eb30545f64d
+source-git-commit: 353b71e59fc2dc2e1f806a560f04076586a32424
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -42,19 +42,23 @@ Para obter mais informações, consulte [integração do Adobe Express e do Work
 
 Atualizamos o seletor de ativos na integração do Adobe Workfront para Experience Manager Assets. Com essa atualização, agora é possível selecionar e enviar coleções do AEM diretamente para o Workfront.
 
-## Nova versão da integração do Salesforce já disponível
+<!--
+
+## New version of Salesforce integration now available
 
 >[!IMPORTANT]
 >
->Para fornecer integrações mais estáveis e escaláveis, estamos mudando para uma abordagem de integração moderna e flexível usando a Automação e Integração do Workfront (Fusion). Como parte desse processo de transição, a integração do Workfront para Salesforce, incluindo a nova versão, não estará disponível após **28 de fevereiro de 2026**.
+>To deliver more stable and scalable integrations, we're shifting to a modern, flexible integration approach using Workfront Automation and Integration (Fusion). As part of this transition process, the Workfront for Salesforce integration, including the new version, will not be available after **February 28, 2026**. 
 
 >[!NOTE]
 >
->Visualização: 30 de outubro de 2025
->Versão rápida de produção: 30 de outubro de 2025\
->Produção para todos: 30 de outubro de 2025
+>Preview: October 30, 2025 
+>Production fast release: October 30, 2025  
+>Production for everyone: October 30, 2025  
 
-Para nos mantermos atualizados com as alterações recentes na API do Workfront, criamos uma nova integração do Salesforce. A nova integração apresenta a mesma funcionalidade da versão anterior e foi atualizada para evitar a perda de funcionalidades descontinuadas na API.
+To stay up-to-date with recent changes to the Workfront API, we've created a new Salesforce integration. The new integration features the same functionality as the previous version, and was updated to avoid losing functionality deprecated in the API.
 
-Para obter instruções e links para baixar e instalar a nova integração, consulte [Instalar o Adobe Workfront para Salesforce](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+For instructions and links for downloading and installing the new integration, see [Install Adobe Workfront for Salesforce](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+
+-->
 
