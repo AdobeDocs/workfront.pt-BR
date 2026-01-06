@@ -158,7 +158,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Navegue até uma lista de objetos.
 1. Selecione vários objetos na lista.
 
-1. Clique no menu **** Mais![](assets/more-icon.png) e no ícone **** Editar![](assets/edit-icon.png).
+1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon.png) e no ícone **&#x200B;**&#x200B;Editar![](assets/edit-icon.png).
 
    Ou
 
