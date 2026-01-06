@@ -6,10 +6,10 @@ description: Quando você começa a trabalhar em uma meta do e ela se torna irre
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ Quando você começa a trabalhar em uma meta do e ela se torna irrelevante em su
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto">
 <col>
@@ -178,12 +178,10 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **Metas**.
+{{step1-to-goals}}
 
-   A lista de metas é exibida.
+A lista de metas é exibida.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 
 1. (Opcional) Modifique seus filtros para exibir somente as metas que estão ativas.
 
@@ -235,12 +233,10 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Clique no ícone Menu Principal ![ícone Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **Metas**.
+{{step1-to-goals}}
 
-   A lista de metas é exibida.
+A lista de metas é exibida.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
 1. Clique no nome de uma meta. Isso abre a página de meta.
 1. Clique no menu **Mais** ![Mais ícone](assets/more-icon.png) à direita do nome da meta e clique em **Excluir meta** e depois em **Excluir**.
 

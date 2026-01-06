@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1072'
 ht-degree: 1%
 
 ---
@@ -138,11 +138,11 @@ Você pode aprovar solicitações para criar registros a partir da própria soli
 
 ### Aprovar uma solicitação do widget Minhas aprovações na Página inicial
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Início]**.
+{{step1-to-home}}
 
-   Ou
+Ou
 
-   Clique no ícone [!UICONTROL Página inicial] ![Ícone da página inicial](/help/_includes/assets/home-icon-30x29.png), no canto superior esquerdo do Adobe Workfront, e localize o widget Minhas aprovações.
+Clique no ícone [!UICONTROL Página inicial] ![Ícone da página inicial](/help/_includes/assets/home-icon-30x29.png), no canto superior esquerdo do Adobe Workfront, e localize o widget Minhas aprovações.
 
 1. Localize o objeto que deseja aprovar ou rejeitar.
 

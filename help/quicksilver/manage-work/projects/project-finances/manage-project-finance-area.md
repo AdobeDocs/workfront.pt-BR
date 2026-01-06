@@ -6,10 +6,10 @@ description: É possível exibir ou editar as informações financeiras de um pr
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f01ce9bcbb795097d39e276a734300f5059e35c4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1275'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -130,12 +130,12 @@ Considere o seguinte ao exibir ou editar informações na área Financeira:
       <td> <p>Receita cobrada de clientes ou outras partes capturada nos Registros de cobrança. Para obter mais informações sobre registros de cobrança, consulte o artigo <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Criar registros de cobrança</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
+      <td role="rowheader"> </td> 
+      <td> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
+      <td role="rowheader"> </td> 
+      <td> </td> 
      </tr> 
     </tbody> 
    </table>

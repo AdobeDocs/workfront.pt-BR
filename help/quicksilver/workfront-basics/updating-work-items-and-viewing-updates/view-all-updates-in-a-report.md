@@ -6,10 +6,10 @@ description: Para visualizar todas as atualizações que qualquer um dos usuári
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ A área Atualizações de um objeto exibe um número máximo de 200 atualizaçõ
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ A área Atualizações de um objeto exibe um número máximo de 200 atualizaçõ
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
    <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -108,9 +108,9 @@ Por exemplo, para criar um relatório de Notas para todas as notas de um projeto
 
 1. No canto superior esquerdo da página, clique em **Novo Relatório** e selecione **Observação**.
 
-1. (Opcional) Clique em **(Colunas) Exibir**, depois em **Adicionar Coluna** para adicionar o **Nome** do **Projeto** no modo de exibição do relatório. 
+1. (Opcional) Clique em **(Colunas) Exibir**, depois em **Adicionar Coluna** para adicionar o **Nome** do **Projeto** no modo de exibição do relatório.
 
-1. (Opcional) Se estiver relatando vários projetos ao mesmo tempo, clique em **Agrupamentos** e em **Adicionar Agrupamento** para agrupar pelo **Nome** do **Projeto**. Isso garante que as notas sejam agrupadas por seus respectivos projetos, facilitando a leitura do relatório. 
+1. (Opcional) Se estiver relatando vários projetos ao mesmo tempo, clique em **Agrupamentos** e em **Adicionar Agrupamento** para agrupar pelo **Nome** do **Projeto**. Isso garante que as notas sejam agrupadas por seus respectivos projetos, facilitando a leitura do relatório.
 
 1. (Opcional) Clique em **Filtros** e depois em **Adicionar uma Regra de Filtro**.
 1. Adicione um filtro para **Nota** > **Texto da Nota** > **Não Está em Branco**.

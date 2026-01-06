@@ -7,7 +7,7 @@ description: O Tipo de atualização de um projeto indica como o Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Para obter informações sobre como atualizar o Tipo de Atualização do projeto
 >
 >Se a linha do tempo de um projeto tiver mais de 15 anos, a Workfront não calculará a linha do tempo automaticamente ou quando houver alteração. O tipo de atualização de um projeto com mais de 15 anos é sempre manual.
 
-* **Automático e Mediante alteração:** Esta é a configuração padrão. A linha do tempo do projeto é atualizada sempre que ocorre uma alteração no projeto ou em outro projeto do qual a linha do tempo depende. A linha do tempo do projeto também é atualizada todas as noites. \
+* **Automático e Mediante alteração:** Esta é a configuração padrão. A linha do tempo do projeto é atualizada sempre que ocorre uma alteração no projeto ou em outro projeto do qual a linha do tempo depende. A linha do tempo do projeto também é atualizada todas as noites.\
   Essa é a configuração recomendada, pois garante que a linha do tempo do projeto esteja sempre atualizada.
 
   Quando você atualiza uma tarefa ou o projeto e aciona um novo cálculo de linha do tempo, todas as datas disponíveis são exibidas imediatamente, permitindo que você continue trabalhando. Em projetos com mais de 100 tarefas, as datas que exigem cálculos mais longos ficam esmaecidas.

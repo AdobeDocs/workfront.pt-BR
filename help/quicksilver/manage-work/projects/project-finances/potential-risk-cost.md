@@ -7,7 +7,7 @@ description: O Custo do Risco Potencial de um projeto leva em conta os Custos Po
 author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -41,9 +41,9 @@ Você pode encontrar os riscos de um projeto e seu custo potencial nas seguintes
 * Em um relatório de projeto ao adicionar o campo Custo de risco planejado às colunas do relatório.\
   Para obter mais informações sobre a criação de relatórios no Workfront, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* No Otimizador de Portfolio, quando o projeto é associado a um Portfolio, na coluna Risco.\
-  A soma de todos os Custos de Risco Potencial de todos os projetos no portfólio soma o Risco do Portfolio.\
-  Para obter mais informações sobre o Portfolio Otimizer, consulte o artigo [visão geral do Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+* No Portfolio Otimizer, quando o projeto é associado a um Portfolio, na coluna Risco.\
+  A soma de todos os Custos de risco em potencial de todos os projetos no portfólio soma o Risco da Portfolio.\
+  Para obter mais informações sobre o Portfolio Otimizer, consulte o artigo [Visão geral do Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 Para obter mais informações sobre como criar riscos em um projeto, consulte o artigo [Criar e editar riscos em projetos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
 

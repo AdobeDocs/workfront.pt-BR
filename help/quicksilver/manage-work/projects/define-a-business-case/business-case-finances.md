@@ -6,7 +6,7 @@ description: A subguia Business Case inclui campos financeiros para o projeto. P
 author: Becky
 feature: Work Management
 exl-id: d420fc3e-e98d-47a0-a456-b2df17d72f34
-source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Visão geral dos campos financeiros do Business Case
 
-A subguia Business Case inclui campos financeiros para o projeto. Para que alguns campos financeiros tenham valores, as áreas correspondentes do Business Case devem ser preenchidas.  
+A subguia Business Case inclui campos financeiros para o projeto. Para que alguns campos financeiros tenham valores, as áreas correspondentes do Business Case devem ser preenchidas.
 
 Os seguintes campos financeiros do projeto são exibidos no Business Case:
 
@@ -30,24 +30,24 @@ Os seguintes campos financeiros do projeto são exibidos no Business Case:
  </thead> 
  <tbody> 
   <tr> 
-   <td>Alinhado </td> 
-   <td> <p>Exibe o alinhamento do projeto de acordo com seu cartão de pontuação. Um valor alto de porcentagem indica que o projeto está bem alinhado à finalidade e às metas da organização. <br>Para obter mais informações sobre como usar cartões de pontuação, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Criar um cartão de pontuação</a>.</p> <p>Esse campo é exibido na área Resumo de Business Case. </p> </td> 
+   <td>Alinhado </td> 
+   <td> <p>Exibe o alinhamento do projeto de acordo com seu cartão de pontuação. Um valor alto de porcentagem indica que o projeto está bem alinhado à finalidade e às metas da organização. <br>Para obter mais informações sobre como usar cartões de pontuação, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Criar um cartão de pontuação</a>.</p> <p>Esse campo é exibido na área Resumo de Business Case. </p> </td> 
   </tr> 
   <tr> 
    <td>Custo Orçado</td> 
-   <td> <p>O custo total estimado que será associado ao projeto quando o projeto for iniciado.</p> <p>O Custo Orçado do projeto é calculado pela seguinte fórmula:<br></p> <p><code>Budgeted Cost =&nbsp;Budgeted Expense Cost + Budgeted Labor Cost </code> <br> </p> <p>O Adobe Workfront usa as horas orçadas do Planejador de recursos para calcular o custo do trabalho orçado.<br>Para obter mais informações sobre como calcular o Custo Orçado, consulte <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calcular Custo Orçado</a>. </p> <p>Esse campo é exibido na área Resumo de Business Case.</p> </td> 
+   <td> <p>O custo total estimado que será associado ao projeto quando o projeto for iniciado.</p> <p>O Custo Orçado do projeto é calculado pela seguinte fórmula:<br></p> <p><code>Budgeted Cost = Budgeted Expense Cost + Budgeted Labor Cost </code> <br> </p> <p>O Adobe Workfront usa as horas orçadas do Planejador de recursos para calcular o custo do trabalho orçado.<br>Para obter mais informações sobre como calcular o Custo Orçado, consulte <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calcular Custo Orçado</a>. </p> <p>Esse campo é exibido na área Resumo de Business Case.</p> </td> 
   </tr> 
   <tr> 
    <td>Custo de despesa do orçamento</td> 
-   <td> <p>O custo orçado de todas as despesas do projeto. </p> <p>Isso é calculado pela seguinte fórmula:</p> <p><code>Budgeted Expense Cost = SUM(Planned Amount of Expenses on the project) </code></p> <p>Para obter mais informações sobre como calcular despesas, consulte <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Gerenciar despesas do projeto </a>.</p> <p>Esse campo é exibido na área Expenses.</p> </td> 
+   <td> <p>O custo orçado de todas as despesas do projeto. </p> <p>Isso é calculado pela seguinte fórmula:</p> <p><code>Budgeted Expense Cost = SUM(Planned Amount of Expenses on the project) </code></p> <p>Para obter mais informações sobre como calcular despesas, consulte <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Gerenciar despesas do projeto </a>.</p> <p>Esse campo é exibido na área Expenses.</p> </td> 
   </tr> 
   <tr> 
    <td>Custo do Trabalho Orçado</td> 
-   <td> <p>O custo associado aos recursos atribuídos para concluir o trabalho no projeto.</p> <p>O Custo do Trabalho Orçado para o projeto é calculado pela seguinte fórmula:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><br></p> <p>O Workfront usa as horas orçadas do Planejador de recursos para calcular o custo do trabalho orçado.<br>Para obter mais informações sobre como calcular o Custo do Trabalho Orçado, consulte <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Entender o Custo do Trabalho Orçado e as Horas Orçadas dos projetos</a>.</p> <p>Esse campo é exibido na área Orçamento de Recursos do Business Case. </p> </td> 
+   <td> <p>O custo associado aos recursos atribuídos para concluir o trabalho no projeto.</p> <p>O Custo do Trabalho Orçado para o projeto é calculado pela seguinte fórmula:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><br></p> <p>O Workfront usa as horas orçadas do Planejador de recursos para calcular o custo do trabalho orçado.<br>Para obter mais informações sobre como calcular o Custo do Trabalho Orçado, consulte <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Entender o Custo do Trabalho Orçado e as Horas Orçadas dos projetos</a>.</p> <p>Esse campo é exibido na área Orçamento de Recursos do Business Case. </p> </td> 
   </tr> 
   <tr> 
    <td>Custo Planejado de Despesas</td> 
-   <td> <p>É o mesmo que Custo de Despesas Orçado. </p> <p>Nota: O Custo Planejado das Despesas é diferente do Custo Planejado do Projeto. O Custo Planejado de Despesas é calculado com a Quantia Planejada das despesas no projeto, enquanto o Custo Planejado é calculado usando as Horas Planejadas no projeto. </p> <p>Esse campo é exibido na área Expenses para cada despesa.</p> </td> 
+   <td> <p>É o mesmo que Custo de Despesas Orçado. </p> <p>Nota: O Custo Planejado das Despesas é diferente do Custo Planejado do Projeto. O Custo Planejado de Despesas é calculado com a Quantia Planejada das despesas no projeto, enquanto o Custo Planejado é calculado usando as Horas Planejadas no projeto. </p> <p>Esse campo é exibido na área Expenses para cada despesa.</p> </td> 
   </tr> 
   <tr> 
    <td>Valor líquido</td> 
@@ -63,7 +63,7 @@ Os seguintes campos financeiros do projeto são exibidos no Business Case:
   </tr> 
   <tr> 
    <td>Risco Potencial</td> 
-   <td> <p>No Resumo de business case, essa é a quantia do custo de todos os riscos, se eles tiverem que ocorrer, com base em sua probabilidade. Por exemplo, se um Risco tiver um Custo Potencial de US$ 100 e uma Probabilidade de ocorrência de 10%, o Risco Potencial será de US$ 10. O Risco Potencial no Resumo de Business Case é calculado pela seguinte fórmula:</p> <p><code>Potential&nbsp;Risk = SUM(Risk Potential Cost x Probability)</code> para todos os riscos. </p> </td> 
+   <td> <p>No Resumo de business case, essa é a quantia do custo de todos os riscos, se eles tiverem que ocorrer, com base em sua probabilidade. Por exemplo, se um Risco tiver um Custo Potencial de US$ 100 e uma Probabilidade de ocorrência de 10%, o Risco Potencial será de US$ 10. O Risco Potencial no Resumo de Business Case é calculado pela seguinte fórmula:</p> <p><code>Potential Risk = SUM(Risk Potential Cost x Probability)</code> para todos os riscos. </p> </td> 
   </tr> 
   <tr> 
    <td>Custo de Mitigação de Risco</td> 
@@ -71,11 +71,11 @@ Os seguintes campos financeiros do projeto são exibidos no Business Case:
   </tr> 
   <tr> 
    <td>Custo Potencial para um Risco</td> 
-   <td> <p>O custo financeiro estimado quando os riscos definidos no projeto realmente ocorreriam, independentemente de sua probabilidade. </p> <p>Este é um campo atualizado manualmente que é exibido em cada risco na área Riscos do Business Case. </p> </td> 
+   <td> <p>O custo financeiro estimado quando os riscos definidos no projeto realmente ocorreriam, independentemente de sua probabilidade. </p> <p>Este é um campo atualizado manualmente que é exibido em cada risco na área Riscos do Business Case. </p> </td> 
   </tr> 
   <tr> 
    <td>Riscos Custo Potencial Total</td> 
-   <td> <p>Total do custo financeiro estimado de todos os riscos definidos no projeto quando realmente ocorreram. </p> <p>Isso é calculado pela seguinte fórmula:</p> <p><code>Risks Total Potential Cost = SUM(Potential Cost of all risks on the project) </code></p> <p>É exibido como um número de moeda ao lado do título da área Riscos do Business Case.</p> </td> 
+   <td> <p>Total do custo financeiro estimado de todos os riscos definidos no projeto quando realmente ocorreram. </p> <p>Isso é calculado pela seguinte fórmula:</p> <p><code>Risks Total Potential Cost = SUM(Potential Cost of all risks on the project) </code></p> <p>É exibido como um número de moeda ao lado do título da área Riscos do Business Case.</p> </td> 
   </tr> 
  </tbody> 
 </table>

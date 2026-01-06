@@ -6,10 +6,10 @@ description: A Condição de um projeto é um sinalizador colocado nele para ind
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ O administrador do Adobe Workfront pode criar Condições personalizadas para o 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ O administrador do Adobe Workfront pode criar Condições personalizadas para o 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-  <p>Standard</p>
+  <p>Padrão</p>
    <p>Plano</p>
     </td> 
   </tr> 

@@ -6,10 +6,10 @@ description: Você pode atualizar informações de metas individuais acessando o
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ Você pode atualizar informações de metas individuais acessando o painel Detal
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto">
 <col>
@@ -201,7 +201,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    ![Goal details updates](assets/goal-details-updates-tab-350x280.png)
 
-1. (Optional) Deselect any of the following options if you want to not display them in the Updates tab.&nbsp;They are selected by default: 
+1. (Optional) Deselect any of the following options if you want to not display them in the Updates tab. They are selected by default: 
 
    | Option |Description  |
    |---|---|

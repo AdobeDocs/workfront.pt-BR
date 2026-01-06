@@ -6,10 +6,10 @@ description: Por padrão, as informações que você vê no aplicativo Web  [!DN
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -28,23 +28,23 @@ A tabela a seguir lista todas as áreas e objetos do [!DNL Workfront] que contê
 | Área ou objeto **[!DNL Workfront]** | **Seções padrão do sistema** | **Painéis** |
 |---|---|---|
 | Área [!UICONTROL Projetos] | ✓ | ✓ |
-| [!UICONTROL Equipe] | ✓ |   |
-| Área [!UICONTROL Solicitações] | ✓ |   |
-| Área [!UICONTROL Planilhas de Horas] | ✓ |   |
+| [!UICONTROL Equipe] | ✓ |    |
+| Área [!UICONTROL Solicitações] | ✓ |    |
+| Área [!UICONTROL Planilhas de Horas] | ✓ |    |
 | [!UICONTROL Portfolio] | ✓ | ✓ |
 | [!UICONTROL Programa] | ✓ | ✓ |
 | [!UICONTROL Projeto] | ✓ | ✓ |
-| [!UICONTROL Tarefa] | ✓ |  ✓ |
-| [!UICONTROL Problema] |  ✓ |  ✓ |
-| [!UICONTROL Usuário] |  ✓ |  ✓ |
-| [!UICONTROL Documento] |  ✓ |  ✓ |
+| [!UICONTROL Tarefa] | ✓ | ✓ |
+| [!UICONTROL Problema] | ✓ | ✓ |
+| [!UICONTROL Usuário] | ✓ | ✓ |
+| [!UICONTROL Documento] | ✓ | ✓ |
 | Área [!UICONTROL Recursos] | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto">
  <col> 
@@ -107,7 +107,7 @@ Os seguintes objetos são filtrados para o objeto sob o qual são exibidos, se e
 * Tarefa
 * Problema
 * Processo de aprovação
-* Observação
+* Nota
 * Documento
 
 Para obter mais informações sobre a hierarquia e interdependência de objetos, consulte a seção [Interdependência e hierarquia de objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) no artigo [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

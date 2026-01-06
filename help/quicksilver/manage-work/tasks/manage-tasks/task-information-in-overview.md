@@ -6,10 +6,10 @@ description: É possível exibir ou editar as informações de uma tarefa acessa
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '2102'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ Este artigo descreve como exibir ou editar informações na área Visão geral d
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +43,8 @@ Este artigo descreve como exibir ou editar informações na área Visão geral d
   </tr> 
   <tr> 
    <td> <p>Licença do Adobe Workfront </p> </td> 
-   <td><p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td><p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Configurações de nível de acesso</td> 
@@ -122,7 +122,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 1. Edite qualquer campo disponível para edição clicando uma vez no campo ou clicando em **+Adicionar** para adicionar informações a um campo vazio.
 1. Exiba ou edite qualquer um dos campos a seguir listados.
 
-   Nem todos os campos são editáveis.  
+   Nem todos os campos são editáveis.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -199,7 +199,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
             <td>H</td> 
            </tr> 
            <tr> 
-            <td>Dias. Este é o padrão. </td> 
+            <td>Dias. Este é o padrão. </td> 
             <td>E</td> 
            </tr> 
            <tr> 
@@ -313,7 +313,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
       <td> <p>Especifique uma Data de Início Real para a tarefa. Normalmente, o padrão é preenchido automaticamente quando você altera o status da tarefa para In Progress. A data de início real também pode ser modificada manualmente pelo gerente do projeto ou pelo proprietário da tarefa. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Data de Término Planejada</td> 
+      <td role="rowheader">Data de conclusão planejada</td> 
       <td> <p>A data de conclusão prevista, conforme mostrado quando a tarefa é planejada. A data de conclusão planejada pode ser definida por vários fatores:</p> 
        <ul> 
         <li>A data de conclusão planejada é calculada a partir da data de início planejada adicionando a Duration da tarefa à data de início planejada. Quando o gerente de projeto ou o Workfront especifica a Duração da tarefa, isso aciona uma atualização para a data de conclusão planejada. Se a data planejada mudar, isso acontece com frequência porque a Duração da atualização foi atualizada.</li> 
@@ -326,7 +326,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
       <td> <p>A data "na vida real" de quando a tarefa será concluída com base no progresso de tarefas anteriores e nas atualizações de progresso feitas na tarefa pelo destinatário. Este é um campo calculado e não pode ser editado manualmente.</p> <p> A data de conclusão projetada e a data de conclusão planejada começam sendo a mesma, quando um projeto é planejado pela primeira vez. A data de conclusão projetada pode se afastar da conclusão planejada, se o projeto evoluir e a tarefa ainda não tiver sido iniciada. Para obter mais informações sobre as datas de conclusão projetadas, consulte <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Visão geral da Data de Conclusão Projetada para projetos, tarefas e problemas</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Data de término efetivo</td> 
+      <td role="rowheader">Data de Término Efetivo</td> 
       <td> <p>Especifique a data e a hora reais em que a tarefa é concluída. A data e hora padrão em que uma tarefa é concluída sempre coincide com a hora real em que o status se torna Concluído. A data de conclusão real também pode ser modificada manualmente pelo gerente do projeto ou pelo proprietário da tarefa. </p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
@@ -365,7 +365,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms.&nbsp;</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms. </p>
    -->
 
    <!--
@@ -385,7 +385,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
      -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click&nbsp;<strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Finance</strong>, then <strong>Edit Finance</strong> to view or edit financial information for the task. </p>
    -->
 
    <!--

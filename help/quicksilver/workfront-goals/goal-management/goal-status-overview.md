@@ -7,7 +7,7 @@ description: Os status da meta indicam se uma meta está ativa e registrando pro
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 4%
@@ -58,7 +58,7 @@ ht-degree: 4%
   | Fechado | Não | Sim | Não | - |
 
 * Abrir uma meta fechada também atualiza o progresso da meta.
-* Certas ações que você executa em uma meta também atualizam seu status. Para obter informações sobre como atualizar status de meta, consulte os seguintes artigos:
+* Certas ações que você executa em uma meta também atualizam seu status. Para obter informações sobre como atualizar status de meta, consulte os seguintes artigos:
 
    * [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
    * [Ativar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)

@@ -6,10 +6,10 @@ description: É possível editar informações sobre programas criados por você
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Você pode editar um programa na página do programa ou editar um ou vários pro
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -123,7 +123,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. Clique em **[!UICONTROL Visão geral]** e especifique os seguintes campos:
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;note below drafted for now)</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: note below drafted for now)</p>
    -->
 
    <!--
@@ -138,11 +138,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nome]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td> <p>Atualize o nome do programa. </p> <p><b>DICA</b></p><p>Isso não está disponível quando você seleciona mais de um programa.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Descrição]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td> <p>Digite uma descrição para o portfólio para indicar o que é exclusivo sobre ele. </p> </td> 
      </tr> 
      <tr> 

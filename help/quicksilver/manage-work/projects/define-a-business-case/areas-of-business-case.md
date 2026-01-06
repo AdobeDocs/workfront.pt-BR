@@ -6,7 +6,7 @@ description: Este artigo descreve as áreas do Business Case de um projeto.
 author: Becky
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1553'
 ht-degree: 1%
@@ -133,7 +133,7 @@ Considere o seguinte ao exibir a seção Orçamento de Recursos do Business Case
 * As informações exibidas aqui também são exibidas no Planejador de recursos ou no Planejador de cenários no nível do sistema.
 
   <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the "or" stays in&nbsp;NWE&nbsp;only)<br></p>
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the "or" stays in NWE only)<br></p>
   -->
 
 * Depois de fazer o orçamento de seus recursos, o Custo de Mão de Obra Orçado do projeto será exibido na área Orçamento de Recursos se as funções estiverem associadas às taxas de Custo por Hora. O Custo do Trabalho Orçado é exibido na moeda do projeto.
@@ -221,14 +221,14 @@ Para obter informações, consulte [Exportar o Business Case de um projeto](../.
 <ol>
 <li value="1">Go to the <strong>Business Case</strong> area of a project. </li>
 <li value="2"> <p>In the<strong>Business Case Summary</strong> area, click <strong>Export</strong>.<br>A PDF file is downloaded to your computer. The file contains all areas of the Business Case in an easy to read format.</p> <p> <img src="assets/bc-summary-exported-350x160.png" alt="BC_Summary_exported.png" style="width: 350;height: 160;"> </p> </li>
-<li value="3">(Optional) You can attach the PDF file to an email, or print it.&nbsp;</li>
+<li value="3">(Optional) You can attach the PDF file to an email, or print it. </li>
 </ol>
 </div>
 -->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.&nbsp; The file contains all areas of the Business Case in an easy to read format.</p>
+<p>You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.  The file contains all areas of the Business Case in an easy to read format.</p>
 <p>For information about how to export the Business Case, see <a href="../../../manage-work/projects/define-a-business-case/export-business-case.md" class="MCXref xref">Export the Business Case of a project </a></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and will replace the info above, when the standalone arrticle is live >> Becky!)</p>
 -->

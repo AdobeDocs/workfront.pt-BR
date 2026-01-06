@@ -6,10 +6,10 @@ description: O administrador do Adobe Workfront pode conceder acesso para exibir
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -41,7 +41,7 @@ Para obter informações sobre o que os usuários em cada nível de acesso podem
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial&nbsp;Data</p> <p><b>NOTE</b>
+   <td> <p>View or higher access to Projects, Tasks, Issues, and Financial  Data</p> <p><b>NOTE</b>
    
    If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
@@ -53,7 +53,7 @@ Para obter informações sobre o que os usuários em cada nível de acesso podem
 </table>
 -->
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +65,7 @@ Para obter informações sobre o que os usuários em cada nível de acesso podem
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
+   <td> <p>Padrão</p> 
    <p>Plano</p> 
    </td> 
   </tr> 
@@ -117,7 +117,7 @@ Para conceder permissões financeiras a um objeto:
 
 ## Permissão financeira para todos os níveis de compartilhamento
 
-A tabela a seguir mostra quais permissões financeiras os usuários obtêm ao conceder a eles permissões de Exibição, Contribute ou Gerenciar em objetos: 
+A tabela a seguir mostra quais permissões financeiras os usuários obtêm ao conceder a eles permissões de Exibição, Contribute ou Gerenciar em objetos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -136,26 +136,26 @@ A tabela a seguir mostra quais permissões financeiras os usuários obtêm ao co
   <tr> 
    <td>Gerenciar registros de cobrança</td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
+   <td> <p>  </p> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Gerenciar/visualizar taxas de custo e cobrança de função</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Gerenciar/visualizar taxas de custo e cobrança de usuário</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Exibir finanças</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> ✓</td> 
+   <td>  ✓</td> 
   </tr> 
   <tr> 
    <td>Exibir informações por Custo nas ferramentas de Planejamento de Recursos</td> 
@@ -166,8 +166,8 @@ A tabela a seguir mostra quais permissões financeiras os usuários obtêm ao co
   <tr> 
    <td>Recursos de orçamento nas ferramentas de planejamento de recursos*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td>Exibir recursos nas ferramentas de Planejamento de recursos*</td> 

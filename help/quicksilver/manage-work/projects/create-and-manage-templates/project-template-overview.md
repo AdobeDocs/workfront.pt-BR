@@ -6,10 +6,10 @@ description: Você pode usar modelos de projeto para capturar a maioria dos proc
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Estes são alguns dos benefícios de usar modelos para criar projetos:
    * Enfileirar tópicos
    * Grupos de Tópicos
    * Regras de Encaminhamento
-   * Forms personalizado
+   * Formulários personalizados
    * Informações da empresa e do grupo
 
 ## Práticas recomendadas para a criação de modelos
@@ -50,7 +50,7 @@ Estes são alguns dos benefícios de usar modelos para criar projetos:
 
 Considere o seguinte ao criar modelos:
 
-* Não atribuir usuários a tarefas de modelo. Embora você possa deixar as tarefas não atribuídas, recomendamos que atribua funções de trabalho a tarefas. Isso dará uma ideia de quais usuários podem ser atribuídos às tarefas ao criar o projeto usando o modelo.
+* Não atribuir usuários a tarefas de modelo. Embora você possa deixar as tarefas não atribuídas, recomendamos que atribua funções de trabalho a tarefas. Isso dará uma ideia de quais usuários podem ser atribuídos às tarefas ao criar o projeto usando o modelo.
 * Sempre forneça às tarefas de modelo um valor de Duração e Horas planejadas. Todas as tarefas do projeto devem estar associadas a uma duração em que a tarefa pode permanecer aberta e a um valor de Hora planejada para quanto tempo a tarefa levará para ser concluída. Tarefas sem essas informações não podem ser corretamente orçadas para recursos ao usar ferramentas de gerenciamento de recursos no Workfront.
 
   Para obter informações sobre Duração, consulte os seguintes artigos:

@@ -6,10 +6,10 @@ description: Às vezes, pode haver conflitos entre agendamentos de tarefas em um
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ Adicionar um atraso de nivelamento a uma tarefa ajusta a Data de Conclusão Proj
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,8 +35,8 @@ Adicionar um atraso de nivelamento a uma tarefa ajusta a Data de Conclusão Proj
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p>
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -93,7 +93,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    Selecione entre as seguintes opções de unidades de tempo:
 
    * Minutes
-   * Horas. Este é o padrão.
+   * Horas. Este é o padrão.
    * Days
    * Weeks
    * Months
@@ -107,6 +107,6 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    >
    >Tempo decorrido é uma unidade de tempo da Duração de uma tarefa. É o tempo entre a Data de Início Planejada e a Data de Conclusão Planejada de uma tarefa que inclui feriados, finais de semana e folga. Em outras palavras, o tempo decorrido é a passagem de dias do calendário.
 
-1. Clique em **Salvar**. 
+1. Clique em **Salvar**.
 
- 
+

@@ -6,10 +6,10 @@ description: Você pode visualizar a integridade geral de suas metas e a tendên
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 0%
+source-wordcount: '899'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Você pode visualizar a integridade geral de suas metas e a tendência do progre
 
 >[!IMPORTANT]
 >
->Você pode ver uma contagem total de suas metas na seção Gráficos para um período selecionado. No entanto, o Workfront Goals leva em conta apenas metas com status Ativo e Fechado ao calcular o status do progresso geral da meta e o percentual concluído.
+>Você pode ver uma contagem total de suas metas na seção Gráficos para um período selecionado. No entanto, o Workfront Goals leva em conta apenas metas com status Ativo e Fechado ao calcular o status do progresso geral da meta e o percentual concluído.
 
 ## Requisitos de acesso
 
@@ -31,7 +31,7 @@ Você pode visualizar a integridade geral de suas metas e a tendência do progre
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto">
 <col>
@@ -157,12 +157,9 @@ Os gráficos a seguir estão disponíveis na seção Gráficos ou Metas do Workf
 
 ## Revisar o progresso da meta em gráficos
 
-1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) > **Metas** no canto superior direito.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Isso abre a área Metas do Workfront.
+Isso abre a área Metas do Workfront.
 
 1. Clique em **Gráficos** no painel esquerdo.
 
@@ -224,4 +221,4 @@ Os gráficos a seguir estão disponíveis na seção Gráficos ou Metas do Workf
 
    Clique em **Linha de Base** na parte inferior do gráfico de progresso para remover o progresso esperado do gráfico.
 
- 
+

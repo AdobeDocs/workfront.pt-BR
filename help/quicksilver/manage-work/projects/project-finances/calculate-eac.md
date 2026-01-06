@@ -7,10 +7,10 @@ description: Como métrica de desempenho, a EAC (Estimativa no término) represe
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 Como métrica de desempenho, a EAC (Estimativa no término) representa o custo total projetado de seu projeto ou tarefa quando ela é concluída.
 
-Como configuração, permite definir como o valor de EAC deve ser calculado. 
+Como configuração, permite definir como o valor de EAC deve ser calculado.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +101,7 @@ A EAC de um projeto é calculada usando a seguinte fórmula:
 EAC = EAC Labor + EAC Expense 
 ```
 
-<pre>Mão de obra EAC =  <em>SE</em> Mão-de-Obra CPI &lt;&gt; 0 ENTÃO Mão-de-Obra EAC = Custo de Mão-de-Obra Planejado / Mão-de-Obra CPI</pre><pre><em>MAIS</em> EAC  Mão-de-Obra = Custo de Mão-de-Obra Planejado + Custo de Mão-de-Obra Efetivo</pre><pre>CPI Mão-de-Obra = SE Custo Real do Trabalho &lt;&gt; 0 ENTÃO CPI Mão-de-Obra = TotalBudgetedCostWorkPerformed / Custo Real do Trabalho</pre><pre>SENÃO Mão de obra CPI = 1 </pre>Os seguintes campos são considerados ao calcular o EAC:
+<pre>Mão de obra EAC = <em>IF</em> Mão de obra CPI &lt;&gt; 0 THEN EAC Labor = Custo de Mão de Obra Planejado / Mão de Obra CPI</pre><pre><em>ELSE</em> Mão-de-Obra EAC = Custo de Mão-de-Obra Planejado + Custo de Mão-de-Obra Efetivo</pre><pre>CPI Mão-de-Obra = SE Custo Real do Trabalho &lt;&gt; 0 ENTÃO CPI Mão-de-Obra = TotalBudgetedCostWorkPerformed / Custo Real do Trabalho</pre><pre>SENÃO Mão de obra CPI = 1 </pre>Os seguintes campos são considerados ao calcular o EAC:
 
 * Custo Total Orçado Trabalho Realizado (COTR) = O resultado da multiplicação do custo orçado do trabalho planejado (custo orçado) e o percentual da tarefa que foi concluída até o momento.
 
@@ -117,7 +117,7 @@ EAC = EAC Labor + EAC Expense
 Total de Trabalho de Custo Orçado Executado = a soma do campo Total de Trabalho de Custo Orçado Executado para todas as tarefas filho diretas.
 
    * **Para um projeto:**
-Total de Trabalho de Custo Orçado Executado = a soma do campo Total de Trabalho de Custo Orçado Executado para todas as tarefas de nível superior (tarefas pai e independente). 
+Total de Trabalho de Custo Orçado Executado = a soma do campo Total de Trabalho de Custo Orçado Executado para todas as tarefas de nível superior (tarefas pai e independente).
 
 * Despesa EAC = o resultado da adição do Custo Efetivo de Despesas Incorrido ao Custo de Despesas Planejadas Não Incorrido. É calculada pela seguinte fórmula:
 
@@ -126,14 +126,14 @@ Total de Trabalho de Custo Orçado Executado = a soma do campo Total de Trabalho
   ```
 
    * Custo Efetivo de Despesas Incorrido = A soma do campo Valor Planejado para todas as despesas em que o campo Valor Efetivo > 0. Por exemplo, se você criar uma despesa para a Tarefa 1 e informar $500,00 no campo Quantia Planejada e uma quantia > 0 no campo Quantia Real (isto é, $600,00), o Custo de Despesa Planejada Incorrido para esta tarefa será de $500,00.
-   * Despesa Planejada Não Incorrida = A soma do campo Quantia Planejada para todas as despesas onde o campo Quantia Real = 0. Por exemplo, se você criar duas despesas para a Tarefa 1, onde para a primeira despesa o valor no campo Quantia Planejada é de US$500,00 e o valor no campo Quantia Real é de US$600,00, e para a segunda despesa, o valor no campo Quantia Planejada é de US$300,00 e o valor do campo Quantia Real é de US$0,00, o valor da Despesa Planejada Não Incorrida para essa tarefa é de US$300,00. 
+   * Despesa Planejada Não Incorrida = A soma do campo Quantia Planejada para todas as despesas onde o campo Quantia Real = 0. Por exemplo, se você criar duas despesas para a Tarefa 1, onde para a primeira despesa o valor no campo Quantia Planejada é de US$500,00 e o valor no campo Quantia Real é de US$600,00, e para a segunda despesa, o valor no campo Quantia Planejada é de US$300,00 e o valor do campo Quantia Real é de US$0,00, o valor da Despesa Planejada Não Incorrida para essa tarefa é de US$300,00.
 
 ## Localizar o EAC em um projeto ou tarefa
 
 1. Vá para o projeto ou tarefa em que deseja exibir o EAC.
 1. Expanda **Detalhes do projeto** ou **Detalhes das tarefas** no painel esquerdo do projeto ou da tarefa, dependendo de onde você exibir o EAC.
 
-1. Clique em **Finanças**. 
+1. Clique em **Finanças**.
 
    O valor EAC é exibido no campo **Estimativa na Conclusão**.
 

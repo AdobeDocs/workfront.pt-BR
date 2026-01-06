@@ -7,7 +7,7 @@ description: O Valor Líquido de um projeto é o valor total esperado do projeto
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 1%
@@ -34,18 +34,18 @@ Os seguintes campos podem afetar o Valor líquido de um projeto:
 * **Custo orçado**: este é o custo total associado ao projeto conforme estimado quando você inicia o projeto pela primeira vez.
 
   O **Custo Orçado** usa o valor de **Custo Orçado do Trabalho**, que é calculado na área Orçamento de Recursos do Business Case, e leva em conta as horas orçadas para suas funções de trabalho no Planejador de Recursos e a taxa de Custo por Hora de cada função de trabalho.\
-  O custo orçado afeta o **valor líquido** do projeto. Para obter mais informações sobre como o Custo Orçado é calculado, consulte [Calcular Custo Orçado](../../../manage-work/projects/project-finances/budgeted-cost.md).
+  O custo orçado afeta o **valor líquido** do projeto. Para obter mais informações sobre como o Custo Orçado é calculado, consulte [Calcular Custo Orçado](../../../manage-work/projects/project-finances/budgeted-cost.md).
 
 * **Custo de Risco Potencial**: este é o custo associado a qualquer risco no projeto, conforme definido no Business Case ou na guia Riscos do projeto.\
   Para obter mais informações sobre como calcular o Custo de Risco Potencial de um projeto, consulte o artigo [Calcular Custo de Risco Potencial](../../../manage-work/projects/project-finances/potential-risk-cost.md).
 
-   
+
 
 ## Localizar o Valor Líquido do projeto
 
 Você pode encontrar o Valor líquido de um projeto nas seguintes áreas no Workfront:
 
-* Na área Resumo de business case do business case \
+* Na área Resumo de business case do business case\
   Para obter mais informações sobre a área Resumo de Business Case, consulte a seção &quot;Noções básicas sobre o Resumo de Business Case&quot; no artigo [Criar um Business Case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Criar um Business Case para um projeto](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
   ![Valor líquido no business case](assets/net-value-on-business-case-summary-highlighted-350x444.png)

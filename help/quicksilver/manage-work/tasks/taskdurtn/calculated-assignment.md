@@ -7,7 +7,7 @@ description: A Atribuição calculada é um Tipo de duração que pode ser defin
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -27,7 +27,7 @@ A Atribuição calculada é um Tipo de duração que pode ser definido para uma 
 -->
 
 * Quando você usa um Tipo de Duração de Atribuição Calculada, deve especificar uma Duração e um número de Horas Planejadas para a tarefa. O Workfront divide a quantidade de Horas Planejadas pela quantidade de horas na Duração e, em seguida, pelo número de recursos atribuídos à tarefa para calcular a porcentagem de alocação (calcula a atribuição) para cada recurso. Cada recurso terá igualmente o mesmo valor para sua porcentagem de alocação. Nesse caso, não é possível modificar os valores de alocação para cada recurso.
-* O Workfront ou um administrador de grupo pode definir o Tipo de duração padrão do sistema ou grupo como Atribuição calculada. Nesse caso, todas as novas tarefas serão criadas com esse Tipo de Duração. Para obter informações sobre como alterar as preferências de tarefas e problemas como parte das preferências de projetos no nível do sistema ou do grupo, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* O Workfront ou um administrador de grupo pode definir o Tipo de duração padrão do sistema ou grupo como Atribuição calculada. Nesse caso, todas as novas tarefas serão criadas com esse Tipo de Duração. Para obter informações sobre como alterar as preferências de tarefas e problemas como parte das preferências de projetos no nível do sistema ou do grupo, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   Nesse caso, a tarefa tem um padrão de Duração de um dia e um padrão de 0 horas de Horas planejadas. A menos que o gerente de projeto defina uma Duração mais precisa e preencha o campo Horas planejadas com uma estimativa realista, os recursos parecerão subalocados.
 

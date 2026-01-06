@@ -7,7 +7,7 @@ description: Ao adicionar relações de predecessoras a tarefas, você pode enco
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Ao adicionar relações de predecessoras a tarefas, você pode encontrar loops d
 
 ## Visão geral do loop de dependência
 
-Os loops de dependência ocorrem quando você tem duas ou mais tarefas que dependem umas das outras para serem concluídas. O Adobe Workfront não permite criar uma relação de predecessora entre tarefas se criar um loop de dependência.
+Os loops de dependência ocorrem quando você tem duas ou mais tarefas que dependem umas das outras para serem concluídas. O Adobe Workfront não permite criar uma relação de predecessora entre tarefas se criar um loop de dependência.
 
 **Exemplo:** a Tarefa 2 é predecessora da Tarefa 1, o que significa que você deve concluir a Tarefa 2 antes de começar a trabalhar na Tarefa 1.
 
@@ -36,4 +36,4 @@ Se você tentar tornar a Tarefa 1 uma predecessora da Tarefa 2, receberá um err
 * Um loop de dependência também pode ocorrer se você tentar tornar um pai o predecessor de um filho.
 * No caso de um loop de dependência, não é possível salvar as tarefas ou o projeto. Para corrigir o loop de dependência, você deve reavaliar a relação de predecessora entre as tarefas listadas na mensagem de erro e remover os conflitos antes de salvar as tarefas ou o projeto.
 
- 
+

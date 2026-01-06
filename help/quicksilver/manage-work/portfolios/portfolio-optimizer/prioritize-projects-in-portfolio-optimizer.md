@@ -6,10 +6,10 @@ description: É possível priorizar os projetos no Portfolio Otimizer para estab
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: 714e6e09f1429f0382c36d17d3f2aca95edcfbc6
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 0%
+source-wordcount: '491'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Considere o seguinte ao usar o [!UICONTROL Portfolio Otimizer]:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,9 +94,8 @@ Considere o seguinte ao usar o [!UICONTROL Portfolio Otimizer]:
 
 ## Alterar a prioridade dos projetos no [!UICONTROL Portfolio Otimizer]
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
+{{step1-to-portfolios}}
 
-1. Clique em **[!UICONTROL Portfólios]**.
 1. (Opcional) Selecione o filtro correto no menu suspenso **[!UICONTROL Filtro]** para exibir a lista correta de portfólios.
 1. Clique no nome de um portfólio para abri-lo.
 1. Clique em **[!UICONTROL Otimização do Portfolio]** no painel esquerdo.

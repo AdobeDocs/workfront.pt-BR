@@ -6,10 +6,10 @@ description: O administrador do Adobe Workfront pode conceder acesso para visual
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -55,7 +55,7 @@ Para obter informações sobre a hierarquia de objetos no Workfront, consulte [E
 </table>
 -->
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,8 +67,8 @@ Para obter informações sobre a hierarquia de objetos no Workfront, consulte [E
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> 
    </td> 
   </tr> 
   <tr> 
@@ -107,6 +107,6 @@ Para exibir permissões herdadas de um projeto:
    >
    >Você deve ter permissões de gerenciamento em um objeto para remover as permissões herdadas.
 
- 
 
- 
+
+

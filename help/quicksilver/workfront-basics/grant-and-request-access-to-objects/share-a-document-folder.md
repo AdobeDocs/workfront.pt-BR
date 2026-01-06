@@ -6,10 +6,10 @@ description: Você pode compartilhar uma pasta e seu conteúdo na área Document
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 0%
+source-wordcount: '839'
+ht-degree: 2%
 
 ---
 
@@ -61,7 +61,7 @@ Você pode compartilhar uma pasta e seu conteúdo na área Documentos.
  </tbody> 
 </table>
 -->
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,11 +94,11 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Compartilhar uma pasta
 
-1. Clique no ícone **do** Menu principal![](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront e em **Documentos**.
+{{step1-to-documents}}
 
-   Ou
+Ou
 
-   Com um objeto do Workfront aberto, clique em **Documentos** no painel esquerdo.
+Com um objeto do Workfront aberto, clique em **Documentos** no painel esquerdo.
 
 1. Selecione a pasta e clique no ícone Compartilhar ![](assets/share-icon.png) na barra de ferramentas.
 
@@ -139,7 +139,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Como os usuários acessam o conteúdo de uma pasta compartilhada com eles
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story &nbsp;<a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete these 2 paragraphs when the story   <a href="https://hub.workfront.com/task/622f8d6f000897c9a4a11bdfd9b2cf34/overview">Handle email notification content when a folder is shared</a> goes to Preview:</p>
 -->
 
 Atualmente, quando você compartilha uma pasta, seus destinatários não veem a pasta na área Documentos. No entanto, eles podem acessar seus documentos executando um relatório de documento.

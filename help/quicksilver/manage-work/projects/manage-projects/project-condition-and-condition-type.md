@@ -7,7 +7,7 @@ description: A Condição do projeto é uma representação visual de como o pro
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Considere o seguinte ao entender a Condição de um projeto:
   >Os projetos com qualquer um dos status a seguir são sempre marcados como No destino, independentemente das datas das tarefas e do seu progresso:
   >
   >* Ideia
-  >* Solicitado(a)
+  >* Solicitado
   >* Aprovado
   >* Rejeitado
 
@@ -78,25 +78,25 @@ Nesse caso, os valores da Condição do projeto podem ser:
    <td><strong>Condição do projeto</strong></td> 
    <td><strong>Status de Progresso do Projeto</strong></td> 
    <td><strong>Indicador de Condição Workfront</strong></td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>No Prazo</td> 
    <td>Quando o Status de Progresso do projeto é No Prazo, a Condição do projeto é <strong>No Destino</strong>. </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Em Risco</td> 
    <td>Quando o Status de Progresso do projeto está <strong>Atrasado</strong> ou <strong>Em Risco</strong>, a Condição do projeto é <strong>Em Risco</strong>.</td> 
    <td> <img src="assets/at-risk-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Com problemas</td> 
    <td>Quando o Status de Progresso do projeto está <strong>Atrasado</strong>, a Condição do projeto é <strong>Com Problemas</strong>. </td> 
    <td> <img src="assets/in-trouble-project-condition-icon.png"> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>

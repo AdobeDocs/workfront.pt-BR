@@ -6,9 +6,9 @@ description: É possível excluir tarefas que podem estar duplicadas ou que fora
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '782'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 É possível excluir tarefas que podem estar duplicadas ou que foram criadas com erro.
 
-Para tarefas com informações históricas (atualizações, alterações de agendamento, status ou outros campos), recomendamos que você as feche ou marque como Dead (Desativado), em vez de excluí-las. Isso ajuda a manter as informações históricas dos projetos.
+Para tarefas com informações históricas (atualizações, alterações de agendamento, status ou outros campos), recomendamos que você as feche ou marque como Dead (Desativado), em vez de excluí-las. Isso ajuda a manter as informações históricas dos projetos.
 
 ## Requisitos de acesso
 
@@ -68,7 +68,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects with access to&nbsp;Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects with access to Delete</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -89,7 +89,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 * Se a tarefa tiver registrado horas, o Workfront ou o administrador de grupo deverá permitir a exclusão dessas tarefas configurando as Preferências de tarefas e problemas na sua instância do Workfront. Isso também se aplica quando você tenta excluir projetos com tarefas com horas registradas.
 
   <!--
-  (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
+  (NOTE: the last statement is NWE only; not possible in classic)
   -->
 
   Para obter mais informações sobre como habilitar a exclusão de tarefas em que as horas são registradas, consulte a seção &quot;Exclusão&quot; em [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
@@ -140,9 +140,8 @@ Considere o seguinte:
 
 ### Excluir várias tarefas em um projeto simultaneamente  {#delete-multiple-tasks-in-a-project-simultaneously}
 
-1. Clique no ícone **do** Menu principal![](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
+{{step1-to-projects}}
 
-1. Clique em **Projetos**.
 1. Clique no nome do projeto que contém as tarefas que deseja excluir.
 1. Clique em **Tarefas** no painel esquerdo.
 1. Siga um destes procedimentos:
@@ -170,9 +169,8 @@ Considere o seguinte:
 
 ### Excluir uma única tarefa {#delete-a-single-task}
 
-1. Clique no ícone **do** Menu principal![](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
+{{step1-to-projects}}
 
-1. Clique em **Projetos**.
 1. Clique no nome do projeto que contém a tarefa que deseja excluir.
 1. Clique em **Tarefas** no painel esquerdo.
 1. Clique no nome da tarefa que deseja excluir.

@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 1d7d094a682a02b09651023f94e81ee0b330163c
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
@@ -48,9 +48,7 @@ Para saber que plano, tipo de licença ou acesso você tem, contate o administra
 
 ## Redefinir a senha de um usuário em um ambiente habilitado para eAuth
 
-1. Clique no ícone **[!UICONTROL Menu principal]** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito de [!DNL Workfront] e clique no ícone **[!UICONTROL Usuários]** ![Usuários](assets/users-icon-in-main-menu.png).
-
-
+{{step-1-to-users}}
 
 1. Selecione o **[!UICONTROL Usuário]** que requer uma redefinição de senha.
    ![Selecionar o usuário](assets/100520classicnweselectuser-350x105.png)

@@ -7,7 +7,7 @@ description: Este artigo fornece um exemplo de cálculo da EAC (Estimativa no t�
 author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 2%
@@ -73,13 +73,13 @@ Método EAC = Extrair de tarefas/subtarefas
 1. Recalcular finanças
 1. A **CPI para a Tarefa 1** = 0,04 é calculada da seguinte forma:\
    **CPI para Tarefa 1** = *IF* Horas Reais > 0 *THEN* CPI = TotalBudgetedCostWorkPerformed/Atual Hours\
-       *ELSE* CPI = 1\
+   *ELSE* CPI = 1\
    **CPI da Tarefa 1** = 1 / 25\
    **CPI para Tarefa 1** = .04
 
 1. **EAC para a Tarefa 1** = 125 horas calculado da seguinte maneira:\
    **EAC para Tarefa 1** = *IF* CPI &lt;> 0 *THEN* EAC = Horas Planejadas/ CPI\
-       *MAIS*
+   *MAIS*
 
    ```
    EAC = Planned  Hours + Actual  Hours
@@ -89,7 +89,7 @@ Método EAC = Extrair de tarefas/subtarefas
    **EAC para Tarefa 1** = 125 horas
 
 1. CPI / EAC para Tarefas 2 e 3 são:\
-   Tarefa  2 = 0,12 / 83,33  horas\
+   Tarefa 2 = 0,12 / 83,33 horas\
    Tarefa 3 = 0,24 / 62,5 horas
 
 1. **CPI para Projeto** = .13 calculado da seguinte maneira:\
@@ -99,7 +99,7 @@ Método EAC = Extrair de tarefas/subtarefas
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *OUTRA* CPI = 1
    **CPI do Projeto** = 10 / 75\
    **CPI para Projeto** = .13
 
@@ -116,10 +116,10 @@ Método EAC = Extrair de tarefas/subtarefas
 
 1. Crie o Projeto A com seis tarefas em que a Tarefa 3 é a principal das Tarefas 4 e 5 e a Tarefa 1 é a principal das Tarefas 2 e 3 conforme mostrado abaixo:\
    Tarefa 1\
-      Tarefa 2\
-      Tarefa 3\
-         Tarefa 4\
-         Tarefa 5\
+   Tarefa 2\
+   Tarefa 3\
+   Tarefa 4\
+   Tarefa 5\
    Tarefa 6
 
 1. Atribua as Tarefas 2, 4, 5 e 6 ao Usuário 1 cuja taxa de custo/hora é de US$100,00.
@@ -145,9 +145,9 @@ Método EAC = Extrair de tarefas/subtarefas
  <tbody> 
   <tr> 
    <td> <p>Tarefa 1</p> </td> 
-   <td> </td> 
+   <td> </td> 
    <td> <p>10 horas</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tarefa 2</p> </td> 
@@ -157,9 +157,9 @@ Método EAC = Extrair de tarefas/subtarefas
   </tr> 
   <tr> 
    <td> <p>Tarefa 3</p> </td> 
-   <td> </td> 
+   <td> </td> 
    <td> <p>10 horas</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Tarefa 4</p> </td> 
@@ -191,7 +191,7 @@ Método EAC = Extrair de tarefas/subtarefas
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *OUTRA* CPI = 1
    **CPI da Tarefa 2** = 1 / 10\
    **CPI para Tarefa 2** = .1
 
@@ -202,7 +202,7 @@ Método EAC = Extrair de tarefas/subtarefas
    EAC = Planned Hours / CPI
    ```
 
-       *ELSE* EAC = Planejado  Horas + Efetivo  Horas\
+       *SENÃO* EAC = Horas Planejadas + Horas Efetivas
    **EAC para Tarefa 2** = 5 / .1\
    **EAC para Tarefa 2** = 50 horas
 
@@ -218,7 +218,7 @@ Método EAC = Extrair de tarefas/subtarefas
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *OUTRA* CPI = 1
    **CPI da Tarefa 3** = 11.5 / 30\
    **CPI para Tarefa 3** = .38
 
@@ -233,7 +233,7 @@ Método EAC = Extrair de tarefas/subtarefas
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *OUTRA* CPI = 1
    **CPI da Tarefa 1** = 12,5 / 50\
    **CPI para Tarefa 1** = .25
 
@@ -248,7 +248,7 @@ Método EAC = Extrair de tarefas/subtarefas
    CPI = TotalBudgetedCostWorkPerformed/Actual Hours
    ```
 
-       *ELSE* CPI = 1\
+       *OUTRA* CPI = 1
    **CPI do Projeto** = 24.5 / 110\
    **CPI para Projeto** = .22272\
    **CPI para Projeto** = .22
@@ -429,64 +429,64 @@ Método EAC = Extrair de tarefas/subtarefas
 </table>
 
 1. Em Ações do Projeto, execute Recalcular Finanças
-1. A **CPI**&#x200B;**&#x200B; para a Tarefa 1** = .14 é calculada da seguinte maneira:\
-   **CPI**&#x200B;**&#x200B; para a Tarefa 1**  = *SE* Custo Real do Trabalho + IncurredAtualExpenseCost  &lt;> 0 *THEN*
+1. A **CPI**** para a Tarefa 1** = .14 é calculada da seguinte maneira:\
+   **CPI****para a Tarefa 1** = *IF* Custo Real do Trabalho + IncurredAtualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-   *   ELSE* CPI = CPI_Labor\
-   **CPI**&#x200B;**&#x200B; para a Tarefa 1**  = (100+300) / (2500+400)\
-   **CPI**&#x200B;**&#x200B; para a Tarefa 1**  = 400 / 2900\
-   **CPI**&#x200B;**&#x200B; para a Tarefa 1**  = 0,14
+   * ELSE* CPI = CPI_Labor\
+     **CPI**** para Tarefa 1** = (100+300) / (2500+400)\
+     **CPI**** para a Tarefa 1** = 400 / 2900\
+     **CPI****para a Tarefa 1** = .14
 
-1. **EAC**&#x200B;**para a Tarefa 1** = $13.400,00\
+1. **EAC****para a Tarefa 1** = $13.400,00\
    **Mão-de-Obra CPI***para a Tarefa 1** = SE Custo Efetivo do Trabalho &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
-      ELSE CPI_Labor = 1\
+   ELSE CPI_Labor = 1\
    **Mão de obra CPI***para a Tarefa 1** = 100/2500\
    **Mão de obra CPI***para a Tarefa 1** = .04
 
-   **Mão-de-Obra EAC**&#x200B;**para a Tarefa 1** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **Mão-de-Obra EAC****para a Tarefa 1** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
-   *   ELSE* EAC  Mão-de-Obra = Custo de Mão-de-Obra Planejado + Custo de Mão-de-Obra Efetivo\
-   **Mão-de-Obra EAC**&#x200B;**&#x200B; para a Tarefa 1** = 500.00/.04\
-   **Mão-de-Obra EAC**&#x200B;**&#x200B; para a Tarefa 1** = $12.500,00
+   * ELSE* Mão-de-Obra EAC = Custo de Mão-de-Obra Planejado + Custo de Mão-de-Obra Efetivo\
+     **Mão-de-Obra EAC**** para a Tarefa 1** = 500.00/.04\
+     **Mão-de-Obra EAC**** para a Tarefa 1** = $12.500,00
 
-   **Despesa EAC**&#x200B;**&#x200B; para a Tarefa 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **Despesa EAC**** para a Tarefa 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
    **Despesa EAC***para a Tarefa 1** = $400,00 + $500,00\
    **Despesa EAC***para a Tarefa 1** = $900,00
 
-   **EAC**&#x200B;**para a Tarefa 1** = Mão-de-Obra EAC + Despesa EAC\
-   **EAC**&#x200B;**&#x200B; para a Tarefa 1**  = US$ 12.500,00 + US$ 900,00\
-   **EAC**&#x200B;**&#x200B; para a Tarefa 1**  = US$ 13.400,00
+   **EAC****para a Tarefa 1** = Mão-de-Obra EAC + Despesa EAC\
+   **EAC****para a Tarefa 1** = $12.500,00 + $900,00\
+   **EAC****para a Tarefa 1** = $13.400,00
 
 1. Estes são os valores de CPI/EAC para a Tarefa 2 e a Tarefa 3:\
    Tarefa 2 = 0,19 / US$ 8.433,33\
-   Tarefa 3 = 0,44 / US$ 6.950,00&#x200B;**&#x200B;**
+   Tarefa 3 = 0,44 / US$ 6.950,00****
 
 1. A CPI do projeto = 0,32\
-   **CPI*** para Projeto** = *IF* Custo de Trabalho Real + IncurredAtualExpenseCost  &lt;> 0 *THEN*
+   **CPI*** para Projeto** = *IF* Custo Real do Trabalho + IncurredAtualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
-   *   ELSE* CPI = CPI_Labor\
-   **CPI*** para Projeto** = (1000 + 2300) / (7500 + 2700)\
-   **CPI*** para Projeto** = 3300 / 10200\
-   **CPI*** para Projeto** = .32
+   * ELSE* CPI = CPI_Labor\
+     **CPI*** para Projeto** = (1000 + 2300) / (7500 + 2700)\
+     **CPI*** para Projeto** = 3300 / 10200\
+     **CPI*** para Projeto** = .32
 
 1. A EAC do projeto é de US$ 28.783,33\
-   **EAC**&#x200B;**para o projeto** = Tarefa da EAC 1 + Tarefa da EAC 2 + Tarefa da EAC 3\
-   **EAC**&#x200B;**para o Projeto** = $13.400,00 + $8.433,33 + $6.950,00\
-   **EAC**&#x200B;**&#x200B; para Projeto** = $28.783,33
+   **EAC****para o projeto** = Tarefa da EAC 1 + Tarefa da EAC 2 + Tarefa da EAC 3\
+   **EAC****para o Projeto** = $13.400,00 + $8.433,33 + $6.950,00\
+   **EAC**** para Projeto** = $28.783,33

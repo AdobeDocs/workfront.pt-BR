@@ -6,27 +6,27 @@ description: Você pode exportar projetos do Adobe Workfront para o Microsoft Pr
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 # Exportar um projeto para o Microsoft Project
 
-Você pode exportar projetos do Adobe Workfront para o Microsoft Project. 
+Você pode exportar projetos do Adobe Workfront para o Microsoft Project.
 
 >[!IMPORTANT]
 >
 >* Nem todos os campos do Workfront são transferidos no arquivo de projeto do Microsoft.\
 >  Para obter mais informações sobre a compatibilidade de campos entre o Workfront e o Microsoft Project, consulte o artigo [Mapear campos do Microsoft Project para projetos do Adobe Workfront](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
->* Recomendamos que você limite o número de vezes que transfere projetos de um aplicativo para outro. 
+>* Recomendamos que você limite o número de vezes que transfere projetos de um aplicativo para outro.
 >
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,4 +101,4 @@ Você pode exportar um projeto do Workfront da página do projeto ou de uma list
 
 1. Clique em **Exportar projeto MS**.
 
-   O projeto é baixado como um arquivo XML no computador e está pronto para ser importado para o Microsoft Project. 
+   O projeto é baixado como um arquivo XML no computador e está pronto para ser importado para o Microsoft Project.

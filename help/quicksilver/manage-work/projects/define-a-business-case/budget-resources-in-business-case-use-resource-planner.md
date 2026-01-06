@@ -5,10 +5,10 @@ description: Como parte do planejamento de recursos, você pode usar o Planejado
 author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Você também pode estimar recursos no business case usando o Planejador de cen�
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -132,7 +132,7 @@ Para aplicar Conjuntos de Recursos e prever recursos do projeto no Business Case
 
    O Planejador de recursos é exibido para o projeto selecionado.
 
-   Por padrão, as primeiras 20 funções de cargo associadas a esse projeto são listadas na seção Orçamento de Recursos em ordem alfabética. 
+   Por padrão, as primeiras 20 funções de cargo associadas a esse projeto são listadas na seção Orçamento de Recursos em ordem alfabética.
 
    Para obter mais informações sobre o Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -152,7 +152,7 @@ Para aplicar Conjuntos de Recursos e prever recursos do projeto no Business Case
    >   
    >
 
-    
+
 
 1. Clique em **Hoje** para retornar ao período de tempo de hoje.
 1. (Opcional) Clique em **Semana**, **Mês** ou **Trimestre** para exibir informações do projeto em diferentes intervalos de tempo.

@@ -6,10 +6,10 @@ description: Você pode delegar temporariamente o trabalho ao qual está atribu�
 author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1547'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Para obter informações gerais sobre a delegação de trabalho, consulte [Visã
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 >[!IMPORTANT]
 >
@@ -85,7 +85,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 +++
 
 <!--note from the table for Object permissions:
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project Owner (NOTE: you cannot delegate projects yet)</p>
     -->
 
 ## Pré-requisitos
@@ -154,7 +154,7 @@ Para delegar tarefas e problemas a outras pessoas:
    * O botão [!UICONTROL **Delegar**] na área [!UICONTROL **Página inicial**] é alterado para [!UICONTROL **Editar delegação**] para indicar que há uma delegação em vigor.
      <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-      (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
+      (NOTE: is this shot correct? See UI - this is a mock)
       </MadCap:conditionalText>
       -->
 

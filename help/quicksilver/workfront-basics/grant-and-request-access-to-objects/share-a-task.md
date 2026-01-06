@@ -6,10 +6,10 @@ description: O administrador do Adobe Workfront pode conceder acesso para exibir
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1196'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ As permissões são específicas a um item no Workfront e definem quais ações 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,8 +36,8 @@ As permissões são específicas a um item no Workfront e definem quais ações 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> 
    </td> 
   </tr> 
   <tr> 
@@ -63,18 +63,18 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 * É possível compartilhar tarefas individualmente ou várias delas de uma vez, em massa.\
   O compartilhamento de tarefas é idêntico ao compartilhamento de outros objetos. Para obter mais informações sobre como compartilhar itens no Workfront, consulte [Compartilhar um objeto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-* Você pode conceder as seguintes permissões a uma tarefa: 
+* Você pode conceder as seguintes permissões a uma tarefa:
 
    * Exibir
    * Gerenciar
    * Contribuir
 * Quando você compartilha uma tarefa, os usuários herdam as mesmas permissões em todos os objetos filhos associados à tarefa por padrão. Por exemplo, elas herdam as mesmas permissões nas tarefas filhas, problemas e documentos anexados à tarefa.\
-  Para obter mais informações sobre a hierarquia de objetos no Workfront, consulte  [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Para obter mais informações sobre a hierarquia de objetos no Workfront, consulte   [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
   O administrador do Workfront pode especificar se os documentos devem herdar permissões de objetos superiores no nível de acesso do usuário. Para obter mais informações sobre como restringir permissões herdadas em documentos, consulte [Criar ou modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Você pode remover permissões herdadas de uma tarefa.\
-  Para obter mais informações sobre como remover permissões herdadas de objetos, consulte  [Remover permissões de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+  Para obter mais informações sobre como remover permissões herdadas de objetos, consulte   [Remover permissões de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Maneiras de compartilhar uma tarefa
 
@@ -87,7 +87,7 @@ Você pode compartilhar uma tarefa das seguintes maneiras:
    * Especifique as permissões em qualquer um dos objetos principais da tarefa: projeto, programa ou portfólio. As tarefas herdam as permissões de seus objetos principais. Para obter informações sobre a exibição de permissões herdadas em objetos, consulte [Exibir permissões herdadas em objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Adicione entidades ao Compartilhamento de projeto em um modelo usado para criar o projeto no qual a tarefa está. Para obter informações sobre como compartilhar projetos a partir de modelos, consulte [Compartilhar um modelo](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Especifique as permissões em todas as tarefas em um projeto ao editá-lo. Para obter informações sobre como gerenciar o acesso a tarefas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Especifique as permissões em todas as tarefas em um projeto ao editá-lo.  Para obter informações sobre como gerenciar o acesso a tarefas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >
@@ -185,13 +185,13 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
    <td scope="row">Adicionar tarefa(s)</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Adicionar predecessores</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Adicionar problema(s)</td> 
@@ -202,26 +202,26 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
   <tr> 
    <td scope="row">Excluir Tarefa</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row"> <p>Edição de tarefa geral<br></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Alterar Status da Tarefa</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Editar Restrição de Tarefa</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Exibir Tarefa</td> 
@@ -244,50 +244,50 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
   <tr> 
    <td scope="row">Mover Tarefa*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Registre as horas</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Modificar Datas Planejadas</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Aceitar atribuição</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Faça uma atribuição</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Anexar Formulário Personalizado</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Editar campos personalizados</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Criar um processo de aprovação</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Aprovar Uma Tarefa</td> 
@@ -298,14 +298,14 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
   <tr> 
    <td scope="row">Editar finanças*</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Adicionar/Editar Despesas</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td>  </td> 
   </tr> 
   <tr> 
    <td scope="row">Exibir finanças</td> 
@@ -327,8 +327,8 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
   </tr> 
   <tr> 
    <td scope="row">Compartilhe com todo o sistema</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>  </td> 
+   <td>  </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

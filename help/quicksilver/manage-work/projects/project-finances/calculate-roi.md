@@ -7,10 +7,10 @@ description: O ROI (Return On Investment, retorno sobre o investimento) é uma m
 author: Lisa
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -40,19 +40,19 @@ Os seguintes campos afetam o ROI de um projeto:
 
 Você pode visualizar o valor do ROI de um projeto nas seguintes áreas no Workfront:
 
-* No Otimizador de Portfolio, se o projeto estiver associado a um portfólio
+* No Portfolio Otimizer, se o projeto estiver associado a um portfólio
 
   >[!NOTE]
   >
   >O ROI total de todos os valores de ROI do projeto é o ROI do portfólio.
 
-  Para obter informações sobre o Portfolio Otimizer, consulte o artigo [visão geral do Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Para obter informações sobre o Portfolio Otimizer, consulte o artigo [Visão geral do Portfolio Otimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-* No campo ROI do projeto, nas listas e relatórios a seguir: 
+* No campo ROI do projeto, nas listas e relatórios a seguir:
 
    * Projeto
    * Tarefa
    * Problema
-   * Projeto (Dados Financeiros)
+   * Projeto (Dado Financeiro)
 
   Para obter mais informações sobre a criação de relatórios no Workfront, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

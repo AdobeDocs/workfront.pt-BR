@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '7642'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Idealmente, você deve editar um projeto quando ele estiver no status Planejando
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ Idealmente, você deve editar um projeto quando ele estiver no status Planejando
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
    <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -690,7 +690,7 @@ Para obter informações sobre como essas configurações afetam a criação de 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Quando é concedido acesso a alguém a este projeto: indique o acesso padrão para ...</strong></td> 
-      <td><p>Selecione as opções de acesso que você deseja que os usuários tenham no projeto, se o projeto for compartilhado com eles. Selecione as opções específicas para seu acesso se forem designadas como <strong>Visualizadores</strong>, <strong>Colaboradores</strong> ou <strong>Gerentes</strong> ao compartilhar o projeto com eles. </p><p>O acesso <strong>Excluir</strong> no nível de permissão <strong>Gerenciar</strong> determina se os usuários podem excluir o próprio projeto. Os usuários com acesso de <strong>Gerenciar</strong> ao projeto podem excluir tarefas e problemas dentro do projeto, independentemente dessa opção estar selecionada, se tiverem permissões de <strong>Gerenciar</strong> para as tarefas e problemas. </p></td> 
+      <td><p>Selecione as opções de acesso que você deseja que os usuários tenham no projeto, se o projeto for compartilhado com eles. Selecione as opções específicas para seu acesso se forem designadas como <strong>Visualizadores</strong>, <strong>Colaboradores</strong> ou <strong>Gerentes</strong> ao compartilhar o projeto com eles. </p><p>O acesso <strong>Excluir</strong> no nível de permissão <strong>Gerenciar</strong> determina se os usuários podem excluir o próprio projeto. Os usuários com acesso de <strong>Gerenciar</strong> ao projeto podem excluir tarefas e problemas dentro do projeto, independentemente dessa opção estar selecionada, se tiverem permissões de <strong>Gerenciar</strong> para as tarefas e problemas. </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -884,7 +884,7 @@ To edit projects in bulk:
      For information, continue with step 7 below.
 
      <!--   
-     <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
+     <p>(NOTE: make sure this stays accurate)</p>   
      
 
    * **Tasks**

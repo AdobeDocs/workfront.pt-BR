@@ -7,7 +7,7 @@ description: A Data de Início Planejada de uma tarefa é a data em que você, c
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 2%
@@ -22,18 +22,18 @@ A Data de Início Planejada de uma tarefa é a data em que você, como criador d
 
 ## A Data de Início Planejada de uma tarefa
 
-Você pode especificar a Data de início planejada da tarefa ou deixá-la a cargo do Adobe Workfront para calculá-la, dependendo de determinados critérios. 
+Você pode especificar a Data de início planejada da tarefa ou deixá-la a cargo do Adobe Workfront para calculá-la, dependendo de determinados critérios.
 
 * [Definir manualmente a Data de Início Planejada de uma tarefa](#manually-set-the-planned-start-date-of-a-task)
 * [Como a Data de Início Planejada é calculada para uma tarefa](#how-the-planned-start-date-is-calculated-for-a-task)
 
 ### Definir manualmente a Data de Início Planejada de uma tarefa {#manually-set-the-planned-start-date-of-a-task}
 
-Definir a Data de Início Planejada de uma tarefa depende do tipo de Restrição de Tarefa que você atribui à tarefa. 
+Definir a Data de Início Planejada de uma tarefa depende do tipo de Restrição de Tarefa que você atribui à tarefa.
 
 Você pode definir manualmente a Data de início planejada ao criar uma tarefa. Para obter mais informações, consulte [Criar tarefas em um projeto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-Você pode especificar manualmente a Data de Início Planejada quando seleciona qualquer uma das seguintes Restrições de Tarefa: 
+Você pode especificar manualmente a Data de Início Planejada quando seleciona qualquer uma das seguintes Restrições de Tarefa:
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -83,7 +83,7 @@ Quando é calculado automaticamente pelo sistema, o seguinte pode influenciar a 
 
   Para obter informações sobre a preferência Tempo livre do usuário, consulte [Configurar preferências de projeto do sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) ou [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-Quando definida automaticamente, a Data de Início Planejada é determinada com base no seguinte cálculo: 
+Quando definida automaticamente, a Data de Início Planejada é determinada com base no seguinte cálculo:
 
 ```
 Planned Start Date = Planned Completion Date - Task Duration
@@ -93,5 +93,5 @@ Por exemplo, se sua tarefa tiver uma Data de conclusão de 16 de setembro e uma 
 
 >[!NOTE]
 >
-> O Tipo de atualização do projeto também deve ser definido como Automático e Mediante alteração ou Automaticamente para que as Horas planejadas e a Duração sejam ajustadas automaticamente.\
+> O Tipo de atualização do projeto também deve ser definido como Automático e Mediante alteração ou Automaticamente para que as Horas planejadas e a Duração sejam ajustadas automaticamente.\
 >Para obter mais informações sobre o Tipo de Atualização, consulte [Selecionar o Tipo de Atualização do projeto](../../../manage-work/projects/manage-projects/select-project-update-type.md).

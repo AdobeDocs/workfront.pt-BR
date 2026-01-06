@@ -6,9 +6,9 @@ description: Você pode alterar o idioma em que exibe o Adobe Workfront e emails
 feature: Get Started with Workfront
 author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1137'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Atualmente, o Workfront Fusion só oferece suporte ao inglês.
 * O Workfront Fusion não é compatível com o uso de caracteres de texto em outros idiomas em campos inseridos pelo usuário.
 
 Sua empresa deve comprar uma licença do Workfront Fusion para que você acesse o Workfront Fusion.\
-Para obter mais informações sobre o Workfront Fusion, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter mais informações sobre o Workfront Fusion, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Alterar o idioma
 
@@ -146,7 +146,8 @@ Ao alterar a localidade de email padrão do Workfront, você modifica o idioma, 
 Para alterar a localidade de email padrão do Workfront:
 
 1. Faça logon no Workfront como administrador do Workfront.
-1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront, e clique em **Instalação** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Clique em **Sistema** > **Informações do Cliente.**
 
@@ -164,7 +165,9 @@ Ao alterar a Localidade de email do usuário, você modifica o idioma, a data e 
 
 Para alterar a localidade de email do usuário:
 
-1. Clique no ícone **do** Menu principal![](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront, e clique na imagem de perfil do usuário.
+{{step1-click-main-menu}}
+
+1. Clique na imagem do perfil do usuário.
 
 1. Clique no menu Mais ![](assets/more-icon.png) e em **Editar**.
 

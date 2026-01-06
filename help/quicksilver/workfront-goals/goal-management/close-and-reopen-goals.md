@@ -6,10 +6,10 @@ description: Você pode fechar uma meta quando quiser indicar que a concluiu ou 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 0%
+source-wordcount: '860'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Você pode reabrir metas que foram fechadas quando se tornaram relevantes novame
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto">
 <col>
@@ -189,12 +189,9 @@ Closing goals differs depending on what environment you use.
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) > **Metas** no canto superior direito.
+{{step1-to-goals}}
 
-   A Lista de metas é aberta.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+A Lista de metas é aberta.
 
 1. (Opcional) Modifique seus filtros para exibir somente as metas que estão ativas.
 
@@ -255,12 +252,9 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png)> **Metas** no canto superior direito.
+{{step1-to-goals}}
 
-   A Lista de metas é aberta.
-
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+A Lista de metas é aberta.
 
 1. (Opcional) Modifique seus filtros para exibir somente as metas que estão fechadas.
 

@@ -6,10 +6,10 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bc7312a10f1851b9f85b2c1ceac5b01dba078f32
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 2%
+source-wordcount: '1539'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Ao submeter solicitações semelhantes com frequência, você pode copiar uma so
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -141,7 +141,7 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Assunto</strong> </td> 
-      <td>Exibe o nome da solicitação original. Atualize-a, se necessário. Caso contrário, o Workfront nomeia a solicitação copiada <b>Cópia de &lt;Nome da solicitação original&gt;</b>. Este campo é obrigatório.</td> 
+      <td>Exibe o nome da solicitação original. Atualize-a, se necessário. Caso contrário, o Workfront nomeia a solicitação copiada <b>Cópia de &lt;Nome da solicitação original&gt;</b>. Este campo é obrigatório.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Descrição</strong> </td> 
@@ -230,11 +230,12 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
 
 Você pode copiar e enviar solicitações na área Solicitações do Workfront ou a partir do widget Minhas solicitações na Página inicial.
 
-1. Para acessar a lista Solicitações, clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Solicitações]**.
+{{step1-to-requests}}
 
 1. Para acessar o widget Minhas solicitações na Página inicial:
 
-   1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Início]**.
+   {{step1-to-home}}
+
    1. Localize o widget Minhas solicitações.
 
       Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

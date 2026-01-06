@@ -5,10 +5,10 @@ description: Você pode usar o Business Case para solicitar um projeto e definir
 author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: fa0b4322b9f7c1d506cf194645c7ae50ad8c0f0b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Você pode usar o Business Case para solicitar um projeto e definir a finalidade
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Você pode usar o Business Case para solicitar um projeto e definir a finalidade
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td> 
-   <p>Standard </p> 
+   <p>Padrão </p> 
    <p>Plano </p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ Considere o seguinte ao solicitar um projeto por meio de um Business Case:
 
 1. (Condicional) Se você selecionou anexar um modelo, continue anexando o modelo ao projeto.
 1. No painel esquerdo, clique em **Business Case**.
-1. (Opcional) Para editar a seção **Informações do projeto**, clique em **Editar informações do projeto**. 
+1. (Opcional) Para editar a seção **Informações do projeto**, clique em **Editar informações do projeto**.
 
    Para obter mais informações sobre como editar os campos de seção **Informações do Projeto**, consulte a seção [Informações do Projeto](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) no artigo [Visão Geral das Áreas do Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
@@ -123,6 +123,6 @@ Considere o seguinte ao solicitar um projeto por meio de um Business Case:
 
 >[!TIP]
 >
-> Após concluir o Business Case, você pode exportar uma cópia dele para um arquivo .pdf. Para obter mais informações sobre como exportar o Business Case para um arquivo .pdf, consulte [Exportar o Business Case de um projeto](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
+> Após concluir o Business Case, você pode exportar uma cópia dele para um arquivo .pdf. Para obter mais informações sobre como exportar o Business Case para um arquivo .pdf, consulte [Exportar o Business Case de um projeto](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md).
 
 

@@ -7,10 +7,10 @@ description: Projetos, tarefas e problemas têm uma Data de início efetiva no A
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 0%
+source-wordcount: '525'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Projetos, tarefas e problemas têm uma Data de início efetiva no Adobe Workfron
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -77,7 +77,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Considerações sobre as datas de início reais no Workfront
 
-* A Data de início efetiva está localizada na seção Detalhes de projetos, tarefas e problemas. 
+* A Data de início efetiva está localizada na seção Detalhes de projetos, tarefas e problemas.
 * A Data de Início Efetivo de um projeto, tarefa ou problema não é preenchida quando esses itens são criados.
 * A Data de Início Efetivo é preenchida quando o trabalho começa no projeto, tarefa ou problema.
 * A Data de início efetiva não será exibida na guia Detalhes do projeto se o trabalho no projeto ainda não tiver sido iniciado.
@@ -96,7 +96,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
      >[!IMPORTANT]
      >
-     >A Data de início efetiva do projeto não é preenchida quando o projeto é marcado como Atual. O trabalho real deve começar nas tarefas do projeto antes que a Data de início real do projeto seja preenchida.
+     >A Data de início efetiva do projeto não é preenchida quando o projeto é marcado como Atual. O trabalho real deve começar nas tarefas do projeto antes que a Data de início real do projeto seja preenchida.
 
      Nesses casos, a Data de início efetiva do projeto é definida como a data e a hora em que essas ações ocorreram para a tarefa mais antiga no projeto. Isso indica que o projeto começou realmente nesta data e hora.
 
@@ -111,7 +111,8 @@ Você pode localizar a Data de Início Efetivo de um projeto nas seguintes área
 
 Para localizar a Data de Início Efetivo na seção Detalhes do projeto:
 
-1. Clique no ícone **Menu principal** ![Ícone do Menu principal](assets/main-menu-icon.png), no canto superior direito do Workfront, e clique em **Projetos**.
+{{step1-to-projects}}
+
 1. Clique no projeto para o qual você deseja exibir a Data de Início Efetivo.
 1. Clique em **Detalhes do projeto** no painel esquerdo e vá para a seção **Visão geral**.
 

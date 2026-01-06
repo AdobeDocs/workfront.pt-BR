@@ -7,7 +7,7 @@ description: Orientado pelo esforço é um tipo de duração que você pode defi
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Orientado pelo esforço é um tipo de duração que você pode definir para uma 
 
 ## Visão geral do tipo de duração orientada pelo esforço
 
-O Workfront ou um administrador de grupo pode definir o Tipo de duração padrão do seu sistema ou grupo como Controlado pelo esforço. Nesse caso, todas as novas tarefas serão criadas com esse Tipo de Duração. Para obter informações sobre como alterar as preferências de tarefas e problemas como parte das preferências de projetos no nível do sistema ou do grupo, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+O Workfront ou um administrador de grupo pode definir o Tipo de duração padrão do seu sistema ou grupo como Controlado pelo esforço. Nesse caso, todas as novas tarefas serão criadas com esse Tipo de Duração. Para obter informações sobre como alterar as preferências de tarefas e problemas como parte das preferências de projetos no nível do sistema ou do grupo, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Nesse cenário, há o risco de encurtar arbitrariamente o plano do projeto, a menos que você, como gerente do projeto, reserve um tempo para considerar se a tarefa é realmente uma tarefa orientada pelo esforço.
 

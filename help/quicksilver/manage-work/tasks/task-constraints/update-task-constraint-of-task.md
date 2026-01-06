@@ -6,10 +6,10 @@ description: As restrições de tarefa determinam quando uma tarefa deve iniciar
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 10%
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ As restrições de tarefa determinam quando uma tarefa deve iniciar e terminar e
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,8 +31,8 @@ As restrições de tarefa determinam quando uma tarefa deve iniciar e terminar e
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td><p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -91,14 +91,14 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    | O Mais Breve Possível | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Assim que possível](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
    | O Mais Tarde Possível | Para obter informações, consulte [Visão geral da Restrição de Tarefa: O Mais Tarde Possível](../../../manage-work/tasks/task-constraints/as-late-as-possible.md). |
    | Momento Mais Cedo Disponível | Para obter informações, consulte [Visão geral da Restrição da Tarefa: Primeiro Horário Disponível](../../../manage-work/tasks/task-constraints/earliest-available-time.md). |
-   | Último horário disponível | Para obter informações, consulte [Visão geral da Restrição da Tarefa: Último Tempo Disponível](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
+   | O Mais Tarde Disponível | Para obter informações, consulte [Visão geral da Restrição da Tarefa: Último Tempo Disponível](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
    | Não Iniciar Depois De | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Não Iniciar Depois de](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
    | Não Iniciar Antes De | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Não Iniciar Antes de](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
    | Concluir no máximo até | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Não Terminar Depois de](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
-   | Não Terminar Antes De | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Não Concluir Antes de](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
+   | Não concluir antes de | Para obter informações, consulte [Visão geral da Restrição de Tarefa: Não Concluir Antes de](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
    {style="table-layout:auto"}
 
 1. Clique em **Salvar** **Alterações**.
 
- 
+

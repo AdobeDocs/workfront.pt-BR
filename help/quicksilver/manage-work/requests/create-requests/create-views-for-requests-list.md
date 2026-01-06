@@ -5,9 +5,9 @@ title: Criar e gerenciar exibições na área Solicitações
 description: Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações.
 author: Becky
 feature: Work Management
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '818'
 ht-degree: 2%
 
 ---
@@ -63,11 +63,14 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Você pode criar uma visualização na área Solicitações do Workfront ou no widget Minhas solicitações na Página inicial.
 
-1. Para acessar a lista Solicitações, clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Solicitações]**.
+1. Para acessar a lista Solicitações:
+
+   {{step1-to-requests}}
 
 1. Para acessar o widget Minhas solicitações na Página inicial:
 
-   1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Início]**.
+   {{step1-to-home}}
+
    1. Localize o widget Minhas solicitações.
 
       Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -83,11 +86,14 @@ Você pode criar uma visualização na área Solicitações do Workfront ou no w
 
 É possível editar visualizações existentes, incluindo aquelas que você acabou de criar.
 
-1. Para acessar a lista Solicitações, clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Solicitações]**.
+1. Para acessar a lista Solicitações:
+
+   {{step1-to-requests}}
 
 1. Para acessar o widget Minhas solicitações na Página inicial:
 
-   1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Início]**.
+   {{step1-to-home}}
+
    1. Localize o widget Minhas solicitações.
 
       Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
@@ -146,11 +152,14 @@ Para obter instruções, consulte [Personalizar filtros, exibições e agrupamen
 
 Você pode compartilhar visualizações criadas com outros usuários, equipes ou grupos.
 
-1. Para acessar a lista Solicitações, clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Solicitações]**.
+1. Para acessar a lista Solicitações:
+
+   {{step1-to-requests}}
 
 1. Para acessar o widget Minhas solicitações na Página inicial:
 
-   1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **[!UICONTROL Início]**.
+   {{step1-to-home}}
+
    1. Localize o widget Minhas solicitações.
 
       Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).

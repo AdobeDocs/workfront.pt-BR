@@ -7,10 +7,10 @@ description: O Índice de Desempenho de Cronograma (SPI) descreve a relação en
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ O Índice de Desempenho de Cronograma (SPI) descreve a relação entre o cronogr
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,7 +62,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ### O que o valor SPI mostra {#what-the-spi-value-shows}
 
-Os gerentes de projeto entendem que um valor de SPI de 1 significa que o projeto está no plano ou dentro da programação.  Valores maiores que 1 indicam que um projeto está adiantado em relação ao cronograma e valores menores que 1 significam que um projeto está atrasado.  Quanto mais distante de 1, maior o desvio em relação ao plano.
+Os gerentes de projeto entendem que um valor de SPI de 1 significa que o projeto está no plano ou dentro da programação.  Valores maiores que 1 indicam que um projeto está adiantado em relação ao cronograma e valores menores que 1 significam que um projeto está atrasado.  Quanto mais distante de 1, maior o desvio em relação ao plano.
 
 | **Valor SPI** | **Indicação de &quot;Na Programação&quot;** |
 |---|---|
@@ -82,9 +82,9 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
 *&#42;Se as Horas Planejadas Programadas até o Momento = 0, SPI = 1*.
 
-O Agendamento de Horas Planejadas até a Data é calculado no minuto em que você executa os cálculos. Ela mostra o número de Horas Planejadas planejadas até a data atual. Ele pode ser recalculado automaticamente quando você altera os dados financeiros para que sejam precisos. Não há um campo no Workfront que indique esse valor.
+O Agendamento de Horas Planejadas até a Data é calculado no minuto em que você executa os cálculos. Ela mostra o número de Horas Planejadas planejadas até a data atual. Ele pode ser recalculado automaticamente quando você altera os dados financeiros para que sejam precisos. Não há um campo no Workfront que indique esse valor.
 
-Por exemplo, se você tiver um projeto com 1 tarefa e a tarefa tiver 10 horas planejadas e uma Duração de 10 dias, o Cronograma de Horas Planejadas para Data no 5º dia será 5. 
+Por exemplo, se você tiver um projeto com 1 tarefa e a tarefa tiver 10 horas planejadas e uma Duração de 10 dias, o Cronograma de Horas Planejadas para Data no 5º dia será 5.
 
 ## Localizar SPI em um projeto ou tarefa
 

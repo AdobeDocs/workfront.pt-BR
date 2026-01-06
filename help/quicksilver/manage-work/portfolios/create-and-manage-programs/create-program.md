@@ -6,10 +6,10 @@ description: Um programa representa uma coleção de projetos que compartilham u
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 0%
+source-wordcount: '1244'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ Por exemplo, você pode ter um Portfolio de Ano fiscal de marketing de 2024 que 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +110,7 @@ Você pode criar um programa no Workfront usando um dos seguintes métodos:
 
 ## Criar um programa
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo.
+{{step1-click-main-menu}}
 
 1. Siga um destes procedimentos.
 
@@ -154,7 +154,7 @@ Você pode especificar as seguintes informações:
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Descrição]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td> <p>Especifique uma descrição para o programa.</p> <p>A descrição é exibida na landing page do programa.</p> </td> 
      </tr> 
      <tr> 

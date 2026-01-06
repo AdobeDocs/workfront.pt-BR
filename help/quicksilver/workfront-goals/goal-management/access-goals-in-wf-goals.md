@@ -6,10 +6,10 @@ description: Este artigo descreve como encontrar e gerenciar metas no Adobe Work
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,7 @@ Este artigo descreve como encontrar e gerenciar metas estratégicas na Adobe Wor
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -128,19 +128,16 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 ## Acessar as metas do Workfront
 
-1. Clique no ícone **Menu Principal** ícone ![Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **Metas**.
+{{step1-to-goals}}
 
-   <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   A Lista de metas é exibida.
+A Lista de metas é exibida.
 
 
-   >[!IMPORTANT]
-   >
-   >   Quando você tem o acesso correto às Metas do Workfront, pode visualizar as metas que você ou qualquer outra pessoa criou na Lista de metas, por padrão.
+>[!IMPORTANT]
+>
+>   Quando você tem o acesso correto às Metas do Workfront, pode visualizar as metas que você ou qualquer outra pessoa criou na Lista de metas, por padrão.
 
-   <!--   
+<!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
    -->
 
@@ -196,9 +193,12 @@ To access an individual goal in the Production environment:
 
 Para acessar uma meta individual:
 
-1. Clique no ícone **Menu principal** no canto superior direito do Workfront e em **Metas**.
+{{step1-to-goals}}
+
 A Lista de metas é exibida por padrão.
-   ![Lista de metas](assets/goal-list-unshimmed.png)
+
+![Lista de metas](assets/goal-list-unshimmed.png)
+
 1. Clique no nome de uma meta na lista.
 A página da meta é exibida.
    ![Página de meta](assets/goal-page-unshimmed.png)

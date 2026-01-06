@@ -6,10 +6,10 @@ description: Você pode visualizar a alocação de funções para todas as funç
 author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 1%
+source-wordcount: '458'
+ht-degree: 5%
 
 ---
 
@@ -30,7 +30,7 @@ Você pode visualizar a alocação de funções para todas as funções de traba
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -104,8 +104,9 @@ Você deve ter o seguinte:
 
 ## Exibir horas planejadas do projeto no painel Alocação de função
 
-1. Clique no ícone **Menu principal** ![Ícone do Menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront, e clique em **Projetos**.
-1. Clique no nome de um projeto para acessá-lo. Isso abre a página Projeto.
+{{step1-to-projects}}
+
+1. Clique no nome de um projeto para acessá-lo. Isso abre a página Projeto.
 1. Clique em uma das opções a seguir no painel esquerdo:
 
    * **Tarefas**

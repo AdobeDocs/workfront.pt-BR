@@ -7,7 +7,7 @@ description: O Adobe Workfront calcula a Duração de um projeto levando em cont
 author: Alina
 feature: Work Management
 exl-id: b558eaad-669b-4079-b61a-07df227edfa2
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -40,13 +40,13 @@ Há dois tipos de Duração do projeto e as fórmulas pelas quais o Workfront os
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Check these formulas? Should they be divided by the hours per day?!) </p>
 -->
 
-* **Duração planejada**: 
+* **Duração planejada**:
 
   ```
   Project Planned Duration = Planned Completion Date of the latest task - Planned Start Date of the earliest task / Typical hour per day
   ```
 
-* **Duração real**: 
+* **Duração real**:
 
   ```
   Project Actual Duration = Actual Completion Date of the latest task - Actual Start Date of the earliest task / Typical hour per day

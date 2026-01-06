@@ -6,10 +6,10 @@ description: Use a seção Alinhamento de metas para exibir uma visualização i
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,7 @@ Para obter informações sobre o alinhamento da meta e como atingi-lo, consulte 
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,9 +125,8 @@ Or
 
 ## Navegar pela seção Alinhamento de metas
 
-1. Clique no ícone **Menu principal** ![Ícone do menu principal](../goal-alignment/assets/dots-main-menu-icon.png), no canto superior direito da tela, e clique em **Metas**.
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+{{step1-to-goals}}
+
 1. Clique em **Alinhamento de metas** no painel esquerdo.
 1. Use os filtros no canto superior direito do gráfico de alinhamento para selecionar apenas as metas que são importantes para você. Para obter informações sobre como usar filtros nas Metas do Workfront, consulte [Informações de filtro nas Metas do Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
@@ -159,7 +158,7 @@ Or
       <td role="rowheader">Barra de Progresso da Meta <span>e Progresso</span></td> 
       <td> <p>O progresso da meta indica quanto da meta foi alcançado no momento. Este é um cálculo automático da média do progresso de todas as metas, resultados e atividades alinhados para a meta com base no tempo decorrido desde o início do período da meta. Para obter informações sobre como calcular o progresso das metas, consulte <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Visão geral do progresso e da condição da meta nas Metas da Adobe Workfront</a>. </p> 
        <div> 
-        <p>O progresso real da meta na data atual. Os seguintes valores de progresso e cores indicam a probabilidade de a meta ser alcançada no prazo: </p> 
+        <p>O progresso real da meta na data atual. Os seguintes valores de progresso e cores indicam a probabilidade de a meta ser alcançada no prazo: </p> 
         <ul> 
          <li><span>No Destino</span> (indicador verde): a meta está no prazo e será atingida no prazo.</li> 
          <li> <span>Em Risco</span> (indicador amarelo): a meta é executada atrás e pode não ser alcançada a tempo.</li> 

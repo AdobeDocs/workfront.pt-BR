@@ -6,7 +6,7 @@ description: Os projetos do Adobe Workfront e do Microsoft Project são em sua m
 author: Alina
 feature: Work Management
 exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 4%
@@ -18,13 +18,13 @@ ht-degree: 4%
 Os projetos do Adobe Workfront e do Microsoft Project são em sua maioria compatíveis. Usando os dois aplicativos, você pode fazer o seguinte:
 
 * Exportar projetos do Microsoft Project e importá-los para o Workfront
-* Exportar projetos do Workfront e importá-los para o Microsoft Project. 
+* Exportar projetos do Workfront e importá-los para o Microsoft Project.
 
 Para obter mais informações sobre como importar projetos do Microsoft Project no Workfront, consulte [Importar um projeto do Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 Para obter mais informações sobre como exportar um projeto do Workfront para importá-lo para o Microsoft Project, consulte [Exportar um projeto para o Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
 
-Ao executar essas importações de dados, é importante entender como as informações são traduzidas de um aplicativo para outro. Na maioria das vezes, será necessário fazer algumas modificações manuais no projeto após concluir a importação. 
+Ao executar essas importações de dados, é importante entender como as informações são traduzidas de um aplicativo para outro. Na maioria das vezes, será necessário fazer algumas modificações manuais no projeto após concluir a importação.
 
 ## Visão geral do mapeamento de campos
 
@@ -64,4 +64,4 @@ Esses campos incluem, mas não estão limitados ao seguinte:
 
   >[!NOTE]
   >
-  >Como as Restrições não são mapeadas entre o Microsoft Project e o Workfront, verifique se há relações predecessoras entre as tarefas. Caso contrário, as Datas de início planejadas e de conclusão planejada das tarefas podem não ser precisas no projeto importado. 
+  >Como as Restrições não são mapeadas entre o Microsoft Project e o Workfront, verifique se há relações predecessoras entre as tarefas. Caso contrário, as Datas de início planejadas e de conclusão planejada das tarefas podem não ser precisas no projeto importado.

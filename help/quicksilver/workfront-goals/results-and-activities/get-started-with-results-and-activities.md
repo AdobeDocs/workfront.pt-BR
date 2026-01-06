@@ -7,7 +7,7 @@ description: Você deve adicionar resultados, atividades ou metas alinhadas a um
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 3%
@@ -145,7 +145,7 @@ A tabela a seguir exibe semelhanças e diferenças entre resultados, atividades 
    <td><b><p>Recurso</p></b></td> 
    <td><b><p>Resultados</p></b></td> 
    <td><b><p>Atividades</p></b></td> 
-   <td> <p><strong>Projetos</strong> </p> <p> </p> </td> 
+   <td> <p><strong>Projetos</strong> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><span style="font-weight: normal;">Você pode personalizar o nome do objeto na interface do Workfront</span> </td> 
@@ -167,8 +167,8 @@ A tabela a seguir exibe semelhanças e diferenças entre resultados, atividades 
   </tr> 
   <tr> 
    <td>Você pode associar uma delas a várias metas.</td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>✔</td> 
   </tr> 
   <tr> 
@@ -181,13 +181,13 @@ A tabela a seguir exibe semelhanças e diferenças entre resultados, atividades 
    <td>Eles devem ser atualizados manualmente no Workfront Goals</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Eles devem ser concluídos na Data de Término da meta</td> 
    <td>✔</td> 
    <td>✔</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Eles podem ser atribuídos somente a um usuário, e não a uma equipe, grupo ou empresa. </td> 
@@ -201,7 +201,7 @@ A tabela a seguir exibe semelhanças e diferenças entre resultados, atividades 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>Eles oferecem um intervalo de valores entre os valores inicial e final que ilustra o quão perto você está de atingi-los. A proximidade com o valor final calcula um valor de Progresso para a meta. </td> 
    <td>✔</td> 
    <td>✔</td> 

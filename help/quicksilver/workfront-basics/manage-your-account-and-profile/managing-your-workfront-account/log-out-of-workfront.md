@@ -6,10 +6,10 @@ description: Por motivos de segurança, é importante fazer logout do  [!DNL Ado
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ Por motivos de segurança, é importante fazer logout do [!DNL Adobe Workfront] 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,5 +60,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Saia da sua conta [!DNL Workfront]
 
-1. Clique no ícone **[!UICONTROL Menu principal]** ![Ícone do menu principal](assets/main-menu-icon.png) no canto superior direito de [!DNL Adobe Workfront] e clique no **[!UICONTROL Ícone de logoff]** ![Ícone de logoff](assets/logout-icon.png).
+{{step1-click-main-menu}}
+
+1. Clique em **[!UICONTROL Logout]** ![ícone de Logout](assets/logout-icon.png).
 1. Você retornará à página de login, na qual poderá digitar novamente seu nome de usuário e senha.

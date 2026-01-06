@@ -6,7 +6,7 @@ description: Você pode usar modelos de projeto para capturar a maioria dos proc
 author: Alina
 feature: Work Management
 exl-id: caa0e7b1-37c3-4973-92ce-cc93df4e4186
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Você pode usar modelos de projeto para capturar a maioria dos processos, inform
 
 **Exemplo:** Se a Data de Início de um projeto for 1º de abril e você quiser que uma tarefa inicie em 3º de abril (dois dias após o início do projeto), a tarefa correspondente no modelo que cria o projeto deverá iniciar no Dia 2 do modelo, onde o primeiro dia do modelo é considerado Dia 0.
 
-## Dia de Início
+## Dia de início
 
 Considere o seguinte ao trabalhar com modelos e tarefas de modelo:
 
@@ -35,7 +35,7 @@ Veja a seguir algumas ações que podem alterar o Dia de início das tarefas do 
 
 * Atualizar as predecessoras da tarefa de modelo
 
-## Dia de Término
+## Dia de conclusão
 
 O Dia de conclusão do modelo é o dia em que a última tarefa do modelo é concluída. Por padrão, todas as tarefas de modelo e o modelo mostram um Dia de conclusão de 1, porque a Workfront presume que qualquer tarefa de modelo tem uma Duração de 1 dia. O Dia de conclusão das tarefas do modelo pode mudar e isso também altera o Dia de conclusão do modelo. O Dia de Término do modelo se torna a Data de Término Planejada do projeto futuro e os Dias de Término das tarefas do modelo se tornam as Datas de Término Planejadas das tarefas do projeto futuras.
 

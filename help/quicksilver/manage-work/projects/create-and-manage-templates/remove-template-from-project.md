@@ -6,10 +6,10 @@ description: Não é possível remover um modelo de um projeto. Você só pode r
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ Não é possível remover um modelo de um projeto. Você só pode remover manual
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,8 +31,8 @@ Não é possível remover um modelo de um projeto. Você só pode remover manual
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p>
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -112,4 +112,4 @@ Para remover as informações do modelo que foram adicionadas ao projeto, siga u
 
      Para obter informações sobre como criar uma exibição, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Selecione todas as tarefas identificadas na Etapa 2 como criadas a partir de um modelo e clique em **o ícone Excluir**&#x200B;**> Sim, Excluir**. Para obter mais informações, consulte [Excluir tarefas](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Selecione todas as tarefas identificadas na Etapa 2 como criadas a partir de um modelo e clique em **o ícone Excluir****> Sim, Excluir**. Para obter mais informações, consulte [Excluir tarefas](../../../manage-work/tasks/manage-tasks/delete-tasks.md).

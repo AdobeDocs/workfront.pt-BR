@@ -9,7 +9,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 3%
@@ -100,4 +100,4 @@ A tabela a seguir ilustra se as alterações feitas nas atualizações do aciona
 
 &#42;&#42; Atribuições feitas na tarefa pai são aplicadas a todas as subtarefas na recorrência. Quaisquer alterações feitas na atribuição da tarefa-pai substituem quaisquer atribuições individuais na subtarefa. Se a tarefa mostrar andamento, a atribuição não será alterada.
 
- 
+

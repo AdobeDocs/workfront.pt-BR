@@ -6,10 +6,10 @@ description: Ao compartilhar uma meta, você dá permissões de gerenciamento a 
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 7%
+source-wordcount: '724'
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ Ao compartilhar uma meta, você dá permissões de gerenciamento a uma meta para
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto">
 <col>
@@ -166,12 +166,9 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 ## Compartilhar uma meta
 
-1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) > **Metas** no canto superior direito.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   A Lista de metas é exibida.
+A Lista de metas é exibida.
 
 1. Clique no nome de uma meta na lista. A página de meta é aberta.
 
@@ -248,32 +245,32 @@ A tabela a seguir lista as permissões que você pode conceder ao compartilhar u
   <tr> 
    <td>Editar resultados ou atividades</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Adicionar resultados ou atividades para a meta</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Associar um projeto como uma atividade à meta**</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Excluir meta</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Excluir resultados ou atividades</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td>Desconectar projetos da meta</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -286,4 +283,4 @@ Para obter informações sobre o nível de acesso do projeto, consulte [Conceder
 
 Para obter informações sobre permissões de projeto, consulte [Compartilhar um projeto no Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
- 
+

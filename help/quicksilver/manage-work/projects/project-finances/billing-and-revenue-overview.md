@@ -7,7 +7,7 @@ description: Como gerente de projeto, você pode usar taxas de faturamento para 
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '3691'
 ht-degree: 0%
@@ -176,7 +176,7 @@ Você pode aplicar os seguintes Tipos de Receita às suas tarefas ou projetos:
  <tbody> 
   <tr> 
    <td> <p>Receita com Valor Fixo</p> </td> 
-   <td> <p>Esse tipo pode ser usado com projetos e tarefas. </p> <p>Ao anexar um modelo a um projeto, a Receita fixa do modelo é adicionada à Receita fixa do projeto. Para obter informações, consulte <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Visão geral de anexar um modelo a um projeto</a>. </p> <p>Para tarefas, independentemente das atribuições de tarefa, a receita na tarefa é sempre calculada usando a Quantia Fixa especificada na tarefa. </p> <p>A Receita fixa das tarefas filho é totalizada na Receita da tarefa pai e, em seguida, na receita do Projeto. Se uma quantia fixa for definida na tarefa pai e/ou no projeto, a quantia será adicionada à receita planejada totalizada a partir de qualquer tarefa filho.</p> <p>A quantidade de receita fixa nas tarefas pode ser incluída em um Registro de cobrança do projeto.</p> </td> 
+   <td> <p>Esse tipo pode ser usado com projetos e tarefas. </p> <p>Ao anexar um modelo a um projeto, a Receita fixa do modelo é adicionada à Receita fixa do projeto. Para obter informações, consulte <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Visão geral de anexar um modelo a um projeto</a>. </p> <p>Para tarefas, independentemente das atribuições de tarefa, a receita na tarefa é sempre calculada usando a Quantia Fixa especificada na tarefa. </p> <p>A Receita fixa das tarefas filho é totalizada na Receita da tarefa pai e, em seguida, na receita do Projeto. Se uma quantia fixa for definida na tarefa pai e/ou no projeto, a quantia será adicionada à receita planejada totalizada a partir de qualquer tarefa filho.</p> <p>A quantidade de receita fixa nas tarefas pode ser incluída em um Registro de cobrança do projeto.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Horas por Valor da Hora do Recurso</p> </td> 

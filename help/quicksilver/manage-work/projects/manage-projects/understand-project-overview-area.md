@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Você pode exibir ou editar as informações de um projeto acessando a área Vis
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -135,11 +135,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de condição</td> 
-      <td>Determina se o gerenciador define a Condição do projeto ou se o Workfront define. Para obter informações sobre a Condição do Projeto, consulte o artigo <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Visão Geral da Condição do Projeto e do Tipo de Condição</a>.</td> 
+      <td>Determina se o gerenciador define a Condição do projeto ou se o Workfront define. Para obter informações sobre a Condição do Projeto, consulte o artigo <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Visão Geral da Condição do Projeto e do Tipo de Condição</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Modo de cronograma</td> 
-      <td>Define como o projeto é agendado. Por exemplo, se o projeto está agendado a partir da Data inicial ou da Data de conclusão. </td> 
+      <td>Define como o projeto é agendado. Por exemplo, se o projeto está agendado a partir da Data inicial ou da Data de conclusão. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Data e hora de início planejadas</td> 
@@ -209,7 +209,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    | Cadastrado por | O nome do usuário que criou o projeto. |
    | Data da última atualização | A data e a hora em que o projeto foi atualizado pela última vez. |
    | Última atualização realizada por | O nome do usuário que atualizou o projeto pela última vez. |
-   | Modelo |   |
+   | Modelo |  |
 
 
 1. Se sua empresa adquiriu uma licença adicional para o Planejador de cenários do Adobe Workfront e o projeto tem informações publicadas de uma iniciativa vinculada, revise as seguintes informações da iniciativa na área Planejador de cenários:
@@ -236,15 +236,15 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      </tr> 
      <tr> 
       <td role="rowheader"><span>Data de Término da Iniciativa</span> </td> 
-      <td><span>O último dia do mês final da iniciativa, quando o projeto está vinculado a uma iniciativa. </span> </td> 
+      <td><span>O último dia do mês final da iniciativa, quando o projeto está vinculado a uma iniciativa. </span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span>Funções de Trabalho da Iniciativa em FTEs e Horas</span> </td> 
-      <td> <p>Informações sobre as funções de trabalho associadas e suas alocações de tempo para a iniciativa. Isso inclui:</p> 
+      <td> <p>Informações sobre as funções de trabalho associadas e suas alocações de tempo para a iniciativa. Isso inclui:</p> 
        <ul> 
         <li>Nome Função</li> 
         <li>Número de FTEs</li> 
-        <li> <p>Número de horas para todos os FTEs</p> <p>Você pode estimar a quantidade de funções de trabalho necessárias para seu plano ou iniciativa usando horas ou FTEs. </p> <p>Para obter mais informações, consulte <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Criar e editar planos no Planejador de cenários</a>. </p> </li> 
+        <li> <p>Número de horas para todos os FTEs</p> <p>Você pode estimar a quantidade de funções de trabalho necessárias para seu plano ou iniciativa usando horas ou FTEs. </p> <p>Para obter mais informações, consulte <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Criar e editar planos no Planejador de cenários</a>. </p> </li> 
        </ul> <p>Dica: <span>Se o número de funções de trabalho for diferente para cada mês na iniciativa, este campo exibirá a quantidade máxima de funções necessárias para a iniciativa. Por exemplo, se você precisar de um Consultor para janeiro e de dois para fevereiro, a coluna exibirá dois FTEs e o valor correspondente de horas para dois FTEs para todos os meses.</span> </p> </td> 
      </tr> 
     </tbody> 

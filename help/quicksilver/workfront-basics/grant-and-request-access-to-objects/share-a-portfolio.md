@@ -4,10 +4,10 @@ description: Você pode compartilhar um portfólio com outros usuários se tiver
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ As permissões são específicas a um item no Workfront e definem quais ações 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,8 +34,8 @@ As permissões são específicas a um item no Workfront e definem quais ações 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> 
    </td> 
   </tr> 
   <tr> 
@@ -146,19 +146,19 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
 
 | **Ações** | **Gerenciar** | **Exibir** |
 |---|---|---|
-| Editar detalhes do Portfolio | ✓ |   |
+| Editar detalhes do Portfolio | ✓ |   |
 | Exibir uma Portfolio | ✓ | ✓ |
-| Excluir uma Portfolio | ✓ |   |
-| Anexar um formulário personalizado | ✓ |   |
-| Editar um campo personalizado | ✓ |   |
-| Adicionar ou remover um programa&#42; | ✓ |   |
-| Adicionar ou remover um projeto&#42; | ✓ |   |
-| Aprovar um projeto | ✓ |   |
-| Otimização do Portfolio&#42; | ✓ |   |
+| Excluir uma Portfolio | ✓ |   |
+| Anexar um formulário personalizado | ✓ |   |
+| Editar um campo personalizado | ✓ |   |
+| Adicionar ou remover um programa&#42; | ✓ |   |
+| Adicionar ou remover um projeto&#42; | ✓ |   |
+| Aprovar um projeto | ✓ |   |
+| Otimização do Portfolio&#42; | ✓ |   |
 | Adicionar uma pasta de documentos&#42; | ✓ | ✓ |
 | Adicionar um documento | ✓ | ✓ |
 | Atualizações/comentários | ✓ | ✓ |
 | Compartilhar | ✓ | ✓ |
-| Compartilhar em todo o sistema |   | ✓ |
+| Compartilhar em todo o sistema |   | ✓ |
 
 *Essas permissões são controladas pelo nível de acesso e permissões em outros objetos, como projetos, programas e documentos.

@@ -7,10 +7,10 @@ description: Por padrão, a lista de projetos exibida no  [!DNL Adobe Workfront]
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ Por padrão, a lista de projetos exibida em [!DNL Adobe Workfront View] mostra o
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,4 +80,4 @@ Para exibir detalhes sobre um projeto em [!DNL Workfront View]:
 
 1. Deslize o dedo da direita para a esquerda para exibir o seguinte projeto na lista.\
    Os mesmos widgets são exibidos para cada projeto à medida que você rolar por eles.\
-   ![Imagem-1__6__copy.jpg](assets/image-1--6--copy-350x262.jpg) 
+   ![Imagem-1__6__copy.jpg](assets/image-1--6--copy-350x262.jpg)

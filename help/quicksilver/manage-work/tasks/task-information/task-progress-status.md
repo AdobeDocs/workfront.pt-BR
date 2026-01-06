@@ -7,7 +7,7 @@ description: O Adobe Workfront determina o Status de progresso de uma tarefa obs
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Os critérios a seguir determinam o Status do Progresso de uma tarefa:
  </thead> 
  <tbody> 
   <tr valign="top"> 
-   <td scope="col"> <p> </p> <p><strong>No Prazo</strong> </p> </td> 
+   <td scope="col"> <p> </p> <p><strong>No Prazo</strong> </p> </td> 
    <td scope="col"> <p>Uma tarefa é considerada <strong>No Prazo</strong> quando todas as Datas Planejadas correspondem às Datas Projetadas. Esse status de progresso também pode significar que o projeto está antes do cronograma e as datas projetadas podem ser anteriores às datas planejadas.</p> <p>Para obter mais informações sobre Datas Projetadas, consulte <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Visão Geral da Data de Conclusão Projetada para projetos, tarefas e problemas</a>.</p> <p>Para obter mais informações sobre a Data de Conclusão Planejada da tarefa, consulte os seguintes artigos:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Visão geral da data de início planejada da tarefa</a> </p> </li> 

@@ -6,10 +6,10 @@ description: Você pode designar Gerentes de recursos para um projeto para indic
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 1%
+source-wordcount: '731'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
    <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -162,9 +162,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 ## Designar Gerentes de Recursos para um modelo
 
-1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront.
-
-1. Clique em **Modelos**.
+{{step1-to-templates}}
 
 1. Siga um destes procedimentos:
 

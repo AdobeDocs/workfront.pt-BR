@@ -6,10 +6,10 @@ description: Você pode solicitar a aprovação de um projeto antes de começar 
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ Você pode solicitar um projeto ao adicionar um novo projeto nas seguintes área
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +46,7 @@ Você pode solicitar um projeto ao adicionar um novo projeto nas seguintes área
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licença do Adobe Workfront</p> </td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
    <p>Plano</p>
    </td> 
   </tr> 
@@ -101,7 +101,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Siga um destes procedimentos:
 
-   * Clique no **Ícone do** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![Linhas do menu principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Projetos** e expanda **Novo Projeto**.
+   * Clique no ícone **Menu Principal**![Linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo ou no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito, clique em **Projetos** e expanda **Novo Projeto**.
    * Vá para um portfólio e expanda **Novo projeto**.
    * Vá para um programa e expanda **Novo Projeto**.
    * Se você for um administrador de grupo, também poderá criar um projeto na seção Projetos de um grupo gerenciado. Para obter mais informações, consulte [Criar e modificar projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).

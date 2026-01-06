@@ -6,10 +6,10 @@ description: Você pode configurar um projeto para permitir que os usuários adi
 author: Becky
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 0%
 <!-- Audited: 4/2025 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
 Você pode configurar um projeto para permitir que os usuários adicionem problemas ao projeto por email. Você só poderá permitir que problemas sejam enviados por email para um projeto se ele for designado como uma Fila de solicitação. Para obter mais informações sobre como criar um projeto da Fila de solicitações, consulte [Criar uma Fila de solicitações](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +76,7 @@ As seguintes condições são necessárias para configurar um projeto e permitir
 >* O Workfront permite um email exclusivo por fila de solicitações em todos os clusters. Se optar por desativar a fila de solicitações, você manterá o endereço de email criado, desde que ele ainda esteja na caixa Endereço de email de entrada. Se optar por descontinuar o uso do email de entrada, você deverá excluí-lo do Campo Email de entrada para que ele possa estar disponível para uso futuro.
 >
 >* Se a fila de solicitações tiver vários tópicos da fila ou grupos de tópicos, o Workfront selecionará aleatoriamente o tópico da fila para o qual as solicitações enviadas por email serão direcionadas, tornando as solicitações enviadas por email difíceis de gerenciar.
->  &#x200B;>Recomendamos que o projeto configurado para receber solicitações por emails não tenha mais de um tópico de fila. Se as solicitações enviadas se destinam a recursos ou projetos diferentes, você deve direcioná-las ou movê-las manualmente após o envio.
+>Recomendamos que o projeto configurado para receber solicitações por emails não tenha mais de um tópico de fila. Se as solicitações enviadas se destinam a recursos ou projetos diferentes, você deve direcioná-las ou movê-las manualmente após o envio.
 
 1. Vá para o projeto que você deseja habilitar para receber problemas por email.
 1. Clique em **Detalhes da fila** no painel esquerdo.
@@ -94,7 +94,7 @@ As seguintes condições são necessárias para configurar um projeto e permitir
    >
    >* Como esse endereço de email deve ser exclusivo, ele pode não estar disponível no futuro se for excluído.
    <!--
-   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
+   >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in Workfront. Only emails created from this email address are added as issues.
    -->
 
 1. (Opcional) Selecione a opção **Encaminhar todos os problemas que não forem enviados por email** e digite um endereço de email de encaminhamento na caixa abaixo.

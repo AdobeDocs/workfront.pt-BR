@@ -7,10 +7,10 @@ description: Você pode remover resultados, atividades e projetos das metas nas 
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 0%
+source-wordcount: '646'
+ht-degree: 2%
 
 ---
 
@@ -40,7 +40,7 @@ Você pode remover o alinhamento entre metas removendo a conexão entre elas. Pa
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto">
 <col>
@@ -187,11 +187,9 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Clique no ícone **Menu Principal** ícone ![Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **Metas**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-   Isso abre a área Metas do Workfront e a Lista de metas é exibida por padrão.
+Isso abre a área Metas do Workfront e a Lista de metas é exibida por padrão.
 
 1. Clique no nome de uma meta da qual deseja remover resultados e atividades.
 
@@ -232,12 +230,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Clique no ícone **Menu principal** no canto superior direito e em **Metas**.
+{{step1-to-goals}}
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
-
-   Isso abre a área Metas do Workfront e a Lista de metas é exibida por padrão.
+Isso abre a área Metas do Workfront e a Lista de metas é exibida por padrão.
 
 1. Clique no nome de uma meta da qual deseja remover resultados e atividades.
 

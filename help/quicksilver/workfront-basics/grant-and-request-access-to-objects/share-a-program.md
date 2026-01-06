@@ -7,10 +7,10 @@ description: O administrador do Adobe Workfront pode conceder acesso para visual
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 4ae96f67b15838403ffce32317d871d6904d6d95
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ As permissões são específicas para cada item no Workfront e definem quais aç
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,8 +38,8 @@ As permissões são específicas para cada item no Workfront e definem quais aç
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> 
    </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
   Para obter mais informações sobre a hierarquia de objetos no Workfront, consulte [Entender objetos no Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* Você pode remover permissões herdadas do programa. Para obter mais informações sobre como remover permissões de objetos, consulte  [Remover permissões de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* Você pode remover permissões herdadas do programa. Para obter mais informações sobre como remover permissões de objetos, consulte   [Remover permissões de objetos](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Compartilhar um programa
 
@@ -155,18 +155,18 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
 
 | **Ações** | **Gerenciar** | **Exibir** |
 |---|---|---|
-| Editar detalhes do programa | ✓ |   |
+| Editar detalhes do programa | ✓ |   |
 | Exibir um programa | ✓ | ✓ |
-| Excluir um programa | ✓ |   |
-| Anexar um formulário personalizado | ✓ |   |
-| Editar um campo personalizado | ✓ |   |
-| Adicionar ou remover um projeto&#42; | ✓ |   |
-| Aprovar um projeto | ✓ |   |
+| Excluir um programa | ✓ |   |
+| Anexar um formulário personalizado | ✓ |   |
+| Editar um campo personalizado | ✓ |   |
+| Adicionar ou remover um projeto&#42; | ✓ |   |
+| Aprovar um projeto | ✓ |   |
 | Adicionar uma pasta de documentos&#42; | ✓ | ✓ |
 | Adicionar um documento | ✓ | ✓ |
 | Adicionar atualizações/comentários | ✓ | ✓ |
 | Compartilhar | ✓ | ✓ |
-| Compartilhar em todo o sistema |   | ✓ |
+| Compartilhar em todo o sistema |   | ✓ |
 
 *Essas permissões são controladas pelo nível de acesso e por permissões em outros objetos, como projetos.
 

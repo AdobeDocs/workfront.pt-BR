@@ -6,10 +6,10 @@ description: Você pode atualizar a ordem na qual os formulários personalizados
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Você pode atualizar a ordem na qual os formulários personalizados anexados a u
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 1. Vá para o objeto no qual deseja alterar a ordem dos formulários personalizados adicionados e, em seguida, comece a editar o objeto.
 
-   **Exemplo:** Por exemplo, para gerenciar os formulários personalizados de um projeto, vá para o projeto, clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon.png) e clique em **Editar**.
+   **Exemplo:** Por exemplo, para gerenciar os formulários personalizados de um projeto, vá para o projeto, clique no menu **** Mais![](assets/more-icon.png) e clique em **Editar**.
 
 1. Na seção **Forms personalizado** para projetos, tarefas e problemas, clique no ícone ![](assets/move-icon---dots.png) ao lado do nome de um formulário personalizado. Para todos os outros objetos, clique em **Gerenciar Forms**. Essa opção é exibida somente se pelo menos um formulário personalizado estiver anexado ao objeto.
 1. Arraste um formulário ![](assets/move-icon---dots.png) para um novo local na lista.
@@ -180,6 +180,6 @@ Para editar vários formulários personalizados ao editar objetos em massa:
 
    Ou
 
-   Clique em **Expandir Forms** para expandir todos os formulários ao mesmo tempo. 
+   Clique em **Expandir Forms** para expandir todos os formulários ao mesmo tempo.
 
 1. Clique em **Salvar alterações**.

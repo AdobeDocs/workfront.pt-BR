@@ -7,7 +7,7 @@ description: Determinados campos no Adobe Workfront limitam o número de caracte
 author: Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: e2a2a8cfe402c1f9f810ca360db4912d804b0a57
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 5%
@@ -44,7 +44,7 @@ Os administradores de grupo ou Workfront não podem modificar os limites de cara
    <p> 4.000 ao usar a API</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Atualizar</p> </td> 
+   <td> <p>Atualização</p> </td> 
    <td> <p>15.000</p> 
    <p> 4.000 ao usar a API</p></td> 
   </tr> 
@@ -57,11 +57,11 @@ Os administradores de grupo ou Workfront não podem modificar os limites de cara
    <td>4.000</td> 
   </tr> 
   <tr> 
-   <td> <p>Parágrafo de dados personalizado ou texto de linha única </p> </td> 
+   <td> <p>Parágrafo de dados personalizado ou texto de linha única  </p> </td> 
    <td> <p>2.000</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Campo de descrição no Report Builder</p> </td> 
+   <td> <p>Campo de descrição na Report Builder</p> </td> 
    <td> <p>512</p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Os administradores de grupo ou Workfront não podem modificar os limites de cara
    <td> <p>255</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Nome Objeto</p> </td> 
+   <td> <p>Nome do objeto</p> </td> 
    <td> <p>255</p> </td> 
   </tr> 
  </tbody> 

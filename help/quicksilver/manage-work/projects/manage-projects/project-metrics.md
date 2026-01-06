@@ -8,10 +8,10 @@ description: As métricas do projeto oferecem uma visualização do que está ac
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 0%
+source-wordcount: '1206'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ As métricas do projeto fornecem uma visualização geral em formato de gráfico
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,7 +89,7 @@ Para acessar a área Métricas no painel esquerdo de um projeto, você deve:
 
 As métricas do projeto oferecem uma visualização do que está acontecendo em um projeto, permitindo que você avalie rapidamente as necessidades e o status de um projeto.
 
-![](assets/project-metrics-full-screen-350x238.png)
+![Métricas do projeto](assets/project-metrics-full-screen-350x238.png)
 
 Na área Métricas, você pode ver o estado geral de um projeto, bem como:
 
@@ -111,7 +111,7 @@ Para saber mais sobre essas tarefas ou problemas, consulte [Exibir detalhes de m
 
 Os indicadores-chave de desempenho (KPIs) são exibidos na parte superior da área Métricas.
 
-![](assets/project-metrics-kpis-350x52.png)
+![Métricas do projeto](assets/project-metrics-kpis-350x52.png)
 
 Esses KPIs estão divididos nas seguintes categorias:
 
@@ -124,7 +124,7 @@ Esses KPIs estão divididos nas seguintes categorias:
 >[!TIP]
 >
 >Para exibir uma lista de itens de trabalho para um KPI específico, clique nesse KPI. Nessa lista, você pode clicar em um item de trabalho específico para exibir mais detalhes em uma nova guia.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Tarefas concluídas](assets/completed-tasks-dialog-350x75.png)\
 >Para obter mais informações, consulte [Exibir detalhes de métricas](#view-metrics-details).
 
 ## Gráfico de barras de tarefas ou problemas
@@ -133,23 +133,23 @@ No gráfico de barras que aparece abaixo dos KPIs do projeto, você pode verific
 
 Quando o status é selecionado neste gráfico, você pode exibir todos os status de tarefas ou problemas em um projeto. Cada status é agrupado em uma barra no gráfico. Todos os status de sistema padrão e personalizados são exibidos neste gráfico.
 
-![](assets/project-metrics-task-issue-by-status-350x120.png)
+![Problema de tarefa por status](assets/project-metrics-task-issue-by-status-350x120.png)
 
 Quando a prioridade é selecionada neste gráfico, você pode exibir todas as prioridades de tarefas ou problemas em um projeto.
 
-![](assets/project-metrics-task-issue-by-priority-350x121.png)
+![Tarefas e problemas por prioridade](assets/project-metrics-task-issue-by-priority-350x121.png)
 
 >[!TIP]
 >
 >Para exibir uma lista de itens de trabalho com um status ou prioridade específica, clique em uma barra no gráfico. Nessa lista, você pode clicar em um item de trabalho específico para exibir mais detalhes em uma nova guia.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Caixa Tarefas concluídas](assets/completed-tasks-dialog-350x75.png)\
 >Para obter mais informações, consulte [Exibir detalhes de métricas](#view-metrics-details).
 
 ## Gráfico de rosca
 
 O gráfico de rosca localizado abaixo dos KPIs do projeto permite que você verifique a proporção de itens de trabalho concluídos versus itens de trabalho incompletos em um projeto.
 
-![](assets/tasks-issues-by-complete-status-350x250.png)
+![Tarefas ou problemas por status concluído](assets/tasks-issues-by-complete-status-350x250.png)
 
 No menu suspenso acima do gráfico, você pode selecionar:
 
@@ -160,14 +160,14 @@ No menu suspenso acima do gráfico, você pode selecionar:
 >[!TIP]
 >
 >Para exibir uma lista de itens de trabalho concluídos ou incompletos, clique nessa seção no gráfico de rosca. Nessa lista, você pode clicar em um item de trabalho específico para exibir mais detalhes em uma nova guia.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Caixa Tarefas concluídas](assets/completed-tasks-dialog-350x75.png)\
 >Para obter mais informações, consulte [Exibir detalhes de métricas](#view-metrics-details).
 
 ## Gráfico de barras do responsável
 
 O gráfico de barras do responsável mostra o número de tarefas atribuídas a cada pessoa no projeto. Esse número varia de acordo com a categoria selecionada no menu suspenso.
 
-![](assets/tasks-issues-by-assignee-350x104.png)
+![Tarefas e problemas por destinatário](assets/tasks-issues-by-assignee-350x104.png)
 
 Você pode optar por verificar as atribuições de tarefas de um projeto nas seguintes categorias:
 
@@ -180,7 +180,7 @@ Você pode optar por verificar as atribuições de tarefas de um projeto nas seg
 >[!TIP]
 >
 >Para exibir uma lista de itens de trabalho na categoria selecionada que são atribuídos a um usuário específico, clique na barra ao lado do nome do usuário no gráfico. Nessa lista, você pode clicar em um item de trabalho específico para exibir mais detalhes em uma nova guia.\
->![](assets/completed-tasks-dialog-350x75.png)\
+>![Caixa Tarefas concluídas](assets/completed-tasks-dialog-350x75.png)\
 >Para obter mais informações, consulte [Exibir detalhes de métricas](#view-metrics-details).
 
 ## Exibir detalhes de métricas {#view-metrics-details}
@@ -190,9 +190,9 @@ Você pode interagir com os gráficos na área Métricas para analisar diferente
 1. Vá para o projeto para o qual deseja ver as métricas.
 1. No painel esquerdo, clique em **Métricas**.\
    Os gráficos na área Métricas exibem informações para tarefas por padrão.\
-   ![](assets/metrics-section-350x298.png)
+   ![Seção de métricas](assets/metrics-section-350x298.png)
 
-1. (Condicional) Se uma seta suspensa for exibida em um gráfico, clique no ícone **da** seta suspensa![](assets/dropdown-arrow.png) no gráfico e selecione a opção desejada no menu.\
+1. (Condicional) Se uma seta suspensa for exibida em um gráfico, clique no ícone **Seta suspensa** ![Seta suspensa](assets/dropdown-arrow.png) no gráfico e selecione a opção desejada no menu.\
    Para obter informações sobre as opções exibidas nos menus de cada gráfico, consulte a seção relevante acima.
 
 1. (Opcional) Para examinar mais detalhadamente as tarefas ou problemas de qualquer métrica na página, faça o seguinte:
@@ -201,7 +201,7 @@ Você pode interagir com os gráficos na área Métricas para analisar diferente
 
       Uma lista de tarefas ou problemas é exibida.
 
-      ![](assets/completed-tasks-dialog-350x75.png)
+      ![Caixa Tarefas concluídas](assets/completed-tasks-dialog-350x75.png)
 
    1. Use as setas na parte inferior da lista para localizar a tarefa ou o problema que deseja examinar.
 
@@ -209,13 +209,13 @@ Você pode interagir com os gráficos na área Métricas para analisar diferente
 
       Selecione um número específico para exibir tarefas ou problemas em uma página específica.
 
-      ![](assets/pagination-300x152.png)
+      ![Paginação](assets/pagination-300x152.png)
 
    1. Selecione uma tarefa ou problema para ver mais detalhes.
 
       A tarefa ou problema é aberto em uma nova guia.
 
-1. (Opcional) Para exportar o painel de métricas do projeto para um arquivo .png, clique no ícone **de** Exportar![](assets/export.png) e selecione **Exportar como PNG** no menu suspenso.
+1. (Opcional) Para exportar o painel de métricas do projeto para um arquivo .png, clique no **ícone Exportar** ![ícone Exportar](assets/export.png) e selecione **Exportar como PNG** no menu suspenso.
 
    >[!TIP]
    >
