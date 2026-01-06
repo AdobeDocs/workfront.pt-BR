@@ -1,35 +1,37 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Localizar solicitações enviadas
-description: Saiba mais sobre as áreas do Adobe Workfront em que você pode localizar solicitações enviadas por você ou por outra pessoa, ou solicitações que você nunca enviou e que foram salvas como rascunhos.
+title: Exibir solicitações enviadas
+description: Saiba mais sobre as áreas do Adobe Workfront em que você pode visualizar solicitações enviadas por você ou por outra pessoa, ou solicitações que você nunca enviou e que foram salvas como rascunhos.
 author: Becky
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 9ea9f5741794641409d47ada006e3b9b78025cbd
+source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 2%
+source-wordcount: '1406'
+ht-degree: 3%
 
 ---
 
-# Localizar solicitações enviadas
+# Visualizar solicitações enviadas
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
-Você pode localizar os seguintes tipos de solicitações que você ou outra pessoa submeteu ou as solicitações que você iniciou, mas que nunca terminou de submeter. Você pode localizar essas solicitações nas seguintes áreas do Adobe Workfront:
+Você pode exibir as solicitações que você ou outra pessoa submeteu, ou as solicitações que você iniciou, mas que você nunca terminou de submeter. Você pode localizar essas solicitações nas seguintes áreas do Adobe Workfront:
 
-* A guia **Workfront** da área Solicitações no Workfront: Localize as solicitações enviadas às filas de solicitações do Workfront nas seguintes seções:
+* A guia **Workfront** da área Solicitações do Workfront: Exiba solicitações enviadas às filas de solicitações do Workfront nas seguintes seções:
    * **Seção enviada**: todas as solicitações que você ou outra pessoa enviou e que você tem acesso a pelo menos Exibir.
    * **Seção de rascunho**: todas as solicitações que você iniciou, mas nunca terminou e nunca enviou. Para obter mais informações sobre rascunhos de solicitações, consulte [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-  >[!TIP]
+  >[!NOTE]
   >
-  >Você só pode exibir seus próprios rascunhos de solicitações.
+  >* Você só pode exibir seus próprios rascunhos de solicitações.
+  >* <span class="preview">Na nova experiência de solicitação, rascunhos e solicitações enviadas são encontrados na mesma lista. </span>
+  >* <span class="preview">Os rascunhos criados na experiência herdada não aparecem na nova experiência de Solicitação.</span>
 
-* A guia **Planning** da área Solicitações no Workfront: Localize as solicitações enviadas aos formulários de solicitação do Workfront Planning. Sua organização deve comprar um pacote do Workfront Planning. Para obter informações, consulte os seguintes artigos:
+* A guia **Planning** da área Solicitações no Workfront: Exibir solicitações enviadas aos formulários de solicitação do Workfront Planning. Sua organização deve comprar um pacote do Workfront Planning. Para obter informações, consulte os seguintes artigos:
 
    * [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
    * [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md)
@@ -72,18 +74,18 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Localizar solicitações enviadas na área Solicitações
+## Exibir solicitações enviadas na área Solicitações
 
-A localização de solicitações enviadas difere de acordo com o uso da experiência de solicitação nova ou herdada.
+A exibição de solicitações enviadas é diferente dependendo se você está usando a experiência de solicitação nova ou herdada.
 
-* [Localizar solicitações enviadas na nova experiência de solicitação](#locate-submitted-requests-in-the-new-requesting-experience)
-* [Localizar solicitações enviadas na experiência herdada de solicitação](#locate-submitted-requests-in-the-legacy-requesting-experience)
+* [Exibir solicitações enviadas na nova experiência de solicitação](#view-submitted-requests-in-the-new-requesting-experience)
+* [Exibir solicitações enviadas na experiência herdada de solicitação](#view-submitted-requests-in-the-legacy-requesting-experience)
 
-### Localizar solicitações enviadas na nova experiência de solicitação
+### Exibir solicitações enviadas na nova experiência de solicitação
 
-Você pode localizar solicitações enviadas na área Solicitações, <span class="preview">que inclui links para objetos criados por essas solicitações.</span>
+Você pode exibir solicitações enviadas na área Solicitações, <span class="preview">que inclui links para objetos criados por essas solicitações.</span>
 
-Para localizar solicitações que você ou outros usuários enviaram na nova experiência de solicitação:
+Para exibir solicitações que você ou outros usuários enviaram na nova experiência de solicitação:
 
 {{step1-to-requests}}
 
@@ -92,7 +94,7 @@ Para localizar solicitações que você ou outros usuários enviaram na nova exp
    A lista Solicitações é exibida.
 
 1. (Opcional) Para pesquisar uma solicitação, comece digitando na barra de pesquisa no canto superior direito da lista. Os resultados da pesquisa são exibidos à medida que você digita.
-1. (Opcional) Clique em **Filtros** e comece a adicionar condições para as solicitações que você deseja localizar.
+1. (Opcional) Clique em **Filtros** e comece a adicionar condições para as solicitações que deseja exibir.
 
    Você pode filtrar pelos seguintes campos:
 
@@ -105,18 +107,26 @@ Para localizar solicitações que você ou outros usuários enviaram na nova exp
 
    Você pode ter vários filtros unidos por **And** ou **Or**.
 A lista de solicitações é filtrada automaticamente ao adicionar as condições de filtro.
-1. (Opcional) Use as exibições para se concentrar nas solicitações que você deseja localizar.
+1. (Opcional) Use as exibições para se concentrar nas solicitações que você deseja exibir.
 
    Para obter instruções, consulte [Criar ou editar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+1. (Opcional) Verifique o status de uma solicitação verificando a coluna Status. Os seguintes status estão disponíveis na nova experiência de solicitação:
+
+   * Rascunho: Esta solicitação ainda não foi enviada.
+   * Revisão pendente
+   * Em revisão
+   * Rejeitado
+   * Em andamento
+   * Completo
 
 >[!NOTE]
 >
 >* Se você tiver o Workfront Planning, suas solicitações do Workfront e do Planning serão exibidas na mesma lista. As solicitações Workfront exibem o valor `Issue` na coluna Tipo de objeto.
 >* A lista Solicitações é exibida com 50 solicitações exibidas. Para visualizar mais solicitações, navegue até a parte inferior da lista.
 
-### Localizar solicitações enviadas na experiência herdada de solicitação
+### Exibir solicitações enviadas na experiência herdada de solicitação
 
-Para localizar solicitações que você ou outros usuários enviaram na experiência de solicitação herdada:
+Para exibir solicitações que você ou outros usuários enviaram na experiência de solicitação herdada:
 
 {{step1-to-requests}}
 
@@ -253,5 +263,12 @@ Para localizar solicitações que você ou outros usuários enviaram na experiê
    ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
+
+
+1. (Opcional) Verifique o status de uma solicitação verificando a coluna Status. Os seguintes status estão disponíveis na nova experiência de solicitação:
+
+   * Rascunho: Esta solicitação ainda não foi enviada.
+   * Em andamento
+   * Completo
 
 
