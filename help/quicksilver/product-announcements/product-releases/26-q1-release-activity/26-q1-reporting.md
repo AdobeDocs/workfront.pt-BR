@@ -4,9 +4,9 @@ description: Melhorias na geração de relatórios no primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bb07096ce69e7d52c9332b6f9d230440a03c5f59
+source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -151,16 +151,6 @@ As seguintes opções de campo estão disponíveis como alternativas:
 * Outros grupos: ID
 * Outras Funções: ID
 * Outras equipes: ID
-
-## Melhoria na exibição da contagem de agrupamento nos Painéis do Canvas
-
->[!NOTE]
->
->Visualização: 6 de novembro de 2025
->Versão rápida de produção: 13 de novembro de 2025
->Produção para todos: 15 de janeiro de 2026
-
-Quando um relatório de tabela tem várias páginas de resultados e a tabela está configurada com agrupamentos, a tabela agora exibe o valor do registro da página atual e a contagem geral do registro de todas as páginas. Por exemplo, se o seu relatório de tabela tem 7 agrupamentos e a primeira página mostra 3, a tabela exibirá 3 de 7.
 
 
 ## Novas medidas de proteção para melhorar os tempos de carregamento nos Painéis do Canvas
