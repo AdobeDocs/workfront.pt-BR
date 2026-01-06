@@ -4,9 +4,9 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 353b71e59fc2dc2e1f806a560f04076586a32424
+source-git-commit: b9016bc9a5609424b6cd6cdec67ac4d696e7ab45
 workflow-type: tm+mt
-source-wordcount: '2949'
+source-wordcount: '2880'
 ht-degree: 4%
 
 ---
@@ -333,16 +333,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>sexta-feira, 6 de novembro de 2025</td>
         <td>sexta-feira, 13 de novembro de 2025</td>
         <td>sexta-feira, 15 de janeiro de 2026</td>
-    </tr>   
-       <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Exibição aprimorada da contagem de agrupamentos nos Painéis da Tela</a>
-            <p>Quando um relatório de tabela tem várias páginas de resultados e a tabela está configurada com agrupamentos, a tabela agora exibe o valor do registro da página atual e a contagem geral do registro de todas as páginas. Por exemplo, se o seu relatório de tabela tem 7 agrupamentos e a primeira página mostra 3, a tabela exibirá 3 de 7.</p>
-        </td>
-       <td>sexta-feira, 6 de novembro de 2025</td>
-        <td>sexta-feira, 13 de novembro de 2025</td>
-        <td>sexta-feira, 15 de janeiro de 2026</td>
-    </tr>   
+    </tr>    
        <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-reporting.md" class="MCXref xref" xrefformat="{para}">Novas medidas de proteção para melhorar os tempos de carregamento nos Painéis do Canvas</a>
@@ -594,12 +585,12 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
