@@ -4,9 +4,9 @@ description: Aprimoramentos do administrador no primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e9e7b76dc8e4b9d1cc91987d0ea63b5e2ee58224
+source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -73,8 +73,6 @@ Para oferecer mais consistência com outras áreas de Configuração, como o des
 
 Para obter mais informações, consulte [Criar e gerenciar modelos de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-
-
 ## Gerenciamento de campo aprimorado com sinalizador Ativo em campos personalizados
 
 >[!NOTE]
@@ -89,6 +87,10 @@ Se você marcar um campo como inativo:
 
 * Ele é excluído de relatórios, filtros, exibições ou outros locais no Workfront onde você pode adicionar um campo personalizado
 * Não está disponível na biblioteca de campos para adicionar a outros formulários personalizados
+
+>[!NOTE]
+>
+>A exclusão de relatórios, filtros, exibições e agrupamentos ocorre depois que o campo se torna inativo. Os elementos de relatório existentes que usam o campo não são alterados ou removidos quando o campo é marcado como inativo.
 
 Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
