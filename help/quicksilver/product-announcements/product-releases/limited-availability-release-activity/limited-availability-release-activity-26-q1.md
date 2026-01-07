@@ -8,9 +8,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 2e75f6aaba089a91a2306ad06a0f0d79a7524f75
+source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -67,13 +67,13 @@ O KPI de Horas planejadas na tela Atribuições avançadas não é mais editáve
 
 O campo **Data da Taxa de Câmbio** na área Detalhes do Projeto > Finanças agora fica oculto quando a caixa de seleção **Usar taxas de câmbio efetivas por data do sistema** não está marcada. Anteriormente, ao editar um projeto, o campo de data era exibido nos detalhes do projeto, mesmo quando as taxas de câmbio efetivas não estavam habilitadas.
 
-<!--### Maintenance Updates week of January 4-10, 2026
+### Atualizações de manutenção semana de 4 a 10 de janeiro de 2026
 
-**Title**
+**As taxas de funções de trabalho agora permitem lacunas nas datas de efetivação**
 
-text
+As datas de efetivação nas taxas de função de trabalho agora permitem lacunas, embora datas sobrepostas não sejam permitidas. Durante uma lacuna, outras áreas da hierarquia de taxas de faturamento são usadas para determinar a taxa de faturamento, com base no tipo de receita de uma tarefa.
 
-### Maintenance Updates week of January 11-17, 2026
+<!--### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 
