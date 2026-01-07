@@ -181,7 +181,7 @@ Para permitir aplicativos personalizados no menu principal do Workfront:
 
 1. Adicione o seguinte trecho de código:
 
-   ![trecho de código ](assets/7-extension-registration-step1-from-sam.png)
+   ![trecho de código &#x200B;](assets/7-extension-registration-step1-from-sam.png)
 
    Este exemplo mostra um Item de menu principal. Você deve atualizar a ID, o rótulo, o ícone e o URL para os nomes corretos do aplicativo. Ao adicionar vários itens, verifique se a ID é exclusiva.
 
