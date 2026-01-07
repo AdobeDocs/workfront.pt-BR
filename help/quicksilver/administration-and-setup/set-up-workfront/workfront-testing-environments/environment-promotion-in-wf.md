@@ -153,7 +153,7 @@ Esses status incluem o seguinte:
   </tr> 
   <tr> 
    <td>FALHA_NA_MONTAGEM</td> 
-   <td><p>O pacote promocional será colocado automaticamente nesse status se a etapa MONTAGEM falhar.</p><p>Para retornar o pacote ao estágio MONTAGEM, você deve acionar o processo de montagem novamente.</p><p>Para obter detalhes sobre como montar um pacote, consulte a seção <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Editar ou montar um pacote existente</a> no artigo Criar ou editar um pacote de promoção de ambiente.</td> 
+   <td><p>O pacote promocional será colocado automaticamente nesse status se a etapa MONTAGEM falhar.</p><p>Para retornar o pacote ao estágio MONTAGEM, você deve acionar o processo de montagem novamente.</p><p>Para obter detalhes sobre como montar um pacote, consulte a seção <a href="https://experienceleague.adobe.com/pt-br/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Editar ou montar um pacote existente</a> no artigo Criar ou editar um pacote de promoção de ambiente.</td> 
   </tr> 
   </tbody> 
 </table>
