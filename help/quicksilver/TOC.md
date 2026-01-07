@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 8cbaa087be44ffd8142bd864e3fb47ffef992372
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '13645'
+source-wordcount: '13638'
 ht-degree: 2%
 
 ---
@@ -1437,7 +1437,6 @@ ht-degree: 2%
          * [Modificar atribuições de usuário para vários problemas em uma lista](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [Atualizar automaticamente os status de problemas de Aguardando feedback para Em andamento](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
    * O Gráfico de Gantt {#the-gantt-chart}
-      * O Gráfico de Gantt {#the-gantt-chart}
       * [O Gráfico de Gantt](manage-work/gantt-chart/the-gantt-chart.md)
       * Visão geral do Gráfico de Gantt {#gantt-chart-overview}
          * [Visão geral do Gráfico de Gantt](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
@@ -2192,7 +2191,6 @@ ht-degree: 2%
    * [Integrações do Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
    * [Visão geral das integrações integradas do Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Métodos de integração do Adobe Workfront](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * Revisar e aprovar integrações {#review-approval-integrations}
    * Adobe Workfront para Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront para Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Instalar o plug-in do Adobe Workfront para aplicativos do Creative Cloud {#install-wf-cc}

@@ -6,10 +6,10 @@ description: Quando tarefas de trabalho e problemas são atribuídos a você, el
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 0%
+source-wordcount: '790'
+ht-degree: 2%
 
 ---
 
@@ -18,11 +18,9 @@ ht-degree: 0%
 
 Quando tarefas de trabalho e problemas são atribuídos a você, eles são listados no widget Meu trabalho, Minhas tarefas e Meus problemas.  Você pode visualizar, trabalhar ou remover itens de trabalho e solicitações.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,8 +35,8 @@ Quando tarefas de trabalho e problemas são atribuídos a você, eles são lista
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença</strong></td> 
    <td>
-   <p>Standard</p>
-    <p>Trabalhar ou superior</p> </td> 
+   <p>Padrão</p>
+    <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 

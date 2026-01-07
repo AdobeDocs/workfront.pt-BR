@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1ef57b73a77d0c622b3dbd57057c51d0ccbad7db
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '9457'
+source-wordcount: '9443'
 ht-degree: 0%
 
 ---
@@ -32,10 +32,10 @@ Os seguintes objetos agora têm uma caixa de diálogo atualizada ao excluir um i
 
 * Níveis de acesso
 * Empresas
-* Tipo de Despesa
+* Tipo de despesa
 * Perfis de grupo/planilha de horas
 * Tipo de hora
-* Tipo de Risco
+* Tipo de risco
 * Agendar
 * Perfil da Planilha de Horas
 
@@ -1470,14 +1470,14 @@ Atualizamos a aparência de vários relatórios para corresponder ao design de o
 Esta atualização inclui alterações visuais nas listas e barras de ferramentas dos relatórios a seguir. Nenhuma funcionalidade foi alterada.
 
 * Empresa
-* Tipo de Despesa
+* Tipo de despesa
 * Grupo
 * Tipo de hora
-* Entrada no Relatório
+* Lançamento documentado
 * Recurso Não Mão-de-Obra (disponível somente para clientes específicos)
 * Categoria de Recurso Não Mão-de-Obra (disponível somente para clientes específicos)
 * Tópico da fila
-* Tipo de Risco
+* Tipo de risco
 * Perfil da Planilha de Horas
 * Delegação de usuários
 
@@ -1563,9 +1563,13 @@ Adicionamos um novo botão Editar modo de texto e um modal de edição às segui
 
 +++
 
-### Atualizações e comentários
+<!--
+### Updates and Comments
 
-+++Expanda para visualizar as atualizações da interface de Atualizações e Comentários feitas no segundo trimestre
++++Expand to view Updates and Comments interface updates made in Q2
+
++++
+-->
 
 ### Atualização de interface para as opções de menu Mais para comentários
 

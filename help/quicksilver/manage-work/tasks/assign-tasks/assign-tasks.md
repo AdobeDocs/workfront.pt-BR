@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '2156'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -58,7 +58,7 @@ Além deste artigo, recomendamos que você leia os seguintes artigos para obter 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,8 +70,8 @@ Além deste artigo, recomendamos que você leia os seguintes artigos para obter 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
-   <p>Trabalhar ou superior</p>
+   <td> <p>Padrão</p>
+   <p>Trabalho ou maior</p>
    </td> 
   </tr> 
   <tr> 
@@ -191,7 +191,7 @@ Para atribuir tarefas em uma lista:
 1. (Opcional) Clique no menu suspenso **Salvamento automático** e selecione uma das seguintes opções:
 
    | Opção | Descrição da opção |
-   |---|---| 
+   |---|---|
    | Salvamento automático | As alterações feitas nas tarefas são salvas automaticamente e não podem ser revertidas |
    | Salvamento manual | Você deve salvar manualmente as alterações. Você pode reverter suas alterações antes de salvá-las. |
    | Planejamento da linha do tempo | Você deve salvar manualmente as alterações. Você pode reverter suas alterações antes de salvá-las. Salvar as alterações e todas as dependências do projeto é mais rápido do que selecionar Salvar manualmente. |

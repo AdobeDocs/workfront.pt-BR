@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 2%
@@ -94,8 +94,8 @@ Como a promoção do ambiente lida com a configuração de objetos, os objetos t
 | Caminho de Etapas (MPATH) | Caminho de Etapas<br>Etapa |
 | Perfil da planilha de horas (TSPRO) | Perfil de Planilha de Horas<br>Tipo de Hora |
 | Tipo de Hora (HOURT) | Tipo de hora |
-| Tipo de Despesa (EXPTYP) | Tipo de Despesa |
-| Tipo de Risco (RSKTYP) | Tipo de Risco |
+| Tipo de Despesa (EXPTYP) | Tipo de despesa |
+| Tipo de Risco (RSKTYP) | Tipo de risco |
 | Conjunto de Recursos (RSPL) | Conjunto de Recursos |
 | Nível de acesso (ACSLVL) | Nível de acesso |
 | Cartão de tarifa (RTCRD) | Cartão de tarifa |
@@ -153,7 +153,7 @@ Esses status incluem o seguinte:
   </tr> 
   <tr> 
    <td>FALHA_NA_MONTAGEM</td> 
-   <td><p>O pacote promocional será colocado automaticamente nesse status se a etapa MONTAGEM falhar.</p><p>Para retornar o pacote ao estágio MONTAGEM, você deve acionar o processo de montagem novamente.</p><p>Para obter detalhes sobre como montar um pacote, consulte a seção <a href="https://experienceleague.adobe.com/pt-br/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Editar ou montar um pacote existente</a> no artigo Criar ou editar um pacote de promoção de ambiente.</td> 
+   <td><p>O pacote promocional será colocado automaticamente nesse status se a etapa MONTAGEM falhar.</p><p>Para retornar o pacote ao estágio MONTAGEM, você deve acionar o processo de montagem novamente.</p><p>Para obter detalhes sobre como montar um pacote, consulte a seção <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Editar ou montar um pacote existente</a> no artigo Criar ou editar um pacote de promoção de ambiente.</td> 
   </tr> 
   </tbody> 
 </table>

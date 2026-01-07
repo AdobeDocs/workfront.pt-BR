@@ -6,10 +6,10 @@ description: Você pode marcar uma tarefa ou problema como Concluído se for o d
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 0%
+source-wordcount: '796'
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,9 @@ Você pode marcar uma tarefa ou problema como Concluído se for o designado da t
 >
 >Você não verá o botão [!UICONTROL Concluído], a menos que seja um dos recursos atribuídos à tarefa ou ao problema.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
-
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,8 +38,8 @@ Você pode marcar uma tarefa ou problema como Concluído se for o designado da t
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença</strong></td> 
    <td> 
-   <p>Standard</p>
-   <p>Trabalhar ou superior</p> </td> 
+   <p>Padrão</p>
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
