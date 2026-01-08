@@ -4,9 +4,9 @@ description: Aprimoramentos do administrador no primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a49c8f2ad345f0ea8cdfd38ad79c6c0a5f636e95
+source-git-commit: 5a1af10b7e3e59eb203c0507aeea15db5689e24b
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,11 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 >[!NOTE]
 >
+>Este recurso está temporariamente indisponível no ambiente de Visualização
 >Visualização: 2 de dezembro de 2025
 >Lançamento rápido de produção: 14 de janeiro de 2026
 >Produção para todos: 15 de janeiro de 2026
+
 
 Agora você pode ativar ou desativar as Prioridades de usuários específicos no Modelo de Layout. Se as prioridades da sua organização já estavam desativadas, elas permanecerão desativadas no modelo de layout com essa alteração.
 
