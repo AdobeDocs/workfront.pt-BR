@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: 4fdfa1107034a48e149a5414475fbc0d7ce97564
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 4%
+source-wordcount: '698'
+ht-degree: 6%
 
 ---
 
@@ -37,7 +37,7 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +50,7 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   </tr> 
@@ -78,6 +78,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      >
      >Por padrão, o ícone Início no Menu principal exibe a área Minhas atualizações para usuários com licença de revisão (no plano de licença atual), a menos que eles tenham um modelo de layout associado ao seu perfil que inclua a área Minhas atualizações no Menu principal, além da área Início.
 
+
+   * <span class="preview">Prioridades</span>
    * Portfólios
    * Programas
    * Projetos
