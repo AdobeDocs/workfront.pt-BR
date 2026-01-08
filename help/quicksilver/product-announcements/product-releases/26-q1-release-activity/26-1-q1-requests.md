@@ -4,9 +4,9 @@ description: Melhorias nas solicitações do primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 >Produção para todos: 15 de janeiro de 2026
 
 Para facilitar o acesso ao objeto criado por uma solicitação específica, adicionamos links à coluna Objeto criado. Agora, você pode clicar no link desta coluna para ser levado diretamente para a página do objeto criado.
+
+Esse link só está disponível quando a própria solicitação criou um objeto. Se uma solicitação for convertida em um projeto ou outro objeto, um link para esse objeto convertido não estará disponível na lista de solicitações na nova experiência de solicitação.
 
 Anteriormente, essa coluna continha somente o nome do objeto, e não seu link.
 
