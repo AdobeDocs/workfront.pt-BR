@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f6e0329ec63038b33006325701007c564c4126cc
+source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 1%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -25,13 +25,17 @@ Também é possível editar as propriedades de um campo personalizado, quebra de
 
 <span class="preview">Definir um campo personalizado como Inativo o exclui dos relatórios, filtros e modos de exibição, e o campo não está mais disponível na biblioteca de campos de formulários personalizados. Todos os novos campos são definidos como Ativo por padrão. </span>
 
+>[!NOTE]
+>
+>A exclusão de relatórios, filtros, exibições e agrupamentos ocorre depois que o campo se torna inativo. Os elementos de relatório existentes que usam o campo não são alterados ou removidos quando o campo é marcado como inativo.
+
 Se você remover um campo personalizado de um formulário personalizado, ele ainda existirá em todos os outros formulários aos quais foi adicionado e você poderá editá-lo em um formulário ou na área Campos. Para obter informações sobre como excluir um campo, consulte [Excluir um campo ou widget personalizado do sistema](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 
 Para obter informações sobre campos e widgets personalizados em formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +47,7 @@ Para obter informações sobre campos e widgets personalizados em formulários p
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   <tr> 
