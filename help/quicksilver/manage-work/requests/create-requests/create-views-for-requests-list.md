@@ -5,10 +5,10 @@ title: Criar e gerenciar exibições na área Solicitações
 description: Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações.
 author: Becky
 feature: Work Management
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 2%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -18,11 +18,12 @@ ht-degree: 2%
 
 Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações. Essas exibições incluem filtros e organização de colunas.
 
-As exibições podem ser criadas e gerenciadas na área Solicitações do Workfront e no widget Minhas solicitações na Página inicial. As configurações de exibição são preservadas entre a área Solicitações e o widget.
+As exibições podem ser criadas e gerenciadas na área Solicitações do Workfront.
 
 >[!IMPORTANT]
 >
->Essa funcionalidade está disponível somente na nova experiência de solicitação.
+>* Essa funcionalidade está disponível somente na nova experiência de solicitação.
+>* As configurações de exibição não estão disponíveis no widget Minhas solicitações na Página inicial.
 
 ## Requisitos de acesso
 
@@ -61,21 +62,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Criar uma visualização na área Solicitações
 
-Você pode criar uma visualização na área Solicitações do Workfront ou no widget Minhas solicitações na Página inicial.
+Você pode criar uma visualização na área Solicitações do Workfront,.
 
 1. Para acessar a lista Solicitações:
 
    {{step1-to-requests}}
 
-1. Para acessar o widget Minhas solicitações na Página inicial:
-
-   {{step1-to-home}}
-
-   1. Localize o widget Minhas solicitações.
-
-      Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Na lista Solicitações ou no widget Minhas solicitações, clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e selecione **Nova exibição**.
+1. Na lista Solicitações, clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e selecione **Nova exibição**.
 
    ![Nova exibição](assets/create-new-view.png)
 
@@ -89,16 +82,7 @@ Você pode criar uma visualização na área Solicitações do Workfront ou no w
 1. Para acessar a lista Solicitações:
 
    {{step1-to-requests}}
-
-1. Para acessar o widget Minhas solicitações na Página inicial:
-
-   {{step1-to-home}}
-
-   1. Localize o widget Minhas solicitações.
-
-      Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Na lista Solicitações ou no widget Minhas solicitações, localize a exibição que você deseja editar.
+1. Na lista Solicitações, localize a exibição que deseja editar.
 
 1. (Opcional) Para renomear uma exibição, clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e clique no menu de três pontos ao lado da exibição, selecione **Renomear** e digite o novo nome da exibição.
 1. Clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e selecione o modo de exibição que deseja editar.
@@ -156,15 +140,7 @@ Você pode compartilhar visualizações criadas com outros usuários, equipes ou
 
    {{step1-to-requests}}
 
-1. Para acessar o widget Minhas solicitações na Página inicial:
-
-   {{step1-to-home}}
-
-   1. Localize o widget Minhas solicitações.
-
-      Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Na lista Solicitações ou no widget Minhas solicitações, localize a exibição que você deseja compartilhar.
+1. Na lista Solicitações, localize a exibição que você deseja compartilhar.
 1. Passe o mouse sobre a exibição que deseja compartilhar e clique no menu de três pontos quando ele aparecer.
 1. Selecione **Compartilhar**.
 1. Na caixa de diálogo que é aberta, digite os nomes dos usuários, equipes ou grupos com os quais deseja compartilhar a exibição e selecione-os na lista quando eles forem exibidos.
