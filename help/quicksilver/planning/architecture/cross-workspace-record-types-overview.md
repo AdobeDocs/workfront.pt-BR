@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 40891b0e960e38c4fca55eec428a4e3a6397b316
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,23 @@ Você pode ativar recursos entre espaços de trabalho para um tipo de registro n
 
 >[!IMPORTANT]
 >
->Há requisitos de pacote aprimorados do Workfront para habilitar recursos entre espaços de trabalho para tipos de registro em seu sistema. Para obter informações, consulte [Visão geral sobre acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Sua organização deve comprar os seguintes pacotes para habilitar recursos entre espaços de trabalho para tipos de registro:
+>
+>* Para configurar tipos de registro conectáveis:
+>
+>   * Qualquer pacote do Workfront e qualquer pacote do Planning
+>
+>     Ou
+>
+>   * Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate
+>* <span class="preview">Para configurar tipos de registros globais:</span>
+>  * <span class="preview">Qualquer pacote do Workfront e um pacote do Planning Plus</span>
+>     
+>    Ou
+>
+>  * <span class="preview">Qualquer Fluxo de Trabalho e um pacote do Planning Prime ou Ultimate</span>
+>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront.
+>Para obter informações, consulte [Visão geral sobre acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
 
 A seguir estão os recursos entre espaços de trabalho dos tipos de registro:
@@ -45,7 +61,7 @@ Os tipos de registro global podem ser adicionados a vários espaços de trabalho
 
 Ao implementar o Workfront Planning para uma organização de várias equipes com workflows comuns, talvez seja necessário definir uma estrutura coesa e metadados para os principais tipos de registro (como Campanhas ou Materiais de entrega) que podem ser adicionados aos espaços de trabalho de cada equipe para capturar e gerenciar o trabalho.
 
-Além disso, pode ser necessário que o trabalho de cada equipe atinja um nível central.
+Você também pode precisar do trabalho de cada equipe para acumular-se em um nível central.
 
 Nesse fluxo de trabalho, você pode garantir que as equipes capturem seu trabalho de forma consistente ao desbloquear a visibilidade entre equipes, sem a necessidade de adicionar tudo a um espaço de trabalho, ou todos na organização a cada espaço de trabalho. Você pode usar tipos de registro global para fazer isso.
 
