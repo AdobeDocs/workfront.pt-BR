@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f2c3abc4e47e004faf7ce2a5e7a3bf4edfdaa566
+source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 5%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Também é possível editar as propriedades de um campo personalizado, quebra de
 
 >[!NOTE]
 >
->A exclusão de relatórios, filtros, exibições e agrupamentos ocorre depois que o campo se torna inativo. Os elementos de relatório existentes que usam o campo não são alterados ou removidos quando o campo é marcado como inativo.
+>Marcar um campo existente como inativo o torna indisponível para uso em elementos de relatórios e formulários personalizados a partir desse ponto. Se o campo inativo for usado atualmente em um relatório ou formulário, o campo e seus dados históricos permanecerão no lugar.
 
 Se você remover um campo personalizado de um formulário personalizado, ele ainda existirá em todos os outros formulários aos quais foi adicionado e você poderá editá-lo em um formulário ou na área Campos. Para obter informações sobre como excluir um campo, consulte [Excluir um campo ou widget personalizado do sistema](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 
