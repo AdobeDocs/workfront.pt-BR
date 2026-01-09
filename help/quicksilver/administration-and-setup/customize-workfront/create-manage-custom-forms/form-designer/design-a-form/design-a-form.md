@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: f23414b3c4810e47fa084d303e640a289de1f98d
 workflow-type: tm+mt
-source-wordcount: '6899'
+source-wordcount: '6941'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ Você pode criar um formulário personalizado com o designer de formulário no A
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Você pode criar um formulário personalizado com o designer de formulário no A
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   <tr> 
@@ -105,6 +105,10 @@ Os formulários personalizados são limitados a 500 campos. Um contador na parte
    >
    >
    >Exemplos de formulários complexos incluem formulários com parâmetros em cascata, campos de dados personalizados calculados e várias opções de valor em um único campo.
+
+   >[!NOTE]
+   >
+   >Marcar um campo existente como inativo o torna indisponível para uso em elementos de relatórios e formulários personalizados a partir desse ponto. Se o campo inativo for usado atualmente em um relatório ou formulário, o campo e seus dados históricos permanecerão no lugar.
 
 1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
 
@@ -651,12 +655,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções suspensas.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
-      &lbrace;
-       dados: &lbrace;
+      {
+       dados: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o Caminho JSON e verificar se você grava o Caminho JSON correto, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -811,7 +815,7 @@ Você pode adicionar campos nativos Workfront aos seus formulários personalizad
 
 Esta tabela lista os campos nativos disponíveis para objetos Workfront específicos em um formulário personalizado.
 
-| Nome do campo | Projeto | Tarefa | Problema | Modelo | Modelo de Tarefa | Portfólio | Programa | Grupo |
+| Nome do campo | Projeto | Tarefa | Problema | Modelo | Tarefa de modelo | Portfólio | Programa | Grupo |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
 | Data de Término Efetivo | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Duração Efetiva | ✓ |   |   |   |   |   |   |   |
