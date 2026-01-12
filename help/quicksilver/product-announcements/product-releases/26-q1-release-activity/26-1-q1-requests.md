@@ -4,9 +4,9 @@ description: Melhorias nas solicitações do primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ab0721e11415f4c41b8020a2678c3a483f108cb3
+source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '906'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 Para facilitar o acesso ao objeto criado por uma solicitação específica, adicionamos links à coluna Objeto criado. Agora, você pode clicar no link desta coluna para ser levado diretamente para a página do objeto criado.
 
-Esse link só está disponível quando a própria solicitação criou um objeto. Se uma solicitação for convertida em um projeto ou outro objeto, um link para esse objeto convertido não estará disponível na lista de solicitações na nova experiência de solicitação.
+Esse link só está disponível para solicitações do Planning, nos casos em que a própria solicitação criou um objeto. Se uma solicitação do Workfront for convertida em um projeto ou outro objeto, um link para esse objeto convertido não estará disponível na lista de solicitações na nova experiência de solicitação.
 
 Anteriormente, essa coluna continha somente o nome do objeto, e não seu link.
 

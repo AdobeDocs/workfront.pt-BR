@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b0060470156728a7ad98838378a7d963e2b5fd01
+source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 3%
+source-wordcount: '1512'
+ht-degree: 2%
 
 ---
 
@@ -83,7 +83,7 @@ A exibição de solicitações enviadas é diferente dependendo se você está u
 
 ### Exibir solicitações enviadas na nova experiência de solicitação
 
-Você pode exibir solicitações enviadas na área Solicitações, <span class="preview">que inclui links para objetos criados por essas solicitações.</span>
+Você pode exibir solicitações enviadas na área Solicitações, <span class="preview">que inclui links para objetos criados por solicitações do Planning.</span>
 
 Para exibir solicitações que você ou outros usuários enviaram na nova experiência de solicitação:
 
@@ -113,11 +113,15 @@ A lista de solicitações é filtrada automaticamente ao adicionar as condiçõe
 1. (Opcional) Verifique o status de uma solicitação verificando a coluna Status. Os seguintes status estão disponíveis na nova experiência de solicitação:
 
    * Rascunho: Esta solicitação ainda não foi enviada.
-   * Revisão pendente
-   * Em revisão
-   * Rejeitado
-   * Em andamento
-   * Completo
+   * Revisão Pendente: (Somente Planning) Essa solicitação tem aprovadores e nenhum dos aprovadores abriu a solicitação.
+   * Em Revisão: (Somente Planning) Essa solicitação tem aprovadores e pelo menos um aprovador abriu a solicitação, mas nenhuma decisão foi tomada.
+   * Rejeitada: (somente Planning) Essa solicitação tem aprovadores e foi rejeitada.
+   * Em andamento:
+      * Fluxo de trabalho do Workfront: a solicitação foi convertida e o trabalho está em andamento.
+      * Workfront Planning: a conclusão da solicitação é mapeada para um campo do Planning específico e o valor do campo ainda não corresponde ao valor de conclusão.
+
+        Para obter mais informações, consulte [Configurar detalhes da configuração](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) no artigo Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning.
+   * Concluída: A solicitação foi concluída.
 
 >[!NOTE]
 >
