@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: caf889d6-08a3-4186-9d9c-3cea3a0e4548
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 2e8801d08e3cf14f08435389c128068e2d38caba
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ Para obter mais informações sobre como adicionar lógica a um formulário pers
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Para obter mais informações sobre como adicionar lógica a um formulário pers
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   <tr> 
@@ -80,7 +80,11 @@ Continuando com o exemplo do SLA, é possível adicionar um campo de data valida
 Expressão de validação:
 
 ```
-IF({DE:DV - Date - Dropdown SLA}<ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates}),CONCAT("Earliest: ",ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates})))
+IF(
+    DATEDIFF({DE:DV - Date - Dropdown SLA}, 
+        ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates})) < 0, 
+    CONCAT("Earliest: ", 
+        ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dates})))
 ```
 
 Se o usuário selecionar uma data anterior à data permitida, a mensagem exibirá a data mais antiga que pode ser selecionada:
