@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '3143'
+source-wordcount: '3165'
 ht-degree: 0%
 
 ---
@@ -146,16 +146,26 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 </tbody> 
 </table> -->
 
+## Considerações ao criar registros
+
+<!--
+* Depending which workspace they are added from, records added to global record types are visible by the following types of users:
+
+    * Records added to the original workspace of a global record type are visible from the original workspace and all secondary workspaces where the record type is added. (***************check with Lilit on this one*************)
+    * Records added to a secondary workspace of a global record type are visible only from the workspace they were created and the original workspace of the global record type. 
+    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). -->
+
+* Dependendo das permissões para o espaço de trabalho e dos tipos de registro, os usuários podem criar registros das seguintes maneiras:
+
+   * Os usuários com permissões de Exibição para o espaço de trabalho e o tipo de registro podem criar registros somente usando o botão Solicitar registro na página Tipo de registro.
+   * Usuários com permissões para Contribute e Gerenciar no espaço de trabalho e tipo de registro podem criar registros usando o botão Novo registro na página Tipo de registro.
+
+  >[!IMPORTANT]
+  >
+  >Um gerenciador de espaço de trabalho deve criar um formulário de solicitação para o tipo de registro para que os usuários com permissões de Exibição adicionem registros usando um formulário de solicitação. Caso contrário, os usuários com permissão de exibição não poderão criar registros.
+
+
 ## Criar registros usando o botão Novo registro ou Solicitar registro de qualquer exibição de tipo de registro
-
-Os usuários com permissões de Exibição para o espaço de trabalho e o tipo de registro podem criar registros somente usando o botão Solicitar registro na página Tipo de registro.
-
-Usuários com permissões para Contribute e Gerenciar no espaço de trabalho e tipo de registro podem criar registros usando o botão Novo registro na página Tipo de registro.
-
-
->[!IMPORTANT]
->
->Um gerenciador de espaço de trabalho deve criar um formulário de solicitação para o tipo de registro para que os usuários com permissões de Exibição adicionem registros usando um formulário de solicitação. Caso contrário, os usuários com permissão de exibição não poderão criar registros.
 
 {{step1-to-planning}}
 

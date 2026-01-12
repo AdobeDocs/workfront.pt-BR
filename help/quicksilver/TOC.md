@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
 workflow-type: tm+mt
-source-wordcount: '13638'
+source-wordcount: '13655'
 ht-degree: 2%
 
 ---
@@ -2187,6 +2187,9 @@ ht-degree: 2%
       * [Introdução à integração do Adobe Workfront Planning e do Adobe GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [Gerenciar o espaço de trabalho do GenStudio no Adobe Workfront Planning](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * [Promover um espaço de trabalho do Workfront Planning para o GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
+   * Adobe Workfront Planning Independente {#planning-standalone}
+      * [Adobe Workfront Planning Independente: índice do artigo](planning/planning-sta/planning-sta-article-index.md)
+      * [Introdução ao Adobe Workfront Planning Independente](planning/planning-sta/get-started-with-planning-sta.md)
 * Integrações do Adobe Workfront {#adobe-workfront-integrations}
    * [Integrações do Adobe Workfront](workfront-integrations-and-apps/workfront-integrations.md)
    * [Visão geral das integrações integradas do Adobe Workfront](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
