@@ -1,13 +1,13 @@
 ---
 title: Visão geral da hierarquia e da navegação estrutural
-description: Você pode criar várias hierarquias de espaço de trabalho entre os tipos de registro em um espaço de trabalho depois de conectar os tipos de registro.
+description: Como um gerenciador de espaço de trabalho, você pode definir hierarquias flexíveis mas estruturadas entre tipos de registro conectados e outros tipos de objeto no Adobe Workfront Planning. As hierarquias são conexões entre tipos de registro ou entre tipos de registro e um projeto do Workfront.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Visão geral da hierarquia e da navegação estrutural
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Como um gerenciador de espaço de trabalho, você pode definir hierarquias flexíveis mas estruturadas entre tipos de registro conectados e outros tipos de objeto no Adobe Workfront Planning.
 

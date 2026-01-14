@@ -6,10 +6,10 @@ description: Modificar atribuições de usuário para vários problemas em uma l
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 1%
+source-wordcount: '523'
+ht-degree: 4%
 
 ---
 
@@ -41,7 +41,7 @@ Para obter informações gerais sobre atribuição de problemas, consulte [Visã
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Para obter informações gerais sobre atribuição de problemas, consulte [Visã
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Colaborador ou superior</p>
    <p>Solicitação ou superior</p> </td> 
   </tr> 
   <tr> 

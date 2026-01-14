@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98ef4a4f0a30dc90956132cb715393a29170d715
+source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '464'
+ht-degree: 4%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 3%
 
 # Visão geral das limitações de objetos do Adobe Workfront Planning
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Após os lançamentos mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que habilitaram lançamentos rápidos.</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,13 +49,13 @@ A tabela a seguir mostra os limites para quantos objetos você pode criar no Wor
 | Número de linhas que você pode importar em um arquivo CSV ou Excel para criar tipos de registro | 25.000 |
 | Número de colunas que você pode importar em um arquivo CSV ou Excel para criar tipos de registro | 500 |
 | Número de campos de fórmula para um tipo de registro | 20 |
-| <span class="preview">Número de campos de conexão para um tipo de registro</span> | <span class="preview">30</span> |
+| Número de campos de conexão para um tipo de registro | 30 |
 | Número de caracteres em uma expressão de campo de fórmula | 50.000 |
 | Número de entidades (usuários, funções, equipes, empresas, grupos) com as quais você pode compartilhar um objeto do Planning | 100 |
-| <span class="preview">Número de tipos de registros em uma hierarquia</span> | 4 |
-| <span class="preview">Número de hierarquias em um espaço de trabalho</span> | 5 |
-| <span class="preview">Número de registros de um tipo de registro pai conectados a um registro de um tipo de registro filho, dentro de uma hierarquia</span> | 10 |
-| Número de registros conectados a um registro em um tipo de conexão de seleção múltipla, <span class="preview"> sem uma hierarquia configurada entre os registros</span> | 500 |
+| Número de tipos de registro em uma hierarquia | 4 |
+| Número de hierarquias em um espaço de trabalho | 5 |
+| Número de registros de um tipo de registro pai conectados a um registro de um tipo de registro filho, dentro de uma hierarquia | 10 |
+| Número de registros conectados a um registro em um tipo de conexão de seleção múltipla, sem uma hierarquia configurada entre os registros | 500 |
 
 *Recomendamos não ter muitos espaços de trabalho, pois eles podem se tornar difíceis de gerenciar e seus fluxos de trabalho podem estar muito fragmentados.
 

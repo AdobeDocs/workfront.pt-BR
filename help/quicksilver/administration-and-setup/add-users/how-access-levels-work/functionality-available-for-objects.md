@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 527a5de08a89bdd4d27d508113b8b0f4b2d73089
+source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 14%
@@ -32,7 +32,7 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 >[!NOTE]
 >
 >* Este artigo descreve a funcionalidade disponível para níveis de acesso no novo modelo de pacote do Workfront. Para ver a funcionalidade disponível no modelo de pacote atual, consulte [Funcionalidade disponível para cada tipo de objeto para vários níveis de acesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Para obter uma lista de funcionalidades disponíveis para os diferentes pacotes no modelo mais recente, consulte [Preços e Empacotamento da Adobe Workfront](https://business.adobe.com/br/products/workfront/pricing.html).
+>* Para obter uma lista de funcionalidades disponíveis para os diferentes pacotes no modelo mais recente, consulte [Preços e Empacotamento da Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projetos
 
@@ -125,7 +125,7 @@ Também indica quais ações os administradores do Workfront podem desativar ou 
 | Converter um problema em um projeto | ✓ |   |   |   |
 | Converter um problema em tarefa | ✓ |   |   |   |
 | Aceitar atribuições | ✓ |   |   |   |
-| Fazer atribuições | ✓ |   |   |   |
+| Fazer atribuições | ✓ | ✓ | ✓ |   |
 | Adicionar atualizações e comentários | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
