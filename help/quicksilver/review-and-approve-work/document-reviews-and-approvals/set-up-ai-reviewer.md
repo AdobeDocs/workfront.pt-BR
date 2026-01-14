@@ -2,15 +2,15 @@
 product-area: documents
 navigation-topic: approvals
 title: Criar revisores de IA
-description: Depois de ter pelo menos uma marca configurada no GenStudio Foundation, você pode criar vários Revisores de IA, que podem ser atribuídos a modelos de aprovação e a solicitações individuais de revisão e aprovação.
+description: Depois de ter pelo menos uma marca configurada no Workfront, você pode criar vários Revisores de IA, que podem ser atribuídos a modelos de aprovação e a solicitações individuais de revisão e aprovação.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
-source-git-commit: 7572dd64a7f23d6f8dcae374a327d67f2d6738c5
+source-git-commit: de5f5d709ace99b7794ff2eaeb4ee7849cff8182
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 3%
+source-wordcount: '246'
+ht-degree: 9%
 
 ---
 
@@ -20,15 +20,12 @@ ht-degree: 3%
 >
 >No momento, esse recurso está na versão beta.
 
-Depois de ter pelo menos uma marca configurada no GenStudio Foundation, você pode criar vários Revisores de IA, que podem ser atribuídos a modelos de aprovação e a solicitações individuais de revisão e aprovação.
+Depois de ter pelo menos uma marca configurada no Workfront, você pode criar vários Revisores de IA, que podem ser atribuídos a modelos de aprovação e a solicitações individuais de revisão e aprovação.
 
->[!NOTE]
->
->O Revisor de IA não foi projetado para ser um tomador de decisão no fluxo de trabalho de revisão e aprovação. Ela só fornece uma pontuação e recomendações para alinhar o ativo aos requisitos da marca especificados.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +37,7 @@ Depois de ter pelo menos uma marca configurada no GenStudio Foundation, você po
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> </td> 
+   <td> <p>Padrão</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -55,11 +52,15 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Pré-requisitos
 
-Antes de começar, você deve configurar as diretrizes de marca de imagem no GenStudio Foundation.
-
-Para saber mais sobre as diretrizes de marca de imagem, consulte [Introdução ao Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started).
+Antes de começar, você deve configurar as diretrizes de marca de imagem no Workfront. Para obter mais informações, consulte [Configurar marcas para o Revisor da IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Adicionar um revisor de IA
+
+>[!NOTE]
+>
+>O Revisor de IA não foi projetado para ser um tomador de decisão no fluxo de trabalho de revisão e aprovação. Ela só fornece uma pontuação e recomendações para alinhar o ativo aos requisitos da marca especificados.
+
+Para adicionar um Revisor de IA:
 
 {{step-1-to-setup}}
 

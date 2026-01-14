@@ -8,9 +8,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
-source-git-commit: 9cdd3f9b46b36728a8825713fe50f3f2fe1ef90b
+source-git-commit: 582c799fe43f0a7e7dbd4fec680d5873e0e193e7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 
 Esta seção contém os seguintes artigos:
 
+* [Criar revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+* [Configurar marcas para o Revisor do AI](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
 * [Criar uma revisão de documento ou solicitação de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 * [Adicionar revisores ou aprovadores adicionais a um ativo ou documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [Remover aprovadores ou revisores de um ativo ou documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)

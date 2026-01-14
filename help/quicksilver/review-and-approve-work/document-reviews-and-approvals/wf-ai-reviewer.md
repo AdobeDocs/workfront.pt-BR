@@ -7,18 +7,19 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 0a6e94c285cc5aaea97d840d644dc9b3ceea305e
+source-git-commit: cf1d4bfeedb94e8607dad47177d804169254ee85
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 4%
+source-wordcount: '657'
+ht-degree: 5%
 
 ---
 
 # Introdução ao Workfront AI Reviewer
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >No momento, esse recurso está na versão beta.
+
 
 Com o Workfront AI Reviewer, é possível aumentar a velocidade do conteúdo e otimizar a conformidade da marca no fluxo de trabalho de revisão e aprovação. Você pode adicionar Revisores de IA a modelos de aprovação ou a solicitações individuais de revisão e aprovação no Workfront.
 
@@ -28,12 +29,11 @@ Para configurar Revisores de IA no Workfront, você deve ser um administrador do
 
 Qualquer usuário pode adicionar o Revisor de IA a uma solicitação de revisão e aprovação.
 
-
 ## Pré-requisitos
 
 * Sua organização deve ter migrado para o Adobe IMS (Identity Management System).
 * Sua instância do Workfront deve ter as Aprovações unificadas habilitadas.
-* Sua organização deve ter o GenStudio Foundation.
+  <!--* Your organization must have GenStudio Foundation.-->
 * A Adobe deve ter um contrato de API Gen da Adobe assinado no arquivo.
 Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato da Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -60,12 +60,14 @@ Se você fizer upload de um tipo de arquivo não compatível, a opção Revisor 
 
 ## Configurar diretrizes da marca
 
-O Workfront AI Reviewer usa as diretrizes de marca configuradas no Genstudio Foundation ao revisar seu conteúdo. Atualmente, você só pode configurar diretrizes de marca para imagens. Para obter mais informações, consulte [Introdução ao Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started).
+O Revisor da IA do Workfront usa as diretrizes da marca ao revisar seu conteúdo. Os administradores do Workfront podem configurar diretrizes de marca na área Configuração do Workfront. &lt;!— As marcas criadas no GenStudio Foundation também estão disponíveis no Workfront.
+
+Para obter mais informações, consulte [Configurar marcas para o Revisor da IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 
 ## Criar revisores de IA
 
-Depois que houver pelo menos uma marca configurada no GenStudio Foundation, os administradores do Workfront poderão começar a criar Revisores de IA na área Configuração. Esses Revisores de IA podem ser atribuídos a modelos de aprovação e solicitações individuais de revisão e aprovação. No momento, os revisores de IA só podem analisar em relação às diretrizes da marca da imagem.
+Depois que houver pelo menos uma marca configurada, os administradores do Workfront poderão começar a criar Revisores de IA na área Configuração. Esses Revisores de IA podem ser atribuídos a modelos de aprovação e solicitações individuais de revisão e aprovação. No momento, os revisores de IA só podem analisar em relação às diretrizes da marca da imagem.
 
 Para obter mais informações, consulte [Criar Revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md).
 
@@ -110,6 +112,6 @@ Para obter mais informações sobre como exibir pontuações e feedback, consult
 ![Comentários do revisor de IA](assets/ai-reviewer-feedback.png)
 
 
-## Apresentação em vídeo
+<!--## Video Walkthrough
 
->[!VIDEO](https://video.tv.adobe.com/v/3470847/)
+>[!VIDEO](https://video.tv.adobe.com/v/3470847/)-->

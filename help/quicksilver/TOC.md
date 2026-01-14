@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: a4deecdf5d721115762d7f93cb4ff8c5ce5da7da
 workflow-type: tm+mt
-source-wordcount: '13655'
+source-wordcount: '13662'
 ht-degree: 2%
 
 ---
@@ -1851,6 +1851,7 @@ ht-degree: 2%
       * Configurar e gerenciar aprovações de ativos e documentos {#manage-asset-review-and-approval}
          * [Configurar e gerenciar aprovações unificadas: índice de artigos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Criar revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+         * [Configurar marcas para o Revisor do AI](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
          * [Criar uma revisão de documento ou solicitação de aprovação](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Adicionar revisores ou aprovadores adicionais a um ativo ou documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Remover aprovadores ou revisores de um ativo ou documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
