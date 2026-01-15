@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Configurar a Inclui na lista de permissões do firewall
-description: Incluir na lista de permissões Se o firewall ou o servidor de e-mail estiver configurado para permitir o acesso a apenas determinados fornecedores, você deverá adicionar determinados endereços IP ao seu arquivo. Isso abre a comunicação entre seu ambiente e os servidores da Adobe Workfront e permite que seus usuários enviem mensagens do Workfront e usem o SSO com o Ative Diretory ou o LDAP.
+title: Configurar o Incluo na lista de permissões do firewall
+description: Se o firewall ou servidor de e-mail estiver configurado para permitir o acesso a apenas determinados fornecedores, você deverá adicionar determinados endereços IP ao seu incluo na lista de permissões. Isso abre a comunicação entre seu ambiente e os servidores da Adobe Workfront e permite que seus usuários enviem mensagens do Workfront e usem o SSO com o Ative Diretory ou o LDAP.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: 3c680b39685e650dd442adbb49e4091d558d1410
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
 
-# Incluir na lista de permissões Configurar o arquivo de pesquisa do firewall
+# Configurar o incluo na lista de permissões do firewall
 
 <!-- Audited: 12/2023 -->
 
@@ -23,15 +23,15 @@ ht-degree: 0%
 >
 >O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, você deverá executar essa ação por meio da Adobe Admin Console.
 >
->Para configurar sua inclui na lista de permissões se sua organização foi integrada à Adobe Admin Console, consulte [Domínios a serem permitidos para Aplicativos e Serviços da Adobe](https://helpx.adobe.com/br/enterprise/kb/network-endpoints.html).
+>Para configurar seu incluo na lista de permissões se sua organização foi integrada à Adobe Admin Console, consulte [Domínios a serem permitidos para Aplicativos e Serviços Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
->A forma como uma organização configura sua inclui na lista de permissões é exclusiva para cada organização. Trabalhe com sua equipe de TI para identificar os procedimentos de sua organização e implementar essas adições.
+>A forma como uma organização configura seu incluo na lista de permissões é exclusiva de cada organização. Trabalhe com sua equipe de TI para identificar os procedimentos de sua organização e implementar essas adições.
 
-Incluir na lista de permissões Se o firewall ou o servidor de e-mail estiver configurado para permitir o acesso a apenas determinados fornecedores, você deverá adicionar determinados endereços IP ao seu arquivo. Isso abre a comunicação entre seu ambiente e os servidores da Adobe Workfront e permite os seguintes processos:
+Se o firewall ou servidor de e-mail estiver configurado para permitir o acesso a apenas determinados fornecedores, você deverá adicionar determinados endereços IP ao seu incluo na lista de permissões. Isso abre a comunicação entre seu ambiente e os servidores da Adobe Workfront e permite os seguintes processos:
 
 * Envio de mensagens do aplicativo do Workfront
 
@@ -46,16 +46,16 @@ Incluir na lista de permissões Se o firewall ou o servidor de e-mail estiver co
 
 Você também precisa abrir determinadas portas para que as mensagens de email sejam criptografadas quando forem entregues.
 
-## Workfront ➡ incluis na lista de permissões que você pode usar
+## A Workfront inclui na lista de permissões que você possa usar
 
-Se sua organização tiver o plano Enterprise, você também poderá configurar duas Workfront do incluir na lista de permissões:
+Se sua organização tiver o plano Enterprise, você também poderá configurar duas incluis na lista de permissões Workfront:
 
-* **inclui na lista de permissões por email**: permite que você controle onde os usuários podem enviar dados de email armazenados no Workfront. Incluir na lista de permissões Para obter mais informações, consulte [Configurar a pesquisa de email](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **inclui na lista de permissões de IP**: limita o acesso ao Workfront a 75 endereços IP ou intervalos de endereços IP especificados, fornecendo uma camada adicional de segurança para o aplicativo Workfront. Para obter mais informações, consulte [Restringir acesso ao Adobe Workfront pelo endereço IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **incluo na lista de permissões de email**: permite controlar onde os usuários podem enviar dados de email armazenados no Workfront. Para obter mais informações, consulte [Configurar seu incluo na lista de permissões de email](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **incluo na lista de permissões IP**: limita o acesso ao Workfront a 75 endereços IP ou intervalos de endereços IP especificados, fornecendo uma camada adicional de segurança para o aplicativo Workfront. Para obter mais informações, consulte [Restringir acesso ao Adobe Workfront pelo endereço IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 ## Localizar o cluster do Workfront
 
-Os endereços IP que você deve adicionar ao arquivo de inclui na lista de permissões dependem do cluster em que o ambiente de Produção é executado.
+Os endereços IP que você deve adicionar ao incluo na lista de permissões no firewall dependem do cluster em que o ambiente de produção é executado.
 
 Para localizar o cluster da organização:
 
@@ -72,7 +72,7 @@ Para obter mais informações, consulte a seção [Exibir o cluster da sua organ
 
 >[!IMPORTANT]
 >
->Algumas integrações do Workfront não funcionam quando a inclui na lista de permissões é ativada porque não podem ser configuradas com um endereço IP estático. Para usar as integrações a seguir, é necessário desativar a inclui na lista de permissões.
+>Algumas integrações do Workfront não funcionam quando o incluo na lista de permissões é ativado porque não podem ser configuradas com um endereço IP estático. Para usar as integrações a seguir, desative o incluo na lista de permissões.
 >
 >* Workfront para Outlook
 
@@ -124,13 +124,16 @@ Se o ambiente de Produção estiver no cluster 1, 2, 3, 5, 7, 8 ou 9, você deve
      <li>35 161 82 137</li> 
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
-     <li>54 71 252 65</li> 
-    </ul> <p>Para obter informações sobre os seguintes endereços IP, consulte <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Novos endereços IP para email do Adobe Workfront com a versão 21.1</a></p> 
-    <ul> 
+     <li>54 71 252 65</li>
      <li>23 251 237 107</li> 
      <li>23 251 237 108</li> 
      <li>23 251 237 109</li> 
      <li>23 251 237 106</li> 
+     <li>206.55.149.212</li>
+     <li>206.55.149.214</li>
+     <li>206.55.149.215</li>
+     <li>206.55.149.213</li>
+     <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -161,11 +164,10 @@ Se o ambiente de Produção estiver no Cluster 4, adicione os seguintes endereç
 * 34.242.62.80/32
 * 46.51.194.192/32
 * 54.229.129.66/32
-
-Para obter informações sobre os seguintes endereços IP, consulte [Novos endereços IP para email do Adobe Workfront com a versão 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
-
 * 23.251.239.98
 * 23.251.239.99
+* 24.110.76.224
+* 24.110.76.223
 
 ### Endereços IP a serem permitidos para Cluster 6 {#ip-addresses-to-allow-for-cluster-6}
 
@@ -187,6 +189,11 @@ Se o ambiente de Produção estiver no Cluster 6, adicione os seguintes endereç
      <li>34.66.82.65</li> 
      <li>34.66.82.66</li> 
      <li>34.66.82.67</li> 
+    <li>206.55.149.212</li>
+   <li>206.55.149.214</li>
+   <li>206.55.149.215</li>
+   <li>206.55.149.213</li>
+   <li>206.55.149.211</li>
     </ul> </td> 
   </tr> 
   <tr> 
@@ -221,6 +228,13 @@ Se o ambiente de Produção estiver no Cluster 6, adicione os seguintes endereç
 * 20.81.156.240/28
 * 172.172.84.48/28
 
+### Endereços IP a serem permitidos para o Cluster 11
+
+Para receber emails do aplicativo Workfront no cluster 11, adicione os seguintes endereços IP:
+
+* 24.110.76.224
+* 24.110.76.223
+
 ### Endereços IP para permitir uma Unidade de Teste
 
 <table style="table-layout:auto"> 
@@ -240,7 +254,7 @@ Se o ambiente de Produção estiver no Cluster 6, adicione os seguintes endereç
    <td role="rowheader">Para integrações de SSO e webhook de documento ao usar um Test Drive</td> 
    <td> 
     <ul> 
-     <li> <p>69.42.126.188</p> <p>Esse endereço também deve ser adicionado ao incluo na lista de permissões para que seus usuários recebam emails do Workfront.</p> </li> 
+     <li> <p>69.42.126.188</p> <p>Esse endereço também deve ser adicionado ao seu incluo na lista de permissões para que os usuários recebam emails do Workfront.</p> </li> 
      <li>66 119 37 186</li> 
      <li>66 119 37 167</li> 
      <li>54 244 142 219</li> 
@@ -288,7 +302,7 @@ Para todos os ambientes, adicione os seguintes endereços IP para receber cargas
 
 ### Endereços IP a serem adicionados para acessar o Workfront Fusion  {#ip-addresses-to-add-for-accessing-workfront-fusion}
 
-Adicione os seguintes endereços IP ao seu arquivo de inclui na lista de permissões para habilitar o Workfront para acessar seu sistema.
+Adicione os seguintes endereços IP ao incluo na lista de permissões para permitir que o Workfront Fusion acesse o sistema.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -327,7 +341,7 @@ Adicione os seguintes endereços IP ao seu arquivo de inclui na lista de permiss
  </tbody> 
 </table>
 
-Incluir na lista de permissões Além disso, se a sua organização usar filtragem de rede de saída, adicione o seguinte domínio ao seu arquivo de pesquisa para permitir que o sistema acesse o Workfront Fusion. Esses URLs são usados para webhooks no Fusion.
+Além disso, se sua organização usar filtragem de rede de saída, adicione o seguinte domínio ao incluo na lista de permissões para permitir que seu sistema acesse o Workfront Fusion. Esses URLs são usados para webhooks no Fusion.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -350,11 +364,11 @@ Incluir na lista de permissões Além disso, se a sua organização usar filtrag
 
 >[!NOTE]
 >
->Filtragem de rede de saída incomum. Consulte o administrador da rede para verificar se é necessário atualizar a inclui na lista de permissões do para acomodá-la.
+>Filtragem de rede de saída incomum. Consulte o administrador da rede para verificar se você precisa atualizar o incluo na lista de permissões para acomodá-lo.
 
 ### Endereços IP a serem adicionados para usar o Workfront para Jira {#ip-addresses-to-add-for-using-workfront-for-jira}
 
-Adicione os seguintes endereços IP à inclui na lista de permissões para usar a integração do Workfront para Jira.
+Adicione os seguintes endereços IP ao incluo na lista de permissões para usar o Workfront para integração com o Jira.
 
 O domínio jira.workfront.com também deve ser acessível a partir dos servidores corporativos. Esse domínio é necessário porque serve como middleware entre o Workfront e o Jira.
 
@@ -403,11 +417,11 @@ O domínio jira.workfront.com também deve ser acessível a partir dos servidore
 
 ## Domínios a serem adicionados para acessar o Workfront
 
-Incluir na lista de permissões Se sua organização usar filtragem de rede de saída, adicione os seguintes domínios ao seu arquivo de pesquisa para habilitar seu sistema a acessar o Workfront.
+Se sua organização usar filtragem de rede de saída, adicione os seguintes domínios ao seu incluo na lista de permissões para habilitar seu sistema para acessar o Workfront.
 
 >[!NOTE]
 >
->Filtragem de rede de saída incomum. Consulte o administrador da rede para verificar se é necessário atualizar a inclui na lista de permissões do para acomodá-la.
+>Filtragem de rede de saída incomum. Consulte o administrador da rede para verificar se você precisa atualizar o incluo na lista de permissões para acomodá-lo.
 
 * `<your domain>`.my.workfront.com
 * `<your domain>`.preview.workfront.com
@@ -479,14 +493,14 @@ Para o Workfront Fusion, adicione os seguintes domínios:
      <li>*.workfront.com - Obrigatório para exibir provas no Workfront</li> 
      <li>*.proofhq.com - Obrigatório para exibir provas no Workfront Proof</li> 
      <li>*.proofhq.eu - obrigatório para exibir provas no Workfront Proof</li> 
-    </ul> <p><b>NOTA</b>:  <p>Não oferecemos suporte à adição de endereços IP ao seu arquivo de inclui na lista de permissões para Workfront Proof. Eles se tornaram dinâmicos depois que o Workfront mudou para o AWS. Em vez disso, recomendamos que você permita somente domínios do Workfront Proof.</p> <p>Incluir na lista de permissões Se houver um problema com a adição desses domínios ao seu arquivo e você precisar de um endereço IP, entre em contato com o Suporte ao cliente da Workfront.</p> </p> </td> 
+    </ul> <p><b>NOTA</b>:  <p>Não oferecemos suporte à adição de endereços IP ao seu incluo na lista de permissões para o Workfront Proof. Eles se tornaram dinâmicos depois que o Workfront mudou para o AWS. Em vez disso, recomendamos que você permita somente domínios do Workfront Proof.</p> <p>Se houver um problema ao adicionar esses domínios ao seu incluo na lista de permissões e você precisar de um endereço IP, entre em contato com o Suporte ao cliente da Workfront.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Endereços IP e URLs a serem adicionados para acessar o Workfront Proof
 
-Você deve adicionar os seguintes endereços IP ao seu arquivo de inclui na lista de permissões para usar várias funções.
+É necessário adicionar os seguintes endereços IP ao incluo na lista de permissões para usar várias funções.
 
 * [Para retornos de chamada e provas de captura na Web](#for-callbacks-and-webcapture-proofs)
 * [Para email de saída](#for-outgoing-email)
