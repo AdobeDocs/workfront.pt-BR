@@ -5,10 +5,10 @@ description: As listas aprimoradas usam um formato de tabela para exibir os iten
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ddae871559a756f00ef96e70254e1019964ce882
+source-git-commit: b935f3013c1be670dea834c041e02165f0e7047c
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 1%
+source-wordcount: '1620'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Para obter informações sobre as listas padrão, consulte [Introdução a lista
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto">
  <col> 
@@ -89,23 +89,27 @@ Para editar um item na lista, clique duas vezes na célula que deseja editar e d
 
 ## Usar a barra de ações e o menu Mais em uma lista aprimorada
 
-Quando você marca a caixa de seleção ao lado de um item na lista aprimorada, a barra de ação aparece na parte inferior da tela e mostra as ações que você pode realizar no item. Algumas ações podem ser específicas dessa lista e não aparecem em nenhuma outra lista.
+A barra de ações mostra ações que você pode realizar em um item da lista. Algumas ações podem ser específicas dessa lista e não aparecem em nenhuma outra lista.
 
->[!NOTE]
->
->Listas aprimoradas diferentes podem permitir a seleção de um único item, a edição em massa (seleção de mais de um item) ou nenhuma seleção de item.
+1. Marque a caixa de seleção ao lado de um item na lista aprimorada.
 
-Clique em um botão na barra de ações para realizar essa ação, como visualizar o item da lista, excluir o item ou editar o item.
+   A barra de ação aparece na parte inferior da tela.
 
-Se nenhuma ação estiver disponível para o item selecionado, a barra de ação indicará &quot;Nenhuma ação disponível&quot;.
+   >[!NOTE]
+   >
+   >Listas aprimoradas diferentes podem permitir a seleção de um único item, a edição em massa (seleção de mais de um item) ou nenhuma seleção de item.
 
-![Exemplo da barra de ações](assets/glist-action-bar-statuses.png)
+1. Clique em um botão na barra de ações para realizar essa ação, como visualizar o item da lista, excluir o item ou editar o item.
 
-O menu **Mais** é o menu de três pontos que aparece ao lado de um campo principal em um item da lista quando você passa o mouse sobre ele. (O campo principal é a coluna mais à esquerda da tabela.)
+   Se nenhuma ação estiver disponível para o item selecionado, a barra de ação indicará &quot;Nenhuma ação disponível&quot;.
 
-Clique no menu para ver as ações adicionais do item. Algumas ações podem ser específicas dessa lista e não aparecem em nenhuma outra lista.
+   ![Exemplo da barra de ações](assets/glist-action-bar-statuses.png)
 
-![Mais exemplo de menu](assets/glist-more-menu-priorities.png)
+1. Passe o mouse sobre um campo principal de um item de lista para ver o menu **Mais**. (O campo principal é a coluna mais à esquerda da tabela.)
+
+1. Clique no menu para ver as ações adicionais do item. Algumas ações podem ser específicas dessa lista e não aparecem em nenhuma outra lista.
+
+   ![Mais exemplo de menu](assets/glist-more-menu-priorities.png)
 
 ## Personalizar colunas em uma lista aprimorada
 
@@ -128,9 +132,31 @@ Algumas listas aprimoradas permitem ocultar e exibir colunas e reordenar as colu
 
    ![Indicador para colunas ocultas](assets/glist-columns-hidden-indicator.png)
 
-## Aplicar uma exibição a uma lista aprimorada
+## Adicionar e remover colunas em uma lista com o Gerenciador de colunas
+
+Algumas listas aprimoradas oferecem o **Gerenciador de colunas**, que permite adicionar colunas facilmente à lista e remover colunas. Campos nativos e personalizados estão disponíveis para seleção como colunas. Campos personalizados devem existir no sistema antes que você possa adicioná-los como colunas de lista.
+
+Para adicionar e remover colunas:
+
+1. Clique no ícone + na parte superior direita da tabela para abrir a caixa **Gerenciador de colunas**.
+1. Procure um campo de objeto existente na coluna **Disponível** e clique em + à direita do nome do campo para adicioná-lo à coluna **Selecionado**.
+1. Clique em - à direita de um campo na coluna **Selecionado** para removê-lo da lista.
+
+   >[!NOTE]
+   >
+   >Alguns campos podem ser corrigidos e não podem ser removidos.
+
+1. Clique em **Salvar**.
+
+   ![Gerenciador de colunas](assets/glist-column-manager.png)
+
+<!-- Add info about Properties and KPIs when something gets released with those options -->
+
+## Exibir dados com exibições em uma lista aprimorada
 
 Uma exibição é um conjunto personalizado de arranjos e filtros de coluna que você pode aplicar a uma lista. Você pode criar novas visualizações e editar visualizações existentes.
+
+### Aplicar e criar visualizações
 
 Para aplicar uma exibição, clique na lista suspensa **Exibições** e selecione a exibição que deseja aplicar à lista.
 
@@ -144,6 +170,27 @@ Para criar uma nova view:
    As alterações nas exibições são salvas automaticamente e ficam visíveis para qualquer pessoa que use a exibição.
 
    Na próxima vez que você aplicar essa visualização, as configurações de coluna e filtro permanecerão da maneira definida.
+
+### Compartilhar uma exibição
+
+Na lista suspensa **Exibições**, você pode ver três categorias de exibições:
+
+* **Exibições do Sistema**: exibições que o administrador do sistema atribuiu a você.
+* **Exibições compartilhadas**: exibições que foram compartilhadas com você por outros usuários.
+* **Minhas Exibições**: Exibições que você criou e pode compartilhar com outras pessoas. Você pode compartilhar visualizações com outros usuários, equipes ou grupos.
+
+Para compartilhar uma exibição:
+
+1. Na lista suspensa **Exibições**, passe o mouse sobre a exibição em **Minhas Exibições** que você deseja compartilhar, depois clique no menu de três pontos quando ele aparecer.
+1. Selecione **Compartilhar**.
+1. Na caixa de diálogo Compartilhar, digite os nomes dos usuários, equipes ou grupos com os quais deseja compartilhar a exibição e selecione-os na lista quando eles forem exibidos.
+
+   Você pode conceder as seguintes permissões aos recipients:
+
+   * **Modo de exibição**: os usuários podem aplicar o modo de exibição à lista, mas não podem compartilhá-lo.
+   * **Gerenciar**: os usuários podem renomear o modo de exibição, compartilhá-lo com outras pessoas e excluí-lo.
+
+1. Clique em **Salvar**.
 
 ## Filtrar e agrupar itens em uma lista aprimorada
 
@@ -160,6 +207,10 @@ Os filtros ajudam a reduzir a quantidade de informações exibidas na lista. Agr
    ![Filtrar em listas aprimoradas](assets/glist-filter-with-options.png)
 
    O filtro é aplicado automaticamente à lista.
+
+   >[!TIP]
+   >
+   >Para aplicar um curinga de usuário atual, selecione **Eu (usuário conectado)** como o valor do campo. O filtro será aplicado ao usuário que está visualizando a lista. Esse curinga está disponível em campos nos quais o valor é um usuário.
 
 1. Clique em **Adicionar condição** para adicionar outra condição ao filtro como uma instrução OR.
 1. Quando o filtro for aplicado, você poderá abrir as opções **Filtro** novamente para alterar as opções de filtro ou limpar todos os filtros.
@@ -185,18 +236,26 @@ Os filtros ajudam a reduzir a quantidade de informações exibidas na lista. Agr
 
 ## Classificar e pesquisar em uma lista aprimorada
 
-Para classificar colunas individuais, vá para a coluna e clique na seta para baixo. Um ícone ao lado de um nome de coluna indica que a lista é classificada pelos valores dessa coluna e a direção da classificação.
+Para classificar colunas individuais:
 
->[!NOTE]
->
->Algumas colunas podem não ser classificáveis.
+1. Vá para a coluna e clique na seta para baixo.
 
-![Classificar por uma coluna](assets/glist-sort-by-column.png)
+   Um ícone ao lado de um nome de coluna indica que a lista é classificada pelos valores dessa coluna e a direção da classificação.
 
-Para classificar seu trabalho em um agrupamento, abra o **Grupo** e selecione se deseja classificar em ordem crescente ou decrescente.
+   >[!NOTE]
+   >
+   >Algumas colunas podem não ser classificáveis, dependendo da lista.
 
-![Classificar em um agrupamento](assets/sort-in-groups.png)
+   ![Classificar por uma coluna](assets/glist-sort-by-column.png)
 
-Para pesquisar, digite o termo de pesquisa no campo de pesquisa acima da lista. Os resultados são destacados na lista à medida que você digita.
+Para classificar seu trabalho em um agrupamento:
 
-![Termo de pesquisa destacado](assets/glist-search-highlighted.png)
+1. Clique em **Grupo** e selecione se deseja classificar em ordem crescente ou decrescente.
+
+   ![Classificar em um agrupamento](assets/sort-in-groups.png)
+
+Para pesquisar:
+
+1. Digite o termo de pesquisa no campo de pesquisa acima da lista. Os resultados são destacados na lista à medida que você digita.
+
+   ![Termo de pesquisa destacado](assets/glist-search-highlighted.png)
