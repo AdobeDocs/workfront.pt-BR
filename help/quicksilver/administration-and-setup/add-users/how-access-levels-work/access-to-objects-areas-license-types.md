@@ -9,16 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 3ebff5f28d4142203c6ce5486ce40484d88f0a5d
+source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '470'
 ht-degree: 20%
 
 ---
 
 # Acesso a objetos e áreas por novas licenças
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -46,7 +44,7 @@ A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada
     <tr>
         <td>Projetos</td>
         <td>Editar</td>
-        <td><span class="preview">Editar**</span></td>
+        <td>Editar**</td>
         <td>Exibir</td>
         <td>Sem acesso</td>
     </tr>
@@ -152,7 +150,7 @@ A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada
 
 &#42; usuários com uma licença de Colaborador podem exibir somente relatórios, painéis e calendários compartilhados com eles.
 
-<span class="preview">&#42;&#42; Usuários com uma licença Light só podem registrar horas no nível do projeto quando o acesso para Editar está habilitado. Eles não podem criar, editar, excluir ou compartilhar projetos. O nível padrão para usuários Light é View.</span>
+&#42;&#42; Usuários com uma licença Light só podem registrar horas no nível do projeto quando o acesso para Editar está habilitado. Eles não podem criar, editar, excluir ou compartilhar projetos. O nível de acesso padrão em Projetos para usuários Light é Visualização.
 
 >[!NOTE]
 >

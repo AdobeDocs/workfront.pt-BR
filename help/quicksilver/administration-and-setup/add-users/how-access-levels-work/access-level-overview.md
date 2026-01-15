@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 091d343b5c36ab6bca09aecfc8cba248adcd11e3
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1749'
 ht-degree: 6%
 
 ---
@@ -117,7 +117,7 @@ Anexado à licença Light, esse nível de acesso foi projetado para usuários qu
 * Exibir todos os itens e atualizações vinculados ao trabalho
 * Aprovar projetos, tarefas e problemas
 * Exibir painéis e relatórios
-* Acompanhe o tempo em tarefas e problemas e aprove planilhas de horas
+* Acompanhe o tempo em projetos, tarefas e problemas e aprove planilhas de horas
 * Criar e gerenciar problemas
 
 Usuários com nível de acesso Light:
@@ -125,6 +125,7 @@ Usuários com nível de acesso Light:
 * Itens de trabalho podem ser atribuídos, mas não podem ser concluídos.
 * É possível acessar solicitações e documentos no menu principal.
 * Têm capacidade limitada para criar objetos; não podem criar projetos, portfólios, programas ou relatórios.
+* Só é possível registrar horas no nível do projeto quando o acesso Editar está habilitado. Eles não podem criar, editar, excluir ou compartilhar projetos.
 
 >[!NOTE]
 >
@@ -151,8 +152,8 @@ Estas são as configurações de acesso mais altas disponíveis para objetos no 
   <tr> 
    <td>Projetos</td> 
    <td> </td> 
-   <td>✓</td> 
    <td> </td> 
+   <td>✓ (para o tempo de registro no nível do projeto)</td> 
   </tr> 
   <tr> 
    <td>Tarefas</td> 

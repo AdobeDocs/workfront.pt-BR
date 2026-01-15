@@ -7,16 +7,14 @@ author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 3ebff5f28d4142203c6ce5486ce40484d88f0a5d
+source-git-commit: a23708b2534330cf942c5f950c4bee1a90583ea7
 workflow-type: tm+mt
-source-wordcount: '4145'
+source-wordcount: '4139'
 ht-degree: 1%
 
 ---
 
 # Registrar de tempo
-
-{{highlighted-preview}}
 
 <!--Audited: 5/2025-->
 
@@ -42,8 +40,7 @@ Para obter mais informações sobre o tipo de horas em que você pode fazer logo
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <ul><li><p>Leve ou superior para registrar horas em uma tarefa, problema, <span class="preview">projeto</span> ou Horas Gerais em uma folha de horas</p></li>
-   <li><p>Padrão para registrar horas em projetos</p></li></ul>
+   <p>Leve ou superior para registrar horas em um projeto, tarefa, problema ou Horas gerais em uma folha de horas</p>
 
 <p>Ou: </p>
 
@@ -390,7 +387,7 @@ Você pode registrar o tempo específico do projeto em um projeto, tarefa ou pro
 
 Para registrar horas na seção Atualizações de um projeto, tarefa ou problema, você deve ter o seguinte:
 
-* O acesso e as permissões corretos, conforme descrito na seção [Requisitos de acesso](#access-requirements) deste artigo. <span class="preview">Se o seu nível de acesso for Light, e você estiver registrando horas em um projeto, você também deve ter permissões do Contribute ou superiores para o projeto com acesso a Registrar horas. Para obter mais informações sobre como conceder permissões em projetos, consulte [Compartilhar um projeto](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).</span>
+* O acesso e as permissões corretos, conforme descrito na seção [Requisitos de acesso](#access-requirements) deste artigo. Se o seu nível de acesso for Light, e você estiver registrando horas em um projeto, você também deve ter permissões do Contribute ou superiores para o projeto com acesso a Registrar horas. Para obter mais informações sobre como conceder permissões em projetos, consulte [Compartilhar um projeto](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
 * O administrador do Workfront deve habilitar a configuração Registrar horas diretamente nos projetos em [!UICONTROL **Planilha de horas**]> [!UICONTROL **Preferências**] na área Sistema, se desejar registrar horas diretamente em um projeto.
 
@@ -430,13 +427,13 @@ Para registrar horas na seção Atualizações de um projeto, tarefa ou problema
 
 #### seção Horas{#hours-section}
 
-Você deve ser um administrador do Workfront para registrar horas para projetos, tarefas e problemas na seção Horas,
+Você deve ser um administrador do Workfront para registrar horas para projetos, tarefas e problemas na seção Horas.
 
 Ou
 
 Você deve ter todos os itens a seguir:
 
-* Uma licença Padrão ou de Plano com acesso administrativo a Planilhas de Horas e Horas, <span class="preview">ou uma licença Light com acesso de Edição a Projetos</span>. Para obter mais informações sobre como conceder acesso administrativo a Planilhas de Horas e horas, consulte [Conceder acesso administrativo a determinadas áreas aos usuários](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md). <span class="preview">O acesso administrativo a Planilhas de Horas e horas não está disponível para licenças Light.</span>
+* Uma licença Padrão ou de Plano com acesso administrativo a Folhas de horas e horas ou uma licença Light com acesso de Edição a Projetos. Para obter mais informações sobre como conceder acesso administrativo a Planilhas de Horas e horas, consulte [Conceder acesso administrativo a determinadas áreas aos usuários](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md). O acesso administrativo a Folhas de horas e horas não está disponível para licenças Light.
 * Contribute ou tenha permissões mais altas para o projeto com acesso a Registrar horas. Para obter mais informações sobre como conceder permissões em projetos, consulte [Compartilhar um projeto no Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * O administrador do Workfront deve habilitar a configuração Registrar horas diretamente nos projetos na seção **Folhas de horas e horas > Preferências** da área Configuração, se desejar registrar horas diretamente em um projeto. Para obter mais informações sobre como permitir que os usuários registrem horas diretamente nos projetos, consulte [Configurar preferências de horas e folha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
