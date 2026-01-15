@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: f23414b3c4810e47fa084d303e640a289de1f98d
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '6941'
 ht-degree: 5%
@@ -16,8 +16,6 @@ ht-degree: 5%
 ---
 
 # Criar um formulário personalizado
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -263,13 +261,13 @@ Para adicionar um campo de texto:
     <td><ul><li>Texto descritivo</li></ul></td>
     </tr>
     <tr>
-     <td><span class="preview">Ativo</span></td>
-     <td><span class="preview"><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></span></td>
-     <td><ul><span class="preview">
+     <td>Ativo</td>
+     <td><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></td>
+     <td><ul>
      <li>Texto de linha única</li>
      <li>Parágrafo</li>
      <li>Texto com formatação</li>
-     <li>Texto descritivo</li></span></ul></td>
+     <li>Texto descritivo</li></ul></td>
     </tr>
     <tr> 
       <td role="rowheader">Tornar um campo obrigatório</td>
@@ -421,13 +419,13 @@ Para adicionar botões de opção, grupos de caixas de seleção e menus suspens
     </td>
      </tr>
     <tr>
-     <td><span class="preview">Ativo</span></td>
-     <td><span class="preview"><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></span></td>
-     <td><ul><span class="preview">
+     <td>Ativo</td>
+     <td><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></td>
+     <td><ul>
      <li>Botões de opção</li>
      <li>Grupo de caixas de seleção</li>
      <li>Lista suspensa de seleção única</li>
-     <li>Lista suspensa com seleção múltipla</li></span></ul></td>
+     <li>Lista suspensa com seleção múltipla</li></ul></td>
     </tr>
     <tr> 
     <td role="rowheader">Tornar um campo obrigatório</td> 
@@ -562,11 +560,11 @@ Para adicionar campos de digitação antecipada e data:
       </td>
      </tr>
      <tr>
-      <td><span class="preview">Ativo</span></td>
-      <td><span class="preview"><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></span></td>
-      <td><ul><span class="preview">
+      <td>Ativo</td>
+      <td><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></td>
+      <td><ul>
       <li>Typeahead</li>
-      <li>Data</li></span></ul></td>
+      <li>Data</li></ul></td>
      </tr>
      <tr> 
       <td role="rowheader">Tornar um campo obrigatório</td> 
@@ -655,12 +653,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções suspensas.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
-      &lbrace;
-       dados: &lbrace;
+      {
+       dados: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o Caminho JSON e verificar se você grava o Caminho JSON correto, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -674,8 +672,8 @@ Para adicionar uma pesquisa externa:
       <td><p>Selecione essa opção para permitir que o usuário selecione mais de um valor no menu suspenso.</p></td>
      </tr>
      <tr>
-      <td><span class="preview">Ativo</span></td>
-      <td><span class="preview"><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></span></td>
+      <td>Ativo</td>
+      <td><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Tornar um campo obrigatório</td>
@@ -767,8 +765,8 @@ Para adicionar imagens, PDFs ou vídeos:
       <td> <p>Digite quaisquer informações adicionais sobre o widget. Quando os usuários preencherem o formulário personalizado, poderão passar o mouse sobre o ícone de ponto de interrogação para exibir uma dica de ferramenta contendo as informações digitadas aqui.</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">Ativo</span></td>
-      <td><span class="preview"><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></span></td>
+      <td>Ativo</td>
+      <td><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -904,8 +902,8 @@ Esta tabela lista os campos nativos disponíveis para objetos Workfront específ
       <td>
      </tr>
      <tr>
-      <td><span class="preview">Ativo</span></td>
-      <td><span class="preview"><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></span></td>
+      <td>Ativo</td>
+      <td><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Tornar um campo obrigatório</td>
@@ -961,8 +959,8 @@ Para adicionar um arquivo Adobe XD:
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr>
      <tr>
-      <td><span class="preview">Ativo</span></td>
-      <td><span class="preview"><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></span></td>
+      <td>Ativo</td>
+      <td><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -1057,8 +1055,8 @@ Para adicionar um campo de conexão do Planning:
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
      <tr>
-      <td><span class="preview">Ativo</span></td>
-      <td><span class="preview"><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></span></td>
+      <td>Ativo</td>
+      <td><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></td>
      </tr>
       </tbody> 
    </table>

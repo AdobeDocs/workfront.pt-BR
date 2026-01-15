@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: e95701bdce2388f7f2b249b1fbf5b27d0ded08af
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 1%
@@ -16,8 +16,6 @@ ht-degree: 1%
 ---
 
 # Adicionar campos calculados a um formulário
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -95,10 +93,6 @@ Para reutilizar um campo personalizado calculado existente:
 
 1. No painel esquerdo, clique em **Forms Personalizado** e depois em **Forms**.
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. Clique em **Novo formulário personalizado**.
 
 1. Na caixa de diálogo **Novo Formulário Personalizado**, selecione a quais tipos de objeto você deseja anexar o formulário personalizado e clique em **Continuar**.
@@ -108,9 +102,9 @@ Para reutilizar um campo personalizado calculado existente:
 
 1. Use a caixa de pesquisa ou expanda a seção **Calculado** para localizar o campo calculado necessário e, em seguida, arraste o campo onde deseja que ele apareça no formulário personalizado.
 
-1. <span class="preview">(Condicional) Clique em **Verificar se há conflitos** para revisar todos os objetos que podem ser afetados pela alteração da fórmula neste campo calculado.</span>
+1. (Condicional) Clique em **Verificar se há conflitos** para revisar todos os objetos que podem ser afetados pela alteração da fórmula neste campo calculado.
 
-   <span class="preview">Se dois ou mais formulários contendo o mesmo campo calculado forem anexados a um objeto, as fórmulas deverão ser idênticas em todos os formulários. A edição da fórmula não é permitida se a alteração puder causar um conflito.</span>
+   Se dois ou mais formulários contendo o mesmo campo calculado forem anexados a um objeto, as fórmulas deverão ser idênticas em todos os formulários. A edição da fórmula não é permitida se a alteração puder causar um conflito.
 
 1. (Opcional) Repita a etapa anterior para adicionar outros campos.
 
@@ -138,10 +132,6 @@ Para reutilizar um campo personalizado calculado existente:
 1. No painel esquerdo, clique em **Forms Personalizado** e depois em **Forms**.
 
 1. Clique em **Novo formulário personalizado**.
-
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
 1. Na caixa de diálogo **Novo Formulário Personalizado**, selecione a quais tipos de objeto você deseja anexar o formulário personalizado e clique em **Continuar**.
 
@@ -176,8 +166,8 @@ Para reutilizar um campo personalizado calculado existente:
       <p><strong>OBSERVAÇÃO</strong>: campos calculados com um formato <strong>Moeda</strong> não devem incluir aspas. (Por exemplo, use 800.00 e não "800.00".) O uso de aspas pode causar consequências inesperadas devido a nuances na formatação de idioma para tipos de moeda.</p></td>
      </tr> 
      <tr>
-      <td><span class="preview">Ativo</span></td>
-      <td><span class="preview"><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></span></td>
+      <td>Ativo</td>
+      <td><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></td>
      </tr>
     </tbody> 
    </table>
@@ -288,7 +278,7 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
            >
            ><div>Em um formulário personalizado anexado a um objeto, os demonstrativos de data e hora em campos personalizados calculados são calculados e salvos pelo Tempo universal coordenado (UTC), não pelas configurações de fuso horário definidas para a instância da organização e o perfil do usuário. Os cálculos em um formulário personalizado são gerados com base nos fusos horários individuais de cada usuário.</div>
 
-      +++
+        +++
 
    1. Clique na caixa de texto grande e, em seguida, clique em **Expressões** e **Campos** disponíveis para adicioná-los ao cálculo.
 

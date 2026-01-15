@@ -7,16 +7,14 @@ description: Você pode editar informações em um formulário personalizado dep
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
 workflow-type: tm+mt
 source-wordcount: '1207'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # Editar informações em campos de formulário personalizados
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2025-->
 
@@ -24,7 +22,7 @@ Você pode editar informações em um formulário personalizado depois que o for
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -122,7 +120,7 @@ Para obter informações sobre quais objetos podem ter um formulário personaliz
 
    >[!NOTE]
    >
-   ><span class="preview">Os campos que permitem várias seleções podem limitar o número de opções que você pode escolher. As caixas de seleção e as listas suspensas de várias seleções estão limitadas a 5000 seleções.</span>
+   >Os campos que permitem várias seleções podem limitar quantas opções você pode escolher. As caixas de seleção e os menus suspensos de várias seleções estão limitados a 5000 seleções.
 
    Para obter informações sobre todos os tipos de campo, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

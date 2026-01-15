@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 2f7b5c9d3a934708f3128ed9e4efa76b12619913
+source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 4%
@@ -17,13 +17,11 @@ ht-degree: 4%
 
 # Adicionar ou editar um campo personalizado, quebra de seção ou widget
 
-{{preview-fast-release-general}}
-
 Você pode adicionar um novo campo ou widget personalizado diretamente na área Campos no Workfront, sem abrir um formulário personalizado para criar o campo.
 
 Também é possível editar as propriedades de um campo personalizado, quebra de seção ou widget usado em formulários personalizados. Isso inclui o rótulo do item, nome, instruções e assim por diante.
 
-<span class="preview">Definir um campo personalizado como Inativo o exclui dos relatórios, filtros e modos de exibição, e o campo não está mais disponível na biblioteca de campos de formulários personalizados. Todos os novos campos são definidos como Ativo por padrão. </span>
+Configurar um campo personalizado como Inativo o exclui dos relatórios, filtros e exibições e o campo não está mais disponível na biblioteca de campos de formulários personalizados. Todos os novos campos são definidos como Ativo por padrão.
 
 >[!NOTE]
 >
