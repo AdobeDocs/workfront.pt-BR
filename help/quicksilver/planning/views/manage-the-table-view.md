@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '3500'
+source-wordcount: '3418'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 # Gerenciar a exibição de tabela
 
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -191,7 +191,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
 
    As colunas adicionadas ficam visíveis para todos os usuários que acessam o tipo de registro e são adicionadas como novos campos na página do registro.
 
-1. (Opcional) Clique no ícone **Campos** ![Ícone Campos](assets/fields-icon.png) na barra de ferramentas, localize o campo na lista ou <span class="preview"> procure um campo</span> e desmarque a alternância à direita do nome do campo para ocultar o campo.
+1. (Opcional) Clique no ícone **Campos** ![Ícone Campos](assets/fields-icon.png) na barra de ferramentas, procure um campo e desmarque a opção de alternância à direita do nome do campo para ocultar o campo.
 
 1. Siga um destes procedimentos para reordenar colunas na tabela:
 
@@ -311,7 +311,7 @@ Para adicionar um filtro a uma exibição de tabela:
 1. Selecione uma exibição de tabela e clique em **Filtros** no canto superior direito da tabela.
 1. Clique em **Adicionar condição** e adicione as seguintes informações:
 
-   * <span class="preview">Procure um campo ou </span> clique no menu suspenso para exibir uma lista de campos e selecione-o na lista.
+   * Procure um campo e selecione-o quando ele for exibido na lista quando.
 
    * **Selecione uma opção** (ou um modificador de filtro) para definir que tipo de condição o campo deve atender
 
@@ -542,7 +542,7 @@ To sort grouped records:
 
 1. (Opcional) Clique em **Cores da linha** para definir condições e escolher a configuração de cores diferentes para linhas da tabela.
 
-1. Clique em **Adicionar cor** e depois em <span class="preview">procurar um campo ou </span> clique no menu suspenso para exibir uma lista de campos e selecioná-lo na lista. Este é o campo cujo valor você deseja determinar a cor de uma linha.
+1. Clique em **Adicionar cor** e procure um campo e, em seguida, selecione-o quando ele for exibido na lista. Este é o campo cujo valor você deseja determinar a cor de uma linha.
 
    Por exemplo, para exibir campanhas com um status de Ativo em verde, selecione **Status** e escolha um modificador e um valor para o campo.
 

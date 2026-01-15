@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 0c890cc535c61c5402a334e43ed45b3ec3f9f748
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1901'
-ht-degree: 0%
+source-wordcount: '1841'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -41,7 +41,7 @@ This article describes how you can share a view with others. For information abo
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -171,7 +171,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
   >[!NOTE]
   >
-  ><span class="preview">Não é possível compartilhar uma exibição publicamente de um tipo de registro global em um espaço de trabalho secundário. Para obter mais informações, consulte [Adicionar tipos de registro existentes de outro espaço de trabalho](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).</span>
+  >Não é possível compartilhar uma exibição publicamente de um tipo de registro global em um espaço de trabalho secundário. Para obter mais informações, consulte [Adicionar tipos de registro existentes de outro espaço de trabalho](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 
 * As pessoas de fora da organização que têm acesso a uma exibição não podem criar outras exibições, editar a exibição compartilhada ou adicionar, excluir ou editar informações de registro na exibição.
@@ -243,7 +243,7 @@ Você pode compartilhar exibições que criou ou exibições para as quais tem p
 
 É possível compartilhar os modos de exibição criados ou os modos de exibição nos quais você tem permissões de gerenciamento com pessoas que não têm uma licença da Workfront e que podem ser externas à organização.
 
-<span class="preview">Você não pode compartilhar uma exibição publicamente de um tipo de registro global em seu espaço de trabalho secundário. </span>
+Não é possível compartilhar uma exibição publicamente de um tipo de registro global em seu espaço de trabalho secundário.
 
 >[!IMPORTANT]
 >
@@ -277,7 +277,7 @@ Para compartilhar uma exibição publicamente no Workfront Planning:
 
    >[!TIP]
    >
-   ><span class="preview">A guia **Compartilhamento público** é removida de um tipo de registro global em seu espaço de trabalho secundário.</span>
+   >A guia **Compartilhamento público** foi removida de um tipo de registro global em seu espaço de trabalho secundário.
 
 
 1. Clique no ícone **Copiar link** ![Copiar exibição de link](assets/copy-link-view.png) para copiar o link para a área de transferência.

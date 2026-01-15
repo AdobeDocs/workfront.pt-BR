@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5b1993d49ff675b3bab1d470bc756b987fe19d1c
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -296,7 +296,7 @@ As seguintes situações ocorrem:
 
 ## Adicionar uma página Registros conectados a um registro
 
-Você pode exibir informações de registros ou objetos conectados adicionando uma guia de uma página Registros conectados a um registro. Isso adiciona os registros conectados em uma exibição de tabela à guia.
+Você pode exibir informações de registros ou objetos conectados adicionando uma guia de uma página Registros conectados à área de detalhes de um registro. Isso adiciona os registros conectados em uma tabela ou exibição de lista à guia.
 
 Para obter mais informações, consulte [Adicionar uma página de registros conectados a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 

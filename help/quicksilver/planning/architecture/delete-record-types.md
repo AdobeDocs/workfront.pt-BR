@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 0%
+source-wordcount: '1075'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # Excluir tipos de registro
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -52,17 +52,17 @@ Para obter informações sobre tipos de registros, consulte [Visão geral sobre 
 <li><p>Qualquer Workfront e qualquer pacote do Planning</p></li>
 Ou
 <li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
-<div class="preview">
+
 <p>Para deletar tipos de registro global:</p>
 <ul><li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
 Ou
 <li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
-</div>
+
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    </td> 
   </tr> 
   <tr> 
@@ -150,13 +150,9 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 * Não é possível recuperar tipos de registros excluídos ou suas informações.
 * É recomendável recriar os campos e os registros associados ao tipo de registro que você deseja excluir em outro tipo de registro antes de excluí-los.
 
-<div class="preview">
-
 * Não é possível excluir um tipo de registro global que tenha sido adicionado a outros espaços de trabalho.
 
   Para obter mais informações, consulte a seção [Excluir tipos de registros globais](#delete-global-record-types) neste artigo.
-
-</div>
 
 ## Excluir tipos de registro
 
@@ -174,14 +170,16 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    * Passe o mouse sobre o cartão de tipo de registro, clique no menu **Mais** e **Excluir**.
    * Clique no cartão do tipo de registro que deseja excluir e, na página de tipo de registro, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro e clique em **Excluir**.
 
-   ![Excluir permanentemente a confirmação do tipo de registro](assets/permanently-delete-record-type-confirmation.png)
+     >[!TIP]
+     >
+     >Não é possível excluir um tipo de registro global do espaço de trabalho secundário onde ele foi adicionado na página de tipo de registro. Você só pode excluí-lo do cartão de tipo de registro no espaço de trabalho.
+
+     ![Excluir permanentemente a confirmação do tipo de registro](assets/permanently-delete-record-type-confirmation.png)
 
 
 1. Digite **excluir** na caixa de confirmação e clique em **Excluir permanentemente**. Isso não diferencia maiúsculas de minúsculas.
 
    O tipo de registro selecionado, juntamente com seus campos, registros associados e exibições são excluídos e não podem ser recuperados.
-
-<div class="preview">
 
 ## Excluir tipos de registro global
 
@@ -189,11 +187,13 @@ Os seguintes cenários existem ao excluir tipos de registros globais:
 
 * Se um tipo de registro configurado como global ainda não tiver sido adicionado a outro espaço de trabalho, você poderá excluí-lo do espaço de trabalho original.
 
-* Se um tipo de registro configurado como um tipo de registro global tiver sido adicionado a pelo menos outro espaço de trabalho, você não poderá excluí-lo do espaço de trabalho original. Primeiro, você deve remover (excluindo) os tipos de registro global dos espaços de trabalho secundários em que foram adicionados e, em seguida, pode excluir permanentemente o tipo de registro global de seu espaço de trabalho original.
+* Se um tipo de registro configurado como um tipo de registro global tiver sido adicionado a pelo menos outro espaço de trabalho, você não poderá excluí-lo do espaço de trabalho original. Primeiro, você deve remover (excluindo) o tipo de registro global dos espaços de trabalho secundários em que foram adicionados e, em seguida, pode excluir permanentemente o tipo de registro global de seu espaço de trabalho original.
 
 ### Excluir um tipo de registro global do espaço de trabalho original
 
 Você poderá excluir um tipo de registro de seu espaço de trabalho original se ele não for mais relevante.
+
+Todos os registros e campos também são excluídos e não podem ser recuperados.
 
 1. Vá para o tipo de registro global em seu espaço de trabalho original.
 
@@ -209,7 +209,7 @@ Você poderá excluir um tipo de registro de seu espaço de trabalho original se
    As seguintes situações ocorrem:
 
    * O tipo de registro global é removido do espaço de trabalho original e o tipo de registro, seus registros e campos não podem ser recuperados.
-   * Todos os tipos de registros globais dos espaços de trabalho secundários e seus registros também são removidos.
+   * Todos os registros globais dos espaços de trabalho secundários e seus registros também são removidos deste espaço de trabalho.
 
 ### Excluir um tipo de registro global de um espaço de trabalho secundário
 
@@ -217,11 +217,13 @@ Você poderá excluir um tipo de registro de seu espaço de trabalho original se
 
 Considere o seguinte:
 
-* A exclusão de um tipo de registro global de um espaço de trabalho secundário só o removerá do espaço de trabalho secundário. O tipo de registro permanece no espaço de trabalho original.
+* Quando você deleta um tipo de registro global de um espaço de trabalho secundário, o tipo de registro permanece no espaço de trabalho original.
 
 * Quando você deleta um tipo de registro global de um espaço de trabalho secundário, os itens a seguir também são deletados:
 
-   * Os registros adicionados do espaço de trabalho secundário.
+   * Os registros adicionados do espaço de trabalho secundário são excluídos desse espaço e não podem ser recuperados.
+
+     Os registros adicionados ao espaço de trabalho secundário permanecem no espaço de trabalho principal do tipo de registro global. O campo **Workspace** está vazio para esses registros no espaço de trabalho primário do tipo de registro global. <!--checking on this with Lilit-->
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 
@@ -233,16 +235,16 @@ Para deletar um tipo de registro global de um espaço de trabalho secundário:
 
 1. Vá para o tipo de registro global no espaço de trabalho secundário.
 
-1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) no cartão do tipo de registro ou à direita do nome do tipo de registro em sua página e clique em **Excluir**.
+1. (Opcional) Clique no menu **Mais** ![Mais menu](assets/more-menu.png) no cartão do tipo de registro e clique em **Excluir**.
 1. (Condicional) Digite **delete** no campo fornecido e clique em **Excluir permanentemente**.
 
    ![Excluir caixa de confirmação do tipo de registro global secundário](assets/delete-secondary-global-record-type.png)
 
    As seguintes situações ocorrem:
 
-   * O tipo de registro criado a partir de um tipo de registro global é removido do espaço de trabalho selecionado.
+   * O tipo de registro criado de um tipo de registro global é removido do espaço de trabalho secundário selecionado.
    * O tipo de registro original com seus campos permanecem em seu espaço de trabalho original.
    * O tipo de registro permanece em todos os outros espaços de trabalho aos quais foi adicionado.
-   * Os registros <!--and fields--> adicionados ao tipo de registro do espaço de trabalho atual são excluídos. Todos os outros registros adicionados de espaços de trabalho adicionais onde o tipo de registro global foi adicionado são preservados em seus respectivos espaços de trabalho e no espaço de trabalho original. &lt;!— Os campos são preservados nos espaços de trabalho onde foram adicionados.
+   * Os registros <!--and fields--> adicionados ao tipo de registro do espaço de trabalho secundário são excluídos. Todos os outros registros adicionados de espaços de trabalho adicionais onde o tipo de registro global foi adicionado são preservados em seus respectivos espaços de trabalho e no espaço de trabalho original. &lt;!— Os campos são preservados nos espaços de trabalho onde foram adicionados.
 
-</div>
+

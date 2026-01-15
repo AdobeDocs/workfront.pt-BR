@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 798e9ee9862b34653730c07acc9c48b901b98e63
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1847'
-ht-degree: 4%
+source-wordcount: '1776'
+ht-degree: 5%
 
 ---
 
 # Gerenciar a exibição de calendário
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -221,7 +221,7 @@ Para adicionar um filtro a uma exibição de calendário:
 1. Selecione um modo de exibição de calendário e clique em **Filtros** na barra de ferramentas do calendário.
 1. Clique em **Adicionar condição** e adicione as seguintes informações:
 
-   * **Selecione um campo** para <span class="preview">procurar um campo ou </span> clique no menu suspenso para exibir uma lista de campos e selecioná-lo na lista
+   * **Selecione um campo** para procurar um campo e selecione-o na lista
 
    * **Selecione uma opção** (ou um modificador de filtro) para definir que tipo de condição o campo deve atender
 
@@ -343,7 +343,7 @@ O número de registros exibidos no calendário varia dependendo de quantos campo
     <li>1 registro exibindo mais de 1 campo</li></ul>
         </td>
     </tr>
-    <tr><td>Standard</td>
+    <tr><td>Padrão</td>
         <td><p>Contém:</p>
 
    <ul><li>4 registros exibindo 1 campo</li>

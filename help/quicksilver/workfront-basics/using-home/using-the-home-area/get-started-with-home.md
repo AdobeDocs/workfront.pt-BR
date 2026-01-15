@@ -6,10 +6,10 @@ description: O Início ajuda você a gerenciar seu trabalho. É possível person
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 3%
+source-wordcount: '992'
+ht-degree: 4%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 3%
 
 <!--Audited: 12/2023-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ A nova Página inicial é um novo recurso poderoso para gerenciar seu trabalho. 
 
 A nova Página inicial foi projetada para ser altamente personalizável, permitindo selecionar os widgets que acompanham seu trabalho mais importante, filtrar o escopo desse trabalho com base no prazo e até mesmo adicionar um toque de cor.
 
-### Dispositivos
+### Widgets
 
 Os widgets são a base da nova Página inicial. Ao adicionar widgets à sua página inicial, você pode escolher o tipo de informação que é exibida para melhor atender às suas necessidades de trabalho. Alguns widgets só estão disponíveis para tipos específicos de licença, pois os objetos que eles rastreiam só estão disponíveis para essas licenças.
 
@@ -70,13 +70,10 @@ Abaixo estão os 11 widgets atualmente disponíveis para escolher, bem como um r
         Exibe dois gráficos com informações sobre o tempo médio de aprovação e as decisões do documento, bem como exibições de lista de aprovações pendentes e vencidas. Você deve ter [Aprovações Unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) habilitadas para usar este widget.
 
 * **Menções**\
-    No ambiente de Produção do, ele exibe threads de comentários recentes de todo o Workfront, semelhantes à página Minhas atualizações. Você pode usar o botão responder para compor uma resposta no widget. Este widget também mostra comentários feitos sobre tarefas e problemas atribuídos a você, atribuídos a outro usuário, de sua propriedade, do qual você é o contato principal ou que você criou, desde que a tarefa ou problema tenha sido atualizado nos últimos 30 dias.
+        Ele exibe comentários recentes que você fez ou comentários nos quais outros usuários o marcaram e que foram adicionados nas últimas 2 semanas. Você pode usar o botão responder para compor uma resposta no widget.
 
-  <div class="preview">
+  <!--old: In the Production environment, it displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.-->
 
-  No ambiente de Pré-visualização, são exibidos comentários recentes feitos por você ou comentários nos quais outros usuários o marcaram e que foram adicionados nas últimas 2 semanas. Você pode usar o botão responder para compor uma resposta no widget.
-
-  </div>
 
 * **Tarefas pendentes**\
     Este widget exclusivo permite adicionar itens a uma lista de verificação pessoal que você pode editar livremente. As tarefas são rastreadas como tarefas no seu projeto pessoal e permanecem por até duas semanas após a conclusão.
@@ -150,7 +147,7 @@ Você pode adicionar um pouco de clarão pessoal à sua Página inicial selecion
 1. Vá para a Home page seguindo um destes procedimentos:
 
    * Se a Página inicial estiver definida como página de aterrissagem, clique no **ícone do Adobe Workfront** ![ícone do Adobe Workfront](assets/home-icon-30x29.png) no canto superior esquerdo da tela.
-   * Clique no ícone **Menu Principal** no canto superior direito da tela ou no **Ícone do** Menu Principal![Ícone do &#x200B;](assets/main-menu-icon.png) no canto superior esquerdo, se disponível, em seguida, clique em **Página Inicial**.
+   * Clique no ícone **Menu Principal** no canto superior direito da tela ou no **Ícone do** Menu Principal![Ícone do ](assets/main-menu-icon.png) no canto superior esquerdo, se disponível, em seguida, clique em **Página Inicial**.
 
 1. Clique em **Personalizar** no canto superior direito da tela.
 

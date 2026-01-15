@@ -6,9 +6,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Excluir campos
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -50,10 +50,10 @@ Para obter informações sobre como criar campos personalizados no Workfront Pla
 Ou
 <li><p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p></li></ul>
 
-<p><span class="preview">Para deletar campos de tipos de registro global:</span></p>
-<ul><li><p><span class="preview">Qualquer pacote Workfront e um pacote Planning Plus</span></p></li>
+<p>Para deletar campos de tipos de registro global:</p>
+<ul><li><p>Qualquer pacote Workfront e um pacote Planning Plus</p></li>
 Ou
-<li><p><span class="preview">Qualquer fluxo de trabalho e pacotes do Planning Prime e Ultimate</span></p></li></ul>
+<li><p>Qualquer fluxo de trabalho e pacotes do Planning Prime e Ultimate</p></li></ul>
 
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
@@ -149,7 +149,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
-* <span class="preview">Não é possível excluir campos de registros globais que foram adicionados a espaços de trabalho secundários a partir de espaços de trabalho secundários.</span>
+* Não é possível excluir campos de registros globais que foram adicionados a espaços de trabalho secundários a partir de espaços de trabalho secundários.
 
 ## Excluir campos
 
@@ -184,4 +184,4 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    * Se você excluir um campo que pertence ao registro selecionado, o campo será excluído e não poderá mais ser associado a nenhum registro. Se esse campo for adicionado como um campo de pesquisa em outros registros, esses campos também serão excluídos.
    * Se você excluir um campo de conexão, o campo será excluído do registro selecionado. Além disso, o campo de conexão correspondente de seu registro original também é excluído.
    * Se você excluir um campo de pesquisa que foi adicionado de um registro conectado, o campo será excluído do tipo de registro selecionado, mas permanecerá em seu tipo de registro original.
-   * <span class="preview">Se você excluir um campo de um tipo de registro global em seu espaço de trabalho principal, ele será excluído de todos os espaços de trabalho aos quais esse tipo de registro foi adicionado. Não é possível excluir campos de tipos de registros globais de seus espaços de trabalho secundários.</span>
+   * Se você excluir um campo de um tipo de registro global em seu espaço de trabalho principal, ele será excluído de todos os espaços de trabalho em que esse tipo de registro foi adicionado. Não é possível excluir campos de tipos de registro global de seus espaços de trabalho secundários.

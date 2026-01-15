@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 476e10f2962f19fd17705cb5f20619d3b636aaa4
+source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 1%
+source-wordcount: '1136'
+ht-degree: 2%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # Criar tipos de registro
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -55,7 +55,6 @@ Para obter mais informações sobre tipos de registros, consulte [Visão geral s
 Ou
 <li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
 
-<div class="preview">
 <p>Para configurar tipos de registro global:</p>
 
 <ul> 
@@ -64,11 +63,10 @@ Ou
 <li><p>Qualquer fluxo de trabalho e um pacote do Planning Prime ou Ultimate</p></li></ul>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p>
 
-</div>
-   </td> </tr>
+</td> </tr>
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    </td> 
   </tr> 
   <tr> 
@@ -163,8 +161,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
         Este artigo descreve como criar tipos de registro do zero.
 
-      * <span class="preview">Adicionando-os de outro espaço de trabalho</span>
-        <span class="preview">Para obter informações, consulte [Adicionar tipos de registro existentes de outro espaço de trabalho](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>
+      * Adicionando-os de outro espaço de trabalho
+Para obter informações, consulte [Adicionar tipos de registro existentes de outro espaço de trabalho](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
 
 * Você pode mover tipos de registro em uma seção e de uma seção de um espaço de trabalho para outra. Não é possível mover tipos de registro de um espaço de trabalho para outro.
@@ -208,9 +206,9 @@ Você pode adicionar tipos de registro manualmente nas seções Tipos de Registr
       * Selecione uma cor para identificar o novo tipo de registro. Esta é a cor do ícone do tipo de registro. O cinza é selecionado por padrão.
       * Selecione um ícone na lista ou comece a digitar o nome de um ícone no campo de pesquisa para descrever o que ele representa e, em seguida, selecione-o quando ele for exibido. Este é o ícone do tipo de registro. Um ícone de arquivo é selecionado por padrão.
 
-1. (Opcional e condicional) Se você for um administrador do sistema, clique na guia **Configurações avançadas** <span class="preview">ou **Configurações entre espaços de trabalho**</span> e <span class="preview">atualize as informações sobre os recursos entre espaços de trabalho do tipo de registro.
+1. (Opcional e condicional) Se você for um administrador do sistema, clique na guia **Configurações entre espaços de trabalho** e atualize as informações sobre os recursos entre espaços de trabalho do tipo de registro.
 
-   ![Editar caixa de tipo de registro com guia de configurações avançadas](assets/edit-record-type-box-advanced-settings-tab.png) </span>
+   ![Editar caixa de tipo de registro com guia de configurações entre espaços de trabalho](assets/edit-record-type-box-advanced-settings-tab.png) </span>
 
    Para obter mais informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 
@@ -223,9 +221,9 @@ A Descrição do tipo de registro é exibida no cartão.
 
    Se você optou por conectar este registro a partir de outros espaços de trabalho, o ícone **Registro conectável** ![Conectar a partir de outros espaços](assets/connect-from-other-workspaces-icon.png) será exibido no cartão de registro.
 
-   <span class="preview">Se você optou por permitir a adição deste registro a outros espaços de trabalho, o **Ícone de registro global** ![Ícone de tipo de registro global](assets/global-icon.png) será exibido no cartão de registro. </span>
+   Se você optou por permitir a adição deste registro a outros espaços de trabalho, o **ícone de Registro global** ![ícone de Tipo de registro global](assets/global-icon.png) será exibido no cartão de registro.
 
-1. (Opcional) Passe o mouse sobre o cartão de tipo de registro, clique no ícone **Mais**, ![Mais menus](assets/more-menu.png) no canto superior direito e, em seguida, clique em **Editar** ou <span class="preview">**Configurações**</span> para modificar as informações sobre o tipo de registro.
+1. (Opcional) Passe o mouse sobre o cartão de tipo de registro, clique no ícone **Mais**, ![Mais menus](assets/more-menu.png) no canto superior direito e, em seguida, clique em **Editar** ou **Configurações** para modificar as informações sobre o tipo de registro.
 
    Para obter informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
 
@@ -277,12 +275,8 @@ Você pode importar o seguinte ao importar informações de um arquivo CSV ou do
 
 Para obter mais informações, consulte [Criar Tipos de Registro importando informações de um arquivo CSV ou do Excel](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
-<div class="preview">
-
 ## Criar tipos de registro adicionando os existentes de outro espaço de trabalho
 
 Você pode adicionar tipos de registro a um espaço de trabalho adicionando os existentes de outro espaço de trabalho. Você só pode adicionar tipos de registro que tenham sido configurados como tipos de registro globais.
 
 Para obter informações, consulte [Adicionar tipos de registro existentes de outro espaço de trabalho](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
-
-</div>
