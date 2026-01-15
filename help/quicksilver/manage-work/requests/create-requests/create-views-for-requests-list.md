@@ -5,9 +5,9 @@ title: Criar e gerenciar exibições na área Solicitações
 description: Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações.
 author: Becky
 feature: Work Management
-source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '693'
 ht-degree: 3%
 
 ---
@@ -93,15 +93,7 @@ Você pode criar uma visualização na área Solicitações do Workfront,.
    >No momento, não é possível adicionar colunas no ambiente de produção.
 1. (Opcional) Clique em **Colunas** e oculte, exiba ou reorganize as colunas da lista de solicitações.
 
-   ![Caixa Colunas](assets/columns-editing-box-in-requests-planning-tab.png)
-
-   >[!TIP]
-   >
-   >No momento, não é possível adicionar mais nenhuma coluna no ambiente de produção.
-
-1. (Opcional) Clique em **Filtros** e comece a adicionar condições para quais solicitações você deseja exibir na guia Planning.
-
-   ![Editar filtros na guia de solicitações do Planning](assets/filters-editing-box-in-requests-planning-tab.png)
+1. (Opcional) Clique em **Filtros** e comece a adicionar condições para quais solicitações você deseja exibir.
 
    Você pode filtrar pelos seguintes campos:
 

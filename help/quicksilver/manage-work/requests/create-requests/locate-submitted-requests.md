@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1440'
 ht-degree: 2%
 
 ---
@@ -19,21 +19,14 @@ ht-degree: 2%
 
 Você pode exibir as solicitações que você ou outra pessoa submeteu, ou as solicitações que você iniciou, mas que você nunca terminou de submeter. Você pode localizar essas solicitações nas seguintes áreas do Adobe Workfront:
 
-* A guia **Workfront** da área Solicitações do Workfront: Exiba solicitações enviadas às filas de solicitações do Workfront nas seguintes seções:
-   * **Seção enviada**: todas as solicitações que você ou outra pessoa enviou e que você tem acesso a pelo menos Exibir.
-   * **Seção de rascunho**: todas as solicitações que você iniciou, mas nunca terminou e nunca enviou. Para obter mais informações sobre rascunhos de solicitações, consulte [Criar e enviar solicitações do Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* A área Solicitações do Workfront
+* o widget Minhas solicitações na página inicial
 
   >[!NOTE]
   >
   >* Você só pode exibir seus próprios rascunhos de solicitações.
   >* Na nova experiência de solicitação, as solicitações e os rascunhos enviados estão na mesma lista.
   >* Os rascunhos criados na experiência herdada não aparecem na nova experiência de solicitação.
-
-* A guia **Planning** da área Solicitações no Workfront: Exibir solicitações enviadas aos formulários de solicitação do Workfront Planning. Sua organização deve comprar um pacote do Workfront Planning. Para obter informações, consulte os seguintes artigos:
-
-   * [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
-   * [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md)
-
 
 ## Requisitos de acesso
 
