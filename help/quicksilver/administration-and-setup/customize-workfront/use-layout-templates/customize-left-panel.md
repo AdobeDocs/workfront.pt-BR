@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 0%
+source-wordcount: '1095'
+ht-degree: 2%
 
 ---
 
 # Personalizar o painel esquerdo usando um modelo de layout
-
-{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -39,7 +37,7 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +50,7 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   </tr> 
@@ -108,7 +106,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <td>[!UICONTROL Projetos], [!UICONTROL Programas], [!UICONTROL Detalhes do Portfolio], [!UICONTROL Portfolio] [!UICONTROL Otimização], [!UICONTROL Documentos], [!UICONTROL Atualizações], [!UICONTROL Planejamento]*, [!UICONTROL Aplicativo Personalizado]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Programa]</td> 
+      <td>[!UICONTROL Program]</td> 
       <td>O nome de um programa</td> 
       <td>[!UICONTROL Projetos], [!UICONTROL Detalhes do Programa], [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Planejamento]*, [!UICONTROL Aplicativo Personalizado]**</td> 
      </tr> 
@@ -135,9 +133,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <td>[!UICONTROL Detalhes de Registro de Cobrança], [!UICONTROL Horas Faturáveis], [!UICONTROL Despesas Faturáveis], [!UICONTROL Receitas Fixas]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Projetos]</td> 
-      <td>Projetos <img src="assets/projects-in-main-menu.png"> no menu principal  <img src="assets/main-menu-icon.png"></td> 
-      <td>[!UICONTROL Projetos]</td> 
+      <td>[!UICONTROL Projects]</td> 
+      <td>Projetos <img src="assets/projects-in-main-menu.png"> no menu principal [!UICONTROL] <img src="assets/main-menu-icon.png"></td> 
+      <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Solicitações]</td> 
@@ -239,18 +237,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >
    >Para obter informações sobre painéis, consulte [Painéis](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-1. <span class="preview">No ambiente de Pré-visualização: Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.</span>
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Se tiver terminado de personalizar, clique em **Salvar e Fechar**.</span>
-
-1. No ambiente de Produção: Continue personalizando o modelo de layout.
+1. Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.
 
    Ou
 
-   Se tiver terminado de personalizar, clique em **Salvar**.
-
-   >[!TIP]
-   >
-   >Você pode clicar em **Salvar** a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.
+   Se tiver terminado de personalizar, clique em **Salvar e Fechar**.

@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 0%
+source-wordcount: '763'
+ht-degree: 2%
 
 ---
 
 # Personalizar filtros, visualizações e agrupamentos usando um modelo de layout
-
-{{preview-fast-release-general}}
 
 Como administrador do Adobe Workfront, você pode usar um modelo de layout para especificar quais controles de lista aparecem nos menus suspensos Filtro, Exibir e Agrupamento. Esses menus são exibidos acima em listas em todo o Workfront, como a lista de tarefas de um projeto:
 
@@ -31,7 +29,7 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +41,7 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   </tr> 
@@ -118,18 +116,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
     </tbody> 
    </table>
 
-1. <span class="preview">No ambiente de Pré-visualização: Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.</span>
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Se tiver terminado de personalizar, clique em **Salvar e Fechar**.</span>
-
-1. No ambiente de Produção: Continue personalizando o modelo de layout.
+1. Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.
 
    Ou
 
-   Se tiver terminado de personalizar, clique em **Salvar**.
-
-   >[!TIP]
-   >
-   >Você pode clicar em **Salvar** a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.
+   Se tiver terminado de personalizar, clique em **Salvar e Fechar**.

@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 4%
+source-wordcount: '535'
+ht-degree: 7%
 
 ---
 
 # Personalizar páginas fixadas usando um modelo de layout
-
-{{preview-fast-release-general}}
 
 Em um modelo de layout, você pode fixar as páginas que deseja que os usuários sempre tenham disponíveis na parte superior do Adobe Workfront. Podem ser páginas acessadas por meio do ![ícone do menu principal](assets/main-menu-icon.png) ou do ![ícone do menu principal](assets/main-menu-icon-left-nav.png) do Menu principal quando disponíveis, ou painéis.
 
@@ -33,7 +31,7 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +43,7 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   </tr> 
@@ -113,18 +111,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. (Opcional) Para excluir um pino, passe o mouse sobre o pino e clique no ícone de menu Mais ![ícone Mais](assets/more-icon.png) ao lado do nome do pino e clique em **Remover pino**.
 
-1. <span class="preview">No ambiente de Pré-visualização: Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.</span>
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Se tiver terminado de personalizar, clique em **Salvar e Fechar**.</span>
-
-1. No ambiente de Produção: Continue personalizando o modelo de layout.
+1. Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.
 
    Ou
 
-   Se tiver terminado de personalizar, clique em **Salvar**.
-
-   >[!TIP]
-   >
-   >Você pode clicar em **Salvar** a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.
+   Se tiver terminado de personalizar, clique em **Salvar e Fechar**.

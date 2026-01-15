@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: edc83693ef068e50aed06324f006cd8aa70ac019
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 0%
+source-wordcount: '532'
+ht-degree: 3%
 
 ---
 
 # Personalizar cabeçalhos de objetos usando um modelo de layout
-
-{{preview-fast-release-general}}
 
 Como administrador do Adobe Workfront ou administrador de grupo, você pode usar um modelo de layout para configurar os campos que os usuários veem no cabeçalho do objeto quando abrem a página de um objeto.
 
@@ -35,7 +33,7 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +45,7 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   </tr> 
@@ -97,18 +95,9 @@ Se você já tiver cinco campos selecionados, remova um campo antes de adicionar
 
 1. (Opcional) Arraste e solte os campos em uma ordem diferente.
 
-1. <span class="preview">No ambiente de Pré-visualização: Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.</span>
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Se tiver terminado de personalizar, clique em **Salvar e Fechar**.</span>
-
-1. No ambiente de Produção: Continue personalizando o modelo de layout.
+1. Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.
 
    Ou
 
-   Se tiver terminado de personalizar, clique em **Salvar**.
+   Se tiver terminado de personalizar, clique em **Salvar e Fechar**.
 
-   >[!TIP]
-   >
-   >Você pode clicar em **Salvar** a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.

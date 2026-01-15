@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 4fdfa1107034a48e149a5414475fbc0d7ce97564
+source-git-commit: 0f96a4d941eb4595ac60302b579cff31461272a7
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '659'
 ht-degree: 6%
 
 ---
 
 # Personalizar o menu principal usando um modelo de layout
-
-{{preview-fast-release-general}}
 
 <!--Audited: 01/2024-->
 
@@ -78,8 +76,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      >
      >Por padrão, o ícone Início no Menu principal exibe a área Minhas atualizações para usuários com licença de revisão (no plano de licença atual), a menos que eles tenham um modelo de layout associado ao seu perfil que inclua a área Minhas atualizações no Menu principal, além da área Início.
 
-
-   * <span class="preview">Prioridades</span>
+   * Prioridades
    * Portfólios
    * Programas
    * Projetos
@@ -135,20 +132,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    Você também pode clicar em **Cancelar** a qualquer momento se desejar descartar as alterações.
 
-1. <span class="preview">No ambiente de Pré-visualização: Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.</span>
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Se tiver terminado de personalizar, clique em **Salvar e Fechar**.</span>
-
-1. No ambiente de Produção: Continue personalizando o modelo de layout.
+1. Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.
 
    Ou
 
-   Se tiver terminado de personalizar, clique em **Salvar**.
-
-   >[!TIP]
-   >
-   >Você pode clicar em **Salvar** a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.
+   Se tiver terminado de personalizar, clique em **Salvar e Fechar**.
 
 Para obter mais informações sobre modelos de layout, consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

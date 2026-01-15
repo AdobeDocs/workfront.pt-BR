@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 2%
 
 ---
 
 # Atribuir usuários a um modelo de layout
-
-{{preview-fast-release-general}}
 
 É possível atribuir um modelo de layout criado a qualquer usuário, função de trabalho, equipe ou grupo que precise usá-lo.
 
@@ -33,7 +31,7 @@ Para obter informações sobre modelos de layout para grupos, consulte [Criar e 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +43,7 @@ Para obter informações sobre modelos de layout para grupos, consulte [Criar e 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   </tr> 
@@ -80,7 +78,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    É possível atribuir até 100 usuários de cada vez.
 
-1. Clique em **Concluído** e em **Salvar** ou <span class="preview">**Salvar e fechar**</span> no canto inferior esquerdo.
+1. Clique em **Concluído** e em **Salvar e fechar** no canto inferior esquerdo.
 
    Esta etapa conclui o processo de criação e atribuição de um modelo de layout.
 

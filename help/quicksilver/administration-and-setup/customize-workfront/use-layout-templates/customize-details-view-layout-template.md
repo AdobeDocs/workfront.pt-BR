@@ -8,22 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: e5416fab4f4ad1f2c31edf962554ddd6a4c2f1e5
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 3%
 
 ---
 
 # Personalizar a exibição de Detalhes usando um modelo de layout
 
-{{preview-fast-release-general}}
-
 Como administrador do Adobe Workfront, você pode usar um modelo de layout para determinar quais informações aparecem quando um usuário clica no ícone Detalhes ![ícone Detalhes](assets/project-details-icon.png) no painel esquerdo enquanto visualiza uma tarefa, problema, documento, programa ou portfólio.
-
-<!--
-or billing record
--->
 
 Você também pode alterar a ordem das informações nas quais essas informações aparecem. Por exemplo, para todas as tarefas que os usuários veem, é possível mover as informações do Forms personalizado para a parte superior da exibição Detalhes para todas as tarefas que os usuários veem.
 
@@ -67,7 +61,7 @@ Para obter informações sobre modelos de layout para grupos, consulte [Criar e 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +73,7 @@ Para obter informações sobre modelos de layout para grupos, consulte [Criar e 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   </tr> 
@@ -108,24 +102,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
      Todos os campos são ativados por padrão. Você pode marcar ou desmarcar a caixa de seleção **Selecionar tudo** em uma área para exibir ou ocultar todos os campos dessa área.
 
-   <span class="preview">Imagem de exemplo no ambiente de Visualização:</span>
-   ![Modo de exibição de detalhes no modelo de layout](assets/layout-template-details-view-updated-save-buttons.png)
+     ![Modo de exibição de detalhes no modelo de layout](assets/layout-template-details-view-updated-save-buttons.png)
 
-   Imagem de amostra no ambiente de produção:
-   ![Modo de exibição de detalhes no modelo de layout](assets/layout-template-details-view.png)
-
-1. <span class="preview">No ambiente de Pré-visualização: Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.</span>
-
-   <span class="preview">Ou</span>
-
-   <span class="preview">Se tiver terminado de personalizar, clique em **Salvar e Fechar**.</span>
-
-1. No ambiente de Produção: Continue personalizando o modelo de layout.
+1. Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.
 
    Ou
 
-   Se tiver terminado de personalizar, clique em **Salvar**.
+   Se tiver terminado de personalizar, clique em **Salvar e Fechar**.
 
-   >[!TIP]
-   >
-   >Você pode clicar em **Salvar** a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.

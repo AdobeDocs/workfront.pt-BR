@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: a561620e218cafc0af861d2b157b8dc7c83dd7ed
+source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 0%
+source-wordcount: '429'
+ht-degree: 4%
 
 ---
 
 # Conceder acesso administrativo a um modelo de layout
-
-{{preview-fast-release-general}}
 
 Como administrador do Adobe Workfront, você pode conceder acesso administrativo a um modelo de layout aos administradores de um grupo específico para que eles possam editar o modelo. Isso não atribui o modelo aos usuários no grupo.
 
@@ -29,7 +27,7 @@ Para obter informações sobre modelos de layout para grupos, consulte [Criar e 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +39,7 @@ Para obter informações sobre modelos de layout para grupos, consulte [Criar e 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   </tr> 
@@ -71,4 +69,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >   
    >* Se você não conceder acesso administrativo aos administradores de um grupo específico, todos os usuários que podem editar contas de usuários terão acesso administrativo ao modelo de layout. Alguns administradores do Workfront optam intencionalmente por não conceder acesso administrativo a um modelo de layout para transformá-lo em um modelo de layout no nível do sistema.
 
-1. Você pode clicar em <span class="preview">**Aplicar**</span> ou **Salvar** a qualquer momento para salvar seu progresso e, em seguida, continuar modificando o modelo mais tarde.
+1. Continue personalizando o modelo de layout. Você pode clicar em **Aplicar** a qualquer momento para salvar seu progresso.
+
+   Ou
+
+   Se tiver terminado de personalizar, clique em **Salvar e Fechar**.
