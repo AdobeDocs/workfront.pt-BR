@@ -6,7 +6,7 @@ description: Usar painéis do Canvas
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: f49197b1d49437cd3b1b981d093ae2a357d13072
+source-git-commit: 41e283ceccd0a95daae005d998a2ed8050a1ab0b
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 1%
@@ -72,7 +72,14 @@ Você pode personalizar temporariamente relatórios de tabela em painéis. Essas
    >
    >Essas alterações se aplicam somente à sessão atual e não afetam a configuração original do relatório. Para tornar permanentes essas alterações, é necessário editar o relatório.
 
-<!--### Use drilldowns
+
+<!--
+
+### Quick Search 
+
+### Filter
+### Use drilldowns
+
 
 You can use drilldowns in Canvas Dashboards to sort and group data within reports.
 

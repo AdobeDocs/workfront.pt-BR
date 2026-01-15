@@ -6,10 +6,10 @@ description: Com os Painéis do Canvas, você pode criar e adicionar relatórios
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 1%
+source-wordcount: '480'
+ht-degree: 5%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->&#x200B;>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -29,7 +29,7 @@ Com os Painéis do Canvas, você pode criar e adicionar relatórios a um painel 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -46,7 +46,7 @@ Com os Painéis do Canvas, você pode criar e adicionar relatórios a um painel 
  <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td> 
-<p>Standard </p> 
+<p>Padrão </p> 
 <p>Plano</p> 
    </td> 
    </tr> 
@@ -76,7 +76,29 @@ Os Painéis do Canvas oferecem uma grande variedade de opções e configuraçõe
 
 1. Clique em **Novo Painel** no canto superior direito.
 
-1. Na caixa **Criar painel**, digite o **Nome** e a **Descrição** do painel.
+1. Na caixa **Criar painel**,
+
+1. Especifique o seguinte:
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><strong>Nome</strong></td>
+      <td><p>Insira um nome para o painel. Recomendamos usar somente caracteres UTF-8 para evitar problemas de compatibilidade.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>Descrição (opcional)</strong></td>
+      <td>Insira uma descrição do painel.</td>
+     </tr>
+      <tr>
+      <td role="rowheader"><strong>Moeda</strong></td>
+      <td>Escolha o tipo de moeda padrão para o painel. <br>
+      <br>Os usuários podem alternar entre diferentes tipos de moeda ao filtrar o painel. Para obter mais informações, consulte <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrar um painel por tipo de moeda</a>.</td>
+     </tr>
+    </tbody>
+   </table>
 
 1. Clique em **Criar**. A **Caixa Adicionar relatório** é aberta. Aqui, é possível criar um novo relatório ou adicionar um relatório existente ao painel.
 

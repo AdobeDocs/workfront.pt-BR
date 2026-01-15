@@ -6,16 +6,14 @@ description: Você pode aplicar um filtro a um Painel da tela de desenho depois 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
+source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 1%
+source-wordcount: '989'
+ht-degree: 2%
 
 ---
 
 # Filtrar um painel da tela
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Visualização para todos os clientes.</span>
 
 >[!IMPORTANT]
 >
@@ -180,7 +178,6 @@ Todos os usuários com acesso a um painel podem aplicar um prompt de painel a um
 
 1. Clique no ícone **Fechar** ![Ícone Fechar](assets/close-icon.png) no canto superior direito para ocultar o painel.
 
-<span class="preview">
 
 ## Filtrar um painel por tipo de moeda
 
@@ -196,5 +193,3 @@ Para alterar o tipo de moeda do painel,
 1. Selecione o tipo de moeda desejado na lista.
 
    ![alterar lista suspensa de moedas](assets/filter-by-currency.png)
-
-</span>

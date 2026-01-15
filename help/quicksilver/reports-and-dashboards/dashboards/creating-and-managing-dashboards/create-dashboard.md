@@ -6,19 +6,16 @@ description: Você pode criar painéis para acessar informações rapidamente no
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 39a8d670baa19aa37e29b0312e6c9a296569f44c
+source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 4%
+source-wordcount: '494'
+ht-degree: 5%
 
 ---
 
 # Criar um painel
 
 <!--Audited: 01/2025-->
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Visualização para todos os clientes.</span>
-
 
 Você pode criar painéis para acessar informações rapidamente no Adobe Workfront. Até 25 relatórios, calendários e páginas externas podem ser adicionados a painéis que podem ser compartilhados com outras pessoas para colaboração ideal.
 
@@ -88,11 +85,6 @@ Você pode adicionar páginas externas existentes a um painel ou criar uma a par
      <tr>
       <td role="rowheader"><strong>Descrição (opcional)</strong></td>
       <td>Esta é uma descrição do seu painel.</td>
-     </tr>
-      <tr>
-      <td role="rowheader"><strong>Moeda</strong></td>
-      <td><span class="preview">Esse é o tipo de moeda padrão para o painel. <br>
-      <br>Os usuários podem alternar entre diferentes tipos de moeda ao filtrar o painel. Para obter mais informações, consulte <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Filtrar um painel por tipo de moeda</a>.</span></td>
      </tr>
     </tbody>
    </table>

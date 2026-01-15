@@ -6,16 +6,14 @@ description: Um relatório de gráfico que visualiza seus dados como um gráfico
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 56af1b6c8e4ae7bb990288d9e6a4326ffd18c2c9
+source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1814'
 ht-degree: 1%
 
 ---
 
 # Criar um relatório de gráfico em um painel da tela
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Visualização para todos os clientes.</span>
 
 >[!IMPORTANT]
 >
@@ -122,9 +120,9 @@ Há muitas opções de configuração disponíveis para criar um relatório de g
 
 1. Na seção **Eixo inferior (X)**, selecione o **Atualizar campo**, localize e selecione o campo que contém os dados que serão resumidos no gráfico.
 1. No menu suspenso **Tipo de agregação**, selecione como os dados são acumulados para produzir a saída do gráfico.
-1. <span class="preview">(Opcional) Adicione um rótulo de eixo no espaço fornecido.</span>
-1. <span class="preview"> (Opcional) Alternar **Ocultar eixo** em. </span>
-1. <span class="preview">(Opcional) Insira um **Valor da linha de referência** para definir um destino ou limite no gráfico.</span>
+1. (Opcional) Adicione um rótulo de eixo no espaço fornecido.
+1. (Opcional) Ative **Ocultar eixo**.
+1. (Opcional) Insira um **Valor da linha de referência** para definir um destino ou limite no gráfico.
 1. Escolha um **Tipo de linha** no menu suspenso.
 1. Selecione o botão **Atualizar campo** na segunda seção, localize e selecione o segundo campo que deseja exibir no gráfico.
 
@@ -142,8 +140,8 @@ Há muitas opções de configuração disponíveis para criar um relatório de g
 1. Na seção **Métrica**, selecione o **Atualizar campo**, localize e selecione o campo que contém os dados que serão resumidos no gráfico.
 1. No menu suspenso **Tipo de agregação**, selecione como os dados são acumulados para produzir a saída do gráfico.
 1. Na seção **Segmento**, selecione o **Atualizar campo**, localize e selecione o campo que contém os segmentos que deseja exibir no gráfico de pizza.
-1. <span class="preview"> (Opcional) Na seção **Pizza**, alterne **Mostrar rótulos de segmentos** para exibir rótulos de segmentos.</span>
-1. <span class="preview"> (Opcional) Ative **Mostrar total** para exibir o total no meio do gráfico. Quando habilitado, há opções adicionais para mostrar um rótulo central e escolher o formato do valor.</span>
+1. (Opcional) Na seção **Pizza**, alterne **Mostrar rótulos de segmentos** para exibir rótulos de segmentos.
+1. (Opcional) Ative **Mostrar total** para exibir o total no meio do gráfico. Quando ativado, há opções adicionais para mostrar um rótulo central e escolher o formato do valor.
 
 >[!NOTE]
 >
@@ -153,9 +151,9 @@ Há muitas opções de configuração disponíveis para criar um relatório de g
 >* Sum aggregation types: o valor central exibido é o total agregado do valor numérico ou de moeda.
 >* Tipos de agregação média, máxima e mínima: O valor central exibe o valor médio, máximo ou mínimo adequadamente.
 
-1. <span class="preview">(Opcional) Na seção Legenda, alterne **Mostrar legenda** para exibir a legenda do gráfico.</span>
+1. (Opcional) Na seção Legenda, alterne **Mostrar legenda** para exibir a legenda do gráfico.
 
-1. <span class="preview"> (Opcional) Escolha uma **Posição da legenda** no menu suspenso.</span>
+1. (Opcional) Escolha uma **Posição da legenda** no menu suspenso.
 
 ## Definir configurações adicionais de relatório de gráfico
 
@@ -163,7 +161,7 @@ Há muitas opções de configuração disponíveis para criar um relatório de g
 
 Siga as etapas abaixo para configurar a seção **Filtro**:
 
-1. No painel esquerdo, clique no ícone **Filtro**![&#x200B; Filtro](assets/filter-icon.png).
+1. No painel esquerdo, clique no ícone **Filtro**![ Filtro](assets/filter-icon.png).
 1. Selecione **Editar filtro**.
 1. Clique em **Adicionar condição** e especifique o campo pelo qual deseja filtrar e o modificador que define o tipo de condição que o campo deve atender.
 1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.
