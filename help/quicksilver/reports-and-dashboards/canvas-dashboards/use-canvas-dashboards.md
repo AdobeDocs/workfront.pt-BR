@@ -6,9 +6,9 @@ description: Usar painéis do Canvas
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 96be3dbf57e87da19cef79426b1c8cd2290f60df
+source-git-commit: f49197b1d49437cd3b1b981d093ae2a357d13072
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -72,17 +72,46 @@ Você pode personalizar temporariamente relatórios de tabela em painéis. Essas
    >
    >Essas alterações se aplicam somente à sessão atual e não afetam a configuração original do relatório. Para tornar permanentes essas alterações, é necessário editar o relatório.
 
-<!--
-### Filter
+<!--### Use drilldowns
 
-### Drilldowns
+You can use drilldowns in Canvas Dashboards to sort and group data within reports.
+
+1. In the left panel, click **Canvas Dashboards**.
+1. Click the name of an existing dashboard to open it.
+    ![Open a dashboard](assets/open-dashboard.png)
+1. Locate the report that you want to look at.
+1. Click on a data point within the report to drill down into more detailed information.
+1. Click the Show build table icon to open the drilldown settings. 
+1. Click Add Column to add additional columns to the drilldown table.
+
+ >[!IMPORTANT]
+>
+>These changes only apply to your current session and do not affect the original report configuration. To make permanent these changes, you need to edit the report.
 
 ### Add additional columns to table reports
 
-### Exporting Data
+
+## View reports with grouped data
+
+Report creators can configure reports to display grouped data. When viewing these reports on a Canvas Dashboard, you can expand or collapse the grouped data to see more or less detail.
+
+Data within groups is sorted alphabetically or chronologically by default, depending on the data type. You can click the column headers to sort the data within each group based on different attributes. When you sort by a different attribute, the order of the groups remains unchanged.
+
+When you sort by the same field that your report is grouped by, the group order can flip. For example, a text-based grouping that normally runs A–Z can switch to Z–A. This only happens when the sort column and the grouping attribute are the same.
+
 
 ## Saving and Sharing Dashboards
 
 After customizing your Canvas Dashboard, you can save your changes. Additionally, you can share the dashboard with other users in your organization, provided you have the appropriate sharing permissions.
 
 For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.-->
+
+## Visualizar relatórios com dados agrupados
+
+Os criadores de relatórios podem configurar relatórios para exibir dados agrupados. Quando um relatório tem um agrupamento, é possível expandir ou recolher os dados agrupados para ver mais ou menos detalhes.
+
+Por padrão, os agrupamentos em si são classificados em ordem alfabética ou cronológica, dependendo do tipo de campo. Os dados dentro de cada agrupamento são classificados independentemente da ordem de classificação do agrupamento.
+
+Você pode clicar em um cabeçalho de coluna para classificar os dados dentro de cada grupo. Quando você classifica por um campo diferente do campo de agrupamento, a ordem dos grupos não é alterada.
+
+No entanto, quando você classifica pelo mesmo campo pelo qual o relatório é agrupado, a ordem do grupo pode mudar. Por exemplo, um agrupamento baseado em texto que normalmente executa de A a Z pode alternar para Z a.
