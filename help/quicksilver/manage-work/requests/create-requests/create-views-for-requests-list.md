@@ -5,16 +5,14 @@ title: Criar e gerenciar exibições na área Solicitações
 description: Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações.
 author: Becky
 feature: Work Management
-source-git-commit: 4061163b8b761bc3922bfb95da6c0110b6ee5871
+source-git-commit: d8e5e6d313eb39c9ac26e7cb60113beac5637890
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '717'
 ht-degree: 3%
 
 ---
 
 # Criar e gerenciar exibições na área Solicitações
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações. Essas exibições incluem filtros e organização de colunas.
 
@@ -86,9 +84,9 @@ Você pode criar uma visualização na área Solicitações do Workfront,.
 
 1. (Opcional) Para renomear uma exibição, clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e clique no menu de três pontos ao lado da exibição, selecione **Renomear** e digite o novo nome da exibição.
 1. Clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e selecione o modo de exibição que deseja editar.
-1. <span class="preview">Para adicionar um campo personalizado como coluna, clique no ícone **Adicionar coluna** ![Adicionar coluna](assets/add-column.png), próximo à direita da tela, e clique no ícone de adição próximo ao campo de formulário personalizado que você deseja adicionar como coluna ao modo de exibição.</span>
+1. Para adicionar um campo personalizado como coluna, clique no ícone **Adicionar coluna** ![Adicionar coluna](assets/add-column.png) próximo à direita da tela e clique no ícone de adição próximo ao campo de formulário personalizado que você deseja adicionar como coluna ao modo de exibição.
 
-   <span class="preview">Campos personalizados em formulários anexados ao objeto na lista estão disponíveis para serem adicionados como colunas.</span>
+   >Campos personalizados em formulários anexados ao objeto na lista estão disponíveis para serem adicionados como colunas.
 
    >[!TIP]
    >
@@ -114,7 +112,7 @@ Você pode criar uma visualização na área Solicitações do Workfront,.
    * **Status**: o status da solicitação.
    * **Inserido por**: o nome do usuário que adicionou a solicitação. Se a solicitação foi adicionada por alguém fora do Workfront, o campo **Informado por** mostrará `N/A`.
 
-   <span class="preview">No ambiente de Visualização, você também pode filtrar por quaisquer campos personalizados que tenham sido adicionados ao modo de exibição.</span>
+   Também é possível filtrar por qualquer campo personalizado que tenha sido adicionado à exibição.
 
    Você pode ter vários filtros unidos por **And** ou **Or**.
 A lista de solicitações é filtrada automaticamente ao adicionar as condições de filtro.
@@ -125,6 +123,7 @@ A lista de solicitações é filtrada automaticamente ao adicionar as condiçõe
 >
 > * As alterações nas exibições são salvas automaticamente.
 > * As alterações nas exibições ficam visíveis para qualquer pessoa que a use.
+> * Para garantir que a exibição se aplique à pessoa que a está usando, independentemente de quem a criou, você pode usar o curinga de filtro &quot;Eu (usuário conectado)&quot; em qualquer campo que tenha usuários como o valor.
 
 ## Adicione a exibição a um modelo de layout.
 

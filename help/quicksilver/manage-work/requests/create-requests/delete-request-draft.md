@@ -6,16 +6,14 @@ description: Você pode excluir solicitações enviadas ou solicitar rascunhos.
 author: Becky
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '618'
 ht-degree: 3%
 
 ---
 
 # Excluir uma solicitação enviada ou rascunho de solicitação
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para todos os clientes ou no ambiente de Produção para clientes que habilitaram versões rápidas.</span>
 
 Você pode excluir solicitações enviadas ou solicitar rascunhos criados na nova experiência de solicitação. Os administradores do Workfront e do espaço de trabalho do Planning também podem excluir solicitações.
 
@@ -63,16 +61,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-
-<div class="preview">
-
-## Excluir solicitações <!--or request drafts -->na nova experiência de solicitação
+## Excluir solicitações ou solicitar rascunhos na nova experiência de solicitação
 
 Você pode excluir solicitações na área Solicitações do Workfront ou no widget Minhas solicitações na Página inicial.
 
-* Os administradores do Workfront podem excluir solicitações <!-- and drafts--> em sua organização.
-* Os administradores do espaço de trabalho do Workfront Planning podem excluir solicitações <!--and drafts--> no espaço de trabalho do Planning que administram.
-* Os usuários podem excluir as solicitações <!--and drafts--> que enviaram.
+* Os administradores do Workfront podem excluir solicitações e rascunhos em sua organização.
+* Os administradores do espaço de trabalho do Workfront Planning podem excluir solicitações e rascunhos no espaço de trabalho do Planning que administram.
+* Os usuários podem excluir solicitações e rascunhos enviados.
 
 ### Excluir uma solicitação do menu de três pontos
 
@@ -86,12 +81,12 @@ Você pode excluir solicitações na área Solicitações do Workfront ou no wid
 
       Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Na lista Solicitações ou no widget Minhas solicitações, passe o mouse sobre a solicitação <!--or draft --> que você deseja excluir.
+1. Na lista Solicitações ou no widget Minhas solicitações, passe o mouse sobre a solicitação ou rascunho que deseja excluir.
 
    Um menu de três pontos Mais é exibido.
    ![](assets/more-menu.png)
 
-1. Clique no menu **Mais** à direita do nome da solicitação <!--or draft--> e clique em **Excluir**.
+1. Clique no menu **Mais** à direita do nome da solicitação ou do rascunho e clique em **Excluir**.
 
    Ou
 
@@ -103,7 +98,7 @@ Você pode excluir solicitações na área Solicitações do Workfront ou no wid
 
 1. Na caixa de diálogo que é aberta, clique em **Excluir**.
 
-   A solicitação <!--or draft--> foi excluída.
+   A solicitação ou o rascunho é excluído.
 
 ### Solicitações de exclusão em massa
 

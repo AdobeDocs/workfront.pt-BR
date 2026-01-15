@@ -6,16 +6,14 @@ description: O trabalho planejado é representado na Adobe Workfront por projeto
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 684f7fc62fe341a59b1b7f7ae6c7118a5e511513
+source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
 workflow-type: tm+mt
-source-wordcount: '2546'
+source-wordcount: '2532'
 ht-degree: 2%
 
 ---
 
 # Criar e enviar solicitações
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 <!--Audited: 12/2023-->
 
@@ -109,7 +107,10 @@ Um administrador do Workfront deve criar os seguintes componentes de uma Fila de
 
 Ao criar uma solicitação no aplicativo Web do Workfront, o Workfront salva a solicitação como rascunho antes de você enviá-la. O Workfront cria um rascunho assim que você seleciona sua fila de solicitações e começa a inserir informações nela.
 
-Você pode continuar enviando a solicitação ou preencher quantas informações estiverem disponíveis e sair dela para concluí-la posteriormente. O Workfront salva a solicitação de rascunho que você iniciou na pasta Rascunhos <span class="preview"> ou na lista de solicitações.</span>
+Você pode continuar enviando a solicitação ou preencher quantas informações estiverem disponíveis e sair dela para concluí-la posteriormente. O Workfront salva a solicitação de rascunho que você iniciou. Você pode encontrá-los em:
+
+* Nova experiência de solicitação: a lista de solicitações
+* Experiência de solicitação herdada: a pasta Rascunhos
 
 >[!IMPORTANT]
 >
@@ -145,7 +146,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
    >Considere o seguinte em relação à nova experiência de solicitação:
    >* A lista inclui as filas de solicitações do Workfront e os formulários de solicitação do Workfront Planning.
    >* Você pode filtrar a lista por tipo de objeto.
-   >* <span class="preview">Na nova experiência de solicitação, rascunhos foram encontrados na mesma lista de solicitações enviadas</span>.
+   >* Na nova experiência de solicitação, os rascunhos são encontrados na mesma lista de solicitações enviadas.
 
 1. (Condicional) Se você alternou para a nova experiência, selecione os grupos de tópicos e os tópicos da fila e continue atualizando o formulário.
 

@@ -8,16 +8,14 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 3fe7e6f530e15ebdb4a658de89b77c1bf39671fe
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1544'
 ht-degree: 2%
 
 ---
 
 # Visualizar solicitações enviadas
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Você pode exibir as solicitações que você ou outra pessoa submeteu, ou as solicitações que você iniciou, mas que você nunca terminou de submeter. Você pode localizar essas solicitações nas seguintes áreas do Adobe Workfront:
 
@@ -28,8 +26,8 @@ Você pode exibir as solicitações que você ou outra pessoa submeteu, ou as so
   >[!NOTE]
   >
   >* Você só pode exibir seus próprios rascunhos de solicitações.
-  >* <span class="preview">Na nova experiência de solicitação, rascunhos e solicitações enviadas são encontrados na mesma lista. </span>
-  >* <span class="preview">Os rascunhos criados na experiência herdada não aparecem na nova experiência de Solicitação.</span>
+  >* Na nova experiência de solicitação, as solicitações e os rascunhos enviados estão na mesma lista.
+  >* Os rascunhos criados na experiência herdada não aparecem na nova experiência de solicitação.
 
 * A guia **Planning** da área Solicitações no Workfront: Exibir solicitações enviadas aos formulários de solicitação do Workfront Planning. Sua organização deve comprar um pacote do Workfront Planning. Para obter informações, consulte os seguintes artigos:
 
@@ -83,7 +81,11 @@ A exibição de solicitações enviadas é diferente dependendo se você está u
 
 ### Exibir solicitações enviadas na nova experiência de solicitação
 
-Você pode exibir solicitações enviadas na área Solicitações, <span class="preview">que inclui links para objetos criados por solicitações do Planning.</span>
+Você pode exibir solicitações submetidas na área Solicitações, que inclui links para objetos criados por solicitações do Planning.
+
+>[!NOTE]
+>
+>Links para objetos criados estão disponíveis na nova experiência de solicitação somente para solicitações do Planning, nos casos em que a própria solicitação criou um objeto. Se uma solicitação do Workfront for convertida em um projeto ou outro objeto, um link para esse objeto convertido não estará disponível na lista de solicitações na nova experiência de solicitação.
 
 Para exibir solicitações que você ou outros usuários enviaram na nova experiência de solicitação:
 

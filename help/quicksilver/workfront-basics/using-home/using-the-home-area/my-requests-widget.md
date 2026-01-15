@@ -6,16 +6,14 @@ description: Você pode enviar solicitações no widget Minhas solicitações. V
 author: Becky
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 9e4f67b4f5b03e1fc4f8e1a9ab00cc42b9796325
+source-git-commit: cdb1c365d8fc8f90a8a3488b3c641c97457c8c8d
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '982'
 ht-degree: 4%
 
 ---
 
 # Usar o widget Minhas solicitações
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 >[!IMPORTANT]
 >
@@ -70,15 +68,11 @@ Você pode criar uma solicitação diretamente do widget Minhas solicitações.
 
 Para obter instruções, consulte [Criar uma solicitação](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request) no artigo Criar itens de trabalho e projetos da área Página inicial.
 
-<div class="preview">
-
 ## Copiar uma solicitação
 
 Você pode copiar uma solicitação no widget Minhas solicitações, editá-la e enviá-la como uma nova solicitação.
 
 Para obter instruções, consulte [Copiar e enviar solicitações na nova experiência de solicitação](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md#copy-and-submit-requests-in-the-new-requesting-experience) no artigo Copiar e enviar solicitações.
-
-</div>
 
 ## Filtrar solicitações
 
@@ -98,7 +92,7 @@ Para configurar o filtro no widget Minhas solicitações:
    * Status
    * Inserido por
 
-   <span class="preview">No ambiente de Pré-visualização, você também pode filtrar por quaisquer campos personalizados que tenham sido adicionados como uma coluna      para a exibição.</span>
+   Também é possível filtrar por qualquer campo personalizado que tenha sido adicionado como uma coluna à exibição.
 
 1. No campo seguinte, selecione o operador que deseja usar para essa condição de filtro. Os operadores disponíveis dependem do campo escolhido.
 1. (Condicional) Se um campo aparecer à direita do operador, selecione o valor pelo qual deseja filtrar.
@@ -135,9 +129,9 @@ Para ajustar as colunas no widget Minhas solicitações:
 1. No widget Minhas solicitações, clique em **Colunas**.
 1. (Opcional) Para reordenar colunas, clique na alça de arrastar ![alça de arrastar](assets/drag-handle.png) da coluna que você deseja mover e arraste-a para os locais desejados. A coluna na parte superior da lista aparece no widget Minhas solicitações como a coluna mais à esquerda.
 1. (Opcional) Use o botão para controlar se uma coluna é exibida no widget Minhas solicitações.
-1. <span class="preview">Para adicionar um campo personalizado como coluna, clique no ícone **Adicionar coluna** ![Adicionar coluna](assets/add-column.png), próximo à direita da tela, e clique no ícone de adição próximo ao campo de formulário personalizado que você deseja adicionar como coluna ao widget.</span>
+1. Para adicionar um campo personalizado como coluna, clique no ícone **Adicionar coluna** ![Adicionar coluna](assets/add-column.png), próximo à direita da tela, e clique no ícone de adição próximo ao campo de formulário personalizado que você deseja adicionar como coluna ao widget.
 
-   <span class="preview">Campos personalizados em formulários anexados ao objeto na lista estão disponíveis para serem adicionados como colunas.</span>
+   Campos personalizados em formulários anexados ao objeto na lista estão disponíveis para serem adicionados como colunas.
 
 As preferências de coluna são salvas automaticamente.
 
@@ -153,11 +147,13 @@ Para pesquisar solicitações específicas no widget Minhas solicitações:
 
 1. (Opcional) Para ir para as solicitações destacadas, clique nas setas para cima ou para baixo na barra de pesquisa.
 
-<div class="preview">
-
 ## Ir para um objeto criado por uma solicitação
 
 Você pode encontrar objetos criados por uma solicitação no widget Minhas solicitações.
+
+>[!NOTE]
+>
+>Links para objetos criados estão disponíveis na nova experiência de solicitação somente para solicitações do Planning, nos casos em que a própria solicitação criou um objeto. Se uma solicitação do Workfront for convertida em um projeto ou outro objeto, um link para esse objeto convertido não estará disponível na lista de solicitações na nova experiência de solicitação.
 
 1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
 1. (Condicional) Para adicionar o widget **Minhas solicitações** à sua tela inicial. Clique em **Personalizar** e localize **Minhas Solicitações**.
@@ -166,4 +162,3 @@ Você pode encontrar objetos criados por uma solicitação no widget Minhas soli
 
    A página do objeto é aberta.
 
-</div>

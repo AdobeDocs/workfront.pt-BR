@@ -6,17 +6,15 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1517'
 ht-degree: 3%
 
 ---
 
 # Copiar e enviar solicitações
 
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Ao submeter solicitações semelhantes com frequência, você pode copiar uma solicitação submetida existente. Nesse caso, você pode copiar uma solicitação existente, fazer alterações mínimas nela e reenviá-la como uma nova solicitação.
 
@@ -224,8 +222,6 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
 
    A solicitação copiada é submetida como uma nova solicitação na fila de solicitações especificada.
 
-<div class="preview">
-
 ## Copiar e enviar solicitações na nova experiência de solicitação
 
 Você pode copiar e enviar solicitações na área Solicitações do Workfront ou a partir do widget Minhas solicitações na Página inicial.
@@ -263,5 +259,4 @@ Você pode copiar e enviar solicitações na área Solicitações do Workfront o
 
    A solicitação copiada é enviada como uma nova solicitação.
 
-</div>
 

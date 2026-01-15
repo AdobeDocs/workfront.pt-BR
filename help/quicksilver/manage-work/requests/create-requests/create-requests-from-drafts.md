@@ -6,16 +6,14 @@ description: Além de usar os rascunhos disponíveis que o Workfront sugere quan
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 319c45bc6617269f358af1e7b5f6132a8694710b
+source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
 
 # Criar solicitações a partir de rascunhos
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Além de usar os rascunhos disponíveis que o Workfront sugere quando você informa uma nova solicitação, também é possível acessar um rascunho de solicitação na seção Rascunhos e finalizar a submissão a partir daí.
 
@@ -64,15 +62,10 @@ Você deve fazer o seguinte antes de criar uma solicitação a partir de um rasc
 
 O procedimento para criar solicitações de rascunhos difere entre a nova experiência de solicitação e a experiência herdada.
 
-* <span class="preview">[Criar solicitações a partir de rascunhos na nova experiência de solicitação](#create-requests-from-drafts-in-the-new-requesting-experience)</span>
+* [Criar solicitações de rascunhos na nova experiência de solicitação](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Criar solicitações de rascunhos na experiência de solicitação herdada](#create-requests-from-drafts-in-the-legacy-requesting-experience)
 
-<div class="preview">
-
 ### Criar solicitações de rascunhos na nova experiência de solicitação
-
-
-
 
 1. Abra o rascunho.
 
@@ -98,8 +91,6 @@ O procedimento para criar solicitações de rascunhos difere entre a nova experi
 1. Após concluir as informações da solicitação, clique em **Enviar**.
 
    Quando você envia a solicitação, o rascunho é excluído e não pode ser restaurado.
-
-</div>
 
 ### Criar solicitações de rascunhos na experiência de solicitação herdada
 

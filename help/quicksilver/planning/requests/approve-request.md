@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ec72e2af00bb5010288eaae725b67ad7dad55486
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 1%
@@ -97,7 +97,7 @@ Os aprovadores recebem as seguintes notificações sobre uma solicitação pende
 >
 >A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para que os usuários possam receber notificações por email e no aplicativo.
 
-Você pode aprovar solicitações para criar registros a partir da própria solicitação, <span class="preview">ou do widget Minhas aprovações na Página inicial.</span>
+Você pode aprovar solicitações para criar registros a partir da própria solicitação ou do widget Minhas aprovações na Página inicial.
 
 * [Aprovar uma solicitação da solicitação no Workfront Planning](#approve-a-request-from-the-request-in-workfront-planning)
 * [Aprovar uma solicitação do widget Minhas aprovações na Página inicial](#approve-a-request-from-the-my-approvals-widget-in-home)
@@ -134,8 +134,6 @@ Você pode aprovar solicitações para criar registros a partir da própria soli
 
    A solicitação permanece na área Solicitações do Workfront.
 
-<div class="preview">
-
 ### Aprovar uma solicitação do widget Minhas aprovações na Página inicial
 
 {{step1-to-home}}
@@ -160,4 +158,3 @@ Clique no ícone [!UICONTROL Página inicial] ![Ícone da página inicial](/help
    * **Concluída**: a solicitação foi aprovada.
    * **Rejeitada**: a solicitação foi rejeitada.
 
-</div>
