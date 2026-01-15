@@ -134,7 +134,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Projetos <img src="assets/projects-in-main-menu.png"> no menu principal [!UICONTROL] <img src="assets/main-menu-icon.png"></td> 
+      <td>Projetos <img src="assets/projects-in-main-menu.png"> no menu principal  <img src="assets/main-menu-icon.png"></td> 
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
