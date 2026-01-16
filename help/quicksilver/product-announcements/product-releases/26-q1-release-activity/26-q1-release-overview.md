@@ -4,7 +4,7 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d3f58a1d25b353b45e68e4910a4340052a49c4d4
+source-git-commit: d66ff030bbc06436c9212352e53fbd9f8241d8c0
 workflow-type: tm+mt
 source-wordcount: '2885'
 ht-degree: 4%
@@ -499,8 +499,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>Para permitir que as organizações acessem os benefícios da Experiência unificada da Adobe, continuamos disponibilizando-a para os clientes existentes da Workfront.</p>
         </td>
         <td><p>sexta-feira, 11 de dezembro de 2025</p></td>
-        <td><p>sexta-feira, 15 de janeiro de 2026</p></td>
-        <td><p>sexta-feira, 15 de janeiro de 2026</p></td>
+        <td><p>quinta-feira, 11 de fevereiro de 2026</p></td>
+        <td><p>quinta-feira, 11 de fevereiro de 2026</p></td>
     <tr>
             </tbody>
         </table>
@@ -597,12 +597,12 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Atualizações de manutenção do Workfront 
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Primeiro trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
