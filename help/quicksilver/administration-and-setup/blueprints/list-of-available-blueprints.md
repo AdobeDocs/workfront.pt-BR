@@ -8,9 +8,9 @@ author: Jenny
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a31b6f9af4682c64da9e5a887f2bd2e13f259ce3
+source-git-commit: 08305c9e82b7ba56a1a03fa351e643916bbfe44e
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2143'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Os seguintes blueprints do [!DNL Adobe Workfront] estão disponíveis para instalação pelos administradores do sistema. Para obter mais informações sobre blueprints, consulte [Visão geral dos blueprints](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
-[!BADGE Novo.]{type=Informative} **[!UICONTROL Relatórios de Análise de Usuário Ativos]**
+**[!UICONTROL Relatórios de Análise de Usuário Ativos]**
 Este blueprint contém um painel para ajudar os administradores a validar a configuração do usuário, identificar desalinhamentos e garantir que as configurações sejam compatíveis com o uso do aplicativo pretendido.&#x200B;
 
 **[!UICONTROL Adicionar nova lista de verificação de TI do funcionário]**
@@ -30,7 +30,7 @@ Este blueprint contém um modelo que a organização de serviços profissionais 
 **[!UICONTROL Planejamento de orçamento anual]**
 Este blueprint contém um modelo que a organização de serviços profissionais [!DNL Workfront] tem usado por anos durante os contratos de implementação com as equipes financeiras para organizar as atividades em torno do planejamento de orçamento anual. O modelo ajuda a definir expectativas com líderes de unidades de negócios e os orienta pelo processo para solicitar e reservar orçamentos durante o processo de planejamento anual.
 
-[!BADGE Novo.]{type=Informative} **[!UICONTROL Painel da Linha de Base]**
+**[!UICONTROL Painel da Linha de Base]**
 Este blueprint contém um painel para ajudá-lo a tomar decisões de projeto mais inteligentes e rápidas. As linhas de base oferecem a capacidade de comparar o que foi planejado com o que aconteceu, permitindo que você veja rapidamente as tarefas com problemas, o escopo, a deformação e as tendências do projeto. O Painel de Instrumentos da Linha de Base inclui estes relatórios: Linha de Base | Projetos em andamento, Linha de base | Projetos concluídos, Linha de base | Tarefas em andamento e Linha de base | Tarefas concluídas.
 
 **[!UICONTROL Plano de Entrega de Serviços Contratados]**
