@@ -7,9 +7,9 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 No momento, a Adobe Workfront está oferecendo uma avaliação gratuita de 60 dias do Adobe Workfront Planning.
 
-O teste está disponível entre as seguintes datas: 1 de março a 1 de maio de 2026.
+O teste está disponível entre as seguintes datas: 2 de março a 1 de maio de 2026.
 
 >[!NOTE]
 >
@@ -52,13 +52,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 Um dos administradores do Workfront deve revisar e assinar um contrato legal antes que todos em sua organização tenham acesso à avaliação gratuita do Workfront Planning.
 
-Você poderá revisar e assinar o contrato antes do início do julgamento em 1º de março de 2026.
+Você poderá revisar e assinar o contrato antes do início do julgamento, em 2 de março de 2026.
 
 <!--check the steps here at release-->
 
 1. Para revisar e aceitar o contrato legal, siga um destes procedimentos:
 
-   1. Antes de 1º de março de 2026, faça o seguinte:
+   1. Antes de 2 de março de 2026, faça o seguinte:
       1. Faça logon no Adobe Workfront como Administrador do sistema.
       1. Siga o banner no aplicativo que contém informações sobre a **avaliação do Workfront Planning**
 
@@ -68,7 +68,7 @@ Você poderá revisar e assinar o contrato antes do início do julgamento em 1º
       1. Clique em **Revisar Contrato de Avaliação**. <!--not sure if this will be available in the email/ banner, or if they can go to System Preferences to do this - might need to adjust the steps here-->
       1. Clique em **Aceitar**, depois de revisar o contrato.
 
-   1. Depois de 1 de março de 2026, quando o teste for iniciado, faça o seguinte:
+   1. Depois de 2 de março de 2026, quando o teste for iniciado, faça o seguinte:
 
       1. Faça logon no Adobe Workfront como Administrador do sistema.
       1. Siga o banner no aplicativo que contém informações sobre a **avaliação do Workfront Planning**
@@ -85,11 +85,11 @@ Você poderá revisar e assinar o contrato antes do início do julgamento em 1º
 
          Sua organização está agora inscrita na avaliação do Workfront Planning até 1º de maio de 2026.
 
-         Após 1º de março de 2026, as seguintes permissões serão concedidas aos dados disponíveis na guia **Espaços de trabalho de práticas recomendadas** da área **Avaliação do Planning**:
+         Após 2 de março de 2026, as seguintes permissões serão concedidas aos dados disponíveis na guia **Espaços de trabalho de práticas recomendadas** da área **Avaliação do Planning**:
 
          * Todos os administradores do sistema têm permissões de gerenciamento.
          * Todos os outros usuários têm permissões de Exibição.
-      1. (Condicional) Após 1º de março de 2026, comece a explorar a guia **Espaços de trabalho de práticas recomendadas** e compartilhe espaços de trabalho ou seus objetos com outras pessoas.
+      1. (Condicional) Após 2 de março de 2026, comece a explorar a guia **Espaços de trabalho de práticas recomendadas** e compartilhe espaços de trabalho ou seus objetos com outras pessoas.
 
          Para obter mais informações sobre como usar o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
@@ -101,9 +101,10 @@ Você poderá revisar e assinar o contrato antes do início do julgamento em 1º
 
 Estas são algumas datas importantes associadas à oferta de avaliação gratuita do Adobe Workfront Planning:
 
-* **1º de março de 2026** - A versão de avaliação do Workfront Planning é lançada.
+* **2 de março de 2026** - A versão de avaliação do Workfront Planning é lançada.
 * **1º de maio de 2026** - A versão de avaliação do Workfront Planning é fechada e seu acesso ao Planning é removido. O Workfront protege seus dados depois que a avaliação terminar, até 30 de novembro de 2026. Se você comprar o Workfront Planning durante esse período, obterá novamente acesso ao Planning e seus dados.
-* **30 de novembro de 2026** - a Workfront não disponibiliza mais seus dados após esta data. Você ainda pode comprar o Workfront Planning, mas seus dados serão removidos após essa data.
+<!--Lauren wanted this out: 
+* **November 30, 2026** - Workfront no longer makes your data available after this date. You can still purchase Workfront Planning, but your data is removed after this date. -->
 
 <!--## Overview of the access to Workfront Planning -->
 

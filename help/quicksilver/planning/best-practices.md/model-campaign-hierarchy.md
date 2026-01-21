@@ -1,5 +1,5 @@
 ---
-title: 'O blueprint de sucesso: modelagem da hierarquia da campanha'
+title: 'A estrutura do sucesso: Modelar a hierarquia da campanha'
 description: Saiba como traduzir seus complexos processos de negócios em uma hierarquia de campanha escalável e controlada usando "Centros de gravidade" e uma arquitetura com vários espaços de trabalho.
 feature: Workfront Planning
 role: User, Admin
@@ -7,15 +7,15 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 77ef50ebd583f0a46324e5cbdc4feea9d21f4280
+source-git-commit: 1158a49fc0b39ef49f23326935d4635530501687
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
 
 
-# O blueprint de sucesso: modelagem da hierarquia da campanha
+# A estrutura para o sucesso: modelar a hierarquia da campanha
 
 
 
@@ -31,7 +31,7 @@ Saiba como traduzir seus complexos processos de negócios em uma hierarquia de c
 
 
 
-O &quot;Blueprint of Success&quot; é uma estrutura para modelagem de hierarquia de campanha no Workfront Planning (WFP). Ela muda seu sistema de &quot;caos nas planilhas&quot; para um modelo governado e orientado a objetos que garante que todas as equipes falem a mesma linguagem, mantendo a agilidade que precisam para executar.
+O &quot;Blueprint of Success&quot; é uma estrutura para modelagem da hierarquia de campanha no Workfront Planning. Ela muda seu sistema de &quot;caos nas planilhas&quot; para um modelo governado e orientado a objetos que garante que todas as equipes falem a mesma linguagem, mantendo a agilidade que precisam para executar.
 
 
 
@@ -77,7 +77,7 @@ Depois que o caminho principal é estabelecido, as organizações podem optar po
 
 * **Planos de canal:** Uma camada entre *Campanhas* e *Táticas* para agrupar estratégias multifuncionais (por exemplo, &quot;Estratégia Digital&quot;).
 
-* **Atividades do WFP**: em ambientes de volume mais baixo (normalmente menos de 5.000 entregas/ano), algumas equipes preferem rastrear &quot;Experiências&quot; individuais como registros do WFP antes de se tornarem projetos.
+* **Atividades de planejamento do Workfront:** em ambientes de volume inferior (normalmente &lt;5.000 entregas/ano), algumas equipes preferem rastrear &quot;Experiências&quot; individuais como registros do Workfront Planning antes de se tornarem projetos.
 
 
 >[!TIP]
@@ -156,9 +156,9 @@ Embora o Workfront Planning seja o futuro da intenção estratégica, seus relat
 
 * **A recomendação:** não exclua seus Portfólios e Programas ainda. Em vez disso, use as **Automações de fusão** para criar uma ponte.
 
-* **Como funciona:** Quando uma Tática ou Campanha é criada no WFP, o Fusion pode espelhar automaticamente esse registro em um Portfolio ou Programa correspondente no módulo de Fluxo de Trabalho. Isso permite:
+* **Como funciona:** Quando uma Tática ou Campanha é criada no Workfront Planning, o Fusion pode espelhar automaticamente esse registro em um Portfolio ou Programa correspondente no módulo de Fluxo de Trabalho. Isso permite:
 
-   1. Aproveite a **visualização estratégica** superior do WFP (Linhas do tempo/calendários).
+   1. Aproveite a **visualização estratégica** superior do Workfront Planning (Linhas do tempo/Calendários).
 
    2. Mantenha seus **relatórios herdados** no módulo de fluxo de trabalho para os participantes que ainda não estão prontos para ir para o Canvas.
 
@@ -170,7 +170,7 @@ Embora o Workfront Planning seja o futuro da intenção estratégica, seus relat
 
 * **Designar Espaços de Trabalho Primários.** Verifique se cada tipo de registro tem um espaço de trabalho &quot;inicial&quot; (seu centro de gravidade) que atue como agregador para relatórios.
 
-* **Priorizar Forms para Entrada.** Use formulários de registro para grupos com menos sofisticação no WFP para garantir a integridade dos metadados. Embora os usuários avançados possam se beneficiar da entrada direta de dados nas visualizações de tabela, isso deve ser abordado com cuidado, pois alterações em massa em uma tabela podem facilmente criar problemas de dados para outras partes interessadas.
+* **Priorizar Forms para Entrada.** Use formulários de registro para grupos com menos sofisticação no Workfront Planning para garantir a integridade dos metadados. Embora os usuários avançados possam se beneficiar da entrada direta de dados nas visualizações de tabela, isso deve ser abordado com cuidado, pois alterações em massa em uma tabela podem facilmente criar problemas de dados para outras partes interessadas.
 
 
 ### Não:
