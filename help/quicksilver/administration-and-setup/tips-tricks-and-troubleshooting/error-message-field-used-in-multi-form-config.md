@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 8b93842d7ce61c7c84b07639b6329bedf4254ffd
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,15 @@ Para resolver esse conflito, é necessário localizar o objeto ao qual os vário
 * Em todos os formulários personalizados anexados ao objeto, adicione um novo campo personalizado calculado contendo o cálculo necessário e marque o campo personalizado calculado antigo como obsoleto.
 
 Este artigo explica como localizar o objeto e, em seguida, resolver o problema de uma dessas três maneiras.
+
+>[!NOTE]
+>
+>Se você vir o erro, mas não puder localizar mais de um objeto contendo o campo personalizado, verifique a Lixeira. É possível que um objeto na Lixeira contenha o campo. Como os objetos na Lixeira podem ser restaurados a qualquer momento, o erro de conflito multiformulário continuará ocorrendo até que o conflito seja resolvido.
+>
+>Para adicionar um campo com uma expressão diferente, você deve resolver esse conflito seguindo um destes procedimentos:
+>
+>* Remover o campo do formulário personalizado conflitante
+>* Restaure o objeto excluído, desanexe um dos formulários personalizados conflitantes e exclua o objeto novamente, se necessário.
 
 ## Localizar o objeto ao qual os formulários personalizados estão anexados {#find-the-object-where-the-custom-forms-are-attached}
 
