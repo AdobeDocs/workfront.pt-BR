@@ -95,7 +95,7 @@ Por padrão, o usuário que carrega um documento no Workfront tem permissões de
 
 1. Clique na lista suspensa à direita do nome do usuário e selecione o nível de permissão para este documento:
 
-   * **** Exibir: o usuário pode revisar e compartilhar a documento.
+   * **&#x200B;**&#x200B;Exibir: o usuário pode revisar e compartilhar a documento.
    * **Gerenciar**: o usuário tem acesso total ao documento sem direitos administrativos, que são concedidos no nível de acesso (também inclui todas as permissões de Exibição).
 
 1. (Opcional) Clique no ícone de opções avançadas ao lado do nível de permissão que você concedeu para configurar permissões específicas no documento.
