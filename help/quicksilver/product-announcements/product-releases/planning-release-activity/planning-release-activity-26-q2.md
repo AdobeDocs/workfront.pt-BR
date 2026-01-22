@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1c9a13aa927b6c21d27d860d228be98d44a80987
+source-git-commit: e14f0e19dfda3ebaf7d5452b51aa56b5924400a3
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,25 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Exibir emails nos campos de digitação antecipada do usuário no Workfront Planning
+
+>[!NOTE]
+>
+>Visualização: 22 de janeiro de 2026
+>Versão rápida de produção: 12 de fevereiro de 2026
+>Produção para todos: 16 de abril de 2026
+
+O email de um usuário agora é exibido quando você adiciona o usuário às seguintes áreas:
+
+* Campos de planejamento do tipo pessoas
+* Na caixa Compartilhar ao compartilhar objetos do Planning
+
+Antes desse aprimoramento, somente a Função principal do usuário era exibida, além do nome do usuário, ao adicioná-lo a essas áreas.
+Para obter mais informações, consulte os seguintes artigos:
+
+* [Criar campos](/help/quicksilver/planning/fields/create-fields.md)
+* [Compartilhar espaços de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
 
 ## Os campos de pessoas são ativados como campos de pesquisa para conexões do Planning
 
