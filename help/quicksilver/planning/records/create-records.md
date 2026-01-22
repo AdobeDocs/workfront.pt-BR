@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 895fcc9e8bfc6ef21e82ae6dab4c370b0e267cad
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3240'
 ht-degree: 0%
 
 ---
@@ -148,12 +148,11 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 ## Considerações ao criar registros
 
-<!--
-* Depending which workspace they are added from, records added to global record types are visible by the following types of users:
+* Dependendo do espaço de trabalho do qual são adicionados, os registros adicionados aos tipos de registro global ficam visíveis pelos seguintes tipos de usuários:
 
-    * Records added to the original workspace of a global record type are visible from the original workspace and all secondary workspaces where the record type is added. (***************check with Lilit on this one*************)
-    * Records added to a secondary workspace of a global record type are visible only from the workspace they were created and the original workspace of the global record type. 
-    For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). -->
+   * Os registros adicionados ao espaço de trabalho original de um tipo de registro global ficam visíveis no espaço de trabalho original.
+   * Os registros adicionados a um espaço de trabalho secundário de um tipo de registro global são visíveis somente no espaço de trabalho em que foram criados e no espaço de trabalho original do tipo de registro global.
+Para obter mais informações, consulte [Visão geral do tipo de registro entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * Dependendo das permissões para o espaço de trabalho e dos tipos de registro, os usuários podem criar registros das seguintes maneiras:
 

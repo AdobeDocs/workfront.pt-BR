@@ -7,9 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 66dd7354f3723e266b77cb2f367b09c022e8c95e
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1883'
 ht-degree: 2%
 
 ---
@@ -198,7 +198,7 @@ Como gerenciador de espaço de trabalho, você pode ajustar permissões para reg
 
    >[!TIP]
    >
-   >Não é possível remover entidades individuais da lista de permissões herdadas.
+   >Não é possível remover entidades individuais da lista de permissões herdadas. <!--test this!-->
 
 1. (Opcional e condicional) Se quiser compartilhar o registro com entidades específicas e conceder a elas um acesso diferente ao tipo de registro do que já têm para o espaço de trabalho, faça o seguinte:
 
@@ -224,6 +224,7 @@ Como gerenciador de espaço de trabalho, você pode ajustar permissões para reg
    >* Se os usuários tiverem permissões do Contribute ou do Manage para o espaço de trabalho e o tipo de registro, eles manterão permissões do Manage para o registro. A permissão Exibir fica esmaecida. <!--this is not dimmed at this time, Lilit to check-->
    >* Você não pode conceder aos usuários uma permissão menor para o registro se eles tiverem o Contribute ou superior ao tipo de registro.
    > Para obter mais informações, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   >* Quando você compartilha um registro com um usuário, sua função de trabalho principal <span class="preview">e seu email</span> também são exibidos no campo. Você deve ter a configuração Exibir informações de contato ativada para que o objeto Usuários em seu nível de acesso possa ver o email do usuário.
 
 1. Para conceder aos usuários que não têm permissões para o espaço de trabalho acesso para exibir um registro, no campo **Conceder acesso a este modo de exibição**, comece digitando o nome de um usuário, grupo, equipe, empresa ou função de trabalho e, em seguida, clique nele quando ele for exibido na lista.
 

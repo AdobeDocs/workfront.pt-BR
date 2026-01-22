@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,8 @@ And
 
       * Todos os campos originais
       * Todas as conexões de registro
-   * Você pode exibir registros adicionados de outros espaços de trabalho que usam o mesmo tipo de registro global, somente quando tiver pelo menos permissões de Exibição para esses espaços de trabalho. <!--replace this bullet by this with Jan 15 release: You can view records added from the original workspace of the global record type only when you have at least View permissions to that workspace.-->
+   * Não é possível exibir registros adicionados do espaço de trabalho original do tipo de registro do espaço de trabalho secundário.
+   * Você pode exibir registros adicionados do espaço de trabalho original do tipo de registro nesse espaço de trabalho, somente no espaço de trabalho original, se tiver pelo menos permissões de Exibição para esse espaço de trabalho.
    * O campo somente leitura **Workspace** é adicionado à nova exibição de tabela do tipo de registro. O campo exibe o espaço de trabalho onde cada registro foi criado.
 
      >[!NOTE]
@@ -147,7 +148,12 @@ And
      >
 
 1. (Opcional) Clique em, em seguida arraste e solte o tipo de registro recém-adicionado em qualquer seção no espaço de trabalho.
-1. (Opcional) Clique no menu **Mais** no cartão do novo tipo de registro ou à direita do nome do tipo de registro em sua página e clique em **Excluir**.
+1. (Opcional) Clique no menu **Mais** no cartão do novo tipo de registro ou à direita do nome do tipo de registro em sua página e clique em uma das seguintes opções:
+
+   * **Compartilhar** para compartilhar o tipo de registro do espaço de trabalho secundário.
+   * **Excluir** para excluir o tipo de registro do espaço de trabalho secundário. A exclusão de tipos de registro do espaço de trabalho secundário também exclui registros adicionados do espaço de trabalho secundário.
+
+     As exibições adicionadas do espaço de trabalho secundário não são excluídas. <!--checking with Lilit - not sure if this is by design??-->
 
    Para obter mais informações, consulte a seção &quot;Excluir tipos de registros globais&quot; no artigo [Excluir tipos de registros](/help/quicksilver/planning/architecture/delete-record-types.md).
 

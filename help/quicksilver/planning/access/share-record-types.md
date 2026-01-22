@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1547'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # Compartilhar tipos de registro
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -186,7 +186,6 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
   Para obter informações, consulte [Visão geral do tipo de registro entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
-
 ## Compartilhar permissões para um tipo de registro
 
 É possível ajustar permissões para tipos de registros individuais de um espaço de trabalho se você tiver a permissão Gerenciar para o espaço de trabalho.
@@ -205,11 +204,6 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    ![Permissões para tipos de registro com permissões herdadas em](assets/permissions-for-record-types-with-inherited-permissions-on.png)
 
 1. (Opcional) Na área **Quem tem acesso**, a opção **Todos os usuários do espaço de trabalho podem visualizar** é selecionada por padrão.  Todos os usuários com permissões de Exibição ou superiores para o espaço de trabalho podem exibir o tipo de registro.
-
-   >[!WARNING]
-   >
-   >Não é possível compartilhar tipos de registro com usuários individuais. Se você adicionar usuários individuais ao tipo de registro, eles também serão adicionados ao espaço de trabalho.
-
 
 1. (Opcional) Clique no número de usuários na opção **Permissões herdadas** para exibir usuários, equipes, grupos, empresas ou funções de trabalho que herdam permissões do espaço de trabalho.
 
@@ -235,6 +229,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    >* Você não pode conceder aos usuários uma permissão menor que Gerenciar para um tipo de registro, se eles tiverem permissões Gerenciar para o espaço de trabalho.
    >* É possível conceder aos usuários uma permissão menor para o tipo de registro se eles tiverem permissões do Contribute para o espaço de trabalho.
    > Para obter mais informações, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+   >* Quando você compartilha um tipo de registro com um usuário, sua função de trabalho principal <span class="preview">e seu email</span> também são exibidos no campo. Você deve ter a configuração Exibir informações de contato ativada para que o objeto Usuários em seu nível de acesso possa ver o email do usuário.
 
 1. Para conceder aos usuários que não têm permissões para o espaço de trabalho acesso para exibir um tipo de registro, no campo **Conceder acesso a este modo de exibição**, comece digitando o nome de um usuário, grupo, equipe, empresa ou função de trabalho e, em seguida, clique nele quando ele for exibido na lista.
 
