@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 8546311acf722c0f4d47d4663b02ff701416894a
+source-git-commit: 179a20f1ae6ab723963cc78e9573560968500ac5
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 0%
+source-wordcount: '797'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ Os comandos do usuário e a execução desses comandos pela IA trabalham juntos 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -47,7 +47,7 @@ Os comandos do usuário e a execução desses comandos pela IA trabalham juntos 
 </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
   </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 * As alterações feitas pelo Assistente de IA em nome do usuário são rastreadas no painel Histórico do registro.
 
-* Você pode usar comandos para desfazer suas ações. Por exemplo, você pode digitar &quot;Desfazer a última alteração&quot; para reverter a alteração.
+* As ações realizadas pelo Assistente de IA são permanentes e podem ser irreversíveis. Por exemplo, a exclusão de um campo não pode ser revertida. Analise todas as ações propostas pelo Assistente de IA antes de aceitá-las.
 
 * Ao criar, atualizar ou excluir um objeto por meio do AI Assistant, o AI Assistant exibe as ações desejadas e solicita a confirmação. Você pode confirmar ou cancelar as ações.
 
