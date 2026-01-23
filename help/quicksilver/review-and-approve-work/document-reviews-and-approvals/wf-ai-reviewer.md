@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: b926138cca96849f8c4490ec9550fecfd17da69a
+source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '663'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ Qualquer usuário pode adicionar o Revisor de IA a uma solicitação de revisão
 
 * Sua organização deve ter migrado para o Adobe IMS (Identity Management System).
 * Sua instância do Workfront deve ter as Aprovações unificadas habilitadas.
-  <!--* Your organization must have GenStudio Foundation.-->
+* Sua organização deve ter o GenStudio Foundation.
 * A Adobe deve ter um contrato de API Gen da Adobe assinado no arquivo.
 Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato da Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -60,7 +60,7 @@ Se você fizer upload de um tipo de arquivo não compatível, a opção Revisor 
 
 ## Configurar diretrizes da marca
 
-O Revisor da IA do Workfront usa as diretrizes da marca ao revisar seu conteúdo. Os administradores do Workfront podem configurar diretrizes de marca na área Configuração do Workfront. <!--Brands created in GenStudio Foundation are also available in Workfront.-->
+O Revisor da IA do Workfront usa as diretrizes da marca ao revisar seu conteúdo. Os administradores do Workfront podem configurar diretrizes de marca na área Configuração do Workfront. As marcas criadas na GenStudio Foundation também estão disponíveis no Workfront.
 
 Para obter mais informações, consulte [Configurar marcas para o Revisor da IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
