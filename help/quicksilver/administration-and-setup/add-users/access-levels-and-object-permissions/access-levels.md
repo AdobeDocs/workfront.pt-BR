@@ -1,5 +1,5 @@
 ---
-title: Como funcionam os níveis de acesso
+title: Como funcionam os níveis de acesso herdados
 content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
@@ -9,14 +9,14 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
 
-# Como os níveis de acesso funcionam
+# Como os níveis de acesso herdados funcionam
 
 >[!NOTE]
 >
@@ -24,13 +24,13 @@ ht-degree: 1%
 
 Como administrador do Adobe Workfront, você pode conceder aos usuários acesso para visualizar ou editar objetos atribuindo a eles um nível de acesso. Os artigos abaixo explicam como os níveis de acesso funcionam.
 
-* [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-* [Visão geral das licenças](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-* [Níveis de acesso predefinidos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-* [Como os níveis de acesso e as permissões funcionam juntos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-* [Liste os níveis de acesso e as licenças de seus usuários](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-* [Acesso a objetos e áreas por tipo de licença](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-* [Funcionalidade disponível para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+* [Visão geral dos níveis de acesso herdados](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+* [Visão geral das licenças herdadas](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+* [Níveis de acesso herdados internos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+* [Como os níveis de acesso e as permissões herdadas funcionam juntos](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+* [Liste os níveis de acesso e as licenças (Herdadas) de seus usuários](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+* [Acesso a objetos e áreas por tipo de licença (Herdado)](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+* [Funcionalidade disponível para cada tipo de objeto (níveis de acesso herdados)](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
 
 ## Consulte também
 

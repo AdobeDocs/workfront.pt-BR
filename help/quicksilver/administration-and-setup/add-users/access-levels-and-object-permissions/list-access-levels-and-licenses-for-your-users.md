@@ -1,5 +1,5 @@
 ---
-title: Listar os níveis de acesso e as licenças de seus usuários
+title: Listar os níveis de acesso e as licenças de seus usuários (herdado)
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 3d0a6932bda338af1e6b3dcba49bfc0ac486d919
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 5%
 
 ---
 
-# Liste os níveis de acesso e as licenças de seus usuários
+# Listar os níveis de acesso e as licenças de seus usuários (Herdado)
 
 >[!NOTE]
 >

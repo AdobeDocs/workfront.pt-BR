@@ -1,5 +1,5 @@
 ---
-title: Desative a opção de atualização automática para usuários não pagos no novo plano de licenciamento
+title: Desative a opção de atualização automática para usuários não pagos
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 685177d3a8485aa60d8455e1c329de21cea4abb7
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '188'
+ht-degree: 10%
 
 ---
 
-# Desabilitar a opção de atualização automática para usuários não pagos no novo plano de licenciamento
+# Desabilitar a opção de atualização automática para usuários não pagos
 
 As decisões de prova e documento são limitadas para todas as licenças não pagas do Workfront nos novos planos. Quando os usuários atingem o número permitido de decisões, eles são atualizados para uma licença Light por padrão.
 
@@ -29,7 +29,7 @@ Você pode desativar a opção de atualização automática na área de configur
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +41,7 @@ Você pode desativar a opção de atualização automática na área de configur
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>Standard
+   <td>Padrão
    <p>Plano</p></td> 
   </tr> 
   <tr> 

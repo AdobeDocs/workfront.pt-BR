@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: bf34bfa2059d227eca3faa3d719adcf4d711e457
+source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '13724'
+source-wordcount: '13721'
 ht-degree: 2%
 
 ---
@@ -516,25 +516,25 @@ ht-degree: 2%
          * [Exibir e exportar logs de auditoria](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Exibir informações de logon do usuário](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Gerenciar usuários na Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * Como funcionam os novos níveis de acesso {#access-levels}
-         * [Como funcionam os novos níveis de acesso](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-         * [Visão geral dos novos níveis de acesso](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-         * [Visão geral de novas licenças](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [Acesso a objetos e áreas por novas licenças](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [Funcionalidade disponível para cada tipo de objeto para novos níveis de acesso](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-         * [Desabilitar a opção de atualização automática para usuários não pagos no novo plano de licenciamento](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+      * Como os níveis de acesso funcionam {#access-levels}
+         * [Como os níveis de acesso funcionam](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [Visão geral dos níveis de acesso](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [Visão geral de licenças](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [Acesso a objetos e áreas por licenças](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [Funcionalidade disponível para cada tipo de objeto](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [Desabilitar a opção de atualização automática para usuários não pagos](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
          * [Comparar funcionalidade entre modelos de licença](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
          * [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
-      * Como os níveis de acesso funcionam {#legacy-access-levels}
-         * [Como os níveis de acesso funcionam](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [Visão geral do Access](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [Visão geral de licenças](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [Níveis de acesso e permissões](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [Acesso a objetos e áreas por tipo de licença](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
-         * [Funcionalidade para cada tipo de objeto](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [Acesso configurável para cada tipo de objeto](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [Níveis de acesso incorporados](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [Listar níveis de acesso e licenças de usuários](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * Como os níveis de acesso herdados funcionam {#legacy-access-levels}
+         * [Como os níveis de acesso herdados funcionam](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [Visão geral do nível de acesso herdado](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [Visão geral das licenças herdadas](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [Níveis de acesso e permissões herdados](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [Acesso a objetos e áreas por tipo de licença (Herdado)](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+         * [Funcionalidade para cada tipo de objeto (herdado)](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+         * [Acesso configurável para cada tipo de objeto (herdado)](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [Níveis de acesso incorporados (herdados)](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [Listar níveis de acesso e licenças de usuários (Herdado)](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Configuração do acesso ao Workfront {#configure-access}
          * [Configurar acesso](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [Criar ou modificar níveis de acesso personalizados](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -827,7 +827,7 @@ ht-degree: 2%
       * [Salvar um arquivo de cabeçalho de email](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [O compartilhamento mostra mais de uma permissão](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [Email não autenticado não aceito](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-      * [Workfront: as configurações do ZScaler podem causar redução no desempenho](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
+      * [Workfront: as configurações do ZScaler podem causar uma redução do desempenho](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [Credenciais de usuário vs. credenciais SAML](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [Atualizar opções de atualização automática nos níveis de acesso](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Noções básicas do Adobe Workfront {#basics}
@@ -883,8 +883,8 @@ ht-degree: 2%
       * [Recuperar o trabalho nas prioridades](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
       * [Fazer upload de documentos e criar provas em Prioridades](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
       * [Gerenciar seu trabalho no calendário Prioridades](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
-   * Início {#home}
-      * [Início](workfront-basics/using-home/home.md)
+   * Página inicial {#home}
+      * [Página inicial](workfront-basics/using-home/home.md)
       * [Mudar da página inicial herdada para a nova página inicial](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
       * Usar a área Início {#use-home-area}
          * [Use a área da página inicial: índice do artigo](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
