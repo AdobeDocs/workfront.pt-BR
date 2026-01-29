@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 8164cce259c48ccd92d3cb73a9fcc0ca1907b612
 workflow-type: tm+mt
-source-wordcount: '13721'
+source-wordcount: '13726'
 ht-degree: 2%
 
 ---
@@ -21,8 +21,9 @@ ht-degree: 2%
       * [Preparar-se para uma versão trimestral do Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versão do segundo trimestre de 2026 {#release-26-q2}
          * [Visão geral da versão do segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
-         * [Aprimoramentos do administrador no primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
-         * [Primeiro trimestre de 2026 Outras melhorias](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md)
+         * [Aprimoramentos do administrador no segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
+         * [Aprimoramentos do projeto do segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
+         * [Segundo trimestre de 2026 Outras melhorias](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md)
       * Versão do primeiro trimestre de 2026 {#release-26-q1}
          * [Visão geral da versão do primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
          * [Aprimoramentos do administrador no primeiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-admin-and-setup.md)
