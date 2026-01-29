@@ -6,9 +6,9 @@ description: Alguns recursos são diferentes entre o [!DNL Workfront] e o Adobe 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 4ce69180b8f419ff5634d0dba802f9fb57cd758b
+source-git-commit: ff8866b2b48ead3b7b2e035a394fa038036fbfc0
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
@@ -59,10 +59,7 @@ Para obter informações sobre o [!DNL Admin Console], leia estes artigos:
 
 ### O que eu, como cliente, preciso fazer para facilitar a migração?
 
-Os clientes existentes serão contatados para agendar as migrações. Os colegas de suporte da equipe de migração guiarão os clientes pelo processo, orientarão a configuração do [!DNL Admin Console] e fornecerão links para a documentação necessária para tornar a mudança o mais simples e simples possível.
-
-* [[!DNL Adobe Workfront] Visão geral do suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/workfront/overview)
-* [[!DNL Adobe Business Platform] e [!DNL Admin Console] Perguntas frequentes](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/workfront/faq)
+Os clientes existentes serão contatados para agendar as migrações. Os colegas de suporte da equipe de migração guiarão os clientes pelo processo, orientarão a configuração do [!DNL Admin Console] e fornecerão links para a documentação necessária para tornar a mudança o mais simples e simples possível. Revise as [[!DNL Adobe Business Platform] e [!DNL Admin Console] Perguntas frequentes](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq) para obter mais informações.
 
 ### Como você está lidando com [!DNL Adobe Admin Console] para empresas que já têm isso habilitado para IDs federadas de forma diferente da configuração do SSO [!DNL Workfront]?
 
