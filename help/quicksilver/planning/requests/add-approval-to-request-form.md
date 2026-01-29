@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 2%
+source-wordcount: '1195'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,9 @@ ht-degree: 2%
 
 <!--take Preview and Production references at Production time-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -82,7 +80,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 * Se pelo menos um aprovador rejeitar a solicitação e todos os outros aprovarem, uma solicitação será criada para a área Solicitações no Workfront, mas nenhum registro será criado para o tipo de registro associado ao formulário de solicitação.
 * Adicionar aprovações a um formulário de solicitação é opcional. O Workfront Planning cria imediatamente um registro quando uma solicitação é submetida, se o form de solicitação não estiver associado a uma aprovação.
 
-## Adicionar uma aprovação a um formulário de solicitação
+## Adicionar uma aprovação a um formulário de solicitação no ambiente de produção
 
 1. Comece a criar um formulário de solicitação para um tipo de registro, conforme descrito em [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 1. Clique em **Configuração**.
@@ -109,7 +107,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    >* Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.
 
 
-1. (Opcional) Clique em **Publicar** se você nunca compartilhou o formulário de solicitação antes
+1. (Opcional) Clique em **Publicar** se você nunca compartilhou o formulário de solicitação antes.
 
    Ou
 
@@ -122,3 +120,56 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 
    Para obter informações sobre aprovação de solicitações, consulte [Aprovar uma solicitação](/help/quicksilver/planning/requests/approve-request.md).
+
+<div class="preview">
+
+## Adicionar regras de aprovação a um formulário de solicitação
+
+>[!NOTE]
+>
+>Essa funcionalidade está disponível somente no ambiente de Pré-visualização.
+
+As regras de aprovação definem o processo de aprovação com base nos valores de campo em nas solicitações enviadas.
+
+Por exemplo, se um formulário de solicitação tiver o campo &quot;Tipo de campanha&quot;, poderá ser criada uma regra que envia a solicitação para uma pessoa quando o campo tem o valor &quot;Digital&quot; e outra pessoa quando ele tem o valor &quot;Imprimir&quot;.
+
+Considere o seguinte ao adicionar regras de aprovação:
+
+* Você pode adicionar um ou vários aprovadores a uma regra de aprovação.
+* Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na área Solicitações do Workfront.
+* Se você adicionar mais de um aprovador e a opção Somente uma decisão é obrigatória não estiver ativada, todos os aprovadores deverão tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
+* Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.
+
+Para obter mais informações sobre como adicionar aprovações, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+Para definir regras de aprovação para um formulário de solicitação:
+
+1. Comece a criar um formulário de solicitação para um tipo de registro, conforme descrito em [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. Clique em **Configurações**.
+
+   A guia Settings é exibida.
+
+1. Para começar a configurar as regras de aprovação, clique no ícone Aprovações ![Aprovações](assets/approvals-icon-on-form.png) no painel de navegação esquerdo.
+
+1. (Opcional) Se quiser definir um processo de aprovação padrão, adicione pelo menos um usuário ou equipe ao campo **Aprovadores** da área Regra de aprovação padrão e clique na caixa de seleção **Somente uma decisão é necessária** se quiser que o registro seja criado depois que qualquer um dos aprovadores padrão o aprovar.
+
+   ![Área de regra de aprovação padrão](assets/default-approvers.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+1. (Opcional) Para cada regra de aprovação adicional, faça o seguinte:
+
+   1. Clique em **Adicionar regra de aprovação**
+   1. Clique no título do espaço reservado &quot;Regra de aprovação sem título&quot; e insira um nome para a regra de aprovação.
+   1. Clique em **Selecionar um campo** e selecione o campo que ativa a regra.
+   1. Selecione o operador para a regra. Os operadores variam de acordo com o tipo de campo.
+   1. Se o operador selecionado exigir um valor, clique no ícone de adição e adicione um ou mais valores.
+   1. (Opcional) Adicione mais condições usando AND ou OR ao clicar em Adicionar condição e configurar a condição adicional como nas etapas C-E.
+   1. Na área Ações da regra de aprovação, no campo **Aprovadores**, adicione pelo menos um usuário ou equipe a ser definido como o aprovador quando a condição for atendida.
+   1. 
+      1. (Condicional) Se desejar que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**.
+
+1. Clique em **Salvar** para salvar as regras de aprovação.
+1. (Opcional) Clique em **Publicar** se você nunca compartilhou o formulário de solicitação antes.
+
+</div>

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
 workflow-type: tm+mt
-source-wordcount: '2670'
+source-wordcount: '3518'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -131,7 +131,7 @@ Você pode criar um formulário de solicitação a partir do tipo de registro as
 1. Clique em **Criar**.
 
    O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
-1. Continue em [Configurar o formulário](#configure-the-form).
+1. Continue em [Configurar detalhes para o formulário de solicitação](#set-up-details-for-the-request-form).
 
 <!--
 
@@ -166,7 +166,11 @@ Você pode criar um formulário de solicitação a partir do tipo de registro as
 Os detalhes do formulário são divididos em guias.
 
 * A guia **Formulário** permite adicionar campos e elementos de conteúdo ao formulário
-* A guia **Configuração** permite definir um processo de aprovação para o formulário e definir opções de conclusão da solicitação&lt;.
+* A guia **Configuração** permite definir um processo de aprovação para o formulário e definir opções de conclusão da solicitação.
+
+  >[!NOTE]
+  >
+  ><span class="preview">No ambiente de Visualização, a guia Configurações substitui a guia Configuração.</span>
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Configurar detalhes do formulário
@@ -226,9 +230,17 @@ Os detalhes do formulário são divididos em guias.
    Para obter mais informações sobre como criar um formulário personalizado, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Opcional) Clique em **Visualizar** para ver como o formulário será exibido para outros usuários quando eles o usarem para enviar um novo registro.
-1. Prossiga para [Configurar detalhes da configuração](#set-up-configuration-details) se desejar configurar mais detalhes para o formulário ou vá para [Concluir criação de formulário de solicitação](#complete-request-form-creation).
+1. Prossiga para um dos seguintes:
+
+   * [Defina os detalhes da Configuração](#set-up-configuration-details) se quiser configurar mais detalhes para o formulário no ambiente de Produção
+   * <span class="preview">[Defina as configurações](#configure-settings) se desejar definir mais detalhes para o formulário no ambiente de Produção</span>
+   * [Conclua a criação do formulário de solicitação](#complete-request-form-creation) se não quiser definir outras configurações.
 
 #### Configurar detalhes da configuração
+
+>[!NOTE]
+>
+>Essa guia está disponível somente no ambiente de Produção.
 
 Na guia Configuração, é possível definir o processo de aprovação e configurar quando uma solicitação criada a partir desse formulário será marcada como Concluída.
 
@@ -255,6 +267,82 @@ Na guia Configuração, é possível definir o processo de aprovação e configu
 1. Selecione se você deseja que uma solicitação criada a partir deste formulário seja marcada como concluída quando o objeto solicitado for criado ou quando o objeto solicitado for concluído.
 1. (Condicional) Se você selecionou que a solicitação seja marcada como concluída quando o objeto solicitado for concluído, selecione o campo e o valor que indicam quando o objeto é concluído. Por exemplo, você pode selecionar o campo Status e o valor Concluído para concluir a solicitação quando o status do objeto criado for definido como Concluído.
 1. Prossiga para <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Concluir criação de formulário de solicitação](#complete-request-form-creation).
+
+<div class="preview">
+
+### Ajustar configurações
+
+>[!NOTE]
+>
+>Essa guia está disponível somente no ambiente Visualizar.
+
+Na guia Configurações, é possível definir regras de aprovação e definir quando uma solicitação criada a partir desse formulário será marcada como Concluída.
+
+#### Configurar regras de aprovação
+
+As regras de aprovação definem o processo de aprovação com base nos valores de campo em nas solicitações enviadas.
+
+Por exemplo, se um formulário de solicitação tiver o campo &quot;Tipo de campanha&quot;, poderá ser criada uma regra que envia a solicitação para uma pessoa quando o campo tem o valor &quot;Digital&quot; e outra pessoa quando ele tem o valor &quot;Imprimir&quot;.
+
+Considere o seguinte ao adicionar regras de aprovação:
+
+* As regras são priorizadas por ordem. Se as primeiras condições de regra forem atendidas, essa regra será aplicada, mesmo se as condições para regras mais abaixo na lista também forem atendidas.
+* Se nenhuma condição for atendida, a regra padrão será aplicada.
+* Você pode adicionar um ou vários aprovadores a uma regra de aprovação.
+* Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na área Solicitações do Workfront.
+* Se você adicionar mais de um aprovador e a opção Somente uma decisão é obrigatória não estiver ativada, todos os aprovadores deverão tomar uma decisão antes que uma solicitação seja aprovada ou rejeitada.
+* Se uma equipe estiver definida como um aprovador, somente uma decisão será necessária da equipe.
+
+Para obter mais informações sobre como adicionar aprovações, consulte [Adicionar aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+Para definir regras de aprovação para um formulário de solicitação:
+
+1. Comece a criar ou editar um formulário de solicitação, conforme descrito na seção [Começar a criar um formulário de solicitação](#begin-creating-a-request-form).
+
+   O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
+1. (Opcional) Configure os detalhes do formulário, conforme descrito em [Configurar detalhes do formulário](#set-up-form-details).
+
+1. Para começar a configurar as regras de aprovação, clique no ícone Aprovações ![Aprovações](assets/approvals-icon-on-form.png) no painel de navegação esquerdo.
+
+1. (Opcional) Se quiser definir um processo de aprovação padrão, adicione pelo menos um usuário ou equipe ao campo **Aprovadores** da área Regra de aprovação padrão e clique na caixa de seleção **Somente uma decisão é necessária** se quiser que o registro seja criado depois que qualquer um dos aprovadores padrão o aprovar.
+
+   ![Área de regra de aprovação padrão](assets/default-approvers.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+1. (Opcional) Para cada regra de aprovação adicional, faça o seguinte:
+
+   1. Clique em **Adicionar regra de aprovação**
+   1. Clique no título do espaço reservado &quot;Regra de aprovação sem título&quot; e insira um nome para a regra de aprovação.
+   1. Clique em **Selecionar um campo** e selecione o campo que ativa a regra.
+   1. Selecione o operador para a regra. Os operadores variam de acordo com o tipo de campo.
+   1. Se o operador selecionado exigir um valor, clique no ícone de adição e adicione um ou mais valores.
+   1. (Opcional) Adicione mais condições usando AND ou OR ao clicar em Add condition e configurar a condição adicional.
+   1. Na área Ações da regra de aprovação, no campo **Aprovadores**, adicione pelo menos um usuário ou equipe a ser definido como o aprovador quando a condição for atendida.
+   1. (Condicional) Se desejar que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**.
+
+1. (Opcional) Para reordenar as regras de roteamento, clique na alça de arrastar no lado esquerdo da regra e arraste a regra para o local desejado.
+
+   A regra padrão não pode ser reordenada.
+
+1. (Opcional) Para excluir uma regra de roteamento, clique em **X** à direita da regra.
+1. Clique em **Salvar** para salvar as regras de aprovação.
+1. Continue para [Definir opções de conclusão da solicitação](#set-request-completion-options)
+
+#### Definir opções de conclusão da solicitação
+
+As opções de conclusão permitem definir se uma solicitação é marcada como concluída quando o objeto solicitado é criado ou quando o objeto criado é concluído. Você define quando o objeto é concluído com base em uma condição especificada.
+
+1. Comece a criar ou editar um formulário de solicitação, conforme descrito na seção [Começar a criar um formulário de solicitação](#begin-creating-a-request-form).
+
+   O formulário de solicitação para o tipo de registro selecionado é aberto na guia Formulário.
+1. (Opcional) Configure os detalhes do formulário, conforme descrito em [Configurar detalhes do formulário](#set-up-form-details).
+
+1. Selecione se você deseja que uma solicitação criada a partir deste formulário seja marcada como concluída quando o objeto solicitado for criado ou quando o objeto solicitado for concluído.
+1. (Condicional) Se você selecionou que a solicitação seja marcada como concluída quando o objeto solicitado for concluído, selecione o campo e o valor que indicam quando o objeto é concluído. Por exemplo, você pode selecionar o campo Status e o valor Concluído para concluir a solicitação quando o status do objeto criado for definido como Concluído.
+1. Prossiga para <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Concluir criação de formulário de solicitação](#complete-request-form-creation).
+
+</div>
 
 <!--
  
