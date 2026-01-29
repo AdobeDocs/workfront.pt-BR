@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 45bc1820e4f6416e3d47139bbcf1a2156c5900dc
+source-git-commit: 9fcfea189bfc8827e41098823402f5e392b36d1b
 workflow-type: tm+mt
-source-wordcount: '6941'
+source-wordcount: '7040'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 5%
 # Criar um formulário personalizado
 
 <!-- Audited: 6/2025 -->
+
+{{preview-fast-release-general}}
 
 Você pode criar um formulário personalizado com o designer de formulário no Adobe Workfront. Você pode anexar formulários personalizados a diferentes objetos do Workfront para capturar dados sobre esses objetos.
 
@@ -157,6 +159,10 @@ Os caracteres especiais a seguir não são aceitos em rótulos e nomes de campos
 
 * **Campo de texto de linha única**: permite que os usuários digitem uma única linha de texto no campo.
 * **Campo de parágrafo**: permite que os usuários digitem várias linhas de texto no campo.
+* <span class="preview">**Rich text**: permite que os usuários digitem várias linhas de texto no campo e formatem o texto com negrito, itálico, sublinhado, marcadores, numeração, subscrito e sobrescrito, hiperlinks, aspas de bloco, cabeçalhos e tabelas. Um limite de 15.000 caracteres fornece um grande espaço para texto e formatação.</span>
+
+  <span class="preview">O tipo de campo Rich text está substituindo o Texto pelo tipo de campo de formatação. Você pode converter rapidamente texto existente com campos de formatação em Rich text, clicando no botão **Converter em Rich Text** nas opções de campo à direita.</span>
+
 * **Campo de texto com formatação**: permite aos usuários digitar várias linhas de texto no campo e formatar o texto com negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas de bloco. Um limite de 15.000 caracteres permite bastante texto e formatação.
 
   Esse tipo de campo personalizado não é compatível com filtros em listas e relatórios.
@@ -177,6 +183,7 @@ Para adicionar um campo de texto:
 
    * Texto de linha única
    * Parágrafo
+   * <span class="preview">Rich text</span>
    * Texto com formatação
    * Texto descritivo
 
@@ -197,6 +204,7 @@ Para adicionar um campo de texto:
     <td><ul>
     <li>Texto de linha única</li>
     <li>Parágrafo</li>
+    <li><span class="preview">Rich text</span></li>
     <li>Texto com formatação</li>
     <li>Texto descritivo</li>
     </ul></td>
@@ -208,6 +216,7 @@ Para adicionar um campo de texto:
     <td><ul>
     <li>Texto de linha única</li>
     <li>Parágrafo</li>
+    <li><span class="preview">Rich text</span></li>
     <li>Texto com formatação</li>
     </ul></td>
     </tr>
@@ -219,6 +228,7 @@ Para adicionar um campo de texto:
     <td><ul>
     <li>Texto de linha única</li>
     <li>Parágrafo</li>
+    <li><span class="preview">Rich text</span></li>
     <li>Texto com formatação</li>
     <li>Texto descritivo</li>
     </ul></td>
@@ -231,6 +241,7 @@ Para adicionar um campo de texto:
     <td><ul>
     <li>Texto de linha única</li>
     <li>Parágrafo</li>
+    <li><span class="preview">Rich text</span></li>
     <li>Texto com formatação</li>
     </ul></td>
     </tr>
@@ -266,15 +277,17 @@ Para adicionar um campo de texto:
      <td><ul>
      <li>Texto de linha única</li>
      <li>Parágrafo</li>
+     <li><span class="preview">Rich text</span></li>
      <li>Texto com formatação</li>
      <li>Texto descritivo</li></ul></td>
     </tr>
     <tr> 
-      <td role="rowheader">Tornar um campo obrigatório</td>
+      <td>Tornar um campo obrigatório</td>
       <td><p>Selecione essa opção se desejar que o campo seja obrigatório para que o usuário preencha o formulário personalizado.</p></td>
     <td><ul>
     <li>Texto de linha única</li>
     <li>Parágrafo</li>
+    <li><span class="preview">Rich text</span></li>
     <li>Texto com formatação</li>
     </ul></td> 
     </tr> 
@@ -653,12 +666,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções suspensas.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar "$.data[*].name" para selecionar EUA e Canadá como opções suspensas:</br>
       <pre>
-      &lbrace;
-       dados: &lbrace;
+      {
+       dados: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o Caminho JSON e verificar se você grava o Caminho JSON correto, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
