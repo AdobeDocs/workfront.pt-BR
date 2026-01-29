@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1545'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,9 @@ ht-degree: 0%
 
 # Gerenciar o layout da página de registros
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -172,7 +171,7 @@ Considere o seguinte ao adicionar seções a uma página de registro:
 
 * Não há limite para quantas seções você pode ter em uma página.
 * Você não pode ter uma seção vazia. Você deve ter pelo menos um campo em uma seção.
-* Você pode arrastar e soltar campos de uma seção para outra. Para obter mais informações, consulte a seção [Reorganizar campos na página de visualização ou detalhes do registro](#rearrange-fields-in-the-record-preview-or-details-page) neste artigo.
+* Você pode arrastar e soltar campos de uma seção para outra. Para obter mais informações, consulte a seção [Gerenciar campos na página de visualização ou detalhes do registro](#manage-fields-in-the-records-details-tab) neste artigo.
 * Ao remover todos os campos de uma seção, ela é automaticamente excluída e não pode ser recuperada.
 
 Para adicionar uma seção a uma visualização de registro ou página:
@@ -205,7 +204,7 @@ Para adicionar uma seção a uma visualização de registro ou página:
 
 1. Na guia **Detalhes** da visualização ou página do registro, passe o mouse sobre o espaço em branco à esquerda dos campos e clique no ícone **Adicionar seção** ícone ![Adicionar seção](assets/add-section-icon.png) para adicionar uma seção.
 1. Clique dentro do nome da seção e substitua **Seção sem título** por um nome e clique em Enter. Os campos exibidos abaixo da seção fazem parte automaticamente da nova seção.
-1. Comece a arrastar e soltar campos na nova seção, conforme descrito na seção [Reorganizar campos na página de visualização de registro ou de detalhes](#rearrange-fields-in-the-record-preview-or-details-page) deste artigo.
+1. Comece a arrastar e soltar campos na nova seção, conforme descrito na seção [Gerenciar campos na página de visualização ou detalhes do registro](#manage-fields-in-the-records-details-tab) deste artigo.
 
 1. (Opcional) Passe o mouse sobre o nome de uma seção e clique no menu **Mais** ![Mais menu](assets/more-menu.png).
 
@@ -254,7 +253,7 @@ As seguintes situações ocorrem:
    * O objeto Workfront também é removido do campo conectado do registro do Workfront Planning.
    * Os valores dos campos de pesquisa do Workfront conectados ao registro do Planning também são excluídos.
 
-## Reorganizar campos na guia Detalhes do registro
+## Gerenciar campos na guia Detalhes do registro
 
 {{step1-to-planning}}
 
@@ -281,6 +280,20 @@ As seguintes situações ocorrem:
    A guia **Detalhes** do registro é aberta por padrão.
 
    ![Página de detalhes](assets/details-page.png)
+
+1. <span class="preview">(Opcional e condicional) Dependendo de quais campos você deseja exibir na página Detalhes, siga um destes procedimentos:</span>
+
+   <div class="preview">
+
+   * Selecione a configuração **Mostrar campos de tabela** para exibir somente campos que não estejam ocultos na exibição de tabela do registro. Esta é a configuração padrão
+   * Desmarque a configuração **Mostrar campos de tabela** para exibir todos os campos da exibição de tabela do registro, incluindo os ocultos.
+
+   <!--replace with this when they fix the UI text:
+   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+   -->
+
+   </div>
 
 1. Na guia **Detalhes** do registro, clique no ícone **Capturar** ![Ícone Capturar](assets/grab-icon.png) à esquerda de um nome de campo e arraste-o e solte-o no local desejado.
 

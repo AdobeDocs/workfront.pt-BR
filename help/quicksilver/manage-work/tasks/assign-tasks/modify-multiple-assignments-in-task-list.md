@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 0%
+source-wordcount: '1496'
+ht-degree: 2%
 
 ---
 
@@ -42,7 +42,7 @@ Para obter informações sobre como atribuir uma tarefa a um recurso em uma list
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,8 +54,8 @@ Para obter informações sobre como atribuir uma tarefa a um recurso em uma list
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
-   <p>Trabalhar ou superior</p>
+   <td> <p>Padrão</p>
+   <p>Trabalho ou maior</p>
    </td> 
   </tr> 
   <tr> 
@@ -127,85 +127,144 @@ When assigning users to work, their availability according to their schedules af
 
 1. Selecione as tarefas para as quais deseja modificar atribuições e clique no ícone **Editar** ![](assets/edit-icon.png).
 
-   A caixa **Editar tarefas** é aberta na nova experiência. Siga um destes procedimentos:
+   A edição de atribuições em tarefas difere de acordo com o ambiente escolhido.
 
-   * Para adicionar responsáveis, comece digitando o nome de um responsável no campo **Pesquisar pessoas, funções ou equipes** e, em seguida, selecione-os quando eles forem exibidos na lista.
-   * Para remover atribuídos, clique no ícone **x** à direita do nome. Somente os atribuídos comuns a todas as tarefas são exibidos na lista.
-   * Clique em Atribuir a mim para atribuir as tarefas selecionadas a você mesmo.
+1. (Condicional) Se você estiver usando o ambiente de Produção para atribuir tarefas, a caixa **Editar tarefas** será aberta na nova experiência. Faça o seguinte no ambiente de Produção:
 
-1. (Condicional) Ao usar a nova experiência, clique em **Salvar**.
+   1. Para adicionar ou remover responsáveis, siga um destes procedimentos:
 
-1. (Opcional) Clique em **Alternar para experiência antiga** na parte inferior da caixa **Editar tarefas**.
+      * Para adicionar responsáveis, comece digitando o nome de um responsável no campo **Pesquisar pessoas, funções ou equipes** e, em seguida, selecione-os quando eles forem exibidos na lista.
+      * Para remover atribuídos, clique no ícone **x** à direita do nome. Somente os atribuídos comuns a todas as tarefas são exibidos na lista.
+      * Clique em Atribuir a mim para atribuir as tarefas selecionadas a você mesmo.
 
-   A caixa **Editar Tarefas** é aberta na experiência antiga.
+   1. (Condicional) Ao usar a nova experiência, clique em **Salvar**.
 
-   <!--
-   >[!TIP]
-   >
-   >The old experience is available by default in the Production environment.-->
+   1. (Opcional) Clique em **Alternar para experiência antiga** na parte inferior da caixa **Editar tarefas**.
 
-1. (Condicional) Na experiência antiga, faça o seguinte para modificar os atribuídos:
+      A caixa **Editar Tarefas** é aberta na experiência antiga.
 
-   1. Vá para a seção **Atribuições**.
+   1. (Condicional) Na experiência antiga, faça o seguinte para modificar os atribuídos:
 
-      >[!IMPORTANT]
-      >
-      >A remoção de atribuídos pode afetar as horas da tarefa e as porcentagens de alocação. Para obter mais informações, consulte a seção [Como a remoção de atribuídos afeta as horas da tarefa e as porcentagens de alocação](#how-removing-assignees-affects-task-hours-and-allocation-percentages) neste artigo.
+      1. Vá para a seção **Atribuições**.
 
-   1. Siga um destes procedimentos para adicionar ou remover responsáveis:
+         >[!IMPORTANT]
+         >
+         >A remoção de atribuídos pode afetar as horas da tarefa e as porcentagens de alocação. Para obter mais informações, consulte a seção [Como a remoção de atribuídos afeta as horas da tarefa e as porcentagens de alocação](#how-removing-assignees-affects-task-hours-and-allocation-percentages) neste artigo.
 
-      * Para adicionar um novo destinatário:
+      1. Siga um destes procedimentos para adicionar ou remover responsáveis:
 
-         1. Na seção **Atribuições**, selecione **Atribuído**.
+         * Para adicionar um novo destinatário:
 
-            As informações comuns em todas as tarefas selecionadas são exibidas. Por exemplo, se o mesmo usuário for atribuído a todas as tarefas, ele será exibido na coluna **Atribuído**. Se as informações não forem comuns nas tarefas selecionadas, nenhuma informação será exibida.
+            1. Na seção **Atribuições**, selecione **Atribuído**.
 
-         1. Comece a digitar o nome de um usuário, função ou equipe e selecione-o quando ele for exibido na lista. A atribuição é adicionada e não substitui as atribuições atuais nas tarefas selecionadas.
+               As informações comuns em todas as tarefas selecionadas são exibidas. Por exemplo, se o mesmo usuário for atribuído a todas as tarefas, ele será exibido na coluna **Atribuído**. Se as informações não forem comuns nas tarefas selecionadas, nenhuma informação será exibida.
 
+            1. Comece a digitar o nome de um usuário, função ou equipe e selecione-o quando ele for exibido na lista. A atribuição é adicionada e não substitui as atribuições atuais nas tarefas selecionadas.
 
-        >[!TIP]
-        >
-        > * Você pode atribuir vários usuários, funções de trabalho ou equipes. Você pode atribuir somente usuários, funções de trabalho e equipes ativos.
-        >   
-        > * Ao adicionar uma atribuição de usuário, observe o avatar, a função principal do usuário ou seu endereço de email para distinguir entre usuários com nomes idênticos. Os usuários devem ser associados a pelo menos uma função de trabalho para visualizá-la à medida que forem adicionados. Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-        > 
-        >   Se um usuário, função de trabalho ou equipe foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
-        >   
-        >     * Reatribuir o item de trabalho aos recursos ativos.
-        >     * Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
+           >[!TIP]
+           >
+           > * Você pode atribuir vários usuários, funções de trabalho ou equipes. Você pode atribuir somente usuários, funções de trabalho e equipes ativos.
+           >   
+           > * Ao adicionar uma atribuição de usuário, observe o avatar, a função principal do usuário ou seu endereço de email para distinguir entre usuários com nomes idênticos. Os usuários devem ser associados a pelo menos uma função de trabalho para visualizá-la à medida que forem adicionados. Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+           > 
+           >   Se um usuário, função de trabalho ou equipe foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
+           >   
+           >     * Reatribuir o item de trabalho aos recursos ativos.
+           >     * Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
 
 
-      * Para remover designados individuais:
+         * Para remover designados individuais:
 
-         1. Clique no ícone **X** ao lado do nome do destinatário que você deseja remover se ele for exibido na lista Atribuições.
+            1. Clique no ícone **X** ao lado do nome do destinatário que você deseja remover se ele for exibido na lista Atribuições.
 
-            Ou
+               Ou
 
-            (Condicional) Se o destinatário que você deseja remover não for exibido na seção Atribuições porque o destinatário está atribuído a apenas algumas das tarefas que você selecionou, clique em **Remover destinatário** e comece a digitar o nome do destinatário que você deseja remover, em seguida, clique no nome quando ele aparecer na lista suspensa.
+               (Condicional) Se o destinatário que você deseja remover não for exibido na seção Atribuições porque o destinatário está atribuído a apenas algumas das tarefas que você selecionou, clique em **Remover destinatário** e comece a digitar o nome do destinatário que você deseja remover, em seguida, clique no nome quando ele aparecer na lista suspensa.
 
-      * Para remover todos os designados existentes:
+         * Para remover todos os designados existentes:
 
-         1. Clique em **Remover todos os atribuídos existentes** e em **Sim, Excluir todos os atribuídos**.
+            1. Clique em **Remover todos os atribuídos existentes** e em **Sim, Excluir todos os atribuídos**.
 
-            Isso remove não somente os atribuídos comuns (atribuídos exibidos na caixa de diálogo de edição), mas também todos os atribuídos em todas as tarefas selecionadas.
+               Isso remove não somente os atribuídos comuns (atribuídos exibidos na caixa de diálogo de edição), mas também todos os atribuídos em todas as tarefas selecionadas.
 
-        Remover usuários das tarefas pode afetar as horas da tarefa e as porcentagens de alocação.
+           Remover usuários das tarefas pode afetar as horas da tarefa e as porcentagens de alocação.
 
-        Para obter mais informações, consulte [Visão geral da modificação de atribuições de tarefas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+           Para obter mais informações, consulte [Visão geral da modificação de atribuições de tarefas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
-   1. (Opcional) Modifique qualquer uma das seguintes opções para os designados:
+      1. (Opcional) Modifique qualquer uma das seguintes opções para os designados:
 
-      * (Condicional) **Percentual de Alocação ou Horas**: especifique uma nova porcentagem de alocação ou horas.
+         * (Condicional) **Percentual de Alocação ou Horas**: especifique uma nova porcentagem de alocação ou horas.
 
-      >[!NOTE]
-      >
-      >Essa opção só poderá ser modificada se o Tipo de Duração for o mesmo em todas as tarefas que estão sendo editadas. Quando o Tipo de Duração for Trabalho Calculado ou Orientado pelo Esforço, você poderá atualizar a Alocação %. Quando o Tipo de duração é Simples, você pode atualizar as Horas. Para obter informações sobre o Tipo de Duração, consulte [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-      >
-      >
-      >Se o campo estiver em branco, significa que o valor é diferente nas tarefas; no entanto, você ainda poderá modificá-lo.
+         >[!NOTE]
+         >
+         >Essa opção só poderá ser modificada se o Tipo de Duração for o mesmo em todas as tarefas que estão sendo editadas. Quando o Tipo de Duração for Trabalho Calculado ou Orientado pelo Esforço, você poderá atualizar a Alocação %. Quando o Tipo de duração é Simples, você pode atualizar as Horas. Para obter informações sobre o Tipo de Duração, consulte [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+         >
+         >
+         >Se o campo estiver em branco, significa que o valor é diferente nas tarefas; no entanto, você ainda poderá modificá-lo.
 
-      * **Proprietário da tarefa**: selecione essa opção para tornar o destinatário o proprietário da tarefa para todas as tarefas que estão sendo editadas.
-      * **Função do destinatário**: selecione uma função na lista suspensa. Se não for selecionada, o Adobe Workfront selecionará automaticamente a função principal do usuário.
+         * **Proprietário da tarefa**: selecione essa opção para tornar o destinatário o proprietário da tarefa para todas as tarefas que estão sendo editadas.
+         * **Função do destinatário**: selecione uma função na lista suspensa. Se não for selecionada, o Adobe Workfront selecionará automaticamente a função principal do usuário.
 
-   1. Clique em **Salvar alterações.**
+      1. Clique em **Salvar alterações.**
+
+
+
+   1. <span class="preview">(Condicional) Se você estiver usando o ambiente de Visualização para atribuir tarefas, a caixa **Editar tarefas** será aberta. Faça o seguinte no ambiente de Visualização: </span>
+
+      <div class="preview">
+
+      1. Para adicionar ou remover responsáveis, siga um destes procedimentos:
+
+         * Para adicionar responsáveis, comece digitando o nome de um responsável no campo **Pesquisar pessoas, funções ou equipes** e, em seguida, selecione-os quando eles forem exibidos na lista.
+
+           O novo destinatário é adicionado aos existentes nas tarefas selecionadas.
+         * Para remover responsáveis, clique no nome de um responsável na caixa **Remover responsável**
+
+           Ou
+
+           Clique em **Remover todos os atribuídos existentes**.
+
+           Os responsáveis são removidos de todas as tarefas selecionadas.
+
+           Remover usuários das tarefas pode afetar as horas da tarefa e as porcentagens de alocação.
+
+           Para obter mais informações, consulte [Visão geral da modificação de atribuições de tarefas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+
+
+           >[!TIP]
+           >
+           >* Você pode atribuir vários usuários, funções de trabalho ou equipes. Você pode atribuir somente usuários, funções de trabalho e equipes ativos.
+           >   
+           >* Ao adicionar uma atribuição de usuário, observe o avatar, a função principal do usuário ou seu endereço de email para distinguir entre usuários com nomes idênticos. Os usuários devem ser associados a pelo menos uma função de trabalho para visualizá-la à medida que forem adicionados. Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+           > 
+           >   Se um usuário, função de trabalho ou equipe foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
+           >   
+           >* Reatribuir o item de trabalho aos recursos ativos.
+           >* Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
+
+
+      1. (Opcional) Modifique qualquer uma das seguintes opções para os designados:
+
+         * (Condicional) **Percentual de Alocação ou Horas**: especifique uma nova porcentagem de alocação ou horas.
+
+         >[!NOTE]
+         >
+         >Essa opção só poderá ser modificada se o Tipo de Duração for o mesmo em todas as tarefas que estão sendo editadas. Quando o Tipo de Duração for Trabalho Calculado ou Orientado pelo Esforço, você poderá atualizar a Alocação %. Quando o Tipo de duração é Simples, você pode atualizar as Horas. Para obter informações sobre o Tipo de Duração, consulte [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+         >
+         >
+         >Se o campo estiver em branco, significa que o valor é diferente nas tarefas; no entanto, você ainda poderá modificá-lo.
+
+         * **Tornar Primário**: passe o mouse sobre as tarefas selecionadas e selecione esta opção para tornar o destinatário o proprietário da tarefa para todas as tarefas que estão sendo editadas.
+         * **Função do destinatário**: selecione uma função na lista suspensa. Se não for selecionada, o Adobe Workfront selecionará automaticamente a função principal do usuário.
+         * **Tipo de Duração**
+         * **Duração**
+         * **Horas planejadas**
+
+      1. Clique em **Salvar**.
+
+         </div>
+
+
+
+
 

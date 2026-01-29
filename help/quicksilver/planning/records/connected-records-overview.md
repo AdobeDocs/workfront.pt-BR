@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 11d856aeee3bd9edcdc1dbca3964f37bdf83bd00
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,23 @@ ht-degree: 0%
 
 É possível conectar registros do Adobe Workfront Planning uns aos outros ou a objetos de outros aplicativos.
 
-Este artigo descreve considerações que você deve considerar ao conectar registros no Adobe Workfront Planning.
+Este artigo descreve considerações que você deve considerar ao conectar registros no Workfront Planning.
 
 Para obter informações sobre como conectar registros uns aos outros ou a outro objeto, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+
+## Pré-requisitos
+
+Você deve conectar o seguinte antes de poder conectar registros no Workfront Planning:
+
+* Dois tipos de registro
+* Um tipo de registro com um objeto de outro aplicativo
+
+Para obter mais informações, consulte [Visão geral dos tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 
 ## Considerações sobre a conexão de registros
 
-* Depois de conectar os tipos de registro, os tipos de registro conectados são exibidos como campos de registro vinculados na tabela dos tipos de registro a partir dos quais estão vinculados e nas páginas dos registros.
+* Depois de conectar os tipos de registro, os tipos de registro conectados são exibidos como campos de conexão na tabela dos tipos de registro dos quais estão vinculados e nas páginas dos registros.
 * Você pode procurar e adicionar registros e objetos do registro vinculado e tipos de objeto a partir dos campos de registro vinculados.
 * É possível adicionar campos (campos de pesquisa) dos tipos de registro vinculados na tabela do tipo de registro a partir do qual você está vinculando.
 
@@ -49,14 +58,17 @@ Para obter informações sobre como conectar registros uns aos outros ou a outro
 
 ## Áreas em que é possível conectar registros
 
-É possível conectar registros a outros registros ou a objetos de outro aplicativo nas seguintes áreas:
+É possível conectar registros manual ou automaticamente no Workfront.
+
+### Conectar registros manualmente
+
+Você pode conectar registros manualmente a outros registros ou a objetos de outro aplicativo nas seguintes áreas:
 
 * Você pode conectar registros do Workfront Planning a objetos do Workfront, objetos do Experience Manager Assets ou Marcas da GenStudio nas seguintes áreas de um registro do Planning:
 
    * Os campos de registro conectados na exibição de tabela de um tipo de registro no Planning.
-   * A página de visualização ou detalhes do registro nos campos de registro conectados na guia Detalhes.
-   * A página de visualização ou de detalhes do registro na guia Conexões.
-   * A página do registro em uma guia da página Registros conectados de um registro conectado.
+   * Os campos de registro conectados na página de visualização ou de detalhes de um registro.
+   * A página de visualização ou de detalhes do registro na página Registros conectados de um registro.
 
 * Você pode conectar objetos do Workfront a registros do Workfront Planning nas seguintes áreas do Workfront:
 
@@ -64,3 +76,25 @@ Para obter informações sobre como conectar registros uns aos outros ou a outro
    * Um campo de conexão do Planning no formulário personalizado de um objeto do Workfront.
 
   Para obter informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+
+### Conectar registros automaticamente
+
+Depois de conectar tipos de registro uns aos outros ou um tipo de registro a um tipo de objeto de outro aplicativo, você pode conectar registros e objetos automaticamente das seguintes maneiras:
+
+* Uso de automações
+
+  Você pode criar registros ou objetos Workfront a partir de um registro do Planning no qual você configura automações.
+
+  Quando uma condição definida é atendida, um registro ou um objeto é criado e é automaticamente conectado ao registro do qual você está acionando a automação.
+
+  Para obter informações, consulte [Configurar automações do Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
+
+* Uso de formulários de solicitação para criar registros
+
+  É possível criar registros ao submeter uma solicitação do Planning. A solicitação e o registro são conectados automaticamente.
+
+  >[!NOTE]
+  >
+  >Não é possível desconectar um registro de sua solicitação original.
+
+  Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).

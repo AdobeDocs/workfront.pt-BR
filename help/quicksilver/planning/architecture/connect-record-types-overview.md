@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 29579097cd3aa75ab0478743b84dcb9bc3217489
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2129'
 ht-degree: 1%
 
 ---
@@ -30,57 +30,77 @@ Para obter informações sobre como conectar tipos de registro, consulte [Conect
 
 ## Considerações sobre a conexão de tipos de registro
 
-Há duas etapas para conexões no Workfront Planning:
+* Para que registros ou objetos individuais sejam conectados uns aos outros, os tipos de registro devem primeiro ser conectados a tipos de objeto.
 
-1. Estabeleça uma conexão entre dois tipos de registro ou um tipo de registro e um tipo de objeto de outro aplicativo.
+  É possível conectar tipos de registro e tipos de objeto entre si das seguintes maneiras:
 
-   Para obter informações sobre como você pode conectar tipos de registro, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
+   * Manual
+   * Automaticamente
 
-1. Conectar um registro individual de um tipo a registros de outro tipo depois que os dois tipos de registros estiverem conectados. Para obter informações sobre como conectar registros, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+  >[!NOTE]
+  >
+  >É possível ter até 30 campos conectados para um tipo de registro no Workfront Planning.
 
-Considere o seguinte sobre a conexão de tipos de registro:
 
-* É possível ter até 30 campos conectados para um tipo de registro no Workfront Planning.
+* Considere o seguinte sobre a conexão de tipos de registro e objeto:
 
-* Você pode conectar as seguintes entidades no Adobe Workfront Planning:
+   * Você pode adicionar manualmente um campo Nova Conexão de um tipo de registro para conectar as seguintes entidades no Workfront Planning:
 
-   * Dois tipos de registro.
+      * Dois tipos de registro
 
-     Por padrão, você pode conectar dois tipos de registro do mesmo espaço de trabalho. Você também pode configurar tipos de registro para se conectar a tipos de registro de outros espaços de trabalho, se sua organização tiver adquirido um pacote superior do Workfront ou do Planning. Para obter mais informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
-   * Um tipo de registro e um tipo de objeto de outro aplicativo.
+        Por padrão, você pode conectar dois tipos de registro do mesmo espaço de trabalho. Você também pode configurar tipos de registro para se conectar a tipos de registro de outros espaços de trabalho, se sua organização tiver adquirido um pacote superior do Workfront ou do Planning. Para obter mais informações, consulte [Editar tipos de registros](/help/quicksilver/planning/architecture/edit-record-types.md).
+      * Um tipo de registro e um tipo de objeto de outro aplicativo.
 
-* Você pode conectar tipos de registro do Workfront Planning com os seguintes tipos de objeto dos seguintes aplicativos:
+     Para obter informações sobre como conectar tipos de registro e objeto, consulte [Conectar tipos de registro](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-   * Adobe Workfront:
+     Depois de conectar manualmente os tipos de registro a outros tipos de registro ou objeto, você pode conectar registros e objetos individuais.
 
-      * Projetos
-      * Portfólios
-      * Programas
-      * Empresas
-      * Grupos
+     Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
 
-   * Adobe Experience Manager Assets:
+   * Uma conexão entre entidades é estabelecida automaticamente nos seguintes cenários:
 
-      * Imagens
-      * Pastas
+      * Quando você usa uma automação para criar registros a partir da página de um tipo de registro.
 
-   * Adobe GenStudio for Performance Marketing
+        A conexão entre os tipos de registro ou o tipo de registro e o tipo de objeto de outro aplicativo é criada automaticamente quando a automação cria o registro ou objeto conectado.
 
-      * Marcas
+        Para obter informações, consulte [Configurar automações do Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-     >[!IMPORTANT]
-     >
-     >Você deve ter o seguinte para se conectar com as Marcas Adobe Experience Manager Assets e GenStudio:
-     >* Uma licença do Adobe Experience Manager Assets
-     >* Uma licença do Adobe GenStudio for Performance Marketing
-     >* A instância da Workfront de sua organização deve ser integrada à Adobe Business Platform ou à Adobe Admin Console para conectar os registros do Workfront Planning à Adobe Experience Manager Assets.
-     >Para obter informações sobre a Adobe Admin Console, consulte as [Perguntas frequentes sobre a Experiência Unificada do Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+      * Ao configurar formulários de solicitação para um tipo de registro para criar um registro ou um objeto.
 
-* Depois de criar registros para tipos de registro, é possível vinculá-los uns aos outros por meio do campo de registro conectado.
+        A conexão entre o tipo de registro e o tipo de objeto de solicitação é criada automaticamente quando você submete e aprova uma solicitação do Planning que cria um registro.
 
-  Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
+        Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
-* Depois de conectar um tipo de registro com outro tipo de registro ou com um tipo de objeto de outro aplicativo, existem os seguintes cenários:
+        Você pode exibir a solicitação original na área Solicitações do Workfront<!--, <span class="preview">or in the Original Request connection field in Workfront Planning.</span>-->.
+
+   * Você pode conectar tipos de registro do Workfront Planning com os seguintes tipos de objeto dos seguintes aplicativos:
+
+      * Adobe Workfront:
+
+         * Projetos
+         * Portfólios
+         * Programas
+         * Empresas
+         * Grupo
+
+      * Adobe Experience Manager Assets:
+
+         * Imagens
+         * Pastas
+
+      * Adobe GenStudio for Performance Marketing
+
+         * Marcas
+
+        >[!IMPORTANT]
+        >
+        >Você deve ter o seguinte para se conectar com as Marcas Adobe Experience Manager Assets e GenStudio:
+        >* Uma licença do Adobe Experience Manager Assets
+        >* Uma licença do Adobe GenStudio for Performance Marketing
+        >* A instância da Workfront de sua organização deve ser integrada à Adobe Business Platform ou à Adobe Admin Console para conectar os registros do Workfront Planning à Adobe Experience Manager Assets.
+        >Para obter informações sobre a Adobe Admin Console, consulte as [Perguntas frequentes sobre a Experiência Unificada do Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+* Quando dois tipos de registro ou um tipo de registro e um tipo de objeto de outro aplicativo são conectados, os seguintes cenários existem:
 
    * **Quando você conecta dois tipos de registro do Planning**: um campo de registro vinculado é criado no tipo de registro do qual você está se conectando. Um campo de registro vinculado semelhante é criado no tipo de registro ao qual você está se conectando somente quando você ativa a configuração Criar campo correspondente no tipo de registro vinculado na guia Nova conexão.
 
@@ -99,7 +119,7 @@ Considere o seguinte sobre a conexão de tipos de registro:
       * Os campos de registros de planejamento não podem ser acessados de objetos do Workfront.
       * Os registros do Planning ficam visíveis na seção Planejamento do objeto Workfront. Para obter informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Você pode criar um campo personalizado de conexão do Planning e anexá-lo ao formulário personalizado de um objeto do Workfront. Para obter informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Os campos de registro do Planning podem ser acessados a partir de ativos do Experience Manager quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Os campos de registro do Planning podem ser acessados a partir de ativos do Experience Manager quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
       * Os campos de registro de planejamento não podem ser acessados nas Marcas no GenStudio for Performance Marketing.
 
    * **Ao adicionar campos de pesquisa a partir do registro ou objeto ao qual você se conecta**: além de criar um campo de registro vinculado, você também pode se conectar a campos do registro ou tipo de objeto conectado que são chamados de campos de pesquisa. Um campo vinculado (ou de pesquisa) com informações do registro ao qual você está se conectando é exibido no registro do qual você está se conectando.

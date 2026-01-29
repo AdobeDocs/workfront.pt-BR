@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2424'
 ht-degree: 2%
 
 ---
@@ -224,6 +224,10 @@ Para atribuir tarefas em uma lista:
 
 ## Atribuir várias tarefas em massa a partir de uma lista
 
+Atribuir várias tarefas em massa a partir de uma lista difere, dependendo do ambiente escolhido.
+
+### Atribuir várias tarefas em massa a partir de uma lista no ambiente de Produção
+
 1. Vá para uma lista de tarefas que você deseja atribuir em massa.
 1. (Condicional) Verifique se a opção **Salvar automaticamente** está selecionada se você estiver em uma lista de tarefas em um projeto.
 
@@ -241,11 +245,6 @@ Para atribuir tarefas em uma lista:
    Para obter mais informações, consulte a seção [Atribuir várias tarefas em massa de uma lista na nova experiência](#assign-multiple-tasks-in-bulk-from-a-list-in-the-new-experience) neste artigo.
 
 1. (Opcional) Clique em **Retornar à experiência antiga** na parte inferior da caixa **Editar tarefas** para abrir a experiência antiga.
-
-   >[!TIP]
-   >
-   >A atribuição de tarefas no ambiente de Produção está disponível somente para a experiência antiga.
-
 
 1. (Condicional) Usando a experiência antiga, na área **Atribuições**, marque a caixa **Destinatário** e comece a digitar o nome de um usuário, função de trabalho ou equipe que você deseja atribuir a todas as tarefas.
 
@@ -315,8 +314,48 @@ Para atribuir tarefas em uma lista:
 1. (Opcional) Se quiser remover os atribuídos existentes de todas as tarefas, clique em **x** ao lado do nome no campo **Pesquisar pessoas, funções ou equipes**.
 
 1. Clique em **Salvar**.
-1. (Opcional e condicional) Quando os campos **Atribuído a** ou **Atribuições** forem exibidos na lista de tarefas, clique dentro de uma dessas colunas para uma tarefa e, em seguida, clique no ícone **X** ao lado do nome de um destinatário para removê-lo da tarefa
+1. (Opcional e condicional) Quando os campos **Atribuído a** ou **Atribuições** forem exibidos na lista de tarefas, clique dentro de uma dessas colunas para uma tarefa e, em seguida, clique no ícone **X** ao lado do nome de um destinatário para removê-lo da tarefa.
 
+<div class="preview">
+
+### Atribuir várias tarefas em massa a partir de uma lista no ambiente de Pré-visualização
+
+1. Vá para uma lista de tarefas que você deseja atribuir em massa.
+1. (Condicional) Verifique se a opção **Salvar automaticamente** está selecionada se você estiver em uma lista de tarefas em um projeto.
+
+   >[!IMPORTANT]
+   >
+   >Não é possível editar tarefas em massa ao salvar tarefas manualmente em um projeto.
+
+1. Selecione várias tarefas na lista de tarefas.
+1. Clique em **Editar**.
+
+   A caixa **Editar Tarefas** é aberta.
+
+1. Na área **Atribuições**, comece digitando o nome de usuários, equipes ou funções no campo **Pesquisar pessoas, funções ou equipes** fornecido, em seguida, clique nelas quando forem exibidas na lista
+
+   >[!IMPORTANT]
+   >
+   >Se qualquer uma das tarefas já estiver atribuída, os recursos que você indicar aqui serão adicionados às tarefas em vez de substituir os recursos existentes nas tarefas.
+
+1. Especifique os seguintes campos para as tarefas selecionadas:
+
+   * Passe o mouse sobre o nome da atribuição e clique em **Tornar Primário** para indicar qual destinatário é o proprietário da tarefa.
+   * **Tipo de Duração**
+
+     Para obter informações sobre o Tipo de Duração em tarefas, consulte [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+   * **Duração**
+   * **Horas planejadas**
+
+     Para obter mais informações, consulte [Editar tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+1. (Opcional) Se quiser remover os atribuídos existentes de todas as tarefas, clique em **x** ao lado do nome no campo **Pesquisar pessoas, funções ou equipes**.
+
+1. Clique em **Salvar**.
+1. (Opcional e condicional) Quando os campos **Atribuído a** ou **Atribuições** forem exibidos na lista de tarefas, clique dentro de uma dessas colunas para uma tarefa e, em seguida, clique no ícone **X** ao lado do nome de um destinatário para removê-lo da tarefa.
+
+</div>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
