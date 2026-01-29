@@ -166,7 +166,7 @@ Para definir regras de aprovação para um formulário de solicitação:
    1. Se o operador selecionado exigir um valor, clique no ícone de adição e adicione um ou mais valores.
    1. (Opcional) Adicione mais condições usando AND ou OR ao clicar em Adicionar condição e configurar a condição adicional como nas etapas C-E.
    1. Na área Ações da regra de aprovação, no campo **Aprovadores**, adicione pelo menos um usuário ou equipe a ser definido como o aprovador quando a condição for atendida.
-   1. 
+   1. &#x200B;
       1. (Condicional) Se desejar que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**.
 
 1. Clique em **Salvar** para salvar as regras de aprovação.
