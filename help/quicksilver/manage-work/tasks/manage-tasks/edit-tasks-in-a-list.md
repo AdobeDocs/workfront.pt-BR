@@ -6,9 +6,9 @@ description: É possível editar as informações da tarefa em uma lista de tare
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3236'
 ht-degree: 3%
 
 ---
@@ -21,8 +21,7 @@ ht-degree: 3%
 
 As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
 
-Para obter mais informações, consulte [Modernização da interface](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
-
+Para obter mais informações, consulte a [Visão geral da versão do segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 </div>
 
 É possível editar as informações da tarefa em uma lista de tarefas editando os campos exibidos na lista. Para obter informações sobre outras maneiras de editar tarefas, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
@@ -180,7 +179,7 @@ Para editar tarefas em uma lista e salvar alterações automaticamente:
 
    Ou
 
-   Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon-task-list.png) à direita do nome da tarefa.
+   Clique no menu **** Mais![](assets/more-icon-task-list.png) à direita do nome da tarefa.
 
 1. (Opcional) Selecione entre as seguintes opções:
 
@@ -300,7 +299,7 @@ Para editar tarefas em uma lista ao selecionar a opção Salvar manualmente padr
 
    Ou
 
-   Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon-task-list.png).
+   Clique no menu **** Mais![](assets/more-icon-task-list.png).
 
 1. (Opcional) Selecione entre as seguintes opções:
 
@@ -408,7 +407,7 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
 
    Ou
 
-   Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon-task-list.png).
+   Clique no menu **** Mais![](assets/more-icon-task-list.png).
 
 1. Selecione entre as seguintes opções:
 

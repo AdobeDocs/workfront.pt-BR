@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 03142ce47e7b123eea63b409749346469f5feb14
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Configurar campos exibidos na página Detalhes de um registro
+## Configurar campos exibidos na caixa de visualização Detalhes de um registro
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 >Versão rápida de produção: 12 de fevereiro de 2026
 >Produção para todos: 16 de abril de 2026
 
-Introduzimos uma configuração que permite mostrar ou ocultar campos de registro nas áreas de visualização e página Detalhes, com base nos campos exibidos na exibição de tabela.
+Introduzimos uma configuração que permite mostrar ou ocultar campos de registro na caixa de visualização Detalhes de um registro, com base nos campos exibidos na exibição de tabela. 
 
-Você pode escolher se deseja incluir ou excluir campos ocultos na exibição de tabela da área Detalhes de um registro. Quando essa configuração está desativada, os campos ocultos não são mostrados na área Detalhes.
+Com essa nova configuração, você pode optar por incluir ou excluir campos ocultos na exibição de tabela da área de visualização Detalhes do registro.
 
 Para obter informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
 

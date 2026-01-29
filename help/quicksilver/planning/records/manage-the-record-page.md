@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1568'
 ht-degree: 0%
 
 ---
@@ -275,12 +275,6 @@ As seguintes situações ocorrem:
 
    ![Caixa Detalhes](assets/details-box.png)
 
-1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir caixa de detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
-
-   A guia **Detalhes** do registro é aberta por padrão.
-
-   ![Página de detalhes](assets/details-page.png)
-
 1. <span class="preview">(Opcional e condicional) Dependendo de quais campos você deseja exibir na página Detalhes, siga um destes procedimentos:</span>
 
    <div class="preview">
@@ -288,12 +282,23 @@ As seguintes situações ocorrem:
    * Selecione a configuração **Mostrar campos de tabela** para exibir somente campos que não estejam ocultos na exibição de tabela do registro. Esta é a configuração padrão
    * Desmarque a configuração **Mostrar campos de tabela** para exibir todos os campos da exibição de tabela do registro, incluindo os ocultos.
 
+   >[!TIP]
+   >
+   >A configuração **Mostrar campos de tabela** está disponível somente na caixa de visualização Detalhes do registro. Não está disponível na página Detalhes do registro.
+
+
    <!--replace with this when they fix the UI text:
    * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
    * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
    -->
 
    </div>
+
+1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir caixa de detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
+
+   A guia **Detalhes** do registro é aberta por padrão.
+
+   ![Página de detalhes](assets/details-page.png)
 
 1. Na guia **Detalhes** do registro, clique no ícone **Capturar** ![Ícone Capturar](assets/grab-icon.png) à esquerda de um nome de campo e arraste-o e solte-o no local desejado.
 

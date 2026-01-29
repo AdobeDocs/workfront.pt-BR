@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 4167910f36921e04351190f722ea1e7fac9641c7
+source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 2%
+source-wordcount: '1551'
+ht-degree: 1%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 2%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<!--<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
+As informações destacadas nesta página se referem a funcionalidades ainda não disponíveis no geral. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Os mesmos recursos também estarão disponíveis no ambiente de Produção para todos os clientes, a partir de uma semana da versão de Pré-visualização.
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+Para obter mais informações, consulte a [Visão geral da versão do segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div>-->
+</div>
 
 Ao gerenciar atribuições de tarefas, você pode modificá-las simultaneamente para várias tarefas de uma vez usando o recurso de edição em massa em uma lista de tarefas.
 
@@ -208,61 +208,60 @@ When assigning users to work, their availability according to their schedules af
       1. Clique em **Salvar alterações.**
 
 
+1. <span class="preview">(Condicional) Se você estiver usando o ambiente de Visualização para atribuir tarefas, a caixa **Editar tarefas** será aberta. Faça o seguinte no ambiente de Visualização: </span>
 
-   1. <span class="preview">(Condicional) Se você estiver usando o ambiente de Visualização para atribuir tarefas, a caixa **Editar tarefas** será aberta. Faça o seguinte no ambiente de Visualização: </span>
+   <div class="preview">
 
-      <div class="preview">
+   1. Para adicionar ou remover responsáveis, siga um destes procedimentos:
 
-      1. Para adicionar ou remover responsáveis, siga um destes procedimentos:
+      * Para adicionar responsáveis, comece digitando o nome de um responsável no campo **Pesquisar pessoas, funções ou equipes** e, em seguida, selecione-os quando eles forem exibidos na lista.
 
-         * Para adicionar responsáveis, comece digitando o nome de um responsável no campo **Pesquisar pessoas, funções ou equipes** e, em seguida, selecione-os quando eles forem exibidos na lista.
+        O novo destinatário é adicionado aos existentes nas tarefas selecionadas.
+      * Para remover responsáveis, clique no nome de um responsável na caixa **Remover responsável**
 
-           O novo destinatário é adicionado aos existentes nas tarefas selecionadas.
-         * Para remover responsáveis, clique no nome de um responsável na caixa **Remover responsável**
+        Ou
 
-           Ou
+        Clique em **Remover todos os atribuídos existentes**.
 
-           Clique em **Remover todos os atribuídos existentes**.
+        Os responsáveis são removidos de todas as tarefas selecionadas.
 
-           Os responsáveis são removidos de todas as tarefas selecionadas.
+        Remover usuários das tarefas pode afetar as horas da tarefa e as porcentagens de alocação.
 
-           Remover usuários das tarefas pode afetar as horas da tarefa e as porcentagens de alocação.
-
-           Para obter mais informações, consulte [Visão geral da modificação de atribuições de tarefas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
-
-
-           >[!TIP]
-           >
-           >* Você pode atribuir vários usuários, funções de trabalho ou equipes. Você pode atribuir somente usuários, funções de trabalho e equipes ativos.
-           >   
-           >* Ao adicionar uma atribuição de usuário, observe o avatar, a função principal do usuário ou seu endereço de email para distinguir entre usuários com nomes idênticos. Os usuários devem ser associados a pelo menos uma função de trabalho para visualizá-la à medida que forem adicionados. Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
-           > 
-           >   Se um usuário, função de trabalho ou equipe foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
-           >   
-           >* Reatribuir o item de trabalho aos recursos ativos.
-           >* Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
+        Para obter mais informações, consulte [Visão geral da modificação de atribuições de tarefas](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 
-      1. (Opcional) Modifique qualquer uma das seguintes opções para os designados:
+        >[!TIP]
+        >
+        >* Você pode atribuir vários usuários, funções de trabalho ou equipes. Você pode atribuir somente usuários, funções de trabalho e equipes ativos.
+        >   
+        >* Ao adicionar uma atribuição de usuário, observe o avatar, a função principal do usuário ou seu endereço de email para distinguir entre usuários com nomes idênticos. Os usuários devem ser associados a pelo menos uma função de trabalho para visualizá-la à medida que forem adicionados. Você deve ter a configuração Exibir informações de contato ativada no seu nível de acesso para que os usuários visualizem os emails dos usuários. Para obter informações, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+        > 
+        >   Se um usuário, função de trabalho ou equipe foi atribuído antes de ser desativado, ele permanece atribuído ao item de trabalho. Nesse caso, recomendamos o seguinte:
+        >   
+        >* Reatribuir o item de trabalho aos recursos ativos.
+        >* Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
 
-         * (Condicional) **Percentual de Alocação ou Horas**: especifique uma nova porcentagem de alocação ou horas.
 
-         >[!NOTE]
-         >
-         >Essa opção só poderá ser modificada se o Tipo de Duração for o mesmo em todas as tarefas que estão sendo editadas. Quando o Tipo de Duração for Trabalho Calculado ou Orientado pelo Esforço, você poderá atualizar a Alocação %. Quando o Tipo de duração é Simples, você pode atualizar as Horas. Para obter informações sobre o Tipo de Duração, consulte [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
-         >
-         >
-         >Se o campo estiver em branco, significa que o valor é diferente nas tarefas; no entanto, você ainda poderá modificá-lo.
+   1. (Opcional) Modifique qualquer uma das seguintes opções para os designados:
 
-         * **Tornar Primário**: passe o mouse sobre as tarefas selecionadas e selecione esta opção para tornar o destinatário o proprietário da tarefa para todas as tarefas que estão sendo editadas.
-         * **Função do destinatário**: selecione uma função na lista suspensa. Se não for selecionada, o Adobe Workfront selecionará automaticamente a função principal do usuário.
-         * **Tipo de Duração**
-         * **Duração**
-         * **Horas planejadas**
+      * (Condicional) **Percentual de Alocação ou Horas**: especifique uma nova porcentagem de alocação ou horas.
 
-      1. Clique em **Salvar**.
+      >[!NOTE]
+      >
+      >Essa opção só poderá ser modificada se o Tipo de Duração for o mesmo em todas as tarefas que estão sendo editadas. Quando o Tipo de Duração for Trabalho Calculado ou Orientado pelo Esforço, você poderá atualizar a Alocação %. Quando o Tipo de duração é Simples, você pode atualizar as Horas. Para obter informações sobre o Tipo de Duração, consulte [Visão Geral da Duração e do Tipo de Duração da Tarefa](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+      >
+      >
+      >Se o campo estiver em branco, significa que o valor é diferente nas tarefas; no entanto, você ainda poderá modificá-lo.
 
-         </div>
+      * **Tornar Primário**: passe o mouse sobre as tarefas selecionadas e selecione esta opção para tornar o destinatário o proprietário da tarefa para todas as tarefas que estão sendo editadas.
+      * **Função do destinatário**: selecione uma função na lista suspensa. Se não for selecionada, o Adobe Workfront selecionará automaticamente a função principal do usuário.
+      * **Tipo de Duração**
+      * **Duração**
+      * **Horas planejadas**
+
+   1. Clique em **Salvar**.
+
+      </div>
 
 
 

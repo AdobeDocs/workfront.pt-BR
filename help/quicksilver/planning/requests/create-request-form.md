@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 2ffd06f2f50d14b6d33bc79c92616ebed1d58fed
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
 source-wordcount: '3518'
 ht-degree: 1%
@@ -121,7 +121,7 @@ Você pode criar um formulário de solicitação a partir do tipo de registro as
 1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Criar formulário de solicitação** ou **Gerenciar formulários de solicitação**, se você já tiver um formulário e quiser criar outros.
 1. (Condicional) Se quiser adicionar outro formulário, clique em **Novo formulário de solicitação**.
 
-   A caixa de formulário Criar solicitação é aberta.
+   A caixa **Criar formulário de solicitação** é aberta.
 
 1. Na caixa Criar formulário de solicitação, atualize o nome do formulário de solicitação. Por padrão, o nome do formulário é **Formulário sem título**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Opcional) Adicione uma **Descrição** para o formulário de solicitação.
@@ -170,7 +170,7 @@ Os detalhes do formulário são divididos em guias.
 
   >[!NOTE]
   >
-  ><span class="preview">No ambiente de Visualização, a guia Configurações substitui a guia Configuração.</span>
+  ><span class="preview">No ambiente de Visualização, a guia Configurações substituiu a guia Configuração.</span>
   <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
 
 #### Configurar detalhes do formulário

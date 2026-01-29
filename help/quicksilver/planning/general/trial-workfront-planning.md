@@ -3,9 +3,9 @@ title: Introdução à Avaliação Gratuita do Adobe Workfront Planning
 description: A Adobe Workfront está oferecendo uma versão de avaliação gratuita de 60 dias do Adobe Workfront Planning. Esta versão de avaliação é a sua oportunidade de ver como o Planning conecta a estratégia de visão geral com o trabalho diário que a torna realidade. O planejamento oferece visibilidade centralizada no ciclo de vida de marketing, permitindo uma melhor colaboração entre equipes, rastreamento de campanhas em tempo real e fluxos de trabalho automatizados. Você pode criar espaços de trabalho personalizados e visualizar trabalhos com linhas do tempo e calendários interativos. Com esta avaliação, você verá em primeira mão como o Planning ajuda a alinhar o trabalho diário com objetivos estratégicos, simplificar a execução e gerar resultados mensuráveis para sua organização.
 hidefromtoc: true
 hide: true
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1148'
 ht-degree: 1%
 
 ---
@@ -144,10 +144,11 @@ Para revisar e aceitar o contrato legal, siga um destes procedimentos:
 
 * **Entre 2 de março e 1 de maio de 2026**:
 
-  Você recebeu as seguintes permissões para os dados disponíveis na guia **Espaços de trabalho de práticas recomendadas** na área **Avaliação do Planning**:
+  Você recebe as seguintes permissões para os espaços de trabalho na área do Planning durante a avaliação gratuita:
 
-   * Todos os Administradores do Sistema têm permissões de Gerenciamento para a guia Espaços de Trabalho de Práticas Recomendadas na área do Planning.
-   * Todos os outros usuários têm permissões de Exibição na guia Espaços de trabalho de práticas recomendadas na área do Planning.
+   * Todos os administradores do sistema têm permissões de gerenciamento para a guia Espaços de trabalho.
+   * Todos os outros usuários têm permissões de Exibição na guia Espaços de trabalho, mas o Administrador do sistema pode conceder a eles permissões de Gerenciamento para espaços de trabalho.
+   * Todos os usuários, incluindo o Administrador do Sistema, têm permissões de Exibição para a guia Espaços de Trabalho de Práticas Recomendadas na área do Planning.
 
 * **Após 1º de maio de 2026:**
 

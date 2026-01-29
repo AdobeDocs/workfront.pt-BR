@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 665e753880be59cf07062d75c66a7be5f2056aa1
+source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
 workflow-type: tm+mt
-source-wordcount: '2952'
+source-wordcount: '2966'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
    <ul><li><p>Uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar o AEM Assets aos tipos de registro do Planning.</p>
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas da GenStudio</p>
-   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -228,11 +228,11 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    * Um tipo de objeto de **Solicitação original** da seção **Tipos de Objeto do Workfront**.
 
-     O campo de conexão da solicitação original criado exibirá o nome da solicitação do Planning submetida que criou o objeto.
+     O campo de conexão da solicitação original criado exibirá o nome da solicitação do Planning submetida que criou o objeto. O nome da solicitação também é visível no campo **Assunto** da solicitação.
 
      >[!NOTE]
      >
-     >Você deve criar formulários de solicitação e torná-los públicos para enviar solicitações do Planning para criar registros no Workfront Planning.
+     >Você deve criar formulários de solicitação e publicá-los para enviar solicitações do Planning para criar registros no Workfront Planning.
      >
      >Para obter informações, consulte os seguintes artigos:
      >* [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
@@ -300,7 +300,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condicional) Ao se conectar ao Experience Manager Assets, a um tipo de registro do Workfront Planning ou a uma Marca GenStudio, escolha uma das seguintes opções na área **Aparência do registro**:
