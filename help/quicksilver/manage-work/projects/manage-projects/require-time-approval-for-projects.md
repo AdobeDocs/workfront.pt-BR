@@ -6,10 +6,10 @@ description: Você pode configurar o projeto para exigir que as horas registrada
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 0%
+source-wordcount: '790'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Para obter mais informações sobre registros de cobrança, consulte o artigo [C
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Para obter mais informações sobre registros de cobrança, consulte o artigo [C
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Para exigir que o tempo seja aprovado no projeto:</p>
-   <ul><li><p>Standard</p></li>
+   <ul><li><p>Padrão</p></li>
    <li><p>Plano</p></li></ul>
 
 <p>Para aprovar horas registradas em um projeto:</p>
@@ -152,12 +152,12 @@ Para aprovar ou rejeitar horas em um projeto:
 1. As horas registradas para problemas, tarefas e a exibição do projeto devem ter o status de **Enviadas**.\
    Clique na caixa à esquerda das entradas de hora para selecionar as horas que deseja aprovar.
 
-1. Clique no ícone **Aprovar** ![](assets/approve-hours-icon.png) na parte superior da lista de horas.\
+1. Clique no ícone **Aprovar** ![Aprovar ícone](assets/approve-hours-icon.png) na parte superior da lista de horas.\
    O status das horas muda para **Aprovado**.\
    Se você rejeitar as horas aprovadas posteriormente, o status das horas mudará para **Não Aprovado**.\
    Quando você inclui as horas aprovadas em um registro de cobrança, o status das horas muda para **Faturadas e Aprovadas**. Horas adicionadas a um registro de cobrança não podem ser excluídas. Para obter mais informações sobre como criar registros de cobrança, consulte o artigo [Criar registros de cobrança](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. (Opcional) Clique no ícone **de** Rejeitar![](assets/reject-hours-icon.png) para rejeitar as entradas de tempo do projeto.\
+1. (Opcional) Clique no ícone **Rejeitar** ![Ícone Rejeitar horas](assets/reject-hours-icon.png) para rejeitar as entradas de tempo no projeto.\
    O status das horas muda para **Rejected**.
 
    >[!NOTE]

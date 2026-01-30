@@ -6,9 +6,9 @@ description: Selecionando um Tipo de Atualização para um projeto, você pode c
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '664'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ Quando as tarefas são atualizadas, seus objetos principais (tarefas principais 
 
 1. Clique em **Projeto** **Configurações**.
 
-   ![](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
+   ![Atualizar campo de tipo na caixa de edição do projeto](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 
 1. No campo **Tipo de Atualização**, selecione se deseja que o Workfront calcule a linha do tempo do projeto automaticamente diariamente, quando houver uma alteração ou se deseja que o gerente de projeto a calcule manualmente.
 
@@ -81,7 +81,7 @@ Quando as tarefas são atualizadas, seus objetos principais (tarefas principais 
 
      Quando você atualiza uma tarefa ou o projeto e aciona um novo cálculo de linha do tempo, todas as datas disponíveis são exibidas imediatamente, permitindo que você continue trabalhando. Em projetos com mais de 100 tarefas, as datas que exigem cálculos mais longos ficam esmaecidas.
 
-     ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+     ![Datas esmaecidas ao editar em linha](assets/dates-dimmed-when-insline-editing-350x146.png)
 
      Isso indica que o recálculo ainda não foi concluído e as datas estão sujeitas a alterações.
 

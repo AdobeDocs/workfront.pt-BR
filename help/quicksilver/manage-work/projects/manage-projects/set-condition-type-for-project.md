@@ -6,10 +6,10 @@ description: Como um gerente de projeto, você pode determinar como a Condição
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 2%
+source-wordcount: '304'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ Como um gerente de projeto, você pode determinar como a Condição de um projet
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 
 <table style="table-layout:auto"> 
@@ -32,7 +32,7 @@ Como um gerente de projeto, você pode determinar como a Condição de um projet
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
    <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +91,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * Clique no menu **Mais** ![Mais menu](assets/qs-more-menu.png) à direita do nome do projeto e clique em **Editar**.
    * Clique em **Detalhes do projeto** no painel esquerdo.
 
-   ![](assets/update-condition-type-nwe-350x108.png)
+   ![Atualizar tipo de condição](assets/update-condition-type-nwe-350x108.png)
 
 1. No campo **Tipo de Condição**, escolha uma das seguintes opções:
 

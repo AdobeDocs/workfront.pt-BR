@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3518'
+source-wordcount: '3550'
 ht-degree: 1%
 
 ---
@@ -190,13 +190,14 @@ Os detalhes do formulário são divididos em guias.
    * Campos de registro disponíveis na exibição de tabela do tipo de registro selecionado. <!--they are working on removing the limitation below-->
 
    * **Seção padrão**: esta é a quebra de seção padrão que o Workfront aplica ao formulário de solicitação. Todos os campos de registro são exibidos na área **Seção padrão**.
-   * Campo **Assunto**: o campo que identificará a solicitação no Workfront. A configuração e o valor do campo Subject não são editáveis.
+   * Campo **Assunto**: o campo que identificará a solicitação no Workfront. A configuração e o valor do campo **Assunto** não são editáveis.
 
      >[!NOTE]
      >
      >* O campo **Assunto** exige um valor quando está visível no formulário de solicitação. No entanto, você pode remover o campo **Assunto**, se necessário, e os solicitantes não o verão no formulário quando enviarem a solicitação.
-     >* Quando o campo Assunto está ausente em um formulário de solicitação, mas há um campo Nome para o nome do registro futuro, o nome da solicitação é automaticamente atribuído ao mesmo nome do registro criado.
-     >* Quando os campos Assunto e Nome estiverem ausentes no formulário de solicitação, a solicitação será nomeada usando o seguinte padrão: `< Record name > request form < Entry date of the request >`; o registro é nomeado como **Sem título**.
+     >* Quando o campo **Assunto** está ausente em um formulário de solicitação, mas há um campo Nome para o nome do registro futuro, o nome da solicitação é automaticamente atribuído ao mesmo nome do registro criado.
+     >* Quando os campos **Assunto** e **Nome** estão ausentes no formulário de solicitação, a solicitação é nomeada usando o seguinte padrão: `< Request form name > < Entry date of the request >`; o registro é nomeado como **Sem Título**.
+     >* <span class="preview">Para exibir as informações do campo **Assunto** no Workfront Planning, é possível adicionar o campo de conexão **Solicitação original** ao tipo de registro associado ao formulário de solicitação. Para obter informações, consulte [Conectar tipos de registros](/help/quicksilver/planning/architecture/connect-record-types.md).</span>
 
    * Todos os campos associados ao tipo de registro.
 

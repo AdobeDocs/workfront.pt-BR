@@ -7,7 +7,7 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
 source-wordcount: '2479'
 ht-degree: 2%
@@ -276,7 +276,7 @@ Atribuir várias tarefas em massa a partir de uma lista difere, dependendo do am
 1. (Opcional e condicional) Quando os campos Atribuído a ou Atribuições forem exibidos na lista de tarefas, clique dentro de uma dessas colunas para uma tarefa e, em seguida, clique no ícone **X** ao lado do nome de um destinatário para removê-lo da tarefa.
 
 
-### Atribuir várias tarefas em massa a partir de uma lista na nova experiência
+#### Atribuir várias tarefas em massa a partir de uma lista na nova experiência
 
 1. Vá para uma lista de tarefas que você deseja atribuir em massa.
 1. (Condicional) Verifique se a opção **Salvar automaticamente** está selecionada se você estiver em uma lista de tarefas em um projeto.

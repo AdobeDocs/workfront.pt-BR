@@ -6,10 +6,10 @@ description: A Condição de uma tarefa ou problema é um sinalizador colocado s
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 2d8ad8baa6c470fd82b61202cb42443f568b1968
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 1%
+source-wordcount: '1070'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ Os valores de Condição aos quais nos referimos neste artigo estão disponívei
 
 ## Requisitos de acesso {#access-requirements}
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -167,7 +167,7 @@ Você pode atualizar manualmente a Condição de tarefas e problemas em várias 
    * Algumas Dificuldades
    * Com Problemas
 
-   ![](assets/condition-in-task-header-0925.png)
+   ![Condição no cabeçalho da tarefa](assets/condition-in-task-header-0925.png)
 
 <!--1. Click Enter to save the Condition.-->
 
@@ -185,7 +185,7 @@ Você pode atualizar manualmente a Condição de tarefas e problemas em várias 
 
 1. Atualize a **Condição** do problema ou tarefa em linha, clicando duas vezes na condição existente e selecionando um novo valor no menu suspenso.
 
-   ![](assets/condition-values-in-task-list-0925.png)
+   ![Valores de condição na lista de tarefas](assets/condition-values-in-task-list-0925.png)
 
    >[!NOTE]
    >

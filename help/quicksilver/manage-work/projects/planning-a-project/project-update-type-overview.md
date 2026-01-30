@@ -7,9 +7,9 @@ description: O Tipo de atualização de um projeto indica como o Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Para obter informações sobre como atualizar o Tipo de Atualização do projeto
 
   Quando você atualiza uma tarefa ou o projeto e aciona um novo cálculo de linha do tempo, todas as datas disponíveis são exibidas imediatamente, permitindo que você continue trabalhando. Em projetos com mais de 100 tarefas, as datas que exigem cálculos mais longos ficam esmaecidas.
 
-  ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+  ![Datas esmaecidas ao editar em linha](assets/dates-dimmed-when-insline-editing-350x146.png)
 
   Isso indica que o recálculo ainda não foi concluído e as datas estão sujeitas a alterações.
 

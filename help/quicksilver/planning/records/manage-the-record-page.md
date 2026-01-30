@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 0%
@@ -282,9 +282,11 @@ As seguintes situações ocorrem:
    * Selecione a configuração **Mostrar campos de tabela** para exibir somente campos que não estejam ocultos na exibição de tabela do registro. Esta é a configuração padrão
    * Desmarque a configuração **Mostrar campos de tabela** para exibir todos os campos da exibição de tabela do registro, incluindo os ocultos.
 
+   </div>
+
    >[!TIP]
    >
-   >A configuração **Mostrar campos de tabela** está disponível somente na caixa de visualização Detalhes do registro. Não está disponível na página Detalhes do registro.
+   ><span class="preview">A configuração **Mostrar campos de tabela** está disponível somente na caixa de visualização Detalhes do registro. Não está disponível na página Detalhes do registro.</span>
 
 
    <!--replace with this when they fix the UI text:
@@ -296,7 +298,7 @@ As seguintes situações ocorrem:
 
 1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir caixa de detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
-   A guia **Detalhes** do registro é aberta por padrão.
+   A página **Detalhes** do registro é aberta em uma nova guia.
 
    ![Página de detalhes](assets/details-page.png)
 

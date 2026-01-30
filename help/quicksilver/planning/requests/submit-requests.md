@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2200'
 ht-degree: 0%
 
 ---
@@ -106,15 +106,22 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
   Para obter informações, consulte [Criar registros](/help/quicksilver/planning/records/create-records.md).
 * Os registros criados enviando formulários de solicitação são conectados à solicitação original. Esta conexão não pode ser removida.
-* Você pode exibir os registros criados e a solicitação nas seguintes áreas:
+* Você pode exibir os registros criados e as solicitações usadas para criá-los nas seguintes áreas:
    * Área Solicitações no Workfront
 
   <div class="preview">
 
-   * Registros em qualquer página de tipo de registro no campo Conexão da solicitação original
-   * Caixa de visualização Detalhes do registro no campo Conexão da solicitação original
+   * Páginas de tipo de registro no Workfront Planning
+   * A área Detalhes de um registro no Workfront Planning
 
   </div>
+
+  >[!TIP]
+  >
+  ><span class="preview">Você pode exibir o nome da solicitação no campo Assunto na área Solicitações do Workfront ou no campo Conexão da solicitação original no Workfront Planning. </span>
+
+
+
 * As solicitações enviadas são exibidas na área Solicitações do Workfront.
 * As solicitações de Planejamento enviadas estão visíveis somente na nova experiência de solicitação. Não é possível ver as solicitações do Planning na experiência de solicitação herdada.
 Para obter informações, consulte [Criar e enviar solicitações](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
@@ -167,7 +174,7 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
 
      Para obter informações, consulte [Adicionar uma aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   * <span class="preview">Você pode adicionar o campo Conexão da solicitação original a um tipo de registro no Planning que exiba o nome da solicitação original. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
+   * <span class="preview">Você pode adicionar o campo Conexão da solicitação original a um tipo de registro no Planning para exibir o nome da solicitação original que criou um registro. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
    * A solicitação é visível somente para o proprietário, aprovador e pessoas que têm pelo menos permissões de Visualização no espaço de trabalho. Os administradores do Workfront podem exibir todas as solicitações enviadas para qualquer espaço de trabalho no sistema.
 
    * Você recebe uma notificação no aplicativo e uma notificação por email informando que a solicitação foi enviada com êxito ou para revisão.

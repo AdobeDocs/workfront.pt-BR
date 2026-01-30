@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3240'
+source-wordcount: '3265'
 ht-degree: 0%
 
 ---
@@ -538,11 +538,13 @@ Clique no nome para abrir a página de detalhes e adicionar informações lá.
 
 ## Criar registros enviando um formulário de solicitação para um tipo de registro
 
-Depois que alguém criar um formulário de solicitação para um tipo de registro e compartilhar um vínculo a ele com você, você poderá submeter uma solicitação que criará um registro para esse tipo de registro.
+Depois que alguém criar um formulário de solicitação para um tipo de registro e publicá-lo na área Solicitações ou compartilhar um link para o formulário de solicitação com você, você poderá submeter uma solicitação que criará um registro para esse tipo de registro.
 
 Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 Tanto os usuários do Workfront quanto os usuários externos à sua organização podem enviar solicitações para tipos de registro do Planning e criar registros, se tiverem um link para o formulário de solicitação.
+
+Somente usuários do Workfront podem adicionar solicitações que criam registros da área Solicitações do Workfront.
 
 Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 

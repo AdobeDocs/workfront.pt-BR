@@ -7,9 +7,9 @@ description: Projetos, tarefas e problemas têm uma Data de início efetiva no A
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '530'
 ht-degree: 3%
 
 ---
@@ -105,7 +105,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 Você pode localizar a Data de Início Efetivo de um projeto nas seguintes áreas:
 
 * Na seção Detalhes de um projeto.
-* Em um relatório ou exibição de projeto, ao adicionar a Data de Início Efetivo do projeto de objeto no relatório.
+* Em um relatório ou exibição de projeto, ao adicionar a **Data de Início Efetiva** para o objeto Projeto no relatório.
 
   Para obter informações sobre como criar relatórios, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -116,8 +116,8 @@ Para localizar a Data de Início Efetivo na seção Detalhes do projeto:
 1. Clique no projeto para o qual você deseja exibir a Data de Início Efetivo.
 1. Clique em **Detalhes do projeto** no painel esquerdo e vá para a seção **Visão geral**.
 
-   A Data de Início Efetivo é exibida ao longo de outras datas do projeto.
+   ![Data de início real do projeto realçada](assets/nwe-project-actual-start-date--highlighted-350x367.png)
 
-   ![](assets/nwe-project-actual-start-date--highlighted-350x367.png)
+   A **Data de Início Efetivo** é exibida junto com outras datas do projeto.
 
 

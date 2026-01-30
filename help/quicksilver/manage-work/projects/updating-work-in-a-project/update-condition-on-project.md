@@ -6,9 +6,9 @@ description: A Condição de um projeto é um sinalizador colocado nele para ind
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '531'
 ht-degree: 3%
 
 ---
@@ -110,7 +110,7 @@ Se você definir o Tipo de condição do seu projeto como Manual em vez de Statu
 
 1. Verifique se o campo **Tipo de Condição** está definido como **Manual**.
 
-   ![](assets/project-details-overview-select-condition.png)
+   ![Condição de seleção da visão geral dos detalhes do projeto](assets/project-details-overview-select-condition.png)
 
 1. No campo **Condição**, selecione entre as seguintes opções aquela que corresponde à sua compreensão de se o trabalho associado a ele está indo bem ou se há atrasos:
 

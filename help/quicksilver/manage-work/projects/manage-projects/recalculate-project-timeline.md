@@ -6,9 +6,9 @@ description: Recalcular as linhas do tempo permite que os gerentes vejam como di
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1077'
 ht-degree: 2%
 
 ---
@@ -96,7 +96,7 @@ Por padrão, as linhas do tempo do projeto são recalculadas automaticamente dia
 > Um exemplo de um projeto complexo pode ser um projeto com várias dependências, grande número de tarefas, vários predecessores entre projetos ou vários recuos de tarefas.
 > O Workfront coloca um aviso à direita do nome do projeto na página do projeto para avisar aos usuários que a linha do tempo do projeto deve ser recalculada manualmente. Somente os usuários com permissões para Gerenciar o projeto podem recalcular manualmente a linha do tempo.
 >
->   ![](assets/project-warning-to-manually-recalculate-timeline.png)
+>   ![Aviso do projeto para recalcular a linha de tempo](assets/project-warning-to-manually-recalculate-timeline.png)
 >
 
 * [Recálculo automático das linhas de tempo do projeto](#automatic-recalculation-of-project-timelines)
@@ -183,7 +183,7 @@ Você pode recalcular a linha do tempo de um projeto no Workfront a partir da p�
 
    Vá para uma lista de projetos ou relatório, selecione um ou vários projetos e clique no ícone **Mais** ![Mais menu](assets/qs-more-menu.png) na parte superior da lista.
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalcular linha de tempo de expressões com menu suspenso de finanças](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >

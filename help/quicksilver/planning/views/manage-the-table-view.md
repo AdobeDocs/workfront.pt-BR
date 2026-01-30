@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3507'
 ht-degree: 2%
 
 ---
@@ -237,7 +237,7 @@ Adicionar colunas a uma exibição é idêntico a adicionar campos a um tipo de 
    >
    >O número de campos ocultos é exibido à esquerda do ícone Campos na barra de ferramentas.
    >
-   ><span class="preview">Por padrão, campos ocultos não são exibidos na caixa de visualização **Detalhes** do registro. Para obter informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
+   ><span class="preview">Por padrão, campos ocultos não são exibidos na caixa de visualização **Detalhes** do registro. Todos os campos são exibidos na página Detalhes do registro. Para obter informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
 
 
 1. Clique no ícone **Campos** e habilite a alternância associada aos campos que deseja exibir nas colunas da tabela. Todos os campos são exibidos por padrão.

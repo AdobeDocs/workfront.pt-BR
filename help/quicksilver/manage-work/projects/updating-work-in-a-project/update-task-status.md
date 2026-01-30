@@ -6,10 +6,10 @@ description: Você pode atualizar o status de uma tarefa para informar a outras 
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ Você pode atualizar manualmente os status das tarefas ou permitir que o Workfro
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,8 +37,8 @@ Você pode atualizar manualmente os status das tarefas ou permitir que o Workfro
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p>
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p>
    </td> 
   </tr> 
   <tr> 
@@ -113,7 +113,7 @@ Para atualizar manualmente o status da tarefa no cabeçalho da tarefa:
 
    Clique duas vezes dentro da bolha **Percentual concluído** para inserir manualmente uma nova porcentagem.
 
-   ![](assets/percent-complete-status-widgets-task-header.png)
+   ![Cabeçalho da tarefa de widgets de status de porcentagem concluída](assets/percent-complete-status-widgets-task-header.png)
 
 1. (Opcional) Siga qualquer um destes procedimentos para fornecer informações adicionais sobre a atualização:
 
@@ -142,7 +142,7 @@ Para atualizar manualmente o status da tarefa no cabeçalho da tarefa:
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![](assets/drag-the-progress-bar-350x155.png)-->
+     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)-->
 
 ## Atualizar automaticamente o status da tarefa
 

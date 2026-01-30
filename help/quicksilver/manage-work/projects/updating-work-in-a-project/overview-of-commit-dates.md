@@ -7,9 +7,9 @@ description: A Data de Compromisso é a data que um usuário atribuiu à tarefa 
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ A definição manual da Data de confirmação para uma tarefa ou problema aciona
 >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
 >
 >
->![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>![Project owner notification update stream about commit date change](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
 >
 -->
 
@@ -107,7 +107,7 @@ A definição manual da Data de confirmação para uma tarefa ou problema aciona
 
   Para obter mais informações, consulte [Visão geral da Data de conclusão projetada para projetos, tarefas e problemas](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
-  ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
+  ![Data de conclusão projetada da tarefa em detalhes destacados](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
 * O Proprietário do projeto é notificado na área Notificações de que uma tarefa ou Data de confirmação do problema foi alterada.
 
