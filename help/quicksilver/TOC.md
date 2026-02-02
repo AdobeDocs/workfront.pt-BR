@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: dca61a5d1f89d1524b64280e6e0542984f3686a1
 workflow-type: tm+mt
-source-wordcount: '13750'
+source-wordcount: '13755'
 ht-degree: 2%
 
 ---
@@ -1853,7 +1853,7 @@ ht-degree: 2%
       * [Visão geral do status de decisão do documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Introdução ao Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [Visão geral do armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
-      * [Visão geral das permissões e do acesso do armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+      * [Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
       * Configurar e gerenciar aprovações de ativos e documentos {#manage-asset-review-and-approval}
          * [Configurar e gerenciar aprovações unificadas: índice de artigos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Criar revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
