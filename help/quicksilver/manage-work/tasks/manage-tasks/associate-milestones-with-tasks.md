@@ -6,10 +6,10 @@ description: Você pode associar marcos a tarefas para indicar quando atinge eta
 author: Alina
 feature: Work Management
 exl-id: 56410640-fde4-417f-8ea0-f089315476f7
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ Você pode associar marcos a tarefas para indicar quando atinge etapas important
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,8 +33,8 @@ Você pode associar marcos a tarefas para indicar quando atinge etapas important
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> 
    </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ Antes de associar uma etapa a uma tarefa, é necessário que haja o seguinte:
 
 Depois que um caminho de marcos é associado a um projeto, as tarefas podem ser atribuídas a um marco.
 
-1. Vá para uma tarefa e clique no ícone **Mais** ![](assets/more-icon.png) à direita do nome da tarefa e **Editar**.
+1. Vá para uma tarefa e clique no ícone **Mais** ícone ![Mais](assets/more-icon.png) à direita do nome da tarefa e **Editar**.
 
    Tarefas e Etapas têm uma relação 1:1. Não é possível anexar o mesmo marco a várias tarefas. Cada tarefa pode ser vinculada a um único marco ou cada marco pode ser mapeado para uma tarefa.
 
@@ -111,8 +111,8 @@ Depois que um caminho de marcos é associado a um projeto, as tarefas podem ser 
 
    Para obter informações, consulte [Criar ou editar exibições no Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-   ![](assets/amwt3.png)
+   ![Ícones de status](assets/amwt3.png)
 
 1. (Opcional) Vá para uma lista de projetos, selecione a visualização **Marco** para identificar o progresso de suas tarefas de marco.
 
-   ![](assets/milestone-view-project-list.png)
+   ![Lista de projetos de exibição de etapas](assets/milestone-view-project-list.png)

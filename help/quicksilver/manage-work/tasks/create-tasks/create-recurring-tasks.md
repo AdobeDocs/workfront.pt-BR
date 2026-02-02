@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 0%
+source-wordcount: '890'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Para obter informações gerais sobre tarefas recorrentes, incluindo o impacto d
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,8 +36,8 @@ Para obter informações gerais sobre tarefas recorrentes, incluindo o impacto d
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -97,7 +97,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
    A caixa de diálogo Nova Tarefa é exibida.
 
-   ![](assets/nwe-create-task-small-screen-350x272.png)
+   ![Criar tela pequena de tarefa](assets/nwe-create-task-small-screen-350x272.png)
 
 1. Clique em **Mais opções** e digite um nome para a tarefa no campo **Nome da Tarefa**.
 1. Continue atualizando a tarefa da mesma forma que faria se adicionasse uma nova tarefa. Para obter mais informações sobre como adicionar uma nova tarefa, consulte [Criar tarefas em um projeto](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
@@ -109,7 +109,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 1. Clique em **Visão geral** no painel esquerdo.
 1. Role para baixo até a seção **Agendamento de Recorrência** e selecione a opção **Tornar esta tarefa recorrente**.
 
-   ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
+   ![Seção de agendamento de recorrência: novas tarefas recorrentes](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
 1. Na lista suspensa **Frequência**, selecione o número de unidades de tempo quando desejar que a tarefa ocorra e o tipo de unidades de tempo. Selecione entre as seguintes opções:
 
@@ -118,7 +118,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
     <col> 
     <thead> 
      <tr> 
-      <th>Tipo de periodicidade</th> 
+      <th>Tipo de recorrência</th> 
       <th>Descrição</th> 
      </tr> 
     </thead> 
@@ -163,7 +163,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
    Para obter mais informações sobre quais campos são preenchidos automaticamente na tarefa pai recorrente, consulte [Visão geral das tarefas recorrentes](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
-   ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
+   ![Repetindo tarefas na lista de tarefas](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
 1. (Opcional) Modifique cada tarefa recorrente como faria com qualquer outra tarefa no projeto.
 

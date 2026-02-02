@@ -6,9 +6,9 @@ description: É possível exibir ou editar as informações financeiras de uma t
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '838'
 ht-degree: 7%
 
 ---
@@ -92,7 +92,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 1. Clique em **Detalhes da tarefa**.
 1. (Opcional) Clique no ícone **Recolher tudo** na parte superior direita da página Detalhes da tarefa.
 
-   ![](assets/collapse-all-icon-on-details-page.png)
+   ![Recolher todo o ícone na página Detalhes](assets/collapse-all-icon-on-details-page.png)
 
    >[!NOTE]
    >
@@ -100,7 +100,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 1. Clique em **Finanças** para expandir e exibir as informações financeiras da tarefa.
 
-   Clique no ícone **Editar** ![](assets/edit-icon.png) no canto superior direito da seção Detalhes e em **Finanças**.
+   Clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png) no canto superior direito da seção Detalhes e clique em **Finanças**.
 
 1. Edite qualquer campo disponível para edição clicando uma vez no campo ou clicando em **+Adicionar** para adicionar informações a um campo vazio.
 1. Revise ou edite as seguintes informações na área **Finanças**:

@@ -6,10 +6,10 @@ description: O Custo Planejado e Efetivo das tarefas e seus Custos de Mão-de-Ob
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 12%
+source-wordcount: '223'
+ht-degree: 11%
 
 ---
 
@@ -84,7 +84,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 1. Clique em **Detalhes da tarefa** no painel esquerdo e expanda a área **Finanças**.
 1. Clique duas vezes em **Tipo de Custo** e selecione o tipo de custo que deseja aplicar à tarefa.
 
-   ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
+   ![Opções de tipo de custo de tarefa em Detalhes da tarefa](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
    Selecione entre as seguintes opções:
 

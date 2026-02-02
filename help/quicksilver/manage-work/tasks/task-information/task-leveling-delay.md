@@ -6,9 +6,9 @@ description: Às vezes, pode haver conflitos entre agendamentos de tarefas em um
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 9%
 
 ---
@@ -85,7 +85,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 1. Clique em **Configurações**.
 
-   ![](assets/leveling-delay-edit-task-nwe-350x345.png)
+   ![Atraso de redistribuição ao editar tarefa](assets/leveling-delay-edit-task-nwe-350x345.png)
 
 1. Especifique o **Atraso no Nivelamento**, em horas, e escolha uma unidade de tempo.\
    Este é o momento em que o recurso será atrasado ao iniciar a tarefa devido a conflitos de recursos.

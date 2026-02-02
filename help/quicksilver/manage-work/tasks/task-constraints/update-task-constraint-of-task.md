@@ -6,9 +6,9 @@ description: As restrições de tarefa determinam quando uma tarefa deve iniciar
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '304'
 ht-degree: 19%
 
 ---
@@ -80,7 +80,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 1. Clique na seção **Tarefas** no painel esquerdo.
 1. Clique em **Detalhes da tarefa** no painel esquerdo e, na área Visão geral, clique em **Restrição da tarefa**.
 
-   ![](assets/task-constraint-all-options-in-overview-350x254.png)
+   ![Restrição de tarefa para todas as opções na Visão geral](assets/task-constraint-all-options-in-overview-350x254.png)
 
 1. Selecione entre as seguintes opções
 

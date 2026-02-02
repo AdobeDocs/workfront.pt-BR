@@ -6,10 +6,10 @@ description: Você pode copiar uma tarefa de um projeto para outro ou duplicar u
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 1%
+source-wordcount: '1744'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Você pode copiar uma tarefa de um projeto para outro ou duplicar uma tarefa den
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,8 +33,8 @@ Você pode copiar uma tarefa de um projeto para outro ou duplicar uma tarefa den
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -108,9 +108,9 @@ Considere o seguinte ao copiar uma tarefa:
    Ir para um relatório de tarefa.
 
 1. (Condicional) Clique em **Tarefas** no painel esquerdo, se você tiver aberto o projeto que contém as tarefas.
-1. Clique no ícone **do** Modo de Plano![](assets/qs-list-mode-or-save-mode-icon-small.png) e verifique se a opção **Salvamento automático** está habilitada.
+1. Clique no ícone **Modo do Plano** ![Modo da lista ou no ícone do modo de salvamento](assets/qs-list-mode-or-save-mode-icon-small.png) e verifique se a opção **Salvamento automático** está habilitada.
 
-   ![](assets/autosave-icon-on-highlighted-350x202.png)
+   ![Ícone de salvamento automático ligado e realçado](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -120,9 +120,9 @@ Considere o seguinte ao copiar uma tarefa:
 
    * Clique no **Mais menu** na parte superior da lista de tarefas e clique em **Copiar para**.
    * Clique com o botão direito do mouse nas tarefas selecionadas e clique em **Copiar para**.
-   * Ao selecionar uma tarefa, clique no menu **Mais** ![](assets/more-icon-task-list.png) ao lado do nome da tarefa na lista e clique em **Copiar para**.
+   * Ao selecionar uma tarefa, clique no ícone **Mais** do menu ![Mais na lista de tarefas](assets/more-icon-task-list.png) ao lado do nome da tarefa na lista e clique em **Copiar para**.
 
-   ![](assets/copy-task-in-list-nwe-350x131.png)
+   ![Copiar tarefa na lista](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Continue copiando a tarefa, conforme descrito na seção [Copiar uma tarefa no nível da tarefa](#copy-a-task-at-the-task-level), começando com a Etapa 4.
 
@@ -136,9 +136,9 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
 
 1. Encontre uma tarefa em seu sistema Workfront procurando por ela.
 1. Clique no nome da tarefa para abri-la.
-1. Clique no menu suspenso **Mais** ![](assets/qs-more-menu.png) ao lado do nome da tarefa e clique em **Copiar para**.
+1. Clique no menu suspenso **Mais** ![Mais menus](assets/qs-more-menu.png) ao lado do nome da tarefa e clique em **Copiar para**.
 
-   ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
+   ![Opção Copiar Tarefa para no nível da tarefa](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
    A caixa Copiar Tarefa é exibida.
 
@@ -148,7 +148,7 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
    >
    >Este campo fica esmaecido e não é editável ao selecionar para copiar várias tarefas em uma lista. Você pode passar o mouse sobre o campo Nome da tarefa e uma lista de todas as tarefas selecionadas é exibida.
    >
-   >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
+   >![Caixa Copiar tarefa em várias tarefas](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
 1. Digite o nome do **Projeto de destino** para o qual você deseja copiar a tarefa no campo **Selecionar projeto de destino**.
 
@@ -163,7 +163,7 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
 1. (Condicional) Clique em **solicitar acesso** para solicitar acesso ao projeto, caso não tenha acesso ao projeto selecionado.
 1. (Condicional) Continue a copiar a tarefa para o projeto de destino selecionado sem solicitar acesso se tiver acesso para adicionar tarefas a uma das tarefas no projeto de destino.
 
-   ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
+   ![Copiar acesso de solicitação de tarefa do projeto](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
@@ -241,7 +241,7 @@ Além de copiar tarefas em uma lista de tarefas, você também pode copiar uma t
 
    A tarefa é exibida na lista.
 
-   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Selecione o botão de opção do pai depois de encontrá-lo.
 
@@ -290,11 +290,11 @@ Você pode duplicar rapidamente uma tarefa em uma lista de tarefas, se precisar 
 1. Clique em **Tarefas** no painel esquerdo.
 1. Siga um destes procedimentos:
 
-   * (Condicional) Clique no ícone **do** Modo de Plano![](assets/qs-list-mode-or-save-mode-icon-small.png) e verifique se a opção **Salvamento automático** está habilitada, selecione as tarefas que deseja duplicar e clique no **menu Mais** ![](assets/qs-more-menu-29x11.png) > **Duplicar**.
+   * (Condicional) Clique no ícone **Modo de Plano** ícone ![Modo de lista ou ícone pequeno do modo de salvamento](assets/qs-list-mode-or-save-mode-icon-small.png) e verifique se a opção **Salvamento automático** está habilitada, selecione as tarefas que deseja duplicar e clique no menu **Mais** ![Mais menu](assets/qs-more-menu-29x11.png) > **Duplicar**.
 
-     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![Tarefas duplicadas no item de menu de lista](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Condicional) Clique no ícone **Modo de Plano** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Salvamento manual** > **Padrão** ou **Planejamento de Linha do Tempo** e faça o seguinte:
+   * (Condicional) Clique no ícone **Modo de Plano** ícone ![Modo de lista ou ícone pequeno do modo de salvamento](assets/qs-list-mode-or-save-mode-icon-small.png) > **Salvamento manual** > **Padrão** ou **Planejamento de Linha do Tempo** e faça o seguinte:
 
       1. Selecione a(s) tarefa(s) que deseja duplicar e clique em **Duplicar**.
       1. (Opcional) Clique em **Desfazer** para reverter suas alterações e não duplicar as tarefas.

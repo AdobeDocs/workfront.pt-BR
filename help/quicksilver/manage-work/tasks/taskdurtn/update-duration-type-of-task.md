@@ -6,10 +6,10 @@ description: O Tipo de Duração de uma tarefa identifica a relação entre o n�
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 6%
+source-wordcount: '292'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ O Tipo de Duração de uma tarefa identifica a relação entre o número de recu
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ O Tipo de Duração de uma tarefa identifica a relação entre o número de recu
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td><p>Padrão ou superior</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -87,7 +87,7 @@ Para atualizar o Tipo de Duração de uma tarefa:
 1. Clique na seção **Tarefas** no painel esquerdo.
 1. Clique em **Detalhes da tarefa** no painel esquerdo e, na área Visão geral, clique em **Tipo de duração**.
 
-   ![](assets/duration-type-all-options-on-overview-350x155.png)
+   ![Tipo de duração para todas as opções na Visão geral](assets/duration-type-all-options-on-overview-350x155.png)
 
 1. Selecione entre as seguintes opções
 

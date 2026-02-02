@@ -7,10 +7,10 @@ description: Determinar o Caminho crítico de um projeto é uma maneira automát
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 0%
+source-wordcount: '689'
+ht-degree: 3%
 
 ---
 
@@ -38,7 +38,7 @@ Os seguintes recursos podem afetar o Caminho Crítico de um projeto:
      >Quando a data sucessora de uma tarefa não afeta diretamente a data de suas tarefas dependentes ou as datas do projeto, a tarefa sucessora não está no Caminho Crítico.
      >
      >
-     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >![Sucessor não está no caminho crítico](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
    * Quando uma subtarefa é identificada como uma tarefa de Caminho Crítico, a tarefa pai também é identificada como uma tarefa de Caminho Crítico se a Data Inicial Projetada e a hora da tarefa pai forem iguais às da subtarefa.
@@ -49,7 +49,7 @@ Qualquer atraso na atividade de uma tarefa no Caminho Crítico afeta diretamente
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,8 +62,8 @@ Qualquer atraso na atividade de uma tarefa no Caminho Crítico afeta diretamente
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Standard<p>
-   <p>Trabalhar ou superior</p>
+   <p>Padrão<p>
+   <p>Trabalho ou maior</p>
     </td> 
   </tr> 
   <tr> 

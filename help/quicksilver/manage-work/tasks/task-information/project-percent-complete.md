@@ -7,9 +7,9 @@ description: O valor do Percentual concluído de um projeto é calculado com bas
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ Considere os seguintes cenários:
 
   O Total de Horas Planejadas do pai representa a soma de todas as Horas Planejadas de cada filho.
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![Projeto com porcentagem de tarefas concluída e horas planejadas](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
 * Se o sistema calcular o percentual concluído com base na Duração, o percentual concluído da tarefa pai será calculado usando a seguinte fórmula:
 
   `Parent Task Percent Complete = (((Task 1 Duration * Task 1 Percent Complete) + (Task 2 Duration * Task 2 Percent Complete))/ Total Duration of Parent)*100`
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![Projeto com porcentagem de tarefas concluída e cálculo de duração](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!IMPORTANT]
   >
@@ -77,7 +77,7 @@ Dependendo do que o administrador do Workfront ou do grupo selecionou nas Prefer
 
   O Total de Horas Planejadas do projeto é a soma das Horas Planejadas de todas as tarefas principais do projeto.
 
-  ![](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
+  ![Projeto com porcentagem de tarefas concluída e cálculo de horas planejadas](assets/project-with-tasks-percent-complete-planned-hours-calculation.png)
 
   >[!NOTE]
   >
@@ -91,7 +91,7 @@ Dependendo do que o administrador do Workfront ou do grupo selecionou nas Prefer
   >
   >A Duração do Projeto é o total de todas as durações das tarefas principais que exibem uma porcentagem concluída. Por exemplo, um projeto com uma tarefa independente com uma Duração de 2 dias e uma tarefa pai com uma Duração de 5 dias que tiveram trabalho concluído neles terá uma Duração total de 7 dias, mesmo que as duas tarefas possam começar no mesmo dia.
 
-  ![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+  ![Projeto com porcentagem de tarefas concluída e cálculo de duração](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
   >[!NOTE]
   >
@@ -101,7 +101,7 @@ Dependendo do que o administrador do Workfront ou do grupo selecionou nas Prefer
 
 Ao usar a Duração das tarefas para calcular o percentual concluído de um projeto, considere o seguinte exemplo:
 
-![](assets/project-with-tasks-percent-complete-duration-calculation.png)
+![Projeto com porcentagem de tarefas concluída e cálculo de duração](assets/project-with-tasks-percent-complete-duration-calculation.png)
 
 As informações a seguir são usadas para calcular o percentual concluído do projeto
 

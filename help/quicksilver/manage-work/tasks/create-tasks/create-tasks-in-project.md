@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1061'
 ht-degree: 2%
 
 ---
@@ -116,8 +116,8 @@ Para criar tarefas em um projeto:
 
 1. Vá para o projeto em que deseja criar uma tarefa.
 1. Clique em **Tarefas** no painel esquerdo.
-1. (Condicional) Se você estiver exibindo a lista de tarefas em um modo de exibição Agile, clique no ícone **do** Modo de Exibição de Lista![](assets/list-view-in-agile-view-for-tasks.png) no canto superior direito para exibir a lista de tarefas.
-1. (Opcional) Clique no ícone **do** Modo de Plano![](assets/nwe-plan-mode-icon-task-list.png) e selecione **Salvar Manualmente**. Em seguida, selecione **Padrão** ou **Planejamento de Linha do Tempo**. Isso desabilita a opção **Salvamento automático**, que é habilitada por padrão.
+1. (Condicional) Se você estiver visualizando a lista de tarefas em um modo de exibição Agile, clique no ícone **Modo de Exibição de Lista** no modo de exibição Agile para tarefas![ no canto superior direito para exibir a lista de tarefas.](assets/list-view-in-agile-view-for-tasks.png)
+1. (Opcional) Clique no ícone **Modo de Plano** ícone ![Modo de plano para a lista de tarefas](assets/nwe-plan-mode-icon-task-list.png) e selecione **Salvar Manualmente** e, em seguida, selecione **Padrão** ou **Planejamento de Linha do Tempo**. Isso desabilita a opção **Salvamento automático**, que é habilitada por padrão.
 
    ![Selecionar Salvamento Manual](assets/manual-save-option.png)
 
@@ -130,7 +130,7 @@ Para criar tarefas em um projeto:
    * Clique em **Nova tarefa** na parte superior da lista de tarefas.
    * Clique em **Adicionar mais tarefas** na parte inferior da lista de tarefas.
 
-   ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
+   ![Botão &#39;Nova tarefa&#39; ou &#39;Adicionar tarefa&#39; em uma lista realçada](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
 1. (Condicional) Se você clicou em **Nova tarefa**, faça o seguinte:
 
@@ -140,11 +140,11 @@ Para criar tarefas em um projeto:
 
       Para atualizar todos os campos da tarefa, clique em **Mais Opções** para abrir a caixa **Criar Tarefa**.
 
-      ![](assets/nwe-create-task-small-screen-350x272.png)
+      ![Criar caixa pequena de tarefa](assets/nwe-create-task-small-screen-350x272.png)
 
       A caixa **Criar tarefa** é aberta.
 
-      ![](assets/create-task-larger-box-nwe-350x244.png)
+      ![Criar caixa grande de tarefa](assets/create-task-larger-box-nwe-350x244.png)
 
 
       >[!NOTE]
@@ -173,7 +173,7 @@ Para criar tarefas em um projeto:
 
    Recomendamos usar essa opção, especialmente ao adicionar várias tarefas à lista.
 
-   ![](assets/add-more-tasks-inline.png)
+   ![Adicionar mais tarefas em linha](assets/add-more-tasks-inline.png)
 
 1. (Condicional) Siga um destes procedimentos:
 
@@ -213,11 +213,11 @@ Para criar tarefas em um projeto:
 
    Para obter informações, consulte [Filtro: tarefas pessoais](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 
-   ![](assets/personal-tasks-report.png)
+   ![Relatório de tarefas pessoais](assets/personal-tasks-report.png)
 1. Clique em um nome de tarefa no relatório de tarefa pessoal para abri-lo.
 
    O Workfront salva tarefas pessoais em um projeto pessoal não listado que é sempre nomeado de acordo com este padrão: &quot;Tarefas do > nome completo do usuário. Por exemplo, um projeto pessoal poderia ser chamado de &quot;Tarefas de Rick&quot;.
 
-1. Na página de tarefas, clique no **menu Mais** ![](assets/more-icon.png) e em **Mover**. Para obter mais informações sobre como mover tarefas, consulte [Mover tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+1. Na página de tarefas, clique no **ícone Mais** ![Mais](assets/more-icon.png) e em **Mover**. Para obter mais informações sobre como mover tarefas, consulte [Mover tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
 
    Depois que você terminar de mover a tarefa, ela será exibida no projeto selecionado. A linha do tempo do projeto pode ser afetada pela linha do tempo da nova tarefa.

@@ -6,10 +6,10 @@ description: Você pode criar relações de predecessoras de várias maneiras no
 author: Alina
 feature: Work Management
 exl-id: 38ea13a5-ab95-4617-a47f-9dde5f752fb4
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ Ao encadear tarefas, você pode permitir que o sistema crie os relacionamentos d
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Ao encadear tarefas, você pode permitir que o sistema crie os relacionamentos d
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
    <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 1. Clique em **Tarefas** no painel esquerdo.
 1. (Condicional) Selecione **Salvar automaticamente** no canto superior direito da lista de tarefas e selecione as tarefas que deseja encadear.
 
-   ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
+   ![Ícone de salvamento automático em realçado](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
    >[!IMPORTANT]
    >

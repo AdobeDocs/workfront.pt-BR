@@ -6,10 +6,10 @@ description: No Adobe Workfront, as tarefas podem ter relacionamentos pai-filho.
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 0%
+source-wordcount: '578'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ No Adobe Workfront, as tarefas podem ter relacionamentos pai-filho. Tarefas secu
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,8 +33,8 @@ No Adobe Workfront, as tarefas podem ter relacionamentos pai-filho. Tarefas secu
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -96,12 +96,12 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 1. (Condicional) Se a tarefa que você deseja tornar a tarefa filho ainda não estiver localizada diretamente abaixo da tarefa que você deseja tornar pai, arraste-a e solte-a no local apropriado na lista de tarefas.
 1. Selecione a tarefa que você deseja transformar em uma subtarefa e siga um destes procedimentos:
 
-   * Clique no ícone **Recuo** ![](assets/indent-icon-nwe-33x29.png) para tornar a tarefa selecionada uma subtarefa da tarefa diretamente acima dela.
+   * Clique no ícone **Recuo** ![ícone de Recuo](assets/indent-icon-nwe-33x29.png) para transformar a tarefa selecionada em uma subtarefa da tarefa diretamente acima dela.
    * Ao usar um teclado QWERTY padrão em inglês, pressione Option + > (Mac) ou Alt + > (Windows) no teclado. Outras linguagens podem usar os comandos Option + , (Mac) ou Alt + , (Windows) para recuar.
 
      >[!TIP]
      >
-     >Os atalhos de teclado não funcionam ao editar tarefas em edição em linha. Nesse caso, use o ícone de Recuo ![](assets/indent-icon-nwe-33x29.png) para criar subtarefas.
+     >Os atalhos de teclado não funcionam ao editar tarefas em edição em linha. Nesse caso, use o ícone Recuar ![ícone Recuar](assets/indent-icon-nwe-33x29.png) para criar subtarefas.
 
    * Arraste e solte a tarefa sobre a tarefa que deseja designar como a tarefa pai.
 
@@ -132,7 +132,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 1. Vá para o projeto em que deseja tornar uma subtarefa uma tarefa principal.
 1. Clique na seção **Tarefas** no painel esquerdo.
 1. Selecione a subtarefa que você deseja transformar em uma tarefa principal.
-1. Clique no ícone **Diminuir recuo** ![](assets/outdent-icon-nwe-31x29.png) para tornar a subtarefa uma tarefa principal.
+1. Clique no ícone **Diminuir recuo** ![Ícone Diminuir recuo](assets/outdent-icon-nwe-31x29.png) para tornar a subtarefa uma tarefa principal.
 
    Ou
 

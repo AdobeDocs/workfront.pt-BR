@@ -7,9 +7,9 @@ description: Ao adicionar relações de predecessoras a tarefas, você pode enco
 author: Alina
 feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Os loops de dependência ocorrem quando você tem duas ou mais tarefas que depen
 
 Se você tentar tornar a Tarefa 1 uma predecessora da Tarefa 2, receberá um erro de loop de dependência porque não poderá iniciar a Tarefa 1 até que a Tarefa 2 tenha sido concluída, mas a tarefa 2 não poderá ser iniciada até que a Tarefa 1 seja concluída.
 
-![](assets/dependency-loop-error-message-350x209.png)
+![Mensagem de erro do loop de dependência](assets/dependency-loop-error-message-350x209.png)
 
-![](assets/dependency-loop-in-task-list-nwe-350x97.png)
+![Loop de dependência na lista de tarefas](assets/dependency-loop-in-task-list-nwe-350x97.png)
 
 ## Considerações sobre loops de dependência
 

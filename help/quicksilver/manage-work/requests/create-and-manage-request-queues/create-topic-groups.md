@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Grupos de Tópicos estão associados a Filas de solicitações. Você pode criar
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Grupos de Tópicos estão associados a Filas de solicitações. Você pode criar
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licença do Adobe Workfront</p> </td> 
    <td>   
-      <p>Standard</p>
+      <p>Padrão</p>
       <p>Plano</p>
  </td> 
   </tr> 
@@ -80,7 +80,7 @@ Para criar um Grupo de Tópicos:
 1. Clique em **Grupos de Tópicos** no painel esquerdo.
 1. Clique em **Novo Grupo de Tópicos**.
 
-   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
+   <!--   ![New topic group box](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. Especifique as seguintes informações:
 

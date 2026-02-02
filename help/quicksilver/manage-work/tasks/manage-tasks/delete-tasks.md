@@ -6,9 +6,9 @@ description: É possível excluir tarefas que podem estar duplicadas ou que fora
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '790'
 ht-degree: 5%
 
 ---
@@ -174,9 +174,9 @@ Considere o seguinte:
 1. Clique no nome do projeto que contém a tarefa que deseja excluir.
 1. Clique em **Tarefas** no painel esquerdo.
 1. Clique no nome da tarefa que deseja excluir.
-1. Clique no ícone **Mais** ![](assets/qs-more-menu.png)no canto superior direito.
+1. Clique no ícone **Mais** ![Mais menu](assets/qs-more-menu.png)no canto superior direito.
 
-   ![](assets/delete-tasks-task-level-nwe-350x225.png)
+   ![Excluir tarefas no nível da tarefa](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Clique em **Excluir tarefa**.
 1. Se a exclusão for permitida, clique em **Excluir**.

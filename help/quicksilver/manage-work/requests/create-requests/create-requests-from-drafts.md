@@ -6,9 +6,9 @@ description: Além de usar os rascunhos disponíveis que o Workfront sugere quan
 author: Becky
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: b58814d68d582a08457d1d4685d110c2bdd2087c
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '827'
 ht-degree: 3%
 
 ---
@@ -100,7 +100,7 @@ O procedimento para criar solicitações de rascunhos difere entre a nova experi
 
    Um rascunho para cada tópico da fila de cada fila de solicitações é exibido nesta lista.
 
-   ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+   ![Seção Rascunhos com lista de rascunhos](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
 1. (Opcional) Clique em um cabeçalho de coluna para classificar a lista por essa coluna.
 
@@ -133,7 +133,7 @@ O procedimento para criar solicitações de rascunhos difere entre a nova experi
 
      Clique em **Fechar** se não estiver pronto para enviá-lo e você poderá voltar e concluí-lo mais tarde. Sua solicitação é salva na seção Rascunhos e estará disponível para você na próxima vez que enviar uma solicitação para essa fila de solicitações.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Enviar, fechar, descartar botões em nova solicitação](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      Quando você envia a solicitação, o rascunho é excluído e não pode ser restaurado.
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: b1d5122dd66d84a0e2a21f24eeb01fd3298374ad
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '5369'
+source-wordcount: '5428'
 ht-degree: 4%
 
 ---
@@ -162,7 +162,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
 1. Clique na tarefa que deseja editar.
 1. (Condicional) Para editar informações limitadas sobre uma tarefa, clique em **Detalhes da tarefa** no painel esquerdo.
 
-   ![](assets/nwe-task-details-expanded-350x273.png)
+   ![Detalhes da tarefa expandidos](assets/nwe-task-details-expanded-350x273.png)
 
    Considere editar informações nas seguintes áreas na seção Detalhes da tarefa:
 
@@ -184,15 +184,15 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
 
    Para editar informações na seção Detalhes, faça o seguinte:
 
-   1. (Opcional) Clique no ícone **de** Recolher Tudo![](assets/collapse-all-icon.png) no canto superior direito para recolher todas as áreas.
-   1. (Opcional e condicional) Quando uma área for recolhida, clique na **seta apontando para a direita** ![](assets/right-pointing-arrow.png) ao lado de cada área para expandir a área que você deseja editar.
+   1. (Opcional) Clique no ícone **Recolher Tudo** ![Recolher tudo](assets/collapse-all-icon.png) no canto superior direito para recolher todas as áreas.
+   1. (Opcional e condicional) Quando uma área for recolhida, clique na **seta apontando para a direita** ![seta apontando para a direita](assets/right-pointing-arrow.png) ao lado de cada área para expandir a área que você deseja editar.
    1. Para obter mais informações sobre como editar informações na guia Detalhes da tarefa, consulte os seguintes artigos:
 
       * [Gerenciar informações da tarefa na área de Visão Geral de Detalhes da Tarefa](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [Gerenciar finanças da tarefa na seção Detalhes da tarefa](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Opcional) Se não houver formulários personalizados anexados à tarefa, comece digitando o nome de um formulário no campo **Adicionar formulário personalizado**, selecione-o quando ele for exibido na lista e clique em **Salvar alterações**.
-   1. (Opcional) Clique no ícone **Exportar** ![](assets/export.png) para exportar as informações de Visão geral e formulários personalizados para um arquivo do PDF e clique em **Exportar**. Selecione entre as seguintes opções:
+   1. (Opcional) Clique no ícone **Exportar** ![Ícone Exportar](assets/export.png) para exportar as informações de Visão geral e formulários personalizados para um arquivo do PDF e clique em **Exportar**. Selecione entre as seguintes opções:
 
       * Selecionar tudo (é exibido somente quando há pelo menos um formulário personalizado anexado)
       * Visão geral
@@ -200,15 +200,15 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
 
       O arquivo PDF é baixado no computador.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Exportar caixa de seleção de detalhes do problema com o botão Exportar](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Para obter mais informações, consulte [Exportar detalhes de formulários e objetos personalizados](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-1. (Condicional) Para editar todas as informações sobre a tarefa, como um usuário com permissões para Gerenciar a tarefa, clique no menu **Mais** ![](assets/more-icon.png) ao lado do nome da tarefa e clique em **Editar**.
+1. (Condicional) Para editar todas as informações sobre a tarefa, como um usuário com permissões para Gerenciar a tarefa, clique no menu **Mais** ícone ![Mais](assets/more-icon.png) ao lado do nome da tarefa e clique em **Editar**.
 
    Ou
 
-   Em uma lista de tarefas, selecione uma tarefa e clique no ícone **Editar** ![](assets/edit-icon.png) na parte superior da lista.
+   Em uma lista de tarefas, selecione uma tarefa e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) na parte superior da lista.
 
    A caixa Editar tarefa é aberta.
 
@@ -241,7 +241,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
 1. Comece a editar sua tarefa conforme descrito acima.
 1. Clique em **Nome da tarefa** no painel esquerdo.
 
-   ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
+   ![Seção de nome da tarefa na caixa Editar tarefa](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. Atualize o nome da tarefa.
 
@@ -252,7 +252,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
 1. Comece a editar sua tarefa conforme descrito acima.
 1. Clique em **Visão geral** no painel esquerdo.
 
-   ![](assets/nwe-overview-section-edit-task-box-350x257.png)
+   ![Caixa de tarefa de edição da seção de visão geral](assets/nwe-overview-section-edit-task-box-350x257.png)
 
 1. Atualize as seguintes informações sobre a tarefa:
 
@@ -843,7 +843,7 @@ Você pode definir formulários personalizados padrão para serem anexados autom
 1. Comece a editar a tarefa conforme descrito acima.
 1. Clique em **Forms Personalizado** no painel esquerdo ou clique no nome de um formulário personalizado se ele já estiver anexado.
 
-   ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
+   ![Caixa de tarefa de edição da seção de formulários personalizados](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
 1. Clique em **Adicionar formulário personalizado** e selecione o(s) formulário(s) personalizado(s) que deseja associar à tarefa. Você deve criar os formulários personalizados antes que eles estejam disponíveis para seleção neste campo. Somente formulários personalizados ativos são exibidos na lista.
 
@@ -862,7 +862,7 @@ Você pode definir formulários personalizados padrão para serem anexados autom
 1. Comece a editar sua tarefa conforme descrito na seção [Editar tarefas](#Edit2) deste artigo.
 1. Clique em **Finanças** no painel esquerdo.
 
-   ![](assets/nwe-finance-section-edit-task-box-350x298.png)
+   ![Caixa de tarefa de edição da seção Finanças](assets/nwe-finance-section-edit-task-box-350x298.png)
 
 1. Atualize os seguintes campos:
 
@@ -905,7 +905,7 @@ Você pode definir formulários personalizados padrão para serem anexados autom
 1. Comece a editar sua tarefa conforme descrito na seção [Editar tarefas](#Edit2) deste artigo.
 1. Clique em **Configurações** no painel esquerdo.
 
-   ![](assets/nwe-settings-section-edit-task-box-350x304.png)
+   ![Seção de configurações na caixa Editar tarefa](assets/nwe-settings-section-edit-task-box-350x304.png)
 
 1. Atualize os seguintes campos:
 
@@ -992,7 +992,7 @@ Você pode definir formulários personalizados padrão para serem anexados autom
 O administrador do sistema ou do grupo pode personalizar os campos exibidos no cabeçalho da tarefa. Para obter mais informações, consulte [Personalizar cabeçalhos de objetos usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
-![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
+![Cabeçalho da tarefa sem aprovações e com dependências](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
 Os seguintes campos são incluídos no cabeçalho da tarefa, por padrão:
 

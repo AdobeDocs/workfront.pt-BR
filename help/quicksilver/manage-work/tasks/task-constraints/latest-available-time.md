@@ -7,9 +7,9 @@ description: O Último Tempo Disponível (LAT) é um tipo de Restrição de Tare
 author: Alina
 feature: Work Management
 exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -58,13 +58,13 @@ Nesta situação:
 
   **Exemplo:** Por exemplo, a Tarefa A é predecessora da Tarefa B. A Tarefa A tem a restrição Tempo Disponível Mais Recente e a Tarefa B tem a restrição O Mais Breve Possível. Nessa situação, a Tarefa A é agendada o mais próximo possível do início do projeto.
 
-  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![Restrição de tempo mais recente disponível na lista de tarefas](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
 * **O Mais Tarde Possível:** neste cenário, usar a restrição O Mais Tarde Possível na tarefa predecessora dá prioridade à tarefa predecessora.
 
   **Exemplo:** Por exemplo, a Tarefa A é predecessora da Tarefa B. A Tarefa A tem a restrição O Mais Tarde Possível e a Tarefa B tem a restrição O Mais Breve Possível. Nessa situação, a Tarefa A é agendada o mais próximo possível do final do projeto.
 
-  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![Restrição de tarefa o mais tarde possível na lista de tarefas](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

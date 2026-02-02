@@ -6,10 +6,10 @@ description: O Modo de rastreamento de uma tarefa determina como o Status de pro
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: 87bf2a4485d3b0c29fcfe8e00dcca57874cdec04
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 6%
+source-wordcount: '207'
+ht-degree: 14%
 
 ---
 
@@ -23,7 +23,7 @@ Para obter informações sobre o Modo de Acompanhamento nas tarefas, consulte [V
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,9 +35,9 @@ Para obter informações sobre o Modo de Acompanhamento nas tarefas, consulte [V
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
 
-<p>Trabalhar ou superior</p> 
+<p>Trabalho ou maior</p> 
    </td> 
   </tr> 
   <tr> 
@@ -87,13 +87,13 @@ Para obter informações sobre o Modo de Acompanhamento nas tarefas, consulte [V
 ## Definir modo de rastreamento para tarefas
 
 1. Vá para a tarefa para a qual deseja definir o modo de rastreamento.
-1. Clique no ícone **Mais** ![](assets/qs-more-icon-on-an-object.png)ao lado do nome da tarefa e clique em **Editar**.
+1. Clique no ícone **Mais** ícone ![Mais em um objeto](assets/qs-more-icon-on-an-object.png)ao lado do nome da tarefa e clique em **Editar**.
 
    A caixa de diálogo Editar tarefa é aberta.
 
 1. Na seção **Configurações**, use o menu suspenso **Modo de Acompanhamento** para selecionar o Modo de Acompanhamento da tarefa.
 
-   ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
+   ![Campo de modo de rastreamento na seção Editar Configurações da tarefa](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. Selecione entre as seguintes opções:
 

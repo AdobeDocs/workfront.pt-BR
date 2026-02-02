@@ -7,10 +7,10 @@ description: Visão geral do esforço de trabalho
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 0%
+source-wordcount: '1488'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,7 @@ Este artigo descreve o que é o Esforço de trabalho e como você deve usá-lo a
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,7 +71,7 @@ Este artigo descreve o que é o Esforço de trabalho e como você deve usá-lo a
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
    <p>Plano</p>
    </td> 
   </tr> 
@@ -130,15 +130,15 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 ## Ativar usando o Esforço de trabalho em vez das horas planejadas
 
-1. Vá para um projeto, clique no menu **de** Mais![](assets/more-icon.png) e clique em **Editar**.
+1. Vá para um projeto e clique no ícone **Mais** do menu ![Mais](assets/more-icon.png) e clique em **Editar**.
 1. Clique em **Configurações da tarefa** e selecione a opção **Usar esforço do trabalho para calcular automaticamente as horas planejadas da tarefa**. Essa opção é desmarcada por padrão.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Esforço de trabalho em projetos](assets/nwe-work-effort-on-projects-350x182.png)
 
    Para obter mais informações sobre como habilitar o uso do Esforço de trabalho em um projeto, consulte a seção &quot;Configurações de tarefas&quot; no artigo [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Clique em **Tarefas** no painel esquerdo e, em seguida, clique no nome de uma tarefa para acessá-la.
-1. Clique no menu **Mais** ![](assets/more-icon.png) e em **Editar**. Certifique-se de que a tarefa tenha um Tipo de duração simples.
+1. Clique no ícone **Mais** do menu ![Mais](assets/more-icon.png) e em **Editar**. Certifique-se de que a tarefa tenha um Tipo de duração simples.
 
    >[!TIP]
    >
@@ -146,7 +146,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 1. Na área **Visão geral**, clique no menu suspenso Esforço de trabalho para corrigir a quantidade de esforço necessário para concluir a tarefa.
 
-   ![](assets/work-effort-on-edit-task-page-350x239.png)
+   ![Esforço de trabalho na página Editar Tarefa](assets/work-effort-on-edit-task-page-350x239.png)
 
    Para obter mais informações sobre como atualizar o campo Esforço de trabalho em uma tarefa, consulte os seguintes artigos:
 

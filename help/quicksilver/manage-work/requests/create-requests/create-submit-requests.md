@@ -6,9 +6,9 @@ description: O trabalho planejado é representado na Adobe Workfront por projeto
 author: Becky
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 2b4c13babecd3675f82699282c3dd42191c73df1
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2575'
 ht-degree: 2%
 
 ---
@@ -158,7 +158,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
      >
      >O Workfront salva um caminho somente quando você realmente submeteu uma solicitação a ele. Ele não cria caminhos para solicitações em rascunho.
 
-     ![](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
+     ![Lista de caminhos e filas de solicitações recentes ao inserir uma nova solicitação](assets/list-of-recent-paths-and-request-queues-when-entering-new-request-nwe-350x295.png)
 
    * Na seção **Filas de Solicitação**, selecione uma fila de solicitações.
    * Insira uma palavra-chave que pertença a um caminho acessado anteriormente para procurar uma fila de solicitações.
@@ -169,7 +169,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
      >
      >Quando você digita um nome que contém um caractere especial, a fila de solicitações, o tópico da fila ou o grupo de tópicos são exibidos mesmo quando você omite a digitação do caractere.
 
-     ![](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
+     ![Solicitar descobertas de pesquisa de fila com resultados destacados](assets/request-queue-search-findings-with-highlighted-results-350x210.png)
 
      A lista de filas de solicitações e caminhos recentes disponíveis é atualizada dinamicamente para incluir apenas caminhos que contêm a palavra-chave que está destacada nos resultados.
 
@@ -206,7 +206,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
      Os três rascunhos mais recentes de três tópicos diferentes da fila são exibidos por padrão.
 
-     ![](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
+     ![Novos rascunhos após a remoção da nova área de solicitação](assets/new-drafts-after-new-request-area-was-removed-350x162.png)
 
    * Comece a inserir uma nova solicitação na fila selecionada.
 
@@ -219,7 +219,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
    >Quando você passa o mouse sobre um Grupo de tópicos ou um Tópico da fila, o campo Descrição é exibido à direita. Contém informações adicionais sobre o grupo de tópicos ou o tópico da fila.
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
+   >![Mostrar descrição sobre o tópico da fila ao enviar a solicitação](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    Você pode ter até 10 camadas de Grupos de tópicos incorporados à sua Fila de solicitações.\
@@ -327,7 +327,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
      Clique em **Fechar** se não estiver pronto para enviá-lo e você poderá voltar e concluí-lo mais tarde. Sua solicitação é salva na seção Rascunhos e estará disponível para você na próxima vez que enviar uma solicitação para essa fila de solicitações.
 
-     ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
+     ![Enviar, fechar, descartar botão de rascunho em nova solicitação](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
    Ao enviar a solicitação, o rascunho é excluído automaticamente e não pode ser restaurado.
 

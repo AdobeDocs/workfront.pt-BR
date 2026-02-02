@@ -6,9 +6,9 @@ description: É possível exibir ou editar as informações de uma tarefa acessa
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2104'
 ht-degree: 5%
 
 ---
@@ -113,7 +113,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    >
    >Dependendo de como o administrador do Workfront ou do Administrador de grupo configura nosso Modelo de layout, os campos na seção Detalhes da tarefa podem ser reorganizados ou não ser exibidos. Para obter informações, consulte [Personalizar o modo de exibição de Detalhes usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Clique no ícone **Editar** ![](assets/edit-icon.png) no canto superior direito da seção Detalhes e em **Visão geral**.
+1. Clique no ícone **Editar** ![Editar ícone](assets/edit-icon.png) no canto superior direito da seção Detalhes e clique em **Visão geral**.
 
    >[!TIP]
    >

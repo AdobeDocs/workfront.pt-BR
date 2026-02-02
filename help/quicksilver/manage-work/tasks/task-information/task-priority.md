@@ -7,10 +7,10 @@ description: Você pode definir uma prioridade para uma tarefa para indicar a im
 author: Alina
 feature: Work Management
 exl-id: 653b62fe-6195-4288-ac05-f89e4a6113fd
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ Você pode definir uma prioridade para uma tarefa para indicar a importância da
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,8 +32,8 @@ Você pode definir uma prioridade para uma tarefa para indicar a importância da
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td><p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -102,5 +102,5 @@ Considere o seguinte ao usar as prioridades de tarefa:
 
 1. Vá para a tarefa cuja prioridade você deseja modificar.
 1. Clique em **Detalhes da tarefa** no painel esquerdo.
-1. Clique no ícone **Editar** ![](assets/qs-edit-icon.png) e, na área **Visão geral**, selecione um valor para o campo **Prioridade**.
+1. Clique no ícone **Editar** ![Ícone Editar](assets/qs-edit-icon.png) e, na área **Visão geral**, selecione um valor para o campo **Prioridade**.
 1. Clique em **Salvar** **Alterações**.

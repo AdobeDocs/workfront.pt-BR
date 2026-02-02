@@ -1,5 +1,5 @@
 ---
-title: 'A estrutura do sucesso: Modelar a hierarquia da campanha'
+title: 'A arquitetura do sucesso: modelar a hierarquia da campanha'
 description: Saiba como traduzir seus complexos processos de negócios em uma hierarquia de campanha escalável e controlada usando "Centros de gravidade" e uma arquitetura com vários espaços de trabalho.
 feature: Workfront Planning
 role: User, Admin
@@ -7,7 +7,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# A estrutura para o sucesso: modelar a hierarquia da campanha
+# A arquitetura do sucesso: modelar a hierarquia da campanha
 
 <!--see the file again for additional comments from Seth and others-->
 

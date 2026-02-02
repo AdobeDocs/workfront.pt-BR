@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 8164cce259c48ccd92d3cb73a9fcc0ca1907b612
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '13726'
+source-wordcount: '13750'
 ht-degree: 2%
 
 ---
@@ -2110,7 +2110,10 @@ ht-degree: 2%
    * Práticas recomendadas do Adobe Workfront Planning {#adobe-workfront-planning-best-practices}
       * [práticas recomendadas do Adobe Workfront: índice de artigos](planning/best-practices.md/best-practices-article-index.md)
       * [A plataforma de lançamento de 30 dias: implante sua casa estratégica](planning/best-practices.md/30-day-launchpad.md)
-      * [A estrutura para o sucesso: modelar a hierarquia da campanha](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [A arquitetura do sucesso: modelar sua hierarquia de campanha](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [O calendário de marketing que você perdeu: sem baralhos, apenas clareza](planning/best-practices.md/marketing-calendar.md)
+      * [Manual: dimensionamento gerenciado, após a primeira vitória](planning/best-practices.md/playbook-how-to-scale.md)
+      * [A ponte: conectando intenção estratégica a projetos](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
    * Arquitetura de planejamento do Adobe Workfront {#adobe-workfront-planning-architecture}
       * [Arquitetura: índice de artigos](planning/architecture/architecture-information.md)
       * [Visão geral dos espaços de trabalho](planning/architecture/workspaces-overview.md)

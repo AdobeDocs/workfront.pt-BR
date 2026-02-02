@@ -6,10 +6,10 @@ description: Você pode mover tarefas para projetos diferentes ou para tarefas p
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 2%
+source-wordcount: '1377'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ Você pode mover uma única tarefa ou pode mover várias tarefas de uma lista de
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,8 +48,8 @@ Você pode mover uma única tarefa ou pode mover várias tarefas de uma lista de
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard </p> 
- <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão </p> 
+ <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -133,7 +133,7 @@ Considere o seguinte ao mover uma tarefa:
 
    * Clique no **Mais** ícone ![Mais](assets/main-more-icon.png) na parte superior da lista de tarefas e clique em **Mover para**.
    * Clique com o botão direito do mouse nas tarefas selecionadas e clique em **Mover para**.
-   * Ao selecionar uma tarefa, clique no menu **Mais** ![](assets/more-icon-task-list.png) ao lado do nome da tarefa na lista e clique em **Mover para**.
+   * Ao selecionar uma tarefa, clique no ícone **Mais** do menu ![Mais](assets/more-icon-task-list.png) ao lado do nome da tarefa na lista e clique em **Mover para**.
 
    A caixa **Mover Tarefa** é exibida.
 
@@ -265,7 +265,7 @@ Além de mover tarefas de uma lista de tarefas, você pode mover uma tarefa no n
 
    A tarefa é exibida na lista.
 
-   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa &#x200B;](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selecionar tarefa pai ao mover uma tarefa com funcionalidade de pesquisa ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
    >[!NOTE]
    >

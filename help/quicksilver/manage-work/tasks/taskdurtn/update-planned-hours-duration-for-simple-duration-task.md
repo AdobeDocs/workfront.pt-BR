@@ -6,10 +6,10 @@ description: Por padrão, o Adobe Workfront calcula a Duração de uma tarefa co
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 1%
+source-wordcount: '450'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Este artigo descreve como você pode atualizar as Horas planejadas e a Duração
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Este artigo descreve como você pode atualizar as Horas planejadas e a Duração
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td><p>Padrão ou superior</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -91,13 +91,13 @@ Para editar as Horas Planejadas e a Duração de uma tarefa com um Tipo de Dura�
 1. Em uma lista de tarefas, clique no nome da tarefa para a qual deseja alterar o tipo de duração.
 1. Siga um destes procedimentos:
 
-   * Clique no ícone **Mais** ![](assets/qs-more-icon-on-an-object.png) ao lado do nome da tarefa, clique em **Editar** e depois em **Atribuições**.
+   * Clique no ícone **Mais** ícone ![Mais em um objeto](assets/qs-more-icon-on-an-object.png) ao lado do nome da tarefa, clique em **Editar** e depois em **Atribuições**.
    * Clique em **Atribuído a** ou no nome das atribuições na área Atribuições do cabeçalho da tarefa e clique em **Avançado**.
 
 1. Insira um valor total para as **Horas Planejadas** para todas as atribuições, por exemplo, 10 horas. O número total de Horas Planejadas é distribuído igualmente entre todos os recursos atribuídos à tarefa.
 1. (Opcional) Ajuste manualmente as Horas Planejadas de cada recurso atribuído à tarefa. O número total de Horas Planejadas para que a tarefa seja atualizada para refletir as novas horas atribuídas individualmente aos seus recursos.
 1. Insira um valor para a tarefa **Duração**, por exemplo, 2 Dias.
 
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+   ![Múltiplos recursos de duração simples de atribuições avançadas](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 
 1. Clique em **Salvar**.

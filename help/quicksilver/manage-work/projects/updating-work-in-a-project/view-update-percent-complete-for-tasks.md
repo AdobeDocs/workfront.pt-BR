@@ -6,10 +6,10 @@ description: Você pode atualizar o percentual concluído de uma tarefa para ind
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 0%
+source-wordcount: '692'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Atualizar o percentual concluído de ocorrências é semelhante a atualizá-lo p
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,8 +35,8 @@ Atualizar o percentual concluído de ocorrências é semelhante a atualizá-lo p
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p>
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p>
    </td> 
   </tr> 
   <tr> 
@@ -100,15 +100,15 @@ Você pode atualizar o percentual concluído de uma tarefa em qualquer uma das s
 
 * **No cabeçalho da tarefa**: você pode atualizar o percentual concluído de uma tarefa no cabeçalho da tarefa.
 
-  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+  ![Percentual de atualização no cabeçalho](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 * **No painel Resumo de uma tarefa**: você pode atualizar a porcentagem concluída de uma tarefa na parte superior do painel Resumo ao visualizar a tarefa nas seguintes áreas:
 
    * Lista de tarefas ou relatório
-   * Planilha de horas
+   * Folha de horas
    * Balanceador de carga de trabalho
 
-  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+  ![Percentual de atualização no Resumo da tarefa realçado](assets/update-percent-complete-in-task-summary-highlighted.png)
 
   Para obter mais informações, consulte [Resumo geral](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 

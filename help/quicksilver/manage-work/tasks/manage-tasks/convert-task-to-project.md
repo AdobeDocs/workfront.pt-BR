@@ -6,9 +6,9 @@ description: Quando uma tarefa em um projeto requer uma quantidade maior de esfo
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1152'
 ht-degree: 4%
 
 ---
@@ -199,13 +199,13 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 ## Converter uma tarefa em um projeto
 
 1. Vá para a tarefa que deseja converter em um projeto.
-1. Clique no ícone **Mais** ![](assets/more-icon.png) e em **Converter para Projeto**.
+1. Clique no ícone **Mais** ![Mais ícone](assets/more-icon.png) e **Converter em Projeto**.
 1. Escolha uma das opções a seguir:
 
    * **Novo projeto**, para criar um projeto sem usar um modelo
    * Um modelo na seção **Selecionar nos Modelos**
 
-     ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
+     ![Menu suspenso de opções Converter tarefa em modelo de projeto](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
 1. Clique em **Continuar** na notificação exibida.
 1. Na caixa **Converter em Projeto**, especifique o seguinte:
