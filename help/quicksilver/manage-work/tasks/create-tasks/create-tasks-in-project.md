@@ -116,7 +116,7 @@ Para criar tarefas em um projeto:
 
 1. Vá para o projeto em que deseja criar uma tarefa.
 1. Clique em **Tarefas** no painel esquerdo.
-1. (Condicional) Se você estiver visualizando a lista de tarefas em um modo de exibição Agile, clique no ícone **Modo de Exibição de Lista** no modo de exibição Agile para tarefas![ no canto superior direito para exibir a lista de tarefas.](assets/list-view-in-agile-view-for-tasks.png)
+1. (Condicional) Se você estiver visualizando a lista de tarefas em um modo de exibição Agile, clique no ícone **Modo de Exibição de Lista** no modo de exibição Agile para tarefas![&#x200B; no canto superior direito para exibir a lista de tarefas.](assets/list-view-in-agile-view-for-tasks.png)
 1. (Opcional) Clique no ícone **Modo de Plano** ícone ![Modo de plano para a lista de tarefas](assets/nwe-plan-mode-icon-task-list.png) e selecione **Salvar Manualmente** e, em seguida, selecione **Padrão** ou **Planejamento de Linha do Tempo**. Isso desabilita a opção **Salvamento automático**, que é habilitada por padrão.
 
    ![Selecionar Salvamento Manual](assets/manual-save-option.png)
