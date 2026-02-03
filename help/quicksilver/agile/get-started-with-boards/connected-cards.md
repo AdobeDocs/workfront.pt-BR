@@ -6,10 +6,10 @@ description: Você pode adicionar um cartão ao seu quadro conectado a tarefas e
 author: Jenny
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6e136bed16c2b20f05267ac181dcc462b1a2aed4
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 0%
+source-wordcount: '1533'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ Para sincronizar cartões conectados com o Workfront, clique no menu **[!UICONTR
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -104,11 +104,11 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Nome]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
       <td>Alterar o nome também altera o nome no objeto [!DNL Workfront] conectado.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Descrição]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
       <td>Alterar a descrição também altera a descrição no objeto [!DNL Workfront] conectado. Você pode adicionar URLs na descrição e eles se tornarão links clicáveis quando o cartão for salvo.</td> 
      </tr>
      <tr>
@@ -135,7 +135,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <p>Todos os atribuídos selecionados também são atribuídos à tarefa ou problema em [!DNL Workfront].</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Marcas]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
       <td><p>Procure e selecione tags para o cartão.</p>
       <p>Para obter informações sobre como criar novas marcas, consulte <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Adicionar marcas</a>.</p></td>
      </tr>
@@ -157,7 +157,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
       <p>O contador na parte superior da lista de verificação mostra o número de itens concluídos e o número total de itens.</p> <p>Para obter mais informações sobre itens da lista de verificação, consulte <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gerenciar itens da lista de verificação em cartões</a>.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Documentos]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Documents]</strong></td>
       <td>Para um documento existente, passe o mouse sobre a miniatura do documento e clique em <strong>Visualizar</strong> para exibir o arquivo no navegador ou em <strong>Baixar</strong> para baixar o arquivo no computador. Para um novo documento, consulte <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Adicionar documentos em cartões</a>.</td>
      </tr>
      <tr>
@@ -187,13 +187,21 @@ O objeto conectado, os atribuídos, as tags, a data de vencimento, o contador da
 
 Você pode desconectar um cartão conectado do objeto Workfront dele, e o cartão permanece no quadro como um cartão ad hoc que pode ser editado.
 
-Para desconectar-se no nível do quadro:
+>[!NOTE]
+>
+>Se você desconectar um cartão conectado em um quadro dinâmico, ele reaparecerá quando você atualizar o quadro porque este tipo de quadro extrai todas as tarefas e problemas de um projeto específico.
+>
+>Se você desconectar uma placa conectada de qualquer outro tipo de placa que tenha uma coluna de entrada, a placa reaparecerá na coluna de entrada quando você atualizar a placa se a tarefa ou problema conectado ainda não estiver marcado como concluído.
+>
+>Em ambos os cenários, após uma atualização, você terá dois cartões para a mesma tarefa ou problema: um cartão ad hoc e um cartão conectado.
+
+Para desconectar uma placa no nível da placa:
 
 1. Acesse o quadro.
 1. Clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon-spectrum.png) no cartão conectado e selecione **[!UICONTROL Desconectar]**.
 1. Clique em **[!UICONTROL Desconectar]** na mensagem de confirmação.
 
-Para desconectar no nível da placa:
+Para desconectar uma placa no nível da placa:
 
 1. Acesse a placa e abra a placa conectada.
 1. Clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/more-icon-spectrum.png) na área Conexão dos detalhes do cartão e selecione **[!UICONTROL Desconectar]**.
