@@ -7,7 +7,7 @@ description: A seção Atualizações de um objeto exibe comentários que os usu
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 4%
@@ -156,7 +156,7 @@ Há diferenças entre a forma como comentários e atualizações são exibidos p
 
    * Equipe
    * Modelo
-   * Modelo de Tarefa
+   * Tarefa de modelo
 
 * Os seguintes objetos não têm uma guia de atividade Sistema ou uma guia Todos, e a experiência na guia Comentários é diferente da de todos os outros objetos:
 
@@ -188,7 +188,7 @@ Há diferenças entre a forma como comentários e atualizações são exibidos p
 <!--
 ### Overview of the legacy Updates section 
 
-![](assets/updates-tab-before-unified-experience-for-tasks.png)
+![Updates tab](assets/updates-tab-before-unified-experience-for-tasks.png)
 
 The legacy Updates section shows the following information:
 
@@ -252,14 +252,14 @@ A tabela a seguir mostra os objetos cujos comentários também são exibidos em 
    <td>Equipe</td> 
   </tr> 
   <tr> 
-   <td>Planilha de horas</td> 
+   <td>Folha de horas</td> 
    <td><p>Usuário, Equipe</p>
    <p><b>Nota</b></p>
    <p>Os comentários da folha de horas são exibidos na seção Atualizações do usuário que faz o comentário e na seção Atualizações da equipe inicial.</p>
    </td> 
   </tr> 
   <tr> 
-   <td>Modelo de Tarefa</td> 
+   <td>Tarefa de modelo</td> 
    <td>Modelo</td> 
   </tr> 
   <tr> 

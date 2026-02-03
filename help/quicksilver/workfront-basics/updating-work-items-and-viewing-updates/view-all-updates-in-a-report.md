@@ -6,9 +6,9 @@ description: Para visualizar todas as atualizações que qualquer um dos usuári
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '380'
 ht-degree: 4%
 
 ---
@@ -115,7 +115,7 @@ Por exemplo, para criar um relatório de Notas para todas as notas de um projeto
 1. (Opcional) Clique em **Filtros** e depois em **Adicionar uma Regra de Filtro**.
 1. Adicione um filtro para **Nota** > **Texto da Nota** > **Não Está em Branco**.
 
-   ![](assets/note-note-text-not-blank-filter.png)
+   ![O campo de texto da observação não está em branco](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >

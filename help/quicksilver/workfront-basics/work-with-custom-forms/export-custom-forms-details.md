@@ -1,14 +1,13 @@
 ---
-title: Exportar formulários personalizados e detalhes do objeto
-description: Exportar formulários personalizados e detalhes do objeto
+title: Exportar detalhes personalizados do Forms e do objeto
+description: É possível exportar as informações de Visão geral e formulário personalizado da seção Detalhes de um objeto para um arquivo do PDF. Em seguida, você pode imprimir ou compartilhar a PDF com outros usuários.
 author: Alina
-draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 1%
+source-wordcount: '579'
+ht-degree: 3%
 
 ---
 
@@ -36,7 +35,7 @@ Essa funcionalidade é compatível com os seguintes objetos:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,7 +124,7 @@ A exportação de informações da seção Detalhes de um objeto é idêntica pa
 
    Você também pode selecionar **Selecionar tudo** se desejar exportar a área Visão geral e todos os formulários personalizados.
 
-   ![](assets/export-custom-form-button-menu.png)
+   ![Botão Exportar formulário personalizado](assets/export-custom-form-button-menu.png)
 
    >[!TIP]
    >

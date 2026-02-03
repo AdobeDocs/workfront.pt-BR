@@ -2,10 +2,9 @@
 title: Introdução ao Scenario Planner
 description: Você pode usar o Planejador de cenários da Adobe Workfront para criar planos de nível empresarial que descrevam os resultados estratégicos gerais de sua empresa. Você pode definir várias iniciativas para um plano e colocá-las em vários cenários para encontrar a solução ideal para a execução do plano.
 author: Alina
-draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%

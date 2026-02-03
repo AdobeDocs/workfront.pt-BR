@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -130,7 +130,7 @@ And
 1. Clique em **Continuar**.
 1. Na caixa **Escolher o tipo de registro**, clique no cartão do tipo de registro que deseja adicionar de um espaço de trabalho existente e clique em **Adicionar**.
 
-   O tipo de registro é adicionado ao espaço de trabalho secundário selecionado e o ícone **do** tipo de registro global![](assets/global-icon.png) é exibido no cartão do tipo de registro.
+   O tipo de registro é adicionado ao espaço de trabalho secundário selecionado e o **ícone do tipo de registro global** ![ícone do registro global espaço de trabalho primário](assets/global-icon.png) é exibido no cartão do tipo de registro.
 
    As seguintes situações ocorrem:
 

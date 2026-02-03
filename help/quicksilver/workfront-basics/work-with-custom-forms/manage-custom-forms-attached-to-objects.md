@@ -6,9 +6,9 @@ description: Você pode atualizar a ordem na qual os formulários personalizados
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1064'
 ht-degree: 2%
 
 ---
@@ -86,10 +86,10 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 1. Vá para o objeto no qual deseja alterar a ordem dos formulários personalizados adicionados e, em seguida, comece a editar o objeto.
 
-   **Exemplo:** Por exemplo, para gerenciar os formulários personalizados de um projeto, vá para o projeto, clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon.png) e clique em **Editar**.
+   **Exemplo:** Por exemplo, para gerenciar os formulários personalizados de um projeto, vá para o projeto, clique no menu **Mais** ![Mais menu](assets/more-icon.png) e clique em **Editar**.
 
-1. Na seção **Forms personalizado** para projetos, tarefas e problemas, clique no ícone ![](assets/move-icon---dots.png) ao lado do nome de um formulário personalizado. Para todos os outros objetos, clique em **Gerenciar Forms**. Essa opção é exibida somente se pelo menos um formulário personalizado estiver anexado ao objeto.
-1. Arraste um formulário ![](assets/move-icon---dots.png) para um novo local na lista.
+1. Na seção **Forms Personalizado** para projetos, tarefas e problemas, clique no ícone ![Mover](assets/move-icon---dots.png) ao lado do nome de um formulário personalizado. Para todos os outros objetos, clique em **Gerenciar Forms**. Essa opção é exibida somente se pelo menos um formulário personalizado estiver anexado ao objeto.
+1. Arraste um formulário ![Ícone Mover](assets/move-icon---dots.png) para um novo local na lista.
 1. Para projetos, tarefas e formulários personalizados de problemas, clique em **Salvar**.
 
    Para todos os outros objetos, clique em **Terminei o gerenciamento** > **Salvar alterações**.
@@ -105,7 +105,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    Por exemplo, vá para um projeto, clique na seção **Detalhes do projeto**.
 
 1. Clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png) no canto superior direito da página do objeto e clique em **Editar tudo**.
-1. Clique no ícone **Excluir** ![](assets/delete-icon.png) à direita de um nome de formulário personalizado e clique em **Excluir** para confirmar e remover o formulário do objeto ou em **Cancelar** para impedir a remoção.
+1. Clique no ícone **Excluir** ![Ícone Excluir](assets/delete-icon.png) à direita de um nome de formulário personalizado e clique em **Excluir** para confirmar e remover o formulário do objeto ou em **Cancelar** para impedir a remoção.
 1. Clique em **Salvar alterações**.
 
 ## Gerenciar vários formulários personalizados que contêm os mesmos campos personalizados
@@ -135,7 +135,7 @@ Somente os formulários personalizados anexados a todos os objetos selecionados 
 
 Para editar vários formulários personalizados ao editar objetos em massa:
 
-1. Em uma lista de objetos, selecione os objetos aos quais os formulários personalizados estão anexados e clique no ícone **Editar** ![](assets/edit-icon.png).
+1. Em uma lista de objetos, selecione os objetos aos quais os formulários personalizados estão anexados e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png).
 1. Clique em **Forms Personalizado**.
 
    Você pode editar somente os formulários personalizados anexados a todos os objetos selecionados.

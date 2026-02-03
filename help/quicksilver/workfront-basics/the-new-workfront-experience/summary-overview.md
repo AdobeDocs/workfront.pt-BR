@@ -5,9 +5,9 @@ description: Você pode usar o painel Resumo para revisar e atualizar as informa
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '908'
 ht-degree: 2%
 
 ---
@@ -107,11 +107,11 @@ Para obter informações sobre como acessar o [!UICONTROL Resumo] de documentos,
 ## Exiba o painel [!UICONTROL Resumo] em uma lista de tarefas ou problemas
 
 1. Vá para uma tarefa ou problema e selecione um item na lista.
-1. Clique no ícone **[!UICONTROL do]** Resumo![](assets/qs-summary-in-new-toolbar-small.png)
+1. Clique no ícone **[!UICONTROL Resumo]** ![Resumo na nova barra de ferramentas](assets/qs-summary-in-new-toolbar-small.png)
 
    ou
 
-   Clique no ícone **[!UICONTROL do]** Abrir Resumo![](assets/open-summary-with-text-nwe.png) na seção [!UICONTROL Enviado] da área [!UICONTROL Solicitações].
+   Clique no ícone **[!UICONTROL Abrir Resumo]** ![Abrir Resumo com texto](assets/open-summary-with-text-nwe.png) na seção [!UICONTROL Enviado] da área [!UICONTROL Solicitações].
 
    Após abrir o Resumo, ele permanece aberto quando você clica ou seleciona outras tarefas ou problemas e permanece aberto até que você o feche manualmente.
 
@@ -123,13 +123,13 @@ Para obter informações sobre como acessar o [!UICONTROL Resumo] de documentos,
 
 1. (Opcional) Para fechar o painel [!UICONTROL Resumo], siga um destes procedimentos:
 
-   * Em uma lista de tarefas ou problemas, clique no ícone **&#x200B;**&#x200B;Abrir resumo![](assets/summary-panel-icon.png)
+   * Em uma lista de tarefas ou problemas, clique no ícone **[!UICONTROL Abrir resumo]** ![ícone do painel Resumo](assets/summary-panel-icon.png)
 
      Ou
 
      Clique no ícone **X** no canto superior direito do painel [!UICONTROL Resumo].
 
-   * Na seção [!UICONTROL Enviado] da área [!UICONTROL Solicitações], clique no ícone **[!UICONTROL de]** Fechar Resumo![](assets/close-summary-with-text-nwe.png)
+   * Na seção [!UICONTROL Enviado] da área [!UICONTROL Solicitações], clique no ícone **[!UICONTROL Fechar Resumo]** ![Fechar Resumo com texto](assets/close-summary-with-text-nwe.png)
 
      Ou
 

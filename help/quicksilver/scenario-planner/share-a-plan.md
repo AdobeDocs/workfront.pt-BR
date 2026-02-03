@@ -7,10 +7,10 @@ description: Você pode compartilhar um plano criado no Planejador de cenários 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 2%
+source-wordcount: '882'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Você pode compartilhar um plano no [!DNL Adobe Workfront Scenario Planner] com 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -221,7 +221,7 @@ Para obter informações sobre permissões de projeto, consulte [Compartilhar um
 
    Ou
 
-   Se você selecionou vários planos para compartilhá-los em massa, clique no ícone **[!UICONTROL Compartilhar]** ![](assets/share-icon-26x26.png) na parte superior da lista de planos para abrir a caixa de acesso [!UICONTROL Plano].
+   Se você selecionou vários planos para compartilhá-los em massa, clique no **[!UICONTROL ícone Compartilhar]** ![ícone Compartilhar](assets/share-icon-26x26.png) na parte superior da lista de planos para abrir a caixa de acesso [!UICONTROL Plano].
 
    >[!TIP]
    >

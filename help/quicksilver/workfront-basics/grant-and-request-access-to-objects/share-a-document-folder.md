@@ -6,9 +6,9 @@ description: Você pode compartilhar uma pasta e seu conteúdo na área Document
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '847'
 ht-degree: 2%
 
 ---
@@ -100,7 +100,7 @@ Ou
 
 Com um objeto do Workfront aberto, clique em **Documentos** no painel esquerdo.
 
-1. Selecione a pasta e clique no ícone Compartilhar ![](assets/share-icon.png) na barra de ferramentas.
+1. Selecione a pasta e clique no ícone Compartilhar ![ícone Compartilhar](assets/share-icon.png) na barra de ferramentas.
 
    A pasta deve estar nos cinco níveis superiores de uma hierarquia de pastas em um objeto e não pode ser uma pasta inteligente.
 
@@ -132,7 +132,7 @@ Com um objeto do Workfront aberto, clique em **Documentos** no painel esquerdo.
    </table>
 
 1. (Opcional) Repita as etapas 3 a 4 para adicionar outros nomes à lista e configurar suas opções.
-1. (Opcional) Se quiser que todos no sistema possam ver a pasta e seu conteúdo, clique no ícone de engrenagem ![](assets/gear-icon-settings-with-dn-arrow.jpg) no canto superior direito da caixa de compartilhamento e clique em **Tornar isso visível em todo o sistema.**
+1. (Opcional) Se quiser que todos no sistema possam ver a pasta e seu conteúdo, clique no ícone de engrenagem ![Configurações do ícone de engrenagem com seta para baixo](assets/gear-icon-settings-with-dn-arrow.jpg) no canto superior direito da caixa de compartilhamento e clique em **Tornar isso visível em todo o sistema.**
 
    Se mudar de ideia, clique em **Remover acesso a todo o sistema** (a opção padrão).
 

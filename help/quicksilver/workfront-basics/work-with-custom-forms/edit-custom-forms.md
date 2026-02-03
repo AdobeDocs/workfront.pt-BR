@@ -7,9 +7,9 @@ description: Você pode editar informações em um formulário personalizado dep
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1222'
 ht-degree: 3%
 
 ---
@@ -130,7 +130,7 @@ Para obter informações sobre quais objetos podem ter um formulário personaliz
    >
    >É necessário preencher todos os campos obrigatórios no formulário antes de salvá-lo. O nome de um campo obrigatório é seguido por um asterisco.
    >
-   >![](assets/nwe-required-custom-field.png)
+   >![Campo personalizado obrigatório](assets/nwe-required-custom-field.png)
 
    Quando alguém altera dados em outro objeto referenciado por campos personalizados calculados em seu objeto, as alterações não são refletidas automaticamente no objeto. Para obter informações sobre como atualizar manualmente todos os campos personalizados calculados em seu objeto, consulte [Recalcular todos os campos personalizados calculados para um objeto](#recalculate-all-calculated-custom-fields-for-an-object) neste artigo.
 
@@ -177,7 +177,7 @@ As seções a seguir descrevem como você pode recalcular expressões personaliz
    * Programa
    * Documento
 
-1. Clique no menu **Mais** ![](assets/more-icon.png) à direita do nome do objeto e clique em **Recalcular Expressões**.
+1. Clique no menu **Mais** ![Mais menu](assets/more-icon.png) à direita do nome do objeto e clique em **Recalcular Expressões**.
 
    Isso recalcula todos os campos personalizados no formulário do objeto.
 
@@ -217,9 +217,9 @@ Para recalcular expressões personalizadas de uma lista de objetos:
    * Portfólios
    * Programas
    * Despesas
-1. Clique no menu **Mais** ![](assets/more-icon.png) e em **Recalcular Expressões Personalizadas**.
+1. Clique no menu **Mais** ![Mais menu](assets/more-icon.png) e em **Recalcular Expressões Personalizadas**.
 
-![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+![Recalcular o menu suspenso de finanças da linha do tempo de expressões nas listas de projetos](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
 O Workfront calcula imediatamente todos os campos personalizados para todos os projetos selecionados.
 Nem todas as listas de todos os objetos têm esse recurso.

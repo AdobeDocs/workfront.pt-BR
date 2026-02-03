@@ -7,9 +7,9 @@ description: Você pode adicionar um formulário personalizado existente a qualq
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '740'
 ht-degree: 4%
 
 ---
@@ -114,7 +114,7 @@ Você pode adicionar um formulário personalizado a um objeto de duas maneiras:
 ### Adicionar um formulário personalizado a um objeto ao editar o objeto {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Vá para o objeto ao qual deseja adicionar o formulário personalizado.
-1. Clique no menu **Mais** ![](assets/more-icon.png) e em **Editar** ![](assets/edit-icon.png).
+1. Clique no menu **Mais** ![Mais menus](assets/more-icon.png) e em **Editar** ![Editar ícone](assets/edit-icon.png).
 1. Clique em **Forms Personalizado** > **Adicionar Forms** e selecione até 10 formulários no menu suspenso.
 
 1. (Opcional) Atualize as informações nos campos editáveis no formulário personalizado.
@@ -158,11 +158,11 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Navegue até uma lista de objetos.
 1. Selecione vários objetos na lista.
 
-1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-icon.png) e no ícone **&#x200B;**&#x200B;Editar![](assets/edit-icon.png).
+1. Clique no menu **Mais** ![Mais menus](assets/more-icon.png) e no ícone **Editar** ![Ícone Editar](assets/edit-icon.png).
 
    Ou
 
-   Clique no ícone **de** Editar![](assets/edit-icon.png) na parte superior da lista.
+   Clique no ícone **Editar** ![Editar ícone](assets/edit-icon.png) na parte superior da lista.
 1. Clique em **Forms Personalizado** no painel esquerdo.
 1. no menu suspenso **Fazer uma seleção**, selecione o formulário que deseja associar a todos os objetos selecionados.
 
