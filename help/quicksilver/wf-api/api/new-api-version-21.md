@@ -6,16 +6,14 @@ description: O Adobe Workfront lançou a API versão 21 em 23 de outubro de 2025
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 040e714c2f81ba764c7895be430446add1250a83
+source-git-commit: 7166a6b51a45b744a33df697c2bc8080427908a8
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '932'
 ht-degree: 3%
 
 ---
 
 # Novidades da API versão 21
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 >[!IMPORTANT]
 >
@@ -680,8 +678,6 @@ Um objeto de Taxa representa uma taxa de cobrança no Workfront.
 
 Um objeto Função (função de trabalho) representa uma capacidade funcional ou um conjunto de habilidades que um usuário pode preencher, como Designer ou Gerente de produto.
 
-<div class="preview">
-
 <table>
   <col/>
   <col/>
@@ -709,8 +705,6 @@ Um objeto Função (função de trabalho) representa uma capacidade funcional ou
     </tr>
   </tbody>
 </table>
-
-</div>
 
 ### Relatório agendado (SCHREP)
 
