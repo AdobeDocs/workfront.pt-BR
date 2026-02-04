@@ -5,10 +5,10 @@ title: Usar campos de moeda nos Painéis do Canvas
 description: É possível usar os campos de moeda em um Painel da tela de desenho.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 3%
+source-wordcount: '622'
+ht-degree: 4%
 
 ---
 
@@ -73,7 +73,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    >[!IMPORTANT]
    >
-   >A funcionalidade descrita neste artigo se aplica somente aos campos de moeda nativa. Se você tiver taxas de câmbio de moeda configuradas, o Suporte para campos de moeda personalizados será disponibilizado em breve.
+   >A funcionalidade descrita neste artigo se aplica somente aos campos de moeda nativa. O suporte para campos de moeda personalizados será disponibilizado em breve.
 
 
 ## Definir uma moeda padrão para um Painel da Tela
