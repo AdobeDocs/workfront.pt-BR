@@ -6,9 +6,9 @@ description: Você pode aplicar um filtro a um Painel da tela de desenho depois 
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
-source-git-commit: c6458d777726092d74e8b031f5c14dfd58710e11
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -179,17 +179,3 @@ Todos os usuários com acesso a um painel podem aplicar um prompt de painel a um
 1. Clique no ícone **Fechar** ![Ícone Fechar](assets/close-icon.png) no canto superior direito para ocultar o painel.
 
 
-## Filtrar um painel por tipo de moeda
-
-Você pode alternar entre diferentes tipos de moeda no nível do painel. Os relatórios que contêm campos de moeda serão atualizados para refletir o tipo de moeda selecionado.
-
->[!NOTE]
->
->Os campos de moeda podem ser bloqueados no nível do relatório. Se um campo de moeda estiver bloqueado, o tipo de moeda para esse relatório não será alterado quando você alterar o tipo de moeda para o painel.
-
-Para alterar o tipo de moeda do painel,
-
-1. Clique no menu suspenso currency no canto superior direito da página de detalhes do painel.
-1. Selecione o tipo de moeda desejado na lista.
-
-   ![alterar lista suspensa de moedas](assets/filter-by-currency.png)

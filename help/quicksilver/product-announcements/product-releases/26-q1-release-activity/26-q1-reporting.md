@@ -4,9 +4,9 @@ description: Melhorias na geração de relatórios no primeiro trimestre de 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ad16dfe737f33a7d1025d8cef00605595d0476c2
+source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,14 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 >Lançamento rápido de produção: 14 de janeiro de 2026
 >Produção para todos: 15 de janeiro de 2026
 
-Fizemos as seguintes atualizações para os campos de moeda:
+Fizemos as seguintes atualizações para os campos de moeda nativa:
 
 * Quando várias moedas são definidas no Workfront, agora é possível escolher uma moeda padrão para o painel durante a criação.
 
 * Ao criar um relatório, você pode bloquear um campo de moeda. Isso garante que a preferência de moeda no nível do painel não afete a exibição desses valores.
 
 * Ao visualizar um painel, os usuários podem alternar entre qualquer moeda definida no Workfront. Essas alterações se aplicam a todo o painel de controle, com exceção dos campos de moeda bloqueados.
+
 
 
 ## Resultados da tabela de pesquisa rápida em Painéis do Canvas
