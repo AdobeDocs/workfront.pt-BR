@@ -1,18 +1,18 @@
 ---
-title: O Assistente de IA solicita as práticas recomendadas
+title: Prompts e práticas recomendadas do Assistente de IA
 content-type: reference
 description: Saiba mais sobre as práticas recomendadas para usar o Assistente de IA e exiba uma lista de exemplos de prompts.
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
-source-git-commit: 4bab0129d694d7134a5dae90474678226368ca78
+source-git-commit: dc472e93541641ee1c960ec7246365200f522a17
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '743'
 ht-degree: 4%
 
 ---
 
-# O Assistente de IA solicita as práticas recomendadas
+# Prompts e práticas recomendadas do Assistente de IA
 
 O Assistente de IA do Workfront é uma ferramenta poderosa que pode ajudá-lo a realizar seu trabalho com mais eficiência, oferecendo informações úteis sobre os dados de sua conta e tipos de objetos específicos.
 
