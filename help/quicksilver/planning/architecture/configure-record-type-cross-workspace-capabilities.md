@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1411'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Você pode configurar tipos de registro para trabalhar em vários espaços de trabalho no Adobe Workfront Planning.
 
@@ -198,7 +198,7 @@ Para configurar um tipo de registro como global:
    >
    >É possível editar a aparência e as configurações do tipo de registro e seus campos originais somente a partir de seu espaço de trabalho original.
 
-   * O cartão de tipo de registro exibe um **ícone de tipo de registro global** ![ícone de tipo de registro global](assets/global-icon.png) para indicar que o tipo de registro está disponível para ser adicionado a outros espaços de trabalho.
+   * O cartão de tipo de registro exibe um **ícone do tipo de registro global** ![espaço de trabalho primário do tipo de registro global](assets/global-icon.png) para indicar que o tipo de registro está disponível para ser adicionado a outros espaços de trabalho.
    * Um campo **Workspace** gerado pelo sistema é adicionado à exibição de tabela do tipo de registro e seus detalhes de registros.
 
      O campo Workspace exibe o espaço de trabalho de onde cada registro é criado.
@@ -214,7 +214,7 @@ Para configurar um tipo de registro como global:
 
    Para obter informações, consulte [Adicionar tipos de registro existentes de outro espaço de trabalho](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
-   O tipo de registro adicionado de um tipo de registro global no espaço de trabalho secundário também exibe um **ícone de tipo de registro global** ![ícone de tipo de registro global](assets/global-icon.png).
+   O tipo de registro adicionado de um tipo de registro global no espaço de trabalho secundário exibe <span class="preview">um ícone semelhante de **tipo de registro global** ![Ícone de tipo de registro global no espaço de trabalho secundário](assets/global-icon-secondary-workspace.png) que inclui uma seta, indicando que o tipo de registro foi importado de outro espaço de trabalho. Ao passar o mouse sobre o ícone global do espaço de trabalho secundário, você pode saber o nome do espaço de trabalho original.</span>
 1. (Opcional) Retorne ao espaço de trabalho original onde você criou o tipo de registro global e edite o tipo de registro seguindo as etapas de 1 a 4 acima <!--ensure this stays accurate-->
 1. (Opcional) Revise a lista de espaços de trabalho em que o registro global foi adicionado na seção **Espaços de trabalho em que este tipo de registro é usado**. O proprietário do espaço de trabalho também é listado ao lado do nome do espaço de trabalho.
 

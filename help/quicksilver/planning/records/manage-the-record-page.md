@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 0%
@@ -192,7 +192,7 @@ Para adicionar uma seção a uma visualização de registro ou página:
 
    Na exibição de tabela, clique no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome de tabela](assets/open-details-icon-in-table-name-field.png) na primeira coluna.
 
-   A visualização do registro é aberta na exibição.
+   <span class="preview">A visualização do registro é aberta no modo de exibição.</span>
 
    ![Caixa Detalhes](assets/details-box.png)
 
@@ -271,7 +271,7 @@ As seguintes situações ocorrem:
 
    Na exibição de tabela, clique no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome de tabela](assets/open-details-icon-in-table-name-field.png) na primeira coluna.
 
-   A visualização do registro é aberta na exibição.
+   <span class="preview">A visualização do registro é aberta no modo de exibição.</span>
 
    ![Caixa Detalhes](assets/details-box.png)
 

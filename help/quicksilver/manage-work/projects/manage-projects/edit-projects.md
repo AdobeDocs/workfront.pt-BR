@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '7642'
+source-wordcount: '7726'
 ht-degree: 1%
 
 ---
@@ -652,6 +652,15 @@ Para obter informações sobre como essas configurações afetam a criação de 
    Clique em **Salvar**.
 
 ### Acesso {#access}
+
+Você pode definir quais permissões os usuários recebem para o projeto, bem como as tarefas e problemas no projeto quando eles interagem com qualquer um desses tipos de objeto.
+
+>[!IMPORTANT]
+>
+>Modificar as permissões para o projeto, tarefas e problemas ao editar o projeto estabelece como as permissões são concedidas quando os usuários interagem com esses tipos de objeto após a alteração do acesso.
+>
+>A alteração dessa configuração não modifica retroativamente as permissões dos usuários para esses tipos de objetos, para itens aos quais os usuários já foram atribuídos ou incluídos.
+
 
 1. Comece a editar seu projeto conforme descrito acima.
 1. Clique em **Acessar** no painel esquerdo.

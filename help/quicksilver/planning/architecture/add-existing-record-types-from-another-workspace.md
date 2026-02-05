@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '784'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Como um gerenciador de espaço de trabalho, você pode adicionar um tipo de registro que existe em outro espaço de trabalho a um espaço de trabalho gerenciado no Adobe Workfront Planning.
 
@@ -130,7 +130,8 @@ And
 1. Clique em **Continuar**.
 1. Na caixa **Escolher o tipo de registro**, clique no cartão do tipo de registro que deseja adicionar de um espaço de trabalho existente e clique em **Adicionar**.
 
-   O tipo de registro é adicionado ao espaço de trabalho secundário selecionado e o **ícone do tipo de registro global** ![ícone do registro global espaço de trabalho primário](assets/global-icon.png) é exibido no cartão do tipo de registro.
+   <span class="preview">O tipo de registro é adicionado ao espaço de trabalho secundário selecionado e o ícone **Tipo de registro global** ![Ícone de registro global no espaço de trabalho secundário](assets/global-icon-secondary-workspace.png) é exibido no cartão do tipo de registro. </span>
+   <span class="preview">O ícone de tipo de registro global inclui uma seta quando exibido em um tipo de registro no espaço de trabalho secundário, para indicar que o tipo de registro foi adicionado de um tipo de registro existente.</span>
 
    As seguintes situações ocorrem:
 
@@ -146,7 +147,7 @@ And
      >
      >Não é possível editar a aparência do novo tipo de registro, as configurações adicionais ou os campos originais. É possível editar o tipo de registro e todos os campos e configurações originais somente no espaço de trabalho original.
      >
-
+1. <span class="preview">(Opcional) Passe o mouse sobre o ícone do tipo de registro global ![Ícone de registro global no espaço de trabalho secundário](assets/global-icon-secondary-workspace.png) para exibir o nome do espaço de trabalho original do qual o tipo de registro foi adicionado. </span>
 1. (Opcional) Clique em, em seguida arraste e solte o tipo de registro recém-adicionado em qualquer seção no espaço de trabalho.
 1. (Opcional) Clique no menu **Mais** no cartão do novo tipo de registro ou à direita do nome do tipo de registro em sua página e clique em uma das seguintes opções:
 

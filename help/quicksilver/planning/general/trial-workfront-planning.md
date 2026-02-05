@@ -3,9 +3,9 @@ title: Introdução à Avaliação Gratuita do Adobe Workfront Planning
 description: A Adobe Workfront está oferecendo uma versão de avaliação gratuita de 60 dias do Adobe Workfront Planning. Esta versão de avaliação é a sua oportunidade de ver como o Planning conecta a estratégia de visão geral com o trabalho diário que a torna realidade. O planejamento oferece visibilidade centralizada no ciclo de vida de marketing, permitindo uma melhor colaboração entre equipes, rastreamento de campanhas em tempo real e fluxos de trabalho automatizados. Você pode criar espaços de trabalho personalizados e visualizar trabalhos com linhas do tempo e calendários interativos. Com esta avaliação, você verá em primeira mão como o Planning ajuda a alinhar o trabalho diário com objetivos estratégicos, simplificar a execução e gerar resultados mensuráveis para sua organização.
 hidefromtoc: true
 hide: true
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1255'
 ht-degree: 1%
 
 ---
@@ -71,15 +71,29 @@ Estas são datas importantes associadas à oferta de avaliação gratuita do Ado
    * A janela de aceitação do contrato de avaliação. Somente um administrador do Workfront pode aceitar o contrato. Você pode aceitar o contrato de avaliação a qualquer momento a partir desta data.
 * **2 de março de 2026**: a versão de avaliação do Workfront Planning é lançada.
 
+  Os seguintes itens são adicionados à sua instância do Workfront:
+
+   * Os banners do Workfront Planning continuam sendo exibidos para todos os usuários.
+   * A preferência **Contrato de avaliação de revisão** é adicionada à área **Instalação**.
+
   Existem os seguintes cenários:
 
    * Se o administrador do Workfront tiver aceitado o contrato antes dessa data, você poderá encontrar a área Planejamento no Menu Principal e começar a usar o Workfront Planning.
    * Se o administrador do Workfront não tiver aceitado o contrato antes dessa data, ele deverá primeiro aceitá-lo antes que você possa ter acesso ao Workfront Planning.
+* **1 de abril de 2026**: você não pode mais se inscrever na avaliação.
+
+  Os seguintes itens foram removidos da instância do Workfront:
+
+   * Os banners de avaliação do Workfront Planning.
+   * A preferência **Contrato de avaliação de revisão** foi removida da área **Instalação**.
+
 * **1º de maio de 2026**: a versão de avaliação do Workfront Planning é fechada e seu acesso ao Planning é removido.
 
-  A Workfront protege seus dados depois que a avaliação terminar, mas você não tem mais acesso a eles.
+  Se você participou da avaliação, o Workfront protege seus dados depois que a avaliação terminar. No entanto, você não tem mais acesso a ele após essa data.
 
   Independentemente de quando você aceitar o contrato, seu acesso ao Planning será interrompido nesta data.
+
+  Todas as avaliações do Workfront Planning
 * **30 de novembro de 2026**: o Workfront não protege mais seus dados após essa data. Se você comprar o Workfront Planning antes dessa data, obterá novamente acesso ao Planning e seus dados.
 
 <!--Lauren wanted this out: 
@@ -144,7 +158,9 @@ Para revisar e aceitar o contrato legal, siga um destes procedimentos:
 
 * **Entre 2 de março e 1 de maio de 2026**:
 
-  Você recebe as seguintes permissões para os espaços de trabalho na área do Planning durante a avaliação gratuita:
+  Independentemente do nível de acesso à licença do Workfront ou do Workflow, quando você aceita participar do programa de avaliação do Workfront Planning, recebe uma licença do Workfront Planning Prime.
+
+  Os usuários em seu sistema recebem as seguintes permissões para os espaços de trabalho na área do Planning durante a avaliação gratuita:
 
    * Todos os administradores do sistema têm permissões de gerenciamento para a guia Espaços de trabalho.
    * Todos os outros usuários têm permissões de Exibição na guia Espaços de trabalho, mas o Administrador do sistema pode conceder a eles permissões de Gerenciamento para espaços de trabalho.
