@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 1%
@@ -147,6 +147,7 @@ And
      >
      >Não é possível editar a aparência do novo tipo de registro, as configurações adicionais ou os campos originais. É possível editar o tipo de registro e todos os campos e configurações originais somente no espaço de trabalho original.
      >
+
 1. <span class="preview">(Opcional) Passe o mouse sobre o ícone do tipo de registro global ![Ícone de registro global no espaço de trabalho secundário](assets/global-icon-secondary-workspace.png) para exibir o nome do espaço de trabalho original do qual o tipo de registro foi adicionado. </span>
 1. (Opcional) Clique em, em seguida arraste e solte o tipo de registro recém-adicionado em qualquer seção no espaço de trabalho.
 1. (Opcional) Clique no menu **Mais** no cartão do novo tipo de registro ou à direita do nome do tipo de registro em sua página e clique em uma das seguintes opções:

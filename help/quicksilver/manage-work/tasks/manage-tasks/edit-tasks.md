@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
 workflow-type: tm+mt
-source-wordcount: '5428'
+source-wordcount: '5475'
 ht-degree: 4%
 
 ---
@@ -377,6 +377,12 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
 A edição de atribuições é diferente na caixa Editar tarefa, dependendo do ambiente escolhido.
 
 #### Edite a área Atribuições no ambiente de Produção
+
+>[!NOTE]
+>
+><span class="preview">Alguns clientes podem editar atribuições na caixa Editar Tarefa em seus ambientes de Produção da mesma maneira que no ambiente de Visualização.</span>
+>
+><span class="preview">Para obter informações sobre como editar tarefas no ambiente de Visualização, consulte a seção [Editar a área Atribuições no ambiente de Visualização](#edit-the-assignments-area-in-the-preview-environment) neste artigo. </span>
 
 1. Comece a editar sua tarefa conforme descrito acima.
 1. Clique em **Atribuições** no painel esquerdo.
