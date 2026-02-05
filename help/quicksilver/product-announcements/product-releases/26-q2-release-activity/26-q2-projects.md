@@ -4,9 +4,9 @@ description: Aprimoramentos do projeto do segundo trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7cde2f693336649d3d965100e33b71795ddc65a2
+source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '272'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,27 @@ ht-degree: 1%
 Esta página descreve as melhorias feitas no Project com a versão do segundo trimestre de 2026 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2026, consulte [Visão geral da versão do Segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Experiência atualizada quando e tarefas de modelo de atribuição única ou em massa
+
+>[!NOTE]
+>
+>Visualização: 5 de fevereiro de 2026
+>Produção: a partir de 5 de fevereiro de 2026\
+>[!BADGE Fora do cronograma]{type=Neutral}
+
+Atualizamos a seção Atribuições na caixa Editar Tarefas de Modelo ao editar tarefas de modelo único ou editá-las em massa.  
+As seguintes alterações estão incluídas nesta atualização: 
+
+* Há uma nova experiência para atribuir recursos a tarefas de modelo. Isso agora está disponível ao editar uma tarefa de modelo ou ao editar várias tarefas de modelo em massa. Adicionamos os seguintes campos à seção Atribuições: 
+
+   * Alocações 
+   * Proprietário ou proprietário da tarefa 
+   * Função do atribuidor 
+
+* A opção &quot;Retornar à experiência antiga&quot; foi removida.
+
+Para obter informações, consulte [Editar tarefas de modelo](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)
 
 ## Experiência atualizada ao atribuir tarefas únicas ou em massa
 
