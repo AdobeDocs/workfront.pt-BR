@@ -309,7 +309,7 @@ Os projetos conectados ao registro selecionado são exibidos na exibição de li
    * Clique em **Nova linha** para criar um projeto sem um modelo. O novo projeto é automaticamente conectado ao registro atual.
 
      Para obter mais informações, consulte [Criar objetos do Workfront no Workfront Planning à medida que você os conecta aos registros](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
-   * Clique em **Criar registros **no canto superior direito da exibição para adicionar projetos existentes. Os projetos são conectados imediatamente ao registro selecionado.
+   * Clique em **Criar registros &#x200B;** no canto superior direito da exibição para adicionar projetos existentes. Os projetos são conectados imediatamente ao registro selecionado.
 
    * Passe o mouse sobre um nome de projeto na lista e clique no menu **Mais** [Mais menu](assets/more-menu.png) e clique em **Exibir** para abrir o projeto em outra guia
 
