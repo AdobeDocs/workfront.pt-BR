@@ -7,10 +7,10 @@ description: Este filtro de relatório exibe todos os relatórios agendados para
 author: Lisa and Jenny
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: be102fd5f490b12837a231774253c030973c1c4f
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ Este filtro de relatório exibe todos os relatórios agendados para serem entreg
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -66,8 +66,7 @@ Para aplicar esse filtro:
 1. Na área **Definir regras de filtro para seu Relatório**, copie e cole o seguinte código:
 
    ```
-   scheduledReportID=0
-   scheduledReportID_Mod=notnull
+    scheduledReportsOM:ID_Mod=notblank
    ```
 
 1. Clique em **Salvar filtro**.
