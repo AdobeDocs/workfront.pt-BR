@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1343'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,11 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-Depois de selecionar um tipo de registro na área Adobe Workfront Planning, você pode exibir todos os registros desse tipo nas seguintes exibições:
+Depois de selecionar um tipo de registro na área Adobe Workfront Planning, você pode exibir todos os registros desse tipo de várias maneiras.
+
+Você pode visualizar registros em visualizações de vários formatos que oferecem a flexibilidade de explorar e entender informações da melhor maneira para você. Se você quiser uma visão geral estruturada, uma história cronológica, um layout baseado em data ou uma lista simples rolável, cada exibição oferece uma perspectiva exclusiva.
+
+É possível exibir registros nas seguintes exibições:
 
 * Tabela
 
@@ -39,6 +43,19 @@ Depois de selecionar um tipo de registro na área Adobe Workfront Planning, voc�
 * Calendário
 
   Para obter mais informações, consulte [Gerenciar a exibição de calendário](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+* Lista
+
+  É possível exibir registros em uma página de registro Conectado em uma exibição de lista.
+
+  >[!IMPORTANT]
+  >
+  >Não é possível aplicar uma exibição de lista a uma lista de registros em uma página de tipo de registro. Você só pode aplicar uma exibição de lista em uma página Registro conectado de um registro a uma lista de projetos conectados. <!--this will change-->
+
+  Para obter mais informações, consulte os seguintes artigos:
+
+   * [Adicionar uma página Registros conectados a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+   * [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 Este artigo descreve as seguintes informações sobre visualizações de registro:
 
@@ -192,34 +209,42 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Recurso | Exibição em tabela | Exibição da linha do tempo | Visualização de calendário |
-|-----------------------------------------------------------------------|------------|---------------|--------------|
-| Exibir registros em uma lista ou tabela | ✓ |              | |
-| Exibir todos os campos como colunas na tabela, por padrão | ✓ |              |    |
-| Ocultar ou mostrar campos (ou colunas) | ✓ |               |    |
-| Editar valores de campo para cada registro | ✓ |               |             |
-| Adicionar registros como novas linhas na exibição | ✓ |               |        |
-| Adicionar campos como novas colunas na exibição | ✓ |               |         |
-| Copiar linhas de uma lista externa e colá-las em uma tabela | ✓ |               |          |
-| Exibir registros em uma linha do tempo |            | ✓ |             |
-| Filtrar registros | ✓ | ✓ | ✓ |
-| Exibir registros em um calendário |           |              | ✓ |
-| Registros de grupo | ✓ | ✓ |  |
-| Classificar registros | ✓ |              |  |
-| Registros de código de cores | ✓ | ✓ | ✓ |
-| Agrupamentos de código de cores |           | ✓ |  |
-| Pesquisar registros específicos | ✓ | ✓ |  |
-| Compartilhar a exibição com outras pessoas | ✓ | ✓ | ✓ |
-| Abrir a página do registro na exibição | ✓ | ✓ |    |
-| Exibir registros por ano e trimestre |           | ✓ |    |
-| Exibir registros por mês |           | ✓ | ✓ |
-| Exibir registros por semana |           |               | ✓ |
-| Exportar informações de uma visualização | ✓ |               |    |
-| Exibir em tela inteira | ✓ | ✓ | ✓ |
-| Criar registros na exibição | ✓ | ✓ | ✓ |
-| Dividir registros por suas conexões |          | ✓ |    |
+| Recurso | Exibição em tabela | Exibição da linha do tempo | Visualização de calendário | Exibição em lista |
+|-----------------------------------------------------------------------|------------|---------------|--------------|---------|
+| Exibir registros em um formato de tabela | ✓ |              | | ✓ |
+| Exibir todos os campos como colunas em uma tabela ou lista | ✓ |              |    | ✓ |
+| Ocultar ou mostrar campos (ou colunas) | ✓ |               |    | ✓ |
+| Editar valores de campo para cada registro | ✓ |               |             | ✓ |
+| Adicionar registros como novas linhas na exibição | ✓ |               |        | ✓ |
+| Adicionar campos como novas colunas na exibição | ✓ |               |         | ✓ |
+| Copiar linhas de uma lista externa e colá-las em uma tabela | ✓ |               |          | ✓ |
+| Exibir registros em uma linha do tempo |            | ✓ |             |  |
+| Filtrar registros | ✓ | ✓ | ✓ | ✓ |
+| Exibir registros em um calendário |           |              | ✓ |  |
+| Registros de grupo | ✓ | ✓ |  |  |
+| Classificar registros | ✓ |              |  | ✓ |
+| Registros de código de cores | ✓ | ✓ | ✓ |  |
+| Agrupamentos de código de cores |           | ✓ |  |  |
+| Pesquisar registros específicos | ✓ | ✓ |  | ✓ |
+| Compartilhar a exibição com outras pessoas | ✓ | ✓ | ✓ | ✓ |
+| Abrir a página do registro na exibição | ✓ | ✓ |    | ✓ |
+| Exibir registros por ano e trimestre |           | ✓ |    |  |
+| Exibir registros por mês |           | ✓ | ✓ |  |
+| Exibir registros por semana |           |               | ✓ |  |
+| Exportar informações de uma visualização | ✓ |               |    |  |
+| Exibir em tela inteira | ✓ | ✓ | ✓ |  |
+| Criar registros na exibição | ✓ | ✓ | ✓ | ✓ |
+| Dividir registros por suas conexões |          | ✓ |    |  |
 
 ## Criar ou editar exibições {#create-or-edit-views}
+
+As informações desta seção se aplicam aos seguintes tipos de exibição:
+
+* Tabela
+* Linha do tempo
+* Calendário
+
+Para obter informações sobre exibições de lista, consulte [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 {{step1-to-planning}}
 
@@ -303,6 +328,10 @@ A tabela a seguir mostra as semelhanças e diferenças entre as exibições de t
 ## Ativar o indicador de presença em tempo real em uma exibição
 
 Você pode ver se outros usuários estão editando registros ao mesmo tempo que você seguindo os indicadores de presença em tempo real na exibição.
+
+>[!NOTE]
+>
+>Não é possível exibir indicadores de presença em tempo real em uma exibição de lista.
 
 Os avatares de outros usuários que estão editando informações de registro ao mesmo tempo que você exibe no canto superior direito de todas as visualizações de registro, por padrão.
 
