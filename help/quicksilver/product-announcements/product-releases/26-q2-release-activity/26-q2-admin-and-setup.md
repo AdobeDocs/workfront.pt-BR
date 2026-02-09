@@ -4,9 +4,10 @@ description: Aprimoramentos do administrador no segundo trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7cde2f693336649d3d965100e33b71795ddc65a2
+exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
+source-git-commit: f55ab45a7c11a4f0e4cdbe65ea890ba452b9bbba
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 O novo tipo de campo **Rich text** em formulários personalizados é um editor de texto robusto, com opções de formatação como sobrescrito e subscrito, cabeçalhos e tabelas, além das opções tradicionais de negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas duplas. O limite de caracteres permanece de 15.000.
 
-O tipo de campo Rich text está substituindo o texto pelo tipo de campo de formatação. Você pode converter rapidamente Texto existente com campos de formatação em Rich text, clicando no botão nas opções de campo à direita.
+O tipo de campo Rich text está substituindo o texto pelo tipo de campo de formatação. Você pode converter rapidamente Texto existente com campos de formatação em Rich text, clicando no botão nas opções de campo à direita. Quando você converte, os dados históricos permanecem no campo e são usados da mesma maneira nos relatórios.
 
 Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -53,6 +54,3 @@ UE:
 * 24.110.76.223
 
 Para obter mais informações, consulte [Configurar incluo na lista de permissões do firewall](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
-
-
-
