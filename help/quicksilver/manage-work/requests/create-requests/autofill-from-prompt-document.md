@@ -5,9 +5,9 @@ description: Você pode usar a IA para preencher automaticamente os campos de so
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: b34d7f48a51acf4bd6ddfa203c9e0024b2e8c280
+source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1416'
 ht-degree: 3%
 
 ---
@@ -19,10 +19,6 @@ ht-degree: 3%
 >Para usar essa funcionalidade, sua organização deve atender aos requisitos para usar o Assistente de IA da Workfront. Para obter detalhes, consulte [Pré-requisitos do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 O Preenchimento de formulário de IA pode ajudar a preencher automaticamente os campos de solicitação com base em um prompt inserido. Ele também pode preencher campos com base em texto, como emails que são documentos carregados. Você pode aprovar ou rejeitar essas sugestões antes de enviar a solicitação.
-
-O Preenchimento de formulário de IA não substitui nenhum campo já preenchido.
-
-Os usuários não recebem sugestões de dados aos quais, de outra forma, não teriam acesso.
 
 ## Requisitos de acesso
 
@@ -59,7 +55,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Pré-requisitos
 
-Para usar o Preenchimento de formulário de IA para preencher solicitações usando um prompt ou documento, **todos** os seguintes itens devem ser aplicados:
+Para usar o Preenchimento de formulário fornecido pela IA para preencher uma solicitação usando um prompt ou documento, **todos** os seguintes itens devem ser aplicados:
 
 * Sua organização deve ter migrado para o Adobe IMS (Identity Management System)
 * A Experiência unificada do Adobe deve ser habilitada
@@ -70,6 +66,15 @@ Para usar o Preenchimento de formulário de IA para preencher solicitações usa
 * O Assistente de IA deve estar ativado nas configurações do sistema de sua organização. Ele é gerenciado pelo administrador do Workfront.
 
   Para obter mais informações sobre como habilitar o Assistente de IA nas configurações do sistema, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+
+## Considerações ao usar o Preenchimento de formulário fornecido pela IA
+
+Considere o seguinte ao usar o Preenchimento de formulário fornecido pela IA
+
+* O Preenchimento de formulário de IA não substitui nenhum campo já preenchido.
+* Os usuários não recebem sugestões de dados aos quais, de outra forma, não teriam acesso.
+* Os arquivos usados no Preenchimento de formulário fornecido pela IA são carregados no armazenamento do Azure por 24 horas. Isso é necessário para o processamento de documentos.
+* Todos os arquivos carregados para o Azure são armazenados atualmente em clusters do Azure dos EUA para a janela de armazenamento de 24 horas.
 
 ## Obter sugestões de um prompt de texto
 
