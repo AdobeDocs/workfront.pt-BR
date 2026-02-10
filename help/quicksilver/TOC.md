@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: f8c41105607e972d3395cf8d89fb1fdf29f0da85
+source-git-commit: 23f651b55b45db73baa67900ce868d9b692c958c
 workflow-type: tm+mt
-source-wordcount: '13765'
+source-wordcount: '13769'
 ht-degree: 2%
 
 ---
@@ -442,7 +442,7 @@ ht-degree: 2%
       * [Requisitos do navegador](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
       * [Diferenças baseadas em plataforma](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
    * Configurar o Workfront {#set-up-wf}
-      * [Configurar](administration-and-setup/set-up-workfront/set-up-workfront.md)
+      * [Configuração](administration-and-setup/set-up-workfront/set-up-workfront.md)
       * Configurar padrões do sistema {#configure-system-defaults}
          * [Configurar padrões do sistema: índice do artigo](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [Configurar preferências do projeto](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
@@ -1719,6 +1719,7 @@ ht-degree: 2%
       * Visão geral do uso de relatórios {#report-usage-overview}
          * [Visão geral do uso de relatórios](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
          * [Acessar e organizar relatórios](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
+         * [Usar pastas de relatório compartilháveis](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md)
          * [Criar um relatório sobre atividades de relatório](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
          * [Entender como organizar relatórios em um painel](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [Visualizar uso do relatório](reports-and-dashboards/reports/report-usage/view-report-usage.md)
