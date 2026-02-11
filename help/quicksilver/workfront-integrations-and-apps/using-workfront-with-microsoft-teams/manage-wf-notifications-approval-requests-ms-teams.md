@@ -6,10 +6,10 @@ description: Você pode receber notificações de [!DNL Adobe Workfront] sobre i
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+source-git-commit: 7720d51864428e6d7cf493f88bbee13b5203774b
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 4%
+source-wordcount: '1466'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,7 @@ Estas notificações contêm [!DNL Workfront] ações que você pode realizar em
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,8 +46,8 @@ Estas notificações contêm [!DNL Workfront] ações que você pode realizar em
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p>
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -221,7 +221,7 @@ Você recebe notificações de aprovação quando é solicitado a aprovar um obj
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Uma solicitação de aprovação de documento que você solicitou foi aprovada</td> 
+   <td role="rowheader">Uma solicitação de aprovação de documento que você solicitou foi aprovada*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -229,7 +229,7 @@ Você recebe notificações de aprovação quando é solicitado a aprovar um obj
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Uma solicitação de aprovação de documento que você solicitou foi aprovada com alterações</td> 
+   <td role="rowheader">Uma solicitação de aprovação de documento que você solicitou foi aprovada com alterações*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -237,7 +237,7 @@ Você recebe notificações de aprovação quando é solicitado a aprovar um obj
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Uma solicitação de aprovação de documento que você solicitou foi rejeitada</td> 
+   <td role="rowheader">Uma solicitação de aprovação de documento que você solicitou foi rejeitada*</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -254,6 +254,8 @@ Você recebe notificações de aprovação quando é solicitado a aprovar um obj
   </tr> 
  </tbody> 
 </table>
+
+*Essas notificações se referem às aprovações de documentos legados. Atualmente, não há suporte para notificações de aprovação de documento unificado em [!DNL Microsoft Teams]. Para obter mais informações sobre os diferentes sistemas de aprovação no Workfront, consulte [Funcionalidade disponível para aprovações de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
 ### Notificações de atribuição {#assignment-notifications}
 

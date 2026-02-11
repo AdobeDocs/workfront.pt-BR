@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Funcionalidade disponível para aprovações de documentos unificados
+title: Funcionalidade disponível para aprovações de documentos
 description: Visão geral dos sistemas disponíveis para revisão e aprovação no Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: f4dc0d28f7565b9dbc3c9ff4ee388eb8cf748b7f
+source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
-# Funcionalidade disponível para aprovações de documentos unificados
+# Funcionalidade disponível para aprovações de documentos
 
-Atualmente, existem 3 sistemas diferentes disponíveis no Workfront para aprovações de documentos unificados:
+Atualmente, existem 3 sistemas diferentes disponíveis no Workfront para aprovações de documentos:
 
 * [Aprovações de documentos herdados](#legacy-document-approvals)
 
@@ -25,7 +25,7 @@ Atualmente, existem 3 sistemas diferentes disponíveis no Workfront para aprova�
 
 ## Aprovações de documentos herdados
 
-As aprovações de documentos herdados serão removidas do Workfront em 2025. O sistema de Aprovações unificadas foi projetado para substituir aprovações de documentos herdados.
+As aprovações de documentos herdados serão removidas do Workfront em uma data futura. O sistema de Aprovações unificadas foi projetado para substituir aprovações de documentos herdados.
 
 Principais recursos disponíveis para aprovações de documentos herdados:
 
