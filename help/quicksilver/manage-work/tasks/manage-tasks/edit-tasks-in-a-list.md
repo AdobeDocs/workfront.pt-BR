@@ -300,7 +300,7 @@ Para editar tarefas em uma lista ao selecionar a opção Salvar manualmente padr
 
    Ou
 
-   Clique no ícone **Modo do menu** Mais![ na lista de tarefas](assets/more-icon-task-list.png).
+   Clique no ícone **Modo do menu** Mais![&#x200B; na lista de tarefas](assets/more-icon-task-list.png).
 
 1. (Opcional) Selecione entre as seguintes opções:
 
