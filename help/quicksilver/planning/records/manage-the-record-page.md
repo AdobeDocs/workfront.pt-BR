@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
@@ -279,14 +279,14 @@ As seguintes situações ocorrem:
 
    <div class="preview">
 
-   * Selecione a configuração **Mostrar campos de tabela** para exibir somente campos que não estejam ocultos na exibição de tabela do registro. Esta é a configuração padrão
-   * Desmarque a configuração **Mostrar campos de tabela** para exibir todos os campos da exibição de tabela do registro, incluindo os ocultos.
+   * Selecione a configuração **Mostrar todos os campos** para exibir todos os campos da exibição de tabela do registro, incluindo os ocultos.
+   * Desmarque a configuração **Mostrar todos os campos** para exibir somente campos que não estejam ocultos na exibição de tabela do registro. Esta é a configuração padrão
 
    </div>
 
    >[!TIP]
    >
-   ><span class="preview">A configuração **Mostrar campos de tabela** está disponível somente na caixa de visualização Detalhes do registro. Não está disponível na página Detalhes do registro.</span>
+   ><span class="preview">A configuração **Mostrar todos os campos** está disponível somente na caixa de visualização Detalhes do registro. Não está disponível na página Detalhes do registro.</span>
 
 
    <!--replace with this when they fix the UI text:

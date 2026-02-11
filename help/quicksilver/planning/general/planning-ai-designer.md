@@ -5,15 +5,17 @@ recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
+source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
 
-
 # Introdução ao Adobe Workfront Planning Designer
+
+<!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
 >[!IMPORTANT]
 >
@@ -91,7 +93,7 @@ Você pode enviar feedback sobre o Planning Designer durante o programa beta.
 
 1. Clique em **Criar com IA**. <!--update this tag name when they change it-->
 
-   A área **Configuração do Workspace** da janela **Designer do Planning** é aberta. <!--replace shot below when they rename the area to Planning Designer-->
+   A janela **Planning Designer** é aberta.
 
 1. Clique em **Enviar feedback aqui**, na parte inferior da página.
 1. Adicione seu feedback no espaço fornecido e clique em **Enviar**.
@@ -178,7 +180,7 @@ Você pode criar ou atualizar objetos no Workfront Planning usando o Planning De
 
 1. Clique em **Criar com IA**. <!--update this when they change it-->
 
-   A área **Configuração do Workspace** da janela **Designer do Planning** é aberta. <!--replace shot below when they rename the area to Planning Designer-->
+   A janela **Planning Designer** é aberta. <!--remove the Beta tag here when this removes from Beta-->
 
    ![Janela do Planning Designer](assets/planning-designer-window.png)
 
@@ -239,9 +241,3 @@ Para desativá-la:
 1. Clique em **Salvar**.
 
    Isso remove o Planning Designer para todos os usuários do sistema.
-
-
-
-
-
-

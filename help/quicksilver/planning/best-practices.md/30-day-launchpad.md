@@ -1,25 +1,27 @@
 ---
-title: 'A plataforma de lançamento de 30 dias: lançamento de sua casa estratégica'
+title: 'Implante sua página inicial estratégica: uma plataforma de lançamento de 30 dias'
 description: Saiba como implantar o Workfront Planning usando uma estratégia que priorize a segurança psicológica, minimize as interrupções e forneça ganhos rápidos.
 feature: Workfront Planning
-role: User, Admin
+role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
 
-# A plataforma de lançamento de 30 dias: implante sua casa estratégica
+# Implante sua casa estratégica: um lançamento de 30 dias
 
 {{planning-important-intro}}
 
 Use este guia para saber como implantar o Adobe Workfront Planning para projetar uma estratégia que priorize a segurança psicológica, minimize as interrupções e forneça ganhos rápidos.
+
+Este guia destina-se aos administradores do Workfront que estão implementando o Workfront Planning.
 
 ## Visão geral de como iniciar rapidamente e dimensionar de forma inteligente
 
@@ -27,13 +29,15 @@ O obstáculo mais comum para uma implantação bem-sucedida não é a tecnologia
 
 A plataforma de lançamento de 30 dias é criada com base no modelo de adoção &quot;team-first&quot;. Em vez de tentar uma implantação em toda a empresa que geralmente requer meses de coordenação, nos concentramos em uma abordagem descentralizada, liderada por equipes, que fornece ROI imediato em uma unidade funcional específica.
 
-## A transição em fases da autonomia
+## Usar autonomia guiada para obter uma transição em fases
 
-A implantação bem-sucedida de um produto usa autonomia guiada. Isso significa que o administrador define como as equipes devem trabalhar em um sistema estruturado de padrões e modelos controlados. Eles definem as &quot;pistas na estrada&quot; (padrões governados e templates), enquanto permitem que as equipes tenham flexibilidade para escolher sua própria aventura dentro deles.
+Para implantar um produto com sucesso, é inteligente usar autonomia guiada. Isso significa que, como administrador, você define como as equipes devem trabalhar em um sistema estruturado de padrões e modelos governados.
 
-Mais importante, a autonomia guiada é evolutiva. Em vez de impor uma taxonomia corporativa completa no primeiro dia, o administrador começa com definições globais mínimas com base nas necessidades da primeira equipe piloto.
+Você define as faixas na estrada (ou os padrões e modelos governados), enquanto permite que as equipes tenham flexibilidade para escolher seu próprio caminho de trabalho dentro delas.
 
-À medida que mais equipes são integradas, o administrador observa padrões comuns e itera nos padrões globais.
+Mais importante, a autonomia guiada deve ser evolutiva. Em vez de impor uma taxonomia corporativa completa no primeiro dia, você poderá começar com definições globais mínimas com base nas necessidades da primeira equipe piloto.
+
+À medida que mais equipes forem integradas, você poderá observar padrões comuns e iterar nos padrões globais.
 
 Como administrador, você não está entregando o controle, mas o dimensionando de forma inteligente com base no que realmente funciona.
 
@@ -50,71 +54,79 @@ Para ativar essa mudança evolucionária, faça o seguinte:
 
    Em ambos os caminhos, o objetivo é ir além da teoria e entrar em aplicação no mundo real o mais rápido possível, garantindo que a ferramenta seja usada para o trabalho estratégico real, em vez de permanecer apenas um exercício de sandbox.
 
-<!--left here-->
 
-## A linha do tempo de 30 dias: Seu &quot;momento relâmpago&quot;
+## Visão geral de um caminho de 30 dias para o seu momento inovador
 
 Uma implantação bem-sucedida é impulsionada pelo momentum. Esse cronograma de 30 dias leva você da configuração para a sua primeira vitória automatizada.
 
-
-
 ### Dias 1 a 10: a fundação da equipe
 
-Crie uma base estratégica estabelecendo uma **arquitetura leve de Hub-and-Spoke** desde o Dia 1. Embora uma taxonomia complexa em toda a empresa ainda não seja necessária, você deve criar imediatamente dois ambientes: um **Workspace de Classificação global** (o Hub) e seu primeiro **Team Workspace** (o Spoke).
+Criar uma base estratégica estabelecendo uma estrutura centralizada desde o início.
 
+Embora uma taxonomia complexa em toda a empresa ainda não seja necessária, você deve criar dois ambientes imediatamente. Por exemplo, ao adotar uma abordagem de arquitetura hub-and-spoke, você pode criar o seguinte:
 
+* Um **Espaço de trabalho de classificação global** (o hub): essa deve ser a estrutura e a nomenclatura gerais do seu sistema.
+* Um primeiro **espaço de trabalho da equipe** (o spoke): deve corresponder à abordagem de uma equipe individual para o trabalho.
 
-Essa arquitetura **Team-First** permite:
+Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
 
+Com essa arquitetura de equipe primária, você pode:
 
+* **Crie o hub para dar suporte ao spoke:** Você pode concentrar o espaço de trabalho de classificação global especificamente nos objetos que são mais importantes para a equipe piloto (suas Marcas ou Produtos específicos). Isso confirma o handshake colaborativo entre o controle corporativo e a autonomia da equipe, mantendo o esforço de design gerenciável.
 
-* **Crie o Hub para oferecer suporte ao Spoke:** Concentre o espaço de trabalho de classificação global especificamente nos objetos que são mais importantes para a equipe piloto (por exemplo, suas Marcas ou Produtos específicos). Isso confirma o **handshake colaborativo entre a governança corporativa e a autonomia da equipe**, mantendo o esforço de design gerenciável.
-
-* **Atue como um Habilitador, não como um Guardião:** Mude sua função de configuração de regras para criação de recursos. Faça parceria com a equipe do para estruturar seu ambiente de planejamento.
+* **Atue como um habilitador, não como um guardião:** Mude sua função de configuração de regras para criação de recursos. Faça parceria com a equipe do para estruturar seu ambiente de planejamento.
 
 * **Colaborar no design:** trabalhe diretamente com a equipe piloto para definir os tipos de registros e campos que refletem suas necessidades reais, não um ideal corporativo abstrato.
 
-* **Conectar estratégia para funcionar:** Habilite o vínculo entre seus registros de planejamento e o módulo de fluxo de trabalho.
+* **Conectar estratégia para funcionar:** Habilite o vínculo entre seus registros de planejamento e os objetos do Workfront.
 
-* **Espelhar dados atuais:** Use as ferramentas existentes da equipe (Excel/Core) para preencher o Workfront Planning, garantindo que os dados sejam familiares e relevantes.
+  Para obter informações, consulte [Visão geral dos tipos de registros conectados](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+* **Espelhar dados atuais:** Use as ferramentas existentes da equipe (por exemplo, Excel ou outros aplicativos principais) para preencher o Workfront Planning, garantindo que os dados pareçam familiares e relevantes.
 
 * **Criado para oferecer flexibilidade:** Lembre-se de que o Workfront Planning foi desenvolvido para evoluir. Você pode começar com processos em nível de equipe e facilmente elevá-los ou migrá-los para o controle de nível empresarial quando os negócios estiverem prontos.
 
+### Dia 15: o primeiro momento inovador
 
+Recomendamos que você deve almejar sua primeira vitória importante até o Dia 15. Esta deve ser a criação automática do projeto.
 
-### Dia 15: O primeiro &quot;momento relâmpago&quot;
+Para isso, você deve implementar o seguinte:
 
-Consiga sua primeira grande vitória no Dia 15: **criação automatizada de projeto**.
+1. Configure uma automação nativa que identifique um status &quot;Pronto para executar&quot;.
 
-* Configure uma automação nativa que detecte um status &quot;Pronto para executar&quot;.
+2. Acione a criação de um projeto vinculado no Workfront.
 
-* Acione a criação de um projeto vinculado no módulo de fluxo de trabalho.
+Para obter informações, consulte [Configurar automações do Adobe Workfront Planning](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
 
-* **O valor:** sua equipe vê sua intenção estratégica acionar automaticamente o trabalho de execução. Este &quot;momento relâmpago&quot; prova o valor da ponte e constrói buy-in.
+Isso garante que sua equipe veja sua intenção estratégica acionar automaticamente o trabalho de execução. Este momento inovador prova o valor da ponte entre a estratégia e o trabalho, e constrói a adesão.
 
+### Dias 16 a 30: Transição gradual para a escala corporativa
 
+Com o momento relâmpago alcançado, você pode mover o ponto de partida da equipe para o Workfront Planning.
 
-### Dias 16 a 30: transição gradual para a escala corporativa
+À medida que esse modelo de equipe principal é bem-sucedido, você inicia o caminho para o dimensionamento corporativo, identificando os padrões que funcionam.
 
-Com o &quot;momento relâmpago&quot; alcançado, mova o ponto de partida da equipe para o Workfront Planning. Como este modelo **Equipe-Primeiro** tem êxito, você inicia o caminho em direção à **Escala Empresarial** identificando os padrões que funcionam.
+Para mover da escala team-first para a enterprise, considere o seguinte:
 
+* **Introduza o formulário de entrada:** Use um formulário de solicitação como o novo gateway para solicitações estratégicas a fim de garantir a integridade dos dados.
 
+  Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-* **Introduza o formulário de entrada:** Use o formulário como o novo gateway para solicitações estratégicas para garantir a integridade dos dados.
-
-* **Observe e padronize:** use o Workspace principal para observar como a equipe piloto usa a ferramenta. Esses exemplos reais moldarão o seu eventual design empresarial.
+* **Observe e padronize:** use o espaço de trabalho de classificação global para observar como a equipe piloto usa a ferramenta. Esses exemplos reais moldarão o seu eventual design empresarial.
 
 * **Desativar planilhas herdadas:** Migre totalmente para o Workfront Planning à medida que o processo amadurece.
 
-* **Deslocar usuários avançados:** Use a **exibição de tabela** para o gerenciamento de planos diretos e de alta velocidade.
+* **Deslocar usuários avançados:** Use a exibição de tabela de registros para o gerenciamento de plano direto e de alta velocidade.
 
+  Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quicksilver/planning/views/manage-the-table-view.md).
 
+## Visão geral das métricas de sucesso da barra de inicialização
 
-## Métricas de sucesso da barra de inicialização
+Recomendamos que você procure constantemente marcadores de sucesso e se ajuste a partir de suas descobertas.
 
 Procure esses indicadores iniciais de saúde:
 
-* **Adoção:** os primeiros 5-10 registros estratégicos são vinculados com êxito a projetos de execução.
+* **Adoção:** os primeiros 5 a 10 registros estratégicos são vinculados com êxito a projetos de execução, e o processo de criação de registros e automatização da criação de projetos vinculados é simples e facilmente repetido.
 
 * **Defesa de interesses:** a equipe piloto começa a evangelizar a ferramenta para as equipes adjacentes.
 
@@ -122,33 +134,31 @@ Procure esses indicadores iniciais de saúde:
 
 * **Confiança:** as partes interessadas usam as linhas do tempo do Workfront Planning em vez das áreas de status manuais para revisões.
 
-
-
 ## Práticas recomendadas e dicas
 
+O sucesso da implementação depende da abordagem usada e das expectativas definidas desde o início.
 
+Veja a seguir algumas recomendações sobre como conduzir uma implementação bem-sucedida.
 
-### Faça:
+### Dos:
 
-* **Comece com uma equipe piloto entusiasmada.** Reconheça que uma implantação global é um aumento significativo. Concentre-se em uma POC com uma equipe ávida para inovar e fornecer um blueprint para outras pessoas.
+* **Comece com uma equipe piloto entusiasmada:** Confirme que uma implantação global é um aumento significativo. Concentre-se em uma prova de conceito com uma equipe ávida para inovar e fornecer um blueprint para outras pessoas.
 
-* **Definir faixas, não paredes.** Use a Autonomia Guiada para fornecer estrutura sem matar a exploração.
+* **Definir faixas, não paredes:** Use a autonomia guiada para fornecer estrutura sem matar a exploração.
 
-* **Priorizar a segurança psicológica.** Informe às equipes que as ferramentas herdadas permanecem até que elas se sintam confortáveis com o novo fluxo.
+* **Priorizar a segurança psicológica**: informe às equipes que as ferramentas herdadas permanecerão em vigor até que elas se familiarizem com o novo fluxo de trabalho.
 
-* **Comemore os ganhos rápidos.** Destaque a primeira criação de projeto automatizada para toda a equipe.
+* **Celebre vitórias rápidas:** Destaque a primeira criação de projeto automatizada para toda a equipe.
 
-* **Estabeleça um campeão.** Identifique um usuário avançado em cada equipe para liderar a transição.
-
-
+* **Estabeleça um campeão:** Identifique um usuário avançado em cada equipe para liderar a transição.
 
 ### Não:
 
-* **Não exigir alterações do tipo &quot;big bang&quot;.** Forçar todos a alternarem no Dia 1 causa culpa da tecnologia.
+* **Não exigir alterações em grande escala:** forçar todos a alternarem no primeiro dia causa culpa da tecnologia.
 
-* **Não ignore o &quot;porquê&quot;.** Certifique-se de que cada membro da equipe entenda como o thread estratégico torna seu trabalho mais visível.
+* **Não ignore o motivo:** Verifique se cada membro da equipe entende como o thread estratégico torna seu trabalho mais visível.
 
-* **Não espere pela perfeição.** Sua taxonomia evoluirá. Comece com seu melhor palpite e refine a medida que for.
+* **Não espere pela perfeição:** sua taxonomia evoluirá. Comece com seu melhor palpite e refine a medida que for.
 
 <!--
 
