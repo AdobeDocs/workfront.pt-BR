@@ -7,10 +7,10 @@ description: Para acessar os dados do Data Connect, primeiro você deve criar um
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 9cf221bda04614856a6a3670100742340fb73aee
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 0%
+source-wordcount: '630'
+ht-degree: 1%
 
 ---
 
@@ -39,7 +39,7 @@ Para obter informações sobre como usar uma conexão recém-criada com um produ
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Para criar uma conta de leitor:
 
 1. No painel esquerdo, clique em **Sistema** > **Conexão de Dados**.
 
-1. Clique no botão **Criar Conta do Reader** para começar a criar a conta de leitor de sua organização. O processo é automático, mas pode levar alguns minutos para ser concluído.
+1. Clique no botão **Criar Conta do Reader** para começar a criar a conta de leitor de sua organização. O processo é automático, mas pode levar até 24 horas para ser concluído.
 
 1. Uma vez concluída, uma janela de caixa de diálogo será exibida explicando que sua conta de leitor está ativa agora. Atualize a página do navegador para obter acesso ao botão **Criar nova conexão**.
 
