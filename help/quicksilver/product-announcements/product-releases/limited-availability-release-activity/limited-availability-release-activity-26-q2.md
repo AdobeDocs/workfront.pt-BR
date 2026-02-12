@@ -8,13 +8,13 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 7dca87a4f73fed9597f2a623b969569aa03cf5b3
+exl-id: 32c616b2-5bba-434e-9918-c27f6518693d
+source-git-commit: 56e5af94e0e98cf680db182f10143f5503e4260b
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 1%
 
 ---
-
 
 # Atividade da segunda versão do trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront
 
@@ -27,6 +27,22 @@ Para obter uma lista de todos os recursos de disponibilidade limitada lançados 
 ## Notas de versão para recursos de disponibilidade limitada
 
 Esta seção inclui as notas de versão da nova funcionalidade.
+
+### Experiência atualizada ao atribuir tarefas únicas ou em massa
+
+>[!NOTE]
+>
+>Data de lançamento da produção: 12 de fevereiro de 2026
+
+Atualizamos a seção Atribuições na caixa Editar tarefas ao editar tarefas únicas ou editá-las em massa.
+
+Há uma nova experiência para atribuir recursos a tarefas. Isso agora está disponível ao editar uma tarefa ou ao editar várias tarefas em massa. Adicionamos os seguintes campos à seção Atribuições:
+
+* Alocações
+* Proprietário ou proprietário da tarefa
+* Função do atribuidor
+
+Para obter informações, consulte [Editar tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
 <!--### Title
 
@@ -41,19 +57,19 @@ text
 
 Esta seção descreve os problemas corrigidos nas atualizações semanais do Workfront para os recursos de disponibilidade limitada.
 
-<!--### Maintenance Updates week of January 18-24, 2026
+<!--### Maintenance Updates week of February 8-14, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of January 25-31, 2026
+### Maintenance Updates week of February 15-21, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of February 1-7, 2026
+### Maintenance Updates week of February 22-28, 2026
 
 **Title**
 
