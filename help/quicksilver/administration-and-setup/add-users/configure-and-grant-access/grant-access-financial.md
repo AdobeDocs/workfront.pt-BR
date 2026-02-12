@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 0%
+source-wordcount: '823'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Como administrador do Adobe Workfront, você pode definir o acesso de um usuári
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Como administrador do Adobe Workfront, você pode definir o acesso de um usuári
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-    <p>Standard</p>
+    <p>Padrão</p>
    <p>Plano</p>
    </td> 
   </tr> 
@@ -58,6 +58,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Considere o seguinte ao conceder aos usuários acesso a dados financeiros no Workfront:
 
+* Um usuário cujo nível de acesso não permite acesso a dados financeiros não pode conceder acesso que permitiria que outros visualizassem dados financeiros. Isso inclui conceder acesso a projetos que mostrariam dados financeiros ou modificar um nível de acesso para permitir a exibição de dados financeiros.
 * Um usuário cujo nível de acesso não permite acesso a dados financeiros não pode criar um risco para um projeto. Para obter mais informações, consulte [Criar e editar riscos em projetos](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * Você também pode usar um nível de acesso para determinar quais atividades de Gerenciamento de recursos um usuário pode empregar para fazer um orçamento ou exibir a alocação de recursos. Para obter informações, consulte [Conceder acesso ao Gerenciamento de Recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
