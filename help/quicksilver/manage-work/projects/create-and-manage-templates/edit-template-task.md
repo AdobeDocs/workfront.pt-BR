@@ -7,7 +7,7 @@ description: Após criar um modelo, você pode editar as informações sobre as 
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: e812338b1f20c6f8dc8679afe3215dbecc8ffc60
+source-git-commit: e186b4aa0b5c229015cf8f3dcd8993f8f0443c44
 workflow-type: tm+mt
 source-wordcount: '2958'
 ht-degree: 5%
@@ -404,7 +404,7 @@ Os nomes dos formulários de alfândega são exibidos somente se houver formulá
    </tr> 
    </tbody> 
    </table>
-1. Passe o mouse sobre o nome de um destinatário e clique em Tornar primário. Este será o Proprietário da futura tarefa do projeto.
+1. Passe o mouse sobre o nome de um destinatário e clique em **Tornar primário**. Este será o **Proprietário** da futura tarefa de projeto.
 
    >[!TIP]
    >

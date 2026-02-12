@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+source-git-commit: 5a725e747e8776a867cb0dc4129544f6a28ce8e0
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1420'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Como gerenciador de espaço de trabalho, você pode configurar um tipo de regist
 
 Um gerenciador de espaço de trabalho pode adicionar um tipo de registro global a um espaço de trabalho gerenciado por ele. Os campos originais do tipo de registro também são adicionados ao espaço de trabalho secundário.
 
-Os usuários podem adicionar registros a um tipo de registro global de qualquer espaço de trabalho ao qual tenham permissões do Contribute e ao qual o tipo de registro global seja adicionado, incluindo seu espaço de trabalho original. Eles podem exibir registros de espaços de trabalho para os quais têm somente permissões de Exibição.
+Os usuários podem adicionar registros a um tipo de registro global de qualquer espaço de trabalho ao qual tenham permissões do Contribute e ao qual o tipo de registro global seja adicionado, incluindo seu espaço de trabalho original. Eles podem exibir registros de espaços de trabalho para os quais têm somente permissões de Exibição do espaço de trabalho principal do tipo de registro global.
 
 Para obter mais informações, consulte [Visão geral dos tipos de registro entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
