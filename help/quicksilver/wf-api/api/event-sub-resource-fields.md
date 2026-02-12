@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 509b3454344d3775172b899e3bd4559416f54adc
+source-git-commit: 11fe205b9590b6f8330e0923bbe47d2ed693cf16
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 9%
+source-wordcount: '1050'
+ht-degree: 11%
 
 ---
 
@@ -2546,6 +2546,11 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
    <td> </td> 
    <td> </td> 
    <td>parameterValues</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>preserveBilling</td> 
   </tr> 
   <tr> 
    <td> </td> 
