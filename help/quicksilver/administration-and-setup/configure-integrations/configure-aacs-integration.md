@@ -6,10 +6,10 @@ description: Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experien
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: 315428ec517b3a6c0edae387b3a866093a49a2b2
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 0%
+source-wordcount: '1713'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,7 @@ Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experience Manager As
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table>
   <tr>
@@ -50,7 +50,7 @@ Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experience Manager As
     <tr>
    <td>Licenças do Adobe Workfront
    </td>
-   <td>Standard
+   <td>Padrão
    <p>Plano</p>
    </td>
   </tr>
@@ -58,7 +58,7 @@ Você pode conectar seu trabalho ao seu conteúdo no [!DNL Experience Manager As
     <tr>
    <td>Licenças do Adobe Experience Manager
    </td>
-   <td>Standard
+   <td>Padrão
    </td>
   </tr>
   <tr>
@@ -122,7 +122,7 @@ Antes de começar a mapear campos de metadados, você deve configurar campos de 
 
 Para configurar campos de metadados:
 
-1. Configure um esquema de metadados em [!DNL Experience Manager Assets] conforme explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Configure um esquema de metadados em [!DNL Experience Manager Assets] conforme explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Configure campos de formulário personalizados no Workfront. [!DNL Workfront] tem muitos campos personalizados internos que você pode usar. No entanto, você também pode criar seus próprios campos personalizados, conforme explicado em [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -152,7 +152,7 @@ Você pode mapear qualquer campo compatível com o Workfront para uma tag no Exp
 
 Depois de criar as tags na Experience Manager Assets, elas aparecerão no menu suspenso Tags na seção Metadados. Para vincular um campo a uma marca, selecione `xcm:keywords` na lista suspensa de campos do Experience Manager Assets na área de mapeamento de metadados.
 
-Para obter mais informações sobre tags na Experience Manager Assets, incluindo como criar e gerenciar tags, consulte [Administração de Tags](https://experienceleague.adobe.com/pt-br/docs/experience-manager-64/administering/contentmanagement/tags).
+Para obter mais informações sobre tags na Experience Manager Assets, incluindo como criar e gerenciar tags, consulte [Administração de Tags](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Campos de esquema de metadados personalizados do Experience Manager Assets**
 
@@ -285,11 +285,15 @@ Os seguintes fluxos de trabalho estão disponíveis na integração do Adobe Exp
 
 1. Clique em **[!UICONTROL Salvar]** ou vá para a seção [Publicar ativos enviados para o Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) neste artigo.
 
+
 >[!NOTE]
 >
->* Essa integração criará no máximo 100 pastas, independentemente de quantas árvores de pastas forem criadas. Por exemplo, uma integração com quatro árvores de pastas pode criar até 100 pastas, não 400 pastas.
->* A primeira pasta na árvore de pastas é marcada automaticamente como vinculada ao Workfront. Se não quiser que essa pasta seja vinculada, desvincule-a.
+>* A Integração Nativa do Workfront AEM pode criar **no máximo 100 pastas por projeto por integração**, independentemente de quantas árvores de pastas estejam incluídas.
+>   * Exemplo: uma integração com quatro árvores de pastas em um único projeto pode criar até 100 pastas no total, não 400.
+>* A primeira pasta em cada árvore de pastas é marcada automaticamente como vinculada ao Workfront. Se não quiser que essa pasta seja vinculada, desvincule-a.
 >* Se nenhuma árvore de pastas for fornecida, a pasta raiz se tornará a pasta vinculada.
+
+
 
 
 ### Publicar ativos enviados para o Adobe Experience Manager Assets
