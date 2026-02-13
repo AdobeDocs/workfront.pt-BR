@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: f55ab45a7c11a4f0e4cdbe65ea890ba452b9bbba
+source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,10 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 >[!NOTE]
 >
 >Visualização: 29 de janeiro de 2026
->Versão rápida de produção: 12 de fevereiro de 2026\
+>Versão rápida de produção: 12 de fevereiro de 2026
 >Produção para todos: 16 de abril de 2026
+>
+>Esse recurso foi removido temporariamente do ambiente de Produção do em 13 de fevereiro de 2026.
 
 O novo tipo de campo **Rich text** em formulários personalizados é um editor de texto robusto, com opções de formatação como sobrescrito e subscrito, cabeçalhos e tabelas, além das opções tradicionais de negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas duplas. O limite de caracteres permanece de 15.000.
 

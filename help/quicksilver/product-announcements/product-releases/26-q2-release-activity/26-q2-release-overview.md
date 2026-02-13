@@ -4,9 +4,10 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
+exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
+source-git-commit: 9160a68653999c35de32dd417b18ea8197ef446f
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '866'
 ht-degree: 4%
 
 ---
@@ -58,7 +59,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">O tipo de campo Rich Text agora está disponível em formulários personalizados</a><p>O novo tipo de campo <b>Rich text</b> em formulários personalizados é um editor de texto robusto, com opções de formatação como sobrescrito e subscrito, cabeçalhos e tabelas, além das opções tradicionais de negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas duplas. O limite de caracteres permanece de 15.000.</p>
         </td>
         <td><p>sexta-feira, 29 de janeiro de 2026</p></td>
-        <td><p>sexta-feira, 12 de fevereiro de 2026</p></td>
+        <td><p>sexta-feira, 12 de fevereiro de 2026</p>
+            <p>Esse recurso foi removido temporariamente do ambiente de Produção do em 13 de fevereiro de 2026.</p></td>
         <td><p>sexta-feira, 16 de abril de 2026</p></td>
     </tr>
     <tr>
@@ -209,12 +211,12 @@ Para fornecer integrações mais estáveis e escaláveis, estamos mudando para u
 * Workfront para Salesforce.
 
 Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Google Workspace.
-Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 
 ### Atualizações de manutenção do Workfront
 
-Para obter informações sobre as atualizações de manutenção feitas durante a versão do Segundo trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+Para obter informações sobre as atualizações de manutenção feitas durante a versão do Segundo trimestre de 2025, consulte [Atualizações de manutenção do Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Atualizações de treinamento
 
