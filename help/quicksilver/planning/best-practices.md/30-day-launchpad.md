@@ -5,12 +5,10 @@ feature: Workfront Planning
 role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -122,7 +120,7 @@ Para mover da escala team-first para a enterprise, considere o seguinte:
 
 ## Visão geral das métricas de sucesso da barra de inicialização
 
-Recomendamos que você procure constantemente marcadores de sucesso e se ajuste a partir de suas descobertas.
+Recomendamos que você procure constantemente marcadores de sucesso e se ajuste com base em suas descobertas.
 
 Procure esses indicadores iniciais de saúde:
 

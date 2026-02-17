@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d60123df6e18025a886809fa390137bdf9287e6e
+exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -146,7 +147,7 @@ Para obter mais informações sobre como configurar as exibições de conexão d
 
 >[!IMPORTANT]
 >
->Isso foi removido temporariamente dos ambientes de Pré-visualização e Produção.
+>Isso foi removido temporariamente dos ambientes de Pré-visualização e Produção entre 20 de janeiro e 17 de fevereiro de 2026.
 
 >[!NOTE]
 >
@@ -300,9 +301,3 @@ Considere o seguinte com esta melhoria:
 * Os valores de escolha são exibidos em minúsculas e são separados por sublinhados no caso de opções de várias palavras. Se você usar um rótulo já usado como outro nome de opção para o mesmo campo, o Workfront adicionará um número sequencial ao valor.
 
 Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
-
-
-
-
-
-

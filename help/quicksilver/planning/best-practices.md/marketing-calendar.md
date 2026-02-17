@@ -1,156 +1,126 @@
 ---
-title: O calendário de marketing que você está perdendo
-description: Crie um ambiente de um único local no Adobe Workfront Planning, onde a estratégia e a execução se reúnam adicionando um calendário de campanha que não toque no trabalho de produção, para que você possa visualizar a campanha com clareza
+title: 'Crie seu calendário de marketing: sem apresentação, apenas clareza'
+description: Crie um ambiente de um único local no Adobe Workfront Planning, onde a estratégia e a execução se reúnam adicionando um calendário de campanha que não afete o trabalho de produção, para que você possa visualizar campanhas com clareza.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: e95ca8a2-6261-4f04-8c7c-1a0bfb1925f3
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
 
-# O calendário de marketing que você perdeu: sem baralhos, apenas clareza
+# Crie seu calendário de marketing: sem baralhos, apenas clareza
 
 {{planning-important-intro}}
 
-Toda semana, as equipes de marketing perdem um dia inteiro — não para estratégia ou trabalho criativo, mas para relatórios.
+Toda semana, as equipes de marketing perdem um dia inteiro para gerar relatórios, não para estratégia ou trabalho criativo.
 
-A maioria das organizações de marketing gasta 20% ou mais de sua semana de trabalho, aproximadamente um dia inteiro, apenas relatando o que estão fazendo. Não melhorar campanhas. Não moldando estratégia. Montando apenas atualizações. Como resultado, a visibilidade é manual, exaustiva e quase sempre inativa na chegada — presa entre planilhas e slides desconectados que ficam obsoletos no momento em que são enviados.
+A maioria das organizações de marketing gasta 20% ou mais de sua semana de trabalho, aproximadamente um dia inteiro, apenas relatando o que estão fazendo. Em vez de trabalhar para melhorar campanhas ou moldar estratégias, eles estão apenas reunindo atualizações.
 
+Como resultado, a visibilidade é manual, exaustiva e muitas vezes inexistente, ou presa entre planilhas e slides desconectados que ficam obsoletos no momento em que são enviados.
 
+Com o Adobe Workfront Planning, é possível criar um ambiente de local único onde a estratégia e a execução se reúnem adicionando um calendário de campanha que não afete o trabalho de produção, para que você possa visualizar campanhas com clareza.
 
-## O Custo Oculto do &quot;Planejamento de Sombra&quot;
+## O custo oculto do planejamento de sombra
 
+Como líder de marketing ou gerente de projeto, você conhece bem essa tensão: a estratégia fica em um lugar, enquanto a visibilidade fica em outro lugar completamente. De acordo com a Forrester, 63% das organizações ainda dependem de planilhas para orçamento e planejamento, bloqueando informações críticas dentro de arquivos em silos.
 
-
-Os líderes de marketing e gerentes de projeto conhecem bem essa tensão: a estratégia está localizada em um lugar, enquanto a visibilidade está totalmente em outro lugar. De acordo com a Forrester, 63% das organizações ainda dependem de planilhas para orçamento e planejamento, bloqueando informações críticas dentro de arquivos em silos.
-
-
-
-Essa lacuna cria o que muitas equipes aceitam silenciosamente como normal: o planejamento de sombra. É o trabalho invisível e ad-hoc feito fora do sistema apenas para manter a liderança informada. E quando a visibilidade é manual, está sempre atrás da realidade.
-
-
+Essa lacuna cria o que muitas equipes aceitam calmamente como normal: o planejamento de sombra, que é o trabalho invisível e ad-hoc feito fora do sistema apenas para manter a liderança informada. E quando a visibilidade é manual, está sempre atrás da realidade.
 
 Os dados contam a história:
 
-* **58% das equipes de marketing** criam relatórios de rotina manualmente em planilhas
+* 58% das equipes de marketing criam relatórios de rotina manualmente em planilhas
 
-* **65% e transponha esses relatórios** em slides para a liderança
-
-
+* 65% e, em seguida, transpor esses relatórios para os slides para liderança
 
 O resultado é previsível: esforço duplicado, caos no controle de versão e horas gastas mantendo artefatos que ficam imediatamente desatualizados.
 
+## Crie um único local onde a estratégia e a execução se encontram
 
+O Workfront Planning oferece às equipes algo que a maioria das organizações de marketing não tem: uma Página inicial estratégica.
 
-## Um único local onde a estratégia e a execução se encontram
+É um calendário de campanha unificado e disponível em que o planejamento e a execução finalmente convergem, sem tocar no trabalho de produção. Pense nele como um parque de diversões seguro - um local para explorar, testar e visualizar a estratégia da campanha com clareza.
 
+## O que muda quando a visibilidade é integrada
 
+As subseções a seguir exploram os benefícios do que acontece quando você cria visibilidade em seus processos.
 
-O Workfront Planning oferece às equipes algo que a maioria das organizações de marketing não tem: uma casa estratégica.
+### Interromper o ciclo de status-reunião
 
+Não há mais decks de linha do tempo manuais. Pesquisas mostram que 87% dos profissionais de marketing citam os &quot;dados de triagem&quot; como seu principal desperdício de tempo. Quando as atualizações ocorrem automaticamente à medida que o trabalho avança, o status deixa de ser um item da agenda da reunião e se torna um recurso do produto.
 
+### Tornar o contexto da campanha óbvio
 
-É um calendário de campanha unificado e dinâmico, no qual o planejamento e a execução finalmente convergem, sem tocar no trabalho de produção. Pense nele como um parque de diversões seguro: um local para explorar, testar e visualizar a estratégia da campanha com verdadeira clareza.
+O trabalho do Creative não flutua mais isoladamente. As equipes podem ver como os esforços individuais são dimensionados para o roteiro mais amplo da campanha sem navegar pelas pastas ou buscar atualizações.
 
+Com visibilidade em tempo real, você pode gastar 70% do seu tempo focado no que vem a seguir, sem contar o que já aconteceu.
 
+### Explorar com segurança
 
-## O que muda quando a visibilidade é incorporada
+Como a plataforma pode usar dados de amostra, as equipes podem experimentar com visualizações, filtros e outras estruturas sem arriscar cronogramas de produção reais.
 
+## Torne-se um estrategista
 
+Quando as horas gastas em relatórios chegam a você, seu papel muda basicamente. Você deixa de ser a pessoa que documenta o trabalho para ser a pessoa que o dirige.
 
-### O ciclo de status da reunião é interrompido
+Essa mudança de papel é como você deixa de ser historiador para se tornar um estrategista.
 
-Não há mais decks de linha do tempo manuais. Pesquisas mostram que 87% dos profissionais de marketing citam os &quot;dados de triagem&quot; como seu principal desperdício de tempo. Quando as atualizações ocorrem automaticamente à medida que o trabalho avança, o status deixa de ser um item da agenda da reunião — e se torna um recurso do produto.
+### Pare de ser historiador
 
+No modelo tradicional, as equipes de marketing geralmente gastam 70% de suas reuniões de status contando o que já aconteceu. Quando um conjunto de slides é concluído, os dados já são históricos; é um instantâneo de um passado que já foi alterado. Você está efetivamente atuando como historiador, compilando manualmente registros de trabalho que já está se movendo sem você.
 
+### Começar a operar como estrategista
 
-### O contexto da campanha se torna óbvio
+Com um calendário unificado, os dados estão sempre ao vivo, o que inverte a cadência das reuniões: a liderança pode gastar 70% do seu tempo no que vem a seguir.
 
-O trabalho do Creative não flutua mais isoladamente. As equipes podem ver como os esforços individuais avançam para o roteiro mais amplo da campanha sem pesquisar pastas ou procurar atualizações. Com visibilidade ao vivo, os líderes podem gastar 70% de seu tempo focados no que vem a seguir, sem contar o que já aconteceu.
+Você passa de reportar a notícia para fazer a notícia. Você se concentra em estratégia, saída criativa e otimização de campanha.
 
+Essa mudança estratégica baseia-se nos três pilares principais de visibilidade ao vivo a seguir descritos:
 
-
-### Exploração se torna segura
-
-Como a plataforma pode usar dados de amostra, as equipes podem experimentar com visualizações, filtros e estruturas, sem arriscar cronogramas de produção reais.
-
-
-
-## Do Historiador ao Estrategista
-
-
-
-Quando as horas gastas em relatórios chegam a você, seu papel muda basicamente. Você deixa de ser a pessoa que *documenta* o trabalho para ser a pessoa que *dirige* o trabalho.
-
-
-
-### Pare de ser um &quot;Historiador&quot;
-
-No modelo tradicional, as equipes de marketing geralmente gastam 70% de suas reuniões de status contando o que já aconteceu. Quando um conjunto de slides é concluído, os dados já são históricos — um instantâneo de um passado que já foi alterado. Você está efetivamente atuando como historiador, compilando manualmente registros de trabalho que já está se movendo sem você.
-
-
-
-### Comece a operar como um &quot;Estrategista&quot;
-
-Com um calendário unificado, os dados são sempre em tempo real, o que inverte a cadência da reunião: a liderança pode gastar **70% de seu tempo no &quot;o que vem a seguir&quot;.** Você pode mudar das notícias para as notícias, com foco na estratégia, na produção criativa e na otimização de campanha.
-
-
-
-Essa mudança estratégica se baseia em três pilares centrais de visibilidade ao vivo:
-
-
-
-* **Visibilidade total:** veja todas as campanhas da empresa em uma única visualização ao vivo, eliminando a dificuldade familiar de reunir uma &quot;imagem completa&quot; de sistemas desconectados.
+* **Visibilidade total:** veja todas as campanhas em toda a empresa em uma única visualização ao vivo, eliminando a dificuldade familiar de reunir uma imagem completa de sistemas desconectados.
 
 * **Velocidade operacional:** os riscos e as oportunidades aparecem mais cedo. Quando o insight flui continuamente, a velocidade se torna uma vantagem competitiva, não um gargalo. Você não espera que a revisão semanal gire; você ajusta no momento.
 
-* **Confiança estratégica**: trabalhe com dados dinâmicos, precisos e sem ruídos. Os analistas que não são sobrecarregados por integrações manuais têm quase 4 vezes mais chances de confiar na precisão de seus dados (Forrester Research). Essa confiança é a base para tomar decisões ousadas e informadas por dados.
+* **Confiança estratégica**: trabalhe com dados dinâmicos, precisos e sem ruídos. De acordo com a Forrester Research, analistas que não são sobrecarregados por integrações manuais têm quase quatro vezes mais chances de confiar na precisão de seus dados.
 
+Essa confiança é a base para tomar decisões ousadas e informadas por dados.
 
+## Introdução ao calendário de marketing
 
-## Introdução
+O Workfront Planning está disponível para clientes pagantes e é ativado por meio da configuração administrativa. Isso significa que o Administrador do sistema controla o acesso à plataforma.
 
+Se sua organização já usa o Adobe Workfront, a introdução ao Workfront Planning normalmente começa com uma conversa sobre a ativação do Planning no seu ambiente existente. Se você ainda não for um cliente do, o primeiro passo é explorar se o Planning é a opção certa para sua organização.
 
+Se o relatório manual estiver drenando sua equipe, inicie a conversa. Fale com o administrador do Workfront sobre como ativar o Workfront Planning ou entre em contato com a Adobe para saber como o Planning pode trazer clareza em tempo real à sua estratégia de campanha.
 
-O Workfront Planning está disponível para clientes pagantes e é habilitado por meio da configuração administrativa, ou seja, **o acesso de controle de Administradores do Sistema**. Se sua organização já usa o Adobe Workfront, a introdução geralmente começa com uma conversa sobre a ativação do Planning no seu ambiente existente. Se você ainda não for um cliente do, a primeira etapa é explorar se o Planning é a opção certa para sua organização.
-
-
-
-**Sua jogada:** Se os relatórios manuais estiverem esgotando sua equipe, inicie a conversa. Fale com o administrador do sistema sobre como ativar o Workfront Planning ou entre em contato com a Adobe para saber como o Planning pode trazer clareza em tempo real à sua estratégia de campanha.
-
-
+Se você viu o Workfront Planning ou já o comprou e deseja começar a explorá-lo, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Práticas recomendadas para torná-lo aderente
 
+### Dos
 
+* **Crie um momento relâmpago:** Mostre liderança em uma pulsação em tempo real de uma campanha conduzindo suas reuniões na mesma exibição de calendário usada para criar sua estratégia. Geralmente, uma única visualização em tempo real é tudo o que é necessário para redefinir as expectativas.
 
-### Fazer
-
-* **Criar um momento relâmpago:** Mostrar liderança um pulso de campanha em tempo real. Geralmente, uma única visualização em tempo real é tudo o que é necessário para redefinir as expectativas.
-
-* **Proteja a camada sem ruído:** Use o Planning para saber o porquê e o quê. Deixe o fluxo de trabalho do Workfront lidar com como.
+* **Proteja a camada sem ruído:** Use o Planning para saber o porquê e o quê. Deixe a Workfront lidar com o como.
 
 * **Comemore o fim do plano:** cada hora recuperada dos relatórios manuais é uma hora reinvestida no crescimento estratégico.
-
-
 
 ### Não
 
 * **Não criar planos de status manuais:** Se você estiver atualizando um slide manualmente, os dados já estarão desatualizados.
 
-* **Não ignore o trabalho de sombra:** Identifique onde os relatórios residem fora do sistema e coloque-os no Planning.
+* **Não ignore o trabalho de sombra:** Identifique onde os relatórios residem fora do sistema e os traga para o Planning.
 
-* **Não espere por uma crise:** Estabeleça sua casa estratégica antes que a visibilidade se torne urgente.
+* **Não espere por uma crise:** Estabeleça sua Página Inicial estratégica antes que a visibilidade se torne urgente.
 
 
 <!--
+
+# The marketing calendar you've been missing: no decks, just clarity
 
 Every week, marketing teams lose a full day—not to strategy or creative work, but to reporting. 
 

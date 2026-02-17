@@ -3,13 +3,13 @@ title: Introdução à Avaliação Gratuita do Adobe Workfront Planning
 description: A Adobe Workfront está oferecendo uma versão de avaliação gratuita de 60 dias do Adobe Workfront Planning. Esta versão de avaliação é a sua oportunidade de ver como o Planning conecta a estratégia de visão geral com o trabalho diário que a torna realidade. O planejamento oferece visibilidade centralizada no ciclo de vida de marketing, permitindo uma melhor colaboração entre equipes, rastreamento de campanhas em tempo real e fluxos de trabalho automatizados. Você pode criar espaços de trabalho personalizados e visualizar trabalhos com linhas do tempo e calendários interativos. Com esta avaliação, você verá em primeira mão como o Planning ajuda a alinhar o trabalho diário com objetivos estratégicos, simplificar a execução e gerar resultados mensuráveis para sua organização.
 hidefromtoc: true
 hide: true
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---
-
 
 <!--add at release to the metadata:
 author: Alina
@@ -154,6 +154,12 @@ Para revisar e aceitar o contrato legal, siga um destes procedimentos:
 
       Para obter as práticas recomendadas sobre o uso do Workfront Planning, consulte [Práticas recomendadas do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md).
 
+## Informações adicionais sobre o Workfront Planning
+
+Para obter informações gerais sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+
+Para obter as práticas recomendadas sobre como implementar o Workfront Planning, consulte [Práticas recomendadas do Adobe Workfront Planning: índice do artigo](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+
 ## Permissões para dados do Workfront Planning durante a avaliação gratuita
 
 * **Entre 2 de março e 1 de maio de 2026**:
@@ -169,7 +175,3 @@ Para revisar e aceitar o contrato legal, siga um destes procedimentos:
 * **Após 1º de maio de 2026:**
 
   Todos os usuários do sistema têm o acesso ao Workfront Planning removido e o Workfront protege seus dados.
-
-
-
-

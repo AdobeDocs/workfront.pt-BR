@@ -5,10 +5,8 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 52bf41e146a11a4af4fbebfe5bb20a9765f2bc7b
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 0%
@@ -97,7 +95,7 @@ Para organizações com solicitações de alto volume ou necessidades de automa�
 
 Você precisará de uma licença do Adobe Workfront Fusion para essa abordagem.
 
-Para obter mais informações, consulte [Configurar e gerenciar o Workfront Fusion: índice do artigo](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Para obter mais informações, consulte [Configurar e gerenciar o Workfront Fusion: índice do artigo](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **Usar disparadores de envio:** Como os formulários fornecem um evento de envio único e limpo, eles podem ser usados como disparadores para automações do Fusion. Um cenário de Fusão pode detectar um envio de formulário e gerar imediatamente um projeto vinculado no Workfront.
 

@@ -5,22 +5,20 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+exl-id: 699bc34b-98c8-4620-9fdc-992d1ab9f501
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # Práticas recomendadas do Adobe Workfront Planning: índice do artigo
 
 Nos artigos a seguir, aprenda dicas sobre como implantar o Adobe Workfront Planning em sua organização usando uma estratégia que priorize a segurança, minimize as interrupções e forneça ganhos rápidos.
 
-* [A plataforma de lançamento de 30 dias: implante sua casa estratégica](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md)
-* [A arquitetura do sucesso: modelar a hierarquia da campanha](/help/quicksilver/planning/best-practices.md/model-campaign-hierarchy.md)
-* [O calendário de marketing que você perdeu: sem baralhos, apenas clareza](/help/quicksilver/planning/best-practices.md/marketing-calendar.md)
-* [Manual: dimensionamento gerenciado, após a primeira vitória](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md)
-* [A ponte: conectando intenção estratégica a projetos](/help/quicksilver/planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
+* [Implante sua casa estratégica: um lançamento de 30 dias](/help/quicksilver/planning/best-practices.md/30-day-launchpad.md)
+* [Arquiteto do seu sucesso: modelagem da hierarquia de campanhas](/help/quicksilver/planning/best-practices.md/model-campaign-hierarchy.md)
+* [Crie seu calendário de marketing: sem baralhos, apenas clareza](/help/quicksilver/planning/best-practices.md/marketing-calendar.md)
+* [Construir a ponte: conectando intenção estratégica a projetos](/help/quicksilver/planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
+* [Transforme sua primeira vitória em um impulso sustentável: um manual para dimensionamento gerenciado](/help/quicksilver/planning/best-practices.md/playbook-how-to-scale.md)

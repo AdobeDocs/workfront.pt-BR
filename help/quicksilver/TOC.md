@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
+source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
 workflow-type: tm+mt
-source-wordcount: '13769'
+source-wordcount: '13772'
 ht-degree: 2%
 
 ---
@@ -2111,11 +2111,11 @@ ht-degree: 2%
       * [Introdução à avaliação gratuita do Adobe Workfront Planning](planning/general/trial-workfront-planning.md)
    * Práticas recomendadas do Adobe Workfront Planning {#adobe-workfront-planning-best-practices}
       * [práticas recomendadas do Adobe Workfront: índice de artigos](planning/best-practices.md/best-practices-article-index.md)
-      * [A plataforma de lançamento de 30 dias: implante sua casa estratégica](planning/best-practices.md/30-day-launchpad.md)
-      * [A arquitetura do sucesso: modelar sua hierarquia de campanha](planning/best-practices.md/model-campaign-hierarchy.md)
-      * [O calendário de marketing que você perdeu: sem baralhos, apenas clareza](planning/best-practices.md/marketing-calendar.md)
-      * [Manual: dimensionamento gerenciado, após a primeira vitória](planning/best-practices.md/playbook-how-to-scale.md)
-      * [A ponte: conectando intenção estratégica a projetos](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
+      * [Implante sua casa estratégica: um lançamento de 30 dias](planning/best-practices.md/30-day-launchpad.md)
+      * [Arquiteto do seu sucesso: modelagem da sua hierarquia de campanhas](planning/best-practices.md/model-campaign-hierarchy.md)
+      * [Crie seu calendário de marketing: sem baralhos, apenas clareza](planning/best-practices.md/marketing-calendar.md)
+      * [Transforme sua primeira vitória em um impulso sustentável: um manual para dimensionamento gerenciado](planning/best-practices.md/playbook-how-to-scale.md)
+      * [Construir a ponte: conectando intenção estratégica a projetos](planning/best-practices.md/the-bridge-connect-strategy-with-projects.md)
    * Arquitetura de planejamento do Adobe Workfront {#adobe-workfront-planning-architecture}
       * [Arquitetura: índice de artigos](planning/architecture/architecture-information.md)
       * [Visão geral dos espaços de trabalho](planning/architecture/workspaces-overview.md)
