@@ -5,9 +5,9 @@ description: As listas aprimoradas usam um formato de tabela para exibir os iten
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: b935f3013c1be670dea834c041e02165f0e7047c
+source-git-commit: ee5bb3cbf6a69b85c3d6b87500164f85a1ba114a
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1617'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 
 >[!NOTE]
 >
->Esta lista não é abrangente. Cada uma dessas listas de objetos também pode aparecer em um relatório ou painel. Por exemplo, um relatório de Projeto ou um painel que contém um relatório de Projeto também exibe uma lista de projetos.
+>Esta lista não é abrangente. Cada uma dessas listas de objetos também pode aparecer em um relatório ou painel. Por exemplo, um relatório de Solicitação ou um painel que contém um relatório de Solicitação também exibe uma lista de solicitações.
 
 | lista do Workfront | Local da lista de objetos |
 |--- |--- |
@@ -61,14 +61,17 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 | Lista de solicitações | <ul><li>Solicitações (somente nova experiência)</li><li>Widget Minhas solicitações na página inicial</li></ul> |
 | Listas de status, prioridades, severidades e taxas de câmbio em Configuração | <ul><li>Configuração > Preferências do Projeto > Status</li><li>Configuração > Preferências do Projeto > Prioridades</li><li>Configuração > Preferências do Projeto > Severidades</li><li>Configuração > Preferências do Projeto > Taxas de Câmbio</li></ul> |
 
-## Adicionar e editar itens em uma lista aprimorada
+## Adicionar itens a uma lista aprimorada
 
-Dependendo da configuração da lista aprimorada, pode haver duas maneiras de adicionar um item à lista:
+Dependendo da lista aprimorada que você estiver visualizando, execute um dos procedimentos a seguir:
 
-* Clique em um botão acima da lista. Essa opção abre uma caixa de diálogo onde você insere informações e as salva.
-* Clique em **Nova linha** na parte inferior da lista. Essa opção adiciona uma nova linha à tabela e você insere informações em cada célula.
+1. Clique no botão azul no canto superior direito da lista. Essa opção abre uma caixa de diálogo onde você pode inserir informações. Os dados são salvos como uma nova linha na tabela.
 
-  As listas aprimoradas são compatíveis com estes tipos de campo:
+   OR
+
+1. Clique em **Nova linha** na parte inferior da lista. Essa opção adiciona uma nova linha à tabela. Clique duas vezes em uma célula para inserir informações nela. Cada célula representa um campo para o item de lista. Os campos devem existir antes de você vê-los na lista.
+
+   As listas aprimoradas são compatíveis com estes tipos de campo:
 
    * Texto
    * Número
@@ -81,50 +84,56 @@ Dependendo da configuração da lista aprimorada, pode haver duas maneiras de ad
    * Destinatário (um ou vários)
    * Seletor de cores
 
-  Ao editar uma célula, cada tipo de campo tem suas próprias opções de edição.
-
-Para editar um item na lista, clique duas vezes na célula que deseja editar e digite as informações. Algumas células podem ser somente leitura.
+   >[!NOTE]
+   >
+   >Cada tipo de campo tem suas próprias opções de edição. Alguns campos podem ser somente leitura.
 
 ![Exemplo de lista aprimorada](assets/glist-exchange-rates.png)
 
-## Usar a barra de ações e o menu Mais em uma lista aprimorada
+## Editar itens usando a barra de ação
 
-A barra de ações mostra ações que você pode realizar em um item da lista. Algumas ações podem ser específicas dessa lista e não aparecem em nenhuma outra lista.
+Você pode usar a barra de ações em uma lista aprimorada para editar itens na lista. Nem todas as barras de ação incluem as mesmas opções. Além disso, algumas listas podem não permitir a seleção de itens e a barra de ação não está disponível.
 
-1. Marque a caixa de seleção ao lado de um item na lista aprimorada.
+1. Marque a caixa de seleção ao lado de um item em uma lista aprimorada.
 
    A barra de ação aparece na parte inferior da tela.
 
    >[!NOTE]
    >
-   >Listas aprimoradas diferentes podem permitir a seleção de um único item, a edição em massa (seleção de mais de um item) ou nenhuma seleção de item.
+   >Dependendo da lista editada, é possível selecionar um ou vários itens para usar a barra de ação.
 
-1. Clique em um botão na barra de ações para realizar essa ação, como visualizar o item da lista, excluir o item ou editar o item.
+1. Clique em uma ação na barra para editar itens. Exemplos de ações que você pode escolher são:
 
-   Se nenhuma ação estiver disponível para o item selecionado, a barra de ação indicará &quot;Nenhuma ação disponível&quot;.
+   * Exibir
+   * Editar
+   * Excluir
+
+   Se nenhuma ação estiver disponível para o item selecionado, a barra de ação exibirá &quot;Nenhuma ação disponível&quot;.
 
    ![Exemplo da barra de ações](assets/glist-action-bar-statuses.png)
 
-1. Passe o mouse sobre um campo principal de um item de lista para ver o menu **Mais**. (O campo principal é a coluna mais à esquerda da tabela.)
+1. Passe o mouse sobre o campo principal de um item de lista, em seguida, clique no ícone de menu **Mais** ![Mais](assets/more-icon.png) para ver ações adicionais. Algumas ações podem ser específicas dessa lista.
 
-1. Clique no menu para ver as ações adicionais do item. Algumas ações podem ser específicas dessa lista e não aparecem em nenhuma outra lista.
+   >[!TIP]
+   >
+   >O campo principal é exibido na primeira coluna da lista.
 
    ![Mais exemplo de menu](assets/glist-more-menu-priorities.png)
 
-## Personalizar colunas em uma lista aprimorada
+## Personalizar colunas
 
-Algumas listas aprimoradas permitem ocultar e exibir colunas e reordenar as colunas.
+Dependendo dos objetos que você está visualizando em uma lista aprimorada, é possível ocultar, mostrar ou reordenar colunas na lista.
 
 1. Clique em **Colunas** acima da lista.
 
    ![Exibir exemplo de colunas](assets/glist-display-move-columns.png)
 
 1. Use os botões para exibir ou ocultar colunas na lista.
-1. Para reordenar as colunas, clique no ícone **Arrastar** e mova uma coluna para o local desejado. Mover colunas altera a lista automaticamente.
+1. Para reordenar as colunas, clique no ícone **Arrastar** ![Ícone Arrastar](assets/drag-icon.png) e mova uma coluna para o local desejado. Mover colunas altera a lista automaticamente.
 
    >[!NOTE]
    >
-   >O campo principal é a coluna mais à esquerda da tabela. Ela é fixada na primeira posição e não é possível alterar sua coluna. Se o número de colunas for grande, o campo principal é congelado à esquerda e, ao rolar a tela horizontalmente, você sempre o verá.
+   >O campo principal é a primeira coluna na lista. Ela é fixada na primeira posição e não é possível alterar sua coluna. Se o número de colunas for grande, o campo principal é congelado à esquerda e, ao rolar a tela horizontalmente, você sempre o verá.
    >
    >O ícone ao lado de um nome de campo mostra o tipo de campo, como texto ou campo de data.
 
@@ -132,13 +141,13 @@ Algumas listas aprimoradas permitem ocultar e exibir colunas e reordenar as colu
 
    ![Indicador para colunas ocultas](assets/glist-columns-hidden-indicator.png)
 
-## Adicionar e remover colunas em uma lista com o Gerenciador de colunas
+## Adicionar e remover colunas com o Gerenciador de colunas
 
-Algumas listas aprimoradas oferecem o **Gerenciador de colunas**, que permite adicionar colunas facilmente à lista e remover colunas. Campos nativos e personalizados estão disponíveis para seleção como colunas. Campos personalizados devem existir no sistema antes que você possa adicioná-los como colunas de lista.
+Você pode usar o **Gerenciador de colunas** em algumas listas aprimoradas para adicionar e remover facilmente colunas na lista. Você pode adicionar ou remover campos personalizados e do sistema que já existem no Workfront como colunas para uma lista aprimorada.
 
 Para adicionar e remover colunas:
 
-1. Clique no ícone + na parte superior direita da tabela para abrir a caixa **Gerenciador de colunas**.
+1. Clique no ícone + no canto superior direito da tabela para abrir a caixa **Gerenciador de colunas**.
 1. Procure um campo de objeto existente na coluna **Disponível** e clique em + à direita do nome do campo para adicioná-lo à coluna **Selecionado**.
 1. Clique em - à direita de um campo na coluna **Selecionado** para removê-lo da lista.
 
@@ -146,11 +155,13 @@ Para adicionar e remover colunas:
    >
    >Alguns campos podem ser corrigidos e não podem ser removidos.
 
+   <!-- Add info about Properties and KPIs when something gets released with those options -->
+
 1. Clique em **Salvar**.
 
    ![Gerenciador de colunas](assets/glist-column-manager.png)
 
-<!-- Add info about Properties and KPIs when something gets released with those options -->
+   A lista atualiza as colunas de acordo com as escolhas feitas.
 
 ## Exibir dados com exibições em uma lista aprimorada
 
@@ -192,7 +203,7 @@ Para compartilhar uma exibição:
 
 1. Clique em **Salvar**.
 
-## Filtrar e agrupar itens em uma lista aprimorada
+## Filtrar e agrupar itens
 
 Os filtros ajudam a reduzir a quantidade de informações exibidas na lista. Agrupamentos separam os objetos na lista em áreas com base em critérios específicos.
 
