@@ -95,7 +95,7 @@ Para organizações com solicitações de alto volume ou necessidades de automa�
 
 Você precisará de uma licença do Adobe Workfront Fusion para essa abordagem.
 
-Para obter mais informações, consulte [Configurar e gerenciar o Workfront Fusion: índice do artigo](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Para obter mais informações, consulte [Configurar e gerenciar o Workfront Fusion: índice do artigo](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **Usar disparadores de envio:** Como os formulários fornecem um evento de envio único e limpo, eles podem ser usados como disparadores para automações do Fusion. Um cenário de Fusão pode detectar um envio de formulário e gerar imediatamente um projeto vinculado no Workfront.
 
