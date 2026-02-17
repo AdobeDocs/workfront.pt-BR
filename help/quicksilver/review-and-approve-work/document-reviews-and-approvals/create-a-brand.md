@@ -6,9 +6,10 @@ description: Configurar marcas para o Revisor do AI
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
+exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
+source-git-commit: 07b401c70dfd209d13c34cf62844f334f3260af1
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '429'
 ht-degree: 5%
 
 ---
@@ -42,11 +43,17 @@ O Revisor da IA usa diretrizes da marca para avaliar o conteúdo durante o proce
    <td> <p>Você deve ser um administrador do sistema.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Permissões do Admin Console</td> 
-   <td> <p>Você deve ter o GenStudio Brand Manager.</p></td> 
+   <td role="rowheader">Permissões do Admin Console*</td> 
+   <td> <p>Você deve ter o GenStudio Brand Manager.</p>
+    <p>OBSERVAÇÃO: para selecionar o GenStudio Brand Manager, siga as etapas descritas em <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/intro/configure-brand-permissions">Atribuir permissões de marca</a>.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+
+
+
 
 Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -60,6 +67,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 * Sua organização deve ter o GenStudio Foundation.
 * A Adobe deve ter um contrato de API Gen da Adobe assinado no arquivo.
 Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato da Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+
 
 ## Criar uma marca usando uma PDF
 
