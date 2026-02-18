@@ -5,9 +5,9 @@ description: Você pode usar a IA para preencher automaticamente os campos de so
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8e04117c08985f3ad5de86e4a08cb4aa53ac7706
+source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1374'
 ht-degree: 3%
 
 ---
@@ -73,8 +73,11 @@ Considere o seguinte ao usar o Preenchimento de formulário fornecido pela IA
 
 * O Preenchimento de formulário de IA não substitui nenhum campo já preenchido.
 * Os usuários não recebem sugestões de dados aos quais, de outra forma, não teriam acesso.
-* Os arquivos usados no Preenchimento de formulário fornecido pela IA são carregados no armazenamento do Azure por 24 horas. Isso é necessário para o processamento de documentos.
-* Todos os arquivos carregados para o Azure são armazenados atualmente em clusters do Azure dos EUA para a janela de armazenamento de 24 horas.
+
+<!--
+* Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
+* All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
+-->
 
 ## Obter sugestões de um prompt de texto
 
