@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,15 @@ ht-degree: 0%
 
 # Construir a ponte: conectando intenção estratégica a projetos
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>As informações neste artigo se referem ao Adobe Workfront Planning, um recurso adicional da Adobe Workfront.
+>
+>Sua organização deve ter um pacote do Workfront Planning Prime ou superior para oferecer suporte aos recursos recomendados neste artigo.
+>
+>Para obter uma lista de requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+> 
+>Para obter informações gerais sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Saiba como criar uma thread estratégica entre seus planos de alto nível no Adobe Workfront Planning e sua execução diária no Workfront. Você pode criar uma ponte entre a estratégia e a execução usando conexões.
 
@@ -95,7 +103,7 @@ Para organizações com solicitações de alto volume ou necessidades de automa�
 
 Você precisará de uma licença do Adobe Workfront Fusion para essa abordagem.
 
-Para obter mais informações, consulte [Configurar e gerenciar o Workfront Fusion: índice do artigo](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Para obter mais informações, consulte [Configurar e gerenciar o Workfront Fusion: índice do artigo](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **Usar disparadores de envio:** Como os formulários fornecem um evento de envio único e limpo, eles podem ser usados como disparadores para automações do Fusion. Um cenário de Fusão pode detectar um envio de formulário e gerar imediatamente um projeto vinculado no Workfront.
 

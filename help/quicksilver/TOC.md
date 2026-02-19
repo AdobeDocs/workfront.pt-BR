@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
 workflow-type: tm+mt
-source-wordcount: '13772'
+source-wordcount: '13773'
 ht-degree: 2%
 
 ---
@@ -2101,7 +2101,7 @@ ht-degree: 2%
    * Informações gerais sobre o Adobe Workfront Planning {#adobe-workfront-planning-general-information}
       * [Informações gerais sobre o Adobe Workfront Planning: índice do artigo](planning/general/planning-general-article-index.md)
       * [Introdução ao Adobe Workfront Planning](planning/general/planning-overview.md)
-      * [Práticas recomendadas do Adobe Workfront Planning](planning/general/planning-best-practices.md)
+      * [Recomendações de planejamento do Adobe Workfront para implementação](planning/general/planning-best-practices.md)
       * [Noções básicas sobre a API do Adobe Workfront Planning](planning/general/planning-api-basics.md)
       * [Visão geral do Assistente do Adobe Workfront Planning AI](planning/general/planning-ai-assistant-overview.md)
       * [Introdução ao Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
