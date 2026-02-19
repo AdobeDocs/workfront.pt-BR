@@ -1,7 +1,7 @@
 ---
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8fe1b2dc00c7b64b47717a17a51c0124da26d238
 workflow-type: tm+mt
-source-wordcount: '2609'
+source-wordcount: '2644'
 ht-degree: 1%
 
 ---
@@ -68,6 +68,18 @@ ht-degree: 1%
 ## Etapa 1 - Clique na imagem do seu perfil - {#step1-click-profile-pic}
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png), no canto superior direito do Adobe Workfront, e clique no seu nome de usuário, ao lado da imagem do perfil. Ou (se disponível) clique na imagem do seu perfil na área de navegação superior e em **[!UICONTROL Perfil do Workfront]**.
+
+## Observação para o fluxo de trabalho do Ultimate {#ultimate-package}
+
+>[!IMPORTANT]
+>
+>Você deve ter o pacote Workflow Ultimate para usar esse recurso.
+
+## Observação para o fluxo de trabalho Prime/Ultimate {#prime-or-ultimate-package}
+
+>[!IMPORTANT]
+>
+>Você deve ter o pacote Workflow Prime ou Workflow Ultimate para usar esse recurso.
 
 <!-- Admin and Setup -->
 
