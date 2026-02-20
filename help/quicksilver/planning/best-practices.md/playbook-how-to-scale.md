@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,8 @@ Estas são as características das rotas globais:
 
 * **Regra**: esses campos são compartilhados e obrigatórios.
 
+Para obter informações, consulte [Visão geral do tipo de registro entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+
 ### Os playgrounds locais (ou os &quot;spokes&quot;)
 
 A seguir, as características dos playgrounds locais
@@ -171,6 +173,8 @@ Em vez disso, use o seguinte caminho de maturidade de campo para permitir que o 
 * **Nível 2: Reconhecimento de padrão**: o administrador percebe que as Equipes B e C estão usando ou solicitando um campo semelhante.
 
 * **Nível 3: padronização da empresa**: o administrador cria uma versão única e padronizada desse campo como um tipo de registro no Workspace de Taxonomia Global e o associa às equipes.
+
+  Para obter informações, consulte [Visão geral do tipo de registro entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ### Como desativar campos
 
@@ -334,6 +338,8 @@ Veja a seguir exemplos do que uma lista de verificação deve incluir:
 * [ ] **Conceder visibilidade global**: conceder a eles acesso somente leitura aos espaços de trabalho Principal e Taxonomia Global relevantes no Dia 1.
 
 * [ ] **Estabelecer a entrega**: como seu trabalho alimenta os espaços de trabalho Principais relevantes? Por exemplo, seu trabalho pode ser alimentado nos espaços de trabalho principais relevantes por meio de um tipo de registro global ou um campo de pesquisa específico.
+
+  Para obter informações sobre tipos de registros globais, consulte [Visão geral sobre tipos de registros entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 <!--original content: 
 

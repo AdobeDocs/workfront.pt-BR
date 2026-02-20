@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 90b0e019-1b42-4ab2-8b4c-69f85e4c4d78
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,8 @@ Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilve
 Com essa arquitetura de equipe primária, você pode:
 
 * **Crie o hub para dar suporte ao spoke:** Você pode concentrar o espaço de trabalho de classificação global especificamente nos objetos que são mais importantes para a equipe piloto (suas Marcas ou Produtos específicos). Isso confirma o handshake colaborativo entre o controle corporativo e a autonomia da equipe, mantendo o esforço de design gerenciável.
+
+  Para obter informações, consulte [Visão geral do tipo de registro entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * **Atue como um habilitador, não como um guardião:** Mude sua função de configuração de regras para criação de recursos. Faça parceria com a equipe do para estruturar seu ambiente de planejamento.
 

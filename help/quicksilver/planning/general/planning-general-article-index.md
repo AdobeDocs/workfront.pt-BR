@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Analise os seguintes artigos:
 * [Atividade de versão do Adobe Workfront Planning para 2024](/help/quicksilver/planning/general/release-activity.md)
 * [Atividade de versão do Adobe Workfront Planning para 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Visão geral das limitações de objetos do Adobe Workfront Planning](/help/quicksilver/planning/general/limitations-overview.md)
-* [Recomendações de planejamento do Adobe Workfront para implementação](/help/quicksilver/planning/general/planning-best-practices.md)
+* [Recomendações de implementação do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-best-practices.md)
 * [Introdução ao Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)
   <!--* [Get started with the Adobe Workfront Planning free trial](/help/quicksilver/planning/general/trial-workfront-planning.md)-->
 

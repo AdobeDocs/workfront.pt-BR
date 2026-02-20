@@ -6,9 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,11 @@ Para construir sua arquitetura usando a abordagem hub-and-spoke, você deve cria
 
 Primeiro, você deve estabelecer um espaço de trabalho centralizado para suas classificações globais a fim de definir os principais conceitos que todos na organização devem entender. Por exemplo, crie os seguintes tipos de registros em um espaço de trabalho central: Marcas, Regiões, Produtos, Personas.
 
-Para obter informações, consulte [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md).
+Para obter informações, consulte:
+
+* [Criar tipos de registro](/help/quicksilver/planning/architecture/create-record-types.md)
+
+* [Visão geral do tipo de registro entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 
 Estabeleça o seguinte ao criar suas classificações:
 

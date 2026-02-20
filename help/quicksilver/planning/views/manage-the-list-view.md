@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -93,6 +93,8 @@ Para obter mais informações sobre como gerenciar exibições de lista no Workf
 
    A página Registros conectados exibe projetos conectados ao registro na exibição de lista.
 
+   <!--add new screen shot when they release Row colors/ special formatting for rows-->
+
    ![Projetos na página de registros conectados na exibição de lista](assets/projects-on-connected-records-page-list-view.png)
 
 1. (Opcional) Siga um destes procedimentos para modificar a exibição em lista:
@@ -108,10 +110,12 @@ Para obter mais informações sobre como gerenciar exibições de lista no Workf
 
       >[!NOTE]
       >
-      >Você deve ter permissões de gerenciamento para um modo de exibição para poder editá-lo, compartilhá-lo ou excluí-lo.
+      >* Você deve ter permissões de gerenciamento para um modo de exibição para poder editá-lo, compartilhá-lo ou excluí-lo.
       >
-      >Não é possível modificar as Exibições de sistema.
+      >* Não é possível modificar as Exibições de sistema.
       >
+      <!--* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+        -->
    1. Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-icon.png) para adicionar um filtro ao modo de exibição. Os resultados são filtrados imediatamente na lista. Não é possível salvar e nomear filtros. Os filtros são lembrados quando você acessa a página no futuro e fazem parte de exibições compartilhadas.
    1. Clique no ícone **Colunas** ![Ícone Colunas](assets/columns-icon.png) para selecionar quais colunas exibir ou ocultar no modo de exibição.
    1. Passe o mouse sobre o nome de uma coluna, clique na seta para baixo à esquerda do nome da coluna e clique em uma das seguintes opções:
@@ -123,7 +127,30 @@ Para obter mais informações sobre como gerenciar exibições de lista no Workf
 
       Você pode adicionar somente campos existentes à exibição de lista.
 Não é possível remover o campo principal na exibição de lista exibida na primeira coluna.
+
+
+   <!--
+    1. <span class="preview">Click **Row colors** <!-insert icon and edit the name of the icon if they changed it->. The **Format** box opens. <!-change the name of the box when they update it-></span>
+        <span class="preview">Do the following: </span>
+        <div class="preview">
+        1. Define the formatting conditions in the **If** area by clicking **Add condition**, then select a field you want to format by and choose a field value. 
+            >[!TIP]
+            >
+            >Only field visible in the list view are available for conditional formatting.
+        1. (Optional) Click **Add condition** in the If area to add more conditions. 
+        1. Click the **Or** connector between conditions to change to **And**. **Or** is the default connector.  
+        1. In the **Format** area, select a field to indicate which column will be formatted. <!-edit this area, if it changes names???->
+        1. Click on the color circle to expand and choose another color.
+        1. Turn on the **Apply to row** setting to apply the formatting to the entire row that meets the conditions. 
+        1. (Optional) Click **Clear all** to remove all formatting.
+            The formatting is applies immediately.
+        1. Click outside the **Format** box to close it. 
+            This returns you to the list view. There is a blue dot next to the **Row colors** icon to indicate that the view has special formatting applied. <!-might need to edit the icon name and get a screen shot of the icon with the dot and insert it here->
+        </div>
+    -->
+
 1. (Opcional) Adicione uma palavra-chave na caixa de pesquisa no canto superior direito da lista para procurar um item.
+
 
    Os itens que correspondem ao termo de pesquisa são destacados na lista.
 1. (Opcional) Para adicionar mais itens à lista e conectá-los automaticamente ao registro selecionado, siga um destes procedimentos:

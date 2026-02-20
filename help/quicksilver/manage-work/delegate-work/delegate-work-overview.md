@@ -7,9 +7,9 @@ description: Quando você planeja ficar fora do escritório por um curto períod
 author: Becky
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '904'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ Considere o seguinte ao delegar tarefas e problemas:
 | Um usuário atribuído ou delegado é exibido no cabeçalho do item de trabalho | Sim | Sim |
 | As tarefas ou problemas atribuídos ou delegados são exibidos na área Página inicial do destinatário ou delegado | Sim, até que o item seja concluído | Sim, somente para o período da delegação |
 | Você pode atribuir ou delegar trabalho a usuários na área Página inicial | Sim | Sim |
-| Você pode atribuir ou delegar trabalho aos usuários usando a | Sim | Não |
+| Você pode atribuir ou delegar trabalho aos usuários usando o Balanceador de carga de trabalho | Sim | Não |
 | Você pode atribuir ou delegar trabalho aos usuários em uma lista ou a partir do cabeçalho de um item de trabalho | Sim | Não |
 | Qualquer usuário pode atribuir ou delegar outros usuários com itens de trabalho aos quais eles não estão associados | Com base em permissões e nível de acesso | Não. Somente o destinatário pode delegar seus próprios itens. |
 | As horas planejadas, reais ou orçadas do trabalho atribuído ou delegado a um usuário são exibidas para esse usuário nas ferramentas de gerenciamento de recursos | Sim | Não |
