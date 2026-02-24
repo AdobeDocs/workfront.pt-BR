@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 793419db3e9552e2e425aec26300b8c2b4ab8583
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 2%
+source-wordcount: '1133'
+ht-degree: 6%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -49,11 +49,13 @@ Os administradores podem ver usuários inativos na área Configuração.
 >* A desativação de um usuário no Workfront remove as licenças do usuário para o Workfront e para a prova digital. Além disso, o usuário não pode mais receber trabalho. Quando um usuário é desativado, a licença e a licença de prova do Workfront desse usuário ficam disponíveis para serem usadas por outro usuário. Todas as outras informações no perfil do usuário desativado permanecem inalteradas.
 >
 >* A desativação de um usuário no Workfront não o remove do Perfil de produto do Workfront no Adobe Admin Console. Para obter mais informações, consulte [Excluir usuários](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>
+>* Se um usuário estiver em um Grupo de usuários do Admin Console e o perfil de produto tiver sido adicionado a um ou mais desses Grupos de usuários, a desativação do usuário do Workfront não o removerá do produto. O usuário deve ser removido do(s) grupo(s) de usuários no Admin Console.
 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +67,7 @@ Os administradores podem ver usuários inativos na área Configuração.
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p><p>Plano</p></td> 
+   <td><p>Padrão</p><p>Plano</p></td> 
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
@@ -183,5 +185,5 @@ Quando você agenda a desativação de um usuário, ele não aparece mais no Pla
 
 O Planejador de recursos considera todas as funções de trabalho dos usuários e as Datas de conclusão planejadas das tarefas e calcula os recursos de acordo.
 
-Para obter mais informações sobre o Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Para obter mais informações sobre o planejador de recursos, consulte [Visão geral do planejador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
