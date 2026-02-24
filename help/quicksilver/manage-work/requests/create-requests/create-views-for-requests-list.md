@@ -5,16 +5,24 @@ title: Criar e gerenciar exibições na área Solicitações
 description: Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações.
 author: Becky
 feature: Work Management
-source-git-commit: 9e7b94201705ce96dbc38fc6d9246461e4d4d7ea
+exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
+source-git-commit: 8db8382d63d06c23f93a74a326ddb0e1227f44c8
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 3%
+source-wordcount: '689'
+ht-degree: 9%
 
 ---
 
+
 # Criar e gerenciar exibições na área Solicitações
 
-Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações. Essas exibições incluem filtros e organização de colunas.
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+-->
+
+Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações. Essas exibições incluem filtros e organização de colunas. <!--<span class="preview"> and groupings.</span> -->
 
 As exibições podem ser criadas e gerenciadas na área Solicitações do Workfront.
 
@@ -39,8 +47,8 @@ As exibições podem ser criadas e gerenciadas na área Solicitações do Workfr
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p>
+   <td> <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p>
     </td> 
   </tr> 
   <tr> 
@@ -54,11 +62,11 @@ As exibições podem ser criadas e gerenciadas na área Solicitações do Workfr
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Criar uma visualização na área Solicitações
+## Criar uma visualização para solicitações
 
 Você pode criar uma visualização na área Solicitações do Workfront,.
 
@@ -73,7 +81,7 @@ Você pode criar uma visualização na área Solicitações do Workfront,.
 1. Insira um nome para o novo modo de exibição e clique em **Criar**.
 1. Continue em [Editar um modo de exibição na área Solicitações](#edit-a-view-in-the-requests-area).
 
-## Editar uma exibição na área Solicitações
+## Editar uma visualização de solicitações
 
 É possível editar visualizações existentes, incluindo aquelas que você acabou de criar.
 
@@ -110,6 +118,10 @@ Você pode criar uma visualização na área Solicitações do Workfront,.
 A lista de solicitações é filtrada automaticamente ao adicionar as condições de filtro.
 
 
+<!--
+1. <Span class="preview">(Optional) Click **Group** and select the column that you want to group by.</span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -136,4 +148,3 @@ Você pode compartilhar visualizações criadas com outros usuários, equipes ou
 1. Selecione **Compartilhar**.
 1. Na caixa de diálogo que é aberta, digite os nomes dos usuários, equipes ou grupos com os quais deseja compartilhar a exibição e selecione-os na lista quando eles forem exibidos.
 1. Clique em **Salvar**.
-
