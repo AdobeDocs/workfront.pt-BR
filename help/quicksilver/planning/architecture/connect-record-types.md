@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '2966'
-ht-degree: 1%
+source-wordcount: '2972'
+ht-degree: 4%
 
 ---
 
@@ -32,9 +32,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 Você pode conectar tipos de registro uns aos outros ou pode conectar tipos de registro a tipos de objeto de outros aplicativos.
 
-A conexão de tipos de registro é útil quando há vários tipos de objetos de trabalho que afetam uns aos outros. Por exemplo, você pode trabalhar com campanhas do e cada campanha pode atender a várias marcas. Para indicar esse relacionamento, você pode conectar campanhas a marcas. Isso cria um campo de conexão para Marcas no registro da campanha.
+Conectar tipos de registro é útil quando você tem vários tipos de objetos de trabalho que afetam uns aos outros. Por exemplo, você pode trabalhar com campanhas, e cada campanha pode atender a várias marcas. Para indicar essa relação, você pode conectar campanhas a marcas. Isso cria um campo de conexão para Marcas no registro da campanha.
 
-Além disso, o trabalho para cada campanha pode ser planejado em vários projetos no Workfront. Para indicar isso, você pode conectar as campanhas aos projetos relevantes. Isso cria um campo de conexão para Projetos no registro da campanha.
+Além disso, o trabalho de cada campanha pode ser planejado em vários projetos no Workfront. Para indicar isso, você pode conectar as campanhas aos projetos relevantes. Isso cria um campo de conexão para Projetos no registro da campanha.
 
 Depois que os campos de conexão forem criados, será possível conectar registros individuais entre os dois tipos de registro ou objeto.
 
@@ -91,7 +91,7 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
    <ul><li><p>Uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar o AEM Assets aos tipos de registro do Planning.</p>
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas da GenStudio</p>
-   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -300,7 +300,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager Assets por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condicional) Ao se conectar ao Experience Manager Assets, a um tipo de registro do Workfront Planning ou a uma Marca GenStudio, escolha uma das seguintes opções na área **Aparência do registro**:
@@ -323,15 +323,19 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 1. Selecione os **Selecionar campos de pesquisa** para adicionar campos do tipo de registro ao qual você está se conectando. Os campos de pesquisa são campos associados ao registro ou tipo de objeto ao qual você está vinculando. Vinculá-los exibe informações do registro ou objeto ao qual você está vinculando no registro a partir do qual você está vinculando. É selecionado por padrão.
 
-   >[!TIP]
-   >
-   >* Não é possível adicionar campos de digitação antecipada do Workfront (incluindo campos como Proprietário do projeto ou Patrocinador do projeto) como campos de pesquisa.
-   >
-   >* As informações do campo de data dos objetos do Workfront são exibidas no formato de 24 horas no Workfront Planning, independentemente de como são exibidas no Workfront.
-   >
-   >   Por exemplo, se a Data de Início Planejada de um projeto for exibida como 3:00 PM no Workfront, ela será exibida como 15:00 no Workfront Planning em um campo de pesquisa importado.
-   >* No ambiente de Produção, não é possível adicionar campos de Pessoas como campos de pesquisa. <span class="preview">Você pode adicionar campos de Pessoas como campos de pesquisa no ambiente de Visualização.</span>
-   >
+<!--For Feb 26: replace the first bullet below in the TIP with this: 
+
+* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
+
+    >[!TIP]
+    >
+    >* Não é possível adicionar campos de digitação antecipada de Workfront ou de usuário (incluindo campos como Proprietário do Projeto ou Patrocinador do Projeto) como campos de pesquisa.
+    >
+    >* As informações do campo de data dos objetos do Workfront são exibidas no formato de 24 horas no Workfront Planning, independentemente de como são exibidas no Workfront.
+    >
+    >   Por exemplo, se a Data de início planejada de um projeto for exibida às 15h no Workfront, ela será exibida como 15h no Workfront Planning em um campo de pesquisa importado.
+    >* No ambiente de Produção, não é possível adicionar campos de Pessoas como campos de pesquisa. &lt;span class=&quot;preview&quot;>Você pode adicionar campos de Pessoas como campos de pesquisa no ambiente de Pré-visualização.&lt;/span>
+    >
 
 1. Clique em **Criar**.
 

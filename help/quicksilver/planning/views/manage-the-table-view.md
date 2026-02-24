@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '3507'
+source-wordcount: '3508'
 ht-degree: 2%
 
 ---
@@ -154,7 +154,7 @@ Para gerenciar uma exibição de tabela:
 
 1. Crie uma exibição de tabela, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-   ![Exemplo de exibição de tabela](assets/table-view-example.png)
+   ![Exemplo de exibição em tabela](assets/table-view-example.png)
 
 1. (Opcional) Clique em **Altura da linha** e selecione uma das seguintes opções para modificar a altura das linhas da tabela:
    * Pequena
@@ -504,7 +504,9 @@ Para adicionar um agrupamento:
 
    ![Agrupamento aplicado na exibição de tabela](assets/grouping-applied-in-table-view.png)
 
-
+   <!--For Feb 26, and change indent to the left:
+    1. <span class="preview">(Optional) Choose A-Z or Z-A from the sorting drop-down menu to the right of a selected field. This sorts the groupings in the timeline, accordingly.</span>
+    -->
 
 1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
@@ -582,9 +584,13 @@ Ao exibir a visualização de tabela, você também pode visualizar qual campo o
 
 1. Ir para uma página de tipo de registro e abrir qualquer exibição.
 1. (Condicional) Se houver outros usuários editando os registros do tipo selecionado ao mesmo tempo, seus avatares serão exibidos no canto superior direito da exibição.
-1. Clique no menu suspenso ao lado dos avatares e selecione a opção **Mostrar colaboradores**. O botão de alternância é selecionado por padrão.
+1. Clique no menu suspenso ao lado dos avatares e ative a configuração **Mostrar colaboradores**. A configuração é ativada por padrão.
 
    ![Exibir alternância de colaboradores selecionada](assets/show-collaborators-toggle-selected.png)
+
+   >[!TIP]
+   >
+   >Você pode selecionar a opção **Mostrar colaboradores** de qualquer modo de exibição. O campo atualmente editado por outros é descrito somente na exibição de tabela.
 
 1. (Condicional) Abra uma exibição de tabela e o campo que outra pessoa está editando ativamente será destacado na cor correspondente ao contorno do avatar na exibição de tabela.
 
@@ -592,9 +598,18 @@ Ao exibir a visualização de tabela, você também pode visualizar qual campo o
 
    ![Conexão de avatar e campo da tabela de indicadores em tempo real](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
-   >[!TIP]
-   >
-   >Você pode selecionar a opção **Mostrar colaboradores** de qualquer modo de exibição. O campo atualmente editado por outros é descrito somente na exibição de tabela.
+<!--maybe include a screen shot after release if they update the UI text in this list of users-->
+
+<!--For Feb 26: 
+
+1. <span class="preview">(Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.</span> 
+
+>[!TIP]
+>
+><span class="preview">Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.</span>
+
+-->
+
 
 
 

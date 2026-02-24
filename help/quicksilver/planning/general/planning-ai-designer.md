@@ -6,10 +6,10 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >No momento, o Planning Designer está disponível apenas para usuários que participam do programa Closed Beta.
 >
->As informações neste artigo se referem ao Adobe Workfront Planning, um recurso adicional da Adobe Workfront.
+>As informações contidas neste artigo referem-se ao Adobe Workfront Planning, um recurso adicional do Adobe Workfront.
 >
->Para obter uma lista de requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Para obter uma lista dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Para obter informações gerais sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
@@ -33,9 +33,9 @@ Seja usado diretamente ou por meio do Assistente de IA, o Planning Designer ofer
 
 Para obter informações sobre o Workfront Planning, consulte os seguintes artigos:
 
-* [Informações gerais sobre o Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
+* [Informações gerais sobre o Planejamento do Adobe Workfront](/help/quicksilver/planning/planning-information.md)
 * [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-* [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
+* [Visão geral de acesso do Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
 
 
 ## Requisitos de acesso <!--edit theses??-->
@@ -119,7 +119,7 @@ Seu feedback é enviado às equipes de engenharia e de produtos.
   Para obter informações, consulte os seguintes artigos:
 
    * [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-   * [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
+   * [Visão geral dos tipos de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 
 * As alterações feitas pelo Assistente de IA ou pelo Planning Designer em nome do usuário são rastreadas no painel histórico do registro.
 
@@ -136,6 +136,8 @@ Seu feedback é enviado às equipes de engenharia e de produtos.
 Você pode usar o Planning Designer ou o Assistente de IA para executar qualquer uma das seguintes ações:
 
 * Criar e configurar espaços de trabalho
+
+<!--On March 2: * Edit workspaces-->
 
 * Criar tipos de registro, incluindo definição e adição de tipos de registro global a espaços de trabalho
 
@@ -178,7 +180,7 @@ Você pode criar ou atualizar objetos no Workfront Planning usando o Planning De
 
    ![Botão Criar com IA na página Espaços de Trabalho](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. Clique em **Criar com IA**. <!--update this when they change it-->
+1. Clique em **Criar com IA**. <!--update this when they change it to Generate with AI-->
 
    A janela **Planning Designer** é aberta. <!--remove the Beta tag here when this removes from Beta-->
 
@@ -225,6 +227,12 @@ Você pode criar ou atualizar objetos no Workfront Planning usando o Planning De
 1. Clique no **ícone Abrir espaço de trabalho em nova guia** ![ícone Abrir espaço de trabalho em nova guia](assets/open-workspace-on-new-tab-icon.png) para abrir o espaço de trabalho que você está atualizando em uma nova guia.
 1. Clique no ícone **Fechar** **X** para fechar o Planning Designer e abrir a área Espaços de Trabalho.
 1. Abra o espaço de trabalho editado usando o Planning Designer e faça mais alterações em seus objetos.
+
+<!-- for March 2 -- replace the last step with this: 
+1. (Optional) To edit a workspace, do one of the following:
+
+    * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
+    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.-->
 
 ## Desativar o Planning Designer para sua organização
 

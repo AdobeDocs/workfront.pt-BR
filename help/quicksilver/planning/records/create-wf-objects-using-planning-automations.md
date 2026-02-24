@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 0%
+source-wordcount: '724'
+ht-degree: 1%
 
 ---
 
@@ -41,7 +41,6 @@ Você pode criar os seguintes itens usando automações no Workfront Planning:
 * Um grupo
 * Um programa
 * Um portfólio
-* Um projeto
 
 ## Requisitos de acesso
 
@@ -64,7 +63,7 @@ Você pode criar os seguintes itens usando automações no Workfront Planning:
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    </td> 
   </tr> 
   <tr> 
@@ -161,10 +160,21 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 * Novos objetos ou registros não substituem os existentes no mesmo campo. Acionar a mesma automação várias vezes para o mesmo registro adiciona os novos objetos ou registros no mesmo campo conectado do registro original, além dos criados antes.
 
+
+
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 
 
 ## Usar uma automação do Workfront Planning para criar um objeto ou um registro
+
+<!--For Feb 26 and add Preview disclosure at the top:
+
+<span class="preview">When you choose a Field value change-automation, Workfront Planning creates the objects automatically, when the conditions you define are met. </span>
+
+For information, see [Configure Adobe Workfront Planning automations to create records](/help/quicksilver/planning/records/configure-automations-to-create-records.md).</span>
+-->
+
+Esta seção descreve como criar objetos usando a automação de cliques do botão.
 
 1. No Workfront Planning, abra a página tipo de registro que contém a automação que deseja usar para criar e conectar automaticamente registros ou objetos.
 1. Abra a exibição de tabela.

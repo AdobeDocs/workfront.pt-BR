@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
 workflow-type: tm+mt
 source-wordcount: '1001'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -93,7 +93,7 @@ Para obter mais informações sobre como gerenciar exibições de lista no Workf
 
    A página Registros conectados exibe projetos conectados ao registro na exibição de lista.
 
-   <!--add new screen shot when they release Row colors/ special formatting for rows-->
+   <!--add new screen shot when they release Conditional formatting MVP -->
 
    ![Projetos na página de registros conectados na exibição de lista](assets/projects-on-connected-records-page-list-view.png)
 
@@ -114,7 +114,7 @@ Para obter mais informações sobre como gerenciar exibições de lista no Workf
       >
       >* Não é possível modificar as Exibições de sistema.
       >
-      <!--* <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+      <!--For Feb 26 and add the Preview disclaimer at the top: * <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
         -->
    1. Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-icon.png) para adicionar um filtro ao modo de exibição. Os resultados são filtrados imediatamente na lista. Não é possível salvar e nomear filtros. Os filtros são lembrados quando você acessa a página no futuro e fazem parte de exibições compartilhadas.
    1. Clique no ícone **Colunas** ![Ícone Colunas](assets/columns-icon.png) para selecionar quais colunas exibir ou ocultar no modo de exibição.
@@ -129,23 +129,28 @@ Para obter mais informações sobre como gerenciar exibições de lista no Workf
 Não é possível remover o campo principal na exibição de lista exibida na primeira coluna.
 
 
-   <!--
-    1. <span class="preview">Click **Row colors** <!-insert icon and edit the name of the icon if they changed it->. The **Format** box opens. <!-change the name of the box when they update it-></span>
+   <!--For Feb 26: make available at release and fix the formatting - this will be broken, if not: 
+    1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens. (*********change the name of the box when they update it***********)</span>
         <span class="preview">Do the following: </span>
         <div class="preview">
-        1. Define the formatting conditions in the **If** area by clicking **Add condition**, then select a field you want to format by and choose a field value. 
+        1. In the **If** line, click **Add condition**, then select a field you want to format by and choose a field value. 
             >[!TIP]
             >
-            >Only field visible in the list view are available for conditional formatting.
-        1. (Optional) Click **Add condition** in the If area to add more conditions. 
-        1. Click the **Or** connector between conditions to change to **And**. **Or** is the default connector.  
-        1. In the **Format** area, select a field to indicate which column will be formatted. <!-edit this area, if it changes names???->
-        1. Click on the color circle to expand and choose another color.
-        1. Turn on the **Apply to row** setting to apply the formatting to the entire row that meets the conditions. 
+            >Only fields visible in the list view are available for conditional formatting.
+        1. (Optional) Click **Add condition** in the **If** line to add more conditions to same rule. 
+            >[!TIP]
+            >
+            >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
+        1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.  
+        1. In the **Format** line, select a field to indicate which column will be formatted. (*******edit this area, if it changes names??***********)
+        1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color.
+        1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions. 
+        1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above. 
         1. (Optional) Click **Clear all** to remove all formatting.
-            The formatting is applies immediately.
         1. Click outside the **Format** box to close it. 
-            This returns you to the list view. There is a blue dot next to the **Row colors** icon to indicate that the view has special formatting applied. <!-might need to edit the icon name and get a screen shot of the icon with the dot and insert it here->
+            This returns you to the list view. 
+            The formatting is applied immediately to the list view.
+            There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
         </div>
     -->
 
