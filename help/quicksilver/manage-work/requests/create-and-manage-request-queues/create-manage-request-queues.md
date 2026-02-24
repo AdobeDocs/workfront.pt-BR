@@ -10,10 +10,10 @@ topic: Collaboration
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: 4a0cb96f5888819747f63472712f91c685621cf1
+source-git-commit: a5827c25cf3a10a8664cabbd2f23bdc635ab8041
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -26,8 +26,6 @@ Esta seção contém os seguintes artigos:
 * [Fornecer acesso às filas de solicitações](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
 * [Criar Grupos de Tópicos](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
 * [Criar Tópicos de Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
-* [Criar Regras de Encaminhamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+* [Criar regras de roteamento](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
-  <!--
-  <li><a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref" xrefformat="{para}">Overview of the Queue Details tab in a project</a> </li>
-  -->
+
