@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 159c3b4a3627e29123afd96115e965d3bba8329c
+source-git-commit: 3afa0fbfb8a82a7dc1a2e9c65d04aa1be7b6f1f8
 workflow-type: tm+mt
-source-wordcount: '3387'
-ht-degree: 93%
+source-wordcount: '3190'
+ht-degree: 97%
 
 ---
 
@@ -919,92 +919,6 @@ Filtros duplamente aninhados também podem ser endereçados.
 "filterConnector": 'AND'
 ```
 
-### Utilização de grupos de filtros (filtros de combinação)
-
-As assinaturas de evento são compatíveis com grupos de filtros, juntamente com filtros padrão, para oferecer suporte a condições lógicas aninhadas.
-
-Os grupos de filtros permitem criar condições lógicas aninhadas (AND/OR) nos filtros de subscrição do evento.
-
-Cada grupo de filtros pode ter:
-
-* Seu próprio conector: `AND` ou `OR`
-* Vários filtros, cada um seguindo a mesma sintaxe e comportamento que os filtros independentes
-
-Todos os filtros dentro de um grupo são compatíveis:
-
-* Operadores de comparação: `eq`, `ne`, `gt`, `gte`, `lt`, `lte`, `contains`, `notContains`, `containsOnly`, `changed`
-* Opções de estado: `newState`, `oldState`
-* Direcionamento de campo: qualquer nome de campo de objeto válido
-
-Um grupo deve conter no mínimo 2 filtros
-
-```
-{
-  "objCode": "TASK",
-  "eventType": "UPDATE",
-  "authToken": "token",
-  "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
-  "filters": [
-    {
-      "fieldName": "percentComplete",
-      "fieldValue": "100",
-      "comparison": "lt"
-    },
-    {
-      "type": "group",
-      "connector": "OR",
-      "filters": [
-        {
-          "fieldName": "status",
-          "fieldValue": "CUR",
-          "comparison": "eq"
-        },
-        {
-          "fieldName": "priority",
-          "fieldValue": "1",
-          "comparison": "eq"
-        }
-      ]
-    }
-  ],
-  "filterConnector": "AND"
-}
-```
-
-Este exemplo mostra:
-
-
-* Filtro de nível superior (fora do grupo):
-
-  `fieldName`: `percentComplete`, `fieldValue`: `100`, `comparison`: `lt`
-
-  Esse filtro verifica se o campo percentComplete da tarefa atualizada é menor que 100.
-
-* Grupo de Filtros (filtros aninhados com `OR`):
-
-  { &quot;`type`&quot;: &quot;`group`&quot;, &quot;`connector`&quot;: &quot;`OR`&quot;, &quot;`filters`&quot;: [{ &quot;`fieldName`&quot;: &quot;`status`&quot;, &quot;`fieldValue`&quot;: &quot;`CUR`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }, { &quot;`fieldName`&quot;: &quot;`priority`&quot;, &quot;`fieldValue`&quot;: &quot;`1`&quot;, &quot;`comparison`&quot;: &quot;`eq`&quot; }] }
-
-  Esse grupo avalia dois filtros internos:
-
-   * O primeiro verifica se o status da tarefa é igual a &quot;CUR&quot; (atual).
-
-   * O segundo verifica se a prioridade é igual a &quot;1&quot; (alta prioridade).
-
-  Como o conector é &quot;OR&quot;, esse grupo será aprovado se qualquer uma das condições for verdadeira.
-
-* Conector de Nível Superior (filterConnector: `AND`):
-
-  O conector mais externo entre os filtros de nível superior é `AND`.
-
-  Isso significa que o filtro de nível superior e o grupo devem passar para que o evento corresponda.
-
-* A assinatura é acionada quando:
-
-  O percentual de Término é inferior a 100
-
-  E
-
-  O status é &quot;CUR&quot; OU a prioridade é &quot;1&quot;.
 
 #### Desempenho e limites
 
