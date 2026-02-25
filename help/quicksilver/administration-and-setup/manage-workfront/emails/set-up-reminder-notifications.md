@@ -5,10 +5,10 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: bb9ccfa61fa1a8ef41b0e873d5aa6313803c636d
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 5%
 
 ---
 
@@ -33,7 +33,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +45,7 @@ An example of how this can be used would be helpful here and/or in the section <
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard </p>
+   <td> <p>Padrão </p>
 <p>Plano</p> 
 </td> 
   </tr> 
@@ -100,7 +100,8 @@ Para obter informações sobre como criar um modelo de email, consulte [Configur
         <ul> 
          <li> <p>As notificações de lembrete começam 24 horas após a data especificada e assim que todos os critérios são atendidos.</p> </li> 
          <li> <p>Notificações de lembrete para projetos, tarefas e problemas são acionadas todas as noites à meia-noite, horário das montanhas dos EUA. Todos os objetos qualificados para uma notificação de lembrete desse dia acionam uma notificação para os usuários designados logo após esse horário.</p> </li> 
-         <li> <p>Notificações de lembrete para planilhas de horas são enviadas no horário especificado com base em seu fuso horário e na Data final, Data inicial ou Data da última atualização da planilha de horas.</p> </li> 
+         <li> <p>Os lembretes de folha de horas são baseados no fuso horário de sua organização e na Data final, Data inicial ou Data da última atualização da folha de horas. Os fusos horários de usuários individuais não afetam o tempo das notificações de lembrete.</p> 
+      </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
