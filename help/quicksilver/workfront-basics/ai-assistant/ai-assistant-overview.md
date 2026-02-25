@@ -5,80 +5,80 @@ description: Saiba mais sobre o Assistente de IA no Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: e8e10f02f77f6c1df9f0af380eb16cc6bbc3b5d1
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # Assistente de IA no Workfront
 
-O Assistente de IA da Workfront ajuda você a realizar seu trabalho oferecendo informações e sugestões no aplicativo em uma conversa em idioma natural. O Assistente de IA pode lhe oferecer uma experiência de trabalho mais estável
+O Assistente de IA do Workfront ajuda você a realizar seu trabalho, oferecendo informações e sugestões no aplicativo em uma conversa em linguagem natural. O Assistente de IA pode proporcionar uma experiência de trabalho mais tranquila ao
 
-* Resumindo itens de trabalho ou documentos
+* Resumir itens de trabalho ou documentos
 * Encontrar instruções ou material de referência para processos de trabalho
 * Gerar ou verificar fórmulas para campos calculados
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
-   <td><p>Novo: Qualquer um</p>
+   <td role="rowheader">Plano Adobe Workfront</td> 
+   <td><p>Novo: qualquer um</p>
        <p>ou</p>
        <p>Atual: não disponível</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: Padrão</p>
+   <td><p>Novo: padrão</p>
        <p>ou</p>
        <p>Atual: não disponível</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Pré-requisitos para o Assistente de IA
 
-Para habilitar o Assistente de IA para sua organização, **todos** dos itens a seguir devem ser aplicados:
+Para habilitar o Assistente de IA para sua organização, **todos** os seguintes requisitos devem ser atendidos:
 
-* Sua organização deve ter migrado para o Adobe IMS (Identity Management System)
-* A Experiência unificada do Adobe deve ser habilitada
-* Sua organização deve ter um plano Select, Prime ou Ultimate Workfront
-* A Adobe deve ter um contrato de geração de IA da Adobe assinado no arquivo
+* Sua organização deve ter migrado para o Adobe IMS (Sistema de Gerenciamento de Identidades)
+* A Adobe Unified Experience deve estar habilitada
+* Sua organização deve ter um plano Select, Prime ou Ultimate do Workfront
+* A Adobe deve ter um contrato de IA generativa da Adobe assinado em arquivo
 
-  Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato de IA de Geração da Adobe](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) neste artigo.
+  Para obter mais informações sobre a assinatura do contrato, consulte [Assinar o contrato de IA generativa da Adobe](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) neste artigo.
 
 ## Considerações sobre o Assistente de IA
 
-* O Assistente de IA é sensível ao contexto da página que você abriu. Por exemplo, inserir &quot;Resumir este projeto&quot; no Assistente de IA em uma página de projeto retorna um resumo desse projeto específico.
-* O administrador do Workfront deve ativar o Assistente de IA para os usuários em sua organização. O Assistente de IA é ativado por meio de níveis de acesso.
+* O Assistente de IA é sensível ao contexto da página que você tem aberta. Por exemplo, ao inserir “Resumir este projeto” no Assistente de IA em uma página de projeto, um resumo desse projeto específico será exibido.
+* O administrador do Workfront deve habilitar o Assistente de IA para os usuários da sua organização. O Assistente de IA é habilitado por meio de níveis de acesso.
 
   Para obter mais informações, consulte [Habilitar ou desabilitar o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
-* O Assistente do Workfront Planning AI tem recursos diferentes do Assistente do Workfront AI.
+* O Assistente de IA do Workfront Planning tem funcionalidades diferentes do Assistente de IA do Workfront.
 
   Para obter mais informações sobre o Assistente de IA no Workfront Planning, consulte [Visão geral do Assistente de IA do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
-* No momento, o Assistente de IA está disponível somente em inglês.
+* O Assistente de IA está disponível apenas em inglês no momento.
 
 
 ## Funcionalidade disponível no Assistente de IA
 
-Atualmente, o Assistente de IA oferece as seguintes funcionalidades:
+O Assistente de IA oferece atualmente as seguintes funcionalidades:
 
 * Resumo de projetos, tarefas, problemas ou documentos.
 
   Para obter mais informações, consulte [Resumir usando o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
-* Fornecer instruções ou informações de referência extraídas da documentação do Workfront na Adobe Experience League.
+* Fornecimento de instruções ou informações de referência extraídas da documentação do Workfront na Adobe Experience League.
 
   Para obter mais informações, consulte [Obter ajuda do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
@@ -90,18 +90,18 @@ Atualmente, o Assistente de IA oferece as seguintes funcionalidades:
 
   >[!NOTE]
   >
-  >Essa funcionalidade está disponível somente para organizações nos planos do Prime ou do Ultimate Workfront.
+  >Essa funcionalidade está disponível apenas para organizações nos planos Prime ou Ultimate do Workfront.
 
-  Para obter mais informações, consulte [Gerar ou revisar fórmulas de campo calculado com o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
+  Para obter mais informações, consulte [Gerar ou revisar fórmulas de campos calculados com o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
 
-* Resumindo atualizações, documentos carregados e outras alterações importantes sobre seus projetos nos seguintes intervalos de tempo: 24 horas, 3 dias e 7 dias em Prioridades.
+* Resumir atualizações, documentos enviados e outras alterações importantes sobre seus projetos nos seguintes intervalos de tempo: 24 horas, 3 dias, 7 dias em Prioridades.
 
-Para obter mais informações, consulte [Acompanhar o trabalho em Prioridades](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+Para obter mais informações, consulte [Atualize-se sobre o trabalho em Prioridades](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 
-## Tipos de objeto disponíveis para o Assistente de IA
+## Tipos de objetos disponíveis para o Assistente de IA
 
-O assistente de IA pode consultar dados associados aos seguintes tipos de objeto se o usuário tiver as permissões válidas no Workfront:
+O Assistente de IA pode consultar dados associados aos seguintes tipos de objetos, caso o usuário tenha as permissões válidas no Workfront:
 
 * Portfólios
 * Programas
@@ -115,56 +115,56 @@ O assistente de IA pode consultar dados associados aos seguintes tipos de objeto
 
 ## Acessar o Assistente de IA
 
-1. Na parte superior de qualquer página do Workfront, clique no ícone do Assistente de IA ![ícone do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
-1. Digite sua pergunta ou aviso no painel à direita da tela.
+1. Na parte superior de qualquer página do Workfront, clique no ícone do Assistente de IA ![Ícone do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Digite sua pergunta ou prompt no painel à direita da tela.
 
-   Adobe Se não for possível digitar nesse painel, a organização não terá um contrato Gen AI assinado no arquivo.
+   Se você não conseguir digitar neste painel, sua organização não tem um contrato de IA generativa da Adobe assinado em arquivo.
 
-1. Se o assistente de IA não fornecer a resposta necessária, refine seu prompt e tente novamente.
+1. Se o Assistente de IA não fornecer a resposta que você precisa, refine seu prompt e tente novamente.
 
-## Assinar o contrato de IA de geração da Adobe
+## Assinar o contrato de IA generativa da Adobe
 
-Adobe Se a sua organização não tiver um contrato Gen AI assinado no arquivo, o Assistente AI não poderá ser ativado para a sua organização.
+Se a sua organização não tiver um contrato de IA generativa da Adobe assinado em arquivo, o Assistente de IA não poderá ser habilitado para a sua organização.
 
-Se um usuário tentar usar o AI Assistant quando o contrato da Adobe Gen AI não tiver sido assinado, verá uma mensagem:
+Se um usuário tentar usar o Assistente de IA quando o contrato de IA generativa da Adobe não tiver sido assinado, ele verá uma mensagem:
 
-* Usuários: os usuários são informados de que o Assistente de IA não foi ativado para sua organização e que eles podem entrar em contato com o administrador do Workfront para solicitá-lo para sua organização.
-* Administradores: os administradores são informados de que não há um contrato Adobe Gen AI assinado e podem solicitar que uma cópia do contrato seja enviada para assinatura.
+* Usuários: os usuários são informados de que o Assistente de IA não foi habilitado para a organização e que podem entrar em contato com o administrador do Workfront para solicitá-lo para a organização.
+* Administradores: os administradores são informados de que não há um contrato de IA generativa da Adobe assinado e podem solicitar o envio de uma cópia do contrato para assinatura.
 
-Para solicitar o contrato da Adobe Gen AI:
+Para solicitar o contrato de IA generativa da Adobe:
 
-1. Como um Administrador do Workfront, clique no ícone do Assistente do AI ![ícone do Assistente do AI](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
-1. Comece a digitar no painel Assistente de IA.
-1. Quando a mensagem do contrato da Adobe Gen AI for exibida, clique em **Revisar contrato**.
-1. Insira o nome e o endereço de email da pessoa da sua organização que assinará o contrato de IA de geração da Adobe.
+1. Como administrador do Workfront, clique no ícone do Assistente de IA ![Ícone do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Comece a digitar no painel do Assistente de IA.
+1. Quando a mensagem do contrato de IA generativa da Adobe for exibida, clique em **Revisar contrato**.
+1. Insira o nome e o endereço de e-mail da pessoa da sua organização que assinará o contrato de IA generativa da Adobe.
 
-   O contrato será enviado a este indivíduo para assinatura. Depois de assinado e devolvido, o contrato é revisado pela Adobe e o Assistente de IA é ativado para a sua organização.
+   O contrato será enviado a essa pessoa para assinatura. Após ser assinado e devolvido, o contrato é revisado pela Adobe e, em seguida, o Assistente de IA é habilitado para a sua organização.
 
    >[!NOTE]
    >
-   >Aguarde de 1 a 3 dias úteis após a assinatura e a devolução do contrato para que o Adobe revise e ative o Assistente de IA.
+   >Aguarde de 1 a 3 dias úteis após a assinatura e a devolução do contrato para que a Adobe revise e habilite o Assistente de IA.
 
 ## Dicas para criar prompts no Assistente de IA
 
-Use as seguintes palavras-chave em seus prompts para fornecer contexto e ajudar a localizar as informações corretas. As palavras-chave não diferenciam maiúsculas de minúsculas.
+Use as seguintes palavras-chave nos seus prompts para fornecer contexto e ajudar a localizar as informações corretas. As palavras-chave não diferenciam maiúsculas de minúsculas.
 
 Ao inserir seu prompt, inclua a frase `using (keyword)`.
 
 | Palavra-chave | Efeito |
-|---|---|
-| `workfront` | Interage com o Workfront. |
-| `planning` | Interage com o Workfront Planning. |
+| --- | --- | 
+| `workfront` | Interagir com o Workfront. |
+| `planning` | Interagir com o Workfront Planning. |
 | `help` | Retorna informações da documentação do Experience League. |
-| `formula` | Verifica e retorna fórmulas para uso em formulários do Planning, de Configuração ou personalizados. |
-| `health` | Verifica a integridade do projeto com o Supervisor de Integridade do Projeto. |
-| `summarize` | Resume itens, como ao carregar um arquivo ou resumir um projeto. |
+| `formula` | Verifica e retorna fórmulas para uso no Planning, na Configuração ou em formulários personalizados. |
+| `health` | Verifica a integridade do projeto com o Project Health Advisor. |
+| `summarize` | Resume itens, como ao fazer upload de um arquivo ou resumir um projeto. |
 
 >[!NOTE]
 >
 > Nem todas as palavras-chave estão disponíveis em todas as áreas.
 >
->* A palavra-chave `formula` está disponível apenas no Planning, na Instalação e no Construtor de formulários Personalizados.
->* A palavra-chave `planning` está disponível somente no Workfront Planning.
+>* A palavra-chave `formula` está disponível apenas no Planning, na Configuração e no construtor de formulários personalizados.
+>* A palavra-chave `planning` está disponível apenas no Workfront Planning.
 
 
 

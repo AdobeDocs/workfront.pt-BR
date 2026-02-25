@@ -1,20 +1,22 @@
 ---
-title: Ativar ou desativar o Assistente de IA
+title: Habilitar ou desabilitar o Assistente de IA
 content-type: reference
 description: Você pode controlar quais níveis de acesso na organização têm acesso ao Assistente de IA.
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e8e10f02f77f6c1df9f0af380eb16cc6bbc3b5d1
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 9%
+source-wordcount: '308'
+ht-degree: 14%
 
 ---
 
-# Ativar ou desativar o Assistente de IA
+# Habilitar ou desabilitar o Assistente de IA
 
 Como administrador do Workfront, você pode controlar quais usuários em sua organização têm o Assistente de IA ativado. Isso é gerenciado pelos níveis de acesso.
+
+Você deve ativar o Assistente de IA para sua organização antes de ativá-lo para um nível de acesso.
 
 ## Requisitos de acesso
 
@@ -44,7 +46,22 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Ativar ou desativar o Assistente de IA no Workfront
+## Ativar ou desativar o Assistente de IA para sua organização
+
+Para ativar o Assistente de IA para sua organização:
+
+{{step-1-to-setup}}
+
+1. Selecione **Sistema** na navegação à esquerda e **Preferências**.
+1. Role para baixo até a seção **Preferências de IA**.
+1. Ative o botão **Habilitar IA**.
+
+>[!IMPORTANT]
+>
+>Você deve ter assinado um contrato Gen AI em arquivo com a Adobe antes de usar o Assistente de IA.
+>Para obter mais informações sobre o Contrato de IA de geração, consulte [Assinar o contrato de IA de geração da Adobe](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) no artigo Assistente de IA na Workfront.
+
+## Ativar ou desativar o Assistente de IA para um nível de acesso
 
 Para ativar o Assistente de IA para um determinado nível de acesso:
 
