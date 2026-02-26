@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
 workflow-type: tm+mt
 source-wordcount: '3588'
 ht-degree: 2%
@@ -597,7 +597,6 @@ Ao exibir a visualização de tabela, você também pode visualizar qual campo o
    ![Conexão de avatar e campo da tabela de indicadores em tempo real](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
 <!--maybe include a screen shot after release if they update the UI text in this list of users-->
-
 
 1. <span class="preview">(Opcional) Clique no triângulo no canto superior direito da célula que contém o campo editado por outros. Uma lista de usuários editando atualmente o campo é exibida.</span>
 
