@@ -8,20 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 796c7e0a15a7a26c5cd3f0115d72946f0f28bcf2
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 0%
+source-wordcount: '1353'
+ht-degree: 4%
 
 ---
 
-# Organizar e visualizar um formulário
+# Organizar e pré-visualizar um formulário
+
+{{preview-fast-release-general}}
 
 Você pode organizar um formulário personalizado com o designer do formulário e visualizá-lo para verificar se ele está configurado corretamente.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +35,7 @@ Você pode organizar um formulário personalizado com o designer do formulário 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   <tr> 
@@ -81,6 +83,10 @@ Para obter informações sobre campos e widgets personalizados em formulários p
       <td role="rowheader">Descrição</td> 
       <td>Digite texto se quiser explicar aos usuários para que serve a seção. É exibido abaixo do rótulo da seção no formulário personalizado.</td> 
      </tr> 
+      <td><span class="preview">Recolhido por padrão</span></td>
+      <td><span class="preview">Por padrão, todas as seções em um formulário personalizado são expandidas quando o próprio formulário é expandido. Selecione essa opção para que a seção seja recolhida por padrão quando um usuário abrir o formulário.</span></td>
+     <tr>
+     </tr>
      <tr> 
       <td role="rowheader"> <p>Conceder acesso</p> </td> 
       <td> <p> Selecione as permissões que os usuários precisam em um objeto ao qual o formulário personalizado está anexado para exibir esta seção e editar seus valores de campo. 
