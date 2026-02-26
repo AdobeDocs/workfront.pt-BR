@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 0%
+source-wordcount: '2556'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão 2
 
 Essas melhorias estão disponíveis no ambiente de Pré-visualização e serão disponibilizadas no ambiente de Produção na semana de 30 de março de 2020.
 
-Para baixar esta página no formato PDF, clique [aqui](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).
+<!--To download this page in PDF format, go [here](https://documentation.my.workfront.com/library/a/9f5c9e44-c9a9-4f33-beec-9e5dc2e0fdc2).-->
 
 Algumas funcionalidades foram lançadas antes da versão 2020.1. Para ver o que foi lançado antes da versão 2020.1, consulte [Outros recursos do Workfront Classic lançados para produção antes da versão 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md).
 
@@ -58,7 +58,7 @@ Algumas funcionalidades foram lançadas antes da versão 2020.1. Para ver o que 
 * [Aprimoramentos do projeto](#project-enhancements)
 * [Aprimoramentos da revisão](#proofing-enhancements)
 * [Aprimoramentos móveis](#mobile-enhancements)
-* [Outras melhorias](#other-enhancements)
+* [Outros aprimoramentos](#other-enhancements)
 
 ### Aprimoramentos de lista {#list-enhancements}
 
@@ -164,7 +164,7 @@ Algumas funcionalidades foram lançadas antes da versão 2020.1. Para ver o que 
  </tbody> 
 </table>
 
-### Aprimoramentos do projeto {#project-enhancements}
+### Aprimoramentos de projeto {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -269,7 +269,7 @@ Algumas funcionalidades foram lançadas antes da versão 2020.1. Para ver o que 
  </tbody> 
 </table>
 
-### Outras melhorias {#other-enhancements}
+### Outros aprimoramentos {#other-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -280,7 +280,7 @@ Algumas funcionalidades foram lançadas antes da versão 2020.1. Para ver o que 
    <td> <p><strong>Datas de lançamento</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#change" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Alteração necessária para adicionar provas à inclui na lista de permissões</a><!--
+   <td> <p><a href="../../../product-announcements/product-releases/2020.1-release-activity/2020-1-other-enhancements.md#change" class="MCXref xref" xrefformat="{para}" data-mc-conditions="OnlineOrPDF.OnlineOnly">Alteração necessária para adicionar provas ao incluo na lista de permissões</a><!--
       <a href="https://experience.workfront.com/s/article/2020-1-Other-enhancements-1407923545?language=en_US&amp;r=13&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Change required for whitelisting proofs</a>
      --> </p> <p>O domínio de comprovação está alterando from proofhq.com para workfront.com. </p> </td> 
    <td> <p>Versão de pré-visualização do Beta: 10 de março de 2020</p> <p>Versão de produção: com a versão 2020.1 <span style="color: #ff0000;">(Removida da versão)</span></p> </td> 
@@ -331,13 +331,13 @@ As ferramentas de agendamento de recursos têm a mesma funcionalidade que o cale
 >O Agendamento de recursos foi substituído e removido do Workfront.
 
 
-## Atualizações de manutenção do Workfront 
+## Atualizações de manutenção do Workfront
 
 Para obter informações sobre as atualizações de manutenção feitas durante a versão 2020.1, consulte [Atualizações de manutenção do Workfront](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
 ## Anúncios
 
-* incluir na lista de permissões [Adicionar mais domínios ao arquivo de necessário para acessar o Workfront](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
+* [Adicionar outros domínios ao incluo na lista de permissões necessário para acessar o Workfront](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
 * Webinar da Versão [2020.1](#2020-1-release-webinar)
 * [Webinar do roteiro de produtos do primeiro trimestre](#q1-product-roadmap-webinar)
@@ -345,20 +345,20 @@ Para obter informações sobre as atualizações de manutenção feitas durante 
 * [O suporte para TLS 1.0 e 1.1 está terminando](#tls-1-0-and-1-1-support-is-ending)
 * [Remoção de aplicativo Flash](#flash-application-removal)
 
-### Adicionar outros domínios ao incluo na lista de permissões necessário para acessar o Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
+### Adicionar domínios adicionais ao incluo na lista de permissões necessário para acessar o Workfront {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
 Se sua organização usar um firewall, você deverá adicionar os seguintes domínios adicionais ao incluo na lista de permissões para garantir acesso ininterrupto ao Workfront:
 
 * event.split.io
 * sdk.split.io
 
-Incluir na lista de permissões Para obter mais informações, consulte [Configurar o arquivo do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Para obter mais informações, consulte [Configurar incluo na lista de permissões do firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ### Workfront One {#workfront-one}
 
 Com o Workfront One, você descobrirá o conteúdo, os recursos e as notícias mais importantes da Workfront — tudo em um único local, com um único logon. Unificamos os sites de Experiência, Comunidade e Treinamento, facilitando encontrar o que você está procurando.
 
-[Saiba mais sobre o Workfront One](https://business.adobe.com/br/products/workfront.html).
+[Saiba mais sobre o Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinário da versão 2020.1 {#2020-1-release-webinar}
 
@@ -366,7 +366,7 @@ Veja aqui a gravação do webinário da versão 2020.1.
 
 ### Webinário do roteiro de produtos do primeiro trimestre {#q1-product-roadmap-webinar}
 
-Saiba mais sobre o que está por vir durante o [webinário do Roteiro do primeiro trimestre](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Esse webinário será realizado em 26 de março de 2020 às 9h. MT. Clique no link para se registrar
+Saiba mais sobre o que está por vir durante o [webinário do Roteiro do primeiro trimestre](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Esse webinário será realizado em 26 de março de 2020 às 9:00a.m. MT. Clique no link para se registrar
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 4c12d32523bcca10962b56d9abd5854e8400ce3f
+source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 51%
@@ -72,7 +72,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>sexta-feira, 29 de janeiro de 2026</p></td>
         <td><p>sexta-feira, 12 de fevereiro de 2026</p>
             <p>Esse recurso foi removido temporariamente do ambiente de Produção do em 13 de fevereiro de 2026.</p></td>
-        <td><p>sexta-feira, 16 de abril de 2026</p></td>
+        <td><p>A ser definido</p></td>
     </tr>
     <tr>
         <td>

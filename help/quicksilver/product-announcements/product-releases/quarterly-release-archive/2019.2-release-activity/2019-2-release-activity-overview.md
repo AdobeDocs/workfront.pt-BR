@@ -7,16 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: baa50860-e23a-4be8-8192-f0400099294f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 255b4b83b6d1d37bb6ffff975f1b1f44130170bc
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
 
 # Visão geral da atividade da versão 2019.2
 
-Esta página fornece informações sobre a funcionalidade incluída na versão 2019.2 do. Para baixar este conteúdo no formato PDF, clique [aqui](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
+Esta página fornece informações sobre a funcionalidade incluída na versão 2019.2.<!-- To download this content in PDF format, go [here](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).-->
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ A versão 2019.2 contém melhorias para administradores do sistema e outros usu�
   Um novo nível de acesso agora está disponível para o Gerenciamento de recursos, permitindo que os usuários com uma licença de Plano editem o acesso.
 
 
-* [Ordenar projetos por prioridades de Portfolio no Planejador de recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#order)
+* [Ordenar projetos por prioridades da Portfolio no Planejador de recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#order)
 
   Agora é possível ordenar projetos por prioridade de portfólio no Planejador de recursos.
 
@@ -55,7 +55,7 @@ A versão 2019.2 contém melhorias para administradores do sistema e outros usu�
 
   A experiência de filtragem no Planejador de recursos agora é mais simples quando você adiciona um novo campo (Grupo) aos critérios de filtro incorporados.
 
-* [Exibir prioridade de Portfolio no Planejador de recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#resource)
+* [Exibir a prioridade do Portfolio no Planejador de recursos](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-resource-management-enhancements.md#resource)
 
   Agora você pode ativar uma configuração no Planejador de recursos que permite exibir a prioridade do projeto de acordo com o portfólio ao qual ele está atribuído.
 
@@ -98,7 +98,7 @@ A versão 2019.2 contém melhorias para administradores do sistema e outros usu�
 
   A extensão do Workfront para Adobe Creative Cloud agora inclui a integração com a Biblioteca da Workfront.
 
-* [Workfront para melhorias do Microsoft Teams](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-integration-enhancements.md#workfron)
+* [Melhorias no Workfront for Microsoft Teams](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-integration-enhancements.md#workfron)
 
   Agora é possível enviar solicitações de trabalho e gerenciar as notificações do Workfront ao usar o Workfront para Microsoft Teams.
 
@@ -136,7 +136,7 @@ A versão 2019.2 contém melhorias para administradores do sistema e outros usu�
 * [Biblioteca Workfront Disponível Agora](#workfront-library-now-available)
 * [Não há mais suporte para a versão 3 da API](#api-version-3-no-longer-supported)
 * [O Suporte do TLS Está Terminando](#tls-support-is-ending)
-* [Remoção de Aplicativo de Flash](#flash-application-removal)
+* [Remoção de Aplicativo Flash](#flash-application-removal)
 * [Várias Opções de Logon Único a Serem Removidas](#various-single-sign-on-options-to-be-removed)
 
 ### Biblioteca Workfront disponível agora {#workfront-library-now-available}
@@ -153,7 +153,7 @@ Para fornecer segurança ideal, o Workfront exige que todas as integrações e o
 
 Para obter mais informações, consulte [TLS 1.2 a ser necessário no Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
-### Remoção de aplicativo do Flash {#flash-application-removal}
+### Remoção de aplicativo Flash {#flash-application-removal}
 
 Todas as funcionalidades que dependem da tecnologia Flash foram removidas do Workfront desde a versão 2018.3 e substituídas por uma nova solução.
 

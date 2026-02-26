@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: e716869407ff88b090b223708c688c7ed0da3e8e
+source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 3%
+source-wordcount: '358'
+ht-degree: 6%
 
 ---
 
@@ -20,6 +20,12 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 ## Recolher seção de formulário personalizado por padrão
 
+>[!NOTE]
+>
+>Visualização: 26 de fevereiro de 2026
+>Versão rápida de produção: sexta-feira, 12 de março de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
 Por padrão, todas as seções em um formulário personalizado são expandidas quando o próprio formulário é expandido. Uma nova opção no designer de formulário personalizado permite marcar uma seção para ser recolhida por padrão quando um usuário abrir o formulário. Essa opção é aplicada no nível da seção, não em campos.
 
 Para obter mais informações, consulte [Organizar e visualizar um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
@@ -29,7 +35,7 @@ Para obter mais informações, consulte [Organizar e visualizar um formulário](
 >[!NOTE]
 >
 >Visualização: 29 de janeiro de 2026
->Versão rápida de produção: a ser definida
+>Versão rápida de produção: sexta-feira, 12 de fevereiro de 2026
 >Produção para todos: a ser definida
 >
 >Esse recurso foi removido temporariamente do ambiente de Produção do em 13 de fevereiro de 2026.
