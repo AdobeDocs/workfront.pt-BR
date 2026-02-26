@@ -6,19 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 1%
+source-wordcount: '1342'
+ht-degree: 0%
 
 ---
 
 
 # Gerenciar a exibição de lista no Adobe Workfront Planning
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -114,8 +114,8 @@ Para obter mais informações sobre como gerenciar exibições de lista no Workf
       >
       >* Não é possível modificar as Exibições de sistema.
       >
-      <!--For Feb 26 and add the Preview disclaimer at the top: * <span class="preview">You can reset a view that was shared with you after you modified it to restore its original preferences, or you can copy it with your changes and share the copy. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
-        -->
+      >* <span class="preview">Você pode redefinir um modo de exibição que foi compartilhado com você depois de modificá-lo para restaurar suas preferências originais, ou pode copiá-lo com suas alterações e compartilhar a cópia. Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+
    1. Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-icon.png) para adicionar um filtro ao modo de exibição. Os resultados são filtrados imediatamente na lista. Não é possível salvar e nomear filtros. Os filtros são lembrados quando você acessa a página no futuro e fazem parte de exibições compartilhadas.
    1. Clique no ícone **Colunas** ![Ícone Colunas](assets/columns-icon.png) para selecionar quais colunas exibir ou ocultar no modo de exibição.
    1. Passe o mouse sobre o nome de uma coluna, clique na seta para baixo à esquerda do nome da coluna e clique em uma das seguintes opções:
@@ -129,35 +129,41 @@ Para obter mais informações sobre como gerenciar exibições de lista no Workf
 Não é possível remover o campo principal na exibição de lista exibida na primeira coluna.
 
 
-   <!--For Feb 26: make available at release and fix the formatting - this will be broken, if not: 
-    1. <span class="preview">Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens. (*********change the name of the box when they update it***********)</span>
-        <span class="preview">Do the following: </span>
-        <div class="preview">
-        1. In the **If** line, click **Add condition**, then select a field you want to format by and choose a field value. 
-            >[!TIP]
-            >
-            >Only fields visible in the list view are available for conditional formatting.
-        1. (Optional) Click **Add condition** in the **If** line to add more conditions to same rule. 
-            >[!TIP]
-            >
-            >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
-        1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.  
-        1. In the **Format** line, select a field to indicate which column will be formatted. (*******edit this area, if it changes names??***********)
-        1. (Optional) Click the **color circle** icon ![Color circle icon](assets/color-circle.png) next to the field selected, to expand it and choose another color.
-        1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions. 
-        1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above. 
-        1. (Optional) Click **Clear all** to remove all formatting.
-        1. Click outside the **Format** box to close it. 
-            This returns you to the list view. 
-            The formatting is applied immediately to the list view.
-            There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
-        </div>
-    -->
+   1. <span class="preview">Clique no ícone **Formatar células** ![Ícone Formatar células](assets/format-cells-icon.png). A caixa **Formato** é aberta.</span> <!--change the name of the box when they update it-->
+      <span class="preview">Faça o seguinte: </span>
+
+      <div class="preview">
+
+      1. Na linha **If**, clique em **Adicionar condição**, selecione um campo pelo qual deseja formatar e escolha um valor de campo.
+
+         >[!TIP]
+         >
+         >Somente os campos visíveis na exibição de lista estão disponíveis para formatação condicional.
+
+      1. (Opcional) Clique em **Adicionar condição** na linha **If** para adicionar mais condições à mesma regra.
+
+         >[!TIP]
+         >
+         >É possível adicionar até 10 condições em uma regra de condição e até 20 regras para um campo.
+
+      1. Clique no conector **Or** entre as condições para alterar para **And** e indicar que várias condições devem ser atendidas ao mesmo tempo. **Or** é o conector padrão.
+      1. Na linha **Formatar**, selecione um campo para indicar qual coluna será formatada. <!--edit this area, if it changes names??-->
+      1. (Opcional) Clique no **ícone do círculo de cores** ![ícone do círculo de cores](assets/color-circle.png) ao lado do campo selecionado para expandi-lo e escolher outra cor.
+      1. Ative a configuração **Aplicar à linha** para aplicar a formatação à linha inteira do campo que atende às condições.
+      1. (Opcional) Clique em **Adicionar condição** na caixa **Formatar** para adicionar outra regra a outro campo e repetir as etapas acima.
+      1. (Opcional) Clique em **Limpar tudo** para remover toda a formatação.
+      1. Clique fora da caixa **Formatar** para fechá-la.
+
+         Isso retornará à exibição em lista.
+A formatação é aplicada imediatamente à exibição de lista.
+Há um ponto azul ao lado do ícone **Formatar células** para indicar que a exibição tem formatação especial aplicada.
+
+      </div>
 
 1. (Opcional) Adicione uma palavra-chave na caixa de pesquisa no canto superior direito da lista para procurar um item.
 
-
    Os itens que correspondem ao termo de pesquisa são destacados na lista.
+
 1. (Opcional) Para adicionar mais itens à lista e conectá-los automaticamente ao registro selecionado, siga um destes procedimentos:
 
    * Clique em **Conectar registros** no canto superior direito da lista para adicionar itens existentes.

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
 workflow-type: tm+mt
-source-wordcount: '3508'
+source-wordcount: '3588'
 ht-degree: 2%
 
 ---
@@ -504,9 +504,7 @@ Para adicionar um agrupamento:
 
    ![Agrupamento aplicado na exibição de tabela](assets/grouping-applied-in-table-view.png)
 
-   <!--For Feb 26, and change indent to the left:
-    1. <span class="preview">(Optional) Choose A-Z or Z-A from the sorting drop-down menu to the right of a selected field. This sorts the groupings in the timeline, accordingly.</span>
-    -->
+1. <span class="preview">(Opcional) Escolha A-Z ou Z-A no menu suspenso de classificação à direita de um campo selecionado. Isso classifica os agrupamentos na linha do tempo.</span>
 
 1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
@@ -600,15 +598,13 @@ Ao exibir a visualização de tabela, você também pode visualizar qual campo o
 
 <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
-<!--For Feb 26: 
 
-1. <span class="preview">(Optional) Click the triangle in the upper-right corner of the cell that contains the field edited by others. A list of users currently editing the field displays.</span> 
+1. <span class="preview">(Opcional) Clique no triângulo no canto superior direito da célula que contém o campo editado por outros. Uma lista de usuários editando atualmente o campo é exibida.</span>
 
 >[!TIP]
 >
-><span class="preview">Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.</span>
+><span class="preview">Os indicadores de presença em tempo real exibem os usuários que atualmente estão editando um campo em qualquer lugar do Workfront Planning. Isso inclui a exibição de tabela ou a área Detalhes do registro.</span>
 
--->
 
 
 
