@@ -1,24 +1,26 @@
 ---
-title: Use o Preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos
+title: Usar o Preenchimento de formulários com tecnologia de IA para preencher uma solicitação usando prompts ou documentos
 content-type: reference
 description: Você pode usar a IA para preencher automaticamente os campos de solicitação inserindo um prompt ou fornecendo um documento.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 8dc094718999af291443bd1a703cdc742d13f57e
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 3%
+source-wordcount: '1391'
+ht-degree: 10%
 
 ---
 
-# Use o Preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos
+# Usar o Preenchimento de formulários com tecnologia de IA para preencher uma solicitação usando prompts ou documentos
 
 >[!NOTE]
 >
 >Para usar essa funcionalidade, sua organização deve atender aos requisitos para usar o Assistente de IA da Workfront. Para obter detalhes, consulte [Pré-requisitos do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
 O Preenchimento de formulário de IA pode ajudar a preencher automaticamente os campos de solicitação com base em um prompt inserido. Ele também pode preencher campos com base em texto, como emails que são documentos carregados. Você pode aprovar ou rejeitar essas sugestões antes de enviar a solicitação.
+
+Essa funcionalidade está disponível ao criar uma solicitação na área Solicitações do Workfront e no Workfront Planning.
 
 ## Requisitos de acesso
 
@@ -29,13 +31,13 @@ O Preenchimento de formulário de IA pode ajudar a preencher automaticamente os 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Plano Adobe Workfront</td> 
    <td> <p>Qualquer </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p>
+   <td> <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p>
     </td> 
   </tr> 
   <tr> 
@@ -57,10 +59,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 Para usar o Preenchimento de formulário fornecido pela IA para preencher uma solicitação usando um prompt ou documento, **todos** os seguintes itens devem ser aplicados:
 
-* Sua organização deve ter migrado para o Adobe IMS (Identity Management System)
-* A Experiência unificada do Adobe deve ser habilitada
-* Sua organização deve ter um plano Select, Prime ou Ultimate Workfront
-* A Adobe deve ter um contrato de geração de IA da Adobe assinado no arquivo
+* Sua organização deve ter migrado para o Adobe IMS (Sistema de Gerenciamento de Identidades)
+* A Adobe Unified Experience deve estar habilitada
+* Sua organização deve ter um plano Select, Prime ou Ultimate do Workfront
+* A Adobe deve ter um contrato de IA generativa da Adobe assinado em arquivo
 
   Para obter mais informações sobre como assinar o contrato, consulte [Assinar o contrato de IA de geração da Adobe](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) no artigo Visão geral do Assistente de IA.
 * O Assistente de IA deve estar ativado nas configurações do sistema de sua organização. Ele é gerenciado pelo administrador do Workfront.

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: b55cb2df33ebba0d61d4254f17a49f92b7d6553e
 workflow-type: tm+mt
-source-wordcount: '2200'
-ht-degree: 0%
+source-wordcount: '2252'
+ht-degree: 1%
 
 ---
 
@@ -154,6 +154,9 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
 
    Uma janela é aberta com o nome do formulário de solicitação na parte superior.
 1. Atualize os campos disponíveis no formulário de solicitação. Os campos com um asterisco vermelho são obrigatórios.
+1. (Condicional) Se sua organização permitir o Preenchimento de formulário fornecido pela IA, você poderá carregar documentos como prompts. A IA usa esses documentos para preencher o formulário e você pode aceitar ou rejeitar as sugestões da IA.
+
+   Para obter instruções, consulte [Usar preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 1. Clique em **Enviar**.
 
    O formulário de solicitação é fechado e você retorna à área **Solicitações**.
