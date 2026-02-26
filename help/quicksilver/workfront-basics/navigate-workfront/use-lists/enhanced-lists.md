@@ -5,14 +5,16 @@ description: As listas aprimoradas usam um formato de tabela para exibir os iten
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ee5bb3cbf6a69b85c3d6b87500164f85a1ba114a
+source-git-commit: 2b01a9b4c697ae814ff894120fcc61df1a461e4e
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '2342'
 ht-degree: 2%
 
 ---
 
 # Usar listas aprimoradas
+
+{{preview-fast-release-general}}
 
 As listas aprimoradas estão disponíveis em algumas áreas do Adobe Workfront. Essas listas usam um formato de tabela para exibir os itens de lista e têm uma aparência diferente das listas padrão. O gerenciamento de visualizações também é aprimorado, incluindo filtragem, agrupamento, gerenciamento de colunas e pesquisa.
 
@@ -37,8 +39,8 @@ Para obter informações sobre as listas padrão, consulte [Introdução a lista
   <tr> 
    <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p></td>
+   <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p></td>
   </tr>
  </tbody> 
 </table>
@@ -56,10 +58,11 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 >Esta lista não é abrangente. Cada uma dessas listas de objetos também pode aparecer em um relatório ou painel. Por exemplo, um relatório de Solicitação ou um painel que contém um relatório de Solicitação também exibe uma lista de solicitações.
 
 | lista do Workfront | Local da lista de objetos |
-|--- |--- |
+| --- | --- |
 | Prioridades | <ul><li>Início > selecione o ícone Prioridades no menu esquerdo</li><li>Menu principal > Prioridades</li></ul> |
 | Lista de solicitações | <ul><li>Solicitações (somente nova experiência)</li><li>Widget Minhas solicitações na página inicial</li></ul> |
 | Listas de status, prioridades, severidades e taxas de câmbio em Configuração | <ul><li>Configuração > Preferências do Projeto > Status</li><li>Configuração > Preferências do Projeto > Prioridades</li><li>Configuração > Preferências do Projeto > Severidades</li><li>Configuração > Preferências do Projeto > Taxas de Câmbio</li></ul> |
+| <span class="preview">Lista de relatórios</span> | <span class="preview">Menu Principal > Relatórios</span> <p><span class="preview">O formato de lista aprimorado só é aplicado quando **Usar pastas compartilháveis** está ativado. Para obter informações, consulte [Usar pastas de relatórios compartilháveis](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).</span> |
 
 ## Adicionar itens a uma lista aprimorada
 
@@ -141,6 +144,18 @@ Dependendo dos objetos que você está visualizando em uma lista aprimorada, é 
 
    ![Indicador para colunas ocultas](assets/glist-columns-hidden-indicator.png)
 
+### Renomear colunas
+
+Algumas colunas permitem salvar um nome personalizado para o título da coluna.
+
+1. Passe o mouse sobre a coluna, clique na seta para baixo e selecione **Renomear**.
+
+   ![Selecionar Renomear na coluna](assets/glist-rename-or-sort-column.png)
+
+1. Na caixa de diálogo **Renomear**, digite o nome da coluna no campo **Rótulo personalizado** e clique em **Salvar**.
+
+   O novo nome da coluna aparece na lista.
+
 ## Adicionar e remover colunas com o Gerenciador de colunas
 
 Você pode usar o **Gerenciador de colunas** em algumas listas aprimoradas para adicionar e remover facilmente colunas na lista. Você pode adicionar ou remover campos personalizados e do sistema que já existem no Workfront como colunas para uma lista aprimorada.
@@ -163,51 +178,44 @@ Para adicionar e remover colunas:
 
    A lista atualiza as colunas de acordo com as escolhas feitas.
 
-## Exibir dados com exibições em uma lista aprimorada
+## Atualizar elementos de lista aprimorados
 
-Uma exibição é um conjunto personalizado de arranjos e filtros de coluna que você pode aplicar a uma lista. Você pode criar novas visualizações e editar visualizações existentes.
+Os seguintes elementos são componentes de uma lista aprimorada:
+
+* Exibir: define as colunas, os filtros e os agrupamentos na lista com configurações predefinidas
+* Filtros: limita a quantidade de informações exibidas na lista
+* Agrupamentos: organize os itens da lista de acordo com campos comuns
+* Classificar: organiza os itens em uma lista de acordo com a ordem identificada para um determinado campo
+* Pesquisa: localiza rapidamente um item usando uma palavra-chave de pesquisa
 
 ### Aplicar e criar visualizações
 
-Para aplicar uma exibição, clique na lista suspensa **Exibições** e selecione a exibição que deseja aplicar à lista.
+>[!NOTE]
+>
+>Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
 
-Para criar uma nova view:
+Para aplicar ou criar uma view:
 
-1. Clique na lista suspensa **Exibições** e selecione **Nova exibição**.
-1. Insira um nome para o modo de exibição e clique em **Criar**.
+1. Clique na lista suspensa **Exibições** e selecione uma exibição existente para aplicá-la à lista
+
+   OR
+
+   Clique em **Novo modo de exibição** para criar um.
+
+1. (Condicional) Para adicionar um novo modo de exibição, insira um nome para o modo de exibição e clique em **Criar**.
 1. (Opcional) Oculte, exiba ou reorganize as colunas. Para obter mais informações, consulte [Personalizar colunas em uma lista aprimorada](#customize-columns-in-an-enhanced-list).
-1. (Opcional) Filtre e agrupe os itens da lista. Para obter mais informações, consulte [Filtrar e agrupar itens em uma lista aprimorada](#filter-and-group-items-in-an-enhanced-list).
+1. (Opcional) Filtre a lista. Para obter mais informações, consulte [Filtrar itens em uma lista aprimorada](#filter-items-in-an-enhanced-list).
+1. (Opcional) Agrupe os itens na lista. Para obter mais informações, consulte [Agrupar itens em uma lista aprimorada](#group-items-in-an-enhanced-list).
 
-   As alterações nas exibições são salvas automaticamente e ficam visíveis para qualquer pessoa que use a exibição.
+   As alterações nas exibições são salvas automaticamente. Na próxima vez que você aplicar essa visualização, as configurações de coluna e filtro permanecerão da maneira definida.
 
-   Na próxima vez que você aplicar essa visualização, as configurações de coluna e filtro permanecerão da maneira definida.
+### Filtrar itens em uma lista aprimorada
 
-### Compartilhar uma exibição
+>[!NOTE]
+>
+>Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
 
-Na lista suspensa **Exibições**, você pode ver três categorias de exibições:
-
-* **Exibições do Sistema**: exibições que o administrador do sistema atribuiu a você.
-* **Exibições compartilhadas**: exibições que foram compartilhadas com você por outros usuários.
-* **Minhas Exibições**: Exibições que você criou e pode compartilhar com outras pessoas. Você pode compartilhar visualizações com outros usuários, equipes ou grupos.
-
-Para compartilhar uma exibição:
-
-1. Na lista suspensa **Exibições**, passe o mouse sobre a exibição em **Minhas Exibições** que você deseja compartilhar, depois clique no menu de três pontos quando ele aparecer.
-1. Selecione **Compartilhar**.
-1. Na caixa de diálogo Compartilhar, digite os nomes dos usuários, equipes ou grupos com os quais deseja compartilhar a exibição e selecione-os na lista quando eles forem exibidos.
-
-   Você pode conceder as seguintes permissões aos recipients:
-
-   * **Modo de exibição**: os usuários podem aplicar o modo de exibição à lista, mas não podem compartilhá-lo.
-   * **Gerenciar**: os usuários podem renomear o modo de exibição, compartilhá-lo com outras pessoas e excluí-lo.
-
-1. Clique em **Salvar**.
-
-## Filtrar e agrupar itens
-
-Os filtros ajudam a reduzir a quantidade de informações exibidas na lista. Agrupamentos separam os objetos na lista em áreas com base em critérios específicos.
-
-### Usar filtros
+Os filtros ajudam a reduzir a quantidade de informações exibidas na lista.
 
 1. Clique em **Filtro** acima da lista.
 1. Na caixa Filtro, clique em **Adicionar condição**.
@@ -223,20 +231,32 @@ Os filtros ajudam a reduzir a quantidade de informações exibidas na lista. Agr
    >
    >Para aplicar um curinga de usuário atual, selecione **Eu (usuário conectado)** como o valor do campo. O filtro será aplicado ao usuário que está visualizando a lista. Esse curinga está disponível em campos nos quais o valor é um usuário.
 
-1. Clique em **Adicionar condição** para adicionar outra condição ao filtro como uma instrução OR.
+1. Clique em **Adicionar condição** para adicionar outra condição ao filtro.
+
+   É possível unir vários filtros por um conector AND ou OR.
+
 1. Quando o filtro for aplicado, você poderá abrir as opções **Filtro** novamente para alterar as opções de filtro ou limpar todos os filtros.
 
    Um indicador é exibido no botão **Filtro** quando um filtro é aplicado à lista.
 
    ![Indicador aplicado de filtro](assets/glist-filter-applied-indicator.png)
 
-### Usar agrupamentos
+### Agrupar itens em uma lista aprimorada
+
+>[!NOTE]
+>
+>Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
+
+Agrupamentos separam os objetos na lista em áreas com base em critérios específicos.
+
+O Workfront fornece um número limitado de agrupamentos predefinidos e você não pode modificá-los.
 
 1. Clique em **Grupo** acima da lista.
 1. Selecione um agrupamento para organizar sua lista.
 
    ![Selecionar um agrupamento](assets/glist-grouping-choose-a-group-by.png)
 
+1. Clique em **Recolher tudo** para exibir a lista com todos os agrupamentos recolhidos. A opção padrão é exibir a lista com todos os agrupamentos expandidos.
 1. Quando o agrupamento é aplicado, você pode abrir as opções de Grupo novamente para recolher ou expandir todos os agrupamentos de uma vez, alterar o agrupamento para agrupar por um campo diferente ou limpar todos os agrupamentos.
 
    ![Agrupamento em listas aprimoradas](assets/glist-group-by-due-date-priorities.png)
@@ -245,11 +265,15 @@ Os filtros ajudam a reduzir a quantidade de informações exibidas na lista. Agr
 
    ![Indicador de agrupamento aplicado](assets/glist-grouping-applied-indicator.png)
 
-## Classificar e pesquisar em uma lista aprimorada
+### Classificar em uma lista aprimorada
+
+>[!NOTE]
+>
+>Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
 
 Para classificar colunas individuais:
 
-1. Vá para a coluna e clique na seta para baixo.
+1. Passe o mouse sobre a coluna, clique na seta para baixo e selecione **Classificar**.
 
    Um ícone ao lado de um nome de coluna indica que a lista é classificada pelos valores dessa coluna e a direção da classificação.
 
@@ -261,12 +285,97 @@ Para classificar colunas individuais:
 
 Para classificar seu trabalho em um agrupamento:
 
-1. Clique em **Grupo** e selecione se deseja classificar em ordem crescente ou decrescente.
+1. Clique em **Grupo**, vá para a linha do agrupamento aplicado, clique na lista suspensa classificador e selecione uma ordem crescente ou decrescente.
 
    ![Classificar em um agrupamento](assets/sort-in-groups.png)
 
-Para pesquisar:
+### Pesquisar em uma lista aprimorada
 
-1. Digite o termo de pesquisa no campo de pesquisa acima da lista. Os resultados são destacados na lista à medida que você digita.
+>[!NOTE]
+>
+>Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
+
+1. digite a palavra-chave pela qual deseja pesquisar na caixa Pesquisar no canto superior direito da lista. Os resultados são destacados na lista à medida que você digita.
 
    ![Termo de pesquisa destacado](assets/glist-search-highlighted.png)
+
+   >[!NOTE]
+   >
+   >A pesquisa procura em todas as colunas em todos os itens da lista. Se a lista for longa, a pesquisa incluirá itens que talvez você precise rolar para ver. Quando a lista é filtrada, a pesquisa só verifica o que está sendo exibido no momento.
+
+### Compartilhar uma exibição
+
+>[!NOTE]
+>
+>Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
+
+Na lista suspensa **Exibições**, você pode ver três categorias de exibições:
+
+* **Exibições do Sistema**: exibições que o administrador do sistema atribuiu a você. Não é possível compartilhar visualizações do sistema.
+* **Exibições compartilhadas**: exibições que foram compartilhadas com você por outros usuários.
+* **Minhas Exibições**: Exibições que você criou e pode compartilhar com outras pessoas. Você pode compartilhar visualizações com outros usuários, equipes ou grupos.
+
+Quando você compartilha uma exibição, todos os elementos de exibição (colunas, filtros e agrupamentos) são incluídos.
+
+Para compartilhar uma exibição:
+
+1. Na lista suspensa **Exibições**, passe o mouse sobre a exibição em **Minhas Exibições** que você deseja compartilhar, clique no menu **Mais** ![Mais menu](assets/more-icon.png) e clique em **Compartilhar**.
+1. Na caixa de diálogo Compartilhar, digite os nomes dos usuários, equipes, grupos, empresas ou funções de trabalho com os quais deseja compartilhar a exibição e selecione-os na lista quando eles forem exibidos.
+
+   Você pode conceder as seguintes permissões aos recipients:
+
+   * **Modo de exibição**: os usuários podem aplicar o modo de exibição à lista, mas não podem compartilhá-lo.
+
+     <span class="preview">Quando os usuários do acesso de Visualização atualizam a visualização, essas alterações são salvas nas preferências pessoais do usuário. Um ponto azul no nome da exibição (nas **Exibições Compartilhadas** do usuário) mostra que atualizações pessoais são aplicadas à exibição.</span>
+
+   * **Gerenciar**: os usuários podem renomear, compartilhar ou excluir o modo de exibição e editar os seus elementos.
+
+     <span class="preview">Quando a opção Gerenciar acesso fizer alterações na exibição, todos os usuários que tiverem a exibição compartilhada com eles verão essas atualizações quando a exibição for aplicada à lista.</span>
+
+1. Clique em **Salvar**.
+
+   <span class="preview">Se você compartilhar um modo de exibição com um usuário e depois remover esse acesso, o modo de exibição será removido das **Exibições Compartilhadas** do usuário. Se o usuário tiver a exibição compartilhada aplicada à lista quando seu acesso for removido, a exibição padrão do sistema será aplicada.</span>
+
+<div class="preview">
+
+### Copiar uma exibição
+
+>[!NOTE]
+>
+>Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
+
+Quando uma exibição é compartilhada com você e você não tem permissão para editar, é possível copiar a exibição e salvá-la com um novo nome. Você deve primeiro fazer alterações na exibição antes de copiá-la.
+
+1. Na lista suspensa Exibições, passe o mouse sobre a exibição em **Exibições Compartilhadas** que você deseja copiar, clique no menu **Mais** ![Mais menu](assets/more-icon.png) e clique em **Copiar com preferências**.
+
+   Uma nova visualização é criada automaticamente. Ele usa o nome de exibição original com (cópia) no final e aparece na seção de exibições **Minhas Exibições**.
+
+   Você é o proprietário desta exibição e pode renomeá-la, editá-la, compartilhá-la ou excluí-la. Se o proprietário da visualização original remover o acesso compartilhado a ela, você ainda terá acesso a esta visualização criada.
+
+   >[!NOTE]
+   >
+   >A opção **Copiar com Preferências** só estará disponível depois que você fizer alterações em uma exibição que foi compartilhada com você.
+
+</div>
+
+<div class="preview">
+
+### Redefinir uma visualização
+
+>[!NOTE]
+>
+>Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
+
+Quando uma exibição é compartilhada com você e você não tem permissão para editar e atualiza essa exibição, é possível redefini-la para a exibição original.
+
+1. Na lista suspensa **Exibições**, passe o mouse sobre a exibição em **Exibições Compartilhadas** que você deseja redefinir, clique no menu **Mais** ![Mais menu](assets/more-icon.png) e clique em **Redefinir para o padrão**.
+
+   Os elementos de exibição (colunas, filtros e agrupamentos) são redefinidos para as configurações originais que foram compartilhadas com você.
+
+   >[!NOTE]
+   >
+   >A opção **Redefinir para o padrão** só estará disponível depois que você fizer alterações em uma exibição compartilhada com você.
+
+   ![Copiar e redefinir opções de exibição](assets/glist-copy-view-shared-with-you.png)
+
+</div>
