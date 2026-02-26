@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Gerencie seu trabalho e suas aprovações no Slack
+title: Gerenciar seu trabalho e suas aprovações no Slack
 description: Você pode acessar a Lista de trabalho da página inicial, revisar e concordar em trabalhar em tarefas e problemas e revisar ou tomar decisões sobre aprovações diretamente do Slack.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '937'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Para obter mais informações sobre a configuração de [!DNL Workfront] com [!D
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -157,6 +157,8 @@ Antes de gerenciar seu trabalho e suas aprovações do [!DNL Slack], você deve
    O botão [!UICONTROL Trabalhar nisto] desaparece.
 
 ## Gerenciar suas aprovações de [!DNL Slack] {#manage-your-approvals-from-slack}
+
+Aprovações refere-se a aprovações de documentos legados. Atualmente, não há suporte para aprovações de documentos unificados no [!DNL Microsoft Teams]. Para obter mais informações sobre os diferentes sistemas de aprovação no Workfront, consulte [Funcionalidade disponível para aprovações de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
 1. Faça logon em sua instância do [!DNL Slack] e em [!DNL Workfront] a partir de [!DNL Slack].\
    Para obter mais informações sobre como fazer logon no [!DNL Workfront] a partir de [!DNL Slack], consulte a seção &quot;Logon no [!DNL Workfront] a partir de [!DNL Slack]&quot; no [Acesso [!DNL Adobe Workfront] a partir de [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).

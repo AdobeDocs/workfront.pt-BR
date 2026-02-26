@@ -6,14 +6,14 @@ description: Receber [!DNL Adobe Workfront] notificações em [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 6178cabbf021fbf92bd8795c5c2bd0346801d64d
+source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 1%
+source-wordcount: '614'
+ht-degree: 6%
 
 ---
 
-# Receber [!DNL Adobe Workfront] notificações em [!DNL Slack]
+# Receber notificações do [!DNL Adobe Workfront] no [!DNL Slack]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** Linked to Accessing Workfront from Slack.***Some of this information is duplicating in Accessing Workfront from Slack (also screen shots))</p>
@@ -29,7 +29,7 @@ No entanto, você pode desabilitar [!DNL Workfront] notificações que poderá r
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,6 +76,12 @@ Antes de receber [!DNL Workfront] notificações em [!DNL Slack], você deve
    * [!UICONTROL Estou atribuído a uma nova tarefa ou problema]
    * [!UICONTROL Minha equipe foi atribuída a uma nova tarefa ou problema]
    * [!UICONTROL Recebi uma nova solicitação de aprovação ou acesso]
+
+     >[!NOTE]
+     >
+     >Aprovações refere-se a aprovações de documentos legados. Atualmente, não há suporte para aprovações de documentos unificados no [!DNL Slack]. Para obter mais informações sobre os diferentes sistemas de aprovação no Workfront, consulte [Funcionalidade disponível para aprovações de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
+
    * [!UICONTROL Alguém me inclui em uma atualização direcionada]
    * [!UICONTROL Quando alguém comentar em um thread, eu estarei]
    * [!UICONTROL Foi feita uma atualização em uma tarefa, problema ou projeto que eu assino]
