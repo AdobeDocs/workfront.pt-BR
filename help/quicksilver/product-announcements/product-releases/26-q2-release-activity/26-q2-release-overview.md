@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: b889ba54594275587c97fe3a5073f2e28df97350
+source-git-commit: 35f9c4012d8d47e6cd5402029ceaf487b1942ce9
 workflow-type: tm+mt
 source-wordcount: '1169'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -310,7 +310,7 @@ A versão 21 da API do Workfront foi lançada em 23 de outubro de 2025. Para a v
 >
 >Esta alteração na versão da API apresenta uma mudança significativa que pode afetar suas chamadas de API. Isso se deve ao fato de que a versão 21 da API usa a versão 2 das assinaturas de eventos.
 >
-> Para campos de seleção múltipla, a versão 2 das Assinaturas de evento sempre envia como matriz. A versão 1 enviava uma matriz se mais de um valor fosse selecionado. Se apenas um valor fosse selecionado, ela enviaria uma string.
+> Para campos de seleção múltipla, a versão 2 das Inscrições em eventos sempre é enviada como uma matriz. A versão 1 enviava uma matriz se mais de um valor fosse selecionado. Se apenas um valor fosse selecionado, ela enviaria uma string.
 
 Para obter informações sobre as novidades e atualizações, consulte [Novidades na versão 21 da API](/help/quicksilver/wf-api/api/new-api-version-21.md).
 
