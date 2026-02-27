@@ -10,20 +10,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 57632f1949e849aca3f26874382f1101b9b0cf89
 workflow-type: tm+mt
-source-wordcount: '1588'
-ht-degree: 14%
+source-wordcount: '1585'
+ht-degree: 16%
 
 ---
 
 # Funcionalidade disponível para cada tipo de objeto para vários níveis de acesso (Herdado)
 
-{{highlighted-preview}}
-
 >[!NOTE]
 >
->As informações neste artigo se referem aos níveis de acesso herdados. Para obter informações sobre os níveis de acesso atuais, consulte [Visão geral sobre novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>As informações contidas neste artigo referem-se aos níveis de acesso legados. Para obter informações sobre os níveis de acesso atuais, consulte [Visão geral dos novos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 As tabelas a seguir listam a funcionalidade disponível para cada tipo de objeto nos vários níveis de acesso.
 
@@ -506,7 +504,6 @@ Os tipos de licença de Solicitação e Usuário Externo não estão incluídos 
 | Gerenciar registros de cobrança | ✓ |  |  |
 | Gerenciar despesas | ✓ | ✓ |  |
 | Exibir dados financeiros | ✓&#42; | ✓&#42; | ✓&#42; |
-| <span class="preview">Gerenciar cartões de tarifa</span> | ✓ |  |  |
 | Exibir informações por Custo nas ferramentas de Planejamento de Recursos | ✓ |  |  |
 | Recursos de Orçamento nas ferramentas de Planejamento de Recursos&#42;&#42; | ✓ |  |  |
 | Exibir alocação de recursos nas ferramentas de Planejamento de Recursos&#42; | ✓ | ✓ | ✓ |
