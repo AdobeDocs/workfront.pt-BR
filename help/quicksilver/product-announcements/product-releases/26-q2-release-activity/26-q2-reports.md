@@ -4,10 +4,11 @@ description: Melhorias na geração de relatórios no segundo trimestre de 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8bcea5cec9f68deacc5f89ca7703303a1b00769f
+exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
+source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 11%
+source-wordcount: '428'
+ht-degree: 9%
 
 ---
 
@@ -31,29 +32,25 @@ O rótulo de campo personalizado destina-se à interface do sistema, enquanto o 
 
 Para obter mais informações, consulte [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-<!--
-
-## Shareable Report Folders
+## Pastas de Relatórios Compartilháveis
 
 >[!NOTE]
 >
->Preview: February 26, 2026
->Production fast release: March 12, 2026
->Production for everyone: April 16, 2026
+>Visualização: 26 de fevereiro de 2026
+>Versão rápida de produção: sexta-feira, 12 de março de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
 
-You can now organize and share reports using shareable report folders. This new feature helps teams that manage large volumes of reports maintain scalable and consistent access control:
+Agora é possível organizar e compartilhar relatórios usando pastas de relatórios compartilháveis. Esse novo recurso ajuda as equipes que gerenciam grandes volumes de relatórios a manter um controle de acesso escalável e consistente:
 
-* **Create organized folder structures**: System administrators can create top-level folders, and users with manage access can create subfolders up to 4 levels deep.
-* **Granular permission controls**: Share folders with two permission levels:
-   * View: Users can open reports and share folders
-   * Manage: Users can edit folder details, add/remove items, and automatically receive manage access to all reports within the folder
-* **Inherited permissions**: Permissions cascade from parent folders to all subfolders and reports within the folder tree
-* **Enhanced list experience**: When you enable sharable folders, you will have access to the enhanced list experience. For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+* **Criar estruturas de pastas organizadas**: os administradores do sistema podem criar pastas de nível superior, e os usuários com acesso de gerenciamento podem criar subpastas de até quatro níveis de profundidade.
+* **Controles de permissão granulares**: compartilhe pastas com dois níveis de permissão:
+   * Exibição: os usuários podem abrir relatórios e compartilhar pastas
+   * Gerenciar: Os usuários podem editar os detalhes da pasta, adicionar/remover itens e receber automaticamente acesso de gerenciamento a todos os relatórios na pasta
+* **Permissões herdadas**: permissões em cascata de pastas pai para todas as subpastas e relatórios dentro da árvore de pastas
+* **Experiência de lista aprimorada**: ao habilitar pastas compartilháveis, você terá acesso à experiência de lista aprimorada. Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
-For more information, see [Use shareable report folders](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
-
--->
+Para obter mais informações, consulte [Usar pastas de relatórios compartilháveis](/help/quicksilver/reports-and-dashboards/reports/report-usage/use-sharable-report-folders.md).
 
 ## Rótulos de data aprimorados para agrupamentos de gráfico nos painéis da tela de desenho
 
@@ -63,10 +60,12 @@ For more information, see [Use shareable report folders](/help/quicksilver/repor
 >Versão rápida de produção: sexta-feira, 12 de março de 2026
 >Produção para todos: sexta-feira, 16 de abril de 2026
 
+>[!NOTE]
+>
+>Painéis do Canvas atualmente está na versão beta.
+
 Os gráficos que agrupam dados por data agora exibem rótulos de data mais claros e legíveis. Com essa atualização, os rótulos de data se ajustam dinamicamente com base na opção Agrupar por selecionada, como dia, semana, mês ou ano, facilitando a leitura e a interpretação rápida dos gráficos:
 
 <table> <tbody> <tr> <td>Day</td> <td>Exibe a data completa. Exemplo: 12/3/2026</td> </tr> <tr> <td>Semana</td> <td>Exibe uma data de início da semana formatada. Exemplo, 8 de março de 2026</td> </tr> <tr> <td>Month</td> <td>Exibe o mês e o ano. Exemplo em março de 2026</td> </tr> <tr> <td>Year</td> <td>Exibe somente o ano. Exemplo: 2026</td> </tr> </tbody> </table>
 
 Anteriormente, os agrupamentos de gráfico sempre mostravam a data de início do período selecionado em um formato numérico.
-
-
