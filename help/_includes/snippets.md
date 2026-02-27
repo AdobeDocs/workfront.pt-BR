@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8fe1b2dc00c7b64b47717a17a51c0124da26d238
+source-git-commit: 703d2bb511109a68d2917fd83fd1b7f7a562f5a9
 workflow-type: tm+mt
-source-wordcount: '2644'
-ht-degree: 1%
+source-wordcount: '2670'
+ht-degree: 2%
 
 ---
 # Trechos
@@ -69,6 +69,8 @@ ht-degree: 1%
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png), no canto superior direito do Adobe Workfront, e clique no seu nome de usuário, ao lado da imagem do perfil. Ou (se disponível) clique na imagem do seu perfil na área de navegação superior e em **[!UICONTROL Perfil do Workfront]**.
 
+<!-- Notes for Workflow packaging -->
+
 ## Observação para o fluxo de trabalho do Ultimate {#ultimate-package}
 
 >[!IMPORTANT]
@@ -80,6 +82,12 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >Você deve ter o pacote Workflow Prime ou Workflow Ultimate para usar esse recurso.
+
+## Nota para o pacote de fluxo de trabalho para a divisão de custo/cobrança {#workflow-package-for-cost-billing}
+
+>[!IMPORTANT]
+>
+>Você deve ter o pacote Workflow Select, Prime ou Ultimate para ver permissões separadas de faturamento e custo.
 
 <!-- Admin and Setup -->
 
@@ -300,9 +308,9 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 
 >[!IMPORTANT]
 >
->As informações neste artigo se referem ao Adobe Workfront Planning, um recurso adicional da Adobe Workfront.
+>As informações contidas neste artigo referem-se ao Adobe Workfront Planning, um recurso adicional do Adobe Workfront.
 >
->Para obter uma lista de requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Para obter uma lista dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Para obter informações gerais sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
