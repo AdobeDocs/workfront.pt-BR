@@ -6,10 +6,10 @@ description: Como administrador do  [!DNL Jira] , você pode exibir as exceçõe
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
-source-git-commit: e06713b8871ba5e7bfae58f67ee246c9c1163a63
+source-git-commit: 204324d5a5aaffbe47d31709096e739b62acecb8
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 5%
+source-wordcount: '119'
+ht-degree: 15%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Para fornecer integrações mais estáveis e escaláveis, estamos mudando para uma abordagem de integração moderna e flexível usando a Automação e Integração do Workfront (Fusion). Como parte desse processo de transição, a integração do Workfront para Jira não estará disponível após **28 de fevereiro de 2026**.
+>Para fornecer integrações mais estáveis e escaláveis, mudamos para uma abordagem de integração moderna e flexível usando a Automação e integração do Workfront (Fusion). Como parte desse processo de transição, o Workfront para integração com o Jira **não está mais disponível**.
 >
 >Recomendamos usar a Automação e integração do Workfront para as necessidades de integração de sua organização com o Jira.
 >
 >Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Jira, consulte [módulos do Software Jira](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new).
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Jira, consulte [módulos do Software Jira](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-modules-new).
 
 <!--
 
@@ -35,74 +35,78 @@ ht-degree: 5%
 >
 >Eight ready-to-use Workfront Automation and Integration templates for Jira will be available by August to help replicate common workflows and accelerate implementation. Templates are fully customizable to meet specific business needs and can be extended as requirements evolve. 
 > 
->For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
+>For an overview of Workfront Automation and Integration, see [Adobe Workfront Fusion overview](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview). 
 >
->For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
+>For information about the specific capabilities of the Workfront Automation and Integration modules for Jira, see [Jira Software modules](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules). 
 
 -->
 
-Como administrador do [!DNL Jira], você pode exibir as exceções e erros que ocorrem durante a sincronização ou criação dos tíquetes entre [!DNL Adobe Workfront] e [!DNL Jira] em um [!UICONTROL Log de Atividades].
+<!--
 
-Você pode ver até 500 itens no Registro de atividades e eles são listados começando com os mais recentes.
+As a [!DNL Jira] administrator, you can view the exceptions and errors that occur during the synchronization or creation of the tickets between [!DNL Adobe Workfront] and [!DNL Jira] in an [!UICONTROL Activity Log]. 
 
-## Requisitos de acesso
+You can see up to 500 items in the Activity Log, and they are listed starting with the most recent ones.
 
-+++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td><p>Qualquer</p>
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Padrão </p>
-       <p>Plano </p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard </p>
+       <p>Plan </p>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Acesso à Jira</td> 
-   <td> <p>Acesso de administrador do sistema</p> <p>Importante: recomendamos que você crie contas de administrador do sistema separadas no Jira e no Workfront para se dedicar a essa integração, em vez de usar as existentes que podem ser anexadas aos usuários.</p> </td> 
+   <td role="rowheader">Jira access</td> 
+   <td> <p>System administrator access</p> <p>Important:  We recommend that you create separate system administrator accounts in Jira and Workfront to dedicate to this integration, rather than using existing ones that might be attached to users.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Você deve ser um administrador do Workfront.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Pré-requisitos
+## Prerequisites
 
-Antes de vincular itens entre [!DNL Workfront] e [!DNL Jira], é necessário
+Before you can link items between [!DNL Workfront] and [!DNL Jira], you must
 
-* Instalar [!DNL Workfront for Jira]
+* Install [!DNL Workfront for Jira]
 
-  Para obter instruções sobre como instalar o [!DNL Workfront for Jira], consulte [Instalar [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+   For instructions on installing [!DNL Workfront for Jira], see [Install [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
-## Acessar o [!UICONTROL [!DNL Jira] Log de Atividades]:
+## Access the [!UICONTROL [!DNL Jira] Activity Log]: 
 
-1. Faça logon no Jira como administrador do sistema.
-1. Clique em **[!UICONTROL Configurações]** no menu principal [!DNL Jira].
-1. Clique em **[!UICONTROL Complementos]** e depois em **[!UICONTROL Gerenciar complementos]**.
+1. Log into Jira as a system administrator.
+1. Click **[!UICONTROL Settings]** in the main [!DNL Jira] menu.
+1. Click **[!UICONTROL Add-ons]**, then **[!UICONTROL Manage add-ons]**.
 
-1. Expanda o complemento **[!DNL Workfront]**.
-1. Clique em **[!UICONTROL Configurar]**.
-1. Faça logon em [!DNL Workfront] como administrador do sistema.
-1. Selecione a guia **[!UICONTROL Log de atividades]**.
+1. Expand the **[!DNL Workfront]** add-on.
+1. Click **[!UICONTROL Configure]**.
+1. Log in to [!DNL Workfront] as a system administrator.
+1. Select the **[!UICONTROL Activity Log]** tab.
 
-   Visualize informações sobre exceções e erros que ocorreram durante a criação de itens ou a sincronização de campos entre os dois aplicativos.
+   View information about exceptions and errors that occurred during the creation of items or synchronization of fields between the two applications.
 
-   O log inclui os seguintes campos:
+   The log includes the following fields:
 
-   * Data da ocorrência
-   * O nome do usuário no Jira
-   * Número do problema no Jira
-   * Uma breve descrição do erro ocorrido.
+   * Date of the occurrence
+   * The name of the user in Jira
+   * Jira issue number
+   * A brief description of the error that occurred.
+
+-->

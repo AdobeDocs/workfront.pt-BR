@@ -7,10 +7,10 @@ description: Ao receber uma notificação sobre uma atualização no  [!DNL Adob
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 0%
+source-wordcount: '147'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Para fornecer integrações mais estáveis e escaláveis, estamos mudando para uma abordagem de integração moderna e flexível usando a Automação e Integração do Workfront (Fusion). Como parte desse processo de transição, a seguinte funcionalidade do Workfront para Google Workspace não estará disponível após **28 de fevereiro de 2026**:
+>Para fornecer integrações mais estáveis e escaláveis, mudamos para uma abordagem de integração moderna e flexível usando a Automação e integração do Workfront (Fusion). Como parte desse processo de transição, a seguinte funcionalidade **do Workfront para Google Workspace não está mais disponível**:
 >
 >* Acesso à funcionalidade Google Workspace no Workfront
 >
@@ -28,47 +28,51 @@ ht-degree: 0%
 >
 >Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Google Workspace, consulte [módulos do Gmail](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [módulos do Google Calendar](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Google Workspace, consulte [módulos do Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [módulos do Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-Ao receber uma notificação sobre uma atualização no [!DNL Adobe Workfront], você pode postar rapidamente uma resposta do [!DNL Workfront for Google Workspace].
+<!--
 
-## Requisitos de acesso
+When you receive a notification about an update in [!DNL Adobe Workfront], you can quickly post a reply from [!DNL Workfront for Google Workspace].
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p><p>Trabalhar ou superior</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Pré-requisitos
+## Prerequisites
 
-Antes de criar uma tarefa [!DNL Workfront] em [!DNL Google Workspace], você deve
+Before you can create a [!DNL Workfront] task in [!DNL Google Workspace], you must
 
-* Instalar [!DNL Workfront for Google Workspace]\
-   Para obter instruções, consulte [Instalar [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Responder a uma notificação de atualização de [!DNL Google Workspace]
+## Reply to an update notification from [!DNL Google Workspace]
 
-1. Se o painel [!UICONTROL Workfront para Google Workspace] não for exibido, clique no [!DNL Workfront] ícone ![Workfront ícone](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
-1. Abra a notificação por email [!DNL Workfront] que contém a atualização.
-1. Próximo à parte inferior do painel [!UICONTROL Workfront para Google Workspace], clique em **[!UICONTROL Postar um comentário]** e digite sua resposta.
-1. (Opcional) Para notificar usuários específicos sobre sua resposta, clique em **[!DNL Notify people and teams]**, comece a digitar um nome e, em seguida, clique no nome quando ele aparecer na lista suspensa.
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. Open the [!DNL Workfront] email notification that contains the update. 
+1. Near the bottom of the [!UICONTROL Workfront for Google Workspace] panel, click **[!UICONTROL Post a comment]**, then type your reply.
+1. (Optional) To notify particular users about your reply, click **[!DNL Notify people and teams]**, begin typing a name, then click the name when it appears in the drop-down list.
 
-   Você pode repetir essa etapa para qualquer outro nome que desejar adicionar.
+   You can repeat this step for any other names you want to add.
 
-1. Clique em **[!DNL Post]**.
+1. Click **[!DNL Post]**.
+
+-->

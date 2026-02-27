@@ -7,10 +7,10 @@ description: No Google Workspace, ao abrir um email de notificação enviado pel
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 1%
+source-wordcount: '169'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Para fornecer integrações mais estáveis e escaláveis, estamos mudando para uma abordagem de integração moderna e flexível usando a Automação e Integração do Workfront (Fusion). Como parte desse processo de transição, a seguinte funcionalidade do Workfront para Google Workspace não estará disponível após **28 de fevereiro de 2026**:
+>Para fornecer integrações mais estáveis e escaláveis, mudamos para uma abordagem de integração moderna e flexível usando a Automação e integração do Workfront (Fusion). Como parte desse processo de transição, a seguinte funcionalidade **do Workfront para Google Workspace não está mais disponível**:
 >
 >* Acesso à funcionalidade Google Workspace no Workfront
 >
@@ -28,87 +28,91 @@ ht-degree: 1%
 >
 >Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Google Workspace, consulte [módulos do Gmail](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [módulos do Google Calendar](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Google Workspace, consulte [módulos do Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [módulos do Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-Em [!DNL Google Workspace], quando você abre um email de notificação enviado por [!DNL Adobe Workfront], é possível exibir os detalhes do item de trabalho associado e responder sem sair da [!UICONTROL Caixa de entrada]. Se ações estiverem disponíveis, como a aprovação de uma solicitação, você poderá executar essas ações diretamente de [!DNL Workfront for Google Workspace].
+<!--
+
+In [!DNL Google Workspace], when you open a notification email [!DNL Adobe Workfront] has sent, you can view the associated work item details and respond without leaving your [!UICONTROL Inbox]. If actions are available, such as approving a request, you can perform those actions directly from [!DNL Workfront for Google Workspace].
 
 >[!NOTE]
 >
-> O [!DNL Workfront for Google Workspace] oferece suporte a quase todos os tipos de notificações por email que você pode receber do [!DNL Workfront] (cerca de 120 tipos diferentes). Os emails [!UICONTROL Resumo diário] enviados de [!DNL Workfront] não aparecem em [!DNL Workfront for Google Workspace]. Para obter informações sobre os tipos de notificação por email do [!DNL Workfront], consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+> [!DNL Workfront for Google Workspace] supports almost every type of email notification you can receive from [!DNL Workfront] (about 120 different types). [!UICONTROL Daily digest] emails sent from [!DNL Workfront] do not appear in [!DNL Workfront for Google Workspace]. For information about the [!DNL Workfront] email notification types, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-## Requisitos de acesso
+## Access requirements
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p><p>Trabalhar ou superior</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Pré-requisitos
+## Prerequisites
 
-Antes de gerenciar os detalhes de notificação de [!DNL Google Workspace], você deve
+Before you can manage notification details from [!DNL Google Workspace], you must
 
-* Instalar [!DNL Workfront for Google Workspace]\
-   Para obter instruções, consulte [Instalar [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Gerenciar detalhes de notificação de [!DNL Adobe Workfront] de [!DNL Google Workspace]
+## Manage [!DNL Adobe Workfront] notification details from [!DNL Google Workspace]
 
-1. Se o painel [!DNL Workfront for Google Workspace] não for exibido, clique no ícone [!DNL Workfront] ![ícone do Workfront](assets/wf-lion-icon.png) na barra lateral de complementos [!DNL Google Workspace] na extremidade direita da página.
-1. Em [!DNL Google Workspace], abra um email de notificação [!DNL Workfront].
-1. Clique em **[!UICONTROL Exibir todas as atualizações]** se ele for exibido próximo à parte superior do painel.
-1. Clique em **[!UICONTROL Detalhes]**.
-1. Clique em qualquer opção disponível.
+1. If the [!DNL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![Workfront icon](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. In [!DNL Google Workspace], open a [!DNL Workfront] notification email.
+1. Click **[!UICONTROL View all updates]** if it is displayed near the top of the panel.
+1. Click **[!UICONTROL Details]**.
+1. Click any available options.
 
-   As opções exibidas estão relacionadas ao tipo de notificação por email que você abriu. Por exemplo, se for uma notificação por email solicitando a aprovação de uma tarefa, você verá **[!UICONTROL Aprovar]** e **[!UICONTROL Rejeitar]** em vez de opções como **[!UICONTROL Trabalhar nela]** ou **[!UICONTROL Concluído]**:
+   The options that might display relate to the type of email notification you have opened. For example, if it's an email notification asking you to approve a task, you see **[!UICONTROL Approve]** and **[!UICONTROL Reject]** instead of options such as **[!UICONTROL Work on It]** or **[!UICONTROL Done]**:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>Tipo de notificação por email</th> 
-      <th>Ação</th> 
+      <th>Type of email notification</th> 
+      <th>Action</th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
-      <td>Tarefa ou problema</td> 
-      <td><strong>[!UICONTROL Aprovar]</strong> ele, <strong>[!UICONTROL Rejeitar]</strong> ele, <strong>[!UICONTROL Conceder]</strong> acesso a ele, <strong>[!UICONTROL Ignorar]</strong> uma solicitação de acesso a ele, <strong>[!UICONTROL Trabalhar nele]</strong>, ou clique em uma opção para indicar que você está <strong>[!UICONTROL Concluído]</strong> com ele</td> 
+      <td>Task or issue</td> 
+      <td><strong>[!UICONTROL Approve]</strong> it, <strong>[!UICONTROL Reject]</strong> it, <strong>[!UICONTROL Grant]</strong> access to it, <strong>[!UICONTROL Ignore]</strong> a request for access to it, <strong>[!UICONTROL Work on it]</strong>, or click an option to indicate that you are <strong>[!UICONTROL Done]</strong> with it</td> 
      </tr> 
      <tr> 
-      <td>Projeto</td> 
-      <td><strong>[!UICONTROL Aprovar]</strong>, <strong>[!UICONTROL Rejeitar]</strong>, <strong>[!UICONTROL Conceder]</strong> acesso a ele ou <strong>[!UICONTROL Ignorar]</strong> uma solicitação de acesso a ele</td> 
+      <td>Project</td> 
+      <td><strong>[!UICONTROL Approve]</strong> it, <strong>[!UICONTROL Reject]</strong> it, <strong>[!UICONTROL Grant]</strong> access to it, or <strong>[!UICONTROL Ignore]</strong> a request for access to it</td> 
      </tr> 
      <tr> 
-      <td>Documento</td> 
-      <td><strong>[!UICONTROL Aprovar]</strong>, <strong>[!UICONTROL Rejeitar]</strong>, <strong>[!UICONTROL Conceder]</strong> acesso a ele ou <strong>[!UICONTROL Ignorar]</strong> uma solicitação de acesso a ele</td> 
+      <td>Document</td> 
+      <td><strong>[!UICONTROL Approve]</strong> it, <strong>[!UICONTROL Reject]</strong> it, <strong>[!UICONTROL Grant]</strong> access to it, or <strong>[!UICONTROL Ignore]</strong> a request for access to it</td> 
      </tr> 
      <tr> 
-      <td>Atualização </td> 
-      <td> <p>Exiba qualquer parte da lista inteira de atualizações do item para que você tenha o contexto necessário para <strong>[!UICONTROL Postagem]</strong> uma nova atualização ou uma <strong>[!UICONTROL Resposta]</strong>. Você pode clicar em <strong>[!UICONTROL Notify]</strong> para alertar usuários específicos sobre sua resposta. </p> <p>Para obter mais informações, consulte <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Responder a uma notificação de atualização de [!DNL Adobe Workfront] de [!DNL Google Workspace]</a>.</p> </td> 
+      <td>Update </td> 
+      <td> <p>View any part of the entire list of updates for the item so that you have the context you need to <strong>[!UICONTROL Post]</strong> a new update or a <strong>[!UICONTROL Reply]</strong>. You can click <strong>[!UICONTROL Notify]</strong> to alert particular users about your reply. </p> <p>For more information, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Reply to a [!DNL Adobe Workfront] update notification from [!DNL Google Workspace]</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td>Solicitação de aprovação</td> 
-      <td><strong>[!UICONTROL Aprovar]</strong> ou <strong>[!UICONTROL Rejeitar]</strong> ele (você pode mudar de ideia clicando na outra opção), baixá-lo, exibir seu proprietário ou exibir seu número de referência</td> 
+      <td>Approval request</td> 
+      <td><strong>[!UICONTROL Approve]</strong> or <strong>[!UICONTROL Reject]</strong> it (you can change your mind by clicking the other option), download it, view its owner, or view its reference number</td> 
      </tr> 
      <tr> 
-      <td>Uma alteração no status de um projeto</td> 
-      <td> Visualize todas as informações atuais sobre o projeto, incluindo formulários personalizados. </td> 
+      <td>A change in a project's status</td> 
+      <td> View all the current information about the project, including any custom forms. </td> 
      </tr> 
     </tbody> 
    </table>
+
+   -->

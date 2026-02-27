@@ -7,10 +7,10 @@ description: Sem sair do Google Workspace, você pode postar uma nova atualizaç
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8e3edfb6-6822-4970-aa59-5fe5ee97d3b2
-source-git-commit: 1e5b3c7d087c34870ccb0f4e65021358f08b81bf
+source-git-commit: 228fd22f1894689c0d256270350cc82954901641
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 1%
+source-wordcount: '143'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Para fornecer integrações mais estáveis e escaláveis, estamos mudando para uma abordagem de integração moderna e flexível usando a Automação e Integração do Workfront (Fusion). Como parte desse processo de transição, a seguinte funcionalidade do Workfront para Google Workspace não estará disponível após **28 de fevereiro de 2026**:
+>Para fornecer integrações mais estáveis e escaláveis, mudamos para uma abordagem de integração moderna e flexível usando a Automação e integração do Workfront (Fusion). Como parte desse processo de transição, a seguinte funcionalidade **do Workfront para Google Workspace não está mais disponível**:
 >
 >* Acesso à funcionalidade Google Workspace no Workfront
 >
@@ -28,58 +28,62 @@ ht-degree: 1%
 >
 >Para obter uma visão geral da Automação e Integração do Workfront, consulte [Visão geral do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 >
->Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Google Workspace, consulte [módulos do Gmail](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [módulos do Google Calendar](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
+>Para obter informações sobre os recursos específicos dos módulos de Automação e Integração do Workfront para Google Workspace, consulte [módulos do Gmail](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules) e [módulos do Google Calendar](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules).
 
-Sem sair de [!DNL Google Workspace], você pode postar uma nova atualização ou uma resposta a uma atualização existente em um objeto [!DNL Adobe Workfront].
+<!--
 
-## Requisitos de acesso
+Without leaving [!DNL Google Workspace], you can post a new update or a reply to an existing update on a [!DNL Adobe Workfront] object.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p><p>Trabalhar ou superior</p>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p><p>Work or higher</p>
   </tr> 
  </tbody> 
 </table>
 
-Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Pré-requisitos
+## Prerequisites
 
-Antes de atualizar um objeto [!DNL Workfront] em [!DNL Google Workspace], você deve
+Before you can update a [!DNL Workfront] object in [!DNL Google Workspace], you must
 
-* Instalar [!DNL Workfront for Google Workspace]\
-   Para obter instruções, consulte [Instalar [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Atualizar um objeto [!DNL Workfront] em [!DNL Google Workspace]
+## Update a [!DNL Workfront] object in [!DNL Google Workspace]
 
-1. Exiba o objeto em [!DNL Google Workspace] conforme descrito em [Exibir e gerenciar [!DNL Adobe Workfront] detalhes do objeto de [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
+1. View the object in [!DNL Google Workspace] as described in [View and manage [!DNL Adobe Workfront] object details from [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
 
-1. Clique na guia **[!UICONTROL Atualizações]** se estiver postando uma nova atualização.
-1. Clique em **[!UICONTROL Iniciar uma nova atualização]** e digite uma nova atualização.
+1. Click the **[!UICONTROL Updates]** tab if you are posting a new update.
+1. Click **[!UICONTROL Start a new update]**, then type a new update.
 
-   Ou
+   Or
 
-   Clique em **[!UICONTROL Responder]** em uma atualização existente e digite sua resposta à atualização.
+   Click **[!UICONTROL Reply]** under an existing update, then type your reply to the update.
 
-   Se você clicar em **[!UICONTROL Responder]**, poderá clicar em **[!UICONTROL Exibir todas as atualizações]** para voltar para a guia **[!UICONTROL Atualizações]**.
+   If you click **[!UICONTROL Reply]**, you can click **[!UICONTROL View all updates]** to go back to the **[!UICONTROL Updates]** tab.
 
-1. (Opcional) Para marcar usuários ou equipes:
+1. (Optional) To tag users or teams:
 
-   1. Clique em **[!UICONTROL Notificar]**.
-   1. Clique em **[!UICONTROL Procurar um usuário ou equipe]**, digite o nome do usuário ou equipe e clique no nome quando ele aparecer na lista exibida abaixo.
-   1. Clique em **[!UICONTROL Salvar]**.
-   1. Repita essas três etapas para qualquer outro usuário ou equipe que desejar notificar.
+   1. Click **[!UICONTROL Notify]**.
+   1. Click **[!UICONTROL Search for a user or team]**, type the name of the user or team, then click the name when you see it in the list that appears below.
+   1. Click **[!UICONTROL Save]**.
+   1. Repeat these three steps for any other users or teams you want to notify.
 
-1. Clique em **[!UICONTROL Publicar]**.
+1. Click **[!UICONTROL Post]**.
+
+-->
