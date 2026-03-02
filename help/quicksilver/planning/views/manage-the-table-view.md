@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '3588'
+source-wordcount: '3563'
 ht-degree: 2%
 
 ---
@@ -504,8 +504,6 @@ Para adicionar um agrupamento:
 
    ![Agrupamento aplicado na exibição de tabela](assets/grouping-applied-in-table-view.png)
 
-1. <span class="preview">(Opcional) Escolha A-Z ou Z-A no menu suspenso de classificação à direita de um campo selecionado. Isso classifica os agrupamentos na linha do tempo.</span>
-
 1. (Opcional) Dentro da caixa **Agrupar registros por**, clique no ícone **x** à direita de um campo selecionado para o agrupamento para remover o agrupamento
 
    Ou
@@ -596,7 +594,7 @@ Ao exibir a visualização de tabela, você também pode visualizar qual campo o
 
    ![Conexão de avatar e campo da tabela de indicadores em tempo real](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
-<!--maybe include a screen shot after release if they update the UI text in this list of users-->
+   <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
 1. <span class="preview">(Opcional) Clique no triângulo no canto superior direito da célula que contém o campo editado por outros. Uma lista de usuários editando atualmente o campo é exibida.</span>
 

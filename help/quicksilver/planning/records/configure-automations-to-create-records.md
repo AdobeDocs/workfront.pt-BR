@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: f28d2eef57f63cede3a08b06053e8dc6431f21d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 4%
@@ -161,7 +161,7 @@ A página de detalhes da automação é aberta.
       * Clique no botão
       * <span class="preview">Alteração do valor do campo</span>
 
-   1. (Condicional) Se você selecionou **Clique no Botão**, vá para a etapa abaixo que descreve a área **Ações**.
+   1. (Condicional) Se você selecionou **Botão clicar**, vá para a etapa 9 abaixo que descreve a área **Ações**. <!--ensure this number stays accurate-->
 
    1. <span class="preview">(Condicional) Se você selecionou **Alteração do valor do campo**, faça o seguinte na seção **Configurações**: </span>
 

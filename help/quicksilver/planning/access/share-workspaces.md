@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1025'
 ht-degree: 3%
 
 ---
@@ -151,31 +151,23 @@ Para compartilhar um espaço de trabalho com outras pessoas:
 
    ![Botão Compartilhar no canto superior direito do espaço de trabalho](assets/share-button-on-workspace-top-right.png)
 
-   <!--only for March 4: * <span class="preview">(Conditional) Depending on your access level, the following scenarios exist: </span>-->
+1. <span class="preview">(Condicional) Dependendo do seu nível de acesso, execute um dos procedimentos a seguir:
 
-1. <span class="preview">(Condicional) Se você for um Administrador do Sistema, selecione uma das seguintes opções:</span>
+   * Se você for um Administrador do Sistema, selecione uma das seguintes opções:</span>
 
-   <div class="preview">
+      * <span class="preview">**Somente pessoas convidadas podem acessar**: você deve selecionar entidades na caixa de compartilhamento e escolher seu acesso ao espaço de trabalho. Esta é a seleção padrão. </span>
+      * <span class="preview">**Todos no sistema podem exibir**: todos no sistema com acesso ao Planning podem exibir o espaço de trabalho em sua área **Espaços de Trabalho** no Planning.</span>
 
-   * **Somente pessoas convidadas podem acessar**: você deve selecionar entidades na caixa de compartilhamento e escolher seu acesso ao espaço de trabalho. Esta é a seleção padrão.
-   * **Todos no sistema podem exibir**: todos no sistema com acesso ao Planning podem exibir o espaço de trabalho em sua área **Espaços de Trabalho** no Planning.
+   * <span class="preview">(Condicional) Se você for um gerenciador de espaço de trabalho com uma licença Standard, poderá ver uma das seguintes seleções, mas não poderá alterá-las:</span>
 
-   </div>
+      * <span class="preview">**Somente pessoas convidadas podem acessar**. Esta é a configuração padrão.</span>
+      * <span class="preview">**Todos no sistema podem visualizar**</span>
 
-   <!--only  for March 4:
+     <span class="preview">Você deve solicitar que um Administrador do Sistema altere uma permissão global para um espaço de trabalho.</span>
 
-      * <span class="preview">If you are a workspace manager with a Standard license, you can see one of the following selections but you cannot change them:</span>
+1. No campo **Conceder acesso a este espaço de trabalho**, comece digitando o nome de um usuário, grupo, equipe, empresa ou função de trabalho e clique nele quando ele for exibido na lista.
 
-         <div class="preview">
-         
-         * **Only invited people can access**
-         * **Everyone in the system can view**
-         
-         </div>-->
-
-1. No campo **Conceder acesso a este espaço de trabalho**, comece digitando o nome de um usuário, grupo, equipe, empresa ou função de trabalho e clique nele quando ele for exibido na lista. <!--update screen shot at the release of system-wide permissions for workspaces-->
-
-   ![Compartilhando a interface com grupos](assets/sharing-ui-with-groups.png)
+   <span class="preview">![Compartilhando a interface com grupos](assets/sharing-ui-with-groups.png)</span>
 
    >[!NOTE]
    >

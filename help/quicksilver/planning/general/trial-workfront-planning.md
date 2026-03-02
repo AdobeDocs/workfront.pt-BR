@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
-source-git-commit: 61c6bc0770416e02390f4e3de869d9e2565897d4
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '2168'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ O Adobe Workfront Planning oferece visibilidade centralizada do seu ciclo de vid
 
 >[!IMPORTANT]
 >
->* A Adobe Workfront está oferecendo uma versão de avaliação gratuita de 60 dias do Adobe Workfront Planning.
+>* A Adobe Workfront está oferecendo uma versão de avaliação gratuita de 60 dias do Adobe Workfront Planning a todos os clientes do Adobe Workfront que também não são clientes do Workfront Planning.
 >
 >* O teste está disponível entre as seguintes datas: 2 de março a 1 de maio de 2026.
 >
@@ -69,14 +69,14 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 Estas são datas importantes associadas à oferta de avaliação gratuita do Adobe Workfront Planning:
 
-* **26 de janeiro de 2026**: os banners de avaliação gratuita do Workfront Planning foram lançados para clientes do Workfront. Os banners incluem o seguinte:
+* **26 de janeiro de 2026**: os banners de avaliação gratuita do Workfront Planning foram lançados para clientes do Workfront. Os banners incluíam o seguinte:
    * Um link para este documento.
    * A janela de aceitação do contrato de avaliação. Somente um administrador do Workfront pode aceitar o contrato. Você pode aceitar o contrato de avaliação a qualquer momento a partir desta data.
 * **2 de março de 2026**: a avaliação do Workfront Planning foi iniciada.
 
   Com a inicialização da avaliação, os seguintes itens são adicionados à instância do Workfront:
 
-   * Os banners do Workfront Planning continuam sendo exibidos para todos os usuários.
+   * Os banners do Workfront Planning continuam sendo exibidos para todos os usuários. Um link para este documento está incluído nos banners.
    * A preferência **Contrato de avaliação de revisão** é adicionada à área **Instalação**.
 
   Existem os seguintes cenários:
@@ -87,7 +87,8 @@ Estas são datas importantes associadas à oferta de avaliação gratuita do Ado
   >
   >A área Planejamento é exibida no Menu Principal para todos os usuários no sistema, independentemente do tipo de licença Workfront.
 
-   * Se o administrador do Workfront não tiver aceitado o contrato antes dessa data, ele deverá primeiro aceitá-lo antes que você possa ter acesso ao Workfront Planning.
+   * Se o administrador do Workfront não tiver aceitado o contrato antes dessa data, os banners que anunciam os programas de avaliação do Planning serão exibidos para todos os usuários, mas o Planning ainda não estará disponível no Menu principal. Primeiro, o Administrador do Sistema deve aceitar o contrato para que você possa ter acesso ao Workfront Planning.
+
 * **1 de abril de 2026**: você não pode mais se inscrever na avaliação.
 
   Os seguintes itens foram removidos da instância do Workfront:

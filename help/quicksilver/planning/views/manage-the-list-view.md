@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
-source-git-commit: 973a095e8ff08e382010247d9ed38e48d4b2c564
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Você pode exibir objetos e seus campos em uma exibição de lista, ao acessá-los na página Registros conectados de um registro, no Adobe Workfront Planning.
+Você pode exibir projetos e seus campos em uma exibição de lista, ao acessá-los na página Registros conectados de um registro, no Adobe Workfront Planning. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
-Este artigo descreve como criar ou editar uma exibição de lista na página Registros conectados de um registro e como editar os objetos na exibição.
+Este artigo descreve como criar ou editar uma exibição de lista que mostra projetos na página Registros conectados de um registro e como você pode editar os projetos na exibição. <!--change 'projects' to other objects when they become available and the location of the list view-->
 
 ## Requisitos de acesso
 
@@ -72,18 +72,19 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 ## Considerações sobre exibições de lista
 
-* Não é possível exibir registros nas páginas de tipo de registro em uma exibição de lista. Você só poderá exibir os seguintes objetos em uma exibição de lista quando visualizá-los na página Registros conectados de um registro:
+* Não é possível exibir todos os tipos de objetos nas páginas de tipo de registro em uma exibição de lista.
+
+  Você só poderá exibir os seguintes objetos em uma exibição de lista quando visualizá-los na página Registros conectados de um registro:
 
    * Projetos Workfront
 
   Para obter informações sobre como criar uma página de registros conectados, consulte [Adicionar uma página de registros conectados a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 * Antes de exibir uma exibição de lista em uma página de registros conectados de um registro, você deve conectar os projetos Workfront com os tipos de registro do Planning. Para obter informações, consulte [Tipos de registro de conexão](/help/quicksilver/planning/architecture/connect-record-types.md).
-* As Exibições de lista são semelhantes às Listas aprimoradas. Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 
 ## Gerenciar uma exibição de lista {#manage-a-list-view}
 
-Para obter mais informações sobre como gerenciar exibições de lista no Workfront, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+As exibições de lista são semelhantes às listas aprimoradas. Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 {{step1-to-planning}}
 
@@ -114,7 +115,7 @@ Para obter mais informações sobre como gerenciar exibições de lista no Workf
       >
       >* Não é possível modificar as Exibições de sistema.
       >
-      >* <span class="preview">Você pode redefinir um modo de exibição que foi compartilhado com você depois de modificá-lo para restaurar suas preferências originais, ou pode copiá-lo com suas alterações e compartilhar a cópia. Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+      >* <span class="preview">Você pode redefinir um modo de exibição compartilhado com você para o qual tem permissão apenas para Exibir, depois de modificá-lo para restaurar suas preferências originais, ou pode copiá-lo com suas alterações e compartilhar a cópia. Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
 
    1. Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-icon.png) para adicionar um filtro ao modo de exibição. Os resultados são filtrados imediatamente na lista. Não é possível salvar e nomear filtros. Os filtros são lembrados quando você acessa a página no futuro e fazem parte de exibições compartilhadas.
    1. Clique no ícone **Colunas** ![Ícone Colunas](assets/columns-icon.png) para selecionar quais colunas exibir ou ocultar no modo de exibição.
@@ -128,23 +129,23 @@ Para obter mais informações sobre como gerenciar exibições de lista no Workf
       Você pode adicionar somente campos existentes à exibição de lista.
 Não é possível remover o campo principal na exibição de lista exibida na primeira coluna.
 
-
    1. <span class="preview">Clique no ícone **Formatar células** ![Ícone Formatar células](assets/format-cells-icon.png). A caixa **Formato** é aberta.</span> <!--change the name of the box when they update it-->
       <span class="preview">Faça o seguinte: </span>
 
+      1. Clique em **Adicionar condição**.
+      1. <span class="preview">Na linha **If**, selecione um campo e escolha um valor de campo e clique em **Adicionar condição**. </span>
+
+         >[!TIP]
+         >
+         ><span class="preview">Somente os campos visíveis na exibição de lista estão disponíveis para formatação condicional.</span>
+
+      1. <span class="preview">(Opcional) Clique em **Adicionar condição** na linha **If** para adicionar mais condições à mesma regra.</span>
+
+         >[!TIP]
+         >
+         ><span class="preview">Você pode adicionar até 10 condições em uma regra de condição e pode ter até 20 regras para um campo.</span>
+
       <div class="preview">
-
-      1. Na linha **If**, clique em **Adicionar condição**, selecione um campo pelo qual deseja formatar e escolha um valor de campo.
-
-         >[!TIP]
-         >
-         >Somente os campos visíveis na exibição de lista estão disponíveis para formatação condicional.
-
-      1. (Opcional) Clique em **Adicionar condição** na linha **If** para adicionar mais condições à mesma regra.
-
-         >[!TIP]
-         >
-         >É possível adicionar até 10 condições em uma regra de condição e até 20 regras para um campo.
 
       1. Clique no conector **Or** entre as condições para alterar para **And** e indicar que várias condições devem ser atendidas ao mesmo tempo. **Or** é o conector padrão.
       1. Na linha **Formatar**, selecione um campo para indicar qual coluna será formatada. <!--edit this area, if it changes names??-->

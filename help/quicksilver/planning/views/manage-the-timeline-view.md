@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '3912'
-ht-degree: 2%
+source-wordcount: '4014'
+ht-degree: 3%
 
 ---
 
 # Gerenciar a exibição de linha do tempo
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -406,12 +406,12 @@ Para adicionar um agrupamento na exibição de linha do tempo:
 1. Clique em um dos campos sugeridos ou clique em **Escolher um campo diferente**, procure um campo diferente e clique nele quando ele for exibido na lista.
 
    O agrupamento é aplicado automaticamente à linha do tempo e os registros são exibidos dentro da caixa de agrupamento.
-
+1. <span class="preview">(Opcional) Clique no menu suspenso **A -> Z** ou **Z -> A** ao lado do nome do campo selecionado para selecionar uma ordem de classificação crescente ou decrescente para o agrupamento. Os agrupamentos são exibidos na ordem alfabética selecionada na exibição da linha do tempo. </span>
 1. (Opcional) Repita as etapas acima para adicionar até três agrupamentos.
 
    O número de campos selecionados para o agrupamento é exibido ao lado do ícone Grouping.
 
-   ![Agrupamento aplicado na exibição de linha do tempo](assets/grouping-applied-in-timeline-view.png)
+   ![Agrupamento aplicado na exibição da linha do tempo](assets/grouping-applied-in-timeline-view.png)
 
 1. Na caixa **Agrupar registros por**, arraste e solte os agrupamentos na ordem correta.
 
@@ -545,7 +545,7 @@ Atualize as configurações de exibição da linha do tempo para indicar quais i
 
 ### Analisar registros conectados na exibição de linha do tempo
 
-Você pode exibir registros conectados na visualização da linha do tempo de um registro usando o recurso Detalhamento. Detalhar os registros por suas conexões permite visualizar as linhas do tempo de outros registros conectados e entender como elas podem afetar o desempenho e os prazos de conclusão de seus registros.
+Você pode exibir registros conectados na visualização da linha do tempo de um registro usando o recurso Detalhamento. Detalhar os registros por suas conexões permite visualizar as linhas do tempo de outros registros conectados e entender como elas podem afetar o desempenho e os prazos de seus registros.
 
 #### Considerações ao usar o recurso Detalhamento
 

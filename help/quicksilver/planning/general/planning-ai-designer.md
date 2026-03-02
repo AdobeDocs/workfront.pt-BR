@@ -6,9 +6,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1501'
 ht-degree: 6%
 
 ---
@@ -226,13 +226,10 @@ Você pode criar ou atualizar objetos no Workfront Planning usando o Planning De
 1. (Opcional) Clique no **ícone Mostrar ou ocultar tela de visualização** ![ícone Ocultar ou mostrar tela de visualização](assets/hide-show-preview-screen-in-planning-designer.png) para abrir ou fechar a tela de visualização à direita.
 1. Clique no **ícone Abrir espaço de trabalho em nova guia** ![ícone Abrir espaço de trabalho em nova guia](assets/open-workspace-on-new-tab-icon.png) para abrir o espaço de trabalho que você está atualizando em uma nova guia.
 1. Clique no ícone **Fechar** **X** para fechar o Planning Designer e abrir a área Espaços de Trabalho.
-1. Abra o espaço de trabalho editado usando o Planning Designer e faça mais alterações em seus objetos.
+1. (Opcional) Para editar um espaço de trabalho, siga um destes procedimentos:
 
-<!-- for March 2 -- replace the last step with this: 
-1. (Optional) To edit a workspace, do one of the following:
-
-    * Open the workspace and manually make changes to it. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
-    * Click **Edit with AI**. This opens the Planning Designer. Repeat the steps above to use AI and make further changes to the workspace.-->
+   * Abra o espaço de trabalho e faça alterações manualmente. Para obter informações, consulte [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   * Clique em **Editar com IA**. Isso abre a Designer do Planning. Repita as etapas acima para usar a IA e fazer mais alterações no espaço de trabalho.
 
 ## Desativar o Planning Designer para sua organização
 

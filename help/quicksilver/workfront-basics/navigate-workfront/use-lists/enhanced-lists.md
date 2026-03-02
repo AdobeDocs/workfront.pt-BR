@@ -5,9 +5,9 @@ description: As listas aprimoradas usam um formato de tabela para exibir os iten
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: c9015f5486721e3977efc00a297dd1618bc681d9
+source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
 workflow-type: tm+mt
-source-wordcount: '2326'
+source-wordcount: '2337'
 ht-degree: 2%
 
 ---
@@ -344,13 +344,13 @@ Para compartilhar uma exibição:
 >
 >Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
 
-Quando uma exibição é compartilhada com você e você não tem permissão para editar, é possível copiar a exibição e salvá-la com um novo nome. Você deve primeiro fazer alterações na exibição antes de copiá-la.
+Quando uma exibição é compartilhada com você para a qual você não tem permissão para editar, é possível copiar a exibição e salvá-la com um novo nome. Você deve primeiro fazer alterações na exibição antes de copiá-la.
 
-1. Na lista suspensa Exibições, passe o mouse sobre a exibição em **Exibições Compartilhadas** que você deseja copiar, clique no menu **Mais** ![Mais menu](assets/more-icon.png) e clique em **Copiar com preferências**.
+1. Na lista suspensa Exibições, passe o mouse sobre a exibição em **Exibições Compartilhadas** das quais você modificou as configurações e que deseja copiar, clique no menu **Mais** ![Mais menu](assets/more-icon.png) e clique em **Copiar com preferências**.
 
-   Uma nova visualização é criada automaticamente. Ele usa o nome de exibição original com (cópia) no final e aparece na seção de exibições **Minhas Exibições**.
+   Uma nova visualização é criada automaticamente. O nome da exibição copiada segue o seguinte padrão: `Original view name (copy)`e é exibido na seção de exibições **Minhas Exibições**.
 
-   Você é o proprietário desta exibição e pode renomeá-la, editá-la, compartilhá-la ou excluí-la. Se o proprietário da visualização original remover o acesso compartilhado a ela, você ainda terá acesso a esta visualização criada.
+   Você é o proprietário desta exibição e pode renomeá-la, editá-la, compartilhá-la ou excluí-la. Se o proprietário da exibição original remover o acesso compartilhado a essa exibição, você ainda terá acesso à exibição criada copiando o original compartilhado.
 
    >[!NOTE]
    >
