@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 35f9c4012d8d47e6cd5402029ceaf487b1942ce9
+source-git-commit: 8fdc6d1b72967b2a52295c31cb83d43594817d6f
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 47%
+source-wordcount: '1323'
+ht-degree: 41%
 
 ---
 
@@ -301,6 +301,30 @@ A versão 2.1.53 também incluiu alterações internas nas ferramentas.
 Esta atualização é para Mac e Windows.
 
 ## Avisos
+
+### A versão de avaliação do Workfront Planning agora está disponível
+
+[!BADGE Fora do cronograma]{type=Neutral}
+
+>[!NOTE]
+>
+>* Pré-visualização e produção para todos: 2 de março de 2026
+>* Você deve aceitar o Contrato de Avaliação disponível em seu ambiente antes de acessar o ambiente de Avaliação do Planning.
+>* Não é necessário assinar o contrato do Adobe AI Agent para usar o Planning Designer durante o período de avaliação.
+
+A versão de avaliação do Workfront Planning agora está disponível para todos os clientes do Workfront.
+
+A avaliação gratuita oferece aos clientes do Workfront um acesso de licença do Prime por 60 dias ao Workfront Planning, a partir de 2 de março de 2026. O período de teste termina em 1º de maio de 2026.
+
+A versão de avaliação gratuita do Workfront Planning oferece o seguinte:
+
+* Um ambiente de planejamento com curadoria de vários espaços de trabalho
+* Dados de amostra para lhe dar uma ideia de onde começar
+* Treinamento e orientação no produto
+* Indicação clara de marcos durante a configuração, que são adaptados para funções específicas.
+* O Designer do Planning - um assistente habilitado por IA que pode ajudar você a criar o ambiente desejado
+
+Para obter mais informações, consulte [Introdução à avaliação gratuita do Adobe Workfront Planning](/help/quicksilver/planning/general/trial-workfront-planning.md).
 
 ### API versão 21
 
