@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
 workflow-type: tm+mt
-source-wordcount: '4014'
+source-wordcount: '4067'
 ht-degree: 3%
 
 ---
@@ -401,12 +401,23 @@ Para adicionar um agrupamento na exibição de linha do tempo:
 1. Crie uma exibição de linha do tempo para um tipo de registro, conforme descrito no artigo [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 1. Clique em **Agrupamento** no canto superior direito do modo de exibição de linha do tempo.
 
-   ![Modo de exibição de linha do tempo da interface de agrupamento com campos vinculados](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![Modo de exibição de linha do tempo da interface de agrupamento com campos vinculados](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. Clique em um dos campos sugeridos ou clique em **Escolher um campo diferente**, procure um campo diferente e clique nele quando ele for exibido na lista.
 
    O agrupamento é aplicado automaticamente à linha do tempo e os registros são exibidos dentro da caixa de agrupamento.
-1. <span class="preview">(Opcional) Clique no menu suspenso **A -> Z** ou **Z -> A** ao lado do nome do campo selecionado para selecionar uma ordem de classificação crescente ou decrescente para o agrupamento. Os agrupamentos são exibidos na ordem alfabética selecionada na exibição da linha do tempo. </span>
+1. <span class="preview">(Opcional e condicional) Dependendo do tipo de campo selecionado para o agrupamento, selecione uma das seguintes opções de classificação para classificar os agrupamentos em ordem crescente ou decrescente: </span>
+
+   <div class="preview">
+
+   * **A -> Z** ou **Z -> A** para Selecionar campos, Campos de texto, Campos de parágrafo, Registros ou objetos conectados, Campos de pessoas
+   * **0 -> 9** ou **9 -> 0** para os campos Número, Moeda ou Porcentagem.
+   * **mais antigo -> mais recente** ou **mais recente -> mais antigo** para campos de Data
+
+   </div>
+
+   <span class="preview"> Os agrupamentos no modo de exibição de linha do tempo estão classificados de acordo. Os registros dentro dos agrupamentos são classificados na ordem de sua **Data inicial**, que é a classificação padrão. </span>
+
 1. (Opcional) Repita as etapas acima para adicionar até três agrupamentos.
 
    O número de campos selecionados para o agrupamento é exibido ao lado do ícone Grouping.
