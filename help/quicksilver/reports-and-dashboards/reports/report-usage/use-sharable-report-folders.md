@@ -6,9 +6,9 @@ description: Use pastas de relatórios compartilháveis para organizar os relat�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
-source-git-commit: 650d24c36c3ccee810b8918ccdf456f607b055e9
+source-git-commit: 6a56485ef5a36aac92fbed73bd6749ed63796a58
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '771'
 ht-degree: 5%
 
 ---
@@ -93,7 +93,7 @@ Você pode criar até três níveis de subpastas em uma pasta de relatórios com
 
 ## Compartilhar uma pasta de relatório com outros usuários
 
-Quando você compartilha uma pasta com usuários, eles herdam acesso a todas as subpastas nessa árvore de pastas. Os usuários também devem ter acesso a cada relatório, por meio de permissões de pasta ou compartilhamento direto de relatório.
+Quando você compartilha uma pasta com usuários, eles herdam acesso a todas as subpastas nessa árvore de pastas.
 
 {{step1-to-reports}}
 
@@ -135,3 +135,7 @@ As permissões de relatório concedidas por meio das permissões de pasta são r
 ## Nova experiência de lista para pastas compartilháveis
 
 Ao acessar pastas compartilháveis na área Relatórios, você verá uma nova experiência de lista que permite visualizar e gerenciar facilmente suas pastas e relatórios. Para obter mais informações sobre a nova experiência de lista, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+>[!NOTE]
+>
+>Campos avançados não são permitidos na experiência de lista aprimorada. Para trabalhar com esses campos, você pode criar um relatório.
