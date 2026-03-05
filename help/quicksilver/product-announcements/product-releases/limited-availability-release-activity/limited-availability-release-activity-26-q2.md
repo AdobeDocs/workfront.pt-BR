@@ -9,14 +9,14 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 32c616b2-5bba-434e-9918-c27f6518693d
-source-git-commit: 56e5af94e0e98cf680db182f10143f5503e4260b
+source-git-commit: caad1c709da790e28df39a4a6092ef1ebfa42357
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '367'
+ht-degree: 3%
 
 ---
 
-# Atividade da segunda versão do trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront
+# Atividade de lançamento do segundo trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront
 
 Este artigo descreve a disponibilidade limitada dos recursos do Workfront que estão sendo lançados durante o segundo trimestre de 2026.
 
@@ -44,6 +44,26 @@ Há uma nova experiência para atribuir recursos a tarefas. Isso agora está dis
 
 Para obter informações, consulte [Editar tarefas](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
+### Preservar taxas de cobrança em planos de pessoal
+
+>[!NOTE]
+>
+>Data de lançamento da produção: 5 de março de 2026
+
+Adicionamos o campo **Preservar Cobrança** à seção Finanças da página Detalhes do Plano de Equipe.
+
+Quando esse sinalizador é definido como Falso (desativado), as taxas de faturamento não são preservadas e a hierarquia de taxas é usada para cálculos de taxas de faturamento.
+
+Quando este sinalizador é definido como Verdadeiro (ativado):
+
+* As taxas de faturamento atuais dos recursos atribuídos no plano de pessoal são preservadas, e quaisquer alterações nas taxas na hierarquia não são refletidas na área Recursos do plano de pessoal.
+* Se você adicionar uma nova linha à tabela Recursos, a taxa de cobrança inicial que vem da hierarquia de taxas de cobrança será preservada.
+* Se um usuário tiver substituído o valor da taxa de cobrança manualmente antes da ativação do sinalizador, a taxa de substituição será preservada. Quando o sinalizador estiver ativado, não serão permitidas sobreposições manuais da taxa de cobrança.
+
+Uma vez ativada a preservação, ela não pode ser desativada.
+
+Quando você copia um plano de pessoal que tem o indicador ativado, o indicador é automaticamente desativado na cópia. O gerente de recursos deve ativar o sinalizador se for necessário no novo plano de pessoal.
+
 <!--### Title
 
 >[!NOTE]
@@ -53,23 +73,27 @@ Para obter informações, consulte [Editar tarefas](/help/quicksilver/manage-wor
 text
 -->
 
-## Atualizações de manutenção para recursos de disponibilidade limitada
+<!--
 
-Esta seção descreve os problemas corrigidos nas atualizações semanais do Workfront para os recursos de disponibilidade limitada.
+## Maintenance Updates for limited availability features
 
-<!--### Maintenance Updates week of February 8-14, 2026
+This section describes the issues fixed in the weekly Workfront updates for limited availability features.
 
-**Title**
 
-text
 
-### Maintenance Updates week of February 15-21, 2026
+### Maintenance Updates week of March 1-7, 2026
 
 **Title**
 
 text
 
-### Maintenance Updates week of February 22-28, 2026
+### Maintenance Updates week of March 8-14, 2026
+
+**Title**
+
+text
+
+### Maintenance Updates week of March 15-21, 2026
 
 **Title**
 
