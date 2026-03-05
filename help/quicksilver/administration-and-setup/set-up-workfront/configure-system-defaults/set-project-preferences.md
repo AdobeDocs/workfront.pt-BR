@@ -139,7 +139,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimativa no Término ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimativa no Término &#x200B;]</p> </td> 
    <td> <p>Determine quais dados [!DNL Workfront] usa para calcular a [!UICONTROL Estimativa no Término] (EAC) que representa o custo total projetado de um projeto.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calcular no nível do projeto]</strong>: EAC da tarefa pai e do projeto são determinados pela inserção de [!UICONTROL Horas Reais] ou [!UICONTROL Custo Real do Trabalho] nas Fórmulas EAC. Este cálculo inclui [!UICONTROL Horas efetivas] ou [!UICONTROL Custos e despesas] adicionados diretamente à tarefa ou projeto pai.</li> 
