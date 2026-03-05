@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '2670'
-ht-degree: 1%
+source-wordcount: '2701'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Como administrador do [!DNL Adobe Workfront], você pode configurar as preferên
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +45,7 @@ Como administrador do [!DNL Adobe Workfront], você pode configurar as preferên
   <tr> 
    <td>[!DNL Adobe Workfront] licença</td> 
    <td><p>[!UICONTROL Padrão]</p>
-       <p>[!UICONTROL Plano]</p></td>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
@@ -106,7 +106,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
   </tr>
   <tr> 
    <td role="rowheader">[!UICONTROL Definir status do novo projeto como]</td> 
-   <td> <p>Determine o status dos novos projetos.</p>  <p><b>OBSERVAÇÃO</b>  
+   <td> <p>Determine o status dos novos projetos.</p>  <p><b> OBSERVAÇÃO </b>  
      <ul> 
       <li>Se você ou outro administrador do [!DNL Workfront] ocultar o status selecionado aqui, o status padrão será alterado para o primeiro status na lista de status.</li> 
      </ul> 
@@ -139,7 +139,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimativa no Término &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimativa no Término ]</p> </td> 
    <td> <p>Determine quais dados [!DNL Workfront] usa para calcular a [!UICONTROL Estimativa no Término] (EAC) que representa o custo total projetado de um projeto.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calcular no nível do projeto]</strong>: EAC da tarefa pai e do projeto são determinados pela inserção de [!UICONTROL Horas Reais] ou [!UICONTROL Custo Real do Trabalho] nas Fórmulas EAC. Este cálculo inclui [!UICONTROL Horas efetivas] ou [!UICONTROL Custos e despesas] adicionados diretamente à tarefa ou projeto pai.</li> 
@@ -237,7 +237,9 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Trimestres Personalizados]</p> </td> 
-   <td> <p>Configure trimestres anuais personalizados para os usuários que trabalharão nos projetos. Os trimestres personalizados geralmente são trimestres que não correspondem ao detalhamento tradicional de trimestres durante um ano civil. Você pode adicionar vários trimestres personalizados. Para obter mais informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados</a>.</p>  <p><b>NOTA</b>: </p><p>[!DNL Workfront] Os administradores não podem desbloquear as preferências de [!UICONTROL Custom Quarters].</p> </td> 
+   <td> <span class="preview">A área Trimestres personalizados foi removida da seção Preferências do projeto no ambiente de Pré-visualização.</span> 
+   <span class="preview">Para obter mais informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados</a>.</p></span>
+   <p>No ambiente de Produção, configure trimestres anuais personalizados para os usuários que trabalharão nos projetos. Os trimestres personalizados geralmente são trimestres que não correspondem ao detalhamento tradicional de trimestres durante um ano civil. Você pode adicionar vários trimestres personalizados.   <p><b>NOTA</b>: </p><p>[!DNL Workfront] os administradores não podem desbloquear as preferências do [!UICONTROL Custom Quarters] e os administradores de grupo não podem editar essas configurações no nível do grupo.</p> </td> 
   </tr> 
  </tbody> 
 </table>

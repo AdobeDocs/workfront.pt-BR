@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 892a86f053fb170872b0b4b6126b67974129d372
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4066'
 ht-degree: 3%
 
 ---
@@ -176,7 +176,7 @@ Para gerenciar uma exibição de linha do tempo:
 
      >[!TIP]
      >
-     >Essa mensagem deve ser exibida somente imediatamente depois que sua organização comprar o Planning e os trimestres personalizados já estiverem habilitados antes da compra. Sobreposições e intervalos entre os trimestres não são permitidos após habilitar o Workfront Planning para sua organização.
+     >Essa mensagem deve ser exibida imediatamente depois que sua organização comprar o Planning e os trimestres personalizados já estavam habilitados antes da compra. Sobreposições e intervalos entre os trimestres não são permitidos após habilitar o Workfront Planning para sua organização.
 
    * Se os trimestres tiverem sido parcialmente configurados, com alguns meses no mesmo ano ausentes, você poderá receber uma notificação ao rolar a tela para exibir os trimestres ausentes de que o restante do ano precisa ser configurado com os trimestres ausentes.
 

@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Filtrar relatórios por períodos
+title: Filtrar relatórios por períodos de tempo
 description: Você pode filtrar um relatório pelo período de uma data que existe em um objeto. Por exemplo, você pode filtrar um relatório de horas para um período específico de quando as horas foram inseridas.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
-# Filtrar relatórios por períodos
+# Filtrar relatórios por períodos de tempo
 
 <!-- Audited: 4/2025 -->
 
@@ -21,7 +21,7 @@ Você pode filtrar um relatório pelo período de uma data que existe em um obje
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Você pode filtrar um relatório pelo período de uma data que existe em um obje
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-      <p>Standard</p>
+      <p>Padrão</p>
       <p>Plano</p>
    </td>
   </tr> 
@@ -49,7 +49,7 @@ Você pode filtrar um relatório pelo período de uma data que existe em um obje
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -148,11 +148,11 @@ Por exemplo, se você estiver criando um relatório de horas e quiser exibir as 
   </tr> 
   <tr> 
    <td role="rowheader">Próxima Semana</td> 
-   <td>Exibe horas em que a Data de Entrada é uma data na semana seguinte à semana atual, em que a semana começa em um domingo e termina em um sábado. </td> 
+   <td>Exibe horas em que a Data de Entrada é uma data na semana seguinte à semana atual, em que a semana começa em um domingo e termina em um sábado. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Semana passada</td> 
-   <td>Exibe horas em que a Data de Entrada é uma data na semana anterior à semana atual, em que a semana começa em um domingo e termina em um sábado. </td> 
+   <td>Exibe horas em que a Data de Entrada é uma data na semana anterior à semana atual, em que a semana começa em um domingo e termina em um sábado. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Este Mês</td> 
@@ -182,7 +182,7 @@ Por exemplo, se você estiver criando um relatório de horas e quiser exibir as 
   </tr> 
   <tr> 
    <td role="rowheader">Último trimestre</td> 
-   <td> <p>Exibe horas em que a Data de Entrada é uma data no trimestre anterior ao trimestre atual, em que os trimestres estão definidos acima.</p> <p>Observação: se o administrador do Workfront tiver ativado e definido trimestres personalizados para seu sistema, os filtros integrados para trimestres serão substituídos pelas informações de trimestre personalizadas. Para obter mais informações sobre como habilitar trimestres personalizados, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Habilitar trimestres personalizados</a>.</p> </td> 
+   <td> <p>Exibe horas em que a Data de Entrada é uma data no trimestre anterior ao trimestre atual, em que os trimestres estão definidos acima.</p> <p><b>NOTA</b></p>  Se o administrador do Workfront tiver ativado e definido trimestres personalizados para seu sistema, os filtros integrados para trimestres serão substituídos pelas informações de trimestre personalizadas. Para obter mais informações sobre como habilitar trimestres personalizados, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Habilitar trimestres personalizados</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Este ano</td> 
@@ -194,7 +194,7 @@ Por exemplo, se você estiver criando um relatório de horas e quiser exibir as 
   </tr> 
   <tr> 
    <td role="rowheader">Ano passado</td> 
-   <td> <p>Exibe horas em que a Data de Entrada é uma data no último ano, em que o último ano começa em 1º de janeiro e termina em 31 de dezembro do ano anterior ao ano atual.</p> <p>Nota: Não há período de tempo incorporado para o ano fiscal. Você pode criar um relatório e filtrar as informações por data usando um modificador personalizado para o intervalo de datas do ano fiscal, conforme definido em sua organização. Se você quiser escolher um período para um ano fiscal no local, deverá usar um prompt em vez de um filtro. </p> </td> 
+   <td> <p>Exibe horas em que a Data de Entrada é uma data no último ano, em que o último ano começa em 1º de janeiro e termina em 31 de dezembro do ano anterior ao ano atual.</p> <p>Nota: Não há período de tempo incorporado para o ano fiscal. Você pode criar um relatório e filtrar as informações por data usando um modificador personalizado para o intervalo de datas do ano fiscal, conforme definido em sua organização. Se você quiser escolher um período para um ano fiscal no local, deverá usar um prompt em vez de um filtro. </p> </td> 
   </tr> 
  </tbody> 
 </table>

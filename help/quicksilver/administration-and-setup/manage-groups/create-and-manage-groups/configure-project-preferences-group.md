@@ -8,19 +8,19 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '2742'
-ht-degree: 2%
+source-wordcount: '2839'
+ht-degree: 3%
 
 ---
 
 # Configurar as preferências do projeto para um grupo
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Se você for um administrador de grupo e um administrador do Adobe Workfront desbloquear uma preferência de projeto para todos os grupos no sistema, poderá configurar essa preferência para que o grupo afete todos os projetos subsequentes criados pelo grupo.
 
@@ -41,7 +41,7 @@ Para obter informações sobre como um administrador do Workfront desbloqueia um
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Para obter informações sobre como um administrador do Workfront desbloqueia um
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr>
   <tr> 
@@ -113,7 +113,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
 </td></tr>
   <tr> 
    <td role="rowheader">Ajustar o status do novo projeto para</td> 
-   <td> <p>Determine o status dos novos projetos.</p> <p><b>OBSERVAÇÃO</b>   
+   <td> <p>Determine o status dos novos projetos.</p> <p><b> OBSERVAÇÃO </b>   
      <ul> 
       <li>Se você ou outro administrador do Workfront ocultar o status selecionado aqui, o status padrão será alterado para o primeiro status na lista de status.</li> 
      </ul> 
@@ -166,7 +166,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Cronograma de</td> 
+   <td role="rowheader"><b>Cronograma de</b></td> 
    <td> <p>Determine se os novos projetos estão programados a partir da Data inicial ou da Data de conclusão quando são criados.</p> 
     <ul> 
      <li><strong>Data de Início</strong>: novas tarefas assumem como padrão a Restrição de Tarefa O Mais Breve Possível e os gerentes de projeto são solicitados a fornecer uma Data de Início Planejada para o projeto.</li> 
@@ -174,7 +174,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Tempo de folga do usuário</td> 
+   <td role="rowheader"><b>Tempo de folga do usuário</b></td> 
    <td> <p>Determine se o tempo de folga do Principal responsável por uma tarefa ajusta as datas planejadas para essa tarefa em um projeto.</p> 
     <ul> 
      <li> <p><strong>Considere o tempo de folga do usuário nas durações da tarefa</strong>: qualquer tempo de folga agendado para o Destinatário Principal de uma tarefa ajusta as datas planejadas da tarefa se o tempo de folga ocorrer durante a duração da tarefa. Esta é a configuração padrão. </p> <p>Por exemplo, se uma tarefa com uma Restrição o Mais Breve Possível estiver programada para iniciar em 1° de junho e terminar em 3 de junho, e o Destinatário principal tiver o dia 2 de junho marcado para Folga, as datas planejadas da tarefa serão ajustadas de 1º de junho a 4 de junho.</p> <p><b>IMPORTANTE</b>: a duração da tarefa não é alterada quando você seleciona essa configuração. Somente as datas planejadas mudam, dependendo da Restrição da Tarefa.</p> </li> 
@@ -222,7 +222,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
     </ul> <p>Para obter mais informações sobre agendamentos, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Criar um agendamento</a>.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Cálculos de linha do tempo </p> </td> 
+   <td role="rowheader"> <p><b>Cálculos de linha do tempo</b></p> </td> 
    <td> 
     <ul> 
      <li><strong>Horas típicas por dia útil</strong>: Defina o número de horas em um dia útil típico para os usuários que trabalharão nos projetos. O padrão é 8 horas.</li> 
@@ -233,7 +233,12 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Trimestres personalizados</strong> </p> </td> 
-   <td> <p>Configure trimestres anuais personalizados para os usuários que trabalharão nos projetos. Os trimestres personalizados geralmente são trimestres que não correspondem ao detalhamento tradicional de trimestres durante um ano civil. Você pode adicionar vários trimestres personalizados. Para obter mais informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados</a>.</p> <p><b>OBSERVAÇÃO</b>: os administradores do Workfront não podem desbloquear as preferências de Trimestres personalizados.</p> </td> 
+   <td> 
+   <span class="preview">A área Trimestres personalizados foi removida da seção Preferências de Projeto do Grupo no ambiente de Visualização.</span>
+   <p>Os trimestres personalizados geralmente são trimestres que não correspondem ao detalhamento tradicional de trimestres durante um ano civil. Um administrador do Workfront pode adicionar vários trimestres personalizados na área <b>Configuração</b>. Para obter mais informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados</a>.</p>  
+   <p><b>IMPORTANTE<b></p>
+   <p>Você não pode alterar a configuração Trimestre personalizado como um administrador de grupo. <p>Os administradores do Workfront não podem desbloquear as preferências de Trimestres personalizados para que os administradores de grupo possam gerenciá-los.</p> <p>A área Trimestres personalizados é somente leitura para administradores de grupo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

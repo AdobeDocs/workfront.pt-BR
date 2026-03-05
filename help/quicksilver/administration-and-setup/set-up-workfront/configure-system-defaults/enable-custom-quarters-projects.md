@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 0%
+source-wordcount: '451'
+ht-degree: 8%
 
 ---
 
 # Habilitar trimestres personalizados
 
-<!--Audited: 11/2024-->
+<!--Audited: 03/2026-->
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Para fins de relatórios, você pode criar trimestres personalizados se os trimestres de sua organização forem baseados em critérios específicos diferentes das datas do calendário (como dias úteis ou dias de compras).
 
@@ -28,7 +32,7 @@ Dependendo dos produtos comprados por sua empresa, é possível configurar o seg
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +45,7 @@ Dependendo dos produtos comprados por sua empresa, é possível configurar o seg
   <tr> 
    <td>[!DNL Adobe Workfront] licença</td> 
    <td><p>[!UICONTROL Padrão]</p>
-       <p>[!UICONTROL Plano]</p></td>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
@@ -58,9 +62,12 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 {{step-1-to-setup}}
 
-1. Clique em **[!UICONTROL Preferências do projeto]** > **[!UICONTROL Projetos].**
+1. (Condicional) Dependendo do ambiente no qual você acessa Trimestres personalizados, execute um dos seguintes procedimentos:
 
-1. Na seção **[!UICONTROL Linhas do Tempo]**, selecione **[!UICONTROL Habilitar Trimestres Personalizados]**.
+   * No ambiente de Produção, clique em **[!UICONTROL Preferências do Projeto]** > **[!UICONTROL Projetos].**
+   * <span class="preview">No ambiente de Visualização, clique em **[!UICONTROL Trimestres personalizados]**.</span>
+
+1. Selecione **[!UICONTROL Habilitar Trimestres Personalizados]**.
 
 1. Digite um nome para o trimestre personalizado, como &quot;T1 fiscal de 2021&quot;.
 1. Selecione datas de início e término para o trimestre personalizado.
@@ -77,7 +84,6 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. (Opcional e condicional) Se sua empresa comprou apenas o [!DNL Workfront], sem o [!DNL Workfront Planning], crie um elemento de relatório que faça referência aos trimestres fiscais.
 
-
    **Exemplo:** Crie um filtro para uma lista de [!UICONTROL projetos] e inclua a Data de Conclusão Planejada de um projeto que faça referência aos trimestres personalizados.
 
    ![Filtro de projeto com trimestres personalizados](assets/example-of-project-filter-with-custom-quarters.png)
@@ -87,5 +93,5 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    Para obter informações sobre elementos de relatórios, consulte [Elementos de relatórios: filtros, exibições e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
    Para obter informações sobre como criar filtros, consulte [Criar ou editar filtros em [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
-1. (Opcional e condicional) Se você tiver acesso a [!DNL Workfront Planning], vá para uma página de tipo de registro e abra uma exibição de linha do tempo. A exibição mostra os novos trimestres personalizados.
+1. (Opcional e condicional) Se sua empresa adquiriu o Workfront Planning e você tem acesso a [!DNL Workfront Planning], vá para uma página de tipo de registro e abra uma exibição de linha do tempo. A exibição mostra os novos trimestres personalizados.
 Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/help/quicksilver/planning/views/manage-the-timeline-view.md).
