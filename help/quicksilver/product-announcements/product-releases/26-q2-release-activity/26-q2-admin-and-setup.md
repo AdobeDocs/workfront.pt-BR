@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: 860bd4bef75a90f4e1c5a21f38de95962804c00c
+source-git-commit: d3a7c3c03b6be87f3adf2fd67b9136bc2be9c24b
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '466'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,23 @@ ht-degree: 6%
 Esta página descreve as melhorias de Administrador feitas com a versão do Segundo trimestre de 2026 no ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2026, consulte [Visão geral da versão do Segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Os trimestres personalizados agora estão disponíveis como uma página separada na Configuração
+
+>[!NOTE]
+>
+>Visualização: 5 de março de 2026
+>Versão rápida de produção: quinta-feira, 15 de abril de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
+Movemos a área Trimestre personalizado da seção Preferências do projeto. Agora é uma seção independente na Configuração do. 
+Essa atualização inclui o seguinte:
+
+* A área Trimestres personalizados é removida da seção Preferências do projeto na Configuração
+* A seção Trimestres personalizados é adicionada ao painel esquerdo Configuração. A funcionalidade permanece a mesma. 
+* A seção Trimestres personalizados foi removida da seção Preferências do projeto de um grupo. Os administradores de grupo não têm mais visibilidade da configuração de Trimestres personalizados. 
+
+Para obter informações, consulte [Habilitar trimestres personalizados](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Recolher seção de formulário personalizado por padrão
 

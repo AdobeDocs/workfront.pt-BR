@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 8fdc6d1b72967b2a52295c31cb83d43594817d6f
+source-git-commit: d721f04259046f271e9f420e445af6e87d67a5c0
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1352'
 ht-degree: 41%
 
 ---
@@ -51,12 +51,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <col style="width: 50%;" />
             <col style="width: 25%;" />
             <tbody>
-               <tr>
+              <tr>
         <td><strong>Recurso</strong>
         </td>
         <td><strong>Pré-visualização</strong></td>
         <td><strong>Lançamento rápido</strong></td>
         <td><strong>Trimestralmente</strong></td>
+        </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Trimestres personalizados removidos das Preferências de Projeto</a><p>Movemos a área Trimestre personalizado da seção Preferências do projeto. Agora é uma seção independente na Configuração do.</p>
+        </td>
+        <td><p>quinta-feira, 5 de março de 2025</p></td>
+        <td><p>quinta-feira, 15 de abril de 2026</p></td>
+        <td><p>sexta-feira, 16 de abril de 2026</p></td>
+    </tr>
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Recolher seção de formulário personalizado por padrão</a><p>Por padrão, todas as seções em um formulário personalizado são expandidas quando o próprio formulário é expandido. Uma nova opção no designer de formulário personalizado permite marcar uma seção para ser recolhida por padrão quando um usuário abrir o formulário. Essa opção é aplicada no nível da seção, não em campos.</p>
@@ -65,7 +74,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><p>sexta-feira, 12 de março de 2026</p></td>
         <td><p>sexta-feira, 16 de abril de 2026</p></td>
     </tr>
-    <tr>
+     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">O tipo de campo Rich Text agora está disponível em formulários personalizados</a><p>O novo tipo de campo <b>Rich text</b> em formulários personalizados é um editor de texto robusto, com opções de formatação como sobrescrito e subscrito, cabeçalhos e tabelas, além das opções tradicionais de negrito, itálico, sublinhado, marcadores, numeração, hiperlinks e aspas duplas. O limite de caracteres permanece de 15.000.</p>
         </td>
