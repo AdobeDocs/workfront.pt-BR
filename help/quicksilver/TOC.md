@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 35f9c4012d8d47e6cd5402029ceaf487b1942ce9
+source-git-commit: 14794bc7c65cd1863412ea278a1a199b6452c4e0
 workflow-type: tm+mt
-source-wordcount: '13782'
+source-wordcount: '13790'
 ht-degree: 98%
 
 ---
@@ -519,6 +519,8 @@ ht-degree: 98%
          * [Visualizar e exportar logs de auditoria](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [Visualizar informações de logon do usuário](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Gerenciar usuários no Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+         * [Visão geral dos perfis empresariais](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
+         * [Exibir e gerenciar perfis empresariais](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-business-profiles.md)
       * Como os níveis de acesso funcionam {#access-levels}
          * [Como os níveis de acesso funcionam](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [Visão geral dos níveis de acesso](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
