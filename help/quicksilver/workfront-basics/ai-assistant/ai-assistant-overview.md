@@ -5,10 +5,10 @@ description: Saiba mais sobre o Assistente de IA no Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: e8e10f02f77f6c1df9f0af380eb16cc6bbc3b5d1
+source-git-commit: 2619aa432a8c0b12d0d910df8eb05447fa50f387
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '834'
+ht-degree: 99%
 
 ---
 
@@ -22,28 +22,26 @@ O Assistente de IA do Workfront ajuda você a realizar seu trabalho, oferecendo 
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Plano Adobe Workfront</td> 
-   <td><p>Novo: qualquer um</p>
-       <p>ou</p>
-       <p>Atual: não disponível</p></td>
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td> <p>Selecionar ou superior </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Novo: padrão</p>
-       <p>ou</p>
-       <p>Atual: não disponível</p></td>
+   <td><p>Padrão</p>
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Pré-requisitos para o Assistente de IA
 
