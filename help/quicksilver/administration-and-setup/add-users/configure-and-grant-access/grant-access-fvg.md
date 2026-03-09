@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -23,7 +23,7 @@ Para obter informações sobre os controles de filtro, exibição e agrupamento,
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Para obter informações sobre os controles de filtro, exibição e agrupamento,
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Para obter informações sobre os controles de filtro, exibição e agrupamento,
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Por padrão, os usuários com uma licença de Plano, Trabalho, Revisor ou Solicitação têm capacidades totais de Exibição e Edição. Os usuários com uma licença de Usuário externo não acessam filtros, visualizações e agrupamentos.
 
-   <!--If this changes, undraft section with table below
+   <!--
+   If this changes, undraft section with table below
    -->
 
 1. (Opcional) Para definir as configurações de acesso para outros objetos e áreas no nível de acesso em que você está trabalhando, continue com um dos artigos listados em [Configurar acesso ao Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acesso a tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
@@ -66,9 +67,11 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Após criar o nível de acesso, você pode atribuí-lo a um usuário. Para obter mais informações, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-<!--## Access to filters, views, and groupings by license type
+<!--
+## Access to filters, views, and groupings by license type
 
-Drafting out this section for now because the table is redundant since all four license types can do everything.</span>-->
+Drafting out this section for now because the table is redundant since all four license types can do everything.</span>
+-->
 
 Esta tabela lista o que um administrador do Workfront pode permitir que usuários com cada tipo de licença façam com filtros, visualizações e agrupamentos. Para obter informações sobre os tipos de licença da Workfront, consulte [visão geral das licenças da Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 

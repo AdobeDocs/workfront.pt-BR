@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Como administrador do Adobe Workfront, você pode criar ou editar uma condição
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,12 +33,12 @@ Como administrador do Adobe Workfront, você pode criar ou editar uma condição
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td>Administrador de Sistema</td> 
+   <td>Administrador de sistema</td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,7 +128,8 @@ Você pode definir sua condição personalizada como uma condição padrão para
 Para obter mais informações sobre condições personalizadas, consulte [Condições personalizadas](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 
-<!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+<!-- 
+   THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)

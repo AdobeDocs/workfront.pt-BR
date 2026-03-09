@@ -1,5 +1,5 @@
 ---
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 2%
@@ -7,7 +7,8 @@ ht-degree: 2%
 ---
 # Trechos
 
-<!-- Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
+<!-- 
+Add snippets within the section that the snippet is used. Snippets that are used throughout the Workfront documentation set should be added to the "General" section. -->
 
 <!-- General -->
 
@@ -220,78 +221,66 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 1. (Opcional) Ajustar as configurações do fluxo de trabalho de prova automatizada
 
    <table>
-      <tr>
-         <td colspan="2" ><strong>Estágios de prova</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>Desabilitar estágios
-         </td>
-         <td>
+   <tr>
+      <td colspan="2" ><strong>Estágios de prova</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Desabilitar estágios
+      </td>
+      <td>
       <ol>
-
-   <li>Alternar Selecionar tudo para desativar todos os estágios. 
+      <li>Alternar Selecionar tudo para desativar todos os estágios. 
       <p>Ou</p></li>
       <li>Alternar estágios individuais.</li>
-
-   </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Adicionar recipients
-         </td>
-         <td>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Adicionar recipients
+      </td>
+      <td>
       <ol>
-
-   <li>Na caixa Adicionar novo destinatário, comece digitando o nome do usuário.
-
-   <li>Especifique o Função da prova.
-
-   <li>Escolha o tipo de alertas de email para o destinatário. 
+      <li>Na caixa Adicionar novo destinatário, comece digitando o nome do usuário.</li>
+      <li>Especifique o Função da prova.</li>
+      <li>Escolha o tipo de alertas de email para o destinatário.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Definir um prazo
+      </td>
+      <td>
+      <ol>
+      <li>Escolha um prazo final.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td colspan="2" ><strong>Notificações por email</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Notificar recipients sobre a prova
+      </td>
+      <td>
+      <ol>
+      <li>Ative a caixa de seleção para notificar os usuários quando a prova for criada.</li>
+      </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Adicionar uma mensagem personalizada
+      </td>
+      <td>
+      <ol>
+      <li>Digite um assunto.
+      <li>Digite a mensagem personalizada.
       </li>
       </ol>
-         </td>
+      </td>
       </tr>
-      <tr>
-         <td>Definir um prazo
-         </td>
-         <td>
-      <ol>
-
-   <li>Escolha um prazo final.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td colspan="2" ><strong>Notificações por email</strong>
-         </td>
-      </tr>
-      <tr>
-         <td>Notificar recipients sobre a prova
-         </td>
-         <td>
-      <ol>
-
-   <li>Ative a caixa de seleção para notificar os usuários quando a prova for criada.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      <tr>
-         <td>Adicionar uma mensagem personalizada
-         </td>
-         <td>
-      <ol>
-
-   <li>Digite um assunto.
-
-   <li>Digite a mensagem personalizada.
-      </li>
-      </ol>
-         </td>
-      </tr>
-      </table>
+   </table>
 
 <!-- Workfront Planning -->
 
@@ -318,7 +307,8 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 > 
 >Para obter informações gerais sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-<!--Old - before Oct. 15, 2025:
+<!--
+Old - before Oct. 15, 2025:
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
@@ -331,9 +321,11 @@ Você deve instalar o plug-in correto para o aplicativo da Adobe Creative Cloud 
 >
 > For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 > 
->For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).-->
+>For more information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+-->
 
-<!--OLD: 
+<!--
+OLD: 
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
@@ -464,11 +456,11 @@ Você pode alterar o status aplicado ao item de trabalho com o botão Concluído
    >* Os tipos de problemas são personalizáveis e podem ter nomes diferentes dos listados abaixo em seu ambiente.\
    >  A seguir estão as tarefas padrão e os tipos de problemas:
    >     
-   >   * Tarefas
-   >   * Problema
-   >   * Solicitação
-   >   * Pedido de alteração
-   >   * Relatório de erro
+   >  * Tarefas
+   >  * Problema
+   >  * Solicitação
+   >  * Pedido de alteração
+   >  * Relatório de erro
 
    Se a tarefa ou problema for atribuído a vários usuários, você verá a opção &quot;Concluído com minha parte&quot; no menu suspenso, além dos vários status escolhidos para sua equipe.
 
@@ -530,5 +522,4 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
-
 
