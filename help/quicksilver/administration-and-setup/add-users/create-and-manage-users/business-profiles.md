@@ -8,7 +8,10 @@ description: Os perfis empresariais são um modelo de permissão aprimorado que 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: e092a3e827d984a39ae82c73824a0aadcf4e227b
+hide: true
+hidefromtoc: true
+exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
+source-git-commit: 1389c6a1f41a14bafd6b70e2e079e40d22d47b07
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 0%
@@ -116,4 +119,3 @@ Para obter informações sobre como os níveis de acesso e as permissões funcio
 * Quando um grupo é excluído do Workfront, todos os perfis de negócios atribuídos para esse grupo são removidos dos usuários associados.
 * Se um nível de acesso fizer parte de um perfil de negócios e você deletar o nível de acesso, será solicitado que você escolha um novo nível de acesso para usar.
 * As atualizações para perfis empresariais são rastreadas nos logs de auditoria do Workfront. Para obter mais informações, consulte Visão geral dos logs de auditoria.
- 
