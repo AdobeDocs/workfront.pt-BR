@@ -2,19 +2,19 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Remover indicadores de progresso das metas no Adobe Workfront Goals
+title: Remover indicadores de progresso das Metas do Adobe Workfront
 description: Você pode remover resultados, atividades e projetos das metas nas Metas do Adobe Workfront, quando elas não forem mais relevantes.
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 2%
+source-wordcount: '659'
+ht-degree: 14%
 
 ---
 
-# Remover indicadores de progresso das metas no Adobe Workfront Goals
+# Remover indicadores de progresso das Metas do Adobe Workfront
 
 <!-- for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
 -->
@@ -26,7 +26,7 @@ Para obter informações sobre como criar metas e adicionar resultados e ativida
 * [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
 * [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
 * [Adicionar resultados às metas nas Metas do Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Editar resultados e atividades no Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
+* [Editar resultados e atividades nas Metas do Adobe Workfront](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 As metas também podem ser alinhadas às metas principais, tornando-se metas secundárias. As metas secundárias também são indicadores de progresso das metas principais.
 
@@ -36,7 +36,7 @@ Você pode remover o alinhamento entre metas removendo a conexão entre elas. Pa
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
@@ -51,14 +51,15 @@ Você pode remover o alinhamento entre metas removendo a conexão entre elas. Pa
  <tr>
   <td> <p>Pacote do Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>Nota</b></p>
+<p>Fale com o representante da Workfront se tiver um pacote do Workfront diferente.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licença do Adobe Workfront</td>
  <td>
- <p>Colaborador ou superior</p>
-<p>Solicitação ou superior</p></td>
+ <p>Colaborador ou posterior</p>
+<p>Solicitação ou posterior</p></td>
  </tr>
   <tr>
  <td role="rowheader">Configuração do nível de acesso</td>

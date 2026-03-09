@@ -6,14 +6,14 @@ description: Depois que você ou outros usuários criam metas, é possível revi
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 2%
+source-wordcount: '755'
+ht-degree: 12%
 
 ---
 
-# Gerenciar metas na Lista de metas do Adobe Workfront
+# Gerenciar metas na lista de metas do Adobe Workfront Goals
 
 <!--Audited for P&P only: 10/2025-->
 
@@ -25,11 +25,11 @@ Depois que você ou outros usuários criam metas, é possível revisar o progres
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto">
 <col>
@@ -40,14 +40,15 @@ Depois que você ou outros usuários criam metas, é possível revisar o progres
  <tr>
   <td> <p>Pacote do Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>Nota</b></p>
+<p>Fale com o representante da Workfront se tiver um pacote do Workfront diferente.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licença do Adobe Workfront</td>
  <td>
- <p>Colaborador ou superior</p>
-<p>Solicitação ou superior</p></td>
+ <p>Colaborador ou posterior</p>
+<p>Solicitação ou posterior</p></td>
  </tr>
   <tr>
  <td role="rowheader">Configuração do nível de acesso</td>

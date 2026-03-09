@@ -6,14 +6,14 @@ description: É possível editar as metas existentes a partir de qualquer perío
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 3%
+source-wordcount: '576'
+ht-degree: 15%
 
 ---
 
-# Editar metas nas Metas do Adobe Workfront
+# Editar metas no Adobe Workfront Goals
 
 <!--Audited for P&P only: 10/2025-->
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
@@ -38,14 +38,15 @@ ht-degree: 3%
  <tr>
   <td> <p>Pacote do Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>Nota</b></p>
+<p>Fale com o representante da Workfront se tiver um pacote do Workfront diferente.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licença do Adobe Workfront</td>
  <td>
- <p>Colaborador ou superior</p>
-<p>Solicitação ou superior</p></td>
+ <p>Colaborador ou posterior</p>
+<p>Solicitação ou posterior</p></td>
  </tr>
   <tr>
  <td role="rowheader">Configuração do nível de acesso</td>
@@ -232,7 +233,7 @@ Uma lista de metas é exibida.
 
 1. (Opcional) Clique em **Indicadores de progresso** no painel esquerdo para adicionar resultados, atividades ou projetos à meta. Ao adicionar indicadores de progresso, é possível rastrear o progresso da meta.
 Para obter mais informações, consulte os seguintes artigos:
-   * [Adicionar atividades às metas no Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md)
+   * [Adicionar atividades às Metas do Adobe Workfront](../results-and-activities/add-activities-to-goals.md)
    * [Adicionar resultados às metas nas Metas do Adobe Workfront](../results-and-activities/add-results-to-goals.md).
    * [Adicionar projetos às metas no Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
 

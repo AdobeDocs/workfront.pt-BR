@@ -1,19 +1,19 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Alinhar metas convertendo resultados e atividades em metas
+title: Alinhar metas, convertendo resultados e atividades em metas
 description: Você pode alinhar duas metas manualmente ou converter os resultados e as atividades de uma meta existente em outra meta. O resultado ou a atividade convertida se torna a meta secundária da meta original. Para obter informações sobre como alinhar manualmente duas metas, consulte Alinhar metas ao conectá-las nas Metas do Adobe Workfront.
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 17%
+source-wordcount: '618'
+ht-degree: 29%
 
 ---
 
-# Alinhar metas convertendo resultados e atividades em metas
+# Alinhar metas, convertendo resultados e atividades em metas
 
 <!--Audited P&P only: 4/2025-->
 
@@ -24,11 +24,11 @@ Para obter informações sobre como alinhar manualmente duas metas, consulte [Al
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
-+++Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,12 +37,13 @@ Para obter informações sobre como alinhar manualmente duas metas, consulte [Al
 
 <td> <p>Pacote do Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>Nota</b></p>
+<p>Fale com o representante da Workfront se tiver um pacote do Workfront diferente.</p>
    </td> 
   </tr> 
   <tr> 
    <td> <p>Licença do Adobe Workfront</p> </td> 
-   <td> <p>Colaborador ou superior</p> 
+   <td> <p>Colaborador ou posterior</p> 
      <p>Solicitante ou superior</p> </td> 
   </tr>
 

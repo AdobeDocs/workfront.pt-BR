@@ -1,21 +1,21 @@
 ---
 product-area: requests
 navigation-topic: create-and-manage-request-queues
-title: Criar Regras de Encaminhamento
+title: Criar regras de roteamento
 description: As Regras de Encaminhamento controlam o que o Adobe Workfront faz com os problemas quando eles são enviados para uma Fila de solicitações.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
-# Criar Regras de Encaminhamento
+# Criar regras de roteamento
 
 <!-- Audited: 12/2023 -->
 
@@ -27,7 +27,7 @@ Depois de criado, não é possível mover regras de roteamento de um projeto par
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Depois de criado, não é possível mover regras de roteamento de um projeto par
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
+   <td> <p>Padrão</p> 
    <p>Plano</p> </td> 
   </tr> 
   <tr> 

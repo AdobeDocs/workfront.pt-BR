@@ -3,17 +3,17 @@ product-area: requests
 navigation-topic: create-requests
 title: Excluir uma solicitação enviada para solicitar rascunho
 description: Você pode excluir solicitações enviadas ou solicitar rascunhos.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-# Excluir uma solicitação enviada ou rascunho de solicitação
+# Excluir uma solicitação enviada ou um rascunho de solicitação
 
 Você pode excluir solicitações enviadas ou solicitar rascunhos criados na nova experiência de solicitação. Os administradores do Workfront e do espaço de trabalho do Planning também podem excluir solicitações.
 
@@ -38,8 +38,8 @@ Para obter informações, consulte:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p>
+   <td> <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p>
     </td> 
   </tr> 
   <tr> 

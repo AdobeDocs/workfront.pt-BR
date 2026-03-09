@@ -2,13 +2,13 @@
 title: Preencher automaticamente uma solicitação com dados de solicitações anteriores
 content-type: reference
 description: Você pode usar a IA para preencher automaticamente campos de solicitação usando dados de solicitações anteriores.
-author: Becky
+author: Alina
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 1b7964b533093c4eee20d69a74512a145e207e29
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ Os usuários não recebem sugestões de dados aos quais, de outra forma, não te
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,8 +34,8 @@ Os usuários não recebem sugestões de dados aos quais, de outra forma, não te
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p>
+   <td> <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p>
     </td> 
   </tr> 
   <tr> 

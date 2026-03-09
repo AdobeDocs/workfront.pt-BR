@@ -6,14 +6,14 @@ description: Você pode remover o alinhamento entre duas metas se não fizer mai
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 1%
+source-wordcount: '441'
+ht-degree: 19%
 
 ---
 
-# Remover alinhamento de metas nas Metas do Adobe Workfront
+# Remover alinhamento de metas no Adobe Workfront Goals
 
 <!--Audited P&P only: 4/2025-->
 
@@ -22,17 +22,17 @@ Você pode remover o alinhamento entre duas metas se não fizer mais sentido con
 Para obter informações sobre como alinhar metas, consulte os seguintes artigos:
 
 * [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
-* [Alinhar metas convertendo resultados e atividades em metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
+* [Alinhar metas, convertendo resultados e atividades em metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ## Requisitos de acesso
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto">
 <col>
@@ -43,14 +43,15 @@ Para obter informações sobre como alinhar metas, consulte os seguintes artigos
  <tr>
   <td> <p>Pacote do Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>Nota</b></p>
+<p>Fale com o representante da Workfront se tiver um pacote do Workfront diferente.</p>
    </td> 
   </tr> 
  <tr>
  <td role="rowheader">Licença do Adobe Workfront</td>
  <td>
- <p>Colaborador ou superior</p>
- <p>Solicitação ou superior</p> </td>
+ <p>Colaborador ou posterior</p>
+ <p>Solicitação ou posterior</p> </td>
  </tr>
   <tr>
  <td role="rowheader">Nível de acesso</td>

@@ -3,33 +3,37 @@ product-area: requests
 navigation-topic: create-requests
 title: Criar e gerenciar exibições na área Solicitações
 description: Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
-source-git-commit: 8db8382d63d06c23f93a74a326ddb0e1227f44c8
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 9%
+source-wordcount: '963'
+ht-degree: 7%
 
 ---
 
 
 # Criar e gerenciar exibições na área Solicitações
 
-<!--
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
-Se estiver usando a nova experiência de solicitação, é possível criar e salvar exibições para a área Solicitações. Essas exibições incluem filtros e organização de colunas. <!--<span class="preview"> and groupings.</span> -->
 
-As exibições podem ser criadas e gerenciadas na área Solicitações do Workfront.
+
+
+Se estiver usando a nova experiência de solicitação no Adobe Workfront, você pode criar e salvar exibições para a área Solicitações. Essas exibições incluem filtros e organização de colunas.
+
+<!--<span class="preview"> and groupings.</span>-->
+
 
 >[!IMPORTANT]
 >
->* Essa funcionalidade está disponível somente na nova experiência de solicitação.
->* As configurações de exibição não estão disponíveis no widget Minhas solicitações na Página inicial.
+>* Essa funcionalidade está disponível somente na nova experiência de solicitação na área Solicitações.
+>* As configurações de exibição também estão disponíveis no widget Minhas solicitações na Página inicial. No entanto, as exibições da área Solicitações são separadas das do widget Minhas solicitações.
+>* A lista de solicitações na área Solicitações usa a lista aprimorada no Workfront. Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Requisitos de acesso
 
@@ -68,13 +72,15 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 ## Criar uma visualização para solicitações
 
-Você pode criar uma visualização na área Solicitações do Workfront,.
+Você pode criar uma visualização na área Solicitações do Workfront ao usar a nova experiência de solicitações.
 
 1. Para acessar a lista Solicitações:
 
    {{step1-to-requests}}
 
-1. Na lista Solicitações, clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e selecione **Nova exibição**.
+1. Verifique se a configuração **Usar nova experiência** está ativada.
+
+1. Na lista **Solicitações**, clique no menu suspenso **Exibições** ![Exibições](assets/view-icon-requests.png) e clique em **Nova exibição**.
 
    ![Nova exibição](assets/create-new-view.png)
 
@@ -83,36 +89,53 @@ Você pode criar uma visualização na área Solicitações do Workfront,.
 
 ## Editar uma visualização de solicitações
 
-É possível editar visualizações existentes, incluindo aquelas que você acabou de criar.
+É possível editar exibições existentes, incluindo as que você acabou de criar na área Solicitações do Workfront.
 
-1. Para acessar a lista Solicitações:
+Ao editar uma exibição na área Solicitações, é possível alterar os seguintes elementos da exibição:
+
+* Nome
+* Filtros
+* Colunas
+
+As alterações feitas em uma exibição ficam visíveis para todos com quem você compartilha a exibição.
+
+1. Para acessar uma lista de solicitações na seção Solicitações:
 
    {{step1-to-requests}}
-1. Na lista Solicitações, localize a exibição que deseja editar.
 
-1. (Opcional) Para renomear uma exibição, clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e clique no menu de três pontos ao lado da exibição, selecione **Renomear** e digite o novo nome da exibição.
+1. Verifique se a configuração **Usar nova experiência** está ativada.
+1. Na lista **Solicitações**, localize a exibição que você deseja editar no menu suspenso **Exibições** ![Exibições](assets/view-icon-requests.png).
+
+1. Clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e clique no menu de três pontos ao lado da exibição, selecione **Renomear** e digite o novo nome da exibição.
+1. Pressione Enter para salvar o novo nome.
 1. Clique na lista suspensa **Exibições** ![Exibições](assets/view-icon-requests.png) e selecione o modo de exibição que deseja editar.
-1. Para adicionar um campo personalizado como coluna, clique no ícone **Adicionar coluna** ![Adicionar coluna](assets/add-column.png) próximo à direita da tela e clique no ícone de adição próximo ao campo de formulário personalizado que você deseja adicionar como coluna ao modo de exibição.
+1. Para adicionar um campo como coluna, clique no ícone **Adicionar coluna** ![Adicionar coluna](assets/add-column.png) no canto superior direito da lista.
 
-   >Campos personalizados em formulários anexados ao objeto na lista estão disponíveis para serem adicionados como colunas.
+   O **Gerenciador de colunas** se abre.
+1. Clique no ícone de adição ao lado do campo que você deseja adicionar como coluna ao modo de exibição e clique em **Salvar**.
+
+   Campos associados aos objetos na lista estão disponíveis para serem adicionados como colunas. <!--keeping this general, and not referring to custom fields because there are some native fields that are supported and there will be more in the future-->
 
    >[!TIP]
    >
-   >No momento, não é possível adicionar colunas no ambiente de produção.
-1. (Opcional) Clique em **Colunas** e oculte, exiba ou reorganize as colunas da lista de solicitações.
+   >Os campos adicionados às colunas devem existir antes de serem disponibilizados no **Gerenciador de colunas**.
+
+
+1. (Opcional) Clique em **Colunas** para abrir a caixa de visibilidade e ordem dos campos **F.**
+1. Ative a configuração para cada campo que deseja mostrar na lista, desative-o para ocultá-lo ou arraste e solte os campos em uma ordem diferente.
 
 1. (Opcional) Clique em **Filtros** e comece a adicionar condições para quais solicitações você deseja exibir.
 
-   Você pode filtrar pelos seguintes campos:
+   Você pode filtrar pelos seguintes campos de solicitação:
 
    * **Workspace**: o espaço de trabalho ao qual o formulário de solicitação está associado.
-   * **Tipo de registro**: o tipo de registro ao qual o formulário de solicitação está associado.
+   * **Tipo de objeto**: o tipo de registro ao qual o formulário de solicitação está associado.
    * **Data de entrada**: a data em que a solicitação foi enviada.
    * **Formulário de solicitação**: o nome do formulário de solicitação usado para enviar a solicitação.
    * **Status**: o status da solicitação.
    * **Inserido por**: o nome do usuário que adicionou a solicitação. Se a solicitação foi adicionada por alguém fora do Workfront, o campo **Informado por** mostrará `N/A`.
 
-   Também é possível filtrar por qualquer campo personalizado que tenha sido adicionado à exibição.
+   Também é possível filtrar por qualquer campo que tenha sido adicionado à exibição para qualquer objeto visível na exibição.
 
    Você pode ter vários filtros unidos por **And** ou **Or**.
 A lista de solicitações é filtrada automaticamente ao adicionar as condições de filtro.
@@ -127,9 +150,9 @@ A lista de solicitações é filtrada automaticamente ao adicionar as condiçõe
 >
 > * As alterações nas exibições são salvas automaticamente.
 > * As alterações nas exibições ficam visíveis para qualquer pessoa que a use.
-> * Para garantir que a exibição se aplique à pessoa que a está usando, independentemente de quem a criou, você pode usar o curinga de filtro &quot;Eu (usuário conectado)&quot; em qualquer campo que tenha usuários como o valor.
+> * Use o curinga de filtro **Me (usuário conectado)** em qualquer campo que tenha usuários como o valor.
 
-## Adicione a exibição a um modelo de layout.
+## Adicione a visualização de solicitações a um modelo de layout.
 
 Um administrador do Workfront pode adicionar a nova visualização aos modelos de layout.
 
@@ -139,12 +162,14 @@ Para obter instruções, consulte [Personalizar filtros, exibições e agrupamen
 
 Você pode compartilhar visualizações criadas com outros usuários, equipes ou grupos.
 
-1. Para acessar a lista Solicitações:
+1. Para acessar uma lista de solicitações na seção Solicitações:
 
    {{step1-to-requests}}
 
-1. Na lista Solicitações, localize a exibição que você deseja compartilhar.
-1. Passe o mouse sobre a exibição que deseja compartilhar e clique no menu de três pontos quando ele aparecer.
-1. Selecione **Compartilhar**.
-1. Na caixa de diálogo que é aberta, digite os nomes dos usuários, equipes ou grupos com os quais deseja compartilhar a exibição e selecione-os na lista quando eles forem exibidos.
+1. Verifique se a configuração **Usar nova experiência** está ativada.
+1. Na lista **Solicitações**, localize o modo de exibição que você deseja compartilhar.
+1. Passe o mouse sobre a exibição que você deseja compartilhar, clique no menu de três pontos à direita do nome da exibição e clique em **Compartilhar**.
+1. Na caixa **Compartilhar**, insira as pessoas, equipes, funções, grupos ou empresas com as quais deseja compartilhar a exibição e selecione-as na lista quando forem exibidas.
 1. Clique em **Salvar**.
+
+   A exibição é compartilhada com as entidades indicadas. Eles podem exibir os elementos de visualização atualizados que você editou para a visualização antes de compartilhá-la. <span class="preview">Se eles atualizarem o modo de exibição, suas alterações não ficarão visíveis para outras pessoas, a menos que façam uma cópia do mesmo modo de exibição e preservem suas alterações antes de compartilharem a cópia. Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>

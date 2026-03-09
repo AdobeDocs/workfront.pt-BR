@@ -3,19 +3,19 @@ content-type: overview
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Adicionar projetos às metas no Adobe Workfront Goals
+title: Adicionar projetos às Metas do Adobe Workfront
 description: Você pode conectar projetos a metas para indicar como a meta avança, com base no progresso real do projeto. O projeto se torna um indicador de progresso para a meta.
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 1%
+source-wordcount: '878'
+ht-degree: 13%
 
 ---
 
-# Adicionar projetos às metas no Adobe Workfront Goals
+# Adicionar projetos às Metas do Adobe Workfront
 
 <!--Audited for P&P only: 10/2025-->
 
@@ -32,11 +32,11 @@ Conectando projetos a metas, você pode vincular o planejamento estratégico de 
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto">
 <col>
@@ -47,14 +47,15 @@ Conectando projetos a metas, você pode vincular o planejamento estratégico de 
  <tr>
   <td> <p>Pacote do Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>Nota</b></p>
+<p>Fale com o representante da Workfront se tiver um pacote do Workfront diferente.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licença do Adobe Workfront</td>
  <td>
- <p>Colaborador ou superior</p>
-<p>Solicitação ou superior</p></td>
+ <p>Colaborador ou posterior</p>
+<p>Solicitação ou posterior</p></td>
  </tr>
   <tr>
  <td role="rowheader">Configuração do nível de acesso</td>
@@ -225,5 +226,5 @@ As seguintes informações de meta estão visíveis em uma lista de projetos ou 
 | Informações da meta | Descrição |
 |---|---|
 | Metas | Uma lista de todas as metas que têm um projeto associado a elas. |
-| Hierarquia de metas | A hierarquia à qual uma meta pertence. Somente os pais da meta e a meta são exibidos neste campo. As metas secundárias não são exibidas. |
+| Hierarquia de metas | A hierarquia à qual uma meta pertence. Apenas os pais da meta e a meta são exibidos neste campo. As metas de tarefas-filho não são exibidas. |
 | Número de metas vinculadas | O número de metas vinculadas a um projeto. |

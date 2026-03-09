@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 550a4e94ce340083937ad89f5dad9e151abe9075
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 77%
+source-wordcount: '2354'
+ht-degree: 75%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 77%
 
 Este artigo contém informações gerais sobre o Workfront Planning.
 
-Para obter a lista completa de artigos que contêm documentação sobre o Workfront Planning, consulte [Informações gerais sobre o Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md).
+Para obter a lista completa de artigos que contêm a documentação do Workfront Planning, consulte [Informações gerais e índice do artigo do Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md).
 
 ## Introdução ao Adobe Workfront Planning
 
@@ -319,10 +319,13 @@ Por exemplo, se você conectar um tipo de registro Campanha a um tipo de objeto 
 >[!TIP]
 >
 >* Você não pode adicionar os seguintes tipos de campo como campos de pesquisa a partir dos tipos de registro ou objeto conectados:
+>
 >   * Criado por
 >   * Última modificação por
 >   * Campos de preenchimento automático do Workfront (incluindo campos como Proprietário do projeto ou Patrocinador do projeto)
+>
 >* Não é possível adicionar os seguintes tipos de campo como campos de pesquisa do registro conectado ou tipo de objeto na Produção, <span class="preview"> mas você pode adicioná-los no ambiente de Visualização:</span>
+>
 >   * Pessoas
 
 Para obter informações sobre como conectar tipos de registros, registros e criar campos vinculados, consulte os seguintes artigos:
@@ -436,7 +439,7 @@ Para localizar o Workfront Planning:
 
 ## Recursos adicionais para o Workfront Planning
 
-* [Informações gerais sobre o Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): um índice de todos os artigos que contêm documentação sobre o Workfront Planning, agrupados por área de interesse.
+* [Informações gerais e índice de artigo do Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md): um índice de todos os artigos que contêm documentação sobre o Workfront Planning, agrupados por área de interesse.
 * [Visão geral do Assistente de IA do Adobe Workfront Planning](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): com o Assistente de IA do Workfront Planning, você pode pesquisar registros ou criar, atualizar e excluir registros usando comandos, deixando que o assistente execute o trabalho para você.
 
   <!--

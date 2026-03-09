@@ -6,10 +6,10 @@ description: As metas com um Progresso de Com Problemas correm o risco de não s
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 2%
+source-wordcount: '761'
+ht-degree: 9%
 
 ---
 
@@ -27,7 +27,7 @@ Metas com um Progresso de com Problemas correm o risco de não serem atingidas e
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
@@ -42,14 +42,15 @@ Metas com um Progresso de com Problemas correm o risco de não serem atingidas e
  <tr>
   <td> <p>Pacote do Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>Nota</b></p>
+<p>Fale com o representante da Workfront se tiver um pacote do Workfront diferente.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licença do Adobe Workfront</td>
  <td>
- <p>Colaborador ou superior</p>
-<p>Solicitação ou superior</p></td>
+ <p>Colaborador ou posterior</p>
+<p>Solicitação ou posterior</p></td>
  </tr>
   <tr>
  <td role="rowheader">Configuração do nível de acesso</td>

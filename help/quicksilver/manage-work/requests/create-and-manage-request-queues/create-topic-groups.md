@@ -1,21 +1,21 @@
 ---
 product-area: requests
 navigation-topic: create-and-manage-request-queues
-title: Criar Grupos de Tópicos
+title: Criar grupos de tópicos
 description: Grupos de Tópicos estão associados a Filas de solicitações. Eles permitem criar camadas das Filas de solicitações em várias categorias, dependendo da natureza das solicitações.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
-# Criar Grupos de Tópicos
+# Criar grupos de tópicos
 
 <!-- Audited: 2/2024 -->
 
@@ -68,7 +68,7 @@ Considere o seguinte ao trabalhar com grupos de tópicos:
 * Grupos de tópicos são um objeto reportável.
 * Não é possível mover grupos de tópicos de um projeto para outro.
 
-## Criar Grupos de Tópicos
+## Criar grupos de tópicos
 
 Recomendamos que você crie Grupos de Tópicos antes de criar um Tópico da Fila. No entanto, um Grupo de tópicos pode ser criado no Construtor de tópicos da fila. Para obter mais informações sobre como criar Tópicos da Fila, consulte [Criar Tópicos da Fila](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 

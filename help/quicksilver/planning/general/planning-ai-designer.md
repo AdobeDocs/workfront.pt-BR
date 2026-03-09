@@ -6,9 +6,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1504'
 ht-degree: 6%
 
 ---
@@ -33,7 +33,7 @@ Seja usado diretamente ou por meio do Assistente de IA, o Planning Designer ofer
 
 Para obter informações sobre o Workfront Planning, consulte os seguintes artigos:
 
-* [Informações gerais sobre o Planejamento do Adobe Workfront](/help/quicksilver/planning/planning-information.md)
+* [Informações gerais e índice de artigo para o Adobe Workfront Planning](/help/quicksilver/planning/planning-information.md)
 * [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 * [Visão geral de acesso do Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md)
 

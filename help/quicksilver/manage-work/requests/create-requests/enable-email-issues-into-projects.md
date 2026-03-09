@@ -3,17 +3,17 @@ product-area: requests
 navigation-topic: create-requests
 title: Permitir que os usuários enviem por email um problema para um projeto da fila de solicitações
 description: Você pode configurar um projeto para permitir que os usuários adicionem problemas ao projeto por email.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Permitir que os usuários enviem um problema por email para um projeto da Fila de solicitações
+# Permitir que usuários enviem um problema por email para um projeto de fila de solicitações
 
 <!-- Audited: 4/2025 -->
 
@@ -37,8 +37,8 @@ Você pode configurar um projeto para permitir que os usuários adicionem proble
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p>
+   <td> <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p>
     </td> 
   </tr> 
   <tr> 

@@ -1,15 +1,15 @@
 ---
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
-title: Compartilhar uma meta no Workfront Goals
+title: Compartilhar uma meta no Workfront
 description: Ao compartilhar uma meta, você dá permissões de gerenciamento a uma meta para alguém que não a criou.
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 9%
+source-wordcount: '737'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ Ao compartilhar uma meta, você dá permissões de gerenciamento a uma meta para
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
@@ -36,14 +36,15 @@ Ao compartilhar uma meta, você dá permissões de gerenciamento a uma meta para
  <tr>
   <td> <p>Pacote do Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>Nota</b></p>
+<p>Fale com o representante da Workfront se tiver um pacote do Workfront diferente.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licença do Adobe Workfront</td>
  <td>
- <p>Colaborador ou superior</p>
-<p>Solicitação ou superior</p></td>
+ <p>Colaborador ou posterior</p>
+<p>Solicitação ou posterior</p></td>
  </tr>
   <tr>
  <td role="rowheader">Configuração do nível de acesso</td>

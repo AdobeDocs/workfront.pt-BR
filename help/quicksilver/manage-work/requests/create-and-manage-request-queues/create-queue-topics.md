@@ -1,20 +1,20 @@
 ---
 product-area: requests
 navigation-topic: create-and-manage-request-queues
-title: Criar Tópicos de Fila
+title: Criar tópicos de fila
 description: Tópicos de fila trabalham em conjunto com Regras de roteamento para atribuir automaticamente o trabalho recebido a um usuário, função de trabalho, equipe ou para colocá-lo em um projeto. Os Tópicos de Fila definem as condições que precisam existir para que a Regra de Encaminhamento seja implementada.
-author: Becky
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '964'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Criar Tópicos de Fila
+# Criar tópicos de fila
 
 <!-- Audited: 12/2023 -->
 
@@ -28,7 +28,7 @@ Depois de criado, não é possível mover tópicos da fila de um projeto ou mode
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <!--drafted - replace table with P&P:
 
@@ -69,7 +69,7 @@ Depois de criado, não é possível mover tópicos da fila de um projeto ou mode
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-    <p>Standard</p>
+    <p>Padrão</p>
     <p>Plano</p></td>  
   </tr> 
   <tr> 

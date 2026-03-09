@@ -2,19 +2,19 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Editar resultados e atividades no Adobe Workfront Goals
+title: Editar resultados e atividades nas Metas do Adobe Workfront
 description: Depois que o administrador do Adobe Workfront conceder a você o acesso correto às Metas do Adobe Workfront, você poderá criar e editar metas, resultados e atividades.
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 1%
+source-wordcount: '726'
+ht-degree: 13%
 
 ---
 
-# Editar resultados e atividades no Adobe Workfront Goals
+# Editar resultados e atividades nas Metas do Adobe Workfront
 
 Depois que o administrador do Adobe Workfront conceder a você o acesso correto às Metas do Adobe Workfront, você poderá criar e editar metas, resultados e atividades.
 
@@ -23,17 +23,17 @@ Para obter informações sobre como criar metas, resultados e atividades, consul
 * [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
 * [Introdução a resultados e atividades nas Metas do Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
 * [Adicionar resultados às metas nas Metas do Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [Adicionar atividades às Metas do Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
 
 ## Requisitos de acesso
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto">
 <col>
@@ -44,14 +44,15 @@ Para obter informações sobre como criar metas, resultados e atividades, consul
  <tr>
   <td> <p>Pacote do Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>Nota</b></p>
+<p>Fale com o representante da Workfront se tiver um pacote do Workfront diferente.</p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Licença do Adobe Workfront</td>
  <td>
- <p>Colaborador ou superior</p>
-<p>Solicitação ou superior</p></td>
+ <p>Colaborador ou posterior</p>
+<p>Solicitação ou posterior</p></td>
  </tr>
   <tr>
  <td role="rowheader">Configuração do nível de acesso</td>

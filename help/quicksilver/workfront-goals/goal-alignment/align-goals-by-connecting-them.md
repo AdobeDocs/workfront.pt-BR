@@ -6,14 +6,14 @@ description: Se você for um colaborador individual com uma meta pessoal, convé
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 0%
+source-wordcount: '739'
+ht-degree: 11%
 
 ---
 
-# Alinhar metas ao conectá-las às Metas do Adobe Workfront
+# Alinhar metas conectando-as no Adobe Workfront Goals
 
 <!--Audited P&P only: 10/2025-->
 
@@ -37,25 +37,27 @@ Este artigo descreve como alinhar metas ao conectá-las umas às outras. Para ob
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
-+++Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody>
 
-<td> <p>Pacote do Adobe Workfront</p> </td> 
+<td> <p>Pacote do Adobe Workfront</p> 
+  </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p> <p><b>Nota</b></p>
+<p>Fale com o representante da Workfront se tiver um pacote do Workfront diferente.</p>
    </td> 
   </tr> 
   <tr> 
    <td> <p>Licença do Adobe Workfront</p> </td> 
-   <td> <p>Colaborador ou superior</p> 
+   <td> <p>Colaborador ou posterior</p> 
      <p>Solicitante ou superior</p> </td> 
   </tr>
 
@@ -202,7 +204,7 @@ A meta secundária é exibida na seção Indicadores de progresso da meta princi
 1. (Opcional) Adicione atividades e resultados a qualquer meta para indicar seu progresso. Para obter informações sobre como adicionar atividades e resultados, consulte os seguintes artigos:
 
    * [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-   * [Adicionar resultados às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+   * [Adicionar resultados às Metas do Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
 1. (Opcional) Remova o alinhamento entre duas metas ao considerar que não é mais relevante para a estratégia geral da organização. Para obter informações sobre como remover o alinhamento entre metas, consulte [Remover alinhamento de meta em Metas do Adobe Workfront](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 

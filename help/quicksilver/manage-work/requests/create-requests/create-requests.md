@@ -4,14 +4,14 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: Criar solicitações
 description: Solicitações e problemas são intercambiáveis no Adobe Workfront. Você pode criar solicitações enviando uma solicitação no Workfront, uma solicitação em outro aplicativo ou enviando uma solicitação por email para um projeto configurado como uma Fila de solicitações.
-author: Becky
+author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 3c5f7d54e29398b61ffd15b71dbfd462aabd7a0c
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -33,7 +33,7 @@ Para obter mais informações sobre como criar, enviar ou enviar solicitações 
 * [Habilitar usuários a enviar um problema por email para um projeto da Fila de Solicitações](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)
 * [Localizar solicitações enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Compartilhar um link para uma fila de solicitações](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
-* [Excluir uma solicitação enviada ou rascunho de solicitação](../../../manage-work/requests/create-requests/delete-request-draft.md)
+* [Excluir uma solicitação enviada ou um rascunho de solicitação](../../../manage-work/requests/create-requests/delete-request-draft.md)
 * [Preencher automaticamente uma solicitação a partir de dados anteriores](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
 * [Criar e gerenciar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)
-* [Use o Preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
+* [Usar o Preenchimento de formulários com tecnologia de IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)

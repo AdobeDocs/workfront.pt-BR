@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Visualizar Horas Efetivas
+title: Visualizar horas efetivas
 description: As horas em que você faz logon nos itens de trabalho no Adobe Workfront são consideradas Horas Reais. As Horas Reais representam o tempo real que você levou para concluir uma tarefa, problema ou um projeto.
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 1%
+source-wordcount: '1270'
+ht-degree: 3%
 
 ---
 
-# Visualizar Horas Efetivas
+# Visualizar horas efetivas
 
 <!-- Audited: 5/2025 -->
 
@@ -201,7 +201,9 @@ Você deve considerar a conversão de minutos em horas ao acessar esses campos e
 
 As Horas Reais registradas de projetos, tarefas ou problemas estão atualmente armazenadas no banco de dados do Workfront como minutos e seu campo de valor é `actualWorkRequired`.
 
-Com a seguinte versão da API do Workfront programada para ser lançada posteriormente em 2025, as Horas efetivas são armazenadas nos seguintes campos e unidades no banco de dados:
+Desde outubro de 2025, com a API versão 21, as horas efetivas são armazenadas nos seguintes campos e unidades no banco de dados:
+
+<!--above used to be this: With the following version of the Workfront API scheduled to release later in 2025, Actual Hours are stored in the following fields and units in the database: -->
 
 * **Horas efetivas**: horas registradas para projetos, tarefas ou problemas após maio de 2021. Eles são armazenados no banco de dados do Workfront em horas e seu campo de valor é `actualWorkRequiredDouble`.
 * **Horas Reais Herdadas**: horas registradas para projetos, tarefas ou problemas a qualquer momento, inclusive antes de maio de 2021. Eles são armazenados no banco de dados do Workfront como minutos e seu campo de valor é `actualWorkRequired`.
@@ -218,4 +220,4 @@ Para obter informações sobre como usar as Horas Efetivas em colunas calculadas
 
 Você pode registrar horas em tarefas, problemas e projetos de várias maneiras.
 
-Para obter mais informações, consulte [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Para obter mais informações, consulte [Registro de tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).

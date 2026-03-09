@@ -3,17 +3,17 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Definir Tipos de Solicitação para um Projeto
 description: Você pode organizar os tipos de problemas ou solicitações que estão conectados no Adobe Workfront por Tipos de solicitação.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 9cdf3d78e1d19f3d581f8d527919a608c5cc0ddc
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
-# Definir Tipos de Solicitação para um projeto
+# Definir tipos de solicitação para um projeto
 
 <!-- Audited: 6/2025 -->
 
@@ -21,7 +21,7 @@ Você pode organizar os tipos de problemas ou solicitações que estão conectad
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Você pode organizar os tipos de problemas ou solicitações que estão conectad
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-    <p>Standard</p>
+    <p>Padrão</p>
     <p>Plano</p></td>  
   </tr> 
   <tr> 

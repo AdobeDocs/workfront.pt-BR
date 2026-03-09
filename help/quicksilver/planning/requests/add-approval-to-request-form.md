@@ -3,13 +3,13 @@ title: Adicionar uma aprovação a um formulário de solicitação no Adobe Work
 description: Você pode adicionar um processo de aprovação a um formulário de solicitação do Adobe Workfront Planning para iniciar uma aprovação para cada solicitação submetida, antes que ele crie um registro.
 feature: Workfront Planning
 role: User, Admin
-author: Alina, Becky
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: f5d6918889b7fed1159274105ee706a027f621bf
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 1%
+source-wordcount: '1210'
+ht-degree: 2%
 
 ---
 
@@ -123,17 +123,15 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 <div class="preview">
 
-## Adicionar regras de aprovação a um formulário de solicitação
+## Adicionar regras de aprovação a um formulário de solicitação no ambiente de Pré-visualização
 
->[!NOTE]
->
->Essa funcionalidade está disponível somente no ambiente de Pré-visualização.
-
-As regras de aprovação definem o processo de aprovação com base nos valores de campo em nas solicitações enviadas.
+As regras de aprovação definem o processo de aprovação com base nos valores dos campos nas solicitações enviadas.
 
 Por exemplo, se um formulário de solicitação tiver o campo &quot;Tipo de campanha&quot;, poderá ser criada uma regra que envia a solicitação para uma pessoa quando o campo tem o valor &quot;Digital&quot; e outra pessoa quando ele tem o valor &quot;Imprimir&quot;.
 
 Considere o seguinte ao adicionar regras de aprovação:
+
+<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
 
 * Você pode adicionar um ou vários aprovadores a uma regra de aprovação.
 * Se pelo menos um aprovador rejeitar a solicitação, ela será rejeitada e o registro não será criado. A solicitação permanece na área Solicitações do Workfront.
@@ -142,18 +140,16 @@ Considere o seguinte ao adicionar regras de aprovação:
 
 Para definir regras de aprovação para um formulário de solicitação:
 
-1. Comece a criar um formulário de solicitação para um tipo de registro, conforme descrito em [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-1. Clique em **Configurações**.
+1. Comece a criar um formulário de solicitação para um tipo de registro, conforme descrito no artigo [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. Quando o formulário de solicitação for aberto, clique em **Configurações**.
 
-   A guia Settings é exibida.
+   A guia **Configurações** é aberta.
 
 1. Para começar a configurar as regras de aprovação, clique em **Aprovações** ![ícone Aprovações](assets/approvals-icon-on-form.png) no painel esquerdo.
 
 1. (Opcional) Se quiser definir um processo de aprovação padrão, adicione pelo menos um usuário ou equipe ao campo **Aprovadores** da área **Regra de aprovação padrão** e clique na caixa de seleção **Somente uma decisão é necessária** se quiser que o registro seja criado depois que qualquer um dos aprovadores padrão o aprovar.
 
    ![Área de regra de aprovação padrão](assets/default-approvers.png)
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. (Opcional) Comece a adicionar regras de aprovação. Para cada regra de aprovação, faça o seguinte:
 
@@ -163,8 +159,8 @@ Para definir regras de aprovação para um formulário de solicitação:
    1. Selecione o operador para a regra. Os operadores variam de acordo com o tipo de campo.
    1. Se o operador selecionado exigir um valor, clique no ícone de adição e adicione um ou mais valores.
    1. (Opcional) Clique em **Adicionar condição** para adicionar mais condições e conectá-las por instruções **And** ou **Or** configurando as condições adicionais como nas etapas C-E.
-   1. Na área **Ações** da regra de aprovação, no campo **Aprovadores**, adicione pelo menos um usuário ou equipe a ser definido como o aprovador quando a condição for atendida.
-   1. (Condicional) Se desejar que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**.
+   1. Na área **Ações** da regra de aprovação, no campo **Aprovadores**, adicione pelo menos um usuário ou equipe a ser definido como aprovador quando a condição for atendida.
+   1. (Condicional e opcional) Se quiser que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**. Caso contrário, todos os aprovadores devem decidir sobre a aprovação antes que a solicitação seja aceita ou rejeitada.
 
 1. Clique em **Salvar** para salvar as regras de aprovação.
 1. (Opcional) Clique em **Publicar** se você nunca compartilhou o formulário de solicitação antes.

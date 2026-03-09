@@ -3,15 +3,15 @@ product-area: requests
 navigation-topic: create-requests
 title: Exibir solicitações enviadas
 description: Saiba mais sobre as áreas do Adobe Workfront em que você pode visualizar solicitações enviadas por você ou por outra pessoa, ou solicitações que você nunca enviou e que foram salvas como rascunhos.
-author: Becky
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 2%
+source-wordcount: '1363'
+ht-degree: 6%
 
 ---
 
@@ -49,8 +49,8 @@ A área Solicitações exibe as seguintes solicitações, dependendo de como voc
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p>
+   <td> <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p>
     </td> 
   </tr> 
   <tr> 
@@ -85,39 +85,32 @@ Você pode exibir solicitações submetidas na área Solicitações, que inclui 
 
 >[!NOTE]
 >
->Links para objetos criados estão disponíveis na nova experiência de solicitação somente para solicitações do Planning, nos casos em que a própria solicitação criou um objeto. Se uma solicitação do Workfront for convertida em um projeto ou outro objeto, um link para esse objeto convertido não estará disponível na lista de solicitações na nova experiência de solicitação.
+>Os links para objetos criados estão disponíveis na nova experiência de solicitação somente para solicitações do Planning, nos casos em que a própria solicitação criou um registro.
+>
+>Se uma solicitação do Workfront for convertida em um projeto ou outro objeto, um link para esse objeto convertido não estará disponível na lista de solicitações na nova experiência de solicitação.
 
 Para exibir solicitações que você ou outros usuários enviaram na nova experiência de solicitação:
 
 {{step1-to-requests}}
 
-1. Verifique se o botão **Usar nova experiência**, no canto superior direito da tela, está habilitado.
+1. Verifique se a configuração **Usar nova experiência** no canto superior direito da tela está ativada.
 
-   A lista Solicitações é exibida.
+   A lista de solicitações é exibida.
 
 1. (Opcional) Para pesquisar uma solicitação, comece digitando na barra de pesquisa no canto superior direito da lista. Os resultados da pesquisa são exibidos à medida que você digita.
 1. (Opcional) Clique em **Filtros** e comece a adicionar condições para as solicitações que deseja exibir.
 
-   Você pode filtrar pelos seguintes campos:
+   Para obter mais informações sobre filtros, consulte [Criar e gerenciar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-   * **Workspace**: o espaço de trabalho ao qual o formulário de solicitação está associado.
-   * **Tipo de registro**: o tipo de registro ao qual o formulário de solicitação está associado.
-   * **Data de entrada**: a data em que a solicitação foi enviada.
-   * **Formulário de solicitação**: o nome do formulário de solicitação usado para enviar a solicitação.
-   * **Status**: o status da solicitação.
-   * **Inserido por**: o nome do usuário que adicionou a solicitação. Se a solicitação foi adicionada por alguém fora do Workfront, o campo **Informado por** mostrará `N/A`.
+1. (Opcional) Clique no menu suspenso **Exibições** para atualizar sua exibição ou compartilhá-la com outras pessoas.
 
-   Você pode ter vários filtros unidos por **And** ou **Or**.
-A lista de solicitações é filtrada automaticamente ao adicionar as condições de filtro.
-1. (Opcional) Use as exibições para se concentrar nas solicitações que você deseja exibir.
-
-   Para obter instruções, consulte [Criar ou editar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
-1. (Opcional) Verifique o status de uma solicitação verificando a coluna Status. Os seguintes status estão disponíveis na nova experiência de solicitação:
+   Para obter informações, consulte [Criar ou editar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+1. (Opcional) Verifique o status de uma solicitação verificando a coluna **Status**. Os seguintes status estão disponíveis na nova experiência de solicitação:
 
    * **Rascunho**: Esta solicitação ainda não foi enviada.
    * **Revisão Pendente**: (somente Planning) esta solicitação tem aprovadores e nenhum dos aprovadores abriu a solicitação.
    * **Em Revisão**: (somente Planning) essa solicitação tem aprovadores e pelo menos um aprovador abriu a solicitação, mas nenhuma decisão foi tomada.
-   * **Rejeitada**: (somente Planning) esta solicitação tem aprovadores e foi rejeitada.
+   * **Rejeitada**: (somente Planning) esta solicitação tem aprovadores e foi rejeitada. Esta solicitação não criará um registro.
    * **Em andamento**:
       * Solicitações do Workfront: a solicitação foi convertida e o trabalho está em andamento.
       * Solicitações do Workfront Planning: a conclusão da solicitação é mapeada para um campo do Planning específico e o valor do campo ainda não corresponde ao valor de conclusão.
@@ -127,8 +120,8 @@ A lista de solicitações é filtrada automaticamente ao adicionar as condiçõe
 
 >[!NOTE]
 >
->* Se você tiver o Workfront Planning, suas solicitações do Workfront e do Planning serão exibidas na mesma lista. As solicitações Workfront exibem o valor `Issue` na coluna Tipo de objeto.
->* A lista Solicitações é exibida com 50 solicitações exibidas. Para visualizar mais solicitações, navegue até a parte inferior da lista.
+>* Se você tiver o Workfront Planning, suas solicitações do Workfront e do Planning serão exibidas na mesma lista. As solicitações do Workfront exibem o valor `Issue` na coluna **Tipo de objeto**.
+>* Até 50 solicitações são exibidas na lista na área Solicitações por padrão. Para visualizar mais solicitações, navegue até a parte inferior da lista.
 
 ### Exibir solicitações enviadas na experiência herdada de solicitação
 
@@ -195,7 +188,7 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
    >
    >Se o painel Resumo já estiver aberto, o ícone Abrir resumo será alterado para Fechar resumo.
 
-1. (Opcional e condicional) Clique no ícone **X** no canto superior direito ou no ícone **Fechar resumo** com texto![&#x200B; para fechar o Painel de Resumo.](assets/close-summary-with-text-nwe.png)
+1. (Opcional e condicional) Clique no ícone **X** no canto superior direito ou no ícone **Fechar resumo** com texto![ para fechar o Painel de Resumo.](assets/close-summary-with-text-nwe.png)
 
    Se um problema tiver sido convertido em uma tarefa ou projeto e tiver sido excluído no processo de conversão, o Painel de resumo ficará em branco. Para obter informações sobre a conversão de problemas, consulte [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -234,15 +227,17 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
 
 1. (Opcional) Clique no ícone **Ícone Pesquisar** da ![página Filtro](assets/search-icon.png) na parte superior da lista para procurar uma solicitação por nome. A lista é atualizada com resultados que correspondem aos seus critérios de pesquisa.
 
-1. (Condicional) Para exibir somente as filas de Solicitações Workfront, pesquise ou filtre por `Issue` tipos de objeto.</span>
-
-
    <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+
+   1. (Conditional) To display only Workfront Request queues, search or filter for `Issue` object types.</span>
    -->
 
    <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
+   <li> <p>Click the <strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
+   -->
+
+   <!--
+   <li>(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:   (NOTE: this step will stay drafted even after release. We can't see Completed at this time!)  
    <ul>
    <li><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria: 
    <ul>
@@ -262,19 +257,18 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
 
 1. Clique em **Rascunhos** para exibir todas as solicitações em rascunho. O Workfront salva um número ilimitado de rascunhos para cada fila de solicitações nesta pasta. Ao informar uma nova solicitação para um tópico da fila que já tem um rascunho, você será solicitado a usar um rascunho existente. Para obter mais informações, consulte [Criar solicitações de rascunhos](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-1. (Opcional e condicional) Se sua organização adquiriu um pacote do Workfront Planning, clique na guia **Planning** e em **Enviado** no painel esquerdo para exibir as solicitações do Workfront Planning.
+   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
+      Use **Filters** and **Columns** to update the information in the Planning request list. 
+      ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+      For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).
+   -->
 
-   Use **Filtros** e **Colunas** para atualizar as informações na lista de solicitações do Planning.
 
-   ![Seção enviada da guia Planejamento na área Solicitações](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+1. (Opcional) Verifique o status de uma solicitação verificando a coluna **Status**. Os seguintes status estão disponíveis na nova experiência de solicitação:
 
-   Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
-
-
-1. (Opcional) Verifique o status de uma solicitação verificando a coluna Status. Os seguintes status estão disponíveis na nova experiência de solicitação:
-
-   * Rascunho: Esta solicitação ainda não foi enviada.
-   * Em andamento
-   * Completo
+   * **Rascunho**: Esta solicitação ainda não foi enviada.
+   * **Em andamento**
+   * **Concluído**
 
 

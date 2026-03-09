@@ -6,10 +6,10 @@ description: Você pode fechar uma meta quando quiser indicar que a concluiu ou 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 2%
+source-wordcount: '873'
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ Você pode reabrir metas que foram fechadas quando se tornaram relevantes novame
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 
@@ -43,15 +43,16 @@ Você pode reabrir metas que foram fechadas quando se tornaram relevantes novame
  <tr>
   <td> <p>Pacote do Adobe Workfront</p> </td> 
    <td> 
-   <p>Adobe Workfront Ultimate</p>
+   <p>Adobe Workfront Ultimate</p><p><b>Nota</b></p>
+<p>Fale com o representante da Workfront se tiver um pacote do Workfront diferente.</p>
    </td> 
   </tr> 
  <tr>
  <tr>
  <td role="rowheader">Licença do Adobe Workfront</td>
  <td>
- <p>Colaborador ou superior</p>
- <p>Solicitação ou superior</p></td>
+ <p>Colaborador ou posterior</p>
+ <p>Solicitação ou posterior</p></td>
  </tr>
  <td role="rowheader">Configuração do nível de acesso</td>
  <td> <p>Editar acesso às Metas</p> </td>

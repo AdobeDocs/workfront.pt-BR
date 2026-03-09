@@ -1,13 +1,13 @@
 ---
 title: Compartilhar um link para uma fila de solicitações
 description: Você pode compartilhar um link para uma fila de solicitações, um grupo de tópicos ou um tópico da fila ao submeter a solicitação.
-author: Becky
+author: Alina
 feature: Work Management
 exl-id: 91e456ae-a192-4f3a-afff-b3c48854e295
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
@@ -33,8 +33,8 @@ Você pode compartilhar um link para uma fila de solicitações, um grupo de tó
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p>
+   <td> <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p>
     </td> 
   </tr> 
   <tr> 
