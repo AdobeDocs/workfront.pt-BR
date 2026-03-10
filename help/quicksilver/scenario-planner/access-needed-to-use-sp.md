@@ -7,7 +7,7 @@ description: O Planejador de cenários requer uma licença separada da Adobe Wor
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 68dee7bc9643b7b9446ff4737ff70f4b850e7bbb
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-Sem o acesso correto ou permissões, talvez você não consiga visualizar a área [!UICONTROL Cenários] de[!DNL &#x200B; Adobe Workfront] nem gerenciar planos ou iniciativas para sua organização. O gerenciamento de planos e iniciativas inclui sua criação, edição e exclusão.
+Sem o acesso correto ou permissões, talvez você não consiga visualizar a área [!UICONTROL Cenários] de[!DNL  Adobe Workfront] nem gerenciar planos ou iniciativas para sua organização. O gerenciamento de planos e iniciativas inclui sua criação, edição e exclusão.
 
 ## Acesso necessário para exibir e usar o [!DNL Adobe Workfront Scenario Planner]
 
@@ -56,6 +56,7 @@ Você deve garantir que todas as condições a seguir sejam atendidas antes de p
         * [!UICONTROL Plan]
         * [!UICONTROL Work]
         * [!UICONTROL Review]-->
+
   <!--Old: 
       >[!NOTE]
       > 
