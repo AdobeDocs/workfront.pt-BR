@@ -279,7 +279,7 @@ Para configurar um tipo de registro como global:
 
    Quando ativado, o tipo de registro é acessível e pode ser conectado a partir de outros espaços de trabalho.
 
-1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Escolha a partir de quais espaços de trabalho o tipo de registro pode ser acessado. Escolha entre as seguintes opções:
+1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Escolha a partir de quais espaços de trabalho o tipo de registro pode ser acessado. Escolha entre as seguintes opções:
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 
