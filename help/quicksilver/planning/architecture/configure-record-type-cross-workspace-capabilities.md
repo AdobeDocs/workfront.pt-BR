@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 4713864c21d23b507f4d19d7a7955128768e077d
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 2%
@@ -14,11 +14,15 @@ ht-degree: 2%
 ---
 
 
-<!--*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************-->
+<!--
+*******************REPLACE THE "ADVANCED SETTINGS" SECTION IN THE "EDIT RECORD TYPES" ARTICLE WITH A LINK TO THIS ARTICLE INSTEAD AND REMOVE THE STEPS FROM THE "EDIT RECORD TYPES" ARTICLE ON HOW TO ALLOW CROSS-WORKSPACE SETTINGS FOR RECORD TYPES*************
+-->
 
 # Configurar recursos entre espaços de trabalho para tipos de registro
 
-<!--this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL-->
+<!--
+this article is linked to the UI in the Advanced settings/ Cross-workspace settings tab - do not delete or change the URL
+-->
 
 {{planning-important-intro}}
 
@@ -82,18 +86,21 @@ Ou
    <p>Para tornar um registro conectável:</p>
    <ul><li>Administrador de sistema</li></ul>
 
-<!--replace the above with this at release:
+<!--
+   replace the above with this at release:
    <p>To make a record global:</p>
    <ul><li>Standard or higher</li></ul>
    <p>To make a record connectable:</p>
    <ul><li>In the Production environment:</li>
    <ul><li>System Administrator</li></ul></ul>
-
+   -->
+<!--
    <div class="preview">
    <ul><li>In the Preview environment:</li>
    <ul><li>Standard to make a record connectable from specific workspaces</li>
    <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
-   </div>-->
+   </div>
+   -->
 
 </td> 
   </tr> 
@@ -109,8 +116,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 +++   
 
-<!--Old:
-
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -119,7 +126,6 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 <tbody> 
     <tr> 
 <tr> 
-
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront package</p></td> 
@@ -146,12 +152,15 @@ And
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## Configurar tipos de registro global
 
-<!--this is a UI term; don't change the title of this section-->
+<!--
+this is a UI term; don't change the title of this section
+-->
 
 Como gerenciador de espaço de trabalho, você pode configurar um tipo de registro para ser um tipo de registro global. Um tipo de registro global pode ser adicionado a outros espaços de trabalho.
 
@@ -262,7 +271,7 @@ Para configurar um tipo de registro como global:
 
    Ou, se você clicou em **Configurações**, clique na seção **Configurações entre espaços de trabalho** no painel esquerdo.
 
-1. Habilitar a configuração **Permitir conexão com este tipo de registro em outros espaços de trabalho**. <!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
+1. Habilitar a configuração **Permitir conexão com este tipo de registro em outros espaços de trabalho**.
 
    <!-- add new screen shot with new tab name-->
 
@@ -270,7 +279,7 @@ Para configurar um tipo de registro como global:
 
    Quando ativado, o tipo de registro é acessível e pode ser conectado a partir de outros espaços de trabalho.
 
-1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Escolha a partir de quais espaços de trabalho o tipo de registro pode ser acessado. Escolha entre as seguintes opções:
+1. <!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Escolha a partir de quais espaços de trabalho o tipo de registro pode ser acessado. Escolha entre as seguintes opções:
 
    <!--check names of the setting: System wide?? OR All workspaces??-->
 

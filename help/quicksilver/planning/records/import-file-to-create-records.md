@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Criar registros importando informações de um arquivo CSV ou do Excel
+# Criar registros importando informações de um arquivo CSV ou Excel
 
 <!--
 
@@ -49,7 +49,7 @@ Para obter mais informações sobre como criar registros, consulte [Criar regist
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    </td> 
   </tr>
 
@@ -147,6 +147,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    * Última data de modificação, Última modificação por
    * Data de Aprovação, Aprovado por
    * People
+     <!--* <span class="preview">Record ID</span>-->
    * Se um campo de seleção única ou múltipla for importado e tiver mais opções do que um campo semelhante no Planning, as opções adicionais serão criadas durante a importação. Somente usuários com permissões para Gerenciar o espaço de trabalho podem importar novas opções.
 
 ## Criar registros importando um arquivo CSV ou do Excel

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1288'
 ht-degree: 2%
 
 ---
@@ -151,7 +151,7 @@ Para definir regras de aprovação para um formulário de solicitação:
 
    ![Área de regra de aprovação padrão](assets/default-approvers.png)
 
-1. (Opcional) Comece a adicionar regras de aprovação. Para cada regra de aprovação, faça o seguinte:
+1. (Opcional) Comece a adicionar regras de aprovação. Para cada regra de aprovação personalizada, faça o seguinte:
 
    1. Clique em **Adicionar regra de aprovação**
    1. Clique no título do espaço reservado **Regra de aprovação sem título** e insira um nome para a regra de aprovação.
@@ -161,6 +161,14 @@ Para definir regras de aprovação para um formulário de solicitação:
    1. (Opcional) Clique em **Adicionar condição** para adicionar mais condições e conectá-las por instruções **And** ou **Or** configurando as condições adicionais como nas etapas C-E.
    1. Na área **Ações** da regra de aprovação, no campo **Aprovadores**, adicione pelo menos um usuário ou equipe a ser definido como aprovador quando a condição for atendida.
    1. (Condicional e opcional) Se quiser que o registro seja criado depois que qualquer um dos aprovadores o aprovar, marque a caixa de seleção **Somente uma decisão é necessária**. Caso contrário, todos os aprovadores devem decidir sobre a aprovação antes que a solicitação seja aceita ou rejeitada.
+
+   >[!NOTE]
+   >
+   >   Considere o seguinte ao adicionar regras de aprovação:
+   >
+   >   * Se apenas uma regra padrão estiver configurada, ela se aplica a todas as solicitações enviadas.
+   >   * Se uma regra personalizada for atendida, o padrão não será aplicado ao fluxo de trabalho de solicitação de aprovação. Somente as regras personalizadas correspondentes se aplicam às aprovações e a regra padrão é ignorada.
+   >   * Se várias regras personalizadas forem atendidas, a primeira regra na ordem será aplicada. Nesse caso, a aprovação padrão não se aplica, se houver.
 
 1. Clique em **Salvar** para salvar as regras de aprovação.
 1. (Opcional) Clique em **Publicar** se você nunca compartilhou o formulário de solicitação antes.

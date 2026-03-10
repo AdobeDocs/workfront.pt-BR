@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
 workflow-type: tm+mt
 source-wordcount: '2899'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -139,7 +139,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 * Os seguintes tipos de campos são atualizados automaticamente e não é possível editar seus valores manualmente:
    * Campos vinculados de outros registros
    * Campos do tipo fórmula
-   * Campos do sistema (Criado por, Data de criação, Última modificação por, Última data de modificação, Data de aprovação, Aprovado por)
+   * Campos do sistema (Criado por, Data de criação, Última modificação por, Última data de modificação, Data de aprovação, Aprovado por <!--, <span class="preview">Record ID</span>-->)
 * Se os registros exibidos estiverem vinculados a outros registros, as novas informações dos registros que você está editando serão refletidas nos registros vinculados em todos os espaços de trabalho onde esse registro estiver vinculado.
 * Não é possível editar registros em massa. <!--this will probably change-->
 * Os URLs são reconhecidos como links em tipos de campo de texto de linha única somente quando começam com o seguinte: http://, https://, ftp:// ou www. .
