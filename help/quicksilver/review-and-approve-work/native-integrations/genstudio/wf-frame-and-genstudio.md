@@ -88,7 +88,7 @@ Para obter mais informações sobre como criar modelos de fluxo de trabalho de a
 
 Quando um usuário inicia uma revisão no GenStudio for Performance Marketing, ele simplesmente escolhe o modelo necessário. Os usuários podem alterar facilmente qualquer modelo de fluxo de trabalho de aprovação unificada, adicionando ou removendo revisores e estágios, a qualquer momento.
 
-Para obter mais informações, consulte [Solicitar revisão e aprovação](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Para obter mais informações, consulte [Solicitar revisão e aprovação](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Revisar e aprovar o conteúdo de rascunho do GenStudio for Performance Marketing no visualizador Frame.io
 
@@ -107,4 +107,4 @@ Para obter mais informações sobre como usar o visualizador Frame.io, consulte 
 
 Depois que o ativo tiver passado pelo processo de revisão e aprovação, você poderá visualizar a decisão de revisão e publicar o conteúdo diretamente do GenStudio for Performance Marketing.
 
-Para obter mais informações, consulte [Publicar conteúdo aprovado](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Para obter mais informações, consulte [Publicar conteúdo aprovado](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
