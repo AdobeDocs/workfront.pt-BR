@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1504'
 ht-degree: 2%
 
 ---
@@ -81,26 +81,23 @@ Ou
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td>
+   <p>No ambiente de produção: </p>
    <p>Para tornar um registro global:</p>
    <ul><li>Padrão ou superior</li></ul>
    <p>Para tornar um registro conectável:</p>
    <ul><li>Administrador de sistema</li></ul>
 
-<!--
-   replace the above with this at release:
-   <p>To make a record global:</p>
-   <ul><li>Standard or higher</li></ul>
-   <p>To make a record connectable:</p>
-   <ul><li>In the Production environment:</li>
-   <ul><li>System Administrator</li></ul></ul>
-   -->
-<!--
-   <div class="preview">
-   <ul><li>In the Preview environment:</li>
-   <ul><li>Standard to make a record connectable from specific workspaces</li>
-   <li>System Administrator to make a record connectable from all workspaces</li></ul></ul>
+<div class="preview">
+
+<p>No ambiente de Pré-visualização:</p>
+   <p>Para tornar um registro global:</p>
+   <ul><li>Padrão ou superior</li></ul>
+   <p>Para tornar um registro conectável:</p>
+
+<ul><li>Padrão para tornar um registro conectável a partir de espaços de trabalho específicos</li>
+   <li>Administrador do sistema para tornar um registro conectável de todos os espaços de trabalho</li></ul>
    </div>
-   -->
+
 
 </td> 
   </tr> 
@@ -273,17 +270,13 @@ Para configurar um tipo de registro como global:
 
 1. Habilitar a configuração **Permitir conexão com este tipo de registro em outros espaços de trabalho**.
 
-   <!-- add new screen shot with new tab name-->
-
    ![Editar tipo de registro na guia de configurações entre espaços de trabalho com conexão de outros espaços de trabalho habilitada](assets/edit-record-type-box-cross-workspace-settings-connectable-record-type-enabled.png)
 
    Quando ativado, o tipo de registro é acessível e pode ser conectado a partir de outros espaços de trabalho.
 
-1. &#x200B;<!--<span class="preview">(Conditional) Depending on which license you have,</span>--> Escolha a partir de quais espaços de trabalho o tipo de registro pode ser acessado. Escolha entre as seguintes opções:
+1. <span class="preview">(Condicional) Dependendo da sua licença,</span> escolha a partir de quais espaços de trabalho o tipo de registro pode ser acessado. Escolha entre as seguintes opções:
 
-   <!--check names of the setting: System wide?? OR All workspaces??-->
-
-   * **Todos os espaços de trabalho**: os usuários podem se conectar a este tipo de registro de todos os espaços de trabalho onde têm permissões de Gerenciamento. <!--<span class="preview">This option is dimmed for workspace managers with a Standard license. Only System Administrators can turn on connecting record types from all workspaces.</span>-->
+   * **Todos os espaços de trabalho**: os usuários podem se conectar a este tipo de registro de todos os espaços de trabalho onde têm permissões de Gerenciamento. <span class="preview">Esta opção está esmaecida para gerenciadores de espaço de trabalho com uma licença Standard. Somente Administradores do Sistema podem ativar a conexão de tipos de registros de todos os espaços de trabalho.</span>
    * **Espaços de trabalho específicos**: no menu suspenso, adicione os nomes dos espaços de trabalho onde os gerentes de espaço de trabalho podem se conectar a este tipo de registro.
 
 1. (Condicional) Clique em **Salvar** na caixa **Editar tipo de registro** ou clique na seta para trás à esquerda de **Configurações** no cabeçalho da página para salvar suas alterações.

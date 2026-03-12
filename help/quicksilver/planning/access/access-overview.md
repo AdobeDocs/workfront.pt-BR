@@ -6,15 +6,15 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
 
-# Visão geral do acesso ao Adobe Workfront Planning
+# Visão geral de acesso do Adobe Workfront Planning
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
@@ -24,13 +24,13 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->As informações neste artigo se referem ao Adobe Workfront Planning, um recurso adicional da Adobe Workfront.
+>As informações contidas neste artigo referem-se ao Adobe Workfront Planning, um recurso adicional do Adobe Workfront.
 >
 >Sua empresa deve adquirir um pacote adicional para que o Workfront Planning acesse seus recursos.
 >
 >Para obter mais informações, entre em contato com seu gerente de conta
 >
->Para obter mais informações sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>Para obter mais informações sobre o Planejamento do Workfront, consulte [Introdução ao Planejamento do Adobe Workfront](/help/quicksilver/planning/general/planning-overview.md).
 
 Há restrições de licença e permissão de compartilhamento para usar o Adobe Workfront Planning.
 
@@ -73,7 +73,7 @@ Você deve ter o seguinte acesso para usar o Workfront Planning:
    <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p>
    <p><b>IMPORTANTE</b></p>
    <p>Somente os usuários adicionados ao Adobe Identity Management System (IMS) podem receber permissões e ser adicionados aos campos do Planning.</p>
-   <p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p>
+   <p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência Unificada da Adobe para Workfront</a>. </p>
    </td>
   </tr>
   </tr>
@@ -157,7 +157,7 @@ Para adicionar ou remover áreas do Workfront Planning dos usuários da sua inst
 
 Você pode atribuir licenças a usuários ao configurar seus Níveis de acesso enquanto as edita ou cria.
 
-Para obter informações, consulte [Editar perfis de um usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+Para obter informações, consulte [Editar perfil de usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Configurar nível de acesso
 
