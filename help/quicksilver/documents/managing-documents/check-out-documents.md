@@ -1,25 +1,30 @@
 ---
 product-area: documents
 navigation-topic: manage-documents
-title: Fazer check-out de documentos
+title: Verificar os documentos
 description: Você pode fazer check-out de um documento para impedir que outros usuários o excluam ou façam upload de uma nova versão dele. Somente um usuário pode fazer check-out de um documento por vez. Você pode fazer check-out de qualquer documento carregado no Adobe Workfront, bem como de documentos vinculados a provedores de documentos de terceiros (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint ou qualquer outro provedor personalizado).
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 0%
+source-wordcount: '674'
+ht-degree: 8%
 
 ---
 
-# Fazer check-out de documentos
+# Verificar os documentos
 
 Você pode fazer check-out de um documento para impedir que outros usuários o excluam ou façam upload de uma nova versão dele. Somente um usuário pode fazer check-out de um documento por vez. Você pode fazer check-out de qualquer documento carregado no Adobe Workfront, bem como de documentos vinculados a provedores de documentos de terceiros (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint ou qualquer outro provedor personalizado). 
 
+>[!NOTE]
+>
+>Esta funcionalidade não está disponível na área de novos documentos.<br>
+>Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +37,7 @@ Você pode fazer check-out de um documento para impedir que outros usuários o e
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p>
+   <p>Colaborador ou posterior</p>
    <p>Revisar ou superior</p> </td> 
   </tr> 
   <tr> 
@@ -41,12 +46,12 @@ Você pode fazer check-out de um documento para impedir que outros usuários o e
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar acesso ao documento</p> </td> 
+   <td> <p>Gerenciar o acesso ao documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

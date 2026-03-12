@@ -6,10 +6,10 @@ description: Embora não haja restrições sobre os tipos e os tamanhos de arqui
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 14%
 
 ---
 
@@ -17,9 +17,14 @@ ht-degree: 0%
 
 Embora não haja restrições sobre os tipos e os tamanhos de arquivos individuais que os usuários podem fazer upload para sua instância do Workfront, há um limite em seu Plano do Workfront sobre a quantidade total de armazenamento usado pela instância do Workfront. Como administrador do Adobe Workfront, você monitora o armazenamento de documentos da instância na área Configuração.
 
+>[!NOTE]
+>
+>Esta funcionalidade não está disponível na área de novos documentos.<br>
+>Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 
 <table style="table-layout:auto"> 
@@ -37,7 +42,7 @@ Embora não haja restrições sobre os tipos e os tamanhos de arquivos individua
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

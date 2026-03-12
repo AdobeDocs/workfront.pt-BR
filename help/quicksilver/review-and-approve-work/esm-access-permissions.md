@@ -8,13 +8,13 @@ feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 89dcc972e2e29890763dba6b5f7a44489a2eee5a
+exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
+source-git-commit: 522175549d1a2b19c9e6a47a7e4b0d63ac08e3a3
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 0%
+source-wordcount: '851'
+ht-degree: 1%
 
 ---
-
 
 # Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento corporativo da Adobe
 
@@ -55,15 +55,60 @@ Não é possível restringir o acesso à herança de documentos.
 
 Nenhuma alteração nos níveis de acesso ou comportamento do documento.
 
+## Permissões de objeto
 
-## Projetos
+As permissões de objeto determinam o que você pode ver e fazer com projetos, tarefas, problemas e documentos no Workfront. As permissões são atribuídas quando alguém compartilha um objeto com você.
 
-Os usuários com permissões no nível do projeto podem visualizar e gerenciar documentos de projetos em outros produtos da Adobe, como Frame.io e Adobe Creative Cloud.
+>[!IMPORTANT]
+>
+>No Adobe Enterprise Storage, as permissões de documento funcionam de forma diferente do armazenamento Workfront herdado. Os documentos herdam permissões do projeto, tarefa ou problema ao qual estão vinculados.
 
-Os nomes dos projetos também são visíveis fora do Workfront para projetos ESM.
 
-Os dados financeiros não estão visíveis fora do Workfront para projetos ESM.
+### Como funcionam as permissões de documento
 
-## Tarefas e problemas
+As permissões de documento são orientadas pelo objeto ao qual o documento está vinculado. Você não pode definir permissões em documentos individuais.
 
-Os documentos são armazenados no nível do projeto, mas podem ser compartilhados com tarefas e problemas individuais, conforme necessário. Os usuários com acesso a tarefas e problemas herdam automaticamente o acesso a documentos do projeto. Você não pode modificar o nível de acesso deles. Eles têm acesso de gerenciamento ou nenhum acesso.
+Quando você carrega um documento para uma tarefa ou problema, uma pasta gerada pelo sistema é criada usando o nome da tarefa ou problema. Esta pasta está vinculada à tarefa ou problema e herda suas permissões.
+
+Você pode criar subpastas dentro da pasta gerada pelo sistema para organizar ainda mais os documentos. Todas as subpastas herdam permissões da pasta principal. No nível do projeto, você pode fazer upload de documentos fora de uma pasta, mas somente os usuários com acesso no nível do projeto podem visualizá-los.
+
+No nível do projeto, as pastas geradas pelo sistema exibem um objeto vinculado. Geralmente, esse é o nome da tarefa ou do problema e é como o sistema sabe em qual tarefa ou problema a pasta deve ser visualizada.
+
+### Permissões do projeto
+
+Quando você tem permissões no nível do projeto, pode visualizar e gerenciar documentos desse projeto no Workfront e outros produtos da Adobe, como Frame.io e Adobe Creative Cloud. O nome do projeto também está visível nessas ferramentas. Outros dados do projeto não estão visíveis fora do Workfront.
+
+### Permissões de tarefas e problemas
+
+Tarefas e problemas herdam permissões do projeto. Quando você tem permissões de nível de tarefa ou problema, pode visualizar e gerenciar documentos vinculados a essa tarefa ou problema no Workfront e outros produtos da Adobe, como Frame.io e Adobe Creative Cloud.
+
+**Pastas geradas pelo sistema**
+
+* Remover usuários de uma tarefa ou problema não remove automaticamente o acesso às pastas. Eles ainda podem ter acesso por meio de permissões no nível do projeto.
+* As subtarefas não herdam permissões de pastas geradas pelo sistema de tarefas pai. Você deve ser adicionado diretamente a uma subtarefa para acessar sua pasta gerada pelo sistema.
+* Adicionar usuários a uma tarefa ou problema compartilha com eles a pasta gerada pelo sistema desse objeto.
+
+**Movendo e renomeando pastas geradas pelo sistema:**
+
+* As pastas geradas pelo sistema podem ser renomeadas e movidas.
+* Se uma pasta gerada pelo sistema for movida para outro local, seu objeto vinculado será atualizado para o novo objeto. As permissões são herdadas do novo objeto pai.
+
+As solicitações seguem o mesmo comportamento que tarefas e problemas.
+
+### Aprovações
+
+Quando adicionado a um fluxo de trabalho de aprovação de documento, você pode ver o seguinte, independentemente das permissões do projeto:
+
+* Nome do projeto
+* Nome do documento
+* Miniatura do documento
+
+
+
+
+
+
+
+
+
+

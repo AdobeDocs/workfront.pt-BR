@@ -8,10 +8,10 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 321449202f629f75464870bea7fa3db8b4c0e0cb
+source-git-commit: ad3478d3f1b54af596b146ac212a9eacf6f972f7
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 1%
+source-wordcount: '1155'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,7 @@ Quando um projeto do Workfront é conectado com o Frame.io, é possível
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 >[!IMPORTANT]
 >
@@ -41,12 +41,12 @@ Você deve ter o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Plano Adobe Workfront</td> 
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> </td> 
+   <td> <p>Padrão</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -59,7 +59,7 @@ Você deve ter o seguinte:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -143,7 +143,7 @@ Depois de criar um modelo, você pode usá-lo para criar projetos.
 
 1. No cabeçalho do projeto, altere o projeto de **Planning** para **Current**.
 
-Depois que o projeto for criado e a criação fizer upload de ativos concluídos, você poderá atribuir um fluxo de trabalho de revisão e aprovação ao ativo no Workfront. Para obter mais informações, consulte [Criar uma revisão de documento ou solicitação de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
+Depois que o projeto for criado e a criação fizer upload de ativos concluídos, você poderá atribuir um fluxo de trabalho de revisão e aprovação ao ativo no Workfront. Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
 
 ## Criar um novo projeto do zero
 
@@ -211,5 +211,3 @@ O Workfront tem recursos robustos de gerenciamento de projetos. Recomendamos o u
 Depois que o projeto for criado e a criação fizer upload de ativos concluídos, você poderá atribuir um fluxo de trabalho de revisão e aprovação ao ativo no Workfront.
 
 Depois que o projeto for criado e a criação fizer upload de ativos concluídos, você poderá atribuir um fluxo de trabalho de revisão e aprovação ao ativo no Workfront.
-
-Para obter mais informações, consulte [Criar uma revisão de documento ou solicitação de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->

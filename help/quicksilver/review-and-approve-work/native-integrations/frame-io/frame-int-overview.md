@@ -1,20 +1,20 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Visão geral da integração do Frame.io
-description: Visão geral da integração do Frame.io
+title: Visão geral da integração com o Frame.io
+description: Visão geral da integração com o Frame.io
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 0%
+source-wordcount: '859'
+ht-degree: 1%
 
 ---
 
-# Visão geral da integração do Frame.io
+# Visão geral da integração com o Frame.io
 
 A integração do Workfront e do Frame.io permite que os coordenadores de projetos gerenciem projetos e planejem o trabalho no Workfront, enquanto os criadores, profissionais de marketing e participantes podem revisar e aprovar ativos no Frame.io.
 
@@ -51,7 +51,7 @@ A integração Workfront e Frame.io usa a funcionalidade de aprovação unificad
 * Centralizar feedback e aprovações em um único local
 * Garantir que todas as partes interessadas tenham acesso às versões mais recentes dos ativos
 * Utilizar Revisores de IA para automatizar revisões de conformidade da marca
-* e mais
+* e muito mais
 
 Para obter mais informações, consulte [Aprovações de documentos unificados: índice do artigo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md).
 
@@ -95,13 +95,13 @@ Para obter mais informações sobre como gerenciar projetos no Workfront, consul
 
 ### Convenções de nomenclatura e estrutura impostas
 
-Como essa integração é criada usando o Adobe Enterprise Storage, há algumas convenções de estrutura e nomenclatura aplicadas que devem ser consideradas ao gerenciar projetos e documentos.
+Como essa integração é criada usando o armazenamento corporativo Adobe, há algumas convenções de estrutura e nomenclatura aplicadas que devem ser levadas em conta ao gerenciar projetos e documentos.
 
 * Os nomes dos objetos devem ser exclusivos e não podem ser duplicados
-* O Adobe Enterprise Storage requer nomes exclusivos para objetos de mesmo nível com o mesmo pai na árvore hierárquica
+* O armazenamento corporativo da Adobe requer nomes exclusivos para objetos de mesmo nível com o mesmo pai na árvore hierárquica
 * Os documentos não podem ter o mesmo nome se pertencerem ao mesmo projeto
 * Os nomes de documento não podem conter nenhum dos seguintes caracteres especiais: \ / : * ? &quot; | &lt; >
-* Os nomes dos documentos são limitados a no máximo 255 caracteres
+* Os nomes de documentos são limitados a no máximo 255 caracteres
 
 Com essas limitações em mente, o Workfront renomeia automaticamente objetos ou documentos conforme necessário para evitar conflitos.
 
@@ -134,9 +134,7 @@ A tabela a seguir mostra como as permissões do Workfront são mapeadas para per
 
 ### Gerenciamento de documentos no Workfront
 
-Os documentos são gerenciados no nível do projeto com essa integração e não podem ser carregados para tarefas ou problemas no momento.
-
-O acesso a documentos também é gerenciado no nível do projeto. Se um usuário tiver acesso a um projeto, ele poderá acessar todos os documentos associados a esse projeto.
+Os documentos carregados no Workfront são armazenados no armazenamento corporativo do Adobe e podem ser acessados no Workfront e no Frame.io. Ao fazer upload de um documento para uma tarefa ou problema no Workfront, uma pasta gerada pelo sistema é criada no Adobe Enterprise Storage que herda permissões da tarefa ou problema. Todos os documentos carregados para essa tarefa ou problema são armazenados nessa pasta e herdam permissões dela. Para obter mais informações sobre documentos no Workfront, consulte [A visão geral da nova área de documentos](/help/quicksilver/documents/managing-documents/documents-area.md) e [Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento corporativo do Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ### Limitações da experiência de documento
 
@@ -151,13 +149,3 @@ Os seguintes recursos não serão incluídos nesta integração:
 * Visualizador de documentos no Workfront
 * Documentos favoritos
 * Solicitar documentos
-
-
-<!--#### Temporary limitations
-
-For now, the following capabilities are not available:
-
-* Send documents to Adobe Experience Manager Assets
-* Multi-stage approvals
-* Upload documents to comments or updates in Workfront
-* Upload documents to tasks or issues in Workfront-->

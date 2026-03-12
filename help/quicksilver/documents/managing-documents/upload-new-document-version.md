@@ -6,10 +6,10 @@ description: É possível adicionar uma nova versão de um documento que você t
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 0%
+source-wordcount: '557'
+ht-degree: 10%
 
 ---
 
@@ -25,7 +25,7 @@ Para obter informações sobre como adicionar uma nova versão de um documento v
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,8 +40,8 @@ Para obter informações sobre como adicionar uma nova versão de um documento v
   <tr> 
    <td role="rowheader">Licenças do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p> </td> 
+   <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -54,10 +54,14 @@ Para obter informações sobre como adicionar uma nova versão de um documento v
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Usar o recurso arrastar e soltar para adicionar uma nova versão
+## Fazer upload de uma nova versão do documento na área de documentos herdados
+
+Se sua organização estiver no armazenamento herdado do Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento Workfront herdado, consulte [Diferenças entre o armazenamento Workfront herdado e o armazenamento corporativo Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Usar o recurso arrastar e soltar para adicionar uma nova versão
 
 >[!NOTE]
 >
@@ -74,7 +78,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Para obter informações sobre o gerenciamento de versões de documentos, consulte [Gerenciar versões de documentos](../../documents/managing-documents/manage-document-versions.md).
 
-## Use o menu Mais para adicionar uma nova versão
+### Use o menu Mais para adicionar uma nova versão
 
 1. Selecione o documento no qual deseja adicionar uma nova versão.
 1. Clique em **Adicionar novo** > **Versão**.
@@ -82,3 +86,42 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    ![Adicionar nova versão](assets/add-new-version-350x185.png)
 
 1. Selecione o tipo de documento que deseja fazer upload e siga as instruções.
+
+## Fazer upload de uma nova versão do documento na área de novos documentos
+
+Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+### Usar o recurso arrastar e soltar para adicionar uma nova versão
+
+>[!NOTE]
+>
+>Arrastar e soltar não funciona com o Internet Explorer.
+
+1. Vá para a área Documentos onde o documento é carregado.
+1. Arraste a nova versão do documento para cima da versão existente no Workfront.
+
+   ![Arraste e solte a versão do documento](assets/drag-drop-new-doc.png)
+
+1. Solte a nova versão sobre o arquivo existente na guia **Documentos**.
+
+   Para obter informações sobre o gerenciamento de versões de documentos, consulte [Gerenciar versões de documentos](../../documents/managing-documents/manage-document-versions.md).
+
+### Use o menu Mais para adicionar uma nova versão
+
+1. Selecione o documento no qual deseja adicionar uma nova versão.
+1. Abra o ícone Mostrar versões ![ícone Mostrar versões](assets/show-versions.png) à direita.
+1. Clique em **Adicionar nova versão**.
+
+   ![Adicionar nova versão](assets/new-version-new-doc.png)
+
+1. Localize o documento e clique em **Abrir**.
+
+
+
+
+
+
+
+
+
+

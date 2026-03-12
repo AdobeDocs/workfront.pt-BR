@@ -6,10 +6,10 @@ description: Você pode usar modelos como uma estrutura para criar projetos no A
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ Você tem as seguintes opções para criar um projeto a partir de um modelo:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +55,7 @@ Você tem as seguintes opções para criar um projeto a partir de um modelo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
         <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -165,7 +165,7 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
       * O número de todas as tarefas no modelo
       * Os nomes dos formulários personalizados do modelo
 
-   1. (Opcional) Passe o mouse sobre o nome de um modelo no painel esquerdo e clique no **ícone de** Favoritos **&#x200B;**&#x200B;![ícone de Favoritos](assets/favorites-icon-small.png) para marcá-lo como favorito para uso futuro.
+   1. (Opcional) Passe o mouse sobre o nome de um modelo no painel esquerdo e clique no **ícone de** Favoritos **** ![ícone de Favoritos](assets/favorites-icon-small.png) para marcá-lo como um favorito para uso futuro.
 
       Ou
 

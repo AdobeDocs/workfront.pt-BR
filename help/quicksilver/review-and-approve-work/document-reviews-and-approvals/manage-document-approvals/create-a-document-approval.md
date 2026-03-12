@@ -1,19 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Criar uma revisão de documento ou solicitação de aprovação
+title: Criar um fluxo de trabalho de aprovação de documento
 description: Você pode solicitar aprovação de outros usuários para um documento no Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
+source-git-commit: 149c8adcf886f837bc94ac78f8a3ea54c47e375c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 0%
+source-wordcount: '1002'
+ht-degree: 4%
 
 ---
 
-# Criar uma revisão de documento ou solicitação de aprovação
+# Criar um fluxo de trabalho de aprovação de documento
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Você pode solicitar aprovação de outros usuários ou equipes para um documento no Adobe Workfront ou solicitar que eles revisem um documento sem precisar aprová-lo.
 
@@ -23,7 +25,7 @@ Você pode solicitar aprovação de outros usuários ou equipes para um document
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +38,7 @@ Você pode solicitar aprovação de outros usuários ou equipes para um document
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td>  
    <td>
-   <p>Colaborador ou superior</p>
+   <p>Colaborador ou posterior</p>
    <p>Revisar ou superior</p>
    <p>Se você estiver usando a integração Frame.io, é necessário ter uma licença Standard para criar workflows de aprovação.</p>
    </td> 
@@ -56,12 +58,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Criar uma solicitação de revisão ou aprovação de documento a partir da página do documento
+
+## Crie um documento de revisão ou solicitação de aprovação a partir da página de documentos no seu ambiente de produção
 
 1. Passe o mouse sobre o documento e clique em Detalhes do documento.
    ![Detalhes do documento](assets/doc-details.png)
 
-1. Próximo ao nome do documento, selecione a versão do documento para a qual deseja criar uma aprovação na lista suspensa versão. A versão mais recente será selecionada por padrão.
+1. Próximo ao nome do documento, selecione a versão do documento para a qual deseja criar uma aprovação na lista suspensa versão. A versão mais recente é selecionada por padrão.
 
 1. Clique em **Aprovações** no painel esquerdo.
 
@@ -75,13 +78,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Repita a etapa anterior para adicionar aprovadores ou revisores adicionais.
 
-## Criar uma solicitação de revisão ou aprovação de documento a partir do painel Resumo de documentos
+## Crie uma solicitação de revisão ou aprovação de documento a partir do painel Resumo de documentos em seu ambiente de produção
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 
-1. Clique no documento necessário e o painel Resumo do documento desse documento será aberto.
+1. Clique no documento necessário e o painel esquerdo Resumo do documento desse documento será aberto.
 
-1. Selecione a versão do documento para a qual você deseja criar uma aprovação na lista suspensa de versões. A versão mais recente será selecionada por padrão.
+1. Selecione a versão do documento para a qual você deseja criar uma aprovação na lista suspensa de versões. A versão mais recente é selecionada por padrão.
 
 1. Role para baixo até a seção **Aprovações** no painel Resumo do documento e clique em **Adicionar**.
 
@@ -97,7 +100,94 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Repita a etapa anterior para adicionar aprovadores ou revisores adicionais.
 
+<div class="preview">
 
+## Crie um fluxo de trabalho de aprovação por meio do painel Resumo no seu ambiente de visualização na área de documentos herdados
+
+Se sua organização estiver no armazenamento da Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento da Workfront, consulte [Armazenamento da Workfront vs. armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+
+Para criar um workflow de aprovação:
+
+1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
+
+1. Clique no documento necessário e o painel Resumo do documento desse documento será aberto.
+
+1. Selecione a versão do documento para a qual você deseja criar uma aprovação na lista suspensa de versões. A versão mais recente é selecionada por padrão.
+
+1. Role para baixo até a seção **Aprovações** e clique em **Criar fluxo de trabalho**.
+
+
+1. Preencha os seguintes detalhes:
+
+   <table>
+   <tr>
+   <td><strong>Nome do estágio</strong></td>
+   <td>Adicione um nome de estágio. Você pode alterar o nome para algo mais descritivo, como <em>Revisão inicial</em> ou <em>Aprovação final</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Adicionar nomes ou emails</strong></td>
+   <td>Comece a digitar um nome de usuário ou de equipe para adicionar como aprovador ou revisor. Se você tiver apenas revisores, eles serão notificados e terão a opção de concluir a revisão, mas nenhuma decisão será necessária ou tomada.</td>
+   </tr>
+   <tr>
+   <td><strong>É necessária uma decisão (opcional)</strong></td>
+   <td>A primeira pessoa que toma uma decisão completa a etapa.</td>
+   </tr>
+   <tr>
+   <td><strong>Data de vencimento (opcional)</strong></td>
+   <td>Defina uma data de vencimento para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes da data de vencimento especificada.</td>
+   </tr>
+   </table>
+
+1. (Opcional) Repita a etapa anterior para adicionar etapas adicionais, conforme necessário.
+
+   >[!NOTE]
+   >
+   >Se você adicionar vários estágios, o workflow de aprovação continuará na ordem em que os estágios são listados. Quando todas as decisões necessárias forem tomadas, o próximo estágio será iniciado e o estágio anterior será bloqueado.
+
+   ![Detalhes do documento](assets/new-stage.png)
+
+</div>
+
+## Crie um fluxo de trabalho de aprovação por meio do painel Resumo na nova área de documento
+
+Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre armazenamento corporativo, consulte [Visão geral sobre armazenamento corporativo](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Para criar um workflow de aprovação:
+
+1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
+
+1. Clique no documento e, em seguida, clique no ícone Aprovações no lado direito da página.
+
+   ![Adicionar aprovadores no resumo do documento](assets/approvals-icon-new.png)
+
+1. Clique em **Criar fluxo de trabalho** e preencha os seguintes detalhes:
+
+   <table>
+   <tr>
+   <td><strong>Nome do estágio</strong></td>
+   <td>Adicione um nome de estágio. Você pode alterar o nome para algo mais descritivo, como <em>Revisão inicial</em> ou <em>Aprovação final</em>.</td>
+   </tr>
+   <tr>
+   <td><strong>Adicionar nomes ou emails</strong></td>
+   <td>Comece a digitar um nome de usuário ou de equipe para adicionar como aprovador ou revisor. Se você tiver apenas revisores, eles serão notificados e terão a opção de concluir a revisão, mas nenhuma decisão será necessária ou tomada.</td>
+   </tr>
+   <tr>
+   <td><strong>É necessária uma decisão (opcional)</strong></td>
+   <td>A primeira pessoa que toma uma decisão completa a etapa.</td>
+   </tr>
+   <tr>
+   <td><strong>Data de vencimento (opcional)</strong></td>
+   <td>Defina uma data de vencimento para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes da data de vencimento especificada.</td>
+   </tr>
+   </table>
+
+1. (Opcional) Repita a etapa anterior para adicionar etapas adicionais, conforme necessário.
+
+   >[!NOTE]
+   >
+   >Se você adicionar vários estágios, o workflow de aprovação continuará na ordem em que os estágios são listados. Quando todas as decisões necessárias forem tomadas, o próximo estágio será iniciado e o estágio anterior será bloqueado.
+
+   ![Detalhes do documento](assets/new-stage.png)
 
 
 

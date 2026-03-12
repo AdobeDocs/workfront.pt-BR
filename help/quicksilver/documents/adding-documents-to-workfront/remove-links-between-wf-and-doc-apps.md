@@ -6,10 +6,10 @@ description: Ao fazer upload de um documento de qualquer serviço pela primeira 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 0%
+source-wordcount: '413'
+ht-degree: 14%
 
 ---
 
@@ -21,9 +21,14 @@ Para obter informações sobre como vincular serviços de documentos externos ao
 
 Como o serviço de documentos é o que permite a permissão para vincular ao Workfront, não é possível para o Workfront remover a permissão concedida pelo serviço de documentos. Você deve remover a permissão de dentro do aplicativo de serviço de documento ou chamar nossa Equipe de Suporte para remover este link de nossos servidores.
 
+>[!NOTE]
+>
+>Esta funcionalidade não está disponível na área de novos documentos.<br>
+>Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,10 +39,10 @@ Como o serviço de documentos é o que permite a permissão para vincular ao Wor
    <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenças da Adobe Workfront*</td> 
+   <td role="rowheader">Licenças do Adobe Workfront*</td> 
    <td> 
-   <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p> </td> 
+   <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 

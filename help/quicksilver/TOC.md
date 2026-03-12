@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
 workflow-type: tm+mt
-source-wordcount: '13793'
+source-wordcount: '13808'
 ht-degree: 98%
 
 ---
@@ -460,6 +460,7 @@ ht-degree: 98%
          * [Recálculos da linha do tempo do projeto](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [Habilitar trimestres personalizados](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [Habilitar ou desabilitar lançamentos rápidos na organização](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
+         * [Habilitar o armazenamento corporativo da Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
          * [Criar e editar regras de negócios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [Configurar locais](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
@@ -1864,10 +1865,10 @@ ht-degree: 98%
          * [Configurar e gerenciar aprovações unificadas: índice de artigos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Criar revisores de IA](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
          * [Configurar marcas para o Revisor do AI](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
-         * [Criar uma revisão de documento ou solicitação de aprovação](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [Adicionar novos revisores ou aprovadores a um ativo ou documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [Remover aprovadores ou revisores de um ativo ou documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [Criar um modelo de aprovação para ativos e documentos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [Criar um fluxo de trabalho de aprovação de documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [Adicionar aprovadores ou revisores adicionais a um fluxo de trabalho de aprovação de documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [Remover aprovadores ou revisores de um fluxo de trabalho de aprovação de documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [Criar um modelo de fluxo de trabalho de aprovação para documentos](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Usar recursos de aprovação unificada e revisão juntos](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [Fazer upload de uma nova versão do documento e solicitar uma aprovação](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
          * [Criar um painel de relatórios para revisão e aprovações](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
@@ -1995,9 +1996,10 @@ ht-degree: 98%
    * Integrações nativas {#native-integrations}
       * [Revisar e aprovar integrações nativas: índice do artigo](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
       * [Visão geral da integração com o Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
-      * [Introdução ao uso da integração entre as provas e o GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-      * [Introdução ao uso de provas com o Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [Introdução ao uso da integração com o Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
+      * [Introdução à integração do GenStudio for Performance Marketing e do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
+      * [Introdução ao uso de provas com o Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
+      * [Introdução ao uso da integração entre as provas e o GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
       * [Use o Adobe Experience Manager com a integração com Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
    * Dicas, truques e solução de problemas para aprovações {#ttt-approvals}
       * [Dicas, truques e solução de problemas para aprovações: índice do artigo](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)

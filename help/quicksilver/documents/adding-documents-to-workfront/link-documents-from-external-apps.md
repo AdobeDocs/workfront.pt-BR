@@ -6,10 +6,10 @@ description: Você pode vincular documentos e pastas ao Adobe Workfront a partir
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '2545'
-ht-degree: 0%
+source-wordcount: '2585'
+ht-degree: 2%
 
 ---
 
@@ -57,9 +57,14 @@ Antes de vincular documentos ou pastas, o administrador do Workfront deve habili
 
 Você pode revisar e aprovar documentos vinculados a um provedor de nuvem externo da mesma maneira que faz com documentos carregados diretamente no Workfront.
 
+>[!NOTE]
+>
+>Esta funcionalidade não está disponível na área de novos documentos.<br>
+>Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,8 +76,8 @@ Você pode revisar e aprovar documentos vinculados a um provedor de nuvem extern
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td>
-   <td><p>Colaborador ou superior</p>
-    <p>Solicitação ou superior</p> </td>
+   <td><p>Colaborador ou posterior</p>
+    <p>Solicitação ou posterior</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 

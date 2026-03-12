@@ -6,16 +6,21 @@ description: Você pode adicionar um arquivo de imagem ao Adobe Workfront copian
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 0%
+source-wordcount: '362'
+ht-degree: 15%
 
 ---
 
 # Colar imagens da área de transferência
 
 Você pode adicionar um arquivo de imagem ao Adobe Workfront copiando-o e colando-o da área de transferência do sistema na sua estação de trabalho. 
+
+>[!NOTE]
+>
+>Esta funcionalidade não está disponível na área de novos documentos.<br>
+>Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos do navegador para colar da área de transferência
 
@@ -28,7 +33,7 @@ Esse recurso é específico do navegador, da seguinte maneira:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +48,7 @@ Esse recurso é específico do navegador, da seguinte maneira:
   <tr> 
    <td role="rowheader">Licenças do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p>
+   <p>Colaborador ou posterior</p>
    <p>Revisar ou superior</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +62,7 @@ Esse recurso é específico do navegador, da seguinte maneira:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

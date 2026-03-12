@@ -6,10 +6,10 @@ description: Você pode copiar um link para qualquer pasta de documento contida 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 0%
+source-wordcount: '238'
+ht-degree: 28%
 
 ---
 
@@ -17,9 +17,14 @@ ht-degree: 0%
 
 Você pode copiar um link direto para qualquer pasta de documentos contida em qualquer um dos seguintes objetos [!DNL Workfront]: [!UICONTROL Programa], [!UICONTROL Portfolio], [!UICONTROL Projeto], [!UICONTROL Tarefa] ou [!UICONTROL Problema]. Você não pode copiar um link para nenhuma pasta contida na área [!UICONTROL Documentos] do Menu Principal, pois essas pastas estão vinculadas diretamente ao seu perfil de usuário e não podem ser compartilhadas com outras pessoas.
 
+>[!NOTE]
+>
+>Esta funcionalidade não está disponível na área de novos documentos.<br>
+>Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,8 +37,8 @@ Você pode copiar um link direto para qualquer pasta de documentos contida em qu
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Standard</p>
-   <p>Trabalhar ou superior</p> </td> 
+   <p>Padrão</p>
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -43,7 +48,7 @@ Você pode copiar um link direto para qualquer pasta de documentos contida em qu
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

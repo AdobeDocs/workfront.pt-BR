@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: cd2a5560fdf446e8e971afcb640af38b4d301d40
+source-git-commit: 7944822b0aa49498ef8a396768b90dc9ed85b607
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 5%
+source-wordcount: '653'
+ht-degree: 6%
 
 ---
 
@@ -83,7 +83,7 @@ Os usuários podem adicionar Revisores de IA a modelos de aprovação para verif
 
 Depois de criados, os modelos de aprovação podem ser aplicados a ativos na área Documentos de um projeto, tarefa ou problema.
 
-Para obter mais informações, consulte [Criar um Modelo de Aprovação para ativos e documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+Para obter mais informações, consulte [Criar um modelo de fluxo de trabalho de aprovação para documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ![lista de modelos mostrando os revisores de IA](assets/ai-review-templates.png)
 
@@ -91,12 +91,12 @@ Para obter mais informações, consulte [Criar um Modelo de Aprovação para ati
 
 Quando os usuários criam solicitações individuais de revisão e aprovação, eles podem adicionar um Revisor de IA com outros participantes ou criar uma única solicitação com apenas o Revisor de IA para verificar a conformidade da marca.
 
-Para obter mais informações, consulte [Criar uma revisão de documento ou solicitação de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 
-![Revisor de IA adicionado à solicitação de aprovação individual](assets/ad-ai-reviewer-to-request.png)
 
-## Exibir pontuação e feedback do revisor da IA
+
+## Exibir pontuação e feedback do revisor com IA
 
 Segundos após o envio da solicitação de revisão e aprovação com um Revisor de IA, a pontuação e o feedback do Revisor de IA ficam disponíveis no painel Resumo do documento, mesmo que outros participantes ainda estejam revisando e tomando decisões.
 

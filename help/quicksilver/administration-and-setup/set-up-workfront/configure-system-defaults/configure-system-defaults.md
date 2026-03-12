@@ -10,14 +10,14 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 20%
+source-wordcount: '117'
+ht-degree: 44%
 
 ---
 
-# Configurar padrões do sistema: índice do artigo
+# Configurar padrões do sistema: índice de artigos
 
 Esta seção contém os seguintes artigos:
 
@@ -33,6 +33,7 @@ Esta seção contém os seguintes artigos:
 * [Criar um cartão de pontuação](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
 * [Configurar recálculos de cronograma de projetos](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
 * [Habilitar trimestres personalizados](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
-* [Habilitar ou desabilitar versões rápidas para sua organização](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
+* [Habilitar ou desabilitar lançamentos rápidos na organização](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
+* [Habilitar o armazenamento corporativo da Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
 * [Configurar locais](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
 * [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)

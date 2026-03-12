@@ -6,10 +6,10 @@ description: Um usuário com direitos de gerenciamento em um documento pode move
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 1%
+source-wordcount: '410'
+ht-degree: 14%
 
 ---
 
@@ -27,7 +27,7 @@ Quando você move um documento, qualquer um dos itens a seguir também será mov
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,8 +40,8 @@ Quando você move um documento, qualquer um dos itens a seguir também será mov
   <tr> 
    <td role="rowheader">Licenças do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p> </td> 
+   <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso*</td> 
@@ -49,25 +49,57 @@ Quando você move um documento, qualquer um dos itens a seguir também será mov
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar acesso ao documento</p> <p>Permissão para adicionar Documentos ao novo objeto</p></td> 
+   <td> <p>Gerenciar o acesso ao documento</p> <p>Permissão para adicionar Documentos ao novo objeto</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Mover um documento
+## Mover um documento na área de documentos herdados
+
+Se sua organização utiliza o Workfront Storage herdado, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o Workfront Storage, consulte [Diferenças entre o Adobe Enterprise Storage e o Workfront Storage herdado](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+
+Para mover um documento:
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Localize o documento necessário.
 
 1. Clique no ícone **Mover** ![Ícone Mover](assets/move-document--25x19.png).
+   ![Mover o local do ícone na página](assets/move-doc-legacy.png)
+
 1. No menu suspenso na caixa exibida, clique em **Problema**, **Projeto** ou **Tarefa** para indicar o tipo de objeto para o qual deseja mover o documento. 
 
 1. Digite o nome do **Problema**, **Projeto** ou **Tarefa** na caixa de texto.
 
+   >[!NOTE]
+   >
+   >Você só pode mover para outro projeto, tarefa ou problema usando o armazenamento herdado do Workfront.
+
 1. Clique em **Concluir**.
 
 Você também pode mover um documento da página Detalhes do documento.
+
+## Mover um documento na área de novos documentos
+
+Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Para mover um documento:
+
+1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
+1. Localize o documento necessário.
+1. Clique em **Mover** na parte inferior da página.
+
+![Mover o local do ícone na página](assets/move-new-doc.png)
+
+1. No menu suspenso na caixa exibida, clique em **Problema**, **Projeto** ou **Tarefa** para indicar o tipo de objeto para o qual deseja mover o documento.
+
+1. Digite o nome do **Problema**, **Projeto** ou **Tarefa** na caixa de texto.
+
+   >[!NOTE]
+   >
+   >Você só pode mover para outro projeto, tarefa ou problema usando o armazenamento corporativo.
+
+1. Clique em **Mover**.

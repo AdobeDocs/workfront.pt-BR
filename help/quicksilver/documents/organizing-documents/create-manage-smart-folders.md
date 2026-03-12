@@ -6,10 +6,10 @@ description: As pastas inteligentes são usadas para gerenciar documentos fora d
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 0%
+source-wordcount: '552'
+ht-degree: 10%
 
 ---
 
@@ -19,9 +19,14 @@ As pastas inteligentes são usadas para gerenciar documentos fora de um projeto,
 
 Duas pastas inteligentes estão disponíveis por padrão na primeira vez que você acessa a área Documentos: Todos os documentos e Recentes. É possível editar, renomear ou copiar pastas inteligentes padrão, mas não excluí-las. É possível criar pastas inteligentes adicionais para atender a outras necessidades de gerenciamento de ativos.
 
+>[!NOTE]
+>
+>Esta funcionalidade não está disponível na área de novos documentos.<br>
+>Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +39,7 @@ Duas pastas inteligentes estão disponíveis por padrão na primeira vez que voc
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p>
+   <p>Colaborador ou posterior</p>
    <p>Revisar ou superior</p> </td> 
   </tr> 
   <tr> 
@@ -44,7 +49,7 @@ Duas pastas inteligentes estão disponíveis por padrão na primeira vez que voc
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +74,7 @@ Você pode exibir pastas em miniatura, padrão ou na exibição de lista. Para a
 
 1. Vá para a área **Documentos** que contém a pasta inteligente que você deseja editar.
 1. Na coluna **Pastas**, clique no ícone **Mais** ![Mais menu](assets/more-icon.png) ao lado da pasta inteligente que você deseja editar.
-1. Clique em **Editar**.
+1. Clique em **Edit**.
 
 1. Faça as alterações e clique em **Salvar Pasta**.
 

@@ -7,10 +7,10 @@ description: A página Detalhes do documento permite exibir, comunicar-se e gere
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
+source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 2%
+source-wordcount: '378'
+ht-degree: 5%
 
 ---
 
@@ -18,15 +18,13 @@ ht-degree: 2%
 
 A página Detalhes do documento permite exibir, comunicar-se e gerenciar as propriedades de um documento anexado a um objeto do Adobe Workfront.
 
-## Abrir a página Detalhes do documento
+## Área de documentos herdados
 
-{{step1-to-documents}}
+Se sua organização estiver no armazenamento herdado do Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento Workfront herdado, consulte [Diferenças entre o armazenamento Workfront herdado e o armazenamento corporativo Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-1. Passe o mouse sobre o documento e clique em **Detalhes do documento**.
 
-   ![Detalhes do documento](assets/document-details-350x179.png)
 
-## Executar ações básicas em documentos e provas
+### Executar ações básicas em documentos e provas
 
 Você pode executar as seguintes ações para documentos e provas na página Detalhes do Documento:
 
@@ -45,9 +43,9 @@ Além disso, você pode usar o ícone Mais ![menu Mais](assets/more-icon.png) ao
 * Baixar
 * Enviar
 
-## Executar ações específicas de provas
+### Executar ações específicas de provas
 
-Você pode executar as seguintes ações a partir da página de detalhes do documento, se você no fluxo de trabalho de prova:
+Você poderá executar as seguintes ações na página de detalhes do documento se estiver no fluxo de trabalho de prova:
 
 * Exibir detalhes de Enviado, Aberto, Comentário, Decisão (SOCD)
 * Abrir uma prova
@@ -56,3 +54,49 @@ Você pode executar as seguintes ações a partir da página de detalhes do docu
 * Editar campos personalizados de revisão
 
   Os Campos personalizados de revisão devem ser configurados no Workfront Proof. Para obter mais informações, consulte [Criar e gerenciar campos personalizados no Workfront Proof](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
+
+![Detalhes do documento](assets/doc-details-full-legacy.png)
+
+### Abra a página Detalhes do documento na área de documentos herdados
+
+{{step1-to-documents}}
+
+1. Passe o mouse sobre o documento e clique em **Detalhes do documento**.
+
+   ![Detalhes do documento](assets/doc-details-legacy.png)
+
+
+## Nova área de documento
+
+Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Você pode executar as seguintes ações para documentos na página Detalhes do Documento:
+
+<table style="border: none; width: 80%; margin: 0 auto;">
+<tr style="border: none;">
+<td style="border: none; width: 50%; padding-right: 20px;">
+<ul>
+<li>Abra no Frame.io. <br>Você deve ter uma licença Frame.io Enterprise para usar este recurso.</li>
+<li>Excluir um documento</li>
+<li>Editar um documento</li>
+</ul>
+</td>
+<td style="border: none; width: 50%; padding-left: 20px;">
+<ul>
+<li>Mover um documento</li>
+<li>Enviar um documento para o Experience Manager Access</li>
+<li>Compartilhar um documento</li>
+</ul>
+</td>
+</tr>
+</table>
+
+![Ícone de mais detalhes do documento](assets/more-menu-new-doc.png)
+
+
+### Abra o painel Detalhes do documento na nova área de documentos
+
+1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
+1. Selecione o documento e clique em **Exibir Detalhes**.
+
+   ![Detalhes do documento](assets/doc-details.png)

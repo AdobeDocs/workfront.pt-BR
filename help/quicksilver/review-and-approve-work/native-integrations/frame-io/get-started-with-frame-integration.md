@@ -1,20 +1,20 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Introdução à integração do Frame.io
+title: Introdução ao uso da integração com o Frame.io
 description: Introdução à integração do Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 0%
+source-wordcount: '960'
+ht-degree: 6%
 
 ---
 
-# Introdução à integração do Frame.io
+# Introdução ao uso da integração com o Frame.io
 
 A integração do Workfront e do Frame.io mantém os criadores, profissionais de marketing e participantes alinhados com um fluxo de trabalho contínuo. Acesse atualizações em tempo real, evite trabalhos duplicados e verifique se os ativos estão aprovados antes do lançamento.
 
@@ -34,11 +34,11 @@ Você deve ter a integração do Workfront e do Frame.io configurada na instânc
 
 ## Iniciação e planejamento do trabalho no Workfront
 
-Os coordenadores de projetos podem criar projetos e planejar o trabalho no Workfront. Os projetos criados em uma instância com a integração Frame.io habilitada utilizam o Adobe Enterprise Storage, que permite que os ativos sejam armazenados e gerenciados no ecossistema do Adobe.
+Os coordenadores de projetos podem criar projetos e planejar o trabalho no Workfront. Os projetos criados em uma instância com a integração Frame.io habilitada utilizam o armazenamento empresarial do Adobe, que permite que os ativos sejam armazenados e gerenciados no ecossistema do Adobe.
 
 Se sua organização tiver uma licença Frame.io Enterprise, os projetos criados no Workfront também estarão visíveis no Frame.io, permitindo que os usuários interajam e façam upload de ativos em qualquer um dos produtos.
 
-Para obter informações sobre o Adobe Enterprise Storage ou projetos no Frame.io, consulte
+Para obter informações sobre o armazenamento corporativo Adobe ou projetos no Frame.io, consulte
 
 * [Visão geral do Workspace: Projetos](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
 * [Visão geral do armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
@@ -52,7 +52,7 @@ Depois que o fluxo de trabalho de aprovação é criado, revisores e aprovadores
 Para obter mais informações sobre a configuração de projetos, consulte
 
 * [Criar um projeto](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-* [Visão geral da integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
+* [Visão geral da integração com o Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Iniciar revisões e aprovações formais no Workfront
 
@@ -67,13 +67,13 @@ Revisores e aprovadores podem ser adicionados a um fluxo de trabalho de aprovaç
 
 * **Aprovações de uso único**: no projeto ou tarefa em que o ativo reside, o coordenador do projeto pode atribuir revisores e aprovadores e definir um prazo de conclusão. Revisores e aprovadores são lembrados por email 72 horas antes do prazo final, 24 horas antes do prazo final e, em seguida, sobre o próprio prazo final.
 
-  Para obter mais informações, consulte [Criar uma revisão de documento ou solicitação de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+  Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 * **Modelos de aprovação**: na área Configuração do Workfront, os coordenadores de projeto podem criar Modelos de aprovação reutilizáveis. Em um modelo, os usuários podem adicionar revisores e aprovadores e especificar um período de conclusão. Quando o modelo de aprovação é aplicado a um ativo, o prazo é calculado a partir do período especificado.
 
   Depois que um modelo é criado, ele pode ser aplicado a um ativo para iniciar o processo formal de revisão e aprovação no Workfront.
 
-  Para obter mais informações, consulte [Criar um Modelo de Aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+  Para obter mais informações, consulte [Criar um modelo de fluxo de trabalho de aprovação para documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 
   ![Atribuir modelo](assets/assign-template.png)
@@ -106,6 +106,7 @@ A marcação de comentários e ativos está visível no visualizador Frame.io. P
 Quando toda a atividade de revisão estiver concluída, os aprovadores deverão tomar uma das seguintes decisões:
 
 * **Aprovar**: o ativo não precisa de alterações e está pronto para uso.
+* **Aprovado com alterações**: o ativo está quase completo, mas precisa de pequenas alterações para poder ser usado. Depois que as alterações especificadas forem feitas, o ativo estará pronto e não precisará passar por outra rodada de aprovações.
 * **Precisa do trabalho**: o ativo precisa de alterações e não está pronto para uso. Depois que as alterações especificadas forem feitas, o ativo deverá ser carregado como uma nova versão e passar por outra rodada de aprovações. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 Os revisores podem marcar sua revisão como concluída no Workfront, mas isso não é necessário para que o ativo avance no processo de aprovação.
@@ -125,6 +126,6 @@ Os coordenadores de projetos podem monitorar o progresso em todas as aprovaçõe
 
 ## Enviar ativos concluídos para o Adobe Experience Manager
 
-Você pode usar o [!DNL Experience Manager Assets]&#x200B;&#x200B; para gerenciar e armazenar seus ativos digitais que passaram pelo ciclo de revisão e aprovação. Essa integração permite aproveitar os recursos do Adobe Experience Manager, Frame.io e Workfront para simplificar seus processos de colaboração e gerenciamento de conteúdo.
+Você pode usar o [!DNL Experience Manager Assets]&#x200B;&#x200B; para gerenciar e armazenar seus ativos digitais que passaram pelo ciclo de revisão e aprovação. Essa integração permite que você aproveite os recursos do Adobe Experience Manager, Frame.io e Workfront para otimizar seus processos de gestão de conteúdo e colaboração.
 
-Para obter mais informações, consulte [Usar o Adobe Experience Manager com a integração Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Para obter mais informações, consulte [Usar o Adobe Experience Manager com a integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).

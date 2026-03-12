@@ -6,10 +6,10 @@ description: Se você estiver atribuído como aprovador de um documento, há vá
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 0%
+source-wordcount: '1178'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Se você estiver atribuído como aprovador de um documento, há várias maneiras de tomar sua decisão de aprovação.
 
-Para obter informações sobre como criar uma nova aprovação de documento, consulte [Criar uma revisão de documento ou solicitação de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Para obter informações sobre como criar uma nova aprovação de documento, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >
@@ -25,7 +25,7 @@ Para obter informações sobre como criar uma nova aprovação de documento, con
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 
 <table style="table-layout:auto"> 
@@ -39,7 +39,7 @@ Para obter informações sobre como criar uma nova aprovação de documento, con
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p>
+   <p>Colaborador ou posterior</p>
    <p>Revisar ou superior</p> </td> 
   </tr> 
   <tr> 
@@ -155,7 +155,7 @@ Para revisar e aprovar um documento:
 
    * **Aprovar**: o documento não precisa de alterações e está pronto para uso.
    * **Aprovar com alterações**: o documento precisa de alterações e está pronto para uso quando elas forem feitas. Aprovação adicional não é necessária.
-   * **Precisa do trabalho**: o documento precisa de alterações e não está pronto para uso. Depois que as alterações especificadas forem feitas, o documento deverá ser carregado como uma nova versão e passar por outra rodada de aprovações. Para obter mais informações sobre como carregar uma nova versão, consulte [Criar uma nova versão conforme necessário](#create-a-new-version-as-needed) neste artigo.
+   * **Precisa do trabalho**: o documento precisa de alterações e não está pronto para uso. Depois que as alterações especificadas forem feitas, o documento deverá ser carregado como uma nova versão e passar por outra rodada de aprovações. Para obter mais informações sobre como carregar uma nova versão, consulte [Carregar uma nova versão de documento e solicitar uma aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
 
 Depois de tomar uma decisão, o proprietário do documento é notificado por email.
 

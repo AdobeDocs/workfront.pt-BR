@@ -1,19 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Remover aprovadores ou revisores de um ativo ou documento
+title: Remover aprovadores ou revisores de um fluxo de trabalho de aprovação de documento
 description: Você pode remover aprovadores ou revisores individuais de um documento.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: b615236d2666ebcc6db0d1f796fb0baaf362e0f2
+source-git-commit: 3fd4d18e1be14cc27b3b39d4abf399ec26ddcd51
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 0%
+source-wordcount: '854'
+ht-degree: 4%
 
 ---
 
-# Remover aprovadores ou revisores de um ativo ou documento
+# Remover aprovadores ou revisores de um fluxo de trabalho de aprovação de documento
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Você pode remover aprovadores ou revisores individuais de um ativo ou documento depois que eles tiverem sido atribuídos.
 
@@ -23,7 +25,7 @@ Você pode remover aprovadores ou revisores individuais de um ativo ou documento
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 
 <table style="table-layout:auto"> 
@@ -37,7 +39,7 @@ Você pode remover aprovadores ou revisores individuais de um ativo ou documento
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p>
+   <p>Colaborador ou posterior</p>
    <p>Revisar ou superior</p>
    <p>Se você estiver usando a integração Frame.io, é necessário ter uma licença Standard para criar workflows de aprovação.</p>
    </td> 
@@ -57,9 +59,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Remover aprovadores ou revisores da página Detalhes do documento
 
-1. Vá para a página do documento clicando no nome do documento e selecione a versão do documento para a qual deseja remover uma aprovação na lista suspensa de versões. A versão mais recente será selecionada por padrão.
+## Remova aprovadores ou revisores da página Detalhes do documento no ambiente de produção
+
+1. Vá para a página do documento clicando no nome do documento e selecione a versão do documento para a qual deseja remover uma aprovação na lista suspensa de versões. A versão mais recente é selecionada por padrão.
 
 1. Selecione **Aprovações** no painel esquerdo.
 
@@ -71,13 +74,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Repita a etapa anterior para remover aprovadores ou revisores adicionais.
 
-## Remover aprovadores ou revisores do Resumo do documento
+## Remover aprovadores ou revisores do Resumo do documento no seu ambiente de produção
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 
 1. Clique no documento necessário e o painel Resumo do documento desse documento será aberto.
 
-1. Selecione a versão do documento da qual você deseja remover um aprovador ou revisor na lista suspensa de versões. A versão mais recente será selecionada por padrão.
+1. Selecione a versão do documento da qual você deseja remover um aprovador ou revisor na lista suspensa de versões. A versão mais recente é selecionada por padrão.
 
 1. Role para baixo até a seção **Aprovações** no painel Resumo do documento. Passe o mouse sobre o nome do aprovador ou revisor que você deseja remover, em seguida, clique no ícone **Excluir** ![Ícone Excluir](../assets/delete.png) que aparece após o nome.
 
@@ -86,3 +89,59 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. (Opcional) Para rebaixar um aprovador para um revisor, em vez de removê-lo totalmente, desmarque a caixa de seleção **Aprovador** de acordo com seu nome.
 
 1. Repita a etapa anterior para remover aprovadores ou revisores adicionais.
+
+
+<div class="preview">
+
+## Remova aprovadores ou revisores de um fluxo de trabalho de aprovação no seu ambiente de visualização na área de documentos herdados
+
+Se sua organização estiver no armazenamento da Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento da Workfront, consulte [Armazenamento da Workfront vs. armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+
+Para remover aprovadores ou revisores de um fluxo de trabalho de aprovação:
+
+1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
+
+1. Clique no documento necessário e o painel Resumo do documento desse documento será aberto.
+
+1. Role para baixo até a seção **Aprovações** no painel Resumo do documento.
+
+1. Clique em **Editar workflow**.
+
+1. Localize o participante que você deseja remover e clique no ícone **Remover** ao lado do nome.
+
+   A solicitação de aprovação ou revisão é removida e o aprovador recebe uma notificação de que sua aprovação não é mais necessária. O acesso compartilhado relacionado à aprovação também é removido.
+
+   ![editar fluxo de trabalho de aprovação](assets/edit-approval-in-legacy.png)
+
+1. (Opcional) Para alterar a função de um aprovador para um revisor, ou vice-versa, clique no menu suspenso ao lado do nome de usuário e selecione a nova função.
+
+1. Repita a etapa anterior para remover aprovadores ou revisores adicionais.
+
+</div>
+
+
+## Remover aprovadores ou revisores de um fluxo de trabalho de aprovação na nova área de documento
+
+Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre armazenamento corporativo, consulte [Visão geral sobre armazenamento corporativo](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Para criar um workflow de aprovação:
+
+1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
+
+1. Clique no documento e, em seguida, clique no ícone **Aprovações**, no lado direito da página.
+
+   ![Adicionar aprovadores no resumo do documento](assets/approvals-icon-new.png)
+
+
+1. Clique em **Editar workflow**.
+
+1. Localize o participante que você deseja remover e clique no ícone **Remover** ao lado do nome.
+
+   A solicitação de aprovação ou revisão é removida e o aprovador recebe uma notificação de que sua aprovação não é mais necessária.
+
+1. (Opcional) Para alterar a função de um aprovador para um revisor, ou vice-versa, clique no menu suspenso ao lado do nome de usuário e selecione a nova função.
+
+1. Repita a etapa anterior para remover aprovadores ou revisores adicionais.
+
+   ![remover participantes de um estágio](assets/add-or-remove-participants.png)
+1. Clique em **Salvar**.

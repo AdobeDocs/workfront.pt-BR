@@ -6,10 +6,10 @@ description: Visão geral dos sistemas disponíveis para revisão e aprovação 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
+source-git-commit: e93f8662acb95029e4997ec270b23511d3e880dd
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 0%
+source-wordcount: '383'
+ht-degree: 1%
 
 ---
 
@@ -58,16 +58,18 @@ Para obter mais informações sobre como usar o visualizador de provas, consulte
 * Use os Painéis do Canvas, atualmente na versão beta, para exibir detalhes de relatórios sobre Aprovações unificadas
 Para obter mais informações sobre relatórios, consulte [Criar um painel de relatório para revisão e aprovações](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
-* Criar aprovações em vários estágios [!BADGE Em breve]{type=Informative}
+* Criar aprovações de vários estágios
 
 * Acessar solicitações de revisão e aprovação no widget Minhas aprovações na área Página inicial
+
+* Use a integração Frame.io para revisar e aprovar documentos. Para obter mais informações, consulte [Introdução à integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
 * Use o Revisor da IA para automatizar as revisões de conformidade da marca. Para obter mais informações, consulte [Introdução ao Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 
 ## Aprovações de provas
 
-Aprovações de provas permitem usar fluxos de trabalho básicos e automatizados para gerenciar processos complexos de revisão e aprovação. Para obter mais informações sobre revisões, consulte [Revisão](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/proofing-basics.md).
+Aprovações de provas permitem usar fluxos de trabalho básicos e automatizados para gerenciar processos complexos de revisão e aprovação. Para obter mais informações sobre provas, consulte [Provas](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/proofing-basics.md).
 
 Recursos disponíveis para revisão de texto:
 
@@ -88,7 +90,3 @@ Recursos disponíveis para revisão de texto:
 * Usar workflows básicos ou automatizados
 
 * Acessar solicitações de aprovação no widget Minhas aprovações na área Página inicial
-
-<!--
-## Upcoming deprecations
--->
