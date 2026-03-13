@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 93c22854ccc405c442331ac392d919d63b8a8aa8
+source-git-commit: 7bf762870af2bbc4f4889d66cf713d4533a30ff5
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 7%
+source-wordcount: '549'
+ht-degree: 8%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 7%
 
 Esta página descreve as melhorias de documentos feitas com a versão do segundo trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
-Para obter uma lista de todas as alterações disponíveis neste ponto do ciclo de lançamento do segundo trimestre de 2026, consulte [Visão geral da versão do segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2026, consulte [Visão geral da versão do Segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
 ## Revisão e aprovações unificadas possibilitadas pelo Workfront e Frame.io
 
-Estamos animados para apresentar a Revisão e Aprovação Unificada desenvolvida pelo Workfront e Frame.io, uma experiência simplificada de revisão e aprovação.
+Estamos animados em apresentar a Revisão e aprovação unificadas potencializadas pelo Workfront e Frame.io, uma experiência simplificada de revisão e aprovação.
 
-Esse novo recurso está disponível para novos clientes e para os clientes existentes no momento da renovação.
+Esse novo recurso está disponível para obter novos clientes e para clientes existentes após a renovação.
 
 ### Novidades
 
-#### Uma nova experiência de documentos
+#### Uma nova experiência com documentos
 
-Desfrute de uma experiência de documentos totalmente reinventada com uma aparência moderna. A interface atualizada simplifica a navegação, melhora a clareza e facilita o gerenciamento de revisões e aprovações por parte das equipes em um ambiente unificado. Para obter mais informações, consulte a [visão geral da área de documentos](/help/quicksilver/documents/managing-documents/documents-area.md).
+Desfrute de uma experiência de documentos totalmente reimaginada com aparência moderna. A interface atualizada simplifica a navegação, melhora a clareza e facilita o gerenciamento de revisões e aprovações por parte das equipes em um ambiente unificado. Para obter mais informações, consulte a [Visão geral da área Documentos](/help/quicksilver/documents/managing-documents/documents-area.md).
 
 #### Aprovações em vários estágios
 
@@ -38,23 +38,21 @@ Crie workflows de aprovação mais estruturados e sofisticados com aprovações 
 
 #### Revisar e aprovar conteúdo no Frame.io
 
-Revise e aprove conteúdo diretamente no visualizador do Frame.io e elimine a necessidade de alternar entre plataformas. Essa integração permite ciclos de feedback mais rápidos e mantém todas as atividades de revisão em um só lugar. Para obter mais informações, consulte [Introdução à integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Revise e aprove o conteúdo diretamente no visualizador Frame.io e elimine a necessidade de alternar entre plataformas. Essa integração permite ciclos de feedback mais rápidos e mantém todas as atividades de revisão em um único local. Para obter mais informações, consulte [Introdução à integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
 
 #### Conexão com o Adobe Experience Manager
 
-Envie com facilidade ativos aprovados diretamente para a Adobe Experience Manager. Essa integração ajuda a acelerar a ativação de conteúdo, conectando os fluxos de trabalho de revisão e aprovação ao gerenciamento de conteúdo downstream. Para obter mais informações, consulte [Usar o Adobe Experience Manager com a integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Envie ativos aprovados diretamente para a Adobe Experience Manager de maneira contínua. Essa integração ajuda a acelerar a ativação de conteúdo, conectando os workflows de revisão e aprovação ao gerenciamento de conteúdo downstream. Para obter mais informações, consulte [Usar o Adobe Experience Manager com a integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
-#### Acesso ao armazenamento corporativo de Adobe
+#### Acesso ao armazenamento corporativo da Adobe
 
-o armazenamento corporativo Adobe é uma solução de armazenamento baseada em nuvem que funciona como repositório central para ativos em produtos Adobe empresariais. A integração do Workfront com o Frame.io é baseada no armazenamento corporativo da Adobe, permitindo colaboração e gerenciamento de ativos ininterruptos entre essas plataformas.
+O armazenamento corporativo da Adobe é uma solução de armazenamento em nuvem que serve como repositório central para ativos em produtos corporativos da Adobe. A integração do Workfront com o Frame.io é baseada no armazenamento corporativo da Adobe, permitindo colaboração e gerenciamento de ativos ininterruptos entre essas plataformas.
 
 O acesso ao armazenamento corporativo da Adobe também prepara o caminho para futuras integrações de gerenciamento de ativos com outros produtos da Adobe, como o Adobe Creative Cloud.
 
 Para obter mais informações, consulte [visão geral do armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-O Workfront e o Frame.io ampliam o processo básico de revisão e aprovação do GenStudio for Performance Marketing com recursos de revisão e aprovação mais estruturados. As provas analisadas nessa integração estão limitadas aos formatos compatíveis com o GenStudio para Performance Marketing.
-
-## Fluxos de trabalho de aprovação em vários estágios disponíveis para aprovações unificadas
+## Fluxos de trabalho de aprovação de vários estágios disponíveis para aprovações unificadas
 
 >[!NOTE]
 >
@@ -62,7 +60,7 @@ O Workfront e o Frame.io ampliam o processo básico de revisão e aprovação do
 >Versão rápida de produção: quinta-feira, 15 de abril de 2026
 >Produção para todos: sexta-feira, 16 de abril de 2026
 
-Os fluxos de trabalho de aprovação em vários estágios agora estão disponíveis em aprovações unificadas, ajudando as organizações a aplicar processos de aprovação estruturados e repetíveis que refletem como o trabalho é revisado no mundo real. Com as aprovações em vários estágios, você pode:
+Os fluxos de trabalho de aprovação em vários estágios agora estão disponíveis em aprovações unificadas, ajudando as organizações a aplicar processos de aprovação estruturados e repetíveis que refletem como o trabalho é revisado no mundo real. Com aprovações de vários estágios, você pode:
 
 * Encaminhar trabalho por estágios sequenciais definidos
 * Atribua as pessoas ou equipes a cada estágio e escolha sua função de decisão
@@ -72,7 +70,7 @@ Os fluxos de trabalho de aprovação em vários estágios agora estão disponív
 
 Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovação de documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-## Configurar e usar modelos de fluxo de trabalho de aprovação em vários estágios
+## Configurar e usar modelos de fluxo de trabalho de aprovação de vários estágios
 
 >[!NOTE]
 >
@@ -80,7 +78,7 @@ Para obter mais informações, consulte [Criar um fluxo de trabalho de aprovaç�
 >Versão rápida de produção: quinta-feira, 15 de abril de 2026
 >Produção para todos: sexta-feira, 16 de abril de 2026
 
-Agora é possível configurar e reutilizar modelos de fluxo de trabalho de aprovação em vários estágios, facilitando a aplicação de controle consistente em fluxos de trabalho de aprovação repetíveis.
+Agora é possível configurar e reutilizar modelos de fluxo de trabalho de aprovação de vários estágios, facilitando a aplicação de governança consistente em fluxos de trabalho de aprovação repetíveis.
 
 Com os modelos de fluxo de trabalho de aprovação, é possível:
 
