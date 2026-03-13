@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: aceb9f7bd6c62036838b15d74ee2a9b7843e5c11
+source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 9%
+source-wordcount: '548'
+ht-degree: 8%
 
 ---
 
@@ -17,6 +17,22 @@ ht-degree: 9%
 Esta página descreve os aprimoramentos de relatórios feitos com a versão do segundo trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2026, consulte [Visão geral da versão do Segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Novas Opções de Autenticação para Conexão de Conexão de Dados
+
+>[!NOTE]
+>
+>Visualização: 12 de março de 2026
+>Versão rápida de produção: sexta-feira, 12 de março de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
+Agora você pode autenticar para a Conexão de dados usando chaves RSA ou conexões de tokens de acesso programático (PAT), adicionando alternativas mais seguras e flexíveis às credenciais tradicionais de nome de usuário/senha.
+
+Essas novas opções permitem que as organizações mantenham conexões estáveis do Power BI, Tableau e outras ferramentas de BI de terceiros sem depender de métodos de logon baseados no usuário.
+
+>[!IMPORTANT]
+>
+>Em junho de 2026, as credenciais de nome de usuário/senha serão necessárias para usar a autenticação multifator (MFA). Recomendamos a transição para autenticação baseada em RSA ou PAT para contas de usuário de serviço usadas para carregar dados do Data Connect para ferramentas de visualização, processadores de dados e scripts de terceiros que não funcionarão com MFA no processo de autenticação.
 
 ## Rótulos de campo personalizados exibidos ao criar relatórios
 
