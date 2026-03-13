@@ -2,22 +2,22 @@
 product-area: requests
 navigation-topic: create-requests
 title: Exibir solicitações enviadas
-description: Saiba mais sobre as áreas do Adobe Workfront em que você pode visualizar solicitações enviadas por você ou por outra pessoa, ou solicitações que você nunca enviou e que foram salvas como rascunhos.
+description: Saiba mais sobre as áreas do Adobe Workfront em que você pode exibir solicitações que você ou outra pessoa enviou ou solicitações que você nunca enviou e que foram salvas como rascunhos.
 author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1360'
 ht-degree: 6%
 
 ---
 
 # Visualizar solicitações enviadas
 
-Você pode exibir as solicitações que você ou outra pessoa submeteu, ou as solicitações que você iniciou, mas que você nunca terminou de submeter. As solicitações não concluídas são salvas como rascunhos.
+Você pode exibir as solicitações que você ou outra pessoa submeteu, ou as solicitações que você iniciou, mas nunca terminou de submeter. As solicitações não concluídas são salvas como rascunhos.
 
 Você pode localizar solicitações enviadas nas seguintes áreas do Adobe Workfront:
 
@@ -31,9 +31,9 @@ A área Solicitações exibe as seguintes solicitações, dependendo de como voc
 
   >[!NOTE]
   >
-  >* Você só pode exibir seus próprios rascunhos de solicitações.
-  >* Na nova experiência de solicitação, as solicitações e os rascunhos enviados estão na mesma lista.
-  >* Os rascunhos criados na experiência herdada não aparecem na nova experiência de solicitação.
+  >* Você só pode exibir suas próprias solicitações preliminares.
+  >* Na nova experiência de solicitação, as solicitações e os rascunhos enviados são encontrados na mesma lista.
+  >* Rascunhos criados na experiência herdada não aparecem na nova experiência de solicitação.
 
 ## Requisitos de acesso
 
@@ -45,7 +45,9 @@ A área Solicitações exibe as seguintes solicitações, dependendo de como voc
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer </p> </td> 
+   <td> <p>Qualquer pacote de Adobe Workfront ou Adobe Workflow</p> 
+   <p>Qualquer pacote do Adobe Workfront Planning</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -61,10 +63,12 @@ A área Solicitações exibe as seguintes solicitações, dependendo de como voc
    <td role="rowheader">Permissões de objeto</td> 
    <td><p>Exibir permissões ou superiores nas solicitações</p></td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"> Produto</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Você precisa ter o Adobe Workfront Planning para exibir solicitações ou formulários de solicitação do Planning</td> 
+  <!--
+  tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -81,7 +85,7 @@ A exibição de solicitações enviadas é diferente dependendo se você está u
 
 ### Exibir solicitações enviadas na nova experiência de solicitação
 
-Você pode exibir solicitações submetidas na área Solicitações, que inclui links para objetos criados por solicitações do Planning.
+Você pode exibir solicitações submetidas na área Solicitações, que inclui links para objetos criados por solicitações do Adobe Workfront Planning.
 
 >[!NOTE]
 >
@@ -107,9 +111,9 @@ Para exibir solicitações que você ou outros usuários enviaram na nova experi
    Para obter informações, consulte [Criar ou editar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 1. (Opcional) Verifique o status de uma solicitação verificando a coluna **Status**. Os seguintes status estão disponíveis na nova experiência de solicitação:
 
-   * **Rascunho**: Esta solicitação ainda não foi enviada.
-   * **Revisão Pendente**: (somente Planning) esta solicitação tem aprovadores e nenhum dos aprovadores abriu a solicitação.
-   * **Em Revisão**: (somente Planning) essa solicitação tem aprovadores e pelo menos um aprovador abriu a solicitação, mas nenhuma decisão foi tomada.
+   * **Rascunho**: esta solicitação ainda não foi enviada.
+   * **Revisão pendente**: (somente Planning) esta solicitação tem aprovadores e nenhum dos aprovadores abriu a solicitação.
+   * **Em Revisão**: (somente Planning) esta solicitação tem aprovadores e pelo menos um aprovador abriu a solicitação, mas nenhuma decisão foi tomada.
    * **Rejeitada**: (somente Planning) esta solicitação tem aprovadores e foi rejeitada. Esta solicitação não criará um registro.
    * **Em andamento**:
       * Solicitações do Workfront: a solicitação foi convertida e o trabalho está em andamento.
@@ -132,13 +136,13 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
 1. (Condicional) Se sua organização adquiriu um pacote do Workfront Planning, clique na guia **Workfront** para exibir as solicitações do Workfront.
 1. Clique em **Enviado** no painel esquerdo para exibir todas as solicitações enviadas.
 
-   É possível exibir até 2000 solicitações, que podem ser exibidas em várias páginas.
+   Você pode exibir até 2.000 solicitações e elas podem ser exibidas em várias páginas.
 
    >[!TIP]
    >
-   >Não é possível personalizar as colunas na lista Solicitação enviada.
+   >Não é possível personalizar as colunas na lista de solicitações Enviadas.
 
-   ![Solicitações enviadas: nova lista](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![Nova lista de solicitações enviadas](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. As seguintes colunas são exibidas por padrão:
@@ -155,11 +159,11 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
    </tr> 
       <tr> 
          <td role="rowheader">Convertido para</td> 
-         <td> <p>O nome do objeto de resolução que pode ser uma tarefa ou um projeto para o qual a solicitação foi convertida. </p> <p>Clique no nome da tarefa ou do projeto para abri-los. </p> <p>Se a solicitação não foi convertida, esse campo fica vazio. </p> </td> 
+         <td> <p>O nome do objeto de resolução que pode ser uma tarefa ou um projeto para o qual a solicitação foi convertida. </p> <p>Clique no nome da tarefa ou do projeto para abri-los. </p> <p>Se a solicitação não foi convertida, este campo estará vazio. </p> </td> 
       </tr> 
       <tr> 
          <td role="rowheader">Caminho</td> 
-         <td>O nome da fila de solicitações, dos grupos de tópicos e dos tópicos da fila em que a solicitação foi originalmente enviada. </td> 
+         <td>O nome da fila de solicitações, dos grupos de tópicos e dos tópicos da fila em que a solicitação foi enviada originalmente. </td> 
       </tr> 
       <tr> 
          <td role="rowheader">Status</td> 
@@ -167,7 +171,7 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
       </tr> 
       <tr> 
          <td role="rowheader">Data de Entrada</td> 
-         <td>A data em que a solicitação foi enviada ou a data em que o objeto de resolução foi criado se a solicitação foi excluída quando convertida. </td> 
+         <td>A data em que a solicitação foi enviada ou a data em que o objeto de resolução foi criado, caso a solicitação tenha sido excluída quando convertida. </td> 
       </tr> 
       <tr> 
          <td role="rowheader">Data da última atualização</td> 
@@ -188,7 +192,7 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
    >
    >Se o painel Resumo já estiver aberto, o ícone Abrir resumo será alterado para Fechar resumo.
 
-1. (Opcional e condicional) Clique no ícone **X** no canto superior direito ou no ícone **Fechar resumo** com texto![&#x200B; para fechar o Painel de Resumo.](assets/close-summary-with-text-nwe.png)
+1. (Opcional e condicional) Clique no ícone **X** no canto superior direito ou no ícone **Fechar resumo** com texto![ para fechar o Painel de Resumo.](assets/close-summary-with-text-nwe.png)
 
    Se um problema tiver sido convertido em uma tarefa ou projeto e tiver sido excluído no processo de conversão, o Painel de resumo ficará em branco. Para obter informações sobre a conversão de problemas, consulte [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 

@@ -6,10 +6,10 @@ description: Se estiver usando a nova experiência de solicitação, é possíve
 author: Alina
 feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
 workflow-type: tm+mt
 source-wordcount: '963'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -19,9 +19,6 @@ ht-degree: 7%
 <span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
 <span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
-
-
 
 
 Se estiver usando a nova experiência de solicitação no Adobe Workfront, você pode criar e salvar exibições para a área Solicitações. Essas exibições incluem filtros e organização de colunas.
@@ -47,7 +44,10 @@ Se estiver usando a nova experiência de solicitação no Adobe Workfront, você
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer </p> </td> 
+   <td> <p>Qualquer pacote do Workfront ou Workflow</p>
+
+<p>Qualquer licença do Workfront Planning, para exibir solicitações do Workfront Planning em listas de solicitações</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -59,10 +59,12 @@ Se estiver usando a nova experiência de solicitação no Adobe Workfront, você
    <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a ocorrências</p>  <p>Você deve ser um administrador do Workfront para adicionar exibições a modelos de layout</td> 
   </tr> 
+  <!--
   <tr> 
-   <td role="rowheader"> Produto</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Você precisa ter o Adobe Workfront Planning para exibir solicitações ou formulários de solicitação do Planning</td> 
-  </tr> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
+   </tr> 
+   -->
  </tbody> 
 </table>
 
