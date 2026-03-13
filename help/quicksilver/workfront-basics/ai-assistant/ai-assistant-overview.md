@@ -5,10 +5,10 @@ description: Saiba mais sobre o Assistente de IA no Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 2619aa432a8c0b12d0d910df8eb05447fa50f387
+source-git-commit: 418ea6e9728cb0e8d178fa201ece35328547eedb
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 99%
+source-wordcount: '856'
+ht-degree: 97%
 
 ---
 
@@ -140,7 +140,8 @@ Para solicitar o contrato de IA generativa da Adobe:
 
    >[!NOTE]
    >
-   >Aguarde de 1 a 3 dias úteis após a assinatura e a devolução do contrato para que a Adobe revise e habilite o Assistente de IA.
+   >* Aguarde de 1 a 3 dias úteis após a assinatura e a devolução do contrato para que a Adobe revise e habilite o Assistente de IA.
+   >* Se você não vir as opções do Assistente de IA disponíveis na instância de sua organização após sua ativação, entre em contato com o suporte ao cliente da Workfront.
 
 ## Dicas para criar prompts no Assistente de IA
 
