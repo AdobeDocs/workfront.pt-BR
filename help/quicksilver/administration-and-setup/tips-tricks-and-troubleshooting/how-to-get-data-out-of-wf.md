@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: bbd00374a6b291582cd03b9d0471d8547eb6ab7f
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,7 @@ O [!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com)) tem um ap
 
 * **Custos:** Para obter mais informações, vá para [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/).
 
-## Solicitar um arquivo de despejo de dados [!DNL Postgres] da nossa equipe do banco de dados
 
-Você deve enviar uma solicitação para nossa equipe de Suporte ao cliente, que enviará uma solicitação para nossa equipe de banco de dados para exportar um arquivo de despejo de banco de dados (arquivo .dmp [!DNL Postgres]) com seus dados. Uma solicitação adicional será encaminhada à nossa equipe de NOC para recuperar todos os documentos armazenados.
-
-* **Vantagens**: você obtém toda a sua carga de dados, incluindo campos personalizados, bem como documentos que são armazenados no sistema.
-
-* **Contras**: Não há uma maneira de ler este arquivo, a menos que você carregue-o para um banco de dados [!DNL Postgres] e restabeleça as relações entre as tabelas. Os documentos são armazenados em um servidor de arquivos separado e devem ser extraídos separadamente usando um processo separado pela equipe do NOC. Ao fazer isso, não há organização para os documentos e todos são referenciados por seu GUID.
-
-* **Custo**: há um custo associado a este download dependendo do tempo que a equipe leva para criar o arquivo. Consulte seu AE/CAE para obter mais informações ou para iniciar esse processo.
 
 ## Exportar via [!UICONTROL Kick-Starts]
 
