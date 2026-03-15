@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Formatar datas em relatórios do modo texto
 description: As datas podem ser configuradas para serem exibidas em vários formatos em relatórios e listas no Adobe Workfront. Para estabelecer um formato de data, você deve modificar a linha valueformat do código do modo de texto na coluna.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '198'
+ht-degree: 6%
 
 ---
 
@@ -40,7 +40,7 @@ Você pode formatar datas usando os seguintes `valueformat` valores do modo de t
 | **Formato** | Exemplo  | ***valueformat=*** |
 |---|---|---|
 | DD/MM/AA | 11/10/18 | `atDate` |
-| Hora MM/DD/AA | 11/10/18 12h | `longAtDate` |
+| Hora MM/DD/AA | 11/10/18 12:00pm | `longAtDate` |
 | DD/MM/AA | 11/10/18 | `shortAtDate` |
 | Mês, DD, ANO | 11 de outubro de 2018 | `mediumAtDate` |
 | DW, Mês, Dia, YR | Seg, 11 de outubro de 2018 | `partialAtDate` |

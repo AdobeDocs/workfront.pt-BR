@@ -1,20 +1,20 @@
 ---
 title: Aprimoramentos do projeto do segundo trimestre de 2025
 description: Aprimoramentos do projeto do segundo trimestre de 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
-source-git-commit: beb3c8052264036c455288327a20acad66d27570
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 # Aprimoramentos no gerenciamento de documentos do segundo trimestre de 2025
 
-Esta página descreve todas as melhorias de gerenciamento de documentos feitas com a versão do Segundo trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve todas as melhorias de gerenciamento de documentos feitas com a versão do Segundo trimestre de 2025 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2025, consulte [Visão geral da versão do Segundo trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
@@ -51,7 +51,7 @@ O Desktop Proofing Viewer foi atualizado para a versão 2.1.45. Essa atualizaç�
 * Elétron versão 35
 * Crômio versão 134
 
-Essa atualização é para Mac e Windows.
+Esta atualização é para Mac e Windows.
 
 ## Editar vários documentos de uma só vez em um Relatório de documentos
 

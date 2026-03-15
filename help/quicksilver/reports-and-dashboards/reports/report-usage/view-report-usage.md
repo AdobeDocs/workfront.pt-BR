@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: report-usage
 title: Visualizar uso do relatório
 description: Visualizar uso do relatório
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ Para obter mais informações sobre quais campos você pode filtrar um relatóri
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ Para obter mais informações sobre quais campos você pode filtrar um relatóri
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano </p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ Para obter mais informações sobre quais campos você pode filtrar um relatóri
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

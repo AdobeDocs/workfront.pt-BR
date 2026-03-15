@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Editar um painel
 description: O objetivo do painel é fornecer acesso rápido às informações. Você pode preencher um painel com relatórios, calendários e páginas externas.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 <!-- Audited: 1/2025 -->
 
-O objetivo do painel é fornecer acesso rápido às informações. Você pode preencher um painel com os seguintes itens no Adobe Workfront:
+O objetivo do painel é fornecer acesso rápido às informações. Você pode preencher um painel de controle com os seguintes itens no Adobe Workfront:
 
 * Relatórios
 
@@ -35,7 +35,7 @@ Quando você compartilha um painel com os usuários, todos os relatórios e pág
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 
 <table style="table-layout:auto"> 
@@ -49,7 +49,7 @@ Quando você compartilha um painel com os usuários, todos os relatórios e pág
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-      <p>Standard</p>
+      <p>Padrão</p>
       <p>Plano</p>
    </td> 
   </tr> 
@@ -64,7 +64,7 @@ Quando você compartilha um painel com os usuários, todos os relatórios e pág
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,7 +94,7 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
 
    >[!NOTE]
    >
-   >Ao pesquisar por um item, a pesquisa retorna qualquer um dos 2.000 relatórios criados mais recentemente. Os nomes de relatório que incluem caracteres unicode não são retornados nos resultados da pesquisa. Como prática recomendada, evite incluir caracteres unicode ao nomear objetos no Workfront digitando nomes em vez de copiar e colar nomes de outra fonte.
+   >Ao procurar um item, a pesquisa retorna qualquer um dos 2.000 relatórios criados mais recentemente. Nomes de relatório que incluem caracteres unicode não são retornados nos resultados da pesquisa. Como prática recomendada, evite incluir caracteres unicode ao nomear objetos no Workfront digitando nomes em vez de copiar e colar nomes de outra origem.
 
 1. (Opcional) Selecione um novo layout para o painel clicando em um botão de opção correspondente ao layout desejado.
 1. (Opcional) Passe o mouse sobre o nome de um relatório existente e clique no ícone da lixeira para removê-lo do painel.

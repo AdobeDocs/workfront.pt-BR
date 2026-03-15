@@ -1,36 +1,36 @@
 ---
 title: Melhorias na página inicial do primeiro trimestre de 2025
-description: Aprimoramentos nas prioridades do primeiro trimestre de 2025
-author: Nolan
+description: Melhorias nas prioridades do primeiro trimestre de 2025
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# Aprimoramentos nas prioridades do primeiro trimestre de 2025
+# Melhorias nas prioridades do primeiro trimestre de 2025
 
-Esta página descreve todas as melhorias nas Prioridades feitas com a versão do Primeiro trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve todos os aprimoramentos de Prioridades feitos na versão do Primeiro Trimestre de 2025 para o ambiente de Visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
-Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2025, consulte [Visão geral da versão do Primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do primeiro trimestre de 2025, consulte [Visão geral de lançamentos do primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
-## Visão geral das melhorias nas prioridades
+## Visão geral dos aprimoramentos de prioridades
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-Consulte o [Vídeo de demonstração de aprimoramentos de prioridades](#priorities-enhancements-demo-video) abaixo para obter uma demonstração completa dos recursos incluídos nesta visão geral.
+Consulte [Vídeo de demonstração de aprimoramentos de prioridades](#priorities-enhancements-demo-video) abaixo para obter uma demonstração completa dos recursos incluídos nesta visão geral.
 
-## Use os Filtros inteligentes para encontrar seu trabalho nas Prioridades
+## Use filtros inteligentes para localizar seu trabalho em Prioridades
 
 >[!NOTE]
 >
->Versão de pré-visualização: 9 de janeiro de 2025; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
+>Versão prévia: 9 de janeiro de 2025; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
 
-Use a linguagem natural para filtrar rapidamente o trabalho na lista de trabalho Prioridades. Você pode digitar coisas como
+Use linguagem natural para filtrar rapidamente o trabalho na lista de trabalho Prioridades. Você pode digitar coisas como
 
 * Mostrar tarefas atrasadas
 * Mostrar tarefas com vencimento nesta semana
@@ -40,25 +40,25 @@ Disponível somente para instâncias habilitadas para IMS.
 
 Para obter mais informações, consulte [Filtrar e agrupar seu trabalho com Prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
-## Recuperar o trabalho nas prioridades
+## Recuperar o trabalho em Prioridades
 
 >[!NOTE]
 >
 >Versão de pré-visualização: 20 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
 >
->_Este recurso só está disponível para clientes na Experiência de Adobe unificada usando o Assistente de IA._
+>_Este recurso só está disponível para clientes na Experiência unificada do Adobe usando o Assistente de IA._
 
 Você pode usar Capch me up para ajudar a reduzir a quantidade de tempo procurando informações sobre projetos ativos.
 
 Desenvolvido pelo Assistente de IA da Workfront, o recurso Catch me resume atualizações, documentos carregados e outras alterações importantes sobre seus projetos nos seguintes intervalos de tempo: 24 horas, 3 dias ou 7 dias.
 
-Para obter mais informações, consulte [Acompanhar o trabalho em Prioridades](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+Para obter mais informações, consulte [Atualize-se sobre o trabalho em Prioridades](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-## Exibir alterações em tempo real na página Detalhes em Prioridades
+## Veja as alterações em tempo real na página Detalhes em Prioridades
 
 >[!NOTE]
 >
->Versão de pré-visualização: 19 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
+>Versão prévia: 19 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
 
 Agora você pode exibir atualizações em tempo real na página Detalhes de uma tarefa ou problema. Você também pode ver se outros estão visualizando a página ao mesmo tempo que você com indicadores de presença em tempo real.
 
@@ -68,9 +68,9 @@ Para obter mais informações, consulte [Exibir detalhes do projeto e da tarefa 
 
 >[!NOTE]
 >
->Versão de pré-visualização: 19 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
+>Versão prévia: 19 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
 
-Agora você pode interagir com documentos e provas para tarefas e problemas na lista de trabalho e no calendário. Na nova guia Documentos, é possível
+Agora você pode interagir com documentos e revisões de tarefas e ocorrências na lista de trabalho e no calendário. Na nova guia Documentos, é possível
 
 * Fazer upload de um documento
 * Criar uma prova
@@ -94,18 +94,18 @@ Agora você pode acompanhar seu trabalho com um calendário visual e claro. Com 
 
 Para obter mais informações, consulte [Gerenciar seu trabalho no calendário de Prioridades](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
 
-## Atualizações na lista de trabalho de prioridades
+## Atualizações da lista de trabalho Prioridades
 
 >[!NOTE]
 >
->Versão de pré-visualização: 12 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
+>Versão prévia: 12 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
 
 Atualizamos a lista de trabalho de Prioridades para melhorar os recursos e alinhar com outras áreas do aplicativo.
 
 ### Alterações visuais
 
 * As opções de filtro, exibições e agrupamento agora aparecem no lado esquerdo do cabeçalho da lista de trabalho
-* Nova busca por menus suspensos de coluna e agrupamento
+* Nova aparência para menus suspensos de coluna e agrupamento
 * Número total de itens de lista agora no canto inferior direito da lista de trabalho
 * Nova barra de pesquisa expandida no lado direito do cabeçalho da lista de trabalho
 
@@ -124,13 +124,13 @@ Para obter mais informações, consulte [Filtrar e agrupar seu trabalho com Prio
 
 * Não é mais possível criar tarefas e problemas diretamente na lista de trabalho. Você deve usar o botão Criar novo no canto superior direito de Prioridades.
 
-## Acesse a página Detalhes de um projeto em Prioridades
+## Navegue até a página Detalhes de um projeto em Prioridades
 
 >[!NOTE]
 >
->Versão de pré-visualização: 5 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
+>Versão prévia: 5 de dezembro de 2024; Versão de produção para todos os clientes: com a versão 25.1 (16 de janeiro de 2025)
 
-Agora você pode navegar diretamente para um projeto no Workfront a partir da lista de trabalho Prioridades.
+Agora, você pode ir diretamente para um projeto no Workfront a partir da lista de trabalho Prioridades.
 
 Para obter mais informações, consulte [Exibir detalhes do projeto e da tarefa na lista de trabalho Prioridades](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
 
@@ -138,9 +138,9 @@ Para obter mais informações, consulte [Exibir detalhes do projeto e da tarefa 
 
 >[!NOTE]
 >
->Versão de pré-visualização: 14 de novembro de 2024; Versão de produção para todos os clientes: 14 de novembro de 2024
+>Versão prévia: 14 de novembro de 2024; Versão de produção para todos os clientes: 14 de novembro de 2024
 
-Atualizamos as opções na coluna Meu foco para ajudá-lo a priorizar e classificar seu trabalho de uma maneira mais intuitiva. Os novos rótulos incluem
+Atualizamos as opções na coluna Meu foco para ajudar você a priorizar e classificar seu trabalho de maneira mais intuitiva. Os novos rótulos incluem
 
 * Urgente
 * Alta

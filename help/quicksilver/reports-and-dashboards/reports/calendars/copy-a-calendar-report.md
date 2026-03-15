@@ -2,28 +2,28 @@
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Copiar um Relatório de Calendário
-description: Se você criou um calendário, é possível copiar o calendário e usá-lo como ponto de partida para um novo calendário.
-author: Jenny
+description: Se você criou um calendário, pode copiá-lo e usá-lo como ponto de partida para um novo calendário.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
 # Copiar um relatório de calendário
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
+<span class="preview">As informações destacadas nesta página se referem a funcionalidades que ainda não estão disponíveis no geral. Está disponível apenas no ambiente de Sandbox de Visualização.</span>
 
-Se você criou um calendário, é possível copiar o calendário e usá-lo como ponto de partida para um novo calendário.
+Se você criou um calendário, pode copiá-lo e usá-lo como ponto de partida para um novo calendário.
 
-Além disso, se você tiver o acesso de [!UICONTROL Gerenciar] a um calendário para o qual não é o proprietário, poderá copiar o calendário e se tornar o proprietário do calendário copiado.
+Além disso, se você tiver acesso de [!UICONTROL Gerenciamento] a um calendário do qual não é o proprietário, poderá copiá-lo e se tornar o proprietário do calendário copiado.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,12 +37,12 @@ Além disso, se você tiver o acesso de [!UICONTROL Gerenciar] a um calendário 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p> Editar acesso a relatórios, painéis e calendários</p></td> 
+   <td> <p> Acesso de edição a relatórios, painéis e calendários</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -51,7 +51,7 @@ Além disso, se você tiver o acesso de [!UICONTROL Gerenciar] a um calendário 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,15 +60,15 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Vá para o calendário que deseja copiar.
 1. Clique no menu **Mais** ao lado do menu suspenso Calendário.
-   ![menu de calendário a mais](assets/more-menu-calendar.png)
+   ![menu Calendário a mais](assets/more-menu-calendar.png)
 
-1. Selecione **[!UICONTROL Copiar]** na lista suspensa. O calendário é copiado e você é direcionado à nova cópia.
+1. Selecione **[!UICONTROL Copiar]** na lista suspensa. O calendário é copiado e você é direcionado para a nova cópia.
 
 
    >[!NOTE]
    >
-   >Todos os projetos e agrupamentos do calendário original são exibidos na cópia do calendário. Somente objetos colocados por filtros de calendário são exportados para o calendário recém-copiado. Todos os eventos adicionados manualmente ao calendário original devem ser adicionados manualmente ao calendário copiado.
+   >Todos os projetos e agrupamentos de calendários no calendário original são exibidos na cópia do calendário. Somente os objetos colocados pelos filtros de calendário são exportados para o calendário recém-copiado. Todos os eventos adicionados manualmente ao calendário original devem ser adicionados manualmente ao calendário copiado.
    >
    >Somente você tem acesso ao calendário copiado. Os usuários com acesso ao calendário original não têm acesso ao calendário copiado. Você pode conceder acesso ao calendário recém-criado compartilhando-o com outros usuários. Para saber mais sobre o compartilhamento de calendários, consulte [[!UICONTROL Compartilhar um calendário] relatório](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
-1. (Opcional) Para alterar o nome do relatório de calendário, clique em **Renomear**, ao lado do menu suspenso do calendário.
+1. (Opcional) Para alterar o nome do relatório de calendário, clique em **Renomear** ao lado do menu suspenso de calendário.

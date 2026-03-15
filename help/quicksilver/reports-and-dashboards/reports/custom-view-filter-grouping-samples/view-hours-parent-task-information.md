@@ -2,29 +2,29 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Exibição: Horas com Informações sobre Tarefa Pai'
-description: Esta exibição de hora exibe o nome da tarefa em que as horas foram registradas, bem como o nome da tarefa pai.
-author: Nolan
+title: 'Exibir: Horas com Informações sobre Tarefa Pai'
+description: Essa exibição de hora exibe o nome da tarefa na qual as horas foram registradas, bem como o nome da tarefa pai.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c24555fc-3bae-451b-8a44-28a8158199d1
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# Exibir: horas com informações da tarefa pai
+# Exibição: horas com informações de tarefas-pai
 
 <!--Audited: 11/2024-->
 
-Esta exibição de hora exibe o nome da tarefa em que as horas foram registradas, bem como o nome da tarefa pai.
+Essa exibição de hora exibe o nome da tarefa na qual as horas foram registradas, bem como o nome da tarefa pai.
 
 ![custom_hour_view_with_task_and_parent_task_info.png](assets/custom-hour-view-with-task-and-parent-task-info-350x55.png)
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,12 +37,12 @@ Esta exibição de hora exibe o nome da tarefa em que as horas foram registradas
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou Solicitação para modificar uma exibição </p>
+   <p>Colaborador ou Solicitação de modificação de uma exibição </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
+   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Acesso de edição a filtros, visualizações, agrupamentos para modificar uma visualização</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -51,20 +51,20 @@ Esta exibição de hora exibe o nome da tarefa em que as horas foram registradas
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
 
 ## Exibir horas com informações da tarefa pai
 
-1. Ir para uma lista de horas.
-1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
+1. Vá para uma lista de horas.
+1. No menu suspenso **Exibição**, selecione **Nova Exibição**.
 
-1. Na área **Visualização da coluna**, elimine todas as colunas, exceto uma.
-1. Clique no cabeçalho da coluna restante e em **Alternar para Modo de Texto**.
+1. Na área **Visualização de coluna**, elimine todas as colunas, exceto uma.
+1. Clique no cabeçalho da coluna restante e clique em **Alternar para o Modo de Texto**.
 1. Clique em **Editar Modo de Texto**.
-1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
+1. Remova o texto encontrado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
 
 

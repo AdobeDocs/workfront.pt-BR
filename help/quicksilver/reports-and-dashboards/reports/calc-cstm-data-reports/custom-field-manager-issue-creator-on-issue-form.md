@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: 'Exemplo de campo personalizado calculado: exibir o gerente do criador de um problema no formulário personalizado de problema'
+title: 'Exemplo de campo personalizado calculado: exibir o gerenciador do criador de um problema no formulário personalizado do problema'
 description: Usando um campo personalizado calculado, você pode exibir o nome do gerente do criador de um problema em um formulário personalizado anexado ao problema. Usando a mesma instrução, é possível construir campos calculados semelhantes para projetos, problemas e outros objetos.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
-# Exemplo de campo personalizado calculado: exibir o gerente do criador de um problema no formulário personalizado de problema
+# Exemplo de campo personalizado calculado: exibir o gerenciador do criador de um problema no formulário personalizado do problema
 
 Usando um campo personalizado calculado, você pode exibir o nome do gerente do criador de um problema em um formulário personalizado anexado ao problema. Usando a mesma instrução, é possível construir campos calculados semelhantes para projetos, problemas e outros objetos.
 
@@ -26,7 +26,7 @@ Usando um campo personalizado calculado, você pode exibir o nome do gerente do 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Usando um campo personalizado calculado, você pode exibir o nome do gerente do 
   <tr> 
    <td> <p>Licença do Adobe Workfront</p> </td> 
    <td>
-      <p>Standard</p>
+      <p>Padrão</p>
       <p>Plano</p></td>
   </tr> 
   <tr> 

@@ -1,26 +1,26 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Criar instruções "OR" em filtros do modo de texto
+title: Criar instruções “OR” em filtros do modo de texto
 description: É possível incluir várias instruções ao criar um filtro em listas e relatórios.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Criar instruções &quot;OR&quot; em filtros do modo de texto
+# Criar instruções “OR” em filtros do modo de texto
 
 É possível incluir várias instruções ao criar um filtro em listas e relatórios.
 
 Para obter informações sobre como criar filtros, consulte os seguintes artigos:
 
-* [Visão geral dos filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Editar um filtro usando o modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [Visão geral dos Filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Editar um filtro usando o modo texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 
 ## Operadores de filtro do Modo de texto
 

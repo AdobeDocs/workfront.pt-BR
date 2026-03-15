@@ -1,21 +1,21 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: "Painéis do Canvas beta: atividade de lançamento"
+title: 'Painéis de tela na versão beta: atividade de lançamento'
 description: Atividade de lançamento semanal para a versão beta dos Painéis do Adobe Workfront Canvas
-author: Nolan
+author: Courtney
 feature: Product Announcements
 hidefromtoc: true
 hide: true
 exl-id: f52e23c3-9a9a-458f-bb74-bb21b4b7656a
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Painéis do Canvas beta: atividade de lançamento
+# Painéis de tela na versão beta: atividade de lançamento
 
 Esta página lista as atualizações de desenvolvimento lançadas semanalmente para a versão beta dos Painéis de controle do Canvas.
 

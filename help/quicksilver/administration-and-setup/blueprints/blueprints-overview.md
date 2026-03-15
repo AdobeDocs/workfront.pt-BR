@@ -5,14 +5,14 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Visão geral de blueprints
 description: Blueprints são conjuntos de objetos do Workfront que abordam casos de uso comuns no Workfront. Você pode baixar e instalar um blueprint e, em seguida, configurar os objetos para seu caso de uso específico.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-Blueprints são conjuntos de objetos do Workfront que abordam casos de uso comuns no Workfront. Você pode baixar e instalar um blueprint e, em seguida, configurar os objetos para seu caso de uso específico.
+Blueprints são conjuntos de objetos do Workfront que abordam casos de uso comuns no Workfront. Você pode baixar e instalar um esquema e depois configurar os objetos para seu caso de uso específico.
 
 ![Página principal de blueprints](assets/blueprints-main-page-catalog.png)
 
@@ -34,22 +34,22 @@ Blueprints são conjuntos de objetos do Workfront que abordam casos de uso comun
 >
 >* **Adicionar nova lista de verificação de TI do funcionário**
 >
->   Este blueprint contém um modelo para organizar novas atividades de integração de funcionários. A utilização desse modelo permite que as equipes de TI operem com eficiência, resultando em uma nova experiência de funcionário positiva e em um caminho mais rápido para a produtividade.
+>   Esse esquema contém um modelo para organizar as atividades de integração de novos funcionários. O uso desse modelo permite que as equipes de TI operem com eficiência, gerando uma nova experiência positiva de funcionário e um rastreamento mais rápido da produtividade.
 >
->* **Noções básicas de instância herdada | Lista de verificação**
+>* **Noções Básicas de Instância Herdada | Lista de verificação**
 >
->    Este blueprint contém um modelo de projeto (ou lista de verificação) que pode ser revisado com uma pequena lista de perguntas, recursos e links para compreender claramente como a instância do Workfront foi configurada. Use-a quando tiver herdado recentemente uma instância do Workfront e precisar de orientação sobre onde começar.
+>    Esse esquema contém um modelo de projeto (ou lista de verificação) que você pode revisar com uma pequena lista de perguntas, recursos e links para ter uma compreensão clara de como sua instância do Workfront foi configurada. Use essa opção quando tiver herdado recentemente uma instância do Workfront e precisar de orientação sobre por onde começar.
 >
->Para examinar os blueprints atuais, consulte [Lista de blueprints disponíveis](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+>Para analisar os blueprints atuais, consulte [Lista de blueprints disponíveis](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
 
-Os blueprints fornecem blocos de construção básicos para ajudá-lo a criar um sistema de gerenciamento de trabalho que cresce com você. Os administradores do sistema podem navegar pelo catálogo de blueprints e instalar modelos de projeto, painéis e estruturas organizacionais prontos para uso. Outros usuários podem navegar no catálogo e solicitar a instalação de um blueprint. Para obter mais informações, consulte [Procurar o catálogo de blueprints e solicitar a instalação de blueprints](../../administration-and-setup/blueprints/browse-catalog.md).
+Os blueprints fornecem blocos de construção básicos para ajudá-lo a criar um sistema de gerenciamento de trabalho que cresce com você. Os administradores do sistema podem navegar pelo catálogo de blueprints e instalar modelos de projeto, painéis de controle e estruturas organizacionais prontos para usar. Outros usuários podem navegar no catálogo e solicitar a instalação de um esquema. Para obter mais informações, consulte [Navegar pelo catálogo de blueprints e solicitar instalação de blueprints](../../administration-and-setup/blueprints/browse-catalog.md).
 
-Cada blueprint destina-se a um departamento e a um nível de maturidade específico para ajudá-lo a implementar práticas recomendadas comprovadas em seu sistema com mais rapidez. Os níveis de maturidade detalhados abaixo são indicados no cartão de catálogo do blueprint e nos detalhes.
+Cada esquema é destinado a um departamento e a um nível de maturidade específico para ajudá-lo a implementar práticas recomendadas comprovadas em seu sistema com mais rapidez. Os níveis de maturidade detalhados abaixo estão indicados no cartão do catálogo de blueprint e nos detalhes.
 
-* **[!UICONTROL Gerenciados]:** os modelos de projeto gerenciados ajudam a apoiar a adoção de um novo processo de negócios antes que as atividades e os resultados sejam totalmente aceitos como um procedimento padrão. Eles contêm tarefas para garantir que cada etapa do novo processo seja seguida.
+* **[!UICONTROL Gerenciados]:** os modelos de projeto gerenciados ajudam a apoiar a adoção de um novo processo empresarial antes que as atividades e os resultados sejam totalmente aceitos como um procedimento padrão. Eles contêm tarefas para garantir que cada etapa do novo processo seja seguida.
 
-* **[!UICONTROL Integrado]:** os modelos de projeto integrado assumem que as funções empresariais são suportadas por meio de um procedimento operacional padrão. Os colaboradores do processo conhecem as etapas e as tarefas necessárias para acompanhar o processo. Os modelos de projeto para dar suporte a esse processo contêm menos tarefas para rastrear apenas marcos e outros materiais de entrega importantes necessários para fins de relatório.
+* **[!UICONTROL Integrados]:** os modelos de projeto integrados presumem que há suporte para as funções empresariais por meio de um procedimento operacional padrão. Os colaboradores do processo conhecem as etapas e as tarefas necessárias para acompanhar o processo. Os modelos de projeto para dar suporte a esse processo contêm menos tarefas para rastrear apenas marcos e outros materiais de entrega importantes necessários para fins de relatório.
 
 ## Encontrar o blueprint correto
 
@@ -57,7 +57,7 @@ Você pode consultar blueprints por caso de uso, nível de maturidade, status de
 
 ### Tipos de blueprint
 
-O tipo de blueprint mostra o que está incluído no blueprint. O tipo está listado na parte inferior do cartão de blueprint no catálogo. Observe que um blueprint pode ter mais de um tipo.
+O tipo de esquema mostra o que está incluído no esquema. O tipo está listado na parte inferior do cartão de blueprint no catálogo. Observe que um blueprint pode ter mais de um tipo.
 
 Os seguintes tipos de blueprints estão disponíveis:
 
@@ -70,19 +70,19 @@ Os seguintes tipos de blueprints estão disponíveis:
 * Setup features: Includes one or more elements that are configured in the Setup area of Workfront, such as layout templates.
 -->
 
-Para examinar os blueprints atuais, consulte [Lista de blueprints disponíveis](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+Para analisar os blueprints atuais, consulte [Lista de blueprints disponíveis](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
 ### Exibir detalhes
 
-Cada blueprint contém uma página de detalhes. Nessa página, é possível:
+Cada esquema contém uma página Detalhes. Nesta página, você pode:
 
 * Exibir um resumo do conteúdo do fluxo de trabalho
-* Leia um breve resumo do blueprint
-* Exibir histórico de instalação (clique em **[!UICONTROL Ver detalhes]** para ver a lista completa de objetos instalados com o blueprint)
-* Consulte descrições de função, equipe, empresa e grupo
-* Veja um exemplo visual do blueprint específico, como um modelo de projeto (você pode visualizar a imagem completa no navegador ou baixá-la)
+* Leia um breve resumo do plano
+* Exibir histórico de instalação (clique em **[!UICONTROL Ver Detalhes]** para ver a lista completa de objetos instalados com o esquema)
+* Veja as descrições de função, equipe, empresa e grupo
+* Veja um exemplo visual do esquema específico, como um modelo de projeto (você pode visualizar a imagem completa no navegador ou baixá-la)
 
-![[!UICONTROL Detalhes do blueprint] página](assets/blueprint-details-page-2022.png)
+![[!UICONTROL Detalhes do plano] página](assets/blueprint-details-page-2022.png)
 
 ## Instalar um blueprint
 
@@ -92,8 +92,8 @@ Após a instalação, você pode não ter certeza sobre as melhores ações a se
 
 ## Observações adicionais sobre blueprints e modelos
 
-Blueprints não substituem a funcionalidade de modelos de projeto em [!DNL Adobe Workfront]. Os blueprints são uma maneira de criar novos modelos mais rapidamente para organizar mais do seu trabalho no [!DNL Workfront].
+Os planos não substituem a funcionalidade de modelos de projeto em [!DNL Adobe Workfront]. Os blueprints são uma maneira de criar novos modelos mais rapidamente para organizar mais de seu trabalho no [!DNL Workfront].
 
-Não é possível copiar ou editar um blueprint. No entanto, após instalar a solução a partir de um blueprint, você pode modificar o modelo do projeto, as funções de trabalho ou as equipes criadas a partir do blueprint da mesma forma que você normalmente atualiza esses registros na interface [!DNL Workfront]. Além disso, ao instalar um blueprint, o modelo é armazenado na área [!UICONTROL Modelos] de [!DNL Workfront] e o blueprint original permanece na área [!UICONTROL Blueprints]. Não é necessário fazer uma cópia do modelo antes de começar a personalizá-lo de acordo com as suas necessidades.
+Não é possível copiar ou editar um esquema. No entanto, depois de instalar a solução a partir de um esquema, você pode modificar o modelo de projeto, as funções de trabalho ou as equipes criadas a partir do esquema da mesma maneira que você normalmente atualiza esses registros na interface [!DNL Workfront]. Além disso, quando você instala um blueprint, o modelo é armazenado na área [!UICONTROL Modelos] de [!DNL Workfront] e o blueprint original permanece na área [!UICONTROL Blueprints]. Não é necessário fazer uma cópia do modelo antes de começar a ajustá-lo às suas necessidades.
 
-Os blueprints não removem nem substituem nada configurado em seu ambiente. Se você pretende substituir um modelo existente instalando um blueprint que cria um novo modelo, recomendamos desativar a versão anterior para evitar confusão entre os planejadores que criam projetos com base em modelos.
+Os blueprints não removem nem substituem nada configurado em seu ambiente. Se você pretende substituir um modelo existente instalando um esquema que cria um novo modelo, recomendamos que desative a versão anterior para evitar confusões entre os planejadores que criam projetos com base em modelos.

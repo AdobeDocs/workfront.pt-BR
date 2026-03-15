@@ -2,37 +2,37 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: Tarefas Afetadas pelas Exceções de Programação'
-description: Essa exibição de tarefa identifica tarefas que terão que ser concluídas com atraso por causa de fins de semana, Tempo livre pessoal ou outras exceções de agendamento.
-author: Nolan
+title: 'Exibir: Tarefas Afetadas pelas Exceções de Programação'
+description: Esta exibição de tarefa identifica tarefas que deverão ser concluídas com atraso por causa de fins de semana, Folgas Pessoais ou outras exceções de agendamento.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d7c77fa-d9a7-4e91-8dae-ad3aaca6f1da
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Exibição: tarefas afetadas pelas exceções de agendamento
+# Exibição: tarefas afetadas por exceções de programação
 
 <!--Audited: 11/2024-->
 
-Essa exibição de tarefa identifica tarefas que terão que ser concluídas com atraso por causa de fins de semana, Tempo livre pessoal ou outras exceções de agendamento.
+Esta exibição de tarefa identifica tarefas que deverão ser concluídas com atraso por causa de fins de semana, Folgas Pessoais ou outras exceções de agendamento.
 
 Essa exibição mostra o seguinte:
 
 * A duração das tarefas
-* As Datas de Início Planejadas e de Término Planejadas das tarefas
-* A duração das tarefas de acordo com o número de dias entre o Início Planejado e as Datas de Término Planejadas das tarefas (Duração do Calendário)
-* O número do dia no cronograma do projeto quando a tarefa começa (Data de Início do Calendário)
-* A Duração do Dia da Semana das tarefas de acordo com o número de dias da semana entre o Início Planejado e as Datas de Término Planejadas das tarefas (Duração do Dia da Semana)
-* Se a Duração do dia da semana for maior que a duração das tarefas, o que sugere que há dias de exceção na duração das tarefas, as tarefas serão marcadas como uma &quot;Exceção&quot;.\
-  ![tarefas_com_exceções_de_calendário.png](assets/tasks-with-calendar-exceptions-350x51.png)
+* As Datas de Início Planejadas e de Conclusão Planejada das tarefas
+* A duração das tarefas de acordo com o número de dias entre as Datas de Início Planejada e de Conclusão Planejada das tarefas (Duração do Calendário)
+* O número do dia no agendamento do projeto quando a tarefa é iniciada (Data de Início do Calendário)
+* A Duração do Dia da Semana das tarefas de acordo com o número de dias da semana entre as Datas de Início Planejada e de Conclusão Planejada das tarefas (Duração do Dia da Semana)
+* Se a Duração do Dia da Semana for maior que a duração das tarefas, o que sugere que há dias de exceção na duração das tarefas, as tarefas serão marcadas como “Exceção”.\
+  ![tasks_with_calendar_exception.png](assets/tasks-with-calendar-exceptions-350x51.png)
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,12 +45,12 @@ Essa exibição mostra o seguinte:
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou Solicitação para modificar uma exibição </p>
+   <p>Colaborador ou Solicitação de modificação de uma exibição </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
+   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Acesso de edição a filtros, visualizações, agrupamentos para modificar uma visualização</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -59,18 +59,18 @@ Essa exibição mostra o seguinte:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
 
-## Exibir tarefas afetadas pelas exceções de agendamento
+## Exibir tarefas afetadas por exceções de agendamento
 
 1. Ir para uma lista de tarefas.
-1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
+1. No menu suspenso **Exibição**, selecione **Nova Exibição**.
 1. Na área **Visualização da coluna**, elimine todas as colunas, exceto uma.
-1. Clique no cabeçalho da coluna restante e em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
-1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
+1. Clique no cabeçalho da coluna restante e clique em **Alternar para o Modo de Texto** > **Editar Modo de Texto**.
+1. Remova o texto encontrado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
    column.0.descriptionkey=name
@@ -184,4 +184,4 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    column.7.width=80
    ```
 
-1. Clique em **Concluído** > **Salvar exibição**.
+1. Clique em **Concluído** > **Salvar Exibição**.

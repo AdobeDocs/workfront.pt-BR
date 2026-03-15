@@ -1,31 +1,31 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Atualizar o status de histórias e subtarefas no quadro Scrum
-description: É possível alterar o status de uma história diretamente do storyboard Agile para refletir como as histórias estão progredindo pela iteração ou pelo projeto.
-author: Jenny
+title: Atualizar o Status de Histórias e Subtarefas no Scrum Board
+description: É possível alterar o status de uma matéria diretamente do quadro de matérias Ágil para refletir como as matérias estão progredindo na iteração ou no projeto.
+author: Courtney
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 6%
+ht-degree: 20%
 
 ---
 
-# Atualizar o status de histórias e subtarefas no quadro [!UICONTROL Scrum]
+# Atualizar o status de histórias e subtarefas no quadro [!UICONTROL Trilha]
 
-É possível alterar o status de uma história diretamente do storyboard Agile para refletir como as histórias estão progredindo pela iteração ou pelo projeto.
+É possível alterar o status de uma matéria diretamente do quadro de matérias Ágil para refletir como as matérias estão progredindo na iteração ou no projeto.
 
 >[!NOTE]
 >
->Somente os status selecionados na seção [!UICONTROL Storyboard] da área de configurações da equipe estão disponíveis no quadro [!UICONTROL Scrum] e no menu suspenso de status. Para obter mais informações, consulte [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>Somente os status selecionados na seção [!UICONTROL Quadro de matérias] da área de configurações da equipe estão disponíveis no quadro [!UICONTROL Comprimir] e no menu suspenso de status. Para obter mais informações, consulte [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -34,24 +34,24 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td> <p>Novo: [!UICONTROL Padrão]</p> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>Novo: [!UICONTROL Standard]</p> 
    ou
-   <p>Atual: [!UICONTROL Trabalho] ou superior</p> </td> 
+   <p>Atual: [!UICONTROL Work] ou superior</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Atualizar o status de uma história ou subtarefa
+## Atualizar o status de uma matéria ou subtarefa
 
 {{step1-to-team}}
 
-1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone da equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa.
+1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ![Ícone Alternar equipe](assets/switch-team-icon.png) e, em seguida, selecione uma nova equipe Scrum no menu suspenso ou pesquise uma equipe na barra de pesquisa.
 
 1. Navegue até uma iteração ativa.
-1. Arraste uma matéria de uma coluna de status no storyboard para outra coluna.\
-   ![Mover história para outra coluna](assets/agile-storyboard-progress.png)
+1. Arraste uma matéria de uma coluna de status do quadro de matérias para outra coluna.\
+   ![Mover matéria para outra coluna](assets/agile-storyboard-progress.png)

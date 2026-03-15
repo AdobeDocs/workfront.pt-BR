@@ -1,34 +1,34 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Visão geral da sintaxe do modo de texto
-description: Você pode usar a interface do modo de texto para criar exibições, filtros, agrupamentos e prompts mais complexos em listas e relatórios. Ao usar o modo de texto, você pode acessar campos e seus atributos que não estão disponíveis na interface do modo padrão.
-author: Nolan
+title: Visão geral da sintaxe do modo texto
+description: Você pode usar a interface do modo de texto para criar exibições, filtros, agrupamentos e prompts personalizados mais complexos em listas e relatórios. Usando o modo de texto, você pode acessar os campos e seus atributos que não estão disponíveis na interface do modo padrão.
+author: Courtney
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1862'
+ht-degree: 8%
 
 ---
 
-# Visão geral da sintaxe do modo de texto
+# Visão geral da sintaxe do modo texto
 
 <!--Audited: 1/2025-->
 
-Você pode usar a interface do modo de texto para criar exibições, filtros, agrupamentos e prompts mais complexos em listas e relatórios. Ao usar o modo de texto, você pode acessar campos e seus atributos que não estão disponíveis na interface do modo padrão.
+Você pode usar a interface do modo de texto para criar exibições, filtros, agrupamentos e prompts personalizados mais complexos em listas e relatórios. Usando o modo de texto, você pode acessar os campos e seus atributos que não estão disponíveis na interface do modo padrão.
 
 Para obter informações e considerações sobre o modo de texto antes de começar, consulte [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Para obter uma lista completa de todos os nossos campos reportáveis e seus atributos, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Para obter mais informações sobre como criar relatórios usando o modo de texto, incluindo classes, vídeos e tutoriais, visite a seção Saiba mais no site do Adobe Experience League.
+Para obter mais informações sobre como criar relatórios usando o modo de texto, incluindo aulas, vídeos e tutoriais, visite a seção Saiba mais no site Adobe Experience League.
 
 ## Considerações sobre a sintaxe do modo de texto
 
-* Você deve entender a sintaxe do Adobe Workfront antes de começar a criar elementos de relatórios no modo de texto. A sintaxe do Workfront para o modo de texto é exclusiva desse aplicativo e tem características exclusivas que você deve conhecer.
+* Você deve entender a sintaxe do Adobe Workfront antes de começar a criar elementos de relatório no modo de texto. A sintaxe do Workfront para o modo de texto é exclusiva desse aplicativo e tem características exclusivas com as quais você deve estar familiarizado.
 * Antes de começar a usar o modo de texto em seus relatórios, recomendamos que você faça nossas aulas sobre relatórios avançados para obter uma compreensão mais profunda da linguagem do modo de texto.
 * É possível personalizar exibições, filtros e agrupamentos usando a interface do modo padrão. No entanto, é possível criar Solicitações personalizadas apenas usando o modo de texto.
 
@@ -88,7 +88,7 @@ Existem as seguintes semelhanças entre a sintaxe dos conjuntos de elementos de 
   Para obter informações sobre as linhas principais dos códigos para exibições e agrupamentos ao criá-los no modo de texto, consulte:
 
    * [Editar uma exibição usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [Editar um agrupamento usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [Editar um agrupamento usando o modo texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * As linhas de código e sintaxe são semelhantes para filtros e prompts personalizados.
 
@@ -99,12 +99,12 @@ Existem as seguintes semelhanças entre a sintaxe dos conjuntos de elementos de 
 
 ### Sintaxe para exibições e agrupamentos
 
-As linhas de código ao criar exibições e agrupamentos são semelhantes.
+As linhas de código ao criar vistas e agrupamentos são semelhantes.
 
-Para obter informações sobre como criar exibições e agrupamentos, consulte os seguintes artigos:
+Para obter informações sobre a criação de exibições e agrupamentos, consulte os seguintes artigos:
 
 * [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-* [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Visão geral dos agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 A linha de código mais importante para uma exibição ou um agrupamento é a linha que identifica o objeto referenciado na coluna da exibição ou no agrupamento. Essa linha de código pode começar com `valuefield` ou `valueexpression` com base no fato de esse campo ser uma referência direta a um campo de banco de dados do Workfront ou um cálculo entre vários campos.
 
@@ -120,13 +120,13 @@ A tabela a seguir lista as linhas de códigos mais comuns em uma exibição ou a
 
 >[!TIP]
 >
->* Embora as linhas de código nos exemplos abaixo sejam semelhantes entre exibições e agrupamentos, sempre lembre-se de que cada linha de código de um agrupamento começa com o número do agrupamento.
+>* Embora as linhas de código nos exemplos abaixo sejam semelhantes entre exibições e agrupamentos, lembre-se sempre de que cada linha de código de um agrupamento começa com o número do agrupamento.
 >
->  Para agrupar por Nome do Projeto em uma lista de projeto ou relatório, use a seguinte linha para o agrupamento de primeira camada:
+>  Para agrupar por Nome do Projeto em uma lista de projetos ou relatório, use a seguinte linha para o agrupamento de primeira camada:
 >
 >  `group.0.valuefield=name`
 >  
->* Se você editar várias colunas em uma visualização na mesma coluna (como no caso de colunas compartilhadas), lembre-se de que cada linha de código para cada coluna começa com o número da coluna.
+>* Se você editar várias colunas em uma visualização na mesma coluna (como no caso de colunas compartilhadas), lembre-se de que cada linha de código de cada coluna começa com o número da coluna.
 >
 >  Use o formato a seguir para identificar a primeira coluna de uma view:
 >
@@ -141,7 +141,7 @@ A tabela a seguir lista as linhas de códigos mais comuns em uma exibição ou a
 
 A sintaxe para campos de referência direta é idêntica para agrupamentos e visualizações.
 
-As regras a seguir se aplicam ao fazer referência a objetos Workfront usando uma linha `valuefield`:
+As regras a seguir se aplicam ao fazer referência a objetos do Workfront usando uma linha `valuefield`:
 
 * Use camel case para fazer referência a campos diretamente.
 
@@ -223,7 +223,7 @@ A segunda linha de código mais importante em uma exibição ou agrupamento é a
 Para obter valores `valueformat` adicionais, consulte também os seguintes artigos:
 
 * [Formatar datas em relatórios do modo texto](../../reports/text-mode/format-dates-in-text-mode-reports.md)
-* [Formatar números, valores de moeda e porcentagem em relatórios de modo de texto](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
+* [Formate números, moedas e valores percentuais em relatórios do modo de texto](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
 
 #### Visão geral de `width` para exibições
 
@@ -239,9 +239,9 @@ Você deve usar a linha de código `usewidths=true` adicional para aplicar a lar
 
 #### Visão geral de `stretch` para exibições
 
-O `stretch` é usado para identificar quais colunas ocupam espaço extra não necessário para a exibição. A largura da interface do usuário do espaço de trabalho para um usuário típico é de cerca de 850 pixels. Isso significa que se você tiver uma exibição com quatro colunas (150 pixels cada), sua exibição ocupará 600 de 850 pixels. Há 250 pixels extras na interface do usuário que serão adicionados às colunas com uma porcentagem de ampliação fornecida.
+O `stretch` é usado para identificar quais colunas ocupam espaço extra não necessário para a visualização. A largura da interface do usuário do espaço de trabalho para um usuário típico é de cerca de 850 pixels. Isso significa que se você tiver uma exibição com quatro colunas (150 pixels cada), sua exibição ocupará 600 de 850 pixels. Há 250 pixels extras na interface que serão adicionados às colunas com uma porcentagem de ampliação fornecida.
 
-O alongamento de uma coluna é aplicado quando você usa a linha de código adicional: `usewidths=true` para pelo menos uma das colunas na exibição.
+O alongamento de uma coluna é aplicado ao usar a linha de código adicional: `usewidths=true` para pelo menos uma das colunas na visualização.
 
 **Exemplo:** Para indicar que uma coluna pode usar 70% do espaço vazio em uma exibição, use as seguintes linhas:
 
@@ -259,15 +259,15 @@ A sintaxe para a criação de filtros é semelhante àquela para a criação de 
 
 Para obter informações sobre a criação de filtros e prompts personalizados, consulte:
 
-* [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Visão geral dos Filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
-Para obter informações sobre como criar filtros no modo texto, consulte [Editar um filtro usando o modo texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+Para obter informações sobre como criar filtros no modo de texto, consulte [Editar um filtro usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 Você pode usar os seguintes elementos para criar filtros e prompts personalizados no modo de texto:
 
 * Uma linha de código que faz referência ao objeto da instrução de filtro. Use camel case para o objeto de filtro.
-* Uma linha de código que faz referência ao objeto de filtro e ao modificador para o valor do objeto de filtro. Use camel case para o objeto de filtro nesta linha.
+* Uma linha de código que faz referência ao objeto de filtro e ao modificador do valor do objeto de filtro. Use camel case para o objeto de filtro nesta linha.
 
   >[!TIP]
   >
@@ -277,9 +277,9 @@ Você pode usar os seguintes elementos para criar filtros e prompts personalizad
 
    * E
 
-     Este é o conector padrão entre as instruções de filtro.
+     Este é o conector padrão entre instruções de filtro.
 
-   * OU
+   * OR
 
      >[!TIP]
      >

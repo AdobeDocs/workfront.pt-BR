@@ -2,36 +2,36 @@
 content-type: reference
 product-area: reporting;timesheets
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: Calcular Custo de Horas Extras em uma View de Planilha de Horas'
-description: As horas extras não são calculadas por padrão no Adobe Workfront, mas você pode criar um relatório de Planilha de horas que calcula as horas extras.
-author: Nolan
+title: 'View: Calcular Custo de Horas Extras em uma View de Quadro de Horários'
+description: As horas extras não são calculadas por padrão no Adobe Workfront, mas você pode criar um relatório Quadro de horários que calcule as horas extras.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Exibição: calcular o custo de horas extras em uma Exibição de folha de horas
+# Exibir: calcular o custo das horas extras em uma exibição da folha de horas
 
 <!--Audited: 11/2024-->
 
-As horas extras não são calculadas por padrão no Adobe Workfront, mas você pode criar um relatório de Planilha de horas que calcula as horas extras.
+As horas extras não são calculadas por padrão no Adobe Workfront, mas você pode criar um relatório Quadro de horários que calcule as horas extras.
 
-Se o usuário estiver associado a uma taxa de Custo por hora em seu perfil, você também poderá calcular a quantidade de custo para a hora extra desse usuário.\
-Para obter informações sobre como associar usuários com taxas de Custo por hora, consulte o artigo [Definir minhas configurações](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+Se o usuário estiver associado a uma taxa de Custo por Hora em seu perfil, você também poderá calcular a quantia do custo da hora extra desse usuário.\
+Para obter informações sobre como associar usuários às taxas de Custo por Hora, consulte o artigo [Configurar Minhas Configurações](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 >[!NOTE]
 >
->O campo Horas extras que você pode adicionar a uma visualização de Folha de horas em uma lista ou relatório exibe as informações encontradas no campo Horas extras da folha de horas. Essas informações são atualizadas manualmente por um usuário com acesso para modificar a folha de horas. Para obter mais informações sobre o campo Horas extras em uma folha de horas, consulte o artigo [Visão geral do layout da folha de horas](../../../timesheets/timesheets/timesheet-layout.md).
+>O campo Horas Extras que você pode adicionar a um modo de exibição Quadro de Horários em uma lista ou relatório exibe as informações encontradas no campo Horas Extras do quadro de horários. Essas informações são atualizadas manualmente por um usuário com acesso para modificar o quadro de horários. Para obter mais informações sobre o campo Horas Extras em um quadro de horários, consulte o artigo [Visão geral do layout do quadro de horários](../../../timesheets/timesheets/timesheet-layout.md).
 
 ![calculated_overtime_cost_in_timesheet_report.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,12 +44,12 @@ Para obter informações sobre como associar usuários com taxas de Custo por ho
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou Solicitação para modificar um filtro </p>
+   <p>Colaborador ou solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a filtros, exibições e agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -58,20 +58,20 @@ Para obter informações sobre como associar usuários com taxas de Custo por ho
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Calcular custo de horas extras em uma Exibição de folha de horas
+## Calcular custo de horas extras em uma Exibição de Quadro de Horários
 
-Para adicionar uma coluna de horas extras calculadas a uma visualização de folha de horas:
+Para adicionar uma coluna de Hora Extra calculada a uma view de quadro de horários:
 
-1. Ir para uma lista de planilhas de horas.
+1. Ir para uma lista de quadros de horários.
 
-1. Clique no menu suspenso **Exibir** e em **Nova Exibição**.
+1. Clique no menu suspenso **Exibição** e clique em **Nova Exibição**.
 
 1. Clique em **Adicionar coluna**.
-1. Clique em **Alternar para Modo de Texto** e em **Editar Modo de Texto**.
-1. Na caixa **Editar Modo de Texto**, remova o texto da caixa e, em seguida, copie e cole o seguinte código de modo de texto:
+1. Clique em **Alternar para o Modo de Texto** e clique em **Editar Modo de Texto**.
+1. Na caixa **Editar Modo de Texto**, remova o texto da caixa e copie e cole o seguinte código de modo de texto:
 
    ```
    displayname=Calculated Overtime Cost
@@ -85,9 +85,9 @@ Para adicionar uma coluna de horas extras calculadas a uma visualização de fol
 
    >[!NOTE]
    >
-   >Esse cálculo presume que o usuário geralmente trabalha uma semana de 40 horas.
+   >Esse cálculo pressupõe que o usuário normalmente trabalha 40 horas por semana.
 
-1. Clique em **Concluído**, nomeie o novo modo de exibição e clique em **Salvar Modo de Exibição** em uma lista de planilhas de horas.
+1. Clique em **Concluído**, nomeie o novo modo de exibição e clique em **Salvar Modo de Exibição** em uma lista de quadros de horários.
 
    O custo das horas extras de cada usuário é exibido na coluna **Custo Calculado de Horas Extras**.
 

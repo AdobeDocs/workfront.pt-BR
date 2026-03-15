@@ -4,17 +4,17 @@ content-type: reference
 navigation-topic: boards
 title: Configurar o backlog em uma placa de workflow
 description: Você pode optar por exibir uma coluna de backlog em um quadro em um workflow e definir uma consulta para os cartões que são extraídos para o backlog do quadro a partir da lista de cartões de workflow.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# Configurar o backlog em uma placa de workflow
+# Configurar a lista de pendências em um quadro de fluxo de trabalho
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ A coluna de backlog e o query não estão disponíveis em quadros independentes.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,18 +43,18 @@ A coluna de backlog e o query não estão disponíveis em quadros independentes.
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p> 
-   <p>Solicitação ou superior</p>
+   <p>Colaborador ou posterior</p> 
+   <p>Solicitação ou posterior</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Configurar o backlog em uma placa de workflow
+## Configurar a lista de pendências em um quadro de fluxo de trabalho
 
 {{step1-to-boards}}
 

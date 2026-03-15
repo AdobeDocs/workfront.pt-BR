@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Criar gráfico de um relatório por um campo personalizado de seleção múltipla
 description: Você pode criar um relatório por meio de um campo personalizado de seleção múltipla somente após criar um campo calculado adicional que capture as opções selecionadas no campo personalizado de seleção múltipla.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Criar um gráfico de um relatório por um campo personalizado de várias seleções
+# Crie um relatório por meio de um campo personalizado com seleção múltipla
 
 <!--Audited: 11/2024-->
 
@@ -41,7 +41,7 @@ No entanto, se não for possível ter campos separados para cada opção de um c
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -68,7 +68,7 @@ No entanto, se não for possível ter campos separados para cada opção de um c
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

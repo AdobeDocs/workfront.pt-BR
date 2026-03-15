@@ -1,19 +1,19 @@
 ---
 product-area: reporting;setup
 navigation-topic: create-and-manage-reports
-title: Visão geral da entrega de relatórios
-description: Visão geral da entrega de relatórios
-author: Nolan
+title: Visão geral da entrega do relatório
+description: Visão geral da entrega do relatório
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1534'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Visão geral da entrega de relatórios
+# Visão geral da entrega do relatório
 
 <!-- Audited: 11/2024 -->
 
@@ -43,7 +43,7 @@ Considere o seguinte ao agendar relatórios para entrega:
 
 Há vários limites de tamanho que afetam como os relatórios são exibidos no Workfront e como são exportados por meio de uma exportação manual, um relatório entregue ou pela API:
 
-* **Tamanho do arquivo de 10 MB:** Limite do tamanho do arquivo para qualquer relatório exportado agendado para entrega. Se um arquivo exportado anexado a um email tiver mais de 5 MB, um link no qual o arquivo pode ser baixado será enviado por email, em vez do relatório exportado anexado.
+* **Tamanho de arquivo de 10 MB:** limite de tamanho de arquivo para qualquer relatório exportado agendado para entrega. Se um arquivo exportado anexado a um email tiver mais de 5 MB, um link no qual o arquivo pode ser baixado será enviado por email, em vez do relatório exportado anexado.
 
   >[!NOTE]
   >
@@ -55,22 +55,22 @@ Há vários limites de tamanho que afetam como os relatórios são exibidos no W
 
   Para arquivos .xlsx do Excel, esse limite é de **100.000 linhas**.
 
-  Esses limites excluem os cabeçalhos da coluna, bem como linhas para agrupamentos no relatório. Por exemplo, se você tiver seis agrupamentos em um relatório e 50.000 linhas de dados, o arquivo exportado terá 50.000 linhas.
+  Esses limites excluem os cabeçalhos de coluna, bem como as linhas para agrupamentos no relatório. Por exemplo, se você tiver 6 agrupamentos em um relatório e 50.000 linhas de dados, o arquivo exportado terá 50.000 linhas.
 
-  Se o seu relatório tiver mais itens do que esses limites, você receberá um erro de que a exportação e a entrega do relatório não foram bem-sucedidas. Reduza o número de itens que você vê na tela para um número menor ou igual a esses limites para poder fornecer os resultados. Se quiser exportar todos os dados, sugerimos que você use filtros para obter cargas menores de dados e, em seguida, execute várias exportações. Para obter mais informações, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Se o relatório tiver mais itens do que esses limites, você receberá um erro informando que a exportação e a entrega do relatório não foram bem-sucedidas. Reduza o número de itens exibidos na tela para um número menor ou igual a esses limites para poder fornecer os resultados. Se desejar exportar todos os dados, sugerimos que você use filtros para obter cargas menores de dados e, em seguida, execute várias exportações. Para obter mais informações, consulte [Visão geral sobre filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-  Estes limites aplicam-se a:
+  Esses limites aplicam-se a:
 
    * Uma exportação manual de um relatório.
    * Um relatório agendado.
    * Uma exportação por meio de uma integração de API.
-   * Dados exportados por meio de um início.
+   * Dados exportados por meio de um kick-start.
 
-     Para obter mais informações sobre como exportar dados por meio de inicializações, consulte o artigo [Exportar dados do Adobe Workfront por meio de inicializações](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     Para obter mais informações sobre como exportar dados via inícios, consulte o artigo [Exportar dados do Adobe Workfront via inícios de primeiros passos](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
-     >Você pode exportar 50.000 linhas em um arquivo de início rápido, mas somente para um arquivo em formato Excel.
+     >Você pode exportar 50.000 linhas em um arquivo de início rápido, mas apenas para um arquivo em formato Excel.
 
    * Exportando informações de utilização de um projeto.
 
@@ -163,20 +163,20 @@ Para obter mais informações sobre como marcar sua instância do Workfront, con
 
 ### Formatação {#formatting}
 
-Você sempre recebe a guia Detalhes de um relatório quando ele é enviado ou agendado para um delivery, a menos que o relatório tenha uma visualização especial.
+Você sempre recebe a guia Detalhes de um relatório quando um relatório é enviado ou programado para uma entrega, a menos que o relatório tenha uma exibição especial.
 
-Se o relatório tiver formatação especial no aplicativo web, ele deverá ser entregue com a formatação especial quando as guias Details e Matrix forem entregues somente para arquivos .pdf e Excel.
+Se o relatório tiver uma formatação especial no aplicativo da Web, ele deverá ser entregue com a formatação especial quando as guias Detalhes e Matriz forem fornecidas somente para arquivos .pdf e Excel.
 
-O filtro, a visualização ou o agrupamento do relatório não estão incluídos no arquivo entregue. A descrição do relatório é incluída somente quando você envia o relatório como um arquivo PDF.
+O filtro, exibição ou agrupamento do relatório não está incluído no arquivo entregue. A descrição do relatório é incluída somente quando você o envia como um arquivo PDF.
 
 Para obter mais informações sobre como receber relatórios com uma exibição especial, consulte o artigo [Relatórios com uma exibição especial](#reports-with-a-special-view).\
 Para obter mais informações sobre como selecionar a guia padrão de um relatório e sobre formatação especial, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Links {#links}
 
-Ao enviar um relatório do Workfront para o formato do PDF ou Excel, os links de trabalho existentes no documento original permanecem ativos no arquivo enviado. Os links podem apontar para qualquer objeto no Workfront que ofereça suporte a links.
+Quando você envia um relatório do Workfront para o formato PDF ou Excel, todos os links de trabalho existentes no documento original permanecem ativos no arquivo enviado. Os links podem apontar para qualquer objeto no Workfront que ofereça suporte à vinculação.
 
-O nome do relatório na mensagem de email também é um link.
+O nome do relatório na mensagem de e-mail também é um link.
 
 ## Relatório sobre relatórios agendados
 
@@ -190,7 +190,7 @@ Você pode ver se um relatório foi configurado para ser entregue criando o segu
 * **Um Filtro** para o objeto de Relatório: Crie um filtro em uma lista de relatórios ou em um relatório sobre relatórios com a seguinte instrução: *A ID do Relatório Agendado não está em branco*.\
   Isso exibirá somente os relatórios que foram agendados na lista ou no relatório.\
   ![Filtro de relatório agendado](assets/qs-scheduled-report-filter-350x101.png)\
-  Para obter mais informações sobre como criar relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Para obter informações sobre como criar um relatório sobre relatórios, consulte [Criar um relatório sobre atividades de relatórios](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+  Para obter mais informações sobre a criação de relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Para obter informações sobre como criar um relatório sobre relatórios, consulte [Criar um relatório sobre atividades de relatório](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating Report Delivery</h2>

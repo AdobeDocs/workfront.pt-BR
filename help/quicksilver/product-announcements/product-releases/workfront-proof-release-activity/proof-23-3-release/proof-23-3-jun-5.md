@@ -2,35 +2,35 @@
 product-previous: workfront-proof
 content-type: release-notes
 navigation-topic: proof-release-activity
-title: Atividade de lançamento do Adobe Workfront proof 23.3 Semana de 5 de junho de 2023
-description: Esta página descreve todas as melhorias feitas com a versão 23.3 do Adobe Workfront Proof para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de Produção na semana de 5 de junho de 2023.
-author: Nolan
+title: Atividade de lançamento da prova do Adobe Workfront 23.3 Semana de 5 de junho de 2023
+description: Esta página descreve todos os aprimoramentos feitos com a versão 23.3 do Adobe Workfront Proof para o ambiente de visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção na semana de 5 de junho de 2023.
+author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: b52020a5-e58b-48f6-9714-8e2ebe606729
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Atividade de lançamento do Adobe Workfront Proof 23.3: Semana de 5 de junho de 2023
+# Atividade de lançamento do Adobe Workfront Proof 23.3: semana de 5 de junho de 2023
 
-Esta página descreve todas as melhorias feitas com a versão 23.3 do Adobe Workfront Proof para o ambiente de Pré-visualização em 5 de junho de 2023.
+Esta página descreve todos os aprimoramentos feitos com a versão 23.3 do Adobe Workfront Proof para o ambiente de visualização em 5 de junho de 2023.
 
-Esses aprimoramentos serão disponibilizados no ambiente de Produção com a versão 23.3, a menos que especificado de outra forma.
+Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão 23.3, a menos que especificado de outra forma.
 
-## Alteração de suporte para provas do Microsoft Office
+## Alterar o suporte para provas do Microsoft Office
 
-Para manter uma solução de processamento de prova robusta e escalonável, estamos alterando nossos tipos de arquivo do Microsoft Office e limites de tamanho de arquivo compatíveis.
+Para manter uma solução de processamento de prova robusta e dimensionável, estamos alterando nossos tipos de arquivo e limites de tamanho de arquivo do Microsoft Office suportados.
 
-Os seguintes tipos de arquivos do Office não são mais suportados como provas:
-XLT, XLTX, PONTO, DOTX, POT, POTX, PPS, PPSX
+Os seguintes tipos de arquivos do Office não são mais compatíveis como provas:
+XLT, XLTX, DOT, DOTX, POT, POTX, PPS, PPSX
 
-Os usuários podem continuar criando provas para os seguintes tipos de arquivos do Office:
+Os usuários podem continuar criando revisões para os seguintes tipos de arquivo do Office:
 DOC, DOCX, PPT, PPTX, XLS, XLSX
 
-O limite de tamanho do arquivo do PowerPoint e do Word agora é de 512 MB.
+O limite de tamanho de arquivo do PowerPoint e do Word agora é de 512 MB.
 
-Para obter mais informações, consulte [Visão geral sobre tipos de arquivos de comprovação e limites de tamanho com suporte](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
+Para obter mais informações, consulte [Visão geral sobre tipos de arquivos de revisão de texto e limites de tamanho suportados](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).

@@ -5,11 +5,11 @@ product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Ações a serem executadas após a instalação de um blueprint
 description: Este artigo descreve o que você deve fazer depois de instalar um blueprint no [!DNL Adobe Workfront]  para implantar totalmente o blueprint nos usuários do sistema.
-author: Jenny
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -30,19 +30,19 @@ Esta seção contém recomendações para os modelos de projeto instalados com s
 
 ### Atribuir usuários a funções e equipes recém-criadas {#assign-users-to-newly-created-roles-and-teams}
 
-As funções e/ou equipes criadas durante o processo de instalação do blueprint não têm usuários associados automaticamente a elas. Sem atribuir usuários às funções ou equipes recém-adicionadas, você criará trabalhos para uma função que ninguém atenderá. Em alguns casos, pode ser necessário criar novos usuários para preencher essas funções e equipes. Para obter informações sobre como criar novos usuários, consulte [Adicionar usuários](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+As funções e/ou equipes criadas durante o processo de instalação do plano não têm usuários associados a elas automaticamente. Sem atribuir usuários às funções ou equipes recém-adicionadas, você criará trabalho para uma função que ninguém selecionará. Em alguns casos, pode ser necessário criar novos usuários para preencher essas funções e equipes. Para obter informações sobre como criar novos usuários, consulte [Adicionar usuários](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-### Aplicar um formulário personalizado ao modelo e às tarefas do modelo {#apply-a-custom-form-to-the-template-and-the-template-tasks}
+### Aplicar um formulário personalizado ao modelo e às tarefas de modelo {#apply-a-custom-form-to-the-template-and-the-template-tasks}
 
-O processo de instalação não associa o modelo de projeto a nenhum formulário personalizado. Se os projetos ou as tarefas exigirem que formulários ou campos específicos sejam preenchidos para criar a consistência do relatório, ou se o formulário de solicitação digital contiver campos que precisam ser retidos no nível do projeto, recomendamos que você associe o modelo ou as tarefas do modelo a esses formulários. Para obter informações, consulte [Adicionar um formulário personalizado a um objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+O processo de instalação não associa o modelo de projeto a nenhum formulário personalizado. Se os projetos ou as tarefas exigirem que formulários ou campos específicos sejam preenchidos para criar a consistência do relatório, ou se o formulário de solicitação digital contiver campos que precisam ser mantidos no nível do projeto, recomendamos que você associe o modelo ou as tarefas de modelo a esses formulários. Para obter mais informações, consulte [Adicionar um formulário personalizado a um objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ### Atualizar estimativas de esforço e duração da tarefa de modelo {#update-template-task-duration-and-effort-estimates}
 
 Cada tarefa no modelo contém uma duração planejada e uma estimativa de esforço planejada. Essas estimativas servem como ponto de partida para as durações e o tempo gasto com essas atividades. No entanto, os recursos, as habilidades e o ritmo de sua organização são exclusivos. Você deve revisar a duração estimada de cada tarefa e o esforço para ajustá-la para refletir as necessidades da sua organização. Para obter informações, consulte [Gerenciar informações da tarefa na área [!UICONTROL Visão Geral de Detalhes da Tarefa]](../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
 
-### Associar um caminho de etapas e etapas {#associate-a-milestone-path-and-milestones}
+### Associar um caminho de etapa e etapas do projeto {#associate-a-milestone-path-and-milestones}
 
-O processo de instalação não associa o modelo de projeto a um caminho de etapas. Aplique um caminho de marcos ao modelo e aplique marcos às tarefas principais no modelo para atender às suas necessidades de relatórios de marcos. Para obter informações, consulte [Associar marcos a tarefas](../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+O processo de instalação não associa o modelo de projeto a um caminho de etapa do projeto. Aplique um caminho de marcos ao modelo e aplique marcos às tarefas principais no modelo para atender às suas necessidades de relatórios de marcos. Para obter informações, consulte [Associar marcos a tarefas](../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 ### Implante o modelo para sua equipe {#roll-out-the-template-to-your-team}
 
@@ -62,9 +62,9 @@ Esta seção contém recomendações para os elementos de estrutura organizacion
 
 Depois de instalar um blueprint que inclui uma empresa:
 
-* Adicione um formulário personalizado para aumentar o registro da empresa com detalhes úteis (o formulário e seus detalhes são exclusivos para você). Para obter informações, consulte [Adicionar um formulário personalizado a um objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-* Se a empresa representa um cliente, analise as taxas de substituição associadas à empresa. Para obter informações, consulte [Substituir taxas de cobrança de função de trabalho no nível da empresa](../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
-* Se a empresa representar um cliente e se houver outros modelos de projeto exclusivos para essa organização, primeiro pré-associe os modelos de projeto à empresa recém-adicionada. Para obter informações, consulte [Editar modelos de projeto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+* Adicione um formulário personalizado para aumentar o registro da empresa com detalhes úteis (o formulário e seus detalhes são exclusivos para você). Para obter mais informações, consulte [Adicionar um formulário personalizado a um objeto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+* Se a empresa representar um cliente, revise as taxas de substituição associadas à empresa. Para obter mais informações, consulte [Substituir taxas de cobrança de função de trabalho no nível da empresa](../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+* Se a empresa representar um cliente e se houver outros modelos de projeto exclusivos para essa organização, primeiro pré-associe os modelos de projeto à empresa recém-adicionada. Para obter mais informações, consulte [Editar modelos de projeto](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 * Se a empresa representa um cliente ou fornecedor, associe os usuários existentes da organização externa que já podem estar em seu ambiente. Para obter informações, consulte [Criar e editar empresas](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 * Se a empresa representa um cliente ou um fornecedor, crie usuários colaboradores adicionais para a organização externa que podem ser necessários em seu ambiente para simplificar a comunicação, a execução do trabalho e as aprovações. Para obter informações sobre como criar novos usuários, consulte [Adicionar usuários](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 * Atualize os relacionamentos do organograma para qualquer usuário associado à empresa recém-adicionada. Para obter informações, consulte [Criar subordinados diretos](../../administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md) e [Exibir o organograma](../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
@@ -81,11 +81,11 @@ Os painéis adicionados de um blueprint têm um ou mais relatórios, páginas ex
 
 ### Atualizar os relatórios recém-criados para adicionar/remover colunas ou critérios de filtro
 
-Os relatórios distribuídos por meio de um blueprint do painel não têm todas as colunas ou critérios de filtro para suportar sua configuração do [!DNL Workfront]. Espera-se que você faça alguns ajustes nos relatórios para que eles se encaixem em seus padrões. Para criar consistência com outros relatórios em seu ambiente, adicione uma coluna incluída em todos os relatórios para o objeto que está sendo listado ou adicione alguns critérios de filtro que limitam os resultados a um tipo de projeto ou grupo de usuários específico. Para obter informações, consulte [Criar ou editar exibições](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) e [Criar ou editar filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Os relatórios distribuídos por meio de um blueprint do painel não têm todas as colunas ou critérios de filtro para suportar sua configuração do [!DNL Workfront]. Espera-se que você faça alguns ajustes nos relatórios para se adequar aos seus padrões. Para criar consistência com outros relatórios em seu ambiente, você pode adicionar uma coluna incluída em todos os relatórios do objeto que está sendo listado ou adicionar alguns critérios de filtro que limitam os resultados a um determinado tipo de projeto ou grupo de usuários. Para obter mais informações, consulte [Criar ou editar exibições](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) e [Criar ou editar filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ### Compartilhar os painéis ou relatórios com usuários
 
-Se você não estiver planejando colocar o painel em um modelo de layout, compartilhe o painel com as pessoas que o considerarão útil. Para obter informações, consulte [Compartilhar um painel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) e [Compartilhar um relatório](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+Se você não estiver planejando colocar o painel em um modelo de layout, compartilhe o painel com as pessoas que o considerarão útil. Para obter mais informações, consulte [Compartilhar um painel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) e [Compartilhar um relatório](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
 ### Adicionar os painéis aos modelos de layout
 
@@ -95,6 +95,6 @@ A melhor maneira de disponibilizar informações para outras pessoas é adiciona
 
 A introdução de um novo painel e seus relatórios pode possibilitar a desativação e o ajuste de outros painéis e relatórios existentes. Reserve tempo para revisar seus relatórios existentes e identificar relatórios redundantes e contraditórios.
 
-### Distribuir dados personalizados a formulários relevantes
+### Distribuir dados personalizados para formulários relevantes
 
 Alguns relatórios incluídos em um blueprint de painel têm campos de dados personalizados na exibição, no filtro ou no agrupamento do relatório. Em alguns casos, o blueprint também terá um formulário ao qual esses campos estão associados. No entanto, na maioria das vezes, os campos personalizados não são aplicados a um formulário personalizado. Para que as colunas, filtros ou agrupamentos funcionem corretamente, esses campos devem ser associados a formulários que estejam conectados a um registro de usuário, projeto, tarefa ou outro objeto. Para obter informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

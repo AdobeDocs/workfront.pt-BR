@@ -4,17 +4,17 @@ product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 'Filtro: relatório de aprovação de prova para omitir versões anteriores da prova'
 description: Em um relatório Aprovação de prova, você pode usar o filtro É a versão atual do documento para incluir apenas as versões atuais das provas que estão aguardando sua aprovação.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
-# Filtro: relatório Aprovação de prova para omitir versões de prova anteriores
+# Filtro: relatório de aprovação de prova para omitir versões anteriores da prova
 
 <!--Audited: 10/2024-->
 
@@ -24,7 +24,7 @@ Isso é útil, por exemplo, se você foi solicitado a aprovar provas que têm v�
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Isso é útil, por exemplo, se você foi solicitado a aprovar provas que têm v�
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

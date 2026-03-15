@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Exibir: Detalhes do Problema Originador para Tarefas e Projetos'
 description: Quando um problema é convertido em uma tarefa ou um projeto, uma relação de objeto de resolução é estabelecida entre a tarefa ou o projeto e o problema. Essa exibição mostra os campos do problema que é concluído automaticamente quando a tarefa ou o projeto é concluído.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
-# Exibir: detalhes de problemas de origem para tarefas e projetos
+# Exibição: detalhes do problema original para tarefas e projetos
 
 <!--Audited: 11/2024-->
 
@@ -34,7 +34,7 @@ Para obter mais informações, consulte também [Exibir: exibir informações de
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +61,7 @@ Para obter mais informações, consulte também [Exibir: exibir informações de
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

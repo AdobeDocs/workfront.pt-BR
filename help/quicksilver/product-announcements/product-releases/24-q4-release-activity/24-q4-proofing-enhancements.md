@@ -1,11 +1,11 @@
 ---
 title: Aprimoramentos de provas do quarto trimestre de 2024
 description: Aprimoramentos de provas do quarto trimestre de 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 337fca96-9773-4683-a82c-f6d2f5f261a0
-source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%

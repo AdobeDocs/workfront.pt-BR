@@ -3,13 +3,13 @@ product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Excluir um painel
 description: Se você não tiver mais uso para um painel, poderá removê-lo do Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: c8b7ad473b0c2120ef5ea52374b3501ad6f553f1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ Se você não tiver mais uso para um painel, poderá removê-lo do Adobe Workfro
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Se você não tiver mais uso para um painel, poderá removê-lo do Adobe Workfro
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-      <p>Standard</p>
+      <p>Padrão</p>
       <p>Plano</p>
    </td> 
   </tr> 
@@ -49,7 +49,7 @@ Se você não tiver mais uso para um painel, poderá removê-lo do Adobe Workfro
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

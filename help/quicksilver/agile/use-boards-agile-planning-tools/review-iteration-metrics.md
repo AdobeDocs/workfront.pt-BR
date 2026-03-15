@@ -4,13 +4,13 @@ product-area: agile-and-teams
 navigation-topic: boards
 title: Revisar métricas de iteração
 description: As métricas estão disponíveis para cada iteração em um workflow, no quadro do processo de iteração.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -24,7 +24,7 @@ As métricas estão disponíveis para cada iteração em um fluxo de trabalho, n
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,14 +37,14 @@ As métricas estão disponíveis para cada iteração em um fluxo de trabalho, n
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p> 
-   <p>Solicitação ou superior</p>
+   <p>Colaborador ou posterior</p> 
+   <p>Solicitação ou posterior</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

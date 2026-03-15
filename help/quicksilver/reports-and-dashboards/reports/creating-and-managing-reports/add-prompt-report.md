@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Adicionar um prompt a um relatório
-description: Filtros e prompts são semelhantes, no sentido de que ambos restringem a quantidade de informações exibidas em um relatório.
-author: Nolan
+description: Os filtros e prompts são semelhantes, no sentido de que ambos restringem a quantidade de informações que você exibe em um relatório.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 ## A diferença entre prompts e filtros
 
-Filtros e prompts são semelhantes, no sentido de que ambos restringem a quantidade de informações exibidas em um relatório.
+Os filtros e prompts são semelhantes, no sentido de que ambos restringem a quantidade de informações que você exibe em um relatório.
 
-Você cria um filtro quando quer que as informações exibidas no relatório sejam filtradas pelos mesmos critérios toda vez que executa o relatório. Os filtros são criados uma vez e são codificados no relatório. Para obter mais informações sobre a criação de filtros, consulte o artigo [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Você cria um filtro quando deseja que as informações exibidas no relatório sejam filtradas pelos mesmos critérios sempre que executa o relatório. Os filtros são criados uma vez e codificados no relatório. Para obter mais informações sobre a criação de filtros, consulte o artigo [Visão geral de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Prompts são filtros abertos que podem ser personalizados e aplicados de forma diferente toda vez que você executa um relatório.
 
-Ao adicionar prompts ao seu relatório, você pode personalizar as informações de filtragem editando os critérios de prompt sempre que executar o relatório. O relatório é executado com um filtro diferente toda vez, dependendo de quais modificadores você escolher, em vez de codificar os modificadores uma vez no filtro do relatório.
+Quando você adiciona prompts ao relatório, pode personalizar as informações de filtragem editando os critérios de prompt sempre que executa o relatório. O relatório é executado com um filtro diferente sempre, dependendo de quais modificadores você escolher, em vez de codificar os modificadores uma vez no filtro do relatório.
 
 Os prompts atuam como um filtro personalizável em relatórios que podem ser atualizados logo antes de você executar o relatório. Você pode criar relatórios genéricos e restringir os resultados com base nas informações que deseja ver para esse dia ou nas informações relevantes para um conjunto de critérios individuais. Por exemplo, se você tiver um relatório de Horas e quiser alterar as informações do relatório com base nos seguintes critérios:
 
@@ -35,11 +35,11 @@ Os prompts atuam como um filtro personalizável em relatórios que podem ser atu
 
 Você criaria três prompts em que as condições são os critérios necessários e o relatório pareceria diferente toda vez que o executasse, de acordo com quais informações você escolhe para seus prompts.
 
-Um filtro pode instruir o Adobe Workfront a mostrar apenas as horas inseridas entre junho e agosto deste ano. No entanto, com um prompt, você pode usar um intervalo de tempo diferente cada vez que executar o relatório (por exemplo, entre janeiro e fevereiro ou outubro e dezembro).
+Um filtro pode indicar ao Adobe Workfront para mostrar apenas as horas inseridas entre junho e agosto deste ano. No entanto, com um prompt, você pode usar um intervalo de tempo diferente cada vez que executar o relatório (por exemplo, entre janeiro e fevereiro ou outubro e dezembro).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,13 +52,13 @@ Um filtro pode instruir o Adobe Workfront a mostrar apenas as horas inseridas en
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-      <p>Standard</p>
+      <p>Padrão</p>
       <p>Plano</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configuração do nível de acesso</td> 
-   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> </td> 
+   <td> <p>Acesso de edição a relatórios, painéis e calendários</p> <p>Editar acesso a filtros, exibições e agrupamentos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -67,7 +67,7 @@ Um filtro pode instruir o Adobe Workfront a mostrar apenas as horas inseridas en
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,17 +84,17 @@ Para obter instruções sobre como criar um relatório, consulte [Criar um relat
 
 1. Clique no botão **Configurações do Relatório**.
 1. Clique na guia **Prompts do Relatório** e em **Adicionar um Prompt**.\
-   ![Guia de prompts do relatório](assets/create-report-prompt-tab.png)
+   ![Guia de prompts de relatório](assets/create-report-prompt-tab.png)
 
-1. (Condicional) Selecione o campo no qual você deseja que o prompt se baseie. Comece digitando o nome do campo e clique em para selecioná-lo quando ele aparecer na lista.\
-   As opções disponíveis para usuários que executam o relatório serão diferentes dependendo do campo selecionado.\
-   Por exemplo, se você selecionar um campo de data, como Data de Conclusão Efetiva em um relatório de tarefa, &quot;Data de Conclusão Efetiva&quot; será o nome do prompt. Ao editar esse prompt enquanto está executando este relatório, você pode escolher entre um conjunto de modificadores para criar sua instrução de filtragem. Esse processo é idêntico à criação de um filtro. Para obter mais informações sobre modificadores, consulte [Filtro e modificadores de condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+1. (Condicional) Selecione o campo no qual você deseja que o prompt se baseie. Comece a digitar o nome do campo e clique para selecioná-lo quando ele aparecer na lista.\
+   As opções disponíveis para os usuários que executam o relatório serão diferentes dependendo do campo selecionado.\
+   Por exemplo, se você selecionar um campo de data, como Data de Conclusão Efetiva em um relatório de tarefa, &quot;Data de Conclusão Efetiva&quot; será o nome do prompt. Ao editar esse prompt enquanto está executando este relatório, você pode escolher entre um conjunto de modificadores para criar sua instrução de filtragem. Esse processo é idêntico à criação de um filtro. Para obter mais informações sobre modificadores, consulte [Modificadores de filtro e condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 1. (Condicional) Clique em **Prompt Personalizado** para criar um prompt personalizado.
 
-   Um prompt personalizado é um prompt predefinido em que você codifica os critérios do filtro antes de executar o relatório. Nesse sentido, um prompt personalizado está mais próximo de um filtro do que de um prompt.
+   Um prompt personalizado é um prompt predefinido em que você codifica os critérios de filtragem antes de executar o relatório. Nesse sentido, um prompt personalizado está mais próximo de um filtro do que de um prompt.
 
-   No entanto, o prompt permanece tão flexível quanto um prompt regular, pois você pode escolher entre várias instruções predefinidas, em vez de ter apenas um filtro embutido em código no relatório.
+   No entanto, o prompt permanece tão flexível quanto um prompt regular, pois você pode escolher entre várias instruções predefinidas, em vez de ter apenas um filtro codificado no relatório.
 
    Especifique as seguintes informações para o prompt personalizado: a condição de um prompt personalizado só pode ser editada usando o modo de texto. Isso permite que várias condições sejam aplicadas em um único campo.
 
@@ -113,13 +113,13 @@ Para obter instruções sobre como criar um relatório, consulte [Criar um relat
      project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
      ```
 
-   * todas as tarefas em projetos concluídos (passados) com status de Concluído ou Inativo:
+   * todas as tarefas em projetos concluídos (passados) em que o status do projeto é Concluído ou Inativo:
 
      ```
      project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
      ```
 
-   Para obter mais informações sobre modificadores de modo de texto, consulte [Filtro e modificadores de condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Para obter mais informações sobre modificadores de modo de texto, consulte [Modificadores de filtro e condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
    >
@@ -130,19 +130,19 @@ Para obter instruções sobre como criar um relatório, consulte [Criar um relat
 
 ## Aplicar um prompt a um relatório
 
-Quando um prompt é adicionado a um relatório, a guia padrão do relatório é sempre a guia Prompts.
+Quando você tem um prompt adicionado a um relatório, a guia padrão do relatório é sempre a guia Prompts.
 
 Para executar um relatório com um prompt:
 
-1. Acesse o relatório com o prompt.
+1. Vá para o relatório com o prompt.
 
    ![Executar prompts de relatório](assets/run-report-prompts.png)
 
 1. Escolha uma condição para uma ou todas as solicitações exibidas na guia **Solicitações**.\
-   (Opcional) Você pode deixar os prompts em branco e não filtrar o relatório pelas condições do prompt.
+   (Opcional) Você pode deixar os prompts em branco e não filtrar o relatório pelas condições de prompt.
 
 1. Clique em **Executar relatório**.\
-   (Condicional) Se você preencheu os prompts, o relatório é filtrado pelas condições escolhidas para seus prompts.\
+   (Condicional) Se você preencheu os prompts, o relatório será filtrado pelas condições escolhidas para seus prompts.\
    (Condicional) Se você deixar os prompts em branco, o relatório não será filtrado pelas condições de prompt. O relatório é exibido como se não tivesse sido filtrado.
 
    >[!NOTE]
@@ -155,14 +155,14 @@ Para executar um relatório com um prompt:
 >
 >Quando você compartilha um relatório solicitado, os usuários conectados e não conectados que visualizam o relatório usando o link de compartilhamento público não podem executar o relatório usando seus prompts. Nesse caso, os resultados do relatório são exibidos sem aplicar prompts e as informações exibidas serão baseadas no nível de acesso e nas permissões do usuário ou no nível de acesso e permissões Executar como usuário do relatório, se definido.
 
-A seguir, há limitações no compartilhamento de relatórios solicitados do Workfront:
+Veja a seguir limitações no compartilhamento de relatórios solicitados do Workfront:
 
-* Ao compartilhar um relatório publicamente, os usuários não podem executá-lo com prompts aplicados, a menos que: tenham credenciais do Workfront, façam logon primeiro e naveguem até o relatório diretamente no Workfront (não por meio do link de compartilhamento público).
+* Quando você compartilha um relatório publicamente, os usuários não podem executar o relatório com os prompts aplicados, a menos que: tenham credenciais do Workfront, façam logon primeiro e naveguem até o relatório diretamente no Workfront (não por meio do link de compartilhamento público).
 
-  Para obter mais informações sobre como compartilhar relatórios, consulte o artigo [Compartilhar um relatório no Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  Para obter mais informações sobre o compartilhamento de relatórios, consulte o artigo [Compartilhar um relatório no Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
 * Ao agendar um relatório solicitado para entrega, o relatório no anexo de email inclui os dados do relatório não solicitados. Quando o usuário clica no link no email para acessar o relatório, ele deve fazer logon primeiro para visualizar o relatório e executar o prompt.
 
   Para obter informações sobre como agendar um relatório entregue, consulte [Agendar uma entrega automática de relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-* Ao executar um relatório com um prompt baseado em data, os resultados do relatório serão filtrados com base nas configurações de fuso horário do navegador. Isso pode causar pequenas discrepâncias nos intervalos de datas exibidos em um relatório solicitado para datas no início ou no final de um mês. Se as configurações de fuso horário do seu navegador estiverem vinculadas a um local específico, as variações no horário local desse local (como a adesão ao horário de verão) também serão fatoradas nas datas exibidas para um relatório solicitado. Isso pode levar a pequenas discrepâncias de intervalo de datas entre usuários no mesmo fuso horário, mas com configurações de local diferentes.
+* Ao executar um relatório com um prompt baseado em data, os resultados do relatório serão filtrados com base nas configurações de fuso horário do navegador. Isso pode causar discretas discrepâncias nos intervalos de datas exibidos em um relatório solicitado para datas que estejam no início ou no final de um mês. Se as configurações de fuso horário do navegador estiverem vinculadas a um local específico, as variações na hora local desse local (como a adesão ao horário de verão) também serão consideradas nas datas exibidas para um relatório solicitado. Isso pode levar a pequenas discrepâncias de intervalo de datas entre usuários no mesmo fuso horário, mas com configurações de local diferentes.

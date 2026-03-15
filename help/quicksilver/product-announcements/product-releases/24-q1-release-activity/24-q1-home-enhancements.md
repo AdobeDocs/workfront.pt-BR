@@ -1,13 +1,14 @@
 ---
 title: Melhorias na página inicial do primeiro trimestre de 2024
 description: Melhorias na página inicial do primeiro trimestre de 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias iniciais feitas com a versão do Primeiro trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão do primeiro trimestre de 2024.
 
-Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2024, consulte [Visão geral da versão do Primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do primeiro trimestre de 2024, consulte [Visão geral de lançamentos do primeiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Novo widget de aprovações pendentes disponível
 

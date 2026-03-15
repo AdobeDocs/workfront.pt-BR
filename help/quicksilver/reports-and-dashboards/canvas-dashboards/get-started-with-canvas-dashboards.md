@@ -1,14 +1,14 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards
-title: Introdução aos Painéis do Canvas
-description: Saiba mais sobre Painéis do Canvas
-author: Courtney and Jenny
+title: Introdução aos painéis do Canvas
+description: Saiba mais sobre os painéis do Canvas
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 hide: true
-source-git-commit: 7a53b949d012f434e325201b3bf22dac435b98bf
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '14'
 ht-degree: 0%
@@ -16,4 +16,4 @@ ht-degree: 0%
 ---
 
 
-# Introdução aos Painéis do Canvas
+# Introdução aos painéis do Canvas

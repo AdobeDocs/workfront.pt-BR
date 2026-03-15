@@ -1,20 +1,20 @@
 ---
 title: Melhorias no painel e no relatório do quarto trimestre de 2024
 description: Melhorias no painel e no relatório do quarto trimestre de 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4b7b926-f747-4aee-b983-fe6b5f2e0dfd
-source-git-commit: 1f33ef44b8e5d703c5407cdd2fc8ca24fba48bb1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '239'
+ht-degree: 5%
 
 ---
 
 # Melhorias no painel e no relatório do quarto trimestre de 2024
 
-Esta página descreve todos os aprimoramentos de relatórios e painéis feitos com a versão do quarto trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve todos os aprimoramentos de relatórios e painéis feitos com a versão do quarto trimestre de 2024 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2024, consulte [Visão geral da versão do quarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 

@@ -3,13 +3,13 @@ product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
 title: Compartilhar um painel da tela
 description: Você pode compartilhar um painel do Canvas com outros usuários do Adobe Workfront para que eles possam exibi-lo ou editá-lo.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ Você pode compartilhar um painel do Canvas com outros usuários do Adobe Workfr
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -45,7 +45,7 @@ Você pode compartilhar um painel do Canvas com outros usuários do Adobe Workfr
  <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td> 
-<p>Standard </p> 
+<p>Padrão </p> 
 <p>Plano</p> 
    </td> 
    </tr> 
@@ -65,7 +65,7 @@ Você pode compartilhar um painel do Canvas com outros usuários do Adobe Workfr
 </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Considerações sobre o compartilhamento de painéis

@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Criar um relatório personalizado
 description: Você pode fornecer acesso às informações de que sua organização precisa na Adobe Workfront criando relatórios. Você pode usar qualquer um dos relatórios internos disponíveis no Workfront ou criar seus relatórios personalizados do zero.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1816'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ Para obter mais informações sobre como criar e gerenciar relatórios, incluind
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +41,7 @@ Para obter mais informações sobre como criar e gerenciar relatórios, incluind
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-      <p>Standard</p>
+      <p>Padrão</p>
       <p>Plano</p>
    </td>
   </tr> 
@@ -56,7 +56,7 @@ Para obter mais informações sobre como criar e gerenciar relatórios, incluind
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

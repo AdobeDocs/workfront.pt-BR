@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Adicionar um gráfico a um relatório
 description: Você pode aprimorar seus relatórios adicionando um gráfico. É possível adicionar gráficos a relatórios existentes ou a relatórios que você está criando.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2739'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ Para obter mais informações sobre filtros, consulte [Visão geral sobre filtro
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +46,7 @@ Para obter mais informações sobre filtros, consulte [Visão geral sobre filtro
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-      <p>Standard</p>
+      <p>Padrão</p>
       <p>Plano</p>
    </td>
   </tr> 
@@ -61,7 +61,7 @@ Para obter mais informações sobre filtros, consulte [Visão geral sobre filtro
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -105,9 +105,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 Para adicionar um gráfico de **Coluna** ao seu relatório:
 
-1. Comece a adicionar um gráfico ao seu relatório, conforme descrito em [Adicionar um gráfico a um relatório](#add-a-chart-to-a-report).
+1. Comece a adicionar um gráfico ao relatório, conforme descrito em [Adicionar um gráfico a um relatório](#add-a-chart-to-a-report).
 
-1. No campo **Eixo Esquerdo (Y)**, selecione os valores que deseja incluir no eixo Y do gráfico e selecione como deseja que as informações sejam resumidas no campo **Resumido por**.
+1. No campo Eixo **Esquerdo (Y)**, selecione os valores que deseja incluir no eixo Y do gráfico e, em seguida, selecione como deseja que as informações sejam resumidas no campo **Resumido por**.
 
 1. (Opcional) Clique em **Cores Personalizadas** para atribuir cores preferenciais a cada uma das colunas.\
    Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
@@ -116,8 +116,8 @@ Para adicionar um gráfico de **Coluna** ao seu relatório:
 
 1. (Opcional) Clique em **Mostrar em 3D** para exibir o gráfico em uma exibição tridimensional.
 
-1. (Opcional) **Colunas de Grupo**: selecione essa opção para definir como você deseja que as colunas sejam agrupadas.\
-   Selecione entre as seguintes opções:
+1. (Opcional) **Colunas de Grupo**: selecione esta opção para definir como você deseja que as colunas sejam agrupadas.\
+   Selecione uma das seguintes opções:
 
    * Clique em uma das seguintes opções para selecionar como as colunas agrupadas serão exibidas:
 
@@ -208,7 +208,7 @@ Para adicionar um gráfico de **Linha** ao seu relatório:
    (Opcional) Clique em **Cores Personalizadas** para personalizar as cores do novo agrupamento.\
    Para obter mais informações sobre como personalizar as cores do gráfico, consulte [Personalizar cores do gráfico](#customize-chart-colors).
 
-1. (Opcional) Clique em **Gráfico de combinação** para combinar suas linhas com um valor adicional.\
+1. (Opcional) Clique em **Gráfico de Combinação** para combinar suas linhas por um valor adicional.\
    Considere entre as seguintes opções:
 
    * Selecione o valor que deseja incluir no gráfico e como deseja que as informações sejam resumidas.
@@ -218,11 +218,11 @@ Para adicionar um gráfico de **Linha** ao seu relatório:
 
 ### Gráfico de medição {#gauge-chart}
 
-Um gráfico **Medidor** exibe o número de registros que atendem a um determinado critério em um formato de medidor. O indicador do medidor aponta para o número de registros que atendem aos critérios selecionados na exibição e no agrupamento do relatório. Não é necessário um agrupamento de relatório para configurar um gráfico de medidor.
+Um gráfico do **Medidor** exibe o número de registros que atendem a determinados critérios em um formato de medidor. O indicador do indicador aponta para o número de registros que atendem aos critérios selecionados na exibição e no agrupamento do relatório. Um agrupamento de relatórios não é necessário para configurar um gráfico de indicador.
 
-Para adicionar um gráfico **Gauge** ao seu relatório:
+Para adicionar um gráfico do **Medidor** ao relatório:
 
-1. Comece a adicionar um gráfico ao seu relatório, conforme descrito em [Adicionar um gráfico a um relatório](#add-a-chart-to-a-report).
+1. Comece a adicionar um gráfico ao relatório, conforme descrito em [Adicionar um gráfico a um relatório](#add-a-chart-to-a-report).
 
 1. No campo **Valores**, selecione os valores que deseja exibir no relatório e selecione como deseja que as informações sejam resumidas no campo **Resumo por**. Se você selecionar **Contagem de registros**, os valores exibidos serão o objeto do relatório.
 
@@ -305,8 +305,8 @@ Para personalizar as cores do gráfico:
 1. Considere selecionar qualquer uma das seguintes opções:
 
    * **Usar uma cor**: todos os elementos do gráfico serão exibidos na cor selecionada.
-   * **Adicionar Cor**: adicione uma cor personalizada para um possível valor do campo selecionado.
-   * **Remover Tudo**: selecione esta opção para remover todos os valores e cores de campo especificados acima.
+   * **Adicionar cor**: adicione uma cor personalizada para um possível valor do campo selecionado.
+   * **Remover tudo**: selecione esta opção para remover todos os valores de campo e cores especificados acima.
    * **Sem valor**: selecione este campo e uma cor personalizada para exibir a coluna do gráfico que agrupa itens de &quot;nenhum valor&quot;. Esses itens não podem ser agrupados por nenhuma das opções do campo selecionado no seu agrupamento.
    * **Todos os Outros Valores**: selecione este campo e uma cor personalizada para exibir todos os outros elementos do gráfico cujas opções não estão definidas acima.
 
@@ -319,7 +319,7 @@ Clique dentro do seletor de cores para selecionar uma cor.
 OU
 Especifique um valor de cor hexadecimal para a cor.
 
-1. Clique em qualquer lugar fora da caixa de diálogo Cores Personalizadas para fechá-la. As cores selecionadas são salvas automaticamente.
+1. Clique em qualquer local fora da caixa de diálogo Cores personalizadas para fechá-la. As cores selecionadas são salvas automaticamente.
 
 1. Clique em **Salvar + Fechar** para salvar o gráfico e executar o relatório.
 

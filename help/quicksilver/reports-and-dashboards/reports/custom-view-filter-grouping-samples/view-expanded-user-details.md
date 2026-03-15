@@ -2,29 +2,29 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Exibição: Detalhes do Usuário Expandido'
-description: Esta visualização do usuário exibe informações sobre seus usuários. Além do nome, dos níveis de acesso e da Empresa, também mostra listas de Grupos, Equipes e Funções.
-author: Nolan
+title: 'View: Expanded User Details'
+description: This User view displays information about your users. In addition to their name, access levels, and Company, it also shows lists of their Groups, Teams, and Job Roles.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a978b43-4718-43fb-80b8-844b35e09d06
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
-# Exibição: detalhes do usuário expandidos
+# Exibição: detalhes expandidos do usuário
 
 <!--Audited: 11/2024-->
 
-Esta visualização do usuário exibe informações sobre seus usuários. Além do nome, dos níveis de acesso e da Empresa, também mostra listas de Grupos, Equipes e Funções.
+This User view displays information about your users. In addition to their name, access levels, and Company, it also shows lists of their Groups, Teams, and Job Roles.
 
-![expand_user_view.png](assets/expanded-user-view-350x75.png)
+![expanded_user_view.png](assets/expanded-user-view-350x75.png)
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,12 +37,12 @@ Esta visualização do usuário exibe informações sobre seus usuários. Além 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou Solicitação para modificar uma exibição </p>
+   <p>Colaborador ou Solicitação de modificação de uma exibição </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
+   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Acesso de edição a filtros, visualizações, agrupamentos para modificar uma visualização</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -51,20 +51,20 @@ Esta visualização do usuário exibe informações sobre seus usuários. Além 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Exibir detalhes do usuário expandidos
+## View expanded user details
 
-Para aplicar esta exibição:
+To apply this view:
 
-1. Ir para uma lista de usuários.
-1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
+1. Go to a list of users.
+1. No menu suspenso **Exibição**, selecione **Nova Exibição**.
 
 1. Na área **Visualização da coluna**, elimine todas as colunas, exceto uma.
-1. Clique no cabeçalho da coluna restante e em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
-1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
+1. Clique no cabeçalho da coluna restante e clique em **Alternar para o Modo de Texto** > **Editar Modo de Texto**.
+1. Remove the text you find in the **dit Text Mode** box, and replace it with the following code:
 
    ```
    column.0.descriptionkey=name 
@@ -151,4 +151,4 @@ Para aplicar esta exibição:
    column.5.width=150
    ```
 
-1. Clique em **Concluído** > **Salvar exibição**.
+1. Clique em **Concluído** > **Salvar Exibição**.

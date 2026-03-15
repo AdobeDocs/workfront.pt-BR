@@ -2,31 +2,31 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Agrupamento: Grupo Padrão do Proprietário do Projeto em uma Lista de Horas'
-description: Você pode exibir o nome do Grupo Inicial do Proprietário do Projeto em uma lista de Horas ou relatório.
-author: Nolan
+title: 'Agrupamento: Grupo Home do Proprietário do Projeto em uma Lista de Horas'
+description: Você pode exibir o nome do Grupo Doméstico do Proprietário do Projeto em uma lista de Horas ou relatório.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6491ab9b-c09e-4bdb-99c2-56bb44f66947
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# Agrupamento: Grupo Padrão do Proprietário do Projeto em uma lista de horas
+# Agrupamento: grupo de origem do proprietário do projeto em uma lista de horas
 
 <!--Audited: 10/2024-->
 
-Você pode exibir o nome do Grupo Inicial do Proprietário do Projeto em uma lista de Horas ou relatório.
+Você pode exibir o nome do Grupo Doméstico do Proprietário do Projeto em uma lista de Horas ou relatório.
 
-O agrupamento também agrupa os resultados pelo nome do Proprietário do projeto e pelo Nome do projeto.
+O agrupamento também agrupa os resultados pelo nome do Proprietário do Projeto e pelo Nome do Projeto.
 
-![agrupamento_para_proprietário_do_projeto_grupo_inicial.png](assets/grouping-for-project-owner-home-group-350x51.png)
+![grouping_for_project_owner_home_group.png](assets/grouping-for-project-owner-home-group-350x51.png)
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,12 +39,12 @@ O agrupamento também agrupa os resultados pelo nome do Proprietário do projeto
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou Solicitação para modificar um filtro </p>
+   <p>Colaborador ou solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a filtros, exibições e agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -53,19 +53,19 @@ O agrupamento também agrupa os resultados pelo nome do Proprietário do projeto
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Agrupar por grupo padrão do proprietário do projeto em uma lista de horas
+## Agrupar por Grupo Doméstico do Proprietário do Projeto em uma lista de horas
 
-Para aplicar esse agrupamento:
+Para aplicar este agrupamento:
 
-1. Ir para uma lista de horas.
+1. Vá para uma lista de horas.
 1. No menu suspenso **Agrupamento**, selecione **Novo agrupamento**.
 
-1. Clique em **Alternar para Modo de Texto**.
-1. Remover o texto da área **Agrupar por**.
+1. Clique em **Alternar para o Modo de Texto**.
+1. Remova o texto na área **Agrupar por**.
 1. Substitua o texto pelo seguinte código:
 
 ```
@@ -89,5 +89,5 @@ group.2.valueformat=string
 textmode=true
 ```
 
-1. Clique em **Concluído** > **Salvar agrupamento**.
-1. (Opcional) Atualize o nome do agrupamento e clique em **Salvar agrupamento**.
+1. Clique em **Concluído** > **Salvar Agrupamento**.
+1. (Opcional) Atualize o nome do agrupamento e clique em **Salvar Agrupamento**.

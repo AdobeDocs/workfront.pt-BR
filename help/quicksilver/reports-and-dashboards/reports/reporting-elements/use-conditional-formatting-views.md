@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Usar formatação condicional em exibições
+title: Usar formatação condicional nas visualizações
 description: Ao compartilhar seus relatórios com outros usuários no Adobe Workfront, considere personalizar a exibição dos relatórios para facilitar a leitura de determinadas informações ou apenas destacá-las.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-# Usar formatação condicional em exibições
+# Usar formatação condicional nas visualizações
 
 <!-- Audited: 11/2024 -->
 
@@ -21,11 +21,11 @@ Ao compartilhar seus relatórios com outros usuários no Adobe Workfront, consid
 
 Você pode personalizar a guia Detalhes de seus relatórios adicionando formatação especial ou condicional à exibição de seus relatórios.
 
-Para obter mais informações sobre como criar relatórios, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Para obter mais informações sobre a criação de relatórios, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Ao formatar condicionalmente colunas na exibição do relatório, você pode configurar regras que afetam a maneira como o relatório é exibido. Quando essas condições ou regras são atendidas, a formatação especial é aplicada.
+Ao formatar condicionalmente as colunas na exibição do relatório, você pode configurar regras que afetam a maneira como o relatório é exibido. Quando essas condições ou regras são atendidas, a formatação especial é aplicada.
 
-Por exemplo, se a porcentagem concluída de uma tarefa for inferior a 20%, é possível realçar o campo mostrando o número da porcentagem em negrito, texto vermelho e uma cor de fundo amarela.
+Por exemplo, se a porcentagem concluída de uma tarefa for inferior a 20%, você pode destacar o campo mostrando o número da porcentagem em negrito, texto vermelho e uma cor amarela de fundo.
 
 Com uma view formatada condicionalmente, você pode:
 
@@ -37,7 +37,7 @@ As alterações feitas na visualização do relatório só têm efeito na guia D
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +56,7 @@ As alterações feitas na visualização do relatório só têm efeito na guia D
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para editar uma visualização em um relatório</p>
+   <td> <p>Editar acesso a filtros, exibições e agrupamentos</p> <p>Acesso de edição a Relatórios, Painéis e Calendários para editar uma exibição em um relatório</p>
    </td> 
   </tr> 
   <tr> 
@@ -67,13 +67,13 @@ As alterações feitas na visualização do relatório só têm efeito na guia D
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Pré-requisitos
 
-Você deve criar um relatório antes de adicionar formatação condicional à respectiva visualização.
+Você deve criar um relatório antes de adicionar formatação condicional à sua exibição.
 
 Para obter informações sobre como criar um relatório, consulte [Criar um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
@@ -143,11 +143,11 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Alinhamento do texto</strong></td> 
-      <td>Selecione se deseja alinhar o texto à direita, no centro ou à esquerda dentro da coluna.</td> 
+      <td>Selecione se deseja alinhar o texto à direita, no centro ou à esquerda na coluna.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Histórico</strong></td> 
-      <td>Selecione a cor do plano de fundo do texto usando o seletor de cores.</td> 
+      <td>Selecione a cor de fundo do texto usando o seletor de cores.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostrar ícone</strong></td> 
@@ -155,7 +155,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Mostrar texto</strong></td> 
-      <td> <p>Selecione essa opção para exibir um rótulo personalizado para essa coluna, em vez do valor real. Especifique o texto a ser exibido em vez do valor no campo fornecido.</p> <p><b>IMPORTANTE</b></p> <p>Selecionar <strong>Mostrar Texto</strong> desabilita a capacidade de editar o texto em linha nesta coluna.<br>Além disso, não é possível alterar o valor de uma coluna Predecessora porque ela contém lógica interna.</p> </td> 
+      <td> <p>Selecione essa opção para exibir um rótulo personalizado para essa coluna, em vez do valor real. Especifique o texto a ser mostrado em vez do valor no campo fornecido.</p> <p><b>IMPORTANTE</b></p> <p>Selecionar <strong>Mostrar Texto</strong> desabilita a capacidade de editar o texto embutido nesta coluna.<br>Além disso, não é possível alterar o valor de uma coluna Predecessora porque ela contém lógica interna.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aplicar a toda a linha</strong></td> 
@@ -178,12 +178,12 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 
    **EXEMPLO 2**
 
-   Crie uma regra na coluna Data de conclusão planejada do projeto que afete a linha inteira, tornando o plano de fundo cinza se o projeto for cancelado (por exemplo, quando o Status do projeto for Desativado). Em seguida, crie uma regra de coluna que torne o plano de fundo vermelho quando a Data de conclusão planejada do projeto for anterior à data de hoje (o que significa que o projeto está atrasado). Neste exemplo, se um projeto cancelado tiver uma data de conclusão atrasada, essa célula aparecerá vermelha mesmo que as outras células na linha estejam em cinza. Para corrigir essa formatação:
+   Crie uma regra na coluna Data de conclusão planejada do projeto que afete toda a linha, tornando o plano de fundo cinza se o projeto for cancelado (por exemplo, quando o status do projeto for Inativo). Em seguida, crie uma regra de coluna que torne o plano de fundo vermelho quando a Data de conclusão planejada do projeto for anterior à data de hoje (o que significa que o projeto está atrasado). Neste exemplo, se um projeto cancelado tiver uma data de conclusão atrasada, essa célula aparecerá vermelha, mesmo que as outras células na linha sejam cinza. Para corrigir essa formatação:
 
    * Edite a formatação para a Data de conclusão planejada e exclua a regra de coluna para o plano de fundo vermelho em projetos atrasados.
    * Adicione uma regra de coluna com a mesma formatação da regra de linha (plano de fundo cinza quando o Status do projeto for = Inativo).
    * Adicione a regra de coluna novamente para o plano de fundo vermelho em projetos atrasados.
-   * Ao salvar as regras e a visualização, o plano de fundo vermelho não é aplicado a um projeto cancelado.
+   * Quando você salva as regras e o modo de exibição, o plano de fundo vermelho não é aplicado a um projeto cancelado.
 
 1. Clique em **Salvar**.
 1. Clique em **Salvar + Fechar**.\

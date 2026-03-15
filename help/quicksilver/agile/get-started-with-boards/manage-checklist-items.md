@@ -3,13 +3,13 @@ product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Gerenciar itens da lista de verificação em cartões
 description: Usar uma lista de verificação em um cartão permite dividir o trabalho em incrementos menores ou adicionar observações ao cartão. Os itens da lista de verificação estão disponíveis em cartões ad hoc e conectados.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ Para obter informações sobre cartões, consulte [Adicionar um cartão ad hoc a
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,14 +34,14 @@ Para obter informações sobre cartões, consulte [Adicionar um cartão ad hoc a
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p> 
-   <p>Solicitação ou superior</p>
+   <p>Colaborador ou posterior</p> 
+   <p>Solicitação ou posterior</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -49,7 +49,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step1-to-boards}}
 
-1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
+1. Acessar um painel. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clique no cartão para abrir a caixa [!UICONTROL Detalhes do cartão].
 
    Ou
@@ -64,9 +64,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    ![Caixa Detalhes do Item da Lista de Verificação](assets/checklist-item-details.png)
 
-1. (Opcional) Adicione uma descrição, destinatários, data de vencimento e horas estimadas para o item da lista de verificação.
+1. (Opcional) Adicione uma descrição, destinatários, data de vencimento e horas de previsão para o item da lista de verificação.
 
-   Para obter informações sobre qualquer um desses campos, consulte [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) ou [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+   Para obter informações sobre qualquer um desses campos, consulte [Adicionar um cartão ad hoc a um painel](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) ou [Usar cartões conectados em painéis](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 1. Clique em **[!UICONTROL Fechar]** para retornar aos detalhes do cartão e à lista completa de itens da lista de verificação.
 
@@ -82,9 +82,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    Ou
 
-   Clique no menu **[!UICONTROL Mais]** ![Mais menus](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Editar]**.
+   Clique no menu **[!UICONTROL Mais]** ![Mais menus](assets/more-icon-spectrum.png) do cartão e selecione **[!UICONTROL Editar]**.
 
-1. Marque a caixa de seleção ao lado do item que está concluído.
+1. Marque a caixa de seleção ao lado do item que está completo.
 
    O contador é atualizado para mostrar os itens concluídos.
 

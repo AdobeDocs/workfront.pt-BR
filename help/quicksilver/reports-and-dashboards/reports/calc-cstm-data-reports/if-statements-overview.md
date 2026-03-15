@@ -4,17 +4,17 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Visão geral de instruções IF
 description: Você pode usar instruções "IF" em linguagens de programação gerais. No Adobe Workfront, as instruções "IF" permitem comparar, formatar e reunir campos de dados para fins de relatório e dados personalizados. Além disso, pensar matematicamente sobre declarações "IF" leva a uma melhor compreensão conceitual, uma vez que as variáveis para expressões são comumente usadas.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
 
 ---
 
-# Visão geral das instruções &quot;IF&quot;
+# Visão geral das instruções “IF”
 
 <!-- Audited: 1/2024 -->
 
@@ -57,7 +57,7 @@ Você pode criar instruções &quot;IF&quot; no Workfront usando o seguinte form
 
 * **Operador de Condição** = este é o operador que ajuda a criar a condição da sua instrução &quot;IF&quot;. Por exemplo, &quot;é igual a&quot; ou &quot;é maior que&quot; são operadores de condição. Para obter uma lista de operadores de condição que você pode usar em instruções, consulte [Operadores de condição em expressões personalizadas calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True**&#x200B;**Expression** = Esta é a variável &quot;True&quot;, que informa à equação qual indicador será exibido quando os critérios da condição forem atendidos (indicadores true).
+* **True****Expression** = Esta é a variável &quot;True&quot;, que informa à equação qual indicador será exibido quando os critérios da condição forem atendidos (indicadores true).
 
 * **Expressão Falsa** = Essa é a variável &quot;False&quot;, que informa à equação qual indicador exibir quando os critérios da condição não forem atendidos (indicadores falsos).
 

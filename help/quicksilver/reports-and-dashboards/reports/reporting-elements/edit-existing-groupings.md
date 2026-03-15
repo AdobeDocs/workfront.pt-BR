@@ -1,13 +1,13 @@
 ---
 title: Editar agrupamentos existentes
 description: Editar agrupamentos existentes
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ Você pode personalizar um agrupamento existente criado originalmente ou que foi
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,8 +34,8 @@ Você pode personalizar um agrupamento existente criado originalmente ou que foi
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</strong></td> 
    <td> 
-    <p>Colaborador ou superior</p>
-    <p>Solicitação ou superior</p>
+    <p>Colaborador ou posterior</p>
+    <p>Solicitação ou posterior</p>
    </td>
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Você pode personalizar um agrupamento existente criado originalmente ou que foi
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Pré-requisitos
@@ -87,6 +87,6 @@ Para obter informações sobre como criar um agrupamento, consulte [Criar agrupa
    >* Os resultados de um agrupamento sempre são exibidos expandidos depois de acessá-los a partir de um elemento do gráfico ou em uma lista herdada. Nesses casos, essa configuração é ignorada.
 
 1. Repita as etapas 4, 5 e 6 para definir agrupamentos adicionais.\
-   É possível definir até três agrupamentos para organizar as informações. Você pode organizar ainda mais suas informações com até quatro agrupamentos criando um relatório de matriz. Para obter mais informações sobre relatórios de matriz, consulte [Criar um relatório de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+   É possível definir até três agrupamentos para organizar informações. Você pode organizar ainda mais suas informações com até quatro agrupamentos criando um relatório de matriz. Para obter mais informações sobre relatórios de matriz, consulte [Criar um relatório de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 1. Clique em **Salvar agrupamento** para substituir o agrupamento atual pelas alterações.

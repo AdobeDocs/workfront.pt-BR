@@ -4,17 +4,17 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visualização: Remover Link para um Objeto em uma Coluna'
 description: Alguns objetos exibidos em uma view são vinculados à página Detalhes do objeto, por padrão. Por exemplo, a coluna que exibe o Nome de um projeto é um link para o projeto; a coluna que exibe o Nome de um usuário é um link para a página de perfil do usuário.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
-# Exibir: remover link de um objeto em uma coluna
+# Exibição: remover link para um objeto em uma coluna
 
 <!--Audited: 11/2024-->
 
@@ -24,7 +24,7 @@ Você pode remover esse link usando o modo de texto em colunas exibidas em todas
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Você pode remover esse link usando o modo de texto em colunas exibidas em todas
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++

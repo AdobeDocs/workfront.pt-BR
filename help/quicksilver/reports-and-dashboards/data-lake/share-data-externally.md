@@ -2,23 +2,23 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Estabelecer uma conexão com o Workfront Data Connect
+title: Estabelecer uma conexão com a conexão de dados do Workfront
 description: O Workfront Data Connect permite usar os dados do Workfront de sua organização com ferramentas de business intelligence ou armazená-los em um data warehouse externo.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
-# Estabelecer uma conexão com o Workfront Data Connect
+# Estabelecer uma conexão com a conexão de dados do Workfront
 
 O Workfront Data Connect permite usar os dados do Workfront de sua organização com ferramentas de business intelligence ou armazená-los em um data warehouse externo.
 
-Para conectar seu data lake do Data Connect a um produto externo, primeiro você deve criar uma conexão conforme descrito em [Criar uma conta ou conexão de leitor para o Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Em seguida, você deve adicionar os IPs necessários ao incluo na lista de permissões, conforme descrito em [Adicionar IPs ao incluo na lista de permissões](#add-ips-to-the-allowlist) abaixo.
+Para conectar seu data lake da Conexão de Dados a um produto externo, primeiro você deve criar uma conexão conforme descrito em [Criar uma conta ou conexão de leitor para Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Em seguida, adicione os IPs necessários ao incluo na lista de permissões conforme descrito em [Adicionar IPs ao incluo na lista de permissões](#add-ips-to-the-allowlist) abaixo.
 
 A maioria dos produtos exigirá as seguintes informações sobre seu data lake para estabelecer uma conexão:
 
@@ -37,9 +37,9 @@ A maioria dos produtos exigirá as seguintes informações sobre seu data lake p
 
 >[!IMPORTANT]
 >
->Depois que uma entrada é adicionada ao arquivo de inclui na lista de permissões IP, todos os outros endereços IP não são mais permitidos. Verifique se você inseriu todos os endereços IP necessários, para as experiências de criação e leitura da ferramenta de visualização, antes de tentar usar a ferramenta. Caso contrário, você poderá encontrar um erro relacionado às credenciais inválidas.
+>Depois que uma entrada é adicionada ao incluo na lista de permissões IP, todos os outros endereços IP não são mais permitidos. Verifique se você inseriu todos os endereços IP necessários, para as experiências de criação e leitura da ferramenta de visualização, antes de tentar usar a ferramenta. Caso contrário, você poderá encontrar um erro relacionado às credenciais inválidas.
 >
->Se você não tiver nenhum endereço IP incluído na sua inclui na lista de permissões do, mas ainda tiver problemas para se conectar a uma ferramenta de BI, verifique a configuração do servidor proxy para a ferramenta de BI.
+>Se você não tiver endereços IP incluídos em seu incluo na lista de permissões, mas ainda tiver problemas para se conectar a uma ferramenta de BI, verifique a configuração do servidor proxy para a ferramenta de BI.
 
 ## Requisitos de acesso
 
@@ -58,7 +58,7 @@ A maioria dos produtos exigirá as seguintes informações sobre seu data lake p
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -68,23 +68,23 @@ A maioria dos produtos exigirá as seguintes informações sobre seu data lake p
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Adicionar IPs ao incluo na lista de permissões
+## Adicionar IPs à lista de permissões
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Instalação**.
 
 1. No painel esquerdo, clique em **Sistema** > **Conexão de Dados**.
 
-1. Incluir na lista de permissões Clique na guia **IPs permitidos** e, em seguida, clique no botão **Adicionar um endereço IP à pesquisa**.
+1. Clique na guia **IPs permitidos** e clique no botão **Adicionar um endereço IP ao seu Incluo na lista de permissões**.
 
-1. Incluir na lista de permissões Insira um nome para o endereço IP em **descrição do Endereço IP** e insira o endereço IP (ou bloco CIDR) da ferramenta que deseja usar em **Endereço IP** e clique em **Adicionar IP à pesquisa**.
+1. Insira um nome para o endereço IP na **descrição do Endereço IP** e insira o endereço IP (ou bloco CIDR) da ferramenta que deseja usar no **Endereço IP** e clique em **Adicionar IP ao Incluo na lista de permissões**.
 
    ![Adicionar endereço IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
-## Remover um endereço IP da inclui na lista de permissões
+## Remover um endereço IP do incluo na lista de permissões
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Instalação**.
 
@@ -94,9 +94,9 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. Na janela exibida, marque a caixa para confirmar e clique em **Excluir**.
 
-## Compartilhar dados com ferramentas de Business Intelligence
+## Compartilhar dados com ferramentas de business intelligence
 
-Várias ferramentas comuns de business intelligence estão listadas abaixo; visite os sites de documentação para saber mais sobre como se conectar ao seu data lake.
+Várias ferramentas comuns de business intelligence estão listadas abaixo; visite os sites de documentação para saber mais sobre como se conectar ao data lake.
 
 * Tableau
 * Power BI

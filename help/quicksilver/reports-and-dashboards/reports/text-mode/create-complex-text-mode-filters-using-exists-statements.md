@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Criar filtros complexos do Modo de Texto usando instruções EXISTS
+title: Criar filtros complexos do modo de texto usando instruções EXISTS
 description: Você pode criar filtros complexos do Modo de texto usando instruções EXISTS. Este artigo requer uma compreensão completa da API do Adobe Workfront e da interface de relatório do modo de texto.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2668'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Criar filtros complexos do Modo de Texto usando instruções EXISTS
+# Criar filtros complexos do modo de texto usando instruções EXISTS
 
 <!-- Audited: 01/2025 -->
 
@@ -90,7 +90,7 @@ Considere as seguintes regras ao usar instruções EXISTS em um filtro:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -103,7 +103,7 @@ Considere as seguintes regras ao usar instruções EXISTS em um filtro:
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-     <p>Standard</p>
+     <p>Padrão</p>
      <p>Plano</p>
    </td> 
   </tr> 
@@ -118,7 +118,7 @@ Considere as seguintes regras ao usar instruções EXISTS em um filtro:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -280,7 +280,7 @@ Para filtrar Campos Personalizados que não estão associados a um Formulário P
    EXISTS:A:$$EXISTSMOD=NOTEXISTS
    ```
 
-1. Cole o seguinte código na área **Definir regras de filtro para seu Relatório** para substituir o código genérico acima:
+1. Cole o seguinte código na área **Definir Regras de Filtro para o Relatório** para substituir o código genérico acima:
 
    ```
    EXISTS:A:$$OBJCODE=CTGYPA

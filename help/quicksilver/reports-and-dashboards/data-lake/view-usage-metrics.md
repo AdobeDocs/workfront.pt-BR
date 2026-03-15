@@ -2,15 +2,15 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Exibir métricas de uso do Workfront Data Connect
+title: Visualizar métricas de uso da conexão de dados do Workfront
 description: Usando a guia Métricas da Workfront Data Connect, você pode visualizar as métricas de uso de sua organização de acordo com as horas de computação mensais usadas e o número de consultas executadas.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
-source-git-commit: 7764e512a3fb30a89e6645a4d8544a5fcffee231
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
@@ -35,7 +35,7 @@ Usando a guia [!DNL Workfront Data Connect] [!UICONTROL Métricas], você pode e
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Usando a guia [!DNL Workfront Data Connect] [!UICONTROL Métricas], você pode e
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

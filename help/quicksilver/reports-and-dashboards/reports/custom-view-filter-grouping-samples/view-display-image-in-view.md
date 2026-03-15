@@ -4,21 +4,21 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Exibição: exibir uma imagem em vez de uma cadeia de caracteres em uma coluna'
 description: Você pode substituir o nome de um objeto em uma visualização por uma imagem usando o modo de texto. Você também pode adicionar um link para a imagem que pode abrir o objeto substituído.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Exibição: exibir uma imagem em vez de uma cadeia de caracteres em uma coluna
+# Exibição: exibir uma imagem em vez de uma string em uma coluna
 
 <!--Audited: 11/2024-->
 
-Você pode substituir o nome de um objeto em uma visualização por uma imagem usando o modo de texto. Você também pode adicionar um link para a imagem que pode abrir o objeto substituído.
+Você pode substituir o nome de um objeto em uma visualização por uma imagem usando o modo de texto. Também é possível adicionar um link à imagem que possa abrir o objeto que ela substitui.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Você pode substituir o nome de um objeto em uma visualização por uma imagem u
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +46,7 @@ Você pode substituir o nome de um objeto em uma visualização por uma imagem u
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -55,7 +55,7 @@ Você pode substituir o nome de um objeto em uma visualização por uma imagem u
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,8 +66,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    >[!TIP]
    >
    >* Cada tipo de navegador é diferente, mas todos são capazes de exibir URLs.
-   >* Evite usar imagens carregadas no Workfront. Como as imagens armazenadas no Workfront não estão disponíveis publicamente e têm uma chave de acesso que expira após um período de tempo, essas imagens param de ser exibidas na visualização ao longo do tempo.
-   >* Uma imagem salva no computador não tem um URL inerente. Encontre um site que forneça hospedagem de imagens e hospede sua imagem lá. Sua organização pode já ter esse site.
+   >* Evite usar imagens carregadas no Workfront. Como as imagens armazenadas no Workfront não estão disponíveis publicamente e têm uma chave de acesso que expira após um período de tempo, essas imagens param de ser exibidas na exibição com o tempo.
+   >* Uma imagem salva no computador não tem um URL inerente. Encontre um site que forneça hospedagem de imagens e hospede suas imagens no site. Sua organização pode já ter esse site.
 
 1. Usando o navegador da Web, vá para a imagem salva.
 1. Obtenha o URL da imagem fazendo o seguinte:
@@ -83,8 +83,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. No campo **URL**, adicione o link à imagem.
 1. Ir para uma exibição de projeto em uma lista de projetos.
-1. Clique no menu suspenso **Exibir** e em **Nova Exibição**.
-1. Clique no cabeçalho da coluna para o **Nome do Projeto** e clique em **Alternar para Modo de Texto**.
+1. Clique no menu suspenso **Exibição** e clique em **Nova Exibição**.
+1. Clique no cabeçalho da coluna para o **Nome do Projeto** e clique em **Alternar para o Modo de Texto**.
 
 1. Adicione o seguinte código à coluna do código existente:
 

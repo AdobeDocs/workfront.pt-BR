@@ -3,17 +3,17 @@ content-type: reference
 navigation-topic: boards
 title: Migrar cartões Kanban da Equipe Agile para painéis do Workfront
 description: Você pode migrar seus itens de trabalho de um quadro Kanban da Equipe Agile para um quadro Workfront novo ou existente.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
-# Migrar cartões Kanban da equipe do Agile para quadros do Workfront
+# Migrar cartões Kanban da equipe ágil para o Workfront Boards
 
 Você pode migrar seus itens de trabalho de um quadro Kanban da Equipe Agile para um quadro Workfront novo ou existente. Quando você executa a migração, todos os cartões no quadro Kanban são copiados para o quadro Workfront. Você não tem permissão para escolher cartões específicos.
 
@@ -36,14 +36,14 @@ Os cartões não são removidos do quadro Kanban da equipe Agile e as alteraçõ
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p> 
-   <p>Solicitação ou superior</p>
+   <p>Colaborador ou posterior</p> 
+   <p>Solicitação ou posterior</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

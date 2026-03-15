@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: Gerenciar histórias e problemas no quadro Scrum
 description: Você pode mover uma história ou problema do quadro Scrum para outra iteração ou para o backlog, ou excluí-lo do quadro Scrum. Ao excluir uma história ou problema, ele é movido para a Lixeira por 30 dias e pode ser recuperado somente pelo administrador do sistema.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ Para remover uma tarefa ou problema da iteração sem excluí-lo ou enviá-lo pa
 
 +++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -44,7 +44,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
         <td>Selecione para mover o item para outra iteração e escolha para qual iteração a matéria ou problema será movido. Se nenhuma iteração futura for definida, você não poderá mover o item.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Lista de Pendências]</strong></td>
+        <td><strong>[!UICONTROL Lista de pendências]</strong></td>
         <td>Selecione para mover a história ou problema para o backlog da equipe.</td>
     </tr>
    </table>

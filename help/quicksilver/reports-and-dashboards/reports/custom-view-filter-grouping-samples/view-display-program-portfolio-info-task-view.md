@@ -4,17 +4,17 @@ product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Exibir: Exibir Informações do Programa e do Portfolio em uma Exibição de Tarefa'
 description: Essa visualização de tarefa exibe o Programa e o Portfolio associados ao projeto da tarefa. Essas informações não estão disponíveis no Report Builder ao criar uma visualização de tarefa. Essas informações estão disponíveis somente no modo de texto.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
-# Exibição: exibir informações do Programa e do Portfolio em uma exibição de tarefa
+# Exibição: exibir informações sobre o programa e o portfólio em uma visualização de tarefas
 
 Essa visualização de tarefa exibe o Programa e o Portfolio associados ao projeto da tarefa. Essas informações não estão disponíveis no Report Builder ao criar uma visualização de tarefa. Essas informações estão disponíveis somente no modo de texto.
 
@@ -24,7 +24,7 @@ A visualização também fornece links para o Projeto, Programa e Portfolio a pa
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ A visualização também fornece links para o Projeto, Programa e Portfolio a pa
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Exibir informações do Programa e do Portfolio em uma Exibição de tarefa

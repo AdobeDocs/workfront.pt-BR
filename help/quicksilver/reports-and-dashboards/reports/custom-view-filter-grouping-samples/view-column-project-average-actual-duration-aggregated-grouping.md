@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Exibir e Agrupar: Exibir a Duração Real do Projeto Agregada pela Média em um Agrupamento'
 description: Você pode adicionar a seguinte coluna em um relatório de projeto para mostrar a Duração real agregada como uma média em um agrupamento.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 1%
+ht-degree: 21%
 
 ---
 
-# Visualização e agrupamento: exibe a Duração real do projeto agregada pela média em um agrupamento
+# Exibição e agrupamento: exibe a duração real do projeto agregada pela média em um agrupamento
 
 <!--Audited: 11/2024-->
 
@@ -24,7 +24,7 @@ Você pode adicionar a seguinte coluna em uma visualização do projeto para mos
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Você pode adicionar a seguinte coluna em uma visualização do projeto para mos
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

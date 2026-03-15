@@ -3,13 +3,13 @@ product-area: documents
 navigation-topic: approvals
 title: Exibir o número de decisões de prova e documento para todos os usuários
 description: Você pode visualizar o número de decisões de prova e documento tomadas pelos usuários em sua instância do Workfront.
-author: Courtney and Jenny
+author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 

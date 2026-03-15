@@ -2,20 +2,20 @@
 product-previous: workfront-proof
 content-type: release-notes
 navigation-topic: proof-release-activity
-title: Adobe Workfront Proof com a versão 23.3
+title: Adobe Workfront Proof na versão 23.3
 description: Esta página fornece informações sobre a funcionalidade do Adobe Workfront Proof na nova experiência do Adobe Workfront que está sendo lançada no ambiente de produção com a versão 23.3.
-author: Nolan
+author: Courtney
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: b4e3f45f-b687-40e5-93f9-a7c3b58d55bd
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# Adobe Workfront Proof com a versão 23.3
+# Adobe Workfront Proof na versão 23.3
 
 Esta página fornece informações sobre a funcionalidade do Adobe Workfront Proof que está sendo lançada no ambiente de produção dentro do período da versão 23.3.
 
@@ -79,7 +79,7 @@ Para obter uma lista de todas as alterações disponíveis para todas as áreas 
                         </p>
                         <ul>
                             <li>
-                                <p>Versão de pré-visualização: 10 de maio de 2023<br /></p>
+                                <p>Versão preliminar: quinta-feira, 10 de maio de 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Versão de produção: 10 de maio de 2023</span></p>

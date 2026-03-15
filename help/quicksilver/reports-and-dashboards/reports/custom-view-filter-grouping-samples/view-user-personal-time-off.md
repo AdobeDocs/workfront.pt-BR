@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Exibir: tempo de folga pessoal do usuário'
+title: 'Exibição: folga pessoal do usuário'
 description: 'Exibição: Tempo de folga pessoal do usuário'
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 5%
+ht-degree: 26%
 
 ---
 
-# Exibir: tempo de folga pessoal do usuário
+# Exibição: folga pessoal do usuário
 
 <!--Audited: 11/2024-->
 
@@ -26,7 +26,7 @@ Você pode criar um relatório de Folga para capturar as informações de folga 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Você pode criar um relatório de Folga para capturar as informações de folga 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

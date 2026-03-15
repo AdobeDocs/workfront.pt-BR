@@ -4,21 +4,21 @@ product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: 'Mensagem de erro no calendário: ''Este calendário tem os direitos de exibição de um usuário desativado''.'
 description: Saiba mais sobre a mensagem de erro "Este calendário tem os direitos de exibição de um usuário desativado".
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 1%
+ht-degree: 23%
 
 ---
 
-# Mensagem de erro no calendário: &quot;Este calendário tem os direitos de exibição de um usuário desativado&quot;.
+# Mensagem de erro no calendário: “Este calendário tem os direitos de exibição de um usuário desativado”.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,8 +31,8 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-     <p>Standard</p>
-     <p>Trabalhar ou superior</p>
+     <p>Padrão</p>
+     <p>Trabalho ou maior</p>
    </td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

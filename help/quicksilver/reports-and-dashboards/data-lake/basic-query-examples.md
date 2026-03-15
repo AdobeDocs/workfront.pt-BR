@@ -4,17 +4,17 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Exemplos de consulta de Data Connect
 description: Exemplos de consultas que você pode usar para se familiarizar com a sintaxe e a estrutura de tipos específicos de consultas.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: c8a25bcc8c9b56a649ca7764918c86f9cdd5b3e2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '923'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Exemplos de consulta da Workfront Data Connect
+# Exemplos de consulta da conexão de dados do Workfront
 
 Para ajudá-lo a utilizar melhor os dados do Workfront Data Connect, esta página contém exemplos básicos de consultas que você pode usar para se familiarizar com a sintaxe e a estrutura de tipos específicos de consultas.
 
@@ -182,10 +182,10 @@ Examinando a consulta de dentro para fora: 
 >[!NOTE]
 >
 >É recomendável usar essa consulta como sua própria &quot;Exibição&quot; no Power BI ou Tableau.  Se quiser trazer outros campos de `<object>_event view`, junte a saída desta consulta de volta ao `<object>_event view`.  Os campos de junção seriam os seguintes: <br>
->&#x200B;>Para projects_event: 
->&#x200B;>`From projects_event p`
->&#x200B;>`Join <above query> c on c.projectid = p.projectid  `
->&#x200B;>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>Para projects_event: 
+>`From projects_event p`
+>`Join <above query> c on c.projectid = p.projectid  `
+>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 

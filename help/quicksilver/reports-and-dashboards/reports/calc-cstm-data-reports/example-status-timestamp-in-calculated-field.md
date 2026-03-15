@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: 'Exemplo de campo personalizado calculado: exibir um carimbo de data e hora de Status em um Formulário personalizado'
+title: 'Exemplo de campo personalizado calculado: exibir um carimbo de data e hora de status em um formulário personalizado'
 description: O campo calculado a seguir exibe a data em que o status do objeto é marcado como Em Andamento (INP). É possível usar as mesmas informações para campos personalizados calculados para problemas, tarefas ou projetos.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 55817a68-3655-4288-8cc7-48547829c46e
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ O campo calculado a seguir exibe a data em que o status do objeto é marcado com
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ O campo calculado a seguir exibe a data em que o status do objeto é marcado com
   <tr> 
    <td> <p>Licença do Adobe Workfront</p> </td> 
    <td>
-      <p>Standard</p>
+      <p>Padrão</p>
       <p>Plano</p></td>
   </tr> 
   <tr> 

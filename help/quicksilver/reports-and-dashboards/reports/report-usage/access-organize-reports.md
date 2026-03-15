@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: report-usage
 title: Acessar e organizar relatórios
 description: Você pode usar relatórios no Adobe Workfront para revisar ou editar informações sobre objetos no sistema. Você pode criar seus próprios relatórios, organizar os relatórios criados e exibir os relatórios compartilhados com você ou compartilhados publicamente.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ Você pode usar relatórios no Adobe Workfront para revisar ou editar informaç�
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ Você pode usar relatórios no Adobe Workfront para revisar ou editar informaç�
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano </p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ Você pode usar relatórios no Adobe Workfront para revisar ou editar informaç�
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

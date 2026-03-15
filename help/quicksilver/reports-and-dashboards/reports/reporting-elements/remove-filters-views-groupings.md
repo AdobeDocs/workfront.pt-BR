@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Remover filtros, visualizações e agrupamentos
 description: É possível remover um filtro, uma exibição ou um agrupamento de listas e relatórios se você os criou ou se eles foram compartilhados com você. Não é possível remover filtros, visualizações ou agrupamentos padrão.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,8 +34,8 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</strong></td> 
    <td> 
-    <p>Colaborador ou superior</p>
-    <p>Solicitação ou superior</p>
+    <p>Colaborador ou posterior</p>
+    <p>Solicitação ou posterior</p>
    </td>
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

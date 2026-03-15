@@ -1,27 +1,27 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Criar ou editar exibições no Adobe Workfront
-description: Você pode personalizar o tipo de informação exibida na tela usando visualizações. Você pode usar vários tipos de visualizações no Adobe Workfront.
-author: Nolan
+title: Criar ou editar visualizações no Adobe Workfront
+description: You can customize the type of information you display on the screen using views. You can use several types of views in Adobe Workfront.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '893'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
-# Criar ou editar exibições no Adobe Workfront
+# Criar ou editar visualizações no Adobe Workfront
 
 <!-- Audited: 11/2024 -->
 
-Você pode personalizar o tipo de informação exibida na tela usando visualizações. Você pode usar vários tipos de visualizações no Adobe Workfront.
+You can customize the type of information you display on the screen using views. Você pode usar vários tipos de visualizações no Adobe Workfront.
 
-Este artigo descreve como criar e editar exibições padrão para listas e relatórios.
+This article describes how to create and edit standard views for lists and reports.
 
-Para obter mais informações, consulte [Visão geral na Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+For more information, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Requisitos de acesso
 
@@ -38,13 +38,13 @@ Para obter mais informações, consulte [Visão geral na Adobe Workfront](../../
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</strong></td> 
    <td> 
-    <p>Colaborador ou superior</p>
-    <p>Solicitação ou superior</p>
+    <p>Colaborador ou posterior</p>
+    <p>Solicitação ou posterior</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para criar uma visualização em um relatório</p>
+   <td> <p>Editar acesso a filtros, exibições e agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para criar uma visualização em um relatório</p>
    </td> 
   </tr> 
   <tr> 
@@ -55,14 +55,14 @@ Para obter mais informações, consulte [Visão geral na Adobe Workfront](../../
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
-## Criar ou personalizar um modo de exibição
+## Create or customize a view
 
-O processo de criação ou personalização de uma view difere dependendo se você está criando ou personalizando uma view padrão ou uma view Quadro.
+The process for creating or customizing a view differs depending on whether you are creating or customizing a standard view or a Board view.
 
-### Criar ou personalizar um modo de exibição padrão {#create-or-customize-a-standard-view}
+### Create or customize a standard view {#create-or-customize-a-standard-view}
 
 Você pode criar uma nova view-padrão ou personalizar uma view-padrão existente criada anteriormente.
 
@@ -70,14 +70,14 @@ Você pode criar uma nova view-padrão ou personalizar uma view-padrão existent
 
 1. Clique no botão **+ Nova Exibição** para criar uma nova exibição.
 Ou
-Clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png) que aparece ao passar o mouse à direita de um modo de exibição existente que você deseja editar.
-A caixa de diálogo **Personalizar exibição** é exibida.
+Click the **Edit** icon ![Edit icon](assets/edit-icon.png) that appears on mouseover to the right of an existing view you want to edit.
+The **Customize View** dialog box displays.
 
-1. Na seção **Visualização da coluna**, siga um destes procedimentos:
+1. In the **Column Preview** section, do any of the following:
 
-   * Modifique o valor de qualquer coluna clicando no título da coluna e selecionando um novo campo.
-   * Adicione uma coluna clicando em **Adicionar coluna**, comece digitando o nome da coluna que deseja adicionar e clique nela quando ela aparecer na lista suspensa.
-   * Ajuste a ordem em que as colunas aparecem arrastando o título da coluna para um novo local.
+   * Modify the value of any column by clicking the column title and then selecting a new field.
+   * Add a column by clicking **Add Column**, begin typing the name of the column that you want to add, then click it when it appears in the drop-down list.
+   * Adjust the order that columns appear by dragging the column title to a new location.
 
    * Na área **Configurações de Coluna**, clique em **Resumir esta coluna por** e escolha como deseja que os dados sejam exibidos na coluna. Essa opção está disponível para os seguintes tipos de coluna:
      <table style="table-layout:auto"> 
@@ -104,7 +104,7 @@ A caixa de diálogo **Personalizar exibição** é exibida.
          <tr>
            <td role="rowheader"><strong>Campos de string e booleanos</strong></td> 
            <td><ul><li>Contagem</li></ul>
-           <p>Observação: geralmente, o Workfront não recomenda o resumo de um campo booleano por contagem, pois o valor sempre será verdadeiro/falso.</p></td> 
+           <p>Note: Workfront does not generally recommend summarizing a boolean field by count because the value will always be true/false.</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -127,7 +127,7 @@ A caixa de diálogo **Personalizar exibição** é exibida.
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>Personalizar rótulo da coluna</strong></td> 
-           <td><p>Especifique um rótulo personalizado para a coluna. Esse rótulo substitui o rótulo padrão. Recomendamos usar somente caracteres UTF-8 para evitar problemas de compatibilidade.</p></td> 
+           <td><p>Especifique um rótulo personalizado para a coluna. Este rótulo substitui o rótulo padrão. Recomendamos usar somente caracteres UTF-8 para evitar problemas de compatibilidade.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Formato do campo</strong></td> 
@@ -139,34 +139,34 @@ A caixa de diálogo **Personalizar exibição** é exibida.
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Regras de colunas</strong></td> 
-           <td><p>Clique em <strong>+ Adicionar uma Regra para esta Coluna</strong> para definir uma regra para a coluna. Após adicionar uma regra, é possível definir estilos de campo e texto para a forma como os campos que correspondem a essa regra são exibidos. Clique em <strong>Adicionar regra</strong> depois que terminar de definir a regra.</p></td> 
+           <td><p>Click <strong>+ Add a Rule for this Column</strong> to define a rule for the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <strong>Add Rule</strong> after you have finished defining the rule.</p></td> 
           </tr> 
          </tbody> 
         </table>
 
-        Para obter mais informações sobre modos de exibição de formatação condicional nos relatórios, consulte o artigo [Usar formatação condicional no Modo de Texto](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        For more information about conditionally formatting views in reports, see the article [Use conditional formatting in Text Mode](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-1. (Condicional) Se você clicou em **Opções Avançadas**, clique em **Concluído**.
+1. (Conditional) If you clicked **Advanced Options**, click **Done**.
 
 1. Clique em **Salvar exibição** para criar um novo modo de exibição ou substituir o modo de exibição atual por suas alterações.\
    Ou\
-   Clique em **Salvar como Novo Modo de Exibição** para salvar suas alterações como um novo modo de exibição.
+   Click **Save as New View** to save your changes as a new view.
 
    >[!TIP]
    >
-   >A **Salvar como Nova Exibição** é a única opção disponível ao personalizar uma exibição interna do Workfront.
+   >The **Save as New View** is the only option available when you customize a built-in Workfront view.
 
-   Seu acesso determina como a visualização é salva. Se você criou a visualização originalmente, é possível salvar as alterações; caso contrário, será solicitado que você salve uma versão. Lembre-se de que as alterações feitas na exibição afetam os usuários com os quais a exibição foi compartilhada.
+   Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
 ### Criar ou personalizar uma exibição de Quadro {#create-or-customize-an-agile-view}
 
 Você pode gerenciar projetos seguindo uma metodologia Agile usando uma visualização de Quadro.
 
-Os modos de exibição de quadro estão disponíveis apenas para listas de tarefas e problemas em um projeto.
+As exibições do quadro estão disponíveis apenas para listas de tarefas e questões em um projeto.
 
 Eles são pré-configurados, mas você pode modificar determinadas configurações para eles.
 
-Para obter mais informações sobre exibições Agile ou Board, consulte o artigo [Gerenciar um projeto Agile na exibição Board](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Para obter mais informações sobre os modos de exibição Ágil ou Tabuleiro, consulte o artigo [Gerenciar um projeto Ágil no modo de exibição Tabuleiro](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 <!-- Legacy Agile views were deprecated with 25.3. This is old: 
 

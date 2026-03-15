@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Relatório: Exibição e Agrupamento Combinados de Tarefas e Problemas'
 description: Este relatório de Item de trabalho mostra tarefas e problemas em que os usuários aceitaram trabalhar em um relatório. É melhor quando combinado com um agrupamento personalizado.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
-# Relatório: Exibição e Agrupamento combinados de tarefas e problemas
+# Relatório: visualização e agrupamento combinados de tarefas e problemas
 
 <!--Audited: 10/2024-->
 
@@ -30,7 +30,7 @@ Este relatório usa `sharecol=true` na exibição para combinar vários campos s
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,7 +57,7 @@ Este relatório usa `sharecol=true` na exibição para combinar vários campos s
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

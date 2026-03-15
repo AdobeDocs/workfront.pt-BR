@@ -3,15 +3,15 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Responder a Atualizações
 description: Quando alguém adiciona ou responde a uma atualização em um objeto de trabalho, sua resposta é exibida no thread de comunicação na seção Atualizações do objeto. Você pode adicionar uma resposta a uma atualização ou Curtir se tiver acesso de Visualização ao objeto.
-author: Nolan and Alina
+author: Courtney and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -67,8 +67,8 @@ Este artigo descreve como você responde aos comentários da maioria dos objetos
    <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
    <td> <p>Para problemas e documentos:</p>
 
-<ul><li><p>Colaborador ou superior</p></li>
-   <li><p>Solicitação ou superior</p></li></ul>
+<ul><li><p>Colaborador ou posterior</p></li>
+   <li><p>Solicitação ou posterior</p></li></ul>
 
 <p>Para todos os outros objetos:</p>
    <ul><li><p>Leve ou superior</p></li>

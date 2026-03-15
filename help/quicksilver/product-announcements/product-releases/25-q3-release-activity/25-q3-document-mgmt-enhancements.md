@@ -1,20 +1,20 @@
 ---
 title: Aprimoramentos no gerenciamento de documentos e provas do terceiro trimestre de 2025
 description: Aprimoramentos no gerenciamento de documentos e provas do terceiro trimestre de 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 2ff08963018c83e8d4fe88446f26efc115111a5e
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 # Aprimoramentos no gerenciamento de documentos e provas do terceiro trimestre de 2025
 
-Esta página descreve todas as melhorias de gerenciamento de documentos feitas com a versão do terceiro trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve todas as melhorias de gerenciamento de documentos feitas com a versão do terceiro trimestre de 2025 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do terceiro trimestre de 2025, consulte [Visão geral da versão do terceiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
@@ -49,7 +49,7 @@ O Desktop Proofing Viewer foi atualizado para a versão 2.1.50.
 
 Essa atualização inclui atualizações internas de ferramentas e não afeta a funcionalidade do usuário final.
 
-Essa atualização é para Mac e Windows.
+Esta atualização é para Mac e Windows.
 
 ## Nova integração do Proofing e do GenStudio for Performance Marketing
 
@@ -67,7 +67,7 @@ Estamos animados em apresentar uma nova integração entre o Proofing e o GenStu
 
 ### Requisitos de integração
 
-O Workfront e o GenStudio for Performance Marketing devem ser implantados na mesma Organização IMS.
+O Workfront e o GenStudio for Performance Marketing devem ser implementados na mesma organização IMS.
 
 Para obter mais informações, consulte [Introdução à integração do GenStudio for Performance Marketing e do Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md).
 
@@ -77,7 +77,7 @@ O Desktop Proofing Viewer foi atualizado para a versão 2.1.48.
 
 Esta atualização é uma correção de problema para manter a compatibilidade do Desktop Viewer com os sistemas operacionais Mac. O elétron foi rebaixado para 34.4.0 e o cromo foi rebaixado para 132.
 
-Essa atualização é para Mac e Windows.
+Esta atualização é para Mac e Windows.
 
 
 ## O Assets em uma pasta vinculada do Google deve ser adicionado individualmente para aparecer no Workfront

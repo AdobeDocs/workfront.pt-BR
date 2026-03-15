@@ -1,23 +1,23 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Enviar um relatório no ambiente Visualização da sandbox
+title: Enviar um relatório no ambiente de pré-visualização da sandbox
 description: As informações nesta página se referem à funcionalidade disponível apenas nos ambientes Pré-visualização e Atualização personalizada da sandbox. Essa funcionalidade não está disponível no ambiente de Produção do.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# Enviar um relatório no ambiente Visualização da sandbox
+# Enviar um relatório no ambiente de pré-visualização da sandbox
 
 <!-- Audited: 11/2024 -->
 
-As informações nesta página se referem à funcionalidade disponível apenas nos ambientes Pré-visualização e Atualização personalizada da sandbox. Essa funcionalidade não está disponível no ambiente de Produção do.
+As informações nesta página se referem à funcionalidade que está disponível apenas nos ambientes de Pré-visualização e de Sandbox de Atualização Personalizada. Essa funcionalidade não está disponível no ambiente de produção.
 
 Você pode configurar as opções de Entrega de relatórios em qualquer ambiente de teste do Adobe Workfront.
 
@@ -35,7 +35,7 @@ Dependendo de onde você agendar os relatórios, a funcionalidade do delivery se
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,7 +48,7 @@ Dependendo de onde você agendar os relatórios, a funcionalidade do delivery se
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-      <p>Standard</p>
+      <p>Padrão</p>
       <p>Plano</p>
    </td>
   </tr> 
@@ -65,17 +65,17 @@ Dependendo de onde você agendar os relatórios, a funcionalidade do delivery se
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Agendar relatórios no ambiente de Pré-visualização
+## Agendar relatórios no ambiente de Visualização
 
-* [Agendar relatórios no ambiente de Pré-visualização](#schedule-reports-in-the-preview-environment)
+* [Agendar relatórios no ambiente de Visualização](#schedule-reports-in-the-preview-environment)
 
-### Agendar relatórios no ambiente de Pré-visualização
+### Agendar relatórios no ambiente de Visualização
 
-Se um relatório entregue é produzido ou não no ambiente de Pré-visualização depende se **Receber emails deste ambiente de teste** está habilitado ou não.
+Se um relatório entregue é produzido ou não no ambiente de Visualização depende se **Receber emails deste ambiente de teste** está habilitado ou não.
 
 Para obter informações sobre como habilitar emails do ambiente de sandbox, consulte [Habilitar a entrega de emails do ambiente de sandbox de visualização](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
@@ -90,11 +90,11 @@ Quando você agenda um relatório para entrega no ambiente de Pré-visualizaçã
 
 ## Agendar relatórios no ambiente de sandbox de atualização personalizada
 
-Se um relatório entregue é produzido ou não na sandbox de atualização personalizada depende se a configuração Receber emails dessa configuração de ambiente de teste está ativada ou não.
+O fato de um relatório entregue ser ou não produzido na Sandbox de atualização personalizada depende de a configuração Receber e-mails deste ambiente de teste estar ativada ou não.
 
-Para obter informações sobre como habilitar emails do ambiente de Visualização, consulte a seção [Exibir e modificar configurações de notificação por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) no artigo [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obter informações sobre como habilitar emails do ambiente de Visualização, consulte a seção [Exibir e modificar suas configurações de notificação por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) no artigo [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![Receber emails da opção de sandbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Receber emails da opção de área restrita](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 O agendamento de relatórios para entrega no ambiente Personalizado de atualização da sandbox é idêntico ao agendamento de relatórios no ambiente de Produção. Para obter informações sobre como agendar um relatório para entrega, consulte [Visão geral da entrega de relatórios](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
@@ -107,4 +107,4 @@ Ao agendar um relatório para entrega no ambiente Personalizado de atualização
 
 Os usuários externos não recebem relatórios enviados dos ambientes de teste do Workfront, nem recebem uma notificação por email.
 
-Os usuários externos só receberão relatórios por email se forem entregues de um ambiente de Produção.
+Os usuários externos só receberão relatórios por e-mail se forem entregues de um ambiente de produção.

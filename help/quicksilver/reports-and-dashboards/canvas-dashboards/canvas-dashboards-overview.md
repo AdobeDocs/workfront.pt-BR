@@ -1,26 +1,26 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards
-title: Visão geral dos Painéis do Canvas
+title: Visão geral dos painéis da tela
 description: Saiba mais sobre Painéis do Canvas
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
-source-git-commit: 96be3dbf57e87da19cef79426b1c8cd2290f60df
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 2%
+ht-degree: 25%
 
 ---
 
-# Visão geral dos Painéis do Canvas
+# Visão geral dos painéis da tela
 
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.
 >
->Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Atendimento ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 >
 >Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
@@ -41,17 +41,17 @@ Com os Painéis de Controle do Canvas, você pode criar relatórios sobre recurs
 
 ## Artigos do Canvas Dashboard
 
-* Usar painéis do Canvas
+* Utilizar painéis da tela
 
-   * [Usar painéis do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
+   * [Utilizar painéis da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)
 
-* Painéis do Canvas beta
+* Painéis de tela na versão beta
 
-   * [Informações beta de Painéis do Canvas](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+   * [Informações de painéis de tela na versão beta](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
 
 * Criar painéis
 
-   * [Criar um painel da tela de desenho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
+   * [Criar um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
 
 * Adicionar relatórios
 
@@ -60,19 +60,19 @@ Com os Painéis de Controle do Canvas, você pode criar relatórios sobre recurs
    * [Criar um relatório de gráfico em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
    * [Criar um relatório de tabela em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
 
-* Gerenciar painéis da tela de desenho
+* Gerenciar painéis da tela
 
    * [Compartilhar um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-   * [Organizar relatórios em um painel do Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+   * [Organize relatórios em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
    * [Filtrar um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
-   * [Alterar o nome ou a descrição de um Painel da Tela de Pintura](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
-   * [Excluir um painel da tela de desenho](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
-   * [Adicionar um painel de tela de desenho a um modelo de layout](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
+   * [Alterar o nome ou a descrição de um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+   * [Excluir um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+   * [Adicionar um painel tela a um modelo de layout](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
 
 * Gerenciar relatórios
 
    * [Editar um relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-   * [Editar filtros de relatório em um painel de tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+   * [Editar filtros de relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
    * [Excluir um relatório em um painel da tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
 
 ## Recursos atuais e planejados
@@ -105,7 +105,7 @@ Abaixo está uma lista dos tipos de relatórios atualmente compatíveis com o be
 * Aprimoramentos de usabilidade
 * Incluir exibições do Workfront Planning como bloco de relatório em um painel
 * Uso de um painel como uma exibição do Workfront Planning
-* Suporte estendido para clientes do Azure e GCP
+* Suporte estendido para clientes Azure e GCP
 * Otimização do desempenho
 
 ### Recursos do futuro roteiro

@@ -2,26 +2,26 @@
 user-type: administrator
 product-area: system-administration;reporting
 navigation-topic: configure-reports-administration
-title: Ocultar relatórios internos
-description: O Adobe Workfront tem uma extensa lista de relatórios internos padrão que os usuários podem acessar e visualizar. Como administrador do Workfront, você pode modificar o nível de acesso de um usuário para ocultar relatórios internos, de modo que os usuários não tenham acesso a eles.
+title: Ocultar Relatórios Internos
+description: O Adobe Workfront tem uma ampla lista de relatórios internos padrão que os usuários podem acessar e exibir. Como administrador do Workfront, você pode modificar o nível de acesso de um usuário para ocultar relatórios internos para que os usuários não tenham acesso a eles.
 feature: System Setup and Administration
 role: Admin
-author: Nolan, Lisa
+author: Courtney, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: ebdc4cef2d7054cd14002910872a1fc3deadad91
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 3%
+ht-degree: 24%
 
 ---
 
 # Ocultar relatórios internos
 
-O Adobe Workfront tem uma extensa lista de relatórios internos padrão que os usuários podem acessar e visualizar. Como administrador do Workfront, você pode modificar o nível de acesso de um usuário para ocultar relatórios internos, de modo que os usuários não tenham acesso a eles.
+O Adobe Workfront tem uma ampla lista de relatórios internos padrão que os usuários podem acessar e exibir. Como administrador do Workfront, você pode modificar o nível de acesso de um usuário para ocultar relatórios internos para que os usuários não tenham acesso a eles.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ O Adobe Workfront tem uma extensa lista de relatórios internos padrão que os u
   <tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   </tr> 
@@ -45,7 +45,7 @@ O Adobe Workfront tem uma extensa lista de relatórios internos padrão que os u
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

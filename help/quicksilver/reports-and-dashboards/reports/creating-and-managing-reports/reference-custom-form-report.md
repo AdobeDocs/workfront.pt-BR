@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Referenciar um formulário personalizado em um relatório
-description: Você pode fazer referência aos formulários personalizados de um objeto nas Exibições, Filtros e Agrupamentos de um relatório para esse objeto.
-author: Nolan
+description: Você pode fazer referência aos formulários personalizados de um objeto em Modos de exibição, Filtros e Agrupamentos de um relatório referente a esse objeto.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 2%
 
 <!-- Audited: 11/2024 -->
 
-Você pode fazer referência aos formulários personalizados de um objeto nas Exibições, Filtros e Agrupamentos de um relatório para esse objeto.
+Você pode fazer referência aos formulários personalizados de um objeto em Modos de exibição, Filtros e Agrupamentos de um relatório referente a esse objeto.
 
 Você pode fazer referência ao conteúdo de formulários personalizados para incluir em um relatório, ou pode fazer referência a informações sobre os próprios formulários personalizados para incluir em um relatório.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Você pode fazer referência ao conteúdo de formulários personalizados para in
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-      <p>Standard</p>
+      <p>Padrão</p>
       <p>Plano</p>
    </td>
   </tr> 
@@ -51,7 +51,7 @@ Você pode fazer referência ao conteúdo de formulários personalizados para in
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,18 +61,18 @@ O formulário personalizado deve existir antes que você possa referenciá-lo em
 
 Para obter mais informações sobre como criar formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Fazer referência ao conteúdo de formulários personalizados
+## Mencionar o conteúdo de formulários personalizados
 
-Você pode referenciar campos em formulários personalizados. Depois que um formulário personalizado é aplicado a um objeto, todos os campos associados a esse formulário personalizado ficam disponíveis para serem referenciados em um relatório como qualquer outro campo no objeto seria.
+É possível referenciar campos em formulários personalizados. Depois que um formulário personalizado é aplicado a um objeto, todos os campos associados a esse formulário personalizado ficam disponíveis para serem referenciados em um relatório como qualquer outro campo no objeto.
 
 >[!NOTE]
 >
->Para campos que têm várias opções, todas as opções estão disponíveis nos Filtros e Avisos do relatório, incluindo aqueles que estão ocultos.\
+>Para campos com várias opções, todas as opções estão disponíveis nos Filtros e Prompts do relatório, incluindo aquelas que estão ocultas.\
 >Para obter mais informações sobre como ocultar opções de um campo personalizado com várias opções, consulte o artigo [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Ao criar o relatório, basta usar o tipo de objeto do formulário como a fonte do campo e usar o nome do campo personalizado como o nome do campo.
 
-Por exemplo, você pode ter um formulário personalizado aplicado a todos os projetos que incluem o campo personalizado **Consultor**. Para criar um relatório que liste todos os projetos em que Olivia Kim é a consultora, use o tipo de objeto **Projeto** como a origem do campo e use **Consultor** como o nome do campo. Defina o qualificador de filtro como **Igual** e digite Olivia Kim.
+Por exemplo, você pode ter um formulário personalizado aplicado a todos os projetos que incluem o campo personalizado **Consultor**. Para criar um relatório que liste todos os projetos em que Olivia Kim é a consultora, use o tipo de objeto **Projeto** como a origem do campo e use **Consultor** como o nome do campo. Defina o qualificador do filtro como **Igual** e digite Olivia Kim.
 
 ![Filtro de consultor](assets/qs-consultant-filter-example-350x126.png)
 
@@ -80,7 +80,7 @@ Para obter mais informações sobre como criar um relatório, consulte o artigo 
 
 ## Informações de referência sobre formulários personalizados
 
-Você pode fazer referência a informações sobre formulários personalizados, como o nome de quaisquer formulários personalizados associados a um objeto.
+É possível fazer referência a informações sobre formulários personalizados, como o nome de quaisquer formulários personalizados associados a um objeto.
 
 &#x200B;Dependendo do elemento (Exibição, Filtro ou Agrupamento), você pode fazer referência a:
 
@@ -101,14 +101,14 @@ Você pode fazer referência a formulários personalizados em Exibições, Filtr
 Para exibir todos os formulários personalizados associados a um objeto:
 
 1. Comece a criar um relatório conforme descrito no artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Na guia **Colunas**, expanda o tipo de objeto ao qual o formulário personalizado que você deseja referenciar é aplicado e clique em **Nome da Categoria**.\
+1. Na guia **Colunas**, expanda o tipo de objeto ao qual o formulário personalizado que você deseja referenciar está aplicado e clique em **Nome da Categoria**.\
    Por exemplo, para exibir todos os formulários personalizados associados a uma tarefa, expanda a origem do campo **Tarefa** e clique no nome do campo **Nome da Categoria**.\
    ![Coluna de nome de categoria](assets/qs-category-name-column-350x267.png)
 
 Para exibir somente o formulário personalizado principal associado ao objeto:
 
 1. Comece a criar um relatório conforme descrito no artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Na guia **Colunas**, expanda a origem do campo **Categoria** e clique no nome do campo **Nome**.\
+1. Na guia **Colunas**, expanda a origem do campo **Categoria** e clique no nome de campo **Nome**.\
    ![Nome da categoria](assets/qs-category-name-column-2-350x248.png)
 
 ### Fazer referência a formulários personalizados em um filtro de relatório {#reference-custom-forms-in-a-report-filter}
@@ -132,10 +132,10 @@ Para filtrar em todos os formulários personalizados associados ao tipo de objet
 
    >[!NOTE]
    >
-   >Se o campo que você está filtrando tiver várias opções e você usar os qualificadores **Não Igual** ou **Não Contém**, isso filtra os resultados que contêm apenas a opção especificada. Se o campo contiver opções adicionais, incluindo a especificada, esses resultados não serão filtrados do relatório. Isso inclui a filtragem de vários Forms personalizados, se estiverem anexados ao mesmo objeto.
+   >Se o campo que você está filtrando tiver várias opções e você usar os qualificadores **Não Igual** ou **Não Contém**, isso filtrará os resultados que contenham apenas a escolha especificada. Se o campo contiver opções adicionais, incluindo a especificada, esses resultados não serão filtrados do relatório. Isso inclui a filtragem de vários Forms personalizados, se estiverem anexados ao mesmo objeto.
 
-1. Comece digitando o nome do formulário personalizado que deseja filtrar e clique no nome quando ele aparecer na lista suspensa.
-1. (Opcional) Clique em **Adicionar outra regra de filtro** e repita as etapas de 2 a 4 para criar regras de filtro adicionais.
+1. Comece a digitar o nome do formulário personalizado no qual deseja filtrar e clique no nome quando ele aparecer na lista suspensa.
+1. (Opcional) Clique em **Adicionar outra Regra de Filtro** e repita as etapas de 2 a 4 para criar regras de filtro adicionais.
 1. Clique em **Salvar+Fechar**.
 
 Para filtrar somente no formulário personalizado principal associado ao tipo de objeto:
@@ -156,10 +156,10 @@ Para filtrar somente no formulário personalizado principal associado ao tipo de
    Para obter mais informações sobre cada qualificador, consulte o artigo [Filtro e modificadores de condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 1. Comece digitando o nome do formulário personalizado que deseja filtrar e clique no nome quando ele aparecer na lista suspensa.
-1. (Opcional) Clique em **Adicionar outra regra de filtro** e repita as etapas de 2 a 4 para criar regras de filtro adicionais.
+1. (Opcional) Clique em **Adicionar outra Regra de Filtro** e repita as etapas de 2 a 4 para criar regras de filtro adicionais.
 1. Clique em **Salvar+Fechar**.
 
-### Fazer referência a formulários personalizados em um agrupamento de relatório {#reference-custom-forms-in-a-report-grouping}
+### Fazer referência a formulários personalizados em um Agrupamento de relatório {#reference-custom-forms-in-a-report-grouping}
 
 >[!NOTE]
 >
@@ -167,4 +167,4 @@ Para filtrar somente no formulário personalizado principal associado ao tipo de
 
 1. Comece a criar um relatório conforme descrito no artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Na guia **Agrupamentos**, expanda **Categoria** e clique em **Nome**.\
-   ![Agrupamento de nome de categoria](assets/qs-category-name-grouping-350x373.png)
+   ![Agrupamento de nomes de categoria](assets/qs-category-name-grouping-350x373.png)

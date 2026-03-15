@@ -3,15 +3,15 @@ content-type: reference
 navigation-topic: betas
 title: 'Versão beta do relatório do Canvas: visão geral'
 description: Informações sobre o programa beta da próxima ferramenta de tela de relatório do Adobe Workfront
-author: Nolan
+author: Courtney
 feature: Product Announcements
 hidefromtoc: true
 hide: true
 exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1061'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -61,7 +61,7 @@ Para aceitar outros usuários que não sejam administradores do Workfront:
    >Os usuários aos quais você conceder acesso à Tela de relatório terão acesso a **todos** dados no sistema em uma capacidade somente leitura, independentemente de suas permissões padrão para visualizar esses dados.
 
 1. Clique em **Salvar**.
-1. Adicione o ícone **Relatórios (beta)** ao modelo de layout principal de cada usuário selecionado. Para obter mais informações, consulte [Personalizar o Menu Principal usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+1. Adicione o ícone **Relatórios (beta)** ao modelo de layout principal de cada usuário selecionado. Para obter mais informações, consulte [Personalizar o menu principal usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 1. Cada usuário deve navegar individualmente para o ícone **Relatórios (beta)** em seu menu principal e aceitar os termos e condições.
 
 ### Enviar feedback
@@ -95,7 +95,7 @@ Nossa estratégia atual de migração na versão oficial é permitir que você f
 1. Na Tela de relatório, verifique se todos os relatórios e painéis selecionados foram migrados.
 +++
 
-+++Por que não consigo ver todos os objetos que normalmente faço?
++++Por que não posso ver todos os objetos que normalmente faço?
 
 Para fornecer a versão beta a nossos clientes o mais rápido possível, lançamos somente um subconjunto dos vários tipos de objetos disponíveis no Workfront atualmente. Abaixo estão os tipos de objetos aceitos atualmente na versão beta:
 
@@ -110,11 +110,11 @@ Para fornecer a versão beta a nossos clientes o mais rápido possível, lançam
 * Projeto
 * Programa
 * Tarefa
-* Planilha de horas
+* Folha de horas
 * Item de trabalho
 +++
 
-+++Se algo der errado no Reporting Canvas durante o beta, os dados da minha organização serão afetados?
++++Se algo der errado com a Tela de relatório durante o beta, os dados da minha organização serão afetados?
 
 Não. A versão beta usa uma cópia dos dados de sua organização que é preenchida na Tela de relatório. Embora isso signifique que você esteja seguro para experimentar durante o beta sem risco de afetar dados importantes, também significa que a edição em linha de dados na Tela de relatórios estará indisponível até o lançamento oficial.
 +++

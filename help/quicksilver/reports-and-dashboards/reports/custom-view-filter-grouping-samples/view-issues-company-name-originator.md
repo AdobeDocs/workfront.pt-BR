@@ -2,29 +2,29 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Exibição: problemas com o Nome da empresa do originador'
-description: Essa visualização de problema exibe o nome da empresa associado ao usuário que enviou o problema.
-author: Nolan
+title: 'Exibir: Problemas com o Nome da Empresa do Originador'
+description: Essa exibição de ocorrência exibe o nome da empresa associado ao usuário que enviou a ocorrência.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e628f7cf-4a7b-4125-bea6-348c72477bd7
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
-# Exibir: problemas com o nome da empresa do originador
+# Exibição: problemas com o nome da empresa do autor
 
 <!--Audit: 11/2024-->
 
-Essa visualização de problema exibe o nome da empresa associado ao usuário que enviou o problema.
+Essa exibição de ocorrência exibe o nome da empresa associado ao usuário que enviou a ocorrência.
 
 ![custom_view_for_issues_with_originator_company_name.png](assets/custom-view-for-issues-350x33.png)
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,12 +37,12 @@ Essa visualização de problema exibe o nome da empresa associado ao usuário qu
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou Solicitação para modificar uma exibição </p>
+   <p>Colaborador ou Solicitação de modificação de uma exibição </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
+   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Acesso de edição a filtros, visualizações, agrupamentos para modificar uma visualização</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -51,7 +51,7 @@ Essa visualização de problema exibe o nome da empresa associado ao usuário qu
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
@@ -59,10 +59,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 ## Exibir problemas com o nome da empresa do originador
 
 1. Vá para uma lista de problemas.
-1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
-1. Na área **Visualização da coluna**, elimine todas as colunas, exceto uma.
-1. Clique no cabeçalho da coluna restante e clique em **Alternar para Modo de Texto** e em **Editar Modo de Texto**.
-1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
+1. No menu suspenso **Exibição**, selecione **Nova Exibição**.
+1. Na área **Visualização de coluna**, elimine todas as colunas, exceto uma.
+1. Clique no cabeçalho da coluna restante e clique em **Alternar para o Modo de Texto** e clique em **Editar Modo de Texto**.
+1. Remova o texto encontrado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
 
    ```
@@ -131,5 +131,5 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    column.5.width=151
    ```
 
-1. Clique em **Concluído** > **Salvar exibição**.
-1. (Opcional) Atualize o nome da exibição e clique em **Salvar exibição**.
+1. Clique em **Concluído** > **Salvar Exibição**.
+1. (Opcional) Atualize o nome da exibição e clique em **Salvar Exibição**.

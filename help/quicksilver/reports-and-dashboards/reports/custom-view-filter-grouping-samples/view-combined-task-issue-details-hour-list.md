@@ -4,17 +4,17 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Visualização: detalhes combinados de tarefas e problemas em uma lista de horas'
 description: Esta exibição de hora combina as colunas Nome da Tarefa e da Ocorrência, bem como as Horas Planejadas da Tarefa e da Ocorrência usando a tag sharecol. Como uma entrada de hora só pode pertencer a uma tarefa ou problema, ambos os objetos não podem aparecer na mesma coluna ao mesmo tempo. Cada linha da visualização é preenchida com as informações de uma Tarefa ou um Problema.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# Visualização: detalhes combinados de tarefas e problemas em uma lista de Horas
+# Exibição: detalhes combinados de tarefas e problemas em uma lista por hora
 
 <!--Audited:11/2024-->
 
@@ -26,7 +26,7 @@ Para saber mais sobre a marca `sharecol`, consulte [Exibir: mesclar informaçõe
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Para saber mais sobre a marca `sharecol`, consulte [Exibir: mesclar informaçõe
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

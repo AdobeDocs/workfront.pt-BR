@@ -1,18 +1,19 @@
 ---
 product-area: reports and dashboards
 navigation-topic: data-connect
-title: Usar a exibição Monitoramento de atualizações de dados na Conexão de dados
+title: Usar a visualização de atualizações de dados de monitoramento na conexão de dados
 description: Com o Data Connect, os administradores do Workfront podem acessar registros detalhados das atualizações recentes feitas na data do data lake durante a atualização mais recente.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 1bcb64fbcdf2cb8b40cb50e5a7d4f5768f3a712f
+exl-id: 230d1a30-2af9-4d2c-9ec1-34c3d4c080d4
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Usar a exibição Monitoramento de atualizações de dados na Conexão de dados
+# Usar a visualização de atualizações de dados de monitoramento na conexão de dados
 
 A visualização Monitoramento de atualizações de dados exibe as atualizações recentes feitas na data do data lake durante a atualização mais recente. Os dados dessa visualização são atualizados após cada conclusão bem-sucedida de um carregamento de dados.
 
@@ -87,4 +88,3 @@ As colunas de view Atualizações de Dados de Monitoramento contêm as seguintes
         <br><b>Observação</b>: não é o mesmo que o número total de registros afetados pelos eventos CREATE, UPDATE ou DELETE, pois o mesmo registro pôde ser CREATED e UPDATED várias vezes no intervalo entre as atualizações.  </td>
     </tr>
    </table>
-

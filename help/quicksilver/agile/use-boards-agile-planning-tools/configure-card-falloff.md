@@ -4,17 +4,17 @@ content-type: reference
 navigation-topic: boards
 title: Configurar queda de cartão
 description: Você pode configurar uma placa para que as placas sejam arquivadas, ou cair da placa, de acordo com uma programação.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
-# Configurar queda de cartão
+# Configurar atenuação dos cartões
 
 Você pode configurar uma placa para que as placas sejam arquivadas, ou &quot;cair&quot; da placa, de acordo com uma programação. Você pode definir cartões em uma coluna específica para cair do quadro em um determinado número de dias ou semanas.
 
@@ -22,7 +22,7 @@ Quando um cartão cai da placa, ele é arquivado. Você pode exibir cartões arq
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,18 +35,18 @@ Quando um cartão cai da placa, ele é arquivado. Você pode exibir cartões arq
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p> 
-   <p>Solicitação ou superior</p>
+   <p>Colaborador ou posterior</p> 
+   <p>Solicitação ou posterior</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Configurar queda de cartão
+## Configurar atenuação dos cartões
 
 {{step1-to-boards}}
 

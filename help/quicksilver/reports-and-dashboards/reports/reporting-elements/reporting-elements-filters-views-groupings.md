@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 'Elementos de relatórios: filtros, visualizações e agrupamentos'
 description: Os principais elementos que cada lista e relatório deve ter no Workfront são um filtro, uma visualização e um agrupamento. Cada elemento fornece informações diferentes em qualquer relatório.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -39,7 +39,7 @@ Considere o seguinte ao trabalhar com filtros, exibições e agrupamentos:
 
   Para obter informações sobre como conceder acesso a relatórios, painéis e calendários, consulte [Conceder acesso a relatórios, painéis e calendários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-* Se você selecionar um filtro, uma visualização ou um agrupamento em um relatório ou lista, o Workfront manterá essa seleção para as listas desse objeto mesmo depois de fazer logout ou fechar o navegador. Por exemplo, se você selecionar uma exibição específica para um relatório de tarefa, essa seleção aparecerá para outras listas de tarefas, como a lista de tarefas em um projeto.
+* Se você selecionar um filtro, uma exibição ou um agrupamento em um relatório ou lista, o Workfront manterá essa seleção para as listas desse objeto mesmo depois de fazer logoff ou fechar o navegador. Por exemplo, se você selecionar uma exibição específica para um relatório de tarefa, essa seleção aparecerá para outras listas de tarefas, como a lista de tarefas em um projeto.
 
 ## Filtros
 
@@ -54,7 +54,7 @@ Alguns atributos de filtros são:
 
   Para obter mais informações sobre filtros, consulte o artigo [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-## Visualizações
+## Exibições
 
 Ao definir a exibição de um relatório, você define quais informações incluir no relatório. Como todos os elementos de relatórios, as exibições são baseadas em um tipo de objeto.
 
@@ -72,7 +72,7 @@ Alguns atributos de visualizações são:
 
 Um agrupamento controla como você organiza os dados, facilitando sua leitura e compreensão. Os agrupamentos criam barras horizontais em um relatório que exibe resultados listados juntos por atributos comuns. Você define os critérios de como deseja agrupar os resultados do relatório ao criar o agrupamento.
 
-Por exemplo, agrupar uma lista de tarefas que abrangem vários projetos pelo nome do projeto organiza todas as respectivas tarefas que pertencem a um único projeto sob esse nome.
+Por exemplo, agrupar uma lista de tarefas que abrange vários projetos por nome de projeto organiza todas as respectivas tarefas que pertencem a um único projeto com esse nome.
 
 Alguns atributos de agrupamentos são:
 

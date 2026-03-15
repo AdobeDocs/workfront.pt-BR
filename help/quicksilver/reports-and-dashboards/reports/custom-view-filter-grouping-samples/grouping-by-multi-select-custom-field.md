@@ -3,24 +3,24 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Agrupar um relatório por um campo personalizado de seleção múltipla
-description: Você pode agrupar pelo valor em um campo personalizado de várias seleções em um relatório do Adobe Workfront somente usando o modo de texto.
-author: Nolan
+description: É possível agrupar pelo valor em um campo personalizado de seleção múltipla em um relatório do Adobe Workfront somente usando o modo de texto.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Agrupar um relatório por um campo personalizado de várias seleções
+# Agrupar um relatório por um campo personalizado de seleção múltipla
 
 <!--Audited: 10/2024-->
 
-Você pode agrupar pelo valor em um campo personalizado de várias seleções em um relatório do Adobe Workfront somente usando o modo de texto.
+É possível agrupar pelo valor em um campo personalizado de seleção múltipla em um relatório do Adobe Workfront somente usando o modo de texto.
 
-Exemplos de campos personalizados de seleção múltipla são:
+Exemplos de seleção múltipla de campos personalizados:
 
 * Caixa de Seleção
 * Menus suspensos de seleção múltipla
@@ -34,12 +34,12 @@ Para obter informações sobre como usar o modo de texto, consulte o artigo [Vis
   Para obter mais informações, consulte [Criar gráfico de um relatório por campo personalizado de várias seleções](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
 * Os itens que têm qualquer uma das opções selecionadas são contados apenas uma vez.
 
-  Por exemplo, se você tiver um campo personalizado Caixa de seleção com Opção 1 e Opção 2 como opções e anexar o formulário a tarefas, as tarefas que tiverem Opção 1 e Opção 2 selecionadas serão agrupadas separadamente das tarefas que tiverem apenas Opção 1 ou Opção 2 selecionadas.
+  Por exemplo, se você tiver um campo personalizado Caixa de seleção com Opção 1 e Opção 2 como opções e anexar o formulário a tarefas, as tarefas com Opção 1 e Opção 2 selecionadas serão agrupadas separadamente das tarefas com apenas Opção 1 ou Opção 2 selecionadas.
 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -66,7 +66,7 @@ Para obter informações sobre como usar o modo de texto, consulte o artigo [Vis
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

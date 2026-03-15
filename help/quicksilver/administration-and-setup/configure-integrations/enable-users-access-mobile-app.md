@@ -1,28 +1,28 @@
 ---
-title: Permitir que os usuários acessem o aplicativo móvel
+title: Permitir que usuários acessem o aplicativo móvel
 product-previous: mobile
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Você pode habilitar ou desabilitar o acesso ao  [!DNL Adobe Workfront] aplicativo móvel.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 1%
+ht-degree: 27%
 
 ---
 
-# Permitir que os usuários acessem o aplicativo para dispositivos móveis
+# Habilitar acesso de usuários ao aplicativo móvel
 
 Você pode habilitar ou desabilitar o acesso ao aplicativo móvel [!DNL Adobe Workfront].
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Você pode habilitar ou desabilitar o acesso ao aplicativo móvel [!DNL Adobe Wo
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> <p>Plano</p></td> 
+   <td><p>Padrão</p> <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -47,7 +47,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Permitir que os usuários acessem o aplicativo para dispositivos móveis
+## Habilitar acesso de usuários ao aplicativo móvel
 
 {{step-1-to-setup}}
 
@@ -55,11 +55,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Expanda **[!UICONTROL Sistema],** e clique em **[!UICONTROL Preferências].**
 
-1. Selecione a configuração **[!UICONTROL Permitir que as pessoas usem os aplicativos móveis da Workfront e o [!DNL Workfront Outlook] Suplemento]** para permitir que os usuários usem o [!DNL Workfront] com o aplicativo móvel [!DNL Workfront] ou para instalar e usar o [!DNL Workfront] para Outlook.\
-   Essa opção está ativada por padrão.
+1. Selecione a configuração **[!UICONTROL Permitir que as pessoas usem os aplicativos móveis do Workfront e o [!DNL Workfront Outlook] Suplemento]** para permitir que os usuários usem o [!DNL Workfront] com o aplicativo móvel [!DNL Workfront] ou para instalar e usar o [!DNL Workfront] para Outlook.\
+   Essa opção é ativada por padrão.
 
 1. Clique em **[!UICONTROL Salvar].**
 
-Para obter informações sobre como usar o aplicativo móvel [!DNL Workfront] depois que ele for habilitado para o site, consulte [Usar o [!DNL Adobe Workfront] aplicativo móvel](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+Para obter informações sobre como usar o aplicativo móvel do [!DNL Workfront] depois que ele for habilitado para o site, consulte [Usar o [!DNL Adobe Workfront] aplicativo móvel](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
-Para obter informações sobre como usar o [!DNL Workfront for Outlook], consulte a seção [Usando [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).
+Para obter informações sobre como usar [!DNL Workfront for Outlook], consulte a seção [Usando [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).

@@ -2,23 +2,23 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Exibição: Elementos de Relatórios Usados em Relatórios'
-description: Essa exibição mostra a Exibição, o Filtro e o Agrupamento usados para criar cada relatório no Adobe Workfront quando você o usa em uma lista de relatórios.
-author: Nolan
+title: 'Exibir: Elementos de Relatório Usados em Relatórios'
+description: Essa exibição mostra o Modo de Exibição, o Filtro e o Agrupamento usados para criar cada relatório no Adobe Workfront quando você o usa em uma lista de relatórios.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 67f86523-e136-4768-af93-586a107b106f
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
-# Exibição: elementos de relatórios usados em relatórios
+# Exibição: elementos de relatório usados nos relatórios
 
 <!--Audited: 11/2024-->
 
-Essa exibição mostra a Exibição, o Filtro e o Agrupamento usados para criar cada relatório no Adobe Workfront quando você o usa em uma lista de relatórios.
+Essa exibição mostra o Modo de Exibição, o Filtro e o Agrupamento usados para criar cada relatório no Adobe Workfront quando você o usa em uma lista de relatórios.
 
 Você pode ver o `valuefields` ou `valueexpressions` usado em cada elemento do relatório.
 
@@ -26,7 +26,7 @@ Você pode ver o `valuefields` ou `valueexpressions` usado em cada elemento do r
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,12 +39,12 @@ Você pode ver o `valuefields` ou `valueexpressions` usado em cada elemento do r
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou Solicitação para modificar uma exibição </p>
+   <p>Colaborador ou Solicitação de modificação de uma exibição </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
+   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Acesso de edição a filtros, visualizações, agrupamentos para modificar uma visualização</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -53,18 +53,18 @@ Você pode ver o `valuefields` ou `valueexpressions` usado em cada elemento do r
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 +++
 
-## Exibir elementos de relatórios usados em relatórios
+## Exibir elementos de relatório usados em relatórios
 
 1. Ir para uma lista de relatórios.
-1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
-1. Na área **Visualização da coluna**, elimine todas as colunas, exceto uma.
-1. Clique no cabeçalho da coluna restante e em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
-1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
+1. No menu suspenso **Exibição**, selecione **Nova Exibição**.
+1. Na área **Visualização de coluna**, elimine todas as colunas, exceto uma.
+1. Clique no cabeçalho da coluna restante e clique em **Alternar para o Modo de Texto** > **Editar Modo de Texto**.
+1. Remova o texto encontrado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
 
    ```
@@ -108,4 +108,4 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    column.5.valueformat=HTML
    ```
 
-1. Clique em **Concluído** > **Salvar exibição**.
+1. Clique em **Concluído** > **Salvar Exibição**.

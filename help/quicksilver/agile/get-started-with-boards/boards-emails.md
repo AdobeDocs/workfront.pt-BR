@@ -4,17 +4,17 @@ content-type: reference
 navigation-topic: boards
 title: Preferências e notificações por email de painéis de discussão
 description: Os Adobe Workfront Boards enviam um email quando você é adicionado a um quadro e quando um cartão é atribuído a você.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# Notificações e preferências de email dos painéis
+# Notificações e preferências de email do Boards
 
 [!DNL Adobe Workfront] [!UICONTROL Quadros] envia um email quando você é adicionado a um quadro e quando um cartão é atribuído a você. As notificações são ativadas por padrão e você pode selecionar em suas preferências de Quadros quais emails deseja receber.
 
@@ -22,7 +22,7 @@ Você também receberá um email quando estiver marcado em um comentário em um 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,14 +35,14 @@ Você também receberá um email quando estiver marcado em um comentário em um 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p> 
-   <p>Solicitação ou superior</p>
+   <p>Colaborador ou posterior</p> 
+   <p>Solicitação ou posterior</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

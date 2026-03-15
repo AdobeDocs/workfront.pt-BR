@@ -2,19 +2,19 @@
 content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: Campos personalizados calculados versus colunas calculadas
-description: Para agregar vários campos no Adobe Workfront e exibir esse valor agregado em um novo campo, você pode criar um campo personalizado calculado em um formulário personalizado ou uma coluna calculada em uma exibição.
-author: Jenny
+title: Comparação entre campos personalizados calculados e colunas calculadas
+description: Para agregar vários campos no Adobe Workfront e exibir esse valor agregado em um novo campo, você pode criar um campo personalizado calculado em um formulário personalizado ou em uma coluna calculada em uma exibição.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# Campos personalizados calculados versus colunas calculadas
+# Comparação entre campos personalizados calculados e colunas calculadas
 
 Para agregar vários campos no Adobe Workfront e exibir esse valor agregado em um novo campo, você pode criar o seguinte:
 
@@ -28,7 +28,7 @@ Embora você use o modo de texto para criar campos calculados e colunas calculad
 
 Você pode usar os mesmos cálculos em ambos os campos calculados, bem como em uma coluna calculada. No entanto, dependendo da finalidade desses cálculos, talvez você queira considerar construir um em vez do outro.
 
-## Sintaxe de campos personalizados calculados versus colunas personalizadas calculadas
+## Sintaxe dos campos personalizados calculados vs. colunas personalizadas calculadas
 
 Embora as funções usadas sejam as mesmas, a sintaxe para criar uma expressão em um campo personalizado calculado pode ser diferente do que é para criar uma coluna personalizada calculada.
 
@@ -38,7 +38,7 @@ Por exemplo:
 
   `{project}.{name}`
 
-* Em uma coluna personalizada em um relatório, você usaria o seguinte para adicionar uma coluna personalizada Nome do projeto em um relatório de tarefa:
+* Em uma coluna personalizada em um relatório, você usaria o seguinte para adicionar uma coluna personalizada “Nome do projeto” em um relatório de tarefas:
 
   `valuefield=project:name`
 
@@ -62,26 +62,26 @@ As diferenças entre as duas sintaxes são:
   </tr> 
   <tr> 
    <td> <p>Use o nome dos campos conforme eles aparecem na interface do Workfront.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span>Exemplo de nome de campo usado em um campo personalizado calculado: <code>Planned Completion Date</code>.</p> </td> 
-   <td> <p>Use o nome dos objetos ou campos conforme eles aparecem no banco de dados do Workfront. Os nomes de objetos e campos são escritos em minúsculas ou em letras maiúsculas, se forem nomes compostos. </p> <p>Para obter um inventário de todos os objetos e campos do Workfront à medida que aparecem no banco de dados, consulte <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span>Exemplo de nome de campo usado em um elemento de relatório personalizado calculado: <code>plannedCompletionDate</code>.</p> </td> 
+   <td> <p>Use o nome dos objetos ou campos conforme eles aparecem no banco de dados do Workfront. Os nomes de objetos e campos são escritos em minúsculas ou em caixa alta, se forem nomes compostos. </p> <p>Para obter um inventário de todos os objetos e campos do Workfront à medida que aparecem no banco de dados, consulte o <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span>Exemplo de nome de campo usado em um elemento de relatório personalizado calculado: <code>plannedCompletionDate</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Colocar nomes de campo entre parênteses ou chaves</td> 
    <td> <p>Não coloque os nomes de campo entre parênteses ou entre parênteses ao usá-los em uma linha <code>valuefield </code>.</p> <p>Coloque os nomes de campo entre chaves ao usá-los em uma linha <code>valueexpression</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td>Separar os campos por períodos</td> 
+   <td>Separe os campos por pontos</td> 
    <td> <p>Separe os campos por dois pontos ao usá-los em uma linha <code>valuefield</code>.</p> <p>Separe os campos por pontos ao usá-los em uma linha <code>valueexpression</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais informações sobre a sintaxe que deve ser usada em uma coluna personalizada calculada, consulte [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Para obter mais informações sobre a sintaxe que você deve usar em uma coluna personalizada calculada, consulte [Visão geral do modo de texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Quando usar campos personalizados calculados
 
-* Quando quiser agrupar os resultados agregados em um relatório ou quiser mostrar essas informações em um gráfico
+* Quando você deseja agrupar os resultados agregados em um relatório ou mostrar essas informações em um gráfico
 * Quando quiser agregar os dados além da agregação calculada no campo
-* Quando você não estiver preocupado com a atualidade dos dados, pois eles não são atualizados e podem mudar com o tempo
+* Quando você não está preocupado com a pontualidade dos dados, pois eles não são atualizados e podem mudar com o tempo
 
 ## Ações que acionam a atualização de um campo personalizado calculado
 
@@ -95,11 +95,11 @@ Para obter mais informações, consulte [Editar informações em campos de formu
 
 ## Quando usar colunas calculadas em uma exibição
 
-* Quando quiser que os dados em tempo real estejam disponíveis em um relatório.
+* Quando você deseja que dados em tempo real estejam disponíveis em um relatório.
 
-  As exibições calculadas são sempre atualizadas porque o cálculo é feito quando o relatório é executado ou a exibição é aplicada.
+  As exibições calculadas são sempre novas porque o cálculo é feito quando o relatório é executado ou a exibição é aplicada.
 
-* Quando você não tiver planos de agrupar por resultados agregados nem usar essas informações em um gráfico.
+* Quando você não tem planos de agrupar por resultados agregados nem usar essas informações em um gráfico.
 * Quando você não planeja agregar os dados além da agregação calculada na coluna (os dados podem ser agregados apenas uma vez).
 * Quando quiser que o cálculo inclua uma referência à data atual usando os curingas $$TODAY ou $$NOW.
 
@@ -107,11 +107,11 @@ Para obter mais informações, consulte [Editar informações em campos de formu
   >
   >Não use essa referência em campos personalizados calculados porque eles só são recalculados quando o objeto anexado é editado. Esses tipos de cálculos ficam desatualizados.
 
-## Exemplos de campos e colunas personalizados calculados
+## Exemplos de campos personalizados e colunas calculados
 
-Para obter exemplos de campos personalizados calculados, consulte [Dados personalizados calculados em relatórios](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
+Para exemplos de campos personalizados calculados, consulte [Dados personalizados calculados em relatórios](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
-Para obter exemplos de colunas personalizadas calculadas em exibições, consulte os seguintes artigos:
+Para exemplos de colunas personalizadas calculadas em exibições, consulte os seguintes artigos:
 
 * [Visão geral dos usos comuns do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
-* [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Exemplos de exibição personalizada, filtros e agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

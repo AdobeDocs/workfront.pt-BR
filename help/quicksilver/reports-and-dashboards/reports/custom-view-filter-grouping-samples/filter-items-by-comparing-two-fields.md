@@ -2,27 +2,27 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filtro: elimine itens em uma lista comparando dois campos'
-description: É possível filtrar itens de uma lista comparando dois de seus campos. Por exemplo, você pode exibir somente tarefas em que a Data de Término Efetivo da tarefa seja maior que a Data de Término Planejada.
-author: Lisa and Jenny
+title: 'Filtro: eliminar itens de uma lista comparando dois campos'
+description: Você pode filtrar itens de uma lista comparando dois de seus campos. Por exemplo, você pode exibir apenas as tarefas em que a Data de Conclusão Real da tarefa é maior que a Data de Conclusão Planejada.
+author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 0%
+ht-degree: 25%
 
 ---
 
-# Filtro: elimine itens em uma lista comparando dois campos
+# Filtro: eliminar itens de uma lista comparando dois campos
 
 <!--Audited: 10/2024-->
 
-É possível filtrar itens de uma lista comparando dois de seus campos. Por exemplo, você pode exibir somente tarefas em que a Data de Término Efetivo da tarefa seja maior que a Data de Término Planejada.
+Você pode filtrar itens de uma lista comparando dois de seus campos. Por exemplo, você pode exibir apenas as tarefas em que a Data de Conclusão Real da tarefa é maior que a Data de Conclusão Planejada.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,12 +35,12 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou Solicitação para modificar um filtro </p>
+   <p>Colaborador ou solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a filtros, exibições e agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -49,7 +49,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Ir para uma lista de tarefas.
 1. No menu suspenso **Filtro**, selecione **Novo filtro**.
 
-1. Adicione um filtro para **Data de conclusão da :Actual da tarefa** > **Maior que** > **Selecione uma data**.
+1. Adicione um filtro para **Data de conclusão:Actual da tarefa** > **Maior que** > **Selecione uma data**.
 
    >[!TIP]
    >

@@ -1,25 +1,25 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Editar filtros de relatório em um painel de tela
+title: Editar filtros de relatório em um painel da tela
 description: Você pode editar os filtros do relatório depois que eles forem aplicados a um Painel da tela de desenho.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5205c342-7f63-438e-97c8-e74f7dfecfd0
-source-git-commit: 1059950dd3b20e0959c626e580f958bed5076541
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 9%
+ht-degree: 44%
 
 ---
 
-# Editar filtros de relatório em um painel de tela
+# Editar filtros de relatório em um painel da tela
 
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->&#x200B;>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->&#x200B;>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -29,7 +29,7 @@ ht-degree: 9%
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -46,7 +46,7 @@ ht-degree: 9%
  <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td> 
-<p>Standard</p> 
+<p>Padrão</p> 
 <p>Plano</p> 
    </td> 
    </tr> 
@@ -64,7 +64,7 @@ ht-degree: 9%
 </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Pré-requisitos
@@ -102,39 +102,39 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ### Variáveis de filtro de curingas com base em data
 
-As opções de curinga com base em data podem ser usadas em combinação com qualquer atributo de filtro de data. Para obter informações sobre como adicionar um curinga baseado em data a um relatório, consulte o artigo [Usar curingas baseados em data para generalizar relatórios](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+As opções de curinga baseado em data podem ser usadas em combinação com qualquer atributo de filtro de data. Para obter informações sobre como adicionar um curinga baseado em data a um relatório, consulte o artigo [Usar curingas baseados em data para generalizar relatórios](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
 >[!NOTE]
 >
->Se você criar um cálculo de data e hora que não inclua uma parte do tempo ou que use os curingas de data $$TODAY ou $$NOW, o sistema usará a data de acordo com o fuso horário Coordenado Universal Time (UTC), não de acordo com o fuso horário local. Isso pode causar um resultado inesperado de data.
+>Se você criar um cálculo de data e hora que não inclua uma parte de hora ou que use os curingas de data $$TODAY ou $$NOW, o sistema usará a data de acordo com o fuso horário do Tempo Universal Coordenado (UTC), e não de acordo com o seu fuso horário local. Isso pode causar um resultado inesperado na data.
 
-Você pode escolher entre os seguintes curingas com base em data:
+Você pode escolher entre os seguintes curingas baseados em data:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr valign="top"> 
-   <td width="100" role="rowheader"> <p><strong>$$HOJE</strong> </p> </td> 
-   <td> <p>Recomendamos que você crie filtros sensíveis a data usando esse curinga para evitar a criação do filtro novamente amanhã, na próxima semana ou no próximo mês.</p> <p>Por exemplo, se você quiser exibir todas as tarefas com vencimento antes de hoje, poderá usar a seguinte regra em um filtro de tarefa: <em>Data de Início Planejada Menor que $$TODAY</em>.</p> <p>$$TODAY é sempre igual à meia-noite do dia atual.</p> </td> 
+   <td width="100" role="rowheader"> <p><strong>$$TODAY</strong> </p> </td> 
+   <td> <p>Recomendamos que você crie filtros sensíveis à data usando esse curinga para evitar ter que criar o filtro novamente amanhã, na próxima semana ou no próximo mês.</p> <p>Por exemplo, se você quiser exibir todas as tarefas que vencem antes de hoje, use a seguinte regra em um filtro de tarefas: <em>Data de início planejada anterior a $$TODAY</em>.</p> <p>$$TODAY é sempre igual à meia-noite do dia atual.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$NOW</strong> </p> </td> 
-   <td> <p>Isso é semelhante ao curinga $$TODAY, mas inclui a data e a hora atuais. $$NOW é igual à data e hora atuais.</p> <p>Por exemplo, se você deseja exibir todas as entradas de horas fornecidas até a hora atual, você pode fazer isso usando a seguinte regra em um filtro de horas: <em>Data de Início Planejada Menor que $$NOW</em>.</p> <p>Observação: Este curinga não é suportado no Planejador de Recursos.</p> </td> 
+   <td> <p>Semelhante ao curinga $$TODAY, mas inclui a data e a hora atuais. $$NOW é igual à data e hora atuais.</p> <p>Por exemplo, se você quiser exibir todas as entradas de horas fornecidas até a hora atual, pode fazer isso usando a seguinte regra em um filtro de horas: <em>Data de início planejada anterior a $$NOW</em>.</p> <p>Nota: esse curinga não é compatível com o planejador de recursos.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para indicar vários períodos de tempo e vários pontos no tempo (futuros ou passados), você pode combinar os curingas acima com o seguinte:
+Para indicar vários períodos e vários pontos no tempo (futuros ou passados), você pode combinar os curingas acima com o seguinte:
 
 | Atributos |   |
 |---|---|
-| **q** | trimestre civil |
+| **q** | trimestre do calendário |
 | **h** | hora |
 | **d** | dia |
 | **w** | semana |
 | **m** | mês |
-| **a** | ano |
+| **y** | ano |
 
 {style="table-layout:auto"}
 
@@ -147,12 +147,12 @@ Para indicar vários períodos de tempo e vários pontos no tempo (futuros ou pa
 
 | **Operadores** | |
 |---|---|
-| **+** | adicionar valor ao valor curinga |
-| **-** | subtrair valor do valor curinga |
+| **+** | adicionar valor ao curinga |
+| **-** | subtrair valor do curinga |
 
 {style="table-layout:auto"}
 
-Por exemplo, o curinga `$$TODAYb+2w` se refere a &quot;2 semanas a partir do início desta semana&quot;. O curinga *`$$NOW+2h` se refere a &quot;daqui a 2 horas&quot;.
+Por exemplo, o curinga `$$TODAYb+2w` se refere a “2 semanas a partir do início desta semana”. O curinga *`$$NOW+2h` se refere a “daqui a 2 horas”.
 
 ### Variáveis de filtro curinga do usuário conectado
 

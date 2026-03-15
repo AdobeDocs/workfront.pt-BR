@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: text-mode-reporting
 title: Comparar campos na formatação condicional
 description: Você pode usar a formatação condicional para comparar dois campos diferentes em uma exibição e destacá-los quando determinados critérios forem atendidos entre os campos.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ Você pode usar a formatação condicional para comparar dois campos diferentes 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Você pode usar a formatação condicional para comparar dois campos diferentes 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-     <p>Standard</p>
+     <p>Padrão</p>
      <p>Plano</p>
    </td> 
   </tr> 
@@ -49,7 +49,7 @@ Você pode usar a formatação condicional para comparar dois campos diferentes 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ Para comparar a Data Inicial Planejada e a Data Inicial Real da tarefa usando a 
 1. Clique em **Opções Avançadas** e em Adicionar uma **Regra para esta Coluna**.
 
 1. Informe os critérios de comparação usando os valores existentes encontrados no construtor e especifique sua formatação condicional.\
-   Por exemplo, queremos destacar tarefas em que a Data de Início Efetivo seja posterior (ou posterior) à Data de Início Planejada. Selecione o modificador Maior que e selecione uma data real no campo de data.
+   Por exemplo, queremos destacar tarefas em que a Data de Início Real seja posterior (ou posterior) à Data de Início Planejada. Selecione o modificador Maior que e selecione uma data real no campo de data.
 
    ![Formatação condicional para a data de início real](assets/cond-format-1-350x84.png)
 

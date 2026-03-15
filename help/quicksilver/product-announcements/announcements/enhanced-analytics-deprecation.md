@@ -1,19 +1,19 @@
 ---
 navigation-topic: announcements
-title: Guia de desativação do Analytics aprimorado
+title: Guia de desativação da Analítica aprimorada
 description: Esta página contém informações sobre a descontinuação futura do Enhanced Analytics.
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: da5c7197b3826855bae5dd3d3bf2ba9d07d7f188
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Guia de desativação do Analytics aprimorado
+# Guia de desativação da Analítica aprimorada
 
 Devido ao uso decrescente e à funcionalidade limitada, o Analytics aprimorado será descontinuado do Adobe Workfront em breve. Lançamos o Workfront Data Connect como uma alternativa que pode replicar as visualizações do Enhanced Analytics que você usa atualmente, além de criar novas visualizações avançadas que não eram possíveis com o Enhanced Analytics. Para garantir uma transição bem-sucedida para sua organização, esta página contém informações sobre o que exatamente será alterado, conselhos sobre como se preparar para a transição e respostas a perguntas frequentes.
 
@@ -49,10 +49,10 @@ Use as queries nos artigos abaixo para criar visualizações de dados semelhante
 
 
 * [Consultas de KPI](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
-* [Consultas de plano de voo](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
+* [Consultas de planos de andamento](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
 * [Consultas de atividades do projeto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
 * [Consultas de mapa de árvore do projeto](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
-* [Consultas de atividade por equipe](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
+* [Consultas de atividades por equipe](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 
 ### Solicitar ajuda
 

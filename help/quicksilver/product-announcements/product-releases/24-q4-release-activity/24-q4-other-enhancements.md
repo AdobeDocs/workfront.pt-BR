@@ -1,20 +1,20 @@
 ---
 title: Outras melhorias durante o período da versão do quarto trimestre de 2024
 description: Outras melhorias durante o período do quarto trimestre de 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 13208dca-afc9-419a-bb08-e063c6d9b480
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 # Outras melhorias durante o período da versão do quarto trimestre de 2024
 
-Esta página descreve as melhorias feitas com a versão do quarto trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve as melhorias feitas com a versão do quarto trimestre de 2024 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento do ciclo de lançamento do quarto trimestre de 2024, consulte [Visão geral da versão do quarto trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
@@ -32,13 +32,13 @@ O administrador do Workfront pode ativar ou desativar o Assistente de IA para su
 
 Para obter mais informações, consulte [Resumir usando o Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
-## Assistente de IA de Adobe disponível no Workfront
+## Assistente do Adobe AI disponível no Workfront
 
 >[!NOTE]
 >
 >Versão de pré-visualização: 28 de agosto de 2024; Versão de produção: 28 de agosto de 2024
 
-Para facilitar a realização do trabalho, adicionamos o Assistente de IA do Adobe à Workfront. O Assistente de IA pode ajudá-lo:
+Para facilitar a realização do trabalho, adicionamos o Assistente de IA da Adobe à Workfront. O Assistente de IA pode ajudá-lo:
 
 * Resumir itens de trabalho e documentos, permitindo que você obtenha rapidamente uma compreensão geral de tarefas, projetos e ativos.
 * Fornecer informações da documentação do Experience League, trazer instruções e material de referência para o Workfront e, ao mesmo tempo, vincular à documentação mais detalhada.

@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: Horas Reais sobre Horas Planejadas na mesma coluna de uma View de tarefa'
+title: 'Exibir: horas efetivas sobre horas planejadas na mesma coluna de uma exibição de tarefa'
 description: Nesta visualização de tarefa, a quantidade real de horas registradas em uma tarefa são exibidas sobre as horas planejadas para cada tarefa. A Variação de horas entre as horas planejadas e reais também é exibida em uma coluna separada.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c1179283-dc2e-40d3-b8e0-4b1b79f83ad3
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 0%
+ht-degree: 25%
 
 ---
 
-# View: Horas Reais sobre Horas Planejadas na mesma coluna de uma View de tarefa
+# Exibir: horas efetivas sobre horas planejadas na mesma coluna de uma exibição de tarefa
 
 Nesta visualização de tarefa, a quantidade real de horas registradas em uma tarefa são exibidas sobre as horas planejadas para cada tarefa. A Variação de horas entre as horas planejadas e reais também é exibida em uma coluna separada.
 
@@ -24,7 +24,7 @@ Nesta visualização de tarefa, a quantidade real de horas registradas em uma ta
 
 <!--Audited: 10/2024-->
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Nesta visualização de tarefa, a quantidade real de horas registradas em uma ta
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

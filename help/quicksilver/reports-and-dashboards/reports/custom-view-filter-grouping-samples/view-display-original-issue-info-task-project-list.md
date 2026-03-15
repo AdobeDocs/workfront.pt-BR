@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Exibir: Exibir Informações de Emissão Original em Listas de Tarefas ou Projetos"
+title: 'Exibir: Exibir Informações da Emissão Original em Listas de Tarefas ou Projetos'
 description: Você pode exibir informações da edição original em uma exibição de listas de tarefas e projetos depois que o problema for convertido em tarefas e projetos na lista.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 5%

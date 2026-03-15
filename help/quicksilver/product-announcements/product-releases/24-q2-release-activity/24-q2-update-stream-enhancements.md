@@ -1,20 +1,20 @@
 ---
 title: Melhorias no fluxo de atualizações e na notificação do segundo trimestre de 2024
 description: Melhorias no fluxo de atualizações e na notificação do segundo trimestre de 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '700'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # Melhorias no fluxo de atualizações e na notificação do segundo trimestre de 2024
 
-Esta página descreve todos os aprimoramentos de Atualização de fluxo e notificação feitos com a versão do Segundo trimestre de 2024 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de Produção, conforme observado.
+Esta página descreve todos os aprimoramentos de Atualização de fluxo e notificação feitos com a versão do Segundo trimestre de 2024 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2024, consulte [Visão geral da versão do Segundo trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
@@ -58,7 +58,7 @@ Fizemos os seguintes aprimoramentos na nova experiência de comentários:
 
 Para obter mais informações, consulte [Atualizar trabalho](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Exiba uma demonstração em vídeo deste recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão deste recurso específico começa às 2:47)
+[Exiba uma demonstração em vídeo deste recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão deste recurso específico começa em 2:47)
 
 ## A guia Atividade do sistema na nova experiência de comentários aceita comentários somente leitura
 
@@ -70,7 +70,7 @@ Os comentários feitos nos registros de atividade do sistema na experiência de 
 
 Para obter mais informações, consulte [Visão geral da seção Atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Exiba uma demonstração em vídeo deste recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão deste recurso específico começa às 2:00)
+[Exiba uma demonstração em vídeo deste recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão deste recurso específico começa em 2:00)
 
 ## Nova guia de fluxo de atualização para capturar comentários e entradas de atividade do sistema
 
@@ -84,7 +84,7 @@ A guia Todos é uma guia somente para visualização. Não é possível responde
 
 Para obter mais informações, consulte [Visão geral da seção Atualizações](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Exiba uma demonstração em vídeo deste recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão deste recurso específico começa às 0:31)
+[Exiba uma demonstração em vídeo deste recurso.](https://video.tv.adobe.com/v/3427992/){target=_blank} (A discussão deste recurso específico começa em 0:31)
 
 ## Novo fluxo de comentários agora disponível no painel Resumo
 

@@ -3,23 +3,23 @@ product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Exibir Relatórios de Calendário e Detalhes do Evento
 description: Você pode exibir relatórios de calendário e detalhes de eventos que você criou ou que foram compartilhados com você no Adobe Workfront.
-author: Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 # Exibir relatórios de calendário e detalhes do evento
 
-Você pode exibir relatórios de calendário e detalhes de eventos que você criou ou que foram compartilhados com você no Adobe Workfront.
+Você pode exibir relatórios de calendário e detalhes de eventos que criou ou compartilhou com você no Adobe Workfront.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,12 +42,12 @@ Você pode exibir relatórios de calendário e detalhes de eventos que você cri
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>Exibir permissões ou mais altas para o relatório de calendário</td> 
+   <td>Exibir ou aumentar permissões para o relatório de calendário</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +73,7 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. (Condicional) Clique no menu suspenso **[!UICONTROL Exibir]** e selecione a duração do calendário que deseja exibir.
    ![Duração do calendário](assets/view-menu-calendar-report-350x189.png)
-Você pode escolher entre as seguintes exibições de relatório do calendário:
+Você pode escolher entre as seguintes exibições de relatório de calendário:
 
    * **[!UICONTROL Mês]**: exibe quatro semanas do calendário
    * **[!UICONTROL Semana]**: exibe uma semana do calendário
@@ -96,7 +96,7 @@ Você pode escolher entre as seguintes exibições de relatório do calendário:
 
          ![Clique na seta para alterar a data](assets/click-arrows-to-change-dates-calendar-report.png)
 
-         As datas exibidas são ajustadas por um intervalo com base na exibição do calendário atual. Por exemplo, se você estiver exibindo o calendário na exibição **Semana**, o calendário será exibido uma semana depois ou uma semana atrás, dependendo da seta selecionada.
+         As datas exibidas são ajustadas por um intervalo com base na exibição de calendário atual. Por exemplo, se você estiver exibindo o calendário na exibição **Semana**, o calendário será exibido uma semana depois ou uma semana atrás, dependendo da seta selecionada.
 
       1. (Opcional) Para voltar ao dia atual, clique em [!UICONTROL **Hoje**].
 
@@ -109,4 +109,4 @@ Você pode tornar os eventos visíveis novamente selecionando o [!UICONTROL proj
 Você pode ver os detalhes de um evento em um calendário, para eventos atuais e passados.
 
 1. Vá para o evento cujos detalhes você deseja saber e clique nele. Os detalhes são abertos em um painel no lado direito.
-1. (Opcional) Para abrir o projeto, tarefa ou problema associado, clique no título do objeto.
+1. (Opcional) Para abrir o projeto, tarefa ou ocorrência associada, clique no título do objeto.

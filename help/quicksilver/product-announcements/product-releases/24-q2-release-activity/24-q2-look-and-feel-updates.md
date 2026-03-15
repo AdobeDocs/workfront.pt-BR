@@ -1,11 +1,11 @@
 ---
 title: Atualizações de aparência durante o período do segundo trimestre de 2024
 description: Atualizações de aparência durante o período do segundo trimestre de 2024
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Para obter uma lista de todas as alterações disponíveis com a versão do Segu
 >
 >Versão para todos os clientes: com a versão 24.2 (15 de fevereiro de 2024)
 
-Os modelos de email para adicionar um aprovador a um ativo e adicionar um usuário a um quadro foram atualizados para melhor corresponder a outros modelos de email de Adobe e para melhorar a clareza e a usabilidade.
+Os modelos de email para adicionar um aprovador a um ativo e adicionar um usuário a um quadro foram atualizados para corresponder melhor a outros modelos de email do Adobe e para melhorar a clareza e a usabilidade.
 
 ## Novas atualizações de aparência para guias na área Forms personalizado
 

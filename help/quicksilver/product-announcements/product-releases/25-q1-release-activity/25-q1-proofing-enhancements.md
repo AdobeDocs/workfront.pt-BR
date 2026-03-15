@@ -1,14 +1,14 @@
 ---
 title: Aprimoramentos de provas do primeiro trimestre de 2025
 description: Aprimoramentos de provas do primeiro trimestre de 2025
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-source-git-commit: f5eb5165183986f55919bdf2c59a31c12a1c64fe
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta página descreve todas as melhorias de prova feitas com a versão do Primeiro trimestre de 2025 para o ambiente de Pré-visualização. Esses aprimoramentos serão disponibilizados no ambiente de produção com a versão do primeiro trimestre de 2025.
 
-Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Primeiro trimestre de 2025, consulte [Visão geral da versão do Primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do primeiro trimestre de 2025, consulte [Visão geral de lançamentos do primeiro trimestre de 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Atualização do Visualizador de provas de desktop
 

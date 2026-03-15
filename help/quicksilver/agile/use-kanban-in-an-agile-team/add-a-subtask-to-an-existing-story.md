@@ -3,17 +3,17 @@ product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: Adicionar uma subtarefa a uma história existente no Quadro Kanban
 description: Leia este artigo para saber como criar subtarefas para histórias existentes no quadro Kanban.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
-# Adicionar uma subtarefa a uma história existente no quadro Kanban
+# Adicionar uma subtarefa a um story no quadro Kanban
 
 Ao criar subtarefas para matérias existentes, lembre-se do seguinte:
 
@@ -29,7 +29,7 @@ Ao criar subtarefas para matérias existentes, lembre-se do seguinte:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +43,8 @@ Ao criar subtarefas para matérias existentes, lembre-se do seguinte:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -53,7 +53,7 @@ Ao criar subtarefas para matérias existentes, lembre-se do seguinte:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

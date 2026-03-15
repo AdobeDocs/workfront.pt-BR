@@ -2,29 +2,29 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Exibir: Empresa e Grupo Inicial do Usuário Atribuído'
-description: Esta exibição de tarefa mostra a Empresa e o Grupo inicial do Proprietário principal da tarefa. Esses são valores que não estão disponíveis na interface padrão, mas são acessíveis por meio do modo de texto.
-author: Nolan
+title: 'Exibir: Empresa e Grupo Doméstico do Usuário Atribuído'
+description: Esta exibição de tarefa exibe a Empresa e o Grupo Doméstico do Proprietário Principal da tarefa. Esses valores não estão disponíveis na interface padrão, mas podem ser acessados no modo de texto.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 0%
+ht-degree: 18%
 
 ---
 
-# Visualização: Empresa e grupo padrão do usuário atribuído
+# Exibição: empresa e grupo inicial do usuário atribuído
 
 <!--Audited: 11/2024-->
 
-Esta exibição de tarefa mostra a Empresa e o Grupo inicial do Proprietário principal da tarefa. Esses são valores que não estão disponíveis na interface padrão, mas são acessíveis por meio do modo de texto.
+Esta exibição de tarefa exibe a Empresa e o Grupo Doméstico do Proprietário Principal da tarefa. Esses valores não estão disponíveis na interface padrão, mas podem ser acessados no modo de texto.
 
-![Exibir empresa e grupo padrão do usuário atribuído](assets/view--assigned-user-s-company-and-home-group-350x80.png)
+![Exibir empresa e grupo doméstico do usuário atribuído](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,12 +37,12 @@ Esta exibição de tarefa mostra a Empresa e o Grupo inicial do Proprietário pr
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou Solicitação para modificar um filtro </p>
+   <p>Colaborador ou solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a filtros, exibições e agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -51,19 +51,19 @@ Esta exibição de tarefa mostra a Empresa e o Grupo inicial do Proprietário pr
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Visualizar Empresa e Grupo Inicial do usuário atribuído
+## Exibir Empresa e Grupo Doméstico do usuário atribuído
 
 1. Ir para uma lista de tarefas.
-1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
+1. No menu suspenso **Exibição**, selecione **Nova Exibição**.
 
-1. Na área **Visualização da coluna**, elimine todas as colunas, exceto uma.
-1. Clique no cabeçalho da coluna restante e em **Alternar para Modo de Texto**.
+1. Na área **Visualização de coluna**, elimine todas as colunas, exceto uma.
+1. Clique no cabeçalho da coluna restante e clique em **Alternar para o Modo de Texto**.
 1. Clique em **Editar Modo de Texto**.
-1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
+1. Remova o texto encontrado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
    column.0.descriptionkey=name
@@ -122,5 +122,5 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    column.3.width=150
    ```
 
-1. Clique em **Concluído** > **Salvar exibição**.
-1. (Opcional) Atualize o nome da exibição e clique em **Salvar exibição**.
+1. Clique em **Concluído** > **Salvar Exibição**.
+1. (Opcional) Atualize o nome da exibição e clique em **Salvar Exibição**.

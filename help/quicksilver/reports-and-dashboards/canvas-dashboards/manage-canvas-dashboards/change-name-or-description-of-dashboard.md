@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Alterar o nome ou a descrição de um Painel da Tela de Pintura
+title: Alterar o nome ou a descrição de um painel da tela
 description: Você pode editar o nome ou a descrição de um Painel da Tela de Pintura após sua criação.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
-source-git-commit: ed5a8725442a0b3de993a4e8f47280bfc7d88160
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
-# Alterar o nome ou a descrição de um Painel da Tela de Pintura
+# Alterar o nome ou a descrição de um painel da tela
 
 >[!IMPORTANT]
 >
@@ -32,7 +32,7 @@ Quaisquer alterações feitas em um painel afetarão todos os usuários que tive
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -49,7 +49,7 @@ Quaisquer alterações feitas em um painel afetarão todos os usuários que tive
  <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td> 
-<p>Standard</p> 
+<p>Padrão</p> 
 <p>Plano</p> 
    </td> 
    </tr> 
@@ -67,7 +67,7 @@ Quaisquer alterações feitas em um painel afetarão todos os usuários que tive
 </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Pré-requisitos

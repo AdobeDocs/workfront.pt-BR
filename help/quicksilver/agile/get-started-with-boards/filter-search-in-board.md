@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Filtrar e pesquisar em um quadro
-description: Você pode filtrar um quadro para exibir apenas determinados cartões.
-author: Jenny
+title: Filtrar e pesquisar em um painel
+description: Você pode filtrar um painel para exibir apenas determinados cartões.
+author: Courtney
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 Você pode filtrar um quadro para exibir:
 
 * Cartões atribuídos a determinadas pessoas
-* Cartões com determinadas tags
+* Cartões com determinadas etiquetas
 * Cartões com um status específico
-* Cartões com vencimento em um determinado período de tempo
+* Cartões vencidos em um determinado período
 * Cartões arquivados
 * Cartões conectados a um projeto específico
 
@@ -34,7 +34,7 @@ Quando os filtros são aplicados, um indicador é exibido no quadro ![Filtro apl
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,18 +47,18 @@ Quando os filtros são aplicados, um indicador é exibido no quadro ![Filtro apl
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p> 
-   <p>Solicitação ou superior</p>
+   <p>Colaborador ou posterior</p> 
+   <p>Solicitação ou posterior</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Filtrar um quadro por responsáveis
+## Filtrar um painel por destinatários
 
 {{step1-to-boards}}
 
@@ -67,10 +67,10 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
    ![Filtrar por membro](assets/boards-filter-by-assignees-0822.png)
 
-## Filtrar um quadro por tags
+## Filtrar um painel por tags
 
-1. Acesse o quadro.
-1. Clique em [!UICONTROL **Filtro**], expanda a seção [!UICONTROL Marcas] e selecione as marcas que deseja ver.
+1. Acesse o painel.
+1. Clique em [!UICONTROL **Filtro**], expanda a seção [!UICONTROL Marcas] e selecione as marcas que você deseja ver.
 
    ![Filtrar por marca](assets/boards-filter-by-tags-0822.png)
 
@@ -94,13 +94,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Filtrar um quadro para mostrar cartões arquivados
 
-Por padrão, somente os cartões ativos são exibidos em um quadro. Você pode filtrar o quadro para exibir também todos os cartões arquivados.
+Por padrão, apenas cartões ativos são exibidos em um painel. Você pode filtrar o quadro para exibir também todos os cartões arquivados.
 
 1. Acesse o quadro.
 1. Clique em [!UICONTROL **Configurar**] à direita do quadro para abrir o painel Configurar.
 1. Expanda [!UICONTROL **Cartões**].
 1. Ative [!UICONTROL **Exibir cartões arquivados no quadro**].
-1. Clique em [!UICONTROL **Filtro**], expanda a seção [!UICONTROL Cartões Arquivados] e selecione **[!UICONTROL Cartões arquivados]** para exibir todos os cartões arquivados.
+1. Clique em [!UICONTROL **Filtrar**], expanda a seção [!UICONTROL Cartões Arquivados] e selecione **[!UICONTROL Cartões arquivados]** para exibir todos os cartões arquivados.
 
    O filtro mostra o número de cartões arquivados.
 
@@ -123,24 +123,24 @@ Por padrão, somente os cartões ativos são exibidos em um quadro. Você pode f
 
 ## Classificar em um quadro
 
-Quando você seleciona uma opção para classificar por, todas as colunas são classificadas. Não é possível classificar uma única coluna, e a coluna de backlog ou de entrada não é classificada.
+Quando você seleciona uma opção de classificação, todas as colunas são classificadas. Você não pode classificar uma única coluna e a coluna de acúmulo ou de entrada não é classificada.
 
-1. Acesse o quadro.
+1. Acesse o painel.
 1. Clique em [!UICONTROL **Classificar por**] e selecione [!UICONTROL **Nome**], [!UICONTROL **Data de vencimento**], [!UICONTROL **Estimativa**], [!UICONTROL **Status**] ou [!UICONTROL **Conexão**].
 
    A conexão (nome do projeto) se aplica somente a cartões conectados e as outras opções classificarão os cartões conectados e ad hoc nas colunas.
 
-   A opção &quot;ordem do usuário&quot; retorna os cartões na ordem em que foram definidos manualmente, antes de qualquer outra opção de classificação ser aplicada. Essa é a classificação padrão das colunas.
+   A opção &quot;ordem do usuário&quot; retorna os cartões na ordem em que foram definidos manualmente, antes de qualquer outra opção de classificação ser aplicada. Esta é a classificação padrão das colunas.
 
-1. Selecione [!UICONTROL **Ordem inversa**] para classificar as colunas em ordem inversa da opção de classificação.
+1. Selecione [!UICONTROL **Inverter ordem**] para classificar as colunas na ordem inversa da opção de classificação.
 
    A seta no ícone de classificação indica se as colunas são classificadas em ordem crescente ou decrescente.
 
-   Quando uma classificação diferente do padrão é aplicada, um indicador é exibido no ícone de classificação ![Classificação aplicada](assets/sort-applied-boards.png).
+   Quando uma classificação diferente da padrão é aplicada, um indicador é exibido no ícone de classificação ![Classificação aplicada](assets/sort-applied-boards.png).
 
-   ![Classificar por colunas em um quadro](assets/sort-by-columns-in-board.png)
+   ![Classificar por colunas em um painel](assets/sort-by-columns-in-board.png)
 
-## Pesquisar em um quadro
+## Pesquisar em um painel
 
 1. Acesse o quadro.
 1. Clique em [!UICONTROL **Pesquisar**] e digite um termo de pesquisa. Em seguida, pressione Enter.

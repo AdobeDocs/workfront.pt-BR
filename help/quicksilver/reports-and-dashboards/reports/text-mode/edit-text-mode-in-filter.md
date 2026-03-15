@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Editar um filtro usando o modo de texto
+title: Editar um filtro usando o modo texto
 description: É possível editar um filtro em uma lista ou relatório usando o modo de texto para acessar campos que não estão disponíveis na interface padrão e criar filtros mais complexos.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '1044'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# Editar um filtro usando o modo de texto
+# Editar um filtro usando o modo texto
 
 <!-- Audited: 1/2025 -->
 
@@ -23,7 +23,7 @@ Para obter mais exemplos de modo de texto ao criar um filtro, consulte também a
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,13 +36,13 @@ Para obter mais exemplos de modo de texto ao criar um filtro, consulte também a
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-     <p>Standard</p>
+     <p>Padrão</p>
      <p>Plano</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a Filtros, Visualizações e Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis e Calendários para editar elementos de relatórios em um relatório</p></td> 
+   <td> <p>Editar acesso a filtros, exibições e agrupamentos</p> <p>Acesso de edição a Relatórios, Painéis e Calendários para editar elementos de relatórios em um relatório</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -51,7 +51,7 @@ Para obter mais exemplos de modo de texto ao criar um filtro, consulte também a
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,7 +63,7 @@ Para obter mais informações, consulte:
 
 * [Visão geral do Modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Exibição personalizada, filtro e amostras de agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Exemplos de exibição personalizada, filtros e agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Modo de edição de texto em um filtro
 
@@ -79,7 +79,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 
 1. Siga um destes procedimentos:
 
-   Para acessar o filtro de uma lista, vá para a lista e clique no ícone **Filtro**, em seguida, passe o mouse sobre o filtro no painel lateral **Filtros** que você deseja modificar e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png). O painel lateral **Filtros** exibe o filtro selecionado ou o construtor de filtros herdados abre.
+   Para acessar o filtro de uma lista, vá para a lista e clique no ícone **Filtro**, em seguida, passe o mouse sobre o filtro no painel lateral **Filtros** que você deseja modificar e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png). O painel lateral **Filtros** exibe o filtro selecionado ou o construtor de filtros herdado é aberto.
 
    OR
 
@@ -110,8 +110,8 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
    Ao filtrar por status, é necessário usar o código de três letras do status, não o nome.</p> </td>
    </tr> 
      <tr> 
-      <td> <p>Modificador do nome do campo e o modificador é igual a. Isso indica quais condições o campo que você está filtrando deve atender.</p> <p>Esta linha é obrigatória.</p> </td> 
-      <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>Para indicar que o status das tarefas filtradas deve ser igual a Em andamento, use a seguinte linha, além da linha acima:</p> <p><code>status_Mod=in</code> </p> <p>Se o modificador for uma faixa, há duas linhas para indicar o modificador.</p> 
+      <td> <p>Modificador do nome do campo e o modificador é igual a. Indica as condições que o campo pelo qual você está filtrando deve atender.</p> <p>Esta linha é obrigatória.</p> </td> 
+      <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>Para indicar que o status das tarefas filtradas deve ser igual a Em Andamento, use a seguinte linha além da acima:</p> <p><code>status_Mod=in</code> </p> <p>Se o modificador for uma faixa, há duas linhas para indicar o modificador.</p> 
        <div> <span class="autonumber"><span><b>EXEMPLO </b></span></span> 
         <p>Este é um filtro de modo de texto que procura tarefas em andamento, que tenham uma Data de conclusão planejada para o mês atual e estejam atribuídas a um usuário com uma GUID específica:</p> 
         <p><code>assignedToID=580a55a4000701f4b2d7dee1e7a9d427</code> </p> 
@@ -151,13 +151,13 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
     </tbody> 
    </table>
 
-1. Para adicionar uma instrução de filtro conectada pelo operador &quot;OR&quot;, faça o seguinte:
+1. Para adicionar uma instrução de filtro conectada pelo operador “OR”, faça o seguinte:
 
-   1. Adicione uma nova linha de código e tipo OR:1: seguido pelo objeto ou atributo pelo qual você deseja filtrar e o valor com o qual você deseja compará-lo. Para referenciar tarefas que estão em qualquer status, exceto Nova, use a seguinte linha:
+   1. Adicione uma nova linha de código e tipo OR:1: seguido pelo objeto ou atributo pelo qual você deseja filtrar e pelo valor com o qual deseja compará-lo. Para referenciar tarefas que estejam em qualquer status, exceto Novo, use a seguinte linha:
 
       `OR:1:status=NEW`
 
-   1. Adicione uma segunda linha e digite OR:1: seguido pelo objeto, modificador e código do modificador. Para definir o modificador para a linha de código que faz referência a todos os status de tarefa, exceto para Novo, use a seguinte linha do modificador:
+   1. Adicione uma segunda linha e digite OR:1: seguido pelo objeto, o modificador e o código do modificador. Para definir o modificador da linha de código que faz referência a todos os status de tarefa, exceto Novo, use a seguinte linha do modificador:
 
       `OR:1:status_Mod=notin`
 

@@ -3,17 +3,17 @@ product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
 title: Mover uma história ágil
 description: Você pode mover uma história Agile para uma iteração diferente (para equipes Scrum) ou para o backlog (para equipes Kanban e Scrum).
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
-# Mover uma história do Agile
+# Mover um story ágil
 
 Você pode mover uma história Agile para uma iteração diferente (para equipes Scrum) ou para o backlog (para equipes Kanban e Scrum).
 
@@ -43,7 +43,7 @@ Você pode mover uma história Agile para uma iteração diferente (para equipes
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -2,27 +2,27 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
-title: Procurar no catálogo de blueprints e solicitar instalação de blueprints
-description: Os blueprints fornecem blocos de construção básicos para ajudá-lo a criar um sistema de gerenciamento de trabalho que cresce com você. Todos [!DNL Adobe Workfront] os usuários podem navegar pelo catálogo de blueprints. Além disso, você pode fazer uma solicitação para que o administrador do  [!DNL Workfront] instale um blueprint específico para você, caso o administrador tenha habilitado solicitações de blueprint.
-author: Jenny
+title: Navegue pelo catálogo de blueprints e solicite a instalação de blueprints
+description: Os blueprints fornecem blocos de construção básicos para ajudá-lo a criar um sistema de gerenciamento de trabalho que cresce com você. Todos os [!DNL Adobe Workfront] usuários podem procurar o catálogo de blueprints. Além disso, você pode fazer uma solicitação para que o administrador do  [!DNL Workfront] instale um blueprint específico para você, caso o administrador tenha habilitado solicitações de blueprint.
+author: Courtney
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Navegar pelo catálogo de blueprints e solicitar a instalação de blueprints
+# Navegue pelo catálogo de projetos e solicite a instalação de projetos
 
-Os blueprints fornecem blocos de construção básicos para ajudá-lo a criar um sistema de gerenciamento de trabalho que cresce com você. Todos os usuários [!DNL Adobe Workfront] podem navegar pelo catálogo de blueprints. Você também pode fazer uma solicitação para que o administrador do [!DNL Workfront] instale um blueprint específico para você, se o administrador tiver habilitado solicitações de blueprint.
+Os blueprints fornecem blocos de construção básicos para ajudá-lo a criar um sistema de gerenciamento de trabalho que cresce com você. Todos os usuários do [!DNL Adobe Workfront] podem procurar o catálogo de blueprints. Você também pode fazer uma solicitação para que o administrador do [!DNL Workfront] instale um esquema específico para você, caso o administrador tenha habilitado solicitações de esquema.
 
-Somente o administrador do sistema pode instalar blueprints. Para obter informações, consulte [Instalar um blueprint](../../administration-and-setup/blueprints/blueprints-install.md).
+Somente o administrador do sistema pode instalar os blueprints. Para obter mais informações, consulte [Instalar um esquema](../../administration-and-setup/blueprints/blueprints-install.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Somente o administrador do sistema pode instalar blueprints. Para obter informa�
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Colaborador ou superior</p><p>Solicitante ou superior</p>
+   <td><p>Colaborador ou posterior</p><p>Solicitante ou superior</p>
   </td> 
   </tr> 
  </tbody> 
@@ -44,9 +44,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Navegar pelo catálogo de blueprints
+## Pesquisar no catálogo de blueprints
 
-O catálogo exibe todos os blueprints disponíveis para sua organização. Para obter informações sobre blueprints, como tipos de blueprint e níveis de maturidade, consulte [Visão geral dos blueprints](../../administration-and-setup/blueprints/blueprints-overview.md).
+O catálogo exibe todos os blueprints disponíveis para sua organização. Para obter informações sobre blueprints, como tipos de blueprint e níveis de maturidade, consulte [Visão geral de blueprints](../../administration-and-setup/blueprints/blueprints-overview.md).
 
 {{step1-to-blueprints}}
 
@@ -64,15 +64,15 @@ O catálogo exibe todos os blueprints disponíveis para sua organização. Para 
 
 ## Solicitar instalação de um blueprint
 
-Você pode solicitar a instalação de um blueprint se o administrador do sistema permitir solicitações de blueprint. Para obter mais informações, consulte [Configurar acesso a blueprints](../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
+Você pode solicitar a instalação de um esquema se o administrador do sistema permitir solicitações de esquema. Para obter mais informações, consulte [Configurar acesso a plantas](../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
-Quando você solicita a instalação de um blueprint, a solicitação é enviada para o administrador do sistema. Você será notificado quando a solicitação for concluída, de acordo com suas preferências de notificação.
+Quando você solicita a instalação de um esquema, a solicitação é enviada ao administrador do sistema. Você será notificado quando a solicitação for concluída, de acordo com suas preferências de notificação.
 
 {{step1-to-blueprints}}
 
-1. Encontre o blueprint que deseja instalar. Você pode filtrar por caso de uso, nível de maturidade, status de instalação e tipo usando os filtros no painel direito.
-1. Clique em **[!UICONTROL Solicitar]** no blueprint.
+1. Encontre o esquema que deseja instalar. Você pode filtrar por caso de uso, nível de maturidade, status de instalação e tipo usando os filtros no painel direito.
+1. Clique em **[!UICONTROL Solicitar]** no esquema.
 
-   Se o botão **[!UICONTROL Solicitação]** não aparecer no blueprint, isso significa que o administrador do sistema não habilitou solicitações.
+   Se o botão **[!UICONTROL Solicitar]** não aparecer no esquema, isso significa que o administrador do sistema não habilitou as solicitações.
 
-   ![Solicitar blueprint](assets/blueprints-non-admin-request-bp-350x283.png)
+   ![Solicitar esquema](assets/blueprints-non-admin-request-bp-350x283.png)

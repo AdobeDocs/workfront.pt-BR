@@ -3,18 +3,18 @@ product-area: reporting
 keywords: usuário,delegação,relatório,delegado,aprovação
 navigation-topic: create-and-manage-reports
 title: Criar um relatório de delegação de usuário
-description: Criar um relatório de delegação de usuário
-author: Nolan
+description: Criar um relatório de delegação de usuários
+author: Courtney
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 2%
+ht-degree: 17%
 
 ---
 
-# Criar um relatório de delegação de usuário
+# Criar um relatório de delegação de usuários
 
 <!--Audited: 10/2024-->
 
@@ -41,7 +41,7 @@ Para saber mais sobre delegação de aprovações, consulte [Delegar solicitaç�
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,7 +54,7 @@ Para saber mais sobre delegação de aprovações, consulte [Delegar solicitaç�
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-      <p>Standard</p>
+      <p>Padrão</p>
       <p>Plano</p>
    </td>
   </tr> 
@@ -69,7 +69,7 @@ Para saber mais sobre delegação de aprovações, consulte [Delegar solicitaç�
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

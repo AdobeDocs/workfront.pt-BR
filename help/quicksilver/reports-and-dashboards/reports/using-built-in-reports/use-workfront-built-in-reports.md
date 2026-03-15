@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: using-built-in-reports
 title: Usar relatórios integrados do Adobe Workfront
-description: O Adobe Workfront tem uma extensa lista de relatórios integrados prontos para uso. Os administradores do Workfront podem ocultar relatórios internos para que os usuários não tenham acesso a eles.
-author: Nolan
+description: O Adobe Workfront tem uma extensa lista de relatórios incorporados que estão prontos para uso. Os administradores do Workfront podem ocultar relatórios internos para que os usuários não tenham acesso a eles.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2978'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 10%
 
 <!--Audited: 11/2024-->
 
-O Adobe Workfront tem uma lista extensa de relatórios internos que você pode usar.
+O Adobe Workfront possui uma extensa lista de relatórios internos que você pode usar.
 
 Os administradores do Workfront podem ocultar relatórios internos para que os usuários não tenham acesso a eles. Para obter mais informações sobre como ocultar relatórios internos, consulte [Ocultar relatórios internos](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,8 +36,8 @@ Os administradores do Workfront podem ocultar relatórios internos para que os u
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-      <p>Colaborador ou superior</p>
-      <p>Solicitação ou superior</p>
+      <p>Colaborador ou posterior</p>
+      <p>Solicitação ou posterior</p>
    </td>
   </tr>
   <tr> 
@@ -51,7 +51,7 @@ Os administradores do Workfront podem ocultar relatórios internos para que os u
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,11 +85,11 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Receita Efetiva do Portfólio por Projeto</td> 
-   <td>Um relatório de Projeto que mostra a Receita Planejada e a Receita Efetiva dos projetos. O relatório é agrupado por Nome do projeto, solicitado por Nome da Portfolio, e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que exibe a Receita Planejada e a Receita Real dos projetos. O relatório é agrupado por Nome do projeto, solicitado por Nome do Portfolio, e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Receita atual por empresa</td> 
-   <td>Um relatório de Projeto que mostra a Receita Efetiva e a Receita Planejada dos projetos. O relatório é agrupado por Nome da empresa e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que exibe a Receita Real e a Empresa dos projetos. O relatório é agrupado por Nome da empresa e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Receita atual por grupo</td> 
@@ -101,11 +101,11 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Aprovação de planilhas de horas (por seleção)</td> 
-   <td>Um relatório de Planilha de Horas que mostra Planilhas de Horas Enviadas ou Planilhas de Horas Rejeitadas com os aprovadores. O relatório exibe os seguintes campos: Intervalo de datas, Proprietário, Horas totais, Horas extras, Nome do aprovador e Status das folhas de horas. O relatório é solicitado por: Data Inicial da Planilha de Horas, Data Final da Planilha de Horas, Nome do Aprovador da Planilha de Horas e Nome do Usuário.</td> 
+   <td>Um relatório de Quadro de Horários que exibe Quadros de Horários Enviados ou Rejeitados com aprovadores. O relatório exibe os seguintes campos: Faixa de Datas, Proprietário, Total de Horas, Horas Extras, Nome do Aprovador e Status dos quadros de horários. O relatório é solicitado por: Data de Início do Quadro de Horários, Data de Término do Quadro de Horários, Nome do Aprovador do Quadro de Horários e Nome do Usuário.</td> 
   </tr> 
   <tr> 
    <td>Projetos em Risco</td> 
-   <td>Um relatório de Projeto que mostra projetos Atuais e Planejados que têm uma Condição de Em Risco ou Com Problemas. O relatório exibe os seguintes campos: Descrição, Data de Conclusão Planejada, Data de Conclusão Projetada, Percentual de Conclusão, Status e Prioridade dos projetos. O relatório é agrupado por Portfolio Name.</td> 
+   <td>Um relatório de Projeto que exibe os projetos Atuais e de Planejamento que têm uma Condição de Em Risco ou Em Problema. O relatório exibe os seguintes campos: Descrição, Data de Conclusão Planejada, Data de Conclusão Projetada, Percentual de Conclusão, Status e Prioridade dos projetos. O relatório é agrupado por Nome do Portfolio.</td> 
   </tr> 
   <tr> 
    <td>Receita faturada por empresa</td> 
@@ -125,19 +125,19 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Problemas concluídas por semana e por usuário</td> 
-   <td>Um relatório de Problema que mostra a Data de Término Efetivo e as Atribuições dos problemas. O relatório é agrupado pelo destinatário principal e pela semana da Data de conclusão real das ocorrências, e inclui um gráfico.</td> 
+   <td>Um relatório de ocorrência que exibe a Data de conclusão real e as Atribuições das ocorrências. O relatório é agrupado pelo destinatário principal e pela semana da Data de Conclusão Real das ocorrências e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Projetos Atuais</td> 
-   <td>Um relatórios de Projeto que mostra todos os projetos Atuais. O relatório exibe os seguintes campos: Descrição, Data de Conclusão Planejada, Data de Conclusão Projetada, Percentual de Conclusão, Status e Prioridade dos projetos.</td> 
+   <td>Um relatório do Project que exibe todos os projetos Atuais. O relatório exibe os seguintes campos: Descrição, Data de Conclusão Planejada, Data de Conclusão Projetada, Percentual de Conclusão, Status e Prioridade dos projetos.</td> 
   </tr> 
   <tr> 
    <td>Custos de hora por usuário e por mês</td> 
-   <td>Um relatório de matriz de Horas que mostra o número de Horas reportadas e seu Custo Efetivo. O relatório é agrupado pelo Nome do proprietário e pelo mês da Data de entrada das horas.</td> 
+   <td>Um relatório de Horas da matriz que exibe o número de Horas registradas e seu Custo Real. O relatório é agrupado por Nome do Proprietário e pelo mês da Data de Entrada das horas.</td> 
   </tr> 
   <tr> 
    <td>Horas por usuário</td> 
-   <td>Um relatório de Horas que mostra o número de horas reportadas. O relatório é agrupado por Nome do proprietário e inclui um gráfico.</td> 
+   <td>Um relatório de Horas que exibe o número de horas registradas. O relatório é agrupado por Nome do Proprietário e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Horas por usuário e por mês</td> 
@@ -181,7 +181,7 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Meus favoritos</td> 
-   <td>Um relatório de Favoritos que mostra uma lista de objetos marcados como favoritos pelo usuário logado. O relatório exibe os seguintes campos: o Tipo de objeto e o Nome dos favoritos.</td> 
+   <td>Um relatório Favoritos que exibe uma lista de objetos marcados como favoritos pelo usuário conectado. O relatório exibe os seguintes campos: o Tipo de Objeto e o Nome dos favoritos.</td> 
   </tr> 
   <tr> 
    <td>Meus problemas</td> 
@@ -221,27 +221,27 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Minhas Tarefas não Atribuídas</td> 
-   <td>Um relatório de Tarefa que mostra tarefas incompletas atribuídas a qualquer uma das funções de trabalho do usuário logado e que não estão atribuídas ao usuário. O relatório exibe os seguintes campos: a Duração Planejada, o Nome do Projeto, o destinatário principal, a Data Inicial Planejada, a Data de Conclusão Planejada, o Percentual de Conclusão e a Prioridade das tarefas.</td> 
+   <td>Um relatório de Tarefa que mostra tarefas incompletas atribuídas a qualquer uma das funções de trabalho do usuário logado e que não estão atribuídas ao usuário. O relatório exibe os seguintes campos: Duração Planejada, Nome do Projeto, destinatário principal, Data Inicial Planejada, Data de Conclusão Planejada, Percentual de Conclusão e Prioridade das tarefas.</td> 
   </tr> 
   <tr> 
    <td>Minhas Próximas Tarefas</td> 
-   <td>Um relatório de Tarefa que mostra tarefas incompletas que devem começar nas próximas duas semanas, estão em projetos Atuais e estão atribuídas ao usuário logado. O relatório exibe os seguintes campos: Nome do Projeto, Data de Conclusão Planejada, Data de Conclusão Projetada, Percentual de Conclusão e Status das tarefas.</td> 
+   <td>Um relatório Tarefa que exibe tarefas incompletas que devem iniciar nas próximas duas semanas, estão em Projetos atuais e estão atribuídas ao usuário conectado. O relatório exibe os seguintes campos: Nome do Projeto, Data de Conclusão Planejada, Data de Conclusão Projetada, Percentual de Conclusão e Status das tarefas.</td> 
   </tr> 
   <tr> 
    <td>Planilhas de horas abertas (por seleção)</td> 
-   <td>Um relatório de Planilha de Horas que mostra Planilhas de Horas Abertas. O relatório exibe os seguintes campos: Intervalo de datas, Proprietário, Horas totais, Horas extras, Nome do aprovador, Status das folhas de horas. O relatório é solicitado por: Data Inicial da Planilha de Horas, Data Final da Planilha de Horas, Nome do Aprovador da Planilha de Horas e Nome do Usuário.</td> 
+   <td>Um relatório de Planilha de Horas que mostra Planilhas de Horas Abertas. O relatório exibe os seguintes campos: Faixa de Datas, Proprietário, Total de Horas, Horas Extras, Nome do Aprovador, Status dos quadros de horários. O relatório é solicitado por: Data de Início do Quadro de Horários, Data de Término do Quadro de Horários, Nome do Aprovador do Quadro de Horários e Nome do Usuário.</td> 
   </tr> 
   <tr> 
    <td>Projetos acima do Orçamento por Portfólio</td> 
-   <td>Um relatório de Projeto que mostra o Custo Planejado e Custo Efetivo dos projetos. O relatório é agrupado por Portfolio Name.</td> 
+   <td>Um relatório de Projeto que exibe o Custo Planejado e o Custo Real dos projetos. O relatório é agrupado por Nome do Portfolio.</td> 
   </tr> 
   <tr> 
    <td>Custo Planejado do Portfólio por Programa</td> 
-   <td>Um relatório de Projeto que mostra o Custo Planejado e Custo Efetivo dos projetos. O relatório é solicitado pelo Nome do Portfolio, agrupado por Nome do programa, e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que exibe o Custo Planejado e o Custo Real dos projetos. O relatório é solicitado pelo Nome do Portfolio, agrupado por Nome do Programa, e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Custo Planejado do Portfólio por Projeto</td> 
-   <td>Um relatório de Projeto que mostra o Custo Planejado e Custo Efetivo dos projetos. O relatório é solicitado pelo Nome do Portfolio, agrupado pelo Nome do projeto, e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que exibe o Custo Planejado e o Custo Real dos projetos. O relatório é solicitado pelo Nome do Portfolio, agrupado pelo Nome do projeto, e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Receita Planejada do Portfólio por Programa</td> 
@@ -321,19 +321,19 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Projetos por condição por grupo</td> 
-   <td>Um relatórios de Projeto que mostra o Status do Progresso e o Grupo dos projetos. O relatório é agrupado por Nome do grupo e Status do progresso e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que exibe o Status do Andamento e o Grupo dos projetos. O relatório é agrupado por Nome do Grupo e Status do Andamento e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Projetos por Prioridade</td> 
-   <td>Um relatórios de Projeto que mostra a Prioridade dos projetos. O relatório é agrupado por Prioridade e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que exibe a Prioridade dos projetos. O relatório é agrupado por Prioridade e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Projetos por status de progresso</td> 
-   <td>Um relatórios de Projeto que mostra o Status de Progresso dos projetos. O relatório é agrupado pelo Status do progresso e inclui um gráfico.</td> 
+   <td>Um relatório de Projeto que exibe o Status do Andamento dos projetos. O relatório é agrupado pelo Status do Andamento e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Tarefas por status do progresso</td> 
-   <td>Um relatório de Tarefa que mostra o Status do Progresso de todas as Tarefas nos Projetos Atuais. O relatório é agrupado por Status do progresso e inclui um gráfico.</td> 
+   <td>Um relatório de Tarefas que exibe o Status do Andamento de todas as Tarefas em Projetos Atuais. O relatório é agrupado por Status do Andamento e inclui um gráfico.</td> 
   </tr> 
   <tr> 
    <td>Tarefas por status</td> 
@@ -349,13 +349,13 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
   </tr> 
   <tr> 
    <td>Logins de Usuário</td> 
-   <td>Um relatório de Usuário que mostra os seguintes campos: ID exclusiva, Contagem de logon (o número de vezes que o usuário fez logon desde que começou a usar o Workfront), Data do último logon dos usuários. O relatório é agrupado pelo Nível de acesso dos usuários.</td> 
+   <td>Um relatório de usuário que exibe os seguintes campos: a ID exclusiva, Contagem de logon (o número de vezes que o usuário fez logon desde que iniciou a Workfront), Última data de logon dos usuários. O relatório é agrupado pelo Nível de Acesso dos usuários.</td> 
   </tr> 
  </tbody> 
  <p><span class="wysiwyg-color-pink"></span> </p> 
 </table>
 
-## Acessar relatórios integrados
+## Acessar relatórios internos
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Section directly linked to "Getting Started with Workfront Reporting." Do not change/ rename.) </p>
@@ -364,15 +364,15 @@ Os seguintes relatórios vêm com o pacote do Workfront. Os relatórios estão d
 {{step1-click-main-menu}}
 
 1. Clique em **Relatórios**.
-1. Clique em **Todos os relatórios**.
+1. Clique em **Todos os Relatórios**.
 1. Expanda o menu suspenso **Filtro** e selecione **Novo Filtro**.
 
 1. Clique em **Adicionar uma Regra de Filtro**.
-1. No campo **Comece a digitar o nome do campo**, comece a digitar a **ID Global**.
+1. No campo **Começar a digitar o nome do campo**, comece a digitar a **ID Global**.
 
 1. No objeto **Relatório**, selecione **ID Global**.
 
-1. No menu suspenso do modificador de filtro, selecione **Não está em branco**.\
+1. No menu suspenso do modificador de filtro, selecione **Não Está em Branco**.\
    ![Filtro de ID global para relatórios do sistema](assets/qs-global-id-filter-for-system-reports-350x179.png)
 
 1. Clique em **Salvar filtro**.\

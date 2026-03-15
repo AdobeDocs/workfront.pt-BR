@@ -3,14 +3,14 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
 title: Criar uma iteração em um fluxo de trabalho
-description: Uma iteração é uma quantidade definida de tempo reservado para concluir o trabalho. Algumas equipes Agile podem se referir a uma iteração como uma sprint.
-author: Jenny
+description: Uma iteração é uma quantidade definida de tempo reservado para a conclusão do trabalho. Alguns grupos ágeis podem se referir a uma iteração como sprint.
+author: Courtney
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Os fluxos de trabalho só estão disponíveis para um grupo específico de clientes.
+>Os fluxos de trabalho estão disponíveis apenas para um grupo específico de clientes.
 
-Uma iteração é uma quantidade definida de tempo reservado para concluir o trabalho. Algumas equipes Agile podem se referir a uma iteração como uma sprint.
+Uma iteração é uma quantidade definida de tempo reservado para a conclusão do trabalho. Alguns grupos ágeis podem se referir a uma iteração como sprint.
 
 ## Requisitos de acesso
 
@@ -37,14 +37,14 @@ Uma iteração é uma quantidade definida de tempo reservado para concluir o tra
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p> 
-   <p>Solicitação ou superior</p>
+   <p>Colaborador ou posterior</p> 
+   <p>Solicitação ou posterior</p>
    </td> 
   </tr>  
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -52,12 +52,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 {{step1-to-boards}}
 
-1. Abra o fluxo de trabalho ao qual deseja adicionar a iteração. Para abrir um fluxo de trabalho, clique em [!UICONTROL **Exibir fluxo de trabalho**].
+1. Abra o fluxo de trabalho onde deseja adicionar a iteração. Para abrir um fluxo de trabalho, clique em [!UICONTROL **Exibir fluxo de trabalho**].
 1. Crie uma iteração usando um destes métodos:
 
-   * Na guia Lista de Cartão, na exibição de iteração, clique em [!UICONTROL **Criar iteração**].
-   * Na guia Lista de Cartão, na exibição em lista, clique em [!UICONTROL **Criar iteração**].
-   * Na guia Quadros, clique em [!UICONTROL **Adicionar quadro**] e selecione [!UICONTROL **Processo de Iteração**] como o modelo de quadro. Em seguida, abra o quadro de iteração e clique em [!UICONTROL **Configurar iterações**].
+   * Na guia Lista de Cartões, na exibição de iteração, clique em [!UICONTROL **Criar iteração**].
+   * Na guia Lista de Cartões, na exibição de lista, clique em [!UICONTROL **Criar iteração**].
+   * Na guia Painéis, clique em [!UICONTROL **Adicionar painel**] e selecione [!UICONTROL **Processo de Iteração**] como o modelo de painel. Em seguida, abra o quadro de iterações e clique em [!UICONTROL **Configurar iterações**].
 
 1. Na caixa de diálogo Detalhes da iteração, adicione as seguintes informações:
 
@@ -65,22 +65,22 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
     <tbody> 
      <tr> 
       <td><strong>[!UICONTROL Nome da Iteração]</strong></td> 
-      <td>O nome da iteração, como "Sprint 1".</td> 
+      <td>O nome da iteração, como “Sprint 1”.</td> 
      </tr> 
      <tr> 
-      <td><strong>[!UICONTROL Comprimento da iteração]</strong></td> 
+      <td><strong>[!UICONTROL Comprimento da Iteração]</strong></td> 
       <td>A duração da iteração, em dias, semanas ou meses.</td> 
      </tr>
      <tr> 
       <td><strong>[!UICONTROL Data de início]</strong></td> 
-      <td>A data em que a iteração começa. A data final é inserida automaticamente com base na duração da iteração.</td> 
+      <td>A data em que a iteração começa. A data final é inserida automaticamente com base no comprimento da iteração.</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Clique em [!UICONTROL **Salvar**].
 
-   A iteração agora aparece na visualização de iteração da lista de cartões e na área de métricas no quadro de iteração.
+   A iteração agora aparece na visualização de iteração da lista de cartões e na área métricas do quadro de iteração.
 
    Para adicionar cartões a uma iteração, consulte [Usar a lista de cartões](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
@@ -89,13 +89,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 1. Para abrir um fluxo de trabalho, clique em [!UICONTROL **Exibir fluxo de trabalho**].
 1. Abra a iteração usando um destes métodos:
 
-   * Na guia Lista de Cartão, na exibição de iteração, clique no ícone [!UICONTROL **Detalhes da iteração**] ![Detalhes da iteração](assets/iteration-details-button.png).
-   * No quadro de iteração, clique no ícone [!UICONTROL **Detalhes da iteração**] ![Detalhes da iteração](assets/iteration-details-button.png) na área de métricas na parte superior direita.
+   * Na guia Lista de Cartões, na exibição de iteração, clique no ícone [!UICONTROL **Detalhes da iteração**] ![Detalhes da iteração](assets/iteration-details-button.png).
+   * No quadro de iteração, clique no ícone [!UICONTROL **Detalhes da iteração**] ![Detalhes da iteração](assets/iteration-details-button.png) na área de métricas no canto superior direito.
 
-1. No painel [!UICONTROL Configuração de iteração], edite a iteração conforme necessário.
+1. No painel [!UICONTROL Configuração de Iteração], edite a iteração conforme necessário.
 1. Para alterar o nome da iteração, expanda [!UICONTROL **Detalhes da iteração**].
 
-   Depois que uma iteração é iniciada, você só pode alterar o nome da iteração e não as datas ou a duração da iteração.
+   Uma vez que uma iteração é iniciada, você só pode alterar o nome da iteração e não as datas ou o comprimento da iteração.
 
 <!--   
 
@@ -120,6 +120,6 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 
 ## Excluir uma iteração
 
-1. Clique na guia [!UICONTROL **Lista de Cartão**] no fluxo de trabalho e abra a exibição de iteração.
-1. Clique no ícone **Excluir** ![Excluir ícone](assets/delete.png) ao lado da iteração.
+1. Clique na guia [!UICONTROL **Lista de Cartões**] no fluxo de trabalho e abra a exibição de iteração.
+1. Clique no ícone **Excluir** ![Ícone Excluir](assets/delete.png) ao lado da iteração.
 1. Clique em [!UICONTROL **Excluir iteração**] na mensagem de confirmação.

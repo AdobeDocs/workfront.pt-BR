@@ -3,14 +3,14 @@ product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Remover relatórios de um painel
 description: Você pode remover relatórios de um painel após serem adicionados.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ Depois que um painel é criado e você adiciona relatórios a ele, é possível 
 
 Remover um relatório de um painel é permanente. Se for necessário adicionar novamente um relatório depois de excluí-lo, será necessário recriar o relatório.
 
-+++ Expanda para visualizar os requisitos de acesso.
++++ Expanda para visualizar os requisitos de acesso. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -33,7 +33,7 @@ Remover um relatório de um painel é permanente. Se for necessário adicionar n
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>plano do Adobe Workfront</p></td> 
+   <td role="rowheader"><p>Plano Adobe Workfront</p></td> 
    <td> 
 <p>Qualquer </p> 
    </td> 
@@ -42,7 +42,7 @@ Remover um relatório de um painel é permanente. Se for necessário adicionar n
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td> 
 <p>Atual: Plano </p> 
-<p>Novo: Padrão</p> 
+<p>Novo: padrão</p> 
    </td> 
    </tr> 
   </tr> 
@@ -60,7 +60,7 @@ Remover um relatório de um painel é permanente. Se for necessário adicionar n
 </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Pré-requisitos

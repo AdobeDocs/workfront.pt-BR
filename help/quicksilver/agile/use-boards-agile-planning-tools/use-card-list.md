@@ -2,15 +2,15 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
-title: Usar a lista de cartões
-description: Você pode criar uma lista de cartões em um fluxo de trabalho e adicionar os cartões às iterações.
-author: Jenny
+title: Usar a Lista de Cartões
+description: É possível criar uma lista de cartões em um fluxo de trabalho e adicionar os cartões a iterações.
+author: Courtney
 feature: Agile
 exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 0%
 >
 >Os fluxos de trabalho não estão disponíveis para todos os clientes.
 
-Você pode criar uma lista de cartões em um fluxo de trabalho e adicionar os cartões às iterações.
+É possível criar uma lista de cartões em um fluxo de trabalho e adicionar os cartões a iterações.
 
-A lista de cartões pode funcionar como um backlog de trabalho para o workflow.
+A lista de cartões pode funcionar como um acúmulo de trabalho para o fluxo de trabalho.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,14 +39,14 @@ A lista de cartões pode funcionar como um backlog de trabalho para o workflow.
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p> 
-   <p>Solicitação ou superior</p>
+   <p>Colaborador ou posterior</p> 
+   <p>Solicitação ou posterior</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,88 +55,88 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 {{step1-to-boards}}
 
 1. Para abrir um fluxo de trabalho, clique em [!UICONTROL **Exibir fluxo de trabalho**].
-1. Clique na guia [!UICONTROL **Lista de cartões**].
-1. Clique em [!UICONTROL **Adicionar cartão**].
-1. Na caixa de diálogo [!UICONTROL **Criar/Editar Cartão**], adicione as seguintes informações:
+1. Click the [!UICONTROL **Card List**] tab.
+1. Click [!UICONTROL **Add card**].
+1. In the [!UICONTROL **Create/Edit Card**] dialog, add the following information:
 
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td><strong>[!UICONTROL Nome]</strong></td> 
-      <td>O nome do cartão.</td> 
+      <td><strong>[!UICONTROL Name]</strong></td> 
+      <td>The name of the card.</td> 
      </tr> 
      <tr> 
-      <td><strong>[!UICONTROL Descrição]</strong></td> 
+      <td><strong>[!UICONTROL Description]</strong></td> 
       <td>Uma descrição do cartão.</td> 
      </tr>
      <tr> 
       <td><strong>[!UICONTROL Estimativa]</strong></td> 
-      <td>O número estimado de horas para a conclusão do cartão. Esta entrada é apenas manual.</td> 
+      <td>O número estimado de horas para o cartão ser concluído. Esta é apenas uma entrada manual.</td> 
      </tr>
      <tr> 
       <td><strong>[!UICONTROL Status]</strong></td> 
       <td>Selecione um status para o cartão.</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL Iterações]</strong></td> 
+      <td><strong>[!UICONTROL Iterations]</strong></td> 
       <td>Selecione uma iteração à qual atribuir o cartão.</td> 
      </tr>
      <tr> 
-      <td><strong>[!UICONTROL Atribuídos]</strong></td> 
-      <td><p>Para atribuir o cartão, comece digitando um nome no campo de pesquisa e, em seguida, selecione-o quando ele for exibido na lista. Você pode adicionar indivíduos e equipes e atribuir mais de uma pessoa ou equipe a um cartão.</p><p>Os atribuídos devem ser membros no fluxo de trabalho ou não aparecerão na lista de seleção.</p></td> 
+      <td><strong>[!UICONTROL Destinatários]</strong></td> 
+      <td><p>Para atribuir o cartão, comece a digitar um nome no campo de pesquisa e selecione-o quando for exibido na lista. Você pode adicionar indivíduos e equipes e atribuir mais de uma pessoa ou equipe a um cartão.</p><p>Assignees must be members on the workstream or they will not appear in the selection list.</p></td> 
      </tr>
     </tbody> 
    </table>
 
 1. Clique em [!UICONTROL **Salvar**].
-1. Continue adicionando cartões até criar a lista de cartões.
+1. Continue adding cards until you have built the card list.
 
 ## Exibir cartões
 
 Para exibir todos os cartões para o fluxo de trabalho em uma única lista, clique em [!UICONTROL **Exibição de lista**] na guia Lista de cartões.
 
-Para exibir todos os cartões do fluxo de trabalho agrupados por iteração, clique em [!UICONTROL **Exibição de iteração**]. Os cartões não planejados são exibidos em seu próprio grupo.
+Para exibir todos os cartões do fluxo de trabalho agrupados por iteração, clique em [!UICONTROL **Exibição de iteração**]. Unplanned cards are displayed in their own group.
 
-Para editar um cartão existente, selecione-o na lista e clique em [!UICONTROL **Editar**].
+To edit an existing card, select it in the list and click [!UICONTROL **Edit**].
 
-Para excluir um cartão, selecione-o na lista e clique em [!UICONTROL **Excluir**].
+To delete a card, select it in the list and click [!UICONTROL **Delete**].
 
-### Filtrar cartões
+### Filter cards
 
-Os cartões só podem ser arquivados do quadro de iteração. Quando um cartão é arquivado, ele não é exibido na lista de cartões, a menos que você filtre para mostrar cartões arquivados. Para obter informações sobre como arquivar um cartão, consulte [Excluir ou arquivar um cartão de um quadro](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
+Cards can only be archived from the iteration board. When a card is archived, it is not displayed in the card list unless you filter to show archived cards. For information about archiving a card, see [Delete or archive a card from a board](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
 
-1. Acesse a lista de cartões para o workflow.
-1. Clique em [!UICONTROL **Filtro**] e selecione [!UICONTROL **Todos**], [!UICONTROL **Cartões ativos**] ou [!UICONTROL **Cartões arquivados**].
+1. Acesse a lista de cartões para o fluxo de trabalho.
+1. Clique em [!UICONTROL **Filtrar**] e selecione [!UICONTROL **Todos**], [!UICONTROL **Cartões ativos**] ou [!UICONTROL **Cartões arquivados**].
 
    Quando um filtro diferente do padrão é aplicado na lista de cartões, um indicador é exibido no ícone de filtro ![Filtro aplicado](assets/boards-filterapplied-30x30.png).
 
 ### Pesquisar na lista de cartões
 
-1. Acesse a lista de cartões para o workflow.
+1. Acesse a lista de cartões para o fluxo de trabalho.
 1. Clique em [!UICONTROL **Pesquisar**] e digite um termo de pesquisa. Em seguida, pressione Enter.
 
-   Todos os cartões que contêm o termo de pesquisa são exibidos.
+   All cards that contain the search term are displayed.
 Clique no X para limpar a pesquisa.
 
-   ![Pesquisar cartões em um quadro](assets/boards-searchbox.png)
+   ![Search for cards in a board](assets/boards-searchbox.png)
 
-## Adicionar cartões a uma iteração
+## Add cards to an iteration
 
 >[!NOTE]
 >
->Você deve criar uma iteração antes de adicionar cartões a ela. Para obter informações, consulte [Criar uma iteração em um fluxo de trabalho](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+>You must create an iteration before you can add cards to it. For information, see [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-1. Acesse a lista de cartões para o workflow.
-1. Selecione a [!UICONTROL **Exibição de iteração**] para ver quais cartões estão atribuídos a uma iteração e quais não estão planejados.
-1. Selecione um cartão não planejado na lista e clique em [!UICONTROL **Editar**].
-1. Selecione uma iteração no campo [!UICONTROL **Iterações**].
-1. Se você estiver usando pontos de história, insira um valor no campo [!UICONTROL **Estimativa**].
+1. Access the card list for the workstream.
+1. Select the [!UICONTROL **Iteration view**] to see which cards are assigned to an iteration and which are unplanned.
+1. Select an unplanned card in the list and click [!UICONTROL **Edit**].
+1. Select an iteration in the [!UICONTROL **Iterations**] field.
+1. If you are using story points, enter a value in the [!UICONTROL **Estimation**] field.
 1. Clique em [!UICONTROL **Salvar**].
 
-   O cartão é movido para a iteração e as métricas de iteração refletem o número de cartões e pontos.
+   A placa é movida para a iteração e as métricas de iteração refletem o número de placas e pontos.
 
    Você também pode arrastar e soltar um cartão do grupo Cartões não planejados na iteração ou clicar em [!UICONTROL **Adicionar cartão**] para adicionar um novo cartão à iteração.
 
 >[!TIP]
 >
->Se você criou um quadro de processo de iteração, todos os cartões não planejados na lista de cartões aparecerão na coluna [!UICONTROL Backlog]. Quando um cartão é movido para outra coluna, ele se torna parte da iteração ativa. Os cartões adicionados à iteração na lista de cartões são adicionados a uma coluna com base em seus status.
+>Se você tiver criado um quadro de processo de iteração, todos os cartões não planejados na lista de cartões aparecerão na coluna [!UICONTROL Lista de pendências]. Quando uma placa é movida para outra coluna, ela se torna parte da iteração ativa. Os cartões adicionados à iteração na lista de cartões são adicionados a uma coluna com base em seu status.

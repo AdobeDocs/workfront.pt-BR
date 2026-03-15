@@ -4,14 +4,14 @@ product-area: reporting
 navigation-topic: reports
 title: Dicas, truques e solução de problemas para relatórios
 description: Saiba como solucionar problemas de relatórios.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 76ca4656-79a6-43da-a6d5-56a30f542d1e
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 0%
+ht-degree: 39%
 
 ---
 

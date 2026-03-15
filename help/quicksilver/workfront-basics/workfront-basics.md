@@ -1,21 +1,21 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: 'noções básicas do Adobe Workfront: índice de artigos'
+title: 'Noções básicas do Adobe Workfront: índice de artigos'
 description: Revise essas áreas para obter uma compreensão das noções básicas do Adobe Workfront e saber como executar funções básicas, como usar a área Página inicial ou Prioridades, gerenciar o perfil da conta, usar o Assistente de IA ou entender quais são os requisitos do navegador e os idiomas compatíveis. Consulte o Glossário do Workfront para saber mais sobre a terminologia comum no Workfront.
 short-description: Conheça os conceitos básicos do Adobe Workfront e saiba como executar suas funções básicas.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
-# noções básicas do Adobe Workfront: índice de artigos
+# Noções básicas do Adobe Workfront: índice de artigos
 
 <!--Audited: 01/2025-->
 
@@ -23,10 +23,10 @@ Revise essas áreas para obter uma compreensão das noções básicas do Adobe W
 
 Esta seção contém as seguintes subseções:
 
-* [Glossário da terminologia do Adobe Workfront](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [requisitos do navegador Adobe Workfront](../workfront-basics/workfront-browser-requirements.md)
-* [Idiomas com suporte no Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md)
-* [Preparação para a HIPAA para o Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
+* [Glossário de terminologia do Adobe Workfront](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
+* [Requisitos de navegador do Adobe Workfront](../workfront-basics/workfront-browser-requirements.md)
+* [Idiomas aceitos no Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md)
+* [Preparação para HIPAA no Workfront](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
 * [Navegar pelo Adobe Workfront: índice do artigo](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [Prioridades: índice de artigos](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
 * [Página inicial](../workfront-basics/using-home/home.md)
@@ -37,4 +37,4 @@ Esta seção contém as seguintes subseções:
 * [Gerenciar sua conta e seu perfil](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [Aplicativos móveis](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Assistente de IA no Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
-* [Dicas, truques e solução de problemas dos conceitos básicos do Adobe Workfront](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
+* [Dicas, truques e solução de problemas para o Adobe Workfront Basics](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

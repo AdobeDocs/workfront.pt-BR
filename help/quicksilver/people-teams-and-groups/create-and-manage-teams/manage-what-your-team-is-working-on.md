@@ -3,17 +3,17 @@ product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Gerenciar no que sua equipe está trabalhando
 description: Você pode ver uma exibição de calendário das tarefas e problemas em que sua equipe está trabalhando atualmente. Você pode atribuir itens não atribuídos, ajustar atribuições atuais, ajustar alocações atuais e muito mais.
-author: Jenny
+author: Courtney
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Gerenciar no que sua equipe está trabalhando
+# Gerencie o trabalho de sua equipe
 
 Você pode ver uma lista de itens nos quais sua equipe está trabalhando na seção [!UICONTROL Solicitações da equipe] da sua equipe.
 

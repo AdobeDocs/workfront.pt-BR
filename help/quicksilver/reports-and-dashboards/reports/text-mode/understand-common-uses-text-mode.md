@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Visão geral de usos comuns do modo de texto
-description: Visão geral de usos comuns do modo de texto
-author: Nolan
+title: Visão geral dos usos comuns do modo texto
+description: Visão geral dos usos comuns do modo texto
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '762'
+ht-degree: 7%
 
 ---
 
-# Visão geral de usos comuns do modo de texto
+# Visão geral dos usos comuns do modo texto
 
 <!-- Audited: 1/2025 -->
 
@@ -23,10 +23,10 @@ Você pode expandir seus recursos de relatórios usando o modo de texto em relat
 
 Este artigo descreve apenas alguns exemplos comuns de onde você provavelmente precisaria usar o modo de texto para expandir os recursos de relatórios ou campos personalizados calculados no Adobe Workfront. Para obter uma lista mais abrangente de exemplos, consulte:
 
-* [Exemplos personalizados de exibição, filtro e agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
-* [Dados personalizados calculados em relatórios](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+* [Exemplos de exibição personalizada, filtro e agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Dados personalizados calculados nos relatórios](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
-Para obter mais informações sobre como criar relatórios usando o modo de texto, incluindo classes, vídeos e tutoriais, consulte a seção Saiba mais no site do Adobe Experience League.
+Para obter mais informações sobre como criar relatórios usando o modo de texto, incluindo aulas, vídeos e tutoriais, consulte a seção Aprender no site da Adobe Experience League.
 
 ## Instâncias em que você pode usar o modo de texto em listas e relatórios
 
@@ -73,7 +73,7 @@ Para obter exemplos dos motivos mais comuns para usar o modo de texto em uma exi
 * [Exibir: ocultar o conteúdo de uma coluna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
 * [Exibir: exibir uma imagem em vez de uma cadeia de caracteres em uma coluna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [Exibir: exibe recuos de tarefas em uma lista de tarefas](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
-* [Exibir: calcular diferenças de data e hora](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
+* [Exibir: calcular diferenças de hora e data](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
 
 ## Usar o modo de texto em filtros {#use-text-mode-in-filters}
 
@@ -97,4 +97,4 @@ Para obter exemplos dos motivos mais comuns para usar o modo de texto em um agru
 * [Agrupamento: organize os resultados da lista por um valor calculado comum a todos os objetos no agrupamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
 * [Agrupamento: adicionar um quarto agrupamento a uma lista](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
 * [Agrupamento: editar o nome para exibição em um agrupamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
-* [Agrupamento: indica se os resultados de um agrupamento devem ser recolhidos ou expandidos usando o modo de texto](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
+* [Agrupamento: indicar se os resultados de um agrupamento devem ser recolhidos ou expandidos usando o modo de texto](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)

@@ -2,14 +2,14 @@
 navigation-topic: notifications
 title: Personalizar assuntos de email para notificações de eventos
 description: Você pode personalizar a linha de assunto dos emails acionados por notificações de eventos.
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: e34abb5ff1068de99eaba33dc95287164e556742
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ Algumas notificações de eventos têm várias linhas de assunto, o que signific
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,7 +48,7 @@ Algumas notificações de eventos têm várias linhas de assunto, o que signific
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p>
    </td> 
   </tr> 

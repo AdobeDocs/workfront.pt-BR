@@ -3,22 +3,22 @@ content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Operadores de condição em expressões personalizadas calculadas
-description: Você pode usar operadores de condição ou modificadores ao criar dados personalizados calculados no Adobe Workfront ao usar o modo de texto.
-author: Jenny
+description: You can use condition operators or modifiers when building calculated custom data in Adobe Workfront when using text mode.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: a1ead6d0c1c85bfbe6d7302506743db8d8b3e205
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
-# Operadores de condição em campos personalizados calculados
+# Condition operators in calculated custom fields
 
 <!-- Audited: 2/2024 -->
 
-Você pode usar operadores de condição ou modificadores ao criar dados personalizados calculados no Adobe Workfront ao usar o modo de texto. Para obter informações sobre como usar o modo de texto no Workfront, consulte [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+You can use condition operators or modifiers when building calculated custom data in Adobe Workfront when using text mode. For information about using text mode in Workfront, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Operadores ou modificadores de condição ajudam a criar uma declaração condicional conectando campos existentes do Workfront em declarações e gerando um novo campo. O uso mais comum de operadores de condição é criar a condição de uma instrução &quot;IF&quot;.
 
@@ -31,11 +31,11 @@ Você pode criar instruções &quot;IF&quot; para os seguintes elementos do Work
 * Campos personalizados calculados
 * Regras de negócios
 
-Para obter mais informações sobre a compilação de instruções &quot;IF&quot;, consulte a [&#x200B; visão geral das instruções &quot;IF&quot;](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+Para obter mais informações sobre como criar instruções “IF”, consulte [Visão geral das instruções “IF”](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
-Os exemplos neste guia ilustram o uso de operadores de condição em campos personalizados calculados. Também é possível usá-los em colunas ou agrupamentos personalizados calculados, ao seguir a sintaxe correta para campos personalizados calculados em relatórios.
+The examples in this guide illustrate the use of condition operators in calculated custom fields. You can also use them in calculated custom columns or groupings as well, when following the correct syntax for calculated custom fields in reports.
 
-Para obter informações sobre a diferença na sintaxe entre os campos personalizados calculados e os dados personalizados calculados nos relatórios, consulte [Campos personalizados calculados versus colunas calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+For information about the difference in syntax between the calculated custom fields and calculated custom data in reports, see [Calculated custom fields vs. calculated columns](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
 Para obter informações sobre regras de negócios, consulte [Criar e editar regras de negócios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
@@ -58,7 +58,7 @@ Você pode usar os seguintes modificadores de condição no Workfront:
   <tr> 
    <td>Igual</td> 
    <td>= </td> 
-   <td> <p>Use esse operador para indicar que a condição é atendida quando o primeiro campo da instrução é igual ao segundo campo.</p> <p>Por exemplo, use o seguinte demonstrativo em um campo personalizado calculado para criar um demonstrativo "IF" que compare a Data de conclusão planejada com a Data de conclusão projetada de uma tarefa: </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
+   <td> <p>Use this operator to indicate that the condition is fulfilled when the first field of your statement is equal to the second field.</p> <p>Por exemplo, use o seguinte demonstrativo em um campo personalizado calculado para criar um demonstrativo "IF" que compare a Data de conclusão planejada com a Data de conclusão projetada de uma tarefa: </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
   </tr> 
   <tr> 
    <td>Maior que </td> 
@@ -66,14 +66,14 @@ Você pode usar os seguintes modificadores de condição no Workfront:
    <td>Use esse operador para indicar que a condição é atendida quando o primeiro campo da instrução é maior que o segundo campo. <p>Por exemplo, use o seguinte demonstrativo em um campo personalizado calculado para criar um demonstrativo "IF" que compare a Data de conclusão planejada com a Data de conclusão projetada de uma tarefa: </p><p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late","")</code></p></td> 
   </tr> 
   <tr> 
-   <td>Maior que ou igual a </td> 
+   <td>Maior ou igual a </td> 
    <td>&gt;= </td> 
    <td>Use esse operador para indicar que a condição é atendida quando o primeiro campo da instrução é maior ou igual ao segundo campo. <p>Por exemplo, use o seguinte demonstrativo em um campo personalizado calculado para criar um demonstrativo "IF" que compare a Data de conclusão planejada com a Data de conclusão projetada de uma tarefa: </p><p><code>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"Late","Early")</code></p></td> 
   </tr> 
   <tr> 
-   <td>Menor que </td> 
+   <td>Lesser than </td> 
    <td>&lt; </td> 
-   <td>Use este operador para indicar que a condição é atendida quando  o primeiro campo da instrução é menor que o segundo. <p>Por exemplo, use o seguinte demonstrativo em um campo personalizado calculado para criar um demonstrativo "IF" que compare a Data de conclusão planejada com a Data de conclusão projetada de uma tarefa: </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
+   <td>Use este operador para indicar que a condição é atendida quando  the first field of your statement is lesser than the second field. <p>Por exemplo, use o seguinte demonstrativo em um campo personalizado calculado para criar um demonstrativo "IF" que compare a Data de conclusão planejada com a Data de conclusão projetada de uma tarefa: </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
   </tr> 
   <tr> 
    <td>Menor que ou igual a </td> 
@@ -83,17 +83,17 @@ Você pode usar os seguintes modificadores de condição no Workfront:
   <tr> 
    <td>Não </td> 
    <td>! </td> 
-   <td> <p>Adicione este operador na frente de qualquer um dos operadores acima para negar o operador. </p> <p>Por exemplo: </p> 
+   <td> <p>Add this operator in front of any of the above operators to negate the operator. </p> <p>Por exemplo: </p> 
     <ul> 
-     <li>Igual a: = </li> 
-     <li>Não é igual a: != </li> 
+     <li>Equals: = </li> 
+     <li>Does not equal: != </li> 
     </ul> <p>Adicionar esse operador na frente das seguintes expressões de dados adiciona uma instrução negativa às expressões: </p> 
     <ul> 
      <li>CONTÉM </li> 
      <li>EM </li> 
      <li>IFIN </li> 
      <li>ISBLANK </li> 
-    </ul> <p>Para obter informações sobre essas expressões de dados e obter uma lista completa, consulte <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Visão geral das expressões de dados calculadas</a>. </p> </td> 
+    </ul> <p>For information about these data expressions and for a complete list, see <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Overview of calculated data expressions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>Ou </td> 
@@ -103,7 +103,7 @@ Você pode usar os seguintes modificadores de condição no Workfront:
   <tr> 
    <td> E </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>Use esse operador para indicar que a condição é atendida quando a expressão  localiza um item que preenche duas condições ao mesmo tempo. </p> <p>Por exemplo, use a seguinte instrução em um campo personalizado calculado para criar uma instrução "IF" que localize projetos que estejam no status Atual e tenham uma Condição de Em Risco e os marque como "Mediação Necessária". </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
+   <td> <p>Use esse operador para indicar que a condição é atendida quando a expressão  finds an item that fulfills two conditions at the same time. </p> <p>For example, use the following statement in a calculated custom field to build an "IF" statement that finds projects that are in Current status and have a Condition of At Risk and marks them as "Mediation Needed." </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

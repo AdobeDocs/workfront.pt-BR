@@ -3,13 +3,13 @@ product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Exibir e editar informações de história no quadro Scrum
 description: Ao visualizar um bloco de matéria no quadro Kanban, determinadas informações estão disponíveis para edição em linha, diretamente do bloco de matéria.
-author: Jenny
+author: Courtney
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 ## Entenda quais informações podem ser visualizadas e editadas
 
-Ao exibir um bloco de matéria no storyboard, as informações na tabela a seguir estão disponíveis. É possível editar a maioria das informações em linha, diretamente no bloco de matéria.
+Ao exibir um bloco de matéria no quadro de matérias, as informações da tabela a seguir estão disponíveis. É possível editar a maioria das informações em linha, diretamente no bloco de matéria.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +42,7 @@ Ao exibir um bloco de matéria no storyboard, as informações na tabela a segui
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>O número de pontos ou horas concluídas na matéria e o número de pontos ou horas atribuídas à matéria<br>Esses números são usados para calcular e exibir a [!UICONTROL Percentual concluído] para cada matéria.</p> </td> 
+   <td> <p>O número de pontos ou horas concluídas na matéria e o número de pontos ou horas atribuídas à matéria<br>Esses números são usados para calcular e exibir a [!UICONTROL Percentual Concluído] para cada matéria.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -57,7 +57,7 @@ Ao exibir um bloco de matéria no storyboard, as informações na tabela a segui
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>A cor ou categoria do bloco</p> </td> 
+   <td> <p>A cor ou categoria do ladrilho</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -73,7 +73,7 @@ Ao exibir um bloco de matéria no storyboard, as informações na tabela a segui
 
 +++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <tbody> 
@@ -82,8 +82,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td> <p>Novo: [!UICONTROL Padrão]</p> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>Novo: [!UICONTROL Standard]</p> 
    ou
    <p>Atual: [!UICONTROL Trabalho] ou superior</p> </td> 
   </tr>
@@ -94,7 +94,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -106,8 +106,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 1. No painel esquerdo, selecione **[!UICONTROL Iterações]** para escolher uma iteração específica, ou selecione **[!UICONTROL Iteração atual]**.
 
-1. Vá para o storyboard [!UICONTROL Scrum] Agile.
-1. Expanda o bloco [!UICONTROL história] para exibir todos os campos associados à história.
+1. Vá para o quadro de matérias [!UICONTROL Resíduos] ágil.
+1. Expanda o bloco [!UICONTROL matéria] para exibir todos os campos associados à matéria.
 
    ![cartão de história](assets/agile-storycard-scrum-2021-350x333.png)
 

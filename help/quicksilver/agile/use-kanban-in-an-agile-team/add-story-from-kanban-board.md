@@ -1,25 +1,25 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: Adicionar histórias e problemas do Quadro Kanban
-description: Você pode criar rapidamente uma nova história ou problema diretamente do quadro Kanban.
-author: Jenny
+title: Adicionar Histórias e Questões do Quadro Kanban
+description: Você pode criar rapidamente uma nova história ou edição diretamente do quadro Kanban.
+author: Courtney
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
-# Adicione histórias e problemas do quadro [!UICONTROL Kanban]
+# Adicionar histórias e questões do quadro [!UICONTROL Kanban]
 
-Você pode criar rapidamente uma nova história ou problema diretamente do quadro [!UICONTROL Kanban].
+Você pode criar rapidamente uma nova história ou edição diretamente do quadro [!UICONTROL Kanban].
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,35 +33,35 @@ Você pode criar rapidamente uma nova história ou problema diretamente do quadr
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p> 
+   <p>Trabalho ou maior</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>Gerenciar acesso à tarefa ou problema </td> 
+   <td>Gerenciar o acesso à tarefa ou ocorrência </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Criar nova história ou problema no quadro Kanban
+## Criar nova história ou ocorrência do quadro Kanban
 
 {{step1-to-team}}
 
-1. (Opcional) Clique no ícone **[!UICONTROL Equipe do switch]** ![Ícone da equipe do switch](assets/switch-team-icon.png) e selecione uma nova equipe [!UICONTROL Kanban] no menu suspenso ou procure uma equipe na barra de pesquisa.
-1. Clique em **[!UICONTROL Adicionar]** no lado direito do quadro Kanban e selecione **[!UICONTROL Nova História]** ou **[!UICONTROL Novo Problema]**.
+1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ícone ![, selecione uma nova equipe ](assets/switch-team-icon.png)Kanban[!UICONTROL  no menu suspenso ou pesquise uma equipe na barra de pesquisa.]
+1. Clique em **[!UICONTROL Adicionar]** no lado direito do quadro Kanban e selecione **[!UICONTROL Nova História]** ou **[!UICONTROL Nova Questão]**.
 1. Na caixa de diálogo **[!UICONTROL Novo]**, adicione as seguintes informações:
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL Nome]</strong></td>
-        <td>(Obrigatório) O nome da história ou problema.</td>
+        <td><strong>[!UICONTROL Name]</strong></td>
+        <td>(Obrigatório) O nome da matéria ou ocorrência.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Descrição]</strong></td>
+        <td><strong>[!UICONTROL Description]</strong></td>
         <td>Uma descrição do item.</td>
     </tr>
     <tr>
@@ -70,8 +70,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
     </tr>
     <tr>
         <td><strong>[!UICONTROL Projeto Pai]</strong></td>
-        <td>(Obrigatório) O projeto em que a nova história ou problema é armazenado. Comece digitando o nome de um projeto e selecione-o quando ele for exibido na lista.</td>
+        <td>(Obrigatório) O projeto em que a nova matéria ou ocorrência está armazenada. Comece a digitar o nome de um projeto e selecione-o quando for exibido na lista.</td>
     </tr>
    </table>
 
-1. Clique em **[!UICONTROL Adicionar história]** ou **[!UICONTROL Adicionar problema]**.
+1. Clique em **[!UICONTROL Adicionar matéria]** ou **[!UICONTROL Adicionar questão]**.

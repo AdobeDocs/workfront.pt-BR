@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: Criar um painel da tela de desenho
+title: Criar um painel da tela
 description: Com os Painéis do Canvas, você pode criar e adicionar relatórios a um painel personalizável para visualizar rapidamente os dados da sua conta.
-author: Courtney and Jenny
+author: Courtney
 feature: Reports and Dashboards
 exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
-source-git-commit: 507cb64eb21c2798cdafe184794c0d9ed7ebc0c6
+source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
 
-# Criar um painel da tela de desenho
+# Criar um painel da tela
 
 >[!IMPORTANT]
 >
@@ -59,7 +59,7 @@ Com os Painéis do Canvas, você pode criar e adicionar relatórios a um painel 
 </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Pré-requisitos

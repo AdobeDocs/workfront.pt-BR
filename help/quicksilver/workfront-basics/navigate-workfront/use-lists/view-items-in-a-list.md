@@ -1,22 +1,22 @@
 ---
 navigation-topic: use-lists
-title: Introdução a listas em  [!DNL Adobe Workfront]
-description: Você pode exibir listas de objetos em  [!DNL Adobe Workfront]  para obter informações sobre eles, como suas datas de início e vencimento, usuários atribuídos a eles e outros objetos associados a eles.
+title: Introdução às listas em  [!DNL Adobe Workfront]
+description: Você pode exibir listas de objetos em  [!DNL Adobe Workfront] para obter informações sobre eles, como datas de início e de vencimento, usuários atribuídos a eles e outros objetos associados a eles.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 0c0ffbeefb0eed8d1ca2a6e68ed19b40080726df
+source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Introdução a listas em [!DNL Adobe Workfront]
+# Começar com listas em [!DNL Adobe Workfront]
 
 <!--Audited: 12/2025-->
 
-Você pode exibir listas de objetos em [!DNL Adobe Workfront] para obter informações sobre eles, como suas datas de início e vencimento, usuários atribuídos a eles e outros objetos associados a eles.
+Você pode exibir listas de objetos em [!DNL Adobe Workfront] para obter informações sobre eles, como datas de início e de vencimento, usuários atribuídos a eles e outros objetos associados a eles.
 
 Estas são algumas características das listas em [!DNL Workfront]:
 
@@ -29,7 +29,7 @@ Estas são algumas características das listas em [!DNL Workfront]:
 
   Para obter mais informações sobre como criar listas no nível do sistema, consulte o artigo [Criar, editar e compartilhar filtros, exibições e agrupamentos padrão](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
-* A seguir estão os tipos de listas no Workfront:
+* Estes são os tipos de listas no Workfront:
 
    * Listas padrão
    * Listas aprimoradas
@@ -51,8 +51,8 @@ Estas são algumas características das listas em [!DNL Workfront]:
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p>
+   <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p>
    </td> 
   </tr> 
   <tr> 
@@ -124,7 +124,7 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar em [!DN
    <td>Lista de portfólos</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Portfólio]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -166,14 +166,14 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar em [!DN
    <td>Lista de relatórios</td> 
    <td> 
     <ul> 
-     <li> <p>  [!UICONTROL Relatórios]  </p> </li> 
+     <li> <p>  [!UICONTROL Reports]  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lista de painéis</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Painéis]</p> </li> 
+     <li> <p>[!UICONTROL Dashboards]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -197,13 +197,13 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar em [!DN
      <li> <p>[!UICONTROL Documents]</p> </li> 
      <li> <p>[!UICONTROL Portfólios] &gt;[!UICONTROL clique em um portfólio] &gt; [!UICONTROL Documentos]</p> </li> 
      <li> <p>[!UICONTROL Portfólios] &gt; [!UICONTROL clique em um portfólio] &gt;[!UICONTROL Programas] &gt;[!UICONTROL clique em um programa] &gt;[!UICONTROL Documentos]</p> </li> 
-     <li> <p>[!UICONTROL Projetos] &gt;[!UICONTROL clique em um projeto] &gt;[!UICONTROL Documentos]</p> </li> 
-     <li> <p>[!UICONTROL Projetos] &gt;[!UICONTROL clique em um projeto] &gt;[!UICONTROL Tarefas] &gt;[!UICONTROL clique em uma tarefa] &gt; [!UICONTROL Documentos]</p> </li> 
-     <li> <p>[!UICONTROL Projetos] &gt; [!UICONTROL clique] um projeto &gt; [!UICONTROL Problemas] &gt; [!UICONTROL clique em um problema] &gt; [!UICONTROL Documentos]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL, clique em um projeto] &gt;[!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL, clique em um projeto] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL, clique em uma tarefa] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL, clique em] um projeto &gt; [!UICONTROL Issues] &gt;[!UICONTROL, clique em um problema] &gt; [!UICONTROL Documents]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Lista de planilhas de horas</td> 
+   <td>Lista de folhas de ponto</td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Planilha de Horas] &gt; [!UICONTROL Todas as Planilhas de Horas]*</p> </li> 
@@ -227,24 +227,24 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar em [!DN
    <td>Lista de riscos</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projetos] &gt;[!UICONTROL clique em um projeto] &gt;[!UICONTROL Riscos]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL, clique em um projeto] &gt;[!UICONTROL Risks]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lista de despesas</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projetos] &gt;[!UICONTROL clique] em um projeto &gt;[!UICONTROL Despesas]</p> </li> 
-     <li> <p>[!UICONTROL Projetos] &gt; [!UICONTROL clique em um projeto] &gt;[!UICONTROL Tarefas] &gt;[!UICONTROL clique em uma tarefa] &gt;[!UICONTROL Despesas]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL clique] em um projeto &gt;[!UICONTROL Expenses]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL, clique em um projeto] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL, clique em uma tarefa] &gt;[!UICONTROL Expenses]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lista de entradas de horas</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projetos] &gt;[!UICONTROL clique] em um projeto</p> </li> 
-     <li> <p>[!UICONTROL Projetos] &gt;[!UICONTROL clique em um projeto] &gt;[!UICONTROL Tarefas] &gt;[!UICONTROL clique em uma tarefa] &gt;[!UICONTROL Horas]</p> </li> 
-     <li> <p>[!UICONTROL Projetos] &gt;[!UICONTROL clique] um projeto &gt;[!UICONTROL Problemas] &gt;[!UICONTROL clique] um problema &gt;[!UICONTROL Horas]</p> </li>
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL clique] em um projeto</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL, clique em um projeto] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL, clique em uma tarefa] &gt;[!UICONTROL Hours]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL clique] em um projeto &gt;[!UICONTROL Issues] &gt;[!UICONTROL clique] em um problema &gt;[!UICONTROL Hours]</p> </li>
     </ul> </td> 
   </tr>
   <tr> 
@@ -320,11 +320,11 @@ A seguir estão os elementos de uma lista:
    <td> <p>Os filtros mantêm as informações desnecessárias fora de uma lista, com base nos critérios especificados. </p> <p>Para obter mais informações, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Visão geral dos filtros</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL Exibir]</strong></td> 
+   <td><strong>[!UICONTROL View]</strong></td> 
    <td> <p>As exibições definem quais campos (colunas) são exibidos na tela.</p> <p>Para obter mais informações, consulte Visão geral das <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Exibições em [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL Agrupamento]</strong></td> 
+   <td><strong>[!UICONTROL Grouping]</strong></td> 
    <td> <p>Agrupamentos separam os objetos na lista em áreas com base nos critérios que você especifica.</p> <p>Por exemplo, os problemas em uma lista podem ser exibidos em seções por status ou prioridade.</p> <p>É possível ter até três camadas de agrupamentos em um agrupamento padrão e adicionar uma quarta camada ao configurar um agrupamento no modo de texto.</p> <p>Para obter mais informações sobre agrupamentos, consulte <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Visão geral dos agrupamentos em [!DNL Adobe Workfront]</a>.</p> <p>Para obter mais informações sobre o modo de texto, consulte <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Visão geral do Modo de Texto</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -358,7 +358,7 @@ Você pode concluir as seguintes ações em uma lista:
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Edição integrada</strong> </td> 
+   <td><strong>Edição embutida</strong> </td> 
    <td> <p>Editar objetos e suas informações diretamente na lista.</p> <p>Para obter mais informações, consulte <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">itens de edição em linha em uma lista em [!DNL Adobe Workfront]</a>.</p> 
    <p><b>NOTA:</b></p>
    <p>A edição em linha não é possível em um agrupamento.</p>
@@ -367,15 +367,15 @@ Você pode concluir as seguintes ações em uma lista:
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><strong>Atualizar com o [!UICONTROL Resumo]</strong> </td> 
-   <td> <p>Atualizar tarefas e problemas no nível do projeto usando o painel [!UICONTROL Resumo].</p> <p><b>DICA:</b></p> <p>O Resumo não está disponível para todos os objetos e não está disponível nos relatórios de Tarefa ou Problema.</p> <p>Para obter mais informações, consulte <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Resumo geral</a>.</p> </td> 
+   <td> <p>Atualizar tarefas e problemas no nível do projeto usando o painel [!UICONTROL Resumo].</p> <p><b>DICA:</b></p> <p>O Resumo não está disponível para todos os objetos e não está disponível nos relatórios de Tarefa ou Ocorrência.</p> <p>Para obter mais informações, consulte <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Visão geral do resumo</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Personalizar exibição de lista</strong> </td> 
-   <td> <p>Personalize a aparência de uma lista, a organização da coluna, a ordem de classificação dos itens ou o número de itens exibidos.</p> <p><b>NOTA:</b></p> <p>As alterações feitas no número de itens a serem exibidos em uma página são revertidas quando você sai do [!DNL Workfront] ou fecha o navegador. As alterações também podem ser revertidas após um período de 8 horas.</p> <p>Para obter mais informações, consulte <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modificar como uma lista é exibida</a>.</p> </td> 
+   <td> <p>Personalize a aparência de uma lista, a organização da coluna, a ordem de classificação dos itens ou o número de itens exibidos.</p> <p><b>NOTA:</b></p> <p>As alterações feitas no número de itens a serem exibidos em uma página serão revertidas quando você sair do [!DNL Workfront] ou fechar o navegador. As alterações também podem ser revertidas após um período de 8 horas.</p> <p>Para obter mais informações, consulte <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modificar como uma lista é exibida</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Filtro rápido</strong> </td> 
-   <td> <p>Aplique um filtro rápido para localizar apenas itens importantes para você, para que você possa revisá-los, atualizá-los ou compartilhá-los rapidamente com outras pessoas.</p> <p><b>IMPORTANTE:</b></p> <p> Você pode localizar itens que contenham uma palavra de pesquisa usando o filtro rápido, seja esse item visível na tela ou que será exibido depois de rolar a tela para a parte inferior da página. Ao usar os recursos de pesquisa do seu navegador, você pode encontrar somente itens que já estejam visíveis na tela. Se sua lista tem várias páginas, os filtros rápidos localizam apenas os itens na página atual.</p> <p>Para obter mais informações, consulte <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Aplicar o filtro rápido a uma lista</a>.</p> </td> 
+   <td> <p>Aplique um filtro rápido para localizar apenas os itens importantes para você, para que possa revisá-los, atualizá-los ou compartilhá-los rapidamente com outras pessoas.</p> <p><b>IMPORTANTE:</b></p> <p> Você pode localizar itens que contenham uma palavra de pesquisa usando o filtro rápido, seja esse item visível na tela ou que será exibido depois de rolar a tela para a parte inferior da página. Ao usar os recursos de pesquisa do seu navegador, você pode encontrar somente itens que já estejam visíveis na tela. Se sua lista tem várias páginas, os filtros rápidos localizam apenas os itens na página atual.</p> <p>Para obter mais informações, consulte <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Aplicar o filtro rápido a uma lista</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Exportar</strong> </td> 
@@ -460,13 +460,13 @@ A tabela a seguir lista muitos dos ícones disponíveis na barra de ferramentas 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-agile-icon-in-new-toolbar-task-list.png"> </td> 
-   <td>[!UICONTROL Modo de Exibição Agile]</td> 
-   <td>Exiba a lista na exibição Agile.<br>Isso está disponível somente para tarefas.</td> 
+   <td>[!UICONTROL Exibição Ágil]</td> 
+   <td>Exiba a lista na exibição Ágil.<br>Disponível apenas para tarefas.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
    <td>[!UICONTROL Gráfico de Gantt]</td> 
-   <td> <p>Exibir a lista na exibição de Gráfico de Gantt .</p> <p>Isso está disponível somente para projetos e tarefas.</p> </td> 
+   <td> <p>Exibir a lista na exibição de Gráfico de Gantt [!UICONTROL].</p> <p>Isso está disponível somente para projetos e tarefas.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
@@ -476,12 +476,12 @@ A tabela a seguir lista muitos dos ícones disponíveis na barra de ferramentas 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-view-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-view-in-new-toolbar-with-blue-dot.png"> </p> </td> 
    <td>Menu suspenso [!UICONTROL View]</td> 
-   <td> <p>Exibir uma lista de exibições e opções adicionais para gerenciar exibições, incluindo a criação de uma. </p> <p>Em uma tela pequena, o nome da Exibição é substituído pelo ícone [!UICONTROL view]. Um ponto azul é exibido no ícone da [!UICONTROL View] quando você aplica qualquer exibição diferente de "[!UICONTROL Standard]".</p> </td> 
+   <td> <p>Exiba uma lista de exibições e opções adicionais para gerenciar exibições, incluindo a criação de uma. </p> <p>Em uma tela pequena, o nome da Exibição é substituído pelo ícone [!UICONTROL view]. Um ponto azul é exibido no ícone [!UICONTROL View] quando você aplica qualquer exibição diferente de “[!UICONTROL Standard]”.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-grouping-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-grouping-in-new-toolbar-with-blue-dot.png"> </p> </td> 
    <td>Menu suspenso [!UICONTROL Grouping]</td> 
-   <td> <p>Exibir uma lista de agrupamentos e opções adicionais para gerenciar agrupamentos, incluindo a criação de um. </p> <p>Em uma tela pequena, o nome do agrupamento é substituído pelo ícone [!UICONTROL grouping]. Um ponto azul é exibido no ícone [!UICONTROL Agrupamento] quando você aplica qualquer agrupamento diferente de "[!UICONTROL Nada]".</p> </td> 
+   <td> <p>Exibir uma lista de agrupamentos e opções adicionais para gerenciar agrupamentos, incluindo a criação de um. </p> <p>Em uma tela pequena, o nome do Agrupamento é substituído pelo ícone [!UICONTROL grouping]. Um ponto azul é exibido no ícone [!UICONTROL Grouping] quando você aplica qualquer agrupamento diferente de “[!UICONTROL Nothing]”.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
@@ -570,12 +570,12 @@ A tabela a seguir descreve as semelhanças e diferenças entre listas e relatór
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Você pode agendá-los para entrega em um email</p> </td> 
+   <td> <p>Você pode agendá-los para entrega por email</p> </td> 
    <td> </td> 
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Você pode adicionar a um modelo de layout</p> </td> 
+   <td> <p>Você pode adicionar a um Modelo de layout</p> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
