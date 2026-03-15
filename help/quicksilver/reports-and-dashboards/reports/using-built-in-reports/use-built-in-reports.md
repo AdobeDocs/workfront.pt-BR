@@ -23,4 +23,4 @@ Esta seção contém os seguintes artigos:
 * [Ícones de Status Internos em Exibições](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
 * [Usar relatórios internos do Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Visão geral do relatório de Utilização de Recursos](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-* [Programa de Criação de Relatório Básico para a nova experiência do Workfront](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR)
+* [Programa de Criação de Relatório Básico para a nova experiência do Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home?lang=pt-BR)
