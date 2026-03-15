@@ -197,9 +197,9 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar em [!DN
      <li> <p>[!UICONTROL Documents]</p> </li> 
      <li> <p>[!UICONTROL Portfólios] &gt;[!UICONTROL clique em um portfólio] &gt; [!UICONTROL Documentos]</p> </li> 
      <li> <p>[!UICONTROL Portfólios] &gt; [!UICONTROL clique em um portfólio] &gt;[!UICONTROL Programas] &gt;[!UICONTROL clique em um programa] &gt;[!UICONTROL Documentos]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL, clique em um projeto] &gt;[!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL, clique em um projeto] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL, clique em uma tarefa] &gt; [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL, clique em] um projeto &gt; [!UICONTROL Issues] &gt;[!UICONTROL, clique em um problema] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL , clique em um projeto] &gt;[!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL , clique em um projeto] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL , clique em uma tarefa] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL , clique em] um projeto &gt; [!UICONTROL Issues] &gt;[!UICONTROL , clique em um problema] &gt; [!UICONTROL Documents]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -227,7 +227,7 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar em [!DN
    <td>Lista de riscos</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL, clique em um projeto] &gt;[!UICONTROL Risks]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL , clique em um projeto] &gt;[!UICONTROL Risks]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -235,7 +235,7 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar em [!DN
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL clique] em um projeto &gt;[!UICONTROL Expenses]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL, clique em um projeto] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL, clique em uma tarefa] &gt;[!UICONTROL Expenses]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL , clique em um projeto] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL , clique em uma tarefa] &gt;[!UICONTROL Expenses]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -243,7 +243,7 @@ Abaixo estão alguns tipos de listas de objetos que você pode encontrar em [!DN
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL clique] em um projeto</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL, clique em um projeto] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL, clique em uma tarefa] &gt;[!UICONTROL Hours]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL , clique em um projeto] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL , clique em uma tarefa] &gt;[!UICONTROL Hours]</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL clique] em um projeto &gt;[!UICONTROL Issues] &gt;[!UICONTROL clique] em um problema &gt;[!UICONTROL Hours]</p> </li>
     </ul> </td> 
   </tr>
@@ -466,7 +466,7 @@ A tabela a seguir lista muitos dos ícones disponíveis na barra de ferramentas 
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
    <td>[!UICONTROL Gráfico de Gantt]</td> 
-   <td> <p>Exibir a lista na exibição de Gráfico de Gantt [!UICONTROL].</p> <p>Isso está disponível somente para projetos e tarefas.</p> </td> 
+   <td> <p>Exibir a lista na exibição de Gráfico de Gantt .</p> <p>Isso está disponível somente para projetos e tarefas.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 

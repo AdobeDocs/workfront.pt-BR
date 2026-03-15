@@ -106,7 +106,7 @@ Para obter mais informações, consulte [Visão geral do gráfico de detalhament
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!Nome da Equipe do UICONTROL]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Nome da Equipe do]</strong> </td> 
       <td>Digite um nome para o novo grupo Agile.</td> 
      </tr> 
      <tr> 
@@ -122,10 +122,10 @@ Para obter mais informações, consulte [Visão geral do gráfico de detalhament
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL Grupo]</strong> </td> 
-      <td> <p>Comece a digitar o nome de um grupo para adicionar ao grupo e, em seguida, selecione o nome quando ele aparecer na lista suspensa.</p> <p><b>Nota</b></p> <p> Quando uma equipe é atribuída a um grupo ou subgrupo, qualquer administrador desse grupo ou subgrupo pode gerenciar a equipe sem ser um membro da equipe. Os administradores de grupo podem ir para a área [!UICONTROL Teams] no menu principal [!UICONTROL] e clicar na seta [!UICONTROL Switch Teams] <img src="assets/switch-team-icon.png" alt="Ícone Alternar equipe"> para listar todas as equipes atribuídas aos grupos que eles gerenciam.</p> </td> 
+      <td> <p>Comece a digitar o nome de um grupo para adicionar ao grupo e, em seguida, selecione o nome quando ele aparecer na lista suspensa.</p> <p><b>Nota</b></p> <p> Quando uma equipe é atribuída a um grupo ou subgrupo, qualquer administrador desse grupo ou subgrupo pode gerenciar a equipe sem ser um membro da equipe. Os administradores de grupo podem ir para a área [!UICONTROL Teams] no menu principal  e clicar na seta [!UICONTROL Switch Teams] <img src="assets/switch-team-icon.png" alt="Ícone Alternar equipe"> para listar todas as equipes atribuídas aos grupos que eles gerenciam.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!Membros da Equipe do UICONTROL]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Membros da Equipe do]</strong> </td> 
       <td>Comece a digitar o nome de um usuário para fazer parte da equipe e selecione o nome quando ele aparecer na lista suspensa.<br>Repita este processo para adicionar vários usuários à equipe.<br>Como os usuários podem estar em mais de uma equipe, eles podem estar em equipes ágeis e não ágeis.</td> 
      </tr> 
      <tr> 

@@ -58,7 +58,7 @@ Os membros da equipe com direitos de [!UICONTROL Editar] podem atualizar o limit
 
 {{step1-to-team}}
 
-1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ícone ![, selecione uma nova equipe ](assets/switch-team-icon.png)Kanban[!UICONTROL  no menu suspenso ou pesquise uma equipe na barra de pesquisa.]
+1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ícone ![, selecione uma nova equipe &#x200B;](assets/switch-team-icon.png)Kanban[!UICONTROL &#x200B; no menu suspenso ou pesquise uma equipe na barra de pesquisa.]
 
 1. No quadro [!UICONTROL Kanban], localize o limite de WIP no canto superior direito de cada coluna no quadro Kanban.
 1. Clique no limite WIP que você deseja modificar e especifique um novo limite.

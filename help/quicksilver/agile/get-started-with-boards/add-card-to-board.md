@@ -69,7 +69,7 @@ Um cartão ad hoc não está conectado a um item de trabalho em [!DNL Adobe Work
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!Nome do UICONTROL]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Nome do]</strong> </td> 
       <td>O nome do cartão.</td> 
      </tr> 
      <tr> 
@@ -93,7 +93,7 @@ Um cartão ad hoc não está conectado a um item de trabalho em [!DNL Adobe Work
       <td>Digite o número estimado de horas para a conclusão do cartão. Esta entrada é apenas manual.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!Atribuições UICONTROL]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Atribuições]</strong> </td> 
       <td>Para atribuir o cartão, clique em <strong>[!UICONTROL Adicionar Atribuição]</strong> e comece a digitar um nome no campo de pesquisa. Em seguida, selecione-o quando ele for exibido na lista de resultados. Você pode adicionar indivíduos e equipes e atribuir mais de uma pessoa ou equipe a um cartão.</td>
      </tr>     
      <tr> 

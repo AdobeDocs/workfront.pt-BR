@@ -63,7 +63,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 Você pode aplicar o filtro a seguir a um relatório de tarefas para exibir tarefas sem filhos. Eles poderiam ter pais próprios e serem filhos de outras tarefas.
 
-1. No **Ícone do** Menu Principal![ do Menu Principal](assets/main-menu-icon.png) no canto superior direito, ou no **Menu Principal** nas ![linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
+1. No **Ícone do** Menu Principal![&#x200B; do Menu Principal](assets/main-menu-icon.png) no canto superior direito, ou no **Menu Principal** nas ![linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
 
 1. Clique em **Novo Relatório**.
 1. Selecione um **Relatório de Tarefas**.
@@ -117,7 +117,7 @@ Você pode aplicar o seguinte filtro a um relatório de tarefas para exibir tare
 
 Você pode aplicar o filtro a seguir a um relatório de tarefas para exibir tarefas de trabalho independentes. Essas tarefas não têm um pai nem filhos próprios.
 
-1. No **Ícone do** Menu Principal![ do Menu Principal](assets/main-menu-icon.png) no canto superior direito, ou no **Menu Principal** nas ![linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
+1. No **Ícone do** Menu Principal![&#x200B; do Menu Principal](assets/main-menu-icon.png) no canto superior direito, ou no **Menu Principal** nas ![linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
 
 1. Clique em **Novo Relatório**.
 1. Selecione um **Relatório de Tarefas**.

@@ -266,7 +266,7 @@ As linhas em uma exibição do modo de texto para uma coleção estão contornad
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Esse é o delimitador usado para separar os valores na lista.<br>Recomendamos usar <code>&lt;p&gt;</code>, que adiciona uma quebra de linha entre os valores.</p> <p>You can also use the following:</p> <p><code>&amp;zwj;</code> (zero-width joiner). The values of the collection have no separation between them.<br><strong>,</strong> =comma separator. The values of the collection are separated by a comma followed by no space.<br><strong>/</strong> = slash separator. The values of the collection are separated by a slash.<br><strong>-</strong> = separador de traço. Os valores da coleção são separados por um traço.<br>Deixar esta linha vazia adiciona uma vírgula seguida de um espaço entre os valores da coleção, por padrão.</p> </td> 
+   <td> <p>Esse é o delimitador usado para separar os valores na lista.<br>Recomendamos usar <code>&lt;p&gt;</code>, que adiciona uma quebra de linha entre os valores.</p> <p>You can also use the following:</p> <p><code>&zwj;</code> (zero-width joiner). The values of the collection have no separation between them.<br><strong>,</strong> =comma separator. The values of the collection are separated by a comma followed by no space.<br><strong>/</strong> = slash separator. The values of the collection are separated by a slash.<br><strong>-</strong> = separador de traço. Os valores da coleção são separados por um traço.<br>Deixar esta linha vazia adiciona uma vírgula seguida de um espaço entre os valores da coleção, por padrão.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Nome da Coluna</em> </td> 

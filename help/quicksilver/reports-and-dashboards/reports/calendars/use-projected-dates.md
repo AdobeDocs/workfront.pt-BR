@@ -97,8 +97,8 @@ Clique em **[!UICONTROL + Novo calendário]**, digite o nome do projeto e clique
       <td role="rowheader"><strong>[!UICONTROL No calendário, mostrar]</strong></td>
       <td><p>Escolha como deseja que as datas sejam exibidas:</p>
        <ul>
-        <li><strong>[!Somente Data de Início do UICONTROL]</strong>: O calendário exibe o objeto em uma única data.</li>
-        <li><strong>[!Somente Data de Término do UICONTROL]</strong>: O calendário exibe o objeto em uma única data.</li>
+        <li><strong>[!UICONTROL Somente Data de Início do]</strong>: O calendário exibe o objeto em uma única data.</li>
+        <li><strong>[!UICONTROL Somente Data de Término do]</strong>: O calendário exibe o objeto em uma única data.</li>
         <li><strong>[!UICONTROL Duration] (Início a Fim)</strong>: o calendário exibe o objeto em um período de dias.</li>
        </ul></td>
      </tr>

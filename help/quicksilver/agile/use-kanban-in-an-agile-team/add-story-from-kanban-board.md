@@ -51,7 +51,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 {{step1-to-team}}
 
-1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ícone ![, selecione uma nova equipe ](assets/switch-team-icon.png)Kanban[!UICONTROL  no menu suspenso ou pesquise uma equipe na barra de pesquisa.]
+1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ícone ![, selecione uma nova equipe &#x200B;](assets/switch-team-icon.png)Kanban[!UICONTROL &#x200B; no menu suspenso ou pesquise uma equipe na barra de pesquisa.]
 1. Clique em **[!UICONTROL Adicionar]** no lado direito do quadro Kanban e selecione **[!UICONTROL Nova História]** ou **[!UICONTROL Nova Questão]**.
 1. Na caixa de diálogo **[!UICONTROL Novo]**, adicione as seguintes informações:
 

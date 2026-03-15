@@ -57,7 +57,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 {{step1-to-team}}
 
-1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ícone ![, selecione uma nova equipe ](assets/switch-team-icon.png)Kanban[!UICONTROL  no menu suspenso ou pesquise uma equipe na barra de pesquisa.]
+1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ícone ![, selecione uma nova equipe &#x200B;](assets/switch-team-icon.png)Kanban[!UICONTROL &#x200B; no menu suspenso ou pesquise uma equipe na barra de pesquisa.]
 
 1. Vá para o painel [!UICONTROL Kanban] que contém as histórias que você deseja reordenar.
 1. Arraste um bloco de história para o local vertical desejado em uma coluna de status no quadro [!UICONTROL Kanban].

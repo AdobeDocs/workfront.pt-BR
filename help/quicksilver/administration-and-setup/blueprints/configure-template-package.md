@@ -251,7 +251,7 @@ Alguns projetos incluem grupos prescritos. Um grupo é um grupo de usuários que
 
 O esquema pesquisa pelo nome do grupo para ver se algum grupo existente corresponde. A pesquisa diferencia maiúsculas de minúsculas, portanto, os nomes devem ser uma correspondência exata. Se nenhum grupo existente corresponder, você poderá fazer com que o esquema os crie para você.
 
-Seção ![[!UICONTROL  de ]Mapeamento de grupo](assets/Blueprints_GroupMapping.png)
+Seção ![[!UICONTROL &#x200B; de &#x200B;]Mapeamento de grupo](assets/Blueprints_GroupMapping.png)
 
 1. Se existir um grupo, você poderá selecionar **[!UICONTROL Remapear Grupo]** e escolher uma das seguintes opções:
 

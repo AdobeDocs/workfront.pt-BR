@@ -54,7 +54,7 @@ A tabela a seguir exibe as áreas em que é possível localizar e usar o painel 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Tarefas nas áreas de trabalho [!UICONTROL Não Atribuído] e [!UICONTROL Atribuído] do Balanceador de Carga de Trabalho [!UICONTROL]</td> 
+   <td>Tarefas nas áreas de trabalho [!UICONTROL Não Atribuído] e [!UICONTROL Atribuído] do Balanceador de Carga de Trabalho </td> 
   </tr> 
    <tr> 
    <td>Tarefas em um [!UICONTROL Timesheet]</td> 

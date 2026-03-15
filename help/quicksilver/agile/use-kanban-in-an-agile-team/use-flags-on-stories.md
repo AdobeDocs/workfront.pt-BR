@@ -58,7 +58,7 @@ Para alterar um sinalizador em uma matéria:
 
 {{step1-to-team}}
 
-1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ícone ![, selecione uma nova equipe ](assets/switch-team-icon.png)Kanban[!UICONTROL  no menu suspenso ou pesquise uma equipe na barra de pesquisa.]
+1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ícone ![, selecione uma nova equipe &#x200B;](assets/switch-team-icon.png)Kanban[!UICONTROL &#x200B; no menu suspenso ou pesquise uma equipe na barra de pesquisa.]
 
 1. Vá para o quadro de [!UICONTROL Kanban] onde você deseja alterar um sinalizador de uma história.
 1. Expanda o bloco de matérias para exibir a bandeira.

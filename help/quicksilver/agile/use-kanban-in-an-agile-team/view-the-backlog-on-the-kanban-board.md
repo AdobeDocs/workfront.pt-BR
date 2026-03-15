@@ -49,7 +49,7 @@ Por padrão, a coluna [!UICONTROL Lista de Pendências] está oculta. Para exibi
 
 {{step1-to-team}}
 
-1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ícone ![, selecione uma nova equipe ](assets/switch-team-icon.png)Kanban[!UICONTROL  no menu suspenso ou pesquise uma equipe na barra de pesquisa.]
+1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ícone ![, selecione uma nova equipe &#x200B;](assets/switch-team-icon.png)Kanban[!UICONTROL &#x200B; no menu suspenso ou pesquise uma equipe na barra de pesquisa.]
 
 1. Vá para o quadro Kanban onde deseja exibir o backlog.
 1. Clique em **[!UICONTROL Mostrar Lista de Pendências]**.
