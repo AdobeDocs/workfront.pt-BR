@@ -1,25 +1,26 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades da API versão 21
+title: Novidades na versão 21 da API
 description: O Adobe Workfront lançou a API versão 21 em 23 de outubro de 2025. A API versão 21 apresenta as seguintes alterações da versão 20.
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 7166a6b51a45b744a33df697c2bc8080427908a8
+exl-id: 7fb9131a-b815-4990-acba-cc75a24f389f
+source-git-commit: ec696c0ffa6a25cd274d494c9c1b475f99f661e2
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 3%
+source-wordcount: '929'
+ht-degree: 14%
 
 ---
 
-# Novidades da API versão 21
+# Novidades na versão 21 da API
 
 >[!IMPORTANT]
 >
->Essa alteração de versão da API apresenta uma mudança radical que pode afetar suas chamadas de API existentes. Isso se deve ao fato de que a API versão 21 usa Assinaturas de evento versão 2.
+>Esta alteração na versão da API apresenta uma mudança significativa que pode afetar suas chamadas de API. Isso se deve ao fato de que a versão 21 da API usa a versão 2 das assinaturas de eventos.
 >
-> Para campos de seleção múltipla, a versão 2 das Inscrições no evento sempre é enviada como uma matriz. A versão 1 envia uma matriz se mais de um valor for selecionado. Se apenas um valor fosse selecionado, ele enviaria uma string.
+> Para campos de seleção múltipla, a versão 2 das Assinaturas de evento sempre envia como matriz. A versão 1 enviava uma matriz se mais de um valor fosse selecionado. Se apenas um valor fosse selecionado, ela enviaria uma string.
 
 O Adobe Workfront lançou a API versão 21 em 23 de outubro de 2025. A API versão 21 apresenta as seguintes alterações da versão 20.
 
@@ -274,7 +275,7 @@ Um objeto AccessRule representa um conjunto de regras em níveis de acesso perso
 
 ### Aprovação (APPROVAL)
 
-Um determinado item de trabalho, como uma tarefa, um documento ou uma folha de horas, pode exigir que um supervisor ou outro usuário faça logoff no item de trabalho. Um objeto de Aprovação representa a ação de desconectar em um item de trabalho.
+Um determinado item de trabalho, como uma tarefa, documento ou folha de horas, pode exigir que um supervisor ou outro usuário aprove o item de trabalho. Um objeto de Aprovação representa a ação de desconectar em um item de trabalho.
 
 <table>
   <col/>
@@ -483,7 +484,7 @@ Um objeto Parameter é um campo personalizado.
             <p>Adição do seguinte valor possível:</p>
              <ul>
               <li>
-                <p><code>RICHLX</code> (Rich Text Lexical)</p>
+                <p><code>HTML</code> </p>
               </li>
             </ul>
          </li>
@@ -983,5 +984,3 @@ Um objeto Trabalho é uma interface comum que tanto Tarefa quanto OpTask herdam 
     </tr>
   </tbody>
 </table>
-
-
