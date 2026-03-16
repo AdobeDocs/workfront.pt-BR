@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 1%
+source-wordcount: '416'
+ht-degree: 4%
 
 ---
 
 
-# Gerenciar notificações no aplicativo do Adobe Workfront Planning
+# Gerenciar notificações no aplicativo do Planejamento do Adobe Workfront
 
 {{planning-important-intro}}
 
@@ -155,8 +155,16 @@ OLD:
 
 ## Gerenciar notificações no aplicativo ao solicitar e conceder permissões
 
-Você recebe notificações no aplicativo quando alguém solicita ou concede permissões para uma visualização ou um espaço de trabalho. <!--<span class="preview">or record</span>-->
+Você recebe notificações no aplicativo quando alguém solicita ou concede permissões para um tipo de exibição, espaço de trabalho ou registro. <!--<span class="preview">or record</span>-->
 
 Para obter informações sobre como solicitar, conceder ou negar permissões, consulte [Solicitar permissões para uma exibição ou um espaço de trabalho](/help/quicksilver/planning/access/request-permissions.md).
 
 Para obter informações sobre como gerenciar as notificações do Workfront Planning, consulte [Gerenciar preferências de notificação do Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+
+## Gerenciar notificações no aplicativo ao aprovar ou rejeitar solicitações do Planning
+
+Você recebe uma notificação no aplicativo quando alguém envia uma solicitação para aprovação ou quando alguém aprova uma solicitação enviada por você.
+
+Para obter informações sobre o envio de solicitações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
+
+Para obter informações sobre aprovação de solicitações, consulte [Aprovar uma solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).

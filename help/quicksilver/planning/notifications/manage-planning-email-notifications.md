@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 5404cec0cb02d363154a3696b63aaedaafc82688
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 1%
+source-wordcount: '657'
+ht-degree: 2%
 
 ---
 
@@ -180,6 +180,13 @@ Para obter informações sobre como gerenciar as notificações do Workfront Pla
 após submeter uma solicitação ou após uma solicitação submetida ter sido aprovada ou rejeitada. O remetente do email é o Adobe Workfront.
 
 1. (Opcional) Clique em **Abrir solicitação**. Isso abre a solicitação no Workfront Planning.
+
+1. No canto superior direito da solicitação, clique no botão **Revisar e aprovar** e em uma das seguintes opções:
+
+   * **Aprovar** para aprovar a solicitação. Um registro é criado quando você aprova uma solicitação do Planning.
+   * **Rejeitar** para rejeitar a solicitação. Nenhum registro é criado quando você rejeita uma solicitação no Workfront Planning. A solicitação foi salva na área Solicitações com o status **Rejeitada**.
+
+   ![Botão Revisar e aprovar na solicitação do Planning](assets/review-approval-button-with-drop-down-expanded.png)
 
 1. Clique no ícone **Notificações** ![Ícone da área Notificações do Unified Shell](assets/notifications-area-icon-unified-shell.png) no canto superior direito da tela para acessar a página **Notificações**.
 

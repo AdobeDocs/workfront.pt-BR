@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
 source-wordcount: '2252'
 ht-degree: 1%
@@ -185,7 +185,7 @@ Habilitar essa configuração torna os formulários de solicitação do Workfron
 
      >[!NOTE]
      >
-     >As notificações por email e no aplicativo ficam visíveis somente quando a instância da Workfront da sua organização é integrada à Adobe Unified Experience.
+     >As notificações por email e no aplicativo ficam visíveis somente quando a instância do Workfront de sua organização é integrada à Adobe Unified Experience.
      >
      >Há um link para a solicitação na notificação de confirmação ou aprovação por email.
 
@@ -272,7 +272,7 @@ As informações desta seção se aplicam somente aos usuários do Workfront que
 
      >[!NOTE]
      >
-     >As notificações por email e no aplicativo ficam visíveis somente quando a instância da Workfront da sua organização é integrada à Adobe Unified Experience.
+     >As notificações por email e no aplicativo ficam visíveis somente quando a instância do Workfront de sua organização é integrada à Adobe Unified Experience.
 
    <!-- <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
 

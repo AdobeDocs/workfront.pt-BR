@@ -6,10 +6,10 @@ description: Você pode editar modelos de projeto para refletir as alterações 
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
 workflow-type: tm+mt
-source-wordcount: '5672'
-ht-degree: 2%
+source-wordcount: '4971'
+ht-degree: 3%
 
 ---
 
@@ -269,94 +269,36 @@ As alterações feitas no modelo não refletem nos projetos que estão usando es
 1. Atualize os seguintes campos:
 
    <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-         <tr> 
-         <td role="rowheader"><strong>Descrição</strong></td> 
-         <td>Adicione mais informações sobre o template.</td> 
-       </tr> 
-         <tr> 
-         <td role="rowheader"><strong>Prioridade</strong></td> 
-         <td><p>Este é apenas um sinalizador visual para você, que permite priorizar seus projetos futuros. Selecione entre as seguintes opções:</p> 
-         <ul> 
-         <li><p><strong>Nenhum(a)</strong></p></li> 
-         <li><p><strong>Baixa</strong></p></li> 
-         <li><p><strong>Normal</strong></p></li> 
-         <li><p><strong>Alta</strong></p></li> 
-         <li><p><strong>Urgente</strong></p></li> 
-         </ul><p><p>Dependendo das Preferências do projeto selecionadas pelo administrador do Workfront, os nomes das prioridades podem ser diferentes para você. Para obter mais informações sobre como editar prioridades, consulte <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Criar e personalizar prioridades</a>.</p></p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>URL</strong></td> 
-         <td>Especifique um link da Web relacionado às informações sobre este modelo.</td> 
-       </tr>
+    <col> 
+    <col> 
+    <tbody> 
       <tr> 
-      <td role="rowheader"><strong>Está ativo</strong></td> 
-      <td><p>Ative essa opção se desejar que o template esteja ativo. Outros usuários podem encontrar esse modelo e anexá-lo a projetos ao criar projetos. Desative a opção se desejar desativar modelos que não são mais usados. Modelos desativados não podem ser anexados a projetos. Isso é ativado por padrão. </p><p><b>DICA</b></p>
-
-   <p>Você pode desativar um modelo no cabeçalho do modelo conforme descrito na seção "Ativar ou desativar um modelo" neste artigo.</p></td> 
+      <td role="rowheader"><strong>Moeda</strong></td> 
+      <td><p>Especifique a moeda para o projeto futuro, se for diferente da moeda padrão do sistema. Esse campo não estará visível se você só tiver a moeda padrão no sistema.<br>Para obter mais informações sobre moeda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar taxas de câmbio</a>.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Orçamento</strong></td> 
+      <td><p>Especifique um Orçamento para os projetos criados a partir deste modelo.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Método Índice de desempenho</strong></td> 
+      <td><p>Especifique se as métricas de Valor Agregado do projeto futuro serão calculadas usando horas ou custos. Para obter mais informações sobre o Método de Índice de Desempenho, consulte <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Definir o PIM (Método de Índice de Desempenho)</a>. </p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Benefício Planejado</strong></td> 
+      <td><p>Especifique o Benefício Planejado dos projetos criados com base neste modelo. O Benefício Planejado é usado no Business Case do projeto e no Portfolio Otimizer. </p><p>Para obter mais informações sobre o Benefício Planejado de um projeto, consulte <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Visão Geral do Benefício Planejado do projeto</a>. O Benefício Planejado de um projeto é considerado quando o Valor Líquido de um projeto é calculado. </p><p>Para obter mais informações sobre como usar o Portfolio Otimizer, consulte <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gerenciar projetos no Portfolio Otimizer</a>. </p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Custo Fixo</strong></td> 
+      <td><p>Especifique o Custo Fixo dos projetos criados a partir deste modelo. Isso é diferente do Custo de mão de obra que vem das horas no projeto e do Custo de despesa que vem da quantidade de despesas no projeto. O Custo Fixo de um projeto é considerado ao calcular o Valor Líquido de um projeto e faz parte do Custo Orçado.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Receita com Valor Fixo</strong></td> 
+      <td><p>Especifique a Receita fixa para os projetos criados a partir deste modelo.</p></td> 
      </tr>
 
-   <tr> 
-      <td role="rowheader"><strong>Tipo de condição</strong></td> 
-      <td><p>Selecione entre os seguintes Tipos de Condição:</p> 
-      <ul> 
-      <li><strong>Manual:</strong> o proprietário do projeto define a Condição do projeto manualmente. <strong></strong></li> 
-      <li><strong>Status do Progresso:</strong> o Workfront define automaticamente a Condição do projeto futuro com base no Status do Progresso das tarefas no Caminho Crítico. Para obter mais informações sobre como entender o Status de Progresso, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Visão geral do Status de Progresso da Tarefa</a>.</li> 
-      </ul>
-      </td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Modo de cronograma</strong></td> 
-      <td><p>Especifique se o projeto usando este modelo está agendado a partir da <strong>Data de Início</strong> ou da <strong>Data de Conclusão</strong>. Esta seleção determina as datas planejadas das tarefas futuras no projeto usando este modelo. </p><p>Selecione entre as seguintes opções: </p> 
-      <ul> 
-      <li><p><strong>Agendar a partir da data de início</strong>: a data de início do modelo é, na verdade, o dia de início. Ao agendar um modelo a partir da Data inicial, o Adobe Workfront calcula o Dia de conclusão do modelo com base na Duração de todas as tarefas do modelo. O dia de início do modelo se torna a Data de início planejada do projeto futuro.</p></li> 
-      <li><p><strong>Agendamento a partir da data de conclusão</strong>: a data de conclusão do modelo é, na verdade, o dia de conclusão. Ao programar um modelo a partir da Data de conclusão, o Workfront calcula o Dia de início do modelo com base na Duração de todas as tarefas do modelo. O Dia de conclusão do modelo se torna a Data de conclusão planejada do projeto futuro. </p></li> 
-      </ul><p>Para obter mais informações sobre os Dias de Início e Término das tarefas do modelo, consulte <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Visão Geral dos Dias de Início e Término em um modelo</a>. </p><p>A configuração Agendar de dos modelos é semelhante à dos projetos. O administrador do Workfront seleciona a configuração padrão Agendar de para os projetos do seu sistema. Para obter informações sobre como definir padrões de projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto do sistema</a>.</p></td> 
-      </tr>
-
-   <tr> 
-      <td role="rowheader"><strong>Portfólio</strong></td> 
-      <td><p>Especifique uma Portfolio para os projetos criados a partir deste modelo. Você deve criar um Portfolio primeiro, antes que ele apareça na lista suspensa. </p><p>Somente portfólios ativos são exibidos na lista. Para obter mais informações sobre como criar portfólios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Criar um portfólio </a>.</p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Programa</strong></td> 
-      <td><p>Se você selecionou um Portfolio para o modelo, especifique um <strong>Programa</strong> para o projeto futuro. Alguns portfólios podem não ter programas. Você deve criar um Programa primeiro, antes que ele apareça nesta lista suspensa. Somente programas ativos são exibidos na lista.</p><p>Para obter mais informações sobre como criar programas, consulte <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Criar um programa</a>.</p></td> 
-      </tr>  
-      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><strong>Grupo</strong></td> 
-      <td><p>Na lista suspensa, selecione o grupo que deseja associar aos projetos criados a partir do modelo. Pode ser um grupo de qualquer nível. </p><p>Você pode verificar se está selecionando o grupo correto passando o cursor do mouse sobre ele e clicando no ícone de informações <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p><b>NOTAS</b>
-
-   <ul> 
-      <li><p>Na área Projetos da página de um grupo, quando alguém cria um projeto usando um modelo que não tem um grupo selecionado, o sistema associa o grupo aberto no momento ao projeto.</p><p>Isso é diferente de outras áreas onde o sistema associa o Grupo inicial de um usuário ao projeto quando o usuário cria o projeto usando um modelo que não tem um grupo selecionado.</p></li> 
-      <li><p>Se um usuário selecionar um modelo que tenha um grupo selecionado ao criar um projeto ou ao converter uma tarefa ou problema em um projeto, ele poderá escolher um grupo diferente para o projeto.</p></li> 
-      <li>Embora esse campo esteja disponível em modelos somente na nova experiência do Adobe Workfront, você pode vê-lo em listas e relatórios lá e no Adobe Workfront Classic. </li> 
-      </ul> </p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Empresa</strong></td> 
-      <td><p>Especifique a Empresa que deseja associar ao modelo. Somente empresas ativas são exibidas na lista.</p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Proprietário do modelo</strong></td> 
-      <td><p>O usuário designado como Proprietário do Modelo deve ser um usuário ativo do Workfront. </p><p>Considere o seguinte sobre o usuário designado como o Proprietário do modelo: </p> 
-      <ul> 
-      <li>Eles recebem automaticamente permissões Gerenciar para o modelo. </li> 
-      <li>Eles são adicionados à equipe do projeto e recebem automaticamente permissões de gerenciamento para o projeto criado a partir do modelo. </li> 
-      <li>Eles se tornam o Proprietário do projeto quando o projeto é criado a partir desse modelo. </li> 
-      <li> Se o usuário designado como Proprietário do modelo tiver acesso limitado aos modelos ou projetos por meio de seu nível de acesso, as permissões de Gerenciamento no modelo e nos projetos serão limitadas. Por exemplo, se eles tiverem somente o acesso de Visualização para modelos ou projetos em seu nível de acesso, eles receberão automaticamente permissões de Visualização no modelo e no projeto quando forem designados como o Proprietário do modelo.</li>
-      </ul></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Patrocinador do modelo</strong></td> 
-      <td><p>O usuário especificado nesse campo se torna o Patrocinador do projeto quando o modelo é adicionado ao projeto. Este usuário é adicionado à equipe do projeto e recebe automaticamente permissões de exibição para o projeto. O usuário designado como Patrocinador do modelo deve ser um usuário ativo do Workfront. </p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>Gerenciador de Recursos</strong></td> 
-      <td><p>Os usuários especificados recebem automaticamente permissões de gerenciamento para os projetos futuros e podem atribuir recursos às tarefas e problemas dos projetos. Você pode especificar mais de um Gerenciador de recursos. </p></td> 
-      </tr> 
-      </table>
+   </tbody> 
+   </table>
 
 1. (Opcional) Continue editando as seções a seguir, dependendo das informações que você deseja modificar.
 
@@ -482,7 +424,7 @@ As alterações feitas no modelo não refletem nos projetos que estão usando es
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Conjuntos de Recursos</strong> </td> 
-       <td> <p>Especifique os conjuntos de recursos associados ao modelo. Conjuntos de recursos são coleções de usuários que são necessárias ao mesmo tempo para a conclusão de um projeto. Para obter mais informações sobre pools de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Visão geral dos pools de recursos </a>.</p> <p> <p><b>Nota</b>
+       <td> <p>Especifique os conjuntos de recursos associados ao modelo. Conjuntos de recursos são coleções de usuários que são necessárias ao mesmo tempo para a conclusão de um projeto. Para obter mais informações sobre conjuntos de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Visão geral dos conjuntos de recursos </a>.</p> <p> <p><b>Nota</b>
 
        Quando você edita modelos em massa, somente os conjuntos de recursos que são comuns a todos os modelos selecionados aparecem neste campo. Se os modelos selecionados não tiverem conjuntos de recursos compartilhados, esse campo estará vazio. Os conjuntos de recursos especificados aqui substituirão os conjuntos de recursos individuais dos modelos.&lt;/p> &lt;/p> &lt;/td>
        &lt;/tr>
@@ -797,8 +739,8 @@ Adicionar os seguintes itens a um modelo é idêntico a adicioná-los a um proje
 
   Para obter informações sobre como adicionar Grupos de tópicos e Tópicos da fila a um projeto ou modelo, consulte os seguintes artigos:
 
-   * [Criar Grupos de Tópicos](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Criar Tópicos de Fila](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+   * [Criar grupos de tópicos](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [Criar tópicos de fila](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 É possível adicionar os seguintes itens às tarefas no modelo:
 
