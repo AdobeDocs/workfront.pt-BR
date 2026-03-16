@@ -7,10 +7,11 @@ description: Você pode habilitar o armazenamento empresarial da Adobe para que 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 97c351ca38a8b6075634b2f755f2330562bc8b52
+exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
+source-git-commit: e70a65447fe508d055809271edad399d823f66dd
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 13%
+source-wordcount: '320'
+ht-degree: 10%
 
 ---
 
@@ -65,5 +66,10 @@ Para habilitar o armazenamento corporativo da Adobe para sua organização:
    >Habilitar essa opção permite que os usuários selecionem o provedor de armazenamento quando criarem um novo projeto. o armazenamento corporativo é rotulado como &quot;Novo projeto&quot;, pois é o provedor de armazenamento padrão. O armazenamento herdado do Workfront é rotulado como &quot;Projeto herdado&quot;.
    >
    >![opções de projeto novo e herdado](assets/new-esm-project.png)
+
+1. No menu suspenso Aplica-se a, escolha uma das seguintes opções:
+
+   - **Organização inteira**: essa opção aplica o provedor de armazenamento padrão a todo o ambiente do Workfront. Sempre que um usuário criar um novo projeto, o provedor de armazenamento padrão será usado.
+   - **Grupos específicos**: essa opção aplica o provedor de armazenamento padrão somente a grupos específicos dentro da organização. Sempre que um usuário nos grupos especificados criar um novo projeto, o provedor de armazenamento padrão será usado
 
 1. Clique em **Salvar**.
