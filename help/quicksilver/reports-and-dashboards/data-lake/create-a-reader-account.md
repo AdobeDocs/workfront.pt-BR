@@ -7,9 +7,9 @@ description: Para acessar os dados do Data Connect, primeiro você deve criar um
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: b6267718fd76a643395c850b97352095a0fe12fc
+source-git-commit: 32f738e56a471407997031e13bb22abe81ac535c
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '904'
 ht-degree: 4%
 
 ---
@@ -138,7 +138,7 @@ Para criar uma conta de leitor:
 
 Você precisa usar a chave RSA com o nome de usuário que escolheu para fazer logon no Snowflake, para garantir que mantenha um registro dela e do URL. Marque a caixa alegando que você fez isso e clique em **Fechar**.
 
-    ![Caixa de diálogo Chave RSA](Assets/rsa-test.png)
+![Caixa de diálogo da chave RSA](assets/rsa-test.png)
 
 ## Revogar uma conta de leitor
 
