@@ -2,19 +2,19 @@
 product-area: setup
 navigation-topic: notifications
 keywords: modificar,email,notificação,configurações
-title: Modificar suas próprias notificações por email
+title: Modificar as próprias notificações por email
 description: Este artigo descreve como você pode gerenciar as notificações por email no perfil do usuário.
 author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 571deef920ed11f6cd7d59da5ba91ef58e88ab9e
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 0%
+source-wordcount: '631'
+ht-degree: 5%
 
 ---
 
-# Modificar suas próprias notificações por email
+# Modificar as próprias notificações por email
 
 <!-- Audited: 1/2024 -->
 
@@ -30,11 +30,11 @@ Para obter mais informações sobre notificações por email, consulte [[!DNL Ad
 >
 >* Se você ativar um tipo de notificação e descobrir que não está recebendo notificações desse tipo, pode ser porque esse tipo não se aplica à sua função.
 >* O administrador [!DNL Workfront] ou um administrador de grupo não pode configurar notificações para [!DNL Workfront Goals]. Para obter mais informações sobre quais notificações o administrador do [!DNL Workfront] pode configurar, consulte [Configurar notificações de eventos para todos no sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Para obter informações sobre como configurar notificações individuais para [!DNL Workfront Goals], continue lendo este artigo.
->
+>* As notificações de aprovação se aplicam somente às aprovações de documentos herdados. Os controles de notificação para aprovações de documentos unificados não estão disponíveis no momento.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 

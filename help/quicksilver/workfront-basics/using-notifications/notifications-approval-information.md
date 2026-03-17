@@ -1,21 +1,26 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notificações: Informações de aprovação'
+title: 'Notificações: informações de aprovação'
 description: As notificações a seguir alertam sobre as atividades de aprovação que ocorrem em um item de trabalho com o qual você está envolvido. Para obter informações sobre como configurar as notificações recebidas, consulte Modificar suas próprias notificações por email.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 571deef920ed11f6cd7d59da5ba91ef58e88ab9e
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 0%
+source-wordcount: '697'
+ht-degree: 1%
 
 ---
 
-# Notificações: Informações de aprovação
+# Notificações: informações de aprovação
 
 As notificações a seguir alertam sobre as atividades de aprovação que ocorrem em um item de trabalho com o qual você está envolvido. Para obter informações sobre como configurar as notificações recebidas, consulte [Modificar suas próprias notificações por email](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
+>[!NOTE]
+>
+>Essas notificações se aplicam somente às aprovações de documentos herdados. Os controles de notificação para aprovações de documentos unificados não estão disponíveis no momento.
+
 
 Consulte também [Notificações de eventos](../../workfront-basics/using-notifications/event-notifications.md).
 
