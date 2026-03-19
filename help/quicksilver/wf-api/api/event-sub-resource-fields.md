@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 11fe205b9590b6f8330e0923bbe47d2ed693cf16
+source-git-commit: 9a3b04a40cf871661ba5451c0dc611057f7e4f5d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 11%
+source-wordcount: '1051'
+ht-degree: 20%
 
 ---
 
@@ -152,7 +152,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   </tr> 
   <tr> 
    <td>Participante do estágio de aprovação<p>(Subs de Evento v2)</p></td> 
-   <td>approval_stage_component</td> 
+   <td>approval_stage_participant</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -235,7 +235,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   </tr> 
   <tr> 
    <td>Atribuição</td> 
-   <td>ATRIBUIR</td> 
+   <td>ASSGN</td> 
    <td>actualWorkCompleted</td> 
   </tr> 
   <tr> 
@@ -396,7 +396,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   </tr> 
   <tr> 
    <td>Empresa</td> 
-   <td>COMPY</td> 
+   <td>CMPY</td> 
    <td>categoryID</td> 
   </tr> 
   <tr> 
@@ -1706,7 +1706,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   </tr> 
   <tr> 
    <td>Portfólio</td> 
-   <td>PORTA</td> 
+   <td>PORT</td> 
    <td>accessIDs</td> 
   </tr> 
   <tr> 
@@ -2186,7 +2186,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   </tr> 
   <tr> 
    <td>Registro<p><p>(Subs de Evento v2)</p></td> 
-   <td>GRAVAR</td> 
+   <td>REGISTRO</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -2446,7 +2446,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   </tr> 
   <tr> 
    <td>Plano de recrutamento<p>(Subs de Evento v2)</p></td> 
-   <td>EQUIPE</td> 
+   <td>STAFFP</td> 
    <td>accessIDs</td> 
   </tr> 
   <tr> 
@@ -2588,7 +2588,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
    <td>url</td> 
   </tr> 
   <tr> 
-   <td>Valor do Parâmetro do Plano de Pessoal <p>(Subs de Evento v2)</p></td> 
+   <td>Valor do parâmetro do plano de recrutamento <p>(Subs de Evento v2)</p></td> 
    <td>SPVAL</td> 
    <td>customerID</td> 
   </tr> 
@@ -2647,7 +2647,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   </tr> 
   <tr> 
    <td>Recurso do plano de recrutamento <p>(Subs de Evento v2)</p></td> 
-   <td>EQUIPE</td> 
+   <td>STAFFR</td> 
    <td>accessIDs</td> 
   </tr> 
   <tr> 
@@ -2734,7 +2734,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
    <td>totalEstimatedRevenue</td> 
   </tr> 
   <tr> 
-   <td>Valor do Atributo de Recurso do Plano de Pessoal<p>(Subs de Evento v2)</p></td> 
+   <td>Valor do atributo de recurso do plano de recrutamento<p>(Subs de Evento v2)</p></td> 
    <td>SPAVAL</td> 
    <td>attributeAttachableID</td> 
   </tr> 
@@ -2782,7 +2782,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
    <td>refGroupID</td> 
   </tr> 
   <tr> 
-   <td>Conjunto de Valores de Atributo de Recurso do Plano de Pessoal <p>(Subs de Evento v2)</p></td> 
+   <td>Conjunto de valores de atributo de recurso do plano de recrutamento <p>(Subs de Evento v2)</p></td> 
    <td>SAVSET</td> 
    <td>attributeAttachableID</td> 
   </tr> 
@@ -2809,7 +2809,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   </tr> 
   <tr> 
   <tr> 
-   <td>Valor do Parâmetro de Recursos do Plano de Pessoal <p>(Subs de Evento v2)</p></td> 
+   <td>Valor do parâmetro de recurso do plano de recrutamento <p>(Subs de Evento v2)</p></td> 
    <td>SRPVAL</td> 
    <td>customerID</td> 
   </tr> 
@@ -2885,6 +2885,11 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
    <td> </td> 
    <td> </td> 
    <td>billingRecordID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>canStart</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3109,12 +3114,12 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>deliverableScoreCardID</td> 
+   <td>customerID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>customerID</td> 
+   <td>deliverableScoreCardID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3248,7 +3253,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   </tr> 
   <tr> 
    <td>Folha de horas</td> 
-   <td>FOLHA</td> 
+   <td>TSHET</td> 
    <td>approverID</td> 
   </tr> 
   <tr> 
@@ -3533,7 +3538,7 @@ A tabela a seguir lista os campos disponíveis para recursos de assinatura de ev
   </tr> 
   <tr> 
    <td>Espaço de trabalho<p><p>(Subs de Evento v2)</p></td> 
-   <td>WORKSPACE</td> 
+   <td>ESPAÇO DE TRABALHO</td> 
    <td>cor</td> 
   </tr> 
   <tr> 
