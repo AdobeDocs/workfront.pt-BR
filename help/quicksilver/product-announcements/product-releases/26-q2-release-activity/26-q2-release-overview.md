@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
-source-git-commit: 50ee9ac593e230e6f869f4158a67e4c3113aed45
+source-git-commit: 0cd80741d5c92bf633b4d4becefa1b64d5f5d938
 workflow-type: tm+mt
-source-wordcount: '1505'
-ht-degree: 38%
+source-wordcount: '1496'
+ht-degree: 35%
 
 ---
 
@@ -316,13 +316,11 @@ Ainda não há atualizações para o seguinte nesta versão:
 
 ## Atualizações do visualizador de prova para desktop
 
-### Versão 2.1.54
+### Versão 2.1.55
 
-**Lançamento de produção para todos os clientes: 11 de dezembro de 2025**
+Versão de produção para todos os clientes: 19 de março de 2025
 
-O Visualizador de prova para desktop foi atualizado da versão 2.1.52 para a 2.1.54. Essa atualização incluiu melhorias internas nas ferramentas e não impactou os recursos para o usuário final.
-
-A versão 2.1.53 também incluiu alterações internas nas ferramentas.
+O Visualizador de provas de desktop foi atualizado para a versão 2.1.54 a 2.1.55. Essa atualização incluiu atualizações internas de ferramentas e não afetou a funcionalidade do usuário final.
 
 Esta atualização é para Mac e Windows.
 
