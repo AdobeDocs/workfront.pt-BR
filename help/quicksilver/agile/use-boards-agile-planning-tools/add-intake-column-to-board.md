@@ -7,9 +7,9 @@ description: Opcionalmente, é possível adicionar uma coluna de entrada ao quad
 author: Courtney
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+source-git-commit: db2e91e795bbc4ecc9953eb0c7643c7ae1f1c911
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1023'
 ht-degree: 8%
 
 ---
@@ -145,8 +145,6 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 ## Usar a coluna de entrada
 
 Os cartões na coluna de entrada não são editáveis até que você os mova para outras colunas do quadro. Você pode clicar no cartão para abri-lo em um modo de exibição somente leitura ou clicar em ![Abrir tarefa ou problema](assets/boards-launch-icon.png) para abrir a tarefa ou problema em uma nova guia do navegador.
-
-Você pode reordenar manualmente os itens na coluna de entrada.
 
 Os ícones na parte superior direita da coluna de entrada mostram quantos cartões estão atualmente na coluna e quantos filtros são aplicados.
 
