@@ -5,10 +5,10 @@ description: Você pode usar a IA para preencher automaticamente os campos de so
 author: Alina
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 65bb04377c3d819de3df12a0dc9dfc3878152d51
+source-git-commit: 1afc69b23138ddfc6e369bf6231dec9ecb5d0bdb
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 10%
+source-wordcount: '1491'
+ht-degree: 9%
 
 ---
 
@@ -80,6 +80,19 @@ Considere o seguinte ao usar o Preenchimento de formulário fornecido pela IA
 * Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 
 * All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
 -->
+
+
+## Habilitar Preenchimento de formulário fornecido pela IA para sua organização
+
+>[!NOTE]
+>
+>O Preenchimento de formulário fornecido pela IA é ativado no nível da organização e não pode ser ativado ou desativado para usuários ou níveis de acesso específicos.
+
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
+1. Clique em **Sistema**, em Sistema, clique em **Preferências**.
+1. Na seção de preferência IA, verifique se **Habilitar IA** está ativado.
+1. Ativar/desativar **Preenchimento de Formulário de IA**.
+1. Para desabilitar o Preenchimento de Formulário fornecido por IA, desative o **Preenchimento de Formulário de IA**.
 
 ## Obter sugestões de um prompt de texto
 
