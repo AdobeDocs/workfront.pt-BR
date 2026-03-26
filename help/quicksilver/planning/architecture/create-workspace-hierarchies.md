@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+source-git-commit: 16da53ace7c5b3fadf9b4142ac6146bc3fe5ebd5
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 1%
+source-wordcount: '949'
+ht-degree: 2%
 
 ---
 
 
-# Criar hierarquias do espaço de trabalho
+# Criar hierarquias de espaços de trabalho
 
 <!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -22,7 +22,9 @@ ht-degree: 1%
 
 Como um gerenciador de espaço de trabalho, você pode criar várias hierarquias de espaço de trabalho entre tipos de registro no Adobe Workfront Planning.
 
-Depois que os tipos de registro forem conectados em um espaço de trabalho, você poderá criar uma hierarquia que organiza essas conexões. As hierarquias organizam tipos de registro e objeto em relacionamentos pai-filho e podem conter até quatro níveis de tipos de objeto.
+Depois que os tipos de registro forem conectados em um espaço de trabalho, você poderá criar uma hierarquia que organiza essas conexões.
+
+As hierarquias organizam tipos de registro e objeto em relacionamentos pai-filho e podem conter até 4 tipos de objeto cada. Você pode criar até 5 hierarquias em um espaço de trabalho.
 
 Se uma conexão entre dois tipos de registro ainda não existir, ela poderá ser criada conforme você configura a hierarquia. Uma vez definida, a hierarquia estabelece um caminho estruturado entre tipos de registro relacionados no espaço de trabalho.
 
@@ -70,8 +72,6 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 +++
 
 ## Criar uma hierarquia de espaço de trabalho
-
-Você pode criar até 5 hierarquias em um espaço de trabalho.
 
 {#step1-to-planning}
 
@@ -158,6 +158,10 @@ Cada tipo de objeto adicional se torna filho dos tipos de objeto anteriores.
 
    * **Editar**: abre a caixa **Editar hierarquia**, na qual você pode fazer alterações.
    * **Excluir**: exclui a hierarquia permanentemente. As hierarquias excluídas não podem ser recuperadas. Os campos de conexão não são excluídos.
+
+1. (Opcional) Clique no nome do último tipo de registro na hierarquia e, em seguida, no nome de um registro da exibição desse tipo de registro. Isso abre a página de detalhes do registro. Localize a hierarquia criada na navegação estrutural de um registro na parte superior da página do registro.
+
+   Para obter mais informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 

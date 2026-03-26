@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+source-git-commit: 2f1c3d4311f54f7f273b2304e39e6fbfc0f4b657
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 0%
+source-wordcount: '1648'
+ht-degree: 2%
 
 ---
 
 
-# Gerenciar o layout da página de registros
+# Gerenciar o layout da página do registro
 
 <span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
@@ -282,19 +282,23 @@ As seguintes situações ocorrem:
    * Selecione a configuração **Mostrar todos os campos** para exibir todos os campos da exibição de tabela do registro, incluindo os ocultos.
    * Desmarque a configuração **Mostrar todos os campos** para exibir somente campos que não estejam ocultos na exibição de tabela do registro. Esta é a configuração padrão
 
+     <!--
+      replace with this when they fix the UI text:
+      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
+      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
+      -->
+
    </div>
 
    >[!TIP]
    >
    ><span class="preview">A configuração **Mostrar todos os campos** está disponível somente na caixa de visualização Detalhes do registro. Não está disponível na página Detalhes do registro.</span>
+1. (Opcional) Se desejar navegar para um registro conectado, clique no nome desse registro na navegação estrutural na parte superior da página de detalhes. <span class="preview">Se você não conseguir ver o nome de um registro na navegação estrutural, clique em **Mais**. Isso exibe a navegação estrutural em várias linhas. Clique em **Menos** para encurtar a navegação estrutural e exibi-la em uma linha.</span>
 
+   >[!TIP]
+   >
+   >Você deve ter tipos de registro, registros e hierarquias conectados no espaço de trabalho para poder visualizar navegações estruturais na página de detalhes do registro.
 
-   <!--replace with this when they fix the UI text:
-   * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-   * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-   -->
-
-   </div>
 
 1. (Opcional) Clique no ícone **Abrir em nova guia** ![Abrir caixa de detalhes em um novo ícone de guia](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> no canto superior direito da visualização do registro para abrir a página do registro em uma nova guia.
 
@@ -314,7 +318,7 @@ As seguintes situações ocorrem:
 
    Todas as alterações no layout da visualização do registro ou na página são salvas automaticamente.
 
-## Adicionar uma página Registros conectados a um registro
+## Adicionar uma página de registros conectados a um registro
 
 Você pode exibir informações de registros ou objetos conectados adicionando uma guia de uma página Registros conectados à área de detalhes de um registro. Isso adiciona os registros conectados em uma tabela ou exibição de lista à guia.
 
