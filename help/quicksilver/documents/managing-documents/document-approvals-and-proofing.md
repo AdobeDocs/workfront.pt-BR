@@ -6,9 +6,9 @@ description: Você pode pedir aos usuários para aprovar um documento que você 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8b25cfa-02d9-4c5a-88c1-924a283cdffb
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 6%
 
 ---
@@ -24,4 +24,4 @@ Você também pode pedir aos usuários para revisar um documento como uma prova 
 >A prova não estará disponível se sua organização estiver em armazenamento corporativo. Em vez disso, você pode usar a análise e a aprovação do Workfront com a integração do Frame.io. Para obter mais informações sobre o armazenamento corporativo ou a integração Frame.io, consulte
 >
 >* [visão geral do armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
->* [Visão geral da integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
+>* [Visão geral unificada de revisão e aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)

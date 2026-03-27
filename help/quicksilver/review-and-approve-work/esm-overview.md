@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
-source-git-commit: c4c4eb8e04b8e43a6681a92c3ee1e3a177ad0983
+source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '848'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Essa opção de armazenamento também prepara o caminho para futuras integraçõ
 
 A integração do Workfront com o Frame.io aproveita o armazenamento corporativo da Adobe para fornecer uma experiência unificada de análise e aprovação. Essa integração permite que os coordenadores de projetos gerenciem projetos e planejem o trabalho no Workfront, enquanto os criadores, profissionais de marketing e participantes podem revisar e aprovar ativos no Frame.io. Isso garante que todas as partes interessadas tenham acesso às versões mais recentes dos ativos e que o feedback seja centralizado em um único local.
 
-Para obter mais informações sobre a integração do Workfront e do Frame.io, consulte [Visão geral da integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).
+Para obter mais informações sobre a integração do Workfront e do Frame.io, consulte [Visão geral da revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
 ## Diferenças entre o armazenamento corporativo Adobe e o armazenamento Workfront herdado
 
