@@ -7,9 +7,9 @@ description: Na área Documentos, é possível organizar, gerenciar e exibir met
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '770'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Ao selecionar um documento na área documentos, você pode usar o painel Resumo 
 
 Você pode revisar e aprovar documentos na área de novos documentos usando o visualizador Frame.io.
 
-Para obter mais informações, consulte [Introdução à integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md).
+Para obter mais informações, consulte [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Gerenciar versões
 
