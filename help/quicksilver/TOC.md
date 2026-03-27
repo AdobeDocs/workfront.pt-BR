@@ -3,7 +3,7 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: c2c32716d8c08c6aa7f9f408db29b8a645cf2e68
+source-git-commit: df02fa91f5cf87e73a9bf6183b57d42ba965ba09
 workflow-type: tm+mt
 source-wordcount: '13813'
 ht-degree: 97%
@@ -1841,6 +1841,8 @@ ht-degree: 97%
       * [Atualizar itens de trabalho no Balanceador de carga de trabalho usando o Resumo](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Revisar e aprovar trabalho {#review-and-approve-work}
    * [Revisar e aprovar trabalho](review-and-approve-work/review-and-approve-work.md)
+   * [Visão geral unificada de revisão e aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+   * [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
    * [Visão geral das limitações do recurso de decisão de prova e documentos para usuários sem licenças pagas](review-and-approve-work/proof-doc-decision-limits.md)
    * Aprovações de trabalho {#work-approvals}
       * [Aprovações de trabalho](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -1857,7 +1859,6 @@ ht-degree: 97%
    * Aprovações unificadas {#document-reviews-and-approvals}
       * [Aprovações de documentos unificados: índice de artigos](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Funcionalidade disponível para aprovações de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
-      * [Visão geral das aprovações unificadas](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Visão geral do status de decisão do documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Introdução ao revisor com IA do Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [Visão geral do armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
@@ -1996,8 +1997,6 @@ ht-degree: 97%
          * [As versões de prova não podem ser baixadas ou visualizadas quando uma prova interativa é adicionada como uma nova versão](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Integrações nativas {#native-integrations}
       * [Revisar e aprovar integrações nativas: índice do artigo](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
-      * [Visão geral da integração com o Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
-      * [Introdução ao uso da integração com o Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md)
       * [Introdução à integração do GenStudio for Performance Marketing e do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
       * [Introdução ao uso de provas com o Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [Introdução ao uso da integração entre as provas e o GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
