@@ -6,16 +6,16 @@ description: Você pode exibir relatórios de calendário e detalhes de eventos 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+source-git-commit: 8d2f7abc188be5e0d94524e3d42cee72126967f3
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 8%
 
 ---
 
 # Exibir relatórios de calendário e detalhes do evento
 
-Você pode exibir relatórios de calendário e detalhes de eventos que criou ou compartilhou com você no Adobe Workfront.
+Você pode exibir relatórios de calendário e detalhes de eventos que você criou ou que foram compartilhados com você no Adobe Workfront.
 
 ## Requisitos de acesso
 
@@ -42,7 +42,7 @@ Você pode exibir relatórios de calendário e detalhes de eventos que criou ou 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>Exibir ou aumentar permissões para o relatório de calendário</td> 
+   <td>Exibir permissões ou mais altas para o relatório de calendário</td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,13 +73,17 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 1. (Condicional) Clique no menu suspenso **[!UICONTROL Exibir]** e selecione a duração do calendário que deseja exibir.
    ![Duração do calendário](assets/view-menu-calendar-report-350x189.png)
-Você pode escolher entre as seguintes exibições de relatório de calendário:
+Você pode escolher entre as seguintes exibições de relatório do calendário:
 
    * **[!UICONTROL Mês]**: exibe quatro semanas do calendário
    * **[!UICONTROL Semana]**: exibe uma semana do calendário
    * **[!UICONTROL Gantt]**: exibe uma exibição contínua do calendário
 
      Você pode ver mais eventos em uma visualização de **Gantt** rolando para baixo ou para os lados. Um símbolo de carregamento é exibido à medida que os dados são preenchidos para a exibição.
+
+   >[!NOTE]
+   >
+   >Os calendários podem exibir eventos de até 5 anos no futuro.
 
    >[!NOTE]
    >
@@ -96,7 +100,7 @@ Você pode escolher entre as seguintes exibições de relatório de calendário:
 
          ![Clique na seta para alterar a data](assets/click-arrows-to-change-dates-calendar-report.png)
 
-         As datas exibidas são ajustadas por um intervalo com base na exibição de calendário atual. Por exemplo, se você estiver exibindo o calendário na exibição **Semana**, o calendário será exibido uma semana depois ou uma semana atrás, dependendo da seta selecionada.
+         As datas exibidas são ajustadas por um intervalo com base na exibição do calendário atual. Por exemplo, se você estiver exibindo o calendário na exibição **Semana**, o calendário será exibido uma semana depois ou uma semana atrás, dependendo da seta selecionada.
 
       1. (Opcional) Para voltar ao dia atual, clique em [!UICONTROL **Hoje**].
 
@@ -109,4 +113,4 @@ Você pode tornar os eventos visíveis novamente selecionando o [!UICONTROL proj
 Você pode ver os detalhes de um evento em um calendário, para eventos atuais e passados.
 
 1. Vá para o evento cujos detalhes você deseja saber e clique nele. Os detalhes são abertos em um painel no lado direito.
-1. (Opcional) Para abrir o projeto, tarefa ou ocorrência associada, clique no título do objeto.
+1. (Opcional) Para abrir o projeto, tarefa ou problema associado, clique no título do objeto.
