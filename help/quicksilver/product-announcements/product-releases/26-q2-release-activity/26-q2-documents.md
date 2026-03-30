@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+source-git-commit: 34f367e1bd1aa0c75433f2f59baf4efc1284e61b
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 8%
@@ -22,9 +22,13 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 
 ## Revisão e aprovações unificadas possibilitadas pelo Workfront e Frame.io
 
-Estamos animados em apresentar a Revisão e aprovação unificadas potencializadas pelo Workfront e Frame.io, uma experiência simplificada de revisão e aprovação.
 
-Esse novo recurso está disponível para obter novos clientes e para clientes existentes após a renovação.
+>[!IMPORTANT]
+>
+>Esse novo recurso está disponível para obter novos clientes e para clientes existentes após a renovação.
+
+
+Estamos animados em apresentar a Revisão e aprovação unificadas potencializadas pelo Workfront e Frame.io, uma experiência simplificada de revisão e aprovação.
 
 ### Novidades
 
