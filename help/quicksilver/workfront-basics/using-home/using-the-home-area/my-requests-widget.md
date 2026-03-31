@@ -6,10 +6,10 @@ description: Você pode enviar solicitações no widget Minhas solicitações. V
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: 3893a57fb7ae31a1649b20beccc1f0b79f2421fb
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 8%
+source-wordcount: '659'
+ht-degree: 11%
 
 ---
 
@@ -78,31 +78,53 @@ Você pode copiar uma solicitação no widget Minhas solicitações, editá-la e
 
 Para obter instruções, consulte [Copiar e enviar solicitações](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-## Filtrar solicitações
+## Gerenciar informações na lista de solicitações no widget Minhas solicitações
 
-O widget Minhas solicitações apresenta um filtro personalizável que permite controlar quais solicitações aparecem no widget. Você pode configurar esse filtro para diferentes campos e valores e pode empilhar condições usando operadores AND e OR.
+<!--
+The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
-Para configurar o filtro no widget Minhas solicitações:
+To configure the filter in the My Requests widget:
+-->
 
-1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
+1. Clique no **[!UICONTROL Menu principal]** ![Ícone do Menu principal](assets/lines-main-menu.png), no canto superior esquerdo, e clique em **[!UICONTROL Página inicial]**.
 1. (Condicional) Para adicionar o widget **Minhas solicitações** à sua tela inicial. Clique em **Personalizar**, localize **Minhas Solicitações** e clique nele para adicioná-lo à **Página Inicial**.
-1. No widget **Minhas solicitações**, clique em **Filtro**.
-1. Selecione o campo pelo qual deseja filtrar. As opções disponíveis são:
+1. (Opcional) Para gerenciar a forma como as informações são exibidas na lista de solicitações, atualize os seguintes elementos de exibição para a lista:
 
-   * Espaço de trabalho
-   * Tipo de objeto
-   * Data de entrada
-   * Formulário de solicitação
+   * Visualizar
+   * Filtro
+   * Colunas
+
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
+
+   Para obter mais informações sobre como gerenciar informações na lista de solicitações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+
+<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+1. Select the field that you want to filter by. Available options are:
+
+   * Workspace
+   * Object type
+   * Entry date
+   * Request form
    * Status
-   * Inserido por
-   * Campos personalizados da solicitação ou do objeto criado
+   * Entered by
+   * Custom fields from the request or from the created object   
 
-1. No campo seguinte, selecione o operador que deseja usar para essa condição de filtro. Os operadores disponíveis dependem do campo escolhido.
-1. (Condicional) Se um campo aparecer à direita do operador, selecione o valor pelo qual deseja filtrar.
-1. (Opcional) Para adicionar outra condição de filtro, clique em **Adicionar condição** e repita as etapas 4 a 6.
-1. (Opcional e condicional) Se você tiver várias condições, alterne o valor And ou Or clicando em **And** ou **Or** à esquerda da condição.
+1. In the next field, select the operator that you want to use for this filter condition. Available operators depend on the chosen field.
+1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
+1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
+1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
 
-O filtro é salvo automaticamente.
+
+The filter is saved automatically.
+
+-->
 
 >[!TIP]
 >
@@ -111,45 +133,53 @@ O filtro é salvo automaticamente.
 >* Para filtrar apenas por solicitações Workfront, defina o filtro como **Tipo de objeto** > **Tem qualquer um dos** > **Problemas**.
 >* Para filtrar apenas por solicitações do Workfront Planning, defina o filtro como **Tipo de objeto** > **Não tem nenhum de** > **Problemas**.
 
-## Ajustar ou adicionar colunas
+<!--
 
-Você pode escolher quais das colunas disponíveis aparecem no widget Minhas solicitações e definir sua ordem.
+## Adjust or add columns
 
-As colunas disponíveis incluem:
+You can choose which of the available columns appear on the My Requests widget, and set their order.
 
-* Assunto
-* Objeto criado
-* Tipo de objeto
+Available columns include:
+
+* Subject
+* Created object
+* Object type
 * Status
-* Formulário de solicitação
-* Data de entrada
-* Inserido por
+* Request form
+* Entry date
+* Entered by
 
-Para ajustar as colunas no widget Minhas solicitações:
+To adjust the columns on the My Requests widget:
 
-1. Clique no **[!UICONTROL Menu Principal]** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito e clique em **[!UICONTROL Página Inicial]**.
-1. (Condicional) Para adicionar o widget **Minhas solicitações** à sua tela inicial. Clique em **Personalizar**, localize **Minhas Solicitações** e clique nele para adicioná-lo à **Página Inicial**.
-1. No widget **Minhas solicitações**, clique em **Colunas**.
-1. (Opcional) Para reordenar colunas, clique na alça de arrastar ![alça de arrastar](assets/drag-handle.png) da coluna que você deseja mover e arraste-a para os locais desejados. A coluna na parte superior da lista aparece no widget Minhas solicitações como a primeira coluna.
-1. (Opcional) Use o botão para ocultar ou mostrar a coluna na lista de solicitações.
-1. Para adicionar um campo personalizado como coluna, clique no ícone **Adicionar coluna** ![Adicionar coluna](assets/add-column.png) no canto superior direito da lista e clique no ícone de adição ao lado do campo personalizado que você deseja adicionar como coluna ao widget.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) To add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**, then click it to add it to **Home**. 
+1. In the **My Requests** widget, click **Columns**.
+1. (Optional) To reorder columns, click the drag handle ![drag handle](assets/drag-handle.png) of the column you want to move and drag it to the desired locations. The column at the top of the list appears in the My Requests widget as the first column.
+1. (Optional) Use the toggle to hide or show the column in the requests list.
+1. To add a custom field as a column, click the **Add column** icon ![Add column](assets/add-column.png) in the upper-right corner of the list, and click the plus icon next to the custom field that you want to add as a column to the widget.
 
-   Campos personalizados em formulários anexados ao objeto na lista estão disponíveis para serem adicionados como colunas.
+   Custom fields on forms attached to the object in the list are available to add as columns.
 
-As preferências de coluna são salvas automaticamente.
+Column preferences are saved automatically.
 
-## Criar um modo de exibição
+-->
 
-Você pode criar exibições no widget Minhas solicitações para alterar a forma como as informações são exibidas na lista de solicitações.
+<!--
 
-Leve em consideração o seguinte ao trabalhar com exibições no widget Minhas solicitações:
+## Create a view
 
-* Uma exibição no widget Minhas solicitações contém as colunas e os filtros aplicados à exibição.
-* Você pode criar visualizações e compartilhá-las com outras pessoas. Os filtros e colunas selecionados para a exibição antes de compartilhá-la são incluídos nas exibições compartilhadas.
-* Esta é uma exibição do sistema que não pode ser editada, compartilhada ou excluída:
+You can create views in the My Requests widget to change the way the information displays in the request list. 
 
-   * Exibição Padrão de Solicitações Unificadas do Widget
-* A criação e edição de uma visualização no widget Minhas solicitações é semelhante às listas aprimoradas. Para obter informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Consider the following when working with views in the My Requests widget:
+
+* A view in the My Requests widget contains the columns and filters applied to the view.
+* You can create views and share them with others. The filters and columns you select for the view before you share it are included in the views you share. 
+* The following is a system view which you cannot edit, share, or delete: 
+
+   * Widget Unified Requests Default View
+* Creating and editing a view in the My Requests widget is similar to enhanced lists. For information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). 
+
+-->
 
 ## Pesquisar solicitações
 

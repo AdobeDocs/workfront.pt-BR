@@ -6,9 +6,9 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1529'
 ht-degree: 6%
 
 ---
@@ -139,7 +139,7 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Assunto</strong> </td> 
-      <td>Exibe o nome da solicitação original. Atualize-a, se necessário. Caso contrário, o Workfront nomeia a solicitação copiada <b>Cópia de &lt;Nome da solicitação original&gt;</b>. Este campo é obrigatório.</td> 
+      <td>Exibe o nome da solicitação original. Atualize-a, se necessário. Caso contrário, o Workfront nomeia a solicitação copiada <b>Cópia de &lt;Name of original request&gt;</b>. Este campo é obrigatório.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Descrição</strong> </td> 
@@ -226,17 +226,21 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
 
 Você pode copiar e enviar solicitações na área Solicitações do Workfront ou a partir do widget Minhas solicitações na Página inicial.
 
-{{step1-to-requests}}
+1. Siga um destes procedimentos:
 
-1. Para acessar o widget Minhas solicitações na Página inicial:
+   {{step1-to-requests}}
+
+   1. Para acessar o widget **Minhas solicitações** na **Página inicial**:
 
    {{step1-to-home}}
 
-   1. Localize o widget Minhas solicitações.
+   1. Localize o widget **Minhas solicitações**.
 
       Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
 
-1. Na lista **Solicitações** ou no widget **Minhas solicitações** na Página inicial, passe o mouse sobre a solicitação que você deseja copiar e clique no menu **Mais** ![Mais menu](assets/more-menu.png).
+1. Na lista **Solicitações** ou no widget **Minhas solicitações** na Página inicial, passe o mouse sobre a solicitação que você deseja copiar e clique no menu **Mais** próximo ao seu nome.
+
+   ![Mais menu](assets/more-menu.png)
 
 1. Clique em **Copiar**
 

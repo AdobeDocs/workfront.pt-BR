@@ -2,22 +2,34 @@
 product-area: requests
 navigation-topic: create-requests
 title: Exibir solicitações enviadas
-description: Saiba mais sobre as áreas do Adobe Workfront em que você pode exibir solicitações que você ou outra pessoa enviou ou solicitações que você nunca enviou e que foram salvas como rascunhos.
+description: Saiba mais sobre as áreas do Adobe Workfront em que você pode visualizar solicitações enviadas por você ou por outra pessoa, ou solicitações que você nunca enviou e que foram salvas como rascunhos.
 author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1347'
 ht-degree: 6%
 
 ---
 
 # Visualizar solicitações enviadas
 
-Você pode exibir as solicitações que você ou outra pessoa submeteu, ou as solicitações que você iniciou, mas nunca terminou de submeter. As solicitações não concluídas são salvas como rascunhos.
+<!--
+Remove production and preview references at release
+-->
+
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
+
+Você pode exibir as solicitações que você ou outra pessoa submeteu, ou as solicitações que você iniciou, mas que você nunca terminou de submeter. As solicitações não concluídas são salvas como rascunhos.
 
 Você pode localizar solicitações enviadas nas seguintes áreas do Adobe Workfront:
 
@@ -31,9 +43,9 @@ A área Solicitações exibe as seguintes solicitações, dependendo de como voc
 
   >[!NOTE]
   >
-  >* Você só pode exibir suas próprias solicitações preliminares.
-  >* Na nova experiência de solicitação, as solicitações e os rascunhos enviados são encontrados na mesma lista.
-  >* Rascunhos criados na experiência herdada não aparecem na nova experiência de solicitação.
+  >* Você só pode exibir seus próprios rascunhos de solicitações.
+  >* Na nova experiência de solicitação, as solicitações e os rascunhos enviados estão na mesma lista.
+  >* Os rascunhos criados na experiência herdada não aparecem na nova experiência de solicitação.
 
 ## Requisitos de acesso
 
@@ -45,7 +57,7 @@ A área Solicitações exibe as seguintes solicitações, dependendo de como voc
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer pacote de Adobe Workfront ou Adobe Workflow</p> 
+   <td> <p>Qualquer pacote de fluxo de trabalho do Adobe Workfront ou do Adobe</p> 
    <p>Qualquer pacote do Adobe Workfront Planning</p>
    </td> 
   </tr> 
@@ -85,13 +97,28 @@ A exibição de solicitações enviadas é diferente dependendo se você está u
 
 ### Exibir solicitações enviadas na nova experiência de solicitação
 
-Você pode exibir solicitações submetidas na área Solicitações, que inclui links para objetos criados por solicitações do Adobe Workfront Planning.
+>[!NOTE]
+>
+>* Se você tiver o Workfront Planning, suas solicitações do Workfront e do Planning serão exibidas na mesma lista. As solicitações do Workfront exibem o valor `Issue` na coluna **Tipo de objeto**.
+>* Até 50 solicitações são exibidas na lista na área Solicitações por padrão. Para visualizar mais solicitações, navegue até a parte inferior da lista.
+
+Você pode exibir solicitações enviadas na área Solicitações, que inclui links para registros criados por solicitações do Adobe Workfront Planning no ambiente de Produção <!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment-->.
 
 >[!NOTE]
 >
 >Os links para objetos criados estão disponíveis na nova experiência de solicitação somente para solicitações do Planning, nos casos em que a própria solicitação criou um registro.
 >
 >Se uma solicitação do Workfront for convertida em um projeto ou outro objeto, um link para esse objeto convertido não estará disponível na lista de solicitações na nova experiência de solicitação.
+
+<!--
+replace the note above with this at release: 
+>[!NOTE]
+>
+>Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
+>
+>If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
+><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
+-->
 
 Para exibir solicitações que você ou outros usuários enviaram na nova experiência de solicitação:
 
@@ -102,18 +129,27 @@ Para exibir solicitações que você ou outros usuários enviaram na nova experi
    A lista de solicitações é exibida.
 
 1. (Opcional) Para pesquisar uma solicitação, comece digitando na barra de pesquisa no canto superior direito da lista. Os resultados da pesquisa são exibidos à medida que você digita.
-1. (Opcional) Clique em **Filtros** e comece a adicionar condições para as solicitações que deseja exibir.
+1. (Opcional) Para gerenciar a forma como as informações são exibidas na lista de solicitações, atualize os seguintes elementos de exibição para a lista:
 
-   Para obter mais informações sobre filtros, consulte [Criar e gerenciar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+   * Visualizar
+   * Filtro
+   * Colunas
 
-1. (Opcional) Clique no menu suspenso **Exibições** para atualizar sua exibição ou compartilhá-la com outras pessoas.
+   <!--
+   <div class="preview">
+      * Group
+   * Format cells
+   * Row height
+      </div>
+   -->
 
-   Para obter informações, consulte [Criar ou editar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+   Para obter mais informações sobre como gerenciar informações na lista de solicitações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
 1. (Opcional) Verifique o status de uma solicitação verificando a coluna **Status**. Os seguintes status estão disponíveis na nova experiência de solicitação:
 
-   * **Rascunho**: esta solicitação ainda não foi enviada.
-   * **Revisão pendente**: (somente Planning) esta solicitação tem aprovadores e nenhum dos aprovadores abriu a solicitação.
-   * **Em Revisão**: (somente Planning) esta solicitação tem aprovadores e pelo menos um aprovador abriu a solicitação, mas nenhuma decisão foi tomada.
+   * **Rascunho**: Esta solicitação ainda não foi enviada.
+   * **Revisão Pendente**: (somente Planning) esta solicitação tem aprovadores e nenhum dos aprovadores abriu a solicitação.
+   * **Em Revisão**: (somente Planning) essa solicitação tem aprovadores e pelo menos um aprovador abriu a solicitação, mas nenhuma decisão foi tomada.
    * **Rejeitada**: (somente Planning) esta solicitação tem aprovadores e foi rejeitada. Esta solicitação não criará um registro.
    * **Em andamento**:
       * Solicitações do Workfront: a solicitação foi convertida e o trabalho está em andamento.
@@ -121,11 +157,6 @@ Para exibir solicitações que você ou outros usuários enviaram na nova experi
 
         Para obter mais informações, consulte [Configurar detalhes da configuração](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) no artigo Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning.
    * **Concluída**: a solicitação foi concluída.
-
->[!NOTE]
->
->* Se você tiver o Workfront Planning, suas solicitações do Workfront e do Planning serão exibidas na mesma lista. As solicitações do Workfront exibem o valor `Issue` na coluna **Tipo de objeto**.
->* Até 50 solicitações são exibidas na lista na área Solicitações por padrão. Para visualizar mais solicitações, navegue até a parte inferior da lista.
 
 ### Exibir solicitações enviadas na experiência herdada de solicitação
 
@@ -136,13 +167,13 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
 1. (Condicional) Se sua organização adquiriu um pacote do Workfront Planning, clique na guia **Workfront** para exibir as solicitações do Workfront.
 1. Clique em **Enviado** no painel esquerdo para exibir todas as solicitações enviadas.
 
-   Você pode exibir até 2.000 solicitações e elas podem ser exibidas em várias páginas.
+   É possível exibir até 2000 solicitações, que podem ser exibidas em várias páginas.
 
    >[!TIP]
    >
-   >Não é possível personalizar as colunas na lista de solicitações Enviadas.
+   >Não é possível personalizar as colunas na lista Solicitação enviada.
 
-   ![Nova lista de solicitações enviadas](assets/nwe-submitted-requests-new-list-350x57.png)
+   ![Solicitações enviadas: nova lista](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. As seguintes colunas são exibidas por padrão:
@@ -159,11 +190,11 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
    </tr> 
       <tr> 
          <td role="rowheader">Convertido para</td> 
-         <td> <p>O nome do objeto de resolução que pode ser uma tarefa ou um projeto para o qual a solicitação foi convertida. </p> <p>Clique no nome da tarefa ou do projeto para abri-los. </p> <p>Se a solicitação não foi convertida, este campo estará vazio. </p> </td> 
+         <td> <p>O nome do objeto de resolução que pode ser uma tarefa ou um projeto para o qual a solicitação foi convertida. </p> <p>Clique no nome da tarefa ou do projeto para abri-los. </p> <p>Se a solicitação não foi convertida, esse campo fica vazio. </p> </td> 
       </tr> 
       <tr> 
          <td role="rowheader">Caminho</td> 
-         <td>O nome da fila de solicitações, dos grupos de tópicos e dos tópicos da fila em que a solicitação foi enviada originalmente. </td> 
+         <td>O nome da fila de solicitações, dos grupos de tópicos e dos tópicos da fila em que a solicitação foi originalmente enviada. </td> 
       </tr> 
       <tr> 
          <td role="rowheader">Status</td> 
@@ -171,7 +202,7 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
       </tr> 
       <tr> 
          <td role="rowheader">Data de Entrada</td> 
-         <td>A data em que a solicitação foi enviada ou a data em que o objeto de resolução foi criado, caso a solicitação tenha sido excluída quando convertida. </td> 
+         <td>A data em que a solicitação foi enviada ou a data em que o objeto de resolução foi criado se a solicitação foi excluída quando convertida. </td> 
       </tr> 
       <tr> 
          <td role="rowheader">Data da última atualização</td> 
@@ -192,7 +223,7 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
    >
    >Se o painel Resumo já estiver aberto, o ícone Abrir resumo será alterado para Fechar resumo.
 
-1. (Opcional e condicional) Clique no ícone **X** no canto superior direito ou no ícone **Fechar resumo** com texto![&#x200B; para fechar o Painel de Resumo.](assets/close-summary-with-text-nwe.png)
+1. (Opcional e condicional) Clique no ícone **X** no canto superior direito ou no ícone **Fechar resumo** com texto![ para fechar o Painel de Resumo.](assets/close-summary-with-text-nwe.png)
 
    Se um problema tiver sido convertido em uma tarefa ou projeto e tiver sido excluído no processo de conversão, o Painel de resumo ficará em branco. Para obter informações sobre a conversão de problemas, consulte [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -271,7 +302,7 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
 
 1. (Opcional) Verifique o status de uma solicitação verificando a coluna **Status**. Os seguintes status estão disponíveis na nova experiência de solicitação:
 
-   * **Rascunho**: Esta solicitação ainda não foi enviada.
+   * **Rascunho**. Esta solicitação ainda não foi enviada.
    * **Em andamento**
    * **Concluído**
 

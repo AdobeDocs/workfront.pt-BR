@@ -5,9 +5,9 @@ description: As listas aprimoradas usam um formato de tabela para exibir os iten
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2350'
 ht-degree: 2%
 
 ---
@@ -156,7 +156,7 @@ Algumas colunas permitem salvar um nome personalizado para o título da coluna.
 
    O novo nome da coluna aparece na lista.
 
-## Adicionar e remover colunas com o Gerenciador de colunas
+### Adicionar e remover colunas com o Gerenciador de colunas
 
 Você pode usar o **Gerenciador de colunas** em algumas listas aprimoradas para adicionar e remover facilmente colunas na lista. Você pode adicionar ou remover campos personalizados e do sistema que já existem no Workfront como colunas para uma lista aprimorada.
 
@@ -283,11 +283,13 @@ Para classificar colunas individuais:
 
    ![Classificar por uma coluna](assets/glist-sort-by-column.png)
 
-Para classificar seu trabalho em um agrupamento:
-
-1. Clique em **Grupo**, vá para a linha do agrupamento aplicado, clique na lista suspensa classificador e selecione uma ordem crescente ou decrescente.
+1. (Opcional) Para classificar seu trabalho em um agrupamento, clique em **Grupo**, vá para a linha do agrupamento aplicado, clique na lista suspensa classificador e selecione uma ordem crescente ou decrescente.
 
    ![Classificar em um agrupamento](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >A ordem de classificação é diferente com base no tipo de campo pelo qual você classifica.
 
 ### Pesquisar em uma lista aprimorada
 

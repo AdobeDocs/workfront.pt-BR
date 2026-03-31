@@ -6,9 +6,9 @@ description: Se estiver usando a nova experiência de solicitação, é possíve
 author: Alina
 feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
-source-git-commit: 78ad910e8d121dda38c9a7da27b0b338e0e1dcda
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '962'
 ht-degree: 6%
 
 ---
@@ -122,8 +122,7 @@ As alterações feitas em uma exibição ficam visíveis para todos com quem voc
    >
    >Os campos adicionados às colunas devem existir antes de serem disponibilizados no **Gerenciador de colunas**.
 
-
-1. (Opcional) Clique em **Colunas** para abrir a caixa de visibilidade e ordem dos campos **F.**
+1. (Opcional) Clique em **Colunas** para abrir a caixa **Visibilidade e ordem dos campos**.
 1. Ative a configuração para cada campo que deseja mostrar na lista, desative-o para ocultá-lo ou arraste e solte os campos em uma ordem diferente.
 
 1. (Opcional) Clique em **Filtros** e comece a adicionar condições para quais solicitações você deseja exibir.

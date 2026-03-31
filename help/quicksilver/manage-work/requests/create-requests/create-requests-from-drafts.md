@@ -6,7 +6,7 @@ description: Além de usar os rascunhos disponíveis que o Workfront sugere quan
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 6%
@@ -27,7 +27,8 @@ Além de usar os rascunhos disponíveis que o Workfront sugere quando você info
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer </p> </td> 
+   <td> <p>Qualquer pacote do Adobe Workfront ou Workflow</p>
+   <p>Qualquer pacote do Adobe Workfront Planning para criar solicitações do Workfront Planning </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -38,12 +39,9 @@ Além de usar os rascunhos disponíveis que o Workfront sugere quando você info
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a ocorrências</p>  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> Produto</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Você precisa ter o Adobe Workfront Planning para exibir solicitações ou formulários de solicitação do Planning</td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+</tbody> 
 </table>
 
 Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

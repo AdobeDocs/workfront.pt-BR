@@ -6,25 +6,21 @@ description: O trabalho planejado é representado na Adobe Workfront por projeto
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2685'
 ht-degree: 3%
 
 ---
 
 # Criar e enviar solicitações
 
-<!--Audited: 12/2023-->
+<!--Audited: 03/2026-->
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
-<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
 <p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
-</div>
 -->
-
 
 O trabalho planejado é representado na Adobe Workfront por projetos e tarefas. No entanto, você pode trabalhar em um ambiente em que o trabalho não planejado, na forma de solicitações, pode entrar a qualquer momento. O Workfront fornece um fluxo de trabalho para acomodar esse tipo de ambiente por meio do uso de Filas de solicitações.
 
@@ -37,13 +33,17 @@ Você pode criar uma solicitação Workfront das seguintes maneiras:
 * De rascunhos. Para obter informações, consulte [Criar solicitações de rascunhos](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 * De uma solicitação existente, copiando e submetendo uma cópia. Para obter informações, consulte [Copiar e enviar solicitações](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-Você pode criar uma solicitação do Workfront Planning do zero para criar registros no Workfront Planning das seguintes maneiras:
+Se sua empresa adquiriu o Adobe Workfront Planning, você também pode criar uma solicitação do Workfront Planning do zero das seguintes maneiras:
 
 * De um link para um formulário de solicitação do Workfront Planning.
 
 * Em um formulário de solicitação do Workfront Planning na área Solicitações do Workfront.
 
-  Sua organização deve comprar um pacote do Workfront Planning. Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
+As solicitações do Planning criam registros no Workfront Planning.
+
+Para obter informações, consulte a seção [Criar solicitações usando um formulário de solicitação do Workfront Planning](#create-requests-using-a-workfront-planning-request-form) neste artigo.
+
+Este artigo descreve como criar e enviar solicitações do Workfront usando filas de solicitações do Workfront.
 
 ## Requisitos de acesso
 
@@ -56,22 +56,19 @@ Você pode criar uma solicitação do Workfront Planning do zero para criar regi
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer </p> </td> 
+   <td> <p>Qualquer pacote do Workfront ou Workflow</p>
+   <p>Você deve ter qualquer pacote do Adobe Workfront Planning para criar solicitações do Planning</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Colaborador ou posterior</p>
-   <p>Solicitação ou posterior</p>
+   <td> <p>Workfront Contributor ou superior</p>
+   <p>Solicitação Workfront ou superior</p>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
    <td> <p>Editar acesso a ocorrências</p>  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> Produto</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Você precisa ter o Adobe Workfront Planning para exibir solicitações ou formulários de solicitação do Planning</td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -80,6 +77,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 +++
 
 ## Pré-requisitos para usar as Filas de solicitações
+
+As informações nesta seção se referem às filas de solicitações do Workfront. Para obter informações sobre formulários de solicitação do Planning, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 Um administrador do Workfront deve criar Filas de solicitações e disponibilizá-las aos usuários antes que eles possam usar essa funcionalidade. Um usuário com uma licença de Planejador e com acesso para Editar a Projetos e Gerenciar permissões para um projeto específico também pode criar Filas de solicitações.
 
@@ -107,10 +106,12 @@ Um administrador do Workfront deve criar os seguintes componentes de uma Fila de
 
 Ao criar uma solicitação no aplicativo Web do Workfront, o Workfront salva a solicitação como rascunho antes de você enviá-la. O Workfront cria um rascunho assim que você seleciona sua fila de solicitações e começa a inserir informações nela.
 
-Você pode continuar enviando a solicitação ou preencher quantas informações estiverem disponíveis e sair dela para concluí-la posteriormente. O Workfront salva a solicitação de rascunho que você iniciou. Você pode encontrá-los em:
+Você pode continuar enviando a solicitação ou preencher quantas informações estiverem disponíveis e sair dela para concluí-la posteriormente. O Workfront salva a solicitação de rascunho que você iniciou.
 
-* Nova experiência de solicitação: a lista de solicitações
-* Experiência de solicitação herdada: a pasta Rascunhos
+Você pode encontrar solicitações redigidas nas seguintes áreas das seguintes experiências de solicitação:
+
+* Nova experiência de solicitação: a lista de solicitações. Rascunhos são solicitações com status de Rascunho.
+* Experiência de solicitação herdada: a pasta Rascunhos da lista de solicitações.
 
 >[!IMPORTANT]
 >
@@ -119,8 +120,9 @@ Você pode continuar enviando a solicitação ou preencher quantas informações
 >* O Workfront não cria rascunhos de solicitações ao enviá-los por meio de um aplicativo de terceiros, como enviá-los por email para o Workfront ou criá-los usando outro aplicativo. Ao enviar uma solicitação de fora do aplicativo Web Workfront, ela é salva na seção Enviado.
 >* Se a estrutura de uma fila de solicitações mudar, você não poderá mais acessar rascunhos existentes. Por exemplo, se um tópico da fila for removido ou um grupo de tópicos for adicionado, os rascunhos salvos não estarão mais acessíveis.
 >
+>* Os rascunhos nunca são excluídos. Elas são mantidas no Workfront até que você as envie e se tornem solicitações enviadas ou que você as exclua.
 
-Para obter informações sobre como criar solicitações a partir de rascunhos existentes, consulte [Criar solicitações a partir de rascunhos](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). Para obter informações sobre como excluir rascunhos de solicitações, consulte também [Excluir um rascunho de solicitação](../../../manage-work/requests/create-requests/delete-request-draft.md).
+Para obter informações sobre como criar solicitações a partir de rascunhos existentes, consulte [Criar solicitações a partir de rascunhos](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). Para obter informações sobre como excluir rascunhos de solicitações, consulte também [Excluir uma solicitação enviada ou rascunho de solicitação](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
 Para criar uma solicitação no aplicativo Web do Workfront:
 
@@ -128,7 +130,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
 1. (Opcional e condicional) Selecione a configuração **Alternar para nova experiência** no canto superior direito da tela.
 
-1. Clique em **Nova solicitação** no canto superior direito da página.
+1. (Condicional) Se você estiver usando a experiência de solicitação herdada, clique em **Nova solicitação** no canto superior direito da página.
 
    >[!TIP]
    >
@@ -141,16 +143,13 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
    Ao clicar na barra de pesquisa, uma lista suspensa é exibida mostrando primeiro as filas e os formulários usados mais recentemente. Selecione um na lista ou comece a digitar e selecione a fila ou o formulário quando ele for exibido.
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >Considere o seguinte em relação à nova experiência de solicitação:
-   >* A lista inclui as filas de solicitações do Workfront e os formulários de solicitação do Workfront Planning.
-   >* Você pode filtrar a lista por tipo de objeto.
-   >* Na nova experiência de solicitação, os rascunhos são encontrados na mesma lista de solicitações enviadas.
+   >A lista inclui as filas de solicitações do Workfront e os formulários de solicitação do Workfront Planning
 
 1. (Condicional) Se você alternou para a nova experiência, selecione os grupos de tópicos e os tópicos da fila e continue atualizando o formulário.
 
-   Caso contrário, clique dentro do campo **Tipo de solicitação** e siga um destes procedimentos:
+   Na experiência herdada, clique dentro do campo **Tipo de Solicitação** e siga um destes procedimentos:
 
    * Na seção **Caminhos recentes**, selecione um caminho usado recentemente para abrir uma fila de solicitações. Um caminho inclui a fila de solicitações, os grupos de tópicos e o tópico da fila que você enviou recentemente. Os três últimos caminhos são exibidos por padrão.
 
@@ -210,7 +209,7 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
    * Comece a inserir uma nova solicitação na fila selecionada.
 
-     Um novo rascunho é salvo automaticamente na seção Rascunhos depois que você começa a especificar informações para a nova solicitação e dá um nome à solicitação no campo Assunto.
+     Um novo rascunho é salvo automaticamente na seção **Rascunhos** depois que você começa a inserir informações para a nova solicitação e nomeia a solicitação no campo Assunto.
 
 1. (Opcional) Se sua Fila de solicitações incluir Grupos de tópicos, selecione o nome do Grupo de tópicos no primeiro campo suspenso. Caso contrário, selecione um Tópico da Fila.
 
@@ -313,8 +312,10 @@ Para criar uma solicitação no aplicativo Web do Workfront:
     </tbody> 
    </table>
 
-1. (Opcional) Se o administrador do Workfront associou um formulário personalizado à Fila de solicitação ou ao Tópico da fila, especifique os campos dentro do formulário personalizado.\
+1. (Opcional) Se o administrador do Workfront associou um formulário personalizado à Fila de solicitação ou ao Tópico da fila, especifique os campos dentro do formulário personalizado.
+
    Os formulários personalizados são diferentes para cada instância do Workfront.
+
 1. (Opcional e condicional) A qualquer momento durante a inserção da solicitação, clique em [!UICONTROL **Descartar rascunho**] se desejar excluir o rascunho criado automaticamente. Isso exclui o rascunho que não pode ser recuperado. Uma mensagem de confirmação é exibida para confirmar que você está excluindo o rascunho.
 
 1. (Opcional) Clique em [!UICONTROL **Desfazer**] na mensagem de confirmação se desejar reverter sua ação e manter o rascunho.
@@ -331,15 +332,25 @@ Para criar uma solicitação no aplicativo Web do Workfront:
 
    Ao enviar a solicitação, o rascunho é excluído automaticamente e não pode ser restaurado.
 
-   As solicitações enviadas estão listadas na seção **Enviadas** da área Solicitações. Se você estiver usando a nova experiência do, as solicitações enviadas pelo Workfront serão exibidas na guia **Workfront** da área Solicitações.
+   As solicitações enviadas são listadas na seção **Enviadas** da área Solicitações, ao usar a experiência herdada. Se você estiver usando a nova experiência do, as solicitações enviadas pelo Workfront serão exibidas na lista de solicitações.
+
+   >[!NOTE]
+   >
+   >Considere o seguinte em relação à lista de solicitações na nova experiência de solicitação:
+   >
+   >* Você pode filtrar a lista por tipo de objeto.
+   >
+   >* Os rascunhos encontram-se na mesma lista das solicitações enviadas.
 
    Para obter informações sobre como endereçar solicitações recebidas, consulte o artigo [Gerenciar solicitações de trabalho e de equipe](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-   Para obter informações sobre como localizar solicitações enviadas ou rascunhadas, consulte também [Localizar solicitações enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+   Para obter informações sobre como localizar solicitações enviadas ou rascunhadas, consulte também [Exibir solicitações enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## Criar solicitações de fora do Workfront
 
-Você pode compartilhar um link direto para uma fila de solicitações ao enviar uma nova solicitação e incorporá-la a outros aplicativos. Os usuários que acessam este link pela web ou por outros aplicativos também devem estar conectados com uma conta ativa do Workfront para poderem acessar esta fila e enviar solicitações a ela. Para obter informações, consulte [Compartilhar um link para uma fila de solicitações](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+Você pode compartilhar um link direto para uma fila de solicitações ao enviar uma nova solicitação e incorporá-la a outros aplicativos. Os usuários que acessam este link pela web ou por outros aplicativos também devem estar conectados com uma conta ativa do Workfront para poderem acessar esta fila e enviar solicitações a ela.
+
+Para obter informações, consulte [Compartilhar um link para uma fila de solicitações](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ## Criar solicitações ao enviar por email para o Workfront
 
@@ -382,4 +393,4 @@ Para obter informações, consulte os seguintes artigos:
 
 ## Localizar solicitações enviadas
 
-Para obter informações sobre como localizar solicitações enviadas ou rascunhadas, consulte [Localizar solicitações enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Para obter informações sobre como localizar solicitações enviadas ou rascunhadas, consulte [Exibir solicitações enviadas](../../../manage-work/requests/create-requests/locate-submitted-requests.md).

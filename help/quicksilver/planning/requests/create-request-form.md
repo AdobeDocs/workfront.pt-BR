@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
 workflow-type: tm+mt
-source-wordcount: '3552'
+source-wordcount: '3568'
 ht-degree: 1%
 
 ---
@@ -120,6 +120,11 @@ Você pode criar um formulário de solicitação a partir do tipo de registro as
    A página do tipo de registro é aberta na exibição acessada pela última vez. Por padrão, uma página do tipo de registro é aberta na exibição de tabela.
 
 1. Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome do tipo de registro no cabeçalho da página e clique em **Criar formulário de solicitação** ou **Gerenciar formulários de solicitação**, se você já tiver um formulário e quiser criar outros.
+
+   A página **Formulários de solicitação** é aberta e as solicitações são exibidas na exibição de lista.
+
+   ![Solicitar página de formulários](assets/request-forms-in-list-view.png)
+
 1. (Condicional) Se quiser adicionar outro formulário, clique em **Novo formulário de solicitação**.
 
    A caixa **Criar formulário de solicitação** é aberta.
