@@ -1,18 +1,21 @@
 ---
 product-area: home
 navigation-topic: use-the-home-area
-title: Gerenciar suas aprovações com o widget Minhas aprovações
+title: Gerenciar aprovações com o widget Minhas aprovações
 description: O widget Minhas aprovações exibe todas as aprovações pendentes, atribuídas, delegadas e enviadas em um único local. Aqui, você pode filtrar e organizar suas aprovações, tomar decisões e delegar aprovações conforme necessário.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 4981d9adb2cae53e30f13aa2a7aa6857befbf3ca
+exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
+source-git-commit: 30e27ba5a12733660a88cd7e9643bea868503774
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 5%
+source-wordcount: '431'
+ht-degree: 16%
 
 ---
 
-# Gerenciar suas aprovações com o widget Minhas aprovações
+# Gerenciar aprovações com o widget Minhas aprovações
+
+{{highlighted-preview}}
 
 O widget Minhas aprovações exibe todas as aprovações pendentes, atribuídas, delegadas e enviadas em um único local. Aqui, você pode filtrar e organizar suas aprovações, tomar decisões e delegar aprovações conforme necessário.
 
@@ -28,7 +31,7 @@ O widget Minhas aprovações é compatível com aprovações dos seguintes objet
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +44,7 @@ O widget Minhas aprovações é compatível com aprovações dos seguintes objet
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p>
+   <p>Colaborador ou posterior</p>
    <p>Revisar ou superior</p> </td> 
   </tr> 
   <tr> 
@@ -70,9 +73,16 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >As aprovações atribuídas a funções ou grupos de trabalho não são exibidas na Página inicial. As aprovações atribuídas a equipes são exibidas no widget Minhas aprovações para cada membro da equipe.
 
 
+1. <span class="preview">(Condicional) Clique no menu suspenso **Classificar** e selecione **Mais recentes primeiro** para ver as aprovações adicionadas mais recentemente.</span>
+
+
+1. <span class="preview">(Opcional) Clique no ícone Tela cheia ![Ícone de tela cheia](assets/full-screen.png) para abrir o widget Minhas aprovações em tela cheia.</span>
+
 1. Selecione o item em que deseja tomar uma decisão de aprovação.
 
    ![Widget Minhas aprovações](assets/my-approvals-widget.png)
+
+   <!--update screenshot after production release-->
 
 1. Clique em uma das opções disponíveis ao tomar uma decisão de aprovação no painel direito. As seguintes opções são exibidas no canto superior direito da página, dependendo do tipo de item que você está aprovando:
 
