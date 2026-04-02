@@ -6,19 +6,21 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 3%
+source-wordcount: '664'
+ht-degree: 4%
 
 ---
 
 
 # Editar tipos de registro
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -76,7 +78,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -133,7 +136,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Editar tipos de registro
 
@@ -152,7 +156,7 @@ Ou
 
 1. Na caixa **Editar tipo de registro**, a guia **Aparência** é aberta por padrão.
 
-   ![Guia de aparência da caixa Editar tipo de registro &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Guia de aparência da caixa Editar tipo de registro ](assets/edit-record-type-box-appearance-tab.png)
 
    Atualize as seguintes informações na guia **Aparência**:
 
@@ -179,3 +183,12 @@ Ou
 1. (Opcional) Para editar outro tipo de registro, na página Tipo de registro, expanda a seta apontando para baixo à direita do nome de um tipo de registro, procure um tipo de registro e selecione-o quando ele for exibido na lista.
 
    ![Menu suspenso de tipo de registro na página de tipo de registro com caixa de pesquisa](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+
+   >[!TIP]
+   >
+   ><span class="preview">Você pode usar a seguinte combinação de teclado para abrir a caixa de pesquisa global em qualquer página do Workfront Planning e procurar tipos de registro:</span>
+   >
+   >* <span class="preview">CTRL+K para Windows</span>
+   >* <span class="preview">⌘+K para Mac</span>
+   >
+   >![Caixa de pesquisa global](assets/global-search-box.png)

@@ -6,10 +6,12 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 2%
+source-wordcount: '1375'
+ht-degree: 5%
 
 ---
 
@@ -54,7 +56,7 @@ Você pode visualizar registros em visualizações de vários formatos que ofere
 
   Para obter mais informações, consulte os seguintes artigos:
 
-   * [Adicionar uma página Registros conectados a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+   * [Adicionar uma página de registros conectados a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
    * [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 Este artigo descreve as seguintes informações sobre visualizações de registro:
@@ -65,8 +67,8 @@ Este artigo descreve as seguintes informações sobre visualizações de registr
 
 Para obter mais informações sobre o gerenciamento de exibições de registros do Workfront Planning, consulte também os seguintes artigos:
 
-* [Excluir visualizações de registros](/help/quicksilver/planning/views/delete-record-views.md)
-* [Exibições de registro duplicadas](/help/quicksilver/planning/views/duplicate-record-views.md)
+* [Excluir exibições de registros](/help/quicksilver/planning/views/delete-record-views.md)
+* [Duplicar exibições de registros](/help/quicksilver/planning/views/duplicate-record-views.md)
 * [Compartilhar exibições](/help/quicksilver/planning/access/share-views.md)
 
 
@@ -115,7 +117,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -177,7 +180,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 </td>
   </tr>
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerações ao trabalhar com visualizações de registro
 
@@ -281,9 +285,19 @@ Para obter informações sobre exibições de lista, consulte [Gerenciar a exibi
    ![Criar caixa de exibição](assets/create-view-box.png)
 
 1. (Opcional) Para editar um modo de exibição existente, clique no menu suspenso à direita do nome do modo de exibição atual, digite o nome de um modo de exibição no campo **Pesquisa** e pressione Enter no teclado.
+
+   >[!TIP]
+   >
+   ><span class="preview">Você pode usar a seguinte combinação de teclado para abrir a caixa de pesquisa global em qualquer página do Workfront Planning e procurar exibições:</span>
+   >
+   >* <span class="preview">CTRL+K para Windows</span>
+   >* <span class="preview">⌘+K para Mac</span>
+   >
+   >![Caixa de pesquisa global](assets/global-search-box.png)
+
 1. (Opcional) No menu suspenso Exibir, arraste e solte as exibições na ordem de sua preferência.
 
-   ![Exibir lista suspensa de tipos de registro](assets/view-types-drop-down-from-record-type-list.png)
+   ![Menu suspenso de tipos de visualização da lista de tipos de registros](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Condicional) Clique em **Avançar** ao criar uma exibição de linha do tempo ou calendário.
 

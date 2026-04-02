@@ -6,10 +6,12 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1547'
-ht-degree: 1%
+source-wordcount: '1586'
+ht-degree: 2%
 
 ---
 
@@ -89,7 +91,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -147,7 +150,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
   </tr> 
  
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerações ao compartilhar tipos de registro
 
@@ -215,11 +219,15 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
    1. Selecione **Desabilitar** no menu suspenso **Permissões herdadas**.
 
-   >[!TIP]
-   >
-   >Os gerentes do Workspace continuam a ter permissões de gerenciamento para o tipo de registro.
+      >[!TIP]
+      >
+      >Os gerentes do Workspace continuam a ter permissões de gerenciamento para o tipo de registro.
 
    1. No campo **Conceder acesso a este tipo de registro**, adicione os usuários, equipes, grupos, empresas ou funções de trabalho aos quais você deseja conceder um nível de permissão diferente daquele que eles têm para o espaço de trabalho.
+   1. <span class="preview">(Opcional) Ao compartilhar com um grupo, equipe, função ou empresa, passe o mouse sobre o nome da entidade e clique na seta que aponta para a direita para expandir uma lista de usuários que estão recebendo as permissões. </span>
+
+      ![Compartilhar tipo de registro com o grupo](assets/share-record-type-with-group-expanding-arrow-highlighted.png)
+
    1. Escolha um nível de permissão.
 
    >[!IMPORTANT]
@@ -270,7 +278,8 @@ Você pode remover as permissões dos usuários de um tipo de registro. No entan
 
    Não há notificação para os usuários que foram removidos do acesso ao tipo de registro de que eles não têm mais essas permissões.
 
-<!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
+<!--
+ This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
 
@@ -295,5 +304,8 @@ Users who access a link to a record type to which they do not have permissions c
 1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
-   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
+   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. 
+   
+   will they also get an in-app notification??
+-->
 

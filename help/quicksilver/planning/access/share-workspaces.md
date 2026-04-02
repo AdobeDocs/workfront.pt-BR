@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1064'
 ht-degree: 3%
 
 ---
@@ -24,7 +26,8 @@ ht-degree: 3%
 Você pode compartilhar um espaço de trabalho com outras pessoas para garantir a colaboração ao trabalhar no Adobe Workfront Planning.
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 >[!NOTE]
 >
@@ -67,7 +70,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -124,7 +128,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerações sobre compartilhamento de espaços de trabalho
 
@@ -174,6 +179,10 @@ Para compartilhar um espaço de trabalho com outras pessoas:
    >* Além de equipes, grupos, empresas e funções de trabalho, você pode compartilhar somente com usuários que foram adicionados à Adobe Admin Console. Não é possível adicionar usuários somente do Workfront. Para obter informações, consulte [Gerenciar usuários na Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
    >
    >* Quando você compartilha um espaço de trabalho com um usuário, sua função de trabalho principal <span class="preview">e seu email</span> também são exibidos no campo. Você deve ter a configuração Exibir informações de contato ativada para que o objeto Usuários em seu nível de acesso possa ver o email do usuário.
+
+1. <span class="preview">(Opcional) Ao compartilhar com um grupo, equipe, função ou empresa, passe o mouse sobre o nome da entidade e clique na seta que aponta para a direita para expandir uma lista de usuários que estão recebendo as permissões. </span>
+
+   ![Compartilhar espaço de trabalho com um grupo](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
 1. Selecione um dos seguintes níveis de permissão no menu suspenso:
    * Exibir

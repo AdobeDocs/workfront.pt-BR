@@ -6,9 +6,11 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 54a6e633e903c73a78b36e90fb27edb445dc8d47
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '2016'
 ht-degree: 1%
 
 ---
@@ -37,7 +39,8 @@ Você pode compartilhar uma exibição com outras pessoas para garantir a colabo
 
 
 <!--
-This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
+-->
 
 ## Requisitos de acesso
 
@@ -91,7 +94,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -149,7 +153,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerações ao compartilhar visualizações
 
@@ -214,12 +219,15 @@ Você pode compartilhar exibições que criou ou exibições para as quais tem p
    >
    >* Quando você compartilha uma exibição com um usuário, sua função de trabalho principal <span class="preview">e seu email</span> também são exibidos no campo. Você deve ter a configuração Exibir informações de contato ativada para que o objeto Usuários em seu nível de acesso possa ver o email do usuário.
 
-
    * **Todos no espaço de trabalho podem exibir**: todos os usuários que têm permissões de Exibição ou superiores para espaços de trabalho podem acessar a exibição.
 
 1. No campo **Conceder acesso a este modo de exibição**, comece digitando o nome de um usuário, grupo, equipe, empresa ou função de trabalho e clique nele quando ele for exibido na lista.
 
    ![Compartilhando um modo de exibição com grupos](assets/sharing-a-view-ui-with-groups.png)
+
+1. <span class="preview">(Opcional) Ao compartilhar com um grupo, equipe, função ou empresa, passe o mouse sobre o nome da entidade e clique na seta que aponta para a direita para expandir uma lista de usuários que estão recebendo as permissões. </span>
+
+   ![Compartilhar exibição com a equipe](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
 1. Selecione um dos seguintes níveis de permissão no menu suspenso:
    * Exibir
@@ -294,8 +302,16 @@ Para compartilhar uma exibição publicamente no Workfront Planning:
    >
    >Visualizações sem um ícone de pessoas ou global são visualizações que você criou e não são compartilhadas com outras pessoas. As exibições não compartilhadas só estão visíveis para você.
 
-
 1. (Opcional) Cole o link copiado em um email, mensagem de chat, documento ou comentário do Workfront para compartilhá-lo com outras pessoas.
+
+   <div class="preview">
+
+   Quando outras pessoas abrem uma visualização pública, elas veem as seguintes informações sobre a visualização no cabeçalho:
+
+   * O nome e o ícone da exibição
+   * O nome do tipo de registro que a exibição mostra
+
+   </div>
 
 ## Copiar um link para uma exibição
 

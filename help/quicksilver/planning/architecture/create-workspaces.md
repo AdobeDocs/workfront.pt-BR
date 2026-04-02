@@ -6,20 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 0%
+source-wordcount: '1188'
+ht-degree: 2%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Criar espaços de trabalho
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -45,12 +47,15 @@ Para obter informações gerais sobre espaços de trabalho, consulte [Visão ger
 <tr> 
    <td role="rowheader"><p>Pacote do Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer Workfront e qualquer pacote do Planning</p> <p>Qualquer fluxo de trabalho e qualquer pacote de planejamento</p>
+<p>Qualquer pacote do Workfront ou Workflow</p> 
+<p>Qualquer pacote do Workfront Planning</p>
+<p>Um pacote do Workfront Planning Prime ou superior <span class="preview">para criar vários espaços de trabalho de uma vez</span></p>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
+   <p><span class="preview">Administrador do sistema para criar vários espaços de trabalho de uma só vez usando o conjunto de modelos de práticas recomendadas</p>
    </td> 
   </tr> 
   <tr> 
@@ -65,7 +70,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -120,11 +126,33 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    <td>   <p>You receive Manage permissions to the workspaces you create. </p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Criar um espaço de trabalho
 
-Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para organizar seus objetos no Workfront Planning. Para obter mais informações sobre como editar um espaço de trabalho, consulte [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md).
+Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para organizar seus objetos no Workfront Planning.
+
+Para obter mais informações sobre como editar um espaço de trabalho, consulte [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+Você pode criar espaços de trabalho das seguintes maneiras:
+
+* Criar um espaço de trabalho do zero ou de um modelo
+
+  Para obter informações, consulte a seção [Criar um espaço de trabalho do zero ou de um modelo](#create-a-workspace-from-scratch-or-from-a-template) neste artigo.
+* Crie um espaço de trabalho usando o Planning Designer habilitado por IA. No momento, esse recurso está disponível somente para um número limitado de clientes em um programa do Beta.
+
+  Para obter informações, consulte [Introdução ao Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+
+<div class="preview">
+
+* Criar vários espaços de trabalho usando um pacote de modelos de vários espaços de trabalho de prática recomendada
+
+  Para obter informações, consulte a seção [Criar vários espaços de trabalho usando um conjunto de modelos de vários espaços de trabalho de práticas recomendadas](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) neste artigo
+
+</div>
+
+### Criar um espaço de trabalho do zero ou de um modelo
 
 {{step1-to-planning}}
 
@@ -134,9 +162,9 @@ Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para
 
 1. (Opcional e condicional) Clique em **Visualizar** dentro de qualquer um dos seguintes modelos de espaço de trabalho predefinidos:
 
-   * Básico: Gerenciamento de marketing
-   * Avançado: Gerenciamento de marketing
-   * Enterprise: Gerenciamento de marketing
+   * Básico: Gestão de Marketing
+   * Avançado: Gestão de Marketing
+   * Corporativo: Gestão de Marketing
    * Gerenciamento de vendas
    * Gerenciamento de produtos
 
@@ -192,5 +220,59 @@ Você pode criar um espaço de trabalho e adicionar tipos de registro a ele para
    >Para usuários que estão sendo atualmente migrados para o Adobe Identity Management System (IMS), os espaços de trabalho criados apenas por usuários do Workfront que não são usuários do IMS são exibidos conforme criados pelo **Sistema**.
    >
    >Para obter informações sobre IMS, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
+<div class="preview">
+
+### Criar vários espaços de trabalho usando um pacote de modelos de vários espaços de trabalho de prática recomendada
+
+>[!IMPORTANT]
+>
+>A criação de vários espaços de trabalho de cada vez usando o pacote de modelos de práticas recomendadas estará disponível somente quando os seguintes pré-requisitos forem atendidos:
+>
+>* Sua organização adquiriu um pacote do Workfront Planning Prime ou Ultimate.
+>* Você é um Administrador do sistema
+
+Você pode usar um pacote de modelos de vários espaços de trabalho para criar 6 espaços de trabalho com um clique.
+
+Os modelos incluídos no pacote contêm espaços de trabalho, tipos de registro, registros, exibições e campos para ajudar você a começar a implementação do Planning.
+
+>[!IMPORTANT]
+>
+>Todos os nomes de espaços de trabalho, tipos de registro, campos e registros incluídos no pacote são amostras e não refletem seu próprio ambiente.
+>
+>Recomendamos que você use esse conjunto de modelos como exemplo de uma estrutura do Planning e continue com a criação de objetos que reflitam o fluxo de trabalho de sua organização.
+
+{{step1-to-planning}}
+
+1. Clique em **Criar espaço de trabalho**
+
+   A caixa Criar espaço de trabalho é exibida. Você pode criar um espaço de trabalho do zero ou criá-lo usando um dos modelos disponíveis.
+
+1. Clique em **Revisar configuração do espaço de trabalho** na área **Iniciar aqui (Recomendado)**.
+1. (Opcional) Clique em **Visualizar** dentro de qualquer um dos seguintes modelos de espaço de trabalho predefinidos para abrir a caixa Visualizar para cada modelo:
+
+   * 1.Classificações e taxonomias globais
+
+     O modelo de Classificações e Taxonomias Globais inclui todos os tipos de registro e campos recomendados que você crie em seu ambiente para uma implementação bem-sucedida do Workfront Planning.
+
+     Posteriormente, você poderá vincular ou importar os tipos de registro nesse modelo em outros espaços de trabalho criados.
+   * 2.Fréscopa Marketing Global
+   * 3.Fréscopa Marketing Social
+   * 4.Fréscopa Mídia e RP
+   * 5.Eventos globais da Fréscopa
+   * 6.Fréscopa Liderança da Empresa Executiva
+
+1. Depois de abrir a caixa **Visualizar** para cada modelo de espaço de trabalho, clique em Voltar para voltar à caixa **Criar espaço de trabalho** ou clique em Usar modelos para usar os modelos, incluindo no pacote, e criar espaços de trabalho.
+
+   Os espaços de trabalho são criados e exibidos nas guias **Espaços de trabalho em que estou** e **Todos os espaços de trabalho** para administradores do sistema. Todos os usuários com licenças Padrão verão os espaços de trabalho em sua área Espaços de trabalho depois que um Administrador do sistema criá-los e compartilhá-los com eles.
+
+1. Comece a editar os espaços de trabalho criados e a adicionar tipos de registro, registros, exibições e campos pertinentes à sua organização.
+
+   Para obter mais informações sobre as práticas recomendadas para implementar o Workfront, consulte os artigos na seção [Práticas recomendadas do Adobe Workfront Planning: índice do artigo](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+
+   Para obter informações sobre a edição de espaços de trabalho, consulte [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+</div>
+
 
 
