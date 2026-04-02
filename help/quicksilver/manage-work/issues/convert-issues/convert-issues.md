@@ -8,10 +8,12 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 2%
+source-wordcount: '1541'
+ht-degree: 4%
 
 ---
 
@@ -164,7 +166,8 @@ A tabela a seguir lista as informações do projeto e se ele é transferido do m
  </tbody> 
 </table>
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
@@ -256,3 +259,12 @@ A tabela a seguir ilustra quais campos de problemas estão visíveis nas tarefas
 >[!CAUTION]
 >
 >Se o contato primário de um problema mudar ou se o problema se tornar desvinculado do projeto ou da tarefa depois que o problema for convertido, o nome do originador do problema convertido não será atualizado e exibirá o contato primário original do problema no momento em que ele foi convertido.
+
+## Exibir o problema original e os objetos convertidos das listas de solicitações
+
+Você pode visualizar o problema original e os objetos convertidos na área Solicitações e o widget Minhas solicitações na Página inicial.
+
+Para obter mais informações, consulte os seguintes artigos:
+
+* [Visualizar solicitações enviadas](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [Use o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

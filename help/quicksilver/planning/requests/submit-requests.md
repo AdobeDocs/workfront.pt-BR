@@ -6,10 +6,12 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 2%
+source-wordcount: '2460'
+ht-degree: 1%
 
 ---
 
@@ -51,13 +53,11 @@ Para obter informações sobre como um gerenciador de espaço de trabalho pode c
 <tr> 
    <td role="rowheader"><p>Pacotes Adobe Workfront</p></td> 
    <td> 
-<p>Qualquer pacote do Workfront e qualquer pacote do Planning</p>
-Ou
-<p>Qualquer pacote de fluxo de trabalho e qualquer pacote de planejamento</p>
+<p>Qualquer pacote do Workfront ou Workflow</p>
+<p>Qualquer pacote do Workfront Planning</p>
 <p>Para obter mais informações sobre o que está incluído em cada pacote do Workfront Planning, entre em contato com o representante de conta da Workfront.</p>
    </td> </tr>
-
-</tr> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td><p>Qualquer</p> 
@@ -127,7 +127,9 @@ Para que você possa enviar uma solicitação para um formulário de solicitaç�
 
   Para obter informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
+<!--
+Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
+-->
 
 
 ## Enviar uma solicitação ao Workfront Planning na área Solicitações do Workfront
@@ -178,12 +180,12 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
 
      Os campos a seguir exibem informações de solicitação e registro na área Solicitações e o widget Minhas solicitações na Página inicial:
 
-      * **Assunto**: o nome da solicitação original como adicionado na área Solicitações. Você não pode ocultar ou remover o campo **Assunto** da lista de solicitações.
-      * **Objeto criado**: o nome do registro que foi criado a partir da solicitação como ele é exibido no Planning.
+      * **Assunto**: o nome da solicitação original como adicionado na área Solicitações. Você não pode ocultar ou remover o campo **Assunto** da lista de solicitações. O nome tem um link que abre a página de solicitação no Planning.
+      * **Objeto criado**: o nome do registro que foi criado a partir da solicitação como ele é exibido no Planning. O nome do objeto criado tem um link que abre o registro criado a partir da solicitação.
       * **Tipo de objeto**: o nome do espaço de trabalho e o tipo de registro em que foram criados registros a partir da solicitação no Planning.
       * **Status**: o status do objeto de solicitação.
       * **Formulário de solicitação**: o nome do formulário de solicitação associado ao tipo de registro no Planning.
-     <!--* <span class="preview"**Created object status**: The status of the created record.</span> -->
+      * <span class="preview">**Status do objeto criado**: o status do registro criado.</span>
 
    * Se o formulário de solicitação foi associado a uma aprovação, a solicitação é adicionada à lista Solicitações na área Solicitações do Workfront e ao widget Minhas solicitações com o status **Revisão pendente**. Um novo registro é adicionado à página de tipo de registro somente após ser aprovado pelos aprovadores.
 
@@ -207,17 +209,19 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
    * Filtro
    * Colunas
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
 
-   Para obter informações, consulte [Criar e gerenciar exibições na área Solicitações](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
+   * Grupo
+   * Formatar células
+   * Altura da linha
 
-   <!--   
+   </div>
+
+
+   Para obter informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+   <!-- 
+   Removing this as this is covered at a higher level in the Use enhanced lists article: 
    1. (Optional) From the requests list, do any of the following:
       * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
          ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -281,56 +285,51 @@ Pessoas externas não podem acessar áreas internas da Workfront, como **Solicit
 
    Se o formulário estiver associado a uma aprovação, ele deverá ser aprovado antes de criar um registro.
 
-1. (Opcional) Clique em **Enviar outra solicitação** para adicionar outra solicitação ao mesmo link compartilhado.
+1. (Opcional) Clique em **Enviar outra solicitação** para adicionar outra solicitação usando o mesmo link compartilhado.
 
-<!--
-   * If the request form was not associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget in Home, and a new record is added to the record type associated with the form. This is available only when you log in to Workfront.
-   
-   * If the request form was associated with an approval, the request is added to the Requests list in the Workfront Requests area and My Requests widget. A new record is added to the record type page only after all the approvers have approved it. This is available only when you log in to Workfront.
-   
-      For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   * Se o formulário de solicitação não estava associado a uma aprovação, a solicitação é adicionada à lista Solicitações na área Solicitações do Workfront e o widget Minhas solicitações na Página inicial, e um novo registro é adicionado ao tipo de registro associado ao formulário. Isso está disponível somente quando você faz logon no Workfront.
 
-      >[!IMPORTANT]
-      >
-      >You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. <!--ensure this is correct; asking team in slack
-   
-   
-   * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
-   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
-      >[!NOTE]
-      >
-      >The email and in-app notification are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
-   
-   <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>
+   * Se o formulário de solicitação foi associado a uma aprovação, a solicitação é adicionada à lista Solicitações na área Solicitações do Workfront e o widget Minhas solicitações com um status Revisão pendente. Um novo registro é adicionado à página de tipo de registro somente após ser aprovado por todos os aprovadores. Isso está disponível somente quando você faz logon no Workfront.
 
+     Para obter informações, consulte [Adicionar uma aprovação a um formulário de solicitação](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-1. (Optional) Click **View your request** to open the request in Workfront.
+     >[!IMPORTANT]
+     >
+     >Você pode exibir somente as solicitações submetidas por você ou por qualquer outra pessoa aos espaços de trabalho para os quais você tem pelo menos permissões. Os administradores do Workfront podem exibir todas as solicitações enviadas para qualquer espaço de trabalho no sistema.
 
+   * Você recebe uma notificação no aplicativo e uma notificação por email informando que a solicitação foi enviada com êxito ou para revisão.
+   * Se o formulário de solicitação foi associado a uma aprovação, os aprovadores recebem uma notificação no aplicativo e uma notificação por email para revisar e aprovar a solicitação.
 
-Or
+     >[!NOTE]
+     >
+     >As notificações por email e no aplicativo ficam visíveis somente quando a instância do Workfront de sua organização é integrada à Adobe Unified Experience.
 
-Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.
+   <span class="preview"> Depois que a solicitação foi aprovada e o registro foi criado, os campos Approved by e Approved date exibem informações sobre a aprovação no registro.</span>
 
-   The request details page opens. 
+1. (Opcional) Clique em **Exibir sua solicitação** para abrir a solicitação no Workfront.
 
-   ![Request page with comment](assets/new-request-page-with-comment.png)
+Ou
 
-1. (Optional) Enter a comment in the **Comments** area.
-1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Created object** field. 
+Clique em [Enviar outra solicitação](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) para abrir o formulário e adicionar uma nova solicitação.
 
-   The record's page opens in Workfront Planning. 
+A página de detalhes da solicitação é aberta.
+
+![Solicitar página com comentário](assets/new-request-page-with-comment.png)
+
+1. (Opcional) Insira um comentário na área **Comentários**.
+1. (Condicional) Se o formulário de solicitação não estiver associado a uma aprovação ou se a solicitação tiver sido aprovada, clique no nome da solicitação e, em seguida, clique no nome do registro no campo **Objeto criado**.
+
+   A página do registro é aberta no Workfront Planning.
 
    >[!TIP]
    >
-   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
+   >* Se o nome do registro não foi adicionado ao formulário de solicitação, o nome do registro no campo Registro da solicitação será exibido como **Sem título**.
    >
-   >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+   >* Se o formulário de solicitação estiver associado a uma aprovação, a aprovação deverá ser concedida antes que você possa acessar o registro da página de solicitação.
 
-1. (Optional) Click the name of the **Object type**. 
+1. (Opcional) Clique no nome do **Tipo de objeto**.
 
-   The record type page opens in Workfront Planning. 
-
--->
+   A página de tipo de registro é aberta no Workfront Planning.
 
 ## Criar uma solicitação copiando uma solicitação existente
 

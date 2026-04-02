@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Filtre e agrupe seu trabalho com Prioridades
+title: Filtre, agrupe e classifique seu trabalho com prioridades
 description: Você pode usar filtros para encontrar o trabalho que está procurando e, em seguida, aplicar um agrupamento para mantê-lo organizado.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 4%
+source-wordcount: '653'
+ht-degree: 11%
 
 ---
 
-# Filtre e agrupe seu trabalho com Prioridades
+# Filtre, agrupe e classifique seu trabalho com Prioridades
 
 Você pode usar filtros para encontrar o trabalho que está procurando e, em seguida, aplicar um agrupamento para mantê-lo organizado.
 
@@ -21,9 +21,9 @@ Prioridades exibe os itens de trabalho atribuídos a você. Não é possível ve
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,8 +38,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
    <td> 
-   <p>Solicitação ou superior</p>
-   <p>Colaborador ou superior</p> 
+   <p>Solicitação ou posterior</p>
+   <p>Colaborador ou posterior</p> 
    </td> 
   </tr> 
   <tr> 

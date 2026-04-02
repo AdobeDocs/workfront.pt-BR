@@ -6,14 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 0%
+source-wordcount: '447'
+ht-degree: 4%
 
 ---
 
 # Visão geral dos espaços de trabalho
+
+<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -30,8 +34,11 @@ Um espaço de trabalho é uma coleção de tipos de registro usados por uma unid
 
    * Do zero
    * Uso de um template. Os modelos contêm um número pré-configurado de tipos de registro e seus campos.
+   * Uso da Designer do Planning habilitada por IA. Este recurso atualmente está no Beta.
+   * <span class="preview">Usando um conjunto de modelos de vários espaços de trabalho.</span>
 
   Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
+
 * Os espaços de trabalho são estruturas nas quais suas unidades organizacionais (uma equipe, grupo, departamento ou divisão) trabalham. Elas não podem ser associadas a campos. Somente os tipos de registro em um espaço de trabalho podem ser associados a campos.
 
   Para obter informações, consulte [Visão geral dos tipos de registro](/help/quicksilver/planning/architecture/overview-of-record-types.md).

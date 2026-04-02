@@ -8,10 +8,12 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 6%
+source-wordcount: '1441'
+ht-degree: 4%
 
 ---
 
@@ -21,13 +23,9 @@ ht-degree: 6%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Você pode exibir as solicitações que você ou outra pessoa submeteu, ou as solicitações que você iniciou, mas que você nunca terminou de submeter. As solicitações não concluídas são salvas como rascunhos.
 
@@ -45,7 +43,7 @@ A área Solicitações exibe as seguintes solicitações, dependendo de como voc
   >
   >* Você só pode exibir seus próprios rascunhos de solicitações.
   >* Na nova experiência de solicitação, as solicitações e os rascunhos enviados estão na mesma lista.
-  >* Os rascunhos criados na experiência herdada não aparecem na nova experiência de solicitação.
+  >* Os rascunhos criados na experiência herdada não são exibidos na nova experiência de solicitação.
 
 ## Requisitos de acesso
 
@@ -90,6 +88,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Exibir solicitações enviadas na área Solicitações
 
+Você pode exibir as solicitações enviadas na área Solicitações ou no widget Minhas solicitações na Página inicial.
+
+Para obter informações sobre Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
 A exibição de solicitações enviadas é diferente dependendo se você está usando a experiência de solicitação nova ou herdada.
 
 * [Exibir solicitações enviadas na nova experiência de solicitação](#view-submitted-requests-in-the-new-requesting-experience)
@@ -102,23 +104,15 @@ A exibição de solicitações enviadas é diferente dependendo se você está u
 >* Se você tiver o Workfront Planning, suas solicitações do Workfront e do Planning serão exibidas na mesma lista. As solicitações do Workfront exibem o valor `Issue` na coluna **Tipo de objeto**.
 >* Até 50 solicitações são exibidas na lista na área Solicitações por padrão. Para visualizar mais solicitações, navegue até a parte inferior da lista.
 
-Você pode exibir solicitações enviadas na área Solicitações, que inclui links para registros criados por solicitações do Adobe Workfront Planning no ambiente de Produção <!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment-->.
+Você pode exibir as solicitações enviadas na área Solicitações e no widget Minhas solicitações na Página inicial.
 
 >[!NOTE]
 >
->Os links para objetos criados estão disponíveis na nova experiência de solicitação somente para solicitações do Planning, nos casos em que a própria solicitação criou um registro.
+>Os seguintes objetos têm links da lista de solicitações na área Solicitações e no widget Minhas solicitações, quando você ativa a nova experiência de solicitações:
 >
->Se uma solicitação do Workfront for convertida em um projeto ou outro objeto, um link para esse objeto convertido não estará disponível na lista de solicitações na nova experiência de solicitação.
-
-<!--
-replace the note above with this at release: 
->[!NOTE]
->
->Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
->
->If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
-><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
--->
+>* Solicitações de Planning e Workfront no campo Assunto.
+>* Registros de planejamento criados a partir de solicitações do Planning no campo Objeto criado.
+>* <span class="preview">Tarefas e problemas do Workfront convertidos a partir de solicitações do Workfront no campo Objeto criado, no ambiente Visualização. </span>
 
 Para exibir solicitações que você ou outros usuários enviaram na nova experiência de solicitação:
 
@@ -135,13 +129,13 @@ Para exibir solicitações que você ou outros usuários enviaram na nova experi
    * Filtro
    * Colunas
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
+
+   * Grupo
+   * Formatar células
+   * Altura da linha
+
+   </div>
 
    Para obter mais informações sobre como gerenciar informações na lista de solicitações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -223,7 +217,7 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
    >
    >Se o painel Resumo já estiver aberto, o ícone Abrir resumo será alterado para Fechar resumo.
 
-1. (Opcional e condicional) Clique no ícone **X** no canto superior direito ou no ícone **Fechar resumo** com texto![&#x200B; para fechar o Painel de Resumo.](assets/close-summary-with-text-nwe.png)
+1. (Opcional e condicional) Clique no ícone **X** no canto superior direito ou no ícone **Fechar resumo** com texto![ para fechar o Painel de Resumo.](assets/close-summary-with-text-nwe.png)
 
    Se um problema tiver sido convertido em uma tarefa ou projeto e tiver sido excluído no processo de conversão, o Painel de resumo ficará em branco. Para obter informações sobre a conversão de problemas, consulte [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -292,7 +286,8 @@ Para exibir solicitações que você ou outros usuários enviaram na experiênci
 
 1. Clique em **Rascunhos** para exibir todas as solicitações em rascunho. O Workfront salva um número ilimitado de rascunhos para cada fila de solicitações nesta pasta. Ao informar uma nova solicitação para um tópico da fila que já tem um rascunho, você será solicitado a usar um rascunho existente. Para obter mais informações, consulte [Criar solicitações de rascunhos](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
-   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   <!--
+   Planning tab has been removed and no longer visible in legacy Requests area: 
    (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
       Use **Filters** and **Columns** to update the information in the Planning request list. 
       ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)

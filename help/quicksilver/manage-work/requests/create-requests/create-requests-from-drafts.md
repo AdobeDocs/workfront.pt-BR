@@ -6,9 +6,11 @@ description: Além de usar os rascunhos disponíveis que o Workfront sugere quan
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '855'
 ht-degree: 6%
 
 ---
@@ -58,7 +60,9 @@ Você deve fazer o seguinte antes de criar uma solicitação a partir de um rasc
 
 ## Criar solicitações a partir de rascunhos
 
-O procedimento para criar solicitações de rascunhos difere entre a nova experiência de solicitação e a experiência herdada.
+Você pode criar solicitações a partir de rascunhos para solicitações do Workfront e do Planning.
+
+A criação de solicitações a partir de rascunhos difere entre a nova experiência de solicitação e a experiência herdada.
 
 * [Criar solicitações de rascunhos na nova experiência de solicitação](#create-requests-from-drafts-in-the-new-requesting-experience)
 * [Criar solicitações de rascunhos na experiência de solicitação herdada](#create-requests-from-drafts-in-the-legacy-requesting-experience)
@@ -88,9 +92,14 @@ O procedimento para criar solicitações de rascunhos difere entre a nova experi
 
 1. Após concluir as informações da solicitação, clique em **Enviar**.
 
-   Quando você envia a solicitação, o rascunho é excluído e não pode ser restaurado.
+   Ao enviar a solicitação, o rascunho é substituído pela nova solicitação e não pode ser restaurado como rascunho.
 
 ### Criar solicitações de rascunhos na experiência de solicitação herdada
+
+>[!NOTE]
+>
+>Não é possível criar solicitações de rascunhos de solicitações do Planning usando a experiência herdada.
+
 
 {{step1-to-requests}}
 

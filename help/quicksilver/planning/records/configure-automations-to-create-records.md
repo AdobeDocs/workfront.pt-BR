@@ -6,9 +6,11 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1790'
 ht-degree: 4%
 
 ---
@@ -59,6 +61,7 @@ Para obter informações sobre como criar registros ou objetos usando uma automa
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td><p>Padrão</p>
+   <p>O administrador do sistema terá acesso para configurar automações com base na alteração do valor do campo</p>
    </td> 
   </tr> 
   <tr> 
@@ -74,7 +77,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -131,7 +135,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Configurar uma automação no Workfront Planning
 

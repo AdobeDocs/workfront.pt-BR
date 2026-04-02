@@ -5,9 +5,11 @@ description: As listas aprimoradas usam um formato de tabela para exibir os iten
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '2350'
+source-wordcount: '2913'
 ht-degree: 2%
 
 ---
@@ -63,6 +65,12 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 | Lista de solicitações | <ul><li>Solicitações (somente nova experiência)</li><li>Widget Minhas solicitações na página inicial</li></ul> |
 | Listas de status, prioridades, severidades e taxas de câmbio em Configuração | <ul><li>Configuração > Preferências do Projeto > Status</li><li>Configuração > Preferências do Projeto > Prioridades</li><li>Configuração > Preferências do Projeto > Severidades</li><li>Configuração > Preferências do Projeto > Taxas de Câmbio</li></ul> |
 | <span class="preview">Lista de relatórios</span> | <span class="preview">Relatórios (**Usar pastas compartilháveis** deve estar ativado)</span> |
+| <span class="preview">Lista de funções e taxas de trabalho na Instalação</span> | <span class="preview">Configurar > Cartões de Taxa > selecione um cartão de taxa > Funções e Taxas de Trabalho</span> |
+| <span class="preview">Lista de traduções</span> | <span class="preview">Configuração > Localização</span> |
+| <span class="preview">Lista de instantâneos</span> | <span class="preview">Projeto > Instantâneos</span> |
+| <span class="preview">Lista de recursos para cobrança</span> | <span class="preview">Projeto > Recurso para faturamento</span> |
+| <span class="preview">Novas atribuições avançadas em uma tarefa</span> | <span class="preview">Tarefa > Atribuições > Avançado </span> |
+
 
 ## Adicionar itens a uma lista aprimorada
 
@@ -110,6 +118,9 @@ Você pode usar a barra de ações em uma lista aprimorada para editar itens na 
    * Exibir
    * Editar
    * Excluir
+   * Copiar
+   * Mover para a pasta
+   * Compartilhar
 
    Se nenhuma ação estiver disponível para o item selecionado, a barra de ação exibirá &quot;Nenhuma ação disponível&quot;.
 
@@ -178,15 +189,33 @@ Para adicionar e remover colunas:
 
    A lista atualiza as colunas de acordo com as escolhas feitas.
 
+<div class="preview">
+
+### Alterar a altura da linha em uma exibição
+
+>[!NOTE]
+>
+>Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
+
+1. Clique no ícone **Altura da linha** ![Ícone de altura da linha](assets/row-height-icon.png) em uma lista aprimorada.
+
+   Isso atualiza o comprimento vertical de uma linha. Escolha entre as seguintes opções:
+   * Pequena
+   * Padrão. Esta é a opção padrão.
+   * Médio
+   * Alta
+
+</div>
+
 ## Atualizar elementos de lista aprimorados
 
 Os seguintes elementos são componentes de uma lista aprimorada:
 
-* Exibir: define as colunas, os filtros e os agrupamentos na lista com configurações predefinidas
-* Filtros: limita a quantidade de informações exibidas na lista
-* Agrupamentos: organize os itens da lista de acordo com campos comuns
-* Classificar: organiza os itens em uma lista de acordo com a ordem identificada para um determinado campo
-* Pesquisa: localiza rapidamente um item usando uma palavra-chave de pesquisa
+* **Exibir**: define as colunas, os filtros e os agrupamentos na lista com as configurações predefinidas
+* **Filtros**: limita a quantidade de informações exibidas na lista
+* **Agrupamentos**: organizar os itens da lista de acordo com campos comuns
+* **Classificar**: organiza os itens em uma lista de acordo com a ordem que você identifica para um determinado campo
+* **Pesquisa**: encontra rapidamente um item usando uma palavra-chave de pesquisa
 
 ### Aplicar e criar visualizações
 
@@ -208,102 +237,6 @@ Para aplicar ou criar uma view:
 1. (Opcional) Agrupe os itens na lista. Para obter mais informações, consulte [Agrupar itens em uma lista aprimorada](#group-items-in-an-enhanced-list).
 
    As alterações nas exibições são salvas automaticamente. Na próxima vez que você aplicar essa visualização, as configurações de coluna e filtro permanecerão da maneira definida.
-
-### Filtrar itens em uma lista aprimorada
-
->[!NOTE]
->
->Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
-
-Os filtros ajudam a reduzir a quantidade de informações exibidas na lista.
-
-1. Clique em **Filtro** acima da lista.
-1. Na caixa Filtro, clique em **Adicionar condição**.
-1. Selecione um campo para filtrar.
-1. Selecione um modificador de filtro, como &quot;Tem qualquer um de&quot;, &quot;Não tem nenhum de&quot;, &quot;É antes&quot; ou &quot;É depois de&quot;. As opções do modificador são diferentes dependendo do tipo de campo pelo qual você está filtrando.
-1. Selecione o valor ou os valores do campo. Dependendo do tipo de campo pelo qual você está filtrando, talvez seja solicitado que você selecione o item em uma lista, pesquise por ele ou use um calendário para selecionar um intervalo de datas.
-
-   ![Filtrar em listas aprimoradas](assets/glist-filter-with-options.png)
-
-   O filtro é aplicado automaticamente à lista.
-
-   >[!TIP]
-   >
-   >Para aplicar um curinga de usuário atual, selecione **Eu (usuário conectado)** como o valor do campo. O filtro será aplicado ao usuário que está visualizando a lista. Esse curinga está disponível em campos nos quais o valor é um usuário.
-
-1. Clique em **Adicionar condição** para adicionar outra condição ao filtro.
-
-   É possível unir vários filtros por um conector AND ou OR.
-
-1. Quando o filtro for aplicado, você poderá abrir as opções **Filtro** novamente para alterar as opções de filtro ou limpar todos os filtros.
-
-   Um indicador é exibido no botão **Filtro** quando um filtro é aplicado à lista.
-
-   ![Indicador aplicado de filtro](assets/glist-filter-applied-indicator.png)
-
-### Agrupar itens em uma lista aprimorada
-
->[!NOTE]
->
->Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
-
-Agrupamentos separam os objetos na lista em áreas com base em critérios específicos.
-
-O Workfront fornece um número limitado de agrupamentos predefinidos e você não pode modificá-los.
-
-1. Clique em **Grupo** acima da lista.
-1. Selecione um agrupamento para organizar sua lista.
-
-   ![Selecionar um agrupamento](assets/glist-grouping-choose-a-group-by.png)
-
-1. Clique em **Recolher tudo** para exibir a lista com todos os agrupamentos recolhidos. A opção padrão é exibir a lista com todos os agrupamentos expandidos.
-1. Quando o agrupamento é aplicado, você pode abrir as opções de Grupo novamente para recolher ou expandir todos os agrupamentos de uma vez, alterar o agrupamento para agrupar por um campo diferente ou limpar todos os agrupamentos.
-
-   ![Agrupamento em listas aprimoradas](assets/glist-group-by-due-date-priorities.png)
-
-   Um indicador é exibido no botão **Grupo** quando um agrupamento é aplicado à lista.
-
-   ![Indicador de agrupamento aplicado](assets/glist-grouping-applied-indicator.png)
-
-### Classificar em uma lista aprimorada
-
->[!NOTE]
->
->Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
-
-Para classificar colunas individuais:
-
-1. Passe o mouse sobre a coluna, clique na seta para baixo e selecione **Classificar**.
-
-   Um ícone ao lado de um nome de coluna indica que a lista é classificada pelos valores dessa coluna e a direção da classificação.
-
-   >[!NOTE]
-   >
-   >Algumas colunas podem não ser classificáveis, dependendo da lista.
-
-   ![Classificar por uma coluna](assets/glist-sort-by-column.png)
-
-1. (Opcional) Para classificar seu trabalho em um agrupamento, clique em **Grupo**, vá para a linha do agrupamento aplicado, clique na lista suspensa classificador e selecione uma ordem crescente ou decrescente.
-
-   ![Classificar em um agrupamento](assets/sort-in-groups.png)
-
-   >[!TIP]
-   >
-   >A ordem de classificação é diferente com base no tipo de campo pelo qual você classifica.
-
-### Pesquisar em uma lista aprimorada
-
->[!NOTE]
->
->Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
-
-1. digite a palavra-chave pela qual deseja pesquisar na caixa Pesquisar no canto superior direito da lista. Os resultados são destacados na lista à medida que você digita.
-
-   ![Termo de pesquisa destacado](assets/glist-search-highlighted.png)
-
-   >[!NOTE]
-   >
-   >A pesquisa procura em todas as colunas em todos os itens da lista. Se a lista for longa, a pesquisa incluirá itens que talvez você precise rolar para ver. Quando a lista é filtrada, a pesquisa só verifica o que está sendo exibido no momento.
 
 ### Compartilhar uma exibição
 
@@ -381,3 +314,165 @@ Quando uma exibição é compartilhada com você e você não tem permissão par
    ![Copiar e redefinir opções de exibição](assets/glist-copy-view-shared-with-you.png)
 
 </div>
+
+<div class="preview">
+
+### Aplicar formatação condicional em uma exibição
+
+>[!NOTE]
+>
+>Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
+
+A formatação condicional ajuda a realçar informações importantes na exibição com base em critérios comuns.
+
+1. Clique no ícone **Formatar células** ![Ícone Formatar células](assets/format-cells-icon.png). A caixa **Formatar** é aberta.
+
+1. Clique em **Adicionar condição**.
+1. Na linha **If**, selecione um campo, escolha um valor de campo e adicione um modificador. Os modificadores mudam, dependendo do tipo de campo escolhido.
+
+   >[!TIP]
+   >
+   >Somente os campos visíveis na lista aprimorada estão disponíveis para formatação condicional.
+
+1. (Opcional) Em vez de adicionar um valor de campo, clique no ícone **Comparar com outro campo** ![Comparar com outro campo](assets/compare-to-another-field-icon.png) e escolha um campo cujo valor você deseja comparar ao valor do campo selecionado. Por exemplo, você pode comparar os campos Assunto e Descrição em itens de solicitação.
+
+   >[!TIP]
+   >
+   >Somente os campos visíveis na exibição de lista estão disponíveis para formatação condicional. Os campos comparados devem ser do mesmo tipo.
+
+1. (Opcional) Clique em **Adicionar condição** na linha **If** para adicionar mais condições à mesma regra.
+
+   >[!TIP]
+   >
+   >É possível adicionar até 10 condições em uma regra de condição e até 20 regras para um campo.
+
+1. Clique no conector **Or** entre as condições para alterar para **And** e indicar que várias condições devem ser atendidas ao mesmo tempo. **Or** é o conector padrão.
+1. Na linha **Formatar**, selecione um campo para indicar qual coluna será formatada.
+1. (Opcional) Clique no ícone **círculo de cores** ícone ![ícone de formato de cor](assets/color-format-icon.png) ao lado do campo selecionado, para expandi-lo e escolher outra cor na área **Preenchimento da célula** para alterar a cor do plano de fundo em uma célula ou escolha uma cor na área **Cor do texto** para alterar a cor do texto em uma célula.
+1. Clique no ícone **Formato do texto** ![Ícone do formato do texto](assets/text-format-icon.png) e selecione uma das seguintes opções para formatar o texto em uma célula:
+   * Negrito
+   * Itálico
+
+1. Ative a configuração **Aplicar à linha** para aplicar a formatação à linha inteira do campo que atende às condições.
+
+1. (Opcional) Clique em **Adicionar condição** na caixa **Formatar** para adicionar outra regra a outro campo e repetir as etapas acima.
+1. (Opcional) Clique em **Limpar tudo** para remover toda a formatação.
+1. Clique fora da caixa **Formatar** para fechá-la.
+
+   Isso retornará à exibição em lista.
+A formatação é aplicada imediatamente à exibição de lista.
+Há um ponto azul ao lado do ícone **Formatar células** para indicar que a exibição tem formatação especial aplicada.
+
+</div>
+
+### Filtrar itens em uma lista aprimorada
+
+>[!NOTE]
+>
+>Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
+
+Os filtros ajudam a reduzir a quantidade de informações exibidas na lista.
+
+1. Clique em **Filtro** acima da lista.
+1. Na caixa Filtro, clique em **Adicionar condição**.
+1. Selecione um campo para filtrar.
+1. Selecione um modificador de filtro, como &quot;Tem qualquer um de&quot;, &quot;Não tem nenhum de&quot;, &quot;É antes&quot; ou &quot;É depois de&quot;. As opções do modificador são diferentes dependendo do tipo de campo pelo qual você está filtrando.
+1. Selecione o valor ou os valores do campo. Dependendo do tipo de campo pelo qual você está filtrando, talvez seja solicitado que você selecione o item em uma lista, pesquise por ele ou use um calendário para selecionar um intervalo de datas.
+
+   ![Filtrar em listas aprimoradas](assets/glist-filter-with-options.png)
+
+   O filtro é aplicado automaticamente à lista.
+
+   >[!TIP]
+   >
+   ><span class="preview">Para aplicar um filtro personalizado, selecione uma das seguintes opções para um valor de campo:</span>
+   >
+   ><div class="preview">
+   >
+   >* **Eu (usuário conectado)** para fazer referência ao usuário conectado nos campos que fazem referência aos usuários.
+   >
+   >* **Minhas equipes** ou **Minha equipe doméstica** para consultar suas equipes em campos referentes a equipes.
+   >
+   >* **Meus grupos** ou **Meu grupo doméstico** para fazer referência aos seus grupos em campos que fazem referência a grupos.
+   >
+   >* **Minha empresa** para fazer referência à sua empresa nos campos que fazem referência a empresas.
+   > 
+   >* **Minhas funções** ou **Minha função principal** para fazer referência às suas funções de trabalho em campos que fazem referência às funções.
+   >
+   ></div>
+
+1. Clique em **Adicionar condição** para adicionar outra condição ao filtro.
+
+   É possível unir vários filtros por um conector AND ou OR.
+
+1. Quando o filtro for aplicado, você poderá abrir as opções **Filtro** novamente para alterar as opções de filtro ou limpar todos os filtros.
+
+   Um indicador é exibido no botão **Filtro** quando um filtro é aplicado à lista.
+
+   ![Indicador aplicado de filtro](assets/glist-filter-applied-indicator.png)
+
+### Agrupar itens em uma lista aprimorada
+
+>[!NOTE]
+>
+>Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
+
+Agrupamentos separam os objetos na lista em áreas com base em critérios específicos.
+
+O Workfront fornece um número limitado de agrupamentos predefinidos e você não pode modificá-los.
+
+1. Clique em **Grupo** acima da lista.
+1. Selecione um agrupamento para organizar sua lista.
+
+   ![Selecionar um agrupamento](assets/glist-grouping-choose-a-group-by.png)
+
+1. Clique em **Recolher tudo** para exibir a lista com todos os agrupamentos recolhidos. A opção padrão é exibir a lista com todos os agrupamentos expandidos.
+1. Quando o agrupamento é aplicado, você pode abrir as opções de Grupo novamente para recolher ou expandir todos os agrupamentos de uma vez, alterar o agrupamento para agrupar por um campo diferente ou limpar todos os agrupamentos.
+
+   ![Agrupamento em listas aprimoradas](assets/glist-group-by-due-date-priorities.png)
+
+   Um indicador é exibido no botão **Grupo** quando um agrupamento é aplicado à lista.
+
+   ![Indicador de agrupamento aplicado](assets/glist-grouping-applied-indicator.png)
+
+### Classificar em uma lista aprimorada
+
+>[!NOTE]
+>
+>Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
+
+Para classificar colunas individuais:
+
+1. Passe o mouse sobre a coluna, clique na seta para baixo e selecione **Classificar**.
+
+   Um ícone ao lado de um nome de coluna indica que a lista é classificada pelos valores dessa coluna e a direção da classificação.
+
+   >[!NOTE]
+   >
+   >Algumas colunas podem não ser classificáveis, dependendo da lista.
+
+   ![Classificar por uma coluna](assets/glist-sort-by-column.png)
+
+1. (Opcional) Para classificar seu trabalho em um agrupamento, clique em **Grupo**, vá para a linha do agrupamento aplicado, clique na lista suspensa classificador e selecione uma ordem crescente ou decrescente.
+
+   ![Classificar em um agrupamento](assets/sort-in-groups.png)
+
+   >[!TIP]
+   >
+   >A ordem de classificação é diferente com base no tipo de campo pelo qual você classifica.
+
+### Pesquisar em uma lista aprimorada
+
+>[!NOTE]
+>
+>Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
+
+1. Digite a palavra-chave pela qual deseja pesquisar na caixa Pesquisar no canto superior direito da lista. Os resultados são destacados na lista à medida que você digita.
+
+   ![Termo de pesquisa destacado](assets/glist-search-highlighted.png)
+
+   >[!NOTE]
+   >
+   >A pesquisa procura em todas as colunas em todos os itens da lista. Se a lista for longa, a pesquisa incluirá itens que talvez você precise rolar para ver. Quando a lista é filtrada, a pesquisa só verifica o que está sendo exibido no momento.
+
+

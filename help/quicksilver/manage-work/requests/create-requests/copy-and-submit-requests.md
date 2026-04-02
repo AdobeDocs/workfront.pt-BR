@@ -6,10 +6,12 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1529'
-ht-degree: 6%
+source-wordcount: '1615'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +30,9 @@ Ao submeter solicitações semelhantes com frequência, você pode copiar uma so
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer </p> </td> 
+   <td> <p>Qualquer pacote do Workfront ou Workflow</p>
+
+<p>Qualquer pacote do Workfront Planning para copiar e enviar solicitações do Planning </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -44,10 +48,12 @@ Ao submeter solicitações semelhantes com frequência, você pode copiar uma so
    <td role="rowheader">Permissões de objeto</td> 
    <td><p>Acesso para adicionar solicitações a uma fila de solicitações</p> <p>Exibir permissões ou mais altas na solicitação existente</p> <p>Para obter informações sobre como configurar uma fila de solicitações, consulte <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Criar uma fila de solicitações</a>. </p> </td> 
   </tr>
+  <!--
   <tr> 
-   <td role="rowheader"> Produto</td> 
-   <td> <ul><li>Adobe Workfront</li><li>Você precisa ter o Adobe Workfront Planning para exibir solicitações ou formulários de solicitação do Planning</td> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -58,6 +64,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 ## Pré-requisitos
 
 Você deve ter uma solicitação enviada anteriormente por você ou por alguém em sua organização para poder copiá-la e reenviá-la. Se a solicitação pertencer a outra pessoa, você deverá ter pelo menos acesso para Visualizá-la para poder copiá-la e enviá-la como nova.
+
+Você pode copiar e ressubmeter um dos seguintes tipos de solicitações:
+
+* Uma solicitação Workfront, enviada para uma fila de solicitações
+* Uma solicitação do Workfront Planning enviada para um formulário de solicitação do Planning, caso sua empresa tenha comprado um pacote do Planning.
 
 ## Considerações sobre a cópia e o envio de solicitações como novas
 
@@ -92,7 +103,51 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
   >
   >A solicitação copiada não está vinculada a um objeto de resolução.
 
+## Copiar e enviar solicitações na nova experiência de solicitação
+
+Você pode copiar e enviar solicitações na área Solicitações do Workfront ou a partir do widget Minhas solicitações na Página inicial.
+
+1. Siga um destes procedimentos:
+
+   {{step1-to-requests}}
+
+   1. Para acessar o widget **Minhas solicitações** na **Página inicial**:
+
+   {{step1-to-home}}
+
+   1. Localize o widget **Minhas solicitações**.
+
+      Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
+
+1. Na lista **Solicitações** ou no widget **Minhas solicitações** na Página inicial, passe o mouse sobre a solicitação que você deseja copiar e clique no menu **Mais** próximo ao seu nome.
+
+   ![Mais menu](assets/more-menu.png)
+
+1. Clique em **Copiar**
+
+   Ou
+
+   Clique com o botão direito do mouse na solicitação selecionada e clique em **Copiar**.
+
+   >[!TIP]
+   >
+   >Quando você não tem acesso para criar problemas, você recebe um aviso de que o administrador restringiu você de criar solicitações.
+
+1. (Opcional) Atualize quaisquer informações da solicitação copiada. Os campos disponíveis dependem da Fila de solicitações ou do Formulário de solicitações usado para a solicitação.
+
+   Quando você informa ou altera quaisquer valores de campo na solicitação copiada, ele é salvo como rascunho.
+
+1. Clique em **Enviar**.
+
+   A solicitação copiada é enviada como uma nova solicitação.
+
+   Os objetos de resolução da solicitação original não são copiados.
+
+   Quando você copia e ressubmete uma solicitação do Planning, ele cria outro registro para o tipo de registro associado ao form da solicitação original.
+
 ## Copiar e enviar solicitações na experiência herdada de solicitação
+
+Se sua empresa adquiriu um pacote do Workfront Planning, não é possível copiar e enviar solicitações do Planning na experiência de solicitação herdada.
 
 {{step1-to-requests}}
 
@@ -222,42 +277,6 @@ Você deve ter uma solicitação enviada anteriormente por você ou por alguém 
 
    A solicitação copiada é submetida como uma nova solicitação na fila de solicitações especificada.
 
-## Copiar e enviar solicitações na nova experiência de solicitação
 
-Você pode copiar e enviar solicitações na área Solicitações do Workfront ou a partir do widget Minhas solicitações na Página inicial.
-
-1. Siga um destes procedimentos:
-
-   {{step1-to-requests}}
-
-   1. Para acessar o widget **Minhas solicitações** na **Página inicial**:
-
-   {{step1-to-home}}
-
-   1. Localize o widget **Minhas solicitações**.
-
-      Para obter mais informações sobre o widget Minhas solicitações, consulte [Usar o widget Minhas solicitações](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).
-
-1. Na lista **Solicitações** ou no widget **Minhas solicitações** na Página inicial, passe o mouse sobre a solicitação que você deseja copiar e clique no menu **Mais** próximo ao seu nome.
-
-   ![Mais menu](assets/more-menu.png)
-
-1. Clique em **Copiar**
-
-   Ou
-
-   Clique com o botão direito do mouse na solicitação selecionada e clique em **Copiar**.
-
-   >[!TIP]
-   >
-   >Quando você não tem acesso para criar problemas, você recebe um aviso de que o administrador restringiu você de criar solicitações.
-
-1. (Opcional) Atualize quaisquer informações da solicitação copiada. Os campos disponíveis dependem da Fila de solicitações ou do Formulário de solicitações usado para a solicitação.
-
-   Quando você informa ou altera quaisquer valores de campo na solicitação copiada, ele é salvo como rascunho.
-
-1. Clique em **Enviar**.
-
-   A solicitação copiada é enviada como uma nova solicitação.
 
 

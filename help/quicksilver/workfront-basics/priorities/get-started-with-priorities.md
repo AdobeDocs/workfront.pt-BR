@@ -6,10 +6,12 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 4e3c2e50bb3dc1c49939a4c2064e6d89d20e4c24
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 3%
+source-wordcount: '1018'
+ht-degree: 4%
 
 ---
 
@@ -103,7 +105,7 @@ Após filtrar o trabalho, você pode agrupar itens com base em
 * Status
 * Projeto
 
-Para obter mais informações, consulte [Filtrar e agrupar seu trabalho em Prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+Para obter mais informações, consulte [Filtrar, agrupar e classificar seu trabalho com Prioridades](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Priorizar itens de trabalho importantes com Meu Foco
 
@@ -196,7 +198,7 @@ Na guia Documentos de uma tarefa ou problema, é possível
 
 Use o recurso [!DNL Catch me up] para ver o que você perdeu. Pegar-me resumirá as atualizações, os documentos carregados, as aprovações e outras alterações importantes sobre seus projetos dentro dos seguintes prazos: 24 horas, 3 dias, 7 dias.
 
-Para obter mais informações, consulte [Acompanhar o trabalho em Prioridades](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+Para obter mais informações, consulte [Atualize-se sobre o trabalho em Prioridades](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ![Acompanhe-me](assets/catch-me-up.png)
 
@@ -210,4 +212,5 @@ Você pode exibir atualizações em tempo real na página Detalhes de uma tarefa
 <!--
 ## Considerations
 
-* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.-->
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.
+-->
