@@ -7,10 +7,12 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 13%
+source-wordcount: '1882'
+ht-degree: 12%
 
 ---
 
@@ -21,6 +23,138 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 <!--keep the sentence below for all future quarterly release pages-->
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Novo recurso para aumentar a altura da linha para a exibição em lista
+
+>[!NOTE]
+>
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: quinta-feira, 15 de abril de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
+Adicionamos uma nova configuração para ajustar a altura da linha na exibição em lista.
+
+Para obter mais informações, consulte Gerenciar a exibição de lista (help/quicksilver/planning/views/manage-the-list-view.md).
+
+Para obter informações, consulte [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Adicionar nome do tipo de registro e ícone de exibição a exibições compartilhadas publicamente
+
+>[!NOTE]
+>
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: quinta-feira, 15 de abril de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
+Para garantir que os recipients sempre entendam qual visualização eles receberam quando abriram um link compartilhado publicamente para um tipo de registro, adicionamos o nome do tipo de registro à página de exibição compartilhada, além do ícone de exibição e do nome da exibição.
+
+Para obter informações, consulte [Compartilhar modos de exibição](/help/quicksilver/planning/access/share-views.md)
+
+## Nova funcionalidade de agrupamento adicionada à lista de formulários Solicitação
+
+>[!NOTE]
+>
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: quinta-feira, 15 de abril de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
+Para ajudar você a organizar melhor as informações, adicionamos a capacidade de agrupar itens na página Formulários de solicitação de um tipo de registro.
+
+Antes desse aprimoramento, essa funcionalidade não existia nessa área.
+
+Para obter informações, consulte [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Expandir lista de entidades compartilhadas para exibir usuários
+
+>[!NOTE]
+>
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: quinta-feira, 15 de abril de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
+Agora é possível expandir grupos, equipes, empresas e funções para exibir seus membros quando você compartilha um espaço de trabalho ou uma exibição com eles. Antes desse aprimoramento, as listas de associação estavam disponíveis para esses objetos somente ao compartilhar tipos de registro.
+
+Para obter informações, consulte [Compartilhar espaços de trabalho](/help/quicksilver/planning/access/share-workspaces.md).
+
+## Vários espaços de trabalho, modelo de práticas recomendadas para a implementação do Workfront Planning
+
+>[!NOTE]
+>
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: quinta-feira, 15 de abril de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
+Estamos introduzindo um pacote de modelo para ajudá-lo a simplificar a implementação do Workfront Planning em sua organização. Ao instalar o modelo de estrutura de práticas recomendadas, você pode criar até seis espaços de trabalho que contenham todas as informações necessárias para começar a mover seu planejamento estratégico no Workfront.
+
+O modelo multiespaço de trabalho contém um modelo global que estabelece os tipos de registro principais que você pode usar em qualquer espaço de trabalho personalizado que você criou. Além disso, o modelo inclui mais cinco espaços de trabalho que você pode usar como exemplos e que estão interconectados entre si e com outros objetos no Workfront.
+
+Para obter informações, consulte [Criar espaços de trabalho](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+>[!NOTE]
+>
+> Este aprimoramento está disponível somente para clientes com um pacote Prime ou superior.
+
+## Pesquisa global de objetos do Workfront Planning em qualquer página do Workfront Planning
+
+>[!NOTE]
+>
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: quinta-feira, 15 de abril de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
+Agora é possível pesquisar espaços de trabalho, tipos de registro ou exibições de qualquer página no Workfront Planning usando as seguintes combinações de teclas de qualquer página do Planning:
+
+* CTRL+K para Windows
+* ⌘+K para Mac
+
+Também é possível pesquisar espaços de trabalho, tipos de registro ou exibições na nova caixa de pesquisa adicionada à página inicial do Planning.
+
+Para obter informações, consulte [Editar espaços de trabalho](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+## Aplicar formatação condicional adicional a uma lista de projetos na página conectada de um registro
+
+>[!NOTE]
+>
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: quinta-feira, 15 de abril de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
+Agora é possível aplicar formatação condicional adicional a uma lista de projetos na página conectada de um registro.
+
+Os novos recursos de formatação condicional incluem o seguinte:
+
+* Adicionar cor ao texto
+
+* Colocar o texto em negrito ou itálico em uma célula
+
+* Capacidade de aplicar a formatação condicional a uma linha inteira
+
+Antes desse aprimoramento, existia apenas a capacidade de adicionar cor ao plano de fundo de uma célula.
+
+Para obter informações, consulte [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Adição de nomes personalizados para filtros na exibição de lista
+
+>[!NOTE]
+>
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: quinta-feira, 15 de abril de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
+Adicionamos os seguintes nomes personalizados para um filtro de equipe, grupo, empresa e função na exibição de lista:
+
+* Minha equipe inicial, Minhas equipes
+
+* Meu grupo padrão, Meus grupos
+
+* Minha função principal, Minhas funções
+
+* Minha empresa
+
+Os campos devem existir nos objetos exibidos na visualização para que as opções de filtro fiquem visíveis.
+
+Para obter mais informações, consulte [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Redesign da navegação estrutural
 
