@@ -6,14 +6,16 @@ description: O administrador do Adobe Workfront concede aos usuários acesso par
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 6%
+source-wordcount: '1263'
+ht-degree: 8%
 
 ---
 
 # Compartilhar um problema
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 O administrador do Adobe Workfront concede aos usuários acesso para visualizar ou editar problemas ao atribuir níveis de acesso. Para obter mais informações sobre como conceder acesso a problemas, consulte [Conceder acesso a problemas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
@@ -51,7 +53,7 @@ As permissões são específicas a um item no Workfront e definem quais ações 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -85,7 +87,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
    * Especifique as permissões em qualquer um dos objetos principais do problema: projeto, programa ou portfólio. Os problemas herdam as permissões de seus objetos principais. Para obter informações sobre a exibição de permissões herdadas em objetos, consulte [Exibir permissões herdadas em objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Adicione entidades ao Compartilhamento de projeto em um modelo usado para criar o projeto no qual o problema está. Para obter informações sobre como compartilhar projetos a partir de modelos, consulte [Compartilhar um modelo](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Especifique as permissões em todos os problemas em um projeto ao editá-lo. Para obter informações sobre como gerenciar o acesso a problemas ou solicitações no projeto com base nas permissões de um usuário para o projeto, consulte a seção [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Especifique as permissões em todos os problemas em um projeto ao editá-lo. Para obter informações sobre como gerenciar o acesso a problemas ou solicitações no projeto com base nas permissões de um usuário para o projeto, consulte a seção [](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
@@ -167,7 +169,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
    ![Botão Compartilhar problema](assets/share-issue-button.png)
 
-1. No campo **Conceder acesso ao problema**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o problema e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Conceder acesso ao problema**, comece digitando o nome do usuário, da equipe, da função, do grupo, da empresa <span class="preview">ou do perfil comercial</span> com o qual deseja compartilhar o problema e clique no nome quando ele aparecer na lista suspensa.
 
    >[!TIP]
    >
@@ -201,7 +203,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
    ![Problemas de compartilhamento em massa](assets/bulk-share-issues.png)
 
-1. No campo **Conceder acesso ao problema para**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar os problemas e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Conceder acesso ao problema**, comece digitando o nome do usuário, da equipe, da função, do grupo, da empresa <span class="preview">ou do perfil comercial</span> com o qual deseja compartilhar os problemas e clique no nome quando ele aparecer na lista suspensa.
 
    >[!TIP]
    >

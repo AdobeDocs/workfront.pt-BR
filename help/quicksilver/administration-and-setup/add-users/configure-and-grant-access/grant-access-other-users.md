@@ -5,21 +5,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 2%
+source-wordcount: '738'
+ht-degree: 9%
 
 ---
 
 
-# Conceder acesso aos usuários
+# Conceder acesso a usuários
 
 Como administrador do Adobe Workfront, você pode usar um nível de acesso para definir o acesso de um usuário a outros usuários no Workfront, conforme explicado na [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +31,7 @@ Como administrador do Adobe Workfront, você pode usar um nível de acesso para 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -41,27 +41,27 @@ Como administrador do Adobe Workfront, você pode usar um nível de acesso para 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Configuração do acesso aos usuários
 
-Você pode gerenciar quais informações os usuários podem visualizar e editar para outros usuários usando um nível de acesso padrão ou um nível de acesso personalizado que você cria. Usuários com as licenças padrão de Plano e Trabalho podem exibir as informações de contato de outros usuários. Qualquer um dos usuários a seguir pode criar e editar outros usuários:
+Você pode gerenciar quais informações os usuários podem visualizar e editar para outros usuários usando um nível de acesso padrão ou um nível de acesso personalizado que você cria. Usuários com as licenças padrão Padrão, Plano e Trabalho podem exibir as informações de contato de outros usuários. Qualquer um dos usuários a seguir pode criar e editar outros usuários:
 
 * Um administrador do Workfront.
 
-  Para obter mais informações, consulte [Conceder a um usuário acesso administrativo total](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  Para obter mais informações, consulte [Conceder acesso administrativo total a um usuário](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-* Um usuário com uma licença de Plano padrão que também tem acesso aos usuários, conforme explicado neste artigo.
+* Um usuário com uma licença padrão Padrão ou de Plano que também tem acesso aos usuários, conforme explicado neste artigo.
 
   Os usuários restritos a visualizar apenas os usuários de sua empresa ou da empresa primária têm acesso para editar apenas os usuários que eles podem ver. Para obter mais informações, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Um usuário com uma licença de Plano padrão que também é especificado como gerente de outro usuário.
+* Um usuário com uma licença padrão Padrão ou de Plano que também é especificado como gerente de outro usuário.
 
   Os usuários que recebem acesso de Edição aos usuários em seus níveis de acesso podem gerenciar os usuários subordinados a eles. Para obter informações sobre como gerenciar um usuário, consulte [Exibir o organograma](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
-* Um usuário com uma licença de Plano padrão que criou um usuário pode desativar, excluir ou editar o usuário que ele criou. Para obter informações sobre como criar novos usuários, consulte [Adicionar usuários](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* Um usuário com uma licença padrão Padrão ou de Plano que criou um usuário pode desativar, excluir ou editar o usuário que ele criou. Para obter informações sobre como criar novos usuários, consulte [Adicionar usuários](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Configurar o acesso dos usuários para editar usuários usando um nível de acesso personalizado
 
@@ -81,7 +81,7 @@ Você pode gerenciar quais informações os usuários podem visualizar e editar 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Criar</strong> </td> 
+      <td role="rowheader"><strong>Create</strong> </td> 
       <td> <p>Permite aos usuários criar usuários.<br>Esta opção está habilitada por padrão.</p> 
      <p><b>OBSERVAÇÃO</b>: não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.</p>
         </td>  

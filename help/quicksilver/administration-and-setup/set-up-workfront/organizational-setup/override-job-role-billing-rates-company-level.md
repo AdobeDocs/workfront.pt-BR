@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 0%
+source-wordcount: '436'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ No nível do projeto, você pode ativar uma opção para permitir que as taxas d
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ No nível do projeto, você pode ativar uma opção para permitir que as taxas d
   <tr> 
    <td>[!DNL Adobe Workfront] licença</td> 
    <td><p>[!UICONTROL Padrão]</p>
-       <p>[!UICONTROL Plano]</p></td>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
@@ -83,4 +83,4 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    >[!NOTE]
    >
-   >As taxas de função de trabalho alteradas no projeto afetarão somente esse projeto. As taxas alteradas no nível da empresa afetarão todos os projetos. Para obter mais informações, consulte [Visão geral da substituição de Taxas de cobrança de função de trabalho e do cálculo de Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+   >As taxas de função de trabalho alteradas no projeto afetarão somente esse projeto. As taxas alteradas no nível da empresa afetarão todos os projetos. Para obter mais informações, consulte [Visão geral da substituição de taxas de cobrança e do cálculo de receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).

@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 09bbb257a80c3f85abea9d238900d63c493fea2e
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 20%
+source-wordcount: '488'
+ht-degree: 31%
 
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 20%
 
 <!-- Audited: 2/2024 -->
 
+{{highlighted-preview}}
+
 >[!NOTE]
 >
->As informações neste artigo se referem aos níveis de acesso atuais. Para obter informações sobre os níveis de acesso herdados, consulte [Visão geral dos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>As informações neste artigo se referem aos níveis de acesso atuais. Para obter informações sobre os níveis de acesso legados, consulte [Visão geral dos níveis de acesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada uma das licenças do Adobe Workfront permite para os objetos e áreas no Workfront.
 
@@ -31,13 +33,13 @@ A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada
 
   >[!NOTE]
   >
-  >Quando outro usuário compartilha um objeto, o compartilhador pode especificar permissões que limitam sua capacidade de editá-lo. Para obter mais informações, consulte [Visão geral das permissões de compartilhamento em objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >Quando outro usuário compartilha um objeto, o compartilhador pode especificar permissões que limitam sua capacidade de editá-lo. Para obter mais informações, consulte [Visão geral das permissões de compartilhamento de objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 <table style="table-layout:auto">
     <tr>
         <td></td>
         <td>Padrão</td>
-        <td>Leve</td>
+        <td>Light</td>
         <td>Colaborador</td>
         <td>Externo</td>
     </tr>
@@ -105,6 +107,13 @@ A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada
         <td>Exibir</td>
     </tr>
     <tr>
+        <td><span class="preview">Função no trabalho</span></td>
+        <td>Editar</td>
+        <td>Exibir</td>
+        <td>Exibir</td>
+        <td>Sem acesso</td>
+    </tr>
+    <tr>
         <td>Equipes</td>
         <td>Editar</td>
         <td>Exibir</td>
@@ -134,6 +143,13 @@ A tabela abaixo informa o nível mais alto de acesso (Editar ou Exibir) que cada
     </tr>
     <tr>
         <td>Planejador de cenários</td>
+        <td>Editar</td>
+        <td>Exibir</td>
+        <td>Sem acesso</td>
+        <td>Sem acesso</td>
+    </tr>
+    <tr>
+        <td><span class="preview">Cartões de tarifa</span></td>
         <td>Editar</td>
         <td>Exibir</td>
         <td>Sem acesso</td>
@@ -171,9 +187,10 @@ Você pode encontrar informações detalhadas sobre o que os níveis de acesso p
 * [Conceder acesso a relatórios, painéis e calendários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
 * [Conceder acesso a filtros, visualizações e agrupamentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
 * [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
-* [Conceder acesso às equipes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
+* [Conceder acesso a equipes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [Conceder acesso aos modelos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
 * [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [Conceder acesso ao Gerenciamento de Recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [Conceder acesso ao Planejador de cenários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+* [Conceder acesso aos cartões de taxa](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [Conceder acesso ao Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

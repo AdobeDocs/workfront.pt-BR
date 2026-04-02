@@ -7,14 +7,16 @@ description: O administrador do Adobe Workfront pode conceder acesso para visual
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 3%
+source-wordcount: '918'
+ht-degree: 6%
 
 ---
 
 # Compartilhar um programa
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 
 O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar programas ao atribuir seu nível de acesso. Você deve ter uma licença de Plano para ter acesso para editar um programa. Para obter mais informações, consulte [Conceder acesso aos programas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
@@ -53,7 +55,7 @@ As permissões são específicas para cada item no Workfront e definem quais aç
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +91,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
    ![Botão Compartilhar programa](assets/share-program-button.png)
 
-1. No campo **Conceder acesso ao programa para**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o programa e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Conceder acesso ao programa**, comece digitando o nome do usuário, da equipe, da função, do grupo, da empresa <span class="preview">ou do perfil comercial</span> com o qual deseja compartilhar o programa e clique no nome quando ele aparecer na lista suspensa.
 
    >[!TIP]
    >
@@ -125,7 +127,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
    ![Programas de compartilhamento em massa](assets/bulk-share-programs.png)
 
-1. No campo **Conceder acesso ao programa para**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar os programas e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Conceder acesso ao programa**, comece digitando o nome do usuário, da equipe, da função, do grupo, da empresa <span class="preview">ou do perfil comercial</span> com o qual deseja compartilhar os programas e clique no nome quando ele aparecer na lista suspensa.
 
    >[!TIP]
    >

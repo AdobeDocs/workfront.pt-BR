@@ -5,14 +5,14 @@ description: Além de configurar as despesas de rastreamento e receita, você po
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 1%
+source-wordcount: '1633'
+ht-degree: 3%
 
 ---
 
-# Criar registros de cobrança
+# Criar registros de faturamento
 
 <!-- Audited: 6/2025 -->
 
@@ -22,7 +22,7 @@ Não é possível criar registros de cobrança para tarefas; você só pode cria
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +35,7 @@ Não é possível criar registros de cobrança para tarefas; você só pode cria
   <tr> 
    <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -144,7 +144,7 @@ Você pode adicionar horas a um registro de faturamento quando as seguintes cond
      >[!NOTE]
      >
      >Você pode substituir taxas de faturamento para funções de trabalho no nível do projeto.\
-     >Para obter mais informações, consulte a seção &quot;Substituição das taxas de cobrança da função de trabalho no nível do projeto&quot; no artigo [Visão geral da substituição das taxas de cobrança da função de trabalho e cálculo da Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >Para obter mais informações, consulte a seção &quot;Substituição das taxas de cobrança de função de trabalho no nível do projeto&quot; no artigo [Visão geral da substituição de taxas de cobrança e cálculo de receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * Se a opção Requer que o tempo seja aprovado para este projeto estiver selecionada em Configurações do projeto, o Proprietário do projeto deve aprovar as horas registradas.\
   Para obter mais informações, consulte [Solicitar tempo para ser aprovado para um projeto](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).

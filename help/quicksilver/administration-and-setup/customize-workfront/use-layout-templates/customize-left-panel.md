@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 2%
+source-wordcount: '1228'
+ht-degree: 5%
 
 ---
 
 # Personalizar o painel esquerdo usando um modelo de layout
+
+{{highlighted-preview}}
 
 <!--Audited: 10/2024-->
 
@@ -46,7 +48,7 @@ Após configurar um modelo de layout, você deve atribuí-lo aos usuários para 
   <tr> 
    <td>Pacote do Adobe Workfront</td> 
    <td><p>Qualquer</p>
-       <p>Adicionar aplicativos personalizados ao menu principal só está disponível para organizações licenciadas para o Adobe App Builder.</p></td> 
+       <p>A adição de aplicativos personalizados ao painel esquerdo só está disponível para organizações licenciadas para o Adobe App Builder.</p></td> 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
@@ -86,17 +88,17 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
     </thead> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL Projeto]</td> 
+      <td>[!UICONTROL Project]</td> 
       <td>O nome de um projeto</td> 
       <td>[!UICONTROL Tarefas], [!UICONTROL Detalhes do Projeto], [!UICONTROL Business Case], [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Problemas], [!UICONTROL Riscos], [!UICONTROL Aprovações], [!UICONTROL Linhas de Base], [!UICONTROL Taxas de Cobrança], [!UICONTROL Registros de Cobrança], [!UICONTROL Despesas], [!UICONTROL Horas], [!UICONTROL Balanceador de Carga de Trabalho], [!UICONTROL Pessoas], [!UICONTROL Utilização], [!UICONTROL Detalhes da Fila], [!UICONTROL Regras de Roteamento], [!UICONTROL Tópico de Fila], [!UICONTROL Grupo de Tópicos], [!UICONTROL Métricas], [!UICONTROL Planning]*, [!UICONTROL Aplicativo personalizado]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Tarefa]</td> 
+      <td>[!UICONTROL Task]</td> 
       <td>O nome de uma tarefa</td> 
       <td> [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Detalhes da Tarefa], [!UICONTROL Subtarefa], [!UICONTROL Problemas], [!UICONTROL Horas], [!UICONTROL Aprovações], [!UICONTROL Despesas], [!UICONTROL Predecessoras], [!UICONTROL Aplicativo Personalizado]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Problema]</td> 
+      <td>[!UICONTROL Issue]</td> 
       <td>O nome de um problema</td> 
       <td> [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Detalhes do Problema], [!UICONTROL Horas], [!UICONTROL Aprovações], [!UICONTROL Aplicativo Personalizado]**</td> 
      </tr> 
@@ -111,12 +113,12 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <td>[!UICONTROL Projetos], [!UICONTROL Detalhes do Programa], [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Planejamento]*, [!UICONTROL Aplicativo Personalizado]**</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Modelo]</td> 
+      <td>[!UICONTROL Template]</td> 
       <td>O nome de um modelo de projeto</td> 
       <td>[!UICONTROL Tarefas de Modelo], [!UICONTROL Detalhes de Modelo], [!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Riscos], [!UICONTROL Despesas], [!UICONTROL Pessoas], [!UICONTROL Aprovações], [!UICONTROL Taxas de Cobrança], [!UICONTROL Detalhes da Fila], [!UICONTROL Regras de Roteamento], [!UICONTROL Tópico de Fila], [!UICONTROL Grupo de Tópicos]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Modelo de Tarefa]</td> 
+      <td>[!UICONTROL Template Task]</td> 
       <td>O nome de uma tarefa de modelo</td> 
       <td>[!UICONTROL Atualizações], [!UICONTROL Documentos], [!UICONTROL Detalhes da Tarefa de Modelo], [!UICONTROL Subtarefas], [!UICONTROL Despesas], [!UICONTROL Aprovações], [!UICONTROL Predecessoras]</td>
      </tr>
@@ -128,14 +130,19 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       </tr>
      --> 
      <tr> 
-      <td> [!UICONTROL Registro de Cobrança]</td> 
+      <td> [!UICONTROL Registro de cobrança]</td> 
       <td>O nome de um registro de cobrança para um projeto</td> 
       <td>[!UICONTROL Detalhes de Registro de Cobrança], [!UICONTROL Horas Faturáveis], [!UICONTROL Despesas Faturáveis], [!UICONTROL Receitas Fixas]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Projects]</td> 
-      <td>Projetos <img src="assets/projects-in-main-menu.png"> no menu principal  <img src="assets/main-menu-icon.png"></td> 
+      <td>Projetos <img src="assets/projects-in-main-menu.png"> no [!UICONTROL Menu Principal] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projects]</td> 
+     </tr> 
+     <tr> 
+      <td><span class="preview">[!UICONTROL Recursos]</span></td> 
+      <td><span class="preview">[!UICONTROL Recursos] no [!UICONTROL Menu Principal] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
+      <td><span class="preview">[!UICONTROL Planner] (não pode ser oculto), [!UICONTROL Balanceador de Carga de Trabalho], [!UICONTROL Utilização], [!UICONTROL Pools de Recursos]</span></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Solicitações]</td> 
@@ -143,7 +150,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <td>[!UICONTROL Nova Solicitação], [!UICONTROL Solicitações Enviadas], [!UICONTROL Todas as Solicitações], [!UICONTROL Rascunhos]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Painéis]</td> 
+      <td>[!UICONTROL Dashboards]</td> 
       <td>O nome de um painel</td> 
       <td>[!UICONTROL Meus Painéis], [!UICONTROL Painéis Compartilhados], [!UICONTROL Todos os Painéis]</td> 
      </tr> 
@@ -163,10 +170,25 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <td>[!UICONTROL Balanceador de Carga], [!UICONTROL Atualizações], [!UICONTROL Solicitações de Equipe], [!UICONTROL Configurações de Equipe]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Iteração]</td> 
+      <td>[!UICONTROL Iteration]</td> 
       <td>O nome de uma iteração</td> 
       <td>[!UICONTROL Histórias], [!UICONTROL Problemas], [!UICONTROL Story Board], [!UICONTROL Visão Geral], [!UICONTROL Custom Forms], [!UICONTROL Atualizações] </td> 
      </tr> 
+     <tr> 
+       <td><span class="preview">[!UICONTROL Detalhes do Usuário]</span></td> 
+       <td><span class="preview">O nome de um usuário</span></td> 
+       <td><span class="preview">[!UICONTROL Detalhes], [!UICONTROL Organograma], [!UICONTROL Folga], [!UICONTROL Forms Personalizado], [!UICONTROL Perfis de Negócios], [!UICONTROL Atualizações], [!UICONTROL Balanceador de Carga de Trabalho]</span></td> 
+     </tr>
+     <tr> 
+       <td><span class="preview">[!UICONTROL Cartão de Taxa]</span></td> 
+       <td><span class="preview">O nome de um cartão de taxa</span></td> 
+       <td><span class="preview">[!UICONTROL Taxas e Funções de Trabalho], [!UICONTROL Detalhes do Cartão de Taxa], [!UICONTROL Tipo de Despesa e Taxas]</span></td> 
+     </tr>
+     <tr> 
+       <td><span class="preview">[!UICONTROL Group]</span></td> 
+       <td><span class="preview">O nome de um grupo</span></td> 
+       <td><span class="preview">[!UICONTROL Membros do Grupo], [!UICONTROL Membros do Subgrupo], [!UICONTROL Detalhes do Grupo], [!UICONTROL Preferências de Projeto], [!UICONTROL Preferências de Tarefas e Problemas], [!UICONTROL Folhas de Horas e Horas], [!UICONTROL Subgrupos], [!UICONTROL Status], [!UICONTROL Notificações de Eventos], [!UICONTROL Portfólios], [!UICONTROL Programas], [!UICONTROL Projetos], [!UICONTROL Modelos], [!UICONTROL Excluído Recentemente], [!UICONTROL Restaurado Recentemente], [!UICONTROL Aprovações], [!UICONTROL Empresas], [!UICONTROL Equipes], [!UICONTROL Agendas], [!UICONTROL Perfis de Planilha de Horas], [!UICONTROL Modelos de Layout]</span></td> 
+     </tr>
      <!--
       <tr> 
        <td>Company</td> 
@@ -200,7 +222,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    *Sua empresa deve comprar uma licença adicional para que o Workfront Planning possa adicionar essa área ao painel esquerdo de projetos, portfólios e programas. Para obter mais informações, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 
-   **Os aplicativos personalizados devem ser criados separadamente antes de serem disponibilizados como opções do Menu principal. Para obter mais informações, consulte [Criar um aplicativo personalizado para o Workfront com o Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
+   **Os aplicativos personalizados devem ser criados separadamente antes de serem disponibilizados como opções do painel esquerdo. Para obter mais informações, consulte [Criar um aplicativo personalizado para o Workfront com o Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
 
 1. Na lista **[!UICONTROL Painel esquerdo]**, siga um destes procedimentos para determinar o que os usuários verão no painel esquerdo para a área [!DNL Workfront] ou o tipo de objeto selecionado:

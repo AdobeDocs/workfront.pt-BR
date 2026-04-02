@@ -7,10 +7,10 @@ description: Acompanhar as finanças dos projetos é essencial para gerenciá-lo
 author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 7%
+source-wordcount: '592'
+ht-degree: 11%
 
 ---
 
@@ -24,7 +24,7 @@ Você pode controlar suas finanças com vários campos que capturam orçamento, 
 
 Para obter mais informações, consulte também os seguintes artigos:
 
-* [Glossário da terminologia do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
+* [Glossário de terminologia do Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [Finanças do projeto: índice de artigos](../../../manage-work/projects/project-finances/project-finances-overview.md)
 * [Gerenciar informações na área de finanças do projeto](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 * [Gerenciar finanças da tarefa na seção Detalhes da tarefa](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
@@ -95,7 +95,7 @@ A tabela a seguir mostra algumas das finanças que você pode acompanhar no Work
   </tr> 
   <tr> 
    <td>Taxas de cobrança</td> 
-   <td> <p>É possível estabelecer Taxas de cobrança para usuários ou funções de trabalho.</p> <p>Para obter informações sobre como associar usuários a taxas de cobrança, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar perfil de usuário</a>.</p> <p>Para obter informações sobre como associar funções de trabalho a taxas de cobrança, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Criar e gerenciar funções de trabalho</a>.</p> <p>As Taxas de Cobrança calculam a Receita de seus projetos e tarefas. Você pode sobrepor as taxas de faturamento de função para um projeto ou para uma empresa. </p> <p>Para obter informações sobre substituição de taxas de cobrança em projetos, consulte <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Visão geral da substituição de Taxas de cobrança de função de trabalho e cálculo de Receita em um projeto</a>.</p> <p>Para obter informações sobre como substituir taxas de cobrança para empresas, consulte <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Substituir taxas de cobrança no nível do projeto por taxas de cobrança no nível da empresa</a>.</p> </td> 
+   <td> <p>É possível estabelecer Taxas de cobrança para usuários ou funções de trabalho.</p> <p>Para obter informações sobre como associar usuários a taxas de cobrança, consulte <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Editar perfil de usuário</a>.</p> <p>Para obter informações sobre como associar funções de trabalho a taxas de cobrança, consulte <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Criar e gerenciar funções de trabalho</a>.</p> <p>As Taxas de Cobrança calculam a Receita de seus projetos e tarefas. Você pode sobrepor as taxas de faturamento de função para um projeto ou para uma empresa. </p> <p>Para obter informações sobre substituição de taxas de cobrança em projetos, consulte <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Visão geral da substituição de taxas de cobrança e cálculo de receita em um projeto</a>.</p> <p>Para obter informações sobre como substituir taxas de cobrança para empresas, consulte <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Substituir taxas de cobrança no nível do projeto por taxas de cobrança no nível da empresa</a>.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 

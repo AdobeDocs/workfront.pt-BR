@@ -6,14 +6,17 @@ description: O administrador do Adobe Workfront pode conceder acesso para exibir
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 7%
+source-wordcount: '1222'
+ht-degree: 10%
 
 ---
 
 # Compartilhar uma tarefa
+
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 O administrador do Adobe Workfront pode conceder acesso para exibir ou editar tarefas ao atribuir níveis de acesso. Para obter mais informações sobre como conceder acesso a tarefas, consulte [Conceder acesso a tarefas](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
@@ -51,7 +54,7 @@ As permissões são específicas a um item no Workfront e definem quais ações 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -87,7 +90,7 @@ Você pode compartilhar uma tarefa das seguintes maneiras:
    * Especifique as permissões em qualquer um dos objetos principais da tarefa: projeto, programa ou portfólio. As tarefas herdam as permissões de seus objetos principais. Para obter informações sobre a exibição de permissões herdadas em objetos, consulte [Exibir permissões herdadas em objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Adicione entidades ao Compartilhamento de projeto em um modelo usado para criar o projeto no qual a tarefa está. Para obter informações sobre como compartilhar projetos a partir de modelos, consulte [Compartilhar um modelo](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Especifique as permissões em todas as tarefas em um projeto ao editá-lo.  Para obter informações sobre como gerenciar o acesso a tarefas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Especifique as permissões em todas as tarefas em um projeto ao editá-lo.  Para obter informações sobre como gerenciar o acesso a tarefas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >
@@ -101,7 +104,7 @@ Você pode compartilhar uma tarefa das seguintes maneiras:
 
    ![Botão Compartilhar tarefa](assets/share-task-button.png)
 
-1. No campo **Conceder acesso à tarefa**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar a tarefa e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Conceder acesso à tarefa**, comece digitando o nome do usuário, da equipe, da função, do grupo, da empresa <span class="preview">ou do perfil comercial</span> com o qual deseja compartilhar a tarefa e clique no nome quando ele aparecer na lista suspensa.
 
    >[!TIP]
    >
@@ -138,7 +141,7 @@ Você pode compartilhar uma tarefa das seguintes maneiras:
 
    ![Tarefas de compartilhamento em massa](assets/bulk-share-tasks.png)
 
-1. No campo **Conceder acesso à tarefa para**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar as tarefas e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Conceder acesso à tarefa**, comece digitando o nome do usuário, da equipe, da função, do grupo, da empresa <span class="preview">ou do perfil comercial</span> com o qual deseja compartilhar as tarefas e clique no nome quando ele aparecer na lista suspensa.
 
    >[!TIP]
    >

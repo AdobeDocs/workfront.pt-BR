@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 12%
+source-wordcount: '397'
+ht-degree: 20%
 
 ---
 
 # Visão geral de formulários personalizados
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -30,6 +32,16 @@ Por exemplo, você pode anexar um formulário personalizado chamado &quot;Pesqui
 O designer de formulário tem um espaço de trabalho no estilo da tela de desenho que permite exibir os campos, a tela de desenho e as configurações de campo, tudo ao mesmo tempo. Ela também permite arrastar e soltar campos nas seções ao criar o formulário. É possível redimensionar o lado direito da tela para fornecer mais espaço para as opções de campo.
 
 Para obter mais informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+<div class="preview">
+
+Imagem de exemplo no ambiente de Pré-visualização:
+
+![Designer de formulário de exemplo](assets/form-designer-example-032526.png)
+
+</div>
+
+Imagem de amostra no ambiente de produção:
 
 ![Designer de formulário de exemplo](assets/form-designer-example.png)
 
@@ -52,7 +64,7 @@ Você pode adicionar os seguintes tipos de campos personalizados a um formulári
 * Calculado
 * Data
 * Grupo de caixas de seleção
-* Botões de seleção
+* Botões de opção
 * Texto descritivo
 * Quebra de seção
 * Adobe XD
@@ -81,7 +93,7 @@ Os usuários podem anexar formulários personalizados aos seguintes tipos de obj
 * Despesa
 * Grupo
 * Iteração
-* Registro de Cobrança
+* Registro de cobrança
 
 Para obter mais informações sobre como anexar formulários personalizados a objetos, consulte [Adicionar um formulário personalizado a um objeto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
+source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
 workflow-type: tm+mt
-source-wordcount: '2506'
-ht-degree: 1%
+source-wordcount: '2714'
+ht-degree: 9%
 
 ---
 
 # Adicionar campos calculados a um formulário
 
 <!-- Audited: 5/2025 -->
+
+{{highlighted-preview}}
 
 Você pode adicionar um campo personalizado calculado que use dados existentes para gerar novos dados quando o formulário personalizado for anexado a um objeto.
 
@@ -104,18 +106,18 @@ Para reutilizar um campo personalizado calculado existente:
 
 1. (Condicional) Clique em **Verificar se há conflitos** para revisar todos os objetos que podem ser afetados pela alteração da fórmula neste campo calculado.
 
-   Se dois ou mais formulários contendo o mesmo campo calculado forem anexados a um objeto, as fórmulas deverão ser idênticas em todos os formulários. A edição da fórmula não é permitida se a alteração puder causar um conflito.
+   Se dois ou mais formulários contendo o mesmo campo calculado estiverem anexados a um objeto, as fórmulas devem ser idênticas em todos os formulários. Não é permitido editar a fórmula se a alteração puder causar um conflito.
 
 1. (Opcional) Repita a etapa anterior para adicionar outros campos.
 
    >[!NOTE]
    >
-   >Você pode adicionar até 500 campos e widgets em um único formulário personalizado. No entanto, a degradação do desempenho pode ocorrer quando existem mais de 100 em um formulário, dependendo de sua complexidade.
+   >Você pode adicionar até 500 campos e widgets em um único formulário personalizado. No entanto, a degradação do desempenho pode ocorrer quando houver mais de 100 em um formulário, dependendo da complexidade.
    >
    >
-   >Exemplos de formulários complexos incluem formulários com parâmetros em cascata, campos de dados personalizados calculados e várias opções de valor em um único campo.
+   >Exemplos de formulários complexos incluem os que utilizam parâmetros em cascata, campos de dados calculados personalizados e várias opções de valor em um único campo.
 
-1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
+1. Para salvar as alterações, clique em **Aplicar** e acesse outra seção para continuar criando o formulário.
 
    ou
 
@@ -167,7 +169,23 @@ Para reutilizar um campo personalizado calculado existente:
      </tr> 
      <tr>
       <td>Ativo</td>
-      <td><p>Essa opção está ativada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído dos relatórios, filtros e exibições e não está mais disponível na biblioteca de campos de formulários personalizados.</p></td>
+      <td><p>Essa opção está desabilitada por padrão.<p><p>Quando você define um campo como Inativo, ele é excluído de relatórios, filtros e visualizações, e não está mais disponível na biblioteca de campos dos formulários personalizados.</p></td>
+     </tr>
+     <tr>
+      <td><span class="preview">Permissão automática</span></td>
+      <td><span class="preview"><p>Ative esta opção para permitir que as permissões financeiras venham automaticamente dos campos usados na fórmula. As definições de permissão são mostradas no campo Tipo de permissão financeira, abaixo.</p><p>O acesso é necessário para todos os campos na fórmula. Por exemplo, se dois campos forem usados em um campo calculado, um deles tiver permissão de faturamento aplicada e o segundo tiver permissão de custo aplicada, o usuário deverá ter permissões para visualizar as taxas de faturamento e de custo para ver o valor calculado.</p></span></td>
+     </tr>
+     <tr>
+      <td><span class="preview">Tipo de permissão de finanças</span></td>
+      <td><p><span class="preview">Quando o campo de permissão Automático está desativado, é possível selecionar o tipo de permissão financeira que os usuários devem ter antes de exibir ou editar esse campo personalizado. Qualquer formato é permitido para campos calculados. Os campos usados na fórmula determinam se este campo está ativo. Se o campo de permissão estiver em branco, os campos na fórmula não oferecerão suporte às permissões financeiras.</span></p>
+      <ul span class="preview">
+      <li><p><strong>Nenhuma permissão necessária:</strong> todos os usuários podem ver este campo</p></li>
+      <li><p><strong>Geral:</strong> os usuários devem ter permissões para editar ou exibir Finanças Gerais</p></li>
+      <li><p><strong>Cobrança:</strong> Os usuários devem ter permissões para editar ou exibir taxas de cobrança</p></li>
+      <li><p><strong>Custo:</strong> Os usuários devem ter permissões para editar ou exibir taxas de custo</p></li>
+      </ul>
+      <p><span class="preview">Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir o acesso aos dados financeiros em campos personalizados</a>.</span></p>
+      </td>
      </tr>
     </tbody> 
    </table>
@@ -329,7 +347,7 @@ Um cálculo geralmente começa com uma expressão, seguida por parênteses conte
     </tbody> 
    </table>
 
-1. Para salvar as alterações, clique em **Aplicar** e vá para outra seção para continuar criando o formulário.
+1. Para salvar as alterações, clique em **Aplicar** e acesse outra seção para continuar criando o formulário.
 
    ou
 

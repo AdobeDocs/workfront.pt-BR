@@ -4,14 +4,16 @@ description: Você pode compartilhar um portfólio com outros usuários se tiver
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 3%
+source-wordcount: '896'
+ht-degree: 7%
 
 ---
 
 # Compartilhar um portfólio
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar portfólios ao atribuir seu nível de acesso. Você deve ter uma licença de Plano para ter acesso para editar um portfólio. Para obter mais informações, consulte [Conceder acesso aos portfólios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -49,7 +51,7 @@ As permissões são específicas a um item no Workfront e definem quais ações 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -82,7 +84,7 @@ Para obter mais informações sobre a hierarquia de objetos no Workfront, consul
 
    ![Botão Compartilhar portfólio](assets/share-portfolio-button.png)
 
-1. No campo **Conceder acesso ao portfólio para**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar o portfólio e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Conceder acesso ao portfólio para**, comece digitando o nome do usuário, da equipe, da função, do grupo, da empresa <span class="preview">ou do perfil comercial</span> com o qual deseja compartilhar o portfólio e clique no nome quando ele aparecer na lista suspensa.
 
    >[!TIP]
    >
@@ -115,7 +117,7 @@ Para obter mais informações sobre a hierarquia de objetos no Workfront, consul
 
    ![Portfólios de compartilhamento em massa](assets/bulk-share-portfolios.png)
 
-1. No campo **Conceder acesso ao portfólio para**, comece digitando o nome do usuário, da equipe, da função, do grupo ou da empresa com a qual deseja compartilhar os portfólios e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Conceder acesso ao portfólio para**, comece digitando o nome do usuário, equipe, função, grupo, empresa, <span class="preview">ou perfil comercial</span> com o qual deseja compartilhar os portfólios e clique no nome quando ele aparecer na lista suspensa.
 
    >[!TIP]
    >

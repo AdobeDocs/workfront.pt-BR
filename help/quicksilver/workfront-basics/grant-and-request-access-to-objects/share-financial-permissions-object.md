@@ -6,14 +6,18 @@ description: O administrador do Adobe Workfront pode conceder acesso para exibir
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 7%
+source-wordcount: '587'
+ht-degree: 17%
 
 ---
 
 # Compartilhar permissões financeiras em um objeto
+
+{{highlighted-preview}}
 
 O administrador do Adobe Workfront pode conceder acesso para exibir ou editar dados financeiros ao atribuir seu nível de acesso. Para obter mais informações, consulte [Conceder acesso a dados financeiros](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -23,7 +27,8 @@ Para obter informações sobre o que os usuários em cada nível de acesso podem
 
 ## Requisitos de acesso
 
-<!--drafted for P&P:
+<!--
+drafted for P&P:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,12 +80,13 @@ Para obter informações sobre o que os usuários em cada nível de acesso podem
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou permissões superiores para projetos, tarefas e problemas que incluam pelo menos permissões de Exibir Finanças</p></td> 
+   <td> <p>Exibir permissões ou permissões superiores para projetos, tarefas e problemas que incluam pelo menos permissões de Exibir Finanças</p>
+   <p><span class="preview">Exibir permissões ou permissões superiores para projetos, tarefas e problemas que incluam pelo menos Exibir taxas de faturamento, Exibir taxas de custo ou Exibir permissões financeiras gerais</span></p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,12 +95,12 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 Considere o seguinte ao conceder permissões financeiras a objetos:
 
 * Você pode conceder permissões financeiras a projetos, tarefas e problemas.
-* As permissões podem ser herdadas: se você tiver permissões do View Finance para um projeto, herdará automaticamente permissões do View Finance para as tarefas e problemas no projeto.
+* As permissões podem ser herdadas: se você tiver permissões do View General Finance para um projeto, herdará automaticamente permissões do View General Finance para as tarefas e problemas no projeto.
 
 Para conceder permissões financeiras a um objeto:
 
 1. Vá para uma tarefa, projeto ou problema que você deseja compartilhar com outras pessoas.
-1. Próximo ao nome do objeto, clique no menu Mais ![](assets/more-icon.png) e clique em **Compartilhamento**.
+1. Próximo ao nome do objeto, clique em **Compartilhar**.
 
 1. No campo **Conceder acesso a `<Object name>` para**, comece digitando o nome de um usuário, equipe, função, grupo ou empresa com a qual deseja compartilhar o objeto.
 
@@ -102,16 +108,18 @@ Para conceder permissões financeiras a um objeto:
    >
    >Você pode compartilhar um objeto somente com usuários, equipes, funções ou empresas ativos.
 
-1. Se um menu suspenso for exibido à direita do nome selecionado, clique em uma das seguintes opções que estão disponíveis:
+1. Clique na lista suspensa à direita do nome do usuário e selecione uma das seguintes opções:
 
    * **Exibir**
-   * **Contribuir com ele**
+   * **Contribute**
    * **Gerenciar**
 
-1. No mesmo menu suspenso, clique em **Configurações avançadas** e siga um destes procedimentos:
+1. No mesmo menu suspenso, clique no ícone opções avançadas ao lado do nível de permissão e siga um destes procedimentos:
 
    * Se você selecionou uma das três opções na etapa anterior, verifique se **Exibir Finanças** está selecionado.
    * Se você selecionou **Gerenciar Finanças** na etapa anterior, verifique se **Gerenciar Finanças** está selecionado.
+   * <span class="preview">Para qualquer nível de permissão, selecione **Exibir taxas de cobrança**, **Exibir taxas de custo** e **Exibir finanças gerais** conforme necessário.</span>
+   * <span class="preview">Somente para permissões de **Gerenciar**, selecione **Editar taxas de cobrança**, **Editar taxas de custo** e **Editar finanças gerais** conforme necessário.</span>
 
 1. Clique em **Salvar**.
 
@@ -153,6 +161,42 @@ A tabela a seguir mostra quais permissões financeiras os usuários obtêm ao co
   </tr> 
   <tr> 
    <td>Exibir finanças</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr>
+  <tr> 
+   <td><span class="preview">Editar taxas de faturamento</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Editar taxas de custo</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr>  
+  <tr> 
+   <td><span class="preview">Editar finanças gerais</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr>
+  <tr> 
+   <td><span class="preview">Exibir taxas de faturamento</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Exibir taxas de custo</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr>  
+  <tr> 
+   <td><span class="preview">Exibir finanças gerais</span></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 

@@ -6,9 +6,11 @@ description: É possível compartilhar filtros, visualizações e agrupamentos q
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1194'
 ht-degree: 8%
 
 ---
@@ -17,8 +19,12 @@ ht-degree: 8%
 
 <!-- Audited: 11/2024 -->
 
-<!--(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
-(NOTE: This is linked from the TOC article in WF Basics > permissions section)-->
+<!--
+(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
+(NOTE: This is linked from the TOC article in WF Basics > permissions section)
+-->
+
+<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 O administrador do Adobe Workfront concede aos usuários acesso para visualizar ou editar objetos ao atribuir níveis de acesso. Para obter mais informações sobre como conceder acesso a objetos, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -31,7 +37,7 @@ Quando um filtro, exibição ou agrupamento é compartilhado com você, é poss�
 Para obter informações sobre como criar um filtro, uma exibição ou um agrupamento, consulte os seguintes artigos:
 
 * [Visão geral dos Filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Visão geral dos modos de exibição no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+* [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Visão geral dos agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 ## Requisitos de acesso
@@ -55,7 +61,7 @@ Para obter informações sobre como criar um filtro, uma exibição ou um agrupa
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de exibição ou superior a Filtros, Exibições, Agrupamentos</p>
+   <td> <p>Acesso de visualização ou superior a filtros, visualizações, agrupamentos</p>
    </td> 
   </tr> 
   <tr> 
@@ -85,9 +91,9 @@ Você pode compartilhar visualizações e agrupamentos somente na interface herd
 Compartilhar um filtro usando a interface do construtor padrão:
 
 1. Ir para uma lista de projetos, tarefas ou problemas.
-1. Clique no ícone **Filtro** ícone ![Filtro ícone](assets/filter-nwepng.png).
+1. Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-nwepng.png).
 
-   ![Criador de filtros padrão](assets/new-filters-all-filter-types.png)
+   ![Construtor de filtros padrão](assets/new-filters-all-filter-types.png)
 
 1. Revise as seguintes listas de filtros:
 
@@ -97,15 +103,15 @@ Compartilhar um filtro usando a interface do construtor padrão:
    <tbody>
    <tr>
    <td role="rowheader"><strong>Marcado como favorito</strong></td>
-   <td>Filtros que você marcou como favoritos. Quando você adiciona um filtro aos favoritos, o local original é mostrado abaixo do nome do filtro e fica oculto da lista original, a menos que você o remova como favorito.</td>
+   <td>Filtros que você marcou como favoritos. Quando você adiciona um filtro como favorito, seu local original é mostrado abaixo do nome do filtro e fica oculto na lista original, a menos que você o remova como favorito.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Salvo</strong></td>
-   <td>Os filtros que você mesmo criou e salvou. Por padrão, essa lista exibe os filtros salvos na ordem em que foram salvos mais recentemente, mas os nomes dos filtros podem ser arrastados para reordenar manualmente a lista.</td>
+   <td>Filtros que você criou e salvou a si mesmo. Por padrão, essa lista exibe os filtros salvos na ordem em que foram salvos mais recentemente, mas os nomes dos filtros podem ser arrastados para reordenar manualmente a lista.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Padrões do sistema</strong></td>
-   <td>Filtros padrão do sistema do Workfront, bem como filtros que o administrador do Workfront adicionou à sua lista de filtros, no nível do sistema ou no modelo de layout.</td>
+   <td>Filtros padrão do sistema Workfront, bem como filtros que o administrador do Workfront adicionou à lista de filtros, no nível do sistema ou no modelo de layout.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Compartilhado(s) comigo</strong></td>
@@ -124,11 +130,11 @@ Compartilhar um filtro usando a interface do construtor padrão:
 
    ![Caixa de compartilhamento de filtro](assets/new-filters-share-filter.png)
 
-1. (Opcional) Clique na seta apontando para a direita ao lado do nome de uma entidade para editar suas permissões para o filtro e habilitar a opção **Exibir** ou **Gerenciar**. **Exibição** é o padrão.
+1. (Opcional) Clique na seta ao lado do nome de uma entidade para editar suas permissões para o filtro e habilitar a opção **Exibir** ou **Gerenciar**. **Exibir** é o padrão.
 
    ![Permissões de compartilhamento](assets/new-filters-sharing-permissions.png)
 
-1. (Opcional) Ative ou desative as permissões adicionais para uma entidade executando um dos procedimentos a seguir:
+1. (Opcional) Ative ou desative as permissões adicionais de uma entidade seguindo um destes procedimentos:
 
    1. Clique em **Exibir** e desabilite a opção **Compartilhar**. Esta opção está habilitada por padrão.
    1. Clique em **Gerenciar** e desabilite a opção **Compartilhar** ou **Excluir**. Elas são ativadas por padrão.
@@ -165,16 +171,16 @@ O compartilhamento de filtros, visualizações e agrupamentos na interface herda
 
    ![Compartilhar filtro](assets/share-filter-people-box-nwe-350x458.png)
 
-1. Conclua um dos procedimentos a seguir, dependendo de com quem deseja compartilhar:
+1. Conclua qualquer uma das opções a seguir, dependendo de com quem você deseja compartilhar:
 
-   **Para compartilhar com usuários individuais, equipes, funções, grupos ou empresas:** no campo fornecido, comece a digitar o nome do usuário, equipe, função, grupo ou empresa com a qual deseja compartilhar e clique no nome quando ele aparecer na lista suspensa.\
+   **Para compartilhar com usuários, equipes, funções, grupos ou empresas individuais:** No campo fornecido, comece a digitar o nome do usuário, equipe, função, grupo, empresa <span class="preview">ou perfil comercial</span> com o qual deseja compartilhar e clique no nome quando ele aparecer na lista suspensa.\
    Repita esse processo para compartilhar o acesso com vários usuários, equipes, funções, grupos ou empresas.
 
    >[!TIP]
    >
-   >Compartilhar com grupos dá permissões para o filtro, exibição ou agrupamento aos membros do grupo e de todos os subgrupos.
+   >O compartilhamento com grupos dá permissões para o filtro, exibição ou agrupamento para os membros do grupo e de todos os subgrupos.
 
-   **Para compartilhar com todos os usuários no sistema:** clique no ícone de **Configurações** e clique em **Tornar este item visível em todo o sistema**.\
+   **Para compartilhar com todos os usuários no sistema:** Clique no ícone **Configurações** e em **Tornar isto visível em todo o sistema**.\
    O administrador deve selecionar a opção Compartilhar em todo o sistema para que essa opção fique disponível. Para obter mais informações, consulte os artigos [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) e [Compartilhar relatórios, painéis e calendários](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Condicional) Se estiver compartilhando com usuários individuais, equipes, funções, grupos ou empresas, clique no menu suspenso para definir o nível de acesso que deseja conceder.
@@ -187,7 +193,7 @@ O compartilhamento de filtros, visualizações e agrupamentos na interface herda
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Visualizar o projeto</strong></td> 
-      <td> <p>Selecione essa opção para permitir que os destinatários do compartilhamento usem apenas o Filtro, o Modo de Exibição ou o Agrupamento compartilhado. Quando essa opção é selecionada, os destinatários não podem fazer modificações no item compartilhado.</p> </td> 
+      <td> <p>Selecione esta opção para permitir que os destinatários compartilhados usem somente o Filtro, a Exibição ou o Agrupamento compartilhado. Quando essa opção é selecionada, os destinatários não podem fazer modificações no item compartilhado.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Gerenciar o projeto</strong></td> 

@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 4%
+source-wordcount: '1823'
+ht-degree: 5%
 
 ---
 
@@ -29,7 +31,7 @@ Uma regra de negócios permite aplicar validação a objetos do Workfront e impe
 
 <div class="preview">
 
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
 
 </div>
 
@@ -89,7 +91,7 @@ O formato de uma validação de regra de negócios é &quot;Se a condição defi
 
 A sintaxe das propriedades e outras funções em uma regra de negócios é igual à sintaxe de um campo calculado em um formulário personalizado. Para obter mais informações sobre a sintaxe, consulte [Adicionar campos calculados com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Para obter informações sobre instruções IF, consulte a [&#x200B; visão geral das instruções &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e os [Operadores de condição em campos personalizados calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Para obter informações sobre instruções IF, consulte a [ visão geral das instruções &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e os [Operadores de condição em campos personalizados calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Para obter informações sobre curingas baseados no usuário, consulte [Usar curingas baseados no usuário para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -139,34 +141,51 @@ IF(
 )
 ```
 
+### Habilitar localização em uma Regra de Negócios
 
-<!--
+Se sua organização usar localização personalizada, você deverá habilitar a tradução de uma mensagem de regra de negócios na regra de negócios. Se a tradução não estiver ativada, a mensagem será exibida ao leitor em inglês, mesmo se o texto da mensagem estiver na lista Localização e o navegador do usuário estiver definido no idioma apropriado.
 
-## Scenarios for business rule automation
+Ao configurar a regra, insira a palavra TRADUZIR antes da mensagem e coloque a mensagem entre parênteses.
+
+>[!BEGINSHADEBOX]
+
+Exemplo:
+
+Este exemplo assume que a mensagem &quot;Você não pode editar projetos concluídos&quot; está incluída na área de localização da Configuração e que o navegador do usuário está definido como o idioma localizado.
+
+* `IF({status} = "CPL", "You cannot edit completed projects.") `
+A mensagem é exibida em inglês.
+* `IF({status} = "CPL", TRANSLATE("You cannot edit completed projects."))`
+A mensagem é exibida no idioma localizado.
+
+>[!ENDSHADEBOX]
+
+Para obter informações sobre localização personalizada, consulte [Configurar localização personalizada](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+
+## Cenários para automação de regras de negócios
 
 >[!NOTE]
 >
->Your organization must have a Workflow Ultimate package to use business rule automation.
+>Sua organização deve ter um pacote Ultimate de fluxo de trabalho para usar a automação de regras de negócios.
 
-The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+O formato da automação de uma regra de negócios é &quot;Se a condição definida for atendida, a automação selecionada será acionada&quot;.
 
-Business rule automation formulas do not require an error message
+As fórmulas de automação de regra de negócios não exigem uma mensagem de erro
 
-To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+Para garantir que uma automação seja executada sempre que o objeto e a ação selecionados ocorrerem, como quando um projeto é criado, use a seguinte fórmula:
 
 ```
 IF(true, true)
 ```
 
-To share a project only if that's project has been approved, use a formula like the following:
+Para compartilhar um projeto somente se esse projeto tiver sido aprovado, use uma fórmula como a seguinte:
 
 ```
 IF({status} = "APR", true)
 ```
 
-You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+É possível usar curingas em ações de regras de negócios, conforme descrito na seção [Cenários de validação da regra de negócios](#scenarios-for-business-rule-validation).
 
--->
 
 ## Adicionar uma nova regra de negócios
 
@@ -210,15 +229,15 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * Modelo
    * Folga
    * Conjunto de Recursos
+   * Função no trabalho
+   * Categoria de recurso não trabalhista
+   * Conjunto de Recursos
+   * Folga
+   * Hora
+   * Plano de recrutamento
+   * Modelo
+   * Recurso do plano de recrutamento
 <!--
-   * <span class="preview">Job role</span>
-   * <span class="preview">Non-labor resource category</span>
-   * <span class="preview">Resource Pool</span>
-   * <span class="preview">Time Off</span>
-   * <span class="preview">Hour</span>
-   * <span class="preview">Staffing Plan</span>
-   * <span class="preview">Template</span>
-   * <span class="preview">Staffing Plan Resource</span>
    * <span class="preview">Team</span>
 -->
 
@@ -242,13 +261,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * O &quot;objeto&quot; é o tipo de objeto selecionado ao criar a regra de negócios. Ele é exibido no cabeçalho da caixa de diálogo.
    * A &quot;ação&quot; é o acionador selecionado para a regra: criar, editar ou excluir o objeto.
    * Como o objeto e a ação já estão definidos, você não os inclui na fórmula.
-   * A mensagem de erro personalizada <!--<span class="preview">is included only if the rule is for validation, and </span>--> é exibida ao usuário quando ele aciona a regra de negócios. Ele deve fornecer instruções claras sobre o que deu errado e como corrigir o problema.
+   * A mensagem de erro personalizada <span class="preview"> é incluída somente se a regra for para validação e </span> for exibida ao usuário quando ele acionar a regra de negócios. Ele deve fornecer instruções claras sobre o que deu errado e como corrigir o problema.
 
      É possível incluir um URL estático na mensagem de erro, um link para a documentação ou outras páginas úteis para orientar o usuário sobre como modificar sua ação dentro da restrição da regra.
 
      Neste exemplo, &quot;Saiba mais&quot; vinculará ao URL. `"You are not allowed to add a new project in November.[Learn more](http://url)"` A URL deve estar entre parênteses, mas o texto do link entre parênteses não é necessário. Você pode exibir o URL completo e ele será um link clicável.
 
-   ![Adicionar caixa de diálogo de regra de negócios](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
+   ![Caixa de diálogo Adicionar regra de negócio](assets/add-business-rule-new.png)
 
    Este exemplo é uma regra de negócios para projetos. Se o mês atual for novembro, os usuários não poderão criar novos projetos e a mensagem explica isso.
 
@@ -264,17 +283,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
    Para outros pacotes, essa opção é pré-selecionada.
 
-<!--
+1. <span class="preview">(Condicional) Para automatizar outra ação, selecione a ação. </span>
 
-1. (Conditional) To automate another action,, select the action. 
-
-   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+   <span class="preview">Para obter detalhes sobre essas ações, consulte a seção [Opções de automação de regra de negócios](#business-rule-automation-options) neste artigo.</span>
 
    >[!NOTE]
    >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
-
-   -->
+   ><span class="preview">Sua organização deve estar no pacote Ultimate de Fluxo de Trabalho para usar ações além da validação. Se você não vir essas outras opções, sua organização não estará no pacote Workflow Ultimate.</span>
 
 1. Clique em **Salvar** quando terminar de criar a regra de negócios.
 
@@ -282,24 +297,22 @@ You can use wildcards in business rule actions, as described in the section [Sce
 >
 >Após adicionar uma regra de negócios, você deverá testá-la adicionando, editando ou excluindo o objeto associado para garantir que a regra seja aplicada corretamente.
 
-<!--
-
 <div class="preview">
 
-### Business rule automation options
+### Opções de automação da regra de negócios
 
-   >[!NOTE]
-   >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+>[!NOTE]
+>
+>Sua organização deve estar no pacote Ultimate de fluxo de trabalho para usar ações além da validação. Se você não vir essas outras opções, sua organização não estará no pacote Workflow Ultimate.
 
-You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+É possível definir essas ações como automatizadas quando a regra de negócios for acionada. As ações disponíveis dependem do tipo de objeto selecionado.
 
-|Automation|Further configuration|
+| Automação | Configuração adicional |
 |---|---|
-|Attach a custom form|Select the custom form that you want to add|
-|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+| Anexar um formulário personalizado | Selecione o formulário personalizado que deseja adicionar |
+| Compartilhar o objeto | Selecione as pessoas, funções, grupos, empresas ou níveis de acesso com os quais você deseja compartilhar o objeto. |
 
--->
+</div>
 
 ## Ativar uma regra de negócios
 
@@ -310,3 +323,4 @@ Para ativar uma regra de negócios:
 1. Selecione a regra de negócios na lista de regras e clique no ícone Editar.
 1. Selecione **Sim** para **Está ativo** na caixa de diálogo de regra de negócios.
 1. Clique em **Salvar**.
+

@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 0%
+source-wordcount: '202'
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ Estes artigos explicam como você, como administrador do Adobe Workfront, pode c
 * [Conceder acesso aos problemas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [Conceder acesso a documentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
 * [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
-* [Conceder acesso às equipes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
+* [Conceder acesso a equipes](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [Conceder acesso aos modelos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
 * [Conceder acesso a relatórios, painéis e calendários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
 * [Conceder acesso aos portfólios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
@@ -37,8 +37,10 @@ Estes artigos explicam como você, como administrador do Adobe Workfront, pode c
 * [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [Conceder acesso a filtros, visualizações e agrupamentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
 * [Conceder acesso ao Planejador de cenários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
-* [Conceder acesso ao Gerenciamento de Recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+* [Conceder acesso ao Gerenciamento de recursos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+* [Conceder acesso aos cartões de taxa](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [Conceder acesso ao Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* [Conceder acesso às permissões da marca](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
 
 ## Consulte também
 

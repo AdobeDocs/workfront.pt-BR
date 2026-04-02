@@ -6,10 +6,12 @@ description: É possível exibir ou editar as informações financeiras de uma t
 author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 7%
+source-wordcount: '987'
+ht-degree: 8%
 
 ---
 
@@ -18,6 +20,8 @@ ht-degree: 7%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
+
+{{highlighted-preview}}
 
 É possível exibir ou editar as informações financeiras de uma tarefa acessando a área Visão Geral da seção Detalhes da Tarefa. Há um número limitado de campos que você pode exibir ou editar nessa área.
 
@@ -33,7 +37,8 @@ Para obter informações sobre como editar todas as informações financeiras de
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer</p> </td> 
+   <td> <p>Para usar os Tipos de Custo e Receita por Hora do Usuário e Função e adicionar um índice de horas extras: Workflow Ultimate</p>
+      <p>Para editar todas as outras configurações e usar todos os outros Tipos de receita e custo: qualquer pacote de Workfront ou de fluxo de trabalho</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -55,7 +60,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -77,7 +83,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    <td> <p>View permissions to the task that include View Finance or higher</p> <p>You must have Manage permissions on the task that include Edit Finance to edit financial information on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Editar finanças da tarefa na seção Detalhes da tarefa
 
@@ -117,6 +124,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
         <li> <p>Horas por Valor de Hora Fixo </p> </li> 
         <li> <p> Horas por Valor da Hora do Recurso </p> </li> 
         <li> <p> Horas por Valor da Hora do Perfil</p> </li> 
+        <li> <p> <span class="preview">Usuário e Função por Hora</span></p> </li> 
        </ul> <p>Para obter mais informações sobre o rastreamento de custos, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Rastrear custos</a>. O administrador do Workfront ou um administrador de grupo seleciona a configuração Tipo de custo padrão para as tarefas no seu sistema ou grupo. Para obter informações sobre como definir padrões de projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto do sistema</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -126,13 +134,16 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
         <li> <p> Não Faturável </p> </li> 
         <li> <p>Horas por Valor da Hora do Recurso </p> </li> 
         <li> <p>Horas por Valor da Hora do Perfil </p> </li> 
+        <li> <p> <span class="preview">Usuário e Função por Hora</span></p> </li>
         <li> <p>Horas por Valor de Hora Fixo </p> </li> 
         <li> <p>Horas por Valor da Hora dos Recursos, com Teto </p> </li> 
-        <li> <p>Horas por Valor da Hora do Perfil, com Teto </p> </li> 
+        <li> <p>Horas por Valor da Hora do Perfil, com Teto </p> </li>
+        <li> <p> <span class="preview">Usuário e Função por hora c/ Limite</span></p> </li> 
         <li> <p>Horas por Valor da Hora do Recurso mais Taxa Fixa </p> </li> 
         <li> <p>Horas por Valor da Hora do Perfil mais Taxa Fixa </p> </li> 
+        <li> <p> <span class="preview">Horas por Valor da Hora do Usuário e Função mais Taxa Fixa</span></p> </li>
         <li> <p>Receita com Valor Fixo </p> </li> 
-       </ul> <p>Para obter mais informações sobre o rastreamento da receita, consulte<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Visão Geral de Faturamento e Receita</a>. </p> <p>O administrador do Workfront ou do grupo seleciona a configuração Tipo de receita padrão para as tarefas no seu sistema ou grupo. Para obter informações sobre como definir padrões de projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto do sistema</a>.</p> </td> 
+       </ul> <p>Para obter mais informações sobre o rastreamento da receita, consulte<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Visão Geral de Faturamento e Receita</a> e <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Visão Geral de hierarquia de receita e custo</a>. </p> <p>O administrador do Workfront ou do grupo seleciona a configuração Tipo de receita padrão para as tarefas no seu sistema ou grupo. Para obter informações sobre como definir padrões de projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto do sistema</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Custo Planejado</td> 
@@ -150,8 +161,17 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
       <td role="rowheader">Receita efetiva</td> 
       <td> <p>Este é um cálculo que mostra a receita associada à tarefa com base nas horas reais, no tipo de receita e na taxa horária para usuários ou funções de trabalho. Para obter mais informações sobre o rastreamento de custos, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Rastrear custos</a>.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Índice de horas extras</span></td> 
+      <td><span class="preview"><p>Insira o multiplicador de hora extra da tarefa, por exemplo, 1,5 ou 2,0. O padrão é 1,0 (sem multiplicador). Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Definir uma taxa de horas extras</a>.</p><p>Para ver o campo Proporção de Horas Extras:</p>
+       <ul>
+       <li>O tipo de receita na tarefa deve ser Usuário e Função por hora. Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Visão geral da hierarquia de receita e custo</a>.</li>
+       <li>O campo deve ser ativado no modelo de layout, para a área Finanças na exibição de Detalhes da tarefa. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Personalizar o modo de exibição de Detalhes usando um modelo de layout</a>.</li>
+       </ul>
+      </span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>CPI/SPI/CSI</strong> </td> 
+      <td role="rowheader">CPI/SPI/CSI</td> 
       <td> <p>Estas são métricas de desempenho de tarefa que mostram como sua tarefa está se saindo em um determinado momento. Seus valores são calculados com base no Método de indexação de desempenho do projeto.<br>Para obter mais informações, consulte os seguintes artigos:</p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calcular Índice de Desempenho de Custo (CPI)</a> </p> </li> 
@@ -166,4 +186,4 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
     </tbody> 
    </table>
 
-1. (Condicional) Se você estiver editando os campos na seção Finanças, clique em **Salvar***Alterações**.
+1. (Condicional) Se você estiver editando os campos na seção Finanças, clique em **Salvar alterações**.

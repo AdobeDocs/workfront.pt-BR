@@ -6,10 +6,10 @@ description: As finanças são calculadas em um projeto à medida que ocorrem al
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 0%
+source-wordcount: '1605'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ As finanças são calculadas em um projeto à medida que ocorrem alterações na
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ As finanças são calculadas em um projeto à medida que ocorrem alterações na
   <tr> 
    <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ As taxas de receita podem mudar nos seguintes níveis:
   Para obter mais informações, consulte [Substituir taxas de cobrança de função de trabalho no nível da empresa](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 * O nível do projeto (para funções de trabalho)\
-  Para obter mais informações sobre substituição de taxas de função de trabalho no nível do projeto, consulte o artigo [Visão geral da substituição de taxas de cobrança de função de trabalho e cálculo de Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Para obter mais informações sobre substituição de taxas de função de trabalho no nível do projeto, consulte o artigo [Visão geral da substituição de taxas de cobrança e cálculo de receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 Por exemplo, a taxa de faturamento de um usuário muda durante o curso de um projeto de US$ 50 para US$ 75 por hora e você deseja que todos os dados existentes permaneçam calculados na taxa antiga (US$ 50 e hora). No entanto, quando as finanças do projeto são recalculadas, as tarefas que já têm dados financeiros existentes terão a receita atualizada para refletir a nova taxa de cobrança (de US$ 75 por hora).
 
@@ -112,7 +112,7 @@ Para obter mais informações sobre como criar registros de cobrança, consulte 
 
 Quando as taxas de faturamento são alteradas para funções de trabalho no nível do projeto, é possível preservar a receita existente que já foi calculada no projeto usando várias sobreposições de taxas de faturamento que estão bloqueadas em um intervalo de tempo especificado.
 
-Para obter mais informações sobre o uso de substituições de várias taxas de cobrança, consulte o artigo [Visão geral da substituição de Taxas de cobrança de função de trabalho e cálculo de Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Para obter mais informações sobre o uso de substituições de várias taxas de cobrança, consulte o artigo [Visão geral da substituição de taxas de cobrança e cálculo de receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >

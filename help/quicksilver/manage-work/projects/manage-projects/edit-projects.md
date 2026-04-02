@@ -7,10 +7,12 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '7726'
-ht-degree: 1%
+source-wordcount: '7855'
+ht-degree: 2%
 
 ---
 
@@ -18,9 +20,11 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -48,7 +52,8 @@ Idealmente, você deve editar um projeto quando ele estiver no status Planejando
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer</p> </td> 
+   <td> <p>Para definir taxas de câmbio no nível do sistema para o projeto e preservar taxas de faturamento do projeto: Workflow Ultimate</p>
+      <p>Para editar todas as outras configurações: qualquer pacote de Workfront ou Workflow</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -72,7 +77,8 @@ Idealmente, você deve editar um projeto quando ele estiver no status Planejando
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +107,8 @@ Idealmente, você deve editar um projeto quando ele estiver no status Planejando
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Limitações para editar projetos
 
@@ -361,7 +368,7 @@ Ao selecionar mais de um projeto para editá-los em massa, os seguintes cenário
 Para obter informações sobre o acesso a formulários personalizados, consulte os seguintes artigos:
 
 * [Compartilhar um formulário personalizado](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-* [Organizar e visualizar um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
+* [Organizar e pré-visualizar um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
 
 Para editar informações sobre formulários personalizados ao editar um projeto:
 
@@ -399,11 +406,12 @@ Ao selecionar mais de um projeto para editá-los em massa e no, os seguintes cen
 
 Para editar campos na área Finanças:
 
-
 1. Comece a editar seu projeto conforme descrito acima.
 1. Clique em **Finanças** no painel esquerdo.
 
    ![Área financeira na caixa de edição do projeto](assets/nwe-finance-in-edit-project-box-350x183.png)
+
+   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
 
 1. Atualize as seguintes informações financeiras do projeto:
 
@@ -411,9 +419,17 @@ Para editar campos na área Finanças:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong><span class="preview">Usar taxas de câmbio efetivas na data do sistema</span></strong></td>
+      <td><p><span class="preview">Quando essa opção é selecionada, as taxas de câmbio efetivas no nível do sistema são sempre usadas e as substituições de taxa de câmbio não são permitidas no projeto.</span></p> <p><span class="preview">Você também deve selecionar a <strong>Data da Taxa de Câmbio</strong> de onde começar, quando a opção estiver selecionada.</span></p></td> 
+     </tr>
+     <tr>
+      <td><strong><span class="preview">Preservar informações sobre as taxas de faturamento do projeto</span></strong></td>
+      <td><p><span class="preview">Quando você ativa esta opção, todas as taxas de faturamento de atribuição são permanentemente congeladas para a taxa aplicável mais alta da hierarquia de faturamento. Essa é uma seleção única, e você não pode desativar a opção depois que o projeto tem atribuições ou horas. Após a preservação, as taxas de cobrança de atribuições não podem ser alteradas, editadas ou substituídas em nenhum lugar do projeto.</span></p></td>
+     </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Moeda</strong> </td> 
-      <td> <p> <p>Especifique a moeda do projeto, se for diferente da moeda padrão do sistema. Não é possível alterar a moeda de um projeto se já houver informações financeiras sobre o projeto. Esse campo não estará visível se você só tiver a moeda padrão no sistema. </p> <p>Para obter mais informações sobre moeda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar taxas de câmbio</a>.<br></p> </p> </td> 
+      <td> <p>Especifique a moeda do projeto, se for diferente da moeda padrão do sistema. Não é possível alterar a moeda de um projeto se já houver informações financeiras sobre o projeto. Esse campo não estará visível se você só tiver a moeda padrão no sistema. </p> <p>Para obter mais informações sobre moeda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar taxas de câmbio</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Orçamento</strong> </td> 
@@ -756,7 +772,7 @@ Leve em consideração o seguinte ao editar projetos em massa:
 
   Adicionar um novo gerenciador de recursos ao editar projetos em massa adiciona esse gerenciador a todos os projetos selecionados. Se outros gerentes de recursos estiverem associados aos projetos selecionados, eles permanecerão nos projetos, além do adicionado por meio da edição em massa.
 
-* Quando você seleciona projetos com valores diferentes para o mesmo campo, o campo exibe um indicador &quot;Vários valores&quot; na caixa Editar projetos. Os campos que são caixas de seleção, botões de opção e alternadores têm um indicador de &quot;Vários valores&quot; ao lado deles.
+* Quando você seleciona projetos com valores diferentes para o mesmo campo, o campo exibe um indicador &quot;Vários valores&quot; na caixa Editar projetos. Os campos que são caixas de seleção, botões de opção e botões de alternância têm um indicador “Múltiplos valores” ao lado deles.
 
   ![Indicador de vários valores para datas na caixa de projetos de edição em massa](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
@@ -850,7 +866,8 @@ Para obter mais informações sobre como editar a área de Acesso, consulte a se
 1. Clique em **Salvar**.
 
 
-<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+<!--
+ Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
 ### Edit projects in bulk in the Production environment
 

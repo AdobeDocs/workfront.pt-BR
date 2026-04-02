@@ -7,10 +7,12 @@ description: Como gerente de projeto, você pode usar taxas de faturamento para 
 author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '3691'
-ht-degree: 0%
+source-wordcount: '4542'
+ht-degree: 1%
 
 ---
 
@@ -28,8 +30,8 @@ Este artigo descreve o rastreamento da receita de projetos do. A receita é calc
 
 Considere o seguinte ao trabalhar com taxas de faturamento:
 
-* Você precisa de uma licença Plan ou Standard com acesso Edit to Financial Data para gerenciar taxas de faturamento.\
-  Para obter mais informações sobre como conceder acesso a Dados Financeiros, consulte [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+* Você precisa de uma licença Plan ou Standard com acesso Edit to Financial Data (especificamente taxas de faturamento) para gerenciar taxas de faturamento.
+Para obter mais informações sobre como conceder acesso a Dados Financeiros, consulte [Conceder acesso a dados financeiros](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 * As taxas de cobrança são quantias de receita por unidade de trabalho associada a funções de trabalho ou usuários.
 
@@ -49,10 +51,21 @@ Considere o seguinte ao trabalhar com taxas de faturamento:
 >
 >As taxas que calculam a receita pertencem ao usuário que está registrando o horário ou a suas funções de trabalho.
 
-* [Taxas de Cobrança do Usuário](#user-billing-rates)
-* [Taxas de Cobrança de Funções de Trabalho](#job-role-billing-rates)
-* [Taxas de Cobrança Fixas para projetos ou tarefas](#fixed-billing-rates-for-projects-or-tasks)
-* [Substituir taxas de cobrança](#override-billing-rates)
+### Taxas de cobrança de cartão de taxa
+
+{{ultimate-package}}
+
+Quando você tem acesso para editar cartões de taxa, pode definir cartões de taxa com várias taxas de cobrança por função, com base em atributos como local e grupo ou agência. Os atributos podem ser configurados em até cinco níveis.
+
+Um cartão de taxa deve ser anexado a um projeto para que suas taxas sejam aplicadas. Quando uma taxa é bloqueada no cartão de taxa, ela não pode ser substituída no nível do projeto.
+
+As taxas de cartão de taxa fazem parte da hierarquia para determinar taxas, com base no tipo de receita da tarefa.
+
+Para obter mais informações sobre como criar cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+
+Para obter mais informações sobre a hierarquia de taxas, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
+![Cartão de taxa de amostragem](assets/sample-rate-card-march2026.png)
 
 ### Taxas de Cobrança do Usuário {#user-billing-rates}
 
@@ -64,11 +77,11 @@ Para obter mais informações sobre como criar usuários, consulte o artigo [Adi
 
 ### Taxas de Cobrança de Função de Trabalho {#job-role-billing-rates}
 
-Como administrador do Adobe Workfront, ao criar uma função de trabalho, você pode associá-la a Taxas de cobrança efetivas por data especificando valores para os campos Faturamento por hora e as datas para as taxas.
+Como administrador do Adobe Workfront, ao criar uma função de trabalho, você pode associá-la às Taxas de Faturamento de data efetiva especificando os valores e as datas das taxas.
 
-Você pode definir o valor de uma taxa de cobrança de função de trabalho usando a Moeda base do sistema Workfront ou usando outra moeda personalizada.
+Você pode definir o valor de uma taxa de faturamento de função de trabalho usando a Moeda base do sistema Workfront ou usando outra moeda. Moedas adicionais também devem ser definidas nas taxas de câmbio do sistema.
 
-Para obter mais informações sobre como criar funções de trabalho e substituir sua moeda, consulte o artigo [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Para obter mais informações sobre como criar funções de trabalho, consulte o artigo [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ![Editar taxas de cobrança e custos da função de trabalho](assets/edit-job-role-multiple-billing-rates-new.png)
 
@@ -81,7 +94,24 @@ Além das taxas horárias de usuário e função de trabalho, você também pode
 
 Para obter mais informações sobre como as taxas de cobrança fixas são usadas para calcular a receita, consulte [Visão Geral dos Tipos de Receita da tarefa](#overview-of-task-revenue-types).
 
-### Substituir taxas de cobrança {#override-billing-rates}
+<div class="preview">
+
+### Substituir taxas de faturamento - Pacote de fluxo de trabalho do Ultimate
+
+>[!IMPORTANT]
+>
+>Você pode sobrepor taxas de faturamento associadas a funções de trabalho ou usuários no nível do projeto. Não é possível substituir taxas fixas.
+
+No nível do projeto, é possível:
+
+* Sobrepor uma taxa de faturamento para uma função de trabalho (com atributos aplicados, como local, grupo ou agência).
+* Substituir uma taxa de cobrança para um usuário específico nesse projeto.
+
+As substituições de taxa de cobrança não são genéricas. Por exemplo, você não substituiria &quot;Designer&quot; como uma função. Em vez disso, você substituiria &quot;Designer - Nova York - Agência X&quot; para o período de data efetiva relevante. As sobreposições respeitam a hierarquia de taxas de faturamento, de modo que o sistema sempre as aplica em ordem de precedência.
+
+</div>
+
+### Substituir taxas de cobrança - todos os outros pacotes
 
 >[!IMPORTANT]
 >
@@ -95,7 +125,7 @@ Para obter mais informações sobre como as taxas de cobrança fixas são usadas
 
 * Um projeto específico
 
-  Para obter mais informações sobre como criar taxas de cobrança de função de trabalho específicas para um projeto, consulte o artigo [Visão geral da substituição de Taxas de cobrança de função de trabalho e cálculo de Receita em um projeto](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Para obter mais informações sobre como criar taxas de cobrança de função de trabalho específicas para um projeto, consulte o artigo [Visão geral da substituição de taxas de cobrança e cálculo de receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Rastrear valores de receita
 
@@ -135,10 +165,6 @@ Não é possível exibir a Receita Efetiva no nível da emissão, mas a receita 
 
 *Para Horas efetivas, as taxas do usuário sempre se referem ao usuário que registra as horas ou às taxas de suas funções de trabalho. Para obter informações sobre quando a Workfront usa as taxas do usuário e quando usa as taxas de suas funções de trabalho, consulte a seção [Cálculos de receita](#revenue-calculations) neste artigo.
 
-<!--Note from the table for Planned Revenue line: 
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
-    -->
-
 Por exemplo, se uma tarefa com Tipo de Receita por Hora do Usuário for planejada para durar 2 horas e o usuário atribuído a ela tiver uma taxa horária de US$ 30 por hora, a Receita Planejada da tarefa será de US$ 60. Quando a tarefa for concluída, se o usuário registrar apenas 1,5 hora como o tempo real gasto para concluir a tarefa, o valor da receita real será de US$ 45. Se outro usuário que não estiver atribuído à tarefa registrar a hora, a Receita Efetiva será calculada com base nas Taxas de Cobrança desse usuário.
 
 Você pode registrar a receita das seguintes maneiras:
@@ -155,14 +181,20 @@ Você também pode marcar suas tarefas como &quot;Não faturável&quot;, caso em
 
 ## Visão Geral dos Tipos de Receita da tarefa {#overview-of-task-revenue-types}
 
-Por padrão, o Tipo de receita de todas as novas tarefas é definido de acordo com as Preferências de tarefas e problemas especificadas pelo seu administrador de grupo ou Workfront.\
+Por padrão, o Tipo de receita em todas as novas tarefas é definido de acordo com as Preferências de tarefas e problemas especificadas pelo administrador de grupos ou da Workfront.
+
 Para obter mais informações sobre como definir as preferências de tarefas e problemas para sua instância do Workfront, consulte o artigo [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-O Proprietário do Projeto pode modificar o Tipo de Receita das tarefas e a Receita Fixa dos projetos.\
-Para obter mais informações sobre como especificar a Receita Fixa de um projeto, consulte o artigo [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).\
-Para obter mais informações sobre como especificar o Tipo de Receita de uma tarefa, consulte o artigo [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+O Proprietário do Projeto pode modificar o tipo de receita das tarefas e a Receita Fixa dos projetos.
 
-Você pode aplicar os seguintes Tipos de Receita às suas tarefas ou projetos:
+Para obter mais informações sobre como configurar a Receita Fixa de um projeto, consulte o artigo [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
+Para obter mais informações sobre como configurar o Tipo de receita de uma tarefa, consulte o artigo [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+>[!NOTE]
+>
+><span class="preview">É necessário ter o pacote Workflow Ultimate para disponibilizar o tipo de receita Horas por Hora do Usuário e da Função.</span>
+
+Você pode aplicar os seguintes tipos de receita às suas tarefas ou projetos:
 
 <table border="1" cellspacing="15"> 
  <col> 
@@ -191,6 +223,10 @@ Esse é o Tipo de receita padrão quando você cria uma tarefa.</p> </td>
    <td> <p>Este tipo pode ser usado somente para tarefas.</p> <p>Esse tipo é semelhante a Por hora do usuário, mas usa taxas de função de trabalho em vez de taxas de usuário.</p> <p><strong>OBSERVAÇÃO</strong><br>Uma função de trabalho também pode ter várias taxas de cobrança com datas de efetivação.</p></td> 
   </tr> 
   <tr> 
+   <td> <p><span class="preview">Usuário e função por hora</span></p> </td> 
+   <td> <p><span class="preview">Este tipo pode ser usado somente para tarefas.</span></p> <p><span class="preview">Esse tipo examina as informações do usuário e da função para determinar a taxa apropriada.</span></p></td> 
+  </tr>
+  <tr> 
    <td> <p>Hora do usuário com limite</p> </td> 
    <td> <p>Este tipo pode ser usado somente para tarefas.</p> <p>As tarefas são cobradas por hora, como na Hora do usuário, mas têm uma Quantia máxima que você pode especificar. <br>Por exemplo, se a taxa de cobrança de um usuário for de US$25, mas a Quantia Máxima na tarefa for de US$20 e o usuário fizer o logon em uma hora, a Receita Efetiva na tarefa será de US$20. </p> </td> 
   </tr> 
@@ -199,6 +235,10 @@ Esse é o Tipo de receita padrão quando você cria uma tarefa.</p> </td>
    <td> <p>Este tipo pode ser usado somente para tarefas.</p> <p>Esse tipo é semelhante a Por hora do usuário com Limite, mas usa taxas de função de trabalho em vez de taxas de usuário. </p> </td> 
   </tr> 
   <tr> 
+   <td> <p><span class="preview">Horas por Valor de Hora do Usuário e Função com Limite</span></p> </td> 
+   <td> <p><span class="preview">Este tipo pode ser usado somente para tarefas.</span></p> <p><span class="preview">As tarefas são cobradas por hora, como em Usuário e Função por hora, mas têm uma Quantia máxima que você pode especificar.</span></p></td> 
+  </tr>
+  <tr> 
    <td> <p>Horas por Valor da Hora do Recurso mais Taxa Fixa</p> </td> 
    <td> <p>Este tipo pode ser usado somente para tarefas. </p> <p>As tarefas são cobradas por hora, como na Hora do usuário, mas têm um Valor fixo que pode ser adicionado à taxa do usuário. O Valor Fixo especificado na tarefa pode ser incluído nos registros de cobrança do projeto. O Valor Fixo não é multiplicado pelas horas na tarefa. Somente a taxa de cobrança do usuário. </p> </td> 
   </tr> 
@@ -206,6 +246,10 @@ Esse é o Tipo de receita padrão quando você cria uma tarefa.</p> </td>
    <td> <p>Horas por Valor da Hora do Perfil mais Taxa Fixa</p> </td> 
    <td> <p>Este tipo pode ser usado somente para tarefas. </p> <p>As tarefas são cobradas por hora, como na Função de hora em hora, mas têm um valor fixo adicional que pode ser adicionado à taxa de função. O Valor Fixo especificado na tarefa pode ser incluído nos registros de cobrança do projeto. O Valor Fixo não é multiplicado pelas horas na tarefa. Somente a taxa de cobrança da função de trabalho o faz. </p> </td> 
   </tr> 
+  <tr> 
+   <td> <p><span class="preview">Usuário e função por hora mais fixo</span></p> </td> 
+   <td> <p><span class="preview">Este tipo pode ser usado somente para tarefas.</span></p> <p><span class="preview">As tarefas são cobradas por hora, como em Usuário e Função por hora, mas têm um Valor fixo adicional que pode ser adicionado à taxa. O Valor Fixo especificado na tarefa pode ser incluído nos registros de cobrança do projeto. O Valor Fixo não é multiplicado pelas horas na tarefa.</span></p></td> 
+  </tr>
   <tr> 
    <td> <p>Horas por Valor de Hora Fixo</p> </td> 
    <td> <p>Este tipo pode ser usado somente para tarefas.</p> <p>O Valor Máximo ou Fixo que você define para a tarefa multiplicado pelo número de horas informadas na tarefa (independentemente do usuário ou de suas funções de trabalho) é o valor de faturamento.</p> </td> 
@@ -236,6 +280,7 @@ Para obter mais informações sobre tipos de horas, consulte o artigo [Gerenciar
 ## Cálculos de receita
 
 * [Cálculos de receita para tarefas baseadas em atribuições de Usuário e Função](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)
+* [Cálculos de receita para projetos](#revenue-calculations-for-projects)
 
 ### Cálculos de receita para tarefas baseadas em atribuições de Usuário e Função {#revenue-calculations-for-tasks-based-on-user-and-role-assignments}
 
@@ -246,9 +291,17 @@ Ao calcular a receita de uma tarefa, considere o seguinte:
 * Para Receita Real, se o usuário ou a função de trabalho tiver várias taxas de faturamento com datas de efetivação, a receita da tarefa será a soma das receitas de cada período no qual o usuário tiver feito o logon. A Receita Planejada é baseada nas horas planejadas para os períodos de tempo.
 * No caso de vários atribuídos nas tarefas, os cenários descritos abaixo se aplicam a cada atribuído.
 
-Há uma hierarquia de qual taxa é usada nos cálculos de receita com base nas atribuições de tarefa.
+O sistema usa uma hierarquia para determinar qual taxa é usada nos cálculos de receita com base nas atribuições de tarefa.
 
 Se o administrador do Workfront habilitou a configuração **Atribuir funções de trabalho a entradas de hora manualmente** na área Preferências de folhas de horas e horas e o tempo de logon do usuário no projeto seleciona uma função diferente para associar a esse tempo, a Receita Efetiva da tarefa ou do projeto sempre é calculada com base na função associada à entrada de horas. Para obter informações sobre como habilitar o tempo de log para uma função de trabalho específica, consulte o artigo [Configurar preferências de horas e folha de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+<div class="preview">
+
+Para o tipo de receita Usuário e Função por hora, uma Função de trabalho para faturamento pode ser definida no nível do projeto e no nível da atribuição. Se for definida no nível do projeto para um usuário específico, essa função se propagará automaticamente para todas as atribuições desse usuário durante o período de efetivação ao qual você a aplicou. Você ainda pode sobrepor essa taxa no nível da atribuição, se necessário. Por exemplo, a função de trabalho principal de um usuário é Designer, mas você a definiu como Função de trabalho para faturamento em um projeto como Designer sênior para o mês de agosto. Todas as tarefas às quais estiverem atribuídos em agosto usarão automaticamente a taxa de cobrança do Designer sênior.
+
+No entanto, em uma tarefa específica, você pode substituir a função apenas para essa atribuição, para refletir o trabalho que está sendo faturado. Dessa forma, o sistema oferece suporte à consistência em todo o projeto e à flexibilidade no nível da atribuição. Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) e [Criar atribuições avançadas](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+
+</div>
 
 Os cenários a seguir existem ao calcular a receita da tarefa com base no Tipo de Receita e na natureza da atribuição da tarefa:
 
@@ -270,21 +323,22 @@ Os cenários a seguir existem ao calcular a receita da tarefa com base no Tipo d
      <td role="rowheader">Taxa por hora de faturamento para Receita Planejada</td> 
      <td>$ 0,00</td> 
      <td> Se um usuário tiver uma taxa de faturamento em seu perfil, essa taxa será usada para calcular a Receita planejada. Caso contrário, será usada a taxa de cobrança do sistema da função de trabalho principal. <br><p><b>OBSERVAÇÃO</b> O usuário pode ser atribuído à tarefa com uma de suas funções de trabalho secundárias, mas a taxa da função de trabalho primária é usada aqui.</p><p>Se a função do usuário tiver sido alterada durante a atribuição, as taxas corretas serão aplicadas quando as finanças do projeto forem recalculadas.</p></td> 
-     <td><p><span class="preview">Se um cartão de taxa estiver anexado ao projeto, a Receita Planejada será calculada com base na função de trabalho do cartão de taxa.</span></p> <p><span class="preview">As taxas de cobrança podem ser substituídas no nível do projeto.</span></p></td> 
+     <td>A taxa de cobrança do sistema da função de trabalho atribuída à tarefa é usada para calcular a Receita Planejada. As taxas de cobrança podem ser substituídas no nível do projeto.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Taxa por hora de faturamento para Receita Efetiva</td> 
-     <td>Se o usuário que registrar as horas tiver uma taxa de faturamento em seu perfil, essa taxa será usada. 
-     <br><span class="preview">Quando o horário é registrado para um usuário ou função que tem uma atribuição específica de localização nas atribuições avançadas, a taxa da localização é usada.</span>
+     <td>Se o usuário que registrar as horas tiver uma taxa de faturamento em seu perfil, essa taxa será usada.
      <br>Caso contrário, a taxa de cobrança da função de trabalho principal será usada. Se não houver taxa de faturamento associada ao usuário ou à sua função principal, a Receita real será de US$ 0,00. <br><p><b>Nota</b>
 
   Somente as taxas associadas ao usuário que registra o tempo são consideradas para o cálculo, mesmo quando outro usuário é atribuído à tarefa.</p></td>
-  <td>Se o usuário que registrar as horas tiver uma taxa de faturamento em seu perfil, essa taxa será usada. <br><span class="preview">Quando o horário é registrado para um usuário ou função que tem uma atribuição específica de localização nas atribuições avançadas, a taxa da localização é usada.</span><br>Caso contrário, a taxa de cobrança da função de trabalho principal será usada. Se não houver taxa de faturamento associada ao usuário ou à sua função principal, a Receita real será de US$ 0,00. <br><p><b>Nota</b>
+
+  <td>Se o usuário que registrar as horas tiver uma taxa de faturamento em seu perfil, essa taxa será usada. <br>Caso contrário, a taxa de cobrança da função de trabalho principal será usada. Se não houver taxa de faturamento associada ao usuário ou à sua função principal, a Receita real será de US$ 0,00. <br><p><b>Nota</b>
 
   Somente as taxas associadas ao usuário que registra o tempo são consideradas para o cálculo, mesmo quando outro usuário é atribuído à tarefa.</p></td>
+
   <td>Se o usuário que registrar as horas tiver uma taxa de faturamento em seu perfil, essa taxa será usada. Caso contrário, a taxa de cobrança da função de trabalho principal será usada.<br><p><b>Nota</b>
 
-  Se o tempo de logon do usuário não tiver uma taxa de faturamento associada a ele e não tiver uma função de trabalho ou uma taxa de faturamento para sua função de trabalho, a taxa da função de trabalho associada à tarefa será usada. Se não houver taxa de cobrança para essa função, a receita será de US$ 0,00</p></td>
+  Se o tempo de logon do usuário não tiver uma taxa de faturamento associada a ele e não tiver uma função de trabalho ou uma taxa de faturamento para sua função de trabalho, a taxa da função de trabalho associada à tarefa será usada. Se não houver taxa de cobrança para essa função, a receita será de US$ 0,00.</p></td>
   </tr> 
    </tbody> 
   </table>
@@ -307,69 +361,27 @@ Os cenários a seguir existem ao calcular a receita da tarefa com base no Tipo d
      <td role="rowheader">Taxa por hora de faturamento para Receita Planejada</td> 
      <td>$ 0,00</td> 
      <td><p>A Workfront analisa a função de trabalho que o usuário desempenha na tarefa para calcular a Receita planejada. <br>Se o usuário não estiver associado a nenhuma função na tarefa, a Receita será de $0,00.</p> <p><strong>OBSERVAÇÃO</strong><br>Se a função do usuário tiver sido alterada durante a atribuição, as taxas corretas serão aplicadas quando as finanças do projeto forem recalculadas.</p> </td> 
-     <td><p><span class="preview">Se um cartão de taxa estiver anexado ao projeto, a Receita Planejada será calculada com base na função de trabalho do cartão de taxa.</span></p> <p><span class="preview">As taxas de cobrança podem ser substituídas no nível do projeto.</span></p></td> 
+     <td>A taxa de cobrança da função de trabalho atribuída à tarefa é usada para calcular a Receita Planejada. As taxas de cobrança podem ser substituídas no nível do projeto.</td> 
     </tr> 
     <tr> 
      <td role="rowheader">Taxa por hora de faturamento para Receita Efetiva</td> 
-     <td>O Workfront usa a taxa de cobrança da função de trabalho principal do usuário que está registrando o tempo. <br><span class="preview">Quando o horário é registrado para um usuário ou função que tem uma atribuição específica de localização nas atribuições avançadas, a taxa da localização é usada.</span> <br>Se o usuário que estiver registrando o horário não tiver uma função de trabalho associada a ele, ou se a função de trabalho principal não tiver uma taxa de cobrança, a Receita Efetiva será de $0,00. </td> 
-     <td> Se o usuário que registra a hora estiver atribuído à tarefa, a taxa de cobrança da função de trabalho associada ao usuário na tarefa será usada para calcular a Receita Efetiva. <br><span class="preview">Quando o horário é registrado para um usuário ou função que tem uma atribuição específica de localização nas atribuições avançadas, a taxa da localização é usada.</span> <br>Caso contrário, a taxa de cobrança da função de trabalho principal será usada. Se o usuário não tiver uma função de trabalho principal ou se sua função de trabalho principal não tiver uma taxa de cobrança, a Receita Real será de US$ 0,00. </td> 
+     <td>O Workfront usa a taxa de cobrança da função de trabalho principal do usuário que está registrando o tempo. <br>Se o usuário que estiver registrando o horário não tiver uma função de trabalho associada a ele, ou se a função de trabalho principal não tiver uma taxa de cobrança, a Receita Efetiva será de $0,00. </td> 
+     <td> Se o usuário que registra a hora estiver atribuído à tarefa, a taxa de cobrança da função de trabalho associada ao usuário na tarefa será usada para calcular a Receita Efetiva. <br>Caso contrário, a taxa de cobrança da função de trabalho principal será usada. Se o usuário não tiver uma função de trabalho principal ou se sua função de trabalho principal não tiver uma taxa de cobrança, a Receita Real será de US$ 0,00. </td> 
      <td>Se uma das funções de trabalho do usuário que está registrando o tempo for atribuída à tarefa, essa taxa de função de trabalho será usada. Se a função de trabalho atribuída à tarefa não estiver associada ao usuário que registra o tempo, a taxa de cobrança da função principal do usuário será usada para calcular a Receita Efetiva. Se o usuário não tiver uma função de trabalho ou se não houver nenhuma taxa associada à função de trabalho principal, a taxa da função de trabalho atribuída à tarefa será usada. </td> 
     </tr> 
    </tbody> 
   </table>
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>Ideal table but does not come across Markdown</p>
-<table style="table-layout:auto">
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-<col>
-<tbody>
-<tr>
-<td colspan="3">Revenue Type = User Hourly</td>
-<td colspan="4">Revenue Type = Role Hourly</td>
-</tr>
-<tr>
-<td> <p> </p> </td>
-<td> <p><strong>No Assignment</strong> </p> </td>
-<td> <p><strong>User Assignment</strong> </p> </td>
-<td> <p><strong>Job Role Assignment</strong> </p> </td>
-<td> <p><strong>No Assignment</strong> </p> </td>
-<td> <p><strong>User Assignment</strong> </p> </td>
-<td> <p><strong>Job Role Assignment</strong> </p> </td>
-</tr>
-<tr>
-<td> <p><strong>Billing per hour rate for Planned Revenue</strong> </p> </td>
-<td> <p>$0.00</p> </td>
-<td> <p> If a user has a billing rate in their profile, then that rate is used to calculate Planned Revenue. Otherwise, the system billing rate of their primary job role is used. <br><note type="note">
-The user can be assigned to the task with one of their secondary job roles, but the rate of the primary job role is used here instead.
-</note></p> </td>
-<td> <p> The system billing rate of the job role assigned to the task is used to calculate Planned Revenue. </p> </td>
-<td> <p>$0.00</p> </td>
-<td> <p>Workfront looks at the job role that the user fulfills on the task to calculate the Planned Revenue. <br>If the user is not associated with any role on the task, the Revenue is $0.00. </p> </td>
-<td> <p>The billing rate of the job role assigned to the task is used to calculate Planned Revenue. </p> <p> </p> <p> </p> </td>
-</tr>
-<tr>
-<td> <p><strong>Billing per hour rate for Actual Revenue</strong> </p> </td>
-<td colspan="2"> <p>If the user logging the hours has a billing rate in their profile, that rate is used. <br>Otherwise, the billing rate of their primary job role is used. If there is no billing rate associated with the user or their primary role, the Actual Revenue is $0.00. <br><note type="note">
-Only the rates associated with the user logging the time are taken into account for the calculation, even when another user is assigned to the task.
-</note></p> </td>
-<td> If the user logging the hours has a billing rate in their profile, that rate is used. Otherwise, the billing rate of their primary job role is used.<br><note type="note">
-If the user logging time has no billing rate associated with them, and they do not have a job role or a billing rate for their job role, then the rate from the job role associated with the task is used. If there is no billing rate for this role, the revenue is $0.00
-</note></td>
-<td> <p>Workfront uses the billing rate of the primary job role of the user logging the time. <br>If the user logging the time has no job role associated with them, or if the primary job role has no billing rate, the Actual Revenue is $0.00. </p> </td>
-<td> <p> If the user logging the time is assigned to the task, the billing rate of the job role associated with the user on the task is used to calculate the Actual Revenue. Otherwise, the billing rate of their primary job role is used. If the user has no primary job role or if their primary job role has no billing rate, the Actual Revenue is $0.00. </p> </td>
-<td> <p>If one of the job roles of the user logging the time is assigned to the task, that job role rate is used. If the job role assigned to the task is not associated with the user logging the time, then the billing rate of the primary role of the user is used to calculate the Actual Revenue. If the user does not have a job role or there is no rate associated with their primary job role, then the rate of the job role assigned to the task is used. </p> </td>
-</tr>
-</tbody>
-</table>
+<div class="preview">
+
+* **O Tipo de Receita da tarefa é Usuário e Função por Hora**
+
+| Taxa por hora de faturamento | Nenhuma atribuição | Atribuição de usuário | Atribuição de funções de trabalho |
+| --- | --- | --- | --- |
+| Taxa por hora de faturamento para Receita Planejada | $ 0,00 | Quando um usuário é atribuído, o sistema procura a taxa em uma ordem especificada, começando com uma taxa de cobrança preservada. O próximo é uma taxa de cartão de taxa bloqueada, uma taxa informada manualmente na atribuição, a Função de Trabalho para Faturamento na atribuição, a sobreposição da taxa de faturamento do usuário no nível do projeto, a Função de Trabalho para Faturamento no nível do projeto, a taxa do sistema do usuário e a taxa da função de trabalho principal do usuário. <p> Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando uma função de trabalho é atribuída, o sistema primeiro procura uma taxa de cobrança preservada e, em seguida, uma taxa de cartão de taxa bloqueada para a função de trabalho na atribuição. Em seguida, ele procura uma taxa de funções de trabalho adicionada manualmente na atribuição. Se essa taxa não for encontrada, ela procurará uma taxa de função de trabalho no nível do projeto, primeiro a partir de um cartão de taxa e, em seguida, a partir da taxa do sistema. <p> Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
+| Taxa por hora de faturamento para Receita Efetiva | Somente as taxas associadas ao usuário que registra o tempo são consideradas para o cálculo, mesmo quando outro usuário é atribuído à tarefa. <p> O sistema procura a taxa em uma ordem especificada, começando com uma taxa de cobrança preservada. Em seguida, há uma taxa de cartão de taxa bloqueada, uma sobreposição de taxa de faturamento no projeto, a função de trabalho para faturamento, a taxa no nível do sistema no perfil de usuário do proprietário e a taxa de faturamento da função de trabalho principal do proprietário. <p> Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando um usuário é atribuído, o sistema procura a taxa em uma ordem especificada, começando com uma taxa de cobrança preservada. O próximo é uma taxa de cartão de taxa bloqueada, uma taxa informada manualmente na atribuição, a Função de Trabalho para Faturamento na atribuição, a sobreposição da taxa de faturamento do usuário no nível do projeto, a Função de Trabalho para Faturamento no nível do projeto, a taxa do sistema do usuário e a taxa da função de trabalho principal do usuário. <p> Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando uma função de trabalho é atribuída, o sistema primeiro procura uma taxa de cobrança preservada e, em seguida, uma taxa de cartão de taxa bloqueada para a função de trabalho na atribuição. Em seguida, ele procura uma taxa de funções de trabalho adicionada manualmente na atribuição. Se essa taxa não for encontrada, ela procurará uma taxa de função de trabalho no nível do projeto, primeiro a partir de um cartão de taxa e, em seguida, a partir da taxa do sistema. Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
+
 </div>
--->
 
 ### Cálculos de receita para projetos
 

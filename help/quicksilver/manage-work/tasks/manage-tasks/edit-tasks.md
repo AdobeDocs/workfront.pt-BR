@@ -7,14 +7,18 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '3928'
-ht-degree: 4%
+source-wordcount: '4076'
+ht-degree: 5%
 
 ---
 
 # Editar tarefas
+
+{{highlighted-preview}}
 
 <!--Audited: 10/2025-->
 
@@ -28,13 +32,16 @@ ht-degree: 4%
 </div>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div> -->
+</div>
+-->
+
 
 É possível editar informações sobre tarefas que você criou ou para as quais você tem permissões do Contribute ou do Manage.
 
@@ -48,7 +55,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer</p> </td> 
+   <td>  <p>Para usar os Tipos de Custo e Receita por Hora do Usuário e Função e adicionar um índice de horas extras: Workflow Ultimate</p>
+      <p>Para editar todas as outras configurações e usar todos os outros Tipos de receita e custo: qualquer pacote de Workfront ou de fluxo de trabalho</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -82,7 +90,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,7 +127,8 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Limitações para editar tarefas
 
@@ -347,7 +357,7 @@ Para obter informações sobre como editar tarefas em listas, consulte [Editar t
       <td role="rowheader">Esforço do trabalho </td> 
       <td>
 
-   <p>O esforço necessário para concluir a tarefa. Seu gerente de projeto pode decidir usar esse campo em vez do Trabalho necessário para estimar o esforço necessário para concluir uma tarefa. Este campo fica visível somente quando as seguintes condições são atendidas:</p> 
+   <p>O esforço necessário para concluir a tarefa. Seu gerente de projeto pode decidir usar esse campo em vez do Trabalho necessário para estimar o esforço necessário para concluir uma tarefa. Esse campo torna-se visível somente quando as seguintes condições são atendidas:</p> 
       <ul> 
       <li> <p>A tarefa tem um tipo de duração simples. </p> <p><b>DICA</b>
 
@@ -572,6 +582,7 @@ Você pode definir formulários personalizados padrão para serem anexados autom
         <li> <p>Horas por Valor de Hora Fixo </p> </li> 
         <li> <p> Horas por Valor da Hora do Recurso </p> </li> 
         <li> <p> Horas por Valor da Hora do Perfil</p> </li> 
+        <li> <p> <span class="preview">Usuário e Função por Hora</span></p> </li> 
        </ul> <p>Para obter mais informações sobre o rastreamento de custos, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Rastrear custos</a>. O administrador do Workfront ou um administrador de grupo seleciona a configuração Tipo de custo padrão para as tarefas no seu sistema ou grupo. Para obter informações sobre como definir padrões de projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto do sistema</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -581,14 +592,26 @@ Você pode definir formulários personalizados padrão para serem anexados autom
       <li> <p> Não Faturável </p> </li> 
       <li> <p>Horas por Valor da Hora do Recurso </p> </li> 
       <li> <p>Horas por Valor da Hora do Perfil </p> </li> 
+      <li> <p> <span class="preview">Usuário e Função por Hora</span></p> </li> 
       <li> <p>Horas por Valor de Hora Fixo </p> </li> 
       <li> <p>Horas por Valor da Hora dos Recursos, com Teto </p> </li> 
       <li> <p>Horas por Valor da Hora do Perfil, com Teto </p> </li> 
+      <li> <p> <span class="preview">Usuário e Função por hora c/ Limite</span></p> </li> 
       <li> <p>Horas por Valor da Hora do Recurso mais Taxa Fixa </p> </li> 
       <li> <p>Horas por Valor da Hora do Perfil mais Taxa Fixa </p> </li> 
+      <li> <p> <span class="preview">Horas por Valor da Hora do Usuário e Função mais Taxa Fixa</span></p> </li> 
       <li> <p>Receita com Valor Fixo </p> </li> 
-       </ul> <p>Para obter mais informações sobre o rastreamento da receita, consulte<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Visão Geral de Faturamento e Receita</a>. </p> <p>O administrador do Workfront ou do grupo seleciona a configuração Tipo de receita padrão para as tarefas no seu sistema ou grupo. Para obter informações sobre como definir padrões de projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto do sistema</a>.</p> </td> 
+       </ul> <p>Para obter mais informações sobre o rastreamento da receita, consulte <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Visão Geral de Faturamento e Receita</a> e <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Visão Geral de hierarquia de receita e custo</a>. </p> <p>O administrador do Workfront ou do grupo seleciona a configuração Tipo de receita padrão para as tarefas no seu sistema ou grupo. Para obter informações sobre como definir padrões de projeto, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurar preferências de projeto do sistema</a>.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Índice de horas extras</span></td> 
+      <td><span class="preview"><p>Insira o multiplicador de hora extra da tarefa, por exemplo, 1,5 ou 2,0. O padrão é 1,0 (sem multiplicador). Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Definir uma taxa de horas extras</a>.</p><p>Para ver o campo Proporção de Horas Extras:</p>
+       <ul>
+       <li>O tipo de receita na tarefa deve ser Usuário e Função por hora. Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Visão geral da hierarquia de receita e custo</a>.</li>
+       <li>O campo deve ser ativado no modelo de layout, para a área Finanças na exibição de Detalhes da tarefa. Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Personalizar o modo de exibição de Detalhes usando um modelo de layout</a>.</li>
+       </ul>
+      </span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -710,7 +733,8 @@ Os seguintes campos são incluídos no cabeçalho da tarefa, por padrão:
 
 Para obter informações sobre como salvar tarefas em massa, consulte a seção &quot;Editar tarefas em massa&quot; no artigo [Editar tarefas em uma lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-<!--Temporary content while changing Assignments area: 
+<!--
+Temporary content while changing Assignments area: 
 
 Editing assignments is different in the Edit Task box depending on which environment you choose.
 
@@ -848,7 +872,8 @@ Editing assignments is different in the Edit Task box depending on which environ
          </table>
       
    
-      <!--<tr> 
+      <!--
+      <tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -1019,4 +1044,5 @@ Editing assignments is different in the Edit Task box depending on which environ
 
 <div class="preview">
 
-#### Edit the Assignments area in the Preview environment-->
+#### Edit the Assignments area in the Preview environment
+-->

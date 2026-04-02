@@ -8,20 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 106ff601a4a19dbbf50cb3329675928ad7087b21
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 3%
+source-wordcount: '548'
+ht-degree: 7%
 
 ---
 
 # Personalizar cabeçalhos de objetos usando um modelo de layout
 
+{{highlighted-preview}}
+
 Como administrador do Adobe Workfront ou administrador de grupo, você pode usar um modelo de layout para configurar os campos que os usuários veem no cabeçalho do objeto quando abrem a página de um objeto.
 
 >[!IMPORTANT]
 >
->A personalização de cabeçalhos de objetos está disponível atualmente para projetos, tarefas e problemas.
+>A personalização de cabeçalhos de objetos está disponível atualmente para projetos, tarefas, problemas, <span class="preview">portfólios, programas, modelos, registros de cobrança, equipes, grupos, usuários, empresas, grupos e cartões de taxa.</span>
 
 ![Campos do cabeçalho do objeto](assets/object-header-fields.png)
 
@@ -64,10 +66,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 ## Personalizar cabeçalhos de objetos
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. No menu suspenso **Personalizar o que os usuários veem**, selecione **Projetos**, **Tarefas** ou **Problemas**.
-
-   <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
-
+1. No menu suspenso **Personalizar o que os usuários veem**, selecione um objeto cujo cabeçalho você deseja personalizar.
 1. Na seção [!UICONTROL Campos de cabeçalho], passe o mouse sobre os campos atuais e siga um destes procedimentos:
    * Clique no ícone **x** para remover um campo
 
@@ -75,12 +74,12 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    * Clique e segure o ícone de **captura** para arrastar e soltar o campo em um novo local.
 
-   <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
-
    ![Campos do cabeçalho do objeto ocultam e movem ícones](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. Você pode ter até cinco campos no cabeçalho de um objeto.
-Se você já tiver cinco campos selecionados, remova um campo antes de adicionar um novo.
+
+   Se você já tiver cinco campos selecionados, remova um campo antes de adicionar um novo.
+
 1. Na caixa **Adicionar campo**, comece digitando o nome de um campo personalizado ou de um campo nativo do Workfront que deseja adicionar e, em seguida, selecione-o quando ele for exibido na lista. O campo é adicionado imediatamente à direita da caixa Adicionar campo e será exibido como o primeiro campo no canto superior direito do cabeçalho do objeto.
 
    >[!TIP]

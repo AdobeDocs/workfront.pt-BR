@@ -5,34 +5,32 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 0%
+source-wordcount: '566'
+ht-degree: 8%
 
 ---
 
-# Anexar um cartão de taxa a um projeto
+# Anexar um cartão de tarifas a um projeto
 
 {{highlighted-preview-article-level}}
 
-Os cartões de taxa armazenam várias taxas de cobrança por função de trabalho, com base na localização. Você pode ter uma função de trabalho de Designer com base em Paris e uma segunda Designer com base em Nova York, cada uma com taxas de cobrança diferentes. No entanto, não é necessário um local para funções de trabalho em um cartão de taxa. Uma taxa de cobrança para uma função de trabalho (e possivelmente local) em um cartão de taxa também pode incluir datas de efetivação.
+Os cartões de taxa armazenam várias taxas de cobrança por função de trabalho, com base nos atributos. Por exemplo, você pode ter uma função de trabalho de Designer com base em Paris para a Agência A, outra Designer com base em Paris para a Agência B e uma terceira Designer com base em Nova York não atribuída a uma agência, cada uma com taxas de faturamento diferentes. No entanto, os atributos não são necessários para funções de trabalho em um cartão de taxa. Os atributos servem como ferramentas para estabelecer taxas mais granulares. Uma taxa de cobrança em um cartão de taxa também pode ter data de efetivação, de modo que a taxa comece e termine em datas especificadas.
 
-Quando você anexa um cartão de taxa a um projeto, todas as funções por localização e suas taxas de cobrança associadas são adicionadas ao projeto.
+Quando você anexa um cartão de taxa a um projeto, todas as funções e suas taxas de cobrança associadas são adicionadas ao projeto.
 
 >[!NOTE]
 >
->Anexar um cartão de taxa substitui todas as taxas de faturamento existentes no projeto.
+>Anexar um cartão de taxa sobrepõe quaisquer taxas de faturamento existentes no cartão de taxa do projeto. As sobreposições de taxa de cobrança que foram adicionadas diretamente ao projeto não são removidas.
 
-Você pode editar as taxas de faturamento do cartão de taxa diretamente no projeto. Isso não afeta as taxas armazenadas no cartão de taxa padrão.
+Para obter informações sobre como criar cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
-Para obter informações sobre como criar cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
-
-Para obter informações gerais sobre substituição de taxas de cobrança de função de trabalho para projetos e cálculo de receita do projeto, consulte [Visão geral da substituição de Taxas de cobrança de função de trabalho e cálculo de Receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Para obter informações gerais sobre substituição de taxas de cobrança de função de trabalho para projetos e cálculo de receita do projeto, consulte [Visão geral sobre substituição de taxas de cobrança e cálculo de receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,21 +38,19 @@ Para obter informações gerais sobre substituição de taxas de cobrança de fu
  <tbody> 
   <tr> 
    <td>Pacote do Adobe Workfront</td> 
-   <td>Qualquer</td> 
+   <td>Workflow Ultimate</td> 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td>
-   <p>Standard</p>
-   <p>Plano</p></td> 
+   <td>Padrão</td> 
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a Projetos e Dados Financeiros</p> <p>Acesso administrativo para funções de trabalho</p></td> 
+   <td>Editar acesso a projetos, dados financeiros e cartões de taxa</td> 
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td>Gerenciar permissões para o projeto que inclui Editar Dados Financeiros </td> 
+   <td>Gerenciar permissões para o projeto com permissões para Editar Taxas de Cobrança</td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,20 +59,36 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Anexar um cartão de taxa a um projeto
+## Anexar um cartão de tarifas a um projeto
 
 1. Vá para o projeto.
-1. Clique em **Taxas de cobrança** no painel esquerdo.
+1. Clique em **Taxas** no painel esquerdo e selecione **Faturamento**.
 1. Clique em **Adicionar taxa de cobrança > Anexar um cartão de taxa**.
 
-   A página Anexar um cartão de taxa é aberta. Para obter mais informações, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+   A caixa **Anexar um cartão de taxa** é aberta. Você pode procurar por um cartão de tarifa na lista.
+
+   ![Anexar uma caixa de cartão de taxa](assets/attach-rate-card-dialog.png)
+
+   >[!NOTE]
+   >
+   >O Grupo e a Empresa nos cartões de taxa são usados como filtros nesta lista. Como os projetos também incluem campos de Grupo e Empresa, a Workfront usa esses valores para restringir a lista de cartões de taxa disponíveis àqueles relevantes para o contexto do projeto e não a todos os cartões de taxa no sistema.
+   >
+   >A correspondência não precisa ser exata. Cartões de tarifas com valores em branco de Grupo e/ou Empresa ainda podem aparecer, dependendo da configuração de Grupo/Empresa do projeto. Por exemplo, se um projeto tiver um Grupo selecionado, mas a Empresa estiver em branco, você poderá ver cartões de taxa associados a esse Grupo, mesmo se a Empresa do cartão de taxa for diferente ou estiver em branco.
 
 1. Selecione o cartão de taxa a ser adicionado ao projeto e clique em **Anexar**.
 
    O cartão de taxa e todas as suas taxas de função de trabalho são adicionados à lista de taxas de cobrança.
 
-   ![Cartão de taxa adicionado ao projeto](assets/billing-rates-added-from-rate-card.png)
+   ![Cartão de taxa adicionado ao projeto](assets/rate-card-on-project.png)
 
-   >[!NOTE]
-   >
-   >Na lista de taxas de cobrança, você pode remover uma ou mais funções de trabalho que vieram de um cartão de taxa. Remover uma taxa de cobrança de função de trabalho do projeto não a remove do cartão de taxa padrão.
+## Remover um cartão de taxa de um projeto
+
+Quando você remove um cartão de taxas de um projeto, todas as suas taxas de função de trabalho são removidas. Você não pode remover uma taxa individual do projeto que vem de um cartão de taxa.
+
+As substituições de taxa de cobrança para usuários ou funções de trabalho que foram adicionadas diretamente ao projeto podem ser removidas sem remover todo o cartão de taxa.
+
+1. Vá para o projeto.
+1. Clique em **Taxas** no painel esquerdo e selecione **Faturamento**.
+1. Clique no ícone **Remover** ![Ícone Remover](assets/remove-icon.png).
+1. Clique em **Confirmar** na mensagem de confirmação para remover o cartão de taxa.
+
