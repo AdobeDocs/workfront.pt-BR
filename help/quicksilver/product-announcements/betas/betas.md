@@ -1,19 +1,19 @@
 ---
 navigation-topic: betas
-title: Programas do Beta
+title: Programas Beta
 description: Saiba mais sobre os novos recursos do Adobe Workfront que estão disponíveis atualmente para todos ou um número limitado de clientes em uma versão beta.
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+source-git-commit: 78c2fd4afbe24062cbaea935e9b548ffe6e528ea
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 1%
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
-# Programas do Beta
+# Programas Beta
 
 Os artigos vinculados desta página descrevem os programas beta atuais disponíveis no Adobe Workfront.
 
@@ -31,8 +31,12 @@ Os seguintes recursos estão disponíveis atualmente na versão beta:
 
   Para obter informações, consulte [Visão geral da Integridade do Projeto](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md).
 
-* O Revisor da IA do Workfront
-Para obter informações, consulte [Introdução ao Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+* O Revisor de conteúdo do Workfront
+
+   * As diretrizes de imagem estão atualmente na versão beta. O Revisor de conteúdo usa as diretrizes de marca configuradas no Workfront para revisar o conteúdo e fornecer feedback aos criadores de conteúdo durante o processo de revisão e aprovação.
+   * As diretrizes de voz da marca estão disponíveis para disponibilidade geral.
+
+  Para obter informações, consulte [Introdução ao Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
 * O Adobe Workfront Planning Designer está disponível em Beta Fechado. Você pode nos enviar um email para solicitar acesso a este programa.
 
