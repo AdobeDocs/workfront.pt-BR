@@ -4,11 +4,13 @@ product-area: reporting;projects
 keywords: calculado,agregações,avançado,exibições
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Agrupamento: Exibir o Resultado da Agregação de Vários Valores Calculados em um Agrupamento'
-description: Você pode usar o modo texto em uma coluna para exibir um cálculo entre dois campos na exibição de um relatório ou lista. Cada linha exibe o cálculo de cada objeto no relatório ou na lista.
+description: Você pode usar o modo texto em uma coluna para exibir um cálculo entre dois campos na exibição de um relatório ou lista. Cada linha exibe o cálculo de cada objeto no relatório ou lista.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 10%
@@ -40,7 +42,7 @@ Você pode exibir o valor agregado de vários itens de exibição calculados na 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou solicitação para modificar um filtro </p>
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
@@ -61,9 +63,9 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 ## Exibir o resultado da agregação de vários valores calculados em um agrupamento
 
 1. Vá para um relatório de tarefa, clique em **Ações de Relatório** > **Editar**.
-1. Na guia **Agrupamentos**, clique em **Adicionar agrupamento** e comece a digitar **Nome do projeto** no campo **Agrupar por**. Em seguida, selecione **Projeto > Nome** quando ele for exibido na lista.
+1. Na guia **Agrupamentos**, clique em **Adicionar agrupamento** e comece a digitar o **Nome do projeto** no campo **Agrupar por**. Em seguida, selecione **Projeto > Nome** quando ele for exibido na lista.
 
-1. Na guia **Colunas(Modo de Exibição)**, clique em **Adicionar Coluna** e comece a digitar **Horas Planejadas** no campo **Mostrar nesta coluna** e selecione-o quando for exibido na lista.
+1. Na guia **Colunas(Modo de Exibição)**, clique em **Adicionar Coluna** e comece a digitar **Horas Planejadas** no campo **Mostrar nesta coluna**. Em seguida, selecione-a quando ela for exibida na lista.
 
    >[!TIP]
    >

@@ -7,7 +7,9 @@ description: As solicitações de equipe são encontradas na área Equipes do me
 author: Courtney
 feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -16,9 +18,9 @@ ht-degree: 0%
 
 # Visão geral das solicitações da equipe
 
-## Entenda as solicitações da equipe
+## Entender as solicitações de equipe
 
-As solicitações de equipe foram encontradas na área [!UICONTROL Equipes] do [!UICONTROL Menu Principal]. Clique no ícone [!UICONTROL Solicitações de equipe] ![Ícone de solicitação](assets/request-icon.png) no painel esquerdo para exibir as solicitações de equipe.
+As solicitações de equipe são encontradas na área [!UICONTROL Equipes] do [!UICONTROL Menu Principal]. Clique no ícone [!UICONTROL Solicitações de equipe] ![Ícone de solicitação](assets/request-icon.png) no painel esquerdo para exibir as solicitações de equipe.
 
 >[!NOTE]
 >
@@ -36,7 +38,7 @@ Uma solicitação de equipe representa um item de trabalho pendente que não est
 
 Há duas opções na parte superior da seção Solicitações de Equipe: [!UICONTROL Pronto para Iniciar] e [!UICONTROL Todas].
 
-A opção [!UICONTROL Pronto para Iniciar] mostra apenas tarefas e problemas que atendem a todos os critérios a seguir:
+A opção [!UICONTROL Pronto para Iniciar] mostra somente tarefas e problemas que atendem a todos estes critérios:
 
 * Todos os predecessores atenderam às condições para seus tipos de dependência predecessores.\
   Por exemplo, se o tipo de relação da predecessora for [!UICONTROL Finish-Start] (a tarefa predecessora deve terminar antes que a tarefa dependente possa iniciar), a predecessora deve ser marcada como [!UICONTROL Complete]. (Para obter mais informações sobre tipos de dependência predecessora, consulte [Visão geral dos tipos de dependência de tarefa](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).)

@@ -6,10 +6,12 @@ description: Você pode adicionar programas existentes a um portfólio. Como os 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -17,15 +19,17 @@ ht-degree: 0%
 
 <!--Audited: 10/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 Você pode adicionar programas existentes a um portfólio. Como os programas não podem existir em dois portfólios diferentes, a adição de um programa existente o move permanentemente de um portfólio para outro.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +41,7 @@ Você pode adicionar programas existentes a um portfólio. Como os programas nã
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td> <p>[!UICONTROL Padrão]</p><p>[!UICONTROL Plano]</p> </td> 
+   <td> <p>[!UICONTROL Padrão]</p><p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -54,7 +58,8 @@ Você pode adicionar programas existentes a um portfólio. Como os programas nã
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -77,7 +82,8 @@ Você pode adicionar programas existentes a um portfólio. Como os programas nã
    <td> <p>[!UICONTROL Manage] permissions to the portfolio and the program</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Adicionar um programa existente a um portfólio
 

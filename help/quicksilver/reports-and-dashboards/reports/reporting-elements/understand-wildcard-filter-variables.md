@@ -7,7 +7,9 @@ description: Ao usar curingas em filtros, você pode fazer referência a um usu�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 100%
@@ -18,12 +20,14 @@ ht-degree: 100%
 
 <!-- Audited: 11/2024 -->
 
-<!--(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
+<!--
+(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
 (NOTE: Alina: ***&gt;&gt;Linked in other articles - do not move/ delete.
 This was included but it is not supported???:
 The $$USER.roleIDs variable refers to all the job roles that are associated with the logged-in user. Using this variable, you can&nbsp; items assigned to all of the job roles associated with the logged-in user.
 For example, if you want to display tasks assigned to any of the job roles associated with the logged-in user, you can use the following filter rule in a task filter:
-AssignedToID Equals $$USER.roleIDs.)-->
+AssignedToID Equals $$USER.roleIDs.)
+-->
 
 Usando curingas, você pode fazer referência a um usuário ou data genéricos em vez de um usuário ou data específicos. Dessa forma, os elementos criados são dinâmicos: os resultados mudam dependendo do contexto em que são usados.
 
@@ -128,9 +132,11 @@ Você pode escolher entre as seguintes variáveis baseadas no usuário:
  <tbody> 
   <tr valign="top"> 
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
-   <td> <!--
+   <td>
+   <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>A variável baseada em usuário mais comum é $$USER.ID. Isso sempre retorna a ID do usuário conectado. Essa é a ID usada para identificar qual usuário criou cada objeto e as respectivas atribuições de trabalho.</p> <p>Quando usado em relatórios, esse curinga diminui o número de relatórios que precisam ser criados no sistema. É possível criar um relatório e compartilhá-lo com vários usuários, e os resultados são alterados com base no usuário que está conectado e vendo o relatório.</p> <p>Por exemplo, para criar um relatório para todos os problemas atribuídos ao usuário que está conectado, você pode usar a seguinte regra em um filtro de problemas: <em>Atribuído à ID igual a $$USER.ID</em>.</p> <p>O Workfront usa essa variável nos seguintes filtros incorporados:</p> 
+    -->
+    <p>A variável baseada em usuário mais comum é $$USER.ID. Isso sempre retorna a ID do usuário conectado. Essa é a ID usada para identificar qual usuário criou cada objeto e as respectivas atribuições de trabalho.</p> <p>Quando usado em relatórios, esse curinga diminui o número de relatórios que precisam ser criados no sistema. É possível criar um relatório e compartilhá-lo com vários usuários, e os resultados são alterados com base no usuário que está conectado e vendo o relatório.</p> <p>Por exemplo, para criar um relatório para todos os problemas atribuídos ao usuário que está conectado, você pode usar a seguinte regra em um filtro de problemas: <em>Atribuído à ID igual a $$USER.ID</em>.</p> <p>O Workfront usa essa variável nos seguintes filtros incorporados:</p>
     <ul> 
      <li>Meus relatórios</li> 
      <li>Meus projetos</li> 

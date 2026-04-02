@@ -7,26 +7,29 @@ description: Os status da meta indicam se uma meta está ativa e registrando pro
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
-# Visão geral do status da meta no Adobe Workfront Goals
+# Visão geral do status de uma meta no Adobe Workfront Goals
 
 <!--Audited: 4/2025-->
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 >
->Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Para obter informações adicionais sobre o acesso ao Adobe Workfront Goals, consulte [Requisitos para usar o Adobe Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -43,7 +46,8 @@ ht-degree: 4%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 ## Consideração ao atualizar status de meta nas Metas do Workfront
 

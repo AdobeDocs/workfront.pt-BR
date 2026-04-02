@@ -7,10 +7,12 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: ba5089fd02ca099d25ce0d3c2c2c039c2c6e2fe2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1067'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -55,7 +57,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +83,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Entender o processo de exclusão de projetos
 
@@ -139,7 +143,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    * Se o projeto excluído estiver vinculado à única iniciativa publicada de um plano, a indicação de que o plano foi publicado também será removida.
    * Se você recuperar um projeto excluído, o projeto será recuperado, mas o link para a iniciativa não será restaurado e a área do Planejador de cenários não será mais exibida em Detalhes do projeto.
 
-     O Planejador de cenários requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
+     O planejador de cenários requer uma licença adicional. Para obter informações sobre o planejador de cenários do Workfront, consulte [Visão geral do planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
 
      Para obter informações sobre projetos vinculados a iniciativas no Planejador de cenários, consulte [Atualizar ou criar projetos publicando iniciativas no Planejador de cenários](../../../scenario-planner/publish-scenarios-update-projects.md).
 
@@ -179,9 +183,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 >[!NOTE]
 >
->As informações nesta seção se referem ao Adobe Workfront Planning, um recurso adicional da Adobe Workfront.
+>As informações nesta seção se referem ao Planejamento do Adobe Workfront, um recurso adicional do Adobe Workfront.
 >
->Para obter uma lista de requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Para obter uma lista dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Para obter informações gerais sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 

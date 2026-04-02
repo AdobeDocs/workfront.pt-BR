@@ -1,19 +1,22 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades da API versão 20
+title: Novidades na versão 20 da API
 description: O Adobe Workfront lançou a API versão 20 em 6 de abril de 2022. A API versão 20 apresenta as seguintes alterações da versão 19.
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 6d2aa582a72aad098e397a5e59abdee84165a426
+exl-id: 2cf9d708-ce62-4434-8352-31dd8440ecb9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1792'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Novidades da API versão 20
+# Novidades na versão 20 da API
 
 O Adobe Workfront lançou a API versão 20 em 4 de maio de 2025. A API versão 20 apresenta as seguintes alterações da versão 19.
 
@@ -212,16 +215,20 @@ Um objeto AccessLevelPermissions representa uma permissão específica para aces
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Adicionar subprojetos)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--           <p>Modified the following possible values:</p>
+<!--
+           <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>açõesProibidas</b>
@@ -234,16 +241,20 @@ Um objeto AccessLevelPermissions representa uma permissão específica para aces
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Adicionar subprojetos)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>açõesSecundárias</b>
@@ -256,16 +267,20 @@ Um objeto AccessLevelPermissions representa uma permissão específica para aces
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Adicionar subprojetos)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -296,16 +311,20 @@ Se um usuário não tiver acesso a um objeto no Workfront necessário, ele poder
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Adicionar subprojetos)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -336,16 +355,20 @@ Um objeto AccessRule representa um conjunto de regras em níveis de acesso perso
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Adicionar subprojetos)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>açõesProibidas</b>
@@ -358,16 +381,20 @@ Um objeto AccessRule representa um conjunto de regras em níveis de acesso perso
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Adicionar subprojetos)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>açõesSecundárias</b>
@@ -380,16 +407,20 @@ Um objeto AccessRule representa um conjunto de regras em níveis de acesso perso
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Adicionar subprojetos)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -426,7 +457,7 @@ Um objeto AccessRule representa um conjunto de regras em níveis de acesso perso
 
 ### Aprovação (APPROVAL)
 
-Um determinado item de trabalho, como uma tarefa, um documento ou uma folha de horas, pode exigir que um supervisor ou outro usuário faça logoff no item de trabalho. Um objeto de Aprovação representa a ação de desconectar em um item de trabalho.
+Um determinado item de trabalho, como uma tarefa, documento ou folha de horas, pode exigir que um supervisor ou outro usuário aprove o item de trabalho. Um objeto de Aprovação representa a ação de desconectar em um item de trabalho.
 
 <table>
   <col/>
@@ -687,7 +718,7 @@ Linhas de Base são instantâneos de como era o desempenho de um projeto em um d
 
 ### Registro de Cobrança (BILL)
 
-Um objeto BillingRecord registra a receita, as horas ou as despesas que podem ser faturadas. Essas informações podem ser usadas para criar faturas em um sistema de contabilidade externo.
+Um objeto BillingRecord registra a receita, as horas ou as despesas que podem ser faturadas. Essas informações podem ser usadas para criar faturas em um sistema contábil externo.
 
 <table>
   <col/>
@@ -713,7 +744,8 @@ Um objeto BillingRecord registra a receita, as horas ou as despesas que podem se
 </table>
 
 
-<!--### Category (CTGY)
+<!--
+### Category (CTGY)
 
 A Category object is a custom form.
 
@@ -749,7 +781,8 @@ A Category object is a custom form.
       </td>
     </tr>
   </tbody>
-</table>-->
+</table>
+-->
 
 ### Parâmetro da categoria (CTGYPA)
 
@@ -820,7 +853,7 @@ Um objeto CustomerPreferences representa o conjunto de preferências que um clie
       <td>
         <ul>
           <li>
-            <p><b>nome</b>
+            <p><b>name</b>
             </p>
              <p>Foram adicionados os seguintes valores possíveis:</p>
              <ul>
@@ -1161,16 +1194,20 @@ Um objeto QueueDef representa uma Fila, que é um projeto publicado na área Hel
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Adicionar subprojetos)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>solicitanteForbiddenActions</b>
@@ -1183,16 +1220,20 @@ Um objeto QueueDef representa uma Fila, que é um projeto publicado na área Hel
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Adicionar subprojetos)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -1637,6 +1678,3 @@ Um objeto Trabalho é uma interface comum que tanto Tarefa quanto OpTask herdam 
     </tr>
   </tbody>
 </table>
-
-
-

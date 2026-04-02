@@ -7,7 +7,9 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d658c3df-5fa5-4756-ac42-71d9aed481df
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 # Usar a exibição Histórico de tarefas na Conexão de dados
 
-Na exibição Histórico de tarefas, os administradores do Workfront podem acessar registros detalhados de cada tarefa de atualização de dados. Esses registros fornecem informações valiosas sobre as tarefas que mantêm seus dados atualizados e ajudam a estabelecer prazos ideais para quando executar processos e atualizar suas visualizações de negócios.
+Na visualização Histórico de tarefas, os administradores do Workfront podem acessar registros detalhados de cada trabalho de atualização de dados. Esses registros fornecem insight valiosas para as tarefas que mantêm seus dados atualizados e ajudam a estabelecer prazos ideais sobre quando executar processos e atualizar suas visualizações de negócios.
 
 ![Exibição do Histórico do Trabalho](assets/job-history-overview.png)
 
@@ -36,7 +38,7 @@ As colunas de exibição Histórico de tarefas contêm as seguintes informaçõe
 
 ## Status de trabalho disponíveis
 
-A cada tarefa de Conexão de Dados é atribuído um status que indica se ela foi bem-sucedida, ignorada ou falhou.
+Cada tarefa de Conexão de dados recebe um status que indica se foi bem-sucedida, ignorada ou falhou.
 
 <table>
     <tr>
@@ -53,14 +55,14 @@ A cada tarefa de Conexão de Dados é atribuído um status que indica se ela foi
     </tr>
     <tr>
         <td>Falhou</td>
-        <td>Falha ao executar o trabalho. Nesses casos, é provável que nenhum dado na fila tenha sido enviado para o data lake. Os registros que permanecerem na fila serão processados no próximo trabalho agendado para esse tipo de registro. </td>
+        <td>Falha ao executar o trabalho. Nesses casos, é provável que nenhum dado na fila tenha sido enviado para o data lake. Os registros que permanecem na fila serão processados no próximo trabalho agendado para esse tipo de registro. </td>
     </tr>
    </table>
 
 
-## Considerações sobre a execução do trabalho e o comportamento do registro em log
+## Considerações sobre a execução de trabalhos e o comportamento do registro
 
-O Snowflake usa uma ferramenta de otimização do agendador de trabalhos que pode afetar como a execução de trabalhos é processada e registrada na exibição Histórico de Trabalhos. Esse comportamento de registro pode variar dependendo de haver ou não dados para processar.
+O Snowflake usa uma ferramenta de otimização do agendador de trabalhos que pode afetar como a execução de trabalhos é processada e registrada na exibição Histórico de trabalhos. Esse comportamento de registro pode variar dependendo de haver ou não dados para processar.
 
 Por exemplo, quando não há nenhuma nova linha a ser processada para um determinado objeto, um dos seguintes resultados pode ocorrer:
 

@@ -6,10 +6,12 @@ description: As solicitações de projeto são exibidas como projetos com status
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -32,7 +34,7 @@ Você pode revisar projetos solicitados nas seguintes áreas do [!DNL Adobe Work
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +47,7 @@ Você pode revisar projetos solicitados nas seguintes áreas do [!DNL Adobe Work
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>[!UICONTROL Padrão] </p> 
-   <p>[!UICONTROL Plano]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -62,7 +64,8 @@ Você pode revisar projetos solicitados nas seguintes áreas do [!DNL Adobe Work
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +88,8 @@ Você pode revisar projetos solicitados nas seguintes áreas do [!DNL Adobe Work
    <td> <p>[!UICONTROL View] permissions or higher on the portfolio</p> <p>[!UICONTROL Manage] permissions on the projects to update their status</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Revisar projetos solicitados em um relatório de projeto
 

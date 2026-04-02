@@ -2,13 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: start-with-workfront-administration
-title: Enviar comunicados
-description: Como administrador do Adobe Workfront, você pode usar a página Comunicados para enviar comunicados aos usuários.
+title: Enviar notificações
+description: Como administrador do Adobe Workfront, você pode usar a página Anúncios para enviar anúncios aos usuários.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 6%
@@ -17,11 +19,11 @@ ht-degree: 6%
 
 # Enviar avisos
 
-Como administrador do Adobe Workfront, você pode usar a página Comunicados para enviar comunicados aos usuários.
+Como administrador do Adobe Workfront, você pode usar a página Anúncios para enviar anúncios aos usuários.
 
-As mensagens de anúncio da Workfront normalmente incluem informações sobre novos recursos e versões, alterações de processos etc.
+As mensagens de comunicado da Workfront normalmente incluem informações sobre novos recursos e versões, alterações de processo e assim por diante.
 
-Para obter informações sobre como exibir comunicados, consulte [Exibir e gerenciar notificações no aplicativo](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Para obter informações sobre como exibir anúncios, consulte [Exibir e gerenciar notificações no aplicativo](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## Requisitos de acesso
 
@@ -52,64 +54,64 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Enviar comunicados aos usuários
 
-Você pode usar a página **Comunicados** para se comunicar com os usuários do sistema Workfront encaminhando comunicados enviados do Workfront e compondo novos comunicados. Você pode enviar comunicados para usuários, grupos, equipes ou empresas específicas usando seu sistema do Workfront.
+Você pode usar a página **Anúncios** para se comunicar com usuários em seu sistema Workfront encaminhando anúncios enviados do Workfront e compondo novos anúncios. Você pode enviar anúncios para usuários, grupos, equipes ou empresas específicos no sistema do Workfront.
 
-* [Encaminhar comunicados da Workfront aos usuários](#forward-workfront-announcements-to-users)
-* [Compor novos comunicados](#compose-new-announcements)
+* [Encaminhar notificações do Workfront para os usuários](#forward-workfront-announcements-to-users)
+* [Compor novos anúncios](#compose-new-announcements)
 
-### Encaminhar comunicados do Workfront aos usuários {#forward-workfront-announcements-to-users}
+### Encaminhar anúncios do Workfront aos usuários {#forward-workfront-announcements-to-users}
 
-Você pode encaminhar facilmente as mensagens recebidas do Workfront aos usuários do sistema.
+Você pode encaminhar com facilidade as mensagens recebidas do Workfront para os usuários em seu sistema.
 
-1. Vá para a página Comunicados clicando no ícone de **Notificação** no canto superior direito da interface do Workfront e, em seguida, clique em **Todos os Comunicados**.
+1. Vá para a página Avisos clicando no ícone **Notificação** no canto superior direito da interface do Workfront e clique em **Todos os Avisos**.
 
    ![Todos os comunicados](assets/announcement-access-350x212.png)
 
-1. Na página **Comunicados**, selecione a mensagem que deseja encaminhar.
+1. Na página **Avisos**, selecione a mensagem que deseja encaminhar.
 1. Clique em **Avançar**.
-1. Na caixa **Enviar para**, comece a digitar o nome de um usuário, grupo, equipe ou empresa que deseja receber a mensagem de comunicado e, em seguida, clique no nome quando ele aparecer na lista suspensa. Repita esse processo para adicionar vários usuários, grupos, equipes ou empresas.
+1. Na caixa **Enviar para**, comece digitando o nome de um usuário, grupo, equipe ou empresa que deseja receber a mensagem de notificação e, em seguida, clique no nome quando ele aparecer na lista suspensa. Repita esse processo para adicionar vários usuários, grupos, equipes ou empresas.
 
    Ou
 
-   Para encaminhar o comunicado a todos os usuários do sistema, comece a digitar **Todos** e clique nele quando ele aparecer na lista suspensa.
+   Para encaminhar esta notificação a todos os usuários do sistema, comece digitando **Todos** e clique nela quando ela aparecer na lista suspensa.
 
-1. Continue com a Etapa 3 em [Compor novos comunicados](#compose-new-announcements).
+1. Continue com a Etapa 3 em [Compor novos anúncios](#compose-new-announcements).
 
-### Compor novos comunicados {#compose-new-announcements}
+### Compor novos anúncios {#compose-new-announcements}
 
-1. Vá para a página Comunicados clicando no ícone de **Notificação** no canto superior direito da interface do Workfront e, em seguida, clique em **Todos os Comunicados**.
+1. Vá para a página Avisos clicando no ícone **Notificação** no canto superior direito da interface do Workfront e clique em **Todos os Avisos**.
 
-   ![Todos os comunicados](assets/announcement-access-350x212.png)
+   ![Todos os avisos](assets/announcement-access-350x212.png)
 
-1. Na página **Comunicados**, clique em **Novo Comunicado.**
+1. Na página **Avisos**, clique em **Novo Aviso.**
 
-1. Na caixa **Enviar para**, comece a digitar o nome de um usuário, grupo, equipe ou empresa que deseja receber a mensagem de comunicado e, em seguida, clique no nome quando ele aparecer na lista suspensa. Repita esse processo para adicionar vários usuários, grupos, equipes ou empresas.
+1. Na caixa **Enviar para**, comece digitando o nome de um usuário, grupo, equipe ou empresa que deseja receber a mensagem de notificação e, em seguida, clique no nome quando ele aparecer na lista suspensa. Repita esse processo para adicionar vários usuários, grupos, equipes ou empresas.
 
-   Por padrão, ao enviar uma nova mensagem de anúncio, **Todos** é preenchido previamente neste campo. Para que nem todos os usuários do sistema recebam a mensagem de comunicado, remova **Todos** da lista.
+   Por padrão, ao enviar uma nova mensagem de comunicado, **Todos** é preenchido automaticamente neste campo. Se você não quiser que todos os usuários do sistema recebam a mensagem de notificação, remova **Todos** da lista.
 
 1. Especifique as seguintes informações adicionais:
 
    | Assunto | Especifique um assunto para o comunicado. |
    |---|---|
-   | Digite a mensagem aqui | Especifique o conteúdo da mensagem. O editor de mensagens permite incluir marcações comuns, como negrito, itálico, sublinhado, listas numeradas e com marcadores, e hiperlinks. |
-   | Anexos | Clique em **Adicionar Anexo** e navegue até o arquivo que deseja anexar à mensagem e selecione-o. |
+   | Digite a mensagem aqui | Especifique o conteúdo da mensagem. O editor de mensagens permite incluir marcação comum, incluindo negrito, itálico, sublinhado, listas com marcadores e numeradas e hiperlinks. |
+   | Anexos | Clique em **Adicionar Anexo** e procure e selecione o arquivo que deseja anexar à mensagem. |
 
    {style="table-layout:auto"}
 
-1. (Opcional) Clique em **Salvar como Rascunho** para salvar a mensagem (incluindo a lista de destinatários, o assunto e os anexos) como um rascunho.
+1. (Opcional) Clique em **Salvar como rascunho** para salvar a mensagem (incluindo a lista de destinatários, o assunto e os anexos) como rascunho.
 
-1. (Opcional) Para exibir um rascunho, na área **Comunicados**, clique em **Rascunhos**.
+1. (Opcional) Para exibir um rascunho, na área **Avisos**, clique em **Rascunhos**.
 
 1. Clique em **Enviar.**
 
-   Agora os usuários podem exibir a mensagem de anúncio, conforme descrito em [Exibir e gerenciar notificações no aplicativo](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+   Os usuários agora podem exibir a mensagem de comunicado, conforme descrito em [Exibir e gerenciar notificações no aplicativo](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-## Limitar os tipos de comunicados do Workfront que você recebe
+## Limitar os tipos de anúncios do Workfront que você recebe
 
-Se você for um administrador do Workfront, poderá deixar de receber determinados tipos de mensagens.
+Se você for um administrador do Workfront, poderá cancelar o recebimento de determinados tipos de mensagens.
 
-Por padrão, você recebe todas as mensagens enviadas do Workfront. Esta é a configuração recomendada.
+Por padrão, você recebe todas as mensagens enviadas do Workfront. Essa é a configuração recomendada.
 
-1. Na página **Comunicados**, clique em **Configurações.**
+1. Na página **Avisos**, clique em **Configurações.**
 1. Selecione os tópicos para os quais você não deseja mais receber mensagens.
-1. Clique em **Salvar Configurações.**
+1. Clique em **Salvar configurações.**

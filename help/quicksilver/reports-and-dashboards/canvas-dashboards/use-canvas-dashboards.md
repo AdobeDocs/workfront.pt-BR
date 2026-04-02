@@ -1,25 +1,28 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards
-title: Usar painéis do Canvas
-description: Usar painéis do Canvas
+title: Utilizar painéis da tela
+description: Utilizar painéis da tela
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 41e283ceccd0a95daae005d998a2ed8050a1ab0b
+exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Usar painéis do Canvas
+# Utilizar painéis da tela
 
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.
 >
->Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Atendimento ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Falar com o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 >
 >Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
@@ -39,7 +42,8 @@ Para acessar os Painéis do Canvas, navegue até a seção Painéis no Adobe Wor
 1. Clique no nome de um painel existente para abri-lo.
    ![Abrir um painel](assets/open-dashboard.png)
 
-<!--## Navigating the Dashboard
+<!--
+## Navigating the Dashboard
 
 Once you open a Canvas Dashboard, you can interact with the reports displayed on the dashboard. You can resize, drag, and drop reports to customize the layout according to your preferences.
 
@@ -111,7 +115,8 @@ When you sort by the same field that your report is grouped by, the group order 
 
 After customizing your Canvas Dashboard, you can save your changes. Additionally, you can share the dashboard with other users in your organization, provided you have the appropriate sharing permissions.
 
-For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.-->
+For more detailed instructions on creating, managing, and customizing Canvas Dashboards, refer to the related articles in the [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) section.
+-->
 
 ## Visualizar relatórios com dados agrupados
 

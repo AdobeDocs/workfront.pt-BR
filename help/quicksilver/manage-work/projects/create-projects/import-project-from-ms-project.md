@@ -6,10 +6,12 @@ description: Você pode importar projetos do Microsoft Project para o Adobe Work
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -27,7 +29,7 @@ Você pode importar projetos do Microsoft Project para o Adobe Workfront e geren
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +41,7 @@ Você pode importar projetos do Microsoft Project para o Adobe Workfront e geren
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p> 
+   <td> <p>Padrão</p> 
     <p>Plano</p>
    </td> 
   </tr> 
@@ -59,11 +61,12 @@ Você pode importar projetos do Microsoft Project para o Adobe Workfront e geren
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--old permissions model: 
+<!--
+old permissions model: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +103,7 @@ Você pode criar um projeto na área **Projetos** do **Menu Principal**, ou na �
 1. Faça logon no Microsoft Project e abra um projeto do qual deseja importar no Workfront.
 1. Clique em **Arquivo**, depois em **Salvar como** para salvar o projeto como um arquivo .xml.
 
-1. Faça logon no Workfront.
+1. Faça login no Workfront.
 1. Siga um destes procedimentos:
 
    * Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo ou no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, se disponível, clique em **Projetos** e expanda **Novo Projeto**.

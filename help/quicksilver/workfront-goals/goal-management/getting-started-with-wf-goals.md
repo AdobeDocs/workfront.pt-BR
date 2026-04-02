@@ -4,27 +4,30 @@ description: O Workfront Goals ajuda você a definir, comunicar e alcançar resu
 author: Alina
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1349'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# Introdução às Metas do Adobe Workfront
+# Introdução ao Adobe Workfront Goals
 
 <!--Audited for P&P only: 10/2025-->
 
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 >
->Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Para obter informações adicionais sobre o acesso ao Adobe Workfront Goals, consulte [Requisitos para usar o Adobe Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -82,7 +85,7 @@ Recomendamos o seguinte:
 Para obter informações sobre como criar metas e adicionar resultados, consulte os seguintes artigos:
 
 * [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
-* [Adicionar resultados às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Adicionar resultados às Metas do Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
 ### Colabore em torno de metas empresariais e organizacionais {#collaborate-around-enterprise-and-organizational-goals}
 
@@ -128,7 +131,7 @@ Faça o seguinte:
 
    * [Ativar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md)
    * [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-   * [Atualizar progresso da meta nas Metas do Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+   * [Atualizar o progresso da meta no Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 
 ## Diretrizes para a configuração do Workfront Goals
 
@@ -166,4 +169,4 @@ Além dos resultados e das atividades, você também pode conectar projetos com 
 Para obter informações sobre metas, resultados e atividades, consulte:
 
 * [Visão geral das metas do Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md)
-* [Introdução aos resultados e atividades nos Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
+* [Começar a usar resultados e atividades nas Metas do Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)

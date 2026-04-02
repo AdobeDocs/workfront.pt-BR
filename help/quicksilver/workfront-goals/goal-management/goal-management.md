@@ -8,10 +8,12 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 0%
+ht-degree: 28%
 
 ---
 
@@ -21,13 +23,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 >
->Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Para obter informações adicionais sobre o acesso ao Adobe Workfront Goals, consulte [Requisitos para usar o Adobe Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -53,7 +56,7 @@ ht-degree: 0%
 Leia os seguintes artigos para saber onde você começa com as Metas do Workfront, a importância de usar as metas, como criar, editar, comentar e gerenciar metas, bem como filtrar e imprimir informações de meta:
 
 * [Visão geral das metas do Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md)
-* [Introdução às Metas do Adobe Workfront](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)
+* [Introdução ao Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)
 * [Requisitos para usar as Metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)
 * [Acessar e abrir metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 * [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)

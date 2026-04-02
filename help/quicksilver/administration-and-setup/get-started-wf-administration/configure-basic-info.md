@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -25,7 +27,7 @@ Como parte da configuração do seu sistema Adobe Workfront, você pode gerencia
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +39,7 @@ Como parte da configuração do seu sistema Adobe Workfront, você pode gerencia
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> <p>Plano</p></td> 
+   <td><p>Padrão</p> <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -83,7 +85,8 @@ Para acessar a página Informações do cliente:
    <!--
    * **License**
 
-     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     -->
 
 ## Configurar informações básicas {#configure-basic-info}
 

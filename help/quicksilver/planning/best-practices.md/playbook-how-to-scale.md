@@ -6,10 +6,12 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2574'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -17,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->As informações neste artigo se referem ao Adobe Workfront Planning, um recurso adicional da Adobe Workfront.
+>As informações contidas neste artigo referem-se ao Adobe Workfront Planning, um recurso adicional do Adobe Workfront.
 >
 >Sua organização deve ter um pacote do Workfront Planning Prime ou superior para oferecer suporte aos recursos recomendados neste artigo.
 >
->Para obter uma lista de requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Para obter uma lista dos requisitos para acessar o Workfront Planning, consulte [Visão geral do acesso ao Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Para obter informações gerais sobre o Workfront Planning, consulte [Introdução ao Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
@@ -341,7 +343,8 @@ Veja a seguir exemplos do que uma lista de verificação deve incluir:
 
   Para obter informações sobre tipos de registros globais, consulte [Visão geral sobre tipos de registros entre espaços de trabalho](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-<!--original content: 
+<!--
+original content: 
 
 **Version**: 1.0 
 

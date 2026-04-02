@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Exibir: Empresa e Grupo Doméstico do Usuário Atribuído'
-description: Esta exibição de tarefa exibe a Empresa e o Grupo Doméstico do Proprietário Principal da tarefa. Esses valores não estão disponíveis na interface padrão, mas podem ser acessados no modo de texto.
+title: 'Exibir: Empresa e Grupo Inicial do Usuário Atribuído'
+description: Esta exibição de tarefa mostra a Empresa e o Grupo inicial do Proprietário principal da tarefa. Esses são valores que não estão disponíveis na interface padrão, mas são acessíveis por meio do modo de texto.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 18%
@@ -18,9 +20,9 @@ ht-degree: 18%
 
 <!--Audited: 11/2024-->
 
-Esta exibição de tarefa exibe a Empresa e o Grupo Doméstico do Proprietário Principal da tarefa. Esses valores não estão disponíveis na interface padrão, mas podem ser acessados no modo de texto.
+Esta exibição de tarefa mostra a Empresa e o Grupo inicial do Proprietário principal da tarefa. Esses são valores que não estão disponíveis na interface padrão, mas são acessíveis por meio do modo de texto.
 
-![Exibir empresa e grupo doméstico do usuário atribuído](assets/view--assigned-user-s-company-and-home-group-350x80.png)
+![Exibir empresa e grupo padrão do usuário atribuído](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## Requisitos de acesso
 
@@ -37,12 +39,12 @@ Esta exibição de tarefa exibe a Empresa e o Grupo Doméstico do Proprietário 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou solicitação para modificar um filtro </p>
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a filtros, exibições e agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -55,15 +57,15 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Exibir Empresa e Grupo Doméstico do usuário atribuído
+## Visualizar Empresa e Grupo Inicial do usuário atribuído
 
 1. Ir para uma lista de tarefas.
-1. No menu suspenso **Exibição**, selecione **Nova Exibição**.
+1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
 
-1. Na área **Visualização de coluna**, elimine todas as colunas, exceto uma.
-1. Clique no cabeçalho da coluna restante e clique em **Alternar para o Modo de Texto**.
+1. Na área **Visualização da coluna**, elimine todas as colunas, exceto uma.
+1. Clique no cabeçalho da coluna restante e em **Alternar para Modo de Texto**.
 1. Clique em **Editar Modo de Texto**.
-1. Remova o texto encontrado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
+1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
    column.0.descriptionkey=name
@@ -122,5 +124,5 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
    column.3.width=150
    ```
 
-1. Clique em **Concluído** > **Salvar Exibição**.
-1. (Opcional) Atualize o nome da exibição e clique em **Salvar Exibição**.
+1. Clique em **Concluído** > **Salvar exibição**.
+1. (Opcional) Atualize o nome da exibição e clique em **Salvar exibição**.

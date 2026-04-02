@@ -2,31 +2,33 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Exibir: Exibir Objetos que Não Estão Incluídos na Interface Padrão'
-description: É possível exibir em uma exibição objetos que não estão incluídos na interface de modo padrão. Você só pode fazer isso fazendo referência a eles por meio do modo de texto.
+title: 'View: Exibir Objetos que Não Estão Incluídos na Interface Padrão'
+description: Você pode exibir em uma view objetos que não estão incluídos na interface de modo padrão. Você pode fazer isso somente referenciando-os pelo modo de texto.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 9%
 
 ---
 
-# Exibir: objetos de exibição que não estão incluídos na interface padrão
+# View: objetos de exibição que não estão incluídos na interface padrão
 
 Você pode exibir em uma view objetos que não estão incluídos na interface de modo padrão. Você pode fazer isso somente referenciando-os pelo modo de texto.\
-É possível determinar quais campos podem ser incluídos em uma view de uma das seguintes maneiras:
+Você pode determinar quais campos podem ser incluídos em uma view de uma das seguintes maneiras:
 
-* Use o [API Explorer](../../../wf-api/general/api-explorer.md) para descobrir outros objetos que podem ser referenciados por meio do modo de texto.\
-  Nem todos os campos documentados no API Explorer são campos válidos para o modo de texto. Alguns campos podem ser relatados somente por meio da API.
+* Use o [API Explorer](../../../wf-api/general/api-explorer.md) para descobrir outros objetos que podem ser referenciados pelo modo de texto.\
+  Nem todos os campos documentados no API Explorer são campos válidos para o modo de texto. Alguns campos só podem ser relatados por meio da API.
 
-* Localize o campo ID do objeto em uma coluna. A maioria dos objetos que tem um ID de campo também tem uma coluna ou nome de campo correspondente, que pode não ser acessível pela interface de modo padrão.
+* Localize o campo ID do objeto em uma coluna. A maioria dos objetos que têm uma ID de campo também tem uma coluna ou nome de campo correspondente que pode não ser acessível por meio da interface de modo padrão.
 
-  Você pode usar o modo de texto para incluir em uma exibição o nome da coluna ou do campo em vez da ID, substituindo a `fieldnameID` pela `fieldname:name`.
+  Você pode usar o modo de texto para incluir em uma exibição o nome da coluna ou do campo, em vez da ID, substituindo o `fieldnameID` pelo `fieldname:name`.
 
-  Por exemplo, na interface de modo padrão, o campo **ID do proprietário do Portfolio** está disponível para uma exibição de projeto, mas o campo **Nome do proprietário do Portfolio** não está. Você pode usar o modo de texto para exibir o **Nome do Proprietário do Portfolio** na coluna de um modo de exibição.
+  Por exemplo, na interface de modo padrão, o campo **ID do Proprietário do Portfolio** está disponível para uma exibição de projeto, mas o campo **Nome do Proprietário do Portfolio** não está. Você pode usar o modo de texto para exibir o **Nome do Proprietário do Portfolio** na coluna de um modo de exibição.
 
 ## Requisitos de acesso
 
@@ -43,12 +45,12 @@ Você pode exibir em uma view objetos que não estão incluídos na interface de
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou solicitação para modificar um filtro </p>
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a filtros, exibições e agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -64,18 +66,18 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 ## Exemplo: adicionar a coluna Nome do proprietário do Portfolio a uma visualização do projeto
 
 1. Ir para uma lista de projetos.
-1. No menu suspenso **Exibição**, clique em **Nova Exibição**.
+1. No menu suspenso **Exibir**, clique em **Nova Exibição**.
 
-1. Clique em **Adicionar coluna** e comece a digitar “ID de proprietário do Portfolio&quot; no campo **Mostrar nesta coluna** e selecione-a quando for exibida na lista.
+1. Clique em **Adicionar coluna** e comece a digitar &quot;ID de proprietário do Portfolio&quot; no campo **Mostrar nesta coluna** e, em seguida, selecione-a quando ela for exibida na lista.
 
-1. Clique em **Alternar para o Modo de Texto** e depois em **Editar Modo de Texto**.
+1. Clique em **Alternar para Modo de Texto** e em **Editar Modo de Texto**.
 1. Substitua a linha `valuefield` (`valuefield=portfolio:ownerID`) pela seguinte linha:
 
    `valuefield=portfolio:owner:name`
 
    Ou
 
-   Remova o texto encontrado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
+   Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
    valuefield=portfolio:owner:name
@@ -85,7 +87,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
    linkedname=portfolio
    ```
 
-   Neste exemplo específico, o relatório classificará o relatório pelo ID do Proprietário do Portfolio, conforme indicado pela linha `querysort`.
+   Neste exemplo específico, o relatório classificará pelo ID do proprietário do Portfolio, conforme indicado pela linha `querysort`.
 
    >[!TIP]
    >

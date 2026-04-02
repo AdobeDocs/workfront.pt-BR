@@ -1,21 +1,23 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Adicionar o Backlog ao Quadro Kanban
-description: Você pode exibir uma coluna de [!UICONTROL Lista Pendente] diretamente no quadro Kanban. A coluna [!UICONTROL Lista de pendências] no quadro [!DNL Kanban] contém os primeiros 20 itens da sua lista de pendências no quadro [!DNL Kanban] de discussão. Tarefas e ocorrências devem pertencer a um projeto com um status que seja igual a Atual para aparecer na lista de pendências.
+title: Adicionar o backlog ao Quadro Kanban
+description: Você pode exibir uma coluna [!UICONTROL Backlog] diretamente no quadro Kanban. A coluna [!UICONTROL Lista de pendências] do  [!DNL Kanban] quadro contém os primeiros 20 itens da sua lista de pendências no [!DNL Kanban] quadro. Tarefas e problemas devem pertencer a um projeto com um status que seja igual a Atual para aparecer no backlog.
 author: Courtney
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 15%
 
 ---
 
-# Adicionar a lista de pendências ao quadro [!UICONTROL Kanban]
+# Adicionar o backlog ao quadro [!UICONTROL Kanban]
 
-Você pode exibir uma coluna de [!UICONTROL Lista Pendente] diretamente no quadro Kanban. A coluna [!UICONTROL Lista de pendências] no quadro [!DNL Kanban] contém os primeiros 20 itens da sua lista de pendências no quadro [!DNL Kanban]. Tarefas e problemas devem pertencer a um projeto com um status que seja igual a [!UICONTROL Atual] para aparecer na lista de pendências.
+Você pode exibir uma coluna [!UICONTROL Backlog] diretamente no quadro Kanban. A coluna [!UICONTROL Lista de pendências] no quadro [!DNL Kanban] contém os primeiros 20 itens da sua lista de pendências no quadro [!DNL Kanban]. Tarefas e problemas devem pertencer a um projeto com status igual a [!UICONTROL Atual] para aparecer na lista de pendências.
 
 ## Requisitos de acesso
 
@@ -43,19 +45,19 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Adicionar a lista de pendências ao quadro [!UICONTROL Kanban]
+## Adicionar o backlog ao quadro [!UICONTROL Kanban]
 
-Por padrão, a coluna [!UICONTROL Lista de Pendências] está oculta. Para exibir o backlog:
+Por padrão, a coluna [!UICONTROL Backlog] está oculta. Para exibir o backlog:
 
 {{step1-to-team}}
 
-1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ícone ![, selecione uma nova equipe &#x200B;](assets/switch-team-icon.png)Kanban[!UICONTROL &#x200B; no menu suspenso ou pesquise uma equipe na barra de pesquisa.]
+1. (Opcional) Clique no ícone **[!UICONTROL Equipe do switch]** ![Ícone da equipe do switch](assets/switch-team-icon.png) e selecione uma nova equipe [!UICONTROL Kanban] no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Vá para o quadro Kanban onde deseja exibir o backlog.
-1. Clique em **[!UICONTROL Mostrar Lista de Pendências]**.
+1. Clique em **[!UICONTROL Mostrar lista de pendências]**.
 
 >[!NOTE]
 >
->Se você adicionar várias equipes a um item de backlog, a tarefa ou ocorrência será exibida somente no backlog da equipe principal. A equipe principal é a primeira equipe atribuída.
+>Se você adicionar várias equipes a um item de backlog, a tarefa ou problema será exibido somente no backlog da equipe principal. A equipe principal é a equipe atribuída pela primeira vez.
 
-Para obter mais informações sobre a lista de pendências, consulte [Gerenciar a lista de pendências ágil](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Para obter mais informações sobre a lista de pendências, consulte [Gerenciar a lista de pendências Agile](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

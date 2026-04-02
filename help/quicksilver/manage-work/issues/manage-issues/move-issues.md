@@ -6,10 +6,12 @@ description: Você pode mover problemas entre projetos e tarefas.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -17,9 +19,11 @@ ht-degree: 1%
 
 <!--Audited: 12/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Você pode mover problemas entre os seguintes objetos:
 
@@ -30,7 +34,7 @@ Você pode mover problemas entre os seguintes objetos:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,10 +47,10 @@ Você pode mover problemas entre os seguintes objetos:
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <ul><li>Colaborador ou superior</li>
+   <ul><li>Colaborador ou posterior</li>
    <li>Leve ou superior para mover problemas na seção Problemas de um projeto</li></ul>
    Ou:
-   <ul>   <li><p>Solicitação ou superior</p></li>
+   <ul>   <li><p>Solicitação ou posterior</p></li>
    <li><p>Licença de revisão ou superior para mover problemas na seção Problemas de um projeto.</p></li></ul>   
      </td> 
   </tr> 
@@ -65,7 +69,8 @@ Você pode mover problemas entre os seguintes objetos:
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +100,8 @@ Você pode mover problemas entre os seguintes objetos:
    <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to Add Issues.</td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerações sobre a movimentação de problemas
 
@@ -179,7 +185,7 @@ Você pode mover um problema ao visualizá-lo.
       <td role="rowheader"><p>Documentos</p></td> 
       <td> <p>Remove tudo na guia documentos, incluindo versões de documentos, documentos vinculados e pastas.
 
-   <b>OBSERVAÇÃO</b>
+   <b> OBSERVAÇÃO </b>
 
    Se você optar por não mover os documentos com o problema, eles serão excluídos e colocados na Lixeira por 30 dias. Um administrador pode restaurá-los e eles serão restaurados quando o problema for movido.
 

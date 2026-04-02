@@ -1,20 +1,22 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades da API versão 12
+title: Novidades na versão 12 da API
 description: O Workfront lançou a API versão 12 em 12 de novembro de 2020. A API versão 12 apresenta as seguintes alterações da versão 11
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2421'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Novidades da API versão 12
+# Novidades na versão 12 da API
 
 O Workfront lançou a API versão 12 em 12 de novembro de 2020. A API versão 12 apresenta as seguintes alterações da versão 11
 
@@ -31,9 +33,11 @@ Um objeto BreadCrumb representa um elemento na hierarquia pai/filho de um item d
 
 Para obter mais informações sobre navegações estruturais no Workfront, consulte [Visão geral sobre navegações estruturais na nova experiência do Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -53,9 +57,11 @@ Os campos de rich text agora estão disponíveis em mais objetos. O objeto RichT
 
 Para obter mais informações, consulte [Campos de rich text na API do Adobe Workfront](../../wf-api/general/rich-text-field-api.md).
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -140,22 +146,28 @@ Um objeto AccessLevel está associado a usuários e descreve o conjunto de Acces
 
 Para obter mais informações sobre níveis de acesso, consulte [Como os níveis de acesso funcionam](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
-  <tr> <!--
+  <tr>
+  <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Direct Fields</td>
    --> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <!--
+     <li style="font-weight: bold;">
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">fieldAccessPrivileges</p>
-      --> <!--
+      -->
+      <!--
        <p style="font-weight: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Added the possible value CPJ (Copy). This allows Users with Planner Access Level to copy Projects.</p>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -191,43 +203,61 @@ Um objeto AccessLevelPermissions representa uma permissão específica para aces
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> </li> 
       </ul> </li> 
-    </ul> <!--
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">OR</p>
-    --> <!--
+    -->
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value PLANNED_HOURS_CONTOURING, which allows a user to update planned hours in the Workload Balancer</p>
     --> 
     <ul> 
-     <li> <!--
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
-      --> </li> 
-    </ul> <!--
+      -->
+      </li>
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value ADD_TO_CUSTOM_FORMS, which allows a user to add fields to custom forms.</p>
     --> 
     <ul> 
-     <li> <!--
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
-      --> </li> 
-    </ul> <!--
+      -->
+      </li>
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value EDIT_SYSTEMWIDE, which allows a user to share a custom field system-wide with Delete access. </p>
-    --> <!--
+    -->
+    <!--
      <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
       <li> <p>coreAction</p> </li> 
       <li> <p>forbiddenActions</p> </li> 
       <li> <p>secondaryActions</p> </li> 
      </ul>
-    --> </td> 
+    -->
+    </td>
   </tr> 
  </tbody> 
 </table>
@@ -335,7 +365,7 @@ Para obter mais informações sobre anexos de comunicado, consulte [Enviar aviso
 
 ### Aprovação {#approval}
 
-Um determinado item de trabalho, como uma tarefa, um documento ou uma folha de horas, pode exigir que um supervisor ou outro usuário faça logoff no item de trabalho. Um objeto de Aprovação representa a ação de desconectar em um item de trabalho.
+Um determinado item de trabalho, como uma tarefa, documento ou folha de horas, pode exigir que um supervisor ou outro usuário aprove o item de trabalho. Um objeto de Aprovação representa a ação de desconectar em um item de trabalho.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -823,9 +853,11 @@ Um objeto Equipe é uma coleção de Usuários que pode ser atribuída a um item
    <td role="rowheader">Campos diretos</td> 
    <td> <p>Os seguintes campos foram adicionados ao recurso Equipe:</p> 
     <ul> 
-     <li> <p><strong>completeDaysOnKanbanBoard</strong> </p> <p>Esse campo representa o número de dias que um cartão concluído permanece no quadro Kanban.</p> <!--
+     <li> <p><strong>completeDaysOnKanbanBoard</strong> </p> <p>Esse campo representa o número de dias que um cartão concluído permanece no quadro Kanban.</p>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see <a href="../../agile/get-started-with-agile-in-workfront/configure-kanban.md" class="MCXref xref">Configure Kanban</a>.</p>
-      --> </li> 
+      -->
+      </li>
      <li> <p><strong>groupID</strong> </p> <p>Este campo associa uma equipe a um grupo. Isso identifica a equipe como parte do grupo e permite que o Administrador do grupo gerencie as equipes.</p> </li> 
      <li> <p><strong>workOnItStatusChange</strong> </p> <p>Este é um parâmetro booleano que indica se o botão Trabalhar na equipe foi configurado como um botão Iniciar. Quando um membro da equipe clica em um botão Iniciar para começar a trabalhar em um item de trabalho, o status do item muda de Novo para um status configurado nas configurações da equipe.</p> </li> 
      <li> <p>Os campos a seguir permitem especificar status personalizados para o botão Iniciar nos itens de trabalho individuais.</p> 
@@ -872,7 +904,7 @@ Para obter mais informações sobre Modelos de Tarefa, consulte [Editar modelos 
  </tbody> 
 </table>
 
-### Planilha de horas {#timesheet}
+### Folha de horas {#timesheet}
 
 Um objeto de Planilha de Horas representa um cartão de ponto virtual que permite aos Usuários inserir as horas reais trabalhadas para Tarefas, Projetos e Tipos de Horas Gerais.
 

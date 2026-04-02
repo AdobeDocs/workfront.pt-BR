@@ -7,27 +7,30 @@ description: Você pode acessar listas de metas ou metas individuais e gerenciá
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
-# Visão geral das seções de Metas do Adobe Workfront
+# Visão geral das seções do Adobe Workfront Goals
 
 <!--Audited for P&P only: 10/2025-->
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 >
->Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Para obter informações adicionais sobre o acesso ao Adobe Workfront Goals, consulte [Requisitos para usar o Adobe Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -44,7 +47,8 @@ ht-degree: 1%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Depois que o administrador do Workfront conceder acesso às Metas do Workfront, você poderá visualizar as metas que você ou qualquer outra pessoa na organização criou na área Metas da Workfront.
 
@@ -108,7 +112,7 @@ Para obter informações sobre como navegar na seção Alinhamento de Metas para
 Para obter informações sobre como alinhar metas, consulte os seguintes artigos:
 
 * [Alinhar metas ao conectá-las às Metas do Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
-* [Alinhar metas convertendo resultados e atividades em metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
+* [Alinhar metas, convertendo resultados e atividades em metas](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ![Seção de alinhamento da meta](assets/goal-alignment-section-unshimmed.png)
 

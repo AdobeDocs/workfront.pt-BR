@@ -6,10 +6,12 @@ description: Tarefas pessoais são solicitações de trabalho ad hoc que você e
 author: Becky
 feature: Get Started with Workfront
 exl-id: b40d6b10-19c7-4e11-a74f-a8af3ebafb65
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -45,7 +47,7 @@ Independentemente de como você adicionar uma tarefa pessoal, poderá encontrá-
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +62,7 @@ Independentemente de como você adicionar uma tarefa pessoal, poderá encontrá-
   <tr> 
    <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
    <td> 
-   <p>Standard<p>
+   <p>Padrão<p>
    <p>Plano</p>
    <p>Essa é a licença necessária para enviar solicitações a outros usuários. Todos os usuários podem criar uma solicitação de trabalho para si mesmos.</p> 
     </td> 
@@ -78,7 +80,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -103,7 +106,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
   </tr> 
  
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Criar uma solicitação de trabalho pessoal

@@ -6,10 +6,12 @@ description: Você pode visualizar informações sobre objetos no  [!DNL Adobe W
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3697'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -32,12 +34,14 @@ Por exemplo, para acessar o cabeçalho de um projeto:
 
    ![](assets/project-header-350x18.png)
 
-<!--## [!UICONTROL Home] header overview 
+<!--
+## [!UICONTROL Home] header overview 
 
 The following headers are available in Home:
 
 * Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
-* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.
+-->
 
 ## Cabeçalhos personalizáveis
 
@@ -85,19 +89,19 @@ O cabeçalho do projeto exibe as seguintes informações, por padrão:
    <td> <p>Ao lado do nome do projeto, é exibida a área de ações, que inclui a opção <b>Compartilhar</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Porcentagem Concluída]</td> 
+   <td role="rowheader">[!UICONTROL Percent Complete]</td> 
    <td>Não é possível editar a porcentagem concluída do projeto no cabeçalho.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Proprietário do Projeto]</td> 
+   <td role="rowheader">[!UICONTROL Project Owner]</td> 
    <td> <p>Você pode editar o [!UICONTROL Proprietário do projeto] no cabeçalho.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Data de Término Planejada] </td> 
+   <td role="rowheader">[!UICONTROL Planned Completion Date] </td> 
    <td> <p>Você pode editar a [!UICONTROL Data de conclusão planejada] e a hora no cabeçalho se o projeto estiver agendado a partir da [!UICONTROL Data de conclusão]. Se o projeto estiver agendado a partir da [!UICONTROL Data de Início], essas informações serão atualizadas a partir das tarefas no projeto.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Condição] </td> 
+   <td role="rowheader">[!UICONTROL Condition] </td> 
    <td> <p>Ao definir o [!UICONTROL Condição Tipo] do projeto para Manual, você pode atualizar o projeto [!UICONTROL Condição] no cabeçalho.</p></td> 
   </tr> 
   <tr> 
@@ -129,7 +133,7 @@ O cabeçalho da tarefa inclui as seguintes informações, por padrão:
  <tbody> 
   <tr> 
    <td role="rowheader">Navegação estrutural com objetos principais</td> 
-   <td> <p>Os objetos principais da tarefa são exibidos na navegação estrutural. Clicar no nome do pai abre esse objeto pai.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Visão geral da navegação estrutural</a>.</p> </td> 
+   <td> <p>Os objetos principais da tarefa são exibidos na navegação estrutural. Clicar no nome do pai abre esse objeto pai.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Visão geral de navegações estruturais</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Ícone de objeto </td> 
@@ -148,7 +152,7 @@ O cabeçalho da tarefa inclui as seguintes informações, por padrão:
    <td> <p>Ao lado do nome da tarefa, é exibida a área de ações, que inclui a opção <b>Compartilhar</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>Se o ícone Dependência for exibido, você poderá clicar no ícone para ver quaisquer predecessores ou sucessores da tarefa.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Porcentagem Concluída]</td> 
+   <td role="rowheader">[!UICONTROL Percent Complete]</td> 
    <td>Você pode editar o percentual concluído da tarefa no cabeçalho.</td> 
   </tr> 
   <tr> 
@@ -160,7 +164,7 @@ O cabeçalho da tarefa inclui as seguintes informações, por padrão:
    <td> <p>Se a tarefa for atribuída a você, clique no botão [!UICONTROL Trabalhar nela] <span>ou [!UICONTROL Iniciar Tarefa]</span> para indicar que você está trabalhando na tarefa ou no botão [!UICONTROL Concluído] para indicar que você concluiu a tarefa.</p> <p><span>Para obter informações sobre a substituição do botão [!UICONTROL Trabalhar Nele] por um botão [!UICONTROL Iniciar Tarefa], consulte <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substituir o botão [!UICONTROL Trabalhar Nele] por um botão [!UICONTROL Iniciar]</a></span>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Data de Término Planejada]</td> 
+   <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
    <td> <p>Você pode editar a tarefa [!UICONTROL Data de Término Planejada] <span>e a hora</span> no cabeçalho.</p> <p>Dica: observe que a [!UICONTROL Data de Confirmação] não está visível no cabeçalho. Você pode exibi-lo na página [!UICONTROL Detalhes].</p> </td> 
   </tr> 
   <tr> 
@@ -192,7 +196,7 @@ O cabeçalho do problema inclui as seguintes informações, por padrão:
  <tbody> 
   <tr> 
    <td role="rowheader">Navegação estrutural com objetos principais</td> 
-   <td> <p>Os objetos principais do problema são exibidos na navegação estrutural. Clicar no nome do pai abre esse objeto pai.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Visão geral da navegação estrutural</a>.</p> </td> 
+   <td> <p>Os objetos principais do problema são exibidos na navegação estrutural. Clicar no nome do pai abre esse objeto pai.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Visão geral de navegações estruturais</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ícone de objeto </td> 
@@ -211,7 +215,7 @@ O cabeçalho do problema inclui as seguintes informações, por padrão:
    <td> <p>Ao lado do nome do problema, a área de ações é exibida, incluindo a opção <b>Compartilhar</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>Se o ícone [!UICONTROL Dependência] for exibido, você poderá clicar no ícone para ver quaisquer predecessores ou sucessores do problema.</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Porcentagem Concluída]</td> 
+   <td role="rowheader">[!UICONTROL Percent Complete]</td> 
    <td> <p>Você pode editar o percentual concluído do problema no cabeçalho.</p> </td> 
   </tr> 
   <tr> 
@@ -223,7 +227,7 @@ O cabeçalho do problema inclui as seguintes informações, por padrão:
    <td>Se o problema for atribuído a você, clique no botão [!UICONTROL Trabalhar no Problema] <span>ou [!UICONTROL Iniciar Problema]</span> para indicar que você está trabalhando no problema agora ou no botão [!UICONTROL Concluído] para indicar que você concluiu o problema.<span>Para obter informações sobre a substituição do botão [!UICONTROL Trabalhar Nele] por um botão [!UICONTROL Iniciar Tarefa], consulte</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Substituir o botão [!UICONTROL Trabalhar Nele] por um botão [!UICONTROL Iniciar]</a></span><span>.</span></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Data de Término Planejada]</td> 
+   <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
    <td> <p>Você pode editar o problema [!UICONTROL Data de Término Planejada] <span>e hora</span> no cabeçalho.</p> <p>Dica: observe que a [!UICONTROL Data de Confirmação] não está visível no cabeçalho. Você pode exibi-lo na página [!UICONTROL Detalhes].</p> </td> 
   </tr> 
   <tr> 
@@ -255,7 +259,7 @@ O cabeçalho do programa exibe as seguintes informações:
  <tbody> 
   <tr> 
    <td role="rowheader">Navegação estrutural com o nome da Portfolio</td> 
-   <td> <p>Você pode acessar a [!UICONTROL Portfolio] no cabeçalho do [!UICONTROL Program]. Clicar no nome do pai abre esse objeto pai.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Visão geral da navegação estrutural</a>.</p> </td> 
+   <td> <p>Você pode acessar a [!UICONTROL Portfolio] no cabeçalho do [!UICONTROL Program]. Clicar no nome do pai abre esse objeto pai.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Visão geral de navegações estruturais</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ícone de objeto </td> 
@@ -278,7 +282,7 @@ O cabeçalho do programa exibe as seguintes informações:
    <td> <p>Ao lado do nome do programa, é exibida a área de ações, que inclui a opção <b>Compartilhar</b>.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Porcentagem Concluída]</td> 
+   <td role="rowheader">[!UICONTROL Percent Complete]</td> 
    <td> <p>Não é possível editar a [!UICONTROL Porcentagem Concluída] do programa no cabeçalho. Essas informações são atualizadas a partir dos projetos no programa.</p> <p>Dica: por padrão, a porcentagem concluída do programa é uma média dos valores de porcentagem concluída dos projetos em um [!UICONTROL Atual] ou [!UICONTROL Status Aprovado] que pertencem ao programa.</p> </td> 
   </tr> 
   <tr> 
@@ -286,7 +290,7 @@ O cabeçalho do programa exibe as seguintes informações:
    <td> <p>Você pode editar o [!UICONTROL Gerenciador de Programas] no cabeçalho. É o mesmo que [!UICONTROL Proprietário do Programa].</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Data de Término Planejada]</td> 
+   <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
    <td>Não é possível editar o programa [!UICONTROL Data de conclusão planejada] no cabeçalho. Essas informações são atualizadas a partir da [!UICONTROL Data de conclusão planejada] dos projetos no programa.</td> 
   </tr> 
   <tr> 
@@ -400,7 +404,7 @@ O cabeçalho do modelo exibe as seguintes informações:
    <td>É possível editar o campo [!UICONTROL Proprietário do modelo] no cabeçalho.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Duração]</td> 
+   <td role="rowheader">[!UICONTROL Duration]</td> 
    <td>A duração do modelo. Não é possível editar esse campo no cabeçalho.</td> 
   </tr> 
  </tbody> 
@@ -424,7 +428,7 @@ O cabeçalho da tarefa de modelo exibe as seguintes informações:
  <tbody> 
   <tr> 
    <td role="rowheader">Navegação estrutural para objetos principais</td> 
-   <td> <p>Os objetos pai da tarefa de modelo são exibidos na navegação estrutural. Clicar no nome de um objeto pai abre esse objeto pai.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Visão geral da navegação estrutural</a>.</p> </td> 
+   <td> <p>Os objetos pai da tarefa de modelo são exibidos na navegação estrutural. Clicar no nome de um objeto pai abre esse objeto pai.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Visão geral de navegações estruturais</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ícone de objeto </td> 
@@ -447,7 +451,7 @@ O cabeçalho da tarefa de modelo exibe as seguintes informações:
    <td>Você pode editar as [!UICONTROL Atribuições] da tarefa de modelo no cabeçalho.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Dia de Término]</td> 
+   <td role="rowheader">[!UICONTROL Completion Day]</td> 
    <td>Este é o dia na duração do modelo em que a tarefa do modelo deve ser concluída.</td> 
   </tr> 
  </tbody> 
@@ -471,7 +475,7 @@ O cabeçalho do registro de faturamento exibe as seguintes informações:
  <tbody> 
   <tr> 
    <td role="rowheader">Navegação estrutural para objetos principais</td> 
-   <td> <p>Os objetos principais do registro de cobrança são exibidos na navegação estrutural. Clicar no nome de um objeto pai abre esse objeto pai.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Visão geral da navegação estrutural</a>.</p> </td> 
+   <td> <p>Os objetos principais do registro de cobrança são exibidos na navegação estrutural. Clicar no nome de um objeto pai abre esse objeto pai.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Visão geral de navegações estruturais</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ícone de objeto </td> 
@@ -534,7 +538,8 @@ O cabeçalho do usuário exibe as seguintes informações:
   <tr> 
    <td role="rowheader">Nome do usuário e cargo</td> 
    <td> <p> O título do usuário é exibido em todas as letras maiúsculas acima do nome. Não é possível editar o nome do usuário no cabeçalho.</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr> 
     <td role="rowheader">Name of the object type</td> 
     <td> <p>The name of the object type does not display.</p> </td> 
@@ -646,7 +651,7 @@ O cabeçalho da iteração exibe as seguintes informações:
    <td>A [!UICONTROL Linha do Tempo] mostra as datas de início e término da iteração. Não é possível editar a [!UICONTROL Linha do Tempo] no cabeçalho.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Equipe]</td> 
+   <td role="rowheader">[!UICONTROL Team]</td> 
    <td>Não é possível editar a equipe da iteração no cabeçalho. Ao clicar no nome da equipe, você é direcionado para a página da equipe.</td> 
   </tr> 
  </tbody> 
@@ -722,7 +727,7 @@ O cabeçalho do documento exibe as seguintes informações:
  <tbody> 
   <tr> 
    <td role="rowheader">Navegação estrutural com objetos principais</td> 
-   <td> <p>Os objetos principais do documento são exibidos na navegação estrutural. Clicar no nome de um objeto pai abre esse objeto pai.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Visão geral da navegação estrutural</a>.</p> </td> 
+   <td> <p>Os objetos principais do documento são exibidos na navegação estrutural. Clicar no nome de um objeto pai abre esse objeto pai.</p> <p>Para obter mais informações, consulte <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Visão geral de navegações estruturais</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ícone de objeto </td> 
@@ -904,7 +909,7 @@ O cabeçalho da meta exibe as seguintes informações:
    <td>A porcentagem da meta de progresso, indicando quanto da meta foi concluída. Não é possível atualizar o progresso da meta. O Workfront a calcula com base no progresso de cada indicador de progresso na meta.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Proprietário]</td> 
+   <td role="rowheader">[!UICONTROL Owner]</td> 
    <td>Este é o proprietário da meta. Você pode atualizar manualmente o proprietário da meta. Usuários, equipes, grupos ou sua organização podem ser proprietários de metas.</td> 
   </tr> 
   <tr> 
@@ -912,7 +917,7 @@ O cabeçalho da meta exibe as seguintes informações:
    <td>O período durante o qual a meta deve ser concluída. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Condição]</td> 
+   <td role="rowheader">[!UICONTROL Condition]</td> 
    <td>A condição da meta indica se a meta está no destino para ser concluída no prazo ou se está atrasada </td> 
   </tr> 
   <tr> 

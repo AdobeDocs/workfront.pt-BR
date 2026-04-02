@@ -7,20 +7,22 @@ description: Há várias maneiras de usar as prioridades de projetos que não se
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '610'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# Entender e atualizar as prioridades de projeto
+# Entender e atualizar as prioridades do projeto
 
 Há várias maneiras de usar as prioridades de projetos que não se comunicam entre si. Recomendamos que você selecione uma das prioridades de projetos que corresponda às suas necessidades e faça referência a ela ao categorizar a importância de seus projetos.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +34,7 @@ Há várias maneiras de usar as prioridades de projetos que não se comunicam en
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
    <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +52,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +78,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Tipos de prioridade de projeto no Adobe Workfront
 

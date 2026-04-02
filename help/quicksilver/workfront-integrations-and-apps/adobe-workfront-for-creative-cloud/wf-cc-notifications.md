@@ -6,10 +6,12 @@ description: Você pode receber notificações na Adobe Creative Cloud de [!DNL 
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -25,7 +27,7 @@ As notificações estão disponíveis nos seguintes aplicativos Adobe Creative C
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +36,8 @@ As notificações estão disponíveis nos seguintes aplicativos Adobe Creative C
  </col> 
  <tbody> 
   <tr> 
-   <!--<td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <!--
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -42,7 +45,8 @@ As notificações estão disponíveis nos seguintes aplicativos Adobe Creative C
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Produtos adicionais</td> 
    <td>Você deve ter uma licença [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront].</td> 

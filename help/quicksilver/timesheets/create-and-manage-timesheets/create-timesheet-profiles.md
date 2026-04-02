@@ -6,10 +6,12 @@ description: Você pode criar, editar e atribuir perfis de planilha de horas que
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: b0b9b80b4eb718e3e131ee0cd022f54cb906f187
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1584'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -27,7 +29,7 @@ Para obter mais informações sobre como criar uma folha de horas manualmente, c
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto">
  <col> 
@@ -40,7 +42,7 @@ Para obter mais informações sobre como criar uma folha de horas manualmente, c
   <tr> 
    <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td>
   </tr> 
   <tr> 
@@ -56,7 +58,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Criar ou editar um perfil de planilha de horas
 
-<!--Old info: 
+<!--
+Old info: 
 <div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
 <p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>

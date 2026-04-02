@@ -6,10 +6,12 @@ description: Você pode compartilhar uma pasta e seu conteúdo na área Document
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -30,7 +32,8 @@ Você pode compartilhar uma pasta e seu conteúdo na área Documentos.
 
 ## Requisitos de acesso
 
-<!--drafted for P&P
+<!--
+drafted for P&P
 (I am putting Contributor and higher here because this is what I found in testing. Normally, Review equals Light but I found out that Contributor can also have manage rights to documents and can share them.)
 
 <table style="table-layout:auto"> 
@@ -88,7 +91,7 @@ Você pode compartilhar uma pasta e seu conteúdo na área Documentos.
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

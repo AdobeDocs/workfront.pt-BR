@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '5686'
 ht-degree: 2%
@@ -15,7 +17,7 @@ ht-degree: 2%
 
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=pt-BR ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -588,7 +590,7 @@ Para obter mais informações, consulte [Visão geral dos campos da fórmula](/h
    >
    >* Você pode fazer referência a um campo que esteja a até 4 campos (e objetos) de distância do tipo de registro atual. Por exemplo, se você estiver criando um campo de fórmula para um tipo de registro Atividade (1) e a Atividade estiver conectada ao tipo de registro Campanha (2) que está conectado a um Projeto Workfront (3), poderá fazer referência ao campo Orçamento do projeto (4) na fórmula que está sendo criada para o tipo de registro Atividade.
    >
-   >![Exemplo de fórmula do orçamento do projeto com quatro campos removidos &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Exemplo de fórmula do orçamento do projeto com quatro campos removidos ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Opcional) Clique em **Maximizar** para abrir a caixa Fórmula em uma área maior.
@@ -624,7 +626,7 @@ Para obter mais informações, consulte [Visão geral dos campos da fórmula](/h
 
 ### People
 
-Você pode usar o tipo de campo Pessoas para adicionar um usuário <!--, job role, or team--> a um registro. Este é um campo de digitação antecipada, e você pode adicionar somente usuários<!--, roles, or teams--> que já existem em sua instância do Workfront.
+Você pode usar o tipo de campo Pessoas para adicionar um usuário a um registro. Este é um campo de digitação antecipada, e você pode adicionar somente usuários<!--, roles, or teams--> que já existem em sua instância do Workfront.
 
 >[!TIP]
 >

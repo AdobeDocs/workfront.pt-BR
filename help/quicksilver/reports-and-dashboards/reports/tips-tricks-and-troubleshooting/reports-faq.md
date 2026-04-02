@@ -7,7 +7,9 @@ description: Perguntas frequentes sobre relatórios
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 4%
@@ -74,17 +76,17 @@ Meu cálculo é:
 
 ### Responder
 
-A maioria dos campos que usam horas no Workfront é armazenada em minutos. Ao usar esses campos em um cálculo, o resultado será, na maioria das vezes, em minutos. Para obter o resultado em horas, você deve dividir o resultado do cálculo ou o campo ao qual você está fazendo referência por 60.
+A maioria dos campos que usam horas no Workfront é armazenada em minutos. Ao usar esses campos em um cálculo, o resultado será, na maioria das vezes, em minutos. Para obter o resultado em horas, é necessário dividir o resultado do cálculo ou o campo ao qual você está fazendo referência por 60.
 
-As Horas Planejadas são armazenadas em minutos.
+As horas planejadas são armazenadas em minutos.
 
-Dependendo do campo Horas Reais que você deseja usar para o cálculo, as fórmulas corretas são:
+Dependendo do campo Horas Reais que você deseja usar para o cálculo, as fórmulas corretas serão:
 
-* Para Horas Reais Herdadas armazenadas em minutos:
+* Para as Horas Efetivas herdadas que são armazenadas em minutos:
 
   `valueexpression=SUB(workRequired,actualWorkRequired)/60`
 
-* Para Horas Reais armazenadas em horas:
+* Para Horas efetivas armazenadas em horas:
 
   `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
@@ -115,15 +117,15 @@ Para obter informações sobre modificação de filtros e agrupamentos, consulte
 O relatório ou calendário pode ter uma variável de filtro curinga que aponta para o usuário que está conectado. Nesse caso, o relatório mostra informações com base no usuário que está conectado. Ajuste o filtro para remover o curinga que aponta para o usuário conectado.\
 ![Variável de filtro de ID de usuário](assets/qs--user.id-filter-variable-350x79.png)
 
-Para obter uma lista completa de visão geral das variáveis de filtro com curinga baseado no usuário, consulte [Visão geral das variáveis de filtro com curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Para obter uma lista completa de visão geral das variáveis de filtro Curinga com base no usuário, consulte [Visão geral das variáveis de filtro curinga](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-## Por que os dados do meu relatório parecem incompletos?
+## Por que os dados no meu relatório parecem incompletos?
 
 ### Responder
 
-Isso pode acontecer na maioria dos casos se você tiver um acesso limitado que o impede de ver itens no sistema. Além disso, os itens que você deseja ver não são compartilhados com você.
+Isso pode acontecer na maioria dos casos se você tiver um acesso limitado que o impeça de ver itens no sistema. Além disso, os itens que você deseja ver não são compartilhados com você.
 
-O criador do relatório pode editá-lo para executá-lo com os direitos de acesso de um administrador do sistema ou qualquer usuário do Plano que tenha acesso para ver os dados.
+O criador do relatório pode editá-lo para executá-lo com os direitos de acesso de um administrador do sistema ou de qualquer usuário do Plano que tenha acesso para ver os dados.
 
 Para obter mais informações, consulte [Executar e entregar um relatório com direitos de acesso de outro usuário](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
@@ -144,12 +146,12 @@ Para ver todas as tarefas ou problemas atribuídos a você, seja você o Proprie
 
 1. Selecione o modificador **Equal**.
 1. Comece digitando *$$USER.ID* na caixa de texto e selecione-o na lista suspensa exibida.\
-   Isso garante que você veja todas as tarefas e problemas atribuídos ao usuário conectado. Você pode substituir o curinga por um nome de usuário específico.\
+   Isso garante que você veja todas as tarefas e problemas atribuídos ao usuário conectado. É possível substituir o curinga por um nome de usuário específico.\
    ![Tarefas atribuídas a mim](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
 1. Clique em **Salvar + Fechar**.
 
-## Por que os links Adicionar ocorrências/Adicionar tarefas não estão aparecendo na parte inferior das minhas listas de ocorrências e tarefas em um projeto?
+## Por que os links Adicionar problemas/Adicionar tarefas não aparecem na parte inferior das minhas Listas de problemas e tarefas em um projeto?
 
 ### Responder
 
@@ -157,10 +159,10 @@ Primeiro, verifique se você tem o acesso e as permissões corretas para adicion
 
 No entanto, há algumas coisas que podem impedir a exibição desses links:
 
-* Se o filtro rápido for aplicado a essas listas, os vínculos não serão exibidos. Remova o filtro rápido e os links deverão ser exibidos para que você possa adicionar problemas e tarefas aos seus projetos.\
-  Para obter informações sobre o filtro rápido, consulte [Introdução às listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+* Se você tiver o filtro rápido aplicado a essas listas, os links não serão exibidos. Remova o filtro rápido e os links devem ser exibidos para que você possa adicionar problemas e tarefas aos seus projetos.\
+  Para obter informações sobre o filtro rápido, consulte [Introdução a listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-* Se você tiver um **Agrupamento** aplicado a essas listas, os links não serão exibidos. Remova o **Agrupamento** e os links devem ser exibidos para que você possa adicionar problemas e tarefas aos seus projetos.\
+* Se você tiver um **Agrupamento** aplicado a essas listas, os links não serão exibidos. Remova o **Agrupamento** e os links deverão ser exibidos para que você possa adicionar problemas e tarefas aos seus projetos.\
   Para obter informações sobre como criar Agrupamentos, consulte [Visão geral sobre Agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 * Se você tiver uma **Exibição** aplicada a estas listas que tenha uma moeda selecionada diferente da moeda padrão para o projeto, os links não serão exibidos. Altere a **Exibição** para a **Moeda Original do Projeto** e os links deverão ser exibidos para que você possa adicionar problemas e tarefas aos seus projetos.\
@@ -178,21 +180,21 @@ As informações podem ser atualizadas manualmente em um relatório em cache.\
 Para obter mais informações sobre como atualizar um relatório em cache, consulte [Executar um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
 
 As informações podem ser atualizadas manualmente em um painel armazenado em cache.\
-Para obter mais informações sobre como atualizar um painel armazenado em cache, consulte a seção [Exibir painéis](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) no artigo [Introdução aos painéis](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+Para obter mais informações sobre como atualizar um painel em cache, consulte a seção [Exibir painéis](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) no artigo [Introdução aos painéis](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 ## Posso alterar o proprietário de um relatório?
 
 ### Responder
 
-Você não pode alterar o proprietário de um relatório. No entanto, o usuário que criou o relatório pode permitir que outros usuários editem o relatório. A maneira como você pode permitir que os usuários editem um relatório depende do tipo de usuário que você é.
+Você não pode alterar o proprietário de um relatório. No entanto, o usuário que criou o relatório pode permitir que outros usuários editem o relatório. A maneira de permitir que os usuários editem um relatório depende do tipo de usuário que você é.
 
-* Os administradores do sistema podem permitir que os usuários com uma licença de Plano editem relatórios configurando a opção Editar na linha Relatórios para incluir o acesso a Criar um relatório.\
+* Os administradores de sistema podem permitir que usuários com uma licença de Plano editem relatórios configurando a opção Editar na linha Relatórios para incluir o acesso a Criar um relatório.\
   Para obter mais informações, consulte [Conceder acesso a relatórios, painéis e calendários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-* Qualquer usuário final com acesso para criar e compartilhar relatórios pode permitir que outros editem relatórios individuais compartilhando-os e dando a outros usuários permissões de Gerenciamento para eles.\
+* Qualquer usuário final com acesso para criar e compartilhar relatórios pode permitir que outros editem relatórios individuais, compartilhando-os e dando a outros usuários permissões de gerenciamento para eles.\
   Para obter mais informações, consulte [Compartilhar um relatório no Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
-Se você tiver permissões para exibir ou gerenciar um relatório, também poderá fazer uma cópia do relatório, que você será o proprietário por padrão. Para saber mais sobre como copiar um relatório, consulte [Criar uma cópia de um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Se você tiver permissões para exibir ou gerenciar um relatório, também poderá fazer uma cópia dele, da qual será o proprietário por padrão. Para saber mais sobre como copiar um relatório, consulte [Criar uma cópia de um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## Por que não posso acessar um relatório de propriedade de um usuário desativado?
 
@@ -206,16 +208,16 @@ Para saber mais sobre o **Executar este Relatório com o campo Direitos de Acess
 
 ### Responder
 
-Quando você exclui um usuário, ainda pode acessar qualquer relatório que ele criou. No entanto, quaisquer painéis que incluam o relatório também são excluídos. Isso significa que você não pode mais acessar o seguinte:
+Ao excluir um usuário, você ainda pode acessar todos os relatórios criados por ele. No entanto, todos os painéis que incluíram o relatório também são excluídos. Isso significa que não é mais possível acessar o seguinte:
 
 * Um painel que contém o relatório, incluindo painéis no painel esquerdo de um objeto
 
 Para saber mais sobre as implicações da exclusão de um usuário, consulte [Excluir usuários](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
-Se você tiver acesso de Exibição ao relatório, poderá fazer o seguinte:
+Se você tiver acesso de Visualização ao relatório, poderá fazer o seguinte:
 
-1. Crie uma cópia do relatório.\
+1. Criar uma cópia do relatório.\
    Para saber como criar uma cópia de um relatório, consulte [Criar uma cópia de um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 1. Atualize o painel para incluir o relatório copiado.\
-   Para saber como editar um painel, consulte [Editar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).
+   Para aprender a editar um painel, consulte [Editar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

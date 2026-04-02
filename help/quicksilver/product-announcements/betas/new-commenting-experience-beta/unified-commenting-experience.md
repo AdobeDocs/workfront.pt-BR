@@ -9,10 +9,12 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -61,7 +63,8 @@ Os seguintes recursos foram removidos da nova experiência:
 * A configuração &quot;Mostrar o percentual concluído na atualização do status&quot; ao editar a caixa de perfil de um usuário será removida. A funcionalidade de atualizar o percentual concluído de uma tarefa ou problema foi removida.
 
 
-<!--removed this note on November 28, 2023, when this limitation was removed: 
+<!--
+removed this note on November 28, 2023, when this limitation was removed: 
 
 >[!NOTE]
 >
@@ -94,9 +97,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Criar/ler/responder/excluir comentários 
    </td>
-   <td>✓ µ 
+   <td>✓ 
   </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
 
 <td> 
@@ -106,9 +109,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Rich text (exclui aspas e emojis)
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
 
 <td> 
@@ -118,9 +121,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td>Rich text (emojis)
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
    <td> 
    </td>
@@ -130,9 +133,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td>Rich text (aspas de bloco)
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
-   <td> ✓ µ
+   <td> ✓
    </td>
     <td> 2 o trim. de 2023
    </td>
@@ -142,9 +145,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td> Citar comentários
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
-   <td> ✓ µ
+   <td> ✓
    </td>
    <td> 2 o trim. de 2023
    </td>
@@ -153,9 +156,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Reagir a comentários (Curtir) 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -164,9 +167,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Anexar imagens a comentários 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
       <td> 
    </td>
@@ -175,9 +178,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Marcar pessoas em comentários 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -188,7 +191,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
    <td> 
    </td>
@@ -198,7 +201,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
    <td> 
    </td>
@@ -207,9 +210,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td>Comentários privados de uma empresa 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -217,7 +220,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Desfazer postagem de um comentário 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
    <td>Substituído pelo comentário de edição 
    </td>
@@ -227,7 +230,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Desativar atualizações do sistema 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
    <td>Substituído pela guia Atividade 
    </td>
@@ -239,7 +242,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> ✓ µ
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -247,9 +250,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Salvar rascunhos de comentários ao sair da página 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -259,7 +262,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
    <td> 
    </td>
@@ -267,9 +270,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Registrar de tempo 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
    <td> 
    </td>
@@ -277,7 +280,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
     <tr>
    <td>Copiar link da discussão 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
    <td> Substituído pelo link Copiar
    </td>
@@ -287,7 +290,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Copiar link do comentário 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
    <td> Substituído pelo link Copiar
    </td>
@@ -297,9 +300,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Citar texto de comentário 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
-   <td>✓ µ
+   <td>✓
    </td>
   <td>2 o trim. de 2023 
    </td>
@@ -307,9 +310,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Copiar texto do corpo 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
-   <td> ✓ µ
+   <td> ✓
    </td>
    <td>
    </td>
@@ -319,7 +322,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> ✓ µ
+   <td> ✓
    </td>
    <td>1º trim. de 2024 
    </td>
@@ -331,7 +334,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
    </td>
    <td> 
    </td>
-   <td> ✓ µ
+   <td> ✓
    </td>
    <td>1º trim. de 2024 
    </td>
@@ -340,9 +343,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td>Arrastar e soltar imagens em um comentário
    </td>
-   <td> ✓ µ
+   <td> ✓
    </td>
-   <td> ✓ µ
+   <td> ✓
    </td>
    <td>1º trim. de 2024 
    </td>
@@ -351,7 +354,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td>Editar formulário personalizado 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -361,7 +364,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
   <tr>
    <td>Capacidade de editar Status, Condição, Data de confirmação ao comentar 
    </td>
-   <td>✓ µ 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -371,7 +374,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td>Responder a atualizações do sistema 
    </td>
-   <td> ✓ µ
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -381,9 +384,9 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td>Exibir "em nome de" ao adicionar comentários conectados como outro usuário
    </td>
-   <td> ✓ µ
+   <td> ✓
    </td>
-   <td> ✓ µ
+   <td> ✓
    </td>
    <td>
    </td>
@@ -392,7 +395,7 @@ A tabela a seguir ilustra os recursos que estarão disponíveis na nova experiê
 <tr>
    <td>Capacidade do Proprietário do Projeto de alterar a Data de Conclusão Planejada de uma tarefa quando a Data de Compromisso é alterada na seção Atualizações
    </td>
-   <td> ✓ µ
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -501,7 +504,8 @@ Depending on what objects you access the commenting experience for, you might se
 -->
 
 
-<!--before August 17: 
+<!--
+before August 17: 
 
 The new commenting experience is currently supported for the following objects:
 
@@ -522,7 +526,8 @@ The new commenting experience is currently supported for the following objects:
 
 -->
 
-<!--Depending on the environment you access the commenting experience you can do one of the following: 
+<!--
+Depending on the environment you access the commenting experience you can do one of the following: 
 
 * Enable the commenting experience Beta in the Production environment
 * <span class="preview">Enable the legacy commenting experience in the Preview  environment </span>

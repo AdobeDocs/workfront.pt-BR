@@ -3,14 +3,16 @@ content-type: overview
 product-area: portfolios
 navigation-topic: portfolios-overview
 title: Entender a metodologia da Portfolio
-description: Uma Portfolio é uma coleção de projetos que têm características unificadoras. Esses projetos geralmente competem pelos mesmos recursos, orçamento ou período. Você pode dividir Portfólios em Programas e associar os projetos aos Programas antes que eles sejam adicionados a uma Portfolio.
+description: Uma Portfolio é uma coleção de projetos que têm características unificadoras. Esses projetos geralmente competem pelos mesmos recursos, orçamento ou período. Você pode dividir portfólios em programas e associar os projetos aos programas antes que eles sejam adicionados a um portfólio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -22,7 +24,7 @@ O Portfolio ou o Project Portfolio Management (PPM) é o processo de priorizar e
 
 Para obter informações gerais sobre PPM, consulte [visão geral do Gerenciamento do Portfolio](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md).
 
-No Adobe Workfront, um portfólio é uma coleção de projetos que têm características unificadas. Esses projetos geralmente competem pelos mesmos recursos, orçamento ou período. Você pode dividir Portfólios em Programas e associar os projetos aos Programas antes que eles sejam adicionados a uma Portfolio.
+No Adobe Workfront, um portfólio é uma coleção de projetos que têm características unificadas. Esses projetos geralmente competem pelos mesmos recursos, orçamento ou período. Você pode dividir portfólios em programas e associar os projetos aos programas antes que eles sejam adicionados a um portfólio.
 
 Você pode usar Portfólios e programas para organizar projetos. Por meio da organização de projetos, é possível comparar projetos semelhantes e determinar onde os recursos serão mais bem gastos.
 
@@ -34,7 +36,7 @@ Este artigo contém informações gerais sobre portfólios no Workfront.
 
 <!--leave the table uncollapsed as this article is about access-->
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +51,7 @@ Este artigo contém informações gerais sobre portfólios no Workfront.
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>[!UICONTROL Padrão]</p>
-   <p>[!UICONTROL Plano]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -69,7 +71,8 @@ Este artigo contém informações gerais sobre portfólios no Workfront.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,7 +100,8 @@ Este artigo contém informações gerais sobre portfólios no Workfront.
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Compreender a metodologia de portfólio do [!DNL Adobe Workfront]
 

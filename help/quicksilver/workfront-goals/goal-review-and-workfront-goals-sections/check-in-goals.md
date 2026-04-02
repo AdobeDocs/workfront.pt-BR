@@ -6,7 +6,9 @@ description: Você deve revisar suas metas periodicamente e atualizar o progress
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 12%
@@ -74,7 +76,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto">
 <col>
@@ -126,7 +129,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Pré-requisitos
 
@@ -294,7 +298,8 @@ Para atualizar o progresso das metas:
 
 1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) > **Metas** no canto superior direito.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   <!--
+    Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    Isso abre a lista de metas. Todas as metas que você tem acesso para visualizar são exibidas por padrão.

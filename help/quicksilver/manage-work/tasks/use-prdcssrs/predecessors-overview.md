@@ -7,20 +7,23 @@ description: Um predecessor é a tarefa da qual outra tarefa (chamada de tarefa 
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
 
 ---
 
-# Visão geral das predecessoras da tarefa
+# Visão geral de predecessores da tarefa
 
 <!--Audited: 12/2023-->
 
 <!-- 
 
-CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! -->
+CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE!
+-->
 
 Um predecessor é a tarefa da qual outra tarefa (chamada de tarefa sucessora ou dependente) depende. O Adobe Workfront oferece suporte a cinco tipos de dependências de predecessoras. Para entender as dependências de predecessoras, consulte [Visão geral dos tipos de dependência de tarefa](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 

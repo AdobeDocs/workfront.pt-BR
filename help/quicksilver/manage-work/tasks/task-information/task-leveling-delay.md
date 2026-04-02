@@ -6,14 +6,16 @@ description: Às vezes, pode haver conflitos entre agendamentos de tarefas em um
 author: Alina
 feature: Work Management
 exl-id: 6695448c-76ce-460c-aa59-63a3d5e2e18d
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 9%
+ht-degree: 15%
 
 ---
 
-# Atualizar Atraso de Nivelamento da Tarefa
+# Atualizar atraso de nivelamento da tarefa
 
 Às vezes, pode haver conflitos entre agendamentos de tarefas em um projeto. Você pode nivelar recursos ou resolver conflitos de recursos reprogramando recursos e tarefas para que todas as tarefas possam ser concluídas dentro de um cronograma realista. Para obter informações sobre tarefas de nivelamento, consulte [Nivelar Recursos no Gráfico de Gantt](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
 
@@ -53,7 +55,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +79,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    <td> <p>Manage permissions to Tasks </p> <p>Contribute or higher permissions to Projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Adicionar um Atraso de Nivelamento a uma tarefa
 

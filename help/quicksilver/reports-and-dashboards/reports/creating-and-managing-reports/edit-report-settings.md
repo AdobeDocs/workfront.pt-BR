@@ -6,7 +6,9 @@ description: É possível editar as configurações de um relatório para defini
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 14%
@@ -90,11 +92,13 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
      </tr> 
      <tr> 
       <td role="rowheader">Mostrar a exibição Grade de Recursos na guia Detalhes</td> 
-      <td> <p>(Somente Relatório do Usuário) Selecione esta opção para exibir a Grade de Recursos na guia Detalhes do relatório.</p> <p>Nota: Ao aplicar a visualização da Grade de Recursos a um relatório do usuário, o relatório mostra apenas os projetos que estão no status Atual. Se quiser ver projetos com qualquer outro status, use a guia Utilização do Usuário na área Pessoas da Barra de Navegação Global e aplique a Exibição da Grade de Recursos lá. <!--
+      <td> <p>(Somente Relatório do Usuário) Selecione esta opção para exibir a Grade de Recursos na guia Detalhes do relatório.</p> <p>Nota: Ao aplicar a visualização da Grade de Recursos a um relatório do usuário, o relatório mostra apenas os projetos que estão no status Atual. Se quiser ver projetos com qualquer outro status, use a guia Utilização do Usuário na área Pessoas da Barra de Navegação Global e aplique a Exibição da Grade de Recursos lá.
+      <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)
          </MadCap:conditionalText>
-        --></p> </td> 
+        -->
+        </p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Mostrar uma exibição especial na guia Detalhes</td> 

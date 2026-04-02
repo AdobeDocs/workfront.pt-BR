@@ -6,22 +6,26 @@ description: É possível editar informações nos portfólios criados por você
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: ce986a912c2ee231b9dc2e1c7a3e9587b20aa0ba
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1080'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 # Editar portfólios
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 É possível editar informações nos portfólios criados por você ou criadas por outros usuários, caso eles tenham sido compartilhados com você.
 
@@ -29,7 +33,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +46,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td role="rowheader">Licenças do Adobe [!DNL Workfront]</td> 
    <td> <p>[!UICONTROL Padrão]</p>
-   <p>[!UICONTROL Plano]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso</td> 
@@ -60,7 +64,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,7 +92,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Editar portfólios
 
@@ -177,12 +183,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nome]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td> <p>Atualize o nome do portfólio. </p> <p><b>DICA</b></p> 
       <p>O campo Nome não está disponível quando você seleciona mais de um portfólio. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Descrição]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td> <p>Digite uma descrição para o Portfolio para indicar o que é exclusivo sobre ele. </p> </td> 
      </tr> 
      <tr> 
@@ -190,7 +196,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td> <p>Comece digitando o nome de um usuário que deseja indicar como gerente de portfólio e, em seguida, selecione-o quando ele aparecer na lista. É o mesmo que [!UICONTROL Proprietário do Portfolio]. Essa é a pessoa que pode supervisionar o trabalho definido nos projetos do portfólio e aprovar o Business Case.</p> <p>Importante: quando você designa alguém como o Portfolio Manager, ele automaticamente obtém permissões do [!UICONTROL Manager] para o portfólio, os programas e os projetos no portfólio. </p> <p>Dica: você pode atualizar rapidamente o gerente de portfólio no cabeçalho do portfólio. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Grupo]</td> 
+      <td role="rowheader">[!UICONTROL Group]</td> 
       <td> <p>Adicione o nome de um único grupo se ele estiver associado ao portfólio ou tiver responsabilidade de concluí-lo. </p> <p>Dica:  <p>Ao acessar o campo [!UICONTROL Group] a partir da página [!UICONTROL Portfolio Details], faça o seguinte: </p> <p>Você pode verificar se está selecionando o grupo correto passando o mouse sobre ele e clicando no ícone [!UICONTROL information] <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>Esta opção não está disponível na caixa [!UICONTROL Editar Portfolio]. </p> </p> </td> 
      </tr> 
      <tr> 

@@ -6,18 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1843'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Adicionar uma página Registros conectados a um registro
+# Adicionar uma página de registros conectados a um registro
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Você pode exibir informações de registros ou objetos conectados adicionando uma guia de uma página Registros conectados a um registro no Adobe Workfront Planning. Isso adiciona os registros conectados em uma exibição de tabela à guia.
 
@@ -76,7 +80,7 @@ Considere o seguinte ao adicionar uma página Registros conectados a um registro
    <ul><li><p>Uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar o AEM Assets aos tipos de registro do Planning.</p>
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas da GenStudio</p>
-   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -99,7 +103,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 +++   
 
-## Adicionar uma página Registros conectados a um registro
+## Adicionar uma página de registros conectados a um registro
 
 Você deve primeiro conectar tipos de registro a outros tipos de registro ou projetos Workfront antes de adicionar uma página de registros conectada a um registro.
 
@@ -309,7 +313,7 @@ Os projetos conectados ao registro selecionado são exibidos na exibição de li
    * Clique em **Nova linha** para criar um projeto sem um modelo. O novo projeto é automaticamente conectado ao registro atual.
 
      Para obter mais informações, consulte [Criar objetos do Workfront no Workfront Planning à medida que você os conecta aos registros](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
-   * Clique em **Criar registros &#x200B;** no canto superior direito da exibição para adicionar projetos existentes. Os projetos são conectados imediatamente ao registro selecionado.
+   * Clique em **Criar registros **no canto superior direito da exibição para adicionar projetos existentes. Os projetos são conectados imediatamente ao registro selecionado.
 
    * Passe o mouse sobre um nome de projeto na lista e clique no menu **Mais** [Mais menu](assets/more-menu.png) e clique em **Exibir** para abrir o projeto em outra guia
 
@@ -332,7 +336,8 @@ Os projetos conectados ao registro selecionado são exibidos na exibição de li
 
    Para obter mais informações sobre como gerenciar objetos em uma exibição de lista, consulte [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
 
-<!-- this is repetitive from an earlier section above: 
+<!--
+ this is repetitive from an earlier section above: 
 
 ## Manage multiple views from the connected records page
 
@@ -361,13 +366,16 @@ To manage multiple views from the connected records page:
    * **Export** 
    * **Delete**
 
-   <!--not possible right now: * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
+   <!--
+   not possible right now: * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
       >[!TIP]
       >
-      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types. -->
+      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types.
+      -->
 
 
-<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+<!--
+No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
          * Portfolios
          * Programs
          * Groups

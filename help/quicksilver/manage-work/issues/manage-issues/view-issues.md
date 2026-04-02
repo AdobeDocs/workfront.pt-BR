@@ -6,10 +6,12 @@ description: Você pode visualizar os problemas associados a um projeto, tarefa 
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +23,7 @@ Você pode visualizar os problemas associados a um projeto, tarefa ou iteração
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,11 +36,11 @@ Você pode visualizar os problemas associados a um projeto, tarefa ou iteração
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <ul><li><p>Colaborador ou superior</p></li> <li><p>Licença leve ou superior para visualizar os problemas na seção Problemas de um projeto.</p></li>
+   <ul><li><p>Colaborador ou posterior</p></li> <li><p>Licença leve ou superior para visualizar os problemas na seção Problemas de um projeto.</p></li>
 
 Ou
 
-<ul><li><p>Solicitação ou superior</p></li> <li><p>Licença de revisão ou superior para exibir problemas na seção Problemas de um projeto.</p></li></ul> </td> 
+<ul><li><p>Solicitação ou posterior</p></li> <li><p>Licença de revisão ou superior para exibir problemas na seção Problemas de um projeto.</p></li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -55,7 +57,8 @@ Ou
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 

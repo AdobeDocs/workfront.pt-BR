@@ -3,11 +3,13 @@ filename: group-cards-on-board
 content-type: reference
 navigation-topic: boards
 title: Usar grupos em um painel
-description: Você pode agrupar cartões em um painel por destinatário ou por tag. Quando você seleciona uma opção para agrupar, os cartões aparecem em formato de raia.
+description: Você pode agrupar cartões em um quadro por destinatário ou por tag. Quando você seleciona uma opção para agrupar por, os cartões são exibidos em formato de raia.
 author: Courtney
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 14%
@@ -16,11 +18,11 @@ ht-degree: 14%
 
 # Usar grupos em um quadro
 
-Você pode agrupar cartões em um painel por destinatário ou por tag. Quando você seleciona uma opção para agrupar, os cartões aparecem em formato de raia. Cartões não atribuídos ou cartões sem tags aparecem em suas próprias raias.
+Você pode agrupar cartões em um quadro por destinatário ou por tag. Quando você seleciona uma opção para agrupar por, os cartões são exibidos em formato de raia. Cartões não atribuídos ou cartões sem tags aparecem em suas próprias raias.
 
 >[!NOTE]
 >
->Nenhum cartão da coluna de entrada está incluído em um grupo e a coluna de entrada fica oculta quando um grupo é aplicado. Para obter informações sobre a coluna de entrada, consulte [Adicionar uma coluna de entrada a um painel](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Quaisquer cartões na coluna de entrada não estão incluídos em um grupo, e a coluna de entrada está oculta quando um grupo é aplicado. Para obter informações sobre a coluna entrada, consulte [Adicionar uma coluna entrada a um quadro](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Requisitos de acesso
 
@@ -48,27 +50,27 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Agrupar cartões em um painel
+## Agrupar cartões em um quadro
 
 {{step1-to-boards}}
 
-1. Acessar um painel. Para obter mais informações, consulte [Criar ou editar um painel](../../agile/get-started-with-boards/create-edit-board.md).
-1. Clique em **[!UICONTROL Grupo]** para abrir o painel de grupo à esquerda do painel.
+1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
+1. Clique em **[!UICONTROL Grupo]** para abrir o painel de grupo à esquerda do quadro.
 
    >[!NOTE]
    >
-   >A configuração padrão para agrupar por é **[!UICONTROL Nenhuma]**. Você pode selecionar essa opção a qualquer momento para remover um grupo e mostrar apenas as colunas do quadro.
+   >A configuração padrão para agrupar por é **[!UICONTROL Nenhuma]**. Você pode selecionar essa opção a qualquer momento para remover um grupo e mostrar apenas as colunas no quadro.
 
-1. Para agrupar os cartões, selecione **[!UICONTROL Atribuidores]** ou **[!UICONTROL Marcas]**.
+1. Para agrupar os cartões, selecione **[!UICONTROL Atribuídos]** ou **[!UICONTROL Marcas]**.
 
    Os cartões são agrupados automaticamente. Clique na seta ao lado do nome do grupo para recolher e expandir o grupo.
 
-   ![Cartões agrupados em um painel](assets/group-by-assignee.png)
+   ![Cartões agrupados em um quadro](assets/group-by-assignee.png)
 
 1. Selecione o que acontece quando um cartão é movido para outro grupo.
 
-   * **[!UICONTROL Adicionar destinatários] / [!UICONTROL Adicionar marcas]:** os destinatários ou as marcas no novo grupo são adicionados à lista existente de destinatários ou marcas no cartão.
-   * **[!UICONTROL Substituir destinatários] / [!UICONTROL Substituir marcas]:** Os destinatários ou marcas no novo grupo substituem todos os outros destinatários ou marcas e se tornam os únicos destinatários ou marcas no cartão.
+   * **[!UICONTROL Adicionar nos atribuídos] / [!UICONTROL Adicionar em marcas]:** Os atribuídos ou as marcas no novo grupo são adicionados à lista existente de atribuídos ou marcas no cartão.
+   * **[!UICONTROL Substituir responsáveis] / [!UICONTROL Substituir marcas]:** Os responsáveis ou as marcas no novo grupo substituem todos os outros responsáveis ou marcas e tornam-se os únicos atribuídos ou marcas no cartão.
 
    ![[!UICONTROL Agrupar por opções]](assets/group-by-rail.png)
 

@@ -5,7 +5,9 @@ description: No  [!DNL Adobe Workfront], você pode personalizar como uma lista 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 6%
@@ -16,7 +18,7 @@ ht-degree: 6%
 
 <!--Audited: 11/2024-->
 
-No [!DNL Adobe Workfront], você pode personalizar como uma lista é exibida para você. Outros usuários que exibem a lista não veem suas alterações.
+Em [!DNL Adobe Workfront], você pode personalizar como uma lista é exibida para você. Outros usuários que visualizam a lista não visualizam suas alterações.
 
 Você pode fazer as seguintes personalizações:
 
@@ -57,7 +59,7 @@ Para obter informações sobre como modificar as informações exibidas em sua l
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Permissões [!UICONTROL View] ou superiores para o modo de exibição aplicado à lista</p>  </td> 
+   <td> <p>Permissões de [!UICONTROL View] ou superior para o modo de exibição aplicado à lista</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,13 +94,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    >[!TIP]
    >
-   >Por padrão, 2.000 itens são exibidos para listas atualizadas e 100 itens para listas legadas. Se a lista contiver mais de 2.000 itens, não será possível exibir todos os itens em uma página.
+   >Por padrão, 2.000 itens são exibidos para listas atualizadas e 100 itens são exibidos para listas herdadas. Se a lista contiver mais de 2.000 itens, você não poderá exibir todos os itens em uma página.
    >
    >
-   >Para obter o melhor desempenho em listas grandes nas quais os objetos contêm campos de texto formatados, recomendamos limitar esse número a 250.
+   >Para obter o melhor desempenho em listas grandes onde objetos contêm campos de texto formatados, recomendamos limitar esse número a 250.
    >
    >
-   >Para obter mais informações sobre os dois tipos de lista, consulte a seção [A diferença entre as listas atualizadas e herdadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) no artigo [Introdução às listas em [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   >Para obter mais informações sobre os dois tipos de lista, consulte a seção [A diferença entre as listas atualizadas e herdadas](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) no artigo [Introdução a listas em [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
    Os resultados da lista são paginados para mostrar o número selecionado de itens por página. Você pode acessar os resultados em outras páginas clicando nas setas para trás e para frente ou selecionando uma página específica.
 
@@ -112,12 +114,12 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    Para obter mais informações sobre como personalizar a largura e a ordem das colunas em uma lista, consulte o artigo [Modificar a largura e a ordem da coluna](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-1. Para ajustar a ordem de classificação de uma lista, clique em um cabeçalho de coluna para selecioná-lo, pressione e segure a tecla CMD (em [!DNL Mac]) ou a tecla CTRL (em [!DNL Windows]) no teclado e selecione até dois cabeçalhos de coluna adicionais para classificar por eles.
+1. Para ajustar a ordem de classificação de uma lista, clique em um cabeçalho de coluna para selecioná-lo, mantenha pressionada a tecla CMD (em [!DNL Mac]) ou a tecla CTRL (em [!DNL Windows]) no teclado e selecione até 2 cabeçalhos de coluna adicionais para classificar por eles.
 
-   A lista é classificada por cada uma das colunas selecionadas na ordem de sua seleção.
+   A lista é classificada por cada coluna selecionada na ordem de sua seleção.
 
    Todas as modificações feitas na lista são salvas instantaneamente.
 
    >[!NOTE]
    >
-   >Se você estiver classificando grupos na área [!UICONTROL Grupos] da [!UICONTROL Configuração], a exibição hierárquica de grupos e seus subgrupos não será interrompida quando você alterar a maneira como a lista é classificada; os subgrupos permanecem com seus grupos pai. A lista é classificada primeiro por grupos de nível superior. Em seguida, em cada grupo pai, a lista de subgrupos que estão no mesmo nível é classificada em conjunto.
+   >Se você estiver classificando grupos na área [!UICONTROL Grupos] da [!UICONTROL Configuração], o modo de exibição de hierarquia de grupos e seus subgrupos não será interrompido quando você alterar a forma como a lista é classificada; os subgrupos permanecerão com seus grupos pai. A lista é classificada primeiro por grupos de nível superior. Em seguida, em cada grupo principal, a lista de subgrupos que estão no mesmo nível é classificada juntas.

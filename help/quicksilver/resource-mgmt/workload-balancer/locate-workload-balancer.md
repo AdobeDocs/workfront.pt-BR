@@ -7,10 +7,12 @@ description: O Balanceador de carga de trabalho está disponível para vários p
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -38,7 +40,7 @@ Este artigo descreve as áreas em que você pode acessar o Balanceador de carga 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +52,7 @@ Este artigo descreve as áreas em que você pode acessar o Balanceador de carga 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Planejar, ao usar o Balanceador de carga de trabalho na área Recursos; Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p>
        <p><span class="preview">Observação: todos os usuários podem acessar o Balanceador de carga de trabalho em seus próprios perfis de usuário, sem requisitos de licença.</span></p></td>
   </tr> 
@@ -197,4 +199,5 @@ For a project:
    * Assign work to any user that might not be on the project.
 
    * View additional work that users are assigned to on other projects.
-   * Adjust user allocations to work items.-->
+   * Adjust user allocations to work items.
+   -->

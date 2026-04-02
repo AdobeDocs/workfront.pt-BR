@@ -6,10 +6,12 @@ description: Como um Gerenciador de recursos, você pode atribuir trabalho aos u
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2864'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +23,7 @@ Como um Gerenciador de recursos, você pode atribuir trabalho aos usuários e ge
 
 ## Requisitos de acesso {#access-requirements}
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +35,7 @@ Como um Gerenciador de recursos, você pode atribuir trabalho aos usuários e ge
   </tr>
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Planejar, ao usar o Balanceador de carga de trabalho na área Recursos; Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
   </tr>
   <tr> 
@@ -68,13 +70,14 @@ Este artigo descreve como atualizar alocações por hora diárias, semanais ou m
 
 Você pode exibir a alocação de usuários como horas ou como um valor percentual no Balanceador de carga de trabalho. Você pode ajustar horas ou porcentagens.
 
-As alocações de usuário são incluídas no número de Horas Planejadas de um item de trabalho. Para obter informações sobre as Horas Planejadas, consulte [visão geral das Horas Planejadas](../../manage-work/tasks/task-information/planned-hours.md).
+As alocações de usuário são incluídas no número de Horas Planejadas de um item de trabalho. Para obter informações sobre horas planejadas, consulte [Visão geral das horas planejadas](../../manage-work/tasks/task-information/planned-hours.md).
 
 As horas planejadas da tarefa são distribuídas igualmente entre todos os dias na duração da tarefa para o usuário atribuído à tarefa. Por exemplo, se uma tarefa tiver uma Duração de 5 dias e um total de 10 Horas Planejadas, o número de alocações diárias para a tarefa será de 2 horas. A alocação semanal é de 10 horas. Isso significa que um usuário está alocado para trabalhar na tarefa por 2 horas por dia. No entanto, você pode alterar manualmente a alocação diária do usuário usando o Balanceador de carga de trabalho.
 
 >[!CAUTION]
 >
->O Balanceador de carga de trabalho exibe apenas <!--up to 1000 Planned Hours per work item per user, and--> até 1000 dias da duração de um item. As alocações no Balanceador de carga de trabalho são exibidas como zero depois que o limite de 1000 dias é atingido. Recomendamos dividir tarefas em subtarefas menores <!--to accommodate a larger number of Planned Hours or--> por períodos superiores a 1000 dias.
+>O Balanceador de carga de trabalho exibe apenas <!--up to 1000 Planned Hours per work item per user, and--> até 1000 dias da duração de um item. As alocações no Balanceador de carga de trabalho são exibidas como zero depois que o limite de 1000 dias é atingido. Recomendamos dividir tarefas em subtarefas menores para durações superiores a 1000 dias.
+<!--to accommodate a larger number of Planned Hours or-->
 
 Considere o seguinte ao localizar alocações diárias, semanais ou mensais para tarefas ou problemas no Balanceador de carga de trabalho:
 
@@ -206,7 +209,7 @@ Como parte da atribuição de trabalho a usuários, você pode modificar as aloc
 
       >[!NOTE]
       >
-      >O administrador do Workfront decide qual programação usar em seu sistema para calcular a capacidade do usuário na área Gerenciamento de recursos da Configuração. Para obter mais informações, consulte [Configurar preferências de Gerenciamento de Recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+      >O administrador do Workfront decide qual programação usar em seu sistema para calcular a capacidade do usuário na área Gerenciamento de recursos da Configuração. Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 1. Clique no menu **Mais** ![Mais menu](assets/qs-more-menu.png) para um item de trabalho e clique em **Editar alocações**.
 

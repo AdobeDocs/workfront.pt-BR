@@ -6,14 +6,16 @@ description: Você pode aproveitar a funcionalidade Agile para o seu projeto sem
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 5%
+ht-degree: 19%
 
 ---
 
-# Gerenciar um projeto Agile na exibição de Quadro
+# Gerenciar um projeto ágil na visualização de quadro
 
 <!-- Audited: 11/2025 -->
 
@@ -27,7 +29,7 @@ Para obter informações, consulte [Trabalhar em um ambiente Agile](../../../agi
 
 +++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,11 +61,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--old:
+<!--
+old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,7 +95,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    <td> <p>View permissions to the project</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Exibir um projeto na exibição de Quadro

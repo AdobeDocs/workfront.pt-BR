@@ -3,11 +3,13 @@ content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Comparação entre campos personalizados calculados e colunas calculadas
-description: Para agregar vários campos no Adobe Workfront e exibir esse valor agregado em um novo campo, você pode criar um campo personalizado calculado em um formulário personalizado ou em uma coluna calculada em uma exibição.
+description: Para agregar vários campos no Adobe Workfront e exibir esse valor agregado em um novo campo, você pode criar um campo personalizado calculado em um formulário personalizado ou uma coluna calculada em uma exibição.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 15%
@@ -62,7 +64,7 @@ As diferenças entre as duas sintaxes são:
   </tr> 
   <tr> 
    <td> <p>Use o nome dos campos conforme eles aparecem na interface do Workfront.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span>Exemplo de nome de campo usado em um campo personalizado calculado: <code>Planned Completion Date</code>.</p> </td> 
-   <td> <p>Use o nome dos objetos ou campos conforme eles aparecem no banco de dados do Workfront. Os nomes de objetos e campos são escritos em minúsculas ou em caixa alta, se forem nomes compostos. </p> <p>Para obter um inventário de todos os objetos e campos do Workfront à medida que aparecem no banco de dados, consulte o <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span>Exemplo de nome de campo usado em um elemento de relatório personalizado calculado: <code>plannedCompletionDate</code>.</p> </td> 
+   <td> <p>Use o nome dos objetos ou campos conforme eles aparecem no banco de dados do Workfront. Os nomes de objetos e campos são escritos em minúsculas ou em letras maiúsculas, se forem nomes compostos. </p> <p>Para obter um inventário de todos os objetos e campos do Workfront à medida que aparecem no banco de dados, consulte <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span>Exemplo de nome de campo usado em um elemento de relatório personalizado calculado: <code>plannedCompletionDate</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Colocar nomes de campo entre parênteses ou chaves</td> 
@@ -79,9 +81,9 @@ Para obter mais informações sobre a sintaxe que você deve usar em uma coluna 
 
 ## Quando usar campos personalizados calculados
 
-* Quando você deseja agrupar os resultados agregados em um relatório ou mostrar essas informações em um gráfico
+* Quando quiser agrupar os resultados agregados em um relatório ou quiser mostrar essas informações em um gráfico
 * Quando quiser agregar os dados além da agregação calculada no campo
-* Quando você não está preocupado com a pontualidade dos dados, pois eles não são atualizados e podem mudar com o tempo
+* Quando você não estiver preocupado com a atualidade dos dados, pois eles não são atualizados e podem mudar com o tempo
 
 ## Ações que acionam a atualização de um campo personalizado calculado
 
@@ -95,11 +97,11 @@ Para obter mais informações, consulte [Editar informações em campos de formu
 
 ## Quando usar colunas calculadas em uma exibição
 
-* Quando você deseja que dados em tempo real estejam disponíveis em um relatório.
+* Quando quiser que os dados em tempo real estejam disponíveis em um relatório.
 
-  As exibições calculadas são sempre novas porque o cálculo é feito quando o relatório é executado ou a exibição é aplicada.
+  As exibições calculadas são sempre atualizadas porque o cálculo é feito quando o relatório é executado ou a exibição é aplicada.
 
-* Quando você não tem planos de agrupar por resultados agregados nem usar essas informações em um gráfico.
+* Quando você não tiver planos de agrupar por resultados agregados nem usar essas informações em um gráfico.
 * Quando você não planeja agregar os dados além da agregação calculada na coluna (os dados podem ser agregados apenas uma vez).
 * Quando quiser que o cálculo inclua uma referência à data atual usando os curingas $$TODAY ou $$NOW.
 
@@ -107,11 +109,11 @@ Para obter mais informações, consulte [Editar informações em campos de formu
   >
   >Não use essa referência em campos personalizados calculados porque eles só são recalculados quando o objeto anexado é editado. Esses tipos de cálculos ficam desatualizados.
 
-## Exemplos de campos personalizados e colunas calculados
+## Exemplos de campos e colunas personalizados calculados
 
-Para exemplos de campos personalizados calculados, consulte [Dados personalizados calculados em relatórios](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
+Para obter exemplos de campos personalizados calculados, consulte [Dados personalizados calculados em relatórios](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
-Para exemplos de colunas personalizadas calculadas em exibições, consulte os seguintes artigos:
+Para obter exemplos de colunas personalizadas calculadas em exibições, consulte os seguintes artigos:
 
 * [Visão geral dos usos comuns do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
 * [Exemplos de exibição personalizada, filtros e agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

@@ -2,11 +2,13 @@
 product-area: reporting
 navigation-topic: using-built-in-reports
 title: Ícones de status integrados nas visualizações
-description: Você pode adicionar o campo Ícones de status internos como uma coluna nas exibições para melhorar a visibilidade dos pontos principais sobre os objetos.
+description: Você pode adicionar o campo Ícones de status como uma coluna em suas visualizações para melhorar a visibilidade sobre pontos-chave em seus objetos.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 11%
@@ -19,7 +21,7 @@ ht-degree: 11%
 
 <!--(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.)-->
 
-Você pode adicionar o campo Ícones de status internos como uma coluna nas exibições para melhorar a visibilidade dos pontos principais sobre os objetos. Usando os Ícones de status, você pode ver rapidamente quando as seguintes condições existem:
+Você pode adicionar o campo Ícones de status como uma coluna em suas visualizações para melhorar a visibilidade sobre pontos-chave em seus objetos. Ao usar os Ícones de status, você pode ver rapidamente quando as seguintes condições existem:
 
 * Um objeto tem documentos em anexo
 * Um objeto está associado a um processo de aprovação
@@ -30,18 +32,18 @@ Você pode adicionar o campo Ícones de status internos como uma coluna nas exib
 
 Considere o seguinte:
 
-* A maioria dos indicadores no campo Ícones de status são links rápidos para o objeto ou a área real do objeto que eles representam.
+* A maioria dos indicadores no campo Ícones de status são links rápidos para o objeto ou área real do objeto que eles representam.
 
-* Se algum item representado pelos ícones estiver ausente do objeto, o ícone que representa o item ausente aparecerá esmaecido na coluna Ícones de status em vez de uma imagem colorida.
+* Se qualquer um dos itens representados pelos ícones estiver ausente no objeto, o ícone que representa o item ausente aparecerá esmaecido na coluna Ícones de status em vez de uma imagem colorida.
 
   ![task_status_icons.png](assets/task-status-icons.png)
 
   Para obter mais informações, consulte a seção [Visão Geral de Ícones e Sinalizadores de Status](#overview-of-status-icons-and-flags) neste artigo.
 
-* Em algumas exibições, o campo **Ícones de Status** é chamado de **Sinalizadores** ou **Ícones de Exibição**.\
+* Em algumas exibições, o campo **Ícones de Status** é denominado **Sinalizadores** ou **Ícones de Exibição**.\
   Não é possível personalizar a aparência dos ícones incluídos no campo Ícones de status.
 
-* Não é possível editar o número de ícones no campo Ícones de status.
+* Não é possível editar o número de ícones no campo Status Icons.
 
 ## Requisitos de acesso
 
@@ -77,11 +79,11 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Adicionar o campo Ícones de status a uma exibição
+## Adicionar o campo Ícones de Status a uma exibição
 
 Algumas exibições e relatórios internos já têm o campo Ícones de status incluído.
 
-Não é possível adicionar o campo Ícones de status a todas as exibições.
+Não é possível adicionar o campo Ícones de Status a todas as exibições.
 
 Para adicionar o campo Ícones de status a uma exibição personalizada criada do zero:
 
@@ -95,33 +97,33 @@ Para adicionar o campo Ícones de status a uma exibição personalizada criada d
    * Despesas
    * Documentos
    * Usuários\
-     Apenas esses objetos têm o campo **Ícones de Status** disponível.\
-     Para obter informações sobre listas de objetos, consulte [Introdução às listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+     Somente estes objetos têm o campo **Ícones de Status** disponível.\
+     Para obter informações sobre listas de objetos, consulte [Introdução a listas no Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-1. No menu suspenso **Exibição**, selecione **Nova Exibição**.
+1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
 
 1. Clique em **Adicionar coluna**.
-1. Na caixa **Mostrar nesta coluna**, comece a digitar qualquer um dos seguintes nomes de campo e selecione-o quando ele aparecer na lista:
+1. Na caixa **Mostrar nesta coluna**, comece digitando qualquer um dos seguintes nomes de campo e, em seguida, selecione-o quando ele aparecer na lista:
 
    * *Ícones de Status*
    * *Sinalizadores*
-   * *Exibir Ícones* (somente em exibições de Documento).
+   * *Exibir Ícones* (somente em Exibições de documentos).
 
-   Os ícones internos são listados sob qualquer um desses nomes.\
-   O modo de exibição Modelo contém os **Ícones de Status** e os **Sinalizadores** campos. Nesse caso, as duas colunas contêm ícones idênticos.\
-   Os modos de exibição de documento contêm um campo **Exibir Ícones**.
+   Os ícones integrados estão listados em qualquer um desses nomes.\
+   Um modo de exibição de Modelo contém os campos **Ícones de Status** e **Sinalizadores**. Nesse caso, as duas colunas contêm ícones idênticos.\
+   Exibições de documentos contêm um campo **Exibir Ícones**.
 
 1. Clique em **Salvar visualização**.
 1. (Opcional) Especifique um novo nome para o modo de exibição e clique em **Salvar Modo de Exibição**.\
-   Isso adiciona a coluna **Ícones de Status** ao Modo de Exibição.
+   Isso adiciona a coluna **Ícones de Status** à sua Exibição.
 1. (Opcional) Passe o mouse sobre um ícone para entender o que ele representa.
 1. (Opcional) Clique em um ícone para ir até a área do objeto representado por ele.\
-   Nem todos os ícones são vínculos a objetos.\
+   Nem todos os ícones são links para objetos.\
    Para obter uma lista completa de atributos para cada ícone, consulte a seção [Visão Geral de Ícones e Sinalizadores de Status](#overview-of-status-icons-and-flags).
 
-## Visão Geral de Ícones e Sinalizadores de Status {#overview-of-status-icons-and-flags}
+## Visão Geral dos Ícones e Sinalizadores de Status {#overview-of-status-icons-and-flags}
 
-A tabela a seguir lista todos os Ícones de status disponíveis no Workfront, os tipos de objetos que podem ser associados a eles e o que acontece quando você clica neles.
+A tabela a seguir lista todos os Ícones de Status disponíveis no Workfront, o tipo de objetos que podem ser associados a eles, bem como o que acontece quando você clica neles.
 
 Você deve ter permissões para pelo menos Exibir os objetos para poder clicar em alguns dos ícones a seguir e acessar esses objetos.
 
@@ -142,10 +144,10 @@ Você deve ter permissões para pelo menos Exibir os objetos para poder clicar e
  </thead> 
  <tbody> 
   <tr> 
-   <td> <img src="assets/condition-update-icon-on-target-29x34.png" alt="condition_update_icon_on_target.png" style="width: 29;height: 34;">ou <img src="assets/screen-shot-2018-08-17-at-9.49.36-am-29x37.png" alt="Screen_Shot_2018-08-17_at_9.49.36_AM.png" style="width: 29;height: 37;"><br><img src="assets/condition-update-icon--in-trouble-29x26.png" alt="condition_update_icon__in_trouble.png" style="width: 29;height: 26;"> ou <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-29x26.png" style="width: 29;height: 26;"><br><img src="assets/condition-update-at-risk-27x28.png" alt="condition_update_at_risk.png" style="width: 27;height: 28;"> ou <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-33x34.png" alt="Screen_Shot_2018-08-17_at_9.49.23_AM.png" style="width: 33;height: 34;"></td> 
-   <td>Indica que a condição do projeto é No destino (verde), Em problema (vermelho) ou Em risco (amarelo).<br>Para obter informações sobre a Condição do projeto, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Visão Geral da Condição do Projeto e do Tipo de Condição</a>.</td> 
+   <td> <img src="assets/condition-update-icon-on-target-29x34.png" alt="condition_update_icon_on_target.png" style="width: 29;height: 34;">ou <img src="assets/screen-shot-2018-08-17-at-9.49.36-am-29x37.png" alt="Screen_Shot_2018-08-17_at_9.49.36_AM.png" style="width: 29;height: 37;"><br><img src="assets/condition-update-icon--in-trouble-29x26.png" alt="condition_update_icon__in_problem.png" style="width: 29;height: 26;"> ou <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-29x26.png" style="width: 29;height: 26;"><br><img src="assets/condition-update-at-risk-27x28.png" alt="condition_update_at_risk.png" style="width: 27;height: 28;"> ou <img src="assets/screen-shot-2018-08-17-at-9.49.23-am-33x34.png" alt="Screen_Shot_2018-08-17_at_9.49.23_AM.png" style="width: 33;height: 34;"></td> 
+   <td>Indica que a condição do projeto é No alvo (verde), Com problema (vermelho) ou Em risco (amarelo).<br>Para obter informações sobre a Condição do projeto, consulte <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Visão Geral da Condição do Projeto e do Tipo de Condição</a>.</td> 
    <td>Projetos</td> 
-   <td>Clique para abrir a lista de tarefas do projeto. </td> 
+   <td>Clique em para abrir a lista de tarefas do projeto. </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -164,62 +166,62 @@ Você deve ter permissões para pelo menos Exibir os objetos para poder clicar e
   </tr> 
   <tr> 
    <td> <img src="assets/open-issu-icon-34x36.png" alt="open_issu_icon.png" style="width: 34;height: 36;">ou <img src="assets/new-open-issues-25x30.png" alt="new_open_issues.png" style="width: 25;height: 30;"></td> 
-   <td>Indica que há ocorrências abertas no projeto ou na tarefa.</td> 
+   <td>Indica que há problemas em aberto no projeto ou na tarefa.</td> 
    <td> Projetos<br>Tarefas </td> 
-   <td>Clique para abrir o objeto. </td> 
+   <td>Clique em para abrir o objeto. </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <img src="assets/approval-icon-42x38.png" alt="Approval_icon.png" style="width: 42;height: 38;"> ou <img src="assets/new-approval-icon-33x35.png" alt="new_Approval_icon.png" style="width: 33;height: 35;"></td> 
+   <td> <img src="assets/approval-icon-42x38.png" alt="approval_icon.png" style="width: 42;height: 38;"> ou <img src="assets/new-approval-icon-33x35.png" alt="new_approval_icon.png" style="width: 33;height: 35;"></td> 
    <td>Indica que há uma aprovação no objeto.</td> 
    <td> Projetos<br>Tarefas<br>Problemas<br>Modelos<br>Tarefas de Modelo </td> 
-   <td>Clique para abrir o objeto. </td> 
+   <td>Clique em para abrir o objeto. </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <img src="assets/expenses-icon-52x40.png" alt="costs_icon.png" style="width: 52;height: 40;"> </td> 
-   <td> <p>Você pode adicionar uma coluna Ícone de Despesas em sua exibição para exibir esse ícone. Isso indica que o projeto ou a tarefa tem despesas associadas a eles.</p> </td> 
+   <td> <img src="assets/expenses-icon-52x40.png" alt="penses_icon.png" style="width: 52;height: 40;"> </td> 
+   <td> <p>Você pode adicionar uma coluna Expenses Icon em sua visualização para exibir esse ícone. Isso indica que o projeto ou a tarefa tem despesas associadas a eles.</p> </td> 
    <td> <p>Projetos</p> <p>Tarefas</p> </td> 
    <td>Clique para abrir a guia Despesas do projeto ou da tarefa. </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/task-progress-status-icon-on-time-44x39.png" alt="task_progress_status_icon_on_time.png" style="width: 44;height: 39;"> <br> <img src="assets/task-progress-status-late-44x43.png" alt="task_progress_status_late.png" style="width: 44;height: 43;"> <br> <img src="assets/task-progress-status-at-risk-44x35.png" alt="task_progress_status_at_risk.png" style="width: 44;height: 35;"> <br> <img src="assets/task-progress-status-icon-behind-44x35.png" style="width: 44;height: 35;"> </td> 
-   <td> <p>Indica que o Status do Andamento de uma tarefa é um dos seguintes:</p> 
+   <td> <p>Indica que o Status do Progresso de uma tarefa é um dos seguintes:</p> 
     <ul> 
-     <li>No prazo (quadrado verde)</li> 
+     <li>No Prazo (quadrado verde)</li> 
      <li>Atrasado (círculo vermelho)</li> 
-     <li>Em risco (diamante azul)</li> 
+     <li>Em Risco (diamante azul)</li> 
      <li>Atrás (triângulo amarelo)</li> 
-    </ul> <p>Para obter informações sobre o Status do Progresso das tarefas, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Visão geral do Status do Progresso da Tarefa</a>.</p> </td> 
+    </ul> <p>Para obter informações sobre o Status de Progresso das tarefas, consulte <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Visão geral do Status de Progresso da Tarefa</a>.</p> </td> 
    <td>Tarefas</td> 
    <td>Clique em para abrir a tarefa. </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/task-critical-path-icon-36x35.png" alt="task_critical_path_icon.png" style="width: 36;height: 35;"> ou <img src="assets/new-critical-path-icon-34x34.png" alt="new_critical_path_icon.png" style="width: 34;height: 34;"></td> 
-   <td>Indica que a tarefa está atualmente no Caminho Crítico. <br>Para obter informações sobre tarefas em um Caminho Crítico do projeto, consulte <a href="../../../manage-work/tasks/manage-tasks/critical-path.md" class="MCXref xref">Visão geral do Caminho Crítico do projeto</a>.</td> 
+   <td>Indica que a tarefa está atualmente no Caminho Crítico. <br>Para obter informações sobre tarefas em um Caminho Crítico do projeto, consulte <a href="../../../manage-work/tasks/manage-tasks/critical-path.md" class="MCXref xref">Visão Geral do Caminho Crítico do projeto</a>.</td> 
    <td>Tarefas</td> 
    <td>Clique em para abrir a tarefa.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/milestone-icon-50x43.png" alt="milestone_icon.png" style="width: 50;height: 43;"> </td> 
-   <td>Indica que a tarefa está associada a uma etapa. O administrador do sistema pode personalizar a cor do diamante do ambiente.<br>Para obter informações sobre etapas, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Criar um caminho de etapa do projeto</a>.</td> 
+   <td>Indica que a tarefa está associada a uma etapa. O administrador do sistema pode personalizar a cor do diamante em seu ambiente.<br>Para obter informações sobre etapas, consulte <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Criar um caminho de etapas</a>.</td> 
    <td>Tarefas</td> 
    <td>Clique em para abrir a tarefa. </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/issue-source-link-icon-44x41.png" alt="issue_source_link_icon.png" style="width: 44;height: 41;"> </td> 
-   <td>Vincule ao objeto de origem de uma ocorrência. O objeto de origem de uma ocorrência é o objeto em que a ocorrência foi registrada. Uma tarefa ou um projeto pode ser objetos de origem para ocorrências. </td> 
+   <td>Vincular ao objeto de origem de um problema. O objeto de origem de um problema é o objeto no qual o problema foi registrado. Uma tarefa ou um projeto podem ser objetos de origem para problemas. </td> 
    <td>Problemas</td> 
-   <td>Clique para abrir o objeto de origem (tarefa ou projeto) de uma ocorrência. </td> 
+   <td>Clique para abrir o objeto de origem (tarefa ou projeto) de um problema. </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/resolving-object-icon-43x45.png" alt="resolving_object_icon.png" style="width: 43;height: 45;"> </td> 
-   <td>Indica que há um objeto de resolução que finalmente resolve o problema. Nesse caso, você não pode concluir o problema. É concluído quando o objeto de resolução é concluído. <br>Para obter informações sobre como resolver objetos, consulte <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Visão Geral de Resolvendo e Resolvendo Objetos </a>.</td> 
+   <td>Indica que há um objeto de resolução que resolve o problema. Nesse caso, não é possível concluir o problema. Ele é concluído quando o objeto de resolução é concluído. <br>Para obter informações sobre a resolução de objetos, consulte <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Visão Geral de Objetos Resolventes e Resolvíveis </a>.</td> 
    <td>Problemas</td> 
    <td>Clique em para abrir o objeto de resolução do problema. </td> 
    <td> </td> 
@@ -246,7 +248,7 @@ Você deve ter permissões para pelo menos Exibir os objetos para poder clicar e
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <img src="assets/user-belongs-to-company-icon-44x44.png" alt="user_owners_to_company_icon.png" style="width: 44;height: 44;"> </td> 
+   <td> <img src="assets/user-belongs-to-company-icon-44x44.png" alt="user_belonging_to_company_icon.png" style="width: 44;height: 44;"> </td> 
    <td>Indica que o usuário está associado a uma Empresa. </td> 
    <td>Usuários</td> 
    <td>Indisponível</td> 
@@ -263,7 +265,7 @@ Você deve ter permissões para pelo menos Exibir os objetos para poder clicar e
    <td> <img src="assets/resource-grid-icon-44x46.png" alt="resource_grid_icon.png" style="width: 44;height: 46;"> </td> 
    <td>Atalho para a guia Alocação do usuário. </td> 
    <td>Usuários</td> 
-   <td>Clique para abrir a guia Alocação do usuário e saber a quais itens de trabalho o usuário está atribuído.</td> 
+   <td>Clique em para abrir a guia Alocação do usuário e saber a quais itens de trabalho o usuário está atribuído.</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -281,14 +283,14 @@ Você deve ter permissões para pelo menos Exibir os objetos para poder clicar e
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <img src="assets/expense-reimbursable-icon-44x45.png" alt="cost_reembolsable_icon.png" style="width: 44;height: 45;"> </td> 
+   <td> <img src="assets/expense-reimbursable-icon-44x45.png" alt="pense_reembolsable_icon.png" style="width: 44;height: 45;"> </td> 
    <td> Indica que uma despesa é reembolsável.<br>Para obter informações sobre despesas, consulte <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Gerenciar despesas do projeto </a>.</td> 
    <td>Despesas</td> 
    <td>Indisponível</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <img src="assets/reimbursed-expense-icon-44x43.png" alt="refund_cost_icon.png" style="width: 44;height: 43;"></td> 
+   <td> <img src="assets/reimbursed-expense-icon-44x43.png" alt="reembolsed_cost_icon.png" style="width: 44;height: 43;"></td> 
    <td> Indica que uma despesa foi reembolsada.<br>Para obter informações sobre despesas, consulte <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Gerenciar despesas do projeto </a>.</td> 
    <td>Despesas</td> 
    <td>Indisponível</td> 

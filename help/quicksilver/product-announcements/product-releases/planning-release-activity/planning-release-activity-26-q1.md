@@ -1,20 +1,22 @@
 ---
 content-type: release-notes
-title: Atividade da versão do primeiro trimestre de 2026 para o Adobe Workfront Planning
+title: Atividade de lançamento do primeiro trimestre de 2026 do Planejamento do Adobe Workfront
 description: Esta é a atividade de lançamento do produto Adobe Workfront Planning para o primeiro trimestre de 2026.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2017'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
-# Atividade da versão do primeiro trimestre de 2026 para o Adobe Workfront Planning
+# Atividade de lançamento do primeiro trimestre de 2026 do Planejamento do Adobe Workfront
 
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do Primeiro Trimestre de 2026.
 
@@ -60,8 +62,8 @@ Para obter mais informações, consulte [Visão geral do tipo de registro entre 
 
 >[!NOTE]
 >
->Visualização: 23 de dezembro de 2025
->Lançamento rápido de produção: 14 de janeiro de 2026
+>Pré-visualização: quarta-feira, 23 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026
 >Produção para todos: 15 de janeiro de 2026
 
 Agora você pode definir hierarquias flexíveis mas estruturadas entre tipos de registro ou objeto.
@@ -84,8 +86,8 @@ Para obter mais informações, consulte [Visão geral sobre hierarquia e navega�
 
 >[!NOTE]
 >
->Visualização: 23 de dezembro de 2025
->Lançamento rápido de produção: 14 de janeiro de 2026
+>Pré-visualização: quarta-feira, 23 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026
 >Produção para todos: 15 de janeiro de 2026
 
 Quando você cria hierarquias entre tipos de registro, elas geram navegações estruturais para os registros que pertencem a esses tipos de registro.
@@ -101,7 +103,7 @@ Para obter informações, consulte [Visão geral sobre hierarquia e navegação 
 
 >[!NOTE]
 >
->Visualização: 19 de dezembro de 2025
+>Pré-visualização: sábado, 19 de dezembro de 2025
 >Produção rápida: 14 de janeiro de 2026
 >Produção para todos: 15 de janeiro de 2026
 
@@ -118,11 +120,11 @@ Para obter informações, consulte [Adicionar uma página de registros conectado
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025
->Lançamento rápido de produção: 14 de janeiro de 2026\
+>Pré-visualização: 18 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026\
 >Produção para todos: 15 de janeiro de 2026
 
-Para facilitar a visualização das informações necessárias, adicionamos a capacidade de compartilhar exibições na página de registros dos Projetos Conectados. Agora é possível compartilhar visualizações com outros usuários, equipes ou grupos.
+Para facilitar a visualização das informações necessárias, adicionamos a capacidade de compartilhar exibições na página de registros dos Projetos Conectados. Agora, você pode compartilhar visualizações com outros usuários, equipes ou grupos.
 
 Para obter informações, consulte [Adicionar uma página de registros conectados a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
@@ -130,15 +132,15 @@ Para obter informações, consulte [Adicionar uma página de registros conectado
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025
->Lançamento rápido de produção: 14 de janeiro de 2026\
+>Pré-visualização: 18 de dezembro de 2025
+>Versão rápida da produção: 14 de janeiro de 2026\
 >Produção para todos: 15 de janeiro de 2026
 
-Para facilitar a filtragem de conexões de projeto que se aplicam a você, criamos um curinga do usuário atual. Agora, ao filtrar, você pode selecionar &quot;Eu (usuário conectado)&quot;. O filtro será aplicado ao usuário que está visualizando a lista de solicitações.
+Para facilitar a filtragem de conexões de projeto que se aplicam a você, criamos um curinga do usuário atual. Agora, ao filtrar, você pode selecionar “Eu (usuário conectado)”. O filtro será então aplicado ao usuário que estiver visualizando a lista de solicitações.
 
-Isso pode ser conveniente ao adicionar um filtro a uma visualização que vários usuários usarão. Cada usuário verá os resultados do filtro que se aplicam a ele.
+Isso pode ser conveniente ao adicionar um filtro a uma visualização que será usada por vários usuários. Cada usuário verá os resultados dos filtros que se aplicam a si.
 
-O curinga está disponível em campos nos quais o valor é um usuário.
+O curinga está disponível em campos onde o valor é um usuário.
 
 Para obter mais informações sobre como configurar as exibições de conexão do projeto, incluindo filtros, consulte [Adicionar uma página Registros conectados a um registro](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
@@ -151,7 +153,7 @@ Para obter mais informações sobre como configurar as exibições de conexão d
 
 >[!NOTE]
 >
->Visualização: 18 de dezembro de 2025
+>Pré-visualização: 18 de dezembro de 2025
 >Produção rápida: 14 de janeiro de 2026
 >Produção para todos: 15 de janeiro de 2026
 
@@ -204,8 +206,8 @@ Para obter informações, consulte [Introdução à integração do Adobe Workfr
 
 >[!NOTE]
 >
->Visualização: 3 de dezembro de 2025
->Versão rápida de produção: 4 de dezembro de 2025
+>Pré-visualização: quinta-feira, 3 de dezembro de 2025
+>Versão rápida de produção: sexta-feira, 4 de dezembro de 2025
 >Produção para todos: 15 de janeiro de 2026
 
 
@@ -218,7 +220,7 @@ Para obter informações, consulte [Compartilhar modos de exibição](/help/quic
 
 >[!NOTE]
 >
->Visualização: 13 de novembro de 2025
+>Pré-visualização: 13 de novembro de 2025
 >Versão rápida de produção: 13 de novembro de 2025
 >Produção para todos: 13 de novembro de 2025
 
@@ -231,7 +233,7 @@ Para obter mais informações, consulte [Tipos de registro de conexão](/help/qu
 
 >[!NOTE]
 >
->Visualização: 6 de novembro de 2025
+>Pré-visualização: 6 de novembro de 2025
 >Versão rápida de produção: 11 de dezembro de 2025
 >Produção para todos: 15 de janeiro de 2026
 
@@ -246,7 +248,7 @@ Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quic
 
 >[!NOTE]
 >
->Visualização: 16 de outubro de 2025
+>Pré-visualização: sexta-feira, 16 de outubro de 2025
 >Versão rápida de produção: 13 de novembro de 2025
 >Produção para todos: 15 de janeiro de 2026
 
@@ -270,7 +272,7 @@ Para obter mais informações, consulte os seguintes artigos:
 
 >[!NOTE]
 >
->Visualização: 16 de outubro de 2025
+>Pré-visualização: sexta-feira, 16 de outubro de 2025
 >Versão rápida de produção: 13 de novembro de 2025
 >Produção para todos: 15 de janeiro de 2026
 
@@ -284,7 +286,7 @@ Para obter mais informações, consulte [Visão geral dos Tipos de Registros Con
 
 >[!NOTE]
 >
->Visualização: 16 de outubro de 2025
+>Pré-visualização: sexta-feira, 16 de outubro de 2025
 >Versão rápida de produção: 13 de novembro de 2025
 >Produção para todos: 15 de janeiro de 2026
 

@@ -8,7 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: f6aa8519748d98ba135fb0f572b7daade716c50f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 7%
@@ -68,7 +70,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
    >* Os usuários com uma licença de Revisão têm direitos de Visualização em projetos a partir de problemas convertidos, mas seus direitos de Visualização são limitados.
    >* Para obter informações sobre as permissões que os usuários podem conceder ao compartilhar projetos com outras pessoas, consulte [Compartilhar um projeto no Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
    >* Quando você define uma configuração de nível de acesso para um determinado tipo de objeto, essa configuração não afeta o acesso dos usuários aos objetos com uma classificação mais baixa. Por exemplo, você pode impedir que usuários excluam projetos em seus níveis de acesso, mas isso não os impede de excluir tarefas, que são de classificação inferior à dos projetos.Para obter mais informações sobre a hierarquia de objetos, consulte a seção [Interdependência e hierarquia de objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) no artigo [Entender os objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-   >* Um usuário cujo nível de acesso não permite acesso a dados financeiros não pode conceder acesso que permitiria que outros visualizassem dados financeiros. Isso inclui conceder acesso a projetos que mostrariam dados financeiros ou modificar um nível de acesso para permitir a exibição de dados financeiros.
+   * Um usuário cujo nível de acesso não permite acesso a dados financeiros não pode conceder acesso que permitiria que outros visualizassem dados financeiros. Isso inclui conceder acesso a projetos que mostrariam dados financeiros ou modificar um nível de acesso para permitir a exibição de dados financeiros.
 
 
 1. (Opcional) Clique em **definir padrões de compartilhamento** à direita da opção Criar e em **Adicionar regra** para adicionar uma regra de compartilhamento para novos projetos.

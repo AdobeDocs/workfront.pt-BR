@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '794'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +21,8 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 Linked to Editing Users, Editing Projects, Creating and managing groups
 -->
 
@@ -37,7 +40,7 @@ Para obter informações sobre como os agendamentos são usados no planejamento 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +53,7 @@ Para obter informações sobre como os agendamentos são usados no planejamento 
   <tr> 
    <td>[!DNL Adobe Workfront] licença</td> 
    <td><p>[!UICONTROL Padrão]</p>
-       <p>[!UICONTROL Plano]</p></td>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
@@ -92,7 +95,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    <table style="table-layout:auto">
     <tr>
-     <td>[!UICONTROL Grupo com Acesso de Administração]</td>
+     <td>[!UICONTROL Group with Administration Access]</td>
      <td><p>Selecione o grupo cujos administradores têm permissão para editar este agendamento.</p>
      <p><b>IMPORTANTE</b>:</p>
       <ul>

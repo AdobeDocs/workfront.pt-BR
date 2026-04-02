@@ -2,11 +2,13 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: Organize relatórios em um painel da tela
-description: Você pode organizar como os relatórios são exibidos em um painel do Canvas depois de serem adicionados a um.
+description: Você pode organizar como os relatórios são exibidos em um painel da Tela depois de serem adicionados a um.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 60f68ebd-6b98-476d-84b6-a6a2dce90d93
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 16%
@@ -17,16 +19,16 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->No momento, o recurso Painéis de controle do Canvas está disponível apenas para usuários que participam do estágio beta. Partes do recurso podem não estar completas ou funcionar como esperado durante essa etapa. Envie comentários sobre sua experiência seguindo as instruções na seção [Fornecer comentários](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral da versão beta dos Painéis de Tela.<br>
->Se você tiver comentários sobre um possível erro ou problema técnico, envie um chamado para o Suporte da Workfront. Para obter mais informações, consulte [Contatar o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Observe que esta versão beta não está disponível nos seguintes provedores de nuvem:
+>No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
 >* Google Cloud Platform
 
 
-Depois que um relatório é adicionado a um painel de tela, ele é exibido como um widget de relatório no painel para que você possa visualizar os dados rapidamente. Depois que vários relatórios forem adicionados, você pode definir o tamanho de cada widget para melhor ajustar o conteúdo do relatório no painel e, em seguida, ajustar a posição de cada widget para exibir os dados de forma mais eficaz.
+Depois que um relatório é adicionado a um Painel da tela, ele é exibido como um widget de relatório no painel para que você possa visualizar rapidamente seus dados rapidamente. Depois que vários relatórios forem adicionados, você poderá definir o tamanho de cada widget para ajustar melhor o conteúdo do relatório no painel e, em seguida, ajustar a posição de cada widget para exibir os dados com mais eficiência.
 
 ## Requisitos de acesso
 
@@ -54,12 +56,12 @@ Depois que um relatório é adicionado a um painel de tela, ele é exibido como 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurações de nível de acesso</p></td> 
-   <td><p>Acesso de edição a relatórios, painéis e calendários</p>
+   <td><p>Editar acesso a relatórios, painéis e calendários</p>
   </td> 
   </tr>  
         <tr> 
    <td role="rowheader"><p>Permissões de objeto</p></td> 
-   <td><p>Gerenciar permissões para o painel</p>
+   <td><p>Gerenciar permissões do painel</p>
   </td> 
   </tr>
 </tbody> 
@@ -78,7 +80,7 @@ Você deve adicionar relatórios a um painel antes que eles possam ser reorganiz
 
 1. No painel esquerdo, clique em **Painéis do Canvas**.
 
-1. Na página **Painéis de Tela**, selecione **Editar layout** no canto superior direito. Os widgets de relatório se tornam editáveis.
+1. Na página **Painéis da Tela**, selecione **Editar layout** no canto superior direito. Os widgets de relatório se tornam editáveis.
 
 1. Clique e arraste um widget de relatório para uma nova posição na página.
 
@@ -86,6 +88,6 @@ Você deve adicionar relatórios a um painel antes que eles possam ser reorganiz
 
 1. (Opcional) Para ajustar o comprimento e a largura de um widget de relatório, clique e mantenha pressionado o ícone **Redimensionar** ![Redimensionar](assets/resize-icon.png) no canto inferior direito do widget e, em seguida, ajuste o tamanho conforme necessário.
 
-1. Repita as etapas 4 e 5 para cada widget que você deseja reorganizar.
+1. Repita as etapas 4 a 5 para cada widget que deseja reorganizar.
 
 1. Clique em **Salvar** no canto superior direito.

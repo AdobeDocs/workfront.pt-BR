@@ -2,11 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Editar uma visualização usando o modo texto
-description: Você pode editar uma exibição em uma lista ou relatório usando o modo de texto para acessar campos que não estão disponíveis na interface padrão e criar exibições mais complexas.
+description: É possível editar uma visualização em uma lista ou relatório usando o modo de texto para acessar campos que não estão disponíveis na interface padrão e criar visualizações mais complexas.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 16%
@@ -17,7 +19,7 @@ ht-degree: 16%
 
 <!-- Audited: 1/2025 -->
 
-Você pode editar uma exibição em uma lista ou relatório usando o modo de texto para acessar campos que não estão disponíveis na interface padrão e criar exibições mais complexas.
+É possível editar uma visualização em uma lista ou relatório usando o modo de texto para acessar campos que não estão disponíveis na interface padrão e criar visualizações mais complexas.
 
 ## Requisitos de acesso
 
@@ -40,11 +42,11 @@ Você pode editar uma exibição em uma lista ou relatório usando o modo de tex
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a filtros, exibições e agrupamentos</p> <p>Acesso de edição a Relatórios, Painéis e Calendários para editar elementos de relatórios em um relatório</p> </td> 
+   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a relatórios, painéis e calendários para editar elementos de relatórios em um relatório</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões de um relatório para editar exibições em um relatório</p> <p>Gerenciar permissões para um modo de exibição para editá-lo</p> </td> 
+   <td> <p>Gerenciar permissões de um relatório para editar exibições em um relatório</p> <p>Gerenciar permissões em uma exibição para editá-la</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -59,28 +61,28 @@ Antes de começar a usar o modo de texto em um relatório ou lista, sempre verif
 
 Para obter mais informações, consulte:
 
-* [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [Visão geral do Modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Exemplos de exibição personalizada, filtros e agrupamento: índice do artigo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Modo de edição de texto em uma visualização
 
-A edição de uma exibição usando o modo de texto é idêntica para relatórios e listas. O acesso à visualização de um relatório ou de uma lista é diferente.
+A edição de uma visualização usando o modo de texto é idêntica para relatórios e listas. O acesso à visualização de um relatório ou de uma lista é diferente.
 
 >[!TIP]
 >
->Recomendamos que você crie o máximo possível da exibição no modo padrão e, em seguida, converta-a no modo de texto para editá-la.
+>Recomendamos que você crie o máximo possível da exibição no modo padrão e, em seguida, converta-a para o modo de texto para editá-la.
 
-Para obter informações sobre como criar exibições, consulte [Visão geral de exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Para obter informações sobre como criar exibições, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 Para obter informações sobre como criar um relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Siga um destes procedimentos:
 
-   1. Para acessar o modo de exibição de um relatório, vá para o relatório e clique em **Ações de Relatório** > **Editar** > guia **Colunas (Exibição)**.
-   1. Para acessar o modo de exibição a partir de uma lista, vá para a lista e, no menu suspenso **Modo de exibição**, passe o mouse sobre o modo de exibição que você deseja modificar e clique no ícone **Editar** ícone ![.](assets/edit-icon.png)
+   1. Para acessar o modo de exibição de um relatório, vá para o relatório e clique na guia **Ações de Relatório** > **Editar** > **Colunas (Modo de Exibição)**.
+   1. Para acessar a exibição de uma lista, vá para a lista e, no menu suspenso **Exibir**, passe o mouse sobre a exibição que você deseja modificar e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png).
 
-      O construtor de exibição é aberto.
+      O construtor de exibições é aberto.
 
 1. Selecione uma coluna na exibição.
 
@@ -92,13 +94,13 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
    >
    >Para editar uma visualização usando o modo texto, é necessário editar uma coluna de cada vez.
 
-1. Clique em **Alternar para o modo de texto** no canto superior direito do construtor e clique em **Editar modo de texto**.
+1. Clique em **Alternar para Modo de Texto** no canto superior direito do construtor e em **Editar Modo de Texto**.
 
    >[!NOTE]
    >
-   >Quando você edita uma coluna no modo de texto, o Workfront adiciona a linha de código `textmode=true` à coluna. Indica que a coluna é modificada no modo de texto.
+   >Ao editar uma coluna no modo texto, o Workfront adiciona a linha de código `textmode=true` à coluna. Isso indica que a coluna é modificada no modo de texto.
 
-   A tabela a seguir descreve as linhas-chave em uma exibição do modo de texto:
+   A tabela a seguir descreve as linhas-chave em uma exibição de modo de texto:
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make this a snippet and add it to the grouping article too)</p>
@@ -109,13 +111,13 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
     <col> 
     <thead> 
      <tr> 
-      <th>Linha de amostra</th> 
+      <th>Linha de Exemplo</th> 
       <th>Descrição</th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=&lt;/cod></p> </td> 
+      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=</cod></p> </td> 
       <td> <p>This is the name of the object or of the field as it appears in the database. For more information about how objects and fields appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>The following scenarios exist:</p> 
         
         <li value="1"> <p> If the name of the field you display is a phrase instead of a single noun, you must use camel case syntax for the <code>valuefield</code>. For example, for the Planned Start Date of a task the code is: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 
@@ -194,7 +196,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
        </div>
 
    <div>
-      As <code>aggregator. </code>linhas podem conter um <code>valuefield </code> ou um <code>valueexpression</code>.
+      As <code>aggregator. </code>linhas podem conter um <code>valuefield </code>ou um <code>valueexpression</code>.
        </div> </td> 
      </tr> 
     </tbody> 

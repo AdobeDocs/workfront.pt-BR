@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: Exibir horas planejadas do projeto no painel Alocação de função
+title: Visualizar horas planejadas do projeto no painel Alocação de função
 description: Você pode visualizar a alocação de funções para todas as funções de trabalho atribuídas a itens de trabalho em um projeto no painel Alocação de funções do projeto.
 author: Alina, Lisa
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
-# Exibir horas planejadas do projeto no painel Alocação de função
+# Visualizar horas planejadas do projeto no painel Alocação de função
 
 Você pode visualizar a alocação de funções para todas as funções de trabalho atribuídas a itens de trabalho em um projeto no painel Alocação de funções do projeto.
 
@@ -65,7 +67,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 able style="table-layout:auto"> 
  <col> 
@@ -88,7 +91,8 @@ able style="table-layout:auto">
    <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Pré-requisitos
 
@@ -102,7 +106,7 @@ Você deve ter o seguinte:
 
 * Tarefas e problemas com uma Duração maior que zero.
 
-## Exibir horas planejadas do projeto no painel Alocação de função
+## Visualizar horas planejadas do projeto no painel Alocação de função
 
 {{step1-to-projects}}
 

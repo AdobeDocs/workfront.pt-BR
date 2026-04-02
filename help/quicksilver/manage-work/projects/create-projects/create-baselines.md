@@ -6,10 +6,12 @@ description: Uma linha de base é um instantâneo de projeto que representa as i
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +25,7 @@ Você pode usar a linha de base para comparar essas informações do plano atual
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +37,7 @@ Você pode usar a linha de base para comparar essas informações do plano atual
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-    <td><p>Standard</p>
+    <td><p>Padrão</p>
         <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +55,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    <td> <p>View permissions to the project or higher to view baselines</p> <p>Manage permissions to the project to create baselines</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerações para trabalhar com linhas de base
 

@@ -1,25 +1,27 @@
 ---
 product-area: templates
 navigation-topic: templates-navigation-topic
-title: Copiar e mover tarefas de modelo
+title: Copiar e mover tarefas modelo
 description: Você pode copiar ou mover uma tarefa de modelo para o mesmo modelo ou para outro modelo.
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2090'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# Copiar e mover tarefas de modelo
+# Copiar e mover tarefas modelo
 
 Você pode copiar uma tarefa de modelo de um modelo para outro modelo ou movê-la para outro modelo ou para outro local no mesmo modelo.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +33,7 @@ Você pode copiar uma tarefa de modelo de um modelo para outro modelo ou movê-l
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
    <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -45,11 +47,12 @@ Você pode copiar uma tarefa de modelo de um modelo para outro modelo ou movê-l
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,7 +75,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    <td> <p>Manage permissions to a template.</p> <p>You cannot share a template task.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerações para copiar ou mover tarefas de modelo
 

@@ -7,7 +7,9 @@ description: Neste agrupamento de projeto personalizado, você pode exibir proje
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 26%
@@ -23,7 +25,7 @@ Neste agrupamento de projeto personalizado, você pode exibir projetos agrupados
 Cada agrupamento mostra projetos com uma Data de Entrada dentro de:
 
 * Os últimos 30 dias
-* 30-60 dias
+* 30 a 60 dias
 * 60 dias ou mais
 
 ## Requisitos de acesso
@@ -41,12 +43,12 @@ Cada agrupamento mostra projetos com uma Data de Entrada dentro de:
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou solicitação para modificar um filtro </p>
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a filtros, exibições e agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -59,16 +61,16 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Agrupar projetos por Data de Entrada
+## Agrupar projetos por data de entrada
 
-Para aplicar este agrupamento:
+Para aplicar esse agrupamento:
 
-1. Vá para um relatório de projeto existente ou crie um novo.\
+1. Vá para um relatório de projeto existente ou crie um novo relatório de projeto.\
    Para obter mais informações sobre como criar um relatório, consulte o artigo [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Clique em **Ações de Relatório** > **Editar**.
 1. Na guia **Agrupamento**, clique em **Adicionar agrupamento**.
-1. Clique em **Alternar para o Modo de Texto**.
-1. Remova o texto na área **Agrupar por**.
+1. Clique em **Alternar para Modo de Texto**.
+1. Remover o texto da área **Agrupar por**.
 1. Substitua o texto pelo seguinte código:
 
 
@@ -80,5 +82,5 @@ Para aplicar este agrupamento:
    textmode=true
    ```
 
-1. Clique em **Concluído** > **Salvar Agrupamento**.
-1. (Opcional) Atualize o nome do agrupamento e clique em **Salvar Agrupamento**.
+1. Clique em **Concluído** > **Salvar agrupamento**.
+1. (Opcional) Atualize o nome do agrupamento e clique em **Salvar agrupamento**.

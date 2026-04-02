@@ -6,10 +6,12 @@ description: Uma Portfolio é uma coleção de projetos que competem pelos mesmo
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +25,7 @@ Você pode usar Portfólios para agrupar projetos que pertencem às mesmas linha
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +38,7 @@ Você pode usar Portfólios para agrupar projetos que pertencem às mesmas linha
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>[!UICONTROL Padrão]</p>
-   <p>[!UICONTROL Plano] </p> </td> 
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -53,7 +55,8 @@ Você pode usar Portfólios para agrupar projetos que pertencem às mesmas linha
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +82,8 @@ Você pode usar Portfólios para agrupar projetos que pertencem às mesmas linha
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Maneiras de criar portfólios
 
@@ -126,7 +130,7 @@ Você pode criar portfólios no Workfront usando um dos seguintes métodos:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Descrição]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td> <p>Digite uma descrição para o Portfolio para indicar o que é exclusivo sobre ele. </p> </td> 
      </tr> 
      <tr> 

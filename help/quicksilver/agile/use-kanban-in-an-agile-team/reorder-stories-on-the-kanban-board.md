@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
-title: Reordenar Histórias no Quadro Kanban
-description: Talvez você queira alterar a ordem na qual as matérias são exibidas nas colunas de status no quadro Kanban.
+title: Reordenar histórias no Quadro Kanban
+description: Talvez você queira alterar a ordem na qual as histórias são exibidas nas colunas de status no quadro Kanban.
 author: Courtney
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 15%
@@ -15,17 +17,17 @@ ht-degree: 15%
 
 # Reordenar histórias no quadro [!UICONTROL Kanban]
 
-Talvez você queira alterar a ordem na qual as histórias são exibidas nas colunas de status do quadro [!UICONTROL Kanban].
+Talvez você queira alterar a ordem na qual as histórias são exibidas nas colunas de status no quadro [!UICONTROL Kanban].
 
 >[!NOTE]
 >
->Você não pode alterar a ordem na qual as histórias são exibidas na lista de pendências de uma equipe [!UICONTROL Kanban].
+>Não é possível alterar a ordem na qual as histórias são exibidas no backlog de uma equipe [!UICONTROL Kanban].
 
-A ordem na qual as histórias aparecem no quadro [!UICONTROL Kanban] não indica prioridade. No entanto, ela pode afetar a prioridade percebida, tornando as histórias mais visíveis.
+A ordem em que as histórias são exibidas no quadro [!UICONTROL Kanban] não indica prioridade. No entanto, isso pode afetar a prioridade percebida, tornando as histórias mais visíveis.
 
-Por padrão, as matérias são exibidas em ordem alfabética em cada coluna de status no quadro [!UICONTROL Kanban].
+Por padrão, as histórias são exibidas em ordem alfabética dentro de cada coluna de status no quadro [!UICONTROL Kanban].
 
-Quando você reordena as colunas no quadro [!DNL Kanban], todas as alterações feitas são salvas, portanto, elas serão mantidas na próxima vez que você ou outro usuário exibir o quadro [!UICONTROL Kanban]. (As alterações feitas não são revertidas ao limpar o cache do navegador.)
+Quando você reordena colunas no quadro [!DNL Kanban], todas as alterações feitas são salvas, portanto, as alterações serão mantidas na próxima vez que você ou outro usuário visualizar o quadro [!UICONTROL Kanban]. (As alterações feitas não são revertidas ao limpar o cache do navegador.)
 
 ## Requisitos de acesso
 
@@ -57,7 +59,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 {{step1-to-team}}
 
-1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ícone ![, selecione uma nova equipe &#x200B;](assets/switch-team-icon.png)Kanban[!UICONTROL &#x200B; no menu suspenso ou pesquise uma equipe na barra de pesquisa.]
+1. (Opcional) Clique no ícone **[!UICONTROL Equipe do switch]** ![Ícone da equipe do switch](assets/switch-team-icon.png) e selecione uma nova equipe [!UICONTROL Kanban] no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Vá para o painel [!UICONTROL Kanban] que contém as histórias que você deseja reordenar.
+1. Vá para o quadro [!UICONTROL Kanban] que contém as histórias que você deseja reordenar.
 1. Arraste um bloco de história para o local vertical desejado em uma coluna de status no quadro [!UICONTROL Kanban].

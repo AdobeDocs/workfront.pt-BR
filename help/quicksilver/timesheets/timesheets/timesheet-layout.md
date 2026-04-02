@@ -7,22 +7,26 @@ description: Este artigo descreve o layout das folhas de horas no Adobe Workfron
 author: Lisa
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Visão geral do layout da folha de horas
+# Visão geral do layout das folhas de horas
 
 <!-- Audited: 12/2023 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 Este artigo descreve o layout das folhas de horas no Adobe Workfront, permitindo que você entenda melhor como personalizar e utilizar folhas de horas para gravar tempo.
 
@@ -97,7 +101,7 @@ A barra de ferramentas inclui as seguintes opções:
 * O ícone de tela cheia para exibir a folha de horas no modo de tela cheia.
 * O botão **Abrir Resumo** (ou **Fechar Resumo**) para abrir ou fechar o painel Resumo para ver informações adicionais sobre tarefas ou problemas. Este botão não está disponível para projetos.
 
-Para obter mais informações, consulte [Log time](../create-and-manage-timesheets/log-time.md).
+Para obter mais informações, consulte [Registro de tempo](../create-and-manage-timesheets/log-time.md).
 
 ## Rodapé da folha de horas
 
@@ -113,7 +117,7 @@ Esta área também contém informações sobre quando a folha de horas foi salva
 
 Você pode selecionar uma função de trabalho diferente para associar às entradas de hora. O administrador do Workfront deve habilitar manualmente a configuração **Atribuir funções a entradas de hora**. A função de trabalho especificada para você quando está atribuído à tarefa ou o problema é exibido por padrão. Se você não recebeu uma função de trabalho na tarefa ou no problema, sua Função principal é exibida como padrão. Para obter mais informações, consulte [Configurar preferências de horas e folha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Você pode registrar várias entradas de horas para o mesmo item de trabalho para diferentes funções. Para obter mais informações, consulte [Log time](../create-and-manage-timesheets/log-time.md).
+Você pode registrar várias entradas de horas para o mesmo item de trabalho para diferentes funções. Para obter mais informações, consulte [Registro de tempo](../create-and-manage-timesheets/log-time.md).
 
 ## Tipo de hora
 
@@ -121,7 +125,7 @@ Você pode registrar várias entradas de horas para o mesmo item de trabalho par
 
 Você pode selecionar diferentes tipos de horas para associar às suas entradas de horas em cada item. Esse campo é exibido somente quando ativado pelo administrador do Workfront para o seu ambiente. Para obter informações, consulte [Configurar preferências de horas e folha de horas](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Você pode registrar várias entradas de horas para o mesmo item de trabalho para diferentes tipos de horas. Para obter mais informações, consulte [Log time](../create-and-manage-timesheets/log-time.md).
+Você pode registrar várias entradas de horas para o mesmo item de trabalho para diferentes tipos de horas. Para obter mais informações, consulte [Registro de tempo](../create-and-manage-timesheets/log-time.md).
 
 ## Área Atualizações no painel esquerdo
 
@@ -151,8 +155,10 @@ O intervalo de tempo é exibido em incrementos de semana inteira. Os dias fora d
 
 Para obter informações, consulte [Criar uma folha de horas de uso único](../create-and-manage-timesheets/create-tmshts.md) ou [Criar, editar e atribuir perfis de folha de horas](../create-and-manage-timesheets/create-timesheet-profiles.md).
 
-<!--drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
-You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.-->
+<!--
+drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
+You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.
+-->
 
 ## Comentários de entrada de hora
 

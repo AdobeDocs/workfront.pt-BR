@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
-# Exibir e exportar logs de auditoria
+# Visualizar e exportar logs de auditoria
 
 <!--Audited: 08/2025-->
 
@@ -31,7 +33,7 @@ Para obter informações sobre todos os tipos de log de auditoria e o que os ger
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 
 <table style="table-layout:auto"> 
@@ -45,7 +47,7 @@ Para obter informações sobre todos os tipos de log de auditoria e o que os ger
   <tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   </tr> 
@@ -56,11 +58,12 @@ Para obter informações sobre todos os tipos de log de auditoria e o que os ger
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old: 
+<!--
+Old: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +85,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    <td><p>System Administrator</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Exibir logs de auditoria
 

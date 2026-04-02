@@ -2,31 +2,34 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Introdução aos resultados e atividades nos Adobe Workfront Goals
+title: Começar a usar resultados e atividades nas Metas do Adobe Workfront
 description: Você deve adicionar resultados, atividades ou metas alinhadas a uma meta para poder ativá-la. Isso atualiza o status da meta de Rascunho para Ativo e inicia a gravação do progresso na meta.
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
-# Introdução aos resultados e atividades nos Adobe Workfront Goals
+# Começar a usar resultados e atividades nas Metas do Adobe Workfront
 
 <!--Audited for P& P only: 10/2025-->
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 >
->Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Para obter informações adicionais sobre o acesso ao Adobe Workfront Goals, consulte [Requisitos para usar o Adobe Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -43,7 +46,8 @@ ht-degree: 3%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Ao criar uma meta, ela tem um status de Rascunho. Para obter informações sobre como criar metas, consulte [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
@@ -201,7 +205,7 @@ A tabela a seguir exibe semelhanças e diferenças entre resultados, atividades 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>Eles oferecem um intervalo de valores entre os valores inicial e final que ilustra o quão perto você está de atingi-los. A proximidade com o valor final calcula um valor de Progresso para a meta. </td> 
    <td>✔</td> 
    <td>✔</td> 

@@ -2,13 +2,15 @@
 user-type: administrator
 product-area: system-administration;reporting
 navigation-topic: configure-reports-administration
-title: Ocultar Relatórios Internos
-description: O Adobe Workfront tem uma ampla lista de relatórios internos padrão que os usuários podem acessar e exibir. Como administrador do Workfront, você pode modificar o nível de acesso de um usuário para ocultar relatórios internos para que os usuários não tenham acesso a eles.
+title: Ocultar relatórios internos
+description: O Adobe Workfront tem uma extensa lista de relatórios internos padrão que os usuários podem acessar e visualizar. Como administrador do Workfront, você pode modificar o nível de acesso de um usuário para ocultar relatórios internos, de modo que os usuários não tenham acesso a eles.
 feature: System Setup and Administration
 role: Admin
 author: Courtney, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 24%
@@ -17,7 +19,7 @@ ht-degree: 24%
 
 # Ocultar relatórios internos
 
-O Adobe Workfront tem uma ampla lista de relatórios internos padrão que os usuários podem acessar e exibir. Como administrador do Workfront, você pode modificar o nível de acesso de um usuário para ocultar relatórios internos para que os usuários não tenham acesso a eles.
+O Adobe Workfront tem uma extensa lista de relatórios internos padrão que os usuários podem acessar e visualizar. Como administrador do Workfront, você pode modificar o nível de acesso de um usuário para ocultar relatórios internos, de modo que os usuários não tenham acesso a eles.
 
 ## Requisitos de acesso
 

@@ -2,20 +2,22 @@
 content-type: o
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Visão geral do botão Trabalhar na tarefa e Concluído
+title: Visão geral dos botões Trabalhar na tarefa e Concluído
 description: Quando estiver atribuído a uma tarefa ou problema, você poderá usar um botão contextual que altera nomes e funções dependendo de seu envolvimento com o item de trabalho.
 author: Becky and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Visão geral do botão Trabalhar na tarefa e Concluído
+# Visão geral dos botões Trabalhar na tarefa e Concluído
 
 Quando estiver atribuído a uma tarefa ou problema, você poderá usar um botão contextual que altera nomes e funções dependendo de seu envolvimento com o item de trabalho.
 
@@ -47,9 +49,11 @@ Dependendo da área do Workfront na qual você acessa sua tarefa ou problema, o 
   ![Botão Marcar como Concluído](assets/nwe-mark-as-done-button-350x122.png)
 
 
-<!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
+<!--
+If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-  ![Home left Done with my part button](assets/home-left-done-with-my-part-button-350x184.png)-->
+  ![Home left Done with my part button](assets/home-left-done-with-my-part-button-350x184.png)
+  -->
 
 ## Localize o botão Trabalhar na tarefa e concluído {#locate-the-work-on-it-and-done-button}
 
@@ -125,4 +129,4 @@ Se você tiver acesso para editar equipes, poderá configurar o botão Concluíd
 Para obter informações sobre como configurar o botão Concluído para uma equipe, consulte os seguintes artigos:
 
 * [Configurar o botão Concluído para tarefas](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
-* [Configurar o botão Concluído para problemas](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+* [Configurar o botão Concluído dos problemas](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)

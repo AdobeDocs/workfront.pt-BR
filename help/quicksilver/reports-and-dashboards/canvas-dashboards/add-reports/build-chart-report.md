@@ -6,7 +6,9 @@ description: Um relatório de gráfico que visualiza seus dados como um gráfico
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1814'
 ht-degree: 7%
@@ -25,7 +27,7 @@ ht-degree: 7%
 >* Azure
 >* Google Cloud Platform
 
-Você pode criar e adicionar um relatório de gráfico a um Painel de Controle de Tela para visualizar seus dados como um gráfico de barras, colunas, linhas ou pizza.
+Você pode criar e adicionar um relatório de gráfico a um Painel da Tela de Pintura para visualizar seus dados como um gráfico de barras, colunas, linhas ou pizza.
 
 ![Relatório de gráfico](assets/chart-report-main.png)
 
@@ -55,7 +57,7 @@ Você pode criar e adicionar um relatório de gráfico a um Painel de Controle d
   </tr> 
   <tr> 
    <td role="rowheader"><p>Configurações de nível de acesso</p></td> 
-   <td><p>Acesso de edição a relatórios, painéis e calendários</p>
+   <td><p>Editar acesso a relatórios, painéis e calendários</p>
   </td> 
   </tr>  
 </tbody> 
@@ -151,9 +153,9 @@ Há muitas opções de configuração disponíveis para criar um relatório de g
 >* Sum aggregation types: o valor central exibido é o total agregado do valor numérico ou de moeda.
 >* Tipos de agregação média, máxima e mínima: O valor central exibe o valor médio, máximo ou mínimo adequadamente.
 
-1. (Opcional) Na seção Legenda, ative **Mostrar legenda** para exibir a legenda do gráfico.
+1. (Opcional) Na seção Legenda, alterne **Mostrar legenda** para exibir a legenda do gráfico.
 
-1. (Opcional) Escolha uma **posição da legenda** no menu suspenso.
+1. (Opcional) Escolha uma **Posição da legenda** no menu suspenso.
 
 ## Definir configurações adicionais de relatório de gráfico
 
@@ -161,10 +163,10 @@ Há muitas opções de configuração disponíveis para criar um relatório de g
 
 Siga as etapas abaixo para configurar a seção **Filtro**:
 
-1. No painel esquerdo, clique no ícone **Filtro**![&#x200B; Filtro](assets/filter-icon.png).
+1. No painel esquerdo, clique no ícone **Filtro**![ Filtro](assets/filter-icon.png).
 1. Selecione **Editar filtro**.
 1. Clique em **Adicionar condição** e especifique o campo pelo qual deseja filtrar e o modificador que define o tipo de condição que o campo deve atender.
-1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OR.
+1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.
 
 ### Configurações de detalhamento
 
@@ -270,9 +272,9 @@ Nesta seção, veremos as etapas para criar um gráfico de colunas que mostra as
 
    1. Clique em **Adicionar coluna** e selecione o campo **Data da Última Atualização**.
 
-   1. (Opcional) Para exibir a hora da atualização, selecione a opção **Data da Última Atualização** no campo **Colunas Atuais** e selecione uma opção de valor de hora no menu suspenso **Formato de data**.
+   1. (Opcional) Para exibir a hora de atualização, selecione a opção **Data da Última Atualização** no campo **Colunas Atuais** e, em seguida, selecione uma opção de valor de hora no menu suspenso **Formato de data**.
 
-1. Siga as etapas abaixo para definir a seção **Configurações do Grupo de Aprofundamento**:
+1. Siga as etapas abaixo para configurar a seção **Configurações do Grupo de Detalhamento**:
 
    1. No painel esquerdo, clique no ícone **Configurações de grupo** ![Configurações de grupo](assets/drilldown-group-icon.png).
 
@@ -284,7 +286,7 @@ Nesta seção, veremos as etapas para criar um gráfico de colunas que mostra as
 
 ### Relatórios com dados financeiros
 
-Os usuários com acesso de Exibição ou Edição a Dados Financeiros em seu nível de acesso ainda verão os dados financeiros nas visualizações do Painel de Controle do Canvas, mesmo se a permissão Exibir financiamento for removida no nível da tarefa ou do projeto.
+Os usuários com acesso de Visualização ou Edição a Dados financeiros em seu nível de acesso ainda verão os dados financeiros nas visualizações do Painel do Canvas, mesmo se a permissão de Visualização de finanças for removida no nível de tarefa ou projeto.
 
 * Os usuários sem direitos referentes a dados financeiros no nível de acesso não verão dados financeiros nos relatórios.
 * Os usuários que veem dados financeiros estão limitados a registros para os quais já têm permissão de visualização (projetos, tarefas, problemas, etc.). Eles não verão valores financeiros correspondentes a registros que não podem acessar.
@@ -296,17 +298,17 @@ Esse é um limite conhecido e pretendemos resolvê-lo o mais rápido possível.
 
 O menu suspenso **Seções** da seção **Gráfico de compilação** foi criado para restringir as opções em um seletor de campos para facilitar a localização de um objeto ao criar um relatório de tabela. Para iniciar, você selecionaria um objeto de entidade base.
 
-* **Todas as Seções**: todos os tipos de objeto no Workfront Workflow e no Workfront Planning.
-* **Objetos do Workfront**: objetos nativos do fluxo de trabalho do Workfront.
-* **Tipos de Registros do Planning**: tipos de registros personalizados definidos no Workfront Planning.
+* **Todas as Seções**: todos os tipos de objetos no Workfront Workflow e no Workfront Planning.
+* **Objetos Workfront**: objetos de Fluxo de Trabalho Workfront nativos.
+* **Tipos de Registro do Planning**: tipos de registro personalizados definidos no Workfront Planning.
 
 ![Menu suspenso de seções](assets/sections-dropdown.png)
 
-Depois que o objeto de entidade base for selecionado, o menu suspenso **Seções** será atualizado com as opções de tipo de campo aplicáveis para escolher.
+Depois que o objeto de entidade base for selecionado, o menu suspenso **Seções** será atualizado com as opções de tipo de campo aplicáveis.
 
 * **Todas as Seções**: campos nativos, campos personalizados e objetos relacionados.
 * **Todos os campos**: campos nativos e personalizados (exclui relações).
-* **Campos Personalizados**: campos definidos pelo cliente em um formulário personalizado ou registro do Planning.
+* **Campos Personalizados**: campos definidos pelo cliente em um formulário personalizado ou em um registro do Planning.
 * **Campos do Workfront**: somente campos nativos.
 * **Relações**: registros conectados.
 

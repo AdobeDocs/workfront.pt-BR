@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Exibir: Tarefa com Variação de Todas as Datas'
-description: Essa exibição de tarefa é semelhante à exibição “Todas as datas” fornecida com sua conta da Adobe Workfront. Essa exibição específica inclui colunas de Variação, que calculam a diferença em dias entre datas.
+title: 'View: Tarefa com Todas as Variações de Datas'
+description: Essa exibição de tarefa é semelhante à exibição "Todas as datas" fornecida com sua conta da Adobe Workfront. Essa exibição específica inclui colunas de Variação, que calculam a diferença em dias entre datas.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 14%
@@ -18,16 +20,16 @@ ht-degree: 14%
 
 <!--Audited: 11/2024-->
 
-Essa exibição de tarefa é semelhante à exibição “Todas as datas” fornecida com sua conta da Adobe Workfront. Este modo de exibição específico inclui colunas de *Variação*, que calculam a diferença em dias entre as seguintes datas:
+Essa exibição de tarefa é semelhante à exibição &quot;Todas as datas&quot; fornecida com sua conta da Adobe Workfront. Esta exibição específica inclui colunas de *Variação*, que calculam a diferença em dias entre as seguintes datas:
 
-* Datas Iniciais Planejadas e Projetadas
-* Datas Iniciais Planejadas e Reais
-* Datas de Conclusão Planejadas e Projetadas
-* Datas de Conclusão Planejada e Real
+* Datas de Início Planejadas e Projetadas
+* Datas de Início Planejadas e Efetivas
+* Datas de Término Planejadas e Projetadas
+* Datas de Término Planejadas e Efetivas
 
-Esta exibição representa um exemplo de colunas calculadas, nas quais você pode obter os valores de duas colunas diferentes e conectá-los por um cálculo para obter um terceiro valor. Nesse caso, você subtrai a data 1 da data 2.
+Essa exibição representa um exemplo de colunas calculadas, nas quais você pode obter os valores de duas colunas diferentes e conectá-los por um cálculo para obter um terceiro valor. Nesse caso, você subtrai a data 1 da data 2.
 
-Para obter mais informações sobre como usar cálculos em uma Exibição, consulte a seção [Visão geral de usos comuns do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) no  [Visão geral dos usos comuns do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Para obter mais informações sobre o uso de cálculos em uma Exibição, consulte a seção [Visão Geral dos usos comuns do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) em  [Visão geral dos usos comuns do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 ![Exibir tarefa com todas as datas](assets/view-task-with-all-dates-variance.png)
 
@@ -46,12 +48,12 @@ Para obter mais informações sobre como usar cálculos em uma Exibição, consu
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou Solicitação de modificação de uma exibição </p>
+   <p>Colaborador ou Solicitação para modificar uma exibição </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Acesso de edição a filtros, visualizações, agrupamentos para modificar uma visualização</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -68,11 +70,11 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 ## Exibir tarefas com variação de Todas as Datas
 
 1. Ir para uma lista de tarefas.
-1. No menu suspenso **Exibição**, selecione **Nova Exibição**.
+1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
 
 1. Na área **Visualização da coluna**, elimine todas as colunas, exceto uma.
-1. Clique no cabeçalho da coluna restante e clique em **Alternar para o Modo de Texto** > **Editar Modo de Texto**.
-1. Remova o texto encontrado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
+1. Clique no cabeçalho da coluna restante e em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
+1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
    column.1.descriptionkey=name
@@ -284,4 +286,4 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
    row.0.styledef.case.0.comparison.usefield=false
    ```
 
-1. Clique em **Concluído** > **Salvar Exibição**.
+1. Clique em **Concluído** > **Salvar exibição**.

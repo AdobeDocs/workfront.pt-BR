@@ -7,7 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1431'
 ht-degree: 7%
@@ -16,7 +18,7 @@ ht-degree: 7%
 
 # Use o Adobe Experience Manager com a integração com Frame.io
 
-Você pode usar o [!DNL Experience Manager Assets]&#x200B;&#x200B; para gerenciar e armazenar seus ativos digitais que passaram pelo ciclo de revisão e aprovação. Essa integração permite que você aproveite os recursos do Adobe Experience Manager, Frame.io e Workfront para otimizar seus processos de gestão de conteúdo e colaboração.
+Você pode usar o [!DNL Experience Manager Assets]&#x200B; para gerenciar e armazenar seus ativos digitais que passaram pelo ciclo de revisão e aprovação. Essa integração permite que você aproveite os recursos do Adobe Experience Manager, Frame.io e Workfront para otimizar seus processos de gestão de conteúdo e colaboração.
 
 ## Configurar a integração do Experience Manager Assets
 
@@ -121,7 +123,7 @@ Antes de começar a mapear campos de metadados, você deve configurar campos de 
 
 Para configurar campos de metadados:
 
-1. Configure um esquema de metadados em [!DNL Experience Manager Assets] conforme explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Configure um esquema de metadados em [!DNL Experience Manager Assets] conforme explicado em [Configurar o mapeamento de metadados de ativos entre o Adobe [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Configure campos de formulário personalizados no Workfront. [!DNL Workfront] tem muitos campos personalizados internos que você pode usar. No entanto, você também pode criar seus próprios campos personalizados, conforme explicado em [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -151,7 +153,7 @@ Você pode mapear qualquer campo compatível com o Workfront para uma tag no Exp
 
 Depois de criar as tags na Experience Manager Assets, elas aparecerão no menu suspenso Tags na seção Metadados. Para vincular um campo a uma marca, selecione `xcm:keywords` na lista suspensa de campos do Experience Manager Assets na área de mapeamento de metadados.
 
-Para obter mais informações sobre tags na Experience Manager Assets, incluindo como criar e gerenciar tags, consulte [Administração de Tags](https://experienceleague.adobe.com/pt-br/docs/experience-manager-64/administering/contentmanagement/tags).
+Para obter mais informações sobre tags na Experience Manager Assets, incluindo como criar e gerenciar tags, consulte [Administração de Tags](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Campos de esquema de metadados personalizados do Experience Manager Assets**
 
@@ -252,7 +254,8 @@ Para enviar um documento:
 1. Escolha para onde deseja que o ativo vá e clique em **Selecionar pasta**.
 
 
-<!-- not sure if this is in yet
+<!--
+ not sure if this is in yet
 
 ### Send a new version
 

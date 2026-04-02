@@ -1,27 +1,31 @@
 ---
-title: Criar objetos Workfront a partir do Workfront Planning à medida que você os conecta aos registros
+title: Criar objetos do Workfront a partir do Adobe Workfront Planning ao conectá-los a registros
 description: Você pode criar tipos de objetos do Workfront à medida que os conecta a outros registros no Workfront Planning.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1257'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Criar objetos Workfront a partir do Workfront Planning à medida que você os conecta aos registros
+# Criar objetos do Workfront a partir do Adobe Workfront Planning ao conectá-los a registros
 
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -115,7 +119,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -176,7 +181,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 </tbody> 
 </table> 
 
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+ -->
 
 
 ## Pré-requisitos para criar objetos do Workfront ao conectá-los a registros do Workfront Planning

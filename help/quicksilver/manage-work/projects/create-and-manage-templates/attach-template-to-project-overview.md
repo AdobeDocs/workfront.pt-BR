@@ -8,10 +8,12 @@ description: Ao anexar um modelo a um projeto existente, você está modificando
 author: Alina
 feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -308,7 +310,7 @@ A tabela a seguir descreve o padrão para o que acontece com os campos do projet
    <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td>Restrições de Tarefa</td> 
+   <td>Restrições de tarefa</td> 
    <td> <p>Transferido do modelo </p> <p>Se desmarcada durante o processo de anexação, as restrições da tarefa serão definidas como Assim que possível ou O Mais Tarde Possível, dependendo da configuração Agendar de do projeto. </p> </td> 
    <td> <p> </p> <p> </p> <p style="text-align: center;">✓</p> </td> 
   </tr> 
@@ -327,7 +329,8 @@ A tabela a seguir descreve o padrão para o que acontece com os campos do projet
 
 
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <div>
 <h2> </h2>

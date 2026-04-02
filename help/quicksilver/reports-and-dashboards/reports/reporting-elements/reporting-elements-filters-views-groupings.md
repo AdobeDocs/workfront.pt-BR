@@ -6,7 +6,9 @@ description: Os principais elementos que cada lista e relatório deve ter no Wor
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 1%
@@ -17,11 +19,13 @@ ht-degree: 1%
 
 <!-- Audited: 11/2024 -->
 
-<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!--
+AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well
+-->
 
 Há vários elementos que tornam uma lista ou um relatório possível no Adobe Workfront. Os principais elementos que cada lista e relatório deve ter são um filtro, uma visualização e um agrupamento. Cada elemento fornece informações diferentes em qualquer relatório.
 
@@ -39,7 +43,7 @@ Considere o seguinte ao trabalhar com filtros, exibições e agrupamentos:
 
   Para obter informações sobre como conceder acesso a relatórios, painéis e calendários, consulte [Conceder acesso a relatórios, painéis e calendários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-* Se você selecionar um filtro, uma exibição ou um agrupamento em um relatório ou lista, o Workfront manterá essa seleção para as listas desse objeto mesmo depois de fazer logoff ou fechar o navegador. Por exemplo, se você selecionar uma exibição específica para um relatório de tarefa, essa seleção aparecerá para outras listas de tarefas, como a lista de tarefas em um projeto.
+* Se você selecionar um filtro, uma visualização ou um agrupamento em um relatório ou lista, o Workfront manterá essa seleção para as listas desse objeto mesmo depois de fazer logout ou fechar o navegador. Por exemplo, se você selecionar uma exibição específica para um relatório de tarefa, essa seleção aparecerá para outras listas de tarefas, como a lista de tarefas em um projeto.
 
 ## Filtros
 
@@ -72,7 +76,7 @@ Alguns atributos de visualizações são:
 
 Um agrupamento controla como você organiza os dados, facilitando sua leitura e compreensão. Os agrupamentos criam barras horizontais em um relatório que exibe resultados listados juntos por atributos comuns. Você define os critérios de como deseja agrupar os resultados do relatório ao criar o agrupamento.
 
-Por exemplo, agrupar uma lista de tarefas que abrange vários projetos por nome de projeto organiza todas as respectivas tarefas que pertencem a um único projeto com esse nome.
+Por exemplo, agrupar uma lista de tarefas que abrangem vários projetos pelo nome do projeto organiza todas as respectivas tarefas que pertencem a um único projeto sob esse nome.
 
 Alguns atributos de agrupamentos são:
 

@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1711'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -156,8 +158,8 @@ Se um ativo foi carregado pela primeira vez para [!DNL Workfront] e enviado para
 
 Para garantir que seus usuários tenham acesso contínuo a documentos vinculados ao Workfront por meio da integração herdada do [!DNL SharePoint], você deve reconfigurar o acesso à integração herdada do [!DNL SharePoint] e manter o Segredo do Cliente do SharePoint atualizado.
 
-* [Reconfigurar o acesso à integração herdada  [!DNL SharePoint] &#x200B;](#reconfigure-access-to-the-legacy-sharepoint-integration)
-* [Configure o Segredo do Cliente para obter acesso contínuo à integração herdada  [!DNL SharePoint] &#x200B;](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
+* [Reconfigurar o acesso à integração herdada  [!DNL SharePoint] ](#reconfigure-access-to-the-legacy-sharepoint-integration)
+* [Configure o Segredo do Cliente para obter acesso contínuo à integração herdada  [!DNL SharePoint] ](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Reconfigurar o acesso à integração herdada [!DNL SharePoint]
 
@@ -170,7 +172,7 @@ A reconfiguração da integração herdada [!DNL SharePoint] permite que seus us
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
 1. Selecione **[!UICONTROL Documentos]** na navegação à esquerda e **[!UICONTROL Provedores de nuvem]**.
-1. Verifique se as opções **[!DNL SharePoint]** e **[!UICONTROL [!DNL SharePoint] (API gráfica)]** estão habilitadas.
+1. Verifique se as opções **[!DNL SharePoint]** e **[!UICONTROL [!DNL SharePoint](API gráfica)]** estão habilitadas.
 1. Clique em **[!UICONTROL Salvar]**.
 1. Selecione **[!UICONTROL Documentos]** na navegação à esquerda e **[!UICONTROL [!DNL SharePoint]Integração]**.
 1. Selecione a marca de seleção à esquerda da lista para todas as integrações existentes e selecione **[!UICONTROL Desativar]**.
@@ -185,9 +187,11 @@ O segredo do cliente [!DNL SharePoint] expira uma vez por ano. Para garantir o a
 >
 > Como os Segredos do Cliente [!DNL SharePoint] são manipulados por [!DNL Microsoft], os recursos e procedimentos do Segredo do Cliente podem ser alterados com base nas atualizações para [!DNL SharePoint] feitas por [!DNL Microsoft]. Sempre verifique a documentação do [!DNL Microsoft] para obter as informações mais recentes sobre procedimentos e recursos no [!DNL SharePoint].
 
-<!--1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
+<!--
+1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
 
-1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
+1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
+-->
 
 1. Gere um novo segredo de cliente conforme descrito em [Substituir um segredo de cliente que está expirando em um [!DNL SharePoint] Suplemento](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Copiar este Segredo do Cliente para um local seguro.
@@ -483,7 +487,8 @@ Para ver um conjunto de sites em [!DNL Workfront], as seguintes condições deve
 
   Para verificar isso em [!DNL SharePoint], verifique as permissões do conjunto de sites no SharePoint.
 
-<!--* The [!DNL SharePoint] Site App must have access to the site collection.
+<!--
+* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
 
@@ -511,4 +516,5 @@ Para obter informações sobre como vincular pastas de provedores externos, cons
 
 #### Solution:
 
-This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.-->
+This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.
+-->

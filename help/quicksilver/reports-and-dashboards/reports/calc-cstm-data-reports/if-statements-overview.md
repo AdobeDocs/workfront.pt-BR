@@ -7,7 +7,9 @@ description: Você pode usar instruções "IF" em linguagens de programação ge
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -57,7 +59,7 @@ Você pode criar instruções &quot;IF&quot; no Workfront usando o seguinte form
 
 * **Operador de Condição** = este é o operador que ajuda a criar a condição da sua instrução &quot;IF&quot;. Por exemplo, &quot;é igual a&quot; ou &quot;é maior que&quot; são operadores de condição. Para obter uma lista de operadores de condição que você pode usar em instruções, consulte [Operadores de condição em expressões personalizadas calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True**&#x200B;**Expression** = Esta é a variável &quot;True&quot;, que informa à equação qual indicador será exibido quando os critérios da condição forem atendidos (indicadores true).
+* **True****Expression** = Esta é a variável &quot;True&quot;, que informa à equação qual indicador será exibido quando os critérios da condição forem atendidos (indicadores true).
 
 * **Expressão Falsa** = Essa é a variável &quot;False&quot;, que informa à equação qual indicador exibir quando os critérios da condição não forem atendidos (indicadores falsos).
 

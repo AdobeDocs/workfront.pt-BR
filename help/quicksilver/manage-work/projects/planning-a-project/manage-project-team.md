@@ -7,10 +7,12 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 2%
+source-wordcount: '830'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +20,8 @@ ht-degree: 2%
 
 <!--take preview and production references out at production - August 7-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
@@ -28,7 +31,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 -->
 
-A Equipe do projeto consiste em usuários associados ao projeto. Para obter mais informações, consulte [Visão geral da Equipe do Projeto](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
+A Equipe do projeto consiste em usuários associados ao projeto. Para obter mais informações, consulte [Visão geral da equipe de projeto](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
 Os membros da Equipe do projeto são exibidos na seção Pessoas do projeto.
 
@@ -47,7 +50,7 @@ Você pode gerenciar os usuários nas equipes do projeto e do modelo adicionando
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +62,7 @@ Você pode gerenciar os usuários nas equipes do projeto e do modelo adicionando
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
     <p>Plano</p>
     </td> 
   </tr> 
@@ -78,7 +81,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--Old access: 
+<!--
+Old access: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -141,7 +145,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
  For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
 
- <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+ drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
@@ -199,12 +203,13 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Select one or multiple users in the list, then click **Send Update to User**.
 
-   <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
+   update screen shot when they fix the bug - the text above the box needs to match the OLD box, below
 
-![Enviar atualização para caixa de usuário no projeto](assets/send-update-to-user-on-project-box-2025.png)
+   ![Send update to user box on the project](assets/send-update-to-user-on-project-box-2025.png)
 
-<!--Old UI for projects but the text above the comment box is right and matches the functionality):
-   ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
+   Old UI for projects but the text above the comment box is right and matches the functionality):
+   ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)
+-->
 
 A caixa **Enviar atualização para o usuário** é aberta.
 

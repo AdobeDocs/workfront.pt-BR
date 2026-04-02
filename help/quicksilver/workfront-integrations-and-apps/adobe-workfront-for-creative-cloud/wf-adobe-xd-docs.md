@@ -6,10 +6,12 @@ description: Você pode fazer upload de pranchetas como documentos para uma revi
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -20,14 +22,15 @@ Você pode carregar suas pranchetas como documentos para revisão e aprovação 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <!-- <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <!--
+    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -36,7 +39,8 @@ Você pode carregar suas pranchetas como documentos para revisão e aprovação 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
   </tr> 
-  <tr> -->
+  <tr>
+  -->
    <td role="rowheader">Produtos adicionais</td> 
    <td>Você deve ter uma licença [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront].</td> 
   </tr> 
@@ -106,7 +110,7 @@ Para obter instruções, consulte [Instalar [!DNL Adobe Workfront for XD]](/help
    </table>
 
 
-1. Clique em **[!UICONTROL Carregar]**.\
+1. Clique em **[!UICONTROL Fazer upload]**.\
    O documento aparece na área [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.
 
 ## Adicionar uma nova versão
@@ -158,5 +162,5 @@ Para obter instruções, consulte [Instalar [!DNL Adobe Workfront for XD]](/help
     </tbody>
    </table>
 
-1. Clique em **[!UICONTROL Carregar]**.\
+1. Clique em **[!UICONTROL Fazer upload]**.\
    O documento aparece na área [!UICONTROL Documentos] no plug-in e no aplicativo de desktop.

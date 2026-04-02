@@ -7,14 +7,16 @@ description: O valor do Percentual concluído de um projeto é calculado com bas
 author: Alina
 feature: Work Management
 exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%
 
 ---
 
-# Visão geral do Percentual de Término do Projeto
+# Visão geral da Porcentagem de conclusão do projeto
 
 <!-- Audited 01/2024 -->
 
@@ -121,7 +123,8 @@ Ou
 `(((5*0.2)+(2*0.25))/7)*100= 21.43%`
 
 
-<!--drafted, this was the old example:
+<!--
+drafted, this was the old example:
 
 When using the Planned Duration of the tasks to calculate the percent complete of a project, consider the following example:
 

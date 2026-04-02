@@ -6,10 +6,12 @@ description: Você pode atualizar o status de um problema para informar a outras
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -33,8 +35,8 @@ Você pode atualizar o status de um problema para informar a outras pessoas onde
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p>
+   <td> <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p>
    </td> 
   </tr> 
   <tr> 
@@ -52,7 +54,8 @@ Você pode atualizar o status de um problema para informar a outras pessoas onde
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ Você pode atualizar o status de um problema para informar a outras pessoas onde
    <td> <p>Manage permissions to the issue</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Status de problemas
 
@@ -140,7 +144,8 @@ Para atualizar manualmente o status do problema no cabeçalho do problema:
 
 
 
-<!--Old instructions, in old commenting: 
+<!--
+Old instructions, in old commenting: 
 
 When you are updating an issue status, you can also add an explanation about the new status and change other issue information such as the commit date.
 

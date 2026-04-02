@@ -11,10 +11,12 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 1f7fce86-0ba9-4407-842d-5f8625c9de70
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -26,7 +28,8 @@ Os colaboradores no novo modelo de licença devem ter uma opção de atualizaç�
 
 Para exibir quais níveis de acesso são atribuídos como opções de atualização automática:
 <!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png). -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png).
+-->
 
 1. No painel direito, clique em **Níveis de Acesso**.
 

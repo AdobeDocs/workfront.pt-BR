@@ -6,7 +6,9 @@ description: Os modificadores de filtro e condição permitem criar filtros e es
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 0%
@@ -21,17 +23,17 @@ ht-degree: 0%
 
 Os modificadores de filtro e condição permitem criar filtros e estabelecer condições para formatar os resultados do relatório.
 
-Para obter mais informações sobre a criação de filtros, consulte o artigo [Visão geral de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Para obter mais informações sobre a criação de filtros, consulte o artigo [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-For more information about using conditional formatting in Views, see the article [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Para obter mais informações sobre o uso de formatação condicional em Exibições, consulte o artigo [Usar formatação condicional em exibições](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Modificadores de filtro e condição
 
-Some modifiers are built-in and you can choose them from a drop-down menu inside your filter or conditional formatting statement. Other modifiers can only be used in text mode filters.
+Alguns modificadores são incorporados e você pode escolhê-los de um menu suspenso dentro do filtro ou da instrução de formatação condicional. Outros modificadores só podem ser usados em filtros de modo de texto.
 
-For more information about understanding text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Para obter mais informações sobre como entender o modo de texto, consulte [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-For a list of built-in time frame modifiers, see the article [Filter reports by timeframes](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
+Para obter uma lista de modificadores de período predefinidos, consulte o artigo [Filtrar relatórios por período](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
 
 Você pode usar os seguintes modificadores de condição em filtros e instruções de formatação condicional:
 
@@ -50,7 +52,7 @@ Você pode usar os seguintes modificadores de condição em filtros e instruçõ
   <tr valign="top"> 
    <td> <p><strong>Está em Branco</strong> </p> </td> 
    <td> <p><strong>em branco</strong> </p> </td> 
-   <td> <p>O campo existe para o objeto, mas atualmente não tem um valor.</p> </td> 
+   <td> <p>O campo existe para o objeto, mas o campo não tem um valor no momento.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Não Está Em Branco</strong> </p> </td> 
@@ -60,22 +62,22 @@ Você pode usar os seguintes modificadores de condição em filtros e instruçõ
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>nulo</strong> </p> </td> 
-   <td> <p>O campo está em branco ou não existe. Por exemplo, você deseja procurar itens sem uma ID de tarefa pai. Isso significa que você deseja ver somente as tarefas independentes. The qualifier for the "parent task ID" would be <strong>null</strong>, since a task without an ID (in this case the parent) does not exist. </p> <p>This modifier can only be used in text mode filters. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
+   <td> <p>O campo está em branco ou não existe. Por exemplo, você deseja procurar itens sem uma ID de tarefa pai. Isso significa que você deseja ver apenas as tarefas independentes. O qualificador para a "ID da tarefa pai" seria <strong>nulo</strong>, já que uma tarefa sem uma ID (neste caso, o pai) não existe. </p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>notnull</strong> </p> </td> 
-   <td> <p>O campo que você está filtrando existe e contém um valor diferente de nulo.</p> <p>Este modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo de texto nos filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo de texto</a>.</p> </td> 
+   <td> <p>O campo que você está filtrando existe e contém um valor diferente de nulo.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Contém</strong> </p> </td> 
-   <td> <p><strong>cicontém</strong> </p> </td> 
-   <td> <p>Esta é a versão <i>sem distinção entre maiúsculas e minúsculas</i> de <strong>contém</strong>. Por exemplo: <code>cicontains inf</code> captura qualquer valor que contenha <code>Inf</code> ou <code>inf</code>.</p> <p> <p>Observação: O Adobe Workfront procura a palavra ou frase exata que você está especificando para cada instrução de filtro. Por exemplo, se você estiver pesquisando um projeto que contenha a frase <code>new project</code> no nome, o Workfront não exibirá projetos que tenham apenas <code>new</code> ou apenas <code>project</code>, ou <code>new main project</code> no nome. O filtro localiza somente projetos com a frase exata <code>new project</code> no nome.</p> </p> </td> 
+   <td> <p><strong>cicontains</strong> </p> </td> 
+   <td> <p>Esta é a versão <i>que não diferencia maiúsculas de minúsculas</i> de <strong>contém</strong>. Por exemplo: <code>cicontains inf</code> captura qualquer valor que contenha <code>Inf</code> ou <code>inf</code>.</p> <p> <p>Observação: O Adobe Workfront procura a palavra ou frase exata que você está especificando para cada instrução de filtro. Por exemplo, se você estiver pesquisando um projeto que contenha a frase <code>new project</code> no nome, o Workfront não exibirá projetos que tenham apenas <code>new</code> ou apenas <code>project</code>, ou <code>new main project</code> no nome. O filtro localiza somente projetos com a frase exata <code>new project</code> no nome.</p> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>Does Not Contain</strong> </p> </td> 
+   <td> <p><strong>Não Contém</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p>This is the <i>case insensitive</i> version of <strong>notcontains</strong>.</p><p>This modifier filters for items that are missing the value specified.</p> <p>For example, <code>does not contain inf</code> captures anything without <code>Inf</code> or <code>inf</code> in the name.</p> <p>Observação: quando aplicado a campos que contêm vários valores (como uma coleção de notas em um projeto), o filtro determina a exclusão da seguinte maneira:
+   <td> <p>Esta é a versão <i>sem diferenciação de maiúsculas e minúsculas</i> de <strong>notcontains</strong>.</p><p>Esse modificador filtra itens cujo valor especificado está faltando.</p> <p>Por exemplo, <code>does not contain inf</code> captura algo sem <code>Inf</code> ou <code>inf</code> no nome.</p> <p>Observação: quando aplicado a campos que contêm vários valores (como uma coleção de notas em um projeto), o filtro determina a exclusão da seguinte maneira:
 <ul>
     <li>Se todos os itens em uma coleção contiverem o texto especificado, todo o registro será excluído dos resultados.</li>
     <li>Se pelo menos um item na coleção não contiver o texto especificado, o registro permanecerá nos resultados.</li>
@@ -84,27 +86,27 @@ Você pode usar os seguintes modificadores de condição em filtros e instruçõ
   </tr> 
   <tr valign="top"> 
    <td> </td> 
-   <td> <p><strong>contains</strong> </p> </td> 
-   <td> <p> Procura o texto <i>com distinção entre maiúsculas e minúsculas</i> especificado em uma cadeia de texto inteira.</p> <p>Por exemplo, o uso de <code>contains Inf</code> captura algo com <code>Inf</code>, como a palavra <code>Infinity.</code></p> <p>Este modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo de texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo de texto</a>.</p> </td> 
+   <td> <p><strong>contém</strong> </p> </td> 
+   <td> <p> Pesquisa o texto <i>que diferencia maiúsculas de minúsculas</i> especificado em uma cadeia de texto inteira.</p> <p>Por exemplo, usar <code>contains Inf</code> captura qualquer coisa com <code>Inf</code> nela, como a palavra <code>Infinity.</code></p> <p>Este modificador só pode ser usado em filtros do modo texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
-   <td> <p><strong>nãocontém</strong> </p> </td> 
-   <td> <p>It filters for items that are missing the <i>case sensitive</i> value specified.</p> <p>Por exemplo, <code>notcontains inf</code> captura qualquer item sem <code>inf</code>, mas exibe valores que contêm <code>Inf</code>.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
+   <td> <p><strong>notcontains</strong> </p> </td> 
+   <td> <p>Ele filtra itens que não têm o valor <i>que diferencia maiúsculas de minúsculas</i> especificado.</p> <p>Por exemplo, <code>notcontains inf</code> captura qualquer item sem <code>inf</code>, mas exibe valores que contêm <code>Inf</code>.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
   </tr> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p>Esta é a opção <i>que não diferencia maiúsculas de minúsculas</i> de <strong>eq</strong>. Ela só retorna uma correspondência exata do valor pesquisado.</p> <p>For example, when searching for a task with a specific name, <code>task name cieq test</code> finds tasks where the name is <code>Test</code>, <code>TEST</code>, or <code>Test</code>, but it does not find a task with the name <code>test 123.</code></p> <p>When searching for a status, the <strong>cieq</strong> modifier is not supported. You should use the case sensitive modifier, <strong>eq</strong>, to search for a status.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td>
+   <td> <p>Esta é a opção <i>que não diferencia maiúsculas de minúsculas</i> de <strong>eq</strong>. Ela só retorna uma correspondência exata do valor pesquisado.</p> <p>Por exemplo, ao procurar uma tarefa com um nome específico, <code>task name cieq test</code> encontra tarefas cujo nome é <code>Test</code>, <code>TEST</code> ou <code>Test</code>, mas não encontra uma tarefa com o nome <code>test 123.</code></p> <p>Ao procurar um status, o modificador <strong>cieq</strong> não é compatível. Você deve usar o modificador que diferencia maiúsculas de minúsculas, <strong>eq</strong>, para procurar um status.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td>
   </tr> 
   <tr valign="top"> 
    <td> </td> 
    <td><strong>cine</strong> </td> 
-   <td> <p>Esta é a opção <i>não diferencia maiúsculas de minúsculas</i> de <strong>ne</strong> e é o oposto do modificador <b>cieq</b>. Ela só retorna resultados que não correspondem exatamente ao valor pesquisado, sem levar em conta a capitalização do valor.</p> <p>Por exemplo, <b>cine</b> retorna quaisquer valores que não sejam iguais a “current” ou “Current”. </p> <p>Este modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo de texto nos filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo de texto</a>.</p> </td> 
+   <td> <p>Esta é a opção <i>que não diferencia maiúsculas de minúsculas</i> de <strong>ne</strong>, e é o oposto do modificador <b>cieq</b>. Ela só retorna resultados que não são uma correspondência exata do valor pesquisado, não levando em conta a caixa do valor.</p> <p>Por exemplo, <b>cine</b> retorna quaisquer valores que não sejam iguais a "current" ou "Current". </p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
   </tr>   <tr valign="top"> 
    <td> </td> 
    <td> <p><strong>eq</strong> </p> </td> 
-   <td> <p>This modifier returns only an exact, <i>case sensitive</i> match of the searched value.</p> <p>For example, when searching for complete projects, <code>eq CPL</code> returns all projects in the Complete status. <code>eq CPL, CUR</code> does not return a result because a project cannot be complete and current at the same time.</p> <p>Este modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo de texto nos filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo de texto</a>.</p> </td> 
+   <td> <p>Este modificador retorna somente uma correspondência exata <i>que diferencia maiúsculas de minúsculas</i> do valor pesquisado.</p> <p>Por exemplo, ao pesquisar por projetos concluídos, <code>eq CPL</code> retorna todos os projetos com o status Concluído. <code>eq CPL, CUR</code> não retorna um resultado porque um projeto não pode ser concluído e atualizado ao mesmo tempo.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 
@@ -114,32 +116,32 @@ Você pode usar os seguintes modificadores de condição em filtros e instruçõ
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cidade</strong> </p> </td> 
-   <td> <p> Esta é a versão <i>sem distinção entre maiúsculas e minúsculas</i> de <strong>pol</strong>.</p> <p>Este modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo de texto nos filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo de texto</a>.</p> </td> 
+   <td> <p> Esta é a versão <i>sem diferenciação de maiúsculas e minúsculas</i> de <strong>in</strong>.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cinotina</strong> </p> </td> 
-   <td> <p>Esta é a versão <i>sem diferenciação de maiúsculas e minúsculas</i> de <strong>nãon</strong>.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo de texto nos filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo de texto</a>.</p> </td> 
+   <td> <p>Esta é a versão <i>sem diferenciação de maiúsculas e minúsculas</i> de <strong>nãon</strong>.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> </p> <p> </p> <p> </p> <p><strong>Equal</strong> </p> </td> 
+   <td> <p> </p> <p> </p> <p> </p> <p><strong>Igual</strong> </p> </td> 
    <td> <p><strong>in</strong> </p> </td> 
-   <td> <p>This modifier allows you to create a comma-separated list of <i>case sensitive</i> variables to compare to a single attribute evaluated in a filter. The entire list is treated as an OR statement and returns any results that meet the criteria of one or more of the variables.</p> <p>For example, when searching for projects, using <code>in CUR, PLN, CPL</code> returns all projects that are in the Current, OR Planning, OR Complete status.</p> <p>O modificador interno <strong>Equal</strong> corresponde ao modificador do modo de texto de <strong>in</strong>. Isso significa que você pode escolher Igual com vários valores para o campo.</p> <p>Por exemplo, você pode escolher um “Status igual a Atual, Planejamento, Inativo” em um relatório de projeto e pode exibir projetos em qualquer um desses status.</p> </td> 
+   <td> <p>Este modificador permite criar uma lista separada por vírgulas de variáveis <i>que diferenciam maiúsculas de minúsculas</i> para comparar a um único atributo avaliado em um filtro. A lista inteira é tratada como uma instrução OU e retorna quaisquer resultados que atendam aos critérios de uma ou mais das variáveis.</p> <p>Por exemplo, ao pesquisar por projetos, o uso de <code>in CUR, PLN, CPL</code> retorna todos os projetos com status Atual, OU Planejado ou Concluído.</p> <p>O modificador interno <strong>Equal</strong> corresponde ao modificador de modo de texto de <strong>in</strong>. Isso significa que você pode escolher Equal with multiple values para o campo.</p> <p>Por exemplo, você pode escolher um "Status igual a Atual, Planejamento, Inativo" em um relatório de projeto e pode visualizar os projetos em qualquer um desses status.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Não Igual</strong> </p> </td> 
    <td> <p><strong>não</strong> </p> </td> 
-   <td> <p>Este é o oposto de <i>em</i>, que diferencia maiúsculas de minúsculas<strong>. </strong> Retorna apenas resultados que não estejam na lista especificada.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> <p>Observação: <span>Se o campo que você está filtrando tiver várias opções, isso filtra os resultados que contêm tanto a opção especificada, quanto a opção especificada e qualquer opção adicional.</span> </p> </td> 
+   <td> <p>Esta é a <i>distinção entre maiúsculas e minúsculas</i> oposta a <strong>em</strong>. Retorna apenas resultados que não estão na lista especificada.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> <p>Observação: <span>Se o campo que você está filtrando tiver várias opções, isso filtra os resultados que contêm tanto a opção especificada, quanto a opção especificada e qualquer opção adicional.</span> </p> </td> 
   </tr>
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>curtir</strong> </p> </td> 
-   <td> <p>This modifier searches for portions of a <i>case sensitive</i> text string in similar fashion to <strong>contains</strong>. However, <strong>like</strong> provides the ability to insert wild card characters to break up the text.</p> <p>For example, when searching for notes, using <code>like %Current% %Dead%</code> returns any note that contains the phrase "Current to Dead". It does not include any notes that contain "Dead to Current". Each value is searched in the order it is listed. O % representa um curinga para substituir caracteres ou segmentos de texto. An underscore can also be used for a single wildcard character, as in <code>like Project_</code> that returns both "Project" and "Projects". If you intend on using a <strong>like</strong> or <strong>clike</strong> modifier in your filtering, we recommend avoiding % or _ characters in custom data field names, parameter option values, or other object names.</p><p>This modifier can only be used in text mode filters. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
+   <td> <p>Este modificador procura partes de uma cadeia de texto <i>que diferencia maiúsculas de minúsculas</i> de maneira semelhante a <strong>contém</strong>. Entretanto, <strong>like</strong> fornece a capacidade de inserir caracteres curinga para dividir o texto.</p> <p>Por exemplo, ao pesquisar anotações, o uso de <code>like %Current% %Dead%</code> retorna qualquer anotação que contenha a frase "Atualizado para Desativado". Ela não inclui notas que contenham "Inativo para atual". Cada valor é pesquisado na ordem em que é listado. % representa um curinga para substituir caracteres ou segmentos de texto. Um sublinhado também pode ser usado para um único caractere curinga, como em <code>like Project_</code>, que retorna "Projeto" e "Projetos". Se você pretende usar um modificador <strong>like</strong> ou <strong>clike</strong> na filtragem, recomendamos evitar % ou _ caracteres em nomes de campos de dados personalizados, valores de opção de parâmetro ou outros nomes de objeto.</p><p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
   </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cilike</strong> </p> </td> 
-   <td> <p>Esta é a versão <i>sem distinção entre maiúsculas e minúsculas</i> de <strong>curtida</strong>. Por exemplo: <code>cilike %Current% %Dead%</code> retorna qualquer anotação que contenha <code>Current to Dead</code> ou <code>current to dead</code>.</p> <p>Este modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo de texto nos filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo de texto</a>.</p> </td> 
+   <td> <p>Esta é a versão <i>sem diferenciação de maiúsculas e minúsculas</i> de <strong>semelhante</strong>. Por exemplo: <code>cilike %Current% %Dead%</code> retorna quaisquer notas que contenham <code>Current to Dead</code> ou <code>current to dead</code>.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>Não Existe</strong> </td> 
@@ -151,34 +153,34 @@ Você pode usar os seguintes modificadores de condição em filtros e instruçõ
     </ul> <p>Para obter informações sobre como criar filtros complexos usando instruções EXISTS, consulte o artigo <a href="../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md">Criar filtros complexos no modo texto usando instruções EXISTS</a>. Este é o único modificador usado em instruções EXISTS.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>Greater Than</strong> </p> </td> 
-   <td> <p><strong>gt</strong> </p> </td> 
-   <td> <p>This searches for all results with a value greater than the value entered, not including the entered value.</p> </td> 
+   <td> <p><strong>Maior Que</strong> </p> </td> 
+   <td> <p><strong>get</strong> </p> </td> 
+   <td> <p>Pesquisa todos os resultados com um valor maior que o valor inserido, sem incluir o valor inserido.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>Less Than</strong> </p> </td> 
+   <td> <p><strong>Menor Que</strong> </p> </td> 
    <td> <p><strong>lt</strong> </p> </td> 
    <td> <p>Pesquisa todos os resultados com um valor menor do que o inserido, sem incluir o valor inserido.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Maior Que Igual</strong> </p> </td> 
-   <td> <p><strong>obter</strong> </p> </td> 
+   <td> <p><strong>get</strong> </p> </td> 
    <td> <p>Pesquisa todos os resultados com valores maiores ou iguais ao valor inserido.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>Menor que Igual</strong> </p> </td> 
-   <td> <p><strong>tarde</strong> </p> </td> 
+   <td> <p><strong>Menor Que Igual</strong> </p> </td> 
+   <td> <p><strong>lte</strong> </p> </td> 
    <td> <p>Pesquisa todos os resultados com um valor menor ou igual ao valor inserido.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>Between</strong> </p> </td> 
-   <td> <p><strong>between</strong> </p> </td> 
-   <td> <p>Provides two required field values and searches for all results within range of both fields, including the entered values.</p> </td> 
+   <td> <p><strong>Entre</strong> </p> </td> 
+   <td> <p><strong>entre</strong> </p> </td> 
+   <td> <p>Fornece dois valores de campo obrigatórios e pesquisa todos os resultados na faixa de ambos os campos, incluindo os valores inseridos.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
-   <td> <p><strong>notbetween</strong> </p> </td> 
-   <td> <p>This is the inverse of <strong>between</strong>. It provides two required value fields and searches for all results outside the range of both fields including the entered values.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
+   <td> <p><strong>nãoentre</strong> </p> </td> 
+   <td> <p>Este é o inverso de <strong>entre</strong>. Ela fornece dois campos de valor obrigatórios e pesquisa todos os resultados fora do intervalo de ambos os campos, incluindo os valores inseridos.</p> <p>Esse modificador só pode ser usado em filtros de modo de texto. Para obter mais informações sobre o modo texto em filtros, consulte <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Editar um filtro usando o modo texto</a>.</p> </td> 
   </tr>
 
 </tbody> 

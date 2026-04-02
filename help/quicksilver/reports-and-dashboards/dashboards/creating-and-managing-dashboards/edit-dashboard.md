@@ -6,7 +6,9 @@ description: O objetivo do painel é fornecer acesso rápido às informações. 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 11%
@@ -17,7 +19,7 @@ ht-degree: 11%
 
 <!-- Audited: 1/2025 -->
 
-O objetivo do painel é fornecer acesso rápido às informações. Você pode preencher um painel de controle com os seguintes itens no Adobe Workfront:
+O objetivo do painel é fornecer acesso rápido às informações. Você pode preencher um painel com os seguintes itens no Adobe Workfront:
 
 * Relatórios
 
@@ -94,7 +96,7 @@ Para obter informações sobre como criar painéis, consulte [Criar um painel](.
 
    >[!NOTE]
    >
-   >Ao procurar um item, a pesquisa retorna qualquer um dos 2.000 relatórios criados mais recentemente. Nomes de relatório que incluem caracteres unicode não são retornados nos resultados da pesquisa. Como prática recomendada, evite incluir caracteres unicode ao nomear objetos no Workfront digitando nomes em vez de copiar e colar nomes de outra origem.
+   >Ao pesquisar por um item, a pesquisa retorna qualquer um dos 2.000 relatórios criados mais recentemente. Os nomes de relatório que incluem caracteres unicode não são retornados nos resultados da pesquisa. Como prática recomendada, evite incluir caracteres unicode ao nomear objetos no Workfront digitando nomes em vez de copiar e colar nomes de outra fonte.
 
 1. (Opcional) Selecione um novo layout para o painel clicando em um botão de opção correspondente ao layout desejado.
 1. (Opcional) Passe o mouse sobre o nome de um relatório existente e clique no ícone da lixeira para removê-lo do painel.

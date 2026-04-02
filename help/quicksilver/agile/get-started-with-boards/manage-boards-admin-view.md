@@ -2,11 +2,13 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Gerenciar a visualização de administrador do Boards
-description: A Exibição de administração dos painéis contém uma lista de todos os painéis em sua conta que os administradores de sistema podem usar para obter um instantâneo rápido dos detalhes gerais dos painéis.
+description: A Exibição de administrador dos painéis contém uma lista de todos os painéis em sua conta que os administradores do sistema podem usar para obter um instantâneo rápido dos detalhes gerais dos painéis.
 author: Courtney
 feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 7%
@@ -15,13 +17,13 @@ ht-degree: 7%
 
 # Gerenciar a visualização de administrador do Boards
 
-A Visualização de administração dos painéis contém uma lista de todos os painéis em sua conta que os administradores de sistema podem usar para obter um instantâneo rápido dos detalhes gerais dos painéis, incluindo quando foram atualizados pela última vez, quantos cartões cada um tem e mais.
+A Exibição de administrador dos painéis contém uma lista de todos os painéis na sua conta que os administradores do sistema podem usar para obter um instantâneo rápido dos detalhes gerais dos painéis, incluindo a última atualização, quantos cartões cada um tem e muito mais.
 
 Nessa área, você pode executar as seguintes ações:
 
-* Filtrar a lista de painéis
-* Configurar as colunas da lista de painéis
-* Agrupar a lista de painéis
+* Filtrar a lista Quadros
+* Configurar as colunas da lista de Quadros
+* Agrupar a lista Quadros
 
 ## Requisitos de acesso
 
@@ -56,44 +58,44 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 ## Pré-requisitos
 
-Você deve criar um Painel antes de visualizá-lo na Exibição do administrador.
+Você deve criar um Quadro antes de visualizá-lo na Exibição de administração.
 
-Para obter mais informações, consulte [Criar ou editar um painel](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+Para obter mais informações, consulte [Criar ou editar um quadro](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
-## Filtrar a lista de painéis
+## Filtrar a lista Quadros
 
 {{step1-to-boards}}
 
-1. Na página **Painéis**, selecione a guia **Exibição do administrador**.
+1. Na página **Quadros**, selecione a guia **Exibição do administrador**.
 
 1. Selecione **Filtro**. O painel **Filtros** é aberto.
 
 1. Siga as etapas abaixo para configurar o filtro:
 
-   1. (Opcional) Clique no ícone **Calendário** ícone ![Calendário](assets/calendar-icon.png) e selecione um intervalo de datas para filtrar por painéis que foram modificados pela última vez nesse período.
+   1. (Opcional) Clique no ícone **Calendário** ![Ícone de calendário](assets/calendar-icon.png) e selecione um intervalo de datas para filtrar pelos Quadros que foram modificados pela última vez dentro desse período.
 
-   1. (Opcional) Na seção **Modelo**, selecione o tipo de modelo de painel pelo qual a lista filtrará. Você pode selecionar mais de um tipo de modelo.
-Para obter mais informações sobre tipos de modelo de painel, consulte [Criar ou editar um painel](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+   1. (Opcional) Na seção **Modelo**, selecione o tipo de modelo de Quadro pelo qual a lista será filtrada. Você pode selecionar mais de um tipo de template.
+Para obter mais informações sobre os tipos de modelo de quadro, consulte [Criar ou editar um quadro](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
-   1. (Opcional) Na seção **Está arquivado**, selecione se as placas arquivadas ou não arquivadas serão exibidas. É possível selecionar mais de uma opção.
+   1. (Opcional) Na seção **Está arquivado**, selecione se os painéis arquivados ou não arquivados serão exibidos. É possível selecionar mais de uma opção.
 
-      ![Seção Arquivada](assets/is-archived-section.png)
+      ![É seção Arquivada](assets/is-archived-section.png)
 
-1. Clique fora do painel **Filtros** para fechá-lo. Suas seleções de filtro permanecerão aplicadas à lista Painéis até que seja alterada de volta para a exibição padrão.
+1. Clique fora do painel **Filtros** para fechá-lo. As seleções de filtro permanecerão aplicadas à lista Quadros até que seja alterada novamente para a exibição padrão.
 
    >[!NOTE]
    >
    >Para remover um filtro, abra o painel **Filtros** e clique em **Voltar ao padrão** no canto superior direito.
 
-## Configurar as colunas da lista de painéis
+## Configurar as colunas da lista de Quadros
 
 {{step1-to-boards}}
 
-1. Na página **Painéis**, selecione a guia **Exibição do administrador**.
+1. Na página **Quadros**, selecione a guia **Exibição do administrador**.
 
-1. Selecione **Colunas**. O painel **Visibilidade e ordem dos campos** é aberto.
+1. Selecione **Colunas**. O painel **Visibilidade e ordem de campos** é aberto.
 
-1. Configure as colunas que aparecerão na lista Painéis, selecionando ou desmarcando a opção Alinhar com cada coluna:
+1. Configure quais colunas aparecem na lista Quadros selecionando ou desmarcando a alternância em linha com cada coluna:
 
    * **Proprietário**
    * **Última atualização**
@@ -104,23 +106,23 @@ Para obter mais informações sobre tipos de modelo de painel, consulte [Criar o
 
 1. (Opcional) Para ajustar a ordem em que os campos aparecem, clique e mantenha pressionado o ícone **Arrastar** à esquerda de um campo e arraste-o para uma nova posição.
 
-   ![Clique e arraste](assets/click-and-drag.png)
+   ![Clicar e arrastar](assets/click-and-drag.png)
 
-1. Clique fora do painel **Visibilidade e ordem de campos** para fechá-lo. As configurações da coluna continuarão aplicadas à lista de placas até que sejam modificadas.
+1. Clique fora do painel **Visibilidade e ordem de campos** para fechá-lo. As configurações de coluna permanecerão aplicadas à lista de Quadros até serem modificadas.
 
    >[!NOTE]
    >
-   > Quando a exibição das colunas da lista Painéis é modificada, um ponto azul aparece acima do ícone **Colunas** para indicar que a exibição atual foi modificada em relação ao padrão.
+   > Quando a exibição das colunas da lista de Quadros é modificada, um ponto azul aparece acima do ícone **Colunas** para indicar que a exibição atual foi modificada do padrão.
 
-## Agrupar a lista Painéis por um campo específico
+## Agrupar a lista Quadros por um campo específico
 
 {{step1-to-boards}}
 
-1. Na página **Painéis**, selecione a guia **Exibição do administrador**.
+1. Na página **Quadros**, selecione a guia **Exibição do administrador**.
 
-1. Selecione **Grupo**. O painel **Agrupar por** é aberto.
+1. Selecione o **Grupo**. O painel **Agrupar por** é aberto.
 
-1. Selecione o campo pelo qual deseja agrupar a lista Painéis:
+1. Selecione o campo pelo qual você deseja agrupar a lista Quadros:
 
    * **Arquivado**
    * **Proprietário**
@@ -130,7 +132,7 @@ Para obter mais informações sobre tipos de modelo de painel, consulte [Criar o
 
    ![Recolher tudo](assets/collapse-all.png)
 
-1. (Opcional) Para alterar a ordem de exibição do agrupamento de A-Z para Z-A, selecione o campo pelo qual a lista está agrupada no momento e selecione **Z-A** na lista suspensa.
+1. (Opcional) Para alterar a ordem de exibição do agrupamento de A-Z para Z-A, selecione o campo pelo qual a lista está agrupada no momento e selecione **Z-A** no menu suspenso.
 
    ![Exibir por ordem](assets/display-by-order.png)
 
@@ -140,5 +142,5 @@ Para obter mais informações sobre tipos de modelo de painel, consulte [Criar o
 
    >[!NOTE]
    >   
-   >Quando a exibição de agrupamento da lista Painéis é modificada, um ponto azul aparece acima do ícone **Grupo** para indicar que a exibição atual é diferente da padrão. <br>
-   >Se quiser remover um agrupamento, abra o painel **Agrupar por** e selecione **Limpar tudo** no canto superior direito.
+   >Quando a exibição de agrupamento da lista Quadros é modificada, um ponto azul aparece acima do ícone **Grupo** para indicar que a exibição atual é diferente da padrão. <br>
+   >Para remover um agrupamento, abra o painel **Agrupar por** e selecione **Limpar tudo** no canto superior direito.

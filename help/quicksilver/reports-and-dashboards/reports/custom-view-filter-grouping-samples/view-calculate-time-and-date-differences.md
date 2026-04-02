@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Calcular Diferenças de Data e Hora'
-description: Saiba como calcular as diferenças de data e hora.
+description: Saiba como calcular diferenças de data e hora.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 7%
@@ -20,7 +22,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->Não é possível calcular a diferença de data e hora no Adobe Workfront entre dois objetos diferentes do mesmo tipo. Por exemplo, não é possível calcular a diferença de data e hora entre duas datas em dois projetos, tarefas ou ocorrências diferentes.
+>Você não pode calcular a diferença de data e hora no Adobe Workfront entre dois objetos diferentes do mesmo tipo. Por exemplo, você não pode calcular a diferença de data e hora entre duas datas em dois projetos, tarefas ou problemas diferentes.
 
 Você pode calcular a diferença entre o seguinte:
 
@@ -46,7 +48,7 @@ Você pode calcular a diferença entre o seguinte:
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou solicitação para modificar um filtro </p>
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
@@ -66,7 +68,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 ## Calcular a diferença de data e hora entre dois campos de data no mesmo objeto
 
-Por exemplo, você pode calcular a diferença entre a Data de Conclusão Planejada e a Data de Conclusão Real de uma tarefa.
+Por exemplo, você pode calcular a diferença entre a Data de conclusão planejada e a Data de conclusão real de uma tarefa.
 
 ![Exibir diferença de data](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
@@ -95,10 +97,10 @@ Por exemplo, você pode calcular a diferença entre a Data de Conclusão Planeja
 
 ## Calcular a diferença de data e hora entre o campo em um objeto e outro campo em um objeto pai
 
-Para obter uma lista de objetos e seus pais, consulte a seção “Compreendendo a Interdependência e a Hierarquia de Objetos” em [Compreender os objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
-Por exemplo, você pode calcular a diferença entre a Data de Conclusão Planejada de uma tarefa e a Data de Conclusão Planejada de sua tarefa-pai ou do projeto em que a tarefa está.
+Para obter uma lista de objetos e seus pais, consulte a seção &quot;Noções Básicas sobre a Interdependência e a Hierarquia de Objetos&quot; em [Noções Básicas sobre Objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+Por exemplo, você pode calcular a diferença entre a Data de conclusão planejada de uma tarefa e a Data de conclusão planejada de sua tarefa pai ou do projeto em que a tarefa está.
 
-![Exibir diferença de data de conclusão planejada](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![Exibir diferença de data de término planejada](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Ir para uma lista de tarefas.
 1. No menu suspenso **Exibir**, clique em **Nova Exibição**.
@@ -110,7 +112,7 @@ Por exemplo, você pode calcular a diferença entre a Data de Conclusão Planeja
 1. Clique em **Adicionar Coluna** e em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
 1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o por um dos seguintes códigos:
 
-   * Para exibir a diferença entre a Data de Conclusão Planejada do projeto e a da tarefa:
+   * Para exibir a diferença entre a Data de conclusão planejada do projeto e a da tarefa:
 
      ```
       displayname=Project Planned Completion - Task Planned Completion (Days)

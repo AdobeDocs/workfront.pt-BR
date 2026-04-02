@@ -6,10 +6,12 @@ description: É possível criar e excluir modelos na área Modelos. Ao criar um 
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -19,13 +21,15 @@ ht-degree: 6%
 
 <!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 É possível criar e excluir modelos na área Modelos. Ao criar um novo modelo, você pode inserir as informações de todas as tarefas e das configurações futuras do projeto. Essas informações serão transferidas para qualquer projeto criado a partir do modelo.
 
@@ -49,7 +53,7 @@ Você pode criar um novo modelo das seguintes maneiras:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +65,7 @@ Você pode criar um novo modelo das seguintes maneiras:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard </p><p>Plano</p> <p>Você precisa ser um administrador do sistema para importar modelos de blueprints</p> </td> 
+   <td> <p>Padrão </p><p>Plano</p> <p>Você precisa ser um administrador do sistema para importar modelos de blueprints</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -74,11 +78,12 @@ Você pode criar um novo modelo das seguintes maneiras:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -100,7 +105,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    <td> <p>You have Manage permissions to the templates you create, by default</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Criar um modelo
 

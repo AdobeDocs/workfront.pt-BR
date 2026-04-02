@@ -1,15 +1,17 @@
 ---
-title: Priorizar projetos no Portfolio Otimizer
+title: Priorizar projetos no otimizador de portfólios
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
 description: É possível priorizar os projetos no Portfolio Otimizer para estabelecer a ordem em que eles devem ser concluídos.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 714e6e09f1429f0382c36d17d3f2aca95edcfbc6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -47,7 +49,7 @@ Considere o seguinte ao usar o [!UICONTROL Portfolio Otimizer]:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>[!UICONTROL Padrão]</p>
-   <p>[!UICONTROL Plano]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -64,7 +66,8 @@ Considere o seguinte ao usar o [!UICONTROL Portfolio Otimizer]:
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,7 +93,8 @@ Considere o seguinte ao usar o [!UICONTROL Portfolio Otimizer]:
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Alterar a prioridade dos projetos no [!UICONTROL Portfolio Otimizer]
 

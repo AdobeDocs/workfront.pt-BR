@@ -6,10 +6,12 @@ description: As Atualizações são de um objeto que inclui um botão que usa o 
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: cf3d5daa739fa6ab413ee82a9f465441ef61ae6d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -27,7 +29,7 @@ Você pode usar o botão Resumir conteúdo para gerar um resumo ou pode inserir 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +42,7 @@ Você pode usar o botão Resumir conteúdo para gerar um resumo ou pode inserir 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    </td>
   </tr>
 
@@ -57,7 +59,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -75,7 +78,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
        <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Pré-requisitos
 

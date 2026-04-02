@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Agrupamento: patrocinador do projeto por horas'
-description: Este agrupamento de horas organiza as horas pelo patrocinador do projeto em que as horas são registradas. A interface padrão do construtor de relatórios para agrupamentos de horas não fornece um mapeamento para o campo Patrocinador do Projeto. Você deve usar a interface do Modo de texto para acessar esse campo.
+title: 'Agrupamento: Patrocinador do Projeto para Horas'
+description: Este agrupamento de horas organiza as horas pelo patrocinador do projeto onde as horas são registradas. A interface padrão do Report Builder para agrupamentos de horas não fornece um mapeamento para o campo Patrocinador do projeto. Você deve usar a interface Text Mode para acessar esse campo.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6b35b0ef-18b7-4121-ae39-d7957d76c04b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 20%
@@ -18,9 +20,9 @@ ht-degree: 20%
 
 <!--Audited: 10/2024-->
 
-Este agrupamento de horas organiza as horas pelo patrocinador do projeto em que as horas são registradas. A interface padrão do construtor de relatórios para agrupamentos de horas não fornece um mapeamento para o campo Patrocinador do Projeto. Você deve usar a interface do Modo de texto para acessar esse campo.
+Este agrupamento de horas organiza as horas pelo patrocinador do projeto onde as horas são registradas. A interface padrão do Report Builder para agrupamentos de horas não fornece um mapeamento para o campo Patrocinador do projeto. Você deve usar a interface Text Mode para acessar esse campo.
 
-![hour_report_grouped_by_sponsor.png](assets/hour-report-grouped-by-sponsor-350x39.png)
+![hora_relatório_agrupado_por_patrocinador.png](assets/hour-report-grouped-by-sponsor-350x39.png)
 
 ## Requisitos de acesso
 
@@ -37,12 +39,12 @@ Este agrupamento de horas organiza as horas pelo patrocinador do projeto em que 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou solicitação para modificar um filtro </p>
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a filtros, exibições e agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -55,14 +57,14 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Agrupar por Patrocinador do Projeto por horas
+## Agrupar por Patrocinador do Projeto para horas
 
-Para aplicar este agrupamento:
+Para aplicar esse agrupamento:
 
-1. Vá para uma lista de horas.
+1. Ir para uma lista de horas.
 1. No menu suspenso **Agrupamento**, selecione **Novo agrupamento**.
 
-1. Clique em **Alternar para o Modo de Texto**.
+1. Clique em **Alternar para Modo de Texto**.
 1. Remova o texto na área que é exibida e substitua-o pelo seguinte código:
 
 ```

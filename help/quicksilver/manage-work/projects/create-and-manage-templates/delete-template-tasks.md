@@ -7,10 +7,12 @@ description: É possível excluir um modelo de tarefa se ele não for mais neces
 author: Alina
 feature: Work Management
 exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -25,7 +27,7 @@ ht-degree: 2%
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +39,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
    <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +57,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,7 +82,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Excluir uma tarefa de modelo
 

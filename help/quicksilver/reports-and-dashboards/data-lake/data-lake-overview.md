@@ -3,12 +3,14 @@ content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
 title: Visão geral da conexão de dados do Workfront
-description: Visão geral do Workfront Data Connect
+description: Uma visão geral do Workfront Data Connect
 author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 32%
@@ -17,15 +19,15 @@ ht-degree: 32%
 
 # Visão geral da conexão de dados do Workfront
 
-O Workfront Data Connect fornece acesso aos dados do Workfront usando a tecnologia Snowflake, permitindo que você responda a perguntas críticas para os negócios e meça o valor de seus processos. Esse recurso permite que os clientes corporativos analisem seus dados usando ferramentas de visualização de dados diretamente de um data lake da Workfront ou exportem dados da Workfront para data warehouses de propriedade do cliente.
+O Workfront Data Connect fornece acesso aos dados do Workfront usando a tecnologia Snowflake, permitindo que você responda a perguntas críticas para os negócios e meça o valor de seus processos. Esse recurso permite que os clientes corporativos analisem seus dados usando ferramentas de visualização de dados diretamente de um data lake da Workfront ou exportem dados da Workfront para um data warehouse de propriedade do cliente.
 
-Os assinantes poderão conectar sua ferramenta de business intelligence de sua escolha (Tableau, Power BI, Domo, Looker etc.) ao Data Connect para criar visualizações de dados com os seguintes tipos de dados:
+Os assinantes poderão conectar sua ferramenta de business intelligence de escolha (Tableau, Power BI, Domo, Looker etc.) ao Data Connect para criar visualizações de dados com os seguintes tipos de dados:
 
 * Dados de estado atual de baixa latência
 * Alterar registros de eventos para comparações point-in-time
-* Instantâneos históricos diários para análise de tendência
+* Instantâneos diários de histórico para análise de tendência
 
-## Conexão de Dados: índice do artigo
+## Data Connect: índice do artigo
 
 Para obter mais informações sobre o Data Connect, consulte os seguintes artigos:
 

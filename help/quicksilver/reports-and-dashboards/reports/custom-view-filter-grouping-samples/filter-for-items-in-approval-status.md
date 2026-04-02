@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtro: exibir apenas itens em status de aprovação'
-description: Você pode exibir somente itens em um determinado status que esteja atualmente em Aprovação Pendente. Isso funciona da mesma forma para qualquer outro objeto com um status de aprovação.
+description: Você pode exibir somente itens em um determinado status que está atualmente em Aprovação pendente. Isso funciona da mesma forma para qualquer outro objeto com status de aprovação.
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: c1de5193-d3d5-406c-aa68-e6ba6d6751ae
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 22%
@@ -18,7 +20,7 @@ ht-degree: 22%
 
 <!--Audited: 10/2024-->
 
-Você pode exibir somente itens em um determinado status que esteja atualmente em Aprovação Pendente. Isso funciona da mesma forma para qualquer outro objeto com um status de aprovação.
+Você pode exibir somente itens em um determinado status que está atualmente em Aprovação pendente. Isso funciona da mesma forma para qualquer outro objeto com status de aprovação.
 
 Você pode colocar os seguintes objetos em um status de aprovação:
 
@@ -41,12 +43,12 @@ Você pode colocar os seguintes objetos em um status de aprovação:
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou solicitação para modificar um filtro </p>
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a filtros, exibições e agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -63,13 +65,13 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 1. Ir para uma lista de projetos.
 1. No menu suspenso **Filtro**, selecione **Novo filtro**.
-1. Escolha filtrar por **Projeto: Status** e selecione o status pelo qual deseja filtrar na lista.
+1. Escolha filtrar por **Projeto: Status** e selecione o status que deseja filtrar na lista.
 
-   Por exemplo, em um relatório de projeto, adicione **Status Igual ao Planning**, se desejar exibir apenas projetos com status **Planejamento - Aprovação Pendente**.
+   Por exemplo, em um relatório de projeto, adicione **Status Igual a Planejamento**, se desejar exibir somente projetos com status **Planejamento - Aprovação Pendente**.
 1. Clique em **Modo de texto**.
 1. Modifique a linha `status` adicionando **:A** à chave de 3 letras do status:
    <pre>status=PLN:A<br>status_Mod=in</pre>
 
 1. Clique em **Aplicar** > **Salvar como novo**.
 
-   A lista exibe apenas os projetos que estão no status Planejamento - Aprovação Pendente.
+   A lista exibe somente projetos com status Planejamento - Aprovação Pendente.

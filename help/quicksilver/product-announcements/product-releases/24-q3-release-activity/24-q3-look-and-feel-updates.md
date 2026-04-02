@@ -1,22 +1,24 @@
 ---
 title: Atualizações de aparência durante o período do terceiro trimestre de 2024
-description: Atualizações de aparência e funcionalidade durante o período de lançamento do terceiro trimestre de 2024
+description: Atualizações de aparência durante o período do terceiro trimestre de 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
 
 ---
 
-# Atualizações de aparência durante o período de lançamento do terceiro trimestre de 2024
+# Atualizações de aparência durante o período do terceiro trimestre de 2024
 
-Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas durante o período de lançamento do terceiro trimestre de 2024.
+Esta página descreve pequenas atualizações na aparência de várias áreas do aplicativo Adobe Workfront que foram feitas dentro do período de lançamento do terceiro trimestre de 2024.
 
-Para obter uma lista de todas as alterações disponíveis na versão do Terceiro Trimestre de 2024, consulte [Visão geral da versão do Terceiro Trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Para obter uma lista de todas as alterações disponíveis com a versão do terceiro trimestre de 2024, consulte a [visão geral da versão do terceiro trimestre de 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 
@@ -36,11 +38,11 @@ Para obter informações, consulte [Atribuir tarefas](/help/quicksilver/manage-w
 >
 >Versão de pré-visualização: 29 de abril de 2024; Produção para lançamento rápido: Com lançamento 24.5 (16 de maio de 2024); Produção para lançamento trimestral: Com lançamento 24.7 (18 de julho de 2024)
 
-Atualizamos a página Detalhes do documento > Forms personalizado para um design mais moderno que é consistente com outras áreas do Workfront. A página agora oferece suporte a recursos avançados de formulário personalizado, como campos de Pesquisa externa.
+Atualizamos a página Detalhes do documento > Forms personalizado para um design mais moderno e consistente com outras áreas do Workfront. A página agora oferece suporte a recursos avançados de formulário personalizado, como campos de Pesquisa externa.
 
-Para obter mais informações, consulte [Visão geral dos Detalhes do Documento](/help/quicksilver/documents/managing-documents/document-details-overview.md).
+Para obter informações, consulte [Visão geral de Detalhes do Documento](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
-## Atualizações de aparência e recursos para formulários personalizados em detalhes de iteração
+## Atualizações de aparência para formulários personalizados em detalhes de iteração
 
 >[!NOTE]
 >
@@ -64,9 +66,9 @@ Para obter informações, consulte [Criar um grupo](/help/quicksilver/administra
 
 >[!NOTE]
 >
->Versão prévia: 2 de abril de 2024; Produção para versão rápida: com a versão 24.5 (16 de maio de 2024); Produção para versão trimestral: com a versão 24.7 (18 de julho de 2024)
+>Versão de pré-visualização: 2 de abril de 2024; Produção para lançamento rápido: Com o lançamento 24.5 (16 de maio de 2024); Produção para lançamento trimestral: Com o lançamento 24.7 (18 de julho de 2024)
 
-Atualizamos a tela Taxas de câmbio para um design mais moderno que é consistente com outras áreas do Workfront.
+Atualizamos a tela Taxas de câmbio para um design mais moderno e consistente com outras áreas do Workfront.
 
 Para obter informações, consulte [Configurar taxas de câmbio](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 

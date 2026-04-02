@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Exibir: Percentual de Disponibilidade FTE da Função de Job do Usuário'
-description: Você pode adicionar uma coluna à exibição de uma lista de usuários para exibir uma lista das Funções de Job às quais o usuário está associado, bem como o percentual de disponibilidade de FTE para cada função de job, conforme definido no perfil do usuário.
+title: 'View: Porcentagem da Disponibilidade de FTE da Função de Usuário'
+description: É possível adicionar uma coluna à exibição de uma lista de usuários para exibir uma lista das Funções de trabalho às quais o usuário está associado, bem como o percentual de disponibilidade de FTE para cada função de trabalho, conforme definido no perfil do usuário.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: d479b0b1-8ad5-47d6-8ef8-80261b46ecea
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 17%
@@ -18,11 +20,11 @@ ht-degree: 17%
 
 <!--Audited: 11/2024-->
 
-Você pode adicionar uma coluna à exibição de uma lista de usuários para exibir uma lista das Funções de Job às quais o usuário está associado, bem como o percentual de disponibilidade de FTE para cada função de job, conforme definido no perfil do usuário.
+É possível adicionar uma coluna à exibição de uma lista de usuários para exibir uma lista das Funções de trabalho às quais o usuário está associado, bem como o percentual de disponibilidade de FTE para cada função de trabalho, conforme definido no perfil do usuário.
 
-Para obter informações sobre como definir a porcentagem de disponibilidade de FTE para usuários, consulte [Editar o perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Para obter informações sobre como definir a porcentagem de disponibilidade de FTE para usuários, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-![user_with_percent_availability_per_role.png](assets/user-with-percent-avialbility-per-role-350x138.png)
+![usuário_com_disponibilidade_percentual_por_função.png](assets/user-with-percent-avialbility-per-role-350x138.png)
 
 ## Requisitos de acesso
 
@@ -39,12 +41,12 @@ Para obter informações sobre como definir a porcentagem de disponibilidade de 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou Solicitação de modificação de uma exibição </p>
+   <p>Colaborador ou Solicitação para modificar uma exibição </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Acesso de edição a filtros, visualizações, agrupamentos para modificar uma visualização</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -58,15 +60,15 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Exibir porcentagem da Função de Trabalho do usuário da disponibilidade de FTE
+## Exibir percentual da Função de Trabalho do usuário de disponibilidade de FTE
 
-1. Vá para uma lista de usuários.
-1. No menu suspenso **Exibição**, selecione **Nova Exibição**.
+1. Ir para uma lista de usuários.
+1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
 
-1. Na área **Visualização da Coluna**, clique em **Adicionar Coluna**.
+1. Na área **Visualização da coluna**, clique em **Adicionar coluna**.
 
-1. Clique no cabeçalho da nova coluna e clique em **Alternar para o Modo de Texto** > **Editar Modo de Texto**.
-1. Remova o texto encontrado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
+1. Clique no cabeçalho da nova coluna e em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
+1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
    displayname=Roles Time Percentage
@@ -80,4 +82,4 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 1. Clique em **Concluído** e depois em **Salvar exibição**.
 
-1. (Opcional) Atualize o nome da exibição e clique em **Salvar Exibição**.
+1. (Opcional) Atualize o nome da exibição e clique em **Salvar exibição**.

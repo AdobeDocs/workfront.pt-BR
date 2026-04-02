@@ -3,17 +3,19 @@ title: Comparar funcionalidade entre modelos de licença
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: acesso,nível,sistema,administrador,padrão,claro,colaborador
+keywords: acesso,nível,sistema,administrador,padrão,light,colaborador
 navigation-topic: access-levels
 description: Consulte uma comparação da funcionalidade disponível para diferentes licenças no modelo de licenciamento antigo e novo.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 37%
+ht-degree: 43%
 
 ---
 
@@ -39,9 +41,11 @@ A tabela a seguir mostra a funcionalidade disponível para licenças no modelo d
   <tr> 
    <th> </th> 
    <th colspan="5">[!UICONTROL Herdado]</th> 
-   <!--<th>[!UICONTROL Requestor]</th> 
-   <th>[!UICONTROL External]</th> -->
-   <th colspan="3">[!UICONTROL Novo]</th> 
+   <!--
+   <th>[!UICONTROL Requestor]</th> 
+   <th>[!UICONTROL External]</th>
+   -->
+   <th colspan="3">[!UICONTROL New]</th> 
    </tr> 
  </thead> 
  <thead> 
@@ -49,7 +53,7 @@ A tabela a seguir mostra a funcionalidade disponível para licenças no modelo d
    <th> </th> 
    <th>[!UICONTROL Planner]</th> 
    <th>[!UICONTROL Worker]</th> 
-   <th>[!UICONTROL Revisor]</th> 
+   <th>[!UICONTROL Reviewer]</th> 
   <th>[!UICONTROL Solicitante]</th> 
    <th>[!UICONTROL Externo]</th>
    <th>[!UICONTROL Padrão]</th> 
@@ -136,7 +140,7 @@ A tabela a seguir mostra a funcionalidade disponível para licenças no modelo d
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Enviar solicitações</td> 
+   <td>Enviam solicitações</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -381,5 +385,7 @@ A tabela a seguir mostra a funcionalidade disponível para licenças no modelo d
 </table>
 
 
-<!--WFPlanning is Ultimate only>
+<!--
+WFPlanning is Ultimate only>
+-->
 <!--Environment promotion is Prime and Ultimate only-->

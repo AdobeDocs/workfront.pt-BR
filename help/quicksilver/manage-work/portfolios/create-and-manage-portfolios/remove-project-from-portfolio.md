@@ -1,19 +1,21 @@
 ---
 product-area: portfolios;projects
 navigation-topic: create-and-manage-portfolios
-title: Remover um projeto de um portfólio
+title: Remover projeto de um portfólio
 description: Você pode remover um projeto de um portfólio e associá-lo a um portfólio diferente ou remover completamente a associação entre um projeto e um portfólio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 5%
+ht-degree: 16%
 
 ---
 
-# Remover um projeto de um portfólio
+# Remover projeto de um portfólio
 
 <!--Audited: 7/2024-->
 
@@ -36,7 +38,7 @@ Você também pode excluir projetos de um portfólio que também os remove de [!
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>[!UICONTROL Padrão]</p>
-   <p>[!UICONTROL Plano] </p> </td> 
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -54,7 +56,8 @@ Você também pode excluir projetos de um portfólio que também os remove de [!
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,9 +84,10 @@ Você também pode excluir projetos de um portfólio que também os remove de [!
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
-## Remover um projeto de um portfólio
+## Remover projeto de um portfólio
 
 1. Vá para uma Portfolio e clique em **[!UICONTROL Projetos]** no painel esquerdo.
 1. Selecione o projeto a ser removido.

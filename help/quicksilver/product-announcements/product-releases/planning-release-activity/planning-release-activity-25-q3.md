@@ -1,20 +1,22 @@
 ---
 content-type: release-notes
-title: Atividade da versão do terceiro trimestre de 2025 para o Adobe Workfront Planning
+title: Atividade de lançamento do terceiro trimestre de 2025 do Planejamento do Adobe Workfront
 description: Esta é a atividade de lançamento do produto Adobe Workfront Planning para o terceiro trimestre de 2025.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 9d5249e5587a4291dc9020d456a320da4cdbb8f1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2267'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Atividade da versão do terceiro trimestre de 2025 para o Adobe Workfront Planning
+# Atividade de lançamento do terceiro trimestre de 2025 do Planejamento do Adobe Workfront
 
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do terceiro trimestre de 2025.
 
@@ -27,8 +29,8 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 >[!NOTE]
 >
 >Visualização: 10 de julho de 2025
->&#x200B;>Produção para todos: 10 de julho de 2025
->&#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
+>Produção para todos: sexta-feira, 10 de julho de 2025
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 
 Atualizamos a guia Configurações avançadas ao criar ou editar um tipo de registro.
@@ -45,8 +47,8 @@ Para obter mais informações, consulte [Criar tipos de registro](/help/quicksil
 >[!NOTE]
 >
 >Visualização: 10 de julho de 2025
->&#x200B;>Produção para todos: 10 de julho de 2025
->&#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
+>Produção para todos: sexta-feira, 10 de julho de 2025
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 Agora, quando você adiciona uma equipe a um comentário de registro no Workfront Planning, todos os membros da equipe recebem uma notificação no aplicativo e uma notificação por email sobre o comentário. Antes dessa melhoria, somente os usuários adicionados aos comentários individualmente eram notificados.
 
@@ -57,8 +59,8 @@ Para obter informações, consulte Gerenciar comentários de registro [Gerenciar
 >[!NOTE]
 >
 >Visualização: 10 de julho de 2025
->&#x200B;>Versão rápida de produção: 14 de agosto de 2025
->&#x200B;>Produção para todos: 16 de outubro de 2025
+>Versão rápida de produção: sexta-feira, 14 de agosto de 2025
+>Produção para todos: sexta-feira, 16 de outubro de 2025
 
 
 Agora, quando você tiver agrupamentos aplicados a uma visualização de tabela, adicionar um registro à tabela preencherá automaticamente os campos associados aos agrupamentos aos quais você adiciona o registro.
@@ -74,7 +76,7 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 >[!NOTE]
 >
 >Visualização: 9 de julho de 2025
->&#x200B;>Produção para todos: 17 de julho de 2025
+>Produção para todos: sexta-feira, 17 de julho de 2025
 
 Agora é possível compartilhar uma exibição, bem como um tipo de registro, no mesmo botão na página do tipo de registro. Antes desse aprimoramento, você só podia compartilhar o tipo de registro no botão Compartilhar na página do tipo de registro e uma exibição na guia da exibição.
 
@@ -84,7 +86,8 @@ Para obter mais informações, consulte os seguintes artigos:
 
 * [Compartilhar tipos de registro](/help/quicksilver/planning/access/share-record-types.md)
 
-<!--## Add teams as approvers on Planning request forms
+<!--
+## Add teams as approvers on Planning request forms
 
 >[!NOTE]
 >
@@ -95,14 +98,15 @@ To make the approval process more flexible, we've added the ability to add teams
 
 Previously, only individual users could be assigned as approvers. 
 
-For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
+For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+-->
 
 ## Experiência atualizada ao compartilhar um formulário de solicitação
 
 >[!NOTE]
 >
 >* Visualização: 9 de julho de 2025
->* Produção para todos: 17 de julho de 2025
+>* Produção para todos: sexta-feira, 17 de julho de 2025
 
 Para tornar a experiência ao compartilhar um formulário de solicitação no Workfront Planning mais segura e simples, fizemos as seguintes alterações:
 
@@ -120,14 +124,14 @@ Para tornar a experiência ao compartilhar um formulário de solicitação no Wo
 * Removemos as opções gerenciar e contribuir para usuários com os quais você compartilha o formulário de solicitação. Agora, os usuários adicionados só podem enviar o formulário.
 * A guia compartilhamento público agora exibe o link e o campo data de expiração após a opção Criar link público ter sido habilitada.
 
-Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](https://experienceleague.adobe.com/pt-br/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Para obter mais informações, consulte [Criar e gerenciar um formulário de solicitação no Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Expandir e recolher todos os agrupamentos na exibição de tabela
 
 >[!NOTE]
 >
 >* Visualização: 26 de junho de 2025
->* Produção para todos: 17 de julho de 2025
+>* Produção para todos: sexta-feira, 17 de julho de 2025
 
 Agora é possível recolher e expandir os agrupamentos em uma exibição de tabela usando as seguintes áreas:
 
@@ -146,8 +150,8 @@ Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quic
 >[!NOTE]
 >
 >* Visualização: 26 de junho de 2025
->* Produção para todos: 26 de junho de 2025
->  &#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
+>* Produção para todos: sexta-feira, 26 de junho de 2025
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 Agora, ao conectar tipos de registro e trazer um campo de fórmula como uma pesquisa, você pode aplicar as funções agregadas (SUM, AVERAGE, MIN, MAX etc.) dependendo do formato do campo de fórmula. Por exemplo, se o campo de fórmula for numérico, você poderá usar funções como SUM ou AVG; se o campo de fórmula estiver formatado como texto, as funções agregadas como SUM não serão aplicadas.
 
@@ -160,7 +164,7 @@ Para obter informações, consulte [Visão geral do campo de fórmula](/help/qui
 >[!NOTE]
 >
 >* Visualização: 12 de junho de 2025
->* Versão rápida de produção: 17 de julho de 2025
+>* Versão rápida de produção: sexta-feira, 17 de julho de 2025
 >* Produção para todos os clientes: 17 de julho de 2025
 
 Com essa atualização, ao configurar trimestres personalizados na área Preferências do Projeto da Configuração, os trimestres personalizados ficam disponíveis para a exibição Linha do tempo no Workfront Planning.
@@ -182,8 +186,8 @@ Para obter mais informações, consulte [Habilitar trimestres personalizados par
 >[!NOTE]
 >
 >* Visualização: 12 de junho de 2025
->* Produção para todos: 12 de junho de 2025
->  &#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
+>* Produção para todos: sexta-feira, 12 de junho de 2025
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 Introduzimos uma melhoria que atualiza todos os campos de fórmula dependentes uns dos outros ao mesmo tempo depois que um campo referenciado é atualizado manualmente. Os campos de fórmula que estão a 2, 3 ou 4 campos do campo cujo valor é alterado manualmente e que fazem referência uns aos outros agora serão atualizados automaticamente ao mesmo tempo.
 
@@ -197,7 +201,7 @@ Para obter informações, consulte [Visão geral dos campos da fórmula](/help/q
 >
 >* Visualização: 6 de junho de 2025
 >* Produção para todos os clientes: 6 de junho de 2025
->  &#x200B;>[!BADGE Fora do cronograma]{type=Neutral}
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 Adicionamos as seguintes expressões aos campos de fórmula:
 
@@ -216,7 +220,7 @@ Para obter informações, consulte [Visão geral dos campos da fórmula](/help/q
 >[!NOTE]
 >
 >* Visualização: 29 de maio de 2025
->* Versão rápida de produção: 12 de junho de 2025
+>* Versão rápida de produção: sexta-feira, 12 de junho de 2025
 >* Produção para todos os clientes: 17 de julho de 2025
 
 Adicionamos a seguinte funcionalidade a uma lista de solicitações na guia Planejamento da área Solicitações:
@@ -240,8 +244,8 @@ Para obter informações, consulte [Enviar solicitações do Adobe Workfront Pla
 >[!NOTE]
 >
 >* Visualização: 22 de maio de 2025
->* Versão rápida de produção: 12 de junho de 2025
->* Produção para todos: 17 de julho de 2025
+>* Versão rápida de produção: sexta-feira, 12 de junho de 2025
+>* Produção para todos: sexta-feira, 17 de julho de 2025
 
 Alteramos a experiência ao detalhar registros na exibição de linha do tempo e a exibição Compacta foi aplicada.
 Com a nova atualização, ao definir seus objetos de detalhamento enquanto exibe a linha do tempo no modo Compacto, você será solicitado a mudar a visualização para Padrão após terminar de configurar as condições de detalhamento.
@@ -257,8 +261,8 @@ Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/h
 >[!NOTE]
 >
 >* Visualização: 15 de maio de 2025
->* Versão rápida de produção: 12 de junho de 2025
->* Produção para todos: 17 de julho de 2025
+>* Versão rápida de produção: sexta-feira, 12 de junho de 2025
+>* Produção para todos: sexta-feira, 17 de julho de 2025
 
 Agora é possível formatar a aparência das barras de registro na exibição de linha do tempo dos registros no detalhamento. Você pode atualizar as seguintes configurações para as barras desses registros:
 
@@ -274,8 +278,8 @@ Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/h
 >[!NOTE]
 >
 >* Visualização: 15 de maio de 2025
->* Versão rápida de produção: 12 de junho de 2025
->* Produção para todos: 17 de julho de 2025
+>* Versão rápida de produção: sexta-feira, 12 de junho de 2025
+>* Produção para todos: sexta-feira, 17 de julho de 2025
 
 Adicionamos um novo recurso ao Workfront Planning, no qual é possível exportar informações visíveis na exibição de tabela para um arquivo CSV ou do Excel.  
 
@@ -292,8 +296,8 @@ Para obter mais informações, consulte [Gerenciar a exibição de tabela](/help
 >[!NOTE]
 >
 >* Visualização: 15 de maio de 2025
->* Versão rápida de produção: 12 de junho de 2025
->* Produção para todos: 17 de julho de 2025
+>* Versão rápida de produção: sexta-feira, 12 de junho de 2025
+>* Produção para todos: sexta-feira, 17 de julho de 2025
 
 Agora é possível preencher os valores de campos conectados ao adicionar registros a um tipo de registro usando um arquivo CSV ou do Excel.  Somente os campos de registro conectados do Planning são suportados. Os campos que exibem conexões com outros aplicativos não são compatíveis.
 
@@ -312,8 +316,8 @@ Para obter informações, consulte os seguintes artigos:
 >[!NOTE]
 >
 >* Visualização: 30 de abril de 2025
->* Versão rápida de produção: 15 de maio de 2025
->* Produção para todos: 17 de julho de 2025
+>* Versão rápida de produção: sexta-feira, 15 de maio de 2025
+>* Produção para todos: sexta-feira, 17 de julho de 2025
 
 Agora é possível editar registros na página Registros conectados de um registro. Com essa atualização, introduzimos o seguinte:
 
@@ -329,8 +333,8 @@ Para obter informações, consulte [Gerenciar o layout da página de registro](/
 >[!NOTE]
 >
 >* Visualização: 30 de abril de 2025
->* Versão rápida de produção: 15 de maio de 2025
->* Produção para todos: 17 de julho de 2025
+>* Versão rápida de produção: sexta-feira, 15 de maio de 2025
+>* Produção para todos: sexta-feira, 17 de julho de 2025
 
 Os usuários Padrão e Administrador do Sistema agora podem encontrar a área Planejamento no Menu Principal por padrão, sem serem atribuídos a um modelo de layout que a inclua. Todos os outros usuários devem ter um modelo de layout que inclua a área de Planejamento atribuída a eles para acessá-lo.
 
@@ -339,7 +343,7 @@ Antes desse aprimoramento, os usuários com todos os níveis de licença precisa
 >[!NOTE]
 >
 >Esta alteração ficará visível para todos os usuários novos e existentes com uma licença de Administrador do sistema e Padrão.
->&#x200B;>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
+>Os usuários existentes atribuídos a um modelo de layout continuarão vendo tudo de acordo com as configurações definidas no modelo de layout.
 
 Para obter informações, consulte [Visão geral do Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
 
@@ -348,8 +352,8 @@ Para obter informações, consulte [Visão geral do Adobe Workfront Planning](/h
 >[!NOTE]
 >
 >* Visualização: 30 de abril de 2025
->* Versão rápida de produção: 15 de maio de 2025
->* Produção para todos: 17 de julho de 2025
+>* Versão rápida de produção: sexta-feira, 15 de maio de 2025
+>* Produção para todos: sexta-feira, 17 de julho de 2025
 
 Para melhor visibilidade das informações importantes de seus registros, introduzimos a formatação de cor em nível de linha para a exibição de tabela. Agora é possível escolher uma cor para cada linha após definir as condições para cada escolha.  Este é um novo recurso que não existia antes desta atualização.
 
@@ -360,8 +364,8 @@ Para obter informações, consulte [Gerenciar a exibição de tabela](/help/quic
 >[!NOTE]
 >
 >* Visualização: 23 de abril de 2025
->* Versão rápida de produção: 15 de maio de 2025
->* Produção para todos: 17 de julho de 2025
+>* Versão rápida de produção: sexta-feira, 15 de maio de 2025
+>* Produção para todos: sexta-feira, 17 de julho de 2025
 
 Agora é possível habilitar uma configuração na guia Estilo de barra da caixa Configurações de uma exibição de linha do tempo para truncar nomes de registro mais longos, ao exibi-los na exibição Padrão. A configuração é desativada por padrão e pode ser ativada somente ao exibir a exibição de linha do tempo no modo Padrão. Como essa configuração é desativada, as informações nas barras de registro são exibidas expandidas, por padrão. Antes desse aprimoramento, as informações nas barras de registro eram truncadas por padrão.
 
@@ -372,8 +376,8 @@ Para obter informações, consulte [Gerenciar a exibição da linha do tempo](/h
 >[!NOTE]
 >
 >* Visualização: 17 de abril de 2025
->* Versão rápida de produção: 17 de julho de 2025
->* Produção para todos: 17 de julho de 2025
+>* Versão rápida de produção: sexta-feira, 17 de julho de 2025
+>* Produção para todos: sexta-feira, 17 de julho de 2025
 
 Para controlar melhor quem pode exibir ou gerenciar registros em cada tipo de registro e garantir que somente pessoas autorizadas possam gerenciar as informações de cada tipo de registro com base em suas funções e responsabilidades, introduzimos permissões no nível do tipo de registro.
 

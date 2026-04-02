@@ -8,7 +8,9 @@ description: Você pode conectar projetos a metas para indicar como a meta avan�
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 13%
@@ -81,7 +83,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -135,7 +138,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Considerações sobre a conexão de projetos às metas
 
@@ -154,7 +158,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 * Não é possível atualizar manualmente o progresso de um projeto da meta à qual o projeto está anexado. Em vez disso, o Workfront calcula o percentual concluído do projeto e o Workfront Goals calcula o progresso da meta usando esse percentual concluído. Isso atualiza a meta em tempo real após as atualizações de porcentagem do projeto.
 * A duração do projeto pode estar fora do período de uma meta. Se um projeto durar mais do que o prazo da meta, você ainda poderá fechar a meta e considerá-la concluída, mas a porcentagem concluída da meta não será 100%. A porcentagem concluída do projeto não é mais atualizada na meta.
 
-<!--this is no longer visible in the new redesigned interface for goals: logged a bug for this: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/63ceb049000080d30022aab9a359f6f1/updates - but confirmed that this will not be brought back at least for now - Jan 2023. 
+<!--
+this is no longer visible in the new redesigned interface for goals: logged a bug for this: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/63ceb049000080d30022aab9a359f6f1/updates - but confirmed that this will not be brought back at least for now - Jan 2023. 
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 

@@ -6,14 +6,16 @@ description: As restrições de tarefa determinam quando uma tarefa deve iniciar
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 19%
+ht-degree: 26%
 
 ---
 
-# Atualizar a Restrição de Tarefa de uma tarefa
+# Atualizar a restrição de uma tarefa
 
 As restrições de tarefa determinam quando uma tarefa deve iniciar e terminar em um projeto. Para obter mais informações, consulte [Visão geral da Restrição de Tarefa](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
@@ -49,7 +51,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,9 +75,10 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    <td> <p>Manage access to the task </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Atualizar a Restrição de Tarefa de uma tarefa
+## Atualizar a restrição de uma tarefa
 
 1. Clique em **Menu principal** > **Projetos** e clique em um projeto para acessá-lo.
 1. Clique na seção **Tarefas** no painel esquerdo.

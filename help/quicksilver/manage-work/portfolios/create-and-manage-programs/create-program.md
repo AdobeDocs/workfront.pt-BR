@@ -6,10 +6,12 @@ description: Um programa representa uma coleção de projetos que compartilham u
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1244'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -17,9 +19,11 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 Um programa representa uma coleção de projetos que compartilham uma estratégia, objetivo ou meta comum que transcende os limites do projeto.
 Os programas são uma subdivisão de portfólios e não podem existir fora de um portfólio. Os programas normalmente compartilham os mesmos recursos que outros programas no mesmo portfólio.
@@ -44,7 +48,7 @@ Por exemplo, você pode ter um Portfolio de Ano fiscal de marketing de 2024 que 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>[!UICONTROL Padrão]</p>
-   <p>[!UICONTROL Plano]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -57,11 +61,12 @@ Por exemplo, você pode ter um Portfolio de Ano fiscal de marketing de 2024 que 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +90,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>After you create a program, you have [!UICONTROL Manage] permissions to it, by default.</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Maneiras de criar programas
 
@@ -162,7 +168,7 @@ Você pode especificar as seguintes informações:
       <td> <p>Comece digitando o nome do usuário que deseja que atue como Gerente de programas e clique no nome do usuário quando ele for exibido na lista suspensa. É o mesmo que [!UICONTROL Proprietário do Programa]. </p> <p>Dica: você também pode atualizar o Gerenciador de programas no cabeçalho do programa. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Grupo] </td> 
+      <td role="rowheader">[!UICONTROL Group] </td> 
       <td> <p>Adicione o nome de um único grupo se o grupo for proprietário do programa ou tiver responsabilidade para concluí-lo. </p> <p>Você pode verificar se está selecionando o grupo correto passando o mouse sobre ele e clicando no ícone [!UICONTROL information] <img src="assets/info-icon.png"> que é exibido ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
@@ -229,7 +235,7 @@ As seguintes informações são exibidas no cabeçalho de um programa:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Porcentagem Concluída]</td> 
+   <td role="rowheader">[!UICONTROL Percent Complete]</td> 
    <td> <p>Não é possível editar a [!UICONTROL Porcentagem Concluída] do programa no cabeçalho. Essas informações são atualizadas a partir dos projetos no programa. Por padrão, o percentual concluído do programa é uma média dos valores do percentual concluído dos projetos com status [!UICONTROL Atual] ou [!UICONTROL Aprovado] que pertencem ao programa.</p> </td> 
   </tr> 
   <tr> 
@@ -237,7 +243,7 @@ As seguintes informações são exibidas no cabeçalho de um programa:
    <td> <p>Você pode editar o Gerenciador de programas no cabeçalho. É o mesmo que [!UICONTROL Proprietário do Programa]. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Data de Término Planejada]</td> 
+   <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
    <td>Não é possível editar a Data de conclusão planejada do programa no cabeçalho. Essas informações são atualizadas a partir dos projetos no programa. A Data de conclusão planejada do último projeto no programa se torna a Data de conclusão planejada do programa.  </td> 
   </tr> 
   <tr> 

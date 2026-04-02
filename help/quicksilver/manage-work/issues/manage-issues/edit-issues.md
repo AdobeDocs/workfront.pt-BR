@@ -8,10 +8,12 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2532'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -19,13 +21,15 @@ ht-degree: 3%
 
 <!--Audited: 10/2025-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 É possível editar informações sobre problemas criados por você ou criados por outros usuários se eles compartilharem os problemas com você.
 
@@ -33,7 +37,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,10 +49,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <ul><li>Colaborador ou superior</li>
+   <td> <ul><li>Colaborador ou posterior</li>
    <li>Leve ou superior para editar problemas na seção Problemas de uma tarefa ou projeto</li></ul>
    Ou:
-   <ul><li>Solicitação ou superior</li> <li>Revisar ou editar problemas na seção Problemas de uma tarefa ou projeto</li></ul> </td> 
+   <ul><li>Solicitação ou posterior</li> <li>Revisar ou editar problemas na seção Problemas de uma tarefa ou projeto</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nível de acesso</td> 
@@ -72,7 +76,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,7 +110,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Limitações ao editar problemas
 
@@ -262,7 +268,7 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
      </tr> 
      <tr> 
       <td role="rowheader">Contato Primário</td> 
-      <td>Por padrão, o contato primário é o criador do problema. Para modificar isso, comece digitando o nome de qualquer usuário ativo no Workfront e, em seguida, selecione-o na lista. Um problema pode ter apenas um contato principal.<br> Se você alterar o Contato Principal, o contato principal original ainda terá acesso de Gerenciamento ao problema. Você deve remover manualmente esse acesso da caixa Acesso à ocorrência, ao compartilhar um problema.
+      <td>Por padrão, o contato primário é o criador do problema. Para modificar isso, comece digitando o nome de qualquer usuário ativo no Workfront e, em seguida, selecione-o na lista. Um problema pode ter apenas um Contato principal.<br> Se você alterar o Contato Principal, o contato principal original ainda terá acesso de Gerenciamento ao problema. Você deve remover manualmente esse acesso da caixa Acesso à ocorrência, ao compartilhar um problema.
 
    <b>DICA</b>
 
@@ -348,7 +354,8 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
    >* Reatribuir o item de trabalho aos recursos ativos.
    >* Associe os usuários de uma equipe desativada a uma equipe ativa e reatribua o item de trabalho à equipe ativa.
 
-   <!--1. In the Production environment:
+   <!--
+   1. In the Production environment:
          1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
          1. Update the following fields: 
          <table style="table-layout:auto"> 
@@ -368,7 +375,8 @@ Você pode editar um problema usando as áreas Editar problema ou Detalhes do pr
             Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr> 
          </tbody> 
-         </table>-->
+         </table>
+         -->
 
 
 1. (Opcional) Clique em **Atribuir a mim** para atribuir o problema a você mesmo.

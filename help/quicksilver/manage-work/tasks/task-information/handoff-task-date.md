@@ -7,14 +7,16 @@ description: A Data de Transferência é a data em que uma tarefa se torna dispo
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Visão geral da data de transferência da tarefa
+# Visão geral da Data de transferência da tarefa
 
 A Data de Transferência é a data em que uma tarefa se torna disponível para trabalho. Normalmente, isso significa que suas predecessoras foram resolvidas e o destinatário da tarefa pode começar a trabalhar nela.
 
@@ -79,7 +81,8 @@ O Workfront usa as seguintes regras para calcular a Data de Transferência de um
    * **Quando a tarefa tiver uma restrição de Deve Terminar em ou Iniciar Não Posterior a**: Se a data de restrição da tarefa estiver no futuro e não houver uma Data de Início Efetiva na tarefa (a tarefa ainda não começou), a Data de Transferência será a Data de Início Planejada da tarefa. Se houver uma Data de Início Real na tarefa, a Data de Transferência será a data de início do projeto.
    * **Quando a tarefa tem uma restrição de Datas Fixas**: a Data de Transferência é a Data Inicial Planejada da tarefa, independentemente de ter ou não uma predecessora e de a predecessora estar concluída ou não.
 
-<!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
+<!--
+these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
    * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
    * When the task has a constraint of Must Finish On or Start No Later Than, the Handoff Date is always the Actual Completion Date of the predecessor, regardless of whether there is an Actual Start Date on the task or not. 
    * When the task has a constraint of Fixed Dates, the Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.

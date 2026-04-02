@@ -6,10 +6,12 @@ description: Você pode criar planos como parte do uso do Planejador de cenário
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2399'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,7 +29,7 @@ Você pode criar planos como parte do uso do [!DNL Workfront Scenario Planner], 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,7 +65,8 @@ Para obter informações sobre requisitos de acesso do Workfront, consulte [Requ
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -98,7 +101,8 @@ Para obter informações sobre requisitos de acesso do Workfront, consulte [Requ
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Criar ou editar planos
 
@@ -159,7 +163,7 @@ Uma lista de planos existentes que você criou é exibida no [!DNL Workfront Sce
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nome]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td>Digite um nome para o plano. Este campo é obrigatório.</td> 
      </tr> 
      <tr> 
@@ -182,7 +186,7 @@ Uma lista de planos existentes que você criou é exibida no [!DNL Workfront Sce
       <td> <p>Selecione o mês e o ano em que deseja que o plano seja iniciado. Você pode selecionar apenas meses nesse campo. [!DNL Workfront] presume que a data de início do plano é o primeiro dia do mês selecionado e a data de término é o último dia do fim do mês em sua duração. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Duração]</td> 
+      <td role="rowheader">[!UICONTROL Duration]</td> 
       <td> <p>No menu suspenso, selecione uma das seguintes durações:</p> 
        <ul> 
         <li>1 ano. Esta é a duração padrão. </li> 
@@ -207,9 +211,9 @@ Uma lista de planos existentes que você criou é exibida no [!DNL Workfront Sce
 
    | Opção de menu suspenso | Descrição |
    |---|---|
-   | [!UICONTROL Mês] | Exibe a linha do tempo por mês. Esta é a opção padrão e única para um plano de um ano. |
+   | [!UICONTROL Month] | Exibe a linha do tempo por mês. Esta é a opção padrão e única para um plano de um ano. |
    | [!UICONTROL Trimestre] | Exibe a linha do tempo por trimestre. Esta opção está disponível somente quando a [!UICONTROL Duração] do plano é de 3 ou 5 anos. Essa é a opção padrão para um plano de 3 anos. |
-   | [!UICONTROL Ano] | Exibe a linha do tempo por ano. Esta opção está disponível somente quando a [!UICONTROL Duração] do plano é de 5 anos. Essa é a opção padrão para um plano de 5 anos. |
+   | [!UICONTROL Year] | Exibe a linha do tempo por ano. Esta opção está disponível somente quando a [!UICONTROL Duração] do plano é de 5 anos. Essa é a opção padrão para um plano de 5 anos. |
 
 1. (Opcional) Role da esquerda para a direita para exibir toda a duração do plano.
 1. (Opcional) Clique na linha de indicador **[!UICONTROL Hoje]** para retornar ao dia atual.
@@ -253,7 +257,8 @@ Uma lista de planos existentes que você criou é exibida no [!DNL Workfront Sce
         <li> <p><strong>[!UICONTROL Total necessário]</strong> (para horas): O número total de horas necessárias para todos os meses durante a duração do plano.</p> </li> 
         <li> <p><strong>[!UICONTROL Máx. necessário]</strong> (para FTE): o número máximo de FTEs necessários para qualquer um dos meses durante a duração do plano. </p> </li> 
        </ul> <p>Dica: o <span>número máximo</span> de FTEs <span>ou o número total de horas</span> necessário para essa função de trabalho é exibido após você começar a adicionar iniciativas. Para obter informações sobre como adicionar iniciativas a um plano, consulte <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Criar e editar iniciativas na [!DNL Scenario Planner]</a>.</p> </td> 
-     </tr> <!--
+     </tr>
+     <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">[!UICONTROL Avg utilization]</td> 
        <td> <p>(NOTE: this field was removed in 21.2 - May 2021) </p> <p>[!DNL Workfront] calculates the average utilization for each job role using the job role FTEs associated with initiatives (required) and the job role FTEs associated with the plan (available). </p> <p> [!DNL Workfront] calculates the job role utilization percentage for a plan using the following formula: </p> <p><code>Job role utilization percentage = Sum [(Required job roles for each month of the plan *100)/ (Available job roles for each month of the plan)] / Number of months in the Duration of the plan</code> </p> 
@@ -297,7 +302,7 @@ Uma lista de planos existentes que você criou é exibida no [!DNL Workfront Sce
       <td> <p><span>Se você optou por usar horas ou FTE para o seu plano, revise ou atualize</span> o número mensal de FTEs de funções de trabalho <span>ou horas</span> disponíveis para o cenário nos seguintes campos:</p> 
        <ul> 
         <li> <p><strong>[!UICONTROL Disponível] (número máximo &lt;número de FTEs&gt;)</strong>: o número entre parênteses exibe o número máximo de funções disponíveis para qualquer um dos meses do cenário. Revise ou atualize o número de FTEs para cada mês do cenário. Alterar a alocação mensal pode atualizar o número de FTEs nos parênteses. </p> </li> 
-        <li> <p><span><strong>[!UICONTROL Disponível] (total &lt;número de horas&gt;)</strong>: o número entre parênteses exibe o número total de horas disponíveis para todos os meses no cenário. Revise ou atualize o número de horas para cada mês do cenário. Alterar a alocação mensal atualiza o número de horas entre parênteses.</span> </p> </li> 
+        <li> <p><span><strong>[!UICONTROL Disponível] (total &lt;number of hours&gt;)</strong>: o número entre parênteses exibe o número total de horas disponíveis para todos os meses no cenário. Revise ou atualize o número de horas para cada mês do cenário. Alterar a alocação mensal atualiza o número de horas entre parênteses.</span> </p> </li> 
        </ul> <p>A atualização manual das alocações mensais de funções de trabalho é outra maneira de resolver conflitos de funções de trabalho entre iniciativas no cenário. </p> <p>Dica:   <p><span>Para atualizar a disponibilidade mensal de função por vários meses, digite o número de horas ou FTEs no campo [!UICONTROL Disponível] de qualquer mês e, em seguida, arraste o canto do campo sobre os meses adjacentes para copiar o mesmo valor para cada mês. Solte-o para atualizar todos os meses.</span> </p> <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> </p> </td> 
      </tr> 
      <tr> 

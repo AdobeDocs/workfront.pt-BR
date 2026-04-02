@@ -1,20 +1,22 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades da API versão 11
+title: Novidades na versão 11 da API
 description: ReportableBudgedHour foi adicionado à API do Adobe Workfront como um recurso para Relatórios. Ele apresenta campos de referência, campos principais e campos padrão que estão ausentes em BudgetedHour.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3573'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Novidades da API versão 11
+# Novidades na versão 11 da API
 
 * [Recursos Adicionados](#added-resources)
 * [Recursos Removidos](#removed-resources)
@@ -40,9 +42,11 @@ ht-degree: 2%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasaccessrule">LoginAsAccessRule</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -81,9 +85,11 @@ ht-degree: 2%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasadditionalrule">LoginAsAdditionalRule</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -120,9 +126,11 @@ ht-degree: 2%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginassettings">LoginAsSettings</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -277,7 +285,8 @@ Nenhum recurso foi removido para a API v11.
      <li><a href="#templateassignment" class="MCXref xref">AtribuiçãoModelo</a> </li> 
      <li><a href="#templatetask" class="MCXref xref">TarefaModelo</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">Planilha de horas</a> </li> 
-     <li><a href="#update" class="MCXref xref">Atualização</a> </li> <!--
+     <li><a href="#update" class="MCXref xref">Atualização</a> </li>
+     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
      <li><a href="#usernote" class="MCXref xref">AnotaçãoUsuário</a> </li> 
@@ -349,7 +358,7 @@ Um objeto AccessRule representa um conjunto de regras em níveis de acesso perso
 
 ### Aprovação {#approval}
 
-Um determinado item de trabalho, como uma tarefa, um documento ou uma folha de horas, pode exigir que um supervisor ou outro usuário faça logoff no item de trabalho. Um objeto de Aprovação representa a ação de desconectar em um item de trabalho.
+Um determinado item de trabalho, como uma tarefa, documento ou folha de horas, pode exigir que um supervisor ou outro usuário aprove o item de trabalho. Um objeto de Aprovação representa a ação de desconectar em um item de trabalho.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -580,7 +589,8 @@ Um objeto Customer representa uma organização que usa uma instância do Workfr
        <li style="font-weight: normal;">CONDITION_OPTASK (Condições de Emissão)  </li> 
       </ul> </li> 
     </ul> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Reference Fields</td> 
     <td> 
@@ -604,9 +614,11 @@ Um objeto Customer representa uma organização que usa uma instância do Workfr
 
 Um objeto CustomerPreferences representa o conjunto de preferências que um cliente definiu para sua instância do Workfront.
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -840,7 +852,7 @@ Um objeto Parameter é um campo personalizado.
 
 ### Portfólio {#portfolio}
 
-Um objeto Portfolio é uma coleção de projetos que competem pelos mesmos recursos, normalmente dinheiro ou pessoas para concluí-los.
+Um objeto do Portfolio é uma coleção de projetos que competem pelos mesmos recursos, normalmente dinheiro ou pessoas para concluí-los.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1057,7 +1069,7 @@ Um objeto ScheduledReport representa um relatório que foi configurado para ser 
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Um objeto ScoreCardQuestion representa uma pergunta que foi adicionada a um Scorecard. Essas perguntas geralmente são determinadas pelo gerente de Portfolio, e suas respostas permitem que o gerente entenda como um projeto se alinha com as metas do portfólio.
+Um objeto ScoreCardQuestion representa uma pergunta que foi adicionada a um Scorecard. Essas perguntas geralmente são determinadas pelo gerente da Portfolio e suas respostas permitem que o gerente entenda como um projeto se alinha às metas do portfólio.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1223,7 +1235,7 @@ Um objeto TemplateTask representa uma Tarefa que faz parte de um Template. Model
  </tbody> 
 </table>
 
-### Planilha de horas {#timesheet}
+### Folha de horas {#timesheet}
 
 Um objeto de Planilha de Horas representa um cartão de ponto virtual que permite aos Usuários inserir as horas reais trabalhadas para Tarefas, Projetos e Tipos de Horas Gerais.
 
@@ -1241,7 +1253,7 @@ Um objeto de Planilha de Horas representa um cartão de ponto virtual que permit
  </tbody> 
 </table>
 
-### Atualizar {#update}
+### Atualização {#update}
 
 Os itens de trabalho no Workfront podem ser atualizados para manter os usuários informados sobre o status atual. Um objeto Update representa uma dessas atualizações. As atualizações podem ser inseridas por usuários ou criadas pelo sistema do Workfront.
 
@@ -1275,9 +1287,11 @@ Os itens de trabalho no Workfront podem ser atualizados para manter os usuários
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A User object represents a person with an account in Workfront that can log in and interact with the system.</p>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 

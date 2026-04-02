@@ -7,10 +7,12 @@ description: Você pode editar informações em um formulário personalizado dep
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -34,8 +36,8 @@ Você pode editar informações em um formulário personalizado depois que o for
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Licença do Adobe Workfront</p> </td> 
-   <td> <p>Colaborador ou superior</p> 
-   <p>Solicitação ou superior</p> </td> 
+   <td> <p>Colaborador ou posterior</p> 
+   <p>Solicitação ou posterior</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -57,7 +59,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -84,7 +87,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
     </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Pré-requisitos
 

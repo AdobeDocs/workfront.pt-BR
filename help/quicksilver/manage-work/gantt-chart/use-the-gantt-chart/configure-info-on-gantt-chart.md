@@ -7,10 +7,12 @@ description: Você pode configurar quais informações serão exibidas no Gráfi
 author: Alina
 feature: Work Management
 exl-id: 465365a2-d94b-47b6-a393-16770fca2714
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -22,7 +24,7 @@ Você pode configurar quais informações serão exibidas no Gráfico de Gantt d
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,12 +52,13 @@ Você pode configurar quais informações serão exibidas no Gráfico de Gantt d
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -81,7 +84,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Entender as opções de exibição
 
@@ -103,12 +107,12 @@ A tabela a seguir detalha as opções de exibição do [!UICONTROL Gráfico de G
    <td> <p>Mostra os atribuídos da tarefa. Passe o mouse sobre o link Detalhes ao lado do nome do destinatário para ver informações mais detalhadas sobre ele, incluindo a porcentagem de sua alocação para a tarefa.</p> <p>Os atribuídos não são exibidos no [!UICONTROL Gráfico de Gantt] quando o [!UICONTROL Gráfico de Gantt] é exportado para o PDF. Quando o [!UICONTROL Gráfico de Gantt] é exportado para o PDF, os atribuídos somente são exibidos na lista de tarefas.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Linha de Base]</td> 
+   <td role="rowheader">[!UICONTROL Linha de base]</td> 
    <td> <img src="assets/baselines-sandbox-gantt.png" alt="baselines_sandbox_gantt.png"> </td> 
    <td> <p>Um instantâneo de projeto que representa dados importantes sobre o projeto incluído no plano de projeto inicial. As linhas de base podem ser usadas em toda a linha do tempo do projeto. Quando você habilita a exibição de linhas de base no [!UICONTROL Gráfico de Gantt], selecione qual linha de base deseja exibir. Você pode exibir somente uma linha de base no [!UICONTROL Gráfico de Gantt] por vez e ela será exibida na forma de uma barra cinza.</p> <p>Para obter mais informações sobre linhas de base, consulte <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref">Criar linhas de base do projeto</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Data de Confirmação]</td> 
+   <td role="rowheader">[!UICONTROL Commit Date]</td> 
    <td> <img src="assets/commit-dates-sandbox-243x226.png" alt="commit_dates_sandbox.png" style="width: 243;height: 226;"> </td> 
    <td> <p>A data fornecida por um destinatário como compromisso de quando a tarefa será concluída é exibida com um marcador no [!UICONTROL Gráfico de Gantt]. </p> <p>Para obter mais informações sobre datas de confirmação, consulte a visão geral <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">[!UICONTROL Data de Confirmação]</a>.</p> </td> 
   </tr> 
@@ -138,7 +142,7 @@ A tabela a seguir detalha as opções de exibição do [!UICONTROL Gráfico de G
    <td> <p>Uma linha de uma tarefa para outra que mostra a relação da predecessora entre as duas tarefas. Para realçar uma linha predecessora individual, passe o mouse sobre ela. Clique para mantê-lo destacado. É possível destacar apenas uma linha predecessora por vez.</p> <p>Um ícone [!UICONTROL Predecessor] é exibido ao lado de qualquer tarefa que tenha um relacionamento de predecessor que abranja várias páginas no gráfico de Gantt ou em qualquer tarefa que tenha um predecessor de vários projetos.</p> <p>Clique no ícone [!UICONTROL Predecessor] para exibir todas as tarefas predecessoras e sucessoras e seus detalhes, como nome da tarefa, tipo de relacionamento predecessor e datas chave.</p> <p>Observação: o [!UICONTROL Gráfico de Gantt] em uma lista de projetos exibe informações sobre predecessores entre projetos. Para obter mais informações sobre como criar relações de predecessoras entre projetos diferentes, consulte <a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">Criar predecessoras entre projetos</a></p> <p>Para obter mais informações sobre predecessores, consulte <a href="../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md" class="MCXref xref">Impor predecessores</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Status de Progresso]</td> 
+   <td role="rowheader">[!UICONTROL Progress Status]</td> 
    <td> <p>[!UICONTROL No Prazo] <img src="assets/task-on-time--oct.-2017.png" alt="task_on_time_out_2017.png"></p> <p>[!UICONTROL Atrás]    <img src="assets/task-behind--oct.-2017.png" alt="task_behind_out_out_2017.png"></p> <p>[!UICONTROL Em Risco]    <img src="assets/task-at-risk.png" alt="task_at_risk.png"></p> <p>Atrasado        <img src="assets/task-late-oct.2017.png" alt="task_late_Oct.2017.png"></p> </td> 
    <td> <p> </p> <p>O status do progresso atual em uma determinada tarefa. </p> <p>Para obter mais informações, consulte a visão geral <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Tarefa [!UICONTROL Progress Status]</a>.</p> </td> 
   </tr> 

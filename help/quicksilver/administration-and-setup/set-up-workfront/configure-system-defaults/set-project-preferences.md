@@ -8,7 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2701'
 ht-degree: 2%
@@ -19,9 +21,11 @@ ht-degree: 2%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 Como administrador do [!DNL Adobe Workfront], você pode configurar as preferências padrão para todos os projetos criados no sistema. Essas preferências afetam o comportamento do projeto, tarefa e problema.
@@ -139,7 +143,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimativa no Término &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimativa no Término ]</p> </td> 
    <td> <p>Determine quais dados [!DNL Workfront] usa para calcular a [!UICONTROL Estimativa no Término] (EAC) que representa o custo total projetado de um projeto.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calcular no nível do projeto]</strong>: EAC da tarefa pai e do projeto são determinados pela inserção de [!UICONTROL Horas Reais] ou [!UICONTROL Custo Real do Trabalho] nas Fórmulas EAC. Este cálculo inclui [!UICONTROL Horas efetivas] ou [!UICONTROL Custos e despesas] adicionados diretamente à tarefa ou projeto pai.</li> 

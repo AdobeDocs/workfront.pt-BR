@@ -9,10 +9,12 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -20,16 +22,20 @@ ht-degree: 1%
 
 <!--Audited: 05/2025-->
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
-**Linked to Creating Billing Record-->
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
+**Linked to Creating Billing Record
+-->
 
-<!--<div class="preview">
+<!--
+<div class="preview">
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>-->
+</div>
+-->
 
 Os tipos de horas são rótulos usados para definir suas entradas de horas. Você pode associar tipos de horas a suas entradas de horas.
 
@@ -57,7 +63,7 @@ Para obter informações sobre como registrar horas e associá-las a tipos de ho
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,7 +76,7 @@ Para obter informações sobre como registrar horas e associá-las a tipos de ho
   <tr> 
    <td>[!DNL Adobe Workfront] licença</td> 
    <td><p>[!UICONTROL Padrão]</p>
-       <p>[!UICONTROL Plano]</p></td>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
@@ -118,11 +124,11 @@ Para criar tipos de horas:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nome]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td>Insira um nome de tipo de hora que seja facilmente reconhecível no sistema.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Descrição]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td>Adicione uma descrição para o tipo de hora.</td> 
      </tr> 
      <tr> 
@@ -165,11 +171,11 @@ Como administrador do [!DNL Workfront], você pode editar os tipos de horas da s
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nome]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td>Insira um nome de tipo de hora que seja facilmente reconhecível no sistema.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Descrição]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td>Adicione uma descrição para o tipo de hora.</td> 
      </tr> 
      <tr> 

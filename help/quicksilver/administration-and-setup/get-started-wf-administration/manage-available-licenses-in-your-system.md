@@ -8,7 +8,9 @@ author: Lisa, Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 3%
@@ -19,7 +21,7 @@ ht-degree: 3%
 
 <!-- Audited: 12/2023 -->
 
-Como administrador do Adobe Workfront, você pode acessar informações sobre sua conta do Workfront, incluindo o número de licenças adquiridas para sua organização, bem como o número dessas licenças atualmente em uso.
+Como administrador do Adobe Workfront, você pode acessar informações sobre sua conta da Workfront, incluindo o número de licenças compradas para sua organização, bem como o número dessas licenças em uso no momento.
 
 ## Requisitos de acesso
 
@@ -53,13 +55,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 >
 >Para o pacote Select:
 >
->1. Os administradores do sistema não podem definir limites para Grupos Domésticos.
->2. Os administradores do sistema podem ver apenas o número total de licenças usadas em todos os Grupos Domésticos.
+>1. Os administradores do sistema não podem definir limites para Grupos padrão.
+>2. Os administradores de sistema podem ver apenas o número total de licenças usadas em todos os Grupos Padrão.
 >3. Os administradores de grupo não podem acessar a página Licenças.
 >
->Para os pacotes Prime e Ultimate:
+>Para os pacotes do Prime e do Ultimate:
 >
->1. Os administradores do sistema podem adicionar Grupos domésticos à página Licenças para exibir o uso de licenças nesses grupos e também podem definir limites de licença.
+>1. Os administradores do sistema podem adicionar Grupos padrão à página Licenças para visualizar a utilização de licenças nesses grupos e também podem definir limites de licença.
 >2. Os administradores de grupo podem acessar a página Licenças e visualizar a utilização de licenças nos grupos que eles gerenciam que foram adicionados à página Licenças por administradores do sistema.
 >3. Os administradores de grupo não podem visualizar informações de outros grupos padrão ou adicionar máximos.
 
@@ -69,7 +71,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 O número de licenças em uso é atualizado automaticamente à medida que você atribui níveis de acesso aos usuários adicionados ao Workfront. Para obter mais informações, consulte [Adicionar usuários](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-Para exibir informações de licença no sistema:
+Para exibir informações de licença em seu sistema:
 
 {{step-1-to-setup}}
 
@@ -85,24 +87,24 @@ Para exibir informações de licença no sistema:
 
    >[!NOTE]
    >
-   >Para os novos planos, o plano Select não permite que os administradores visualizem licenças por Grupo padrão. Você só pode ver o número geral de licenças usadas. Os planos Prime e Ultimate permitem definir o número máximo de licenças por grupo doméstico.
+   >Para os novos planos, o plano Select não permite que os administradores visualizem licenças por Grupo padrão. Você só pode ver o número geral de licenças usadas. Os planos da Prime e da Ultimate permitem definir a contagem máxima de licenças por grupo padrão.
 
 ## Exibir informações sobre licenças para complementos do Workfront
 
-Se sua organização tiver o complemento pago do Workfront Proof, serão exibidos o número de licenças usadas e o número de licenças disponíveis. Por exemplo, **5 de 10 licenças de prova** indica que a organização está usando atualmente 5 das 10 licenças da Workfront Proof que adquiriram.
+Se sua organização tiver o complemento Workfront Proof pago, o número de licenças usadas e o número de licenças disponíveis serão exibidos. Por exemplo, **5 de 10 licenças de prova** indica que a organização está usando atualmente 5 das 10 licenças Workfront Proof que adquiriu.
 
 ![Licença para complementos do Workfront](assets/updated-licenses-page.png)
 
-Se sua organização comprou o Workfront Goals, as informações de licença do produto também serão exibidas aqui. Nesse caso, você pode exibir as seguintes informações:
+Se sua organização adquiriu o Workfront Goals, as informações de licença desse produto também são exibidas aqui. Nesse caso, você pode exibir as seguintes informações:
 
-* O número total de licenças do Workfront Goals que sua empresa comprou
-* O número de licenças do Workfront Goals associadas aos usuários. Este é o número de usuários para os quais deve ser concedido pelo menos o acesso de Exibição às Metas em seu nível de acesso.
+* O número total de licenças do Workfront Goals que sua empresa adquiriu
+* O número de licenças do Workfront Goals associadas aos usuários. Este é o número de usuários aos quais foi concedido acesso de Visualização a Metas em seus respectivos níveis de acesso.
 
-Para obter informações sobre o Workfront Goals, consulte [Visão geral do Adobe Workfront Goals](../../workfront-goals/goal-management/wf-goals-overview.md). Para obter informações sobre acesso às Metas do Workfront, consulte [Conceder acesso às Metas do Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Para obter informações sobre as Metas do Workfront, consulte [Visão geral das Metas do Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md). Para obter informações sobre acesso às Metas do Workfront, consulte [Conceder acesso às Metas do Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
->O Workfront permite que você atribua mais licenças do Workfront Goals que você comprou. No entanto, quando você atribuir mais licenças do que o permitido pelo contrato do Workfront Goals, um gerente de contas da Workfront entrará em contato com você para avisar que você excedeu o número do contrato.
+>O Workfront permite atribuir mais licenças do Workfront Goals que você adquiriu. No entanto, quando você atribuir mais licenças do que o permitido pelo contrato do Workfront Goals, um gerente de conta da Workfront entrará em contato com você para informar que você excedeu o número contratual.
 >
 
 <!--
@@ -113,34 +115,34 @@ If an organization has other paid add-on products, their license information als
 >
 >Os usuários sem acesso administrativo podem usar um relatório de Grupo para exibir a contagem de licenças. Na guia Relatório, crie um novo relatório de grupo e adicione as seguintes colunas:
 >
->* Limite de Tipos de Licença: Limite de Trabalhadores
->* Limite de Tipos de Licença: Limite do Planejador
+>* Limite de Tipo de Licença: Limite de Trabalhadores
+>* Limite de Tipo de Licença: Limite do Planejador
 >
 >Para saber mais sobre como criar um relatório, consulte [Criar um relatório personalizado](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-## Exibir informações sobre alocações mensais de prova e decisão de documento
+## Exibir informações sobre prova mensal e alocações de decisão do documento
 
 >[!IMPORTANT]
 >
->Os limites de prova e decisão do documento se aplicam apenas aos usuários nas novas licenças. Para obter mais informações, consulte [Visão geral de novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>Os limites de decisão de prova e documento se aplicam apenas aos usuários nas novas licenças. Para obter mais informações, consulte [Visão geral das novas licenças](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
-As decisões sobre prova e documentos são limitadas a todas as licenças não pagas do Workfront. Os limites são redefinidos por usuário a cada mês.
+As decisões de prova e documento são limitadas a todas as licenças não pagas do Workfront. Limites redefinidos por usuário a cada mês.
 
-Os limites de decisão de cada licença variam de acordo com o plano em que você está. Veja sua cota mensal em Configuração > Licenças.
+Os limites de decisão para cada licença diferem dependendo do plano em que você está. Você pode visualizar a alocação mensal em Configurar > Licenças.
 
-Para obter mais informações sobre limites de prova e decisão de documentos, consulte [Visão geral de documentos e decisões de prova limitados para usuários não pagos](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+Para obter mais informações sobre limites de prova e decisão de documento, consulte [Visão geral sobre documento limitado e decisão de prova para usuários não pagos](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
 ![Alocação de decisão mensal](assets/monthly-decision-allotment.png)
 
-## Adicionar ou remover um Grupo Doméstico da página Licenças {#add-or-remove-a-home-group-to-the-licenses-page}
+## Adicionar ou remover um Grupo Padrão da página de licenças {#add-or-remove-a-home-group-to-the-licenses-page}
 
-Cada usuário pode ser atribuído a apenas um Grupo Doméstico. O Workfront fornece um número de licenças orientado por grupo calculando quantas licenças estão alocadas e são usadas atualmente em cada Grupo Doméstico.
+Cada usuário pode ser atribuído a apenas um Grupo padrão. O Workfront fornece uma contagem de licenças orientada por grupo calculando quantas licenças estão alocadas e são usadas atualmente em cada Grupo padrão.
 
-Se a mensagem **Para definir um máximo, você deve adicionar um Grupo Doméstico** na página Licenças, é necessário adicionar pelo menos um Grupo Doméstico à página Licenças.
+Se você vir a mensagem **Para definir um máximo, é necessário adicionar um Grupo Doméstico** na página de Licenças. É necessário adicionar pelo menos um Grupo Doméstico à página de Licenças.
 
 >[!IMPORTANT]
 >
->* Para gerenciar licenças com grupos domésticos de forma eficaz, recomendamos configurar Grupos domésticos específicos para unidades de negócios antes de atualizar a quantidade máxima de licenças. Para obter mais informações, consulte [Visão geral de Grupos Domésticos](../../administration-and-setup/manage-groups/groups-overview/home-groups.md).
+>* Para gerenciar licenças com grupos padrão, recomendamos configurar Grupos padrão específicos para unidades de negócios antes de atualizar a contagem máxima de licenças. Para obter mais informações, consulte [Visão geral de Grupos Domésticos](../../administration-and-setup/manage-groups/groups-overview/home-groups.md).
 >* Você pode adicionar somente grupos de nível superior como Grupos padrão, não subgrupos. Se um usuário tiver um subgrupo atribuído como Grupo inicial, sua licença será adicionada à contagem de licenças do grupo de nível superior acima desse subgrupo.
 >
 
@@ -160,24 +162,24 @@ Para adicionar ou remover um Grupo Inicial da página Licenças:
 
 1. Clique em **Salvar**.
 
-Como administrador do Workfront, você pode definir contagens máximas de licença para os Grupos Padrão para impedir que uma unidade de negócios use licenças do Workfront adquiridas para outras unidades de negócios. Para obter instruções, consulte [Definir a contagem máxima de licenças para um Grupo Doméstico](#set-the-maximum-license-count-for-a-home-group) neste artigo.
+Como administrador do Workfront, você pode definir contagens máximas de licença para os Grupos Padrão para impedir que uma unidade de negócios use licenças do Workfront adquiridas para outras unidades de negócios. Para obter instruções, consulte [Definir a contagem máxima de licenças para um Grupo Padrão](#set-the-maximum-license-count-for-a-home-group) neste artigo.
 
-## Definir a contagem máxima de licenças para um Grupo Doméstico {#set-the-maximum-license-count-for-a-home-group}
+## Definir a contagem máxima de licenças para um Grupo padrão {#set-the-maximum-license-count-for-a-home-group}
 
-Como administrador do Workfront, você pode definir o número máximo de licenças para os grupos base de nível superior no sistema. Isso permite impedir que uma unidade de negócios use licenças da Workfront adquiridas para outras unidades de negócios dentro da sua organização.
+Como administrador do Workfront, você pode definir contagens máximas de licença para os Grupos padrão do sistema. Isso permite impedir que uma unidade de negócios use licenças da Workfront adquiridas para outras unidades de negócios na organização.
 
-Por padrão, a quantidade máxima de licenças é definida como N/A, o que significa que não há limite.
+Por padrão, a contagem máxima de licenças é definida como N/D, o que significa que não há limite.
 
-Os administradores de grupo podem exibir o número de licenças alocadas e usadas em um grupo doméstico que gerenciam. Para obter mais informações, consulte [Exibir o número de licenças alocadas e usadas em um grupo](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+Os administradores de grupo podem exibir o número de licenças alocadas e usadas em um Grupo padrão gerenciado. Para obter mais informações, consulte [Exibir o número de licenças alocadas e usadas em um grupo](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 
-Para definir o número máximo de licenças para um Grupo Doméstico:
+Para definir a contagem máxima de licenças para um Grupo padrão:
 
 {{step-1-to-setup}}
 
 1. Na parte inferior do painel esquerdo, clique em **Sistema** > **Licenças**.
 
-1. Localize o Grupo Doméstico na lista.
-1. Na coluna **Máx** do grupo, clique no valor para o qual deseja definir um máximo.
+1. Localize o Grupo padrão na lista.
+1. Na coluna **Max** do grupo, clique no valor para o qual você deseja definir um máximo.
 1. Digite o número máximo e pressione Enter.
 
    ![Máximo de licenças do grupo](assets/updated-max.png)

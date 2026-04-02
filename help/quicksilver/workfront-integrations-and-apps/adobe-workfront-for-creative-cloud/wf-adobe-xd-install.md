@@ -6,10 +6,12 @@ description: Você pode instalar o plug-in do Adobe Workfront para XD no Adobe M
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -23,14 +25,14 @@ Você pode instalar o plug-in [!DNL Adobe Workfront for XD] do Adobe Marketplace
 * Italiano
 * espanhol
 * Português
-* japonês
+* Japonês
 * Chinês simplificado
 * Chinês tradicional
 * coreano
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +40,8 @@ Você pode instalar o plug-in [!DNL Adobe Workfront for XD] do Adobe Marketplace
  <col> 
  </col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package/td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -47,7 +50,8 @@ Você pode instalar o plug-in [!DNL Adobe Workfront for XD] do Adobe Marketplace
    <td>
    <p>Standard</p>
     <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Produtos adicionais</td> 
    <td><p>Você deve ter uma licença [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront].</p></td> 

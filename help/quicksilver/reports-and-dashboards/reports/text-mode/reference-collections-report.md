@@ -6,7 +6,9 @@ description: Fazer referência a coleções em um relatório
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 3%
@@ -61,10 +63,10 @@ Uma coleção é uma lista de objetos vinculados a outro objeto.
 
 Você tem os dois relacionamentos a seguir entre objetos no Workfront:
 
-* **Uma relação um-para-um**: um objeto pode ser vinculado a apenas um outro objeto por vez.\
+* **Uma relação um para um**: apenas um objeto pode ser vinculado a outro objeto por vez.\
   Por exemplo, um projeto só pode ser vinculado a um portfólio por vez.
 
-* **Uma relação um-para-muitos**: um objeto pode ser vinculado a vários outros objetos por vez.\
+* **Uma relação um para muitos**: um objeto pode ser vinculado a vários outros objetos de cada vez.\
   Por exemplo, um projeto pode ter várias tarefas. Nesse caso, a lista de tarefas forma uma coleção para o projeto.
 
 >[!IMPORTANT]
@@ -79,24 +81,24 @@ Para obter mais informações sobre como criar um relatório usando a interface 
 * [Visão geral dos usos comuns do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 * [Visão geral da sintaxe do modo texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 
-## Find collection objects and their fields in the API Explorer {#find-collection-objects-and-their-fields-in-the-api-explorer}
+## Localizar objetos de coleção e seus campos no API Explorer {#find-collection-objects-and-their-fields-in-the-api-explorer}
 
-Not all collections can be reported on.
+Nem todas as coleções podem ser relatadas.
 
-To understand what objects can be associated with a collection of other, you must use the API Explorer.\
-For more information about the API Explorer table, see the [API Explorer](../../../wf-api/general/api-explorer.md).
+Para entender quais objetos podem ser associados a uma coleção de outros, é necessário usar o API Explorer.\
+Para obter mais informações sobre a tabela do API Explorer, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
 
-To find out what collections can be reported on:
+Para descobrir quais coleções podem ser relatadas:
 
 1. Vá para o [API Explorer](../../../wf-api/general/api-explorer.md).
-1. Localize o objeto de seu relatório.
+1. Encontre o objeto do seu relatório.
 1. Selecione a guia **coleções**.
 
    >[!NOTE]
    >
-   >Somente os objetos listados nessa guia podem ser representados como uma coleção em um relatório do objeto selecionado.
+   >Somente os objetos listados nesta guia podem ser representados como uma coleção em um relatório para o objeto selecionado.
 
-1. Expanda o objeto da sua coleção clicando nele.
+1. Expanda o objeto da coleção clicando nele.
 1. Clique no link exibido para ir para o objeto da sua coleção.\
    Isso abre a guia **campos** para o objeto da sua coleção.
 
@@ -112,18 +114,18 @@ Você pode fazer referência a objetos de uma coleção nos seguintes elementos 
 * Filtros
 * Prompts
 
-You cannot reference objects from a collection in the following reporting elements:
+Você não pode fazer referência a objetos de uma coleção nos seguintes elementos de relatório:
 
 * Agrupamento
 * Gráfico
 
-Por exemplo, você pode fazer referência à tarefa ou às coleções de ocorrências de um relatório de projeto para mostrar informações sobre a tarefa ou a ocorrência no nível do projeto.
+Por exemplo, você pode fazer referência às coleções de tarefas ou problemas de um relatório de projeto para mostrar informações de tarefas ou problemas no nível do projeto.
 
-* [Fazer referência a uma coleção na Exibição de um relatório](#reference-a-collection-in-the-view-of-a-report)
+* [Fazer referência a uma coleção na exibição de um relatório](#reference-a-collection-in-the-view-of-a-report)
 * [Referenciar uma coleção no Filtro de um relatório](#reference-a-collection-in-the-filter-of-a-report)
-* [Fazer referência a uma coleção no prompt personalizado de um relatório](#reference-a-collection-in-the-custom-prompt-of-a-report)
+* [Referenciar uma coleção no prompt personalizado de um relatório](#reference-a-collection-in-the-custom-prompt-of-a-report)
 
-### Fazer referência a uma coleção na Exibição de um relatório {#reference-a-collection-in-the-view-of-a-report}
+### Referenciar uma coleção na Exibição de um relatório {#reference-a-collection-in-the-view-of-a-report}
 
 Você pode fazer referência a uma coleção de objetos na exibição de um relatório para mostrar atributos de objetos associados ao objeto do relatório.
 
@@ -136,7 +138,7 @@ A exibição mostra informações de tarefas ou problemas em um formato de lista
 ![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
 
 * [Adicionar uma coluna de coleção em uma Exibição de relatório](#add-a-collection-column-in-a-report-view)
-* [Understand the lines of a collection View in Text Mode](#understand-the-lines-of-a-collection-view-in-text-mode)
+* [Entender as linhas de uma Exibição de coleção no Modo de Texto](#understand-the-lines-of-a-collection-view-in-text-mode)
 * [Limitações de uma Exibição de coleção](#limitations-of-a-collection-view)
 
 ### Adicionar uma coluna de coleção em uma Exibição de relatório {#add-a-collection-column-in-a-report-view}
@@ -161,7 +163,7 @@ Para adicionar uma coluna de coleção em uma exibição de relatório:
 1. Volte para o relatório e, na guia **Colunas (Exibição)**, clique em **Adicionar Coluna**.
 1. Clique em **Alternar para Modo de Texto**.
 1. Clique em **Editar Modo de Texto**.
-1. Selecione todo o texto na caixa de diálogo **Modo de Texto** e remova-o. Em seguida, cole o seguinte código se estiver fazendo referência a um campo do objeto da coleção:
+1. Selecione todo o texto na caixa de diálogo **Modo de Texto** e remova-o e cole o seguinte código se estiver fazendo referência a um campo do objeto de coleção:
 
    ```
    valueformat=HTML
@@ -173,14 +175,14 @@ Para adicionar uma coluna de coleção em uma exibição de relatório:
    valuefield=collection object field
    ```
 
-1. Substitua o **Nome da Coluna** pelo nome da sua coluna na linha `displayname`.
-1. Substitua o **nome do objeto da coleção** pelo nome do objeto da coleção na linha `listmethod`, como aparece no [API Explorer](../../../wf-api/general/api-explorer.md).
+1. Substitua **Nome da Coluna** pelo nome da sua coluna na linha `displayname`.
+1. Substitua o **nome do objeto de coleção** pelo nome do seu objeto de coleção na linha `listmethod`, como aparece no [API Explorer](../../../wf-api/general/api-explorer.md).
 
-1. Substitua o **campo do objeto de coleção** pelo nome do campo do objeto de coleção na linha `valuefield`, como aparece no [API Explorer](../../../wf-api/general/api-explorer.md).
+1. Substitua o **campo do objeto de coleção** pelo nome do campo do seu objeto de coleção na linha `valuefield`, como ele aparece no [API Explorer](../../../wf-api/general/api-explorer.md).
 
-   Você pode substituir **valuefield** por **valueexpression**, se desejar criar uma expressão personalizada em sua exibição.
+   Você pode substituir **valuefield** por **valueexpression**, se desejar criar uma expressão personalizada em seu modo de exibição.
 
-   Para obter mais informações sobre expressões personalizadas calculadas, consulte [Visão geral de expressões de dados calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Para obter mais informações sobre expressões personalizadas calculadas, consulte [Visão geral das expressões de dados calculadas](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Por exemplo, se você deseja exibir uma lista de tarefas em um relatório de projeto. Esta coleção usa uma linha `valuefield` para fazer referência aos nomes das tarefas.
 
@@ -210,11 +212,11 @@ Para adicionar uma coluna de coleção em uma exibição de relatório:
      valueformat=HTML
      ```
 
-     Observe que em uma coleção você deve usar **problemas** para a linha **listmethod**, em vez de **opTasks**, que é o nome do banco de dados para Problemas. Para obter informações sobre quando usar **issue** e quando usar **opTask** ao se referir a problemas, consulte [Usar “opTask” e “issue” ao fazer referência a problemas](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
+     Observe que em uma coleção você deve usar **problemas** para a linha **listmethod**, em vez de **opTasks**, que é o nome do banco de dados para Problemas. Para obter informações sobre quando usar o **problema** e quando usar o **opTask** ao fazer referência a problemas, consulte [Usar &quot;opTask&quot; e &quot;problema&quot; ao fazer referência a problemas](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
 
-   * If you want to display a list of the tasks in a project report along with their primary assignee, you would use a **valueexpression** line for referencing the names of the tasks adjacent to the names of their primary assignees instead of **valuefield**.
+   * Para exibir uma lista de tarefas em um relatório de projeto junto com o responsável principal, use uma linha **valueexpression** para fazer referência aos nomes das tarefas adjacentes aos nomes de seus responsáveis principais, em vez de **valuefield**.
 
-     Use the following code to build your column:
+     Use o código a seguir para criar a coluna:
 
      ```
      valueformat=HTML
@@ -226,9 +228,9 @@ Para adicionar uma coluna de coleção em uma exibição de relatório:
      valueexpression=CONCAT({name},' - ',{assignedTo}.{name})
      ```
 
-1. The following column displays in the project report, listing all tasks in each project alongside their primary assignees:
+1. A coluna a seguir é exibida no relatório de projeto, listando todas as tarefas em cada projeto junto com seus atribuídos principais:
 
-   ![Project report with task and assignee collection](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![Relatório de projeto com coleção de tarefas e responsáveis](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Clique em **Salvar**.
 1. (Opcional) Continue editando o relatório.
@@ -237,9 +239,9 @@ Para adicionar uma coluna de coleção em uma exibição de relatório:
 
    Clique em **Salvar + Fechar** para salvar o relatório.
 
-#### Entender as linhas de uma coleção Ver no Modo de Texto
+#### Entender as linhas de uma Exibição de coleção no Modo de Texto
 
-As linhas em uma exibição do modo de texto para uma coleção estão contornadas na tabela a seguir:
+As linhas em uma exibição de modo de texto para uma coleção são descritas na tabela a seguir:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -266,19 +268,19 @@ As linhas em uma exibição do modo de texto para uma coleção estão contornad
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Esse é o delimitador usado para separar os valores na lista.<br>Recomendamos usar <code>&lt;p&gt;</code>, que adiciona uma quebra de linha entre os valores.</p> <p>You can also use the following:</p> <p><code>&zwj;</code> (zero-width joiner). The values of the collection have no separation between them.<br><strong>,</strong> =comma separator. The values of the collection are separated by a comma followed by no space.<br><strong>/</strong> = slash separator. The values of the collection are separated by a slash.<br><strong>-</strong> = separador de traço. Os valores da coleção são separados por um traço.<br>Deixar esta linha vazia adiciona uma vírgula seguida de um espaço entre os valores da coleção, por padrão.</p> </td> 
+   <td> <p>Esse é o delimitador usado para separar os valores na lista.<br>Recomendamos usar <code>&lt;p&gt;</code>, que adiciona uma quebra de linha entre os valores.</p> <p>Você também pode usar o seguinte:</p> <p><code>&amp;zwj;</code> (junção de largura zero). Os valores da coleção não têm separação entre eles.<br><strong>,</strong> =separador de vírgula. Os valores da coleção são separados por uma vírgula seguida por nenhum espaço.<br><strong>/</strong> = separador de barras. Os valores da coleção são separados por uma barra.<br><strong>-</strong> = separador de traço. Os valores da coleção são separados por um traço.<br>Deixar esta linha vazia adiciona uma vírgula seguida por um espaço entre os valores da coleção, por padrão.</p> </td> 
   </tr> 
   <tr> 
-   <td><code>displayname=</code><em>Nome da Coluna</em> </td> 
+   <td><code>displayname=</code><em>Nome da coluna</em> </td> 
    <td> <p>Substitua <strong>Nome da coluna</strong> pelo nome real da nova coluna.</p> </td> 
   </tr> 
   <tr> 
    <td><code>listmethod=nested(collection object name).list</code> </td> 
-   <td> <p> Esta linha define a coleção à qual você está fazendo referência.</p> <p>Substitua o <strong>nome do objeto da coleção</strong> pelo nome do objeto ao qual você está fazendo referência na sua coleção, como aparece no <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. Normalmente, esse valor é a forma plural do nome do objeto da coleção.</p> </td> 
+   <td> <p> Essa linha define a coleção que você está referenciando.</p> <p>Substitua o <strong>nome do objeto da coleção</strong> pelo nome do objeto que você está referenciando na sua coleção, como aparece no <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. Normalmente, esse valor é a forma plural do nome do objeto da coleção.</p> </td> 
   </tr> 
   <tr> 
    <td><code>valuefield=collection object field</code> </td> 
-   <td> <p>Essa linha define qual campo você está referenciando a partir do objeto de coleção.</p> <p>Substitua o <strong>campo de objeto da coleção</strong> pelo nome do campo do objeto que você está referenciando na sua coleção, como aparece no <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>É possível substituir essa linha por:</p> <p><strong>valueexpression</strong>=campo/campos de objeto de coleção calculada</p> <p>Usando a <strong>expressão de valor</strong>, você pode  exiba uma expressão personalizada calculada na coluna.</p> <p>For more information about how to format <strong>valueexpression</strong> lines, see <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Text mode syntax overview</a>.</p> </td> 
+   <td> <p>Essa linha define qual campo você está referenciando a partir do objeto de coleção.</p> <p>Substitua o <strong>campo de objeto da coleção</strong> pelo nome do campo do objeto que você está referenciando na sua coleção, como aparece no <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>É possível substituir essa linha por:</p> <p><strong>valueexpression</strong>=campo/campos de objeto de coleção calculada</p> <p>Usando a <strong>expressão de valor</strong>, você pode  exiba uma expressão personalizada calculada na coluna.</p> <p>Para obter mais informações sobre como formatar linhas <strong>valueexpression</strong>, consulte <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Visão geral da sintaxe do modo de texto</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -313,9 +315,9 @@ Para adicionar uma referência a uma coleção em um filtro de relatório:
 1. Clique no **Menu principal** ![Ícone do Menu principal](assets/main-menu-icon.png) e em **Relatórios**.
 1. Clique em **Novo Relatório**.
 1. Selecione o objeto do relatório.
-1. Afaste-se do relatório e, usando o [API Explorer](../../../wf-api/general/api-explorer.md), determine quais coleções estão disponíveis para o objeto selecionado para o relatório.
+1. Saia do seu relatório e, usando o [API Explorer](../../../wf-api/general/api-explorer.md), determine quais coleções estão disponíveis para o objeto selecionado para o seu relatório.
 
-   Para obter mais informações sobre como selecionar o objeto da sua coleção, consulte a seção [Localizar objetos da coleção e seus campos no API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) neste artigo.
+   Para obter mais informações sobre como selecionar o objeto de sua coleção, consulte a seção [Localizar objetos de coleção e seus campos no API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) neste artigo.
 
    Anote qual é o nome do objeto da coleção.
 
@@ -351,9 +353,9 @@ Para adicionar uma referência a uma coleção em um filtro de relatório:
 
    Esse relatório só exibe projetos que tenham pelo menos uma tarefa com a palavra &quot;marketing&quot; no nome.
 
-   ![Tarefas somente de marketing no projeto](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![Marketing somente de tarefas no projeto](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
-1. Para filtrar o nome de uma ocorrência, use o seguinte código:
+1. Para filtrar o nome de um problema, use o seguinte código:
 
    ```
    issues:name=Marketing
@@ -362,7 +364,7 @@ Para adicionar uma referência a uma coleção em um filtro de relatório:
 
    >[!TIP]
    >
-   >Observe que você deve usar `issues` para o nome do objeto da coleção, em vez de `optask`, que é como os problemas aparecem no API Explorer.
+   >Observe que você deve usar `issues` como o nome do objeto da coleção, em vez de `optask`, que é a forma como os problemas aparecem no API Explorer.
 
 1. Clique em **Concluído**.
 1. (Opcional) Continue editando o relatório.
@@ -379,20 +381,20 @@ Por exemplo, você pode solicitar informações sobre tarefas em um relatório d
 
 >[!NOTE]
 >
->Não é possível fazer referência a coleções em um prompt padrão.
+>Você não pode fazer referência a coleções em um prompt padrão.
 
-A custom prompt is a custom filter where the statements are joined by ampersand symbols. We recommend that you build your statement in a filter, first, then join the lines of the statements with ampersands.
+Um prompt personalizado é um filtro personalizado em que as instruções são unidas por símbolos de E comercial. Recomendamos que você crie sua instrução em um filtro, primeiro, e depois junte as linhas das instruções com &quot;E&quot; comercial.
 
-For more information about building a filter statement with a collection reference, see the section [Reference a collection in the Filter of a report](#reference-a-collection-in-the-filter-of-a-report) in this article.
+Para obter mais informações sobre como criar uma instrução de filtro com uma referência de coleção, consulte a seção [Referenciar uma coleção no Filtro de um relatório](#reference-a-collection-in-the-filter-of-a-report) neste artigo.
 
-To add a reference to a collection in the custom prompt of a report:
+Para adicionar uma referência a uma coleção no prompt personalizado de um relatório:
 
-1. Click the **Main** menu ![Main Menu icon](assets/main-menu-icon.png), then click **Reports**.
+1. Clique no **Menu principal** ![Ícone do Menu principal](assets/main-menu-icon.png) e em **Relatórios**.
 1. Clique em **Novo Relatório**.
 1. Selecione o objeto do relatório.
-1. Crie um filtro com uma referência de coleção conforme descrito na seção [Faça referência a uma coleção no Filtro de um relatório](#reference-a-collection-in-the-filter-of-a-report) neste artigo.
-1. Clique em **Configurações de Relatório**.
-1. Clique em **Prompts de Relatório**.
+1. Crie um filtro com uma referência de coleção conforme descrito na seção [Referencie uma coleção no Filtro de um relatório](#reference-a-collection-in-the-filter-of-a-report) deste artigo.
+1. Clique em **Configurações do relatório**.
+1. Clique em **Prompts do Relatório**.
 1. Clique em **Adicionar prompt**.
 1. Clique em **Personalizar prompt**.
 1. Especifique o nome do prompt no campo **Campo***nome**.
@@ -405,7 +407,7 @@ To add a reference to a collection in the custom prompt of a report:
    ```
 
 1. (Opcional) Especifique se essa opção é exibida por padrão no prompt.
-1. Replace **collection object name** with the name of your collection object as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md). Normalmente, esse valor é a forma plural do nome do objeto da coleção.
+1. Substitua o **nome do objeto de coleção** pelo nome do objeto de coleção como ele aparece no [API Explorer](../../../wf-api/general/api-explorer.md). Normalmente, esse valor é a forma plural do nome do objeto da coleção.
 1. Substitua o **campo do objeto de coleção** pelo nome do campo do seu objeto de coleção, como ele aparece no [API Explorer](../../../wf-api/general/api-explorer.md).
 1. Substitua o **valor do objeto de coleção** pelo valor do objeto de coleção como ele aparece no Workfront.
 

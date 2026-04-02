@@ -1,19 +1,21 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
-title: Atribuir usuários a uma matéria no Scrum Board
-description: Leia este artigo para saber como atribuir usuários a uma história no quadro do Scrum.
+title: Atribuir usuários a uma história no quadro Scrum
+description: Leia este artigo para saber como atribuir usuários a uma história no quadro Scrum.
 author: Courtney
 feature: Agile
 exl-id: 57fa28cc-f93d-4938-9d65-3dcf90fdf6a0
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 18%
 
 ---
 
-# Atribuir usuários a uma história no quadro [!UICONTROL Rabisco]
+# Atribuir usuários a uma história no quadro [!UICONTROL Scrum]
 
 ## Requisitos de acesso
 
@@ -28,10 +30,10 @@ Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>Novo: [!UICONTROL Standard]</p> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> <p>Novo: [!UICONTROL Padrão]</p> 
    ou
-   <p>Atual: [!UICONTROL Work] ou superior</p> </td> 
+   <p>Atual: [!UICONTROL Trabalho] ou superior</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -40,18 +42,18 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Atribuir usuários a uma história no quadro [!UICONTROL Rabisco]
+## Atribuir usuários a uma história no quadro [!UICONTROL Scrum]
 
 {{step1-to-team}}
 
-1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ![Ícone Alternar equipe](assets/switch-team-icon.png) e, em seguida, selecione uma nova equipe [!UICONTROL Sorriso] no menu suspenso ou pesquise uma equipe na barra de pesquisa.
+1. (Opcional) Clique no ícone **[!UICONTROL Equipe do switch]** ![Ícone da equipe do switch](assets/switch-team-icon.png) e selecione uma nova equipe [!UICONTROL Scrum] no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. Acesse a iteração ágil ou o projeto que contém o quadro de matérias no qual você deseja atribuir usuários. Para obter informações sobre como navegar para uma iteração, consulte [Exibir uma iteração](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
-1. Vá para o bloco de matérias no quadro de matérias em que deseja adicionar um usuário.
-1. Clique no avatar da equipe no bloco da história (ou em um avatar do usuário, se já houver um atribuído), comece a digitar o nome do usuário que deseja atribuir à história e clique no nome quando ele aparecer. Você também pode escolher um usuário sugerido.
+1. Vá para a iteração Agile ou o projeto que contém o storyboard ao qual você deseja atribuir usuários. Para obter informações sobre como navegar para uma iteração, consulte [Exibir uma iteração](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
+1. Vá para o bloco história no storyboard em que deseja adicionar um usuário.
+1. Clique no avatar da equipe no bloco da história (ou em um avatar do usuário, se já houver um atribuído), comece digitando o nome do usuário que deseja atribuir à história e clique no nome quando ele for exibido. Você também pode escolher um usuário sugerido.
 
    >[!TIP]
    >
-   >Você também pode atribuir uma função de trabalho a uma matéria. Você só pode atribuir usuários ativos e funções ativas.
+   >Você também pode atribuir uma função de trabalho a uma história. Você só pode atribuir usuários e funções ativos.
 
    ![Adicionar atribuição ao cartão de história](assets/addassignmenttostorycard-350x472.png)

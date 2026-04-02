@@ -1,15 +1,17 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Otimizar projetos no Portfolio Otimizer
+title: Otimizar projetos no otimizador de portfólios
 description: Você pode usar o [!UICONTROL Portfolio Otimizer] para priorizar seus projetos com base em suas pontuações e outros valores. O Otimizer leva em consideração informações importantes do projeto, como custo, alinhamento, risco e ROI, para priorizar os projetos de acordo com o que é mais importante para você.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -19,9 +21,9 @@ Você pode usar o [!UICONTROL Portfolio Otimizer] para priorizar seus projetos c
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +38,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>[!UICONTROL Padrão]</p>
-   <p>[!UICONTROL Plano]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -53,7 +55,8 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 
 +++
 
-<!--Old
+<!--
+Old
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -78,9 +81,10 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Otimizar projetos no Portfolio Otimizer
+## Otimizar projetos no otimizador de portfólios
 
 1. Abra uma Portfolio e clique em **[!UICONTROL Otimização do Portfolio]** no painel esquerdo.
 

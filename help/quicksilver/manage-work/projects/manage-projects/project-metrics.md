@@ -8,14 +8,16 @@ description: As métricas do projeto oferecem uma visualização do que está ac
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Entender as métricas do projeto
+# Compreender as métricas do projeto
 
 As métricas do projeto fornecem uma visualização geral em formato de gráfico sobre o desempenho de um projeto.
 
@@ -51,7 +53,8 @@ As métricas do projeto fornecem uma visualização geral em formato de gráfico
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +78,8 @@ As métricas do projeto fornecem uma visualização geral em formato de gráfico
    <td> <p>View permissions to a project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Pré-requisitos
 
@@ -101,11 +105,13 @@ Você também pode detalhar cada gráfico para analisar mais detalhadamente tare
 
 Para saber mais sobre essas tarefas ou problemas, consulte [Exibir detalhes de métricas](#view-metrics-details).
 
-<!--this was deprecated: 
+<!--
+this was deprecated: 
 >[!TIP]
 >
 >To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
->To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).-->
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
+-->
 
 ## KPIs do projeto
 

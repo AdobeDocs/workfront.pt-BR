@@ -6,7 +6,9 @@ description: Relatórios de matriz apresentam informações resumidas em um form
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 4%
@@ -15,7 +17,7 @@ ht-degree: 4%
 
 # Criar um relatório matriz
 
-Os relatórios de matriz apresentam informações resumidas em um formato de tabela agregada, facilitando a exibição e não a exibição em uma lista, como em um relatório tradicional.
+Relatórios de matriz apresentam informações resumidas em um formato de tabela agregada, tornando mais fácil a visualização do que se fossem exibidas em uma lista como em um relatório tradicional.
 
 ## Quando usar um relatório de matriz
 
@@ -66,7 +68,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Configurar um relatório matriz
+## Configurar um relatório de matriz
 
 1. Crie um relatório tradicional que contenha dados numéricos na saída do relatório.\
    Para obter informações sobre como criar um relatório, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
@@ -89,13 +91,13 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 1. Clique na guia **Agrupamentos**.
 1. (Condicional) Se você já criou um Agrupamento e deseja aplicá-lo a este relatório, clique em **Aplicar um Agrupamento Existente** e selecione o Agrupamento na lista suspensa.
-1. (Condicional) Se você deseja criar um novo Agrupamento de matrizes para o relatório, conclua as seguintes etapas:
+1. (Condicional) Se quiser criar um novo Agrupamento de matriz para o relatório, conclua as seguintes etapas:
 
-   1. Selecione **Alternar para Agrupamento de Matriz** no canto superior direito da interface do construtor.
+   1. Selecione **Alternar para agrupamento de matriz** no canto superior direito da interface do construtor.
    1. Na seção **Agrupamentos de Linhas**, identifique o agrupamento de linhas, que estabelece os agrupamentos horizontais da tabela.
-   1. (Opcional) Para adicionar um agrupamento de linhas adicional, clique em **Adicionar Agrupamento de Linhas secundário**.
+   1. (Opcional) Para adicionar outro agrupamento de linhas, clique em **Adicionar agrupamento de linhas secundário**.
    1. Na seção **Agrupamentos de Colunas**, identifique o agrupamento de colunas, que estabelece os agrupamentos verticais da tabela.
-   1. (Opcional) Para adicionar um agrupamento de colunas adicional, clique em **Adicionar Agrupamento de Colunas secundário**.
+   1. (Opcional) Para adicionar um agrupamento de coluna adicional, clique em **Adicionar agrupamento de coluna secundário**.
    1. (Condicional) Se você adicionar um agrupamento por data, especifique também se os resultados serão agrupados por dia, semana, mês, trimestre ou ano.\
       ![Opções de agrupamento por data](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
@@ -104,31 +106,32 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
       >[!NOTE]
       >
-      >O campo **Mostrar trimestres sem resultados** só está disponível para agrupamentos de matrizes, e não para agrupamentos padrão.\
+      >O campo **Mostrar trimestres sem resultados** está disponível apenas para agrupamentos de matriz, não para agrupamentos padrão.\
       >Somente os trimestres sem dados localizados entre dois trimestres com dados válidos exibirão zero para os valores de dados na guia de matriz. Os trimestres que não têm dados localizados no início e no final do período selecionado pelo filtro não aparecem no agrupamento de matriz. Os trimestres sem resultados não serão exibidos em um agrupamento na guia Detalhes do relatório.
 
 1. (Opcional e condicional) Clique em **Configurações de Matriz** e selecione uma das seguintes opções:\
    **Mostrar Contagens de Registros:** Selecione esta opção para exibir uma linha com o número total de entradas para o campo especificado.\
-   **Mostrar Coluna de Valor:** selecione esta opção para exibir as seguintes informações na matriz:
+   **Mostrar Coluna de Valor:** Selecione esta opção para exibir as seguintes informações na matriz:
 
-   * Contagens de Registros
-   * A coluna Valor
+   * Contagens de registros
+   * A coluna Value
 
      >[!NOTE]
      >
-     >Esta coluna contém informações que descrevem o que os dados em cada linha representam.\
-     >As exceções a seguir aplicam-se a objetos pai (por exemplo, tarefas pai) quando você está agregando valores para os seguintes campos em agrupamentos:
+     >Essa coluna contém informações que descrevem o que os dados em cada linha representam.\
+     >As exceções a seguir se aplicam a objetos pai (por exemplo, tarefas pai) quando você está agregando valores para os seguintes campos em agrupamentos:
      >
      >   
      >   
-     >   * Todos os campos de número e moeda, exceto Horas Reais (por exemplo, Custo de Mão-de-Obra Planejado/Real, Custo de Despesa Planejado/Real, Custo Planejado/Real, Horas Planejadas) agregam somente os valores para as tarefas filhas e as tarefas autônomas. Eles não agregam os valores das tarefas pai ou pai dos pais.
+     >   * Todos os campos de número e moeda, exceto Horas Reais (por exemplo, Custo de Trabalho Planejado/Efetivo, Custo de Despesas Planejado/Efetivo, Custo Planejado/Efetivo, Horas Planejadas) agregam apenas os valores das tarefas filhas e tarefas independentes. Eles não agregam os valores das tarefas pai ou pai dos pais.
      >   * As Horas Reais agregam os valores das tarefas pai principal e independente; elas não agregam os números para as tarefas pai ou filho.
      >   * Os campos de dados personalizados para valores de número e moeda agregam todas as tarefas: pais, filhos, pais dos pais e tarefas independentes. Se você criou o relatório de matriz para exibir Horas Planejadas ou Horas Efetivas na coluna **Valor**, saiba que as informações de horas ou custos de qualquer objeto pai (como tarefas pai) não são exibidas no relatório de matriz. Para exibir horas em objetos pai, você deve exibir a guia **Detalhes**.
      >   
      >   
-     >**Regras Condicionais:** configure quaisquer regras de formatação para valores agregados.\
+     >
 
-   Depois de adicionar uma regra, você pode definir estilos de campo e texto para a maneira como os campos que correspondem a essa regra são exibidos. Clique em **Adicionar regra** depois de concluir a definição da regra e em **Concluído** para salvar a regra.
+   **Regras Condicionais:** configure regras de formatação para valores agregados.\
+   Após adicionar uma regra, é possível definir estilos de campo e texto para a forma como os campos que correspondem a essa regra são exibidos. Clique em **Adicionar regra** depois de concluir a definição da regra e em **Concluído** para salvar a regra.
 
 1. Clique na guia **Filtros** para definir quais informações serão exibidas no relatório.
 1. (Condicional) Se você já criou um Filtro e deseja aplicá-lo a este relatório, clique em **Aplicar um Filtro Existente** e selecione o Filtro na lista suspensa.

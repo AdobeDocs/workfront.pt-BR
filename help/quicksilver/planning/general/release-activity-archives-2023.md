@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2900'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Atividade de versão do Adobe Workfront Planning para 2023
+# Atividade de lançamento do Planejamento do Adobe Workfront para 2023
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -126,7 +128,7 @@ Para obter mais informações, consulte [Gerenciar a exibição de tabela](/help
 
 ### Conectar registros de recursos de planejamento ao Adobe Experience Manager Assets
 
-Versão de pré-visualização: 14 de dezembro de 2023
+Versão preliminar: sexta-feira, 14 de dezembro de 2023
 
 Versão de produção: 21 de dezembro de 2023
 
@@ -144,7 +146,8 @@ Após estabelecer a conexão, a seguinte funcionalidade estará disponível com 
 
 * Os usuários do recurso de planejamento podem exibir o nome dos ativos conectados, bem como os valores dos campos conectados nos recursos de planejamento.
 
-<!--removed per PM, for now: 
+<!--
+removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 
@@ -160,7 +163,7 @@ Pré-visualização e produção: 5 de dezembro de 2023
 
 Agora é possível copiar e colar informações de um campo para outro campo do mesmo tipo em uma exibição de tabela do tipo de registro. Essa funcionalidade agora é compatível com os seguintes tipos de campos:
 
-* Pessoas
+* People
 * Campos de registro vinculados
 
 Considere o seguinte:
@@ -191,7 +194,7 @@ Considere o seguinte:
 
 * Não é possível copiar e colar valores de campo para os seguintes tipos de campo:
 
-   * Pessoas
+   * People
 
    * Campos do sistema
 
@@ -221,7 +224,7 @@ Introduzimos os seguintes tipos de campo para os registros de recursos do Adobe 
 
 * Data de criação
 
-* Modificado pela última vez por
+* Última modificação por
 
 * Data da última modificação
 

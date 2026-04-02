@@ -6,10 +6,12 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3265'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -84,7 +86,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -144,7 +147,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Considerações ao criar registros
 
@@ -219,7 +223,8 @@ O formulário de solicitação do tipo de registro é aberto.
    * Vários registros são adicionados ao tipo de registro se você tiver adicionado registros usando uma planilha CSV ou do Excel.
    * Uma nova solicitação será adicionada na área Solicitações do Workfront se você tiver adicionado a solicitação enviando um formulário de solicitação.
 
-<!-- this is not possible anymore: 
+<!--
+ this is not possible anymore: 
 
 ## Create records by connecting them from another application
 

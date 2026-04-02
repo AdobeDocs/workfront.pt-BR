@@ -1,19 +1,21 @@
 ---
 product-area: user-management;setup
 navigation-topic: configure-your-user-profile
-title: Definir minhas configurações
+title: Configurar Minhas Definições
 description: Seu perfil  [!DNL Adobe Workfront]  contém informações sobre você (por exemplo, seu nome, endereço de email, endereço, número de telefone, cargo, etc.). Ele também contém informações sobre suas interações com o  [!DNL Workfront]  e outros usuários da sua empresa.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3318'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Definir minhas configurações
+# Configurar Minhas Definições
 
 <!-- Audited: 01/2024 -->
 
@@ -160,7 +162,7 @@ A grade a seguir mostra quais seções na área [!UICONTROL Minhas Configuraçõ
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL Forms Personalizado]</td> 
+   <td rowspan="2">[!UICONTROL Custom Forms]</td> 
    <td>Visível</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -301,7 +303,7 @@ Essas informações já devem ter sido configuradas pelo administrador do [!DNL 
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Estado]</strong></td>
+        <td><strong>[!UICONTROL State]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -380,7 +382,8 @@ Somente um administrador do [!DNL Workfront] pode visualizar e editar todos os c
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Modelo de layout]</strong> </td> 
    <td>Este campo é visível para usuários com nível de acesso [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL [!DNL Workfront] administrator], e só pode ser editado para [!UICONTROL [!DNL Workfront] administradores] ou usuários com uma licença [!UICONTROL Standard] ou [!UICONTROL Plan] que também tenham acesso de usuário administrativo. Selecione um modelo de layout aqui para atualizar a aparência e o campo da interface do Workfront. Para obter mais informações sobre como configurar usuários com acesso administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurar acesso dos usuários para editar usuários usando um nível de acesso personalizado</a> em <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.<br>Para obter mais informações sobre modelos de layout e como eles afetam sua interface, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Criar e gerenciar modelos de layout</a></td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader"><strong>Log in as</strong> </td> 
     <td> <p><strong>Add access</strong> for a Workfront administrator or group administrator (associated with a group you are in) to log in as you. Select an <strong>Access expiration date</strong> for the login. </p> <p>You can repeat this to grant login access to multiple administrators.</p> <p>The settings you choose in this section are visible only to you.
@@ -416,7 +419,7 @@ Normalmente, essas informações são configuradas pelo administrador do [!DNL W
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Empresa]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Company]</strong></td> 
    <td>Selecione o nome da empresa à qual você pertence na lista suspensa.</td> 
   </tr> 
   <tr> 
@@ -498,7 +501,7 @@ Use qualquer um dos seguintes itens nesta seção:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
-   <td> <p>O número especificado aqui é levado em conta para calcular sua disponibilidade com base no Agendamento Padrão apenas quando as [!UICONTROL Preferências de Gerenciamento de Recursos] no nível do sistema são definidas como <strong>[!UICONTROL O Agendamento Padrão]</strong>.</p> <p>Por exemplo, se o valor de FTE for 0,5 e a [!UICONTROL Default Schedule] for 40 horas, você estará disponível para trabalhar 20 horas por semana.</p> <p>Se as [!UICONTROL Preferências de Gerenciamento de Recursos] no nível do sistema forem definidas como <strong>[!UICONTROL A Agenda do Usuário]</strong>, o valor especificado aqui será ignorado e você estará disponível para trabalhar de acordo com o que está especificado na sua agenda. Nesse caso, o FTE do [!UICONTROL Resource Planner] é calculado pela seguinte fórmula: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Para obter mais informações sobre o cálculo de FTE do usuário, consulte <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Visão geral do cálculo de horas e FTE para usuários e funções no Planejador de recursos</a>.</p> <p>Para obter mais informações sobre como criar agendas em [!DNL Workfront], consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar uma agenda</a>.</p> <p>Para obter mais informações sobre como configurar as Preferências de Gerenciamento de Recursos, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar preferências de Gerenciamento de Recursos</a>.</p> </td> 
+   <td> <p>O número especificado aqui é levado em conta para calcular sua disponibilidade com base no Agendamento Padrão apenas quando as [!UICONTROL Preferências de Gerenciamento de Recursos] no nível do sistema são definidas como <strong>[!UICONTROL O Agendamento Padrão]</strong>.</p> <p>Por exemplo, se o valor de FTE for 0,5 e a [!UICONTROL Default Schedule] for 40 horas, você estará disponível para trabalhar 20 horas por semana.</p> <p>Se as [!UICONTROL Preferências de Gerenciamento de Recursos] no nível do sistema forem definidas como <strong>[!UICONTROL A Agenda do Usuário]</strong>, o valor especificado aqui será ignorado e você estará disponível para trabalhar de acordo com o que está especificado na sua agenda. Nesse caso, o FTE do [!UICONTROL Resource Planner] é calculado pela seguinte fórmula: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Para obter mais informações sobre o cálculo de FTE do usuário, consulte <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Visão geral do cálculo de horas e FTE para usuários e funções no Planejador de recursos</a>.</p> <p>Para obter mais informações sobre como criar cronogramas no [!DNL Workfront], consulte <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Criar um cronograma</a>.</p> <p>Para obter mais informações sobre como configurar as Preferências de Gerenciamento de Recursos, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurar preferências de Gerenciamento de Recursos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Custo por Hora]</strong> </td> 

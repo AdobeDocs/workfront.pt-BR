@@ -6,7 +6,9 @@ description: Ao visualizar um bloco de matéria no quadro Kanban, determinadas i
 author: Courtney
 feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 12%
@@ -17,7 +19,7 @@ ht-degree: 12%
 
 ## Entenda quais informações podem ser visualizadas e editadas
 
-Ao exibir um bloco de matéria no quadro de matérias, as informações da tabela a seguir estão disponíveis. É possível editar a maioria das informações em linha, diretamente no bloco de matéria.
+Ao exibir um bloco de matéria no storyboard, as informações na tabela a seguir estão disponíveis. É possível editar a maioria das informações em linha, diretamente no bloco de matéria.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +44,7 @@ Ao exibir um bloco de matéria no quadro de matérias, as informações da tabel
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>O número de pontos ou horas concluídas na matéria e o número de pontos ou horas atribuídas à matéria<br>Esses números são usados para calcular e exibir a [!UICONTROL Percentual Concluído] para cada matéria.</p> </td> 
+   <td> <p>O número de pontos ou horas concluídas na matéria e o número de pontos ou horas atribuídas à matéria<br>Esses números são usados para calcular e exibir a [!UICONTROL Percentual concluído] para cada matéria.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -57,7 +59,7 @@ Ao exibir um bloco de matéria no quadro de matérias, as informações da tabel
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>A cor ou categoria do ladrilho</p> </td> 
+   <td> <p>A cor ou categoria do bloco</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -82,8 +84,8 @@ Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>Novo: [!UICONTROL Standard]</p> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> <p>Novo: [!UICONTROL Padrão]</p> 
    ou
    <p>Atual: [!UICONTROL Trabalho] ou superior</p> </td> 
   </tr>
@@ -106,8 +108,8 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 1. No painel esquerdo, selecione **[!UICONTROL Iterações]** para escolher uma iteração específica, ou selecione **[!UICONTROL Iteração atual]**.
 
-1. Vá para o quadro de matérias [!UICONTROL Resíduos] ágil.
-1. Expanda o bloco [!UICONTROL matéria] para exibir todos os campos associados à matéria.
+1. Vá para o storyboard [!UICONTROL Scrum] Agile.
+1. Expanda o bloco [!UICONTROL história] para exibir todos os campos associados à história.
 
    ![cartão de história](assets/agile-storycard-scrum-2021-350x333.png)
 

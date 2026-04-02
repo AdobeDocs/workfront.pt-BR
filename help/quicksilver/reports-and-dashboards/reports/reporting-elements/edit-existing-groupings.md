@@ -4,7 +4,9 @@ description: Editar agrupamentos existentes
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 12%
@@ -87,6 +89,6 @@ Para obter informações sobre como criar um agrupamento, consulte [Criar agrupa
    >* Os resultados de um agrupamento sempre são exibidos expandidos depois de acessá-los a partir de um elemento do gráfico ou em uma lista herdada. Nesses casos, essa configuração é ignorada.
 
 1. Repita as etapas 4, 5 e 6 para definir agrupamentos adicionais.\
-   É possível definir até três agrupamentos para organizar informações. Você pode organizar ainda mais suas informações com até quatro agrupamentos criando um relatório de matriz. Para obter mais informações sobre relatórios de matriz, consulte [Criar um relatório de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+   É possível definir até três agrupamentos para organizar as informações. Você pode organizar ainda mais suas informações com até quatro agrupamentos criando um relatório de matriz. Para obter mais informações sobre relatórios de matriz, consulte [Criar um relatório de matriz](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 1. Clique em **Salvar agrupamento** para substituir o agrupamento atual pelas alterações.

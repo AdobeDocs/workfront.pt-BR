@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Visão Geral da Data de Início Efetivo do projeto
+title: Visão geral da data de início real do projeto
 description: Projetos, tarefas e problemas têm uma Data de início efetiva no Adobe Workfront. Para tarefas e problemas, esta é a data em que eles foram marcados como Em andamento. Para projetos, esta é a data em que a primeira tarefa no projeto é marcada como Em andamento ou foi concluída.
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-# Visão Geral da Data de Início Efetivo do projeto
+# Visão geral da data de início real do projeto
 
 Projetos, tarefas e problemas têm uma Data de início efetiva no Adobe Workfront. Para tarefas e problemas, esta é a data em que eles foram marcados como Em andamento. Para projetos, esta é a data em que a primeira tarefa no projeto é marcada como Em andamento ou foi concluída.
 
@@ -50,7 +52,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,7 +76,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerações sobre as datas de início reais no Workfront
 

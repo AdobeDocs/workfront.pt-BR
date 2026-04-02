@@ -6,10 +6,12 @@ description: Um projeto é uma grande unidade de trabalho no Adobe Workfront. Vo
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -19,15 +21,17 @@ ht-degree: 1%
 
 <!-- Audited: 110/2025 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Os projetos representam uma grande quantidade de trabalho que precisa ser feito no Adobe Workfront.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +43,7 @@ Os projetos representam uma grande quantidade de trabalho que precisa ser feito 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
         <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +61,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -81,7 +86,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    <td> <p>When you create a project, you automatically receive Manage permissions to the project.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Maneiras de criar projetos
@@ -109,7 +115,7 @@ Você pode criar um projeto no Workfront usando um dos seguintes métodos:
 
 * Publicar uma iniciativa de um cenário no Planejador de cenários do Adobe Workfront.
 
-  Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
+  Para obter informações sobre o planejador de cenários do Workfront, consulte [Visão geral do planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
 
   Para obter informações sobre como criar projetos a partir de iniciativas de publicação, consulte [Atualizar ou criar projetos publicando iniciativas no Planejador de Cenários](../../../scenario-planner/publish-scenarios-update-projects.md).
 

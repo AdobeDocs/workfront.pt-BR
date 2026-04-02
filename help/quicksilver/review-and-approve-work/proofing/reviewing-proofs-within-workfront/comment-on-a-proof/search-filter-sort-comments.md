@@ -6,10 +6,12 @@ description: Pesquise, filtre e classifique comentários de prova para navegar f
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +21,7 @@ Pesquise, filtre e classifique comentários de prova para navegar facilmente pel
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,9 +91,11 @@ Você pode filtrar os comentários exibidos definindo o parâmetro de filtro, co
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Ações</strong> </td> 
-      <td>Exibe somente comentários que correspondem à ação selecionada.sem ação. As ações devem ser ativadas no sistema. Para obter mais informações, consulte.<!--
+      <td>Exibe somente comentários que correspondem à ação selecionada.sem ação. As ações devem ser ativadas no sistema. Para obter mais informações, consulte.
+      <!--
         &nbsp;
-       --></td> 
+       -->
+       </td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Opções gerais de filtragem</strong> </td> 

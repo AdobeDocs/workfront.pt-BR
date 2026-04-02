@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2213'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -42,7 +44,7 @@ Para obter informações sobre aprovações associadas a documentos ou provas, c
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +61,7 @@ Para obter informações sobre aprovações associadas a documentos ou provas, c
 </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
  <p>Plano</p> 
 </td> 
   </tr> 
@@ -75,7 +77,8 @@ Para obter informações sobre aprovações associadas a documentos ou provas, c
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ Para obter informações sobre aprovações associadas a documentos ou provas, c
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 
 ## Criar um processo de aprovação global de nível de sistema ou de grupo para itens de trabalho
@@ -114,7 +118,8 @@ For more detail about the information in this table, see [Access requirements in
 
    Se você estiver criando um processo de aprovação em nível de grupo, clique em **Grupos** ![Ícone Grupos](assets/groups-icon.png), clique no nome do grupo e em **Aprovações**.
 
-   <!--hidden for the new tab redesign - August 2023: 
+   <!--
+   hidden for the new tab redesign - August 2023: 
    ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
@@ -214,7 +219,7 @@ For more detail about the information in this table, see [Access requirements in
       <td role="rowheader">Escolha o que acontece quando a aprovação é rejeitada</p> </td> 
       <td> <p>Selecione a ação que deseja realizar se o item de trabalho for rejeitado em qualquer estágio do caminho:</p> 
        <ul> 
-       <li><b>Criar um Problema</b>: (Disponível somente para processos de aprovação de projetos e tarefas) Um problema é criado no projeto ou tarefa em que o processo de aprovação está em execução. O recurso padrão atribuído na tarefa ou o proprietário do projeto é atribuído ao problema. Por padrão, o nome do problema criado é <b>Aprovação rejeitada (&lt;Nome do Projeto ou da Tarefa&gt;)</b>. Esse é um Problema de rejeição, inserido na tarefa ou no projeto, dependendo do processo de aprovação em que a rejeição aconteceu.</li> 
+       <li><b>Criar um Problema</b>: (Disponível somente para processos de aprovação de projetos e tarefas) Um problema é criado no projeto ou tarefa em que o processo de aprovação está em execução. O recurso padrão atribuído na tarefa ou o proprietário do projeto é atribuído ao problema. Por padrão, o nome do problema criado é <b>Aprovação rejeitada (&lt;Nome do projeto ou da tarefa&gt;)</b>. Esse é um Problema de rejeição, inserido na tarefa ou no projeto, dependendo do processo de aprovação em que a rejeição aconteceu.</li> 
        <li> <p><b>Definir Status como</b>: escolha uma das seguintes opções:</p> 
        <ul> 
        <li><b>Status Anterior</b>: o projeto, tarefa ou problema rejeitado reverte para o status anterior ao status que ativa o processo de aprovação.</li> 

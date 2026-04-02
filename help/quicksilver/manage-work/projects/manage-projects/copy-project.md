@@ -7,14 +7,16 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 93db334537b5ec12dc0c77d51f8b2d83d8348f3d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
-# Copiar um projeto
+# Criar um projeto
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -53,7 +55,7 @@ Observe que não é possível copiar projetos em massa.
 ## Requisitos de acesso
 
 +++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,11 +81,12 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+ Old:
  
  <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +113,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    <td> <p>View permissions or higher to the project</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerações
 

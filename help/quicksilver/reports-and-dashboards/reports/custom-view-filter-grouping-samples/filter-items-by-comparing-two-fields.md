@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtro: eliminar itens de uma lista comparando dois campos'
-description: Você pode filtrar itens de uma lista comparando dois de seus campos. Por exemplo, você pode exibir apenas as tarefas em que a Data de Conclusão Real da tarefa é maior que a Data de Conclusão Planejada.
+description: É possível filtrar itens de uma lista comparando dois de seus campos. Por exemplo, você pode exibir somente tarefas em que a Data de Término Efetivo da tarefa seja maior que a Data de Término Planejada.
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 25%
@@ -18,7 +20,7 @@ ht-degree: 25%
 
 <!--Audited: 10/2024-->
 
-Você pode filtrar itens de uma lista comparando dois de seus campos. Por exemplo, você pode exibir apenas as tarefas em que a Data de Conclusão Real da tarefa é maior que a Data de Conclusão Planejada.
+É possível filtrar itens de uma lista comparando dois de seus campos. Por exemplo, você pode exibir somente tarefas em que a Data de Término Efetivo da tarefa seja maior que a Data de Término Planejada.
 
 ## Requisitos de acesso
 
@@ -35,12 +37,12 @@ Você pode filtrar itens de uma lista comparando dois de seus campos. Por exempl
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou solicitação para modificar um filtro </p>
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a filtros, exibições e agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -58,7 +60,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 1. Ir para uma lista de tarefas.
 1. No menu suspenso **Filtro**, selecione **Novo filtro**.
 
-1. Adicione um filtro para **Data de conclusão:Actual da tarefa** > **Maior que** > **Selecione uma data**.
+1. Adicione um filtro para **Data de conclusão da :Actual da tarefa** > **Maior que** > **Selecione uma data**.
 
    >[!TIP]
    >

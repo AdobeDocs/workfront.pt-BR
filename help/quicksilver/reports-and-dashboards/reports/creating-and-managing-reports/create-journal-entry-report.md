@@ -5,7 +5,9 @@ author: Courtney
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2763'
 ht-degree: 6%
@@ -100,8 +102,8 @@ A exibição padrão desse relatório contém as seguintes colunas:
    <td> <p><span style="font-weight: normal;">O nome do campo afetado. Dependendo de como você configura o relatório, esta coluna pode conter Status, ID do Proprietário, Nome da Tarefa, Data de Conclusão Planejada ou outros campos.</span> </p> <p><span style="font-weight: normal;">Quando</span> <strong>DE</strong>:<span style="font-weight: normal;"> é exibido nesta coluna, indica que o campo listado é um campo personalizado.</span></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Alterar Tipo</strong> </td> 
-   <td> <p>O tipo de alteração feita no campo afetado. Dependendo das regras de filtro configuradas e das ações realizadas pelos usuários, pode aparecer o seguinte nesse campo:</p> 
+   <td><strong>Tipo de alteração</strong> </td> 
+   <td> <p>O tipo de alteração feita no campo afetado. Dependendo das regras de filtro configuradas e das ações executadas pelos usuários, o seguinte poderá aparecer neste campo:</p> 
     <ul> 
      <li> <p>Add</p> </li> 
      <li> <p>Auditoria</p> </li> 
@@ -112,7 +114,7 @@ A exibição padrão desse relatório contém as seguintes colunas:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Principais ObjCode</strong> </td> 
+   <td><strong>Top ObjCode</strong> </td> 
    <td> <p>O objeto pai mais alto na hierarquia.</p> </td> 
   </tr> 
   <tr> 
@@ -120,7 +122,7 @@ A exibição padrão desse relatório contém as seguintes colunas:
    <td> <p>O tipo de objeto que foi alterado.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Data da Entrada</strong> </td> 
+   <td><strong>Data de entrada</strong> </td> 
    <td> <p>A data em que o campo foi alterado.</p> </td> 
   </tr> 
   <tr> 
@@ -206,19 +208,19 @@ Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desem
         <li> <p><strong>PLN</strong>: Planejamento</p> </li> 
         <li> <p><strong>CPL</strong>: Concluído</p> </li> 
         <li> <p><strong>REQ</strong>: Solicitado</p> </li> 
-        <li> <p><strong>APR</strong>: Approved</p> </li> 
-        <li> <p><strong>REJ</strong>: Rejected</p> </li> 
-        <li> <p><strong>IDA</strong>: Idea</p> </li> 
-       </ul> <p>Se sua organização configurou status personalizados, outras chaves de status podem ser exibidas nesta coluna. Para saber qual status personalizado está relacionado a uma chave de status, entre em contato com o administrador do Workfront ou o administrador de grupo.</p> </td> 
+        <li> <p><strong>ABR</strong>: aprovado</p> </li> 
+        <li> <p><strong>REJ</strong>: rejeitado</p> </li> 
+        <li> <p><strong>IDA</strong>: ideia</p> </li> 
+       </ul> <p>Se sua organização tiver configurado status personalizados, outras chaves de status poderão ser exibidas nessa coluna. Para saber qual status personalizado está relacionado a uma chave de status, entre em contato com o administrador do Workfront ou com o administrador de grupo.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Novo Valor de Texto</p> </td> 
-      <td> <p>The key for the updated status.</p> </td> 
+      <td> <p>A chave para o status atualizado.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Código de objeto principal
 </p> </td> 
-      <td> <p>The highest parent object for the field that had the status change.</p> </td> 
+      <td> <p>O objeto pai mais alto do campo que teve a alteração de status.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Escopo</p> </td> 
@@ -235,19 +237,19 @@ Essas informações podem ser usadas para ajudar na auditoria e ilustrar o desem
     </tbody> 
    </table>
 
-   Para obter mais informações sobre como adicionar colunas, consulte [Visão geral dos modos de exibição no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Para obter mais informações sobre como adicionar colunas, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 1. Na guia **Filtros**, clique em **Adicionar uma Regra de Filtro** e adicione a regra de filtro **Nome do Campo** > **Igual** > **status**.
 
-   ![Filtro de status de entrada de diário](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![Filtro de status de entrada do diário](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
-   >Para relatar alterações de condição, adicione a regra de filtro **Nome do Campo** > **Igual** > **Condição**.
+   >Para relatar alterações de condição, você pode adicionar a regra de filtro **Nome do Campo** > **Igual** > **Condição**.
 
-   Para obter mais informações sobre como adicionar filtros, consulte [Visão geral sobre filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Para obter mais informações sobre como adicionar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. (Opcional) Para reduzir o foco do relatório e os tempos de carregamento, adicione um prompt.
+1. (Opcional) Para restringir o foco do relatório e reduzir os tempos de carregamento, adicione um prompt.
 
    Ou
 
@@ -323,12 +325,14 @@ Para ver quando uma tarefa ou problema foi excluído:
 1. Na guia **Filtros**, clique em **Adicionar regra de filtro** e adicione os seguintes filtros:
 
    * **Tipo de Alteração** > **Igual** > **Excluir**
-   * **ID do projeto** > **Igual** > **&lt; nome do projeto >**
+   * **ID do Projeto** > **Igual** > **&lt; nome do projeto >**
 
-     <!--WRITER check link; this png file has spaces
-     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     <!--
+     WRITER check link; this png file has spaces
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)
+     -->
 
-   Para obter mais informações sobre como adicionar filtros, consulte [Visão geral sobre filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Para obter mais informações sobre como adicionar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Opcional) Para restringir o foco do relatório e reduzir os tempos de carregamento, adicione um prompt.
 
@@ -338,34 +342,34 @@ Para ver quando uma tarefa ou problema foi excluído:
 
    >[!IMPORTANT]
    >
-   >Creating a filter rule that uses the modifier **Contains** can actually increase load times. For this reason, we recommend using a different modifier like **Equal** when possible to filter for a specific project or higher-level object ID.
+   >Criar uma regra de filtro que use o modificador **Contains** pode realmente aumentar os tempos de carregamento. Por isso, recomendamos usar um modificador diferente como **Equal** quando possível para filtrar por um projeto específico ou ID de objeto de nível superior.
 
-   To learn how to add a prompt, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Para saber como adicionar um prompt, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 1. (Opcional) Na guia **Agrupamentos**, clique em **Aplicar um Agrupamento Existente** e selecione **Projeto**.
 
-   Para obter mais informações sobre como adicionar agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Para obter mais informações sobre como adicionar agrupamentos, consulte [Visão geral dos agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Clique em **Salvar + Fechar**.
 
    O novo relatório é carregado.
 
-## See how custom fields changed over the course of a project&#39;s life cycle {#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle}
+## Veja como os campos personalizados foram alterados durante o ciclo de vida de um projeto {#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle}
 
-You can track important field changes over the course of the project. To do this, you can set up the Journal Entry to track:
+É possível rastrear alterações importantes de campo ao longo do projeto. Para fazer isso, você pode configurar o Lançamento para rastrear:
 
-* If certain custom fields were added, updated, or edited
-* When these changes happened
+* Se determinados campos personalizados foram adicionados, atualizados ou editados
+* Quando essas mudanças ocorreram
 * Quem fez as alterações
 
-Para ver como os campos personalizados mudam ao longo do ciclo de vida de um projeto:
+Para ver como os campos personalizados foram alterados durante o ciclo de vida de um projeto:
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
-1. Clique em **Novo Relatório** e selecione **Entrada de Diário**.
+1. Clique em **Novo Relatório** e selecione **Entrada do Diário**.
 
-   ![Selecionar entrada de diário](assets/nwe-select-journal-entry-350x273.png)
+   ![Selecionar entrada do diário](assets/nwe-select-journal-entry-350x273.png)
 
-   O Construtor de Relatórios é carregado.
+   O Report Builder é carregado.
 
 1. Na guia **Colunas (Exibição)**, verifique se você tem ou clique em **Adicionar Coluna** para adicionar as seguintes colunas:
 
@@ -417,12 +421,12 @@ Para ver como os campos personalizados mudam ao longo do ciclo de vida de um pro
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Novo Valor de Texto</p> </td> 
-      <td> <p>O valor de texto atual no campo personalizado.</p> <p>Se o campo personalizado for um campo de preenchimento automático, a coluna <strong>Novo valor de texto</strong> exibirá a ID do objeto.</p> </td> 
+      <td> <p>O valor do texto atual no campo personalizado.</p> <p>Se o campo personalizado for um campo de digitação antecipada, a coluna <strong>Novo valor de texto</strong> exibirá a ID do objeto.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Para obter mais informações sobre como adicionar colunas, consulte [Visão geral dos modos de exibição no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Para obter mais informações sobre como adicionar colunas, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 1. Na guia **Filtros**, clique em **Adicionar uma Regra de Filtro** e adicione os seguintes filtros:
 
@@ -432,11 +436,11 @@ Para ver como os campos personalizados mudam ao longo do ciclo de vida de um pro
      >
      >Para limitar este relatório a campos personalizados específicos, adicione a regra de filtro **Nome do Campo de Entrada do Diário** > **Igual** > **&lt; nome do campo personalizado>**.
 
-   * **ID do projeto** > **Igual** > **&lt; projeto >**.
+   * **ID do Projeto** > **Igual** > **&lt; projeto >**.
 
-   ![Filtro de alterações de formulário personalizado](assets/qs-custom-form-changes-filter-350x92.png)
+   ![Filtro de alterações em formulários personalizados](assets/qs-custom-form-changes-filter-350x92.png)
 
-   Para obter mais informações sobre como adicionar filtros, consulte [Visão geral sobre filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Para obter mais informações sobre como adicionar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Opcional) Para restringir o foco do relatório e reduzir os tempos de carregamento, adicione um prompt.
 
@@ -452,7 +456,7 @@ Para ver como os campos personalizados mudam ao longo do ciclo de vida de um pro
 
 1. Na guia **Agrupamentos**, clique em **Aplicar um Agrupamento Existente** e selecione **Projeto**.
 
-   Para obter mais informações sobre como adicionar agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Para obter mais informações sobre como adicionar agrupamentos, consulte [Visão geral dos agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Clique em **Salvar + Fechar**.
 
@@ -460,16 +464,16 @@ Para ver como os campos personalizados mudam ao longo do ciclo de vida de um pro
 
 ## Veja como a Data de conclusão planejada mudou ao longo do ciclo de vida de um projeto {#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle}
 
-You can set up the Journal Entry report to show how often the Planned Completion Date changes over the course of a project&#39;s life.
+Você pode configurar o relatório Lançamento para mostrar a frequência com que a Data de Conclusão Planejada muda ao longo da vida útil de um projeto.
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
-1. Click **New Report**, then select **Journal Entry**.
+1. Clique em **Novo Relatório** e selecione **Entrada do Diário**.
 
-   ![Selecionar entrada de diário](assets/nwe-select-journal-entry-350x273.png)
+   ![Selecionar entrada do diário](assets/nwe-select-journal-entry-350x273.png)
 
-   O Construtor de Relatórios é carregado.
+   O Report Builder é carregado.
 
-1. In the **Columns (View)** tab, add the following columns:
+1. Na guia **Colunas (Modo de Exibição)**, adicione as seguintes colunas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -483,7 +487,7 @@ You can set up the Journal Entry report to show how often the Planned Completion
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Nome do Campo</p> </td> 
-      <td> <p>The name of the affected field.</p> <p><span style="font-weight: normal;">When</span> <strong>DE</strong>:<span style="font-weight: normal;"> displays in this column, it indicates that the field listed is a custom field.</span></p> </td> 
+      <td> <p>O nome do campo afetado.</p> <p><span style="font-weight: normal;">Quando</span> <strong>DE</strong>:<span style="font-weight: normal;"> é exibido nesta coluna, indica que o campo listado é um campo personalizado.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Trocar Tipo</p> </td> 
@@ -491,20 +495,20 @@ You can set up the Journal Entry report to show how often the Planned Completion
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Editado por nome</p> </td> 
-      <td> <p>O nome do usuário que atualizou a Data de Conclusão Planejada do projeto.</p> </td> 
+      <td> <p>O nome do usuário que atualizou a Data de conclusão planejada do projeto.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Data de Entrada</p> </td> 
-      <td> <p>A data em que a Data de Conclusão Planejada do projeto foi alterada.</p> <p>Você deve classificar por este campo em ordem decrescente.</p> </td> 
+      <td> <p>A data em que a Data de conclusão planejada do projeto foi alterada.</p> <p>Você deve classificar por esse campo em ordem decrescente.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Código de objeto principal
 </p> </td> 
-      <td> <p>O objeto pai mais alto do campo que teve a alteração da Data de Conclusão Planejada.</p> </td> 
+      <td> <p>O objeto pai mais alto do campo que teve a data de conclusão planejada alterada.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Escopo</p> </td> 
-      <td> <p>O objeto que teve a Data de Conclusão Planejada alterada.</p> </td> 
+      <td> <p>O objeto com a Data de conclusão planejada foi alterado.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Valor Velho de Data</p> </td> 
@@ -538,23 +542,23 @@ You can set up the Journal Entry report to show how often the Planned Completion
 
    ![Filtro de alteração da data de conclusão planejada](assets/qs-planned-completion-date-change-filter-350x91.png)
 
-   Para obter mais informações sobre como adicionar filtros, consulte [Visão geral sobre filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Para obter mais informações sobre como adicionar filtros, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. (Opcional) Para reduzir o foco do relatório e os tempos de carregamento, adicione um prompt.
+1. (Opcional) Para restringir o foco do relatório e reduzir os tempos de carregamento, adicione um prompt.
 
    Ou
 
-   Crie regras de filtro adicionais para incluir projetos, tarefas ou ocorrências específicas.
+   Crie regras de filtro adicionais para incluir projetos, tarefas ou problemas específicos.
 
    >[!IMPORTANT]
    >
-   >A criação de uma regra de filtro que usa o modificador **Contém** pode realmente aumentar os tempos de carga. Por esse motivo, recomendamos usar um modificador diferente como **Igual** quando possível para filtrar um projeto específico ou ID de objeto de nível superior.
+   >Criar uma regra de filtro que use o modificador **Contains** pode realmente aumentar os tempos de carregamento. Por isso, recomendamos usar um modificador diferente como **Equal** quando possível para filtrar por um projeto específico ou ID de objeto de nível superior.
 
    Para saber como adicionar um prompt, consulte [Adicionar um prompt a um relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 1. Na guia **Agrupamentos**, clique em **Aplicar um Agrupamento Existente** e selecione **Projeto**.
 
-   Para obter mais informações sobre como adicionar agrupamentos, consulte [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Para obter mais informações sobre como adicionar agrupamentos, consulte [Visão geral dos agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Clique em **Salvar + Fechar**.
 
@@ -567,11 +571,11 @@ Você pode configurar o relatório Lançamento para mostrar quantas vezes o prop
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Relatórios**.
 1. Clique em **Novo Relatório** e selecione **Entrada do Diário**.
 
-   ![Selecionar entrada de diário](assets/nwe-select-journal-entry-350x273.png)
+   ![Selecionar entrada do diário](assets/nwe-select-journal-entry-350x273.png)
 
-   O Construtor de Relatórios é carregado.
+   O Report Builder é carregado.
 
-1. Na guia **Colunas (Exibição)**, adicione as seguintes colunas:
+1. Na guia **Colunas (Modo de Exibição)**, adicione as seguintes colunas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -585,7 +589,7 @@ Você pode configurar o relatório Lançamento para mostrar quantas vezes o prop
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Nome do Campo</p> </td> 
-      <td>The name of the affected field. The <strong>ownerID</strong> displays in this column.</td> 
+      <td>O nome do campo afetado. O <strong>ownerID</strong> é exibido nesta coluna.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Trocar Tipo</p> </td> 
@@ -594,15 +598,15 @@ Você pode configurar o relatório Lançamento para mostrar quantas vezes o prop
      <tr> 
       <td> <p style="font-weight: bold;">Código de objeto principal
 </p> </td> 
-      <td> <p>O objeto pai mais alto do projeto que teve o proprietário do projeto atualizado.</p> </td> 
+      <td> <p>O objeto pai mais alto do projeto que teve o proprietário atualizado.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Data de Entrada</p> </td> 
-      <td>The date that the project owner was changed.<br>You should sort by this field in descending order.</td> 
+      <td>A data em que o proprietário do projeto foi alterado.<br>Você deve classificar por este campo em ordem decrescente.</td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Edited by Name</p> </td> 
-      <td> <p>The name of the user that updated the project owner.</p> </td> 
+      <td> <p style="font-weight: bold;">Editado por nome</p> </td> 
+      <td> <p>O nome do usuário que atualizou o proprietário do projeto.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Informação Adicional 1</p> </td> 
@@ -619,11 +623,11 @@ Você pode configurar o relatório Lançamento para mostrar quantas vezes o prop
     </tbody> 
    </table>
 
-   Para obter mais informações sobre como adicionar colunas, consulte [Visão geral dos modos de exibição no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Para obter mais informações sobre como adicionar colunas, consulte [Visão geral das exibições no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 1. Na guia **Filtros**, clique em **Adicionar regra de filtro** e adicione o seguinte:
 
-   * **Nome do campo** > **Igual** > **ownerID**
+   * **Nome do Campo** > **Igual** > **IDdoProprietário**
    * **ID do Projeto** > **Igual** > **&lt; nome do projeto >**.
 
    ![Filtro de alteração de proprietário](assets/qs-owner-changes-filter-350x94.png)

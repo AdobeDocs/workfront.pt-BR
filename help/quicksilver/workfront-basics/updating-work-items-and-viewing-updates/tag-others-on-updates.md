@@ -6,14 +6,16 @@ description: Ao fornecer comentários de atualização em um objeto do Adobe Wor
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Marcar outros usuários em atualizações
+# Marcar outras pessoas nas atualizações
 
 <!--Audited: April, 2024-->
 
@@ -69,8 +71,8 @@ Em vez de incluir esses usuários no objeto atribuindo-os a ele ou fazendo com q
    <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
    <td> <p>Para problemas e documentos:</p>
 
-<ul><li><p>Colaborador ou superior</p></li>
-   <li><p>Solicitação ou superior</p></li></ul>
+<ul><li><p>Colaborador ou posterior</p></li>
+   <li><p>Solicitação ou posterior</p></li></ul>
 
 <p>Para todos os outros objetos:</p>
    <ul><li><p>Leve ou superior</p></li>
@@ -92,7 +94,8 @@ Para obter informações, consulte [Requisitos de acesso para a documentação d
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -115,9 +118,10 @@ Para obter informações, consulte [Requisitos de acesso para a documentação d
    <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Marcar outros usuários em atualizações
+## Marcar outras pessoas nas atualizações
 
 Você pode marcar outras pessoas em atualizações das seguintes maneiras:
 

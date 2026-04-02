@@ -6,7 +6,9 @@ description: As informações nesta página se referem à funcionalidade dispon�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 9%
@@ -17,7 +19,7 @@ ht-degree: 9%
 
 <!-- Audited: 11/2024 -->
 
-As informações nesta página se referem à funcionalidade que está disponível apenas nos ambientes de Pré-visualização e de Sandbox de Atualização Personalizada. Essa funcionalidade não está disponível no ambiente de produção.
+As informações nesta página se referem à funcionalidade disponível apenas nos ambientes Pré-visualização e Atualização personalizada da sandbox. Essa funcionalidade não está disponível no ambiente de Produção do.
 
 Você pode configurar as opções de Entrega de relatórios em qualquer ambiente de teste do Adobe Workfront.
 
@@ -69,13 +71,13 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Agendar relatórios no ambiente de Visualização
+## Agendar relatórios no ambiente de Pré-visualização
 
-* [Agendar relatórios no ambiente de Visualização](#schedule-reports-in-the-preview-environment)
+* [Agendar relatórios no ambiente de Pré-visualização](#schedule-reports-in-the-preview-environment)
 
-### Agendar relatórios no ambiente de Visualização
+### Agendar relatórios no ambiente de Pré-visualização
 
-Se um relatório entregue é produzido ou não no ambiente de Visualização depende se **Receber emails deste ambiente de teste** está habilitado ou não.
+Se um relatório entregue é produzido ou não no ambiente de Pré-visualização depende se **Receber emails deste ambiente de teste** está habilitado ou não.
 
 Para obter informações sobre como habilitar emails do ambiente de sandbox, consulte [Habilitar a entrega de emails do ambiente de sandbox de visualização](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
@@ -90,11 +92,11 @@ Quando você agenda um relatório para entrega no ambiente de Pré-visualizaçã
 
 ## Agendar relatórios no ambiente de sandbox de atualização personalizada
 
-O fato de um relatório entregue ser ou não produzido na Sandbox de atualização personalizada depende de a configuração Receber e-mails deste ambiente de teste estar ativada ou não.
+Se um relatório entregue é produzido ou não na sandbox de atualização personalizada depende se a configuração Receber emails dessa configuração de ambiente de teste está ativada ou não.
 
-Para obter informações sobre como habilitar emails do ambiente de Visualização, consulte a seção [Exibir e modificar suas configurações de notificação por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) no artigo [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Para obter informações sobre como habilitar emails do ambiente de Visualização, consulte a seção [Exibir e modificar configurações de notificação por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) no artigo [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![Receber emails da opção de área restrita](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Receber emails da opção de sandbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 O agendamento de relatórios para entrega no ambiente Personalizado de atualização da sandbox é idêntico ao agendamento de relatórios no ambiente de Produção. Para obter informações sobre como agendar um relatório para entrega, consulte [Visão geral da entrega de relatórios](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
@@ -107,4 +109,4 @@ Ao agendar um relatório para entrega no ambiente Personalizado de atualização
 
 Os usuários externos não recebem relatórios enviados dos ambientes de teste do Workfront, nem recebem uma notificação por email.
 
-Os usuários externos só receberão relatórios por e-mail se forem entregues de um ambiente de produção.
+Os usuários externos só receberão relatórios por email se forem entregues de um ambiente de Produção.

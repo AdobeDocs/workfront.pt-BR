@@ -6,10 +6,12 @@ description: É possível editar informações sobre programas criados por você
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1109'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -34,7 +36,7 @@ Você pode editar um programa na página do programa ou editar um ou vários pro
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>[!UICONTROL Padrão]</p>
-   <p>[!UICONTROL Plano]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -150,17 +152,19 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <td> <p>Comece digitando o nome de um usuário que deseja indicar como gerente de programa e, em seguida, selecione-o quando ele aparecer na lista. Essa é a pessoa que pode supervisionar o trabalho definido nos projetos do programa. </p> <p><b><p>IMPORTANTE</b></p> <p>Quando você designa alguém como Gerente de programa, ele automaticamente obtém permissões do [!UICONTROL Manager] para o programa e os projetos no programa. </p> <p><b>DICA</b></p> <p>Você pode atualizar rapidamente o gerenciador de programas no cabeçalho do programa. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Grupo]</td> 
+      <td role="rowheader">[!UICONTROL Group]</td> 
       <td> <p>Adicione o nome de um único grupo se ele estiver associado ao programa ou tiver responsabilidade de concluí-lo. </p> <p><b>DICA</b></p>  <p>Ao acessar o campo [!UICONTROL Group] na página [!UICONTROL Program Details], faça o seguinte para verificar se está selecionando o grupo correto: </p> <p>Passe o mouse sobre o nome do grupo e clique no ícone [!UICONTROL information] <img src="assets/info-icon.png"> ao lado dele. Uma dica de ferramenta que lista informações sobre o grupo, como a hierarquia de grupos acima dele e seus administradores.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Esta opção não está disponível na caixa [!UICONTROL Editar Programa]. </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   <!--this was removed from the unshimmed version - asking on the epic:
+   <!--
+   this was removed from the unshimmed version - asking on the epic:
    <tr> 
       <td role="rowheader">[!UICONTROL Is Active]</td> 
       <td> <p> Select this checkbox if you want the program to be active. Other users can find active programs and attach them to projects or add them to portfolios. Inactive programs cannot be attached to projects or portfolios. This is enabled by default.</p> </td> 
-     </tr> -->
+     </tr>
+     -->
 
 
 1. Clique em **[!UICONTROL Salvar]** ou continue editando as seções a seguir.

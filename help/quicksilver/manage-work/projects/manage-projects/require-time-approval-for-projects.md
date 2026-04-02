@@ -6,14 +6,16 @@ description: Você pode configurar o projeto para exigir que as horas registrada
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Exigir que o tempo seja aprovado para um projeto
+# É necessário tempo para ser aprovado para um projeto
 
 <!--audited: 08/2024-->
 
@@ -77,7 +79,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -122,9 +125,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Exigir que o tempo seja aprovado para um projeto
+## É necessário tempo para ser aprovado para um projeto
 
 Para exigir a aprovação do gerente de projeto para horas no projeto:
 

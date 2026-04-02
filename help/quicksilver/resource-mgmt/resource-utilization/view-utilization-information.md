@@ -6,7 +6,9 @@ description: Você pode exibir a utilização de seus recursos no relatório de 
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '7099'
 ht-degree: 1%
@@ -44,7 +46,7 @@ Você pode exibir a utilização de seus recursos no relatório de Utilização.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,7 +59,7 @@ Você pode exibir a utilização de seus recursos no relatório de Utilização.
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -314,13 +316,13 @@ Para obter informações sobre os campos específicos e como a Workfront os calc
   <tr> 
    <td scope="col"><strong>Receita Planejada</strong> </td> 
    <td scope="col"> <p>Receita Planejada no relatório de Utilização é a receita associada às Horas Planejadas alocadas aos recursos atribuídos às tarefas no projeto.</p> <p>O Workfront calcula a Receita Planejada do projeto para o relatório de Utilização usando a seguinte fórmula:</p> <p><code>Project Planned Revenue = SUM (All Tasks Planned Revenue)</code> </p> 
-   <p><b>OBSERVAÇÃO</b>
+   <p><b> OBSERVAÇÃO </b>
    <p>A Receita Planejada do projeto exibida no relatório de Utilização é diferente da Receita Planejada exibida na área Detalhes do Projeto e nos relatórios do projeto. </p> <p>A Receita planejada na área Detalhes do projeto reflete a receita da tarefa, bem como a Receita fixa do projeto. A Receita Planejada no Relatório de Utilização exibe a Receita Planejada associada somente às tarefas no projeto. </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p>Se o projeto tiver uma tarefa com 10 horas, atribuída a um Consultor com uma taxa horária de US$ 20, e o projeto tiver uma Receita Fixa de US$ 100, o relatório de Utilização exibirá US$ 200 para a Receita Planejada (a Receita Planejada associada às horas na tarefa). A seção Detalhes do Projeto exibe US$ 300 (a Receita Planejada da tarefa e a Receita Fixa do projeto). </p> 
      </div> <p>Para obter mais informações sobre a tarefa e a Receita Planejada do projeto fora do relatório de Utilização, consulte <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Visão Geral de Faturamento e Receita</a>.</p> </p> <p>A maneira como o relatório de Utilização calcula e exibe a Receita Planejada dos projetos incluídos leva em consideração o Tipo de Receita definido na tarefa. </p> <p>Dependendo do Tipo de Receita de cada tarefa no projeto, os seguintes cenários existem: </p> <p><strong>Receita Fixa:</strong> Independentemente das atribuições de tarefa, a receita na tarefa é sempre calculada usando o Valor Fixo especificado na tarefa.</p> <p><b>IMPORTANTE</b>
 
-Ao contrário de outras áreas do Workfront, o relatório de Utilização calcula a Receita Planejada para tarefas de Receita Fixa dividindo a Receita Fixa igualmente pelo número de Horas Planejadas na tarefa. </p> <p>Por exemplo, uma tarefa tem uma receita de US$ 200. Se houver 4 horas planejadas na tarefa, cada hora será de US$ 50. Ele é distribuído no nível de usuário e função. Essa distribuição é exclusiva do relatório de Utilização.</p> <p><b>OBSERVAÇÃO</b>
+Ao contrário de outras áreas do Workfront, o relatório de Utilização calcula a Receita Planejada para tarefas de Receita Fixa dividindo a Receita Fixa igualmente pelo número de Horas Planejadas na tarefa. </p> <p>Por exemplo, uma tarefa tem uma receita de US$ 200. Se houver 4 horas planejadas na tarefa, cada hora será de US$ 50. Ele é distribuído no nível de usuário e função. Essa distribuição é exclusiva do relatório de Utilização.</p> <p><b> OBSERVAÇÃO </b>
 
 Se você tiver uma tarefa de Receita Fixa e não houver Horas Planejadas para a tarefa, a Receita não será exibida no Relatório de Utilização porque não há como distribuí-la para as horas. Se você tiver Horas Planejadas em tarefas com Receita Fixa e nenhuma atribuição, a Receita será exibida como Receita Não Alocada. </p> <p><strong>Função por hora:</strong> a receita na tarefa é calculada usando a taxa de cobrança definida para uma função específica, multiplicada pelo número de Horas planejadas associadas a essa função. O Workfront usa a seguinte fórmula:</p> <p><code>Receita Planejada por Hora da Função = SUM(Horas Planejadas da função em todas as tarefas) * Taxa de Cobrança da Função</code></p><p><b>OBSERVAÇÃO:</b> a taxa horária de cobrança na fórmula considera quaisquer alterações de data de efetivação da taxa.</p>   <p><strong>Horas por Usuário:</strong> a receita da tarefa é calculada usando a taxa de cobrança definida para um usuário específico, multiplicada pelo número de Horas Planejadas associadas a esse usuário. O Workfront usa a seguinte fórmula:</p> <p><code>Receita planejada por hora do usuário = SUM(Horas planejadas de usuários em todas as tarefas) * Taxa de cobrança do usuário</code> </p> <p><b>OBSERVAÇÃO:</b> a taxa horária de cobrança na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> <p><b>Horas por Valor da Hora de Função ou Horas de Usuário mais Taxa Fixa</b> </p> <p><b>IMPORTANTE</b>
 
@@ -367,11 +369,13 @@ Ao contrário de outras áreas do Workfront, se a Receita planejada exceder o li
  </tbody> 
 </table>
 
-<!--Note from the table about Actual revenue: 
+<!--
+Note from the table about Actual revenue: 
      <p>Actual Revenue is displayed in the Utilization report only after the task is marked as Complete or Done (or a status that equates with Complete).</p>
     -->
 
-<!--More notes from the table: 
+<!--
+More notes from the table: 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the note below is duplicated in this article: /Content/Manage work/Projects/Project Finances/billing-and-revenue-overview.html and in the glossary)</p>
    -->
 
@@ -426,7 +430,8 @@ Se a Receita real for igual a 0, a Margem será exibida como 0. </p> </td>
  </tbody> 
 </table>
 
-<!--Note from the table from above "Function" header in the middle of the table; right after the "Planned Revenue"/"Margin" definition: 
+<!--
+Note from the table from above "Function" header in the middle of the table; right after the "Planned Revenue"/"Margin" definition: 
      <p scope="col" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This needs to be either split in two tables of formatted differently)</p>
     -->
 

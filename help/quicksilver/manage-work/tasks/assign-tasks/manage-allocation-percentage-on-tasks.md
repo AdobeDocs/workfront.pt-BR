@@ -6,10 +6,12 @@ description: A porcentagem de alocação representa a quantidade de tempo que um
 author: Lisa
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
@@ -17,13 +19,15 @@ ht-degree: 1%
 
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 
 A porcentagem de alocação representa a quantidade de tempo que um recurso atribuído deve trabalhar em uma tarefa em um dia. É a porcentagem de um dia útil (de acordo com o agendamento do usuário ou projeto) em que um recurso é alocado durante toda a duração da tarefa.
@@ -36,7 +40,7 @@ Você pode modificar a porcentagem de alocação quando faz atribuições avanç
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,8 +52,8 @@ Você pode modificar a porcentagem de alocação quando faz atribuições avanç
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
-   <p>Trabalhar ou superior</p>
+   <td> <p>Padrão</p>
+   <p>Trabalho ou maior</p>
    </td> 
   </tr> 
   <tr> 

@@ -7,14 +7,16 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
-# Modificar atribuições de vários usuários em uma lista de tarefas
+# Modificar várias atribuições de usuário em uma lista de tarefas
 
 <!--Audited: 11/2025-->
 
@@ -24,13 +26,15 @@ ht-degree: 3%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).  
 
-</div>-->
+</div>
+-->
 
 Ao gerenciar atribuições de tarefas, você pode modificá-las simultaneamente para várias tarefas de uma vez usando o recurso de edição em massa em uma lista de tarefas.
 
@@ -176,7 +180,8 @@ When assigning users to work, their availability according to their schedules af
 
    1. Clique em **Salvar**.
 
-<!-- temporary content - for Assignments redesign:
+<!--
+ temporary content - for Assignments redesign:
 
 Editing assignments on tasks differs depending on which environment you choose. 
 
@@ -261,7 +266,8 @@ Editing assignments on tasks differs depending on which environment you choose.
 
 1. <span class="preview">(Conditional) If you are using the Preview environment to assign tasks, the **Edit Tasks** box opens. Do the following in the Preview environment: </span>
 
-   <div class="preview">-->
+   <div class="preview">
+   -->
 
 
 

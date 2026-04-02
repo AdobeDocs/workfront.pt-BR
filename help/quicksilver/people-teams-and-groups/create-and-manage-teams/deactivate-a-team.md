@@ -6,7 +6,9 @@ description: Você pode desativar as equipes que não usam mais enquanto retém 
 author: Courtney
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 10%
@@ -24,7 +26,7 @@ Você pode desativar as equipes que não usam mais enquanto retém os dados hist
   <tr> 
    <td> 
     <ul> 
-     <li> <p>Campos de preenchimento automático em formulários personalizados</p> </li> 
+     <li> <p>Campos de digitação antecipada em formulários personalizados</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Caixa de diálogo de compartilhamento para objetos</p> </li> 
@@ -33,14 +35,14 @@ Você pode desativar as equipes que não usam mais enquanto retém os dados hist
    <td> 
     <ul> 
      <li> <p>Menu suspenso de seleção principal na área [!UICONTROL Teams]</p> </li> 
-     <li> <p>Tipo [!UICONTROL Assignments]</p> </li> 
-     <li> <p>Caixa de diálogo do quadro [!UICONTROL Add to Kanban] em um projeto</p> </li> 
+     <li> <p>Digitação antecipada de [!UICONTROL Atribuições]</p> </li> 
+     <li> <p>Caixa de diálogo do quadro [!UICONTROL Adicionar ao Kanban] em um projeto</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-As equipes desativadas não aparecem quando você pesquisa uma equipe, mas ainda serão exibidas na [!UICONTROL Equipe Inicial] e em Outras Equipes se o usuário tiver sido atribuído à equipe antes da desativação.
+As equipes desativadas não aparecem ao procurar uma equipe, mas ainda serão exibidas na [!UICONTROL Equipe interna] e em Outras equipes se o usuário tiver sido atribuído à equipe antes da desativação.
 
 ## Requisitos de acesso
 
@@ -62,8 +64,8 @@ As equipes desativadas não aparecem quando você pesquisa uma equipe, mas ainda
   </tr> 
   <tr>
    <td>Configurações de nível de acesso</td>
-   <td><p>Nenhuma configuração é necessária para desativar um grupo.</p>
-   <p>Para excluir um grupo, você precisa ser um administrador de sistema.</p></td>
+   <td><p>Não são necessárias configurações para desativar um grupo.</p>
+   <p>É necessário ser administrador do sistema para excluir uma equipe.</p></td>
   </tr>
  </tbody> 
 </table>
@@ -80,11 +82,11 @@ Qualquer trabalho atribuído à equipe antes da desativação permanece atribuí
 >
 >É possível criar um relatório para filtrar qualquer tarefa ou problema que tenha a equipe desativada atribuída.
 
-Ao usar filas de solicitações, se você desativar uma equipe atribuída como a equipe padrão em uma regra de roteamento, a equipe permanecerá e as solicitações ainda serão roteadas para a equipe desativada. Recomendamos atualizar as regras de roteamento com equipes ativas antes de desativar a equipe.
+Ao usar filas de solicitações, se você desativar uma equipe atribuída como a equipe padrão em uma regra de roteamento, a equipe permanecerá e as solicitações ainda serão encaminhadas para a equipe desativada. Recomendamos atualizar as regras de roteamento com equipes ativas antes de desativar a equipe.
 
 {{step1-to-team}}
 
-1. Clique no ícone **[!DNL Switch team]** e, em seguida, selecione uma nova equipe no menu suspenso ou pesquise uma equipe na barra de pesquisa.
+1. Clique no ícone **[!DNL Switch team]** e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 
    ![](assets/edit-team-settings.png)
@@ -92,21 +94,21 @@ Ao usar filas de solicitações, se você desativar uma equipe atribuída como a
 1. Desmarque a caixa de seleção **[!UICONTROL Está ativo]** nas configurações da equipe.
 1. Clique em **[!UICONTROL Salvar alterações]**.
 
-## Limitações conhecidas de desativação de um grupo
+## Limitações conhecidas da desativação de um grupo
 
-Os grupos desativados são exibidos nas seguintes áreas:
+As equipes desativadas são exibidas nas seguintes áreas:
 
 * O campo Proprietário em [!DNL Workfront Goals]. Isso requer uma licença adicional para [!DNL Adobe Workfront Goals]. Para obter mais informações, consulte [Introdução a [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
 ## Excluir uma equipe
 
-Somente um administrador de sistema pode excluir um grupo. Se você for um proprietário de equipe (mas não um administrador) e tentar excluir uma equipe, aparecerá uma mensagem de erro.
+Somente um administrador do sistema pode excluir uma equipe. Se você for um proprietário de equipe (mas não um administrador) e tentar excluir uma equipe, verá uma mensagem de erro.
 
-Para excluir um grupo:
+Para excluir uma equipe:
 
 {{step1-to-team}}
 
-1. Clique no ícone **[!DNL Switch team]** e, em seguida, selecione uma nova equipe no menu suspenso ou pesquise uma equipe na barra de pesquisa.
+1. Clique no ícone **[!DNL Switch team]** e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Excluir]**.
 
    ![](assets/edit-team-settings.png)

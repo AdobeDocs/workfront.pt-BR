@@ -6,7 +6,9 @@ description: Se várias taxas de câmbio tiverem sido configuradas no Adobe Work
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 6%
@@ -102,10 +104,10 @@ Para converter valores financeiros entre moedas ao trabalhar com relatórios:
 Quando você personaliza a moeda no nível do projeto e deseja exibir informações de todos os projetos no mesmo relatório, os seguintes cenários existem:
 
 * Se você criar um relatório que traz informações financeiras de dois ou mais projetos que têm moedas diferentes aplicadas, por padrão, o resumo de agrupamento reflete a moeda padrão do sistema, conforme selecionado pelo administrador do Workfront.
-* If you create a report for two or more projects that have the same currency, but they differ from that of the system&#39;s default currency, then the sums in the groupings are displayed using the system default currency.
-* If you create a report for two or more projects that have job role assignments associated with an currency override, Workfront converts the financial information from the job role&#39;s overridden currency rates to either the currency of the project (when you select Project&#39;s Original Currency in the view), or to any different currency you select when viewing the report. For information about overriding the currency of a job role, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* Se você criar um relatório para dois ou mais projetos que têm a mesma moeda, mas diferem da moeda padrão do sistema, as somas nos agrupamentos serão exibidas usando a moeda padrão do sistema.
+* Se você criar um relatório para dois ou mais projetos que têm atribuições de função de trabalho associadas a uma sobreposição de moeda, o Workfront converterá as informações financeiras das taxas de moeda sobrepostas da função de trabalho para a moeda do projeto (quando você selecionar Moeda Original do Projeto na exibição) ou para qualquer moeda diferente que você selecionar ao exibir o relatório. Para obter informações sobre como substituir a moeda de uma função de trabalho, consulte [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-To display two projects with custom currencies in a report:
+Para exibir dois projetos com moedas personalizadas em um relatório:
 
 1. Crie dois projetos com moedas diferentes aplicadas.
 
@@ -131,11 +133,11 @@ To display two projects with custom currencies in a report:
 
 1. Clique em **Salvar + Fechar**.
 
-   The total of the **Actual Cost** is displayed in the Grouping using the system default currency, regardless of the currency of the projects in the report.
+   O total do **Custo Efetivo** é exibido no Agrupamento usando a moeda padrão do sistema, independentemente da moeda dos projetos no relatório.
 
-   If the two projects have different currencies from one another, the system default currency also displays in the Grouping of the report.
+   Se os dois projetos tiverem moedas diferentes entre si, a moeda padrão do sistema também será exibida no Agrupamento do relatório.
 
-## Display the Project Currency in a report at the project level
+## Exibir a Moeda do Projeto em um relatório no nível do projeto
 
 Se um agrupamento for aplicado em uma lista de tarefas ou horas em um projeto, as somas no agrupamento serão exibidas na moeda do projeto.
 
@@ -170,10 +172,10 @@ Para editar em linha um campo financeiro em um relatório:
    >Se a moeda padrão não for exibida para uma lista em qualquer outra área, você poderá editar a Exibição para exibir a moeda padrão.\
    >Para obter informações sobre como alterar a moeda em uma Exibição, consulte a seção neste artigo [Aplicar valores financeiros a um relatório](#apply-financial-values-to-a-report).
 
-1. Click **Report Actions**, then select **Edit**.
+1. Clique em **Ações de Relatório** e selecione **Editar**.
 1. Clique em **Configurações do relatório**.
-1. Click the **Default Currency** drop-down, then select **Project&#39;s Original Currency**.
+1. Clique no menu suspenso **Moeda padrão** e selecione **Moeda original do projeto**.
 
-   ![Default currency](assets/qs-report-settings-default-currency-350x370.png)
+   ![Moeda padrão](assets/qs-report-settings-default-currency-350x370.png)
 
 1. Clique em **Concluído**.

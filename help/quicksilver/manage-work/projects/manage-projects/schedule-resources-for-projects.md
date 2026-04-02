@@ -6,14 +6,16 @@ description: Você pode agendar recursos para um único projeto para indicar a q
 author: Alina, Lisa
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 10%
+ht-degree: 25%
 
 ---
 
-# Agendar recursos para um projeto
+# Programar recursos para um projeto
 
 <!--Audited: 5/2025-->
 
@@ -57,7 +59,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 You must have the following access to perform the steps in this article:
 
@@ -88,9 +91,10 @@ You must have the following access to perform the steps in this article:
    <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Agendar recursos para um projeto
+## Programar recursos para um projeto
 
 Você pode usar o Balanceador de carga de trabalho para agendar recursos para um projeto.
 

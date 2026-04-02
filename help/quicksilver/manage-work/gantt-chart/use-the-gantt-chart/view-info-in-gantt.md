@@ -5,10 +5,12 @@ description: A tarefa e o projeto do Adobe Workfront [!UICONTROL Gráficos de Ga
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +22,7 @@ A tarefa e o projeto do Adobe Workfront [!UICONTROL Gráficos de Gantt] exibem i
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,11 +48,12 @@ A tarefa e o projeto do Adobe Workfront [!UICONTROL Gráficos de Gantt] exibem i
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -74,11 +77,12 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
    <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Localize o [!UICONTROL Gráfico de Gantt]
 
-Você pode localizar o Diagrama de Gantt da lista de tarefas e o Diagrama de Gantt da lista de projetos [!UICONTROL de várias áreas dentro do Workfront. &#x200B;] Para obter mais informações, consulte [Introdução ao [!UICONTROL Gráfico de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
+Você pode localizar o Diagrama de Gantt da lista de tarefas e o Diagrama de Gantt da lista de projetos [!UICONTROL de várias áreas dentro do Workfront. ] Para obter mais informações, consulte [Introdução ao [!UICONTROL Gráfico de Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
 
 ## Exibir tarefas no [!UICONTROL Caminho Crítico]
 
@@ -144,11 +148,11 @@ Você pode ajustar o período mostrado no [!UICONTROL Gráfico de Gantt] para ex
 
    * **[!UICONTROL Ajustar tudo]**: essa opção exibe a linha do tempo do projeto inteiro.
    * **[!UICONTROL Todos os Projetos]**: esta opção está disponível somente no gráfico de Gantt da Lista de Projetos.
-   * **[!UICONTROL Ano]**
+   * **[!UICONTROL Year]**
    * **[!UICONTROL Trimestre]**
-   * **[!UICONTROL Mês]**
+   * **[!UICONTROL Month]**
    * **[!UICONTROL Semana]**
-   * **[!UICONTROL Dia]**
+   * **[!UICONTROL Day]**
 
 1. (Opcional) Selecione um intervalo de tempo mais granular, como [!UICONTROL Semana] ou [!UICONTROL Dia], clique e arraste a barra de rolagem horizontal na parte inferior do [!UICONTROL Gráfico de Gantt] para mover da esquerda para a direita na linha do tempo do projeto.\
    Um instantâneo da linha do tempo de [!UICONTROL Gantt] é exibido para mostrar o projeto inteiro.

@@ -1,25 +1,27 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Adicionar histórias e problemas do Scrum Board
-description: Você pode criar rapidamente uma nova história ou edição diretamente do quadro Scrum, ou adicionar uma história ou edição existente do quadro.
+title: Adicionar histórias e problemas do quadro Scrum
+description: Você pode criar rapidamente uma nova história ou problema diretamente do quadro Scrum, ou adicionar uma história ou problema existente do quadro.
 author: Courtney
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 11%
 
 ---
 
-# Adicione histórias e problemas do quadro [!UICONTROL Rabiscar]
+# Adicione histórias e problemas do quadro [!UICONTROL Scrum]
 
-Você pode criar rapidamente uma nova história ou edição diretamente do quadro Scrum, ou adicionar uma história ou edição existente do quadro.
+Você pode criar rapidamente uma nova história ou problema diretamente do quadro Scrum, ou adicionar uma história ou problema existente do quadro.
 
 >[!NOTE]
 >
->O item de trabalho [!UICONTROL Data de Início Planejada] e [!UICONTROL Data de Conclusão Planejada] são afetados por uma configuração na página [!UICONTROL Editar Equipe]. Para obter mais informações, consulte a seção [[!UICONTROL Configurar] como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) no artigo [Configurar ESCRUM](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>O item de trabalho [!UICONTROL Data de Início Planejada] e [!UICONTROL Data de Conclusão Planejada] são afetados por uma configuração na página [!UICONTROL Editar Equipe]. Para obter informações, consulte a seção [[!UICONTROL Configurar] como as datas são aplicadas ao adicionar itens de trabalho a uma iteração](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) no artigo [Configurar Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Requisitos de acesso
 
@@ -34,14 +36,14 @@ Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td> <p>Novo: [!UICONTROL Standard]</p> 
+   <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
+   <td> <p>Novo: [!UICONTROL Padrão]</p> 
    ou
-   <p>Atual: [!UICONTROL Work] ou superior</p> </td> 
+   <p>Atual: [!UICONTROL Trabalho] ou superior</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>Acesso do [!UICONTROL Manage] ao projeto no qual a tarefa ou problema está </td> 
+   <td>Acesso de [!UICONTROL Manage] ao projeto em que a tarefa ou o problema está </td> 
   </tr>
  </tbody> 
 </table>
@@ -50,19 +52,19 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Criar uma nova história ou edição a partir do quadro Scrum
+## Crie uma nova história ou problema no quadro Scrum
 
 {{step1-to-team}}
 
-1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ![Ícone Alternar equipe](assets/switch-team-icon.png) e, em seguida, selecione uma nova equipe Scrum no menu suspenso ou pesquise uma equipe na barra de pesquisa.
-1. No painel esquerdo, selecione **[!UICONTROL Iterações]** para escolher uma iteração específica ou selecione **[!UICONTROL Iteração Atual]**.
-1. Clique em **[!UICONTROL Adicionar]** no lado direito do quadro do Scrum e selecione **[!UICONTROL Nova História]** ou **[!UICONTROL Novo Problema]**.
+1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone da equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa.
+1. No painel esquerdo, selecione **[!UICONTROL Iterações]** para escolher uma iteração específica, ou selecione **[!UICONTROL Iteração atual]**.
+1. Clique em **[!UICONTROL Adicionar]** no lado direito do quadro Scrum e selecione **[!UICONTROL Nova História]** ou **[!UICONTROL Novo Problema]**.
 1. Na caixa de diálogo **[!UICONTROL Novo]**, adicione as seguintes informações:
 
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Name]</strong></td>
-        <td>(Obrigatório) O nome da matéria ou ocorrência.</td>
+        <td>(Obrigatório) O nome da história ou problema.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Description]</strong></td>
@@ -74,18 +76,18 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
     </tr>
     <tr>
         <td><strong>[!UICONTROL Projeto Pai]</strong></td>
-        <td>(Obrigatório) O projeto em que a nova matéria ou ocorrência está armazenada. Comece a digitar o nome de um projeto e selecione-o quando for exibido na lista.</td>
+        <td>(Obrigatório) O projeto em que a nova história ou problema é armazenado. Comece digitando o nome de um projeto e selecione-o quando ele for exibido na lista.</td>
     </tr>
    </table>
 
-1. Clique em **[!UICONTROL Adicionar matéria]** ou **[!UICONTROL Adicionar questão]**.
+1. Clique em **[!UICONTROL Adicionar história]** ou **[!UICONTROL Adicionar problema]**.
 
-## Adicionar uma história ou problema existente do quadro [!UICONTROL Rabisco]
+## Adicionar uma história ou problema existente do quadro [!UICONTROL Scrum]
 
 {{step1-to-team}}
 
-1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ![Ícone Alternar equipe](assets/switch-team-icon.png) e, em seguida, selecione uma nova equipe Scrum no menu suspenso ou pesquise uma equipe na barra de pesquisa.
-1. No painel esquerdo, selecione **[!UICONTROL Iterações]** para escolher uma iteração específica ou selecione **[!UICONTROL Iteração Atual]**.
-1. Clique em **[!UICONTROL Adicionar]** no lado direito do quadro do Scrum e selecione **[!UICONTROL História Existente]** ou **[!UICONTROL Problema Existente]**.
-1. Na caixa de diálogo **[!UICONTROL Adicionar Existente da Lista de Pendências]**, comece a digitar o nome de uma matéria ou problema e selecione-o quando for exibido na lista.
-1. Clique em **[!UICONTROL Adicionar matéria]** ou **[!UICONTROL Adicionar questão]**.
+1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone da equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa.
+1. No painel esquerdo, selecione **[!UICONTROL Iterações]** para escolher uma iteração específica, ou selecione **[!UICONTROL Iteração atual]**.
+1. Clique em **[!UICONTROL Adicionar]** no lado direito do quadro Scrum e selecione **[!UICONTROL História existente]** ou **[!UICONTROL Problema existente]**.
+1. Na caixa de diálogo **[!UICONTROL Adicionar existente do backlog]**, comece digitando o nome de uma história ou problema, em seguida, selecione-o quando ele for exibido na lista.
+1. Clique em **[!UICONTROL Adicionar história]** ou **[!UICONTROL Adicionar problema]**.

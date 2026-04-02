@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +23,7 @@ Como administrador do Adobe Workfront, você pode usar um nível de acesso para 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 Você deve ter o seguinte para conceder aos usuários acesso às Metas do Workfront:
 
@@ -35,7 +37,7 @@ Você deve ter o seguinte para conceder aos usuários acesso às Metas do Workfr
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -49,7 +51,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,7 +75,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    <td> <p>You must have the System Administrator access level.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Conceder acesso ao usuário ao Workfront Goals usando um nível de acesso personalizado
 
@@ -94,4 +98,4 @@ Um administrador do Workfront pode usar um nível de acesso para conceder acesso
 * Padrão, Claro, Colaborador
 * Licença de Plano, Trabalho, Solicitação ou Revisão.
 
-Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Para obter informações adicionais sobre o acesso ao Adobe Workfront Goals, consulte [Requisitos para usar o Adobe Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).

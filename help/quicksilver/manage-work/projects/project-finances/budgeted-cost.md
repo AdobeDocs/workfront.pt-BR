@@ -2,19 +2,21 @@
 content-type: reference
 product-area: projects
 navigation-topic: financials
-title: Calcular Custo Orçado
+title: Calcular o custo orçado
 description: Calcular Progresso do Projeto de Rastreamento de Custo Orçado com um Relatório de Utilização
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
-# Calcular Custo Orçado
+# Calcular o custo orçado
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -75,9 +77,11 @@ O Custo Orçado, conforme refletido na área Orçamento de Recursos do Business 
     </tr> 
     <tr> 
      <td>Custo orçado do projeto</td> 
-     <td> <!--
+     <td>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (NOTE: this was removed with flash)</p>
-      --> <p>Relatório do projeto</p> <p>Relatório de Projeto (Dados Financeiros)</p> <p>Relatório de tarefa</p> <p>Relatório de problema</p> <p>Relatório de horas orçadas</p> <p>Para obter mais informações sobre como criar um relatório, consulte o artigo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Criar um relatório personalizado</a>.</p> </td> 
+      -->
+      <p>Relatório do projeto</p> <p>Relatório de Projeto (Dados Financeiros)</p> <p>Relatório de tarefa</p> <p>Relatório de problema</p> <p>Relatório de horas orçadas</p> <p>Para obter mais informações sobre como criar um relatório, consulte o artigo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Criar um relatório personalizado</a>.</p> </td>
     </tr> 
    </tbody> 
   </table>

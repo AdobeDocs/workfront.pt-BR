@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: Variação da Linha de Base para Duração e Trabalho Planejado em uma View de Tarefa'
-description: Exiba a variação da linha de base para a Duração e o Trabalho planejado.
+description: Exibir a variação da linha de base para Duração e Trabalho planejado.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2a1eef9c-016c-4a04-acda-6070fcb0e23d
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 22%
@@ -20,13 +22,13 @@ ht-degree: 22%
 
 Essa exibição mostra o seguinte em uma exibição de tarefa:
 
-* Informações da tarefa com informações da tarefa de linha de base.
-* A diferença entre a Duração e a Duração da linha de base padrão.
-* A diferença entre o Trabalho Planejado e o Trabalho Planejado de Linha de Base Padrão.
+* Informações da tarefa com informações da tarefa da linha de base.
+* A diferença entre a duração e a duração da linha de base padrão.
+* A diferença entre o Trabalho Planejado e o Trabalho Planejado da Linha de Base Padrão.
 
 >[!NOTE]
 >
->Os dados exibidos na exibição a seguir comparam os valores reais da tarefa com os valores associados às tarefas de Linha de Base Padrão.
+>Os dados exibidos na visualização a seguir comparam os valores reais da tarefa com os valores associados às tarefas de Linha de Base Padrão.
 
 ![variação_da_linha_de_base_em_uma_exibição_de_tarefa.png](assets/baseline-variance-in-a-task-view-350x38.png)
 
@@ -45,12 +47,12 @@ Essa exibição mostra o seguinte em uma exibição de tarefa:
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou solicitação para modificar um filtro </p>
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a filtros, exibições e agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -66,10 +68,10 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 ## Exibir variação da linha de base para Duração e Trabalho Planejado em uma exibição de tarefa
 
 1. Ir para uma lista de tarefas.
-1. No menu suspenso **Exibição**, selecione **Nova Exibição** ou edite uma exibição existente.
-1. Remove todas as colunas da vista, exceto a primeira.
-1. Com a primeira coluna selecionada, clique em **Alternar para o Modo de Texto** e clique em **Editar Exibição de Texto**.
-1. Copie o texto abaixo e cole-o na primeira coluna da exibição:
+1. No menu suspenso **Modo de Exibição**, selecione **Novo Modo de Exibição** ou edite um modo de exibição existente.
+1. Remova todas as colunas da exibição, exceto a primeira.
+1. Com a primeira coluna selecionada, clique em **Alternar para Modo de Texto** e em **Editar Exibição de Texto**.
+1. Copie o texto abaixo e cole-o na primeira coluna do modo de exibição:
 
    ```
    column.0.descriptionkey=name

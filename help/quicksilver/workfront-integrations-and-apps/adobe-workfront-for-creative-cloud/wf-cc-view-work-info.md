@@ -1,15 +1,17 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Exibir informações do item de trabalho usando o plug-in do Adobe Workfront
+title: Exibir informações do item de trabalho usando o plugin do Adobe Workfront
 description: Você pode ver informações sobre projetos, tarefas, problemas e documentos de aplicativos do Adobe Creative Cloud.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +23,7 @@ Você pode ver informações sobre projetos, tarefas, problemas e documentos dos
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +31,8 @@ Você pode ver informações sobre projetos, tarefas, problemas e documentos dos
  <col> 
  </col> 
  <tbody> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -38,7 +41,8 @@ Você pode ver informações sobre projetos, tarefas, problemas e documentos dos
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Produtos adicionais</td> 
    <td>Você deve ter uma licença [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront].</td> 

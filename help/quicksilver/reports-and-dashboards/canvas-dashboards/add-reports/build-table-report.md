@@ -6,7 +6,9 @@ description: É possível adicionar um relatório de tabela a um Painel da tela 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 12%
@@ -18,8 +20,8 @@ ht-degree: 12%
 >[!IMPORTANT]
 >
 >No momento, o recurso Painéis do Canvas está disponível apenas para usuários que participam da fase beta. Partes do recurso podem não estar completas ou não funcionar conforme o esperado durante essa etapa. Envie seus comentários sobre a experiência seguindo as instruções na seção [Fornecer feedback](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) do artigo de visão geral sobre a versão beta dos Painéis da Tela.<br>
->Se você tiver comentários sobre um possível erro ou problema técnico, envie um chamado para o Suporte da Workfront. Para obter mais informações, consulte [Contatar o suporte ao cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Observe que esta versão beta não está disponível nos seguintes provedores de nuvem:
+>Se você tiver feedback sobre um possível erro ou problema técnico, envie um tíquete ao Suporte da Workfront. Para obter mais informações, consulte [Contate o Suporte ao Cliente](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Observe que esse beta não está disponível nos seguintes provedores de nuvem:
 >
 >* Traga sua própria chave para o Amazon Web Services
 >* Azure
@@ -71,7 +73,7 @@ Você deve criar um painel antes de criar um relatório de tabela.
 
 ## Criar um relatório de tabela em um painel da tela
 
-Há muitas opções de configuração disponíveis para a criação de um relatório de tabela. Nesta seção, explicaremos o processo geral de criação de um.
+Há muitas opções de configuração disponíveis para criar um relatório de tabela. Nesta seção, guiaremos você pelo processo geral de criação de um.
 
 {{step1-to-dashboards}}
 
@@ -79,7 +81,7 @@ Há muitas opções de configuração disponíveis para a criação de um relat�
 
 1. Clique em **Novo Painel** no canto superior direito.
 
-1. Na caixa **Criar painel**, insira o **Nome** e a **Descrição** do painel.
+1. Na caixa **Criar painel**, digite o **Nome** e a **Descrição** do painel.
 
 1. Clique em **Criar**.
 
@@ -123,9 +125,9 @@ Há muitas opções de configuração disponíveis para a criação de um relat�
 
 1. Clique em **Salvar** para criar o relatório e adicioná-lo ao painel.
 
-## Exemplo de relatório de tabela
+## Criar um exemplo de relatório de tabela
 
-Nesta seção, passaremos pelas etapas para criar um relatório de tabela que exibe as aprovações de documentos pendentes.
+Nesta seção, vamos percorrer as etapas para criar um relatório de tabela que exibe aprovações de documentos pendentes.
 
 Para obter mais informações sobre exemplos de relatório de tabela, consulte [Criar um painel de relatório para revisão e aprovações](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
 
@@ -148,7 +150,7 @@ Para obter mais informações sobre exemplos de relatório de tabela, consulte [
 1. Siga as etapas abaixo para configurar a seção **Detalhes**:
 
    1. Digite _Aprovações pendentes_ no campo **Nome**.
-   1. Digite uma descrição no campo **Descrição**. Este texto é exibido como uma dica de ferramenta ao lado do nome do gráfico.
+   1. Digite uma descrição no campo **Descrição**. Esse texto é exibido como uma dica de ferramenta ao lado do nome do gráfico.
 
 1. Siga as etapas abaixo para configurar a seção **Tabela de compilação**:
 
@@ -164,7 +166,7 @@ Para obter mais informações sobre exemplos de relatório de tabela, consulte [
     </tr>
     <tr>
     <td><strong>Nome do documento</strong></td>
-    <td>Versão do Documento &gt; Documento &gt; digite <em>Nome</em> na caixa de pesquisa.</td>
+    <td>Versão do documento &gt; Documento &gt; digite <em>Nome</em> na caixa de pesquisa.</td>
     </tr>
     <tr>
     <td><strong>Versão do documento</strong></td>
@@ -180,22 +182,22 @@ Para obter mais informações sobre exemplos de relatório de tabela, consulte [
     </tr>
     <tr>
     <td><strong>Data de solicitação</strong></td>
-    <td>Aprovação do documento &gt; Estágio de aprovação &gt; Participantes do estágio de aprovação* &gt; Criado em</td>
+    <td>Aprovação de documento &gt; Estágio de aprovação &gt; Participantes do estágio de aprovação* &gt; Criado em</td>
     </tr>
     <tr>
     <td><strong>Aprovador</strong></td>
-    <td>Aprovação do documento &gt; Estágio de aprovação &gt; Participantes do estágio de aprovação* &gt; Usuário participante &gt; tipo <em>Nome</em> na caixa de pesquisa.</td>
+    <td>Aprovação de documento &gt; Estágio de aprovação &gt; Participantes do estágio de aprovação* &gt; Usuário participante &gt; tipo <em>Nome</em> na caixa de pesquisa.</td>
     </tr>
     </table>
 
 
-   *Os Participantes do Estágio de Aprovação estão truncados para _Pa do Estágio de Aprovação.._
+   *Os Participantes do Estágio de Aprovação estão truncados para _Pasta do Estágio de Aprovação.._
 
 
 1. Siga as etapas abaixo para configurar a seção **Filtro**:
-   1. No painel esquerdo, clique no ícone da **guia Filtro** do ![filtro](assets/filter-tab.png).
+   1. No painel esquerdo, clique no ícone da **guia Filtro** ![filtro](assets/filter-tab.png).
    1. Clique em **Editar Filtro** e depois em **Adicionar condição**.
-   1. Clique no filtro de condição vazio e clique em **Escolher um Campo**.
+   1. Clique no filtro de condição vazio e em **Escolher um Campo**.
    1. Selecione **Status**.
    1. Altere o operador para **Igual** e digite _aprovação pendente_ na caixa de texto.
       ![exemplo de filtro de tabela de aprovação pendente](assets/pending-approval-table-filter.png)
@@ -206,21 +208,21 @@ Para obter mais informações sobre exemplos de relatório de tabela, consulte [
 
 ### Relatórios com dados financeiros
 
-Os usuários com acesso de Exibição ou Edição a Dados Financeiros em seu nível de acesso ainda verão os dados financeiros nas visualizações do Painel de Controle do Canvas, mesmo se a permissão Exibir financiamento for removida no nível da tarefa ou do projeto.
+Os usuários com acesso de Visualização ou Edição a Dados financeiros em seu nível de acesso ainda verão os dados financeiros nas visualizações do Painel do Canvas, mesmo se a permissão de Visualização de finanças for removida no nível de tarefa ou projeto.
 
 * Os usuários sem direitos referentes a dados financeiros no nível de acesso não verão dados financeiros nos relatórios.
 * Os usuários que veem dados financeiros estão limitados a registros para os quais já têm permissão de visualização (projetos, tarefas, problemas, etc.). Eles não verão valores financeiros correspondentes a registros que não podem acessar.
 * Os criadores de relatórios devem ter cuidado ao incluir dados financeiros nos painéis e estar cientes de com quem compartilham painéis para evitar acessos não intencionais.
 
-Esse é um limite conhecido e planejamos solucioná-lo o mais rápido possível.
+Esse é um limite conhecido e pretendemos resolvê-lo o mais rápido possível.
 
-### Utilização do seletor de campo
+### Utilização do seletor de campos
 
-O menu suspenso **Seções** na seção **Compilar tabela** foi criado para restringir as opções em um seletor de campo para facilitar a localização de um objeto durante a criação de um relatório de tabela. Para começar, selecione um objeto de entidade base.
+O menu suspenso **Seções** na seção **Tabela de compilação** foi criado para restringir as opções em um seletor de campos para facilitar a localização de um objeto ao criar um relatório de tabela. Para iniciar, você selecionaria um objeto de entidade base.
 
-* **Todas as Seções**: todos os tipos de objeto no Workfront Workflow e no Workfront Planning.
-* **Objetos do Workfront**: objetos nativos do fluxo de trabalho do Workfront.
-* **Tipos de Registros do Planning**: tipos de registros personalizados definidos no Workfront Planning.
+* **Todas as Seções**: todos os tipos de objetos no Workfront Workflow e no Workfront Planning.
+* **Objetos Workfront**: objetos de Fluxo de Trabalho Workfront nativos.
+* **Tipos de Registro do Planning**: tipos de registro personalizados definidos no Workfront Planning.
 
 ![Menu suspenso de seções](assets/sections-dropdown.png)
 
@@ -228,7 +230,7 @@ Depois que o objeto de entidade base for selecionado, o menu suspenso **Seções
 
 * **Todas as Seções**: campos nativos, campos personalizados e objetos relacionados.
 * **Todos os campos**: campos nativos e personalizados (exclui relações).
-* **Campos Personalizados**: campos definidos pelo cliente em um formulário personalizado ou registro do Planning.
+* **Campos Personalizados**: campos definidos pelo cliente em um formulário personalizado ou em um registro do Planning.
 * **Campos do Workfront**: somente campos nativos.
 * **Relações**: registros conectados.
 

@@ -1,21 +1,23 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Excluir Matéria do Quadro de Kanban
-description: Você pode excluir uma matéria ou ocorrência do quadro Kanban. Quando você exclui uma matéria ou problema, ele é movido para a Lixeira por 30 dias e só pode ser recuperado pelo administrador do sistema.
+title: Excluir história do Quadro Kanban
+description: Você pode excluir uma história ou problema do quadro Kanban. Ao excluir uma história ou problema, ele é movido para a Lixeira por 30 dias e pode ser recuperado somente pelo administrador do sistema.
 author: Courtney
 feature: Agile
 exl-id: 5e838f0a-b26d-4bbe-b9e9-3161e3958b58
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 21%
 
 ---
 
-# Excluir histórias ou problemas do quadro [!UICONTROL Kanban]
+# Exclua histórias ou problemas do quadro [!UICONTROL Kanban]
 
-Você pode excluir uma história ou ocorrência do quadro [!UICONTROL Kanban]. Quando você exclui uma matéria ou problema, ele é movido para a Lixeira por 30 dias e só pode ser recuperado pelo administrador do sistema.
+Você pode excluir uma história ou problema do quadro [!UICONTROL Kanban]. Ao excluir uma história ou problema, ele é movido para a Lixeira por 30 dias e pode ser recuperado somente pelo administrador do sistema.
 
 ## Requisitos de acesso
 
@@ -38,7 +40,7 @@ Você pode excluir uma história ou ocorrência do quadro [!UICONTROL Kanban]. Q
   </tr>
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>Gerenciar o acesso à tarefa ou ocorrência </td> 
+   <td>Gerenciar acesso à tarefa ou problema </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,13 +49,13 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Excluir uma matéria ou ocorrência
+## Excluir uma história ou problema
 
 {{step1-to-team}}
 
-1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ícone ![, selecione uma nova equipe &#x200B;](assets/switch-team-icon.png)Kanban[!UICONTROL &#x200B; no menu suspenso ou pesquise uma equipe na barra de pesquisa.]
-1. Clique no ícone **[!UICONTROL Mais]** sobre a história ou edição e selecione **[!UICONTROL Excluir]**.
+1. (Opcional) Clique no ícone **[!UICONTROL Equipe do switch]** ![Ícone da equipe do switch](assets/switch-team-icon.png) e selecione uma nova equipe [!UICONTROL Kanban] no menu suspenso ou procure uma equipe na barra de pesquisa.
+1. Clique no ícone **[!UICONTROL Mais]** sobre a história ou problema e selecione **[!UICONTROL Excluir]**.
 
-   ![Excluir matéria kanban](assets/kanban-delete-story.png)
+   ![Excluir história de kanban](assets/kanban-delete-story.png)
 
-1. Na mensagem de confirmação, clique em **[!UICONTROL Sim, exclua]**.
+1. Na mensagem de confirmação, clique em **[!UICONTROL Sim, excluir]**.

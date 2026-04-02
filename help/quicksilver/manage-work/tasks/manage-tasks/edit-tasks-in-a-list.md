@@ -6,7 +6,9 @@ description: É possível editar as informações da tarefa em uma lista de tare
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2764'
 ht-degree: 4%
@@ -17,13 +19,15 @@ ht-degree: 4%
 
 <!-- Audited: 10/2025 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div>-->
+</div>
+-->
 
 É possível editar as informações da tarefa em uma lista de tarefas editando os campos exibidos na lista. Para obter informações sobre outras maneiras de editar tarefas, consulte [Editar tarefas](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -60,7 +64,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -84,7 +89,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    <td> <p>Contribute or higher permissions to the task and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerações sobre a edição de tarefas em uma lista {#considerations-about-editing-tasks-in-a-list}
 
@@ -300,7 +306,7 @@ Para editar tarefas em uma lista ao selecionar a opção Salvar manualmente padr
 
    Ou
 
-   Clique no ícone **Modo do menu** Mais![&#x200B; na lista de tarefas](assets/more-icon-task-list.png).
+   Clique no ícone **Modo do menu** Mais![ na lista de tarefas](assets/more-icon-task-list.png).
 
 1. (Opcional) Selecione entre as seguintes opções:
 
@@ -535,7 +541,8 @@ Para editar tarefas em uma lista ao usar a opção Salvar manualmente o planejam
 1. Clique em **Salvar**.
 
 
-<!--Temporary content while changing the Assignments area:
+<!--
+Temporary content while changing the Assignments area:
 
 Editing multiple tasks at the same time differs depending on what environment you choose. 
 
@@ -600,4 +607,5 @@ Editing multiple tasks at the same time differs depending on what environment yo
 
 <div class="preview">
 
-### Edit tasks in bulk in the Preview environment-->
+### Edit tasks in bulk in the Preview environment
+-->

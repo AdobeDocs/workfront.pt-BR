@@ -2,11 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Criar ou editar filtros no Adobe Workfront
-description: Você pode limitar a quantidade de informações exibidas na tela em uma lista de itens com um filtro. Você pode definir determinados critérios com base em determinadas informações sobre um objeto e exibir apenas os objetos que atendem a esses critérios.
+description: É possível limitar a quantidade de informações exibidas na tela em uma lista de itens com um filtro. Você pode definir determinados critérios com base em informações específicas sobre um objeto e exibir somente os objetos que atendem a esses critérios.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2375'
 ht-degree: 4%
@@ -17,7 +19,7 @@ ht-degree: 4%
 
 <!-- Audited: 11/2024 -->
 
-Você pode limitar a quantidade de informações exibidas na tela em uma lista de itens com um filtro. Você pode definir determinados critérios com base em determinadas informações sobre um objeto e exibir apenas os objetos que atendem a esses critérios.
+É possível limitar a quantidade de informações exibidas na tela em uma lista de itens com um filtro. Você pode definir determinados critérios com base em informações específicas sobre um objeto e exibir somente os objetos que atendem a esses critérios.
 
 Você pode aplicar os seguintes tipos de filtros no Adobe Workfront:
 
@@ -25,11 +27,11 @@ Você pode aplicar os seguintes tipos de filtros no Adobe Workfront:
 
   Para obter informações sobre filtros rápidos, consulte [Aplicar o filtro rápido a uma lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-* Filtros permanentes que podem ser salvos e usados várias vezes em várias listas e relatórios. Este artigo descreve como criar um filtro permanente ou editar um filtro existente em uma lista ou relatório.
+* Filtros permanentes que você pode salvar e usar várias vezes em várias listas e relatórios. Este artigo descreve como criar um filtro permanente ou editar um filtro existente em uma lista ou relatório.
 
 * Filtros em outras áreas do Workfront, fora de listas e relatórios.
 
-  Para obter uma lista de todos os filtros no Workfront e as áreas nas quais eles podem ser aplicados, consulte [Visão geral sobre filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Para obter uma lista de todos os filtros no Workfront e as áreas em que você pode aplicá-los, consulte [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisitos de acesso
 
@@ -46,13 +48,13 @@ Você pode aplicar os seguintes tipos de filtros no Adobe Workfront:
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</strong></td> 
    <td> 
-    <p>Colaborador ou solicitação para modificar um filtro</p>
+    <p>Colaborador ou Solicitação para modificar um filtro</p>
     <p>Padrão ou Plano para modificar um filtro em um relatório</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a filtros, exibições e agrupamentos</p> <p>Acesso de edição a relatórios, painéis e calendários</p>
+   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a relatórios, painéis, calendários</p>
    </td> 
   </tr> 
   <tr> 
@@ -67,7 +69,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Tipos de interfaces de criação de filtros
+## Tipos de interfaces de construção de filtros
 
 Você pode criar filtros usando os tipos de construtores de filtros descritos na tabela abaixo:
 
@@ -102,7 +104,7 @@ Você pode criar filtros usando os tipos de construtores de filtros descritos na
 <ul>
 <li> <p>A lista de Projetos no Planejador de cenários</p> <p>O planejador de cenários requer uma licença adicional. Para obter informações sobre o planejador de cenários do Workfront, consulte <a href="../../../scenario-planner/scenario-planner-overview.md">Visão geral do planejador de cenários</a>. </p> </li>
 </ul>
-<p><b>NOTA:</b></p> <p>Construtores padrão para filtros não estão disponíveis nos relatórios.
+<p><b>NOTA:</b></p> <p>Os construtores padrão para filtros não estão disponíveis nos relatórios.
 </td>
 </tr>
 <tr>
@@ -126,7 +128,7 @@ Considere o seguinte ao criar filtros usando as diferentes interfaces:
 
   >[!TIP]
   >
-  >Um filtro “Todos” não está incluído no construtor padrão porque todos os itens de lista são exibidos quando nenhum filtro é aplicado. Clique em [!UICONTROL **Limpar tudo**] na parte superior direita do construtor para limpar todos os filtros ativos e exibir todos os itens. Se [!UICONTROL **Limpar tudo**] estiver esmaecido, nenhum filtro será aplicado.
+  >Um filtro &quot;Todos&quot; não está incluído no construtor padrão, pois todos os itens da lista são exibidos quando nenhum filtro é aplicado. Clique em [!UICONTROL **Limpar tudo**] na parte superior direita do construtor para limpar todos os filtros ativos e exibir todos os itens. Se [!UICONTROL **Limpar tudo**] estiver esmaecido, nenhum filtro será aplicado.
 
 * Os construtores padrão e herdados têm uma sintaxe ligeiramente diferente ao construir filtros de várias instruções que combinam os operadores AND e OR. Como resultado, esses filtros podem ser exibidos de forma diferente ao alternar de um construtor para outro.
 
@@ -138,14 +140,14 @@ Considere o seguinte ao criar filtros usando as diferentes interfaces:
   >
   >      `(A OR B) AND C`
   >
-  >1. Alterne para o construtor herdado e edite o filtro usando a sintaxe do construtor herdado, conforme descrito na seção [Criar ou editar um filtro no construtor herdado](#create-filter-in-legacy-builder) neste artigo. A sintaxe do construtor herdado exibe as instruções de filtro da seguinte maneira:
+  >1. Alterne para o construtor herdado e edite o filtro usando a sintaxe desse construtor, conforme descrito na seção [Criar ou editar um filtro no construtor herdado](#create-filter-in-legacy-builder) deste artigo. A sintaxe do construtor herdado exibe as instruções de filtro da seguinte maneira:
   >
   >      `A AND C`
   >      `OR`
   >      `B AND C`
   >
   >1. Faça uma alteração no filtro na interface herdada.
-  >1. Alterne novamente para o construtor padrão. A instrução filter é exibida de acordo com a lógica suportada no construtor herdado, conforme descrito acima.
+  >1. Volte para o construtor padrão. A instrução de filtro é exibida de acordo com a lógica suportada no construtor herdado, conforme descrito acima.
   >
   >      O filtro é exibido na interface do construtor padrão da seguinte maneira:
   >  
@@ -161,15 +163,15 @@ Você pode criar filtros usando a interface do construtor padrão das seguintes 
 
 * Do zero
 * Editar um filtro existente
-* Duplicar um filtro existente
+* Duplicação de um filtro existente
 * Duplicar um filtro existente, editá-lo e salvá-lo como um novo filtro
 
-Crie um filtro usando a interface padrão do construtor:
+Criar um filtro usando a interface padrão do construtor:
 
-1. Vá para uma lista na qual você deseja criar um filtro ou que contenha o filtro que você deseja personalizar.
-1. Clique no ícone **Filtro** ícone ![Filtro ícone](assets/filter-nwepng.png) para abrir a interface do construtor.
+1. Vá para uma lista onde deseja criar um filtro ou que contenha o filtro que deseja personalizar.
+1. Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-nwepng.png) para abrir a interface do construtor.
 
-   ![Criador de filtros padrão](assets/new-filters-all-filter-types.png)
+   ![Construtor de filtros padrão](assets/new-filters-all-filter-types.png)
 
 1. Revise as seguintes listas de filtros:
 
@@ -179,15 +181,15 @@ Crie um filtro usando a interface padrão do construtor:
    <tbody>
    <tr>
    <td role="rowheader"><strong>Marcado como favorito</strong></td>
-   <td>Filtros que você marcou como favoritos. Quando você adiciona um filtro aos favoritos, o local original é mostrado abaixo do nome do filtro e fica oculto da lista original, a menos que você o remova como favorito.</td>
+   <td>Filtros que você marcou como favoritos. Quando você adiciona um filtro como favorito, seu local original é mostrado abaixo do nome do filtro e fica oculto na lista original, a menos que você o remova como favorito.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Salvo</strong></td>
-   <td>Os filtros que você mesmo criou e salvou. Por padrão, essa lista exibe os filtros salvos na ordem em que foram salvos mais recentemente, mas os nomes dos filtros podem ser arrastados para reordenar manualmente a lista.</td>
+   <td>Filtros que você criou e salvou a si mesmo. Por padrão, essa lista exibe os filtros salvos na ordem em que foram salvos mais recentemente, mas os nomes dos filtros podem ser arrastados para reordenar manualmente a lista.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Padrões do sistema</strong></td>
-   <td>Filtros padrão do sistema do Workfront e filtros que o administrador do Workfront adicionou à sua lista de filtros, no nível do sistema ou no modelo de layout.</td>
+   <td>Filtros padrão do sistema Workfront e filtros que o administrador do Workfront adicionou à lista de filtros, no nível do sistema ou no modelo de layout.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Compartilhado(s) comigo</strong></td>
@@ -199,15 +201,15 @@ Crie um filtro usando a interface padrão do construtor:
 1. Siga um destes procedimentos:
 
    * Clique em **Novo filtro** para criar um filtro do zero.
-   * Passe o mouse sobre um filtro existente que você tenha permissões para gerenciar e clique no ícone **Editar** ícone ![Editar](assets/edit-icon.png) para editá-lo.
+   * Passe o mouse sobre um filtro existente que você tem permissões para gerenciar e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png) para editá-lo.
 
      Ou
 
-     Passe o mouse sobre um filtro existente que você tenha permissões para exibir, clique no menu **Mais**, no menu ![Mais](assets/more-icon-spectrum.png), e clique em **Duplicar** para copiar o filtro existente e editar uma cópia.
+     Passe o mouse sobre um filtro existente para exibir, clique no menu **Mais** ![Mais menu](assets/more-icon-spectrum.png) e clique em **Duplicar** para copiar o filtro existente e editar uma cópia.
 
    ![Mais opções de menu](assets/new-filters-more-menu-options-with-delete.png)
 
-1. (Condicional) Dependendo de você desejar localizar objetos que correspondam a todas ou a alguma das instruções de um grupo de filtros, selecione uma das seguintes opções:
+1. (Condicional) Dependendo de você querer localizar objetos que correspondam a todas ou a qualquer uma das instruções em um grupo de filtros, selecione uma das seguintes opções:
 
    <table style="table-layout:auto">
    <col>
@@ -224,23 +226,23 @@ Crie um filtro usando a interface padrão do construtor:
    </tbody>
    </table>
 
-   ![Incluir se tudo, ou algum ou o menu suspenso verdadeiro](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
+   ![Incluir todos os menus suspensos, alguns ou verdadeiros](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   Para obter mais informações sobre operadores de filtro, consulte [Visão geral de filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Para obter mais informações sobre operadores de filtro, consulte [Visão geral dos filtros](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Clique no menu suspenso de campos para exibir uma lista de campos usados recentemente e os campos sugeridos pelos quais filtrar. Os campos sugeridos são exibidos atualmente na lista que você está filtrando.
+1. Clique no menu suspenso do campo para exibir uma lista de campos usados recentemente e os campos sugeridos para filtrar. Os campos sugeridos são exibidos atualmente na lista que você está filtrando.
 
-   Você também pode selecionar **Procurar campos** para exibir uma lista de todos os campos pelos quais você pode filtrar. Os campos na pesquisa avançada são agrupados por categoria de objeto.
+   Você também pode selecionar **Procurar campos** para exibir uma lista de todos os campos que você pode filtrar. Os campos na pesquisa avançada são agrupados por categoria de objeto.
 
-   ![Localizar um campo pelo qual filtrar](assets/new-filter-search-for-field.png)
+   ![Localizar um campo para filtrar por](assets/new-filter-search-for-field.png)
 
-1. Clique no menu suspenso do modificador para selecionar um modificador. O modificador padrão é “Igual a”.
+1. Clique no menu suspenso do modificador para selecionar um modificador. O modificador padrão é &quot;Igual a&quot;.
 
-   Para obter mais informações, consulte [Modificadores de filtro e condição](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Para obter mais informações, consulte [Filtro e modificadores de condição](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!TIP]
    >
-   >À medida que você cria o filtro, os resultados aparecem imediatamente na lista. Se o painel de filtros cobrir a lista, feche-a para exibir a lista. As informações inseridas permanecerão no construtor quando você abrir o painel novamente.
+   >À medida que você cria o filtro, os resultados são exibidos imediatamente na lista. Se o painel de filtro cobrir a lista, é possível fechá-la para ver a exibição. As informações inseridas permanecem no construtor quando você abre o painel novamente.
 
 1. Comece a digitar o valor de um campo pelo qual deseja filtrar. Por exemplo, comece digitando o nome de um problema, se você deseja filtrar por `Issue:Name`. Selecione o valor quando ele for exibido na lista.
 
@@ -275,11 +277,11 @@ Crie um filtro usando a interface padrão do construtor:
 
    A interface do modo de texto é aberta.
 
-   ![Interface do modo de texto](assets/text-mode-interface-for-beta-filters-nwe.png)
+   ![Interface do modo texto](assets/text-mode-interface-for-beta-filters-nwe.png)
 
    >[!TIP]
    >
-   >Recomendamos criar o máximo possível do filtro usando a interface padrão do construtor e somente usando o modo de texto quando você precisar modificar os filtros compatíveis somente com o modo de texto.
+   >Recomendamos criar o máximo possível do filtro usando a interface padrão do construtor e somente usando o modo de texto quando for necessário modificar os filtros compatíveis apenas com o modo de texto.
 
    Para obter mais informações sobre como criar um filtro usando a interface de modo de texto, consulte [Editar um filtro usando o modo de texto](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -287,50 +289,50 @@ Crie um filtro usando a interface padrão do construtor:
 
    >[!WARNING]
    >
-   >Algumas instruções de modo de texto não são suportadas no construtor padrão ou na interface herdada. Sair do modo de texto ao criar esses tipos de instruções pode gerar uma mensagem de aviso.
+   >Algumas instruções de modo de texto não são suportadas no construtor padrão ou na interface herdada. Sair do modo de texto quando você criar esses tipos de instruções pode gerar uma mensagem de aviso.
 
 1. (Opcional) Clique em **Aplicar** para aplicar o filtro à lista e ver os resultados.
 
-   Se o filtro não produzir resultados, a lista estará vazia.
+   Se o filtro não produzir resultados, a lista ficará vazia.
 
 1. Clique em **Salvar como novo** para salvar o filtro para uso futuro.
 
-   ![Nomeie e salve o filtro](assets/save-as-untitled-filter-ui-nwe.png)
+   ![Nomear e salvar o filtro](assets/save-as-untitled-filter-ui-nwe.png)
 
-1. Selecione **Filtro sem Título** e digite o nome do novo filtro.
+1. Selecione **Filtro sem título** e digite o nome do novo filtro.
 
    >[!TIP]
    >
-   >Atribua um nome ao filtro para que ele possa ser encontrado mais tarde. Se você não nomear o filtro, ele será chamado de Filtro sem Título no sistema.
+   >Nomeie o filtro para localizá-lo posteriormente. Se você não nomear o filtro, ele será chamado de Filtro sem título no sistema.
 
 1. Selecione um ícone para o novo filtro no menu suspenso **Ícone**.
 
    ![Selecione um ícone para o filtro](assets/new-filter-select-icon.png)
 
-1. (Opcional) Adicione uma descrição ao filtro para indicar o que é exclusivo sobre ele. A descrição é exibida abaixo do nome do filtro na lista de filtros.
+1. (Opcional) Adicione uma descrição para o filtro para indicar o que é exclusivo sobre ele. A descrição é exibida sob o nome do filtro na lista de filtros.
 
    >[!TIP]
    >
-   >A qualquer momento, clicar em **Cancelar** o levará de volta à área de criação do filtro.
+   >A qualquer momento, ao clicar em **Cancelar**, você será direcionado de volta à área de criação do filtro.
 
-1. Clique em **Salvar**. O filtro é salvo na lista Salvo e é aplicado à lista de itens.
-1. (Opcional) Para mover um filtro para a lista Favoritos, passe o mouse sobre qualquer filtro no compartimento de filtros e clique no ícone **Favoritos** ícone ![Favoritos](assets/favorites-icon-small.png).
+1. Clique em **Salvar**. O filtro é salvo na lista Saved e aplicado à lista de itens.
+1. (Opcional) Para mover um filtro para a lista Favoritos, passe o mouse sobre qualquer filtro na gaveta de filtros e clique no ícone **Favorito** ![Ícone Favorito](assets/favorites-icon-small.png).
 
    Ou
 
-   Passe o mouse sobre qualquer filtro no compartimento de filtros, clique no menu Mais ![Menu Mais](assets/more-icon-spectrum.png) e clique em **Favoritos**.
+   Passe o mouse sobre qualquer filtro na gaveta de filtros, clique no menu Mais ![Mais](assets/more-icon-spectrum.png) e clique em **Favorito**.
 
-1. (Opcional) Clique no botão **Filtros de pilha** para ativar os filtros empilhados. Esta opção permite aplicar mais de um filtro salvo. As regras de filtro são aplicadas na ordem selecionada.
+1. (Opcional) Clique no botão **Empilhar filtros** para ativar os filtros empilhados. Essa opção permite aplicar mais de um filtro salvo. As regras de filtro são aplicadas na ordem em que você as seleciona.
 
    >[!TIP]
    >
-   >Não há limite para o número de filtros que podem ser selecionados.
+   >Não há limite para o número de filtros que você pode selecionar.
    >
-   >Quando você seleciona vários filtros, todas as suas condições devem ser atendidas simultaneamente para exibir resultados correspondentes.
+   >Quando você seleciona vários filtros, todas as condições devem ser atendidas simultaneamente para exibir resultados correspondentes.
 
-   ![Filtros de pilha](assets/new-filter-stack-filters.png)
+   ![Empilhar filtros](assets/new-filter-stack-filters.png)
 
-   O número de filtros selecionados é exibido ao lado do ícone de filtro, na parte superior da lista de itens.
+   O número de filtros selecionados é exibido ao lado do ícone de filtro na parte superior da lista de itens.
 
    ![Número de filtros selecionados](assets/number-of-filters-selected.png)
 
@@ -338,31 +340,31 @@ Crie um filtro usando a interface padrão do construtor:
 
    * Compartilhe o filtro com outras pessoas ou disponibilize-o em todo o sistema. Para obter mais informações, consulte [Compartilhar um filtro, exibição ou agrupamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-   * Exclua o filtro se ele não for mais válido ou se for uma duplicata. Só é possível excluir os filtros que você possui. É possível remover filtros compartilhados com você. Para obter mais informações, consulte [Remover filtros, exibições e agrupamentos](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+   * Exclua o filtro se ele não for mais válido ou uma duplicata. Você só pode excluir os filtros que possui. Você pode remover filtros compartilhados com você. Para obter informações, consulte [Remover filtros, visualizações e agrupamentos](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
 ## Criar ou editar um filtro no construtor herdado {#create-filter-in-legacy-builder}
 
-É possível criar filtros herdados em listas e relatórios das seguintes maneiras:
+Você pode criar filtros herdados em listas e relatórios das seguintes maneiras:
 
 * Do zero
 * Editar um filtro existente e salvá-lo como um novo filtro
 
-Independentemente do método usado para criar filtros, a criação de um filtro do zero ou de um filtro existente é semelhante.
+Independentemente do método usado para criar filtros, criar um filtro do zero ou a partir de um filtro existente é semelhante.
 
 1. Vá para uma lista ou um relatório que contenha o filtro que você deseja personalizar.
-1. Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-nwepng.png), depois clique no ícone **Mais** ![Ícone Mais](assets/more-icon.png) e clique em **Voltar para Filtros Herdados**.
+1. Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-nwepng.png), em seguida, clique no ícone **Mais** ![Ícone Mais](assets/more-icon.png) e clique em **Voltar para Filtros Herdados**.
 
    >[!TIP]
    >
-   >O criador do relatório deve permitir que os filtros sejam editados para exibir a lista suspensa Filtro em um relatório. O filtro Padrão de Relatório é aplicado a um relatório por padrão. O filtro Padrão de Relatório só pode ser personalizado quando você edita o relatório.
+   >O criador do relatório deve permitir que os filtros sejam editados para exibir a lista suspensa Filtro em um relatório. O filtro Padrão de relatório é aplicado a um relatório por padrão. O filtro Padrão de relatório pode ser personalizado somente quando você edita o relatório.
 
-1. Clique em **+ Novo Filtro** na parte superior da lista de filtros.
+1. Clique em **+ Novo filtro** na parte superior da lista de filtros.
 
    Ou
 
-   Passe o mouse sobre o filtro que deseja modificar e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png).
+   Passe o mouse sobre o filtro que você deseja modificar e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png).
 
-   O construtor para personalizar o filtro é iniciado.
+   O construtor para personalizar as inicializações do filtro.
 
 1. Siga um destes procedimentos:
 
@@ -392,23 +394,23 @@ Independentemente do método usado para criar filtros, a criação de um filtro 
      >
      >Embora Task: Name Contains &quot;marketing&quot; não mude entre os dois grupos de filtros AND, ele deve ser repetido no segundo grupo.
 
-   * Exclua uma regra de filtro existente clicando no ícone “X”.
+   * Exclua uma regra de filtro existente clicando no ícone &quot;X&quot;.
 
-1. (Opcional) Clique em **Alternar para o Modo de Texto** para adicionar um filtro usando a interface do Modo de Texto.
+1. (Opcional) Clique em **Alternar para Modo de Texto** para adicionar um filtro usando a interface Modo de Texto.
 
-   Para obter mais informações sobre como criar um filtro usando a interface do modo de texto, consulte [Editar um filtro usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+   Para obter mais informações sobre como criar um filtro usando a interface de modo de texto, consulte [Editar um filtro usando o modo de texto](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Clique em **Salvar Filtro** para criar um filtro ou substituir o selecionado pelas suas alterações.
+1. Clique em **Salvar Filtro** para criar um filtro ou substituir o filtro selecionado pelas suas alterações.
 
    Ou
 
-   Clique em **Salvar como Novo Filtro** para criar um novo filtro a partir do selecionado.
+   Clique em **Salvar como Novo Filtro** para criar um novo filtro a partir do filtro selecionado.
 
    O novo filtro é exibido na lista de filtros e é aplicado automaticamente à lista ou ao relatório selecionado.
 
 1. (Opcional) Siga um destes procedimentos:
 
-   * Compartilhe filtros que você cria com outros usuários ou disponibilize-os em todo o sistema. Para obter mais informações, consulte [Compartilhar um filtro, exibição ou agrupamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-   * Remova os filtros que não deseja mais exibir na lista. Para obter mais informações, consulte [Remover filtros, exibições e agrupamentos](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+   * Compartilhe filtros que você cria com outros usuários ou disponibilize-os em todo o sistema. Para obter informações, consulte [Compartilhar um filtro, exibição ou agrupamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+   * Remova os filtros que não deseja mais exibir na lista. Para obter informações, consulte [Remover filtros, visualizações e agrupamentos](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
 

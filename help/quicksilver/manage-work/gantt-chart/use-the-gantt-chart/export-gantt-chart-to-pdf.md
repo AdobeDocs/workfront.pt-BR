@@ -1,14 +1,16 @@
 ---
 navigation-topic: use-the-gantt-chart
-title: Exportar o Gráfico de Gantt para o PDF
+title: Exportar gráfico de Gantt para PDF
 description: É possível exportar o Diagrama de Gantt para uma PDF. Posteriormente, você pode imprimi-lo ou anexá-lo a um email para compartilhá-lo com outros usuários.
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +22,7 @@ Você pode exportar o [!UICONTROL Gráfico de Gantt] para um PDF. Posteriormente
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,11 +48,12 @@ Você pode exportar o [!UICONTROL Gráfico de Gantt] para um PDF. Posteriormente
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 

@@ -6,7 +6,9 @@ description: As notificações a seguir alertam sobre as atividades de aprovaç�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-source-git-commit: 571deef920ed11f6cd7d59da5ba91ef58e88ab9e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 1%
@@ -42,7 +44,7 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
    <td><strong>Diariamente</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Uma solicitação de aprovação de projeto foi concluída</strong> </p> <p>Uma aprovação de projeto delegada a outro usuário foi aprovada ou rejeitada por esse usuário.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Aprovação/Rejeição de Projeto feita em Seu Nome por] &lt;Nome de Usuário&gt;</em></p> <p><em>O assunto da notificação de resumo diário é: [!UICONTROL Resumo das Informações de Aprovação] &lt;Data do resumo diário&gt;</em> </p> </td> 
+   <td> <p><strong>Uma solicitação de aprovação de projeto foi concluída</strong> </p> <p>Uma aprovação de projeto delegada a outro usuário foi aprovada ou rejeitada por esse usuário.</p> <p>O assunto do email de notificação instantânea é: <em>[!UICONTROL Aprovação/Rejeição de Projeto Feita em Seu Nome por] &lt;Nome de Usuário&gt;</em></p> <p><em>O assunto da notificação de resumo diário é: [!UICONTROL Resumo das Informações de Aprovação] &lt;Data do resumo diário&gt;</em> </p> </td> 
    <td> Nome do Projeto<br>[!UICONTROL Nome da Portfolio]<br>[!UICONTROL Número de Referência do Projeto]<br>Nome do usuário que aprovou/rejeitou o projeto em seu nome<br>[!UICONTROL Decisão de Aprovação]<br>[!UICONTROL Status do Projeto]<br>Nome do usuário que solicitou a aprovação<br><strong>[!UICONTROL Ver Mais Detalhes]</strong> botão<br>*Número de Referência do Projeto<br>*Nome do Projeto<br>*Nome do Aprovador<br>[!UICONTROL *Data do dia resumo]<br></td> 
    <td><strong>Diariamente</strong> </td> 
   </tr> 

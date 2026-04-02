@@ -6,10 +6,12 @@ description: Recomendamos que você adicione projetos aos portfólios ao iniciá
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: fbe17e50ff161156a0b4b2a8b468b4eb844cae59
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -17,9 +19,11 @@ ht-degree: 0%
 
 <!--Audited: 08/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 Recomendamos que você adicione projetos aos portfólios ao iniciá-los. No entanto, você pode adicioná-los a um portfólio a qualquer momento durante sua vida útil.
 
@@ -30,7 +34,7 @@ Considere o seguinte ao adicionar projetos a portfólios:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +47,8 @@ Considere o seguinte ao adicionar projetos a portfólios:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td><p>Standard</p> 
-   <p>[!UICONTROL Plano] </p> </td> 
+   <td><p>Padrão</p> 
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuração do nível de acesso</td> 
@@ -61,7 +65,8 @@ Considere o seguinte ao adicionar projetos a portfólios:
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +91,8 @@ Considere o seguinte ao adicionar projetos a portfólios:
    <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>[!UICONTROL Manage] permissions to the projects</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Adicionar um projeto a um portfólio
 

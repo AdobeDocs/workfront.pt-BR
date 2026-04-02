@@ -7,7 +7,9 @@ description: 'Neste agrupamento de tarefa personalizado, você pode exibir taref
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7d5a40dd-d451-48c7-9323-af52aa387709
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 18%
@@ -18,7 +20,7 @@ ht-degree: 18%
 
 <!--Audited: 10/2024-->
 
-Neste agrupamento de tarefa personalizado, você pode exibir tarefas agrupadas por um intervalo de seus valores de porcentagem concluída. Os detalhamentos mostram o valor de porcentagem concluída de incrementos de pontos de 10%: 1-10%, 11-20% etc.
+Neste agrupamento de tarefa personalizado, você pode exibir tarefas agrupadas por um intervalo de seus valores de porcentagem concluída. Os detalhamentos mostram o valor percentual concluído de incrementos de 10% pontos: 1-10%, 11-20%, etc.
 
 O agrupamento a seguir organiza projetos pelo valor percentual concluído em um desses agrupamentos:
 
@@ -31,7 +33,7 @@ O agrupamento a seguir organiza projetos pelo valor percentual concluído em um 
 * 51-60%
 * 61-70%
 * 71-80%
-* 81 a 90%
+* 81-90%
 * 91-99%
 * 100%
 
@@ -78,7 +80,7 @@ Para aplicar esse agrupamento:
 1. No menu suspenso **Agrupamento**, selecione **Novo agrupamento**.
 1. Clique em **Adicionar agrupamento**.
 
-1. Clique em **Alternar para o Modo de Texto**.
+1. Clique em **Alternar para Modo de Texto**.
 1. Remover o texto da área **Agrupar por**.
 1. Substitua o texto pelo seguinte código:
 

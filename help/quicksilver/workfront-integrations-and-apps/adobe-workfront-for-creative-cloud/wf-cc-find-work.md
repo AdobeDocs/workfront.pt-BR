@@ -1,15 +1,17 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Encontre seu trabalho usando o plug-in Adobe Workfront
+title: Encontrar seu trabalho usando o plugin do Adobe Workfront
 description: Encontre o trabalho atribuído a você no Adobe Workfront sem sair dos aplicativos da Adobe Creative Cloud.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -21,13 +23,14 @@ Encontre o trabalho atribuído a você em [!DNL Adobe Workfront] sem sair dos [!
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
@@ -36,7 +39,8 @@ Encontre o trabalho atribuído a você em [!DNL Adobe Workfront] sem sair dos [!
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Produtos adicionais</td> 
    <td>Você deve ter uma licença [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront].</td> 
@@ -67,8 +71,8 @@ Use a opção [!UICONTROL Classificar por] para agrupar itens semelhantes na [!U
   <tr> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Data de Conclusão]</li> 
-     <li>[!UICONTROL Nome]</li> 
+     <li>[!UICONTROL Due Date]</li> 
+     <li>[!UICONTROL Name]</li> 
      <li>[!UICONTROL Nome do Projeto]</li> 
      <li>[!UICONTROL Minha Prioridade]</li> 
     </ul> </td> 

@@ -1,11 +1,13 @@
 ---
 navigation-topic: use-lists
-title: Aplicar o Filtro rápido a uma lista
-description: Use o filtro rápido em uma lista de objetos para localizar somente os itens importantes para você, para que possa revisá-los, atualizá-los ou compartilhá-los rapidamente com outras pessoas.
+title: Aplicar o filtro rápido a uma lista
+description: Você pode usar o filtro rápido em uma lista de objetos para ajudá-lo a localizar somente itens importantes para você, para que possa revisá-los, atualizá-los ou compartilhá-los rapidamente com outras pessoas.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 5%
@@ -16,19 +18,19 @@ ht-degree: 5%
 
 <!--Audited:11/2024-->
 
-Use o filtro rápido em uma lista de objetos para localizar somente os itens importantes para você, para que possa revisá-los, atualizá-los ou compartilhá-los rapidamente com outras pessoas.
+Você pode usar o filtro rápido em uma lista de objetos para ajudá-lo a localizar somente itens importantes para você, para que possa revisá-los, atualizá-los ou compartilhá-los rapidamente com outras pessoas.
 
 >[!IMPORTANT]
 >
->Você pode localizar itens que contêm uma palavra de pesquisa usando filtros rápidos, independentemente do item ter sido exibido fisicamente na tela ou ser exibido depois que você rolar para a parte inferior da página. Ao usar os recursos de pesquisa do navegador, você só pode encontrar os itens que são fisicamente exibidos na tela. Se a lista tiver várias páginas, os filtros rápidos não localizarão itens que estejam em páginas que não são exibidas.
+>Você pode encontrar itens que contenham uma palavra de pesquisa usando filtros rápidos, independentemente de esse item ter sido fisicamente exibido na tela ou ser exibido depois que você rolar para a parte inferior da página. Ao usar os recursos de pesquisa do seu navegador, você só pode encontrar itens que são fisicamente exibidos na tela. Se sua lista tem várias páginas, os filtros rápidos não localizam itens que estejam em páginas que não são exibidas.
 
-Se quiser salvar um filtro rápido, recomendamos que você crie um filtro permanente para a sua lista.\
-Para obter informações sobre como criar filtros no [!DNL Adobe Workfront], consulte o artigo [Visão geral de filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Se quiser salvar um filtro rápido, recomendamos que você crie um filtro permanente para sua lista.\
+Para obter informações sobre como criar filtros no [!DNL Adobe Workfront], consulte o artigo [Visão geral dos filtros](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 O filtro rápido está disponível atualmente nas seguintes áreas
 
 
-É possível usar filtros rápidos temporários em todas as listas, exceto nos seguintes:
+É possível usar filtros rápidos temporários em todas as listas, exceto os seguintes:
 
 * A área [!UICONTROL Relatórios]
 * Listas de documentos e relatórios
@@ -41,12 +43,12 @@ O filtro rápido está disponível atualmente nas seguintes áreas
 
 Considere o seguinte ao aplicar filtros rápidos a uma lista:
 
-* Você pode usar palavras-chave para filtrar qualquer campo exibido na visualização da lista. Isso inclui campos personalizados ou campos complexos como [!UICONTROL Predecessores], [!UICONTROL Atribuições], [!UICONTROL Atribuição] e [!UICONTROL Status], [!UICONTROL Aprovador] e [!UICONTROL Status] etc.
+* Você pode usar palavras-chave para filtrar qualquer campo exibido na visualização da lista. Isso inclui campos personalizados ou campos complexos como [!UICONTROL Predecessores], [!UICONTROL Atribuições], [!UICONTROL Atribuição] e [!UICONTROL Status], [!UICONTROL Aprovador] e [!UICONTROL Status], etc.
 * Se a lista tiver agrupamentos recolhidos, eles serão expandidos automaticamente ao usar filtros rápidos. Ao remover o filtro rápido, os agrupamentos são recolhidos novamente.
 * Os agrupamentos retêm as informações agregadas da lista original, independentemente dos filtros rápidos aplicados ou de quaisquer alterações feitas nos objetos na lista.
 * Filtros rápidos são temporários. Alterar o agrupamento, a exibição, o filtro ou a classificação da lista remove os critérios do filtro rápido.
-* Não é possível salvar um filtro rápido. Para salvar um filtro e usá-lo novamente, é recomendável criar um filtro permanente para a lista.
-* Se houver mais de um agrupamento na lista e o filtro rápido encontrar itens em apenas um agrupamento, somente esse agrupamento será exibido com os itens encontrados. Todos os outros agrupamentos ficam ocultos.
+* Não é possível salvar um filtro rápido. Se quiser salvar um filtro para usá-lo novamente, considere criar um filtro permanente para a lista.
+* Se houver mais de um agrupamento na lista e o filtro rápido encontrar itens em apenas um, somente esse agrupamento será exibido com os itens encontrados. Todos os outros agrupamentos estão ocultos.
 * Em uma lista de tarefas ou subtarefas, a hierarquia de tarefas é removida quando os resultados do filtro rápido são exibidos.
 
 ## Requisitos de acesso
@@ -64,7 +66,7 @@ Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
    <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licença do Adobe Workfront*</td> 
+   <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td> 
     <p>Novo menu:</p>
    <ul><li><p>Colaborador ou posterior </p></li>
@@ -103,9 +105,9 @@ Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
      >[!TIP]
      >
-     >Se você pressionar CTRL+F ou CMD+F, uma dica de ferramenta será exibida ao lado do filtro rápido para lembrá-lo sobre esses comandos. Os comandos também são exibidos dentro da caixa de pesquisa do filtro rápido.
+     >Se você pressionar CTRL+F ou CMD+F, uma dica de ferramenta será exibida ao lado do filtro rápido para lembrá-lo sobre esses comandos. Os comandos também são exibidos dentro da caixa de pesquisa de filtro rápido.
 
-1. Na caixa **[!UICONTROL Página de filtro]**, insira a palavra-chave pela qual deseja filtrar.
+1. Na caixa **[!UICONTROL Filtrar página]**, digite a palavra-chave pela qual deseja filtrar.
 
    Você pode usar qualquer palavra exibida atualmente na exibição da lista.
 
@@ -129,6 +131,6 @@ Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
    >Somente os itens encontrados na exportação da pesquisa de filtro rápido para o arquivo selecionado. Se você não selecionar nenhum item antes de exportar a lista, a lista completa e não filtrada será exportada.\
    >Para obter mais informações, consulte [Exportar uma lista](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
 
-1. (Opcional) Para limpar os resultados filtrados, clique no ícone **[!UICONTROL Filtro rápido]** no canto superior direito da janela.
+1. (Opcional) Para limpar os resultados filtrados, clique no ícone **[!UICONTROL Filtro rápido]**, no canto superior direito da janela.
 Ou
 Atualize a página.

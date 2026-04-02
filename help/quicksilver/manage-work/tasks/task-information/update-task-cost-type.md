@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: task-information
-title: Atualizar Tipo de Custo da tarefa
+title: Atualizar tipo de custo da tarefa
 description: O Custo Planejado e Efetivo das tarefas e seus Custos de Mão-de-Obra são determinados pelo Tipo de Custo de cada tarefa.
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
-# Atualizar Tipo de Custo da tarefa
+# Atualizar tipo de custo da tarefa
 
 O Custo Planejado e Efetivo das tarefas e seus Custos de Mão-de-Obra são determinados pelo Tipo de Custo de cada tarefa.
 
@@ -53,7 +55,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +79,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    <td> <p>Contribute or higher permissions to a project</p> <p>Manage permissions to a task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Configurar o Tipo de Custo de uma tarefa individual
 

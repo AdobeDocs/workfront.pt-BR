@@ -6,10 +6,12 @@ description: Depois de conectar projetos e iniciativas, é possível gerenciar a
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -25,7 +27,7 @@ Para obter informações gerais sobre como reconciliar recursos entre projetos e
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +63,8 @@ Para obter informações sobre requisitos de acesso do Workfront, consulte [Requ
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,7 +100,8 @@ Para obter informações sobre requisitos de acesso do Workfront, consulte [Requ
    <td> <p> View or higher permission to a project.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Mostrar alocação de funções para projetos e iniciativas no [!UICONTROL Balanceador de Carga de Trabalho]
 
@@ -141,7 +145,7 @@ Se sua empresa adquiriu uma licença [!DNL Workfront Scenario Planner], é poss�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Função de Trabalho]</td> 
+      <td role="rowheader">[!UICONTROL Job Role]</td> 
       <td> <p>Os nomes das funções de trabalho associadas a qualquer uma das seguintes opções:</p> 
        <ul> 
         <li> <p>tarefas no projeto</p> </li> 
@@ -154,7 +158,7 @@ Se sua empresa adquiriu uma licença [!DNL Workfront Scenario Planner], é poss�
       <td>O número de horas necessárias associadas a cada função de trabalho na iniciativa durante a duração total da iniciativa. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Horas Planejadas]</td> 
+      <td role="rowheader">[!UICONTROL Planned Hours]</td> 
       <td>O número de Horas Planejadas associadas a cada função de trabalho nas tarefas ou problemas no projeto pela duração total do projeto. </td> 
      </tr> 
      <tr> 

@@ -6,10 +6,12 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -20,9 +22,11 @@ ht-degree: 0%
 
 # Compartilhar registros usando um link
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -42,7 +46,8 @@ Você pode compartilhar um registro do Adobe Workfront Planning das seguintes ma
 
    * [Compartilhar um tipo de registro](/help/quicksilver/planning/access/share-record-types.md)
 
-<!--When we release record-level permissions, replace the bullets above with these:
+<!--
+When we release record-level permissions, replace the bullets above with these:
 
 You can share an Adobe Workfront Planning record in the following ways: 
 
@@ -94,7 +99,7 @@ Este artigo descreve como você pode copiar um link para a página de um registr
    </td> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Colaborador ou superior</p>
+   <td><p>Colaborador ou posterior</p>
    </td> 
   </tr> 
   <tr> 
@@ -116,7 +121,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 +++  
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -178,7 +184,8 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 </td>
   </tr>
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## Compartilhar links de registro da exibição de tabela do tipo de registro

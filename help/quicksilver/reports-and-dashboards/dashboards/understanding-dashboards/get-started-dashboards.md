@@ -7,7 +7,9 @@ description: O objetivo de um painel é fornecer acesso rápido às informaçõe
 author: Courtney
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 7%
@@ -42,7 +44,7 @@ O objetivo de um painel é fornecer acesso rápido às informações proveniente
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Exibir acesso a relatórios, painéis e calendários</p></td> 
+   <td> <p>Visualizar acesso a relatórios, painéis e calendários</p></td> 
   </tr>  
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -57,10 +59,10 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 ## Objetos que você pode adicionar a um painel
 
-Você pode preencher um painel de controle com até 25 dos seguintes itens no Adobe Workfront:
+É possível preencher um painel com até 25 dos seguintes itens no Adobe Workfront:
 
 * Relatórios\
-  Para obter mais informações sobre a criação de relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Para obter mais informações sobre como criar relatórios, consulte [Criar um relatório personalizado](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * Calendários\
   Para obter mais informações sobre como criar calendários, consulte [Visão geral dos relatórios do calendário](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
@@ -81,23 +83,23 @@ Você pode compartilhar um painel com os usuários das seguintes maneiras:
   Para obter mais informações sobre como adicionar painéis ao painel esquerdo, consulte [Navegação à esquerda na Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Coloque os painéis em modelos de layout, que você pode compartilhar com os usuários.\
-  Para obter mais informações sobre o compartilhamento de painéis através de modelos de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+  Para obter mais informações sobre como compartilhar painéis por meio de modelos de layout, consulte [Personalizar o painel esquerdo usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 * Imprima uma cópia impressa deles para compartilhar com os usuários.\
   Para obter mais informações sobre como imprimir painéis, consulte [Imprimir um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
-* Exporte-os como um arquivo PDF para que possa enviá-los por email aos usuários.\
+* Exporte-os como um arquivo do PDF para que você possa enviá-los por email aos usuários.\
   Para obter mais informações sobre como exportar um painel para um arquivo do PDF, consulte [Exportar um painel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 Quando você compartilha um painel com usuários, todos os relatórios, calendários e páginas externas que estão no painel também são compartilhados com os mesmos usuários por padrão.
 
 >[!IMPORTANT]
 >
->Se um usuário for excluído, os painéis que ele criou não estarão mais acessíveis. Para saber mais, consulte [Excluir usuários](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>Se um usuário for excluído, os painéis criados por ele não estarão mais acessíveis. Para saber mais, consulte [Excluir usuários](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 ## Exibir painéis
 
-Você pode exibir um painel de instrumentos das seguintes maneiras:
+Você pode exibir um painel das seguintes maneiras:
 
 * Acesse o painel pelo painel esquerdo de um objeto.
 Para obter mais informações sobre como colocar painéis no painel esquerdo, consulte [Navegação à esquerda no Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
@@ -113,17 +115,17 @@ Para obter mais informações sobre como colocar painéis no painel esquerdo, co
 
      >[!TIP]
      >
-     >Se você não tiver acesso de Edição a Relatórios, Painéis e Calendários em seu nível de acesso, não poderá criar painéis. Nesse caso, a lista Meus painéis está vazia.
+     >Se você não tiver o acesso para Editar a Relatórios, Painéis e Calendários no seu nível de acesso, não será possível criar painéis. Nesse caso, a lista Meus painéis está vazia.
 
    * **Painéis compartilhados**: os painéis criados por outros usuários e compartilhados com você são listados aqui.
-   * **Todos os painéis**: os painéis e painéis que outros usuários compartilharam com você estão listados aqui.
+   * **Todos os Painéis**: seus painéis e painéis que outros usuários compartilharam com você estão listados aqui.
 
    ![Área de painéis](assets/dashboards-area.png)
 
 1. Clique no nome de um painel para exibi-lo.\
    O painel exibe as informações incluídas nos relatórios, calendários ou páginas externas que os preenchem.
-1. (Opcional e condicional) Clique no ícone **Recarregar** no canto superior direito do painel para atualizar as informações no painel.\
-   As informações no painel são sincronizadas em tempo real quando você as acessa pela primeira vez. Se você exibir o painel por algum tempo em seu navegador, as informações dentro dos relatórios no painel podem ficar desatualizadas. A data e a hora em que o painel foi atualizado pela última vez são listadas à esquerda deste ícone.\
+1. (Opcional e condicional) Clique no ícone **Recarregar** na parte superior direita do painel para atualizar as informações no painel.\
+   As informações no painel são sincronizadas em tempo real quando você as acessa pela primeira vez. Se você exibir o painel por algum tempo em seu navegador, as informações contidas nos relatórios no painel poderão se tornar desatualizadas. A data e a hora em que o painel foi atualizado pela última vez são listadas à esquerda deste ícone.\
    ![Ícone de recarregamento](assets/dashboard-reload-icon.png)
 
 ## Excluir painéis

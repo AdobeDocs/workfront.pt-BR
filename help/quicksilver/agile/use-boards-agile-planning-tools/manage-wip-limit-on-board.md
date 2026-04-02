@@ -2,23 +2,25 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Gerenciar o Limite de Trabalho em Andamento (WIP) em uma Placa
-description: Você pode configurar um limite Trabalho em Andamento (WIP) para cada coluna de uma placa.
+title: Gerenciar o limite do Trabalho em curso (WIP) em um quadro
+description: Você pode configurar um limite de Trabalho em andamento (WIP) para cada coluna de um quadro.
 author: Courtney
 feature: Agile
 exl-id: 7901c6e7-75a4-41e4-b288-d527c4a6d031
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 16%
 
 ---
 
-# Gerenciar o limite de [!UICONTROL Trabalho em andamento] (WIP) em um painel
+# Gerenciar o limite de [!UICONTROL Trabalho em andamento] (WIP) em um quadro
 
 Você pode configurar um limite de [!UICONTROL Trabalho em andamento] (WIP) para cada coluna de um quadro.
 
-O limite WIP é simplesmente um aviso visual e não o impede de ter mais itens em cada coluna do que o limite definido.
+O limite WIP é simplesmente uma advertência visual e não o impede de ter mais itens em cada coluna do que o limite definido.
 
 ## Requisitos de acesso
 
@@ -46,22 +48,22 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Definir o limite WIP em uma coluna
+## Definir o limite de WIP em uma coluna
 
 {{step1-to-boards}}
 
-1. Acessar um painel. Para obter mais informações, consulte [Criar ou editar um painel](../../agile/get-started-with-boards/create-edit-board.md).
+1. Acessar um quadro. Para obter informações, consulte [Criar ou editar um quadro](../../agile/get-started-with-boards/create-edit-board.md).
 1. Localize a coluna à qual deseja adicionar o limite de WIP.
 
    Para adicionar uma nova coluna, consulte [Gerenciar colunas do quadro](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 1. Clique no menu **[!UICONTROL Mais]** na coluna e selecione **[!UICONTROL Editar]** para abrir a área Configurações.
-1. Em [!UICONTROL Políticas de coluna], habilite a política de limite **[!UICONTROL de &#x200B;]Trabalhos em andamento** para limitar o número de cartões que podem ser adicionados à coluna.
-1. Digite o número do limite no campo **[!UICONTROL Definir limite]**.
+1. Em [!UICONTROL Políticas de Coluna], habilite a política de limite **[!UICONTROL de ]Trabalho em andamento** para limitar o número de cartões que podem ser adicionados à coluna.
+1. Digite o número de limite no campo **[!UICONTROL Definir limite]**.
 
    ![Limite de WIP para a coluna](assets/boards-wip-limit-in-column.png)
 
-   O número de cartões e o limite são exibidos na parte superior da coluna. Se a coluna contiver mais cartas do que o limite, o contador ficará vermelho.
+   O número de cartões e o limite são exibidos na parte superior da coluna. Se a coluna contiver mais cartões do que o limite, o contador ficará vermelho.
 
    ![Contador de limite de WIP](assets/boards-wip-limit-counter.png)
 

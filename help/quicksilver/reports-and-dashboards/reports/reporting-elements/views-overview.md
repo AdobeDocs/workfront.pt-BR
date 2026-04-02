@@ -3,11 +3,13 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Visão geral das visualizações no Adobe Workfront
-description: Você pode personalizar o tipo de informação exibida em uma lista ou relatório gerenciando a exibição da lista ou relatório. Você pode exibir objetos e seus atributos em uma exibição.
+description: Você pode personalizar o tipo de informação exibida em uma lista ou relatório gerenciando a visualização da lista ou do relatório. É possível exibir objetos e seus atributos em uma visualização.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 2%
@@ -18,7 +20,7 @@ ht-degree: 2%
 
 <!--Audited: 11/2024-->
 
-Você pode personalizar o tipo de informação exibida em uma lista ou relatório gerenciando a exibição da lista ou relatório. Você pode exibir objetos e seus atributos em uma exibição. Para obter informações sobre os objetos do Adobe Workfront, consulte [Entender os objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Você pode personalizar o tipo de informação exibida em uma lista ou relatório gerenciando a visualização da lista ou do relatório. É possível exibir objetos e seus atributos em uma visualização. Para obter informações sobre os objetos do Adobe Workfront, consulte [Entender os objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Considerações sobre visualizações
 
@@ -27,12 +29,12 @@ Você pode personalizar o tipo de informação exibida em uma lista ou relatóri
 
   Para obter informações sobre como conceder acesso, consulte [Conceder acesso a filtros, visualizações e agrupamentos](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* Seu nível de permissões para uma exibição determina como uma exibição é salva. Se tiver criado a visualização originalmente, você poderá salvar as alterações, caso contrário, será solicitado que você salve uma versão da visualização. Se você fizer alterações em uma exibição compartilhada com outras pessoas, elas também serão afetadas.
-* É possível personalizar uma exibição que foi compartilhada com você apenas se o usuário que a compartilhou concedeu acesso de Gerenciamento. Para obter informações sobre o compartilhamento de uma exibição, consulte [Compartilhar um filtro, exibição ou agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* Seu nível de permissões para uma exibição determina como uma exibição é salva. Se tiver criado a visualização originalmente, você poderá salvar as alterações, caso contrário, será solicitado que você salve uma versão da visualização. Se você fizer alterações em uma visualização compartilhada com outras pessoas, elas também serão afetadas.
+* É possível personalizar uma visualização que foi compartilhada com você somente se o usuário que a compartilhou tiver concedido acesso de Gerenciar. Para obter informações sobre como compartilhar um modo de exibição, consulte [Compartilhar um filtro, modo de exibição ou agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-É possível personalizar as exibições existentes, criar exibições com base nas existentes ou criar exibições do zero.
+Você pode personalizar visualizações existentes, criar visualizações com base em visualizações existentes ou criar visualizações do zero.
 
-## Tipos de exibições no Workfront
+## Tipos de visualizações no Workfront
 
 A seguir estão tipos de exibições que podem ser aplicadas em listas ou relatórios no Workfront:
 
@@ -46,12 +48,12 @@ A seguir estão tipos de exibições que podem ser aplicadas em listas ou relat�
         <td>É possível aplicar a exibição Quadro a uma lista de tarefas na seção Tarefas de um projeto ou a uma lista de problemas na seção Problemas do projeto para gerenciar seus projetos usando uma metodologia Agile. Para obter informações, consulte <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md">Gerenciar um projeto Agile na exibição de Quadro</a>.</td>
     </tr>
     <tr>
-        <td><strong>Exibição de Gantt</strong></td>
-        <td>Você pode aplicá-lo a uma lista de tarefas na seção Tarefas de um projeto, a uma lista de projetos ou adicioná-lo a uma tarefa ou a um relatório de projeto. Você pode personalizar as informações exibidas na exibição de Gantt usando opções incorporadas predefinidas. Todos os usuários com acesso para exibir tarefas ou projetos podem exibi-los na exibição de Gantt. Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Introdução ao Gráfico de Gantt</a>.</td>
+        <td><strong>exibição de Gantt</strong></td>
+        <td>Você pode aplicá-lo a uma lista de tarefas na seção Tarefas de um projeto, a uma lista de projetos, ou adicioná-lo a um relatório de tarefa ou de projeto. Você pode personalizar quais informações você visualiza na visualização de Gantt usando opções predefinidas incorporadas. Todos os usuários com acesso para visualizar tarefas ou projetos podem visualizá-los na visualização de Gantt. Para obter informações, consulte <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Introdução ao Gráfico de Gantt</a>.</td>
        </tr>
 
 <tr>
-        <td><strong>Exibição aprimorada</strong></td>
+        <td><strong>Visualização aprimorada</strong></td>
         <td>As exibições aprimoradas são baseadas em listas aprimoradas. Eles estão disponíveis em algumas áreas do Workfront. Essas listas usam um formato de tabela para exibir os itens de lista e têm uma aparência diferente das exibições ou listas padrão. O gerenciamento de visualizações também é aprimorado, incluindo filtragem, agrupamento, gerenciamento de colunas e pesquisa. Para obter informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md">Usar listas aprimoradas</a></td>
        </tr>    
 </table>
@@ -66,15 +68,15 @@ Você pode compartilhar os elementos de uma exibição padrão.
 
 Para obter informações sobre como compartilhar um modo de exibição padrão, consulte [Compartilhar um filtro, modo de exibição ou agrupamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-Não é possível compartilhar as exibições de Gantt e do painel. Todos com acesso às áreas em que essas exibições são exibidas podem exibir as mesmas informações.
+Não é possível compartilhar as visualizações de Gantt e Tabuleiro. Todos com acesso às áreas em que essas exibições são exibidas podem exibir as mesmas informações.
 
 <!-- add something about the enhanced views here, when we have a link-->
 
-## Remover uma exibição
+## Remover uma visualização
 
-A capacidade de remover uma exibição funciona de forma diferente dependendo se você criou a exibição inicialmente ou se ela foi compartilhada com você. Não é possível remover uma exibição padrão.
+A capacidade de remover uma visualização funciona de forma diferente, dependendo se você criou inicialmente a visualização ou se ela foi compartilhada com você. Não é possível remover uma exibição padrão.
 
-Não é possível remover as exibições de Gantt ou do painel.
+Não é possível remover as visualizações de Gantt ou Quadro.
 
 Para obter mais informações sobre como remover um modo de exibição padrão, consulte [Remover filtros, modos de exibição e agrupamentos](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 

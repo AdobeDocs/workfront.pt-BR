@@ -6,14 +6,16 @@ description: Embora não haja limite para o número de usuários que você pode 
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
-# Remover usuários do conjunto de recursos
+# Remover usuários dos pools de recursos
 
 Embora não haja limite para o número de usuários que você pode ter em um pool de recursos, a lista de usuários exibe apenas os primeiros 2000 usuários, listados em ordem alfabética.
 
@@ -23,7 +25,7 @@ Para obter mais informações sobre pools de recursos, consulte [Visão geral do
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +37,7 @@ Para obter mais informações sobre pools de recursos, consulte [Visão geral do
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    <p>Plano</p></td>
   </tr> 
   <tr> 
@@ -69,7 +71,9 @@ Ou\
    ![Remover usuários do Pool de Recursos](assets/remove-users-from-resource-pool.png)
 
 1. Clique no ícone X no nível do usuário para remover um usuário do Pool de recursos. Eles são removidos de todas as listas em que aparecem.
-   <!--Or  
-   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
+   <!--
+   Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.
+   -->
 
 1. Clique em **Salvar**.

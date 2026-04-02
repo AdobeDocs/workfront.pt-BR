@@ -1,18 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Aplicar um cartão de pontuação a um projeto e gerar uma Pontuação de alinhamento
+title: Aplicar um cartão de pontuação a um projeto e gerar uma pontuação de alinhamento
 description: Você pode usar um cartão de pontuação para medir como um projeto se alinha aos critérios estabelecidos anteriormente de um portfólio. Um cartão de pontuação geralmente reflete a missão, os valores e os objetivos estratégicos de uma organização.
 author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1211'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Aplicar um cartão de pontuação a um projeto e gerar uma Pontuação de alinhamento
+# Aplicar um cartão de pontuação a um projeto e gerar uma pontuação de alinhamento
 
 <!-- Audited: 06/2025 -->
 
@@ -22,7 +24,7 @@ Para obter mais informações sobre cartões de pontuação e como criar um, con
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +38,7 @@ Para obter mais informações sobre cartões de pontuação e como criar um, con
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td>  
   </tr> 
   <tr> 
@@ -100,7 +102,8 @@ Para aplicar um cartão de pontuação a um projeto:
 
    O cartão de pontuação agora está associado ao projeto e o projeto é pontuado.
 
-<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
+<!--
+This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
 1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
 
@@ -195,7 +198,7 @@ Para obter mais informações sobre as informações exibidas no Portfolio Otimi
 
    Para obter mais informações sobre como a pontuação de alinhamento de um portfólio é gerada, consulte [Gerar uma pontuação de alinhamento para um portfólio](#generate-an-alignment-score-for-a-portfolio).
 
-## Visão geral da pontuação do Portfolio Otimizer
+## Visão geral da pontuação do otimizador de portfólios
 
 Há uma diferença entre a pontuação de alinhamento e a pontuação do otimizador de portfólio de um projeto.
 

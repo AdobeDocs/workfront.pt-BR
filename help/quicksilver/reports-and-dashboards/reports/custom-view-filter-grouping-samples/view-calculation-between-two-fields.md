@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Exibir: exibe o resultado de um cálculo entre dois campos em uma coluna'
-description: You can use text mode in a column to display a calculation between two fields.
+description: Você pode usar o modo de texto em uma coluna para exibir um cálculo entre dois campos.
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 20%
@@ -18,13 +20,13 @@ ht-degree: 20%
 
 <!--Audited: 11/2024-->
 
-You can use text mode in a column to display a calculation between two fields.
+Você pode usar o modo de texto em uma coluna para exibir um cálculo entre dois campos.
 
-For example, if you want to find out the number of week days that elapsed between two dates, you can use text mode syntax and data expressions to calculate this difference.\
-For example, you can calculate the week day difference between the Planned Completion Date and the Actual Completion Date of a task and display the result in a column.
+Por exemplo, se você quiser descobrir o número de dias da semana decorridos entre duas datas, poderá usar a sintaxe do modo de texto e as expressões de dados para calcular essa diferença.\
+Por exemplo, você pode calcular a diferença de dia da semana entre a Data de conclusão planejada e a Data de conclusão real de uma tarefa e exibir o resultado em uma coluna.
 
-You can use any other two dates in this calculation (Actual Start, Actual Completion, Projected Start, Projected Completion, etc).\
-For more information about calculated data expressions, see [Overview of calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Você pode usar quaisquer outras duas datas nesse cálculo (Início Efetivo, Conclusão Efetiva, Início Projetado, Conclusão Projetada etc.).\
+Para obter mais informações sobre expressões de dados calculados, consulte [Visão geral de expressões de dados calculados](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ## Requisitos de acesso
 
@@ -41,12 +43,12 @@ For more information about calculated data expressions, see [Overview of calcula
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou solicitação para modificar um filtro </p>
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a filtros, exibições e agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -60,15 +62,15 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 +++
 
 
-## Display the result of a calculation between two fields in a column
+## Exibir o resultado de um cálculo entre dois campos em uma coluna
 
-To add this column to a task view:
+Para adicionar esta coluna a uma visualização de tarefa:
 
 1. Ir para uma lista de tarefas.
-1. No menu suspenso **Exibição**, clique em **Nova Exibição**.
+1. No menu suspenso **Exibir**, clique em **Nova Exibição**.
 
-1. Click **Add Column**, then **Switch to Text Mode** > **Edit Text Mode**.
-1. Remove the text you find in the **Text Mode** box, and replace it with the following code:
+1. Clique em **Adicionar Coluna** e em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
+1. Remova o texto localizado na caixa **Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
    displayname=Week Day Difference
@@ -77,5 +79,5 @@ To add this column to a task view:
    valueformat=HTML
    ```
 
-1. (Optional) To aggregate the values displayed in the view in a grouping, follow the steps described in [Grouping: display the result of aggregating multiple calculated values in a grouping](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
+1. (Opcional) Para agregar os valores exibidos na exibição em um agrupamento, siga as etapas descritas em [Agrupamento: exibir o resultado da agregação de vários valores calculados em um agrupamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 1. Clique em **Concluído** e depois em **Salvar exibição**.

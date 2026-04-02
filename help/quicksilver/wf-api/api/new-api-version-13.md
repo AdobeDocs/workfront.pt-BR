@@ -1,20 +1,22 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novidades da API versão 13
+title: Novidades na versão 13 da API
 description: O Adobe Workfront lançou a API versão 13 em 22 de abril de 2021. A API versão 13 apresenta as seguintes alterações da versão 12.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Novidades da API versão 13
+# Novidades na versão 13 da API
 
 O Adobe Workfront lançou a API versão 13 em 22 de abril de 2021. A API versão 13 apresenta as seguintes alterações da versão 12.
 
@@ -87,7 +89,7 @@ Para obter mais informações sobre níveis de acesso, consulte [Como os níveis
 
 ### BreadCrumb {#breadcrumb}
 
-Um objeto BreadCrumb representa um elemento na hierarquia pai/filho de um item de trabalho do Workfront. As navegações estruturais indicam como um item de trabalho se encaixa na estrutura maior de Portfolio, Projetos, Projetos e Tarefas.
+Um objeto BreadCrumb representa um elemento na hierarquia pai/filho de um item de trabalho do Workfront. As navegações estruturais indicam como um item de trabalho se encaixa na estrutura maior de Portfólios, Projetos, Projetos e Tarefas.
 
 Para obter mais informações sobre navegação estrutural, consulte [Visão geral sobre navegação estrutural na nova experiência do Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
@@ -259,7 +261,7 @@ Para o objeto que representa modelos de layout na nova experiência do Adobe Wor
 
 ### LinkedFolder {#linkedfolder}
 
-Um objeto LinkedFolder representa uma pasta vinculada de um provedor de documentos externo, como Google Drive ou Dropbox.
+Um objeto LinkedFolder representa uma pasta vinculada de um provedor de documentos externo, como o Google Drive ou o Dropbox.
 
 Para obter mais informações sobre Pastas Vinculadas, consulte [Vincular documentos de aplicativos externos](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
@@ -310,9 +312,11 @@ Os projetos são itens de trabalho no Workfront e um elemento principal da manei
    <td> <p>Campos diretos</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>convertedOpTaskOriginatorID</b> </p> <!--
+     <li> <p><b>convertedOpTaskOriginatorID</b> </p>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Removed flag NOT&nbsp;FILTERABLE</p>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -405,7 +409,7 @@ Um objeto Equipe é uma coleção de Usuários que pode ser atribuída a um item
  </tbody> 
 </table>
 
-### Planilha de horas {#timesheet}
+### Folha de horas {#timesheet}
 
 Um objeto de Planilha de Horas representa um cartão de ponto virtual que permite aos Usuários inserir as horas reais trabalhadas para Tarefas, Projetos e Tipos de Horas Gerais.
 

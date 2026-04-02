@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Agrupamento: Organizar os Resultados da Lista por um Valor Calculado Comum a Todos os Objetos no Agrupamento'
-description: Convém exibir as tarefas agrupadas por Porcentagem Concluída em intervalos de 0-25, 26-50, 51-75, 75-99 e 100. Para fazer isso, você pode criar um agrupamento usando o modo de texto.
+description: Talvez você queira exibir suas tarefas agrupadas por Percentual concluído nas faixas de 0 a 25, 26 a 50, 51 a 75, 75 a 99 e 100. Para fazer isso, é possível criar um agrupamento usando o modo de texto.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 22%
@@ -18,9 +20,9 @@ ht-degree: 22%
 
 <!--Audited: 10/2024-->
 
-Convém exibir as tarefas agrupadas por Porcentagem Concluída em intervalos de 0-25, 26-50, 51-75, 75-99 e 100. Para fazer isso, você pode criar um agrupamento usando o modo de texto.
+Talvez você queira exibir suas tarefas agrupadas por Percentual concluído nas faixas de 0 a 25, 26 a 50, 51 a 75, 75 a 99 e 100. Para fazer isso, é possível criar um agrupamento usando o modo de texto.
 
-![Agrupando por valor calculado](assets/grouping-calculated-value-column-to-all-objects.png)
+![Agrupamento por valor calculado](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## Requisitos de acesso
 
@@ -37,12 +39,12 @@ Convém exibir as tarefas agrupadas por Porcentagem Concluída em intervalos de 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou solicitação para modificar um filtro </p>
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a filtros, exibições e agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -55,14 +57,14 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Organizar os resultados da lista por um valor calculado comum a todos os objetos no agrupamento
+## Organiza os resultados da lista por um valor calculado comum a todos os objetos no agrupamento
 
-Para aplicar este agrupamento a uma lista de tarefas:
+Para aplicar esse agrupamento a uma lista de tarefas:
 
 1. Ir para uma lista de tarefas.
 1. No menu suspenso **Agrupamento** selecione **Novo Agrupamento**.
 
-1. Clique em **Alternar para o Modo de Texto**.
+1. Clique em **Alternar para Modo de Texto**.
 1. No espaço disponível, adicione o seguinte código:
 
    ```
@@ -73,5 +75,5 @@ Para aplicar este agrupamento a uma lista de tarefas:
    group.0.namekey=percentComplete
    ```
 
-1. Clique em **Concluído** e depois em **Salvar Agrupamento**.
-1. (Opcional) Atualize o nome do agrupamento e clique em **Salvar Agrupamento**.
+1. Clique em **Concluído** e em **Salvar agrupamento**.
+1. (Opcional) Atualize o nome do agrupamento e clique em **Salvar agrupamento**.

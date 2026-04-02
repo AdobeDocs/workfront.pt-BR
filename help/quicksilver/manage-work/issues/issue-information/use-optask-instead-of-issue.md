@@ -6,14 +6,16 @@ description: O nome de um problema aparece como opTask no banco de dados do Adob
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Use &quot;opTask&quot; e &quot;issue&quot; ao fazer referência a problemas
+# Use “opTask” e “issue” ao fazer referência aos problemas
 
 <!--Audited: 08/2025-->
 
@@ -29,8 +31,10 @@ Use o nome de campo `opTask` ao fazer referência a problemas nos seguintes cont
 
   Para obter mais informações sobre como usar o modo texto em um relatório, consulte [Visão geral do Modo Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-<!--* When you pull information about issues using our API.  
-  For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)-->
+<!--
+* When you pull information about issues using our API.  
+  For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)
+  -->
 
 * Ao atualizar campos de problema em uma folha do importador de dados de Início.
 

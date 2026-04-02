@@ -6,7 +6,9 @@ description: Usar formatação condicional no modo texto
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 4%
@@ -17,9 +19,9 @@ ht-degree: 4%
 
 <!--Audited: 01/2025-->
 
-O criador de interface padrão oferece uma grande variedade de flexibilidade ao criar elementos de relatório para atender às necessidades da sua organização.
+O construtor de interface padrão oferece uma grande variedade de flexibilidade ao criar elementos de relatórios para atender às necessidades em sua organização.
 
-É possível aplicar formatação condicional em uma exibição usando a interface padrão.\
+Você pode aplicar formatação condicional em uma view usando a interface padrão.\
 Para obter mais informações sobre como aplicar formatação condicional a uma exibição, consulte [Usar formatação condicional nas exibições](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Requisitos de acesso
@@ -43,11 +45,11 @@ Para obter mais informações sobre como aplicar formatação condicional a uma 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a filtros, exibições e agrupamentos</p> <p>Acesso de edição a relatórios, painéis e calendários para editar exibições em um relatório</p> </td> 
+   <td> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis, Calendários para editar visualizações em um relatório</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para um relatório para editar exibições em um relatório</p> <p>Gerenciar permissões para um modo de exibição para editá-lo</p> </td> 
+   <td> <p>Gerenciar permissões de um relatório para editar exibições em um relatório</p> <p>Gerenciar permissões em uma exibição para editá-la</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -58,36 +60,36 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 ## Formatação condicional no modo de texto
 
-Text mode enables you to create more complex views, filters, groupings, and prompts by allowing you to use fields that are not available in the standard interface.
+O modo de texto permite que você crie exibições, filtros, agrupamentos e prompts mais complexos, permitindo que você use campos que não estão disponíveis na interface padrão.
 
-For a complete list of all our reportable fields, see the  [API Explorer](../../../wf-api/general/api-explorer.md).
+Para obter uma lista completa de todos os campos reportáveis, consulte o [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Para obter mais informações sobre como usar a sintaxe do modo de texto, consulte [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+Para obter mais informações sobre o uso da sintaxe de modo de texto, consulte [Visão geral da sintaxe de modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-Você também pode usar o modo de texto para formatar exibições em relatórios e listas. Usando a formatação condicional, você pode alterar as exibições dos relatórios alterando o tipo de fonte e o plano de fundo dos resultados no relatório, bem como ícones e sinalizadores. Recomendamos que você sempre crie suas exibições usando primeiro a interface padrão e alterne para a interface do modo de texto somente quando absolutamente necessário.
+Você também pode usar o modo texto para formatar exibições em relatórios e listas. Usando a formatação condicional, você pode alterar as exibições dos relatórios alterando o tipo de fonte e o plano de fundo dos resultados no relatório, bem como ícones e sinalizadores. Recomendamos que você sempre crie suas visualizações usando primeiro a interface padrão e alterne para a interface do modo de texto somente quando absolutamente necessário.
 
 >[!NOTE]
 >
-> O uso do estilo CSS para personalizar a formatação condicional não é compatível. Instead, you must use the predesigned formatting options that are available in Adobe Workfront.
+> Não há suporte para o uso do estilo CSS para personalizar a formatação condicional. Em vez disso, você deve usar as opções de formatação pré-criadas disponíveis no Adobe Workfront.
 
-## Add conditional formatting to Views
+## Adicionar formatação condicional a Exibições
 
-For more information about applying conditional formatting to a view in the standard builder interface, see [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Para obter mais informações sobre como aplicar formatação condicional a uma exibição na interface do construtor padrão, consulte [Usar formatação condicional nas exibições](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
-To add conditional formatting to a view in the text mode interface:
+Para adicionar formatação condicional a uma exibição na interface do modo de texto:
 
-1. Go to a list of objects.
-1. Expand the drop-down menu of a view to which you want to add conditional formatting.
+1. Ir para uma lista de objetos.
+1. Expanda o menu suspenso de uma exibição à qual você deseja adicionar formatação condicional.
 1. Clique em **Personalizar exibição**.
-1. Clique na coluna da view à qual deseja aplicar a formatação condicional.
+1. Clique na coluna na exibição à qual deseja aplicar a formatação condicional.
 1. Clique em **Alternar para Modo de Texto**.
 1. Na área **Mostrar nesta coluna:**, clique em **Clicar para editar texto**.
 1. Adicione as amostras de código fornecidas em [Modos de Exibição de Formato usando o Modo de Texto](#format-views-using-text-mode) na parte inferior do texto na coluna selecionada.
 1. Clique em **Salvar** e em **Salvar exibição**.
 
-## Formatar Exibições usando o Modo de Texto {#format-views-using-text-mode}
+## Formatar Visualizações usando o Modo de Texto {#format-views-using-text-mode}
 
-Você pode adicionar os seguintes componentes a uma coluna em uma view para formatá-la condicionalmente no modo de texto:
+Você pode adicionar os seguintes componentes a uma coluna em uma exibição para formatá-la condicionalmente no modo de texto:
 
 * [Configurações de coluna](#column-settings)
 * [Regras de coluna](#column-rules)
@@ -95,9 +97,9 @@ Você pode adicionar os seguintes componentes a uma coluna em uma view para form
 
 ### Configurações da coluna {#column-settings}
 
-Você deve estar familiarizado com a interface do modo de texto antes de adicionar formatação condicional às suas exibições.
+Familiarize-se com a interface do modo de texto antes de adicionar formatação condicional às visualizações.
 
-Você pode personalizar os seguintes elementos de uma coluna ao usar a formatação condicional em uma view:
+Você pode personalizar os seguintes elementos de uma coluna ao usar formatação condicional em uma exibição:
 
 * [Cabeçalhos de coluna](#column-headers)
 * [Formatar datas](#format-dates)
@@ -105,7 +107,7 @@ Você pode personalizar os seguintes elementos de uma coluna ao usar a formataç
 
 #### Cabeçalhos de coluna {#column-headers}
 
-Para alterar o cabeçalho da coluna exibida, adicione o seguinte código à coluna: `displayname= [Name of column]`. Por exemplo, para nomear uma coluna como Proprietário do projeto, o código de texto se pareceria com:
+Para alterar o cabeçalho da coluna exibida, adicione o seguinte código à coluna: `displayname= [Name of column]`. Por exemplo, para nomear uma coluna como Proprietário do projeto, o código de texto seria semelhante a:
 
 `displayname=Project Owner`
 
@@ -113,17 +115,17 @@ Para alterar o cabeçalho da coluna exibida, adicione o seguinte código à colu
 
 As datas podem ser configuradas para exibir em vários formatos.
 
-Para obter mais informações, consulte [Formatar datas em relatórios do modo de texto](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
+Para obter mais informações, consulte [Formatar datas nos relatórios do modo texto](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
 #### Formatar números {#format-numbers}
 
-Você pode formatar valores numéricos para exibir as informações que melhor se adequam às suas necessidades de relatório.
+Você pode formatar valores numéricos para exibir informações que melhor se ajustam às suas necessidades de relatórios.
 
-Para obter mais informações, consulte [Formatar números, moeda e valores percentuais em relatórios do modo de texto](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
+Para obter mais informações, consulte [Formatar números, valores de moeda e porcentagem em relatórios de modo de texto](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
 
 ### Regras de coluna {#column-rules}
 
-As regras da coluna permitem a adição de imagens, cor, formatação e substituições de texto em uma exibição. As regras de coluna podem ser estabelecidas independentemente ou podem conter várias condições para uma coluna.
+As regras de coluna permitem a adição de imagens, cores, formatação e substituições de texto em uma exibição. As regras de coluna podem ser estabelecidas de forma independente ou podem conter várias condições para uma coluna.
 
 * [Formatação condicional](#conditional-formatting)
 * [Vários formatos condicionais](#multiple-conditional-formats)
@@ -158,7 +160,7 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 >
 >A linha `styledef.case.0.comparison.icon` é sempre falsa, a menos que você esteja trabalhando com ícones.
 >
->A linha `styledef.case.0.comparison.truetext` é sempre deixada em branco até o trabalho com a substituição de texto.
+>A linha `styledef.case.0.comparison.truetext` sempre fica em branco até que você trabalhe com a substituição do texto.
 >
 >A linha `styledef.case.0.comparison.righttext` fica em branco quando o qualificador não está em branco.
 
@@ -178,33 +180,33 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 
 >[!NOTE]
 >
->* Embora essa instrução possa ser aplicada a uma coluna Nome da empresa, ela também pode ser aplicada a qualquer outra coluna no relatório. O texto verde só seria exibido se o projeto tivesse uma Empresa associada a ele. Lembre-se da unidade `[field name]`, `[value]` e `[qualifier]` se o condicionamento será exibido ou não na coluna.
->* Ao trabalhar com qualificadores, recomendamos usar `cicontains` em vez de `equal`. Por padrão, `equal` procura números de identificação. Usando o qualificador `cicontains`, você pode acessar itens pelo nome.
+>* Embora essa instrução possa ser aplicada a uma coluna de Nome da empresa, ela também pode ser aplicada a qualquer outra coluna no relatório. O texto em verde só seria exibido se o projeto tivesse uma Empresa associada a ele. Lembre-se da unidade `[field name]`, `[value]` e `[qualifier]` se a condição é exibida ou não na coluna.
+>* Ao trabalhar com qualificadores, recomendamos usar `cicontains` em vez de `equal`. Por padrão, `equal` procura números de ID. Usando o qualificador `cicontains`, você pode acessar itens pelo nome.
 
 ![Exemplo de modo de texto](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
 
-![Resultados de exemplo do modo de texto](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
+![Resultados de exemplo do modo texto](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
-Se a Cor do texto, o Alinhamento, o Estilo da fonte ou a Cor do plano de fundo estiverem aplicados a um modo de texto, a mesma instrução (mostrada acima) será usada.
+Se Cor do texto, Alinhamento, Estilo da fonte ou Cor do plano de fundo forem aplicados a um modo de texto, a mesma instrução (mostrada acima) será usada.
 
-The following lines must be modified to reflect the corresponding formatting needed for the column:
+As seguintes linhas devem ser modificadas para refletir a formatação correspondente necessária para a coluna:
 
 ```
 styledef.case.0.comparison.trueproperty.0.name= [format option]
 styledef.case.0.comparison.trueproperty.0.value= [format style]
 ```
 
-Use the following tables to identify which lines must be modified and what values you should specify to define the format style of your column:
+Use as tabelas a seguir para identificar quais linhas devem ser modificadas e quais valores você deve especificar para definir o estilo de formato da coluna:
 
 | **Cor do texto** | **Linha: textcolor=** |
 |---|---|
 | Preto | `000000` |
-| Azul-escuro | `0c6aca` |
-| Teal | `1b878c` |
+| Azul escuro | `0c6aca` |
+| Azul-petróleo | `1b878c` |
 | Verde | `03a219` |
 | Roxo | `6408c4` |
-| Grey | `767676` |
+| Cinza | `767676` |
 | Vermelho | `d30519` |
 | Amarelo | `e19503` |
 
@@ -218,18 +220,18 @@ Use the following tables to identify which lines must be modified and what value
 
 {style="table-layout:auto"}
 
-| Fonte | Line: ***fontstyle=*** |
+| Fonte | Linha: ***fontstyle=*** |
 |---|---|
 | Negrito | `bold` |
 | Itálico | `italic` |
 
 {style="table-layout:auto"}
 
-| **Cor do plano de fundo** | **Linha: bgcolor=** |
+| **Cor do Plano de Fundo** | **Linha: bgcolor=** |
 |---|---|
-| Teal | `dcf6f7` |
+| Azul-petróleo | `dcf6f7` |
 | Verde | `def6e2` |
-| Grey | `e8e8e8` |
+| Cinza | `e8e8e8` |
 | Azul | `e8f1ff` |
 | Roxo | `e9def4` |
 | Vermelho | `eac6c9` |
@@ -242,7 +244,7 @@ Use the following tables to identify which lines must be modified and what value
 
 É possível aplicar mais de um estilo de formatação a uma instrução. A instrução principal permaneceria inalterada e qualquer expressão de formatação adicional seria adicionada à instrução.
 
-Por exemplo, usar a declaração anterior para incluir o Nome da empresa em negrito verde. A declaração seria escrita usando o seguinte código:
+Por exemplo, usar a instrução anterior para incluir o Nome da empresa em texto verde em negrito. A declaração seria escrita usando o seguinte código:
 
 ```
 styledef.case.0.comparison.leftmethod=company:name
@@ -264,9 +266,9 @@ styledef.case.0.comparison.trueproperty.1.value=bold
 
 #### Aplicar texto {#apply-text}
 
-Se quiser substituir os valores padrão que são preenchidos em uma coluna por um valor de sua escolha, é possível aplicar texto à coluna.
+Se quiser substituir os valores padrão que são preenchidos em uma coluna por um valor de sua escolha, será possível ao aplicar texto à coluna.
 
-Por exemplo, em um relatório de projeto, defina o valor da coluna Data de Início Planejada para não exibir a data de início planejada do projeto, mas o texto &#39;Não Hoje&#39;. Use o seguinte código para a coluna Data Inicial Planejada:
+Por exemplo, em um relatório de projeto, defina o valor da coluna Data inicial planejada para não exibir a data inicial planejada para o projeto, e sim o texto &#39;Não hoje&#39;. Use o seguinte código para a coluna Data Inicial Planejada:
 
 ```
 case.0.comparison.leftmethod=plannedStartDate
@@ -287,7 +289,7 @@ styledef.case.0.comparison.truetext=not today
 
 >[!NOTE]
 >
->As linhas que começam com `case.0.` usam comparações de maiúsculas e minúsculas para identificar o uso do texto. As linhas que começam com `styledef.case.0.` são instruções de formatação condicional anteriores em que identificamos o uso de texto por meio da expressão `truetext`. Defina `truetext` como um valor, em vez de deixá-lo em branco.
+>As linhas que começam com `case.0.` usam comparações de casos para identificar o uso de texto. As linhas que começam com `styledef.case.0.` são instruções de formatação condicional antecipada onde identificamos o uso de texto através da expressão `truetext`. Defina `truetext` com um valor, em vez de deixá-lo em branco.
 
 ![Aplicar exemplo de texto](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
@@ -323,7 +325,7 @@ row.0.styledef.case.0.comparison.truetext=
 
 #### Aplicar imagens {#apply-images}
 
-Da mesma forma que a formatação com texto, as imagens podem ser usadas para exibir informações nos relatórios. O Workfront tem várias imagens incorporadas para transmitir informações visuais em uma configuração de relatório. Para usar imagens na configuração de formatação condicional, é necessária a seguinte instrução:
+Da mesma forma que a formatação com texto, as imagens podem ser usadas para exibir informações nos relatórios. O Workfront tem várias imagens integradas para transmitir informações visuais em uma configuração de relatório. Para usar imagens na configuração de formatação condicional, a seguinte instrução é necessária:
 
 ```
 image.case.0.comparison.leftmethod= [field name]
@@ -335,7 +337,7 @@ image.case.0.comparison.icon=true
 image.case.0.comparison.truetext=
 ```
 
-Por exemplo, em um relatório de projeto, você deseja criar uma coluna na qual mostraria uma face frontal para cada Data de Conclusão Planejada que não seja igual à data de hoje. Use o seguinte código de modo de texto para adicionar o ícone à coluna:
+Por exemplo, em um relatório de projeto, você deseja criar uma coluna na qual você mostraria uma face frontal para cada Data de conclusão planejada que não seja igual à data de hoje. Use o seguinte código do modo de texto para adicionar o ícone à coluna:
 
 ```
 image.case.0.comparison.leftmethod=plannedCompletionDate
@@ -349,7 +351,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 >[!NOTE]
 >
->Observe que a instrução usa a expressão `icon=true`. Essa instrução também é diferente de outras instruções de formatação condicional, pois ela não usa o formato `style.def`, mas sim um formato de imagem exclusivo.
+>Observe que a instrução usa a expressão `icon=true`. Esta instrução também é diferente de outras instruções de formatação condicional, pois não usa o formato `style.def`, mas sim um formato de imagem exclusivo.
 
 ![Modo de texto do ícone](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
@@ -359,22 +361,22 @@ Para usar as imagens disponíveis, aplique os seguintes códigos e valores:
 
 | **Ícone** | **Linha: image.case.0.comparison.truetext=** |
 |---|---|
-| Rosto Triste ![Rosto Triste](assets/face-sad.png) | = `/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| Rosto Feliz ![Rosto Feliz](assets/face-happy.png) | = `/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| Blue Flag  ![Blue flag](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| Sinalizador Verde ![Sinalizador Verde](assets/flag-green-large.png) | = `/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| Sinalizador Vermelho ![Sinalizador Vermelho](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| Yellow Flag  ![Yellow flag](assets/flag-yellow-style2.png) | = `/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| Círculo Preto ![Círculo Preto](assets/dot-black.png) | = `/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
-| Círculo azul ![Círculo azul](assets/dot-blue.png) | = `/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| Círculo Cinza ![Círculo Cinza](assets/dot-gray.png) | = `/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
-| Círculo Verde ![Círculo verde](assets/dot-green.png) | = `/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
+| Rosto Triste ![Rosto Triste](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| Rosto feliz ![Rosto feliz](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| Sinalizador Azul ![Sinalizador Azul](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| Sinalizador Verde ![Sinalizador Verde](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| Sinalizador vermelho ![Sinalizador vermelho](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| Sinalizador Amarelo ![Sinalizador Amarelo](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| Círculo Preto ![Círculo Preto](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| Círculo azul ![Círculo azul](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
+| Círculo Cinza ![Círculo Cinza](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| Círculo verde ![Círculo verde](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
 | Círculo Laranja ![Círculo Laranja](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| Círculo Rosa ![Círculo Rosa](assets/dot-pink.png) | = `/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
-| Círculo Roxo ![Círculo roxo](assets/dot-purple.png) | = `/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
-| Red Circle ![Red circle](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
-| White Circle ![White circle](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
-| Yellow Circle ![Yellow circle](assets/dot-yellow.png) | = `/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
+| Círculo Rosa ![Círculo Rosa](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| Círculo Roxo ![Círculo Roxo](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
+| Círculo Vermelho ![Círculo Vermelho](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| Círculo Branco ![Círculo Branco](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
+| Círculo Amarelo ![Círculo amarelo](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 {style="table-layout:auto"}
 
@@ -384,15 +386,15 @@ Para exibir um valor calculado em uma coluna, você pode substituir a linha de c
 
 Para obter mais informações sobre como formatar a `valueexpression line`, consulte [Visão geral da sintaxe do modo de texto](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-Você não pode formatar condicionalmente uma coluna que contém uma linha de código `valueexpression`. Em vez disso, você pode adicionar um Campo personalizado calculado a um Formulário personalizado e associá-lo aos objetos que você está exibindo no relatório. Em seguida, você pode formatar condicionalmente as colunas que exibem esse campo.
+Você não pode formatar condicionalmente uma coluna que contém uma linha de código `valueexpression`. Em vez disso, você pode adicionar um Campo personalizado calculado a um Formulário personalizado e associá-lo aos objetos que você está exibindo no relatório. Em seguida, é possível formatar condicionalmente as colunas que exibem esse campo.
 
 Para obter mais informações sobre Campos Personalizados Calculados, consulte [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-## Adicionar um valor de agregador em uma coluna Modo de texto
+## Adicionar um valor de agregador em uma coluna Text Mode
 
-Recomendamos que você crie a coluna na interface do construtor primeiro, adicione o valor agregador ali e depois edite a coluna no modo de texto.
+Recomendamos que você crie a coluna na interface do construtor primeiro, adicione o valor do agregador lá e edite a coluna no Modo de texto.
 
-Considere o seguinte ao adicionar agregadores a uma coluna no Modo Texto:
+Considere o seguinte ao adicionar agregadores a uma coluna no Modo de Texto:
 
 * Os valores na coluna devem ter um formato que possa ser resumido. Por exemplo, eles devem ter um dos seguintes formatos:
 
@@ -400,7 +402,7 @@ Considere o seguinte ao adicionar agregadores a uma coluna no Modo Texto:
    * Data
    * Moeda
 
-* Você pode adicionar um agregador a uma coluna que exibe um cálculo. O valor agregado é exibido no agrupamento da exibição ou do relatório. Para obter mais informações, consulte [Agrupamento: exibe o resultado da agregação de vários valores calculados em um agrupamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
+* Você pode adicionar um agregador a uma coluna que exibe um cálculo. O valor agregado é exibido no agrupamento da exibição ou do relatório. Para obter mais informações, consulte [Agrupamento: exibir o resultado da agregação de vários valores calculados em um agrupamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * As linhas de código para a definição da coluna devem ser idênticas às linhas de código que introduzem o agregador e precedidas por &quot;agregador&quot;. Por exemplo, se você tiver uma coluna em que exibe Horas planejadas em um projeto, o modo de texto das linhas principais da coluna será:
 
 ```
@@ -410,10 +412,10 @@ Considere o seguinte ao adicionar agregadores a uma coluna no Modo Texto:
 
 Quando você quiser agregar os valores de todas as linhas no agrupamento da exibição, podemos adicionar o seguinte código para adicionar os valores do agregador:
 
-`aggregator.valuefield=workRequired` (a linha `aggregator.valuefield` deve ser igual à `valuefield` que descreve a coluna)
+`aggregator.valuefield=workRequired` (a linha `aggregator.valuefield` deve ser a mesma que `valuefield` que descreve a coluna)
 
 `aggregator.valueformat=compound` (a linha `aggregator.valueformat` deve ter o mesmo valor que `valueformat` que descreve a coluna)
 
 `aggregator.function=SUM` (esta é uma linha obrigatória que indica como você deseja agregar a coluna; neste caso, você deseja adicionar todas as Horas Planejadas individuais em um número na linha de agrupamento)
 
-`aggregator.displayformat=minutesAsHoursString` (como as horas são armazenadas no Workfront em minutos, queremos indicar `displayformat` para as horas em que são armazenadas em minutos)
+`aggregator.displayformat=minutesAsHoursString` (como as horas são armazenadas no Workfront em minutos, queremos indicar o `displayformat` para as horas em que são armazenadas em minutos)

@@ -7,10 +7,12 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b2bee19f-32eb-49b9-9497-dea290ce64b2
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 1%
+source-wordcount: '1296'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +30,7 @@ Para exibir uma lista de aprimoramentos lançados após a versão 2019.3, consul
 
 A versão 2019.3 contém as seguintes melhorias:
 
-### Aprimoramentos do projeto
+### Aprimoramentos de projeto
 
 * [O filtro Abrir agora mostra mais resultados em uma lista de Problemas](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-project-enhancements.md#changes)
 
@@ -158,14 +160,16 @@ A versão 2019.3 contém as seguintes melhorias:
 
 * [Excluir objetos usando o aplicativo móvel no iOS](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
-  <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
+  <!--
+    <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
 
   Agora você pode excluir objetos como tarefas, problemas e folhas de horas no aplicativo móvel. Você deve ter as permissões corretas no objeto para excluí-lo.
 
 * [Redefina sua senha usando o aplicativo móvel](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#reset)
 
-  <!--<MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
+  <!--
+  <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
   -->
 
   Você pode usar o aplicativo Workfront Mobile para redefinir sua senha caso a tenha esquecido.
@@ -351,7 +355,7 @@ Criamos um novo tipo de campo no construtor de formulários personalizado chamad
   We are removing the Documents and Issues tabs from the Agile iteration details page.
 -->
 
-## Atualizações de manutenção do Workfront 
+## Atualizações de manutenção do Workfront
 
 Para obter informações sobre as atualizações de manutenção feitas durante a versão 2019.3, consulte .
 
@@ -361,7 +365,7 @@ Para obter informações sobre as atualizações de manutenção feitas durante 
 * [Biblioteca Workfront disponível agora](#workfront-library-now-available)
 * Não há mais suporte para a [API versão 3](#api-version-3-no-longer-supported)
 * [O suporte para TLS 1.0 e 1.1 está terminando](#tls-1-0-and-1-1-support-is-ending)
-* [remoção do aplicativo do Flash](#flash-application-removal)
+* [Remoção de aplicativo Flash](#flash-application-removal)
 * [Várias opções de Logon Único a serem removidas](#various-single-sign-on-options-to-be-removed)
 * [Webinário do roteiro de produtos do terceiro trimestre](#q3-product-roadmap-webinar)
 
@@ -399,7 +403,7 @@ TLS 1.2 to be required in Workfront
 ](https://experience.workfront.com/s/article/TLS-1-2-to-be-required-in-Workfront-1474533813).
 -->
 
-### Remoção do aplicativo do Flash {#flash-application-removal}
+### Remoção de aplicativo Flash {#flash-application-removal}
 
 Todas as funcionalidades que dependem da tecnologia Flash foram removidas do Workfront desde a versão 2018.3 e substituídas por uma nova solução.
 
@@ -467,4 +471,4 @@ Esta é a linha do tempo de remoção dessas opções de SSO:
 
 ### Webinário do roteiro de produtos do terceiro trimestre {#q3-product-roadmap-webinar}
 
-Saiba mais sobre o que está por vir durante o [webinário do T3 Roadmap](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register) em 1º de agosto, às 9h. MST
+Saiba mais sobre o que está por vir durante o [webinário do T3 Roadmap](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register) em 1º de agosto, às 9:00. MST

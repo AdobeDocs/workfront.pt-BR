@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 6%
@@ -24,9 +26,9 @@ ht-degree: 6%
 Como administrador do Adobe Workfront, você pode configurar modelos de email para aceitar notificações de lembrete.
 
 Modelos de email contêm a mensagem enviada aos usuários quando uma notificação de lembrete é iniciada.\
-Sem um modelo de email, a notificação do lembrete será entregue como conteúdo vazio no corpo do email.
+Sem um template de email, a notificação de lembrete será entregue como conteúdo vazio no corpo do email.
 
-Os modelos de email podem ser associados a notificações de lembrete para problemas, tarefas, projetos e quadros de horários. Ao criar modelos de e-mail, seu administrador do Workfront pode fornecer conteúdo para o e-mail e uma linha de assunto.
+Os modelos de email podem ser associados a notificações de lembrete para problemas, tarefas, projetos e folhas de horas. Ao criar modelos de email, o administrador do Workfront pode fornecer conteúdo para o email e uma linha de assunto.
 
 ## Requisitos de acesso
 
@@ -67,7 +69,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. Clique em **Novo Modelo de email**.
 
-1. Na caixa **Novo Modelo de Email**, especifique as seguintes informações:
+1. Na caixa **Novo Modelo de email**, especifique as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -75,7 +77,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
     <tbody> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td>Adicione um título ao modelo de email. Este campo é obrigatório.</td> 
+      <td>Adicione um título para o modelo de email. Este campo é obrigatório.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo de objeto</td> 
@@ -86,16 +88,16 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <li>Problema</li>
       <li>Folha de horas</li> </ul>
 
-   Esse é um campo obrigatório e está definido como Projeto, por padrão.</td>
+   Este campo é obrigatório e está definido como Projeto, por padrão.</td>
    </tr>
      <tr> 
       <td role="rowheader">Descrição</td> 
-      <td>Adicione mais informações sobre o modelo de email, sua finalidade e o público-alvo.</td> 
+      <td>Adicione mais informações sobre o modelo de email, sua finalidade e público-alvo.</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">Assunto </td> 
-      <td>Adicione o texto exibido na linha de assunto do e-mail quando a mensagem de e-mail gerada pelo modelo for enviada. Este campo é obrigatório.</td> 
+      <td>Adicione o texto que é exibido na linha Assunto do email, quando a mensagem de email gerada pelo template é enviada. Este campo é obrigatório.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Corpo </td> 
@@ -111,7 +113,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 É possível adicionar tags HTML a modelos de email para produzir notificações personalizadas.\
 Comece a criar o modelo de email conforme descrito em [Criar um novo modelo de email](#create-a-new-email-template).
 
-A formatação HTML pode enriquecer seus modelos de e-mail, conforme mostrado nas seções a seguir.
+A formatação HTML pode enriquecer seus modelos de email, conforme mostrado nas seções a seguir.
 
 * [Vincular a objetos do Workfront](#link-to-workfront-objects)
 * [Vincular a campos personalizados com o HTML](#link-to-custom-fields-with-html)
@@ -119,9 +121,9 @@ A formatação HTML pode enriquecer seus modelos de e-mail, conforme mostrado na
 
 ### Vincular a objetos do Workfront {#link-to-workfront-objects}
 
-Você pode incluir links para campos Workfront usando o curinga `$$` para informar ao gerador de email para procurar valores do banco de dados associado a um objeto específico.
+Você pode incluir links para campos do Workfront usando o curinga `$$` para instruir o gerador de email a procurar valores no banco de dados associado a um objeto específico.
 
-Por exemplo, o corpo do e-mail de uma notificação alertando o destinatário da tarefa que está prestes a iniciar pode seguir esta estrutura:
+Por exemplo, o corpo do email de uma notificação alertando o destinatário da tarefa que a tarefa está prestes a iniciar pode seguir esta estrutura:
 
 ```html
 <html>
@@ -143,9 +145,9 @@ Por exemplo, o corpo do e-mail de uma notificação alertando o destinatário da
 </html>
 ```
 
-Para obter o valor “curinga” de um objeto, siga um destes procedimentos:
+Para obter o valor &quot;curinga&quot; de um objeto, siga um destes procedimentos:
 
-* Consulte o Explorador de API e selecione os nomes de seus objetos na guia Campos de qualquer objeto. Para obter mais informações sobre o API Explorer, consulte o [API Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
+* Consulte o API Explorer e selecione os nomes dos objetos na guia Fields de qualquer objeto. Para obter mais informações sobre o API Explorer, consulte [API Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
 
 * Use o valor `valuefield` encontrado em um modo de exibição de texto de um relatório. Para obter mais informações sobre valores de modo de texto, consulte [Visão geral do Modo de Texto](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
@@ -163,7 +165,7 @@ Para adicionar campos personalizados usando a mesma formatação, você pode adi
 
 `DE:Custom Field As It Appears in Workfront`
 
-Por exemplo, este é um modelo de email que inclui uma referência a um campo personalizado chamado Data de entrega e supõe-se que o campo Data de entrega pertence a uma tarefa.
+Por exemplo, este é um template de email que inclui uma referência a um campo personalizado chamado Data de entrega e está presumindo que o campo Data de entrega pertence a uma tarefa.
 
 Substitua `<your domain>` pelo domínio Workfront da sua empresa, sem os colchetes:
 
@@ -195,18 +197,18 @@ Substitua `<your domain>` pelo domínio Workfront da sua empresa, sem os colchet
 
 >[!NOTE]
 >
->Se o campo pertencer a um projeto, substitua a tarefa pelo projeto:
+>Se o campo pertencer a um projeto, substituir tarefa por projeto:
 >
 >`DE:Project:Delivery Date`
 
-### Exemplos de email HTML {#html-email-examples}
+### Exemplos de email do HTML {#html-email-examples}
 
 * [Notificação de lembrete de Projeto Atrasado (exemplo)](#late-project-reminder-notification-example)
-* [Lembrete de Tarefa ou Questão Prestes a Iniciar (exemplo)](#task-or-issue-about-to-start-reminder-example)
+* [Lembrete sobre Tarefa ou Problema Prestes a Iniciar (exemplo)](#task-or-issue-about-to-start-reminder-example)
 
 #### Notificação de lembrete de Projeto atrasado (exemplo) {#late-project-reminder-notification-example}
 
-Para editar um modelo de e-mail para um lembrete atrasado do projeto, considere essas informações para os campos Assunto e Conteúdo.
+Para editar um modelo de email para um lembrete de projeto atrasado, considere essas informações para os campos Assunto e Conteúdo.
 
 Substitua `<your domain>` pelo domínio Workfront da sua empresa, sem os colchetes.
 
@@ -234,13 +236,13 @@ Um Projeto Que Você Gerencia Se Atrasou
 </html>
 ```
 
-Isso produz um e-mail semelhante ao seguinte:
+Isso produzirá um email semelhante ao seguinte:
 
-![O projeto se tornou um email atrasado](assets/project-became-late-email.png)
+![Email de atraso do projeto](assets/project-became-late-email.png)
 
 #### Lembrete de Tarefa ou Problema Prestes a Iniciar {#task-or-issue-about-to-start-reminder-example}
 
-Você também pode criar uma notificação de lembrete para uma tarefa ou ocorrência futura.
+Você também pode criar uma notificação de lembrete para uma tarefa ou problema futuro.
 
 O código a seguir pode ser incluído em um modelo de email a ser usado para notificações de lembrete de tarefas e problemas que são enviadas qualquer número de dias antes da data planejada de início da tarefa ou problema.
 

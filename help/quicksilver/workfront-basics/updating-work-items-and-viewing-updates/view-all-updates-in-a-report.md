@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Exibir todas as atualizações em um relatório de Nota
+title: Visualizar todas as atualizações em um relatório de Notas
 description: Para visualizar todas as atualizações que qualquer um dos usuários inseriu para um objeto, você pode criar um relatório de Nota que exibe todas as atualizações.
 author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
-# Exibir todas as atualizações em um relatório de Nota
+# Visualizar todas as atualizações em um relatório de Notas
 
 <!-- Audited: 10/2025 -->
 
@@ -66,7 +68,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -96,7 +99,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
     <p>Note: If you do not have View permission or higher to an object, information for that object doesn't display in the report.</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Criar um relatório de Nota
 

@@ -1,25 +1,27 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: Usar Datas Planejadas em um Relatório de Calendário
-description: Um relatório de calendário é um relatório dinâmico que fornece uma representação visual do seu trabalho. Você pode usar os campos Data Planejada em um relatório de calendário para tarefas, ocorrências e projetos.
+title: Usar datas planejadas em um relatório de calendário
+description: Um relatório de calendário é um relatório dinâmico que fornece uma representação visual do seu trabalho. Você pode usar os campos Data planejada em um relatório de calendário para tarefas, problemas e projetos.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 16%
 
 ---
 
-# Usar [!UICONTROL Datas Planejadas] em um relatório de calendário
+# Usar [!UICONTROL Datas planejadas] em um relatório de calendário
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
 -->
 
-Um relatório de calendário é um relatório dinâmico que fornece uma representação visual do seu trabalho. Você pode usar campos de [!UICONTROL Data Planejada] em um relatório de calendário para os seguintes objetos:
+Um relatório de calendário é um relatório dinâmico que fornece uma representação visual do seu trabalho. Você pode usar os campos [!UICONTROL Data Planejada] em um relatório de calendário para os seguintes objetos:
 
 * Tarefas
 * Problemas
@@ -67,7 +69,7 @@ Você pode escolher como deseja que o grupo de itens seja exibido no calendário
 
 1. Selecione o calendário ao qual deseja adicionar um novo grupo de itens.
 Ou
-Clique em **[!UICONTROL + Novo Calendário]** e insira o nome do calendário.
+Clique em **[!UICONTROL + Novo calendário]** e digite o nome do calendário.
 
    >[!NOTE]
    >
@@ -110,7 +112,7 @@ Clique em **[!UICONTROL + Novo Calendário]** e insira o nome do calendário.
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader"><strong>[!UICONTROL Alternar para datas reais quando disponível]</strong></td>
-      <td><p>O calendário alterna automaticamente para datas reais quando elas estão disponíveis. <br>Escolha <strong>[!UICONTROL Yes]</strong> ou <strong>[!UICONTROL No]</strong> para alternar para as datas reais quando disponíveis. Para obter mais informações sobre Datas Reais, consulte</p>
+      <td><p>O calendário alterna automaticamente para datas reais quando elas estão disponíveis. <br>Escolha <strong>[!UICONTROL Sim]</strong> ou <strong>[!UICONTROL Não]</strong> para alternar para datas reais quando disponíveis. Para obter mais informações sobre Datas Reais, consulte</p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Visão geral da data de início real do projeto </a></li>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Visão geral da data de conclusão real do projeto </a></li>
@@ -119,11 +121,11 @@ Clique em **[!UICONTROL + Novo Calendário]** e insira o nome do calendário.
     </tbody>
    </table>
 
-1. Continue na seção a seguir.
+1. Prossiga para a seção a seguir.
 
 ## Adicionar objetos ao grupo de itens na Visualização
 
-Depois de configurar como deseja que os itens sejam exibidos, você precisará adicionar os objetos que deseja ver no calendário ao agrupamento.
+Depois de configurar como deseja que os itens sejam exibidos, você precisa adicionar os objetos que deseja ver no calendário ao agrupamento.
 
 1. No **[!UICONTROL O que você deseja adicionar ao calendário?seção]**, selecione
 
@@ -144,11 +146,11 @@ Depois de configurar como deseja que os itens sejam exibidos, você precisará a
 
 1. (Opcional) Especifique objetos adicionais para o agrupamento de calendário repetindo as Etapas de 1 a 4.
 
-1. Em **[!UICONTROL Definir os rótulos Tarefas/Projetos/Questões como o campo...]**, selecione como os objetos neste agrupamento de calendário são rotulados no calendário.
+1. No campo **[!UICONTROL Definir os rótulos de Tarefas/Projetos/Problemas para...]**, selecione como os objetos neste agrupamento de calendário são rotulados no calendário.
 
    >[!NOTE]
    >
-   >Se as opções de rótulo padrão não estiverem disponíveis para um determinado objeto, o nome do objeto será exibido em seu lugar. Por exemplo, quando o rótulo [!UICONTROL Tarefa pai] estiver selecionado e não houver nenhuma tarefa pai associada ao objeto, [!DNL Adobe Workfront] exibirá o nome do objeto que você está exibindo no calendário.
+   >Se as opções de rótulo padrão não estiverem disponíveis para um determinado objeto, o nome do objeto será exibido. Por exemplo, quando o rótulo [!UICONTROL Tarefa pai] é selecionado e não há nenhuma tarefa pai associada ao objeto, [!DNL Adobe Workfront] exibe o nome do objeto que você está visualizando no calendário.
 
    ![definir rótulos de tarefa](assets/set-task-labels.png)
 1. Clique em **[!UICONTROL Salvar]**.

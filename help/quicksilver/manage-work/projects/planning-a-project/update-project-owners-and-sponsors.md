@@ -6,10 +6,12 @@ description: Ao criar um projeto no Adobe Workfront, você é automaticamente de
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -32,7 +34,7 @@ Para obter informações sobre proprietários e patrocinadores de projetos, cons
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +46,7 @@ Para obter informações sobre proprietários e patrocinadores de projetos, cons
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
    <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +64,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +89,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    <td> <p>Edit permissions to a project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Atualizar o Proprietário de um projeto
 

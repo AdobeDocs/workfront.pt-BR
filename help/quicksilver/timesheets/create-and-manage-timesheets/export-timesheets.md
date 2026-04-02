@@ -1,19 +1,21 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Exportar uma lista de planilhas de horas
+title: Exportar uma lista de folhas de horas
 description: Como gerente de pessoas ou aprovador de planilhas de horas, você pode precisar baixar uma lista de planilhas de horas para visualizar rapidamente as informações sobre as planilhas de horas das pessoas pelas quais você é responsável. Você pode fazer isso exportando uma lista de folhas de horas.
 author: Lisa
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
-# Exportar uma lista de planilhas de horas
+# Exportar uma lista de folhas de horas
 
 <!--Audited: 8/2024-->
 
@@ -21,7 +23,7 @@ Como gerente de pessoas ou aprovador de planilhas de horas, você pode precisar 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +53,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--Old permissions:
+<!--
+Old permissions:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,9 +79,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
  </tbody> 
 </table>
 
-*To find out what plan or license type you have, contact your Workfront administrator.-->
+*To find out what plan or license type you have, contact your Workfront administrator.
+-->
 
-## Exportar uma lista de planilhas de horas
+## Exportar uma lista de folhas de horas
 
 {{step1-to-timesheets}}
 

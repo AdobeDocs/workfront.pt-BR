@@ -2,28 +2,30 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configurar Scrum
-description: Você pode configurar as seguintes opções para os grupos Scrum Agile durante ou após a criação do grupo.
+description: Você pode configurar as seguintes opções para as equipes do Scrum Agile durante ou após a criação da equipe.
 author: Courtney
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 2%
 
 ---
 
-# Configurar o [!UICONTROL Scrum]
+# Configurar [!UICONTROL Scrum]
 
-Você pode criar uma equipe Ágil em [!DNL Adobe Workfront] conforme descrito em [Criar uma equipe Ágil](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Ao criar uma equipe ágil, você pode escolher a metodologia que a equipe usa para concluir seu trabalho. Você pode escolher entre as seguintes opções:
+Você pode criar uma equipe Agile em [!DNL Adobe Workfront] conforme descrito em [Criar uma equipe Agile](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Ao criar uma equipe Ágil, é possível escolher a metodologia que a equipe usa para concluir o trabalho. Você pode escolher entre as seguintes opções:
 
 * Scrum
 * Kanban
 
-Este artigo descreve como definir as configurações de uma equipe Scrum. Depois de criar uma equipe ágil e escolher a metodologia Scrum, você pode consultar este artigo para atualizar as seguintes configurações:
+Este artigo descreve como definir as configurações para uma equipe Scrum. Depois de criar uma equipe Agile e escolher a metodologia Scrum, consulte este artigo para atualizar as seguintes configurações:
 
 * Se as histórias são estimadas em pontos ou horas
-* As colunas de status no quadro de matérias Ágil para iterações e projetos
+* As colunas de status no storyboard Agile para iterações e projetos
 * Campos adicionais a serem exibidos nos cartões de história no storyboard Agile
 * Como os indicadores de cor são usados para matérias no storyboard Agile
 * Como as datas são aplicadas ao adicionar itens de trabalho a uma iteração
@@ -53,7 +55,7 @@ Para obter informações sobre como configurar uma equipe Kanban, consulte [Conf
 
 <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso ao Teams</p>  </td> 
+   <td> <p>Editar acesso a equipes</p>  </td> 
   </tr>
 
 </tbody> 
@@ -71,15 +73,15 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 Você pode configurar histórias para serem estimadas usando pontos ou horas.
 
-Para configurar como as histórias são estimadas para sua equipe Ágil:
+Para configurar como as histórias são estimadas para sua equipe Agile:
 
 {{step1-to-team}}
 
-1. Clique no ícone **[!UICONTROL Alternar equipe]** e, em seguida, selecione uma nova equipe no menu suspenso ou pesquise uma equipe na barra de pesquisa.
-1. Selecione a equipe ágil que deseja gerenciar.
+1. Clique no ícone **[!UICONTROL Trocar equipe]** e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
+1. Selecione a equipe Agile que você deseja gerenciar.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 
-   Somente membros da equipe com uma licença [!UICONTROL Padrão], [!UICONTROL Plano] ou [!UICONTROL Trabalho] veem esta opção.
+   Somente membros da equipe com uma licença [!UICONTROL Padrão], [!UICONTROL Plano] ou [!UICONTROL Trabalho] podem ver esta opção.
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
 1. Na seção **[!UICONTROL Agile]**, na área **[!UICONTROL Estimar Histórias em]**, selecione se deseja usar pontos ou horas para estimar o tamanho (carga de trabalho) das histórias. Se você selecionar Pontos, especifique quantas horas são iguais a 1 ponto. (O padrão é 1 ponto = 8 horas.) Este é o número de Horas planejadas que são adicionadas à história.
@@ -97,7 +99,7 @@ Você pode configurar quais colunas são exibidas no storyboard do Agile para to
 
 ### Configurar colunas de status para iterações {#configure-status-columns-for-iterations}
 
-Você pode definir os status existentes no storyboard da equipe Agile. Esses são os únicos status exibidos no quadro de matérias.
+Você pode definir os status existentes no storyboard da equipe Agile. Esses são os únicos status exibidos no storyboard.
 
 Para definir os status que estão disponíveis para o storyboard associado à Equipe Agile:
 
@@ -129,24 +131,24 @@ Para definir os status que estão disponíveis para o storyboard associado à Eq
 
    >[!NOTE]
    >
-   >Ao selecionar status de ocorrência, o padrão da terceira coluna sempre é [!UICONTROL Fechado]. Se você tiver mais de três colunas, certifique-se de atualizá-las manualmente para refletir os status apropriados.
+   >Ao selecionar os status dos problemas, o padrão da terceira coluna é [!UICONTROL Fechada]. Se você tiver mais de três colunas, atualize manualmente as colunas para refletir os status adequados.
 
 1. Clique em **[!UICONTROL Salvar alterações]**.
 
 ### Configurar colunas de status para projetos {#configure-status-columns-for-projects}
 
-Para obter informações sobre como configurar colunas de status para um projeto, consulte a seção [Criar ou personalizar uma exibição [!UICONTROL Ágil]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) no artigo [Criar ou editar exibições em [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+Para obter informações sobre como configurar colunas de status para um projeto, consulte a seção [Criar ou personalizar uma [!UICONTROL exibição Agile]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) no artigo [Criar ou editar exibições em [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Configurar campos adicionais para exibir em cartões de história no storyboard Agile
 
-Quando você adiciona campos a cartões de matéria, os campos são somente exibição e somente exibição quando o campo está preenchido.
+Ao adicionar campos a cartões de matéria, os campos são somente visualização e somente exibição quando o campo é preenchido.
 
-Por padrão, os seguintes tipos de dados são exibidos no cartão da matéria para tarefas e ocorrências:
+Por padrão, os seguintes tipos de dados são exibidos no cartão de história para tarefas e problemas:
 
-* Nome da matéria com um link direto para a tarefa ou ocorrência
+* Nome da história com um link diretamente para a tarefa ou problema
 * O nome do projeto com um link direto para o projeto
-* Este link é exibido apenas para matérias, não para subtarefas
-* A descrição da tarefa ou da ocorrência
+* Esse link é exibido apenas para histórias, não para subtarefas
+* A descrição da tarefa ou do problema
 * Compromisso atual
 * Exiba e edite o percentual concluído ajustando o próprio percentual concluído ou ajustando o número de pontos ou horas concluídos
 * Usuários atribuídos
@@ -169,7 +171,7 @@ Somente membros da equipe com uma licença de [!UICONTROL Plano] ou [!UICONTROL 
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
-1. Na seção **[!UICONTROL Ágil]**, digite um nome de campo para localizá-lo.
+1. Na seção **[!UICONTROL Agile]**, digite um nome de campo para localizá-lo.
 
    ![Campos adicionais](assets/agile-additional-fields-scrum.png)
 
@@ -177,15 +179,15 @@ Somente membros da equipe com uma licença de [!UICONTROL Plano] ou [!UICONTROL 
 1. Digite o **[!UICONTROL Nome de exibição]** para que o campo seja exibido na história ou no cartão do problema.
 1. Clique em **[!UICONTROL Salvar alterações]**.
 
-## Configurar como os indicadores de cores são usados para matérias no quadro de matérias Ágil
+## Configure como os indicadores de cor são usados para matérias no storyboard Agile
 
-Por padrão, os ladrilhos do quadro de matérias em uma iteração ágil são codificados por cores de acordo com o projeto ao qual a matéria está associada. Cada projeto recebe arbitrariamente uma cor no quadro de matérias. É possível alterar esse comportamento padrão para cada grupo Agile. As cores de matérias Ágeis podem ser vinculadas à prioridade da matéria, ao proprietário etc.
+Por padrão, os blocos de storyboard em uma iteração do Agile são codificados por cores de acordo com o projeto ao qual a história está associada. Cada projeto recebe arbitrariamente uma cor no storyboard. É possível alterar esse comportamento padrão para cada equipe Agile. As cores das histórias de Agile podem ser vinculadas à prioridade da história, ao proprietário e assim por diante.
 
-Para alterar o comportamento de como as cores são atribuídas às histórias de uma equipe Ágil:
+Para alterar o comportamento de como as cores são atribuídas a matérias para uma equipe Agile:
 
 {{step1-to-team}}
 
-1. Clique no ícone **[!UICONTROL Alternar equipe]** ![Ícone Alternar equipe](assets/switch-team-icon.png) e, em seguida, selecione uma nova equipe no menu suspenso ou pesquise uma equipe na barra de pesquisa.
+1. Clique no ícone **[!UICONTROL Equipe de comutação]** ![Ícone Equipe de comutação](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Selecione a equipe Agile que você deseja gerenciar.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
@@ -194,10 +196,10 @@ Para alterar o comportamento de como as cores são atribuídas às histórias de
 
    ![Editar equipe](assets/edit-team-settings-350x205.png)
 
-1. Na seção [!UICONTROL Ágil], na área [!UICONTROL Associar cor do cartão a], selecione uma das seguintes opções:
+1. Na seção [!UICONTROL Agile], na área [!UICONTROL Associar Cor do Cartão a], selecione uma das seguintes opções:
 
    * **[!UICONTROL Projeto]**: as cores estão associadas ao projeto ao qual a história está vinculada. (Quando uma história é criada, ela deve ser associada a um projeto, conforme descrito em [Criar uma História Ágil](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). Todas as tarefas do mesmo projeto são exibidas com a mesma cor.
-   * **[!UICONTROL Forma Livre]**: todos os cartões são exibidos em azul por padrão até que um usuário altere a cor manualmente, conforme descrito em [[!UICONTROL Categorizar histórias por cor] no Quadro de Rabisco](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
+   * **[!UICONTROL Forma Livre]**: Todos os cartões são exibidos em azul por padrão até que um usuário altere a cor manualmente, conforme descrito em [[!UICONTROL Categorizar histórias por cor] no quadro Scrum](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
    * **[!UICONTROL Prioridade]**: as cores estão associadas à prioridade da história, como a seguir:
 
       * Alto = Vermelho
@@ -205,7 +207,7 @@ Para alterar o comportamento de como as cores são atribuídas às histórias de
       * Baixo = Verde
 
         Se o administrador do sistema tiver configurado prioridades personalizadas para o sistema [!DNL Workfront], a prioridade mais alta será vermelha, a segunda mais alta será amarela e a terceira mais alta será verde.
-   * **[!UICONTROL Proprietário da Tarefa]**: todas as histórias com o mesmo destinatário principal têm a mesma cor. O destinatário principal é o usuário que foi atribuído pela primeira vez à tarefa.
+   * **[!UICONTROL Proprietário da Tarefa]**: todas as histórias com o mesmo destinatário primário têm a mesma cor. O principal responsável é o usuário que foi atribuído pela primeira vez à tarefa.
 
 
 1. Clique em **[!UICONTROL Salvar alterações]**.
@@ -228,6 +230,6 @@ Somente membros da equipe com uma licença de [!UICONTROL Plano] ou [!UICONTROL 
 
    Se você alterar a opção de data, as datas dos itens de trabalho já na iteração não serão ajustadas.
 
-   Essas opções podem afetar as datas quando as equipes atribuem itens de trabalho às iterações umas das outras. Por exemplo, a equipe A modifica as datas do item de trabalho para as datas de iteração e a equipe B não modifica as datas do item de trabalho. Se a equipe B atribuir um item de trabalho à iteração da equipe A, as datas do item de trabalho serão alteradas. Entretanto, se a equipe A atribuir um item de trabalho à iteração da equipe B, as datas não serão alteradas.
+   Essas opções podem afetar as datas quando as equipes atribuem itens de trabalho às iterações umas das outras. Por exemplo, a equipe A modifica as datas do item de trabalho para as datas de iteração e a equipe B não modifica as datas do item de trabalho. Se a equipe B atribuir um item de trabalho à iteração da equipe A, as datas do item de trabalho serão alteradas. No entanto, se a equipe A atribuir um item de trabalho à iteração da equipe B, as datas não serão alteradas.
 
 1. Clique em **[!UICONTROL Salvar alterações]**.

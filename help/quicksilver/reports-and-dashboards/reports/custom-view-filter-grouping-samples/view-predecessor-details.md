@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Exibir: Detalhes do Antecessor'
-description: Esta exibição de tarefa mostra detalhes dos predecessores das tarefas que usam uma exibição de coleção. Em uma exibição de coleção, é possível exibir informações sobre objetos que estão em uma relação “um para muitos”. Nesse caso, cada tarefa (uma) pode ter vários predecessores (muitos). A view exibe o nome das tarefas, bem como os Nomes dos Antecessores, os Nomes dos Projetos dos Antecessores, as Datas de Conclusão Planejadas dos Antecessores e os Status dos Antecessores.
+title: 'Exibir: Detalhes da Predecessora'
+description: Esta exibição de tarefa mostra detalhes dos predecessores das tarefas usando uma exibição de coleção. Em uma exibição de coleção, é possível exibir informações sobre objetos que estão em uma relação "um para muitos". Nesse caso, cada tarefa (uma) pode ter várias predecessoras (muitas). A view exibe o nome das tarefas, bem como os Nomes dos Predecessores, os Nomes dos Projetos dos Predecessores, as Datas de Conclusão Planejadas dos Predecessores e os Status dos Predecessores.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 0187da94-4895-47b1-914f-284fed9e0fd0
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 14%
@@ -18,11 +20,11 @@ ht-degree: 14%
 
 <!--Audited: 11/2024-->
 
-Esta exibição de tarefa mostra detalhes dos predecessores das tarefas que usam uma exibição de coleção. Em uma exibição de coleção, é possível exibir informações sobre objetos que estão em uma relação “um para muitos”. Nesse caso, cada tarefa (uma) pode ter vários predecessores (muitos). A view exibe o nome das tarefas, bem como os Nomes dos Antecessores, os Nomes dos Projetos dos Antecessores, as Datas de Conclusão Planejadas dos Antecessores e os Status dos Antecessores.
+Esta exibição de tarefa mostra detalhes dos predecessores das tarefas usando uma exibição de coleção. Em uma exibição de coleção, é possível exibir informações sobre objetos que estão em uma relação &quot;um para muitos&quot;. Nesse caso, cada tarefa (uma) pode ter várias predecessoras (muitas). A view exibe o nome das tarefas, bem como os Nomes dos Predecessores, os Nomes dos Projetos dos Predecessores, as Datas de Conclusão Planejadas dos Predecessores e os Status dos Predecessores.
 
 Para obter informações sobre como fazer referência a coleções em relatórios, consulte [Fazer referência a coleções em um relatório](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
-![predecessores_details_task_view.png](assets/predecessor-details-task-view-350x34.png)
+![predecessor_details_task_view.png](assets/predecessor-details-task-view-350x34.png)
 
 ## Requisitos de acesso
 
@@ -39,12 +41,12 @@ Para obter informações sobre como fazer referência a coleções em relatório
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou Solicitação de modificação de uma exibição </p>
+   <p>Colaborador ou Solicitação para modificar uma exibição </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Acesso de edição a filtros, visualizações, agrupamentos para modificar uma visualização</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -58,14 +60,14 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Exibir detalhes do antecessor
+## Exibir detalhes da predecessora
 
 1. Ir para uma lista de tarefas.
-1. No menu suspenso **Exibição**, selecione **Nova Exibição**.
+1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
 
 1. Na área **Visualização da coluna**, elimine todas as colunas, exceto uma.
-1. Clique no cabeçalho da coluna restante e clique em **Alternar para o Modo de Texto** > **Editar Modo de Texto**.
-1. Remova o texto encontrado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
+1. Clique no cabeçalho da coluna restante e clique em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
+1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
    column.0.displayname=
@@ -104,4 +106,4 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
    column.4.valueformat=HTML
    ```
 
-1. Clique em **Concluído** > **Salvar Exibição**.
+1. Clique em **Concluído** > **Salvar exibição**.

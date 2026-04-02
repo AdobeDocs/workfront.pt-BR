@@ -1,26 +1,28 @@
 ---
-title: Substituição de ferramentas baseadas em Flashes no Adobe Workfront
-description: Substituição de ferramentas baseadas em Flashes no Adobe Workfront
+title: Substituição de ferramentas baseadas em Flash no Adobe Workfront
+description: Substituição de ferramentas baseadas em Flash no Adobe Workfront
 author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2701'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Substituição de ferramentas baseadas em Flashes no Adobe Workfront
+# Substituição de ferramentas baseadas em Flash no Adobe Workfront
 
-Removemos todas as ferramentas baseadas em Flashes do Adobe Workfront Classic.
+Removemos todas as ferramentas baseadas em Flash do Adobe Workfront Classic.
 
-As ferramentas de substituição baseadas nos padrões atuais estão disponíveis agora no Workfront. Essas mudanças estão de acordo com o fim do suporte aos produtos de Flash, conforme anunciado pela Adobe.
+As ferramentas de substituição baseadas nos padrões atuais estão disponíveis agora no Workfront. Essas alterações estão alinhadas ao fim do suporte para produtos Flash, conforme anunciado pela Adobe.
 
 ## Datas importantes
 
-As seguintes datas são importantes para o processo de remoção de todas as ferramentas baseadas em Flashes no Workfront:
+As seguintes datas são importantes para o processo de remoção de todas as ferramentas baseadas em Flash no Workfront:
 
 <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>July 1, 2020</strong>: All Flash-based tools will be removed from all Workfront products for those customers who are not using them currently. </p>
@@ -34,7 +36,7 @@ As seguintes datas são importantes para o processo de remoção de todas as fer
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about contacting our support team, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>. </p>
   -->
 
-* **19 de novembro de 2020**: todas as ferramentas baseadas no Flash foram removidas de todos os produtos da Workfront.
+* **19 de novembro de 2020**: todas as ferramentas baseadas em Flash foram removidas de todos os produtos da Workfront.
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,11 +45,11 @@ As seguintes datas são importantes para o processo de remoção de todas as fer
   </MadCap:conditionalText>
   -->
 
-## Ferramentas herdadas baseadas em Flashes
+## Ferramentas herdadas baseadas em Flash
 
 As ferramentas listadas nas seções a seguir foram removidas do sistema Workfront e substituídas por novas soluções.
 
-Para obter informações sobre ferramentas de substituição, consulte [Ferramentas herdadas baseadas em Flashes e suas substituições](#legacy-flash-based-tools-and-their-replacements) neste artigo.
+Para obter informações sobre ferramentas de substituição, consulte [Ferramentas herdadas baseadas em Flash e suas substituições](#legacy-flash-based-tools-and-their-replacements) neste artigo.
 
 ### Gerenciamento de recursos
 
@@ -102,7 +104,7 @@ Os seguintes recursos e relatórios de relatórios foram removidos:
 ### Diagrama de Gantt antigo
 
 * Todas as exibições de Gantt herdadas das listas de projetos e tarefas, bem como relatórios e opções de relatórios
-* As subguias do Diagrama de Gantt herdado em Portfolio e Programas
+* As subguias Gantt herdadas em Portfólios e Programas
 * A subguia Gantt Herdado em uma lista de Tarefas de Modelo em um Modelo, a exibição Gantt Herdado na guia Subtarefas de uma Tarefa de Modelo e em um relatório de Tarefa de Modelo
 
 ### Prova
@@ -116,7 +118,7 @@ O visualizador de provas herdadas foi substituído pelo novo Visualizador de pro
 Para obter mais informações, consulte os seguintes recursos:
 
 * [Revisar provas no Visualizador de Provas da Web](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
-* [Revisar provas no Visualizador de provas da área de trabalho](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
+* [Revisar provas no Visualizador de provas para desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md" class="MCXref xref">Legacy proofing viewer removed in 2018.3</a> </li>
@@ -133,13 +135,13 @@ Para obter mais informações, consulte os seguintes recursos:
 </div>
 -->
 
-## Ferramentas herdadas baseadas em Flashes e suas substituições {#legacy-flash-based-tools-and-their-replacements}
+## Ferramentas herdadas baseadas em Flash e suas substituições {#legacy-flash-based-tools-and-their-replacements}
 
 Salvo especificação em contrário, todos os recursos herdados foram substituídos por novos, conforme mostrado na tabela a seguir.
 
 >[!CAUTION]
 >
->As ferramentas herdadas baseadas em Flashes foram removidas de todos os ambientes.
+>As ferramentas herdadas baseadas em Flash foram removidas de todos os ambientes.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -171,15 +173,17 @@ Salvo especificação em contrário, todos os recursos herdados foram substituí
   </tr> 
   <tr> 
    <td> <p><strong>Estimativas de Recursos</strong> </p> <p>A guia Estimativas de Recursos em cada Conjunto de Recursos Legados atendia à mesma finalidade do Gerenciador de Orçamento de Recursos, somente no contexto de um Conjunto de Recursos Legados. Essa ferramenta apresentou as mesmas limitações que o Gerenciador de Estimativa de Recursos e os Conjuntos de Recursos Legados: dados imprecisos e entrada manual de disponibilidade. </p> </td> 
-   <td> <p>Com o cálculo automático da disponibilidade de usuários, as Estimativas de Recursos se tornaram obsoletas e foram removidas.</p> <p>A ferramenta é eliminada nos Conjuntos de recursos legados e nas Estimativas de recursos legados no Business Case de um projeto. <!--
+   <td> <p>Com o cálculo automático da disponibilidade de usuários, as Estimativas de Recursos se tornaram obsoletas e foram removidas.</p> <p>A ferramenta é eliminada nos Conjuntos de recursos legados e nas Estimativas de recursos legados no Business Case de um projeto.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
       </MadCap:conditionalText>
-     --></p> </td> 
+     -->
+     </p> </td>
   </tr> 
   <tr> 
    <td> <p><strong>Planejador de Capacidade</strong> </p> <p>O Planejador de Capacidade era uma ferramenta do Workfront para orçar recursos e priorizar projetos dentro de um Conjunto de Recursos Legados, de acordo com a disponibilidade dos recursos. Dada a incompletude dos dados das estimativas de recursos e do gestor de orçamento de recursos que forneceram as informações para o Planejador de capacidade, a priorização dos projetos teve de ser verificada em função da disponibilidade dos utilizadores.</p> <p>O uso de um único Conjunto de recursos herdados que incluía todas as funções de trabalho no sistema era o cenário mais comum, o que resultava em problemas de desempenho com o Planejador de Capacidade tentando carregar um grande número de projetos.</p> </td> 
-   <td> <p><strong>A Exibição do Projeto do Planejador de Recursos</strong> </p> <p>Na visualização baseada em projeto do Planejador de recursos, você pode orçar recursos e priorizar projetos de forma semelhante a como fazia no Planejador de capacidade herdado. Diferentemente da ferramenta herdada, agora há suporte para mais dados, com as informações disponíveis mais precisas, levando em conta as exceções de tempo de folga e de agendamento dos usuários.</p> <p>As informações disponíveis, planejadas e orçadas são visíveis rapidamente para que os Gerentes de recursos possam ver se há pessoas suficientes para fazer o trabalho e se os planos de projeto excedem as estimativas de orçamento iniciais.</p> <p> Para obter informações sobre como usar a Exibição de Projeto no Planejador de Recursos, consulte <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Visão geral do Planejador de Recursos</a></p> <p><strong>O Planejador de cenários</strong> </p> <p>Para o planejamento de capacidade de longo prazo, modelagem e priorização de cenários hipotéticos, também introduzimos o Planejador de cenários da Workfront. </p> <p>O Planejador de cenários está disponível somente na nova experiência do Adobe Workfront e requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">A visão geral do Planejador de cenários</a>. </p> </td> 
+   <td> <p><strong>A Exibição do Projeto do Planejador de Recursos</strong> </p> <p>Na visualização baseada em projeto do Planejador de recursos, você pode orçar recursos e priorizar projetos de forma semelhante a como fazia no Planejador de capacidade herdado. Diferentemente da ferramenta herdada, agora há suporte para mais dados, com as informações disponíveis mais precisas, levando em conta as exceções de tempo de folga e de agendamento dos usuários.</p> <p>As informações disponíveis, planejadas e orçadas são visíveis rapidamente para que os Gerentes de recursos possam ver se há pessoas suficientes para fazer o trabalho e se os planos de projeto excedem as estimativas de orçamento iniciais.</p> <p> Para obter informações sobre como usar a Exibição de Projeto no Planejador de Recursos, consulte <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Visão geral do Planejador de Recursos</a></p> <p><strong>O Planejador de cenários</strong> </p> <p>Para o planejamento de capacidade de longo prazo, modelagem e priorização de cenários hipotéticos, também introduzimos o Planejador de cenários da Workfront. </p> <p>O Planejador de cenários está disponível somente na nova experiência do Adobe Workfront e requer uma licença adicional. Para obter informações sobre o planejador de cenários do Workfront, consulte <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Visão geral do planejador de cenários</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Estimativas de Recursos Legados (Business Case)</strong> </p> <p>Você pode usar a área Estimativas de recursos legados do Business Case para orçar uma certa quantidade de horas e custos de mão de obra como parte do planejamento do projeto e da solicitação de recursos. Essa visualização não dava visibilidade à disponibilidade de recursos, o que resultava em solicitações aproximadas de recursos e uma maior chance de trabalho de projeto rejeitado.</p> </td> 
@@ -201,7 +205,7 @@ Salvo especificação em contrário, todos os recursos herdados foram substituí
     <ul> 
      <li> <p><strong>Para a Fase Analítica:</strong> </p> 
       <ul> 
-       <li> <p><strong>O Balanceador de Carga de Trabalho</strong>: use o Balanceador de Carga de Trabalho para exibir a carga de trabalho dos usuários em um nível mais granular. Ao usar o Balanceador de carga de trabalho, você pode visualizar quais usuários têm disponibilidade em sua carga de trabalho para concluir a tarefa no prazo. Isso inclui os detalhes de folga e exceções da programação. </p> <p>Para obter informações sobre o Balanceador de carga de trabalho, consulte <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Visão geral do Balanceador de carga de trabalho</a>.</p> </li> 
+       <li> <p><strong>O Balanceador de Carga de Trabalho</strong>: use o Balanceador de Carga de Trabalho para exibir a carga de trabalho dos usuários em um nível mais granular. Ao usar o Balanceador de carga de trabalho, você pode visualizar quais usuários têm disponibilidade em sua carga de trabalho para concluir a tarefa no prazo. Isso inclui detalhes sobre suas folgas e exceções de cronograma. </p> <p>Para obter informações sobre o Balanceador de carga de trabalho, consulte <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Visão geral do Balanceador de carga de trabalho</a>.</p> </li> 
        <li> <p><strong>O Modo de Exibição de Usuário do Planejador de Recursos</strong><strong>:</strong> Ao tentar entender em um nível superior a quais projetos seus usuários estão alocados, use o Modo de Exibição de Usuário do Planejador de Recursos. Isso permite que você veja em quais usuários estão trabalhando, bem como seus superalocações e subalocações para um intervalo de tempo específico. O Planejador de recursos também fornece visualização da alocação geral de usuários como um todo, bem como visibilidade das Horas Reais registradas, o que é útil para analisar o progresso do trabalho feito. </p> <p>Para obter informações sobre como usar o Modo de Exibição de Usuário no Planejador de Recursos, consulte a seção <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using" class="MCXref xref">Usar o Modo de Exibição de Usuário para exibir as Horas Disponíveis, Planejadas e Efetivas ou o FTE </a> em <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Visão geral do Planejador de Recursos</a></p> </li> 
       </ul> </li> 
      <li><strong>Para a Fase Tática:</strong> 
@@ -212,7 +216,8 @@ Salvo especificação em contrário, todos os recursos herdados foram substituí
          <li>Gerenciar alocações de usuários para itens de trabalho. </li>
          <li>Compartilhe o Balanceador de carga de trabalho com outros usuários que podem não ter visibilidade sobre a área Pessoas. Use a funcionalidade Link compartilhável para compartilhar um link para o Balanceador de carga de trabalho e incorporá-lo aos painéis personalizados. Qualquer usuário com acesso a Exibir usuários pode exibir esses painéis quando você os compartilha.</li>
         </ul><p>O Balanceador de carga de trabalho está disponível na área Pessoas. </p><p>Para obter informações sobre o Balanceador de carga de trabalho, consulte <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Visão geral do Balanceador de carga de trabalho</a>.</p></li> 
-      </ul> <!--
+      </ul>
+      <!--
        <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
         <li><strong>The Resource Scheduling Areas</strong><strong>:</strong> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 
          <ul>
@@ -228,24 +233,25 @@ Salvo especificação em contrário, todos os recursos herdados foram substituí
           <li>User - the Allocation tab is eliminated as the same information can be accessed in the User View of the Resource Planner.</li>
          </ul></li> 
        </ul>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Gráfico de Gantt herdado, Lista de Tarefas</strong> </p> <p> O gráfico de Gantt Herdado na lista de tarefas forneceu aos usuários a capacidade de visualizar a linha do tempo do projeto e executar o planejamento do cenário hipotético sem confirmar as alterações no banco de dados. O gráfico de Gantt herdado era baseado na tecnologia Flash, que apresentava riscos de segurança. </p> </td> 
-   <td> <p><strong>Gráfico de Gantt</strong> <strong>Lista de Tarefas</strong></p> <p> O novo Gráfico de Gantt baseado em HTML está atendendo à mesma finalidade do Gantt herdado. Os usuários podem visualizar a linha do tempo do projeto e executar o planejamento de cenário hipotético sem confirmar as alterações no banco de dados, alterando para a opção Salvar manual na barra de ferramentas da lista de tarefas. </p> <p>O novo Gráfico de Gantt é interativo ao usar a opção de Salvamento automático que você pode usar quando quiser salvar automaticamente as alterações à medida que elas ocorrerem. </p> <p>O novo Diagrama de Gantt da Lista de Tarefas foi criado com base na tecnologia mais recente e é confiável. Este novo Gráfico de Gantt está localizado diretamente na lista de tarefas e é facilmente acessado enquanto trabalha na lista de tarefas sem alternar guias ou alterar a exibição. </p> <p>Embora o novo Diagrama de Gantt ofereça a mesma funcionalidade do Diagrama anterior, há algumas diferenças nos recursos em comparação com o Diagrama de Gantt herdado. </p> <p> A subguia Gantt Herdado em uma lista de Tarefas de Modelo em um Modelo, a exibição Gantt Herdado na guia Subtarefas de uma Tarefa de Modelo e o gráfico Gantt Herdado em um relatório de Tarefa de Modelo também foram substituídos pelo gráfico Gantt baseado em HTML. </p> <p>Se você usar o Gráfico de Gantt herdado principalmente para a exibição simples e edições rápidas e não usar o gráfico real, a nova opção Planejamento de linha do tempo permitirá fazer alterações rápidas nos principais campos de planejamento. Você pode selecionar Planejamento de linha do tempo em vez de Salvar automaticamente na barra de ferramentas da lista de tarefas.</p> <p>Para obter mais informações sobre como salvar uma lista de tarefas usando a opção Planejamento de Linha do Tempo, consulte a seção "Salvar alterações em uma lista de tarefas manualmente ao selecionar a opção Planejamento de Linha do Tempo" no artigo <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Editar tarefas em uma lista</a>. </p> </td> 
+   <td> <p><strong>Gráfico de Gantt</strong> <strong>Lista de Tarefas</strong></p> <p> O novo Gráfico de Gantt com base no HTML está atendendo à mesma finalidade do Gantt herdado. Os usuários podem visualizar a linha do tempo do projeto e executar o planejamento de cenário hipotético sem confirmar as alterações no banco de dados, alterando para a opção Salvar manual na barra de ferramentas da lista de tarefas. </p> <p>O novo Gráfico de Gantt é interativo ao usar a opção de Salvamento automático que você pode usar quando quiser salvar automaticamente as alterações à medida que elas ocorrerem. </p> <p>O novo Diagrama de Gantt da Lista de Tarefas foi criado com base na tecnologia mais recente e é confiável. Este novo Gráfico de Gantt está localizado diretamente na lista de tarefas e é facilmente acessado enquanto trabalha na lista de tarefas sem alternar guias ou alterar a exibição. </p> <p>Embora o novo Diagrama de Gantt ofereça a mesma funcionalidade do Diagrama anterior, há algumas diferenças nos recursos em comparação com o Diagrama de Gantt herdado. </p> <p> A subguia Gantt Herdado em uma lista de Tarefas de Modelo em um Modelo, a exibição Gantt Herdado na guia Subtarefas de uma Tarefa de Modelo e o gráfico Gantt Herdado em um relatório de Tarefa de Modelo também foram substituídos pelo gráfico Gantt baseado em HTML. </p> <p>Se você usar o Gráfico de Gantt herdado principalmente para a exibição simples e edições rápidas e não usar o gráfico real, a nova opção Planejamento de linha do tempo permitirá fazer alterações rápidas nos principais campos de planejamento. Você pode selecionar Planejamento de linha do tempo em vez de Salvar automaticamente na barra de ferramentas da lista de tarefas.</p> <p>Para obter mais informações sobre como salvar uma lista de tarefas usando a opção Planejamento de Linha do Tempo, consulte a seção "Salvar alterações em uma lista de tarefas manualmente ao selecionar a opção Planejamento de Linha do Tempo" no artigo <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Editar tarefas em uma lista</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Gráfico de Gantt herdado para uma Lista de Projetos</strong> </p> <p>O gráfico de Gantt herdado na lista de projetos fornecia aos usuários a capacidade de ver projetos e suas tarefas em uma única visualização. Sem sair do contexto da lista de projetos, os usuários poderiam ver detalhes sobre as tarefas em um projeto, bem como as dependências entre os projetos. O gráfico de Gantt herdado na lista de projetos era baseado na tecnologia Flash, que apresentava riscos de segurança. </p> </td> 
    <td> <p><strong>Gráfico de Gantt, Lista de Projetos</strong> </p> <p>O Gráfico de Gantt baseado em HTML tem o mesmo objetivo que o Gráfico de Gantt herdado. Os usuários podem exibir projetos e suas tarefas em uma única exibição para identificar visualmente as dependências entre projetos e tarefas. O Diagrama de Gantt da Lista de Projetos está localizado diretamente na lista de projetos. O novo Diagrama de Gantt tem uma interface moderna e é construído com base na tecnologia mais recente.</p> <p>Para obter informações sobre o Diagrama de Gantt da lista de projetos, consulte <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Exibir informações no Diagrama de Gantt </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Compartilhando Caixas de Diálogo para Relatórios, Calendários e Documentos</strong> </p> <p>Ao compartilhar relatórios, calendários e documentos, as caixas de diálogo usadas se baseavam na tecnologia do Flash.</p> </td> 
+   <td> <p><strong>Compartilhando Caixas de Diálogo para Relatórios, Calendários e Documentos</strong> </p> <p>Ao compartilhar relatórios, calendários e documentos, as caixas de diálogo usadas eram baseadas na tecnologia Flash.</p> </td> 
    <td> <p>A experiência ao compartilhar relatórios, calendários e documentos no Workfront não foi alterada. No entanto, a experiência não depende mais do Flash.</p> <p>Para obter mais informações sobre o compartilhamento desses itens, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Visão geral das permissões de compartilhamento em objetos</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Visualizador de revisões herdadas</strong> </p> <p>O visualizador de provas herdadas era um visualizador de provas baseado na Web que fornecia recursos de provas para provas estáticas, de vídeo e interativas.</p> </td> 
-   <td> <p><strong>Visualizador de Provas da Web e Visualizador de Provas da Área de Trabalho</strong> </p> <p>O Visualizador de provas da Web fornece recursos de provas para provas estáticas e de vídeo.</p> <p>O Visualizador de provas de desktop fornece recursos de prova para provas interativas, além de oferecer suporte completo para provas estáticas e de vídeo.</p> <p>O formato de arquivo SWF não é mais suportado por nenhum dos principais provedores e foi substituído por banners HTML5 para prova. </p> <p>Para obter informações mais detalhadas sobre as diferenças entre os visualizadores de provas disponíveis, consulte <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Diferenças entre o Visualizador de Provas da Web e a visão geral do Visualizador de Provas do Desktop</a>.</p> </td> 
+   <td> <p><strong>Visualizador de Provas da Web e Visualizador de Provas da Área de Trabalho</strong> </p> <p>O Visualizador de provas da Web fornece recursos de provas para provas estáticas e de vídeo.</p> <p>O Visualizador de provas de desktop fornece recursos de prova para provas interativas, além de oferecer suporte completo para provas estáticas e de vídeo.</p> <p>O formato de arquivo SWF não é mais suportado pelos principais provedores e foi substituído por banners de prova do HTML5. </p> <p>Para obter informações mais detalhadas sobre as diferenças entre os visualizadores de provas disponíveis, consulte <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Diferenças entre o Visualizador de Provas da Web e a visão geral do Visualizador de Provas do Desktop</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

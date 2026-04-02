@@ -6,26 +6,28 @@ description: Você pode criar itens de trabalho e projetos na área [!UICONTROL 
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
-# Criar itens de trabalho e projetos na área Página inicial
+# Criar itens de trabalho e projetos na área da Página inicial
 
 Você pode criar itens de trabalho e projetos na área [!UICONTROL Página inicial].
 
 Em Casa, você pode
 
-* Enviar solicitações
+* Enviam solicitações
 * Adicionar tarefas e problemas a projetos específicos
 * Crie projetos com base em um modelo, projeto em branco ou importe um projeto do MS.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,8 +40,8 @@ Em Casa, você pode
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença</strong></td> 
    <td>
-    <p>Standard</p> 
-    <p>Trabalhar ou superior</p> </td> 
+    <p>Padrão</p> 
+    <p>Trabalho ou maior</p> </td> 
   </tr> 
     <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso</strong></td> 
@@ -164,7 +166,8 @@ Você pode criar um projeto diretamente na área Página inicial:
 You can create a board directly from the Home area:
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**.
+-->
 
 
 
@@ -182,4 +185,5 @@ You can create a board directly from the Home area:
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date.
+-->

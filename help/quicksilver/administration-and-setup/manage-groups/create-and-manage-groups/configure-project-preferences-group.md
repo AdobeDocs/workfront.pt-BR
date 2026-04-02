@@ -8,7 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2839'
 ht-degree: 3%
@@ -195,7 +197,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
    <td role="rowheader"> <p><strong>As linhas de tempo do projeto serão recalculadas automaticamente</strong> </p> </td> 
    <td> <p>Determine quando a linha do tempo de um projeto é recalculada. Para obter informações sobre como recalcular a linha de tempo do projeto, consulte <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalcular linhas de tempo do projeto</a>.</p> <p>As opções a seguir são ativadas por padrão. Você pode selecionar uma ou mais das seguintes configurações:</p> 
     <ul> 
-     <li> <p><strong>Todas as noites</strong>: selecione esta opção para recalcular as linhas de tempo do projeto todas as noites. Quaisquer alterações feitas no projeto que possam afetar a linha do tempo não ficam visíveis imediatamente. O Workfront​​​ recalcula as linhas do tempo à noite somente para projetos em que ambas as condições a seguir sejam atendidas:</p> <p> 
+     <li> <p><strong>Todas as noites</strong>: selecione esta opção para recalcular as linhas de tempo do projeto todas as noites. Quaisquer alterações feitas no projeto que possam afetar a linha do tempo não ficam visíveis imediatamente. O ​​​ recalcula as linhas do tempo à noite somente para projetos em que ambas as condições a seguir sejam atendidas:</p> <p> 
        <ul> 
         <li>Têm status Atual</li> 
         <li>Teve uma atualização nos últimos 3 meses</li> 

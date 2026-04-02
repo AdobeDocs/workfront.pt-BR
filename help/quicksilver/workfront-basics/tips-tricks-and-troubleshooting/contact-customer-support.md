@@ -6,10 +6,12 @@ description: Como cliente do Adobe Workfront, você pode entrar em contato com a
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -36,7 +38,7 @@ Como cliente do [!DNL Adobe Workfront], você pode entrar em contato com a equip
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">plano do Adobe Workfront</td> 
+   <td role="rowheader">Plano Adobe Workfront</td> 
    <td>Qualquer</td> 
   </tr> 
   <tr> 
@@ -53,7 +55,7 @@ Como cliente do [!DNL Adobe Workfront], você pode entrar em contato com a equip
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +67,8 @@ Você pode contatar [!DNL Workfront Customer Support] 7 dias por semana, 24 hora
 * EMEA: +44 800 169 0454
 * Austrália: +61 180 035 8683
 
-<!--Old numbers - before 2/10/2025:
+<!--
+Old numbers - before 2/10/2025:
 
 * US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -82,7 +85,7 @@ Você pode enviar um tíquete de suporte do portal de autoatendimento [!DNL Expe
 >Somente contatos de suporte autorizados (ou usuários autorizados) podem enviar tíquetes de suporte online.
 
 
-1. No site [[!DNL Experience League]](https://experienceleague.adobe.com/pt-br), clique em **[!UICONTROL Suporte]** na parte superior da página.
+1. No site [[!DNL Experience League]](https://experienceleague.adobe.com), clique em **[!UICONTROL Suporte]** na parte superior da página.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -137,7 +140,8 @@ Em caso de dúvidas ou problemas ao enviar uma solicitação, entre em contato c
 1. (Opcional) Para fechar o caso, clique no botão **[!UICONTROL Fechar caso]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=pt)
+<!--
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

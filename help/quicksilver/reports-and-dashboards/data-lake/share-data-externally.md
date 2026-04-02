@@ -7,7 +7,9 @@ description: O Workfront Data Connect permite usar os dados do Workfront de sua 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 10%
@@ -18,7 +20,7 @@ ht-degree: 10%
 
 O Workfront Data Connect permite usar os dados do Workfront de sua organização com ferramentas de business intelligence ou armazená-los em um data warehouse externo.
 
-Para conectar seu data lake da Conexão de Dados a um produto externo, primeiro você deve criar uma conexão conforme descrito em [Criar uma conta ou conexão de leitor para Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Em seguida, adicione os IPs necessários ao incluo na lista de permissões conforme descrito em [Adicionar IPs ao incluo na lista de permissões](#add-ips-to-the-allowlist) abaixo.
+Para conectar seu data lake do Data Connect a um produto externo, primeiro você deve criar uma conexão conforme descrito em [Criar uma conta ou conexão de leitor para o Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md). Em seguida, adicione os IPs necessários ao incluo na lista de permissões conforme descrito em [Adicionar IPs ao incluo na lista de permissões](#add-ips-to-the-allowlist) abaixo.
 
 A maioria dos produtos exigirá as seguintes informações sobre seu data lake para estabelecer uma conexão:
 
@@ -72,7 +74,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Adicionar IPs à lista de permissões
+## Adicionar IPs ao incluo na lista de permissões
 
 1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique em **Instalação**.
 
@@ -94,9 +96,9 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 1. Na janela exibida, marque a caixa para confirmar e clique em **Excluir**.
 
-## Compartilhar dados com ferramentas de business intelligence
+## Compartilhar dados com ferramentas de Business Intelligence
 
-Várias ferramentas comuns de business intelligence estão listadas abaixo; visite os sites de documentação para saber mais sobre como se conectar ao data lake.
+Várias ferramentas comuns de business intelligence estão listadas abaixo; visite os sites de documentação para saber mais sobre como se conectar ao seu data lake.
 
 * Tableau
 * Power BI

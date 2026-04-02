@@ -2,11 +2,13 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Excluir uma iteração
-description: You can delete an iteration for your Agile team if it is no longer needed.
+description: Você pode excluir uma iteração da sua equipe Agile se ela não for mais necessária.
 author: Courtney
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 28%
@@ -15,13 +17,13 @@ ht-degree: 28%
 
 # Excluir uma iteração
 
-You can delete an iteration for your Agile team if it is no longer needed.
+Você pode excluir uma iteração da sua equipe Agile se ela não for mais necessária.
 
-When you delete an iteration, any stories on the iteration are moved to the backlog. The tasks and issues also remain on their projects.
+Ao excluir uma iteração, todas as histórias da iteração são movidas para o backlog. As tarefas e problemas também permanecem em seus projetos.
 
 >[!NOTE]
 >
->Any iterations you delete cannot be recovered.
+>As iterações excluídas não podem ser recuperadas.
 
 ## Requisitos de acesso
 
@@ -40,7 +42,7 @@ When you delete an iteration, any stories on the iteration are moved to the back
   </tr>
    <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td>You must be a member of the Agile team the iteration is assigned to</td> 
+   <td>Você deve ser um membro da equipe Agile à qual a iteração está atribuída</td> 
   </tr>
  </tbody> 
 </table>
@@ -53,7 +55,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 {{step1-to-team}}
 
-1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipe]** ![Ícone Alternar equipe](assets/switch-team-icon.png) e, em seguida, selecione uma nova equipe Scrum no menu suspenso ou pesquise uma equipe na barra de pesquisa.
+1. (Opcional) Clique no ícone **[!UICONTROL Equipe do Switch]** ![Ícone da equipe do Switch](assets/switch-team-icon.png), em seguida, selecione uma nova equipe do Scrum no menu suspenso ou procure uma equipe na barra de pesquisa.
 
-1. In the left panel, select **[!UICONTROL Iterations]**.
-1. Select the iteration that you want to delete, then click the [!UICONTROL **Delete**] icon ![Delete icon](assets/delete-icon.png).
+1. No painel esquerdo, selecione **[!UICONTROL Iterações]**.
+1. Selecione a iteração que deseja excluir e clique no ícone [!UICONTROL **Excluir**] ![Ícone Excluir](assets/delete-icon.png).

@@ -6,17 +6,20 @@ description: Conjuntos de recursos são coleções de usuários que ajudam você
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
-# Associar conjuntos de recursos a projetos e modelos
+# Associar pools de recursos a projetos e modelos
 
 
-<!-- drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
+<!--
+ drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
 
 Also - take out all the references to Preview and Prod at prod final
 -->
@@ -41,7 +44,7 @@ Para obter informações sobre como criar pools de recursos, consulte [Criar poo
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +56,7 @@ Para obter informações sobre como criar pools de recursos, consulte [Criar poo
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    <p>Plano</p></td>
   </tr> 
   <tr> 
@@ -115,7 +118,7 @@ Para associar conjuntos de recursos a vários projetos em massa:
 
 1. Clique em **Salvar alterações**.\
    Quando o conjunto de recursos estiver associado aos projetos ou modelos, você poderá estimar as alocações de usuário para os projetos dentro do Planejador de recursos.\
-   Para obter mais informações sobre o Planejador de recursos, consulte [Visão geral do Planejador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Para obter mais informações sobre o planejador de recursos, consulte [Visão geral do planejador de recursos](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 Para obter mais informações sobre como editar projetos em massa, consulte a seção &quot;Editar projetos em massa&quot; em [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 

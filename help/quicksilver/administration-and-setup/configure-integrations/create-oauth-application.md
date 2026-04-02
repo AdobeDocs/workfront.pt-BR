@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1960'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -31,7 +33,7 @@ Ao criar um aplicativo [!UICONTROL OAuth2], você gera uma ID do cliente e um Se
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +45,7 @@ Ao criar um aplicativo [!UICONTROL OAuth2], você gera uma ID do cliente e um Se
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> <p>Plano</p></td> 
+   <td><p>Padrão</p> <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -138,7 +140,7 @@ A caixa **Novo aplicativo OAuth2** é exibida.
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL ID do Cliente]</td> 
+      <td role="rowheader">[!UICONTROL Client ID]</td> 
       <td> <p>Este campo é gerado automaticamente.</p> </td> 
      </tr> 
      <tr> 
@@ -158,11 +160,11 @@ A caixa **Novo aplicativo OAuth2** é exibida.
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nome]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td>Este é o mesmo nome que você deu ao aplicativo. Este campo não pode estar vazio.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Descrição]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td>Insira uma descrição para a integração.</td> 
      </tr> 
     </tbody> 
@@ -180,7 +182,7 @@ Para obter instruções sobre como configurar e usar o aplicativo OAuth2 com cre
 >
 >* `https://app.workfrontfusion.com/oauth/cb/workfront-workfront`
 >* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront` (Centro de dados da UE)
->* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (Data Center do Azure)
+>* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (Centro de dados da Azure)
 
 {{step-1-to-setup}}
 
@@ -198,7 +200,7 @@ Para obter instruções sobre como configurar e usar o aplicativo OAuth2 com cre
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL ID do Cliente]</td> 
+      <td role="rowheader">[!UICONTROL Client ID]</td> 
       <td> <p>Este campo é gerado automaticamente.</p> </td> 
      </tr> 
      <tr> 
@@ -230,11 +232,11 @@ Para obter instruções sobre como configurar e usar o aplicativo OAuth2 com cre
       <td>Você pode adicionar um logotipo para tornar este aplicativo mais identificável. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nome]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td>Este é o mesmo nome que você deu ao aplicativo. Este campo não pode estar vazio.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Descrição]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td>Insira uma descrição para a integração.</td> 
      </tr> 
      <tr> 
@@ -266,7 +268,7 @@ Para obter instruções sobre como configurar e usar o aplicativo OAuth2 com cre
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL ID do Cliente]</td> 
+      <td role="rowheader">[!UICONTROL Client ID]</td> 
       <td> <p>Este campo é gerado automaticamente.</p> </td> 
      </tr> 
      <tr> 
@@ -290,11 +292,11 @@ Para obter instruções sobre como configurar e usar o aplicativo OAuth2 com cre
       <td>Você pode adicionar um logotipo para tornar este aplicativo mais identificável. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nome]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td>Este é o mesmo nome que você deu ao aplicativo. Este campo não pode estar vazio.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Descrição]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td>Insira uma descrição para a integração.</td> 
      </tr> 
      <tr> 
@@ -314,9 +316,11 @@ Para obter instruções sobre como configurar e usar o aplicativo OAuth2 com cre
    </tbody> 
    </table>
 
-   <!-- removed this from the table, and added "Developer name" and following rows:
+   <!--
+    removed this from the table, and added "Developer name" and following rows:
    [!UICONTROL App Description URL]</td> 
-      <td>This can be a link to an "About us" page or a page with more information about the integration.> -->
+      <td>This can be a link to an "About us" page or a page with more information about the integration.>
+      -->
 
 1. Clique em **[!UICONTROL Salvar]**.
 

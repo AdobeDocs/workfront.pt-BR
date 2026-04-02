@@ -6,10 +6,12 @@ description: Portfólios são coleções de projetos ou programas no Adobe Workf
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -36,7 +38,7 @@ Recomendamos desativar um portfólio que não precisa mais ser associado a proje
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>[!UICONTROL Padrão]</p>
-   <p>[!UICONTROL Plano]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -49,11 +51,12 @@ Recomendamos desativar um portfólio que não precisa mais ser associado a proje
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -115,7 +118,7 @@ Ao desativar um portfólio, você ainda pode acessá-lo na área [!UICONTROL Por
 
 >[!NOTE]
 >
->Dependendo de como o administrador de grupo ou o [!DNL Workfront] configurar o modelo de layout, a área [!UICONTROL Portfólios] talvez não seja exibida no [!UICONTROL Menu Principal]. Para obter mais informações, consulte [Personalizar o Menu Principal usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>Dependendo de como o administrador de grupo ou o [!DNL Workfront] configurar o modelo de layout, a área [!UICONTROL Portfólios] talvez não seja exibida no [!UICONTROL Menu Principal]. Para obter mais informações, consulte [Personalizar o menu principal usando um modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 {{step1-click-main-menu}}
 

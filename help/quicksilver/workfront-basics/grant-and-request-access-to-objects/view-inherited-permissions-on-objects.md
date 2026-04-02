@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: Exibir permissões herdadas em objetos
+title: Visualizar permissões herdadas em objetos
 description: O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar objetos ao atribuir seu nível de acesso. Para obter mais informações, consulte Conceder acesso aos projetos.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
-# Exibir permissões herdadas em objetos
+# Visualizar permissões herdadas em objetos
 
 O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar objetos ao atribuir seu nível de acesso. Para obter mais informações, consulte [Conceder acesso aos projetos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
@@ -25,7 +27,8 @@ Para obter informações sobre a hierarquia de objetos no Workfront, consulte [E
 
 ## Requisitos de acesso
 
-<!--drafted for P&P:
+<!--
+drafted for P&P:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +85,7 @@ Para obter informações sobre a hierarquia de objetos no Workfront, consulte [E
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

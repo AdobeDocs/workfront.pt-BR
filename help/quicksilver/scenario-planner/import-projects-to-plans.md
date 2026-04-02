@@ -6,10 +6,12 @@ description: Você pode importar projetos existentes para um plano. Os projetos 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +29,7 @@ Você pode importar projetos existentes para um plano. Os projetos importados s�
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,7 +65,8 @@ Para obter informações sobre requisitos de acesso do Workfront, consulte [Requ
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ Para obter informações sobre requisitos de acesso do Workfront, consulte [Requ
  </tbody> 
 </table>
 
-*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Considerações sobre a importação de projetos para planos como novas iniciativas
 
@@ -160,11 +164,13 @@ Quando você importa um projeto para um plano, algumas informações do projeto 
      <li> <p>[!DNL Workfront] O usa as funções de trabalho atribuídas a tarefas e problemas ou as funções de trabalho que os usuários atribuídos a tarefas ou problemas estão associados no projeto e as transfere para a nova iniciativa como Funções de trabalho obrigatórias. </p> </li> 
      <li> <p>Quando o plano é configurado para usar FTEs, as Horas planejadas associadas às funções de trabalho nas tarefas e problemas do projeto são convertidas primeiro em FTE. Esse FTE é atribuído à função de trabalho da iniciativa. <span>As horas planejadas são igualmente distribuídas em [!DNL Workfront]. Se uma tarefa ou um problema se estender por vários meses, a quantidade de Horas Planejadas para cada mês na duração da iniciativa será convertida em FTE mensal e transferida para cada mês da iniciativa.</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exemplo: </b></span></span><span>Por exemplo, se uma tarefa for atribuída a uma função de trabalho por 80 Horas Planejadas em setembro, a função de trabalho importada exibirá 0,5 FTE para a iniciativa em setembro.</span> </p> </li> 
      <li> <p>[!DNL Workfront] O calcula o FTE das funções de Trabalho Necessárias associadas à iniciativa usando a seguinte fórmula:</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Dica: o [!DNL Scenario Planner] presume que há 160 horas de trabalho em um mês.</p> <p>Por exemplo, se um projeto tiver uma Duração de 1200 minutos e uma função de trabalho no projeto estiver associada a 600 minutos de Horas planejadas, seu FTE será 0,5. Ao importar o projeto, o FTE de função de trabalho necessário na iniciativa recém-criada é 0,5 para cada mês da iniciativa. </p> </li> 
-     <li>Quando uma função de trabalho é atribuída a uma tarefa no projeto com zero Horas planejadas, o FTE necessário para a função de trabalho da iniciativa é zero por padrão. <!--
+     <li>Quando uma função de trabalho é atribuída a uma tarefa no projeto com zero Horas planejadas, o FTE necessário para a função de trabalho da iniciativa é zero por padrão.
+     <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          (NOTE: this used to be 1, not zero in Production) 
        </MadCap:conditionalText>
-      --></li> 
+      -->
+      </li>
      <li>Quando uma função de trabalho é atribuída a uma tarefa no projeto com uma [!UICONTROL Duration] zero, o FTE necessário <span>ou horas</span> para a função de trabalho da iniciativa é zero por padrão, mesmo que a tarefa tenha Horas planejadas. </li> 
     </ul> </td> 
   </tr> 
@@ -238,11 +244,11 @@ Quando você importa um projeto para um plano, algumas informações do projeto 
       <td>Esta é a duração da iniciativa em meses. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Iniciativa]</td> 
+      <td role="rowheader">[!UICONTROL Initiative]</td> 
       <td>As datas de início e término da iniciativa. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Projeto]</td> 
+      <td role="rowheader">[!UICONTROL Project]</td> 
       <td> <p>[!UICONTROL Início Planejado] e [!UICONTROL Datas de Término] do projeto vinculado.</p> <p>Dica: se as informações do [!UICONTROL Project] estiverem ausentes, o projeto foi excluído.</p> </td> 
      </tr> 
     </tbody> 

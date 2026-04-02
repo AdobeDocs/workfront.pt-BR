@@ -6,10 +6,12 @@ description: Você pode delegar temporariamente o trabalho ao qual está atribu�
 author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1547'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -48,7 +50,7 @@ Para obter informações gerais sobre a delegação de trabalho, consulte [Visã
 >* Para itens atribuídos depois que a delegação já foi iniciada, pode levar até uma hora depois que o item foi atribuído para [!DNL Workfront] compartilhar os itens recentemente atribuídos com o representante.
 
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +62,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Colaborador ou superior</p><p>Revisar ou superior</p>
+   <td> <p>Colaborador ou posterior</p><p>Revisar ou superior</p>
 
 >[!NOTE]
 >
@@ -84,7 +86,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--note from the table for Object permissions:
+<!--
+note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project Owner (NOTE: you cannot delegate projects yet)</p>
     -->
 
@@ -191,7 +194,8 @@ Você pode permitir que uma delegação expire se tiver selecionado uma Data fin
 
 ## Localizar trabalho delegado e informações delegadas
 
-<!--(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
+<!--
+(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
 -->
 
 Quando tarefas e problemas forem delegados, há várias áreas em [!DNL Workfront] onde você pode ver o trabalho delegado ou quem são os delegados.

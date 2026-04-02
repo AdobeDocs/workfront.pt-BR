@@ -7,7 +7,9 @@ description: É possível criar uma cópia de qualquer relatório ao qual você 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 8%
@@ -41,7 +43,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td role="rowheader">Configuração do nível de acesso</td> 
-   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a filtros, exibições e agrupamentos</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis, calendários</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 

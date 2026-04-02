@@ -6,10 +6,12 @@ description: Você pode editar um problema individual ou editar problemas em uma
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -18,13 +20,15 @@ ht-degree: 1%
 <!--Audited: 10/2025-->
 
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 Você pode editar um problema individual ou editar problemas em uma lista de problemas ou relatório. Este artigo descreve como editar problemas em listas.
 
@@ -32,7 +36,7 @@ Para obter informações sobre como editar um problema individual, consulte [Edi
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +50,7 @@ Para obter informações sobre como editar um problema individual, consulte [Edi
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
 
-<ul><li><p>Colaborador ou superior</p> </li>
+<ul><li><p>Colaborador ou posterior</p> </li>
    <li><p>Licença leve ou superior para editar um problema na seção Problemas de um projeto</p></li></ul> 
     Ou
    <ul><li><p>Solicitante ou superior</p> </li>
@@ -64,11 +68,12 @@ Para obter informações sobre como editar um problema individual, consulte [Edi
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +96,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Problemas de edição em linha
 

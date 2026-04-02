@@ -6,10 +6,12 @@ description: A delegação de solicitações de aprovação permite que você at
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 14360a82b0de65587a9413b58d9c69abb55fa29d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -35,7 +37,7 @@ Não é possível delegar aprovações de planilhas de horas, documentos ou prov
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -154,7 +156,8 @@ Para delegar aprovações a outro usuário:
 <!--
    Or
 
-   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.   -->
+   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.
+   -->
 
 1. (Condicional) Siga um destes procedimentos:
 

@@ -1,20 +1,22 @@
 ---
 content-type: release-notes
-title: Atividade de lançamento do quarto trimestre de 2025 para o Adobe Workfront Planning
+title: Atividade de lançamento do quarto trimestre de 2025 do Planejamento do Adobe Workfront
 description: Esta é a atividade de lançamento do produto Adobe Workfront Planning para o quarto trimestre de 2025.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 1774acc60b857b4588dc02bcf596bbf8ea4e56e1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2540'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Atividade de lançamento do quarto trimestre de 2025 para o Adobe Workfront Planning
+# Atividade de lançamento do quarto trimestre de 2025 do Planejamento do Adobe Workfront
 
 Este artigo descreve os recursos que estão sendo lançados para o Workfront Planning durante a versão do Quarto trimestre de 2025.
 
@@ -27,9 +29,9 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 
 >[!NOTE]
 >
->Visualização: 2 de outubro de 2025
->Versão rápida de produção: 15 de outubro de 2025
->Produção para todos: 16 de outubro de 2025
+>Pré-visualização: sexta-feira, 2 de outubro de 2025
+>Versão rápida de produção: quinta-feira, 15 de outubro de 2025
+>Produção para todos: sexta-feira, 16 de outubro de 2025
 
 Para simplificar o processo de solicitação, fizemos algumas melhorias nos formulários de solicitação. Agora, ao configurar um formulário de solicitação, você pode configurar o seguinte:
 
@@ -43,9 +45,9 @@ Para obter mais informações sobre como criar um formulário de solicitação e
 
 >[!NOTE]
 >
->Visualização: 2 de outubro de 2025
->Versão rápida de produção: 15 de outubro de 2025
->Produção para todos: 16 de outubro de 2025
+>Pré-visualização: sexta-feira, 2 de outubro de 2025
+>Versão rápida de produção: quinta-feira, 15 de outubro de 2025
+>Produção para todos: sexta-feira, 16 de outubro de 2025
 
 
 Agora é possível arrastar e soltar registros nas exibições de linha do tempo e calendário. Arrastar os registros para outro intervalo de tempo atualiza automaticamente as datas de Início e Término.
@@ -56,9 +58,9 @@ Para obter informações, consulte [Editar registros](/help/quicksilver/planning
 
 >[!NOTE]
 >
->Visualização: 2 de outubro de 2025
->Versão rápida de produção: 15 de outubro de 2025
->Produção para todos: 16 de outubro de 2025
+>Pré-visualização: sexta-feira, 2 de outubro de 2025
+>Versão rápida de produção: quinta-feira, 15 de outubro de 2025
+>Produção para todos: sexta-feira, 16 de outubro de 2025
 
 Para facilitar a comunicação em solicitações feitas no Workfront Planning, adicionamos uma área Comentários à página Detalhes da solicitação. Isso é útil, por exemplo, se a pessoa à qual a solicitação foi atribuída tiver perguntas para a pessoa que fez a solicitação.
 
@@ -66,7 +68,8 @@ Anteriormente, comentários sobre solicitações não estava disponível no Work
 
 Para obter mais informações sobre como fazer solicitações, incluindo comentários, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
-<!--## Approve a Workfront Planning request in the My Approvals widget
+<!--
+## Approve a Workfront Planning request in the My Approvals widget
 
 >[!NOTE]
 >
@@ -78,14 +81,15 @@ To make it easier to approve Workfront Planning requests, we've added them to th
 
 Previously, Workfront approvals could be managed only within Workfront Planning.
 
-For more information on approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).-->
+For more information on approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
+-->
 
 ## Editar projetos Workfront em linha e outras melhorias na página Registros conectados do registro
 
 >[!NOTE]
 >
 >Visualização: 25 de setembro de 2025
->Versão rápida de produção: 15 de outubro de 2025
+>Versão rápida de produção: quinta-feira, 15 de outubro de 2025
 >Produção: 16 de outubro de 2025
 
 Melhoramos as páginas de registros conectados de um registro. Veja a seguir as melhorias feitas com essa atualização:
@@ -96,7 +100,8 @@ Melhoramos as páginas de registros conectados de um registro. Veja a seguir as 
 
 Para obter informações, consulte [Gerenciar a página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
 
-<!--## Unified request form list now available
+<!--
+## Unified request form list now available
 
 >[!NOTE]
 >
@@ -108,14 +113,15 @@ To make it easier to find the request form you're looking for in Workfront Plann
 
 Previously, request forms were located only on the object for which they were created.
 
-For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+-->
 
 ## Reformulação das barras de ferramentas e pontos de acesso das exibições do Planning
 
 >[!NOTE]
 >
 >* Visualização: 25 de setembro de 2025
->* Versão rápida de produção: 15 de outubro de 2025
+>* Versão rápida de produção: quinta-feira, 15 de outubro de 2025
 >* Produção: 16 de outubro de 2025
 
 Reprojetamos a forma como você exibe, acessa e gerencia exibições em uma página do tipo de registro.
@@ -130,7 +136,8 @@ A funcionalidade de cada visualização não foi alterada.
 
 Para obter informações, consulte [Gerenciar exibições de registros](/help/quicksilver/planning/views/manage-record-views.md).
 
-<!--## Enhancements to request forms in Workfront Planning
+<!--
+## Enhancements to request forms in Workfront Planning
 
 >[!NOTE]
 >
@@ -143,14 +150,15 @@ To make the request process simpler, we've made some enhancements to request for
 * Configure when requests created from the form will be automatically marked complete. You can set the request to be marked complete when the requested object is created, or when the requested object is complete based on criteria you specify.
 * Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. 
 
-For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+-->
 
 ## Redimensionar registros na exibição semanal do calendário
 
 >[!NOTE]
 >
 >* Visualização: 25 de setembro de 2025
->* Versão rápida de produção: 15 de outubro de 2025
+>* Versão rápida de produção: quinta-feira, 15 de outubro de 2025
 >* Produção: 16 de outubro de 2025
 
 Na exibição do calendário semanal de uma página do tipo de registro, agora é possível clicar e manter as margens esquerda ou direita de um registro para modificar sua duração.
@@ -168,7 +176,7 @@ Para obter mais informações, consulte [Editar registros](/help/quicksilver/pla
 >[!NOTE]
 >
 >* Visualização: 18 de setembro de 2025
->* Versão rápida de produção: 15 de outubro de 2025
+>* Versão rápida de produção: quinta-feira, 15 de outubro de 2025
 >* Produção: 16 de outubro de 2025
 
 Para evitar a criação de muitos campos de conexão e o impacto potencial no desempenho, introduzimos uma nova configuração para permitir que os gerentes de espaço de trabalho criem, opcionalmente, campos conectados correspondentes em um tipo de registro conectado. Quando ativadas, as conexões contam em ambos os registros, o que aumentará a chance de atingir o limite de 500 conexões. Para evitar isso, recomendamos manter essa configuração desativada, especialmente ao vincular a tipos de registros taxonômicos.
@@ -192,7 +200,7 @@ Para obter mais informações, consulte [Tipos de registro de conexão](/help/qu
 >[!NOTE]
 >
 >* Visualização: 11 de setembro de 2025
->* Versão rápida de produção: 15 de outubro de 2025
+>* Versão rápida de produção: quinta-feira, 15 de outubro de 2025
 >* Produção: 16 de outubro de 2025
 
 Quando você atualiza um campo de fórmula ou um campo que poderia impactá-lo, um alerta o notifica do impacto da alteração. O alerta é exibido nos seguintes casos:
@@ -208,7 +216,7 @@ Para obter informações, consulte [Visão geral dos campos da fórmula](/help/q
 >[!NOTE]
 >
 >Visualização: 11 de setembro de 2025
->Produção para todos os clientes: 11 de setembro de 2025
+>Produção para todos os clientes: sexta-feira, 11 de setembro de 2025
 >[!BADGE Fora do cronograma]{type=Neutral}
 
 Se sua organização usa o Adobe Workfront Planning e o Adobe GenStudio for Performance Marketing, talvez você queira definir conceitos de marketing como Campanhas, Produtos e Personalidades com mais detalhes do que o GenStudio suporta por padrão.
@@ -231,7 +239,7 @@ Para obter informações, consulte [Introdução à integração do Adobe Workfr
 >[!NOTE]
 >
 >* Visualização: 4 de setembro de 2025
->* Versão rápida de produção: 15 de outubro de 2025
+>* Versão rápida de produção: quinta-feira, 15 de outubro de 2025
 >* Produção: 16 de outubro de 2025
 
 Na exibição de calendário de uma página do tipo de registro, agora é possível clicar, arrastar e soltar as margens esquerda ou direita de um registro para modificar sua duração.
@@ -249,8 +257,8 @@ Para obter mais informações, consulte [Editar registros](/help/quicksilver/pla
 >[!NOTE]
 >
 >* Visualização: 4 de setembro de 2025
->* Versão rápida de produção: 15 de outubro de 2025
->* Produção para todos os clientes: 16 de outubro de 2025
+>* Versão rápida de produção: quinta-feira, 15 de outubro de 2025
+>* Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
 
 Agora é possível criar registros na exibição de calendário de um tipo de registro clicando duas vezes em qualquer lugar do calendário.
 
@@ -265,8 +273,8 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 >[!NOTE]
 >
 >* Visualização: 4 de setembro de 2025
->* Versão rápida de produção: 15 de outubro de 2025
->* Produção para todos os clientes: 16 de outubro de 2025
+>* Versão rápida de produção: quinta-feira, 15 de outubro de 2025
+>* Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
 
 Na exibição de linha do tempo de uma página do tipo de registro, agora é possível clicar, arrastar e soltar as margens esquerda ou direita de um registro para modificar sua duração.
 
@@ -286,8 +294,8 @@ Para obter mais informações, consulte [Editar registros](/help/quicksilver/pla
 >[!NOTE]
 >
 >* Visualização: 4 de setembro de 2025
->* Versão rápida de produção: 15 de outubro de 2025
->* Produção para todos os clientes: 16 de outubro de 2025
+>* Versão rápida de produção: quinta-feira, 15 de outubro de 2025
+>* Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
 
 Adicionamos a configuração Altura da linha na barra de ferramentas Exibição de calendário de uma página de registro. Agora é possível escolher quantos registros serão exibidos em uma célula do calendário selecionando uma das seguintes opções para a altura da linha da exibição:
 
@@ -307,8 +315,8 @@ Para obter mais informações, incluindo limites para cada opção, consulte [Ge
 >[!NOTE]
 >
 >* Visualização: 4 de setembro de 2025
->* Versão rápida de produção: 15 de outubro de 2025
->* Produção para todos os clientes: 16 de outubro de 2025
+>* Versão rápida de produção: quinta-feira, 15 de outubro de 2025
+>* Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
 
 Agora é possível adicionar uma nova opção a um campo de seleção única ou múltipla ao atualizar o valor do campo na exibição de tabela. Por exemplo, quando o campo de seleção única Status tem três opções e você deseja ter uma quarta opção, é possível adicioná-lo ao editar o campo Status de um registro na exibição de tabela.
 
@@ -326,8 +334,8 @@ Para obter informações, consulte [Editar registros](/help/quicksilver/planning
 >[!NOTE]
 >
 >* Visualização: 28 de agosto de 2025
->* Versão rápida de produção: 11 de setembro de 2025
->* Produção para todos os clientes: 16 de outubro de 2025
+>* Versão rápida de produção: sexta-feira, 11 de setembro de 2025
+>* Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
 
 Para simplificar a experiência de solicitação unificada, a coluna Status agora exibe o Status da solicitação e o Status da aprovação, o que se aplicar a uma determinada solicitação.
 
@@ -341,8 +349,8 @@ Para obter mais informações sobre como criar solicitações, consulte:
 >[!NOTE]
 >
 >* Visualização: 28 de agosto de 2025
->* Versão rápida de produção: 11 de setembro de 2025
->* Produção para todos os clientes: 16 de outubro de 2025
+>* Versão rápida de produção: sexta-feira, 11 de setembro de 2025
+>* Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
 
 Colocamos os seguintes limites nos campos de fórmula:
 
@@ -356,8 +364,8 @@ Para obter mais informações, consulte [Visão geral do campo de fórmula](/hel
 >[!NOTE]
 >
 >* Visualização: 28 de agosto de 2025
->* Versão rápida de produção: 11 de setembro de 2025
->* Produção para todos os clientes: 16 de outubro de 2025
+>* Versão rápida de produção: sexta-feira, 11 de setembro de 2025
+>* Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
 
 Para indicar que há um problema ao resolver um campo de fórmula, o campo agora será exibido como &quot;#ERROR!&quot; num dos seguintes casos:
 
@@ -390,7 +398,7 @@ Para obter mais informações, consulte [Visão geral das expressões de dados c
 >[!NOTE]
 >
 >Visualização: 31 de julho de 2025
->Produção para todos os clientes: 31 de julho de 2025
+>Produção para todos os clientes: sexta-feira, 31 de julho de 2025
 >[!BADGE Fora do cronograma]{type=Neutral}
 
 Adicionamos um botão Maximizar para ampliar o campo Fórmula ao criar ou editar o campo em uma exibição de tabela de registro. Além disso, adicionamos um botão Minimizar na nova janela ampliada para reverter para a caixa de criação do campo.
@@ -402,8 +410,8 @@ Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fie
 >[!NOTE]
 >
 >* Visualização: 31 de julho de 2025
->* Versão rápida de produção: 14 de agosto de 2025
->* Produção para todos os clientes: 16 de outubro de 2025
+>* Versão rápida de produção: sexta-feira, 14 de agosto de 2025
+>* Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
 
 Agora, fizemos com que a experiência na página de registros conectados na caixa de visualização correspondesse à da página na página inteira da área Detalhes de um registro.
 
@@ -411,7 +419,8 @@ Antes desse aprimoramento, a visualização de registros conectados em uma pági
 
 Para obter informações, consulte [Gerenciar o layout da página de registro](/help/quicksilver/planning/records/manage-the-record-page.md).
 
-<!--## Updates to Requesting experience 
+<!--
+## Updates to Requesting experience 
 
 >[!NOTE]
 >
@@ -433,15 +442,16 @@ Previously, Workfront and Workfront Planning requests were on separate tabs, and
 For more information on creating requests see:
 
 * For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md) -->
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+-->
 
 ## Criar registros na exibição de linha do tempo
 
 >[!NOTE]
 >
 >Visualização: 24 de julho de 2025
->Versão rápida de produção: 14 de agosto de 2025
->Produção para todos os clientes: 16 de outubro de 2025
+>Versão rápida de produção: sexta-feira, 14 de agosto de 2025
+>Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
 
 Agora é possível criar registros na exibição de linha do tempo de um tipo de registro clicando duas vezes em qualquer lugar da linha do tempo.
 
@@ -456,8 +466,8 @@ Para obter informações, consulte [Criar registros](/help/quicksilver/planning/
 >[!NOTE]
 >
 >Visualização: 24 de julho de 2025
->Versão rápida de produção: 14 de agosto de 2025
->Produção para todos os clientes: 16 de outubro de 2025
+>Versão rápida de produção: sexta-feira, 14 de agosto de 2025
+>Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
 
 Agora você pode compartilhar um tipo de registro no menu Mais do cartão de tipo de registro na página do espaço de trabalho. Antes desse aprimoramento, a opção Compartilhar estava disponível somente na página de tipo de registro.
 
@@ -468,8 +478,8 @@ Para obter informações, consulte [Compartilhar tipos de registros](/help/quick
 >[!NOTE]
 >
 >Visualização: 24 de julho de 2025
->Versão rápida de produção: 14 de agosto de 2025
->Produção para todos os clientes: 16 de outubro de 2025
+>Versão rápida de produção: sexta-feira, 14 de agosto de 2025
+>Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
 
 Agora é possível exibir todas as exibições do Workfront Planning (tabela, linha do tempo e calendário) no modo de tela cheia. A funcionalidade de exibição é preservada, e você também pode alterá-la enquanto estiver em tela cheia.
 
@@ -483,7 +493,7 @@ Para obter informações, consulte [Gerenciar exibições de registros](/help/qu
 >
 >Visualização: 22 de julho de 2025
 >Produção para lançamento rápido: 14 de agosto de 2025
->Produção para todos os clientes: 16 de outubro de 2025
+>Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
 
 Para tornar o processo de aprovação mais flexível, adicionamos a capacidade de adicionar equipes como aprovadores nos formulários de solicitação do Planning. Agora é possível inserir e selecionar nomes de equipe ao configurar aprovadores. Qualquer um dos membros da equipe pode tomar uma decisão, que conta como a decisão de aprovação para toda a equipe.
 
@@ -497,7 +507,7 @@ Para obter mais informações, consulte [Adicionar uma aprovação a um formulá
 >
 >Visualização: 17 de julho de 2025
 >Produção para lançamento rápido: 14 de agosto de 2025
->Produção para todos os clientes: 16 de outubro de 2025
+>Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
 
 Estamos introduzindo os seguintes campos para capturar informações de aprovação para registros criados ao enviar uma solicitação com uma aprovação:
 
@@ -511,8 +521,8 @@ Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fie
 >[!NOTE]
 >
 >Visualização: 10 de julho de 2025
->Versão rápida de produção: 14 de agosto de 2025
->Produção para todos os clientes: 16 de outubro de 2025
+>Versão rápida de produção: sexta-feira, 14 de agosto de 2025
+>Produção para todos os clientes: sexta-feira, 16 de outubro de 2025
 
 
 Agora, quando você tiver agrupamentos aplicados a uma visualização de tabela, adicionar um registro à tabela preencherá automaticamente os campos associados aos agrupamentos aos quais você adiciona o registro.

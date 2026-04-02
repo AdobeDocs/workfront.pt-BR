@@ -6,10 +6,12 @@ description: Navegar em um portfólio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -23,12 +25,12 @@ ht-degree: 0%
 
 Em [!DNL Adobe Workfront], um portfólio representa uma coleção de projetos que competem pelos mesmos recursos, orçamento, cronograma e prioridade. O objetivo principal do portfólio é ajudar executivos e gerentes de projeto a escolher trabalhar em projetos que oferecem os maiores benefícios a uma organização.
 
-Para obter mais informações sobre portfólios, consulte [Entender a metodologia de portfólio](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Para obter mais informações sobre portfólios, consulte [Noções básicas sobre a metodologia de portfólio](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Requisitos de acesso
 
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +43,7 @@ Para obter mais informações sobre portfólios, consulte [Entender a metodologi
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>[!UICONTROL Padrão] </p>
-   <p>[!UICONTROL Plano] </p> </td> 
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -58,7 +60,8 @@ Para obter mais informações sobre portfólios, consulte [Entender a metodologi
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,7 +87,8 @@ Para obter mais informações sobre portfólios, consulte [Entender a metodologi
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Navegar em um portfólio
 
@@ -140,7 +144,7 @@ Para obter informações sobre programas, consulte a seção [Criar e gerenciar 
 
    >[!IMPORTANT]
    >
-   >Sua empresa deve ter um pacote [!UICONTROL &#x200B; do &#x200B;]Prime[!DNL Workfront] ou superior para ter acesso ao [!UICONTROL Portfolio Otimizer].
+   >Sua empresa deve ter um pacote [!UICONTROL  do ]Prime[!DNL Workfront] ou superior para ter acesso ao [!UICONTROL Portfolio Otimizer].
    >
 
    Para obter informações sobre como usar o Portfolio Otimizer, consulte a seção [Gerenciar projetos no Portfolio Otimizer: índice de artigo](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).

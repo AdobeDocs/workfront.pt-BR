@@ -1,31 +1,35 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Usar a visualização de Etapas
+title: Usar a visualização de Marco
 description: Você pode aplicar a visualização Marco a uma lista de projeto ou relatório. Você pode usar o modo de exibição Marco para exibir todos os marcos associados às tarefas nos projetos que você está visualizando.
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Usar a visualização de Etapas
+# Usar a visualização de Marco
 
 <!-- Audited: 11/2024 -->
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 Você pode aplicar a visualização Marco a uma lista de projeto ou relatório. Você pode usar o modo de exibição Marco para exibir todos os marcos associados às tarefas nos projetos que você está visualizando.
 
@@ -39,7 +43,7 @@ A visualização Marco está disponível ao visualizar uma lista de projetos ou 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,8 +56,8 @@ A visualização Marco está disponível ao visualizar uma lista de projetos ou 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</strong></td> 
    <td> 
-    <p>Standard</p>
-    <p>Trabalhar ou superior</p>
+    <p>Padrão</p>
+    <p>Trabalho ou maior</p>
    </td>
   </tr> 
   <tr> 
@@ -69,7 +73,7 @@ A visualização Marco está disponível ao visualizar uma lista de projetos ou 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -140,7 +144,8 @@ Ao visualizar uma lista de projetos ou um relatório de projeto na visualizaçã
    * Em Risco - azul
    * Atrasado - vermelho
 
-  <!--* In the Production environment, the following status icons display next to each project and task in the Milestone view: 
+  <!--
+   * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
       * On Time  
       ![On time icon](assets/gantt-ontime.png)
       * Behind  
@@ -149,7 +154,9 @@ Ao visualizar uma lista de projetos ou um relatório de projeto na visualizaçã
       ![At risk icon](assets/gantt-atrisk.png)
       * Late  
       ![Late icon](assets/gantt-late.png)
-      <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+      
+      get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc
+   -->
 
   Você pode desabilitar a exibição desses ícones de status, conforme descrito na seção [Configurar quais informações serão exibidas na exibição de Marco](#configure-what-information-displays-in-the-milestone-view) deste artigo.
 
@@ -196,10 +203,12 @@ Ao visualizar uma lista de projetos ou um relatório de projeto na visualizaçã
    * Em Risco - amarelo
    * Com Problemas - vermelho
 
-  <!--* In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
+  <!--
+   * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
       * On Target
       * At Risk
-      * In Trouble -->
+      * In Trouble
+      -->
 
 
 ## Configurar quais informações serão exibidas na visualização de Marco {#configure-what-information-displays-in-the-milestone-view}

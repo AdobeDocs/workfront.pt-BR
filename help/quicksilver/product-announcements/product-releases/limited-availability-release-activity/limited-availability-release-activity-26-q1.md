@@ -8,15 +8,17 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
+exl-id: 850576d3-4edb-4942-9f21-065bf941b01c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-
-# Atividade da primeira versão do trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront
+# Atividade de lançamento do primeiro trimestre de 2026 para recursos de disponibilidade limitada do Adobe Workfront
 
 Este artigo descreve a disponibilidade limitada dos recursos do Workfront que estão sendo lançados durante o primeiro trimestre de 2026.
 
@@ -61,19 +63,20 @@ Na Pesquisa avançada de atribuições avançadas, selecionar uma opção para *
 
 O KPI de Horas planejadas na tela Atribuições avançadas não é mais editável quando a duração da tarefa é 0. Anteriormente, era possível editar as horas planejadas, mas as alterações não eram salvas.
 
-### Atualizações de manutenção semana de 30 de novembro a 6 de dezembro de 2025
+### Atualizações de manutenção na semana de 30 de novembro a 6 de dezembro de 2025
 
 **Campo Data da Taxa de Câmbio oculto quando taxas de câmbio efetivas não são usadas**
 
 O campo **Data da Taxa de Câmbio** na área Detalhes do Projeto > Finanças agora fica oculto quando a caixa de seleção **Usar taxas de câmbio efetivas por data do sistema** não está marcada. Anteriormente, ao editar um projeto, o campo de data era exibido nos detalhes do projeto, mesmo quando as taxas de câmbio efetivas não estavam habilitadas.
 
-### Atualizações de manutenção semana de 4 a 10 de janeiro de 2026
+### Atualizações de manutenção na semana de 4 a 10 de janeiro de 2026
 
 **As taxas de funções de trabalho agora permitem lacunas nas datas de efetivação**
 
 As datas de efetivação nas taxas de função de trabalho agora permitem lacunas, embora datas sobrepostas não sejam permitidas. Durante uma lacuna, outras áreas da hierarquia de taxas de faturamento são usadas para determinar a taxa de faturamento, com base no tipo de receita de uma tarefa.
 
-<!--### Maintenance Updates week of January 11-17, 2026
+<!--
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 

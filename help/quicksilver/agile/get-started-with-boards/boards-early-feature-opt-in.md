@@ -7,7 +7,9 @@ description: Leia este artigo para saber mais sobre a [!DNL Workfront Boards] ac
 author: Courtney
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 0%
@@ -69,7 +71,7 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com o s
    <td>Lançado</td>
   </tr>
   <tr>
-   <td>Adicionar uma equipe a um painel ou cartão</td>
+   <td>Adicionar uma equipe a um quadro ou cartão</td>
    <td>Lançado</td>
   </tr>
   <tr>
@@ -187,11 +189,11 @@ A tabela a seguir descreve os principais recursos das placas, juntamente com o s
 
 ### Disponibilidade
 
-Os recursos iniciais dos conselhos de administração estão disponíveis para todas as organizações. O envolvimento é completamente opcional.
+Os recursos iniciais dos conselhos de administração estão disponíveis para todas as organizações. O envolvimento é totalmente opcional.
 
-### Aceitar
+### Opção de participação
 
-Somente [!DNL Workfront] administradores podem aceitar os recursos iniciais para painéis. Quando um administrador do [!DNL Workfront] habilita os recursos iniciais, todos os usuários da organização são aceitos.
+Somente administradores do [!DNL Workfront] podem aceitar os recursos antecipados para quadros. Quando um administrador do [!DNL Workfront] habilita recursos antecipados, todos os usuários na organização são aceitos.
 
 {{step1-to-boards}}
 
@@ -210,9 +212,9 @@ Somente [!DNL Workfront] administradores podem aceitar os recursos iniciais para
 
 Contate o administrador do [!DNL Workfront] para saber se ele habilitou recursos antecipados para quadros.
 
-### Os recursos iniciais podem ser habilitados somente para determinados usuários?
+### Os recursos antecipados podem ser habilitados somente para determinados usuários?
 
-Quando o administrador do [!DNL Workfront] habilita os recursos iniciais para painéis, todos os usuários da organização são aceitos.
+Quando o administrador do [!DNL Workfront] habilita recursos antecipados para quadros, todos os usuários na organização são aceitos.
 
 No entanto, o administrador do [!DNL Workfront] pode ocultar a opção Quadros do [!UICONTROL Menu Principal] para usuários individuais ou grupos de usuários com um modelo de layout. Para obter informações, consulte [Personalizar o [!UICONTROL Menu Principal] usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
@@ -220,9 +222,9 @@ No entanto, o administrador do [!DNL Workfront] pode ocultar a opção Quadros d
 >
 >Isso não impede que os usuários acessem quadros usando um URL. Isso só impede que eles vejam a opção [!DNL Boards] no [!UICONTROL Menu Principal].
 
-### Posso desativar os recursos iniciais depois de ingressar?
+### Posso recusar os recursos iniciais depois de entrar?
 
-Somente [!DNL Workfront] administradores podem recusar o recebimento de recursos anteriores. Se um administrador do [!DNL Workfront] desabilitar os recursos iniciais, todos os usuários da organização serão desativados.
+Somente [!DNL Workfront] administradores podem recusar o recebimento de recursos antecipados. Se um administrador do [!DNL Workfront] desabilitar os recursos anteriores, todos os usuários na organização serão recusados.
 
 {{step1-to-boards}}
 

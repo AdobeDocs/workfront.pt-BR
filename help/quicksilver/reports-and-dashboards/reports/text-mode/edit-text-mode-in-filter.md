@@ -6,7 +6,9 @@ description: É possível editar um filtro em uma lista ou relatório usando o m
 author: Courtney
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 7%
@@ -42,7 +44,7 @@ Para obter mais exemplos de modo de texto ao criar um filtro, consulte também a
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso a filtros, exibições e agrupamentos</p> <p>Acesso de edição a Relatórios, Painéis e Calendários para editar elementos de relatórios em um relatório</p></td> 
+   <td> <p>Editar acesso a Filtros, Visualizações e Agrupamentos</p> <p>Editar acesso a Relatórios, Painéis e Calendários para editar elementos de relatórios em um relatório</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -79,7 +81,7 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
 
 1. Siga um destes procedimentos:
 
-   Para acessar o filtro de uma lista, vá para a lista e clique no ícone **Filtro**, em seguida, passe o mouse sobre o filtro no painel lateral **Filtros** que você deseja modificar e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png). O painel lateral **Filtros** exibe o filtro selecionado ou o construtor de filtros herdado é aberto.
+   Para acessar o filtro de uma lista, vá para a lista e clique no ícone **Filtro**, em seguida, passe o mouse sobre o filtro no painel lateral **Filtros** que você deseja modificar e clique no ícone **Editar** ![Ícone Editar](assets/edit-icon.png). O painel lateral **Filtros** exibe o filtro selecionado ou o construtor de filtros herdados abre.
 
    OR
 
@@ -110,8 +112,8 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
    Ao filtrar por status, é necessário usar o código de três letras do status, não o nome.</p> </td>
    </tr> 
      <tr> 
-      <td> <p>Modificador do nome do campo e o modificador é igual a. Indica as condições que o campo pelo qual você está filtrando deve atender.</p> <p>Esta linha é obrigatória.</p> </td> 
-      <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>Para indicar que o status das tarefas filtradas deve ser igual a Em Andamento, use a seguinte linha além da acima:</p> <p><code>status_Mod=in</code> </p> <p>Se o modificador for uma faixa, há duas linhas para indicar o modificador.</p> 
+      <td> <p>Modificador do nome do campo e o modificador é igual a. Isso indica quais condições o campo que você está filtrando deve atender.</p> <p>Esta linha é obrigatória.</p> </td> 
+      <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>Para indicar que o status das tarefas filtradas deve ser igual a Em andamento, use a seguinte linha, além da linha acima:</p> <p><code>status_Mod=in</code> </p> <p>Se o modificador for uma faixa, há duas linhas para indicar o modificador.</p> 
        <div> <span class="autonumber"><span><b>EXEMPLO </b></span></span> 
         <p>Este é um filtro de modo de texto que procura tarefas em andamento, que tenham uma Data de conclusão planejada para o mês atual e estejam atribuídas a um usuário com uma GUID específica:</p> 
         <p><code>assignedToID=580a55a4000701f4b2d7dee1e7a9d427</code> </p> 
@@ -151,13 +153,13 @@ Para obter informações sobre como criar um relatório, consulte [Criar um rela
     </tbody> 
    </table>
 
-1. Para adicionar uma instrução de filtro conectada pelo operador “OR”, faça o seguinte:
+1. Para adicionar uma instrução de filtro conectada pelo operador &quot;OR&quot;, faça o seguinte:
 
-   1. Adicione uma nova linha de código e tipo OR:1: seguido pelo objeto ou atributo pelo qual você deseja filtrar e pelo valor com o qual deseja compará-lo. Para referenciar tarefas que estejam em qualquer status, exceto Novo, use a seguinte linha:
+   1. Adicione uma nova linha de código e tipo OR:1: seguido pelo objeto ou atributo pelo qual você deseja filtrar e o valor com o qual você deseja compará-lo. Para referenciar tarefas que estão em qualquer status, exceto Nova, use a seguinte linha:
 
       `OR:1:status=NEW`
 
-   1. Adicione uma segunda linha e digite OR:1: seguido pelo objeto, o modificador e o código do modificador. Para definir o modificador da linha de código que faz referência a todos os status de tarefa, exceto Novo, use a seguinte linha do modificador:
+   1. Adicione uma segunda linha e digite OR:1: seguido pelo objeto, modificador e código do modificador. Para definir o modificador para a linha de código que faz referência a todos os status de tarefa, exceto para Novo, use a seguinte linha do modificador:
 
       `OR:1:status_Mod=notin`
 

@@ -6,10 +6,12 @@ description: Você pode adicionar uma atualização em um objeto do Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3154'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -18,9 +20,11 @@ ht-degree: 1%
 <!-- Audited: 4/2025 -->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -62,9 +66,9 @@ Para obter informações adicionais sobre comentários em cartões, metas e regi
 
 * [Adicionar um cartão ad hoc a um quadro](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)
 
-* [Usar placas conectadas em placas](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
+* [Use cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 
-* [Gerenciar comentários de registro](/help/quicksilver/planning/records/manage-record-comments.md)
+* [Gerenciar comentários do registro](/help/quicksilver/planning/records/manage-record-comments.md)
 
 ## Requisitos de acesso
 
@@ -84,8 +88,8 @@ Para obter informações adicionais sobre comentários em cartões, metas e regi
    <td role="rowheader"><strong>Licença do Adobe Workfront</strong></td> 
    <td> <p>Para problemas e documentos:</p>
 
-<ul><li><p>Colaborador ou superior</p></li>
-   <li><p>Solicitação ou superior</p></li></ul>
+<ul><li><p>Colaborador ou posterior</p></li>
+   <li><p>Solicitação ou posterior</p></li></ul>
 
 <p>Para todos os outros objetos:</p>
    <ul><li><p>Leve ou superior</p></li>
@@ -108,7 +112,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -652,13 +657,16 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 -->
 
-<!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
+<!--
+ with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
 >[!NOTE]
 >
->Iterations display the legacy commenting experience.-->
+>Iterations display the legacy commenting experience.
+-->
 
-<!--old message, before Auhust 17: 
+<!--
+old message, before Auhust 17: 
 
 >[!NOTE]
 >

@@ -3,12 +3,14 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Configurar acesso a blueprints
-description: Como administrador do sistema, você pode habilitar o acesso para que os usuários solicitem a instalação de blueprints configurando uma fila de solicitações para armazenar as solicitações. Lá, você terá um único local para rastrear e atualizar as solicitações.
+description: Como administrador do sistema, você pode habilitar o acesso para que os usuários solicitem a instalação de blueprints configurando uma fila de solicitações para armazenar as solicitações. Você tem um único local para rastrear e atualizar solicitações.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 8%
@@ -17,7 +19,7 @@ ht-degree: 8%
 
 # Configurar acesso a blueprints
 
-Todos os usuários do [!DNL Adobe Workfront] podem procurar o catálogo de blueprints.
+Todos os usuários [!DNL Adobe Workfront] podem navegar pelo catálogo de blueprints.
 
 Como administrador do sistema, você pode:
 
@@ -64,7 +66,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 ## Pré-requisitos {#prerequisites}
 
 * Você deve usar uma fila de solicitações existente para armazenar solicitações de blueprint. O projeto deve ser salvo como uma fila de solicitações e deve estar no status [!UICONTROL Atual].
-* A fila de solicitações deve ser pública. Nos detalhes da fila de solicitações, “[!UICONTROL Quem pode adicionar solicitações a esta fila?]” deve ser definido como **[!UICONTROL Qualquer um]**.
+* A fila de solicitações deve ser pública. Nos detalhes da fila de solicitações, &quot;[!UICONTROL Quem pode adicionar solicitações a esta fila?] deve ser definido como **[!UICONTROL Qualquer]**.
 
 >[!TIP]
 >
@@ -86,9 +88,9 @@ Antes que os usuários possam solicitar que você instale blueprints para eles, 
 
    >[!IMPORTANT]
    >
-   >Somente filas de solicitações públicas aparecem nessa lista. Para tornar sua fila de solicitações pública, consulte a seção [Pré-requisitos](#prerequisites) acima.
+   >Somente as filas de solicitações públicas aparecem nesta lista. Para tornar sua fila de solicitações pública, consulte a seção [Pré-requisitos](#prerequisites) acima.
 
-   A preferência de fila de solicitações é definida e os usuários agora podem solicitar a instalação do blueprint.
+   A preferência de fila de solicitações está definida e os usuários agora podem solicitar a instalação do blueprint.
 
    ![Configurar fila de solicitações](assets/Blueprints_access_setup_request_queue.png)
 

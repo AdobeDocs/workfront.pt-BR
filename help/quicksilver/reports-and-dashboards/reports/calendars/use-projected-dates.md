@@ -6,7 +6,9 @@ description: Um relatório de calendário é um relatório dinâmico que fornece
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 13%
@@ -42,7 +44,7 @@ Um relatório de calendário é um relatório dinâmico que fornece uma represen
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários</p></td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -78,15 +80,15 @@ Clique em **[!UICONTROL + Novo calendário]**, digite o nome do projeto e clique
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Nomeia este grupo de itens]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Nomear este grupo de itens]</strong></td>
       <td>Digite um nome para o grupo de itens.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Color]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Cor]</strong></td>
       <td>Selecione uma cor para o grupo de itens. Todos os itens são exibidos na cor selecionada no relatório de calendário.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Date Field]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Campo de Data]</strong></td>
       <td><p>Escolha <strong>[!UICONTROL Datas Projetadas]</strong>. Para obter mais informações sobre Datas Projetadas, consulte </p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">Visão geral da data de início projetada do projeto</a></li>
@@ -97,14 +99,14 @@ Clique em **[!UICONTROL + Novo calendário]**, digite o nome do projeto e clique
       <td role="rowheader"><strong>[!UICONTROL No calendário, mostrar]</strong></td>
       <td><p>Escolha como deseja que as datas sejam exibidas:</p>
        <ul>
-        <li><strong>[!UICONTROL Somente Data de Início do]</strong>: O calendário exibe o objeto em uma única data.</li>
-        <li><strong>[!UICONTROL Somente Data de Término do]</strong>: O calendário exibe o objeto em uma única data.</li>
-        <li><strong>[!UICONTROL Duration] (Início a Fim)</strong>: o calendário exibe o objeto em um período de dias.</li>
+        <li><strong>[!UICONTROL Somente Data de Início]</strong>: o calendário exibe o objeto em uma única data.</li>
+        <li><strong>[!UICONTROL Somente Data de Término]</strong>: o calendário exibe o objeto em uma única data.</li>
+        <li><strong>[!UICONTROL Duration] (Início ao Fim)</strong>: o calendário exibe o objeto durante um período de dias.</li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader"><strong>[!UICONTROL Alterna para Datas Reais quando disponível]</strong></td>
-      <td><p>O calendário muda automaticamente para datas reais quando elas estão disponíveis. <br>Escolha <strong>[!UICONTROL Yes]</strong> ou <strong>[!UICONTROL No]</strong> para alternar para as datas reais quando disponíveis. Para obter mais informações sobre Datas Reais, consulte</p>
+      <td role="rowheader"><strong>[!UICONTROL Alternar para Datas Reais quando disponível]</strong></td>
+      <td><p>O calendário alterna automaticamente para datas reais quando elas estão disponíveis. <br>Escolha <strong>[!UICONTROL Sim]</strong> ou <strong>[!UICONTROL Não]</strong> para alternar para datas reais quando disponíveis. Para obter mais informações sobre Datas Reais, consulte</p>
        <ul>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Visão geral da data de início real do projeto </a></li>
         <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Visão geral da data de conclusão real do projeto </a></li>
@@ -127,15 +129,15 @@ Depois de configurar como deseja que os itens sejam exibidos, você precisa adic
    * **[!UICONTROL Folga]**
 1. Clique em **[!UICONTROL Adicionar Tarefas]**, **[!UICONTROL Adicionar Projetos]** ou **[!UICONTROL Adicionar Problemas]**, dependendo do tipo de objeto que você está adicionando ao calendário.
 
-1. No menu suspenso, comece a digitar o nome do campo e selecione a origem do campo do objeto que deseja exibir no calendário (por exemplo, **[!UICONTROL Tarefas Atrasadas]**).
-1. Definir uma declaração de condição para o agrupamento de calendários.
+1. No menu suspenso, comece digitando o nome do campo e selecione a origem do campo do objeto que deseja exibir no calendário (por exemplo, **[!UICONTROL Tarefas atrasadas]**).
+1. Definir uma declaração de condição para o agrupamento de calendário.
 
 
    ![Selecionar objeto para o calendário](assets/calendar-field-name.png)
-Para saber mais sobre como definir condições, consulte [Modificadores de filtro e condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+Para saber mais sobre como definir condições, consulte [Filtro e modificadores de condição](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-1. (Opcional) Especifique objetos adicionais para o agrupamento de calendários repetindo as Etapas 1-4.
-1. Em **[!UICONTROL Definir os rótulos Tarefas/Projetos/Questões como o campo...]**, selecione como os objetos neste agrupamento de calendário são rotulados no calendário.
+1. (Opcional) Especifique objetos adicionais para o agrupamento de calendário repetindo as Etapas de 1 a 4.
+1. No campo **[!UICONTROL Definir os rótulos de Tarefas/Projetos/Problemas para...]**, selecione como os objetos neste agrupamento de calendário são rotulados no calendário.
 
    >[!NOTE]
    >

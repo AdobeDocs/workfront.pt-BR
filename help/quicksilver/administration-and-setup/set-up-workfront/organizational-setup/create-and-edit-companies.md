@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 0d79b04c58d6a0a1c8de7f83d7b941e75b1a88f5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +29,7 @@ Uma empresa é uma unidade organizacional no [!DNL Adobe Workfront] que pode rep
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +41,7 @@ Uma empresa é uma unidade organizacional no [!DNL Adobe Workfront] que pode rep
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] licença</p> </td> 
-   <td><p>[!UICONTROL Plano]</p>
+   <td><p>[!UICONTROL Plan]</p>
    <p>[!UICONTROL Padrão]</p>
    </td> 
   </tr> 
@@ -183,7 +185,8 @@ Para obter informações sobre como os usuários obtêm acesso administrativo a 
 
 Para obter informações sobre como gerenciar uma empresa na área [!UICONTROL Configuração], consulte [Criar ou editar uma empresa [!DNL Workfront]](#create-or-edit-a-company-in-workfront) neste artigo.
 
-<!-- OLD HTML TABLE
+<!--
+ OLD HTML TABLE
 <table style="table-layout:auto"> 
     <col> 
     <col> 

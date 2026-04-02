@@ -6,10 +6,12 @@ description: Você pode atualizar a ordem na qual os formulários personalizados
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -33,8 +35,8 @@ Você pode atualizar a ordem na qual os formulários personalizados anexados a u
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Colaborador ou superior</p> 
-   <p>Solicitação ou superior</p> </td> 
+   <td><p>Colaborador ou posterior</p> 
+   <p>Solicitação ou posterior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -51,7 +53,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -73,7 +76,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    <td> <p>Contribute permissions or higher to the objects for which you manage custom forms</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Pré-requisitos
 
@@ -121,7 +125,8 @@ Você pode fazer com que o mesmo campo apareça em vários formulários personal
 ## Gerenciar vários formulários personalizados ao editar objetos em massa
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+-->
 
 >[!NOTE]
 >

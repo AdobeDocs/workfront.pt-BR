@@ -6,10 +6,12 @@ description: Você pode designar Gerentes de recursos para um projeto para indic
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +25,8 @@ ht-degree: 3%
 
 Você pode designar Gerentes de recursos para um projeto para indicar quem é responsável pelo gerenciamento de recursos no projeto. Este é um campo informativo e não está conectado a nenhuma ferramenta de gerenciamento de recursos.
 
-<!-- drafted for res scheduling deprecation blurb for preview release
+<!--
+ drafted for res scheduling deprecation blurb for preview release
 Designating Resource Managers for a project is a prerequisite for using the Scheduling tools in Adobe Workfront, in the Production environment.
   
 >[!CAUTION]  
@@ -71,7 +74,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +104,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    Users who are added as Resource Managers to a project or a template immediately gain Manage permissions on the project or the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Considerações sobre gerentes de recursos
 

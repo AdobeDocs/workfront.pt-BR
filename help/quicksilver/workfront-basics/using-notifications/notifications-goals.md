@@ -1,19 +1,21 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Notificações: Metas'
-description: 'Notificações: Metas'
+title: 'Notificações: metas'
+description: 'Notificações: metas'
 author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
-# Notificações: Metas
+# Notificações: metas
 
 Você pode habilitar as notificações por email para eventos que ocorrem no [!DNL Adobe Workfront Goals] em seu perfil. Um usuário com uma licença de [!UICONTROL Plano] também pode habilitá-lo para outros usuários. Para obter informações, consulte [[!DNL Adobe Workfront] notificações](../../workfront-basics/using-notifications/wf-notifications.md).
 
@@ -23,7 +25,7 @@ Você pode habilitar as notificações por email para eventos que ocorrem no [!D
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,12 +38,12 @@ Você pode habilitar as notificações por email para eventos que ocorrem no [!D
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença</strong></td> 
    <td>
-   <p>Colaborador ou superior</p>
-    <p>Solicitação ou superior</p> </td> 
+   <p>Colaborador ou posterior</p>
+    <p>Solicitação ou posterior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Produtos adicionais</strong></td> 
-   <td>[!DNL Workfront Goals] <p>Para obter informações sobre [!DNL Workfront Goals], consulte <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] visão geral</a>.</p> </td> 
+   <td>[!DNL Workfront Goals] <p>Para obter informações sobre o [!DNL Workfront Goals], consulte a visão geral do <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
@@ -95,7 +97,8 @@ Consulte também [Notificações de eventos](../../workfront-basics/using-notifi
   </tbody> 
 </table>
 
-<!--these were removed at some point: 
+<!--
+these were removed at some point: 
 
    <td><strong>Someone liked my comment on a Goal</strong></td> 
    <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 

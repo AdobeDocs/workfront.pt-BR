@@ -8,32 +8,35 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 87d3443c7b08c59d435e852c6a17df297e7023d6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
 # Gerenciar chaves de API
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
 
 
 >[!IMPORTANT]
 >
->A Workfront não recomenda mais o uso do ponto de extremidade ou das chaves de API `/login`. Em vez disso, use um dos seguintes métodos de autenticação:
+>A Workfront não recomenda mais o uso das chaves de API ou do ponto de acesso `/login`. Em vez disso, use um dos seguintes métodos de autenticação:
 >
 >* Autenticação do servidor com JWT
 >* Autenticação de usuário com OAuth2
 >
->Para obter instruções sobre como configurar esses métodos de autenticação, consulte [Criar aplicativos OAuth2 para integrações do Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>Para obter instruções sobre como configurar esses métodos de autenticação, consulte [Criar aplicativos OAuth2 para integrações do Workfront](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
 >
->Para obter instruções sobre como usar a autenticação de servidor no Workfront, consulte [Configurar e usar os aplicativos OAuth 2 personalizados da sua organização usando o fluxo JWT](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>Para obter instruções sobre como usar a autenticação de servidor no Workfront, consulte [Configurar e usar os aplicativos OAuth2 personalizados da sua organização usando o fluxo JWT](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md).
 >
->Para obter instruções sobre como usar a autenticação de usuário no Workfront, consulte [Configurar e usar os aplicativos OAuth 2 personalizados de sua organização usando o fluxo de código de autorização](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
+>Para obter instruções sobre como usar a autenticação de usuário no Workfront, consulte [Configurar e usar os aplicativos OAuth2 personalizados de sua organização usando o fluxo de código de autorização](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md).
 
 Para minimizar as vulnerabilidades de segurança da API, os administradores do Adobe Workfront podem gerenciar as Chaves de API usadas para permitir que os aplicativos acessem o Workfront em nome de um usuário.
 
@@ -176,9 +179,9 @@ Se você estiver preocupado com uma violação de segurança específica em rela
 
 >[!IMPORTANT]
 >
->O procedimento descrito nesta seção se aplica apenas a organizações que ainda não foram integradas à Adobe Business Platform. Fazer logon no Workfront por meio da API do Workfront não estará disponível se sua organização tiver sido integrada à Adobe Business Platform.
+>O procedimento descrito nesta seção se aplica apenas a organizações que ainda não foram integradas à Adobe Business Platform. O logon no Workfront por meio da API do Workfront não estará disponível se sua organização tiver sido integrada à Adobe Business Platform.
 >
->Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Business Platform, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem dependendo se sua organização foi integrada à Adobe Business Platform, consulte [Diferenças na administração baseada na plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >

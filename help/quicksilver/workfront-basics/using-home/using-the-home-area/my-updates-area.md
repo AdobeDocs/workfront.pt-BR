@@ -6,19 +6,23 @@ description: Você pode usar a área [!UICONTROL Minhas atualizações] para rev
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
 # Usar a área [!UICONTROL Minhas atualizações]
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 Você pode usar a área [!UICONTROL Minhas atualizações] para revisar rapidamente as aprovações que estão aguardando sua decisão ou as conversas incluídas em.
@@ -31,7 +35,7 @@ Se você tiver um tipo de licença diferente de Revisão, o administrador do [!D
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +47,8 @@ Se você tiver um tipo de licença diferente de Revisão, o administrador do [!D
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença</strong></td> 
-   <td> <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p> </td> 
+   <td> <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuração do nível de acesso</strong></td> 

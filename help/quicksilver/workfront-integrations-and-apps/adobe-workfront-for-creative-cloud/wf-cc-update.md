@@ -6,10 +6,12 @@ description: Você pode atualizar seu trabalho com o plug-in do Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
@@ -21,7 +23,7 @@ Você pode atualizar seu trabalho de qualquer um dos [!DNL Adobe Creative Cloud]
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 
 <table style="table-layout:auto"> 
@@ -31,7 +33,8 @@ Você pode atualizar seu trabalho de qualquer um dos [!DNL Adobe Creative Cloud]
  </col> 
  <tbody> 
   <tr> 
-   <!--<td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <!--
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td>Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -39,7 +42,8 @@ Você pode atualizar seu trabalho de qualquer um dos [!DNL Adobe Creative Cloud]
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Produtos adicionais</td> 
    <td>Você deve ter uma licença [!DNL Adobe Creative Cloud] além de uma licença [!DNL Workfront].</td> 

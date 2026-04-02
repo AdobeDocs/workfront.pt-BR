@@ -5,10 +5,12 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '9443'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -409,7 +411,8 @@ Atualizamos a aparência de uma lista ou relatório de projeto ao aplicar a exib
 
 A lista de projetos ou o relatório agora corresponde ao design de outras áreas do Workfront. Para obter informações, consulte [Usar a exibição de Marco](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-<!--### Interface updates for the Edit Tasks box
+<!--
+### Interface updates for the Edit Tasks box
 
 **Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
 
@@ -421,7 +424,8 @@ The following changes are included in this update:
 
 *The Resource Scope field has been removed from the Edit task box.  
 
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+-->
 
 ### Atualização da interface ao editar modelos em massa
 
@@ -529,13 +533,15 @@ Atualizamos a aparência da seção Detalhes da fila de um modelo. A aparência 
 
 Para obter informações, consulte [Criar uma fila de solicitações](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<!--### Interface updates when bulk editing templates
+<!--
+### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
 We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
 
-For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+-->
 
 ### Atualizações de interface para a caixa Enviar atualização para o usuário em vários objetos
 
@@ -932,7 +938,8 @@ Atualizamos a página usada para conceder acesso de suporte à sua conta do Work
 
 We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours tab, to match the design of other areas of Workfront.  
 
-For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).-->
+For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+-->
 
 
 ### Alterações na aparência das caixas Novo Grupo de Tópicos e Editar Grupo de Tópicos de um projeto

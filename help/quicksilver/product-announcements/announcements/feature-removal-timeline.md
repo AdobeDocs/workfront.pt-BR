@@ -2,19 +2,21 @@
 content-type: faq
 keywords: remoção,desaprovado,desaprovado,não suportado,flash,recurso,agendamento
 navigation-topic: announcements
-title: A programação de recursos não é mais suportada
+title: O cronograma de recursos não é mais compatível
 description: Vários recursos estão sendo removidos do produto Adobe Workfront. A seguir, uma breve descrição de cada recurso, links para informações adicionais e datas importantes a serem observadas.
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# A programação de recursos não é mais suportada
+# O cronograma de recursos não é mais compatível
 
 Vários recursos estão sendo removidos do produto Adobe Workfront. A seguir, uma breve descrição de cada recurso, links para informações adicionais e datas importantes a serem observadas.
 
@@ -44,27 +46,32 @@ Vários recursos estão sendo removidos do produto Adobe Workfront. A seguir, um
    <td> <p>Não é mais compatível em 9 de novembro de 2020 (com a versão 20.4)</p> <p>—</p> <p>Removido da plataforma do Workfront após o primeiro semestre de 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront Fusion herdado</p> <p>O Workfront Fusion fornece uma experiência aprimorada do Workfront Fusion herdado.</p> <p>Para obter mais informações sobre o Workfront Fusion, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Workfront Fusion herdado</p> <p>O Workfront Fusion fornece uma experiência aprimorada do Workfront Fusion herdado.</p> <p>Para obter mais informações sobre o Workfront Fusion, consulte <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
    <td>Removido da plataforma do Workfront em 31 de março de 2021</td> 
   </tr> 
   <tr> 
-   <td> <p>Flash</p> <p>Várias ferramentas agora estão disponíveis no Workfront para o como substituições para cada ferramenta baseada em Flash. Para obter informações mais detalhadas, consulte <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Substituição de ferramentas baseadas em Flashes no Adobe Workfront</a>.</p> </td> 
+   <td> <p>Flash</p> <p>Agora, várias ferramentas estão disponíveis no Workfront para o como substituições para cada ferramenta baseada em Flash. Para obter informações mais detalhadas, consulte <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Substituição de ferramentas baseadas em Flash no Adobe Workfront</a>.</p> </td> 
    <td> </td> 
    <td> <p> </p> <p>Removido da plataforma do Workfront em 19 de novembro de 2020</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Enhanced Authentication 1.0</p> <p>The method of migrating to the new Enhanced Authentication 2.0 depends on whether you are using Legacy Authentication or Enhanced Authentication 1.0. For more information, see <a href="../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md" class="MCXref xref">Enhanced Authentication overview</a>.</p> </td> 
     <td>&nbsp;</td> 
     <td>2021</td> 
    </tr>
-  --> <!--
+  -->
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Allowlist updates </p> <!--
+    <td> <p>Allowlist updates </p>
+    <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Split</p>
-     --> <!--
+     -->
+     <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Email Service updated (MailGun)</p>
-     --> </td>
+     -->
+     </td>
 
 </tr>
 

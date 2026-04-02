@@ -7,10 +7,12 @@ description: É importante indicar no Adobe Workfront quando a folga aprovada ac
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
@@ -81,8 +83,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    ![Calendário de folga pessoal](assets/personal-time-off-calendar-0925.png)
 
-   <!--Sample image in the Production environment:
-   ![Personal time off calendar](assets/personal-time-off-calendar.png)-->
+   <!--
+   Sample image in the Production environment:
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)
+   -->
 
 1. Selecione **[!UICONTROL Todo o dia]**, se você estiver tirando um dia de folga.
 

@@ -6,7 +6,9 @@ description: Você pode visualizar metas que você ou qualquer outra pessoa adic
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 7%
@@ -72,7 +74,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -123,7 +126,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Visão geral dos filtros no Workfront Goals
 
@@ -193,9 +197,11 @@ O processo de criação de filtros é o mesmo para qualquer seção das Metas do
       <tbody> 
        <tr> 
         <td>Todas</td> 
-        <td> <p>Todas as metas no sistema, independentemente de quem as criou, qual é o período de tempo para elas ou quem é o proprietário. Esse é o filtro padrão e não é possível editá-lo. </p> <!--
+        <td> <p>Todas as metas no sistema, independentemente de quem as criou, qual é o período de tempo para elas ou quem é o proprietário. Esse é o filtro padrão e não é possível editá-lo. </p>
+        <!--
           <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: what the ALL filter displays might change; right now, it displays all, regardless of status, period, owner, etc)</p>
-         --> </td> 
+         -->
+         </td>
        </tr> 
        <tr> 
         <td>Pessoal</td> 

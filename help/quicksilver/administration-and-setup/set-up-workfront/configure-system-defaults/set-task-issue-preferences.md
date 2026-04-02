@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2228'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,12 +21,16 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
-Linked to Converting Issues.-->
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
+Linked to Converting Issues.
+-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 Como administrador do [!DNL Adobe Workfront], você pode configurar preferências de todo o sistema para tarefas e problemas. Essas preferências afetam a maneira como seus usuários criam tarefas e problemas no [!DNL Workfront].
@@ -34,7 +40,7 @@ Por padrão, as preferências de tarefas e problemas são bloqueadas e os admini
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +53,7 @@ Por padrão, as preferências de tarefas e problemas são bloqueadas e os admini
   <tr> 
    <td>[!DNL Adobe Workfront] licença</td> 
    <td><p>[!UICONTROL Padrão]</p>
-       <p>[!UICONTROL Plano]</p></td>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
@@ -84,20 +90,20 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
   <col> 
   <tbody> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Data de Início]</td> 
+    <td role="rowheader">[!UICONTROL Start Date]</td> 
     <td> <p>Determina a data de início padrão para novas tarefas para gerentes de projeto. A data de início das novas tarefas pode ser a data planejada de início do projeto ou o dia em que a tarefa é criada.</p> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader"> <p>[!UICONTROL Tipo de Duração] </p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Tipo de duração] </p> </td> 
     <td> <p>Determina a relação entre o número de recursos (e sua porcentagem de alocação) e a duração ou o esforço total da tarefa. Para obter mais informações, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Duração e tipos de duração da tarefa</a></p> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Tipo de Receita]</td> 
+    <td role="rowheader">[!UICONTROL Revenue Type]</td> 
     <td> <p>Calcula as estimativas de receita planejadas e reais para uma tarefa. Quando o <strong>[!UICONTROL Tipo de Receita]</strong> está definido como <strong>[!UICONTROL Não Faturável]</strong>, as horas planejadas e as horas reais registradas não geram uma estimativa de receita para a tarefa e o trabalho na tarefa não contribui para a receita no nível do projeto.</p>
          <p>Para obter informações sobre os diferentes tipos de receita, consulte <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Visão geral de faturamento e receita</a>.</p></td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Tipo de Custo]</td> 
+    <td role="rowheader">[!UICONTROL Cost Type]</td> 
     <td> <p>Calcula as estimativas de custo planejadas e reais para uma tarefa. Quando definido como <strong>[!UICONTROL Sem Custo]</strong>, as horas planejadas e as horas reais registradas não geram uma estimativa de custo planejada ou real para a tarefa, e o trabalho na tarefa não contribui para os custos no nível do projeto.</p> </td> 
     </tr> 
   </tbody> 

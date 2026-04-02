@@ -6,10 +6,12 @@ description: É possível exibir ou editar as informações de uma tarefa acessa
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2104'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -69,7 +71,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -99,7 +102,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Editar informações da tarefa na seção Visão Geral de Detalhes da Tarefa
 
@@ -232,7 +236,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
            </tr> 
           </tbody> 
          </table> 
-         <p><strong>OBSERVAÇÃO</strong> </p>
+         <p><strong> OBSERVAÇÃO </strong> </p>
          <p> Tempo decorrido é uma unidade de tempo da Duração de uma tarefa. É o tempo entre a Data de Início Planejada e a Data de Conclusão Planejada de uma tarefa que inclui feriados, finais de semana e folga. Em outras palavras, o tempo decorrido é a passagem de dias do calendário. O tempo normal leva em conta feriados, fins de semana e folga e os exclui da Duração da tarefa. Para obter mais informações sobre a duração da tarefa, consulte <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Visão Geral da Duração e do Tipo de Duração da Tarefa</a>. </p> 
          <p> 
          <!--You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates. (NOTE: Anna said this is now possible for all duration types in the Assignments area. It's not here, but to clear confusion, I am drafting this out of here.)--></p> 
@@ -259,7 +263,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
       <td role="rowheader">Esforço do trabalho </td> 
       <td> 
        <div> 
-        <p>O esforço necessário para concluir a tarefa. Seu gerente de projeto pode decidir usar esse campo em vez do Trabalho necessário para estimar o esforço necessário para concluir uma tarefa. Este campo fica visível somente quando as seguintes condições são atendidas:</p> 
+        <p>O esforço necessário para concluir a tarefa. Seu gerente de projeto pode decidir usar esse campo em vez do Trabalho necessário para estimar o esforço necessário para concluir uma tarefa. Esse campo torna-se visível somente quando as seguintes condições são atendidas:</p> 
         <ul> 
          <li> <p>A tarefa tem um tipo de duração simples. </p> <p>Dica: se você alterar o Tipo de Duração da tarefa, esse campo ficará esmaecido. </p> </li> 
          <li>O gerente de projeto ativou o campo Usar esforço do trabalho para calcular automaticamente as Horas planejadas das tarefas no projeto. </li> 
@@ -351,7 +355,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Frequência de recorrência</td> 
-      <td> <p>É exibido apenas no pai de tarefas recorrentes. É a frequência com que as tarefas na recorrência ocorrem. Para obter informações sobre como criar tarefas recorrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Criar tarefas recorrentes</a>. </p> </td> 
+      <td> <p>É exibido apenas no pai de tarefas recorrentes. É a frequência com que as tarefas se repetem. Para obter informações sobre como criar tarefas recorrentes, consulte <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Criar tarefas recorrentes</a>. </p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Duração por Ocorrência</td> 

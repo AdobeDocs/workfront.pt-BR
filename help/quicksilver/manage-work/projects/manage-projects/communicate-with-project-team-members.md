@@ -6,14 +6,16 @@ description: Você pode se comunicar facilmente com os membros da equipe do proj
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Comunicar com os membros da equipe do projeto
+# Comunicação com membros da equipe do projeto
 
 Você pode se comunicar facilmente com os membros da equipe do projeto por meio do Adobe Workfront.
 
@@ -21,7 +23,7 @@ Todos os usuários associados a um projeto formam a Equipe do projeto. Para obte
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,8 +37,8 @@ Todos os usuários associados a um projeto formam a Equipe do projeto. Para obte
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Colaborador ou superior</p> 
-   <p>Solicitação ou superior</p> </td> 
+   <td><p>Colaborador ou posterior</p> 
+   <p>Solicitação ou posterior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -53,7 +55,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Enviar um email para um membro da Equipe do Projeto {#send-an-email-to-a-project-team-member}
 

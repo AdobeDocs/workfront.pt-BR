@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Filtro: exibir tarefas principais'
-description: Você pode aplicar os filtros de tarefa abaixo para exibir as tarefas de trabalho. As tarefas de trabalho são tarefas que podem ser trabalhadas independentemente e não são tarefas pai de outras tarefas. Em um exemplo, um filtro identifica tarefas filhas que podem ser pais. Nesse caso, eles não são tarefas de trabalho.
+description: Você pode aplicar os filtros de tarefa abaixo para exibir tarefas em execução. Tarefas de trabalho são tarefas que podem ser trabalhadas independentemente e não são tarefas pai de outras tarefas. Em um exemplo, um filtro identifica tarefas filhas que podem ser pais. Nesse caso, elas não são tarefas de trabalho.
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 7%
@@ -18,12 +20,12 @@ ht-degree: 7%
 
 <!--Audited: 10/2024-->
 
-Você pode aplicar os filtros de tarefa abaixo para exibir as tarefas de trabalho. As tarefas de trabalho são tarefas que podem ser trabalhadas independentemente e não são tarefas pai de outras tarefas. Em um exemplo, um filtro identifica tarefas filhas que podem ser pais. Nesse caso, eles não são tarefas de trabalho.
+Você pode aplicar os filtros de tarefa abaixo para exibir tarefas em execução. Tarefas de trabalho são tarefas que podem ser trabalhadas independentemente e não são tarefas pai de outras tarefas. Em um exemplo, um filtro identifica tarefas filhas que podem ser pais. Nesse caso, elas não são tarefas de trabalho.
 
 >[!TIP]
 >
->* Se você considerar adicionar mais de um filtro a um relatório, recomendamos que adicione todos os filtros usando a interface do Construtor de relatórios e clicando em Alternar para Modo de Texto depois de adicionar todas as outras regras de filtro. Em seguida, você pode adicionar o código do filtro da tarefa-pai conforme observado acima. 
->* Recomendamos também adicionar um agrupamento de Nome do projeto para facilitar a leitura do relatório. Para obter mais informações sobre como adicionar agrupamentos aos relatórios, consulte o artigo [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+>* Se você considerar adicionar mais de um filtro a um relatório, recomendamos adicionar todos os filtros usando a interface do Report Builder e clicando em Alternar para o modo de texto depois que todas as outras regras de filtro tiverem sido adicionadas. Em seguida, é possível adicionar o código do filtro da tarefa pai, conforme observado acima. 
+>* Também recomendamos que você adicione um agrupamento para Nome do projeto para facilitar a leitura do relatório. Para obter mais informações sobre como adicionar agrupamentos aos seus relatórios, consulte o artigo [Visão geral de agrupamentos no Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 >
 
 ## Requisitos de acesso
@@ -41,12 +43,12 @@ Você pode aplicar os filtros de tarefa abaixo para exibir as tarefas de trabalh
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou solicitação para modificar um filtro </p>
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -61,15 +63,15 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 ## Exibir tarefas sem filhos (eles podem ter um pai)
 
-Você pode aplicar o filtro a seguir a um relatório de tarefas para exibir tarefas sem filhos. Eles poderiam ter pais próprios e serem filhos de outras tarefas.
+Você pode aplicar o filtro a seguir a um relatório de tarefas para exibir tarefas sem filhos. Eles poderiam ter seus próprios pais e serem filhos de outras tarefas.
 
-1. No **Ícone do** Menu Principal![&#x200B; do Menu Principal](assets/main-menu-icon.png) no canto superior direito, ou no **Menu Principal** nas ![linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
+1. No **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![Linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
 
 1. Clique em **Novo Relatório**.
-1. Selecione um **Relatório de Tarefas**.
+1. Selecione um **Relatório de Tarefa**.
 1. Clique em **Filtros**.
 1. Clique em **Adicionar uma Regra de Filtro**.
-1. Na linha **Iniciar a digitar o nome do campo ...**, comece a digitar **Número de Filhos** e clique em **Tarefa ” Número de Filhos** quando ele for exibido na lista.
+1. Na linha **Comece a digitar o nome do campo ...**, comece a digitar **Número de Filhos** e clique em **Tarefa >> Número de Filhos** quando ele for exibido na lista.
 
 1. Selecione **Igual (Diferencia maiúsculas de minúsculas)** para o modificador e digite **0** para o número de filhos.\
    ![Filtro de tarefa pai](assets/parent-task-filter-from-the-ui-350x76.png)
@@ -86,20 +88,20 @@ Você pode aplicar o filtro a seguir a um relatório de tarefas para exibir tare
 
 1. Clique em **Salvar + Fechar**.
 
-   Isso extrai um relatório para todas as tarefas em funcionamento no sistema. Algumas dessas tarefas podem ter um pai, mas elas não são tarefas pai em si.
+   Isso extrai um relatório para todas as tarefas em funcionamento no sistema. Algumas dessas tarefas podem ter um pai, mas não são tarefas pai em si.
 
 ## Exibir tarefas com pais (eles podem ter filhos)
 
-Você pode aplicar o seguinte filtro a um relatório de tarefas para exibir tarefas com pais, o que significa que são tarefas filhas. No entanto, essas tarefas também podem ter filhos, pois o filtro não exclui os filhos. As tarefas filhas que também são pai de outras tarefas não são consideradas tarefas de trabalho.
+Você pode aplicar o filtro a seguir a um relatório de tarefas para exibir tarefas com pais, o que significa que elas são tarefas filhas. No entanto, essas tarefas também podem ter filhos, pois o filtro não exclui os filhos. Tarefas secundárias que também são principais para outras tarefas não são consideradas tarefas de trabalho.
 
 1. No **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![Linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
 
 1. Clique em **Novo Relatório**.
-1. Selecione um **Relatório de Tarefas**.
+1. Selecione um **Relatório de Tarefa**.
 1. Clique em **Filtros**.
 1. Clique em **Adicionar uma Regra de Filtro**.
-1. Na linha **Começar a digitar o nome do campo ...**, comece a digitar a **ID pai** e selecione a **Tarefa ” ID pai** quando ela for exibida na lista.
-1. Selecione **Não Está em Branco** para o modificador.
+1. Na linha **Comece a digitar o nome do campo ...**, comece a digitar a **ID do Pai** e selecione a **Tarefa >> ID do Pai** quando ela for exibida na lista.
+1. Selecione **Não está em branco** para o modificador.
 
    ![A ID do pai não está em branco](assets/filter-parent-id-not-blank-350x100.png)
 
@@ -113,27 +115,27 @@ Você pode aplicar o seguinte filtro a um relatório de tarefas para exibir tare
 
    Isso extrai um relatório para todas as tarefas em seu sistema que têm pais e são tarefas filhas desses pais. Algumas dessas tarefas podem ser de responsabilidade principal.
 
-## Exibir tarefas sem filhos e sem pais (tarefas autônomas)
+## Exibir tarefas sem filhos e sem pais (tarefas independentes)
 
-Você pode aplicar o filtro a seguir a um relatório de tarefas para exibir tarefas de trabalho independentes. Essas tarefas não têm um pai nem filhos próprios.
+Você pode aplicar o filtro a seguir a um relatório de tarefa para exibir tarefas de trabalho independentes. Estas tarefas não têm pais e eles não têm filhos.
 
-1. No **Ícone do** Menu Principal![&#x200B; do Menu Principal](assets/main-menu-icon.png) no canto superior direito, ou no **Menu Principal** nas ![linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
+1. No **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) no canto superior direito ou no **Menu Principal** ![Linhas do Menu Principal](assets/lines-main-menu.png) no canto superior esquerdo, se disponível, clique em **Relatórios**.
 
 1. Clique em **Novo Relatório**.
-1. Selecione um **Relatório de Tarefas**.
+1. Selecione um **Relatório de Tarefa**.
 1. Clique em **Filtros**.
 1. Clique em **Adicionar uma Regra de Filtro**.
-1. Na linha **Começar a digitar o nome do campo ...**, comece a digitar **Número de Filhos** e selecione **Tarefa ” Número de Filhos** na lista.
+1. Na linha **Comece a digitar o nome do campo ...**, comece a digitar **Número de Filhos** e selecione **Tarefa >> Número de Filhos** na lista.
 1. Selecione **Igual (Diferencia maiúsculas de minúsculas)** para o modificador e digite **0** para o número de filhos.
-1. Clique em **Adicionar outra Regra de Filtro**.
-1. Na linha **Começar a digitar o nome do campo ...**, comece a digitar a **ID do Pai** e selecione **Tarefa ” ID do Pai** na lista.
+1. Clique em **Adicionar outra regra de filtro**.
+1. No campo **Comece a digitar o nome ...**, comece a digitar a **ID do Pai** e selecione **Tarefa >> ID do Pai** na lista.
 1. Selecione **Está em Branco** para o modificador.
 
-   ![A ID do pai está em branco e não tem filhos](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![A ID do pai está em branco e sem filhos](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    Ou
 
-   Em vez das etapas 6 a 10 <!--ensure steps above stay accurate-->, clique em **Alternar para o Modo de Texto** e, na janela de edição de texto, copie e cole o seguinte texto:
+   Em vez das etapas 6-10 <!--ensure steps above stay accurate-->, clique em **Alternar para Modo de Texto** e, na janela de edição de texto, copie e cole o seguinte texto:
 
    ```
    numberOfChildren=0

@@ -1,28 +1,30 @@
 ---
 user-type: administrator
 product-area: system-administration
-keywords: modify,email,notification,settings,bulk,bulk-edit,configure,multiple,users
+keywords: modificar,email,notificação,configurações,em massa,edição em massa,configurar,vários,usuários
 navigation-topic: emails-administration
-title: Modify Multiple Users' Email Notification Settings
-description: This article provides information for the Workfront or group administrators about how they can update the email notifications of other users.
+title: Modificar Configurações de Notificação por Email de Vários Usuários
+description: Este artigo fornece informações para a Workfront ou administradores de grupo sobre como eles podem atualizar as notificações por email de outros usuários.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 6%
 
 ---
 
-# Modify multiple users&#39; email notification settings
+# Modificar as configurações de notificação por email de vários usuários
 
 <!-- Audited: 12/2023 -->
 
-If you are an Adobe Workfront administrator or you have a Planner access level allowing you to edit other users&#39; settings, you can configure the notification settings for multiple users at one time. This includes specifying whether users receive notifications as events happen, or in one daily digest email, as described in [Adobe Workfront notifications](../../../workfront-basics/using-notifications/wf-notifications.md). For information about the access level needed to edit users, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Se você for um administrador do Adobe Workfront ou tiver um nível de acesso de Planejador que permita editar as configurações de outros usuários, poderá definir as configurações de notificação para vários usuários de uma vez. Isso inclui especificar se os usuários recebem notificações conforme os eventos ocorrem ou em um email de resumo diário, conforme descrito em [Notificações do Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md). Para obter informações sobre o nível de acesso necessário para editar usuários, consulte [Conceder acesso aos usuários](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-You can also configure email notifications for one user at a time, including your own profile. For more information, see [Modify your own email notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Você também pode configurar notificações por email para um usuário por vez, incluindo seu próprio perfil. Para obter mais informações, consulte [Modificar suas próprias notificações por email](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## Requisitos de acesso
@@ -52,35 +54,35 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Modify email notification settings for multiple users
+## Modificar configurações de notificação por email para vários usuários
 
-When you configure notification settings in bulk, you can change only the settings that the selected users have in common.
+Ao definir as configurações de notificação em massa, você pode alterar apenas as configurações que os usuários selecionados têm em comum.
 
-When you modify a notification setting, the label **Edited** appears for that notification setting, to let you know that that notification setting has been modified.
+Quando você modifica uma configuração de notificação, o rótulo **Editado** é exibido para essa configuração de notificação, para que você saiba que a configuração de notificação foi modificada.
 
-To modify email notification settings for multiple users:
+Para modificar as configurações de notificação por email para vários usuários:
 
 {{step-1-to-users}}
 
-1. Select the users, then click **Edit**.
-1. In the **Edit Person** box that appears, click **Notifications**.
+1. Selecione os usuários e clique em **Editar**.
+1. Na caixa **Editar Pessoa** exibida, clique em **Notificações**.
 
-1. Expand a category to view notification settings related to that category.
+1. Expanda uma categoria para exibir as configurações de notificação relacionadas a ela.
 
-   If there is at least one user selected where the notifications do not match the notifications of the other selected users, the category check box for that notification contains a horizontal line ![Line instead of check](assets/straight-line-instead-of-checkmark.jpg) instead of a check mark.
+   Se houver pelo menos um usuário selecionado em que as notificações não correspondam às notificações dos outros usuários selecionados, a caixa de seleção de categoria dessa notificação conterá uma linha horizontal ![Linha em vez de uma marca de seleção](assets/straight-line-instead-of-checkmark.jpg).
 
 
-1. Click any notifications that you want the users to receive either daily or instantly, or clear any that you want them to stop receiving.
+1. Clique em qualquer notificação que você deseja que os usuários recebam diariamente ou instantaneamente, ou desmarque qualquer uma que você deseja que eles parem de receber.
 
    >[!NOTE]
    >
-   >   For the **Communication** category, you can select individual notifications for instant delivery only. You must select all of the notifications to be delivered in a daily digest.
+   >   Na categoria **Comunicação**, você pode selecionar notificações individuais somente para entrega instantânea. Você deve selecionar todas as notificações que serão entregues em um resumo diário.
 
 
 1. Se você selecionou notificações para serem enviadas como um resumo diário, selecione a hora do dia em que deseja que o resumo seja entregue na parte superior da seção **Notificações** do menu **Resumo diário de emails após**.
 
-   ![Daily digest time](assets/daily-digest-time.png)
+   ![Hora de resumo diária](assets/daily-digest-time.png)
 
-   The daily digest includes events that meet the criteria of the notifications 24 hours prior to the selected time. Users receive one daily digest email for each notification type.
+   O resumo diário inclui eventos que atendem aos critérios das notificações 24 horas antes da hora selecionada. Os usuários recebem um email de resumo diário para cada tipo de notificação.
 
-   The daily digest may arrive after the time you select, depending on how many emails are queued for delivery in the system. The time listed is your local time as specified in your browser settings.
+   O resumo diário pode chegar depois do tempo selecionado, dependendo de quantos emails estão na fila para entrega no sistema. A hora listada é a hora local especificada nas configurações do navegador.

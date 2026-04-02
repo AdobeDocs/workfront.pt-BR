@@ -7,10 +7,12 @@ description: Você pode solicitar acesso a um plano no Planejador de cenários d
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +24,7 @@ Você pode solicitar permissões para um plano no [!DNL Adobe Workfront Scenario
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,7 +56,8 @@ Para obter informações sobre requisitos de acesso do Workfront, consulte [Requ
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -85,7 +88,8 @@ Para obter informações sobre requisitos de acesso do Workfront, consulte [Requ
    <td>  <p>[!UICONTROL View] or higher access to the [!DNL Scenario Planner]</p>  </td> 
   </tr>
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Pré-requisitos
 

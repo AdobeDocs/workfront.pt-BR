@@ -6,10 +6,12 @@ description: Você pode exibir e adicionar atualizações a um item de trabalho 
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -17,15 +19,17 @@ ht-degree: 7%
 
 <!--Audited: 04/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Você pode exibir e adicionar atualizações a um item de trabalho na área [!UICONTROL Página Inicial] em [!DNL Adobe Workfront]. Você também pode editar outros dados relacionados ao item de trabalho se tiver acesso para editá-lo.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,8 +43,8 @@ Você pode exibir e adicionar atualizações a um item de trabalho na área [!UI
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>Standard</p>
-   <p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p>
+   <p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configuração do nível de acesso</strong></td> 
@@ -57,7 +61,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--not sure if this  from the old UI: we don't have a Work List anymore - should this section come off? 
+<!--
+not sure if this  from the old UI: we don't have a Work List anymore - should this section come off? 
 
 ## View updates on a work item
 
@@ -73,7 +78,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 Você pode adicionar comentários nos seguintes widgets na área Página inicial:
 
-| Dispositivo | Descrição |
+| Widget | Descrição |
 |--------------|---------------------------------------------------------------------------------------------------|
 | Quadros | Exibe todos os painéis que você criou ou que foi convidado a usar |
 | Meu trabalho | Exibe tarefas e problemas atribuídos a você |
@@ -86,7 +91,7 @@ Você pode adicionar comentários nos seguintes widgets na área Página inicial
 
 Você pode editar itens de trabalho nos seguintes widgets na área Página inicial:
 
-| Dispositivo | Descrição |
+| Widget | Descrição |
 |--------------|---------------------------------------------------------------------------------------------------|
 | Quadros | Exibe todos os painéis que você criou ou que foi convidado a usar |
 | Meu trabalho | Exibe tarefas e problemas atribuídos a você |

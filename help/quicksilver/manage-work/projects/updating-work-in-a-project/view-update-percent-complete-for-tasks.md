@@ -6,14 +6,16 @@ description: Você pode atualizar o percentual concluído de uma tarefa para ind
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# Exibir e atualizar o Percentual Concluído das tarefas
+# Exibir e atualizar o percentual concluído das tarefas
 
 <!--Audited: 05/2025-->
 
@@ -54,7 +56,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -79,7 +82,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    <td> <p>Manage permissions to the task</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Áreas em que é possível atualizar o percentual concluído de uma tarefa
 

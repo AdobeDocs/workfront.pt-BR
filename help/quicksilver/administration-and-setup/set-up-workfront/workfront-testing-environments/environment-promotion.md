@@ -9,10 +9,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2088'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -40,7 +42,7 @@ Você deve ter o seguinte:
   <tr>
    <td><strong>licenças do Workfront</strong>
    </td>
-   <td> <p>Standard</p>&gt;
+   <td> <p>Padrão</p>&gt;
    </td>
   </tr>
    <tr>
@@ -71,9 +73,9 @@ A autenticação é realizada transmitindo uma ID de sessão ou chave de API, qu
 
 ### Solicitar autenticação de cabeçalho
 
-O método preferido de autenticação é passar um cabeçalho de solicitação chamado SessionID contendo o token de sessão. Isso tem a vantagem de estar seguro contra [ataques de falsificação de solicitação entre sites (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) e não interferir no URI para fins de armazenamento em cache.
+O método preferencial de autenticação é transmitir um cabeçalho de solicitação denominado SessionID que contém o token de sessão. Isso tem a vantagem de estar seguro contra ataques de [falsificação de solicitação entre sites (CSRF)](https://pt.wikipedia.org/wiki/Cross-site_request_forgery) e não interferir no URI para fins de armazenamento em cache.
 
-Veja a seguir um exemplo de um cabeçalho de solicitação:
+Veja a seguir um exemplo de cabeçalho de solicitação:
 
 ```
 GET /attask/api/v15.0/project/search
@@ -522,7 +524,7 @@ Para cada objeto de promoção, um dos `actions` a seguir será definido:
  <col> 
  <tbody> 
   <tr> 
-   <td>CRIAR</td> 
+   <td>CREATE</td> 
    <td><p>Quando um registro correspondente não pode ser encontrado no ambiente de destino, a ação é definida como CRIAR.</p><p>Quando esta ação for definida no <code>translationmap</code> fornecido ao ponto de extremidade <code>/install</code>, o serviço de instalação criará o registro.</p></td> 
   </tr> 
   <tr> 
@@ -1117,7 +1119,8 @@ A resposta inclui o `{uuid of the created installation}` e um status `202 - ACCE
 
 Exemplo: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
-<!--table templates
+<!--
+table templates
 
 <table style="table-layout:auto"> 
  <col> 

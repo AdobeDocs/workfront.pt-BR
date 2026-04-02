@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Agrupamento: Patrocinador do Projeto para uma Lista de Tarefas'
-description: Este agrupamento de tarefas permite que você agrupe tarefas pelo Patrocinador do Projeto.
+description: Este agrupamento de tarefas permite agrupar tarefas pelo Patrocinador do Projeto.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 27%
@@ -18,7 +20,7 @@ ht-degree: 27%
 
 <!--Audited: 11/2024-->
 
-Este agrupamento de tarefas permite que você agrupe tarefas pelo Patrocinador do Projeto.
+Este agrupamento de tarefas permite agrupar tarefas pelo Patrocinador do Projeto.
 
 ![Agrupar por patrocinador do projeto](assets/grouping--project-sponsor-for-a-task-350x189.png)
 
@@ -37,12 +39,12 @@ Este agrupamento de tarefas permite que você agrupe tarefas pelo Patrocinador d
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou solicitação para modificar um filtro </p>
+   <p>Colaborador ou Solicitação para modificar um filtro </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a filtros, exibições e agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -58,12 +60,12 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 ## Agrupar por Patrocinador do Projeto para uma lista de tarefas
 
 
-Para aplicar este agrupamento:
+Para aplicar esse agrupamento:
 
 1. Ir para uma lista de tarefas.
 1. No menu suspenso **Agrupamento**, selecione **Novo agrupamento**.
 
-1. Clique em **Alternar para o Modo de Texto**.
+1. Clique em **Alternar para Modo de Texto**.
 1. Remova o texto na área que é exibida e substitua-o pelo seguinte código:
 
    ```

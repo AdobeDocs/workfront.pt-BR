@@ -7,10 +7,12 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -56,7 +58,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,7 +87,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Criar uma tarefa recorrente
 
@@ -124,7 +128,7 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Dia</strong> </td> 
+      <td role="rowheader"><strong>Day</strong> </td> 
       <td> <p>A tarefa é repetida todos os dias, a cada dois dias, a cada três dias e assim por diante, dependendo da cadência selecionada. Você pode configurar tarefas para repetição até o dia 6. A configuração padrão é 1 dia. </p> </td> 
      </tr> 
      <tr> 
@@ -136,10 +140,10 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
       <td> <p> A tarefa é repetida a cada semana, a cada 2 semanas, a cada 3 semanas e assim por diante, dependendo da cadência selecionada.</p> <p>No campo <strong>Repetições</strong>, selecione o dia da semana em que você deseja que cada tarefa ocorra. Você pode selecionar vários dias. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Mês</strong> </td> 
+      <td role="rowheader"><strong>Month</strong> </td> 
       <td> <p>A tarefa é repetida a cada mês, a cada dois meses, a cada três meses e assim por diante, dependendo da cadência selecionada. Você pode selecionar entre 1 e 12 meses. </p> <p>No campo <strong>Repetições</strong>, selecione uma das seguintes opções quando desejar que a tarefa ocorra:</p> 
        <ul> 
-        <li> <p><strong>todo mês no dia &lt;data do mês&gt;</strong> </p> <p>Você pode selecionar dias de 1 a 30 ou selecionar <strong>último</strong>. Por exemplo, você pode selecionar "todo mês no dia 30". </p> </li> 
+        <li> <p><strong>todo mês no dia &lt;mês data&gt;</strong> </p> <p>Você pode selecionar dias de 1 a 30 ou selecionar <strong>último</strong>. Por exemplo, você pode selecionar "todo mês no dia 30". </p> </li> 
         <li> <p><strong>todo mês no &lt;número&gt; &lt;dia da semana&gt;</strong> </p> <p>No primeiro menu suspenso, você pode selecionar um número entre 1 e 4 para o número da semana no mês ou selecionar "último". </p> <p>No segundo menu suspenso, é possível selecionar qualquer dia da semana. </p> <p>Por exemplo, você pode selecionar "todo mês na 2ª terça-feira". </p> </li> 
        </ul> </td> 
      </tr> 

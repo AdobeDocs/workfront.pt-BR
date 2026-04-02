@@ -2,19 +2,21 @@
 content-type: reference
 product-area: projects
 navigation-topic: convert-issues
-title: Visão Geral de Objetos Resolventes e Resolvíveis
+title: Visão geral de objetos de resolução e objetos resolvíveis
 description: Um Objeto Resolvível é um problema cuja resolução está vinculada a um Objeto Resolução. Um Objeto de Resolução é um projeto, tarefa ou outro problema.
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 2%
 
 ---
 
-# Visão Geral de Objetos Resolventes e Resolvíveis
+# Visão geral de objetos de resolução e objetos resolvíveis
 
 <!-- Audited: 08/2025 -->
 
@@ -38,7 +40,8 @@ Você pode optar por manter o Objeto resolvível enquanto o converte em uma tare
 
 Para obter informações sobre como configurar preferências para manipular Objetos Resolvíveis, consulte [Configurar preferências de tarefas e problemas em todo o sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above) </p>
 <p>To establish the system default for what happens to the issue as it is being converted to a task or a project:</p>
@@ -88,7 +91,8 @@ Existem os seguintes cenários:
 
 Para obter mais informações sobre a conversão de problemas em tarefas e projetos, consulte [Visão geral da conversão de problemas no Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Tie the resolution of an issue to a project, task or </h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: created new article for this section; draft when the article is live and see if you need to make a link from this one to the new article) </p>

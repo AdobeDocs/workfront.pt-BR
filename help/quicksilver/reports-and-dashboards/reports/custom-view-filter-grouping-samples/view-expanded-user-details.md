@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'View: Expanded User Details'
-description: This User view displays information about your users. In addition to their name, access levels, and Company, it also shows lists of their Groups, Teams, and Job Roles.
+title: 'Exibição: Detalhes do Usuário Expandido'
+description: Esta visualização do usuário exibe informações sobre seus usuários. Além do nome, dos níveis de acesso e da Empresa, também mostra listas de Grupos, Equipes e Funções.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6a978b43-4718-43fb-80b8-844b35e09d06
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 20%
@@ -18,9 +20,9 @@ ht-degree: 20%
 
 <!--Audited: 11/2024-->
 
-This User view displays information about your users. In addition to their name, access levels, and Company, it also shows lists of their Groups, Teams, and Job Roles.
+Esta visualização do usuário exibe informações sobre seus usuários. Além do nome, dos níveis de acesso e da Empresa, também mostra listas de Grupos, Equipes e Funções.
 
-![expanded_user_view.png](assets/expanded-user-view-350x75.png)
+![expand_user_view.png](assets/expanded-user-view-350x75.png)
 
 ## Requisitos de acesso
 
@@ -37,12 +39,12 @@ This User view displays information about your users. In addition to their name,
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou Solicitação de modificação de uma exibição </p>
+   <p>Colaborador ou Solicitação para modificar uma exibição </p>
    <p>Padrão ou Plano para modificar um relatório</p>
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Acesso de edição a filtros, visualizações, agrupamentos para modificar uma visualização</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar uma visualização</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -55,16 +57,16 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## View expanded user details
+## Exibir detalhes do usuário expandidos
 
-To apply this view:
+Para aplicar esta exibição:
 
-1. Go to a list of users.
-1. No menu suspenso **Exibição**, selecione **Nova Exibição**.
+1. Ir para uma lista de usuários.
+1. No menu suspenso **Exibir**, selecione **Nova Exibição**.
 
 1. Na área **Visualização da coluna**, elimine todas as colunas, exceto uma.
-1. Clique no cabeçalho da coluna restante e clique em **Alternar para o Modo de Texto** > **Editar Modo de Texto**.
-1. Remove the text you find in the **dit Text Mode** box, and replace it with the following code:
+1. Clique no cabeçalho da coluna restante e em **Alternar para Modo de Texto** > **Editar Modo de Texto**.
+1. Remova o texto localizado na caixa **Editar Modo de Texto** e substitua-o pelo seguinte código:
 
    ```
    column.0.descriptionkey=name 
@@ -151,4 +153,4 @@ To apply this view:
    column.5.width=150
    ```
 
-1. Clique em **Concluído** > **Salvar Exibição**.
+1. Clique em **Concluído** > **Salvar exibição**.

@@ -6,10 +6,12 @@ description: O progresso da meta é orientado por indicadores de progresso como 
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -19,13 +21,14 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Sua empresa pode optar por continuar usando o Adobe Workfront Goals se ele comprou esse pacote no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
+>Sua empresa pode continuar usando o Adobe Workfront Goals se este pacote foi comprado no passado. Você precisa falar com o seu representante de conta para obter mais detalhes.
 >
 >O Adobe Workfront Goals não está mais disponível para compra.
 >
->Para obter informações adicionais sobre o acesso às Metas do Workfront, consulte [Requisitos para usar as Metas do Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Para obter informações adicionais sobre o acesso ao Adobe Workfront Goals, consulte [Requisitos para usar o Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -40,7 +43,8 @@ ht-degree: 1%
 >   * A Pro or higher 
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
-> Contact your Workfront account manager to learn about a Workfront Goals license.-->
+> Contact your Workfront account manager to learn about a Workfront Goals license.
+ -->
 
 
 O Adobe Workfront calcula o progresso da meta automaticamente, com base no progresso de seus indicadores de progresso.

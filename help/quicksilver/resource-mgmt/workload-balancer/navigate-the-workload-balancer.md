@@ -1,19 +1,21 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Navegar pelo Balanceador de carga de trabalho
+title: Navegar no Balanceador de carga de trabalho
 description: Use o Balanceador de carga de trabalho para entender a disponibilidade de seus recursos e atribuir trabalho aos usuários. Este artigo o orienta usando os ícones e configurações disponíveis para atualizar a exibição e navegar pelo Balanceador de carga de trabalho.
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '4334'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Navegar pelo Balanceador de carga de trabalho
+# Navegar no Balanceador de carga de trabalho
 
 <!--Audited: 12/2024-->
 
@@ -21,11 +23,11 @@ Use o Balanceador de carga de trabalho no Adobe Workfront para atribuir trabalho
 
 O Balanceador de carga de trabalho está disponível em várias áreas do Adobe Workfront. Navegar por ele é semelhante em todas as áreas.
 
-Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado, consulte [Localizar o Balanceador de carga de trabalho](https://experienceleague.adobe.com/pt-br/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado, consulte [Localizar o Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +39,7 @@ Para obter mais informações sobre onde o Balanceador de carga de trabalho est�
   </tr>
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Planejar, ao usar o Balanceador de carga de trabalho na área Recursos; Trabalhar, ao usar o Balanceador de carga de trabalho de uma equipe ou projeto</p></td>
   </tr>
   <tr> 
@@ -103,8 +105,8 @@ Para obter mais informações sobre como exibir informações no Balanceador de 
 
 Para obter informações sobre como gerenciar recursos usando o Balanceador de carga de trabalho, consulte também os seguintes artigos:
 
-* [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](https://experienceleague.adobe.com/pt-br/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Gerenciar alocações de usuário no Balanceador de carga de trabalho](https://experienceleague.adobe.com/pt-br/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Gerenciar alocações de usuário no Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Navegar pelo Balanceador de carga de trabalho para vários projetos na área Recursos
 
@@ -348,7 +350,7 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
 
 1. Clique em **Atribuições em massa** para atribuir itens de trabalho em massa.
 
-   Para obter mais informações, consulte [Atribuir trabalho em massa usando o Balanceador de Carga de Trabalho](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+   Para obter mais informações, consulte [Atribuir trabalho em massa usando o Balanceador de carga de trabalho](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 1. Arraste itens da área **Trabalho não atribuído** ou de um usuário e solte-os em outro usuário para atribuí-los.
 
    Para obter mais informações, consulte [Atribuir trabalho no Balanceador de carga de trabalho arrastando e soltando](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
@@ -496,7 +498,8 @@ Você pode acessar o Balanceador de carga de trabalho em seu próprio perfil de 
 1. Continue navegando no Balanceador de carga de trabalho de um usuário conforme descrito na seção [Navegar no Balanceador de carga de trabalho para vários projetos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) deste artigo.
 
 
-<!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
+<!--
+old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
 # Navigate the Workload Balancer
 

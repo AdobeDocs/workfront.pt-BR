@@ -6,10 +6,12 @@ description: Se um projeto estiver associado a um grupo, você poderá aplicar t
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -27,7 +29,7 @@ Se um projeto estiver associado a um grupo, você poderá aplicar tanto status d
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +41,7 @@ Se um projeto estiver associado a um grupo, você poderá aplicar tanto status d
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
    <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +59,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -81,7 +84,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Atualizar Grupo e Status do Projeto
 

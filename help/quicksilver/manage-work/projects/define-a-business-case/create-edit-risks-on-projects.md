@@ -6,10 +6,12 @@ description: Os riscos são eventos ou fatores possíveis que impedem a conclus�
 author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -17,9 +19,11 @@ ht-degree: 1%
 
 <!--Audited: 06/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 Os riscos são eventos ou fatores possíveis que impedem a conclusão de um projeto no prazo ou dentro do orçamento. Você pode registrar riscos como parte da criação do Business Case de um projeto ou usando a guia Riscos.
 
@@ -35,7 +39,7 @@ Os riscos podem ser associados ao custo, mas o Custo Efetivo do Risco não afeta
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +53,7 @@ Os riscos podem ser associados ao custo, mas o Custo Efetivo do Risco não afeta
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td> <p>Standard </p>
+   <td> <p>Padrão </p>
    <p>Plano </p> </td> 
   </tr> 
   <tr> 

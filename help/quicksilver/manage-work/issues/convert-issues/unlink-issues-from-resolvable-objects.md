@@ -6,14 +6,16 @@ description: Ao criar um projeto ou uma tarefa convertendo um problema em um pro
 author: Alina
 feature: Work Management
 exl-id: c18160e5-9f95-4575-a1b3-b4f7e5334844
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
-# Desvincular problemas de seus Objetos de resolução
+# Desvincular problemas de seus objetos de resolução
 
 <!--Audited: 08/2025-->
 
@@ -45,8 +47,8 @@ Você pode desvincular a resolução de uma ocorrência daquela de um projeto, t
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p> </td> 
+   <td> <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configuração do nível de acesso</td> 
@@ -59,11 +61,12 @@ Você pode desvincular a resolução de uma ocorrência daquela de um projeto, t
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -85,7 +88,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
    <td> <p>Manage permissions on the issue</p> <p>View permissions on the task or project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Desvincular um problema de um projeto, tarefa ou problema
 

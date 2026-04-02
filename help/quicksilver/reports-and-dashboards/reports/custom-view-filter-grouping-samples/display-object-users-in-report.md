@@ -3,11 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Relatórios ou listas: exibir usuários associados a um objeto'
-description: You can display users, job roles, and teams associated with objects in reports or lists as well as reference them in filters. You cannot group by users, job roles, or teams associated with objects.
+description: Você pode exibir usuários, funções de trabalho e equipes associados a objetos em relatórios ou listas, bem como referenciá-los em filtros. Não é possível agrupar por usuários, funções de trabalho ou equipes associados a objetos.
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 5%
@@ -16,9 +18,9 @@ ht-degree: 5%
 
 # Relatórios ou listas: exibir usuários associados a um objeto
 
-You can display users, job roles, and teams associated with objects in reports or lists as well as reference them in filters. Não é possível agrupar por usuários, funções de cargo ou equipes associados a objetos.
+Você pode exibir usuários, funções de trabalho e equipes associados a objetos em relatórios ou listas, bem como referenciá-los em filtros. Não é possível agrupar por usuários, funções de trabalho ou equipes associados a objetos.
 
-You can display or filter by users, job roles, or teams associated with the following objects:
+Você pode exibir ou filtrar por usuários, funções de trabalho ou equipes associados aos seguintes objetos:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -26,77 +28,77 @@ You can display or filter by users, job roles, or teams associated with the foll
  <tbody> 
   <tr> 
    <td role="rowheader">Objeto</td> 
-   <td>Associated users or job roles</td> 
+   <td>Usuários ou funções de trabalho associados</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Projeto</td> 
-   <td> <p>You can display all users and the job roles they fulfill on the project in a project report. You cannot filter by the users or their associated job roles in a project report. </p> </td> 
+   <td> <p>Você pode exibir todos os usuários e as funções de trabalho que eles atendem no projeto em um relatório de projeto. Não é possível filtrar pelos usuários ou suas funções de trabalho associadas em um relatório de projeto. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Tarefas</td> 
-   <td>You can display and filter by all users, job roles, and teams assigned to a task in a task report.</td> 
+   <td>Você pode exibir e filtrar por todos os usuários, funções de trabalho e equipes atribuídas a uma tarefa em um relatório de tarefas.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Problemas</td> 
-   <td>You can display and filter by all users, job roles, and teams assigned to an issue in an issue report.</td> 
+   <td>Você pode exibir e filtrar por todos os usuários, funções de trabalho e equipes atribuídos a um problema em um relatório de problemas.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Portfólios</td> 
-   <td>You can display all users and the job roles they fulfill on the project in a project report and group the report by Portfolio. You cannot filter by the users or their associated job roles in a project report.</td> 
+   <td>Você pode exibir todos os usuários e as funções de trabalho que eles atendem no projeto em um relatório de projeto e agrupar o relatório por Portfolio. Não é possível filtrar pelos usuários ou suas funções de trabalho associadas em um relatório de projeto.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Programas</td> 
-   <td>You can display all users and the job roles they fulfill on the project in a project report and group the report by Program. You cannot filter by the users or their associated job roles in a project report.</td> 
+   <td>Você pode exibir todos os usuários e as funções de trabalho que eles atendem no projeto em um relatório de projeto e agrupar o relatório por programa. Não é possível filtrar pelos usuários ou suas funções de trabalho associadas em um relatório de projeto.</td> 
   </tr> 
  </tbody> 
 </table>
 
-## Display all users and job roles associated with a project
+## Exibir todos os usuários e funções de trabalho associados a um projeto
 
-You can display all users associated with in the project in the view of a project list or report. This includes all users listed in the People section of the project. You can also view the roles they are associated with when assigned to tasks or issues on the project in a project report.
+Você pode exibir todos os usuários associados ao no projeto na visualização de uma lista de projeto ou relatório. Isso inclui todos os usuários listados na seção Pessoas do projeto. Você também pode visualizar as funções às quais estão associados quando atribuídas a tarefas ou problemas no projeto em um relatório de projeto.
 
-![Project with user and role information](assets/project-with-user-and-role-information-report-350x100.png)
+![Projeto com informações de usuário e função](assets/project-with-user-and-role-information-report-350x100.png)
 
 Para obter informações sobre como criar um relatório de projeto para exibir todos os usuários e suas funções no projeto, consulte [Exibir: lista de usuários do projeto com funções de trabalho](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
-You cannot filter for users or job roles associated with projects in a project filter.
+Não é possível filtrar usuários ou funções de trabalho associados a projetos em um filtro de projeto.
 
-## Display all users, job roles, or teams assigned to a task
+## Exibir todos os usuários, funções de trabalho ou equipes atribuídos a uma tarefa
 
-You can display all users, roles, or teams assigned to a task in the view of a task list or report by adding the Assignments field to the view.
+Você pode exibir todos os usuários, funções ou equipes atribuídos a uma tarefa na exibição de uma lista de tarefas ou relatório adicionando o campo Atribuições à exibição.
 
-![Assignment field](assets/assignments-field-task-view-350x124.png)
+![Campo de atribuição](assets/assignments-field-task-view-350x124.png)
 
-You can filter by the users, job roles, or teams assigned to tasks by referencing the following fields in a task filter:
+É possível filtrar por usuários, funções de trabalho ou equipes atribuídas a tarefas, referenciando os seguintes campos em um filtro de tarefa:
 
 * Usuários atribuídos
 * Funções das atribuições
 * Equipe
 
-![Assignment users and roles in task filter](assets/assignment-users-roles-task-filter-350x334.png)
+![Atribuir usuários e funções no filtro de tarefa](assets/assignment-users-roles-task-filter-350x334.png)
 
-## Display all users, job roles, or teams assigned to an issue
+## Exibir todos os usuários, funções de trabalho ou equipes atribuídos a um problema
 
-You can display all users, roles, or teams assigned to an issue in the view of an issue list or report by adding the Assignments field to the view.
+Você pode exibir todos os usuários, funções ou equipes atribuídos a um problema na exibição de uma lista de problemas ou relatório adicionando o campo Atribuições à exibição.
 
-You can filter by the users, job roles, or teams assigned to issues by referencing the following fields in an issue filter:
+É possível filtrar por usuários, funções de trabalho ou equipes atribuídas a problemas, referenciando os seguintes campos em um filtro de problemas:
 
 * Usuários atribuídos
 * Funções das atribuições
 * Equipe
 
-## Display all users and job roles associated with a portfolio
+## Exibir todos os usuários e funções de trabalho associados a um portfólio
 
-You can display all users and roles associated with a portfolio by displaying them in a project report and then grouping the report by Portfolio.
-
-For information about building a project report to display all users and their roles on the project, see [View: list of project users with job roles](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
-
-You cannot filter for users or job roles associated with projects in a portfolio or project filter.
-
-## Display all users and job roles associated with a program
-
-You can display all users and roles associated with a program by displaying them in a project report and then grouping the report by Program.
+É possível exibir todos os usuários e funções associados a um portfólio, exibindo-os em um relatório de projeto e agrupando o relatório por Portfolio.
 
 Para obter informações sobre como criar um relatório de projeto para exibir todos os usuários e suas funções no projeto, consulte [Exibir: lista de usuários do projeto com funções de trabalho](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
-You cannot filter for users or job roles associated with projects in a program or project filter.
+Não é possível filtrar usuários ou funções de trabalho associados a projetos em um filtro de portfólio ou projeto.
+
+## Exibir todos os usuários e funções de trabalho associados a um programa
+
+Você pode exibir todos os usuários e funções associados a um programa exibindo-os em um relatório de projeto e, em seguida, agrupando o relatório por programa.
+
+Para obter informações sobre como criar um relatório de projeto para exibir todos os usuários e suas funções no projeto, consulte [Exibir: lista de usuários do projeto com funções de trabalho](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
+
+Não é possível filtrar usuários ou funções de trabalho associados a projetos em um programa ou filtro de projeto.

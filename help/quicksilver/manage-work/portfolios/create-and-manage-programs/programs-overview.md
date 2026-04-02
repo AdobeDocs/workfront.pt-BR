@@ -7,14 +7,16 @@ description: Um programa é uma coleção de projetos que têm características 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# Visão geral dos programas
+# Visão geral de programas
 
 <!-- Audited: 08/2025 -->
 
@@ -41,7 +43,7 @@ Você deve ter o seguinte acesso para criar e gerenciar portfólios:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
    <td> <p>[!UICONTROL Padrão]</p>
-   <p>[!UICONTROL Plano]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -60,7 +62,8 @@ Você deve ter o seguinte acesso para criar e gerenciar portfólios:
 
 Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -88,7 +91,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Considerações sobre o trabalho com programas

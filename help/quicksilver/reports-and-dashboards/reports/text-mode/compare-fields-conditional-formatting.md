@@ -6,7 +6,9 @@ description: Você pode usar a formatação condicional para comparar dois campo
 author: Courtney
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 12%
@@ -66,7 +68,7 @@ Para comparar a Data Inicial Planejada e a Data Inicial Real da tarefa usando a 
 1. Clique em **Opções Avançadas** e em Adicionar uma **Regra para esta Coluna**.
 
 1. Informe os critérios de comparação usando os valores existentes encontrados no construtor e especifique sua formatação condicional.\
-   Por exemplo, queremos destacar tarefas em que a Data de Início Real seja posterior (ou posterior) à Data de Início Planejada. Selecione o modificador Maior que e selecione uma data real no campo de data.
+   Por exemplo, queremos destacar tarefas em que a Data de Início Efetivo seja posterior (ou posterior) à Data de Início Planejada. Selecione o modificador Maior que e selecione uma data real no campo de data.
 
    ![Formatação condicional para a data de início real](assets/cond-format-1-350x84.png)
 

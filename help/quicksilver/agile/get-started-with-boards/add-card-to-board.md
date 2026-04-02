@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Adicionar um Cartão Ad Hoc a um Painel
-description: É possível adicionar rapidamente um cartão ad hoc a um painel e atribuí-lo a um membro do painel. O cartão pode representar uma tarefa, ocorrência, pessoa, grupo ou qualquer tipo de item que você deseja incluir no quadro.
+title: Adicionar um cartão ad hoc a um quadro
+description: Você pode adicionar rapidamente um cartão ad hoc a um quadro e atribuí-lo a um membro do quadro. O cartão pode representar uma tarefa, problema, pessoa, grupo ou qualquer tipo de item que você deseja incluir no quadro.
 author: Courtney
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 5%
@@ -19,7 +21,7 @@ Você pode adicionar rapidamente um cartão a um quadro e atribuí-lo a um membr
 
 >[!NOTE]
 >
->Os cartões ad hoc em um painel não estão conectados a itens de trabalho em [!DNL Adobe Workfront]. Para obter detalhes sobre cartões conectados, consulte [Usar cartões conectados em painéis](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>Os cartões ad hoc em um quadro não estão conectados aos itens de trabalho em [!DNL Adobe Workfront]. Para obter detalhes sobre cartões conectados, consulte [Usar cartões conectados em quadros](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Requisitos de acesso
 
@@ -47,7 +49,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-## Adicionar um cartão ad-hoc com detalhes completos
+## Adicione um cartão ad hoc com detalhes completos
 
 Um cartão ad hoc não está conectado a um item de trabalho em [!DNL Adobe Workfront].
 
@@ -62,14 +64,14 @@ Um cartão ad hoc não está conectado a um item de trabalho em [!DNL Adobe Work
    >
    >Se você clicar fora do campo Nome, o cartão ad hoc será salvo automaticamente como &quot;Sem título&quot; na parte inferior da coluna mais à esquerda. Para sair sem salvar o cartão, clique em [!UICONTROL **Cancelar**] sem clicar em outro local na caixa [!UICONTROL Detalhes do Cartão].
 
-1. Na caixa **[!UICONTROL Detalhes do Cartão]**, adicione as seguintes informações:
+1. Na caixa **[!UICONTROL Detalhes do cartão]**, adicione as seguintes informações:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Nome do]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Nome]</strong> </td> 
       <td>O nome do cartão.</td> 
      </tr> 
      <tr> 
@@ -77,12 +79,12 @@ Um cartão ad hoc não está conectado a um item de trabalho em [!DNL Adobe Work
       <td>Uma descrição do cartão. Você pode adicionar URLs na descrição e eles se tornarão links clicáveis quando o cartão for salvo.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Coluna]</strong> </td> 
-      <td>Selecione a coluna para o cartão. Se você deixar o campo <strong>[!UICONTROL Column]</strong> em branco, o cartão será colocado na primeira coluna à esquerda do quadro.</td>
+      <td role="rowheader"><strong>[!UICONTROL coluna]</strong> </td> 
+      <td>Selecione a coluna do cartão. Se você deixar o campo <strong>[!UICONTROL Column]</strong> em branco, o cartão será colocado na primeira coluna à esquerda do quadro.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Status]</strong> </td> 
-      <td>Selecione um status para o cartão. Se você clicar em <strong>[!UICONTROL Mark Complete]</strong> na parte superior do cartão, o status mudará automaticamente para [!UICONTROL Complete].</td> 
+      <td>Selecione um status para o cartão. Se você clicar em <strong>[!UICONTROL Marca Concluída]</strong> na parte superior do cartão, o status será alterado automaticamente para [!UICONTROL Concluída].</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Data de vencimento]</strong></td> 
@@ -102,7 +104,7 @@ Um cartão ad hoc não está conectado a um item de trabalho em [!DNL Adobe Work
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Conexão]</strong> </td>
-      <td>Você pode conectar um cartão ad hoc a uma tarefa ou problema do [!DNL Workfront]. Para obter mais informações, consulte “Converter um cartão ad hoc em um cartão conectado” no artigo <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Usar cartões conectados em placas</a>.</td>
+      <td>Você pode conectar um cartão ad hoc a uma tarefa ou problema do [!DNL Workfront]. Para obter mais informações, consulte "Converter um cartão ad hoc em um cartão conectado" no artigo <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Usar cartões conectados em quadros</a>.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Lista de Verificação]</strong> </td> 
@@ -123,11 +125,11 @@ Um cartão ad hoc não está conectado a um item de trabalho em [!DNL Adobe Work
 
 1. Clique em **[!UICONTROL Fechar]** para adicionar o cartão ao quadro.
 
-   Os destinatários, as etiquetas, a data de vencimento, o contador da lista de verificação, as horas estimadas e o status são exibidos no cartão.
+   Os responsáveis, as tags, a data de vencimento, o contador da lista de verificação, as horas estimadas e o status são exibidos no cartão.
 
 ## Adição rápida de um cartão ad hoc
 
-Você pode adicionar cartões ad hoc com apenas um título para preencher rapidamente seu painel.
+Você pode adicionar cartões ad hoc com apenas um título para preencher rapidamente seu quadro.
 
 1. Acesse o quadro ao qual deseja adicionar cartões.
 1. Clique no ícone **[!UICONTROL Adicionar]** ![Adicionar cartão](assets/addicon-spectrum.png) na coluna em que deseja adicionar o cartão.
@@ -135,9 +137,9 @@ Você pode adicionar cartões ad hoc com apenas um título para preencher rapida
 
    Outra placa é adicionada automaticamente abaixo da nova placa.
 
-1. Continue inserindo nomes de cartões para adicionar mais cartões.
+1. Continue inserindo nomes de cartão para adicionar mais cartões.
 1. Para interromper a adição de cartões, clique fora da coluna.
-1. Para adicionar mais detalhes, você deve editar o cartão. Para obter mais informações, consulte [Editar um cartão existente](#edit-an-existing-card) neste artigo.
+1. Para adicionar mais detalhes, você deve editar o cartão. Para obter informações, consulte [Editar um cartão existente](#edit-an-existing-card) neste artigo.
 
 ## Editar um cartão existente {#edit-an-existing-card}
 
@@ -147,7 +149,7 @@ Você pode adicionar cartões ad hoc com apenas um título para preencher rapida
 
    Ou
 
-   Clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menus]](assets/more-icon-spectrum.png) do cartão e selecione **[!UICONTROL Editar]**.
+   Clique no menu **[!UICONTROL Mais]** ![[!UICONTROL Mais menus]](assets/more-icon-spectrum.png) no cartão e selecione **[!UICONTROL Editar]**.
 
 1. Na caixa [!UICONTROL Detalhes do Cartão], atualize as informações conforme necessário e clique em **[!UICONTROL Fechar]** para retornar ao quadro.
 

@@ -6,19 +6,23 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
 # Visão geral do campo principal
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -47,7 +51,7 @@ Para obter informações sobre como designar um campo como campo primário, cons
 
    * A área do cabeçalho da página do registro e da caixa de visualização
    * Campos de registro conectados
-   * Visualizações
+   * Exibições
 * Não é possível mover, ocultar ou excluir o campo principal na exibição de tabela, a menos que você designe outro campo como o campo principal.
 * O campo principal está sempre bloqueado e não faz parte da rolagem horizontal da exibição de tabela.
 * Alterar o campo principal na exibição de tabela afeta a exibição de todos os outros usuários que a escolhem.

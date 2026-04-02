@@ -7,7 +7,9 @@ description: Você pode substituir o nome de um objeto em uma visualização por
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 10%
@@ -18,7 +20,7 @@ ht-degree: 10%
 
 <!--Audited: 11/2024-->
 
-Você pode substituir o nome de um objeto em uma visualização por uma imagem usando o modo de texto. Também é possível adicionar um link à imagem que possa abrir o objeto que ela substitui.
+Você pode substituir o nome de um objeto em uma visualização por uma imagem usando o modo de texto. Você também pode adicionar um link para a imagem que pode abrir o objeto substituído.
 
 >[!NOTE]
 >
@@ -46,7 +48,7 @@ Você pode substituir o nome de um objeto em uma visualização por uma imagem u
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de edição a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
+   <td> <p>Editar acesso a relatórios, painéis e calendários para modificar um relatório</p> <p>Editar acesso a Filtros, Visualizações, Agrupamentos para modificar um filtro</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
@@ -66,8 +68,8 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
    >[!TIP]
    >
    >* Cada tipo de navegador é diferente, mas todos são capazes de exibir URLs.
-   >* Evite usar imagens carregadas no Workfront. Como as imagens armazenadas no Workfront não estão disponíveis publicamente e têm uma chave de acesso que expira após um período de tempo, essas imagens param de ser exibidas na exibição com o tempo.
-   >* Uma imagem salva no computador não tem um URL inerente. Encontre um site que forneça hospedagem de imagens e hospede suas imagens no site. Sua organização pode já ter esse site.
+   >* Evite usar imagens carregadas no Workfront. Como as imagens armazenadas no Workfront não estão disponíveis publicamente e têm uma chave de acesso que expira após um período de tempo, essas imagens param de ser exibidas na visualização ao longo do tempo.
+   >* Uma imagem salva no computador não tem um URL inerente. Encontre um site que forneça hospedagem de imagens e hospede sua imagem lá. Sua organização pode já ter esse site.
 
 1. Usando o navegador da Web, vá para a imagem salva.
 1. Obtenha o URL da imagem fazendo o seguinte:
@@ -83,8 +85,8 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 1. No campo **URL**, adicione o link à imagem.
 1. Ir para uma exibição de projeto em uma lista de projetos.
-1. Clique no menu suspenso **Exibição** e clique em **Nova Exibição**.
-1. Clique no cabeçalho da coluna para o **Nome do Projeto** e clique em **Alternar para o Modo de Texto**.
+1. Clique no menu suspenso **Exibir** e em **Nova Exibição**.
+1. Clique no cabeçalho da coluna para o **Nome do Projeto** e clique em **Alternar para Modo de Texto**.
 
 1. Adicione o seguinte código à coluna do código existente:
 

@@ -6,10 +6,12 @@ description: Predecessoras são tarefas das quais outras tarefas dependem para s
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -37,7 +39,7 @@ Se uma predecessora for imposta, a tarefa sucessora não poderá ser iniciada an
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +51,7 @@ Se uma predecessora for imposta, a tarefa sucessora não poderá ser iniciada an
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
    <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +69,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,7 +97,8 @@ Para obter mais informações, consulte [Requisitos de acesso na documentação 
    <td><p>Manage permissions to the tasks and the project</p></td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Forçar um predecessor no nível da tarefa
 

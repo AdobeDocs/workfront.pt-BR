@@ -8,7 +8,9 @@ description: Se os usuários atualizarem campos personalizados regularmente e vo
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 10%
@@ -17,7 +19,7 @@ ht-degree: 10%
 
 # Exemplo de campo personalizado calculado: exibir o histórico de edições de um campo
 
-Se os usuários atualizam campos personalizados regularmente e você deseja capturar um log de todas as alterações feitas em um campo, bem como uma data em que as alterações ocorrem, é possível capturar essas informações em um campo personalizado calculado.
+Se os usuários atualizarem campos personalizados regularmente e você quiser capturar um log de todas as alterações feitas em um campo, bem como uma data quando as alterações ocorrerem, será possível capturar essas informações em um campo personalizado calculado.
 
 O exemplo a seguir mostra como criar o campo calculado Histórico de Edição de Instruções para capturar todas as alterações feitas em um campo de texto de linha única chamado Instruções.
 
@@ -70,7 +72,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Pré-requisitos
 
-Para adicionar um campo calculado que exibe o histórico de edição de um campo a um formulário personalizado, você deve primeiro:
+Para adicionar um campo calculado que exibe o histórico de edição de um campo a um formulário personalizado, primeiro é necessário:
 
 * Criar o formulário personalizado
 * Adicione o campo cujo histórico você deseja capturar ao formulário personalizado
@@ -86,7 +88,7 @@ Para adicionar um campo calculado que exibe o histórico de edição de um campo
    1. Clique em **Aplicar**.
 
 1. Clique em **Calculado** para adicionar um campo personalizado calculado ao formulário.
-1. Especifique um **Rótulo** para o campo personalizado calculado. Por exemplo, você pode nomeá-lo “Histórico de edição de instruções”.
+1. Especifique um **Rótulo** para o campo personalizado calculado. Por exemplo, você pode nomeá-lo como &quot;Instruções Editar histórico&quot;.
 
    Este campo capturará todas as alterações feitas no primeiro campo criado (&quot;Instruções&quot;).
 
@@ -105,6 +107,6 @@ Para adicionar um campo calculado que exibe o histórico de edição de um campo
 
 1. Clique em **Salvar e fechar**.
 
-   Agora, quando você anexa o formulário personalizado a um objeto e alguém altera as informações no campo **Instruções**, o campo **Histórico de Edição de Instruções** exibe o valor mais recente, seguido da data atual entre parênteses e uma barra vertical. Se forem feitas mais alterações, elas serão adicionadas a essas informações da mesma maneira.
+   Agora, quando você anexa o formulário personalizado a um objeto e alguém altera as informações no campo **Instruções**, o campo **Instruções - Editar histórico** exibe o valor mais recente, seguido da data atual entre parênteses e uma barra vertical. Se forem feitas mais alterações, elas serão adicionadas a essas informações da mesma forma.
 
-   No cálculo acima, você pode substituir *Instruções* pelo nome exato do campo de texto de linha única cujo histórico você deseja rastrear e **Instruções para editar histórico** pelo nome exato do campo calculado.
+   No cálculo acima, você pode substituir *Instruções* pelo nome exato do campo de texto de linha única cujo histórico deseja rastrear e **Instruções Editar Histórico** pelo nome exato do campo calculado.

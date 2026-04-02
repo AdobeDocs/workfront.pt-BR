@@ -9,18 +9,22 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2166'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 # Configurar preferências de tarefas e problemas para um grupo
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Se os grupos em sua organização precisarem configurar uma preferência de tarefa ou problema independentemente da forma como é configurada no nível do sistema, um administrador do Adobe Workfront poderá desbloquear a preferência. Em seguida, como administrador de grupo, você pode configurar a preferência para seu grupo e ela afetará todas as tarefas ou problemas associados ao seu grupo.
 
@@ -43,7 +47,7 @@ Para obter informações sobre como o administrador do Workfront desbloqueia pre
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +59,7 @@ Para obter informações sobre como o administrador do Workfront desbloqueia pre
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr>
   <tr> 
@@ -140,9 +144,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
        <ul> 
         <li><strong>Mantenha o problema original e vincule sua resolução à tarefa</strong>: quando você está convertendo o problema, ele permanece visível como um problema até que a tarefa seja concluída. O status do problema muda automaticamente para Closed quando a tarefa é concluída.</li> 
         <li><strong>Permitir que o Contato Principal tenha acesso à tarefa</strong>: concede ao contato principal (criador de problemas) acesso à tarefa para revisar a tarefa, fazer atualizações e permanecer informado sobre seu progresso</li> 
-        <li> <p><strong>Permitir que estas configurações sejam alteradas durante a conversão</strong>: permite que o usuário que está convertendo o problema altere estas opções durante a conversão de um problema em uma tarefa.</p> <!--
+        <li> <p><strong>Permitir que estas configurações sejam alteradas durante a conversão</strong>: permite que o usuário que está convertendo o problema altere estas opções durante a conversão de um problema em uma tarefa.</p>
+        <!--
           Screenshot when possible</p>
-         --> </li> 
+         -->
+         </li>
        </ul> </td> 
      </tr> 
      <tr> 
