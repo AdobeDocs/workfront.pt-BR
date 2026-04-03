@@ -1,19 +1,19 @@
 ---
-title: Perguntas frequentes sobre a API do SOAP
-description: Perguntas frequentes sobre a API do SOAP
+title: Perguntas frequentes sobre a API SOAP
+description: Perguntas frequentes sobre a API SOAP
 author: Becky
 draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 79b6370ec3283922a16435e8eb8069f7f9560c55
+source-git-commit: 729c8512f7aa239f0858e18295a0c77e6b7e3328
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Perguntas frequentes sobre a API do SOAP
+# Perguntas frequentes sobre a API SOAP
 
 ## Como crio minha primeira prova de arquivo?
 
@@ -33,7 +33,7 @@ São necessárias 2 etapas simples:
 
 **Etapa 1**: se você ainda não tiver uma ID de Sessão, obtenha-a usando os métodos doLogin() ou getSessionID(). Use o primeiro para &quot;fazer logon&quot; usando o endereço de email e a senha de um usuário ou o último método se você tiver o endereço de email e o token de autenticação do usuário.
 
-**Etapa 2:**&#x200B;agora é hora de criar sua prova. Use o método createProof() e envie pelo menos os campos obrigatórios (atualmente, há apenas 5 deles). Defina o parâmetro Hash como &quot;web&quot; e o parâmetro SourceName como o URL da página da Web que você deseja capturar.
+**Etapa 2:** Agora é hora de criar sua prova. Use o método createProof() e envie pelo menos os campos obrigatórios (atualmente, há apenas 5 deles). Defina o parâmetro Hash como &quot;web&quot; e o parâmetro SourceName como o URL da página da Web que você deseja capturar.
 
 Se agora você fizer logon na sua conta, verá a prova.
 
