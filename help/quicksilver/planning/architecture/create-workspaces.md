@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1199'
 ht-degree: 2%
 
 ---
@@ -150,6 +150,11 @@ Você pode criar espaços de trabalho das seguintes maneiras:
 
   Para obter informações, consulte a seção [Criar vários espaços de trabalho usando um conjunto de modelos de vários espaços de trabalho de práticas recomendadas](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) neste artigo
 
+  >[!TIP]
+  >
+  >Não é possível criar vários espaços de trabalho de uma vez, a menos que você use o conjunto de modelos de prática recomendada.
+
+
 </div>
 
 ### Criar um espaço de trabalho do zero ou de um modelo
@@ -238,9 +243,10 @@ Os modelos incluídos no pacote contêm espaços de trabalho, tipos de registro,
 
 >[!IMPORTANT]
 >
->Todos os nomes de espaços de trabalho, tipos de registro, campos e registros incluídos no pacote são amostras e não refletem seu próprio ambiente.
+>Os nomes dos espaços de trabalho e registros incluídos no pacote são exemplos e não refletem seu próprio ambiente.
 >
->Recomendamos que você use esse conjunto de modelos como exemplo de uma estrutura do Planning e continue com a criação de objetos que reflitam o fluxo de trabalho de sua organização.
+>Os nomes dos tipos de registro e dos campos podem ser usados em qualquer organização como padrão para implementação em qualquer setor, de acordo com nossa recomendação.
+>
 
 {{step1-to-planning}}
 

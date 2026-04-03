@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1569'
 ht-degree: 2%
 
 ---
@@ -80,7 +80,7 @@ Considere o seguinte ao adicionar uma página Registros conectados a um registro
    <ul><li><p>Uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar o AEM Assets aos tipos de registro do Planning.</p>
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas da GenStudio</p>
-   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -303,38 +303,47 @@ Ao criar uma página de registros conectados para projetos conectados do Workfro
 
 1. Vá para uma página de tipo de registro e clique no nome de um registro. Isso abre a página de visualização do registro.
 1. Clique na guia de uma página de registros conectada que exibe projetos Workfront.
-Os projetos conectados ao registro selecionado são exibidos na exibição de lista.
-1. Clique em **Conectar registros** no canto superior direito da página de registros conectada para conectar projetos existentes.
 
-   Para obter informações, consulte [Conectar registros](/help/quicksilver/planning/records/connect-records.md).
-1. Clique duas vezes dentro de uma célula na exibição de lista para editar os campos de um projeto. Alguns campos são somente leitura.
-1. Siga um destes procedimentos para editar a exibição em lista:
+   ![Página de registros conectados de projetos](assets/projects-connected-records-page-table.png)
 
-   * Clique em **Nova linha** para criar um projeto sem um modelo. O novo projeto é automaticamente conectado ao registro atual.
+   Os projetos conectados ao registro selecionado são exibidos na exibição de lista.
 
-     Para obter mais informações, consulte [Criar objetos do Workfront no Workfront Planning à medida que você os conecta aos registros](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
-   * Clique em **Criar registros &#x200B;** no canto superior direito da exibição para adicionar projetos existentes. Os projetos são conectados imediatamente ao registro selecionado.
+   Para obter informações sobre como gerenciar ou editar objetos no modo de exibição de lista, consulte [Gerenciar o modo de exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
 
-   * Passe o mouse sobre um nome de projeto na lista e clique no menu **Mais** [Mais menu](assets/more-menu.png) e clique em **Exibir** para abrir o projeto em outra guia
+<!-- 
+removed this part, so we won't have to have duplicate information to keep up with for the list view in Planning: 
+1. Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.
 
-     Ou
+   For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+1. Double-click inside a cell in the list view to edit a project's fields. Some fields are read-only. 
+1. Do one of the following to edit the list view: 
 
-     Selecione um ou mais projetos e, na barra de ações na parte inferior da lista, clique em **Excluir** ou **Desconectar** para remover o item da lista.
+   * Click **New row** to create a project without a template. The new project is automatically connected to the current record.
 
+      For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Click **Create records **in the upper-right corner of the view to add existing projects. Projects are immediately connected to the selected record. 
 
-   * Clique no menu suspenso de exibições e em **Novo modo de exibição** para adicionar um novo modo de exibição à página. Siga este procedimento ou clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita de um novo nome e, em seguida, **Renomear**, **Compartilhar** ou **Excluir** o modo de exibição.
+   * Hover over a project name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the project in another tab
+     
+      Or
 
-     Não é possível renomear, compartilhar ou excluir Exibições do Sistema ou exibições para as quais você não tem permissões de gerenciamento.
+      Select one or more projects, and from the actions bar at the bottom of the list, click **Delete** or **Disconnect** to remove the item from the list.
+      
 
-     ![Exibir mais menu na página de registros de Projetos Conectados](assets/view-more-menu-projects-connected-records-page.png)
+   * Click the views dropdown menu, and click **New view** to add a new view for the page, then do the following, or click the **More** menu ![More menu](assets/more-menu.png) to the right of a new name, then **Rename**, **Share**, or **Delete** the view. 
 
-   * Clique em uma das seguintes opções para atualizar os elementos da view:
+      You cannot rename, share or delete System Views or views you do not have Manage permissions to.
 
-      * **Filtro** para limitar a quantidade de informações na lista
-      * **Colunas** para ocultar colunas ou alterar sua ordem
-      * O ícone **+** no canto superior direito da exibição de tabela para adicionar campos existentes à lista. Os campos devem existir antes que você possa adicioná-los.
+      ![View more menu on Projects Connected records page](assets/view-more-menu-projects-connected-records-page.png)
 
-   Para obter mais informações sobre como gerenciar objetos em uma exibição de lista, consulte [Gerenciar a exibição de lista](/help/quicksilver/planning/views/manage-the-list-view.md).
+   * Click one of the following to update the view's elements: 
+
+      * **Filter** to limit the amount of information in the list
+      * **Columns** to hide columns or change their order
+      * The **+** icon in the upper-right corner of the table view to add existing fields to the list. Fields must exist before you can add them. 
+
+   For more information about managing objects in a list view, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+-->
 
 <!--
  this is repetitive from an earlier section above: 
