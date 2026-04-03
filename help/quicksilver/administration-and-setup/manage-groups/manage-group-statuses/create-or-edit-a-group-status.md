@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: d7e85faa0e6da2218d7e983d00fd992dc858a1d9
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 2%
+source-wordcount: '1327'
+ht-degree: 4%
 
 ---
 
@@ -90,11 +90,12 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    Ou
 
-   Para editar um status existente, passe com o mouse sobre o status que deseja editar, em seguida, clique na opção **Editar** que é exibida na extremidade direita.
+   Se você estiver editando um status existente, clique na caixa de seleção desse status e em **Editar** no banner na parte inferior da tela.
 
-   ![Status do grupo](assets/group-statuses-edit.jpg)
+   ![Status do grupo](assets/group-statuses-edit-new.png)
 
    >[!NOTE]
+   >
    >Você pode editar um status para o seu grupo somente se:
    >      
    >* Você gerencia o grupo para o qual o status foi criado
@@ -166,15 +167,16 @@ Se você for um administrador de grupo (ou um administrador do Workfront), poder
 
 1. Se você for um administrador do Workfront, crie um status desbloqueado em todo o sistema, conforme descrito em [Criar ou editar um status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 1. Na caixa no canto superior direito, exclua **Status do Sistema**, comece digitando o nome de um grupo no qual deseja ocultar o status e, em seguida, clique no nome quando ele for exibido.
-1. Passe o cursor do mouse sobre o status que deseja ocultar do grupo e clique em **Editar** quando ele aparecer.
+1. Clique na caixa de seleção do status que deseja editar e em **Editar** no banner na parte inferior da tela.
 
-   ![Editar status](assets/hover-click-edit.jpg)
+
+   ![Editar status](assets/group-statuses-edit-new.png)
 
 1. Habilite a opção **Ocultar Status** que aparece.
 
    ![Ocultar status](assets/hide-group-status.png)
 
-1. Clique em **Salvar**.
+1. Clique em **Atualizar**.
 
    O status fica esmaecido e não fica mais visível para todos os usuários nesse grupo.
 

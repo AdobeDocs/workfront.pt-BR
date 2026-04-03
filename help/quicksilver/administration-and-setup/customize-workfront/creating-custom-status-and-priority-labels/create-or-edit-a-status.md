@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 48745335495433e25ad0a27a6726dda7fe8a97d8
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 3%
+source-wordcount: '942'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ Como administrador do Adobe Workfront, você pode criar status personalizados pa
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,12 +41,12 @@ Como administrador do Adobe Workfront, você pode criar status personalizados pa
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td>Administrador de Sistema</td> 
+   <td>Administrador de sistema</td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,13 +67,13 @@ Ao criar um status personalizado para toda a organização, você pode configur�
 
 1. (Condicional) Se você estiver criando ou editando um status para uso em todo o sistema, verifique se **Status do Sistema** está selecionado na caixa no canto superior direito.
 
-   ![Status do sistema](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![Status do sistema](assets/system-statuses-in-upper-rt-corner-new-png.png)
 
    Ou
 
    Se o status for para um grupo ou subgrupo, comece digitando o nome do grupo no canto superior direito e selecione-o quando ele for exibido.
 
-   ![Status do sistema para o grupo](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Status do sistema para o grupo](assets/system-statuses-in-upper-rt-corner-group-new-png.png)
 
 1. Selecione a guia do tipo de objeto (**Projeto**, **Tarefas** ou **Problemas**) que você deseja associar ao status.
 
@@ -81,9 +81,9 @@ Ao criar um status personalizado para toda a organização, você pode configur�
 
    Ou
 
-   Se você estiver editando um status existente, passe o mouse sobre ele e clique no ícone **Editar**, que é exibido na extremidade direita.
+   Se você estiver editando um status existente, clique na caixa de seleção desse status e em **Editar** no banner na parte inferior da tela.
 
-   ![Editar status personalizado](assets/custom-status-edit.png)
+   ![Editar status personalizado](assets/edit-in-banner.png)
 
 1. Configure o status usando as seguintes opções:
 

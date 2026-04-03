@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6c7dd2504ce20274f8b80a306fc1075ec5761da6
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 0%
+source-wordcount: '544'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,7 @@ Se houver algum grupo acima do grupo gerenciado por você, os administradores ta
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +42,7 @@ Se houver algum grupo acima do grupo gerenciado por você, os administradores ta
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr>
   <tr> 
@@ -63,9 +63,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. No painel esquerdo, clique em **Grupos**.
 1. Clique no nome do grupo de nível superior.
 1. No painel esquerdo, clique em **Status**.
-1. Na lista de status exibida, passe o mouse sobre o status que deseja excluir e clique em **Excluir** quando ele aparecer à direita.
+1. Na lista de status exibida, clique na caixa de seleção do status que deseja excluir e em **Excluir** no banner na parte inferior da tela.
 
-   ![Excluir](assets/hover-click-delete.jpg)
+   ![Excluir](assets/delete-status.png)
 
 1. Na caixa exibida, selecione um status para designar um status de substituição para objetos (projetos, tarefas, problemas e processos de aprovação) que estavam usando o status que você está excluindo.
 
@@ -84,7 +84,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
         Para obter informações sobre os status padrão do Workfront, consulte [Acessar a lista de status de projetos do sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Acessar a lista de status de tarefas do sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md) e as informações sobre os 4 status de problemas necessários em [Acessar a lista de status de problemas do sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
-1. Clique em **Excluir status**.
+1. Clique em **Excluir**.
 
    Se o status excluído for o padrão para esse tipo no grupo, o status de substituição ocupará seu lugar.
 
