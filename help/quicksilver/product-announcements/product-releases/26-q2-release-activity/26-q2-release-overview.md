@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: fb848a84a1339b98a549584c87af2083115d3440
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2263'
 ht-degree: 25%
 
 ---
@@ -20,7 +20,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do Segundo trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -132,7 +132,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         <td><strong>Pré-visualização</strong></td>
         <td><strong>Lançamento rápido</strong></td>
         <td><strong>Trimestralmente</strong></td>
-    <tr>
+   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Provisionamento do GenStudio Foundations habilitado para dar suporte aos Colaboradores de IA </a><p></p>
             <p>Em 31 de março de 2026, todos os clientes do Workfront foram provisionados para o GenStudio Foundation, e os administradores de sistema do Admin Console receberão um email informando sobre essa adição. Esse produto é provisionado apenas para que os clientes da Workfront possam conceder às marcas acesso aos clientes da Workfront, conforme necessário, para o lançamento dos colaboradores de IA. O produto em si é apenas um mecanismo de acesso para Marcas e não há nenhuma funcionalidade adicional disponível no produto GenStudio Foundation.</p><p>Os clientes não serão cobrados por esse novo produto.</p>
@@ -251,6 +251,15 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         <td><strong>Trimestralmente</strong></td>
         </tr>
     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Campo de versão atual para versões de documento </a><p></p>
+            <p>Adicionamos um campo booleano <code>currentVersion</code> ao objeto Versão do documento para facilitar a identificação e o relatório da versão mais recente de um documento.</p>
+        </td>
+        <td><p>sexta-feira, 2 de abril de 2026</p></td>
+        <td><p>quinta-feira, 15 de abril de 2026</p></td>
+        <td><p>sexta-feira, 16 de abril de 2026</p></td>
+    </tr>
+     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">A Entrega De Relatórios Agendados Agora Oferece Suporte A Emails Baseados Em Links</a><p></p>
             <p>O Workfront agora inclui um novo tipo de entrega de link para relatórios agendados. Em vez de gerar e anexar um arquivo, essa opção envia um email contendo um link direto para o relatório no Workfront, permitindo que os destinatários visualizem os dados mais atuais no aplicativo.</p>

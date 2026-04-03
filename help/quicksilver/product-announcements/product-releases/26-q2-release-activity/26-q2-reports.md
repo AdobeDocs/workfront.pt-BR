@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '872'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,29 @@ Esta página descreve os aprimoramentos de relatórios feitos com a versão do s
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2026, consulte [Visão geral da versão do Segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Campo de versão atual para Versões do documento
+
+>[!NOTE]
+>
+>Visualização: 2 de abril de 2026
+>Versão rápida de produção: quinta-feira, 15 de abril de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
+Adicionamos um campo booleano `currentVersion` ao objeto Versão do documento para facilitar a identificação e o relatório da versão mais recente de um documento.
+Com esta atualização:
+
+* Você pode usar `currentVersion` em filtros, visualizações, agrupamentos e gráficos.
+* O campo está disponível no seletor de campo Tela de desenho para relatórios Versão do documento.
+
+* Quando uma nova versão é carregada:
+
+   * A nova versão está marcada como `TRUE`
+   * As versões anteriores estão marcadas como `FALSE`
+
+* Os relatórios podem identificar consistentemente as versões atuais nos painéis do Canvas e nos relatórios herdados
+
+Os filtros existentes para relatórios clássicos usando o `isCurrentVersion` ou o `isDocumentCurrentVersion` continuam a funcionar conforme documentado.
+
 ## A Entrega De Relatório Agendado Agora Aceita Emails Baseados Em Link
 
 >[!NOTE]
@@ -28,7 +51,7 @@ Para obter uma lista de todas as alterações disponíveis neste momento no cicl
 >Versão rápida de produção: quinta-feira, 15 de abril de 2026
 >Produção para todos: sexta-feira, 16 de abril de 2026
 
-O Workfront agora inclui um novo tipo de entrega de link para relatórios agendados. Em vez de gerar e anexar um arquivo, essa opção envia um email contendo um link direto para o relatório no Workfront, permitindo que os destinatários visualizem os dados mais atuais no aplicativo.
+O Workfront agora inclui um novo tipo de entrega de link para relatórios agendados. Em vez de gerar e anexar um arquivo, essa opção envia um email contendo um link direto para o relatório no Workfront, permitindo que os destinatários visualizem{{$include }} os dados mais atuais no aplicativo.
 
 A opção Vincular agora é o tipo de delivery padrão para regras de delivery de relatórios agendados recém-criadas, enquanto os formatos baseados em arquivos existentes (HTML, PDF, Excel e TSV) permanecem disponíveis.
 
