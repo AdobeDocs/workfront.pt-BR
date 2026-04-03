@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 8%
@@ -19,6 +19,22 @@ ht-degree: 8%
 Esta página descreve os aprimoramentos de relatórios feitos com a versão do segundo trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2026, consulte [Visão geral da versão do Segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## A Entrega De Relatório Agendado Agora Aceita Emails Baseados Em Link
+
+>[!NOTE]
+>
+>Visualização: 3 de abril de 2026
+>Versão rápida de produção: quinta-feira, 15 de abril de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
+O Workfront agora inclui um novo tipo de entrega de link para relatórios agendados. Em vez de gerar e anexar um arquivo, essa opção envia um email contendo um link direto para o relatório no Workfront, permitindo que os destinatários visualizem os dados mais atuais no aplicativo.
+
+A opção Vincular agora é o tipo de delivery padrão para regras de delivery de relatórios agendados recém-criadas, enquanto os formatos baseados em arquivos existentes (HTML, PDF, Excel e TSV) permanecem disponíveis.
+
+Com essa alteração, também atualizamos a aparência do email de entrega do relatório.
+
+Para obter mais informações, consulte [Agendar uma entrega automática de relatório](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
 ## Executar relatórios como um usuário específico nos painéis do Canvas
 
@@ -35,22 +51,6 @@ Agora é possível configurar relatórios nos painéis do Canvas para serem exec
 Isso garante dados mais consistentes e confiáveis em visualizadores de painel, mesmo quando o acesso aos espaços de trabalho do Planning, tipos de registro ou configurações de autorização é diferente.
 
 Para obter mais informações, consulte [Criar um relatório de KPI em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Criar um relatório de gráfico em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) ou [Criar um relatório de tabela em um Painel da Tela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
-
-## A Entrega De Relatório Agendado Agora Aceita Emails Baseados Em Link
-
->[!NOTE]
->
->Visualização: 2 de abril de 2026
->Versão rápida de produção: quinta-feira, 15 de abril de 2026
->Produção para todos: sexta-feira, 16 de abril de 2026
-
-O Workfront agora inclui um novo tipo de entrega de link para relatórios agendados. Em vez de gerar e anexar um arquivo, essa opção envia um email contendo um link direto para o relatório no Workfront, permitindo que os destinatários visualizem os dados mais atuais no aplicativo.
-
-A opção Vincular agora é o tipo de delivery padrão para regras de delivery de relatórios agendados recém-criadas, enquanto os formatos baseados em arquivos existentes (HTML, PDF, Excel e TSV) permanecem disponíveis.
-
-Com essa alteração, também atualizamos a aparência do email de entrega do relatório.
-
-Para obter mais informações, consulte [Agendar uma entrega automática de relatório](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
 ## Novas Opções de Autenticação para Conexão de Conexão de Dados
 
