@@ -19,7 +19,7 @@ ht-degree: 1%
 
 As janelas de manutenção são blocos de tempo reservados para que o Workfront faça atualizações na infraestrutura e outros problemas relacionados à plataforma. Ocasionalmente, os ambientes de sandbox são incluídos na manutenção.
 
-A Workfront tem o compromisso de minimizar as interrupções o máximo possível. Se for necessária, a manutenção será agendada e anunciada no site Status do Workfront em [status.adobe.com](https://status.adobe.com/).
+A Workfront tem o compromisso de minimizar as interrupções o máximo possível. Se for necessária, a manutenção será agendada e anunciada no site Status do Workfront em [status.adobe.com](https://status.adobe.com/pt-br/).
 
 ## Quando são as janelas de manutenção do Workfront?
 
@@ -27,6 +27,6 @@ As janelas de manutenção são normalmente agendadas com antecedência nos fins
 
 ## Posso ser notificado antes de uma manutenção programada?
 
-Você pode receber notificação avançada de manutenção planejada inscrevendo-se no site Workfront Status ([status.adobe.com](https://status.adobe.com/).) O site Workfront Status anuncia a manutenção pelo menos 3 dias antes do evento. Se houver uma situação de emergência, o aviso prévio pode ser menor.
+Você pode receber notificação avançada de manutenção planejada inscrevendo-se no site Workfront Status ([status.adobe.com](https://status.adobe.com/pt-br/).) O site Workfront Status anuncia a manutenção pelo menos 3 dias antes do evento. Se houver uma situação de emergência, o aviso prévio pode ser menor.
 
 Para obter informações sobre como receber atualizações de status para problemas de manutenção e de tendências, consulte [Assinar ou Gerenciar sua assinatura](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md#managing-your-subscription) no artigo [O site Adobe Workfront Status](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).

@@ -31,7 +31,7 @@ Você tem acesso às seguintes informações no site Status:
 
 Você pode exibir atualizações de status no site de Status [!DNL Adobe].
 
-1. Digite [status.adobe.com](https://status.adobe.com/) em seu navegador para acessar o site Status.
+1. Digite [status.adobe.com](https://status.adobe.com/pt-br/) em seu navegador para acessar o site Status.
 
 1. Selecione **[!UICONTROL Experience Cloud]**.
 1. Role para baixo e selecione **[!UICONTROL Adobe Workfront]** na lista de soluções.
@@ -40,7 +40,7 @@ Você pode exibir atualizações de status no site de Status [!DNL Adobe].
 
 Para se inscrever no site Status ou gerenciar sua inscrição depois de já ter se inscrito:
 
-1. Vá para [status.adobe.com](https://status.adobe.com/).
+1. Vá para [status.adobe.com](https://status.adobe.com/pt-br/).
 1. Na barra de status, selecione **[!UICONTROL Gerenciar assinaturas]**.
    ![](assets/manage-subs.png)
 1. Se você tiver uma conta existente, faça logon nela; caso contrário, crie uma nova conta.
@@ -59,7 +59,7 @@ Pesquisadores de vulnerabilidades e criadores de explorações nomeiam seus proj
 
 ### Como exibir vulnerabilidades nomeadas identificadas por [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Vá para [status.adobe.com](https://status.adobe.com/) e clique em **[!UICONTROL Segurança]**.
+1. Vá para [status.adobe.com](https://status.adobe.com/pt-br/) e clique em **[!UICONTROL Segurança]**.
 
 ## Por que isso é importante? {#why-is-this-important}
 
