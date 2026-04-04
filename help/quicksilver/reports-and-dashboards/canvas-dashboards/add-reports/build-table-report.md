@@ -8,14 +8,17 @@ feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 12%
+source-wordcount: '1302'
+ht-degree: 11%
 
 ---
 
 # Criar um relatório de tabela em um painel da tela
+
+{{highlighted-preview}}
+
 
 >[!IMPORTANT]
 >
@@ -96,6 +99,14 @@ Há muitas opções de configuração disponíveis para criar um relatório de t
    1. Insira um relatório **Nome**.
 
    1. Insira uma **Descrição** do relatório.
+
+   1. <span class="preview">(Opcional) No **Execute este relatório com os direitos de acesso do campo**, comece digitando o nome do usuário cujas permissões você deseja que o relatório use e, em seguida, selecione o usuário quando ele aparecer na lista. Ao configurar um relatório para ser executado como outro usuário, todos os visualizadores do painel visualizam os mesmos dados, independentemente do seu próprio nível de acesso. Se você não selecionar um usuário, cada visualizador verá os dados com base em suas próprias permissões.
+
+      >[!IMPORTANT]
+      >
+      >Se o usuário selecionado estiver desativado ou perder acesso aos espaços de trabalho ou tipos de registro relevantes, o relatório poderá exibir dados incompletos ou não ser renderizado.
+
+   </span>
 
 1. Siga as etapas abaixo para configurar a seção **Tabela de compilação**:
 

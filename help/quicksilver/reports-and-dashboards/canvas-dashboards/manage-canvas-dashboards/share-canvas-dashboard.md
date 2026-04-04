@@ -8,14 +8,16 @@ feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 10%
+source-wordcount: '607'
+ht-degree: 9%
 
 ---
 
 # Compartilhar um painel da tela
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -83,6 +85,8 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 * Ao compartilhar um painel, os recursos com os quais ele é compartilhado herdarão permissões para os relatórios exibidos no painel.
 
 * Quando um painel é distribuído por meio de um modelo de layout, uma permissão de Exibição automática para o painel (e seus relatórios) é concedida a todos os recursos atribuídos ao modelo de layout.
+
+* <span class="preview">Quando um relatório em um painel é configurado com a opção Executar como Usuário, todos os visualizadores veem os dados com base nas permissões do usuário selecionado, em vez das suas próprias permissões. Isso significa que os visualizadores podem ver dados aos quais normalmente não têm acesso. Se alguns relatórios em um painel usarem Executar como Usuário e outros não, os visualizadores poderão ver dados inconsistentes nos relatórios.</span>
 
 
 ## Compartilhar um painel da tela

@@ -8,14 +8,16 @@ feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 12%
+source-wordcount: '586'
+ht-degree: 10%
 
 ---
 
 # Editar um relatório em um painel da tela
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -86,7 +88,13 @@ Para obter mais informações, consulte [Criar um painel da Tela](/help/quicksil
 
    ![Editar um relatório](assets/edit-report-box.png)
 
-1. Na caixa de diálogo **Configurar**, edite as informações nas seções listadas no lado esquerdo. Essas seções variam de acordo com o tipo de relatório que você está editando.
+1. <span class="preview">Na caixa de diálogo **Configurar**, edite as informações nas seções listadas no lado esquerdo. Essas seções variam de acordo com o tipo de relatório que você está editando.
+
+   >[!TIP]
+   >
+   >A seção Detalhes de todos os tipos de relatório inclui uma opção **Executar este relatório com direitos de acesso de**. Use isso para especificar um usuário cujas permissões são usadas para renderizar os dados do relatório, garantindo que todos os visualizadores de painel vejam os mesmos dados. Para obter mais informações, consulte [Criar um relatório de KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Criar um relatório de gráfico](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) ou [Criar um relatório de tabela](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+
+   </span>
 
 1. (Opcional) Se estiver editando um relatório de KPI, edite as informações conforme necessário nas seguintes seções:
 
