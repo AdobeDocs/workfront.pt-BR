@@ -8,9 +8,9 @@ feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 900e29200bef2d4f70b17cd810ea0e2b936c8aad
 workflow-type: tm+mt
-source-wordcount: '4334'
+source-wordcount: '4400'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Use o Balanceador de carga de trabalho no Adobe Workfront para atribuir trabalho
 
 O Balanceador de carga de trabalho está disponível em várias áreas do Adobe Workfront. Navegar por ele é semelhante em todas as áreas.
 
-Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado, consulte [Localizar o Balanceador de carga de trabalho](https://experienceleague.adobe.com/pt-br/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Para obter mais informações sobre onde o Balanceador de carga de trabalho está localizado, consulte [Localizar o Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Requisitos de acesso
 
@@ -105,8 +105,8 @@ Para obter mais informações sobre como exibir informações no Balanceador de 
 
 Para obter informações sobre como gerenciar recursos usando o Balanceador de carga de trabalho, consulte também os seguintes artigos:
 
-* [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](https://experienceleague.adobe.com/pt-br/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Gerenciar alocações de usuário no Balanceador de carga de trabalho](https://experienceleague.adobe.com/pt-br/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Visão geral da atribuição de trabalho no Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Gerenciar alocações de usuário no Balanceador de carga de trabalho](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Navegar pelo Balanceador de carga de trabalho para vários projetos na área Recursos
 
@@ -259,6 +259,11 @@ A área Trabalho não atribuído não exibe itens de trabalho por padrão. Recom
    * **Mostrar trabalho concluído**: quando habilitado, as tarefas concluídas e os problemas são exibidos na área Trabalho Atribuído. Isso é ativado por padrão.
 
      Um ícone de marca de seleção verde é exibido no canto superior direito de uma barra de tarefas ou problemas quando são concluídos. O mesmo ícone é exibido para um projeto quando as tarefas ou problemas do período selecionado do projeto são concluídos.
+
+     >[!NOTE]
+     >
+     >A visibilidade da tarefa no Balanceador de carga de trabalho é orientada pela conclusão no nível da tarefa, não pela conclusão no nível da atribuição. Se uma tarefa tiver vários atribuídos e um ou mais deles selecionar &quot;Concluído com minha parte&quot;, mas o status geral da tarefa não for Concluído, a tarefa será considerada um trabalho não concluído. Quando a **opção Mostrar trabalho concluído** está desativada, a tarefa ainda será exibida porque não foi totalmente concluída.
+
    * **Mostrar tempo restante**: quando habilitado, o Workfront exibe a diferença entre o horário diário para o qual o usuário está disponível para trabalhar com base em seus cronogramas e as horas para as quais ele está alocado na área Trabalho atribuído para os usuários. Isso é desativado por padrão e o tempo alocado é exibido por padrão.
    * **Mostrar atribuições de função**: quando habilitado, as atribuições de função são exibidas na área Trabalho não atribuído em seus itens de trabalho atribuídos. Isso é ativado por padrão.
 
@@ -475,7 +480,7 @@ A página da Equipe inicial é exibida por padrão.
 
 1. Continue navegando no Balanceador de carga de trabalho de um projeto, conforme descrito na seção [Navegar no Balanceador de carga de trabalho para vários projetos](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) deste artigo.
 
-### Navegar pelo Balanceador de carga de trabalho de um usuário
+## Navegar pelo Balanceador de carga de trabalho de um usuário
 
 Você pode acessar o Balanceador de carga de trabalho em seu próprio perfil de usuário.
 
