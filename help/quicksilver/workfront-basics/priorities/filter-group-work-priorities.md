@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
+source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '663'
 ht-degree: 11%
 
 ---
@@ -155,7 +155,8 @@ Use a linguagem natural para filtrar rapidamente o trabalho.
 
 1. Clique em **Grupos** na parte superior esquerda da lista de trabalho.
 1. Selecione um grupo para organizar sua lista de trabalho.
-   ![Grupos](assets/groups-new.png)
+
+![Grupos](assets/groups-new.png)
 
 +++Expanda para ver informações detalhadas sobre grupos disponíveis
 
@@ -172,7 +173,7 @@ Use a linguagem natural para filtrar rapidamente o trabalho.
 
 Você pode arrastar e soltar itens de trabalho individuais entre categorias ao agrupar por Minha Prioridade ou Status.
 
-1. Agrupe seu trabalho por **Status** ou **Minha Prioridade**.
+1. Agrupe seu trabalho por **Status** ou **Meu Foco**.
 2. Passe o mouse sobre o item de trabalho para clicar no ícone **Arrastar** e movê-lo para a categoria desejada.
    ![ícone de arrastar](assets/drag-and-drop.png)
 
@@ -192,6 +193,6 @@ Para classificar colunas individuais, vá para a coluna e clique na seta para ba
 
 ### Expandir ou recolher todas as seções do grupo
 
-Para expandir ou recolher todas as seções de grupo, abra **Grupo** e clique em **Expandir tudo** ou **Recolher tudo**.
+Para expandir ou recolher todas as seções de grupo, abra **Grupo** e clique em **Expandir tudo** se os agrupamentos estiverem recolhidos ou em **Recolher tudo** se os agrupamentos estiverem expandidos.
 
 ![Expandir ou recolher grupos](assets/expand-collapse-groups.png)

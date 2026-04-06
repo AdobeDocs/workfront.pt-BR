@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 3%
@@ -160,15 +160,23 @@ Para compartilhar um espaço de trabalho com outras pessoas:
 
    * Se você for um Administrador do Sistema, selecione uma das seguintes opções:</span>
 
-      * <span class="preview">**Somente pessoas convidadas podem acessar**: você deve selecionar entidades na caixa de compartilhamento e escolher seu acesso ao espaço de trabalho. Esta é a seleção padrão. </span>
-      * <span class="preview">**Todos no sistema podem exibir**: todos no sistema com acesso ao Planning podem exibir o espaço de trabalho em sua área **Espaços de Trabalho** no Planning.</span>
+     <div class="preview">
+
+      * **Somente pessoas convidadas podem acessar**: você deve selecionar entidades na caixa de compartilhamento e escolher seu acesso ao espaço de trabalho. Esta é a seleção padrão.
+      * **Todos no sistema podem exibir**: todos no sistema com acesso ao Planning podem exibir o espaço de trabalho em sua área **Espaços de Trabalho** no Planning.
+
+     </div>
 
    * <span class="preview">(Condicional) Se você for um gerenciador de espaço de trabalho com uma licença Standard, poderá ver uma das seguintes seleções, mas não poderá alterá-las:</span>
 
-      * <span class="preview">**Somente pessoas convidadas podem acessar**. Esta é a configuração padrão.</span>
-      * <span class="preview">**Todos no sistema podem visualizar**</span>
+     <div class="preview">
 
-     <span class="preview">Você deve solicitar que um Administrador do Sistema altere uma permissão global para um espaço de trabalho.</span>
+      * **Somente pessoas convidadas podem acessar**. Esta é a configuração padrão.
+      * **Todos no sistema podem visualizar**
+
+     Você deve solicitar a um Administrador do sistema que altere uma permissão global para um espaço de trabalho.
+
+     </div>
 
 1. No campo **Conceder acesso a este espaço de trabalho**, comece digitando o nome de um usuário, grupo, equipe, empresa ou função de trabalho e clique nele quando ele for exibido na lista.
 

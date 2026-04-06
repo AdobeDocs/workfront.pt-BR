@@ -6,15 +6,15 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 2%
+source-wordcount: '1008'
+ht-degree: 13%
 
 ---
 
 
-# Noções básicas sobre a API do Adobe Workfront Planning
+# Noções básicas da API do Planejamento do Adobe Workfront
 
 {{planning-important-intro}}
 
@@ -43,9 +43,9 @@ Os objetos são manipulados enviando uma solicitação HTTP para seu URI exclusi
 Os métodos HTTP padrão correspondem às seguintes operações:
 
 * **GET** - Recupera um objeto por ID, pesquisa todos os objetos por uma consulta
-* **POST** - Insere um novo objeto
-* **PUT** - Edita um objeto existente
-* **DELETE** - Exclui um objeto
+* **POST**: insere um novo objeto
+* **PUT**: edita um objeto existente
+* **DELETE**: exclui um objeto
 
 Para obter mais detalhes e exemplos de cada operação, consulte a [documentação do desenvolvedor da API do Workfront Planning](https://developer.adobe.com/wf-planning/).
 
@@ -93,7 +93,7 @@ O Workfront Planning suporta os seguintes modificadores de pesquisa:
     <tr>
         <td>$isEmpty </td>
         <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
-        <td>Retorna registros cujo valor de campo não está vazio  </td>
+        <td>Retorna registros cujo valor de campo está vazio  </td>
         <td><ul><li>“” </li><li>nulo </li><ul>  </td>
     </tr>
     <tr>
@@ -271,7 +271,7 @@ Na chamada da API, você pode ter filtros baseados em vários critérios combina
 
 ### Uso do parâmetro de solicitação de campos
 
-Você pode usar o parâmetro de solicitação de campos para especificar uma lista separada por vírgulas de campos específicos que devem ser retornados. Esses nomes de campos fazem distinção entre maiúsculas e minúsculas.
+Você pode usar o parâmetro de solicitação de campos para especificar uma lista separada por vírgulas de campos específicos que devem ser retornados. Esses nomes de campo diferenciam maiúsculas de minúsculas.
 
 Por exemplo, a solicitação
 
@@ -313,7 +313,7 @@ retorna uma resposta semelhante à seguinte:
 
 ### Classificação dos resultados da consulta na API
 
-Você pode classificar os resultados por qualquer campo se anexar o seguinte à chamada de API:
+Você pode classificar seus resultados por qualquer campo se acrescentar o seguinte à sua chamada de API:
 
 
 `/v1/records/search`

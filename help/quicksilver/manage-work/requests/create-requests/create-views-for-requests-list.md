@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 9%
 
 ---
@@ -105,7 +105,12 @@ Você pode criar uma visualização na área Solicitações do Workfront ao usar
 
 1. Na lista de solicitações, clique no menu suspenso **Exibições** ![Exibições](assets/view-icon-requests.png) e clique em **Nova exibição**.
 
-   ![Nova exibição](assets/create-new-view.png)
+   <!-- 
+   
+   replace the screen shot with release
+   ![New view](assets/create-new-view.png)
+
+   -->
 
 1. Insira um nome para o novo modo de exibição e clique em **Criar**.
 1. Continue em [Editar um modo de exibição para solicitações](#edit-a-view-for-requests).
