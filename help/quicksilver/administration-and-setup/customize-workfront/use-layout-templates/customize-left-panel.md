@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
+source-git-commit: f490d72b46073786cc079eec0640a0b535533281
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1226'
 ht-degree: 5%
 
 ---
@@ -182,7 +182,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      <tr> 
        <td><span class="preview">[!UICONTROL Cartão de Taxa]</span></td> 
        <td><span class="preview">O nome de um cartão de taxa</span></td> 
-       <td><span class="preview">[!UICONTROL Taxas e Funções de Trabalho], [!UICONTROL Detalhes do Cartão de Taxa], [!UICONTROL Tipo de Despesa e Taxas]</span></td> 
+       <td><span class="preview">[!UICONTROL Taxas e Funções de Trabalho] (não pode ser oculto), [!UICONTROL Detalhes do Cartão de Taxa]</span></td> 
      </tr>
      <tr> 
        <td><span class="preview">[!UICONTROL Group]</span></td> 
@@ -201,20 +201,6 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
        <td>Timesheets</td> 
        <td>The name of the timesheet</td> 
        <td>My Timesheets, Timesheets I Approve, All Timesheets (cannot be hidden) </td> 
-      </tr>
-     --> 
-     <!--
-      <tr> 
-       <td>Resourcing</td> 
-       <td>The name of the resource</td> 
-       <td>Planner (cannot be hidden), Workload Balancer, Utilization, Resource Pools </td> 
-      </tr>
-     --> 
-     <!--
-      <tr> 
-       <td>User Details</td> 
-       <td>____________</td> 
-       <td>Details (cannot be hidden), Org Chart, Time Off, Custom Forms </td> 
       </tr>
      --> 
     </tbody> 

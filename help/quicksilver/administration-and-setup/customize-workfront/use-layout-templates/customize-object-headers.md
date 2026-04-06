@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 106ff601a4a19dbbf50cb3329675928ad7087b21
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 7%
 
 ---
@@ -23,7 +23,7 @@ Como administrador do Adobe Workfront ou administrador de grupo, você pode usar
 
 >[!IMPORTANT]
 >
->A personalização de cabeçalhos de objetos está disponível atualmente para projetos, tarefas, problemas, <span class="preview">portfólios, programas, modelos, registros de cobrança, equipes, grupos, usuários, empresas, grupos e cartões de taxa.</span>
+>A personalização de cabeçalhos de objetos está disponível atualmente para projetos, tarefas, problemas, <span class="preview">portfólios, programas, modelos, registros de cobrança, equipes, usuários, empresas, grupos e cartões de taxa.</span>
 
 ![Campos do cabeçalho do objeto](assets/object-header-fields.png)
 

@@ -6,9 +6,10 @@ title: Visão Geral da Receita e da Hierarquia de Custo
 description: Este artigo descreve o processo passo a passo para determinar as taxas de custo e faturamento apropriadas para funções de trabalho e usuários para o tipo de receita por hora e tipo de custo Usuário e Função.
 author: Lisa
 feature: Work Management
-source-git-commit: dfc6344303f33a9c3c89837b759235612e54904e
+exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
-source-wordcount: '3519'
+source-wordcount: '3604'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,17 @@ Para fornecer cálculos financeiros precisos, o Workfront usa as taxas de fatura
 
 As seções neste artigo descrevem o processo passo a passo para determinar as taxas de faturamento e custo apropriadas para funções de trabalho e usuários para o tipo de receita e tipo de custo Usuário e Função por hora.
 
+>[!NOTE]
+>
+>A hierarquia de taxa mostrada neste artigo é usada somente quando o tipo de custo ou receita Horária do Usuário e da Função é aplicado à tarefa.
+
 Para obter mais informações sobre taxas de cobrança, tipos de receita e como a receita é calculada, consulte [Visão geral de cobrança e receita](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+## Exceções para a hierarquia e o tipo de receita de Usuário e Função por hora
+
+* Não há suporte para taxas da empresa na hierarquia.
+* Somente a função Principal é usada para os cálculos de hierarquia. Outras funções não são usadas.
+* Quando o tipo de receita de uma tarefa é Usuário e Função por hora, um usuário que registrou horas na tarefa não pode ser desatribuído dessa tarefa.
 
 ## Visão geral das datas efetivas
 
@@ -232,4 +243,3 @@ O Workfront pesquisa nas propriedades do usuário do proprietário de acordo com
    * Em seguida, o sistema procura a taxa de funções de trabalho no nível do sistema, levando em conta as datas de efetivação.
 
 1. Se nenhuma dessas taxas for encontrada, a taxa de cobrança será 0.
-
