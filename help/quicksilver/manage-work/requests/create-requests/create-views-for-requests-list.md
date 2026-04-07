@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '744'
 ht-degree: 9%
 
 ---
@@ -74,6 +74,10 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 <div class="preview">
 
 ## Visualizações do sistema para solicitações
+
+>[!NOTE]
+>
+>As exibições do sistema podem não estar disponíveis em seu ambiente de Visualização. Eles estarão disponíveis na Produção para todos os clientes em 16 de abril de 2026.
 
 Além das exibições que você pode criar por conta própria, o Workfront oferece as seguintes exibições do sistema para a área Solicitações e o widget Minhas solicitações na Página inicial:
 

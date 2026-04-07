@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
 workflow-type: tm+mt
-source-wordcount: '2913'
+source-wordcount: '2915'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,7 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 | Lista de solicitações | <ul><li>Solicitações (somente nova experiência)</li><li>Widget Minhas solicitações na página inicial</li></ul> |
 | Listas de status, prioridades, severidades e taxas de câmbio em Configuração | <ul><li>Configuração > Preferências do Projeto > Status</li><li>Configuração > Preferências do Projeto > Prioridades</li><li>Configuração > Preferências do Projeto > Severidades</li><li>Configuração > Preferências do Projeto > Taxas de Câmbio</li></ul> |
 | <span class="preview">Lista de relatórios</span> | <span class="preview">Relatórios (**Usar pastas compartilháveis** deve estar ativado)</span> |
-| <span class="preview">Lista de funções e taxas de trabalho na Instalação</span> | <span class="preview">Configurar > Cartões de Taxa > selecione um cartão de taxa > Funções e Taxas de Trabalho</span> |
+| <span class="preview">Lista de funções e taxas de trabalho em um cartão de taxa</span> | <span class="preview">Configurar > Cartões de Taxa > selecione um cartão de taxa > Funções e Taxas de Trabalho</span> |
 | <span class="preview">Lista de traduções</span> | <span class="preview">Configuração > Localização</span> |
 | <span class="preview">Lista de instantâneos</span> | <span class="preview">Projeto > Instantâneos</span> |
 | <span class="preview">Lista de recursos para cobrança</span> | <span class="preview">Projeto > Recurso para faturamento</span> |
