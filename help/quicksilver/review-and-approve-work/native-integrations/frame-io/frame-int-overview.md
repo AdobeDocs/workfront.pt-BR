@@ -11,9 +11,9 @@ hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ A revisão e as aprovações unificadas possibilitadas pelo Workfront e Frame.io
 * Os usuários podem pertencer a apenas uma instância do Workfront na organização IMS.
 
 * A instância do Workfront deve ser ativada no armazenamento corporativo da Adobe Unified Experience e do Adobe.
-
-* A integração deve ser configurada pelo Adobe Professional Services.
 
 
 ## Baseado em armazenamento corporativo Adobe
