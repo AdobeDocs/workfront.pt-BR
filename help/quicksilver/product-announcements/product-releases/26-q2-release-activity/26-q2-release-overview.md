@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fb848a84a1339b98a549584c87af2083115d3440
+source-git-commit: b934764d12aa81f836b5d71b624ce9d83aab63b1
 workflow-type: tm+mt
-source-wordcount: '2263'
-ht-degree: 25%
+source-wordcount: '2282'
+ht-degree: 24%
 
 ---
 
@@ -20,7 +20,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do Segundo trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -375,8 +375,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Exibições predefinidas adicionadas à lista de solicitações na área Solicitações e ao widget Minhas solicitações </a><p></p>
             <p>Para ajudá-lo a organizar melhor sua lista de solicitações, adicionamos exibições predefinidas à lista de solicitações na área Solicitações e ao widget Minhas solicitações na Página inicial.</p>
         </td>
-           <td><p>sexta-feira, 2 de abril de 2026</p></td>
-        <td><p>quinta-feira, 15 de abril de 2026</p></td>
+           <td><p>N/D</p><p>As exibições predefinidas não terão uma versão de Visualização e serão liberadas diretamente para Produção em 16 de abril. </p></td>
+        <td><p>sexta-feira, 16 de abril de 2026</p></td>
         <td><p>sexta-feira, 16 de abril de 2026</p></td>
  </tr>
     <tr>
