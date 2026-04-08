@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1257'
 ht-degree: 2%
 
 ---
@@ -86,6 +86,8 @@ Use **instantâneos de projeto** para gerenciar projetos com mais eficiência e 
 
 Para obter mais informações, consulte [Criar e exibir instantâneos de projeto](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md).
 
+[Exibir uma demonstração em vídeo dos instantâneos do projeto.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
+
 >[!NOTE]
 >
 >* Os instantâneos de projeto só estão disponíveis para organizações no pacote Ultimate de fluxo de trabalho.
@@ -96,6 +98,8 @@ Para obter mais informações, consulte [Criar e exibir instantâneos de projeto
 **Os perfis empresariais** fornecem acesso seguro e escalonável ao sistema e ajudam a fortalecer a governança corporativa.
 
 Para obter mais informações, consulte [Visão geral dos perfis empresariais](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+
+[Exibir uma demonstração em vídeo de perfis comerciais.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
 >[!NOTE]
 >
@@ -110,6 +114,8 @@ Além disso, as permissões para visualizar dados de custo e faturamento foram s
 ### Aprimoramentos de campo e formulário personalizados
 
 A lógica avançada em formulários personalizados fornece insights mais claros e gerenciamento de projetos e financeiros mais preciso.
+
+[Exiba uma demonstração em vídeo dos aprimoramentos de campo e formulário personalizados.](https://video.tv.adobe.com/v/3483244/){target="_blank"}
 
 As melhorias nos formulários personalizados incluem:
 
@@ -159,6 +165,8 @@ Nos modelos de layout, você pode personalizar os cabeçalhos e os menus de nave
 
 Para obter mais informações, consulte [Criar e gerenciar modelos de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
+[Exiba uma demonstração em vídeo das melhorias do modelo de layout.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+
 ### Localização personalizada
 
 >[!NOTE]
@@ -171,6 +179,8 @@ Por exemplo, você pode definir o rótulo &quot;Público-alvo&quot; para traduzi
 
 Para obter mais informações, consulte [Configurar localização personalizada](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
+[Assista a uma demonstração em vídeo de localização personalizada.](https://video.tv.adobe.com/v/3483248/){target="_blank"}
+
 ### Automatizar ações com Regras de Negócios
 
 >[!NOTE]
@@ -180,3 +190,6 @@ Para obter mais informações, consulte [Configurar localização personalizada]
 Os administradores do Workfront agora podem configurar regras de negócios para automatizar ações para o objeto criado, editado ou modificado quando determinadas condições forem atendidas. As ações disponíveis incluem compartilhar o objeto ou anexar um formulário personalizado ao objeto.
 
 Para obter mais informações, consulte [Criar e editar regras de negócios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+[Assista a uma demonstração em vídeo dos aprimoramentos das Regras de Negócios.](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+
