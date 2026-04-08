@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b934764d12aa81f836b5d71b624ce9d83aab63b1
+source-git-commit: 2a147980da25d981c7a494e76fb771eac83cd59a
 workflow-type: tm+mt
-source-wordcount: '2282'
+source-wordcount: '2289'
 ht-degree: 24%
 
 ---
@@ -20,7 +20,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do Segundo trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -60,7 +60,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Colaboradores de IA disponíveis agora</a><p>Para facilitar o benefício da IA no seu trabalho diário, criamos colaboradores de IA.  Os Colaboradores de IA são uma maneira de integrar agentes de IA em seus projetos e tarefas. Você pode configurar um Colaborador de IA com diretrizes de marca e, em seguida, atribuí-lo a uma tarefa como faria com um usuário.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">O Content Review AI Collaborator agora está disponível</a><p>Para facilitar o benefício da IA no seu trabalho diário, criamos o Colaborador da IA de revisão de conteúdo.  O Collaborator é uma maneira de integrar agentes de IA em seus projetos e tarefas. Você pode configurar um Colaborador de IA de revisão de conteúdo com diretrizes de marca e, em seguida, atribuí-lo a uma tarefa como faria com um usuário.</p>
         </td>
         <td><p>sexta-feira, 2 de abril de 2026</p></td>
         <td><p>quinta-feira, 15 de abril de 2026</p></td>

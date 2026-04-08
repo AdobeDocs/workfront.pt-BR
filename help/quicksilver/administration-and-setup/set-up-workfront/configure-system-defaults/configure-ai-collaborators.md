@@ -8,14 +8,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 25d5fef46bc8f02e92d778685c2ad6e93439f9ff
+source-git-commit: 7d359a2536860d13658d3ec0c95264a55db7ab29
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '408'
 ht-degree: 6%
 
 ---
 
 # Configurar colaboradores de IA
+
+>[!IMPORTANT]
+>
+>Atualmente, o Revisor de conteúdo é o único tipo disponível de Colaborador de IA. Mais recursos do AI Collaborator estarão disponíveis no futuro.
 
 {{highlighted-preview-article-level}}
 
@@ -28,10 +32,6 @@ Os tipos disponíveis do AI Collaborator incluem:
 * Revisor: crie um colaborador usando marcas<!-- or Adobe Brand Intelligence--> e atribua o colaborador como revisor em ativos.
 
   Para obter mais informações, consulte [Introdução ao Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
-
-  >[!NOTE]
-  >
-  >Atualmente, o Revisor é o único tipo disponível de Colaborador de IA. Mais recursos do AI Collaborator estarão disponíveis no futuro.
 
 
 ## Requisitos de acesso
@@ -87,7 +87,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. No campo Nome do Colaborador, informe um nome para o colaborador. Esse é o nome que aparece na lista de responsáveis disponíveis em uma tarefa.
    <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
    <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
-1. &#x200B;<!--(Conditional) If the AI Collaborator will use a Brand,-->Selecione a marca e a diretriz de marca que será usada.
+1. <!--(Conditional) If the AI Collaborator will use a Brand,-->Selecione a marca e a diretriz de marca que será usada.
 1. Clique em **Salvar**.
 
 ## Gerenciar colaboradores de IA
