@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
 workflow-type: tm+mt
-source-wordcount: '1699'
-ht-degree: 2%
+source-wordcount: '1703'
+ht-degree: 1%
 
 ---
 
@@ -69,8 +69,7 @@ Para criar uma função de trabalho:
 {{step-1-to-setup}}
 
 1. No painel esquerdo, clique em **[!UICONTROL Funções de trabalho]**.
-1. Clique em **[!UICONTROL Nova Função]**.
-<!-- 1. Click **New Job Role > Create new job role**.  -->
+1. Clique em **[!UICONTROL Nova função de trabalho] <span class="preview">> Criar nova função de trabalho**.</span>
 1. Especifique informações nos seguintes campos:
 
    * **Nome**: indique um nome para a função de trabalho. Esse é o nome exibido em qualquer lugar do Workfront em que o campo Função de trabalho é exibido.
