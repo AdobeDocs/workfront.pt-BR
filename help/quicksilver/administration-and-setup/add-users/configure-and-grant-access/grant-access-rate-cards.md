@@ -1,5 +1,5 @@
 ---
-title: Conceder acesso a dados financeiros
+title: Conceder acesso aos cartões de tarifa
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
@@ -7,13 +7,13 @@ description: Como administrador do Adobe Workfront, você pode definir o acesso 
 author: Becky and Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: dfc6344303f33a9c3c89837b759235612e54904e
+exl-id: b21e65d3-3c9f-4f3d-95d3-de4c09199622
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 10%
 
 ---
-
 
 # Conceder acesso aos cartões de taxa
 

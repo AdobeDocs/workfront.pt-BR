@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1775'
 ht-degree: 96%
 
 ---
@@ -102,6 +102,8 @@ A seguir, estão as configurações de acesso mais altas disponíveis para objet
 | Filtros, visualizações e agrupamentos |   |   | ✓ |
 | Documentos |   |   | ✓ |
 | Usuários |   |   | ✓ |
+| Função no trabalho |   |   | ✓ |
+| Equipes |   |   | ✓ |
 | Modelos |   |   | ✓ |
 | Dados financeiros |   |   | ✓ |
 | Gerenciamento de recursos |   |   | ✓ |
@@ -204,7 +206,13 @@ A seguir, estão as configurações de acesso mais altas disponíveis para objet
    <td>✓</td> 
    <td> </td> 
   </tr> 
-    <tr> 
+  <tr> 
+   <td>Função no trabalho</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>Equipes</td> 
    <td> </td> 
    <td>✓</td> 
@@ -285,7 +293,8 @@ A seguir estão as configurações de acesso mais altas disponíveis para objeto
 | Relatórios (incluindo painéis e relatórios de calendário) |   | ✓ (Somente a guia Detalhes) |   |
 | Filtros, visualizações e agrupamentos |   |   | ✓ |
 | Documento |   |   | ✓ |
-| Usuário |   | ✓ |   |
+| Usuários |   | ✓ |   |
+| Função no trabalho |   | ✓ |   |
 | Equipes |   | ✓ |   |
 | Modelos | ✓ |   |   |
 | Dados financeiros | ✓ |   |   |
@@ -334,7 +343,8 @@ A seguir, estão as configurações de acesso mais altas disponíveis para objet
 | Relatórios (incluindo painéis e relatórios de calendário) |   | ✓ (Somente para relatórios de calendário; sem capacidade de compartilhar relatórios) |   |
 | Filtros, visualizações e agrupamentos | ✓ |   |   |
 | Documento |   | ✓ (Sem capacidade de compartilhar documentos) |   |
-| Usuário |   | ✓ |   |
+| Usuários |   | ✓ |   |
+| Função no trabalho | ✓ |   |   |
 | Equipes | ✓ |   |   |
 | Modelos | ✓ |   |   |
 | Dados financeiros | ✓ |   |   |

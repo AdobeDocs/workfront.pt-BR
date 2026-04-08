@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 2%
+source-wordcount: '840'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 <!--Linked in several places, do not rename or change URL.-->
 
-Como administrador do Adobe Workfront, você pode usar um nível de acesso para conceder aos usuários uma licença de Plano acesso administrativo a determinadas áreas do sistema.
+Como administrador do Adobe Workfront, você pode usar um nível de acesso para conceder aos usuários uma licença Padrão ou de Plano acesso administrativo a determinadas áreas do sistema.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Como administrador do Adobe Workfront, você pode usar um nível de acesso para 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Como administrador do Adobe Workfront, você pode usar um nível de acesso para 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td>   <p>Standard</p>
+   <td>   <p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -46,11 +46,11 @@ Como administrador do Adobe Workfront, você pode usar um nível de acesso para 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Conceder aos usuários do Plano acesso administrativo a determinadas áreas do Workfront
+## Conceder aos usuários do Plano ou Padrão acesso administrativo a determinadas áreas do Workfront
 
 >[!IMPORTANT]
 >
@@ -96,12 +96,13 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
      </tr> 
      <tr> 
       <td role="rowheader">Funções de trabalho</td> 
-      <td> <p>Com esse acesso, o usuário pode fazer o seguinte:</p> 
+      <td> <p><span class="preview"><b>OBSERVAÇÃO</b>: no ambiente de Pré-visualização, o acesso às funções de trabalho é controlado como um tipo de objeto no nível de acesso. Consulte <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Conceder acesso às funções de trabalho</a>.</span></p>
+      <p>Com esse acesso, o usuário pode fazer o seguinte:</p> 
        <ul> 
         <li>Exibir e editar funções de trabalho existentes</li> 
         <li>Adicionar novas funções de trabalho</li> 
         <li>Editar taxas de custo e cobrança de função</li> 
-       </ul> <p><b>IMPORTANTE</b>: se você conceder a um usuário do Planejador acesso administrativo a funções de trabalho, a configuração do Acesso a dados financeiros Editar taxas de custo e cobrança de função será habilitada automaticamente para o usuário. Posteriormente, se você desativar o acesso administrativo a funções de trabalho para o usuário Planejador, as funções de trabalho ainda estarão visíveis para o usuário, pois a configuração Editar taxas de custo e faturamento de função ainda está ativada. Se isso acontecer e você precisar remover o acesso do usuário para visualizar funções de trabalho, será necessário desativar a configuração de permissão Editar taxas de custo e cobrança de função. Para obter instruções, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Conceder acesso a dados financeiros</a>.</p> </td> 
+       </ul> <p><b>IMPORTANTE</b>: se você conceder a um usuário Padrão ou de Plano acesso administrativo a funções de trabalho, a configuração de acesso a Dados Financeiros Editar Taxas de Custo e Cobrança de Função será habilitada automaticamente para o usuário. Posteriormente, se você desativar o acesso administrativo a funções de trabalho para o usuário Padrão ou Plano, as funções de trabalho ainda estarão visíveis para o usuário, pois a configuração Editar taxas de custo e faturamento de função ainda está ativada. Se isso acontecer e você precisar remover o acesso do usuário para visualizar funções de trabalho, será necessário desativar a configuração de permissão Editar taxas de custo e cobrança de função. Para obter instruções, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Conceder acesso a dados financeiros</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Etapas no meu grupo</td> 

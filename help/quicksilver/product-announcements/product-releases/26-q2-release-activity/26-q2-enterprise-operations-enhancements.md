@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1207'
 ht-degree: 2%
 
 ---
@@ -35,6 +35,8 @@ Os recursos avançados de operações corporativas da Adobe Workfront são uma m
 >Esses recursos só estão disponíveis para organizações no pacote Workflow Ultimate.
 
 Preveja, controle e otimize suas finanças com hierarquias de custo e taxa de faturamento de vários níveis.
+
+[Assista a uma demonstração em vídeo de 13 minutos dos recursos avançados de gerenciamento financeiro.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
 
 Os aprimoramentos na gestão financeira incluem:
 

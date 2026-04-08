@@ -5,20 +5,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
-# Conceder acesso às equipes
+# Conceder acesso a equipes
 
 Como administrador do Adobe Workfront, você pode usar um nível de acesso para definir o acesso de um usuário às equipes no Workfront, conforme explicado na [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +30,7 @@ Como administrador do Adobe Workfront, você pode usar um nível de acesso para 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -40,11 +40,11 @@ Como administrador do Adobe Workfront, você pode usar um nível de acesso para 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Configurar o acesso dos usuários para editar usuários usando um nível de acesso personalizado
+## Configurar o acesso dos usuários para editar equipes usando um nível de acesso personalizado
 
 1. Comece a criar ou editar o nível de acesso, conforme explicado em [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Clique no ícone de engrenagem ![](assets/gear-icon-settings.png) no botão **Exibir** ou **Editar** à direita de Equipes e selecione as habilidades que deseja conceder em **Ajustar suas configurações**.
@@ -125,4 +125,4 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 
 ## Acesso a equipes por tipo de licença
 
-Para obter informações sobre o que os usuários em cada nível de acesso podem fazer com problemas, consulte a seção [Equipes](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) no artigo [Funcionalidade disponível para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Para obter informações sobre o que os usuários em cada nível de acesso podem fazer com equipes, consulte a seção [Equipes](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) no artigo [Funcionalidade disponível para cada tipo de objeto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
