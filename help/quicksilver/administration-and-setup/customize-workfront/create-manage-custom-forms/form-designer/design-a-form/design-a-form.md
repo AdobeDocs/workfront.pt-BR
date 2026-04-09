@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 0db6cd1091052af7a71ad3e4fce6a9e3fcbb9f67
 workflow-type: tm+mt
-source-wordcount: '7439'
+source-wordcount: '7436'
 ht-degree: 94%
 
 ---
@@ -302,16 +302,16 @@ Para adicionar um campo de texto:
     </tr>
     <tr>
       <td><span class="preview">Tipo de permissão de finanças</span></td>
-      <td><p><span class="preview">Selecione o tipo de permissão financeira que os usuários devem ter para exibir ou editar este campo personalizado. Qualquer formato é permitido para campos calculados.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Selecione o tipo de permissão financeira que os usuários devem ter para exibir ou editar este campo personalizado. O formato Moeda deve ser selecionado.</span></p>
+      <ul>
       <li><p><strong>Nenhuma permissão necessária:</strong> todos os usuários podem ver este campo</p></li>
       <li><p><strong>Geral:</strong> os usuários devem ter permissões para editar ou exibir Finanças Gerais</p></li>
       <li><p><strong>Cobrança:</strong> Os usuários devem ter permissões para editar ou exibir taxas de cobrança</p></li>
       <li><p><strong>Custo:</strong> Os usuários devem ter permissões para editar ou exibir taxas de custo</p></li>
       </ul>
-      <p><span class="preview">Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir o acesso aos dados financeiros em campos personalizados</a>.</span></p>
+      <p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir o acesso aos dados financeiros em campos personalizados</a>.</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>Texto de linha única</li>
        <li>Parágrafo</li>
        </ul></td>
@@ -458,16 +458,16 @@ Para adicionar botões de opção, grupos de caixas de seleção e listas suspen
     </tr> 
     <tr>
       <td><span class="preview">Tipo de permissão de finanças</span></td>
-      <td><p><span class="preview">Selecione o tipo de permissão financeira que os usuários devem ter para exibir ou editar este campo personalizado. Qualquer formato é permitido para campos calculados.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Selecione o tipo de permissão financeira que os usuários devem ter para exibir ou editar este campo personalizado. O formato Moeda deve ser selecionado.</span></p>
+      <ul>
       <li><p><strong>Nenhuma permissão necessária:</strong> todos os usuários podem ver este campo</p></li>
       <li><p><strong>Geral:</strong> os usuários devem ter permissões para editar ou exibir Finanças Gerais</p></li>
       <li><p><strong>Cobrança:</strong> Os usuários devem ter permissões para editar ou exibir taxas de cobrança</p></li>
       <li><p><strong>Custo:</strong> Os usuários devem ter permissões para editar ou exibir taxas de custo</p></li>
       </ul>
-      <p><span class="preview">Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir o acesso aos dados financeiros em campos personalizados</a>.</span></p>
+      <p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir o acesso aos dados financeiros em campos personalizados</a>.</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>Botões de opção</li>
        <li>Grupo de caixas de seleção</li>
        <li>Menu suspenso de seleção única</li>
@@ -723,14 +723,14 @@ Para adicionar uma pesquisa externa:
      </tr> 
      <tr>
       <td><span class="preview">Tipo de permissão de finanças</span></td>
-      <td><p><span class="preview">Selecione o tipo de permissão financeira que os usuários devem ter para exibir ou editar este campo personalizado. Qualquer formato é permitido para campos calculados.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Selecione o tipo de permissão financeira que os usuários devem ter para exibir ou editar este campo personalizado. O formato Moeda deve ser selecionado.</span></p>
+      <ul>
       <li><p><strong>Nenhuma permissão necessária:</strong> todos os usuários podem ver este campo</p></li>
       <li><p><strong>Geral:</strong> os usuários devem ter permissões para editar ou exibir Finanças Gerais</p></li>
       <li><p><strong>Cobrança:</strong> Os usuários devem ter permissões para editar ou exibir taxas de cobrança</p></li>
       <li><p><strong>Custo:</strong> Os usuários devem ter permissões para editar ou exibir taxas de custo</p></li>
       </ul>
-      <p><span class="preview">Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir o acesso aos dados financeiros em campos personalizados</a>.</span></p>
+      <p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Restringir o acesso aos dados financeiros em campos personalizados</a>.</p>
       </td>
      </tr>
      <tr> 
@@ -754,12 +754,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar “$.data[*].name” para selecionar EUA e Canadá como opções de lista suspensa:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "EUA"},
          { name: "Canadá"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o caminho JSON e garantir que você o escreva corretamente, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
