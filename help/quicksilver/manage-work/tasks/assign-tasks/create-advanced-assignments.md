@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 196e7963d04ac5927b222e843eb42d4f300a397a
+source-git-commit: 676cd1697ae2f379a699075f4e1ab06886c6837a
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3415'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Você pode ajustar as seguintes informações de atribuição ao fazer atribuiç
 * Determine qual usuário deve ser designado como o proprietário ou o Principal responsável pela tarefa ou problema.
 * Especifique qual função cada usuário está cumprindo ao trabalhar na tarefa ou problema.
 * <span class="preview">Adicionar informações de cobrança e de taxa de custo no nível de atribuição.</span>
-* <span class="preview">Revise os seguintes detalhes para cada atribuição: horas planejadas com base no tempo, custo total e receita total.</span>
+* <span class="preview">Revise os seguintes detalhes para cada atribuição: horas planejadas, custo total e receita total.</span>
 
 >[!NOTE]
 >
