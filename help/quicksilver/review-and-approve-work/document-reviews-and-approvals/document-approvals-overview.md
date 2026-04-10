@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 735fc46cb982ebd7e28bed486589efe415741683
+source-git-commit: 93eab1106953bfc7324f4b7cc99d3442364a56cd
 workflow-type: tm+mt
-source-wordcount: '3874'
+source-wordcount: '3865'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,6 @@ Para obter mais informações sobre como gerenciar projetos no Workfront, consul
 
 Como a revisão e a aprovação unificadas são criadas usando o armazenamento corporativo Adobe, há algumas convenções de estrutura e nomenclatura aplicadas que devem ser levadas em conta ao gerenciar projetos e documentos.
 
-* Os nomes dos objetos devem ser exclusivos e não podem ser duplicados.
 * O armazenamento corporativo do Adobe requer nomes exclusivos para objetos de mesmo nível com o mesmo pai na árvore hierárquica.
 * Documentos não podem ter o mesmo nome se pertencerem ao mesmo projeto.
 * Os nomes de objetos não podem conter nenhum dos seguintes caracteres especiais: \ / : * ? &quot; | &lt; >
