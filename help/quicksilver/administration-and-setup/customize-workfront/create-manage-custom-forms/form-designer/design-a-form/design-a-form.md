@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0db6cd1091052af7a71ad3e4fce6a9e3fcbb9f67
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '7436'
+source-wordcount: '7426'
 ht-degree: 94%
 
 ---
@@ -688,7 +688,6 @@ Para obter exemplos de como usar o campo de pesquisa externa para chamar a mesma
 
 >[!NOTE]
 >
->* Os campos de pesquisa externa não são aceitos no plug-in do Outlook.
 >* Os campos de pesquisa externa não estão disponíveis em listas quando o campo tem uma dependência de outro campo.
 
 Para adicionar uma pesquisa externa:
@@ -754,12 +753,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar “$.data[*].name” para selecionar EUA e Canadá como opções de lista suspensa:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "EUA"},
          { name: "Canadá"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o caminho JSON e garantir que você o escreva corretamente, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>

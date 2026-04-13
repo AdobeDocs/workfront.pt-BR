@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 5%
+source-wordcount: '628'
+ht-degree: 9%
 
 ---
 
@@ -33,7 +33,6 @@ Depois de salvar um modelo de layout no qual você alterou a terminologia e, em 
 
 >[!NOTE]
 >
->* A área de Suplemento do Outlook não exibe os rótulos personalizados.
 >* Você pode encontrar problemas gramaticais e outros ao personalizar rótulos. Por exemplo, se você alterar &quot;Problema&quot; para &quot;Solicitação&quot;, poderá haver locais na interface do usuário onde você verá a frase &quot;Uma solicitação&quot;. Para obter mais informações, consulte [Implicações da personalização de nomes de objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) no artigo [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 >
 
@@ -73,7 +72,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Personalizar a terminologia da interface do usuário
+## Personalizar a terminologia da interface
 
 1. Comece a trabalhar em um modelo de layout, conforme descrito em [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Clique em **Definir terminologia** próximo ao canto superior direito da página.

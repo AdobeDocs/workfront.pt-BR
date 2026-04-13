@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 7%
+source-wordcount: '539'
+ht-degree: 8%
 
 ---
 
@@ -137,8 +137,6 @@ Ao receber uma notificação por email do Workfront, você pode adicionar rapida
 >[!IMPORTANT]
 >
 >* Você deve ter permissões para pelo menos Exibir o objeto que acionou a atualização antes de poder responder à notificação por email.
->
->* Para evitar erros de envio, os usuários do Outlook devem excluir o conteúdo de email existente antes de digitar sua resposta.
 
 Para adicionar uma atualização a um email do Workfront:
 

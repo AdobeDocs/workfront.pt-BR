@@ -1,19 +1,19 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: Visão geral de [!DNL Adobe Workfront] objetos
+title: Visão geral de objetos do [!DNL Adobe Workfront]
 description: As informações exibidas em  [!DNL Adobe Workfront]  são representadas por objetos armazenados no banco de dados  [!DNL Workfront] . Os objetos são o que direciona as informações em  [!DNL Workfront]. Saiba mais sobre esses objetos neste artigo.
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '2508'
-ht-degree: 1%
+source-wordcount: '2456'
+ht-degree: 3%
 
 ---
 
-# Visão geral de [!DNL Adobe Workfront] objetos
+# Visão geral de objetos do [!DNL Adobe Workfront]
 
 <!--Audited: 12/2023-->
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 <***Linked to several articles, do not remove/ change. 
 -->
 
-As informações exibidas em [!DNL Adobe Workfront] são representadas por objetos armazenados no banco de dados [!DNL Workfront]. Os objetos são o que direciona as informações em [!DNL Workfront].
+As informações exibidas no [!DNL Adobe Workfront] são representadas por objetos armazenados no banco de dados do [!DNL Workfront]. Os objetos são o que direciona as informações em [!DNL Workfront].
 
 Entender como os objetos são definidos em [!DNL Workfront] é importante para que você possa usar o objeto correto de acordo com as necessidades da sua organização.
 
@@ -126,16 +126,6 @@ As áreas a seguir mostram o nome atualizado dos objetos:
 * Emails
 * Aplicativos móveis
 
-### Áreas de [!DNL Workfront] que não refletem os nomes de objetos personalizados
-
-As áreas a seguir não mostram o nome atualizado dos objetos:
-
-<!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Referenced Object Type selection for a Typeahead field in a Custom Form </p> <p>(NOTE: drafting this because I don't think this is true)</p> </li>
-  -->
-
-* Suplemento [!DNL Outlook]
-
 ### Implicações da personalização de nomes de objetos
 
 Você deve estar ciente do seguinte ao personalizar nomes de objetos em [!DNL Workfront]:
@@ -239,7 +229,7 @@ Você pode criar relatórios sobre os seguintes objetos ao usar o construtor de 
 
 * [!UICONTROL Projeto]
 * [!UICONTROL Tarefa]
-* [!UICONTROL Hora]
+* [!UICONTROL Hour]
 * [!UICONTROL Problema]
 * [!UICONTROL Usuário]
 * Nível de [!UICONTROL Acesso]

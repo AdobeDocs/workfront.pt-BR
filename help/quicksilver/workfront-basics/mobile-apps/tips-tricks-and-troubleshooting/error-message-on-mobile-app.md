@@ -2,15 +2,15 @@
 content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
-title: "Mensagem de Erro no  [!DNL Adobe Workfront] Aplicativo Móvel: 'Sua conta não está habilitada para API'."
-description: "Mensagem de Erro no  [!DNL Adobe Workfront] Aplicativo Móvel: 'Sua conta não está habilitada para API'."
+title: 'Mensagem de Erro no  [!DNL Adobe Workfront] Aplicativo Móvel: ''Sua conta não tem API habilitada''.'
+description: 'Mensagem de Erro no  [!DNL Adobe Workfront] Aplicativo Móvel: ''Sua conta não tem API habilitada''.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '163'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +29,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
    <td> <p> Qualquer</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>licença do Adobe [!DNL Workfront]</strong></td> 
+   <td role="rowheader"><strong>Licença do Adobe [!DNL Workfront]</strong></td> 
    <td> <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ O administrador do [!DNL Workfront] não habilitou o ambiente [!DNL Workfront] p
 1. Vá para a área **[!UICONTROL Configuração]**.
 1. Expanda o menu **[!UICONTROL Sistema]** e clique em **[!UICONTROL Preferências]**.
 
-1. Na seção **[!UICONTROL Segurança]**, selecione a opção **[!UICONTROL Permitir que as pessoas usem os aplicativos móveis de [!DNL Workfront] e o Suplemento [!DNL Workfront Outlook]]** para habilitá-lo.
+1. Na seção **[!UICONTROL Segurança]**, selecione a opção **[!UICONTROL Permitir que as pessoas usem os aplicativos móveis[!DNL Workfront] de]** para habilitá-la.
 
 1. Clique em **[!UICONTROL Salvar]**.\
-   Todos os usuários no sistema agora podem acessar o [!DNL Workfront] por meio de seus aplicativos móveis e do [!DNL Outlook].
+   Todos os usuários no sistema agora podem acessar [!DNL Workfront] por meio de seus aplicativos móveis.
