@@ -9,10 +9,10 @@ role: Developer
 exl-id: 7fb9131a-b815-4990-acba-cc75a24f389f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 3106cb32d1f4cb962c1b16238ef17adcaa5766f1
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 14%
 >
 >Esta alteração na versão da API apresenta uma mudança significativa que pode afetar suas chamadas de API. Isso se deve ao fato de que a versão 21 da API usa a versão 2 das assinaturas de eventos.
 >
-> Para campos de seleção múltipla, a versão 2 das Assinaturas de evento sempre envia como matriz. A versão 1 enviava uma matriz se mais de um valor fosse selecionado. Se apenas um valor fosse selecionado, ela enviaria uma string.
+> Para campos de seleção múltipla, a versão 2 das Inscrições em eventos sempre é enviada como uma matriz. A versão 1 enviava uma matriz se mais de um valor fosse selecionado. Se apenas um valor fosse selecionado, ela enviaria uma string.
 
 O Adobe Workfront lançou a API versão 21 em 23 de outubro de 2025. A API versão 21 apresenta as seguintes alterações da versão 20.
 
