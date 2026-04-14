@@ -8,14 +8,14 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 322a24fabd22ca2b54c020aded33b736a98f4bf5
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 0%
+source-wordcount: '1102'
+ht-degree: 3%
 
 ---
 
-# Configurar o acesso à prova de um usuário
+# Configurar o acesso à revisão de um usuário
 
 Como administrador do Adobe Workfront ou administrador do Workfront Proof, você pode configurar o acesso de um usuário para criar e exibir provas no Workfront e no Workfront Proof.
 
@@ -23,9 +23,9 @@ Para obter informações sobre a funcionalidade de revisão de texto disponível
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,19 +49,6 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
 &#42;Para saber qual plano, tipo de licença ou acesso você tem, contate o administrador do Workfront.
 
 +++
-
-## Habilitar e desabilitar revisões para um usuário (somente planos herdados) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
-
-Se sua organização estiver usando um Select ou Premium Workfront Plan herdado, como administrador do Workfront, você poderá ativar e desativar a funcionalidade de comprovação para o usuário.
-
-Quando você ativa a prova para um usuário, o Workfront ativa a opção para que as provas do usuário sejam geradas automaticamente.
-
-Embora seja possível habilitar um usuário como usuário de comprovação, ele deve ter permissões de Administrador para navegar diretamente para a interface do Workfront Proof no Menu principal do Workfront. Para obter informações sobre como você pode habilitar esta opção para todos os usuários de revisão no sistema Workfront, consulte [Configurar o acesso ao Workfront Proof por meio do Menu Principal do Workfront para todos os usuários](#configure-workfront-proof-access-via-workfront-main-menu-for-all-users).
-
-1. No **Menu principal**, selecione **Usuários**.
-
-1. Selecione um usuário e clique no ícone **Editar**.
-1. Na seção **Acesso**, marque ou desmarque **O usuário pode gerar provas**.
 
 ## Configurar o perfil de permissão de prova de um usuário
 
@@ -90,7 +77,7 @@ O perfil de permissão selecionado é concedido aos usuários para cada prova ex
       <td> <p> Os usuários podem gerenciar e visualizar provas criadas ou próprias na conta da sua organização. Eles podem exibir as provas de outros usuários somente quando adicionados como revisores. Esta é uma configuração padrão. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Administrador</strong> </td> 
+      <td role="rowheader"><strong>Admin</strong> </td> 
       <td> Os usuários recebem permissões de Administrador no Workfront Proof e podem editar configurações da conta. Os usuários podem gerenciar e visualizar todas as provas criadas na conta da sua organização. Isso inclui adicionar e remover revisores, provas e comentários.</td> 
      </tr> 
      <tr> 
