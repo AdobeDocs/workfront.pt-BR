@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
+source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '932'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,6 @@ A análise e a aprovação unificadas reúnem o Adobe Workfront e o Adobe Frame.
 
 Para obter mais informações sobre o Frame.io, consulte [Introdução ao Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
-Você deve ter a integração do Workfront e do Frame.io configurada na instância do Workfront. Para obter mais informações, consulte [Visão geral de revisão e aprovação unificada](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements).
 
 ## Vídeo de visão geral
 
@@ -30,11 +29,7 @@ Você deve ter a integração do Workfront e do Frame.io configurada na instânc
 
 ## Requisitos de integração
 
-* O Workfront e o Frame.io devem ser implantados na mesma organização do Identity Management System (IMS).
-
-* Os usuários podem pertencer a apenas uma instância do Workfront na organização IMS.
-
-* A instância do Workfront deve ser ativada no armazenamento corporativo da Adobe Unified Experience e do Adobe.
+* A instância do Workfront deve ser ativada na Adobe Unified Experience.
 
 ## Iniciação e planejamento do trabalho no Workfront
 
