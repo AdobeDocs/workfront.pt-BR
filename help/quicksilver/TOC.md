@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: eea05bfe350f7d68ccd08ad16f1bb6716cbec6dc
 workflow-type: tm+mt
-source-wordcount: '13922'
+source-wordcount: '13932'
 ht-degree: 97%
 
 ---
@@ -1189,7 +1189,8 @@ ht-degree: 97%
       * Adobe Workfront para Experience Manager Assets e Assets Essentials {#wf-aem-essentials}
          * [Adobe Workfront para Experience Manager Assets e Assets Essentials: índice de artigos](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Visão geral das integrações do Adobe Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-         * [Vincular ativos e pastas do Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+         * [Vincular ativos e pastas ao Supervisor de conteúdo do Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+         * [Vincular ativos e pastas do Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)
          * [Visualizar metadados mapeados do Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
          * [Visualizar ou baixar um ativo vinculado do Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
          * [Enviar um documento para o Experience Manager Assets ou Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
