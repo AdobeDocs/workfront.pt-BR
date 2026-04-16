@@ -6,7 +6,7 @@ description: O widget Minhas aprovações exibe todas as aprovações pendentes,
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
-source-git-commit: 30e27ba5a12733660a88cd7e9643bea868503774
+source-git-commit: bd70f4a92eab8861d87316f5e21b0d7ca7e8c31f
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 16%
@@ -14,8 +14,6 @@ ht-degree: 16%
 ---
 
 # Gerenciar aprovações com o widget Minhas aprovações
-
-{{highlighted-preview}}
 
 O widget Minhas aprovações exibe todas as aprovações pendentes, atribuídas, delegadas e enviadas em um único local. Aqui, você pode filtrar e organizar suas aprovações, tomar decisões e delegar aprovações conforme necessário.
 
@@ -73,10 +71,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >As aprovações atribuídas a funções ou grupos de trabalho não são exibidas na Página inicial. As aprovações atribuídas a equipes são exibidas no widget Minhas aprovações para cada membro da equipe.
 
 
-1. <span class="preview">(Condicional) Clique no menu suspenso **Classificar** e selecione **Mais recentes primeiro** para ver as aprovações adicionadas mais recentemente.</span>
+1. (Condicional) Clique no menu suspenso **Classificar** e selecione **Mais recentes primeiro** para ver as aprovações adicionadas mais recentemente.
 
 
-1. <span class="preview">(Opcional) Clique no ícone Tela cheia ![Ícone de tela cheia](assets/full-screen.png) para abrir o widget Minhas aprovações em tela cheia.</span>
+1. (Opcional) Clique no ícone Tela cheia ![Ícone de tela cheia](assets/full-screen.png) para abrir o widget Minhas aprovações em tela cheia.
 
 1. Selecione o item em que deseja tomar uma decisão de aprovação.
 

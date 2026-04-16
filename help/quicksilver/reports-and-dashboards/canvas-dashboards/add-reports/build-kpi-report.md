@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 10%
@@ -16,8 +16,6 @@ ht-degree: 10%
 ---
 
 # Criar um relatório de KPI em um painel da tela
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -101,13 +99,11 @@ Há muitas opções de configuração disponíveis para criar um relatório de K
       >
       >A descrição será usada como uma legenda abaixo do valor do KPI. Se você não inserir uma descrição, uma legenda será gerada para você com base no agregador e no tipo de agregação selecionados nas etapas a seguir.
 
-   1. <span class="preview">(Opcional) No **Execute este relatório com os direitos de acesso do campo**, comece digitando o nome do usuário cujas permissões você deseja que o relatório use e, em seguida, selecione o usuário quando ele aparecer na lista. Ao configurar um relatório para ser executado como outro usuário, todos os visualizadores do painel visualizam os mesmos dados, independentemente do seu próprio nível de acesso. Se você não selecionar um usuário, cada visualizador verá os dados com base em suas próprias permissões.
+   1. (Opcional) No campo **Executar este relatório com os direitos de acesso de**, comece digitando o nome do usuário cujas permissões você deseja que o relatório use e, em seguida, selecione o usuário quando ele aparecer na lista. Ao configurar um relatório para ser executado como outro usuário, todos os visualizadores do painel visualizam os mesmos dados, independentemente do seu próprio nível de acesso. Se você não selecionar um usuário, cada visualizador verá os dados com base em suas próprias permissões.
 
       >[!IMPORTANT]
       >
       >Se o usuário selecionado estiver desativado ou perder acesso aos espaços de trabalho ou tipos de registro relevantes, o relatório poderá exibir dados incompletos ou não ser renderizado.
-
-</span>
 
 1. Siga as etapas abaixo para configurar a seção **Criar KPI**:
 

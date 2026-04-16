@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 11%
+source-wordcount: '337'
+ht-degree: 14%
 
 ---
 
 # Criar um modelo de fluxo de trabalho de aprovação para documentos
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Na área Configuração do Workfront, os usuários com uma licença Standard podem criar Modelos de aprovação reutilizáveis. Depois de criados, os Modelos de aprovação podem ser aplicados a ativos na área Documentos de um projeto, tarefa ou problema.
 
@@ -49,30 +47,9 @@ Na área Configuração do Workfront, os usuários com uma licença Standard pod
 Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+ß
 
-
-
-
-## Criar um modelo de aprovação no seu ambiente de produção
-
-{{step-1-to-setup}}
-
-1. No painel esquerdo, clique em **Revisar e aprovar** > **Modelos de Aprovação**.
-1. Clique em **Novo modelo** no lado direito da página.
-1. Especifique as seguintes informações:
-
-   | Nome do modelo | Comece a digitar um nome para este modelo. |
-   |----------------------------|---|
-   | **(Opcional) Cronograma** | Insira o período em dias. O prazo de aprovação é calculado a partir desse campo assim que o modelo é aplicado a um ativo. |
-   | **Adicionar aprovadores ou revisores** | Comece a digitar o nome de usuários ou equipes e, em seguida, designe-os como revisores ou aprovadores. |
-
-1. Clique em **Salvar**.
-
-
-
-<div class="preview">
-
-## Criar um modelo de aprovação no seu ambiente de visualização
+## Criar um modelo de aprovação
 
 {{step-1-to-setup}}
 
@@ -116,7 +93,6 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 Depois que o modelo é criado, ele pode ser aplicado a documentos na área Documentos de um projeto, tarefa ou problema para iniciar o processo formal de revisão e aprovação no Workfront.
 
-</div>
 
 
 <!--

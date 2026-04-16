@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 7%
+source-wordcount: '650'
+ht-degree: 10%
 
 ---
 
 # Fazer upload de uma nova versão do documento e solicitar uma aprovação
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Se um documento estiver marcado como &quot;Precisa de trabalho&quot; em uma revisão anterior, você poderá fazer upload de uma nova versão para o documento original e iniciar outra rodada de aprovações. Após carregar uma nova versão do documento, as versões anteriores serão bloqueadas.
 
@@ -64,51 +62,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 +++
 
 
-## Use o arrastar e soltar para adicionar uma nova versão no ambiente de produção
 
->[!NOTE]
->
->Arrastar e soltar não funciona com o Internet Explorer.
-
-
-Se você precisar de outra rodada de revisão e aprovação em um documento, poderá criar uma nova versão do documento no Workfront.
-
-Você pode adicionar os participantes anteriores, novos participantes ou uma combinação de ambos. Você pode exibir informações sobre versões anteriores e participantes na página Detalhes do documento.
-
-Para adicionar uma nova versão:
-
-1. Navegue até o documento no Workfront.
-1. Arraste e solte o novo arquivo sobre o documento anterior. Isso cria uma nova versão automaticamente.
-
-1. Quando o documento terminar de carregar, selecione-o e clique em **Detalhes do Documento**.
-   ![Abrir a página de detalhes do documento](assets/open-doc-details.png)
-
-
-1. No painel esquerdo, clique em **Aprovações** e em **Adicionar**.
-
-1. Para adicionar todos os participantes anteriores, clique em **Adicionar todos**. Você também pode adicionar novos participantes ou remover participantes anteriores, conforme necessário.
-
-
-1. Para adicionar um modelo de aprovação existente, clique no botão Modelo e comece a digitar um nome de modelo.
-
-   >[!TIP]
-   >
-   >   Os usuários com uma licença Standard podem criar Modelos de aprovação reutilizáveis na área Configuração. Para obter mais informações, consulte [Criar um modelo de fluxo de trabalho de aprovação para documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-
-1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
-
-1. Depois de adicionar todos os revisores e aprovadores, clique em **Enviar solicitação**. Os participantes são notificados por email.
-
-   ![enviar nova versão para aprovação](assets/add-previous-participants.png)
-
-
-
-
-
-<div class="preview">
-
-## Use arrastar e soltar para adicionar uma nova versão no ambiente de visualização na área de documentos herdados
+## Usar o recurso arrastar e soltar para adicionar uma nova versão na área de documentos herdados
 
 Se sua organização estiver no armazenamento da Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento da Workfront, consulte [Armazenamento da Workfront vs. armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -175,8 +130,3 @@ Para adicionar uma nova versão:
 
    ![solicitar aprovação](assets/request-approval.png)
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
-
-
-
-</div>
-

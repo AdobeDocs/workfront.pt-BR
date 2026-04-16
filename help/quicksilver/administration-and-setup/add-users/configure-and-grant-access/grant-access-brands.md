@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
-source-git-commit: f74c567505dbdf6b2d1d8a85a62ba40d919be7b3
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 7%
@@ -16,8 +16,6 @@ ht-degree: 7%
 ---
 
 # Conceder acesso às permissões da marca
-
-{{highlighted-preview-article-level}}
 
 Os usuários recebem as permissões de criação, edição e publicação da marca dos gerentes de sistema do Adobe GenStudio quando adicionados a um grupo de usuários.
 

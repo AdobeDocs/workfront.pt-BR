@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 4%
+source-wordcount: '686'
+ht-degree: 6%
 
 ---
 
 # Criar um fluxo de trabalho de aprovação de documento
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Você pode solicitar aprovação de outros usuários ou equipes para um documento no Adobe Workfront ou solicitar que eles revisem um documento sem precisar aprová-lo.
 
@@ -60,51 +58,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-
-## Crie um documento de revisão ou solicitação de aprovação a partir da página de documentos no seu ambiente de produção
-
-1. Passe o mouse sobre o documento e clique em Detalhes do documento.
-   ![Detalhes do documento](assets/doc-details.png)
-
-1. Próximo ao nome do documento, selecione a versão do documento para a qual deseja criar uma aprovação na lista suspensa versão. A versão mais recente é selecionada por padrão.
-
-1. Clique em **Aprovações** no painel esquerdo.
-
-1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
-
-1. Para adicionar um aprovador, clique em **Aprovador** e comece a digitar um nome de usuário ou de equipe.
-
-1. Para adicionar um revisor, clique na caixa de seleção **Revisor** e comece a digitar um nome de usuário ou de equipe.
-
-   ![Adicionar aprovador e prazo final](assets/add-approver-and-deadline.png)
-
-1. Repita a etapa anterior para adicionar aprovadores ou revisores adicionais.
-
-## Crie uma solicitação de revisão ou aprovação de documento a partir do painel Resumo de documentos em seu ambiente de produção
-
-1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
-
-1. Clique no documento necessário e o painel esquerdo Resumo do documento desse documento será aberto.
-
-1. Selecione a versão do documento para a qual você deseja criar uma aprovação na lista suspensa de versões. A versão mais recente é selecionada por padrão.
-
-1. Role para baixo até a seção **Aprovações** no painel Resumo do documento e clique em **Adicionar**.
-
-![Adicionar aprovadores no resumo do documento](assets/doc-summary-add-approvers.png)
-
-1. (Opcional) Defina um prazo para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes do prazo especificado.
-
-1. Para adicionar um aprovador, clique em **Aprovador** e comece a digitar um nome de usuário ou de equipe.
-
-1. Para adicionar um revisor, clique na caixa de seleção **Revisor** e comece a digitar um nome de usuário ou de equipe.
-
-   ![Adicionar aprovador e prazo final](assets/add-approver-and-deadline.png)
-
-1. Repita a etapa anterior para adicionar aprovadores ou revisores adicionais.
-
-<div class="preview">
-
-## Crie um fluxo de trabalho de aprovação por meio do painel Resumo no seu ambiente de visualização na área de documentos herdados
+## Crie um fluxo de trabalho de aprovação por meio do painel Resumo na área de documentos herdados
 
 Se sua organização estiver no armazenamento da Workfront, você verá a área de documentos herdados ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento da Workfront, consulte [Armazenamento da Workfront vs. armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -148,7 +102,6 @@ Para criar um workflow de aprovação:
 
    ![Detalhes do documento](assets/new-stage.png)
 
-</div>
 
 ## Crie um fluxo de trabalho de aprovação por meio do painel Resumo na nova área de documento
 

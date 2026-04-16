@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '1917'
 ht-degree: 7%
@@ -16,9 +16,6 @@ ht-degree: 7%
 ---
 
 # Criar um relatório de gráfico em um painel da tela
-
-{{highlighted-preview}}
-
 
 >[!IMPORTANT]
 >
@@ -105,13 +102,12 @@ Há muitas opções de configuração disponíveis para criar um relatório de g
       >
       >É possível exibir um número máximo de 60 séries em um gráfico. Quando esta caixa estiver marcada, todas as séries acima do limite serão consolidadas em um agrupamento **Outro** no gráfico.
 
-   1. <span class="preview">(Opcional) No **Execute este relatório com os direitos de acesso do campo**, comece digitando o nome do usuário cujas permissões você deseja que o relatório use e, em seguida, selecione o usuário quando ele aparecer na lista. Ao configurar um relatório para ser executado como outro usuário, todos os visualizadores do painel visualizam os mesmos dados, independentemente do seu próprio nível de acesso. Se você não selecionar um usuário, cada visualizador verá os dados com base em suas próprias permissões.
+   1. (Opcional) No campo **Executar este relatório com os direitos de acesso de**, comece digitando o nome do usuário cujas permissões você deseja que o relatório use e, em seguida, selecione o usuário quando ele aparecer na lista. Ao configurar um relatório para ser executado como outro usuário, todos os visualizadores do painel visualizam os mesmos dados, independentemente do seu próprio nível de acesso. Se você não selecionar um usuário, cada visualizador verá os dados com base em suas próprias permissões.
 
       >[!IMPORTANT]
       >
       >Se o usuário selecionado estiver desativado ou perder acesso aos espaços de trabalho ou tipos de registro relevantes, o relatório poderá exibir dados incompletos ou não ser renderizado.
 
-   </span>
 
 1. Escolha o tipo de gráfico que deseja criar:
    * [Gráfico de barras, colunas ou linhas](#bar-column-or-line-chart)
@@ -175,7 +171,7 @@ Há muitas opções de configuração disponíveis para criar um relatório de g
 
 Siga as etapas abaixo para configurar a seção **Filtro**:
 
-1. No painel esquerdo, clique no ícone **Filtro**![&#x200B; Filtro](assets/filter-icon.png).
+1. No painel esquerdo, clique no ícone **Filtro**![ Filtro](assets/filter-icon.png).
 1. Selecione **Editar filtro**.
 1. Clique em **Adicionar condição** e especifique o campo pelo qual deseja filtrar e o modificador que define o tipo de condição que o campo deve atender.
 1. (Opcional) Clique em **Adicionar grupo de filtros** para adicionar outro conjunto de critérios de filtragem. O operador padrão entre os conjuntos é AND. Clique no operador para alterá-lo para OU.
