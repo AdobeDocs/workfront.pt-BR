@@ -8,17 +8,14 @@ feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '592'
 ht-degree: 8%
 
 ---
 
 # Compartilhar um relatório de calendário
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
-
 
 Você pode compartilhar um calendário com outros usuários e disponibilizá-lo publicamente, permitindo que alguém sem uma licença do [!DNL Adobe Workfront] o visualize.
 
@@ -67,7 +64,7 @@ Para compartilhar um calendário dentro de [!DNL Workfront]:
 1. Vá para o calendário que deseja compartilhar.
 1. Clique no menu **Mais** ao lado do nome do calendário e clique em **Compartilhamento**.
    ![menu de calendário a mais](assets/more-menu-calendar.png)
-1. No campo **[!UICONTROL Conceder acesso ao Calendário]**, comece digitando o nome do usuário, da equipe, da função, do grupo, da empresa <span class="preview">ou do perfil comercial</span> que você deseja compartilhar o calendário e, em seguida, clique no nome quando ele for exibido na lista suspensa.\
+1. No campo **[!UICONTROL Conceder acesso ao Calendário]**, comece digitando o nome do usuário, da equipe, da função, do grupo, da empresa ou do perfil comercial que deseja compartilhar o calendário e clique no nome quando ele for exibido na lista suspensa.\
    Para saber mais sobre como configurar permissões, consulte [Visão geral das permissões de compartilhamento em objetos](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Opcional) Repita a etapa 3 para cada usuário, equipe, função ou grupo ao qual deseja conceder acesso ao calendário.

@@ -11,16 +11,14 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
 
 # Visão geral dos perfis empresariais
-
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para clientes específicos.</span>
 
 Os perfis empresariais são um modelo de permissão aprimorado que permite que clientes como agências gerenciem com eficiência o acesso dos usuários e garantam controle preciso sobre permissões no nível do grupo. Em um perfil comercial, os usuários têm permissões distintas para objetos específicos do grupo. Objetos adicionais também podem ser compartilhados diretamente com o perfil comercial.
 

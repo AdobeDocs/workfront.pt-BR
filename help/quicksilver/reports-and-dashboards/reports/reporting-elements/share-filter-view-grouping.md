@@ -8,9 +8,9 @@ feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1172'
 ht-degree: 8%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 8%
 (NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
 (NOTE: This is linked from the TOC article in WF Basics > permissions section)
 -->
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 O administrador do Adobe Workfront concede aos usuários acesso para visualizar ou editar objetos ao atribuir níveis de acesso. Para obter mais informações sobre como conceder acesso a objetos, consulte [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -173,7 +171,7 @@ O compartilhamento de filtros, visualizações e agrupamentos na interface herda
 
 1. Conclua qualquer uma das opções a seguir, dependendo de com quem você deseja compartilhar:
 
-   **Para compartilhar com usuários, equipes, funções, grupos ou empresas individuais:** No campo fornecido, comece a digitar o nome do usuário, equipe, função, grupo, empresa <span class="preview">ou perfil comercial</span> com o qual deseja compartilhar e clique no nome quando ele aparecer na lista suspensa.\
+   **Para compartilhar com usuários, equipes, funções, grupos ou empresas individuais:** No campo fornecido, comece digitando o nome do usuário, equipe, função, grupo, empresa ou perfil comercial com o qual deseja compartilhar e clique no nome quando ele aparecer na lista suspensa.\
    Repita esse processo para compartilhar o acesso com vários usuários, equipes, funções, grupos ou empresas.
 
    >[!TIP]

@@ -8,18 +8,16 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 8%
+source-wordcount: '1600'
+ht-degree: 9%
 
 ---
 
 # Compartilhar um projeto
 
 <!-- Audited: 1/2024 -->
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar projetos ao atribuir seu nível de acesso. Para obter mais informações, consulte [Conceder acesso aos projetos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
@@ -78,7 +76,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
 * Quando você compartilha um projeto, todas as tarefas, problemas e documentos herdam as mesmas permissões, a menos que especificado de outra forma.
 
-  Para obter informações sobre como gerenciar o acesso a tarefas e problemas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
+  Para obter informações sobre como gerenciar o acesso a tarefas e problemas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
 
   O administrador do Workfront pode especificar se os documentos devem herdar permissões de objetos superiores no nível de acesso do usuário. Para obter mais informações sobre como restringir permissões herdadas em documentos, consulte [Criar ou modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -148,7 +146,7 @@ Para obter informações sobre a exibição de permissões herdadas em um objeto
 
    ![Botão Compartilhar projeto](assets/share-project.png)
 
-1. No campo **Conceder acesso ao projeto**, comece digitando o nome do usuário, da equipe, da função, do grupo, da empresa <span class="preview">ou do perfil comercial</span> com o qual deseja compartilhar o projeto e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Conceder acesso ao projeto**, comece digitando o nome do usuário, equipe, função, grupo, empresa ou perfil comercial com o qual deseja compartilhar o projeto e clique no nome quando ele aparecer na lista suspensa.
 
    >[!TIP]
    >
@@ -195,7 +193,7 @@ Para obter informações sobre a exibição de permissões herdadas em um objeto
 
    ![Projetos de compartilhamento em massa](assets/bulk-share-icon.png)
 
-1. No campo **Conceder acesso ao projeto**, comece digitando o nome do usuário, da equipe, da função, do grupo, da empresa <span class="preview">ou do perfil comercial</span> com o qual deseja compartilhar os projetos e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Conceder acesso ao projeto**, comece digitando o nome do usuário, equipe, função, grupo, empresa ou perfil comercial com o qual deseja compartilhar os projetos e clique no nome quando ele aparecer na lista suspensa.
 
    >[!TIP]
    >

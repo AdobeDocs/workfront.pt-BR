@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 5f5a32b9a569221acc3d5f38568bb6a1e609070f
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1556'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 3%
 # Visão geral dos logs de auditoria
 
 <!--Audited: 08/2025-->
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 Como administrador do Adobe Workfront, você pode rastrear as alterações de usuário acionadas no sistema nos últimos 90 dias usando os logs de auditoria descritos abaixo.
 
@@ -68,7 +66,7 @@ Os seguintes campos são registrados em cada entrada do log de auditoria:
 
 * [Nível de Acesso](#access-level)
 * [Perfis comerciais](#business-profiles)
-* <span class="preview">[Regras de negócio](#business-rules)</span>
+* [Regras de negócios](#business-rules)
 * [Empresa](#company)
 * [Condição](#condition)
 * [Campo personalizado](#custom-field)
@@ -102,8 +100,6 @@ O sistema gera uma entrada de log de Nível de acesso quando um usuário executa
      >
      >Por exemplo, se um usuário alterar o tipo de acesso Planejador de Exibir para Editar, o sistema não exibirá as informações contidas no menu suspenso Ajustar as configurações.
 
-<div class="preview">
-
 ### Perfis comerciais
 
 O sistema gera uma entrada de log de auditoria do Perfil de negócios quando um usuário realiza uma das seguintes ações:
@@ -111,8 +107,6 @@ O sistema gera uma entrada de log de auditoria do Perfil de negócios quando um 
 * Cria um perfil de empresa
 * Edita um perfil de empresa:
 * Exclui um perfil de empresa
-
-</div>
 
 ### Regras de negócios
 

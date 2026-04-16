@@ -4,16 +4,14 @@ description: Você pode compartilhar um portfólio com outros usuários se tiver
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 6%
+source-wordcount: '892'
+ht-degree: 7%
 
 ---
 
 # Compartilhar um portfólio
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 O administrador do Adobe Workfront pode conceder acesso para visualizar ou editar portfólios ao atribuir seu nível de acesso. Você deve ter uma licença de Plano para ter acesso para editar um portfólio. Para obter mais informações, consulte [Conceder acesso aos portfólios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -84,7 +82,7 @@ Para obter mais informações sobre a hierarquia de objetos no Workfront, consul
 
    ![Botão Compartilhar portfólio](assets/share-portfolio-button.png)
 
-1. No campo **Conceder acesso ao portfólio para**, comece digitando o nome do usuário, da equipe, da função, do grupo, da empresa <span class="preview">ou do perfil comercial</span> com o qual deseja compartilhar o portfólio e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Conceder acesso ao portfólio para**, comece digitando o nome do usuário, equipe, função, grupo, empresa ou perfil comercial com o qual deseja compartilhar o portfólio e clique no nome quando ele aparecer na lista suspensa.
 
    >[!TIP]
    >
@@ -117,7 +115,7 @@ Para obter mais informações sobre a hierarquia de objetos no Workfront, consul
 
    ![Portfólios de compartilhamento em massa](assets/bulk-share-portfolios.png)
 
-1. No campo **Conceder acesso ao portfólio para**, comece digitando o nome do usuário, equipe, função, grupo, empresa, <span class="preview">ou perfil comercial</span> com o qual deseja compartilhar os portfólios e clique no nome quando ele aparecer na lista suspensa.
+1. No campo **Conceder acesso ao portfólio para**, comece digitando o nome do usuário, equipe, função, grupo, empresa ou perfil comercial com o qual deseja compartilhar os portfólios e clique no nome quando ele aparecer na lista suspensa.
 
    >[!TIP]
    >
@@ -147,24 +145,24 @@ Para obter mais informações sobre a hierarquia de objetos no Workfront, consul
 A tabela a seguir mostra quais permissões você pode conceder aos usuários ao permitir que eles visualizem ou gerenciem uma Portfolio:
 
 | **Ações** | **Gerenciar** | **Exibir** |
-|---|---|---|
-| Editar detalhes do Portfolio | ✓ |   |
+| --- | --- | --- |
+| Editar detalhes do Portfolio | ✓ | |
 | Exibir uma Portfolio | ✓ | ✓ |
-| Excluir uma Portfolio | ✓ |   |
-| Anexar um formulário personalizado | ✓ |   |
-| Editar um campo personalizado | ✓ |   |
-| Adicionar ou remover um programa&#42; | ✓ |   |
-| Adicionar ou remover um projeto&#42; | ✓ |   |
-| Aprovar um projeto | ✓ |   |
-| Otimização do Portfolio&#42; | ✓ |   |
+| Excluir uma Portfolio | ✓ | |
+| Anexar um formulário personalizado | ✓ | |
+| Editar um campo personalizado | ✓ | |
+| Adicionar ou remover um programa&#42; | ✓ | |
+| Adicionar ou remover um projeto&#42; | ✓ | |
+| Aprovar um projeto | ✓ | |
+| Otimização do Portfolio&#42; | ✓ | |
 | Adicionar uma pasta de documentos&#42; | ✓ | ✓ |
 | Adicionar um documento | ✓ | ✓ |
 | Atualizações/comentários | ✓ | ✓ |
 | Compartilhar | ✓ | ✓ |
-| Compartilhar em todo o sistema |   | ✓ |
-| Editar taxas de cobrança&#42; | ✓ |   |
-| Editar taxas de custo&#42; | ✓ |   |
-| Editar finanças gerais&#42; | ✓ |   |
+| Compartilhar em todo o sistema | | ✓ |
+| Editar taxas de cobrança&#42; | ✓ | |
+| Editar taxas de custo&#42; | ✓ | |
+| Editar finanças gerais&#42; | ✓ | |
 | Exibir taxas de cobrança&#42; | ✓ | ✓ |
 | Exibir taxas de custo&#42; | ✓ | ✓ |
 | Exibir finanças gerais&#42; | ✓ | ✓ |

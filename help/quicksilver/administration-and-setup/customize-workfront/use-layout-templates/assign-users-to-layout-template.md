@@ -10,16 +10,14 @@ role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '938'
 ht-degree: 4%
 
 ---
 
 # Atribuir usuários a um modelo de layout
-
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização da Sandbox.</span>
 
 É possível atribuir um modelo de layout criado a qualquer usuário, função de trabalho, equipe ou grupo que precise usá-lo.
 
@@ -33,7 +31,7 @@ Para obter mais informações sobre modelos de layout, consulte [Modelos de layo
 
 Para obter informações sobre modelos de layout para grupos, consulte [Criar e modificar modelos de layout de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-<span class="preview">Para obter informações sobre modelos de layout e perfis comerciais, consulte [Visão geral dos perfis comerciais](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
+Para obter informações sobre modelos de layout e perfis comerciais, consulte [Visão geral dos perfis comerciais](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
 ## Requisitos de acesso
 
@@ -74,13 +72,13 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >Quando estiver satisfeito com seu modelo de layout, recomendamos testá-lo, conforme descrito em [Testar um novo modelo de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
 
 1. Clique em **Atribuir a item a** na seção superior da página.
-1. Na caixa exibida, clique em **Adicionar um usuário, função de trabalho, equipe, grupo, <span class="preview">ou nível de acesso</span>**, comece digitando o nome de um usuário, função de trabalho, equipe, grupo, <span class="preview">ou nível de acesso</span> e, em seguida, clique no nome quando ele aparecer no menu suspenso.
+1. Na caixa exibida, clique em **Adicionar usuário, função de trabalho, equipe, grupo ou nível de acesso**, comece a digitar o nome de um usuário, função de trabalho, equipe, grupo ou nível de acesso e, em seguida, clique no nome quando ele aparecer no menu suspenso.
 
    Os nomes adicionados recentemente são exibidos com um plano de fundo azul. Isso é útil ao editar um modelo de layout existente, pois é possível distinguir os nomes que você acabou de adicionar daqueles que já estavam na lista.
 
-   Um ícone Informações ![ícone Informações](assets/info-icon.png) é exibido à direita do nome de qualquer usuário, função de trabalho, equipe, grupo, <span class="preview">ou nível de acesso</span> que já esteja atribuído a outro modelo de layout. Você pode passar o mouse sobre o ícone para ver o nome desse modelo de layout e decidir se deseja sobrepor a atribuição existente.
+   Um ícone Informações ![ícone Informações](assets/info-icon.png) é exibido à direita do nome de qualquer usuário, função de trabalho, equipe, grupo ou nível de acesso que já esteja atribuído a outro modelo de layout. Você pode passar o mouse sobre o ícone para ver o nome desse modelo de layout e decidir se deseja sobrepor a atribuição existente.
 
-1. Repita as duas etapas anteriores para atribuir o modelo de layout a outros usuários, funções de trabalho, equipes, grupo, <span class="preview">ou nível de acesso</span>, conforme necessário.
+1. Repita as duas etapas anteriores para atribuir o modelo de layout a outros usuários, funções de trabalho, equipes, grupo ou nível de acesso, conforme necessário.
 
    É possível atribuir até 100 usuários de cada vez.
 
@@ -96,7 +94,7 @@ Você e outros administradores do Workfront podem atribuir vários modelos de la
 * Para uma função de trabalho específica, o usuário tem
 * Para uma determinada equipe da qual o usuário faz parte
 * Para um determinado grupo em que o usuário está
-* <span class="preview">Para um determinado nível de acesso, o usuário é atribuído</span>
+* Para um determinado nível de acesso ao qual o usuário está atribuído
 
 No entanto, somente um modelo de layout fica visível para o usuário em um determinado momento. O modelo visível é determinado pela seguinte hierarquia de prioridade:
 
@@ -113,7 +111,7 @@ No entanto, somente um modelo de layout fica visível para o usuário em um dete
 
   Somente o modelo atribuído ao Grupo inicial de um usuário é visível para o usuário. Os modelos atribuídos a qualquer um de seus outros grupos não estão visíveis.
 
-* <span class="preview"> Nível de acesso: se não for atribuído um modelo de layout à pessoa como usuário individual, como usuário com função de trabalho primária, como membro de uma Equipe da página inicial ou como membro de um Grupo da página inicial, ela verá o modelo atribuído ao seu nível de acesso.</span>
+* Nível de acesso: se não for atribuído um modelo de layout à pessoa como usuário individual, como usuário com função de trabalho principal, como membro de uma Equipe da página inicial ou como membro de um Grupo da página inicial, ela verá o modelo atribuído ao seu nível de acesso.
 
 ## Grande número de usuários atribuídos a um modelo de layout
 

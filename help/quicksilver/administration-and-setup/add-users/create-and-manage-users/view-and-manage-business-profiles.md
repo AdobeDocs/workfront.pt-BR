@@ -11,16 +11,14 @@ role: Admin
 exl-id: 2227cdb7-909c-429d-a078-4f508157a679
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 19%
+source-wordcount: '200'
+ht-degree: 22%
 
 ---
 
 # Exibir e gerenciar perfis empresariais
-
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ele está disponível somente no ambiente de Pré-visualização para clientes específicos.</span>
 
 Para atribuir um perfil de negócios a um usuário, você deve atribuir um grupo e um nível de acesso associado.
 

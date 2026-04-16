@@ -10,32 +10,19 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1823'
-ht-degree: 5%
+source-wordcount: '1864'
+ht-degree: 4%
 
 ---
 
 # Criar e editar regras de negócios
 
-<!--
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
--->
-
 Uma regra de negócios permite aplicar validação a objetos do Workfront e impede que os usuários criem, editem ou excluam um objeto quando determinadas condições forem atendidas. A validação da regra de negócios ajuda a melhorar a qualidade dos dados e a eficiência operacional, evitando ações que podem comprometer a integridade dos dados.
 
-<!--
+As organizações que têm o pacote Ultimate de fluxo de trabalho também podem configurar regras de negócios para automatizar ações para o objeto criado, editado ou modificado quando determinadas condições forem atendidas. As ações disponíveis incluem compartilhar o objeto ou anexar um formulário personalizado ao objeto.
 
-<div class="preview">
-
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
-
-</div>
-
--->
 
 Uma única regra de negócios pode ser atribuída a apenas um objeto. Por exemplo, se você criar uma regra de negócios para não editar projetos sob determinadas condições, não poderá aplicar a mesma regra a tarefas. Seria necessário criar uma regra de negócios separada com as mesmas condições para tarefas.
 
@@ -91,7 +78,7 @@ O formato de uma validação de regra de negócios é &quot;Se a condição defi
 
 A sintaxe das propriedades e outras funções em uma regra de negócios é igual à sintaxe de um campo calculado em um formulário personalizado. Para obter mais informações sobre a sintaxe, consulte [Adicionar campos calculados com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Para obter informações sobre instruções IF, consulte a [&#x200B; visão geral das instruções &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e os [Operadores de condição em campos personalizados calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Para obter informações sobre instruções IF, consulte a [ visão geral das instruções &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e os [Operadores de condição em campos personalizados calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Para obter informações sobre curingas baseados no usuário, consulte [Usar curingas baseados no usuário para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -261,7 +248,7 @@ IF({status} = "APR", true)
    * O &quot;objeto&quot; é o tipo de objeto selecionado ao criar a regra de negócios. Ele é exibido no cabeçalho da caixa de diálogo.
    * A &quot;ação&quot; é o acionador selecionado para a regra: criar, editar ou excluir o objeto.
    * Como o objeto e a ação já estão definidos, você não os inclui na fórmula.
-   * A mensagem de erro personalizada <span class="preview"> é incluída somente se a regra for para validação e </span> for exibida ao usuário quando ele acionar a regra de negócios. Ele deve fornecer instruções claras sobre o que deu errado e como corrigir o problema.
+   * A mensagem de erro personalizada é incluída somente se a regra for para validação e é exibida ao usuário quando ele aciona a regra de negócios. Ele deve fornecer instruções claras sobre o que deu errado e como corrigir o problema.
 
      É possível incluir um URL estático na mensagem de erro, um link para a documentação ou outras páginas úteis para orientar o usuário sobre como modificar sua ação dentro da restrição da regra.
 
@@ -283,21 +270,19 @@ IF({status} = "APR", true)
 
    Para outros pacotes, essa opção é pré-selecionada.
 
-1. <span class="preview">(Condicional) Para automatizar outra ação, selecione a ação. </span>
+1. (Condicional) Para automatizar outra ação, selecione a ação.
 
-   <span class="preview">Para obter detalhes sobre essas ações, consulte a seção [Opções de automação de regra de negócios](#business-rule-automation-options) neste artigo.</span>
+   Para obter detalhes sobre essas ações, consulte a seção [Opções de automação de regra de negócios](#business-rule-automation-options) neste artigo.
 
    >[!NOTE]
    >
-   ><span class="preview">Sua organização deve estar no pacote Ultimate de Fluxo de Trabalho para usar ações além da validação. Se você não vir essas outras opções, sua organização não estará no pacote Workflow Ultimate.</span>
+   >Sua organização deve estar no pacote Ultimate de fluxo de trabalho para usar ações além da validação. Se você não vir essas outras opções, sua organização não estará no pacote Workflow Ultimate.
 
 1. Clique em **Salvar** quando terminar de criar a regra de negócios.
 
 >[!NOTE]
 >
 >Após adicionar uma regra de negócios, você deverá testá-la adicionando, editando ou excluindo o objeto associado para garantir que a regra seja aplicada corretamente.
-
-<div class="preview">
 
 ### Opções de automação da regra de negócios
 
@@ -311,8 +296,6 @@ IF({status} = "APR", true)
 |---|---|
 | Anexar um formulário personalizado | Selecione o formulário personalizado que deseja adicionar |
 | Compartilhar o objeto | Selecione as pessoas, funções, grupos, empresas ou níveis de acesso com os quais você deseja compartilhar o objeto. |
-
-</div>
 
 ## Ativar uma regra de negócios
 
