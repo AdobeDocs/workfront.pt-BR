@@ -6,9 +6,9 @@ description: As finanças são calculadas em um projeto à medida que ocorrem al
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1632'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ As finanças são calculadas em um projeto à medida que ocorrem alterações na
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td>Gerenciar permissões do projeto com permissões para Gerenciar Finanças</td> 
+   <td>Gerenciar permissões para o projeto com permissões para Editar taxas de custo, Editar taxas de cobrança e Editar finanças gerais</td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,21 +79,24 @@ Quando os dados financeiros de um projeto são recalculados, o Workfront recalcu
 
 As taxas de receita podem mudar durante a vida útil de um projeto.
 
-Para obter mais informações sobre taxas de cobrança e receita, consulte o artigo [Visão Geral de Faturamento e Receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Para obter mais informações sobre taxas de cobrança e receita, consulte [Visão Geral de Faturamento e Receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 As taxas de receita podem mudar nos seguintes níveis:
 
 * O nível do sistema (para funções de trabalho)\
-  Para obter mais informações sobre como criar funções de trabalho com taxas de cobrança no nível do sistema, consulte o artigo [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Para obter mais informações sobre como criar funções de trabalho com taxas de cobrança no nível do sistema, consulte [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * O nível de usuário\
-  Para obter mais informações sobre como alterar as informações de taxa de cobrança dos usuários, consulte o artigo [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Para obter mais informações sobre como alterar as informações de taxa de cobrança dos usuários, consulte [Editar perfil de um usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* O nível da Empresa (para funções de trabalho)\
+* O nível da empresa (para funções de trabalho)\
   Para obter mais informações, consulte [Substituir taxas de cobrança de função de trabalho no nível da empresa](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
-* O nível do projeto (para funções de trabalho)\
-  Para obter mais informações sobre substituição de taxas de função de trabalho no nível do projeto, consulte o artigo [Visão geral da substituição de taxas de cobrança e cálculo de receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+* O nível do cartão de taxa
+Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+
+* O nível do projeto (para funções de trabalho, usuários e cartões de taxa)\
+  Para obter mais informações sobre substituição de taxas no nível do projeto, consulte [Visão geral da substituição de taxas de cobrança e cálculo de receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 Por exemplo, a taxa de faturamento de um usuário muda durante o curso de um projeto de US$ 50 para US$ 75 por hora e você deseja que todos os dados existentes permaneçam calculados na taxa antiga (US$ 50 e hora). No entanto, quando as finanças do projeto são recalculadas, as tarefas que já têm dados financeiros existentes terão a receita atualizada para refletir a nova taxa de cobrança (de US$ 75 por hora).
 
@@ -106,13 +109,13 @@ Quando as taxas de faturamento são alteradas em qualquer nível mencionado acim
 
 Quando você não recalcula as finanças do projeto ou quando bloqueia as horas registradas em um registro de cobrança faturado, as horas registradas após as alterações de taxa serão calculadas com a nova taxa e as horas registradas antes das alterações de taxa de custo permanecerão calculadas na taxa antiga.
 
-Para obter mais informações sobre como criar registros de cobrança, consulte o artigo [Criar registros de cobrança](../../../manage-work/projects/project-finances/create-billing-records.md).
+Para obter mais informações sobre como criar registros de cobrança, consulte [Criar registros de cobrança](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 #### Preservar Receita do Projeto usando várias sobreposições de Taxa de Faturamento {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
 Quando as taxas de faturamento são alteradas para funções de trabalho no nível do projeto, é possível preservar a receita existente que já foi calculada no projeto usando várias sobreposições de taxas de faturamento que estão bloqueadas em um intervalo de tempo especificado.
 
-Para obter mais informações sobre o uso de substituições de várias taxas de cobrança, consulte o artigo [Visão geral da substituição de taxas de cobrança e cálculo de receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Para obter mais informações sobre o uso de várias substituições de taxas de cobrança, consulte [Visão geral da substituição de taxas de cobrança e cálculo de receita em um projeto](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >
@@ -123,12 +126,15 @@ Para obter mais informações sobre o uso de substituições de várias taxas de
 As taxas de custo podem mudar nos seguintes níveis:
 
 * Nível do sistema (para funções de trabalho)\
-  Para obter mais informações sobre como criar funções de trabalho com taxas de custo no nível do sistema, consulte o artigo [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Para obter mais informações sobre como criar funções de trabalho com taxas de custo no nível do sistema, consulte [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Nível do usuário\
-  Para obter mais informações sobre como alterar as informações de taxa de custo dos usuários, consulte o artigo [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Para obter mais informações sobre como alterar as informações de taxa de custo dos usuários, consulte [Editar perfil de usuário](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Quando as taxas de faturamento são alteradas em qualquer nível mencionado acima, é possível preservar os custos existentes que já foram calculados no projeto, bloqueando o tempo registrado no projeto e calculado usando a taxa antiga em um registro de faturamento com status Faturado. Para obter mais informações sobre como criar registros de cobrança, consulte o artigo [Criar registros de cobrança](../../../manage-work/projects/project-finances/create-billing-records.md).
+* Nível do projeto (para usuários)
+Para obter mais informações sobre como substituir taxas de custo de usuário, consulte [Substituir taxas de custo de usuário no nível do projeto](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
+
+Quando as taxas de faturamento são alteradas em qualquer nível mencionado acima, é possível preservar os custos existentes que já foram calculados no projeto, bloqueando o tempo registrado no projeto e calculado usando a taxa antiga em um registro de faturamento com status Faturado. Para obter mais informações sobre como criar registros de cobrança, consulte [Criar registros de cobrança](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 Você também pode evitar o uso da opção manual Recalcular Finanças se não quiser criar um registro de cobrança, conforme descrito na seção [Recalcular manualmente as finanças de um projeto](#manually-recalculate-finances-for-a-project) deste artigo.
 
@@ -148,13 +154,13 @@ Você pode recalcular as finanças enquanto as edita em massa. Para obter inform
 
 1. Vá para o projeto onde deseja recalcular as finanças e clique no ícone **Mais** ![Mais menu](assets/qs-more-icon-on-an-object.png) à direita do nome do projeto.
 
-   ![Lista suspensa de mais níveis de projeto](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Lista suspensa de mais níveis de projeto](assets/project-level-more-dropdown.png)
 
    Ou
 
    Vá para uma lista de projetos ou relatório, selecione um ou vários projetos e clique no ícone **Mais** ![Mais menu](assets/qs-more-icon-on-an-object.png) na parte superior da lista.
 
-   ![Recalcular expressões](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalcular finanças](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >
@@ -180,7 +186,7 @@ Para recalcular manualmente as finanças de vários projetos:
 1. Ir para uma lista de projetos.
 1. Selecione vários projetos na lista e clique no ícone **Mais**, ![Mais menu](assets/qs-more-icon-on-an-object.png), na parte superior da lista.
 
-   ![Recalcular expressões](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Recalcular finanças](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >

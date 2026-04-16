@@ -8,16 +8,14 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '560'
 ht-degree: 17%
 
 ---
 
 # Compartilhar permissões financeiras em um objeto
-
-{{highlighted-preview}}
 
 O administrador do Adobe Workfront pode conceder acesso para exibir ou editar dados financeiros ao atribuir seu nível de acesso. Para obter mais informações, consulte [Conceder acesso a dados financeiros](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -80,8 +78,7 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões ou permissões superiores para projetos, tarefas e problemas que incluam pelo menos permissões de Exibir Finanças</p>
-   <p><span class="preview">Exibir permissões ou permissões superiores para projetos, tarefas e problemas que incluam pelo menos Exibir taxas de faturamento, Exibir taxas de custo ou Exibir permissões financeiras gerais</span></p></td> 
+   <td> Exibir permissões ou permissões superiores para projetos, tarefas e problemas que incluam pelo menos Exibir taxas de faturamento, Exibir taxas de custo e Exibir permissões financeiras gerais</td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,6 +93,7 @@ Considere o seguinte ao conceder permissões financeiras a objetos:
 
 * Você pode conceder permissões financeiras a projetos, tarefas e problemas.
 * As permissões podem ser herdadas: se você tiver permissões do View General Finance para um projeto, herdará automaticamente permissões do View General Finance para as tarefas e problemas no projeto.
+* A concessão de permissões para taxas de faturamento e custo permite que o usuário visualize ou edite as taxas nesse objeto. As permissões para finanças gerais permitem que o usuário visualize ou edite campos financeiros gerais (não relacionados a taxas de faturamento ou custo) no objeto.
 
 Para conceder permissões financeiras a um objeto:
 
@@ -116,10 +114,8 @@ Para conceder permissões financeiras a um objeto:
 
 1. No mesmo menu suspenso, clique no ícone opções avançadas ao lado do nível de permissão e siga um destes procedimentos:
 
-   * Se você selecionou uma das três opções na etapa anterior, verifique se **Exibir Finanças** está selecionado.
-   * Se você selecionou **Gerenciar Finanças** na etapa anterior, verifique se **Gerenciar Finanças** está selecionado.
-   * <span class="preview">Para qualquer nível de permissão, selecione **Exibir taxas de cobrança**, **Exibir taxas de custo** e **Exibir finanças gerais** conforme necessário.</span>
-   * <span class="preview">Somente para permissões de **Gerenciar**, selecione **Editar taxas de cobrança**, **Editar taxas de custo** e **Editar finanças gerais** conforme necessário.</span>
+   * Para qualquer nível de permissão, selecione **Exibir taxas de cobrança**, **Exibir taxas de custo** e **Exibir finanças gerais**, conforme necessário.
+   * Somente para permissões de **Gerenciar**, selecione **Editar taxas de cobrança**, **Editar taxas de custo** e **Editar finanças gerais**, conforme necessário.
 
 1. Clique em **Salvar**.
 
@@ -148,55 +144,37 @@ A tabela a seguir mostra quais permissões financeiras os usuários obtêm ao co
    <td>  </td> 
   </tr> 
   <tr> 
-   <td>Gerenciar/visualizar taxas de custo e cobrança de função</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>Gerenciar/visualizar taxas de custo e cobrança de usuário</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>Exibir finanças</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>  ✓</td> 
-  </tr>
-  <tr> 
-   <td><span class="preview">Editar taxas de faturamento</span></td> 
+   <td>Editar taxas de faturamento</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Editar taxas de custo</span></td> 
+   <td>Editar taxas de custo</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>  
   <tr> 
-   <td><span class="preview">Editar finanças gerais</span></td> 
+   <td>Editar finanças gerais</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>
   <tr> 
-   <td><span class="preview">Exibir taxas de faturamento</span></td> 
+   <td>Exibir taxas de faturamento</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Exibir taxas de custo</span></td> 
+   <td>Exibir taxas de custo</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr>  
   <tr> 
-   <td><span class="preview">Exibir finanças gerais</span></td> 
+   <td>Exibir finanças gerais</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
@@ -225,3 +203,21 @@ A tabela a seguir mostra quais permissões financeiras os usuários obtêm ao co
 &#42;Requer acesso adicional ao Gerenciamento de Recursos.
 
 Para obter informações sobre o acesso de Gerenciamento de Recursos, consulte [Conceder acesso ao Gerenciamento de Recursos](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+
+<!--
+These rows removed from last table.
+
+  <tr> 
+   <td>Manage/ View Role Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Manage/ View User Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+
+-->

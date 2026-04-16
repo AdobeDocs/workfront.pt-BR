@@ -4,10 +4,10 @@ description: Você pode compartilhar um portfólio com outros usuários se tiver
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 7%
+source-wordcount: '914'
+ht-degree: 6%
 
 ---
 
@@ -162,5 +162,11 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
 | Atualizações/comentários | ✓ | ✓ |
 | Compartilhar | ✓ | ✓ |
 | Compartilhar em todo o sistema |   | ✓ |
+| Editar taxas de cobrança&#42; | ✓ |   |
+| Editar taxas de custo&#42; | ✓ |   |
+| Editar finanças gerais&#42; | ✓ |   |
+| Exibir taxas de cobrança&#42; | ✓ | ✓ |
+| Exibir taxas de custo&#42; | ✓ | ✓ |
+| Exibir finanças gerais&#42; | ✓ | ✓ |
 
 *Essas permissões são controladas pelo nível de acesso e permissões em outros objetos, como projetos, programas e documentos.

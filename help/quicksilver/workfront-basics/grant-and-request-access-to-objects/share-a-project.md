@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1622'
 ht-degree: 8%
 
 ---
@@ -78,7 +78,7 @@ Além das considerações abaixo, consulte também [Visão geral das permissões
 
 * Quando você compartilha um projeto, todas as tarefas, problemas e documentos herdam as mesmas permissões, a menos que especificado de outra forma.
 
-  Para obter informações sobre como gerenciar o acesso a tarefas e problemas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
+  Para obter informações sobre como gerenciar o acesso a tarefas e problemas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
 
   O administrador do Workfront pode especificar se os documentos devem herdar permissões de objetos superiores no nível de acesso do usuário. Para obter mais informações sobre como restringir permissões herdadas em documentos, consulte [Criar ou modificar níveis de acesso personalizados](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -388,11 +388,23 @@ A tabela a seguir lista as permissões que os usuários podem conceder ao compar
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Gerenciar finanças*</p> </td> 
+   <td> <p>Editar taxas de cobrança*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>  </p> </td> 
    <td> <p>  </p> </td> 
   </tr> 
+  <tr> 
+   <td> <p>Editar taxas de custo*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Editar finanças gerais*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
   <tr> 
    <td> <p>Adicionar/ Editar Despesas*</p> </td> 
    <td> <p>✓</p> </td> 
@@ -400,7 +412,19 @@ A tabela a seguir lista as permissões que os usuários podem conceder ao compar
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Exibir finanças*</p> </td> 
+   <td> <p>Ver taxas de cobrança*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Exibir taxas de custo*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Exibir Finanças Gerais*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 

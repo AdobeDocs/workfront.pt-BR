@@ -6,10 +6,10 @@ description: É possível exibir ou editar as informações financeiras de um pr
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 4%
+source-wordcount: '1277'
+ht-degree: 6%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Exibir permissões para um projeto ou superior que incluem permissões de Finanças de Exibição</p> <p>Gerenciar permissões para o projeto que incluem Gerenciar Finanças para editar informações financeiras do projeto</p> </td> 
+   <td> <p>Exibir permissões para um projeto ou superior que incluam permissões para Exibir Finanças Gerais</p> <p>Gerenciar permissões para o projeto que incluem Editar Finanças Gerais para editar informações financeiras do projeto</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,14 +128,6 @@ Considere o seguinte ao exibir ou editar informações na área Financeira:
      <tr> 
       <td role="rowheader">Receita Faturada</td> 
       <td> <p>Receita cobrada de clientes ou outras partes capturada nos Registros de cobrança. Para obter mais informações sobre registros de cobrança, consulte o artigo <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Criar registros de cobrança</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
      </tr> 
     </tbody> 
    </table>

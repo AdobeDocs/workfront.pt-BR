@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Sobrepor Taxas de Cobrança no Nível do Projeto com Taxas de Cobrança no Nível da Empresa
-description: Sobrepor Taxas de Cobrança no Nível do Projeto com Taxas de Cobrança no Nível da Empresa
+title: Substituir as taxas de faturamento no nível do projeto pelas taxas de faturamento no nível da empresa
+description: Substituir as taxas de faturamento no nível do projeto pelas taxas de faturamento no nível da empresa
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 1%
+source-wordcount: '457'
+ht-degree: 14%
 
 ---
 
-# Sobrepor Taxas de Cobrança no Nível do Projeto com Taxas de Cobrança no Nível da Empresa
+# Substituir as taxas de faturamento no nível do projeto pelas taxas de faturamento no nível da empresa
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
@@ -23,7 +23,7 @@ Você pode configurar um projeto para usar taxas de cobrança no nível da empre
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Você pode configurar um projeto para usar taxas de cobrança no nível da empre
   <tr> 
    <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Você pode configurar um projeto para usar taxas de cobrança no nível da empre
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td>Gerenciar permissões do projeto com permissões para Gerenciar Finanças</td> 
+   <td>Gerenciar permissões para o projeto com permissões para Editar Taxas de Cobrança e Finanças Gerais</td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,7 +93,7 @@ Depois que você ativou a opção de substituição de taxas de cobrança no ní
 
       1. Ir para uma lista de projetos.
       1. Marque a caixa de seleção de acordo com os projetos que deseja atualizar.
-      1. Clique em **Editar**.
+      1. Clique em **Edit**.
       1. Na seção Configurações, habilite a opção **Recalcular Custos e Receitas**.
       1. Clique em **Salvar alterações**.
 

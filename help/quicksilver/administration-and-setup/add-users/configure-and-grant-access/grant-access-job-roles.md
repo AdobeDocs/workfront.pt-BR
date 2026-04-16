@@ -1,20 +1,18 @@
 ---
 title: Conceder acesso a funções de trabalho
 description: Como administrador do Adobe Workfront, você pode definir o acesso de um usuário a funções de trabalho no Workfront por meio de seu nível de acesso.
-author: Becky and Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5ba79da-37f3-43f8-a7e2-4ccd75b56fef
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 12%
+source-wordcount: '379'
+ht-degree: 11%
 
 ---
 
 # Conceder acesso a funções de trabalho
-
-{{highlighted-preview-article-level}}
 
 Como administrador do Adobe Workfront, você pode definir o acesso de um usuário às funções de trabalho por meio do nível de acesso do usuário, conforme explicado na [Visão geral dos níveis de acesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
@@ -59,14 +57,20 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
    ![Ajustar o acesso às funções de trabalho](assets/job-role-access-view-fine-tune.png)
 
-   Os usuários com acesso de **Visualização** podem visualizar funções de trabalho existentes e, opcionalmente, visualizar taxas de cobrança de funções de trabalho, taxas de custo e finanças gerais.
+   Os usuários com acesso de **Visualização** podem visualizar funções de trabalho existentes e, opcionalmente, fazer o seguinte:
+
+   * Exibir taxas de cobrança em funções de trabalho
+   * Exibir taxas de custo em funções de trabalho
+   * Exibir campos de finanças gerais (não relacionados a taxas de faturamento ou custo) em funções de trabalho
 
    Os usuários com acesso de **Edição** podem exibir e editar funções de trabalho existentes e, opcionalmente, fazer o seguinte:
 
    * Criar novas funções de trabalho
    * Excluir funções de trabalho
-   * Exibir taxas de cobrança de função de trabalho, taxas de custo e finanças gerais
-   * Editar taxas de faturamento de função de trabalho, taxas de custo e finanças gerais
+   * Editar taxas de cobrança em funções de trabalho
+   * Editar taxas de custo em funções de trabalho
+   * Editar campos de finanças gerais (não relacionados a taxas de faturamento ou custo) em funções de trabalho
+   * Exibir taxas de cobrança de função de trabalho, taxas de custo e campos financeiros gerais
 
 1. (Opcional) Para definir as configurações de acesso para outros objetos e áreas no nível de acesso em que você está trabalhando, continue com um dos artigos listados em [Configurar acesso ao Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), como [Conceder acesso às tarefas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 1. Quando terminar, clique em **Salvar**.

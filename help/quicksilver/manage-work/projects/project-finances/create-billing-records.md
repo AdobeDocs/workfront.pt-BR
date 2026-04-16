@@ -5,9 +5,9 @@ description: Além de configurar as despesas de rastreamento e receita, você po
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1637'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ Não é possível criar registros de cobrança para tarefas; você só pode cria
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td>Gerenciar permissões do projeto com permissões para Gerenciar Finanças</td> 
+   <td>Gerenciar permissões para o projeto com permissões para Editar Taxas de Cobrança e Finanças Gerais</td> 
   </tr> 
  </tbody> 
 </table>

@@ -2,22 +2,20 @@
 product-area: projects
 navigation-topic: financials
 title: Substituir Taxas de Cobrança de Função de Trabalho no Nível do Projeto
-description: Como gerente de projeto, você pode especificar a taxa de faturamento de uma função de trabalho em um projeto específico. Essa taxa de cobrança no nível do projeto substitui a taxa de cobrança no nível do sistema para essa função de trabalho. O Workfront usa a taxa de cobrança no nível do projeto da função de trabalho para calcular a receita, em vez de usar a taxa de cobrança no nível do sistema.
+description: Este artigo descreve como você pode substituir as taxas de faturamento de função de trabalho do sistema para um projeto.
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '808'
 ht-degree: 6%
 
 ---
 
 # Substituir as taxas de faturamento das funções de trabalho no nível do projeto
-
-{{highlighted-preview}}
 
 Como gerente de projeto, você pode especificar a taxa de faturamento de uma função de trabalho em um projeto específico. Essa taxa de cobrança no nível do projeto substitui a taxa de cobrança no nível do sistema para essa função de trabalho. O Workfront usa a taxa de cobrança no nível do projeto da função de trabalho para calcular a receita, em vez de usar a taxa de cobrança no nível do sistema.
 
@@ -56,7 +54,7 @@ Para obter mais informações sobre qual função de trabalho é usada para calc
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td>Gerenciar permissões para o projeto que inclui Editar Dados Financeiros </td> 
+   <td>Gerenciar permissões para o projeto que inclui Editar Taxas de Cobrança </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,21 +80,17 @@ Para sobrepor uma taxa de faturamento para um projeto:
 
    Ou
 
-   <span class="preview">Clique em **Taxas** no painel esquerdo e clique na guia **Faturamento** se ela ainda não estiver selecionada.</span>
+   Clique em **Taxas** no painel esquerdo e clique na guia **Faturamento** se ela ainda não estiver selecionada.
 
-1. Clique em **Adicionar Taxa de Cobrança** > **Nova Taxa de Cobrança**.
-
-   Ou
-
-   <span class="preview">Clique em **Adicionar taxa de cobrança > Nova taxa de cobrança de função de trabalho**.</span>
+1. Clique em **Adicionar taxa de cobrança > Nova taxa de cobrança de função de trabalho**.
 
    A caixa Nova taxa de cobrança é aberta.
 
 1. No campo **Função de trabalho**, selecione a função de trabalho para a qual deseja alterar a taxa de cobrança.
 
-1. <span class="preview">(Opcional) Selecione atributos para a taxa de cobrança, como agência ou local.</span>
+1. (Opcional) Selecione quaisquer atributos para a taxa de faturamento, como agência ou local.
 
-   <span class="preview">O administrador do sistema define atributos de taxa na área Instalação.</span>
+   O administrador do sistema define atributos de taxa na área Configuração.
 
 1. Selecione a **Moeda** para a substituição da taxa de cobrança.
 1. No campo **Taxa de Cobrança**, insira a substituição de taxa de cobrança e clique em **Salvar** para substituir a taxa de cobrança uma vez

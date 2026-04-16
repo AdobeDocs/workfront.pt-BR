@@ -6,10 +6,10 @@ description: Como admin do Adobe Workfront, você pode conceder aos usuários ac
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 15%
+source-wordcount: '611'
+ht-degree: 19%
 
 ---
 
@@ -147,6 +147,36 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
    <td>  </td> 
    <td>✓</td> 
   </tr> 
+  <tr> 
+   <td>Exibir taxas de faturamento</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Exibir taxas de custo</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Exibir informações financeiras gerais</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Editar taxas de faturamento</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Editar taxas de custo</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
+  <tr> 
+   <td>Editar finanças gerais</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
   <tr data-mc-conditions=""> 
    <td> <p>Adicionar documentos</p> <p>Dica: às vezes, as pessoas adicionam documentos a um modelo de projeto pensando que estão adicionando a um projeto. Você pode evitar isso para os seus destinatários desativando essa configuração.</p> </td> 
    <td>  </td> 

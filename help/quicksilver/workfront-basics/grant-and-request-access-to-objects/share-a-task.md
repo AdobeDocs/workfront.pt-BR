@@ -6,9 +6,9 @@ description: O administrador do Adobe Workfront pode conceder acesso para exibir
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1244'
 ht-degree: 10%
 
 ---
@@ -90,7 +90,7 @@ Você pode compartilhar uma tarefa das seguintes maneiras:
    * Especifique as permissões em qualquer um dos objetos principais da tarefa: projeto, programa ou portfólio. As tarefas herdam as permissões de seus objetos principais. Para obter informações sobre a exibição de permissões herdadas em objetos, consulte [Exibir permissões herdadas em objetos](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Adicione entidades ao Compartilhamento de projeto em um modelo usado para criar o projeto no qual a tarefa está. Para obter informações sobre como compartilhar projetos a partir de modelos, consulte [Compartilhar um modelo](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Especifique as permissões em todas as tarefas em um projeto ao editá-lo.  Para obter informações sobre como gerenciar o acesso a tarefas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Especifique as permissões em todas as tarefas em um projeto ao editá-lo.  Para obter informações sobre como gerenciar o acesso a tarefas no projeto com base nas permissões de um usuário para o projeto, consulte a seção [](../../manage-work/projects/manage-projects/edit-projects.md#access) no artigo [Editar projetos](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >
@@ -299,11 +299,23 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Editar finanças*</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
+   <td> <p>Editar taxas de cobrança*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
+  <tr> 
+   <td> <p>Editar taxas de custo*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Editar finanças gerais*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
   <tr> 
    <td scope="row">Adicionar/Editar Despesas</td> 
    <td>✓</td> 
@@ -311,10 +323,22 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td scope="row">Exibir finanças</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td> <p>Ver taxas de cobrança*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Exibir taxas de custo*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Exibir Finanças Gerais*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td scope="row">Atualizações/Comentários</td> 

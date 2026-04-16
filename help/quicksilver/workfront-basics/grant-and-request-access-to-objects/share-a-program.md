@@ -7,9 +7,9 @@ description: O administrador do Adobe Workfront pode conceder acesso para visual
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '936'
 ht-degree: 6%
 
 ---
@@ -169,6 +169,12 @@ A tabela a seguir mostra quais permissões você pode conceder aos usuários ao 
 | Adicionar atualizações/comentários | ✓ | ✓ |
 | Compartilhar | ✓ | ✓ |
 | Compartilhar em todo o sistema |   | ✓ |
+| Editar taxas de cobrança&#42; | ✓ |   |
+| Editar taxas de custo&#42; | ✓ |   |
+| Editar finanças gerais&#42; | ✓ |   |
+| Exibir taxas de cobrança&#42; | ✓ | ✓ |
+| Exibir taxas de custo&#42; | ✓ | ✓ |
+| Exibir finanças gerais&#42; | ✓ | ✓ |
 
 *Essas permissões são controladas pelo nível de acesso e por permissões em outros objetos, como projetos.
 

@@ -6,10 +6,10 @@ description: O processo para criar e gerenciar despesas é o mesmo para despesas
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 1%
+source-wordcount: '496'
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ O valor total das despesas de todas as tarefas e do projeto contribui para o cus
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,8 +36,8 @@ O valor total das despesas de todas as tarefas e do projeto contribui para o cus
   <tr> 
    <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
-   <p>Trabalhar ou superior</p></td> 
+   <p>Padrão</p>
+   <p>Trabalho ou maior</p></td> 
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
@@ -45,7 +45,7 @@ O valor total das despesas de todas as tarefas e do projeto contribui para o cus
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td>Contribute ou tem permissões mais altas para o projeto, com permissões para Exibir ou Gerenciar finanças</td> 
+   <td>Contribute ou tem permissões mais altas para o projeto, com permissões para Exibir ou Editar finanças gerais</td> 
   </tr> 
  </tbody> 
 </table>

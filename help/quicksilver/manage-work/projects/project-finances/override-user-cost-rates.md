@@ -6,16 +6,15 @@ title: Sobrepor Taxas de Custo do Usuário no Nível do Projeto
 description: Este artigo descreve como é possível substituir as taxas de custo de usuário do sistema para um projeto.
 author: Lisa
 feature: Work Management
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '651'
 ht-degree: 5%
 
 ---
 
 # Substituir taxas de custo do usuário no nível do projeto
-
-{{highlighted-preview-article-level}}
 
 Você pode especificar qual é a taxa de custo para um usuário em um projeto específico. Essa taxa de custo no nível do projeto substitui a taxa de custo no nível do sistema para esse usuário. O Workfront usa a taxa de custo no nível do projeto da função de trabalho para calcular o custo, em vez de usar a taxa de custo no nível do sistema.
 
@@ -50,7 +49,7 @@ Para obter mais informações sobre como calcular custos no projeto, consulte [V
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td>Gerenciar permissões para o projeto que inclui Editar Dados Financeiros </td> 
+   <td>Gerenciar permissões para o projeto que incluem Editar taxas de custo </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +93,7 @@ Para obter mais informações, consulte [Editar perfil de usuário](/help/quicks
 
    O Workfront aplica a taxa de substituição de função de trabalho às horas que ocorrem durante esses períodos ao calcular o custo do projeto.
 
-   Não deve haver lacunas entre os intervalos de tempo de duas taxas de substituição. A **Data de Início** de uma taxa de substituição deve ser o dia imediatamente após a **Data de Término** da data de substituição anterior.
+   O Workfront permite que você deixe intervalos entre os períodos de substituição, mas você receberá um aviso para confirmar que isso é intencional.
 
    Você não precisa especificar uma Data Inicial para a primeira taxa de sobreposição, nem uma Data Final para a última taxa de sobreposição.
 
@@ -107,5 +106,3 @@ Para obter mais informações, consulte [Editar perfil de usuário](/help/quicks
    Se uma hora for registrada depois da Data de conclusão planejada do projeto, a última taxa de custo será usada.
 
 1. Clique em **Salvar**.
-
-

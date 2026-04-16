@@ -6,10 +6,10 @@ description: Você pode compartilhar ou remover permissões de um objeto criado 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: dec69522dd5f233bfabe84a9846b8e1246993a2a
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 1%
+source-wordcount: '1353'
+ht-degree: 3%
 
 ---
 
@@ -59,6 +59,8 @@ Você pode compartilhar os seguintes objetos no Workfront com outros usuários:
    * [Compartilhar um relatório de calendário](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * **Filtros, exibições e agrupamentos**: para obter informações, consulte [Compartilhar um filtro, exibição ou agrupamento](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+
+* **Cartões de taxa**: para obter mais informações, consulte [Compartilhar um cartão de taxa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md).
 
 * **Planos**: para obter informações, consulte [Compartilhar um plano no Planejador de Cenários](../../scenario-planner/share-a-plan.md).
 
@@ -118,7 +120,7 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
      <li><p>Exibir o objeto</p></li> 
      <li><p>Adicionar documentos ao objeto</p></li> 
      <li><p>Adicionar problemas ao objeto (se for uma tarefa ou um projeto)</p></li> 
-     <li><p>Exibir informações financeiras sobre o objeto</p></li> 
+     <li><p>Exibir taxas de custo, taxas de faturamento ou informações financeiras gerais sobre o objeto</p></li> 
      <li> <p>Compartilhar o objeto<br></p> <p>Ao compartilhar o objeto, você pode conceder a outros usuários o mesmo nível de permissão que você tem somente no objeto, não um nível superior.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -140,7 +142,7 @@ A tabela a seguir ilustra o nível de permissões que você pode selecionar ao c
     <ul> 
      <li>Todas as ações incluídas nas permissões Exibir e Contribuir</li> 
      <li>Excluí-lo</li> 
-     <li>Gerenciar informações financeiras nela</li> 
+     <li>Gerenciar taxas de custo, taxas de faturamento ou informações financeiras gerais</li> 
     </ul> </td> 
   </tr> 
   <tr> 
