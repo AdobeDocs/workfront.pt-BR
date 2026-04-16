@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 2%
@@ -16,8 +16,6 @@ ht-degree: 2%
 ---
 
 # Definir atributos de taxa
-
-{{highlighted-preview-article-level}}
 
 Os atributos de taxa ampliam a funcionalidade do cartão de taxa e das taxas do Adobe Workfront, permitindo a adição de dimensões adicionais às taxas, além da função de trabalho. Isso é essencial para agências e empresas em que as taxas variam não apenas por função de trabalho, mas também por fatores como agência, local, marca, centro de custo ou outros.
 Ao combinar esses atributos, o Workfront pode selecionar automaticamente a taxa correta para as atribuições, garantindo a precisão financeira e a consistência entre os projetos.

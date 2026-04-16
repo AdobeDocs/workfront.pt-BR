@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '4971'
+source-wordcount: '5076'
 ht-degree: 3%
 
 ---
@@ -268,7 +268,7 @@ Old:
 1. Comece a editar o template conforme descrito acima.
 1. Na caixa **Editar Modelo**, clique em **Finanças**.
 
-   ![Editar seção Financeira da caixa de modelo](assets/edit-template-box-finance-section.png)
+   ![Editar seção Financeira da caixa de modelo](assets/edit-template-finance-section-040626.png)
 
 1. Atualize os seguintes campos:
 
@@ -276,6 +276,14 @@ Old:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong>Preservar informações sobre as taxas de faturamento do projeto</strong></td>
+      <td><p>Quando você ativa esta opção, todas as taxas de faturamento de atribuição são permanentemente congeladas para a taxa aplicável mais alta da hierarquia de faturamento. Essa é uma seleção única, e você não pode desativar a opção depois que o projeto tem atribuições ou horas. Após a preservação, as taxas de cobrança de atribuições não podem ser alteradas, editadas ou substituídas em nenhum lugar do projeto.</p></td>
+     </tr>
+     <tr>
+      <td><strong>Usar taxas de câmbio efetivas na data do sistema</strong></td>
+      <td><p>Quando essa opção é selecionada, as taxas de câmbio efetivas no nível do sistema são sempre usadas e as substituições de taxa de câmbio não são permitidas no projeto.</p> <p>Você também deve selecionar a <strong>Data da Taxa de Câmbio</strong> de onde começar, quando a opção estiver selecionada.</p></td> 
+     </tr>
       <tr> 
       <td role="rowheader"><strong>Moeda</strong></td> 
       <td><p>Especifique a moeda para o projeto futuro, se for diferente da moeda padrão do sistema. Esse campo não estará visível se você só tiver a moeda padrão no sistema.<br>Para obter mais informações sobre moeda, consulte <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Configurar taxas de câmbio</a>.</p></td> 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 7%
@@ -17,13 +17,11 @@ ht-degree: 7%
 
 # Personalizar cabeçalhos de objetos usando um modelo de layout
 
-{{highlighted-preview}}
-
 Como administrador do Adobe Workfront ou administrador de grupo, você pode usar um modelo de layout para configurar os campos que os usuários veem no cabeçalho do objeto quando abrem a página de um objeto.
 
 >[!IMPORTANT]
 >
->A personalização de cabeçalhos de objetos está disponível atualmente para projetos, tarefas, problemas, <span class="preview">portfólios, programas, modelos, registros de cobrança, equipes, usuários, empresas, grupos e cartões de taxa.</span>
+>A personalização de cabeçalhos de objetos está disponível atualmente para projetos, tarefas, problemas, portfólios, programas, modelos, registros de faturamento, equipes, usuários, empresas, grupos e cartões de taxa.
 
 ![Campos do cabeçalho do objeto](assets/object-header-fields.png)
 

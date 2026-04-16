@@ -7,7 +7,7 @@ description: Você pode rastrear custos de projetos, tarefas e problemas no Adob
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '2755'
 ht-degree: 1%
@@ -18,11 +18,7 @@ ht-degree: 1%
 
 <!-- Audited: 02/2024 -->
 
-{{highlighted-preview}}
-
 Você pode rastrear custos de projetos, tarefas e problemas no Adobe Workfront.
-
-<div class="preview">
 
 ## Como o Workfront calcula custos - Pacote Workflow Ultimate
 
@@ -47,8 +43,6 @@ Existem os seguintes cenários:
   Para obter informações sobre a hierarquia de taxa de custo, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * O Workfront calcula somente o Custo Efetivo para ocorrências e as ocorrências não têm um Tipo de Custo. Para obter mais informações, consulte a seção [Como o Workfront rastreia os custos de problemas](#how-workfront-tracks-costs-for-issues) neste artigo.
-
-</div>
 
 ## Como o Workfront calcula custos - todos os outros pacotes
 
@@ -228,8 +222,8 @@ A tabela a seguir descreve os Tipos de Custo da tarefa disponíveis no Workfront
    <td> <p>O <strong>Custo Planejado</strong> é calculado pela seguinte fórmula: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Onde o Custo de Trabalho Planejado da Tarefa é calculado por:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Nota: Se você atribuir vários recursos a uma tarefa, o Workfront ajustará cálculos para Horas Planejadas com base na porcentagem da tarefa atribuída a cada recurso. Além disso, a taxa horária na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> <p>O <strong>Custo Efetivo</strong> é calculado pela seguinte fórmula: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Onde o Custo Efetivo do Trabalho da Tarefa é calculado por:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Por exemplo, uma tarefa é atribuída a uma função de trabalho ou a um usuário com uma função de trabalho para a qual a taxa de Custo por hora é de $20. Quando um usuário registra 5 horas para uma tarefa, o Custo Efetivo da Mão-de-Obra é de US$ 100 para essa tarefa. Se o usuário atribuído à tarefa não tiver uma função de trabalho associada a ele na tarefa, o Custo Efetivo será calculado com base na taxa de Custo por Hora da Função de Trabalho Principal. Se eles não tiverem uma função de trabalho ou se a taxa de Custo por hora de sua função de trabalho não estiver definida, o Custo Real da tarefa será zero. </p> <p>Observação: As horas efetivas de uma tarefa por hora na função são calculadas com base nas funções de trabalho dos usuários associados à tarefa, não nas funções associadas ao usuário que está registrando o horário. Além disso, a taxa de custo por hora na fórmula considera quaisquer alterações de data de efetivação da taxa.</p> <p>Se o administrador do Workfront habilitou a configuração <strong>Atribuir funções de trabalho a entradas de hora manualmente</strong> na área Preferências de folhas de horas e horas na Configuração e o tempo de logon do usuário na tarefa seleciona uma função diferente para associar a esse tempo, o Custo real de uma função por hora da tarefa é calculado com base na função especificada quando as horas foram registradas. Para obter informações sobre como habilitar o tempo de log para uma função de trabalho específica, consulte o artigo <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurar preferências de horas e folha de horas</a>.</p> </p> </td> 
   </tr>
   <tr> 
-   <td> <p><span class="preview">Usuário e função por hora</span></p> </td> 
-   <td> <p><span class="preview">O <strong>Custo Planejado</strong> é calculado pela seguinte fórmula:</span></p> <p><span class="preview"><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </span></p> <p><span class="preview">Onde o Custo de Trabalho Planejado da Tarefa é calculado por:</span></p> <p><span class="preview"><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> <p><span class="preview">O <strong>Custo Efetivo</strong> é calculado pela seguinte fórmula:</span></p> <p><span class="preview"><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </span></p> <p><span class="preview">Onde o Custo Efetivo do Trabalho da Tarefa é calculado por:</span></p> <p><span class="preview"><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> </td> 
+   <td> <p>&gt;Usuário e função por hora</p> </td> 
+   <td> <p>O <strong>Custo Planejado</strong> é calculado pela seguinte fórmula:</p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code></p> <p>Onde o Custo de Trabalho Planejado da Tarefa é calculado por:</p> <p><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate according to the hierarchy</code></p> <p>O <strong>Custo Efetivo</strong> é calculado pela seguinte fórmula:</p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code></p> <p>Onde o Custo Efetivo do Trabalho da Tarefa é calculado por:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate according to the hierarchy</code></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Horas por Valor de Hora Fixo</p> </td> 

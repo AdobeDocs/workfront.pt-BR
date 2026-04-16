@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '4542'
+source-wordcount: '4540'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 1%
 # Visão geral de faturamento e receita
 
 <!-- Audited: 1/2024 -->
-
-{{highlighted-preview}}
 
 Como gerente de projeto, você pode usar taxas de faturamento para capturar a receita de seus projetos.
 
@@ -83,7 +81,7 @@ Você pode definir o valor de uma taxa de faturamento de função de trabalho us
 
 Para obter mais informações sobre como criar funções de trabalho, consulte o artigo [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-![Editar taxas de cobrança e custos da função de trabalho](assets/edit-job-role-multiple-billing-rates-new.png)
+![Editar taxas de cobrança de função de trabalho](assets/edit-job-role-multiple-billing-rates-040826.png)
 
 ### Taxas de Cobrança Fixas para projetos ou tarefas {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -93,8 +91,6 @@ Além das taxas horárias de usuário e função de trabalho, você também pode
 * Valor Fixo para o Tipo de Receita Fixa
 
 Para obter mais informações sobre como as taxas de cobrança fixas são usadas para calcular a receita, consulte [Visão Geral dos Tipos de Receita da tarefa](#overview-of-task-revenue-types).
-
-<div class="preview">
 
 ### Substituir taxas de faturamento - Pacote de fluxo de trabalho do Ultimate
 
@@ -108,8 +104,6 @@ No nível do projeto, é possível:
 * Substituir uma taxa de cobrança para um usuário específico nesse projeto.
 
 As substituições de taxa de cobrança não são genéricas. Por exemplo, você não substituiria &quot;Designer&quot; como uma função. Em vez disso, você substituiria &quot;Designer - Nova York - Agência X&quot; para o período de data efetiva relevante. As sobreposições respeitam a hierarquia de taxas de faturamento, de modo que o sistema sempre as aplica em ordem de precedência.
-
-</div>
 
 ### Substituir taxas de cobrança - todos os outros pacotes
 
@@ -192,7 +186,7 @@ Para obter mais informações sobre como configurar o Tipo de receita de uma tar
 
 >[!NOTE]
 >
-><span class="preview">É necessário ter o pacote Workflow Ultimate para disponibilizar o tipo de receita Horas por Hora do Usuário e da Função.</span>
+>É necessário ter o pacote Workflow Ultimate para disponibilizar o tipo de receita User and Role hour
 
 Você pode aplicar os seguintes tipos de receita às suas tarefas ou projetos:
 
@@ -223,8 +217,8 @@ Esse é o Tipo de receita padrão quando você cria uma tarefa.</p> </td>
    <td> <p>Este tipo pode ser usado somente para tarefas.</p> <p>Esse tipo é semelhante a Por hora do usuário, mas usa taxas de função de trabalho em vez de taxas de usuário.</p> <p><strong>OBSERVAÇÃO</strong><br>Uma função de trabalho também pode ter várias taxas de cobrança com datas de efetivação.</p></td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">Usuário e função por hora</span></p> </td> 
-   <td> <p><span class="preview">Este tipo pode ser usado somente para tarefas.</span></p> <p><span class="preview">Esse tipo examina as informações do usuário e da função para determinar a taxa apropriada.</span></p></td> 
+   <td> <p>Usuário e função por hora</p> </td> 
+   <td> <p>Este tipo pode ser usado somente para tarefas.</p> <p>Esse tipo examina as informações do usuário e da função para determinar a taxa apropriada.</p></td> 
   </tr>
   <tr> 
    <td> <p>Hora do usuário com limite</p> </td> 
@@ -235,8 +229,8 @@ Esse é o Tipo de receita padrão quando você cria uma tarefa.</p> </td>
    <td> <p>Este tipo pode ser usado somente para tarefas.</p> <p>Esse tipo é semelhante a Por hora do usuário com Limite, mas usa taxas de função de trabalho em vez de taxas de usuário. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">Horas por Valor de Hora do Usuário e Função com Limite</span></p> </td> 
-   <td> <p><span class="preview">Este tipo pode ser usado somente para tarefas.</span></p> <p><span class="preview">As tarefas são cobradas por hora, como em Usuário e Função por hora, mas têm uma Quantia máxima que você pode especificar.</span></p></td> 
+   <td> <p>Horas por Valor de Hora do Usuário e Função com Limite</p> </td> 
+   <td> <p>Este tipo pode ser usado somente para tarefas.</p> <p>As tarefas são cobradas por hora, como em Usuário e Função por hora, mas têm uma Quantia máxima que você pode especificar.</p></td> 
   </tr>
   <tr> 
    <td> <p>Horas por Valor da Hora do Recurso mais Taxa Fixa</p> </td> 
@@ -247,8 +241,8 @@ Esse é o Tipo de receita padrão quando você cria uma tarefa.</p> </td>
    <td> <p>Este tipo pode ser usado somente para tarefas. </p> <p>As tarefas são cobradas por hora, como na Função de hora em hora, mas têm um valor fixo adicional que pode ser adicionado à taxa de função. O Valor Fixo especificado na tarefa pode ser incluído nos registros de cobrança do projeto. O Valor Fixo não é multiplicado pelas horas na tarefa. Somente a taxa de cobrança da função de trabalho o faz. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">Usuário e função por hora mais fixo</span></p> </td> 
-   <td> <p><span class="preview">Este tipo pode ser usado somente para tarefas.</span></p> <p><span class="preview">As tarefas são cobradas por hora, como em Usuário e Função por hora, mas têm um Valor fixo adicional que pode ser adicionado à taxa. O Valor Fixo especificado na tarefa pode ser incluído nos registros de cobrança do projeto. O Valor Fixo não é multiplicado pelas horas na tarefa.</span></p></td> 
+   <td> <p>Usuário e função por hora mais fixo</p> </td> 
+   <td> <p>Este tipo pode ser usado somente para tarefas.</p> <p>As tarefas são cobradas por hora, como em Usuário e Função por hora, mas têm um Valor fixo adicional que pode ser adicionado à taxa. O Valor Fixo especificado na tarefa pode ser incluído nos registros de cobrança do projeto. O Valor Fixo não é multiplicado pelas horas na tarefa.</p></td> 
   </tr>
   <tr> 
    <td> <p>Horas por Valor de Hora Fixo</p> </td> 
@@ -295,13 +289,9 @@ O sistema usa uma hierarquia para determinar qual taxa é usada nos cálculos de
 
 Se o administrador do Workfront habilitou a configuração **Atribuir funções de trabalho a entradas de hora manualmente** na área Preferências de folhas de horas e horas e o tempo de logon do usuário no projeto seleciona uma função diferente para associar a esse tempo, a Receita Efetiva da tarefa ou do projeto sempre é calculada com base na função associada à entrada de horas. Para obter informações sobre como habilitar o tempo de log para uma função de trabalho específica, consulte o artigo [Configurar preferências de horas e folha de horas](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-<div class="preview">
-
 Para o tipo de receita Usuário e Função por hora, uma Função de trabalho para faturamento pode ser definida no nível do projeto e no nível da atribuição. Se for definida no nível do projeto para um usuário específico, essa função se propagará automaticamente para todas as atribuições desse usuário durante o período de efetivação ao qual você a aplicou. Você ainda pode sobrepor essa taxa no nível da atribuição, se necessário. Por exemplo, a função de trabalho principal de um usuário é Designer, mas você a definiu como Função de trabalho para faturamento em um projeto como Designer sênior para o mês de agosto. Todas as tarefas às quais estiverem atribuídos em agosto usarão automaticamente a taxa de cobrança do Designer sênior.
 
 No entanto, em uma tarefa específica, você pode substituir a função apenas para essa atribuição, para refletir o trabalho que está sendo faturado. Dessa forma, o sistema oferece suporte à consistência em todo o projeto e à flexibilidade no nível da atribuição. Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) e [Criar atribuições avançadas](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-
-</div>
 
 Os cenários a seguir existem ao calcular a receita da tarefa com base no Tipo de Receita e na natureza da atribuição da tarefa:
 
@@ -372,16 +362,12 @@ Os cenários a seguir existem ao calcular a receita da tarefa com base no Tipo d
    </tbody> 
   </table>
 
-<div class="preview">
-
 * **O Tipo de Receita da tarefa é Usuário e Função por Hora**
 
 | Taxa por hora de faturamento | Nenhuma atribuição | Atribuição de usuário | Atribuição de funções de trabalho |
 | --- | --- | --- | --- |
 | Taxa por hora de faturamento para Receita Planejada | $ 0,00 | Quando um usuário é atribuído, o sistema procura a taxa em uma ordem especificada, começando com uma taxa de cobrança preservada. O próximo é uma taxa de cartão de taxa bloqueada, uma taxa informada manualmente na atribuição, a Função de Trabalho para Faturamento na atribuição, a sobreposição da taxa de faturamento do usuário no nível do projeto, a Função de Trabalho para Faturamento no nível do projeto, a taxa do sistema do usuário e a taxa da função de trabalho principal do usuário. <p> Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando uma função de trabalho é atribuída, o sistema primeiro procura uma taxa de cobrança preservada e, em seguida, uma taxa de cartão de taxa bloqueada para a função de trabalho na atribuição. Em seguida, ele procura uma taxa de funções de trabalho adicionada manualmente na atribuição. Se essa taxa não for encontrada, ela procurará uma taxa de função de trabalho no nível do projeto, primeiro a partir de um cartão de taxa e, em seguida, a partir da taxa do sistema. <p> Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
 | Taxa por hora de faturamento para Receita Efetiva | Somente as taxas associadas ao usuário que registra o tempo são consideradas para o cálculo, mesmo quando outro usuário é atribuído à tarefa. <p> O sistema procura a taxa em uma ordem especificada, começando com uma taxa de cobrança preservada. Em seguida, há uma taxa de cartão de taxa bloqueada, uma sobreposição de taxa de faturamento no projeto, a função de trabalho para faturamento, a taxa no nível do sistema no perfil de usuário do proprietário e a taxa de faturamento da função de trabalho principal do proprietário. <p> Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando um usuário é atribuído, o sistema procura a taxa em uma ordem especificada, começando com uma taxa de cobrança preservada. O próximo é uma taxa de cartão de taxa bloqueada, uma taxa informada manualmente na atribuição, a Função de Trabalho para Faturamento na atribuição, a sobreposição da taxa de faturamento do usuário no nível do projeto, a Função de Trabalho para Faturamento no nível do projeto, a taxa do sistema do usuário e a taxa da função de trabalho principal do usuário. <p> Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Quando uma função de trabalho é atribuída, o sistema primeiro procura uma taxa de cobrança preservada e, em seguida, uma taxa de cartão de taxa bloqueada para a função de trabalho na atribuição. Em seguida, ele procura uma taxa de funções de trabalho adicionada manualmente na atribuição. Se essa taxa não for encontrada, ela procurará uma taxa de função de trabalho no nível do projeto, primeiro a partir de um cartão de taxa e, em seguida, a partir da taxa do sistema. Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
-
-</div>
 
 ### Cálculos de receita para projetos
 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f490d72b46073786cc079eec0640a0b535533281
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 5%
@@ -16,8 +16,6 @@ ht-degree: 5%
 ---
 
 # Personalizar o painel esquerdo usando um modelo de layout
-
-{{highlighted-preview}}
 
 <!--Audited: 10/2024-->
 
@@ -140,9 +138,9 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
-      <td><span class="preview">[!UICONTROL Recursos]</span></td> 
-      <td><span class="preview">[!UICONTROL Recursos] no [!UICONTROL Menu Principal] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
-      <td><span class="preview">[!UICONTROL Planner] (não pode ser oculto), [!UICONTROL Balanceador de Carga de Trabalho], [!UICONTROL Utilização], [!UICONTROL Pools de Recursos]</span></td> 
+      <td>[!UICONTROL Recursos]</td> 
+      <td>[!UICONTROL Recursos] no [!UICONTROL Menu Principal] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Planner] (não pode ser oculto), [!UICONTROL Balanceador de Carga de Trabalho], [!UICONTROL Utilização], [!UICONTROL Pools de Recursos]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Solicitações]</td> 
@@ -175,19 +173,19 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
       <td>[!UICONTROL Histórias], [!UICONTROL Problemas], [!UICONTROL Story Board], [!UICONTROL Visão Geral], [!UICONTROL Custom Forms], [!UICONTROL Atualizações] </td> 
      </tr> 
      <tr> 
-       <td><span class="preview">[!UICONTROL Detalhes do Usuário]</span></td> 
-       <td><span class="preview">O nome de um usuário</span></td> 
-       <td><span class="preview">[!UICONTROL Detalhes], [!UICONTROL Organograma], [!UICONTROL Folga], [!UICONTROL Forms Personalizado], [!UICONTROL Perfis de Negócios], [!UICONTROL Atualizações], [!UICONTROL Balanceador de Carga de Trabalho]</span></td> 
+       <td>[!UICONTROL Detalhes do Usuário]</td> 
+       <td>O nome de um usuário</td> 
+       <td>[!UICONTROL Detalhes], [!UICONTROL Organograma], [!UICONTROL Folga], [!UICONTROL Forms Personalizado], [!UICONTROL Perfis de Negócios], [!UICONTROL Atualizações], [!UICONTROL Balanceador de Carga de Trabalho]</td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL Cartão de Taxa]</span></td> 
-       <td><span class="preview">O nome de um cartão de taxa</span></td> 
-       <td><span class="preview">[!UICONTROL Taxas e Funções de Trabalho] (não pode ser oculto), [!UICONTROL Detalhes do Cartão de Taxa]</span></td> 
+       <td>[!UICONTROL Cartão de Taxa]</td> 
+       <td>O nome de um cartão de taxa</td> 
+       <td>[!UICONTROL Taxas e Funções de Trabalho] (não pode ser oculto), [!UICONTROL Detalhes do Cartão de Taxa]</td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL Group]</span></td> 
-       <td><span class="preview">O nome de um grupo</span></td> 
-       <td><span class="preview">[!UICONTROL Membros do Grupo], [!UICONTROL Membros do Subgrupo], [!UICONTROL Detalhes do Grupo], [!UICONTROL Preferências de Projeto], [!UICONTROL Preferências de Tarefas e Problemas], [!UICONTROL Folhas de Horas e Horas], [!UICONTROL Subgrupos], [!UICONTROL Status], [!UICONTROL Notificações de Eventos], [!UICONTROL Portfólios], [!UICONTROL Programas], [!UICONTROL Projetos], [!UICONTROL Modelos], [!UICONTROL Excluído Recentemente], [!UICONTROL Restaurado Recentemente], [!UICONTROL Aprovações], [!UICONTROL Empresas], [!UICONTROL Equipes], [!UICONTROL Agendas], [!UICONTROL Perfis de Planilha de Horas], [!UICONTROL Modelos de Layout]</span></td> 
+       <td>[!UICONTROL Group]</td> 
+       <td>O nome de um grupo</td> 
+       <td>[!UICONTROL Membros do Grupo], [!UICONTROL Membros do Subgrupo], [!UICONTROL Detalhes do Grupo], [!UICONTROL Preferências de Projeto], [!UICONTROL Preferências de Tarefas e Problemas], [!UICONTROL Folhas de Horas e Horas], [!UICONTROL Subgrupos], [!UICONTROL Status], [!UICONTROL Notificações de Eventos], [!UICONTROL Portfólios], [!UICONTROL Programas], [!UICONTROL Projetos], [!UICONTROL Modelos], [!UICONTROL Excluído Recentemente], [!UICONTROL Restaurado Recentemente], [!UICONTROL Aprovações], [!UICONTROL Empresas], [!UICONTROL Equipes], [!UICONTROL Agendas], [!UICONTROL Perfis de Planilha de Horas], [!UICONTROL Modelos de Layout]</td> 
      </tr>
      <!--
       <tr> 

@@ -7,7 +7,8 @@ description: Um cartão de taxa representa o contrato com seu cliente no qual as
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 38441ec5ae6fd8cf5c79f939403d5966c5616c98
+exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 10%
@@ -15,8 +16,6 @@ ht-degree: 10%
 ---
 
 # Alterações na taxa de push em projetos
-
-{{highlighted-preview-article-level}}
 
 Quando um cartão de taxas é anexado a um projeto <!--or a staffing plan-->, as taxas no cartão de taxas ainda podem ser ajustadas. Em seguida, você pode enviar essas taxas para os projetos <!--and staffing plans --> aos quais o cartão de taxa está anexado. Se você não enviar as novas taxas, as taxas originais permanecerão no projeto<!-- or staffing plan-->.
 

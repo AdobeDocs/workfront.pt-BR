@@ -5,7 +5,7 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 8%
@@ -13,8 +13,6 @@ ht-degree: 8%
 ---
 
 # Anexar um cartão de tarifas a um projeto
-
-{{highlighted-preview-article-level}}
 
 Os cartões de taxa armazenam várias taxas de cobrança por função de trabalho, com base nos atributos. Por exemplo, você pode ter uma função de trabalho de Designer com base em Paris para a Agência A, outra Designer com base em Paris para a Agência B e uma terceira Designer com base em Nova York não atribuída a uma agência, cada uma com taxas de faturamento diferentes. No entanto, os atributos não são necessários para funções de trabalho em um cartão de taxa. Os atributos servem como ferramentas para estabelecer taxas mais granulares. Uma taxa de cobrança em um cartão de taxa também pode ter data de efetivação, de modo que a taxa comece e termine em datas especificadas.
 

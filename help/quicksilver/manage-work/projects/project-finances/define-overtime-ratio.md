@@ -6,7 +6,8 @@ title: Definir uma taxa de horas extras
 description: Você pode definir um índice de horas extras em uma tarefa para ajustar o cálculo de Receita Planejada para as atribuições da tarefa.
 author: Lisa
 feature: Work Management
-source-git-commit: bf8dcc9dfa9697c8d212072bb511c57aa01e7529
+exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 11%
@@ -14,8 +15,6 @@ ht-degree: 11%
 ---
 
 # Definir uma taxa de horas extras
-
-{{highlighted-preview-article-level}}
 
 Quando um índice de horas extras é adicionado a uma tarefa, ele é aplicado a todas as atribuições na tarefa. Ele multiplica todas as Horas Planejadas para essa tarefa e afeta os cálculos da Receita Planejada.
 
@@ -87,4 +86,3 @@ O campo **Taxa de Horas Extras** deve ser habilitado no modelo de layout.
 1. Clique em **Detalhes da tarefa** no painel esquerdo.
 1. Na área **Finanças**, insira o multiplicador de horas extras no campo **Taxa de horas extras**.
 1. Clique em **Salvar alterações**.
-

@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 9%
+source-wordcount: '898'
+ht-degree: 7%
 
 ---
 
@@ -66,15 +66,34 @@ Você pode gerenciar quais informações os usuários podem visualizar e editar 
 ## Configurar o acesso dos usuários para editar usuários usando um nível de acesso personalizado
 
 1. Comece a criar ou editar o nível de acesso, conforme explicado em [Criar ou modificar níveis de acesso personalizados](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Para alterar a capacidade de usuários com uma licença de Plano ou Trabalho exibirem os perfis de outros usuários:
+1. Para alterar a capacidade de usuários com uma licença Padrão, Plano ou Trabalho exibirem informações de outros usuários, clique no ícone de engrenagem ![Ícone de engrenagem](assets/gear-icon-settings.png) no botão **Exibir** à direita de **Usuários** e selecione as opções de exibição que deseja conceder na caixa **Ajustar suas configurações**:
 
-   1. Clique no ícone de engrenagem ![](assets/gear-icon-settings.png) no botão **Exibir** à direita de **Usuários**.
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Exibir Taxas de Cobrança</strong> </td> 
+      <td> Permite que os usuários visualizem taxas de faturamento em perfis de usuários.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Exibir Informações de Contato</strong> </td> 
+      <td> Permite que os usuários visualizem as páginas de detalhes de outros usuários.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Exibir Taxas de Custo</strong> </td> 
+      <td> Permite que os usuários visualizem taxas de custo em perfis de usuários.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Exibir Finanças Gerais</strong> </td> 
+      <td> Permite que os usuários visualizem campos financeiros gerais (não relacionados a taxas de faturamento ou custo) nos perfis do usuário.</td>
+     </tr> 
+    </tbody> 
+   </table>
 
-   1. Desabilite **Exibir informações de contato** e clique no X para fechar a caixa **Ajustar suas configurações**.
+   ![Ajustar configurações do usuário de exibição](assets/fine-tune-view-users.png)
 
-      ![ajustar configurações do usuário](assets/fine-tune-users.png)
-
-1. Para modificar a capacidade de usuários com acesso a licença de Plano de editar outros usuários, clique no ícone de engrenagem ![](assets/gear-icon-settings.png) no botão **Editar** à direita de **Usuários** e selecione as capacidades que deseja conceder:
+1. Para modificar a capacidade de os usuários com uma licença Padrão ou de Plano editarem outros usuários, clique no ícone de engrenagem ![Ícone de engrenagem](assets/gear-icon-settings.png) do botão **Editar** à direita de **Usuários** e selecione as opções de edição que deseja conceder na caixa **Ajustar suas configurações**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -89,6 +108,18 @@ Você pode gerenciar quais informações os usuários podem visualizar e editar 
      <tr> 
       <td role="rowheader"><strong>Excluir</strong> </td> 
       <td> <p> Permite que os usuários excluam os usuários que eles próprios criaram.<br>Esta opção está habilitada por padrão.</p> <p><b>OBSERVAÇÃO</b>: não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Editar taxas de cobrança</strong> </td> 
+      <td> Permite que os usuários editem taxas de faturamento em perfis de usuários.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Editar taxas de custo</strong> </td> 
+      <td> Permite que os usuários editem taxas de custo em perfis de usuários.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Editar Finanças Gerais</strong> </td> 
+      <td> Permite que os usuários editem campos de finanças gerais (não relacionados a taxas de faturamento ou custo) em perfis de usuário.</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Administrador de Usuários (Todos os Usuários)</strong> </td> 
@@ -108,6 +139,18 @@ Você pode gerenciar quais informações os usuários podem visualizar e editar 
          <li><p>Redefinir a senha do usuário</p><p><b>OBSERVAÇÃO</b>: um administrador de grupo não pode fazer logon como ou redefinir a senha de um administrador do Workfront.</p></li>
         </ul><p>Essa opção está desabilitada por padrão.</p></p> </td> 
      </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Exibir Taxas de Cobrança</strong> </td> 
+      <td> Permite que os usuários visualizem taxas de faturamento em perfis de usuários.</td>  
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Exibir Taxas de Custo</strong> </td> 
+      <td> Permite que os usuários visualizem taxas de custo em perfis de usuários.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Exibir Finanças Gerais</strong> </td> 
+      <td> Permite que os usuários visualizem campos financeiros gerais (não relacionados a taxas de faturamento ou custo) nos perfis do usuário.</td>
+     </tr>
     </tbody> 
    </table>
 

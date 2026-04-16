@@ -10,16 +10,14 @@ role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1351'
 ht-degree: 4%
 
 ---
 
 # Organizar e pré-visualizar um formulário
-
-{{preview-fast-release-general}}
 
 Você pode organizar um formulário personalizado com o designer do formulário e visualizá-lo para verificar se ele está configurado corretamente.
 
@@ -85,8 +83,8 @@ Para obter informações sobre campos e widgets personalizados em formulários p
       <td role="rowheader">Descrição</td> 
       <td>Digite texto se quiser explicar aos usuários para que serve a seção. É exibido abaixo do rótulo da seção no formulário personalizado.</td> 
      </tr> 
-      <td><span class="preview">Recolhido por padrão</span></td>
-      <td><span class="preview">Por padrão, todas as seções em um formulário personalizado são expandidas quando o próprio formulário é expandido. Selecione essa opção para que a seção seja recolhida por padrão quando um usuário abrir o formulário.</span></td>
+      <td>Recolhido por padrão</td>
+      <td>Por padrão, todas as seções em um formulário personalizado são expandidas quando o próprio formulário é expandido. Selecione essa opção para que a seção seja recolhida por padrão quando um usuário abrir o formulário.</td>
      <tr>
      </tr>
      <tr> 
@@ -120,7 +118,7 @@ Para obter informações sobre campos e widgets personalizados em formulários p
      </tr> 
      <tr> 
       <td role="rowheader"><p>Adicionar Lógica</p></td> 
-      <td><p>Use a lógica de exibição para especificar se a seção deve ser exibida no formulário, com base nas seleções que os usuários fazem em campos personalizados de múltipla escolha quando preenchem o formulário.</p><p><strong>OBSERVAÇÃO:</strong> se todos os campos individuais em uma quebra de seção tiverem uma lógica de exibição aplicada a eles e todos estiverem ocultos como resultado da lógica, a seção inteira será ocultada no formulário personalizado. Isso ocorrerá mesmo se a lógica de exibição não for aplicada à quebra de seção.</p><p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Adicionar lógica de exibição e lógica de salto com o designer de formulário</a>.</p></td> 
+      <td><p>Use a lógica de exibição para especificar se a seção deve ser exibida no formulário, com base nas seleções que os usuários fazem em campos personalizados de múltipla escolha quando preenchem o formulário.</p><p><strong>OBSERVAÇÃO:</strong> se todos os campos individuais em uma quebra de seção tiverem uma lógica de exibição aplicada a eles e todos estiverem ocultos como resultado da lógica, a seção inteira será ocultada no formulário personalizado. Isso ocorrerá mesmo se a lógica de exibição não for aplicada à quebra de seção.</p><p>Para obter mais informações, consulte <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Adicionar regras de lógica a formulários e campos personalizados</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

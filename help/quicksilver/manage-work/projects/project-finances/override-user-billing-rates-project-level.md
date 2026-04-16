@@ -6,7 +6,8 @@ title: Sobrepor Taxas de Cobrança do Usuário no Nível do Projeto
 description: Este artigo descreve como você pode sobrepor as taxas de faturamento do usuário do sistema para um projeto.
 author: Lisa
 feature: Work Management
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 4%
@@ -14,8 +15,6 @@ ht-degree: 4%
 ---
 
 # Substituir taxas de cobrança do usuário no nível do projeto
-
-{{highlighted-preview-article-level}}
 
 Como um gerente de projeto, você pode especificar a taxa de faturamento de um usuário em um projeto específico. Essa taxa de cobrança no nível do projeto substitui a taxa de cobrança no nível do sistema para esse usuário. O Workfront usa a taxa de cobrança no nível do projeto do usuário para calcular a receita, em vez de usar a taxa de cobrança no nível do sistema.
 

@@ -5,9 +5,8 @@ title: Criar e exibir instantâneos do projeto
 description: Instantâneos no Adobe Workfront fornecem uma maneira de ver as diferenças entre instantâneos (tirados em uma data e hora específicas) e os dados atuais do projeto.
 author: Lisa
 feature: Work Management
-hidefromtoc: true
-hide: true
-source-git-commit: 6ccb4669a973a8f855120e83de7c0d437c9495a4
+exl-id: 9ff84f9a-46bd-46e8-a58d-7dafbc333507
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 2%
@@ -15,8 +14,6 @@ ht-degree: 2%
 ---
 
 # Criar e exibir instantâneos do projeto
-
-{{highlighted-preview-article-level}}
 
 Os gerentes de projeto geralmente precisam comparar os dados anteriores de um projeto com o status atual para tomar decisões informadas e ver como seus projetos mudaram com o tempo.
 
@@ -212,4 +209,3 @@ Para aplicar ou criar uma view:
 1. (Opcional) Filtre a lista. Para obter mais informações, consulte [Filtrar itens em uma lista](#filter-items-in-a-list).
 
 As alterações nas exibições são salvas automaticamente. Na próxima vez que você aplicar essa visualização, as configurações de coluna e filtro permanecerão da maneira definida. Para obter mais informações sobre exibições, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-

@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '3008'
 ht-degree: 7%
 
 ---
@@ -52,8 +52,9 @@ Para obter informações sobre como criar um modelo, consulte [Criar um modelo d
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer</p> </td> 
-  </tr> 
+   <td>  <p>Para usar os Tipos de Custo e Receita por Hora do Usuário e Função: Ultimate do Workflow</p>
+      <p>Para editar todas as outras configurações e usar todos os outros Tipos de receita e custo: qualquer pacote de Workfront ou de fluxo de trabalho</p>  </td> 
+  </tr>
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Padrão</p>
@@ -439,6 +440,7 @@ Os nomes dos formulários de alfândega são exibidos somente se houver formulá
         <li> <p style="font-weight: normal;"><span>Horas Fixas</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Usuário por hora</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Função por Hora</span> </p> </li> 
+        <li> <p style="font-weight: normal;">Usuário e função por hora</p> </li>
        </ul> <p>Para obter mais informações sobre o rastreamento de custos, consulte <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Rastrear custos</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -448,11 +450,14 @@ Os nomes dos formulários de alfândega são exibidos somente se houver formulá
         <li> <p style="font-weight: normal;">Não Faturável</p> </li> 
         <li> <p style="font-weight: normal;">Horas por Valor da Hora do Recurso</p> </li> 
         <li> <p style="font-weight: normal;">Horas por Valor da Hora do Perfil</p> </li> 
+        <li> <p style="font-weight: normal;">Usuário e função por hora</p> </li>
         <li> <p style="font-weight: normal;">Horas por Valor de Hora Fixo</p> </li> 
         <li> <p style="font-weight: normal;">Horas por Valor da Hora dos Recursos, com Teto</p> </li> 
         <li> <p style="font-weight: normal;">Horas por Valor da Hora do Perfil, com Teto</p> </li> 
+        <li> <p style="font-weight: normal;">Usuário e função por hora com limite</p> </li>
         <li> <p style="font-weight: normal;">Horas por Valor da Hora do Recurso mais Taxa Fixa</p> </li> 
         <li> <p style="font-weight: normal;">Horas por Valor da Hora do Perfil mais Taxa Fixa</p> </li> 
+        <li> <p style="font-weight: normal;">Usuário e função por hora mais fixo</p> </li>
         <li> <p style="font-weight: normal;">Receita com Valor Fixo</p> </li> 
        </ul> <p>Para obter mais informações sobre o rastreamento da receita, consulte <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Visão geral de faturamento e receita</a>.</p> </td> 
      </tr> 

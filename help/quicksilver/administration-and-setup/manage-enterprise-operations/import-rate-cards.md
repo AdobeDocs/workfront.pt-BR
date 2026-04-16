@@ -7,7 +7,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: 3b05ab91619e8a2d2ae451d2f0f4cd38e58c7440
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 2%
@@ -15,8 +15,6 @@ ht-degree: 2%
 ---
 
 # Importar cartões de taxa de um modelo
-
-{{highlighted-preview-article-level}}
 
 Você pode usar um arquivo de modelo para criar seus cartões de taxa no Excel e importá-los para o Adobe Workfront, em vez de adicionar todas as funções de trabalho e taxas manualmente.
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 0%
+source-wordcount: '446'
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr> 
   <tr> 
@@ -57,7 +57,6 @@ Você pode adicionar outros tipos de objetos ao formulário para que ele possa s
 >
 >Para obter mais informações, consulte [Como vários tipos de objeto podem afetar as permissões de quebra de seção](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
 
-
 {{step-1-to-setup}}
 
 1. Clique em **Forms Personalizado** no painel esquerdo.
@@ -66,9 +65,9 @@ Você pode adicionar outros tipos de objetos ao formulário para que ele possa s
 
 1. Selecione o formulário personalizado ao qual você deseja adicionar outros tipos de objeto e clique em ![Ícone Editar](assets/edit-icon2.png).
 
-1. Na parte superior do formulário, clique no sinal de adição + depois de **Tipos de objeto** e selecione o tipo desejado no menu exibido. Você pode repetir isso para adicionar quantos tipos de objetos desejar.
+1. Na parte superior do formulário, clique em **Tipos de objeto** e selecione o tipo que deseja adicionar no menu exibido. Você pode repetir esse processo para adicionar quantos tipos de objeto desejar.
 
-   ![Adicionar novo objeto](assets/add-new-object.png)
+   ![Adicionar novo objeto](assets/add-new-object-to-custom-form-041026.png)
 
 1. Clique em **Salvar e fechar**.
 
@@ -92,9 +91,5 @@ Para deletar um tipo de objeto:
 
 1. Clique em **Forms Personalizado** no painel esquerdo.
 1. Selecione o formulário personalizado que deseja editar e clique em ![Ícone Editar](assets/edit-icon2.png).
-1. Clique no X em qualquer um dos **Tipos de objeto** que deseja excluir do formulário.
-
-   ![Excluir tipos de objetos](assets/delete-object-types.png)
-
-1. (Opcional) Repita a etapa anterior para qualquer outro tipo de objeto que você deseja remover do formulário.
+1. Na parte superior do formulário, clique em **Tipos de objeto** e desmarque as caixas de seleção dos objetos que deseja excluir do formulário.
 1. Clique em **Aplicar** e em **Salvar e fechar**.

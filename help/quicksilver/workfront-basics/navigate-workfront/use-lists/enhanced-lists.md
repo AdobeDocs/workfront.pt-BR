@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: 2131e91f5269ca5b9f062b6bc6b2cb618f9d279a
 workflow-type: tm+mt
 source-wordcount: '2915'
 ht-degree: 2%
@@ -15,8 +15,6 @@ ht-degree: 2%
 ---
 
 # Usar listas aprimoradas
-
-{{preview-fast-release-general}}
 
 As listas aprimoradas estão disponíveis em algumas áreas do Adobe Workfront. Essas listas usam um formato de tabela para exibir os itens de lista e têm uma aparência diferente das listas padrão. O gerenciamento de visualizações também é aprimorado, incluindo filtragem, agrupamento, gerenciamento de colunas e pesquisa.
 
@@ -64,13 +62,12 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 | Prioridades | <ul><li>Início > selecione o ícone Prioridades no menu esquerdo</li><li>Menu principal > Prioridades</li></ul> |
 | Lista de solicitações | <ul><li>Solicitações (somente nova experiência)</li><li>Widget Minhas solicitações na página inicial</li></ul> |
 | Listas de status, prioridades, severidades e taxas de câmbio em Configuração | <ul><li>Configuração > Preferências do Projeto > Status</li><li>Configuração > Preferências do Projeto > Prioridades</li><li>Configuração > Preferências do Projeto > Severidades</li><li>Configuração > Preferências do Projeto > Taxas de Câmbio</li></ul> |
-| <span class="preview">Lista de relatórios</span> | <span class="preview">Relatórios (**Usar pastas compartilháveis** deve estar ativado)</span> |
-| <span class="preview">Lista de funções e taxas de trabalho em um cartão de taxa</span> | <span class="preview">Configurar > Cartões de Taxa > selecione um cartão de taxa > Funções e Taxas de Trabalho</span> |
-| <span class="preview">Lista de traduções</span> | <span class="preview">Configuração > Localização</span> |
-| <span class="preview">Lista de instantâneos</span> | <span class="preview">Projeto > Instantâneos</span> |
-| <span class="preview">Lista de recursos para cobrança</span> | <span class="preview">Projeto > Recurso para faturamento</span> |
-| <span class="preview">Novas atribuições avançadas em uma tarefa</span> | <span class="preview">Tarefa > Atribuições > Avançado </span> |
-
+| Lista de relatórios | Relatórios (**Usar pastas compartilháveis** deve estar ativado) |
+| Lista de funções e taxas de trabalho em um cartão de taxa | Configuração > Cartões de Taxa > selecione um cartão de taxa > Funções e Taxas de Ordem de Produção |
+| Lista de traduções | Configuração > Localização |
+| Lista de instantâneos | Projeto > Instantâneos |
+| Lista de recursos para faturamento | Projeto > Recurso para Faturamento |
+| Novas atribuições avançadas em uma tarefa | Tarefa > Atribuições > Avançado |
 
 ## Adicionar itens a uma lista aprimorada
 
@@ -189,8 +186,6 @@ Para adicionar e remover colunas:
 
    A lista atualiza as colunas de acordo com as escolhas feitas.
 
-<div class="preview">
-
 ### Alterar a altura da linha em uma exibição
 
 >[!NOTE]
@@ -204,8 +199,6 @@ Para adicionar e remover colunas:
    * Padrão. Esta é a opção padrão.
    * Médio
    * Alta
-
-</div>
 
 ## Atualizar elementos de lista aprimorados
 
@@ -261,17 +254,15 @@ Para compartilhar uma exibição:
 
    * **Modo de exibição**: os usuários podem aplicar o modo de exibição à lista, mas não podem compartilhá-lo.
 
-     <span class="preview">Quando os usuários do acesso de Visualização atualizam a visualização, essas alterações são salvas nas preferências pessoais do usuário. Um ponto azul no nome da exibição (nas **Exibições Compartilhadas** do usuário) mostra que atualizações pessoais são aplicadas à exibição.</span>
+     Quando usuários com acesso de Visualização atualizam a visualização, essas alterações são salvas nas preferências pessoais do usuário. Um ponto azul no nome da exibição (nas **Exibições Compartilhadas** do usuário) mostra que atualizações pessoais são aplicadas à exibição.
 
    * **Gerenciar**: os usuários podem renomear, compartilhar ou excluir o modo de exibição e editar os seus elementos.
 
-     <span class="preview">Quando a opção Gerenciar acesso fizer alterações na exibição, todos os usuários que tiverem a exibição compartilhada com eles verão essas atualizações quando a exibição for aplicada à lista.</span>
+     Quando Gerenciar acesso de usuários fazem alterações na exibição, todos os usuários que têm a exibição compartilhada com eles verão essas atualizações quando a exibição for aplicada à lista.
 
 1. Clique em **Salvar**.
 
-   <span class="preview">Se você compartilhar um modo de exibição com um usuário e depois remover esse acesso, o modo de exibição será removido das **Exibições Compartilhadas** do usuário. Se o usuário tiver a exibição compartilhada aplicada à lista quando seu acesso for removido, a exibição padrão do sistema será aplicada.</span>
-
-<div class="preview">
+   Se você compartilhar uma exibição com um usuário e, em seguida, remover esse acesso, a exibição será removida das **Exibições Compartilhadas** do usuário. Se a visualização compartilhada do usuário tiver sido aplicada à lista quando o acesso for removido, a visualização padrão do sistema será aplicada.
 
 ### Copiar uma exibição
 
@@ -291,10 +282,6 @@ Quando uma exibição é compartilhada com você para a qual você não tem perm
    >
    >A opção **Copiar com Preferências** só estará disponível depois que você fizer alterações em uma exibição que foi compartilhada com você.
 
-</div>
-
-<div class="preview">
-
 ### Redefinir uma visualização
 
 >[!NOTE]
@@ -312,10 +299,6 @@ Quando uma exibição é compartilhada com você e você não tem permissão par
    >A opção **Redefinir para o padrão** só estará disponível depois que você fizer alterações em uma exibição compartilhada com você.
 
    ![Copiar e redefinir opções de exibição](assets/glist-copy-view-shared-with-you.png)
-
-</div>
-
-<div class="preview">
 
 ### Aplicar formatação condicional em uma exibição
 
@@ -363,8 +346,6 @@ A formatação condicional ajuda a realçar informações importantes na exibiç
 A formatação é aplicada imediatamente à exibição de lista.
 Há um ponto azul ao lado do ícone **Formatar células** para indicar que a exibição tem formatação especial aplicada.
 
-</div>
-
 ### Filtrar itens em uma lista aprimorada
 
 >[!NOTE]
@@ -385,9 +366,7 @@ Os filtros ajudam a reduzir a quantidade de informações exibidas na lista.
 
    >[!TIP]
    >
-   ><span class="preview">Para aplicar um filtro personalizado, selecione uma das seguintes opções para um valor de campo:</span>
-   >
-   ><div class="preview">
+   >Para aplicar um filtro personalizado, selecione uma das seguintes opções para um valor de campo:
    >
    >* **Eu (usuário conectado)** para fazer referência ao usuário conectado nos campos que fazem referência aos usuários.
    >
@@ -398,8 +377,6 @@ Os filtros ajudam a reduzir a quantidade de informações exibidas na lista.
    >* **Minha empresa** para fazer referência à sua empresa nos campos que fazem referência a empresas.
    > 
    >* **Minhas funções** ou **Minha função principal** para fazer referência às suas funções de trabalho em campos que fazem referência às funções.
-   >
-   ></div>
 
 1. Clique em **Adicionar condição** para adicionar outra condição ao filtro.
 

@@ -6,7 +6,8 @@ title: Configurar uma função de trabalho para faturamento
 description: O Workfront permite cobrar de um usuário uma função de trabalho diferente da função de trabalho principal. Isso é útil quando uma pessoa executa temporariamente um trabalho que deve ser faturado a uma taxa diferente.
 author: Lisa
 feature: Work Management
-source-git-commit: d92908d358ca53ae9d443fd76556e3e8b273e3cb
+exl-id: d6e2947d-2f40-4591-b048-9a769caadf43
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 5%
@@ -14,8 +15,6 @@ ht-degree: 5%
 ---
 
 # Configurar uma função de trabalho para faturamento
-
-{{highlighted-preview-article-level}}
 
 O Workfront permite cobrar de um usuário uma função de trabalho diferente da função de trabalho principal. Isso é útil quando uma pessoa executa temporariamente um trabalho que deve ser faturado a uma taxa diferente.
 

@@ -7,7 +7,8 @@ description: Você pode compartilhar um cartão de taxa com usuários, funções
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 760fa2a0833367604b23a4617359f2ca6596e15a
+exl-id: 9f2f9fd8-bca8-4a3d-b022-b51c080a78aa
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 13%
@@ -15,8 +16,6 @@ ht-degree: 13%
 ---
 
 # Compartilhar um cartão de tarifa
-
-{{highlighted-preview-article-level}}
 
 Você pode compartilhar um cartão de taxa com usuários, funções de trabalho, grupos, equipes, empresas e perfis comerciais.
 
@@ -70,4 +69,3 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. Clique em [!UICONTROL **Salvar**].
 
    Para obter mais informações sobre compartilhamento, consulte [Compartilhar um objeto](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-

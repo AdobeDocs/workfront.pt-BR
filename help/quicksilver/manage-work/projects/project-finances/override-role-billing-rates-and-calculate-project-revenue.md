@@ -6,7 +6,7 @@ description: É possível usar as taxas de faturamento para calcular a receita d
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: fda01f74912b5b9f28085e6dbc79ca3ba69e38fc
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '4653'
 ht-degree: 1%
@@ -15,16 +15,12 @@ ht-degree: 1%
 
 # Visão geral da substituição de taxas de faturamento e do cálculo de receita em um projeto
 
-{{highlighted-preview}}
-
 É possível usar as taxas de faturamento para calcular a receita dos projetos quando você as multiplica pelas horas gastas no projeto. Para obter mais informações sobre taxas de cobrança e receita, consulte o artigo [Visão Geral de Faturamento e Receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 ## Visão Geral de Taxas de Faturamento e Tipos de Receita de tarefa
 
 Como administrador do Adobe Workfront, você pode associar taxas de faturamento a usuários e funções de trabalho.\
 Para obter mais informações sobre como criar usuários e associá-los a taxas de cobrança, consulte o artigo [Adicionar usuários](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md). Para obter mais informações sobre como criar funções de trabalho e associá-las a taxas de cobrança, consulte o artigo [Criar e gerenciar funções de trabalho](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
-
-<div class="preview">
 
 ### Visão geral - Pacote de fluxo de trabalho do Ultimate
 
@@ -50,8 +46,6 @@ Para calcular receita em projetos com base nas taxas de faturamento de usuários
 
 Para obter mais informações sobre **Tipo de receita** e taxas de cobrança, consulte [Visão geral de cobrança e receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-</div>
-
 ### Visão geral - todos os outros pacotes de Workfront e Fluxo de trabalho
 
 Taxas de cobrança associadas a usuários não podem ser substituídas.
@@ -65,8 +59,6 @@ Para calcular a receita em projetos com base nas taxas de cobrança de funções
 * Horas por Valor da Hora do Perfil mais Taxa Fixa
 
 Para obter mais informações sobre **Tipo de receita** e taxas de cobrança, consulte [Visão geral de cobrança e receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-<div class="preview">
 
 ## Hierarquia de sobreposições de Taxa de Faturamento ao calcular a Receita - pacote Ultimate de workflow
 
@@ -87,8 +79,6 @@ Uma função de trabalho pode ter uma taxa de cobrança associada a ela das segu
   As taxas de função de trabalho alteradas no projeto afetarão somente esse projeto.
 
   Para obter informações sobre substituição de taxas de função para o projeto, consulte [Substituir taxas de cobrança de função de trabalho no nível do projeto](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
-
-</div>
 
 ## Hierarquia de sobreposições de Taxa de Faturamento ao calcular Receita - todos os outros pacotes de Workfront e Workflow
 
@@ -123,19 +113,17 @@ Uma função de trabalho pode ter uma taxa de cobrança associada a ela das segu
 
 Como gerente de projeto, você pode especificar a taxa de faturamento de uma função de trabalho em um projeto específico. Essa taxa de cobrança no nível do projeto substitui a taxa de cobrança no nível do sistema para essa função de trabalho. O Workfront usa a taxa de cobrança no nível do projeto da função de trabalho para calcular a receita, em vez de usar a taxa de cobrança no nível do sistema.
 
-<span class="preview">Você também pode anexar um cartão de taxa ao projeto, o que importará as taxas de cobrança da função de trabalho do cartão de taxa para o projeto.</span>
+Você também pode anexar um cartão de taxa ao projeto, que importará as taxas de faturamento da função de trabalho do cartão de taxa para o projeto.
 
 Para obter informações sobre como substituir as Taxas de Cobrança de Função de Trabalho no nível do projeto, consulte [Substituir Taxas de Cobrança de Função de Trabalho no nível do projeto](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 Para obter mais informações sobre qual função de trabalho é usada para calcular a receita do projeto, consulte a seção [Cálculos de receita para tarefas baseadas em atribuições de usuário e função](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) em [Visão geral de faturamento e receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-<span class="preview">Para obter informações sobre como anexar um cartão de taxa a um projeto, consulte [Anexar um cartão de taxa a um projeto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
+Para obter informações sobre como anexar um cartão de taxa a um projeto, consulte [Anexar um cartão de taxa a um projeto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
 >[!NOTE]
 >
 >No caso da receita real, as taxas de cobrança aplicadas a horas que são adicionadas a um registro de cobrança que está marcado como faturado não devem ser afetadas por sobreposições de taxa de cobrança que ocorrem após o registro de cobrança ter sido faturado.
-
-<div class="preview">
 
 ## Visão geral da seção Taxas de faturamento de um projeto - pacote Ultimate de workflow
 
@@ -158,8 +146,6 @@ Se você tiver várias taxas de faturamento de sobreposição para uma função 
 >Quando a **Data de Início** ou a **Data de Término** está em branco para uma taxa efetiva por data, a Workfront presume que a primeira taxa de substituição é aplicada para todas as horas com uma data anterior à **Data de Término** da primeira substituição e a última taxa de substituição é aplicada para todas as horas com uma data posterior à **Data de Início** da última substituição.
 >Se uma hora for registrada antes da Data de início planejada do projeto, a primeira taxa de cobrança será usada.\
 >Se uma hora for registrada depois da Data de conclusão planejada do projeto, a última taxa de cobrança será usada.
-
-</div>
 
 ## Visão Geral da seção Taxas de Faturamento de um projeto - todos os outros pacotes do Workfront e do Workflow
 
@@ -199,7 +185,7 @@ Na linha de agrupamento de uma função de trabalho, observe a taxa de cobrança
 
 ### Vários valores de Taxa de Cobrança e cronogramas {#multiple-billing-rate-values-and-timeframes}
 
-Se você tiver várias taxas de faturamento de sobreposição para uma função de trabalho específica, elas serão listadas no agrupamento dessa função de trabalho. Usando a edição em linha, você pode alterar as taxas de substituição e a **Data de início**&#x200B;**Data** e a **Data de término** das taxas de cobrança de substituição nesta guia. Ou selecione uma taxa e clique no ícone **Editar** para definir taxas de substituição de data efetiva.
+Se você tiver várias taxas de faturamento de sobreposição para uma função de trabalho específica, elas serão listadas no agrupamento dessa função de trabalho. Usando a edição em linha, você pode alterar as taxas de substituição e a **Data de início****Data** e a **Data de término** das taxas de cobrança de substituição nesta guia. Ou selecione uma taxa e clique no ícone **Editar** para definir taxas de substituição de data efetiva.
 
 >[!NOTE]
 >
@@ -219,7 +205,7 @@ Considere o seguinte ao calcular a Receita Planejada com base em uma substituiç
 
 * Quando o **Tipo de Receita** de uma tarefa é **Função por Hora**, a Workfront multiplica as Horas Planejadas de uma tarefa pela taxa de cobrança da função de trabalho associada à tarefa para calcular a Receita Planejada na tarefa.
 
-* <span class="preview">Quando o **Tipo de Receita** de uma tarefa é **Usuário e Função por Hora**, a Workfront usa uma hierarquia para determinar a taxa de cobrança para cada tarefa. Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
+* Quando o **Tipo de Receita** de uma tarefa é **Usuário e Função por Hora**, a Workfront usa uma hierarquia para determinar a taxa de cobrança para cada tarefa. Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * Quando a taxa de faturamento da função de trabalho for substituída no nível do projeto, o Workfront usará a taxa de substituição do projeto para calcular a Receita Planejada.
 * Quando uma tarefa tem várias atribuições, a Receita Planejada é calculada multiplicando-se a taxa de faturamento da função de trabalho de cada atribuição e sua respectiva alocação de Hora Planejada.
@@ -238,16 +224,12 @@ Considere o seguinte ao calcular a Receita Planejada com base em várias sobrepo
 
   Para obter mais informações sobre qual função de trabalho é usada para calcular a Receita Planejada, consulte a seção &quot;Understanding Revenue Calculations for Tasks Based on User and Role Assignments&quot; no artigo [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-<div class="preview">
-
 * Quando o **Tipo de Receita** de uma tarefa é **Usuário e Função por Hora** e um usuário não está atribuído, a Workfront multiplica as Horas Planejadas de uma tarefa por um destes itens para calcular a Receita Planejada na tarefa:
 
    * Uma taxa de substituição manual para a função de trabalho na tarefa
    * A taxa de funções de trabalho do projeto, que pode vir de um cartão de taxa ou do nível do sistema.
 
   Para obter mais informações sobre qual função de trabalho é usada para calcular a Receita Planejada, consulte a [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) e a [seção Cálculos de receita para tarefas baseadas nas atribuições de Usuário e Função](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) no artigo [Visão geral de faturamento e receita](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-</div>
 
 * No caso de várias sobreposições de taxa de faturamento, a taxa pela qual as Horas Planejadas são multiplicadas é alterada durante a duração de uma tarefa. Por padrão, o Workfront distribui as Horas planejadas uniformemente pela duração de uma tarefa, alocando um número igual de horas para cada dia da tarefa. Ao calcular a **Receita planejada** para uma tarefa, o Workfront multiplica a Hora planejada por dia pela taxa de cobrança desse dia. No caso de várias taxas de cobrança, essa taxa pode ser diferente todos os dias.
 
@@ -295,7 +277,7 @@ Considere o seguinte ao calcular a Receita Real com base em uma sobreposição d
 
   Para obter mais informações sobre qual função de trabalho é usada para calcular **Receita Efetiva**, consulte a seção &quot;Entendendo os Cálculos de Receita para Tarefas com Base nas Atribuições de Usuário e Função&quot; no artigo [Visão Geral de Faturamento e Receita](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-* <span class="preview">Quando o **Tipo de Receita** de uma tarefa é **Usuário e Função por Hora**, a Workfront usa uma hierarquia para determinar a taxa de cobrança para cada tarefa. Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
+* Quando o **Tipo de Receita** de uma tarefa é **Usuário e Função por Hora**, a Workfront usa uma hierarquia para determinar a taxa de cobrança para cada tarefa. Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * Se a taxa de faturamento da função de trabalho tiver sido substituída no nível do projeto, o Workfront usará a taxa de substituição do projeto para calcular a Receita Efetiva. Quando você substitui a taxa de cobrança da função de trabalho no projeto, a **Receita Efetiva** do projeto é recalculada automaticamente usando a nova taxa ajustada.
 
@@ -312,7 +294,7 @@ Considere o seguinte ao calcular a Receita Real com base em várias sobreposiç�
 
 * Quando o **Tipo de Receita** de uma tarefa é **Função por Hora**, a Workfront multiplica as **Horas Efetivas** na tarefa pela taxa de cobrança das funções de trabalho atribuídas à tarefa para calcular a **Receita Efetiva** na tarefa. Horas efetivas são horas registradas diretamente na tarefa.
 
-* <span class="preview">Quando o **Tipo de Receita** de uma tarefa é **Usuário e Função por Hora**, a Workfront usa uma hierarquia para determinar a taxa de cobrança para cada tarefa. Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
+* Quando o **Tipo de Receita** de uma tarefa é **Usuário e Função por Hora**, a Workfront usa uma hierarquia para determinar a taxa de cobrança para cada tarefa. Para obter mais informações, consulte [Visão geral da hierarquia de receita e custo](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * No caso de várias substituições de taxa de cobrança, a taxa pela qual as **Horas Efetivas** são multiplicadas para calcular a **Receita Efetiva** pode mudar durante a duração de uma tarefa. A Workfront usa a taxa de cobrança da função de trabalho cujo período corresponde à **Data de Entrada** das horas registradas para a tarefa para calcular **Receita Efetiva.**
 
@@ -348,7 +330,7 @@ Nesses casos, o número de Horas planejadas por dia pode ser diferente entre doi
 
 Considere o seguinte ao calcular a Receita Planejada para usuários em fusos horários diferentes:
 
-* Para tarefas que têm um **Tipo de Receita** de **Função por Hora** ou <span class="preview">**Usuário e Função por Hora**</span> e são atribuídas a funções de trabalho, a **Receita Planejada** é calculada multiplicando-se as **Horas Planejadas** de uma tarefa pela taxa de cobrança da função de trabalho.
+* Para tarefas que têm um **Tipo de Receita** de **Função por Hora** ou **Usuário e Função por Hora** e são atribuídas a funções de trabalho, a **Receita Planejada** é calculada multiplicando-se as **Horas Planejadas** de uma tarefa pela taxa de cobrança da função de trabalho.
 
 * As **Horas Planejadas** são distribuídas uniformemente pela **Duração** da tarefa.
 
@@ -365,7 +347,7 @@ Considere o seguinte ao calcular a Receita Planejada para usuários em fusos hor
 
 Considere o seguinte ao calcular a Receita Real para usuários em fusos horários diferentes:
 
-* Quando o **Tipo de Receita** de uma tarefa é **Função por Hora** ou <span class="preview">**Usuário e Função por Hora**</span>, a Workfront multiplica as **Horas Efetivas** na tarefa pela taxa de cobrança das funções de trabalho atribuídas à tarefa para calcular a **Receita Efetiva**. Horas efetivas são horas registradas diretamente na tarefa.
+* Quando o **Tipo de Receita** de uma tarefa é **Função por Hora** ou **Usuário e Função por Hora**, a Workfront multiplica as **Horas Efetivas** na tarefa pela taxa de cobrança das funções de trabalho atribuídas à tarefa para calcular a **Receita Efetiva**. Horas efetivas são horas registradas diretamente na tarefa.
 
 * No caso de várias substituições de taxa de cobrança, a Workfront usa a taxa de cobrança da função de trabalho cujo período corresponde à **Data de Entrada** das horas registradas para a tarefa para calcular **Receita Efetiva**.
 

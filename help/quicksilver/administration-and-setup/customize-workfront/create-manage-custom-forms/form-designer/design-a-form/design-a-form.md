@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 15592c8dee4bae503382205b38b5daaef5cc74dd
 workflow-type: tm+mt
-source-wordcount: '7426'
+source-wordcount: '7329'
 ht-degree: 94%
 
 ---
@@ -63,17 +63,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. Clique em **Novo formulário personalizado.**
 1. Selecione os tipos de objeto aos quais você deseja anexar o formulário personalizado e clique em **Continuar**.
 
-<div class="preview">
-
-Imagem de exemplo no ambiente de Pré-visualização:
-
-![Escolha os tipos de objeto](assets/new-custom-form-select-objects-032526.png)
-
-</div>
-
-Imagem de amostra no ambiente de produção:
-
-![Escolha os tipos de objeto](assets/new-custom-form-select-objects.png)
+   ![Escolha os tipos de objeto](assets/new-custom-form-select-objects-032526.png)
 
 +++ Expanda para exibir a lista de objetos que oferecem suporte a formulários personalizados.
 
@@ -89,9 +79,7 @@ Imagem de amostra no ambiente de produção:
 * Iteração
 * Registro de cobrança
 * Grupo
-* <span class="preview">Equipe</span>
-
-<div class="preview">
+* Equipe
 
 Se você estiver no pacote Workflow Ultimate, também poderá criar formulários personalizados para esses objetos:
 
@@ -99,15 +87,10 @@ Se você estiver no pacote Workflow Ultimate, também poderá criar formulários
 * Cartão de tarifa
 * Atribuição
 
-</div>
-
 +++
 
 1. Na área **Adicionar nome de formulário**, digite o título do formulário personalizado.
-1. <span class="preview">(Opcional) Se quiser adicionar mais tipos de objeto ao formulário para que ele possa ser anexado a mais objetos, clique em **Tipos de Objeto** no cabeçalho do designer de formulário. Selecione os tipos de objeto que deseja adicionar e desmarque todos os tipos de objeto que deseja excluir do formulário.</span>
-1. (Opcional) Se você quiser adicionar mais tipos de objeto ao formulário para que ele possa ser anexado a mais objetos, clique no ícone **Adicionar** ![ícone Adicionar objetos](assets/add-objects-icon.png) ao lado de **Tipos de objeto** e selecione o tipo desejado no menu exibido. Você pode repetir esse processo para adicionar quantos tipos de objeto desejar.
-
-   Depois de adicionar mais de um objeto ao formulário, você pode clicar no X em um tipo de objeto para excluí-lo do formulário.
+1. (Opcional) Se quiser adicionar mais tipos de objeto ao formulário para que ele possa ser anexado a mais objetos, clique em **Tipos de Objeto** no cabeçalho do designer de formulário. Selecione os tipos de objeto que deseja adicionar e desmarque todos os tipos de objeto que deseja excluir do formulário.
 
    >[!CAUTION]
    >
@@ -301,8 +284,8 @@ Para adicionar um campo de texto:
     </ul></td>
     </tr>
     <tr>
-      <td><span class="preview">Tipo de permissão de finanças</span></td>
-      <td><p><span class="preview">Selecione o tipo de permissão financeira que os usuários devem ter para exibir ou editar este campo personalizado. O formato Moeda deve ser selecionado.</span></p>
+      <td>Tipo de permissão de finanças</td>
+      <td><p>Selecione o tipo de permissão financeira que os usuários devem ter para exibir ou editar este campo personalizado. O formato Moeda deve ser selecionado.</p>
       <ul>
       <li><p><strong>Nenhuma permissão necessária:</strong> todos os usuários podem ver este campo</p></li>
       <li><p><strong>Geral:</strong> os usuários devem ter permissões para editar ou exibir Finanças Gerais</p></li>
@@ -457,8 +440,8 @@ Para adicionar botões de opção, grupos de caixas de seleção e listas suspen
     </ul></td>
     </tr> 
     <tr>
-      <td><span class="preview">Tipo de permissão de finanças</span></td>
-      <td><p><span class="preview">Selecione o tipo de permissão financeira que os usuários devem ter para exibir ou editar este campo personalizado. O formato Moeda deve ser selecionado.</span></p>
+      <td>Tipo de permissão de finanças</td>
+      <td><p>Selecione o tipo de permissão financeira que os usuários devem ter para exibir ou editar este campo personalizado. O formato Moeda deve ser selecionado.</p>
       <ul>
       <li><p><strong>Nenhuma permissão necessária:</strong> todos os usuários podem ver este campo</p></li>
       <li><p><strong>Geral:</strong> os usuários devem ter permissões para editar ou exibir Finanças Gerais</p></li>
@@ -721,8 +704,8 @@ Para adicionar uma pesquisa externa:
       </ul></td>
      </tr> 
      <tr>
-      <td><span class="preview">Tipo de permissão de finanças</span></td>
-      <td><p><span class="preview">Selecione o tipo de permissão financeira que os usuários devem ter para exibir ou editar este campo personalizado. O formato Moeda deve ser selecionado.</span></p>
+      <td>Tipo de permissão de finanças</td>
+      <td><p>Selecione o tipo de permissão financeira que os usuários devem ter para exibir ou editar este campo personalizado. O formato Moeda deve ser selecionado.</p>
       <ul>
       <li><p><strong>Nenhuma permissão necessária:</strong> todos os usuários podem ver este campo</p></li>
       <li><p><strong>Geral:</strong> os usuários devem ter permissões para editar ou exibir Finanças Gerais</p></li>
@@ -753,12 +736,12 @@ Para adicionar uma pesquisa externa:
       <td role="rowheader">Caminho JSON</td>
       <td><p>Digite ou cole o caminho JSON para a API.</p> <p>Essa opção permite extrair dados do JSON retornado pelo URL da API. Ela serve como uma maneira de selecionar quais valores dentro do JSON aparecerão nas opções de lista suspensa.</p><p>Por exemplo, se o URL da API retornar JSON no seguinte formato, você poderá usar “$.data[*].name” para selecionar EUA e Canadá como opções de lista suspensa:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "EUA"},
          { name: "Canadá"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Para obter mais informações sobre o caminho JSON e garantir que você o escreva corretamente, consulte <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>

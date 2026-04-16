@@ -9,7 +9,7 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 676cd1697ae2f379a699075f4e1ab06886c6837a
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
 source-wordcount: '3415'
 ht-degree: 1%
@@ -17,8 +17,6 @@ ht-degree: 1%
 ---
 
 # Criar atribuições avançadas
-
-{{highlighted-preview}}
 
 <!-- Audited: 11/2025-->
 
@@ -43,8 +41,8 @@ Você pode ajustar as seguintes informações de atribuição ao fazer atribuiç
 * Ajuste e redistribua o número de horas que cada destinatário é alocado.
 * Determine qual usuário deve ser designado como o proprietário ou o Principal responsável pela tarefa ou problema.
 * Especifique qual função cada usuário está cumprindo ao trabalhar na tarefa ou problema.
-* <span class="preview">Adicionar informações de cobrança e de taxa de custo no nível de atribuição.</span>
-* <span class="preview">Revise os seguintes detalhes para cada atribuição: horas planejadas, custo total e receita total.</span>
+* Adicione informações sobre faturamento e taxa de custo no nível de atribuição.
+* Revise os seguintes detalhes para cada atribuição: horas planejadas, custo total e receita total.
 
 >[!NOTE]
 >
@@ -94,11 +92,17 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-<div class="preview">
-
 ## Criar atribuições avançadas - Pacote de fluxo de trabalho do Ultimate
 
 Este layout de Atribuições Avançadas se aplica somente a tarefas. Para problemas, consulte [Criar atribuições avançadas - todos os outros pacotes](#create-advanced-assignments--all-other-packages).
+
+<!--
+
+>[!NOTE]
+>
+>Use the experience switcher to choose between the old and new Advanced Assignments experiences. For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
+
+-->
 
 1. Vá para o projeto ao qual deseja atribuir uma tarefa.
 1. Clique em **Tarefas** ou **Problemas** no painel esquerdo e, em seguida, clique no nome de uma tarefa na lista.
@@ -313,8 +317,6 @@ Você só pode exibir dados de atribuição por datas para um único usuário ou
    ![Exibir por janela de datas](assets/resource-changes-view-by-dates.png)
 
    Quando terminar de revisar os dados, clique na seta na parte superior esquerda para retornar à janela Atribuições Avançadas.
-
-</div>
 
 ## Criar atribuições avançadas - todos os outros pacotes
 

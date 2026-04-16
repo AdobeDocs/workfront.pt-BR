@@ -9,7 +9,7 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '7855'
 ht-degree: 2%
@@ -409,9 +409,7 @@ Para editar campos na área Finanças:
 1. Comece a editar seu projeto conforme descrito acima.
 1. Clique em **Finanças** no painel esquerdo.
 
-   ![Área financeira na caixa de edição do projeto](assets/nwe-finance-in-edit-project-box-350x183.png)
-
-   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
+   ![Área financeira na caixa de edição do projeto](assets/edit-project-finance-section.png)
 
 1. Atualize as seguintes informações financeiras do projeto:
 
@@ -420,12 +418,12 @@ Para editar campos na área Finanças:
     <col> 
     <tbody> 
      <tr>
-      <td><strong><span class="preview">Usar taxas de câmbio efetivas na data do sistema</span></strong></td>
-      <td><p><span class="preview">Quando essa opção é selecionada, as taxas de câmbio efetivas no nível do sistema são sempre usadas e as substituições de taxa de câmbio não são permitidas no projeto.</span></p> <p><span class="preview">Você também deve selecionar a <strong>Data da Taxa de Câmbio</strong> de onde começar, quando a opção estiver selecionada.</span></p></td> 
+      <td><strong>Usar taxas de câmbio efetivas na data do sistema</strong></td>
+      <td><p>Quando essa opção é selecionada, as taxas de câmbio efetivas no nível do sistema são sempre usadas e as substituições de taxa de câmbio não são permitidas no projeto.</p> <p>Você também deve selecionar a <strong>Data da Taxa de Câmbio</strong> de onde começar, quando a opção estiver selecionada.</p></td> 
      </tr>
      <tr>
-      <td><strong><span class="preview">Preservar informações sobre as taxas de faturamento do projeto</span></strong></td>
-      <td><p><span class="preview">Quando você ativa esta opção, todas as taxas de faturamento de atribuição são permanentemente congeladas para a taxa aplicável mais alta da hierarquia de faturamento. Essa é uma seleção única, e você não pode desativar a opção depois que o projeto tem atribuições ou horas. Após a preservação, as taxas de cobrança de atribuições não podem ser alteradas, editadas ou substituídas em nenhum lugar do projeto.</span></p></td>
+      <td><strong>Preservar informações sobre as taxas de faturamento do projeto</strong></td>
+      <td><p>Quando você ativa esta opção, todas as taxas de faturamento de atribuição são permanentemente congeladas para a taxa aplicável mais alta da hierarquia de faturamento. Essa é uma seleção única, e você não pode desativar a opção depois que o projeto tem atribuições ou horas. Após a preservação, as taxas de cobrança de atribuições não podem ser alteradas, editadas ou substituídas em nenhum lugar do projeto.</p></td>
      </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Moeda</strong> </td> 

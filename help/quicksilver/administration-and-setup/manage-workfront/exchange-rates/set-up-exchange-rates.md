@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b16523bf6c37747702efe3b5ecfcc33801526af1
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 5%
@@ -20,8 +20,6 @@ ht-degree: 5%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 Como administrador do Adobe Workfront, você pode configurar taxas de câmbio de moeda no Workfront. Isso inclui o seguinte:
 
@@ -93,8 +91,6 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 1. (Opcional) Para excluir uma moeda, marque a caixa de seleção ao lado do nome da moeda e selecione **Excluir** na barra de ações na parte inferior da tela. Não é possível excluir a moeda padrão.
 
-<div class="preview">
-
 ## Definir datas de efetivação nas taxas de câmbio de uma moeda
 
 As datas de efetivação das taxas de câmbio de uma moeda são configuradas de forma que um valor de taxa termine em uma data específica e outra taxa comece. A taxa de câmbio para a data correta é então usada nos cálculos financeiros.
@@ -116,8 +112,6 @@ As datas de efetivação das taxas de câmbio de uma moeda são configuradas de 
 1. Digite o novo valor de **Taxa de câmbio**.
 1. (Opcional) Clique em **Adicionar taxa de efetivação de data** para adicionar mais taxas de câmbio com datas de efetivação para esta moeda.
 1. Clique em **Salvar**.
-
-</div>
 
 ## Permitir que os usuários modifiquem a moeda padrão de um projeto
 

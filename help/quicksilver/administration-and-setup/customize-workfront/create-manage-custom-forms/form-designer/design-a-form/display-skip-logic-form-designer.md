@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: a060b0023d6ea04f0eb1210c61b7add37a943842
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3544'
 ht-degree: 2%
 
 ---
 
 # Adicionar regras de lógica a formulários e campos personalizados
-
-{{highlighted-preview}}
 
 As regras lógicas permitem personalizar ainda mais os campos no formulário.
 
@@ -60,7 +58,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 Os formulários personalizados exibem ícones para indicar quando a lógica é aplicada aos campos.
 
-<span class="preview">Clique em **Mostrar lógica** no cabeçalho do designer de formulário para mostrar ou ocultar os ícones dos diferentes tipos de lógica de campo.</span>
+Clique em **Mostrar lógica** no cabeçalho do designer de formulário para mostrar ou ocultar os ícones para os diferentes tipos de lógica de campo.
 
 | Ícone | Definição |
 | --- | --- |
@@ -70,14 +68,14 @@ Os formulários personalizados exibem ícones para indicar quando a lógica é a
 | ![Ignorar ícone de lógica para o campo de referência](assets/skip-logic-bottom-left.png) | O campo é o campo de referência para lógica de salto. Se uma seleção específica for feita no campo de destino, o formulário pulará adiante para esse campo e os campos intermediários estarão ocultos. |
 | ![Lógica de validação para o campo de destino](assets/validation-logic-icon.png) | O campo é o campo de destino onde a lógica de validação é aplicada. Uma seleção ou valor específico no campo de referência determina se a validação falha. O campo de destino e o campo de referência podem ser os mesmos para a lógica de validação. |
 | ![Lógica de validação para o campo de referência](assets/validation-logic-reference-field.png) | O campo é o campo de referência para a lógica de validação. Uma seleção específica ou um valor nesse campo determina se a validação falha no campo de destino. O campo de destino e o campo de referência podem ser os mesmos para a lógica de validação. |
-| ![Lógica de valor padrão para o campo de destino](assets/default-value-logic-icon.png) | <span class="preview">O campo é o campo de destino onde a lógica de valor padrão é aplicada. Uma seleção ou um valor específico no campo de referência determina o valor padrão. O campo de destino e o campo de referência podem ser os mesmos para a lógica de valor padrão.</span> |
-| ![Lógica de valor padrão para o campo de referência](assets/default-value-logic-reference-field.png) | <span class="preview">O campo é o campo de referência para a lógica de valor padrão. Uma seleção ou valor específico nesse campo determina o valor padrão no campo de destino. O campo de destino e o campo de referência podem ser os mesmos para a lógica de valor padrão.</span> |
-| ![Lógica de formatação para o campo de destino](assets/formatting-logic-icon.png) | <span class="preview">O campo é o campo de destino onde a lógica de formatação é aplicada. Uma seleção ou um valor específico no campo de referência determina a formatação. O campo de destino e o campo de referência podem ser os mesmos para a lógica de formatação.</span> |
-| ![Lógica de formatação do campo de referência](assets/formatting-logic-reference-field.png) | <span class="preview">O campo é o campo de referência para a lógica de formatação. Uma seleção ou valor específico nesse campo determina a formatação no campo de destino. O campo de destino e o campo de referência podem ser os mesmos para a lógica de formatação.</span> |
-| ![Lógica de edição para o campo de destino](assets/editability-logic-icon.png) | <span class="preview">O campo é o campo de destino onde a lógica de editabilidade é aplicada. O campo pode ser editável ou somente leitura quando as condições definidas são atendidas. O campo de destino e o campo de referência podem ser os mesmos para a lógica de edição.</span> |
-| ![Lógica de edição para o campo de referência](assets/editability-logic-reference-field.png) | <span class="preview">O campo é o campo de referência para a lógica de edição. Quando as condições definidas são atendidas nesse campo, a lógica é aplicada no campo de público-alvo. O campo de destino e o campo de referência podem ser os mesmos para a lógica de edição.</span> |
+| ![Lógica de valor padrão para o campo de destino](assets/default-value-logic-icon.png) | O campo é o campo de destino onde a lógica de valor padrão é aplicada. Uma seleção ou um valor específico no campo de referência determina o valor padrão. O campo de destino e o campo de referência podem ser os mesmos para a lógica de valor padrão. |
+| ![Lógica de valor padrão para o campo de referência](assets/default-value-logic-reference-field.png) | O campo é o campo de referência para a lógica de valor padrão. Uma seleção ou valor específico nesse campo determina o valor padrão no campo de destino. O campo de destino e o campo de referência podem ser os mesmos para a lógica de valor padrão. |
+| ![Lógica de formatação para o campo de destino](assets/formatting-logic-icon.png) | O campo é o campo de destino onde a lógica de formatação é aplicada. Uma seleção ou um valor específico no campo de referência determina a formatação. O campo de destino e o campo de referência podem ser os mesmos para a lógica de formatação. |
+| ![Lógica de formatação do campo de referência](assets/formatting-logic-reference-field.png) | O campo é o campo de referência para a lógica de formatação. Uma seleção ou valor específico nesse campo determina a formatação no campo de destino. O campo de destino e o campo de referência podem ser os mesmos para a lógica de formatação. |
+| ![Lógica de edição para o campo de destino](assets/editability-logic-icon.png) | O campo é o campo alvo onde a lógica de capacidade de edição é aplicada. O campo pode ser editável ou somente leitura quando as condições definidas são atendidas. O campo de destino e o campo de referência podem ser os mesmos para a lógica de editabilidade. |
+| ![Lógica de edição para o campo de referência](assets/editability-logic-reference-field.png) | O campo é o campo de referência para a lógica de edição. Quando as condições definidas são atendidas nesse campo, a lógica é aplicada no campo de público-alvo. O campo de destino e o campo de referência podem ser os mesmos para a lógica de editabilidade. |
 
-<!-- ![Logic icons](assets/logic-icons-3.png) -->
+[Ícones lógicos](assets/custom-form-logic-icon-samples.png)
 
 Para lógica de exibição e de salto somente, selecione um campo para mostrar as regras de lógica existentes nas configurações do campo.
 
@@ -109,7 +107,7 @@ A lógica de exibição define quais campos personalizados aparecem no formulár
 
 >[!NOTE]
 >
-><span class="preview">Este procedimento descreve o modo básico da lógica de exibição. A lógica de exibição avançada também está disponível. Para obter mais informações, consulte [Adicionar lógica de exibição avançada a um formulário personalizado](#add-advanced-display-logic-to-a-custom-form), neste artigo.</span>
+>Este procedimento descreve o modo básico da lógica de exibição. A lógica de exibição avançada também está disponível. Para obter mais informações, consulte [Adicionar lógica de exibição avançada a um formulário personalizado](#add-advanced-display-logic-to-a-custom-form), neste artigo.
 
 {{step-1-to-setup}}
 
@@ -120,7 +118,7 @@ A lógica de exibição define quais campos personalizados aparecem no formulár
 1. Selecione a guia **Exibição** no construtor de lógica.
 1. Clique em **Adicionar Regra de Exibição**.
 
-   ![Exibir construtor de lógica](assets/simple-display-logic1-val-only-in-menu.png)
+   ![Exibir construtor de lógica](assets/simple-display-logic1.png)
 
 1. Siga as etapas abaixo para criar a instrução lógica no construtor.
 
@@ -135,9 +133,7 @@ A lógica de exibição define quais campos personalizados aparecem no formulár
 
 1. Clique em **Aplicar** quando terminar de criar a instrução lógica.
 
-   Os ícones de lógica de exibição são adicionados ao campo de destino e ao campo de definição no designer do formulário.
-
-<div class="preview">
+   A lógica é aplicada e os ícones de lógica são adicionados ao campo de destino e ao campo de referência no designer do formulário.
 
 ## Adicionar lógica de exibição avançada a um formulário personalizado
 
@@ -180,7 +176,7 @@ Usando a condição a seguir, o campo KPI Vendido só ficará visível quando o 
 1. Selecione a guia **Exibição** no construtor de lógica.
 1. Ative o **Modo avançado**.
 
-   Essa opção pode ser ativada automaticamente em campos que não oferecem suporte ao modo simples da lógica de exibição.
+   Essa opção pode ser ativada automaticamente para tipos de campo que não são compatíveis com o modo simples da lógica de exibição.
 
    ![Modo avançado para lógica de exibição](assets/advanced-display-logic-blank-editor.png)
 
@@ -190,13 +186,11 @@ Usando a condição a seguir, o campo KPI Vendido só ficará visível quando o 
 
 1. Clique em **Aplicar**.
 
-   A lógica é aplicada ao campo e o ícone da lógica de exibição é adicionado no designer do formulário.
+   A lógica é aplicada e os ícones de lógica são adicionados ao campo de destino e ao campo de referência no designer do formulário.
 
    >[!NOTE]
    >
    >A lógica de exibição avançada não é compatível com o modo de visualização do designer de formulário.
-
-</div>
 
 ## Adicionar lógica de salto a um formulário personalizado
 
@@ -211,7 +205,7 @@ A lógica de salto define campos de formulário personalizados que são ignorado
 1. Selecione a guia **Ignorar** no construtor de lógica.
 1. Clique em **Adicionar Regra de salto**.
 
-   ![Ignorar construtor de lógica](assets/skip-logic1-val-only-in-menu.png)
+   ![Ignorar construtor de lógica](assets/skip-logic1.png)
 
 1. Siga as etapas abaixo para criar a instrução lógica no construtor.
 
@@ -226,9 +220,7 @@ A lógica de salto define campos de formulário personalizados que são ignorado
 
 1. Clique em **Aplicar** quando terminar de criar a instrução lógica.
 
-   Os ícones de lógica de salto são adicionados ao campo de destino e ao campo de definição no designer do formulário.
-
-<div class="preview">
+   A lógica é aplicada e os ícones de lógica são adicionados ao campo de destino e ao campo de referência no designer do formulário.
 
 ## Adicionar lógica de valor padrão a um formulário personalizado
 
@@ -270,13 +262,11 @@ Quando o formulário personalizado é anexado a um projeto e o status do projeto
 
 1. Clique em **Aplicar**.
 
-   A lógica é aplicada ao campo no designer do formulário.
+   A lógica é aplicada e os ícones de lógica são adicionados ao campo de destino e ao campo de referência no designer do formulário.
 
    >[!NOTE]
    >
    >A lógica de valor padrão não tem suporte no modo de visualização do designer de formulário.
-
-</div>
 
 ## Adicionar lógica de validação a um formulário personalizado
 
@@ -313,7 +303,7 @@ Para obter mais exemplos de lógica de validação, consulte [Exemplos de lógic
 1. Selecione o campo ao qual aplicar lógica e clique em **Adicionar Lógica**.
 1. Selecione a guia **Validação** no construtor de lógica.
 
-   ![Construtor de lógica de validação](assets/validation-logic-blank-editor-val-only-in-menu.png)
+   ![Construtor de lógica de validação](assets/validation-logic-blank-editor.png)
 
 1. Crie a condição de validação no editor, incluindo a mensagem de erro a ser exibida quando a validação não for atendida.
 
@@ -321,13 +311,11 @@ Para obter mais exemplos de lógica de validação, consulte [Exemplos de lógic
 
 1. Clique em **Aplicar**.
 
-   A lógica é aplicada ao campo no designer do formulário.
+   A lógica é aplicada e os ícones de lógica são adicionados ao campo de destino e ao campo de referência no designer do formulário.
 
    >[!NOTE]
    >
    >Não há suporte para a lógica de validação no modo de visualização do designer de formulário.
-
-<div class="preview">
 
 ## Adicionar lógica de formatação a um formulário personalizado
 
@@ -386,15 +374,11 @@ IF(
 
 1. Clique em **Aplicar**.
 
-   A lógica é aplicada ao campo no designer do formulário.
+   A lógica é aplicada e os ícones de lógica são adicionados ao campo de destino e ao campo de referência no designer do formulário.
 
    >[!NOTE]
    >
    >A lógica de formatação não tem suporte no modo de visualização do designer de formulário.
-
-</div>
-
-<div class="preview">
 
 ## Adicionar lógica de editabilidade a um formulário personalizado
 
@@ -440,10 +424,8 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
 1. Clique em **Aplicar**.
 
-   A lógica é aplicada ao campo no designer do formulário.
+   A lógica é aplicada e os ícones de lógica são adicionados ao campo de destino e ao campo de referência no designer do formulário.
 
    >[!NOTE]
    >
    >A lógica de capacidade de edição não é compatível com o modo de visualização do designer de formulário.
-
-</div>

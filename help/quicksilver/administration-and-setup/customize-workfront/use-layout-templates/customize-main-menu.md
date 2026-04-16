@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 10%
+source-wordcount: '728'
+ht-degree: 11%
 
 ---
 
 # Personalizar o menu principal usando um modelo de layout
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -124,8 +122,6 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      >
      > Os aplicativos personalizados devem ser criados separadamente antes de serem disponibilizados como opções do Menu principal. Para obter mais informações, consulte [Criar um aplicativo personalizado para o Workfront com o Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-<div class="preview">
-
 No ambiente de Pré-visualização:
 
 1. Siga qualquer um destes procedimentos para os itens **Nativos**:
@@ -139,17 +135,9 @@ No ambiente de Pré-visualização:
    * Ocultar ![Ícone Ocultar](assets/remove-icon---x-in-circle.png) itens que você não deseja exibir no Menu Principal.
    * Mostrar ![ícone Mostrar](assets/add-icon-plus-in-circle.png) itens que você deseja exibir no Menu Principal.
 
-</div>
-
->[!NOTE]
->
-><span class="preview">Não é possível alterar a ordem dos itens do sistema. Esses itens sempre são exibidos na parte inferior do Menu Principal quando estão ativos.</span>
-
-1. No ambiente de Produção, execute um dos procedimentos a seguir:
-
-   * Ocultar ![Ícone Ocultar](assets/remove-icon---x-in-circle.png) **Itens ativos** que você não deseja exibir
-   * Mostrar ![ícone Mostrar](assets/add-icon-plus-in-circle.png) **Itens disponíveis** que você deseja exibir no Menu Principal.
-   * Arraste ![ícone Arrastar](assets/move-icon---dots.png) **Itens ativos** para alterar sua ordem de exibição no Menu Principal.
+   >[!NOTE]
+   >
+   >Você não pode alterar a ordem dos itens do sistema. Esses itens sempre são exibidos na parte inferior do menu principal quando estão ativos.
 
 1. Clique em **Concluído**.
 

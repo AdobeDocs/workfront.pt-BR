@@ -8,23 +8,25 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 9%
+source-wordcount: '663'
+ht-degree: 10%
 
 ---
 
 
 # Criar e gerenciar exibições na área Solicitações
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Se estiver usando a nova experiência de solicitação no Adobe Workfront, você pode criar e salvar exibições para a área Solicitações. Esses modos de exibição incluem filtros, arranjos de colunas <span class="preview"> e agrupamentos.</span>
+-->
 
+Se estiver usando a nova experiência de solicitação no Adobe Workfront, você pode criar e salvar exibições para a área Solicitações. Essas exibições incluem filtros, disposições de colunas e agrupamentos.
 
 >[!IMPORTANT]
 >
@@ -71,13 +73,7 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 +++
 
-<div class="preview">
-
 ## Visualizações do sistema para solicitações
-
->[!NOTE]
->
->As exibições do sistema podem não estar disponíveis em seu ambiente de Visualização. Eles estarão disponíveis na Produção para todos os clientes em 16 de abril de 2026.
 
 Além das exibições que você pode criar por conta própria, o Workfront oferece as seguintes exibições do sistema para a área Solicitações e o widget Minhas solicitações na Página inicial:
 
@@ -88,8 +84,6 @@ Além das exibições que você pode criar por conta própria, o Workfront ofere
 * **Solicitações Abertas**: Solicitações que você ou qualquer outra pessoa enviou em filas ou para espaços de trabalho que você tem permissões para exibir e que ainda estão abertos. Isso não está disponível para o widget Minhas solicitações.
 
 Não é possível editar visualizações do sistema. Você pode modificar os elementos, copiar a exibição e editar ou compartilhar a cópia.
-
-</div>
 
 ## Criar uma visualização para solicitações
 
@@ -128,14 +122,9 @@ Ao editar uma visualização, você pode alterar os seguintes elementos da visua
 * Nome
 * Filtros
 * Colunas
-
-<div class="preview">
-
 * Agrupamento
 * Formatar células
 * Altura da linha
-
-</div>
 
 Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -191,7 +180,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 >[!IMPORTANT]
 >
 > * As alterações nas exibições são salvas automaticamente.
-> * As alterações nos modos de exibição só estarão visíveis para qualquer pessoa que use o modo de exibição <span class="preview"> quando você compartilhar uma nova cópia do modo de exibição depois de ter feito alterações nele.</span>
+> * As alterações feitas nas exibições ficam visíveis para qualquer pessoa que a use somente quando você compartilha uma nova cópia da exibição depois de ter feito alterações nela.
 > * Use o curinga de filtro **Me (usuário conectado)** em qualquer campo que tenha usuários como o valor.
 
 ## Adicionar a exibição de solicitações a um modelo de layout
@@ -206,9 +195,9 @@ Você pode compartilhar visualizações criadas com outros usuários, equipes, g
 
 Depois de compartilhar uma visualização, outros usuários podem visualizá-la antes de compartilhá-la, os elementos de visualização atualizados que você editou.
 
-<span class="preview">Se eles atualizarem o modo de exibição, suas alterações não ficarão visíveis para outras pessoas, a menos que façam uma cópia do mesmo modo de exibição e preservem suas alterações antes de compartilharem a cópia.
+Se eles atualizarem a exibição, suas alterações não estarão visíveis para outras pessoas, a menos que façam uma cópia da mesma exibição e preservem suas alterações antes de compartilharem a cópia.
 
-Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 <!--
 Let's just redirect to Use enhanced lists so we avoid duplicating information. 

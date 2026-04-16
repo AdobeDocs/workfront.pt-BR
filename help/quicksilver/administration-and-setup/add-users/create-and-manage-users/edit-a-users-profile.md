@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: dbe12b780491212105ee62058aec7e708d207e1f
+source-git-commit: df1d844346d7ed26dcb004ba1a10ec9e8d07422a
 workflow-type: tm+mt
-source-wordcount: '3466'
+source-wordcount: '3417'
 ht-degree: 3%
 
 ---
 
 # Editar o perfil de um usuário
-
-{{highlighted-preview}}
 
 <!--
 
@@ -25,7 +23,7 @@ ht-degree: 3%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -319,15 +317,19 @@ Para obter mais informações, consulte [Configurar notificações de eventos pa
 
   Para taxas de custo atuais, clique em **Adicionar taxa**. Informe o valor da taxa de custo para o período e atribua uma Data Inicial e uma Data Final conforme necessário. A Taxa de Custo 1 não terá uma data inicial e a última taxa de custo não terá uma data final.
 
-  Algumas datas são adicionadas automaticamente. Por exemplo, se a Taxa de Custo 1 não tiver uma data final e você adicionar a Taxa de Custo 2 com uma data inicial de 1º de maio de 2023, uma data final de 30 de abril de 2023 será adicionada à Taxa de Custo 1 para que não haja lacunas.
+  <!--Some dates are added automatically. For example, if Cost Rate 1 does not have an end date, and you add Cost Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Cost Rate 1 so that no gaps exist.-->
 
-* <span class="preview">**Substituição de taxa de custo permitida**: ative esta opção para permitir substituições de taxa de custo para este usuário em projetos. Para obter mais informações, consulte [Substituir taxas de custo do usuário no nível do projeto](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).</span>
+  O Workfront permite que você deixe intervalos entre intervalos de datas, mas você receberá um aviso para confirmar que isso é intencional.
+
+* **Substituição de taxa de custo permitida**: ative esta opção para permitir substituições de taxa de custo para este usuário em projetos. Para obter mais informações, consulte [Substituir taxas de custo do usuário no nível do projeto](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
 
 * **Taxa de Cobrança**: a quantidade de cobrança por hora para o usuário.
 
   Para taxas de cobrança efetivas por data, clique em **Adicionar taxa**. Informe o valor da taxa de faturamento para o período e atribua uma Data Inicial e uma Data Final conforme necessário. A Taxa de Cobrança 1 não terá uma data inicial e a última taxa de cobrança não terá uma data final.
 
-  Algumas datas são adicionadas automaticamente. Por exemplo, se a Taxa de cobrança 1 não tiver uma data final e você adicionar um segundo com uma data inicial de 1º de maio de 2023, uma data final de 30 de abril de 2023 será adicionada à Taxa de cobrança 1 para que não haja lacunas.
+  <!--Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.-->
+
+  O Workfront permite que você deixe intervalos entre intervalos de datas, mas você receberá um aviso para confirmar que isso é intencional.
 
   ![Taxas de custo e cobrança do usuário](assets/user-cost-billing-rates-2025.png)
 
@@ -340,8 +342,6 @@ Associar um formulário personalizado de usuário existente a este usuário. Voc
 >Recursos avançados de formulário personalizado, como campos de pesquisa externos e campos nativos do Workfront, só estão disponíveis quando você abre o registro do usuário na página de detalhes, não na caixa de diálogo Editar usuário. (Na lista de usuários, clique no nome do usuário para abrir os detalhes.)
 
 Para obter informações sobre como criar formulários personalizados, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-
-<div class="preview">
 
 ### Atributos
 
@@ -360,8 +360,6 @@ Os atributos de taxa são suportados em áreas do Workfront onde existem taxas, 
       A **Data de Início** do próximo conjunto é adicionada automaticamente.
 
    1. Adicione os valores de atributo para o próximo conjunto de atributos. Esses valores entram em vigor na data inicial.
-
-</div>
 
 ### Comentário
 
