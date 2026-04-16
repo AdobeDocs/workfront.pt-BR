@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+source-git-commit: 62e23ddf3fc90c1e1e993ad4155564964be07b93
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1984'
 ht-degree: 12%
 
 ---
@@ -24,6 +24,25 @@ Este artigo descreve os recursos que estão sendo lançados para o Workfront Pla
 
 Para obter uma lista de todos os recursos lançados para o Adobe Workfront Planning, consulte [atividade de versão do Adobe Workfront Planning: índice do artigo](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## O Supervisor de conteúdo agora está disponível em registros conectados ao Adobe Experience Manager
+
+>[!NOTE]
+>
+>Visualização: 16 de abril de 2026
+>Versão rápida de produção: sexta-feira, 16 de abril de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
+Agora você pode acessar o Supervisor de Conteúdo do Experience Manager no Workfront Planning. O Supervisor de conteúdo permite:
+
+* Descubra conteúdo usando sugestões inteligentes ou detalhes do resumo da campanha
+* Avaliar rapidamente a adequação do conteúdo, visualizando os principais detalhes antes da reutilização
+* Detectar e reutilizar fragmentos de conteúdo
+* Explorar coleções para identificar conteúdo relacionado na marca
+
+Você pode selecionar ativos ou fragmentos de conteúdo do Supervisor de Conteúdo para usar em seus campos conectados no Planning.
+
+Para obter mais informações sobre como acessar o Supervisor de Conteúdo no Workfront Planning, consulte [Registros de conexão](/help/quicksilver/planning/records/connect-records.md).
 
 ## Novo recurso para aumentar a altura da linha para a exibição em lista
 

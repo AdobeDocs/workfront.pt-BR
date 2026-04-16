@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: 855ff527d54fa7212555675bf2d89466384b59ca
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1366'
 ht-degree: 2%
 
 ---
@@ -192,4 +192,23 @@ Os administradores do Workfront agora podem configurar regras de negócios para 
 Para obter mais informações, consulte [Criar e editar regras de negócios](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 [Assista a uma demonstração em vídeo dos aprimoramentos das Regras de Negócios.](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+
+
+### Lacunas permitidas nas taxas de data de efetivação
+
+>[!NOTE]
+>
+>Esse recurso está disponível para organizações em todos os pacotes de Workfront e Workflow.
+>Observe que os cartões de taxa só estão disponíveis para organizações no pacote Ultimate do Workflow.
+
+O Workfront permite que você deixe intervalos entre intervalos de datas em taxas de faturamento e custo, mas você receberá um aviso para confirmar que isso é intencional.
+
+Pode haver lacunas entre os intervalos de datas em todos os locais em que houver taxas:
+
+* Taxas em uma função de trabalho
+* Taxas em um perfil de usuário
+* Preços de um cartão de tarifas
+* Ao substituir qualquer uma dessas taxas no nível do projeto
+
+Para obter mais informações, consulte [Criar e gerenciar funções de trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Editar perfil de usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) e [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 

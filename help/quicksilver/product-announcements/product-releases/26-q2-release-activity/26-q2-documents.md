@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
+source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '818'
 ht-degree: 9%
 
 ---
@@ -19,6 +19,27 @@ ht-degree: 9%
 Esta página descreve as melhorias de documentos feitas com a versão do segundo trimestre de 2026 para o ambiente de Pré-visualização. Essas melhorias serão disponibilizadas no ambiente de produção, conforme indicado.
 
 Para obter uma lista de todas as alterações disponíveis neste momento no ciclo de lançamento do Segundo trimestre de 2026, consulte [Visão geral da versão do Segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Detecte e reutilize conteúdo com mais rapidez com o Content Advisor for AEM Assets no Workfront
+
+>[!NOTE]
+>
+>Visualização: 16 de abril de 2026
+>Versão rápida de produção: sexta-feira, 16 de abril de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
+
+O Supervisor de conteúdo agora está disponível no Workfront com a integração do Adobe Experience Manager Assets, facilitando a descoberta e a reutilização de conteúdo de alto valor existente pelas equipes.
+
+Com o Supervisor de conteúdo, você pode:
+
+* Descubra conteúdo usando sugestões inteligentes ou detalhes do resumo da campanha
+* Avaliar rapidamente a adequação do conteúdo, visualizando os principais detalhes antes da reutilização
+* Detectar e reutilizar fragmentos de conteúdo
+* Explorar coleções para identificar conteúdo relacionado na marca
+
+Essa integração ajuda as equipes a reduzir a criação de conteúdo duplicado, acelerar a execução e maximizar o valor dos ativos existentes do AEM — diretamente no Workfront.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
 ## Provisionamento do GenStudio Foundations ativado para oferecer suporte a colaboradores de IA
 
