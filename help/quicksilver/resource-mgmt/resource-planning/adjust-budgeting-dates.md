@@ -6,14 +6,14 @@ description: Se você descobrir que há superalocações de seus recursos depois
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 1%
+source-wordcount: '506'
+ht-degree: 9%
 
 ---
 
-# Ajustar datas de orçamento no Planejador de recursos
+# Ajustar datas de orçamento no planejador de recursos
 
 Se você descobrir que há superalocações de seus recursos depois de tê-los orçado no Planejador de Recursos, poderá explorar cenários hipotéticos movendo as Horas Orçadas, FTE ou Custos para outro intervalo de tempo. Com base nos resultados nesses cenários, você pode ajustar as Horas orçadas, o FTE ou o Custo.
 
@@ -21,7 +21,7 @@ As superalocações podem aparecer quando as Horas Orçadas, o FTE ou os Custos 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,16 +33,17 @@ As superalocações podem aparecer quando as Horas Orçadas, o FTE ou os Custos 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso ao Gerenciamento de recursos que inclui acesso a Editar prioridades e horas de orçamento no Planejador de recursos</p> <p>Editar acesso a Dados Financeiros, Projetos e Usuários</p></td> 
+   <td> <p>Editar acesso ao Gerenciamento de recursos que inclui acesso a Editar prioridades e horas de orçamento no Planejador de recursos</p> <p>Editar acesso aos Dados Financeiros que incluem acesso a Editar Taxas de Custo e Editar Finanças Gerais</p>
+   <p>Editar acesso a projetos e usuários</p></td> 
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para os projetos para os quais você deseja orçar informações com a capacidade de Gerenciar Finanças</p></td> 
+   <td> <p>Gerenciar permissões para os projetos para os quais você deseja orçar informações com a capacidade de Editar Taxas de Custo e Editar Finanças Gerais</p></td> 
   </tr> 
  </tbody> 
 </table>

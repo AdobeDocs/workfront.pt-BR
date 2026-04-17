@@ -6,14 +6,14 @@ description: Você pode estimar seus recursos no Planejador de Recursos da Adobe
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 0%
+source-wordcount: '1412'
+ht-degree: 3%
 
 ---
 
-# Calcular custos no Planejador de recursos
+# Calcular custos no planejador de recursos
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
-Você pode estimar seus recursos no Planejador de Recursos da Adobe Workfront usando valores de Custo, em vez de valores de Horas ou FTE. Os valores de custo não estão disponíveis para a exibição **Visualizar por Usuário** no Planejador de Recursos.
+Você pode estimar seus recursos no Planejador de Recursos da Adobe Workfront usando valores de Custo, em vez de valores de Horas ou FTE. Os valores de custo não estão disponíveis para a visualização **Visualizar por Usuário** no Planejador de Recursos.
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ Para obter mais informações sobre como entender as informações no Planejador
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,16 +46,17 @@ Para obter mais informações sobre como entender as informações no Planejador
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso ao Gerenciamento de recursos que inclui acesso a Editar prioridades e horas de orçamento no Planejador de recursos</p> <p>Editar acesso a Dados Financeiros, Projetos e Usuários</p></td> 
+   <td> <p>Editar acesso ao Gerenciamento de recursos que inclui acesso a Editar prioridades e horas de orçamento no Planejador de recursos</p> <p>Editar acesso aos Dados Financeiros que incluem acesso a Editar Taxas de Custo e Editar Finanças Gerais</p>
+   <p>Editar acesso a projetos e usuários</p></td> 
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para os projetos para os quais você deseja orçar informações com a capacidade de Gerenciar Finanças</p></td>
+   <td> <p>Gerenciar permissões para os projetos para os quais você deseja orçar informações com a capacidade de Editar Taxas de Custo e Editar Finanças Gerais</p></td>
   </tr> 
  </tbody> 
 </table>

@@ -6,14 +6,14 @@ description: Você pode estimar recursos no Planejador de recursos do Adobe Work
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '2098'
-ht-degree: 0%
+source-wordcount: '2109'
+ht-degree: 3%
 
 ---
 
-# Recursos de orçamento no Planejador de recursos usando as visualizações Projeto e Função
+# Orçar recursos no planejador de recursos usando as visualizações Projeto e Função
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: broken off of another larger article (Planning in the RP); reformat, restructure, relink)</p>
@@ -29,11 +29,11 @@ Antes de começar a orçar as informações no Planejador de recursos, consulte 
 
 * [Visão geral do Planejador de recursos](../../resource-mgmt/resource-planning/get-started-resource-planner.md)
 * [Acesso necessário para estimar recursos no Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
-* [Visão geral de horas, FTE e informações de custo nas visualizações Projeto e Função do Planejador de recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+* [Visão geral de horas, FTE e informações de custo nas visualizações de Projeto e Função do planejador de recursos](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,12 +45,12 @@ Antes de começar a orçar as informações no Planejador de recursos, consulte 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso ao Gerenciamento de recursos que inclui acesso a Editar prioridades e horas de orçamento no Planejador de recursos</p> <p>Editar acesso a Dados Financeiros para recursos de orçamento por Custo</p> <p>Editar acesso a projetos e usuários</p></td> 
+   <td> <p>Editar acesso ao Gerenciamento de recursos que inclui acesso a Editar prioridades e horas de orçamento no Planejador de recursos</p> <p>Editar o acesso aos Dados Financeiros, que incluem o acesso a Editar Taxas de Custo e Editar Finanças Gerais, para estimar recursos por Custo</p> <p>Editar acesso a projetos e usuários</p></td> 
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
@@ -104,7 +104,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
    * Clique no menu **Mais** do projeto e em **Definir as horas planejadas das funções como orçadas**.\
      As horas orçadas para cada função são calculadas usando a seguinte fórmula:\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -153,7 +153,7 @@ Você deve ter acesso de Edição a Gerenciamento de Recursos e a Dados Financei
 
 Para obter informações sobre o acesso necessário para recursos de orçamento, consulte o artigo [Acesso necessário para recursos de orçamento no Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Para alocações de orçamento no Planejador de recursos na visualização de função **&#x200B;**:
+Para alocações de orçamento no Planejador de recursos na visualização de função ****:
 
 1. Clique no ícone **Menu principal** ![Ícone do menu principal](assets/main-menu-icon.png), no canto superior direito do Adobe Workfront.
 
@@ -174,8 +174,8 @@ Para alocações de orçamento no Planejador de recursos na visualização de fu
    * Na coluna **BDG**, especifique manualmente um número de horas orçadas, FTE ou custo para as funções de trabalho.\
      Isso distribui as Horas orçadas da função para as Horas orçadas do projeto para os projetos que você tem acesso para gerenciar.
 
-   * Clique no menu **Mais** da função de trabalho e clique em **Definir as horas planejadas dos projetos como orçadas.**&#x200B;As horas orçadas da função são calculadas usando a seguinte fórmula:\
-     &#x200B;*
+   * Clique no menu **Mais** da função de trabalho e clique em **Definir as horas planejadas dos projetos como orçadas.**As horas orçadas da função são calculadas usando a seguinte fórmula:\
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

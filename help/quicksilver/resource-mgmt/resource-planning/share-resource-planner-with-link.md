@@ -6,14 +6,14 @@ description: O Adobe Workfront pode gerar um URL exclusivo para a Visualização
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 1%
+source-wordcount: '649'
+ht-degree: 7%
 
 ---
 
-# Compartilhar a visualização de usuário do Planejador de recursos com um link
+# Compartilhar a visualização de usuário do planejador de recursos com um link
 
 O Adobe Workfront pode gerar um URL exclusivo para a Visualização de usuário do Planejador de recursos, que você pode incorporar em um painel como uma Página externa ou abri-lo separadamente em uma nova guia do navegador. Isso é útil ao compartilhar as informações do Planejador de recursos com usuários que podem não ter acesso direto à área Recursos.
 
@@ -21,7 +21,7 @@ O Adobe Workfront pode gerar um URL exclusivo para a Visualização de usuário 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,12 +34,12 @@ O Adobe Workfront pode gerar um URL exclusivo para a Visualização de usuário 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td> <p>Acesso de visualização ou superior ao Gerenciamento de recursos, Projetos e Usuários</p> <p>Exibir acesso a Dados Financeiros para exibir informações de custo</p></td> 
+   <td> <p>Acesso de visualização ou superior ao Gerenciamento de recursos, Projetos e Usuários</p> <p>Exibir acesso a Dados Financeiros que incluem acesso a Exibir Taxas de Custo e Exibir Finanças Gerais, para exibir informações de custo</p></td> 
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
@@ -55,7 +55,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 Considere o seguinte ao gerar o URL exclusivo para a Exibição de Usuário do Planejador de Recursos:
 
 * Você pode obter um URL exclusivo somente para a Exibição de usuário. A opção para gerar o URL não existe nas Visualizações do projeto ou da função.
-* Você pode compartilhar o URL com outros usuários, incluindo Trabalhar e Revisar usuários licenciados.\
+* Você pode compartilhar o URL com outros usuários, incluindo Trabalho, Colaborador e Revisar usuários licenciados.\
   Eles devem ter acesso para exibir outros usuários para exibir as informações no Planejador de recursos do URL que você compartilha com eles.
 * As seguintes informações são salvas quando você compartilha o URL com outros usuários:
 

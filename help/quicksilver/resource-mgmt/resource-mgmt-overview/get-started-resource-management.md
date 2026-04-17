@@ -7,10 +7,10 @@ description: O Gerenciamento de Recursos permite configurar o sistema para preve
 author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 0%
+source-wordcount: '1201'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ O Workfront tem vários conjuntos de ferramentas usados para gerenciar recursos.
 
    * **Planejador de cenários**: é um planejamento de recursos de nível superior que permite gerenciá-los em várias iniciativas que podem se estender por um plano de um, três ou cinco anos e incluir vários projetos. Você pode usar o melhor cenário para aproveitar ao máximo a disponibilidade e o orçamento.
 
-     O Planejador de cenários requer uma licença separada, além da licença do Workfront. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../scenario-planner/scenario-planner-overview.md).
+     O Planejador de cenários requer uma licença separada, além da licença do Workfront. Para obter informações sobre o planejador de cenários do Workfront, consulte [Visão geral do planejador de cenários](../../scenario-planner/scenario-planner-overview.md).
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
@@ -112,15 +112,15 @@ O processo de gerenciamento de recursos no Workfront inclui as seguintes etapas:
 
      Como um sistema, você deve decidir como o Workfront calcula a disponibilidade do usuário no nível do sistema, seja usando a programação do usuário ou a Programação Padrão do seu sistema.
 
-     Para obter mais informações, consulte [Configurar preferências de Gerenciamento de Recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+     Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 * **Alocação de recursos**: como gerente de recursos ou proprietário de projeto, você pode definir a alocação de recursos para seus projetos, bem como atribuir trabalho. Para esta etapa, é possível gerenciar a estimativa da alocação de recursos usando o Planejador de Recursos ou o Planejador de Cenários e atribuir o trabalho real aos usuários no Balanceador de carga de trabalho.
 
   Para obter mais informações sobre o planejamento de recursos e a atribuição de trabalho, consulte as seguintes seções:
 
-   * [Planejamento de recursos: índice do artigo](../../resource-mgmt/resource-planning/resource-planning-overview.md)
-   * [[!DNL Adobe Workfront Scenario Planner]: índice do artigo](../../scenario-planner/scenario-planning.md)
-   * [O Balanceador de carga de trabalho: índice do artigo](../../resource-mgmt/workload-balancer/workload-balancer.md)
+   * [Planejamento de recursos: índice de artigos](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [[!DNL Adobe Workfront Scenario Planner]: índice de artigos](../../scenario-planner/scenario-planning.md)
+   * [O Balanceador de carga de trabalho: índice de artigos](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
@@ -144,8 +144,8 @@ Você deve ser um dos usuários a seguir e ter o seguinte acesso e permissões p
   Além de ter uma licença Work ou superior (ou uma licença Standard), você deve ter o seguinte para usar ferramentas de gerenciamento de recursos específicas:
 
    * Editar o acesso ao Gerenciamento de recursos (não necessário para fazer atribuições no Balanceador de carga de trabalho)
-   * Editar o acesso aos Dados Financeiros para exibir as informações de Custo no Planejador de Recursos
-   * Acesso aos Dados Financeiros para exibir as informações de Custo e Receita no Relatório de Utilização (somente usuários com uma licença de Plano)
+   * Edite o acesso aos Dados Financeiros que incluem o acesso a Exibir ou Editar Taxas de Custo e Exibir ou Editar Finanças Gerais, para exibir as informações de Custo no Planejador de Recursos
+   * Visualize o acesso aos Dados Financeiros que incluem acesso a Exibir ou Editar Taxas de Custo e Exibir Finanças Gerais, para exibir informações de Custo e Receita no Relatório de Utilização (somente usuários com uma licença do Plano ou Padrão)
 
 * Permissões do Contribute ou superior que incluem Fazer atribuições nos projetos para os quais você deseja gerenciar recursos.
 

@@ -7,10 +7,10 @@ description: Você pode exibir e gerenciar informações sobre o planejamento de
 author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 10%
 
 ---
 
@@ -42,7 +42,7 @@ Para fazer o orçamento de recursos, gerenciar Conjuntos de Recursos e consultar
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td>
   </tr>  
   <tr> 
@@ -55,13 +55,13 @@ Para fazer o orçamento de recursos, gerenciar Conjuntos de Recursos e consultar
        <li> <p>Acesso para gerenciar Conjuntos de recursos, se você precisar gerenciar Conjuntos de recursos.</p> </li> 
       </ul> <p>Para obter informações sobre o nível de acesso Gerenciamento de Recursos, consulte o artigo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Conceder acesso ao Gerenciamento de Recursos</a>.</p> </li> 
      <li> <p>Acesso de edição a projetos e usuários. </p> </li> 
-     <li> <p> Edite o acesso a Dados financeiros no seu nível de acesso, se precisar exibir ou gerenciar informações por Custo.</p> <p>Para obter mais informações sobre o nível de acesso de Dados Financeiros, consulte o artigo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Conceder acesso a dados financeiros</a>.</p> </li> 
+     <li> <p> Edite o acesso aos Dados Financeiros no seu nível de acesso, que inclui o acesso a Exibir ou Editar Taxas de Custo e Exibir ou Editar Finanças Gerais, se precisar exibir ou gerenciar informações por Custo.</p> <p>Para obter mais informações sobre o nível de acesso de Dados Financeiros, consulte o artigo <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Conceder acesso a dados financeiros</a>.</p> </li> 
     </ul> 
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Gerencie permissões no projeto que incluem Gerenciar permissões financeiras.</p> <p>Para obter informações sobre permissões de projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p> <p>Para obter informações sobre permissões financeiras em um projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Compartilhar permissões financeiras em um objeto</a></a>.</p>
+   <td> <p>Gerencie permissões no projeto que incluem Editar taxas de custo e Editar permissões do General Finance.</p> <p>Para obter informações sobre permissões de projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Compartilhar um projeto no Adobe Workfront</a>.</p> <p>Para obter informações sobre permissões financeiras em um projeto, consulte o artigo <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Compartilhar permissões financeiras em um objeto</a></a>.</p>
 
 <p><b>OBSERVAÇÃO:</b> ao estimar recursos na exibição Função, se você tiver menos do que Gerenciar permissões para pelo menos um projeto listado na função, não poderá estimar horas, FTE ou Custo para a função. Você pode estimar somente os projetos para os quais tem permissões de gerenciamento.</p> </td> 
   </tr> 

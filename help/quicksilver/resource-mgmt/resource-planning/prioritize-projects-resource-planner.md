@@ -6,20 +6,20 @@ description: Os projetos são listados em ordem de prioridade no Planejador de r
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 1%
+source-wordcount: '1302'
+ht-degree: 4%
 
 ---
 
-# Priorizar projetos no Planejador de recursos
+# Priorizar projetos no planejador de recursos
 
 Os projetos são listados em ordem de prioridade no Planejador de recursos, com o projeto mais importante na parte superior.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,16 +31,17 @@ Os projetos são listados em ordem de prioridade no Planejador de recursos, com 
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
        <p>Plano</p></td> 
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td> <p>Editar acesso ao Gerenciamento de recursos que inclui acesso a Editar prioridades e horas de orçamento no Planejador de recursos</p> <p>Editar acesso a Dados Financeiros, Projetos e Usuários</p></td> 
+   <td> <p>Editar acesso ao Gerenciamento de recursos que inclui acesso a Editar prioridades e horas de orçamento no Planejador de recursos</p> <p>Editar acesso aos Dados Financeiros que incluem acesso a Editar Taxas de Custo e Editar Finanças Gerais</p>
+    <p>Editar acesso a projetos e usuários</p></td> 
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td> <p>Gerenciar permissões para os projetos para os quais você deseja orçar informações com a capacidade de Gerenciar Finanças</p></td>
+   <td> <p>Gerenciar permissões para os projetos para os quais você deseja orçar informações com a capacidade de Editar Taxas de Custo e Editar Finanças Gerais</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -107,7 +108,7 @@ Para editar a Prioridade de Planejamento do Projeto:
 >
 >Sua empresa deve ter um pacote do Prime ou superior Workfront para priorizar projetos no Portfolio Otimizer.
 >
->Para obter mais informações sobre pacotes Workfront, consulte [pacotes e preços do Adobe Workfront](https://business.adobe.com/br/products/workfront/pricing.html).
+>Para obter mais informações sobre pacotes Workfront, consulte [pacotes e preços do Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Para obter informações sobre a priorização de projetos no Portfolio Otimizer, consulte [Priorizar projetos no Portfolio Otimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
 workflow-type: tm+mt
-source-wordcount: '7855'
+source-wordcount: '7859'
 ht-degree: 2%
 
 ---
@@ -396,12 +396,12 @@ Para editar informações sobre formulários personalizados ao editar um projeto
 
 Dependendo do seu nível de acesso e da sua permissão no projeto, os seguintes cenários existem:
 
-* Se você tiver o acesso de Visualização de Dados Financeiros e permissões de Visualização de Finanças no projeto, poderá apenas visualizar os campos na seção de Finanças. Não é possível editar os campos nesta seção.
-* Se você tiver acesso para Editar aos Dados Financeiros e Gerenciar Finanças no projeto, poderá atualizar os campos desta seção.
+* Se você tiver o acesso de Visualização de Dados Financeiros e permissões de Visualização do General Finance no projeto, poderá apenas visualizar os campos na seção Finanças. Não é possível editar os campos nesta seção.
+* Se você tiver acesso para Editar aos Dados Financeiros e Editar as permissões do General Finance no projeto, poderá atualizar os campos desta seção.
 
 Ao selecionar mais de um projeto para editá-los em massa e no, os seguintes cenários existem:
 
-* Se você selecionar pelo menos um projeto no qual tenha permissões de Exibir finanças (em vez de Gerenciar finanças), poderá exibir somente os campos desta seção para todos os projetos selecionados. Não é possível editar os campos em massa na seção Finanças.
+* Se você selecionar pelo menos um projeto no qual tem permissões Exibir finanças gerais (em vez de Editar finanças gerais), só será possível exibir os campos desta seção para todos os projetos selecionados. Não é possível editar os campos em massa na seção Finanças.
 * Se você selecionar pelo menos um projeto sem permissões financeiras, esta seção não será exibida.
 
 Para editar campos na área Finanças:
