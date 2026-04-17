@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 855ff527d54fa7212555675bf2d89466384b59ca
+source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
 workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 2%
@@ -211,4 +211,5 @@ Pode haver lacunas entre os intervalos de datas em todos os locais em que houver
 * Ao substituir qualquer uma dessas taxas no nível do projeto
 
 Para obter mais informações, consulte [Criar e gerenciar funções de trabalho](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Editar perfil de usuário](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) e [Gerenciar cartões de taxa](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+
 
