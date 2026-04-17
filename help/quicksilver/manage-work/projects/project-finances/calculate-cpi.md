@@ -2,19 +2,19 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcular Índice de Desempenho de Custo (CPI)
+title: Calcular o Índice de desempenho de custos (CPI)
 description: O Índice de Desempenho de Custo (CPI) descreve o relacionamento no nível do projeto ou da tarefa entre o custo planejado e o custo real. Os gerentes de projeto revisam essa métrica para identificar tarefas ou projetos que atualmente rastreiam com custo baixo ou acima em um determinado momento.
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 0%
+source-wordcount: '584'
+ht-degree: 11%
 
 ---
 
-# Calcular Índice de Desempenho de Custo (CPI)
+# Calcular o Índice de desempenho de custos (CPI)
 
 <!-- Audited: 5/2025 -->
 
@@ -22,13 +22,13 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-O Índice de Desempenho de Custo (CPI) descreve o relacionamento no nível do projeto ou da tarefa entre o custo planejado e o custo real. Os gerentes de projeto revisam essa métrica para identificar tarefas ou projetos que atualmente rastreiam com custo baixo ou acima em um determinado momento. O custo pode ser medido em horas ou moeda, dependendo do Método de Índice de Desempenho (PIM). Para obter mais informações sobre como definir o Método de Índice de Desempenho, consulte [Definir o Método de Índice de Desempenho (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+O Índice de Desempenho de Custo (CPI) descreve o relacionamento no nível do projeto ou da tarefa entre o custo planejado e o custo real. Os gerentes de projeto analisam essa métrica para identificar tarefas ou projetos que estejam atualmente com custos abaixo ou acima do previsto em um determinado momento. O custo pode ser medido em horas ou moeda, dependendo do Método de Índice de Desempenho (PIM). Para obter mais informações sobre como definir o Método de Índice de Desempenho, consulte [Definir o Método de Índice de Desempenho (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 Somente organizações que exigem entrada de tempo podem usar CPI. Além disso, os valores do PIM com base no custo são precisos somente em organizações que definiram taxas de custo para os atribuídos da tarefa (funções de trabalho ou usuários).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +50,7 @@ Somente organizações que exigem entrada de tempo podem usar CPI. Além disso, 
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td>Exibir ou permissões mais altas para o projeto com permissões para Exibir Finanças</td> 
+   <td>Exibir ou permissões mais altas para o projeto com permissões para Exibir Finanças Gerais</td> 
   </tr> 
  </tbody> 
 </table>

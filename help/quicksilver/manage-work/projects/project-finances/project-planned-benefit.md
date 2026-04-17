@@ -7,14 +7,14 @@ description: O Benefício Planejado é a quantidade estimada de dinheiro que uma
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 1%
+source-wordcount: '316'
+ht-degree: 13%
 
 ---
 
-# Visão Geral do Benefício Planejado do projeto
+# Visão geral do projeto de benefício planejado
 
 O Benefício Planejado é a quantidade estimada de dinheiro que uma organização pode se beneficiar se um projeto for concluído.
 
@@ -25,7 +25,7 @@ Para obter mais informações sobre como calcular o Valor Líquido de um projeto
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Para obter mais informações sobre como calcular o Valor Líquido de um projeto
   <tr> 
    <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ Para obter mais informações sobre como calcular o Valor Líquido de um projeto
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td>Gerenciar permissões do projeto com permissões para Gerenciar Finanças</td> 
+   <td>Gerenciar permissões para o projeto com permissões para Editar Finanças Gerais</td> 
   </tr> 
  </tbody> 
 </table>

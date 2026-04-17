@@ -2,25 +2,25 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcular Índice de Desempenho de Agendamento (SPI)
+title: Calcular o Índice de desempenho do cronograma (SPI)
 description: O Índice de Desempenho de Cronograma (SPI) descreve a relação entre o cronograma planejado e o cronograma real.
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 4%
+source-wordcount: '397'
+ht-degree: 18%
 
 ---
 
-# Calcular Índice de Desempenho de Agendamento (SPI)
+# Calcular o Índice de desempenho do cronograma (SPI)
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-O Índice de Desempenho de Cronograma (SPI) descreve a relação entre o cronograma planejado e o cronograma real. O Adobe Workfront calcula a SPI nos níveis de projeto e tarefa. Os gerentes de projeto analisam essa métrica para identificar se as tarefas ou os projetos estão atualmente rastreando antes ou depois do cronograma.
+O Índice de Desempenho de Cronograma (SPI) descreve a relação entre o cronograma planejado e o cronograma real. O Adobe Workfront calcula o SPI nos níveis de projeto e tarefa. Os gerentes de projeto analisam essa métrica para identificar se as tarefas ou projetos estão atualmente adiantados ou atrasados em relação ao cronograma.
 
 ## Requisitos de acesso
 
@@ -46,7 +46,7 @@ O Índice de Desempenho de Cronograma (SPI) descreve a relação entre o cronogr
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td>Exibir ou permissões mais altas para o projeto com permissões para Exibir Finanças</td> 
+   <td>Exibir ou permissões mais altas para o projeto com permissões para Exibir Finanças Gerais</td> 
   </tr> 
  </tbody> 
 </table>

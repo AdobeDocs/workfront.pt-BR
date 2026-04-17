@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Definir o PIM (Método de Índice de Desempenho)
+title: Definir o Método de índice de desempenho (PIM)
 description: O Método de índice de desempenho (PIM) do projeto controla o método que a Adobe Workfront usa para calcular as métricas de desempenho do projeto, como Índice de desempenho de custo (CPI), Índice de desempenho de cronograma de custo (CSI), Índice de desempenho de cronograma (SPI) e Estimar na conclusão (EAC).
 author: Lisa
 feature: Work Management
 exl-id: de628881-c016-4521-bc33-3bcfba19a88f
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 1%
+source-wordcount: '412'
+ht-degree: 12%
 
 ---
 
-# Definir o PIM (Método de Índice de Desempenho)
+# Definir o Método de índice de desempenho (PIM)
 
 O Método de índice de desempenho (PIM) do projeto controla o método que a Adobe Workfront usa para calcular as métricas de desempenho do projeto, como Índice de desempenho de custo (CPI), Índice de desempenho de cronograma de custo (CSI), Índice de desempenho de cronograma (SPI) e Estimar na conclusão (EAC).
 
@@ -24,7 +24,7 @@ O Workfront calcula esses valores usando o seguinte:
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ O Workfront calcula esses valores usando o seguinte:
   <tr> 
    <td>Licença do Adobe Workfront</td> 
    <td>
-   <p>Standard</p>
+   <p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -46,7 +46,7 @@ O Workfront calcula esses valores usando o seguinte:
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td>Gerenciar permissões do projeto com permissões para Gerenciar Finanças</td> 
+   <td>Gerenciar permissões para o projeto com permissões para Editar Finanças Gerais</td> 
   </tr> 
  </tbody> 
 </table>

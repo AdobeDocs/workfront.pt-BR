@@ -2,19 +2,19 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcular Estimativa no Término (EAC)
+title: Calcular a estimativa no final (EAC)
 description: Como métrica de desempenho, a EAC (Estimativa no término) representa o custo total projetado de seu projeto ou tarefa quando ela é concluída.
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 1%
+source-wordcount: '826'
+ht-degree: 5%
 
 ---
 
-# Calcular Estimativa no Término (EAC)
+# Calcular a estimativa no final (EAC)
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link!) </p>
@@ -48,7 +48,7 @@ Como configuração, permite definir como o valor de EAC deve ser calculado.
   </tr> 
   <tr> 
    <td>Permissões de objeto</td> 
-   <td>Exibir ou permissões mais altas para o projeto com permissões para Exibir Finanças</td> 
+   <td>Exibir ou permissões mais altas para o projeto com permissões para Exibir Finanças Gerais</td> 
   </tr> 
  </tbody> 
 </table>
