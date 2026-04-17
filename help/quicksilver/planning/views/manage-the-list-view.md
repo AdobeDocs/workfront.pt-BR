@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1857'
-ht-degree: 0%
+source-wordcount: '1791'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +22,11 @@ ht-degree: 0%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -158,15 +160,13 @@ Removed - more direct steps below:
       >
       >* Não é possível modificar as Exibições de sistema.
       >
-      >* <span class="preview">Você pode redefinir um modo de exibição compartilhado com você para o qual tem permissão apenas para Exibir, depois de modificá-lo para restaurar suas preferências originais, ou pode copiá-lo com suas alterações e compartilhar a cópia. Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+      >* Você pode redefinir uma exibição compartilhada com você para a qual você tem permissão apenas para Exibir, depois de modificá-la para restaurar suas preferências originais, ou pode copiá-la com suas alterações e compartilhar a cópia. Para obter mais informações, consulte [Usar listas aprimoradas](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
    1. Clique no ícone **Filtro** ![Ícone Filtro](assets/filter-icon.png) para adicionar um filtro ao modo de exibição. Os resultados são filtrados imediatamente na lista. Não é possível salvar e nomear filtros. Os filtros são lembrados quando você acessa a página no futuro e fazem parte de exibições compartilhadas.
 
       >[!TIP]
       >
-      ><span class="preview">Para aplicar um filtro personalizado, selecione uma das seguintes opções para um valor de campo:
-      >
-      ><div class="preview">
+      >Para aplicar um filtro personalizado, selecione uma das seguintes opções para um valor de campo:
       >
       >* **Eu (usuário conectado)** para fazer referência ao usuário conectado em campos referentes a usuários.
       >
@@ -177,8 +177,6 @@ Removed - more direct steps below:
       >* **Minha empresa** para fazer referência à sua empresa nos campos que fazem referência a empresas.
       > 
       >* **Minhas funções** ou **Minha função principal** para fazer referência às suas funções de trabalho em campos que fazem referência às funções.
-      >
-      ></div>
 
    1. Clique no ícone **Colunas** ![Ícone Colunas](assets/columns-icon.png) para selecionar quais colunas exibir ou ocultar no modo de exibição.
    1. Passe o mouse sobre o nome de uma coluna, clique na seta para baixo à esquerda do nome da coluna e clique em uma das seguintes opções:
@@ -191,58 +189,54 @@ Removed - more direct steps below:
       Você pode adicionar somente campos existentes à exibição de lista.
 Não é possível remover o campo principal na exibição de lista exibida na primeira coluna.
 
-   1. <span class="preview">Clique no ícone **Formatar células** ![Ícone Formatar células](assets/format-cells-icon.png). A caixa **Formato** é aberta.</span> <!--change the name of the box when they update it-->
-      <span class="preview">Faça o seguinte: </span>
+   1. Clique no ícone **Formatar células** ![Ícone Formatar células](assets/format-cells-icon.png). A caixa **Formatar** é aberta. <!--change the name of the box when they update it-->
+Faça o seguinte:
 
-      1. <span class="preview">Clique em **Adicionar condição**.</span>
-      1. <span class="preview">Na linha **If**, selecione um campo, escolha um valor de campo e adicione um modificador. Os modificadores mudam, dependendo do tipo de campo escolhido. </span>
-
-         >[!TIP]
-         >
-         ><span class="preview">Somente os campos visíveis na exibição de lista estão disponíveis para formatação condicional.</span>
-
-      1. <span class="preview">(Opcional) Em vez de adicionar um valor de campo, clique no ícone **Comparar com outro campo** ![Comparar com outro campo](assets/compare-to-another-field-icon.png) e escolha um campo cujo valor você deseja comparar ao valor do campo selecionado. Por exemplo, você pode comparar os campos Proprietário do projeto e Patrocinador do projeto. </span>
+      1. Clique em **Adicionar condição**.
+      1. Na linha **If**, selecione um campo, escolha um valor de campo e adicione um modificador. Os modificadores mudam, dependendo do tipo de campo escolhido.
 
          >[!TIP]
          >
-         ><span class="preview">Somente os campos visíveis na exibição de lista estão disponíveis para formatação condicional. Os campos comparados devem ser do mesmo tipo. </span>
+         >Somente os campos visíveis na exibição de lista estão disponíveis para formatação condicional.
 
-      1. <span class="preview">(Opcional) Clique em **Adicionar condição** na linha **If** para adicionar mais condições à mesma regra.</span>
+      1. (Opcional) Em vez de adicionar um valor de campo, clique no ícone **Comparar com outro campo** ![Comparar com outro campo](assets/compare-to-another-field-icon.png) e escolha um campo cujo valor você deseja comparar ao valor do campo selecionado. Por exemplo, você pode comparar os campos Proprietário do projeto e Patrocinador do projeto.
 
          >[!TIP]
          >
-         ><span class="preview">Você pode adicionar até 10 condições em uma regra de condição e pode ter até 20 regras para um campo.</span>
+         >Somente os campos visíveis na exibição de lista estão disponíveis para formatação condicional. Os campos comparados devem ser do mesmo tipo.
 
-      1. <span class="preview">Clique no conector **Or** entre condições para alterar para **And** e indicar que várias condições devem ser atendidas ao mesmo tempo. **Or** é o conector padrão.</span>
-      1. <span class="preview">Na linha **Formatar**, selecione um campo para indicar qual coluna será formatada.</span> <!--edit this area, if it changes names??-->
-      1. <span class="preview">(Opcional) Clique no **ícone do círculo de cores** ![ícone do círculo de cores](assets/color-circle.png) ao lado do campo selecionado, para expandi-lo e escolher outra cor na área **Preenchimento da célula** para alterar a cor do plano de fundo em uma célula ou escolha uma cor na área **Cor do texto** para alterar a cor do texto em uma célula.</span>
-      1. <span class="preview">Clique no ícone **Formato do texto** ![Ícone do formato do texto](assets/text-format-icon.png) e selecione uma das seguintes opções para formatar o texto em uma célula:</span>
-         * <span class="preview">Negrito</span>
-         * <span class="preview">Itálico</span>
+      1. (Opcional) Clique em **Adicionar condição** na linha **If** para adicionar mais condições à mesma regra.
 
-      1. <span class="preview">Ative a configuração **Aplicar à linha** para aplicar a formatação à linha inteira do campo que atende às condições.</span>
-      1. <span class="preview">(Opcional) Clique em **Adicionar condição** na caixa **Formatar** para adicionar outra regra para outro campo e repetir as etapas acima.</span>
-      1. <span class="preview">(Opcional) Clique em **Limpar tudo** para remover toda a formatação.</span>
-      1. <span class="preview">Clique fora da caixa **Formato** para fechá-la.</span>
+         >[!TIP]
+         >
+         >É possível adicionar até 10 condições em uma regra de condição e até 20 regras para um campo.
 
-         <span class="preview">Você retornará ao modo de exibição de lista.</span>
-         <span class="preview">A formatação é aplicada imediatamente ao modo de exibição de lista.</span>
-         <span class="preview">Há um ponto azul ao lado do ícone **Formatar células** para indicar que a exibição tem formatação especial aplicada.</span>
+      1. Clique no conector **Or** entre as condições para alterar para **And** e indicar que várias condições devem ser atendidas ao mesmo tempo. **Or** é o conector padrão.
+      1. Na linha **Formatar**, selecione um campo para indicar qual coluna será formatada. <!--edit this area, if it changes names??-->
+      1. (Opcional) Clique no **ícone do círculo de cores** ![ícone do círculo de cores](assets/color-circle.png) ao lado do campo selecionado, para expandi-lo e escolher outra cor na área **Preenchimento da célula** para alterar a cor do plano de fundo em uma célula ou escolha uma cor na área **Cor do texto** para alterar a cor do texto em uma célula.
+      1. Clique no ícone **Formato do texto** ![Ícone do formato do texto](assets/text-format-icon.png) e selecione uma das seguintes opções para formatar o texto em uma célula:
+         * Negrito
+         * Itálico
 
-   1. <span class="preview">(Opcional) Clique no ícone **Agrupamento** ![Ícone Agrupamento](assets/grouping-icon.png) &lt;!-eles atualizaram isso para &quot;Agrupamento&quot;??-> para agrupar itens na lista por um campo comum. Selecione uma das opções ou use a barra de pesquisa para localizar um campo.</span>
+      1. Ative a configuração **Aplicar à linha** para aplicar a formatação à linha inteira do campo que atende às condições.
+      1. (Opcional) Clique em **Adicionar condição** na caixa **Formatar** para adicionar outra regra a outro campo e repetir as etapas acima.
+      1. (Opcional) Clique em **Limpar tudo** para remover toda a formatação.
+      1. Clique fora da caixa **Formatar** para fechá-la.
 
-      <span class="preview">O campo deve ser uma coluna na lista para que você possa agrupá-lo. Nem todos os tipos de campo podem ser usados para agrupamentos.</span>
+         Isso retornará à exibição em lista.
+A formatação é aplicada imediatamente à exibição de lista.
+Há um ponto azul ao lado do ícone **Formatar células** para indicar que a exibição tem formatação especial aplicada.
 
-   1. <span class="preview">Clique no ícone **Altura da linha** ![Ícone de altura da linha](assets/row-height-icon.png) para atualizar o comprimento vertical de uma linha. Escolha entre as seguintes opções: </span>
+   1. (Opcional) Clique no ícone de **Agrupamento** ![Ícone de Agrupamento](assets/grouping-icon.png) <!--have they updated this to "Grouping"??--> para agrupar itens na lista por um campo comum. Selecione uma das opções ou use a barra de pesquisa para localizar um campo.
 
-      <div class="preview">
+      O campo deve ser uma coluna na lista para que você possa agrupá-lo por ele. Nem todos os tipos de campo podem ser usados para agrupamentos.
+
+   1. Clique no ícone **Altura da linha** ![Ícone de altura da linha](assets/row-height-icon.png) para atualizar o comprimento vertical de uma linha. Escolha entre as seguintes opções:
 
       * Pequena
       * Padrão. Esta é a opção padrão.
       * Médio
       * Alta
-
-      </div>
 
    <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
