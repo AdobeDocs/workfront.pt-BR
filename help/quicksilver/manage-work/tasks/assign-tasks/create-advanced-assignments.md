@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: daaa13d5a3ebbd249f0093181ee7834f9db43fdb
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3457'
 ht-degree: 1%
 
 ---
@@ -96,13 +96,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 Este layout de Atribuições Avançadas se aplica somente a tarefas. Para problemas, consulte [Criar atribuições avançadas - todos os outros pacotes](#create-advanced-assignments--all-other-packages).
 
-<!--
-
 >[!NOTE]
 >
->Use the experience switcher to choose between the old and new Advanced Assignments experiences. For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
-
--->
+>A antiga experiência em Atribuições avançadas é o padrão. Você deve ativar manualmente a nova experiência com o botão na parte superior direita da janela Atribuições avançadas.
+>Para obter informações sobre a experiência antiga, consulte [Criar atribuições avançadas - todos os outros pacotes](#create-advanced-assignments--all-other-packages), abaixo.
 
 1. Vá para o projeto ao qual deseja atribuir uma tarefa.
 1. Clique em **Tarefas** ou **Problemas** no painel esquerdo e, em seguida, clique no nome de uma tarefa na lista.
