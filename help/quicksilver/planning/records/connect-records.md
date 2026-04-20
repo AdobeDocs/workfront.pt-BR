@@ -484,7 +484,7 @@ Para conectar registros a objetos do Experience Manager:
    * Data de criação
    * Data de modificação
 
-1. (Opcional e condicional) Para ativos, para abrir a página de registro de ativos da Experience Manager no Experience Manager, vá para a página de tipo de registro do registro a partir do qual você está vinculando, clique no nome de um ativo no campo de registro vinculado para abrir a janela pop-up e clique no ícone **Abrir no AEM** no ícone ![ para abrir o ativo. ](assets/open-asset-icon.png)<!--not sure if this is also possible for fragments??-->
+1. (Opcional e condicional) Para ativos, para abrir a página de registro de ativos da Experience Manager no Experience Manager, vá para a página de tipo de registro do registro a partir do qual você está vinculando, clique no nome de um ativo no campo de registro vinculado para abrir a janela pop-up e clique no ícone **Abrir no AEM** no ícone ![&#x200B; para abrir o ativo. &#x200B;](assets/open-asset-icon.png)<!--not sure if this is also possible for fragments??-->
 
    Isso abre o ativo Experience Manager no Adobe Experience Manager Assets.
 
