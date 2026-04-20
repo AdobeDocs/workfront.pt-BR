@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: '231'
+ht-degree: 14%
 
 ---
 
@@ -27,7 +27,7 @@ Como administrador da Adobe Workfront e contato autorizado com o Suporte da Work
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Como administrador da Adobe Workfront e contato autorizado com o Suporte da Work
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p><p>Plano</p></td> 
+   <td><p>Padrão</p><p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -60,25 +60,30 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 Você também pode ligar para o Suporte da Workfront para obter ajuda sobre como alterar seu domínio.
 
-## Atualize o novo domínio se você for um cliente de SSO
+<!--
 
-Se sua empresa utiliza SSO, as seguintes etapas serão necessárias depois que você alterar o domínio do Workfront.
+## Update the new domain if you are an SSO customer
+
+If your company utilizes SSO, the following steps are required after you have your Workfront domain changed.
 
 >[!NOTE]
 >
->Isso não estará disponível se a instância Workfront da sua organização estiver habilitada com o Adobe IMS. Consulte o administrador de rede ou de TI se precisar de mais informações.
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 {{step-1-to-setup}}
 
-1. Na barra lateral esquerda, clique em **Sistema** > **Informações do cliente** e verifique se seu domínio está atualizado na página Informações do cliente.
+1. In the left sidebar, click **System** > **Customer Info** and make sure that your domain is updated on the Customer Info page.
 
-1. Na barra lateral esquerda, clique em **Sistema** > **Logon Único (SSO)**.
+1. In the left sidebar, click **System** > **Single Sign-On (SSO)**.
 
-1. Clique em **Baixar SAML 2.0 Metadata**.
-1. Depois que o arquivo for baixado, abra-o e verifique o seguinte:
+1. Click **Download SAML 2.0 Metadata**.
+1. After the file is downloaded, open it and make sure of the following:
 
-   1. **entityID** está apontando para o novo domínio.
-   1. Todos os locais em **`<md:AssertionConsumerService>`** apontam para o novo domínio.
+   1. **entityID** is pointing to the new domain.
+   1. All locations within **`<md:AssertionConsumerService>`** point to the new domain.
 
-1. Forneça o arquivo de metadados baixado ao seu provedor de identidade para que ele possa atualizá-lo.
-1. Verifique se o domínio está atualizado para todas as integrações da Workfront usadas pela sua organização.
+1. Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.
+1. Make sure the domain is updated for all Workfront integrations used by your organization.
+
+
+-->

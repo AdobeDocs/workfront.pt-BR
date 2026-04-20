@@ -5,10 +5,10 @@ description: A barra de navegação superior, exibida na parte superior da tela 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 4ad4873f1646a2ff499d03dabd9749d43022f6b1
+source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -66,7 +66,7 @@ Para saber mais sobre os recentes, consulte [Exibir itens recentes](../../workfr
 
 ## Menu [!UICONTROL Pesquisar]
 
-O ícone ![](assets/search-icon.png) da **[!UICONTROL Pesquisa]** no canto superior direito de [!DNL Workfront] permite executar uma pesquisa básica, restringir sua pesquisa a um objeto específico ou usar a [!UICONTROL Pesquisa Avançada] para procurar uma palavra-chave para um objeto específico e usar filtros para limitar sua pesquisa a campos específicos.
+O ícone **[!UICONTROL da]** Pesquisa![](assets/search-icon.png) no canto superior direito de [!DNL Workfront] permite executar uma pesquisa básica, restringir sua pesquisa a um objeto específico ou usar a [!UICONTROL Pesquisa Avançada] para procurar uma palavra-chave para um objeto específico e usar filtros para limitar sua pesquisa a campos específicos.
 
 Para saber mais sobre a pesquisa, consulte [Pesquisa [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
@@ -84,15 +84,11 @@ As opções disponíveis no [!UICONTROL Menu Principal] dependem do seguinte:
 
 * **Configurações do modelo de layout**: para saber como um administrador [!DNL Workfront] pode modificar o [!UICONTROL Menu Principal] de um modelo de layout, consulte [Personalizar o [!UICONTROL Menu Principal] usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-* **Tipo de licença**: para saber as configurações padrão para diferentes tipos de licença, consulte [Entender a navegação de um usuário com licença de revisão](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Entender a navegação de um usuário com licença de [!UICONTROL Trabalho]](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **Tipo de licença**: para saber as configurações padrão para diferentes tipos de licença, consulte [Compreender a navegação de um usuário Light-license](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Compreender a navegação de um usuário [!UICONTROL Work]-license](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 Cada ícone leva você a uma área diferente do Workfront.
 
 Para saber mais sobre cada área, consulte:
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
--->
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,7 +129,7 @@ Na parte inferior do Menu principal, você pode acessar o seguinte:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p class="bold">[!UICONTROL Instalação]</p> </td> 
+   <td> <p class="bold">[!UICONTROL Setup]</p> </td> 
    <td> <p>Ao clicar em <b>[!UICONTROL Setup]</b>, você será direcionado para a área [!UICONTROL Setup], onde será possível configurar diferentes aspectos da sua conta [!DNL Workfront]. Dependendo das configurações de acesso, o que pode ser configurado pode ser limitado.</p> <p>Para obter mais informações sobre a área [!UICONTROL Setup], consulte <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administração e configuração: índice do artigo</a>.</p> </td> 
   </tr> 
   <tr> 

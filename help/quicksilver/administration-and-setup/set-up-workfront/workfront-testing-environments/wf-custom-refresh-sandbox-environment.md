@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 0%
+source-wordcount: '1584'
+ht-degree: 2%
 
 ---
 
@@ -33,9 +33,9 @@ A sandbox de atualização personalizada é um ambiente em que você pode testar
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +47,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"> Licença do Workfront</td> 
-   <td> <p>Standard</p><p>Plano</p>  </td> 
+   <td> <p>Padrão</p><p>Plano</p>  </td> 
   </tr> 
   </tr>
    <tr>
@@ -189,19 +189,25 @@ Para agendar uma atualização da Sandbox de atualização do cliente:
 >[!NOTE]
 >
 >O delivery de relatórios e as notificações por push no aplicativo móvel estão sempre desativados para o ambiente sandbox de atualização personalizada. Nem você nem o administrador do [!DNL Workfront] podem habilitar a entrega de relatórios ou notificações por push para o aplicativo móvel quando você acessa o ambiente de sandbox de atualização personalizada.\
->Para obter mais informações sobre entregas de relatório para o ambiente de produção, consulte [Visão geral da entrega de relatório](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).Para obter mais informações sobre notificações por push no aplicativo móvel para o ambiente de produção, consulte a seção em .
+>Para obter mais informações sobre entregas de relatórios para o ambiente de produção, consulte [Visão geral da entrega de relatórios](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-## Configurar o logon único na sandbox de atualização personalizada
+<!--
 
-Se você quiser configurar sua sandbox de atualização personalizada para funcionar com uma solução de logon único, faça isso configurando-a separadamente do ambiente de produção. A configuração de SSO na sandbox de atualização personalizada é independente da sua configuração de SSO no ambiente de produção.\
-Ao atualizar sua sandbox de atualização personalizada, as informações de SSO não são copiadas de seu ambiente de produção para substituir a configuração da sandbox de atualização personalizada.
+Remove me October 2026
 
-As etapas para configurar o logon único na sandbox de atualização personalizada são semelhantes àquelas para configurá-lo no ambiente de Produção.\
-Para obter mais informações sobre como configurar o [!DNL Workfront] com SSO, consulte [Visão geral do logon único no Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+## Configure Single Sign-On in the Custom Refresh Sandbox
+
+If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
+When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
+
+The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.\
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->Isso não está disponível se a instância [!DNL Workfront] da sua organização estiver habilitada com o Adobe IMS. Consulte o administrador de rede ou de TI se precisar de mais informações.
+>This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+
+-->
 
 ## Recálculo automático de linhas de tempo do projeto
 

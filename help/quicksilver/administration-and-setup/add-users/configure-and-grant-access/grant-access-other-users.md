@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 7%
@@ -102,12 +102,12 @@ Você pode gerenciar quais informações os usuários podem visualizar e editar 
      <tr> 
       <td role="rowheader"><strong>Create</strong> </td> 
       <td> <p>Permite aos usuários criar usuários.<br>Esta opção está habilitada por padrão.</p> 
-     <p><b>OBSERVAÇÃO</b>: não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.</p>
+     <p><b>OBSERVAÇÃO</b>: não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.<!--Check this October 2026--></p>
         </td>  
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Excluir</strong> </td> 
-      <td> <p> Permite que os usuários excluam os usuários que eles próprios criaram.<br>Esta opção está habilitada por padrão.</p> <p><b>OBSERVAÇÃO</b>: não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.</p> </td> 
+      <td> <p> Permite que os usuários excluam os usuários que eles próprios criaram.<br>Esta opção está habilitada por padrão.</p> <p><b>OBSERVAÇÃO</b>: não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.<!--Check this October 2026--></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Editar taxas de cobrança</strong> </td> 

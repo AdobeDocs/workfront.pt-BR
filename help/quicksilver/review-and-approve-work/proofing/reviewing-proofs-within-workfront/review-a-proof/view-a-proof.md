@@ -1,30 +1,30 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Exibir conteúdo em uma prova
+title: Visualizar conteúdo em uma prova
 description: Saiba como visualizar o conteúdo em uma prova.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 0%
+source-wordcount: '818'
+ht-degree: 5%
 
 ---
 
-# Exibir conteúdo em uma prova
+# Visualizar conteúdo em uma prova
 
 Você pode usar o visualizador de provas para exibir e marcar arquivos no Workfront.
 
 >[!NOTE]
 >
->Se sua instância do Workfront estiver na Experiência unificada, o visualizador de provas será aberto em uma nova guia.
+>O visualizador de provas é aberto em uma nova guia.
 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 

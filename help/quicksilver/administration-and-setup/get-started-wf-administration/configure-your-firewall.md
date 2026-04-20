@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, você deverá executar essa ação por meio da Adobe Admin Console.
 >
->Para configurar seu incluo na lista de permissões se sua organização foi integrada à Adobe Admin Console, consulte [Domínios a serem permitidos para Aplicativos e Serviços Adobe](https://helpx.adobe.com/br/enterprise/kb/network-endpoints.html).
+>Para configurar seu incluo na lista de permissões se sua organização foi integrada à Adobe Admin Console, consulte [Domínios a serem permitidos para Aplicativos e Serviços Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -32,12 +32,6 @@ ht-degree: 0%
 >A forma como uma organização configura seu incluo na lista de permissões é exclusiva de cada organização. Trabalhe com sua equipe de TI para identificar os procedimentos de sua organização e implementar essas adições.
 
 Se o firewall ou servidor de e-mail estiver configurado para permitir o acesso a apenas determinados fornecedores, você deverá adicionar determinados endereços IP ao seu incluo na lista de permissões. Isso abre a comunicação entre seu ambiente e os servidores da Adobe Workfront e permite os seguintes processos:
-
-* Envio de mensagens do aplicativo do Workfront
-
-  >[!NOTE]
-  >
-  >Isso não estará disponível se a instância Workfront da sua organização estiver habilitada com o Adobe IMS. Consulte o administrador de rede ou de TI se precisar de mais informações.
 
 * Uso de webhooks de documentos ao configurar integrações de documentos personalizadas
 * Uso de assinaturas de evento do Workfront
@@ -434,7 +428,7 @@ Se sua organização usar filtragem de rede de saída, adicione os seguintes dom
 * *.static.workfront.com
 
 
-  Este é um domínio estático que abrange todos os domínios a seguir. Você pode adicionar os domínios individuais se preferir:
+  É um domínio estático que abrange todos os domínios a seguir. Você pode adicionar os domínios individuais se preferir:
 
    * mfe.static.workfront.com
    * mfe-c.static.workfront.com
@@ -442,7 +436,7 @@ Se sua organização usar filtragem de rede de saída, adicione os seguintes dom
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-Se sua organização estiver na Experiência unificada da Adobe, ela usará os seguintes domínios. Esses domínios são cobertos em `*.adobe.com`, mas podem ser adicionados se desejado.
+Como sua organização faz parte da Experiência unificada da Adobe, ela usa os seguintes domínios. Esses domínios são cobertos em `*.adobe.com`, mas podem ser adicionados se desejado.
 
 * &lt;your domain>.my.workfront.adobe.com
 * &lt;your domain>.preview.workfront.adobe.com
@@ -451,6 +445,8 @@ Se sua organização estiver na Experiência unificada da Adobe, ela usará os s
 
 
 Para o Workfront Fusion, adicione os seguintes domínios:
+
+<!--Remove me October 2026-->
 
 * Para organizações que não fazem parte da Experiência unificada da Adobe:
    * app.workfrontfusion.com (AWS EUA)

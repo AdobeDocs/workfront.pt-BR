@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1478'
 ht-degree: 3%
 
 ---
@@ -263,17 +263,23 @@ Para obter mais informações sobre como configurar funções de trabalho, consu
 
 ### Tentativa de login {#login-attempt}
 
-O sistema gera uma entrada de log de auditoria de Tentativa de login quando um usuário executa uma das seguintes ações:
+<!--Delete me October 2026-->
 
-* Faz logon, logout ou falha em uma tentativa de logon no Workfront (em um navegador e no aplicativo móvel)
-* Faz logon, logout ou falha em uma tentativa de logon em qualquer integração do Workfront (como Workfront para Slack)
-* Faz logon ou logout da API do Workfront
+<!--
 
-Os logs de tentativa de logon não registram quando um administrador do Workfront usa o recurso &quot;Login como&quot;.
+The system generates a Login Attempt audit log entry when a user does one of the following actions:
+
+* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
+* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
+* Logs in or logs out of the Workfront API
+
+Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
+
+-->
 
 >[!NOTE]
 >
->Isso não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.
+>Como todas as organizações foram integradas à Adobe Admin Console, esse recurso não está mais disponível.Consulte o administrador de rede ou de TI se precisar de mais informações.
 
 ### Prioridade {#priority}
 
@@ -366,7 +372,7 @@ O sistema gera uma entrada de log de auditoria do usuário quando um usuário ex
 
   >[!NOTE]
   >
-  >Isso não estará disponível se sua organização tiver sido integrada à Adobe Admin Console. Consulte o administrador de rede ou de TI se precisar de mais informações.
+  >Como todas as organizações foram integradas à Adobe Admin Console, esse recurso não está mais disponível.Consulte o administrador de rede ou de TI se precisar de mais informações.
 
 * Exclui um usuário
 * Altera o nível de acesso, a empresa, a equipe ou o grupo de um usuário

@@ -1,18 +1,18 @@
 ---
-title: Visão geral da Integridade do Projeto
+title: Visão geral da integridade do projeto
 content-type: reference
 description: O recurso Integridade do projeto utiliza o poder do Assistente de IA para fornecer instantaneamente uma avaliação do desempenho de seus projetos.
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: b95be2e0917b53195ac327880a2ea7399c1485de
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
 source-wordcount: '2060'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Visão geral da Integridade do Projeto
+# Visão geral da integridade do projeto
 
 >[!IMPORTANT]
 >
@@ -28,7 +28,7 @@ O Assistente de IA pode gerar uma avaliação de Integridade do projeto para os 
 
 Para obter mais informações sobre o Assistente de IA, consulte [Visão geral do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -46,7 +46,7 @@ Para obter mais informações sobre o Assistente de IA, consulte [Visão geral d
  <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
    <td> 
-<p>Standard</p> 
+<p>Padrão</p> 
    </td> 
    </tr> 
   </tr> 
@@ -68,7 +68,7 @@ Para obter mais informações sobre o Assistente de IA, consulte [Visão geral d
 </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Inscrever-se no beta de Integridade do projeto
@@ -77,11 +77,13 @@ Sua organização deve ter o Assistente de IA habilitado para usar o Project Hea
 
 Para ativar o Assistente de IA e a Integridade do projeto para sua organização, todos os itens a seguir devem ser aplicados:
 
+<!--Remove me October 2026-->
+
 * Sua organização deve ter migrado para o Adobe Identity Management System (IMS).
 * Sua organização deve ter um pacote do Workfront ou Workflow Select, Prime ou Ultimate.
 * A Experiência unificada do Adobe deve ser habilitada.
 * A Adobe deve ter um contrato de API Gen da Adobe assinado no arquivo.
-* O administrador do Workfront deve ativar o Assistente de IA para os usuários em sua organização. O Assistente de IA é ativado por meio de níveis de acesso.
+* O administrador do Workfront deve ativar o Assistente de IA para os usuários em sua organização. O Assistente de IA é habilitado por meio de níveis de acesso.
 * As opções Habilitar IA e Integridade do projeto devem ser selecionadas na seção Preferências de IA da área Preferências do sistema em Configuração.
 
   ![seção Preferências de IA](assets/ai-preferences.png)

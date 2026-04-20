@@ -6,73 +6,88 @@ description: Você pode redefinir sua  [!DNL Adobe Workfront] senha. Como medida
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 80897b9b7752283ec985611e349e4180e48b224a
+source-git-commit: 75611cc7c90a3f5935466f2d40ee1bb8243e0e10
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 1%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
 # Redefinir sua senha
 
+>[!IMPORTANT]
+>
+>O procedimento descrito nesta página foi removido porque se aplicou apenas a organizações que ainda não foram integradas ao Adobe Admin Console.
+>
+>Todas as organizações da Workfront foram integradas à Adobe Admin Console.
+
+<!--DELETE ME MARCH 2026-->
+
+<!--
+
 {{important-not-on-aec}}
 
-Você pode redefinir sua senha do [!DNL Adobe Workfront]. Como medida de segurança importante, recomendamos que você faça isso regularmente.
+You can reset your [!DNL Adobe Workfront] password. As an important security measure, we recommend that you do this regularly.
 
 >[!NOTE]
 >
->Um administrador do [!DNL Workfront] pode configurar restrições de senha personalizadas, conforme explicado em [Configurar preferências de segurança do sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) e [Configurar políticas de senha para autenticação](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
+>A [!DNL Workfront] administrator can configure custom password restrictions, as explained in [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) and [Configure password policies for authentication](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
 >
-><!-- [!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
+>[!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
 
-## Requisitos de acesso
+<!--
+## Access requirements
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
- </col>
+ </col> 
+ <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td>Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td>Licença do Adobe Workfront</td> 
+   <td>Adobe Workfront license</td> 
    <td> 
-   <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p> </td> 
+   <p>Contributor or higher</p>
+   <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Redefinir sua senha no [!DNL Adobe Workfront]
+## Reset your password in [!DNL Adobe Workfront]
 
 {{step1-click-profile-pic}}
 
-![Abra o menu principal e selecione seu nome de usuário.](assets/main-menu-options-350x481.png)
+   ![Open the main menu and select your user name.](assets/main-menu-options-350x481.png)
 
-1. Clique no **[!UICONTROL ícone Mais]** ![Ícone Mais](assets/more-icon.png) e em **[!UICONTROL Editar]**.
+1. Click the **[!UICONTROL More menu]** ![More icon](assets/more-icon.png), then click **[!UICONTROL Edit]**.
 
-1. Na caixa **[!UICONTROL Editar Pessoa]** que é exibida, em **[!UICONTROL Informações Pessoais]**, clique em **[!UICONTROL Alterar senha]**.
+1. In the **[!UICONTROL Edit Person]** box that displays, under **[!UICONTROL Personal Info]**, click **[!UICONTROL Change password]**.
 
-   ![Clique em Alterar senha](assets/edit-user-change-password.png)
+   ![Click Change password](assets/edit-user-change-password.png)
 
-   Se sua organização integrou o [!DNL Workfront] a uma solução SSO, você poderá ser redirecionado para redefinir suas senhas por meio do sistema SSO quando clicar em **[!UICONTROL Alterar senha]**. Isso redefine a senha do SSO, o que afeta o logon em todos os outros aplicativos dentro da organização.
+   If your organization has integrated [!DNL Workfront] with an SSO solution, you may be routed to reset your passwords through your SSO system when you click **[!UICONTROL Change password]**. This resets your SSO password which affects logging in to all your other applications inside your organization.
 
-1. Digite a senha antiga e a nova senha desejada duas vezes.
+1. Type your old password, then type the new password you want twice.
 
-   Sua senha deve ter pelo menos 8 caracteres e conter dois dos seguintes tipos de caracteres:
+   Your password must be at least 8 characters and contain two of the following types of characters:
 
-   * Letras maiúsculas
-   * Letras minúsculas
-   * Números
-   * Caracteres especiais (como ! @ # $ %)
+   * Uppercase letters
+   * Lowercase letters
+   * Numbers
+   * Special characters (such as ! @ # $ %)
 
-   As regras de senha podem ser mais rígidas do que isso, dependendo das definições de configuração definidas pelo administrador do [!DNL Workfront].
+   Password rules might be more strict than this, depending on configuration settings set by your [!DNL Workfront] administrator.
 
-1. Clique em **[!UICONTROL Salvar]**.
+1. Click **[!UICONTROL Save]**.
+
+-->

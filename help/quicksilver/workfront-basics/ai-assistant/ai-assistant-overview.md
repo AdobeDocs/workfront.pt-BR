@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 97%
@@ -48,6 +48,8 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 ## Pré-requisitos para o Assistente de IA
 
 Para habilitar o Assistente de IA para sua organização, **todos** os seguintes requisitos devem ser atendidos:
+
+<!--Remove me October 2026-->
 
 * Sua organização deve ter migrado para o Adobe IMS (Sistema de Gerenciamento de Identidades)
 * A Adobe Unified Experience deve estar habilitada

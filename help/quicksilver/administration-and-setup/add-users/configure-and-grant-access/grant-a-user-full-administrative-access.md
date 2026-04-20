@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 4%
+source-wordcount: '1571'
+ht-degree: 7%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 4%
 
 <!--Audited: 12/2024-->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, você deverá executar essa ação por meio da Adobe Admin Console.
+>O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas à Admin Console. Depois que sua organização for integrada à Adobe Admin Console, você deverá executar essa ação por meio da Adobe Admin Console.
+>
+>**Como todas as organizações foram migradas para a Adobe Admin Console, as informações deste artigo não são mais relevantes e serão removidas em breve.**
 >
 >Para obter instruções sobre como conceder acesso completo de administrador na Adobe Admin Console, consulte [Gerenciar usuários na Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
@@ -36,7 +40,7 @@ Como administrador do Adobe Workfront, você pode criar outro administrador do W
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,7 +52,7 @@ Como administrador do Adobe Workfront, você pode criar outro administrador do W
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
    <p>Plano</p></td> 
   </tr> 
   <tr> 
@@ -58,7 +62,7 @@ Como administrador do Adobe Workfront, você pode criar outro administrador do W
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Conceder acesso completo de Administrador do sistema a um único usuário

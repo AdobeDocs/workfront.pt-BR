@@ -3,13 +3,13 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Fazer logoff de  [!DNL Adobe Workfront]
 description: Por motivos de segurança, é importante fazer logout do  [!DNL Adobe Workfront]  regularmente. Por padrão, o  [!DNL Workfront]  desconecta automaticamente os usuários após 8 horas de inatividade.
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 7%
+source-wordcount: '223'
+ht-degree: 15%
 
 ---
 
@@ -17,21 +17,17 @@ ht-degree: 7%
 
 Por motivos de segurança, é importante fazer logout do [!DNL Adobe Workfront] regularmente. Por padrão, o [!DNL Workfront] desconecta os usuários automaticamente após 8 horas de inatividade.
 
+<!--Remove this October 2026-->
+
 >[!NOTE]
 >
 >Normalmente, um administrador do [!DNL Workfront] pode alterar essa quantidade de tempo para qualquer período entre 15 minutos e 7 dias de inatividade, conforme explicado em [Configurar preferências de segurança do sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), mas essa funcionalidade não está disponível no momento. Estamos trabalhando em aprimoramentos de autenticação que permitirão o logout automático após um período especificado de inatividade.
-
-<!--
-><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
->TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
-></MadCap:conditionalText>
--->
-
->[!IMPORTANT]
 >
->O procedimento descrito nesta página aplica-se apenas a organizações que ainda não foram integradas no [!DNL Adobe Experience Cloud].
+>O procedimento descrito nesta página se aplicou apenas a organizações que ainda não foram integradas à Adobe Admin Console.
 >
-> Se sua organização tiver sido integrada ao [!DNL Adobe Experience Cloud], você fará logoff clicando na imagem de perfil na navegação superior e selecionando [!UICONTROL **Sair**] no menu. Para obter mais informações, consulte [[!DNL Adobe Unified Experience] para [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Todas as organizações da Workfront foram integradas à Adobe Admin Console.
+>
+> Como sua organização foi integrada ao [!DNL Adobe Experience Cloud], você fará logoff clicando na sua imagem de perfil na navegação superior e selecionando [!UICONTROL **Sair**] no menu. Para obter mais informações, consulte [[!DNL Adobe Unified Experience] para [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Requisitos de acesso
 
@@ -48,8 +44,9 @@ Por motivos de segurança, é importante fazer logout do [!DNL Adobe Workfront] 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p>
-   <p>Solicitação ou superior</p> </td> 
+   <p>Colaborador ou posterior</p>
+   <p>Solicitação ou posterior</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>

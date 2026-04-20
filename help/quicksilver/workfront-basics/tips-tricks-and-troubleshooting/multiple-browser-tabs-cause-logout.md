@@ -1,23 +1,19 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Várias guias do navegador fazem com que o Workfront faça logout
+title: Várias abas do navegador fazem com que o Workfront faça logout
 description: Quando uma pessoa tem várias guias do navegador abertas, o Workfront pode fazer logout automaticamente.
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 440640f5b916b76096c99eed8253236de477a02a
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 29%
+source-wordcount: '164'
+ht-degree: 42%
 
 ---
 
-# Várias guias do navegador fazem com que o Workfront faça logout
-
->[!IMPORTANT]
->
->Esse problema está presente somente para organizações que foram integradas ao Adobe IMS.
+# Várias abas do navegador fazem com que o Workfront faça logout
 
 ## Problema
 

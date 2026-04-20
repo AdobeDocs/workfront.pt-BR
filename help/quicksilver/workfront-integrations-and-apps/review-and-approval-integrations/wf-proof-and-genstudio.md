@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 0%
+source-wordcount: '535'
+ht-degree: 7%
 
 ---
 
@@ -25,12 +25,12 @@ Com a integração entre o GenStudio for Performance Marketing e o Workfront Pro
 
 * Exibir decisões de revisão no GenStudio for Performance Marketing para aprovação final e publicação
 
-Para obter mais informações sobre revisão e aprovação no GenStudio for Performance Marketing, consulte [Integração do Workfront Proof com o GenStudio for Performance Marketing](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Para obter mais informações sobre revisão e aprovação no GenStudio for Performance Marketing, consulte [Integração do Workfront Proof com o GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +45,7 @@ Para obter mais informações sobre revisão e aprovação no GenStudio for Perf
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> 
-   <p>Standard </p> 
+   <p>Padrão </p> 
    <p>Plano </p></td> 
   </tr> 
   <tr> 
@@ -70,8 +70,6 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 * O Workfront e o GenStudio for Performance Marketing devem ser implantados na mesma organização do Identity Management System (IMS).
 
 * Os usuários podem pertencer a apenas uma instância do Workfront na organização IMS.
-
-* A instância do Workfront deve ser ativada na Adobe Unified Experience.
 
 * A integração deve ser habilitada na área Configuração do Workfront.
 
@@ -102,7 +100,7 @@ Para obter mais informações sobre como criar workflows e modelos automatizados
 
 Quando um usuário inicia uma revisão no GenStudio for Performance Marketing, ele simplesmente escolhe o modelo necessário. Os usuários podem alterar facilmente qualquer modelo de fluxo de trabalho de prova, adicionando ou removendo revisores e estágios, a qualquer momento.
 
-Para obter mais informações, consulte [Solicitar revisão e aprovação](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Para obter mais informações, consulte [Solicitar revisão e aprovação](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Revisar e aprovar o conteúdo de rascunho do GenStudio for Performance Marketing no visualizador de provas do Workfront
 
@@ -114,7 +112,7 @@ Com o revisor de provas, você pode
 * Marcar rascunho para mostrar o que precisa ser alterado
 * Tomar uma decisão
 
-Para obter mais informações, consulte [Revisar e editar conteúdo](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
+Para obter mais informações, consulte [Revisar e editar conteúdo](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
 
 
 >[!IMPORTANT]
@@ -126,4 +124,4 @@ Para obter mais informações, consulte [Revisar e editar conteúdo](https://exp
 
 Depois que o ativo tiver passado pelo processo de revisão e aprovação, você poderá visualizar a decisão de revisão e publicar o conteúdo diretamente do GenStudio for Performance Marketing.
 
-Para obter mais informações, consulte [Publicar conteúdo aprovado](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Para obter mais informações, consulte [Publicar conteúdo aprovado](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 9%
+source-wordcount: '1473'
+ht-degree: 8%
 
 ---
 
@@ -61,8 +61,11 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 Para usar o Preenchimento de formulário fornecido pela IA para preencher uma solicitação usando um prompt ou documento, **todos** os seguintes itens devem ser aplicados:
 
-* Sua organização deve ter migrado para o Adobe IMS (Sistema de Gerenciamento de Identidades)
-* A Adobe Unified Experience deve estar habilitada
+<!--
+Remove me October 2026
+* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled
+-->
 * Sua organização deve ter um plano Select, Prime ou Ultimate do Workfront
 * A Adobe deve ter um contrato de IA generativa da Adobe assinado em arquivo
 

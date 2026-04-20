@@ -8,25 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
 source-wordcount: '2587'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 # Editar perfis de usuário em massa
-
-<!--
-
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/br/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
--->
 
 Você pode editar contas de usuário em massa. Ao editar usuários em massa, somente os campos selecionados especificamente são atualizados com as mesmas informações para todos os usuários selecionados. Todos os outros campos não selecionados permanecem os mesmos para cada usuário individual, mesmo que sejam diferentes para cada usuário.
 
@@ -38,7 +27,7 @@ Você pode editar contas de usuário em massa. Ao editar usuários em massa, som
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +39,7 @@ Você pode editar contas de usuário em massa. Ao editar usuários em massa, som
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p><p>Plano</p></td> 
+   <td><p>Padrão</p><p>Plano</p></td> 
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
@@ -154,17 +143,17 @@ Para obter mais informações, consulte [Configurar notificações de eventos pa
 
 ### Planejamento de recursos
 
-* **Tempo de Trabalho**: representa a porcentagem de tempo FTE (equivalente a tempo completo) em que os usuários estão disponíveis para o trabalho real, sem incluir a sobrecarga. A Hora Útil deve ser um número decimal até 1, e não pode ser 0. Por exemplo, uma disponibilidade de 20% para o trabalho real seria de 0,2.
+* **Tempo de Trabalho**: representa a porcentagem de tempo FTE (equivalente a tempo completo) em que os usuários estão disponíveis para o trabalho real, sem incluir a sobrecarga. A Hora Útil deve ser um número decimal até 1, e não pode ser 0. Por exemplo, uma disponibilidade de 20% para o trabalho efetivo seria de 0,2.
 
   O campo padrão é 1, indicando que um usuário gasta todo o FTE em trabalho real relacionado ao projeto.
 
-  O sistema usa esse número para calcular a disponibilidade do usuário para o trabalho real relacionado ao projeto.
+  O sistema usa esse número para calcular a disponibilidade do usuário para o trabalho efetivo relacionado ao projeto.
 
-  Para obter mais informações sobre como criar agendas no Workfront, consulte [Criar uma agenda](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  Para obter mais informações sobre como criar cronogramas no Workfront, consulte [Criar um cronograma](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
   As exceções de agendamento e a folga também podem afetar a capacidade do usuário.
 
-  O Workfront calcula a disponibilidade de um usuário dependendo das preferências de Gerenciamento de recursos na área Configuração. Para obter mais informações, consulte [Configurar preferências de Gerenciamento de Recursos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  O Workfront calcula a disponibilidade de um usuário dependendo das preferências de Gerenciamento de recursos na área Configuração. Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
   >[!TIP]
   >
@@ -229,9 +218,9 @@ Para obter mais informações, consulte [Configurar notificações de eventos pa
 
   Se as Preferências de Gerenciamento de Recursos no nível do sistema forem definidas como O Cronograma do Usuário, o valor especificado aqui será ignorado e o usuário será considerado disponível de acordo com o especificado em seu cronograma.
 
-  Para obter mais informações, consulte [Configurar preferências de Gerenciamento de Recursos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-  Para obter mais informações sobre como criar agendas no Workfront, consulte [Criar uma agenda](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  Para obter mais informações sobre como criar cronogramas no Workfront, consulte [Criar um cronograma](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * **Conjuntos de Recursos**: associe os usuários aos Conjuntos de Recursos.
 
