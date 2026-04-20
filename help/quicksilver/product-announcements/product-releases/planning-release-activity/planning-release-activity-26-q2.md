@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '1984'
+source-wordcount: '2042'
 ht-degree: 12%
 
 ---
@@ -32,6 +32,7 @@ Para obter uma lista de todos os recursos lançados para o Adobe Workfront Plann
 >Visualização: 16 de abril de 2026
 >Versão rápida de produção: sexta-feira, 16 de abril de 2026
 >Produção para todos: sexta-feira, 16 de abril de 2026
+>[!BADGE Fora do cronograma]{type=Neutral}
 
 Agora você pode acessar o Supervisor de Conteúdo do Experience Manager no Workfront Planning. O Supervisor de conteúdo permite:
 
@@ -187,21 +188,18 @@ Reprojetamos a maneira como as navegações estruturais são exibidas em tipos d
 
 Para obter mais informações, consulte [Visão geral sobre hierarquia e navegação estrutural](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
-<!--
-
-## New field type for Record ID  
+## Novo tipo de campo para ID de registro
 
 >[!NOTE]
 >
->Preview: March 12, 2026
->Production fast release: April 15, 2026
->Production for everyone: April 16, 2026
+>Visualização: 12 de março de 2026
+>Versão rápida de produção: quinta-feira, 15 de abril de 2026
+>Produção para todos: sexta-feira, 16 de abril de 2026
 
-We have added a new field type for Record ID. This is a system-generated alpha-numeric indicator which uniquely identifies each record. The field displays in any record view as well as the record details area.  
+Adicionamos um novo tipo de campo para a ID de registro. Este é um indicador alfanumérico gerado pelo sistema que identifica exclusivamente cada registro. O campo é exibido em qualquer exibição de registro, bem como na área de detalhes do registro.
 
-For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
+Para obter informações, consulte [Criar campos](/help/quicksilver/planning/fields/create-fields.md).
 
--->
 
 ## Permitir que usuários não administradores tornem um tipo de registro conectável
 

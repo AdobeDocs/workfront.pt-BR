@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2186'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 1%
 
 # Visão geral dos tipos de registro conectados
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 Você pode indicar que os tipos de registro individuais se relacionam entre si ou com objetos de outros aplicativos, conectando-os.
 
@@ -71,7 +73,7 @@ Para obter informações sobre como conectar tipos de registro, consulte [Conect
 
         Para obter informações, consulte [Enviar solicitações do Adobe Workfront Planning para criar registros](/help/quicksilver/planning/requests/submit-requests.md).
 
-        Você pode exibir a solicitação original no campo **Assunto** da área Solicitações do Workfront, <span class="preview">ou no campo Conexão da solicitação original do Workfront Planning.</span>.
+        Você pode exibir a solicitação original no campo **Assunto** da área Solicitações do Workfront, ou no campo Conexão da solicitação original do Workfront Planning.
 
    * Você pode conectar tipos de registro do Workfront Planning com os seguintes tipos de objeto dos seguintes aplicativos:
 
@@ -82,21 +84,20 @@ Para obter informações sobre como conectar tipos de registro, consulte [Conect
          * Programas
          * Empresas
          * Grupo
-
-     <div class="preview">
-
-      * Adobe Workfront:
-
          * Solicitação original
 
            O campo Conexão da solicitação original exibe o nome da solicitação original que cria um registro depois que um formulário de solicitação é enviado para o Workfront Planning. O nome da solicitação é visível no campo Assunto da solicitação no Workfront.
 
-     </div>
+      * Adobe Experience Manager:
 
-      * Adobe Experience Manager Assets:
+         * Ativos
 
-         * Imagens
-         * Pastas
+           Você pode conectar os seguintes objetos do Adobe Experience Manager Assets:
+
+            * Imagens
+            * Pastas
+
+         * Fragmentos de conteúdo
 
       * Adobe GenStudio for Performance Marketing
 
@@ -104,10 +105,10 @@ Para obter informações sobre como conectar tipos de registro, consulte [Conect
 
         >[!IMPORTANT]
         >
-        >Você deve ter o seguinte para se conectar com as Marcas Adobe Experience Manager Assets e GenStudio:
-        >* Uma licença do Adobe Experience Manager Assets
+        >Você deve ter o seguinte para se conectar a objetos do Adobe Experience Manager e Marcas da GenStudio:
+        >* Uma licença do Adobe Experience Manager
         >* Uma licença do Adobe GenStudio for Performance Marketing
-        >* A instância da Workfront de sua organização deve ser integrada à Adobe Business Platform ou à Adobe Admin Console para conectar os registros do Workfront Planning à Adobe Experience Manager Assets.
+        >* A instância da Workfront de sua organização deve ser integrada à Adobe Business Platform ou à Adobe Admin Console.
         >Para obter informações sobre a Adobe Admin Console, consulte as [Perguntas frequentes sobre a Experiência Unificada do Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * Quando dois tipos de registro ou um tipo de registro e um tipo de objeto de outro aplicativo são conectados, os seguintes cenários existem:
@@ -129,10 +130,10 @@ Para obter informações sobre como conectar tipos de registro, consulte [Conect
       * Os campos de registros de planejamento não podem ser acessados de objetos do Workfront.
       * Os registros do Planning ficam visíveis na seção Planejamento do objeto Workfront. Para obter informações, consulte [Gerenciar conexões de registro de objetos do Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Você pode criar um campo personalizado de conexão do Planning e anexá-lo ao formulário personalizado de um objeto do Workfront. Para obter informações, consulte [Criar um formulário personalizado](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Os campos de registro do Planning podem ser acessados a partir de ativos do Experience Manager quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Os campos de registro do Planning podem ser acessados a partir de ativos do Experience Manager quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
       * Os campos de registro de planejamento não podem ser acessados nas Marcas no GenStudio for Performance Marketing.
 
-   * **Ao adicionar campos de pesquisa a partir do registro ou objeto ao qual você se conecta**: além de criar um campo de registro vinculado, você também pode se conectar a campos do registro ou tipo de objeto conectado que são chamados de campos de pesquisa. Um campo vinculado (ou de pesquisa) com informações do registro ao qual você está se conectando é exibido no registro do qual você está se conectando.
+   * **Ao adicionar campos de pesquisa a partir do registro ou objeto ao qual você se conecta**: além de criar um campo de registro vinculado, você também pode se conectar a campos do registro ou tipo de objeto conectado que são chamados de campos de pesquisa. Um campo vinculado (ou de pesquisa) com informações do registro ao qual você está se conectando é exibido no registro do qual você está se conectando. <!--not sure if this is also possible for content fragments-->
 
      Você pode conectar campos de outros tipos de registro ou objetos de outro aplicativo ao tipo de registro do Workfront Planning.
 
@@ -169,7 +170,7 @@ Depois de estabelecer uma conexão entre dois tipos de registro ou entre um regi
 >
 >* Dois registros de espaços de trabalho diferentes
 >
->* Um tipo de registro e ativos do Experience Manager
+>* Um tipo de registro e objeto do Experience Manager
 >
 >* Um tipo de registro e uma marca Adobe GenStudio
 

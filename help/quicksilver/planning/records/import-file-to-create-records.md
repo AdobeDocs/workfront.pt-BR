@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '889'
 ht-degree: 2%
 
 ---
@@ -142,8 +142,8 @@ Old:
 * Planilhas vazias não são suportadas.
 * Os campos dos seguintes tipos não são suportados e não podem ser mapeados para campos na planilha de importação:
 
-   * Campos de conexão para tipos de objeto Workfront e AEM Assets. Você pode mapear apenas campos de conexão para tipos de registro do Planning.
-   * Campos de pesquisa de registros conectados do Planning ou objetos do Workfront e AEM Assets
+   * Campos de conexão para tipos de objeto Workfront e Adobe Experience Manager. Você pode mapear apenas campos de conexão para tipos de registro do Planning.
+   * Campos de pesquisa de registros conectados do Planning ou objetos do Workfront e Adobe Experience Manager
    * Campos de fórmula
    * Data de criação, Criado por
    * Última data de modificação, Última modificação por

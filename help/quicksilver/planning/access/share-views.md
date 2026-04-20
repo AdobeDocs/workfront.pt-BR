@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2005'
 ht-degree: 1%
 
 ---
@@ -18,12 +18,15 @@ ht-degree: 1%
 
 # Compartilhar exibições
 
-<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
+<!--
+there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes
+-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -217,7 +220,7 @@ Você pode compartilhar exibições que criou ou exibições para as quais tem p
    >
    >* Além de equipes, grupos, empresas e funções de trabalho, você pode compartilhar somente com usuários que foram adicionados à Adobe Admin Console. Não é possível adicionar usuários somente do Workfront. Para obter informações, consulte [Gerenciar usuários na Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
    >
-   >* Quando você compartilha uma exibição com um usuário, sua função de trabalho principal <span class="preview">e seu email</span> também são exibidos no campo. Você deve ter a configuração Exibir informações de contato ativada para que o objeto Usuários em seu nível de acesso possa ver o email do usuário.
+   >* Quando você compartilha uma visualização com um usuário, a função de trabalho principal dele e o email também são exibidos no campo. Você deve ter a configuração Exibir informações de contato ativada para que o objeto Usuários em seu nível de acesso possa ver o email do usuário.
 
    * **Todos no espaço de trabalho podem exibir**: todos os usuários que têm permissões de Exibição ou superiores para espaços de trabalho podem acessar a exibição.
 
@@ -225,7 +228,7 @@ Você pode compartilhar exibições que criou ou exibições para as quais tem p
 
    ![Compartilhando um modo de exibição com grupos](assets/sharing-a-view-ui-with-groups.png)
 
-1. <span class="preview">(Opcional) Ao compartilhar com um grupo, equipe, função ou empresa, passe o mouse sobre o nome da entidade e clique na seta que aponta para a direita para expandir uma lista de usuários que estão recebendo as permissões. </span>
+1. (Opcional) Ao compartilhar com um grupo, equipe, função ou empresa, passe o mouse sobre o nome da entidade e clique na seta que aponta para a direita para expandir uma lista de usuários que estão recebendo as permissões.
 
    ![Compartilhar exibição com a equipe](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
@@ -239,15 +242,20 @@ Você pode compartilhar exibições que criou ou exibições para as quais tem p
 
 1. Clique em **Salvar**.
 
-   A exibição é atualizada com um ícone de pessoas ![Exibir compartilhado com outros ícones](assets/view-shared-with-others-people-icon.png) para indicar que a exibição agora está compartilhada com outros usuários.
-
    Os usuários com os quais você compartilhou a visualização recebem uma notificação no aplicativo e por email sobre permissões para ela.
 
-   >[!TIP]
-   >
-   >Visualizações sem um ícone de pessoas ou global são visualizações que você criou e não são compartilhadas com outras pessoas. As exibições não compartilhadas só estão visíveis para você.
-
 1. Compartilhar o link copiado com outras pessoas. Os usuários que recebem o link devem ser usuários ativos e fazer logon no Workfront para acessar a página de tipo de registro e exibi-la na exibição selecionada.
+
+1. (Opcional) Passe o mouse sobre o nome de uma view para saber o nome do proprietário da view e se a view é compartilhada de forma privada ou pública.
+
+   Os seguintes rótulos existem:
+
+   * **Public**: a exibição é compartilhada publicamente. Para obter informações, consulte a seção [Compartilhar permissões para uma exibição pública](#share-permissions-to-a-view-publicly) neste artigo.
+   * **De sua propriedade**: a exibição foi criada por você.
+   * **Compartilhado com você**: a exibição é criada por outras pessoas e compartilhada com você. O nome do proprietário também é exibido.
+   * **Particular**: você criou a exibição ou outras pessoas a criaram, mas ela não é compartilhada publicamente.
+
+   ![Exibição compartilhada de forma privada ao passar o mouse sobre o rótulo](assets/privately-shared-view-hover-over-label.png)
 
 ## Compartilhar permissões para uma exibição pública
 
@@ -296,22 +304,16 @@ Para compartilhar uma exibição publicamente no Workfront Planning:
 
 1. Clique em **Salvar**.
 
-   A exibição é atualizada com um ícone global ![Ícone de exibição pública compartilhada](assets/public-shared-view-icon-highlighted.png) para indicar que a exibição é compartilhada publicamente.
+1. (Opcional) Passe o mouse sobre o nome da exibição na lista de exibições e observe que a exibição indica que agora ela está compartilhada publicamente.
 
-   >[!TIP]
-   >
-   >Visualizações sem um ícone de pessoas ou global são visualizações que você criou e não são compartilhadas com outras pessoas. As exibições não compartilhadas só estão visíveis para você.
+   ![Exibição compartilhada publicamente passar o mouse sobre o rótulo](assets/publicly-shared-view-hover-over-label.png)
 
 1. (Opcional) Cole o link copiado em um email, mensagem de chat, documento ou comentário do Workfront para compartilhá-lo com outras pessoas.
 
-   <div class="preview">
-
    Quando outras pessoas abrem uma visualização pública, elas veem as seguintes informações sobre a visualização no cabeçalho:
 
-   * O nome e o ícone da exibição
+   * O nome e o ícone da exibição. O ícone indica o tipo de exibição: uma tabela, uma linha do tempo ou um calendário.
    * O nome do tipo de registro que a exibição mostra
-
-   </div>
 
 ## Copiar um link para uma exibição
 
