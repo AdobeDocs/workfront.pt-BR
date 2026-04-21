@@ -10,10 +10,10 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
+source-git-commit: 8ee1cda376b51a5f5b7b4af44e6d34bf70ee9600
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 5%
+source-wordcount: '1803'
+ht-degree: 4%
 
 ---
 
@@ -78,7 +78,7 @@ O formato de uma validação de regra de negócios é &quot;Se a condição defi
 
 A sintaxe das propriedades e outras funções em uma regra de negócios é igual à sintaxe de um campo calculado em um formulário personalizado. Para obter mais informações sobre a sintaxe, consulte [Adicionar campos calculados com o designer de formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Para obter informações sobre instruções IF, consulte a [&#x200B; visão geral das instruções &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e os [Operadores de condição em campos personalizados calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Para obter informações sobre instruções IF, consulte a [ visão geral das instruções &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e os [Operadores de condição em campos personalizados calculados](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Para obter informações sobre curingas baseados no usuário, consulte [Usar curingas baseados no usuário para generalizar relatórios](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -202,30 +202,25 @@ IF({status} = "APR", true)
    * Documento
    * Programa
    * Despesa
+   * Usuário
    * Empresa
    * Iteração
    * Registro de cobrança
    * Grupo
-   * Recurso não trabalhista
    * Risco
    * Cartão de tarifas
    * Atribuição
-   * Usuário
-   * Função
-   * Hora
-   * Modelo
-   * Folga
-   * Conjunto de Recursos
    * Função no trabalho
-   * Categoria de recurso não trabalhista
    * Conjunto de Recursos
    * Folga
    * Hora
-   * Plano de recrutamento
    * Modelo
-   * Recurso do plano de recrutamento
    <!--
-   * <span class="preview">Team</span>
+   * Non-labor resource
+   * Non-labor resource category
+   * Staffing Plan
+   * Staffing Plan Resource
+   * Team
    -->
 
 1. Selecione um **Acionador** para a regra de negócios. As opções são:

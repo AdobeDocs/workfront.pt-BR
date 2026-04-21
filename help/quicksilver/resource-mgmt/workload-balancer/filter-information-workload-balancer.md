@@ -6,10 +6,10 @@ description: Para encontrar itens de trabalho com eficiência e se concentrar no
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 8bd433c11334d3ecd12afc98ee2d33fac06826f3
 workflow-type: tm+mt
-source-wordcount: '2437'
-ht-degree: 1%
+source-wordcount: '2448'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 Como gerenciador de recursos, você pode usar o Balanceador de carga de trabalho para exibir e gerenciar a carga de trabalho dos usuários. Para obter informações mais gerais sobre o Balanceador de carga de trabalho, consulte os seguintes artigos:
 
 * [Visão geral do Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
-* [Navegar pelo Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
+* [Navegar no Balanceador de carga de trabalho](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 >[!IMPORTANT]
 >
@@ -35,6 +35,8 @@ Como gerenciador de recursos, você pode usar o Balanceador de carga de trabalho
 Este artigo contém informações sobre filtros no Balanceador de carga de trabalho. Para obter informações sobre filtros no Workfront, consulte [Visão geral sobre filtros](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisitos de acesso
+
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,6 +73,8 @@ Este artigo contém informações sobre filtros no Balanceador de carga de traba
 </table>
 
 Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visão geral dos filtros no Balanceador de carga de trabalho
 
@@ -246,7 +250,7 @@ O processo de criação de filtros para as áreas Trabalho não atribuído e Tra
 1. No canto superior direito das áreas **Trabalho não atribuído** ou **Trabalho atribuído**, clique no ícone **Filtro** ![Ícone Filtro](assets/filter-icon.png).  A caixa **Filtros** é exibida à direita, e o nome da área para a qual você está duplicando o filtro é exibido no cabeçalho.
 
 1. Passe o mouse sobre um filtro existente e clique no menu **Mais** ![Mais menu](assets/more-menu-edit-filter.png).
-1. Clique em **Duplicar**.
+1. Clique em **Duplicate**.
 
    >[!TIP]
    >
