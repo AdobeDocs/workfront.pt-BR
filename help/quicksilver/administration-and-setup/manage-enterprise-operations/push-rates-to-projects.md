@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 10%
@@ -17,7 +17,9 @@ ht-degree: 10%
 
 # Alterações na taxa de push em projetos
 
-Quando um cartão de taxas é anexado a um projeto <!--or a staffing plan-->, as taxas no cartão de taxas ainda podem ser ajustadas. Em seguida, você pode enviar essas taxas para os projetos <!--and staffing plans --> aos quais o cartão de taxa está anexado. Se você não enviar as novas taxas, as taxas originais permanecerão no projeto<!-- or staffing plan-->.
+Quando um cartão de taxas é anexado a um projeto <!--or a staffing plan-->, as taxas no cartão de taxas ainda podem ser ajustadas. Em seguida, você pode enviar essas taxas para os projetos aos quais o cartão de taxa está anexado. Se você não aumentar as novas taxas, as taxas originais permanecerão no projeto.
+<!-- and staffing plans -->
+<!-- or staffing plan -->
 
 Para obter informações sobre como anexar um cartão de taxa a um projeto, consulte [Anexar um cartão de taxa a um projeto](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
@@ -60,7 +62,12 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 1. Clique no nome do cartão de taxa na lista Cartões de taxa.
 1. Na tela Cartão de tarifa > Funções e taxas de trabalho, verifique se as taxas estão corretas e edite as taxas conforme necessário.
 1. Clique em [!UICONTROL **Enviar alterações**].
-1. Na caixa de diálogo [!UICONTROL **Aplicar a todos os projetos**]<!--/staffing plans-->, todos os projetos <!--and staffing plans --> que usam esse cartão de taxa são selecionados por padrão. Se você não quiser que um projeto <!--or staffing plan --> aplique as alterações de taxa, deverá desmarcá-lo.
+1. Na caixa de diálogo [!UICONTROL **Aplicar a todos os projetos**], todos os projetos que usam esse cartão de taxa são selecionados por padrão. Se você não quiser que um projeto aplique as alterações de taxa, deverá desmarcá-lo.
+
+   <!--/staffing plans-->
+   <!--and staffing plans -->
+   <!--or staffing plan -->
+
 1. Clique em [!UICONTROL **Salvar**].
 
    As novas taxas agora são refletidas nos projetos <!--and staffing plans --> que usam o cartão de taxa.

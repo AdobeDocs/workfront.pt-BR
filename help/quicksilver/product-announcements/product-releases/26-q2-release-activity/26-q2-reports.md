@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 8%
@@ -51,7 +51,7 @@ Os filtros existentes para relatórios clássicos usando o `isCurrentVersion` ou
 >Versão rápida de produção: quinta-feira, 15 de abril de 2026
 >Produção para todos: sexta-feira, 16 de abril de 2026
 
-O Workfront agora inclui um novo tipo de entrega de link para relatórios agendados. Em vez de gerar e anexar um arquivo, essa opção envia um email contendo um link direto para o relatório no Workfront, permitindo que os destinatários visualizem{{$include }} os dados mais atuais no aplicativo.
+O Workfront agora inclui um novo tipo de entrega de link para relatórios agendados. Em vez de gerar e anexar um arquivo, essa opção envia um email contendo um link direto para o relatório no Workfront, permitindo que os destinatários visualizem `{{$include }}` os dados mais atuais no aplicativo.
 
 A opção Vincular agora é o tipo de delivery padrão para regras de delivery de relatórios agendados recém-criadas, enquanto os formatos baseados em arquivos existentes (HTML, PDF, Excel e TSV) permanecem disponíveis.
 

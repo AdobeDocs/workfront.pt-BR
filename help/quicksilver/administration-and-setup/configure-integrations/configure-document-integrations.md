@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -27,11 +27,11 @@ Como administrador do [!DNL Adobe Workfront], você pode configurar integraçõe
 
 >[!NOTE]
 >
->Incluir na lista de permissões Para permitir a comunicação aberta entre os servidores do [!DNL Workfront Proof] e do [!DNL Workfront], talvez seja necessário adicionar determinados endereços IP ao seu arquivo. Incluir na lista de permissões Para obter mais informações, consulte [Configurar o arquivo do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+>Para permitir a comunicação aberta entre os servidores do [!DNL Workfront Proof] e do [!DNL Workfront], talvez seja necessário adicionar determinados endereços IP ao incluo na lista de permissões. Para obter mais informações, consulte [Configurar incluo na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table>
   <tr>
@@ -44,7 +44,7 @@ Como administrador do [!DNL Adobe Workfront], você pode configurar integraçõe
     <tr>
    <td>Licenças do Adobe Workfront
    </td>
-   <td>Standard
+   <td>Padrão
    <p>Plano</p>
    </td>
   </tr>
@@ -56,7 +56,7 @@ Como administrador do [!DNL Adobe Workfront], você pode configurar integraçõe
   </tr>
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,8 +69,8 @@ Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisit
 Você pode configurar as seguintes integrações para gerenciar documentos:
 
 <!--
-  Experience Manager Assets Essentials </p>
-  -->
+   Experience Manager Assets Essentials </p>
+   -->
 
 * [!DNL Workfront DAM]
 
@@ -138,7 +138,7 @@ Depois que a integração de documentos personalizada for criada, você poderá 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Nome]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td>O nome da integração personalizada. Esse é o nome que os usuários veem ao usar a integração no Workfront.</td> 
      </tr> 
      <tr> 
@@ -163,7 +163,7 @@ Depois que a integração de documentos personalizada for criada, você poderá 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL URL de Autenticação]</td> 
+      <td role="rowheader">[!UICONTROL Authentication URL]</td> 
       <td>O URL completo usado para autenticação do usuário. [!DNL Workfront] navega usuários para este endereço como parte do processo de provisionamento do OAuth.</td> 
      </tr> 
      <tr> 
@@ -171,11 +171,11 @@ Depois que a integração de documentos personalizada for criada, você poderá 
       <td>O URL completo da API usado para recuperar tokens OAuth.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL ID do Cliente]</td> 
+      <td role="rowheader">[!UICONTROL Client ID]</td> 
       <td>A ID do cliente OAut para essa integração.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Segredo do Cliente]</td> 
+      <td role="rowheader">[!UICONTROL Client Secret]</td> 
       <td>O segredo do cliente OAut para essa integração.</td> 
      </tr> 
      <tr> 

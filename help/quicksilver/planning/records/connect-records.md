@@ -8,7 +8,7 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '3536'
 ht-degree: 2%
@@ -97,7 +97,7 @@ Você pode conectar o seguinte:
    <ul><li><p>Uma licença do Adobe Experience Manager e uma integração entre o Adobe Experience Manager e o Workfront para conectar ativos do AEM ou Fragmentos de conteúdo com tipos de registro do Planning.</p>
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas da GenStudio</p>
-   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -403,7 +403,7 @@ Depois de criar uma conexão entre um tipo de registro e objetos do Adobe Experi
 
 >[!NOTE]
 >
->Os registros de planejamento e seus campos podem ser acessados no Experience Manager Assets quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Os registros de planejamento e seus campos podem ser acessados no Experience Manager Assets quando o administrador do Workfront configura o mapeamento de metadados por meio da integração entre o Workfront e o Adobe Experience Manager Assets. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 <!--
 not sure if the above 2 paragraphs also apply to fragments; checking with Court and the Andy
@@ -435,7 +435,8 @@ Para conectar registros a objetos do Experience Manager:
     -->
 
    <!--
-    ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)-->
+    ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)
+    -->
 
 1. Na guia **Assets**, clique para selecionar alguns dos seguintes tipos de ativos:
 
@@ -447,11 +448,11 @@ Para conectar registros a objetos do Experience Manager:
    >[!IMPORTANT]
    >
    > É possível conectar somente ativos que você tenha acesso para visualizar no Experience Manager. Depois de conectados, todos os usuários do Workfront Planning podem exibir os ativos no Workfront Planning, independentemente do acesso deles ao Experience Manager Assets.
-   > Para obter mais informações sobre o Supervisor de Conteúdo, consulte [Usar o Supervisor de Conteúdo para acessar conteúdo do AEM em aplicativos do Adobe](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   > Para obter mais informações sobre o Supervisor de Conteúdo, consulte [Usar o Supervisor de Conteúdo para acessar conteúdo do AEM em aplicativos do Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. Na guia **Fragmentos de conteúdo**, selecione fragmentos de conteúdo a serem adicionados ao campo de registro vinculado.
 
-   Para obter mais informações sobre fragmentos de conteúdo, consulte [Usar o Supervisor de Conteúdo para acessar conteúdo do AEM em aplicativos do Adobe](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
+   Para obter mais informações sobre fragmentos de conteúdo, consulte [Usar o Supervisor de Conteúdo para acessar conteúdo do AEM em aplicativos do Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}.
 
 1. Quando você terminar de escolher os ativos ou fragmentos de conteúdo, clique em **Selecionar**. <!-- we might change this to Connect-->
 
@@ -484,7 +485,7 @@ Para conectar registros a objetos do Experience Manager:
    * Data de criação
    * Data de modificação
 
-1. (Opcional e condicional) Para ativos, para abrir a página de registro de ativos da Experience Manager no Experience Manager, vá para a página de tipo de registro do registro a partir do qual você está vinculando, clique no nome de um ativo no campo de registro vinculado para abrir a janela pop-up e clique no ícone **Abrir no AEM** no ícone ![&#x200B; para abrir o ativo. &#x200B;](assets/open-asset-icon.png)<!--not sure if this is also possible for fragments??-->
+1. (Opcional e condicional) Para ativos, para abrir a página de registro de ativos da Experience Manager no Experience Manager, vá para a página de tipo de registro do registro a partir do qual você está vinculando, clique no nome de um ativo no campo de registro vinculado para abrir a janela pop-up e clique no ícone **Abrir no AEM** no ícone ![ para abrir o ativo. ](assets/open-asset-icon.png)<!--not sure if this is also possible for fragments??-->
 
    Isso abre o ativo Experience Manager no Adobe Experience Manager Assets.
 
