@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 3080fc1ebf33186f3bdf64a960fd1b5572dbfb2f
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 9%
+source-wordcount: '641'
+ht-degree: 8%
 
 ---
 
@@ -34,7 +34,7 @@ Depois de salvar um modelo de layout no qual você alterou a terminologia e, em 
 >[!NOTE]
 >
 >* Você pode encontrar problemas gramaticais e outros ao personalizar rótulos. Por exemplo, se você alterar &quot;Problema&quot; para &quot;Solicitação&quot;, poderá haver locais na interface do usuário onde você verá a frase &quot;Uma solicitação&quot;. Para obter mais informações, consulte [Implicações da personalização de nomes de objetos](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) no artigo [Entender objetos no Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
->
+>* Para personalizar traduções de terminologia para idiomas diferentes do inglês, consulte [Configurar localização personalizada](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
 Para obter mais informações sobre modelos de layout, consulte [Criar e gerenciar modelos de layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
