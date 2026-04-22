@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2978'
+source-wordcount: '2918'
 ht-degree: 1%
 
 ---
@@ -18,10 +18,11 @@ ht-degree: 1%
 
 # Editar registros
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -143,7 +144,7 @@ Old:
 * Os seguintes tipos de campos são atualizados automaticamente e não é possível editar seus valores manualmente:
    * Campos vinculados de outros registros
    * Campos do tipo fórmula
-   * Campos do sistema (Criado por, Data de criação, Última modificação por, Data da última modificação, Data de aprovação, Aprovado por , <span class="preview">ID do registro</span>)
+   * Campos do sistema (Criado por, Data de criação, Última modificação por, Última data de modificação, Data de aprovação, Aprovado por, ID do registro)
 * Se os registros exibidos estiverem vinculados a outros registros, as novas informações dos registros que você está editando serão refletidas nos registros vinculados em todos os espaços de trabalho onde esse registro estiver vinculado.
 * Não é possível editar registros em massa. <!--this will probably change-->
 * Os URLs são reconhecidos como links em tipos de campo de texto de linha única somente quando começam com o seguinte: http://, https://, ftp:// ou www. .

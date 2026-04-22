@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1641'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 2%
 
 # Gerenciar o layout da página do registro
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,6 +175,7 @@ Old:
 
 Considere o seguinte ao adicionar seções a uma página de registro:
 
+* Você pode adicionar seções somente ao exibir todos os campos de um registro. Não é possível adicionar seções ao ocultar os campos ocultos em uma exibição de tabela.
 * Não há limite para quantas seções você pode ter em uma página.
 * Você não pode ter uma seção vazia. Você deve ter pelo menos um campo em uma seção.
 * Você pode arrastar e soltar campos de uma seção para outra. Para obter mais informações, consulte a seção [Gerenciar campos na página de visualização ou detalhes do registro](#manage-fields-in-the-records-details-tab) neste artigo.
@@ -196,7 +199,7 @@ Para adicionar uma seção a uma visualização de registro ou página:
 
    Na exibição de tabela, clique no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome de tabela](assets/open-details-icon-in-table-name-field.png) na primeira coluna.
 
-   <span class="preview">A visualização do registro é aberta no modo de exibição.</span>
+   A visualização do registro é aberta na exibição.
 
    ![Caixa Detalhes](assets/details-box.png)
 
@@ -275,32 +278,24 @@ As seguintes situações ocorrem:
 
    Na exibição de tabela, clique no ícone **Abrir detalhes** ![Ícone Abrir detalhes no campo de nome de tabela](assets/open-details-icon-in-table-name-field.png) na primeira coluna.
 
-   <span class="preview">A visualização do registro é aberta no modo de exibição.</span>
+   A visualização do registro é aberta na exibição.
 
    ![Caixa Detalhes](assets/details-box.png)
 
-1. <span class="preview">(Opcional e condicional) Dependendo de quais campos você deseja exibir na página Detalhes, siga um destes procedimentos:</span>
+1. (Opcional e condicional) Dependendo de quais campos você deseja exibir na página Detalhes, execute um dos seguintes procedimentos:
 
-   <div class="preview">
 
-   * Selecione a configuração **Mostrar todos os campos** para exibir todos os campos da exibição de tabela do registro, incluindo os ocultos.
-   * Desmarque a configuração **Mostrar todos os campos** para exibir somente campos que não estejam ocultos na exibição de tabela do registro. Esta é a configuração padrão
+   * Selecione a configuração **Mostrar todos os campos** para incluir todos os campos do registro na página **Detalhes**. Esta é a configuração padrão.
+   * Desmarque a configuração **Mostrar todos os campos** para excluir da página **Detalhes** os campos de registro ocultos na exibição de tabela do registro.
 
-   </div>
+     >[!TIP]
+     >
+     >* A configuração **Mostrar todos os campos** está disponível somente na caixa de visualização Detalhes do registro. Não está disponível quando a página Detalhes do registro é aberta em uma janela do navegador.
+     >* Não é possível adicionar seções à página de um registro ao excluir campos ocultos na caixa de visualização Detalhes.
 
-   <!--
-      replace with this when they fix the UI text:
-      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-      -->
+1. (Opcional) Se desejar navegar para um registro conectado, clique no nome desse registro na navegação estrutural na parte superior da página de detalhes.
 
-   >[!TIP]
-   >
-   ><span class="preview">A configuração **Mostrar todos os campos** está disponível somente na caixa de visualização Detalhes do registro. Não está disponível na página Detalhes do registro.</span>
-
-1. (Opcional) Se desejar navegar para um registro conectado, clique no nome desse registro na navegação estrutural na parte superior da página de detalhes. <span class="preview">
-
-   Se você não conseguir ver o nome de um registro na navegação estrutural, clique em **Mais**. Isso exibe a navegação estrutural em várias linhas. Clique em **Menos** para encurtar a navegação estrutural e exibi-la em uma linha.</span>
+   Se você não conseguir ver o nome de um registro na navegação estrutural, clique em **Mais**. Isso exibe a navegação estrutural em várias linhas. Clique em **Menos** para encurtar a navegação estrutural e exibi-la em uma linha.
 
    >[!TIP]
    >

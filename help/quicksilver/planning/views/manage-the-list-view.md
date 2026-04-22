@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
 source-wordcount: '1791'
 ht-degree: 1%
@@ -261,8 +261,6 @@ Há um ponto azul ao lado do ícone **Formatar células** para indicar que a exi
 
    * **Excluir** para excluir o item. A exclusão de um projeto o desconecta do registro e o move para a Lixeira do Workfront. Os administradores do Workfront podem recuperar projetos excluídos até 30 dias após a exclusão. A exclusão de um formulário não exclui as solicitações ou os registros criados quando o formulário foi enviado.
    * **Desconectar** para desconectar o projeto do registro. Desconectar um projeto o remove e todos os valores de seus campos de pesquisa do registro atual.
-
-     <!--update screen shot at preview release-->
 
      ![Barra de ações na exibição de Lista da página Registros conectados](assets/actions-bar-connected-records-page-list-view.png)
 

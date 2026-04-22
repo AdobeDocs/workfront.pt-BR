@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1742'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 # Visão geral do tipo de registro entre espaços de trabalho
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -234,7 +236,7 @@ Para usar tipos de registro conectáveis, faça o seguinte:
 
    >[!TIP]
    >
-   ><span class="preview">Somente Administradores do Sistema podem designar um tipo de registro para ser conectável de todos os espaços de trabalho no sistema. Todos os outros gerentes de espaço de trabalho podem designar espaços de trabalho específicos a partir dos quais se conectar ao tipo de registro. </span>
+   >Somente os administradores do sistema podem designar um tipo de registro para ser conectável de todos os espaços de trabalho no sistema. Todos os outros gerentes de espaço de trabalho podem designar espaços de trabalho específicos a partir dos quais se conectar ao tipo de registro.
    >
    >Para obter informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
 1. Conecte-se a um tipo de registro designado como conectável de outro espaço de trabalho que você gerencia.

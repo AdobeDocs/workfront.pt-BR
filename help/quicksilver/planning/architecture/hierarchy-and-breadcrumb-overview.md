@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
 
 # Visão geral da hierarquia e da navegação estrutural
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Como um gerenciador de espaço de trabalho, você pode definir hierarquias flexíveis mas estruturadas entre tipos de registro conectados e outros tipos de objeto no Adobe Workfront Planning.
 
@@ -80,7 +82,7 @@ Estes são os benefícios de usar hierarquias em seus espaços de trabalho:
 
 Quando você cria hierarquias entre tipos de registro, elas geram navegações estruturais para os registros que pertencem a esses tipos de registro.
 
-Por exemplo, se você criar uma hierarquia e conectar Campanhas com Táticas e, em seguida, com Atividades, ao navegar para um registro de qualquer um dos tipos conectados na hierarquia, poderá visualizar onde o registro é colocado na hierarquia. Se o registro for exibido em vários espaços de trabalho, você poderá exibir os caminhos em cada espaço de trabalho <span class="preview">começando pelo nome do espaço de trabalho na navegação estrutural.</span>
+Por exemplo, se você criar uma hierarquia e conectar Campanhas com Táticas e, em seguida, com Atividades, ao navegar para um registro de qualquer um dos tipos conectados na hierarquia, poderá visualizar onde o registro é colocado na hierarquia. Se o registro for exibido em vários espaços de trabalho, você poderá exibir os caminhos em cada espaço de trabalho começando pelo nome do espaço de trabalho na navegação estrutural.
 
 ![Navegação estrutural](assets/breadcrumbs-on-activities-planning-only.png)
 

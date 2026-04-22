@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1004'
 ht-degree: 3%
 
 ---
 
 # Compartilhar espaços de trabalho
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -156,39 +158,31 @@ Para compartilhar um espaço de trabalho com outras pessoas:
 
    ![Botão Compartilhar no canto superior direito do espaço de trabalho](assets/share-button-on-workspace-top-right.png)
 
-1. <span class="preview">(Condicional) Dependendo do seu nível de acesso, execute um dos procedimentos a seguir:
+1. (Condicional) Dependendo do seu nível de acesso, execute um dos procedimentos a seguir:
 
-   * Se você for um Administrador do Sistema, selecione uma das seguintes opções:</span>
-
-     <div class="preview">
+   * Se você for um Administrador do sistema, selecione uma das seguintes opções:
 
       * **Somente pessoas convidadas podem acessar**: você deve selecionar entidades na caixa de compartilhamento e escolher seu acesso ao espaço de trabalho. Esta é a seleção padrão.
       * **Todos no sistema podem exibir**: todos no sistema com acesso ao Planning podem exibir o espaço de trabalho em sua área **Espaços de Trabalho** no Planning.
 
-     </div>
-
-   * <span class="preview">(Condicional) Se você for um gerenciador de espaço de trabalho com uma licença Standard, poderá ver uma das seguintes seleções, mas não poderá alterá-las:</span>
-
-     <div class="preview">
+   * (Condicional) Se você for um gerenciador de espaços de trabalho com uma licença Standard, poderá ver uma das seguintes seleções, mas não poderá alterá-las:
 
       * **Somente pessoas convidadas podem acessar**. Esta é a configuração padrão.
       * **Todos no sistema podem visualizar**
 
      Você deve solicitar a um Administrador do sistema que altere uma permissão global para um espaço de trabalho.
 
-     </div>
-
 1. No campo **Conceder acesso a este espaço de trabalho**, comece digitando o nome de um usuário, grupo, equipe, empresa ou função de trabalho e clique nele quando ele for exibido na lista.
 
-   <span class="preview">![Compartilhando a interface com grupos](assets/sharing-ui-with-groups.png)</span>
+   ![Compartilhando a interface com grupos](assets/sharing-ui-with-groups.png)
 
    >[!NOTE]
    >
    >* Além de equipes, grupos, empresas e funções de trabalho, você pode compartilhar somente com usuários que foram adicionados à Adobe Admin Console. Não é possível adicionar usuários somente do Workfront. Para obter informações, consulte [Gerenciar usuários na Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
    >
-   >* Quando você compartilha um espaço de trabalho com um usuário, sua função de trabalho principal <span class="preview">e seu email</span> também são exibidos no campo. Você deve ter a configuração Exibir informações de contato ativada para que o objeto Usuários em seu nível de acesso possa ver o email do usuário.
+   >* Quando você compartilha um espaço de trabalho com um usuário, sua função de trabalho principal e seu email também são exibidos no campo. Você deve ter a configuração Exibir informações de contato ativada para que o objeto Usuários em seu nível de acesso possa ver o email do usuário.
 
-1. <span class="preview">(Opcional) Ao compartilhar com um grupo, equipe, função ou empresa, passe o mouse sobre o nome da entidade e clique na seta que aponta para a direita para expandir uma lista de usuários que estão recebendo as permissões. </span>
+1. (Opcional) Ao compartilhar com um grupo, equipe, função ou empresa, passe o mouse sobre o nome da entidade e clique na seta que aponta para a direita para expandir uma lista de usuários que estão recebendo as permissões.
 
    ![Compartilhar espaço de trabalho com um grupo](assets/share-workspace-role-expanding-arrow-highlighted.png)
 

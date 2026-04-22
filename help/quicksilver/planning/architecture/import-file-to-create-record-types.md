@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 1%
+source-wordcount: '835'
+ht-degree: 2%
 
 ---
 
 # Criar tipos de registro importando informações de um arquivo CSV ou do Excel
 
-<span class="preview">As informações nesta página se referem a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -145,7 +147,7 @@ Old:
    * Última data de modificação, Última modificação por
    * Data de Aprovação, Aprovado por
    * People
-   * <span class="preview">ID do Registro</span>
+   * ID do registro
 
 Para importar tipos de registro usando um arquivo Excel ou CSV:
 
@@ -159,10 +161,10 @@ Para importar tipos de registro usando um arquivo Excel ou CSV:
 
    >[!TIP]
    >
-   ><span class="preview">Você pode usar a seguinte combinação de teclado para abrir a caixa de pesquisa global em qualquer página do Workfront Planning e pesquisar espaços de trabalho:</span>
+   >Você pode usar a seguinte combinação de teclado para abrir a caixa de pesquisa global em qualquer página do Workfront Planning e pesquisar espaços de trabalho:
    >
-   >* <span class="preview">CTRL+K para Windows</span>
-   >* <span class="preview">⌘+K para Mac</span>
+   >* CTRL+K para Windows
+   >* ⌘+K para Mac
 
 1. Clique em **Adicionar tipo de registro**.
 1. Clique em **Carregar do arquivo**.

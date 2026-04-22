@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2224'
 ht-degree: 3%
 
 ---
@@ -217,10 +217,14 @@ Você pode revisar espaços de trabalho de amostra do Planning e seus objetos, b
 1. (Condicional e obrigatório) Como administrador do Workfront, assine o contrato de avaliação gratuita.
 
    Para obter informações, consulte a seção [Inscrever-se na avaliação gratuita do Adobe Workfront Planning](#enroll-in-the-adobe-workfront-planning-free-trial) neste artigo.
-1. Clique no ícone **do** Menu Principal![](assets/main-menu-shell.png) e em **Planning**. O ícone exibe um rótulo de **Avaliação** ao lado dele.
+1. (Condicional) Após a assinatura do contrato de avaliação por um administrador do Workfront, clique no ícone **do** Menu Principal![](assets/main-menu-shell.png) e em um dos seguintes itens para acessar a área **Planejamento**:
+
+   * **Planejamento**. O ícone exibe um rótulo de **Avaliação** ao lado dele.
+   * **Projetos**, **Solicitações**, **Calendários** e clique em **Explorar calendários da campanha**
+   * **Portfólios**, **Programas** ou de um portfólio ou programa    depois clique em **Explorar hierarquias personalizadas**.
 
    A área **Planning** é aberta na guia **Espaços de trabalho de amostra**.
-1. Revise os seguintes espaços de trabalho disponíveis na guia **Espaços de trabalho de amostra**:
+1. Revise os seguintes espaços de trabalho na guia **Espaços de trabalho de amostra**:
 
    * **Taxonomias e classificações globais**: contém tipos de objeto de planejamento de amostra que são a base de um Sistema de marketing de registro.
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1526'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,11 @@ ht-degree: 2%
 
 # Compartilhar tipos de registro
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -224,7 +226,7 @@ Old:
       >Os gerentes do Workspace continuam a ter permissões de gerenciamento para o tipo de registro.
 
    1. No campo **Conceder acesso a este tipo de registro**, adicione os usuários, equipes, grupos, empresas ou funções de trabalho aos quais você deseja conceder um nível de permissão diferente daquele que eles têm para o espaço de trabalho.
-   1. <span class="preview">(Opcional) Ao compartilhar com um grupo, equipe, função ou empresa, passe o mouse sobre o nome da entidade e clique na seta que aponta para a direita para expandir uma lista de usuários que estão recebendo as permissões. </span>
+   1. (Opcional) Ao compartilhar com um grupo, equipe, função ou empresa, passe o mouse sobre o nome da entidade e clique na seta que aponta para a direita para expandir uma lista de usuários que estão recebendo as permissões.
 
       ![Compartilhar tipo de registro com o grupo](assets/share-record-type-with-group-expanding-arrow-highlighted.png)
 
@@ -237,7 +239,7 @@ Old:
    >* Você não pode conceder aos usuários uma permissão menor que Gerenciar para um tipo de registro, se eles tiverem permissões Gerenciar para o espaço de trabalho.
    >* É possível conceder aos usuários uma permissão menor para o tipo de registro se eles tiverem permissões do Contribute para o espaço de trabalho.
    > Para obter mais informações, consulte [Visão geral das permissões de compartilhamento no Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-   >* Quando você compartilha um tipo de registro com um usuário, sua função de trabalho principal <span class="preview">e seu email</span> também são exibidos no campo. Você deve ter a configuração Exibir informações de contato ativada para que o objeto Usuários em seu nível de acesso possa ver o email do usuário.
+   >* Quando você compartilha um tipo de registro com um usuário, sua função de trabalho principal e seu email também são exibidos no campo. Você deve ter a configuração Exibir informações de contato ativada para que o objeto Usuários em seu nível de acesso possa ver o email do usuário.
 
 1. Para conceder aos usuários que não têm permissões para o espaço de trabalho acesso para exibir um tipo de registro, no campo **Conceder acesso a este modo de exibição**, comece digitando o nome de um usuário, grupo, equipe, empresa ou função de trabalho e, em seguida, clique nele quando ele for exibido na lista.
 

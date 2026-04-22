@@ -8,17 +8,15 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2969'
 ht-degree: 4%
 
 ---
 
 
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
-
-<!--take production and preview references out at prod-->
 
 # Conectar tipos de registro
 
@@ -95,7 +93,7 @@ Para obter um exemplo de conexão de tipos de registros e registros, consulte [E
    <ul><li><p>Uma licença do Adobe Experience Manager Assets e uma integração entre o AEM Assets e o Workfront para conectar o AEM Assets aos tipos de registro do Planning.</p>
    <p>Para obter informações, consulte <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront para Experience Manager Assets e Assets Essentials: índice do artigo</a>. </p></li>
    <li><p> Uma licença da Adobe GenStudio for Performance Marketing para conectar tipos de registros com marcas da GenStudio</p>
-   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Para obter informações, consulte <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Introdução ao Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -214,7 +212,7 @@ Old:
      >
      >A configuração **Permitir conexão com este tipo de registro em outros espaços de trabalho** deve ser habilitada para um tipo de registro na guia **Configurações entre espaços de trabalho** da caixa **Editar tipo de registro**, para que um tipo de registro seja acessível de outros espaços de trabalho. Se não houver tipos de registro configurados para se conectar a partir de outros espaços de trabalho, a seção espaço de trabalho não será exibida.
      >
-     >Para obter informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md). <!--update screen shot at production-->
+     >Para obter informações, consulte [Configurar recursos entre espaços de trabalho para tipos de registro](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).
      >
      >![Guia de configurações entre espaços de trabalho da caixa Editar tipo de registro](assets/edit-record-type-box-advanced-settings-tab.png)
 
@@ -316,7 +314,7 @@ Old:
 
    >[!NOTE]
    >
-   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/pt-br/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >O administrador do Workfront pode mapear campos do Workfront Planning para campos do Experience Manager por meio do mapeamento de metadados no Workfront. Para obter mais informações, consulte [Configurar o mapeamento de metadados de ativos entre o Adobe Workfront e o Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Condicional) Ao se conectar ao Experience Manager, a um tipo de registro do Workfront Planning ou a uma Marca GenStudio, escolha uma das seguintes opções na área **Aparência do registro**:
@@ -339,22 +337,14 @@ Old:
 
 1. Selecione os **Selecionar campos de pesquisa** para adicionar campos do tipo de registro ao qual você está se conectando. Os campos de pesquisa são campos associados ao registro ou tipo de objeto ao qual você está vinculando. Vinculá-los exibe informações do registro ou objeto ao qual você está vinculando no registro a partir do qual você está vinculando. É selecionado por padrão.
 
-   <!--
-    When reference fields are coming, change the first bullet in the TIP below with this: 
-    >* In the Production environment, you cannot add Workfront reference fields (for example, the Project Group or Company from a Workfront Project) as lookup fields in Planning. <span class="preview">You can add Workfront reference fields as lookup fields in the Preview environment.</span>
-    -->
-
    >[!TIP]
    >
-   >* Não é possível adicionar campos de referência de outro aplicativo como campos de pesquisa. Por exemplo, não é possível adicionar Projeto, Grupo ou Empresa como um campo de pesquisa no Planning quando você se conecta a projetos do Workfront.
-   >
-   ><!--* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
-   >
+   >* Além dos campos do sistema como Nome e Descrição, você pode adicionar os seguintes tipos de campos como campos de pesquisa de tipos de objeto de outro aplicativo:
+   >   * Campos de usuário, como Proprietário do projeto ou Patrocinador, de projetos da Workfront.
+   >   * Campos de referência, como Grupo de projetos ou Empresa de projetos da Workfront.
    >* As informações do campo de data dos objetos do Workfront são exibidas no formato de 24 horas no Workfront Planning, independentemente de como são exibidas no Workfront.
    >
    >   Por exemplo, se a Data de Início Planejada de um projeto for exibida como 3:00 PM no Workfront, ela será exibida como 15:00 no Workfront Planning em um campo de pesquisa importado.
-   >
-   ><!--* In the Production environment, you cannot add People fields as lookup fields. <span class="preview">You can add People fields as lookup fields in the Preview environment.</span>-->
 
 1. Clique em **Criar**.
 
