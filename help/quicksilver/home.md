@@ -51,7 +51,7 @@ Damos as boas-vindas à página inicial da documentação técnica e do produto 
 * [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 -->
@@ -123,8 +123,8 @@ A pesquisa de documentação pode ser mais eficiente com algumas abordagens estr
 ### Explore as seções Aprendizado e Treinamento
 
 * **Materiais de treinamento**: acesse a página [Treinamento do Workfront](https://experienceleague.adobe.com/pt-br/browse/workfront) para obter uma biblioteca de vídeos e artigos de treinamento criados para ajudá-lo a entender melhor os recursos e as configurações do Workfront. Você também pode acessar materiais de treinamento pagos em [learning.adobe.com](https://learning.adobe.com/).
-* **Cursos**: encontre [cursos de aprendizado estruturado](https://experienceleague.adobe.com/home?Solution=Workfront#courses) que orientam você pelo uso de vários recursos do Workfront em uma sequência lógica.
+* **Cursos**: encontre [cursos de aprendizado estruturado](https://experienceleague.adobe.com/home?lang=pt-BR&Solution=Workfront#courses) que orientam você pelo uso de vários recursos do Workfront em uma sequência lógica.
 
 ### Encontre respostas nos fóruns da comunidade
 
-* **Faça perguntas**: se a documentação não responder à sua pergunta, tente publicá-la nos [fóruns da comunidade Workfront](https://experienceleaguecommunities.adobe.com/adobe-workfront-22?lang=pt), onde outros usuários e especialistas podem oferecer assistência.
+* **Faça perguntas**: se a documentação não responder à sua pergunta, tente publicá-la nos [fóruns da comunidade Workfront](https://experienceleaguecommunities.adobe.com/adobe-workfront-22?profile.language=pt&lang=pt), onde outros usuários e especialistas podem oferecer assistência.
