@@ -8,20 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 1%
+source-wordcount: '529'
+ht-degree: 8%
 
 ---
 
-# Exibir informações de logon do usuário
+# Visualizar informações de logon do usuário
 
 Você pode ver a frequência com que os usuários fazem logon no Adobe Workfront, bem como a última vez que fizeram logon, indicando que você deseja incluir essas informações na exibição de uma lista de usuários ou em um relatório para usuários.
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ Você pode ver a frequência com que os usuários fazem logon no Adobe Workfront
   </tr> 
   <tr> 
    <td>Licença do Adobe Workfront</td> 
-   <td><p>Standard</p><p>Plano</p></td> 
+   <td><p>Padrão</p><p>Plano</p></td> 
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
@@ -63,11 +63,6 @@ Fazer logon no Workfront de qualquer uma das seguintes maneiras conta como um lo
 * Os aplicativos móveis do Workfront (dispositivos iOS ou Android)
 * Qualquer integração do Workfront compatível com outro aplicativo de terceiros (como o Slack)
 * Qualquer integração personalizada entre o Workfront e outro aplicativo de terceiros.
-* A API do Workfront
-
-  >[!NOTE]
-  >
-  >Fazer logon no Workfront por meio da API do Workfront só está disponível para organizações que ainda não estão integradas à Adobe Business Platform.
 
 ## Exibir informações de uso em uma lista de usuários ou relatório
 

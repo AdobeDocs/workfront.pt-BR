@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 6aa0aa5b8ffd088e3d79e7d1be66373a7f753f99
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
@@ -156,9 +156,11 @@ Para obter mais informações sobre Logon Único, consulte [Visão geral do logo
 
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página se aplica apenas a organizações que ainda não foram integradas ao [!DNL Adobe Admin Console]. Se sua organização tiver sido integrada ao [!DNL Adobe Admin Console], nenhuma ação será necessária.
+>O procedimento descrito nesta seção se aplicou apenas a organizações que ainda não foram integradas no [!DNL Adobe Admin Console]. Como todas as organizações foram integradas ao [!DNL Adobe Admin Console], nenhuma ação é necessária.
 >
 >Para obter uma lista de procedimentos que diferem se sua organização foi integrada ao [!DNL Adobe Admin Console], consulte [Diferenças de administração baseadas em plataforma ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>
+>Esta seção será removida em breve.
 
 
 Se você quiser configurar sua sandbox de visualização para funcionar com uma solução de logon único, faça isso configurando-a separadamente do ambiente de produção. A configuração de SSO na sandbox de visualização é independente da sua configuração de SSO no ambiente de produção.
