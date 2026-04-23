@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 7a2ca1b61b2e8069445b1be162422660e3b4e100
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 28%
+source-wordcount: '596'
+ht-degree: 29%
 
 ---
 
@@ -68,10 +68,7 @@ Para obter informações, consulte [Criar e gerenciar exibições na área Solic
 
 >[!NOTE]
 >
->As exibições predefinidas não terão uma versão de Visualização e serão liberadas diretamente para Produção.
->Visualização: a ser definido
->Versão rápida de produção: a ser definida
->Produção para todos: a ser definida
+>As visualizações predefinidas serão liberadas diretamente para todos os ambientes em 16 de abril.
 
 Para ajudá-lo a organizar melhor sua lista de solicitações, adicionamos as seguintes exibições predefinidas à lista de solicitações na área Solicitações e ao widget Minhas solicitações na Página inicial:
 

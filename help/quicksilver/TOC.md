@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: 1de9b04cd6813c42dac3b773c80e6aabb82eb8fe
+source-git-commit: d32fd0ffe1750cb08ec90d0b766034de5ffe6eaf
 workflow-type: tm+mt
-source-wordcount: '13932'
+source-wordcount: '13945'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 96%
       * [Visão geral de versões do produto](product-announcements/product-releases/product-releases.md)
       * [Cronograma e processo de lançamento do Adobe Workfront](product-announcements/product-releases/workfront-release-schedule.md)
       * [Prepare-se para a versão trimestral do Adobe Workfront](product-announcements/product-releases/release-readiness.md)
+      * Versão do terceiro trimestre de 2026 {#release-26-q3}
+         * [Visão geral da versão do terceiro trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
+         * [Terceiro trimestre de 2026 Solicitando melhorias](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
       * Versão do segundo trimestre de 2026 {#release-26-q2}
          * [Visão geral da versão do segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [Aprimoramentos do administrador no segundo trimestre de 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
