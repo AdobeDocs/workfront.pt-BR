@@ -10,9 +10,9 @@ role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2688'
 ht-degree: 3%
 
 ---
@@ -20,9 +20,11 @@ ht-degree: 3%
 # Configurar as preferências do projeto para um grupo
 
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Se você for um administrador de grupo e um administrador do Adobe Workfront desbloquear uma preferência de projeto para todos os grupos no sistema, poderá configurar essa preferência para que o grupo afete todos os projetos subsequentes criados pelo grupo.
 
@@ -233,15 +235,17 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
      <li><strong>Dias úteis típicos por semana</strong>: defina a semana útil padrão para os usuários que trabalharão nos projetos. O padrão é 5 dias.</li> 
     </ul> <p>Essas 2 opções convertem dias em horas ou semanas em dias.</p> <p>Por exemplo, se você tiver uma tarefa com 8 Horas planejadas e a duração for calculada com base nas Horas planejadas, o Workfront converterá essas horas em dias para mostrar a Duração como dias.</p> <p>No campo Typical work days per week, o Workfront calcula o valor de Full Time Equivalent (FTE) para o seu sistema. É o que o Workfront usa ao calcular alocações para usuários.</p> <p>Esses valores são usados quando você está planejando cronogramas de projetos, orçamento de recursos ou registro de tempo em projetos. </p> <p>Elas não são usadas quando você está estabelecendo folhas de horas para usuários no sistema, conforme descrito em <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configurar folhas de horas e preferências de horas</a>.</p> <p><b>OBSERVAÇÃO</b>: os administradores do Workfront não podem desbloquear as preferências de Cálculos de Linha do Tempo.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p><strong>Trimestres personalizados</strong> </p> </td> 
+  <!--
+  <tr> 
+   <td role="rowheader"> <p><strong>Custom Quarters</strong> </p> </td> 
    <td> 
-   <span class="preview">A área Trimestres personalizados foi removida da seção Preferências de Projeto do Grupo no ambiente de Visualização.</span>
-   <p>Os trimestres personalizados geralmente são trimestres que não correspondem ao detalhamento tradicional de trimestres durante um ano civil. Um administrador do Workfront pode adicionar vários trimestres personalizados na área <b>Configuração</b>. Para obter mais informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados</a>.</p>  
-   <p><b>IMPORTANTE<b></p>
-   <p>Você não pode alterar a configuração Trimestre personalizado como um administrador de grupo. <p>Os administradores do Workfront não podem desbloquear as preferências de Trimestres personalizados para que os administradores de grupo possam gerenciá-los.</p> <p>A área Trimestres personalizados é somente leitura para administradores de grupo.</p>
+   <span class="preview">The Custom Quarters area has been removed from the Group's Project Preferences section in the Preview environment.</span>
+   <p>Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. A Workfront administrator can add multiple custom quarters in the <b>Setup</b> area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p>  
+   <p><b>IMPORTANT<b></p>
+   <p>You cannot change the Custom Quarter configuration as a group administrator. <p>Workfront administrators cannot unlock Custom Quarters preferences so that group administrators can manage it.</p> <p>The Custom Quarters area is read-only for group administrators.</p>
    </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 

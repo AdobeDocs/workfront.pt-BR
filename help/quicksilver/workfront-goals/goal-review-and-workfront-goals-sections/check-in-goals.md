@@ -8,7 +8,7 @@ feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 12%
@@ -138,19 +138,19 @@ Você deve ter uma meta ativa antes de começar.
 
 Não é possível atualizar o progresso das metas rascunhos, inativas ou fechadas.
 
-## Considerações para atualização de metas
+## Considerations for updating goals
 
-Leve em consideração o seguinte ao atualizar o progresso das metas:
+Consider the following when updating progress on goals:
 
-* O Workfront Goals calcula automaticamente o progresso de uma meta ao atualizar o progresso de seus indicadores de progresso.
+* Workfront Goals automatically calculates the progress of a goal when you  update the progress of its progress indicators.
 
   >[!TIP]
   >
-  >Não é possível atualizar o progresso diretamente em uma meta. Você deve atualizar o progresso dos indicadores de progresso da meta (atividades, resultados, projetos conectados) que, por sua vez, atualizam o progresso da meta. Para atualizar o progresso dos projetos, você deve atualizar as tarefas no projeto.
+  >You cannot update progress directly on a goal. You must update the progress of the goal&#39;s progress indicators (activities, results, connected projects) which in turn updates the progress of the goal. To update the progress on projects, you must update the tasks on the project.
 
-  Consulte também os seguintes artigos:
+  See also the following articles:
 
-   * Para obter informações sobre como adicionar atividades às metas, consulte [Adicionar atividades às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+   * For information about adding activities to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
    * Para obter informações sobre como adicionar resultados às metas, consulte [Adicionar resultados às metas no Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
    * Para obter informações sobre como o Workfront Goals calcula o progresso em uma meta, consulte [Visão geral do progresso e da condição da meta no Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
@@ -159,13 +159,13 @@ Leve em consideração o seguinte ao atualizar o progresso das metas:
   Consulte também os seguintes artigos:
 
    * Para obter informações sobre como criar metas, consulte [Criar metas nas Metas do Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
-   * Para obter informações sobre como ativar metas, consulte [Ativar metas no Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
+   * For information about activating goals, see the [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
 
   >[!IMPORTANT]
   >
-  >Não é possível atualizar o progresso das metas que estão em rascunho, fechadas ou inativas.
+  >You cannot update the progress of goals that are drafted, closed, or inactive.
 
-* Na primeira vez que você ou outra pessoa atualiza o progresso de um resultado ou atividade em uma meta, o Progresso da meta é alterado de Novas Metas e do Workfront começa a registrar atualizações de progresso e status de progresso na meta.
+* The first time you or someone else updates the progress of a result or activity on a goal, the goal Progress changes from New and Workfront Goals starts recording progress and progress status updates on the goal.
 
 <!--
 
@@ -294,15 +294,15 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 -->
 
-Para atualizar o progresso das metas:
+To update progress on goals:
 
-1. Clique no ícone **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) > **Metas** no canto superior direito.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/lines-main-menu.png) > **Goals** in the upper-right corner.
 
    <!--
     Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   Isso abre a lista de metas. Todas as metas que você tem acesso para visualizar são exibidas por padrão.
+   This opens the goal list. Todas as metas que você tem acesso para visualizar são exibidas por padrão.
 
    Como alternativa, você pode clicar em Alinhamento de metas no painel esquerdo.
 
@@ -313,7 +313,7 @@ Para atualizar o progresso das metas:
 
    >[!NOTE]
    >
-   >  * Você só pode atualizar resultados e atividades.
+   >  * You can only update results and activities.
    >  * Você deve atualizar os indicadores de progresso das metas secundárias para mostrar o progresso nas metas secundárias.
    >  * Você deve atualizar as tarefas nos projetos conectados para mostrar o progresso nos projetos.
    >   
@@ -322,7 +322,7 @@ Para atualizar o progresso das metas:
 
 1. Para atualizar o progresso de um resultado ou atividade, clique no valor dentro da coluna **Progresso Real** do resultado ou atividade, digite um número para atualizar seu valor e pressione Enter.
 
-   ![Progresso real](assets/actual-progress-result-updating-highlighted-unshimmed.png)
+   ![Actual progress](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 
-   A barra de progresso do indicador de progresso na coluna Progresso e o progresso da meta no cabeçalho da meta são atualizados imediatamente.
+   The progress bar for the progress indicator in the Progress column and the progress of the goal in the goal header update immediately.
 

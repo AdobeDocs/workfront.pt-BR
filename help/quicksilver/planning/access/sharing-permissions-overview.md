@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1151'
 ht-degree: 5%
 
 ---
@@ -48,7 +48,7 @@ Você pode compartilhar manualmente os seguintes objetos no Workfront Planning:
 
    * Você pode compartilhar espaços de trabalho com pessoas dentro da organização.
    * Quando você compartilha um espaço de trabalho, todos os tipos de registro, registros e campos associados aos espaços de trabalho também são compartilhados.
-   * Quando você compartilha um espaço de trabalho, as exibições não são compartilhadas. As exibições são compartilhadas separadamente.
+   * When you share a workspace, views are not shared. As exibições são compartilhadas separadamente.
 
   Para obter mais informações, consulte [Compartilhar espaços de trabalho](/help/quicksilver/planning/access/share-workspaces.md)
 
@@ -82,9 +82,9 @@ Você pode compartilhar manualmente os seguintes objetos no Workfront Planning:
 
   >[!IMPORTANT]
   >
-  >Se a instância do Workfront da sua organização tiver sido integrada à Adobe Unified Experience, os usuários com os quais você deseja compartilhar objetos do Planning deverão ser adicionados à Adobe Admin Console. Não é possível compartilhar objetos do Planning com usuários do Workfront que não foram adicionados ao Adobe Admin Console.
+  >Os usuários com os quais você deseja compartilhar objetos do Planning devem ser adicionados ao Adobe Admin Console. You cannot share Planning objects with Workfront users who have not been added to the Adobe Admin Console.
 
-* Você pode compartilhar objetos do Planning das seguintes maneiras:
+* You can share Planning objects in the following ways:
 
    * Internamente, você pode compartilhar um espaço de trabalho, uma exibição ou um tipo de registro com as seguintes entidades do Workfront:
 
@@ -112,9 +112,9 @@ As tabelas nas seções a seguir ilustram o nível de permissões que você pode
 >
 >Somente os usuários com licença Padrão (ou Plano) podem ter permissões de Contribute ou Gerenciar para espaços de trabalho e Gerenciar permissões para exibições.
 > 
->Os usuários com todos os outros tipos de licença podem ter permissões de Exibição para espaços de trabalho e exibições.
+>Users with all other license types can have View permissions to workspaces and views.
 >
->Para obter informações, consulte [Visão geral do tipo de licença ao usar o Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+>For information, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
 ### Permissões para espaços de trabalho
@@ -207,9 +207,9 @@ As permissões a seguir se referem aos próprios campos e não aos valores assoc
 
 ### Permissões para visualizações
 
-Você deve conceder permissões separadas para exibições de registros. A concessão de permissões para o espaço de trabalho não concede permissões para as exibições de registros no espaço de trabalho.
+Você deve conceder permissões separadas para exibições de registros. Granting permissions to the workspace does not grant permissions to the record views in the workspace.
 
-Você deve conceder aos usuários permissão para exibições para permitir que eles tenham acesso aos seguintes elementos de exibição:
+You must give users permission to  views to allow them to have access to the following view elements:
 
 * Filtros
 * Visibilidade do campo

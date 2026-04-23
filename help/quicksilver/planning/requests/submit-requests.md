@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2342'
 ht-degree: 1%
 
 ---
@@ -137,7 +137,6 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
 
    >[!TIP]
    >
-   >Essa configuração só está disponível quando a instância do Workfront é integrada à Experiência unificada do Adobe.
    >
    >Para poder enviar solicitações do Workfront Planning nessa área, você deve atender às seguintes condições:
    >
@@ -168,9 +167,9 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
    Para obter instruções, consulte [Usar preenchimento de formulário fornecido pela IA para preencher uma solicitação usando prompts ou documentos](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 1. Clique em **Enviar**.
 
-   O formulário de solicitação é fechado e você retorna à área **Solicitações**.
+   The request form closes and you return to the **Requests** area.
 
-   Seu formulário é enviado e os seguintes itens ocorrem:
+   Your form is submitted and the following things occur:
 
    * Se o formulário de solicitação não estava associado a uma aprovação, a solicitação é adicionada à lista Solicitações na área Solicitações do Workfront e o widget Minhas solicitações na Página inicial, e um novo registro é adicionado ao tipo de registro associado ao formulário.
 
@@ -192,11 +191,7 @@ Ativar essa configuração torna os formulários de solicitação do Workfront P
    * Você recebe uma notificação no aplicativo e uma notificação por email informando que a solicitação foi enviada com êxito ou para revisão.
    * Se o formulário de solicitação foi associado a uma aprovação, os aprovadores recebem uma notificação no aplicativo e uma notificação por email para revisar e aprovar a solicitação.
 
-     >[!NOTE]
-     >
-     >As notificações por email e no aplicativo ficam visíveis somente quando a instância do Workfront de sua organização é integrada à Adobe Unified Experience.
-     >
-     >Há um link para a solicitação na notificação de confirmação ou aprovação por email.
+     Há um link para a solicitação na notificação de confirmação ou aprovação por email.
 
 1. (Opcional) Clique em **Exibir sua solicitação** na mensagem de confirmação para abrir a solicitação ou clique no ícone **X** para fechar a confirmação.
 1. (Opcional) Para gerenciar a forma como as informações são exibidas na lista de solicitações, atualize os seguintes elementos de exibição para a lista:
@@ -290,17 +285,13 @@ Pessoas externas não podem acessar áreas internas da Workfront, como **Solicit
    * Você recebe uma notificação no aplicativo e uma notificação por email informando que a solicitação foi enviada com êxito ou para revisão.
    * Se o formulário de solicitação foi associado a uma aprovação, os aprovadores recebem uma notificação no aplicativo e uma notificação por email para revisar e aprovar a solicitação.
 
-     >[!NOTE]
-     >
-     >As notificações por email e no aplicativo ficam visíveis somente quando a instância do Workfront de sua organização é integrada à Adobe Unified Experience.
-
      Depois que a solicitação foi aprovada e o registro foi criado, os campos Approved by e Approved date exibem informações sobre a aprovação no registro.
 
-1. (Opcional) Clique em **Exibir sua solicitação** para abrir a solicitação no Workfront.
+1. (Optional) Click **View your request** to open the request in Workfront.
 
 Ou
 
-Clique em [Enviar outra solicitação](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) para abrir o formulário e adicionar uma nova solicitação.
+Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.
 
 A página de detalhes da solicitação é aberta.
 
@@ -333,9 +324,9 @@ Para obter mais informações, consulte [Copiar e enviar solicitações](/help/q
 
 ## Criar rascunhos e solicitações a partir de rascunhos existentes
 
-Você pode criar um rascunho de uma solicitação, voltar ao rascunho e submetê-lo posteriormente como uma solicitação.
+You can create a draft of a request, then return to the draft and submit it as a request later.
 
-Isso está disponível somente na nova experiência de solicitação. A criação de rascunhos e solicitações a partir de rascunhos existentes no Workfront Planning é idêntica à criação a partir do Adobe Workfront.
+Isso está disponível somente na nova experiência de solicitação. Creating drafts and requests from existing drafts in Workfront Planning is identical to creating them from Adobe Workfront.
 
 Para obter mais informações, consulte [Criar solicitações de rascunhos](/help/quicksilver/manage-work/requests/create-requests/create-requests-from-drafts.md).
 

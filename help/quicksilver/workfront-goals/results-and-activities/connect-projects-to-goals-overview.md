@@ -10,9 +10,9 @@ feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '859'
 ht-degree: 13%
 
 ---
@@ -175,7 +175,7 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Adicionar projetos às metas
 
-1. Clique no **Ícone do** ![Menu Principal](assets/main-menu-icon.png) (faça o rascunho deste para o Shell: ou clique no **Menu Principal** ![Linhas do Menu Principal](assets/three-line-main-menu-icon.png) no canto superior esquerdo, se estiver disponível.) e em **Metas**.
+1. Clique no **Menu Principal** ![Ícone do Menu Principal](assets/lines-main-menu.png) e depois em **Metas**.
 1. Na Lista de Metas, clique no nome de uma meta para abrir a página de metas.
 1. Clique em **Indicadores de progresso** no painel esquerdo.
 1. No menu suspenso **Novo indicador de progresso**, clique em **Adicionar projeto existente**.

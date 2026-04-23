@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Estes são os benefícios de usar hierarquias em seus espaços de trabalho:
 * Não é possível adicionar os seguintes tipos de objeto em uma hierarquia:
    * Tipos de registro de outros espaços de trabalho, mesmo quando definidos como conectáveis ou tipos de registro globais. Você pode adicionar tipos de registros globais a hierarquias somente quando eles tiverem sido adicionados ao espaço de trabalho a partir do qual você está construindo a hierarquia.
    * Todos os outros objetos do Workfront.
-   * AEM Assets ou fragmentos de conteúdo.
+   * Adobe Experience Manager Assets ou fragmentos de conteúdo.
 * As hierarquias podem incluir tipos de registro do Planning e projetos do Workfront ao mesmo tempo.
 
   Por exemplo, você pode ter um tipo de registro de Campanha com Táticas de Planejamento e Projetos Workfront como filhos na mesma hierarquia de espaço de trabalho.

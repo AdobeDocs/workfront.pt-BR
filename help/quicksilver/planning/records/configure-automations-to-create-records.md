@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1763'
 ht-degree: 4%
 
 ---
 
 # Configurar automações do Adobe Workfront Planning
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -164,37 +166,33 @@ A página de detalhes da automação é aberta.
    * **Acionador**: selecione uma ação que acionará a automação:
 
       * Clique no botão
-      * <span class="preview">Alteração do valor do campo</span>
+      * Alteração do valor do campo
 
-   1. (Condicional) Se você selecionou **Botão clicar**, vá para a etapa 9 abaixo que descreve a área **Ações**. <!--ensure this number stays accurate-->
+1. (Condicional) Se você selecionou **Botão clicar**, vá para a etapa 9 abaixo que descreve a área **Ações**. <!--ensure this number stays accurate-->
 
-   1. <span class="preview">(Condicional) Se você selecionou **Alteração do valor do campo**, faça o seguinte na seção **Configurações**: </span>
+1. (Condicional) Se você selecionou **Alteração do valor do campo**, faça o seguinte na seção **Configurações**:
 
-      1. <span class="preview">Escolha um campo no menu suspenso. Esses são campos associados ao tipo de registro selecionado.</span>
-      1. <span class="preview">Continue definindo condições para o campo selecionado.</span>
-      1. <span class="preview">Clique em **Adicionar condição** para adicionar até 5 campos e definir sua condição.</span>
+   1. Escolha um campo no menu suspenso. Esses são campos associados ao tipo de registro selecionado.
+   1. Continue definindo condições para o campo selecionado.
+   1. Clique em **Adicionar condição** para adicionar até 5 campos e definir sua condição.
 
-         <span class="preview">Você pode adicionar qualquer um dos seguintes tipos de campos:</span>
+      Você pode adicionar qualquer um dos seguintes tipos de campos:
 
-         <div class="preview">
+      * Seleção única
+      * Seleção múltipla
+      * Texto de linha única
+      * Parágrafo
+      * Número
+      * Caixa de seleção
+      * Data
 
-         * Seleção única
-         * Seleção múltipla
-         * Texto de linha única
-         * Parágrafo
-         * Número
-         * Caixa de seleção
-         * Data
+      O Workfront Planning criará objetos automaticamente quando as condições forem atendidas.
 
-         </div>
+      ![Gatilho de alteração de valor de campo selecionado](assets/field-value-change-trigger-selected.png)
 
-         <span class="preview">O Workfront Planning criará objetos automaticamente quando as condições forem atendidas. </span>
-
-         ![Gatilho de alteração de valor de campo selecionado](assets/field-value-change-trigger-selected.png)
-
-         >[!TIP]
-         >
-         ><span class="preview">O modificador em cada condição é alterado com o tipo de campos que você seleciona.</span>
+      >[!TIP]
+      >
+      >O modificador em cada condição é alterado com o tipo de campos que você seleciona.
 
 1. Atualizar os seguintes campos na seção **Ações**: <!--submitted bugs for these fields - see if they need changing here-->
    * **Ações**: selecione a ação que você deseja que o Workfront execute ao acionar a automação. Este campo é obrigatório.
@@ -218,7 +216,7 @@ Selecione uma das seguintes ações:
       * **Campo conectado onde o projeto é criado**: este é o campo conectado onde o novo projeto será exibido. Este campo é obrigatório.
       * **Modelo de projeto**: selecione um modelo de projeto que a Workfront usará para criar o projeto.
 
-   * Criar vários projetos:
+   * **Criar vários projetos**:
       * **Campo conectado onde o projeto é criado**: este é o campo conectado onde o novo projeto será exibido. Este campo é obrigatório.
       * **Campo cujas opções criarão os registros**: escolha um campo de seleção única ou múltipla do tipo de registro selecionado. O Workfront cria um projeto para cada opção de campo atualmente selecionada no registro de onde você aciona a automação.
 
@@ -301,25 +299,28 @@ Na área **Mapear campos**, atualize as seguintes informações:
 
    A lista de automações disponíveis para o tipo de registro selecionado é aberta.
 
-1. (Opcional) Para editar, desativar ou excluir uma automação, siga um destes procedimentos:
+1. (Opcional) Para exibir, desabilitar ou excluir uma automação de uma lista de automações, clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome de uma automação e siga um destes procedimentos:
 
-   1. Na lista de automações, passe o mouse sobre o nome de uma automação salva e clique no menu **Mais** ![Mais menu](assets/more-menu.png).
+   * Para uma automação de alteração de valor de campo, clique em **Exibir** para exibir as configurações de automação.
 
-   1. Clique em **Editar** para atualizar as seguintes informações:
+     >[!TIP]
+     >
+     >Não é possível editar as configurações de uma automação depois que elas tiverem sido salvas, quando a automação é acionada por uma alteração de valor de campo.
 
-      * Clique no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da automação e clique em **Editar** para alterar o nome da automação.
+   * Em uma automação clicada com o botão, clique em **Editar** para atualizar as seguintes informações:
+
+      * O nome da automação, clicando no menu **Mais** ![Mais menu](assets/more-menu.png) à direita do nome da automação e em **Editar**.
       * Qualquer campo na automação, exceto o campo **Ações**.
 
-        >[!TIP]
-        >
-        >Não é possível alterar a ação originalmente selecionada para uma automação.
+     >[!TIP]
+     >
+     >Não é possível alterar a ação originalmente selecionada para uma automação.
 
+   * Clique em **Desabilitar** para remover a automação da exibição de tabela do registro e impedir que os usuários a utilizem para criar registros ou objetos.
 
-   1. Clique em **Desabilitar** para remover a automação da exibição de tabela do registro e impedir que os usuários a utilizem para criar registros ou objetos.
+     Os registros que foram criados usando uma automação desativada permanecem conectados ao registro selecionado originalmente.
 
-      Os registros que foram criados usando uma automação desativada permanecem conectados ao registro selecionado originalmente.
+     Para torná-lo disponível novamente, clique novamente no menu **Mais**, no menu ![Mais](assets/more-menu.png), depois clique em **Ativar**.
+   * Clique em **Excluir** para excluir a automação. Uma automação excluída não pode ser recuperada.
 
-      Para torná-lo disponível novamente, clique novamente no menu **Mais**, no menu ![Mais](assets/more-menu.png), depois clique em **Ativar**.
-   1. Clique em **Excluir** para excluir a automação. Uma automação excluída não pode ser recuperada.
-
-      Os registros que foram criados usando uma automação excluída permanecem conectados ao registro selecionado originalmente.
+     Os registros que foram criados usando uma automação excluída permanecem conectados ao registro selecionado originalmente.

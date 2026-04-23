@@ -9,7 +9,7 @@ feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 13%
@@ -191,7 +191,7 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Clique no **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) e depois em **Metas**.
+1. Clique no **Menu Principal** ![Ícone do Menu Principal](assets/lines-main-menu.png) e depois em **Metas**.
 1. Na Lista de Metas, clique no nome de uma meta para abrir a página de metas.
 1. Clique em **Indicadores de progresso** no painel esquerdo.
 1. Selecione um resultado na lista Progress indicators e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png).
@@ -236,7 +236,7 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Clique no **Menu Principal** ![Ícone do Menu Principal](assets/main-menu-icon.png) e depois em **Metas**.
+1. Clique no **Menu Principal** ![Ícone do Menu Principal](assets/lines-main-menu.png) e depois em **Metas**.
 1. Na Lista de Metas, clique no nome de uma meta para abrir a página de metas.
 1. Clique em **Indicadores de progresso** no painel esquerdo.
 1. Selecione uma atividade na lista Progress indicators e clique no **ícone Editar** ![ícone Editar](assets/edit-icon.png).

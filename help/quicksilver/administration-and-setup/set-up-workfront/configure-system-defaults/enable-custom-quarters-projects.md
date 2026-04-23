@@ -10,10 +10,10 @@ role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 8%
+source-wordcount: '364'
+ht-degree: 10%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 8%
 
 <!--Audited: 03/2026-->
 
-<span class="preview">As informações destacadas nesta página referem-se a funcionalidades que ainda não estão disponíveis. Ela está disponível somente no ambiente de Pré-visualização para todos os clientes. Depois das versões mensais para produção, os mesmos recursos também ficam disponíveis no ambiente de produção para clientes que ativaram versões rápidas. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Para obter informações sobre versões rápidas, consulte [Habilitar ou desabilitar versões rápidas para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Para fins de relatórios, você pode criar trimestres personalizados se os trimestres de sua organização forem baseados em critérios específicos diferentes das datas do calendário (como dias úteis ou dias de compras).
 
@@ -51,7 +53,7 @@ Dependendo dos produtos comprados por sua empresa, é possível configurar o seg
   </tr> 
   <tr> 
    <td>Configurações de nível de acesso</td> 
-   <td>[!UICONTROL Administrador do Sistema]</td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,10 +66,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 {{step-1-to-setup}}
 
-1. (Condicional) Dependendo do ambiente no qual você acessa Trimestres personalizados, execute um dos seguintes procedimentos:
-
-   * No ambiente de Produção, clique em **[!UICONTROL Preferências do Projeto]** > **[!UICONTROL Projetos].**
-   * <span class="preview">No ambiente de Visualização, clique em **[!UICONTROL Trimestres personalizados]**.</span>
+1. Clique em **[!UICONTROL Trimestres personalizados]**.
 
 1. Selecione **[!UICONTROL Habilitar Trimestres Personalizados]**.
 
@@ -82,7 +81,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
    >
    > Se sua empresa comprou o [!DNL Workfront Planning], você não poderá salvar trimestres personalizados se houver lacunas ou sobreposições entre os trimestres.
    >![Trimestres personalizados com aviso de sobreposição](assets/custom-quarters-with-overlap-warning.png)
-   >Intervalos e sobreposições entre os trimestres são permitidos somente para [!DNL Workfront] clientes.
+   >Gaps and overlaps between the quarters are allowed for [!DNL Workfront] only customers.
 
 1. (Opcional e condicional) Se sua empresa comprou apenas o [!DNL Workfront], sem o [!DNL Workfront Planning], crie um elemento de relatório que faça referência aos trimestres fiscais.
 

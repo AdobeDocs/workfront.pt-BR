@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '822'
 ht-degree: 2%
 
 ---
@@ -141,8 +141,6 @@ Old:
 </table>
 -->
 
-
-
 ## Considerações sobre comentários em um registro
 
 * É possível adicionar comentários e respostas a registros no Workfront Planning, na seção Comentários de um registro.
@@ -158,10 +156,6 @@ Old:
   Por exemplo, comentários adicionados a projetos no Workfront não são exibidos no mesmo projeto vinculado a uma campanha no Workfront Planning, e comentários adicionados ao registro do projeto no Workfront Planning não são exibidos no Workfront.
 
 * É possível marcar usuários ou equipes para chamar a atenção deles para uma atualização. Tanto os usuários marcados individualmente quanto os usuários das equipes marcadas recebem uma notificação no aplicativo e um email sobre a sua atualização.
-
-  >[!NOTE]
-  >
-  >   Somente usuários de clientes que integraram com a Experiência unificada da Adobe recebem uma notificação no aplicativo e uma notificação por email. Para determinar se sua empresa está usando a Experiência unificada da Adobe, consulte [Experiência unificada da Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * Você pode adicionar uma atualização aos registros e revisar o histórico de alterações das seguintes áreas do Workfront Planning:
 
@@ -197,7 +191,7 @@ A página de tipo de registro é aberta e todos os registros desse tipo são exi
 1. (Opcional) Para desfazer ou refazer uma alteração, use as seguintes teclas de atalho:
    * CTRL + Z (⌘+z para Mac) para desfazer uma alteração
    * CTRL + Y (⌘+y para Mac) para refazer uma alteração
-1. (Opcional e condicional) Se a sua instância do Workfront fizer parte da Experiência unificada da Adobe, adicione **@** seguido do nome de um usuário ou de uma equipe para marcá-los na atualização. Para obter mais informações, consulte a seção [Considerações sobre comentários em um registro](#considerations-about-commenting-on-a-record) neste artigo.
+1. Adicione **@** seguido do nome de um usuário ou de uma equipe para marcá-los na atualização. Para obter mais informações, consulte a seção [Considerações sobre comentários em um registro](#considerations-about-commenting-on-a-record) neste artigo.
 
 1. (Opcional) Use as opções na barra de ferramentas de Rich Text para formatar o texto, adicionar emojis ou links para a atualização a fim de aprimorar o conteúdo.
 

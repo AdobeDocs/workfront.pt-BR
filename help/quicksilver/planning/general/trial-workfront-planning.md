@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2209'
 ht-degree: 3%
 
 ---
@@ -65,8 +65,6 @@ Sua empresa deve atender aos seguintes requisitos para poder participar da avali
 
   A versão de avaliação do Workfront Planning não está disponível para os pacotes herdados do Workfront.
 Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-* Ter acesso à Adobe Admin Console
-* Faz parte do Sistema Identity Management (IMS)
 * Aceite o contrato de avaliação jurídica disponível na instância do Workfront de sua organização entre 26 de janeiro e 1º de abril de 2026. Você deve ser um administrador do Workfront para aceitar o contrato de avaliação.
 
 ## Visão geral de datas importantes

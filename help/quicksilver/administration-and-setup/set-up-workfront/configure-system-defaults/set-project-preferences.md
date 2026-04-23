@@ -10,9 +10,9 @@ role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2615'
 ht-degree: 2%
 
 ---
@@ -143,7 +143,7 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Estimativa no Término &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Estimativa no Término ]</p> </td> 
    <td> <p>Determine quais dados [!DNL Workfront] usa para calcular a [!UICONTROL Estimativa no Término] (EAC) que representa o custo total projetado de um projeto.</p> 
     <ul> 
      <li><strong>[!UICONTROL Calcular no nível do projeto]</strong>: EAC da tarefa pai e do projeto são determinados pela inserção de [!UICONTROL Horas Reais] ou [!UICONTROL Custo Real do Trabalho] nas Fórmulas EAC. Este cálculo inclui [!UICONTROL Horas efetivas] ou [!UICONTROL Custos e despesas] adicionados diretamente à tarefa ou projeto pai.</li> 
@@ -239,12 +239,14 @@ Configure qualquer uma das seguintes preferências para projetos recém-criados 
      <li><strong>[!UICONTROL Dias de trabalho típicos por semana]</strong>: define a semana de trabalho padrão para os usuários que estão trabalhando em projetos. O padrão é 5 dias.</li> 
     </ul> <p>Essas 2 opções convertem dias em horas ou semanas em dias.</p> <p>Por exemplo, se você tem uma tarefa com 8 Horas Planejadas e a duração é calculada com base nas Horas Planejadas, [!DNL Workfront] converte essas horas em dias para mostrar a Duração como dias.</p> <p>No campo Típico [!UICONTROL dias de trabalho por semana], o [!DNL Workfront] calcula o valor de FTE (Equivalente a Tempo Integral) do sistema. É o que [!DNL Workfront] usa ao calcular alocações para usuários.</p> <p>Esses valores são usados quando você está planejando cronogramas de projetos, orçamento de recursos ou registro de tempo em projetos. </p> <p>Elas não são usadas quando você está estabelecendo folhas de horas para usuários no sistema, conforme descrito em <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Configurar] preferências de hora e folha de horas</a>.</p> <p><b>NOTA</b>:</p> <p>[!DNL Workfront] os administradores não podem desbloquear as preferências de [!UICONTROL Cálculos de linha do tempo].</p> </td> 
   </tr> 
+  <!--
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>[!UICONTROL Trimestres Personalizados]</p> </td> 
-   <td> <span class="preview">A área Trimestres personalizados foi removida da seção Preferências do projeto no ambiente de Pré-visualização.</span> 
-   <span class="preview">Para obter mais informações, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Habilitar trimestres personalizados</a>.</p></span>
-   <p>No ambiente de Produção, configure trimestres anuais personalizados para os usuários que trabalharão nos projetos. Os trimestres personalizados geralmente são trimestres que não correspondem ao detalhamento tradicional de trimestres durante um ano civil. Você pode adicionar vários trimestres personalizados.   <p><b>NOTA</b>: </p><p>[!DNL Workfront] os administradores não podem desbloquear as preferências do [!UICONTROL Custom Quarters] e os administradores de grupo não podem editar essas configurações no nível do grupo.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
+   <td> <span class="preview">The Custom Quarters area has been removed from the Project Preferences section in the Preview environment.</span> 
+   <span class="preview">For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p></span>
+   <p>In the Production environment, configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters.   <p><b>NOTE</b>: </p><p>[!DNL Workfront] administrators cannot unlock [!UICONTROL Custom Quarters] preferences and group administrators cannot edit these settings at the group level.</p> </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 

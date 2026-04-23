@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1122'
 ht-degree: 2%
 
 ---
@@ -217,11 +217,10 @@ Você pode criar espaços de trabalho das seguintes maneiras:
 
    O nome do usuário que criou o espaço de trabalho é salvo no cartão do espaço de trabalho como o Proprietário.
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >Para usuários que estão sendo atualmente migrados para o Adobe Identity Management System (IMS), os espaços de trabalho criados apenas por usuários do Workfront que não são usuários do IMS são exibidos conforme criados pelo **Sistema**.
+   >Os espaços de trabalho criados por usuários exclusivos do Workfront que não foram adicionados ao Adobe Admin Console são exibidos conforme criados pelo **Sistema**.
    >
-   >Para obter informações sobre IMS, consulte [Experiência unificada do Adobe para Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ### Criar vários espaços de trabalho usando um pacote de modelos de vários espaços de trabalho de prática recomendada
 
