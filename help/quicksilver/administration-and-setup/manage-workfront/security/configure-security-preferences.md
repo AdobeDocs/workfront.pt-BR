@@ -10,10 +10,10 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 77b78c5905736092c972e08283fdabf321bfa580
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 11%
+source-wordcount: '773'
+ht-degree: 10%
 
 ---
 
@@ -126,6 +126,10 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
      <tr> 
       <td role="rowheader">Habilitar a lista de trabalho Prioridades </td> 
       <td>Permite optar por habilitar ou desabilitar a experiência da lista de trabalho de prioridades para seus usuários. Os usuários ainda verão os ícones de Prioridades no Workfront, mas não terão acesso à funcionalidade. Para obter mais informações sobre prioridades, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Introdução às prioridades</a>.</td> 
+     </tr>
+      <tr> 
+      <td role="rowheader">Ativar o Adobe Enterprise Storage </td> 
+      <td>Permite ativar ou desativar o Adobe Enterprise Storage para toda a sua organização ou para grupos específicos. Para obter mais informações sobre o Adobe Enterprise Storage, consulte <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Habilitar o Adobe Enterprise Storage para sua organização</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Habilitar IA </td> 
