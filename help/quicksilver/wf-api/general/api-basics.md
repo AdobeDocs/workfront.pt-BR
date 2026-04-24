@@ -492,12 +492,12 @@ As atualizações dos objetos são sempre feitas por meio de IDs, utilizando o U
 ### Especificar edições em JSON
 
 Conforme mostrado no exemplo a seguir, você pode usar o parâmetro de solicitação de atualizações para especificar os campos a serem atualizados usando a sintaxe JSON:
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     nome: "Novo Nome de Projeto", <br>     status: "CUR", <br>     ... <br></pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>&lbrace;<br>     nome: "Novo Nome de Projeto", <br>     status: "CUR", <br>     ... <br></pre>
 
 ### Fazer atualizações aninhadas
 
 Alguns objetos possuem coleções particulares que podem ser atualizadas. O exemplo a seguir demonstra como substituir as atribuições existentes para uma determinada tarefa:
-<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    atribuições: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>&lbrace;<br>    atribuições: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
