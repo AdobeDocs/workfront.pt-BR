@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '4398'
-ht-degree: 98%
+source-wordcount: '4461'
+ht-degree: 96%
 
 ---
 
@@ -135,7 +135,7 @@ A API usa a mesma autenticação baseada em cookies usada pela interface do usu�
 >
 >O procedimento descrito nesta seção se aplicava somente a organizações que ainda não tinham sido integradas à Adobe Business Platform. Como todas as organizações foram integradas à Adobe Business Platform, **fazer logon na Workfront por meio da API Workfront não está mais disponível**.
 >
->Para obter uma lista de procedimentos que diferem dependendo se sua organização foi integrada à Adobe Business Platform, consulte [Diferenças na administração baseada na plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Adobe Business Platform, consulte [Diferenças de administração entre a Adobe Workfront e a Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Usando um nome de usuário e uma senha válidos, você pode usar a seguinte solicitação para obter uma ID de sessão:
 
@@ -348,7 +348,7 @@ Por padrão, apenas o nome e a ID de cada tarefa são retornados, mas campos ani
 
 Você pode recuperar campos de dados personalizados usando o prefixo “DE:”. Por exemplo, para solicitar um projeto com um parâmetro chamado &quot;CustomText&quot;, use a seguinte solicitação:
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>que retornaria
-<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Você também pode recuperar todos os dados personalizados de um objeto solicitando o campo parameterValues. Por exemplo, 
+<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Você também pode recuperar todos os dados personalizados de um objeto solicitando o campo parameterValues. Por exemplo, 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>retorna dados semelhantes ao seguinte:
 <pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "task b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
 
@@ -382,7 +382,7 @@ Isso funciona para a maioria dos campos no Workfront.
 
 ### Consideração dos limites de consulta
 
-Ao consultar um objeto, deve-se levar em consideração a relação entre objetos relacionados e as limitações de pesquisa.Por exemplo, conforme mostrado na tabela a seguir, uma consulta por projetos pode retornar no máximo 2.000 projetos. Esses 2.000 projetos são considerados “objetos primários”.  Se você consultar o campo Tarefas nos projetos, o campo Tarefas, que é uma coleção, se torna um objeto secundário ao objeto primário Projeto.  Uma consulta para o campo Tarefas pode incluir milhares de tarefas em projetos. No total, o número combinado de objetos (projetos e tarefas) retornados não pode exceder o máximo de 50.000.
+Ao consultar um objeto, deve-se levar em consideração a relação entre objetos relacionados e as limitações de pesquisa. Por exemplo, conforme mostrado na tabela a seguir, uma consulta por projetos pode retornar no máximo 2.000 projetos. Esses 2.000 projetos são considerados “objetos primários”. Se você consultar o campo Tarefas nos projetos, o campo Tarefas, que é uma coleção, se torna um objeto secundário ao objeto primário Projeto. Uma consulta para o campo Tarefas pode incluir milhares de tarefas em projetos. No total, o número combinado de objetos (projetos e tarefas) retornados não pode exceder o máximo de 50.000.
 
 Para garantir um desempenho ideal, a tabela a seguir mostra as limitações impostas às solicitações de pesquisa. 
 
@@ -487,17 +487,17 @@ A resposta de uma PUT é idêntica a uma GET. Em ambos os casos, o servidor reto
 ### Editar objetos
 
 As atualizações dos objetos são sempre feitas por meio de IDs, utilizando o URI exclusivo do objeto. Os campos a serem atualizados são especificados como parâmetros de solicitação. Por exemplo, para alterar o nome de um projeto, você poderia enviar uma solicitação semelhante à seguinte:
-<pre>PUT /attask/api/v15.0/project/4c7...?name=New Project Name <br>PUT /attask/api/v15.0/project?id=4c7...&amp;name=New Project Name</pre>Como a atualização requer uma ID, essa operação falhará (sem inserção) se o objeto não existir no servidor.
+<pre>PUT /attask/api/v15.0/project/4c7...?name=Novo nome do projeto <br>PUT /attask/api/v15.0/project?id=4c7...&amp;name=Novo nome do projeto</pre>Como a atualização requer uma ID, essa operação falhará (sem inserção) se o objeto não existir no servidor.
 
 ### Especificar edições em JSON
 
 Conforme mostrado no exemplo a seguir, você pode usar o parâmetro de solicitação de atualizações para especificar os campos a serem atualizados usando a sintaxe JSON:
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     name: "New Project Name", <br>     status: "CUR", <br>     ... <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     nome: "Novo Nome de Projeto", <br>     status: "CUR", <br>     ... <br></pre>
 
 ### Fazer atualizações aninhadas
 
 Alguns objetos possuem coleções particulares que podem ser atualizadas. O exemplo a seguir demonstra como substituir as atribuições existentes para uma determinada tarefa:
-<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    assignments: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
+<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    atribuições: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br></pre>
 
 >[!NOTE]
 >
@@ -509,7 +509,7 @@ O exemplo a seguir transforma um projeto em uma fila pública de suporte técnic
 ### Usar o parâmetro de solicitação de ação
 
 Alguns objetos aceitam ações adicionais que podem ser realizadas além de edições simples. Você pode especificar essas ações usando o parâmetro de solicitação de ação. Por exemplo, a seguinte solicitação recalcula o cronograma de um determinado projeto:
-<pre>PUT /attask/api/v15.0/project/4c7...?action=calculateTimeline<br><br>or<br><br>PUT /attask/api/v15.0/project/4c7.../calculateTimeline </pre>
+<pre>PUT /attask/api/v15.0/project/4c7...?action=calculateTimeline<br><br>ou<br><br>PUT /attask/api/v15.0/project/4c7.../calculateTimeline </pre>
 
 ### Mover objetos
 

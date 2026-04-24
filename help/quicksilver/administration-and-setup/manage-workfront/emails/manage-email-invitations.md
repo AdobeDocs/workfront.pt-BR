@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 7%
+source-wordcount: '946'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 7%
 >
 >O procedimento descrito nesta página foi aplicado apenas a organizações que ainda não foram integradas ao Admin Console. Se sua organização tiver sido integrada à Adobe Admin Console, você deverá executar essa ação por meio da Adobe Admin Console.
 >
->Para obter uma lista de procedimentos que diferem dependendo de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração entre a Adobe Workfront e a Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Como administrador do Adobe Workfront, você pode adicionar usuários ao Workfront e notificá-los de que foram adicionados, usando convites por email.
 
@@ -104,7 +104,7 @@ Para reenviar convites por email manualmente para usuários não registrados exi
    >
    >Novos usuários do Adobe são adicionados à Admin Console, e a Admin Console fornece um email convidando-os a concluir o processo de registro. Todos os usuários devem concluir o processo de registro para acessar qualquer sistema da Adobe.
    >
-   >Os usuários já existentes da Adobe podem ou não receber um email informando que o Workfront está disponível. Esta é uma preferência controlada pelo administrador do Adobe para o produto.
+   >Os usuários já existentes da Adobe podem ou não receber um email informando que o Workfront está disponível. Essa é uma preferência controlada pelo administrador da Adobe para o produto.
 
 ## Configurar convites por email {#configure-email-invitations}
 

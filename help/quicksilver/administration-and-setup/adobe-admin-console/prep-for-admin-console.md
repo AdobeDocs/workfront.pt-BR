@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: 0a41ed50f649dd2da52a5fc47675116261ecfc12
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 0%
+source-wordcount: '689'
+ht-degree: 1%
 
 ---
 
@@ -51,7 +51,7 @@ Para garantir que sua organização possa migrar para a Adobe Admin Console, voc
    >
    >Esteja preparado para falar com o Suporte da Workfront e sua equipe de TI sobre preferências de autenticação, como logon único (SSO) ou não-SSO.
 
-   Para obter instruções, consulte a seção Identity Management do [Guia de Implantação do Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/deployment-planning.html).
+   Para obter instruções, consulte a seção Identity Management do [Guia de Implantação do Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Condicional) Se estiver usando o Logon único, conecte a nova Adobe Admin Console ao seu provedor SSO existente.
 
@@ -93,4 +93,4 @@ Depois que o Adobe Admin Console for configurado com o Workfront, você poderá 
 
 Para obter mais informações, consulte [Gerenciar usuários na Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
-Para obter uma lista de outras ações diferentes com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+Para obter uma lista de outras ações que são diferentes com base no fato de sua organização ter sido integrada à Adobe Admin Console, consulte [Diferenças de administração entre a Adobe Workfront e a Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).

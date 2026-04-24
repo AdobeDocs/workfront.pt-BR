@@ -3,17 +3,17 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: "Introdução à administração do Adobe Workfront: índice de artigos"
+title: 'Introdução à administração do Adobe Workfront: índice de artigos'
 description: Nesta seção, você pode encontrar informações e instruções sobre a primeira configuração do Adobe Workfront, bem como informações necessárias como administrador do Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 0%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -29,8 +29,8 @@ Esta seção contém os seguintes artigos:
 * [Gerenciar licenças disponíveis em seu sistema](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
 * [Configurar informações básicas do sistema](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
 * [Visão geral do firewall](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)
-* incluir na lista de permissões [Configurar o arquivo de pesquisa do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
-* incluir na lista de permissões [Configurar sua pesquisa de email](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
+* [Configurar o incluo na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* [Configurar seu incluo na lista de permissões de email](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
 * [Enviar notificações](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 * [Requisitos do navegador para o Workfront](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
-* [Diferenças de administração baseadas em plataforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
+* [Diferenças de administração entre o Adobe Workfront e a Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)

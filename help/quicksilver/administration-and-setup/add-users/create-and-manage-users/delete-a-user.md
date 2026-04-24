@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 8%
+source-wordcount: '835'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 8%
 >
 >**Como todas as organizações foram integradas à Adobe Admin Console, as informações desta página serão removidas em breve.**
 >
->Para obter uma lista de procedimentos que diferem dependendo se sua organização foi integrada à Adobe Business Platform, consulte [Diferenças na administração baseada na plataforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Para obter uma lista de procedimentos que diferem com base no fato de sua organização ter sido integrada à Adobe Business Platform, consulte [Diferenças de administração entre a Adobe Workfront e a Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Quando um usuário deixa a organização, você pode removê-lo do Adobe Workfront.
 
@@ -37,9 +37,9 @@ Quando um usuário deixa a organização, você pode removê-lo do Adobe Workfro
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/br/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 -->
 
@@ -91,7 +91,7 @@ A desativação de um usuário faz com que as seguintes coisas aconteçam:
      >[!NOTE]
      >
      >Se você desativar um usuário e não puder mais exibir os relatórios ou painéis associados a um usuário, talvez seja necessário atualizar o campo **Executar este relatório com os Direitos de Acesso de:**.\
-     >Para saber mais, consulte o [Por que não posso acessar um relatório de propriedade de um usuário desativado?Seção &#x200B;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) do artigo [Perguntas frequentes sobre relatórios](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
+     >Para saber mais, consulte [Por que não posso acessar um relatório de propriedade de um usuário desativado?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) do artigo [Perguntas frequentes sobre relatórios](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
    * Documentos
    * Atualizações
