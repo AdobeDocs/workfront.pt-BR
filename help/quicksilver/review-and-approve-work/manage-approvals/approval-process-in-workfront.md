@@ -7,9 +7,9 @@ description: Você pode criar um processo de aprovação e anexá-lo a um objeto
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,9 @@ Para obter informações sobre como criar um processo de aprovação em nível d
      >     Por exemplo, se você tiver uma aprovação de tarefa associada ao status Em andamento, a tarefa alterará automaticamente seu status para Em andamento quando a aprovação for concedida. Ele não pode alterar automaticamente seu status para Completed ou qualquer outro status que não esteja associado à aprovação.
      >   
      >   
-     >* As entidades associadas a um processo de aprovação podem ser usuários, funções de trabalho ou equipes. Os usuários são os principais responsáveis por aceitar ou rejeitar a aprovação. Você pode atribuir aprovações a usuários que desempenham uma determinada função no projeto. Por exemplo, você pode atribuir uma aprovação a um Proprietário do projeto ou Patrocinador. Para obter mais informações, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+     >
+
+   * As entidades associadas a um processo de aprovação podem ser usuários, funções de trabalho ou equipes. Os usuários são os principais responsáveis por aceitar ou rejeitar a aprovação. Você pode atribuir aprovações a usuários que desempenham uma determinada função no projeto. Por exemplo, você pode atribuir uma aprovação a um Proprietário do projeto ou Patrocinador. Para obter mais informações, consulte [Criar um processo de aprovação para itens de trabalho](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
      Existem os seguintes cenários:
 
@@ -145,11 +147,17 @@ Quando alguém no projeto altera o status para Pronto para impressão, o redator
 
 Depois que ambos aprovam o folheto no Workfront, o status do projeto muda para Pronto para impressão.
 
-## Processos de aprovação de documentos
+## Processos de aprovação de documentos herdados
 
-Aprovações de documentos são usadas para uma aprovação mais geral. O feedback é capturado no formato de chat na guia Atualizações. Você pode usar os botões de aprovação para aprovar, rejeitar ou aprovar com alterações.
 
-Para adicionar aprovadores a um documento depois que ele for carregado para o Workfront, consulte [Solicitar aprovações de documentos](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+Aprovações de documentos herdados são usadas para uma aprovação mais geral. O feedback é capturado no formato de chat na guia Atualizações. Você pode usar os botões de aprovação para aprovar, rejeitar ou aprovar com alterações.
+
+Para adicionar aprovadores a um documento depois que ele for carregado para o Workfront, consulte [Solicitar uma aprovação de documento herdado](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+
+>[!NOTE]
+>
+>Atualmente, existem várias opções de aprovação de documentos no Workfront. Para obter mais informações, consulte [Funcionalidade disponível para aprovações de documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
 
 ## Processos de aprovação de prova
 

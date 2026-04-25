@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 12%
+source-wordcount: '378'
+ht-degree: 11%
 
 ---
 
@@ -31,7 +31,8 @@ Você pode visualizar um documento na área Documentos. Isso é especialmente ú
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p> Qualquer</p> </td> 
+   <td> <p>Qualquer pacote do Workfront para gerenciar documentos usando o armazenamento herdado do Workfront</p>
+<p>Qualquer pacote de fluxo de trabalho para gerenciar documentos usando o armazenamento corporativo da Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenças do Adobe Workfront</td> 
@@ -78,9 +79,9 @@ Para visualizar um documento:
 
 Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Alguns formatos de arquivo não podem ser visualizados.
+Some file formats cannot be previewed.
 
-+++Expanda para exibir formatos de arquivo não compatíveis com a visualização de documentos.
++++Expand to view unsupported file formats for previewing documents.
 
 Os formatos de arquivo a seguir não podem ser exibidos na janela de pré-visualização:
 
@@ -89,15 +90,15 @@ Os formatos de arquivo a seguir não podem ser exibidos na janela de pré-visual
 <td style="border: none; width: 50%; padding-right: 20px;">
 
 <ul>
-<li>ia</li>
-<li>Aico</li>
+<li>ai</li>
+<li>aic</li>
 <li>xls</li>
 <li>xlsx</li>
 <li>ppt</li>
 <li>pptx</li>
 <li>doc</li>
 <li>docx</li>
-<li>Base</li>
+<li>ase</li>
 <li>indd</li>
 <li>inddc</li>
 <li>pdf</li>

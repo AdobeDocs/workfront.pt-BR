@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 11%
+source-wordcount: '405'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ Você pode solicitar um documento em qualquer objeto que ofereça suporte a Docu
 
 >[!NOTE]
 >
->Esta funcionalidade não está disponível na área de novos documentos.<br>
+>Essa funcionalidade não está disponível na área de novos documentos.<br>
 >Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acesso
@@ -34,7 +34,7 @@ Você pode solicitar um documento em qualquer objeto que ofereça suporte a Docu
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p> Qualquer</p> </td> 
+   <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenças do Adobe Workfront*</td> 

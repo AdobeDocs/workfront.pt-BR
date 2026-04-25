@@ -5,9 +5,10 @@ title: Vincular ativos e pastas do Experience Manager Assets Essentials
 description: Você pode vincular um ativo ou pasta do Experience Manager Assets Essentials a qualquer objeto do Adobe Workfront compatível com documentos. O Assets enviado do Assets Essentials não conta para o armazenamento geral de documentos no Workfront. Os documentos carregados e enviados do Workfront para o Assets Essentials contam para o armazenamento geral.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: a9dfc5c7838668bd3007c157a4e1a53ab4bd86f5
+exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '628'
 ht-degree: 12%
 
 ---
@@ -17,6 +18,8 @@ ht-degree: 12%
 Você pode vincular um ativo ou pasta do Experience Manager Assets Essentials a qualquer objeto do Adobe Workfront compatível com documentos.
 
 Para vincular ativos e pastas do Experience Manager Assets usando o Supervisor de Conteúdo, consulte [Vincular ativos e pastas ao Supervisor de Conteúdo habilitado pelo Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
+
+Se você estiver no armazenamento corporativo, consulte [Usar o Adobe Experience Manager com a integração Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 
 ## Requisitos de acesso

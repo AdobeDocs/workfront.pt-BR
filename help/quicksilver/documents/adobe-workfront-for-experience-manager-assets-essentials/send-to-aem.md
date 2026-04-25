@@ -1,25 +1,32 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Enviar um documento para o Experience Manager Assets ou o Assets Essentials
+title: Enviar um documento para o Experience Manager Assets ou Assets Essentials
 description: Você pode enviar documentos do Workfront para o Experience Manager Assets ou o Assets Essentials. Os documentos carregados e enviados do Workfront para o Assets Essentials ainda contam para o armazenamento geral de documentos. O Assets vinculado do Assets Essentials não conta para o armazenamento geral.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 0%
+source-wordcount: '923'
+ht-degree: 9%
 
 ---
 
-# Enviar um documento para o Experience Manager Assets ou o Assets Essentials
+# Enviar um documento para o Experience Manager Assets ou Assets Essentials
 
 Você pode enviar documentos do Workfront para o Experience Manager Assets ou o Assets Essentials. Os documentos carregados e enviados do Workfront para o Assets Essentials ainda contam para o armazenamento geral de documentos. O Assets vinculado do Assets Essentials não conta para o armazenamento geral.
 
 O Assets enviado para o Experience Manager por meio dessa integração tem um limite de tamanho de **5 GB**.
 
 No ambiente de Pré-visualização, o Assets enviado ao Experience Manager por meio dessa integração tem um limite de tamanho de **30 GB**.
+
+>[!NOTE]
+>
+>Essa funcionalidade não está disponível na área de novos documentos.<br>
+>Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. A partir daí, você pode enviar ativos para a Experience Manager Assets. Para obter mais informações, consulte [Usar o Adobe Experience Manager com a integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+
+## Metadados
 
 Os campos de metadados são mapeados pela primeira vez quando você envia um ativo do Workfront para o Experience Manager Assets ou o Assets Essentials. Todos os metadados configurados para mapear para objetos principais também são enviados. Para obter mais informações sobre como configurar o mapeamento de metadados, consulte [Configurar a integração do Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -29,7 +36,7 @@ Os campos de metadados são mapeados pela primeira vez quando você envia um ati
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,8 +49,8 @@ Os campos de metadados são mapeados pela primeira vez quando você envia um ati
   <tr> 
    <td role="rowheader">Licenças do Adobe Workfront</td> 
    <td> 
-   <p>Colaborador ou superior</p> 
-   <p>Solicitação ou superior</p> </td> 
+   <p>Colaborador ou posterior</p> 
+   <p>Solicitação ou posterior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produtos adicionais</td> 
@@ -64,7 +71,7 @@ Os campos de metadados são mapeados pela primeira vez quando você envia um ati
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

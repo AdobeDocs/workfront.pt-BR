@@ -3,9 +3,9 @@ user-guide-title: Guia do Workfront
 user-guide-description: Use os documentos, tutoriais e recursos adicionais para saber como implementar e usar efetivamente o Adobe Workfront em sua organização.
 role: User
 feature-set: Workfront
-source-git-commit: d32fd0ffe1750cb08ec90d0b766034de5ffe6eaf
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '13945'
+source-wordcount: '14070'
 ht-degree: 96%
 
 ---
@@ -237,7 +237,7 @@ ht-degree: 96%
          * [Outros aprimoramentos na 21.1](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Atividade de lançamento do Planejamento do Adobe Workfront{#planning-release-activity}
          * [Atividade de lançamento do Planejamento do Adobe Workfront](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-         * [Atividade de lançamento do segundo trimestre de 2026 do Planejamento do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+         * [Atividade da versão do segundo trimestre de 2026 para o Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
          * [Atividade de lançamento do primeiro trimestre de 2026 do Planejamento do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
          * [Atividade de lançamento do quarto trimestre de 2025 do Planejamento do Adobe Workfront](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Atividade de lançamento do terceiro trimestre de 2025 do Planejamento do Adobe Workfront](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
@@ -1872,7 +1872,7 @@ ht-degree: 96%
    * Aprovações de trabalho {#work-approvals}
       * [Aprovações de trabalho](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [Visão geral do processo de aprovação](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-      * [Solicitar aprovações de documentos](review-and-approve-work/manage-approvals/request-document-approvals.md)
+      * [Solicitar uma aprovação de documento herdado](review-and-approve-work/manage-approvals/request-document-approvals.md)
       * [Aprovar trabalho](review-and-approve-work/manage-approvals/approving-work.md)
       * [Visualizar aprovações](review-and-approve-work/manage-approvals/view-approvals.md)
       * [Lembrar aprovadores sobre as aprovações enviadas](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)

@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 14%
+source-wordcount: '431'
+ht-degree: 13%
 
 ---
 
@@ -37,7 +37,8 @@ Quando você move um documento, qualquer um dos itens a seguir também será mov
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p> Qualquer</p> </td> 
+   <td><p>Qualquer pacote do Workfront para gerenciar documentos usando o armazenamento herdado do Workfront</p>
+<p>Qualquer pacote de fluxo de trabalho para gerenciar documentos usando o armazenamento corporativo da Adobe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenças do Adobe Workfront</td> 

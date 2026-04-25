@@ -8,10 +8,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 66674732-6ad7-477b-8473-03b1dac750a3
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 0%
+source-wordcount: '62'
+ht-degree: 20%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 Esta seção contém os seguintes artigos:
 
 * [Visão geral do processo de aprovação](../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-* [Solicitar aprovações de documentos](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
+* [Solicitar uma aprovação de documento herdado](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 * [Aprovando trabalho](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Exibir aprovações](../../review-and-approve-work/manage-approvals/view-approvals.md)
 * [Lembrar aprovadores sobre aprovações enviadas](../../review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
@@ -28,4 +28,4 @@ Esta seção contém os seguintes artigos:
 * [Exibir aprovações de provas enviadas](../../review-and-approve-work/manage-approvals/viewsubmitted-proof-approvals.md)
 * [Delegar solicitação de aprovação](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)
 * [Associar um processo de aprovação novo ou existente ao trabalho](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
-* [Cancelar aprovações enviadas](../../review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
+* [Recuperar aprovações enviadas](../../review-and-approve-work/manage-approvals/recall-submitted-approvals.md)

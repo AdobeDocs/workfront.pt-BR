@@ -10,10 +10,10 @@ recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 84%
+source-wordcount: '925'
+ht-degree: 76%
 
 ---
 
@@ -32,7 +32,7 @@ Considere o seguinte ao editar formulários personalizados de documentos em mass
 >[!BEGINSHADEBOX]
 
 **Exemplo**
-Você pode ter um formulário personalizado com um campo de caixa de seleção e três caixas de seleção (Opção 1, Opção 2 e Opção 3), no qual a Opção 1 está desmarcada para todos os documentos selecionados e as Opções 2 e 3 estão marcadas para alguns documentos e desmarcadas para outros documentos selecionados. Se você deseja marcar a Opção 1 para todos os documentos, também deve fazer com que as Opções 2 e 3 correspondam a todos os projetos selecionados antes de salvar suas alterações. Portanto, você deve selecioná-las ou desmarcá-las para que correspondam em todos os projetos selecionados. Se você não alterar nenhuma das opções, poderá salvar o campo como está, e os documentos manterão a seleção atual para todas as opções.
+Talvez você tenha um formulário personalizado com um campo de caixa de seleção com três caixas de seleção (Opção 1, Opção 2 e Opção 3) e a Opção 1 esteja desmarcada para todos os documentos selecionados, e as Opções 2 e 3 estejam marcadas para alguns e desmarcadas para outros documentos selecionados. Se você deseja marcar a Opção 1 para todos os documentos, também deve fazer com que as Opções 2 e 3 correspondam a todos os projetos selecionados antes de salvar suas alterações. Portanto, você deve selecioná-las ou desmarcá-las para que correspondam em todos os projetos selecionados. Se você não alterar nenhuma das opções, poderá salvar o campo como está, e os documentos manterão a seleção atual para todas as opções.
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,8 @@ Você pode ter um formulário personalizado com um campo de caixa de seleção e
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p> Qualquer</p> </td> 
+   <td> <p>Qualquer pacote do Workfront para gerenciar documentos usando o armazenamento herdado do Workfront</p>
+<p>Qualquer pacote de fluxo de trabalho para gerenciar documentos usando o armazenamento corporativo da Adobe</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenças do Adobe Workfront*</td> 
@@ -84,7 +85,7 @@ Para editar documentos em massa:
    <table>
     <tr>
     <td><strong>Adicionar formulários</strong></td>
-    <td>Na <strong>caixa Adicionar formulário personalizado</strong>, você pode escolher entre formulários anexados e formulários a serem adicionados. Os formulários anexados estão em alguns dos documentos selecionados, mas não em todos. Um formulário anexado a todos os documentos selecionados é exibido automaticamente na janela de edição.  </td>
+    <td>Na caixa <strong>Adicionar formulário personalizado</strong>, você pode escolher entre formulários anexados e formulários para adicionar. Os formulários anexados estão em alguns dos documentos selecionados, mas não em todos. Um formulário anexado a todos os documentos selecionados é exibido automaticamente na janela de edição.  </td>
     </tr>
     <tr>
     <td><strong>Editar formulários</strong></td>
@@ -108,7 +109,7 @@ Para editar documentos em massa:
 1. Pressione Ctrl ou Cmd no teclado e selecione os documentos que deseja editar.
 1. Clique em Editar na parte inferior da página.
    ![editar vários documentos](assets/bulk-edit-documents.png)
-1. (Opcional) Adicione ou edite a **Descrição**. Se a descrição de cada documento for diferente, você verá _Múltiplos valores_ na caixa de descrição. Você pode adicionar a mesma descrição para todos os documentos, mas não pode editar descrições individuais de documentos ao editar em massa.
+1. (Opcional) Adicione ou edite a **Descrição**. Se a descrição em cada documento for diferente, você verá _Múltiplos valores_ na caixa de descrição. Você pode adicionar a mesma descrição para todos os documentos, mas não pode editar descrições individuais de documentos ao editar em massa.
 1. Faça as seguintes alterações com formulários personalizados:
 
    <table>
@@ -130,7 +131,7 @@ ou
 Crie um relatório de documento conforme descrito em [Criar um relatório personalizado](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. Selecione os documentos que deseja editar.
 1. Clique no ícone Editar ![Ícone Editar](assets/edit-icon.png).
-1. (Opcional) Adicione ou edite a **Descrição**. Se a descrição de cada documento for diferente, você verá _Múltiplos valores_ na caixa de descrição. Você pode adicionar a mesma descrição para todos os documentos, mas não pode editar descrições individuais de documentos ao editar em massa.
+1. (Opcional) Adicione ou edite a **Descrição**. Se a descrição em cada documento for diferente, você verá _Múltiplos valores_ na caixa de descrição. Você pode adicionar a mesma descrição para todos os documentos, mas não pode editar descrições individuais de documentos ao editar em massa.
 1. Faça as seguintes alterações com formulários personalizados:
 
    <table>

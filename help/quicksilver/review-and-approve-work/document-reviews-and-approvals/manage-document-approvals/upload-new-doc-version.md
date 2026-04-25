@@ -8,10 +8,10 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 10%
+source-wordcount: '673'
+ht-degree: 9%
 
 ---
 
@@ -37,7 +37,8 @@ Se a versão mais recente do documento for excluída, as versões anteriores per
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer</p> </td> 
+   <td> <p>Qualquer pacote do Workfront para gerenciar aprovações usando o armazenamento herdado do Workfront</p>
+<p>Qualquer pacote de fluxo de trabalho para gerenciar aprovações usando o armazenamento corporativo da Adobe</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenças do Adobe Workfront</td> 
@@ -82,12 +83,12 @@ Para adicionar uma nova versão:
 1. Arraste e solte o novo arquivo sobre o documento anterior. Isso cria uma nova versão automaticamente.
 
 1. Quando o documento terminar de ser carregado, selecione-o para abrir o painel Resumo do documento. Aqui você verá o número da versão na parte superior do painel.
-   ![Abrir a página de detalhes do documento](assets/open-doc-details.png)
+   ![Open the document details page](assets/open-doc-details.png)
 
 
-1. Role até a seção **Aprovações**.
+1. Scroll down to the **Approvals** section.
 
-1. Clique em **Criar fluxo de trabalho** e preencha os seguintes detalhes:
+1. Click **Create workflow**, then fill in the following details:
 
    <table>
    <tr>
@@ -103,8 +104,8 @@ Para adicionar uma nova versão:
    <td>A primeira pessoa que toma uma decisão completa a etapa.</td>
    </tr>
    <tr>
-   <td><strong>Data de vencimento (opcional)</strong></td>
-   <td>Defina uma data de vencimento para a aprovação. Os usuários e as equipes são notificados por email 72 horas e, em seguida, 24 horas antes da data de vencimento especificada.</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
@@ -116,17 +117,17 @@ Para adicionar uma nova versão:
 
 
 
-1. (Opcional) Para adicionar um modelo de aprovação existente, selecione um modelo no lado esquerdo da caixa de diálogo.
+1. (Optional) To add an existing approval template, select a template from the left side of the dialog.
 
    >[!TIP]
    >
-   >   Os usuários com uma licença Standard podem criar Modelos de aprovação reutilizáveis na área Configuração. Para obter mais informações, consulte [Criar um modelo de fluxo de trabalho de aprovação para documentos](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+   >   Users with a Standard license can create reusable Approval Templates from the Setup area. For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 
 
-1. Depois de adicionar todos os estágios e participantes necessários, clique em **Solicitar aprovação**.
+1. Once you have added all the stages and participants you need, click **Request approval**.
 
-   O fluxo de trabalho de aprovação é iniciado e os aprovadores recebem uma notificação de que sua aprovação é necessária na nova versão do documento. A versão anterior do documento está bloqueada e todas as aprovações pendentes na versão anterior são retiradas.
+   The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
 
-   ![solicitar aprovação](assets/request-approval.png)
+   ![request approval](assets/request-approval.png)
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->

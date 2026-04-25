@@ -2,16 +2,16 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Vincular documentos de aplicativos externos
-description: Você pode vincular documentos e pastas ao Adobe Workfront a partir de fontes externas.
+description: You can link documents and folders to Adobe Workfront from external sources.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '2585'
-ht-degree: 2%
+source-wordcount: '2592'
+ht-degree: 3%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 2%
 
 <!-- Audited: 01/2024 -->
 
-Você pode vincular documentos e pastas ao Adobe Workfront a partir das seguintes fontes:
+You can link documents and folders to Adobe Workfront from the following sources:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Provedores de documentos em nuvem de terceiros existentes</td> 
-   <td>Isso inclui o seguinte: 
+   <td role="rowheader">Existing third party cloud document providers</td> 
+   <td>These include the following: 
     <ul> 
      <li>Box</li> 
      <li>Dropbox</li> 
@@ -41,27 +41,27 @@ Você pode vincular documentos e pastas ao Adobe Workfront a partir das seguinte
   </tr> 
   <tr> 
    <td role="rowheader">Prova do Workfront </td> 
-   <td>Você pode disponibilizar no Workfront provas que foram criadas originalmente no Workfront Proof.</td> 
+   <td>You can make proofs that were originally created within Workfront Proof available within Workfront.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
-   <td>Você pode vincular documentos do Experience Manager Assets Essentials à Workfront. Para obter mais informações, consulte <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront para Experience Manager Assets Essentials</a>.</td> 
+   <td>You can link documents to Workfront from Experience Manager Assets Essentials. For more information, see <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront for Experience Manager Assets Essentials</a>.</td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">Outros provedores de documentos (por meio de integrações de documentos personalizadas)</td> 
-   <td> <p class="workfront_plans">Essas integrações podem ser configuradas na área Configuração.</p> </td>
+   <td role="rowheader">Other document providers (through custom document integrations)</td> 
+   <td> <p class="workfront_plans">These integrations can be configured in the Setup area.</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-Antes de vincular documentos ou pastas, o administrador do Workfront deve habilitar essa funcionalidade para cada provedor de documentos ou para uma integração de documentos personalizada, conforme descrito em [Configurar integrações de documentos](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Before you link documents or folders, your Workfront administrator must enable this functionality for each document provider, or for a custom document integration, as described in [Configure document integrations](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
-Você pode revisar e aprovar documentos vinculados a um provedor de nuvem externo da mesma maneira que faz com documentos carregados diretamente no Workfront.
+You can proof and approve documents linked to an external cloud provider the same way you do so with documents uploaded directly to Workfront.
 
 >[!NOTE]
 >
->Esta funcionalidade não está disponível na área de novos documentos.<br>
+>Essa funcionalidade não está disponível na área de novos documentos.<br>
 >Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acesso
@@ -74,7 +74,7 @@ Você pode revisar e aprovar documentos vinculados a um provedor de nuvem extern
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td>
-   <td> <p> Qualquer</p> </td>
+   <td> <p>Qualquer</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td>
@@ -92,31 +92,31 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Armazenamento de documentos
+## Document storage
 
-Os documentos vinculados ao Workfront a partir de um aplicativo externo são armazenados com o provedor de nuvem externo, não no Workfront.
+Documents that are linked to Workfront from an external application are stored with the external cloud provider, not within Workfront.
 
-As seguintes exceções se aplicam:
+The following exceptions apply:
 
-* Quando fornecido pelo serviço de documento, as miniaturas e as imagens de visualização podem ser armazenadas nos servidores do Workfront.
-* Quando você usa provas no Workfront, o documento é copiado e adicionado aos servidores de provas.
+* When provided by the document service, thumbnails and preview images might be stored on Workfront servers.
+* When you use proofing in Workfront, the document is copied and added to the proofing servers.
 
 ## Limites de tamanho de arquivo
 
-Provedores de nuvem de terceiros:
+Third-party cloud providers:
 
-* Arquivo único: 5 GB ou menos
-* Vários arquivos: 1 GB ou menos (total de todos os arquivos)
+* Single file: 5 GB or less
+* Multiple file: 1 GB or less (total of all files)
 
-## Vincular um documento de um aplicativo externo ao Workfront
+## Link a document from an external application to Workfront
 
-Você pode vincular documentos existentes a um provedor de nuvem externo. Isso inclui todos os documentos compartilhados.
+You can link existing documents with an external cloud provider. This includes any shared documents.
 
 ### Pré-requisitos {#prerequisites}
 
 Antes de vincular documentos ou pastas, o administrador do Workfront deve habilitar essa funcionalidade para cada provedor de documentos ou para uma integração de documentos personalizada, conforme descrito em [Configurar integrações de documentos](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
-### Vincular um documento externo ao Workfront {#link-an-external-document-to-workfront}
+### Link an external document to Workfront {#link-an-external-document-to-workfront}
 
 Você pode vincular documentos ao Workfront a partir de um aplicativo externo, como o Google e o Microsoft OneDrive.
 
@@ -125,14 +125,14 @@ Você pode vincular documentos ao Workfront a partir de um aplicativo externo, c
 >O Dropbox armazena documentos com base no caminho do arquivo. Por causa disso, se um arquivo vinculado do Dropbox for movido, renomeado ou excluído, ele se tornará inacessível no Workfront.
 
 1. Vá para a área **Documentos** no Workfront onde deseja o documento.
-1. Clique em **Adicionar novo** e, em seguida, clique no provedor de documentos externos ao qual você deseja vincular documentos ao Workfront.
+1. Click **Add New**, then click the external document provider where you want to link documents to Workfront.
 
    Por exemplo, para vincular documentos do Dropbox, clique em **Do Dropbox**.
 
    Os provedores externos que você já autorizou aparecem no topo da lista.
 
 1. (Condicional) Se você for solicitado a fazer login no serviço externo, digite suas credenciais de login para o serviço na caixa exibida e clique em **Entrar**.
-1. (Condicional) Se você for solicitado a autorizar o aplicativo externo, clique no botão **Autorizar**.
+1. (Conditional) If you are prompted to authorize the external application, click the **Authorize** button.
 
    Você precisa fazer isso apenas uma vez.
 
@@ -208,88 +208,88 @@ Para obter informações sobre como adicionar uma nova versão de um documento q
 
 Você pode vincular provas ao Workfront que existiam originalmente no Workfront Proof. Quando você vincula uma prova do Workfront Proof, todos os comentários e outros metadados associados à prova ficam disponíveis no Workfront.
 
-Você pode vincular somente as provas para as quais tem acesso de Visualização no Workfront Proof.
+You can link only those proofs for which you have View access in Workfront Proof.
 
-1. Vá para a área **Documentos** no Workfront onde deseja o documento.
-1. Clique em **Adicionar novo** e em **Do Workfront Proof**.
+1. Go to the **Documents** area in Workfront where you want the document.
+1. Click **Add New**, then click **From Workfront Proof**.
 
    >[!NOTE]
    >
-   >As opções nesse menu podem variar dependendo de quais provedores de terceiros estão configurados em seu ambiente.
+   >The options in this menu may vary depending on what third party providers are configured in your environment.
 
-1. Na caixa **Vincular provas do Workfront Proof** que for exibida, comece digitando o nome da prova que você deseja disponibilizar no Workfront.
+1. In the **Link proofs from Workfront Proof** box that appears, begin typing the name of the proof you want to make available in Workfront.
 
-   A lista é filtrada à medida que você digita.
+   The list is filtered as you type.
 
-1. Selecione até 10 provas para vincular.
+1. Select up to 10 proofs to link.
 
-   Qualquer nome de prova esmaecido não está disponível para link, pois a prova já está associada a um documento no Workfront.
+   Any proof name that is dimmed is not available to link, because the proof is already associated with a document in Workfront.
 
 1. Clique em **Link**.
 
-   A versão mais recente da prova está vinculada ao Workfront. Ao abrir a prova, todas as versões ficam disponíveis no visualizador de provas.
+   The most current version of the proof is linked to Workfront. When you open the proof, all versions are available in the proofing viewer.
 
-### Criar um documento do Google no Workfront {#create-a-google-document-from-within-workfront}
+### Create a Google document from within Workfront {#create-a-google-document-from-within-workfront}
 
-Você pode criar um novo documento do Google no Workfront. Não é possível criar novos documentos no Workfront para outros provedores de nuvem.
+You can create a new Google document from within Workfront. You cannot create new documents from within Workfront for other cloud providers.
 
-1. Vá para a área **Documentos** no Workfront onde deseja o documento.
-1. Clique em **Adicionar novo** > **Arquivo Google** e selecione o tipo de documento Google que deseja criar.
-1. Se a caixa **Adicionar Conta de Unidade Google** aparecer, clique em **Autorizar Unidade Google**.
+1. Go to the **Documents** area in Workfront where you want the document.
+1. Click **Add New** > **Google File**, then select the type of Google document you want to create.
+1. If the **Add Google Drive Account** box appears, click **Authorize Google Drive**.
 
-   Um documento do Google foi adicionado à guia **Documentos**.
+   A Google document is added to the **Documents** tab.
 
    >[!NOTE]
    >
-   > My Drive e Shared with Me exibem dois resultados diferentes. Se não conseguir localizar um arquivo em Meu Drive, faça check-in na pasta Compartilhado comigo.
+   > My Drive and Shared with Me display two different results. If you are unable to locate a file in My Drive, check in the Shared with Me folder.
 
-## Fazer upload e vincular um documento do Workfront a um provedor de nuvem externo
+## Upload and link a document from Workfront to an external cloud provider
 
-Você pode fazer upload e vincular um documento do Workfront a um provedor de nuvem externo. Isso move o armazenamento do documento do Workfront para o provedor de nuvem externo. Quando o documento é alterado no aplicativo externo, ele é atualizado automaticamente no Workfront.
+You can upload and link a document from Workfront to an external cloud provider. This moves storage of the document from Workfront to the external cloud provider. When the document is changed in the external application, it updates automatically in Workfront.
 
 >[!NOTE]
 >
->Enviar um ativo para um provedor de documentos externo cria uma nova versão do ativo.
+>Sending an asset to an external document provider creates a new version of the asset.
 
-Os usuários sem acesso ao Workfront podem ver o documento no aplicativo externo se tiverem acesso ao aplicativo.
+Users without Workfront access can see the document in the external application if they have access to the application.
 
-1. Selecione um documento que seja carregado no Workfront.
-1. Clique em **Mais** >**Enviar para** e selecione o provedor de nuvem no qual deseja armazenar o documento vinculado.
+1. Select a document that is uploaded in Workfront.
+1. Click **More** >**Send to**, then select the cloud provider that you want to store the linked document.
 
-   Você também pode usar o menu Mais ![Mais menu](assets/more-icon.png) na página Detalhes do Documento para fazer isso.
+   You can also use the More menu ![More menu](assets/more-icon.png) on the Document Details page to do this.
 
-1. Selecione a pasta no aplicativo do provedor em que você deseja armazenar o documento.
+1. Select the folder in the provider&#39;s application where you want to store the document.
 
-   Pode ser qualquer pasta no aplicativo do provedor, incluindo uma pasta compartilhada.
+   This can be any folder in the provider&#39;s application, including a shared folder.
 
 1. Clique em **Salvar**.
 
-   O logotipo do provedor externo aparece ao lado do nome do documento para indicar que o documento agora está vinculado ao Workfront e armazenado pelo provedor de nuvem externo.
+   The external provider&#39;s logo appears next to the document name to indicate that the document is now linked to Workfront and stored by the external cloud provider.
 
-   ![doc_with_google_drive_link_highlight_1_.png](assets/doc-with-google-drive-link-highlight--1--350x66.png)
+   ![doc_with_google_drive_link_highlight__1_.png](assets/doc-with-google-drive-link-highlight--1--350x66.png)
 
-## Vincular pastas
+## Link folders
 
-Ao vincular uma pasta entre o Workfront e um provedor de nuvem externo, a pasta e todo o seu conteúdo são vinculados. Se os usuários sem acesso ao Workfront adicionarem, removerem e modificarem arquivos do aplicativo de documentos externos, suas alterações serão sincronizadas com o Workfront.
+When you link a folder between Workfront and an external cloud provider, the folder and all of its contents are linked. If users without Workfront access add, remove, and modify files from the external document application, their changes are synchronized to Workfront.
 
-### Direitos de acesso à pasta {#folder-access-rights}
+### Folder access rights {#folder-access-rights}
 
-Ao sincronizar o conteúdo da pasta de um aplicativo de documento externo, o Workfront usa as credenciais do usuário que originalmente vinculou a pasta. Isso resulta na seguinte experiência do usuário:
+When synchronizing folder content from an external document application, Workfront uses the credentials of the user who originally linked the folder. This results in the following user experience:
 
-* Se os usuários não tiverem acesso para exibir arquivos e pastas no aplicativo externo, mas tiverem acesso para exibir a pasta vinculada por meio do Workfront, poderão exibir somente os nomes dos arquivos e pastas no Workfront, não seu conteúdo.
-* Quando alguém acessa o conteúdo dentro de uma pasta vinculada no Workfront (como uma subpasta em uma pasta vinculada) que foi vinculada ao Workfront por outro usuário, o conteúdo é sincronizado com o Workfront usando as credenciais de logon do Workfront do usuário que originalmente vinculou a pasta, não as credenciais do usuário que acessou o conteúdo.
+* If users do not have access to view files and folders in the external application, but do have access to view the linked folder via Workfront, they can view only the names of the files and folders in Workfront, not their contents.
+* When someone accesses content inside a linked folder in Workfront (such as a subfolder in a linked folder) that was linked to Workfront by another user, the content synchronizes to Workfront using the Workfront login credentials of the user who originally linked the folder, not the credentials of the user accessing the content.
 
 >[!IMPORTANT]
 >
->* Se o usuário que vinculou originalmente a pasta for removido do sistema do Workfront, os usuários não poderão mais acessar o conteúdo na pasta vinculada por meio do Workfront. Nesse caso, a pasta deve ser vinculada novamente por um usuário ativo do Workfront que tenha direitos à pasta no aplicativo externo.
->* Se o usuário que vinculou uma pasta não tiver mais acesso ao aplicativo externo, o Workfront não poderá mais acessar o conteúdo da pasta. Isso pode acontecer, por exemplo, se o usuário que originalmente vinculou a pasta sair da empresa. Para garantir acesso contínuo, um usuário com acesso à pasta deve vincular novamente a pasta.
+>* If the user who originally linked the folder is removed from the Workfront system, users are no longer able to access content on the linked folder via Workfront. In this case, the folder must be relinked by an active Workfront user who has rights to the folder in the external application.
+>* If the user who linked a folder no longer has access to the external application, Workfront can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
 
-### Vincular uma ou mais pastas externas {#link-one-or-more-external-folders}
+### Link one or more external folders {#link-one-or-more-external-folders}
 
-1. Vá para a área no Workfront em que você deseja a pasta e clique em **Documentos** ![ícone Documentos](assets/document-icon.png) no painel esquerdo.
+1. Go to the area in Workfront where you want the folder, then click  **Documents** ![Documents icon](assets/document-icon.png) in the left panel .
 
-1. Clique em **Adicionar novo** e clique no provedor de documento externo do qual você deseja vincular uma pasta ao Workfront.
-1. (Condicional) Se você ainda não autorizou o serviço externo, especifique suas credenciais de logon para o provedor externo e clique em **Entrar**.
+1. Click **Add New**, then click the external document provider from which you want to link a folder to Workfront.
+1. (Conditional) If you have not yet authorized the external service, specify your login credentials for the external provider, then click **Sign in**.
 
    Os provedores externos que você já autorizou aparecem no topo da lista.
 

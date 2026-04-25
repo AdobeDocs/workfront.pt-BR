@@ -1,39 +1,40 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Usar o Workfront Fusion para criar um Projeto do Workfront com fluxos de trabalho do Adobe Experience Manager
-description: Se você estiver criando um projeto por meio do Workfront Fusion e quiser incluir fluxos de trabalho do Adobe Experience Manager no projeto, deverá usar uma configuração específica do módulo Fusion, descrita neste artigo.
+title: Use Workfront Fusion to create a Workfront Project that has Adobe Experience Manager workflows
+description: If you are creating a project through Workfront Fusion and want to include Adobe Experience Manager workflows on the project, you must use a specific Fusion module configuration, described in this article.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 6a21465ab8c92888c83344f33574302c5cc446e8
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 0%
+source-wordcount: '925'
+ht-degree: 11%
 
 ---
 
 # Usar o Workfront Fusion para converter um problema do Workfront em um projeto que inclui fluxos de trabalho do Adobe Experience Manager
 
-Se você estiver criando um projeto por meio do Workfront Fusion e quiser incluir fluxos de trabalho do Adobe Experience Manager no projeto, deverá usar uma configuração específica do módulo Fusion, descrita neste artigo.
+If you are creating a project through Workfront Fusion and want to include Adobe Experience Manager workflows on the project, you must use a specific Fusion module configuration, described in this article.
 
 >[!NOTE]
 >
->Os fluxos de trabalho estão disponíveis somente em uma integração com o Adobe Experience Manager as a Cloud Service. Não estão disponíveis em integrações com o Adobe Experience Manager Assets Essentials.
+>Workflows are available only in an Adobe Experience Manager as a Cloud Service integration. They are not available in integrations with Adobe Experience Manager Assets Essentials.<br>
+>Essa funcionalidade não está disponível na área de novos documentos.
 
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table>
   <tr>
     <td><strong>Pacote do Adobe Workfront</strong></td>
-   <td> <p>Qualquer pacote de fluxo de trabalho do Adobe Workfront e qualquer pacote de Automação e Integração do Adobe Workfront</p><p>Workfront Ultimate</p><p>Workfront Prime e pacotes Select, com uma compra adicional do Workfront Fusion.</p> </td> 
+   <td> <p>Qualquer pacote de fluxo de trabalho do Adobe Workfront e qualquer pacote do Adobe Workfront Automation and Integration</p><p>Workfront Ultimate</p><p>Os pacotes Workfront Prime e Select, com uma compra adicional do Workfront Fusion.</p> </td> 
   </tr>
   <tr>
    <td><strong>Licenças do Adobe Workfront</strong></td>
-   <td><p>Colaborador ou superior</p><p>Solicitação ou superior</p></td>
+   <td><p>Colaborador ou posterior</p><p>Solicitação ou posterior</p></td>
   </tr>
   <tr>
    <td><strong>Produto</strong></td>
@@ -41,16 +42,16 @@ Se você estiver criando um projeto por meio do Workfront Fusion e quiser inclui
      <p><b>Adobe Experience Manager:</b></p>
      <ul>
        <li>
-         <p>Você deve ter o Experience Manager Assets as a Cloud Service ou o Assets Essentials e deve ser adicionado ao produto como usuário na Admin Console.</p>
+         <p>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</p>
        </li>
        <li>
-        <p>Você deve ter acesso de gravação ao repositório no Adobe Experience Manager.</p>
+        <p>You must have write access to the repository in Adobe Experience Manager.</p>
        </li>
      </ul>
      <p><b>Workfront Fusion:</b></p>
      <ul>
        <li>
-        <p>Se sua organização tiver um pacote Select ou Prime Workfront que não inclua a Automação e Integração do Workfront, ela deverá comprar o Adobe Workfront Fusion.</li></ul>
+        <p>Se sua organização tiver um pacote Workfront Select ou Prime, ele não inclui o Workfront Automation and Integration. É necessário comprar o Adobe Workfront Fusion.</li></ul>
        </li>
      </ul>
    </td>
@@ -69,22 +70,22 @@ Se você estiver criando um projeto por meio do Workfront Fusion e quiser inclui
 
 Antes de começar,
 
-* O administrador do Workfront deve configurar os workflows em uma integração com o Adobe Experience Manager. Para obter mais informações, consulte [Configurar a integração do Experience Manager Assets as a Cloud Service](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
-* Você deve ter um modelo de projeto configurado com um fluxo de trabalho de pasta vinculado à integração do Adobe Experience Manager.
-* Você deve ter criado um aplicativo OAuth no Workfront para configurar a conexão para esse módulo.
+* Your Workfront administrator must configure workflows in an Adobe Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* You must have a project template configured with an Adobe Experience Manager integration linked folder workflow.
+* You must have created an OAuth application in Workfront to configure the connection for this module.
 
-  Para obter instruções, consulte [Criar um aplicativo OAuth](#create-an-oauth-application) neste artigo.
+  For instructions, see [Create an OAuth application](#create-an-oauth-application) in this article.
 
-## Configuração do módulo
+## Module configuration
 
-No Workfront Fusion, se quiser criar um projeto que inclua fluxos de trabalho do Adobe Experience Manager, use o módulo Workfront > Ação diversa.
+In Workfront Fusion, if you want to create a project that includes Adobe Experience Manager workflows, you must use the Workfront > Misc Action module.
 
-1. Adicione o módulo **Workfront** > **Misc Action** ao seu cenário.
-1. No campo **Conexão**, selecione a conexão do Workfront que se conecta à conta que esse módulo usará.
+1. Add the **Workfront** > **Misc Action** module to your scenario.
+1. In the **Connection** field, select the Workfront connection that connects to the account this module will use.
 
-   Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] a [!DNL Workfront Fusion]](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) no artigo Módulos do Workfront.
+   For instructions on creating a connection, see [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) in the article Workfront modules.
 
-   Para obter instruções sobre como criar a ID do cliente e o Segredo do cliente, será necessário criar uma conexão, consulte [Criar um aplicativo OAuth](#create-an-oauth-application) neste artigo.
+   For instructions on creating the Client ID and Client Secret you will need to create a connection, see [Create an OAuth application](#create-an-oauth-application) in this article.
 
 1. No campo **Tipo de Registro**, selecione `Issue`.
 1. No campo **Ação**, selecione `convertToProject`.
@@ -164,4 +165,4 @@ Você deve configurar um aplicativo OAuth no Workfront para a conexão deste mó
 
 Você usará essa ID do cliente e o segredo do cliente ao configurar a conexão do módulo no Fusion.
 
-Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] a [!DNL Workfront Fusion]](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) no artigo Módulos do Workfront.
+Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] a [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) no artigo Módulos do Workfront.

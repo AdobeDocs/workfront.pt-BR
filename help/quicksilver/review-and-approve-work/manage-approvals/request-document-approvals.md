@@ -1,25 +1,31 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Solicitar aprovações de documentos
-description: Você pode solicitar aprovação de gerentes ou outros usuários para um documento no Adobe Workfront. Você também pode solicitar aprovações de documentos de pessoas sem contas do Workfront se o administrador do Workfront tiver ativado esse recurso, conforme descrito em Configurar preferências de segurança do sistema.
+title: Request a legacy document approval
+description: You can request approval from managers or other users for a document in Adobe Workfront. You can also request document approvals from people without Workfront accounts if your Workfront administrator has enabled this capability, as described in Configure system security preferences.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 1%
+source-wordcount: '544'
+ht-degree: 6%
 
 ---
 
-# Solicitar aprovações de documentos
+# Request a legacy document approval
 
-Você pode solicitar aprovação de gerentes ou outros usuários para um documento no Adobe Workfront. Você também pode solicitar aprovações de documentos de pessoas sem contas do Workfront se o administrador do Workfront tiver habilitado esse recurso, conforme descrito em [Configurar preferências de segurança do sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+You can request approval from managers or other users for a document in Adobe Workfront. You can also request document approvals from people without Workfront accounts if your Workfront administrator has enabled this capability, as described in [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+>[!NOTE]
+>
+>The information in this article refers to legacy document approvals. <br>
+>For information about new Unified Review and Approval, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 
 <table style="table-layout:auto"> 
@@ -33,7 +39,7 @@ Você pode solicitar aprovação de gerentes ou outros usuários para um documen
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td>
-   <p>Contribuir ou mais</p>
+   <p>Contrbute or higher</p>
    <p>Revisar ou superior</p>
    </td> 
   </tr> 
@@ -52,22 +58,22 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 +++
 
-## Solicitar uma aprovação de documento
+## Request a document approval
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Localize o documento necessário.
 
-1. Role para baixo até a seção **Aprovações** no Resumo e comece a digitar na caixa de texto **Adicionar aprovador**. Você pode adicionar usuários do Workfront por nome ou usuários externos por email.
+1. Scroll down to the **Approvals** section in the Summary, and begin typing in the **Add Approver** text box. You can add Workfront users by name or external users by email.
 
 1. Se o administrador do Adobe Workfront tiver habilitado a capacidade de colaborar com pessoas que não usam o Workfront, conforme descrito em [Configurar preferências de segurança do sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), você poderá digitar seus endereços de email para incluí-los.
 
-   Não é possível solicitar aprovação de equipes ou grupos.
+   You cannot request approval from teams or groups.
 
-1. Repita a etapa anterior para adicionar outros aprovadores.
+1. Repeat the previous step to add other approvers.
 
-## Reenviar uma aprovação para uma nova versão
+## Resubmit an approval on a new version
 
-As decisões de aprovação de documentos não são redefinidas automaticamente ao carregar uma nova versão. Por exemplo, se o documento for aprovado com alterações, a decisão mostrará &quot;alterações&quot; como a decisão, mesmo que você carregue uma nova versão com as alterações especificadas. Você pode limpar a decisão sobre uma nova versão se reenviar manualmente a aprovação.
+Document approval decisions are not automatically reset when you upload a new version. For example, if your document is approved with changes, the decision will show &quot;changes&quot; as the decision, even if you upload a new version with the specified changes. You can clear the decision on a new version if you manually resubmit the approval.
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos**.
 1. Localize o documento necessário.
