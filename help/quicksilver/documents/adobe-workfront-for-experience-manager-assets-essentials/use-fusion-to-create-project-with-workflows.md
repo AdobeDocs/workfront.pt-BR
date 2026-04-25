@@ -83,7 +83,7 @@ In Workfront Fusion, if you want to create a project that includes Adobe Experie
 1. Add the **Workfront** > **Misc Action** module to your scenario.
 1. In the **Connection** field, select the Workfront connection that connects to the account this module will use.
 
-   For instructions on creating a connection, see [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) in the article Workfront modules.
+   For instructions on creating a connection, see [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) in the article Workfront modules.
 
    For instructions on creating the Client ID and Client Secret you will need to create a connection, see [Create an OAuth application](#create-an-oauth-application) in this article.
 
@@ -165,4 +165,4 @@ Você deve configurar um aplicativo OAuth no Workfront para a conexão deste mó
 
 Você usará essa ID do cliente e o segredo do cliente ao configurar a conexão do módulo no Fusion.
 
-Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] a [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) no artigo Módulos do Workfront.
+Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] a [!DNL Workfront Fusion]](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) no artigo Módulos do Workfront.
