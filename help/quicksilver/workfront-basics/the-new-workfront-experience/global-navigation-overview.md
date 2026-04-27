@@ -5,9 +5,9 @@ description: A barra de navegação superior, exibida na parte superior da tela 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
+source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '673'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 A barra de navegação superior, que aparece na parte superior da tela no [!DNL Adobe Workfront], permite que você localize e navegue facilmente para outras áreas da plataforma.
 
-![Barra de navegação superior](assets/global-navigation-bar.png)
+![Barra de navegação superior](assets/wf-top-navigation-2026.png)
 
 ## Ícone da [!UICONTROL Página inicial]
 
@@ -27,6 +27,86 @@ O ícone **[!UICONTROL Página inicial]** ![](assets/home-icon.png) direciona vo
 Por padrão, o ícone Início abre a área Início. Para obter mais informações sobre Página Inicial, consulte [Usar a área [!UICONTROL Página Inicial]](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 O administrador do Workfront pode personalizar o ícone Início para abrir uma página diferente criando um modelo de layout e atribuindo-o a você. Para obter mais informações, consulte [Personalizar a página de aterrissagem usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+
+## [!UICONTROL Menu principal]
+
+<!--
+>[!IMPORTANT]
+>
+>The Main Menu described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+-->
+
+O ícone **[!UICONTROL Menu Principal]** ![Menu Principal](assets/main-menu-icon-left-nav.png) abre o [!UICONTROL Menu Principal], de onde você pode navegar para uma área diferente do Workfront.
+
+As opções disponíveis no [!UICONTROL Menu Principal] dependem do seguinte:
+
+* **Configurações do modelo de layout**: para saber como um administrador [!DNL Workfront] pode modificar o [!UICONTROL Menu Principal] de um modelo de layout, consulte [Personalizar o [!UICONTROL Menu Principal] usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+
+* **Tipo de licença**: para saber as configurações padrão para diferentes tipos de licença, consulte [Compreender a navegação de um usuário Light-license](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Compreender a navegação de um usuário [!UICONTROL Work]-license](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+
+Cada ícone leva você a uma área diferente do Workfront.
+
+Para saber mais sobre cada área, consulte:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>[!UICONTROL Home]: <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">Usar a área [!UICONTROL Home]</a></li> 
+     <li>[!UICONTROL Portfólios]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Gerenciamento de Portfolio</a></li> 
+     <li>[!UICONTROL Programas]: <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">Criar e gerenciar programas </a></li> 
+     <li>[!UICONTROL Projetos]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Projetos: índice do artigo</a></li> 
+     <li>[!UICONTROL Relatórios]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Relatórios</a></li> 
+     <li>[!UICONTROL Painéis]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">Painéis</a></li> 
+     <li>[!UICONTROL Calendários]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Calendários: índice de artigo</a></li> 
+     <li>[!UICONTROL Recursos]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">Gerenciamento de Recursos </a></li> 
+     <li>[!UICONTROL Equipes]: <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">Criar e gerenciar equipes</a></li> 
+     <li>[!UICONTROL Usuários]: <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">Criar e gerenciar usuários</a></li> 
+    </ul> </td> 
+   <td> 
+    <ul> 
+     <li>[!UICONTROL Solicitações]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">Criar solicitações</a></li> 
+     <li>[!UICONTROL Folhas de Horas]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Folhas de Horas: índice do artigo</a></li> 
+     <li>[!UICONTROL Documentos]: <a href="../../documents/documents-overview.md" class="MCXref xref">Documentos</a></li> 
+     <li>[!UICONTROL Modelos]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Criar e gerenciar modelos de projeto: índice do artigo</a></li> 
+     <li>[!UICONTROL Boards]: <a href="/help/quicksilver/agile/boards-overview.md">Visão geral dos painéis</a></li>
+     <li>[!UICONTROL Blueprints]: <a href="/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md">Visão geral dos blueprints</a></li>
+     <li>[!UICONTROL Prioridades]: <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Introdução às Prioridades</a></li>
+     <li>[!UICONTROL Metas]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] visão geral</a></li> 
+     <li>[!UICONTROL Cenários]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">A visão geral do Planejador de Cenários</a></li> 
+     <li>[!UICONTROL Proof]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Prova: índice do artigo</a></li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Na parte inferior do Menu principal, você pode acessar o seguinte:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p class="bold">[!UICONTROL Setup]</p> </td> 
+   <td> <p>Ao clicar em <b>[!UICONTROL Setup]</b>, você será direcionado para a área [!UICONTROL Setup], onde será possível configurar diferentes aspectos da sua conta [!DNL Workfront]. Dependendo das configurações de acesso, o que pode ser configurado pode ser limitado.</p> <p>Para obter mais informações sobre a área [!UICONTROL Setup], consulte <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administração e configuração: índice do artigo</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p class="bold">[!UICONTROL Ajuda]</p> </td> 
+   <td> <p>Ao clicar em <b>[!UICONTROL Ajuda]</b>, você será direcionado para [!DNL Adobe Experience League], onde poderá acessar artigos de ajuda, encontrar treinamento, enviar um tíquete de suporte ao cliente e assim por diante.</p> <p>Para obter mais informações sobre o [!DNL Experience League] ou outros métodos de obter ajuda, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Seu guia rápido para encontrar ajuda no Adobe Workfront</a>.</p> </td> 
+  </tr>
+  <!--
+  <tr> 
+   <td> <p class="bold">[!UICONTROL Logout]</p> </td> 
+   <td>Clicking <b>[!UICONTROL Logout]</b> logs you out of [!DNL Workfront].</td> 
+  </tr>
+  -->
+ </tbody> 
+</table>
 
 ## Páginas fixadas
 
@@ -66,81 +146,7 @@ Para saber mais sobre os recentes, consulte [Exibir itens recentes](../../workfr
 
 ## Menu [!UICONTROL Pesquisar]
 
-O ícone **[!UICONTROL da]** Pesquisa![](assets/search-icon.png) no canto superior direito de [!DNL Workfront] permite executar uma pesquisa básica, restringir sua pesquisa a um objeto específico ou usar a [!UICONTROL Pesquisa Avançada] para procurar uma palavra-chave para um objeto específico e usar filtros para limitar sua pesquisa a campos específicos.
+O ícone ![](assets/search-icon.png) da **[!UICONTROL Pesquisa]** no canto superior direito de [!DNL Workfront] permite executar uma pesquisa básica, restringir sua pesquisa a um objeto específico ou usar a [!UICONTROL Pesquisa Avançada] para procurar uma palavra-chave para um objeto específico e usar filtros para limitar sua pesquisa a campos específicos.
 
 Para saber mais sobre a pesquisa, consulte [Pesquisa [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
-
-## [!UICONTROL Menu principal]
-
->[!IMPORTANT]
->
->O Menu Principal descrito nesta página se aplica apenas a organizações que ainda não foram integradas no [!DNL Adobe Experience Cloud].
->
-> Se sua organização foi integrada ao [!DNL Adobe Experience Cloud], consulte [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
-O ícone **[!UICONTROL Menu Principal]** ![Menu Principal](assets/main-menu-icon.png) abre o [!UICONTROL Menu Principal], de onde você pode navegar para uma área diferente do Workfront.
-
-As opções disponíveis no [!UICONTROL Menu Principal] dependem do seguinte:
-
-* **Configurações do modelo de layout**: para saber como um administrador [!DNL Workfront] pode modificar o [!UICONTROL Menu Principal] de um modelo de layout, consulte [Personalizar o [!UICONTROL Menu Principal] usando um modelo de layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-
-* **Tipo de licença**: para saber as configurações padrão para diferentes tipos de licença, consulte [Compreender a navegação de um usuário Light-license](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Compreender a navegação de um usuário [!UICONTROL Work]-license](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
-
-Cada ícone leva você a uma área diferente do Workfront.
-
-Para saber mais sobre cada área, consulte:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>[!UICONTROL Home]: <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">Usar a área [!UICONTROL Home]</a></li> 
-     <li>[!UICONTROL Portfólios]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Gerenciamento de Portfolio</a></li> 
-     <li>[!UICONTROL Programas]: <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">Criar e gerenciar programas </a></li> 
-     <li>[!UICONTROL Projetos]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Projetos: índice do artigo</a></li> 
-     <li>[!UICONTROL Relatórios]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Relatórios</a></li> 
-     <li>[!UICONTROL Painéis]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">Painéis</a></li> 
-     <li>[!UICONTROL Calendários]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Calendários: índice de artigo</a></li> 
-     <li>[!UICONTROL Recursos]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">Gerenciamento de Recursos </a></li> 
-     <li>[!UICONTROL Equipes]: <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">Criar e gerenciar equipes</a></li> 
-     <li>[!UICONTROL Usuários]: <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">Criar e gerenciar usuários</a></li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!UICONTROL Solicitações]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">Criar solicitações</a></li> 
-     <li>[!UICONTROL Folhas de Horas]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Folhas de Horas: índice do artigo</a></li> 
-     <li>[!UICONTROL Documentos]: <a href="../../documents/documents-overview.md" class="MCXref xref">Documentos</a></li> 
-     <li>[!UICONTROL Modelos]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Criar e gerenciar modelos de projeto: índice do artigo</a></li> 
-     <li>[!UICONTROL Metas]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] visão geral</a></li> 
-     <li>[!UICONTROL Cenários]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">A visão geral do Planejador de Cenários</a></li> 
-     <li>[!UICONTROL Proof]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Prova: índice do artigo</a></li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-Na parte inferior do Menu principal, você pode acessar o seguinte:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p class="bold">[!UICONTROL Setup]</p> </td> 
-   <td> <p>Ao clicar em <b>[!UICONTROL Setup]</b>, você será direcionado para a área [!UICONTROL Setup], onde será possível configurar diferentes aspectos da sua conta [!DNL Workfront]. Dependendo das configurações de acesso, o que pode ser configurado pode ser limitado.</p> <p>Para obter mais informações sobre a área [!UICONTROL Setup], consulte <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administração e configuração: índice do artigo</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p class="bold">[!UICONTROL Ajuda]</p> </td> 
-   <td> <p>Ao clicar em <b>[!UICONTROL Ajuda]</b>, você será direcionado para [!DNL Adobe Experience League], onde poderá acessar artigos de ajuda, encontrar treinamento, enviar um tíquete de suporte ao cliente e assim por diante.</p> <p>Para obter mais informações sobre o [!DNL Experience League] ou outros métodos de obter ajuda, consulte <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Seu guia rápido para encontrar ajuda no Adobe Workfront</a>.</p> </td> 
-  </tr>
-
-<tr> 
-   <td> <p class="bold">[!UICONTROL Logout]</p> </td> 
-   <td>Ao clicar em <b>[!UICONTROL Logout]</b>, você será desconectado de [!DNL Workfront].</td> 
-  </tr> 
- </tbody> 
-</table>
 

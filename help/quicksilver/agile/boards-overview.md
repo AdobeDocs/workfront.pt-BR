@@ -9,9 +9,9 @@ feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Com os painéis de discussão, você pode:
 
 Para obter informações sobre como usar os recursos básicos de quadros, consulte [Introdução a quadros: índice de artigo](../agile/get-started-with-boards/get-started-with-boards.md). Para obter informações sobre as ferramentas de planejamento Agile nos quadros, consulte [Visão geral das ferramentas de planejamento Agile](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
-Para obter informações sobre como usar um quadro em um projeto, consulte [Gerenciar um projeto na Exibição Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Para obter informações sobre como usar um quadro em um projeto, consulte [Gerenciar um projeto Agile no modo de exibição de Quadro](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 Você também pode acessar quadros no aplicativo móvel. Para obter informações, consulte [[!DNL Adobe Workfront] [!UICONTROL Quadros] para celular](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
