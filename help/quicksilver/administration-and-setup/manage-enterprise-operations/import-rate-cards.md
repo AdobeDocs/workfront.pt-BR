@@ -7,9 +7,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: aa774419e65e9e4a5785382d3cb2b22bdb0389c9
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1812'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Para obter mais informações sobre cartões de taxa, consulte [Gerenciar cartõ
 * A sequência de cartões de taxa na guia RATE_RTCRD deve corresponder à ordem dos cartões na guia RTCRD (1 para o primeiro, 2 para o segundo etc.).
 * A Data inicial e a Data final devem seguir os formatos permitidos.
 * Os cartões de taxa podem ser importados sem taxas e atualizados posteriormente.
-* Os atributos personalizados (agência, centro de custos etc.) podem variar. Consulte o administrador do sistema para obter os requisitos exatos.
+* Atributos personalizados (agência, centro de custos etc.) pode variar. Consulte o administrador do sistema para obter os requisitos exatos.
 * As linhas excluídas no modelo não excluirão registros existentes no sistema.
 
 ## Requisitos de acesso
@@ -144,72 +144,72 @@ Certifique-se de que as datas não se sobreponham, a menos que seja o esperado.
 
      Para obter mais informações, consulte [Requisitos de formatação de data](#date-formatting-requirements), abaixo.
 
-   * **Data de Término** (opcional): a data em que a taxa deixa de ser efetiva.
+   * **End Date** (optional): The date when the rate stops being effective.
 
-     Essa data deve seguir os mesmos formatos compatíveis que a data inicial.
+     This date must follow the same supported formats as the start date.
 
      Para obter mais informações, consulte [Requisitos de formatação de data](#date-formatting-requirements), abaixo.
 
-   * **Valor** (opcional): o valor da taxa numérica, por exemplo, 150. O valor padrão é 0.
-   * **Moeda** (opcional): a moeda da taxa, por exemplo, USD, EUR, GBP. O padrão é a moeda do sistema.
-   * **Bloqueado** (opcional): indica se a taxa está bloqueada. Os valores válidos são Verdadeiro ou Falso.
-   * **Atributos** (opcional/personalizado): as últimas colunas (Agência, Local, Centro de Custos, etc.) são Atributos de Taxa que diferem de acordo com a configuração do cliente. Esses campos são personalizáveis e podem variar de acordo com o ambiente do cliente.
+   * **Value** (optional): The numeric rate value, for example 150. O valor padrão é 0.
+   * **Currency** (optional): The currency for the rate, for example USD, EUR, GBP. The default is the system currency.
+   * **Locked** (optional): Indicates if the rate is locked. Valid values are True or False.
+   * **Attributes** (optional / custom): The last columns (Agency, Location, Cost Center, etc.) are Rate Attributes that differ by customer configuration. These are customizable fields and may vary per customer environment.
 
-     Exemplo: Agência = &quot;1: Agência,&quot; Local = &quot;Chicago,&quot; Centro de Custo = &quot;22: Centro de Custo&quot;
+     Example: Agency = &quot;1: Agency,&quot; Location = &quot;Chicago,&quot; Cost Center = &quot;22: Cost Center&quot;
 
-### Preencha a guia RSALS (Rate Card Alias)
+### Fill out the RSALS (Rate Card Alias) tab
 
-Crie e liste todos os aliases nesta guia. Cada linha representa um alias.
+Create and list all of the aliases on this tab. Each row represents one alias.
 
-Quando o cartão de taxa é anexado a um projeto, o alias aparece em informações como atribuições de espaço reservado, despesas e relatórios, em vez do nome da função de trabalho interna. Somente um alias pode existir para cada combinação de função de trabalho e atributo em um único cartão de taxa.
+When the rate card is attached to a project, the alias appears on information such as placeholder assignments, expenses, and reports, instead of the internal job role name. Only one alias can exist for each job role and attribute combination within a single rate card.
 
-Um alias é adicionado ao sistema, mas ele não está conectado a uma função de trabalho com base nas informações desta guia.
+An alias is added to the system, but it is not connected to a job role based on the information on this tab.
 
-![Guia RSALS no arquivo de modelo de importação de cartão de taxa](assets/rsals-tab-rate-card-import.png)
+![RSALS tab on rate card import template file](assets/rsals-tab-rate-card-import.png)
 
-1. Insira o nome de um alias em cada linha.
+1. Enter the name of an alias on each row.
 
-   Informe apenas um apelido por linha: um apelido de função de trabalho, um apelido de categoria de recurso não mão de obra ou um apelido de tipo de despesa.
+   Only enter one alias name per row: a job role alias, a non-labor resource category alias, or an expense type alias.
 
-### Preencha a guia RCRMET_RTCRD_RSALS (Metadados de Cartão de Taxa)
+### Fill out the RCRMET_RTCRD_RSALS (Rate Card Metadata) tab
 
-Nesta guia você pode definir as conexões entre recursos e aliases para um cartão de taxa específico.
+On this tab you can define the connections between resources and aliases for a specific rate card.
 
-![Guia RCRMET_RTCRD_RSALS no arquivo de modelo de importação de cartão de taxa](assets/rcrmet-tab-rate-card-import.png)
+![RCRMET_RTCRD_RSALS tab on rate card import template file](assets/rcrmet-tab-rate-card-import.png)
 
-1. Insira as informações em cada linha:
+1. Enter the information on each row:
 
-   * **Cartão de Taxa** (obrigatório): o nome ou o número de sequência do cartão de taxa ao qual o recurso e o alias pertencem. O cartão de taxa deve estar listado na guia RTCRD.
+   * **Rate Card** (required): The name or the sequence number of the rate card that the resource and alias belong to. The rate card must be listed on the RTCRD tab.
 
-     Para um número de sequência: Se o cartão de taxa foi o primeiro que você listou na guia RTCRD (linha 2), digite 1. Se for o segundo, digite 2 e assim por diante.
+     For a sequence number: If the rate card was the first one you listed on the RTCRD tab (row 2), enter 1. Se for o segundo, digite 2 e assim por diante.
 
-   * **Função de Trabalho** (necessária se o Tipo de Despesa e a Categoria de Recurso Não Mão-de-Obra não forem usados): a função de trabalho à qual o alias está conectado. Pode ser o nome ou a ID da função de trabalho. A importação reconhecerá ambos.
+   * **Job Role** (required if Expense Type and Non-Labor Resource Category are not used): The job role that the alias is connected to. Pode ser o nome ou a ID da função de trabalho. A importação reconhecerá ambos.
 
      Exemplo: Designer ou _68c0234e00000541dd8c0757723daa68_
 
-   * **Tipo de Despesa** (necessário se a Função de Trabalho e a Categoria de Recurso Não Mão-de-Obra não forem usadas): o tipo de despesa ao qual o alias está conectado. Pode ser o nome do tipo de despesa ou a ID do tipo de despesa. A importação reconhecerá ambos.
+   * **Expense Type** (required if Job Role and Non-Labor Resource Category are not used): The expense type that the alias is connected to. This can be either the expense type name or the expense type ID. A importação reconhecerá ambos.
 
-     Exemplo: Viagem ou _68c0234e00000541dd8c0757723daa68_
+     Example: Travel or _68c0234e00000541dd8c0757723daa68_
 
-   * **Categoria de Recursos Não Mão-de-Obra** (necessária se a Função de Trabalho e o Tipo de Despesa não forem usados): A categoria de recursos não mão de obra à qual o alias está conectado. Pode ser o nome da categoria ou a ID da categoria. A importação reconhecerá ambos.
+   * **Non-Labor Resource Category** (required if Job Role and Expense Type are not used): The non-labor resource category that the alias is connected to. Pode ser o nome da categoria ou a ID da categoria. A importação reconhecerá ambos.
 
      Exemplo: Câmera ou _68c0234e00000541dd8c0757723daa68_
 
      >[!IMPORTANT]
      >
-     >Você não pode inserir todas as três colunas da **Função**, **Tipo de Despesa** e **Categoria de Recursos Não Mão-de-Obra**. Um é obrigatório.
+     >You cannot enter all three of the **Job Role**, **Expense Type**, and **Non-Labor Resource Category** columns. Um é obrigatório.
 
-   * **Alias do Recurso**: o alias inserido na guia RSALS.
+   * **Resource Alias**: The alias entered on the RSALS tab.
 
-### Requisitos de formatação de data
+### Date formatting requirements
 
-Ao preparar os dados do cartão de taxa para importação, você deve garantir que as colunas de data estejam formatadas como **Geral**, não como **Data**.
+When preparing rate card data for importing, you must ensure that the date columns are formatted as **General**, not as **Date**.
 
-Se as colunas forem definidas no formato Data, o sistema poderá interpretar incorretamente os valores durante o processo de importação, resultando em erros ou uploads com falha. O uso do formato Geral preserva a representação numérica ou de texto bruta da data, permitindo que o sistema valide e aplique os valores corretamente.
+If the columns are set to Date format, the system may misinterpret values during the import process, leading to errors or failed uploads. Using the General format preserves the raw numeric or text representation of the date, allowing the system to correctly validate and apply the values.
 
-Seguir essas etapas evitará problemas desnecessários e garantirá uma importação perfeita e precisa de dados de taxa.
+Following these steps will prevent unnecessary issues and ensure a smooth and accurate import of rate data.
 
-1. Antes de salvar ou fazer upload do arquivo, selecione as colunas de data na planilha.
+1. Before saving or uploading the file, select the date columns in the spreadsheet.
 1. Alterar o formato da coluna para **Geral**.
 1. Verifique se os valores ainda são exibidos corretamente (por exemplo, 01/01/2025 ou 2025-01-01).
 
@@ -231,6 +231,16 @@ Seguir essas etapas evitará problemas desnecessários e garantirá uma importa�
 ## Atualizar cartões de taxa existentes
 
 Você pode atualizar as taxas em seus cartões de taxa existentes usando o mesmo modelo do Excel e fazer upload dessas alterações para o Workfront.
+
+Somente a guia RATE_RTCRD (Configuração de Taxas) é necessária para atualizar taxas existentes.
+
+>[!NOTE]
+>
+>As taxas de upload de um cartão de taxa existente substituem todas as funções e taxas de trabalho atuais no cartão de taxa.
+>
+>Por exemplo, se você tiver cinco funções de trabalho com taxas no cartão de taxa existente e o arquivo do Excel tiver uma função de trabalho, o cartão de taxa terá uma função de trabalho após o upload. Para manter as outras 5 funções de trabalho e suas taxas no cartão de taxa, você deve incluí-las no arquivo do Excel.
+
+Para atualizar cartões de taxa existentes:
 
 {{step-1-to-setup}}
 
