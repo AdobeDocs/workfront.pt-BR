@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
+source-git-commit: da46d6784350c8394330799fe2177e82d3519041
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1463'
 ht-degree: 8%
 
 ---
@@ -93,7 +93,7 @@ Considere o seguinte ao usar o Preenchimento de formulário fornecido pela IA
 >
 >O Preenchimento de formulário fornecido pela IA é ativado no nível da organização e não pode ser ativado ou desativado para usuários ou níveis de acesso específicos.
 
-1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront ou (se disponível) clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
+1. Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e clique no ícone **[!UICONTROL Instalação]** ![Instalação](/help/_includes/assets/gear-icon-setup.png).
 1. Clique em **Sistema**, em Sistema, clique em **Preferências**.
 1. Na seção de preferência IA, verifique se **Habilitar IA** está ativado.
 1. Ativar/desativar **Preenchimento de Formulário de IA**.

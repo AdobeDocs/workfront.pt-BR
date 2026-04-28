@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d1173e35a2455610474664f93159b97a54957488
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1224'
 ht-degree: 3%
 
 ---
@@ -124,7 +124,7 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
 
 1. Siga um destes procedimentos:
 
-   * Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo ou no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, se disponível, clique em **Projetos** e expanda **Novo Projeto**.
+   * Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e, em seguida, clique em **Projetos** e expanda **Novo Projeto**.
    * Vá para um portfólio e expanda **Novo projeto**.
 
      >[!TIP]
@@ -153,11 +153,20 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
 
    ![Selecione um modelo favorito](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
-   Ou
-
-   Faça o seguinte:
+   Ou faça o seguinte:
 
    1. Clique em **Novo projeto do modelo**.
+
+      >[!NOTE]
+      >
+      >* Usar um modelo de armazenamento corporativo da Adobe cria um projeto de armazenamento corporativo da Adobe.
+      >
+      >* O uso de um modelo de armazenamento Workfront cria um projeto de armazenamento Workfront.
+      >
+      >* Quando você usa um modelo de armazenamento corporativo da Adobe de um portfólio ou programa de armazenamento da Workfront, o projeto é um projeto de armazenamento corporativo da Adobe e o portfólio ou programa também é convertido em objetos de armazenamento corporativo da Adobe. Todos os outros projetos de armazenamento da Workfront no mesmo portfólio ou programa permanecem inalterados.
+      >
+      >Para obter mais informações, consulte [Habilitar o armazenamento corporativo da Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
    1. No campo **Pesquisar Modelos**, comece digitando o nome de um modelo e clique nele quando ele for exibido na lista.
    1. Revise os detalhes do modelo à direita.
 
@@ -169,7 +178,7 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
       * O número de todas as tarefas no modelo
       * Os nomes dos formulários personalizados do modelo
 
-   1. (Opcional) Passe o mouse sobre o nome de um modelo no painel esquerdo e clique no **ícone de** Favoritos **&#x200B;**&#x200B;![ícone de Favoritos](assets/favorites-icon-small.png) para marcá-lo como um favorito para uso futuro.
+   1. (Opcional) Passe o mouse sobre o nome de um modelo no painel esquerdo e clique no **ícone de** Favoritos **** ![ícone de Favoritos](assets/favorites-icon-small.png) para marcá-lo como um favorito para uso futuro.
 
       Ou
 

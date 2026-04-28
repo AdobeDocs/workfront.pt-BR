@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: da46d6784350c8394330799fe2177e82d3519041
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '550'
 ht-degree: 10%
 
 ---
@@ -106,7 +106,7 @@ Você pode criar um projeto na área **Projetos** do **Menu Principal**, ou na �
 1. Faça login no Workfront.
 1. Siga um destes procedimentos:
 
-   * Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo ou no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon.png) no canto superior direito do Adobe Workfront, se disponível, clique em **Projetos** e expanda **Novo Projeto**.
+   * Clique no ícone **[!UICONTROL Menu Principal]** ![Menu Principal](/help/_includes/assets/main-menu-icon-left-nav.png) no canto superior esquerdo e, em seguida, clique em **Projetos** e expanda **Novo Projeto**.
    * Vá para um portfólio e expanda **Novo projeto**.
    * Vá para um programa e expanda **Novo Projeto**.
    * Se você for um administrador de grupo, poderá criar um projeto na seção **Projetos** de um grupo que gerencia. Para obter mais informações, consulte [Criar e modificar projetos de um grupo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).

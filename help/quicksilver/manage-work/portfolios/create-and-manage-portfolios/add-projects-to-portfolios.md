@@ -8,7 +8,7 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fee6b71eeb0ca79703a2a9e29a14040b91cb7387
+source-git-commit: da46d6784350c8394330799fe2177e82d3519041
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 4%
@@ -35,15 +35,18 @@ Considere o seguinte ao adicionar projetos a portfólios:
 
 >[!CAUTION]
 >
->   As permissões herdadas podem não ser aplicadas corretamente quando usadas em um grande número de objetos filho.
+>As permissões herdadas podem não ser aplicadas corretamente quando usadas em um grande número de objetos filho.
 >   
->   Para ajudar a evitar problemas de permissões herdadas, recomendamos o seguinte:
+>Para ajudar a evitar problemas de permissões herdadas, recomendamos o seguinte:
 >
->   * Limitar o número de objetos filho (projetos) em um único pai (portfólio ou programa). Recomendamos no máximo 10.000 projetos por portfólio ou programa.
->   * Reduza a profundidade da herança aplicando permissões em um objeto de nível inferior.
+>* Limitar o número de objetos filho (projetos) em um único pai (portfólio ou programa). Recomendamos no máximo 10.000 projetos por portfólio ou programa.
 >
->     Por exemplo, aplique permissões diretamente no nível do projeto, em vez de confiar nas permissões herdadas do portfólio para o programa e, em seguida, para o projeto.
->   * Divida os programas para conter menos projetos, o que reduz a complexidade das permissões.
+>* Reduza a profundidade da herança aplicando permissões em um objeto de nível inferior.
+>
+>  Por exemplo, aplique permissões diretamente no nível do projeto, em vez de confiar nas permissões herdadas do portfólio para o programa e, em seguida, para o projeto.
+>
+>* Divida os programas para conter menos projetos, o que reduz a complexidade das permissões.
+>
 
 
 ## Requisitos de acesso
@@ -110,15 +113,15 @@ Old:
 
 ## Adicionar um projeto a um portfólio
 
-1. Go to a portfolio, then click **[!UICONTROL Projects]** in the left panel.
+1. Vá para um portfólio e clique em **[!UICONTROL Projetos]** no painel esquerdo.
 
-   ![Portfolio with projects](assets/qs-portfolio-with-projects-350x90.png)
+   ![Portfolio com projetos](assets/qs-portfolio-with-projects-350x90.png)
 
-1. Click **[!UICONTROL New Project]** and select a method for adding a project.
+1. Clique em **[!UICONTROL Novo projeto]** e selecione um método para adicionar um projeto.
 
    >[!TIP]
    >
-   >You cannot add a project when you view the list of projects in the [!UICONTROL Milestone] view.
+   >Não é possível adicionar um projeto ao exibir a lista de projetos na exibição [!UICONTROL Marco].
 
    Selecione entre as seguintes opções:
 
@@ -127,42 +130,42 @@ Old:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Existing Project]</td> 
-      <td> <p>Add a project that has already been created.</p> </td> 
+      <td role="rowheader">[!UICONTROL Projeto Existente]</td> 
+      <td> <p>Adicione um projeto já criado.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL New Project]</td> 
-      <td> <p>Add a new project. </p> <p>For more information about creating a new project, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>. </p> </td> 
+      <td role="rowheader">[!UICONTROL Novo Projeto]</td> 
+      <td> <p>Adicione um novo projeto. </p> <p>Para obter mais informações sobre como criar um novo projeto, consulte <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Criar um projeto</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Import a Project from [!DNL MS Project]] </td> 
-      <td> <p>Add a project that you previously exported from [!DNL MS Project] and have saved on your computer. </p> <p>For more information about creating a new project by importing it from [!DNL Microsoft Project], see <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Import a project from [!DNL Microsoft Project]</a>.</p> </td> 
+      <td role="rowheader">[!UICONTROL Importar um Projeto de [!DNL MS Project]] </td> 
+      <td> <p>Adicione um projeto que você exportou anteriormente do [!DNL MS Project] e salvou no computador. </p> <p>Para obter mais informações sobre como criar um novo projeto importando-o de [!DNL Microsoft Project], consulte <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Importar um projeto de [!DNL Microsoft Project]</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Request Project]</td> 
-      <td> <p>Request that a project is approved.</p> <p>For information about requesting projects, see <a href="../../../manage-work/projects/create-projects/request-project.md">Requesting a Project</a>. </p> </td> 
+      <td role="rowheader">[!UICONTROL Solicitar Projeto]</td> 
+      <td> <p>Solicitar que um projeto seja aprovado.</p> <p>Para obter informações sobre a solicitação de projetos, consulte <a href="../../../manage-work/projects/create-projects/request-project.md">Solicitando um projeto</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL New from Template]</td> 
-      <td> <p>Add a new project using an existing template. </p> <p>For more information about creating a project from a template, see <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
+      <td role="rowheader">[!UICONTROL Novo do Modelo]</td> 
+      <td> <p>Adicione um novo projeto usando um modelo existente. </p> <p>Para obter mais informações sobre como criar um projeto a partir de um modelo, consulte <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Criar um projeto usando um modelo</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    ![Lista suspensa de novos projetos](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Conditional) If you selected to add an existing project, the **Add Projects** box opens. <!--check this after UI changes-->
+1. (Condicional) Se você optou por adicionar um projeto existente, a caixa **Adicionar projetos** será aberta. <!--check this after UI changes-->
 
-   ![Add existing project](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
+   ![Adicionar projeto existente](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
-1. Start typing the name of a project in the **[!UICONTROL Add Projects to this Portfolio]** field, then click them when they appear in the list.  <!--check this after UI changes-->
+1. Comece digitando o nome de um projeto no campo **[!UICONTROL Adicionar projetos a este Portfolio]** e clique neles quando eles aparecerem na lista.  <!--check this after UI changes-->
 
-   You can add more than one project.
+   Você pode adicionar mais de um projeto.
 
-1. (Optional) Click the **X** icon to the right of the project name to remove it from the list, if you decide not to add it to the portfolio.
+1. (Opcional) Clique no ícone **X** à direita do nome do projeto para removê-lo da lista, caso decida não adicioná-lo ao portfólio.
 
    <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
-1. Click **[!UICONTROL Add Projects]**. <!--check this after UI changes-->
+1. Clique em **[!UICONTROL Adicionar Projetos]**. <!--check this after UI changes-->
 
-   The project or projects you selected are now associated with the portfolio.
+   O projeto ou projetos selecionados agora estão associados ao portfólio.

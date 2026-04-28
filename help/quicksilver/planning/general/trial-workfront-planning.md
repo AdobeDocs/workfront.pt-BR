@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: d1173e35a2455610474664f93159b97a54957488
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2330'
 ht-degree: 3%
 
 ---
@@ -207,6 +207,19 @@ Para obter mais informações sobre como usar o Workfront Planning, consulte [In
 
 Para obter as práticas recomendadas sobre como implementar o Workfront Planning, consulte [Práticas recomendadas do Adobe Workfront Planning: índice do artigo](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
+## Enviar feedback sobre o Planning
+
+Para enviar comentários sobre sua experiência com o Workfront Planning:
+
+1. Faça logon no Workfront e abra qualquer página.
+1. Localize a breve pesquisa no canto inferior direito de qualquer página do Workfront, responda às perguntas e clique em **Avançar**.
+
+   ![Pesquisa de avaliação promocional](assets/promo-trial-survey.png)
+
+1. No segundo slide, responda às perguntas e clique em **Enviar**.
+
+   Seu feedback é enviado à nossa equipe de gerenciamento de produtos.
+
 
 ## Experimente o planejamento do Workfront por meio da avaliação gratuita
 
@@ -215,11 +228,11 @@ Você pode revisar espaços de trabalho de amostra do Planning e seus objetos, b
 1. (Condicional e obrigatório) Como administrador do Workfront, assine o contrato de avaliação gratuita.
 
    Para obter informações, consulte a seção [Inscrever-se na avaliação gratuita do Adobe Workfront Planning](#enroll-in-the-adobe-workfront-planning-free-trial) neste artigo.
-1. (Condicional) Após a assinatura do contrato de avaliação por um administrador do Workfront, clique no ícone **do** Menu Principal![](assets/main-menu-shell.png) e em um dos seguintes itens para acessar a área **Planejamento**:
+1. (Condicional) Após a assinatura do contrato de avaliação por um administrador do Workfront, clique no ícone ![](assets/main-menu-shell.png) do **Menu Principal** e em um dos seguintes itens para acessar a área **Planejamento**:
 
    * **Planejamento**. O ícone exibe um rótulo de **Avaliação** ao lado dele.
    * **Projetos**, **Solicitações**, **Calendários** e clique em **Explorar calendários da campanha**
-   * **Portfólios**, **Programas** ou de um portfólio ou programa    depois clique em **Explorar hierarquias personalizadas**.
+   * **Portfólios**, **Programas**, ou de um portfólio ou programa, clique em **Explorar hierarquias personalizadas**.
 
    A área **Planning** é aberta na guia **Espaços de trabalho de amostra**.
 1. Revise os seguintes espaços de trabalho na guia **Espaços de trabalho de amostra**:
