@@ -76,7 +76,7 @@ Para configurar como as histórias são estimadas para sua equipe Agile:
 
 {{step1-to-team}}
 
-1. Clique no ícone ![](assets/switch-team-icon.png) Trocar Equipes ]**, em seguida, selecione uma nova equipe no menu suspenso ou pesquise por uma equipe na caixa de pesquisa.**[!UICONTROL 
+1. Clique no ícone ![](assets/switch-team-icon.png) Trocar Equipes **, em seguida, selecione uma nova equipe no menu suspenso ou pesquise por uma equipe na caixa de pesquisa.**
 1. Selecione a equipe Agile que você deseja gerenciar.
 1. Clique no menu ![](assets/more-menu.png) **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 
