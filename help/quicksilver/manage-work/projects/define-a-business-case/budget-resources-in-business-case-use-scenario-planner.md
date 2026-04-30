@@ -1,18 +1,18 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Recursos de orçamento no Business Case usando o Planejador de Cenários
+title: Recursos orçamentários no business case usando o planejador de cenários
 description: Como parte do planejamento de recursos, você pode usar o Planejador de cenários do Adobe Workfront para orçar as funções de trabalho necessárias para concluir o trabalho em um projeto ao criar o business case.
 author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 1%
+source-wordcount: '961'
+ht-degree: 7%
 
 ---
 
-# Recursos de orçamento no Business Case usando o Planejador de Cenários
+# Recursos orçamentários no business case usando o planejador de cenários
 
 <!--Audited: 06/2025-->
 
@@ -22,7 +22,7 @@ Para obter mais informações sobre como criar um business case, consulte [Criar
 
 >[!TIP]
 >
->As informações de função de trabalho para a iniciativa vinculada ao projeto inserido no Planejador de Cenários no nível do sistema ficam visíveis na área Orçamento de Recursos do business case do projeto quando você publica a iniciativa. O Planejador de cenários está disponível somente na nova experiência do Adobe Workfront e requer uma licença adicional. Para obter informações sobre o Planejador de cenários do Workfront, consulte [A visão geral do Planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
+>As informações de função de trabalho para a iniciativa vinculada ao projeto inserido no Planejador de Cenários no nível do sistema ficam visíveis na área Orçamento de Recursos do business case do projeto quando você publica a iniciativa. O Planejador de cenários está disponível somente na nova experiência do Adobe Workfront e requer uma licença adicional. Para obter informações sobre o planejador de cenários do Workfront, consulte [Visão geral do planejador de cenários](../../../scenario-planner/scenario-planner-overview.md).
 
 Você também pode estimar recursos no business case usando o Planejador de recursos. Para obter mais informações, consulte:
 
@@ -35,7 +35,7 @@ Você também pode estimar recursos no business case usando o Planejador de recu
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo. 
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -111,9 +111,9 @@ Antes de começar, você deve fazer o seguinte:
 >Você pode estimar seus recursos por um período de 15 anos. Se você orçar recursos para um projeto com duração superior a 15 anos, as informações de orçamento podem não ser precisas.
 
 <!--
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+> >
 >(is this still accurate for the Scenario Planner?)>
-></MadCap:conditionalText>>
+> >
 -->
 
 1. Vá para o projeto para o qual deseja orçar recursos.

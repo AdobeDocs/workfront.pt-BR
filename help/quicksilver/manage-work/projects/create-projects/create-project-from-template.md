@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d1173e35a2455610474664f93159b97a54957488
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 3%
+source-wordcount: '1388'
+ht-degree: 2%
 
 ---
 
@@ -156,6 +156,17 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
    Ou faça o seguinte:
 
    1. Clique em **Novo projeto do modelo**.
+   1. (Opcional) No campo **Modelos de Pesquisa**, comece digitando o nome de um modelo e clique nele quando ele for exibido na lista.
+   1. Clique no nome de um dos seguintes tipos de modelos para escolhê-los:
+
+      * Um modelo de armazenamento do Workfront
+
+        Os modelos de armazenamento Workfront exibem um ícone de armazenamento herdado ![ícone de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado do nome.
+
+        Os documentos no modelo e nos futuros projetos serão armazenados no armazenamento do Workfront.
+      * Um modelo de armazenamento do Adobe
+
+        Os documentos no modelo e nos futuros projetos serão armazenados no armazenamento corporativo do Adobe.
 
       >[!NOTE]
       >
@@ -165,12 +176,11 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
       >
       >* Quando você usa um modelo de armazenamento corporativo da Adobe de um portfólio ou programa de armazenamento da Workfront, o projeto é um projeto de armazenamento corporativo da Adobe e o portfólio ou programa também é convertido em objetos de armazenamento corporativo da Adobe. Todos os outros projetos de armazenamento da Workfront no mesmo portfólio ou programa permanecem inalterados.
       >
-      >Para obter mais informações, consulte [Habilitar o armazenamento corporativo da Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+      > Nem todos os clientes têm ambos os tipos de armazenamento de documentos.
+      >
+      >Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-   1. No campo **Pesquisar Modelos**, comece digitando o nome de um modelo e clique nele quando ele for exibido na lista.
-   1. Revise os detalhes do modelo à direita.
-
-      Os detalhes do template incluem o seguinte:
+   1. Revise os seguintes detalhes do modelo à direita:
 
       * Duração do modelo
       * Proprietário do modelo
@@ -178,7 +188,7 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
       * O número de todas as tarefas no modelo
       * Os nomes dos formulários personalizados do modelo
 
-   1. (Opcional) Passe o mouse sobre o nome de um modelo no painel esquerdo e clique no **ícone de** Favoritos **&#x200B;**&#x200B;![ícone de Favoritos](assets/favorites-icon-small.png) para marcá-lo como um favorito para uso futuro.
+   1. (Opcional) Passe o mouse sobre o nome de um modelo no painel esquerdo e clique no **ícone de** Favoritos **** ![ícone de Favoritos](assets/favorites-icon-small.png) para marcá-lo como um favorito para uso futuro.
 
       Ou
 
@@ -216,9 +226,17 @@ Você pode criar um projeto na área Projetos do menu principal, ou na área Pro
 
    Todos os detalhes definidos no modelo são associados automaticamente ao projeto recém-criado se você não os alterou na etapa anterior.
 
+   Uma pasta de documentos com o mesmo nome do projeto é criada automaticamente para projetos de armazenamento Adobe na seção Documentos do projeto.
+
 ## Crie um projeto a partir de um modelo na área Modelos
 
 Em vez de começar na área Projetos, você pode criar um projeto a partir de um modelo começando pelo modelo.
+
+>[!NOTE]
+>
+>Os modelos associados ao armazenamento de documentos do Workfront criam projetos herdados de armazenamento do Workfront. Os modelos associados ao armazenamento de documentos corporativos da Adobe criam projetos de armazenamento Adobe. Nem todos os clientes têm os dois tipos de armazenamento.
+>
+>Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 {{step1-to-templates}}
 
@@ -242,3 +260,5 @@ Em vez de começar na área Projetos, você pode criar um projeto a partir de um
 1. Clique em **Criar projeto**.
 
    Todos os detalhes definidos no modelo são associados automaticamente ao projeto recém-criado se você não os alterou na etapa anterior.
+
+   Uma pasta de documentos com o mesmo nome do projeto é criada automaticamente para projetos de armazenamento Adobe na seção Documentos do projeto.

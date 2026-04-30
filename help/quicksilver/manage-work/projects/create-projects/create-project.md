@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: da46d6784350c8394330799fe2177e82d3519041
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1614'
 ht-degree: 3%
 
 ---
@@ -169,10 +169,14 @@ Considere o seguinte:
 
 * Onde os documentos são armazenados em um projeto e seus objetos filho (tarefas e problemas) dependem do que o administrador do Workfront escolhe como padrão para Preferências de armazenamento na área Preferências do sistema da Configuração. Dependendo de onde você armazena documentos na instância do Workfront, é possível criar os seguintes tipos de projetos:
 
-   * Projetos de armazenamento herdado
+   * Projetos de armazenamento herdados do Workfront
    * Projetos de armazenamento corporativo da Adobe.
 
   Para obter mais informações, consulte [Habilitar o armazenamento corporativo da Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+* Ao criar um projeto de armazenamento corporativo, uma pasta de documentos com o mesmo nome do projeto é criada para a seção **Documentos** do projeto. Depois de adicionar tarefas ao projeto, pastas com o nome da tarefa são adicionadas à seção **Documentos** de cada tarefa.
+
+Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Criar um projeto do zero
 
@@ -200,11 +204,11 @@ Considere o seguinte:
 
      >[!NOTE]
      >
-     >Quando você cria um projeto de armazenamento corporativo a partir de um portfólio ou programa de armazenamento herdado, o portfólio ou programa também é convertido em objetos de armazenamento corporativo. Todos os outros projetos de armazenamento herdados no mesmo portfólio ou programa permanecem inalterados.
+     >Quando você cria um projeto de armazenamento corporativo a partir de um portfólio ou programa de armazenamento da Workfront, o portfólio ou programa também é convertido em objetos de armazenamento corporativo. Todos os outros projetos de armazenamento da Workfront no mesmo portfólio ou programa permanecem inalterados.
 
      Um projeto é criado e seu nome padrão segue os seguintes padrões, dependendo de qual armazenamento o Workfront usa para documentos:
 
-      * **Projeto sem título** para um projeto de armazenamento do Workfront.
+      * **Projeto sem título** para um projeto Workfront-storage.
 
         Um projeto de armazenamento Workfront exibe um **ícone de armazenamento herdado do Workfront** ![ícone de projeto de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado de seu nome.
 
@@ -212,7 +216,7 @@ Considere o seguinte:
 
         >[!IMPORTANT]
         >
-        >Os projetos que usam o armazenamento do Adobe devem ter nomes exclusivos.
+        >Os projetos que usam o armazenamento corporativo Adobe devem ter nomes exclusivos.
 
 
 1. No cabeçalho do projeto, atualize o nome do projeto. Pressione Enter para salvar o nome.

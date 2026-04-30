@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 5%
+source-wordcount: '924'
+ht-degree: 4%
 
 ---
 
@@ -112,6 +112,9 @@ Considere o seguinte ao mover problemas que contêm documentos ou estão associa
 * **Quando um problema está associado a uma fila de solicitações:** Quando você move um problema para outro objeto e o problema está associado a uma fila de solicitações, o problema movido não está mais associado à fila original da qual o primeiro problema se originou.
 * **Quando um documento é anexado ao problema:** Quando você move um problema para outro objeto e o problema tem um documento anexado a ele, o documento, suas versões e provas também são movidos para o novo problema. As aprovações associadas ao documento não são movidas.
 * **Quando um problema está vinculado a um documento ou a uma pasta:** Quando você move um problema que tem documentos ou pastas vinculados a um serviço de terceiros, como o Google Drive, os links para os documentos são movidos com o problema.
+* **Quando você move problemas entre projetos com diferentes tipos de armazenamento**: não é possível copiar um problema de um projeto Workfront-storage para um projeto Adobe-storage. O inverso também é verdadeiro. Nem todos os clientes têm os dois tipos de armazenamento.
+
+  Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Mover problemas em uma lista
 

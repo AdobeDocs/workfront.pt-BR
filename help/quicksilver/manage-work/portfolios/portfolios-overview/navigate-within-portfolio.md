@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 7%
+source-wordcount: '697'
+ht-degree: 6%
 
 ---
 
@@ -113,7 +113,7 @@ As seguintes métricas de desempenho de portfólio são exibidas na área [!UICO
    * O portfólio [!UICONTROL Alinhamento]
    * O [!UICONTROL Valor Líquido] do portfólio
 
-1. (Opcional)   Clique em **[!UICONTROL Projetos]** no painel esquerdo para exibir os projetos associados ao portfólio selecionado e, em seguida, selecione qualquer um dos filtros a seguir no menu suspenso **[!UICONTROL Filtro]**:
+1. (Opcional) Clique em **[!UICONTROL Projetos]** no painel esquerdo para exibir os projetos associados ao portfólio selecionado e, em seguida, selecione qualquer um dos filtros a seguir no menu suspenso **[!UICONTROL Filtro]**:
 
    * **[!UICONTROL Ativo]**: inclui todos os projetos associados ao portfólio selecionado que estão nos seguintes status:
 
@@ -144,12 +144,28 @@ Para obter informações sobre programas, consulte a seção [Criar e gerenciar 
 
    >[!IMPORTANT]
    >
-   >Sua empresa deve ter um pacote [!UICONTROL &#x200B; do &#x200B;]Prime[!DNL Workfront] ou superior para ter acesso ao [!UICONTROL Portfolio Otimizer].
+   >Sua empresa deve ter um pacote [!DNL Workfront] do [!UICONTROL Prime] ou superior para ter acesso ao [!UICONTROL Portfolio Otimizer].
    >
 
    Para obter informações sobre como usar o Portfolio Otimizer, consulte a seção [Gerenciar projetos no Portfolio Otimizer: índice de artigo](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
 
 1. (Opcional) Clique em **Documentos** no painel esquerdo para anexar documentos ao portfólio.
+
+   >[!NOTE]
+   >
+   >A adição de documentos a portfólios difere, dependendo do tipo de armazenamento que sua organização está usando para o Workfront.
+   >Alguns clientes podem ter acesso a ambos os seguintes ambientes de armazenamento de documentos:
+   >
+   >  * **O armazenamento herdado do Workfront**: os portfólios que usam esse armazenamento têm o ícone de armazenamento herdado ![ícone de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado do nome.
+   >  * **O armazenamento corporativo da Adobe**
+   >
+   >O administrador do Workfront decide qual armazenamento sua empresa usa ou permite escolher a qual armazenamento você associa cada portfólio.
+   >Para obter mais informações, consulte [Habilitar o armazenamento corporativo da Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+   >
+   >A adição de documentos a portfólios difere, dependendo do tipo de armazenamento usado.
+   >
+   >Para obter informações, consulte [Adicionar documentos ao Adobe Workfront a partir do seu sistema de arquivos](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
 1. (Opcional) Clique em **[!UICONTROL Atualizações]** no painel esquerdo para adicionar comentários ao fluxo de atualização do portfólio. Para obter informações, consulte [Trabalho de atualização](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Opcional) Clique no menu **[!UICONTROL Mais]** ![Mais menu](assets/qs-more-icon-on-an-object.png) para executar um dos seguintes procedimentos:
 

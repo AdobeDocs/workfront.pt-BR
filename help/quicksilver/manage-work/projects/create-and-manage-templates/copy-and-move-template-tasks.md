@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2234'
 ht-degree: 5%
 
 ---
@@ -108,6 +108,10 @@ Considere o seguinte ao mover tarefas de modelo:
 
    * Etapas.
 
+* Não é possível copiar ou mover uma tarefa de modelo de um modelo de armazenamento Workfront para um modelo de armazenamento Adobe. O inverso também é verdadeiro. Nem todos os clientes têm os dois tipos de armazenamento.
+
+  Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Copiar modelos de tarefa
 
 Você pode copiar uma única tarefa de modelo ou pode copiar várias tarefas de modelo em massa.
@@ -117,9 +121,9 @@ Você pode copiar uma única tarefa de modelo ou pode copiar várias tarefas de 
 1. Siga um destes procedimentos:
    * Clique no nome de uma tarefa de modelo para abri-la.
    * Selecione uma ou várias tarefas de modelo na lista.
-1. (Condicional) Clique no ícone **Mais** do menu ![Mais](assets/more-icon.png) na parte superior da lista de tarefas de modelo ou à direita do nome da tarefa de modelo, se você tiver aberto a tarefa. Em seguida, clique em **Copiar para** ou **Copiar**, dependendo de onde você está acessando a opção Copiar.
+1. (Condicional) Clique no ícone ![Mais **do menu** Mais](assets/more-icon.png) na parte superior da lista de tarefas de modelo ou à direita do nome da tarefa de modelo, se você tiver aberto a tarefa. Em seguida, clique em **Copiar para** ou **Copiar**, dependendo de onde você está acessando a opção Copiar.
 A caixa Copiar Modelo de Tarefa é aberta.
-   ![Caixa de tarefa de modelo de CPU](assets/copy-template-task-box-unshimmed.png)
+   ![Caixa de cópia de tarefa de modelo](assets/copy-template-task-box-unshimmed.png)
 1. (Opcional) Renomeie a tarefa de modelo no campo **Nome da Tarefa de Modelo**.
 
    >[!TIP]
@@ -128,11 +132,18 @@ A caixa Copiar Modelo de Tarefa é aberta.
 
 1. Comece digitando o nome do **Modelo de Destino** para o qual você deseja copiar a tarefa de modelo no campo **Selecionar Modelo de Destino** e selecione-o quando ele for exibido na lista.
 
+   >[!TIP]
+   >
+   >Você também pode começar a digitar o Número de referência ou inserir a ID do modelo. Isso pode ajudá-lo a distinguir entre modelos com nomes idênticos.
+
    O nome do modelo atual é exibido por padrão. Se quiser copiar a tarefa de modelo no mesmo modelo, deixe esse campo inalterado.
 
    >[!TIP]
    >
-   >Você também pode começar a digitar o Número de referência ou inserir a ID do modelo. Isso pode ajudá-lo a distinguir entre modelos com nomes idênticos.
+   >Você deve escolher um modelo com um tipo de armazenamento de documento semelhante. Não é possível copiar tarefas de modelo para um modelo com um tipo de armazenamento diferente do modelo original. Nem todos os clientes têm acesso a vários tipos de armazenamento de documentos.
+   >
+   >Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Condicional) Clique em **solicitar acesso** para solicitar acesso ao modelo de destino, caso não tenha acesso ao modelo selecionado.
 1. (Condicional) Continue a copiar a tarefa de modelo para o modelo de destino selecionado sem solicitar acesso se tiver acesso para adicionar tarefas de modelo a uma das tarefas de modelo no modelo de destino.
@@ -254,7 +265,11 @@ A caixa Mover Modelo de Tarefa é aberta.
 
    >[!TIP]
    >
-   >Você também pode começar a digitar o Número de referência ou inserir a ID do modelo. Isso pode ajudá-lo a distinguir entre modelos com nomes idênticos.
+   >* Você também pode começar a digitar o Número de referência ou inserir a ID do modelo. Isso pode ajudá-lo a distinguir entre modelos com nomes idênticos.
+   >
+   >* Você deve escolher um modelo com um tipo de armazenamento de documento semelhante. Não é possível copiar tarefas de modelo para um modelo com um tipo de armazenamento diferente do modelo original. Nem todos os clientes têm acesso a vários tipos de armazenamento de documentos.
+   >
+   >Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Condicional) Clique em **solicitar acesso** para solicitar acesso ao modelo, caso não tenha acesso ao modelo de destino.
 1. (Condicional) Continue movendo a tarefa de modelo para o modelo de destino selecionado sem solicitar acesso se tiver acesso para adicionar tarefas de modelo a uma das tarefas de modelo no modelo de destino.
@@ -291,7 +306,6 @@ A caixa Mover Modelo de Tarefa é aberta.
       <li> Não Iniciar Antes De</li>
       <li> Não Iniciar Depois De</li>
       </ul>
-
 
    </td> 
      </tr> 
@@ -340,7 +354,6 @@ A caixa Mover Modelo de Tarefa é aberta.
      </tr>  
     </tbody> 
    </table>
-
 
 1. (Opcional) Clique em **Selecionar pai** no painel esquerdo e selecione a tarefa de modelo no modelo de destino que você deseja que se torne a principal da tarefa de modelo movida.
 

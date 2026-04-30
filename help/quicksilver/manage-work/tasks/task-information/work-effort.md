@@ -9,10 +9,10 @@ feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 4%
+source-wordcount: '1532'
+ht-degree: 3%
 
 ---
 
@@ -41,17 +41,17 @@ Como gerente de projeto, você pode decidir como deseja estimar a quantidade de 
   <tr> 
    <td role="rowheader">Esforço do trabalho </td> 
    <td> <p>Um rótulo manual que define se um usuário precisa de uma pequena, média ou grande quantidade de esforço diário para concluir uma tarefa.
-   <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
-      </MadCap:conditionalText>
-     -->
-     </p> <p>Considere o seguinte sobre o Esforço de trabalho:</p>
-    <ul> 
-     <li>Este campo está disponível somente para tarefas com um Tipo de Duração Simples. </li> 
-     <li>Você pode habilitar o uso desse rótulo e definir a porcentagem de tempo de trabalho associada a ele no nível do projeto. </li> 
-    </ul> </td> 
-  </tr> 
+   &lt;!--
+
+    O nível de esforço é estimado como uma porcentagem do tempo de trabalho diário. (NOTA: mantenha este rascunho. Vazgen disse que não é necessário, mas está aguardando o feedback dos usuários)
+    
+    —>
+    &lt;/p> &lt;p>Considere o seguinte sobre o Esforço de trabalho:&lt;/p>
+    &lt;ul>
+    &lt;li>Este campo está disponível apenas para tarefas com um Tipo de Duração Simples. &lt;/li>
+    &lt;li>Você pode habilitar o uso desse rótulo e definir a porcentagem de tempo de trabalho associada a ele no nível do projeto. &lt;/li>
+    &lt;/ul> &lt;/td>
+</tr> 
  </tbody> 
 </table>
 
@@ -136,7 +136,7 @@ Old:
 
 ## Ativar usando o Esforço de trabalho em vez das horas planejadas
 
-1. Vá para um projeto e clique no ícone **Mais** do menu ![Mais](assets/more-icon.png) e clique em **Editar**.
+1. Vá para um projeto e clique no ícone ![Mais **do menu** Mais](assets/more-icon.png) e clique em **Editar**.
 1. Clique em **Configurações da tarefa** e selecione a opção **Usar esforço do trabalho para calcular automaticamente as horas planejadas da tarefa**. Essa opção é desmarcada por padrão.
 
    ![Esforço de trabalho em projetos](assets/nwe-work-effort-on-projects-350x182.png)
@@ -144,7 +144,7 @@ Old:
    Para obter mais informações sobre como habilitar o uso do Esforço de trabalho em um projeto, consulte a seção &quot;Configurações de tarefas&quot; no artigo [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Clique em **Tarefas** no painel esquerdo e, em seguida, clique no nome de uma tarefa para acessá-la.
-1. Clique no ícone **Mais** do menu ![Mais](assets/more-icon.png) e em **Editar**. Certifique-se de que a tarefa tenha um Tipo de duração simples.
+1. Clique no ícone ![Mais](assets/more-icon.png) do menu **Mais** e em **Editar**. Certifique-se de que a tarefa tenha um Tipo de duração simples.
 
    >[!TIP]
    >

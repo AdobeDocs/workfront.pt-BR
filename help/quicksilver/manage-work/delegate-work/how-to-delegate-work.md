@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1547'
-ht-degree: 4%
+source-wordcount: '1556'
+ht-degree: 3%
 
 ---
 
@@ -156,9 +156,9 @@ Para delegar tarefas e problemas a outras pessoas:
 
    * O botão [!UICONTROL **Delegar**] na área [!UICONTROL **Página inicial**] é alterado para [!UICONTROL **Editar delegação**] para indicar que há uma delegação em vigor.
      <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
       (NOTE: is this shot correct? See UI - this is a mock)
-      </MadCap:conditionalText>
+       
       -->
 
      ![Botão Editar delegação](assets/edit-delegation-button-on-my-work-widget.png)

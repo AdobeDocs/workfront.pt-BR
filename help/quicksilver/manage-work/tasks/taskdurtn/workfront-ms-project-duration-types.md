@@ -2,19 +2,19 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
-title: Tipos de duração em projetos do Adobe Workfront e do Microsoft
+title: Tipos de duração no Adobe Workfront e Microsoft Project
 description: Os Tipos de duração disponíveis no Adobe Workfront são diferentes de seus equivalentes no Microsoft Project, chamados de Tipos de tarefa. Às vezes, isso pode ser confuso ao exportar ou importar projetos entre o Workfront e o Microsoft Project.
 author: Alina
 feature: Work Management
 exl-id: 986ecf91-693d-4ee1-bc56-355a2819ae41
-source-git-commit: c1b8af0d8a95714bb597db7a429794773358cf05
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 2%
+source-wordcount: '257'
+ht-degree: 11%
 
 ---
 
-# Tipos de duração em projetos do Adobe Workfront e do Microsoft
+# Tipos de duração no Adobe Workfront e Microsoft Project
 
 Os Tipos de duração disponíveis no Adobe Workfront são diferentes de seus equivalentes no Microsoft Project, chamados de Tipos de tarefa. Às vezes, isso pode ser confuso ao exportar ou importar projetos entre o Workfront e o Microsoft Project.
 
@@ -51,8 +51,8 @@ Ao importar projetos do Microsoft Project para o Workfront, as Unidades fixas se
 <!--
 <note type="warning">
 When a task has Calculated Work as the Duration Type and the default Duration Type in Setup is set as Calculated Assignment, then MS Project assignment allocations will be lost during the import.
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ 
 (drafting this because it is misleading)
-</MadCap:conditionalText>
+ 
 </note>
 -->

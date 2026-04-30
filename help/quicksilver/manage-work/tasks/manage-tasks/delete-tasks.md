@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '792'
 ht-degree: 6%
 
 ---
@@ -132,9 +132,9 @@ Considere o seguinte:
 * Quando você exclui uma tarefa filho e move seu pai para outro projeto e, em seguida, restaura a tarefa filho excluída, a tarefa é adicionada de volta ao projeto original como uma tarefa principal.
 
 <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   
   (NOTE: this stays NWE; not possible in classic;)
-  </MadCap:conditionalText>
+   
   -->
 
 ## Excluir tarefas

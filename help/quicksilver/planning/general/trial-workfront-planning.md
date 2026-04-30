@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d1173e35a2455610474664f93159b97a54957488
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2368'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ O Adobe Workfront Planning oferece visibilidade centralizada do seu ciclo de vid
 >
 >* O período de inscrição terminou em 1 de abril de 2026 e agora está fechado.
 >
->* Se você aceitou o contrato de avaliação e está inscrito no teste, ele estará disponível entre as seguintes datas: 2 de março a 1 de maio de 2026.
+>* Se você aceitou o contrato de avaliação e está inscrito no teste, ele estará disponível entre as seguintes datas: 2 de março a 1 de maio de 2026. O acesso permanecerá ativo até 15 de maio de 2026.
 >
 >* Observe que a versão de avaliação está disponível por 60 dias a partir de seu lançamento, e não por 60 dias a partir de quando você a associou.
 >
@@ -98,7 +98,7 @@ Estas são datas importantes associadas à oferta de avaliação gratuita do Ado
    * Os banners de avaliação do Workfront Planning.
    * A preferência **Contrato de avaliação de revisão** foi removida da área **Instalação**.
 
-* **1º de maio de 2026**: a versão de avaliação do Workfront Planning é fechada e seu acesso ao Planning é removido.
+* **1º de maio de 2026**: a versão de avaliação do Workfront Planning é fechada e seu acesso ao Planning é removido. O acesso permanecerá ativo até 15 de maio de 2026.
 
   Se você participou da avaliação, o Workfront protege seus dados depois que a avaliação terminar. No entanto, você não tem mais acesso a ele após essa data.
 
@@ -127,7 +127,7 @@ Todos os usuários em sua organização recebem o seguinte pacote do Workfront P
 
 * **Após 1º de maio de 2026:**
 
-  Todos os usuários do sistema têm o acesso ao Workfront Planning removido e o Workfront protege seus dados.
+  O acesso ao teste permanecerá ativo até 15 de maio de 2026. Depois de 15 de maio, todos os usuários em seu sistema terão o acesso ao Workfront Planning removido e o Workfront protegerá seus dados.
 
 ## Informações adicionais sobre o Workfront Planning
 
@@ -174,7 +174,7 @@ A avaliação começou e sua organização recebeu acesso para iniciar a avalia�
 
 >[!WARNING]
 >
->O período de aceitação termina em 1º de abril de 2026. No entanto, os recursos de avaliação do Planning estarão disponíveis até 1º de maio de 2026.
+>O período de aceitação termina em 1º de abril de 2026. No entanto, os recursos de avaliação do Planning estarão disponíveis até 15 de maio de 2026.
 
 1. (Condicional) Faça logon no Adobe Workfront como um Administrador do sistema.
 
@@ -188,7 +188,7 @@ A avaliação começou e sua organização recebeu acesso para iniciar a avalia�
 1. (Condicional) Se você estiver na área **Configuração**, vá para a seção **Outras preferências** e clique em **Revisar contrato de avaliação**.
 1. Clique em **Aceitar**, depois de revisar o contrato.
 
-   Sua organização está agora inscrita na avaliação do Workfront Planning até 1º de maio de 2026.
+   Sua organização está agora inscrita na avaliação do Workfront Planning até 1º de maio de 2026. O acesso permanecerá ativo até 15 de maio de 2026.
 
    As seguintes situações ocorrerão depois que você aceitar o contrato de avaliação:
 

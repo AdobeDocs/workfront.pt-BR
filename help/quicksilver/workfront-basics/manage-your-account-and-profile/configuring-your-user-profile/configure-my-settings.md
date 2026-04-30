@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '3318'
+source-wordcount: '3385'
 ht-degree: 2%
 
 ---
@@ -383,16 +383,16 @@ Somente um administrador do [!DNL Workfront] pode visualizar e editar todos os c
    <td role="rowheader"><strong>[!UICONTROL Modelo de layout]</strong> </td> 
    <td>Este campo é visível para usuários com nível de acesso [!UICONTROL Standard], [!UICONTROL Plan] ou [!UICONTROL [!DNL Workfront] administrator], e só pode ser editado para [!UICONTROL [!DNL Workfront] administradores] ou usuários com uma licença [!UICONTROL Standard] ou [!UICONTROL Plan] que também tenham acesso de usuário administrativo. Selecione um modelo de layout aqui para atualizar a aparência e o campo da interface do Workfront. Para obter mais informações sobre como configurar usuários com acesso administrativo, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Configurar acesso dos usuários para editar usuários usando um nível de acesso personalizado</a> em <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Conceder acesso aos usuários</a>.<br>Para obter mais informações sobre modelos de layout e como eles afetam sua interface, consulte <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Criar e gerenciar modelos de layout</a></td> 
   </tr>
-  <!--
+  &lt;!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><strong>Log in as</strong> </td> 
-    <td> <p><strong>Add access</strong> for a Workfront administrator or group administrator (associated with a group you are in) to log in as you. Select an <strong>Access expiration date</strong> for the login. </p> <p>You can repeat this to grant login access to multiple administrators.</p> <p>The settings you choose in this section are visible only to you.
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-        <span class="PinkDraftNote">Add a note about this being only for the Enterprise package if they decide to do it that way. Functionality that may come in a later sprint: If you want to be notified when the administrator logs in as you, select Receive an email when this user logs in.</span> 
-       </MadCap:conditionalText>
-      </p> </td> 
-   </tr>
-  --> 
+    <td role="rowheader"><strong>Fazer logon como</strong> </td> 
+    <td> <p><strong>Adicione acesso</strong> a um administrador do Workfront ou administrador de grupo (associado a um grupo em que você está) para fazer logon como você. Selecione uma <strong>Data de expiração do acesso</strong> para o logon. </p> <p>Você pode repetir isso para conceder acesso de login a vários administradores.</p> <p>As configurações escolhidas nesta seção são visíveis apenas para você.
+
+    &lt;span class=&quot;PinkDraftNote&quot;>Adicione uma observação sobre isso ser apenas para o pacote Enterprise se eles decidirem fazê-lo dessa maneira. Funcionalidade que poderá vir em um sprint posterior: se você quiser ser notificado quando o administrador fizer logon como você, selecione Receber um email quando este usuário fizer logon.&lt;/span>
+    
+    &lt;/p> &lt;/td>
+</tr>
+  --&gt; 
   <tr> 
    <td role="rowheader"><strong>(Condicional) [!UICONTROL Usuário pode gerar provas (... de ... licenças de prova restantes)]</strong></td> 
    <td>Este campo só estará disponível se sua empresa usar um pacote [!DNL Workfront] herdado e tiver comprado o componente [!DNL Workfront Proof]. Quando essa opção estiver selecionada, você será ativado como um usuário de prova. Ele também exibe o número de licenças de prova usadas em seu sistema do número total de licenças de prova adquiridas. Este campo é visível e editável apenas para usuários que também são administradores do [!DNL Workfront]. Para obter mais informações sobre as opções de plano para revisão de texto em [!DNL Workfront], consulte <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Acesso à funcionalidade de revisão de texto em [!DNL Workfront]</a>.</td>
