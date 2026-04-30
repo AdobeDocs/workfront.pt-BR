@@ -8,9 +8,9 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b05fcb7bdc1693e9e2384390f2584330b855c39c
+source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1562'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 <!--Audited: 12/2023-->
 
-Você pode criar uma equipe Agile em [!DNL Adobe Workfront] conforme descrito em [Criar uma equipe Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Ao criar uma equipe Ágil, é possível escolher a metodologia que a equipe usa para concluir o trabalho. You can choose from the following options:
+Você pode criar uma equipe Agile em [!DNL Adobe Workfront] conforme descrito em [Criar uma equipe Agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Ao criar uma equipe Ágil, é possível escolher a metodologia que a equipe usa para concluir o trabalho. Você pode escolher entre as seguintes opções:
 
 * Scrum
 * Kanban
@@ -33,7 +33,7 @@ Este artigo descreve como definir as configurações de uma equipe Kanban. Depoi
 * Como adicionar histórias automaticamente do backlog
 * Quanto tempo os cartões permanecem no quadro Kanban
 
-For information about configuring a Scrum team, see [Configure Scrum](../get-started-with-agile-in-workfront/configure-scrum.md).
+Para obter informações sobre como configurar uma equipe do Scrum, consulte [Configurar Scrum](../get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Requisitos de acesso
 
@@ -76,19 +76,19 @@ Para configurar como as histórias são estimadas para sua equipe Agile:
 
 {{step1-to-team}}
 
-1. Clique no ícone **[!UICONTROL Trocar Equipes]**, em seguida, selecione uma nova equipe no menu suspenso ou pesquise por uma equipe na caixa de pesquisa.![](assets/switch-team-icon.png)
+1. Clique no ícone ![](assets/switch-team-icon.png) Trocar Equipes ]**, em seguida, selecione uma nova equipe no menu suspenso ou pesquise por uma equipe na caixa de pesquisa.**[!UICONTROL 
 1. Selecione a equipe Agile que você deseja gerenciar.
-1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
+1. Clique no menu ![](assets/more-menu.png) **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 
-   ![Editar equipe](assets/edit-team-settings-350x205.png)
+   ![Editar equipe](assets/edit-team-settings-kanban.png)
 
 1. Na seção **[!UICONTROL Agile]**, na área **[!UICONTROL Estimar Histórias em]**, selecione se deseja usar pontos ou horas para estimar o tamanho (carga de trabalho) das histórias. Se você selecionar Pontos, especifique quantas horas são iguais a 1 ponto. (O padrão é 1 ponto = 8 horas.) Este é o número de Horas planejadas que são adicionadas à história.
 
-   **Example:** If you have selected to estimate stories in points and 1 point equals 8 hours, and a story is estimated at 3 points, 24 Planned Hours are added to the story.
+   **Exemplo:** Se você optou por estimar histórias em pontos e 1 ponto é igual a 8 horas, e uma história é estimada em 3 pontos, 24 Horas planejadas serão adicionadas à história.
 
 1. Clique em **[!UICONTROL Salvar alterações]**.
 
-## Configure status columns on the Agile story board
+## Configurar colunas de status no storyboard do Agile
 
 Você pode definir os status existentes no storyboard da equipe Agile. Esses são os únicos status exibidos no storyboard.
 
@@ -100,13 +100,10 @@ Para definir os status que estão disponíveis para o storyboard associado à Eq
 
 1. Selecione a equipe Agile que você deseja gerenciar.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
-
-   ![Editar equipe](assets/edit-team-settings-350x205.png)
-
 1. Na seção **[!UICONTROL Agile]**, localize a área **[!UICONTROL Storyboard]**.
 
 1. (Opcional) Clique em **[!UICONTROL Adicionar coluna]** para adicionar outra coluna de status ao storyboard.
-1. (Optional) Drag any status column using the drag-and-drop indicator to reorder the status columns on the story board. The first column can&#39;t be moved, and you cannot drag another column in front of the first column.
+1. (Opcional) Arraste qualquer coluna de status usando o indicador de arrastar e soltar para reordenar as colunas de status no storyboard. A primeira coluna não pode ser movida e você não pode arrastar outra coluna na frente da primeira coluna.
 
    ![Arrastar e soltar](assets/agile-story-card-drag-and-drop.png)
 
@@ -148,15 +145,12 @@ Para configurar cartões de história atribuídos à equipe do Agile para exibir
 
 1. Selecione a equipe Agile que você deseja gerenciar.
 1. Clique no menu **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
-
-   ![Editar equipe](assets/edit-team-settings-350x205.png)
-
 1. Na seção **[!UICONTROL Agile]**, digite um nome de campo para localizá-lo.
 
    ![Campos adicionais](assets/agile-additional-fields-kanban.png)
 
-1. Select the name of the field you&#39;d like to add.
-1. Type the **[!UICONTROL Display name]** for the field to show on the story or issue card.
+1. Selecione o nome do campo que deseja adicionar.
+1. Digite o **[!UICONTROL Nome de exibição]** para que o campo seja exibido na história ou no cartão do problema.
 1. Clique em **[!UICONTROL Salvar alterações]**.
 
 ## Configurar o limite do trabalho em andamento (WIP)
@@ -172,10 +166,7 @@ Para limitar o WIP para a equipe Kanban:
 1. Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipes](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Selecione a equipe Kanban que deseja gerenciar.
-1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
-
-   ![Editar equipe](assets/edit-team-settings-350x205.png)
-
+1. Clique no menu ![](assets/more-menu.png) **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 1. Na seção **[!UICONTROL Agile]**, na seção **[!UICONTROL Metodologia]**, verifique se o Kanban está selecionado.
 
 1. Na seção **[!UICONTROL Storyboard]**, no campo **[!UICONTROL Limite de WIP]**, especifique o número máximo de itens permitidos em cada coluna do storyboard Agile [!UICONTROL Kanban]. É possível definir um limite diferente para cada coluna. O limite máximo que pode ser definido para cada coluna é 100.
@@ -192,13 +183,13 @@ O limite de WIP é simplesmente um aviso visual e não impede que sua equipe ten
 
 Você pode configurar histórias do backlog para serem adicionadas automaticamente à primeira coluna no quadro [!UICONTROL Kanban] imediatamente após um item ser movido dessa coluna.
 
-You must enable the **Show Backlog** setting on the [!UICONTROL Kanban] board to use this funcitionality.
+Você deve ativar a configuração **Mostrar lista de pendências** no quadro [!UICONTROL Kanban] para usar essa funcionalidade.
 
-Any time a story is moved from the [!UICONTROL In Progress] column into a column on the story board that represents a [!UICONTROL Complete] status (or a status that equates with [!UICONTROL Complete]), the next story from the Backlog column automatically moves to the [!UICONTROL New] column of the [!UICONTROL Kanban Board].
+Sempre que uma história for movida da coluna [!UICONTROL Em andamento] para uma coluna no storyboard que representa o status [!UICONTROL Concluído] (ou um status que equivale a [!UICONTROL Concluído]), a próxima história da coluna Backlog será movida automaticamente para a coluna [!UICONTROL Nova] do [!UICONTROL Quadro Kanban].
 
-The next story is the incomplete story with the lowest backlog order number that meets all of the following criteria:
+A próxima história é a história incompleta com o número de ordem de backlog mais baixo que atenda a todos os seguintes critérios:
 
-* It is assigned to the team.
+* Ele é atribuído à equipe.
 * Ela não tem uma data de conclusão real (ou seja, ainda não está concluída).
 * Ainda não está em um quadro Kanban.
 * Pertence a um projeto com status atual.
@@ -212,10 +203,7 @@ Para adicionar automaticamente histórias do backlog ao quadro [!UICONTROL Kanba
 1. Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipes](assets/switch-team-icon.png) e selecione uma nova equipe no menu suspenso ou procure uma equipe na barra de pesquisa.
 
 1. Selecione a equipe Kanban que deseja gerenciar.
-1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
-
-   ![Editar equipe](assets/edit-team-settings-350x205.png)
-
+1. Clique no menu ![](assets/more-menu.png) **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 1. Selecione **[!UICONTROL Adicionar automaticamente a próxima história da lista de pendências]** para configurar o próximo item da lista de pendências a ser adicionado automaticamente à coluna **[!UICONTROL Nova]** quando um item for movido para fora da coluna **[!UICONTROL Em andamento]**.
 
 
@@ -229,10 +217,7 @@ Você pode escolher por quanto tempo os cartões concluídos permanecem no quadr
 
 1. (Opcional) Clique no ícone **[!UICONTROL Alternar equipes]** ![Ícone Alternar equipes](assets/switch-team-icon.png) e selecione uma nova equipe Kanban no menu suspenso ou procure uma equipe na barra de pesquisa.
 1. Selecione a equipe Kanban.
-1. Clique no menu **&#x200B;**&#x200B;Mais![](assets/more-menu.png) e selecione **[!UICONTROL Editar]**.
-
-   ![Editar equipe](assets/edit-team-settings-350x205.png)
-
+1. Clique no menu ![](assets/more-menu.png) **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 1. No menu suspenso **[!UICONTROL Número de dias em que os cartões Concluídos permanecem no quadro Kanban]**, selecione um valor.
 
    Você pode escolher um número de 1 a 30 dias.
