@@ -87,7 +87,7 @@ Depois de fazer logon no [!DNL Adobe CX Enterprise], você poderá exibir todas 
 Use o ícone [!UICONTROL Menu Principal] ![Ícone do Menu Principal](assets/main-menu-icon-left-nav.png) à esquerda da barra de navegação [!DNL Workfront] para navegar até as páginas às quais você tem acesso. As opções disponíveis no [!UICONTROL Menu Principal] dependem do seguinte:
 
 * **Configurações do modelo de layout**: para saber como um administrador [!DNL Workfront] pode modificar o [!UICONTROL Menu Principal] de um modelo de layout, consulte [Personalizar o [!UICONTROL Menu Principal] usando um modelo de layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-* **Tipo de licença**: para saber mais sobre as configurações padrão para diferentes tipos de licença, consulte [Compreender a navegação para um [!UICONTROL usuário de licença {Light]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Compreender a navegação para um [!UICONTROL usuário de licença ]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **Tipo de licença**: para saber mais sobre as configurações padrão para diferentes tipos de licença, consulte [Compreender a navegação para um [!UICONTROL usuário de licença &lbrace;Light]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) ou [Compreender a navegação para um [!UICONTROL usuário de licença &#x200B;]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
 ![Menu principal](assets/main-menu-options-left-nav.png)
 
