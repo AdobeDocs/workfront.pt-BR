@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5479fcded2dfaf781fa54e046f4fce61e3a9ab7a
+source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
 workflow-type: tm+mt
 source-wordcount: '21715'
 ht-degree: 98%
@@ -312,9 +312,9 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
    <p>Para obter informações, consulte <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Gerenciar a exibição da linha do tempo</a>. </p>
    </td> 
     </tr> 
-  <tr> 
-   <td>[!UICONTROL Data de conclusão orçada]</td> 
-   <td> <p>Este campo é obsoleto. Qualquer informação que esse campo possa exibir está relacionada a um recurso que o [!DNL Workfront] removeu. Não é possível atualizar esse campo. </p>
+   <tr> 
+  <td>[!UICONTROL Data de conclusão orçada]</td> 
+  <td> <p>Este campo é obsoleto. Qualquer informação que esse campo possa exibir está relacionada a um recurso que o [!DNL Workfront] removeu. Não é possível atualizar esse campo. </p>
    <p> Esse campo ainda está visível em relatórios e listas do [!UICONTROL projeto].</p>  </td> 
   </tr> 
   <tr> 
@@ -336,7 +336,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
     <!-- 
      <p>Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-  -->
+    -->
     <p> Para obter informações sobre como orçar usuários no [!DNL Resource Planner], consulte o artigo <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Recursos de orçamento no [!DNL Resource Planner] usando as exibições [!UICONTROL Projeto] e [!UICONTROL Função]</a>. </p> 
     <p>As horas orçadas na área [!UICONTROL Orçamento de recursos] do [!UICONTROL Business Case] ou do [!UICONTROL Planejador de recursos] são exibidas nas seguintes áreas do [!DNL Workfront] e com os seguintes nomes:</p> 
      <table style="table-layout:auto"> 
@@ -387,24 +387,20 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
     <li>Budgeted Hour report (the Bud. Hours field refers to hours budgeted for users; the Pln. Bud. Hours field refers to hours budgeted for roles or projects)</li>
     <li>Resource Estimates report (in the Project: Budgeted Hours field) </li>
     </ul>
-    -->
-    <!--
     <p>The fields listed below display in the reports listed and are hours formerly budgeted in the  Capacity Planner or the Legacy Resource Estimates area of the Business Case.</p>
     <p>Important: The Capacity Planner and Legacy  Resource Estimates have been removed from Workfront. You cannot update any information that might display in these fields.</p>
-  -->
-  <!--
- <ul>
-  <li>Capacity Planner</li>
-  <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
-  <li>Resource Estimates report (in the Bud. Hours field)</li>
-  <li>Budgeted Hour report (in the Budgeted Hours field)</li>
-  <li>Project report (in the Budgeted Hours field)</li>
-  <li>Project (Financial  Data) report</li>
-  <li>Task  report (in the Project: Budgeted Hours field)</li>
-  <li>Issue report (in the Project: Budgeted Hours field)</li>
-  </ul>
-  -->
-    </td> 
+    <ul>
+    <li>Capacity Planner</li>
+    <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
+    <li>Resource Estimates report (in the Bud. Hours field)</li>
+    <li>Budgeted Hour report (in the Budgeted Hours field)</li>
+    <li>Project report (in the Budgeted Hours field)</li>
+    <li>Project (Financial  Data) report</li>
+    <li>Task  report (in the Project: Budgeted Hours field)</li>
+    <li>Issue report (in the Project: Budgeted Hours field)</li>
+    </ul>
+    -->
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Custos trabalhistas orçados]</td> 
@@ -431,8 +427,6 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
     <!--
     <p>Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic. </p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-    -->
-    <!--
      <p>You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in  Workfront: </p>
      <ul> 
      <li>Resource Planner Cost view (in the BDG column)</li>
@@ -466,7 +460,7 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
   <!--
   <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
   -->   
-   </td> 
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Gráfico burndown]</td> 
@@ -496,10 +490,8 @@ A tabela a seguir é uma lista de termos usados com frequência no Adobe Workfro
   </tr> 
    <tr> 
    <td>[!UICONTROL Can Start]</td> 
-   <td> <p>Este campo indica se uma tarefa está pronta para ser iniciada. Se o início estiver pronto, o campo [!UICONTROL Can Start] na tarefa será definido como [!UICONTROL True]. </p> <p>Para obter mais informações, consulte a <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">visão geral “[!UICONTROL Can Start]” para tarefas</a>.</p>
-
-
-</td>
+   <td> <p>Este campo indica se uma tarefa está pronta para ser iniciada. Se o início estiver pronto, o campo [!UICONTROL Can Start] na tarefa será definido como [!UICONTROL True]. </p> <p>Para obter mais informações, consulte a <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">visão geral “[!UICONTROL Can Start]” para tarefas</a>.</p> 
+  </td>
   </tr>
   <!--
   <tr> 
