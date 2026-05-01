@@ -6,20 +6,36 @@ description: Você pode redefinir sua  [!DNL Adobe Workfront] senha. Como medida
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 10%
+source-wordcount: '103'
+ht-degree: 5%
 
 ---
 
 # Redefinir sua senha
 
+>[!NOTE]
+>
+>A alteração da senha a altera para todos os aplicativos do [!DNL Adobe CX Enterprise].
+
+Sua senha não é gerenciada no [!DNL Workfront].
+
+Se sua organização usar um aplicativo separado para gerenciar senhas, você alterará sua senha por meio desse provedor.
+
+Se a sua senha for gerenciada por [!DNL Adobe], você poderá alterá-la em sua conta da Adobe.
+
+[Consulte este artigo para alterar a senha do Adobe.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+
+Para obter mais informações sobre como alterar sua senha, entre em contato com o administrador.
+
+<!--
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página foi removido porque se aplicou apenas a organizações que ainda não foram integradas ao Adobe Admin Console.
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->Todas as organizações da Workfront foram integradas à Adobe Admin Console.
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 

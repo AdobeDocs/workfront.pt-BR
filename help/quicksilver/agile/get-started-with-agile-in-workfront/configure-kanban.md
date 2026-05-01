@@ -8,9 +8,9 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1561'
 ht-degree: 4%
 
 ---
@@ -76,7 +76,7 @@ Para configurar como as histórias são estimadas para sua equipe Agile:
 
 {{step1-to-team}}
 
-1. Clique no ícone ![](assets/switch-team-icon.png) Trocar Equipes **, em seguida, selecione uma nova equipe no menu suspenso ou pesquise por uma equipe na caixa de pesquisa.**
+1. Clique no ícone ![](assets/switch-team-icon.png) Trocar Equipes ]**, em seguida, selecione uma nova equipe no menu suspenso ou pesquise por uma equipe na caixa de pesquisa.**[!UICONTROL 
 1. Selecione a equipe Agile que você deseja gerenciar.
 1. Clique no menu ![](assets/more-menu.png) **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
 
@@ -204,7 +204,7 @@ Para adicionar automaticamente histórias do backlog ao quadro [!UICONTROL Kanba
 
 1. Selecione a equipe Kanban que deseja gerenciar.
 1. Clique no menu ![](assets/more-menu.png) **[!UICONTROL Mais]** e selecione **[!UICONTROL Editar]**.
-1. Selecione **[!UICONTROL Adicionar automaticamente a próxima história da lista de pendências]** para configurar o próximo item da lista de pendências a ser adicionado automaticamente à coluna **[!UICONTROL Nova]** quando um item for movido para fora da coluna **[!UICONTROL Em andamento]**.
+1. Selecione **[!UICONTROL Adicionar automaticamente a próxima história da lista de pendências]** para configurar o próximo item da lista de pendências a ser adicionado automaticamente à coluna **[!UICONTROL Novo]** quando um item for movido para fora da coluna **[!UICONTROL Em andamento]**.
 
 
 1. Clique em **[!UICONTROL Salvar alterações]**.
