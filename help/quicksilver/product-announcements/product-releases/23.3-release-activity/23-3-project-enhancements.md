@@ -1,18 +1,18 @@
 ---
-title: 23.3 Aprimoramentos do projeto
-description: 23.3 Aprimoramentos do projeto
+title: Aprimoramentos no projeto na 23.3
+description: Aprimoramentos no projeto na 23.3
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 9a705b985177489bf13181e8b36a6c52379d1251
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 0%
+source-wordcount: '208'
+ht-degree: 4%
 
 ---
 
-# 23.3 Aprimoramentos do projeto
+# Aprimoramentos no projeto na 23.3
 
 Esta página descreve todas as melhorias de projeto feitas com a versão 23.3. Essas melhorias foram disponibilizadas no ambiente de Produção com a versão 23.3 do em 20 e 21 de julho de 2023.
 
@@ -29,10 +29,9 @@ Nesta primeira versão, o processo de aprovação foi simplificado tanto para a 
 * Tomar decisões de aprovação diretamente em Minhas atualizações e na Página inicial
 * Criar aprovações para versões específicas do documento
 
-Para obter mais informações sobre como usar as novas aprovações de documentos, consulte [Visão geral das Novas Aprovações de Documentos](https://experienceleague.adobe.com/pt-br/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview).
 
 ## Novo botão Compartilhar
 
 A opção Compartilhar foi retirada do menu Mais para projetos, tarefas e problemas, tornando o compartilhamento mais intuitivo. O novo botão Compartilhar agora é exibido ao lado do nome de um objeto, antes do menu Mais. O compartilhamento de documentos, portfólios e programas permanece inalterado.
 
-Para obter mais informações sobre objetos de compartilhamento, consulte [Compartilhar um objeto](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).
+Para obter mais informações sobre objetos de compartilhamento, consulte [Compartilhar um objeto](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).

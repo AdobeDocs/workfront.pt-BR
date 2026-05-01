@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '945'
 ht-degree: 4%
 
 ---
@@ -27,9 +27,11 @@ Para obter mais informações sobre o Frame.io, consulte [Introdução ao Frame.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
-## Requisitos de integração
+<!--
+## Integration requirements
 
-* A instância do Workfront deve ser ativada na Adobe Unified Experience.
+* The Workfront instance must be enabled on the Adobe Unified Experience.
+-->
 
 ## Iniciação e planejamento do trabalho no Workfront
 
@@ -39,7 +41,7 @@ Se sua organização tiver uma licença Frame.io Enterprise, os projetos criados
 
 Para obter informações sobre o armazenamento corporativo Adobe ou projetos no Frame.io, consulte
 
-* [Visão geral do Workspace: Projetos](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
+* [Visão geral da Workspace: projetos](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
 * [Visão geral do armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## Revisar e aprovar ativos

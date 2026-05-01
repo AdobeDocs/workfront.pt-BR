@@ -6,10 +6,10 @@ description: Você pode instalar o plug-in do Adobe Workfront para Photoshop no 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 61e5b763ec527aeb846e975e06842dc2c4c69918
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 2%
+source-wordcount: '592'
+ht-degree: 7%
 
 ---
 
@@ -23,14 +23,14 @@ Você pode instalar o plug-in [!DNL Adobe Workfront for Photoshop] do [!DNL Adob
 * Italiano
 * espanhol
 * Português
-* japonês
+* Japonês
 * Chinês simplificado
 * Chinês tradicional
 * coreano
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,9 +133,9 @@ Para corrigir esse problema,
 
    >[!TIP]
    >
-   >Em uma Mac, vá para Localizador, pressione **Command+Shift+.** para exibir pastas ocultas, navegue até **/Users//Library/Application Support** e exclua a pasta **Workfront**.
+   >Em uma Mac, vá para o Localizador, pressione **Command+Shift+.** para exibir pastas ocultas, navegue até **/Users//Library/Application Support** e exclua a pasta **Workfront**.
 
 
 1. Volte para o plug-in e insira o domínio do Workfront. O domínio deve ser `company-name.my.workfront.com` e não `experience.adobe.com`.
 
-   Para [encontrar seu domínio do Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md), se você estiver na Experiência unificada da Adobe, vá para Configuração, Informações do cliente.
+   Para [encontrar seu domínio do Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md), vá para Instalação, Informações do cliente.

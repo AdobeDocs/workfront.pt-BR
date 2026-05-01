@@ -10,9 +10,9 @@ role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c298b21e74abc6ac7bed2c8fa4c5a0dc0f6c6237
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '766'
 ht-degree: 6%
 
 ---
@@ -68,30 +68,15 @@ Para acessar a página Informações do cliente:
 
    As seções disponíveis na área Informações do cliente são:
 
-* **Informações Básicas**
+   | Seção | Mais informações |
+   |---------|-----------------|
+   | **Informações Básicas** | Para obter informações sobre como configurar informações básicas no Workfront, consulte [Configurar Informações Básicas](#configure-basic-info). |
+   | <span class="preview">**Visão geral do armazenamento**</span> | <span class="preview">Para obter informações sobre como verificar o uso e a cota do armazenamento de documentos, consulte [Verificar limites de armazenamento de documentos](../../documents/managing-documents/check-document-storage.md).</span> |
+   | **Configurações da Chave de API** | Para obter informações sobre as configurações da chave de API, consulte [Gerenciar chaves de API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |
+   | **Incluo na lista de permissões IP** | Para obter informações sobre como adicionar os endereços IP ao seu incluo na lista de permissões para o qual seus usuários podem acessar o Workfront, consulte [Configurar o incluo na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md). |
+   | **Incluo na lista de permissões de email** | Para obter informações sobre como adicionar emails ao incluo na lista de permissões, consulte [Configurar incluo na lista de permissões de email](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md). |
 
-  Para obter informações sobre como configurar informações básicas no Workfront, consulte [Configurar Informações Básicas](#configure-basic-info).
-
-
-
-* <span class="preview">**Visão geral do armazenamento**
-
-  Para obter informações sobre como verificar o uso e a cota do armazenamento de documentos, consulte [Verificar limites de armazenamento de documentos](../../documents/managing-documents/check-document-storage.md).</span>
-
-
-* **Configurações da Chave de API**
-
-  Para obter informações sobre as configurações da chave de API, consulte [Gerenciar chaves de API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
-
-* **Incluo na lista de permissões IP**
-
-  Para obter informações sobre como adicionar os endereços IP ao seu incluo na lista de permissões para o qual seus usuários podem acessar o Workfront, consulte [Configurar o incluo na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
-
-* **Incluo na lista de permissões de email**
-
-  Para obter informações sobre como adicionar emails ao incluo na lista de permissões, consulte [Configurar incluo na lista de permissões de email](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-
-<!--
+   <!--
    * **License**
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
