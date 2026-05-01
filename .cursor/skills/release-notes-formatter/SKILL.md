@@ -1,10 +1,10 @@
 ---
 name: release-notes-formatter
 description: Formatar e validar as notas de versão do Workfront para fins de consistência, estrutura correta e vinculação adequada. Use somente para arquivos de notas de versão em diretórios de versões de produtos, ou quando o usuário mencionar notas de versão, versões de produtos ou versões trimestrais. Não se aplique a artigos explicativos ou documentação geral.
-source-git-commit: ec081e557ec48adcfcb3833bf11dcee91312ef4e
+source-git-commit: 1a498abcf4a9ef8940eb2da09da42636253e557a
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 3%
+source-wordcount: '824'
+ht-degree: 2%
 
 ---
 
@@ -73,7 +73,7 @@ Regras:
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **Corpo**: descrição do recurso e, em seguida, link para a documentação de ajuda
+5. **Corpo**: descrição do recurso e, em seguida, link para a documentação de ajuda
 
 #### Páginas de visão geral
 
@@ -90,10 +90,10 @@ Regras:
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. **H3 por área de produto** com a tabela de recursos do HTML (consulte [reference.md](reference.md#overview-feature-table))
+5. **H3 por área de produto** com a tabela de recursos do HTML (consulte [reference.md](reference.md#overview-feature-table))
    - Em cada tabela, **os recursos mais recentes primeiro** — a linha mais recente aparece na parte superior da tabela (após a linha de cabeçalho)
 
-&#x200B;6. **Seções finais** (H2): Notas de versão para outras áreas, atualizações do visualizador de provas de desktop, Avisos, versão da API, Atualizações de manutenção, Atualizações de treinamento
+6. **Seções finais** (H2): Notas de versão para outras áreas, atualizações do visualizador de provas de desktop, Avisos, versão da API, Atualizações de manutenção, Atualizações de treinamento
 
 ### Etapa 3: Validar links
 
@@ -115,7 +115,7 @@ Regras:
 
 Aplicar essas correções ao formatar:
 
-| Problema | Correção |
+| Problema | Corrigir |
 |-------|-----|
 | Trimestre do link de visão geral incorreto | Atualizar para corresponder ao trimestre do próprio arquivo |
 | Bloco de data `>[!NOTE]` ausente | Adicionar bloco após o cabeçalho do recurso H2 |
@@ -124,6 +124,32 @@ Aplicar essas correções ao formatar:
 | Espaços adicionais em linhas de texto explicativo | Cortar espaço em branco à direita |
 | HTML nas páginas de área de produto | Manter como marcação (o HTML é somente para tabelas de visão geral) |
 | `exl-id` ausente | Deixe-o fora — não gere um |
+
+### Etapa 6: atualizar o sumário
+
+Sempre que você criar uma página de notas de versão **nova** (visão geral ou área de produto), adicione-a a `help/quicksilver/TOC.md` na mesma alteração. Uma página que não esteja no índice não será exibida na navegação publicada, mesmo se os links na tabela de visão geral apontarem para ela.
+
+Onde adicioná-lo:
+
+- O índice tem uma seção por trimestre sob um cabeçalho como `* 2026 Q3 Release {#release-26-q3}`. Se o cabeçalho do trimestre ainda não existir (primeira página de um novo trimestre), adicione-o acima do trimestre anterior para que o trimestre mais recente fique na parte superior.
+- Sob esse cabeçalho de trimestre, liste as páginas nesta ordem:
+   1. **Visão geral** primeiro (`Third Quarter 2026 release overview`).
+   2. **Páginas de área de produto** em ordem alfabética por nome de área (Administrador, Documentos, Operações Empresariais, Projetos, Relatórios, Solicitações).
+   3. **Outras melhorias** por último (sempre após as áreas de produto alfabéticas).
+
+Cada entrada do índice é um link de marcação que usa o título da página e o caminho absoluto do repositório:
+
+```markdown
+      * [Third Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
+```
+
+Corresponder recuo (seis espaços) às entradas ao redor. Use o texto integral da página H1 como o texto do link — por exemplo `Documents enhancements`, `Requesting enhancements` (não `Requests`) — portanto, os rótulos de índice correspondem aos trimestres anteriores.
+
+Erros comuns a evitar:
+
+- Criação de uma página da área do produto sem adicioná-la ao índice.
+- Vinculação a uma visão geral de trimestre diferente da nova página da área de produto (Etapa 3).
+- Inserir as páginas de um novo trimestre sob o cabeçalho do trimestre anterior.
 
 ## Convenções de nomenclatura de arquivos
 
@@ -159,6 +185,7 @@ Ao revisar um arquivo de notas de versão, verifique:
 - [ ] Não há links internos corrompidos
 - [ ] Links de âncora na visão geral correspondem às IDs de seção H3
 - [ Os recursos do ] são ordenados mais recentemente (tanto páginas de área de produtos quanto tabelas de visão geral)
+- [ ] As novas páginas de notas de versão estão listadas em `help/quicksilver/TOC.md` no trimestre correto, com a primeira visão geral e as áreas de produtos em ordem alfabética (Outras por último)
 
 ## Recursos adicionais
 

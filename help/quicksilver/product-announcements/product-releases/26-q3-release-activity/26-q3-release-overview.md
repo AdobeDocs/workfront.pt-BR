@@ -4,10 +4,11 @@ description: Esta página fornece informações sobre a funcionalidade incluída
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7c0226697436bfdaaa1bde1e12fb68c167a48d7a
+exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
+source-git-commit: 1a498abcf4a9ef8940eb2da09da42636253e557a
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 59%
+source-wordcount: '637'
+ht-degree: 53%
 
 ---
 
@@ -17,7 +18,7 @@ Esta página fornece informações sobre a funcionalidade incluída na versão d
 
 As melhorias nesta página estão disponíveis no ambiente de pré-visualização. Esta página será atualizada com melhorias adicionais à medida que a versão do terceiro trimestre de 2026 se aproximar da versão de produção planejada.
 
-Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/pt-br/events?filters=Workfront) e filtre por Workfront.
+Webinários ao vivo são realizados para cada versão trimestral - eles destacam os novos recursos e fornecem informações detalhadas. Para se inscrever, visite a [página de eventos](https://experienceleague.adobe.com/en/events?filters=Workfront) e filtre por Workfront.
 
 >[!IMPORTANT]
 >
@@ -34,7 +35,32 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
 
 ## Aprimoramentos do Adobe Workfront
 
+* [Aprimoramentos de documentos](#documents-enhancements)
 * [Aprimoramentos nas solicitações](#requesting-enhancements)
+
+### Aprimoramentos de documentos
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Recurso</strong>
+            </td>
+            <td><strong>Pré-visualização</strong></td>
+            <td><strong>Lançamento rápido</strong></td>
+            <td><strong>Trimestralmente</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Exibir o uso do armazenamento empresarial do Adobe</a>
+                <p>A página Informações do cliente em Configuração agora inclui uma nova seção Visão geral de armazenamento com medidores de uso para armazenamento corporativo Adobe.</p>
+            </td>
+            <td><p>30 de abril de 2026</p></td>
+            <td><p>14 de maio de 2026</p></td>
+            <td><p>16 de julho de 2026</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Aprimoramentos nas solicitações
 
@@ -53,9 +79,9 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Exibições predefinidas adicionadas à lista de solicitações na área Solicitações e ao widget Minhas solicitações</a><p>[!BADGE Off schedule]{type=Neutral}</p>
                 <p>Para ajudá-lo a organizar melhor sua lista de solicitações, adicionamos as exibições predefinidas à lista de solicitações na área Solicitações e o widget Minhas solicitações na Página inicial.</p>
             </td>
-            <td><p>sexta-feira, 23 de abril de 2026</p></td>
-            <td><p>sexta-feira, 23 de abril de 2026</p></td>
-            <td><p>sexta-feira, 23 de abril de 2026</p></td>
+            <td><p>23 de abril de 2026</p></td>
+            <td><p>23 de abril de 2026</p></td>
+            <td><p>23 de abril de 2026</p></td>
         </tr>
     </tbody>
 </table>
@@ -115,12 +141,10 @@ Para obter informações sobre as versões da API, consulte [controle de versão
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=pt-BR).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### Atualizações de treinamento
 
 Explore as últimas atualizações feitas nos programas de aprendizagem, caminhos de aprendizagem, vídeos e guias para cada versão do Adobe Workfront. Para obter mais informações, consulte a seção &quot;Novidades&quot; da [página de tutoriais do Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=pt-BR).
-
-

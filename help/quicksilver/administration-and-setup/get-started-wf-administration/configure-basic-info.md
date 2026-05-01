@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c298b21e74abc6ac7bed2c8fa4c5a0dc0f6c6237
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '763'
 ht-degree: 6%
 
 ---
 
 # Configurar informações básicas do sistema
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -66,23 +68,30 @@ Para acessar a página Informações do cliente:
 
    As seções disponíveis na área Informações do cliente são:
 
-   * **Informações Básicas**
+* **Informações Básicas**
 
-     Para obter informações sobre como configurar informações básicas no Workfront, consulte [Configurar Informações Básicas](#configure-basic-info).
+  Para obter informações sobre como configurar informações básicas no Workfront, consulte [Configurar Informações Básicas](#configure-basic-info).
 
-   * **Configurações da Chave de API**
 
-     Para obter informações sobre as configurações da chave de API, consulte [Gerenciar chaves de API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
-   * **Incluo na lista de permissões IP**
+* <span class="preview">**Visão geral do armazenamento**
 
-     Para obter informações sobre como adicionar os endereços IP ao seu incluo na lista de permissões para o qual seus usuários podem acessar o Workfront, consulte [Configurar o incluo na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+  Para obter informações sobre como verificar o uso e a cota do armazenamento de documentos, consulte [Verificar limites de armazenamento de documentos](../../documents/managing-documents/check-document-storage.md).</span>
 
-   * **Incluo na lista de permissões de email**
 
-     Para obter informações sobre como adicionar emails ao incluo na lista de permissões, consulte [Configurar incluo na lista de permissões de email](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **Configurações da Chave de API**
 
-   <!--
+  Para obter informações sobre as configurações da chave de API, consulte [Gerenciar chaves de API](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+
+* **Incluo na lista de permissões IP**
+
+  Para obter informações sobre como adicionar os endereços IP ao seu incluo na lista de permissões para o qual seus usuários podem acessar o Workfront, consulte [Configurar o incluo na lista de permissões do firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+
+* **Incluo na lista de permissões de email**
+
+  Para obter informações sobre como adicionar emails ao incluo na lista de permissões, consulte [Configurar incluo na lista de permissões de email](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+
+<!--
    * **License**
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
@@ -132,14 +141,6 @@ Para configurar a seção Informações básicas na área Informações do clien
       <td role="rowheader">Local de email padrão</td> 
       <td>Controla o idioma, a data e o formato do número usados nas mensagens de email de saída. A localidade selecionada aqui é o padrão quando novos usuários são criados. Os usuários podem modificar o local no perfil do usuário. Quando os usuários modificam seu local, o idioma, a data e o formato do número em seus emails do Workfront correspondem às preferências de perfil. Para obter mais informações sobre como modificar suas preferências de perfil, consulte <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configurar minhas configurações</a>.</td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Cota de armazenamento</td> 
-      <td> <p>Essa é a quantidade de espaço de armazenamento de documentos disponível na instância do Workfront.<br>A cota contém documentos que você carregou diretamente no Workfront.<br>Não inclui:</p> 
-       <ul> 
-        <li>Documentos vinculados ao Workfront por meio de qualquer outro provedor de serviços de terceiros (SharePoint, Google Drive, Webdam, Box, Dropbox, qualquer outro provedor de gerenciamento de ativos de documentos).</li> 
-        <li>Seus dados do Workfront (projetos, tarefas, problemas, usuários e assim por diante).</li> 
-       </ul> </td> 
-     </tr>
     </tbody> 
    </table>
 
