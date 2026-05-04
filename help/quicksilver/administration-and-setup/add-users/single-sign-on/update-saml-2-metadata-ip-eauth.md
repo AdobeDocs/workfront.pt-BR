@@ -6,16 +6,15 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 0%
+source-wordcount: '903'
+ht-degree: 5%
 
 ---
 
-# Atualizar os metadados do SAML 2.0 no IDP ao usar a autenticação aprimorada
+# Atualizar os metadados de SAML 2.0 no IDP ao usar a autenticação aprimorada
 
 <!-- enhanced authentication is no longer available for workfront customers -->
 
@@ -30,7 +29,7 @@ Para obter informações sobre como configurar o SAML antes de migrar para a exp
 
 ## Requisitos de acesso
 
-+++ Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +41,7 @@ Para obter informações sobre como configurar o SAML antes de migrar para a exp
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p><p>Plano</p></td> 
+   <td><p>Padrão</p><p>Plano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -104,7 +103,7 @@ Complete as seções a seguir para configurar o Okta como seu provedor de identi
 1. No campo **Value**, especifique **user.email**.
 
 1. (Opcional) Adicione quaisquer valores avançados.
-1. Clique em **Avançar**.
+1. Clique em **Próximo**.
 1. Selecione, **Sou um cliente do Okta adicionando um aplicativo interno** e clique em **Concluir**.
 
 ### Adicione sua instância do Okta como um provedor de identidade na Workfront {#add-your-okta-instance-as-an-identity-provider-in-workfront}

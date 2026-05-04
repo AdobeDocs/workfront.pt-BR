@@ -1,17 +1,16 @@
 ---
-title: aplicativo móvel Workfront Proof
+title: Aplicativo móvel do Workfront Proof
 description: Saiba mais sobre o aplicativo móvel do Workfront Proof.
 hide: true
-hidefromtoc: true
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 0%
+source-wordcount: '1352'
+ht-degree: 1%
 
 ---
 
-# aplicativo móvel Workfront Proof
+# Aplicativo móvel do Workfront Proof
 
 >[!IMPORTANT]
 >

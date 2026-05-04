@@ -2,12 +2,11 @@
 title: Teste oculto
 description: teste oculto
 hide: true
-hidefromtoc: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 5ab33ae7ee37f4afa2546af32af205ef546bae22
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 2%
+ht-degree: 34%
 
 ---
 
@@ -31,7 +30,7 @@ Entre em contato com Bob se houver problemas.
 
 ## Requisitos de acesso (este é um exemplo quando o pacote permanece o mesmo e atualizamos a linha de licenças)
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +44,7 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
    <td> <p>Leve ou superior</p>
-   <p>Trabalhar ou superior</p></td> 
+   <p>Trabalho ou maior</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -62,7 +61,7 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
 
 ## Requisitos de acesso
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -74,8 +73,8 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
-   <p>Trabalhar ou superior</p></td> 
+   <td><p>Padrão</p>
+   <p>Trabalho ou maior</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -92,7 +91,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Requisitos de acesso
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -104,7 +103,7 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
   </td> 
   </tr> 
   <tr> 
@@ -123,7 +122,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Requisitos de acesso (este é um exemplo em que o novo recurso existe apenas nos pacotes 2023/2025)
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table>
   <tr>
@@ -136,7 +135,7 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
   <tr>
    <td>Licenças do Adobe Workfront
    </td>
-   <td>Standard
+   <td>Padrão
    </td>
   </tr>
    <tr>
@@ -147,11 +146,11 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
   </tr>
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Requisitos de acesso (este é um exemplo em que você precisa ter outros produtos)
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table>
   <tr>
@@ -175,7 +174,7 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
   </tr>
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Os pacotes de 2017 devem ser removidos da linha de pacotes
@@ -202,7 +201,7 @@ Pacote: planejamento select, planejamento prime, planejamento final
 
 ## Requisitos de acesso para a maior parte do Workfront Planning
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -226,13 +225,13 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
 <td role="rowheader"><p>Plataforma Adobe Workfront (**&#x200B;**&#x200B;queremos chamar isso ou simplesmente incluí-lo no artigo vinculado na parte inferior???**&#x200B;***)</p></td> 
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p> 
-<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência unificada da Adobe para Workfront</a>. </p> 
+<p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência Unificada da Adobe para Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p> Standard</p> 
+   <td><p> Padrão</p> 
   </td> 
   </tr> 
   <tr> 
@@ -260,7 +259,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 >Se sua empresa comprou o Planejador de cenários da Adobe no passado, ele não tem mais direitos. O Planejador de cenários não está mais disponível para compra.
 
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 

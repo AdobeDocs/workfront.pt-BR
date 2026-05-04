@@ -6,15 +6,14 @@ description: Revise a atividade de lançamento semanal para a nova experiência 
 author: Alina
 feature: Product Announcements
 hide: true
-hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1870'
-ht-degree: 2%
+source-wordcount: '2031'
+ht-degree: 1%
 
 ---
 
@@ -108,7 +107,7 @@ Esta será a única experiência de comentários para esses objetos, pois a expe
 
 Para obter mais informações, consulte [Nova experiência de comentários](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-Versão preliminar: sexta-feira, 17 de agosto de 2023
+Versão de pré-visualização: 17 de agosto de 2023
 
 Versão de produção para lançamento rápido: com o lançamento 23.8 (31 de agosto de 2023)
 
@@ -136,7 +135,7 @@ Reprojetamos o novo fluxo de comentários para oferecer uma aparência mais atua
 
 Para obter mais informações, consulte [Visão geral da guia Atualizações](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Versão preliminar: sexta-feira, 17 de agosto de 2023
+Versão de pré-visualização: 17 de agosto de 2023
 
 Produção para lançamento rápido: com o lançamento 23.8 (31 de agosto de 2023)
 
@@ -154,7 +153,7 @@ Para respaldar essa alteração, também renomeamos a opção &quot;Comentar no 
 
 Para obter mais informações, consulte [Nova experiência de comentários](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-Versão preliminar: sexta-feira, 17 de agosto de 2023
+Versão de pré-visualização: 17 de agosto de 2023
 
 Produção para lançamento rápido: com o lançamento 23.8 (31 de agosto de 2023)
 
@@ -164,7 +163,7 @@ Produção para lançamento trimestral: com a versão 23.10 (outubro de 2023)
 
 Para oferecer melhor visibilidade sobre quais usuários são marcados em uma atualização, agora exibimos os nomes dos usuários (até dois usuários) marcados em uma atualização. Para obter mais informações, consulte [Marcar outros em atualizações](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-Versão preliminar: sexta-feira, 17 de agosto de 2023
+Versão de pré-visualização: 17 de agosto de 2023
 
 Produção para lançamento rápido: com o lançamento 23.8 (31 de agosto de 2023)
 
@@ -186,7 +185,7 @@ Pré-visualização e produção: 10 de agosto de 2023
 
 Um proprietário de comentário agora é marcado automaticamente em um thread. Antes desta atualização, somente os usuários que foram marcados usando as tags &quot;@name&quot; ou adicionando-os à seção &quot;Marcar pessoas ou equipes&quot; eram exibidos na lista de usuários marcados. Com isso, agora é possível remover o proprietário de um comentário da thread, se necessário, mesmo que eles não tenham sido marcados manualmente antes.
 
-Versão preliminar: quinta-feira, 12 de julho de 2023
+Versão de pré-visualização: 12 de julho de 2023
 
 Versão de produção: 13 de julho de 2023
 
@@ -198,7 +197,7 @@ Reprojetamos a interface para registrar tempo da área Atualizações na nova ex
 
 Para obter mais informações, consulte [Registro de tempo](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-Versão preliminar: quinta-feira, 5 de julho de 2023
+Versão de pré-visualização: 5 de julho de 2023
 
 Versão de produção: com a versão 23.3 (julho de 2023)
 

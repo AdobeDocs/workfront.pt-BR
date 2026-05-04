@@ -5,17 +5,16 @@ title: Mudar da página inicial herdada para a nova página inicial
 description: A página inicial herdada será removida do Workfront em 17/10 com a versão do quarto trimestre. Este artigo fornece informações sobre qual funcionalidade estará disponível na nova página inicial, bem como recomendações para mover os usuários para a nova experiência na página inicial.
 author: Courtney
 hide: true
-hidefromtoc: true
 feature: Get Started with Workfront
 exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
-source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 5%
+source-wordcount: '1667'
+ht-degree: 6%
 
 ---
 
-# Mudar da página inicial herdada para a nova página inicial
+# Mudar da página inicial legada para a nova página inicial
 
 A página inicial herdada será removida do Workfront em 17/10 com a versão do quarto trimestre. Este artigo fornece informações sobre qual funcionalidade estará disponível na nova página inicial, bem como recomendações para os administradores do Workfront que migram os usuários para a nova experiência na página inicial.
 
@@ -119,7 +118,7 @@ Além do painel Resumo, os usuários também podem usar ações rápidas para
 * Registrar de tempo
 * Adicionar uma atualização
 * Atualizar um formulário personalizado
-* Carregar um arquivo
+* Fazer upload de um arquivo
 
 Para localizar o menu de ações rápidas, passe o mouse sobre o item de trabalho. A lista de ações rápidas é exibida próximo ao botão **Trabalhar nisto** ou **Concluído**.
 
@@ -169,7 +168,7 @@ Abaixo estão os 11 widgets atualmente disponíveis para escolher, bem como um r
     Exibe todas as solicitações pendentes para as equipes nas quais você está, classificadas por equipe, bem como botões para atribuir diretamente uma solicitação a um usuário ou para trabalhar nela você mesmo.
 
 * **Minha aprovação**\
-    Exibe todas as suas aprovações atribuídas ou delegadas pendentes, um botão para delegar aprovações e botões para tomar decisões de aprovação diretamente no dispositivo.
+    Exibe todas as suas aprovações atribuídas ou delegadas pendentes, um botão para delegar aprovações e botões para tomar decisões de aprovação diretamente no widget.
 
 * **Todas as aprovações**\
         Exibe dois gráficos com informações sobre o tempo médio de aprovação e as decisões, bem como exibições de lista de aprovações pendentes e vencidas. <span style="color: #ff0000;">Este recurso faz parte de uma versão em fases e, no momento, está disponível apenas para clientes específicos.</span>
@@ -198,7 +197,7 @@ Por padrão, a Página inicial é preenchida com alguns widgets específicos com
         <td><b>Widgets padrão</b></td>
     </tr>
     <tr>
-        <td>Standard</td>
+        <td>Padrão</td>
         <td>Meus projetos, Meu trabalho, Menções, Tarefas pendentes</td>
     </tr>
     <tr>
@@ -272,8 +271,8 @@ Fazer isso o mais rápido possível dará aos usuários tempo para se ajustarem 
 
 **Treinamento**
 
-* [Tutorial sobre remoção, adição e reorganização de widgets na Página Inicial](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
-* [Fundamentos do Worker no Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+* [Tutorial Remover, adicionar e reorganizar widgets na Página inicial](https://experienceleague.adobe.com/pt-br/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Fundamentos do trabalhador no Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
 >

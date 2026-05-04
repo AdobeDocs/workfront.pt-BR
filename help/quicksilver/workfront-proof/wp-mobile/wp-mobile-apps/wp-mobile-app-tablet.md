@@ -1,13 +1,12 @@
 ---
-title: aplicativo móvel Workfront Proof para tablets
+title: Aplicativo móvel do Workfront Proof para tablets
 description: O aplicativo tablet [!DNL Workfront Proof]  permite que você revise e aprove convenientemente suas provas quando estiver em movimento. O aplicativo está disponível para download para todos. Você não precisa ser um  [!DNL Workfront Proof] usuário para poder revisar provas no tablet ou no telefone.
 hide: true
-hidefromtoc: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 0%
+source-wordcount: '1995'
+ht-degree: 1%
 
 ---
 
@@ -143,7 +142,7 @@ A prova de texto em movimento está realmente no aplicativo tablet [!DNL Workfro
 
    | **[!UICONTROL Realce]** | Realça o texto e o copia para a caixa de comentários. |
    |---|---|
-   | **[!UICONTROL Substituir]** | Adiciona [[!UICONTROL SUBSTITUIR]] e [[!UICONTROL COM]] à caixa de comentário junto com o texto, facilitando a recomendação de texto de substituição. |
+   | **[!UICONTROL Replace]** | Adiciona [[!UICONTROL SUBSTITUIR]] e [[!UICONTROL COM]] à caixa de comentário junto com o texto, facilitando a recomendação de texto de substituição. |
    | **[!UICONTROL Excluir]** | Risca o texto e adiciona [DELETE] à caixa de comentário. |
    | **[!UICONTROL Inserir após]** | Adiciona [INSERIR DEPOIS] à caixa de comentários. |
 
@@ -186,7 +185,7 @@ A ferramenta de comparação exibe as duas versões mais recentes da prova.
 1. Para alterar as versões que deseja comparar, use os menus suspensos de versões na parte superior da página.
 1. Para selecionar uma prova diferente da mesma pasta, use o navegador de pastas (o ícone de pasta disponível na parte superior da página).
 
-   ![version_dropdowns.png](assets/version-dropdowns-350x265.png)
+   ![versão_menus.png](assets/version-dropdowns-350x265.png)
    ![folder_browser.png](assets/folder-browser-350x269.png)
 A ferramenta de comparação oferece a capacidade de comparar versões lado a lado para verificar se as alterações solicitadas foram feitas. Se você desbloquear a navegação, será possível comparar páginas diferentes de ambas as versões.
 
