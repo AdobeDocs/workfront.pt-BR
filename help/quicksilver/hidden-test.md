@@ -3,16 +3,16 @@ title: Teste oculto
 description: teste oculto
 hide: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 25c6a73ca1f7580606a361c93a7c10d2f01271c2
+source-git-commit: aa90f5437ddd4ff7476271a322926e5eaf24d6b4
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '618'
 ht-degree: 34%
 
 ---
 
 # Teste oculto
 
-4 de maio
+Que a 4ª Abelha
 
 Arquivo oculto usado para testar os tempos de publicação em um repositório maior.
 
@@ -224,7 +224,7 @@ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
    <td> 
 <p>Qualquer pacote de fluxo de trabalho do Adobe Workfront e qualquer pacote do Adobe Workfront Planning</p> 
    </td> </tr>
-<td role="rowheader"><p>Plataforma Adobe Workfront (**&#x200B;**&#x200B;queremos chamar isso ou simplesmente incluí-lo no artigo vinculado na parte inferior???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Plataforma Adobe Workfront (****queremos chamar isso ou simplesmente incluí-lo no artigo vinculado na parte inferior???*****)</p></td> 
    <td> 
 <p>A instância da Workfront de sua organização deve ser integrada à Adobe Unified Experience para acessar o Workfront Planning.</p> 
 <p>Para obter mais informações, consulte <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Experiência Unificada da Adobe para Workfront</a>. </p> 
