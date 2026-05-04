@@ -8,11 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: true
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 7%
@@ -88,7 +87,7 @@ Para obter mais informações sobre como criar modelos de fluxo de trabalho de a
 
 Quando um usuário inicia uma revisão no GenStudio for Performance Marketing, ele simplesmente escolhe o modelo necessário. Os usuários podem alterar facilmente qualquer modelo de fluxo de trabalho de aprovação unificada, adicionando ou removendo revisores e estágios, a qualquer momento.
 
-Para obter mais informações, consulte [Solicitar revisão e aprovação](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Para obter mais informações, consulte [Solicitar revisão e aprovação](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Revisar e aprovar o conteúdo de rascunho do GenStudio for Performance Marketing no visualizador Frame.io
 
@@ -107,4 +106,4 @@ Para obter mais informações sobre como usar o visualizador Frame.io, consulte 
 
 Depois que o ativo tiver passado pelo processo de revisão e aprovação, você poderá visualizar a decisão de revisão e publicar o conteúdo diretamente do GenStudio for Performance Marketing.
 
-Para obter mais informações, consulte [Publicar conteúdo aprovado](https://experienceleague.adobe.com/pt-br/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Para obter mais informações, consulte [Publicar conteúdo aprovado](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

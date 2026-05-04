@@ -1,13 +1,12 @@
 ---
-title: Workfront Proof mobile
+title: Workfront Proof para dispositivos móveis
 description: Saiba mais sobre o Workfront Proof Mobile.
 hide: true
-hidefromtoc: true
 exl-id: 5f2280d0-8a4d-4daa-b5d9-ce347d2892ed
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 0%
+source-wordcount: '55'
+ht-degree: 23%
 
 ---
 

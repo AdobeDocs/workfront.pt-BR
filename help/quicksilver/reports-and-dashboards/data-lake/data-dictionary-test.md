@@ -7,14 +7,13 @@ description: Para acessar os dados do Data Connect, primeiro você deve criar um
 author: Courtney
 feature: Reports and Dashboards
 hide: true
-hidefromtoc: true
-source-git-commit: a42c13804b0463af27bac6f9166bc6e3c41d3fda
+exl-id: 8ac99353-ebb9-46d9-b1ad-1cdbdc974f49
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '156'
 ht-degree: 8%
 
 ---
-
 
 # Teste
 
@@ -25,7 +24,7 @@ ht-degree: 8%
     <tr>
         <th>Nome da entidade Workfront</th>
         <th>Referências da interface</th>
-        <th>Referência da API | Rótulo</th>
+        <th>Referência da API Rótulo |</th>
         <th>Visualizações do Data Lake</th>
     </tr>
   </thead>
@@ -37,12 +36,12 @@ ht-degree: 8%
     </tr>
      <tr>
      <tr>
-         <td colspan="4"><strong>Campo de relações</strong> <br>
-         ACCESSLEVELID (self): Self<br>
+         <td colspan="4"><strong>Campo de relacionamentos</strong> <br>
+         ACCESSLEVELID (self): Próprio<br>
          APPGLOBALID: não é uma relação; usada para fins de aplicativo interno<br>
          LASTUPDATEDBYID: USER_CURRENT | ID DE USUÁRIO<br>
          LEGACYACCESSLEVELID: não é uma relação; usada para fins de aplicativo interno<br>
-         OBJID: a ID do objeto identificado no campo OBJCODE <br>
+         OBJID: A ID do objeto identificado no campo OBJCODE <br>
          SYSID: Não é um relacionamento; usado para fins de aplicação interna</td>
     </tr>
 </table>
@@ -54,7 +53,7 @@ ht-degree: 8%
     <tr>
         <th>Nome da entidade Workfront</th>
         <th>Referências da interface</th>
-        <th>Referência da API | Rótulo</th>
+        <th>Referência da API Rótulo |</th>
         <th>Visualizações do Data Lake</th>
     </tr>
   </thead>
@@ -66,11 +65,11 @@ ht-degree: 8%
     </tr>
      <tr>
      <tr>
-         <td colspan="4"><strong>Campo de relações</strong> <br>
+         <td colspan="4"><strong>Campo de relacionamentos</strong> <br>
          <ul>
             <li>ACCESSLEVELID (self): Próprio</li>
             <li>APPGLOBALID: não é uma relação; usada para fins de aplicativo interno</li>
-            <li>LASTUPDATEDBYID: USER_CURRENT | USERID</li>
+            <li>LASTUPDATEDBYID: USER_CURRENT | ID DE USUÁRIO</li>
             <li>LEGACYACCESSLEVELID: não é uma relação; usada para fins de aplicativo interno</li>
             <li>OBJID: A ID do objeto identificado no campo OBJCODE</li>
             <li>SYSID: Não é um relacionamento; usado para fins de aplicação interna</li>

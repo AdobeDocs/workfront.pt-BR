@@ -1,21 +1,20 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: Redefinir a senha de um usuário com Autenticação Aprimorada
+title: Redefinir a senha de um usuário com autenticação aprimorada
 description: Quando a Autenticação Aprimorada (eAuth) está habilitada para o seu Ambiente  [!DNL Workfront] , um administrador  [!DNL Workfront]  não pode redefinir as credenciais de logon de outro usuário. Isso difere de  [!DNL Workfront] ambientes sem eAuth ou dos ambientes para os quais o Logon único (SSO) está habilitado.
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 1%
+source-wordcount: '197'
+ht-degree: 16%
 
 ---
 
-# Redefinir a senha de um usuário com Autenticação Aprimorada
+# Redefinir a senha de um usuário com autenticação aprimorada
 
 <!--This article has been hidden by request-->
 
@@ -23,7 +22,7 @@ Quando a Autenticação Aprimorada (eAuth) está habilitada para o Ambiente [!DN
 
 ## Requisitos de acesso
 
-Você deve ter o seguinte acesso para executar as etapas deste artigo:
+Você deve ter o seguinte acesso para realizar as etapas descritas neste artigo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +34,7 @@ Você deve ter o seguinte acesso para executar as etapas deste artigo:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licença*</strong></td> 
-   <td> <p>[!UICONTROL Plano]</p> </td> 
+   <td> <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurações de nível de acesso*</strong></td> 
