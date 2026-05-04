@@ -4,10 +4,10 @@ description: Este é um artigo interno para nossa equipe manter um inventário d
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
+source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 2%
+source-wordcount: '1321'
+ht-degree: 36%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## Requisitos de acesso (este é um exemplo quando o pacote permanece o mesmo e atualizamos a linha de licenças)
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
    <td> <p>Leve ou superior</p>
-   <p>Trabalhar ou superior</p></td> 
+   <p>Trabalho ou maior</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -56,7 +56,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Requisitos de acesso
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -68,8 +68,8 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
-   <p>Trabalhar ou superior</p></td> 
+   <td><p>Padrão</p>
+   <p>Trabalho ou maior</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -86,7 +86,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Requisitos de acesso (disponíveis somente para novos clientes)
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,7 +98,7 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td><p>Standard</p>
+   <td><p>Padrão</p>
   </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Requisitos de acesso (este é um exemplo em que o novo recurso existe apenas nos pacotes 2023/2025)
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table>
   <tr>
@@ -130,7 +130,7 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
   <tr>
    <td>Licenças do Adobe Workfront
    </td>
-   <td>Standard
+   <td>Padrão
    </td>
   </tr>
    <tr>
@@ -141,11 +141,11 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
   </tr>
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Requisitos de acesso (este é um exemplo em que você precisa ter outros produtos)
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table>
   <tr>
@@ -158,7 +158,7 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
     <tr>
    <td>Licenças do Adobe Workfront
    </td>
-   <td>Standard
+   <td>Padrão
    </td>
   </tr>
   <tr>
@@ -175,7 +175,7 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
   </tr>
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Os pacotes de 2017 devem ser removidos da linha de pacotes
@@ -209,7 +209,7 @@ Pacote: planejamento select, planejamento prime, planejamento final
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licença</td> 
-   <td> <p>Standard</p>
+   <td> <p>Padrão</p>
    <p>Plano</p> </td> 
   </tr> 
   <tr> 
@@ -226,7 +226,7 @@ Pacote: planejamento select, planejamento prime, planejamento final
 
 ## Requisitos de acesso para a maior parte do Workfront Planning
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -249,7 +249,7 @@ E
 </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
   </td> 
   </tr> 
   <tr> 
@@ -264,7 +264,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 
 ## Requisitos de acesso para tipos de registros centralizados no Workfront Planning
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -288,7 +288,7 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
 </tr> 
   <tr> 
    <td role="rowheader"><p>Licença do Adobe Workfront</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Padrão</p> 
   </td> 
   </tr> 
   <tr> 
@@ -308,7 +308,7 @@ Para obter mais informações sobre requisitos de acesso do Workfront, consulte 
 >
 >Se sua empresa comprou o Planejador de cenários da Adobe no passado, ele não tem mais direitos. O Planejador de cenários não está mais disponível para compra.
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -345,7 +345,7 @@ Para obter informações, consulte [Requisitos de acesso à documentação do Wo
 >
 >Você pode continuar usando o Adobe Workfront Goals se sua empresa comprou esse pacote no passado. O Adobe Workfront Goals não está mais disponível para compra.
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -359,7 +359,7 @@ Expanda para visualizar os requisitos de acesso para a funcionalidade neste arti
   </tr> 
   <tr> 
    <td> <p>Licença do Adobe Workfront</p> </td> 
-   <td> <p>Colaborador ou superior</p> 
+   <td> <p>Colaborador ou posterior</p> 
    Ou
    <p>Solicitante ou superior</p> </td> 
   </tr>
@@ -378,7 +378,7 @@ Para obter informações, consulte [Requisitos de acesso à documentação do Wo
 
 ## Requisitos de acesso para gerenciamento de recursos (exemplo de várias licenças possíveis; todos os pacotes RM agora são Any)
 
-Expanda para visualizar os requisitos de acesso para a funcionalidade neste artigo.
+Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -408,22 +408,22 @@ Para obter informações, consulte [Requisitos de acesso na documentação do Wo
 
 ## Requisitos de acesso para automação e integração do Adobe Workfront
 
-<p>Baseado em conector (herdado): automação e integração do Workfront Fusion for Work </p>
+<p>Baseado em conector (legado): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Se sua organização tiver um pacote Select ou Prime Workfront que não inclua a Automação e Integração do Workfront, ela deverá comprar o Adobe Workfront Fusion.</li></ul>
+   <p>Se sua organização tiver um pacote Workfront Select ou Prime, ele não inclui o Workfront Automation and Integration. É necessário comprar o Adobe Workfront Fusion.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 
-Para obter informações sobre licenças do Adobe Workfront Fusion, consulte [licenças do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Para obter informações sobre licenças do Adobe Workfront Fusion, consulte [Licenças do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 ## Controles avançados corporativos
 
@@ -461,36 +461,36 @@ Advanced Enterprise Controls:
  <tbody> 
   <tr> 
    <td role="rowheader">Pacote do Adobe Workfront</td> 
-   <td> <p>Qualquer pacote de fluxo de trabalho do Adobe Workfront e qualquer pacote de Automação e Integração do Adobe Workfront</p><p>Workfront Ultimate</p><p>Workfront Prime e pacotes Select, com uma compra adicional do Workfront Fusion.</p> </td> 
+   <td> <p>Qualquer pacote de fluxo de trabalho do Adobe Workfront e qualquer pacote do Adobe Workfront Automation and Integration</p><p>Workfront Ultimate</p><p>Os pacotes Workfront Prime e Select, com uma compra adicional do Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Licenças do Adobe Workfront</td> 
-   <td> <p>Standard</p><p>Trabalhar ou superior</p> </td> 
+   <td> <p>Padrão</p><p>Trabalho ou maior</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront Fusion</td> 
    <td>
    <p>Baseado em operação: nenhum requisito de licença do Workfront Fusion</p>
-   <p>Baseado em conector (herdado): automação e integração do Workfront Fusion for Work </p>
+   <p>Baseado em conector (legado): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produto</td> 
    <td>
-   <p>Se sua organização tiver um pacote Select ou Prime Workfront que não inclua a Automação e Integração do Workfront, ela deverá comprar o Adobe Workfront Fusion.</li></ul>
+   <p>Se sua organização tiver um pacote Workfront Select ou Prime, ele não inclui o Workfront Automation and Integration. É necessário comprar o Adobe Workfront Fusion.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Para obter mais detalhes sobre as informações contidas nesta tabela, consulte [Requisitos de acesso na documentação](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
-Para obter informações sobre licenças do Adobe Workfront Fusion, consulte [licenças do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Para obter informações sobre licenças do Adobe Workfront Fusion, consulte [Licenças do Adobe Workfront Fusion](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 <td> <p>Qualquer</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença da Adobe Workfront*</td> 
-   <td>  <p>Standard</p>
+   <td>  <p>Padrão</p>
    <p>Trabalho ou Plano</p> </td> 
   </tr> 
   <tr> 
