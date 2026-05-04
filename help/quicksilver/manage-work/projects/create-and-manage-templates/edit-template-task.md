@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3062'
 ht-degree: 7%
 
 ---
@@ -123,13 +123,19 @@ Antes de começar, você deve
 1. Para editar informações limitadas sobre a tarefa de modelo, faça o seguinte:
    1. (Opcional) Clique em **Atualizações** no painel esquerdo para adicionar atualizações à tarefa de modelo. As atualizações de modelos de tarefa não são transferidas para tarefas do projeto quando o modelo é usado para criar um projeto.
    1. (Opcional) Clique em **Documentos** no painel esquerdo para adicionar documentos à tarefa de modelo. Os documentos serão transferidos para as tarefas do projeto quando você usar o modelo para criar o projeto.
+
+      >[!TIP]
+      >
+      >Adicionar documentos a uma tarefa de modelo difere dependendo se sua organização usa o armazenamento do Workfront ou do Adobe para armazenar documentos. Para obter informações, consulte [Adicionar documentos ao Adobe Workfront a partir do seu sistema de arquivos](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
    1. (Condicional) Para editar informações limitadas sobre uma tarefa de modelo, clique em **Detalhes da Tarefa de Modelo** no painel esquerdo e vá para as áreas da seção Detalhes para editar as informações de cada área.
    1. (Opcional) Siga qualquer um destes procedimentos:
       * Clique no ícone **Recolher tudo** ![Recolher todo o ícone](assets/collapse-all-icon.png) para recolher todas as áreas.
       * Clique no ícone **Editar** ![Editar ícone](assets/edit-icon.png) e selecione qualquer uma das áreas abaixo ou clique em **Editar tudo** para editar informações em todas as áreas:
 
+
          * Visão geral
-         * Forms personalizado
+         * Formulários personalizados
 Os nomes dos formulários de alfândega são exibidos somente se houver formulários personalizados anexados à tarefa de modelo.
          * Finanças
 
@@ -603,6 +609,11 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. To edit limited information about the template task, do the following: 
    1. (Optional) Click **Updates** in the left panel to add updates to the template task. Template task updates do not transfer to project tasks when the template is used to create a project.
    1. (Optional) Click **Documents** in the left panel to add documents to the template task. The documents will transfer to the project tasks when you use the template to create the project. 
+
+      >[!TIP]
+      >
+      >Adding documents to a template task differs depending on whether your organization uses Workfront or Adobe storage to store documents. For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md). 
+      
    1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
    1. (Optional) Do any of the following: 
       * Click the **Collapse all** icon ![Collapse all icon](assets/collapse-all-icon.png) to collapse all areas. 
