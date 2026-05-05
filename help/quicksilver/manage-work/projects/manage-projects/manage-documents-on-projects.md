@@ -6,9 +6,9 @@ description: Dependendo de o administrador do Workfront escolher o padrão de su
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Essa preferência permite armazenar automaticamente documentos anexados a objeto
 
 >[!IMPORTANT]
 >
->Nem todos os clientes têm acesso ao armazenamento Workfront e Adobe. Alguns clientes têm acesso somente ao Workfront, enquanto outros têm acesso somente ao armazenamento Adobe Enterprise por padrão. Nenhuma configuração é necessária para clientes sem acesso ao armazenamento da Workfront.
+>Sua instância do Workfront pode não ter acesso ao armazenamento da Workfront e do Adobe. Algumas instâncias do Workfront têm acesso somente ao Workfront, enquanto outras têm acesso somente ao armazenamento Adobe Enterprise por padrão. Nenhuma configuração é necessária para clientes com acesso a apenas um tipo de armazenamento.
 
 O administrador do Workfront pode executar um dos seguintes procedimentos:
 
@@ -179,7 +179,7 @@ Considere o seguinte ao trabalhar com modelos:
 * Quando você cria um modelo de armazenamento corporativo do Adobe, o Workfront cria uma pasta na seção Documentos do modelo em que os documentos são salvos. O nome da pasta é igual ao do programa. Não é possível excluir ou renomear manualmente a pasta. A pasta será renomeada se você alterar o nome do modelo para corresponder ao novo nome do modelo.
 * Você pode usar um modelo de armazenamento Workfront para criar projetos de armazenamento Workfront; você pode usar um modelo de armazenamento Adobe para criar um projeto de armazenamento Adobe.
 * Você pode anexar um modelo de armazenamento Workfront a um projeto de armazenamento Adobe e isso não altera o local de armazenamento do projeto.
-* Você pode anexar um modelo de armazenamento Adobe a um projeto de armazenamento Workfront e isso não altera o local de armazenamento do projeto.
+* Você pode anexar um modelo de armazenamento Adobe a um projeto de armazenamento Workfront e isso não altera o local de armazenamento do projeto. Os documentos na pasta de armazenamento Adobe do modelo são adicionados diretamente ao projeto, sem a pasta, enquanto os documentos nas pastas de tarefas do modelo são adicionados às pastas anexadas às tarefas do projeto na seção Documentos das tarefas.
 
 ### Gerenciamento de documentos para tarefas de modelo
 

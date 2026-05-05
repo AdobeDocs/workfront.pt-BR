@@ -6,9 +6,9 @@ description: Você pode excluir problemas ou solicitações no Adobe Workfront s
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '797'
 ht-degree: 3%
 
 ---
@@ -78,6 +78,8 @@ Os seguintes objetos anexados a uma ocorrência também são excluídos quando v
 * Documentos
 
   Não é possível excluir um problema que tenha um documento com check-out anexado a ele. Para obter mais informações sobre o check-out de documentos, consulte [Check-out de documentos](../../../documents/managing-documents/check-out-documents.md).
+
+  Não é possível restaurar documentos individuais que foram excluídos quando o problema foi excluído da guia Documentos na Lixeira. Você só poderá restaurar os documentos excluídos quando o problema tiver sido excluído ao restaurá-lo.
 
 * Notas
 * Aprovações

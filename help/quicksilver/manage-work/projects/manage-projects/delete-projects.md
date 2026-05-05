@@ -9,9 +9,9 @@ exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1106'
 ht-degree: 10%
 
 ---
@@ -114,6 +114,8 @@ Old:
    * Documentos
 
      Não é possível excluir um projeto que tenha um documento anexado cujo check-out tenha sido feito. Para obter mais informações sobre o check-out de documentos, consulte [Check-out de documentos](../../../documents/managing-documents/check-out-documents.md).
+
+     Não é possível restaurar documentos individuais que foram excluídos quando o projeto foi excluído da guia Documentos na Lixeira. Você só poderá restaurar os documentos excluídos quando o projeto tiver sido excluído ao restaurar o projeto.
 
    * Tarefas
    * Subtarefas

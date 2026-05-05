@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1629'
 ht-degree: 3%
 
 ---
@@ -167,14 +167,19 @@ Considere o seguinte:
 
      Se estiver usando um modelo ao criar o projeto convertendo o problema, consulte o segundo cenário acima para entender qual Grupo e qual Status o Workfront aplica ao novo projeto.
 
-* Onde os documentos são armazenados em um projeto e seus objetos filho (tarefas e problemas) dependem do que o administrador do Workfront escolhe como padrão para Preferências de armazenamento na área Preferências do sistema da Configuração. Dependendo de onde você armazena documentos na instância do Workfront, é possível criar os seguintes tipos de projetos:
+* Onde os documentos são armazenados para um projeto e para seus objetos filhos (tarefas e problemas) depende do que o administrador do Workfront escolhe como padrão para Preferências de armazenamento na área Preferências do sistema da Configuração. Dependendo de onde você armazena documentos na instância do Workfront, é possível criar os seguintes tipos de projetos:
 
    * Projetos de armazenamento herdados do Workfront
    * Projetos de armazenamento corporativo da Adobe.
 
   Para obter mais informações, consulte [Habilitar o armazenamento corporativo da Adobe para sua organização](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
-* Ao criar um projeto de armazenamento corporativo, uma pasta de documentos com o mesmo nome do projeto é criada para a seção **Documentos** do projeto. Depois de adicionar tarefas ao projeto, pastas com o nome da tarefa são adicionadas à seção **Documentos** de cada tarefa.
+  >[!TIP]
+  >
+  > Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
+
+
+* Ao criar um projeto de armazenamento corporativo, uma pasta de documentos com o mesmo nome do projeto é criada na seção **Documentos** do projeto. Depois de adicionar tarefas ao projeto, pastas com o nome da tarefa são adicionadas à seção **Documentos** de cada tarefa.
 
 Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -204,15 +209,16 @@ Para obter mais informações, consulte [Visão geral do gerenciamento de docume
 
      >[!NOTE]
      >
-     >Quando você cria um projeto de armazenamento corporativo a partir de um portfólio ou programa de armazenamento da Workfront, o portfólio ou programa também é convertido em objetos de armazenamento corporativo. Todos os outros projetos de armazenamento da Workfront no mesmo portfólio ou programa permanecem inalterados.
+     >* Quando você cria um projeto de armazenamento corporativo a partir de um portfólio ou programa de armazenamento da Workfront, o portfólio ou programa também é convertido em objetos de armazenamento corporativo. Todos os outros projetos de armazenamento da Workfront no mesmo portfólio ou programa permanecem inalterados.
+     >* Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
 
      Um projeto é criado e seu nome padrão segue os seguintes padrões, dependendo de qual armazenamento o Workfront usa para documentos:
 
-      * **Projeto sem título** para um projeto Workfront-storage.
+      * `Untitled Project` para um projeto de armazenamento Workfront.
 
         Um projeto de armazenamento Workfront exibe um **ícone de armazenamento herdado do Workfront** ![ícone de projeto de armazenamento herdado](assets/legacy-storage-project-icon.png) ao lado de seu nome.
 
-      * **Projeto sem título - &lt; Dia do mês, ano hora.minuto.segundo >** para um projeto Adobe-storage
+      * `Untitled Project - < Month day, year hour.minute.second >` para um projeto de armazenamento Adobe
 
         >[!IMPORTANT]
         >
