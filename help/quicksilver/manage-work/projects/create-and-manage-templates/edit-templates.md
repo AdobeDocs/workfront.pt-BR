@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '5076'
+source-wordcount: '5112'
 ht-degree: 3%
 
 ---
@@ -130,7 +130,7 @@ Old:
    >
    >Para obter informações sobre todos os campos exibidos na área Detalhes, continue editando todos os campos usando a caixa Editar modelo abaixo.
 
-1. (Condicional) Para editar todas as informações sobre o modelo, clique no ícone **Mais** do menu ![Mais](assets/more-icon.png) ao lado do nome do modelo e clique em **Editar**.
+1. (Condicional) Para editar todas as informações sobre o modelo, clique no ícone ![Mais **do menu** Mais](assets/more-icon.png) ao lado do nome do modelo e clique em **Editar**.
 
    A caixa **Editar Modelo** é aberta. As seções nesta caixa contêm os campos disponíveis na seção Detalhes do Modelo, bem como campos adicionais.
 
@@ -297,7 +297,7 @@ Old:
       <td><p>Especifique se as métricas de Valor Agregado do projeto futuro serão calculadas usando horas ou custos. Para obter mais informações sobre o Método de Índice de Desempenho, consulte <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Definir o PIM (Método de Índice de Desempenho)</a>. </p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Benefício Planejado</strong></td> 
+      <td role="rowheader"><strong>Benefício planejado</strong></td> 
       <td><p>Especifique o Benefício Planejado dos projetos criados com base neste modelo. O Benefício Planejado é usado no Business Case do projeto e no Portfolio Otimizer. </p><p>Para obter mais informações sobre o Benefício Planejado de um projeto, consulte <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Visão Geral do Benefício Planejado do projeto</a>. O Benefício Planejado de um projeto é considerado quando o Valor Líquido de um projeto é calculado. </p><p>Para obter mais informações sobre como usar o Portfolio Otimizer, consulte <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Gerenciar projetos no Portfolio Otimizer</a>. </p></td> 
      </tr> 
      <tr> 
@@ -391,7 +391,7 @@ Old:
        </ul> 
        </div> <p>Selecione entre as seguintes opções:<br></p> 
        <ul> 
-       <li> <p><strong>Automático e Mediante alteração</strong> (Configuração padrão): a linha de tempo do projeto futuro é atualizada sempre que ocorre uma alteração no projeto ou em outro projeto do qual a linha de tempo depende (Mediante alteração). A linha do tempo do projeto também é atualizada todas as noites (Automático).<br>Esta é a configuração recomendada para este campo porque ela garante que a linha de tempo do projeto esteja sempre atualizada.<br>Quando você executa uma ação em uma tarefa ou projeto que dispara um recálculo de linha de tempo, todas as datas disponíveis são exibidas imediatamente, permitindo que você continue trabalhando. Em projetos com mais de 100 tarefas, as datas que exigem recálculos mais longos são exibidas brevemente como um ponto de interrogação (entre 1 e 5 segundos ou até um minuto para projetos grandes). Isso indica que o recálculo ainda não foi concluído e as datas estão sujeitas a alterações.<br></p> </li> 
+       <li> <p><strong>Automático e Mediante alteração</strong> (Configuração padrão): a linha de tempo do projeto futuro é atualizada sempre que ocorre uma alteração no projeto ou em outro projeto do qual a linha de tempo depende (Mediante alteração). A linha de tempo do projeto também é atualizada todas as noites (Automática).<br>Essa é a configuração recomendada para esse campo porque ela garante que a linha de tempo do projeto esteja sempre atualizada.<br>Quando você executa uma ação em uma tarefa ou projeto que dispara um recálculo de linha de tempo, todas as datas disponíveis são exibidas imediatamente, permitindo que você continue trabalhando. Em projetos com mais de 100 tarefas, as datas que exigem recálculos mais longos são exibidas brevemente como um ponto de interrogação (entre 1 e 5 segundos ou até um minuto para projetos grandes). Isso indica que o recálculo ainda não foi concluído e as datas estão sujeitas a alterações.<br></p> </li> 
        </ul> 
        <ul> 
        <li> <p><strong>Somente Alteração</strong>: a linha de tempo do projeto é atualizada sempre que ocorre uma alteração no projeto ou em outro projeto do qual a linha de tempo depende. Você pode selecionar essa opção se alterações raramente ocorrerem no projeto ou em outros projetos dos quais a linha do tempo depende.<br></p> </li> 
@@ -425,7 +425,7 @@ Old:
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Risco</strong> </td> 
-       <td> <p>Defina o nível de risco dos projetos criados a partir deste modelo. O risco é apenas um indicador do quão arriscado um projeto pode ser. Você pode priorizar a execução de seus projetos com base no nível de risco.<br>Considere selecionar entre os seguintes níveis de risco:<br></p> 
+       <td> <p>Defina o nível de risco dos projetos criados a partir deste modelo. O risco é apenas um indicador do quão arriscado um projeto pode ser. Você pode priorizar a execução dos projetos com base no nível de risco.<br>Considere selecionar entre os seguintes níveis de risco:<br></p> 
        <ul> 
        <li> <p><strong>Muito Baixo</strong> </p> </li> 
        <li> <p><strong>Baixo</strong> </p> </li> 
@@ -438,8 +438,8 @@ Old:
        <td role="rowheader"><strong>Conjuntos de Recursos</strong> </td> 
        <td> <p>Especifique os conjuntos de recursos associados ao modelo. Conjuntos de recursos são coleções de usuários que são necessárias ao mesmo tempo para a conclusão de um projeto. Para obter mais informações sobre conjuntos de recursos, consulte <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Visão geral dos conjuntos de recursos </a>.</p> <p> <p><b>Nota</b>
 
-       Quando você edita modelos em massa, somente os conjuntos de recursos que são comuns a todos os modelos selecionados aparecem neste campo. Se os modelos selecionados não tiverem conjuntos de recursos compartilhados, esse campo estará vazio. Os conjuntos de recursos especificados aqui substituirão os conjuntos de recursos individuais dos modelos.&lt;/p> &lt;/p> &lt;/td>
-       &lt;/tr>
+       Quando você edita modelos em massa, somente os conjuntos de recursos que são comuns a todos os modelos selecionados aparecem neste campo. Se os modelos selecionados não tiverem conjuntos de recursos compartilhados, esse campo estará vazio. Os pools de recursos especificados aqui substituirão os pools de recursos individuais dos modelos.&lt;/p> &lt;/p> &lt;/td>
+     &lt;/tr>
    
    <tr> 
       <td role="rowheader"><strong>Exigir que o tempo seja aprovado para este projeto</strong></td>
@@ -761,6 +761,8 @@ Adicionar os seguintes itens a um modelo é idêntico a adicioná-los a um proje
 É possível adicionar os seguintes itens às tarefas no modelo:
 
 * Documentos
+
+  Para obter mais informações, consulte [Editar tarefas de modelo](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
 * Despesas
 
   Para obter mais informações sobre como adicionar despesas, consulte [Gerenciar despesas do projeto](../../../manage-work/projects/project-finances/manage-project-expenses.md).

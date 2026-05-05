@@ -2,14 +2,14 @@
 title: Usar o Preenchimento de formulários com tecnologia de IA para preencher uma solicitação usando prompts ou documentos
 content-type: reference
 description: Você pode usar a IA para preencher automaticamente os campos de solicitação inserindo um prompt ou fornecendo um documento.
-author: Alina
+author: Alina, Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: da46d6784350c8394330799fe2177e82d3519041
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
 >
 >Para usar essa funcionalidade, sua organização deve atender aos requisitos para usar o Assistente de IA da Workfront. Para obter detalhes, consulte [Pré-requisitos do Assistente de IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-O Preenchimento de formulário de IA pode ajudar a preencher automaticamente os campos de solicitação com base em um prompt inserido. Ele também pode preencher campos com base em texto, como emails que são documentos carregados. Você pode aprovar ou rejeitar essas sugestões antes de enviar a solicitação.
+O Preenchimento de formulário de IA pode ajudar a preencher automaticamente os campos de solicitação com base em um prompt inserido. Ele também pode preencher campos com base em texto, como emails ou documentos carregados. Você pode aprovar ou rejeitar essas sugestões antes de enviar a solicitação.
 
 Essa funcionalidade está disponível ao criar uma solicitação na área Solicitações do Workfront e no Workfront Planning.
 
@@ -192,7 +192,7 @@ Estamos planejando uma campanha semelhante aos anúncios de feriados sociais que
 
 ## Obter sugestões com base em um documento do qual você fez upload
 
-O Preenchimento de formulário fornecido pela IA pode preencher uma solicitação usando prompts ou documentos podem sugerir valores de campo com base em um documento que você fez upload.
+O Preenchimento de formulário fornecido pela IA pode preencher uma solicitação usando prompts ou sugerir valores de campo com base em um documento que você faz upload.
 
 Esse tipo de sugestão também verifica solicitações anteriores para contextos semelhantes. Por exemplo, se o prompt mencionar que a solicitação é para um determinado cliente, o Workfront poderá localizar e inserir o endereço de faturamento desse cliente automaticamente, com base em solicitações anteriores.
 
@@ -309,7 +309,7 @@ Você pode carregar um documento para ser aplicado a todo o formulário ou a uma
    Ou
 
    Arraste o documento do gerenciador de arquivos para a caixa **Carregar arquivos para preencher automaticamente o formulário de solicitação**.
-1. Clique em **Preencher o formulário** de **Preencher a seção**.
+1. Clique em **Preencher o formulário** ou **Preencher a seção**.
 
    O Workfront gera sugestões para o formulário.
 1. Para cada sugestão de campo, selecione **Aceitar** ou **Rejeitar** para esse campo.

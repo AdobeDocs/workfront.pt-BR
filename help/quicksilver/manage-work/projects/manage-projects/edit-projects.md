@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '7859'
+source-wordcount: '8113'
 ht-degree: 2%
 
 ---
@@ -282,18 +282,26 @@ Para obter informações sobre como criar um projeto a partir de um modelo, cons
          <td> <p>Especifique a data ao selecionar <strong>Agendar a partir da Data de Término</strong>. </p> <p>Este campo é somente leitura quando você seleciona <strong>Agendar a partir da Data de Início</strong>.<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Portfólio</strong></td> 
-         <td>Indique uma Portfolio à qual o projeto pertence. Você deve criar um Portfolio primeiro, antes que ele apareça na lista suspensa. Somente portfólios ativos podem ser associados a um projeto. Para obter mais informações sobre como criar portfólios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Criar um portfólio </a>.
-         <p><b>Nota</b></p>
-         <p>Você deve ter permissões de gerenciamento no portfólio para poder adicioná-lo ou removê-lo do projeto.</p>
+      <td role="rowheader"><strong>Portfólio</strong></td> 
+      <td>Indique uma Portfolio à qual o projeto pertence. Você deve criar um Portfolio primeiro, antes que ele apareça na lista suspensa. Somente portfólios ativos podem ser associados a um projeto. Para obter mais informações sobre como criar portfólios, consulte <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Criar um portfólio </a>.
+      <p><b>NOTAS</b></p>
+      <ul>
+      <li>Você deve ter permissões de gerenciamento no portfólio para poder adicioná-lo ou removê-lo do projeto.</li>
+      <li>Se sua empresa usa os tipos de armazenamento de documentos da Workfront e da Adobe, não é possível associar um projeto de armazenamento da Workfront a um portfólio de armazenamento da Adobe. O inverso também é verdadeiro. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.</li></ul> 
+      Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Visão geral do gerenciamento de documentos para projetos e objetos relacionados</a>. 
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Programa</strong></td> 
          <td> <p>Se você selecionou um Portfolio para o projeto, especifique um Programa para o projeto. Alguns portfólios podem não ter programas. Você deve criar um Programa primeiro, antes que ele apareça nesta lista suspensa. Somente programas ativos podem ser associados a um projeto. </p> <p>Para obter mais informações sobre como criar programas, consulte <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Criar um programa</a>.</p> 
-      <p><b>Nota</b></p>
-         <p>Você deve ter permissões de gerenciamento no programa para poder adicioná-lo ou removê-lo no projeto.</p>   
-      </td> 
+      <p><b>NOTAS</b></p>
+      <ul>
+      <li>Você deve ter permissões de gerenciamento no programa para poder adicioná-lo ou removê-lo no projeto.</li>
+      <li>Se sua empresa usa os tipos de armazenamento de documentos da Workfront e da Adobe, não é possível associar um projeto Workfront-storage a um programa Adobe-storage. O inverso também é verdadeiro. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento. Os programas herdam o tipo de armazenamento do portfólio ao qual pertencem. </li></ul>
+
+   Para obter mais informações, consulte <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Visão geral do gerenciamento de documentos para projetos e objetos relacionados</a>.
+
+   </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Grupo</strong></td> 
@@ -536,7 +544,7 @@ Para editar campos na área Finanças:
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Risco</strong> </td> 
-       <td> <p> <p>Defina o nível de risco do seu projeto. O risco é apenas um indicador do quão arriscado um projeto pode ser. Você pode priorizar a execução de seus projetos com base no nível de risco.</p> <p> <p>Considere selecionar entre os seguintes níveis de risco:</p> <p>- Muito Baixo</p> <p>- Baixa</p> <p>- MEDIUM</p> <p>- Alta</p> <p>- Muito Alto</p> <p>Os níveis de riscos que você indicar aqui não podem ser personalizados.</p> <p>Eles não estão relacionados aos riscos potenciais que podem ocorrer durante a vida de um projeto e que você deve registrar na guia Riscos do projeto ou no Business Case. Para obter informações sobre riscos de projeto em potencial, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Editar e criar tipos de risco</a>. </p> </p> </p> </td> 
+       <td> <p> <p>Defina o nível de risco do seu projeto. O risco é apenas um indicador do quão arriscado um projeto pode ser. Você pode priorizar a execução dos projetos com base no nível de risco.</p> <p> <p>Considere selecionar entre os seguintes níveis de risco:</p> <p>- Muito Baixo</p> <p>- Baixa</p> <p>- MEDIUM</p> <p>- Alta</p> <p>- Muito Alto</p> <p>Os níveis de riscos que você indicar aqui não podem ser personalizados.</p> <p>Eles não estão relacionados aos riscos potenciais que podem ocorrer durante a vida de um projeto e que você deve registrar na guia Riscos do projeto ou no Business Case. Para obter informações sobre riscos de projeto em potencial, consulte <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Editar e criar tipos de risco</a>. </p> </p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Conjuntos de Recursos</strong> </td> 
@@ -795,6 +803,10 @@ Leve em consideração o seguinte ao editar projetos em massa:
   >Por exemplo, você pode ter um campo de caixa de seleção com três caixas de seleção (Opção 1, Opção 2 e Opção 3) e a Opção 1 está desmarcada para todos os projetos, e as Opções 2 e 3 estão marcadas para alguns e desmarcadas para outros projetos selecionados. Se quiser marcar a Opção 1 para todos os projetos, você também deverá fazer com que as Opções 2 e 3 correspondam a todos os projetos selecionados antes de salvar suas alterações. Portanto, você deve selecioná-las ou desmarcá-las para que possam corresponder a todos os projetos selecionados. Se não alterar nenhuma das opções, você poderá salvar o campo como está e os projetos manterão sua seleção atual para todas as opções.
 
 * Quando você seleciona vários projetos que pertencem a grupos diferentes, os status exibidos no campo Status são status de nível do sistema e não de nível de grupo.
+
+* Quando você seleciona vários projetos com diferentes tipos de armazenamentos de documentos e deseja atualizar o Portfolio ou o programa dos projetos selecionados, não é possível associar um projeto Workfront-storage a um portfólio Adobe-storage. O inverso também é verdadeiro. Nesse caso, selecione somente projetos que tenham tipos de armazenamento semelhantes de cada vez.
+
+  Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
 
 Para editar projetos em massa:
 

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2239'
 ht-degree: 5%
 
 ---
@@ -108,7 +108,7 @@ Considere o seguinte ao mover tarefas de modelo:
 
    * Etapas.
 
-* Não é possível copiar ou mover uma tarefa de modelo de um modelo de armazenamento Workfront para um modelo de armazenamento Adobe. O inverso também é verdadeiro. Nem todos os clientes têm os dois tipos de armazenamento.
+* Não é possível copiar ou mover uma tarefa de modelo de um modelo de armazenamento Workfront para um modelo de armazenamento Adobe. O inverso também é verdadeiro. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
 
   Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -140,7 +140,7 @@ A caixa Copiar Modelo de Tarefa é aberta.
 
    >[!TIP]
    >
-   >Você deve escolher um modelo com um tipo de armazenamento de documento semelhante. Não é possível copiar tarefas de modelo para um modelo com um tipo de armazenamento diferente do modelo original. Nem todos os clientes têm acesso a vários tipos de armazenamento de documentos.
+   >Você deve escolher um modelo com um tipo de armazenamento de documento semelhante. Não é possível copiar tarefas de modelo para um modelo com um tipo de armazenamento diferente do modelo original. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
    >
    >Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -267,7 +267,7 @@ A caixa Mover Modelo de Tarefa é aberta.
    >
    >* Você também pode começar a digitar o Número de referência ou inserir a ID do modelo. Isso pode ajudá-lo a distinguir entre modelos com nomes idênticos.
    >
-   >* Você deve escolher um modelo com um tipo de armazenamento de documento semelhante. Não é possível copiar tarefas de modelo para um modelo com um tipo de armazenamento diferente do modelo original. Nem todos os clientes têm acesso a vários tipos de armazenamento de documentos.
+   >* Você deve escolher um modelo com um tipo de armazenamento de documento semelhante. Não é possível copiar tarefas de modelo para um modelo com um tipo de armazenamento diferente do modelo original. Sua instância do Workfront pode não ter ambos os tipos de armazenamento de documento.
    >
    >Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
