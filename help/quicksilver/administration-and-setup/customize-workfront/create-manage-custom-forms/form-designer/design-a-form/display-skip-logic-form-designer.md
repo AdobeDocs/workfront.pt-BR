@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: ccdace08434cd2abc1290a1ae038ba20f0adbdf6
 workflow-type: tm+mt
-source-wordcount: '3544'
+source-wordcount: '3571'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ Clique em **Mostrar lógica** no cabeçalho do designer de formulário para most
 | ![Lógica de edição para o campo de destino](assets/editability-logic-icon.png) | O campo é o campo alvo onde a lógica de capacidade de edição é aplicada. O campo pode ser editável ou somente leitura quando as condições definidas são atendidas. O campo de destino e o campo de referência podem ser os mesmos para a lógica de editabilidade. |
 | ![Lógica de edição para o campo de referência](assets/editability-logic-reference-field.png) | O campo é o campo de referência para a lógica de edição. Quando as condições definidas são atendidas nesse campo, a lógica é aplicada no campo de público-alvo. O campo de destino e o campo de referência podem ser os mesmos para a lógica de editabilidade. |
 
-[Ícones lógicos](assets/custom-form-logic-icon-samples.png)
+![Ícones de lógica](assets/custom-form-logic-icon-samples.png)
 
 Para lógica de exibição e de salto somente, selecione um campo para mostrar as regras de lógica existentes nas configurações do campo.
 
