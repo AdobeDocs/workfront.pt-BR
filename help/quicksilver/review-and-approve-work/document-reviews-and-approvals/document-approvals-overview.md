@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 97905e1606eb526b2b277b2c78076434741471da
+source-git-commit: abca776dd79dcb1b5ef7c59745719a0faee5c845
 workflow-type: tm+mt
-source-wordcount: '3930'
+source-wordcount: '3977'
 ht-degree: 0%
 
 ---
@@ -176,7 +176,7 @@ Para usar a revisão e aprovação unificadas, as seguintes condições devem se
 
 * A instância do Workfront deve ser ativada no armazenamento corporativo da Adobe Unified Experience e do Adobe.
 
-* Os clientes da Workfront devem estar em uma SKU V2 (isso pode exigir um evento de contratação — entre em contato com o representante de conta da Adobe).
+* Os clientes do Workfront devem estar em uma SKU V2 Workfront. Se sua organização ainda não estiver em uma SKU V2 Workfront, será necessário um evento contratual com a Adobe para adicionar a SKU V2 Workfront ao seu contrato. Entre em contato com seu representante de conta da Adobe.
 
 **Preciso de uma licença Frame.io para usar esta integração?**
 
@@ -194,13 +194,13 @@ Os clientes existentes manterão acesso à funcionalidade de provas do Workfront
 
 **O que preciso fazer para obter acesso?**
 
-Para acessar a revisão e aprovação unificadas, sua organização deve estar em uma SKU Workfront V2. Se você não estiver atualmente em uma SKU V2, será necessário um evento de contratação com a Adobe. Para começar:
+Para acessar a revisão e aprovação unificadas, sua organização deve estar em uma SKU V2 Workfront. Qualquer organização que ainda não esteja em uma SKU V2 Workfront deve passar por um evento contratual com a Adobe para adicionar a SKU V2 Workfront. Para começar:
 
-* Entre em contato com seu representante de conta da Adobe para confirmar se seu plano atual da Workfront oferece suporte à revisão e aprovação unificadas.
+* Entre em contato com seu representante de conta da Adobe para confirmar se seu contrato atual do Workfront está em uma SKU V2 Workfront.
 
-* Se for necessária uma atualização do SKU, seu representante de conta o guiará pelo processo de contratação.
+* Se sua organização não estiver em uma SKU V2 Workfront, seu representante de conta o guiará pelo evento contratual necessário para adicioná-la.
 
-* Assim que sua conta estiver na SKU correta, a Adobe Professional Services configurará a integração para sua organização.
+* Assim que seu contrato incluir a SKU V2 Workfront, a Adobe Professional Services configurará a integração para sua organização.
 
    * Se não tiver certeza de quem é o representante de conta da Adobe, entre em contato com o portal de suporte da Adobe ou visite o Experience League para obter opções de contato.
 
@@ -491,23 +491,23 @@ Para obter mais informações sobre como configurar e usar o AI Reviewer, consul
 
 **Quando a revisão e aprovação unificadas estarão disponíveis para mim?**
 
-A revisão e aprovação unificadas estão disponíveis agora. O Access exige uma atualização para um SKU do Workfront V2. Se seu contrato foi assinado antes dos SKUs V2 estarem disponíveis, você poderá obter acesso de uma das duas formas a seguir:
+A revisão e aprovação unificadas estão disponíveis agora. O Access exige uma SKU V2 Workfront. Se seu contrato foi assinado antes que as SKUs V2 Workfront estivessem disponíveis, adicionar a SKU V2 Workfront exigirá um evento contratual com a Adobe. Há dois caminhos:
 
-* Na renovação: o acesso será ativado na próxima data de renovação do contrato.
+* Na renovação: o SKU V2 Workfront é adicionado na próxima data de renovação do contrato.
 
-* Recontrato antecipado: sua equipe de conta da Adobe pode recontratar você antecipadamente para adicionar os novos direitos de SKU, mantendo a data de término do contrato existente. Não há aumento de preço ao mudar para um pacote equivalente.
+* Recontrato antecipado: a equipe de conta da Adobe pode recontratar você antecipadamente para adicionar os direitos de SKU do V2 Workfront, mantendo a data de término do contrato existente. Não há aumento de preço ao mudar para um pacote equivalente.
 
 Entre em contato com seu representante de conta da Adobe para determinar o melhor caminho para sua organização.
 
 <!--
 **Before we sign the contract, what changes will we see in Workfront?**
 
-Before signing the V2 SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 SKU is contracted and Adobe Professional Services configures the integration for your organization.
+Before signing the V2 Workfront SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 Workfront SKU is contracted and Adobe Professional Services configures the integration for your organization.
 -->
 
-**A atualização para o V2 SKU oferece mais armazenamento?**
+**A atualização para o SKU V2 Workfront oferece mais armazenamento?**
 
-Sim. Com o SKU V2, cada usuário licenciado recebe 60 GB de armazenamento, antes 30 GB na versão anterior.
+Sim. Com a SKU V2 Workfront, cada usuário licenciado recebe 60 GB de armazenamento, antes 30 GB na versão anterior.
 
 **Como escolher entre o armazenamento corporativo da Adobe e o armazenamento herdado do Workfront?**
 
@@ -519,7 +519,7 @@ O armazenamento corporativo oferece flexibilidade para implantar a nova experiê
 
 **Como as licenças do Frame.io são gerenciadas?**
 
-Após assinar o SKU V2, todos os usuários do Workfront terão acesso ao visualizador do Frame.io para fluxos de trabalho de revisão e aprovação — nenhuma licença separada do Frame.io Enterprise é necessária para isso.
+Após assinar a V2 Workfront SKU, todos os usuários do Workfront terão acesso ao visualizador Frame.io para revisar e aprovar workflows — nenhuma licença Frame.io Enterprise separada é necessária para isso.
 
 Se sua organização precisar de recursos adicionais do Frame.io Enterprise, como
 
