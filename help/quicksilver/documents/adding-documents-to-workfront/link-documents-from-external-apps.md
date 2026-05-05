@@ -8,10 +8,10 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 500bf31ff0cff309cb0cdda063503abb297f858c
 workflow-type: tm+mt
-source-wordcount: '2592'
-ht-degree: 3%
+source-wordcount: '2636'
+ht-degree: 2%
 
 ---
 
@@ -122,7 +122,9 @@ Você pode vincular documentos ao Workfront a partir de um aplicativo externo, c
 
 >[!IMPORTANT]
 >
->O Dropbox armazena documentos com base no caminho do arquivo. Por causa disso, se um arquivo vinculado do Dropbox for movido, renomeado ou excluído, ele se tornará inacessível no Workfront.
+>* O Dropbox armazena documentos com base no caminho do arquivo. Por causa disso, se um arquivo vinculado do Dropbox for movido, renomeado ou excluído, ele se tornará inacessível no Workfront.
+>* Não há suporte para a navegação em pastas compartilhadas do OneDrive no seletor de arquivos. Para vincular um arquivo que foi compartilhado com você, use a barra de pesquisa no seletor de arquivos do OneDrive para localizar o arquivo por nome e, em seguida, selecione-o para adicioná-lo ao Workfront.
+
 
 1. Vá para a área **Documentos** no Workfront onde deseja o documento.
 1. Clique em **Adicionar novo** e, em seguida, clique no provedor de documentos externos ao qual você deseja vincular documentos ao Workfront.

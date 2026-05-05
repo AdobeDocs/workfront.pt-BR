@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
+source-git-commit: 97905e1606eb526b2b277b2c78076434741471da
 workflow-type: tm+mt
-source-wordcount: '3890'
+source-wordcount: '3930'
 ht-degree: 0%
 
 ---
@@ -102,6 +102,7 @@ Como a revisão e a aprovação unificadas são criadas usando o armazenamento c
 * Programas e projetos não podem ter o mesmo nome se pertencerem ao mesmo portfólio.
 * Documentos não podem ter o mesmo nome se pertencerem ao mesmo projeto.
 * Os nomes de objetos não podem conter nenhum dos seguintes caracteres especiais: \ / : * ? &quot; | &lt; >
+* Programas, portfólios, projetos, modelos, tarefas, problemas e pastas de documentos não podem ter nomes que terminem com um ponto ou um espaço.
 * Os nomes de objetos são limitados a no máximo 255 caracteres.
 
 Com essas limitações em mente, o Workfront renomeia automaticamente objetos ou documentos conforme necessário para evitar conflitos.
@@ -403,6 +404,8 @@ Sim. Como a integração usa o armazenamento corporativo Adobe, as seguintes con
 * Documentos dentro do mesmo projeto não podem compartilhar um nome.
 
 * Programas, portfólios, projetos, modelos, tarefas, problemas, documentos, pastas de documentos não podem conter os seguintes caracteres especiais: `\ / : * ? " | < >` e são limitados a 255 caracteres.
+
+* Programas, portfólios, projetos, modelos, tarefas, problemas e pastas de documentos não podem ter nomes que terminem com um ponto ou um espaço.
 
 O Workfront renomeia automaticamente objetos ou documentos conforme necessário para evitar conflitos.
 
