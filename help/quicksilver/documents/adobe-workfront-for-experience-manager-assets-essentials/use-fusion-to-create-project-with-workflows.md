@@ -1,12 +1,12 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Use Workfront Fusion to create a Workfront Project that has Adobe Experience Manager workflows
-description: If you are creating a project through Workfront Fusion and want to include Adobe Experience Manager workflows on the project, you must use a specific Fusion module configuration, described in this article.
+title: Usar o Workfront Fusion para criar um Projeto do Workfront com fluxos de trabalho do Adobe Experience Manager
+description: Se você estiver criando um projeto por meio do Workfront Fusion e quiser incluir fluxos de trabalho do Adobe Experience Manager no projeto, deverá usar uma configuração específica do módulo Fusion, descrita neste artigo.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 11%
@@ -15,12 +15,12 @@ ht-degree: 11%
 
 # Usar o Workfront Fusion para converter um problema do Workfront em um projeto que inclui fluxos de trabalho do Adobe Experience Manager
 
-If you are creating a project through Workfront Fusion and want to include Adobe Experience Manager workflows on the project, you must use a specific Fusion module configuration, described in this article.
+Se você estiver criando um projeto por meio do Workfront Fusion e quiser incluir fluxos de trabalho do Adobe Experience Manager no projeto, deverá usar uma configuração específica do módulo Fusion, descrita neste artigo.
 
 >[!NOTE]
 >
->Workflows are available only in an Adobe Experience Manager as a Cloud Service integration. They are not available in integrations with Adobe Experience Manager Assets Essentials.<br>
->Essa funcionalidade não está disponível na área de novos documentos.
+>Os fluxos de trabalho estão disponíveis somente em uma integração com o Adobe Experience Manager as a Cloud Service. Não estão disponíveis em integrações com o Adobe Experience Manager Assets Essentials.<br>
+>Essa funcionalidade não está disponível na nova área Documentos.
 
 
 ## Requisitos de acesso
@@ -42,10 +42,10 @@ If you are creating a project through Workfront Fusion and want to include Adobe
      <p><b>Adobe Experience Manager:</b></p>
      <ul>
        <li>
-         <p>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</p>
+         <p>Você deve ter o Experience Manager Assets as a Cloud Service ou o Assets Essentials e deve ser adicionado ao produto como usuário na Admin Console.</p>
        </li>
        <li>
-        <p>You must have write access to the repository in Adobe Experience Manager.</p>
+        <p>Você deve ter acesso de gravação ao repositório no Adobe Experience Manager.</p>
        </li>
      </ul>
      <p><b>Workfront Fusion:</b></p>
@@ -70,22 +70,22 @@ If you are creating a project through Workfront Fusion and want to include Adobe
 
 Antes de começar,
 
-* Your Workfront administrator must configure workflows in an Adobe Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
-* You must have a project template configured with an Adobe Experience Manager integration linked folder workflow.
-* You must have created an OAuth application in Workfront to configure the connection for this module.
+* O administrador do Workfront deve configurar os workflows em uma integração com o Adobe Experience Manager. Para obter mais informações, consulte [Configurar a integração do Experience Manager Assets as a Cloud Service](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* Você deve ter um modelo de projeto configurado com um fluxo de trabalho de pasta vinculado à integração do Adobe Experience Manager.
+* Você deve ter criado um aplicativo OAuth no Workfront para configurar a conexão para esse módulo.
 
-  For instructions, see [Create an OAuth application](#create-an-oauth-application) in this article.
+  Para obter instruções, consulte [Criar um aplicativo OAuth](#create-an-oauth-application) neste artigo.
 
-## Module configuration
+## Configuração do módulo
 
-In Workfront Fusion, if you want to create a project that includes Adobe Experience Manager workflows, you must use the Workfront > Misc Action module.
+No Workfront Fusion, se quiser criar um projeto que inclua fluxos de trabalho do Adobe Experience Manager, use o módulo Workfront > Ação diversa.
 
-1. Add the **Workfront** > **Misc Action** module to your scenario.
-1. In the **Connection** field, select the Workfront connection that connects to the account this module will use.
+1. Adicione o módulo **Workfront** > **Misc Action** ao seu cenário.
+1. No campo **Conexão**, selecione a conexão do Workfront que se conecta à conta que esse módulo usará.
 
-   For instructions on creating a connection, see [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) in the article Workfront modules.
+   Para obter instruções sobre como criar uma conexão, consulte [Conectar [!DNL Workfront] a [!DNL Workfront Fusion]](https://experienceleague.adobe.com/pt-br/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) no artigo Módulos do Workfront.
 
-   For instructions on creating the Client ID and Client Secret you will need to create a connection, see [Create an OAuth application](#create-an-oauth-application) in this article.
+   Para obter instruções sobre como criar a ID do cliente e o Segredo do cliente, será necessário criar uma conexão, consulte [Criar um aplicativo OAuth](#create-an-oauth-application) neste artigo.
 
 1. No campo **Tipo de Registro**, selecione `Issue`.
 1. No campo **Ação**, selecione `convertToProject`.

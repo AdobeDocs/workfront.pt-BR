@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '855'
 ht-degree: 1%
 
 ---
@@ -55,9 +55,9 @@ Depois de habilitar o armazenamento corporativo da Adobe em seu ambiente, você 
 
 ### Documentos
 
-#### Nova área de documentos
+#### Nova área Documentos
 
-A nova área de documentos é uma área de documentos unificada reprojetada para armazenamento corporativo Adobe.
+A nova área Documentos é uma área de documentos unificada reprojetada para armazenamento corporativo Adobe.
 
 Essa interface atualizada simplifica a navegação, melhora a clareza e facilita o gerenciamento de revisões e aprovações por parte das equipes em um ambiente unificado. Para obter mais informações, consulte a [Visão geral da área Documentos](/help/quicksilver/documents/managing-documents/documents-area.md).
 

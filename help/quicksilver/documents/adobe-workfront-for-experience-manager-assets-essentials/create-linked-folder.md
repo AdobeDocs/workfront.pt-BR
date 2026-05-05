@@ -7,7 +7,7 @@ description: É possível criar uma pasta vinculada ao Experience Manager Assets
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 11%
@@ -22,8 +22,8 @@ Se um ativo for excluído ou movido de uma pasta vinculada dentro do Experience 
 
 >[!NOTE]
 >
->Essa funcionalidade não está disponível na área de novos documentos.<br>
->Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. A partir daí, você pode adicionar ativos do Experience Manager Assets ou do Assets Essentials, mas não poderá criar uma pasta vinculada.
+>Essa funcionalidade não está disponível na nova área Documentos.<br>
+>Se sua organização usar armazenamento corporativo, você verá a nova área Documentos ao acessar documentos na Workfront. A partir daí, você pode adicionar ativos do Experience Manager Assets ou do Assets Essentials, mas não poderá criar uma pasta vinculada.
 
 ## Requisitos de acesso
 
@@ -83,17 +83,17 @@ O nome da pasta vinculada é criado automaticamente com base no Portfolio, Progr
 
 >[!NOTE]
 >
->You cannot create a new document or proof version inside of a linked folder.
+>Não é possível criar um novo documento ou versão de prova dentro de uma pasta vinculada.
 
 
-To create a linked folder:
+Para criar uma pasta vinculada:
 
-1. Go to the Project where you want the folder.
-1. Select **Add New**, then go to the Experience manager integration your administrator set up.
+1. Vá para o Projeto onde deseja colocar a pasta.
+1. Selecione **Adicionar novo** e vá para a integração do Experience Manager configurada pelo administrador.
 
    >[!NOTE]
    >
-   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets or Assets Essentials.
+   >O administrador do Workfront pode escolher qualquer nome para essa integração, portanto, pode não mencionar especificamente o Experience Manager Assets ou o Assets Essentials.
 
-1. Select **Create linked folder**. The system automatically creates a folder in Experience Manager based on the location specified when the integration was set up.
-   ![create a linked folder](assets/linked-folder.png)
+1. Selecione **Criar pasta vinculada**. O sistema cria automaticamente uma pasta no Experience Manager com base no local especificado quando a integração foi configurada.
+   ![criar uma pasta vinculada](assets/linked-folder.png)

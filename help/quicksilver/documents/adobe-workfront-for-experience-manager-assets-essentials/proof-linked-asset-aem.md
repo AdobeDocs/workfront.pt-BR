@@ -1,26 +1,26 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Proof a linked asset for Experience Manager Assets or Assets Essentials
-description: After you've linked an asset from Experience Manager Assets Essentials, you can create a proof and assign users to review and add comments to the asset.
+title: Criar uma prova de um ativo vinculado do Experience Manager Assets ou do Assets Essentials
+description: Depois de vincular um ativo do Experience Manager Assets Essentials, você pode criar uma prova e atribuir usuários para revisar e adicionar comentários ao ativo.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 14%
 
 ---
 
-# Proof a linked asset for Experience Manager Assets or Assets Essentials
+# Criar uma prova de um ativo vinculado do Experience Manager Assets ou do Assets Essentials
 
-After you&#39;ve linked an asset from Experience Manager Assets Essentials, you can create a proof and assign users to review and add comments to the asset.
+Depois de vincular um ativo do Experience Manager Assets Essentials, você pode criar uma prova e atribuir usuários para revisar e adicionar comentários ao ativo.
 
 >[!NOTE]
 >
->Essa funcionalidade não está disponível na área de novos documentos.<br>
->Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. From there, you can add assets from Experience Manager Assets and review and approve them with the Frame.io viewer. Para obter mais informações, consulte [Usar o Adobe Experience Manager com a integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+>Essa funcionalidade não está disponível na nova área Documentos.<br>
+>Se sua organização usar armazenamento corporativo, você verá a nova área Documentos ao acessar documentos na Workfront. A partir daí, você pode adicionar ativos do Experience Manager Assets, revisá-los e aprová-los com o visualizador Frame.io. Para obter mais informações, consulte [Usar o Adobe Experience Manager com a integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 ## Requisitos de acesso
 
@@ -44,8 +44,8 @@ After you&#39;ve linked an asset from Experience Manager Assets Essentials, you 
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Additonal products</td> 
-   <td>You must have Experience Manager as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console. </td> 
+   <td role="rowheader">Produtos adicionais</td> 
+   <td>Você deve ter o Experience Manager as a Cloud Service ou o Assets Essentials e deve ser adicionado ao produto como usuário na Admin Console. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
@@ -53,7 +53,7 @@ After you&#39;ve linked an asset from Experience Manager Assets Essentials, you 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>View access or higher</p>  </td> 
+   <td> <p>Exibir acesso ou superior</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,36 +64,36 @@ Para obter mais detalhes sobre as informações contidas nesta tabela, consulte 
 
 ## Pré-requisitos
 
-Before you begin:
+Antes de começar:
 
-* Your Workfront Administrator must configure an Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* O administrador do Workfront deve configurar uma integração do Experience Manager. Para obter mais informações, consulte [Configurar a integração do Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) ou [Configurar a integração do Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Criar uma prova
 
-You can create static, video, or interactive proofs.
+É possível criar provas estáticas, de vídeo ou interativas.
 
-To create a proof:
+Para criar uma prova:
 
-1. Go to the project, task, or issue where you want the proof, then click the **Documents** section.
-1. Hover over the document, then click the **Create Proof** link that appears below the document name.
+1. Vá para o projeto, tarefa ou problema em que deseja a prova e clique na seção **Documentos**.
+1. Passe o mouse sobre o documento e clique no link **Criar prova**, que aparece abaixo do nome do documento.
 
    >[!NOTE]
    >
-   >If you have **Automatically generate proofs when uploading documents** enabled in your user profile, the system automatically creates a simple proof.
+   >Se você tiver o **Gerar provas automaticamente ao carregar documentos** habilitado no seu perfil de usuário, o sistema criará automaticamente uma prova simples.
 
-1. Choose one of the following from the drop-down:
+1. Escolha uma das seguintes opções no menu suspenso:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Simple Proof</strong></td> 
-      <td>This option creates a proof with no workflow attached and applies the default proof settings. You can update the default proof settings or add a workflow after you've created the proof. For more information on proof settings, see <a href="../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Edit proof settings</a>.</td> 
+      <td role="rowheader"><strong>Prova simples</strong></td> 
+      <td>Essa opção cria uma prova sem fluxo de trabalho anexado e aplica as configurações de prova padrão. Você pode atualizar as configurações de prova padrão ou adicionar um fluxo de trabalho depois de criar a prova. Para obter mais informações sobre configurações de prova, consulte <a href="../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Editar configurações de prova</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Advanced Proof</strong></td> 
-      <td> <p>This option allows you to configure a Basic or Advanced workflow and modify proof settings for the proof you create. Para obter mais informações, consulte: </p> 
+      <td role="rowheader"><strong>Prova avançada</strong></td> 
+      <td> <p>Essa opção permite configurar um fluxo de trabalho Básico ou Avançado e modificar configurações de prova para a prova criada. Para obter mais informações, consulte: </p> 
        <ul> 
         <li> <p><a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Criar uma prova avançada com um fluxo de trabalho Básico</a> </p> </li> 
         <li> <p><a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Criar uma prova avançada com um fluxo de trabalho automatizado</a> </p> </li> 

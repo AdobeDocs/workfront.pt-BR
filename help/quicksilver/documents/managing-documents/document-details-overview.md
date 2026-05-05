@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 5%
@@ -68,9 +68,9 @@ Você poderá executar as seguintes ações na página de detalhes do documento 
    ![Detalhes do documento](assets/doc-details-legacy.png)
 
 
-## Nova área de documento
+## Nova área Documentos
 
-Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se sua organização usar armazenamento corporativo, você verá a nova área Documentos ao acessar documentos na Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Você pode executar as seguintes ações para documentos na página Detalhes do Documento:
 
@@ -96,7 +96,7 @@ Você pode executar as seguintes ações para documentos na página Detalhes do 
 ![Ícone de mais detalhes do documento](assets/more-menu-new-doc.png)
 
 
-### Abra o painel Detalhes do documento na nova área de documentos
+### Abra o painel Detalhes do documento na nova área Documentos
 
 1. Vá para o projeto, tarefa ou problema que contém o documento e selecione **Documentos** no painel esquerdo.
 1. Selecione o documento e clique em **Exibir Detalhes**.

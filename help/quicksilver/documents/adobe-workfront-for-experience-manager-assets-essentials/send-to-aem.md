@@ -6,7 +6,7 @@ description: Você pode enviar documentos do Workfront para o Experience Manager
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 9%
@@ -23,8 +23,8 @@ No ambiente de Pré-visualização, o Assets enviado ao Experience Manager por m
 
 >[!NOTE]
 >
->Essa funcionalidade não está disponível na área de novos documentos.<br>
->Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. A partir daí, você pode enviar ativos para a Experience Manager Assets. Para obter mais informações, consulte [Usar o Adobe Experience Manager com a integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+>Essa funcionalidade não está disponível na nova área Documentos.<br>
+>Se sua organização usar armazenamento corporativo, você verá a nova área Documentos ao acessar documentos na Workfront. A partir daí, você pode enviar ativos para a Experience Manager Assets. Para obter mais informações, consulte [Usar o Adobe Experience Manager com a integração do Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 ## Metadados
 

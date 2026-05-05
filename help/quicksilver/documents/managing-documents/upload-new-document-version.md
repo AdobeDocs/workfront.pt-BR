@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 10%
@@ -90,9 +90,9 @@ Se sua organização estiver no armazenamento herdado do Workfront, você verá 
 
 1. Selecione o tipo de documento que deseja fazer upload e siga as instruções.
 
-## Fazer upload de uma nova versão do documento na área de novos documentos
+## Fazer upload de uma nova versão do documento na nova área Documentos
 
-Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se sua organização usar armazenamento corporativo, você verá a nova área Documentos ao acessar documentos na Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Usar o recurso arrastar e soltar para adicionar uma nova versão
 
