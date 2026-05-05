@@ -5,10 +5,10 @@ description: É possível localizar itens facilmente em  [!DNL Adobe Workfront] 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: d6890caed6fea2ed696c0b07674f4014f0e293a4
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 1%
+source-wordcount: '1518'
+ht-degree: 4%
 
 ---
 
@@ -20,13 +20,13 @@ Você pode localizar itens facilmente em [!DNL Adobe Workfront] procurando por e
 
 Você pode ver a caixa [!UICONTROL Pesquisa] no canto superior direito de qualquer página em [!DNL Workfront].
 
-![Ícone de pesquisa na barra de navegação](assets/search-globalnavigationbar-350x62.png)
+![Ícone de pesquisa na barra de navegação](assets/search-unified-shell-2026.png)
 
 Você deve ter permissões para Exibir um objeto antes de encontrá-lo em uma pesquisa. Por esse motivo, os resultados da pesquisa variam de usuário para usuário.
 
 ## Requisitos de acesso
 
-+++ Expanda esta seção para exibir o acesso necessário para executar as etapas deste artigo.
++++ Expanda para visualizar os requisitos de acesso da funcionalidade neste artigo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,22 +38,22 @@ Você deve ter permissões para Exibir um objeto antes de encontrá-lo em uma pe
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
-   <td> <p>Colaborador ou superior<p>
-   <p>Solicitação ou superior </p>
+   <td> <p>Colaborador ou posterior<p>
+   <p>Solicitação ou posterior </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurações de nível de acesso</td> 
-   <td> <p>Acesso de [!UICONTROL View] ao tipo de objeto </p> <p>Observação: se você ainda não tiver acesso, pergunte ao administrador do [!DNL Workfront] se ele definiu restrições adicionais no seu nível de acesso. Para obter informações sobre como um administrador do [!DNL Workfront] pode modificar seu nível de acesso, consulte <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Criar ou modificar níveis de acesso personalizados</a>.</p></td> 
+   <td>Acesso de [!UICONTROL View] ao tipo de objeto/td&gt; 
   </tr> 
   <tr> 
    <td role="rowheader">Permissões de objeto</td> 
-   <td> <p>Você deve ter permissões para Exibir um objeto antes de encontrá-lo em uma pesquisa.</p> <p>Para obter informações sobre como solicitar acesso adicional, consulte <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Solicitar acesso aos objetos </a>.</p> </td> 
+   <td>Você deve ter permissões para Exibir um objeto antes de encontrá-lo em uma pesquisa.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Para obter mais detalhes sobre as informações nesta tabela, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Para obter informações, consulte [Requisitos de acesso na documentação do Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -104,9 +104,10 @@ Considere as seguintes limitações ao usar a [!UICONTROL Pesquisa] em [!DNL Wor
 
 * As pesquisas não diferenciam maiúsculas de minúsculas.
 * [!DNL Workfront] não corrige ou entende erros de digitação.
-* A pesquisa em [!DNL Workfront] não oferece suporte a Curingas.
-* A pesquisa em [!DNL Workfront] oferece suporte a pesquisas de palavras parciais, mas não oferece suporte a pesquisas de subsequência de caracteres.\
-   Por exemplo, a palavra-chave de pesquisa &quot;stand&quot; retornaria resultados incluindo a palavra &quot;standard&quot;, mas não retornaria resultados incluindo a palavra &quot;understand&quot;.
+* A pesquisa em [!DNL Workfront] não oferece suporte a curingas.
+* A pesquisa em [!DNL Workfront] oferece suporte a pesquisas de palavras parciais, mas não oferece suporte a pesquisas de subsequência de caracteres.
+
+  Por exemplo, a palavra-chave de pesquisa &quot;stand&quot; retornaria resultados incluindo a palavra &quot;standard&quot;, mas não retornaria resultados incluindo a palavra &quot;understand&quot;.
 
 ## Pesquisar por várias palavras
 
@@ -190,11 +191,11 @@ Para executar uma Pesquisa Básica:
 
 1. (Opcional) Para procurar um objeto específico, clique no menu suspenso **[!UICONTROL Todos]** e selecione o objeto que deseja procurar.
 
-   ![Pesquisar por tipo de objeto](assets/search-objecttype.png)
+   ![Pesquisar por tipo de objeto](assets/search-by-object-type-2026.png)
 
 1. Na caixa **[!UICONTROL Pesquisar]**, comece digitando as informações que você está procurando.
 Para obter informações sobre quais campos são pesquisados em [!DNL Workfront], consulte a seguinte seção neste artigo: [Entender a Pesquisa](#understand-search).
-   ![Lista suspensa de pesquisa](assets/qs-search-drop-down-highlighted-350x234.png)
+   ![Lista suspensa de pesquisa](assets/search-dropdown-suggestions-2026.png)
 
    À medida que você começa a digitar na barra de pesquisa, o [!DNL Workfront] faz recomendações com base no seu histórico de exibição e destaca a palavra-chave que você está procurando em azul.
 
@@ -208,7 +209,7 @@ Para obter informações sobre quais campos são pesquisados em [!DNL Workfront]
 
    >[!NOTE]
    >
-   >Às vezes, as variações de uma palavra são exibidas na lista de itens encontrados.\
+   >Às vezes, as variações de uma palavra são exibidas na lista de itens encontrados.
    >Por exemplo, pesquisar por &quot;marketing&quot; exibe objetos que contêm &quot;marketing&quot; ou &quot;marketing&quot; no nome.
 
 1. (Opcional) Se sua pesquisa gerou muitos resultados, refine sua pesquisa conforme descrito em [Refinar uma Pesquisa Básica](#refine-a-basic-search).
@@ -250,7 +251,8 @@ Para executar uma pesquisa avançada:
 1. No canto superior direito de qualquer página em [!DNL Workfront], clique no ícone **[!UICONTROL Pesquisar]** ![ícone Pesquisar](assets/search-icon.png). O menu **Pesquisa** é exibido.
 
 1. Na parte inferior do menu **Pesquisa**, clique em **[!UICONTROL Pesquisa Avançada]**. A página **Pesquisa** é aberta com a guia **Pesquisa Avançada** selecionada por padrão.
-   ![Pesquisa avançada](assets/qs-advanced-search-350x224.png)
+
+   ![Pesquisa avançada](assets/advanced-search-2026.png)
 
 
 1. Selecione o tipo de objeto que você está procurando. **[!UICONTROL Tarefas]** é selecionado por padrão.

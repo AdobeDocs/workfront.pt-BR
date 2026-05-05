@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d6890caed6fea2ed696c0b07674f4014f0e293a4
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 31%
+source-wordcount: '222'
+ht-degree: 11%
 
 ---
 
@@ -19,11 +19,35 @@ ht-degree: 31%
 
 <!--Audited: 2024-->
 
+Um login é usado para o Workfront e todos os seus aplicativos Adobe CX Enterprise.
+
+Para obter informações, consulte [Interface e administração do CX Enterprise](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/experience-cloud).
+
+## Acessar [!DNL Workfront]
+
+Depois de fazer logon no CX Enterprise, você poderá ver todas as organizações e ambientes do [!DNL Workfront] aos quais tem acesso clicando no alternador da organização na área de navegação superior. Selecione a organização ou o ambiente [!DNL Workfront] em que você deseja trabalhar. Os ambientes podem incluir [!UICONTROL Visualização] e [!UICONTROL Sandbox] se sua organização os utilizar.
+
+![Exibir [!DNL Workfront] organizações e ambientes](assets/wf-org-instance-switcher-2026.png)
+
+>[!NOTE]
+>
+>Na primeira vez que você efetuar login no CX Enterprise, a organização assumirá como padrão o primeiro item na lista em ordem alfabética. Na próxima vez que você fizer logon, a organização assumirá como padrão a última que você visitou.
+
+[!DNL Workfront] aparece na lista de produtos CX Enterprise aos quais você tem acesso. Você pode escolher [!DNL Workfront] no menu de acesso rápido da home page do CX Enterprise ou usar o alternador de produto ![alternador de produto](assets/main-menu-icon.png) para alterar os aplicativos a qualquer momento.
+
+![Selecione [!DNL Workfront] para acessar o aplicativo](assets/cx-enterprise-home-2026.png)
+
+>[!NOTE]
+>
+>Se uma sessão da guia do navegador expirar em uma página em que o Workfront está aberto e você tiver uma sessão ativa do Workfront em outra guia do navegador, será possível recarregar a guia expirada para reabrir a página do Workfront.
+
+<!--
 >[!IMPORTANT]
 >
->O procedimento descrito nesta página foi removido porque se aplicou apenas a organizações que ainda não foram integradas ao Adobe Admin Console.
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->Todas as organizações da Workfront foram integradas à Adobe Admin Console.
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 
