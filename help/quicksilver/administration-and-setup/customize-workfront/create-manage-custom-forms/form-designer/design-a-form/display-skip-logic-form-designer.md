@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: e5fb42aa8d9eae17e1bddbd9832bdf064bc4605e
+source-git-commit: f177f0b678c8ac31241cb103d13ecd0f11cabd1e
 workflow-type: tm+mt
 source-wordcount: '3571'
 ht-degree: 2%
@@ -151,9 +151,9 @@ Nenhuma lógica é aplicada à seção padrão no formulário, portanto, ela é 
 
 Usando a condição a seguir, a seção Recursos Necessários só é exibida quando um usuário com a função de trabalho de Gerenciador de Recursos visualiza o formulário.
 
-```IF($$USER.{roleID}="123abc", true)```
+`IF($$USER.{roleID}="123abc", true)`
 
-Observe que ```123abc``` representa a ID de função do Gerenciador de Recursos.
+Observe que `123abc` representa a ID de função do Gerenciador de Recursos.
 
 ![Seção de formulário exibida para a função](assets/advanced-display-on-form1.png)
 
@@ -161,7 +161,7 @@ A mesma condição com uma ID de função diferente é aplicada à seção KPIs 
 
 Usando a condição a seguir, o campo KPI Vendido só ficará visível quando o projeto for concluído. Essa lógica é aplicada diretamente ao campo, em vez de a uma seção de formulário. Não há necessidade de especificar qual função pode exibir o campo, pois ele já está definido na seção em que o campo está.
 
-```IF({status}="CPL", true)```
+`IF({status}="CPL", true)`
 
 ![O campo está visível na conclusão do projeto](assets/advanced-display-on-form2.png)
 
