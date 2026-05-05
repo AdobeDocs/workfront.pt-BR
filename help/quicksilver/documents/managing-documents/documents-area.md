@@ -9,9 +9,9 @@ feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ed7944fe4934ac5ab52b1eed3e144309de9781c4
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '819'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 Na área Documentos, é possível organizar, gerenciar e exibir metadados de documentos carregados no Adobe Workfront. Você também pode ver a decisão da prova.
 
-Atualmente, o Workfront tem duas versões da área Documentos: a área documentos herdados e a nova área documentos. A versão usada por sua organização depende do armazenamento Workfront herdado ou do armazenamento corporativo. Para obter mais informações sobre esses tipos de armazenamento, consulte [visão geral do armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Atualmente, o Workfront tem duas versões da área Documentos: a área documentos herdados e a nova área Documentos. A versão usada por sua organização depende do armazenamento Workfront herdado ou do armazenamento corporativo. Para obter mais informações sobre esses tipos de armazenamento, consulte [visão geral do armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Área de documentos herdados
 
 Há dois tipos de áreas de Documentos. Os recursos e as funcionalidades são os mesmos para:
 
-* **Área de documentos em um programa, portfólio, projeto, tarefa ou problema:** Lista todos os documentos aos quais você tem acesso para um determinado projeto, tarefa ou problema. Para acessar esta área, clique em **Documentos** ![Ícone de documentos](assets/document-icon-12x14.png) no painel esquerdo ao exibir um projeto, tarefa ou problema.
+* **Área de documentos em um programa, portfólio, modelo, projeto, tarefa ou problema:** Lista todos os documentos aos quais você tem acesso para um determinado projeto, tarefa ou problema. Para acessar esta área, clique em **Documentos** ![Ícone de documentos](assets/document-icon-12x14.png) no painel esquerdo ao exibir um projeto, tarefa ou problema.
 
 * **Área de Documentos Globais:** Lista todos os documentos aos quais você tem acesso no Workfront. Para acessar esta área, clique em **Documentos** ![Ícone Documentos](assets/document-icon.png) no ![Ícone Menu Principal](assets/main-menu-icon.png) do Menu Principal.
 
@@ -60,7 +60,7 @@ Depois que uma decisão de prova é tomada, ela aparece na lista Documento.
 
 ### Pastas
 
-Em um projeto, tarefa ou problema em que os documentos são carregados, você pode configurar pastas para organizar os documentos. Para obter mais informações, consulte [Criar pastas de documentos](../../documents/organizing-documents/create-documents-folder.md).
+Você pode configurar pastas para organizar documentos. Para obter mais informações, consulte [Criar pastas de documentos](../../documents/organizing-documents/create-documents-folder.md).
 
 Na área Documentos globais, você pode configurar dois tipos de pastas para organizar os documentos aos quais tem acesso:
 
@@ -72,9 +72,9 @@ Na área Documentos globais, você pode configurar dois tipos de pastas para org
 
 A página Detalhes do documento fornece uma versão mais em escala completa dos Detalhes do documento no Resumo à direita.
 
-## Nova área de documento
+## Nova área Documentos
 
-A nova área de documentos só estará disponível para o se sua organização estiver em armazenamento corporativo. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+A nova área de documentos só estará disponível para o se sua organização estiver armazenada na empresa. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Usar o painel de resumo
 
@@ -82,19 +82,19 @@ Ao selecionar um documento na área documentos, você pode usar o painel Resumo 
 
 #### Revisar e aprovar com Frame.io
 
-Você pode revisar e aprovar documentos na área de novos documentos usando o visualizador Frame.io.
+Você pode revisar e aprovar documentos na nova área Documentos usando o visualizador Frame.io.
 
 Para obter mais informações, consulte [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 #### Gerenciar versões
 
-Você pode fazer upload de novas versões de um documento na área novos documentos. Ao fazer upload de uma nova versão, a versão anterior é retida e pode ser acessada no painel Resumo. As versões são nomeadas automaticamente com a data e a hora do upload, mas podem ser renomeadas conforme necessário.
+Você pode fazer upload de novas versões de um documento na nova área Documentos. Ao fazer upload de uma nova versão, a versão anterior é retida e pode ser acessada no painel Resumo. As versões são nomeadas automaticamente com a data e a hora do upload, mas podem ser renomeadas conforme necessário.
 
 Você também pode iniciar um novo fluxo de trabalho de aprovação para uma versão específica de um documento.
 
 #### Exibir histórico do documento
 
-Você pode visualizar o histórico de um documento na área de novos documentos. O histórico inclui os seguintes tipos de informações:
+Você pode visualizar o histórico de um documento na nova área Documentos. O histórico inclui os seguintes tipos de informações:
 
 * Quando o documento foi carregado
 * Quando novas versões são carregadas
@@ -103,10 +103,10 @@ Você pode visualizar o histórico de um documento na área de novos documentos.
 
 ### Pastas no nível do sistema para permissões de documento
 
-O Workfront cria automaticamente uma pasta no nível do sistema quando o primeiro documento é carregado para uma tarefa ou problema. Essas pastas herdam permissões da tarefa ou do problema e estão visíveis na área de documentos do nível do projeto. Todos os documentos carregados para essa tarefa ou problema são armazenados nessa pasta e herdam permissões dela. Essa é a forma principal como as permissões são gerenciadas para documentos na nova área de documentos. Para obter mais informações, consulte [Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento corporativo do Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+O Workfront cria automaticamente uma pasta no nível do sistema quando o primeiro documento é carregado para uma tarefa ou problema. Essas pastas herdam permissões da tarefa ou do problema e estão visíveis na área de documentos do nível do projeto. Todos os documentos carregados para essa tarefa ou problema são armazenados nessa pasta e herdam permissões dela. Essa é a forma principal como as permissões são gerenciadas para documentos na nova área Documentos. Para obter mais informações, consulte [Visão geral das permissões de objeto e do nível de acesso para o modelo de armazenamento corporativo do Adobe](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 ## Considerações
 
-* A nova área de documentos é otimizada para telas com 1024 pixels de largura ou maiores. Se você tiver uma tela menor, poderá ter problemas ao acessar o painel Resumo.
+* A nova área Documentos é otimizada para telas com 1024 pixels de largura ou maiores. Se você tiver uma tela menor, poderá ter problemas ao acessar o painel Resumo.
 
-* A área de documentos globais não está disponível na nova experiência da área de documentos. Você só pode acessar documentos de programas, portfólios, projetos, tarefas ou problemas.
+* A área Documentos global não está disponível na nova experiência da área Documentos. Você só pode acessar documentos de programas, portfólios, projetos, tarefas ou problemas.

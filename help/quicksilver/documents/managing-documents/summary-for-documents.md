@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 12%
@@ -129,7 +129,7 @@ Use a seção Versões para exibir o número de versões criadas para um documen
 
 ## Resumo para documentos na nova experiência de documentos
 
-Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se sua organização usar armazenamento corporativo, você verá a nova área Documentos ao acessar documentos na Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Detalhes
 
@@ -143,7 +143,7 @@ Use a seção Approvals para criar um workflow de aprovação. Também é possí
 
 Para obter mais informações sobre aprovações e o Frame.io, consulte
 
-* [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+* [Introdução à revisão e aprovação unificadas](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
 * [Criar uma revisão de documento ou solicitação de aprovação](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ![Aprovações de resumo de documentos na nova experiência de documentos](assets/summary-approvals.png)
@@ -160,7 +160,7 @@ Use a seção Versões para exibir o número de versões criadas para um documen
 * Exibir detalhes do documento
 * Solicitar aprovação em uma versão específica
 * Abrir no Frame.io
-* Download the version
+* Baixar a versão
 * Compartilhar a versão
 * Excluir a versão
 
@@ -168,6 +168,6 @@ Use a seção Versões para exibir o número de versões criadas para um documen
 
 ### Histórico
 
-Use the History section to view a list of all activities related to the document.
+Use a seção Histórico para exibir uma lista de todas as atividades relacionadas ao documento.
 
 ![Histórico de resumo de documentos em nova experiência de documentos](assets/summary-history.png)

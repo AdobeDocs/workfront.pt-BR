@@ -9,10 +9,10 @@ feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 7%
+source-wordcount: '1416'
+ht-degree: 4%
 
 ---
 
@@ -311,10 +311,10 @@ A ação &#42; é compartilhada por Documentos e Pastas de Documentos.
 
 +++
 
-## Compartilhar documentos na nova área de documentos
+## Compartilhar documentos na nova área Documentos
 
 
-A Workfront está fazendo a transição para a solução de armazenamento corporativo da Adobe para fornecer maior conectividade com os produtos Adobe Creative Cloud. Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+A Workfront está fazendo a transição para a solução de armazenamento corporativo da Adobe para fornecer maior conectividade com os produtos Adobe Creative Cloud. Se sua organização usar armazenamento corporativo, você verá a nova área Documentos ao acessar documentos na Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Se sua instância do Workfront usar o armazenamento corporativo da Adobe, você não poderá compartilhar documentos individuais diretamente. Em vez disso, você gerencia o acesso no projeto, tarefa ou problema. Para obter mais informações, consulte [Como funcionam as permissões de documento](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 

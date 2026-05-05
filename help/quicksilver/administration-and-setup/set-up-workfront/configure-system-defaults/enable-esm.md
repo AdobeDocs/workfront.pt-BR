@@ -10,10 +10,10 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 10%
+source-wordcount: '357'
+ht-degree: 9%
 
 ---
 
@@ -34,8 +34,8 @@ Para obter mais informações sobre o Adobe enterprise storage, consulte [visão
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Pacote do Workfront</td> 
-   <td><p>Qualquer</p></td> 
+   <td role="rowheader">Pacote do Adobe Workfront</td> 
+   <td><p>Qualquer pacote de fluxo de trabalho</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licença do Adobe Workfront</td> 
@@ -75,3 +75,7 @@ Para habilitar o armazenamento corporativo da Adobe para sua organização:
    - **Grupos específicos**: essa opção aplica o provedor de armazenamento padrão somente a grupos específicos dentro da organização. Sempre que um usuário nos grupos especificados criar um novo projeto, o provedor de armazenamento padrão será usado
 
 1. Clique em **Salvar**.
+
+   >[!NOTE]
+   >
+   >Os projetos existentes mantêm o modelo de armazenamento com o qual foram criados. Por exemplo, os projetos que usam o armazenamento corporativo da Adobe continuam a usar o armazenamento corporativo da Adobe depois que você altera a preferência de armazenamento padrão.

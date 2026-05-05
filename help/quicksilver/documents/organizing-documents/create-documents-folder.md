@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 6%
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # Criar pastas de documentos
 
-Os documentos podem ser organizados em pastas. Atualmente, o Workfront tem duas versões da área Documentos: a área documentos herdados e a nova área documentos. A versão usada por sua organização depende do armazenamento Workfront herdado ou do armazenamento corporativo. Para obter mais informações sobre esses tipos de armazenamento, consulte [visão geral do armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Os documentos podem ser organizados em pastas. Atualmente, o Workfront tem duas versões da área Documentos: a área documentos herdados e a nova área Documentos. A versão usada por sua organização depende do armazenamento Workfront herdado ou do armazenamento corporativo. Para obter mais informações sobre esses tipos de armazenamento, consulte [visão geral do armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Requisitos de acesso
 
@@ -91,9 +91,9 @@ Com um objeto do Workfront aberto, clique em **Documentos** no painel esquerdo.
 
 Para obter informações sobre pastas de compartilhamento, consulte [Compartilhar uma pasta de documentos](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-## Criar pastas de documentos na nova área de documentos
+## Criar pastas de documentos na nova área Documentos
 
-Se sua organização usar armazenamento corporativo, você verá a nova área de documentos ao acessar documentos no Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Se sua organização usar armazenamento corporativo, você verá a nova área Documentos ao acessar documentos na Workfront. Para obter mais informações sobre o armazenamento corporativo, consulte [visão geral sobre o armazenamento corporativo da Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Pastas geradas pelo sistema
 
@@ -142,7 +142,7 @@ Para mover uma pasta:
 
    ![mover pasta](assets/rename-folder.png)
 
-<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new documents area -->
+<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new Documents area -->
 
 ### Excluir uma pasta
 
