@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
+source-git-commit: 2a08a1139664517b9ccf41121e8bb0dc686028ab
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2720'
 ht-degree: 9%
 
 ---
@@ -119,7 +119,7 @@ Para reutilizar um campo personalizado calculado existente:
 
    ou
 
-   Clique em **Salvar e fechar**.
+   Clique em **Salvar e Fechar**.
 
 ## Adicionar um novo campo calculado
 
@@ -171,7 +171,7 @@ Para reutilizar um campo personalizado calculado existente:
      </tr>
      <tr>
       <td>Permissão automática</td>
-      <td><p>Ative esta opção para permitir que as permissões financeiras venham automaticamente dos campos usados na fórmula. As definições de permissão são mostradas no campo Tipo de permissão financeira, abaixo.</p><p>O acesso é necessário para todos os campos na fórmula. Por exemplo, se dois campos forem usados em um campo calculado, um deles tiver permissão de faturamento aplicada e o segundo tiver permissão de custo aplicada, o usuário deverá ter permissões para visualizar as taxas de faturamento e de custo para ver o valor calculado.</p></td>
+      <td><p>Ative esta opção para permitir que as permissões financeiras venham automaticamente dos campos usados na fórmula. As definições de permissão são mostradas no campo Tipo de permissão financeira, abaixo.</p><p>O acesso é necessário para todos os campos na fórmula. Por exemplo, se um campo calculado usar dois campos, um com permissões de faturamento e outro com permissões de custo, o usuário deverá ter permissões para exibir ambos para ver o valor calculado.</p></td>
      </tr>
      <tr>
       <td>Tipo de permissão de finanças</td>
