@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '840'
 ht-degree: 6%
 
 ---
@@ -121,7 +121,9 @@ Quando um usuário do Workfront envia um email para o Workfront, as seguintes co
 
   >[!NOTE]
   >
-  > Arquivos MSG não são suportados e não serão anexados ao problema no Workfront.
+  >* Arquivos MSG não são suportados e não serão anexados ao problema no Workfront.
+  >
+  >* Se o seu ambiente tiver acesso ao armazenamento herdado de documentos corporativos do Workfront e do Adobe, as solicitações herdarão o tipo de armazenamento de documentos do projeto, independentemente do que o administrador do Workfront selecionou como sua preferência de armazenamento padrão na área Configuração. Para obter informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 * O usuário que está enviando o email se torna o contato principal do novo problema no Workfront.
 * O corpo do texto do email não pode exceder 4.000 caracteres.

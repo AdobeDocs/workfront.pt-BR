@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '4007'
+source-wordcount: '4035'
 ht-degree: 3%
 
 ---
@@ -183,7 +183,7 @@ Para gerenciar uma exibição de linha do tempo:
      >
      >Essa mensagem deve ser exibida imediatamente depois que sua organização comprar o Planning e os trimestres personalizados já estavam habilitados antes da compra. Sobreposições e intervalos entre os trimestres não são permitidos após habilitar o Workfront Planning para sua organização.
 
-   * Se os trimestres tiverem sido parcialmente configurados, com alguns meses no mesmo ano ausentes, você poderá receber uma notificação ao rolar a tela para exibir os trimestres ausentes de que o restante do ano precisa ser configurado com os trimestres ausentes.
+   * Se os trimestres tiverem sido parcialmente configurados, com alguns meses ausentes no mesmo ano, você poderá receber uma notificação ao rolar a tela para exibir os trimestres ausentes de que o restante do ano precisa ser configurado com os trimestres ausentes.
 
    ![Mensagem original de trimestres personalizados ausente na exibição de linha do tempo](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
@@ -287,7 +287,7 @@ Para adicionar um filtro a uma exibição de linha do tempo:
 1. Selecione uma exibição de linha do tempo e clique em **Filtros** no canto superior direito da tabela.
 1. Clique em **Adicionar condição** e adicione as seguintes informações:
 
-   * **Selecione um campo** para Procurar um campo ou selecione-o na lista.
+   * **Selecione um campo** para procurar um campo e selecione-o na lista.
 
    * **Selecione uma opção** (ou um modificador de filtro) para definir que tipo de condição o campo deve atender.
 
@@ -389,7 +389,7 @@ Considere o seguinte ao trabalhar com agrupamentos na exibição de linha do tem
 
 * Você pode aplicar agrupamentos nas visualizações de tabela e linha do tempo. Os agrupamentos da exibição de tabela são independentes daqueles na exibição de linha do tempo do mesmo tipo de registro.
 * Você pode aplicar três níveis de agrupamento em uma visualização. Os registros são agrupados na ordem de agrupamentos selecionada.
-&lt;!—* É possível aplicar até 4 níveis de agrupamento ao usar a API. —verificando este por enquanto—>
+&lt;!—!—* É possível aplicar até quatro níveis de agrupamento ao usar a API. —verificando este por enquanto—>
 * Os agrupamentos são exclusivos para a exibição selecionada. Duas exibições de tabela do mesmo tipo de registro podem ter agrupamentos diferentes aplicados a elas. Dois usuários observando a mesma visualização de tabela veem o mesmo agrupamento aplicado no momento.
 * Não é possível nomear os agrupamentos criados para uma exibição de tabela.
 * A remoção de agrupamentos os remove de qualquer pessoa que acesse o mesmo tipo de registro que você e que exiba a mesma visualização que você.
@@ -567,8 +567,8 @@ Considere o seguinte ao detalhar a linha do tempo dos registros por seus tipos d
 * Você pode exibir registros conectados na exibição de linha do tempo somente ao exibir os registros no modo Padrão. Não é possível usar a opção Detalhamento no modo Compacto da exibição de linha do tempo.
 * Você pode exibir o seguinte na exibição de linha do tempo, usando o recurso Detalhamento:
    * Registros do Workfront Planning conectados ao tipo de registro selecionado.
-   * Tipos de objeto do Workfront ou ativos do Experience Manager conectados ao tipo de registro selecionado.
-   * Registros ou objetos do Workfront Planning de outro aplicativo que estão conectados a registros conectados ao tipo de registro selecionado.
+   * Tipos de objeto do Workfront ou do Experience Manager conectados ao tipo de registro selecionado.
+   * Registros ou objetos do Workfront Planning de outros aplicativos que estão conectados a registros conectados ao tipo de registro selecionado.
 
      Por exemplo, você pode conectar campanhas a portfólios. Além disso, você pode conectar outro tipo de registro, produtos, a projetos, e a campanhas. Ao criar a visualização da linha do tempo da campanha, você pode detalhar as campanhas por portfólios, produtos e projetos.
 
@@ -619,7 +619,7 @@ Para obter informações, consulte [Tipos de registro de conexão](/help/quicksi
 
    >[!TIP]
    >
-   >Selecione **Não mostrar isto novamente** na **Alternar para o modo de exibição Padrão?caixa**, antes de alternar o modo de exibição.
+   >Selecione **Não mostrar isto novamente** na **Alternar para o modo de exibição Padrão?** antes de alternar a exibição.
    >
    >Esta preferência é lembrada somente para o navegador atual. Se você alterar navegadores ou computadores, terá que selecionar esta preferência novamente.
    >
