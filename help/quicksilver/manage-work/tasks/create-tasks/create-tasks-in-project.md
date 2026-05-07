@@ -9,9 +9,9 @@ role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1116'
 ht-degree: 4%
 
 ---
@@ -119,7 +119,7 @@ Para criar tarefas em um projeto:
 
 1. Vá para o projeto em que deseja criar uma tarefa.
 1. Clique em **Tarefas** no painel esquerdo.
-1. (Condicional) Se você estiver visualizando a lista de tarefas em um modo de exibição Agile, clique no ícone **Modo de Exibição de Lista** no modo de exibição Agile para tarefas![&#x200B; no canto superior direito para exibir a lista de tarefas.](assets/list-view-in-agile-view-for-tasks.png)
+1. (Condicional) Se você estiver visualizando a lista de tarefas em um modo de exibição Agile, clique no ícone **Modo de Exibição de Lista** no modo de exibição Agile para tarefas![&#128279;](assets/list-view-in-agile-view-for-tasks.png) no canto superior direito para exibir a lista de tarefas.
 1. (Opcional) Clique no ícone **Modo de Plano** ícone ![Modo de plano para a lista de tarefas](assets/nwe-plan-mode-icon-task-list.png) e selecione **Salvar Manualmente** e, em seguida, selecione **Padrão** ou **Planejamento de Linha do Tempo**. Isso desabilita a opção **Salvamento automático**, que é habilitada por padrão.
 
    ![Selecionar Salvamento Manual](assets/manual-save-option.png)
@@ -167,6 +167,12 @@ Para criar tarefas em um projeto:
 
    1. (Condicional e opcional) Se quiser que a tarefa seja recorrente, atualize o campo **Frequência de recorrência**. Para obter mais informações sobre como criar tarefas recorrentes, consulte [Criar tarefas recorrentes](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
    1. (Opcional) Clique em **Documentos** no painel esquerdo para anexar um documento à nova tarefa e em **Adicionar ou vincular arquivos** para adicionar um documento à tarefa a partir de seu computador, de outro serviço ou para vincular documentos e pastas a partir de seu computador ou de outro serviço.
+
+      >[!TIP]
+      >
+      >Se sua organização tiver acesso ao armazenamento de documentos corporativos herdados do Workfront e do Adobe, a área Documentos para tarefas poderá ser exibida de forma diferente, dependendo do tipo de armazenamento usado pela tarefa. As tarefas herdam o tipo de armazenamento do projeto.
+      >
+      >Para obter informações, consulte [Adicionar documentos ao Adobe Workfront a partir do seu sistema de arquivos](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 1. (Condicional) Se você clicou em **Adicionar mais tarefas** na etapa 5, comece a inserir as informações da tarefa usando a edição em linha e, em seguida, pressione Enter.
 

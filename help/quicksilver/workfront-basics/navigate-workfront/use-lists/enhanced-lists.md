@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '2931'
+source-wordcount: '2933'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Abaixo estão alguns tipos de listas de objetos do Workfront que usam o formato 
 | Lista de instantâneos | Projeto > Instantâneos |
 | Lista de recursos para faturamento | Projeto > Recurso para Faturamento |
 | Novas atribuições avançadas em uma tarefa | Tarefa > Atribuições > Avançado |
-| Documentos sobre armazenamento corporativo Adobe | Projeto, tarefa, problema, portfólio, modelo de programa > Documentos |
+| Documentos sobre armazenamento corporativo Adobe | Projeto, tarefa, problema, portfólio, programa, modelo, tarefa de modelo > Documentos |
 
 ## Adicionar itens a uma lista aprimorada
 
@@ -361,55 +361,55 @@ Os filtros ajudam a reduzir a quantidade de informações exibidas na lista.
 1. Selecione um modificador de filtro, como &quot;Tem qualquer um de&quot;, &quot;Não tem nenhum de&quot;, &quot;É antes&quot; ou &quot;É depois de&quot;. As opções do modificador são diferentes dependendo do tipo de campo pelo qual você está filtrando.
 1. Selecione o valor ou os valores do campo. Dependendo do tipo de campo pelo qual você está filtrando, talvez seja solicitado que você selecione o item em uma lista, pesquise por ele ou use um calendário para selecionar um intervalo de datas.
 
-   ![Filter in enhanced lists](assets/glist-filter-with-options.png)
+   ![Filtrar em listas aprimoradas](assets/glist-filter-with-options.png)
 
-   The filter is applied to the list automatically.
+   O filtro é aplicado automaticamente à lista.
 
    >[!TIP]
    >
-   >To apply a personalized filter, select one of the following options for a field value:
+   >Para aplicar um filtro personalizado, selecione uma das seguintes opções para um valor de campo:
    >
-   >* **Me (logged in user)** to refer to the logged in user in fields referring to users.
+   >* **Eu (usuário conectado)** para fazer referência ao usuário conectado nos campos que fazem referência aos usuários.
    >
-   >* **My teams** or **My home team** to refer to your teams in fields referring to teams.
+   >* **Minhas equipes** ou **Minha equipe doméstica** para consultar suas equipes em campos referentes a equipes.
    >
-   >* **My groups** or **My home group** to refer to your groups in fields referring to groups.
+   >* **Meus grupos** ou **Meu grupo doméstico** para fazer referência aos seus grupos em campos que fazem referência a grupos.
    >
-   >* **My company** to refer to your company in fields referring to companies.
+   >* **Minha empresa** para fazer referência à sua empresa nos campos que fazem referência a empresas.
    > 
-   >* **My roles** or **My primary role** to refer to your job roles in fields referring to roles.
+   >* **Minhas funções** ou **Minha função principal** para fazer referência às suas funções de trabalho em campos que fazem referência às funções.
 
-1. Click **Add condition** to add another condition to the filter.
+1. Clique em **Adicionar condição** para adicionar outra condição ao filtro.
 
-   You can join multiple filters by an AND or an OR connector.
+   É possível unir vários filtros por um conector AND ou OR.
 
-1. When the filter is applied, you can open the **Filter** options again to change the filter options or clear all of the filters.
+1. Quando o filtro for aplicado, você poderá abrir as opções **Filtro** novamente para alterar as opções de filtro ou limpar todos os filtros.
 
-   An indicator appears on the **Filter** button when a filter is applied to the list.
+   Um indicador é exibido no botão **Filtro** quando um filtro é aplicado à lista.
 
-   ![Filter applied indicator](assets/glist-filter-applied-indicator.png)
+   ![Indicador aplicado de filtro](assets/glist-filter-applied-indicator.png)
 
-### Group items in an enhanced list
+### Agrupar itens em uma lista aprimorada
 
 >[!NOTE]
 >
 >Nem todas as listas aprimoradas têm todos os elementos descritos nesta seção.
 
-Groupings separate the objects on the list into areas based on specific criteria.
+Agrupamentos separam os objetos na lista em áreas com base em critérios específicos.
 
-Workfront provides a limited number of predefined groupings and you cannot modify them.
+O Workfront fornece um número limitado de agrupamentos predefinidos e você não pode modificá-los.
 
-1. Click **Grouping** above the list.
-1. Select a grouping to organize your list.
+1. Clique em **Agrupamento** acima da lista.
+1. Selecione um agrupamento para organizar sua lista.
 
-   ![Select a grouping](assets/glist-grouping-choose-a-group-by.png)
+   ![Selecionar um agrupamento](assets/glist-grouping-choose-a-group-by.png)
 
-1. Click **Collapse all** to display the list with all the groupings collapsed. The default option is to display the list with all groupings expanded.
-1. When the grouping is applied, you can open the Group options again to collapse or expand all of the groupings at once, change the grouping to group by a different field, or clear all of the groupings.
+1. Clique em **Recolher tudo** para exibir a lista com todos os agrupamentos recolhidos. A opção padrão é exibir a lista com todos os agrupamentos expandidos.
+1. Quando o agrupamento é aplicado, você pode abrir as opções de Grupo novamente para recolher ou expandir todos os agrupamentos de uma vez, alterar o agrupamento para agrupar por um campo diferente ou limpar todos os agrupamentos.
 
-   ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)
+   ![Agrupamento em listas aprimoradas](assets/glist-group-by-due-date-priorities.png)
 
-   An indicator appears on the **Grouping** button when a grouping is applied to the list.
+   Um indicador é exibido no botão **Agrupamento** quando um agrupamento é aplicado à lista.
 
    ![Indicador de agrupamento aplicado](assets/glist-grouping-applied-indicator.png)
 

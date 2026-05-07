@@ -6,9 +6,9 @@ description: Dependendo de o administrador do Workfront escolher o padrão de su
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -165,6 +165,11 @@ Considere o seguinte ao trabalhar com tarefas:
 * Você pode renomear e excluir a pasta de documentos da tarefa de armazenamento corporativo do Adobe que também exclui os documentos da pasta. Depois de adicionar novos documentos à tarefa, a pasta é automaticamente recriada. Os documentos excluídos não são colocados de volta na pasta.
 * Para projetos de armazenamento corporativo do Adobe, a pasta de documentos em uma tarefa é exibida como uma subpasta na pasta de documentos criada automaticamente para o projeto.
 * Não é possível copiar ou mover uma tarefa de um projeto de armazenamento da Workfront para um projeto de armazenamento da Adobe. O inverso também não é possível.
+* Os seguintes cenários existem ao converter uma tarefa em um projeto: <!--this info also duplicated in Convert tasks to projects-->
+   * Uma tarefa de armazenamento Workfront cria um projeto de armazenamento Workfront.
+   * Uma tarefa de armazenamento corporativo da Adobe cria um projeto de armazenamento Adobe.
+   * Usar um modelo de armazenamento Workfront para converter uma tarefa de armazenamento Adobe cria um projeto de armazenamento Adobe.
+   * O uso de um modelo de armazenamento Adobe para converter uma tarefa de armazenamento Workfront cria um projeto de armazenamento Workfront.
 
 ### Gerenciamento de documentos para problemas
 
@@ -176,6 +181,11 @@ Leve em consideração o seguinte ao trabalhar com problemas:
 * Para projetos de armazenamento corporativo do Adobe, a pasta de documentos referente a um problema é exibida como uma subpasta na pasta de documentos criada automaticamente para o projeto.
 * Não é possível copiar ou mover um problema de um projeto de armazenamento da Workfront para um projeto de armazenamento da Adobe. O inverso também não é possível.
 * Quando você envia uma solicitação com um documento anexado a um projeto de armazenamento Workfront, a área Documentos da solicitação exibe o documento usando o tipo de armazenamento do projeto, mesmo quando a preferência padrão de armazenamento do sistema é Adobe Enterprise.
+* Os seguintes cenários existem ao converter um problema em um projeto: <!--this info also duplicated in Convert an issue to a project-->
+   * Um problema de armazenamento Workfront cria um projeto de armazenamento Workfront.
+   * Um problema de armazenamento corporativo da Adobe cria um projeto de armazenamento Adobe.
+   * Usar um modelo de armazenamento Workfront para converter um problema de armazenamento Adobe cria um projeto de armazenamento Adobe.
+   * Usar um modelo de armazenamento Adobe para converter um problema de armazenamento Workfront cria um projeto de armazenamento Workfront.
 
 ### Gerenciamento de documentos para modelos de projeto
 
