@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2151'
 ht-degree: 4%
 
 ---
@@ -94,6 +94,13 @@ Old:
 ## Considerações
 
 * Há um limite de processamento de 5 minutos ao converter um problema em um projeto. Se o problema tiver um grande número de documentos anexados a ele e não for convertido, talvez seja necessário remover alguns dos documentos e tentar novamente.
+* Se sua organização usa o armazenamento de documentos corporativos herdados do Workfront e do Adobe, os seguintes cenários existem ao converter um problema em um projeto: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+   * Um problema de armazenamento Workfront cria um projeto de armazenamento Workfront.
+   * Um problema de armazenamento corporativo da Adobe cria um projeto de armazenamento Adobe.
+   * Usar um modelo de armazenamento Workfront para converter um problema de armazenamento Adobe cria um projeto de armazenamento Adobe.
+   * Usar um modelo de armazenamento Adobe para converter um problema de armazenamento Workfront cria um projeto de armazenamento Workfront.
+
+     Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Converter um problema em um projeto
 
@@ -190,7 +197,7 @@ Você pode converter um problema em um projeto usando um modelo.
 
    >[!TIP]
    >
-   >Se você tiver adicionado modelos à sua lista Favoritos, passe o mouse sobre o menu [!UICONTROL **Modelos favoritos**] e clique no modelo que deseja usar.
+   >Se você tiver adicionado modelos à sua lista Favoritos, poderá passar o mouse sobre o menu [!UICONTROL **Modelos favoritos**] e clicar no modelo que deseja usar.
 
    A caixa Novo projeto a partir do modelo é exibida.
 
@@ -225,6 +232,14 @@ Você pode converter um problema em um projeto usando um modelo.
 
    ![Converter para projeto](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
+   >[!TIP]
+   >
+   >* Usar um modelo de armazenamento Workfront para converter um problema de armazenamento Adobe cria um projeto de armazenamento Adobe.
+   >* Usar um modelo de armazenamento Adobe para converter um problema de armazenamento Workfront cria um projeto de armazenamento Workfront.
+   >
+   >Para obter mais informações, consulte [Visão geral do gerenciamento de documentos para projetos e objetos relacionados](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
+
 1. Se um campo já estiver preenchido no modelo, ele será preenchido na caixa [!UICONTROL Converter em projeto]. É possível editar os valores pré-preenchidos para melhor corresponder ao seu projeto. Para obter mais informações, consulte [Editar projetos](../../../manage-work/projects/manage-projects/edit-projects.md).
 
    >[!TIP]
@@ -258,20 +273,20 @@ Você pode converter um problema em um projeto usando um modelo.
      >
      >Ou, se os grupos de nível superior em sua organização os configuraram separadamente, as opções disponíveis aqui dependem do grupo que você selecionou para o novo projeto na etapa 6. Para obter mais informações, consulte [Configurar preferências de tarefas e problemas para um grupo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-   1. Clique em [!UICONTROL **Forms Personalizado**] e siga um destes procedimentos:
+1. Clique em [!UICONTROL **Forms Personalizado**] e siga um destes procedimentos:
 
-      * Revise os formulários personalizados anexados ao modelo. Eles serão transferidos para o novo projeto.
-      * Revise os formulários personalizados anexados ao problema. Eles serão transferidos para o projeto se também forem formulários de projeto.
-      * Verifique se todos os campos obrigatórios têm informações válidas.
-      * Reorganize os formulários personalizados arrastando-os ![ícone de Arrastar](assets/drag-object-icon.png) onde você desejar.
-      * Clique no ícone **x** à direita de qualquer formulário que você não deseja transferir para o projeto.
-      * Se necessário, transfira as informações de formulário personalizadas do problema para o projeto.
+   * Revise os formulários personalizados anexados ao modelo. Eles serão transferidos para o novo projeto.
+   * Revise os formulários personalizados anexados ao problema. Eles serão transferidos para o projeto se também forem formulários de projeto.
+   * Verifique se todos os campos obrigatórios têm informações válidas.
+   * Reorganize os formulários personalizados arrastando-os ![ícone de Arrastar](assets/drag-object-icon.png) onde você desejar.
+   * Clique no ícone **x** à direita de qualquer formulário que você não deseja transferir para o projeto.
+   * Se necessário, transfira as informações de formulário personalizadas do problema para o projeto.
 
-        >[!TIP]
-        >
-        >* Se um formulário personalizado de vários objetos anexado ao problema for configurado para uso com problemas e projetos, todas as informações salvas no formulário serão mantidas quando você fizer a conversão, se os campos existirem tanto no problema quanto nos formulários personalizados do projeto.
-        >* Se um formulário personalizado de vários objetos com um campo calculado for anexado ao problema, bem como ao projeto, o problema e o projeto devem ser compatíveis com todos os campos referenciados nos campos personalizados calculados do formulário. Se houver uma incompatibilidade, uma mensagem o alertará para fazer ajustes. Para obter mais informações, consulte [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
-        >* Se um formulário personalizado anexado ao modelo contiver um campo personalizado também encontrado em um formulário personalizado anexado ao problema, o valor do campo do problema será usado para o novo projeto. No entanto, se o campo personalizado estiver em branco no problema, o valor do template será usado.
+     >[!TIP]
+     >
+     >* Se um formulário personalizado de vários objetos anexado ao problema for configurado para uso com problemas e projetos, todas as informações salvas no formulário serão mantidas quando você fizer a conversão, se os campos existirem tanto no problema quanto nos formulários personalizados do projeto.
+     >* Se um formulário personalizado de vários objetos com um campo calculado for anexado ao problema, bem como ao projeto, o problema e o projeto devem ser compatíveis com todos os campos referenciados nos campos personalizados calculados do formulário. Se houver uma incompatibilidade, uma mensagem o alertará para fazer ajustes. Para obter mais informações, consulte [Adicionar campos calculados a um formulário](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+     >* Se um formulário personalizado anexado ao modelo contiver um campo personalizado também encontrado em um formulário personalizado anexado ao problema, o valor do campo do problema será usado para o novo projeto. No entanto, se o campo personalizado estiver em branco no problema, o valor do template será usado.
 
 1. (Opcional) Defina outros detalhes &#x200B; projeto (proprietário do projeto, datas do projeto) e tarefas, conforme necessário.
 

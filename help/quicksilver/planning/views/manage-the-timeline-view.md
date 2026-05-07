@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '4035'
+source-wordcount: '4068'
 ht-degree: 3%
 
 ---
@@ -212,8 +212,14 @@ Para gerenciar uma exibição de linha do tempo:
       * **Ano**: exibe trimestres e meses com indicação de ano.
       * **Trimestre**: exibe meses e semanas com indicação de trimestre.
       * **Mês**: exibe semanas e dias.
+
+     >[!TIP]
+     >
+     >A exibição da linha do tempo mostra apenas as semanas fiscais de acordo com os trimestres clássicos. Se o administrador do Workfront ativar Trimestres personalizados na área Configuração, as informações da semana não serão exibidas na exibição de linha do tempo.
+
 1. (Opcional) Clique em **Alternar para o modo de exibição Compacto** para exibir os registros cujas datas não se cruzam na mesma linha. <!--check to see if they updated the name of the setting here-->
 1. (Condicional) Se você alterou seu modo para **Compacto**, clique no modo de exibição **Alternar para Padrão** para exibir registros em linhas separadas. A opção **Padrão** é a padrão.  <!--check to see if they updated the name of the setting here-->
+
 
 1. Faça o seguinte para localizar rapidamente registros que correspondam a uma palavra-chave:
 
