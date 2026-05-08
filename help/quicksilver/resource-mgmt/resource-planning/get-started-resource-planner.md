@@ -9,8 +9,8 @@ feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '2113'
-ht-degree: 1%
+source-wordcount: '2115'
+ht-degree: 4%
 
 ---
 
@@ -184,9 +184,9 @@ Certifique-se de que a seguinte configuração de tarefa e problema existe antes
 
   Para exibir informações sobre horas no Planejador de Recursos para usuários ou funções associados a tarefas pai, você também deve atribuí-las às tarefas filho. O Planejador de recursos não exibe informações de tarefas pai.
 
-* Tarefas e problemas têm um valor para Horas planejadas maior que zero.
-* Tarefas e problemas têm um valor para a Duração maior que zero.
-* As datas planejadas dos problemas estão dentro da linha do tempo do projeto.
+* Tarefas e problemas têm um valor de Horas planejadas maior que zero.
+* Tarefas e problemas têm um valor de Duração é maior que zero.
+* As Datas planejadas dos problemas estão dentro da linha do tempo do projeto.
 
 ### Pré-requisitos no nível do sistema {#system-level-prerequisites}
 
@@ -196,9 +196,9 @@ Você deve entender como sua instância do Workfront calcula a disponibilidade d
 
 O administrador do Workfront configura as Preferências de gerenciamento de recursos.
 
-Para obter mais informações, consulte [Configurar preferências de Gerenciamento de Recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Para obter mais informações, consulte [Configurar preferências de gerenciamento de recursos](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-## Localizar o Planejador de recursos
+## Localizar o planejador de recursos
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(This became another standalone article; drfat this section here when article is live.)</p>
@@ -296,7 +296,7 @@ Para obter mais informações sobre como os custos são calculados no Planejador
 </div>
 -->
 
-## Filtrar informações no Planejador de recursos
+## Filtrar informações no planejador de recursos
 
 Você pode reduzir o número de projetos, funções ou usuários exibidos no Planejador de recursos criando um filtro.\
 Para obter mais informações, consulte o artigo [Filtrar informações no Planejador de Recursos](../../resource-mgmt/resource-planning/filter-resource-planner.md).
