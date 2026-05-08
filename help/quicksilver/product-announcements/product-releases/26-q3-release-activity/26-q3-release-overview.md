@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 8c5290f5c9724fa1b382b0acf2a541fe7d3d44fa
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 53%
@@ -76,8 +76,8 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
             <td><strong>Trimestralmente</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Exibições predefinidas adicionadas à lista de solicitações na área Solicitações e ao widget Minhas solicitações</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>Para ajudá-lo a organizar melhor sua lista de solicitações, adicionamos as exibições predefinidas à lista de solicitações na área Solicitações e o widget Minhas solicitações na Página inicial.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Exibições predefinidas adicionadas à lista de solicitações na área Solicitações e ao widget Minhas solicitações</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Para ajudá-lo a organizar melhor sua lista de solicitações, adicionamos as exibições predefinidas à lista de solicitações na área Solicitações e ao widget Minhas solicitações na Página inicial.</p>
             </td>
             <td><p>23 de abril de 2026</p></td>
             <td><p>23 de abril de 2026</p></td>
@@ -85,6 +85,7 @@ Webinários ao vivo são realizados para cada versão trimestral - eles destacam
         </tr>
     </tbody>
 </table>
+
 
 ## Notas de versão para outras áreas
 
